@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-setup-purchasers",
   "published_at": "2025-10-16T12:58:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d61307c69410b013dc841197a2712224cfa8dd28",
       "words": 139,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:24.771Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.004165
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:24.789Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:24.790Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:24.791Z",
+      "page": false
     }
   },
   "input_hash": "d61307c69410b013dc841197a2712224cfa8dd28",
@@ -53,5 +72,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d61307c69410b013dc841197a2712224cfa8dd28"
+  "output_hash": "d5d7bbc20b51b73ad4f528ba5bb53fc947b9c7f94b00cb114bd9efa74b52cc63"
 }

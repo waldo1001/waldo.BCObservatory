@@ -1,0 +1,62 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Overview",
+  "title": "GST Input Service Distribution Overview",
+  "blob": "d9e7f13dd6286cf3a3b23aae730e693e6aed1ed9",
+  "summary": "Configure GST Input Service Distribution (ISD) in India localization to distribute CGST, SGST, and IGST tax credits from input services to multiple supplier locations with the same PAN, including location and general ledger setup.",
+  "systems": [
+    "localization",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "gst",
+    "input service distribution",
+    "tax credit",
+    "india localization",
+    "service distribution",
+    "isd setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Location"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Source Code Setup"
+    },
+    {
+      "type": "page",
+      "name": "GST Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "GST Component Dist. List"
+    }
+  ],
+  "features": [
+    "input service distributor setup",
+    "gst distribution number series",
+    "gst distribution source code",
+    "receivable accounts for distribution",
+    "gst component distribution",
+    "intrastate distribution",
+    "interstate distribution"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003247,
+      "pages_in_call": 8
+    }
+  ]
+}

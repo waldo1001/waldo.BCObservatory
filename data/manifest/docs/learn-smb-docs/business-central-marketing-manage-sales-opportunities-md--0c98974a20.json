@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-manage-sales-opportunities",
   "published_at": "2025-10-19T08:07:01.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 0,
       "cost_usd": 0.003362
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:23.602Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:23.603Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:23.604Z",
+      "page": false
     }
   },
   "input_hash": "5e24a7639f70309bd6ca6b17625c895d488a76a3",

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-integrate-dynamicscrm",
   "published_at": "2025-10-19T08:07:01.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 8,
       "cost_usd": 0.003362
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:23.589Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:23.590Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:23.592Z",
+      "page": false
     }
   },
   "input_hash": "4e4c8a052a614fc8163d8c12db355370fdc8ff2e",

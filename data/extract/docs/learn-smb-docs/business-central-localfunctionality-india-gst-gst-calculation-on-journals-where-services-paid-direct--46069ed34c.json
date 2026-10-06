@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank",
+  "title": "GST on Journals where Services paid directly through Cash or Bank",
+  "blob": "1f74c0c310ad561b1498d1f65fcda0030eb3f675",
+  "summary": "Post GST calculations on journals for services paid directly through cash or bank accounts in India, including CGST, SGST, UTGST, and IGST calculations on direct expenses like legal fees and telephone costs.",
+  "systems": [
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "gst",
+    "journals",
+    "india localization",
+    "service expenses",
+    "cash payment",
+    "bank payment",
+    "tax calculation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journal"
+    }
+  ],
+  "features": [
+    "gst calculation on journals",
+    "cgst posting",
+    "sgst posting",
+    "utgst posting",
+    "igst posting",
+    "direct expense calculation",
+    "unregistered vendor handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003247,
+      "pages_in_call": 8
+    }
+  ]
+}

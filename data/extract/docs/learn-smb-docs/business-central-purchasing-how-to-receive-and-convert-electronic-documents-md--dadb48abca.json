@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchasing-how-to-receive-and-convert-electronic-documents.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-receive-and-convert-electronic-documents",
+  "title": "Receive and convert electronic documents",
+  "blob": "f5a3949b3435858a541a2ed7057d0c6cb6412ff5",
+  "summary": "Receive and convert PEPPOL and OCR electronic invoices and credit memos into purchase documents with text-to-account mapping.",
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "topics": [
+    "electronic documents",
+    "peppol",
+    "ocr",
+    "invoices",
+    "conversion"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Incoming Documents"
+    },
+    {
+      "type": "page",
+      "name": "Incoming Document Card"
+    },
+    {
+      "type": "page",
+      "name": "Text-to-Account Mapping Worksheet"
+    }
+  ],
+  "features": [
+    "PEPPOL format support",
+    "OCR service integration",
+    "text-to-account mapping",
+    "document conversion"
+  ],
+  "versions": [
+    "2023 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004165,
+      "pages_in_call": 8
+    }
+  ]
+}

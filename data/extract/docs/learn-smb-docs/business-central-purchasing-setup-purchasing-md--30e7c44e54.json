@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchasing-setup-purchasing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-setup-purchasing",
+  "title": "Overview of tasks to set up purchasing",
+  "blob": "b0957ab518f770fc5c1689c5a011739cb41ceb91",
+  "summary": "Configure purchasing and payables setup including posting rules, number series, external document requirements, and exact cost reversing for purchase operations.",
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "setup",
+    "purchasing",
+    "payables",
+    "configuration",
+    "number series"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "page",
+      "name": "No. Series"
+    }
+  ],
+  "features": [
+    "discount calculation",
+    "invoice posting",
+    "external document number",
+    "exact cost reversing mandatory",
+    "prepayment checking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004165,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/cside/cside-change-database-collation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/cside/cside-change-database-collation",
+  "title": "Change Collation of an Existing Business Central",
+  "blob": "c8b0f0d9e7cce19f6c5df27c2d57f13ba7c17849",
+  "summary": "Change database collation for Business Central by creating a new database and migrating data using SQL Server Management Studio and PowerShell cmdlets.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "database",
+    "collation",
+    "migration",
+    "deployment",
+    "administration"
+  ],
+  "objects": [],
+  "features": [
+    "database collation change",
+    "single-tenant deployment",
+    "multitenant deployment",
+    "extension handling",
+    "data export/import"
+  ],
+  "versions": [
+    "2019 release wave 2 version 15"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004165,
+      "pages_in_call": 8
+    }
+  ]
+}

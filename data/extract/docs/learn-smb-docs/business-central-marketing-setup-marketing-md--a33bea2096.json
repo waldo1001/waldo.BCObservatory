@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/marketing-setup-marketing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-setup-marketing",
+  "title": "Set up marketing and contact management information",
+  "blob": "2d21cf69714bafa5053b285719f02a5119526f2a",
+  "summary": "Set up marketing and contact management configuration including contact synchronization, inheritance of contact fields, number series, duplicate search, and interaction recording to manage customer relationships effectively.",
+  "systems": [
+    "crm",
+    "administration"
+  ],
+  "topics": [
+    "marketing setup",
+    "contact management",
+    "customer relationships",
+    "contact synchronization",
+    "contact inheritance",
+    "duplicate detection"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Marketing Setup"
+    },
+    {
+      "type": "page",
+      "name": "Contact Card"
+    },
+    {
+      "type": "page",
+      "name": "Interaction Log Entries"
+    }
+  ],
+  "features": [
+    "automatic field inheritance",
+    "contact-customer synchronization",
+    "contact-vendor synchronization",
+    "contact-bank account synchronization",
+    "duplicate contact search",
+    "number series for contacts",
+    "number series for opportunities",
+    "automatic interaction recording"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003247,
+      "pages_in_call": 8
+    }
+  ]
+}

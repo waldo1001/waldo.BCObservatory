@@ -1,0 +1,70 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchasing-how-process-purchase-returns-cancellations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-process-purchase-returns-cancellations",
+  "title": "Process returns or cancellations",
+  "blob": "6005eacd7933ebbe8b3e30eb39a009a0f9d49b11",
+  "summary": "Process purchase returns and cancellations by creating purchase credit memos or purchase return orders with options for exact cost reversing and warehouse handling.",
+  "systems": [
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "purchase returns",
+    "credit memos",
+    "return orders",
+    "cancellations",
+    "inventory costing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Posted Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Apply Vendor Entries"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Credit Memos"
+    },
+    {
+      "type": "page",
+      "name": "Copy Purchase Document"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Return Orders"
+    },
+    {
+      "type": "page",
+      "name": "Posted Purchase Document Lines"
+    },
+    {
+      "type": "page",
+      "name": "Move Negative Purchase Lines"
+    },
+    {
+      "type": "page",
+      "name": "Delete Invoiced Purchase Return Orders"
+    }
+  ],
+  "features": [
+    "purchase credit memo",
+    "purchase return order",
+    "exact cost reversing",
+    "item charge assignment",
+    "return shipment combining"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004165,
+      "pages_in_call": 8
+    }
+  ]
+}

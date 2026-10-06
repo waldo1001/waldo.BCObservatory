@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchasing-how-correct-cancel-unpaid-purchase-invoices.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-correct-cancel-unpaid-purchase-invoices",
+  "title": "Amend or cancel unpaid purchase invoices",
+  "blob": "c27134b0af840c968f55520406a911b6748bf182",
+  "summary": "Correct or cancel unpaid posted purchase invoices by creating corrective credit memos that reverse the original invoice in financial and inventory records while maintaining audit trail.",
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "purchase invoices",
+    "invoice correction",
+    "invoice cancellation",
+    "credit memos",
+    "purchase returns",
+    "audit trail"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Posted Purchase Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Posted Purchase Credit Memo"
+    }
+  ],
+  "features": [
+    "invoice correction",
+    "invoice cancellation",
+    "corrective credit memo creation",
+    "partial invoice posting reversal",
+    "audit trail maintenance",
+    "purchase return processing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003247,
+      "pages_in_call": 8
+    }
+  ]
+}

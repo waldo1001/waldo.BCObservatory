@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-ext-doc-no",
   "published_at": "2025-10-16T12:58:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a91cbdc6b449550523bffd68251e6f5a4cca1b59",
       "words": 40,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:29.026Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003247
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:29.050Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:29.051Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:29.051Z",
+      "page": false
     }
   },
   "input_hash": "a91cbdc6b449550523bffd68251e6f5a4cca1b59",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a91cbdc6b449550523bffd68251e6f5a4cca1b59"
+  "output_hash": "af7f2521cdc8f3469c12c99170117ff2267a085de74252053364d5c669b49947"
 }

@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchasing-date-calculation-for-purchases.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-date-calculation-for-purchases",
+  "title": "Calculate dates for purchases",
+  "blob": "f3cfd5e2828564b672032104222e15e44765b092",
+  "summary": "Calculate automatic order and receipt dates for purchases based on requested receipt dates and lead times, including lead time lookups from item/vendor catalogs, item cards, and vendor cards.",
+  "systems": [
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "date calculation",
+    "purchase orders",
+    "lead time",
+    "receipt dates",
+    "order dates",
+    "date formulas"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Stockkeeping Unit Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    }
+  ],
+  "features": [
+    "requested receipt date calculation",
+    "order date calculation",
+    "lead time calculation",
+    "expected receipt date",
+    "inbound warehouse handling time",
+    "safety lead time",
+    "date formula support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003247,
+      "pages_in_call": 8
+    }
+  ]
+}

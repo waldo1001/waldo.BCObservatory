@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-date-calculation-for-purchases",
   "published_at": "2025-10-16T12:58:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f3cfd5e2828564b672032104222e15e44765b092",
       "words": 509,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:29.025Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003247
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:29.047Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:29.048Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:29.049Z",
+      "page": false
     }
   },
   "input_hash": "f3cfd5e2828564b672032104222e15e44765b092",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f3cfd5e2828564b672032104222e15e44765b092"
+  "output_hash": "e8870cd785a048838c7bff3fb2ec9afb31559d5a119ea253233350cdc91a2fa3"
 }

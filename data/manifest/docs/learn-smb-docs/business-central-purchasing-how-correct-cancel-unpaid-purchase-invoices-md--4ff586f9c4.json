@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-correct-cancel-unpaid-purchase-invoices",
   "published_at": "2025-10-16T12:58:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c27134b0af840c968f55520406a911b6748bf182",
       "words": 496,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:29.027Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003247
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:29.052Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:29.054Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:29.055Z",
+      "page": false
     }
   },
   "input_hash": "c27134b0af840c968f55520406a911b6748bf182",
@@ -55,5 +74,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c27134b0af840c968f55520406a911b6748bf182"
+  "output_hash": "ca0054b6b75462ea5bd975895fc63fb3f8366788a8f306b18f5a9acb76713a36"
 }

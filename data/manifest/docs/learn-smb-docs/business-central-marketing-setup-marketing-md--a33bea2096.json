@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-setup-marketing",
   "published_at": "2025-10-19T08:07:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2d21cf69714bafa5053b285719f02a5119526f2a",
       "words": 759,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:27.382Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003247
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:29.029Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:29.030Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:29.031Z",
+      "page": false
     }
   },
   "input_hash": "2d21cf69714bafa5053b285719f02a5119526f2a",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2d21cf69714bafa5053b285719f02a5119526f2a"
+  "output_hash": "f16df09f7d43034f8d15027e8e33636a6734d3e094a72303a0ad4265f760ecba"
 }

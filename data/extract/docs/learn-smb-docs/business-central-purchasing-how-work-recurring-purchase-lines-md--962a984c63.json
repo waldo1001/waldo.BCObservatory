@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchasing-how-work-recurring-purchase-lines.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-work-recurring-purchase-lines",
+  "title": "Standard recurring purchase lines",
+  "blob": "d445d362bd01cf2b694c7e8b8edc7387ed5e7d44",
+  "summary": "Create recurring purchase line templates and assign them to vendors for automatic or manual insertion on purchase documents.",
+  "systems": [
+    "purchasing"
+  ],
+  "topics": [
+    "recurring purchases",
+    "purchase lines",
+    "vendor setup",
+    "templates"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Recurring Purchase Lines"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoices"
+    }
+  ],
+  "features": [
+    "recurring purchase lines",
+    "automatic line insertion",
+    "manual line insertion",
+    "always ask option"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004165,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/marketing-interaction-attachments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-interaction-attachments",
+  "title": "Attachments for interactions",
+  "blob": "0fb578c1960ff79286c8670a51af3cfa12620b92",
+  "summary": "Manage and view attachments in interactions, which are sourced from interaction templates or segments, supporting file types like Word, PowerPoint, and Excel with actions to open, import, export, copy, or remove attachments.",
+  "systems": [
+    "crm"
+  ],
+  "topics": [
+    "attachments",
+    "interactions",
+    "interaction templates",
+    "segments",
+    "file management",
+    "mail merge"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Interaction Log Entries"
+    }
+  ],
+  "features": [
+    "attachment viewing",
+    "attachment import",
+    "attachment export",
+    "attachment removal",
+    "attachment copying",
+    "word template integration",
+    "merge fields"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003247,
+      "pages_in_call": 8
+    }
+  ]
+}

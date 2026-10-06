@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-prioritize-vendors",
   "published_at": "2025-10-16T12:58:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "613b9950a4cb9f422b09361d705b266784a0c763",
       "words": 158,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:24.767Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004165
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:24.778Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:24.780Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:24.781Z",
+      "page": false
     }
   },
   "input_hash": "613b9950a4cb9f422b09361d705b266784a0c763",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "613b9950a4cb9f422b09361d705b266784a0c763"
+  "output_hash": "c1dce59d6fbdfca0289210d2bf89a925ae63afd0d0bfd78eb3198d392c7c28ac"
 }

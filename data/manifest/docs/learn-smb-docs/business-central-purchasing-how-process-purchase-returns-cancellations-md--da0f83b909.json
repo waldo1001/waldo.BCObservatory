@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-process-purchase-returns-cancellations",
   "published_at": "2025-10-16T12:58:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6005eacd7933ebbe8b3e30eb39a009a0f9d49b11",
       "words": 2599,
       "forms": 8
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:24.769Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.004165
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:24.782Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:24.783Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:24.784Z",
+      "page": false
     }
   },
   "input_hash": "6005eacd7933ebbe8b3e30eb39a009a0f9d49b11",
@@ -80,5 +99,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6005eacd7933ebbe8b3e30eb39a009a0f9d49b11"
+  "output_hash": "a020f4d12ca42e59b4a6445011d72400ded844ece7309e6389ebf8115cd7bd80"
 }
