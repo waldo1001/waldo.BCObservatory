@@ -52,8 +52,17 @@ Deliberate deviations from PLAN, all small:
      Sonnet summary ~$0.04. `npm run nightly -- --pillars video --only yt-microsoft --quota 2 --no-guard` is the
      local end-to-end check.
    - Known gaps: `check:leak` and `validate:content` scripts point at files M0 never wrote.
-4. Learn docs: fetched stage (frontmatter, `ms.search.form`), topic hubs seeded from `TOC.md`, hub narratives from
-   member summaries.
+4. ~~Learn docs~~ Done 2026-10-06 (narratives fill in nightly):
+   - `fetched` (`pipeline/fetch/git-page.ts`): Learn metadata for all 8,050 pages from the blobless mirrors, quota-free,
+     batch blob prefetch. 1,146 pages carry `ms.search.form` (2,152 ids) for the M2 docs↔objects join.
+   - Topic hubs (`pipeline/link/toc.ts`, `pipeline/render/topic.ts`): 605 hubs from both TOC.md files (depth ≤ 4,
+     ≥ 2 pages), galaxy system by taxonomy alias, `content/topics/**` + `content/topics/llms.txt`, site routes.
+     Generated reference pages (methods, diagnostics, API reference) are not in TOC hubs; they belong to M2.
+   - `extracted` (`pipeline/extract/docs.ts`): Haiku, 8 pages per call via executor batch handlers, $0.008/page;
+     reference pages declined. 3,385 pages to go.
+   - Hub narratives (`pipeline/summarize/hub.ts`): Sonnet from member summaries + child narratives, ready at 80%,
+     input-hash refresh, `hub_refresh` quota; $0.045/hub.
+   - Opus `reviewed` for flagged videos (`pipeline/review/video.ts`), $0.13-0.16/review. Hub reviews (D07) not yet.
 5. Roadmap feature stubs (deterministic) and first Opus-reviewed hubs; unreviewed pages ship with a badge.
 
 ## Facts you will need
