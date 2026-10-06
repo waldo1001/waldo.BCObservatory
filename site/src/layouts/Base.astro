@@ -27,7 +27,7 @@ const nav = [
       try { const t = localStorage.getItem("bcobs-theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch {}
     </script>
   </head>
-  <body>
+  <body data-base={base}>
     <a class="skip" href="#content">Skip to content</a>
     {!bare && (
       <header class="site-header">
@@ -40,6 +40,7 @@ const nav = [
             <label class="skip" for="q">Search the knowledge base</label>
             <input id="q" name="q" type="search" placeholder="Search: table 18, Sales-Post, BE" autocomplete="off" />
             <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch light or dark theme" title="Switch theme">◐</button>
+            <button class="icon-btn pal-btn" type="button" data-palette aria-label="Find an AL object (Ctrl+K)" title="Find an AL object (Ctrl+K or ⌘K)">⌘K</button>
           </form>
         </div>
       </header>
@@ -57,6 +58,10 @@ const nav = [
         </div>
       </footer>
     )}
+    <script>
+      import { mountPalette } from "../scripts/palette";
+      mountPalette(document.body.dataset.base ?? "/");
+    </script>
     <script is:inline>
       for (const b of document.querySelectorAll("[data-theme-toggle]")) b.addEventListener("click", () => {
         const root = document.documentElement;

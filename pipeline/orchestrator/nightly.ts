@@ -48,6 +48,7 @@ import { STAGE_HANDLERS } from "./stages.js";
 import { renderVideoIndex, rerenderVideoPages } from "../render/video.js";
 import { renderPostIndex } from "../render/post.js";
 import { renderSearchIndex } from "../render/search.js";
+import { renderObjectsIndex } from "../render/objects-index.js";
 import { renderDigests } from "../render/digest.js";
 import { renderGraph } from "../link/graph.js";
 import { renderSourcesAndCoverage } from "../render/source.js";
@@ -275,6 +276,7 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
     } catch (e) { errors.push(`digest: ${(e as Error).message.slice(0, 200)}`); }
     try { renderSourcesAndCoverage(contentDirOf(opts), opts.dataDir, now); } catch (e) { errors.push(`sources: ${(e as Error).message.slice(0, 200)}`); }
     try { renderSearchIndex(contentDirOf(opts), opts.dataDir); } catch (e) { errors.push(`search index: ${(e as Error).message.slice(0, 200)}`); }
+    try { renderObjectsIndex(contentDirOf(opts), opts.dataDir); } catch (e) { errors.push(`objects index: ${(e as Error).message.slice(0, 200)}`); }
     try { renderGraph(contentDirOf(opts), opts.dataDir, ""); } catch (e) { errors.push(`graph: ${(e as Error).message.slice(0, 200)}`); }
     errors.push(...execution.errors);
     report.plan = {

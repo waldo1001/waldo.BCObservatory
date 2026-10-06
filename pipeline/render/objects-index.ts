@@ -1,0 +1,54 @@
+/**
+ * Compact object indexes for the site's Cmd+K finder and for agents (D46): data/index/objects.json, one short row per
+ * object page, and data/index/fields.json, field name -> the object pages that have a field of that name (from the
+ * preferred major's snapshots). Both are plain arrays to keep them small: 16k objects fit in ~1.5 MB, 15k distinct
+ * field names in ~1.1 MB. Rewritten only when their content changes.
+ */
+import { relative, resolve } from "node:path";
+import matter from "gray-matter";
+import { loadConfig } from "../lib/config.js";
+import { exists, listFiles, readText, writeText } from "../lib/fsx.js";
+import { objectKey } from "../code/extract.js";
+import { iterSnapshot, snapshotDir } from "../code/job.js";
+import { APPS } from "../code/diff.js";
+
+/** [page key, type, id, name, app, namespace, obsolete state] */
+export type ObjectRow = [string, string, number | null, string, string | null, string | null, string | null];
+export interface ObjectsIndex { schema: "bcobs-objects@1"; count: number; rows: ObjectRow[] }
+export interface FieldsIndex { schema: "bcobs-fields@1"; major: string | null; count: number; fields: Record<string, string[]> }
+
+export function renderObjectsIndex(contentDir: string, dataDir: string): { objects: number; fields: number } {
+  const rows: ObjectRow[] = [];
+  const pageOfKey = new Map<string, string>();
+  const root = resolve(contentDir, "objects");
+  for (const f of listFiles(root, ".md")) {
+    let fm: Record<string, any>;
+    try { fm = matter(readText(f)).data; } catch { continue; }
+    if (fm.type !== "object") continue;
+    const pk = relative(root, f).replace(/\.md$/, "");
+    rows.push([pk, String(fm.object_type), fm.object_id ?? null, String(fm.name), fm.app ?? null, fm.namespace ?? null, fm.obsolete?.state ?? null]);
+    pageOfKey.set(objectKey({ type: fm.object_type, id: fm.object_id ?? null, name: String(fm.name) }), pk);
+  }
+  rows.sort((a, b) => a[0].localeCompare(b[0]));
+  const dir = resolve(dataDir, "index");
+  const write = (name: string, obj: unknown) => { const p = resolve(dir, name), text = `${JSON.stringify(obj)}\n`; if (!exists(p) || readText(p) !== text) writeText(p, text); };
+  write("objects.json", { schema: "bcobs-objects@1", count: rows.length, rows } satisfies ObjectsIndex);
+
+  // fields from the preferred major (the one the pages are rendered from), W1 + first-party apps
+  const v = loadConfig<{ narrative_order: string[] }>("versions");
+  const major = v.narrative_order.find((m) => exists(resolve(snapshotDir(dataDir, m, "w1"), "manifest.json"))) ?? null;
+  const fields = new Map<string, Set<string>>();
+  if (major) {
+    for (const part of ["w1", APPS]) {
+      if (!exists(resolve(snapshotDir(dataDir, major, part), "manifest.json"))) continue;
+      for (const o of iterSnapshot(dataDir, major, part)) {
+        const pk = pageOfKey.get(objectKey(o));
+        if (!pk) continue;
+        for (const f of o.fields) { const k = f.name.toLowerCase(); (fields.get(k) ?? fields.set(k, new Set()).get(k)!).add(pk); }
+      }
+    }
+  }
+  const sorted = Object.fromEntries([...fields].sort(([a], [b]) => a.localeCompare(b)).map(([k, s]) => [k, [...s].sort()]));
+  write("fields.json", { schema: "bcobs-fields@1", major, count: fields.size, fields: sorted } satisfies FieldsIndex);
+  return { objects: rows.length, fields: fields.size };
+}

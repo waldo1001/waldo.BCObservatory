@@ -256,3 +256,11 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   fingerprint includes them, so a page is rewritten when something new references it. The MCP server sees it all
   through the markdown. Why: the data carried these relationships since M2 and nothing turned them into navigation;
   "what touches Customer" is the question a BC developer asks first.
+- **D46 Compact object indexes and a Ctrl+K finder.** `pipeline/render/objects-index.ts` writes
+  `data/index/objects.json` (one short row per object page: page key, type, id, name, app, namespace, obsolete
+  state; 1.9 MB for 16k) and `data/index/fields.json` (field name -> object pages that have it, from the preferred
+  major's snapshots; 15k names, 1.1 MB) next to the search index each night. The site mounts a palette on every page
+  (`site/src/scripts/palette.ts`, Ctrl/Cmd+K or the header button): `t18`, `table 18`, `cu 80`, `Customer`,
+  `page customer list`, `field:Posting Date`; the indexes load when the palette first opens. Why: with 16k object
+  pages, "jump to table 18" and "which tables have a Posting Date field" are the two moves a developer makes most,
+  and the full-text search index (7 MB, summaries) is the wrong tool for both. Agents can use the same files.
