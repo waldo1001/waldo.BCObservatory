@@ -1,8 +1,10 @@
 /**
- * Docs ↔ objects (PLAN 4.6, D29), deterministic: Learn pages name the BC pages and reports they document in their
- * `ms.search.form` front matter (`118_Primary` → page 118, `Report_6627_Primary` → report 6627). Those ids are joined
- * to the code snapshots by exact object key. No name or caption matching (AGENTS.md: no title matching); PLAN's
- * name/caption step is left out on purpose.
+ * Docs ↔ objects (PLAN 4.6, D29, D32), deterministic, by identifiers only:
+ * - Learn pages name the BC pages and reports they document in their `ms.search.form` front matter (`118_Primary` →
+ *   page 118, `Report_6627_Primary` → report 6627), joined to the snapshots by exact object key;
+ * - the Learn API reference (`api-reference/v2.0/resources/dynamics_customer`, `.../api/dynamics_customer_get`)
+ *   documents the standard API pages (no APIPublisher) of that APIVersion whose EntityName is that entity.
+ * No name or caption matching (AGENTS.md: no title matching); PLAN's name/caption step is left out on purpose.
  *
  * Outputs (rewritten only when their inputs change):
  * - data/index/docs-objects.json: by_doc (Learn item → objects) and by_object (object key → Learn pages)
@@ -29,7 +31,7 @@ export function formKey(f: SearchForm): string | null {
   return null;
 }
 
-export interface DocRef { id: string; url: string; title: string }
+export interface DocRef { id: string; url: string; title: string; via?: "ms.search.form" | "api-reference" }
 export interface ObjectRef { key: string; name: string | null; versions: string[]; countries: string[]; obsolete: string | null }
 export interface DocsObjects {
   majors: string[]; commits: Record<string, string>; docs: number; links: number;
@@ -41,6 +43,41 @@ export interface Drift {
 }
 
 interface Known { name: string; versions: Set<string>; countries: Set<string>; obsolete: AlObject["obsolete"] }
+/** `<version>|<entityname lowercase>` → key of the standard API page (no APIPublisher), from W1 and first-party apps. */
+export type ApiIndex = Map<string, string>;
+
+export function apiIndex(dataDir: string, majors: string[]): ApiIndex {
+  const idx: ApiIndex = new Map();
+  for (const m of [...majors].sort((a, b) => Number(b) - Number(a))) {
+    for (const part of ["w1", "apps"]) {
+      if (!exists(resolve(snapshotDir(dataDir, m, part), "manifest.json"))) continue;
+      for (const o of readSnapshot(dataDir, m, part)) {
+        const p = o.properties;
+        if (o.type !== "page" || p.PageType !== "API" || p.APIPublisher || !p.EntityName || !p.APIVersion) continue;
+        for (const v of p.APIVersion.split(",").map((x) => x.trim().replace(/^'|'$/g, ""))) {
+          const k = `${v}|${p.EntityName.toLowerCase()}`;
+          if (!idx.has(k)) idx.set(k, objectKey(o));
+        }
+      }
+    }
+  }
+  return idx;
+}
+const API_RE = /\/api-reference\/(v\d+\.\d+)\/(resources|api)\/dynamics_([a-z0-9_]+)$/i;
+/** API page keys a Learn API reference page documents: the resource's entity, or the longest entity an operation starts with. */
+export function apiKeys(url: string, idx: ApiIndex): string[] {
+  const m = url.match(API_RE);
+  if (!m) return [];
+  const [, version, kind, rest] = m;
+  const name = rest.toLowerCase();
+  if (kind === "resources") { const k = idx.get(`${version}|${name}`); return k ? [k] : []; }
+  let best: string | null = null;
+  for (const key of idx.keys()) {
+    const [v, entity] = key.split("|");
+    if (v === version && name.startsWith(`${entity}_`) && (!best || entity.length > best.length)) best = entity;
+  }
+  return best ? [idx.get(`${version}|${best}`)!] : [];
+}
 
 /** Every object key in every snapshot (W1, first-party apps as "apps", country overlays), with where it occurs. */
 function knownObjects(dataDir: string, majors: string[]): Map<string, Known> {
@@ -64,17 +101,20 @@ function countriesWithW1(dataDir: string, major: string): string[] {
   return ["w1", ...readdirSync(resolve(dataDir, "code", major)).filter((cc) => cc !== "w1" && exists(resolve(snapshotDir(dataDir, major, cc), "manifest.json")))];
 }
 
-export function docsObjects(items: ManifestItem[], known: Map<string, Known>, majors: string[], commits: Record<string, string>): { index: DocsObjects; refs: Map<string, DocRef[]> } {
+export function docsObjects(items: ManifestItem[], known: Map<string, Known>, majors: string[], commits: Record<string, string>, api: ApiIndex = new Map()): { index: DocsObjects; refs: Map<string, DocRef[]> } {
   const by_doc: Record<string, ObjectRef[]> = {};
   const refs = new Map<string, DocRef[]>();
   let links = 0;
   for (const it of [...items].sort((a, b) => a.id.localeCompare(b.id))) {
     const forms = (it.meta?.search_form ?? []) as SearchForm[];
-    const keys = [...new Set(forms.map(formKey).filter((k): k is string => !!k))];
+    const via = new Map<string, DocRef["via"]>();
+    for (const k of forms.map(formKey)) if (k) via.set(k, "ms.search.form");
+    for (const k of apiKeys(it.url, api)) if (!via.has(k)) via.set(k, "api-reference");
+    const keys = [...via.keys()];
     if (!keys.length) continue;
     by_doc[it.id] = keys.map((key) => {
       const k = known.get(key);
-      const doc: DocRef = { id: it.id, url: it.url, title: it.title };
+      const doc: DocRef = { id: it.id, url: it.url, title: it.title, via: via.get(key) };
       refs.set(key, [...(refs.get(key) ?? []), doc]);
       links++;
       return { key, name: k?.name ?? null, versions: k ? [...k.versions].sort() : [], countries: k ? [...k.countries].sort() : [], obsolete: k?.obsolete ? k.obsolete.state : null };
@@ -101,7 +141,7 @@ const same = (a: unknown, b: unknown) => JSON.stringify(a) === JSON.stringify(b)
 export function refreshDocsObjects(dataDir: string, majors: string[], docs: ManifestItem[]): { links: number; missing: number; obsolete: number; undocumented: number; written: number } {
   const present = majors.filter((m) => exists(resolve(snapshotDir(dataDir, m, "w1"), "manifest.json"))).sort((a, b) => Number(a) - Number(b));
   const commits = Object.fromEntries(present.map((m) => [m, readJson<SnapshotManifest>(resolve(snapshotDir(dataDir, m, "w1"), "manifest.json")).commit]));
-  const forms = docs.filter((d) => (d.meta?.search_form as SearchForm[] | undefined)?.length).map((d) => [d.id, d.meta!.search_form]).sort();
+  const forms = docs.filter((d) => (d.meta?.search_form as SearchForm[] | undefined)?.length || API_RE.test(d.url)).map((d) => [d.id, d.meta?.search_form ?? d.url]).sort();
   const inputs = { commits, forms: forms.length, forms_hash: sha256(JSON.stringify(forms)) };
   const indexPath = resolve(dataDir, "index", "docs-objects.json"), driftPath = resolve(dataDir, "code", "drift.json");
   const prev = exists(indexPath) ? readJson<DocsObjects & { inputs?: unknown }>(indexPath) : null;
@@ -110,7 +150,7 @@ export function refreshDocsObjects(dataDir: string, majors: string[], docs: Mani
     return { links: prev.links, missing: d.missing.length, obsolete: d.obsolete_documented.length, undocumented: d.new_undocumented.length, written: 0 };
   }
   const known = knownObjects(dataDir, present);
-  const { index, refs } = docsObjects(docs, known, present, commits);
+  const { index, refs } = docsObjects(docs, known, present, commits, apiIndex(dataDir, present));
   const diffs = present.slice(1).map((m, i) => resolve(dataDir, "code", "diffs", "version", `${present[i]}__${m}.json`)).filter(exists).map((p) => readJson<AlDiff>(p));
   const d = drift(refs, known, present, diffs);
   writeJson(indexPath, { inputs, ...index });

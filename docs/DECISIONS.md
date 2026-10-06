@@ -144,3 +144,7 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   code), once 80% of those pages are extracted, and again only when its input hash changes. The localization page
   then leads with the narrative (badged unreviewed) and keeps the numbers. Runs in the nightly code post-pass when
   stage execution finished, within the deadline and spend cap; ~2 Sonnet calls.
+- **D32 The Learn API reference links to API pages by entity.** `api-reference/v<n>/resources/dynamics_<entity>`
+  and its operation pages (`.../api/dynamics_<entity>_<op>`, longest entity prefix) document the standard API page
+  (PageType API, no APIPublisher) of that APIVersion whose EntityName is the entity: an identifier join, not title
+  matching. 448 of 582 API reference pages linked; docs↔objects now 1,592 Learn pages, 5,336 links, each with `via`.
