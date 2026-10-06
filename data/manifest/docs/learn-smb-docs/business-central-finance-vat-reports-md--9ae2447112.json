@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-vat-reports",
   "published_at": "2025-06-26T21:34:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bf7f780fb4cc5b20fd3cd892afc581cb8ca6b4d0",
       "words": 60,
       "forms": 9
+    },
+    "extracted": {
+      "at": "2026-10-06T19:21:50.320Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003381
+    },
+    "summarized": {
+      "at": "2026-10-06T19:21:53.762Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:21:53.763Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:21:53.763Z",
+      "page": false
     }
   },
   "input_hash": "bf7f780fb4cc5b20fd3cd892afc581cb8ca6b4d0",
@@ -83,5 +102,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bf7f780fb4cc5b20fd3cd892afc581cb8ca6b4d0"
+  "output_hash": "35aaced1dd66bbee78366561ab0e6cffa2bce76a07354147638f454787e5219f"
 }

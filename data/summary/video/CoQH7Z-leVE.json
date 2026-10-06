@@ -1,0 +1,27 @@
+{
+  "video_id": "CoQH7Z-leVE",
+  "item_id": "video/yt-microsoft/CoQH7Z-leVE",
+  "summary": "E-invoice matching with Copilot in Business Central: Copilot analyzes an electronic invoice, compares its lines with the purchase order, and flags small discrepancies within user-set tolerance levels. A one-minute demo from 2024-09-03 showing the flow through to a mapped invoice ready to apply.",
+  "overview": "The video shows how Copilot reduces manual line-by-line matching of electronic invoices against purchase orders. Copilot reads the e-invoice, compares the lines with the purchase order, and signals slight discrepancies that fall within tolerance levels the user controls.\n\nIt also identifies lines that may be split or grouped differently, which need manual review. After a quick review the invoice is mapped, and Business Central updates the vendor document number and date so the invoice can be applied to the purchase order. Electronic documents must be set up first. The feature status is not stated in the video.",
+  "key_points": [
+    "Copilot analyzes an electronic invoice and compares its line items with the purchase order.",
+    "Electronic documents must be set up in the system before this works.",
+    "Copilot signals slight discrepancies that are within tolerance levels the user controls; these still need review.",
+    "Tolerance levels must be configured by users.",
+    "Lines that may be split or grouped differently are identified and need manual review.",
+    "After mapping, Business Central updates the vendor document number and date automatically.",
+    "The mapped invoice is then ready to apply to the purchase order."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "decision maker"
+  ],
+  "extraction_hash": "5f9e1a05be454d74d71b5aecab46642cf40bd6f3db77fecef0530b6a119c659a",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0108924
+  }
+}

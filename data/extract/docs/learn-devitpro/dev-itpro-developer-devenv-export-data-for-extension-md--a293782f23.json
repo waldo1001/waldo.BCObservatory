@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-export-data-for-extension.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-export-data-for-extension",
+  "title": "Adding data for Extensions",
+  "blob": "ee5994f40b9988708b06f5ee10276588e1a43de4",
+  "summary": "Add data for extensions including permission sets, web services, table data, and custom report layouts to be imported during extension installation.",
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "extension data",
+    "permission sets",
+    "web services",
+    "table data",
+    "report layouts"
+  ],
+  "objects": [],
+  "features": [
+    "permission sets export",
+    "web services export",
+    "table data export",
+    "custom report layouts export",
+    "NavApp.LoadPackageData procedure"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00316,
+      "pages_in_call": 8
+    }
+  ]
+}

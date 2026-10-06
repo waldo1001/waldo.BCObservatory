@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-cost-accounting",
   "published_at": "2025-06-23T19:44:42.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b0d7ada22266572b4264194639ad0a9048d12a9a",
       "words": 112,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:21:50.322Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003381
+    },
+    "summarized": {
+      "at": "2026-10-06T19:21:53.766Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:21:53.766Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:21:53.767Z",
+      "page": false
     }
   },
   "input_hash": "b0d7ada22266572b4264194639ad0a9048d12a9a",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b0d7ada22266572b4264194639ad0a9048d12a9a"
+  "output_hash": "c0cece79d16d1ebf1044a468c1dddfd53979cee23970a8ecea42d712c32706e8"
 }

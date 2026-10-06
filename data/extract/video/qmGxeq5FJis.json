@@ -1,0 +1,160 @@
+{
+  "video_id": "qmGxeq5FJis",
+  "item_id": "video/yt-microsoft/qmGxeq5FJis",
+  "title": "Create Sales Lines with Copilot in Dynamics 365 Business Central (2024)",
+  "duration_s": 76,
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "topics": [
+    "sales order creation",
+    "copilot ai assistance",
+    "product catalog",
+    "item matching",
+    "order suggestions",
+    "email integration",
+    "sales efficiency"
+  ],
+  "chapters": [
+    {
+      "title": "Problem and Copilot Introduction",
+      "t_start": 0,
+      "t_end": 22.4
+    },
+    {
+      "title": "How Copilot Identifies and Suggests Products",
+      "t_start": 22.4,
+      "t_end": 42.5
+    },
+    {
+      "title": "Streamlining Order Entry Process",
+      "t_start": 42.5,
+      "t_end": 63
+    },
+    {
+      "title": "Benefits for Sales Teams",
+      "t_start": 63,
+      "t_end": 76
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot for Sales Order Creation",
+      "description": "Copilot in Dynamics 365 Business Central automates the process of creating sales orders, invoices, and quotes by identifying products from customer emails or descriptions and suggesting matching items from the product catalog.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2.3,
+      "t_end": 63,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales order",
+        "copilot",
+        "automation",
+        "product matching"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Email-based Order Details Processing",
+      "description": "Users can copy product details from customer emails and paste them directly into Business Central, where Copilot identifies the products and suggests matches from the catalog.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 22.4,
+      "t_end": 42.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "email integration",
+        "product identification",
+        "paste functionality"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Previous Order Reference",
+      "description": "Copilot can reference previous orders to help find items that have been sold before, streamlining the creation of repeat orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 22.4,
+      "t_end": 42.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "previous orders",
+        "repeat sales",
+        "order history"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Natural Language Product Description",
+      "description": "Users can describe goods or services needed with just a few words, and Copilot suggests matching line items from the product catalog based on this natural language input.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 42.5,
+      "t_end": 63,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "natural language",
+        "product suggestions",
+        "catalog search"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 2.3,
+      "text": "in dynamics 365 business central revolutionizes the process of creating sales orders invoices and quotes",
+      "why_it_matters": "Establishes Copilot as a core capability for streamlining sales document creation.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 22.4,
+      "text": "identifies the products in the email conversation and uses the item details variants and attributes in your catalog to suggest matching products",
+      "why_it_matters": "Demonstrates how Copilot matches customer requests to the product catalog using variants and attributes.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 42.5,
+      "text": "suggests line items from your product catalog streamlining the order taking process",
+      "why_it_matters": "Shows that natural language input can trigger product suggestions, reducing manual order entry work.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 63,
+      "text": "frees time for sales teams to focus on building relationships and delivering exceptional customer experiences",
+      "why_it_matters": "Articulates the business value of automation - enabling sales teams to focus on customer relationships rather than data entry.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013941000000000002
+    }
+  ]
+}

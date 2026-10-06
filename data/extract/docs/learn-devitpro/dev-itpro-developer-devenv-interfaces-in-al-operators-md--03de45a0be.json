@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-interfaces-in-al-operators.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al-operators",
+  "title": "Type testing and casting operators for interfaces in AL",
+  "blob": "c11fc84e019cc072d9b1dee7c27329d8d69308bc",
+  "summary": "Type testing and casting operators for interfaces in AL allow developers to test whether interfaces support specific methods using the `is` operator and cast interfaces using the `as` operator, useful when extending interfaces.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "interfaces",
+    "al",
+    "type testing",
+    "casting",
+    "operators"
+  ],
+  "objects": [],
+  "features": [
+    "is operator",
+    "as operator",
+    "interface testing",
+    "interface casting"
+  ],
+  "versions": [
+    "2024 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003381,
+      "pages_in_call": 8
+    }
+  ]
+}

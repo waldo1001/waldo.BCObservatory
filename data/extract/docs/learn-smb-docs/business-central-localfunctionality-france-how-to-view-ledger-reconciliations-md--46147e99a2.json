@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-view-ledger-reconciliations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-view-ledger-reconciliations",
+  "title": "How to view ledger reconciliations",
+  "blob": "a42883c59445e8905e955bbbdb214fa2ca3e4e2b",
+  "summary": "View ledger reconciliations in the French version to review debit and credit amounts for customers and document numbers that resulted in general ledger transactions.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "ledger reconciliation",
+    "french",
+    "general ledger",
+    "customer ledger",
+    "vendor ledger"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger"
+    },
+    {
+      "type": "report",
+      "name": "GL/Cust. Ledger Reconciliation"
+    }
+  ],
+  "features": [
+    "GL/Cust. Ledger Reconciliation report",
+    "date filter",
+    "reconciliation preview"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00316,
+      "pages_in_call": 8
+    }
+  ]
+}

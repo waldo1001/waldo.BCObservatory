@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-filter-expressions-in-odata-uris",
   "published_at": "2025-06-20T15:29:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "dbac781c59e96c7601d89f21015591fa30f5fa9a",
       "words": 697,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:21:50.324Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003381
+    },
+    "summarized": {
+      "at": "2026-10-06T19:21:53.770Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:21:53.771Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:21:53.772Z",
+      "page": false
     }
   },
   "input_hash": "dbac781c59e96c7601d89f21015591fa30f5fa9a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dbac781c59e96c7601d89f21015591fa30f5fa9a"
+  "output_hash": "883f657979cdf4f7f7660f4724a47b38700aba816200d0673001a4fc444767b7"
 }

@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-handling-errors-using-try-methods.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-handling-errors-using-try-methods",
+  "title": "Handling errors using try methods",
+  "blob": "e3a4d71fe377afef642a7c08e399f7761de59398",
+  "summary": "Try methods in AL enable error handling during code execution to catch exceptions and provide user-friendly error messages, with specific behaviors for database transactions and return values.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "try methods",
+    "error handling",
+    "al language",
+    "exception handling",
+    "database transactions"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Codeunit with TryFunction attribute"
+    }
+  ],
+  "features": [
+    "TryFunction attribute",
+    "error catching",
+    "boolean return value",
+    "GetLastErrorText method",
+    "GetLastErrorObject method",
+    "database write restrictions"
+  ],
+  "versions": [
+    "runtime version 2.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00316,
+      "pages_in_call": 8
+    }
+  ]
+}

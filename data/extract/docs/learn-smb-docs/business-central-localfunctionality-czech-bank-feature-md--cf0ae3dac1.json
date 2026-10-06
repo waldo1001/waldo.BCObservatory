@@ -1,0 +1,65 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/bank-feature.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/bank-feature",
+  "title": "Czech Local Functionality - Bank feature",
+  "blob": "493655a09836e392f6090c21c36a422e92d69fe4",
+  "summary": "Czech local banking feature improves efficiency by capturing bank-specific information on customer and vendor bank accounts, and supports payment orders and bank statement management.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "bank accounts",
+    "payment orders",
+    "bank statements",
+    "czech",
+    "payment reconciliation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Account"
+    },
+    {
+      "type": "page",
+      "name": "Customer Bank Account"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Bank Account"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Payment Order"
+    },
+    {
+      "type": "page",
+      "name": "Bank Statement"
+    }
+  ],
+  "features": [
+    "default bank account",
+    "bank account code on sales documents",
+    "bank account code on purchase documents",
+    "payment identification symbols",
+    "payment order export",
+    "bank statement import",
+    "payment reconciliation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00316,
+      "pages_in_call": 8
+    }
+  ]
+}

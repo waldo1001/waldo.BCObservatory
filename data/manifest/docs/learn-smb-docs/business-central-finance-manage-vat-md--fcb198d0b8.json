@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-vat",
   "published_at": "2025-06-30T11:41:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e8ecdf434a2cccaf842e964b2ba01af2efed32d6",
       "words": 439,
       "forms": 13
+    },
+    "extracted": {
+      "at": "2026-10-06T19:21:50.315Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003381
+    },
+    "summarized": {
+      "at": "2026-10-06T19:21:50.325Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:21:50.326Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:21:50.327Z",
+      "page": false
     }
   },
   "input_hash": "e8ecdf434a2cccaf842e964b2ba01af2efed32d6",
@@ -103,5 +122,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e8ecdf434a2cccaf842e964b2ba01af2efed32d6"
+  "output_hash": "faf17cfe2b8264e7e91c7768796f96f61387c4df6bc9f3d27d4735b3bb807c86"
 }

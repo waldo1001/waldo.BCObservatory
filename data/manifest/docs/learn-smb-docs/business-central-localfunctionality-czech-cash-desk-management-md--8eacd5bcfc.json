@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/cash-desk-management",
   "published_at": "2025-06-18T08:05:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e34d0d016d3195ee87d1f85dc786b03a497ce68e",
       "words": 257,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:21:55.714Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00316
+    },
+    "summarized": {
+      "at": "2026-10-06T19:21:57.416Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:21:57.417Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:21:57.418Z",
+      "page": false
     }
   },
   "input_hash": "e34d0d016d3195ee87d1f85dc786b03a497ce68e",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e34d0d016d3195ee87d1f85dc786b03a497ce68e"
+  "output_hash": "00d6308fad6d6e363974b1c06c9e23d322fb9dd217f6f42a0ff8d33ec9441eb9"
 }

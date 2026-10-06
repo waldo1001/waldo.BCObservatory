@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx",
+  "title": "Set up and generate DIOT reports | Microsoft Docs",
+  "blob": "94774a65f679c9196ce1711ea11810f359a6ed8c",
+  "summary": "DIOT report extension for Mexico enables companies to report VAT from vendor purchases to SAT by generating a text file, with setup through Assisted Setup, vendor configuration, and optional withholding tax reporting.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "diot",
+    "mexico",
+    "vat",
+    "vendors",
+    "tax reporting",
+    "withholding"
+  ],
+  "objects": [],
+  "features": [
+    "DIOT setup",
+    "vendor DIOT type of operation",
+    "DIOT concepts",
+    "withholding tax reporting",
+    "RFC number",
+    "tax jurisdiction location"
+  ],
+  "versions": [
+    "26.3"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003381,
+      "pages_in_call": 8
+    }
+  ]
+}

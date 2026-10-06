@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-export-data-for-extension",
   "published_at": "2025-06-18T13:05:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ee5994f40b9988708b06f5ee10276588e1a43de4",
       "words": 526,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:21:55.712Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00316
+    },
+    "summarized": {
+      "at": "2026-10-06T19:21:57.408Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:21:57.409Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:21:57.410Z",
+      "page": false
     }
   },
   "input_hash": "ee5994f40b9988708b06f5ee10276588e1a43de4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ee5994f40b9988708b06f5ee10276588e1a43de4"
+  "output_hash": "d3b2c88c340d4d1f318d5fdff09c92ccca78bb273951fe0c20d21a90acedb433"
 }

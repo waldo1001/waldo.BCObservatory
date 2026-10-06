@@ -1,0 +1,150 @@
+{
+  "video_id": "CoQH7Z-leVE",
+  "item_id": "video/yt-microsoft/CoQH7Z-leVE",
+  "title": "E-invoice Matching with Copilot in Dynamics 365 Business Central (2024)",
+  "duration_s": 65,
+  "systems": [
+    "purchasing",
+    "copilot",
+    "localization"
+  ],
+  "topics": [
+    "e-invoicing",
+    "invoice matching",
+    "copilot",
+    "line item reconciliation",
+    "purchase order",
+    "vendor management",
+    "tolerance levels",
+    "discrepancies"
+  ],
+  "chapters": [
+    {
+      "title": "The invoice matching challenge",
+      "t_start": 0,
+      "t_end": 22.7
+    },
+    {
+      "title": "Copilot-powered invoice analysis and matching",
+      "t_start": 22.7,
+      "t_end": 43
+    },
+    {
+      "title": "Ready for processing and business impact",
+      "t_start": 43,
+      "t_end": 65
+    }
+  ],
+  "features": [
+    {
+      "name": "E-invoice Matching with Copilot",
+      "description": "Copilot analyzes electronic invoices and automatically compares line items with purchase orders, performing intelligent matching to reduce manual effort in invoice processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2.6,
+      "t_end": 43,
+      "is_demoed": true,
+      "caveats": [
+        "Requires electronic documents to be set up in the system",
+        "Discrepancies within user-defined tolerance levels are signaled but require review"
+      ],
+      "tags": [
+        "e-invoicing",
+        "invoice matching",
+        "copilot",
+        "automation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Discrepancy Detection and Tolerance Levels",
+      "description": "Copilot signals discrepancies that fall within user-controlled tolerance levels and identifies when line items may be split or grouped differently.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 22.7,
+      "t_end": 43,
+      "is_demoed": true,
+      "caveats": [
+        "Tolerance levels must be configured by users",
+        "Split or grouped items require manual review"
+      ],
+      "tags": [
+        "discrepancies",
+        "tolerance",
+        "line items"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Vendor Document Updates",
+      "description": "Business Central automatically updates the vendor document number and date after invoice mapping is completed, preparing the invoice for processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 43,
+      "t_end": 65,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vendor",
+        "document management"
+      ],
+      "system": "purchasing"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 2.6,
+      "text": "tediously matching line items is not how you want to start your workday",
+      "why_it_matters": "Establishes the pain point that Copilot solves - manual invoice matching is time-consuming and error-prone",
+      "check": "exact"
+    },
+    {
+      "t": 2.6,
+      "text": "using powerful AI co-pilot analyzes the E invoice and compares the line items with your purchase order getting you to Green in no time",
+      "why_it_matters": "Demonstrates the core capability - automatic comparison of invoice lines to purchase orders with quick resolution",
+      "check": "snapped"
+    },
+    {
+      "t": 22.7,
+      "text": "co-pilot also signals slight discrepancies that are within the tolerance levels that you control",
+      "why_it_matters": "Shows that tolerance levels are configurable by users, giving them control over what requires manual intervention",
+      "check": "exact"
+    },
+    {
+      "t": 22.7,
+      "text": "even if you're dealing with dozens or perhaps hundreds of lines co-pilot also signals slight discrepancies",
+      "why_it_matters": "Indicates the solution scales to handle high-volume invoices with many line items",
+      "check": "exact"
+    },
+    {
+      "t": 43,
+      "text": "after a quick review this invoice is successfully mapped and ready to apply to the purchase order",
+      "why_it_matters": "Shows the workflow - Copilot proposes matching, then user confirms before final processing",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009732000000000001
+    }
+  ]
+}
