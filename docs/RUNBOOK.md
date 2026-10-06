@@ -24,6 +24,14 @@ infra/mini/70-power.sh            # sudo: pmset -a autorestart 1
 infra/mini/80-verify.sh           # end-to-end self-check
 ```
 
+## Budget guard
+
+`npm run guard -- --dry-run` prints the decision as JSON: `go`, `skip` (a window at or above 60 % for 5 hours or
+70 % for 7 days) or `reduced` (usage unreadable). Without `--dry-run` it exits 0 / 3 / 4. Headroom is the number of
+percentage points left before the nearer limit; `config/budget.json` maps it to a quota factor (`headroom_scale`).
+Only LLM quotas scale; captions and code jobs do not. The token is `BCOBS_USAGE_OAUTH_TOKEN` (scope `user:profile`);
+a `claude setup-token` token returns `unavailable:scope`.
+
 ## Recovery
 
 - Nightly aborted mid-run: the next run validates and commits the partial tree first ("recover partial run").

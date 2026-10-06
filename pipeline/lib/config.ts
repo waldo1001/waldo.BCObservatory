@@ -53,6 +53,8 @@ export function enabledSources(kind?: SourceKind | SourceKind[]): SourceDef[] {
 export interface Budget {
   window: { start_local: string; hard_stop_local: string; timezone: string };
   usage_guard: { max_5h_pct: number; max_7d_pct: number; recheck_every_llm_calls: number; on_unavailable: "reduced" | "skip" };
+  headroom_scale: { min_headroom_pct: number; factor: number; facts_only?: boolean }[];
+  reduced_factor: number;
   quotas: Record<string, number>;
   retry: { max_attempts: number; backoff_hours_base: number };
   yt_dlp: { sleep_seconds_min: number; sleep_seconds_max: number };

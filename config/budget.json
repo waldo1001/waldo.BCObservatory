@@ -1,7 +1,14 @@
 {
-  "$comment": "Nightly budget. Usage thresholds mirror Jarvis (same subscription). Quotas are items per run; llm_calls_max caps a run. Headroom scaling: >=40% full, >=20% half, <10% facts-only.",
+  "$comment": "Nightly budget. Usage thresholds mirror Jarvis (same subscription). Quotas are items per run; llm_calls_max caps a run. Headroom = percentage points left before the nearer usage limit; headroom_scale maps it to a quota factor (only LLM quotas scale). reduced_factor applies when usage is unreadable.",
   "window": { "start_local": "01:00", "hard_stop_local": "06:35", "timezone": "Europe/Brussels" },
   "usage_guard": { "max_5h_pct": 60, "max_7d_pct": 70, "recheck_every_llm_calls": 25, "on_unavailable": "reduced" },
+  "headroom_scale": [
+    { "min_headroom_pct": 40, "factor": 1 },
+    { "min_headroom_pct": 20, "factor": 0.5 },
+    { "min_headroom_pct": 10, "factor": 0.25 },
+    { "min_headroom_pct": 0, "factor": 0.25, "facts_only": true }
+  ],
+  "reduced_factor": 0.5,
   "quotas": {
     "captions": 40,
     "video_extract": 25,
