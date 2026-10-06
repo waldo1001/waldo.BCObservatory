@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-edit-expenses",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "356e709115c20a2e4400c5186d090b8256d2dbd0",
       "words": 585,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T12:47:52.976Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.016282
+    },
+    "summarized": {
+      "at": "2026-10-06T12:47:52.990Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T12:47:52.991Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T12:47:52.991Z",
+      "page": false
     }
   },
   "input_hash": "356e709115c20a2e4400c5186d090b8256d2dbd0",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "356e709115c20a2e4400c5186d090b8256d2dbd0"
+  "output_hash": "3bf868ee6277b4e654700e0daf30d9d4877006d919199f3c523f226515767976"
 }

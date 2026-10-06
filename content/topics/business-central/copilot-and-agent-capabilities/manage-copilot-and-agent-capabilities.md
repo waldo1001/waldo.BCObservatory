@@ -7,12 +7,12 @@ tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-06T12:48:04.649Z"
   flags: []
 generated:
-  at: "2026-10-06T12:39:45.359Z"
+  at: "2026-10-06T12:48:04.649Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,7 +92,7 @@ narrative: generated
 
 > Administration of Copilot and agent capabilities in Business Central: the Copilot & agent capabilities page, feature activation, user permissions, cross-geography data movement, Bing Search, Azure OpenAI data handling, and troubleshooting. It answers questions on configuring, controlling and fixing these features.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Manage Copilot and agent capabilities · tier official · system copilot · **unreviewed** (machine-generated narrative)
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Manage Copilot and agent capabilities · tier official · system copilot · narrative reviewed by Opus
 
 ## Overview
 
