@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/use-event-viewer-collect-view-trace-events",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6266b345a428741a68493653116d730d188c2b02",
       "words": 218,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:52.510Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002475
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:55.151Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:55.152Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:56.964Z",
+      "page": false
     }
   },
   "input_hash": "6266b345a428741a68493653116d730d188c2b02",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6266b345a428741a68493653116d730d188c2b02"
+  "output_hash": "6af821ce87a568f7b0bf33fd0d4ce83beddd75a7eb0b5685065dd105ffccbe80"
 }

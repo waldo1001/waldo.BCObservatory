@@ -1,0 +1,28 @@
+{
+  "video_id": "DpYJOkwKxTY",
+  "item_id": "video/yt-microsoft/DpYJOkwKxTY",
+  "summary": "Power BI reporting in Business Central, 2024 release wave 2: 76 embedded Power BI reports in seven apps, set up through an assisted setup wizard per company, with Finance and Sales Overview demoed. Also covers planned demo data, new apps, and open-sourced .pbix files from release 26.",
+  "overview": "The video presents the new Power BI reports for Business Central that are embedded in the application and reachable through role centers and role explorer. It demos the Finance reports (financial KPIs, balance sheet drill-through) and the Sales Overview reports, then walks through the setup wizard, which covers calendar type, date range, holidays, and mapping Power BI workspaces to companies.\n\nIt then covers the roadmap: more demo data in an upcoming minor release, new apps for subscription billing, sustainability and fixed assets, and open-sourcing of the report files from release 26 in April.",
+  "key_points": [
+    "76 Power BI reports are embedded in Business Central and can be opened from role centers and role explorer.",
+    "Setup needs a Power BI workspace connection and picking the right apps; the assisted setup wizard covers calendar type, date range, holidays and workspace-to-company mapping.",
+    "Apps are currently per company, so each company needs its own setup. You can start with one app, add more later, and revisit the setup.",
+    "Finance financial KPIs need account categories mapped correctly during configuration.",
+    "Inventory reporting needs two separate apps for complete coverage.",
+    "Planned: more demo data in a coming minor release (financial, project, fixed assets first), plus new apps for subscription billing, sustainability and fixed assets.",
+    "Announced: the .pbix report files will be open source on GitHub from release 26 (April), so reports can be customized and data sources added."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "ac21800ff0bf2b926820496a7baa120de1e52d971b17ccd17d5be062e60f8e5a",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.016912399999999998
+  }
+}

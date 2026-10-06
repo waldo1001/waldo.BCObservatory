@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/implement-security-certificates-production-environment",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "48a4f762aa8f39acdb00f26f868c69c3bc37dcc2",
       "words": 1695,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:55.137Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007682
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:56.979Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:56.980Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:56.981Z",
+      "page": false
     }
   },
   "input_hash": "48a4f762aa8f39acdb00f26f868c69c3bc37dcc2",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "48a4f762aa8f39acdb00f26f868c69c3bc37dcc2"
+  "output_hash": "9a518d0287f0768aba589919169b95698333e2e8a6c53ba7de3a5e20a79fabc2"
 }

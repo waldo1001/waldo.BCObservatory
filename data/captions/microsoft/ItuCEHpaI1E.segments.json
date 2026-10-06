@@ -1,0 +1,121 @@
+{
+  "video_id": "ItuCEHpaI1E",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.4,
+      "end": 26.4,
+      "text": "in 2024 release wave two you can now conditionally apply uh configuration templates to the data that you synchronize between data ver and business Central my name is Ivan ktic and I'm a product manager in business Central engineering team and I want you to join me for the next couple of minutes to see"
+    },
+    {
+      "t": 26.4,
+      "end": 46.4,
+      "text": "this new capability in action so business is often enriched data that's synchronized between business Central and dataor by using templates to make uh data ready to use either in business Central or in data verse having this configurable rule-based and automated way uh to select the"
+    },
+    {
+      "t": 46.4,
+      "end": 66.4,
+      "text": "templates to apply when you synchronize data and when you create new records means that you don't have to extend your integration Solutions which such rules and the integration between business Central and data verse uh and the 365 uh apps is faster and more uh cost effective so let's"
+    },
+    {
+      "t": 66.4,
+      "end": 86.6,
+      "text": "go ahead and see U what Auto apply templates in integration with data verse looks like in action so the place where we do apply this configuration templates to be applied when the data is synchronized is in the integration table mappings so let's go and open the integration table mappings and see how it looks like"
+    },
+    {
+      "t": 86.6,
+      "end": 107,
+      "text": "we'll work with a customer I've set up a couple of templates so that once the new customers are created from uh data ver they they got apply different templates based on the country code that the customer has the the first thing that you may notice uh right now is when you have only one template"
+    },
+    {
+      "t": 107,
+      "end": 127.2,
+      "text": "the name of the template to be applied is displayed in the integration table mappings but when you have more more templates and they have some conditions or some rules on how these templates are applied you will see the number of templates so let's have a look at this as you can see I have a sort of a default uh template that gets applied when a"
+    },
+    {
+      "t": 127.2,
+      "end": 147.3,
+      "text": "country code is set to uh us or it's uh blank I have the EU template that gets applied uh when any of these uh EU countries are uh are added and this is the third template that I'll apply for all other countries I'll just reuse a filter that I have"
+    },
+    {
+      "t": 147.3,
+      "end": 167.5,
+      "text": "in here to set this up so the foreign configuration template code is going to be applied when a country region code is different from all of these and it's different from us given this is a US company so anything that's not EU or that's"
+    },
+    {
+      "t": 167.5,
+      "end": 187.6,
+      "text": "not us should actually get uh this template now another thing that you can actually do in here is you can actually set the priority of evaluation so once the new record gets created we will go uh one by one and see which of these uh which of these conditions are met and the priority field"
+    },
+    {
+      "t": 187.6,
+      "end": 208.6,
+      "text": "just uh shows the order of evaluation of this right so what I'll do I'll set this one to be three and this one to be two which means that the default is going to be uh evaluated first then we'll look at the foreign and then if the the record does not satisfy the conditions that we set in the filter in here then it's going to evaluate the eu1"
+    },
+    {
+      "t": 208.6,
+      "end": 226.4,
+      "text": "right so so to see how this actually uh Works in action I have a account that I've uh this contoso BCL and as you can see it has the Australian country region code so when I go ahead and create in business"
+    },
+    {
+      "t": 226.4,
+      "end": 246.5,
+      "text": "Central uh the the thing that I want to see is that that foreign template gets applied and that foreign template I forgot to show you actually contains a customer posting group for it right as opposed to the other ones that get posted to other uh receivables account so let's create this in business Central and see what the"
+    },
+    {
+      "t": 246.5,
+      "end": 267.4,
+      "text": "effect of this is see if it's finished okay it has finished and let's see the result of of that so this was a completely uh a completely new customer that we have taken from data verse and put it in uh business Central"
+    },
+    {
+      "t": 267.4,
+      "end": 287.6,
+      "text": "let's have a look at this customer so I have ktoo ble which is a new customer that uh we synchronized and if we look at the customer posting group you can see it is foreign right just to uh show you once more you can"
+    },
+    {
+      "t": 287.6,
+      "end": 301,
+      "text": "actually see that that um configuration template actually had the customer posting group for in"
+    },
+    {
+      "t": 301,
+      "end": 321,
+      "text": "set and it got applied after meeting those conditions uh that we've specified okay so what we saw in the demo is that there are new configuration template setup pages that you can access through a drill down from the integration uh table mapping you can set the you can set a"
+    },
+    {
+      "t": 321,
+      "end": 341.8,
+      "text": "uh sort of conditions by defining a filter that needs to be satisfied in order for template to be uh applied and you can also Define the evaluation priorities or the order in which uh different uh template filters are going to be evaluated before the uh before a specific template is applied"
+    },
+    {
+      "t": 341.8,
+      "end": 362.6,
+      "text": "what I shown you in um in in the short demo was the application of the table configuration template which means this is a template that gets applied once the data ver record gets created in business Central but there's also integration table configuration templates which apply for when"
+    },
+    {
+      "t": 362.6,
+      "end": 382.8,
+      "text": "um business Central um record is actually created in data ver so it works in uh in both uh in both directions and that was it so I hope you really enjoyed the the video and uh I also hope that you go ahead and uh try out this"
+    },
+    {
+      "t": 382.8,
+      "end": 398,
+      "text": "uh new feature uh for additional uh material check out the description below uh the video and for additional links also in the in the caption uh below the video thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.98,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.349,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.359,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1003
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/synchronize-tenant-database-and-application-database.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/synchronize-tenant-database-and-application-database",
+  "title": "Synchronize the Tenant Database with the Application Database",
+  "blob": "970706cd86300bcb056d82224d528e7f3e273c02",
+  "summary": "Synchronize the tenant database schema with the application database in single-tenant or multitenant deployments using the NAV development environment or Sync-NAVTenant cmdlet. Use this when updating database schemas after application changes.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "database synchronization",
+    "multitenant deployment",
+    "schema synchronization",
+    "tenant database"
+  ],
+  "objects": [],
+  "features": [
+    "database synchronization",
+    "schema validation",
+    "multitenant support",
+    "Sync-NAVTenant cmdlet"
+  ],
+  "versions": [
+    "Spring 2019 and earlier"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002475,
+      "pages_in_call": 8
+    }
+  ]
+}

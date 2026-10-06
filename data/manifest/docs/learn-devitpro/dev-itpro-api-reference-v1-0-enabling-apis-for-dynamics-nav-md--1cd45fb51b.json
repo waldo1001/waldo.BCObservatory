@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/enabling-apis-for-dynamics-nav",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f7a10209b0ab4647acf43eb22a53425ea5d0e585",
       "words": 271,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:52.513Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002475
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:56.971Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:56.972Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:56.973Z",
+      "page": false
     }
   },
   "input_hash": "f7a10209b0ab4647acf43eb22a53425ea5d0e585",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f7a10209b0ab4647acf43eb22a53425ea5d0e585"
+  "output_hash": "cb5c5a3e6320d6b930d5e8dfa6130162f703850ef1b7ed2b3d59f00fc91b010a"
 }

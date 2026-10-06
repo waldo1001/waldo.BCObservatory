@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/configure-multiple-web-server-instances",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f46c8f17df0252edefd09a772012697cdbb73918",
       "words": 866,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:55.136Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007682
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:55.145Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:55.146Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:55.147Z",
+      "page": false
     }
   },
   "input_hash": "f46c8f17df0252edefd09a772012697cdbb73918",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f46c8f17df0252edefd09a772012697cdbb73918"
+  "output_hash": "b9cce0a225f485b62217c141c7024731156e1ceeffe558be46a2f9042c221b00"
 }

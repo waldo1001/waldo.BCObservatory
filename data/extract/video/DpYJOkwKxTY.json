@@ -1,0 +1,383 @@
+{
+  "video_id": "DpYJOkwKxTY",
+  "item_id": "video/yt-microsoft/DpYJOkwKxTY",
+  "title": "What's New: Power BI Reporting for Business Central - New Apps (2024 release wave 2)",
+  "duration_s": 917,
+  "systems": [
+    "reporting",
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "power bi embedding",
+    "financial reporting",
+    "role centers",
+    "semantic models",
+    "account categories",
+    "demo data",
+    "open source",
+    "apps installation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 80.9
+    },
+    {
+      "title": "Embedded Reports and Setup Overview",
+      "t_start": 80.9,
+      "t_end": 162.3
+    },
+    {
+      "title": "Accessing Reports and Documentation",
+      "t_start": 162.3,
+      "t_end": 223.2
+    },
+    {
+      "title": "Demo - Reports in Business Central",
+      "t_start": 223.2,
+      "t_end": 403.2
+    },
+    {
+      "title": "Installation and Setup Wizard",
+      "t_start": 403.2,
+      "t_end": 614.4
+    },
+    {
+      "title": "Configuration and Account Mapping",
+      "t_start": 614.4,
+      "t_end": 771.4
+    },
+    {
+      "title": "Roadmap and Future Enhancements",
+      "t_start": 771.4,
+      "t_end": 858
+    },
+    {
+      "title": "Open Source and Closing Remarks",
+      "t_start": 858,
+      "t_end": 917
+    }
+  ],
+  "features": [
+    {
+      "name": "Power BI Embedded Reports",
+      "description": "76 Power BI reports that are embedded within Business Central, enabling access to reporting directly from the application through role centers and role explorer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 19.4,
+      "t_end": 101.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires setup and configuration to connect to Power BI workspace",
+        "Apps are currently per company, requiring separate setup for each company"
+      ],
+      "tags": [
+        "power bi",
+        "reporting",
+        "embedding",
+        "76 reports"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Finance Reports",
+      "description": "Power BI apps providing financial KPIs and balance sheet drill-through capabilities with account category setup for accurate reporting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 121,
+      "t_end": 310.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires account category mapping for financial KPIs",
+        "Setup wizard required for initial configuration"
+      ],
+      "tags": [
+        "finance",
+        "kpi",
+        "balance sheet",
+        "account categories"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Sales Overview Reports",
+      "description": "Power BI reports providing KPIs and details for sales activities with filtering capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 387.6,
+      "t_end": 403.2,
+      "is_demoed": true,
+      "caveats": [
+        "Filtering and drill-through available on most reports"
+      ],
+      "tags": [
+        "sales",
+        "kpi",
+        "overview"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Power BI Setup Wizard",
+      "description": "An assisted setup wizard that guides users through selecting calendar type, date range, holidays, and mapping Power BI workspaces to Business Central companies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 480.9,
+      "t_end": 614.4,
+      "is_demoed": true,
+      "caveats": [
+        "Setup can be revisited and modified after initial configuration",
+        "Users can start with one app and add more incrementally"
+      ],
+      "tags": [
+        "setup",
+        "wizard",
+        "configuration",
+        "calendar"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI Apps for Inventory",
+      "description": "Inventory reporting app, with note that two different apps may be needed for complete inventory reporting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 594,
+      "t_end": 614.4,
+      "is_demoed": false,
+      "caveats": [
+        "Inventory requires two separate apps for complete functionality"
+      ],
+      "tags": [
+        "inventory",
+        "apps"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Demo Data for Power BI",
+      "description": "Enhanced demo data planned for upcoming minor releases to enable demonstration and exploration of Power BI capabilities without connecting to production environments.",
+      "status": "announced",
+      "status_evidence_t": 783.5,
+      "status_evidence_quote": "in one of the coming releases minor releases hopefully the second one we will add demo data",
+      "status_evidence_verified": true,
+      "t_start": 783.5,
+      "t_end": 824.5,
+      "is_demoed": false,
+      "caveats": [
+        "Planned for a future minor release, not in current release",
+        "Will include financial, project, and fixed assets data initially"
+      ],
+      "tags": [
+        "demo data",
+        "roadmap",
+        "testing"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Subscription Billing App",
+      "description": "New Power BI app for subscription billing reporting embedded in Business Central, planned for future releases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 824.3,
+      "t_end": 839.3,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet available, planned for later releases"
+      ],
+      "tags": [
+        "subscription billing",
+        "roadmap"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Sustainability App",
+      "description": "New Power BI app for sustainability reporting with embedded capabilities in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 839.3,
+      "t_end": 858,
+      "is_demoed": false,
+      "caveats": [
+        "Planned for future releases"
+      ],
+      "tags": [
+        "sustainability",
+        "roadmap"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Fixed Assets App",
+      "description": "New Power BI app for fixed assets reporting with embedded capabilities in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 839.3,
+      "t_end": 858,
+      "is_demoed": false,
+      "caveats": [
+        "Planned for future releases"
+      ],
+      "tags": [
+        "fixed assets",
+        "roadmap"
+      ],
+      "system": "fixed-assets"
+    },
+    {
+      "name": "Open Source Power BI Files",
+      "description": "Power BI .pbix files will be made available as open source from GitHub starting in release 26, allowing users to customize reports, add data sources, and create their own variations.",
+      "status": "announced",
+      "status_evidence_t": 858,
+      "status_evidence_quote": "from the next release which means uh release 26 which is April uh we will open source the report files",
+      "status_evidence_verified": true,
+      "t_start": 858,
+      "t_end": 890.2,
+      "is_demoed": false,
+      "caveats": [
+        "Available starting April in release 26, not current release"
+      ],
+      "tags": [
+        "open source",
+        "github",
+        "customization",
+        "roadmap"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Balance Sheet",
+      "t": 254.1
+    },
+    {
+      "type": "report",
+      "name": "Financial Overview",
+      "t": 350.7
+    },
+    {
+      "type": "report",
+      "name": "Sales Overview",
+      "t": 403.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Brian Nelson",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 19.4,
+      "text": "in this release uh in the next minor uh first you will see that we have new powerbi reports enabling uh reporting on your",
+      "why_it_matters": "Clarifies the release timing and core feature of Power BI reporting availability in Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 40.3,
+      "text": "but we also embedded those reports in within business Central so that you can access them directly from within business Central it requires a",
+      "why_it_matters": "Explains the key difference that reports are embedded directly in BC and setup is minimal",
+      "check": "exact"
+    },
+    {
+      "t": 121,
+      "text": "there's um a a piece of uh setup that you need to do you need to pick the right uh apps for the right",
+      "why_it_matters": "Describes the core setup process required within Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 443.6,
+      "text": "currently the apps are per company uh so if I want to run powerbi on multiple um business Central companies I can either create",
+      "why_it_matters": "Important limitation that affects implementation for multi-company scenarios",
+      "check": "exact"
+    },
+    {
+      "t": 783.5,
+      "text": "in one of the coming releases minor releases hopefully the second one we will add demo data so that um when you run on",
+      "why_it_matters": "Indicates future roadmap for demo data availability in upcoming releases",
+      "check": "exact"
+    },
+    {
+      "t": 824.5,
+      "text": "we will extend the set of apps we have the seven apps we have with an app for subscription billing",
+      "why_it_matters": "Announces planned expansion of Power BI apps to subscription billing and other modules",
+      "check": "exact"
+    },
+    {
+      "t": 858,
+      "text": "from the next release which means uh release 26 which is April uh we will open source the report files like the the powerbi",
+      "why_it_matters": "Major announcement of open sourcing Power BI files starting April in release 26",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 60.6,
+      "kind": "coming-later",
+      "text": "later on in one of the next miners uh we will provide more demo data so it's easier to demonstrate all the capabilities that powerbi is offering"
+    },
+    {
+      "t": 101.2,
+      "kind": "coming-later",
+      "text": "later on you'll be able to select specific visuals"
+    },
+    {
+      "t": 783.5,
+      "kind": "coming-later",
+      "text": "in one of the coming releases minor releases hopefully the second one we will add demo data"
+    },
+    {
+      "t": 824.3,
+      "kind": "coming-later",
+      "text": "we will extend the set of apps we have the seven apps we have with an app for subscription billing so that will powerbi will be embedded as reporting there too and we will also get one for sustainability we'll get one for fixed assets"
+    },
+    {
+      "t": 858,
+      "kind": "coming-later",
+      "text": "from the next release which means uh release 26 which is April uh we will open source the report files"
+    },
+    {
+      "t": 858,
+      "kind": "subject-to-change",
+      "text": "in this release because we're still making a few changes um to the uh apps we um we keep it to ourselves"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029193999999999998
+    }
+  ]
+}

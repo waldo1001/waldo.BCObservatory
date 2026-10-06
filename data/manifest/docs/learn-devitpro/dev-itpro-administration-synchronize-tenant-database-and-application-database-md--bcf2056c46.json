@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/synchronize-tenant-database-and-application-database",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "970706cd86300bcb056d82224d528e7f3e273c02",
       "words": 201,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:52.508Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002475
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:55.148Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:55.149Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:55.150Z",
+      "page": false
     }
   },
   "input_hash": "970706cd86300bcb056d82224d528e7f3e273c02",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "970706cd86300bcb056d82224d528e7f3e273c02"
+  "output_hash": "29a2a265c41b9596e162b81b8c3df47d83b64ea105b9174920195f4ea42f2b2a"
 }

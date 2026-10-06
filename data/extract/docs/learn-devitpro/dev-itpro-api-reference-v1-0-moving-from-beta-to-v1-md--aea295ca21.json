@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/api-reference/v1.0/moving-from-beta-to-v1.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/moving-from-beta-to-v1",
+  "title": "(v1.0) Moving from beta to v1.0",
+  "blob": "0e66e546c8aae7a5af4307734a276d38c5898f58",
+  "summary": "Documents changes between beta and v1.0 APIs including URI changes, new entities like customerFinancialDetails, and property migrations. Reference this when migrating from beta API to v1.0.",
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "api migration",
+    "api v1.0",
+    "beta api",
+    "schema changes",
+    "entity updates"
+  ],
+  "objects": [],
+  "features": [
+    "customerFinancialDetails entity",
+    "address fields",
+    "timeRegistrationEntry entity",
+    "key structure changes"
+  ],
+  "versions": [
+    "April 2019"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002475,
+      "pages_in_call": 8
+    }
+  ]
+}

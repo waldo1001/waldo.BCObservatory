@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/api-reference/v1.0/dynamics-rate-limits.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/dynamics-rate-limits",
+  "title": "Working with API limits in Dynamics 365 Business Central (v1.0)",
+  "blob": "a17a8254e0380ff117e0009e9c46a8bed7d0d79b",
+  "summary": "Describes rate limiting strategies, retry logic, and best practices for handling throttling (429 status codes) and timeouts when calling Business Central APIs. Use this when designing resilient API integrations.",
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "api rate limits",
+    "throttling",
+    "retry logic",
+    "integration strategies",
+    "performance optimization"
+  ],
+  "objects": [],
+  "features": [
+    "rate limiting",
+    "exponential backoff",
+    "webhook subscriptions",
+    "batching",
+    "filtering",
+    "expand operations",
+    "deep inserts"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002475,
+      "pages_in_call": 8
+    }
+  ]
+}

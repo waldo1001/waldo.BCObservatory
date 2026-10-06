@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/deployment/configure-multiple-web-server-instances.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/configure-multiple-web-server-instances",
+  "title": "Set Up Multiple Business Central Web Server Instances using PowerShell",
+  "blob": "f46c8f17df0252edefd09a772012697cdbb73918",
+  "summary": "Setting up multiple Business Central web server instances in IIS using PowerShell cmdlets for different companies or deployment scenarios.",
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "web server",
+    "powershell",
+    "iis",
+    "deployment",
+    "configuration"
+  ],
+  "objects": [],
+  "features": [
+    "New-NAVWebServerInstance",
+    "Set-NAVWebServerInstanceConfiguration",
+    "Get-NAVWebServerInstance",
+    "Remove-NAVWebServerInstance",
+    "RootSite deployment",
+    "SubSite deployment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007682,
+      "pages_in_call": 7
+    }
+  ]
+}

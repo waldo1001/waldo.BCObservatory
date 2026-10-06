@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/set-up-performance-counters-performance-monitor",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "814e4d8cc8155ae1d5666187420ed54e24c444ae",
       "words": 192,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:52.507Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002475
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:52.516Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:52.517Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:52.517Z",
+      "page": false
     }
   },
   "input_hash": "814e4d8cc8155ae1d5666187420ed54e24c444ae",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "814e4d8cc8155ae1d5666187420ed54e24c444ae"
+  "output_hash": "a7b0ba819793d0d8c7b03df9bb38f38f9ac3f20dba85d0a930eadc22fe46019b"
 }

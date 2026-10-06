@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-004-Lookup",
   "published_at": "2025-07-11T07:35:16.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 0,
       "cost_usd": 0.003682
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:51.459Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:51.459Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:51.460Z",
+      "page": false
     }
   },
   "input_hash": "b42ad4f6e9abec6c863bfff2d7e33f78137006d0",

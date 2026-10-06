@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/deployment/implement-security-certificates-production-environment.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/implement-security-certificates-production-environment",
+  "title": "Using Security Certificates with Business Central on-premises",
+  "blob": "48a4f762aa8f39acdb00f26f868c69c3bc37dcc2",
+  "summary": "Implementing X.509 security certificates with chain trust to secure connections between Business Central server and clients over WAN.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "security",
+    "certificates",
+    "ssl",
+    "wan",
+    "production",
+    "authentication"
+  ],
+  "objects": [],
+  "features": [
+    "chain trust configuration",
+    "peer trust configuration",
+    "certificate installation",
+    "Server Authentication",
+    "Client Authentication",
+    "SSL for web services",
+    "SOAP/OData security"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007682,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/api-reference/v1.0/dynamics-current-limits.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/dynamics-current-limits",
+  "title": "API Limits in Dynamics 365 Business Central (v1.0)",
+  "blob": "0eb54b3e66b584efb7472dc8a146f99201531da5",
+  "summary": "Lists API limits for OData and SOAP requests including timeouts, rate limits, connections, and request sizes. Reference this for understanding operational constraints on API calls.",
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "api limits",
+    "odata",
+    "soap",
+    "rate limiting",
+    "operational limits"
+  ],
+  "objects": [],
+  "features": [
+    "request timeout",
+    "rate limiting",
+    "maximum connections",
+    "operation timeout",
+    "request size limits"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002475,
+      "pages_in_call": 8
+    }
+  ]
+}
