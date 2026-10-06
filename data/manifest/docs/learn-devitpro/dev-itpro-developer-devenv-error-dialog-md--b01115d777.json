@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-error-dialog",
   "published_at": "2025-07-15T20:40:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f73b6b0c2a307684db7367590e657784f16acf04",
       "words": 886,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:47.883Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004432
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:47.893Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:47.894Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:47.895Z",
+      "page": false
     }
   },
   "input_hash": "f73b6b0c2a307684db7367590e657784f16acf04",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f73b6b0c2a307684db7367590e657784f16acf04"
+  "output_hash": "8e75bda09ac5b2c6967c976af045263f70eb3dce280d07da6489fe9844cbff8d"
 }

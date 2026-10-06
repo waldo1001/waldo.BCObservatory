@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-electronic-payments",
   "published_at": "2025-07-13T08:00:43.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "998faa00f4a6057aeb0aca2d4a95f4ee0384f374",
       "words": 1064,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:47.886Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.004432
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:49.563Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:49.565Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:49.566Z",
+      "page": false
     }
   },
   "input_hash": "998faa00f4a6057aeb0aca2d4a95f4ee0384f374",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "998faa00f4a6057aeb0aca2d4a95f4ee0384f374"
+  "output_hash": "22a4de3688e4cf1f20191814d9e26ee1e3b85ddb38157451f3862b48f05a4de7"
 }

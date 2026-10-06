@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances",
+  "title": "How to Set Up and Close Income Statement Balances",
+  "blob": "802855e145d4e79d13474080fe89b55fb3a18d26",
+  "summary": "Setting up income statement balancing accounts and closing income statement balances in Spain using the Close Income Statement batch job. Use when performing year-end closing procedures in Spanish implementations.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "localization",
+    "spain",
+    "year-end closing",
+    "income statement",
+    "general ledger"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "G/L Account Card"
+    },
+    {
+      "type": "report",
+      "name": "Close Income Statement"
+    }
+  ],
+  "features": [
+    "income statement balancing",
+    "Close Income Statement batch job",
+    "retained earnings",
+    "business unit closing",
+    "dimension closing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004432,
+      "pages_in_call": 8
+    }
+  ]
+}

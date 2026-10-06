@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-work-workspace-projects-references.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-work-workspace-projects-references",
+  "title": "Work with multiple projects and project references",
+  "blob": "ad4f8d868eb1ff1fb9667784871c00fb116fb7f3",
+  "summary": "Managing project references and dependencies in multi-project AL workspaces with automatic symbol resolution and coordinated publishing. Use when organizing complex extensions with interdependent AL projects.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "workspace",
+    "project references",
+    "al development",
+    "dependencies",
+    "publishing"
+  ],
+  "objects": [],
+  "features": [
+    "project references",
+    "dependency publishing",
+    "incremental build",
+    "project loading",
+    "dependency graph traversal"
+  ],
+  "versions": [
+    "version 21.1",
+    "version 25"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004432,
+      "pages_in_call": 8
+    }
+  ]
+}

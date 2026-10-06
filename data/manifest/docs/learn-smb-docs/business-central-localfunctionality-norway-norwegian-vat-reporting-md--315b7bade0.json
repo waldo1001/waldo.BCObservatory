@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-reporting",
   "published_at": "2025-07-15T20:50:27.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 9,
       "cost_usd": 0.005722
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:46.876Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:46.878Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:46.879Z",
+      "page": false
     }
   },
   "input_hash": "f621d3f8d229bd5fd801a3fe93ab9f9039511312",

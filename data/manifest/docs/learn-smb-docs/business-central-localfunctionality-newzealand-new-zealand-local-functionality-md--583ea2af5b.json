@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/new-zealand-local-functionality",
   "published_at": "2025-07-15T12:45:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "68f3f7db3560047d61b80950ae5b365718b91f61",
       "words": 253,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:47.885Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004432
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:49.561Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:49.562Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:49.562Z",
+      "page": false
     }
   },
   "input_hash": "68f3f7db3560047d61b80950ae5b365718b91f61",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "68f3f7db3560047d61b80950ae5b365718b91f61"
+  "output_hash": "e666b4107dcbe3a27f2bf0bc740c1964eb32d04bda8a5c750da7319b0bd69e82"
 }

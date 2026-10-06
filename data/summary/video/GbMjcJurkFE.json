@@ -1,0 +1,27 @@
+{
+  "video_id": "GbMjcJurkFE",
+  "item_id": "video/yt-microsoft/GbMjcJurkFE",
+  "summary": "Analysis Assist with Copilot in Business Central, in preview in 2024 release wave 2: four tips for asking questions on list pages, reviewing generated analysis tabs, using prompt guides and starting from the chat pane. Covers the wave 2 history of manual adjustments and testing in 20 languages.",
+  "overview": "The video, published 2024-10-08 and about 9 minutes long, shows what changed in Analysis Assist for 2024 release wave 2. It is presented as four tips and uses the customer list and item list as examples. Analysis Assist is described as one of many Copilot capabilities and is in preview in this release wave.\n\nThe demo covers choosing the right list, asking a first question, and how Copilot surfaces hidden fields from list personalization into analysis tabs. It then shows reviewing filters and columns, the prompt history that now tracks manual adjustments, prompt guides, language support, and starting an analysis from the chat pane.",
+  "key_points": [
+    "Analysis Assist is in preview in 2024 release wave 2. Results may vary with input and context, and it may not perform as intended.",
+    "Start from the list that holds the data you want, for example the customer list for customer insights, and use the Copilot toolbar or menu to ask questions.",
+    "Copilot can only use fields shown on the list page or in the right pane, including hidden fields available in list personalization. In the demo it added country and region code to a customer analysis even though that field was not on the list.",
+    "New in wave 2: manual adjustments to an analysis tab are tracked in the prompt history, so you can move between versions and see which tab you prefer.",
+    "Keep prompts simple. The prompt guides menu suggests prompts for freezing columns, sorting, filtering, grouping, math functions and pivoting.",
+    "Analysis Assist has been tested and verified in 20 languages. Other languages may not perform as intended.",
+    "You can ask an analysis-type question in the Copilot chat pane. Copilot detects it, goes to the appropriate list and generates analysis tabs."
+  ],
+  "audience": [
+    "end user",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "0370c0ab4c93260a4a7d3cfa7b59975ddb5396f8af04823f5ca03a9e30a42607",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0158584
+  }
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-service-tags",
   "published_at": "2025-07-16T11:02:38.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 0,
       "cost_usd": 0.005722
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:46.874Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:46.875Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:46.875Z",
+      "page": false
     }
   },
   "input_hash": "50857a71c2228ac3ea473d805d52dcb6da7d07b5",

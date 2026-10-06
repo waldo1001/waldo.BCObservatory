@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions",
   "published_at": "2025-07-15T20:40:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "60888629dd279ad66dc60f33b1f4eb320b743331",
       "words": 611,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:47.881Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004432
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:47.891Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:47.892Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:47.892Z",
+      "page": false
     }
   },
   "input_hash": "60888629dd279ad66dc60f33b1f4eb320b743331",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "60888629dd279ad66dc60f33b1f4eb320b743331"
+  "output_hash": "fe5d4648b045c4d8dddca599e1f953e4b1f671e8ce9159965b0e05774709bf62"
 }

@@ -5,12 +5,17 @@
   "tier": "official",
   "title": "What's New in AL: Dependency Publishing (2024 release wave 2)",
   "url": "https://www.youtube.com/watch?v=JKsLjwSh0SQ",
-  "published_at": null,
+  "published_at": "2024-10-08T15:00:24.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:17:42.604Z",
+      "captions": "auto:en-orig",
+      "duration_s": 442
     }
   },
   "input_hash": null,
@@ -19,7 +24,13 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 352,
-    "duration_s": 443,
-    "via": "reconcile"
-  }
+    "duration_s": 442,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null
 }

@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-error-dialog.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-error-dialog",
+  "title": "Understanding the error dialog",
+  "blob": "f73b6b0c2a307684db7367590e657784f16acf04",
+  "summary": "Understanding error dialogs shown to users and the troubleshooting information they contain including AL call stacks and session IDs. Use when analyzing user error experiences and investigating issues through error details.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "error handling",
+    "user interface",
+    "troubleshooting",
+    "telemetry",
+    "al development"
+  ],
+  "objects": [],
+  "features": [
+    "error dialog",
+    "Copy Details section",
+    "AL call stack",
+    "error telemetry",
+    "Application Insights session ID"
+  ],
+  "versions": [
+    "2022 release wave 2",
+    "2023 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004432,
+      "pages_in_call": 8
+    }
+  ]
+}

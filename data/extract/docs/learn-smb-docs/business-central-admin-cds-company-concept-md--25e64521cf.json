@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-cds-company-concept.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-cds-company-concept",
+  "title": "Data ownership models for synchronization",
+  "blob": "da49b0fbac0757140254b0180a159450a927839f",
+  "summary": "Data ownership models for synchronizing Business Central with Dataverse including Team Ownership and Person Ownership configurations. Use when setting up data synchronization between systems.",
+  "systems": [
+    "integration",
+    "crm",
+    "administration"
+  ],
+  "topics": [
+    "dataverse",
+    "synchronization",
+    "data ownership",
+    "business unit",
+    "team ownership"
+  ],
+  "objects": [],
+  "features": [
+    "Team Ownership",
+    "Person Ownership",
+    "business unit mapping",
+    "owner team assignment",
+    "data visibility"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004432,
+      "pages_in_call": 8
+    }
+  ]
+}

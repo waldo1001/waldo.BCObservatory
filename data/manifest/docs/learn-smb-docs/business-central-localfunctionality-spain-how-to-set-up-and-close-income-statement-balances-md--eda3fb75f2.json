@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances",
   "published_at": "2025-07-13T07:34:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "802855e145d4e79d13474080fe89b55fb3a18d26",
       "words": 338,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:47.888Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.004432
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:49.571Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:49.572Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:49.573Z",
+      "page": false
     }
   },
   "input_hash": "802855e145d4e79d13474080fe89b55fb3a18d26",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "802855e145d4e79d13474080fe89b55fb3a18d26"
+  "output_hash": "29129648d6ca5a6ca1dbbeb1ef41d20b636eaca37c9089bfdf690d48a69e8b43"
 }

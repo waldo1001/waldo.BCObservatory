@@ -1,0 +1,63 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-export-electronic-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-electronic-payments",
+  "title": "How to Export Electronic Payments [ES]",
+  "blob": "998faa00f4a6057aeb0aca2d4a95f4ee0384f374",
+  "summary": "Exporting electronic payments in multiple Spanish payment standards including SEPA, AEB N34, N34.1, and E-PAY formats. Use when processing electronic payments from Spain.",
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "localization",
+    "spain",
+    "electronic payments",
+    "sepa",
+    "payment export"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Orders"
+    },
+    {
+      "type": "page",
+      "name": "Payment Journal"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Card"
+    },
+    {
+      "type": "report",
+      "name": "Payment order - Export N34"
+    },
+    {
+      "type": "report",
+      "name": "PO - Export N34.1"
+    },
+    {
+      "type": "report",
+      "name": "Export Electronic Payments"
+    }
+  ],
+  "features": [
+    "Electronic payment export",
+    "SEPA Credit Transfer",
+    "AEB N34",
+    "AEB N34.1",
+    "E-PAY format",
+    "remittance advice"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004432,
+      "pages_in_call": 8
+    }
+  ]
+}
