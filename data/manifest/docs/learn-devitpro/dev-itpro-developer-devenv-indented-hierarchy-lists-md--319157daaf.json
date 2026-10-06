@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-indented-hierarchy-lists",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "248094f30b3a8d6bccd3fe0b2fed979dbd51f431",
       "words": 913,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:17.981Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00602
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:20.698Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:20.699Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:20.700Z",
+      "page": false
     }
   },
   "input_hash": "248094f30b3a8d6bccd3fe0b2fed979dbd51f431",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "248094f30b3a8d6bccd3fe0b2fed979dbd51f431"
+  "output_hash": "6cb7ccca02c15b54974f997774592dd2e1f17774633236b5db24e7cf891ca563"
 }

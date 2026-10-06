@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-ncci-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-ncci-overview",
+  "title": "Nonclustered Columnstore Indexes (NCCI)",
+  "blob": "f7f1c19a9bda1d1c53d5bf2dcdaa8d13b0e6e6ef",
+  "summary": "Nonclustered columnstore indexes (NCCIs) enable fast calculation of sums on numeric data type columns in large tables. Optimizes FlowFields and query performance in Business Central applications.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "nonclustered columnstore index",
+    "ncci",
+    "flowfields",
+    "numeric data",
+    "performance optimization"
+  ],
+  "objects": [],
+  "features": [
+    "sum calculations",
+    "FlowField optimization",
+    "query performance",
+    "decimal indexing",
+    "integer indexing",
+    "biginteger indexing",
+    "duration indexing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003206,
+      "pages_in_call": 7
+    }
+  ]
+}

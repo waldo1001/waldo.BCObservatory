@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-number-sequences.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-number-sequences",
+  "title": "Number sequences in Business Central",
+  "blob": "fc7011e95dce658a471d25befaed172b26b6d867",
+  "summary": "Number sequences in Business Central generate numeric identifiers using SQL Server sequences, supporting gaps and non-blocking operations. Contrasts with number series for improved performance in non-continuous numbering scenarios.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "number sequences",
+    "number series",
+    "sql server sequences",
+    "numeric identifiers",
+    "performance"
+  ],
+  "objects": [],
+  "features": [
+    "NumberSequence data type",
+    "Insert method",
+    "Delete method",
+    "Next method",
+    "Current method",
+    "Exists method",
+    "non-blocking numbering",
+    "company-specific sequences"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003206,
+      "pages_in_call": 7
+    }
+  ]
+}

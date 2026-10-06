@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-ncci-and-sql-server.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-ncci-and-sql-server",
+  "title": "Nonclustered Columnstore Indexes (NCCIs) and SQL Server",
+  "blob": "98e02be033cf1fd0d11bb49339f6dc0f3ff9db69",
+  "summary": "Nonclustered columnstore indexes (NCCIs) in Business Central use SQL Server NCCI feature for analytical queries. Explains NCCI implementation advantages over SIFT keys regarding database locking and index maintenance.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "nonclustered columnstore index",
+    "ncci",
+    "sql server",
+    "performance",
+    "sift keys",
+    "database indexing"
+  ],
+  "objects": [],
+  "features": [
+    "NCCI implementation",
+    "SQL Server integration",
+    "analytical queries",
+    "BLOB exclusion",
+    "database locking reduction"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003206,
+      "pages_in_call": 7
+    }
+  ]
+}

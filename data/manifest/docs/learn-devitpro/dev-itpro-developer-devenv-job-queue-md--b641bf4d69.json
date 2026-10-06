@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-job-queue",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "509a7c248f246f718e39a9858b3e218eeb260300",
       "words": 828,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:18.937Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.003206
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:18.945Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:18.946Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:18.948Z",
+      "page": false
     }
   },
   "input_hash": "509a7c248f246f718e39a9858b3e218eeb260300",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "509a7c248f246f718e39a9858b3e218eeb260300"
+  "output_hash": "6fddc33038a5a5188f30fcb05271cbc70e1eeba3c1de8aaccc07efc9ef977496"
 }

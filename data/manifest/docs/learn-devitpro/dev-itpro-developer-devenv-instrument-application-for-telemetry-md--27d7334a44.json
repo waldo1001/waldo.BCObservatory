@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "82fbdea7d33f9b3e890d53973858a7660c0153db",
       "words": 589,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:17.982Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00602
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:20.703Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:20.704Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:20.704Z",
+      "page": false
     }
   },
   "input_hash": "82fbdea7d33f9b3e890d53973858a7660c0153db",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "82fbdea7d33f9b3e890d53973858a7660c0153db"
+  "output_hash": "e63a0ab72a746e98a289fa4ed6b5ec55c79b7f954c9ecce9451b9918cdeebb06"
 }

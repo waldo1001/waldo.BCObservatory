@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0a0b5cb157c0102e6a7668035b7e818667f43ec3",
       "words": 2285,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:17.980Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00602
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:20.696Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:20.697Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:20.697Z",
+      "page": false
     }
   },
   "input_hash": "0a0b5cb157c0102e6a7668035b7e818667f43ec3",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0a0b5cb157c0102e6a7668035b7e818667f43ec3"
+  "output_hash": "a6cb33c6e0c6ca54733047650f8b6fc60c7187e07b9a5eb6d8aef16e30874a5a"
 }

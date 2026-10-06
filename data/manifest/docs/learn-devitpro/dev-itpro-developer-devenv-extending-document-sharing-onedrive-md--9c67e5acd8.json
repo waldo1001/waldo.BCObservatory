@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-document-sharing-onedrive",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4c6c17d0b7773c8d336542fc986e2958684738c1",
       "words": 1202,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:17.978Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.00602
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:17.983Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:17.983Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:17.984Z",
+      "page": false
     }
   },
   "input_hash": "4c6c17d0b7773c8d336542fc986e2958684738c1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4c6c17d0b7773c8d336542fc986e2958684738c1"
+  "output_hash": "eb6a1b5fabf0ee9bb62cbc02246e5d2892d1f9d6272c6f6d96468780c7a92fa9"
 }

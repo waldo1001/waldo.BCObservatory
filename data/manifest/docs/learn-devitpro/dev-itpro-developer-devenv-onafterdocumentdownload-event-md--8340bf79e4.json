@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-onafterdocumentdownload-event",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "96fd630341919f2161b6f20b2804acd741591bb0",
       "words": 259,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:18.944Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003206
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:20.719Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:20.720Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:20.721Z",
+      "page": false
     }
   },
   "input_hash": "96fd630341919f2161b6f20b2804acd741591bb0",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "96fd630341919f2161b6f20b2804acd741591bb0"
+  "output_hash": "7e4d0e679b9fc383d37d6beeb17af6760d1b01dd98b395f19c0b6fc497fde89a"
 }

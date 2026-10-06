@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-ncci-performance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-ncci-performance",
+  "title": "Nonclustered Columnstore Indexes (NCCI) and Performance",
+  "blob": "7d014af163c30597b68d11c1ccf5b16cafd43438",
+  "summary": "Examines performance factors for nonclustered columnstore indexes (NCCIs) including necessity, field selection, and SIFT index comparison. Emphasizes testing after NCCI structure changes.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "nccis",
+    "performance",
+    "sift indexes",
+    "field indexing",
+    "testing"
+  ],
+  "objects": [],
+  "features": [
+    "NCCI necessity assessment",
+    "field selection",
+    "SIFT index disabling",
+    "performance testing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003206,
+      "pages_in_call": 7
+    }
+  ]
+}

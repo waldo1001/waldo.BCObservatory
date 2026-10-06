@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-how-publish-and-install-an-extension-v2.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-how-publish-and-install-an-extension-v2",
+  "title": "Publishing and Installing an Extension",
+  "blob": "cacf88a692e5afb1abcdb711bae3db8bd2d170a1",
+  "summary": "Publishing and Installing an Extension describes the tasks to publish an extension package to a Business Central server, synchronize it with the tenant database, and install it for users.",
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "extension publishing",
+    "extension installation",
+    "powershell",
+    "tenant database",
+    "synchronization"
+  ],
+  "objects": [],
+  "features": [
+    "publish-navapp cmdlet",
+    "sync-navapp cmdlet",
+    "install-navapp cmdlet",
+    "extension management page",
+    "installation code"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00602,
+      "pages_in_call": 8
+    }
+  ]
+}

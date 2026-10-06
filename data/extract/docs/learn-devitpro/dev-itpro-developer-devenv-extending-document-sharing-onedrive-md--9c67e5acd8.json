@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extending-document-sharing-onedrive.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-document-sharing-onedrive",
+  "title": "Extending Document Sharing and OneDrive for Business",
+  "blob": "4c6c17d0b7773c8d336542fc986e2958684738c1",
+  "summary": "Extending Document Sharing and OneDrive for Business explains how developers use the Document Sharing module from the system application and Document Service Management codeunit to enable file sharing through OneDrive or custom document services.",
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "onedrive",
+    "document sharing",
+    "sharepoint",
+    "file management",
+    "extension development"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Document Sharing"
+    },
+    {
+      "type": "codeunit",
+      "name": "Document Sharing"
+    },
+    {
+      "type": "codeunit",
+      "name": "Document Service Management"
+    }
+  ],
+  "features": [
+    "document sharing flows",
+    "onedrive integration",
+    "sharepoint service",
+    "blob and media types",
+    "event subscribers",
+    "share action"
+  ],
+  "versions": [
+    "2022 release wave 1",
+    "2022 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00602,
+      "pages_in_call": 8
+    }
+  ]
+}

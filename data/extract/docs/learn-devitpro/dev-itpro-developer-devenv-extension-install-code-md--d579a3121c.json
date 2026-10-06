@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extension-install-code.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-install-code",
+  "title": "Writing extensions installation code",
+  "blob": "e359653e7d5a4236cf7e712b6ea24dddb1a01b89",
+  "summary": "Writing Extension Install Code describes how to create install codeunits with OnInstallAppPerCompany and OnInstallAppPerDatabase triggers to perform operations when an extension is installed or reinstalled.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "extension installation",
+    "install codeunit",
+    "triggers",
+    "data setup",
+    "moduleinfo"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "MyInstallCodeunit"
+    }
+  ],
+  "features": [
+    "install triggers",
+    "module information",
+    "fresh install detection",
+    "reinstall handling",
+    "navapp methods"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00602,
+      "pages_in_call": 8
+    }
+  ]
+}

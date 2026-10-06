@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-inherent-permissions",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e30efe2dd2b270d7c71fa008aeadcd9f8ad581e1",
       "words": 661,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:17.982Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00602
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:20.700Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:20.701Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:20.702Z",
+      "page": false
     }
   },
   "input_hash": "e30efe2dd2b270d7c71fa008aeadcd9f8ad581e1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e30efe2dd2b270d7c71fa008aeadcd9f8ad581e1"
+  "output_hash": "49cfac4644c14d212866ac87f92cd5040464306a807d3260b5c3efafc7be72b8"
 }

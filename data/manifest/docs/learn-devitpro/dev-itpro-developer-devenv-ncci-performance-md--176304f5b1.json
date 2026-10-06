@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-ncci-performance",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7d014af163c30597b68d11c1ccf5b16cafd43438",
       "words": 146,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:18.941Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003206
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:20.714Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:20.715Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:20.716Z",
+      "page": false
     }
   },
   "input_hash": "7d014af163c30597b68d11c1ccf5b16cafd43438",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7d014af163c30597b68d11c1ccf5b16cafd43438"
+  "output_hash": "e1feeccaa33c2691c575118819e97069ab0b17e79bf7197e6806fe271b551c91"
 }

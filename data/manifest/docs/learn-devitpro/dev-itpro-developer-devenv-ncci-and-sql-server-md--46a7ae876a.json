@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-ncci-and-sql-server",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "98e02be033cf1fd0d11bb49339f6dc0f3ff9db69",
       "words": 178,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:18.939Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003206
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:20.708Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:20.708Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:20.709Z",
+      "page": false
     }
   },
   "input_hash": "98e02be033cf1fd0d11bb49339f6dc0f3ff9db69",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "98e02be033cf1fd0d11bb49339f6dc0f3ff9db69"
+  "output_hash": "af5bcbf6f9fb934a3005a37e430c034070a81faa96fdd656840d63875be856a4"
 }

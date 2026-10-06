@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-install-code",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e359653e7d5a4236cf7e712b6ea24dddb1a01b89",
       "words": 434,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:17.978Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00602
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:18.949Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:18.950Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:18.951Z",
+      "page": false
     }
   },
   "input_hash": "e359653e7d5a4236cf7e712b6ea24dddb1a01b89",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e359653e7d5a4236cf7e712b6ea24dddb1a01b89"
+  "output_hash": "e1d39a860b5b52fb4ee3fd095be433e50b36ffea6e2b3289ef06b77b569a378c"
 }

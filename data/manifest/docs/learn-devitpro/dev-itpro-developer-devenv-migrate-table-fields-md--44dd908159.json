@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migrate-table-fields",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cda1905a6c546d0c75f5b73d41d2856315662bf4",
       "words": 812,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:18.938Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003206
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:20.705Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:20.706Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:20.707Z",
+      "page": false
     }
   },
   "input_hash": "cda1905a6c546d0c75f5b73d41d2856315662bf4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cda1905a6c546d0c75f5b73d41d2856315662bf4"
+  "output_hash": "9e7680f6f201837798a3891a84d25dd1dbf48acbdf754c4c1322f8dc0175e197"
 }

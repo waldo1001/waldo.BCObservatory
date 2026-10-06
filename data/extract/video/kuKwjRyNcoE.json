@@ -1,0 +1,153 @@
+{
+  "video_id": "kuKwjRyNcoE",
+  "item_id": "video/yt-microsoft/kuKwjRyNcoE",
+  "title": "Ensure Consistency in Journals With Journal Check",
+  "duration_s": 110,
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "journal check",
+    "data consistency",
+    "real-time validation",
+    "general journal",
+    "data integrity"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Journal Consistency and Check Options",
+      "t_start": 0,
+      "t_end": 30.8
+    },
+    {
+      "title": "Enabling Journal Check Feature",
+      "t_start": 30.8,
+      "t_end": 52.3
+    },
+    {
+      "title": "Journal Check Fact Box and Issue Detection",
+      "t_start": 52.3,
+      "t_end": 77.6
+    },
+    {
+      "title": "Line-Level Issue Validation",
+      "t_start": 77.6,
+      "t_end": 110
+    }
+  ],
+  "features": [
+    {
+      "name": "Journal Check",
+      "description": "A real-time validation feature that checks journal consistency and data integrity. Shows issues in a fact box on the journal page and provides line-level validation as you type.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 30.8,
+      "t_end": 97.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "real-time validation",
+        "data consistency",
+        "journal management"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Enable Data Check Setting",
+      "description": "A configuration setting in General Ledger Setup that enables the journal check feature. When enabled, a new Journal Check fact box appears on journal pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 52.3,
+      "t_end": 62.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "setup",
+        "configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Journal Check Fact Box",
+      "description": "A UI element that appears on the right side of journal pages showing data consistency issues. Displays total issues and line-specific issues when a line is selected.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 62.6,
+      "t_end": 97.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "fact box",
+        "validation display"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journals",
+      "t": 20.1
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup",
+      "t": 52.3
+    },
+    {
+      "type": "table",
+      "name": "General Journal Line",
+      "t": 77.6
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.3,
+      "text": "ensure consistency in journals with realtime Journal check in business Central",
+      "why_it_matters": "This is the core value proposition of the feature - providing real-time validation for journal consistency.",
+      "check": "exact"
+    },
+    {
+      "t": 30.8,
+      "text": "if I want guidance in real time there's another option I can use that's a journal check",
+      "why_it_matters": "Explains the purpose of Journal Check as an alternative to preview posting or test reports for real-time guidance.",
+      "check": "exact"
+    },
+    {
+      "t": 62.6,
+      "text": "a new fact box is now visible on the right side of the page called Journal check here it shows that there's an issue",
+      "why_it_matters": "Describes how the feature manifests in the UI and its ability to display issues.",
+      "check": "exact"
+    },
+    {
+      "t": 77.6,
+      "text": "it also shows Once you have focused on a specific line if there is any issue with that line",
+      "why_it_matters": "Highlights the line-level validation capability that provides detailed issue feedback.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009744999999999998
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-job-queue.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-job-queue",
+  "title": "Job queue",
+  "blob": "509a7c248f246f718e39a9858b3e218eeb260300",
+  "summary": "Job queue in Business Central enables end users to schedule background jobs with recurring options through an abstraction layer. Describes job queue flow, dispatcher codeunit handling, error management, and permissions for background task execution.",
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "job queue",
+    "background processing",
+    "task scheduler",
+    "error handling",
+    "permissions",
+    "telemetry"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Job Queue Dispatcher"
+    },
+    {
+      "type": "codeunit",
+      "name": "Job Queue Error Handler"
+    },
+    {
+      "type": "table",
+      "name": "Job Queue Entry"
+    },
+    {
+      "type": "table",
+      "name": "Session Events"
+    }
+  ],
+  "features": [
+    "job queue dispatcher",
+    "job queue error handler",
+    "background sessions",
+    "recurring jobs",
+    "parameter passing",
+    "error message management",
+    "GuiAllowed suppression"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003206,
+      "pages_in_call": 7
+    }
+  ]
+}

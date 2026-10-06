@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-how-publish-and-install-an-extension-v2",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cacf88a692e5afb1abcdb711bae3db8bd2d170a1",
       "words": 568,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:17.980Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00602
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:20.692Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:20.694Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:20.695Z",
+      "page": false
     }
   },
   "input_hash": "cacf88a692e5afb1abcdb711bae3db8bd2d170a1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cacf88a692e5afb1abcdb711bae3db8bd2d170a1"
+  "output_hash": "d9af0b3ce78fe3eec1f3ce8cd71d39337da435f6f017c24aadcb160a94378c82"
 }

@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-inherent-permissions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-inherent-permissions",
+  "title": "Inherent Permissions",
+  "blob": "e30efe2dd2b270d7c71fa008aeadcd9f8ad581e1",
+  "summary": "Inherent Permissions describes how developers can grant temporary elevated permissions to specific AL methods or events to complete tasks without modifying user permission sets.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "inherent permissions",
+    "permission management",
+    "code execution",
+    "entitlements",
+    "security"
+  ],
+  "objects": [],
+  "features": [
+    "inherentpermissions attribute",
+    "read write execute permissions",
+    "inherent entitlements",
+    "permission scope",
+    "temporary permissions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00602,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-ncci-overview",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f7f1c19a9bda1d1c53d5bf2dcdaa8d13b0e6e6ef",
       "words": 80,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:18.940Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003206
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:20.711Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:20.712Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:20.713Z",
+      "page": false
     }
   },
   "input_hash": "f7f1c19a9bda1d1c53d5bf2dcdaa8d13b0e6e6ef",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f7f1c19a9bda1d1c53d5bf2dcdaa8d13b0e6e6ef"
+  "output_hash": "dfecdc14db19d948fbf7f5d00706bdfb8c319d507f45c0c4bac21a828cb31123"
 }

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-onafterdocumentdownload-event.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-onafterdocumentdownload-event",
+  "title": "OnAfterDocumentDownload Event",
+  "blob": "96fd630341919f2161b6f20b2804acd741591bb0",
+  "summary": "OnAfterDocumentDownload event enables document patching scenarios when users generate report artifacts by stream or file. Allows custom handling of report output before client download.",
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "onafterdocumentdownload event",
+    "report management",
+    "document download",
+    "event subscriber",
+    "json payload"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ReportManagement"
+    }
+  ],
+  "features": [
+    "document patching",
+    "report artifacts",
+    "stream handling",
+    "JSON payload",
+    "SendTo actions",
+    "client print capability"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003206,
+      "pages_in_call": 7
+    }
+  ]
+}

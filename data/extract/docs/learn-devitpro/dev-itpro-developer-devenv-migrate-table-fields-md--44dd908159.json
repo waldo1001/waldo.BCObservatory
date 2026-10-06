@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-migrate-table-fields.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migrate-table-fields",
+  "title": "Migrating Tables and Fields Between Extensions",
+  "blob": "cda1905a6c546d0c75f5b73d41d2856315662bf4",
+  "summary": "Data migration between extensions allows moving table and field data across extensions during development and deployment phases. Documents constraints, dependency graph direction, migration.json file usage, and synchronization ordering.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "data migration",
+    "extension development",
+    "tables",
+    "fields",
+    "deployment",
+    "dependency graph"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "migration.json"
+    }
+  ],
+  "features": [
+    "table migration",
+    "field migration",
+    "releasing extension",
+    "receiving extension",
+    "dependency direction",
+    "synchronization ordering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003206,
+      "pages_in_call": 7
+    }
+  ]
+}
