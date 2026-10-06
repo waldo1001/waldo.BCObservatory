@@ -103,7 +103,8 @@
       "required": ["topics", "narrated", "refreshed", "failed", "backlog", "stopped"],
       "properties": {
         "topics": { "type": "integer" }, "narrated": { "type": "integer" }, "refreshed": { "type": "integer" },
-        "failed": { "type": "integer" }, "backlog": { "type": "integer" }, "stopped": { "type": "string" }
+        "failed": { "type": "integer" }, "backlog": { "type": "integer" }, "stopped": { "type": "string" },
+        "reviewed": { "type": "integer" }, "review_fixed": { "type": "integer" }, "review_rejected": { "type": "integer" }, "review_backlog": { "type": "integer" }
       }
     },
     "items_changed": { "type": "integer" },

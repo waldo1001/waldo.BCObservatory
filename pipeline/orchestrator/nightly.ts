@@ -40,6 +40,7 @@ import { renderTopics } from "../render/topic.js";
 import { renderFeatureIndex } from "../render/feature.js";
 import { buildTopicHubs, mirrorReader } from "../link/toc.js";
 import { refreshNarratives } from "../summarize/hub.js";
+import { reviewHubs } from "../review/hub.js";
 import { flatPlaylist } from "../caption/ytdlp.js";
 
 const log = logger("nightly");
@@ -85,7 +86,7 @@ export interface RunReport {
   /** Own metering (D17): caps, spend before this run, and what this run was allowed to spend. */
   spend?: SpendAllowance & { exhausted: boolean };
   execution?: ExecutionReport;
-  hubs?: { topics: number; narrated: number; refreshed: number; failed: number; backlog: number; stopped: string };
+  hubs?: { topics: number; narrated: number; refreshed: number; failed: number; backlog: number; stopped: string; reviewed?: number; review_fixed?: number; review_rejected?: number; review_backlog?: number };
   items_changed: number; errors: string[];
 }
 
@@ -171,6 +172,7 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
     renderFeatureIndex(contentDirOf(opts), opts.dataDir);
     report.hubs = await refreshTopics(deps.sources, manifest, mirrorsDir, opts, errors, {
       quota: report.execution.stop_reason === "done" ? quotas.hub_refresh ?? 0 : 0, deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()),
+      reviewQuota: report.execution.stop_reason === "done" ? Math.max(0, (quotas.opus_reviews ?? 0) - (execution.quota_charged.opus_reviews ?? 0)) : 0,
     });
     errors.push(...execution.errors);
     report.plan = {
@@ -206,7 +208,7 @@ async function finish(report: RunReport, opts: NightlyOptions): Promise<RunRepor
 /** Deterministic topic hubs from the Learn TOCs; a missing mirror or TOC never fails the run. */
 async function refreshTopics(
   sources: SourceDef[], manifest: Manifest, mirrorsDir: string, opts: NightlyOptions, errors: string[],
-  n: { quota: number; deadline: Date; clock: () => Date },
+  n: { quota: number; reviewQuota: number; deadline: Date; clock: () => Date },
 ): Promise<RunReport["hubs"]> {
   const docs = sources.filter((s) => s.kind === "docs-git" && s.enabled && s.mode !== "links-only" && existsSync(resolve(mirrorsDir, `${s.id}.git`)));
   if (!docs.length) return undefined;
@@ -217,9 +219,16 @@ async function refreshTopics(
     if (!hubs.length) return undefined;
     const { narratives, run } = await refreshNarratives(hubs, items, opts.dataDir, n);
     errors.push(...run.errors);
+    const rev = run.stopped === "done" || run.stopped === "quota"
+      ? await reviewHubs(hubs, items, opts.dataDir, narratives, { ...n, quota: n.reviewQuota })
+      : { candidates: 0, reviewed: 0, fixed: 0, rejected: 0, stopped: "skipped", errors: [] };
+    errors.push(...rev.errors);
     renderTopics(hubs, items, opts.dataDir, contentDirOf(opts), new Date(), narratives);
     log.info(`topics: ${hubs.length} hubs, ${narratives.size} narrated, ${run.refreshed} refreshed, ${run.ready_stale} were ready and stale (${run.stopped})`);
-    return { topics: hubs.length, narrated: narratives.size, refreshed: run.refreshed, failed: run.failed, backlog: run.ready_stale - run.refreshed - run.failed, stopped: run.stopped };
+    return {
+      topics: hubs.length, narrated: narratives.size, refreshed: run.refreshed, failed: run.failed, backlog: run.ready_stale - run.refreshed - run.failed, stopped: run.stopped,
+      reviewed: rev.reviewed, review_fixed: rev.fixed, review_rejected: rev.rejected, review_backlog: rev.candidates - rev.reviewed,
+    };
   } catch (e) {
     errors.push(`topics: ${(e as Error).message.slice(0, 300)}`);
     return undefined;

@@ -69,3 +69,36 @@ test("topic page shows the narrative and stays schema-valid", async () => {
   assert.deepEqual([data.narrative, data.summary, data.generated.prompts], ["generated", "Finance - the area.", { "hub-topic": 1 }]);
   assert.ok(content.includes("## Overview") && content.includes("- k1") && content.includes("machine-generated narrative"));
 });
+
+test("Opus hub review: biggest first within quota; fix edits, reject withholds, a new narrative needs a new review", async () => {
+  const { reviewHubs } = await import("../../pipeline/review/hub.js");
+  const w = world(["a", "b", "c", "d", "e"]);
+  const { narratives } = await refreshNarratives(w.hubs, w.items, w.dataDir, opts(fake().llm));
+  const reqs: LlmRequest[] = [];
+  const verdicts: Record<string, unknown> = {
+    "topic/bc/fin review": { verdict: "fix", issues: ["GA claim unsupported"], summary: "Finance pages — fixed.", overview: null, key_points: null },
+    "topic/bc/fin/gl review": { verdict: "reject", issues: ["invented"], summary: null, overview: null, key_points: null },
+  };
+  const llm: Llm = async <T>(r: LlmRequest) => { reqs.push(r); return { output: verdicts[r.label!] as T, cached: false, meta: { model: "claude-opus-5-5", cost_usd: 0.12 } as any }; };
+  const one = await reviewHubs(w.hubs, w.items, w.dataDir, narratives, opts(llm, 1));
+  assert.deepEqual([reqs.map((r) => r.label), one.stopped, reqs[0].role], [["topic/bc/fin review"], "quota", "review"]);
+  assert.ok(reqs[0].prompt.includes("Page c explains c."), "Opus sees the narrative's inputs");
+  const all = await reviewHubs(w.hubs, w.items, w.dataDir, narratives, opts(llm, 10));
+  assert.deepEqual([all.reviewed, all.rejected, all.candidates], [1, 1, 1]);
+  assert.equal(narratives.get("topic/bc/fin")!.summary, "Finance pages - fixed.");
+
+  const contentDir = join(w.dataDir, "content");
+  renderTopics(w.hubs, w.items, w.dataDir, contentDir, new Date(), narratives);
+  const fin = matter(readFileSync(join(contentDir, "topics/bc/fin.md"), "utf8"));
+  assert.deepEqual([fin.data.review.state, fin.data.review.by, fin.data.narrative], ["reviewed", "opus", "generated"]);
+  assert.ok(fin.content.includes("narrative reviewed by Opus"));
+  const gl = matter(readFileSync(join(contentDir, "topics/bc/fin/gl.md"), "utf8"));
+  assert.deepEqual([gl.data.review.state, gl.data.narrative, gl.data.review.flags], ["flagged", "none", ["narrative-rejected"]]);
+  assert.ok(validate("frontmatter.topic", gl.data).ok);
+
+  const again = await refreshNarratives(w.hubs, w.items, w.dataDir, opts(fake().llm));
+  assert.equal(again.run.refreshed, 0, "a rejected narrative is not regenerated from unchanged inputs");
+  const stale = new Map(narratives);
+  stale.set("topic/bc/fin", { ...narratives.get("topic/bc/fin")!, input_hash: "changed" } as any);
+  assert.equal((await reviewHubs(w.hubs, w.items, w.dataDir, stale, opts(llm, 10))).candidates, 1);
+});

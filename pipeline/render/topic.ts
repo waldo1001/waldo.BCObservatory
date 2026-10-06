@@ -12,7 +12,8 @@ import { exists, readText, removeIfExists, writeJson, writeText } from "../lib/f
 import type { ManifestItem } from "../lib/manifest.js";
 import { validateOrThrow } from "../lib/schema.js";
 import type { TopicHub } from "../link/toc.js";
-import { PROMPT_VERSION as HUB_V, STAGE as HUB_STAGE, type HubNarrative } from "../summarize/hub.js";
+import { PROMPT_VERSION as HUB_V, STAGE as HUB_STAGE } from "../summarize/hub.js";
+import type { ReviewedNarrative } from "../review/hub.js";
 import { PIPELINE_VERSION } from "../version.js";
 
 const MAX_EVIDENCE = 40;
@@ -21,7 +22,10 @@ export const topicRel = (id: string) => `${id.replace(/^topic\//, "")}.md`;
 export const topicLink = (fromId: string, toId: string) => posix.relative(posix.dirname(topicRel(fromId)), topicRel(toId));
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
 
-export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, items: Map<string, ManifestItem>, now: Date, narrative?: HubNarrative): string {
+export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, items: Map<string, ManifestItem>, now: Date, stored?: ReviewedNarrative): string {
+  const review = stored?.review && stored.review.input_hash === stored.input_hash ? stored.review : undefined;
+  // a narrative Opus rejected is not shown; the page says it was flagged
+  const narrative = review?.state === "flagged" ? undefined : stored;
   const members = hub.members.map((id) => items.get(id)).filter((x): x is ManifestItem => !!x)
     .sort((a, b) => a.title.localeCompare(b.title));
   const direct = new Set(hub.children.flatMap((c) => byId.get(c)?.members ?? []));
@@ -32,7 +36,7 @@ export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, item
   const fm = {
     id: hub.id, type: "topic", title: hub.title, summary: summary.slice(0, 600), tier: "official", language: "en",
     ...(hub.system ? { system: hub.system } : {}),
-    review: { state: "unreviewed", by: null, at: null, flags: [] },
+    review: review ? { state: review.state, by: review.by, at: review.at, flags: review.state === "flagged" ? ["narrative-rejected"] : [] } : { state: "unreviewed", by: null, at: null, flags: [] },
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: narrative ? { [HUB_STAGE]: HUB_V } : {}, input_hash: narrative?.input_hash ?? hub.member_hash },
     evidence: members.slice(0, MAX_EVIDENCE).map((m) => ({ kind: "learn", url: m.url, title: m.title, date: (m.meta?.ms_date as string | undefined) ?? m.published_at?.slice(0, 10) ?? null, commit: null, t: null, quote: null })),
     // own pages only: descendants are linked from their own subtopic page
@@ -46,7 +50,7 @@ export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, item
   const lines = [
     `# ${hub.title}`, "",
     `> ${summary}`, "",
-    `Path: ${[...ancestors(hub, byId).map(up), hub.title].join(" > ")} · tier official · system ${hub.system ?? "none"} · ${narrative ? "**unreviewed** (machine-generated narrative)" : "no narrative yet"}`, "",
+    `Path: ${[...ancestors(hub, byId).map(up), hub.title].join(" > ")} · tier official · system ${hub.system ?? "none"} · ${narrative ? (review?.state === "reviewed" ? "narrative reviewed by Opus" : "**unreviewed** (machine-generated narrative)") : review?.state === "flagged" ? "**flagged**: narrative withheld after review" : "no narrative yet"}`, "",
   ];
   if (narrative) lines.push("## Overview", "", narrative.overview, "", "## Key points", "", ...narrative.key_points.map((k) => `- ${k}`), "");
   if (hub.children.length) {
@@ -70,7 +74,7 @@ function ancestors(hub: TopicHub, byId: Map<string, TopicHub>): string[] {
 }
 
 /** Write hub data and pages; remove pages of hubs that no longer exist. Returns the page count. */
-export function renderTopics(hubs: TopicHub[], items: ManifestItem[], dataDir: string, contentDir: string, now: Date, narratives: Map<string, HubNarrative> = new Map()): number {
+export function renderTopics(hubs: TopicHub[], items: ManifestItem[], dataDir: string, contentDir: string, now: Date, narratives: Map<string, ReviewedNarrative> = new Map()): number {
   writeJson(resolve(dataDir, "hubs", "topics.json"), { hubs: hubs.length, generated_by: "pipeline/link/toc.ts", topics: hubs });
   const byId = new Map(hubs.map((h) => [h.id, h]));
   const byItem = new Map(items.map((i) => [i.id, i]));
