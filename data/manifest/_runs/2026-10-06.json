@@ -1,7 +1,7 @@
 {
   "date": "2026-10-06",
-  "started_at": "2026-10-06T12:26:06.692Z",
-  "finished_at": "2026-10-06T12:26:54.737Z",
+  "started_at": "2026-10-06T12:32:01.074Z",
+  "finished_at": "2026-10-06T12:32:03.981Z",
   "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
@@ -31,7 +31,7 @@
           "removed": 0
         },
         "note": "2157 pages at bf5ffffa9b02",
-        "duration_ms": 2237
+        "duration_ms": 2179
       },
       {
         "id": "learn-devitpro",
@@ -45,7 +45,7 @@
           "removed": 0
         },
         "note": "5893 pages at f928288ee840",
-        "duration_ms": 2058
+        "duration_ms": 1990
       }
     ],
     "totals": {
@@ -71,16 +71,10 @@
       "opus_reviews": 10,
       "llm_calls_max": 450
     },
-    "work": 8050,
-    "executed": 8050,
+    "work": 0,
+    "executed": 0,
     "skips": 0,
-    "quota_use": {
-      "unlimited": {
-        "selected": 8050,
-        "available": 8050,
-        "limit": null
-      }
-    },
+    "quota_use": {},
     "note": "stopped: done"
   },
   "llm": {
@@ -105,12 +99,10 @@
   "errors": [],
   "execution": {
     "stop_reason": "done",
-    "deadline": "2026-10-06T18:01:00.000Z",
-    "items_touched": 8050,
-    "stages_run": {
-      "docs:fetched": 8050
-    },
-    "advanced": 8050,
+    "deadline": "2026-10-06T18:07:00.000Z",
+    "items_touched": 0,
+    "stages_run": {},
+    "advanced": 0,
     "skipped": 0,
     "failed_attempts": 0,
     "failed_final": 0,

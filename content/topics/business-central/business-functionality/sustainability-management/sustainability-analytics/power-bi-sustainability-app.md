@@ -1,0 +1,180 @@
+---
+id: topic/business-central/business-functionality/sustainability-management/sustainability-analytics/power-bi-sustainability-app
+type: topic
+title: Power BI sustainability app
+summary: "Learn section Business functionality > Sustainability management > Sustainability analytics > Power BI sustainability app: 13 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+tier: official
+language: en
+system: sustainability
+review:
+  state: unreviewed
+  by: null
+  at: null
+  flags: []
+generated:
+  at: "2026-10-06T12:32:03.649Z"
+  pipeline: 0.2.0
+  prompts: {}
+  input_hash: 328a0872e1151b761f14c944c6afa9104a0d8d3d4fdb84147cc270018aae426c
+evidence:
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-analysis
+    title: CO2e Analysis
+    date: "2025-06-04"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-decomposition-tree
+    title: CO2e Decomposition Tree
+    date: "2025-05-26"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-key-influences
+    title: CO2e Key Influences
+    date: "2025-05-26"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-emissions-by-category-and-scope
+    title: Emissions by Category and Scope
+    date: "2025-05-26"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-journey-to-net-zero-carbon
+    title: Journey to Net Zero Carbon
+    date: "2025-05-26"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model
+    title: Power BI Sustainability app semantic model
+    date: "2026-07-03"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-realized-emissions-vs-baseline
+    title: Realized Emissions vs Baseline
+    date: "2025-05-26"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-realized-emissions-vs-target
+    title: Realized Emissions vs Target
+    date: "2025-05-26"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-social-analysis
+    title: Social Analysis
+    date: "2025-06-04"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-kpis
+    title: Sustainability KPIs and measures (Power BI)
+    date: "2025-05-26"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-sustainability-overview
+    title: Sustainability Overview
+    date: "2025-05-26"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app
+    title: Sustainability Power BI app
+    date: "2025-06-04"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-water-and-waste-analysis
+    title: Water and Waste Analysis
+    date: "2025-02-05"
+    commit: null
+    t: null
+    quote: null
+links:
+  learn:
+    - https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-analysis
+    - https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-decomposition-tree
+    - https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-key-influences
+    - https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-emissions-by-category-and-scope
+    - https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-journey-to-net-zero-carbon
+    - https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model
+    - https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-realized-emissions-vs-baseline
+    - https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-realized-emissions-vs-target
+    - https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-social-analysis
+    - https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-kpis
+    - https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-sustainability-overview
+    - https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app
+    - https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-water-and-waste-analysis
+  objects: []
+  features: []
+  topics:
+    - topic/business-central/business-functionality/sustainability-management/sustainability-analytics
+  localizations: []
+  videos: []
+  posts: []
+  guidelines: []
+learn_toc_path:
+  - Business functionality
+  - Sustainability management
+  - Sustainability analytics
+  - Power BI sustainability app
+toc_file: business-central/TOC.md
+parent: topic/business-central/business-functionality/sustainability-management/sustainability-analytics
+children: []
+coverage:
+  learn: 13
+  code: 0
+  video: 0
+  blog: 0
+  guideline: 0
+bc_forms:
+  - 36951
+member_hash: 328a0872e1151b761f14c944c6afa9104a0d8d3d4fdb84147cc270018aae426c
+narrative: none
+---
+
+# Power BI sustainability app
+
+> Learn section Business functionality > Sustainability management > Sustainability analytics > Power BI sustainability app: 13 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+
+Path: [Business functionality](../../../business-functionality.md) > [Sustainability management](../../sustainability-management.md) > [Sustainability analytics](../sustainability-analytics.md) > Power BI sustainability app · tier official · system sustainability · no narrative yet
+
+## Learn pages
+
+- [CO2e Analysis](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-analysis): The CO2e Analysis report provides detailed insight into your CO2e emissions and how you're purchasing carbon credit.
+- [CO2e Decomposition Tree](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-decomposition-tree): The CO2e Decomposition Tree report breaks down CO2e emission metrics into its key contributing components to help users understand what is driving changes in CO2 emissions and why.
+- [CO2e Key Influences](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-key-influences): The CO2e Key Influencers report identifies the key factors driving CO2e emission increases, highlighting the most impactful variables and trends based on the sustainability account categories.
+- [Emissions by Category and Scope](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-emissions-by-category-and-scope): The Emission by Scope report organizes emission types based on the account category and scope to show how they're tracking.
+- [Journey to Net Zero Carbon](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-journey-to-net-zero-carbon): The Journey to Net Zero highlights the journey to net zero within an organization.
+- [Power BI Sustainability app semantic model](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app-semantic-model): Learn how tables and fields in the Power BI Sustainability app semantic model map to Business Central data for emissions and workforce analysis.
+- [Realized Emissions vs Baseline](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-realized-emissions-vs-baseline): The Realized Emissions by Baseline report breaks down your carbon emissions and allows for comparison against a defined baseline period. Track your progress against the baseline and monitor trends against a previous period.
+- [Realized Emissions vs Target](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-realized-emissions-vs-target): The Realized Emissions by Target report breaks down your carbon emissions and allows for comparison against the target. This allows you to effectively monitor planned progress and drive continuous improvement to sustainability goals.
+- [Social Analysis](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-social-analysis): The Social Analysis report displays employee details as part of Social reporting for ESG.
+- [Sustainability KPIs and measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-kpis): Get an overview of all the KPIs and measures in the semantic model for the Sustainability Power BI app.
+- [Sustainability Overview](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-sustainability-overview): The Sustainability Overview gives you a high-level view of all the key sustainability metrics.
+- [Sustainability Power BI app](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-app): The Power BI app for sustainability in Business Central provides comprehensive sustainability analytics to stakeholders at all levels of your organization.
+- [Water and Waste Analysis](https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-water-and-waste-analysis): The Water and Waste Analysis allows you to effectively monitor your water and waste usage by different metrics such as Water Type, Intensity Type, and Responsibility Center.
+
+## Business Central pages and reports
+
+Learn's ms.search.form names these object ids (not yet joined to the code pillar): 36951.
+
+Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

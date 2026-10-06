@@ -1,0 +1,132 @@
+---
+id: topic/business-central/business-functionality/set-up-business-central/set-up-sales/set-up-subscription-billing
+type: topic
+title: Set up subscription billing
+summary: "Learn section Business functionality > Set up Business Central > Set up sales > Set up subscription billing: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+tier: official
+language: en
+system: sales
+review:
+  state: unreviewed
+  by: null
+  at: null
+  flags: []
+generated:
+  at: "2026-10-06T12:32:03.649Z"
+  pipeline: 0.2.0
+  prompts: {}
+  input_hash: 6ff638ebedbbc6e6e61072b649efcf33cec78a4293f9a5bbd0e1d88645fe14ab
+evidence:
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/SRB/setup/general
+    title: General setup
+    date: "2025-07-11"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/SRB/setup/import
+    title: Import subscription contracts and contract lines
+    date: "2025-07-11"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/SRB/setup/job-queue
+    title: Job queue
+    date: "2025-05-06"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/SRB/setup/permissions
+    title: Permissions in subscription billing
+    date: "2025-05-06"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/SRB/setup/contract-types
+    title: Subscription contract types
+    date: "2025-07-11"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/items
+    title: Subscription lines for items
+    date: "2026-05-04"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/service-commitments
+    title: Subscription packages and subscription lines
+    date: "2026-02-06"
+    commit: null
+    t: null
+    quote: null
+links:
+  learn:
+    - https://learn.microsoft.com/dynamics365/business-central/SRB/setup/general
+    - https://learn.microsoft.com/dynamics365/business-central/SRB/setup/import
+    - https://learn.microsoft.com/dynamics365/business-central/SRB/setup/job-queue
+    - https://learn.microsoft.com/dynamics365/business-central/SRB/setup/permissions
+    - https://learn.microsoft.com/dynamics365/business-central/SRB/setup/contract-types
+    - https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/items
+    - https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/service-commitments
+  objects: []
+  features: []
+  topics:
+    - topic/business-central/business-functionality/set-up-business-central/set-up-sales
+  localizations: []
+  videos: []
+  posts: []
+  guidelines: []
+learn_toc_path:
+  - Business functionality
+  - Set up Business Central
+  - Set up sales
+  - Set up subscription billing
+toc_file: business-central/TOC.md
+parent: topic/business-central/business-functionality/set-up-business-central/set-up-sales
+children: []
+coverage:
+  learn: 7
+  code: 0
+  video: 0
+  blog: 0
+  guideline: 0
+bc_forms:
+  - 8008
+  - 8009
+  - 8013
+  - 8051
+  - 8054
+  - 8059
+  - 8061
+member_hash: 6ff638ebedbbc6e6e61072b649efcf33cec78a4293f9a5bbd0e1d88645fe14ab
+narrative: none
+---
+
+# Set up subscription billing
+
+> Learn section Business functionality > Set up Business Central > Set up sales > Set up subscription billing: 7 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+
+Path: [Business functionality](../../../business-functionality.md) > [Set up Business Central](../../set-up-business-central.md) > [Set up sales](../set-up-sales.md) > Set up subscription billing · tier official · system sales · no narrative yet
+
+## Learn pages
+
+- [General setup](https://learn.microsoft.com/dynamics365/business-central/SRB/setup/general): There are a few general things to set up for subscription billing.
+- [Import subscription contracts and contract lines](https://learn.microsoft.com/dynamics365/business-central/SRB/setup/import): You can use import contracts and contract lines in subscription billing.
+- [Job queue](https://learn.microsoft.com/dynamics365/business-central/SRB/setup/job-queue): You can use job queue entries in subscription billing.
+- [Permissions in subscription billing](https://learn.microsoft.com/dynamics365/business-central/SRB/setup/permissions): Learn about the permission settings for subscription billing.
+- [Subscription contract types](https://learn.microsoft.com/dynamics365/business-central/SRB/setup/contract-types): You can use different types of contracts in subscription billing.
+- [Subscription lines for items](https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/items): You can use subscription lines for items in subscription billing.
+- [Subscription packages and subscription lines](https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/service-commitments): You can use subscription lines in subscription billing.
+
+## Business Central pages and reports
+
+Learn's ms.search.form names these object ids (not yet joined to the code pillar): 8008, 8009, 8013, 8051, 8054, 8059, 8061.
+
+Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.
