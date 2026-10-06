@@ -14,9 +14,10 @@ Run from the laptop; each script is idempotent and prints what it will do before
 
 ```bash
 infra/mini/00-preflight.sh        # read-only report
-infra/mini/10-brew.sh             # yt-dlp ffmpeg deno uv gh jq
+infra/mini/10-brew.sh             # uv only by default (no shared-library upgrades)
 infra/mini/20-worker-user.sh      # sudo: creates bcobs
 infra/mini/30-claude.sh           # installs claude for bcobs; asks for the setup-token (owner pastes)
+infra/mini/35-tools.sh            # sudo: yt-dlp + deno for bcobs via uv (keeps Jarvis's brew libraries untouched)
 infra/mini/40-runner.sh <token>   # registration token from: gh api -X POST repos/waldo1001/waldo.BCObservatory/actions/runners/registration-token -q .token
 infra/mini/50-daemon.sh           # sudo: LaunchDaemon com.bcobservatory.runner
 infra/mini/60-vault.sh            # clones the private vault with the deploy key

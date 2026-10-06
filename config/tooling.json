@@ -1,7 +1,7 @@
 {
   "$comment": "Pinned tool versions for the Mini and CI. Bump deliberately; the nightly smoke test asserts the claude version matches.",
   "node": "22",
-  "claude_code": { "min": "2.1.287", "pin": null, "install": "native" },
+  "claude_code": { "min": "2.1.287", "pin": "2.1.287", "install": "native" },
   "yt_dlp": { "min": "2026.08.19" },
   "tree_sitter_al": { "major": 4 },
   "actions_runner": { "version": "2.337.0" },
