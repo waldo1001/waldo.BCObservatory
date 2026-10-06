@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements",
+  "title": "Manually Transfer and Post CODA Statements [BE]",
+  "blob": "71361ac1bd93fcbf4a3d63498818ec08dd579849",
+  "summary": "Manual transfer of CODA statement lines to financial journals in Belgium allows you to enter starting and ending balances and post bank statement transactions.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "coda",
+    "belgium",
+    "bank statements",
+    "electronic banking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journal"
+    }
+  ],
+  "features": [
+    "Manual transfer",
+    "CODA statements",
+    "Statement Ending Balance",
+    "Financial journal posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002491,
+      "pages_in_call": 8
+    }
+  ]
+}

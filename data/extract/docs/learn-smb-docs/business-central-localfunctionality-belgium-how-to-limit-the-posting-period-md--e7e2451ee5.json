@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-limit-the-posting-period.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-limit-the-posting-period",
+  "title": "How to Limit the Posting Period [BE]",
+  "blob": "13b3abf988214e2586af4f05d71b92a4ced400d2",
+  "summary": "Limit posting periods at company, user, or journal template levels to control when transactions can be recorded. Use this for Belgian monthly journal closure procedures.",
+  "systems": [
+    "finance",
+    "administration",
+    "localization"
+  ],
+  "topics": [
+    "posting periods",
+    "journal control",
+    "company setup",
+    "user setup",
+    "belgium"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "User Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Journal Templates"
+    }
+  ],
+  "features": [
+    "Allow Posting From",
+    "Allow Posting To",
+    "Company-level posting restrictions",
+    "User-level posting restrictions",
+    "Template-level posting restrictions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002324,
+      "pages_in_call": 8
+    }
+  ]
+}

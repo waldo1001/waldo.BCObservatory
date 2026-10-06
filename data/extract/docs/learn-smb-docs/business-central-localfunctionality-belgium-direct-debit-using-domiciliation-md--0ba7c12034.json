@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation",
+  "title": "Belgian Direct Debit Using Domiciliation [BE]",
+  "blob": "78f0ac1b682aca0c6322930cafd5eee0a3b46c0b",
+  "summary": "Belgian direct debit domiciliation process for automatic payment collection from domestic customers, including setup, suggestion generation, testing, and file export.",
+  "systems": [
+    "finance",
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "belgian localization",
+    "direct debit",
+    "domiciliation",
+    "payment collection",
+    "domestic customers"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Domiciliation Journal"
+    },
+    {
+      "type": "report",
+      "name": "Domiciliation Journal - Test"
+    }
+  ],
+  "features": [
+    "Domiciliation number",
+    "Preferred bank account",
+    "Domiciliation suggestions",
+    "Payment discount handling",
+    "Refund selection",
+    "Domiciliation testing",
+    "SEPA Direct Debit export",
+    "ISABEL format"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003095,
+      "pages_in_call": 8
+    }
+  ]
+}

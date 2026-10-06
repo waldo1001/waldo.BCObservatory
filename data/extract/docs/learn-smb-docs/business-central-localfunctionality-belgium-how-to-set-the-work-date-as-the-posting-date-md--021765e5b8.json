@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date",
+  "title": "How to Set the Work Date as the Posting Date [BE]",
+  "blob": "ed3c5c4b8581ebcd1973694d8725df461d7d31f2",
+  "summary": "Set the work date as the posting date in Belgium by enabling a general ledger setup option to use work date for customer or vendor entry applications.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "posting date",
+    "belgium",
+    "general ledger",
+    "configuration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    }
+  ],
+  "features": [
+    "Use Workdate for Appl./Unappl.",
+    "Posting date configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002491,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "71361ac1bd93fcbf4a3d63498818ec08dd579849",
       "words": 160,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:30.446Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002491
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:30.473Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:30.482Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:30.491Z",
+      "page": false
     }
   },
   "input_hash": "71361ac1bd93fcbf4a3d63498818ec08dd579849",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "71361ac1bd93fcbf4a3d63498818ec08dd579849"
+  "output_hash": "595169367a728e51dfa3bd023e2bede115f1fa42c9ec74ec9c11397c1660644f"
 }

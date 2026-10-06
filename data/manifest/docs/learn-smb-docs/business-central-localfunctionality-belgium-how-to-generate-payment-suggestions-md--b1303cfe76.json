@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-generate-payment-suggestions",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4b8327ff75fc4a2923742ce1c11e8708ea47d071",
       "words": 276,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:28.650Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002324
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:30.421Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:30.422Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:30.423Z",
+      "page": false
     }
   },
   "input_hash": "4b8327ff75fc4a2923742ce1c11e8708ea47d071",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4b8327ff75fc4a2923742ce1c11e8708ea47d071"
+  "output_hash": "91d35875cb524eb316db158235185aa65faccf19e0a11dc09e029fffd11730f7"
 }

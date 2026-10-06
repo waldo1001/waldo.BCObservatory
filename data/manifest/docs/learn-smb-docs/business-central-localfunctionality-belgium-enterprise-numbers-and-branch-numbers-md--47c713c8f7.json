@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "45bfa845c06ad683040bdbd9cc08e41434543eba",
       "words": 231,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:27.839Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.003095
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:27.862Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:27.862Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:27.863Z",
+      "page": false
     }
   },
   "input_hash": "45bfa845c06ad683040bdbd9cc08e41434543eba",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "45bfa845c06ad683040bdbd9cc08e41434543eba"
+  "output_hash": "e3f34892ea07c2d2d73dc037cf625eef8ae615ecd7887ebecf96845257ffede9"
 }

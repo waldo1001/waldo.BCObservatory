@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "86578ac387ba81064802f44aa2fc80a5fe0c418e",
       "words": 351,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:30.445Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.002491
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:30.456Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:30.457Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:30.463Z",
+      "page": false
     }
   },
   "input_hash": "86578ac387ba81064802f44aa2fc80a5fe0c418e",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "86578ac387ba81064802f44aa2fc80a5fe0c418e"
+  "output_hash": "239a9b13d1521ea96e8578627b90c84e034cddec1fdb6791c213914ae064b193"
 }

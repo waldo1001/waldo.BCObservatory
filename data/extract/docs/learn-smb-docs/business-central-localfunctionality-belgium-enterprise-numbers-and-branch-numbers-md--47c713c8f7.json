@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers",
+  "title": "Enterprise Numbers and Branch Numbers [BE]",
+  "blob": "45bfa845c06ad683040bdbd9cc08e41434543eba",
+  "summary": "Belgian enterprise numbers and branch numbers assigned by the Crossroads Bank for Enterprises, used for identification in business documents and correspondence.",
+  "systems": [
+    "localization",
+    "administration"
+  ],
+  "topics": [
+    "belgian localization",
+    "enterprise number",
+    "branch number",
+    "company identification",
+    "administrative compliance"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Company Information"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    },
+    {
+      "type": "table",
+      "name": "Location"
+    },
+    {
+      "type": "page",
+      "name": "Contact"
+    }
+  ],
+  "features": [
+    "Enterprise number",
+    "Branch number",
+    "VAT registration number",
+    "Document printing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003095,
+      "pages_in_call": 8
+    }
+  ]
+}

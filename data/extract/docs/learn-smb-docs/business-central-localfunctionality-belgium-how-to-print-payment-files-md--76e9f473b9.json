@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-print-payment-files.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-payment-files",
+  "title": "Export Payment Files in the Belgian Version",
+  "blob": "f4a7c9f93f4f37f11df413c46c344844dd4e4a10",
+  "summary": "Export payment files in Belgium converts payment journal lines into domestic, international, SEPA, or non-Euro SEPA payment files for bank transmission.",
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "payments",
+    "belgium",
+    "electronic banking",
+    "vendor payments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "EB Payment Journal"
+    },
+    {
+      "type": "report",
+      "name": "Export Check Error Logs"
+    }
+  ],
+  "features": [
+    "Payment file export",
+    "Export Protocol",
+    "Suggest Vendor Payments",
+    "Check Payment Lines",
+    "Export Payment Lines",
+    "Status Posted"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002491,
+      "pages_in_call": 8
+    }
+  ]
+}

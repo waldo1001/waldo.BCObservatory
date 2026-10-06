@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-intrastat-reporting",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "efc3522b7601c370f2abc9917d032d2e1257641e",
       "words": 126,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:27.834Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003095
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:27.849Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:27.850Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:27.851Z",
+      "page": false
     }
   },
   "input_hash": "efc3522b7601c370f2abc9917d032d2e1257641e",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "efc3522b7601c370f2abc9917d032d2e1257641e"
+  "output_hash": "d15a5bd6e1d5322d5cc849a7dcd7695e1cbdbee2bd1ecfa497ecf07d8c65fc1f"
 }

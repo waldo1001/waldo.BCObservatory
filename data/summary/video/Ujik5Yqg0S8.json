@@ -1,0 +1,26 @@
+{
+  "video_id": "Ujik5Yqg0S8",
+  "item_id": "video/yt-microsoft/Ujik5Yqg0S8",
+  "summary": "Comparison of payables entry in Dynamics SL (AP voucher) with Business Central, which offers purchase journals and purchase invoices to register purchase costs and track accounts payable. Demonstrates both, including GL account preview and vendor defaults.",
+  "overview": "The video shows how an AP voucher is created in Dynamics SL, then walks through the two ways to enter payables in Business Central: purchase journals and purchase invoices.\n\nPurchase journals are shown for registering expenses on items that may not be tracked in inventory. The user enters a vendor invoice number, vendor, amount and GL account, and can preview the GL postings before closing the transaction. Purchase invoices are shown for inventoried and non-inventoried purchases, with line types such as GL accounts, inventory items, fixed assets and freight. Vendor information defaults in from the vendor record.",
+  "key_points": [
+    "Business Central offers the purchase journal or purchase invoices to register purchase costs and track accounts payable.",
+    "Purchase journals can register expenses for items you may not track in inventory.",
+    "In a purchase journal you enter vendor invoice number, vendor, amount and GL account.",
+    "A preview of the GL accounts the transaction will post to is available before closing the transaction in the purchase journal.",
+    "Purchase invoices cover inventoried and non-inventoried items, with lines for GL accounts, inventory items, fixed assets and freight.",
+    "Selecting a vendor on a purchase invoice defaults in information from the vendor record."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "decision maker"
+  ],
+  "extraction_hash": "e5725f6c50a8c8a5696263470926dc06bccadf1d30ccbda84195eb3e74ca3f83",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0112464
+  }
+}

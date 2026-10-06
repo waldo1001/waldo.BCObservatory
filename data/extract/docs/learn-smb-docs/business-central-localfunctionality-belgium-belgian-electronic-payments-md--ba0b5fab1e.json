@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/belgian-electronic-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments",
+  "title": "Belgian electronic payments",
+  "blob": "da74b5fe7c15a7cd59f4b3122a8668fcc296413a",
+  "summary": "Belgian electronic payment types including domestic, international, SEPA, and non-Euro SEPA payments, with setup and correction procedures for payment journal lines.",
+  "systems": [
+    "finance",
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "belgian localization",
+    "electronic payments",
+    "sepa",
+    "payment processing",
+    "vendor payments"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "File Non Euro SEPA Payments"
+    }
+  ],
+  "features": [
+    "Domestic payments",
+    "International payments",
+    "SEPA payments",
+    "Non-Euro SEPA payments",
+    "Bank account validation",
+    "Payment line correction",
+    "AC Banking 365"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003095,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-banking",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "392c824033ba61de19943a21adfcc3b323b7f26c",
       "words": 190,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:27.832Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003095
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:27.842Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:27.843Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:27.844Z",
+      "page": false
     }
   },
   "input_hash": "392c824033ba61de19943a21adfcc3b323b7f26c",
@@ -47,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "392c824033ba61de19943a21adfcc3b323b7f26c"
+  "output_hash": "18d5ac2c44b6223baac24e8b321e5ec49db1a725333b2bf9497294dfb2f8f588"
 }

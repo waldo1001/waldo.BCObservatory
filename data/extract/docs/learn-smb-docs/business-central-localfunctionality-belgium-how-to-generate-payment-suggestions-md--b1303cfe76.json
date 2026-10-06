@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-generate-payment-suggestions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-generate-payment-suggestions",
+  "title": "Generate payment suggestions [BE]",
+  "blob": "4b8327ff75fc4a2923742ce1c11e8708ea47d071",
+  "summary": "Generate vendor payment suggestions in payment journals based on criteria like due dates, credit memos, and payment discounts. Use this to automate Belgian electronic payment processing.",
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "payment suggestions",
+    "vendor payments",
+    "electronic payments",
+    "belgium"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Journals"
+    },
+    {
+      "type": "page",
+      "name": "Suggest Vendor Payments EB"
+    }
+  ],
+  "features": [
+    "Suggest Vendor Payments",
+    "Last Due Date filtering",
+    "Credit memo inclusion",
+    "Payment discount calculation",
+    "Available amount limit",
+    "Vendor priority"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002324,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-create-financial-journals",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "474c4827a692aefa4847f7c7e4b647f5f74aa887",
       "words": 132,
       "forms": 8
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:28.647Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002324
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:30.412Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:30.414Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:30.415Z",
+      "page": false
     }
   },
   "input_hash": "474c4827a692aefa4847f7c7e4b647f5f74aa887",
@@ -81,5 +100,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "474c4827a692aefa4847f7c7e4b647f5f74aa887"
+  "output_hash": "43f08af5876f92da0c708f144bc4caa50479b9af2c72c8782be5728793ef83ec"
 }

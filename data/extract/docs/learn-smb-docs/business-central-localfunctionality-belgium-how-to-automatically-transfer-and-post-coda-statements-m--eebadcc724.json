@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements",
+  "title": "Automatically transfer and post CODA statements [BE]",
+  "blob": "10c64236a667657188d5bfd2f3c5c80fd141ae67",
+  "summary": "Transfer processed CODA statement lines to a financial journal and post them to the general ledger. Use this as the final step after applying CODA statements.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "coda",
+    "bank statements",
+    "journal posting",
+    "belgium"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Accounts"
+    }
+  ],
+  "features": [
+    "Transfer to General Ledger",
+    "Financial journal posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002324,
+      "pages_in_call": 8
+    }
+  ]
+}

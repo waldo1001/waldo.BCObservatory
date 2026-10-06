@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0c1a8618157686bd54396ae14732a16427ae93d7",
       "words": 420,
       "forms": 8
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:28.648Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002324
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:30.416Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:30.417Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:30.417Z",
+      "page": false
     }
   },
   "input_hash": "0c1a8618157686bd54396ae14732a16427ae93d7",
@@ -82,5 +101,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0c1a8618157686bd54396ae14732a16427ae93d7"
+  "output_hash": "0ccb1aeabee7d44b3ccd00b322cc600386280522d6e8958d49ae96fb277ab7eb"
 }

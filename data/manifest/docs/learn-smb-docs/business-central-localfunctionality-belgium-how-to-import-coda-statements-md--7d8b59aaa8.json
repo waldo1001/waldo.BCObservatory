@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-import-coda-statements",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "82ab3b56458612268cf1f6b17bc8ed443911f383",
       "words": 139,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:28.651Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002324
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:30.424Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:30.425Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:30.427Z",
+      "page": false
     }
   },
   "input_hash": "82ab3b56458612268cf1f6b17bc8ed443911f383",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "82ab3b56458612268cf1f6b17bc8ed443911f383"
+  "output_hash": "6eb1a8e5124aa86fc3865ff17ef2b33fcf362be0279d31850059927c3d9687b4"
 }

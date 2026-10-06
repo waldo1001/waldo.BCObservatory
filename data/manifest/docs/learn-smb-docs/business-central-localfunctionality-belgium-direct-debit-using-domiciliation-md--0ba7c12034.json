@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "78f0ac1b682aca0c6322930cafd5eee0a3b46c0b",
       "words": 1070,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:27.838Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003095
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:27.859Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:27.859Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:27.860Z",
+      "page": false
     }
   },
   "input_hash": "78f0ac1b682aca0c6322930cafd5eee0a3b46c0b",
@@ -76,5 +95,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "78f0ac1b682aca0c6322930cafd5eee0a3b46c0b"
+  "output_hash": "7d35ec2482d83e7089abfd385d7b690832a39a0d98260b3e45fa2fb9490563f9"
 }
