@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-type-usercontrolhost",
   "published_at": "2025-07-02T08:48:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f854495aeb036e102037e064d8639c2dca12e676",
       "words": 218,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:21:28.599Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002622
+    },
+    "summarized": {
+      "at": "2026-10-06T19:21:28.645Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:21:28.646Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:21:28.652Z",
+      "page": false
     }
   },
   "input_hash": "f854495aeb036e102037e064d8639c2dca12e676",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f854495aeb036e102037e064d8639c2dca12e676"
+  "output_hash": "50d98cba46e18bf2901bcccf102e229ad41ac5c90d41f7c93d9c81c963a13647"
 }

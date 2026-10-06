@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-page-type-usercontrolhost.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-type-usercontrolhost",
+  "title": "The UserControlHost page type",
+  "blob": "f854495aeb036e102037e064d8639c2dca12e676",
+  "summary": "The UserControlHost page type documents a specialized page type introduced in runtime 15.0 designed to render a single user control optimized for Power BI reports or similar content.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "page types",
+    "usercontrol",
+    "power bi",
+    "user controls",
+    "layout"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "StandardPage"
+    },
+    {
+      "type": "page",
+      "name": "UserControlHost"
+    }
+  ],
+  "features": [
+    "Single user control layout",
+    "UserControlHost page type",
+    "WebPageViewer control",
+    "Content area"
+  ],
+  "versions": [
+    "runtime 15.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002622,
+      "pages_in_call": 8
+    }
+  ]
+}

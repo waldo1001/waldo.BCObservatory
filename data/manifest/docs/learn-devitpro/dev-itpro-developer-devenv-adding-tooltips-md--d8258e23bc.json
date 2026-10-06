@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-tooltips",
   "published_at": "2025-07-02T08:05:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8518266087cc72f32d199d2655deb28264c7209d",
       "words": 373,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:21:28.600Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002622
+    },
+    "summarized": {
+      "at": "2026-10-06T19:21:28.660Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:21:28.662Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:21:28.663Z",
+      "page": false
     }
   },
   "input_hash": "8518266087cc72f32d199d2655deb28264c7209d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8518266087cc72f32d199d2655deb28264c7209d"
+  "output_hash": "0784760c6cdfe313ccd977223c077e30981da20d43e6e3ebd6e9623fd53214a1"
 }

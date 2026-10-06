@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports",
   "published_at": "2025-07-02T09:39:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a41155ae8d1e002c550b52a8146f28841ba417a9",
       "words": 82,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:21:26.827Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002622
+    },
+    "summarized": {
+      "at": "2026-10-06T19:21:28.642Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:21:28.643Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:21:28.644Z",
+      "page": false
     }
   },
   "input_hash": "a41155ae8d1e002c550b52a8146f28841ba417a9",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a41155ae8d1e002c550b52a8146f28841ba417a9"
+  "output_hash": "b29a7a1dadf47ff7032a3a569fb994b516488694869e5e9c067b2de42f007802"
 }

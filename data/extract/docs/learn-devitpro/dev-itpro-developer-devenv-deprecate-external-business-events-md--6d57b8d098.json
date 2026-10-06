@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-deprecate-external-business-events.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deprecate-external-business-events",
+  "title": "Deprecate external business events",
+  "blob": "0d7acc3b143c554413fda2ed472b5d4f612b2aa5",
+  "summary": "Deprecate external business events explains how to mark external business events as obsolete pending and then remove them in a future version to ensure external integrations are informed and transition to replacement events.",
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "external business events",
+    "deprecation",
+    "obsolete",
+    "al development",
+    "integration"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "MyCodeunit"
+    }
+  ],
+  "features": [
+    "Obsolete attribute",
+    "ExternalBusinessEvent attribute",
+    "DisplayName prefix",
+    "Event versioning"
+  ],
+  "versions": [
+    "27.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002622,
+      "pages_in_call": 8
+    }
+  ]
+}

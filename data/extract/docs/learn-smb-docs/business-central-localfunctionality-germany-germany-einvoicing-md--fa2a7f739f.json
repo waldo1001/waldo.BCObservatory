@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/germany-einvoicing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/germany-einvoicing",
+  "title": "Electronic invoicing in Germany",
+  "blob": "79e9d9be78e88fbf930f0f7b4b6aadb43348d98a",
+  "summary": "Electronic invoicing in Germany documents how to set up and use the E-Document framework for German localization supporting XRechnung, Peppol BIS 3, and ZUGFeRD formats in sales and purchase processes.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "electronic invoicing",
+    "e-documents",
+    "germany",
+    "formatting",
+    "buyer reference"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "E-Document Services"
+    }
+  ],
+  "features": [
+    "XRechnung format",
+    "Peppol BIS 3.0 DE format",
+    "ZUGFeRD format",
+    "Buyer Reference Mandatory",
+    "Buyer Reference field",
+    "Document Sending Profile"
+  ],
+  "versions": [
+    "version 26.3"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002622,
+      "pages_in_call": 8
+    }
+  ]
+}

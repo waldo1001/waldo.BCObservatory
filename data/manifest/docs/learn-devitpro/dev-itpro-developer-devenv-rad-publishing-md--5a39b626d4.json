@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-rad-publishing",
   "published_at": "2025-07-01T11:29:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "974841b7bc4308123d33c6010b4ef0ced0dbd978",
       "words": 441,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:21:28.601Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002622
+    },
+    "summarized": {
+      "at": "2026-10-06T19:21:28.670Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:21:28.672Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:21:28.680Z",
+      "page": false
     }
   },
   "input_hash": "974841b7bc4308123d33c6010b4ef0ced0dbd978",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "974841b7bc4308123d33c6010b4ef0ced0dbd978"
+  "output_hash": "ca72202346701e5329b93be44d4ad361d115ef8c4ed49e7a1cb431e9cae65dbc"
 }

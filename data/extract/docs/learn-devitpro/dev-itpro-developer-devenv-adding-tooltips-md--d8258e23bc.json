@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-adding-tooltips.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-tooltips",
+  "title": "Add tooltips to table and page fields",
+  "blob": "8518266087cc72f32d199d2655deb28264c7209d",
+  "summary": "Add tooltips to table and page fields explains how to define tooltips on table fields starting in 2024 release wave 1, allowing automatic inheritance on pages and override capability.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "tooltips",
+    "table fields",
+    "page fields",
+    "user assistance",
+    "accessibility"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "MyTable"
+    },
+    {
+      "type": "page",
+      "name": "MyPage"
+    }
+  ],
+  "features": [
+    "ToolTip property",
+    "Table field tooltips",
+    "Page field tooltip override",
+    "CodeCop warning AA0234"
+  ],
+  "versions": [
+    "2024 release wave 1",
+    "2023 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002622,
+      "pages_in_call": 8
+    }
+  ]
+}

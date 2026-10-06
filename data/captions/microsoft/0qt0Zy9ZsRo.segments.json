@@ -1,0 +1,183 @@
+{
+  "video_id": "0qt0Zy9ZsRo",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.8,
+      "end": 26.2,
+      "text": "hi and welcome to this session on analyzing performance issues with profiling my name is Peter boring so five releases ago in 2022 release way one we launched the in client performance profile a very powerful tool for investigating performance issues across extensions directly inside"
+    },
+    {
+      "t": 26.2,
+      "end": 41.1,
+      "text": "of the web client since then profiling has become essential to identify application performance problems for customers partners and support and is the main performance troubleshooting tool used uh today by"
+    },
+    {
+      "t": 41.1,
+      "end": 61.3,
+      "text": "Partners so as a recap uh you open the incline performance uh profile tool from the help and support page there's a troubleshooting section where you can choose analyze performance or you can also search for performance profiler in the tel me so let's switch"
+    },
+    {
+      "t": 61.3,
+      "end": 81.4,
+      "text": "to the client and see what happens then so here we now see the inclined performance profile that we had in the product for for quite some releases and so the concept of the incline performance profiler is that you can uh start uh a recording you perform your repost steps you stop and then you inspect the results uh to try to"
+    },
+    {
+      "t": 81.4,
+      "end": 101.8,
+      "text": "identify what could be slow and let's try that out so to minimize the amount of uh of content that you uh that you record it's recommendable to open the tool in a new Pane and you can have them side by side because then you can basically navigate here uh in the product without having uh you know before"
+    },
+    {
+      "t": 101.8,
+      "end": 120.5,
+      "text": "actually doing the recording so here we now have the two windows side by side so what was slow was going to the customer list so I will start the performance profiler uh I will perform a rep steps in the UI which was opening customers uh we can see that it takes uh some time"
+    },
+    {
+      "t": 120.5,
+      "end": 140.6,
+      "text": "and we wait until the result is done and we can stop the performance profiler let's just maximize the uh results here so what the performance profile or results is showing is the apps that take part of the process that we captured so in this case I had a profiler app and you can see"
+    },
+    {
+      "t": 140.6,
+      "end": 160.6,
+      "text": "that it takes up to 5 Seconds uh to execute content in the profiler app uh we can enable technical information and in the technical information uh we can scroll down and we can see for example the time spent uh by application object we see there's a page extension in this app that takes almost 5 Second"
+    },
+    {
+      "t": 160.6,
+      "end": 180.8,
+      "text": "and we can even expand on the call tree to see uh what is was actually happening here and we see that the unopen page in the page extension took uh again almost uh 5 seconds so this enabled us to understand um where time is spent among the extensions and also gives us some context about where"
+    },
+    {
+      "t": 180.8,
+      "end": 200.8,
+      "text": "to do further investigation on a performance uh issue for example uh I would probably go and look at the on open page in this page so one of the challenges with the incline performance profiler that we just saw is that capturing a performance profile is interactive so either the user that has a problem"
+    },
+    {
+      "t": 200.8,
+      "end": 220.9,
+      "text": "needs to capture uh this profile and that likely involves getting some help either by a customer admin or maybe even from a consultant or a support person could also be that a consultant or support support personnel must do this that requires that they have access to the environment and likely they still need to get in"
+    },
+    {
+      "t": 220.9,
+      "end": 241.1,
+      "text": "contact with the user to get a concise rep uh uh to be able to themselves reproduce the issue and this is inefficient takes time takes collaboration also issues might be trans Trent and hard to reproduce right maybe even if they have the Repro stab it doesn't repo that"
+    },
+    {
+      "t": 241.1,
+      "end": 262.2,
+      "text": "one time they do it maybe it's something that happens during the day on there certain special scenarios that the user might not be aware was part of the Repro steps also the incline profile only supports interactive user flows so that means that you cannot profile web service calls or background sessions like job qes from within the"
+    },
+    {
+      "t": 262.2,
+      "end": 282.5,
+      "text": "client to make it easier and faster for customers Consultants developers partners and support to capture a profile and thereby lower manual collaboration and time to mitigate this release introduces schedule profiles so with these you can capture performance profiles automatically and non-interactively"
+    },
+    {
+      "t": 282.5,
+      "end": 303,
+      "text": "in the background based on well defined rules for when to trigger the capture of a profile the the rules that um you use to to capture can then be set up by a partner the user can just perform their task during the day and then the partner can come back later and analyze the profiles"
+    },
+    {
+      "t": 303,
+      "end": 323.3,
+      "text": "afterwards to see if there's any um obvious performance issues Trends or something like that in the profiles so this reduces the time spent on collaboration and guidance and reduces time to mitigate and it also gives us the ability to support both user actions but also web service calls"
+    },
+    {
+      "t": 323.3,
+      "end": 343.6,
+      "text": "uh and background tasks so just like with the inclined performance profile you can invoke this from help and support in a troubleshooting section still there's a new Option called analyze performance with schedule profiler or you can again search and tell me for profiler schedules"
+    },
+    {
+      "t": 343.6,
+      "end": 363.6,
+      "text": "let's see how that works so when you invoke that profile schedules opens up and that gives you an overview to manage all of your different schedules for capturing profiles so basically the different rule sets that you defined uh on when you would like to capture profiles in the background and so in this case uh"
+    },
+    {
+      "t": 363.6,
+      "end": 383.6,
+      "text": "I just have two already that I used uh prior to this launch session but let's create a new one so I I can invoke a new and that opens up the profile schedule uh card right and so um here I Define my criteria for when I want to do a capture so the first thing you have is that you"
+    },
+    {
+      "t": 383.6,
+      "end": 403.7,
+      "text": "can enable or disable uh the the this rule set right and I want to capture a profile in a so I will keep this enabled you can then Define a start and stop time or start and end time for the duration that you want to capture in by default it suggests an hour from now and I'm going to keep that because I just want to do"
+    },
+    {
+      "t": 403.7,
+      "end": 424,
+      "text": "a short demo but in theory you could have run it uh all day for example and then come back and analyze it depends a little bit on the circumstances and how often the user is running um the scenario or if it's a web service call that you want to catch up and profile Etc I can also do a um description here and that's just you know"
+    },
+    {
+      "t": 424,
+      "end": 444.1,
+      "text": "to have uniqueness in in the UI here then I can select uh which user that I want to run this for I want to run it as myself uh and you can select uh what type that you want to profile so it can be activity in the browser if I'm clicking around opening a customer card or something like that it can also be background"
+    },
+    {
+      "t": 444.1,
+      "end": 464.1,
+      "text": "tasks so job cues or web service course that I want to uh trigger on like for the existing profiling uh scenarios you can set the sampling frequency that's basically um how often we look at what is going on as part of profiling you can set the activity duration threshold that's basically uh how"
+    },
+    {
+      "t": 464.1,
+      "end": 484.5,
+      "text": "small uh or how slow should things be H before we start profiling it right and I'll I'll set that to 100 a little lower and you can also set the retention period because we save these profiles uh on the um NST or the service and after some certain time they will be deleted and"
+    },
+    {
+      "t": 484.5,
+      "end": 503.8,
+      "text": "and you can invoke that as well or set that as well so now we have that live and so basically what we would do this is monitoring me and my activities so I'm just going to go out of profile schedules uh I'm just going to go and um actually rerun uh this customers page that I"
+    },
+    {
+      "t": 503.8,
+      "end": 524,
+      "text": "had and because that's the scenario that was a little bit slow and we see it slow now as well and just for the sake of the demo itself let's open up a card we can also just in sales go to some items just to do a little thing different things right that could mimic how a user"
+    },
+    {
+      "t": 524,
+      "end": 544.4,
+      "text": "could use this during the day so now we want to look at the results uh there's different ways that you can do that you can either open uh performance profiles page H that will basically just open uh up all all of the capture profiles not just for this schedule or this set of rules"
+    },
+    {
+      "t": 544.4,
+      "end": 564.6,
+      "text": "but for everything so um if you want to have it filtered to a specific task or specific schedule it's actually better to go in and look at the the specific uh profiler schedule that we set up before so I defined this PC live uh schedule and there you have an action for opening the profiles that was"
+    },
+    {
+      "t": 564.6,
+      "end": 585.2,
+      "text": "captured and then they're filtered just to this schedule and we see that I performed opening the customer list uh and also the item list here going into the actual card was actually too fast to be noticed and we see that we have some slowness in in these scenarios and again we can drill into then the profile"
+    },
+    {
+      "t": 585.2,
+      "end": 605.9,
+      "text": "like before and it's the exact same result that we see now again uh the something is really slow in the profile extension I can go into the technical information and I can drill down and I can again see things like the call tree and understand what is taking all of the time and we see again that this unopen page takes"
+    },
+    {
+      "t": 605.9,
+      "end": 626,
+      "text": "almost 5 Seconds right so this is a way of using background profiling so what should you do well first of all if you haven't already tried it out use the existing profiling features that we have in client that I showed in the beginning but also the ability to profile from within Vis"
+    },
+    {
+      "t": 626,
+      "end": 643.2,
+      "text": "Studio code if you are a developer then use the new capability of scheduling profile captures so that they can run in the background this is mainly targeting consultants and support um you can go to"
+    },
+    {
+      "t": 643.2,
+      "end": 663.4,
+      "text": "aka.ms BBC troubleshooting and read more about this tool as well as the other tools that we have to help you in troubleshooting customer cases um we have also some documentation for this um and these links will be in the description uh for this session as well and also we have a related feature because"
+    },
+    {
+      "t": 663.4,
+      "end": 683.5,
+      "text": "we saw before in the performance profile that it looked like there was a problem in the unopen page but maybe you want to go and investigate that code and a couple of releases ago we actually made it very simple fast to go from the web client into Visual Studio code and look at code for the functionality that you viewing and we call that opening Vis"
+    },
+    {
+      "t": 683.5,
+      "end": 700,
+      "text": "Studio code and you can learn more about that if you look at the um launch events sessions from last year uh and we'll provide a link in the description as well for this thank you for joining"
+    }
+  ],
+  "markers": [],
+  "word_count": 1932
+}

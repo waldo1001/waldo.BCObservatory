@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-21-2",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "21e9c59b04e8adb83bf469de2f8f1bbc1b57b8e4",
       "words": 889,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:21:26.277Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004285
+    },
+    "summarized": {
+      "at": "2026-10-06T19:21:28.623Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:21:28.624Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:21:28.625Z",
+      "page": false
     }
   },
   "input_hash": "21e9c59b04e8adb83bf469de2f8f1bbc1b57b8e4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "21e9c59b04e8adb83bf469de2f8f1bbc1b57b8e4"
+  "output_hash": "dc14717f74631ad4cf566b71e88f04cd7ba70d850804b49e8965f522ddf5b538"
 }

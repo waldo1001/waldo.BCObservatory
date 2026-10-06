@@ -1,0 +1,28 @@
+{
+  "video_id": "5RJ3yZ7m1UU",
+  "item_id": "video/yt-microsoft/5RJ3yZ7m1UU",
+  "summary": "Financial analytics additions in Business Central 2024 release wave 2: a Power BI finance app with 14 reports, 17 financial reporting templates (5 row, 12 column definitions), three fixed assets Excel reports, ad hoc fixed assets analysis, new documentation, and three demo data sets planned for the second minor release.",
+  "overview": "The video, published 2024-10-08, walks through the financial analytics changes in the 2024 release wave 2. It demos the Power BI finance app, the financial reporting templates with their row and column definitions, the Excel reports for fixed assets, and the ad hoc analysis view for fixed assets.\n\nIt also points to new documentation on financial reporting and analytics. The speaker says three new demo data sets, for financial reporting, fixed assets and projects, will come in the second minor release to better show these reporting capabilities.",
+  "key_points": [
+    "The Power BI finance app has 14 reports, with overview pages and KPI pages that drill through to ledger entries for validation and investigation. It is one of six new Power BI apps.",
+    "The financial reporting module gets 17 templates: five row definitions (such as balance sheet and income statement) and 12 column definitions (such as year to date, prior year, same period last year). Rows and columns can be mixed and matched.",
+    "The financial reporting templates require mapping configuration.",
+    "Three new Excel reports cover fixed assets: analysis with book value, projected value, and details. A separate consolidation report for fixed assets is also included.",
+    "Ad hoc analysis for fixed assets is a query-based view that combines fixed asset table data with multiple dimensions and dates. It supports custom reports and Copilot-assisted report generation.",
+    "New documentation covers the financial reporting overview, performing analytics in Business Central, module setup, and step-by-step creation of row and column definitions.",
+    "Three demo data sets (financial reporting, fixed assets, projects) are expected in the second minor release of this wave."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner",
+    "end user"
+  ],
+  "extraction_hash": "7cea24aa0fbc0afa88055d01743e076feb7a2ec74582893a9154850f119f95a2",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015146399999999999
+  }
+}
