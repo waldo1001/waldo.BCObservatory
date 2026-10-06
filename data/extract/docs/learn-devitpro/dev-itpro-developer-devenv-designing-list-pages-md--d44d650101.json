@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-designing-list-pages.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-list-pages",
+  "title": "Designing List Pages for Business Central",
+  "blob": "df7c1c1922eff0cbb9305bc5fec7f4aa1c76711a",
+  "summary": "List pages display collections of records as rows/columns or tiles, enabling users to browse and select entities to work with. List pages typically link to associated card pages for editing individual records.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "list pages",
+    "page design",
+    "tile view",
+    "repeater controls"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Customer List"
+    }
+  ],
+  "features": [
+    "tile view",
+    "factboxes",
+    "filter pane",
+    "promoted actions",
+    "edit in excel",
+    "analysis mode"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005573,
+      "pages_in_call": 8
+    }
+  ]
+}

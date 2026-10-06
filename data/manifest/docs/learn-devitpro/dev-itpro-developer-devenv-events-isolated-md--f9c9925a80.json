@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-events-isolated",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a36e72ebca53126c966286a92409526059ed8082",
       "words": 383,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:04.990Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005573
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:06.731Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:06.732Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:06.733Z",
+      "page": false
     }
   },
   "input_hash": "a36e72ebca53126c966286a92409526059ed8082",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a36e72ebca53126c966286a92409526059ed8082"
+  "output_hash": "c47d298b38642bdaf7f0cd24343c02a323f16fd4bfc096436a20b2fe7ccc640e"
 }

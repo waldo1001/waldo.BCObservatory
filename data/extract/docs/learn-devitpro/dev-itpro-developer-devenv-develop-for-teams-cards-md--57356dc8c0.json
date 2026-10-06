@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-develop-for-teams-cards.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-cards",
+  "title": "Developing for Microsoft Teams Using Metadata",
+  "blob": "095bf3ba592c40fd0bcf267fc227c6572e32a40f",
+  "summary": "Teams card customization allows configuring which fields display on Business Central cards shared in Teams using the Brick field group or event subscribers. The platform automatically selects fields from Brick, Dropdown, or primary key fields.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "teams integration",
+    "teams cards",
+    "field groups",
+    "events"
+  ],
+  "objects": [],
+  "features": [
+    "brick field group",
+    "dropdown field group",
+    "teams cards",
+    "media fields",
+    "OnBeforeGetPageSummary event",
+    "OnAfterGetSummaryFields event",
+    "OnAfterGetPageSummary event"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005573,
+      "pages_in_call": 8
+    }
+  ]
+}

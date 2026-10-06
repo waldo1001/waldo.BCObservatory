@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-events-example.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-events-example",
+  "title": "Event example",
+  "blob": "9a5d57ae4dcb727c118be533f30cb2829bc794a9",
+  "summary": "Events in Business Central enable loosely coupled communication between components. Publishers define events, pages raise them, and subscribers listen and react to event notifications with custom logic.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "events",
+    "event publishing",
+    "event subscribers",
+    "event raising"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "MyPublishers"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    }
+  ],
+  "features": [
+    "event publishing",
+    "event subscribers",
+    "integration events",
+    "business events"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005573,
+      "pages_in_call": 8
+    }
+  ]
+}

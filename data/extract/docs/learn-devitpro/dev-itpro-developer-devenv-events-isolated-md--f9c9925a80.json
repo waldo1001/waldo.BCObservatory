@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-events-isolated.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-events-isolated",
+  "title": "Isolated events in AL",
+  "blob": "a36e72ebca53126c966286a92409526059ed8082",
+  "summary": "Isolated events ensure publishers continue execution after calling an event even if a subscriber fails. Errors in isolated event subscribers are rolled back without affecting the publisher or other subscribers.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "events",
+    "isolated events",
+    "transaction management",
+    "error handling"
+  ],
+  "objects": [],
+  "features": [
+    "isolated events",
+    "transaction rollback",
+    "error isolation",
+    "BusinessEvent attribute",
+    "IntegrationEvent attribute",
+    "InternalEvent attribute"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005573,
+      "pages_in_call": 8
+    }
+  ]
+}

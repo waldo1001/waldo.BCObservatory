@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tabs",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2c510cdcd251b3b3d0e16d1cd3260599afffaa5e",
       "words": 941,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:04.988Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005573
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:06.724Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:06.725Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:06.727Z",
+      "page": false
     }
   },
   "input_hash": "2c510cdcd251b3b3d0e16d1cd3260599afffaa5e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2c510cdcd251b3b3d0e16d1cd3260599afffaa5e"
+  "output_hash": "a4997508b88888cd37a34171e3cd49bab2230af26d3d17690a580ebebc330fc9"
 }

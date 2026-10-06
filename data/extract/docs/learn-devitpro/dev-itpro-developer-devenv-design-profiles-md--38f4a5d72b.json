@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-design-profiles.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles",
+  "title": "Designing Profiles",
+  "blob": "3fb3a2127e273306d09a4b95506f3c3d9ae614ad",
+  "summary": "Profiles (roles) customize user experiences in Business Central by controlling which pages and reports are available. Create profiles using profile objects, profile extension objects, and page customization objects in AL.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "profiles",
+    "role centers",
+    "page customization",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "profile object"
+    },
+    {
+      "type": "other",
+      "name": "profile extension object"
+    },
+    {
+      "type": "other",
+      "name": "page customization object"
+    }
+  ],
+  "features": [
+    "role centers",
+    "page customization",
+    "profile extensions",
+    "translation support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005573,
+      "pages_in_call": 8
+    }
+  ]
+}

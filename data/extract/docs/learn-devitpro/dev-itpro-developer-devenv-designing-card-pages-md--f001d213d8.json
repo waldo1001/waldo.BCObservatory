@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-designing-card-pages.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-card-pages",
+  "title": "Designing card pages",
+  "blob": "e7c3213d0040616d13f51fd9eca3a1bdc8e1655b",
+  "summary": "Card and document pages display individual records for viewing and editing master data and transactions. Card pages show single records while document pages include sub-pages for related line items.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "card pages",
+    "document pages",
+    "page design",
+    "list pages"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Business Manager Role Center"
+    },
+    {
+      "type": "page",
+      "name": "Customer List"
+    }
+  ],
+  "features": [
+    "fasttabs",
+    "factboxes",
+    "promoted actions",
+    "mobile optimization",
+    "field importance"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005573,
+      "pages_in_call": 8
+    }
+  ]
+}

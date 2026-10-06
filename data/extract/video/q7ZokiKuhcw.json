@@ -1,0 +1,149 @@
+{
+  "video_id": "q7ZokiKuhcw",
+  "item_id": "video/yt-microsoft/q7ZokiKuhcw",
+  "title": "Use Company Badges to Identify the Company",
+  "duration_s": 109,
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "company badges",
+    "visual identification",
+    "environment selector",
+    "sandbox environments",
+    "production environments",
+    "company information"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Company Badges",
+      "t_start": 0,
+      "t_end": 18.3
+    },
+    {
+      "title": "Visual Identification Benefits",
+      "t_start": 18.3,
+      "t_end": 38.3
+    },
+    {
+      "title": "Badge Customization and Environment Types",
+      "t_start": 38.3,
+      "t_end": 52
+    },
+    {
+      "title": "Accessing Company Information Settings",
+      "t_start": 52,
+      "t_end": 72.1
+    },
+    {
+      "title": "Configuring Badge Styles and Text",
+      "t_start": 72.1,
+      "t_end": 109
+    }
+  ],
+  "features": [
+    {
+      "name": "Company Badges",
+      "description": "Visual badges assigned to companies for quick identification across multiple companies and environments. Users can customize badge colors, text, and style to distinguish between different environments and companies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.9,
+      "t_end": 92.1,
+      "is_demoed": true,
+      "caveats": [
+        "Company badge text limited to six characters",
+        "Shape of badge determined by environment type - round for production, square for sandbox"
+      ],
+      "tags": [
+        "visual identification",
+        "company selector",
+        "customization",
+        "environments"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Environment Type Badge Shape",
+      "description": "Round company badges signify production environments while square company badges signify sandbox environments to help users quickly identify the environment type.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 52,
+      "t_end": 62,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "badge shapes",
+        "environment types",
+        "production",
+        "sandbox"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "company information",
+      "t": 52
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.9,
+      "text": "when you work with multiple companies and multiple environments in business Central it can be useful to have a visual identification",
+      "why_it_matters": "Establishes the core use case and value proposition of company badges for multi-company scenarios",
+      "check": "exact"
+    },
+    {
+      "t": 18.3,
+      "text": "I have four environments in this case and in some environments I have multiple companies and I like the visual identification",
+      "why_it_matters": "Demonstrates practical implementation with multiple environments and companies to justify badge usage",
+      "check": "exact"
+    },
+    {
+      "t": 38.3,
+      "text": "you may want to choose different colors notice that I can also set different texts on these company badges",
+      "why_it_matters": "Shows customization options available for badge colors and text to fit different organizational structures",
+      "check": "exact"
+    },
+    {
+      "t": 52,
+      "text": "round company badges signify produ C environments Square company badges signify sandbox environments",
+      "why_it_matters": "Explains the badge shape convention used to visually distinguish production from sandbox environments",
+      "check": "exact"
+    },
+    {
+      "t": 72.1,
+      "text": "you can determine how the company badge you look in terms of should it be a custom one what is the style and",
+      "why_it_matters": "Describes the configuration options available in company information settings for badge customization",
+      "check": "fuzzy"
+    },
+    {
+      "t": 92.1,
+      "text": "you can enter up to six characters in the company badge",
+      "why_it_matters": "Specifies the character limit constraint for company badge text labels",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009482
+    }
+  ]
+}

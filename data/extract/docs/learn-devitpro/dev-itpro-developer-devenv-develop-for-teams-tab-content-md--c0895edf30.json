@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-develop-for-teams-tab-content.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tab-content",
+  "title": "Add and remove recommended content for Business Central tabs",
+  "blob": "15bd68cf575c8d6279dc895581035fe69ffa8757",
+  "summary": "Recommended content for Business Central tabs in Teams can be customized by subscribing to the OnAfterGetPageActions event. This event allows adding or removing list pages shown to users when configuring tabs.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "teams integration",
+    "teams tabs",
+    "recommended content",
+    "events"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Page Action Provider"
+    }
+  ],
+  "features": [
+    "OnAfterGetPageActions event",
+    "page recommendations",
+    "teams tabs"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005573,
+      "pages_in_call": 8
+    }
+  ]
+}

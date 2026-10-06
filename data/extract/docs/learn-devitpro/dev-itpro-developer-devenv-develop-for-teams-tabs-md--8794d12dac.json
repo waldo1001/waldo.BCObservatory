@@ -1,0 +1,34 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-develop-for-teams-tabs.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tabs",
+  "title": "Create Business Central tabs for Teams",
+  "blob": "2c510cdcd251b3b3d0e16d1cd3260599afffaa5e",
+  "summary": "Business Central tabs can be added programmatically to Teams channels and chats using the Microsoft Graph API. POST requests to channel or chat tab endpoints with proper authentication and Business Central app ID are required.",
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "teams integration",
+    "teams tabs",
+    "graph api",
+    "rest api"
+  ],
+  "objects": [],
+  "features": [
+    "graph api integration",
+    "channel tabs",
+    "chat tabs",
+    "tab configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005573,
+      "pages_in_call": 8
+    }
+  ]
+}

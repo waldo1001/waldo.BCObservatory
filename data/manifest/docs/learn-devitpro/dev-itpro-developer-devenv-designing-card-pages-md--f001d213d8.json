@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-card-pages",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e7c3213d0040616d13f51fd9eca3a1bdc8e1655b",
       "words": 1539,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:04.984Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.005573
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:04.995Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:04.997Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:06.711Z",
+      "page": false
     }
   },
   "input_hash": "e7c3213d0040616d13f51fd9eca3a1bdc8e1655b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e7c3213d0040616d13f51fd9eca3a1bdc8e1655b"
+  "output_hash": "9a815550fa44b2b08f7fe1b05c3e44c9b3266e353d5e5cbd23ba85d29f577888"
 }
