@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-permissions-on-database-objects.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissions-on-database-objects",
+  "title": "Permissions on Objects",
+  "blob": "01cedd04ee4d0069e551293d8ebed575ba0ca9d4",
+  "summary": "Permissions on Objects describes how to assign read, insert, modify, delete, and execute permissions to tables, pages, reports and other objects using AL permission sets. Use it to understand direct and indirect permissions and permission abbreviations.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "permissions",
+    "security",
+    "permissionsets",
+    "tabledata",
+    "objects"
+  ],
+  "objects": [
+    {
+      "type": "permissionset",
+      "name": "PermissionSet object"
+    },
+    {
+      "type": "permissionset",
+      "name": "PermissionSet extension object"
+    }
+  ],
+  "features": [
+    "direct permissions",
+    "indirect permissions",
+    "permission abbreviations",
+    "wildcard permissions",
+    "permission sets"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004773,
+      "pages_in_call": 8
+    }
+  ]
+}

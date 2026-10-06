@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-migrating-from-sift-to-ncci.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migrating-from-sift-to-ncci",
+  "title": "Migrating from SIFT to Nonclustered Columnstore Indexes (NCCIs)",
+  "blob": "c7807b69c8eed258d8695a3040bbc9f3b54bcfd5",
+  "summary": "Migrating from SIFT to Nonclustered Columnstore Indexes explains how to replace SIFT indexes with NCCI to reduce maintenance overhead and improve query performance. Use it to understand when and how to migrate index strategies in custom tables.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "indexes",
+    "ncci",
+    "sift",
+    "columnstore",
+    "performance",
+    "database tuning"
+  ],
+  "objects": [],
+  "features": [
+    "NCCI (Nonclustered Columnstore Index)",
+    "SIFT key replacement",
+    "index maintenance",
+    "query optimization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004773,
+      "pages_in_call": 8
+    }
+  ]
+}

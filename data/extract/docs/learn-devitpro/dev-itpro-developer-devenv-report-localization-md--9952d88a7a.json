@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-report-localization.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-localization",
+  "title": "Localizing the report data formatting and caption strings",
+  "blob": "ca0e406eec778049296ae0372c58e836a0e1cab1",
+  "summary": "Report localization guidance for setting language and regional formatting in Business Central reports using the Language and FormatRegion properties in code, settings pages, or at runtime.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "report localization",
+    "language",
+    "formatting",
+    "region",
+    "captions"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Report"
+    }
+  ],
+  "features": [
+    "Report Language property",
+    "Report FormatRegion property",
+    "date formatting",
+    "time formatting",
+    "decimal formatting",
+    "RDLC formatting",
+    "Report Limits and Settings page"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005899,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-post-process-report-pdf",
   "published_at": "2025-12-22T15:48:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "27eb2afc8020457e6a8132e087b65466a96fe7e4",
       "words": 1036,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:01.726Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005899
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:03.504Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:03.505Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:03.506Z",
+      "page": false
     }
   },
   "input_hash": "27eb2afc8020457e6a8132e087b65466a96fe7e4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "27eb2afc8020457e6a8132e087b65466a96fe7e4"
+  "output_hash": "c4d427fe933ce4e4274cfe5abd5a33ae54852f30cd262b8cba7f16a2ea620d75"
 }

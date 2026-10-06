@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-accounting-periods-and-fiscal-years.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-accounting-periods-and-fiscal-years",
+  "title": "Working with accounting periods and fiscal years",
+  "blob": "36c6ce016a4de03918eafc0e195877d4ee4389a8",
+  "summary": "Working with accounting periods and fiscal years explains how to set up and manage accounting periods within fiscal years for financial reporting and period-based analysis. Use it to understand period structure, closing fiscal years, and posting date controls.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "accounting periods",
+    "fiscal years",
+    "financial reporting",
+    "period closing",
+    "general ledger"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Accounting Periods"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "User Setup"
+    },
+    {
+      "type": "page",
+      "name": "Balance/Budget"
+    }
+  ],
+  "features": [
+    "fiscal year creation",
+    "period closing",
+    "date locking",
+    "inventory period closing",
+    "posting date controls",
+    "financial reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004773,
+      "pages_in_call": 8
+    }
+  ]
+}

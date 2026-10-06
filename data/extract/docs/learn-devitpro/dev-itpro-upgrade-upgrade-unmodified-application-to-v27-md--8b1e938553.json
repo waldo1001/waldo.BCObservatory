@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-unmodified-application-to-v27.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v27",
+  "title": "Upgrading Microsoft System and Base Application to Version 27",
+  "blob": "3701cbf2bf19b799b30e371d5ae144f8f120e418",
+  "summary": "Upgrading Microsoft System and Base Application to Version 27 provides step-by-step procedures for upgrading from versions 25-26 to Business Central version 27. Use it to plan and execute technical and functional upgrades including database conversion, extension publishing, and data migration.",
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "upgrade",
+    "version 27",
+    "database conversion",
+    "extensions",
+    "data upgrade"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Permission Sets"
+    }
+  ],
+  "features": [
+    "application database conversion",
+    "extension publishing",
+    "tenant synchronization",
+    "data upgrade",
+    "permission set migration",
+    "encryption management"
+  ],
+  "versions": [
+    "2025 release wave 2 (version 27)",
+    "2024 release wave 2 (version 25)",
+    "2025 release wave 1 (version 26)"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004773,
+      "pages_in_call": 8
+    }
+  ]
+}

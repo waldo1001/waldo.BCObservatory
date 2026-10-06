@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/transparent-data-encryption",
   "published_at": "2026-01-12T07:18:32.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bd0e2f1c7bc8fb2ed42ca7b5022b3bd13599adf9",
       "words": 777,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:57.837Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004773
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:01.743Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:01.744Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:01.745Z",
+      "page": false
     }
   },
   "input_hash": "bd0e2f1c7bc8fb2ed42ca7b5022b3bd13599adf9",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bd0e2f1c7bc8fb2ed42ca7b5022b3bd13599adf9"
+  "output_hash": "fd8c5a2609240ccfb027afa563e9f041765269fa67f3d3d4f6b141d1a66c027d"
 }

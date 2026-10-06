@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-post-process-report-pdf.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-post-process-report-pdf",
+  "title": "Attach Files, Append, and Protect Report PDFs with AL",
+  "blob": "27eb2afc8020457e6a8132e087b65466a96fe7e4",
+  "summary": "AL developers can enhance report PDF output by attaching files, appending additional PDF documents, and adding password protection using the OnPreRendering trigger with a JSON rendering payload.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "report pdf",
+    "attachments",
+    "password protection",
+    "pdf rendering",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Report"
+    }
+  ],
+  "features": [
+    "PDF attachments",
+    "PDF append",
+    "password protection",
+    "OnPreRendering trigger",
+    "JSON rendering payload",
+    "PDF/A conversion",
+    "e-invoicing support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005899,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "video_id": "CCIGX86ljYQ",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.5,
+      "end": 19.4,
+      "text": "Welcome to busy central launch event 2025 release wave 1. In this session we will show you one uh on the first side small improvement in electronic documents but this is really important one."
+    },
+    {
+      "t": 19.4,
+      "end": 29.7,
+      "text": "So let's start uh with electronic uh documents in account payable process in general. Why do we work with account payable in electronic documents?"
+    },
+    {
+      "t": 29.7,
+      "end": 41.5,
+      "text": "First, this is something what is required if you want to be compliant in many countries. In many countries, this is first introduced uh that you must receive electron documents. So, we wanted second thing to automate it."
+    },
+    {
+      "t": 41.5,
+      "end": 54.2,
+      "text": "So, you're compliant and you can make additional automation and then we made some uh improvements here. Uh earlier you could proceed only automatically."
+    },
+    {
+      "t": 54.2,
+      "end": 66.8,
+      "text": "So you will import system will automatically create your electronic uh purchase electronic invoice if no errors. So if you already had item references on GL mapping everything will be done automatically."
+    },
+    {
+      "t": 66.8,
+      "end": 77,
+      "text": "Um what was a small issue here we couldn't review incoming document before processing. Even if you could go back you couldn't see details."
+    },
+    {
+      "t": 77,
+      "end": 89.3,
+      "text": "Only what you could do was to download XML and XML is machine readable format. This is not human readable format. So now what we did first we enabled both one step and two step processing."
+    },
+    {
+      "t": 89.3,
+      "end": 100,
+      "text": "What does it mean? You can still continue by default you will continue the same way will automatically create if everything exist but you can turn off it. So system will work in two steps."
+    },
+    {
+      "t": 100,
+      "end": 110.2,
+      "text": "So you will just create a training document and then you can decide to process and to create purchase uh purchase invoice in the business central. So this is important."
+    },
+    {
+      "t": 110.2,
+      "end": 127.1,
+      "text": "So you can do uh on the both of way. But one more important thing much more important again now you can review this document before processing or after processing never mind you can see original document."
+    },
+    {
+      "t": 127.1,
+      "end": 143.5,
+      "text": "What does it mean? You have XML but now in a electronic documents we have actually reading this XML. So you will have extracted information from your vendor document um in the header the most important fields in the header and you will have extracted document lines."
+    },
+    {
+      "t": 143.5,
+      "end": 157.4,
+      "text": "So you can even check your lines if this document is something what you expect from your vendor if uh price is good if everything is okay as you agreed and after that you can continue to proceed and posting documents."
+    },
+    {
+      "t": 157.4,
+      "end": 169,
+      "text": "So this is what we want to show you right now. As I said, small feature but extremely important because now you can preview before processing and posting in a business central uh upcoming uh documents."
+    },
+    {
+      "t": 169,
+      "end": 186.9,
+      "text": "So now we'll give a word my colleague Magnus and he will show you how it work in a practice. Thank you Alexander. So uh let's take a look how that is in the product. With me today I have a demo tenant with a demo company demo receive and I will uh navigate to e documents."
+    },
+    {
+      "t": 186.9,
+      "end": 198.3,
+      "text": "All right. So, here I have a set of uh inbound e documents that we have received in our company. And I will just open up uh one of them number 31 here."
+    },
+    {
+      "t": 198.3,
+      "end": 213.3,
+      "text": "And as you can see on the e documents cards page, we have added uh this sub form lines that now allows you to see uh the the lines that were received in the XML that uh was sent to you."
+    },
+    {
+      "t": 213.3,
+      "end": 229,
+      "text": "This works of course for both processed and unprocessed documents as Alexander said. In this case, we've already created the purchase invoice. So I can open that up and we can see that it also contains the lines with the the GL account set."
+    },
+    {
+      "t": 229,
+      "end": 248.4,
+      "text": "If you want to inspect further, you can also now go under related and open up view extracted data. And from here you will have a mix of both header information and the line information for you to go look at before you decide on whether you want to process this e document into a purchase"
+    },
+    {
+      "t": 248.4,
+      "end": 262.5,
+      "text": "document. As an an additional thing I just want to quickly mention is that we have the new and improved fact box for for the e document card page where you can now see the service and the locks are moved to here for you to to view."
+    },
+    {
+      "t": 262.5,
+      "end": 276.5,
+      "text": "But we also have the attachments uh fact box where you can see that on this e document we created two PDF attachments that was embedded in the XML and stored them so you can open them up and see."
+    },
+    {
+      "t": 276.5,
+      "end": 286.5,
+      "text": "And this one is from Perro that that I received and you can then inspect uh that as well. And that is essentially everything. Alexander back to you."
+    },
+    {
+      "t": 286.5,
+      "end": 304.1,
+      "text": "Thank you Magnus. Yeah, as I said this is on a first size small improvements but I think this is XML big because first you can transfer XML to readable to human readable uh information and plus we have this embedded PDF"
+    },
+    {
+      "t": 304.1,
+      "end": 317.9,
+      "text": "uh inside. So now when you get the electronic voice if this is XML PEL with embedded uh PDF system will extract this PDF and then you can easily click on this PDF from e documents and show even original documents there."
+    },
+    {
+      "t": 317.9,
+      "end": 335,
+      "text": "So this is again as I said a really important feature. So uh before I say thank you, I would like to invite you to watch another uh sessions related to e documents because we have so many new uh features related to electronic documents in this release."
+    },
+    {
+      "t": 335,
+      "end": 350,
+      "text": "If and if I'm not wrong, we have six different sessions related to e documents. So please watch another session to understand what is improved in this area. And now thank you for watching us."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 952
+}

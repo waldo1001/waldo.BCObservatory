@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v27",
   "published_at": "2026-01-08T17:49:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3701cbf2bf19b799b30e371d5ae144f8f120e418",
       "words": 2226,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:57.838Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004773
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:01.750Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:03.483Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:03.485Z",
+      "page": false
     }
   },
   "input_hash": "3701cbf2bf19b799b30e371d5ae144f8f120e418",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3701cbf2bf19b799b30e371d5ae144f8f120e418"
+  "output_hash": "c088bb40dd27ffbec1f944ec79ab4186f963bd58b853835ae58bfd4a14d7ad83"
 }

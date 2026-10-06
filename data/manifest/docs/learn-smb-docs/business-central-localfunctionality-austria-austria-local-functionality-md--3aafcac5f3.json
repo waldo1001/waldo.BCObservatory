@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/austria-local-functionality",
   "published_at": "2025-12-30T09:44:43.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f910a33b3b12bd53c6e87cedd9545e5045300cb7",
       "words": 139,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:01.722Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005899
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:03.492Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:03.493Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:03.494Z",
+      "page": false
     }
   },
   "input_hash": "f910a33b3b12bd53c6e87cedd9545e5045300cb7",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f910a33b3b12bd53c6e87cedd9545e5045300cb7"
+  "output_hash": "fc9393574346d0146851d4346271f96ef5e100b9862c5ac4d4aa8af82c275f79"
 }

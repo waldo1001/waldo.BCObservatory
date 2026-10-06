@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/operational-limits-online.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/operational-limits-online",
+  "title": "Operation Limits in Dynamics 365 Business Central",
+  "blob": "60f32c796f2c932eba795bd4e7ec543454aa2696",
+  "summary": "Operational limits for Business Central online define constraints on client connections, data handling, database operations, asynchronous tasks, reports, OData and SOAP requests to ensure service availability and quality.",
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "operational limits",
+    "performance",
+    "odata",
+    "soap",
+    "database",
+    "background tasks",
+    "reports",
+    "scheduled tasks"
+  ],
+  "objects": [],
+  "features": [
+    "client connection limits",
+    "file size limits",
+    "database size limits",
+    "search timeout",
+    "sql command timeout",
+    "background session limits",
+    "scheduled task limits",
+    "report execution limits",
+    "OData request limits",
+    "SOAP request limits"
+  ],
+  "versions": [
+    "2023 wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005899,
+      "pages_in_call": 8
+    }
+  ]
+}

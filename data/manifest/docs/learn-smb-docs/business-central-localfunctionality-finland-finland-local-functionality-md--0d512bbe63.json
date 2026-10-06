@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/finland-local-functionality",
   "published_at": "2025-12-30T09:27:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e2683491e8a6041d3f4e6852ef33c8143b6aa361",
       "words": 130,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:01.723Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005899
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:03.495Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:03.496Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:03.497Z",
+      "page": false
     }
   },
   "input_hash": "e2683491e8a6041d3f4e6852ef33c8143b6aa361",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e2683491e8a6041d3f4e6852ef33c8143b6aa361"
+  "output_hash": "73a1d657c614252ae20c271dba37cdac64256bd5364d9d37d04ceb9284b79818"
 }

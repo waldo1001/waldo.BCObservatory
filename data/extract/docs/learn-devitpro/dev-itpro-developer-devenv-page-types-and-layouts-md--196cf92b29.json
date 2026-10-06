@@ -1,0 +1,104 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-page-types-and-layouts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-types-and-layouts",
+  "title": "Page types and layouts",
+  "blob": "ac1dac1706cf31a4f158735fbdc05b071c2fd84e",
+  "summary": "Page types and layouts in Business Central determine how data is displayed and organized for different tasks. Describes entity-oriented pages like Card and Document, collection-oriented pages like List and Worksheet, and dialog pages, with guidance on composing and sizing page sections.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "page types",
+    "page layout",
+    "card page",
+    "list page",
+    "document page",
+    "worksheet page",
+    "role center",
+    "dialog page"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "RoleCenter"
+    },
+    {
+      "type": "page",
+      "name": "Card"
+    },
+    {
+      "type": "page",
+      "name": "Document"
+    },
+    {
+      "type": "page",
+      "name": "ListPlus"
+    },
+    {
+      "type": "page",
+      "name": "List"
+    },
+    {
+      "type": "page",
+      "name": "Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "StandardDialog"
+    },
+    {
+      "type": "page",
+      "name": "ConfirmationDialog"
+    },
+    {
+      "type": "page",
+      "name": "NavigatePage"
+    },
+    {
+      "type": "page",
+      "name": "CardPart"
+    },
+    {
+      "type": "page",
+      "name": "ListPart"
+    },
+    {
+      "type": "page",
+      "name": "HeadlinePart"
+    },
+    {
+      "type": "page",
+      "name": "PromptDialog"
+    },
+    {
+      "type": "page",
+      "name": "UserControlHost"
+    },
+    {
+      "type": "page",
+      "name": "ConfigurationDialog"
+    }
+  ],
+  "features": [
+    "page type property",
+    "FastTabs",
+    "Repeater control",
+    "FactBoxes",
+    "field groups",
+    "page parts",
+    "action bar",
+    "responsive layout"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005899,
+      "pages_in_call": 8
+    }
+  ]
+}

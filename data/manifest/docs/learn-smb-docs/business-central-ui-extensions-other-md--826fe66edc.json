@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-other",
   "published_at": "2026-01-12T16:01:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e821139d8e81dfeb841370042f03aa254a52868f",
       "words": 104,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:57.832Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004773
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:57.839Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:57.840Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:57.841Z",
+      "page": false
     }
   },
   "input_hash": "e821139d8e81dfeb841370042f03aa254a52868f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e821139d8e81dfeb841370042f03aa254a52868f"
+  "output_hash": "1918fe368eff7a6a67fa1a815e79b6561bf64e3c0c4e64c7318d5599476714da"
 }

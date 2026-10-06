@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-accounting-periods-and-fiscal-years",
   "published_at": "2026-01-12T08:48:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "36c6ce016a4de03918eafc0e195877d4ee4389a8",
       "words": 889,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:57.835Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.004773
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:01.736Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:01.738Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:01.739Z",
+      "page": false
     }
   },
   "input_hash": "36c6ce016a4de03918eafc0e195877d4ee4389a8",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "36c6ce016a4de03918eafc0e195877d4ee4389a8"
+  "output_hash": "95629018a43b0e4488cb9ccd3707521a4b52b664777131e8e7233dd8a29b8bbf"
 }

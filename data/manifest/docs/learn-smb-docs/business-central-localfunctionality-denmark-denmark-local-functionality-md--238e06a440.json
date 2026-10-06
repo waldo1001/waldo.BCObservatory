@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/denmark-local-functionality",
   "published_at": "2025-12-30T10:52:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ea5f6ad70d7c41d591a77f51ef0502a182c6edd9",
       "words": 230,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:01.721Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005899
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:03.489Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:03.490Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:03.491Z",
+      "page": false
     }
   },
   "input_hash": "ea5f6ad70d7c41d591a77f51ef0502a182c6edd9",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ea5f6ad70d7c41d591a77f51ef0502a182c6edd9"
+  "output_hash": "ca2cdeed29f2a789cb8562f7f7ad648b3e8427b280b4e03683fc2ce8e03d7b0f"
 }

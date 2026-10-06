@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-localization",
   "published_at": "2025-12-26T21:08:36.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ca0e406eec778049296ae0372c58e836a0e1cab1",
       "words": 375,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:01.725Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005899
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:03.501Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:03.502Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:03.503Z",
+      "page": false
     }
   },
   "input_hash": "ca0e406eec778049296ae0372c58e836a0e1cab1",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ca0e406eec778049296ae0372c58e836a0e1cab1"
+  "output_hash": "50885c2170d41c18fc454f4683a2d41c033925de1843c9f4f4c560f952d76b55"
 }

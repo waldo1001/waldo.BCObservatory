@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/manual-contract-lines",
   "published_at": "2026-01-12T09:56:46.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6111e69988d7993b4b2c64a33b4b44cc254c728f",
       "words": 562,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:57.834Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004773
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:01.730Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:01.731Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:01.732Z",
+      "page": false
     }
   },
   "input_hash": "6111e69988d7993b4b2c64a33b4b44cc254c728f",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6111e69988d7993b4b2c64a33b4b44cc254c728f"
+  "output_hash": "135f64e503d0e3242c72137f0591f9bda3796acdbdff61a2681799eb2b83a81c"
 }

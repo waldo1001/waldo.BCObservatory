@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migrating-from-sift-to-ncci",
   "published_at": "2026-01-11T11:42:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c7807b69c8eed258d8695a3040bbc9f3b54bcfd5",
       "words": 243,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:57.838Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004773
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:01.746Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:01.747Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:01.748Z",
+      "page": false
     }
   },
   "input_hash": "c7807b69c8eed258d8695a3040bbc9f3b54bcfd5",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c7807b69c8eed258d8695a3040bbc9f3b54bcfd5"
+  "output_hash": "8eafe07422e06fead041be675eb27f72a658a250adbf04d70cc3d47837e48163"
 }

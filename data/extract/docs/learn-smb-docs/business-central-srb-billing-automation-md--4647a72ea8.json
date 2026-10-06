@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/billing-automation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/billing-automation",
+  "title": "Billing automation",
+  "blob": "f70e744e6309297cd708a8f555150aada11b951d",
+  "summary": "Billing automation overview explains how to automate invoice and credit memo creation, posting, and management for customer contracts through configurable automation levels. Use it to set up billing templates, job queue entries, and error handling for recurring billing.",
+  "systems": [
+    "sales"
+  ],
+  "topics": [
+    "billing automation",
+    "invoicing",
+    "subscription billing",
+    "job queue",
+    "automation templates"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Auto Contract Billing (8014)"
+    },
+    {
+      "type": "report",
+      "name": "Batch Post Sales Invoices (297)"
+    },
+    {
+      "type": "page",
+      "name": "Contract Billing Error Log"
+    },
+    {
+      "type": "page",
+      "name": "User Setup"
+    }
+  ],
+  "features": [
+    "billing templates",
+    "job queue automation",
+    "posting date formula",
+    "document date formula",
+    "error logging",
+    "automation levels"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004773,
+      "pages_in_call": 8
+    }
+  ]
+}

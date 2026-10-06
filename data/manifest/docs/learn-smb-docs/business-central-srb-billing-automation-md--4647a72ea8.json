@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/billing-automation",
   "published_at": "2026-01-12T09:29:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f70e744e6309297cd708a8f555150aada11b951d",
       "words": 693,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:57.834Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.004773
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:01.733Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:01.734Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:01.735Z",
+      "page": false
     }
   },
   "input_hash": "f70e744e6309297cd708a8f555150aada11b951d",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f70e744e6309297cd708a8f555150aada11b951d"
+  "output_hash": "acc9eea9a6cb97a70e2fa0be03e27a193f0e55cc87df6c53e44b4b2b8e254480"
 }
