@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/bi-create-reports-with-xbrl",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bc2be7cfe0398c0c5c47cc61bdd091e528f9eda6",
       "words": 1700,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:44.210Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004822
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:44.224Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:44.225Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:44.226Z",
+      "page": false
     }
   },
   "input_hash": "bc2be7cfe0398c0c5c47cc61bdd091e528f9eda6",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bc2be7cfe0398c0c5c47cc61bdd091e528f9eda6"
+  "output_hash": "d6bd3a575657b5309bd00bc8e35fbeb7a2ca5f893c2e82bd637057bb30251517"
 }

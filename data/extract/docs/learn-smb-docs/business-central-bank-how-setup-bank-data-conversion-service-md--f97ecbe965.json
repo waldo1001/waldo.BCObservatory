@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bank-how-setup-bank-data-conversion-service.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-data-conversion-service",
+  "title": "Set Up Bank Data Conversion",
+  "blob": "e074f37b3306cd941dff4586b4a1d52acdd60758",
+  "summary": "Set up the AMC Banking 365 Fundamentals extension to convert bank payment and statement files for automatic import and export. Use this when integrating bank data formats with Business Central for electronic payment processing.",
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "bank data conversion",
+    "payment export",
+    "bank statement import",
+    "amc banking",
+    "electronic payments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Journal"
+    },
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journal"
+    },
+    {
+      "type": "page",
+      "name": "Bank Data Conv. Service Setup"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Card"
+    }
+  ],
+  "features": [
+    "AMC Banking 365 Fundamentals extension",
+    "payment file export",
+    "bank statement file import",
+    "data format conversion",
+    "bank name data conversion list",
+    "supported bank formats"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004822,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/bi-how-analyze-data-dimension",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f92ab0abcb5e7cd6823b6d0734ec7018041a2d1c",
       "words": 778,
       "forms": 8
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:44.211Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.004822
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:44.230Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:44.231Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:44.232Z",
+      "page": false
     }
   },
   "input_hash": "f92ab0abcb5e7cd6823b6d0734ec7018041a2d1c",
@@ -81,5 +100,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f92ab0abcb5e7cd6823b6d0734ec7018041a2d1c"
+  "output_hash": "ff748522e9bfd3dd507f7eede6f26ddfc0d505e0210efbebdeda0dcdd1367b49"
 }

@@ -1,0 +1,598 @@
+{
+  "video_id": "lpwDSdEJrIQ",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 10.4,
+      "end": 31.7,
+      "text": "welcome to the fifth episode of BC under the hood so a while ago we had another episode where we talked about how many users can business Central handle in the cloud and what we said back then is there are a lot of resources in the cloud a lot of compute and a lot of database so business Central can actually handle many users"
+    },
+    {
+      "t": 31.7,
+      "end": 51.8,
+      "text": "providing we write good L code so we are going to talk about performance today and we are going to talk about how to write super fast s code my name is Vincent Nicholas I am the Chief Architect of business Central and today with me to talk about performance I have invited bad yeah I'm B nutsen"
+    },
+    {
+      "t": 51.8,
+      "end": 72.7,
+      "text": "and I have been with a product for many years I started writing AO code in Seaside and now I'm part of of a Vincent's a Architects or app Architects so actually when you uh started it wasn't Al back then right in seide it was C was C"
+    },
+    {
+      "t": 72.7,
+      "end": 92.7,
+      "text": "yes you you you have been working with the B up for many many years many years so about um what um what can happen in in in in in you know to that that will affect performance yeah so now that we talk about performance uh I think we should take a look at how how fast is it and where do we spend"
+    },
+    {
+      "t": 92.7,
+      "end": 112.8,
+      "text": "our time mhm and a few years ago I did some measurements so executing a line of Al code or a statement that doesn't look up in the database takes approximately a microc seconds that means a million lines per second that's really fast and these"
+    },
+    {
+      "t": 112.8,
+      "end": 134,
+      "text": "are even Advanced um statements like calculations or assignments or yeah then we have SQL calls and at best they are one millisecond uh often it's seconds I mean full seconds but even a millisecond is thousand times a microsc"
+    },
+    {
+      "t": 134,
+      "end": 154.8,
+      "text": "right then I also looked at our code and um the ratio between database statements and non database statements is approxim approximately 10 to one if you combine these numbers it means that basically the NST spends 99% of its time just waiting for"
+    },
+    {
+      "t": 154.8,
+      "end": 174.9,
+      "text": "the database to return with the result so way the time goes yes so that mean quite important what's happening with the database exactly so it's all about database access that's the only thing we really care about actually um you know we have some automated tests where we compare version to version or even"
+    },
+    {
+      "t": 174.9,
+      "end": 195.6,
+      "text": "build to build when we as the project goes forward and the only only thing we are we care about there is the number of database calls because the timing can vary uh for various reasons count how many database we can do that with the performance tool kit okay which we encourage people to use"
+    },
+    {
+      "t": 195.6,
+      "end": 216.1,
+      "text": "so also also Partners can do that with it's fre accessible and it shows will show you both uh timings which obviously users are interested in but also the number of seal statements MH y so yeah so okay so now we so database database is where most of the time goes exactly so any good or bad code"
+    },
+    {
+      "t": 216.1,
+      "end": 236.2,
+      "text": "has to do with how well do we manage our database access so we talk about so one of the things we're we're talking about uh we talked about in this previous uh episode was long running queries yes how long does a query have to be before we we categorize it as a long run query yeah so well"
+    },
+    {
+      "t": 236.2,
+      "end": 254.5,
+      "text": "we say when it's longer than 750 milliseconds then we Define it is long enough to be interesting for us to log and then we log in there so anything that's under that takes less than 7 15 second we consider normal yeah we applying to that would see"
+    },
+    {
+      "t": 254.5,
+      "end": 275,
+      "text": "um yeah but what is long um what is expensive I mean a bread can be expensive and a car can be cheap right even it's completely different yes it depends what we do if you do something very complex Maybe it's okay yeah exactly I can do complex report or something but uh"
+    },
+    {
+      "t": 275,
+      "end": 295.5,
+      "text": "some other operations can be considered maybe more uh should be immediate from the user standpoint at so generally speaking the more often you query the database obviously mhm and the more time the DAT database needs to spend reading data or fetching the data the database is like librarian"
+    },
+    {
+      "t": 295.5,
+      "end": 316.2,
+      "text": "right going fetch stuff for you uh so what can we do about long War inqueries let's say we we detect a really bad one like several seconds or even you know even sometimes you know minutes uh that can happen to yeah that's where what can we do about it we can first of all look at indexing mhm"
+    },
+    {
+      "t": 316.2,
+      "end": 336.8,
+      "text": "and I first of all we need to detect it yeah and um that's where Telemetry comes into play obviously we have a lot of customers we can look into in Telemetry form mhm uh but as partners you would have app insights mhm where you can uh at least look at your"
+    },
+    {
+      "t": 336.8,
+      "end": 357.3,
+      "text": "customers but also if you have a specific customer complaining about a specific case then you can go and investigate that both with app insights but also with some of the tools that are built into the product um so index index optimization index optimization and and first of all detecting"
+    },
+    {
+      "t": 357.3,
+      "end": 373.8,
+      "text": "the that's the query that that yeah understanding that the query is is is taking time and then we can do index indexing that that might be missing indexes for example that's one thing but also the structure of the code uh how often do we actually have a slide yeah it show something"
+    },
+    {
+      "t": 373.8,
+      "end": 393.9,
+      "text": "here so here I have a slide that shows you ways to minimize the number of queries so for instance um nested Loops you know you loop our all customers and for each customer you do something something look something up or if it's posting a lot of sales invoices you do"
+    },
+    {
+      "t": 393.9,
+      "end": 413.9,
+      "text": "a lot of stuff per sales invoice and per sales line so what you're saying actually is that um if I understand correctly one thing is queries which you can do one single query which will take a long time which is bad yes but also you can have many smaller queries that even though they don't take a lot of time they they might be for example"
+    },
+    {
+      "t": 413.9,
+      "end": 434.1,
+      "text": "in Loop or even nested loop as you mention right maybe it's a bad analogy but think of you go to Sho door mhm right yeah and you come in the exact pair you wanted in the right size are there on display and you say you take them and you're happy that that corresponds to hitting the NST cache"
+    },
+    {
+      "t": 434.1,
+      "end": 450.8,
+      "text": "if you will like the NST already has it there here you go um the next level is um you say could you go and fetch a pair of these for me in my size size whatever 40"
+    },
+    {
+      "t": 450.8,
+      "end": 471,
+      "text": "and then the clerk goes off M comes back and you try them on and say ah not quite right and off he goes again or so that's one that could be multiple queries right or you up front say I'm I'm interested in these three pairs mhm and I'm sure not sure"
+    },
+    {
+      "t": 471,
+      "end": 481,
+      "text": "whether my size is 40 no two three or four mhm could you go and fetch all for me m and then it will go off and"
+    },
+    {
+      "t": 481,
+      "end": 501.4,
+      "text": "take everything back of course you'll spend more time on storage but oh it's going to be faster exactly so each round trip actually is round trip is the one of the bad guys here so we want to avoid having many round trips for example in Loop yeah exactly and that's where we can use queries because that can do um combine the loops"
+    },
+    {
+      "t": 501.4,
+      "end": 521.5,
+      "text": "if you will and it can do summarizations and all sorts of good things for us the other thing is we can use flow fields which is also kind of an old-fashioned um that has been around for a long time is yeah forever almost um so for instance you have an look something up and you want you know"
+    },
+    {
+      "t": 521.5,
+      "end": 541.5,
+      "text": "sum the sum of all underlying entries that's typically a flow field or if it's an entry you may have the um account name or customer name as a flow field a lookup flow field and you can ask SQL to you know calculate these as the I mean in instantly so as opposed to doing it"
+    },
+    {
+      "t": 541.5,
+      "end": 562.2,
+      "text": "in the code yeah yeah exactly instead of doing it afterwards with Cal fields and yeah so basically the strategy you are describing here is to push as much as possible to SQL yes because SQL is quite good at doing this kind of thing SQL itself is blistering fast that's what SQL is it's very good at doing this kind of operations I mean the biggest companies in the world run a SQL serus it's not"
+    },
+    {
+      "t": 562.2,
+      "end": 574.6,
+      "text": "because it's slow right right so it's better to to let SQL do that kind of thing aggregation of calculation of fields kind of thing exactly rather than we try trying to do it in the in the"
+    },
+    {
+      "t": 574.6,
+      "end": 594.6,
+      "text": "yeah so that's one thing and the last thing is a smaller smaller thing but we can use the function called set load Fields so some of our records are very large and even some of them have extensions MH but if you're only interested in I don't know a posting group or a currency code for a customer you"
+    },
+    {
+      "t": 594.6,
+      "end": 615.2,
+      "text": "don't need to read the entire customer record with all its extensions you can ask see could only go and fetch that currency code instead of returning the entire yeah and having to do joints and everything with yeah exactly that's also yeah uh something we can do it should do so how how can I so so you you gave a few"
+    },
+    {
+      "t": 615.2,
+      "end": 635.6,
+      "text": "examples of how to write better code here faster code so how can I um or can I do a Baseline and what's the best way to figure out you know how much that helps can I do it before and after comparison of my code like let's say I'm read piece of code then I think doesn't perform very well and I suspect it's a database and I follow some of your recommendation maybe"
+    },
+    {
+      "t": 635.6,
+      "end": 656.9,
+      "text": "do do some optimization indexing or whatever and yeah I mean the yeah so the the performance tool kit I mentioned before obviously can help you simulate that one tool um obviously you can also if you can Repro it locally then you have access to the database SQL tools like profiler"
+    },
+    {
+      "t": 656.9,
+      "end": 677.4,
+      "text": "mhm um so how much uh talking about which how much um if I'm a developer U yeah a BC developer how much do I need to understand how much knowledge of SQL do I need how much to understand what how SQL works and because um if I just write a code you know I don't see the queries"
+    },
+    {
+      "t": 677.4,
+      "end": 697.4,
+      "text": "themselves uh per se right exactly and this is where I also come to something else that's fundamental I mean ideally Al is um in theory agnostic sequel because our statements are you know we have get and F set SE language in nail exactly"
+    },
+    {
+      "t": 697.4,
+      "end": 717.5,
+      "text": "exactly and sometimes it's that's a good thing sometimes not but it's really useful to understand at least the indexing uh part so what what happens under the hood basically when we compile Al and the run time we actually do generate somewhere we do gener a SQL statement right uh but you you kind"
+    },
+    {
+      "t": 717.5,
+      "end": 737.8,
+      "text": "of never see it as a as but what's happening somewhere when you ride a a g or it's even better than that actually because even before issuing a SQL statement uh the NST will see do I already have this data in my cache so typically for um when you do get you know get some setup"
+    },
+    {
+      "t": 737.8,
+      "end": 749.6,
+      "text": "get this customer or something if it's popular enough it will be there in the cache um so it it would be an inmemory operation which is close to instant"
+    },
+    {
+      "t": 749.6,
+      "end": 769.9,
+      "text": "uh but otherwise whatever we write is transformed into some kind of Sequel and this is also a place where we um uh optimize over the years also as SQL becomes more and more advanced we try to adapt that and uptake new SQL features so the first time you typically"
+    },
+    {
+      "t": 769.9,
+      "end": 790.5,
+      "text": "the first time you would be the record setad of records that would be maybe a little bit slow it will at least take a millisecond yeah and then then we will have it in the cache yes and if subsequent request we requesting same will be very fast so that's maybe why people or that that is why people experiencing sometimes when you just log on"
+    },
+    {
+      "t": 790.5,
+      "end": 810.5,
+      "text": "in in the fresh instance of and nobody else has logged on before yeah um and what's more it's not just your session it's the company's session right so if none of your colleagues if you if you're at the first Monday morning yeah then you get to load everything into cash so that's your so an advice is is don't don't come too"
+    },
+    {
+      "t": 810.5,
+      "end": 824.5,
+      "text": "early at work exactly yeah Monday you should start at 10: before like everybody has has actually hydrated the cash so no that's not that's all caching obviously also metadata and pages and what have"
+    },
+    {
+      "t": 824.5,
+      "end": 845.2,
+      "text": "you so um no for what they need I have um another slide here actually um because when you retrieve data from the database obviously it has to do with the amount of data the bigger the table the more records the longer it takes so there are like four levels"
+    },
+    {
+      "t": 845.2,
+      "end": 865.2,
+      "text": "um of fetching a record one is the what we call primary key lookup that's like the get you know get this entry with this pair of shoes that you get by way the almost so that's as fast as it can get because yeah the next one is what we call index"
+    },
+    {
+      "t": 865.2,
+      "end": 881.6,
+      "text": "seek so we know it's a number you know whatever one to three or it is MH and then the SQL go and find an perfectly matching index and find it exactly and see oh this it's located there and then it will read it for you"
+    },
+    {
+      "t": 881.6,
+      "end": 900,
+      "text": "mhm um the third level which is not good is that the field is in an index but it's not in the beginning of the index and the only thing SQL can do then is it has to read through the entire index which can be millions of if it's a Lar"
+    },
+    {
+      "t": 900,
+      "end": 914,
+      "text": "yeah I mean for all entry tables it will be Millions MH uh that's really bad um so can we avoid that yes and no yes of course we can just add an index for that field MH"
+    },
+    {
+      "t": 914,
+      "end": 934.6,
+      "text": "mhm but sometimes some customers want to search on all sorts of fields and we can't have an index for each field yeah because index are also a little bit expensive right they are expensive both in maintenance but also in uh volume I mean database uh dis space so is that fair to say also that like as a rule of thumb indexes"
+    },
+    {
+      "t": 934.6,
+      "end": 954.6,
+      "text": "are helping for speed for retrieval of data but when insert new data it's actually a little more expensive than if you don't have an index right you have to you don't only insert the data you also have to maintain the index at the same time exactly but that's that's kind of a price to pay to get a fast retrieval yeah later on yeah I mean any way in that sense it's"
+    },
+    {
+      "t": 954.6,
+      "end": 974.7,
+      "text": "exactly like a book or encyclopedia right you with a lot of Articles you need to find an article about whatever MH and if you can you know an alphabetic index find it quickly is fine MH if it's not sorted alphabetically then"
+    },
+    {
+      "t": 974.7,
+      "end": 989.7,
+      "text": "you would need to go through the entire index to find it which obviously takes a long time yeah and the worst is if there is no index then you need to read the book or at least yeah browse the book which comes is the corresponds to the fourth"
+    },
+    {
+      "t": 989.7,
+      "end": 1010.4,
+      "text": "um uh case where we have a table scan okay so full table scan is the absolute worst that's the worst yeah when does that happen typically that happens typically I mean obviously when we don't have an index but it also most people experience it when they um use the um in a page you know list page in the"
+    },
+    {
+      "t": 1010.4,
+      "end": 1021.7,
+      "text": "upper left corner upper right you mean uh whatever this is left for the for the viewer okay okay okay all right"
+    },
+    {
+      "t": 1021.7,
+      "end": 1041.7,
+      "text": "right uh there's this page search field right where you can enter stuff right I want to find Vincent like made my customer list but since I have a thousand um not a thousand maybe a million customers in the list and the Page search actually searches on all visible"
+    },
+    {
+      "t": 1041.7,
+      "end": 1053.6,
+      "text": "columns okay except for numbers and booleans and stuff like that they will search the name field it will search the address field it'll search you know whatever City"
+    },
+    {
+      "t": 1053.6,
+      "end": 1074.1,
+      "text": "Field um and the only way the sequel can handle that is by actually reading through all million customers and that takes forever which people have that's explains why this feature is particularly slow yes and does that also so when a users does that system do a search like this yeah"
+    },
+    {
+      "t": 1074.1,
+      "end": 1094.2,
+      "text": "does it actually impact other users in the system yes and no only not by locking or anything but of course it takes some resources away from SQL right we'll get to locking in a second yeah exactly right because SQL needs to spend time reading the entire customer record"
+    },
+    {
+      "t": 1094.2,
+      "end": 1114.3,
+      "text": "or table so we're using so that one user is going to use some of the database resources some database computational resources so that could explain why other users find the system slow while true SQL is searching especially if several people are doing this at the same time as they typically would in a"
+    },
+    {
+      "t": 1114.3,
+      "end": 1134.7,
+      "text": "system so don't come early in the morning and and and don't use a stem while somebody else is searching yeah or instead of doing the Page search if you have a lot of data Maybe use the column filtering if you know it's the name then at least you can filter on the name say I want to find Vincent in the name field yeah so that helps AB"
+    },
+    {
+      "t": 1134.7,
+      "end": 1154.8,
+      "text": "the customer the last thing I think we want to spend a little bit of time is locking yeah because that's also one of the as we talked about in in the other episode that's also one of the things that can uh create some uh some perceived bad performance on the system uh so what's uh tell us a little bit about it what what is"
+    },
+    {
+      "t": 1154.8,
+      "end": 1175,
+      "text": "it what what is locking when does it happen you know what what triggers it yeah I mean locking is a good thing as such it's a good feature that sequel as invented why why it doesn't sound good like why would I lock something right if I want to update some stuff I may want to say nobody touches this and nobody touches this"
+    },
+    {
+      "t": 1175,
+      "end": 1195,
+      "text": "until I'm done because otherwise I get an inconsistent transaction right so for example just to if let's say I update the uh the customer address yeah so uh I first update say the street name yeah and then afterwards I update the let's"
+    },
+    {
+      "t": 1195,
+      "end": 1215.6,
+      "text": "say the uh postcode yeah and the town you don't want somebody fetching that record while before I'm done exactly otherwise I will have like the old the new address uh the street name and the old post code and town name exactly and then a totally wrong address so abut that's a corrupted"
+    },
+    {
+      "t": 1215.6,
+      "end": 1236,
+      "text": "data so that's why when an operation like this happens we need to kind of lock that recall and in particular when we get into um posting stuff or you know bigger updates uh that we come in come to in a in a bit we really want to make sure that this transaction is consistent"
+    },
+    {
+      "t": 1236,
+      "end": 1256.6,
+      "text": "so as such locking is a good thing but we also spend a lot of time looking up stuff and calculating stuff and looking more stuff up and writing lock entries and doing stuff that um we should do before we actually start updating the let's say the shared"
+    },
+    {
+      "t": 1256.6,
+      "end": 1276.7,
+      "text": "resources so good pattern is to do all the expensive stuff first mhm and then at the very end do a quick update update so so I was going to ask you about this because you discover quite recently or a while ago you discovered that in in our application there there are"
+    },
+    {
+      "t": 1276.7,
+      "end": 1296.7,
+      "text": "many places where we don't quite follow that pattern right where we where we take a look on on on some of the data very early in the process and uh in effect that means that uh a lot of people a lot of users are potentially waiting yes I mean we can take a look at the sales order process posting because that's like our canonical"
+    },
+    {
+      "t": 1296.7,
+      "end": 1316.8,
+      "text": "example always we use and um if we look at what happens when post a sales order uh it's like in two steps first you do some internal calculations um calculate discounts and tax and stuff like that but then we go and fetch um a number from a number series"
+    },
+    {
+      "t": 1316.8,
+      "end": 1337.5,
+      "text": "which is a shared resource and then we commit and then we remember this mhm document number we got and then we start creating U or going through all the lines posting to inventory and resources and what have you and during all that time the"
+    },
+    {
+      "t": 1337.5,
+      "end": 1357.8,
+      "text": "so what is locked during that time yeah so that's the problem because um we don't know if order a has something with in items and then resources and then something else or another order has resources items something else and we don't want Deadlocks right"
+    },
+    {
+      "t": 1357.8,
+      "end": 1377.8,
+      "text": "so just to be sure we take a semaphor lock if you will mhm basically locking the system out for anyone else mhm I mean when it comes to posting so just that table or how much do we actually lock in that process we from then on WE lock only what we need but the problem is that this is a semaphore lock"
+    },
+    {
+      "t": 1377.8,
+      "end": 1397,
+      "text": "we're saying now we we are alone in this big room nobody else can come in here everybody we close the door nobody this is Supermarket only I can be in the supermarket at the time until I'm done mhm what we really want obviously going forward is to allow more people in the supermarket at the same time if you will right"
+    },
+    {
+      "t": 1397,
+      "end": 1413.7,
+      "text": "yeah uh but if you look at what happens is that we spend short time maybe 10% of the time doing what I said first then 90% of the time is you know what we call the po actual posting where we lock everybody else out"
+    },
+    {
+      "t": 1413.7,
+      "end": 1433.8,
+      "text": "and this may not be long this might be one second or 5 Seconds which is not long but if several people post at the same time you know number user number two will have to wait the 5 seconds until the user number one is done right yeah user number three will have to wait 5 + 5"
+    },
+    {
+      "t": 1433.8,
+      "end": 1452.8,
+      "text": "5 + 5 and that this very quick compounds so he like standing at the que to get back to supermarket analogy like if you have 10 customers and they all take you know 10 minutes to go through the cashier you have to wait you know the number of customers time 10 for before you get you get served right"
+    },
+    {
+      "t": 1452.8,
+      "end": 1473,
+      "text": "exactly uh so this is how it is now and obviously we want to get us to a situation like this where where we actually can do things at least more in parallel I mean things like getting a number sequence might be serialized but that's like a few milliseconds so we don't care about that yeah because"
+    },
+    {
+      "t": 1473,
+      "end": 1493,
+      "text": "the code itself the code the code itself in in theory could run in parallel yes like technically there's no there's no reason I mean it is a multi-user system exactly it is parallel system right we have several processors in the machines so so we have the I mean technically it should be possible to run some of these things in parall and and"
+    },
+    {
+      "t": 1493,
+      "end": 1513.2,
+      "text": "most things are actually concurrent because you going to have five users editing five different customers at the same time or five other entities you know hundreds I mean yeah as long as you as long as we don't go and touch the same data item at the same time so it's not only about being in different tables"
+    },
+    {
+      "t": 1513.2,
+      "end": 1533.8,
+      "text": "it's also about staying away from each other's um records but we do also have a uh a lock um a page where we can see all the locks right yeah in the products yes we have a number of very good tools we have obviously the database locks page that"
+    },
+    {
+      "t": 1533.8,
+      "end": 1554.3,
+      "text": "shows what happens now then we have the missing indexes page which shows SQL suggestions we have the in client profiler that where the user can record an action and get a profile and then we have application insights and these are all well documented and displayed elsewhere but specifically for the incline"
+    },
+    {
+      "t": 1554.3,
+      "end": 1574.5,
+      "text": "profiler I'll point to that you can download the profile file and open it in Visual Studio code and get you know very nice overview of where time is spent it it's a huge helper um when you analyze customer cases actually recently we have got uh some"
+    },
+    {
+      "t": 1574.5,
+      "end": 1594.5,
+      "text": "new features MH so if I as a as a deop developer as I said in the example before um I can use the new read isolation feature okay so even though you know where I'm called from the customer be may be in a locking mhm scope if you will I"
+    },
+    {
+      "t": 1594.5,
+      "end": 1614.8,
+      "text": "can say now I want to read the customer record without locking only reading um committed data or uncommitted or whatever that's maybe not a game changer but at least it will so that's the feature we introduced already a while ago yeah it's it was in 202 maybe yeah yeah we'll put some"
+    },
+    {
+      "t": 1614.8,
+      "end": 1635.3,
+      "text": "some links in the in the description and documentation so that's um something we really need to we and partners need to uptake uh we relevant but that is gamechanging when it comes to making the system uh concurrent right if you will so let's get back to the the tools"
+    },
+    {
+      "t": 1635.3,
+      "end": 1655.4,
+      "text": "uh we're saying we have some we have some tools for some some some help for for preventing loing yeah at least finding diagnosed as troubleshooting and preventing right exactly so um um Christian in his in a similar talk last time mhm uh actually mentioned all of them yes or most of them"
+    },
+    {
+      "t": 1655.4,
+      "end": 1672.6,
+      "text": "yeah but maybe we can recap I'll recap them and I have them here um so we have the database locks page which shows you um who is locking now mhm the problem for me if I were a partner is that you know the customer calls"
+    },
+    {
+      "t": 1672.6,
+      "end": 1692.7,
+      "text": "complains um but I don't I may not have access to this system and I can of course Inu him to go and look right but by then the locks may may be gone right so it's like it's only interesting when it happens mhm so you need yes you need to be to have some some access to the system for yeah for seeing"
+    },
+    {
+      "t": 1692.7,
+      "end": 1709.3,
+      "text": "for to be able to see that page yeah and you need to look at it when it happens yes yes afterwards it's it's gone right it's like an accident that's yeah over yeah yeah um then Christian also mentioned the missing indexes page and that's um"
+    },
+    {
+      "t": 1709.3,
+      "end": 1729.3,
+      "text": "statistics if you will because different customers have different data distributions and different patterns so this is actually a feature of SQL right that we are surfacing into a yeah exactly so SQL has as the ability to monitor the queries that are performed yeah and uh sometimes so"
+    },
+    {
+      "t": 1729.3,
+      "end": 1749.8,
+      "text": "you we don't we don't know all the queries we know the queries from our code from the macrosoft code there might be there usually a set of extensions other Solutions on top some queries we don't know about uh which we cannot optimize up front for and um and SQL has this feature where where it monitors what's going on in the system and can advise"
+    },
+    {
+      "t": 1749.8,
+      "end": 1764.6,
+      "text": "and what's even better or more is that we collect all collect data from all the SQL servers all our servers um and combine it into a dashboard so we can actually see"
+    },
+    {
+      "t": 1764.6,
+      "end": 1784.7,
+      "text": "combined um which indexes are missing most so you can actually get recommendation from also coming from other systems or yeah all our systems all our customers right which is way better than looking at one specific customer obviously as a partner you would look at your customer right and"
+    },
+    {
+      "t": 1784.7,
+      "end": 1794.9,
+      "text": "optimize it for them but we as Microsoft need to optimize for everybody yeah everybody or the average or the 80% or whatever"
+    },
+    {
+      "t": 1794.9,
+      "end": 1814.9,
+      "text": "yeah um then we have the incline performance profiler which is a gem uh that I think many people are not looking enough at yeah yeah we can see that in our Telemetry that we don't have a lot of usage on and I will in a second that's why we keep advertising for so please use it you why you should use it"
+    },
+    {
+      "t": 1814.9,
+      "end": 1835,
+      "text": "in a second uh and then obviously application insights because that's where you can see long run inqueries you get the call Stacked you can see exactly you know what we're trying to query and whether it's locking or not and so on but to get back to the incline profiler in there you can actually download a file profile"
+    },
+    {
+      "t": 1835,
+      "end": 1855.6,
+      "text": "file that you can open in Visual Studio code mhm uh it may need to activate some feature or I can't remember but again put some links into the do but the point is uh then you can get um something like this where you where we're running a report and for some reason"
+    },
+    {
+      "t": 1855.6,
+      "end": 1875.4,
+      "text": "it takes like 16 seconds I think says here on have to get each row so that's a very long it's that's extremely long right and then you can see okay there's a function that spends 8 seconds itself but then the other 8 seconds are distributed and then you can see okay you can pinpoint exactly"
+    },
+    {
+      "t": 1875.4,
+      "end": 1895.6,
+      "text": "which three or four functions you want to look at and then you can go look at your code so yeah so in that case the H second function is probably the uh the one you want to look at yeah or all four of them we don't know the point you can go and you can go all the way to the code right with this tool yeah and pinpoint the exact exactly line of code almost"
+    },
+    {
+      "t": 1895.6,
+      "end": 1915.8,
+      "text": "that this uh function level but even so function level yeah but even down to a function so so it's you know that but even so this is a gem I mean use it use it I say all right all right um together with app insights obviously yeah all right so what um so"
+    },
+    {
+      "t": 1915.8,
+      "end": 1930.7,
+      "text": "we do we have any new uh up coming performance Improvement or tooling you know what that can that we will soon be releasing or can you about that yeah so one of the big blockers we have"
+    },
+    {
+      "t": 1930.7,
+      "end": 1948.2,
+      "text": "is um if you go back to the posting mhm so you have been working on that recently yes uh so if you look at entries you know typically in when we create ledge entries G entries Warehouse entries"
+    },
+    {
+      "t": 1948.2,
+      "end": 1968.2,
+      "text": "whatever we have a pattern uh where we basically lock the table mhm and then only I can add to this table mhm and of course it means that all entries are coming in nice buckets and when you say we you mean in the base app Microsoft yes"
+    },
+    {
+      "t": 1968.2,
+      "end": 1988.2,
+      "text": "Microsoft yes yeah so what we do is I mean most Partners who know all this this already but we go out find the last entry and then we just count up one right to create new entries and insert and while we do this we're locking the table and I have a picture here that kind of illustrates that we have"
+    },
+    {
+      "t": 1988.2,
+      "end": 2002.3,
+      "text": "some Warehouse entries with different colors that belong from different transactions that are linked to the warehouse register and they're color coded what we want to get to is"
+    },
+    {
+      "t": 2002.3,
+      "end": 2022.3,
+      "text": "um to use um number sequences as the generator for entry numbers MH we could also have considered um using Auto increment which I guess most partners are aware of as well but the basic point is that um by using some kind of"
+    },
+    {
+      "t": 2022.3,
+      "end": 2042.3,
+      "text": "non-locking assignment of Entry numbers whether be it number sequences or Auto increment we can actually have several users creating um transactions at the same time at the same time yeah and uh as Illustrated on this picture um there will be some mixing of the um entries mhm but"
+    },
+    {
+      "t": 2042.3,
+      "end": 2052.5,
+      "text": "that's maybe okay that's fine um maybe not for GL because some country there are all kinds of legislations but all other"
+    },
+    {
+      "t": 2052.5,
+      "end": 2072.7,
+      "text": "tables who cares uh so for bc25 in October release we actually have done this for warehouse entries and which means that from there we can have separate uh or Sate concurrent posting to Warehouse entry uh Warehouse system at the same time so"
+    },
+    {
+      "t": 2072.7,
+      "end": 2085.4,
+      "text": "people working in the warehouse can do stuff even while the um people in the office do other stuff so so yeah we talked about some of the scenarios where yeah people have F"
+    },
+    {
+      "t": 2085.4,
+      "end": 2105.5,
+      "text": "scanning bar code yeah exactly all these SC long response time which is experience right exactly it's um it must be horrible to be in the warehouse and your screen locks up right so with that with that new feature Improvement of the code that should that should help right yes should uh but as I said"
+    },
+    {
+      "t": 2105.5,
+      "end": 2125.6,
+      "text": "this is just the first step we have a you know a bucket list of Entry tables we need to fix this before we can get to fully concurrent posting of sales holders so by the way if you're interested in these changes you can follow we open source we have open source so we you can you can follow what's going on and all the pool request"
+    },
+    {
+      "t": 2125.6,
+      "end": 2145.8,
+      "text": "that is doing around this you can you can check this out if if you should interested in definitely the warehouse R stuff that's already there so that's been there for I know month yeah yeah so is there any other features we should look forward to or other performance um you know improvements or"
+    },
+    {
+      "t": 2145.8,
+      "end": 2166,
+      "text": "Performance Tools that are coming in future yes yes um so very on a very short time frame we uh we are going to try to solve the issue of Page search by introducing the SQL s full text indexing meaning that hopefully from"
+    },
+    {
+      "t": 2166,
+      "end": 2186.1,
+      "text": "pc25 searching in a customer list will be very quick MH also I mean items as well obviously but also when you are on a sales line and you you know start entering the item number and you get this drop down list that should be very fast as well um on a longer Horizon we"
+    },
+    {
+      "t": 2186.1,
+      "end": 2206.3,
+      "text": "think the concurrence and parall ation is the big thing to do because that's the promise of the cloud if you will MH and often we focus on how long does it take to post the sales order but that's not the issue right doesn't matter whether it takes one second or 5 seconds because if you're going to post 50,000 of them or adj"
+    },
+    {
+      "t": 2206.3,
+      "end": 2226.3,
+      "text": "just cost for 50,000 items it needs to be paralyzed you need to do that and you know if you just cutting it in half like two threads right is huge right four I mean if you can cut cut it down two hours from eight by just having four processes is fantastic so that's you know a path we"
+    },
+    {
+      "t": 2226.3,
+      "end": 2247,
+      "text": "are some we could look forward to and I mean which we started with the um Warehouse stuff right we all right all right thanks B so um we hope that you got some hints on how to write super fast the other code we try to give you some um some indication how you could improve your solution and your code"
+    },
+    {
+      "t": 2247,
+      "end": 2262,
+      "text": "we'll put some links in the description about some of the things we talked about here and um we hope we enjoy you enjoyed that that episode let us know in the comments thank you for watching thank you"
+    }
+  ],
+  "markers": [],
+  "word_count": 6241
+}

@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bi-how-analyze-data-dimension.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bi-how-analyze-data-dimension",
+  "title": "Analyze data by dimensions",
+  "blob": "f92ab0abcb5e7cd6823b6d0734ec7018041a2d1c",
+  "summary": "Analyze business data by dimensions to group and examine transactions by characteristics like customers, regions, products, or salespeople. Use this for multi-dimensional financial analysis and creating analysis views.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "dimension analysis",
+    "data grouping",
+    "financial analysis",
+    "analysis views",
+    "transactional data"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Analysis Views"
+    },
+    {
+      "type": "page",
+      "name": "Analysis View List"
+    },
+    {
+      "type": "page",
+      "name": "Analysis by Dimensions"
+    }
+  ],
+  "features": [
+    "dimension-based analysis",
+    "analysis view creation",
+    "multi-dimensional filtering",
+    "matrix reporting",
+    "dimension correction",
+    "analysis updates"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004822,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bi-use-statistical-accounts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bi-use-statistical-accounts",
+  "title": "Use Statistical Accounts to Analyze Non-Transactional Data",
+  "blob": "1cc3756127d85186060ad1ef3b2739ee3201958c",
+  "summary": "Use statistical accounts to track non-transactional metrics like employee headcount or square footage for supplementing financial reports with non-monetary units. Use this to measure costs and revenue per operational metric.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "statistical accounts",
+    "non-transactional data",
+    "financial metrics",
+    "performance measurement"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Statistical Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Statistical Accounts Journal"
+    },
+    {
+      "type": "page",
+      "name": "Statistical Accounts Balance"
+    },
+    {
+      "type": "page",
+      "name": "Financial Reports"
+    },
+    {
+      "type": "page",
+      "name": "Row Definition"
+    }
+  ],
+  "features": [
+    "statistical account setup",
+    "statistical account journals",
+    "amount posting",
+    "balance verification",
+    "financial report integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004822,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-statement-service",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5539e16ff2a62ba91aa4fac91593392f40061170",
       "words": 1592,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:44.207Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.004822
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:44.217Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:44.218Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:44.219Z",
+      "page": false
     }
   },
   "input_hash": "5539e16ff2a62ba91aa4fac91593392f40061170",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5539e16ff2a62ba91aa4fac91593392f40061170"
+  "output_hash": "edaef5011f264842de2834182b391c627f717c9e34f8bc83cac23f7ee64b3b31"
 }

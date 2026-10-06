@@ -1,0 +1,63 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bank-how-setup-bank-statement-service.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-statement-service",
+  "title": "Set Up Yodlee Bank Feeds",
+  "blob": "5539e16ff2a62ba91aa4fac91593392f40061170",
+  "summary": "Set up the Envestnet Yodlee bank feeds service to automatically import electronic bank statements into the Payment Reconciliation Journal for payment application and bank reconciliation. Use this for online bank statement synchronization in supported regions.",
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "bank feeds",
+    "yodlee",
+    "bank statement import",
+    "automatic reconciliation",
+    "payment application"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journal"
+    },
+    {
+      "type": "page",
+      "name": "Online Bank Account Linking"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Linking"
+    },
+    {
+      "type": "page",
+      "name": "Automatic Bank Statement Import Setup"
+    }
+  ],
+  "features": [
+    "Envestnet Yodlee Bank Feeds service",
+    "automatic bank statement import",
+    "online bank account linking",
+    "bank account creation",
+    "credential management",
+    "two-hour import frequency"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004822,
+      "pages_in_call": 8
+    }
+  ]
+}

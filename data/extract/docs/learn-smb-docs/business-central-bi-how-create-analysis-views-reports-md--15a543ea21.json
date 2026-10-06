@@ -1,0 +1,64 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bi-how-create-analysis-views-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bi-how-create-analysis-views-reports",
+  "title": "Create analysis reports",
+  "blob": "15b5af60d34222c858ccddebdc0c183325b090f9",
+  "summary": "Create customizable analysis reports for sales, purchases, and inventory by combining line and column templates to analyze transactions by key performance indicators. Use this to build PivotTable-style reports for business analysis.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "analysis reports",
+    "sales analysis",
+    "purchase analysis",
+    "inventory analysis",
+    "performance indicators"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Column Templates"
+    },
+    {
+      "type": "page",
+      "name": "Analysis Columns"
+    },
+    {
+      "type": "page",
+      "name": "Sales Line Templates"
+    },
+    {
+      "type": "page",
+      "name": "Analysis Lines"
+    },
+    {
+      "type": "page",
+      "name": "Sales Analysis Reports"
+    },
+    {
+      "type": "page",
+      "name": "Sales Analysis Report"
+    }
+  ],
+  "features": [
+    "line and column templates",
+    "analysis type codes",
+    "sales turnover analysis",
+    "profit calculations",
+    "periodic comparisons",
+    "item ledger analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004822,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Business Central Under the Hood episode 5: How To Make Your AL Code Super Fast",
   "url": "https://www.youtube.com/watch?v=lpwDSdEJrIQ",
-  "published_at": null,
+  "published_at": "2024-10-24T14:45:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:05:39.053Z",
+      "captions": "auto:en-orig",
+      "duration_s": 2262
+    },
+    "captioned": {
+      "at": "2026-10-06T19:05:46.090Z",
+      "path": "data/captions/microsoft/lpwDSdEJrIQ.vtt",
+      "vtt_sha256": "2bb247debb82727eadf9c493e5b4bbe2457c2450dc83ae6f2f515044fda6aa4c",
+      "segments": 118,
+      "words": 6241,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 319,
-    "duration_s": 2263,
-    "via": "reconcile"
-  }
+    "duration_s": 2262,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2bb247debb82727eadf9c493e5b4bbe2457c2450dc83ae6f2f515044fda6aa4c"
 }

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bank-how-transfer-bank-funds.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bank-how-transfer-bank-funds",
+  "title": "Transfer bank funds",
+  "blob": "4ff60fc5f275361474b272b8c7f790b04f8ac4cd",
+  "summary": "Transfer bank funds between bank accounts in Business Central using the General Journals page. Use this for inter-bank transfers with same or different currency codes and exchange rate adjustments.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "bank transfers",
+    "general journal",
+    "currency exchange",
+    "bank reconciliation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journals"
+    }
+  ],
+  "features": [
+    "inter-bank transfers",
+    "same currency transfers",
+    "multi-currency transfers",
+    "exchange rate adjustments"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004822,
+      "pages_in_call": 8
+    }
+  ]
+}

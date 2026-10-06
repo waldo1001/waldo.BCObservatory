@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-how-transfer-bank-funds",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4ff60fc5f275361474b272b8c7f790b04f8ac4cd",
       "words": 594,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:44.209Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004822
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:44.220Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:44.221Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:44.222Z",
+      "page": false
     }
   },
   "input_hash": "4ff60fc5f275361474b272b8c7f790b04f8ac4cd",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4ff60fc5f275361474b272b8c7f790b04f8ac4cd"
+  "output_hash": "eb45157629e8319c042718222669de6c9e9cb5c7bb0346fbd9c834f4f72023b0"
 }

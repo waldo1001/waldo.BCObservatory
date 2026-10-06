@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/bi-how-create-analysis-views-reports",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "15b5af60d34222c858ccddebdc0c183325b090f9",
       "words": 1174,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:44.212Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.004822
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:44.233Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:44.233Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:44.234Z",
+      "page": false
     }
   },
   "input_hash": "15b5af60d34222c858ccddebdc0c183325b090f9",
@@ -76,5 +95,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "15b5af60d34222c858ccddebdc0c183325b090f9"
+  "output_hash": "d89734ed5c7bc3743161589d33248f6fef31d3bac759dfa1083deb82d7bf63fb"
 }

@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bi-how-analyze-actual-versus-budget.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bi-how-analyze-actual-versus-budget",
+  "title": "Analyze Actual Amounts Versus Budgeted Amounts",
+  "blob": "1b2a15c2482a590bce963adeb2abd8758df68d3a",
+  "summary": "Analyze actual general ledger amounts against budgeted amounts by viewing filtered budget data and comparative figures across accounts and periods. Use this to monitor budget performance and variance analysis.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "budget analysis",
+    "actual vs budget",
+    "variance analysis",
+    "general ledger",
+    "financial planning"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "G/L Budgets"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "G/L Balance/Budget"
+    }
+  ],
+  "features": [
+    "GL budget viewing",
+    "actual vs budgeted comparison",
+    "period-based analysis",
+    "proportional relationship calculation",
+    "multi-period analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004822,
+      "pages_in_call": 8
+    }
+  ]
+}

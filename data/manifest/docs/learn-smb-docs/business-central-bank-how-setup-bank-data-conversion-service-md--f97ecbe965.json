@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-how-setup-bank-data-conversion-service",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e074f37b3306cd941dff4586b4a1d52acdd60758",
       "words": 700,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:44.205Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.004822
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:44.214Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:44.215Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:44.216Z",
+      "page": false
     }
   },
   "input_hash": "e074f37b3306cd941dff4586b4a1d52acdd60758",
@@ -84,5 +103,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e074f37b3306cd941dff4586b4a1d52acdd60758"
+  "output_hash": "aa44c927f898582cd9d8e1adde0487a6c4fd7a16c3c8e749b8010e377791bc9c"
 }

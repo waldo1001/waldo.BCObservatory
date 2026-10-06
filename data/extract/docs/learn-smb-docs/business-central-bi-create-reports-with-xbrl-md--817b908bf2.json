@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bi-create-reports-with-xbrl.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bi-create-reports-with-xbrl",
+  "title": "How to Create Reports with XBRL",
+  "blob": "bc2be7cfe0398c0c5c47cc61bdd091e528f9eda6",
+  "summary": "Create financial reports using XBRL (eXtensible Business Reporting Language) to tag and export general ledger data in standardized XML format for regulatory filing and data exchange. Note that XBRL reporting features are being removed from Business Central.",
+  "systems": [
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "xbrl reporting",
+    "financial reporting",
+    "xml format",
+    "taxonomy mapping",
+    "regulatory filing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "XBRL Taxonomies"
+    },
+    {
+      "type": "page",
+      "name": "XBRL Schemas"
+    }
+  ],
+  "features": [
+    "XBRL taxonomy import",
+    "XBRL instance document creation",
+    "GL account mapping",
+    "linkbase support",
+    "label linkbase",
+    "presentation linkbase",
+    "calculation linkbase",
+    "reference linkbase"
+  ],
+  "versions": [
+    "2022 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004822,
+      "pages_in_call": 8
+    }
+  ]
+}
