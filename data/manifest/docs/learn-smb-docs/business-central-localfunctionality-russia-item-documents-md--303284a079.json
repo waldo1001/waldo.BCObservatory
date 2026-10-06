@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/item-documents",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "12ab35927443c17982b2ae35d2eafee54bd937d6",
       "words": 727,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:28.640Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.00284
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:30.509Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:30.509Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:30.510Z",
+      "page": false
     }
   },
   "input_hash": "12ab35927443c17982b2ae35d2eafee54bd937d6",
@@ -58,5 +77,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "12ab35927443c17982b2ae35d2eafee54bd937d6"
+  "output_hash": "8a3882fe3858017f9dfe7bb70b2bf1c71e8f8e5464ca8945ae898f9aaea8b699"
 }

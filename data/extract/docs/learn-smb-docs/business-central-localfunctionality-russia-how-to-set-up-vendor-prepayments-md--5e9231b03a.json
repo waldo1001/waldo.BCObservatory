@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-set-up-vendor-prepayments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-vendor-prepayments",
+  "title": "Setting up vendor prepayments in Russia",
+  "blob": "d839e683f5ad06830c11fe1a1cdca9f28d314899",
+  "summary": "Setting up vendor prepayments in Russia allows you to track advance payments on purchase orders before final invoices are issued. Configure prepayment accounts, number series, and dimension values in Purchases & Payables Setup and Vendor Posting Groups.",
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "prepayments",
+    "vendor setup",
+    "purchase orders",
+    "advance payments",
+    "russia"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Posting Groups"
+    }
+  ],
+  "features": [
+    "Use Prepayment Account",
+    "Posted Prepmt. Inv. Nos.",
+    "PD Doc. Nos. Type",
+    "Symbol for PD Doc.",
+    "Prepayment Account",
+    "Dimension configuration for prepayment gains and losses"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00284,
+      "pages_in_call": 8
+    }
+  ]
+}

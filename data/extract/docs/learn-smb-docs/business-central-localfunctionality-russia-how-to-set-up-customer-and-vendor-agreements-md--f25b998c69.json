@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-set-up-customer-and-vendor-agreements.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-customer-and-vendor-agreements",
+  "title": "Setting up customer and vendor agreements in Russia",
+  "blob": "f748e5fb1bc9a108867a8617bb4dacdfa8e0e24c",
+  "summary": "Customer and vendor agreements in Russia provide agreement management with automatic dimension synchronization for use in reports and analyses. Set up agreement dimensions, number series, and create customer or vendor agreement cards with validity dates and blocking.",
+  "systems": [
+    "localization",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "russia",
+    "customer agreements",
+    "vendor agreements",
+    "dimensions",
+    "agreement setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "Customer Agreements"
+    }
+  ],
+  "features": [
+    "Agreement dimension mapping",
+    "Agreement synchronization",
+    "Blocked agreements",
+    "Agreement codes",
+    "Ledger entry tracking",
+    "Validity periods"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003704,
+      "pages_in_call": 8
+    }
+  ]
+}

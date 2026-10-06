@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/inventory-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/inventory-setup",
+  "title": "Inventory setup in Russia",
+  "blob": "e4eb93548955f3bb1ab75677cd1709c7e2eacd5b",
+  "summary": "Inventory setup in Russia covers item charge assignment based on weight or volume for foreign purchases and red storno corrections. Enable red storno posting for corrective entries and periodic item cost adjustments.",
+  "systems": [
+    "inventory",
+    "localization"
+  ],
+  "topics": [
+    "inventory setup",
+    "item charges",
+    "foreign trade",
+    "red storno",
+    "corrections",
+    "russia"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    }
+  ],
+  "features": [
+    "Item charge assignment",
+    "Weight and volume distribution",
+    "Red storno posting",
+    "Foreign trade items",
+    "Corrective postings",
+    "Cost adjustments"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00284,
+      "pages_in_call": 8
+    }
+  ]
+}

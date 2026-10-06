@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/inventory",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "272a58f9cf94f0f674ed699f58065215d854f714",
       "words": 40,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:28.639Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00284
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:30.506Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:30.507Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:30.508Z",
+      "page": false
     }
   },
   "input_hash": "272a58f9cf94f0f674ed699f58065215d854f714",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "272a58f9cf94f0f674ed699f58065215d854f714"
+  "output_hash": "6397bf8105dfd07b114a7a6daeda6ec1f00c02957e628fc38d17e17f2b0100b4"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Human-Resources",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "336deb0191fce01d6c19a7711583149463ae06b7",
       "words": 28,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:28.636Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00284
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:30.498Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:30.499Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:30.499Z",
+      "page": false
     }
   },
   "input_hash": "336deb0191fce01d6c19a7711583149463ae06b7",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "336deb0191fce01d6c19a7711583149463ae06b7"
+  "output_hash": "9d353659e96a95a3dccf96fca2c280d9bf8da48c5d7eb31d0d22df57af9c70f0"
 }

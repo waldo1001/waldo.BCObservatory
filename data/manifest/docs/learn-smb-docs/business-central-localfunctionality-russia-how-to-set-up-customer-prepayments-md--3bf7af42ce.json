@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-customer-prepayments",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "15bb0a1ac630889728483be3d9cd29cdcc918cc3",
       "words": 413,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:23.893Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003704
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:28.647Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:28.648Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:28.649Z",
+      "page": false
     }
   },
   "input_hash": "15bb0a1ac630889728483be3d9cd29cdcc918cc3",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "15bb0a1ac630889728483be3d9cd29cdcc918cc3"
+  "output_hash": "6b98d9cbbb7045e611f8a5191a4ffc6a65c2fc1c9913a79f785219442895a015"
 }

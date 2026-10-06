@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-vat-ledgers",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "08fbc067465c6c0cf362df78afe66eb9f380ef35",
       "words": 379,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:23.898Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003704
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:30.483Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:30.485Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:30.489Z",
+      "page": false
     }
   },
   "input_hash": "08fbc067465c6c0cf362df78afe66eb9f380ef35",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "08fbc067465c6c0cf362df78afe66eb9f380ef35"
+  "output_hash": "127ea47bf2cc8a234f18bcd9e6c8b09cb5fc09003dd773b11554357a900d345c"
 }

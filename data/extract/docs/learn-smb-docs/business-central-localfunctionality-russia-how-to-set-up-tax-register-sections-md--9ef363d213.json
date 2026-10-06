@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-set-up-tax-register-sections.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-tax-register-sections",
+  "title": "Setting up tax register sections in Russia",
+  "blob": "c1e43cc86e464d5c005d735d137d25de3dcf865b",
+  "summary": "Tax register sections in Russia organize tax data by taxation periods with different statuses and allow copying registers between sections. Set up register sections with dates, dimensions, balance points, and assign specific tax registers to each section.",
+  "systems": [
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "russia",
+    "tax registers",
+    "taxation periods",
+    "tax sections",
+    "register setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Tax Registers"
+    },
+    {
+      "type": "page",
+      "name": "Tax Registers Sections"
+    },
+    {
+      "type": "page",
+      "name": "Tax Register Names"
+    },
+    {
+      "type": "page",
+      "name": "Copy Tax Register Section"
+    }
+  ],
+  "features": [
+    "Register section status management",
+    "Taxation period tracking",
+    "Dimension filtering",
+    "Balance deadlines",
+    "Norm jurisdiction mapping",
+    "Register copying"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003704,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "video_id": "V8CSor5qBRE",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.7,
+      "end": 27.4,
+      "text": "hi my name is Kenny pontop and and in this 2024 release Wave 2 session we're going to talk about words we're going to talk about how you can use word as the layout engine to produce beautiful documents to send to your customers a main new feature in the 2024 release Wave 2"
+    },
+    {
+      "t": 27.4,
+      "end": 47.9,
+      "text": "is a new word add-in for document reports with this you can solve a lot of things that were not so easy in the in the normal word layout feature such as developer com comments that was not possible and conditional visibility that was possible"
+    },
+    {
+      "t": 47.9,
+      "end": 68.4,
+      "text": "but maybe required a few hacks here and there but not anymore so let me walk you through it and let's start by how to install the addin from the App Store in word all right so here in word I have at least two different ways to install the addin I could either if you have the addin"
+    },
+    {
+      "t": 68.4,
+      "end": 88.6,
+      "text": "menu here in the pane you could find the addin menu here you could also say add ins in the search bar and go to the get addins action and the third option is to go choose file and then choose the get addins action from"
+    },
+    {
+      "t": 88.6,
+      "end": 100.3,
+      "text": "this menu let's just pick that so this is the office addins menu and here in store I can search for business Central"
+    },
+    {
+      "t": 100.3,
+      "end": 120.5,
+      "text": "Business Central if I do that then I will find our new add in here and uh I choose add and then I oh I need to read the license terms looks good the addin doesn't have any data it is just a layout tool so you you're"
+    },
+    {
+      "t": 120.5,
+      "end": 140.8,
+      "text": "quite safe I will choose continue and now I get a new menu in word called business Central in my version it states preview in your version when you watch this recording there will be no preview it will just be the the the normal published version"
+    },
+    {
+      "t": 140.8,
+      "end": 161,
+      "text": "so let's see this addin provides functionality and command to work with business Central document reports got it let's uh see what this thing has so we get some new layout controls ability to insert a layout command and then a menu here if I fold this"
+    },
+    {
+      "t": 161,
+      "end": 181.2,
+      "text": "hide if empty menu out I get four new actions hide empty table hide empty table row hide empty table column and hide field if zero let's have a look at those but for this to really be fun we need a a layout to work with so we'll just go back to business"
+    },
+    {
+      "t": 181.2,
+      "end": 193.4,
+      "text": "Central and get one all right so we're back in business Central and we need to find the report layouts page so I will just search for that"
+    },
+    {
+      "t": 193.4,
+      "end": 214,
+      "text": "report lay wait a minute oh look we have also here the new powerp reports uh oh interesting but that's not for this session so we'll leave that and down here under pages and task I have the report layouts page I will choose that and this opens all the layouts"
+    },
+    {
+      "t": 214,
+      "end": 227.8,
+      "text": "that are available now we only want to work with word in this video um and I need to find something that that has some good demo and uh I did prepare a few things so the report"
+    },
+    {
+      "t": 227.8,
+      "end": 247.9,
+      "text": "1303 the draft invoice um have a lot of of different good demo capabilities you notice that I added a lot already um so these are of course not shipped with your your business Central so let's uh let's try the first um feature so here is a layout"
+    },
+    {
+      "t": 247.9,
+      "end": 260.4,
+      "text": "where I added some comments I will just export this so you can kind of see what that looks like if I open this layout in"
+    },
+    {
+      "t": 260.4,
+      "end": 280.5,
+      "text": "word you can see for this particular layout that I added like a comment down here that has this this hidden comment you can see that when I hover over it and I also have here a table where I added some versioning um for this layout maybe"
+    },
+    {
+      "t": 280.5,
+      "end": 300.6,
+      "text": "who did it like when was something changed who did it what and version and this is not something we want our customers to see uh this is just a hidden comment you can see it's a hidden comment control um so when I run this hopefully these two comments will go away but how do I get them in there if I want to add"
+    },
+    {
+      "t": 300.6,
+      "end": 320.8,
+      "text": "the table it's good practice to start with adding your object like this and then Mark your table and go to business Central preview and choose insert layout comment and this will encapsulate the table with a hidden comment layout control and similarly for a"
+    },
+    {
+      "t": 320.8,
+      "end": 334.2,
+      "text": "text I can just write something maybe I should say uh hello world that's a very very small let's just make that a little bit"
+    },
+    {
+      "t": 334.2,
+      "end": 352.3,
+      "text": "bigger hello world and of course hello world is just a developer thing so we want to make sure this is in a comment so I will put that in in a comment like this okay I will uh then just save"
+    },
+    {
+      "t": 352.3,
+      "end": 361.9,
+      "text": "this and then download it back to business Central and um when I now run this layout"
+    },
+    {
+      "t": 361.9,
+      "end": 382,
+      "text": "here and choose preview there's no comments the comments are are not there that's the way it's supposed to be the second thing I want to show you is how you can remove a table if there's no data in the repeater let's have a look at a"
+    },
+    {
+      "t": 382,
+      "end": 402.6,
+      "text": "design here or a layout let me just run that first so you can see what this means in this layout I added a new table down here with some work description and this is the header and there's no there's no more lines because there was no data in this data item"
+    },
+    {
+      "t": 402.6,
+      "end": 423.5,
+      "text": "so I would actually like also to get rid of this the header part of the table and only show the table when there's data to show so how do you do that let's go to word take our empty table and Export that and open it in word let's just try that"
+    },
+    {
+      "t": 423.5,
+      "end": 443.6,
+      "text": "out so here you can see my table it has the header and a repeater and if I simply Mark the full table and go to business Central menu and choose hide if empty hide temp empty table this encapsulates the table with"
+    },
+    {
+      "t": 443.6,
+      "end": 463.8,
+      "text": "a Content or layout control called hide table if empty now I save my layout and upload it back to business Central and if I now run my empty table fixed layout here if I run the report with that layout and preview it"
+    },
+    {
+      "t": 463.8,
+      "end": 477.9,
+      "text": "voila there's no table anymore you can use this for the work description example anything where you have data that might be conditional on on what's in the data"
+    },
+    {
+      "t": 477.9,
+      "end": 498,
+      "text": "set now the next next couple of demos is more related to a single data item or a table with data from a single data item the first thing is what if you would like to hide a full Row in that table based on a condition Let's uh"
+    },
+    {
+      "t": 498,
+      "end": 518.4,
+      "text": "let's have a look at at that so I have my empty row layout here and if I just run that to see why this would be a nice thing it could be that in this case I would like to remove line two here based on a condition on so I only want to show things with a unit of measure"
+    },
+    {
+      "t": 518.4,
+      "end": 535,
+      "text": "or whatever you fancy so if one of these fields in the repeater is empty you want to hide the full row how can you do that let's have a look we take our empty row layout and Export it and open it in"
+    },
+    {
+      "t": 535,
+      "end": 555.2,
+      "text": "word and uh the way to do this is simply to to go to the repeater um and choose which field in the repeater that controls whether the row should be shown or not so in this case the unit of measure is my content control and if I"
+    },
+    {
+      "t": 555.2,
+      "end": 575.7,
+      "text": "pick this and go to business Central and choose hide if empty hide empty table row and incapsulate in the repeater this field so now you can see it this field has a height table row if empty um layout control and now I save this"
+    },
+    {
+      "t": 575.7,
+      "end": 596.2,
+      "text": "and go back to business Central and upload it so if we take our empty row fixed layout and run the report with this and preview you can now see that the row where there was an empty unit of measure has now been prun pruned from the table"
+    },
+    {
+      "t": 596.2,
+      "end": 600.8,
+      "text": "in the in the report"
+    },
+    {
+      "t": 601.9,
+      "end": 622.1,
+      "text": "the next demo is what if you would like not to hide a row but hide a column let's have a look at that so here I have my empty column layout and if I run that to show you what it looks like you can see I just removed the other table just to make it a little bit more clear"
+    },
+    {
+      "t": 622.1,
+      "end": 642.6,
+      "text": "here I have a v identifier that apparently has zero uh or no data in here so what I would actually like to get rid of the full column a common ask is to remove the discount column if there's no discount given so let's uh let's see if we can uh fix"
+    },
+    {
+      "t": 642.6,
+      "end": 662.7,
+      "text": "this if I go if I take my empty column layout and open it in word here we go then for the height column you need to Mark the header in the table in this case my my label and choose hide"
+    },
+    {
+      "t": 662.7,
+      "end": 682.8,
+      "text": "if empty hide empty table column if I Mark that you can see here in the header then this will make sure the full column is is hidden if there's no data so let's just save this and go back to business Central and see what it looks like there so my empty column fixed layout is"
+    },
+    {
+      "t": 682.8,
+      "end": 702.9,
+      "text": "where I did this change and if I run the report now and preview you can see that there is no column anymore with the vat the empty one so that has been removed from the report the final thing is how how do you hide a field"
+    },
+    {
+      "t": 702.9,
+      "end": 723.1,
+      "text": "if the value is zero so let me show you an example here run report preview in this example I have added a discount column with a zero here and maybe you just want the Z hero to go away so uh so how do you do that"
+    },
+    {
+      "t": 723.1,
+      "end": 735,
+      "text": "it could also be that you format some financial data and you actually want to get rid of a lot of zeros so if I take my layout and open that in word"
+    },
+    {
+      "t": 735,
+      "end": 746.5,
+      "text": "and let's say I want to take this field Line Discount I Mark the full content control for the data go to our business Central"
+    },
+    {
+      "t": 746.5,
+      "end": 766.5,
+      "text": "addin here and choose height if empty height field if empty if zero sorry now it's encapsulating the field it doesn't have to be in the repeater you can also use this layout control on on the other part of the layout I close uh save my layout uploaded"
+    },
+    {
+      "t": 766.5,
+      "end": 786.8,
+      "text": "to business Central and if we now run hide field if zero here you can see that this removes the Zero from the discount now a fun fact you can combine the height field if zero with the height column so in case you have"
+    },
+    {
+      "t": 786.8,
+      "end": 806.8,
+      "text": "columns where there's either no data or there are zeros and you want to use that you can remove the zeros with a height if zero on the field and then use uh hide column once there's no data in the column anymore in business Central 2024 release Wave"
+    },
+    {
+      "t": 806.8,
+      "end": 827.4,
+      "text": "2 if you have reports that use the word merge data item property to iterate over some things let's say you want to create multiple invoices and you want to iterate over those in the past you couldn't use word sections in these layouts"
+    },
+    {
+      "t": 827.4,
+      "end": 841.3,
+      "text": "but now you can and with that this completely changed the game for a lot of things that are tied to the section in word for instance you you can change margins"
+    },
+    {
+      "t": 841.3,
+      "end": 852.4,
+      "text": "orientation columns watermarks header Footers in the design in the layout and just bind them to the section want to see it let's check"
+    },
+    {
+      "t": 852.4,
+      "end": 872.2,
+      "text": "out all right let's go to business Central and open our favorite page report layout especially if we work with layouts re layouts let's have a look report layouts here we go now I have to know that the"
+    },
+    {
+      "t": 872.2,
+      "end": 888.1,
+      "text": "invoice um the invoice report is one of these that iterate over um things with the with this property so let's let's just find in sales"
+    },
+    {
+      "t": 888.1,
+      "end": 900.4,
+      "text": "invoice let's find that okay let's just try the blue word layout here for real quick and just pick tray research"
+    },
+    {
+      "t": 900.4,
+      "end": 906.3,
+      "text": "and preview our"
+    },
+    {
+      "t": 906.3,
+      "end": 927,
+      "text": "report right as you can see we have 51 Pages all P one page each let's let's try to change these a bit so I will take the blue layout I will export it and open it in word and I would would like to add to this paragraph marker"
+    },
+    {
+      "t": 927,
+      "end": 947.6,
+      "text": "because this actually helps me see what's going on so you can see in the end of this report let me just zoom in a little bit I'm ending the layout with a new line and if I here choose layout and choose breaks I can put in"
+    },
+    {
+      "t": 947.6,
+      "end": 968.1,
+      "text": "a section break and I would actually like just to have a section break for the next page okay you can see there's a section break here and what this means is I'm actually able now to change things like maybe margins I want to have a narrow margin"
+    },
+    {
+      "t": 968.1,
+      "end": 987.3,
+      "text": "and I want the orientation to be landscape but these are bound to the section not to the full document I could put in more of these properties but you get the point so if I put something like uh"
+    },
+    {
+      "t": 987.3,
+      "end": 1001.8,
+      "text": "landcape here and imagine you had part of the layout that need a landscape maybe a table that needs more like be more wide okay I will uh just save my"
+    },
+    {
+      "t": 1001.8,
+      "end": 1016.8,
+      "text": "report layout here and uh close word go back to business Central and create a new report layout based on what I just did so I'll just do"
+    },
+    {
+      "t": 1016.8,
+      "end": 1038.2,
+      "text": "landcape demo and choose word and upload the thing I just edited so open here and there we go because I need to do my 1306 filter let me just find that here filter by layout"
+    },
+    {
+      "t": 1038.2,
+      "end": 1055,
+      "text": "1306 to find all these layouts you can see and now have my landscape demo and if I run that report and I need probably need to pick tray again and preview let's see the new"
+    },
+    {
+      "t": 1055,
+      "end": 1075.2,
+      "text": "design you can see I did put an extra page in so now have 102 pages but this but page number two is landscape and have changed things according to my layout so this is the way you can now have much more control over your"
+    },
+    {
+      "t": 1075.2,
+      "end": 1095.4,
+      "text": "layouts using word sections if you want to learn more about how to do this let's go to the developer documentation I'll quickly show you where you can learn more so here I'm in the developer docs as always you go to the AKA link that I show here if I search for"
+    },
+    {
+      "t": 1095.4,
+      "end": 1116.2,
+      "text": "section and word let's just have a look the first hit is creating a word layout good and now I want to see how to lay out my uh in in Word and let's see if I can find using sections here we go so this tells you everything that is possible"
+    },
+    {
+      "t": 1116.2,
+      "end": 1137,
+      "text": "with uh with sections also in previous versions this version of the documentation has a warning about word word merge data item for from the past this is no longer the case in 2024 release Wave 2 so try it out looking forward to see what awesome things you come up"
+    },
+    {
+      "t": 1137,
+      "end": 1157.5,
+      "text": "with themeable report what's that imagine you have a customer or you are a customer and you have your the layouts for your outgoing documents and they're all blue but you're not a blue person you're a green person so you would like to change the look and field and"
+    },
+    {
+      "t": 1157.5,
+      "end": 1177.8,
+      "text": "you also just want this very easy in word and in many other Office Products there's something called themes and with themeable reports in business Central 2024 release Wave 2 you can now do exactly that take any of these themeable layouts download them change the office theme and upload"
+    },
+    {
+      "t": 1177.8,
+      "end": 1191.8,
+      "text": "them and now you're back in business with a different looking field let me show you how so here I am in business Central and I have opened the report layout page and if I search for"
+    },
+    {
+      "t": 1191.8,
+      "end": 1213.6,
+      "text": "themable layouts you can see the layout names here with themeable in the title are all uh all Support Office themes so let me pick the sales quote and uh let's just run that for a sec here preview oh I need a filter sell to customer tray"
+    },
+    {
+      "t": 1213.6,
+      "end": 1226.8,
+      "text": "preview and here we have the sales quote it's nice and and in this case red but I don't want red I want green so how do I do that I"
+    },
+    {
+      "t": 1226.8,
+      "end": 1246.8,
+      "text": "export the layout to uh to my laptop I open this in word here we go when I enable editing I just just need to do one thing under design and themes I can now pick any layout or"
+    },
+    {
+      "t": 1246.8,
+      "end": 1266.8,
+      "text": "any theme I like here is a dark blue one here's a green one a Berlin but I think I want the organic so I'll pick organic and you see all fonts and colors both for the title and for the table change with this I save my layout and"
+    },
+    {
+      "t": 1266.8,
+      "end": 1277.4,
+      "text": "now I go back to business Central where I create a new layout based on what I did I'll call this green"
+    },
+    {
+      "t": 1277.4,
+      "end": 1295.4,
+      "text": "layout probably give me give it a better name and a good description I will choose word for the format option and choose okay I will choose the word add in or layout I just created here and just upload"
+    },
+    {
+      "t": 1295.4,
+      "end": 1315.6,
+      "text": "that and now this is just a um cheating me here I put a filter on themeable and since I called this green I'll just get rid of that and see on the sales quote I now have my green layout here and uh when I run that report and preview I should pick"
+    },
+    {
+      "t": 1315.6,
+      "end": 1336,
+      "text": "the sell to customer tray preview you voila now you have your layout in the color that you chose so that's themeable layouts for you in case you want to try and change your own layout to make them themeable this is what you do"
+    },
+    {
+      "t": 1336,
+      "end": 1353.5,
+      "text": "let me just show you real quick right so the developer documentation is always aka.ms slbc developer and if I just search for maybe just search for theme let's see what"
+    },
+    {
+      "t": 1353.5,
+      "end": 1373.9,
+      "text": "happens there's one here creating a word layout I should probably have word theme but it's the third link here creating a word layout report and if I choose how to lay out your report with word there's a lot of different design uh advice and the last one here using Office document"
+    },
+    {
+      "t": 1373.9,
+      "end": 1394.6,
+      "text": "themes and if you follow this instruction for your own layouts in Word uh you'll be able to make your office um or a word layout themeable as well this part is maybe a bit silly but I call it all the little things we did to make word layout easier I'm just going to mention three things"
+    },
+    {
+      "t": 1394.6,
+      "end": 1414.8,
+      "text": "we fixed the word alignment bu and now you can use funds if you have barcodes for uh for postal and and then of course the new office Aptos font I was going to show you a demo of the word alignment Bo and how it got fixed but hey it was fixed in my word so I can't"
+    },
+    {
+      "t": 1414.8,
+      "end": 1429,
+      "text": "show you the old version anymore but basically this bug in word has been a pain for some time because whenever you downloaded a word layout word"
+    },
+    {
+      "t": 1429,
+      "end": 1449.1,
+      "text": "would change all the alignment in your repeaters um to whatever they were but not anymore so it just works as you would expect Ed in in word so that's it for postal uh so we added if you need barcodes especially for the"
+    },
+    {
+      "t": 1449.1,
+      "end": 1463.7,
+      "text": "US I guess uh we added Planet PostNet and IMB funds to the business Central service so that you can now use these in document layouts and uh and have these barcodes that can encode an"
+    },
+    {
+      "t": 1463.7,
+      "end": 1484,
+      "text": "address and speaking of fonts office has added a new font as default called Aptos I really like it I think it's beautiful and we'll make sure that these fonts are also available in the business Central service by October so when you watch this you'll be able to use Aptos in your"
+    },
+    {
+      "t": 1484,
+      "end": 1504,
+      "text": "document layouts all right that's it good stuff a we uh we now have lots of new things we could do in word and if you're interested in other things with layout check that video that we also did on on General layout uh capabilities thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.98,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.71,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.72,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3526
+}

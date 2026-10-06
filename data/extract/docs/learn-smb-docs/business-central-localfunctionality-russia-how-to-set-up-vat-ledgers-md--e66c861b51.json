@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-set-up-vat-ledgers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-vat-ledgers",
+  "title": "Setting Up VAT Ledgers in Russia",
+  "blob": "08fbc067465c6c0cf362df78afe66eb9f380ef35",
+  "summary": "VAT ledgers in Russia store details about VAT in transactions involving goods and services. Set up number series for purchase and sales VAT ledgers and configure VAT posting setup to include or exclude entries from VAT ledgers.",
+  "systems": [
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "russia",
+    "vat ledgers",
+    "vat posting",
+    "sales ledgers",
+    "purchase ledgers"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    }
+  ],
+  "features": [
+    "VAT purchase ledger numbering",
+    "VAT sales ledger numbering",
+    "VAT invoice requirements",
+    "VAT exemption tracking",
+    "VAT ledger inclusion/exclusion"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003704,
+      "pages_in_call": 8
+    }
+  ]
+}

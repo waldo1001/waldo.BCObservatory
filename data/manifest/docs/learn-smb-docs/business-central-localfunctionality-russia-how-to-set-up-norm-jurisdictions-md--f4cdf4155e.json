@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-norm-jurisdictions",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fb13cf1773eab298b688617506fc2e174bb44227",
       "words": 306,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:23.894Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003704
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:28.650Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:28.651Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:28.653Z",
+      "page": false
     }
   },
   "input_hash": "fb13cf1773eab298b688617506fc2e174bb44227",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fb13cf1773eab298b688617506fc2e174bb44227"
+  "output_hash": "ff032a84bcdd58423a42c142e66db0a02b61607beae614f0986de307c88944a3"
 }

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/inventory-act-of-receivables-and-payables-inv-17.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/inventory-act-of-receivables-and-payables-inv-17",
+  "title": "Inventory act of receivables and payables INV-17 in Russia",
+  "blob": "2b4e2c169047f9ae33b977bc45fd0d8756a9b84f",
+  "summary": "Inventory act of receivables and payables INV-17 in Russia enables preparation of debt and liability inventories. Create inventory acts, manage contractor accounts, calculate debts and liabilities on specific dates, and print INV-17 and supplement forms.",
+  "systems": [
+    "inventory",
+    "localization"
+  ],
+  "topics": [
+    "inventory acts",
+    "receivables",
+    "payables",
+    "contractors",
+    "russia"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Account Card"
+    }
+  ],
+  "features": [
+    "INV-17 form printing",
+    "Contractor inventory acts",
+    "Debt and liability calculation",
+    "Confirmed and not confirmed amounts",
+    "Overdue amount tracking",
+    "Number series setup"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00284,
+      "pages_in_call": 8
+    }
+  ]
+}

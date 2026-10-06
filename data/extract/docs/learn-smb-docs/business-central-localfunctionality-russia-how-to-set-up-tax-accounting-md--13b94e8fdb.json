@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-set-up-tax-accounting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-tax-accounting",
+  "title": "Set Up Tax Accounting in Russia",
+  "blob": "4b0e171d3b5a62d8d253b61cec03839f2ffe9f95",
+  "summary": "Tax accounting in Russia applies local tax rules for income and expense recognition. Activate tax accounting by setting up tax registers with dimension codes, depreciation books, and entries for fixed assets and future expenses.",
+  "systems": [
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "russia",
+    "tax accounting",
+    "tax registers",
+    "depreciation",
+    "fixed assets"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Tax Register Setup"
+    }
+  ],
+  "features": [
+    "Tax register activation",
+    "Dimension codes",
+    "Fixed asset tax ledgers",
+    "Future expense tax ledgers",
+    "Depreciation books",
+    "Tax printing form data"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003704,
+      "pages_in_call": 8
+    }
+  ]
+}

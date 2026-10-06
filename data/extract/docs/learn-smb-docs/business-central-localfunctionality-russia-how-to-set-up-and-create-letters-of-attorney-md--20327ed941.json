@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-set-up-and-create-letters-of-attorney.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-and-create-letters-of-attorney",
+  "title": "Set up and creating letters of attorney in Russia",
+  "blob": "c13a8060106684a5918ab9f0112e09386e1a2bb0",
+  "summary": "Letters of attorney in Russia enable creation and printing of attorney documents with automatic numbering for open and released documents. Set up number series and create letters linked to employees, vendors, and source purchase documents.",
+  "systems": [
+    "localization",
+    "purchasing"
+  ],
+  "topics": [
+    "russia",
+    "letters of attorney",
+    "document numbering",
+    "purchasing documents",
+    "employee authorization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Letters of Attorney"
+    }
+  ],
+  "features": [
+    "Letter of Attorney numbering",
+    "Released document tracking",
+    "Employee authorization",
+    "Source document linking",
+    "Validity date tracking",
+    "Document status management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003704,
+      "pages_in_call": 8
+    }
+  ]
+}

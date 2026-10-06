@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/How-to-Work-with-Account-Schedules",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "be239e8742fdf10d0e23c830ae5835d75b8d3355",
       "words": 849,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:28.635Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.00284
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:30.495Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:30.496Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:30.497Z",
+      "page": false
     }
   },
   "input_hash": "be239e8742fdf10d0e23c830ae5835d75b8d3355",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "be239e8742fdf10d0e23c830ae5835d75b8d3355"
+  "output_hash": "181075207ee76d3200e77d049282e7a401c9a98cdf5cd38c0cae5d8234b66624"
 }

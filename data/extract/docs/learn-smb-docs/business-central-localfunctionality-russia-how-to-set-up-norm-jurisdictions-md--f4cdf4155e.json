@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-set-up-norm-jurisdictions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-norm-jurisdictions",
+  "title": "Setting up norm jurisdictions in Russia",
+  "blob": "fb13cf1773eab298b688617506fc2e174bb44227",
+  "summary": "Norm jurisdictions in Russia define tax rates based on Russian tax laws for calculating taxable profits and losses. Set up norm groups with calculation methods, effective dates, and norm values for tax difference calculations.",
+  "systems": [
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "russia",
+    "tax accounting",
+    "norm jurisdictions",
+    "tax rates",
+    "tax differences"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Norm Jurisdictions"
+    },
+    {
+      "type": "page",
+      "name": "Norm Groups"
+    },
+    {
+      "type": "page",
+      "name": "Norm Details"
+    }
+  ],
+  "features": [
+    "Norm jurisdiction setup",
+    "Norm groups",
+    "Calculation methods",
+    "Effective dates",
+    "Tax rate definitions",
+    "Detail storage methods"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003704,
+      "pages_in_call": 8
+    }
+  ]
+}

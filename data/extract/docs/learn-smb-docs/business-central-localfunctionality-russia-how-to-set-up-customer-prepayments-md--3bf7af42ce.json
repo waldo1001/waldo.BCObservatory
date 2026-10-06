@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-set-up-customer-prepayments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-customer-prepayments",
+  "title": "Setting up customer prepayments in Russia",
+  "blob": "15bb0a1ac630889728483be3d9cd29cdcc918cc3",
+  "summary": "Customer prepayments in Russia handle advance payments on sales orders with invoicing and posting before final invoice issuance. Set up prepayment accounts, number series, and dimension values for conditional gains/losses and payment-in-kind tracking.",
+  "systems": [
+    "localization",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "russia",
+    "prepayments",
+    "advance payments",
+    "customer prepayments",
+    "sales orders"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Customer Posting Groups"
+    }
+  ],
+  "features": [
+    "Prepayment invoicing",
+    "Prepayment account posting",
+    "Dimension-based gains/losses",
+    "Payment-in-kind tracking",
+    "Number series configuration",
+    "PD document symbols"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003704,
+      "pages_in_call": 8
+    }
+  ]
+}

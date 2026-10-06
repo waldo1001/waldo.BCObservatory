@@ -1,0 +1,68 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/item-documents.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/item-documents",
+  "title": "Inventory documents in Russia",
+  "blob": "12ab35927443c17982b2ae35d2eafee54bd937d6",
+  "summary": "Inventory documents in Russia describes how to create and print required inventory reports including receipt acts M-7 and TORG-1, deviations TORG-2, write-off acts TORG-16, and transfer orders TORG-13 from posted and unposted inventory documents.",
+  "systems": [
+    "inventory",
+    "localization"
+  ],
+  "topics": [
+    "inventory documents",
+    "reports",
+    "item receipts",
+    "item shipments",
+    "transfers",
+    "russia"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Receipt"
+    },
+    {
+      "type": "page",
+      "name": "Posted Inventory Receipts"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Shipment"
+    },
+    {
+      "type": "page",
+      "name": "Item Shipments"
+    },
+    {
+      "type": "page",
+      "name": "Transfer Orders"
+    },
+    {
+      "type": "page",
+      "name": "Posted Transfer Receipt"
+    },
+    {
+      "type": "page",
+      "name": "Posted Transfer Shipments"
+    }
+  ],
+  "features": [
+    "M-7 report",
+    "TORG-1 report",
+    "TORG-2 deviations report",
+    "TORG-16 write-off act",
+    "TORG-13 transfer order",
+    "Employee signatures"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00284,
+      "pages_in_call": 8
+    }
+  ]
+}

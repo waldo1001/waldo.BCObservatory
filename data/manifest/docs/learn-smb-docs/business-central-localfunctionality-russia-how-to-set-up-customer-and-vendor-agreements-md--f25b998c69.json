@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-customer-and-vendor-agreements",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f748e5fb1bc9a108867a8617bb4dacdfa8e0e24c",
       "words": 524,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:23.892Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.003704
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:28.644Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:28.645Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:28.646Z",
+      "page": false
     }
   },
   "input_hash": "f748e5fb1bc9a108867a8617bb4dacdfa8e0e24c",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f748e5fb1bc9a108867a8617bb4dacdfa8e0e24c"
+  "output_hash": "91e5853935fc1f8ece4a05e5b3ec4e1b22d0ed28c38d058dc36ec0b7a398b3cf"
 }

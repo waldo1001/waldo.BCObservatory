@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/How-to-Work-with-Account-Schedules.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/How-to-Work-with-Account-Schedules",
+  "title": "Working with Financial Reports in Russia",
+  "blob": "be239e8742fdf10d0e23c830ae5835d75b8d3355",
+  "summary": "Working with financial reports in Russia enables analysis of general ledger accounts and comparison with budget entries. Create custom financial reports with account categories, configure row and column layouts, calculate percentages, and generate statements with budget comparisons.",
+  "systems": [
+    "finance",
+    "reporting",
+    "localization"
+  ],
+  "topics": [
+    "financial reports",
+    "general ledger",
+    "budgets",
+    "analysis",
+    "russia"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Financial Reports"
+    },
+    {
+      "type": "page",
+      "name": "G/L Account Categories"
+    },
+    {
+      "type": "page",
+      "name": "Column Layout"
+    },
+    {
+      "type": "page",
+      "name": "Row Definition"
+    }
+  ],
+  "features": [
+    "Account categories",
+    "Financial report creation",
+    "Column layout setup",
+    "Percentage calculations",
+    "Budget comparisons",
+    "Generate Financial Reports action"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00284,
+      "pages_in_call": 8
+    }
+  ]
+}

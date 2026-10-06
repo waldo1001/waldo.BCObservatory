@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-tax-accounting",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4b0e171d3b5a62d8d253b61cec03839f2ffe9f95",
       "words": 251,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:14:23.896Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003704
+    },
+    "summarized": {
+      "at": "2026-10-06T19:14:28.658Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:14:28.659Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:14:28.660Z",
+      "page": false
     }
   },
   "input_hash": "4b0e171d3b5a62d8d253b61cec03839f2ffe9f95",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4b0e171d3b5a62d8d253b61cec03839f2ffe9f95"
+  "output_hash": "3a64afcf0573be07efdb914a65a811c804343173010a44dfe8a2f7eaeaf07d8c"
 }
