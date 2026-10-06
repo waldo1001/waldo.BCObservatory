@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/unreliable-payer",
   "published_at": "2025-09-29T07:46:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f6086efcc71a2790c0a3e427235524a0fcd37224",
       "words": 272,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:17.899Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.002892
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:17.909Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:17.910Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:17.910Z",
+      "page": false
     }
   },
   "input_hash": "f6086efcc71a2790c0a3e427235524a0fcd37224",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f6086efcc71a2790c0a3e427235524a0fcd37224"
+  "output_hash": "add754f8c7447035f8e00996aa9794bb5c1f99eeb4e41205d7ed4760f4ae63bd"
 }

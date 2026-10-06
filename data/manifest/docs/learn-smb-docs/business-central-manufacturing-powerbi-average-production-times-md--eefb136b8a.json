@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-average-production-times",
   "published_at": "2025-09-26T01:14:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d53a4440569164864e60ddaeed00abc7b5ac5203",
       "words": 231,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:17.907Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002892
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:17.928Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:17.929Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:17.929Z",
+      "page": false
     }
   },
   "input_hash": "d53a4440569164864e60ddaeed00abc7b5ac5203",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d53a4440569164864e60ddaeed00abc7b5ac5203"
+  "output_hash": "c1c27536fa42fde7533928796bee8818163cb7e71074b70d28a570fd7aef4ad4"
 }

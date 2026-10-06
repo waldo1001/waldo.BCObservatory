@@ -1,0 +1,66 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-daily-sales.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-daily-sales",
+  "title": "Daily Sales (Power BI report)",
+  "blob": "58a558c65a767bbdc795ec5e8845628a5b230f13",
+  "summary": "The Daily Sales Power BI report displays daily sales activities and identifies high-performing days across different time periods to help executives and managers track sales metrics and staffing needs.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "sales",
+    "daily",
+    "analytics",
+    "kpi"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Sales Value Entries"
+    },
+    {
+      "type": "other",
+      "name": "Sales Invoice Lines"
+    },
+    {
+      "type": "other",
+      "name": "Sales Credit Lines"
+    },
+    {
+      "type": "other",
+      "name": "Project Ledger Entries"
+    },
+    {
+      "type": "other",
+      "name": "Item"
+    },
+    {
+      "type": "other",
+      "name": "G/L Account"
+    },
+    {
+      "type": "other",
+      "name": "Resource"
+    }
+  ],
+  "features": [
+    "Daily sales volume tracking",
+    "Year-over-year comparison",
+    "Sales quantity analysis",
+    "Profit margin metrics",
+    "Adjusted cost analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002892,
+      "pages_in_call": 8
+    }
+  ]
+}

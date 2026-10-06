@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-allocated-hours",
   "published_at": "2025-09-26T01:14:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4bedbb3ba5e9cb0342a43336383d6cd442f3e405",
       "words": 262,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:17.906Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002892
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:17.925Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:17.926Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:17.927Z",
+      "page": false
     }
   },
   "input_hash": "4bedbb3ba5e9cb0342a43336383d6cd442f3e405",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4bedbb3ba5e9cb0342a43336383d6cd442f3e405"
+  "output_hash": "db444016e62d7ca7e9fa81c6708c40a669f5af69a6980f004aa2bbb8e65f55f9"
 }

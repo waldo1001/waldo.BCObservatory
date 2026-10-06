@@ -1,0 +1,71 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-actual-vs-budget.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget",
+  "title": "Actual vs Budget (Power BI Report)",
+  "blob": "099a2d7e1672f0f7470b0b30f428c40ec6f7c575",
+  "summary": "The Actual vs Budget Power BI report compares sales performance against budget figures to help finance and sales teams track progress toward sales targets and analyze performance by item categories.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "sales",
+    "budget",
+    "analytics",
+    "kpi",
+    "variance"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Item"
+    },
+    {
+      "type": "other",
+      "name": "Item Category"
+    },
+    {
+      "type": "other",
+      "name": "Item Budget Entry"
+    },
+    {
+      "type": "other",
+      "name": "Sales Value Entries"
+    },
+    {
+      "type": "other",
+      "name": "Sales Invoice Lines"
+    },
+    {
+      "type": "other",
+      "name": "Sales Credit Lines"
+    },
+    {
+      "type": "other",
+      "name": "Project Ledger Entries"
+    },
+    {
+      "type": "other",
+      "name": "Salesperson/Purchaser"
+    }
+  ],
+  "features": [
+    "Sales amount comparison",
+    "Budget variance analysis",
+    "Item category breakdown",
+    "Budget amount variance percentage",
+    "Performance tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002892,
+      "pages_in_call": 8
+    }
+  ]
+}

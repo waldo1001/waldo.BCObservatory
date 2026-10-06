@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-average-production-times.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-average-production-times",
+  "title": "Average Production Times",
+  "blob": "d53a4440569164864e60ddaeed00abc7b5ac5203",
+  "summary": "The Average Production Times Power BI report displays average production time per item to help manufacturing managers and supervisors optimize production processes and identify production delays.",
+  "systems": [
+    "manufacturing",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "manufacturing",
+    "production time",
+    "analytics",
+    "kpi"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Item"
+    },
+    {
+      "type": "other",
+      "name": "Production Order"
+    },
+    {
+      "type": "other",
+      "name": "Capacity Ledger Entry"
+    }
+  ],
+  "features": [
+    "Average production time per item",
+    "Actual time used tracking",
+    "Finished quantity metrics",
+    "Production time analysis",
+    "Process optimization insights"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002892,
+      "pages_in_call": 8
+    }
+  ]
+}

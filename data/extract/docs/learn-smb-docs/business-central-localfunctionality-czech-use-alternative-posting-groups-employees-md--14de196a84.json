@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/use-alternative-posting-groups-employees.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/use-alternative-posting-groups-employees",
+  "title": "Alternative posting groups for Employees in the Czech Version",
+  "blob": "161baec37ba5740aeba874213fdc738dfc9c211b",
+  "summary": "Czech alternative posting groups for employees allow businesses to post payroll and expense transactions to different general ledger accounts and enable controllers to define policies for flexible posting.",
+  "systems": [
+    "localization",
+    "hr",
+    "finance"
+  ],
+  "topics": [
+    "czech",
+    "employee posting groups",
+    "alternative posting",
+    "payroll",
+    "accounting"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Human Resources Setup"
+    },
+    {
+      "type": "other",
+      "name": "Employee Posting Group"
+    },
+    {
+      "type": "other",
+      "name": "Alternative Employee Posting Groups"
+    }
+  ],
+  "features": [
+    "Allow Multiple Posting Groups",
+    "Alternative Groups Action",
+    "Posting Group Selection on Journals",
+    "Automatic Reallocation of G/L Entries",
+    "Correction-based Balancing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002892,
+      "pages_in_call": 8
+    }
+  ]
+}

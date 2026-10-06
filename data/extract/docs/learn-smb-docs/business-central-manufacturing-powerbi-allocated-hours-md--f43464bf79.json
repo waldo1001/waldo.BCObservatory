@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-allocated-hours.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-allocated-hours",
+  "title": "Allocated Hours",
+  "blob": "4bedbb3ba5e9cb0342a43336383d6cd442f3e405",
+  "summary": "The Allocated Hours Power BI report shows allocated time for each work center to help manufacturing managers identify over- and underutilized resources and optimize work allocation.",
+  "systems": [
+    "manufacturing",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "manufacturing",
+    "work center",
+    "capacity",
+    "analytics",
+    "kpi"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Production Order Capacity Need"
+    },
+    {
+      "type": "other",
+      "name": "Work Center"
+    },
+    {
+      "type": "other",
+      "name": "Work Center Group"
+    }
+  ],
+  "features": [
+    "Allocated time tracking",
+    "Load percentage analysis",
+    "Capacity availability indicators",
+    "Work center utilization",
+    "Resource allocation planning"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002892,
+      "pages_in_call": 8
+    }
+  ]
+}

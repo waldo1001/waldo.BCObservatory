@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-daily-sales",
   "published_at": "2025-09-26T06:29:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "58a558c65a767bbdc795ec5e8845628a5b230f13",
       "words": 228,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:17.904Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.002892
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:17.920Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:17.921Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:17.921Z",
+      "page": false
     }
   },
   "input_hash": "58a558c65a767bbdc795ec5e8845628a5b230f13",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "58a558c65a767bbdc795ec5e8845628a5b230f13"
+  "output_hash": "7205f4b0e005c79e8b608c0b65daf599c7890d029dfa7bdf387313cd3a2cf488"
 }

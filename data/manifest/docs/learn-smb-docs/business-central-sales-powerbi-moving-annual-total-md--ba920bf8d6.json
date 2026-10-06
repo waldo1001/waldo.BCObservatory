@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-annual-total",
   "published_at": "2025-09-26T06:29:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "232c4d07b94ebd6760bbcf5eeb1c9bda140200c0",
       "words": 418,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:17.905Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.002892
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:17.922Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:17.923Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:17.924Z",
+      "page": false
     }
   },
   "input_hash": "232c4d07b94ebd6760bbcf5eeb1c9bda140200c0",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "232c4d07b94ebd6760bbcf5eeb1c9bda140200c0"
+  "output_hash": "b952233681675ee0dba37aa4993e35aff6c81a7d2728242b840c1928b1fe185a"
 }

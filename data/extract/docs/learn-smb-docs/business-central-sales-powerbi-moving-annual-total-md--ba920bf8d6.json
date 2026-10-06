@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-moving-annual-total.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-moving-annual-total",
+  "title": "Moving Annual Total (Power BI Report)",
+  "blob": "232c4d07b94ebd6760bbcf5eeb1c9bda140200c0",
+  "summary": "The Moving Annual Total Power BI report calculates rolling 12-month sales totals and compares them to previous periods to help business leaders and sales managers identify sales trends and growth patterns.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "sales",
+    "annual total",
+    "analytics",
+    "kpi",
+    "trends"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Sales Value Entries"
+    },
+    {
+      "type": "other",
+      "name": "Sales Invoice Lines"
+    },
+    {
+      "type": "other",
+      "name": "Sales Credit Lines"
+    },
+    {
+      "type": "other",
+      "name": "Project Ledger Entries"
+    }
+  ],
+  "features": [
+    "Moving annual total calculation",
+    "Previous year comparison",
+    "Growth amount analysis",
+    "Growth percentage tracking",
+    "Rolling 12-month analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002892,
+      "pages_in_call": 8
+    }
+  ]
+}

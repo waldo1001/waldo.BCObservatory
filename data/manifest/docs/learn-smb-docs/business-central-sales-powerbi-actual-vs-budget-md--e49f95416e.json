@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-actual-vs-budget",
   "published_at": "2025-09-26T06:29:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "099a2d7e1672f0f7470b0b30f428c40ec6f7c575",
       "words": 377,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:04:17.903Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.002892
+    },
+    "summarized": {
+      "at": "2026-10-06T19:04:17.917Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:04:17.918Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:04:17.919Z",
+      "page": false
     }
   },
   "input_hash": "099a2d7e1672f0f7470b0b30f428c40ec6f7c575",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "099a2d7e1672f0f7470b0b30f428c40ec6f7c575"
+  "output_hash": "061d59549a92cefefd6b07da2c16f433058916431feb377bbbe1d8c06cd2f7d3"
 }

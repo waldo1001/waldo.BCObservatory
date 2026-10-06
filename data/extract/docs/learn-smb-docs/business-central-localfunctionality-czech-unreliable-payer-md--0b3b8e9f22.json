@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/unreliable-payer.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/unreliable-payer",
+  "title": "Czech local functionality - Unreliable payer [CZ]",
+  "blob": "f6086efcc71a2790c0a3e427235524a0fcd37224",
+  "summary": "Czech unreliable payer functionality allows businesses to check vendor VAT payer status against treasury records, manage registered bank accounts, and control payments in purchase documents.",
+  "systems": [
+    "localization",
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "czech",
+    "vat",
+    "unreliable payer",
+    "vendor bank account",
+    "cash management",
+    "payment control"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Unreliable Payer Service Setup"
+    },
+    {
+      "type": "other",
+      "name": "Unreliable VAT Payer Check"
+    },
+    {
+      "type": "other",
+      "name": "Vendor Bank Account Retrieval"
+    },
+    {
+      "type": "other",
+      "name": "Unreliable Payer Records"
+    }
+  ],
+  "features": [
+    "Unreliable Payer Service Setup",
+    "Unreliability Check",
+    "Automatic Bank Account Creation",
+    "Preferred Bank Account Assignment",
+    "Quick Access to Vendor Bank Accounts",
+    "Purchase Document Check",
+    "Bulk Unreliability Import"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002892,
+      "pages_in_call": 8
+    }
+  ]
+}
