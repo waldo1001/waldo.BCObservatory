@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-general-ledger-accounts",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a2127316488a166c701bdc11c335be47b42cf553",
       "words": 363,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:59.936Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003194
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:59.957Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:59.959Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:59.960Z",
+      "page": false
     }
   },
   "input_hash": "a2127316488a166c701bdc11c335be47b42cf553",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a2127316488a166c701bdc11c335be47b42cf553"
+  "output_hash": "8e6542c3b9dfe2cbebd8b95e80fe175acdf5640d96da712a6187622b43a908af"
 }

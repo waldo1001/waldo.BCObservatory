@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments",
+  "title": "Swiss Electronic Payments",
+  "blob": "561ae8fa8cf2bc2d50826352c00dfa36d6d72521",
+  "summary": "Swiss electronic payments overview covers ESR, LSV+, and SEPA credit transfer methods for making payments in Switzerland. It includes QR-Bill management with IBAN and QR-IBAN support for payment requests.",
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "swiss payments",
+    "esr",
+    "lsv+",
+    "sepa",
+    "qr-bill",
+    "iban"
+  ],
+  "objects": [],
+  "features": [
+    "ESR payment slips",
+    "LSV+ direct debit",
+    "SEPA credit transfers",
+    "QR-IBAN support",
+    "Bank-ESR (BESR)",
+    "DebitDirect PostFinance"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003194,
+      "pages_in_call": 8
+    }
+  ]
+}

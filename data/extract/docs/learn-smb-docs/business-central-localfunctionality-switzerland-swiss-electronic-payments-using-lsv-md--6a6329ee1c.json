@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-lsv-.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-lsv-",
+  "title": "Swiss electronic payments using LSV+ [CH]",
+  "blob": "07c1d183b7df71dfa870456b500ffa2fd2f450bf",
+  "summary": "Swiss electronic payments using LSV+ direct debit allows companies to collect customer payments directly from bank accounts. It includes automatic ESR processing to close LSV journal lines when imported ESR files match open LSV+ payments.",
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "swiss payments",
+    "lsv+ direct debit",
+    "esr processing",
+    "bank files",
+    "payment collection"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "LSV Setup"
+    }
+  ],
+  "features": [
+    "LSV+ direct debit",
+    "BDD direct debit",
+    "automatic ESR processing",
+    "CHF payments",
+    "LSV journal lines",
+    "ESR file import"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003194,
+      "pages_in_call": 8
+    }
+  ]
+}

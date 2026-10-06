@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central",
   "url": "https://www.youtube.com/watch?v=06vgkq2EXmA",
-  "published_at": null,
+  "published_at": "2024-08-02T06:57:57.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:28:01.049Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1560
+    },
+    "captioned": {
+      "at": "2026-10-06T19:28:09.636Z",
+      "path": "data/captions/microsoft/06vgkq2EXmA.vtt",
+      "vtt_sha256": "ca837ad4ce7d656f0c16c36c24eaf3e55211a6f4c94cd302d027eda0b68531be",
+      "segments": 78,
+      "words": 4688,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 381,
     "duration_s": 1560,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ca837ad4ce7d656f0c16c36c24eaf3e55211a6f4c94cd302d027eda0b68531be"
 }

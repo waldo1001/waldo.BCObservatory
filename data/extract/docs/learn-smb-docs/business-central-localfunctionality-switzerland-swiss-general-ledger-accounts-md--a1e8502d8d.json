@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/swiss-general-ledger-accounts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-general-ledger-accounts",
+  "title": "Swiss General Ledger Accounts [CH]",
+  "blob": "a2127316488a166c701bdc11c335be47b42cf553",
+  "summary": "Swiss general ledger accounts support foreign currency balances on bank accounts and use text data types for standardized Swiss KMU chart of accounts. It includes temporary balance preview for journals before posting.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "swiss accounting",
+    "general ledger",
+    "foreign currency",
+    "chart of accounts",
+    "kmu",
+    "journal preview"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    }
+  ],
+  "features": [
+    "foreign currency balances",
+    "currency code setup",
+    "text data type accounts",
+    "KMU chart of accounts",
+    "exchange rate adjustment",
+    "temporary balance preview"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003194,
+      "pages_in_call": 8
+    }
+  ]
+}

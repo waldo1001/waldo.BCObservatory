@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-inventory-management",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "25ac2d856d67a87e6240b679f62fc8a020b16812",
       "words": 265,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:59.938Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.003194
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:59.961Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:59.962Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:59.963Z",
+      "page": false
     }
   },
   "input_hash": "25ac2d856d67a87e6240b679f62fc8a020b16812",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "25ac2d856d67a87e6240b679f62fc8a020b16812"
+  "output_hash": "80bd7f400a59de888e9838016e1e439c8feabe4fc19d423aca303a6481aed269"
 }

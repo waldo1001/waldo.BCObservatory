@@ -1,0 +1,164 @@
+{
+  "video_id": "xk3JFul0HfM",
+  "item_id": "video/yt-microsoft/xk3JFul0HfM",
+  "title": "Mike Morton on the Business Central talent gap",
+  "duration_s": 100,
+  "systems": [
+    "hr",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "talent development",
+    "workforce expansion",
+    "reskill program",
+    "partner training",
+    "talent retention",
+    "onboarding",
+    "professional development",
+    "skill cultivation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and ReSkill Program Overview",
+      "t_start": 0,
+      "t_end": 20.7
+    },
+    {
+      "title": "ReSkill Program Features and Benefits",
+      "t_start": 20.7,
+      "t_end": 40.9
+    },
+    {
+      "title": "ReSkill Success Metrics and Onboarding Timeline",
+      "t_start": 40.9,
+      "t_end": 54.6
+    },
+    {
+      "title": "Impact of ReSkill on New Talent and Innovation",
+      "t_start": 54.6,
+      "t_end": 75.1
+    },
+    {
+      "title": "Microsoft's Commitment to BC Talent",
+      "t_start": 75.1,
+      "t_end": 100
+    }
+  ],
+  "features": [
+    {
+      "name": "ReSkill Program",
+      "description": "A collaboration between Microsoft and development partners that cultivates new talent by recruiting individuals with industry knowledge or transferable skills. Includes product and professional training to guide new hires to become proficient in BC professionals at affordable cost with minimal risk.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.5,
+      "t_end": 40.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "talent development",
+        "workforce expansion",
+        "partner program",
+        "training"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "ReSkill Training and Coaching Approach",
+      "description": "Enables new hires to make contributions and billable customer activities within 8 to 12 weeks after onboarding through structured training and coaching.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 54.6,
+      "t_end": 75.1,
+      "is_demoed": false,
+      "caveats": [
+        "8 to 12 weeks is the timeline for contributing to billable activities"
+      ],
+      "tags": [
+        "onboarding",
+        "training",
+        "productivity",
+        "time-to-value"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "ReSkill Talent Retention Rate",
+      "description": "The retention rate of new hires from the ReSkill program over the last 12 months is 99.2%.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 40.9,
+      "t_end": 54.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "retention",
+        "talent",
+        "metrics",
+        "success"
+      ],
+      "system": "hr"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Mike Morton",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 0.5,
+      "text": "employees are the Beating Heart of your company they are your most valuable asset to achieve your strategic goals",
+      "why_it_matters": "Establishes the core premise that talent is critical to business success and justifies the need for workforce programs.",
+      "check": "exact"
+    },
+    {
+      "t": 0.5,
+      "text": "res skill is the product of a collaboration between Microsoft and our development Partners it cultivates a new Talent by recruiting individuals with industry",
+      "why_it_matters": "Defines what the ReSkill program is and how it sources talent with existing capabilities rather than starting from zero.",
+      "check": "snapped"
+    },
+    {
+      "t": 40.9,
+      "text": "the current retention rate of new hires from the last 12 months is 99.2%",
+      "why_it_matters": "Demonstrates the quantified success of the program with exceptionally high retention metrics.",
+      "check": "exact"
+    },
+    {
+      "t": 54.6,
+      "text": "res skills training and coaching approach enables new hires to make contributions and billable customer activities within just 8 to 12 weeks after they",
+      "why_it_matters": "Shows rapid time-to-productivity, a key business value metric for partner organizations.",
+      "check": "exact"
+    },
+    {
+      "t": 75.1,
+      "text": "Microsoft is committed to investing in BC Talent come and join us so we can Bridge the talent Gap",
+      "why_it_matters": "Articulates Microsoft's strategic commitment to solving the Business Central talent shortage problem.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010572
+    }
+  ]
+}

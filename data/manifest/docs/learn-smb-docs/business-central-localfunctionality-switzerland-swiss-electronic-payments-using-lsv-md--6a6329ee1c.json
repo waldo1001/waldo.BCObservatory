@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-lsv-",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "07c1d183b7df71dfa870456b500ffa2fd2f450bf",
       "words": 335,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:59.934Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003194
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:59.944Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:59.947Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:59.948Z",
+      "page": false
     }
   },
   "input_hash": "07c1d183b7df71dfa870456b500ffa2fd2f450bf",
@@ -66,5 +85,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "07c1d183b7df71dfa870456b500ffa2fd2f450bf"
+  "output_hash": "b79f7620a28e6dbfe760173eb5d1a0c91e3bf610c182a1f8c5c67b739da156a0"
 }

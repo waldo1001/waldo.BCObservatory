@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/vat-rates-for-switzerland",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5aa4c0efb24533e2ac87d722016b17bfcca8c66b",
       "words": 66,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:59.942Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003194
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:59.974Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:59.975Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:59.976Z",
+      "page": false
     }
   },
   "input_hash": "5aa4c0efb24533e2ac87d722016b17bfcca8c66b",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5aa4c0efb24533e2ac87d722016b17bfcca8c66b"
+  "output_hash": "fcd8bd25024d1997f08bbb0e2c0f4366a8ca7d902cabef9d8a2eb51574f6abf4"
 }

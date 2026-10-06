@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/fraud-prevention-data",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e4125c2d604130dd87fb81ea0e7b9d96dac260d7",
       "words": 1216,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:59.943Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003194
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:59.978Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:59.979Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:59.980Z",
+      "page": false
     }
   },
   "input_hash": "e4125c2d604130dd87fb81ea0e7b9d96dac260d7",
@@ -52,5 +71,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e4125c2d604130dd87fb81ea0e7b9d96dac260d7"
+  "output_hash": "a51e2c40582022715ef460313bcb16f1f2397e770c3c4fdc7beaf37d87642da2"
 }

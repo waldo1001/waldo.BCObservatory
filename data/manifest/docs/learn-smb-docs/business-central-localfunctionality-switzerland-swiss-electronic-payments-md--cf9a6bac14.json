@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "561ae8fa8cf2bc2d50826352c00dfa36d6d72521",
       "words": 426,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:59.935Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003194
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:59.950Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:59.954Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:59.956Z",
+      "page": false
     }
   },
   "input_hash": "561ae8fa8cf2bc2d50826352c00dfa36d6d72521",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "561ae8fa8cf2bc2d50826352c00dfa36d6d72521"
+  "output_hash": "1449efae327aba9c96a9c6374570d2d0e49f4cd9a6454f695ce48ef660fe1668"
 }

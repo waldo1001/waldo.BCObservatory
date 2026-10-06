@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-value-added-tax",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f212db7da82289b420f5cc431c400c7465cbb206",
       "words": 337,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:59.941Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.003194
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:59.969Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:59.970Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:59.971Z",
+      "page": false
     }
   },
   "input_hash": "f212db7da82289b420f5cc431c400c7465cbb206",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f212db7da82289b420f5cc431c400c7465cbb206"
+  "output_hash": "eac14152fe69070fd1d7552411beb37b13498b411b3cf54595068f5a8369965b"
 }

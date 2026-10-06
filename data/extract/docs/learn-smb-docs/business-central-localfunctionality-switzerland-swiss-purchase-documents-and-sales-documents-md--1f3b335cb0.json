@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents",
+  "title": "Swiss Purchase Documents and Sales Documents",
+  "blob": "6b8df2a97bf22d4ffaeebff0d6a430dd11ac07a8",
+  "summary": "Swiss purchase and sales documents include enhanced posting descriptions, subtotals with begin/end totals in quotes/orders, invoice rounding for payment discounts, and optional shipment document printing.",
+  "systems": [
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "swiss documents",
+    "posting descriptions",
+    "invoice rounding",
+    "sales quotes",
+    "shipment control"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "Cust. Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    }
+  ],
+  "features": [
+    "enhanced posting descriptions",
+    "subtotals and begin/end totals",
+    "invoice rounding with discounts",
+    "shipment document control",
+    "item variants in quotes",
+    "position field references"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003194,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "video_id": "06vgkq2EXmA",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 10.3,
+      "end": 30.5,
+      "text": "so welcome to this fourth episode of business Central under the hood so a while ago when we started this series we um we talked about Ai and you showed a lot of interest for for that topic so we thought we would do another another episode about it and talk about how we more specifically how we implemented the uh co-pilot chat feature"
+    },
+    {
+      "t": 30.5,
+      "end": 50.5,
+      "text": "in business Central my name is viston Nicholas I am the Chief Architect of business Central and today with me to talk about the chatal chat in business Central I have Sam hi Hi Sam you have been working with the ey for a while now yeah so tell us a little bit how how it all started you what what what did you start working with um yeah so I've been kind"
+    },
+    {
+      "t": 50.5,
+      "end": 70.6,
+      "text": "of fortunate enough to be part of the whole AI wave since the beginning um so about 18 months ago uh we started like playing around with some ideas after seeing like the launch of chat GPT uh growing um so that's where we came up with the idea for the marketing text suggestions at the start uh and obviously we then released that"
+    },
+    {
+      "t": 70.6,
+      "end": 90.7,
+      "text": "as a feature um and after that we started looking at kind of what's next so we did some hackathons around that internally and uh yeah one of them was this idea for uh kind of like chatting with your data in business Central um so yeah we built a very primitive hackathon here and uh that looked promising"
+    },
+    {
+      "t": 90.7,
+      "end": 110.9,
+      "text": "so we decided to go ahead with it and actually try and productize it so what what's the uh co-pilot BC co-pilot chat what can what can you do in in PC Co chat yeah yes so right now uh obviously it's like an open chat so you can type whatever but we we have kind of scoped it down to two main kind of things one is uh"
+    },
+    {
+      "t": 110.9,
+      "end": 131.3,
+      "text": "looking up kind of the documentation and how you can do specific processes understanding terminology in in business Central uh and the other one is like finding data within it so you can say like let's say you're on one task and U someone asks you a quick question like hey do we have any inventory for this item you can without kind of being distracted just quickly"
+    },
+    {
+      "t": 131.3,
+      "end": 151.4,
+      "text": "type like do we have any inventory for this item uh and then you'll get an answer back and uh yeah hopefully saves you some time so and then you can do that any you can do that anywhere in the product right the chat pen is you can you can invoke it any place in the prodct exactly yeah yeah and kind of technically from uh"
+    },
+    {
+      "t": 151.4,
+      "end": 171.7,
+      "text": "like technical perspective it's uh it's quite interesting because we wanted it to be non-blocking intentionally so you can uh like offload these queries and it might take a little bit to run but you can just keep using the product at the same time it's all kind of asynchronous okay so so so um when was it released which which release is it available"
+    },
+    {
+      "t": 171.7,
+      "end": 192,
+      "text": "for yeah so it was the last release wave so 2024 release Wave 1 yes um it's currently in a public preview um and um it's only available in US environments for now uh but we hope over the wave to roll it out to more regions all right yeah so tell us a little more about how uh how is it built"
+    },
+    {
+      "t": 192,
+      "end": 212.1,
+      "text": "you know you know how how did how did we build that so for so maybe um what's the difference between uh the BC co-pilot chat yeah and for example Bing chat or chat GPT all the chat exactly you could you could you could use yeah so so they they have a lot of similari I would say to begin with obviously there's"
+    },
+    {
+      "t": 212.1,
+      "end": 232.3,
+      "text": "a conversation that you can have uh you call a multi-turn conversation so that's where you can keep talking and it will kind of remember what you spoke about previously um and that's the same with all of these things um chat GPT I would say you are talking very closely to the the AI model um at least"
+    },
+    {
+      "t": 232.3,
+      "end": 252.6,
+      "text": "by default so it it only knows what the model was trained on um Bing chat uh um yeah Bing chat and um co-pilot chat with business Central are kind of similar in the sense that they both use external data sources to kind of um enhance the foundation"
+    },
+    {
+      "t": 252.6,
+      "end": 270.9,
+      "text": "model uh with like current information and so obviously with Bing it it it's grounded in data that it finds everywhere on the internet and within business Central we we have more control over where it's grounded so we can say Obviously for the documentation we use use the the learn."
+    },
+    {
+      "t": 270.9,
+      "end": 291.3,
+      "text": "microsoft.com documentation like the official business Central documentation um and additionally for like asking about your inventory and items going back to that example um we can use the data within business Central to kind of help the uh Foundation model understand what is in your system so what it means"
+    },
+    {
+      "t": 291.3,
+      "end": 311.5,
+      "text": "just so we understand what the put a bit of Conex that what it means that when when the the user types something in the in the chat in BC uh it's not we just we don't just send that that exactly prompt to the to to uh to the open eye service there's some other things happening on the so can you tell us a little bit about what's happening when"
+    },
+    {
+      "t": 311.5,
+      "end": 331.8,
+      "text": "I TP for example show me the last um sales quote I've opened for that customer what happens yeah yeah yeah yeah so so really like the very first thing that happens is there is a conversation that is happening right so which is not visible to the user well both so so there is there is the the conversation the user"
+    },
+    {
+      "t": 331.8,
+      "end": 351.8,
+      "text": "is having with co-pilot chat um and and there uh we take the whole conversation and we actually we go to the model and and ask it to um bring condense this whole conversation into like a single chat message and this chat message kind of contains your"
+    },
+    {
+      "t": 351.8,
+      "end": 371.9,
+      "text": "uh the current intent of your question and like any other information that we need to answer your question and then once we now have this like condensed version of the conversation we can now pass that to other parts of the system uh and that's a lot easier to work with than a whole conversation history"
+    },
+    {
+      "t": 371.9,
+      "end": 392.6,
+      "text": "right um so yeah on once we know what you're asking about uh we have these uh two skills or capabilities uh right now that I mentioned like the documentation or like trying to find some records in your system so you ask looking for these sales documents that is obviously not a documentation question right so"
+    },
+    {
+      "t": 392.6,
+      "end": 412.7,
+      "text": "uh we would then choose to pick this uh uh like um find and go capability or navigational capability um and then that hands over to some other code now um with the um condensed conversation uh and then we can go"
+    },
+    {
+      "t": 412.7,
+      "end": 432.8,
+      "text": "and query the NST in your database to try and find the relevant records uh and then we can give this all back to uh the overall conversation that uh your the end user is seeing um and then we can write you a nice chat message saying like oh yes this okay so there's a lot of things that happening here so so"
+    },
+    {
+      "t": 432.8,
+      "end": 453,
+      "text": "if I if I just summarize what you're saying so what the first thing that happens is that we so we first of all what you were saying is that we have a predetermined set of skills that we can uh things we can achieve through the chat right and the first thing we do is so there basically different paths that can be followed"
+    },
+    {
+      "t": 453,
+      "end": 474,
+      "text": "depending on what you you use right exct and the first thing that happens uh if I understand you correctly is that we determine the uh the intent of the of the the user so depending on where the chat is so already there there is a small conversation happening right between between the open AI service the aure open ey service"
+    },
+    {
+      "t": 474,
+      "end": 494.2,
+      "text": "and and what that means also is that we take the user input and we have a whole set of prompts exactly right so we have engineered on our end right exactly which we kind of weaved with some of the data or some of what the user is writing and and kind of you know choose the right path depending"
+    },
+    {
+      "t": 494.2,
+      "end": 514.6,
+      "text": "on what what feature we what we want to achieve right so this promt so the so this prompt we have engineered yeah uh we talked about in the first uh in the first episode of of the series we talked about prompt engineering a little bit uh can you talk bit about that because there is there is a lot of prompt engineering involved when we uh when we Implement"
+    },
+    {
+      "t": 514.6,
+      "end": 534.9,
+      "text": "a feature like this one can talk a little bit about about this part yeah yeah yes so as you mentioned we we take this conversation and we uh wrap that around our own prompt to explain to the model that we want to take this conversation and kind of rewrite it to this intent um and uh yeah writing"
+    },
+    {
+      "t": 534.9,
+      "end": 554.9,
+      "text": "a front to do that that you kind of have any kind of assurance that it will work work like when you run it at scale uh it's definitely a nice challenge um and yeah as you mentioned like in the first talk as well like the the model itself is effectively a blackbox um so the best way to do it is to you know"
+    },
+    {
+      "t": 554.9,
+      "end": 570.2,
+      "text": "go back to your Basics and do like proper like test driven development so you have your your data sets of like inputs that you want to support so these are like the types of question or conversation that you we we want to like uh validate"
+    },
+    {
+      "t": 570.2,
+      "end": 590.3,
+      "text": "um and then uh yeah you write your test cases and you have like an assertion that based on these inputs uh you know that uh you want it to go to this particular skill or maybe it's a a scenario that's not supported so then you have to have some kind of off topic handling uh but these are all like fairly simple assertions"
+    },
+    {
+      "t": 590.3,
+      "end": 610.4,
+      "text": "that you can do um and um the way we we kind of write these test cases is we try to have a single test case that covers the scario um and then we have like a data set of these prompts uh like it can even be like a CSV file that kind of thing um and are we testing these are we"
+    },
+    {
+      "t": 610.4,
+      "end": 630.4,
+      "text": "writing some Al code for that or are we okay so it's it's it's in so the but don't we do like some maybe some initial prompt engineering just with a prompt to start with yeah yes so so for the the copilot chat um because that's executed in a micros service um so those tests are not in"
+    },
+    {
+      "t": 630.4,
+      "end": 650.5,
+      "text": "um they're just like uh like Ms tests within cop um but yeah even even before that you know you can go into Azure studio and uh kind of try and prototype some prompts there um I think that's it's a nice place to start but as the complexity grows and you"
+    },
+    {
+      "t": 650.5,
+      "end": 670.6,
+      "text": "start taking other external dependencies on data for example like say NST metadata uh then then it really helps to have like a full test Suite um and using that as your playground but would you say like if I as an advice maybe to people who want to start developing AI feature when you say that maybe the"
+    },
+    {
+      "t": 670.6,
+      "end": 690.9,
+      "text": "the first very first place to start it go to something like Asia Asia AI Studio or try some prompts and see if uh you know if you have an idea for a feature try try some scenarios out try try to see which prompt could work and how many you need and kind of respons how you know sometimes uh you know I've played"
+    },
+    {
+      "t": 690.9,
+      "end": 711.2,
+      "text": "with it a little bit myself sometime you you tend to write maybe too big of a promps and then you know try to have the AI service do too many things at once then you quickly figure out you want to break in down uh so talking about which how many how many uh um how many of these system prompts we have in loads"
+    },
+    {
+      "t": 711.2,
+      "end": 731.3,
+      "text": "okay like hundreds or I don't so for chat specifically I mean it's it's not hundreds uh but it's it's 10 yeah exactly and uh yeah so we uh like I say I think the Azure I is a great place to start uh also to get the understanding of like the different"
+    },
+    {
+      "t": 731.3,
+      "end": 751.3,
+      "text": "roles that the models have available to them so like the kind of the waiting that a system prompt has versus a user prompt um yeah so there this concept of system prompt and user prompt right exactly the user prompt is typically what what the user types right and the system prompt is this prom you were talking about before"
+    },
+    {
+      "t": 751.3,
+      "end": 771.4,
+      "text": "which are happening on the hood that you don't see exactly which can get kind of uh intermingled with with the user prompt right yeah so you might have heard the term like meta prompt and I I think it is quite a fluffy term at the moment but the way that I Define a meta prompt right now is a it's effectively a"
+    },
+    {
+      "t": 771.4,
+      "end": 791.6,
+      "text": "prompt that is not visible to the end user so uh kind of the conversation history uh that you see within copilot chat as well as like what the user is typing that is all part of the prompt and then we have a meta prompt around this um that then we do to make this conversation do things"
+    },
+    {
+      "t": 791.6,
+      "end": 811.6,
+      "text": "right um yeah and so again AZ studio is great place to get started um and seeing how this all plays with each other um I think another thing to keep in mind as well um like at the very beginning of all this AI stuff uh you probably saw a a lot of these jailbreaks right where people were just"
+    },
+    {
+      "t": 811.6,
+      "end": 831.7,
+      "text": "riding like ignore what you just heard and people talk about exactly exactly so so uh again this is where the roles become very important because if uh if it's a user role uh that that the prompt is saying like ignore the instructions the model knows that like w this is coming from"
+    },
+    {
+      "t": 831.7,
+      "end": 852,
+      "text": "the user so maybe they're doing some trickery here you know um so I think if if you're dealing with some kind of how we show untrusted input uh it's very good to kind of wrap this in your user prompts and then having the system prompts reinforce that yeah so what you now you mentioned that what what are we doing to prevent"
+    },
+    {
+      "t": 852,
+      "end": 869.6,
+      "text": "users because as opposed to for examp the the text uh marketing text generation where we we had kind of a lot of control about the prompting you're not talking directly to in the yeah in the in the chat feature uh you can your user can write anything that opens up for"
+    },
+    {
+      "t": 869.6,
+      "end": 889.7,
+      "text": "maybe uh opportunity for doing jailbreaks so what what what do we do avoid that or to prevent that yeah so it's been yeah a really nice like technical challenge to solve so obviously we do like what I what I just said to start with so ensuring that all the inputs U are being put in the user uh"
+    },
+    {
+      "t": 889.7,
+      "end": 909.8,
+      "text": "prompts and we have the appropriate meta prompts in the system prompts to kind of uh let the model know that like kind of the scope of the questions is like within business Central um that we uh don't want it to produce any kind of like harmful content that kind of thing um but again how do you know this actually"
+    },
+    {
+      "t": 909.8,
+      "end": 929.9,
+      "text": "works and I guess this is your question right so first thing is uh we obviously build a data set of like um should we say like bad input um and then we run this through again our test Suite so data set that could be har potentially harmful right how large is that data set yeah"
+    },
+    {
+      "t": 929.9,
+      "end": 950.6,
+      "text": "so it's it's like thousands of uh inputs um but but um that we know can potentially produce some harmful response or undesirable response yeah and and what we do as well in addition to this is uh we we even start simulating conversations so we we use the llm"
+    },
+    {
+      "t": 950.6,
+      "end": 970.6,
+      "text": "to generate a a uh like a harmful conversation uh and then we uh we we simulate this conversation with our Co pilot chat in business Central um and then we see uh is it producing any kind of unexpected outputs and uh like this testing is quite valuable did have"
+    },
+    {
+      "t": 970.6,
+      "end": 990.6,
+      "text": "a few like really nice findings so we set two L&M to talk to each other our own our own feature the BC co-pilot chart right and we have another LM that asks the try to kind of jailbreak it or produce some inappropriate content with with a whole set of of prom We Know can be exactly and and we"
+    },
+    {
+      "t": 990.6,
+      "end": 1011,
+      "text": "kind of needed to do this because um if you just take this list of say thousand examples um a lot of them are just very quickly dismissed as like off topic um and and like sure your tests are passing but are you really testing the thing right um so you can almost think of it kind of like your fuzz testing"
+    },
+    {
+      "t": 1011,
+      "end": 1031.4,
+      "text": "traditionally so um what we do now is we have this data set of like harmful inputs and then we pass that through through the the llm to kind of like tailor it to a more business Central context so that you go deeper into the system uh and uh hopefully uncover bugs before"
+    },
+    {
+      "t": 1031.4,
+      "end": 1051.4,
+      "text": "it gets to the cust and how we how do make sure that because the response can vary it's not like a you know when you run when you run um a regular test like a classic with classic code unit testing so the response is uh is not it's not exactly true and false it's just text and it can vary exactly so how do we know that for example it's"
+    },
+    {
+      "t": 1051.4,
+      "end": 1071.7,
+      "text": "not inappropriate cont exactly yeah yeah because I said we have like thousands of simulations right so you don't want to manually go through TI them off do that exactly so so again we take an LM uh and we normally take like the the best model available at the time and we ask it to"
+    },
+    {
+      "t": 1071.7,
+      "end": 1092.2,
+      "text": "grade the response according to a few different categories of harm we explain what the harms are and that kind of thing um and and then based on that result we can very quickly see if uh there are uh problems or not so so just to summarize there actually three LMS involved you say so there's one asking the question"
+    },
+    {
+      "t": 1092.2,
+      "end": 1112.6,
+      "text": "yeah to BC chat right yeah uh and then we get the answer we feed it to a third one and ask it is that is it okay you know is that is that okay that's basically the principle of it right yeah yeah yeah and really that's that's the only way we can do this at scale um and like sure maybe doing it manually"
+    },
+    {
+      "t": 1112.6,
+      "end": 1132.8,
+      "text": "once is fine but uh you know at the rate that the like asure open is releasing these models and that kind of thing we we have to automate these things because uh we see like when model upgrades things typically do change um it's not that it's better or worse it's more that the model just behaves"
+    },
+    {
+      "t": 1132.8,
+      "end": 1152.8,
+      "text": "differently to what the prompt was kind of assuming and so we need to uh yeah and fix and even if we change one of our prompt you need to make sure that you didn't all of a sudden open up or something so how how much would you say um if you compare this type of feature development to"
+    },
+    {
+      "t": 1152.8,
+      "end": 1173.5,
+      "text": "to you know traditional development because there's you're saying there's a lot of work into prompt engineering authoring the prompts right and uh and uh and there's some uh conventional code writing right so what what would you say like roughly the proportion is you know how long time do you spend writing code"
+    },
+    {
+      "t": 1173.5,
+      "end": 1194,
+      "text": "regular code and how long time do you spend prompt engineering promp engineering yeah yeah I think it's it's hard to quantify but uh it's it's definitely it is it is very different to kind of your classical uh software engineering um because uh yeah you you have this blackbox now"
+    },
+    {
+      "t": 1194,
+      "end": 1214.6,
+      "text": "and uh really the only way to have kind of any guarantee on what's going on is to have your test cases M um and u i I think right now we're still writing a lot of code in front of the model to make sure that uh the output is as as we expect and the the data types that are going in are all good"
+    },
+    {
+      "t": 1214.6,
+      "end": 1230.2,
+      "text": "uh but I think as as the models improve over time we can have less like normal code and put more into the prompt is kind of the reasoning capabilities of these models improve um so so I heard I heard a"
+    },
+    {
+      "t": 1230.2,
+      "end": 1250.6,
+      "text": "I never told you that but I heard this um we're talking about people where at the very beginning we're starting working with this and and inuring prompts uh and people were were playing around with this and uh it turns out it's not easy to you as we discuss and I heard that you were really good actually uh at buying prompts like your prompts were actually"
+    },
+    {
+      "t": 1250.6,
+      "end": 1270.6,
+      "text": "working better than other we we kind of discussed and why is that you know why is that good and maybe maybe I don't know we don't know but maybe there's something about uh being a native speaker when you write things in English and and maybe you get to be more precise in in the wording and of things maybe I don't know but what you saying yeah I think it's definitely like"
+    },
+    {
+      "t": 1270.6,
+      "end": 1290.6,
+      "text": "an unfair Advantage shall we say but uh I think like even if you have a V1 of your prompt um and as say you're not a native speaker I think pass giving that passed through the llm is is good because you can you can ask it like please be more concise with this language it'll fix any kind of"
+    },
+    {
+      "t": 1290.6,
+      "end": 1311,
+      "text": "grammatical issues and that kind of thing and then the text that is produced will map uh more closely with the text that it's been trained on so hopefully then it performs uh a lot better so on what you're saying is that you could you can also use the llm to improve your prompt oh yes that's what you're saying say you WR the first version"
+    },
+    {
+      "t": 1311,
+      "end": 1331,
+      "text": "yeah you WR the first version and then especially maybe if you're not a native speaker you can actually you s a good ideas to use the LM and say hey here's a prompt make it better or you improve the language make it more precise and uh it's also a technique to to to get a better prompt exactly yeah and I've seen quite often as well like I've been"
+    },
+    {
+      "t": 1331,
+      "end": 1351.3,
+      "text": "talking to other engineers and they're like ah how do I explain to the model this concept and they write this in a message to me and teams right and I'm just like well you just explained it to me so there you go you know and it's like and um so like it's definitely like one way to get started and then you can always refine it sometimes oh this is like a good word that actually"
+    },
+    {
+      "t": 1351.3,
+      "end": 1371.4,
+      "text": "conveys the whole meaning but it's definitely it does like scratch a different part of the brain coming up these prompts compared to just writing code like it's they're both very creative processes I think uh but this one is definitely Yeah a different different area I would say so could you show us some of these prompts some of these system prompts"
+    },
+    {
+      "t": 1371.4,
+      "end": 1391.7,
+      "text": "we have for for examp the chat the pilot yeah yeah so unfortunately that is like part of the our Microsoft uh IP uh at the moment um so uh so no but um yeah but if if you're kind of curious we do have the the GitHub repo on uh BCT Tech yeah"
+    },
+    {
+      "t": 1391.7,
+      "end": 1412,
+      "text": "uh and in there we do have some prompting samples uh that we have for a few different scenarios we'll put some links in the in the description that' be good um but that they're definitely not ready for production use um but it gives an idea of kind of the things you can do uh with it and also like within the data of of business Central"
+    },
+    {
+      "t": 1412,
+      "end": 1432.9,
+      "text": "um so it's just s some nice end to end examples yeah all right so yeah so talking about which so what what would you what's what what would you advise somebody who's new to this type of uh you know AI programming Andi AI development in BC where where what would you say the the what would be your advice to get started"
+    },
+    {
+      "t": 1432.9,
+      "end": 1453.4,
+      "text": "what do you do you know maybe I have this idea and I think maybe you know maybe I can use AI to to do that so what's uh yeah yes what's the flow so the well the very first thing is uh so we actually have some good documentation so I'll give a link to that um but we we have uh this co-pilot developer tools"
+    },
+    {
+      "t": 1453.4,
+      "end": 1473.4,
+      "text": "uh for business Central uh and in there we have like a lot of the boilerplate work uh already done um so that you can easily call these models uh send your prompts that kind of thing and we also have so we have that part right with the model have some ux and UI element"
+    },
+    {
+      "t": 1473.4,
+      "end": 1493.6,
+      "text": "so you can have a consistent experience and that's super nice because not only is it then consistent with NBC but it's the exact same controls uh that we use all across Microsoft um so if a user is familiar with co-pilot in say The Office Products they'll be familiar with how to use"
+    },
+    {
+      "t": 1493.6,
+      "end": 1513.6,
+      "text": "it in business Central if you use the the toolkit so uh it's definitely a good starting point um and I think the next uh point to keep in mind is as I mentioned you should be careful with uh where you are storing your prompts um so right now you could put them in the in say your key Vault if if you're an"
+    },
+    {
+      "t": 1513.6,
+      "end": 1533.8,
+      "text": "appsource extension um and that way when you distribute the app you know people can't see the prompts inside your code uh because it is IP at the end of the day that's the the hard part not so much the L Cod is thing yeah and and um uh yeah exactly yeah yeah"
+    },
+    {
+      "t": 1533.8,
+      "end": 1554.1,
+      "text": "okay that's uh okay then you get some uh some hints on how to get started well thank you Sam thank you for watching and let us know in the comments if there are other topics you would like us to talk about we'll put some links in some of the things we've been talking about during this talk remember to subscribe and and like that episode if you"
+    },
+    {
+      "t": 1554.1,
+      "end": 1560,
+      "text": "if you enjoyed it yeah Che thank you for watching thanks"
+    }
+  ],
+  "markers": [],
+  "word_count": 4688
+}

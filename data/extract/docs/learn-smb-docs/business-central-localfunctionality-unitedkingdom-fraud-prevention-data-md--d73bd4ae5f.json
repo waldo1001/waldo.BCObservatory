@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/fraud-prevention-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/fraud-prevention-data",
+  "title": "Send Fraud Prevention Data (UK)",
+  "blob": "e4125c2d604130dd87fb81ea0e7b9d96dac260d7",
+  "summary": "Fraud prevention data for UK VAT requires fraud prevention headers when communicating with HMRC through Making Tax Digital APIs. Admins must consent to send device and user identification data.",
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "uk vat",
+    "fraud prevention",
+    "hmrc",
+    "making tax digital",
+    "headers"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Report Setup"
+    }
+  ],
+  "features": [
+    "fraud prevention headers",
+    "HMRC communication",
+    "Making Tax Digital",
+    "device identification",
+    "user IP address service",
+    "multi-factor authentication headers"
+  ],
+  "versions": [
+    "version 20.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003194,
+      "pages_in_call": 8
+    }
+  ]
+}
