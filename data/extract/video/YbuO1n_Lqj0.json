@@ -1,0 +1,575 @@
+{
+  "video_id": "YbuO1n_Lqj0",
+  "item_id": "video/yt-microsoft/YbuO1n_Lqj0",
+  "title": "What's New: Enhanced IT Audit Reporting (2026 release wave 1)",
+  "duration_s": 1348,
+  "systems": [
+    "administration",
+    "reporting",
+    "integration"
+  ],
+  "topics": [
+    "audit reporting",
+    "permissions",
+    "approvals",
+    "user management",
+    "analysis mode",
+    "apis",
+    "security groups",
+    "change log",
+    "workflow",
+    "internal controls",
+    "security guide",
+    "api documentation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Session Overview",
+      "t_start": 0,
+      "t_end": 76.2
+    },
+    {
+      "title": "Permission Overview Page and Analysis",
+      "t_start": 76.2,
+      "t_end": 189.8
+    },
+    {
+      "title": "Approval and Workflow Overviews",
+      "t_start": 189.8,
+      "t_end": 288.6
+    },
+    {
+      "title": "Approval Pages Enhancement and Help Experience",
+      "t_start": 288.6,
+      "t_end": 356.9
+    },
+    {
+      "title": "Analysis Views for Change Log and User Auditing",
+      "t_start": 356.9,
+      "t_end": 472.3
+    },
+    {
+      "title": "User Management Experience Improvements",
+      "t_start": 472.3,
+      "t_end": 534.6
+    },
+    {
+      "title": "Users List and User Detail View Enhancements",
+      "t_start": 534.6,
+      "t_end": 671.1
+    },
+    {
+      "title": "Permission and Approval APIs for IT Access",
+      "t_start": 671.1,
+      "t_end": 1072.4
+    },
+    {
+      "title": "General Business Central Resources for Partners",
+      "t_start": 1072.4,
+      "t_end": 1190.6
+    },
+    {
+      "title": "Community Engagement and Learning Channels",
+      "t_start": 1190.6,
+      "t_end": 1348
+    }
+  ],
+  "features": [
+    {
+      "name": "Permission Overview page",
+      "description": "A new page that allows filtering and analyzing permissions across objects by type, ID, permission set scope, and app source. Users can see which security groups and users have each permission set, and pivot the data in analysis mode.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 92.4,
+      "t_end": 189.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "permissions",
+        "analysis",
+        "security audit"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Approval User Overview page",
+      "description": "A new page in 28.x that shows who is allowed to approve what and to which limits across different workflow types, accessible in one screen without navigating to each workflow individually.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 224.4,
+      "t_end": 255,
+      "is_demoed": true,
+      "caveats": [
+        "Coming in 28.1 or 28.2, not in April release"
+      ],
+      "tags": [
+        "approvals",
+        "workflows",
+        "audit"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Approval Entry Overview page",
+      "description": "A new page in 28.x showing approval statuses across different workflow types, whether posted or unposted, with ability to perform analysis mode pivots.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 274.6,
+      "t_end": 288.6,
+      "is_demoed": false,
+      "caveats": [
+        "No demo data available"
+      ],
+      "tags": [
+        "approvals",
+        "workflows",
+        "audit"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Approval pages help improvements",
+      "description": "All approval pages now appear in advanced tell me with teaching tips and descriptions, plus in-client help and correct documentation links when opening the help pane.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 308.4,
+      "t_end": 356.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "help",
+        "teaching tips",
+        "usability"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Analysis tabs on Change Log Entries",
+      "description": "New analysis views added to change log entries showing data changes by table and field, and who changed what data when, enabling auditing of system changes and agent actions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 374.1,
+      "t_end": 472.3,
+      "is_demoed": true,
+      "caveats": [
+        "Coming in 28.x",
+        "Requires change log to be enabled for tables and fields"
+      ],
+      "tags": [
+        "change log",
+        "audit",
+        "analysis mode"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analysis tabs on Users list",
+      "description": "New analysis views on the users list showing user status (enabled/disabled) and license type distribution, providing quick overview of user configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 472.3,
+      "t_end": 510.6,
+      "is_demoed": true,
+      "caveats": [
+        "Coming in 28.x"
+      ],
+      "tags": [
+        "users",
+        "analysis mode",
+        "audit"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Users list last login date and inactive days",
+      "description": "New columns added to the users list showing last login date and computed inactive days, making it easy to identify inactive users and verify testing activity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 534.6,
+      "t_end": 562,
+      "is_demoed": true,
+      "caveats": [
+        "Coming in 28.x"
+      ],
+      "tags": [
+        "user management",
+        "audit"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Users list fact box enhancements",
+      "description": "New information in the fact box showing user setup details like allow posting from register time settings and direct navigation links to user settings, approval user setup, and user setup pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 573.9,
+      "t_end": 601.9,
+      "is_demoed": true,
+      "caveats": [
+        "Coming in 28.x"
+      ],
+      "tags": [
+        "user management",
+        "navigation"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "User Detail View improvements",
+      "description": "Enhanced user detail view with support for analysis mode operations, new views for filtering by user status, and views for super active users and users inactive 7, 30, or 90 days.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 617.4,
+      "t_end": 671.1,
+      "is_demoed": true,
+      "caveats": [
+        "Coming in 28.x"
+      ],
+      "tags": [
+        "user management",
+        "analysis mode",
+        "audit"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Permission Sets API",
+      "description": "Read-only API allowing querying all permission sets and navigating through access control subpage to see linked users and security groups.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 796.3,
+      "t_end": 821.4,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in 28.x",
+        "Read-only API"
+      ],
+      "tags": [
+        "permissions",
+        "api"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Expanded Permission Sets API",
+      "description": "API providing expanded permissions data including app name and table information from the expanded permissions table.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 832.9,
+      "t_end": 873.2,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in 28.x",
+        "Read-only API"
+      ],
+      "tags": [
+        "permissions",
+        "api"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Security Groups API",
+      "description": "API showing security group information with navigation through access control to see linked permission sets and security group members.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 832.9,
+      "t_end": 873.2,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in 28.x",
+        "Read-only API"
+      ],
+      "tags": [
+        "security groups",
+        "api"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "User Permission API",
+      "description": "API showing users with navigation to user permission sets to view what permissions are assigned to each user.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 853.1,
+      "t_end": 873.2,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in 28.x",
+        "Read-only API"
+      ],
+      "tags": [
+        "users",
+        "permissions",
+        "api"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Access Control API",
+      "description": "Read-only API providing access control records that can be navigated to from other permission-related APIs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 853.1,
+      "t_end": 883.8,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in 28.x",
+        "Read-only API"
+      ],
+      "tags": [
+        "access control",
+        "api"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Workflows API",
+      "description": "API allowing navigation through all workflows and workflow steps, showing all steps for a specific workflow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 883.8,
+      "t_end": 897.3,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in 28.x",
+        "Read-only API"
+      ],
+      "tags": [
+        "workflows",
+        "approvals",
+        "api"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Workflow Steps API",
+      "description": "API showing all the steps for a specific workflow, navigable from the workflows API.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 897.3,
+      "t_end": 927.6,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in 28.x",
+        "Read-only API"
+      ],
+      "tags": [
+        "api",
+        "workflows",
+        "steps"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Workflow Response Option API",
+      "description": "API showing all step argument records including approver type, approver ID and related workflow step details.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 915.3,
+      "t_end": 927.6,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in 28.x",
+        "Read-only API"
+      ],
+      "tags": [
+        "api",
+        "workflows",
+        "approval"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Approval Entries API",
+      "description": "API listing all approval entry records showing who approved what and when, available for both normal and posted approval entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 977.2,
+      "t_end": 988.1,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in 28.x",
+        "Read-only API"
+      ],
+      "tags": [
+        "api",
+        "approvals",
+        "audit"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Updated Security Guide",
+      "description": "Comprehensive security guide updated with new objects, APIs, and specific guidance for different security scenarios including hardening practices learned from internal Microsoft work and conferences.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 988.1,
+      "t_end": 1048,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "security",
+        "guide",
+        "audit",
+        "best-practices"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 17.8,
+      "text": "we got feedback the internal controls and the reporting on that was kind of hard in business central",
+      "why_it_matters": "Explains the motivation for investing in improved audit reporting capabilities",
+      "check": "exact"
+    },
+    {
+      "t": 62.9,
+      "text": "we thought maybe we can add APIs to business central so that it can get access to APIs and do their own internal controls",
+      "why_it_matters": "Describes the business case for introducing new APIs to support IT auditing independently of ERP system access",
+      "check": "exact"
+    },
+    {
+      "t": 128.6,
+      "text": "when you then take this list into analysis mode, then you can you can do some really compelling analysis",
+      "why_it_matters": "Highlights the power of analysis mode functionality for permission overview",
+      "check": "exact"
+    },
+    {
+      "t": 224.4,
+      "text": "So here in 28.x so this is not for the April release hopefully in one of the m like miners 28.1 28.2",
+      "why_it_matters": "Clarifies timing of approval overviews - coming in 28.x minor versions after April release",
+      "check": "exact"
+    },
+    {
+      "t": 523,
+      "text": "This is also coming in 28.x. So you just wait to to have to wait uh one or two months to get this.",
+      "why_it_matters": "Indicates user management improvements are expected within one to two months in 28.x release",
+      "check": "exact"
+    },
+    {
+      "t": 703.5,
+      "text": "the reason for this is that we learned in probably larger organizations there's kind of a natural barrier or physical barrier between the IT",
+      "why_it_matters": "Explains the organizational challenge that motivated the new APIs - separation between IT and Finance system access",
+      "check": "exact"
+    },
+    {
+      "t": 796.3,
+      "text": "all of these APIs are read only",
+      "why_it_matters": "Important limitation that all permission and approval APIs are read-only for security",
+      "check": "exact"
+    },
+    {
+      "t": 883.8,
+      "text": "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs",
+      "why_it_matters": "Confirms the APIs are generally available in version 28.x as part of the current release.",
+      "check": "exact"
+    },
+    {
+      "t": 938.9,
+      "text": "you can create recreate those reports without having like a login UI access to business central",
+      "why_it_matters": "Describes a key benefit of the new APIs - enabling external reporting without requiring direct Business Central login.",
+      "check": "exact"
+    },
+    {
+      "t": 977.2,
+      "text": "approval entries will list all approval entry record. So you can kind of get that uh who did what when",
+      "why_it_matters": "Explains how audit trail capabilities are enabled through the approval entries API for compliance and audit reporting.",
+      "check": "exact"
+    },
+    {
+      "t": 1023.5,
+      "text": "We took all we learned from giving security and auditing sessions at conferences plus the work that was done internally in Microsoft",
+      "why_it_matters": "Indicates the security guide incorporates best practices from external engagement and internal Microsoft hardening initiatives.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 224.4,
+      "kind": "not-in-this-release",
+      "text": "So here in 28.x so this is not for the April release hopefully in one of the m like miners 28.1 28.2"
+    },
+    {
+      "t": 385.9,
+      "kind": "coming-later",
+      "text": "you will in 28.x X when this is surfacing"
+    },
+    {
+      "t": 523,
+      "kind": "coming-later",
+      "text": "This is also coming in 28.x. So you just wait to to have to wait uh one or two months to get this."
+    },
+    {
+      "t": 883.8,
+      "kind": "coming-later",
+      "text": "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 11,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 19
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

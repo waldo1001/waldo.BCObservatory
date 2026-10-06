@@ -1,0 +1,922 @@
+{
+  "video_id": "EurgqGU1jG0",
+  "item_id": "video/yt-areopa/EurgqGU1jG0",
+  "title": "20260504 - Super fast tests covering 100% of your code",
+  "duration_s": 3589,
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "automated testing",
+    "code coverage",
+    "interfaces",
+    "al development",
+    "payment integration",
+    "api integration",
+    "test patterns",
+    "environment configuration",
+    "enums",
+    "environment abstraction",
+    "test doubles",
+    "stubs"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and housekeeping",
+      "t_start": 0,
+      "t_end": 177
+    },
+    {
+      "title": "About the presenter and the topic",
+      "t_start": 177,
+      "t_end": 287
+    },
+    {
+      "title": "Inspiration from Vjeko and coding patterns",
+      "t_start": 287,
+      "t_end": 445
+    },
+    {
+      "title": "Scenario and requirements for payment integration",
+      "t_start": 445,
+      "t_end": 582
+    },
+    {
+      "title": "Demo of the payment application",
+      "t_start": 582,
+      "t_end": 709
+    },
+    {
+      "title": "Test results and code coverage demonstration",
+      "t_start": 709,
+      "t_end": 838
+    },
+    {
+      "title": "Environment concept and testing scenarios",
+      "t_start": 838,
+      "t_end": 965.2
+    },
+    {
+      "title": "Context interfaces and enum-based implementations",
+      "t_start": 965.2,
+      "t_end": 1109.8
+    },
+    {
+      "title": "Environment interfaces and design patterns",
+      "t_start": 1109.8,
+      "t_end": 1243.6
+    },
+    {
+      "title": "Reducing paths and code organization strategy",
+      "t_start": 1243.6,
+      "t_end": 1368.2
+    },
+    {
+      "title": "Implementation of app environment interface",
+      "t_start": 1368.2,
+      "t_end": 1522.2
+    },
+    {
+      "title": "Testing with stub and spy patterns",
+      "t_start": 1522.2,
+      "t_end": 1789.8
+    },
+    {
+      "title": "Achieving 100% code coverage with interfaces",
+      "t_start": 1789.8,
+      "t_end": 1896.9
+    },
+    {
+      "title": "Testing API calls without external dependencies",
+      "t_start": 1896.9,
+      "t_end": 2060.2
+    },
+    {
+      "title": "Simulating API responses with global variables",
+      "t_start": 2060.2,
+      "t_end": 2311.2
+    },
+    {
+      "title": "Fast testing through parameter passing and email handling",
+      "t_start": 2311.2,
+      "t_end": 2530
+    },
+    {
+      "title": "Code hierarchy and minimizing database calls",
+      "t_start": 2530,
+      "t_end": 2720
+    },
+    {
+      "title": "AI development and design considerations",
+      "t_start": 2720,
+      "t_end": 2950
+    },
+    {
+      "title": "Decoupling side effects with event publishers",
+      "t_start": 2950,
+      "t_end": 3040
+    },
+    {
+      "title": "Pure functions and dependency injection design",
+      "t_start": 3040,
+      "t_end": 3235.5
+    },
+    {
+      "title": "API operation patterns and interface design",
+      "t_start": 3235.5,
+      "t_end": 3423.2
+    },
+    {
+      "title": "Addressing limitations and robustness",
+      "t_start": 3423.2,
+      "t_end": 3507.5
+    },
+    {
+      "title": "Closing remarks and next steps",
+      "t_start": 3507.5,
+      "t_end": 3589
+    }
+  ],
+  "features": [
+    {
+      "name": "100% code coverage testing pattern",
+      "description": "A coding pattern using interfaces to achieve 100% code coverage in AL objects, enabling fast tests that cover all code paths in tested objects.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 287,
+      "t_end": 765,
+      "is_demoed": true,
+      "caveats": [
+        "Only covers 100% of code in objects being tested, not all objects",
+        "Does not include event subscribers"
+      ],
+      "tags": [
+        "testing",
+        "code coverage",
+        "interfaces",
+        "al patterns"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Payment API integration with environment-aware mode switching",
+      "description": "Integration with online payment provider that automatically switches to test mode in non-production environments and test mode in sandbox, preventing production API calls during development.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 433,
+      "t_end": 635,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "payment",
+        "api integration",
+        "environment management",
+        "safety"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Fast automated testing framework",
+      "description": "Tests run in milliseconds with over 200 test cases, enabling developers to run tests continuously as part of development workflow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 709,
+      "t_end": 765,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "performance",
+        "automation",
+        "milliseconds"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GitHub AL-Go integration with test reporting",
+      "description": "CI-CD pipeline using AL-Go for GitHub showing test results and status checks for payment integration app with multiple test apps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 780,
+      "t_end": 838,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "al-go",
+        "github",
+        "ci-cd",
+        "testing",
+        "reporting"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Context interfaces pattern",
+      "description": "A design pattern using enums to define different implementation contexts. Instead of using event subscribers scattered throughout standard code, extensions can implement their own versions of interfaces through enum extensions, enabling customization without modifying core code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 965.2,
+      "t_end": 1093.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "extensibility",
+        "enum",
+        "interface",
+        "customization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Environment interfaces",
+      "description": "Interfaces that abstract the execution environment including the underlying platform (sandbox vs production), current company, and evaluation company status. These interfaces enable testing different environment scenarios and achieving full code coverage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1109.8,
+      "t_end": 1186.2,
+      "is_demoed": true,
+      "caveats": [
+        "requires careful code organization and splitting functions into smaller units"
+      ],
+      "tags": [
+        "testing",
+        "abstraction",
+        "code coverage",
+        "environment"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Enum-based state management",
+      "description": "Using enums instead of booleans to represent application states, reducing cyclomatic complexity and making impossible states impossible. Helps prevent illegal state combinations that could introduce bugs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1225.9,
+      "t_end": 1296.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "design pattern",
+        "state management",
+        "enum",
+        "code quality"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test doubles with stubs and spies",
+      "description": "Using stub objects that return fixed data without tracking usage, and spy objects that record function calls for verification. These testing techniques allow controlling and monitoring system behavior during tests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1575.7,
+      "t_end": 1671,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "test doubles",
+        "mocking",
+        "london style"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Environment stub implementation for testing",
+      "description": "Using stub implementations of system environment interfaces to control environment behavior during testing, allowing tests to simulate production or sandbox environments without actual environment changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1638.5,
+      "t_end": 1806.4,
+      "is_demoed": true,
+      "caveats": [
+        "Must use temporary records in tests",
+        "Requires setting up stub objects before testing logic"
+      ],
+      "tags": [
+        "environment testing",
+        "stub objects",
+        "interface mocking"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "100% code coverage through interface testing",
+      "description": "Technique to achieve complete code coverage by passing different stub implementations to test all code paths, such as testing both production and test environment scenarios separately.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1829,
+      "t_end": 1896.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires careful setup of stub objects for each path",
+        "Logic must be designed to accept interface parameters"
+      ],
+      "tags": [
+        "code coverage",
+        "interface testing",
+        "test design"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "API testing without external calls",
+      "description": "Testing API functionality by creating interface implementations that simulate HTTP responses without making actual external calls, allowing tests to verify handling of success and failure scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1896.9,
+      "t_end": 2060.2,
+      "is_demoed": true,
+      "caveats": [
+        "Does not test the actual HTTP client implementation",
+        "Requires creating interface implementations for API methods"
+      ],
+      "tags": [
+        "api testing",
+        "http client",
+        "mock responses"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "API spy variables for tracking calls",
+      "description": "Using global spy variables in test codeunits to track which API functions were called and verify that logic around API calls handles success and failure scenarios correctly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2070.4,
+      "t_end": 2230.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires managing multiple global variables",
+        "Test code can become complex with many spy variables"
+      ],
+      "tags": [
+        "spy objects",
+        "api testing",
+        "function tracking"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Record parameter passing for fast testing",
+      "description": "Passing record variables by reference through function parameters instead of retrieving them from the database allows testing function logic with temporary records, eliminating database operations and making tests fast.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2347,
+      "t_end": 2454.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires refactoring existing functions to accept record parameters",
+        "Changes function signatures"
+      ],
+      "tags": [
+        "performance",
+        "temporary records",
+        "parameter design"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Application state management for test scenarios",
+      "description": "Using application state variables to distinguish between production and test modes, allowing email and phone number substitution from setup records during testing to prevent sending real communications.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2443.9,
+      "t_end": 2601.6,
+      "is_demoed": true,
+      "caveats": [
+        "Not using interfaces for this pattern"
+      ],
+      "tags": [
+        "testing",
+        "application state",
+        "setup configuration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Single database get optimization",
+      "description": "By passing setup records at the top level and passing them down through multiple functions, developers can reduce multiple database gets to a single get operation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2613.5,
+      "t_end": 2705.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "database optimization",
+        "performance",
+        "parameter passing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI assistance for code generation and testing",
+      "description": "Using AI tools like Claude to write functions and automatically generate and run tests based on existing code patterns, with AI being particularly effective when code follows consistent patterns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2740.9,
+      "t_end": 2808.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ai development",
+        "testing",
+        "code generation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Event publishers for separating concerns",
+      "description": "Using event publishers and subscribers to decouple side effects from pure business logic, keeping the core functions clean while handling side effects like writing to event tables separately.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2954.9,
+      "t_end": 3024.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "event publishers",
+        "side effects",
+        "separation of concerns"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Pure functions for testability",
+      "description": "Writing pure functions that have no side effects and do not perform database operations directly, making them easier to test and allowing AI to generate and run tests automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3037,
+      "t_end": 3112.2,
+      "is_demoed": true,
+      "caveats": [
+        "True pure functions are difficult in AL due to database requirement"
+      ],
+      "tags": [
+        "pure functions",
+        "testing",
+        "design patterns"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Dependency injection parameter hell trade-off",
+      "description": "Moving setup retrieval to parameters follows dependency injection principles but can lead to excessive parameters if not designed carefully, requiring developers to rethink design or introduce interfaces.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3168.2,
+      "t_end": 3235.5,
+      "is_demoed": false,
+      "caveats": [
+        "Risk of accumulating too many parameters at top level"
+      ],
+      "tags": [
+        "dependency injection",
+        "design patterns",
+        "parameters"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Modular app architecture",
+      "description": "Approach to organize code into multiple apps, which increases complexity in terms of dependencies but reduces the context the AI has to look at, helping avoid parameter hell scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3246.2,
+      "t_end": 3285.3,
+      "is_demoed": true,
+      "caveats": [
+        "adds complexity in dependency management",
+        "trade-offs between single vs multiple apps"
+      ],
+      "tags": [
+        "architecture",
+        "modularity",
+        "dependencies"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "API operation record pattern",
+      "description": "Pattern of putting all information needed for an API call into a record, allowing a single function to handle any API call without needing many parameters, including endpoint, request method, payload, and response.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3297.3,
+      "t_end": 3346.8,
+      "is_demoed": true,
+      "caveats": [
+        "complexity is moved into the record structure"
+      ],
+      "tags": [
+        "api design",
+        "pattern",
+        "parameter management"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Interface pattern for consistent signatures",
+      "description": "Use of interfaces to ensure that functions have similar parameter signatures, making it easier to manage complexity and maintain code consistency.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3346.8,
+      "t_end": 3363.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "interface design",
+        "design pattern",
+        "code consistency"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI-guided test generation",
+      "description": "Capability to ask the AI to write a number of tests that will satisfy coverage of functions, with guidance in doing small fixes and helping with the implementation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3148.2,
+      "t_end": 3168.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "test coverage",
+        "ai",
+        "code generation"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "navigate BC",
+      "t": 261.2
+    },
+    {
+      "type": "interface",
+      "name": "number series single",
+      "t": 1008.8
+    },
+    {
+      "type": "enum",
+      "name": "system environment",
+      "t": 1319.1
+    },
+    {
+      "type": "interface",
+      "name": "I environment",
+      "t": 1355.6
+    },
+    {
+      "type": "codeunit",
+      "name": "app environment",
+      "t": 1355.6
+    },
+    {
+      "type": "interface",
+      "name": "API request",
+      "t": 1120.6
+    },
+    {
+      "type": "interface",
+      "name": "send function",
+      "t": 1931
+    },
+    {
+      "type": "codeunit",
+      "name": "stop production environment code unit",
+      "t": 1757.4
+    },
+    {
+      "type": "interface",
+      "name": "API interface",
+      "t": 1918
+    },
+    {
+      "type": "codeunit",
+      "name": "payment request task",
+      "t": 2630.8
+    },
+    {
+      "type": "interface",
+      "name": "environment interface",
+      "t": 3507.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Fred",
+      "confidence": "high"
+    },
+    {
+      "name": "Finn Pedersen",
+      "confidence": "medium"
+    },
+    {
+      "name": "Vieco",
+      "confidence": "medium"
+    },
+    {
+      "name": "Luke",
+      "confidence": "high"
+    },
+    {
+      "name": "Hilmar Espen",
+      "confidence": "high"
+    },
+    {
+      "name": "Hilmar",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 304.8,
+      "text": "and he gave some examples and he he told his audience that he had 100 code coverage",
+      "why_it_matters": "Establishes the inspiration source (Vjeko) and the achievable goal of 100% code coverage.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 410.3,
+      "text": "100% code coverage is really different from from 99%",
+      "why_it_matters": "Emphasizes that the difference between near-complete and complete coverage is significant, justifying the effort required.",
+      "check": "exact"
+    },
+    {
+      "t": 509.8,
+      "text": "we can only be in production mode when we're running in a production environment. So, basically, if we make a copy of the data",
+      "why_it_matters": "Defines a critical safety requirement for the payment integration that prevents accidental API calls in non-production environments.",
+      "check": "exact"
+    },
+    {
+      "t": 709.4,
+      "text": "you can see that they're all running in milliseconds. I can run the tests. I run them all. There's uh a bit over 200",
+      "why_it_matters": "Shows the practical scale of tests (200+) and their performance (milliseconds), demonstrating feasibility of continuous test execution.",
+      "check": "exact"
+    },
+    {
+      "t": 747.8,
+      "text": "I have 100% code coverage on everything except for some event subscribers, which which is rather irrelevant, but I every path is covered by",
+      "why_it_matters": "Demonstrates achievement of the stated goal with specific evidence of complete code path coverage.",
+      "check": "exact"
+    },
+    {
+      "t": 850.3,
+      "text": "the first thing we have to understand uh and the reason why we want this because we we want for three to obtain the",
+      "why_it_matters": "Establishes the core goal of the testing approach - achieving 100% code coverage through environment interfaces.",
+      "check": "exact"
+    },
+    {
+      "t": 1063.7,
+      "text": "it means that you can make an an enum extension to this enum and you can",
+      "why_it_matters": "Demonstrates the extensibility of context interfaces through enum extensions as a customization approach.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1171.6,
+      "text": "the environment interfaces are the ones that i'm that enables me to to obtain 100",
+      "why_it_matters": "Explicitly states how environment interfaces directly enable achieving 100% code coverage in testing.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1225.9,
+      "text": "I find enums much uh a much better pattern than booleans. And because we have to make impossible states impossible",
+      "why_it_matters": "Articulates the design principle of using enums over booleans to prevent illegal state combinations.",
+      "check": "exact"
+    },
+    {
+      "t": 1506.2,
+      "text": "by making it impossible to get into impossible states you're also reducing the the possibility of bugs in the system",
+      "why_it_matters": "Explains the quality and robustness benefits of designing states to prevent invalid combinations.",
+      "check": "snapped"
+    },
+    {
+      "t": 1589.1,
+      "text": "Stop means that's a fake object that returns a fixed data and does not track usage. And the other one is spy. It's just",
+      "why_it_matters": "Defines the London-style test double terminology used for implementing test doubles in the codebase.",
+      "check": "exact"
+    },
+    {
+      "t": 1589.1,
+      "text": "Stop means that's a fake object that returns a fixed data and does not track usage",
+      "why_it_matters": "Defines the stub pattern used in London style testing, fundamental to understanding test isolation techniques",
+      "check": "exact"
+    },
+    {
+      "t": 1604.6,
+      "text": "Spy. It's just like the stop but it's recording which functions were called so that we can check it later on",
+      "why_it_matters": "Explains the spy pattern for verifying that specific functions are called during test execution",
+      "check": "exact"
+    },
+    {
+      "t": 1735.6,
+      "text": "and and uh yeah i cannot even test that i'm in production in in test that i in",
+      "why_it_matters": "Explains why stub implementations are necessary to test production-specific logic in test environments",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1849.7,
+      "text": "this is how you get to 100 code coverage of this function",
+      "why_it_matters": "States the outcome of using interface stubs to test multiple code paths, key to achieving complete coverage",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1918,
+      "text": "Of course we cannot have our test system calling out on the internet to our API. That would be completely wrong",
+      "why_it_matters": "Explains the fundamental requirement to isolate tests from external dependencies",
+      "check": "exact"
+    },
+    {
+      "t": 2018.6,
+      "text": "I'm not testing this implementation of that. What I'm going to do is I'm testing all the logic surrounding this",
+      "why_it_matters": "Clarifies that tests mock the HTTP call but verify the surrounding error handling and response processing logic",
+      "check": "exact"
+    },
+    {
+      "t": 2373.2,
+      "text": "I'm passing it up. So, when I want to test the get email function, I'm basically passed down I'm passing down the the set",
+      "why_it_matters": "Describes the refactoring pattern that enables fast testing without database operations",
+      "check": "exact"
+    },
+    {
+      "t": 2390.4,
+      "text": "And when I'm going to test this function, I'm just passing down a temporary record uh as you as you got a glimpse of",
+      "why_it_matters": "Demonstrates how temporary records enable testing without database operations, which is core to the testing approach being discussed.",
+      "check": "exact"
+    },
+    {
+      "t": 2406.8,
+      "text": "This pattern makes it possible to test without doing the get, without first inserting inserting the record, getting it, rolling it and so on",
+      "why_it_matters": "Explains how parameter passing enables super fast tests by eliminating database round trips",
+      "check": "exact"
+    },
+    {
+      "t": 2406.8,
+      "text": "So, uh this this pattern makes it possible to test without doing the get, without first inserting inserting the record, getting it, rolling it",
+      "why_it_matters": "Explains the key benefit of parameter passing approach - eliminates complex test setup procedures.",
+      "check": "exact"
+    },
+    {
+      "t": 2520.9,
+      "text": "Right? The the sending out these uh payment requests to real customers would be a disaster.",
+      "why_it_matters": "Illustrates why application state testing is critical - prevents accidental real-world operations during testing.",
+      "check": "exact"
+    },
+    {
+      "t": 2705.5,
+      "text": "you can see that now in this scenario, I'm just doing one get to the database and not three as I would have done",
+      "why_it_matters": "Quantifies the performance benefit of the parameter passing pattern for database optimization.",
+      "check": "exact"
+    },
+    {
+      "t": 2753,
+      "text": "because all my functions are pure functions, I think this is a huge benefit uh when when you can when the AI starts running",
+      "why_it_matters": "Identifies pure functions as enabling AI to generate and execute tests automatically.",
+      "check": "exact"
+    },
+    {
+      "t": 3037,
+      "text": "pure functions basically uh doesn't have any side effects and that is why I'm I'm keeping uh the the database operations uh kind of",
+      "why_it_matters": "Defines pure functions as the foundation of the testing strategy, separating business logic from database operations.",
+      "check": "exact"
+    },
+    {
+      "t": 3125.2,
+      "text": "the code gets much easier to navigate. It gets much cleaner. Uh you you much easier to debug and navigate and if something is",
+      "why_it_matters": "Shows the primary benefit of the tested approach: improved code maintainability and debugging.",
+      "check": "exact"
+    },
+    {
+      "t": 3148.2,
+      "text": "You can basically tell the AI, Here's the functions. Write the a number of tests that will will satisfy uh a nice coverage of",
+      "why_it_matters": "Demonstrates how AI can be leveraged to automate test generation with targeted coverage goals.",
+      "check": "exact"
+    },
+    {
+      "t": 3168.2,
+      "text": "the method of moving setup.get to a parameter is a version of dependency injection. Promoting these dependencies to parameters could ...",
+      "why_it_matters": "Identifies a known architectural trade-off - dependency injection can create parameter proliferation requiring careful design.",
+      "check": "exact"
+    },
+    {
+      "t": 3205.2,
+      "text": "you could end up with a hundred parameters on the top level because everything bubbles up to the top",
+      "why_it_matters": "Illustrates the severity of parameter hell problem in worst-case scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 3221.4,
+      "text": "if that happens to you, you have to really rethink. You have to think harder about your design. Maybe maybe you have to introduce",
+      "why_it_matters": "Provides guidance on resolving parameter accumulation by reconsidering overall design and introducing abstraction layers.",
+      "check": "exact"
+    },
+    {
+      "t": 3297.3,
+      "text": "all the information needed to do the API call is is uh is put in into a record. And this allows me to to",
+      "why_it_matters": "Presents a practical solution pattern to avoid parameter hell by consolidating related data into records.",
+      "check": "exact"
+    },
+    {
+      "t": 3399.3,
+      "text": "if I get a super complex uh JSON back, I can just pick out the fields I want",
+      "why_it_matters": "Shows the flexibility advantage of using blob storage patterns for complex API responses.",
+      "check": "exact"
+    },
+    {
+      "t": 3461.2,
+      "text": "it's super robust. It's super easy to read and maintain. Um so I think it's a I think it's a huge uh benefit",
+      "why_it_matters": "Summarizes the overall value of the applied design patterns for code quality and maintainability.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 33,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 21
+  },
+  "windows": 5,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

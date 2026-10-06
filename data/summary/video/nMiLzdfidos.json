@@ -1,0 +1,26 @@
+{
+  "video_id": "nMiLzdfidos",
+  "item_id": "video/yt-microsoft/nMiLzdfidos",
+  "summary": "AL Language changes in 2026 release wave 1: JSON and data transfer additions, namespace adoption and fully qualified names, symbol download from public NuGet feeds, parallel workspace compilation, and AL tools, AL MCP server and a troubleshooting MCP server for AI-assisted development and debugging.",
+  "overview": "The session covers AL language and tooling updates. On the language side, select token can return multiple tokens, data transfer gains an add destination table filter method, and update audit fields works in the cloud. Analysis views can be included in extensions. Namespace adoption uses a three-tier resolution strategy, and fully qualified names support name-based object resolution at runtime.\n\nThe tooling section covers downloading symbols from global sources, workspace create, map and compile commands, parallel compilation, and runtime specification in the directory app.props.json file. The later part covers AI-assisted development: AL tools in GitHub Copilot in VS Code, an AL MCP server for agents outside VS Code (pre-release at recording), and a Business Central troubleshooting MCP server that lets Copilot inspect stack frames and variables at a breakpoint.",
+  "key_points": [
+    "Select token now accepts multiple tokens in one call; data transfer adds an add destination table filter method, and update audit fields is available in cloud.",
+    "Automated namespace adoption resolves in three tiers: namespace template in settings.json, sibling file inference by longest common prefix, then publisher.projectname.",
+    "The download symbols from global sources command pulls platform, application and dependency packages from public Microsoft NuGet feeds without authentication; it needs an internet connection.",
+    "Custom feeds can be set with AL.NuGetFeeds and take priority over Microsoft feeds; Microsoft feeds can be disabled entirely.",
+    "Workspace compile builds a dependency-based graph and runs in parallel; on GitHub runners the demo went from 50 minutes with one process to 26 minutes with four.",
+    "AL Go users get the parallel compilation benefit automatically; the is simple only command is used in AL Go for GitHub pipelines.",
+    "AL MCP server was pre-release at recording; the troubleshooting MCP server runs in an NST and works only at a breakpoint."
+  ],
+  "audience": [
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "8cc44efcfbb83f04d92b48945ebad8d8c840d65655673dfcff828157ac09f4e9",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": true,
+    "cost_usd": null
+  }
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-optimize-text-search-language",
   "published_at": "2026-06-11T12:16:06.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f112cb5f955f7982073ddf4971c11c9f173c5cf9",
       "words": 353,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T18:08:34.579Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00773
+    },
+    "summarized": {
+      "at": "2026-10-06T18:08:36.217Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:08:36.218Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:08:36.218Z",
+      "page": false
     }
   },
   "input_hash": "f112cb5f955f7982073ddf4971c11c9f173c5cf9",
@@ -58,5 +77,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f112cb5f955f7982073ddf4971c11c9f173c5cf9"
+  "output_hash": "225c22c8ce030941906eb85f1f8b1d3c373085de3ac48162ecd7931d90117c30"
 }

@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-to-set-up-stockkeeping-units.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-to-set-up-stockkeeping-units",
+  "title": "How to set up stockkeeping units",
+  "blob": "e88ca0e8b9cbda4da3061c2be64627794c60f5ce",
+  "summary": "Set up stockkeeping units (SKUs) to manage item variants and location-specific information including manufacturing parameters and replenishment settings.",
+  "systems": [
+    "inventory",
+    "manufacturing"
+  ],
+  "topics": [
+    "sku",
+    "inventory management",
+    "locations",
+    "variants",
+    "replenishment"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Stockkeeping Units"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "report",
+      "name": "Create Stockkeeping Unit"
+    }
+  ],
+  "features": [
+    "SKU creation",
+    "location management",
+    "variant management",
+    "production BOM override",
+    "routing override",
+    "manufacturing policy",
+    "standard cost override"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00773,
+      "pages_in_call": 8
+    }
+  ]
+}

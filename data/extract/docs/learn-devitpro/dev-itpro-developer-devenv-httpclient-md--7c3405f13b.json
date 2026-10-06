@@ -1,0 +1,66 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-httpclient.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-httpclient",
+  "title": "Call external services with the HttpClient data type",
+  "blob": "4c988eb2267c8c2ad7d4e1e670ce41594186464c",
+  "summary": "Use the HttpClient data type in AL to integrate Business Central with external systems via HTTP requests, with support for server certificate validation, anti-SSRF measures, and cookie handling.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "http client",
+    "external services",
+    "security",
+    "certificates",
+    "api integration",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "HttpClient data type"
+    },
+    {
+      "type": "other",
+      "name": "HttpResponseMessage data type"
+    },
+    {
+      "type": "other",
+      "name": "HttpRequestMessage data type"
+    },
+    {
+      "type": "other",
+      "name": "HttpContent data type"
+    },
+    {
+      "type": "other",
+      "name": "Cookie datatype"
+    }
+  ],
+  "features": [
+    "HTTP methods",
+    "server certificate validation",
+    "anti-SSRF validation",
+    "cookie handling",
+    "error handling",
+    "telemetry",
+    "mock testing"
+  ],
+  "versions": [
+    "2024 release wave 1",
+    "version 27",
+    "version 26",
+    "version 28"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00773,
+      "pages_in_call": 8
+    }
+  ]
+}

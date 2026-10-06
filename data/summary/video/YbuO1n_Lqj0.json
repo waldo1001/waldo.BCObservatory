@@ -1,0 +1,28 @@
+{
+  "video_id": "YbuO1n_Lqj0",
+  "item_id": "video/yt-microsoft/YbuO1n_Lqj0",
+  "summary": "Business Central 2026 release wave 1 audit and internal-control reporting additions: Permission Overview page, approval overview pages, analysis tabs on change log and users list, and read-only APIs for permissions, workflows and approval entries. Most items are described as coming in 28.x, not the April release.",
+  "overview": "The session covers changes made after feedback that internal controls and reporting were hard in Business Central. It demos a Permission Overview page for filtering and pivoting permissions in analysis mode, approval overview pages showing who can approve what and approval statuses, and better help on approval pages.\n\nIt also shows analysis tabs on Change Log Entries and the Users list, new last login and inactive days columns, fact box and user detail view improvements, and a set of read-only APIs for permissions, security groups, workflows and approval entries. These let IT teams rebuild audit reports without UI login access. An updated security guide is also mentioned.",
+  "key_points": [
+    "Permission Overview page lets you filter permissions by object type, ID, permission set scope and app source, see which security groups and users hold each permission set, and pivot in analysis mode.",
+    "Approval User Overview page shows who can approve what, and to which limits, across workflow types on one screen. It is said to come in 28.1 or 28.2, not the April release.",
+    "Change Log Entries get analysis tabs showing who changed which table and field data and when. They are coming in 28.x and need the change log enabled for the relevant tables and fields.",
+    "Users list in 28.x adds last login date and inactive days columns, analysis views by user status and license type, and views for users inactive 7, 30 or 90 days.",
+    "New APIs, all read-only and coming in 28.x, cover permission sets, expanded permission sets, security groups, user permissions, access control, workflows, workflow steps, workflow response options and approval entries (normal and posted).",
+    "The APIs are meant to let IT staff recreate audit reports without login UI access to Business Central, reflecting a separation between IT and business in larger organizations.",
+    "The security guide was updated with new objects, APIs and scenario-specific hardening guidance."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "d9d1fe2f3c8f9c68a3a90ffaf3be9c6d916b9034460bc1794f2992f2f015b26f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": true,
+    "cost_usd": null
+  }
+}

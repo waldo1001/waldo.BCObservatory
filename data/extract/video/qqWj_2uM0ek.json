@@ -1,0 +1,774 @@
+{
+  "video_id": "qqWj_2uM0ek",
+  "item_id": "video/yt-areopa/qqWj_2uM0ek",
+  "title": "20260420 - What is GitOps and why should you care",
+  "duration_s": 2356,
+  "systems": [
+    "platform",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "gitops",
+    "infrastructure as code",
+    "devops",
+    "click-ops",
+    "drift reconciliation",
+    "declarative configuration",
+    "git repository",
+    "pull-based deployment",
+    "azure",
+    "automation",
+    "kubernetes",
+    "argo cd"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and housekeeping",
+      "t_start": 0,
+      "t_end": 164
+    },
+    {
+      "title": "Speaker introductions and agenda",
+      "t_start": 164,
+      "t_end": 280.4
+    },
+    {
+      "title": "The problems with click-ops",
+      "t_start": 280.4,
+      "t_end": 437.1
+    },
+    {
+      "title": "Infrastructure as code and its limitations",
+      "t_start": 437.1,
+      "t_end": 620.2
+    },
+    {
+      "title": "GitOps core concepts and principles",
+      "t_start": 620.2,
+      "t_end": 747.5
+    },
+    {
+      "title": "GitOps workflow and implementation",
+      "t_start": 747.5,
+      "t_end": 832.7
+    },
+    {
+      "title": "Drift reconciliation and tools overview",
+      "t_start": 832.7,
+      "t_end": 1040.3
+    },
+    {
+      "title": "Architecture and GitOps demo setup",
+      "t_start": 1040.3,
+      "t_end": 1235.2
+    },
+    {
+      "title": "Creating, modifying and reverting infrastructure changes",
+      "t_start": 1235.2,
+      "t_end": 1507.3
+    },
+    {
+      "title": "Drift detection workflow and real-world implementation",
+      "t_start": 1507.3,
+      "t_end": 1713.2
+    },
+    {
+      "title": "Infrastructure, applications, and configurations as code",
+      "t_start": 1713.2,
+      "t_end": 1900
+    },
+    {
+      "title": "When to use GitOps and implementation best practices",
+      "t_start": 1900,
+      "t_end": 2044
+    },
+    {
+      "title": "Benefits of GitOps and Q&A on adoption",
+      "t_start": 2044,
+      "t_end": 2241.3
+    },
+    {
+      "title": "Closing remarks and channel information",
+      "t_start": 2241.3,
+      "t_end": 2356
+    }
+  ],
+  "features": [
+    {
+      "name": "GitOps declarative approach",
+      "description": "GitOps uses declarative configuration to describe desired state rather than imperative commands, enabling Git as single source of truth with security and compliance checks at PR level.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 620.2,
+      "t_end": 676.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "declarative",
+        "git",
+        "configuration management"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitOps pull-based reconciliation",
+      "description": "GitOps engine uses pull-based approach to automatically ensure infrastructure matches desired state defined in Git repository, automatically detecting and resolving drift.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 676.2,
+      "t_end": 747.5,
+      "is_demoed": false,
+      "caveats": [
+        "requires continuous monitoring",
+        "cannot resolve destructive changes"
+      ],
+      "tags": [
+        "pull-based",
+        "reconciliation",
+        "drift",
+        "automation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitOps drift detection and remediation",
+      "description": "GitOps automatically detects when actual infrastructure state diverges from desired state in Git and applies changes to restore alignment, with monitoring and notifications for non-remediable drift.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 707,
+      "t_end": 918.3,
+      "is_demoed": true,
+      "caveats": [
+        "cannot handle destructive changes",
+        "requires monitoring setup"
+      ],
+      "tags": [
+        "drift",
+        "reconciliation",
+        "monitoring"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Infrastructure as Code with versioning",
+      "description": "Infrastructure as Code enables defining infrastructure in versioned code files, allowing git history tracking, pull requests with change explanations, and reproducible deployments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 451.5,
+      "t_end": 564.5,
+      "is_demoed": false,
+      "caveats": [
+        "vulnerable to manual drift",
+        "only push-driven updates",
+        "limited traceability"
+      ],
+      "tags": [
+        "infrastructure as code",
+        "versioning",
+        "git"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitOps workflow",
+      "description": "A software development workflow where infrastructure definitions are stored in a Git repository, pulled by a GitOps tool, and automatically synchronized to match the desired state without manual intervention.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 787.9,
+      "t_end": 844.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "infrastructure management",
+        "version control",
+        "automation",
+        "deployment"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Argo CD",
+      "description": "A GitOps tool that pulls changes from a Git repository and synchronizes them to a Kubernetes cluster, monitoring the cluster to ensure reality matches the defined state.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1025.6,
+      "t_end": 1090.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "deployment",
+        "kubernetes",
+        "synchronization",
+        "cicd"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Crossplane",
+      "description": "An infrastructure as code tool that is Kubernetes native and GitOps friendly, allowing deployment of cloud resources and dependent resources in a Kubernetes cluster.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 984.8,
+      "t_end": 1013.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "infrastructure as code",
+        "kubernetes",
+        "cloud deployment",
+        "resource management"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Kubernetes container orchestration",
+      "description": "A de facto standard orchestration engine for container workloads that manages containers with dependencies and is used by major tech companies and cloud services.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 934,
+      "t_end": 972.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "container orchestration",
+        "cloud infrastructure",
+        "scalability"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Pull request and feature branch workflow",
+      "description": "A software development process where changes are made on feature branches, reviewed via pull requests, and merged to the main branch, enabling collaborative development with verification and approval steps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1235.2,
+      "t_end": 1298.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "git workflow",
+        "collaboration",
+        "code review",
+        "version control"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Auto-sync capability",
+      "description": "An Argo CD feature that automatically synchronizes changes from the Git repository to the Kubernetes cluster without requiring manual intervention.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1384.4,
+      "t_end": 1397.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "automation",
+        "synchronization",
+        "deployment"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Git revert for change rollback",
+      "description": "A Git feature that allows reverting accidental changes by reversing specific commits, enabling simple undo functionality for infrastructure changes managed through GitOps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1468.4,
+      "t_end": 1494.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "version control",
+        "rollback",
+        "git"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Resource pruning with safety check",
+      "description": "An Argo CD feature that allows deletion of resources defined in Git, with an optional security mechanism requiring explicit checkbox confirmation before resource removal.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1568,
+      "t_end": 1606,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "resource management",
+        "security",
+        "deletion",
+        "argo cd",
+        "crossplane",
+        "synchronization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Git audit history for infrastructure changes",
+      "description": "Complete audit trail stored in Git repositories showing all infrastructure changes, including additions, modifications, reversions, and deletions with commit history.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1606,
+      "t_end": 1631.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "audit",
+        "git history",
+        "compliance",
+        "traceability"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Multi-cluster GitOps management",
+      "description": "GitOps approach to manage multiple Kubernetes clusters with similar configurations across test, customer, and internal environments using pull requests and Argo CD for progressing changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1643.8,
+      "t_end": 1701.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires similar cluster configurations with small differences"
+      ],
+      "tags": [
+        "multi-cluster",
+        "kubernetes",
+        "argo cd",
+        "pull requests"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Infrastructure as YAML in Git",
+      "description": "Azure Kubernetes Service clusters defined as YAML configuration in Git, including location, Kubernetes version, node pools, number of nodes, and node sizes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1713.2,
+      "t_end": 1725.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "infrastructure as code",
+        "yaml",
+        "aks",
+        "azure"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Application versioning and configuration in Git",
+      "description": "Applications running on Kubernetes clusters stored in Git with versions and environment-specific configurations, such as replica counts for test vs production clusters.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1736.4,
+      "t_end": 1760.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "applications",
+        "versioning",
+        "configuration",
+        "replicas"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Encrypted secrets in Git repositories",
+      "description": "Business Central development licenses and other secrets encrypted within Git repositories, automatically decrypted by Argo CD during synchronization for use by containers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1782,
+      "t_end": 1803.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires encryption mechanism for secrets"
+      ],
+      "tags": [
+        "secrets",
+        "encryption",
+        "business central",
+        "security"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Automated API version updates via pull requests",
+      "description": "Automated build service creates pull requests in GitOps repositories proposing version updates for APIs, requiring only approval from developers for rollout via Argo CD synchronization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1819.2,
+      "t_end": 1846.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "automation",
+        "pull requests",
+        "api updates",
+        "deployment"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "GitOps for infrastructure change reviews",
+      "description": "Manual pull request workflow for larger infrastructure changes like adding node pools or changing VM sizes, with colleague reviews and automated checks to prevent accidental breaking changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1874.1,
+      "t_end": 1900,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pull requests",
+        "reviews",
+        "checks",
+        "infrastructure changes"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitOps for cloud-native scenarios",
+      "description": "GitOps recommended for cloud-native scenarios including Kubernetes clusters and all applications, networking, and storage running on top of them.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1900,
+      "t_end": 1918.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "cloud-native",
+        "kubernetes",
+        "best practices"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitOps for similar multi-environment management",
+      "description": "GitOps useful for managing multiple similar environments like test, production, and staging that require mostly the same configuration with only small differences.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1933.6,
+      "t_end": 1961.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "multi-environment",
+        "staging",
+        "configuration management"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitOps implementation considerations",
+      "description": "Recommendations to research GitOps tools, repository structure decisions, access control, and definition structure before implementation. Start with small pilot projects and minimal structure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1961.9,
+      "t_end": 2122,
+      "is_demoed": false,
+      "caveats": [
+        "Requires time for proper setup that works with existing processes"
+      ],
+      "tags": [
+        "implementation",
+        "best practices",
+        "planning"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Self-healing infrastructure with drift detection",
+      "description": "GitOps tools like Argo CD with Crossplane detect drift between Git state and actual infrastructure state, automatically reconciling differences for self-healing capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2054.4,
+      "t_end": 2085.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "self-healing",
+        "drift detection",
+        "argo cd",
+        "crossplane"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Git-based infrastructure workflow using Copilot",
+      "description": "Use Git-based workflows to manage infrastructure like software, with Copilot integration to write infrastructure definitions and Code Review tools for review.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2085.8,
+      "t_end": 2110.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "git-based",
+        "code review",
+        "infrastructure"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Cosmo Alpaca",
+      "description": "A toolset for Business Central that runs on Azure Kubernetes Service, hosting BC containers and C# APIs across multiple clusters with GitOps-based configuration management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1643.8,
+      "t_end": 1673.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "business central",
+        "kubernetes",
+        "containers",
+        "deployment"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "storage account",
+      "t": 1001
+    },
+    {
+      "type": "other",
+      "name": "container",
+      "t": 1025.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Tina Starič",
+      "confidence": "high"
+    },
+    {
+      "name": "Marcus Littebrant",
+      "confidence": "high"
+    },
+    {
+      "name": "Tobias Fenster",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 280.4,
+      "text": "do you still do click ops or are you already using something like infrastructure as code?",
+      "why_it_matters": "Opens the discussion by asking whether organizations are still using manual portal-based operations versus automated approaches.",
+      "check": "exact"
+    },
+    {
+      "t": 372.1,
+      "text": "we don't have any versioning. So, if you decide at one point, okay, in the past we used to we used this template for",
+      "why_it_matters": "Illustrates key limitation of manual click-ops - inability to track and manage template versions across infrastructure deployments.",
+      "check": "exact"
+    },
+    {
+      "t": 492.8,
+      "text": "of that definition because we can check that code into our git repository like we do with",
+      "why_it_matters": "Shows how Infrastructure as Code addresses the versioning problem by leveraging Git for tracking infrastructure definition changes.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 525.8,
+      "text": "That's what we will refer to as drift for the rest of the of the presentation, where it basically could happen. I have automatically",
+      "why_it_matters": "Defines drift - the critical problem where actual state diverges from desired state due to manual changes outside of code-based management.",
+      "check": "exact"
+    },
+    {
+      "t": 633.6,
+      "text": "GitOps is always declarative, so you describe what you want, not how you get there",
+      "why_it_matters": "Establishes the fundamental principle of GitOps - focusing on desired state rather than implementation steps.",
+      "check": "exact"
+    },
+    {
+      "t": 676.2,
+      "text": "it's also pull based so it's not the typical infrastructure as code push based approach where you tell the cloud what to do",
+      "why_it_matters": "Explains the key difference between GitOps and traditional Infrastructure as Code - continuous automatic synchronization versus manual push deployments.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 719.8,
+      "text": "it would automatically figure out okay that's the state that my resource in it is in the definition is something",
+      "why_it_matters": "Shows how GitOps solves the drift problem through automatic detection and remediation without manual intervention.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 787.9,
+      "text": "you would, in a GitOps scenario, have the definition of your resource, for example, it could be a VM including their network security setup",
+      "why_it_matters": "Defines the core concept of GitOps - storing infrastructure definitions in version control",
+      "check": "exact"
+    },
+    {
+      "t": 844.9,
+      "text": "Commit and push, it's pulled and then reality is made to match the definition without you having to interfere or interact with the system",
+      "why_it_matters": "Explains the key benefit of GitOps - automatic synchronization without manual intervention",
+      "check": "exact"
+    },
+    {
+      "t": 890.4,
+      "text": "the GitOps tool would realize, Okay, that port should not be open. Um I have that blocked. Now it is open, so I now",
+      "why_it_matters": "Demonstrates how drift detection works to automatically correct unauthorized changes",
+      "check": "exact"
+    },
+    {
+      "t": 934,
+      "text": "Kubernetes, which by now is the de facto standard orchestration engine for container workloads",
+      "why_it_matters": "Establishes Kubernetes as the industry standard platform for this GitOps implementation",
+      "check": "exact"
+    },
+    {
+      "t": 984.8,
+      "text": "which is kubernetes native and a gitops friendly way how to deploy your cloud resources",
+      "why_it_matters": "Introduces Crossplane as the infrastructure-as-code component enabling cloud resource deployment",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1025.6,
+      "text": "we use Argo CD, invented by Applatix, and by now also part of the CNCF",
+      "why_it_matters": "Identifies Argo CD as the GitOps orchestration tool, now part of Cloud Native Computing Foundation",
+      "check": "exact"
+    },
+    {
+      "t": 1134.9,
+      "text": "An application in Argo CD is basically a connection between a Git repository and the cluster. And this is then making sure that all",
+      "why_it_matters": "Explains the core mechanism of how Argo CD maintains synchronization between Git and infrastructure",
+      "check": "exact"
+    },
+    {
+      "t": 1595.5,
+      "text": "check box in here and click synchronize and now argo cd and crossplane together will remove that",
+      "why_it_matters": "Demonstrates the safety mechanism requiring explicit approval to delete resources from infrastructure, preventing accidental removals.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1673.2,
+      "text": "it's really really great to have GitOps because we can just merge changes through those clusters in a very similar in a very simple",
+      "why_it_matters": "Shows the primary benefit of GitOps for multi-cluster management: simplified change propagation across environments using standard Git workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 1725.6,
+      "text": "All of that is stored stored definition in here and can be changed through that",
+      "why_it_matters": "Confirms that complete cluster infrastructure configuration is version-controlled and changeable through Git, enabling reproducible deployments.",
+      "check": "exact"
+    },
+    {
+      "t": 1793.4,
+      "text": "you would for example have the development licenses stored in a git repository repository as well so you can have them encrypted",
+      "why_it_matters": "Explains how sensitive data like Business Central licenses can be securely stored in Git with automatic decryption during deployment.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1819.2,
+      "text": "we have a automated build service that then automatically creates pull requests in each of our gitops repositories",
+      "why_it_matters": "Demonstrates full automation of deployment process: version updates trigger PRs requiring only human approval for rollout via Argo CD.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2054.4,
+      "text": "GitOps tools like Argo CD really help you to help you to match the the state that is stored in Git with the reality.",
+      "why_it_matters": "Summarizes core GitOps value proposition: continuous alignment between desired Git state and actual infrastructure state through Argo CD and Crossplane.",
+      "check": "exact"
+    },
+    {
+      "t": 2156.1,
+      "text": "4 years, something like that. 4 or 5 years, I also would say. So, before that, we were also using infrastructure as code, and",
+      "why_it_matters": "Establishes the maturity of GitOps adoption in production at Cosmo and 4PS, following evolution from traditional infrastructure-as-code approaches.",
+      "check": "exact"
+    },
+    {
+      "t": 2213.8,
+      "text": "it might seem if you don't know that was it now having followed us for 45 minutes talking about it, it's an additional complication,",
+      "why_it_matters": "Addresses the perception that GitOps is complex, reframing it as a simplification once mastered, particularly for multi-cluster scenarios.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 22,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 25
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

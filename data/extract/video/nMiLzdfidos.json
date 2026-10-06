@@ -1,0 +1,859 @@
+{
+  "video_id": "nMiLzdfidos",
+  "item_id": "video/yt-microsoft/nMiLzdfidos",
+  "title": "What's New: AL Language (2026 release wave 1)",
+  "duration_s": 2102,
+  "systems": [
+    "development",
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "json support",
+    "data transfer",
+    "namespaces",
+    "fully qualified names",
+    "symbol downloads",
+    "workspace compilation",
+    "parallel builds",
+    "al tools",
+    "testing",
+    "dependency graphs",
+    "al-go",
+    "runtime specification"
+  ],
+  "chapters": [
+    {
+      "title": "JSON support and data transfer enhancements",
+      "t_start": 0,
+      "t_end": 118.8
+    },
+    {
+      "title": "Analysis views in extensions and namespace introduction",
+      "t_start": 118.8,
+      "t_end": 143.2
+    },
+    {
+      "title": "Namespace adoption and fully qualified names",
+      "t_start": 143.2,
+      "t_end": 328.4
+    },
+    {
+      "title": "Download symbols from global sources",
+      "t_start": 328.4,
+      "t_end": 453.7
+    },
+    {
+      "title": "Test execution in AL extension",
+      "t_start": 453.7,
+      "t_end": 476
+    },
+    {
+      "title": "Workspace compilation and AL tools",
+      "t_start": 476,
+      "t_end": 607.5
+    },
+    {
+      "title": "Parallel workspace compilation and dependency graphs",
+      "t_start": 607.5,
+      "t_end": 753.5
+    },
+    {
+      "title": "Simple only detection and runtime specification",
+      "t_start": 753.5,
+      "t_end": 890.5
+    },
+    {
+      "title": "Parallel compilation and workspace compile performance",
+      "t_start": 890.5,
+      "t_end": 934.7
+    },
+    {
+      "title": "AL Go integration and hardware utilization",
+      "t_start": 934.7,
+      "t_end": 1034.5
+    },
+    {
+      "title": "AI-assisted development mindset shift",
+      "t_start": 1034.5,
+      "t_end": 1200.4
+    },
+    {
+      "title": "AL tools in Visual Studio Code and GitHub Copilot",
+      "t_start": 1200.4,
+      "t_end": 1352.9
+    },
+    {
+      "title": "AL MCP server for agents outside VS Code",
+      "t_start": 1352.9,
+      "t_end": 1571.3
+    },
+    {
+      "title": "AI-powered troubleshooting and debugging",
+      "t_start": 1571.3,
+      "t_end": 2102
+    }
+  ],
+  "features": [
+    {
+      "name": "Multiple token selection in JSON",
+      "description": "The select token method now allows selecting multiple tokens in a single operation. Users can select a number of origins into a result list and work with arrays and complex JSON objects.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 36.5,
+      "t_end": 51.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "json",
+        "selection",
+        "tokens"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Add destination table filter method",
+      "description": "A new method on data transfer object that allows filtering what you want to update in a data transfer. Enables targeted updates to specific rows based on conditions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 63.7,
+      "t_end": 88.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "data transfer",
+        "filtering",
+        "updates"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Update audit fields in cloud for data transfer",
+      "description": "The update audit fields method is now available in cloud environments. Users can control whether system modified and other audit fields will be updated as part of the data transfer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 99,
+      "t_end": 118.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "data transfer",
+        "audit fields",
+        "cloud"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Analysis views in extensions",
+      "description": "Developers can now define and include analysis views in their extensions. Analysis views can be shipped with pages and applications.",
+      "status": "ga",
+      "status_evidence_t": 118.8,
+      "status_evidence_quote": "the ability to define and include analysis views in your extension. You can now ship analysis views with your pages",
+      "status_evidence_verified": true,
+      "t_start": 118.8,
+      "t_end": 131.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "analysis views",
+        "extensions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Three-tier namespace resolution strategy",
+      "description": "Automated namespace adoption uses a three-tier resolution strategy: namespace template in settings.json, sibling file inference using longest common prefix, or fallback to publisher.projectname. Simplifies adding namespaces to existing codebases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 181.8,
+      "t_end": 258.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "namespaces",
+        "code actions",
+        "automation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Fully qualified names for object resolution",
+      "description": "Extended object metadata model to carry namespace information for name-based object resolution at runtime. Supports running codeunits, pages and reports using fully qualified name string literals. Supports recordref.open with fully qualified table names and exposes fully qualified name property on records.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 270.2,
+      "t_end": 315.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "namespaces",
+        "fully qualified names",
+        "object resolution"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Download symbols from global sources",
+      "description": "New command to download symbol packages directly from Microsoft public NuGet feeds without authentication or environment setup. Resolves platform, application and dependency packages including second-level dependencies automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 373.4,
+      "t_end": 416.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires internet connection",
+        "Only symbols packages available from public feeds"
+      ],
+      "tags": [
+        "symbols",
+        "nuget",
+        "development setup"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Custom NuGet feeds for symbols",
+      "description": "Users can specify their own NuGet feeds using AL.NuGetFeeds setting for downloading symbols from custom sources. Custom feeds take priority over Microsoft feeds, and can be configured to completely disable Microsoft feeds using use only custom feeds setting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 430.4,
+      "t_end": 453.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "symbols",
+        "nuget",
+        "custom feeds"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test execution in AL extension",
+      "description": "Test execution is now built into the AL language extension, allowing users to run tests directly from Visual Studio Code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 464,
+      "t_end": 476,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "visual studio code"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL workspace create command",
+      "description": "New command to create workspace files automatically by scanning for app.json files in a directory and its subdirectories. Enables efficient multi-project builds.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 582.8,
+      "t_end": 607.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "workspace",
+        "al tools",
+        "multi-project"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Workspace map command",
+      "description": "Command that visualizes workspace contents by creating a markdown file using mermaid diagrams to show project dependencies and structure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 629.5,
+      "t_end": 656.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "workspace",
+        "visualization",
+        "dependencies"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Workspace compile with parallel builds",
+      "description": "New workspace compile tool that computes the most efficient compilation graph from workspace dependencies and executes parallel compilation. Can compile multiple projects simultaneously based on dependency analysis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 679.1,
+      "t_end": 753.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "workspace",
+        "compilation",
+        "parallel builds",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Simple only detection command",
+      "description": "Command to determine whether an app.json file is a simple only app or contains full application content. Used in AL Go for GitHub pipelines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 753.5,
+      "t_end": 784.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "simple only",
+        "app types",
+        "al go"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Runtime specification in directory app.props.json",
+      "description": "New capability to specify runtime version in the directory app.props.json file, which gets added to the manifest. Allows centralized runtime configuration for multi-project workspaces.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 808.9,
+      "t_end": 834.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "runtime",
+        "configuration",
+        "workspace"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Parallel workspace compilation",
+      "description": "Workspace compile now supports parallel processing with configurable process counts, reducing compilation time from 50 minutes with one process to 26 minutes with four processes on GitHub runners, achieving 75% reduction.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 834.4,
+      "t_end": 890.5,
+      "is_demoed": true,
+      "caveats": [
+        "Comparison shows differences between workspace compile and AL Go due to orchestration differences with BC container helper"
+      ],
+      "tags": [
+        "compilation",
+        "performance",
+        "parallel-processing"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL Go hardware utilization",
+      "description": "AL Go users will get parallel compilation benefits for free when using AL Go for GitHub, improving pipeline performance without additional configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 910.8,
+      "t_end": 923.6,
+      "is_demoed": false,
+      "caveats": [
+        "Feature available to existing AL Go users automatically"
+      ],
+      "tags": [
+        "al-go",
+        "github",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AI-assisted code generation with AL constraints",
+      "description": "AI developers treat generated code as a draft to be reviewed and refined, using AL as a constraint layer to ensure correctness, security, and maintainability while generating code through agents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1034.5,
+      "t_end": 1092.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ai-coding",
+        "constraints",
+        "code-generation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Iterative prototyping with AI",
+      "description": "Developers can build prototypes within a day rather than a week using AI assistance, enabling rapid hypothesis testing, learning, and iterative refinement with proper architecture and testing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1068.3,
+      "t_end": 1092.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "prototyping",
+        "iterative-development",
+        "ai-assistance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI agent feedback loop with success criteria",
+      "description": "Agents can iterate on solutions and recover from failures automatically when given a task definition and success criteria such as passing AL tests, enabling autonomous achievement of development goals.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1109.2,
+      "t_end": 1137.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "feedback-loop",
+        "agents",
+        "success-criteria"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AL tools for GitHub Copilot in VS Code",
+      "description": "New AL-specific tools integrated into GitHub Copilot in Visual Studio Code allowing agents to build, debug, fix diagnostics and solve complex problems using AL language capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1200.4,
+      "t_end": 1338.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires VS Code and GitHub Copilot"
+      ],
+      "tags": [
+        "al-tools",
+        "github-copilot",
+        "vs-code",
+        "agentic-development"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Automatic diagnostic fixing with Copilot",
+      "description": "GitHub Copilot agent can identify and fix AL diagnostics automatically, including refactoring code for obsoleted dependency symbols and rebuilding the project.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1257.1,
+      "t_end": 1321.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "diagnostics",
+        "refactoring",
+        "automation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AL MCP server for non-VS Code agents",
+      "description": "New AL Model Context Protocol server enabling agents like Claude and Codex to work with AL code outside VS Code, with AL-specific tools supporting compilation, diagnostics, and fixing scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1352.9,
+      "t_end": 1456.4,
+      "is_demoed": true,
+      "caveats": [
+        "Currently in pre-release; will move to standard release version",
+        "Tools not identical to VS Code version but support most scenarios"
+      ],
+      "tags": [
+        "mcp-server",
+        "al-tools",
+        "agents",
+        "claude"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Automated agentic pipelines with AL MCP",
+      "description": "AL MCP enables completely automated agentic pipelines for extension maintenance, including compilation, diagnostic checking, fixing, test creation, and pull request generation without human intervention.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1471.1,
+      "t_end": 1550.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires AL MCP server and agent configuration"
+      ],
+      "tags": [
+        "agentic-pipelines",
+        "automation",
+        "maintenance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Business Central troubleshooting MCP server",
+      "description": "New MCP server that exposes the debug runtime to GitHub Copilot, allowing AI to analyze execution context, stack frames, and variables during debugging sessions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1961,
+      "t_end": 2043,
+      "is_demoed": true,
+      "caveats": [
+        "Requires breakpoint to be set",
+        "Runs in NST environment"
+      ],
+      "tags": [
+        "mcp server",
+        "troubleshooting",
+        "copilot integration",
+        "debugging"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot-assisted error debugging",
+      "description": "Copilot can analyze code execution at a breakpoint, inspect stack frames and variables, identify root causes of errors, and suggest fixes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1676.4,
+      "t_end": 1790.6,
+      "is_demoed": true,
+      "caveats": [
+        "Works at breakpoint only",
+        "Requires MCP server attachment"
+      ],
+      "tags": [
+        "error debugging",
+        "ai analysis",
+        "root cause identification"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot performance profiling without profiler",
+      "description": "Copilot can analyze performance problems using the troubleshooting MCP server without requiring a dedicated performance profiling session, identifying issues like CalcFields in loops.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1826.4,
+      "t_end": 1945.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires code to be at breakpoint"
+      ],
+      "tags": [
+        "performance analysis",
+        "optimization",
+        "ai suggestions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Stack frame inspection via Copilot",
+      "description": "Copilot can fetch and inspect specific stack frames, retrieve variables across all stack frames or given frames, and access relevant AL source code for a frame.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1975.6,
+      "t_end": 2043,
+      "is_demoed": false,
+      "caveats": [
+        "Only available at breakpoint"
+      ],
+      "tags": [
+        "stack frames",
+        "variable inspection",
+        "source code access"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot-driven breakpoint control",
+      "description": "Copilot can add breakpoints by object name or ID and type plus line number, enabling guided debugging sessions without manual UI interaction.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2028.7,
+      "t_end": 2043,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "breakpoints",
+        "automated debugging",
+        "guided sessions"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "select token method",
+      "t": 36.5
+    },
+    {
+      "type": "other",
+      "name": "add destination table filter method",
+      "t": 63.7
+    },
+    {
+      "type": "other",
+      "name": "update audit fields method",
+      "t": 99
+    },
+    {
+      "type": "other",
+      "name": "recordref.open",
+      "t": 297.7
+    },
+    {
+      "type": "other",
+      "name": "AL workspace create",
+      "t": 582.8
+    },
+    {
+      "type": "other",
+      "name": "workspace map",
+      "t": 629.5
+    },
+    {
+      "type": "other",
+      "name": "workspace compile",
+      "t": 679.1
+    },
+    {
+      "type": "other",
+      "name": "is simple only",
+      "t": 753.5
+    },
+    {
+      "type": "table",
+      "name": "item table",
+      "t": 1639.3
+    },
+    {
+      "type": "codeunit",
+      "name": "code unit",
+      "t": 1837.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Stefan",
+      "confidence": "high"
+    },
+    {
+      "name": "Balazs",
+      "confidence": "high"
+    },
+    {
+      "name": "Espen",
+      "confidence": "high"
+    },
+    {
+      "name": "Arthur",
+      "confidence": "high"
+    },
+    {
+      "name": "Blanca",
+      "confidence": "medium"
+    },
+    {
+      "name": "Kelman",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 36.5,
+      "text": "We've now added the ability for you to select multiple tokens in the select token method.",
+      "why_it_matters": "Indicates a core enhancement to JSON support that makes working with complex JSON structures more efficient in AL.",
+      "check": "exact"
+    },
+    {
+      "t": 63.7,
+      "text": "the data transfer object has now a new method called add destination table filter. With this method, you can now filter what you want",
+      "why_it_matters": "Shows new capability for precise control over data transfer operations with selective targeting of rows.",
+      "check": "exact"
+    },
+    {
+      "t": 167.8,
+      "text": "we have made the code action for adding namespaces automatically even smarter. It now uses a three-tier resolution strategy.",
+      "why_it_matters": "Demonstrates significant productivity improvement for namespace adoption in existing codebases through intelligent automation.",
+      "check": "exact"
+    },
+    {
+      "t": 373.4,
+      "text": "Let's jump straight into it by running the download symbols from global sources command. After specifying the localization, in a matter of seconds, it",
+      "why_it_matters": "Removes friction from AL development setup by eliminating need for environment configuration to get symbols.",
+      "check": "exact"
+    },
+    {
+      "t": 823,
+      "text": "the props file to also specify the runtime and you can see here it correctly added the runtime 16 to the manifest.",
+      "why_it_matters": "Shows new configuration capability for runtime specification in properties files rather than only manifest.",
+      "check": "exact"
+    },
+    {
+      "t": 861,
+      "text": "if I use four, which is the maximum that you can use in a GitHub runner, standard GitHub runner, it gets down to 26",
+      "why_it_matters": "Quantifies significant performance improvement from workspace compilation with parallel builds for large BC applications.",
+      "check": "exact"
+    },
+    {
+      "t": 934.7,
+      "text": "I would say it is about the changing mindset. So, what I do nowadays is I I simply spend less time writing low-level syntax",
+      "why_it_matters": "Describes fundamental shift in developer workflow when using AI assistance for AL coding.",
+      "check": "exact"
+    },
+    {
+      "t": 1034.5,
+      "text": "suddenly becomes more important we can think of ai as an as an intern it's super productive but if you don't give it",
+      "why_it_matters": "Explains the relationship between AL language and AI in the context of code generation and constraint enforcement.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1109.2,
+      "text": "Once I define the task for the agent and specify the success criteria, and that could be for example AL test, the agent can",
+      "why_it_matters": "Illustrates autonomous agent capabilities when given clear objectives and measurable success criteria.",
+      "check": "exact"
+    },
+    {
+      "t": 1243.2,
+      "text": "the AL extension already provides some AL tools just out of the box. So, now the agent can build, debug, and do many other",
+      "why_it_matters": "Announces availability of built-in AL tools for Copilot integration in VS Code.",
+      "check": "exact"
+    },
+    {
+      "t": 1424.1,
+      "text": "this is only available on the pre-release version. Um at the point of when you see this video, the ALM CP will be available",
+      "why_it_matters": "Clarifies the current status and roadmap for AL MCP server availability across release tracks.",
+      "check": "exact"
+    },
+    {
+      "t": 1710.7,
+      "text": "Copilot has attached to the session running the code, and on that session, it's using the Business Central troubleshooting MCP server to get stack",
+      "why_it_matters": "Explains the technical architecture of how Copilot accesses debugging information through the MCP server.",
+      "check": "exact"
+    },
+    {
+      "t": 1802.1,
+      "text": "I had a bug. I couldn't see it by reading the code. I attached the debugger, typed one sentence, and waited a little bit,",
+      "why_it_matters": "Demonstrates the practical benefit of AI-assisted debugging for finding issues invisible to code review.",
+      "check": "exact"
+    },
+    {
+      "t": 1961,
+      "text": "we have a completely new MCP server for Business Central troubleshooting server, which runs in an NST. And what it does, it exposes the",
+      "why_it_matters": "Announces the new MCP server as a generally available feature enabling AI debugging capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 1975.6,
+      "text": "at a breakpoint, Copilot can inspect the full call stack. You can uh you can prompt, Give me the stack at frame zero.",
+      "why_it_matters": "Specifies the core capability for stack frame inspection during debugging sessions.",
+      "check": "exact"
+    },
+    {
+      "t": 2001.4,
+      "text": "It can read variables across all stack frames or given stack frame. You can prompt, Give me all variables at frame one or frame",
+      "why_it_matters": "Details the variable inspection capability across different execution contexts.",
+      "check": "exact"
+    },
+    {
+      "t": 2028.7,
+      "text": "you can add breakpoints by object name or ID and type, plus a line number, which is very helpful if you want Copilot to",
+      "why_it_matters": "Explains how Copilot can autonomously manage breakpoints for guided debugging workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 2043,
+      "text": "ask Copilot a single question, it analyzes the entire execution context, it identifies the root cause, and helps you move forward without touching the",
+      "why_it_matters": "Summarizes the high-level value proposition of the troubleshooting feature: hands-free debugging analysis.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 1424.1,
+      "kind": "preview",
+      "text": "AL MCP is only available on the pre-release version at the point of recording"
+    },
+    {
+      "t": 2068.3,
+      "kind": "coming-later",
+      "text": "try out the pre-release for any upcoming changes and addition to the developer experience"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 18,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 27
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

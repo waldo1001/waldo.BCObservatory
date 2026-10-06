@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-routings",
   "published_at": "2026-06-03T09:37:54.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "17cac81ed68686f96be9cb592d0fcc67a19c82ad",
       "words": 2229,
       "forms": 19
+    },
+    "extracted": {
+      "at": "2026-10-06T18:08:34.584Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.00773
+    },
+    "summarized": {
+      "at": "2026-10-06T18:08:36.224Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:08:36.225Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:08:36.225Z",
+      "page": false
     }
   },
   "input_hash": "17cac81ed68686f96be9cb592d0fcc67a19c82ad",
@@ -131,5 +150,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "17cac81ed68686f96be9cb592d0fcc67a19c82ad"
+  "output_hash": "10aa0ad17d6d2cba72278146b5b9432fb9d0d7cb6deee3b4474a594dd9772439"
 }

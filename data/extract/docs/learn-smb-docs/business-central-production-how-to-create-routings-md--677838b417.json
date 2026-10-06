@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-to-create-routings.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-routings",
+  "title": "Create routings",
+  "blob": "17cac81ed68686f96be9cb592d0fcc67a19c82ad",
+  "summary": "Create and manage manufacturing routings that define production processes, operation sequences, and capacity requirements for produced items with support for serial and parallel operations.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "routings",
+    "production processes",
+    "operations",
+    "work centers",
+    "parallel operations",
+    "scheduling"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Routings"
+    },
+    {
+      "type": "page",
+      "name": "Prod. Order Routing"
+    },
+    {
+      "type": "page",
+      "name": "Routing Versions"
+    },
+    {
+      "type": "page",
+      "name": "Routing Personnel"
+    },
+    {
+      "type": "page",
+      "name": "Production Journal"
+    }
+  ],
+  "features": [
+    "operation setup",
+    "run time",
+    "setup time",
+    "routing link codes",
+    "parallel operations",
+    "send-ahead quantity",
+    "scrap factors",
+    "personnel assignment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00773,
+      "pages_in_call": 8
+    }
+  ]
+}

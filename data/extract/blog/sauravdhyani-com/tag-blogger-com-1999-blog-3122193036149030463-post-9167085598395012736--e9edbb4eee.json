@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9167085598395012736",
+  "url": "https://www.sauravdhyani.com/2026/09/business-central-tooltip-and-tooltipml.html",
+  "title": "Business Central ToolTip and ToolTipML Properties Are Now Available on Pages",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-10-06T05:30:00.000Z",
+  "words": 1014,
+  "summary": "Business Central now supports ToolTip and ToolTipML properties directly on page objects, allowing navigation actions to inherit tooltips from their target pages rather than requiring duplicate tooltip definitions on each action.",
+  "key_points": [
+    "ToolTip and ToolTipML can now be defined at the page object level in AL code",
+    "Navigation actions using RunObject automatically inherit the tooltip from the target page if they don't specify their own",
+    "This reduces duplicated tooltip text and improves consistency across multiple navigation paths to the same page",
+    "Action-level tooltips can still override page-level tooltips when specific descriptions are needed",
+    "This behavior mirrors the existing tooltip inheritance pattern already available for reports"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "al development",
+    "page properties",
+    "tooltips",
+    "localization",
+    "code patterns"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "MyPage"
+    }
+  ],
+  "features": [
+    "ToolTip property on pages",
+    "ToolTipML property on pages",
+    "Tooltip inheritance in navigation actions",
+    "Multilingual tooltip support",
+    "Page-level metadata"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006228,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Business Central now allows developers to define the ToolTip and ToolTipML properties directly on page objects.",
+      "why_it_matters": "This is the core feature change that enables cleaner, more maintainable tooltip handling in Business Central applications."
+    },
+    {
+      "text": "This follows the existing behavior used for reports and provides a more consistent approach to tooltip handling across Business Central objects.",
+      "why_it_matters": "It clarifies that this brings pages into alignment with existing report behavior, improving developer experience consistency."
+    }
+  ]
+}

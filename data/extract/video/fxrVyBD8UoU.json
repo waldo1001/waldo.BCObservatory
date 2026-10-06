@@ -1,0 +1,237 @@
+{
+  "video_id": "fxrVyBD8UoU",
+  "item_id": "video/yt-microsoft/fxrVyBD8UoU",
+  "title": "What's New: Enhanced Financial Analytics (2026 release wave 1)",
+  "duration_s": 608,
+  "systems": [
+    "finance",
+    "reporting",
+    "copilot"
+  ],
+  "topics": [
+    "financial analytics",
+    "excel layouts",
+    "deferral reports",
+    "trial balance",
+    "subtotals",
+    "performance tuning",
+    "analysis views",
+    "copilot assistance",
+    "demo data",
+    "fixed assets"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Enhanced Finance Analytics",
+      "t_start": 0,
+      "t_end": 43.7
+    },
+    {
+      "title": "Deferral Reports with Subtotals",
+      "t_start": 43.7,
+      "t_end": 81.4
+    },
+    {
+      "title": "Performance-Tuned Trial Balance Reports",
+      "t_start": 81.4,
+      "t_end": 151.5
+    },
+    {
+      "title": "Analysis Views and Copilot Assistance",
+      "t_start": 151.5,
+      "t_end": 214.9
+    },
+    {
+      "title": "Enhanced Financial Reporting and Demo Data",
+      "t_start": 214.9,
+      "t_end": 262.6
+    },
+    {
+      "title": "Resources and Related Sessions",
+      "t_start": 262.6,
+      "t_end": 360.3
+    },
+    {
+      "title": "General Business Central Resources",
+      "t_start": 360.3,
+      "t_end": 608
+    }
+  ],
+  "features": [
+    {
+      "name": "Deferral Reports with Subtotals",
+      "description": "Excel layout deferral reports for GL, purchase, and sales now include subtotals. Previously released in fall 2025 without subtotals, now shipped out of the box with subtotals included.",
+      "status": "ga",
+      "status_evidence_t": 81.4,
+      "status_evidence_quote": "we're also shipping in Business Central out of the box the deferral reports with subtotals included",
+      "status_evidence_verified": true,
+      "t_start": 43.7,
+      "t_end": 81.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "excel layouts",
+        "deferral reports",
+        "subtotals"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Performance-Tuned Trial Balance Reports",
+      "description": "Trial balance reports and trial balance previous year reports have been performance tuned to run much faster. These new tuned reports are initially placed under a feature management flag.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 91.2,
+      "t_end": 151.5,
+      "is_demoed": false,
+      "caveats": [
+        "Feature management flag allows rollback to old behavior at least for this release wave and possibly the next one"
+      ],
+      "tags": [
+        "trial balance",
+        "performance tuning",
+        "feature flag"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Out-of-Box Analysis Views for Finance",
+      "description": "Analysis views can now be shipped out of the box with the application. Out-of-the-box analysis views are shipping for GL registered and fixed asset ledgers pages. Available in 28.X, not yet in the April release.",
+      "status": "announced",
+      "status_evidence_t": 177.4,
+      "status_evidence_quote": "are shipped in 20 eight dot x so they're not in the april release yet but they will come very soon",
+      "status_evidence_verified": true,
+      "t_start": 151.5,
+      "t_end": 189.9,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet available in April release, coming in 28.X"
+      ],
+      "tags": [
+        "analysis views",
+        "gl",
+        "fixed assets"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Copilot Analysis Assist for Finance Reports",
+      "description": "Users can copy descriptions of desired analysis or reports into Copilot Analysis Assist, which will generate custom finance analysis views and reports. Useful for analyses that require specific account filtering.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 200.9,
+      "t_end": 214.9,
+      "is_demoed": false,
+      "caveats": [
+        "Requires manual description of desired analysis; some analyses require specific chart of accounts filtering"
+      ],
+      "tags": [
+        "copilot",
+        "ai",
+        "analysis views"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Enhanced Demo Data for Fixed Assets",
+      "description": "New demo data added for fixed assets including transactions data for acquisitions and depreciations. Allows better demonstration of all fixed asset reports out of the box.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 237.7,
+      "t_end": 262.6,
+      "is_demoed": false,
+      "caveats": [
+        "Only covers acquisitions and depreciations scenarios"
+      ],
+      "tags": [
+        "demo data",
+        "fixed assets"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "GL registered",
+      "t": 162.8
+    },
+    {
+      "type": "page",
+      "name": "fixed asset ledgers",
+      "t": 162.8
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 19.2,
+      "text": "We invested in this for three things: better reports, faster reports, and in-client analysis of of things related to finance",
+      "why_it_matters": "Establishes the three core pillars of the enhanced financial analytics release",
+      "check": "exact"
+    },
+    {
+      "t": 81.4,
+      "text": "we're also shipping in Business Central out of the box the deferral reports with subtotals included",
+      "why_it_matters": "Confirms deferral reports with subtotals are generally available in this release",
+      "check": "exact"
+    },
+    {
+      "t": 123,
+      "text": "when we mess with finance reports, we want to be a little bit careful. So, therefore, we have put these new uh the new",
+      "why_it_matters": "Explains the conservative approach to rolling out performance-tuned finance reports with rollback capability",
+      "check": "exact"
+    },
+    {
+      "t": 177.4,
+      "text": "are shipped in 20 eight dot x so they're not in the april release yet but they will come very soon",
+      "why_it_matters": "Clarifies timing of analysis views availability - not in April release but coming in 28.X",
+      "check": "fuzzy"
+    },
+    {
+      "t": 214.9,
+      "text": "Copy the description of what to do into uh Copilot analysis assist, and and it will give you these additional uh reports or analysis",
+      "why_it_matters": "Describes how Copilot can generate custom finance analysis views based on user descriptions",
+      "check": "exact"
+    },
+    {
+      "t": 248.4,
+      "text": "we're adding new demo data in fixed assets for transactions data for acquisitions and depreciations",
+      "why_it_matters": "Announces new demo data capability enabling better demonstration of fixed asset reports",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 123,
+      "kind": "preview",
+      "text": "we have put these new uh the new tuned reports under a feature management flag for now. In case something uh you you you find that they're not showing the right numbers, we try to test as much as we can"
+    },
+    {
+      "t": 177.4,
+      "kind": "coming-later",
+      "text": "They are shipped in 20 eight {dot} X, so they're not in the April release yet, but they will come very soon"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

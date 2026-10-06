@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/set-up-complex-application-areas-using-best-practices",
   "published_at": "2026-06-03T08:24:35.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "eb211624ee0ee14244bdd467805cc8ab95b372d4",
       "words": 115,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:08:34.585Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00773
+    },
+    "summarized": {
+      "at": "2026-10-06T18:08:36.226Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:08:36.227Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:08:36.227Z",
+      "page": false
     }
   },
   "input_hash": "eb211624ee0ee14244bdd467805cc8ab95b372d4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eb211624ee0ee14244bdd467805cc8ab95b372d4"
+  "output_hash": "d613e51f9999bc8caae8a0a12d2467ed4a0a586dcbf52d3b62a52d53edb84467"
 }

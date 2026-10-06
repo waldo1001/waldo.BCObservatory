@@ -1,0 +1,27 @@
+{
+  "video_id": "juUBVPfIp8A",
+  "item_id": "video/yt-microsoft/juUBVPfIp8A",
+  "summary": "AI Development Toolkit updates in Business Central 2026 release wave 1: the renamed toolkit, simpler BC AI Resources authentication, content filtering and prompt injection protection for Azure Open AI, and evaluation features (suite configurations, multi-language, Copilot credit insights, agent evaluation).",
+  "overview": "The toolkit formerly known as the development tools for extending Copilot is now called the AI Development Toolkit. It covers using Azure Open AI from AL code and also designing and coding agents in Business Central. Agent development has been in public preview since February, with almost 1,500 agents built by the community.\n\nThe video walks through authentication changes for BC AI Resources, content filtering policies, prompt injection protection, and the renamed evaluation tool. Evaluations gain suite configurations, language categorization of test inputs, Copilot credit insights, and early agent evaluation support. Most of these were demoed.",
+  "key_points": [
+    "The toolkit was renamed AI Development Toolkit; the AI test tool is now called AI Development Toolkit evaluation.",
+    "BC AI Resources no longer require your own partner subscription. The set managed resource authorization method has a new signature without subscription details; the old one is obsoleted but still works.",
+    "Content filtering supports low and medium levels, with low as the default. High is not supported in managed resources and needs your own Azure Open AI subscription with approval. Levels are set through the Azure Open AI policy parameters codeunit.",
+    "Prompt injection protection uses Azure AI content prompt shields. You must call the detection tags for untrusted prompts and enable XPI detection separately.",
+    "Evaluation suite configurations define capability, test type and frequency (daily, weekly, manual). The frequency enum is extensible, and pipelines must adopt the configurations manually because they do not run evaluations automatically.",
+    "Multi-language evaluations require name and language in data sets, and data set names must be common across languages. Copilot credit use shows per run, line and data set entry.",
+    "Agent evaluation is in the early stages and lets you inspect agent tasks per run, line and entry. An agent library is announced as coming soon."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "functional consultant"
+  ],
+  "extraction_hash": "ce0f407860f5aa6c98d544ad5fafa20b9e546d961c1247e0236e316c53456352",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": true,
+    "cost_usd": null
+  }
+}

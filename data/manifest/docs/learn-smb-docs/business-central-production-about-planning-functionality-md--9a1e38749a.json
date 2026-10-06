@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-about-planning-functionality",
   "published_at": "2026-06-02T14:30:24.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "40fa1af4612bce8a2a00f67c934105eb200f8830",
       "words": 2724,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:08:36.215Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.00773
+    },
+    "summarized": {
+      "at": "2026-10-06T18:08:36.231Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:08:36.232Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:08:36.232Z",
+      "page": false
     }
   },
   "input_hash": "40fa1af4612bce8a2a00f67c934105eb200f8830",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "40fa1af4612bce8a2a00f67c934105eb200f8830"
+  "output_hash": "a2d231c1f667b85dd4786e49b06c08d1bcabfd0b569c2b52fcbbcbd2783be947"
 }

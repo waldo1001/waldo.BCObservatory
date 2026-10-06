@@ -1,0 +1,71 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-about-production-orders.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-about-production-orders",
+  "title": "About production orders",
+  "blob": "011a01ab499efbb822c5427a10bb680425c0d5d2",
+  "summary": "Manage production orders from creation through completion to control manufacturing processes including material consumption, output recording, and by-product handling.",
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "production orders",
+    "manufacturing",
+    "inventory management",
+    "order status",
+    "consumption",
+    "output",
+    "journals"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Production Order"
+    },
+    {
+      "type": "page",
+      "name": "Finished Production Orders"
+    },
+    {
+      "type": "page",
+      "name": "Prod. Order Components"
+    },
+    {
+      "type": "page",
+      "name": "Prod. Order Routing"
+    },
+    {
+      "type": "page",
+      "name": "Production Journal"
+    },
+    {
+      "type": "page",
+      "name": "Consumption Journal"
+    },
+    {
+      "type": "page",
+      "name": "Output Journal"
+    }
+  ],
+  "features": [
+    "order status management",
+    "material consumption recording",
+    "production output tracking",
+    "automatic flushing",
+    "manual flushing",
+    "by-products handling",
+    "cost tracking",
+    "item tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00773,
+      "pages_in_call": 8
+    }
+  ]
+}

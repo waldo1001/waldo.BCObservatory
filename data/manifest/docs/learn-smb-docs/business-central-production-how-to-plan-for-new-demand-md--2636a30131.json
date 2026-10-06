@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-plan-for-new-demand",
   "published_at": "2026-06-04T10:55:46.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a85d4e844fd42bf9805bf1cf8fe9f6e03541acb3",
       "words": 1249,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T18:08:34.582Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.00773
+    },
+    "summarized": {
+      "at": "2026-10-06T18:08:36.222Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:08:36.223Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:08:36.223Z",
+      "page": false
     }
   },
   "input_hash": "a85d4e844fd42bf9805bf1cf8fe9f6e03541acb3",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a85d4e844fd42bf9805bf1cf8fe9f6e03541acb3"
+  "output_hash": "612373b703c41e474f53dfa75ff1781c0f045441216b28b5fa29ec93edb0cad7"
 }

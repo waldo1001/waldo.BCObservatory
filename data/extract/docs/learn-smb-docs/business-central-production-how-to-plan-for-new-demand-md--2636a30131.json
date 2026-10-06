@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-to-plan-for-new-demand.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-plan-for-new-demand",
+  "title": "Plan for New Demand Order by Order",
+  "blob": "a85d4e844fd42bf9805bf1cf8fe9f6e03541acb3",
+  "summary": "Use the Order Planning page to manually plan new demand from sales orders, production components, and service orders on an order-by-order basis with visibility into availability and supply options.",
+  "systems": [
+    "manufacturing",
+    "sales"
+  ],
+  "topics": [
+    "order planning",
+    "demand planning",
+    "supply orders",
+    "production orders",
+    "inventory management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Order Planning"
+    },
+    {
+      "type": "page",
+      "name": "Planned Production Orders"
+    },
+    {
+      "type": "page",
+      "name": "Planning Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Make Supply Orders"
+    }
+  ],
+  "features": [
+    "calculate plan",
+    "replenishment system selection",
+    "transfer orders",
+    "purchase orders",
+    "production orders",
+    "reserve functionality",
+    "qty to order"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00773,
+      "pages_in_call": 8
+    }
+  ]
+}

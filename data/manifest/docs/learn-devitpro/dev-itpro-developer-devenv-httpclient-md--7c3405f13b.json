@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-httpclient",
   "published_at": "2026-06-09T06:24:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4c988eb2267c8c2ad7d4e1e670ce41594186464c",
       "words": 1026,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:08:34.581Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.00773
+    },
+    "summarized": {
+      "at": "2026-10-06T18:08:36.219Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:08:36.220Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:08:36.221Z",
+      "page": false
     }
   },
   "input_hash": "4c988eb2267c8c2ad7d4e1e670ce41594186464c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4c988eb2267c8c2ad7d4e1e670ce41594186464c"
+  "output_hash": "2714ef7777c8675490faecd0c8ca65e48ef7c63e24bd2af346a297077230fedb"
 }

@@ -1,0 +1,25 @@
+{
+  "video_id": "EurgqGU1jG0",
+  "item_id": "video/yt-areopa/EurgqGU1jG0",
+  "summary": "AL test design patterns for fast tests with 100% coverage of the tested objects, shown on a payment provider integration. It uses interfaces, enums, stubs and spies, and passes records as parameters to avoid database calls and external API calls. The presenter reports over 200 tests running in milliseconds.",
+  "overview": "The webinar walks through a payment integration app and shows how it reaches 100% code coverage of the objects under test, except event subscribers. The app switches to test mode outside production. The presenter builds this with context interfaces, environment interfaces, and enums in place of booleans, so that each code path can be tested with stub or spy implementations.\n\nIt then covers testing API logic without external calls, passing records as parameters so tests use temporary records, and reducing database gets to one. It also covers AI assistance for writing tests, pure functions, event publishers for side effects, the risk of too many parameters, and an API operation record pattern.",
+  "key_points": [
+    "Environment interfaces abstract the platform (sandbox or production), current company and evaluation company status, so tests can cover each environment path with stubs.",
+    "A stub returns fixed data without tracking usage; a spy also records which functions were called so tests can check them later.",
+    "API logic is tested by implementing an interface that simulates HTTP responses, so no external calls are made. The real HTTP client implementation is not tested this way.",
+    "Passing records by reference as parameters lets tests use temporary records and skip database inserts and gets. It requires changing function signatures. Passing setup down from the top reduced three gets to one.",
+    "Coverage is 100% only for the objects being tested and excludes event subscribers.",
+    "Moving setup retrieval into parameters is dependency injection and can lead to too many parameters. The presenter suggests rethinking the design or introducing interfaces.",
+    "An API operation record holds the endpoint, method, payload and response so one function can handle any API call. This moves complexity into the record structure."
+  ],
+  "audience": [
+    "developer"
+  ],
+  "extraction_hash": "bd1b2fe16bf4387e1e2ed58b38770024ad6898af51800f10c65bdb7350b6489d",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": true,
+    "cost_usd": null
+  }
+}

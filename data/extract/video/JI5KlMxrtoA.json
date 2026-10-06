@@ -1,0 +1,1230 @@
+{
+  "video_id": "JI5KlMxrtoA",
+  "item_id": "video/yt-stefanmaron/JI5KlMxrtoA",
+  "title": "How Good Can AL Code Get? — A Live ISO 5055 Review",
+  "duration_s": 4331,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "code quality",
+    "iso 5055",
+    "static analysis",
+    "al cops",
+    "security",
+    "performance",
+    "read isolation",
+    "permission assignment",
+    "analyzers",
+    "cwe violations",
+    "data access",
+    "error handling"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Code Review Service Overview",
+      "t_start": 0,
+      "t_end": 179.3
+    },
+    {
+      "title": "ISO 5055 Standard and Quality Framework",
+      "t_start": 179.3,
+      "t_end": 306.6
+    },
+    {
+      "title": "Default Analyzers and AppSource Cops",
+      "t_start": 306.6,
+      "t_end": 425.9
+    },
+    {
+      "title": "AL Cops and Community Code Cops",
+      "t_start": 425.9,
+      "t_end": 562
+    },
+    {
+      "title": "Proprietary Review Analyzer and CWE 732",
+      "t_start": 562,
+      "t_end": 687
+    },
+    {
+      "title": "ISO 5055 Mapping and Read Isolation Rules",
+      "t_start": 687,
+      "t_end": 897.4
+    },
+    {
+      "title": "CWE 1083 - Data Access from Outside Data Manager",
+      "t_start": 897.4,
+      "t_end": 1044.1
+    },
+    {
+      "title": "Field Assignment Order Validation",
+      "t_start": 1044.1,
+      "t_end": 1147.5
+    },
+    {
+      "title": "Primary Key Field Violation Detection",
+      "t_start": 1147.5,
+      "t_end": 1230.1
+    },
+    {
+      "title": "CWE 778 - Insufficient Logging and Security",
+      "t_start": 1230.1,
+      "t_end": 1356.2
+    },
+    {
+      "title": "Isolated Storage Cleanup and Encryption Issues",
+      "t_start": 1356.2,
+      "t_end": 1520.8
+    },
+    {
+      "title": "Hard-Coding and Error Message Issues",
+      "t_start": 1520.8,
+      "t_end": 1673.8
+    },
+    {
+      "title": "Magic Numbers and Self-Documenting Code",
+      "t_start": 1673.8,
+      "t_end": 1834.7
+    },
+    {
+      "title": "Boolean Operator Precedence and Complex Expressions",
+      "t_start": 1834.7,
+      "t_end": 1973.6
+    },
+    {
+      "title": "Operator Precedence and Readability Concerns",
+      "t_start": 1973.6,
+      "t_end": 2177.5
+    },
+    {
+      "title": "Error Handling with Error Info Pattern",
+      "t_start": 2177.5,
+      "t_end": 2451.3
+    },
+    {
+      "title": "Unchecked Return Values and User Experience",
+      "t_start": 2451.3,
+      "t_end": 2627.7
+    },
+    {
+      "title": "Custom Procedures and Find Set without Filters",
+      "t_start": 2627.7,
+      "t_end": 2823.1
+    },
+    {
+      "title": "Delete All Patterns and Locking Behavior",
+      "t_start": 2823.1,
+      "t_end": 2961.3
+    },
+    {
+      "title": "Read Isolation and Table Locking Interaction",
+      "t_start": 2961.3,
+      "t_end": 3163
+    },
+    {
+      "title": "Lock Release Timing and Record Instance Isolation",
+      "t_start": 3163,
+      "t_end": 3392.5
+    },
+    {
+      "title": "Case Statements without Else and Code Completeness",
+      "t_start": 3392.5,
+      "t_end": 3544.9
+    },
+    {
+      "title": "ISO 5055 Standards and HTTP Client Timeouts",
+      "t_start": 3544.9,
+      "t_end": 3668.6
+    },
+    {
+      "title": "Code Quality Assessment Tool Feedback",
+      "t_start": 3668.6,
+      "t_end": 3910
+    },
+    {
+      "title": "ISO 5055 Scoring and Warning Assessment",
+      "t_start": 3910,
+      "t_end": 3982.7
+    },
+    {
+      "title": "Manual Code Review and Quality Assessment Reports",
+      "t_start": 3982.7,
+      "t_end": 4256.4
+    },
+    {
+      "title": "Closing Remarks and Audience Engagement",
+      "t_start": 4256.4,
+      "t_end": 4331
+    }
+  ],
+  "features": [
+    {
+      "name": "ISO 5055 Review Standard Integration",
+      "description": "Code review service based on ISO 5055, a language-independent software measurement and review standard with 119 rules for evaluating code quality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 218.5,
+      "t_end": 271,
+      "is_demoed": true,
+      "caveats": [
+        "Not all 119 rules are fully applicable to AL development"
+      ],
+      "tags": [
+        "iso 5055",
+        "code quality",
+        "standard",
+        "measurement"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Custom AL Quality Framework",
+      "description": "A proprietary set of custom rules on top of ISO 5055 designed specifically for AL development and quality practices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 282.5,
+      "t_end": 306.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "custom rules",
+        "al development",
+        "quality framework"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Free Quality Assessment Service",
+      "description": "A free online quality assessment scoring service that runs an analyzer in the background to provide violation counts, findings, and rule evaluation metrics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 318.4,
+      "t_end": 345.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "free service",
+        "scoring",
+        "violations",
+        "assessment"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Default Analyzers Configuration",
+      "description": "Standard AppSource analyzers including AppSource Cop, Code Cop, and UI Cop that can be configured in the AL development environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 371.8,
+      "t_end": 425.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "analyzers",
+        "appsource",
+        "configuration",
+        "diagnostics"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Cops and Community Code Cops",
+      "description": "Extended analyzer rules from the lintter cup project providing additional diagnostics including cognitive complexity, parameter validation, and documentation requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 485.9,
+      "t_end": 548.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "al cops",
+        "community",
+        "cognitive complexity",
+        "documentation",
+        "lintter cup"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Proprietary Review Analyzer",
+      "description": "A proprietary analyzer tool that generates approximately 500 diagnostics mapped to ISO 5055 and CWE standards, detecting issues like overpermissioned objects and missing read isolation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 591,
+      "t_end": 657,
+      "is_demoed": true,
+      "caveats": [
+        "Source code not shared",
+        "Some findings may be false positives requiring manual review"
+      ],
+      "tags": [
+        "proprietary",
+        "analyzer",
+        "diagnostics",
+        "iso 5055",
+        "cwe"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "CWE 732 Permission Assignment Mapping",
+      "description": "ISO 5055 rule mapped to CWE 732 that identifies objects declaring more access permissions than required, potentially exposing sensitive data to unauthorized users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 619.4,
+      "t_end": 754.6,
+      "is_demoed": true,
+      "caveats": [
+        "May require manual review to distinguish between false positives and actual security concerns",
+        "Applies primarily to obsolete objects"
+      ],
+      "tags": [
+        "security",
+        "permissions",
+        "cwe 732",
+        "access control"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Read Isolation and Concurrency Rule EAT-10",
+      "description": "ISO 5055 rule requiring explicit read isolation on record read operations to prevent escalated update locks that cause concurrency degradation under load.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 779.6,
+      "t_end": 873.8,
+      "is_demoed": true,
+      "caveats": [
+        "Rule under review for potential removal",
+        "Primary key assumption may not be documented",
+        "Some findings may be too strict"
+      ],
+      "tags": [
+        "performance",
+        "read isolation",
+        "concurrency",
+        "locking",
+        "eat-10"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "CWE 1083 - Data Access from Outside Data Manager",
+      "description": "Extension code is reading or writing data in ways that bypass the standard BC table access model and circumvent business logic and logging. Intended to ensure data access goes through proper data manager components.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 897.4,
+      "t_end": 1044.1,
+      "is_demoed": true,
+      "caveats": [
+        "Diagnostic numbers may differ in official documentation",
+        "Mapped from different CWE numbering schemes"
+      ],
+      "tags": [
+        "data access",
+        "data manager",
+        "business logic"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Field Assignment Order Validation",
+      "description": "ISO 5055 diagnostic that validates field assignment order follows standard page-to-table interaction pattern: first run init, then validate primary key fields, call insert true, then validate and modify remaining fields with modify true.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1056.6,
+      "t_end": 1147.5,
+      "is_demoed": true,
+      "caveats": [
+        "Flags every field access not in compliant order",
+        "Exceptions must be documented"
+      ],
+      "tags": [
+        "field assignment",
+        "data access pattern",
+        "validation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Primary Key Field Violation Detection",
+      "description": "Detects when primary key fields are set in incorrect order or context, such as before insert operations. The analyzer flags deviations from the standard pattern.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1161.9,
+      "t_end": 1230.1,
+      "is_demoed": true,
+      "caveats": [
+        "May produce false positives",
+        "Variable scope affects detection"
+      ],
+      "tags": [
+        "primary key",
+        "field order",
+        "false positives"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "CWE 778 - Insufficient Logging for Security Events",
+      "description": "Checks whether critical events like permission escalation, bulk data export, and financial posting are captured in telemetry. Requires proper data classification and change log configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1259.4,
+      "t_end": 1356.2,
+      "is_demoed": true,
+      "caveats": [
+        "Telemetry rule recently updated",
+        "Depends on customer activation of change log",
+        "Recommends configuration but not customer behavior"
+      ],
+      "tags": [
+        "logging",
+        "telemetry",
+        "security",
+        "change log"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Isolated Storage Cleanup Validation",
+      "description": "Checks whether isolated storage set operations have corresponding delete procedures in the same scope. Identifies incomplete cleanup of temporary and supporting resources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1377.7,
+      "t_end": 1467,
+      "is_demoed": true,
+      "caveats": [
+        "No on uninstall event currently available",
+        "Uncertain if uninstall removes isolated storage",
+        "Would benefit from additional event coverage"
+      ],
+      "tags": [
+        "isolated storage",
+        "cleanup",
+        "resource management"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Isolated Storage Encryption Validation",
+      "description": "Custom rule checking for confirmed encryption on isolated storage operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1490.5,
+      "t_end": 1520.8,
+      "is_demoed": true,
+      "caveats": [
+        "Custom rule with uncertain applicability",
+        "May not be relevant for all scenarios"
+      ],
+      "tags": [
+        "isolated storage",
+        "encryption"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "CWE 1052 detection",
+      "description": "ISO 10 CWE 1052 detects excessive hard-coded literals in code. Warnings flag instances where values are hard-coded without using labels or constants.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1600.6,
+      "t_end": 1626.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires understanding context to determine if refactoring improves readability"
+      ],
+      "tags": [
+        "iso 5055",
+        "hard-coding",
+        "code quality"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "CWE 3 error message detection",
+      "description": "Detects hard-coded error message values that prevent proper telemetry collection. Recommends using labels with replaceable parameters instead.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1636.8,
+      "t_end": 1651,
+      "is_demoed": true,
+      "caveats": [
+        "Only affects telemetry collection if labels with replaceable parameters are not used"
+      ],
+      "tags": [
+        "error messages",
+        "telemetry",
+        "hard-coding"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Magic number detection",
+      "description": "Flags hard-coded numeric values that lack explanation. Recommends extracting them into named variables or functions to improve code readability and maintainability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1673.8,
+      "t_end": 1684.7,
+      "is_demoed": true,
+      "caveats": [
+        "Can produce false positives",
+        "Requires judgment on whether refactoring improves readability"
+      ],
+      "tags": [
+        "magic numbers",
+        "hard-coding",
+        "refactoring"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Self-documenting code through extraction",
+      "description": "Demonstrates extracting magic numbers into named functions or variables to make code self-documenting without requiring comments, using example of 24 hours in milliseconds.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1712.6,
+      "t_end": 1834.7,
+      "is_demoed": true,
+      "caveats": [
+        "Some magic numbers may not warrant refactoring if it reduces readability",
+        "Locked labels discussed as alternative but effectiveness unclear"
+      ],
+      "tags": [
+        "readability",
+        "documentation",
+        "refactoring"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "CWE 783 mixed boolean operators",
+      "description": "Detects mixed AND and OR operations without explicit parentheses. AL operator precedence differs from C family languages, causing complex boolean expressions to evaluate incorrectly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1940.2,
+      "t_end": 1973.6,
+      "is_demoed": true,
+      "caveats": [
+        "Operator precedence in AL is not clearly documented",
+        "Left-to-right evaluation in if statements confirmed but may not be universally known"
+      ],
+      "tags": [
+        "operators",
+        "boolean expressions",
+        "maintainability",
+        "security"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Error info pattern",
+      "description": "PAT 03 pattern for raising errors with rich error information. Enables user-actionable fix-it actions and collectible errors, supporting navigate actions to relevant pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2275.2,
+      "t_end": 2413.3,
+      "is_demoed": true,
+      "caveats": [
+        "Only useful when users can take action to fix the error",
+        "Requires platform support for navigate actions"
+      ],
+      "tags": [
+        "error handling",
+        "user experience",
+        "patterns"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Error info with custom dimensions",
+      "description": "Error info can attach additional metadata like record IDs and custom dimensions for support troubleshooting. Particularly helpful when support teams need to investigate errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2413.3,
+      "t_end": 2451.3,
+      "is_demoed": false,
+      "caveats": [
+        "Only beneficial if support team needs to investigate; less useful for user-facing errors"
+      ],
+      "tags": [
+        "error handling",
+        "telemetry",
+        "metadata"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Error info with navigate actions",
+      "description": "Using error info objects to create error messages with navigate actions that link to relevant pages, allowing users to directly click error messages to fix issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2355.8,
+      "t_end": 2451.3,
+      "is_demoed": true,
+      "caveats": [
+        "Only works with error info objects",
+        "Most beneficial when support needs to fix errors rather than end users"
+      ],
+      "tags": [
+        "error handling",
+        "user experience",
+        "error info",
+        "navigation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Unchecked return value detection",
+      "description": "ISO 5055 rule that flags when functions return values but those return values are not checked by the caller, potentially missing error conditions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2459.9,
+      "t_end": 2627.7,
+      "is_demoed": true,
+      "caveats": [
+        "Some cases like codeunit run are intentional and can be marked as accepted",
+        "Platform error messages do not provide reasoning or context"
+      ],
+      "tags": [
+        "code quality",
+        "return values",
+        "error handling",
+        "rules"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Find set without filters warning",
+      "description": "ISO 5055 rule 1049 that warns when find set is called on complete tables without preceding filters, as this can generate disproportional database load and cause query timeouts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2757.9,
+      "t_end": 2823.1,
+      "is_demoed": true,
+      "caveats": [
+        "Can be marked as intentional for upgrade codeunits that need to process all records",
+        "Some cases like extension licenses have few records and may be acceptable"
+      ],
+      "tags": [
+        "database performance",
+        "find set",
+        "filtering",
+        "query optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Delete all without is empty check warning",
+      "description": "Code quality rule that flags delete all operations without first checking whether the filter matches any rows, as deletion without checking can acquire unnecessary locks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2836.4,
+      "t_end": 2961.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires understanding of AL guidelines documentation",
+        "Interaction with update locks and read isolation is complex",
+        "False positives can occur with set load fields"
+      ],
+      "tags": [
+        "locking",
+        "delete operations",
+        "database access",
+        "is empty",
+        "guidelines"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Read isolation and table locking interaction",
+      "description": "Design pattern discussion on how read isolation levels affect table locking when checking is empty before delete all operations, and ensuring consistency between the check and deletion.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2961.3,
+      "t_end": 3157,
+      "is_demoed": true,
+      "caveats": [
+        "Theoretical race conditions between is empty check and delete all are practically unlikely but theoretically possible",
+        "Uncertainty about whether update lock is required for delete operations"
+      ],
+      "tags": [
+        "locking",
+        "read isolation",
+        "update lock",
+        "data consistency",
+        "database design"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Lock release on variable scope",
+      "description": "Discussion of how update locks set on record variables are released as soon as the variable goes out of scope, affecting the duration of locking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3211,
+      "t_end": 3236.2,
+      "is_demoed": false,
+      "caveats": [
+        "Uncertainty about what happens to locks after deletion",
+        "Questions remain about lock scope after deletion operations"
+      ],
+      "tags": [
+        "locking",
+        "scope",
+        "variable lifecycle",
+        "lock release"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Record isolation level on record instances",
+      "description": "Read isolation level specified on a record variable that takes a lock on the last row while subsequent reads will not trigger further locks, limited to the record instance rather than the entire table.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3278.2,
+      "t_end": 3392.5,
+      "is_demoed": true,
+      "caveats": [
+        "specifics about lock release behavior when records are deleted not documented",
+        "behavior differs from lock table method"
+      ],
+      "tags": [
+        "record isolation",
+        "locking",
+        "performance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Case statement completeness checking",
+      "description": "ISO 5055 requires all case statements to have an else clause to handle unexpected values and prevent silent failures with unforeseeable outcomes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3440.3,
+      "t_end": 3544.9,
+      "is_demoed": true,
+      "caveats": [
+        "requires defensibility of each branch path"
+      ],
+      "tags": [
+        "control flow",
+        "defensive coding",
+        "completeness"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Explicit HTTP client timeout setting",
+      "description": "HTTP client calls should explicitly set timeout values rather than relying on defaults, making it clear that timeout handling was intentionally considered.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3594,
+      "t_end": 3668.6,
+      "is_demoed": true,
+      "caveats": [
+        "default timeout exists but explicit setting is better practice"
+      ],
+      "tags": [
+        "http client",
+        "timeout",
+        "best practices",
+        "explicit defaults"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "ISO 5055 code quality assessment",
+      "description": "A code review framework applying ISO 5055 standards to AL code, checking for isolation levels, incomplete case statements, explicit timeouts, and other reliability patterns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3544.9,
+      "t_end": 3910,
+      "is_demoed": true,
+      "caveats": [
+        "automatic review may have false positives",
+        "living project still being adjusted"
+      ],
+      "tags": [
+        "code quality",
+        "iso 5055",
+        "assessment",
+        "reliability"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "ISO 5055 Quality Scoring System",
+      "description": "An analyzer that assesses code quality against ISO 5055 standards, producing scores around 85-90%, with detection of warnings including missing validate triggers and other reliability issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3910,
+      "t_end": 3982.7,
+      "is_demoed": true,
+      "caveats": [
+        "Proprietary analyzer not published for public use",
+        "Produces high noise level of warnings unsuitable for continuous integration"
+      ],
+      "tags": [
+        "iso 5055",
+        "code quality",
+        "static analysis",
+        "warnings"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Quality Assessment Report Service",
+      "description": "A signed quality assessment report that documents code review findings, targeted at management level, designed to confirm code quality for apps and reduce risk documentation for customers and non-developers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4100.9,
+      "t_end": 4256.4,
+      "is_demoed": false,
+      "caveats": [
+        "Report is longer in actual service delivery than the example shown",
+        "Requires manual interpretation of findings"
+      ],
+      "tags": [
+        "code review",
+        "quality assessment",
+        "documentation",
+        "risk management"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Review Analyzer",
+      "t": 603.1
+    },
+    {
+      "type": "codeunit",
+      "name": "ISO store manager",
+      "t": 1382.4
+    },
+    {
+      "type": "other",
+      "name": "error info",
+      "t": 2355.8
+    },
+    {
+      "type": "other",
+      "name": "codeunit run",
+      "t": 2500
+    },
+    {
+      "type": "other",
+      "name": "extension license",
+      "t": 2794.1
+    },
+    {
+      "type": "other",
+      "name": "update lock",
+      "t": 3006.6
+    },
+    {
+      "type": "other",
+      "name": "delete all",
+      "t": 3141
+    },
+    {
+      "type": "other",
+      "name": "lock table",
+      "t": 3293.3
+    },
+    {
+      "type": "other",
+      "name": "JSON get",
+      "t": 3413.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Jeremy",
+      "confidence": "medium"
+    },
+    {
+      "name": "Hayden",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 218.5,
+      "text": "this review that I do runs against. And it basically contains two different uh areas. one is uh basically derived from ISO 5055 which",
+      "why_it_matters": "Establishes that the code review is based on ISO 5055, a standardized measurement framework for software quality across language implementations.",
+      "check": "exact"
+    },
+    {
+      "t": 259.9,
+      "text": "and this has 119 rules. Now this is annoying. Um I have evaluated all of them in detail and not all of them are",
+      "why_it_matters": "Indicates the scope of ISO 5055 rules available and the presenter's critical evaluation that not all rules apply to AL development.",
+      "check": "exact"
+    },
+    {
+      "t": 591,
+      "text": "So, what I've built is a proprietary analyzer. I won't share the source code of, but I can show you a little bit of",
+      "why_it_matters": "Describes the scale and proprietary nature of the custom analyzer, which generates significantly more diagnostics than the standard tools.",
+      "check": "exact"
+    },
+    {
+      "t": 697.9,
+      "text": "So if we what was it 732 we go onto this one second incorrect permission assignment permission sets grant brower access then intended expose",
+      "why_it_matters": "Shows how specific CWE standards are mapped into the code review framework to address security concerns about overpermissioned objects.",
+      "check": "exact"
+    },
+    {
+      "t": 791.4,
+      "text": "missing expl explicit read isolation on record read. So read reads without explicit read isolation defaults to escalate update locks invisibly causing concurrency degradation",
+      "why_it_matters": "Explains a critical performance rule that identifies database access patterns that silently degrade concurrency and can cause application bottlenecks.",
+      "check": "exact"
+    },
+    {
+      "t": 791.4,
+      "text": "read reads without explicit read isolation defaults to escalate update locks invisibly causing concurrency degradation under load",
+      "why_it_matters": "Explains the performance impact of missing read isolation specifications in AL code",
+      "check": "exact"
+    },
+    {
+      "t": 851.8,
+      "text": "ISO 5055 says that um we shouldn't rely on properties that are not guaranteed",
+      "why_it_matters": "Establishes the principle that undocumented behavior should not be assumed in code",
+      "check": "exact"
+    },
+    {
+      "t": 873.8,
+      "text": "That's why this rule is uh also under review. I think I will update this and remove this because it doesn't make that much",
+      "why_it_matters": "Shows that even ISO 5055 mapped rules are subject to review and potential removal if they do not provide practical value in the AL context.",
+      "check": "exact"
+    },
+    {
+      "t": 922.6,
+      "text": "extension code is reading with or writing data in ways that bypass the standard BC table access model and circumvent business logic and logging",
+      "why_it_matters": "Defines the core issue addressed by CWE 1083 regarding improper data access patterns",
+      "check": "exact"
+    },
+    {
+      "t": 1097.2,
+      "text": "we first run in it. We then validate the primary key fields and then we call insert true which is exactly what pages do",
+      "why_it_matters": "Specifies the correct field assignment order that must be followed for compliant AL code",
+      "check": "exact"
+    },
+    {
+      "t": 1271,
+      "text": "Insufficient logging, security, critical events, permission escalation, bulk, data export, financial posting not captured in telemetry, leaving no audit trail",
+      "why_it_matters": "Describes the security audit trail problem that CWE 778 addresses",
+      "check": "exact"
+    },
+    {
+      "t": 1382.4,
+      "text": "isolated storage set without corresponding delete in the same scope. Now this this checks whether there is a delete procedure",
+      "why_it_matters": "Explains how the analyzer detects incomplete cleanup of isolated storage resources",
+      "check": "exact"
+    },
+    {
+      "t": 1600.6,
+      "text": "we have a an ISO 10 CWE 1052",
+      "why_it_matters": "Identifies specific ISO standard and CWE number used by the code quality tool for detecting hard-coded values",
+      "check": "exact"
+    },
+    {
+      "t": 1636.8,
+      "text": "error messages having hard-coded values because that is something that uh throws up in telemetry. Basically, then you don't get ...",
+      "why_it_matters": "Explains why hard-coded error messages are problematic for telemetry and audit logging",
+      "check": "exact"
+    },
+    {
+      "t": 1959.5,
+      "text": "it's part of maintainability and part of security. Let's see the explanation. So AL operators precedence rule differ from C family languages.",
+      "why_it_matters": "Establishes that operator precedence differences in AL create both maintainability and security concerns",
+      "check": "exact"
+    },
+    {
+      "t": 1973.6,
+      "text": "Complex boolean expressions without parenthesis frequently evaluate incorrectly.",
+      "why_it_matters": "States the documented risk of unclear operator precedence leading to incorrect evaluation of boolean logic",
+      "check": "exact"
+    },
+    {
+      "t": 2115,
+      "text": "There's not either. So, I'm not sure if there is documentation about what what is evaluated. I would assume the end gets evaluated first,",
+      "why_it_matters": "Highlights lack of clear documentation about AL operator precedence despite its importance for correctness",
+      "check": "exact"
+    },
+    {
+      "t": 2215.5,
+      "text": "evaluation happens left to left to right in if statements.",
+      "why_it_matters": "Confirms that AL evaluates boolean expressions left-to-right in if statements, resolving ambiguity about operator precedence",
+      "check": "exact"
+    },
+    {
+      "t": 2275.2,
+      "text": "errors raised without the rich error info pattern foreclose collectible errors and user actionable fix it actions in the platform supports which is basically",
+      "why_it_matters": "Defines the error info pattern as essential for enabling user-actionable error handling and proper error collection",
+      "check": "exact"
+    },
+    {
+      "t": 2355.8,
+      "text": "Instead of just saying, well, there is no license in the license list, we could create an error info object, an error info error",
+      "why_it_matters": "Demonstrates the practice of using error info objects for better error messaging instead of generic platform errors.",
+      "check": "exact"
+    },
+    {
+      "t": 2413.3,
+      "text": "This is how how it looks like. And this only works with error info. That's why I flag in reviews that using error infos",
+      "why_it_matters": "Establishes error info as the recommended pattern for user-facing errors with navigation capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 2500,
+      "text": "the function returns something and we do not check the return value",
+      "why_it_matters": "Identifies a key code quality issue that can hide errors and reduce user experience.",
+      "check": "exact"
+    },
+    {
+      "t": 2757.9,
+      "text": "Find set is called without preceding filters",
+      "why_it_matters": "Names ISO 5055 rule 1049 that prevents database performance issues from unfiltered table scans.",
+      "check": "exact"
+    },
+    {
+      "t": 2836.4,
+      "text": "Delete all without preceding is empty check",
+      "why_it_matters": "Documents a specific code quality rule for preventing unnecessary database locks during deletion.",
+      "check": "exact"
+    },
+    {
+      "t": 2936,
+      "text": "when you perform a delete all where there is nothing to delete will still perform a lock",
+      "why_it_matters": "Explains the locking cost of delete all operations without filtering, citing AL guidelines by Waldo.",
+      "check": "exact"
+    },
+    {
+      "t": 3128.7,
+      "text": "there could be a data operation happening between this call and this call",
+      "why_it_matters": "Articulates the theoretical race condition that motivates the use of read isolation levels in delete patterns.",
+      "check": "exact"
+    },
+    {
+      "t": 3141,
+      "text": "when I don't do not specify my update log read isolation for the is empty we cannot guarantee that the delete all performs on",
+      "why_it_matters": "Explains why explicit isolation levels are critical for ensuring consistent data operations, as updates can occur between checks and deletions without proper locking.",
+      "check": "exact"
+    },
+    {
+      "t": 3293.3,
+      "text": "the isolation level on the record instance it takes the lock on the last row while subsequent reads won't trigger further locks",
+      "why_it_matters": "Defines how record-level isolation differs from table-level locking, with implications for performance and lock management.",
+      "check": "exact"
+    },
+    {
+      "t": 3458.5,
+      "text": "ISO 5055 glasses we don't really care about application. This else this case doesn't have an else",
+      "why_it_matters": "Articulates the ISO 5055 requirement that all case branches must be handled, preventing silent failures when unexpected values occur.",
+      "check": "exact"
+    },
+    {
+      "t": 3599.6,
+      "text": "i think there is a default timeout but setting it explicitly um also probably doesn't hurt",
+      "why_it_matters": "Indicates that while defaults exist, explicit timeout configuration is a best practice for demonstrating intentional design decisions.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 3657.4,
+      "text": "if I set this to false explicitly, I show that this was an an informed decision or at least a decision that I've made",
+      "why_it_matters": "Explains the philosophy behind explicit default setting - making code intent clear rather than relying on implicit platform defaults.",
+      "check": "exact"
+    },
+    {
+      "t": 3925.7,
+      "text": "this doesn't work reveal it still scores with like almost 90% which is a really good uh score I believe uh 85% on the",
+      "why_it_matters": "Provides concrete scoring metrics showing how the assessment tool evaluates code quality, with ISO compliance accounting for 50% of the overall score.",
+      "check": "exact"
+    },
+    {
+      "t": 3949.5,
+      "text": "there are 260 warnings for ISO in total which is 210 in reliability which is mostly the missing validate triggers",
+      "why_it_matters": "Quantifies specific code quality issues and their breakdown, showing what types of violations are most prevalent.",
+      "check": "exact"
+    },
+    {
+      "t": 3969.9,
+      "text": "ISO counts for 50% of the overall quality scoring. So, as you can see, there are sometimes like 20 20 potential findings, but it's",
+      "why_it_matters": "Explains the weighted scoring methodology where individual findings are normalized across rule categories to provide meaningful quality metrics.",
+      "check": "exact"
+    },
+    {
+      "t": 3969.9,
+      "text": "ISO counts for 50% of the overall quality scoring",
+      "why_it_matters": "Explains the weighting of ISO 5055 within the overall scoring system used to assess code quality.",
+      "check": "exact"
+    },
+    {
+      "t": 4021.2,
+      "text": "I do not have this enabled in my daily development either I mean I know about the rules I try to to um apply",
+      "why_it_matters": "Clarifies that the analyzer is designed for manual review purposes rather than continuous automated checking.",
+      "check": "exact"
+    },
+    {
+      "t": 4042.2,
+      "text": "It's meant to surface everything to me while I do a manual code review and then I can decide on things like on findings",
+      "why_it_matters": "Describes the intended workflow where the tool surfaces issues for human judgment during code review.",
+      "check": "exact"
+    },
+    {
+      "t": 4146,
+      "text": "the report is targeted at like management level. So when you when you sell an app and maybe not a PTE but rather an",
+      "why_it_matters": "Defines the target audience for quality reports as business stakeholders rather than developers.",
+      "check": "exact"
+    },
+    {
+      "t": 4180.6,
+      "text": "any developer says no the code is fine and you can trust them but maybe a different person confirming the code is fine documenting",
+      "why_it_matters": "Explains the value proposition of independent code quality documentation for customers and buyers.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 818.2,
+      "kind": "subject-to-change",
+      "text": "this rule is also under review. I think I will update this and remove this because it doesn't make that much sense."
+    },
+    {
+      "t": 873.8,
+      "kind": "subject-to-change",
+      "text": "That's why this rule is uh also under review. I think I will update this and remove this because it ..."
+    },
+    {
+      "t": 1281.8,
+      "kind": "subject-to-change",
+      "text": "telemetry here needs an update because I've uh I've changed the rule a little bit recently"
+    },
+    {
+      "t": 1452,
+      "kind": "coming-later",
+      "text": "Once we would get an event like this, I would probably add this uh this coverage to this rule"
+    },
+    {
+      "t": 3894.2,
+      "kind": "subject-to-change",
+      "text": "This is a living project. Um the automatic review obviously doesn't surface what are false positives"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 39,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 26
+  },
+  "windows": 6,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

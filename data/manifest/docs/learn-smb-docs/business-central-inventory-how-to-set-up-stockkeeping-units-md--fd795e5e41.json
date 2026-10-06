@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-to-set-up-stockkeeping-units",
   "published_at": "2026-06-02T14:30:24.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e88ca0e8b9cbda4da3061c2be64627794c60f5ce",
       "words": 574,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:08:36.213Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.00773
+    },
+    "summarized": {
+      "at": "2026-10-06T18:08:36.228Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:08:36.229Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:08:36.230Z",
+      "page": false
     }
   },
   "input_hash": "e88ca0e8b9cbda4da3061c2be64627794c60f5ce",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e88ca0e8b9cbda4da3061c2be64627794c60f5ce"
+  "output_hash": "ce6c36227252f24552d6bea769f8bad54b36bfa92d196130bf92c2ae4b3d287f"
 }

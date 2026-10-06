@@ -1,0 +1,27 @@
+{
+  "video_id": "qqWj_2uM0ek",
+  "item_id": "video/yt-areopa/qqWj_2uM0ek",
+  "summary": "GitOps for cloud infrastructure and Kubernetes, explained and demoed with Argo CD and Crossplane on Azure Kubernetes Service. It covers click-ops, infrastructure as code limits, pull-based drift reconciliation, and how the Cosmo Alpaca Business Central toolset uses GitOps across clusters.",
+  "overview": "The webinar from Areopa explains why click-ops and plain infrastructure as code fall short: manual drift, push-only updates and limited traceability. It then presents GitOps as a declarative, pull-based approach where Git is the single source of truth and a GitOps tool keeps reality matching the definition.\n\nThe demo uses Argo CD with Crossplane to create, change, revert and delete Azure Kubernetes Service resources defined as YAML in Git, and to detect drift. The speakers then describe their real-world use for Business Central containers and C# APIs across several clusters, with encrypted secrets, automated version-update pull requests, and advice on when to adopt GitOps and how to start.",
+  "key_points": [
+    "GitOps is declarative (describe the desired state) and pull-based, unlike push-based infrastructure as code.",
+    "Argo CD connects a Git repository to a cluster; with auto-sync, changes merged in Git are applied without manual steps.",
+    "Drift between Git and actual infrastructure is detected and remediated automatically, but destructive changes cannot be resolved this way and monitoring must be set up.",
+    "Argo CD pruning deletes resources removed from Git, with an optional checkbox confirmation as a safety check.",
+    "Git revert undoes accidental infrastructure changes, and Git history serves as the audit trail.",
+    "Business Central development licenses and other secrets can be stored encrypted in Git and decrypted by Argo CD during sync.",
+    "GitOps suits cloud-native setups and multiple similar environments (test, staging, production); the advice is to research tools, repository structure and access control, then start with a small pilot."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "decision maker"
+  ],
+  "extraction_hash": "1654054e06bf5ae51d283c72253f6cdb7cc6cade1e5f6d4631439f8ae9e70997",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": true,
+    "cost_usd": null
+  }
+}

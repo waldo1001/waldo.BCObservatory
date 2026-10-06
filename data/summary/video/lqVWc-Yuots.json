@@ -1,0 +1,27 @@
+{
+  "video_id": "lqVWc-Yuots",
+  "item_id": "video/yt-microsoft/lqVWc-Yuots",
+  "summary": "Sustainability changes in Business Central 2026 release wave 1: new APIs (ESG reporting lines, value entries, purchase lines, goals), ESG sales invoice and quote layouts with carbon footprint, a product classification field with UNSPSC, and a carbon tracking method field (average or specific) that is in public preview.",
+  "overview": "The video walks through the sustainability features of the 2026 release wave 1. It covers new APIs for exporting ESG reporting data and exchanging carbon data and goals with external tools, plus new sales report layouts that show carbon footprint to customers.\n\nIt then covers product classification on the item card with UNSPSC support, and the carbon costing model, which is in public preview. The specific method needs item tracking and the presenter recommends testing it in a sandbox. Demos show the ESG sales invoice and quote layouts and the item card fields.",
+  "key_points": [
+    "New API for posted ESG reporting lines has a read-only get method, for exporting CSRD and other compliance data to external tools; native Microsoft integration needs a Power Platform license.",
+    "Sustainability value entry API is read-only; entries are created automatically from posting purchase, sales and production documents.",
+    "Sustainability purchase line API and goals API support get, post and patch, for integrating external software for carbon calculations, emission data import and goals.",
+    "Two ESG posted sales invoice layouts and ESG sales quote layouts show carbon equivalent per line or unit and total carbon footprint in kilograms.",
+    "The item card has a new product classification field; only UNSPSC is available now, it is extendable, and OABL e-document integration is enabled for Denmark as a pilot.",
+    "The carbon tracking method field on the item sustainability fast tab is in public preview; average stays the default to avoid breaking changes, and only one method can be chosen per item.",
+    "The specific carbon costing method requires item tracking with serial or lot numbers; test it in a sandbox."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "8158bf38ebdbcdb6268e4f85064894c35f1cd4e16b75e82247f222862400d1f3",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": true,
+    "cost_usd": null
+  }
+}

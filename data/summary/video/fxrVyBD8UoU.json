@@ -1,0 +1,26 @@
+{
+  "video_id": "fxrVyBD8UoU",
+  "item_id": "video/yt-microsoft/fxrVyBD8UoU",
+  "summary": "Enhanced financial analytics in Business Central 2026 release wave 1: Excel deferral reports with subtotals, performance-tuned trial balance reports behind a feature management flag, out-of-box analysis views planned for 28.X, Copilot Analysis Assist for finance, and new fixed asset demo data.",
+  "overview": "The session covers finance reporting changes aimed at better reports, faster reports and in-client analysis. Excel layout deferral reports for GL, purchase and sales, first released in fall 2025 without subtotals, now ship with subtotals included. Trial balance and trial balance previous year reports have been performance tuned and are placed under a feature management flag, so users can roll back to the old behavior if numbers look wrong.\n\nAnalysis views can now ship out of the box, starting with the GL registered and fixed asset ledgers pages. These are in 28.X and not in the April release. Users can also describe a desired analysis and paste it into Copilot Analysis Assist to get additional reports or analyses. New fixed asset demo data covers acquisitions and depreciations.",
+  "key_points": [
+    "Excel layout deferral reports for GL, purchase and sales now include subtotals out of the box; the fall 2025 version had none.",
+    "Trial balance and trial balance previous year reports are performance tuned and sit under a feature management flag.",
+    "The feature management flag allows rollback to the old behavior, at least for this release wave and possibly the next, if numbers look wrong.",
+    "Out-of-box analysis views are announced for the GL registered and fixed asset ledgers pages; they ship in 28.X, not in the April release.",
+    "Copilot Analysis Assist accepts a pasted description of the desired analysis and generates additional reports or analyses, including ones that need specific account filtering.",
+    "New fixed asset demo data covers acquisitions and depreciations transactions so fixed asset reports can be demonstrated out of the box."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "392665d5283a4297da23c3f5b7bb7afaafd1873f9de8d6d040cbbd322a16f147",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": true,
+    "cost_usd": null
+  }
+}

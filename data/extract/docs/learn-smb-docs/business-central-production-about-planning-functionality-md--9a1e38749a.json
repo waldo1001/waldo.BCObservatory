@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-about-planning-functionality.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-about-planning-functionality",
+  "title": "About planning functionality",
+  "blob": "40fa1af4612bce8a2a00f67c934105eb200f8830",
+  "summary": "Understand the planning system's supply and demand calculation process with planning parameters, worksheets, and multilevel production order management for balancing inventory and fulfilling demand.",
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "planning",
+    "supply planning",
+    "demand planning",
+    "mrp",
+    "mps",
+    "multilevel orders",
+    "planning parameters"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Planning Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Requisition Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Order Planning"
+    },
+    {
+      "type": "page",
+      "name": "Planning Error Log"
+    }
+  ],
+  "features": [
+    "regenerative plan",
+    "net change plan",
+    "planning flexibility",
+    "warning types",
+    "SKU planning policy",
+    "planning parameters",
+    "action messages",
+    "multilevel planning"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00773,
+      "pages_in_call": 8
+    }
+  ]
+}

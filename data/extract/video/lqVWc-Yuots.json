@@ -1,0 +1,360 @@
+{
+  "video_id": "lqVWc-Yuots",
+  "item_id": "video/yt-microsoft/lqVWc-Yuots",
+  "title": "What's New: Sustainability (2026 release wave 1)",
+  "duration_s": 659,
+  "systems": [
+    "sustainability",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "esg-reporting",
+    "carbon-footprint",
+    "sustainability-apis",
+    "csrd-compliance",
+    "product-classification",
+    "unspsc",
+    "carbon-costing",
+    "item-tracking",
+    "value-chain",
+    "e-documents"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview of sustainability features",
+      "t_start": 0,
+      "t_end": 33.4
+    },
+    {
+      "title": "New sustainability APIs and ESG reporting",
+      "t_start": 33.4,
+      "t_end": 114.1
+    },
+    {
+      "title": "Additional APIs for value chain and goals",
+      "t_start": 114.1,
+      "t_end": 178.1
+    },
+    {
+      "title": "New sales layout reports with carbon footprint",
+      "t_start": 178.1,
+      "t_end": 246.2
+    },
+    {
+      "title": "Product classification and UNSPSC integration",
+      "t_start": 246.2,
+      "t_end": 323.4
+    },
+    {
+      "title": "Carbon costing model in public preview",
+      "t_start": 323.4,
+      "t_end": 421.4
+    },
+    {
+      "title": "Carbon tracking method details and requirements",
+      "t_start": 421.4,
+      "t_end": 468.9
+    },
+    {
+      "title": "Demo of ESG sales invoice and quote layouts",
+      "t_start": 468.9,
+      "t_end": 559.7
+    },
+    {
+      "title": "Demo of item card carbon tracking and product classification",
+      "t_start": 559.7,
+      "t_end": 627.4
+    },
+    {
+      "title": "Closing and resources",
+      "t_start": 627.4,
+      "t_end": 659
+    }
+  ],
+  "features": [
+    {
+      "name": "Posted ESG reporting lines API",
+      "description": "New API endpoint with get method to access posted ESG reporting lines. Enables export of CSRD and other compliance reporting data to external ESG reporting tools or compliance platforms.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 45.2,
+      "t_end": 99.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires Power Platform license for native Microsoft integration",
+        "Read-only get method only"
+      ],
+      "tags": [
+        "api",
+        "esg-reporting",
+        "csrd"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Sustainability value entry API",
+      "description": "New API endpoint with get method for sustainability value entries. Allows external systems to access carbon footprint data created from purchase, sales, and production documents for reporting or analysis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 114.1,
+      "t_end": 130,
+      "is_demoed": false,
+      "caveats": [
+        "Read-only get method only",
+        "Entries created automatically from posting"
+      ],
+      "tags": [
+        "api",
+        "value-chain",
+        "scope-three"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Sustainability purchase line API",
+      "description": "New API with get, post, and patch methods for purchase lines. Enables integration with external software for carbon footprint calculations directly on purchase lines and import of emission data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 140.1,
+      "t_end": 167.7,
+      "is_demoed": false,
+      "caveats": [
+        "Designed for integration with external software"
+      ],
+      "tags": [
+        "api",
+        "purchase",
+        "carbon-footprint"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Sustainability goals API",
+      "description": "New API with get, post, and patch methods for goals. Allows integration of goals configured in external third-party software with Business Central for unified tracking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 178.1,
+      "t_end": 193.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "api",
+        "goals",
+        "integration"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "ESG sales invoice layouts",
+      "description": "Two new report layouts for posted sales invoices showing carbon equivalent information per line item and total carbon footprint in kilograms to expose sustainability metrics to customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 193.6,
+      "t_end": 235.1,
+      "is_demoed": true,
+      "caveats": [
+        "Two layout options available"
+      ],
+      "tags": [
+        "reporting",
+        "carbon-footprint",
+        "sales-invoice"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "ESG sales quote layouts",
+      "description": "New report layouts for sales quotes showing carbon equivalent per unit and total carbon footprint to help customers see sustainability impact when sending quotes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 223.7,
+      "t_end": 235.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reporting",
+        "carbon-footprint",
+        "sales-quote"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Product classification item card field",
+      "description": "New field on item card enabling integration with external product classification sources. Supports UNSPSC standard to populate carbon footprint and emission factor data automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 256.2,
+      "t_end": 310.3,
+      "is_demoed": true,
+      "caveats": [
+        "Currently only UNSPSC option available",
+        "Extendable for additional sources",
+        "OABL e-document integration enabled for Denmark as pilot"
+      ],
+      "tags": [
+        "product-classification",
+        "unspsc",
+        "item-master"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Carbon tracking method field",
+      "description": "New field on item sustainability fast tab enabling choice between average and specific carbon costing methods. Specific method provides more accurate carbon footprint tracking using item tracking.",
+      "status": "preview",
+      "status_evidence_t": 395.9,
+      "status_evidence_quote": "You have new field carbon tracking method and this is currently in a public preview.",
+      "status_evidence_verified": true,
+      "t_start": 358.8,
+      "t_end": 421.4,
+      "is_demoed": true,
+      "caveats": [
+        "Specific method requires item tracking for serial numbers or lot numbers",
+        "Average method remains default to prevent breaking changes",
+        "Only one tracking method can be selected per item"
+      ],
+      "tags": [
+        "carbon-costing",
+        "item-tracking",
+        "costing-method"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Specific carbon costing method",
+      "description": "New carbon costing method option providing more accurate carbon footprint tracking compared to the default average method. Works similarly to specific item costing.",
+      "status": "preview",
+      "status_evidence_t": 395.9,
+      "status_evidence_quote": "And this is currently in a public preview.",
+      "status_evidence_verified": true,
+      "t_start": 395.9,
+      "t_end": 421.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires item tracking enabled on items",
+        "Requires serial numbers or lot numbers",
+        "Recommend testing in sandbox environment"
+      ],
+      "tags": [
+        "carbon-costing",
+        "item-tracking",
+        "preview"
+      ],
+      "system": "sustainability"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sustainability value entry",
+      "t": 114.1
+    },
+    {
+      "type": "table",
+      "name": "Sustainability purchase line",
+      "t": 152.4
+    },
+    {
+      "type": "table",
+      "name": "Product classification",
+      "t": 295.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Aleksandar Totovic",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 17.6,
+      "text": "This time you will see a few features uh because we are very close to finish this module. I say the finish it will",
+      "why_it_matters": "Indicates the sustainability module is nearly complete and being treated like mature modules in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 55.9,
+      "text": "If you started to use um reporting for uh CSRD and other types, depends in which country you are, this is something what we",
+      "why_it_matters": "Confirms existing CSRD compliance reporting capability and explains the new API builds on previous work.",
+      "check": "exact"
+    },
+    {
+      "t": 99.8,
+      "text": "So, if you want to use any other tool or if you want to use some other reporting reason for whatever reason you have,",
+      "why_it_matters": "Key design decision not to lock customers into Microsoft's native ESG reporting tool despite deep integration.",
+      "check": "exact"
+    },
+    {
+      "t": 370.5,
+      "text": "Previously, with no configuration option, you had only average model. So, this is the same as a costing method for your costs, but it",
+      "why_it_matters": "Explains the previous limitation that only average carbon costing method was available.",
+      "check": "exact"
+    },
+    {
+      "t": 395.9,
+      "text": "You have new field carbon tracking method and this is currently in a public preview.",
+      "why_it_matters": "Specifies the carbon tracking method feature is in public preview status.",
+      "check": "exact"
+    },
+    {
+      "t": 406.6,
+      "text": "So, by default is average method. So, this is still by default and why? If you already started to use value chain, we didn't",
+      "why_it_matters": "Demonstrates commitment to backward compatibility by keeping average as default despite adding specific method.",
+      "check": "exact"
+    },
+    {
+      "t": 434,
+      "text": "But what it requires, it requires item tracking. So, you cannot use specific method if you do not item tracking.",
+      "why_it_matters": "Key technical requirement that limits specific carbon costing method to items with serial or lot tracking.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 358.8,
+      "kind": "preview",
+      "text": "This is now in a public preview."
+    },
+    {
+      "t": 395.9,
+      "kind": "preview",
+      "text": "this is currently in a public preview"
+    },
+    {
+      "t": 627.4,
+      "kind": "preview",
+      "text": "If you want to check specific method, please do it in a sandbox because this is a public preview."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}
