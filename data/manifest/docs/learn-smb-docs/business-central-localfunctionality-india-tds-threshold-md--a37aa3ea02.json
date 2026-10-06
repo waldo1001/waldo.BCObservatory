@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Threshold",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "8597f5f4f1fe6ad591478105eed2ac91c9967dda",
       "words": 319,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:35.015Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005722
     }
   },
   "input_hash": "8597f5f4f1fe6ad591478105eed2ac91c9967dda",
@@ -41,5 +48,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8597f5f4f1fe6ad591478105eed2ac91c9967dda"
+  "output_hash": "4b0005d4dc8e6ec4b9d48acfaa6aeb3b8e86f60aa99d0876d41e12a969258208"
 }

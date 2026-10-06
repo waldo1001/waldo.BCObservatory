@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Reports",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ae12e3621aee6238562038167a7f3af6b4805203",
       "words": 261,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:23.246Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003451
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:23.254Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:23.255Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:23.256Z",
+      "page": false
     }
   },
   "input_hash": "ae12e3621aee6238562038167a7f3af6b4805203",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ae12e3621aee6238562038167a7f3af6b4805203"
+  "output_hash": "d5cba589fe1fed6215a851ef7cba26468a095d1f226dbe45c96904e0fd08c13c"
 }

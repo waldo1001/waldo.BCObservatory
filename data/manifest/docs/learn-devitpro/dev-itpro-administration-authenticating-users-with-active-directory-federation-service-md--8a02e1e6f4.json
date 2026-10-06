@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-active-directory-federation-service",
   "published_at": "2025-07-15T20:40:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "cdf98910bf819fe3c24273dca51ae9f808beaf8f",
       "words": 1893,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:36.860Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005722
     }
   },
   "input_hash": "cdf98910bf819fe3c24273dca51ae9f808beaf8f",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cdf98910bf819fe3c24273dca51ae9f808beaf8f"
+  "output_hash": "f3fd65241446877c2d1214284d3b29fdca48abc19d318f380999bea8c49b2b25"
 }

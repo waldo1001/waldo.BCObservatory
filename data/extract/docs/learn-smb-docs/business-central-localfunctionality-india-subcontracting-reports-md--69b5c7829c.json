@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/Subcontracting-Reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Reports",
+  "title": "Sub Contracting Reports",
+  "blob": "ae12e3621aee6238562038167a7f3af6b4805203",
+  "summary": "Delivery Challan and Stock Register for Job Work reports document subcontracting transactions in India, including raw materials sent to vendors and GST liability tracking for job work orders.",
+  "systems": [
+    "manufacturing",
+    "localization"
+  ],
+  "topics": [
+    "subcontracting",
+    "delivery challan",
+    "job work",
+    "india",
+    "stock register",
+    "gst"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Delivery Challan"
+    },
+    {
+      "type": "report",
+      "name": "Stock Register for Job work"
+    }
+  ],
+  "features": [
+    "delivery challan number",
+    "challan date",
+    "job work transfer tracking",
+    "GST liability",
+    "consumption entries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003451,
+      "pages_in_call": 8
+    }
+  ]
+}

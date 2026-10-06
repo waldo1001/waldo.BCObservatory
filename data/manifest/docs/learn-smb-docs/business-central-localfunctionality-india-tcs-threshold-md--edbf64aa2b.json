@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Threshold",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "934270626b21b7eefca802400284fcb19b1a3350",
       "words": 187,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:23.248Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003451
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:26.562Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:26.564Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:26.565Z",
+      "page": false
     }
   },
   "input_hash": "934270626b21b7eefca802400284fcb19b1a3350",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "934270626b21b7eefca802400284fcb19b1a3350"
+  "output_hash": "03e182aaf82b9b7c2bc13c3702050209957c65d8567c2913b9d7b637b1929800"
 }

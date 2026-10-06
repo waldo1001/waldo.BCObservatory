@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TDS-Provisional-Entries.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Provisional-Entries",
+  "title": "TDS on Provisional Entries",
+  "blob": "9f69fa306de39bce4ac82bb837c56562c06af0cd",
+  "summary": "TDS on provisional entries explains deducting Tax Deducted at Source on provisional expense entries and managing reversal when actual invoices are posted in India localization.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "tds",
+    "provisional entry",
+    "tax deduction",
+    "india",
+    "reversal"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Journal"
+    },
+    {
+      "type": "page",
+      "name": "Provisional Entries"
+    }
+  ],
+  "features": [
+    "provisional entry marking",
+    "TDS section assignment",
+    "provisional account posting",
+    "invoice application",
+    "reverse transaction",
+    "reverse without TDS",
+    "reversed after TDS paid status"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003451,
+      "pages_in_call": 8
+    }
+  ]
+}

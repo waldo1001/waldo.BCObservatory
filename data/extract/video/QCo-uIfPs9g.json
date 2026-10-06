@@ -1,0 +1,586 @@
+{
+  "video_id": "QCo-uIfPs9g",
+  "item_id": "video/yt-microsoft/QCo-uIfPs9g",
+  "title": "What's New: Extending Copilot in Business Central (2024 Release Wave 2)",
+  "duration_s": 1404,
+  "systems": [
+    "copilot",
+    "development",
+    "projects"
+  ],
+  "topics": [
+    "copilot actions",
+    "prompt dialog",
+    "function calling",
+    "telemetry",
+    "application insights",
+    "managed ai resources",
+    "page extensions",
+    "error messages",
+    "prompt guides",
+    "azure openai",
+    "al toolkit",
+    "tool interface"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Copilot Developer Toolkit Overview",
+      "t_start": 0,
+      "t_end": 89.1
+    },
+    {
+      "title": "Copilot Prompt Actions on Additional Page Types",
+      "t_start": 89.1,
+      "t_end": 203
+    },
+    {
+      "title": "Error and Message Display in Copilot Dialogs",
+      "t_start": 203,
+      "t_end": 304.2
+    },
+    {
+      "title": "Column Resizing, UI Improvements, and Parallel Function Calling",
+      "t_start": 304.2,
+      "t_end": 410.9
+    },
+    {
+      "title": "Telemetry and Application Insights",
+      "t_start": 410.9,
+      "t_end": 516.6
+    },
+    {
+      "title": "Managed AI Resources and Preview Announcement",
+      "t_start": 516.6,
+      "t_end": 592.6
+    },
+    {
+      "title": "Demo and Building the Suggest Project with Copilot Extension",
+      "t_start": 592.6,
+      "t_end": 897.9
+    },
+    {
+      "title": "Building Copilot Actions and Prompt Guides",
+      "t_start": 897.9,
+      "t_end": 952
+    },
+    {
+      "title": "Azure OpenAI Setup and Authorization",
+      "t_start": 952,
+      "t_end": 1073.5
+    },
+    {
+      "title": "Chat Completion and Tool Function Calling",
+      "t_start": 1073.5,
+      "t_end": 1193.1
+    },
+    {
+      "title": "Implementing Copilot Functions and Interfaces",
+      "t_start": 1193.1,
+      "t_end": 1313.2
+    },
+    {
+      "title": "Summary and Next Steps",
+      "t_start": 1313.2,
+      "t_end": 1404
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot Prompt Actions on Card and Document Pages",
+      "description": "Extended support for copilot prompt actions to card page and document page types, in addition to existing list, list part, worksheet and standard dialog support. Allows actions to be rendered with greater prominence and connected to copilot branding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 89.1,
+      "t_end": 161.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot actions",
+        "page types",
+        "prompt actions",
+        "page extension",
+        "user interface"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Error and Message Display in Copilot Dialogs",
+      "description": "Ability to display errors, warnings, and messages directly within copilot prompt dialogs without requiring separate popups. Supports classic dialog error, dialog message, and newer error info patterns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 203,
+      "t_end": 304.2,
+      "is_demoed": true,
+      "caveats": [
+        "Only the last message is shown if multiple are thrown",
+        "Line breaks are not supported in inline experience",
+        "If an error is thrown, subsequent messages will not be rendered"
+      ],
+      "tags": [
+        "error handling",
+        "user experience",
+        "prompt dialog",
+        "messages"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Column Resizing in Copilot Dialogs",
+      "description": "Support to resize columns in copilot prompt dialogs as part of general support across Business Central. Applies per user and per page without requiring personalization permission.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 304.2,
+      "t_end": 350,
+      "is_demoed": true,
+      "caveats": [
+        "Does not require personalization permission"
+      ],
+      "tags": [
+        "ui improvements",
+        "prompt dialog",
+        "column resizing",
+        "user interface"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Parallel Function Calling",
+      "description": "Ability for AI models to return multiple tool calls in one response, optimizing round trips to the LLM. New AL interface available for functions to support this capability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 350,
+      "t_end": 410.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "function calling",
+        "ai optimization",
+        "al interface"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Telemetry for Copilot Features",
+      "description": "Ability to get telemetry events from the AI module sent to Application Insights, allowing ISVs to track feature usage, feature uptake, and issues for their copilot features. Requires app insights connection and telemetry logger setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 410.9,
+      "t_end": 516.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires application insights connection string in app.json",
+        "Requires telemetry logger setup in code"
+      ],
+      "tags": [
+        "telemetry",
+        "application insights",
+        "feature tracking",
+        "monitoring"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Managed AI Resources",
+      "description": "Upcoming capability to enable managed AI resources so partners do not need to bring their own self-managed and dedicated AI resources. Will handle account management, usage tracking, cost management, and deployment scaling.",
+      "status": "preview",
+      "status_evidence_t": 557,
+      "status_evidence_quote": "these manag AI resources they are currently in private preview uh we expect a public preview to open in the end or Al of",
+      "status_evidence_verified": true,
+      "t_start": 516.6,
+      "t_end": 592.6,
+      "is_demoed": false,
+      "caveats": [
+        "Currently in private preview",
+        "Public preview expected end of 2024"
+      ],
+      "tags": [
+        "managed ai",
+        "ai resources",
+        "preview"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Suggest Project with Copilot Feature",
+      "description": "Demo application showing a copilot action on the Project page that allows users to input a project description, generates a project proposal, and suggests tasks. Demonstrates error display in dialogs, column resizing, and function calling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 592.6,
+      "t_end": 897.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "demo",
+        "sample app",
+        "project suggestion",
+        "copilot action"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Prompt Guides",
+      "description": "Custom prompt guides can be added to copilot extensions to guide users on what they can do with the copilot features, helping users discover functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 857.6,
+      "t_end": 897.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "prompt guide",
+        "user guidance",
+        "extension",
+        "copilot action"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Progress Dialog Customization",
+      "description": "Developers can customize the progress dialog message displayed while copilot is working, set user prompts, reset previous outputs, and implement retry logic with up to three attempts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 897.9,
+      "t_end": 952,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "progress dialog",
+        "customization",
+        "error handling"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Manage Resource Authorization for Azure OpenAI",
+      "description": "Partners can now use managed resource authorization with Azure OpenAI through the manage resource authorization code unit, eliminating the need for custom Azure subscriptions. This is currently in a preview program with selected partners and will open to all partners soon.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 992.8,
+      "t_end": 1033,
+      "is_demoed": false,
+      "caveats": [
+        "currently limited to selected partners",
+        "custom Azure subscription alternative still available"
+      ],
+      "tags": [
+        "authorization",
+        "azure openai",
+        "managed resources",
+        "preview"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Capability Registration and Administration",
+      "description": "Developers must register capabilities in the system which enables tracking and allows admins to control on a fine-grained level which copilot capabilities are active in their system.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1012.9,
+      "t_end": 1053.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "capability",
+        "registration",
+        "administration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Temperature and Max Tokens Configuration",
+      "description": "Developers can fine-tune copilot parameters including max tokens and temperature to control output length and creativity level in different scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1033,
+      "t_end": 1073.5,
+      "is_demoed": false,
+      "caveats": [
+        "optional for simple cases"
+      ],
+      "tags": [
+        "configuration",
+        "parameters",
+        "tuning"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Chat Completion Endpoint with System and User Messages",
+      "description": "The copilot chat completion endpoint accepts system messages defining the main task and user messages containing the actual user prompt, following a standard message format.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1073.5,
+      "t_end": 1112.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "chat completion",
+        "system message",
+        "user message"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Tools and Function Calling",
+      "description": "Developers can define tools (functions) that copilot can call, using a JSON object format to specify function definitions with parameters. This replaces the previous XML parsing approach and provides cleaner code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1091.9,
+      "t_end": 1132.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "function calling",
+        "tools",
+        "json format"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Tool Invocation Preferences",
+      "description": "Developers can control how tools are invoked through tool invoke preference settings including automatic invocation, manual invocation, and tool choice restrictions to limit which tools copilot can call.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1112.6,
+      "t_end": 1173,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "tool behavior",
+        "automatic invocation",
+        "tool choice"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AOI Function Interface Implementation",
+      "description": "Developers must implement the AOI function interface which requires three mandated functions: get name, execute, and get prompt. The interface allows copilot to recognize and use custom functions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1193.1,
+      "t_end": 1254.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "interface",
+        "function implementation",
+        "al toolkit"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Prompt Dialog Page Framework",
+      "description": "A structured prompt dialog page with prompt area for user input and content area for copilot-generated output, supporting custom fields and repeaters for displaying results.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 820.1,
+      "t_end": 857.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "page layout",
+        "user interface",
+        "dialog"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "enum",
+      "name": "Copilot Capability",
+      "t": 747.4
+    },
+    {
+      "type": "codeunit",
+      "name": "Copilot Capability Code Unit",
+      "t": 767.4
+    },
+    {
+      "type": "page",
+      "name": "Job List",
+      "t": 787.9
+    },
+    {
+      "type": "page",
+      "name": "Project List",
+      "t": 787.9
+    },
+    {
+      "type": "page",
+      "name": "Prompt Dialog Page",
+      "t": 820.1
+    },
+    {
+      "type": "codeunit",
+      "name": "Suggested Job Generate Proposal Code Unit",
+      "t": 897.9
+    },
+    {
+      "type": "codeunit",
+      "name": "suggest job generate proposal code unit",
+      "t": 897.9
+    },
+    {
+      "type": "interface",
+      "name": "aoi function interface",
+      "t": 1213.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Peter Boring",
+      "confidence": "high"
+    },
+    {
+      "name": "Julia Mulet",
+      "confidence": "high"
+    },
+    {
+      "name": "Enrio Jimyen",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 26.9,
+      "text": "allowing Al developers a quick and convenient way to tap into the Asher open AI service using Al code and bring generative co-pilot experiences",
+      "why_it_matters": "Defines the core purpose and capability of the copilot developer toolkit for AI-powered extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 130.1,
+      "text": "we're now introducing support for co-pilot prompt actions on additional page types C document and list page uh page types",
+      "why_it_matters": "Announces new feature scope expansion for copilot prompt actions beyond previous release support.",
+      "check": "exact"
+    },
+    {
+      "t": 223.6,
+      "text": "co-pilot features that displays a prompt dialogue can now show errors and messages directly inside of the dialogue",
+      "why_it_matters": "Explains new error handling capability that improves user feedback within copilot dialogs.",
+      "check": "snapped"
+    },
+    {
+      "t": 390.2,
+      "text": "we have unblocked parallel function calling so that the model returns uh the tool calls in one response and that optimizes the round trips",
+      "why_it_matters": "Explains performance optimization for AI function calling that reduces latency in copilot interactions.",
+      "check": "exact"
+    },
+    {
+      "t": 557,
+      "text": "these manag AI resources they are currently in private preview uh we expect a public preview to open in the end or Al of",
+      "why_it_matters": "Provides timeline and status for managed AI resources feature that will reduce partner burden for AI resource management.",
+      "check": "exact"
+    },
+    {
+      "t": 820.1,
+      "text": "we have a prompt dialog page and in the layout we have two important areas The Prompt area and the content area",
+      "why_it_matters": "Defines the core structure for building copilot UI dialogs with separate areas for input and output",
+      "check": "exact"
+    },
+    {
+      "t": 1012.9,
+      "text": "with selected partners that is going to open up to every partner",
+      "why_it_matters": "Indicates managed resource authorization for Azure OpenAI is in preview with selected partners, will expand soon",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1053.2,
+      "text": "you can also fine tune some more parameters for example the max tokens or the temperature you don't need to do that",
+      "why_it_matters": "Shows developers have optional tuning capabilities for controlling copilot output quality and creativity",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1132.8,
+      "text": "with the tool invoke preference you can tell our al toolkit that you want the",
+      "why_it_matters": "Developers can control tool invocation behavior including automatic vs manual execution and tool choice restrictions",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1234,
+      "text": "you need to implement all three of them for your function to be recognized by the AL toolkit",
+      "why_it_matters": "Specifies the mandatory interface contract developers must implement to create copilot functions",
+      "check": "snapped"
+    },
+    {
+      "t": 1373.8,
+      "text": "make sure as we mentioned before multiple times to keep an eye on the public preview for manage resources that's coming later this year",
+      "why_it_matters": "Reiterates that managed resources is coming later in the year and is a key feature developers should watch",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 557,
+      "kind": "preview",
+      "text": "managed AI resources they are currently in private preview uh we expect a public preview to open in the end or Al of 2024"
+    },
+    {
+      "t": 1012.9,
+      "kind": "preview",
+      "text": "we are now running this program with selected partners that is going to open up to every partner very soon to use manage resources from Microsoft"
+    },
+    {
+      "t": 1373.8,
+      "kind": "coming-later",
+      "text": "keep an eye on the public preview for manage resources that's coming later this year"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 11,
+    "quotes_dropped": 2,
+    "evidence_verified": 1,
+    "evidence_unverified": 16
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026154999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.031888
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028137
+    }
+  ]
+}

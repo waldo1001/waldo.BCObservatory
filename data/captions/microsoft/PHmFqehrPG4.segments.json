@@ -1,0 +1,271 @@
+{
+  "video_id": "PHmFqehrPG4",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.8,
+      "end": 20.4,
+      "text": "hi and welcome to this episode of watch new in my name is ESP new Christopherson and in this episode I will discuss the enhancements that we have made to interfaces in this"
+    },
+    {
+      "t": 20.4,
+      "end": 40.6,
+      "text": "release it is more than four years since we first released interfaces in Al and although it was integrated with voms from for extensibility from the beginning we have discovered some limitations with that over time and with a couple of new features we are going"
+    },
+    {
+      "t": 40.6,
+      "end": 54.7,
+      "text": "to address this in this release to show how those new features can actually help you build better extensibility I have created a small sample app that I'm going to use in this"
+    },
+    {
+      "t": 54.7,
+      "end": 74.8,
+      "text": "episode it is a shipping cost calculator it allows you to enter a distance and a weight and it will then calculate shipping costs and it is built as a provider model so it allows all third parties to create their own extensions that plugs into the model"
+    },
+    {
+      "t": 74.8,
+      "end": 85.6,
+      "text": "in the from coding the own app and those will be discovered lately and are then available to the"
+    },
+    {
+      "t": 85.6,
+      "end": 105.6,
+      "text": "calculator it is a fairly simple UI on the top there's place to input data distance weight and at the bottom the different costs are shown in the list as I mentioned it is a typical provider model so the calculator app defines an interface for providers"
+    },
+    {
+      "t": 105.6,
+      "end": 125.9,
+      "text": "to calculate cost based on input and there's an enome that allows the shipping provider vendors to add themselves into this calculator now let's move from the slides into the actual code the sample app consists of three small apps there's the"
+    },
+    {
+      "t": 125.9,
+      "end": 146.2,
+      "text": "shipping cost calculator which is the orchestrator the one that defines the interface and actually does the calculation and con contains the UI and then there are two other apps that standard shipping and express shipping they are meant to illustrate how different vendors"
+    },
+    {
+      "t": 146.2,
+      "end": 166.6,
+      "text": "can add their own calculations into the calculator let's start with the interface and I will just get rid of this over there the interface is simple it's called I shipping provider there's a method that just Returns the provider name it can be my own shipping or whatever it's just a string"
+    },
+    {
+      "t": 166.6,
+      "end": 186.7,
+      "text": "and then there's the method which is actually the important part that calculate shipping cost it calculates the cost given a distance and a weight and returns true if it actually calculates something and if it returns true it will also have populated the cost record next up is the enum it's probably"
+    },
+    {
+      "t": 186.7,
+      "end": 207.2,
+      "text": "even simpler it's just a definition of an extensible enum called shipping vendor and it implements the shipping provider and as you probably know that means that all extensions that actually adds a value must also Define a code unit that implements the shipping provider this is how we built extensibility"
+    },
+    {
+      "t": 207.2,
+      "end": 227.3,
+      "text": "into enums four years ago then there's the shipping cost orchestrator it is a code unit it essentially Loops over all the enum values defined by extensions to the shipping window this is what is going on here down there and the for each statement for each shipping"
+    },
+    {
+      "t": 227.3,
+      "end": 247.7,
+      "text": "provider in the shipping vendor it extracts the provider which is the interface and for all those interfaces it cost calculate shipping cost and adds that to the Sal Breakout set and this code unit is called from the UI it's the page on every changed value"
+    },
+    {
+      "t": 247.7,
+      "end": 267.9,
+      "text": "in the input Fields it will call this to calculate um costs implementing a shipping provider is now easy for a vendor all they need to do is to create an enum extension with their own name and a value and give it a caption in this case it's Grand Pass shipping and"
+    },
+    {
+      "t": 267.9,
+      "end": 288.2,
+      "text": "it defines that I a shipping provider is implemented by the standard shipping provider code unit standard shipping provider code unit in this case is also fairly simple it has to provide the methods defined by the interface in this case it's the get provider name in this case Grand Pass shipping and then it calculates a shipping"
+    },
+    {
+      "t": 288.2,
+      "end": 299.8,
+      "text": "cost based on distance and weight and this I mean this case distance is multiplied by 0.5 and weight is multiplied by 0.1"
+    },
+    {
+      "t": 299.8,
+      "end": 310,
+      "text": "and and the delivery time is 5 days and it also has a description which shows up in the UI which is reliable and Cheap"
+    },
+    {
+      "t": 310,
+      "end": 330.8,
+      "text": "shipping sounds good the diagram here shows how this is the architecture behind this there's the code unit knows about the shipping vendor and the shipping provider interface three top level boxes are what is contained into the calculator itself"
+    },
+    {
+      "t": 330.8,
+      "end": 352,
+      "text": "doesn't provide any providers itself it relies on other third parties to deliver their own calculations and in this case I have added the uh standard shipping vendor and the standard shipping provider at the bottom showing how an external party can actually add into the"
+    },
+    {
+      "t": 352,
+      "end": 363.5,
+      "text": "calculation this is how we envisioned this a couple of years ago but if we take a look at this it's not without challenges"
+    },
+    {
+      "t": 363.5,
+      "end": 378.4,
+      "text": "because nothing is static this is software at some point someone wants to actually use Dimensions as input or maybe at some point in the future we want to ship to I don't know other galaxies or something"
+    },
+    {
+      "t": 378.4,
+      "end": 398.6,
+      "text": "and the current interface is not really providing any good ways of of specifying that so what we would like to do is add a new myth to the interface but that breaks all the existing provider apps because they I mean otherwise they will all have to update their own code and go in and add this method even"
+    },
+    {
+      "t": 398.6,
+      "end": 416.6,
+      "text": "though they may not want to ship to other galaxies or provide Dimension calculations changing the method adding another argument or so that also breaks all the all the existing providers actually changing anything on the interface breaks existing"
+    },
+    {
+      "t": 416.6,
+      "end": 436.6,
+      "text": "providers so another option would be we could create a new interface and a new enum that's possible but the existing interface could be big we may even have used it all sorts of places in our own codebase that we will now have to create a complete parallel"
+    },
+    {
+      "t": 436.6,
+      "end": 456.7,
+      "text": "code path to ker4 and this could lead to a lot of code duplication and the next time we need to change something in uh with regards to shipping should we then create another parallel implementation it doesn't really sound appealing in any"
+    },
+    {
+      "t": 456.7,
+      "end": 476.8,
+      "text": "way all we want is just to extend the existing interface without changing or breaking everything so what we have now introduced is a way to extend interfaces this allows you to create a new in interface that extend an existing"
+    },
+    {
+      "t": 476.8,
+      "end": 496.9,
+      "text": "interface in this case I have created the our express shipping provider it allows vendors to uh add calculations for express shipping let's just say I'm inan a overnight shipping or something and they can add a new method to the existing interface"
+    },
+    {
+      "t": 496.9,
+      "end": 511.7,
+      "text": "this is one of the new features extending interfaces syntax is you have the normal interface declaration and then you add extend and then a list of interfaces that this interface"
+    },
+    {
+      "t": 511.7,
+      "end": 527.2,
+      "text": "extends it also means that all implementors of the new interface must Implement all the methods from all the interfaces both the interface itself and all the interface it extends and potential interfaces that those"
+    },
+    {
+      "t": 527.2,
+      "end": 547.4,
+      "text": "extends so it will be a combined list of all the methods from all the extended interfaces how would this look as you can see here this is the express shipping provider it implements the express shipping provider interface which also implicitly means that it it implements the I shipping provider"
+    },
+    {
+      "t": 547.4,
+      "end": 567.6,
+      "text": "I haven't specified it on the implements section here but it's implicit because I express shipping provider implements I shipping provider in this case I have to implement all three methods get provider name this case it's shipping Ros the calculates shipping cost the one that cames"
+    },
+    {
+      "t": 567.6,
+      "end": 587.7,
+      "text": "from the original interface and now the new method here calculate express shipping costs for the enum here you can see I actually only specifies the I shipping provider as being implemented as the express shipping provider and it still works"
+    },
+    {
+      "t": 587.7,
+      "end": 601,
+      "text": "because express shipping provider implicitly implements the ey shipping provider so you can see it here also it implements the original interface"
+    },
+    {
+      "t": 602,
+      "end": 618,
+      "text": "now we comes to the next feature which is actually two in one because it's not enough just to create a new interface that would still be breaking but the trick here is that we never changed the enum the enum is still only providing the I shipping provider"
+    },
+    {
+      "t": 618,
+      "end": 638.2,
+      "text": "interface and that means that all the extension out there implementing that and adding a a value to the enum with that interface will still work but then is a trick how can we actually access those that implements the new improved interface and this is what we do down here we have"
+    },
+    {
+      "t": 638.2,
+      "end": 659.5,
+      "text": "added a new uh way of checking whether an interface implements another interface this is the first line if provider is express shipping provider it's a it's a Boolean expression that tests if the provider also implements I express shipping provider"
+    },
+    {
+      "t": 659.5,
+      "end": 679.9,
+      "text": "and if it does that then we can cast it using the S expression which is also new so we can say if provider is I express shipping provider the result of that expression is now a iexpress shipping provider and then we can call the calculate express shipping"
+    },
+    {
+      "t": 679.9,
+      "end": 692.9,
+      "text": "cost on that provider because now we have changed it to be an iexpress shipping provider and then we can add the results to the costs"
+    },
+    {
+      "t": 692.9,
+      "end": 708.9,
+      "text": "again so if you look at the syntax here first the is operator that's the checking part and in this case the example takes an unknown interface which is also something we added to the system"
+    },
+    {
+      "t": 708.9,
+      "end": 720.1,
+      "text": "application um we have added a i an unknown interface that you can use that gives a common ground for anyone who wants this kind of generic functionality"
+    },
+    {
+      "t": 720.1,
+      "end": 734,
+      "text": "so I use this an example here so I can test whether the interface here unknown pass to this method is actually an iextended shipping provider interface or supports"
+    },
+    {
+      "t": 734,
+      "end": 754.3,
+      "text": "it the left side must be an instance either variable or parameter of type interface or variant and yes you can also use a variant here and it will look inside the variant check if there's a Code unit and check if that codee unit actually implements the interface type"
+    },
+    {
+      "t": 754.3,
+      "end": 774.3,
+      "text": "specified on the right side the S operator syntax is very much alike but it the result value is instead an um an interface of the type of the right side and in case that the left side"
+    },
+    {
+      "t": 774.3,
+      "end": 788.2,
+      "text": "cannot be cast to the right side you will get an error and this is why you should in most cases check first whether the interface you want to cast to is actually"
+    },
+    {
+      "t": 788.2,
+      "end": 803.2,
+      "text": "implemented and now it's demo time so let's try to see how it looks we have the shipping cost calculator I can enter distance and weight let me just start by enter"
+    },
+    {
+      "t": 803.2,
+      "end": 823.4,
+      "text": "distance 100 kilm and already here I get some even though there is no weight on it let's say it 5 kilos and as you can see I actually get two cost calculations from Shipping RS that's the one that actually implements the new Express cost and I can get both an"
+    },
+    {
+      "t": 823.4,
+      "end": 840.2,
+      "text": "eco-friendly shipping by horses and super fast trains planes and Automobiles and for the old Grand Pass shipping doesn't support the new express delivery so it will only provide me with reliable and Cheap shipping"
+    },
+    {
+      "t": 840.2,
+      "end": 857.9,
+      "text": "the sample I have shown here is of course a very simplified version of reality you have all extensibility requirements which are much more complex than what I have shown here this is a boil down version suitable for"
+    },
+    {
+      "t": 857.9,
+      "end": 875.4,
+      "text": "video but you will probably have to do a lot more work around this when you implement this yourself but I think this is a very very good addition to the existing interface feature that will make it a lot more"
+    },
+    {
+      "t": 875.4,
+      "end": 885,
+      "text": "useful thank you for watching and hope you will use this to improve your own extensibility thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.04,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.789,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.799,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2022
+}

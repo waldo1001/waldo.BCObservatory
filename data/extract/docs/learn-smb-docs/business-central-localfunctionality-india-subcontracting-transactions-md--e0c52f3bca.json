@@ -1,0 +1,68 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/Subcontracting-Transactions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Transactions",
+  "title": "Sub-Contracting Order Creation",
+  "blob": "5411fbd462e36a0d47bc9f6e4f9fbef4018313fe",
+  "summary": "Subcontracting order creation workflow requires a released production order and uses the subcontracting worksheet to create orders, then manages material delivery to and receipt from subcontractors with delivery challan tracking.",
+  "systems": [
+    "manufacturing",
+    "localization"
+  ],
+  "topics": [
+    "subcontracting",
+    "production order",
+    "material transfer",
+    "delivery challan",
+    "india"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Subcontracting worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Subcontracting Order"
+    },
+    {
+      "type": "page",
+      "name": "Ord. Subcon Details Delv."
+    },
+    {
+      "type": "page",
+      "name": "Order Subcon Details Delivery"
+    },
+    {
+      "type": "page",
+      "name": "Ord. Subcon Details Rcpt."
+    },
+    {
+      "type": "page",
+      "name": "Order Subcon Details Receipt"
+    },
+    {
+      "type": "page",
+      "name": "Apply Delivery Challan"
+    }
+  ],
+  "features": [
+    "released production order",
+    "subcontracting location",
+    "material issue",
+    "delivery challan date",
+    "vendor shipment tracking",
+    "quantity acceptance",
+    "delivery challan application"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003451,
+      "pages_in_call": 8
+    }
+  ]
+}

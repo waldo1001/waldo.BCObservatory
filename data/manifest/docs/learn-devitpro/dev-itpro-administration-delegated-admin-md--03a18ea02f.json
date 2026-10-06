@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/delegated-admin",
   "published_at": "2025-07-15T20:40:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "b691222bceae27cfb41139abbac58098ed7b8cf4",
       "words": 1097,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:36.862Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005722
     }
   },
   "input_hash": "b691222bceae27cfb41139abbac58098ed7b8cf4",
@@ -40,5 +47,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b691222bceae27cfb41139abbac58098ed7b8cf4"
+  "output_hash": "c68457653ec9a6b287e2b082d758f1059fa2dd29f06070575324af65f3954031"
 }

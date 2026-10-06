@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Provisional-Entries",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9f69fa306de39bce4ac82bb837c56562c06af0cd",
       "words": 541,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:23.253Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003451
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:26.576Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:26.577Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:26.578Z",
+      "page": false
     }
   },
   "input_hash": "9f69fa306de39bce4ac82bb837c56562c06af0cd",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9f69fa306de39bce4ac82bb837c56562c06af0cd"
+  "output_hash": "33bb28ae7bb380894d184c7fa03a0a50e1ef4c968954c3312a30a4bba29a4fcd"
 }

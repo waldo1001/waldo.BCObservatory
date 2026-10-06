@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Transactions",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "f8abaa7161de93b366d28f2a4f9b81b01364e7c4",
       "words": 981,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:35.016Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.005722
     }
   },
   "input_hash": "f8abaa7161de93b366d28f2a4f9b81b01364e7c4",
@@ -43,5 +50,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f8abaa7161de93b366d28f2a4f9b81b01364e7c4"
+  "output_hash": "92dcb616e6f84246c620d6c6b017f4985c0aab62241849c04bdb74c6a3afe0ca"
 }

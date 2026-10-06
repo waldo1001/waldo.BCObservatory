@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TDS-Threshold.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Threshold",
+  "title": "TDS calculation considering Threshold limits",
+  "blob": "8597f5f4f1fe6ad591478105eed2ac91c9967dda",
+  "summary": "TDS calculation considering Threshold limits documents how Tax Deducted at Source is calculated only when transaction amounts exceed specified thresholds, with different threshold limits for aggregate and single transaction amounts in a financial year.",
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "tds threshold",
+    "tds calculation",
+    "tax deduction",
+    "india localization",
+    "threshold limits"
+  ],
+  "objects": [],
+  "features": [
+    "threshold limit enforcement",
+    "aggregate amount calculation",
+    "single transaction threshold",
+    "tds deduction rules"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005722,
+      "pages_in_call": 8
+    }
+  ]
+}

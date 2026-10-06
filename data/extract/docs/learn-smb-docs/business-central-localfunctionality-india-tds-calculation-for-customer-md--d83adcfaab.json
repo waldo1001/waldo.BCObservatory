@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TDS-Calculation-for-Customer.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Calculation-for-Customer",
+  "title": "TDS calculation for Customer",
+  "blob": "b7bb0b35c928430d12571fce31b5b77e4243073d",
+  "summary": "TDS calculation for customer documents the process of deducting Tax Deducted at Source on customer payments and tracking TDS certificates receivable from customers in India.",
+  "systems": [
+    "sales",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "tds",
+    "customer",
+    "certificate receivable",
+    "india",
+    "tax deduction"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journal"
+    },
+    {
+      "type": "page",
+      "name": "Cash Receipt Voucher"
+    },
+    {
+      "type": "page",
+      "name": "Bank Receipt Voucher"
+    },
+    {
+      "type": "page",
+      "name": "Cash Receipt Journal"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoice"
+    }
+  ],
+  "features": [
+    "TDS certificate receivable",
+    "TDS section selection",
+    "customer receipt tracking",
+    "certificate identification",
+    "customer ledger entry",
+    "location code requirement"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003451,
+      "pages_in_call": 8
+    }
+  ]
+}

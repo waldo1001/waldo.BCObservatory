@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=GbMjcJurkFE",
   "published_at": "2024-10-08T15:00:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -16,6 +16,15 @@
       "at": "2026-10-06T19:17:07.795Z",
       "captions": "auto:en-orig",
       "duration_s": 528
+    },
+    "captioned": {
+      "at": "2026-10-06T19:17:13.890Z",
+      "path": "data/captions/microsoft/GbMjcJurkFE.vtt",
+      "vtt_sha256": "42a895abc06a81499dce752452a7b626aa6c3db48abe09a98cafe42a7784068d",
+      "segments": 27,
+      "words": 1646,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -32,5 +41,6 @@
     }
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "42a895abc06a81499dce752452a7b626aa6c3db48abe09a98cafe42a7784068d"
 }

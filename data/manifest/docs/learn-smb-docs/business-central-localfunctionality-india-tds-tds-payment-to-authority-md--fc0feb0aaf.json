@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-TDS-Payment-to-Authority",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c8376e20f7870cc1558275a854bed7c94960e245",
       "words": 155,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:35.014Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.005722
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:36.864Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:36.865Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:36.866Z",
+      "page": false
     }
   },
   "input_hash": "c8376e20f7870cc1558275a854bed7c94960e245",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c8376e20f7870cc1558275a854bed7c94960e245"
+  "output_hash": "5f36f97a674c488159713f259d8f9dbf493591faafb071364b3316922fc0f65f"
 }

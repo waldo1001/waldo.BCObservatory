@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/security/security-service-tags.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-service-tags",
+  "title": "Use Azure security service tags",
+  "blob": "50857a71c2228ac3ea473d805d52dcb6da7d07b5",
+  "summary": "Use Azure security service tags to restrict network access from/to Business Central by using the Dynamics365BusinessCentral service tag to control firewall and network security group rules for traffic to Business Central environments.",
+  "systems": [
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "azure service tags",
+    "network security",
+    "firewall rules",
+    "ip restrictions",
+    "business central access"
+  ],
+  "objects": [],
+  "features": [
+    "service tag filtering",
+    "network access control",
+    "firewall configuration",
+    "ip range management",
+    "delegated admin access"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005722,
+      "pages_in_call": 8
+    }
+  ]
+}

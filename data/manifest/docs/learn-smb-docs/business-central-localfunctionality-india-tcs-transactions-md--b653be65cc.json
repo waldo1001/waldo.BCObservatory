@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Transactions",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ef69c05efc8ac1a3ded34da4ff633386ef2459c1",
       "words": 1044,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:23.249Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.003451
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:26.566Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:26.567Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:26.568Z",
+      "page": false
     }
   },
   "input_hash": "ef69c05efc8ac1a3ded34da4ff633386ef2459c1",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ef69c05efc8ac1a3ded34da4ff633386ef2459c1"
+  "output_hash": "f149b32a9c85d8f0867446f7ebe5220c2b6a3a7115600027d84de17d75630ff6"
 }

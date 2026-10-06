@@ -1,0 +1,26 @@
+{
+  "video_id": "QCo-uIfPs9g",
+  "item_id": "video/yt-microsoft/QCo-uIfPs9g",
+  "summary": "Copilot extensibility changes for developers in Business Central 2024 release wave 2: prompt actions on card and document pages, errors and messages inside prompt dialogs, parallel function calling, telemetry to Application Insights, and managed AI resources (private preview). Includes a \"Suggest Project with Copilot\" build walkthrough.",
+  "overview": "The session covers what is new for developers extending Copilot in Business Central in 2024 release wave 2. It lists the platform changes: copilot prompt actions on more page types, inline errors and messages in prompt dialogs, column resizing, parallel function calling, and telemetry to Application Insights. It also covers managed AI resources, which are in private preview, with a public preview expected at the end of 2024.\n\nThe second part builds a \"Suggest Project with Copilot\" extension on the Project page. The walkthrough registers a capability, builds a prompt dialog page and prompt guides, sets up Azure OpenAI authorization, and uses chat completion with tools and function calling. It finishes by implementing the function interface.",
+  "key_points": [
+    "Copilot prompt actions now work on card and document pages, in addition to list, list part, worksheet and standard dialog pages.",
+    "Errors, warnings and messages can show inside a copilot prompt dialog. Only the last message is shown, line breaks are not supported, and after an error is thrown later messages are not rendered.",
+    "Parallel function calling lets the model return several tool calls in one response, which reduces round trips. A new AL interface supports it.",
+    "Telemetry to Application Insights needs a connection string in app.json and a telemetry logger set up in code.",
+    "Managed AI resources are in private preview, with a public preview expected at the end of 2024. Managed resource authorization with Azure OpenAI is limited to selected partners for now. A custom Azure subscription is still an option.",
+    "Tools are defined as JSON function definitions, replacing XML parsing. A function must implement the three required interface functions (get name, execute, get prompt) to be recognized.",
+    "Capabilities must be registered so admins can control which copilot capabilities are active. Max tokens and temperature are optional settings."
+  ],
+  "audience": [
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "8fc3aafdf076241a2ce294f1370f0fbb7e75f390e6a673d781f6518239dc9ee3",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.022820399999999998
+  }
+}

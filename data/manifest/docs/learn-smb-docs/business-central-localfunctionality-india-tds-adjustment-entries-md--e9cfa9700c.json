@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Adjustment-Entries",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e0b6025d6497706e3e0943ea6b844cddec19842a",
       "words": 176,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:23.251Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003451
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:26.571Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:26.572Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:26.573Z",
+      "page": false
     }
   },
   "input_hash": "e0b6025d6497706e3e0943ea6b844cddec19842a",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e0b6025d6497706e3e0943ea6b844cddec19842a"
+  "output_hash": "a4ef47d537486723024131726138a82f9bff7fc8a6ce70bf75b9de5f70376444"
 }

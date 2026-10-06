@@ -1,0 +1,78 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Norway/norwegian-vat-reporting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Norway/norwegian-vat-reporting",
+  "title": "Norwegian VAT reporting [NO]",
+  "blob": "f621d3f8d229bd5fd801a3fe93ab9f9039511312",
+  "summary": "Norwegian VAT reporting describes the process for generating and submitting electronic VAT returns to Norwegian tax authorities through ID-Porten integration, including setup, authorization, VAT statement mapping, and VAT period management.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat reporting",
+    "norway localization",
+    "electronic submission",
+    "id-porten",
+    "vat setup",
+    "tax authorities"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Assisted Setup"
+    },
+    {
+      "type": "page",
+      "name": "Electronic VAT Setup"
+    },
+    {
+      "type": "page",
+      "name": "OAuth 2.0 Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Report Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Returns"
+    },
+    {
+      "type": "page",
+      "name": "VAT Settlement"
+    },
+    {
+      "type": "page",
+      "name": "VAT Period"
+    },
+    {
+      "type": "page",
+      "name": "Settled VAT Period"
+    },
+    {
+      "type": "report",
+      "name": "Calc. and Post VAT Settlement"
+    }
+  ],
+  "features": [
+    "ID-Porten integration",
+    "electronic VAT submission",
+    "OAuth 2.0 authorization",
+    "VAT period closure",
+    "VAT statement mapping",
+    "concessional rate configuration"
+  ],
+  "versions": [
+    "23.5"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005722,
+      "pages_in_call": 8
+    }
+  ]
+}

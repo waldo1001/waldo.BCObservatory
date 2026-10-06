@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/authenticating-users-with-active-directory-federation-service.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-active-directory-federation-service",
+  "title": "Authenticating Users with Active Directory Federation Services",
+  "blob": "cdf98910bf819fe3c24273dca51ae9f808beaf8f",
+  "summary": "Authenticating Users with Active Directory Federation Services explains how to configure AD FS for Business Central authentication by setting up relying party trusts, claims rules, and configuring server and client instances for SAML or JWT token support.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "ad fs authentication",
+    "active directory",
+    "claims based authentication",
+    "federation",
+    "user authentication",
+    "windows authentication"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "User Card"
+    }
+  ],
+  "features": [
+    "AD FS relying party trust",
+    "SAML token support",
+    "JWT token support",
+    "WS-Federation protocol",
+    "credential type configuration",
+    "multi-factor authentication"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005722,
+      "pages_in_call": 8
+    }
+  ]
+}

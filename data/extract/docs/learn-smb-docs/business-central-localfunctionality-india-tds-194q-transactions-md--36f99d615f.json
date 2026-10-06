@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TDS-194Q-Transactions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-194Q-Transactions",
+  "title": "TDS calculation and transactions as per Section 194Q",
+  "blob": "786d6b6f098d22eeadacde71cb1a24fe33f8224e",
+  "summary": "TDS Section 194Q calculation applies tax deduction on purchase invoices and payments exceeding 50 lakh rupees threshold with amount over threshold liable for 0.1% TDS in India.",
+  "systems": [
+    "purchasing",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "tds",
+    "tax deduction",
+    "section 194q",
+    "india",
+    "threshold"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Order"
+    },
+    {
+      "type": "page",
+      "name": "General Journal"
+    },
+    {
+      "type": "page",
+      "name": "Payment Journal"
+    }
+  ],
+  "features": [
+    "194Q threshold",
+    "TDS rate 0.1%",
+    "opening balance tracking",
+    "cumulative value calculation",
+    "advance payment deduction"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003451,
+      "pages_in_call": 8
+    }
+  ]
+}

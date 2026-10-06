@@ -1,0 +1,74 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TCS-Transactions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Transactions",
+  "title": "TCS calculation on Sales and Receipt Transactions",
+  "blob": "ef69c05efc8ac1a3ded34da4ff633386ef2459c1",
+  "summary": "TCS calculation on sales and receipt transactions covers applying Tax Collected at Source to various document types including sales invoices, orders, returns, and receipt journals with multiple scenarios for rates, PAN status, and foreign currency.",
+  "systems": [
+    "sales",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "tcs",
+    "tax collection",
+    "sales transactions",
+    "india",
+    "rate certificates"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journal"
+    },
+    {
+      "type": "page",
+      "name": "Sales Journal"
+    },
+    {
+      "type": "page",
+      "name": "Cash Receipt Voucher"
+    },
+    {
+      "type": "page",
+      "name": "Bank Receipt Voucher"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order"
+    },
+    {
+      "type": "page",
+      "name": "Sales Return Order"
+    },
+    {
+      "type": "page",
+      "name": "Sales Credit Memo"
+    }
+  ],
+  "features": [
+    "TCS Nature of Collection",
+    "T.C.A.N number",
+    "PAN verification",
+    "lower rate certificates",
+    "zero rate application",
+    "advance payment adjustment",
+    "foreign currency conversion",
+    "multiple nature of goods"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003451,
+      "pages_in_call": 8
+    }
+  ]
+}

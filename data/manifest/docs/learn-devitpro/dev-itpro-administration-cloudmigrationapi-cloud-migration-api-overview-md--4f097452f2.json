@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloudmigrationapi/cloud-migration-api-overview",
   "published_at": "2025-07-15T20:40:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "fe7e571a55dd3485ffdc0da75dd4e9d6138e951e",
       "words": 411,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:36.861Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005722
     }
   },
   "input_hash": "fe7e571a55dd3485ffdc0da75dd4e9d6138e951e",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fe7e571a55dd3485ffdc0da75dd4e9d6138e951e"
+  "output_hash": "94166470b20bd057773aad177d089bfb9353a552769f0787cadeb9854d4c958e"
 }

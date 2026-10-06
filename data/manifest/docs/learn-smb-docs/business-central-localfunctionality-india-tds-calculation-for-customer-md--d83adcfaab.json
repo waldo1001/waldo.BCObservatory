@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Calculation-for-Customer",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b7bb0b35c928430d12571fce31b5b77e4243073d",
       "words": 502,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:23.252Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.003451
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:26.574Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:26.574Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:26.575Z",
+      "page": false
     }
   },
   "input_hash": "b7bb0b35c928430d12571fce31b5b77e4243073d",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b7bb0b35c928430d12571fce31b5b77e4243073d"
+  "output_hash": "15c999f57506d99e44290e88e476222b2dd6d7ebb4354bc7bb264359c0f90572"
 }

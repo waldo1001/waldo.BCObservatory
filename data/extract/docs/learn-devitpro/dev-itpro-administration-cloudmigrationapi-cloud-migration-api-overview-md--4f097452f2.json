@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/cloudmigrationapi/cloud-migration-api-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloudmigrationapi/cloud-migration-api-overview",
+  "title": "Cloud Migration API Overview",
+  "blob": "fe7e571a55dd3485ffdc0da75dd4e9d6138e951e",
+  "summary": "Cloud Migration API Overview provides the REST API endpoints and procedures for automating cloud migration end-to-end, including setup, data movement, progress tracking, upgrade triggering, and replication management.",
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "cloud migration",
+    "api",
+    "rest endpoints",
+    "data migration",
+    "automation",
+    "replication"
+  ],
+  "objects": [],
+  "features": [
+    "setup cloud migration",
+    "create companies",
+    "track migration status",
+    "run replication",
+    "data upgrade",
+    "disable replication"
+  ],
+  "versions": [
+    "v1.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005722,
+      "pages_in_call": 8
+    }
+  ]
+}

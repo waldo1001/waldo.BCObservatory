@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TDS-Transactions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Transactions",
+  "title": "TDS calculation on Purchase and Payment Transactions",
+  "blob": "f8abaa7161de93b366d28f2a4f9b81b01364e7c4",
+  "summary": "TDS calculation on Purchase and Payment Transactions explains TDS deduction on expenses for various document types including purchase orders, invoices, journals, with rules for mandatory fields, special rates for non-residents, concessional rates, and partial expense subject to TDS.",
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "tds calculation",
+    "purchase transactions",
+    "payment transactions",
+    "tax deduction",
+    "india localization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journal"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Journal"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Order"
+    }
+  ],
+  "features": [
+    "TDS section selection",
+    "non-resident vendor TDS",
+    "concessional rate handling",
+    "higher rate for missing PAN",
+    "partial expense TDS",
+    "multiple expenses per invoice",
+    "foreign currency conversion"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005722,
+      "pages_in_call": 8
+    }
+  ]
+}
