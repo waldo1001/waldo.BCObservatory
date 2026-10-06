@@ -1,0 +1,2088 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.710 align:start position:0%
+ 
+[Music]
+
+00:00:04.710 --> 00:00:04.720 align:start position:0%
+ 
+ 
+
+00:00:04.720 --> 00:00:06.670 align:start position:0%
+ 
+welcome<00:00:05.040><c> to</c><00:00:05.240><c> this</c><00:00:05.440><c> session</c><00:00:06.000><c> about</c><00:00:06.279><c> mocking</c>
+
+00:00:06.670 --> 00:00:06.680 align:start position:0%
+welcome to this session about mocking
+ 
+
+00:00:06.680 --> 00:00:09.629 align:start position:0%
+welcome to this session about mocking
+outbound<00:00:07.240><c> calls</c><00:00:07.680><c> for</c><00:00:08.000><c> easier</c><00:00:08.480><c> testing</c><00:00:09.480><c> I'm</c>
+
+00:00:09.629 --> 00:00:09.639 align:start position:0%
+outbound calls for easier testing I'm
+ 
+
+00:00:09.639 --> 00:00:11.990 align:start position:0%
+outbound calls for easier testing I'm
+Stefan<00:00:10.040><c> and</c><00:00:10.200><c> with</c><00:00:10.320><c> me</c><00:00:10.480><c> I</c><00:00:10.599><c> have</c><00:00:10.920><c> balash</c><00:00:11.920><c> and</c>
+
+00:00:11.990 --> 00:00:12.000 align:start position:0%
+Stefan and with me I have balash and
+ 
+
+00:00:12.000 --> 00:00:13.669 align:start position:0%
+Stefan and with me I have balash and
+we're<00:00:12.200><c> going</c><00:00:12.280><c> to</c><00:00:12.440><c> talk</c><00:00:12.639><c> about</c><00:00:12.880><c> what's</c><00:00:13.120><c> new</c><00:00:13.480><c> in</c>
+
+00:00:13.669 --> 00:00:13.679 align:start position:0%
+we're going to talk about what's new in
+ 
+
+00:00:13.679 --> 00:00:14.470 align:start position:0%
+we're going to talk about what's new in
+this
+
+00:00:14.470 --> 00:00:14.480 align:start position:0%
+this
+ 
+
+00:00:14.480 --> 00:00:17.310 align:start position:0%
+this
+release<00:00:15.480><c> when</c><00:00:15.639><c> we</c><00:00:15.799><c> build</c><00:00:16.240><c> applications</c><00:00:17.119><c> that</c>
+
+00:00:17.310 --> 00:00:17.320 align:start position:0%
+release when we build applications that
+ 
+
+00:00:17.320 --> 00:00:20.550 align:start position:0%
+release when we build applications that
+rely<00:00:17.760><c> on</c><00:00:18.000><c> external</c><00:00:18.880><c> Services</c><00:00:19.880><c> we</c><00:00:20.039><c> are</c><00:00:20.240><c> often</c>
+
+00:00:20.550 --> 00:00:20.560 align:start position:0%
+rely on external Services we are often
+ 
+
+00:00:20.560 --> 00:00:22.310 align:start position:0%
+rely on external Services we are often
+challenged<00:00:21.119><c> with</c><00:00:21.320><c> testing</c><00:00:21.680><c> the</c><00:00:21.840><c> integration</c>
+
+00:00:22.310 --> 00:00:22.320 align:start position:0%
+challenged with testing the integration
+ 
+
+00:00:22.320 --> 00:00:25.470 align:start position:0%
+challenged with testing the integration
+code<00:00:22.880><c> itself</c><00:00:23.880><c> if</c><00:00:24.080><c> we</c><00:00:24.240><c> connect</c><00:00:24.560><c> to</c><00:00:24.760><c> the</c><00:00:24.920><c> actual</c>
+
+00:00:25.470 --> 00:00:25.480 align:start position:0%
+code itself if we connect to the actual
+ 
+
+00:00:25.480 --> 00:00:28.349 align:start position:0%
+code itself if we connect to the actual
+service<00:00:26.480><c> we</c><00:00:26.599><c> need</c><00:00:26.760><c> to</c><00:00:27.000><c> consider</c><00:00:27.720><c> how</c><00:00:28.160><c> that</c>
+
+00:00:28.349 --> 00:00:28.359 align:start position:0%
+service we need to consider how that
+ 
+
+00:00:28.359 --> 00:00:31.670 align:start position:0%
+service we need to consider how that
+service<00:00:28.720><c> will</c><00:00:28.920><c> be</c><00:00:29.160><c> impacted</c><00:00:29.640><c> by</c><00:00:30.160><c> running</c>
+
+00:00:31.670 --> 00:00:31.680 align:start position:0%
+service will be impacted by running
+ 
+
+00:00:31.680 --> 00:00:34.470 align:start position:0%
+service will be impacted by running
+tests<00:00:32.680><c> will</c><00:00:32.920><c> it</c><00:00:33.160><c> impact</c><00:00:33.520><c> production</c><00:00:34.040><c> perhaps</c>
+
+00:00:34.470 --> 00:00:34.480 align:start position:0%
+tests will it impact production perhaps
+ 
+
+00:00:34.480 --> 00:00:35.990 align:start position:0%
+tests will it impact production perhaps
+is<00:00:34.600><c> there</c><00:00:34.800><c> rate</c><00:00:35.040><c> limits</c><00:00:35.480><c> is</c><00:00:35.600><c> there</c><00:00:35.760><c> other</c>
+
+00:00:35.990 --> 00:00:36.000 align:start position:0%
+is there rate limits is there other
+ 
+
+00:00:36.000 --> 00:00:37.670 align:start position:0%
+is there rate limits is there other
+scenarios<00:00:36.480><c> we</c><00:00:36.600><c> need</c><00:00:36.719><c> to</c><00:00:36.879><c> think</c><00:00:37.040><c> about</c><00:00:37.360><c> if</c><00:00:37.480><c> we</c>
+
+00:00:37.670 --> 00:00:37.680 align:start position:0%
+scenarios we need to think about if we
+ 
+
+00:00:37.680 --> 00:00:39.670 align:start position:0%
+scenarios we need to think about if we
+actually<00:00:38.040><c> hit</c><00:00:38.360><c> the</c><00:00:38.480><c> end</c><00:00:38.840><c> point</c><00:00:39.160><c> during</c><00:00:39.440><c> our</c>
+
+00:00:39.670 --> 00:00:39.680 align:start position:0%
+actually hit the end point during our
+ 
+
+00:00:39.680 --> 00:00:41.869 align:start position:0%
+actually hit the end point during our
+test<00:00:39.920><c> runs</c><00:00:40.520><c> and</c><00:00:40.760><c> how</c><00:00:40.920><c> can</c><00:00:41.079><c> we</c><00:00:41.239><c> make</c><00:00:41.399><c> sure</c><00:00:41.680><c> that</c>
+
+00:00:41.869 --> 00:00:41.879 align:start position:0%
+test runs and how can we make sure that
+ 
+
+00:00:41.879 --> 00:00:45.549 align:start position:0%
+test runs and how can we make sure that
+tests<00:00:42.239><c> are</c><00:00:42.559><c> isolated</c><00:00:43.280><c> when</c><00:00:43.399><c> we</c><00:00:43.559><c> run</c><00:00:43.840><c> them</c>
+
+00:00:45.549 --> 00:00:45.559 align:start position:0%
+tests are isolated when we run them
+ 
+
+00:00:45.559 --> 00:00:48.069 align:start position:0%
+tests are isolated when we run them
+repeatedly<00:00:46.559><c> and</c><00:00:46.719><c> how</c><00:00:46.840><c> can</c><00:00:47.000><c> we</c><00:00:47.199><c> make</c><00:00:47.399><c> sure</c><00:00:47.920><c> that</c>
+
+00:00:48.069 --> 00:00:48.079 align:start position:0%
+repeatedly and how can we make sure that
+ 
+
+00:00:48.079 --> 00:00:50.869 align:start position:0%
+repeatedly and how can we make sure that
+we<00:00:48.199><c> maintain</c><00:00:48.719><c> a</c><00:00:48.960><c> consistent</c><00:00:49.719><c> behavior</c><00:00:50.199><c> on</c><00:00:50.680><c> the</c>
+
+00:00:50.869 --> 00:00:50.879 align:start position:0%
+we maintain a consistent behavior on the
+ 
+
+00:00:50.879 --> 00:00:53.590 align:start position:0%
+we maintain a consistent behavior on the
+external<00:00:51.239><c> endpoint</c><00:00:51.760><c> between</c><00:00:52.120><c> test</c><00:00:52.480><c> runs</c><00:00:53.480><c> if</c>
+
+00:00:53.590 --> 00:00:53.600 align:start position:0%
+external endpoint between test runs if
+ 
+
+00:00:53.600 --> 00:00:56.750 align:start position:0%
+external endpoint between test runs if
+we<00:00:53.760><c> then</c><00:00:54.079><c> take</c><00:00:54.440><c> in</c><00:00:55.440><c> the</c><00:00:55.640><c> external</c><00:00:56.120><c> service</c><00:00:56.559><c> and</c>
+
+00:00:56.750 --> 00:00:56.760 align:start position:0%
+we then take in the external service and
+ 
+
+00:00:56.760 --> 00:00:58.790 align:start position:0%
+we then take in the external service and
+try<00:00:56.960><c> to</c><00:00:57.280><c> simulate</c><00:00:57.800><c> it</c><00:00:57.960><c> in</c><00:00:58.120><c> our</c><00:00:58.480><c> test</c>
+
+00:00:58.790 --> 00:00:58.800 align:start position:0%
+try to simulate it in our test
+ 
+
+00:00:58.800 --> 00:01:00.430 align:start position:0%
+try to simulate it in our test
+environment<00:00:59.359><c> but</c><00:00:59.519><c> outside</c>
+
+00:01:00.430 --> 00:01:00.440 align:start position:0%
+environment but outside
+ 
+
+00:01:00.440 --> 00:01:02.630 align:start position:0%
+environment but outside
+BC<00:01:01.440><c> we</c><00:01:01.600><c> are</c><00:01:01.719><c> challenged</c><00:01:02.199><c> with</c><00:01:02.399><c> other</c>
+
+00:01:02.630 --> 00:01:02.640 align:start position:0%
+BC we are challenged with other
+ 
+
+00:01:02.640 --> 00:01:05.550 align:start position:0%
+BC we are challenged with other
+scenarios<00:01:03.359><c> like</c><00:01:03.640><c> changing</c><00:01:04.479><c> the</c><00:01:04.720><c> versions</c><00:01:05.360><c> and</c>
+
+00:01:05.550 --> 00:01:05.560 align:start position:0%
+scenarios like changing the versions and
+ 
+
+00:01:05.560 --> 00:01:07.630 align:start position:0%
+scenarios like changing the versions and
+changing<00:01:06.000><c> the</c><00:01:06.320><c> behavior</c><00:01:06.960><c> and</c><00:01:07.119><c> making</c><00:01:07.320><c> sure</c>
+
+00:01:07.630 --> 00:01:07.640 align:start position:0%
+changing the behavior and making sure
+ 
+
+00:01:07.640 --> 00:01:09.429 align:start position:0%
+changing the behavior and making sure
+things<00:01:07.799><c> are</c><00:01:08.040><c> aligned</c><00:01:08.439><c> between</c><00:01:08.720><c> the</c><00:01:08.880><c> test</c><00:01:09.159><c> code</c>
+
+00:01:09.429 --> 00:01:09.439 align:start position:0%
+things are aligned between the test code
+ 
+
+00:01:09.439 --> 00:01:11.510 align:start position:0%
+things are aligned between the test code
+and<00:01:09.720><c> the</c><00:01:10.159><c> the</c><00:01:10.360><c> actual</c><00:01:10.720><c> service</c><00:01:11.159><c> that</c><00:01:11.280><c> we</c><00:01:11.400><c> are</c>
+
+00:01:11.510 --> 00:01:11.520 align:start position:0%
+and the the actual service that we are
+ 
+
+00:01:11.520 --> 00:01:13.429 align:start position:0%
+and the the actual service that we are
+testing<00:01:11.920><c> in</c><00:01:12.040><c> our</c><00:01:12.240><c> test</c>
+
+00:01:13.429 --> 00:01:13.439 align:start position:0%
+testing in our test
+ 
+
+00:01:13.439 --> 00:01:16.310 align:start position:0%
+testing in our test
+environment<00:01:14.439><c> even</c><00:01:14.720><c> if</c><00:01:14.840><c> we</c><00:01:15.119><c> isolate</c><00:01:15.720><c> the</c>
+
+00:01:16.310 --> 00:01:16.320 align:start position:0%
+environment even if we isolate the
+ 
+
+00:01:16.320 --> 00:01:18.310 align:start position:0%
+environment even if we isolate the
+request<00:01:16.759><c> to</c><00:01:16.920><c> the</c><00:01:17.040><c> external</c><00:01:17.479><c> services</c><00:01:18.080><c> and</c>
+
+00:01:18.310 --> 00:01:18.320 align:start position:0%
+request to the external services and
+ 
+
+00:01:18.320 --> 00:01:20.710 align:start position:0%
+request to the external services and
+test<00:01:18.759><c> the</c><00:01:19.119><c> consumption</c><00:01:19.720><c> of</c><00:01:19.920><c> the</c><00:01:20.079><c> results</c><00:01:20.520><c> or</c>
+
+00:01:20.710 --> 00:01:20.720 align:start position:0%
+test the consumption of the results or
+ 
+
+00:01:20.720 --> 00:01:23.670 align:start position:0%
+test the consumption of the results or
+the<00:01:20.920><c> data</c><00:01:21.159><c> that</c><00:01:21.439><c> produced</c><00:01:22.000><c> for</c><00:01:22.280><c> the</c><00:01:22.680><c> service</c>
+
+00:01:23.670 --> 00:01:23.680 align:start position:0%
+the data that produced for the service
+ 
+
+00:01:23.680 --> 00:01:25.749 align:start position:0%
+the data that produced for the service
+there<00:01:23.960><c> might</c><00:01:24.119><c> still</c><00:01:24.280><c> be</c><00:01:24.479><c> scenarios</c><00:01:25.159><c> where</c><00:01:25.479><c> we</c>
+
+00:01:25.749 --> 00:01:25.759 align:start position:0%
+there might still be scenarios where we
+ 
+
+00:01:25.759 --> 00:01:27.630 align:start position:0%
+there might still be scenarios where we
+cannot<00:01:26.360><c> do</c><00:01:26.680><c> that</c><00:01:27.079><c> where</c><00:01:27.240><c> there's</c><00:01:27.439><c> a</c>
+
+00:01:27.630 --> 00:01:27.640 align:start position:0%
+cannot do that where there's a
+ 
+
+00:01:27.640 --> 00:01:29.429 align:start position:0%
+cannot do that where there's a
+dependency<00:01:28.240><c> that</c><00:01:28.439><c> talks</c><00:01:28.680><c> to</c><00:01:28.840><c> an</c><00:01:29.000><c> external</c>
+
+00:01:29.429 --> 00:01:29.439 align:start position:0%
+dependency that talks to an external
+ 
+
+00:01:29.439 --> 00:01:32.830 align:start position:0%
+dependency that talks to an external
+service<00:01:30.200><c> and</c><00:01:30.360><c> we</c><00:01:30.520><c> still</c><00:01:30.840><c> want</c><00:01:31.040><c> to</c><00:01:31.280><c> handle</c><00:01:31.840><c> that</c>
+
+00:01:32.830 --> 00:01:32.840 align:start position:0%
+service and we still want to handle that
+ 
+
+00:01:32.840 --> 00:01:34.670 align:start position:0%
+service and we still want to handle that
+to<00:01:33.040><c> address</c><00:01:33.320><c> many</c><00:01:33.560><c> of</c><00:01:33.680><c> these</c><00:01:33.840><c> challenges</c><00:01:34.520><c> we</c>
+
+00:01:34.670 --> 00:01:34.680 align:start position:0%
+to address many of these challenges we
+ 
+
+00:01:34.680 --> 00:01:36.710 align:start position:0%
+to address many of these challenges we
+have<00:01:34.880><c> introduced</c><00:01:35.479><c> a</c><00:01:35.640><c> new</c><00:01:35.920><c> test</c><00:01:36.200><c> Handler</c><00:01:36.560><c> in</c>
+
+00:01:36.710 --> 00:01:36.720 align:start position:0%
+have introduced a new test Handler in
+ 
+
+00:01:36.720 --> 00:01:40.630 align:start position:0%
+have introduced a new test Handler in
+this<00:01:36.880><c> release</c><00:01:37.640><c> the</c><00:01:37.880><c> HTTP</c><00:01:38.759><c> client</c><00:01:39.520><c> Handler</c><00:01:40.520><c> and</c>
+
+00:01:40.630 --> 00:01:40.640 align:start position:0%
+this release the HTTP client Handler and
+ 
+
+00:01:40.640 --> 00:01:42.950 align:start position:0%
+this release the HTTP client Handler and
+to<00:01:40.799><c> teach</c><00:01:41.040><c> us</c><00:01:41.280><c> about</c><00:01:41.640><c> how</c><00:01:41.799><c> to</c><00:01:42.000><c> use</c><00:01:42.479><c> this</c><00:01:42.680><c> test</c>
+
+00:01:42.950 --> 00:01:42.960 align:start position:0%
+to teach us about how to use this test
+ 
+
+00:01:42.960 --> 00:01:47.149 align:start position:0%
+to teach us about how to use this test
+Handler<00:01:43.920><c> I</c><00:01:44.079><c> have</c><00:01:44.320><c> Bales</c><00:01:45.320><c> to</c><00:01:45.520><c> help</c><00:01:45.719><c> us</c><00:01:46.399><c> know</c><00:01:46.680><c> and</c>
+
+00:01:47.149 --> 00:01:47.159 align:start position:0%
+Handler I have Bales to help us know and
+ 
+
+00:01:47.159 --> 00:01:49.030 align:start position:0%
+Handler I have Bales to help us know and
+understand<00:01:47.399><c> how</c><00:01:47.520><c> to</c><00:01:47.680><c> use</c><00:01:47.920><c> this</c><00:01:48.079><c> feature</c><00:01:48.880><c> thank</c>
+
+00:01:49.030 --> 00:01:49.040 align:start position:0%
+understand how to use this feature thank
+ 
+
+00:01:49.040 --> 00:01:50.950 align:start position:0%
+understand how to use this feature thank
+you<00:01:49.200><c> Stefan</c><00:01:49.840><c> well</c><00:01:50.000><c> in</c><00:01:50.159><c> this</c><00:01:50.320><c> demo</c><00:01:50.640><c> I'm</c><00:01:50.799><c> going</c>
+
+00:01:50.950 --> 00:01:50.960 align:start position:0%
+you Stefan well in this demo I'm going
+ 
+
+00:01:50.960 --> 00:01:52.550 align:start position:0%
+you Stefan well in this demo I'm going
+to<00:01:51.119><c> walk</c><00:01:51.320><c> you</c><00:01:51.479><c> through</c><00:01:51.799><c> how</c><00:01:51.920><c> you</c><00:01:52.040><c> can</c><00:01:52.200><c> set</c><00:01:52.399><c> up</c>
+
+00:01:52.550 --> 00:01:52.560 align:start position:0%
+to walk you through how you can set up
+ 
+
+00:01:52.560 --> 00:01:55.230 align:start position:0%
+to walk you through how you can set up
+an<00:01:52.719><c> HTTP</c><00:01:53.320><c> client</c><00:01:53.600><c> Handler</c><00:01:54.439><c> to</c><00:01:54.640><c> test</c><00:01:55.000><c> your</c>
+
+00:01:55.230 --> 00:01:55.240 align:start position:0%
+an HTTP client Handler to test your
+ 
+
+00:01:55.240 --> 00:01:58.749 align:start position:0%
+an HTTP client Handler to test your
+outbound<00:01:55.799><c> HTTP</c><00:01:56.399><c> requests</c><00:01:57.000><c> in</c><00:01:57.119><c> your</c><00:01:57.320><c> Al</c><00:01:57.759><c> test</c>
+
+00:01:58.749 --> 00:01:58.759 align:start position:0%
+outbound HTTP requests in your Al test
+ 
+
+00:01:58.759 --> 00:02:01.069 align:start position:0%
+outbound HTTP requests in your Al test
+as<00:01:58.880><c> an</c><00:01:59.079><c> example</c><00:01:59.920><c> let's</c><00:02:00.159><c> take</c><00:02:00.320><c> a</c><00:02:00.479><c> look</c><00:02:00.759><c> at</c><00:02:00.880><c> the</c>
+
+00:02:01.069 --> 00:02:01.079 align:start position:0%
+as an example let's take a look at the
+ 
+
+00:02:01.079 --> 00:02:03.590 align:start position:0%
+as an example let's take a look at the
+document<00:02:01.479><c> service</c><00:02:02.280><c> it</c><00:02:02.479><c> has</c><00:02:02.640><c> two</c><00:02:02.880><c> methods</c><00:02:03.399><c> to</c>
+
+00:02:03.590 --> 00:02:03.600 align:start position:0%
+document service it has two methods to
+ 
+
+00:02:03.600 --> 00:02:05.389 align:start position:0%
+document service it has two methods to
+get<00:02:03.840><c> document</c><00:02:04.240><c> content</c><00:02:04.759><c> and</c><00:02:04.920><c> the</c><00:02:05.039><c> delete</c>
+
+00:02:05.389 --> 00:02:05.399 align:start position:0%
+get document content and the delete
+ 
+
+00:02:05.399 --> 00:02:08.150 align:start position:0%
+get document content and the delete
+document<00:02:06.079><c> and</c><00:02:06.280><c> both</c><00:02:06.520><c> make</c><00:02:06.799><c> an</c><00:02:07.000><c> HTTP</c><00:02:07.600><c> request</c>
+
+00:02:08.150 --> 00:02:08.160 align:start position:0%
+document and both make an HTTP request
+ 
+
+00:02:08.160 --> 00:02:10.830 align:start position:0%
+document and both make an HTTP request
+to<00:02:08.319><c> an</c><00:02:08.479><c> external</c><00:02:09.119><c> service</c><00:02:10.119><c> to</c><00:02:10.319><c> verify</c><00:02:10.720><c> that</c>
+
+00:02:10.830 --> 00:02:10.840 align:start position:0%
+to an external service to verify that
+ 
+
+00:02:10.840 --> 00:02:12.830 align:start position:0%
+to an external service to verify that
+the<00:02:11.000><c> get</c><00:02:11.239><c> document</c><00:02:11.680><c> content</c><00:02:12.080><c> works</c><00:02:12.599><c> as</c>
+
+00:02:12.830 --> 00:02:12.840 align:start position:0%
+the get document content works as
+ 
+
+00:02:12.840 --> 00:02:15.710 align:start position:0%
+the get document content works as
+expected<00:02:13.840><c> we</c><00:02:13.959><c> can</c><00:02:14.239><c> create</c><00:02:14.640><c> a</c><00:02:14.800><c> test</c><00:02:15.040><c> code</c><00:02:15.280><c> unit</c>
+
+00:02:15.710 --> 00:02:15.720 align:start position:0%
+expected we can create a test code unit
+ 
+
+00:02:15.720 --> 00:02:18.830 align:start position:0%
+expected we can create a test code unit
+and<00:02:15.959><c> write</c><00:02:16.160><c> a</c><00:02:16.280><c> simple</c><00:02:16.560><c> test</c><00:02:16.879><c> method</c><00:02:17.560><c> like</c><00:02:17.840><c> so</c>
+
+00:02:18.830 --> 00:02:18.840 align:start position:0%
+and write a simple test method like so
+ 
+
+00:02:18.840 --> 00:02:20.270 align:start position:0%
+and write a simple test method like so
+however<00:02:19.120><c> this</c><00:02:19.280><c> setup</c><00:02:19.640><c> requires</c><00:02:20.000><c> that</c><00:02:20.160><c> the</c>
+
+00:02:20.270 --> 00:02:20.280 align:start position:0%
+however this setup requires that the
+ 
+
+00:02:20.280 --> 00:02:22.710 align:start position:0%
+however this setup requires that the
+external<00:02:20.720><c> service</c><00:02:21.160><c> is</c><00:02:21.360><c> up</c><00:02:21.760><c> and</c><00:02:21.959><c> running</c>
+
+00:02:22.710 --> 00:02:22.720 align:start position:0%
+external service is up and running
+ 
+
+00:02:22.720 --> 00:02:25.229 align:start position:0%
+external service is up and running
+instead<00:02:23.440><c> we</c><00:02:23.560><c> can</c><00:02:23.760><c> define</c><00:02:24.160><c> an</c><00:02:24.319><c> HTTP</c><00:02:24.920><c> client</c>
+
+00:02:25.229 --> 00:02:25.239 align:start position:0%
+instead we can define an HTTP client
+ 
+
+00:02:25.239 --> 00:02:27.509 align:start position:0%
+instead we can define an HTTP client
+hander<00:02:25.879><c> to</c><00:02:26.040><c> intercept</c><00:02:26.480><c> the</c><00:02:26.680><c> request</c><00:02:27.360><c> and</c>
+
+00:02:27.509 --> 00:02:27.519 align:start position:0%
+hander to intercept the request and
+ 
+
+00:02:27.519 --> 00:02:31.630 align:start position:0%
+hander to intercept the request and
+simulate<00:02:28.080><c> a</c><00:02:28.280><c> response</c><00:02:28.680><c> for</c><00:02:28.879><c> it</c>
+
+00:02:31.630 --> 00:02:31.640 align:start position:0%
+simulate a response for it
+ 
+
+00:02:31.640 --> 00:02:34.110 align:start position:0%
+simulate a response for it
+we<00:02:31.760><c> can</c><00:02:31.920><c> start</c><00:02:32.200><c> by</c><00:02:32.400><c> defining</c><00:02:32.920><c> a</c><00:02:33.120><c> procedure</c><00:02:33.920><c> and</c>
+
+00:02:34.110 --> 00:02:34.120 align:start position:0%
+we can start by defining a procedure and
+ 
+
+00:02:34.120 --> 00:02:36.589 align:start position:0%
+we can start by defining a procedure and
+adding<00:02:34.480><c> the</c><00:02:34.640><c> HTTP</c><00:02:35.239><c> client</c><00:02:35.560><c> Handler</c><00:02:36.080><c> attribute</c>
+
+00:02:36.589 --> 00:02:36.599 align:start position:0%
+adding the HTTP client Handler attribute
+ 
+
+00:02:36.599 --> 00:02:39.830 align:start position:0%
+adding the HTTP client Handler attribute
+to<00:02:37.160><c> it</c><00:02:38.160><c> within</c><00:02:38.400><c> the</c><00:02:38.560><c> Handler</c><00:02:39.200><c> we</c><00:02:39.319><c> can</c><00:02:39.440><c> simulate</c>
+
+00:02:39.830 --> 00:02:39.840 align:start position:0%
+to it within the Handler we can simulate
+ 
+
+00:02:39.840 --> 00:02:42.110 align:start position:0%
+to it within the Handler we can simulate
+the<00:02:40.000><c> response</c><00:02:40.360><c> to</c><00:02:40.480><c> a</c><00:02:40.640><c> request</c><00:02:41.319><c> by</c><00:02:41.519><c> populating</c>
+
+00:02:42.110 --> 00:02:42.120 align:start position:0%
+the response to a request by populating
+ 
+
+00:02:42.120 --> 00:02:44.869 align:start position:0%
+the response to a request by populating
+the<00:02:42.280><c> properties</c><00:02:43.080><c> of</c><00:02:43.200><c> the</c><00:02:43.400><c> response</c>
+
+00:02:44.869 --> 00:02:44.879 align:start position:0%
+the properties of the response
+ 
+
+00:02:44.879 --> 00:02:48.149 align:start position:0%
+the properties of the response
+object<00:02:45.879><c> finally</c><00:02:46.760><c> we</c><00:02:46.879><c> can</c><00:02:47.080><c> attach</c><00:02:47.400><c> the</c><00:02:47.560><c> Handler</c>
+
+00:02:48.149 --> 00:02:48.159 align:start position:0%
+object finally we can attach the Handler
+ 
+
+00:02:48.159 --> 00:02:49.830 align:start position:0%
+object finally we can attach the Handler
+to<00:02:48.319><c> the</c><00:02:48.480><c> test</c><00:02:48.720><c> method</c><00:02:49.080><c> using</c><00:02:49.360><c> the</c><00:02:49.480><c> Handler</c>
+
+00:02:49.830 --> 00:02:49.840 align:start position:0%
+to the test method using the Handler
+ 
+
+00:02:49.840 --> 00:02:52.710 align:start position:0%
+to the test method using the Handler
+functions<00:02:50.319><c> attribute</c><00:02:51.280><c> when</c><00:02:51.440><c> the</c><00:02:51.599><c> test</c><00:02:51.800><c> is</c><00:02:51.959><c> run</c>
+
+00:02:52.710 --> 00:02:52.720 align:start position:0%
+functions attribute when the test is run
+ 
+
+00:02:52.720 --> 00:02:55.710 align:start position:0%
+functions attribute when the test is run
+the<00:02:52.879><c> HTTP</c><00:02:53.480><c> request</c><00:02:54.080><c> will</c><00:02:54.239><c> be</c><00:02:54.519><c> intercepted</c><00:02:55.519><c> and</c>
+
+00:02:55.710 --> 00:02:55.720 align:start position:0%
+the HTTP request will be intercepted and
+ 
+
+00:02:55.720 --> 00:02:57.830 align:start position:0%
+the HTTP request will be intercepted and
+routed<00:02:56.120><c> to</c><00:02:56.239><c> the</c><00:02:56.400><c> Handler</c><00:02:57.000><c> which</c><00:02:57.159><c> will</c><00:02:57.319><c> mock</c>
+
+00:02:57.830 --> 00:02:57.840 align:start position:0%
+routed to the Handler which will mock
+ 
+
+00:02:57.840 --> 00:03:00.070 align:start position:0%
+routed to the Handler which will mock
+the<00:02:58.040><c> response</c><00:02:58.840><c> for</c><00:02:59.000><c> the</c><00:02:59.120><c> best</c><00:02:59.360><c> coverage</c><00:02:59.959><c> we</c>
+
+00:03:00.070 --> 00:03:00.080 align:start position:0%
+the response for the best coverage we
+ 
+
+00:03:00.080 --> 00:03:01.509 align:start position:0%
+the response for the best coverage we
+might<00:03:00.239><c> want</c><00:03:00.400><c> to</c><00:03:00.519><c> test</c><00:03:00.760><c> that</c><00:03:00.920><c> our</c><00:03:01.080><c> code</c><00:03:01.319><c> can</c>
+
+00:03:01.509 --> 00:03:01.519 align:start position:0%
+might want to test that our code can
+ 
+
+00:03:01.519 --> 00:03:03.430 align:start position:0%
+might want to test that our code can
+handle<00:03:01.920><c> all</c><00:03:02.159><c> kinds</c><00:03:02.360><c> of</c><00:03:02.560><c> different</c><00:03:02.920><c> cases</c><00:03:03.280><c> not</c>
+
+00:03:03.430 --> 00:03:03.440 align:start position:0%
+handle all kinds of different cases not
+ 
+
+00:03:03.440 --> 00:03:05.910 align:start position:0%
+handle all kinds of different cases not
+only<00:03:03.760><c> successful</c><00:03:04.280><c> ones</c><00:03:05.000><c> for</c>
+
+00:03:05.910 --> 00:03:05.920 align:start position:0%
+only successful ones for
+ 
+
+00:03:05.920 --> 00:03:08.509 align:start position:0%
+only successful ones for
+example<00:03:06.920><c> error</c><00:03:07.319><c> responses</c><00:03:08.080><c> that</c><00:03:08.239><c> we</c><00:03:08.360><c> can</c>
+
+00:03:08.509 --> 00:03:08.519 align:start position:0%
+example error responses that we can
+ 
+
+00:03:08.519 --> 00:03:11.110 align:start position:0%
+example error responses that we can
+simulate<00:03:09.400><c> by</c><00:03:09.680><c> setting</c><00:03:10.080><c> the</c><00:03:10.280><c> status</c><00:03:10.640><c> code</c><00:03:11.000><c> and</c>
+
+00:03:11.110 --> 00:03:11.120 align:start position:0%
+simulate by setting the status code and
+ 
+
+00:03:11.120 --> 00:03:12.670 align:start position:0%
+simulate by setting the status code and
+the<00:03:11.239><c> reason</c><00:03:11.560><c> phrase</c>
+
+00:03:12.670 --> 00:03:12.680 align:start position:0%
+the reason phrase
+ 
+
+00:03:12.680 --> 00:03:15.589 align:start position:0%
+the reason phrase
+accordingly<00:03:13.680><c> unsuccessful</c><00:03:14.519><c> requests</c><00:03:15.400><c> for</c>
+
+00:03:15.589 --> 00:03:15.599 align:start position:0%
+accordingly unsuccessful requests for
+ 
+
+00:03:15.599 --> 00:03:17.869 align:start position:0%
+accordingly unsuccessful requests for
+example<00:03:16.080><c> due</c><00:03:16.280><c> to</c><00:03:16.519><c> a</c><00:03:16.680><c> timeout</c><00:03:17.280><c> a</c><00:03:17.440><c> DNS</c>
+
+00:03:17.869 --> 00:03:17.879 align:start position:0%
+example due to a timeout a DNS
+ 
+
+00:03:17.879 --> 00:03:19.589 align:start position:0%
+example due to a timeout a DNS
+resolution<00:03:18.519><c> or</c><00:03:18.680><c> some</c><00:03:18.879><c> kind</c><00:03:19.040><c> of</c><00:03:19.200><c> network</c>
+
+00:03:19.589 --> 00:03:19.599 align:start position:0%
+resolution or some kind of network
+ 
+
+00:03:19.599 --> 00:03:22.830 align:start position:0%
+resolution or some kind of network
+connectivity<00:03:20.720><c> issue</c><00:03:21.720><c> and</c><00:03:21.920><c> requests</c><00:03:22.480><c> that</c><00:03:22.640><c> got</c>
+
+00:03:22.830 --> 00:03:22.840 align:start position:0%
+connectivity issue and requests that got
+ 
+
+00:03:22.840 --> 00:03:25.550 align:start position:0%
+connectivity issue and requests that got
+blocked<00:03:23.200><c> by</c><00:03:23.360><c> the</c><00:03:23.959><c> environment</c><00:03:24.959><c> keep</c><00:03:25.159><c> in</c><00:03:25.319><c> mind</c>
+
+00:03:25.550 --> 00:03:25.560 align:start position:0%
+blocked by the environment keep in mind
+ 
+
+00:03:25.560 --> 00:03:27.470 align:start position:0%
+blocked by the environment keep in mind
+that<00:03:25.720><c> when</c><00:03:25.840><c> an</c><00:03:25.959><c> HTTP</c><00:03:26.480><c> client</c><00:03:26.799><c> Handler</c><00:03:27.280><c> is</c>
+
+00:03:27.470 --> 00:03:27.480 align:start position:0%
+that when an HTTP client Handler is
+ 
+
+00:03:27.480 --> 00:03:30.470 align:start position:0%
+that when an HTTP client Handler is
+attached<00:03:27.959><c> to</c><00:03:28.159><c> a</c><00:03:28.280><c> test</c><00:03:28.560><c> method</c><00:03:29.080><c> then</c><00:03:29.360><c> all</c><00:03:29.840><c> HTTP</c>
+
+00:03:30.470 --> 00:03:30.480 align:start position:0%
+attached to a test method then all HTTP
+ 
+
+00:03:30.480 --> 00:03:32.789 align:start position:0%
+attached to a test method then all HTTP
+calls<00:03:31.080><c> that</c><00:03:31.280><c> occur</c><00:03:31.640><c> during</c><00:03:31.959><c> the</c><00:03:32.159><c> execution</c><00:03:32.680><c> of</c>
+
+00:03:32.789 --> 00:03:32.799 align:start position:0%
+calls that occur during the execution of
+ 
+
+00:03:32.799 --> 00:03:35.309 align:start position:0%
+calls that occur during the execution of
+the<00:03:33.040><c> test</c><00:03:33.680><c> will</c><00:03:33.920><c> be</c><00:03:34.159><c> routed</c><00:03:34.680><c> to</c><00:03:34.840><c> the</c><00:03:34.959><c> hander</c>
+
+00:03:35.309 --> 00:03:35.319 align:start position:0%
+the test will be routed to the hander
+ 
+
+00:03:35.319 --> 00:03:38.429 align:start position:0%
+the test will be routed to the hander
+for<00:03:35.799><c> processing</c><00:03:36.799><c> therefore</c><00:03:37.680><c> if</c><00:03:37.840><c> you</c><00:03:37.959><c> were</c><00:03:38.159><c> to</c>
+
+00:03:38.429 --> 00:03:38.439 align:start position:0%
+for processing therefore if you were to
+ 
+
+00:03:38.439 --> 00:03:40.750 align:start position:0%
+for processing therefore if you were to
+for<00:03:38.680><c> example</c><00:03:39.280><c> invoke</c><00:03:39.640><c> the</c><00:03:39.799><c> delete</c><00:03:40.159><c> document</c>
+
+00:03:40.750 --> 00:03:40.760 align:start position:0%
+for example invoke the delete document
+ 
+
+00:03:40.760 --> 00:03:43.229 align:start position:0%
+for example invoke the delete document
+in<00:03:40.920><c> the</c><00:03:41.080><c> same</c><00:03:41.360><c> test</c><00:03:41.680><c> method</c><00:03:42.519><c> then</c><00:03:42.799><c> both</c><00:03:43.080><c> the</c>
+
+00:03:43.229 --> 00:03:43.239 align:start position:0%
+in the same test method then both the
+ 
+
+00:03:43.239 --> 00:03:45.110 align:start position:0%
+in the same test method then both the
+get<00:03:43.519><c> and</c><00:03:43.680><c> the</c><00:03:43.799><c> delete</c><00:03:44.120><c> request</c><00:03:44.640><c> would</c><00:03:44.799><c> need</c><00:03:45.000><c> to</c>
+
+00:03:45.110 --> 00:03:45.120 align:start position:0%
+get and the delete request would need to
+ 
+
+00:03:45.120 --> 00:03:48.110 align:start position:0%
+get and the delete request would need to
+be<00:03:45.280><c> handled</c><00:03:45.879><c> by</c><00:03:46.040><c> the</c><00:03:46.200><c> same</c><00:03:46.480><c> hander</c><00:03:47.120><c> procedure</c>
+
+00:03:48.110 --> 00:03:48.120 align:start position:0%
+be handled by the same hander procedure
+ 
+
+00:03:48.120 --> 00:03:50.190 align:start position:0%
+be handled by the same hander procedure
+to<00:03:48.280><c> know</c><00:03:48.480><c> which</c><00:03:48.680><c> request</c><00:03:49.000><c> is</c><00:03:49.120><c> being</c><00:03:49.480><c> processed</c>
+
+00:03:50.190 --> 00:03:50.200 align:start position:0%
+to know which request is being processed
+ 
+
+00:03:50.200 --> 00:03:52.270 align:start position:0%
+to know which request is being processed
+we<00:03:50.319><c> can</c><00:03:50.560><c> analyze</c><00:03:51.159><c> the</c><00:03:51.360><c> properties</c><00:03:51.959><c> of</c><00:03:52.120><c> the</c>
+
+00:03:52.270 --> 00:03:52.280 align:start position:0%
+we can analyze the properties of the
+ 
+
+00:03:52.280 --> 00:03:53.910 align:start position:0%
+we can analyze the properties of the
+request
+
+00:03:53.910 --> 00:03:53.920 align:start position:0%
+request
+ 
+
+00:03:53.920 --> 00:03:56.190 align:start position:0%
+request
+object<00:03:54.920><c> we</c><00:03:55.040><c> can</c><00:03:55.239><c> distinguish</c><00:03:55.760><c> between</c><00:03:56.079><c> the</c>
+
+00:03:56.190 --> 00:03:56.200 align:start position:0%
+object we can distinguish between the
+ 
+
+00:03:56.200 --> 00:03:58.270 align:start position:0%
+object we can distinguish between the
+two<00:03:56.519><c> by</c><00:03:56.720><c> only</c><00:03:57.000><c> looking</c><00:03:57.360><c> at</c><00:03:57.519><c> the</c><00:03:57.640><c> request</c><00:03:58.040><c> type</c>
+
+00:03:58.270 --> 00:03:58.280 align:start position:0%
+two by only looking at the request type
+ 
+
+00:03:58.280 --> 00:04:00.630 align:start position:0%
+two by only looking at the request type
+property<00:03:58.760><c> in</c><00:03:58.959><c> this</c><00:03:59.159><c> case</c><00:03:59.959><c> when</c><00:04:00.120><c> the</c><00:04:00.280><c> request</c>
+
+00:04:00.630 --> 00:04:00.640 align:start position:0%
+property in this case when the request
+ 
+
+00:04:00.640 --> 00:04:03.069 align:start position:0%
+property in this case when the request
+is<00:04:00.760><c> of</c><00:04:00.959><c> type</c><00:04:01.200><c> delete</c><00:04:01.680><c> we</c><00:04:01.799><c> send</c><00:04:02.000><c> the</c><00:04:02.159><c> 501</c><00:04:02.840><c> not</c>
+
+00:04:03.069 --> 00:04:03.079 align:start position:0%
+is of type delete we send the 501 not
+ 
+
+00:04:03.079 --> 00:04:05.229 align:start position:0%
+is of type delete we send the 501 not
+implemented<00:04:03.720><c> response</c><00:04:04.519><c> while</c><00:04:04.680><c> for</c><00:04:04.840><c> the</c><00:04:04.959><c> get</c>
+
+00:04:05.229 --> 00:04:05.239 align:start position:0%
+implemented response while for the get
+ 
+
+00:04:05.239 --> 00:04:08.630 align:start position:0%
+implemented response while for the get
+request<00:04:05.640><c> we</c><00:04:05.799><c> send</c><00:04:06.000><c> the</c><00:04:06.400><c> 200</c><00:04:06.840><c> success</c><00:04:07.640><c> response</c>
+
+00:04:08.630 --> 00:04:08.640 align:start position:0%
+request we send the 200 success response
+ 
+
+00:04:08.640 --> 00:04:10.670 align:start position:0%
+request we send the 200 success response
+great<00:04:09.239><c> but</c><00:04:09.439><c> what</c><00:04:09.560><c> if</c><00:04:09.680><c> we</c><00:04:09.799><c> are</c><00:04:10.040><c> expecting</c>
+
+00:04:10.670 --> 00:04:10.680 align:start position:0%
+great but what if we are expecting
+ 
+
+00:04:10.680 --> 00:04:12.470 align:start position:0%
+great but what if we are expecting
+multiple<00:04:11.239><c> different</c><00:04:11.560><c> requests</c><00:04:12.159><c> with</c><00:04:12.319><c> the</c>
+
+00:04:12.470 --> 00:04:12.480 align:start position:0%
+multiple different requests with the
+ 
+
+00:04:12.480 --> 00:04:14.750 align:start position:0%
+multiple different requests with the
+same<00:04:12.760><c> request</c><00:04:13.120><c> type</c><00:04:13.799><c> then</c><00:04:13.959><c> we</c><00:04:14.079><c> can</c><00:04:14.239><c> use</c><00:04:14.480><c> the</c>
+
+00:04:14.750 --> 00:04:14.760 align:start position:0%
+same request type then we can use the
+ 
+
+00:04:14.760 --> 00:04:18.550 align:start position:0%
+same request type then we can use the
+path<00:04:15.560><c> and</c><00:04:15.840><c> query</c><00:04:16.239><c> parameters</c><00:04:17.040><c> of</c><00:04:17.199><c> the</c><00:04:17.560><c> request</c>
+
+00:04:18.550 --> 00:04:18.560 align:start position:0%
+path and query parameters of the request
+ 
+
+00:04:18.560 --> 00:04:21.150 align:start position:0%
+path and query parameters of the request
+to<00:04:18.720><c> know</c><00:04:19.040><c> how</c><00:04:19.160><c> to</c><00:04:19.400><c> populate</c><00:04:19.959><c> the</c>
+
+00:04:21.150 --> 00:04:21.160 align:start position:0%
+to know how to populate the
+ 
+
+00:04:21.160 --> 00:04:23.430 align:start position:0%
+to know how to populate the
+response<00:04:22.160><c> it</c><00:04:22.240><c> is</c><00:04:22.440><c> important</c><00:04:22.800><c> to</c><00:04:22.960><c> mention</c><00:04:23.280><c> that</c>
+
+00:04:23.430 --> 00:04:23.440 align:start position:0%
+response it is important to mention that
+ 
+
+00:04:23.440 --> 00:04:25.629 align:start position:0%
+response it is important to mention that
+as<00:04:23.560><c> of</c><00:04:23.759><c> now</c><00:04:24.120><c> it</c><00:04:24.240><c> is</c><00:04:24.360><c> not</c><00:04:24.639><c> possible</c><00:04:25.160><c> to</c><00:04:25.320><c> set</c>
+
+00:04:25.629 --> 00:04:25.639 align:start position:0%
+as of now it is not possible to set
+ 
+
+00:04:25.639 --> 00:04:28.230 align:start position:0%
+as of now it is not possible to set
+cookies<00:04:26.160><c> or</c><00:04:26.360><c> redirection</c><00:04:27.080><c> status</c>
+
+00:04:28.230 --> 00:04:28.240 align:start position:0%
+cookies or redirection status
+ 
+
+00:04:28.240 --> 00:04:31.029 align:start position:0%
+cookies or redirection status
+codes<00:04:29.240><c> so</c><00:04:29.479><c> far</c><00:04:29.800><c> so</c><00:04:30.039><c> good</c><00:04:30.759><c> we</c><00:04:30.880><c> can</c>
+
+00:04:31.029 --> 00:04:31.039 align:start position:0%
+codes so far so good we can
+ 
+
+00:04:31.039 --> 00:04:32.950 align:start position:0%
+codes so far so good we can
+differentiate<00:04:31.600><c> between</c><00:04:31.919><c> requests</c><00:04:32.800><c> and</c>
+
+00:04:32.950 --> 00:04:32.960 align:start position:0%
+differentiate between requests and
+ 
+
+00:04:32.960 --> 00:04:35.510 align:start position:0%
+differentiate between requests and
+simulate<00:04:33.360><c> the</c><00:04:33.600><c> response</c>
+
+00:04:35.510 --> 00:04:35.520 align:start position:0%
+simulate the response
+ 
+
+00:04:35.520 --> 00:04:37.990 align:start position:0%
+simulate the response
+accordingly<00:04:36.520><c> however</c><00:04:37.240><c> as</c><00:04:37.360><c> some</c><00:04:37.520><c> of</c><00:04:37.680><c> you</c><00:04:37.800><c> may</c>
+
+00:04:37.990 --> 00:04:38.000 align:start position:0%
+accordingly however as some of you may
+ 
+
+00:04:38.000 --> 00:04:40.469 align:start position:0%
+accordingly however as some of you may
+know<00:04:38.560><c> it</c><00:04:38.680><c> is</c><00:04:39.000><c> possible</c><00:04:39.440><c> to</c><00:04:39.639><c> set</c><00:04:39.919><c> the</c><00:04:40.080><c> request</c>
+
+00:04:40.469 --> 00:04:40.479 align:start position:0%
+know it is possible to set the request
+ 
+
+00:04:40.479 --> 00:04:43.909 align:start position:0%
+know it is possible to set the request
+URI<00:04:41.320><c> by</c><00:04:41.479><c> using</c><00:04:41.800><c> a</c><00:04:41.919><c> secret</c><00:04:42.320><c> text</c><00:04:43.199><c> in</c><00:04:43.400><c> that</c><00:04:43.600><c> case</c>
+
+00:04:43.909 --> 00:04:43.919 align:start position:0%
+URI by using a secret text in that case
+ 
+
+00:04:43.919 --> 00:04:45.629 align:start position:0%
+URI by using a secret text in that case
+neither<00:04:44.240><c> the</c><00:04:44.440><c> path</c><00:04:44.919><c> nor</c><00:04:45.120><c> the</c><00:04:45.240><c> query</c>
+
+00:04:45.629 --> 00:04:45.639 align:start position:0%
+neither the path nor the query
+ 
+
+00:04:45.639 --> 00:04:47.909 align:start position:0%
+neither the path nor the query
+parameters<00:04:46.400><c> are</c><00:04:46.639><c> available</c><00:04:47.280><c> as</c><00:04:47.400><c> the</c><00:04:47.560><c> request</c>
+
+00:04:47.909 --> 00:04:47.919 align:start position:0%
+parameters are available as the request
+ 
+
+00:04:47.919 --> 00:04:50.830 align:start position:0%
+parameters are available as the request
+URI<00:04:48.520><c> must</c><00:04:48.759><c> not</c><00:04:48.960><c> be</c><00:04:49.160><c> exposed</c><00:04:50.080><c> in</c><00:04:50.280><c> that</c><00:04:50.479><c> case</c><00:04:50.720><c> we</c>
+
+00:04:50.830 --> 00:04:50.840 align:start position:0%
+URI must not be exposed in that case we
+ 
+
+00:04:50.840 --> 00:04:53.070 align:start position:0%
+URI must not be exposed in that case we
+can<00:04:50.960><c> use</c><00:04:51.160><c> the</c><00:04:51.360><c> has</c><00:04:51.639><c> secret</c><00:04:51.960><c> URI</c><00:04:52.400><c> property</c><00:04:52.919><c> of</c>
+
+00:04:53.070 --> 00:04:53.080 align:start position:0%
+can use the has secret URI property of
+ 
+
+00:04:53.080 --> 00:04:55.749 align:start position:0%
+can use the has secret URI property of
+the<00:04:53.240><c> request</c><00:04:53.960><c> to</c><00:04:54.120><c> filter</c><00:04:54.479><c> for</c><00:04:54.800><c> this</c>
+
+00:04:55.749 --> 00:04:55.759 align:start position:0%
+the request to filter for this
+ 
+
+00:04:55.759 --> 00:04:57.830 align:start position:0%
+the request to filter for this
+case<00:04:56.759><c> but</c><00:04:56.880><c> then</c><00:04:57.039><c> naturally</c><00:04:57.400><c> comes</c><00:04:57.639><c> the</c>
+
+00:04:57.830 --> 00:04:57.840 align:start position:0%
+case but then naturally comes the
+ 
+
+00:04:57.840 --> 00:05:00.150 align:start position:0%
+case but then naturally comes the
+question<00:04:58.520><c> is</c><00:04:58.639><c> there</c><00:04:58.840><c> an</c><00:04:59.000><c> other</c><00:04:59.280><c> way</c><00:04:59.720><c> to</c><00:04:59.840><c> handle</c>
+
+00:05:00.150 --> 00:05:00.160 align:start position:0%
+question is there an other way to handle
+ 
+
+00:05:00.160 --> 00:05:03.110 align:start position:0%
+question is there an other way to handle
+this<00:05:00.320><c> scenario</c><00:05:01.080><c> other</c><00:05:01.320><c> than</c><00:05:01.560><c> throwing</c><00:05:01.919><c> an</c>
+
+00:05:03.110 --> 00:05:03.120 align:start position:0%
+this scenario other than throwing an
+ 
+
+00:05:03.120 --> 00:05:05.870 align:start position:0%
+this scenario other than throwing an
+exception<00:05:04.120><c> what</c><00:05:04.320><c> if</c><00:05:04.720><c> let's</c><00:05:05.000><c> say</c><00:05:05.360><c> the</c><00:05:05.560><c> request</c>
+
+00:05:05.870 --> 00:05:05.880 align:start position:0%
+exception what if let's say the request
+ 
+
+00:05:05.880 --> 00:05:07.909 align:start position:0%
+exception what if let's say the request
+is<00:05:06.000><c> coming</c><00:05:06.240><c> from</c><00:05:06.400><c> a</c><00:05:06.560><c> dependency</c><00:05:07.360><c> that</c><00:05:07.520><c> we</c><00:05:07.759><c> do</c>
+
+00:05:07.909 --> 00:05:07.919 align:start position:0%
+is coming from a dependency that we do
+ 
+
+00:05:07.919 --> 00:05:10.550 align:start position:0%
+is coming from a dependency that we do
+not<00:05:08.080><c> want</c><00:05:08.320><c> to</c><00:05:08.440><c> Mark</c><00:05:09.240><c> in</c><00:05:09.440><c> general</c><00:05:10.120><c> is</c><00:05:10.240><c> there</c><00:05:10.400><c> a</c>
+
+00:05:10.550 --> 00:05:10.560 align:start position:0%
+not want to Mark in general is there a
+ 
+
+00:05:10.560 --> 00:05:13.110 align:start position:0%
+not want to Mark in general is there a
+way<00:05:11.000><c> to</c><00:05:11.199><c> only</c><00:05:11.520><c> mock</c><00:05:11.840><c> certain</c><00:05:12.240><c> requests</c><00:05:12.919><c> while</c>
+
+00:05:13.110 --> 00:05:13.120 align:start position:0%
+way to only mock certain requests while
+ 
+
+00:05:13.120 --> 00:05:14.950 align:start position:0%
+way to only mock certain requests while
+letting<00:05:13.479><c> others</c><00:05:13.800><c> make</c><00:05:14.000><c> it</c><00:05:14.160><c> to</c><00:05:14.320><c> the</c><00:05:14.440><c> external</c>
+
+00:05:14.950 --> 00:05:14.960 align:start position:0%
+letting others make it to the external
+ 
+
+00:05:14.960 --> 00:05:17.390 align:start position:0%
+letting others make it to the external
+endpoint<00:05:15.960><c> the</c><00:05:16.120><c> answer</c><00:05:16.400><c> is</c><00:05:16.680><c> yes</c><00:05:17.080><c> we</c><00:05:17.199><c> have</c>
+
+00:05:17.390 --> 00:05:17.400 align:start position:0%
+endpoint the answer is yes we have
+ 
+
+00:05:17.400 --> 00:05:19.469 align:start position:0%
+endpoint the answer is yes we have
+implemented<00:05:17.840><c> a</c><00:05:17.960><c> fall</c><00:05:18.319><c> through</c><00:05:18.520><c> mechanism</c>
+
+00:05:19.469 --> 00:05:19.479 align:start position:0%
+implemented a fall through mechanism
+ 
+
+00:05:19.479 --> 00:05:21.790 align:start position:0%
+implemented a fall through mechanism
+that<00:05:19.720><c> allows</c><00:05:20.240><c> the</c><00:05:20.440><c> programmer</c><00:05:21.160><c> to</c><00:05:21.360><c> decide</c><00:05:21.639><c> in</c>
+
+00:05:21.790 --> 00:05:21.800 align:start position:0%
+that allows the programmer to decide in
+ 
+
+00:05:21.800 --> 00:05:24.029 align:start position:0%
+that allows the programmer to decide in
+the<00:05:21.960><c> Handler</c><00:05:22.639><c> whether</c><00:05:22.919><c> they</c><00:05:23.039><c> want</c><00:05:23.319><c> to</c><00:05:23.720><c> Mark</c>
+
+00:05:24.029 --> 00:05:24.039 align:start position:0%
+the Handler whether they want to Mark
+ 
+
+00:05:24.039 --> 00:05:26.430 align:start position:0%
+the Handler whether they want to Mark
+the<00:05:24.199><c> response</c><00:05:24.639><c> for</c><00:05:24.840><c> a</c><00:05:25.000><c> request</c><00:05:25.720><c> or</c><00:05:25.919><c> issue</c><00:05:26.319><c> the</c>
+
+00:05:26.430 --> 00:05:26.440 align:start position:0%
+the response for a request or issue the
+ 
+
+00:05:26.440 --> 00:05:28.110 align:start position:0%
+the response for a request or issue the
+original
+
+00:05:28.110 --> 00:05:28.120 align:start position:0%
+original
+ 
+
+00:05:28.120 --> 00:05:33.550 align:start position:0%
+original
+one<00:05:29.120><c> like</c><00:05:29.280><c> so</c>
+
+00:05:33.550 --> 00:05:33.560 align:start position:0%
+ 
+ 
+
+00:05:33.560 --> 00:05:35.309 align:start position:0%
+ 
+in<00:05:33.759><c> this</c><00:05:33.919><c> case</c><00:05:34.199><c> when</c><00:05:34.360><c> the</c><00:05:34.560><c> request</c><00:05:35.039><c> has</c><00:05:35.160><c> a</c>
+
+00:05:35.309 --> 00:05:35.319 align:start position:0%
+in this case when the request has a
+ 
+
+00:05:35.319 --> 00:05:38.430 align:start position:0%
+in this case when the request has a
+secret<00:05:35.720><c> URI</c><00:05:36.600><c> then</c><00:05:36.759><c> we</c><00:05:36.919><c> just</c><00:05:37.160><c> decide</c><00:05:37.520><c> to</c><00:05:37.800><c> issue</c>
+
+00:05:38.430 --> 00:05:38.440 align:start position:0%
+secret URI then we just decide to issue
+ 
+
+00:05:38.440 --> 00:05:40.990 align:start position:0%
+secret URI then we just decide to issue
+the<00:05:38.600><c> original</c><00:05:39.120><c> request</c><00:05:40.120><c> as</c><00:05:40.280><c> well</c><00:05:40.440><c> as</c><00:05:40.600><c> when</c><00:05:40.759><c> the</c>
+
+00:05:40.990 --> 00:05:41.000 align:start position:0%
+the original request as well as when the
+ 
+
+00:05:41.000 --> 00:05:43.350 align:start position:0%
+the original request as well as when the
+path<00:05:41.280><c> is</c><00:05:41.440><c> pointing</c><00:05:41.840><c> to</c><00:05:41.960><c> the</c><00:05:42.080><c> SL</c><00:05:42.479><c> pictures</c>
+
+00:05:43.350 --> 00:05:43.360 align:start position:0%
+path is pointing to the SL pictures
+ 
+
+00:05:43.360 --> 00:05:45.670 align:start position:0%
+path is pointing to the SL pictures
+endpoint<00:05:44.360><c> when</c><00:05:44.560><c> the</c><00:05:44.759><c> request</c><00:05:45.080><c> is</c><00:05:45.199><c> pointing</c><00:05:45.520><c> to</c>
+
+00:05:45.670 --> 00:05:45.680 align:start position:0%
+endpoint when the request is pointing to
+ 
+
+00:05:45.680 --> 00:05:48.510 align:start position:0%
+endpoint when the request is pointing to
+the/<00:05:46.199><c> documents</c><00:05:46.639><c> endpoint</c><00:05:47.600><c> we</c><00:05:47.759><c> mock</c><00:05:48.000><c> the</c>
+
+00:05:48.510 --> 00:05:48.520 align:start position:0%
+the/ documents endpoint we mock the
+ 
+
+00:05:48.520 --> 00:05:50.790 align:start position:0%
+the/ documents endpoint we mock the
+response<00:05:49.520><c> this</c><00:05:49.680><c> can</c><00:05:49.800><c> be</c><00:05:50.000><c> achieved</c><00:05:50.479><c> via</c><00:05:50.680><c> the</c>
+
+00:05:50.790 --> 00:05:50.800 align:start position:0%
+response this can be achieved via the
+ 
+
+00:05:50.800 --> 00:05:52.590 align:start position:0%
+response this can be achieved via the
+Boolean<00:05:51.319><c> return</c><00:05:51.520><c> value</c><00:05:51.919><c> of</c><00:05:52.080><c> the</c><00:05:52.160><c> hander</c>
+
+00:05:52.590 --> 00:05:52.600 align:start position:0%
+Boolean return value of the hander
+ 
+
+00:05:52.600 --> 00:05:54.830 align:start position:0%
+Boolean return value of the hander
+procedure<00:05:53.560><c> we</c><00:05:53.759><c> can</c><00:05:53.880><c> use</c><00:05:54.039><c> an</c><00:05:54.240><c> exit</c><00:05:54.560><c> true</c>
+
+00:05:54.830 --> 00:05:54.840 align:start position:0%
+procedure we can use an exit true
+ 
+
+00:05:54.840 --> 00:05:56.710 align:start position:0%
+procedure we can use an exit true
+statement<00:05:55.520><c> if</c><00:05:55.639><c> we</c><00:05:55.800><c> want</c><00:05:55.960><c> to</c><00:05:56.160><c> issue</c><00:05:56.560><c> the</c>
+
+00:05:56.710 --> 00:05:56.720 align:start position:0%
+statement if we want to issue the
+ 
+
+00:05:56.720 --> 00:05:59.230 align:start position:0%
+statement if we want to issue the
+original<00:05:57.199><c> request</c><00:05:57.960><c> conversely</c><00:05:58.840><c> we</c><00:05:58.960><c> can</c><00:05:59.080><c> use</c>
+
+00:05:59.230 --> 00:05:59.240 align:start position:0%
+original request conversely we can use
+ 
+
+00:05:59.240 --> 00:06:01.070 align:start position:0%
+original request conversely we can use
+an<00:05:59.400><c> exit</c><00:05:59.639><c> ex</c><00:05:59.720><c> it</c><00:05:59.840><c> false</c><00:06:00.080><c> statement</c><00:06:00.800><c> if</c><00:06:00.919><c> you</c>
+
+00:06:01.070 --> 00:06:01.080 align:start position:0%
+an exit ex it false statement if you
+ 
+
+00:06:01.080 --> 00:06:04.110 align:start position:0%
+an exit ex it false statement if you
+want<00:06:01.319><c> to</c><00:06:01.440><c> mock</c><00:06:01.840><c> response</c><00:06:02.360><c> to</c><00:06:02.520><c> be</c><00:06:02.800><c> used</c><00:06:03.800><c> keep</c><00:06:03.960><c> in</c>
+
+00:06:04.110 --> 00:06:04.120 align:start position:0%
+want to mock response to be used keep in
+ 
+
+00:06:04.120 --> 00:06:05.909 align:start position:0%
+want to mock response to be used keep in
+mind<00:06:04.319><c> that</c><00:06:04.440><c> the</c><00:06:04.560><c> default</c><00:06:05.039><c> return</c><00:06:05.280><c> value</c><00:06:05.720><c> is</c>
+
+00:06:05.909 --> 00:06:05.919 align:start position:0%
+mind that the default return value is
+ 
+
+00:06:05.919 --> 00:06:08.350 align:start position:0%
+mind that the default return value is
+false<00:06:06.759><c> therefore</c><00:06:07.280><c> a</c><00:06:07.479><c> completely</c><00:06:08.000><c> empty</c>
+
+00:06:08.350 --> 00:06:08.360 align:start position:0%
+false therefore a completely empty
+ 
+
+00:06:08.360 --> 00:06:10.230 align:start position:0%
+false therefore a completely empty
+hander<00:06:08.840><c> procedure</c><00:06:09.400><c> would</c><00:06:09.599><c> still</c><00:06:09.840><c> block</c><00:06:10.120><c> the</c>
+
+00:06:10.230 --> 00:06:10.240 align:start position:0%
+hander procedure would still block the
+ 
+
+00:06:10.240 --> 00:06:13.950 align:start position:0%
+hander procedure would still block the
+outbound<00:06:10.840><c> request</c><00:06:11.520><c> and</c><00:06:11.880><c> return</c><00:06:12.400><c> a</c><00:06:12.560><c> mocked</c>
+
+00:06:13.950 --> 00:06:13.960 align:start position:0%
+outbound request and return a mocked
+ 
+
+00:06:13.960 --> 00:06:16.990 align:start position:0%
+outbound request and return a mocked
+response<00:06:14.960><c> now</c><00:06:15.599><c> let's</c><00:06:15.840><c> put</c><00:06:15.960><c> it</c><00:06:16.080><c> all</c><00:06:16.440><c> together</c>
+
+00:06:16.990 --> 00:06:17.000 align:start position:0%
+response now let's put it all together
+ 
+
+00:06:17.000 --> 00:06:19.670 align:start position:0%
+response now let's put it all together
+into<00:06:17.360><c> one</c><00:06:17.599><c> big</c><00:06:17.919><c> procedure</c><00:06:18.759><c> that</c><00:06:18.919><c> is</c><00:06:19.120><c> able</c><00:06:19.400><c> to</c>
+
+00:06:19.670 --> 00:06:19.680 align:start position:0%
+into one big procedure that is able to
+ 
+
+00:06:19.680 --> 00:06:22.790 align:start position:0%
+into one big procedure that is able to
+handle<00:06:20.360><c> most</c><00:06:20.599><c> of</c><00:06:20.800><c> the</c><00:06:21.000><c> previously</c><00:06:21.599><c> defined</c>
+
+00:06:22.790 --> 00:06:22.800 align:start position:0%
+handle most of the previously defined
+ 
+
+00:06:22.800 --> 00:06:25.790 align:start position:0%
+handle most of the previously defined
+cases<00:06:23.800><c> just</c><00:06:23.960><c> for</c><00:06:24.160><c> fun</c><00:06:25.000><c> let's</c><00:06:25.199><c> see</c><00:06:25.479><c> how</c><00:06:25.680><c> the</c>
+
+00:06:25.790 --> 00:06:25.800 align:start position:0%
+cases just for fun let's see how the
+ 
+
+00:06:25.800 --> 00:06:28.350 align:start position:0%
+cases just for fun let's see how the
+marking<00:06:26.319><c> goes</c><00:06:26.840><c> in</c><00:06:27.120><c> action</c><00:06:27.680><c> in</c><00:06:27.800><c> a</c><00:06:27.960><c> debug</c>
+
+00:06:28.350 --> 00:06:28.360 align:start position:0%
+marking goes in action in a debug
+ 
+
+00:06:28.360 --> 00:06:30.469 align:start position:0%
+marking goes in action in a debug
+session
+
+00:06:30.469 --> 00:06:30.479 align:start position:0%
+session
+ 
+
+00:06:30.479 --> 00:06:37.230 align:start position:0%
+session
+let's<00:06:30.759><c> publish</c><00:06:31.120><c> the</c><00:06:31.280><c> app</c><00:06:31.720><c> and</c><00:06:31.840><c> start</c><00:06:32.080><c> a</c><00:06:32.199><c> debu</c>
+
+00:06:37.230 --> 00:06:37.240 align:start position:0%
+ 
+ 
+
+00:06:37.240 --> 00:06:40.390 align:start position:0%
+ 
+session<00:06:38.240><c> then</c><00:06:38.880><c> we</c><00:06:39.000><c> can</c><00:06:39.199><c> load</c><00:06:39.800><c> and</c><00:06:40.000><c> run</c><00:06:40.240><c> the</c>
+
+00:06:40.390 --> 00:06:40.400 align:start position:0%
+session then we can load and run the
+ 
+
+00:06:40.400 --> 00:06:44.550 align:start position:0%
+session then we can load and run the
+document<00:06:40.759><c> service</c>
+
+00:06:44.550 --> 00:06:44.560 align:start position:0%
+ 
+ 
+
+00:06:44.560 --> 00:06:47.070 align:start position:0%
+ 
+tests<00:06:45.560><c> the</c><00:06:45.680><c> get</c><00:06:45.919><c> document</c><00:06:46.280><c> content</c><00:06:46.720><c> test</c><00:06:46.960><c> is</c>
+
+00:06:47.070 --> 00:06:47.080 align:start position:0%
+tests the get document content test is
+ 
+
+00:06:47.080 --> 00:06:49.749 align:start position:0%
+tests the get document content test is
+run<00:06:47.440><c> first</c><00:06:48.360><c> it</c><00:06:48.520><c> invokes</c><00:06:48.960><c> the</c><00:06:49.160><c> get</c><00:06:49.400><c> document</c>
+
+00:06:49.749 --> 00:06:49.759 align:start position:0%
+run first it invokes the get document
+ 
+
+00:06:49.759 --> 00:06:51.550 align:start position:0%
+run first it invokes the get document
+content<00:06:50.199><c> method</c><00:06:50.520><c> with</c><00:06:50.639><c> the</c><00:06:50.800><c> dummy</c><00:06:51.120><c> document</c>
+
+00:06:51.550 --> 00:06:51.560 align:start position:0%
+content method with the dummy document
+ 
+
+00:06:51.560 --> 00:06:53.830 align:start position:0%
+content method with the dummy document
+ID<00:06:52.360><c> which</c><00:06:52.520><c> makes</c><00:06:52.680><c> a</c><00:06:52.880><c> get</c><00:06:53.080><c> request</c><00:06:53.599><c> to</c><00:06:53.720><c> the</c>
+
+00:06:53.830 --> 00:06:53.840 align:start position:0%
+ID which makes a get request to the
+ 
+
+00:06:53.840 --> 00:06:55.830 align:start position:0%
+ID which makes a get request to the
+Local<00:06:54.199><c> Host</c><00:06:54.400><c> /</c><00:06:54.800><c> documents</c>
+
+00:06:55.830 --> 00:06:55.840 align:start position:0%
+Local Host / documents
+ 
+
+00:06:55.840 --> 00:06:58.550 align:start position:0%
+Local Host / documents
+endpoint<00:06:56.840><c> the</c><00:06:57.039><c> request</c><00:06:57.400><c> is</c><00:06:57.599><c> then</c><00:06:57.840><c> intercepted</c>
+
+00:06:58.550 --> 00:06:58.560 align:start position:0%
+endpoint the request is then intercepted
+ 
+
+00:06:58.560 --> 00:07:00.790 align:start position:0%
+endpoint the request is then intercepted
+by<00:06:58.720><c> the</c><00:06:58.840><c> Handler</c><00:07:00.000><c> we</c><00:07:00.160><c> can</c><00:07:00.319><c> look</c><00:07:00.479><c> at</c><00:07:00.639><c> the</c>
+
+00:07:00.790 --> 00:07:00.800 align:start position:0%
+by the Handler we can look at the
+ 
+
+00:07:00.800 --> 00:07:02.950 align:start position:0%
+by the Handler we can look at the
+properties<00:07:01.319><c> of</c><00:07:01.440><c> the</c><00:07:01.599><c> request</c><00:07:02.000><c> object</c><00:07:02.759><c> and</c>
+
+00:07:02.950 --> 00:07:02.960 align:start position:0%
+properties of the request object and
+ 
+
+00:07:02.960 --> 00:07:04.710 align:start position:0%
+properties of the request object and
+confirm<00:07:03.479><c> that</c><00:07:03.639><c> it</c><00:07:03.759><c> is</c><00:07:03.919><c> indeed</c><00:07:04.319><c> the</c><00:07:04.479><c> get</c>
+
+00:07:04.710 --> 00:07:04.720 align:start position:0%
+confirm that it is indeed the get
+ 
+
+00:07:04.720 --> 00:07:07.110 align:start position:0%
+confirm that it is indeed the get
+request<00:07:05.319><c> coming</c><00:07:05.720><c> from</c><00:07:05.919><c> the</c><00:07:06.080><c> get</c><00:07:06.319><c> document</c>
+
+00:07:07.110 --> 00:07:07.120 align:start position:0%
+request coming from the get document
+ 
+
+00:07:07.120 --> 00:07:09.950 align:start position:0%
+request coming from the get document
+content<00:07:08.120><c> then</c><00:07:08.680><c> the</c><00:07:08.800><c> Handler</c><00:07:09.240><c> extracts</c><00:07:09.800><c> the</c>
+
+00:07:09.950 --> 00:07:09.960 align:start position:0%
+content then the Handler extracts the
+ 
+
+00:07:09.960 --> 00:07:12.309 align:start position:0%
+content then the Handler extracts the
+document<00:07:10.400><c> ID</c><00:07:10.720><c> from</c><00:07:10.919><c> the</c><00:07:11.039><c> query</c><00:07:11.440><c> parameters</c>
+
+00:07:12.309 --> 00:07:12.319 align:start position:0%
+document ID from the query parameters
+ 
+
+00:07:12.319 --> 00:07:14.270 align:start position:0%
+document ID from the query parameters
+and<00:07:12.560><c> fabricates</c><00:07:13.039><c> an</c><00:07:13.240><c> example</c>
+
+00:07:14.270 --> 00:07:14.280 align:start position:0%
+and fabricates an example
+ 
+
+00:07:14.280 --> 00:07:17.189 align:start position:0%
+and fabricates an example
+content<00:07:15.280><c> finally</c><00:07:16.039><c> it</c><00:07:16.240><c> populates</c><00:07:16.680><c> the</c><00:07:16.840><c> status</c>
+
+00:07:17.189 --> 00:07:17.199 align:start position:0%
+content finally it populates the status
+ 
+
+00:07:17.199 --> 00:07:19.029 align:start position:0%
+content finally it populates the status
+code<00:07:17.440><c> and</c><00:07:17.599><c> reason</c><00:07:17.960><c> phrase</c><00:07:18.319><c> to</c><00:07:18.479><c> simulate</c><00:07:18.840><c> a</c>
+
+00:07:19.029 --> 00:07:19.039 align:start position:0%
+code and reason phrase to simulate a
+ 
+
+00:07:19.039 --> 00:07:21.589 align:start position:0%
+code and reason phrase to simulate a
+successful<00:07:19.599><c> request</c><00:07:20.199><c> and</c><00:07:20.360><c> uses</c><00:07:20.759><c> an</c><00:07:20.960><c> exit</c><00:07:21.240><c> fall</c>
+
+00:07:21.589 --> 00:07:21.599 align:start position:0%
+successful request and uses an exit fall
+ 
+
+00:07:21.599 --> 00:07:23.589 align:start position:0%
+successful request and uses an exit fall
+statement<00:07:22.240><c> to</c><00:07:22.440><c> make</c><00:07:22.639><c> sure</c><00:07:23.000><c> that</c><00:07:23.120><c> the</c><00:07:23.240><c> mock</c>
+
+00:07:23.589 --> 00:07:23.599 align:start position:0%
+statement to make sure that the mock
+ 
+
+00:07:23.599 --> 00:07:26.350 align:start position:0%
+statement to make sure that the mock
+response<00:07:24.039><c> is</c><00:07:24.360><c> used</c><00:07:25.360><c> stepping</c><00:07:25.800><c> back</c><00:07:26.000><c> into</c><00:07:26.199><c> the</c>
+
+00:07:26.350 --> 00:07:26.360 align:start position:0%
+response is used stepping back into the
+ 
+
+00:07:26.360 --> 00:07:28.469 align:start position:0%
+response is used stepping back into the
+get<00:07:26.599><c> document</c><00:07:27.000><c> content</c><00:07:27.400><c> method</c><00:07:28.080><c> we</c><00:07:28.240><c> can</c>
+
+00:07:28.469 --> 00:07:28.479 align:start position:0%
+get document content method we can
+ 
+
+00:07:28.479 --> 00:07:31.029 align:start position:0%
+get document content method we can
+analyze<00:07:28.879><c> the</c><00:07:29.000><c> response</c><00:07:29.560><c> subject</c><00:07:30.120><c> and</c><00:07:30.360><c> confirm</c>
+
+00:07:31.029 --> 00:07:31.039 align:start position:0%
+analyze the response subject and confirm
+ 
+
+00:07:31.039 --> 00:07:32.990 align:start position:0%
+analyze the response subject and confirm
+that<00:07:31.199><c> it</c><00:07:31.360><c> contains</c><00:07:31.720><c> the</c><00:07:31.840><c> marked</c><00:07:32.199><c> values</c>
+
+00:07:32.990 --> 00:07:33.000 align:start position:0%
+that it contains the marked values
+ 
+
+00:07:33.000 --> 00:07:34.830 align:start position:0%
+that it contains the marked values
+including<00:07:33.440><c> the</c><00:07:33.599><c> content</c><00:07:34.160><c> that</c><00:07:34.319><c> needs</c><00:07:34.520><c> to</c><00:07:34.680><c> be</c>
+
+00:07:34.830 --> 00:07:34.840 align:start position:0%
+including the content that needs to be
+ 
+
+00:07:34.840 --> 00:07:38.150 align:start position:0%
+including the content that needs to be
+extracted<00:07:35.680><c> first</c><00:07:36.680><c> the</c><00:07:36.800><c> content</c><00:07:37.199><c> check</c><00:07:37.520><c> passes</c>
+
+00:07:38.150 --> 00:07:38.160 align:start position:0%
+extracted first the content check passes
+ 
+
+00:07:38.160 --> 00:07:40.150 align:start position:0%
+extracted first the content check passes
+and<00:07:38.319><c> the</c><00:07:38.479><c> test</c><00:07:38.879><c> successfully</c>
+
+00:07:40.150 --> 00:07:40.160 align:start position:0%
+and the test successfully
+ 
+
+00:07:40.160 --> 00:07:42.510 align:start position:0%
+and the test successfully
+completes<00:07:41.160><c> the</c><00:07:41.319><c> delete</c><00:07:41.680><c> document</c><00:07:42.080><c> test</c><00:07:42.360><c> is</c>
+
+00:07:42.510 --> 00:07:42.520 align:start position:0%
+completes the delete document test is
+ 
+
+00:07:42.520 --> 00:07:45.110 align:start position:0%
+completes the delete document test is
+run<00:07:43.000><c> afterwards</c><00:07:44.000><c> it</c><00:07:44.159><c> invokes</c><00:07:44.639><c> the</c><00:07:44.759><c> delete</c>
+
+00:07:45.110 --> 00:07:45.120 align:start position:0%
+run afterwards it invokes the delete
+ 
+
+00:07:45.120 --> 00:07:47.629 align:start position:0%
+run afterwards it invokes the delete
+document<00:07:45.520><c> method</c><00:07:45.840><c> with</c><00:07:45.960><c> a</c><00:07:46.120><c> dummy</c><00:07:46.479><c> document</c><00:07:46.919><c> ID</c>
+
+00:07:47.629 --> 00:07:47.639 align:start position:0%
+document method with a dummy document ID
+ 
+
+00:07:47.639 --> 00:07:49.309 align:start position:0%
+document method with a dummy document ID
+which<00:07:47.800><c> makes</c><00:07:47.960><c> a</c><00:07:48.120><c> delete</c><00:07:48.520><c> request</c><00:07:49.039><c> to</c><00:07:49.199><c> the</c>
+
+00:07:49.309 --> 00:07:49.319 align:start position:0%
+which makes a delete request to the
+ 
+
+00:07:49.319 --> 00:07:51.390 align:start position:0%
+which makes a delete request to the
+Local<00:07:49.680><c> Host</c><00:07:49.919><c> /</c><00:07:50.360><c> doents</c>
+
+00:07:51.390 --> 00:07:51.400 align:start position:0%
+Local Host / doents
+ 
+
+00:07:51.400 --> 00:07:53.909 align:start position:0%
+Local Host / doents
+endpoint<00:07:52.400><c> the</c><00:07:52.560><c> request</c><00:07:52.879><c> is</c><00:07:53.080><c> intercepted</c><00:07:53.800><c> by</c>
+
+00:07:53.909 --> 00:07:53.919 align:start position:0%
+endpoint the request is intercepted by
+ 
+
+00:07:53.919 --> 00:07:55.869 align:start position:0%
+endpoint the request is intercepted by
+the<00:07:54.080><c> Handler</c><00:07:54.840><c> and</c><00:07:54.960><c> we</c><00:07:55.120><c> can</c><00:07:55.319><c> verify</c><00:07:55.720><c> the</c>
+
+00:07:55.869 --> 00:07:55.879 align:start position:0%
+the Handler and we can verify the
+ 
+
+00:07:55.879 --> 00:07:58.070 align:start position:0%
+the Handler and we can verify the
+request<00:07:56.520><c> by</c><00:07:56.680><c> looking</c><00:07:57.000><c> at</c><00:07:57.159><c> the</c><00:07:57.319><c> properties</c>
+
+00:07:58.070 --> 00:07:58.080 align:start position:0%
+request by looking at the properties
+ 
+
+00:07:58.080 --> 00:07:59.990 align:start position:0%
+request by looking at the properties
+just<00:07:58.319><c> like</c><00:07:58.560><c> before</c>
+
+00:07:59.990 --> 00:08:00.000 align:start position:0%
+just like before
+ 
+
+00:08:00.000 --> 00:08:02.029 align:start position:0%
+just like before
+as<00:08:00.159><c> the</c><00:08:00.319><c> request</c><00:08:00.639><c> is</c><00:08:00.759><c> of</c><00:08:00.960><c> type</c><00:08:01.240><c> delete</c><00:08:01.879><c> the</c>
+
+00:08:02.029 --> 00:08:02.039 align:start position:0%
+as the request is of type delete the
+ 
+
+00:08:02.039 --> 00:08:04.869 align:start position:0%
+as the request is of type delete the
+Handler<00:08:02.400><c> simulates</c><00:08:03.039><c> a</c><00:08:03.240><c> 501</c><00:08:03.919><c> not</c><00:08:04.159><c> implemented</c>
+
+00:08:04.869 --> 00:08:04.879 align:start position:0%
+Handler simulates a 501 not implemented
+ 
+
+00:08:04.879 --> 00:08:07.909 align:start position:0%
+Handler simulates a 501 not implemented
+response<00:08:05.599><c> and</c><00:08:05.919><c> returns</c><00:08:06.400><c> with</c><00:08:06.599><c> an</c><00:08:06.800><c> exit</c><00:08:07.039><c> false</c>
+
+00:08:07.909 --> 00:08:07.919 align:start position:0%
+response and returns with an exit false
+ 
+
+00:08:07.919 --> 00:08:10.270 align:start position:0%
+response and returns with an exit false
+statement<00:08:08.919><c> as</c><00:08:09.080><c> the</c><00:08:09.240><c> response</c><00:08:09.639><c> object</c>
+
+00:08:10.270 --> 00:08:10.280 align:start position:0%
+statement as the response object
+ 
+
+00:08:10.280 --> 00:08:12.149 align:start position:0%
+statement as the response object
+received<00:08:10.599><c> by</c><00:08:10.759><c> the</c><00:08:10.879><c> delete</c><00:08:11.240><c> document</c><00:08:11.680><c> method</c>
+
+00:08:12.149 --> 00:08:12.159 align:start position:0%
+received by the delete document method
+ 
+
+00:08:12.159 --> 00:08:14.909 align:start position:0%
+received by the delete document method
+does<00:08:12.400><c> not</c><00:08:12.720><c> have</c><00:08:13.039><c> a</c><00:08:13.240><c> success</c><00:08:13.639><c> status</c><00:08:14.039><c> code</c><00:08:14.800><c> it</c>
+
+00:08:14.909 --> 00:08:14.919 align:start position:0%
+does not have a success status code it
+ 
+
+00:08:14.919 --> 00:08:17.469 align:start position:0%
+does not have a success status code it
+signals<00:08:15.479><c> an</c><00:08:15.680><c> unsuccessful</c><00:08:16.440><c> delete</c><00:08:16.840><c> operation</c>
+
+00:08:17.469 --> 00:08:17.479 align:start position:0%
+signals an unsuccessful delete operation
+ 
+
+00:08:17.479 --> 00:08:20.510 align:start position:0%
+signals an unsuccessful delete operation
+by<00:08:17.680><c> returning</c><00:08:18.520><c> false</c><00:08:19.520><c> therefore</c><00:08:20.080><c> the</c><00:08:20.280><c> test</c>
+
+00:08:20.510 --> 00:08:20.520 align:start position:0%
+by returning false therefore the test
+ 
+
+00:08:20.520 --> 00:08:23.790 align:start position:0%
+by returning false therefore the test
+fails<00:08:21.159><c> with</c><00:08:21.319><c> a</c><00:08:21.520><c> document</c><00:08:21.879><c> deletion</c><00:08:22.280><c> failed</c>
+
+00:08:23.790 --> 00:08:23.800 align:start position:0%
+fails with a document deletion failed
+ 
+
+00:08:23.800 --> 00:08:26.070 align:start position:0%
+fails with a document deletion failed
+error<00:08:24.800><c> finally</c><00:08:25.360><c> I'd</c><00:08:25.520><c> like</c><00:08:25.639><c> to</c><00:08:25.759><c> draw</c><00:08:25.960><c> your</c>
+
+00:08:26.070 --> 00:08:26.080 align:start position:0%
+error finally I'd like to draw your
+ 
+
+00:08:26.080 --> 00:08:27.589 align:start position:0%
+error finally I'd like to draw your
+attention<00:08:26.440><c> to</c><00:08:26.599><c> this</c><00:08:26.759><c> new</c><00:08:26.960><c> property</c><00:08:27.360><c> that</c><00:08:27.479><c> we</c>
+
+00:08:27.589 --> 00:08:27.599 align:start position:0%
+attention to this new property that we
+ 
+
+00:08:27.599 --> 00:08:31.190 align:start position:0%
+attention to this new property that we
+have<00:08:27.800><c> introduced</c><00:08:28.479><c> called</c><00:08:28.720><c> test</c><00:08:28.960><c> http</c><00:08:29.759><c> request</c>
+
+00:08:31.190 --> 00:08:31.200 align:start position:0%
+have introduced called test http request
+ 
+
+00:08:31.200 --> 00:08:33.909 align:start position:0%
+have introduced called test http request
+policy<00:08:32.200><c> you</c><00:08:32.320><c> can</c><00:08:32.479><c> add</c><00:08:32.680><c> it</c><00:08:32.800><c> to</c><00:08:32.959><c> test</c><00:08:33.200><c> code</c><00:08:33.440><c> units</c>
+
+00:08:33.909 --> 00:08:33.919 align:start position:0%
+policy you can add it to test code units
+ 
+
+00:08:33.919 --> 00:08:36.110 align:start position:0%
+policy you can add it to test code units
+to<00:08:34.159><c> specify</c><00:08:34.719><c> how</c><00:08:34.919><c> outbound</c><00:08:35.519><c> request</c><00:08:35.919><c> should</c>
+
+00:08:36.110 --> 00:08:36.120 align:start position:0%
+to specify how outbound request should
+ 
+
+00:08:36.120 --> 00:08:38.829 align:start position:0%
+to specify how outbound request should
+be<00:08:36.279><c> treated</c><00:08:36.800><c> during</c><00:08:37.080><c> test</c><00:08:37.680><c> executions</c><00:08:38.680><c> by</c>
+
+00:08:38.829 --> 00:08:38.839 align:start position:0%
+be treated during test executions by
+ 
+
+00:08:38.839 --> 00:08:41.230 align:start position:0%
+be treated during test executions by
+default<00:08:39.399><c> all</c><00:08:39.680><c> requests</c><00:08:40.159><c> are</c><00:08:40.399><c> allowed</c><00:08:41.039><c> but</c><00:08:41.159><c> you</c>
+
+00:08:41.230 --> 00:08:41.240 align:start position:0%
+default all requests are allowed but you
+ 
+
+00:08:41.240 --> 00:08:43.310 align:start position:0%
+default all requests are allowed but you
+can<00:08:41.399><c> further</c><00:08:41.760><c> restrict</c><00:08:42.159><c> this</c><00:08:42.479><c> to</c><00:08:42.680><c> only</c><00:08:42.959><c> allow</c>
+
+00:08:43.310 --> 00:08:43.320 align:start position:0%
+can further restrict this to only allow
+ 
+
+00:08:43.320 --> 00:08:45.630 align:start position:0%
+can further restrict this to only allow
+ones<00:08:43.599><c> issued</c><00:08:43.959><c> from</c><00:08:44.080><c> a</c><00:08:44.240><c> Handler</c><00:08:44.959><c> or</c><00:08:45.080><c> to</c><00:08:45.240><c> block</c>
+
+00:08:45.630 --> 00:08:45.640 align:start position:0%
+ones issued from a Handler or to block
+ 
+
+00:08:45.640 --> 00:08:47.949 align:start position:0%
+ones issued from a Handler or to block
+all<00:08:45.880><c> unhandled</c><00:08:46.560><c> requests</c><00:08:47.440><c> the</c><00:08:47.560><c> following</c>
+
+00:08:47.949 --> 00:08:47.959 align:start position:0%
+all unhandled requests the following
+ 
+
+00:08:47.959 --> 00:08:51.070 align:start position:0%
+all unhandled requests the following
+tabl<00:08:48.320><c> shows</c><00:08:48.680><c> an</c><00:08:48.880><c> overview</c><00:08:49.800><c> of</c><00:08:49.959><c> all</c><00:08:50.120><c> of</c><00:08:50.240><c> the</c>
+
+00:08:51.070 --> 00:08:51.080 align:start position:0%
+tabl shows an overview of all of the
+ 
+
+00:08:51.080 --> 00:08:53.310 align:start position:0%
+tabl shows an overview of all of the
+scenarios<00:08:52.080><c> we</c><00:08:52.240><c> can</c><00:08:52.399><c> see</c><00:08:52.800><c> the</c><00:08:53.080><c> different</c>
+
+00:08:53.310 --> 00:08:53.320 align:start position:0%
+scenarios we can see the different
+ 
+
+00:08:53.320 --> 00:08:55.470 align:start position:0%
+scenarios we can see the different
+hander<00:08:53.720><c> setups</c><00:08:54.160><c> on</c><00:08:54.279><c> the</c><00:08:54.480><c> left</c><00:08:55.120><c> while</c><00:08:55.320><c> the</c>
+
+00:08:55.470 --> 00:08:55.480 align:start position:0%
+hander setups on the left while the
+ 
+
+00:08:55.480 --> 00:08:57.949 align:start position:0%
+hander setups on the left while the
+property<00:08:55.920><c> values</c><00:08:56.600><c> at</c><00:08:56.760><c> the</c><00:08:56.920><c> top</c><00:08:57.600><c> and</c><00:08:57.800><c> the</c>
+
+00:08:57.949 --> 00:08:57.959 align:start position:0%
+property values at the top and the
+ 
+
+00:08:57.959 --> 00:09:00.030 align:start position:0%
+property values at the top and the
+outcome<00:08:58.360><c> for</c><00:08:58.600><c> all</c><00:08:58.720><c> of</c><00:08:58.839><c> these</c><00:08:59.000><c> scenarios</c><00:08:59.880><c> in</c>
+
+00:09:00.030 --> 00:09:00.040 align:start position:0%
+outcome for all of these scenarios in
+ 
+
+00:09:00.040 --> 00:09:01.069 align:start position:0%
+outcome for all of these scenarios in
+the
+
+00:09:01.069 --> 00:09:01.079 align:start position:0%
+the
+ 
+
+00:09:01.079 --> 00:09:03.750 align:start position:0%
+the
+middle<00:09:02.079><c> let's</c><00:09:02.320><c> take</c><00:09:02.440><c> a</c><00:09:02.600><c> look</c><00:09:02.800><c> at</c><00:09:02.959><c> all</c><00:09:03.120><c> of</c><00:09:03.320><c> them</c>
+
+00:09:03.750 --> 00:09:03.760 align:start position:0%
+middle let's take a look at all of them
+ 
+
+00:09:03.760 --> 00:09:06.230 align:start position:0%
+middle let's take a look at all of them
+in<00:09:03.880><c> a</c><00:09:04.040><c> bit</c><00:09:04.200><c> more</c><00:09:04.519><c> detail</c><00:09:05.519><c> when</c><00:09:05.680><c> the</c><00:09:05.839><c> property</c>
+
+00:09:06.230 --> 00:09:06.240 align:start position:0%
+in a bit more detail when the property
+ 
+
+00:09:06.240 --> 00:09:08.590 align:start position:0%
+in a bit more detail when the property
+is<00:09:06.360><c> set</c><00:09:06.600><c> to</c><00:09:06.839><c> allow</c><00:09:07.160><c> all</c><00:09:07.480><c> outbound</c><00:09:08.000><c> requests</c>
+
+00:09:08.590 --> 00:09:08.600 align:start position:0%
+is set to allow all outbound requests
+ 
+
+00:09:08.600 --> 00:09:10.710 align:start position:0%
+is set to allow all outbound requests
+which<00:09:08.720><c> is</c><00:09:08.839><c> also</c><00:09:09.079><c> the</c><00:09:09.240><c> default</c><00:09:09.720><c> value</c><00:09:10.320><c> then</c><00:09:10.519><c> no</c>
+
+00:09:10.710 --> 00:09:10.720 align:start position:0%
+which is also the default value then no
+ 
+
+00:09:10.720 --> 00:09:13.110 align:start position:0%
+which is also the default value then no
+restrictions<00:09:11.279><c> are</c><00:09:11.480><c> imposed</c><00:09:12.000><c> on</c><00:09:12.200><c> outbound</c>
+
+00:09:13.110 --> 00:09:13.120 align:start position:0%
+restrictions are imposed on outbound
+ 
+
+00:09:13.120 --> 00:09:15.829 align:start position:0%
+restrictions are imposed on outbound
+requests<00:09:14.120><c> to</c><00:09:14.399><c> illustrate</c><00:09:15.160><c> the</c><00:09:15.399><c> three</c><00:09:15.560><c> main</c>
+
+00:09:15.829 --> 00:09:15.839 align:start position:0%
+requests to illustrate the three main
+ 
+
+00:09:15.839 --> 00:09:17.910 align:start position:0%
+requests to illustrate the three main
+scenarios<00:09:16.720><c> we</c><00:09:16.839><c> can</c><00:09:17.040><c> take</c><00:09:17.200><c> a</c><00:09:17.360><c> look</c><00:09:17.560><c> at</c><00:09:17.720><c> the</c>
+
+00:09:17.910 --> 00:09:17.920 align:start position:0%
+scenarios we can take a look at the
+ 
+
+00:09:17.920 --> 00:09:20.389 align:start position:0%
+scenarios we can take a look at the
+example<00:09:18.480><c> on</c><00:09:18.640><c> the</c><00:09:18.839><c> right</c><00:09:19.519><c> it</c><00:09:19.680><c> has</c><00:09:19.880><c> three</c><00:09:20.120><c> test</c>
+
+00:09:20.389 --> 00:09:20.399 align:start position:0%
+example on the right it has three test
+ 
+
+00:09:20.399 --> 00:09:23.509 align:start position:0%
+example on the right it has three test
+methods<00:09:21.079><c> one</c><00:09:21.480><c> with</c><00:09:21.640><c> no</c><00:09:21.880><c> Handler</c><00:09:22.760><c> one</c><00:09:23.160><c> with</c><00:09:23.399><c> a</c>
+
+00:09:23.509 --> 00:09:23.519 align:start position:0%
+methods one with no Handler one with a
+ 
+
+00:09:23.519 --> 00:09:25.550 align:start position:0%
+methods one with no Handler one with a
+Handler<00:09:24.040><c> that</c><00:09:24.160><c> issues</c><00:09:24.519><c> the</c><00:09:24.640><c> original</c><00:09:25.120><c> request</c>
+
+00:09:25.550 --> 00:09:25.560 align:start position:0%
+Handler that issues the original request
+ 
+
+00:09:25.560 --> 00:09:27.910 align:start position:0%
+Handler that issues the original request
+using<00:09:25.839><c> an</c><00:09:26.040><c> exit</c><00:09:26.320><c> true</c><00:09:26.600><c> statement</c><00:09:27.360><c> and</c><00:09:27.519><c> one</c>
+
+00:09:27.910 --> 00:09:27.920 align:start position:0%
+using an exit true statement and one
+ 
+
+00:09:27.920 --> 00:09:30.829 align:start position:0%
+using an exit true statement and one
+with<00:09:28.040><c> a</c><00:09:28.200><c> Handler</c><00:09:28.800><c> that</c><00:09:28.959><c> mock</c><00:09:29.200><c> a</c><00:09:29.640><c> response</c><00:09:30.640><c> in</c>
+
+00:09:30.829 --> 00:09:30.839 align:start position:0%
+with a Handler that mock a response in
+ 
+
+00:09:30.839 --> 00:09:33.670 align:start position:0%
+with a Handler that mock a response in
+this<00:09:31.040><c> case</c><00:09:31.480><c> all</c><00:09:31.760><c> three</c><00:09:32.120><c> are</c><00:09:32.399><c> allowed</c><00:09:33.399><c> when</c><00:09:33.560><c> the</c>
+
+00:09:33.670 --> 00:09:33.680 align:start position:0%
+this case all three are allowed when the
+ 
+
+00:09:33.680 --> 00:09:35.750 align:start position:0%
+this case all three are allowed when the
+property<00:09:34.079><c> is</c><00:09:34.200><c> set</c><00:09:34.440><c> to</c><00:09:34.680><c> allow</c><00:09:35.000><c> outbound</c><00:09:35.560><c> from</c>
+
+00:09:35.750 --> 00:09:35.760 align:start position:0%
+property is set to allow outbound from
+ 
+
+00:09:35.760 --> 00:09:37.670 align:start position:0%
+property is set to allow outbound from
+Handler<00:09:36.320><c> then</c><00:09:36.519><c> only</c><00:09:36.839><c> those</c><00:09:37.079><c> outbound</c>
+
+00:09:37.670 --> 00:09:37.680 align:start position:0%
+Handler then only those outbound
+ 
+
+00:09:37.680 --> 00:09:39.670 align:start position:0%
+Handler then only those outbound
+requests<00:09:38.079><c> are</c><00:09:38.320><c> allowed</c><00:09:38.880><c> that</c><00:09:39.040><c> are</c><00:09:39.279><c> first</c>
+
+00:09:39.670 --> 00:09:39.680 align:start position:0%
+requests are allowed that are first
+ 
+
+00:09:39.680 --> 00:09:42.350 align:start position:0%
+requests are allowed that are first
+intercepted<00:09:40.440><c> by</c><00:09:40.560><c> an</c><00:09:40.720><c> HTTP</c><00:09:41.279><c> client</c><00:09:41.640><c> Handler</c>
+
+00:09:42.350 --> 00:09:42.360 align:start position:0%
+intercepted by an HTTP client Handler
+ 
+
+00:09:42.360 --> 00:09:44.590 align:start position:0%
+intercepted by an HTTP client Handler
+and<00:09:42.480><c> then</c><00:09:42.680><c> issued</c><00:09:43.040><c> to</c><00:09:43.160><c> the</c><00:09:43.360><c> external</c><00:09:43.760><c> endpoint</c>
+
+00:09:44.590 --> 00:09:44.600 align:start position:0%
+and then issued to the external endpoint
+ 
+
+00:09:44.600 --> 00:09:46.829 align:start position:0%
+and then issued to the external endpoint
+by<00:09:44.760><c> a</c><00:09:44.880><c> Handler</c><00:09:45.160><c> for</c><00:09:45.560><c> through</c><00:09:45.839><c> using</c><00:09:46.200><c> an</c><00:09:46.440><c> exit</c>
+
+00:09:46.829 --> 00:09:46.839 align:start position:0%
+by a Handler for through using an exit
+ 
+
+00:09:46.839 --> 00:09:48.030 align:start position:0%
+by a Handler for through using an exit
+true
+
+00:09:48.030 --> 00:09:48.040 align:start position:0%
+true
+ 
+
+00:09:48.040 --> 00:09:50.509 align:start position:0%
+true
+statement<00:09:49.040><c> this</c><00:09:49.160><c> is</c><00:09:49.320><c> to</c><00:09:49.560><c> ensure</c><00:09:50.040><c> that</c><00:09:50.240><c> no</c>
+
+00:09:50.509 --> 00:09:50.519 align:start position:0%
+statement this is to ensure that no
+ 
+
+00:09:50.519 --> 00:09:53.710 align:start position:0%
+statement this is to ensure that no
+unintentional<00:09:51.360><c> requests</c><00:09:52.000><c> are</c><00:09:52.480><c> made</c><00:09:53.480><c> if</c><00:09:53.600><c> you</c>
+
+00:09:53.710 --> 00:09:53.720 align:start position:0%
+unintentional requests are made if you
+ 
+
+00:09:53.720 --> 00:09:55.470 align:start position:0%
+unintentional requests are made if you
+look<00:09:53.880><c> at</c><00:09:54.000><c> the</c><00:09:54.120><c> same</c><00:09:54.320><c> test</c><00:09:54.560><c> setup</c><00:09:55.040><c> we</c><00:09:55.120><c> can</c><00:09:55.279><c> see</c>
+
+00:09:55.470 --> 00:09:55.480 align:start position:0%
+look at the same test setup we can see
+ 
+
+00:09:55.480 --> 00:09:58.030 align:start position:0%
+look at the same test setup we can see
+that<00:09:55.640><c> the</c><00:09:55.760><c> first</c><00:09:56.040><c> test</c><00:09:56.480><c> that</c><00:09:56.680><c> has</c><00:09:56.839><c> no</c><00:09:57.079><c> Handler</c>
+
+00:09:58.030 --> 00:09:58.040 align:start position:0%
+that the first test that has no Handler
+ 
+
+00:09:58.040 --> 00:10:00.470 align:start position:0%
+that the first test that has no Handler
+it's<00:09:58.200><c> blocked</c><00:09:58.640><c> as</c><00:09:58.760><c> it</c><00:09:58.880><c> tries</c><00:09:59.120><c> to</c><00:09:59.440><c> make</c><00:09:59.680><c> a</c><00:09:59.920><c> call</c>
+
+00:10:00.470 --> 00:10:00.480 align:start position:0%
+it's blocked as it tries to make a call
+ 
+
+00:10:00.480 --> 00:10:02.949 align:start position:0%
+it's blocked as it tries to make a call
+directly<00:10:00.920><c> to</c><00:10:01.079><c> the</c><00:10:01.240><c> external</c><00:10:01.720><c> endpoint</c><00:10:02.720><c> while</c>
+
+00:10:02.949 --> 00:10:02.959 align:start position:0%
+directly to the external endpoint while
+ 
+
+00:10:02.959 --> 00:10:04.590 align:start position:0%
+directly to the external endpoint while
+the<00:10:03.079><c> one</c><00:10:03.399><c> where</c><00:10:03.600><c> the</c><00:10:03.720><c> Handler</c><00:10:04.079><c> issues</c><00:10:04.480><c> the</c>
+
+00:10:04.590 --> 00:10:04.600 align:start position:0%
+the one where the Handler issues the
+ 
+
+00:10:04.600 --> 00:10:06.910 align:start position:0%
+the one where the Handler issues the
+original<00:10:05.000><c> request</c><00:10:05.480><c> is</c><00:10:05.640><c> allowed</c><00:10:06.600><c> when</c><00:10:06.760><c> the</c>
+
+00:10:06.910 --> 00:10:06.920 align:start position:0%
+original request is allowed when the
+ 
+
+00:10:06.920 --> 00:10:08.870 align:start position:0%
+original request is allowed when the
+property<00:10:07.360><c> is</c><00:10:07.480><c> set</c><00:10:07.760><c> to</c><00:10:07.959><c> block</c><00:10:08.240><c> outbound</c>
+
+00:10:08.870 --> 00:10:08.880 align:start position:0%
+property is set to block outbound
+ 
+
+00:10:08.880 --> 00:10:12.069 align:start position:0%
+property is set to block outbound
+requests<00:10:09.720><c> then</c><00:10:10.040><c> all</c><00:10:10.440><c> outbound</c><00:10:11.079><c> requests</c><00:10:11.760><c> must</c>
+
+00:10:12.069 --> 00:10:12.079 align:start position:0%
+requests then all outbound requests must
+ 
+
+00:10:12.079 --> 00:10:14.949 align:start position:0%
+requests then all outbound requests must
+be<00:10:12.519><c> intercepted</c><00:10:13.240><c> and</c><00:10:13.480><c> handled</c><00:10:14.040><c> by</c><00:10:14.200><c> an</c><00:10:14.320><c> HTTP</c>
+
+00:10:14.949 --> 00:10:14.959 align:start position:0%
+be intercepted and handled by an HTTP
+ 
+
+00:10:14.959 --> 00:10:17.310 align:start position:0%
+be intercepted and handled by an HTTP
+client<00:10:15.360><c> Handler</c><00:10:16.120><c> this</c><00:10:16.240><c> can</c><00:10:16.399><c> be</c><00:10:16.600><c> very</c><00:10:16.800><c> useful</c>
+
+00:10:17.310 --> 00:10:17.320 align:start position:0%
+client Handler this can be very useful
+ 
+
+00:10:17.320 --> 00:10:18.750 align:start position:0%
+client Handler this can be very useful
+if<00:10:17.440><c> you</c><00:10:17.600><c> don't</c><00:10:17.800><c> want</c><00:10:18.040><c> frequent</c><00:10:18.440><c> test</c>
+
+00:10:18.750 --> 00:10:18.760 align:start position:0%
+if you don't want frequent test
+ 
+
+00:10:18.760 --> 00:10:21.030 align:start position:0%
+if you don't want frequent test
+executions<00:10:19.480><c> in</c><00:10:19.600><c> your</c><00:10:19.800><c> automated</c><00:10:20.360><c> cicd</c>
+
+00:10:21.030 --> 00:10:21.040 align:start position:0%
+executions in your automated cicd
+ 
+
+00:10:21.040 --> 00:10:23.870 align:start position:0%
+executions in your automated cicd
+pipelines<00:10:21.600><c> to</c><00:10:21.800><c> hit</c><00:10:22.120><c> the</c><00:10:22.320><c> actual</c><00:10:22.720><c> endpoint</c><00:10:23.720><c> in</c>
+
+00:10:23.870 --> 00:10:23.880 align:start position:0%
+pipelines to hit the actual endpoint in
+ 
+
+00:10:23.880 --> 00:10:25.509 align:start position:0%
+pipelines to hit the actual endpoint in
+the<00:10:24.079><c> example</c><00:10:24.600><c> we</c><00:10:24.680><c> can</c><00:10:24.839><c> see</c><00:10:25.040><c> that</c><00:10:25.160><c> the</c><00:10:25.320><c> first</c>
+
+00:10:25.509 --> 00:10:25.519 align:start position:0%
+the example we can see that the first
+ 
+
+00:10:25.519 --> 00:10:27.710 align:start position:0%
+the example we can see that the first
+two<00:10:25.720><c> methods</c><00:10:26.360><c> that</c><00:10:26.560><c> try</c><00:10:26.839><c> to</c><00:10:27.000><c> make</c><00:10:27.200><c> a</c><00:10:27.360><c> call</c><00:10:27.560><c> to</c>
+
+00:10:27.710 --> 00:10:27.720 align:start position:0%
+two methods that try to make a call to
+ 
+
+00:10:27.720 --> 00:10:29.949 align:start position:0%
+two methods that try to make a call to
+the<00:10:27.839><c> external</c><00:10:28.200><c> endpoint</c><00:10:28.839><c> are</c><00:10:29.000><c> blocked</c><00:10:29.760><c> and</c>
+
+00:10:29.949 --> 00:10:29.959 align:start position:0%
+the external endpoint are blocked and
+ 
+
+00:10:29.959 --> 00:10:32.069 align:start position:0%
+the external endpoint are blocked and
+only<00:10:30.200><c> the</c><00:10:30.360><c> one</c><00:10:30.680><c> that</c><00:10:30.800><c> simulates</c><00:10:31.240><c> a</c><00:10:31.480><c> response</c>
+
+00:10:32.069 --> 00:10:32.079 align:start position:0%
+only the one that simulates a response
+ 
+
+00:10:32.079 --> 00:10:33.150 align:start position:0%
+only the one that simulates a response
+is
+
+00:10:33.150 --> 00:10:33.160 align:start position:0%
+is
+ 
+
+00:10:33.160 --> 00:10:35.910 align:start position:0%
+is
+allowed<00:10:34.160><c> that's</c><00:10:34.360><c> been</c><00:10:34.519><c> it</c><00:10:34.680><c> from</c><00:10:34.880><c> me</c><00:10:35.639><c> thank</c><00:10:35.760><c> you</c>
+
+00:10:35.910 --> 00:10:35.920 align:start position:0%
+allowed that's been it from me thank you
+ 
+
+00:10:35.920 --> 00:10:39.560 align:start position:0%
+allowed that's been it from me thank you
+very<00:10:36.120><c> much</c><00:10:36.320><c> for</c><00:10:36.440><c> your</c><00:10:36.560><c> attention</c>
+

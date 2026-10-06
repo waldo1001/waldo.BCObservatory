@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/so-service-commitments",
   "published_at": "2026-01-23T18:10:14.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6883a0a000ed696a8e8aa75836c6d86b3adbc6e2",
       "words": 453,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:09.803Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.008004
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:09.823Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:09.824Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:09.825Z",
+      "page": false
     }
   },
   "input_hash": "6883a0a000ed696a8e8aa75836c6d86b3adbc6e2",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6883a0a000ed696a8e8aa75836c6d86b3adbc6e2"
+  "output_hash": "26706e6b180509effded99f7bb9a9b936ca19c061a227c3f6af86819a7469c4a"
 }

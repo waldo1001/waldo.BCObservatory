@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Introducing: How to Mock Outbound Http Calls for Easier Testing (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=JI9OpaBx0nk",
-  "published_at": null,
+  "published_at": "2025-04-01T15:00:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:49:51.379Z",
+      "captions": "auto:en-orig",
+      "duration_s": 640
+    },
+    "captioned": {
+      "at": "2026-10-06T18:49:59.853Z",
+      "path": "data/captions/microsoft/JI9OpaBx0nk.vtt",
+      "vtt_sha256": "680093c48f50d0b04a61c56c672e7faf0816fb8ab544bb09644bbbcadfc0087d",
+      "segments": 36,
+      "words": 1711,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 272,
-    "duration_s": 641,
-    "via": "reconcile"
-  }
+    "duration_s": 640,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "680093c48f50d0b04a61c56c672e7faf0816fb8ab544bb09644bbbcadfc0087d"
 }

@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/working-with-contracts/so-service-commitments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/so-service-commitments",
+  "title": "Planned subscription lines in subscriptions",
+  "blob": "6883a0a000ed696a8e8aa75836c6d86b3adbc6e2",
+  "summary": "Planned subscription lines in subscription contracts describe monetary content of customer and supplier agreements with billing recurrence and termination dates managed through subscription records.",
+  "systems": [
+    "sales",
+    "service"
+  ],
+  "topics": [
+    "subscriptions",
+    "contracts",
+    "billing",
+    "service commitments",
+    "subscription lines"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Planned Subscription Lines"
+    },
+    {
+      "type": "page",
+      "name": "Subscriptions"
+    },
+    {
+      "type": "page",
+      "name": "Archived Subscription Lines"
+    }
+  ],
+  "features": [
+    "subscription line archiving",
+    "contract assignment",
+    "billing recurrence",
+    "termination dates",
+    "change logging"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008004,
+      "pages_in_call": 4
+    }
+  ]
+}

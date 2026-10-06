@@ -1,0 +1,357 @@
+{
+  "video_id": "JoGW2xlIq0I",
+  "item_id": "video/yt-microsoft/JoGW2xlIq0I",
+  "title": "What's New: Value Chain Automation with Assembly Orders (2025 release wave 1)",
+  "duration_s": 621,
+  "systems": [
+    "assembly",
+    "sustainability",
+    "inventory"
+  ],
+  "topics": [
+    "value chain automation",
+    "scope 3 emissions",
+    "carbon equivalent",
+    "sustainability value entry",
+    "assembly orders",
+    "purchase documents",
+    "emissions tracking",
+    "sustainability setup"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Value Chain and Scope 3 Automation",
+      "t_start": 0,
+      "t_end": 118.7
+    },
+    {
+      "title": "Assembly Orders and Carbon Equivalent Calculations",
+      "t_start": 118.7,
+      "t_end": 197.4
+    },
+    {
+      "title": "Sustainability Setup and Value Chain Tracking Configuration",
+      "t_start": 197.4,
+      "t_end": 263.4
+    },
+    {
+      "title": "Manual Emissions Entry and Purchase Documents",
+      "t_start": 263.4,
+      "t_end": 318.6
+    },
+    {
+      "title": "Purchase Invoice Processing and Sustainability Value Entries",
+      "t_start": 318.6,
+      "t_end": 412
+    },
+    {
+      "title": "Assembly Order with Items and Resources",
+      "t_start": 412,
+      "t_end": 523
+    },
+    {
+      "title": "Assembly Item Emissions and Carbon Equivalent Per Unit",
+      "t_start": 523,
+      "t_end": 621
+    }
+  ],
+  "features": [
+    {
+      "name": "Sustainability Value Entry",
+      "description": "New functionality tracking item emissions similar to existing value entries but related to item emissions instead of costs. Created when posting purchase invoices and assembly orders with value chain tracking enabled.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 58.1,
+      "t_end": 88,
+      "is_demoed": true,
+      "caveats": [
+        "Only works with carbon equivalent",
+        "Item charge cannot be applied in this wave",
+        "Only supports average costing method"
+      ],
+      "tags": [
+        "emissions",
+        "sustainability",
+        "value entries",
+        "carbon tracking"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Value Chain Tracking Field",
+      "description": "Required field in Sustainability Setup that must be enabled to create sustainability value entries alongside sustainability ledger entries when posting purchase invoices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 213.7,
+      "t_end": 251.3,
+      "is_demoed": true,
+      "caveats": [
+        "Functionality is in public review",
+        "Users should test in sandbox first before production",
+        "Without enabling shows no difference in user experience"
+      ],
+      "tags": [
+        "configuration",
+        "setup",
+        "preview feature",
+        "sustainability tracking"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Manual Emissions Entry for Existing Items",
+      "description": "Ability to manually enter emissions for items that do not have purchase documents. Users can enter carbon, methane and natrium values and run a calculate CO2 action to compute carbon equivalent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 274.4,
+      "t_end": 300.6,
+      "is_demoed": true,
+      "caveats": [
+        "Only applies if no purchase document exists",
+        "Manual entry only for existing items without purchase history"
+      ],
+      "tags": [
+        "manual entry",
+        "emissions",
+        "co2 calculation"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Automatic Emissions Collection from Purchase Documents",
+      "description": "System automatically collects emission information from posted purchase invoices and calculates carbon equivalent in the background for items used in assembly orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 300.6,
+      "t_end": 341.8,
+      "is_demoed": true,
+      "caveats": [
+        "Only for items with purchase documents",
+        "Automatic calculation based on configured emission fees"
+      ],
+      "tags": [
+        "purchase integration",
+        "automatic calculation",
+        "carbon tracking"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Assembly Order Emissions Calculation",
+      "description": "Assembly orders now calculate total carbon equivalent based on component items and resources, showing total and per-unit emissions. System automatically transfers emissions from assembly lines to final assembly item.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 151,
+      "t_end": 523,
+      "is_demoed": true,
+      "caveats": [
+        "Only item charges not supported in this wave",
+        "Item charge application planned for future",
+        "Works only with average costing method"
+      ],
+      "tags": [
+        "assembly orders",
+        "carbon calculation",
+        "emissions",
+        "item assembly"
+      ],
+      "system": "assembly"
+    },
+    {
+      "name": "Carbon Equivalent Calculation",
+      "description": "System calculates carbon equivalent from multiple gas emissions (carbon, methane, natrium) using configured emission fees. Works as the basis for all value chain calculations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 130.6,
+      "t_end": 197.4,
+      "is_demoed": true,
+      "caveats": [
+        "Only carbon equivalent is used for value chain calculations",
+        "Can track individual gases but calculations use equivalent",
+        "Requires emission fee configuration"
+      ],
+      "tags": [
+        "carbon equivalent",
+        "emissions",
+        "calculation",
+        "setup"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Sustainability Ledger Entry",
+      "description": "Existing functionality that records sustainability transactions. Now works alongside sustainability value entries when value chain tracking is enabled.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 26.5,
+      "t_end": 46.8,
+      "is_demoed": true,
+      "caveats": [
+        "Created even without value chain tracking enabled",
+        "Earlier way of recording sustainability transactions"
+      ],
+      "tags": [
+        "sustainability",
+        "ledger entries",
+        "environmental reporting"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Sustainability Value Entry on Sales Invoice",
+      "description": "Final solution to include sustainability value entry information on sales invoices. Emissions from assembly orders will appear on the sales invoice document.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 88,
+      "t_end": 118.7,
+      "is_demoed": false,
+      "caveats": [
+        "Currently no printout support - must be added manually",
+        "Future printout support based on feedback",
+        "Currently only in posted sales invoice document"
+      ],
+      "tags": [
+        "sales invoice",
+        "sustainability",
+        "future feature"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Procurement Fast Tab in Sustainability Setup",
+      "description": "Configuration area in Sustainability Setup where users enable value chain tracking and default sustainability accounts and emission values for items and resources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 197.4,
+      "t_end": 225.8,
+      "is_demoed": true,
+      "caveats": [
+        "Must enable value chain tracking field",
+        "Requires configuration of default values"
+      ],
+      "tags": [
+        "setup",
+        "configuration",
+        "sustainability",
+        "procurement"
+      ],
+      "system": "sustainability"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Sustainability Value Entry",
+      "t": 58.1
+    },
+    {
+      "type": "other",
+      "name": "Sustainability Ledger Entry",
+      "t": 26.5
+    },
+    {
+      "type": "other",
+      "name": "Sustainability Setup",
+      "t": 197.4
+    },
+    {
+      "type": "other",
+      "name": "Procurement Fast Tab",
+      "t": 197.4
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 58.1,
+      "text": "We have now new functionality. We have sustain sustainability value entry. And this is very very similar what we have in the existing value",
+      "why_it_matters": "Explains the core new feature and how it differs from existing value entries - tracking emissions rather than costs",
+      "check": "exact"
+    },
+    {
+      "t": 75.5,
+      "text": "So everything is started with the purchase document. you will get this first uh incoming emission from purchase documents in this wave only for",
+      "why_it_matters": "Clarifies the starting point and important limitation of the value chain automation feature",
+      "check": "exact"
+    },
+    {
+      "t": 130.6,
+      "text": "all value chain works only with the carbon equivalent. So whatever you enter as your uh beginning on purchase documents if you enter carbon",
+      "why_it_matters": "States the fundamental design decision that all calculations use carbon equivalent regardless of individual gases entered",
+      "check": "exact"
+    },
+    {
+      "t": 197.4,
+      "text": "In this moment system work only with average method.",
+      "why_it_matters": "States the only supported costing method for sustainability value entries",
+      "check": "exact"
+    },
+    {
+      "t": 225.8,
+      "text": "If you want to get create a sustainability value entry together, you need to enable you need you must enable this field. Without enabling",
+      "why_it_matters": "Explains the critical requirement for the value chain tracking field and impact of not enabling it",
+      "check": "exact"
+    },
+    {
+      "t": 240.2,
+      "text": "when you enable because this completed functionality about value chain is in this moment in public review.",
+      "why_it_matters": "Clarifies that the value chain functionality is in public preview status",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 75.5,
+      "kind": "not-in-this-release",
+      "text": "item charge cannot be applied in this wave. This is something what we are planning for the future"
+    },
+    {
+      "t": 106.9,
+      "kind": "not-in-this-release",
+      "text": "In this way, we do not support uh different printouts. We have this information on post sales invoice document. But if you want to to print them, you need to add them manually to your printouts. In the future, we will see based on your feedback how you would like to have this uh intro introduced in printouts"
+    },
+    {
+      "t": 240.2,
+      "kind": "preview",
+      "text": "this completed functionality about value chain is in this moment in public review"
+    },
+    {
+      "t": 251.3,
+      "kind": "preview",
+      "text": "You will get this warning message that our suggestion will be first try this functionality in your sandbox and after you confirm everything work based on your expectation you can switch to production environment"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027049999999999998
+    }
+  ]
+}

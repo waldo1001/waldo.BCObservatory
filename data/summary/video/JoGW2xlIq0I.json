@@ -1,0 +1,27 @@
+{
+  "video_id": "JoGW2xlIq0I",
+  "item_id": "video/yt-microsoft/JoGW2xlIq0I",
+  "summary": "Value chain automation for Scope 3 emissions in Business Central 2025 release wave 1: sustainability value entries created from purchase invoices and assembly orders, with carbon equivalent per unit. Covers setup, manual emissions entry, and limits (average costing only, no item charges). Value chain functionality is in public review.",
+  "overview": "The video walks through how emissions flow from purchase documents into assembly orders. Sustainability value entries are new entries, similar to value entries but tracking item emissions instead of costs. They are created when posting purchase invoices and assembly orders, provided value chain tracking is enabled in Sustainability Setup.\n\nThe demo covers the setup (Procurement fast tab), manual emissions entry for items with no purchase document, posting a purchase invoice, and an assembly order with items and resources that shows total and per-unit carbon equivalent. It also lists current limits and says the functionality is in public review, so testing in a sandbox first is advised.",
+  "key_points": [
+    "Enable the Value Chain Tracking field in Sustainability Setup (Procurement fast tab) to create sustainability value entries alongside sustainability ledger entries. Without it, the user experience shows no difference.",
+    "Sustainability value entries are created when posting purchase invoices and assembly orders with value chain tracking enabled.",
+    "Value chain calculations use only carbon equivalent. It is calculated from carbon, methane and natrium values using configured emission fees.",
+    "For items with no purchase document, emissions can be entered manually and the Calculate CO2 action computes the carbon equivalent.",
+    "Assembly orders show total and per-unit carbon equivalent, transferring emissions from component items and resources to the assembled item.",
+    "Limits in this wave: only the average costing method is supported, and item charges cannot be applied (planned for the future).",
+    "Sustainability value entry information appears on the posted sales invoice document, but printouts have no support and must be added manually. The functionality is in public review, so test in a sandbox first."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "502b176ff84417599b96f69eb4a4335789bab4629ffa217afbfdaefbbb9cf0b1",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0185484
+  }
+}

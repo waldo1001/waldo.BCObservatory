@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v24",
   "published_at": "2026-01-26T13:39:37.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0b01de43ad5a006d67d67b4fa48d893b8a06f4a4",
       "words": 1617,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:50:07.991Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008004
+    },
+    "summarized": {
+      "at": "2026-10-06T18:50:09.821Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:50:09.821Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:50:09.822Z",
+      "page": false
     }
   },
   "input_hash": "0b01de43ad5a006d67d67b4fa48d893b8a06f4a4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0b01de43ad5a006d67d67b4fa48d893b8a06f4a4"
+  "output_hash": "4ffb487004c09ead4ab179b93e02469bdc0b1fe9f2492f322e77843a5aba06a0"
 }

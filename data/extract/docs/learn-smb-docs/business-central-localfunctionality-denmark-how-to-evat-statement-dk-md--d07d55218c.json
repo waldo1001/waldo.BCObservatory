@@ -1,0 +1,76 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-evat-statement-dk.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-evat-statement-dk",
+  "title": "Submit VAT returns electronically",
+  "blob": "1bcad3794518165daece9ef8ec63691b6552da2b",
+  "summary": "Electronic VAT return submission for Danish Business Central allows companies to report draft VAT returns to skat.dk using the Danish Tax Agency's VAT API through certificate-based setup and endpoints.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat reporting",
+    "denmark",
+    "electronic submission",
+    "tax compliance",
+    "local functionality"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "VAT Posting Setup SAF-T"
+    },
+    {
+      "type": "page",
+      "name": "Electronic VAT Declaration Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Reports Configuration"
+    },
+    {
+      "type": "page",
+      "name": "VAT Report Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Statements"
+    },
+    {
+      "type": "page",
+      "name": "VAT Return E-Submission Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Return Periods"
+    },
+    {
+      "type": "page",
+      "name": "Certificates"
+    }
+  ],
+  "features": [
+    "VAT return submission",
+    "electronic declaration",
+    "certificate management",
+    "VAT period retrieval",
+    "XML generation",
+    "skat.dk integration",
+    "draft VAT reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008004,
+      "pages_in_call": 4
+    }
+  ]
+}

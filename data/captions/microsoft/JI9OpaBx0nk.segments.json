@@ -1,0 +1,193 @@
+{
+  "video_id": "JI9OpaBx0nk",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 4.7,
+      "end": 24.8,
+      "text": "welcome to this session about mocking outbound calls for easier testing I'm Stefan and with me I have balash and we're going to talk about what's new in this release when we build applications that rely on external Services we are often challenged with testing the integration code itself if we connect to"
+    },
+    {
+      "t": 24.8,
+      "end": 45.6,
+      "text": "the actual service we need to consider how that service will be impacted by running tests will it impact production perhaps is there rate limits is there other scenarios we need to think about if we actually hit the end point during our test runs and how can we make sure that tests are isolated when we run them"
+    },
+    {
+      "t": 45.6,
+      "end": 65.6,
+      "text": "repeatedly and how can we make sure that we maintain a consistent behavior on the external endpoint between test runs if we then take in the external service and try to simulate it in our test environment but outside BC we are challenged with other scenarios like changing the versions and"
+    },
+    {
+      "t": 65.6,
+      "end": 85.8,
+      "text": "changing the behavior and making sure things are aligned between the test code and the the actual service that we are testing in our test environment even if we isolate the request to the external services and test the consumption of the results or the data that produced for the service there might still be scenarios where we"
+    },
+    {
+      "t": 85.8,
+      "end": 106.4,
+      "text": "cannot do that where there's a dependency that talks to an external service and we still want to handle that to address many of these challenges we have introduced a new test Handler in this release the HTTP client Handler and to teach us about how to use this test Handler I have Bales to help us"
+    },
+    {
+      "t": 106.4,
+      "end": 126.5,
+      "text": "know and understand how to use this feature thank you Stefan well in this demo I'm going to walk you through how you can set up an HTTP client Handler to test your outbound HTTP requests in your Al test as an example let's take a look at the document service it has two methods to get document content and the delete document and both"
+    },
+    {
+      "t": 126.5,
+      "end": 146.7,
+      "text": "make an HTTP request to an external service to verify that the get document content works as expected we can create a test code unit and write a simple test method like so however this setup requires that the external service is up and running instead we can define an HTTP client hander to intercept the"
+    },
+    {
+      "t": 146.7,
+      "end": 164.9,
+      "text": "request and simulate a response for it we can start by defining a procedure and adding the HTTP client Handler attribute to it within the Handler we can simulate the response to a request by populating the properties of the response"
+    },
+    {
+      "t": 164.9,
+      "end": 185,
+      "text": "object finally we can attach the Handler to the test method using the Handler functions attribute when the test is run the HTTP request will be intercepted and routed to the Handler which will mock the response for the best coverage we might want to test that our code can handle all kinds of different cases not only successful ones"
+    },
+    {
+      "t": 185,
+      "end": 205.2,
+      "text": "for example error responses that we can simulate by setting the status code and the reason phrase accordingly unsuccessful requests for example due to a timeout a DNS resolution or some kind of network connectivity issue and requests that got blocked by the environment keep"
+    },
+    {
+      "t": 205.2,
+      "end": 225.3,
+      "text": "in mind that when an HTTP client Handler is attached to a test method then all HTTP calls that occur during the execution of the test will be routed to the hander for processing therefore if you were to for example invoke the delete document in the same test method then both the get and the delete request would need to be"
+    },
+    {
+      "t": 225.3,
+      "end": 245.6,
+      "text": "handled by the same hander procedure to know which request is being processed we can analyze the properties of the request object we can distinguish between the two by only looking at the request type property in this case when the request is of type delete we send the 501 not implemented response while for the get request"
+    },
+    {
+      "t": 245.6,
+      "end": 261.2,
+      "text": "we send the 200 success response great but what if we are expecting multiple different requests with the same request type then we can use the path and query parameters of the request to know how to populate the"
+    },
+    {
+      "t": 261.2,
+      "end": 275.5,
+      "text": "response it is important to mention that as of now it is not possible to set cookies or redirection status codes so far so good we can differentiate between requests and simulate the response"
+    },
+    {
+      "t": 275.5,
+      "end": 295.8,
+      "text": "accordingly however as some of you may know it is possible to set the request URI by using a secret text in that case neither the path nor the query parameters are available as the request URI must not be exposed in that case we can use the has secret URI property of the request to filter for this"
+    },
+    {
+      "t": 295.8,
+      "end": 316,
+      "text": "case but then naturally comes the question is there an other way to handle this scenario other than throwing an exception what if let's say the request is coming from a dependency that we do not want to Mark in general is there a way to only mock certain requests while letting others make it to the external endpoint"
+    },
+    {
+      "t": 316,
+      "end": 328.1,
+      "text": "the answer is yes we have implemented a fall through mechanism that allows the programmer to decide in the Handler whether they want to Mark the response for a request or issue the original"
+    },
+    {
+      "t": 328.1,
+      "end": 333.3,
+      "text": "one like so"
+    },
+    {
+      "t": 333.6,
+      "end": 353.6,
+      "text": "in this case when the request has a secret URI then we just decide to issue the original request as well as when the path is pointing to the SL pictures endpoint when the request is pointing to the/ documents endpoint we mock the response this can be achieved via the Boolean return value of the hander procedure"
+    },
+    {
+      "t": 353.6,
+      "end": 374,
+      "text": "we can use an exit true statement if we want to issue the original request conversely we can use an exit ex it false statement if you want to mock response to be used keep in mind that the default return value is false therefore a completely empty hander procedure would still block the outbound request and return a mocked"
+    },
+    {
+      "t": 374,
+      "end": 390.5,
+      "text": "response now let's put it all together into one big procedure that is able to handle most of the previously defined cases just for fun let's see how the marking goes in action in a debug session"
+    },
+    {
+      "t": 390.5,
+      "end": 396.2,
+      "text": "let's publish the app and start a debu"
+    },
+    {
+      "t": 397.2,
+      "end": 404.6,
+      "text": "session then we can load and run the document service"
+    },
+    {
+      "t": 404.6,
+      "end": 424.7,
+      "text": "tests the get document content test is run first it invokes the get document content method with the dummy document ID which makes a get request to the Local Host / documents endpoint the request is then intercepted by the Handler we can look at the properties of the request object and confirm that it is indeed the get"
+    },
+    {
+      "t": 424.7,
+      "end": 445.4,
+      "text": "request coming from the get document content then the Handler extracts the document ID from the query parameters and fabricates an example content finally it populates the status code and reason phrase to simulate a successful request and uses an exit fall statement to make sure that the mock response is used"
+    },
+    {
+      "t": 445.4,
+      "end": 460.2,
+      "text": "stepping back into the get document content method we can analyze the response subject and confirm that it contains the marked values including the content that needs to be extracted first the content check passes and the test successfully"
+    },
+    {
+      "t": 460.2,
+      "end": 480,
+      "text": "completes the delete document test is run afterwards it invokes the delete document method with a dummy document ID which makes a delete request to the Local Host / doents endpoint the request is intercepted by the Handler and we can verify the request by looking at the properties just like before"
+    },
+    {
+      "t": 480,
+      "end": 500.1,
+      "text": "as the request is of type delete the Handler simulates a 501 not implemented response and returns with an exit false statement as the response object received by the delete document method does not have a success status code it signals an unsuccessful delete operation by returning false therefore"
+    },
+    {
+      "t": 500.1,
+      "end": 511.2,
+      "text": "the test fails with a document deletion failed error finally I'd like to draw your attention to this new property that we have introduced called test http request"
+    },
+    {
+      "t": 511.2,
+      "end": 532.1,
+      "text": "policy you can add it to test code units to specify how outbound request should be treated during test executions by default all requests are allowed but you can further restrict this to only allow ones issued from a Handler or to block all unhandled requests the following tabl shows an overview of all of the scenarios"
+    },
+    {
+      "t": 532.1,
+      "end": 552.2,
+      "text": "we can see the different hander setups on the left while the property values at the top and the outcome for all of these scenarios in the middle let's take a look at all of them in a bit more detail when the property is set to allow all outbound requests which is also the default value then no restrictions are imposed on"
+    },
+    {
+      "t": 552.2,
+      "end": 572.4,
+      "text": "outbound requests to illustrate the three main scenarios we can take a look at the example on the right it has three test methods one with no Handler one with a Handler that issues the original request using an exit true statement and one with a Handler that mock a response in this case all three are"
+    },
+    {
+      "t": 572.4,
+      "end": 588,
+      "text": "allowed when the property is set to allow outbound from Handler then only those outbound requests are allowed that are first intercepted by an HTTP client Handler and then issued to the external endpoint by a Handler for through using an exit true"
+    },
+    {
+      "t": 588,
+      "end": 608.2,
+      "text": "statement this is to ensure that no unintentional requests are made if you look at the same test setup we can see that the first test that has no Handler it's blocked as it tries to make a call directly to the external endpoint while the one where the Handler issues the original request is allowed when the property is set to block"
+    },
+    {
+      "t": 608.2,
+      "end": 628.8,
+      "text": "outbound requests then all outbound requests must be intercepted and handled by an HTTP client Handler this can be very useful if you don't want frequent test executions in your automated cicd pipelines to hit the actual endpoint in the example we can see that the first two methods that try to make a call to the external endpoint"
+    },
+    {
+      "t": 628.8,
+      "end": 640,
+      "text": "are blocked and only the one that simulates a response is allowed that's been it from me thank you very much for your attention"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1711
+}

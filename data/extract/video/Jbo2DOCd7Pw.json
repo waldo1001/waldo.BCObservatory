@@ -1,0 +1,250 @@
+{
+  "video_id": "Jbo2DOCd7Pw",
+  "item_id": "video/yt-microsoft/Jbo2DOCd7Pw",
+  "title": "What's New: Integration with Dynamics 365 Field Service (2025 release wave 1)",
+  "duration_s": 394,
+  "systems": [
+    "integration",
+    "service"
+  ],
+  "topics": [
+    "field service integration",
+    "data synchronization",
+    "dataverse",
+    "service order",
+    "work order",
+    "assisted setup",
+    "app source extension"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Business Central and Field Service Integration",
+      "t_start": 0,
+      "t_end": 57.5
+    },
+    {
+      "title": "Pricing, History, and Technical Requirements",
+      "t_start": 57.5,
+      "t_end": 119
+    },
+    {
+      "title": "Setup Process and Assistant Wizard",
+      "t_start": 119,
+      "t_end": 185.7
+    },
+    {
+      "title": "Demo: Service Items and Orders in Business Central",
+      "t_start": 185.7,
+      "t_end": 256.3
+    },
+    {
+      "title": "Demo: Work Order Management in Field Service",
+      "t_start": 256.3,
+      "t_end": 343.3
+    },
+    {
+      "title": "Resources and Conclusion",
+      "t_start": 343.3,
+      "t_end": 394
+    }
+  ],
+  "features": [
+    {
+      "name": "Field Service Integration for Projects",
+      "description": "Basic integration between Business Central and Field Service for project management, released in the previous year. Allows synchronization of project-related information between the two systems.",
+      "status": "ga",
+      "status_evidence_t": 80.6,
+      "status_evidence_quote": "Integration between Business Central and field service was already announced and released last year. This was the basic integration for projects.",
+      "status_evidence_verified": true,
+      "t_start": 80.6,
+      "t_end": 91.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "projects",
+        "previously released"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Field Service Integration for Service Management",
+      "description": "New integration functionality that extends Field Service integration to include the service model in Business Central, enabling synchronization of service orders, items, and management between the two systems. Requires Business Central premium license.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 91.2,
+      "t_end": 105.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Business Central premium license",
+        "Requires Dataverse data sync technology enabled",
+        "Requires Dynamics 365 Sales integration",
+        "Requires virtual tables enabled"
+      ],
+      "tags": [
+        "service management",
+        "2025 wave 1",
+        "service orders"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Dataverse Data Sync Technology",
+      "description": "The technical foundation for the Field Service integration, enabling real-time synchronization of data between Business Central and Dynamics 365 Field Service through Dataverse with virtual tables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 119,
+      "t_end": 139.6,
+      "is_demoed": false,
+      "caveats": [
+        "Must be enabled in Business Central instance",
+        "Virtual tables must be enabled in environment"
+      ],
+      "tags": [
+        "dataverse",
+        "data sync",
+        "virtual tables"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Assisted Setup Wizard for Field Service",
+      "description": "A guided setup wizard in Business Central that walks users through the entire process of enabling Field Service integration, including configuration of Dataverse, Sales integration, and virtual tables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 139.6,
+      "t_end": 173.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "assisted setup",
+        "configuration",
+        "onboarding"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Field Service Integration App from AppSource",
+      "description": "An extension app that must be downloaded and installed from AppSource to enable all Field Service integration features. It is not installed directly in Business Central by default.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 173.5,
+      "t_end": 185.7,
+      "is_demoed": false,
+      "caveats": [
+        "Must be manually installed from AppSource",
+        "Required for all Field Service features"
+      ],
+      "tags": [
+        "appsource",
+        "extension",
+        "installation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Service Item Creation and Synchronization",
+      "description": "Automatic creation and synchronization of service items in Business Central based on sales of items, with linked service orders that synchronize to Field Service work orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 221.2,
+      "t_end": 256.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "service items",
+        "synchronization",
+        "service orders"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Work Order Scheduling and Assignment",
+      "description": "Ability to view, schedule, and assign work orders from Business Central service orders in Field Service's schedule board, with drag-and-drop scheduling and employee assignment capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 267.5,
+      "t_end": 321.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "work orders",
+        "scheduling",
+        "assignment"
+      ],
+      "system": "service"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Schedule Board",
+      "t": 291
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Buaj Kotayoko",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 67.8,
+      "text": "with Business Central premium license you have a right to buy an attach license for field service for just $20",
+      "why_it_matters": "States the pricing model and licensing arrangement for customers wanting to use the Field Service integration.",
+      "check": "exact"
+    },
+    {
+      "t": 80.6,
+      "text": "Integration between Business Central and field service was already announced and released last year. This was the basic integration for projects.",
+      "why_it_matters": "Establishes the release history - projects integration was released previously, and services integration is new in 2025 wave 1.",
+      "check": "exact"
+    },
+    {
+      "t": 119,
+      "text": "This integration is based on data vers data sync technology. So you need to enable that in your business central instance",
+      "why_it_matters": "Specifies the technical architecture and lists a key requirement for implementing the integration.",
+      "check": "exact"
+    },
+    {
+      "t": 139.6,
+      "text": "there is actually a very easy wizard in assisted setup that guides you through the whole process",
+      "why_it_matters": "Describes the setup experience and emphasizes ease of implementation for customers.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 105.4,
+      "kind": "subject-to-change",
+      "text": "You might have seen videos talking about both of those integrations released last year information circulating on social media. Uh and um this is all now finally coming to you in 25 uh wave 1."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 2,
+    "evidence_verified": 1,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020441
+    }
+  ]
+}
