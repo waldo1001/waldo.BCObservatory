@@ -1,0 +1,249 @@
+{
+  "video_id": "5E6ikveL6N0",
+  "item_id": "video/yt-microsoft/5E6ikveL6N0",
+  "title": "Comparing Posting Accounts and Posting Groups Between Dynamics GP and Dynamics Business Central",
+  "duration_s": 251,
+  "systems": [
+    "finance",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "posting groups",
+    "posting accounts",
+    "default posting accounts",
+    "business posting groups",
+    "product posting groups",
+    "posting setup",
+    "customer class",
+    "vendor setup",
+    "item classification",
+    "gl account defaults"
+  ],
+  "chapters": [
+    {
+      "title": "Posting Accounts in Dynamics GP",
+      "t_start": 0,
+      "t_end": 51.9
+    },
+    {
+      "title": "Introduction to Posting Groups in Business Central",
+      "t_start": 51.9,
+      "t_end": 82.7
+    },
+    {
+      "title": "Business Posting Groups and Product Posting Groups",
+      "t_start": 82.7,
+      "t_end": 116.1
+    },
+    {
+      "title": "Posting Setup - Combining Business and Product Posting Groups",
+      "t_start": 116.1,
+      "t_end": 158
+    },
+    {
+      "title": "Assigning Posting Groups to Master Data",
+      "t_start": 158,
+      "t_end": 191.9
+    },
+    {
+      "title": "Inventory Posting Groups and Transaction Preview",
+      "t_start": 191.9,
+      "t_end": 232
+    },
+    {
+      "title": "Summary and Resources",
+      "t_start": 232,
+      "t_end": 251
+    }
+  ],
+  "features": [
+    {
+      "name": "Posting Account Setup in GP",
+      "description": "Default posting accounts can be defined in GP to simplify and reduce errors when posting transactions. Once accounts are set up, they will default on transaction entry windows and can be assigned at the class and individual record level.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1.3,
+      "t_end": 51.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting accounts",
+        "defaults",
+        "gp",
+        "error reduction"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Business Posting Groups",
+      "description": "Business posting groups in Business Central focus on categorizing who you are buying and selling to, such as by regions, segments, industries or other business categorization methods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 65.4,
+      "t_end": 102.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting groups",
+        "categorization",
+        "customers",
+        "vendors"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Product Posting Groups",
+      "description": "Product posting groups in Business Central focus on categorizing what you are buying and selling, distinguished by product line, use case such as manufacturing, retail, or services.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 82.7,
+      "t_end": 116.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting groups",
+        "product classification",
+        "items",
+        "categorization"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Posting Setup",
+      "description": "Posting setup in Business Central combines business posting groups (who) with product posting groups (what) to define GL accounts for transactions including sales, cost of goods sold, and other relevant accounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 116.1,
+      "t_end": 136.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting setup",
+        "gl accounts",
+        "defaults",
+        "configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Customer Posting Groups",
+      "description": "Customer posting groups in Business Central define accounts for customers, including accounts receivable and discount accounts, and allow organization of customers by region or other categorization similar to GP classes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 136.6,
+      "t_end": 158,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "customer posting groups",
+        "ar accounts",
+        "customer classification"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Inventory Posting Groups",
+      "description": "Inventory posting groups in Business Central allow definition of accounts based on item classification and location, enabling GL account defaults when creating sales and purchase transactions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 181.2,
+      "t_end": 202.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "inventory posting groups",
+        "item classification",
+        "location",
+        "gl accounts"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Posting Preview",
+      "description": "Posting preview functionality allows users to view GL accounts that will be used when posting transactions before actually posting, showing how inventory, cost of goods sold, sales, and accounts receivable accounts are determined.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 202.4,
+      "t_end": 232,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting preview",
+        "gl accounts",
+        "transaction posting"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 1.3,
+      "text": "setting up default posting accounts in GP helps simplify and reduce errors and inconsistencies when posting transactions",
+      "why_it_matters": "Establishes the core value proposition of defining default accounts to prevent transaction posting errors",
+      "check": "exact"
+    },
+    {
+      "t": 31.4,
+      "text": "in that class we have categorized those transactions posted from customers in this class to use a different accounts receivable account",
+      "why_it_matters": "Explains how GP classes group customers for different posting behavior, the foundation for understanding Business Central posting groups",
+      "check": "exact"
+    },
+    {
+      "t": 65.4,
+      "text": "Business posting groups focus on who you are buying and selling to product posting groups focus on what you are buying and selling",
+      "why_it_matters": "Defines the two core dimensions of Business Central posting group design - separating master data categorization from product categorization",
+      "check": "exact"
+    },
+    {
+      "t": 116.1,
+      "text": "posting setup is where you pull these two concept steps together combining the what with the who",
+      "why_it_matters": "Clarifies how posting setup bridges business and product posting groups to create actual GL account mappings",
+      "check": "exact"
+    },
+    {
+      "t": 136.6,
+      "text": "I assigned the Enterprise General business posting group and the customer posting group of Northeast",
+      "why_it_matters": "Demonstrates practical assignment of multiple posting groups to customer records for hierarchical account defaults",
+      "check": "exact"
+    },
+    {
+      "t": 212,
+      "text": "the cost of good sold and sales accounts are being pulled from posting setup where we Define the what from the product posting group",
+      "why_it_matters": "Shows how the two-dimensional posting group approach determines actual GL accounts used in transactions",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014913
+    }
+  ]
+}

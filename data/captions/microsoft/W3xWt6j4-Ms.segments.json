@@ -1,0 +1,98 @@
+{
+  "video_id": "W3xWt6j4-Ms",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 2.8,
+      "end": 22.9,
+      "text": "in this video we're going to talk about the financial reporting tools that are available in GP and compare that to the tools available in business Central in my GP system here are a few of the AFA reports that were built to support financial reporting such as your balance sheet and income statements in"
+    },
+    {
+      "t": 22.9,
+      "end": 38.2,
+      "text": "addition to AFA many GP customers use management reporter for these reports because of its Rich feature set now let's go to business Central and look at how you can create Financial reports using account"
+    },
+    {
+      "t": 38.2,
+      "end": 58.2,
+      "text": "schedules to navigate to account schedules select the search icon enter account schedules and choose it from the search results business Central comes with eight different account schedules out of the box the first four are used for charts on the business Central dashboard the remaining four are financial"
+    },
+    {
+      "t": 58.2,
+      "end": 64.9,
+      "text": "statements that are created using a account subcategories from general ledger"
+    },
+    {
+      "t": 64.9,
+      "end": 80.1,
+      "text": "accounts let's take a look at account categories in a bit more detail if you use the cloud migration tool to migrate your data from GP to business Central then your accounts and the categories assigned will get moved to business"
+    },
+    {
+      "t": 80.1,
+      "end": 91.4,
+      "text": "Central if I select the cash account subcategory on the right side I can see all the accounts that are included in this category"
+    },
+    {
+      "t": 91.4,
+      "end": 102.2,
+      "text": "in addition I can also see any accounts in my chart of accounts that are not currently assigned a category and therefore will not be included on account"
+    },
+    {
+      "t": 102.2,
+      "end": 111.8,
+      "text": "schedules let's create a new category and assign the two missing accounts to that category"
+    },
+    {
+      "t": 121,
+      "end": 133,
+      "text": "now that I've created the new category and assigned to the accounts business Central is reminding me to update the account schedule so these accounts will now be included on the"
+    },
+    {
+      "t": 133,
+      "end": 142,
+      "text": "reports if we navigate back to the account schedules let's look at one of the reports more"
+    },
+    {
+      "t": 144,
+      "end": 158,
+      "text": "closely this message is just reminding me that the account schedules will be updated like we just did from the account categories and if I want to make a copy we will select no and not make a"
+    },
+    {
+      "t": 158,
+      "end": 178.5,
+      "text": "copy by selecting the income statement we can see the details of the makeup of the report including row definitions as well as the look and feel of the report each row is numbered so that you can create formulas allowing you to sum up mult multiple accounts or multiple divide"
+    },
+    {
+      "t": 178.5,
+      "end": 197.9,
+      "text": "values you can can also indicate if you want certain roles bolded or italics or to start on a new page if we navigate to the overview then we can also select the different column layouts we want for the report as well as select different date"
+    },
+    {
+      "t": 197.9,
+      "end": 205.8,
+      "text": "ranges as you select different date ranges you can see the amounts change"
+    },
+    {
+      "t": 212.2,
+      "end": 223,
+      "text": "you can also filter account schedules by dimensions in this example let's say we want to filter on our sales department now I can see expenses for just my sales"
+    },
+    {
+      "t": 223,
+      "end": 233,
+      "text": "department in addition I can also drill down into each one of the amounts to see further details on each"
+    },
+    {
+      "t": 238.1,
+      "end": 253.6,
+      "text": "line each accounts schedule can also be exported to excel in addition if you create account schedules and want to use it in other companies you can simply export it and then import it into other"
+    },
+    {
+      "t": 253.6,
+      "end": 270.1,
+      "text": "companies and that's a quick look at accounts schedules and business Central that can be used for your financial reporting needs to learn more about business Central see the following resources"
+    }
+  ],
+  "markers": [],
+  "word_count": 572
+}
