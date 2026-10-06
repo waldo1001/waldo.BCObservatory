@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5624.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5624",
+  "title": "Insurance - Coverage Details (report)",
+  "blob": "72b6197f7a30bb0df2b0a3c90d2f1ab8ae18daaa",
+  "summary": "Insurance - Coverage Details report displays individual fixed assets linked to each insurance policy with coverage amounts that may differ from actual policy coverage.",
+  "systems": [
+    "fixed-assets",
+    "reporting"
+  ],
+  "topics": [
+    "insurance",
+    "fixed assets",
+    "coverage",
+    "details"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Insurance - Coverage Details"
+    }
+  ],
+  "features": [
+    "asset-to-policy linking",
+    "coverage amounts"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001081,
+      "pages_in_call": 8
+    }
+  ]
+}

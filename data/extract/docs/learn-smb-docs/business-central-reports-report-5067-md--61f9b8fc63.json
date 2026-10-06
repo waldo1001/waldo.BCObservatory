@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5067.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5067",
+  "title": "Questionnaire - Test (report)",
+  "blob": "2e51f3e33b3a19164861aa1b4dc1c60506cd9e1e",
+  "summary": "Questionnaire - Test report displays test reports for profile questionnaires from the Profile Questionnaire Setup page.",
+  "systems": [
+    "crm"
+  ],
+  "topics": [
+    "reporting",
+    "questionnaires",
+    "profile questionnaires",
+    "marketing"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Questionnaire - Test"
+    },
+    {
+      "type": "page",
+      "name": "Profile Questionnaire Setup"
+    }
+  ],
+  "features": [
+    "questionnaire testing",
+    "profile questionnaires"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001233,
+      "pages_in_call": 8
+    }
+  ]
+}

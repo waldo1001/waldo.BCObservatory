@@ -1,0 +1,27 @@
+{
+  "video_id": "6d6iajwQQ-c",
+  "item_id": "video/yt-microsoft/6d6iajwQQ-c",
+  "summary": "Value chain tracking for sustainability in Business Central production orders, in preview in 2025 release wave 1. It covers sustainability value entries, emissions on items, work centers, BOMs, routings and production journals. Only the average costing method and carbon equivalent are supported.",
+  "overview": "The video, published 2025-04-01, shows how emissions are collected from purchase documents and carried through production orders. Sustainability value entries work much like costing value entries for items. Emissions come from items and work centers, flow into production BOMs and routings, and are posted through consumption, output and production journals.\n\nIt demos setup (enabling value chain tracking, running Calculate CO2E on first setup), item cards, purchase invoice integration, production order refresh and posting, and the resulting sustainability entries. The presenter says the functionality is in public preview, some features are missing (such as item charges), and it should be tested in a sandbox before production use.",
+  "key_points": [
+    "Value chain tracking is enabled in sustainability setup. It works only with carbon equivalent: values entered on purchase documents are converted to carbon equivalent in the background.",
+    "Sustainability value entries support only the average costing method in this wave. Item charges are not supported and there is no printout of final gas emissions.",
+    "On first setup, run Calculate Carbon Equivalent manually for items, work centers, production BOMs and routings. After that it works automatically.",
+    "Manual emission entry on item cards is available only when the replenishment policy is purchase. Automatic calculation applies to items whose replenishment system is not purchase.",
+    "Production orders show total carbon equivalent only after Refresh Production Order is run. Consumption, output and production journals can post emissions.",
+    "Capacity ledger entry gets a sustainability account column linking to sustainability value entries, which hold the other emission details.",
+    "The feature is in public preview. Test it in a sandbox before using it in production."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "5ee1433a641583ee7fd6c62efdbac43403e62c4c52ccc8feb555f4e9969eb45c",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0181324
+  }
+}

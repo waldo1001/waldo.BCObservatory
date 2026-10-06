@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5600.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5600",
+  "title": "Fixed Asset Analysis (report)",
+  "blob": "b21a85a32c6849aafb0096409be6dfe25882c619",
+  "summary": "Fixed Asset Analysis report provides comprehensive examination of fixed assets with customizable date and data columns for reconciliation, check, and budget reporting.",
+  "systems": [
+    "fixed-assets"
+  ],
+  "topics": [
+    "reporting",
+    "fixed assets",
+    "depreciation",
+    "asset analysis",
+    "budgeting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Fixed Asset Analysis"
+    }
+  ],
+  "features": [
+    "asset valuation",
+    "depreciation analysis",
+    "budget reporting",
+    "future depreciation calculation",
+    "customizable columns"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001233,
+      "pages_in_call": 8
+    }
+  ]
+}

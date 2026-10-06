@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-512.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-512",
+  "title": "Intercompany Transactions (report)",
+  "blob": "7f96adc219ce5a999ce1c07568bb2582fcd79c2d",
+  "summary": "Intercompany Transactions report lists all posted intercompany sales, purchases, and journal entries to review and reconcile activity before consolidation.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "reporting",
+    "intercompany transactions",
+    "consolidation",
+    "reconciliation"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Intercompany Transactions"
+    }
+  ],
+  "features": [
+    "intercompany sales",
+    "intercompany purchases",
+    "journal entry review",
+    "consolidation support",
+    "reconciliation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001233,
+      "pages_in_call": 8
+    }
+  ]
+}

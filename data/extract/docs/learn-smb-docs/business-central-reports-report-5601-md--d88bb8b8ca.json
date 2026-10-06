@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5601.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5601",
+  "title": "Fixed Asset List (report)",
+  "blob": "cedbfad564ec8b45ef8722ee9482e7b66c73e10d",
+  "summary": "Fixed Asset List report lists fixed assets and their setup information including class, location, depreciation method, and dates for a given depreciation book.",
+  "systems": [
+    "fixed-assets"
+  ],
+  "topics": [
+    "reporting",
+    "fixed assets",
+    "asset inventory",
+    "depreciation",
+    "compliance"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Fixed Asset List"
+    }
+  ],
+  "features": [
+    "asset inventory",
+    "depreciation tracking",
+    "location tracking",
+    "asset class information",
+    "compliance reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001233,
+      "pages_in_call": 8
+    }
+  ]
+}

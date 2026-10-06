@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5623.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5623",
+  "title": "Insurance Register (report)",
+  "blob": "d8cb0a39ba170fa30d9f418b3a91d751fde5af72",
+  "summary": "Insurance Register report shows posted insurance ledger entries sorted by register number and can print automatically when posting journals.",
+  "systems": [
+    "fixed-assets",
+    "reporting"
+  ],
+  "topics": [
+    "insurance",
+    "fixed assets",
+    "register",
+    "ledger",
+    "posting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Insurance Register"
+    }
+  ],
+  "features": [
+    "posted ledger entries",
+    "register filtering",
+    "post and print"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001081,
+      "pages_in_call": 8
+    }
+  ]
+}

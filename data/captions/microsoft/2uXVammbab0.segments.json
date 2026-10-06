@@ -1,0 +1,318 @@
+{
+  "video_id": "2uXVammbab0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 4.7,
+      "end": 18.6,
+      "text": "Hi there, my name is Mike and here's how to chat with Copilot in Business Central. Copilot is your AI companion for work and you'll find it providing assistance across all kinds of features in Business Central, but from anywhere and at any time."
+    },
+    {
+      "t": 18.6,
+      "end": 32.8,
+      "text": "You can chat with C-pilot in Business Central as well. I'll show you how this works. Think of this as an easy way to uh really interact with your business data using natural language so that you can find records um by filtering,"
+    },
+    {
+      "t": 32.8,
+      "end": 50.5,
+      "text": "sorting and searching on that data. But it's also a way to uh learn new skills with Business Central. So whether you're uh new to Business Central and just learning how things work or you're trying to master those uh you know little tricks that really raise your game when it comes to working with your data."
+    },
+    {
+      "t": 50.5,
+      "end": 60.7,
+      "text": "Let's dive in now and let's check out a few examples. All right, so to chat with Copilot, simply find the Copilot icon in the app bar and that brings up the copilot pane."
+    },
+    {
+      "t": 60.7,
+      "end": 76.6,
+      "text": "And let's start with a really important question for my business. Which customer owes me most money? So here I've put co-pilot to work on its very first task, which is figuring out which of my customers uh owes me the most,"
+    },
+    {
+      "t": 76.6,
+      "end": 89.7,
+      "text": "which has the most uh amount due. And um here it's going to come back and present this information to me in a way that I can work with. Uh give me a record presented as a neat and compact tile."
+    },
+    {
+      "t": 89.7,
+      "end": 110,
+      "text": "Shows all of the essential information about that customer. And it's a school of fine art. Uh and they have a balance of $53,000. Now that's definitely worth diving into a little bit more. So, let's double click into that and see um does our customer ledger show any payments from them this"
+    },
+    {
+      "t": 110,
+      "end": 122.2,
+      "text": "week. So, before I contact this customer about their balance, um I want to make sure that they haven't registered any payments. Now, there's an important point here to understand which is copilot doesn't have access to my company bank accounts."
+    },
+    {
+      "t": 122.2,
+      "end": 134.3,
+      "text": "It only knows about the data within business central in this case. So here it's looking at my customer ledger entries, looking at other information to figure out do we have a payment that's been registered in Business Central."
+    },
+    {
+      "t": 134.3,
+      "end": 145.2,
+      "text": "Also really important to understand when I put Copilot to work to find things for me, Copilot has access to only the records that I already have access to. It's working on my behalf."
+    },
+    {
+      "t": 145.2,
+      "end": 164.4,
+      "text": "Doesn't access anything else. So here it's come back and said there are zero results. There are zero payments that have been registered. Hm. Interesting. So, um, maybe the next thing I want to do is check what's the easiest way to remind customers to pay up."
+    },
+    {
+      "t": 164.4,
+      "end": 180.7,
+      "text": "Smiley. Well, now this is a very different style of question, isn't it? Now, I'm not asking C-Pilot to find records. Uh, I'm actually asking for assistance to learn how to use Business Central better and has come up with this recommendation of using the reminders feature and how to get to it and how to get started."
+    },
+    {
+      "t": 180.7,
+      "end": 190.7,
+      "text": "Um, okay, fantastic. So that's one little conversation. Let's try something else. Uh so imagine, you know, a customer calls in um has a quote and wants to upgrade that to an order."
+    },
+    {
+      "t": 190.7,
+      "end": 203.4,
+      "text": "Fantastic. So I could type find quote and put in the the quote number, the the number of that document. Um but many times, you know, when you get that email, when you get that customer call, the number is not your starting point."
+    },
+    {
+      "t": 203.4,
+      "end": 215.3,
+      "text": "So you want to start with the name of the customer. So let's try that. Find the latest quote for Relic Cloud. Now, notice how loosely I've described what I'm looking for here."
+    },
+    {
+      "t": 215.3,
+      "end": 226.3,
+      "text": "I said quote. I wasn't specific that this is a sales quote. Uh, Copilot could have gone and figured out, you know, gone and looked at my assembly quotes or my purchase quotes. Uh, but Copilot knows me best."
+    },
+    {
+      "t": 226.3,
+      "end": 239.4,
+      "text": "It knows what are my favorite pages, for example, based on the bookmarks that I have on my roll center. So, it's figured out that sales quotes is probably what I'm after in this case. And sure enough, it's come back and found the sales quote 103."
+    },
+    {
+      "t": 239.4,
+      "end": 249.5,
+      "text": "is presented that information into this compact tile with all the essential fields as well. Now before I proceed with this customer, I want to make sure I understand uh the state of this quote."
+    },
+    {
+      "t": 249.5,
+      "end": 259.6,
+      "text": "So let's see when does this quote expire. So I can now ask Copilot for specific fields on these records as well."
+    },
+    {
+      "t": 259.6,
+      "end": 273,
+      "text": "And um also note that there's no field called expire or expiry. So, Copilot will try to match what I'm asking for in the language that I choose uh with the fields that actually exist on that record."
+    },
+    {
+      "t": 273,
+      "end": 285.8,
+      "text": "And the field in this case is actually called quote valid until date. Uh and it's come back and given me that answer right here. July 16, 25. Excellent. Now, that got me thinking, what if there are more quotes expiring this week?"
+    },
+    {
+      "t": 285.8,
+      "end": 295.8,
+      "text": "Let's check with Copilot again. Any quotes expiring this week? Now, same thing here. Copilot is often looking through my records."
+    },
+    {
+      "t": 295.8,
+      "end": 311.4,
+      "text": "It's going to come back with a response and present that to me. And because I'm talking about a specific field uh which isn't normally part of the you know handful of fields we show on the tile for a record uh here it's actually going to add that to my tiles so I can even easily compare."
+    },
+    {
+      "t": 311.4,
+      "end": 322.2,
+      "text": "So this one is valid until 606. This one's 605. Uh so that information is all available there. Now um all throughout this conversation you've probably realized a couple of things."
+    },
+    {
+      "t": 322.2,
+      "end": 334.2,
+      "text": "One of them is you'll see citation controls like this. You'll see a a reference uh list like this. And these are essentially ways for me to understand where did Copilot source this information from?"
+    },
+    {
+      "t": 334.2,
+      "end": 346.9,
+      "text": "Uh was it from the Business Central database? Uh if we're looking up information, did that come from Microsoft online documentation? And this is a great way for me to understand that Copilot has figured it out the right way."
+    },
+    {
+      "t": 346.9,
+      "end": 362.1,
+      "text": "It has applied the right filters and sorting to come up with an answer. If you check out this one, look how it's converted my natural language question into a way to filter the sales quotes with those expiring with the range between June 2nd and June 8th."
+    },
+    {
+      "t": 362.1,
+      "end": 378.2,
+      "text": "So, u this helps you just really quickly double check that Copilot has used the right logic to come up with the answer. All right. Now, if you can't see the C-pilot pane or you don't seem to be able to get it working, there's a few things admins can do to make sure that this is all set up correctly."
+    },
+    {
+      "t": 378.2,
+      "end": 392.2,
+      "text": "So the first thing is admins can go to the co-pilot and agent capabilities page. This is the page that lists all of the copilot and agent functionality that is available in your environment very specifically."
+    },
+    {
+      "t": 392.2,
+      "end": 405.7,
+      "text": "Look for the line that says chat. Uh make sure it's active. If it's not, there's an action that you can use to activate that. So that's the first thing you need to make sure is set correctly. Secondly, let's look at permissions."
+    },
+    {
+      "t": 405.7,
+      "end": 415.7,
+      "text": "If I go to permission sets, you'll find that there's a new permission set for Copilot. And this contains all the C-pilot system features um including chat."
+    },
+    {
+      "t": 415.7,
+      "end": 429.9,
+      "text": "So, make sure that your users have this assigned if they're not able to access uh chat. This is probably what's missing. This is a permission that was introduced with update 26. Uh all users should have it by default, but admins can of course configure that."
+    },
+    {
+      "t": 429.9,
+      "end": 445,
+      "text": "Okay, so uh bit of a change of gears now. Let's have a completely different conversation with Copilot. Now, this conversation has already gotten pretty long. And just like if you and I were having that chat together, sometimes you lose sight of what the context is and things get a bit difficult."
+    },
+    {
+      "t": 445,
+      "end": 457.4,
+      "text": "And it's the same for Copilot. So, help Copilot out by occasionally clearing the chat using this button right here. That will essentially reset the chat and allow you to start a new conversation, a new thread with Copilot."
+    },
+    {
+      "t": 457.4,
+      "end": 468.5,
+      "text": "It increases the chances of of success. So now for our next conversation, managing inventory is of course an essential part of our business. So I'm going to ask some inventory management questions to co-pilot here."
+    },
+    {
+      "t": 468.5,
+      "end": 477.1,
+      "text": "Let's start with this one. Do we have any chairs in stock for under"
+    },
+    {
+      "t": 477.1,
+      "end": 489.4,
+      "text": "$200? So here I've put Copilot to work with looking through my inventory. Uh notice how I didn't point specifically to the items list. I didn't need to mention that. Copilot will figure out that I'm talking about uh my products that I sell."
+    },
+    {
+      "t": 489.4,
+      "end": 502.1,
+      "text": "Um now this was also one of the uh first use cases we added to um to Business Central to Copilot. Uh and since then it we've improved it greatly. Uh it's faster, it's more performance, it's more reliable."
+    },
+    {
+      "t": 502.1,
+      "end": 513,
+      "text": "Uh and you can see how it comes back with a couple of uh products here displayed beautifully as tiles including that item picture um where I can get that information. So here these are also interactive."
+    },
+    {
+      "t": 513,
+      "end": 523.8,
+      "text": "I'm going to click and drill into the Berlin guest chair. It opens up the record right alongside chat so I can continue working. Let's check my inventory here. The quantity looks correct."
+    },
+    {
+      "t": 523.8,
+      "end": 534.3,
+      "text": "I've got my stockout warnings. Um, and under planning, I see I'm not taking advantage of the reordering policy in Business Central, and I'm not really sure how that works."
+    },
+    {
+      "t": 534.3,
+      "end": 547.9,
+      "text": "So, from the tool tip, I can actually ask Copilot to help me understand what reordering policy is and how that works. So now it's again searching Microsoft's online documentation to come up with an answer."
+    },
+    {
+      "t": 547.9,
+      "end": 560,
+      "text": "Um, and here it's found plenty of information. Again, I've got those citations where I can go and read up in more detail about how to use reorder policy and apply that to my business"
+    },
+    {
+      "t": 560,
+      "end": 570.8,
+      "text": "central. Now I'm more interested in what's not in stock or what's very low stock at this point in time. So let me ask a different style of question. Let's show low stock"
+    },
+    {
+      "t": 570.8,
+      "end": 585.4,
+      "text": "inventory by category. All right. So now Copilot recognizes that some kind of questions are best answered by displaying structured information and the best tool for the job is of course analysis tabs."
+    },
+    {
+      "t": 585.4,
+      "end": 597.1,
+      "text": "So here it's presenting me with a very simple option so that with one click copilot will open the items list. it will use my words to generate an an analysis tab for me."
+    },
+    {
+      "t": 597.1,
+      "end": 608.1,
+      "text": "Uh it'll present that information on screen uh for me to get an answer to my question, get me closer to an answer. So here you can see I've got my desks, I got my chairs. We'll take a look through"
+    },
+    {
+      "t": 608.1,
+      "end": 619.8,
+      "text": "that. And I'd like to add some additional essential information. So let's go and add the um let's see add vendor and substitutes."
+    },
+    {
+      "t": 619.8,
+      "end": 630.2,
+      "text": "So now I'm asking Copilot to modify this analysis view uh and include some additional columns that may be useful for me to understand situation with my inventory."
+    },
+    {
+      "t": 630.2,
+      "end": 645.9,
+      "text": "I've got my quantity there. I've got my vendors and I've got my list of substitutes. And I've just noticed that the London swivel chair has no substitute products defined. And that's obviously a risk because I want my sellers to be able to continue selling alternatives when uh stock is low."
+    },
+    {
+      "t": 645.9,
+      "end": 657.6,
+      "text": "All right. So now I'm on the item substitution page and it's blank. What do I do? How do I use this? Um, luckily Copilot can help me out here too. So hey"
+    },
+    {
+      "t": 657.6,
+      "end": 672.2,
+      "text": "Copilot, what can you help me with on the current page? So Copilot is now aware of other capabilities it has that are very contextual to the currently open page in Business Central."
+    },
+    {
+      "t": 672.2,
+      "end": 684.9,
+      "text": "And here one of the things Copilot can help with is to actually suggest these values. It can also help me analyze the list, but the list is empty right now. So I want to suggest item substitutes. With a single click, it's activated that capability."
+    },
+    {
+      "t": 684.9,
+      "end": 696.4,
+      "text": "And this actually works with any custom capabilities you've added also um through the extensions that you have installed as well. Copilot will recognize them from chat and suggest them inside the copilot pane."
+    },
+    {
+      "t": 696.4,
+      "end": 706.4,
+      "text": "So let's keep a couple of these. I'm just going to remove a couple of these uh chairs that we have here. Uh we'll just keep the swivel chairs. I'll insert those."
+    },
+    {
+      "t": 706.4,
+      "end": 719.6,
+      "text": "And I'm actually done with my task. So, um those are a couple of example conversations you can have with Copilot. Um if you want to try it out and get hands-on, if you're looking for inspiration, what you can do is you can use the prompt guide right here."
+    },
+    {
+      "t": 719.6,
+      "end": 731.5,
+      "text": "This is packed with all kinds of useful example prompts that you can use to find records or to explain concepts. For example, how do I do some task? And these are just like templates in a way."
+    },
+    {
+      "t": 731.5,
+      "end": 745.1,
+      "text": "As I choose it, it's inserted the text that I can then finish off and send to copilot. So, how do I resize the side pane? And copilot here will search again our online documentation."
+    },
+    {
+      "t": 745.1,
+      "end": 761.8,
+      "text": "Uh, but it's also now aware of local functionality documentation. It's aware of release plans as well about upcoming features or features that are new in this release. And here it's found about one fantastic new feature that helps you adjust the factbox uh uh pane with in business central as well."
+    },
+    {
+      "t": 761.8,
+      "end": 773,
+      "text": "So what would you ask copilot? Uh give it a try on your business central and let us know how it goes. Give us some feedback. We really appreciate that. So if you'd like to see more videos like this, just like and subscribe."
+    },
+    {
+      "t": 773,
+      "end": 782,
+      "text": "You'll get plenty more like this. Uh we hope you found this informative and useful and wish you a productive day chatting with Copilot."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2375
+}

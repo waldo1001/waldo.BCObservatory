@@ -1,0 +1,27 @@
+{
+  "video_id": "5Qfc7r618OM",
+  "item_id": "video/yt-microsoft/5Qfc7r618OM",
+  "summary": "Shopify connector skipped records page in Business Central: shows records skipped during export to Shopify because they are invalid or likely to be rejected. The video demos opening the page from the sync notification, fixing a customer with a missing email, and the logging mode field that controls logging.",
+  "overview": "The video explains how to troubleshoot export problems between Business Central and Shopify. When the Shopify connector exports data, it skips records that are invalid for export or likely to be rejected by Shopify.\n\nDuring synchronization a notification about skipped records appears. Choosing view skipped records opens the Shopify skipped records page. The demo shows an entry saying an email is missing, a required field. The user opens the source customer card with the show record function, corrects the issue, and the next export succeeds. Logging of skipped entries is controlled by the logging mode field.",
+  "key_points": [
+    "The Shopify connector skips records during export if they are invalid or likely to be rejected by Shopify.",
+    "A notification about skipped records appears during synchronization; choose view skipped records to open the Shopify skipped records page.",
+    "The page only appears when records are skipped during synchronization.",
+    "The demo shows an entry for a missing email, a required field, on a customer record.",
+    "Show record on a skipped entry opens the source record card (the customer card in the demo) so you can correct it.",
+    "After the record is corrected, the export succeeds.",
+    "The logging mode field controls this logging; both all and error only activate logging of skipped entries."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "6f9ea710e0e2d3168384438c6d8d13bb98c419857b1c1c112cb5d8ace41f2d11",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010938400000000001
+  }
+}

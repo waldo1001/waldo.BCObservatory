@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5622.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5622",
+  "title": "Insurance Journal - Test (report)",
+  "blob": "6df6118477d6a7f40f167c4a7768508136182a32",
+  "summary": "Insurance Journal - Test report displays journal lines from a fixed asset insurance journal with automatic filtering by journal template and batch names.",
+  "systems": [
+    "fixed-assets",
+    "reporting"
+  ],
+  "topics": [
+    "insurance",
+    "fixed assets",
+    "journal",
+    "test"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Insurance Journal - Test"
+    }
+  ],
+  "features": [
+    "journal line display",
+    "automatic filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001081,
+      "pages_in_call": 8
+    }
+  ]
+}
