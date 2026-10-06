@@ -1,0 +1,320 @@
+{
+  "video_id": "Pt8LrNv_Lgc",
+  "item_id": "video/yt-microsoft/Pt8LrNv_Lgc",
+  "title": "Manufacturing Fundamentals Routing (2026)",
+  "duration_s": 271,
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "routing",
+    "production order",
+    "serial operations",
+    "parallel operations",
+    "operational times",
+    "routing link code",
+    "send ahead quantity",
+    "lead time",
+    "work center",
+    "capacity planning"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to routings and the Airpod demo",
+      "t_start": 0,
+      "t_end": 24.9
+    },
+    {
+      "title": "Routing types - serial vs parallel operations",
+      "t_start": 24.9,
+      "t_end": 47.2
+    },
+    {
+      "title": "Serial routing structure and operational times",
+      "t_start": 47.2,
+      "t_end": 76.2
+    },
+    {
+      "title": "Parallel routing, routing link codes, and advanced features",
+      "t_start": 76.2,
+      "t_end": 129.5
+    },
+    {
+      "title": "Routing versions and integration with production",
+      "t_start": 129.5,
+      "t_end": 155.1
+    },
+    {
+      "title": "Production order creation and modification",
+      "t_start": 155.1,
+      "t_end": 202.9
+    },
+    {
+      "title": "How parallel vs serial routings affect lead times",
+      "t_start": 202.9,
+      "t_end": 239.2
+    },
+    {
+      "title": "Closing remarks and preview of capacities",
+      "t_start": 239.2,
+      "t_end": 271
+    }
+  ],
+  "features": [
+    {
+      "name": "Serial routing",
+      "description": "Routing type where operations run one after another in sequence. Each operation includes details such as location and operational times.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 32.7,
+      "t_end": 76.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "routing",
+        "production",
+        "operations",
+        "serial"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Parallel routing",
+      "description": "Routing type where multiple independent operations can run at the same time to reduce total lead time. After an initial operation, workload is split and both run simultaneously.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 32.7,
+      "t_end": 118,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "routing",
+        "production",
+        "operations",
+        "parallel"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Operational times",
+      "description": "Time components in routing operations including setup time, run time, wait time, and move time. These directly influence scheduling and cost calculations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 61.5,
+      "t_end": 76.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "routing",
+        "timing",
+        "capacity",
+        "scheduling"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Routing link code",
+      "description": "Field that connects a component to a specific operation, enabling material consumption when that operation runs for just-in-time material control.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 104,
+      "t_end": 118,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "routing",
+        "material-control",
+        "bom",
+        "jit"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Send ahead quantity",
+      "description": "Field that lets the next operation start before the current one finishes, overlapping steps to reduce total lead time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 104,
+      "t_end": 118,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "routing",
+        "scheduling",
+        "lead-time"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Standard tasks in routing operations",
+      "description": "Standard tasks can be attached to operations to simplify recurring activities and maintain consistency in documentation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 129.5,
+      "t_end": 148,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "routing",
+        "operations",
+        "documentation"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Routing versions",
+      "description": "Feature allowing creation of new routing versions when production process changes, preserving the original version.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 129.5,
+      "t_end": 148,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "routing",
+        "versioning",
+        "process-changes"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production order automatic routing population",
+      "description": "When creating a production order, Business Central automatically populates item lines with the required BOM and routing, and computes production times including starting and ending dates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 155.1,
+      "t_end": 176.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "production-order",
+        "routing",
+        "scheduling",
+        "automation"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production order modification",
+      "description": "Ability to modify production orders to use different routings for different quantities, such as using parallel routing for some units and serial routing for others.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 176.6,
+      "t_end": 202.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "production-order",
+        "routing",
+        "flexibility"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Lead time calculation and optimization",
+      "description": "Production times are computed from routing times and available capacities. More resources reduce lead times, and parallel routing allows starting production at a later date by utilizing simultaneous operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 215.3,
+      "t_end": 239.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "lead-time",
+        "capacity",
+        "scheduling",
+        "optimization"
+      ],
+      "system": "manufacturing"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 11.4,
+      "text": "Just like the BOM defines what you need, the routing describes the sequence of operations required to build the product.",
+      "why_it_matters": "Establishes the fundamental role of routing in manufacturing - it defines the how, complementing the BOM which defines the what.",
+      "check": "exact"
+    },
+    {
+      "t": 32.7,
+      "text": "Routings support both serial operations, where steps run one after another, and parallel operations, when two independent activities can run at the same time.",
+      "why_it_matters": "Describes the two core routing types and their fundamental difference, showing Business Central accommodates different production strategies.",
+      "check": "exact"
+    },
+    {
+      "t": 61.5,
+      "text": "Operational times include setup time, run time, wait time, and move time between operations.",
+      "why_it_matters": "Identifies the specific time components that directly influence scheduling and cost calculations in manufacturing.",
+      "check": "exact"
+    },
+    {
+      "t": 104,
+      "text": "Routing link code connects a component to a specific operation, so the material is consumed when that operation runs, giving you just-in-time material control.",
+      "why_it_matters": "Explains a key mechanism for achieving just-in-time material consumption in production, affecting material planning.",
+      "check": "exact"
+    },
+    {
+      "t": 129.5,
+      "text": "Business Central supports routing versions, allowing you to create a new version when your process changes without losing the original.",
+      "why_it_matters": "Shows how Business Central manages process evolution while maintaining historical data - a design choice that supports process improvement.",
+      "check": "exact"
+    },
+    {
+      "t": 202.9,
+      "text": "The parallel routing had two operations running at the same time. This made production faster for the parallel routing and allowed production to start",
+      "why_it_matters": "Demonstrates the practical lead time benefit of parallel routing - starting later but finishing on time through concurrent operations.",
+      "check": "exact"
+    },
+    {
+      "t": 228.2,
+      "text": "Production times are defined by routing times and our capacities. Having more resources in our capacities, such as machines or workforce, will reduce lead",
+      "why_it_matters": "States the formula connecting routing design and resource capacity to lead time outcomes - a core principle of production planning.",
+      "check": "exact"
+    },
+    {
+      "t": 239.2,
+      "text": "A well-defined routing ensures that your scheduling reflects real production capabilities, helps identify bottlenecks early, and provides the foundation for accurate lead time and",
+      "why_it_matters": "Summarizes the business value of proper routing definition - scheduling accuracy, bottleneck identification, and cost visibility.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.051483799999999996
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/qms-production-output-testing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/qms-production-output-testing",
+  "title": "Create a sampled inspection automatically from production output",
+  "blob": "58eae9a6ddd75729abae00af6956d784a7f3a2e0",
+  "summary": "This demo shows how to automatically create a sampled quality inspection when posting production output for an item by configuring a production template with tests and setting a sample amount.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "quality inspections",
+    "production output",
+    "sampling",
+    "contoso coffee demo",
+    "templates"
+  ],
+  "objects": [],
+  "features": [
+    "Automatic inspection creation",
+    "Fixed quantity sampling",
+    "Production output trigger",
+    "Quality test configuration",
+    "Inspection completion"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005457,
+      "pages_in_call": 8
+    }
+  ]
+}

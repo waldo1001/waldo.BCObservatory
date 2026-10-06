@@ -1,0 +1,224 @@
+{
+  "video_id": "N30HebR5nJk",
+  "item_id": "video/yt-microsoft/N30HebR5nJk",
+  "title": "Execution & Control Cost Control (2026)",
+  "duration_s": 251,
+  "systems": [
+    "manufacturing",
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "cost control",
+    "costing methods",
+    "production orders",
+    "item costing",
+    "bom cost",
+    "capacity rates",
+    "manufacturing overhead",
+    "production variances",
+    "flushing methods"
+  ],
+  "chapters": [
+    {
+      "title": "Cost control starts on the item card",
+      "t_start": 0,
+      "t_end": 21.7
+    },
+    {
+      "title": "Costing methods in Business Central",
+      "t_start": 21.7,
+      "t_end": 46.4
+    },
+    {
+      "title": "Replenishment methods and cost posting",
+      "t_start": 46.4,
+      "t_end": 75.7
+    },
+    {
+      "title": "Item cost breakdown and cost shares",
+      "t_start": 75.7,
+      "t_end": 110.6
+    },
+    {
+      "title": "BOM cost share distribution report",
+      "t_start": 110.6,
+      "t_end": 145.8
+    },
+    {
+      "title": "Work center capacity rates and costs",
+      "t_start": 145.8,
+      "t_end": 182.4
+    },
+    {
+      "title": "Production order statistics and actual costing",
+      "t_start": 182.4,
+      "t_end": 251
+    }
+  ],
+  "features": [
+    {
+      "name": "Costing methods",
+      "description": "Business Central supports multiple costing methods for items: FIFO, LIFO, specific, weighted average, and standard cost. Standard cost is used to define theoretical cost and account for production variances.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 21.7,
+      "t_end": 46.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "item costing",
+        "fifo",
+        "lifo",
+        "standard cost"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Cost shares on item card",
+      "description": "Item cost details are accessible via a cost shares view that breaks down materials from the production BOM, capacity from routing operations, overhead, and scrap components, separated into material cost, capacity cost, manufacturing overhead, scrap, and total cost columns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 61.8,
+      "t_end": 99.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "cost breakdown",
+        "materials",
+        "capacity",
+        "overhead",
+        "scrap"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "BOM cost share distribution report",
+      "description": "A report that provides cost analysis showing the shape of the cost through a chart and a table that shows how components and operations contribute to the total cost, separating materials, capacity, and overheads.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 110.6,
+      "t_end": 125,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "report",
+        "bom cost",
+        "cost analysis",
+        "visualization"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Work center capacity rates",
+      "description": "Work centers define direct unit cost, indirect cost percentage, and overhead rate to account for total unit cost. Capacity costs are based on posted time in minutes, so incorrect rates or excess time directly impact order costs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 145.8,
+      "t_end": 182.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "capacity",
+        "work center",
+        "overhead",
+        "production time"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production order statistics",
+      "description": "Production order statistics compare expected versus actual costs, breaking down material cost, capacity cost, and overhead. The statistics screen shows the impact of flushing methods and actual time spent on total order cost.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 182.4,
+      "t_end": 224.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "production orders",
+        "expected vs actual",
+        "variance analysis",
+        "capacity needs"
+      ],
+      "system": "manufacturing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Airpod coffee maker",
+      "t": 10.8
+    },
+    {
+      "type": "other",
+      "name": "work center 100 assembly department",
+      "t": 145.8
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 10.8,
+      "text": "In Business Central cost control starts before we open the order. It starts on the item card.",
+      "why_it_matters": "Establishes the foundational principle that cost management begins at item setup, not during order execution.",
+      "check": "exact"
+    },
+    {
+      "t": 75.7,
+      "text": "Item cost is not one number. It is a roll up. Materials come from the production bomb. Capacity comes from routing operations.",
+      "why_it_matters": "Explains the key concept that item costs are composite, built from multiple sources (BOM, routing) that must be tracked separately.",
+      "check": "exact"
+    },
+    {
+      "t": 86,
+      "text": "Business Central separates material cost, capacity cost, manufacturing overhead, scrap, and total cost.",
+      "why_it_matters": "Documents the specific cost categories tracked in the system, essential for variance analysis and financial reporting.",
+      "check": "exact"
+    },
+    {
+      "t": 170.2,
+      "text": "If the rate is wrong, the order cost will be wrong. If the time posted is higher than planned, capacity cost will move, too.",
+      "why_it_matters": "Illustrates the direct cause-effect relationship between work center rates, posted time, and production order costs.",
+      "check": "exact"
+    },
+    {
+      "t": 194.4,
+      "text": "Material cost was expected at 12,296, and capacity is accounted for 324, plus the 10% overhead.",
+      "why_it_matters": "Demonstrates how expected costs are calculated and itemized across material, capacity, and overhead components.",
+      "check": "exact"
+    },
+    {
+      "t": 213.5,
+      "text": "As some of the flushing methods were manual, we can see the material cost was higher, and production spent more time.",
+      "why_it_matters": "Shows how flushing method choices directly impact actual material costs and capacity utilization tracking.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027993
+    }
+  ]
+}

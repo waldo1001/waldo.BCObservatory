@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Excise Taxes (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=Cj_n5x3gN_Y",
-  "published_at": null,
+  "published_at": "2026-04-01T12:00:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:53:27.954Z",
+      "captions": "auto:en-orig",
+      "duration_s": 969
+    },
+    "captioned": {
+      "at": "2026-10-06T13:53:50.067Z",
+      "path": "data/captions/microsoft/Cj_n5x3gN_Y.vtt",
+      "vtt_sha256": "d19d397d4d556d2bfc4f667137435a4589260b8085f61d54c49bc8883ffe8164",
+      "segments": 75,
+      "words": 2486,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 108,
     "duration_s": 969,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d19d397d4d556d2bfc4f667137435a4589260b8085f61d54c49bc8883ffe8164"
 }

@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-setup-locations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-setup-locations",
+  "title": "Set up locations",
+  "blob": "f485c9431d3683e6b82ac5d55c6a9d230c18cbc7",
+  "summary": "Set up locations (warehouses, distribution centers) with bins, zones, transfer routes, and default dimensions to track inventory across multiple locations and manage warehouse processes.",
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "location setup",
+    "warehouse management",
+    "bins",
+    "zones",
+    "transfer routes",
+    "inventory tracking",
+    "default dimensions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Location Card"
+    },
+    {
+      "type": "page",
+      "name": "Transfer Routes"
+    },
+    {
+      "type": "page",
+      "name": "Transfer Routes Matrix"
+    },
+    {
+      "type": "page",
+      "name": "Trans. Route Spec."
+    }
+  ],
+  "features": [
+    "location creation",
+    "bin mandatory toggle",
+    "bin policies",
+    "zone assignment",
+    "transfer route definition",
+    "direct transfer",
+    "direct transfer posting",
+    "in-transit location",
+    "default dimensions for locations"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007547,
+      "pages_in_call": 8
+    }
+  ]
+}

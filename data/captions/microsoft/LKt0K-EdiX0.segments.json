@@ -1,0 +1,238 @@
+{
+  "video_id": "LKt0K-EdiX0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.5,
+      "end": 18.7,
+      "text": ">> Welcome to Business Central Launch Edition 2026 release wave one and welcome to our session what's new in fixed assets. My name is Alexander Totovic. I am product manager and I have my colleague with me today."
+    },
+    {
+      "t": 18.7,
+      "end": 30.6,
+      "text": "My name is George and I'm a developer. So thank you George. We can start with the business value because we didn't deliver"
+    },
+    {
+      "t": 30.6,
+      "end": 50.6,
+      "text": "uh recently and we do not deliver so often some new functionalities related to fixed assets. So idea with these new functionalities what you will see in a minute is to improve compliance for global customers, to make more accurate tax planning and financial reporting and reduce needs for custom extensions because some new regulations are coming"
+    },
+    {
+      "t": 50.6,
+      "end": 61,
+      "text": "or they exist in some countries and earlier only one way you could do it is if you customize. So what is exactly? We introduce new depreciation method."
+    },
+    {
+      "t": 61,
+      "end": 73.8,
+      "text": "So now in a W1 in a base app global base app you will find new depreciation model as a bonus depreciation method. >> [snorts] >> This is official name. We will call this bonus depreciation but other names"
+    },
+    {
+      "t": 73.8,
+      "end": 88.9,
+      "text": "depending from country to country you can use additional first year depreciation, investment bonus depreciation in Australia and New Zealand, 168K depreciation in United States, investment incentive deduction first year capital allowance and so on so on."
+    },
+    {
+      "t": 88.9,
+      "end": 107.9,
+      "text": "So different namings across different countries but this is everything about one common solution. What does it mean? Bonus depreciation is accelerated depreciation method that allows businesses to deduct specific percentage of asset cost in the first year in a place in a service."
+    },
+    {
+      "t": 107.9,
+      "end": 120.5,
+      "text": "So that means in the first year you can deduct whole amount or you can deduct for example 50 60% depending what you are low or what this is required by the law and other"
+    },
+    {
+      "t": 120.5,
+      "end": 138.1,
+      "text": "the rest of fixed asset amount will be applicable for regular rules through other years of depreciation. So this is how it will work. You can accelerate depreciation immediately, take a specific amount and after that continue with a regular depreciation."
+    },
+    {
+      "t": 138.1,
+      "end": 148.2,
+      "text": "So now George please explain us about bonus depreciation how we can set up and few other things. >> Yes. So bonus depreciation"
+    },
+    {
+      "t": 148.2,
+      "end": 162.2,
+      "text": "works well with all the other depreciation methods and it is set up on the fixed asset setup page. There are two fields, one for the percentage and one for the eligibility date."
+    },
+    {
+      "t": 162.2,
+      "end": 174.4,
+      "text": "It is the effective date when when this rule applies. That means that all assets that are placed in service after that date are eligible"
+    },
+    {
+      "t": 174.4,
+      "end": 190.4,
+      "text": "for bonus depreciation. What it means it means that the first depreciation after the acquiring is the bonus depreciation and from then on the normal depreciation method continues."
+    },
+    {
+      "t": 190.4,
+      "end": 210.5,
+      "text": "So you you set it up on fixed asset setup and then you can opt in to use it or not on each fixed asset depreciation book. It is entirely driven by the by the depreciation starting date field which is the date when the the the asset is"
+    },
+    {
+      "t": 210.5,
+      "end": 225.4,
+      "text": "placed in service in Business Central. We will show you how it works in a moment and just to mention that for reporting we have added a few more fields on the FA depreciation books page."
+    },
+    {
+      "t": 225.4,
+      "end": 235.4,
+      "text": "They are hidden by default so you can customize them onto the page and use them for reporting by opening this page in Excel."
+    },
+    {
+      "t": 235.4,
+      "end": 240,
+      "text": "So let's start with a demo."
+    },
+    {
+      "t": 240,
+      "end": 248.2,
+      "text": "And let's see here in the fixed asset setup"
+    },
+    {
+      "t": 251.1,
+      "end": 262.8,
+      "text": "you have two two new fields, one for very defined bonus depreciation percentage and the second one for the effective date."
+    },
+    {
+      "t": 262.8,
+      "end": 281,
+      "text": "These are typically communicated to the accountant by the government. They are defined in the law. And this is the maximum percentage you can give. You can also of course give less but this is the maximum and this is the the date that drives eligibility."
+    },
+    {
+      "t": 281,
+      "end": 288.2,
+      "text": "All assets that are placed in service after this date are eligible."
+    },
+    {
+      "t": 288.2,
+      "end": 307.9,
+      "text": "Then let's look at this fixed asset that is acquired but its depreciation has not started yet. We have a depreciation starting date 1st of January 27 that is higher than the May 25th 2025"
+    },
+    {
+      "t": 307.9,
+      "end": 322.6,
+      "text": "on the fixed asset setup page. So this asset is eligible for bonus depreciation and here we have also added a few fields on the fixed asset card where you can see acquisition cost,"
+    },
+    {
+      "t": 322.6,
+      "end": 335.3,
+      "text": "you can see bonus depreciation applied, how much bonus depreciation was applied to this asset. And here you have the toggle whether or not to use the bonus depreciation."
+    },
+    {
+      "t": 335.3,
+      "end": 350.1,
+      "text": "As soon as you set a depreciation starting date that is higher than effective date on the setup it will be set to true but for the purpose of the demos I've turned it off just so you can see the difference."
+    },
+    {
+      "t": 350.1,
+      "end": 361.4,
+      "text": "So let's let's first turn it off for this asset. And then run calculate depreciation report."
+    },
+    {
+      "t": 361.4,
+      "end": 374.5,
+      "text": "This is the report that calculates periodically calculates depreciation amounts. And let's"
+    },
+    {
+      "t": 375.4,
+      "end": 380.6,
+      "text": "let's say that you want to"
+    },
+    {
+      "t": 383.9,
+      "end": 394.2,
+      "text": "Let's say you want to calculate the in the first month of the depreciation period for this asset."
+    },
+    {
+      "t": 394.2,
+      "end": 405.5,
+      "text": "It generates journal lines with this amount. That is your first depreciation. That is the without bonus depreciation. So let's look at the difference."
+    },
+    {
+      "t": 405.5,
+      "end": 417,
+      "text": "It was 333. Let's delete these lines and turn on bonus depreciation."
+    },
+    {
+      "t": 417,
+      "end": 426.1,
+      "text": "So when you turn it on and run the report >> [snorts]"
+    },
+    {
+      "t": 435.7,
+      "end": 447.2,
+      "text": ">> for this asset >> you get you get an extra journal line and that is the bonus depreciation. That is 20%"
+    },
+    {
+      "t": 447.2,
+      "end": 459,
+      "text": "of the 8,000 which was acquisition cost for this asset. And then the first depreciation is taken with this amount deducted."
+    },
+    {
+      "t": 459,
+      "end": 472.6,
+      "text": "So you can see that the first depreciation is a bit lower because we have already deducted the 20%. after the acquiring of the asset."
+    },
+    {
+      "t": 472.6,
+      "end": 483.7,
+      "text": "Then we can look at the preview. So you get you get an you get a ledger entry for the bonus depreciation"
+    },
+    {
+      "t": 483.7,
+      "end": 489.5,
+      "text": "and you get a ledger entry for the normal depreciation."
+    },
+    {
+      "t": 489.5,
+      "end": 494.6,
+      "text": "Let's post this."
+    },
+    {
+      "t": 496.5,
+      "end": 513.9,
+      "text": "And here you can then see on the asset you can see that bonus depreciation was applied that acquisition cost was 8,000 and that current book value is is 6,133."
+    },
+    {
+      "t": 513.9,
+      "end": 528.4,
+      "text": "So that that includes both the bonus depreciation and the depreciation. And in the let's look at the page depreciation books."
+    },
+    {
+      "t": 528.4,
+      "end": 544.8,
+      "text": "Here you can see I I have already personalized this page to include these four new fields. You can you can filter your asset fixed asset depreciation books to those that use or don't use bonus depreciation."
+    },
+    {
+      "t": 544.8,
+      "end": 555.8,
+      "text": "You can see their acquisition cost, you can see how much bonus was applied and you can see that their current accumulated depreciation."
+    },
+    {
+      "t": 555.8,
+      "end": 569.9,
+      "text": "Yep. So that concludes the demo. Thank you George. And this is about what is new in fixed assets. So we have this new functionality, new depreciation model and we are close to finish this session."
+    },
+    {
+      "t": 569.9,
+      "end": 590,
+      "text": "Before we close this session I would like to remind you all these links. You can find many interesting information there. Subscribe to our LinkedIn profile to be updated all the time or of course subscribe and watch our YouTube channel to find all BC LE sessions and other recordings there"
+    },
+    {
+      "t": 590,
+      "end": 602.7,
+      "text": "as well. So thank you for watching this video and thank you for using Business Central. Thank you George for joining me for this session. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 1222
+}

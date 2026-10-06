@@ -1,0 +1,217 @@
+{
+  "video_id": "WL3m2dffwU8",
+  "item_id": "video/yt-microsoft/WL3m2dffwU8",
+  "title": "Introducing: New Microsoft Copilot Chat in Business Central (2026 release wave 2)",
+  "duration_s": 214,
+  "systems": [
+    "copilot",
+    "sales"
+  ],
+  "topics": [
+    "copilot chat",
+    "unified experience",
+    "data access",
+    "permissions",
+    "work iq",
+    "multi-turn conversation",
+    "sales orders"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to unified Microsoft Copilot experience",
+      "t_start": 0,
+      "t_end": 49.5
+    },
+    {
+      "title": "Copilot features and data access with Work IQ",
+      "t_start": 49.5,
+      "t_end": 80.1
+    },
+    {
+      "title": "Demo setup and new Copilot button",
+      "t_start": 80.1,
+      "t_end": 103.2
+    },
+    {
+      "title": "Answering questions about Business Central",
+      "t_start": 103.2,
+      "t_end": 131.7
+    },
+    {
+      "title": "Querying Business Central data with permissions",
+      "t_start": 131.7,
+      "t_end": 162.2
+    },
+    {
+      "title": "Multi-turn conversation with Copilot",
+      "t_start": 162.2,
+      "t_end": 189.7
+    },
+    {
+      "title": "Availability and next steps",
+      "t_start": 189.7,
+      "t_end": 214
+    }
+  ],
+  "features": [
+    {
+      "name": "Unified Microsoft Copilot Chat",
+      "description": "A new unified Copilot experience across Microsoft products that accesses Business Central data while respecting user permissions and context.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 18.8,
+      "t_end": 103.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "ui update",
+        "data access"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot with Work IQ integration",
+      "description": "With additional Microsoft Copilot license, Copilot can access Work IQ data including calendar, emails, Teams conversations, files from OneDrive or SharePoint.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 49.5,
+      "t_end": 64.8,
+      "is_demoed": false,
+      "caveats": [
+        "requires additional Microsoft Copilot license"
+      ],
+      "tags": [
+        "work iq",
+        "data integration",
+        "optional"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot button in Business Central",
+      "description": "A new Copilot button in the Business Central interface that opens the updated unified Copilot experience.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 92.5,
+      "t_end": 103.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "button",
+        "navigation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot question answering on Business Central data",
+      "description": "Copilot can answer questions about Business Central data as well as general questions, providing access to data in context with user permissions and company information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 103.2,
+      "t_end": 162.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "data query",
+        "permissions",
+        "context-aware"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Side-by-side data viewing with Copilot",
+      "description": "Users can open data side by side with Copilot responses to read both the Copilot answer and the underlying Business Central data simultaneously.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 162.2,
+      "t_end": 173.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "data view",
+        "conversation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multi-turn Copilot conversation",
+      "description": "Users can continue conversations with Copilot by asking follow-up questions about their Business Central data across multiple turns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 162.2,
+      "t_end": 189.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "conversation",
+        "multi-turn",
+        "data query"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Wojciech Kotelko",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 34.2,
+      "text": "it has access to your data from business central it respects your permissions it respects your context",
+      "why_it_matters": "Clarifies that Copilot respects user permissions and context, critical for enterprise data security.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 49.5,
+      "text": "If you have the additional Microsoft Copilot license, uh your uh data is also coming from uh Work IQ.",
+      "why_it_matters": "States the licensing condition for Work IQ data (calendar, email, Teams, files) in Copilot answers.",
+      "check": "exact"
+    },
+    {
+      "t": 150.9,
+      "text": "Copilot search for data in Business Central. It has access to my context, my permissions and my company.",
+      "why_it_matters": "Demonstrates that Copilot queries Business Central data while respecting the user's specific context and permissions.",
+      "check": "exact"
+    },
+    {
+      "t": 189.7,
+      "text": "You have access to this feature in your newest Business Central. Just give it a try.",
+      "why_it_matters": "Confirms the feature is generally available in the current Business Central release.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 3,
+    "quotes_dropped": 3,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028044
+    }
+  ]
+}

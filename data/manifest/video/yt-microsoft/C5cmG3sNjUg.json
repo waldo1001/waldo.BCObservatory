@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "MCP Server for Business Central - Advanced Topics (Part 3)",
   "url": "https://www.youtube.com/watch?v=C5cmG3sNjUg",
-  "published_at": null,
+  "published_at": "2026-01-21T16:00:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:58:57.388Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1095
+    },
+    "captioned": {
+      "at": "2026-10-06T13:59:08.033Z",
+      "path": "data/captions/microsoft/C5cmG3sNjUg.vtt",
+      "vtt_sha256": "0d58ff32e3cfa3afd05d85baad8bda1bd1be74180e9ee1208c5cd1ea144f393c",
+      "segments": 79,
+      "words": 2673,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 128,
-    "duration_s": 1096,
-    "via": "reconcile"
-  }
+    "duration_s": 1095,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0d58ff32e3cfa3afd05d85baad8bda1bd1be74180e9ee1208c5cd1ea144f393c"
 }

@@ -1,0 +1,437 @@
+{
+  "video_id": "V7NgFOIcGgM",
+  "item_id": "video/yt-microsoft/V7NgFOIcGgM",
+  "title": "What's new: Demystifying the New Microsoft Copilot Chat in Business Central (2026 release wave 2)",
+  "duration_s": 962,
+  "systems": [
+    "copilot",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "copilot chat",
+    "agentic loop",
+    "mcp server",
+    "citations",
+    "intent detection",
+    "permissions",
+    "multi-source reasoning",
+    "response grounding",
+    "feedback"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and session overview",
+      "t_start": 0,
+      "t_end": 63.4
+    },
+    {
+      "title": "Copilot demo: multi-source data query setup",
+      "t_start": 63.4,
+      "t_end": 122.5
+    },
+    {
+      "title": "Demo 1 - Top items by price with currency conversion",
+      "t_start": 122.5,
+      "t_end": 217.8
+    },
+    {
+      "title": "Demo 2 - Vague query resolution",
+      "t_start": 217.8,
+      "t_end": 306.9
+    },
+    {
+      "title": "How copilot works: data sources and context",
+      "t_start": 306.9,
+      "t_end": 386.3
+    },
+    {
+      "title": "Agentic loop and response generation",
+      "t_start": 386.3,
+      "t_end": 561.6
+    },
+    {
+      "title": "Q&A: Permissions and access control",
+      "t_start": 561.6,
+      "t_end": 677.8
+    },
+    {
+      "title": "Q&A: MCP server technology and data access",
+      "t_start": 677.8,
+      "t_end": 756.6
+    },
+    {
+      "title": "Q&A: Response accuracy, citations and verification",
+      "t_start": 756.6,
+      "t_end": 888
+    },
+    {
+      "title": "Q&A: Feedback and closing remarks",
+      "t_start": 888,
+      "t_end": 962
+    }
+  ],
+  "features": [
+    {
+      "name": "Microsoft Copilot Chat in Business Central",
+      "description": "New Microsoft Copilot Chat capability coming to all Business Central users in the 2026 release wave 2. Allows users to ask natural language questions and get answers grounded in data from Business Central and the web, with citations for verification.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.8,
+      "t_end": 306.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot chat",
+        "general availability",
+        "multi-source data"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Business Central Tools",
+      "description": "Tools used by Copilot to access and reason over Business Central data, including tables and customizations, without requiring custom APIs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 429.4,
+      "t_end": 454.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "data access",
+        "extensions",
+        "customizations"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Agentic Loop",
+      "description": "Instead of one-time attempt to find answers, Copilot iterates through multiple tools and data sources via an agentic loop to provide more comprehensive responses.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 397.4,
+      "t_end": 454.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reasoning",
+        "iteration",
+        "multi-tool"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Intent Detection",
+      "description": "First step in the copilot reasoning process where it understands what needs to happen based on conversation history and the current question.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 386.3,
+      "t_end": 397.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reasoning",
+        "nlp"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multi-source Data Integration",
+      "description": "Copilot can combine data from Business Central, web sources, work data, calendar, Outlook, SharePoint, and agents built with Microsoft tools to answer user questions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 429.4,
+      "t_end": 454.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "data sources",
+        "integration",
+        "web access"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Citations and Verification",
+      "description": "Copilot responses include clickable citation pills that users can click to verify the source data in Business Central. A sources button at the end shows all data copilot accessed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 798.2,
+      "t_end": 872.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "verification",
+        "grounding",
+        "user trust"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Permission Enforcement",
+      "description": "Copilot respects all Business Central user permissions. It runs as the authenticated user and cannot access data the user does not have permission to view.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 576.8,
+      "t_end": 604.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "security",
+        "permissions",
+        "data access control"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Copilot and Agent Capabilities Control",
+      "description": "Admins can fully control who has access to Copilot features in their organization via a dedicated Copilot and Agent Capabilities page where they can opt in or opt out of AI features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 623.3,
+      "t_end": 665.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "administration",
+        "access control",
+        "feature management"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "MCP Server Technology",
+      "description": "Business Central uses the Microsoft Business Central MCP server as the underlying technology for Copilot integration, giving copilot access to all tables and data including from extensions and customizations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 677.8,
+      "t_end": 720.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "technology",
+        "architecture"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Extension Guidelines for Copilot",
+      "description": "ISVs can learn guidelines for building extensions that work better with Copilot, including making data more descriptive so agents can work more effectively.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 756.6,
+      "t_end": 787.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "extensions",
+        "isv",
+        "best practices"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Conversational Context and Suggestions",
+      "description": "Copilot maintains conversation context and provides suggestions for follow-up questions, enabling multi-turn conversation rather than single prompt-response interactions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 520.8,
+      "t_end": 541,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "conversation",
+        "context",
+        "suggestions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Rich Output Formatting",
+      "description": "Copilot responses can include rich formatting such as charts, tables, and formatted data representations, not just plain text.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 498.1,
+      "t_end": 509.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "formatting",
+        "presentation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Progress Messages",
+      "description": "Copilot displays progress messages showing its reasoning steps as it processes a query, providing transparency into how it arrives at answers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 122.5,
+      "t_end": 147.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "transparency",
+        "reasoning",
+        "ux"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Vague Query Resolution",
+      "description": "Copilot can resolve ambiguous user input like 'S100' to the correct item 'S100 semi-automatic' by reasoning over Business Central data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 217.8,
+      "t_end": 253.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "query resolution",
+        "nlp",
+        "disambiguation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "UI Context Awareness",
+      "description": "Copilot can pull context from the current Business Central page a user is viewing, including data from installed extensions, to help inform its answers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 351,
+      "t_end": 366.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "context awareness",
+        "ui integration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "User Feedback Loop",
+      "description": "Users can provide feedback on Copilot responses through thumb up button, additional content sharing, screenshots, prompts, and problem reporting to help Microsoft improve the feature.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 888,
+      "t_end": 942.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "feedback",
+        "quality improvement"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Item Card",
+      "t": 351
+    },
+    {
+      "type": "other",
+      "name": "Items List",
+      "t": 133.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Abdulat Khan",
+      "confidence": "high"
+    },
+    {
+      "name": "Guinea",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 5.8,
+      "text": "the new Microsoft copilot chat to come to all our users with this release and we are absolutely excited about it",
+      "why_it_matters": "Establishes that Copilot Chat is coming to all users in this release wave, confirming general availability status.",
+      "check": "exact"
+    },
+    {
+      "t": 397.4,
+      "text": "instead of doing this kind of one time attempt to find the right response we're going to go through something which is called aentic",
+      "why_it_matters": "Explains the core architecture difference from prior chat integrations - iterative agentic loop vs single attempt - which is fundamental to how the feature works.",
+      "check": "exact"
+    },
+    {
+      "t": 588.1,
+      "text": "Every time you run a copilot, it runs as you. For example, every time you ask a pilot information about business central, about tables",
+      "why_it_matters": "Critical security guarantee that Copilot respects all user permissions and cannot access data outside the user's scope.",
+      "check": "exact"
+    },
+    {
+      "t": 677.8,
+      "text": "It's a the same technology we use to build all agentic integration around Business Central. It's a Microsoft Business Central MCP server.",
+      "why_it_matters": "Identifies the specific technology stack used - MCP server - which is essential for understanding how Copilot accesses all tables and extensions without custom APIs.",
+      "check": "exact"
+    },
+    {
+      "t": 720.2,
+      "text": "Microsoft copilot has access to all the tables and all your data which you have in your environment. This may include data from your",
+      "why_it_matters": "Clarifies scope of data access - includes extensions and customizations automatically through MCP server, eliminating need for custom integration work.",
+      "check": "exact"
+    },
+    {
+      "t": 798.2,
+      "text": "you get a copilot answer but along with the copilot answer you get a bunch of citations. So the small pills that come up",
+      "why_it_matters": "Describes the verification mechanism allowing users to trust and verify copilot responses by clicking through to original source data in Business Central.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 16
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.045398
+    }
+  ]
+}

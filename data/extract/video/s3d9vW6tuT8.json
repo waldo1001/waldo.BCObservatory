@@ -1,0 +1,275 @@
+{
+  "video_id": "s3d9vW6tuT8",
+  "item_id": "video/yt-microsoft/s3d9vW6tuT8",
+  "title": "What's new in Expense Agent: Use Travel Request (2026 release wave 2)",
+  "duration_s": 448,
+  "systems": [
+    "copilot",
+    "finance",
+    "hr"
+  ],
+  "topics": [
+    "travel request",
+    "expense report",
+    "workflow",
+    "approval",
+    "audit trail",
+    "foreign currency",
+    "employee reimbursement",
+    "budgeting"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and purpose of travel requests",
+      "t_start": 0,
+      "t_end": 41.2
+    },
+    {
+      "title": "Travel request workflow and process overview",
+      "t_start": 41.2,
+      "t_end": 90.4
+    },
+    {
+      "title": "Creating a basic travel request",
+      "t_start": 90.4,
+      "t_end": 141
+    },
+    {
+      "title": "Travel request details and line items",
+      "t_start": 141,
+      "t_end": 188.6
+    },
+    {
+      "title": "Expense report entry and posting",
+      "t_start": 188.6,
+      "t_end": 244.5
+    },
+    {
+      "title": "Posted expense report and audit trail",
+      "t_start": 244.5,
+      "t_end": 315.5
+    },
+    {
+      "title": "Foreign currency budgeting for volatile markets",
+      "t_start": 315.5,
+      "t_end": 388.8
+    },
+    {
+      "title": "Summary and key takeaways",
+      "t_start": 388.8,
+      "t_end": 448
+    }
+  ],
+  "features": [
+    {
+      "name": "Travel Request",
+      "description": "Feature allowing employees to request permission to spend money before travel, specifying amount, dates, destination, and purpose for manager approval.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.6,
+      "t_end": 188.6,
+      "is_demoed": true,
+      "caveats": [
+        "Phone app and web app versions not yet ready at time of recording",
+        "Entirely optional feature"
+      ],
+      "tags": [
+        "travel",
+        "approval",
+        "expense",
+        "workflow"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Travel Request Line Items",
+      "description": "Ability to itemize expenses within a travel request by category (flight, hotel, etc.) and specify currency per line item.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 141,
+      "t_end": 177.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "itemization",
+        "multi-currency",
+        "expense",
+        "detail"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Expense Ledger Entries Link",
+      "description": "GL entries created during expense report posting are linked back to the original travel request for audit traceability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 272,
+      "t_end": 315.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "audit",
+        "traceability",
+        "gl-entries",
+        "reporting"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Foreign Currency Budgeting",
+      "description": "Ability to budget travel request amounts in foreign currency and update local currency equivalents to account for exchange rate volatility.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 330.1,
+      "t_end": 388.8,
+      "is_demoed": true,
+      "caveats": [
+        "Useful for volatile currency or high inflation scenarios"
+      ],
+      "tags": [
+        "currency",
+        "budgeting",
+        "exchange-rate",
+        "international"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Automatic Expense Report Creation from Web/Phone App",
+      "description": "When travel request is created in the expense agent web or phone app, the corresponding expense report is created automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 416.9,
+      "t_end": 431.4,
+      "is_demoed": false,
+      "caveats": [
+        "Only applies to expense agent web and phone apps, not Business Central client"
+      ],
+      "tags": [
+        "automation",
+        "workflow",
+        "expense-report"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Employee Ledger Entry for Reimbursement",
+      "description": "Employee ledger entries are created for reimbursement amounts when expense reports are posted.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 244.5,
+      "t_end": 272,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reimbursement",
+        "ledger",
+        "posting"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Travel Request with Multiple Travelers",
+      "description": "Travel requests can include a list of travelers, allowing group travel to be tracked in a single request.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 404.4,
+      "t_end": 416.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "travel",
+        "group",
+        "multiple-travelers"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Linda Townsend",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 30,
+      "text": "it's entirely optional. It's just a feature you can use or not. But then it gives a way for employees to ask for permission",
+      "why_it_matters": "Clarifies that travel requests are an opt-in feature, not mandatory, which establishes the design philosophy of the capability.",
+      "check": "exact"
+    },
+    {
+      "t": 41.2,
+      "text": "for the company, it gives you an overview of what expenses we can expect. And eventually when we you have an audit for instance,",
+      "why_it_matters": "Explains the dual benefit: predictability for budgeting and audit compliance through authorization tracking.",
+      "check": "exact"
+    },
+    {
+      "t": 74.6,
+      "text": "The exact same thing will be available in the expense agent web app and in the expense agent phone app. It's just not ready",
+      "why_it_matters": "Indicates that travel requests are GA in Business Central but web and phone app versions are still being developed.",
+      "check": "exact"
+    },
+    {
+      "t": 152.4,
+      "text": "we'll have expenses in euro and you can see that these amounts are translated into our local currency.",
+      "why_it_matters": "Demonstrates that travel requests support multi-currency line items with automatic translation.",
+      "check": "exact"
+    },
+    {
+      "t": 272,
+      "text": "we also have a link between the GL entries we created and the spend request or travel request.",
+      "why_it_matters": "Shows that the system maintains audit trail connections between financial postings and the original travel request.",
+      "check": "exact"
+    },
+    {
+      "t": 369.4,
+      "text": "you can say, \"Okay, I want to make the budgeting in in Swiss franc.\" And then there's an action we can where we can",
+      "why_it_matters": "Explains the foreign currency budgeting feature for volatile markets and future-dated travel scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 416.9,
+      "text": "when you do the travel request in the expense agent, then the expense report will be created automatically. That's important to note. It's only",
+      "why_it_matters": "Clarifies a key workflow difference between expense agent apps and Business Central client regarding automation.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 74.6,
+      "kind": "not-in-this-release",
+      "text": "The exact same thing will be available in the expense agent web app and in the expense agent phone app. It's just not ready at this point when we're recording these videos."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.031554
+    }
+  ]
+}

@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Coding Business Central Agents with AI Development Toolkit",
   "url": "https://www.youtube.com/watch?v=EwN3xb2q7vE",
-  "published_at": null,
+  "published_at": "2026-02-27T15:13:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:55:33.536Z",
+      "captions": "auto:en-orig",
+      "duration_s": 953
+    },
+    "captioned": {
+      "at": "2026-10-06T13:55:58.643Z",
+      "path": "data/captions/microsoft/EwN3xb2q7vE.vtt",
+      "vtt_sha256": "cb16fc2c8fbce22ba0e9a1075c3e93aaadd36377ba72fcde919d1f5c5fa9154b",
+      "segments": 69,
+      "words": 2618,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 115,
     "duration_s": 953,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cb16fc2c8fbce22ba0e9a1075c3e93aaadd36377ba72fcde919d1f5c5fa9154b"
 }

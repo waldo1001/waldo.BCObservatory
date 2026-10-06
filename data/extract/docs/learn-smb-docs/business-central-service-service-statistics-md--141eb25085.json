@@ -1,0 +1,86 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-service-statistics.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-service-statistics",
+  "title": "Service statistics",
+  "blob": "fd14faaf719227ab30dbfd9f9d8410e770146308",
+  "summary": "View service statistics to analyze service documents and evaluate service management performance across contracts, items, quotes, orders, invoices, and credit memos with trendscapes and gain/loss analysis.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "service statistics",
+    "service analysis",
+    "trendscapes",
+    "contracts",
+    "performance metrics"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Order Statistics"
+    },
+    {
+      "type": "page",
+      "name": "Service Item Statistics"
+    },
+    {
+      "type": "page",
+      "name": "Service Item Trendscape"
+    },
+    {
+      "type": "page",
+      "name": "Service Contract Trendscape"
+    },
+    {
+      "type": "page",
+      "name": "Contract Gain/Loss (Contracts)"
+    },
+    {
+      "type": "page",
+      "name": "Contract Gain/Loss (Groups)"
+    },
+    {
+      "type": "page",
+      "name": "Contract Gain/Loss (Customers)"
+    },
+    {
+      "type": "page",
+      "name": "Contract Gain/Loss (Reasons)"
+    },
+    {
+      "type": "page",
+      "name": "Contract Gain/Loss (Resp.Ctr)"
+    },
+    {
+      "type": "page",
+      "name": "Service Shipment Statistics"
+    },
+    {
+      "type": "page",
+      "name": "Service Invoice Statistics"
+    },
+    {
+      "type": "page",
+      "name": "Service Credit Memo Statistics"
+    }
+  ],
+  "features": [
+    "service statistics",
+    "service item statistics",
+    "trendscape analysis",
+    "contract analysis",
+    "gain/loss tracking",
+    "sustainability metrics"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007092,
+      "pages_in_call": 7
+    }
+  ]
+}

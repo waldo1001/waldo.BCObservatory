@@ -1,0 +1,113 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/shopify/background.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/background",
+  "title": "Run tasks in the background and recurrently",
+  "blob": "776ef81b05296b0797d9ac7a04f0ff9ba28ef0f2",
+  "summary": "Schedule and run Shopify Connector tasks in the background either as manual job queue entries or recurring automated tasks, with monitoring via the Business Manager Role Center Shopify Activities.",
+  "systems": [
+    "integration",
+    "sales"
+  ],
+  "topics": [
+    "shopify connector",
+    "job queue",
+    "background tasks",
+    "synchronization",
+    "automation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Shopify Shop"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Shop Card"
+    },
+    {
+      "type": "page",
+      "name": "Business Manager"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Activities"
+    },
+    {
+      "type": "report",
+      "name": "30104"
+    },
+    {
+      "type": "report",
+      "name": "30103"
+    },
+    {
+      "type": "report",
+      "name": "30109"
+    },
+    {
+      "type": "report",
+      "name": "30108"
+    },
+    {
+      "type": "report",
+      "name": "30102"
+    },
+    {
+      "type": "report",
+      "name": "30107"
+    },
+    {
+      "type": "report",
+      "name": "30100"
+    },
+    {
+      "type": "report",
+      "name": "30114"
+    },
+    {
+      "type": "report",
+      "name": "30105"
+    },
+    {
+      "type": "report",
+      "name": "30120"
+    },
+    {
+      "type": "report",
+      "name": "30115"
+    },
+    {
+      "type": "report",
+      "name": "30116"
+    },
+    {
+      "type": "report",
+      "name": "297"
+    },
+    {
+      "type": "report",
+      "name": "296"
+    }
+  ],
+  "features": [
+    "job queue",
+    "background synchronization",
+    "order sync",
+    "product sync",
+    "inventory sync",
+    "shipment sync",
+    "customer sync",
+    "activity monitoring"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007092,
+      "pages_in_call": 7
+    }
+  ]
+}

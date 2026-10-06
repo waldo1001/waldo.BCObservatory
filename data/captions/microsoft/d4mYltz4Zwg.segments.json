@@ -1,0 +1,328 @@
+{
+  "video_id": "d4mYltz4Zwg",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.3,
+      "end": 20.2,
+      "text": "Welcome to Business Central launch edition 2026 release wave one and our session about introduction in withholding taxes. My name is Alexander Totovich and I'm product manager uh for business central team."
+    },
+    {
+      "t": 20.2,
+      "end": 31.7,
+      "text": "So what is withholding tax? And before I proceed with withholding tax, I just want to explain one thing. Withholding tax can be applied to vendors to customers to employees."
+    },
+    {
+      "t": 31.7,
+      "end": 42.6,
+      "text": "So this is related to many different options. Uh but in this case currently with this functionality we are covering withholding taxes related to vendors and purchase process."
+    },
+    {
+      "t": 42.6,
+      "end": 55.1,
+      "text": "So this is what is covered in this release. So withholding tax is actually a tax deducted at source from payment before the recipient received the net amount."
+    },
+    {
+      "t": 55.1,
+      "end": 68.2,
+      "text": "In the most of cases it will be uh based on a payment but it can happen to be on a invoice when you uh create invoice or eventually what is earliest but in most of cases this on payment."
+    },
+    {
+      "t": 68.2,
+      "end": 79.8,
+      "text": "So collect and limited by payer on behalf of recipient. So recipient is not someone who can decide if they want to pay or do not want. This is related by rules."
+    },
+    {
+      "t": 79.8,
+      "end": 93,
+      "text": "So this is required by law in many countries and you just need to behave related to this law. It applies to specific income types and often this is uh based on some fixed rate or threshold."
+    },
+    {
+      "t": 93,
+      "end": 105.2,
+      "text": "So you will not pay until some amount after that you need to calculate. So there are a lot of these specific information and we try to deliver all of them into this uh new functionality."
+    },
+    {
+      "t": 105.2,
+      "end": 119.1,
+      "text": "So how does it work? We have user. So we are here as a customer as a user we have our vendor we have authorities and we have some setup where we decided for example in this uh here that withholding tax is 20%."
+    },
+    {
+      "t": 119.1,
+      "end": 133.6,
+      "text": "So this is regulation. So now we will receive invoice from vendor in $1,500. This is invoice and all good. But when I need to pay it I will not pay the same amount to our vendor."
+    },
+    {
+      "t": 133.6,
+      "end": 145.4,
+      "text": "I will have automatically I will start payment with 1500 but it will be recalculate and actually payment for my vendor will go as a 1200 and 300 will be paid directly to authorities."
+    },
+    {
+      "t": 145.4,
+      "end": 157.7,
+      "text": "So in general I will close my invoice. I will close with payment. I paid what is required but not absolutely the same amount to my vendor because I had to pay 20% of this amount to my authorities."
+    },
+    {
+      "t": 157.7,
+      "end": 169.6,
+      "text": "So this is how withholding taxes are working in general especially on vendor site. So to make it how we started with the setting up"
+    },
+    {
+      "t": 169.6,
+      "end": 182.2,
+      "text": "we wanted to apply if not the same but very similar rules as we have in other uh areas of v central. So what does it mean? We have business posting groups we have product posting groups."
+    },
+    {
+      "t": 182.2,
+      "end": 195,
+      "text": "We have the same for the general posting groups we have for VAT. So we wanted to use the same model here. So we have withholding tax business posting group withholding tax product posting group for all of them together."
+    },
+    {
+      "t": 195,
+      "end": 207,
+      "text": "We have withholding tax posting setup. So this is how when we cross two of them we have get a regular setup. But when you start with withholding tax posting setup you will find another rules."
+    },
+    {
+      "t": 207,
+      "end": 227,
+      "text": "They are not only percentages you can find withholding tax percentage but you have these threshold rules. if they are less than less than or equal equal greater greater than equal so there are different rules you can apply and as I said percent on top on top of that and when you will realize when you have uh released invoice or payment on what is"
+    },
+    {
+      "t": 227,
+      "end": 246.1,
+      "text": "earliest so there are basic setup you can find in withholding tax posting setup but what else we have there we have revenue type if you have different revenue types you can you can choose them you can set up and choose very simple of a table but you have sequence and what does it mean with sequence?"
+    },
+    {
+      "t": 246.1,
+      "end": 260.2,
+      "text": "With a sequence you can have more than one bit holding tax in the same for same vendor for same uh model in some situations. So you can set up a se a sequence the system will first calculate this one and then next one and third one."
+    },
+    {
+      "t": 260.2,
+      "end": 271.5,
+      "text": "So this is how this is order how system will calculate one by one and of course you have accounts the balance accounts uh for setting apps where you will post all this information."
+    },
+    {
+      "t": 271.5,
+      "end": 281.9,
+      "text": "So now I will show this in a demo how it works and I will first start with vendors to show that I enable this vendors"
+    },
+    {
+      "t": 281.9,
+      "end": 298.8,
+      "text": "for withholding tax. What does it mean? I need to invoicing tab to enable withholding tax liable. From this moment I will enable this field withholding tax business uh posting group and I have for these two vendors."
+    },
+    {
+      "t": 298.8,
+      "end": 314.6,
+      "text": "If I go to third you can see this withholding tax busy posting group is disabled. So you don't need to have populated for all of them. So if withholding tax alliable is not enabled system will not require this posting group for this vendor."
+    },
+    {
+      "t": 314.6,
+      "end": 326.9,
+      "text": "But in a case that I enabled uh withholding tax liable for this vendor and I didn't populate the withholding tax uh posting group system will block posting for this vendor because you do not have completed setup."
+    },
+    {
+      "t": 326.9,
+      "end": 338.2,
+      "text": "So I will not enable this type this vendor. So I will use uh first two vendors for my examples and let's start with the purchase invoice."
+    },
+    {
+      "t": 338.2,
+      "end": 348.8,
+      "text": "Okay. I will uh yes I wanted to show you before purchase invoice configuration on items."
+    },
+    {
+      "t": 348.8,
+      "end": 359.2,
+      "text": "You have this option on items as well. So you have on withholding tax product posting group as well."
+    },
+    {
+      "t": 359.2,
+      "end": 371.7,
+      "text": "So I do not have configured them. So no but you will see now I have for this lamp I have withholding tax items and I have for another one."
+    },
+    {
+      "t": 371.7,
+      "end": 384.5,
+      "text": "So I have for these two items configure a withholding tax uh calculation and um be before I proceed there"
+    },
+    {
+      "t": 384.5,
+      "end": 398.3,
+      "text": "I want to show withholding tax setup. So I already have configure uh business group, product group. So I have calculation rules as I said different calculation rules."
+    },
+    {
+      "t": 398.3,
+      "end": 411,
+      "text": "What is minimum uh threshold? What is withholding tax amount when it will be paid on invoice on a payment. So I have two options and then you have accounts you want to set up."
+    },
+    {
+      "t": 411,
+      "end": 423.6,
+      "text": "Um then you have this um uh tax report uh number series. You need to configure revenue and uh uh purchase withholding tax account and segments on the end."
+    },
+    {
+      "t": 423.6,
+      "end": 440.3,
+      "text": "What is important because before I start to work it will not be enabled by default. You need to go to general ledger setup and to enable withholding tax and around payment uh amount withholding tax if you want to around payments."
+    },
+    {
+      "t": 440.3,
+      "end": 455.4,
+      "text": "So this is minimum this field is required. So you need to set up minimum this one. And after that you can start working. So now I can choose for example this one vendor and my lamp."
+    },
+    {
+      "t": 455.4,
+      "end": 467,
+      "text": "And now let's say I have 100 quantity. And if I look in a preview posting,"
+    },
+    {
+      "t": 467,
+      "end": 476.6,
+      "text": "you will see I have withholding tax entry included. Okay, I can post it."
+    },
+    {
+      "t": 477.7,
+      "end": 488.2,
+      "text": "I can open and again if I go to find entries, you will see withholding tax entry. And what you will find here in withholding tax entries because now we have new entries."
+    },
+    {
+      "t": 488.2,
+      "end": 498.8,
+      "text": "We have 5,000 and a base. This is amount I uh I had because uh price was 50 and 20% of that is 1,000."
+    },
+    {
+      "t": 498.8,
+      "end": 509.6,
+      "text": "So I have withholding tax calculation type normal withhold because I configured this one not to use payments. So everything is there."
+    },
+    {
+      "t": 509.6,
+      "end": 520.2,
+      "text": "So there is nothing in unrealized because I use invoice model here. But now if I go back and if I create new one"
+    },
+    {
+      "t": 520.2,
+      "end": 524.4,
+      "text": "with the payments"
+    },
+    {
+      "t": 524.4,
+      "end": 530.3,
+      "text": "because I have another item configured."
+    },
+    {
+      "t": 530.3,
+      "end": 543.1,
+      "text": "Yes, this one. So if I say okay 100. So I have something in a posting preview."
+    },
+    {
+      "t": 543.1,
+      "end": 555.3,
+      "text": "You will see here that I have base an amount empty and I have in unrealized amount is 5,000"
+    },
+    {
+      "t": 555.3,
+      "end": 568.5,
+      "text": "and uh remaining un unrealized amount is the same because I do not pay anything and unrealized based in 25,000. This is what we got there. So this is now unrealized because I am using option on payment."
+    },
+    {
+      "t": 568.5,
+      "end": 579.1,
+      "text": "But what else we have here? I have specific fields withholding tax absorb base. So if for some reason I need to pay on a bigger amount"
+    },
+    {
+      "t": 579.1,
+      "end": 587.8,
+      "text": "million whatever I can use this option and if I look into preview posting"
+    },
+    {
+      "t": 587.8,
+      "end": 601.4,
+      "text": "you will see that now system do not use this 25,000 as a base but it used million as a base. If so that means if there is any reason you want to use different model you can do it."
+    },
+    {
+      "t": 601.4,
+      "end": 611.7,
+      "text": "This is not a problem. So you can decide okay regardless what what I have from this invoice I need to have calculation based on another amount. So it will just override"
+    },
+    {
+      "t": 611.7,
+      "end": 621.8,
+      "text": "um invoice on on invoice amount will be the same but it will be override basis for calculation. So I will just delete it because I don't need it."
+    },
+    {
+      "t": 621.8,
+      "end": 626.6,
+      "text": "And when I post"
+    },
+    {
+      "t": 627,
+      "end": 641.4,
+      "text": "again if I find entries as I already show I have now unrealized entries. Now when I pay this and I close this amounts it will uh be removed from unrealized to realized amount."
+    },
+    {
+      "t": 641.4,
+      "end": 656.6,
+      "text": "So this is let's say short demo about withholding tax. Uh what else I wanted to show uh behind demo? Yes, when you post we have entries but some limitations"
+    },
+    {
+      "t": 656.6,
+      "end": 668.2,
+      "text": "as I said in the beginning only with purchase process. So currently we do not cover other options. So no employee not customers only purchase process. Um this is enabled as a global app."
+    },
+    {
+      "t": 668.2,
+      "end": 678.7,
+      "text": "So this is available everywhere. This everywhere is except these four countries you for localization you can you can find uh on this screen Australia, New Zealand, India and Italy."
+    },
+    {
+      "t": 678.7,
+      "end": 692.2,
+      "text": "I will explain about that but with no localization. So regardless if you are UK, US, Germany, any countries you will get the same functionality no localization for any specific country in this moment."
+    },
+    {
+      "t": 692.2,
+      "end": 712.4,
+      "text": "Why we have these four countries outside of that? because they already have withholding tax in somehow in all these four countries and Australia, New Zealand actually they have almost absolutely the same because this holding tax you could just see is almost the same what we have in Australia New Zealand."
+    },
+    {
+      "t": 712.4,
+      "end": 725.9,
+      "text": "So this is NZ B app idea is that in next release we will enable through feature management upgrade process so they can remove from existing model they have right now in outside in New Zealand."
+    },
+    {
+      "t": 725.9,
+      "end": 739.3,
+      "text": "So this is what will come next and they can switch to new model uh with new model again with some localizations on top of that because in outside New Zealand we have localization so they will get some localization on top of that."
+    },
+    {
+      "t": 739.3,
+      "end": 755.6,
+      "text": "So this is why this upgrade will come later. But again even with this upgrade they will get absolutely the same level functionalities. We still highly suggest once we've enabled this upgrade to switch to new model because we will continue to invest into new model."
+    },
+    {
+      "t": 755.6,
+      "end": 770.3,
+      "text": "So if you want to get much more from withholding taxes it will be better to use new model and not old one. In Italy we have completely different withholding tax. So it will be subject of research what we need to do how we can and where we can enable new model and the same for India."
+    },
+    {
+      "t": 770.3,
+      "end": 783.3,
+      "text": "So this is right now uh limit a set of limitations. So you cannot enable in these four countries but in all other countries regarding if Microsoft localization or partner localizations you can use withholding tax without any issue."
+    },
+    {
+      "t": 783.3,
+      "end": 799,
+      "text": "You can see and you can find a lot of general business central resources on this page. So use one of these links to find everything what you are interesting for. You can subscribe on our LinkedIn page to find all interesting updates from our side and of course Business Center YouTube channel."
+    },
+    {
+      "t": 799,
+      "end": 808,
+      "text": "So thank you for watching this video and thank you for enjoying testing this new functionality."
+    }
+  ],
+  "markers": [],
+  "word_count": 2059
+}

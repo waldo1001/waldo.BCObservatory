@@ -1,0 +1,27 @@
+{
+  "video_id": "npkC4wyucyY",
+  "item_id": "video/yt-microsoft/npkC4wyucyY",
+  "summary": "BC-Bench is a reproducible evaluation framework for AI coding agents on real AL development tasks. The video covers the bug fixing category (101 tasks, AL MCP server), a contamination check, and the new code review category, and compares agent harnesses and models.",
+  "overview": "BC-Bench is an evaluation framework for AI coding agents working on AL development, inspired by SWE-bench. It covers bug fixing, test generation and PR reviews. The video walks through the bug fixing category, which uses 101 tasks taken from real BC app repositories where human engineers solved the problems, and shows how the AL MCP server affects results.\n\nIt then explains how the team checks whether models memorized the public data set, and introduces the code review category with three approaches. Code review results were still being finalized at recording time. The last chapter covers how to use BC-Bench for your own AL apps.",
+  "key_points": [
+    "Bug fixing category: an agent fixes a bug in the real codebase, using 101 tasks from real BC app repositories solved by human engineers.",
+    "The AL MCP server exposes compiling, publishing and simple search to coding agents, so they can work without opening Visual Studio Code.",
+    "With GitHub Copilot CLI and Claude Opus, the AL MCP server improved pass@5 by almost 10% and clearly improved mean resolution rate. Tasks take longer because agents publish apps and run tests.",
+    "Comparing agent harnesses (GitHub Copilot CLI vs Claude Code) with the same models showed no significant difference, which suggests model choice matters more than harness choice.",
+    "Contamination check: three models with knowledge cutoffs after BC-Bench went public were tested, and only 1 of 101 tasks matched across all three. Agents can deduce file paths from a bug description without having memorized the solution. Contamination will be monitored over time.",
+    "Code review category evaluates AI review of AL pull requests with three approaches: baseline GitHub Copilot UI, the BC Quality plugin on Copilot CLI, and a specialized AL review agent focused on security, privacy and performance.",
+    "Code review quality is judged with an LM-as-judge that checks whether generated comments are semantically equivalent to the expected ones. Final results were not ready at recording time and are to be checked on the GitHub repository."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "decision maker"
+  ],
+  "extraction_hash": "76618adb2a23a9ad171c831bd6e46190ad5da0ac233535fec779a7f8d9d42893",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0453424
+  }
+}

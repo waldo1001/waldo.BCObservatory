@@ -1,0 +1,738 @@
+{
+  "video_id": "1xdpUmeun-s",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 12.7,
+      "end": 22.7,
+      "text": "Welcome to episode 12 of Under the Hood. So this time today we are going to go really under the hood. We are going to talk about the AL runtime."
+    },
+    {
+      "t": 22.7,
+      "end": 35.6,
+      "text": "And with me today I have Mass. Hello Mass. >> Thank you. >> So tell us a little bit about yourself. what what are you working with? >> Yeah, so I'm mess I work on the AL runtime in one of the server teams."
+    },
+    {
+      "t": 35.6,
+      "end": 49.7,
+      "text": "Um I'm a principal software engineer and I've been here for I don't know 10 12 years something like that. I started as a student worker and then I have actually remained in the same team for like eight years in a row."
+    },
+    {
+      "t": 49.7,
+      "end": 62.7,
+      "text": ">> So you know a lot about uh the runtime runtime. Yeah, I learned a lot about it, but uh it's also impressive, right? Because it's actually an old language and even though the runtime has kind of changed, a lot of the things are have stayed the same."
+    },
+    {
+      "t": 62.7,
+      "end": 77.2,
+      "text": "I mean, I'm sure you can remember a lot from how it was back then. And >> you know, >> were you there when we had Seaside? >> Yeah. So, I actually made changes in Seaside. I made changes in code that was older than myself and I found that immensely funny, right?"
+    },
+    {
+      "t": 77.2,
+      "end": 89.2,
+      "text": "You know, 30-year-old code and I was like, \"Ah, what is this?\" But uh when I started full-time, I think we got rid of Casside just around that time. So almost all my time has been in the new runtime."
+    },
+    {
+      "t": 89.2,
+      "end": 100.1,
+      "text": ">> So the AL runtime, where uh where is that going on? Um >> yeah, so the AL runtime is located inside of the NST. So kind of the the server."
+    },
+    {
+      "t": 100.1,
+      "end": 120.2,
+      "text": "And when I say the server, we actually kind of have two things we call servers. We have the web server. Yeah. And we have the NST or the traditional server. Um and kind of a lot of things runs in there but the main thing is AL runtime and that is kind of when you have clicked on a page you might click an action >> you know it goes"
+    },
+    {
+      "t": 120.2,
+      "end": 134.9,
+      "text": "from the browser to the web server and then it hits the uh >> the NST and we begin executing and uh >> we'll you know run your code or you there's a little bit of orchestration before we execute the code but yeah it's overall there."
+    },
+    {
+      "t": 134.9,
+      "end": 148,
+      "text": ">> So that part you're working with is the part in the NHS. Yeah, that's the main thing I do. There's always a few other things like, you know, when I add a new feature to the language, you often have to update it in the compiler."
+    },
+    {
+      "t": 148,
+      "end": 159.8,
+      "text": "Like you just have to say, oh, the compiler now knows about this. >> Let's make sure that it knows how to call into the NST or sometimes you add it in the AL code that it can actually call it or something like that."
+    },
+    {
+      "t": 159.8,
+      "end": 169.8,
+      "text": "But most of the time, yes. >> Yeah. Okay. What does NST stand for? >> Nation service tier. >> All right. >> Yeah, that was a test. That was a quick question. >> All right."
+    },
+    {
+      "t": 169.8,
+      "end": 185.8,
+      "text": "So, so work us through what what happened when a a line of AL code execute. So, we talk we had another episode with Espen when we talk about the compiler >> and how you know how that works and how we generate the code and how it gets transpired to C and all all these things."
+    },
+    {
+      "t": 185.8,
+      "end": 205.2,
+      "text": ">> Uh but but at runtime what happens? We have a let's assume you have a line of code in say in a code unit. So, what's going on? What go through the what's going on there? >> Yeah. Yeah. So if I can start a little bit before that if I may, there's actually if we think about it instead of a line but like a block and by a block in this case I talk about like a method."
+    },
+    {
+      "t": 205.2,
+      "end": 218.6,
+      "text": ">> Mhm. >> So when you call a method an AL method let's say from another AL method we have to set up a call stack or what call a stack frame generally. Um and and we kind of have to set this up for a few reasons."
+    },
+    {
+      "t": 218.6,
+      "end": 231.3,
+      "text": "We do this to kind of measure how long it took. So from start to end. So that's an object that we just allocate on the heap. And then we put in a bunch of information that we use to track."
+    },
+    {
+      "t": 231.3,
+      "end": 244.4,
+      "text": "So that's that's kind of the first thing we do. And then there's kind of a little bit of this kind of overhead. And then we get to executing an actual line of code. And executing a line of code is actually pretty simple."
+    },
+    {
+      "t": 244.4,
+      "end": 260.8,
+      "text": "Most of the time it's uh it's really just whatever C wants to do. >> And so it's all C# running at that stage. Right. >> Exactly. Right. So we have and that's the funny thing we kind of have a you know a runtime on a runtime right because we are runtime but C# is also a runtime"
+    },
+    {
+      "t": 260.8,
+      "end": 280.8,
+      "text": ">> so and then from there if you look at whatever you do let's say we do set range on a record right then what the runtime mostly does is it provides the standard library so you or not standard library actually it provides uh the built-in functions for the language so set range is a method"
+    },
+    {
+      "t": 280.8,
+      "end": 300.9,
+      "text": "that we implement so it's called AL set range if you go into uh the NST um and we will provide the implementation of setting a range right setting a filter >> um so so that's kind of the main thing that will happen there's a few things about like keeping track of which record you're doing it on but"
+    },
+    {
+      "t": 300.9,
+      "end": 321,
+      "text": "most of that is is very implicit >> so it's almost it's not quite an interpreted language but a little there it kind of had a little bit of this flavor right yeah there's no interpreter but there you know cuz C# is a JIT language so the just in time compiler >> so what you"
+    },
+    {
+      "t": 321,
+      "end": 341.4,
+      "text": "know our compiler emits is um it takes eel and then it makes uh well it makes ours actually makes C# and then there's a compiler that takes the C# and makes common intermediate language >> yes >> and then the common intermediate language the C#'s jet runtime will make into assembly code >> all right"
+    },
+    {
+      "t": 341.4,
+      "end": 352.3,
+      "text": "So, so uh lately we have done a lot of investment in uh in to improve performance um and more specifically uh performance of the AL code running."
+    },
+    {
+      "t": 352.3,
+      "end": 369.2,
+      "text": "So like the idea being you know um you wouldn't have to change you know or partners and developers wouldn't have to change their code or not you know uh not always but we we'll get back to that but uh but they would they would get you know immediate benefit from some of the things we learn."
+    },
+    {
+      "t": 369.2,
+      "end": 389.4,
+      "text": "So take tell us a little bit about these features and um give a few example maybe. >> Yeah I I think I think there's maybe a little bit of a backstory also to be said. I think uh you know CL or AL came from a time where there was maybe a little bit less focus on creating a language that was meant for being high performance."
+    },
+    {
+      "t": 389.4,
+      "end": 399.7,
+      "text": "the language was maybe more originally meant for being very simple to make business logic and represent it as easily as possible. Right?"
+    },
+    {
+      "t": 399.7,
+      "end": 416,
+      "text": "there very much this focus on that and then over time you know we began taking the product into the cloud and then we began seeing more directly kind of the impact of running the code and from that we I think we kind of realized okay"
+    },
+    {
+      "t": 416,
+      "end": 436.1,
+      "text": "if we got to do that and we you know the onrem there was maybe there's a little bit of a hack they can do which was just buy faster hardware right just throw more RAM you know get a faster CPU >> maybe even tweak the SQL or >> exactly yeah keep SQL as close as possible and when we went into cloud we had to take a little bit more care of this"
+    },
+    {
+      "t": 436.1,
+      "end": 456.1,
+      "text": "um which is actually good I think cuz we we then had to do more about it and I think we took the language and we kind of looked again at it and said like okay it's really nice to have this language which is super easy to write and like you know go to the database it's just like one line of code right it's amazingly smart >> but on"
+    },
+    {
+      "t": 456.1,
+      "end": 476.2,
+      "text": "the other hand it also doesn't really allow offer super optimal code in that way because there is that abstraction over it and uh I think in software engineering you talk about this concept of leaky abstractions you have like an abstraction that's very nice and clean but then if you want to use like the super performant things you kind of begin saying like"
+    },
+    {
+      "t": 476.2,
+      "end": 489.9,
+      "text": "well the abstraction is this but if we know what the underlying thing is then we can do it a little bit faster >> and I think in some ways we kind of did this especially towards SQL with some of the things."
+    },
+    {
+      "t": 489.9,
+      "end": 510.9,
+      "text": "So >> give us a few examples. >> Yeah. So we we originally had in the language that you know when you go on a record and you do a a find you can do it against we it's an abstract idea that you can do against SQL or you could do against a temporary table or you can do against CRM or whatever it is right we have multiple"
+    },
+    {
+      "t": 510.9,
+      "end": 521.2,
+      "text": ">> but we kind of recognized that like if you want to do data transfer which is for example one of the things you did you can only do that against SQL because it explicitly generates a SQL query."
+    },
+    {
+      "t": 521.2,
+      "end": 532.4,
+      "text": "So we kind of began saying like ah well we know that they almost always do it against SQL so let's kind of leak that a little bit. So I think data transfer is a is a great example of that."
+    },
+    {
+      "t": 532.4,
+      "end": 546.3,
+      "text": ">> So yeah so we introduced that um a couple of years ago I think >> yeah so good question I think it's a yeah it's like one and a half years now I think something. >> Yeah. So that that does require some code changes right to adopt it >> definitely."
+    },
+    {
+      "t": 546.3,
+      "end": 557.2,
+      "text": ">> Um can we see a good adoption of this? Yeah. So data transfer uh was a re it was actually one of those where we had a very explicit place we wanted to use it."
+    },
+    {
+      "t": 557.2,
+      "end": 567.3,
+      "text": "Um I remember Nicola had some good places where he wanted to use it >> and uh we have actually slowly been opening up. >> Exactly right."
+    },
+    {
+      "t": 567.3,
+      "end": 587.3,
+      "text": "We have slowly been opening up more and more places. I remember Nicolola's case cuz it was the first one. So I remembered very vividly. it had I think it was during upgrade code they were trying to move some fields >> out of uh BAP into other and uh they he had this case where he was trying to do it and if he didn't use data"
+    },
+    {
+      "t": 587.3,
+      "end": 605.4,
+      "text": "transfer he found the fastest SQL instance he could get on Azure and it took three days to do it and it timed out so it never finished right >> and so that was just to kind give a little bit of >> yeah so there what happened is that you it's like looping through a lot of records that was the if you don't have the data transfer."
+    },
+    {
+      "t": 605.4,
+      "end": 625.5,
+      "text": "There was no other way exactly which is very very slow >> and SQL has the ability to transfer large amount of data you know natively but we didn't really quite surface that all the way to so that's what data transfer basically enables right >> yeah so when we then uptook data transfer in that exact scenario he had I think he had one example with"
+    },
+    {
+      "t": 625.5,
+      "end": 640.4,
+      "text": "17 million rows >> which is a fairly large amount of data >> from a real customer or >> a real customer exactly and uh we then used data transfer on it and it dropped to 40 minutes doing the same operation and that was just on normal database >> so for several days to 40 minutes."
+    },
+    {
+      "t": 640.4,
+      "end": 653,
+      "text": ">> Exactly. I was very happy with that. >> Yes, I was I was going to ask you so in can you say roughly what's the uh the factor of improvement you get with data transfer as opposed to a you know a loop type of implementation."
+    },
+    {
+      "t": 653,
+      "end": 673,
+      "text": ">> Yeah. I mean so it was we were trying to establish that actually we were trying to get like and and we kind of saw it as if you do it on smaller tables it's it's not a lot like if you do on 10 rows it doesn't matter at all but when you the it kind of it just scales linearly with data transfer"
+    },
+    {
+      "t": 673,
+      "end": 690,
+      "text": "roughly and the other one it kind of goes like this right >> okay >> so you really want to use it when you have big tables I think I once looked up in telemetry how many rows we transferred maximum in one data transfer >> and that was 70 million rows and that took a few hours."
+    },
+    {
+      "t": 690,
+      "end": 703.6,
+      "text": "I don't even want to know how long that would have taken. Probably not even doable. >> Yeah, probably not. >> So what other they we had other features um like set load field or read isolation"
+    },
+    {
+      "t": 703.6,
+      "end": 719.1,
+      "text": "which also we're targeting performance improvement. >> Uh so tell us a little bit about those. Yeah. So, so set load fields we we originally called partial records, but I think the community has just taken to the function name instead of the >> the name of the feature,"
+    },
+    {
+      "t": 719.1,
+      "end": 731.5,
+      "text": "which is fair enough. Um, that one it kind of came together with a few other things. So, set load fields requires manual uptake in your AL code. Um, and and we have seen quite a bit of success there."
+    },
+    {
+      "t": 731.5,
+      "end": 743.8,
+      "text": "We have some of our MVPs who really champion it. I know Waldo is uh talking a lot about it. I love that. Thank you. >> Yeah. >> And >> suppose data transfer and set load field they do require some code changes if you want."
+    },
+    {
+      "t": 743.8,
+      "end": 755,
+      "text": ">> But set load fields is automatically being applied if you do API calls on API pages and that was actually where we saw the biggest gains because those ones are often very simple."
+    },
+    {
+      "t": 755,
+      "end": 769.1,
+      "text": "They just read data, right? >> And if we could do that, if we could limit the amount of rows or not rows, sorry, fields you load, that is exactly what it's great. Now, originally when we made it, and I think this is actually an interesting point,"
+    },
+    {
+      "t": 769.1,
+      "end": 779.2,
+      "text": "when we made it, it was back when we had our old extension model like the data storage model where every single table extension had its own table in SQL."
+    },
+    {
+      "t": 779.2,
+      "end": 789.7,
+      "text": ">> Mhm. >> Um, as you probably remember, we switch from that onto where we have a base table and then we have a one extension table where the companion table."
+    },
+    {
+      "t": 789.7,
+      "end": 801.8,
+      "text": "Yeah. And back when we had the old model, it was the partial records or set load fields was even stronger because it could not just remove one join, it could remove n joins in SQL, right?"
+    },
+    {
+      "t": 801.8,
+      "end": 821.8,
+      "text": ">> Nowadays, I think you know removing one join is still great and removing an amount of fields, right? If you if you just need to load out a single field or two fields maybe on something like let's say the item table that has I think 150 fields or something like that it's great there right >> but you know when we did the"
+    },
+    {
+      "t": 821.8,
+      "end": 838,
+      "text": "other change it kind of changed a little bit how important partial records or set load fields was >> now I would say set load fields is more to be used in performance critical code like where you know you're looping through millions of rows think about it there Yeah."
+    },
+    {
+      "t": 838,
+      "end": 850.4,
+      "text": "Okay. Uh what about uh read isolation? >> Yeah. So read isolation is like one of our newer things and um it came together with another feature we wanted to do. We actually it's called tri-state locking, right?"
+    },
+    {
+      "t": 850.4,
+      "end": 865,
+      "text": "And we actually want to do tri-state locking first but then we swapped it around and did read isolation first because um we got uh a lot of feedback from internal AL developers that they also wanted that apart from triet locking."
+    },
+    {
+      "t": 865,
+      "end": 885.4,
+      "text": ">> So what is it? >> Yeah. So um it's essentially more fine grain control about how which which locking semantics or or isolation semantics do you want to read from SQL with so back in the days there was essentially two choices there was you could either do read uncommitted which is like"
+    },
+    {
+      "t": 885.4,
+      "end": 905.8,
+      "text": "we essentially don't care at all about like the state of data you know you can get dirty reads which means >> meaning you can get like if somebody else is in in the middle of a transaction you might get some consists as data or before the transaction it get >> exactly all bets are off right it's very fast because you don't get blocked by other people but all bets off and then you had"
+    },
+    {
+      "t": 905.8,
+      "end": 926,
+      "text": "you could call lock table or do a right >> uh modify for example and then you would get update lock and update lock is a pretty strict one it essentially means like if anyone has uh read with update lock or has done a modification then you have to wait so that's a pretty strict guarantee because you know if someone calls"
+    },
+    {
+      "t": 926,
+      "end": 942.4,
+      "text": "lock table and you call lock table and you both read, you're not allowed to read. >> So this was kind of the product. >> So you get a consistent data for sure, but you pay the price on on maybe some locking and and and performance eventually >> and especially in the read scenario."
+    },
+    {
+      "t": 942.4,
+      "end": 954.2,
+      "text": "That was kind of the weird thing because a lot of people they were like, \"Oh, I don't want to read with read uncommitted cuz that's like all bets off, but >> they want to read only what has been committed. So they don't want the dirty data."
+    },
+    {
+      "t": 954.2,
+      "end": 970.2,
+      "text": "they want like they know what's committed but they don't want to block someone else. >> So they kind of wanted this in between which is generally recommitted. >> So we wanted to give them that ability and then we just also gave them the other things cuz like why not do more >> and that's what read isolation does."
+    },
+    {
+      "t": 970.2,
+      "end": 990.5,
+      "text": ">> Exactly. Yeah. It says like when you read and it's only for reading you can say okay do I want read uncommitted do I want read committed >> repeatable read or update lock >> but you also need to specify it in the code which which model >> exactly so so it's kind of gives you the ability to be more in control"
+    },
+    {
+      "t": 990.5,
+      "end": 1005.4,
+      "text": "and I think in general this is what we have been doing we have been affording some kind of flexibility or more power >> at the cost of doing a little bit more Um >> but still I mean hearing you talk about it there's still a lot of complexity"
+    },
+    {
+      "t": 1005.4,
+      "end": 1022.4,
+      "text": "in it that it's you know abstracted for for our developers and yeah they don't they don't need to they need to specify what they want but it's more like we take care of all the all the intricate uh things with their SQL and and making sure all the things are are working properly."
+    },
+    {
+      "t": 1022.4,
+      "end": 1034.1,
+      "text": ">> Yeah. And if we take that and say like well what's tri-state locking then right because tri-state locking is kind of the companion piece for it. So as I I said earlier, we use either redwood with red uncommitted and then update lock."
+    },
+    {
+      "t": 1034.1,
+      "end": 1054.8,
+      "text": "We kind of imposed a third one. I mean you can see my naming is very very creative, right? We added a third one in the middle >> which is after a right like let's say you call modify then you now read with read committed instead of update lock and then you still get this where two people can or two different sessions can read each other"
+    },
+    {
+      "t": 1054.8,
+      "end": 1067.5,
+      "text": "but they cannot and they don't block each other. So that was kind of what we wanted to achieve with tri-state locking. >> Have you have you seen the the effects of this on telemetry and you know also heard from all"
+    },
+    {
+      "t": 1067.5,
+      "end": 1084.3,
+      "text": ">> so some of our partners are very happy about it. I know Dulio he presented down at I think it was last year >> in Vienna at directions. He had a talk there >> and I was standing listening in you know and at the end he was like oh and by the way thank you miss that was very nice to hear."
+    },
+    {
+      "t": 1084.3,
+      "end": 1104.6,
+      "text": "So there is a there are some really cool things there. Um I have been trying to gather like do we see less lock timeouts and uh it's a bit hard to do cuz you have to we for a long time we had tri-state as an opt-in feature >> and then uh now it's kind of everyone is using it but you can still disable"
+    },
+    {
+      "t": 1104.6,
+      "end": 1122.2,
+      "text": "it if you call lock table and we still have a lot of places that do that. >> Yeah. Um so it's it's a bit hard to see but in cases where we know it has been uptaken we have seen quite a good uh and especially read isolation we have a lot of internal a developers who has begun using that and really found it nice."
+    },
+    {
+      "t": 1122.2,
+      "end": 1134.9,
+      "text": ">> So you recommend people to who haven't adopted and and look to to look to try >> get that into their >> Exactly. If you see locking issues it's it's definitely one of those tools that you now have in your toolbox."
+    },
+    {
+      "t": 1134.9,
+      "end": 1150.5,
+      "text": ">> Yeah. Yeah. And again, you know, um maybe we quick reminder, how do we detect locking issues? >> Yeah. So, I mean, I think often you kind of get it from your customers complaining that they get this error that like another user has uh modified the data,"
+    },
+    {
+      "t": 1150.5,
+      "end": 1166.2,
+      "text": ">> but telemetry is of course the partner telemetry, right? So do we have um do we have also have work and features which um get performance improvements or provide performance improvement without requiring code uh code changes?"
+    },
+    {
+      "t": 1166.2,
+      "end": 1176.8,
+      "text": ">> Yeah, I think in the last couple years the best one of that is um moving from the many table extensions to one >> because there was just nothing our customers had to do at all."
+    },
+    {
+      "t": 1176.8,
+      "end": 1187.4,
+      "text": "They were just highly under the hood. >> Exactly. You just upgrade to the next major. I can't remember when it was, but it was a couple years ago. And then >> it's just magically faster, right? >> So, that was a great example."
+    },
+    {
+      "t": 1187.4,
+      "end": 1199.3,
+      "text": "And it's it's one of those things we think a little bit about in the platform when we think about what features do we want to do cuz it would be lovely if all of our features could just, you know, be immediate."
+    },
+    {
+      "t": 1199.3,
+      "end": 1211.8,
+      "text": "So, we have to make that balance of like we know uptake is not that easy. you know, we have a a lot of AL code and it's old and some people don't, you know, maybe they can't just change it and stuff like that."
+    },
+    {
+      "t": 1211.8,
+      "end": 1224.1,
+      "text": ">> I know some of our user or like our customers out there have something that was developed at some point >> and maybe the developer is no longer there or something. So, it's of course nicest if we can make something that's just immediate."
+    },
+    {
+      "t": 1224.1,
+      "end": 1240.5,
+      "text": ">> Clearly, that's the best because nobody needs to do anything and everybody, you know, >> gets a little bit happier. >> Exactly. Exactly. So when we prepare for this, you had you had some things you wanted to talk about, you know, we prepared some questions a little bit and you say, \"Okay, there's some myth we need to bust.\" >> So So tell us about it."
+    },
+    {
+      "t": 1240.5,
+      "end": 1255,
+      "text": "What what do you want to, you know, uh, I guess there are some, you know, you get some feedback on on on on some things and um, >> yeah, so often it comes because like people read the documentation or they read the function name and then they go like, \"Oh,"
+    },
+    {
+      "t": 1255,
+      "end": 1265.6,
+      "text": "then it must be doing this.\" And sometimes the function name was named like 20 years ago or something. >> So some assumption of how the runtime is failing. >> Yeah. >> So a good example of that is like lock table."
+    },
+    {
+      "t": 1265.6,
+      "end": 1283.4,
+      "text": ">> Lock table. I mean I think it makes sense that it would lock the table you know but in essence that's not what it really does. So uh so lock table first and foremost it doesn't actually do anything in the moment like it doesn't go to SQL and takes a big lock on the entire table."
+    },
+    {
+      "t": 1283.4,
+      "end": 1296.1,
+      "text": "What it actually does is it says for all the future reads you're going to do, you will do them with the update lock hint. >> It also does do something to the data cache, but that's very specific."
+    },
+    {
+      "t": 1296.1,
+      "end": 1307.9,
+      "text": "I I don't know if we'll go into that here. >> Um, but essentially it just means like you can no longer read use results that was read with a lower uh isolation guarantee level."
+    },
+    {
+      "t": 1307.9,
+      "end": 1321.3,
+      "text": ">> But the major thing is that all future reads will be with update lock. >> Okay. And that I don't think that's what the name kind of suggests. >> All right. So, any other myths you want to while you have your audience here?"
+    },
+    {
+      "t": 1321.3,
+      "end": 1336.4,
+      "text": "Any other myths you want to >> Yeah. So, set current key is also a fun one, right? Because you're thinking like, okay, a key, you know, we have the concept of saying, oh, there's a key in I can specify I can say which fields and you probably know it creates an index and stuff like that."
+    },
+    {
+      "t": 1336.4,
+      "end": 1354.5,
+      "text": ">> Um, so you would probably think like, oh, then it SQL uses it or something like that. And SQL does support that you could say use this index but that's not what we do. >> Okay. >> What we actually do is we say um you need to order the data like the resulting data in the order of whatever field you have specified."
+    },
+    {
+      "t": 1354.5,
+      "end": 1365.1,
+      "text": ">> It's a little bit maybe a little bit misguiding. Uh >> I think it is name. Yeah. Yeah. >> You know we have talked about could we rename it and the problem is it's kind of hard >> break a lot of people. Yeah. >> Exactly. Right."
+    },
+    {
+      "t": 1365.1,
+      "end": 1378.4,
+      "text": "So, you know, there's also this interesting thing when it gets to SQL that like there's actually a pretty big implication for SQL on it, how it queries data if you tell it to order the data in a different way."
+    },
+    {
+      "t": 1378.4,
+      "end": 1392.4,
+      "text": "Because most of the time SQL will kind of optimize for I want to read the data that I can filter away. So, I only read as little as possible. >> Mh. But if you then ask it to order it in a different order, it it kind of has to say,"
+    },
+    {
+      "t": 1392.4,
+      "end": 1408.5,
+      "text": "okay, can I use I can maybe use that index to read with, but then I have to sort the data afterwards because they wanted this ordering. >> So sometimes with SQL will then instead go in and choose another index that has the right order and then read all the data and filter it later."
+    },
+    {
+      "t": 1408.5,
+      "end": 1420.8,
+      "text": "So it kind of has some interesting uh performance implications also. And I think people >> don't think too much of that. I mean it's also hard when the the name doesn't suggest it. >> So we have been trying our best to change"
+    },
+    {
+      "t": 1420.8,
+      "end": 1436.1,
+      "text": ">> the documentation of it to add there. >> I also have a blog where I document some of these kind of >> I can I think maybe I demystify them. I would say >> we'll put a link in the in the comments so you can take a look at the nice blog."
+    },
+    {
+      "t": 1436.1,
+      "end": 1446.3,
+      "text": ">> Um I don't do we have any other really strange things that we have a >> what about the temporary tables? Yeah, temporary tables. I actually haven't documented that on my blog."
+    },
+    {
+      "t": 1446.3,
+      "end": 1467.2,
+      "text": "So, it's kind of a anyone I I I remember I saw on Twitter at some point or X I guess nowadays where someone was guessing like how is that actually implemented? They were thinking maybe it's a in-memory table but on SQL because you can do temporary tables there or maybe it's something else and um it's it is an in-memory table but on the NST."
+    },
+    {
+      "t": 1467.2,
+      "end": 1480.6,
+      "text": ">> So, we use basically the memory of the inst process for that. >> Yeah. We just have a in-memory implementation. Uh it uses the very specific data structure called the AVL tree which is like a classic data structure."
+    },
+    {
+      "t": 1480.6,
+      "end": 1495.7,
+      "text": "Uh which is kind of optimized for searching. Uh like a red red black tree or some of these other ones, right? >> Um and then everything happens in memory and uh it it is actually quite transparent"
+    },
+    {
+      "t": 1495.7,
+      "end": 1506.4,
+      "text": "like the abstraction doesn't leak that much. It's quite fast because everything is in memory. Um, and it behaves mostly reasonable, I would say."
+    },
+    {
+      "t": 1506.4,
+      "end": 1516.8,
+      "text": ">> U, but it does have the implication that, you know, the more you put in there, the more memory you use, right? >> Um, so it's kind of a challenge there in some way. >> Mhm."
+    },
+    {
+      "t": 1516.8,
+      "end": 1529.2,
+      "text": "All right. Okay. Let's talk a little bit about the future. What the what do we have in store in the ENL runtime? What should our developers look forward to? Um, >> yeah, >> I mean, we don't we don't say anything when it's going to be shipped."
+    },
+    {
+      "t": 1529.2,
+      "end": 1539.3,
+      "text": "So, but uh you can talk we can talk a little bit of what we have on the on the drawing board, right? >> Yeah, we have some big ideas, I would say. Right. We you know I I none of these are actually in code."
+    },
+    {
+      "t": 1539.3,
+      "end": 1551.8,
+      "text": "I I think when you present down at >> I think at tech days you normally have this like from the labs or something like that. And I think that one is maybe even closer to being real. This is idea level like this is one step before."
+    },
+    {
+      "t": 1551.8,
+      "end": 1562,
+      "text": "We don't even have it, >> you know. Um and I I would say there's maybe there's three things we're thinking a lot about right now. And one of them is uh dynamic queries."
+    },
+    {
+      "t": 1562,
+      "end": 1580.2,
+      "text": ">> Yes, >> I've talked with so many of our MVPs about this and they've wanted it for a very long time >> and we all agree it's a good idea. Um so >> one of the problems with queries as they are right now is that you kind of have to write them as an AL object and they're not really extendable."
+    },
+    {
+      "t": 1580.2,
+      "end": 1593.4,
+      "text": "You can't >> it's a design time decision. You can't can't change them at one time. >> And then they also sometimes have feature creep. So they might have been designed for like a very specific thing >> but then someone comes and goes like ah it would be nice if we could use that."
+    },
+    {
+      "t": 1593.4,
+      "end": 1611.8,
+      "text": "Let me just add a little bit more to it. Right? >> So and you know that's fine but it you know the idea is for them to be as small as possible and just do what you need. Mhm. >> So we have kind of been thinking about like what if instead of making them at design time you could make them at like kind of run time."
+    },
+    {
+      "t": 1611.8,
+      "end": 1631.3,
+      "text": "So you could say like >> some of them. >> Yeah. >> Yeah. Yeah. We would keep the old ones of course, right? But but this new idea would be able to say I want to read from this base table, join in this other table >> and then maybe join in a third table but I only want to do that if this record has a value or you know some condition is set."
+    },
+    {
+      "t": 1631.3,
+      "end": 1641.4,
+      "text": "Right? So you can really dynamically create them and I this is the the name comes from there. >> Um it's it's a challenge in the sense that"
+    },
+    {
+      "t": 1641.4,
+      "end": 1660.6,
+      "text": "um we want to find a good model on how to write them because it is already cumbersome to write a query. What if you know if you kind of use a query builder pattern where you say I want a designer query then I want to add this data item this data item this data item these fields these fields these fields."
+    },
+    {
+      "t": 1660.6,
+      "end": 1680.9,
+      "text": "this becomes quite a lot of code. So we want to find a succinct way to describe that. >> So we're thinking a lot about like composition. So you kind of maybe have >> um some code that default kind of adds what you need a lot of the time uh and then maybe it actually becomes pretty easy to do or another way is to"
+    },
+    {
+      "t": 1680.9,
+      "end": 1701,
+      "text": "go from a record that is already instantiated and say based on that design part of the query. Um, we have also recently had some talking like very recently just a few days ago about the MCP server could maybe you could use AI that knows about all the tables"
+    },
+    {
+      "t": 1701,
+      "end": 1712.2,
+      "text": "because you know we expose that to AI. So in the MMCP server, it could probably use this idea of knowing or how all the tables look to generate just what it needs to look up."
+    },
+    {
+      "t": 1712.2,
+      "end": 1730.6,
+      "text": ">> And >> but we would need to have the ability to generate queries on the fly to start with, right? But then I mean like the addition of MCP servers and AI would be a great combination because you could express things maybe even in natural language and then create queries on the fly or >> or or even programmatically."
+    },
+    {
+      "t": 1730.6,
+      "end": 1750.1,
+      "text": "Yeah, we're thinking about like maybe the MCP is a good way to start testing it out to see how it works >> because if that one is missing something, we often find that like you can add more metadata or like better documentation that will also help you know the average user right average developer out there."
+    },
+    {
+      "t": 1750.1,
+      "end": 1762.4,
+      "text": ">> Um so we might experiment with it there first and then get some learnings and then take it to AO. >> All right. Um yeah, so that's the first thing we've been thinking a lot about."
+    },
+    {
+      "t": 1762.4,
+      "end": 1776.2,
+      "text": "Uh there's some more there's a conceptual idea which I like to call bulk events. >> Yeah. >> And that comes from um we have delete all and modify all uh which is a great like one of those it's a league abstraction actually."
+    },
+    {
+      "t": 1776.2,
+      "end": 1790.9,
+      "text": "It's one of those places where we can ask SQL instead of row like line by line or row by row to do like delete you know you do a find set and then delete one row at a time we can kind of say delete all that matches these filters"
+    },
+    {
+      "t": 1790.9,
+      "end": 1804.1,
+      "text": ">> but we have the problem that since AL is rowby row based you can go in and set a on after modify trigger or on before modify on before delete >> and that will often generate a lot of events."
+    },
+    {
+      "t": 1804.1,
+      "end": 1817.4,
+      "text": "Yeah. And and you know if you have that then we actually say well then we can't use the bulk statement. We can't just do one big delete. Then we fall back to doing the rowby row deletion >> and that's very slow like >> for performance."
+    },
+    {
+      "t": 1817.4,
+      "end": 1834.9,
+      "text": "Yeah. >> Exactly. Performance. Um and if we could do what we call a bulk event. So we could say >> okay you want to kind of subscribe and do something. Well, what if we gave you the ability to subscribe on not rowby row but like on the bulk delete or bulk modify."
+    },
+    {
+      "t": 1834.9,
+      "end": 1855,
+      "text": "So you instead of you know getting an event for each row that gets modified you get to know okay we've modified this this >> the filters that match that >> one event instead >> and then we wouldn't have to fall back to the rowby roast approach >> like I I actually just recently talked with one of our internal developers who had a a performance case from a customer"
+    },
+    {
+      "t": 1855,
+      "end": 1875,
+      "text": "and the problem was exactly that it fell back to this rowbyrow approach and then it got super slow. So that's one of those things we would love to do and with that we also would love to if we could move a little bit away from rowby row to doing you know set based things which is what SQL is meant for"
+    },
+    {
+      "t": 1875,
+      "end": 1895.2,
+      "text": ">> like you know it's a set based language and that's where it's really fast. So if we could take more and more and move it towards set like if you if you're used to C# you might have this idea of link which is like you do where this then do that right if we could in some way have that nail that would be a very strong concept"
+    },
+    {
+      "t": 1895.2,
+      "end": 1908.4,
+      "text": ">> now it would probably be quite a big change to ale >> but that's one of those big ideas we'd like to get towards >> so some things to look forward to >> yeah and this is not next release or the one after this is like >> but I mean it's this one time."
+    },
+    {
+      "t": 1908.4,
+      "end": 1920.2,
+      "text": "It needs constant uh evolution and we keep adding to it and improving it, right? >> Yeah. >> Um so if you had if you had one thing you you you wanted to redesign about the the current runtime."
+    },
+    {
+      "t": 1920.2,
+      "end": 1940.4,
+      "text": "So one thing you would say, you know, hey, when you come to work every day, you look at this runtime, ah there's this thing, you know, I wish I could rewrite it, right? >> What would that be? Yeah, it's it's um there's maybe a few things, but uh I do think fundamentally if we could go back and say the rowbyrow like"
+    },
+    {
+      "t": 1940.4,
+      "end": 1960.6,
+      "text": "what we just talked about >> that would probably be the biggest performance change especially when you do big datadriven things right if you just open a page and show 50 rows doesn't matter it's fine >> but when you we do for example um upgrade code units that often touch a lot of"
+    },
+    {
+      "t": 1960.6,
+      "end": 1973.2,
+      "text": "stuff. >> They're doing things row by row is really hurting us. So that's that's probably one of those things. >> Uh that's the biggest kind of would really change that type of operations."
+    },
+    {
+      "t": 1973.2,
+      "end": 1984.2,
+      "text": "But kind of in the day-to-day things, it probably wouldn't change so much performance like opening a page for sure. I think in the open page scenario it's probably"
+    },
+    {
+      "t": 1984.2,
+      "end": 2004.4,
+      "text": "um maybe more the fact that we do so many triggers. Um, so I think uh often we do the the you can do the on after get current record which just does one trigger execution when you open a page but you can also here we're talking a list page so you can do on after get record I think it's called and the on next"
+    },
+    {
+      "t": 2004.4,
+      "end": 2015.1,
+      "text": "trigger >> cuz because they execute every single time um if you have those ones and you begin putting logic in there it can become very expensive."
+    },
+    {
+      "t": 2015.1,
+      "end": 2028.2,
+      "text": "Um, we we have seen quite often when they have slow page openings, it can be because they have added a lot of logic in there. So that's I guess also a little bit of a rowbyrow thing actually."
+    },
+    {
+      "t": 2028.2,
+      "end": 2048.2,
+      "text": "So I mean that's the big dream. If you could change that, that would have been cool. >> All right. Uh before we conclude, do you have any word of advice for partners and developers? you know what what should they do to if they want to leverage all the you know great stuff you've just talked about uh in a runtime >> yeah I I think maybe the first thing is they should do is"
+    },
+    {
+      "t": 2048.2,
+      "end": 2067.9,
+      "text": "figure out what their hot path code is and by that I mean figure out like is this something that gets executed you know 10 times a day >> or 10,000 times a day or maybe millions of times a day >> because if you find those ones you can we have now added things in the toolbox what I've been talking about earlier,"
+    },
+    {
+      "t": 2067.9,
+      "end": 2082,
+      "text": "right? And if you know that these paths here are your really hot path codes, um, and they change from scenario to scenario, of course, but you know, if you if you analyze these ones and you get down to, okay, this is where we have to be a little bit careful,"
+    },
+    {
+      "t": 2082,
+      "end": 2101,
+      "text": ">> then you can begin putting in your effort, you know, I think you should start with something like um the profiler, sampling profiler. That one can be a good tool. Uh I think sometimes developers have this idea of what is slow and then when they actually run a profiler they figure out oh wait a second there was actually somewhere else."
+    },
+    {
+      "t": 2101,
+      "end": 2115.6,
+      "text": "I mean I have done that many times right? Um so I think if you start there you get down to like just these like maybe functions here or something like that. Then you should begin applying the things in that have come in the toolbox."
+    },
+    {
+      "t": 2115.6,
+      "end": 2132.6,
+      "text": "And this is not just the things we've talked about today. There's also stuff like the dictionary data type which in some cases can replace the temporary tables. Temporary tables is great also >> but if you need the quickest just check if there's a there or just look up that value."
+    },
+    {
+      "t": 2132.6,
+      "end": 2143.1,
+      "text": ">> So dictionaries are better. >> Dictionaries is way better you know asically it's >> uh it's login versus constant time if we are to be nerdy."
+    },
+    {
+      "t": 2143.1,
+      "end": 2153.3,
+      "text": "Um so so I would definitely you know start by narrow it down and then you know look in the toolbox find the great tools that we have added over time and try to apply them."
+    },
+    {
+      "t": 2153.3,
+      "end": 2163.3,
+      "text": ">> Um I think for example set load fields we have had great experience especially if you are only in read scenarios and you're reading millions of lines of rows"
+    },
+    {
+      "t": 2163.3,
+      "end": 2173.5,
+      "text": "uh that can really help you out there for example. All right. Well, thank you, M. That was really under the hood. So, let us know in the comment if you want to hear. We could talk about that for, you know, hours, right?"
+    },
+    {
+      "t": 2173.5,
+      "end": 2183.8,
+      "text": "There's a lot more things into what's going on in the NHD and the runtime. So, let us know in the comment if you want what you would like to hear about and uh, you know, I make a new episode about it."
+    },
+    {
+      "t": 2183.8,
+      "end": 2190,
+      "text": "Um, thank you, Matt, and thank you for watching. >> Thank you."
+    }
+  ],
+  "markers": [],
+  "word_count": 7265
+}

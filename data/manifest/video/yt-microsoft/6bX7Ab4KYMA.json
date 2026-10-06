@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Cloud Migration Tooling (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=6bX7Ab4KYMA",
-  "published_at": null,
+  "published_at": "2026-04-01T12:00:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:54:05.123Z",
+      "captions": "auto:en-orig",
+      "duration_s": 594
+    },
+    "captioned": {
+      "at": "2026-10-06T13:54:27.789Z",
+      "path": "data/captions/microsoft/6bX7Ab4KYMA.vtt",
+      "vtt_sha256": "c04ea0e3e39c9058980c1b58dc5c5652bf43344e4bc4c65395a0aeed07929c4d",
+      "segments": 48,
+      "words": 1479,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 110,
     "duration_s": 594,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c04ea0e3e39c9058980c1b58dc5c5652bf43344e4bc4c65395a0aeed07929c4d"
 }

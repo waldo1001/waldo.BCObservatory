@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-register-excise-tax",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "15b6037fc9bfd6b80526747972df72c6db01c5c4",
       "words": 383,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T13:48:42.817Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007148
+    },
+    "summarized": {
+      "at": "2026-10-06T13:48:42.820Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:48:42.820Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:48:42.820Z",
+      "page": false
     }
   },
   "input_hash": "15b6037fc9bfd6b80526747972df72c6db01c5c4",
@@ -53,5 +72,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "15b6037fc9bfd6b80526747972df72c6db01c5c4"
+  "output_hash": "09ee70a2a44aa4b841a225e3d422ed62ee3e28a31f8ffe7d0a5e3a2a4892f6a3"
 }

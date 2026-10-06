@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-register-excise-tax.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-register-excise-tax",
+  "title": "Register excise tax",
+  "blob": "15b6037fc9bfd6b80526747972df72c6db01c5c4",
+  "summary": "Excise tax registration for specific goods like fuel, alcohol, and tobacco calculates and tracks tax amounts without creating general ledger entries for reporting compliance.",
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "excise tax",
+    "tax calculation",
+    "tax reporting",
+    "compliance"
+  ],
+  "objects": [],
+  "features": [
+    "Excise tax registration",
+    "Tax type management",
+    "Excise journal entry generation",
+    "Excise tax transaction review",
+    "Multiple tax type assignment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007148,
+      "pages_in_call": 8
+    }
+  ]
+}

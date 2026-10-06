@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: APIs for Permissions, Approvals, and Documents (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=dlJYM5ruvUc",
-  "published_at": null,
+  "published_at": "2026-04-01T12:00:43.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:52:51.083Z",
+      "captions": "auto:en-orig",
+      "duration_s": 517
+    },
+    "captioned": {
+      "at": "2026-10-06T13:53:07.473Z",
+      "path": "data/captions/microsoft/dlJYM5ruvUc.vtt",
+      "vtt_sha256": "6b104bddfa98fe37454c3d69870e336d7341fb17430e3a5b8ceb92c86458ff08",
+      "segments": 36,
+      "words": 1191,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 105,
     "duration_s": 517,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6b104bddfa98fe37454c3d69870e336d7341fb17430e3a5b8ceb92c86458ff08"
 }

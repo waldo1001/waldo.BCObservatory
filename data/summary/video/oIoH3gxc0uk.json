@@ -1,0 +1,26 @@
+{
+  "video_id": "oIoH3gxc0uk",
+  "item_id": "video/yt-microsoft/oIoH3gxc0uk",
+  "summary": "Flushing methods in Business Central production orders: forward, backward and manual flushing, the pick plus warehouse step, component-level flushing policies and routing link codes. Includes a demo of posting manual components and finishing an order.",
+  "overview": "The video defines a flushing method as the rule for when the system posts production consumption automatically. It covers three methods (forward, backward, manual) and pick plus, which adds a warehouse picking step before the chosen rule applies.\n\nIt then shows that each component line on a production order can carry its own posting rule, and how routing link codes tie component consumption to a specific routing operation. It closes with a demo of posting manual components and finishing the order, using the production order page and the production journal.",
+  "key_points": [
+    "Forward flushing consumes components automatically once the production order is released. It suits predictable components that need no manual journal entry.",
+    "Backward flushing posts consumption later, when output is recorded or the order is finished, so it waits for proof that work happened.",
+    "Manual flushing has the operator review the component line and post actual consumption in the journal. It fits variable quantities or tighter control.",
+    "Pick plus adds a warehouse picking step before the selected flushing rule applies. It does not replace forward, manual or backward flushing.",
+    "Each component line on a production order can have its own flushing method, so forward, backward, manual and pick plus can be mixed on one order.",
+    "A routing link code on a component ties its consumption to a specific routing operation when the codes match. A blank code applies timing to the order more generally."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "f4ed10aba4e84c95cfb5a3aaa9ac342e86a0b294439e76b3e023117550adecd2",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0398824
+  }
+}

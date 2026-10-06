@@ -1,0 +1,27 @@
+{
+  "video_id": "ZpzZ6El8GXY",
+  "item_id": "video/yt-microsoft/ZpzZ6El8GXY",
+  "summary": "Data analysis changes in the 2026 release wave 2: system fields (created by/on, modified by/on) become available in analysis mode, list views can be bookmarked to the role center, and profiles get system fields and bookmarks. Bookmarking analysis tabs is announced for version 29.x, not the major release.",
+  "overview": "The video covers what is new in data analysis for the 2026 release wave 2. In analysis mode, the system fields created by, created on, modified by and modified on can now be used in analysis tabs and views. They exist on all tables but were not visible in analysis mode before. The demos use the sales orders list (modified by and modified at, to see who last touched an order) and the customer list (created by, modified by).\n\nThe second part covers bookmarking. List views and saved filters can be bookmarked to the role center. Bookmarking an analysis tab or analysis view is announced for a future minor version (29.x). The video also shows system audit fields added to pages in the page designer for profiles, and bookmarked views added to a role center at profile level. The presenter points to aka.ms/bc-analytics, section ad hoc data analysis, for resources.",
+  "key_points": [
+    "System fields (created by, created on, modified by, modified on) are now always available in the columns menu in analysis mode, even if the list page does not show them.",
+    "Example: add modified by and modified at to the sales orders list in analysis mode to see which salesperson last touched an order.",
+    "Example: on the customer list, add created by or modified by to get history on customers.",
+    "List views and saved filters can be bookmarked so users navigate to them directly from the role center.",
+    "Bookmarking an analysis tab or analysis view is announced for version 29.x, hopefully one of the first minor versions, and is not in the major release.",
+    "In the page designer for profiles, system audit fields can be added to pages such as cards and lists.",
+    "Bookmarked analysis views and list views can be added to a role center at profile level, so all users of that profile see them."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "9cc467310715b676f87c6a5fc6461a668bfd7d1842034598e69014c1ace5af12",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0424904
+  }
+}

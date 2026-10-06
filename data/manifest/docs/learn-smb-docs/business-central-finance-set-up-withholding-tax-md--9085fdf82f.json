@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-set-up-withholding-tax",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "783a5ead44cfdd1d7491773ced3c9feb4d53ac18",
       "words": 1459,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T13:48:42.818Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007148
+    },
+    "summarized": {
+      "at": "2026-10-06T13:48:42.821Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:48:42.821Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:48:42.822Z",
+      "page": false
     }
   },
   "input_hash": "783a5ead44cfdd1d7491773ced3c9feb4d53ac18",
@@ -66,5 +85,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "783a5ead44cfdd1d7491773ced3c9feb4d53ac18"
+  "output_hash": "8eddbdfa12c8ab5b7e70da2d5571ba8e21304babd0c2be5caba49746836bcf26"
 }

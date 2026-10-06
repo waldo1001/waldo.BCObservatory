@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/qms-troubleshooting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/qms-troubleshooting",
+  "title": "Troubleshoot quality management features",
+  "blob": "f13b87402d5f744150abc7d3308504cf36bfe9f8",
+  "summary": "Troubleshoot quality management features in Business Central by diagnosing and resolving common issues grouped by feature area including setup, test generation rules, scheduled inspections, workflows, templates, inspections, warehouse receipt inspections, production output inspections, manual creation, and lot blocking.",
+  "systems": [
+    "manufacturing",
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "quality management",
+    "troubleshooting",
+    "inspections",
+    "templates",
+    "workflows",
+    "lot blocking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Quality Management Setup"
+    },
+    {
+      "type": "report",
+      "name": "20412"
+    },
+    {
+      "type": "page",
+      "name": "Lot No. Information Card"
+    }
+  ],
+  "features": [
+    "quality inspections",
+    "inspection generation rules",
+    "test generation rules",
+    "scheduled inspections",
+    "quality workflows",
+    "result-based controls",
+    "lot blocking",
+    "manual inspection creation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007092,
+      "pages_in_call": 7
+    }
+  ]
+}

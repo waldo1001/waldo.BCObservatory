@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=V7NgFOIcGgM",
   "published_at": "2026-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T13:48:32.873Z",
+      "path": "data/extract/video/V7NgFOIcGgM.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 16,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.045398
+    },
+    "summarized": {
+      "at": "2026-10-06T13:48:45.743Z",
+      "path": "data/summary/video/V7NgFOIcGgM.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0457924
+    },
+    "linked": {
+      "at": "2026-10-06T13:48:45.744Z",
+      "systems": [
+        "copilot",
+        "integration",
+        "platform"
+      ],
+      "topics": 9,
+      "objects_as_heard": 2
+    },
+    "published": {
+      "at": "2026-10-06T13:48:45.746Z",
+      "path": "content/videos/V7NgFOIcGgM.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2026-10-01 - BCLE - What's new： Demystifying the New Microsoft Copilot Chat in Business Central (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "d81617247b27295e934995221892c23dac5e0a382cea6d3dbe702bb9cf9180f5"
 }

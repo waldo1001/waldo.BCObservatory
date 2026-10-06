@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/qms-scheduled-test-creation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/qms-scheduled-test-creation",
+  "title": "Create scheduled quality inspections",
+  "blob": "f01380f67c6b2e883d06994174f06e10d8908460",
+  "summary": "Scheduled quality inspections are automatically created at regular time intervals using job queue entries for proactive quality management such as shelf life monitoring and preventive assurance.",
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "scheduled inspections",
+    "job queue",
+    "proactive quality",
+    "time-based inspection",
+    "inventory sampling"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Report 20412"
+    }
+  ],
+  "features": [
+    "Time-interval triggered inspections",
+    "Scheduled processing configuration",
+    "Job queue setup",
+    "Recurring job scheduling",
+    "Schedule group creation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005457,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "o94V_lF8oNM",
+  "item_id": "video/yt-microsoft/o94V_lF8oNM",
+  "summary": "Expense Agent in the 2026 release wave 2 adds AI evaluation of free text travel and expense policies, submitter presubmission checks, and a flagged compliance status for approvers. The video demos these; AI evaluation uses copilot credits, and pricing should be checked in the documentation.",
+  "overview": "The video walks through how Expense Agent checks expense reports against company travel and expense policies. Policies are entered as free text by category, and an \"Evaluate compliance with AI\" setting uses copilot credits to analyze them. The demo covers hotel and flight examples, the dashboard and compliance status, and the new flagged status for policies that were evaluated and found potentially non-compliant.\n\nIt also shows how submitters can run a policy check before submitting, how changes to an expense return policies to pending, and how the approver workflow handles flagged items. Two items are described as coming: more detailed receipt itemization, and a mandatory reason when an approver overrides a policy.",
+  "key_points": [
+    "\"Evaluate compliance with AI\" is a new toggle in policy compliance settings. It uses copilot credits, and the presenter says pricing is updated and to check the documentation.",
+    "Policies are free text, organized by category. When a category has several policies, enter each one as a separate line so the AI can analyze them better.",
+    "Presubmission evaluation lets submitters run \"Policy check with AI\" on their own report before submitting. It takes about one minute, and administrators can disable it if they are concerned about credit usage.",
+    "Expense reports get a new \"flagged\" status when a policy was evaluated and potential non-compliance was found. Approvers should review these.",
+    "Policies are evaluated against a version of the receipt. If an expense is modified, policies go back to pending and must be re-evaluated manually.",
+    "No policy check runs if no policies are configured or if the expense record has not changed since the last evaluation, which limits credit usage.",
+    "Coming later: more detailed receipt itemization (for example to detect alcoholic beverages), and a mandatory reason when an approver overrides a policy, kept in audit records."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker",
+    "end user"
+  ],
+  "extraction_hash": "2b54707e1c14ddab8b607be61106762325d0b44d77f2c16fef1ffb46da44128d",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0445144
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/fa-how-dispose-retire.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-dispose-retire",
+  "title": "Dispose or retire FA",
+  "blob": "1300542a8c4022fb5b6fdc3789849e64c4529a84",
+  "summary": "Dispose of or retire fixed assets by posting disposal entries through the Fixed Asset G/L Journal, recording gains or losses and tracking emissions when applicable.",
+  "systems": [
+    "fixed-assets",
+    "finance"
+  ],
+  "topics": [
+    "fixed assets",
+    "disposal",
+    "depreciation",
+    "general ledger",
+    "sustainability"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Fixed Asset G/L Journals"
+    },
+    {
+      "type": "page",
+      "name": "FA Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Assets"
+    },
+    {
+      "type": "page",
+      "name": "Find Entries"
+    }
+  ],
+  "features": [
+    "Disposal posting",
+    "Gain/loss calculation",
+    "Partial disposal",
+    "CO2e tracking",
+    "Ledger entry viewing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005432,
+      "pages_in_call": 8
+    }
+  ]
+}

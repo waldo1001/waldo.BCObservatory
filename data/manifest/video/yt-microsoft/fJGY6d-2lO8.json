@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Enhanced Sales Analytics (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=fJGY6d-2lO8",
-  "published_at": null,
+  "published_at": "2026-04-01T12:00:43.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:52:42.479Z",
+      "captions": "auto:en-orig",
+      "duration_s": 593
+    },
+    "captioned": {
+      "at": "2026-10-06T13:52:58.189Z",
+      "path": "data/captions/microsoft/fJGY6d-2lO8.vtt",
+      "vtt_sha256": "20d7975885a36041203b64109e1e20e5aba99129cdf375bd40ba3b62d84f0734",
+      "segments": 44,
+      "words": 1424,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 104,
-    "duration_s": 594,
-    "via": "reconcile"
-  }
+    "duration_s": 593,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "20d7975885a36041203b64109e1e20e5aba99129cdf375bd40ba3b62d84f0734"
 }

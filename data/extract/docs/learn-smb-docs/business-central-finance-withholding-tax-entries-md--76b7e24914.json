@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-withholding-tax-entries.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-withholding-tax-entries",
+  "title": "View withholding tax entries",
+  "blob": "fc1fee2a6901c0bc22c23556cf1bf2ed065b3939",
+  "summary": "View withholding tax entries for vendor and employee transactions, showing base amount, tax amount, posting groups, and party type from the Withholding Tax Entries page.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "withholding tax",
+    "vendor transactions",
+    "employee transactions",
+    "tax entries",
+    "ledger registers"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Withholding Tax Entries"
+    },
+    {
+      "type": "page",
+      "name": "G/L Registers"
+    }
+  ],
+  "features": [
+    "withholding tax entry review",
+    "vendor withholding tax",
+    "employee withholding tax",
+    "party type tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007547,
+      "pages_in_call": 8
+    }
+  ]
+}

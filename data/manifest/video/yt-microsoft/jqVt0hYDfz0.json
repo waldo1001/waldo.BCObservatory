@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's Cooking in Business Central: Delivering Analysis Views in AL Extensions",
   "url": "https://www.youtube.com/watch?v=jqVt0hYDfz0",
-  "published_at": null,
+  "published_at": "2026-01-28T16:01:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:57:56.054Z",
+      "captions": "auto:en-orig",
+      "duration_s": 416
+    },
+    "captioned": {
+      "at": "2026-10-06T13:58:31.865Z",
+      "path": "data/captions/microsoft/jqVt0hYDfz0.vtt",
+      "vtt_sha256": "1f7e9bc6283a223f10b4b35e197135384ad25581237ffb8a70d15ac0fd55bf37",
+      "segments": 31,
+      "words": 974,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 124,
     "duration_s": 416,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1f7e9bc6283a223f10b4b35e197135384ad25581237ffb8a70d15ac0fd55bf37"
 }

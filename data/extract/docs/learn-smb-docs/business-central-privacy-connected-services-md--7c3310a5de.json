@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/privacy-connected-services.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/privacy-connected-services",
+  "title": "Trial Features that Connect to Other Microsoft Services",
+  "blob": "3d3147dcd5d81b9cab052c3e2383239a561f08ee",
+  "summary": "Trial features that automatically connect to Microsoft services including Teams, OneDrive, Power Automate, Azure OpenAI for Copilot, Bing, and Microsoft Learn Platform. Manage these connections and understand data-sharing implications before use.",
+  "systems": [
+    "copilot",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "trial features",
+    "microsoft services",
+    "teams integration",
+    "onedrive integration",
+    "copilot",
+    "power automate",
+    "data residency"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item"
+    }
+  ],
+  "features": [
+    "Microsoft Teams integration",
+    "OneDrive integration",
+    "Power Automate integration",
+    "Azure OpenAI Service for Copilot",
+    "Bing autofill",
+    "Share to Teams action",
+    "Open in OneDrive action",
+    "Automate actions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008326,
+      "pages_in_call": 8
+    }
+  ]
+}

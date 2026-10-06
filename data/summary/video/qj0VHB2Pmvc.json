@@ -1,0 +1,28 @@
+{
+  "video_id": "qj0VHB2Pmvc",
+  "item_id": "video/yt-microsoft/qj0VHB2Pmvc",
+  "summary": "Enhanced Financial Reporting changes in the 2026 release wave 2, grouped by author, user and administrator features. It covers uncategorized account views, where-used for reports, totaling fact boxes, report packs with scheduling, automatic change log setup and report inbox APIs.",
+  "overview": "The video walks through new Business Central financial reporting features in three groups: features for report authors, for users, and for administrators. Each feature is demoed.\n\nAuthor features help with chart of accounts categorization and with building row and column definitions. User features add report packs that produce one PDF and can be scheduled. Administrator features cover automatic change log setup and new report inbox APIs. Two author features (preview and defaulting) are described as coming in a minor version of 29.",
+  "key_points": [
+    "Chart of accounts page gets two new saved views that find GL accounts with no category or a missing subcategory.",
+    "The where used action on the account card now includes which financial report definitions include that account.",
+    "Row definitions get a fact box listing the accounts covered by a totaling line filter, with navigation to the GL account list. Column definitions with GL account totaling filters get the same fact box.",
+    "Report packs run multiple reports in one operation and produce a single consolidated PDF. They support per-report custom filters and start/end date filters, and can be scheduled, for example weekly for a finance team meeting.",
+    "Change log is now set up automatically on all financial report definitions, covering reports, row definitions and column definitions. The log tables themselves are not set up.",
+    "New report inbox APIs let external systems work with scheduled reports, for example to trigger other automation or analyze the output with AI.",
+    "Announced for a minor version of 29: default column definition with a test button to preview a report from a row definition (and vice versa), and defaulting of new lines to the previously used settings."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer",
+    "end user"
+  ],
+  "extraction_hash": "71fd4a48817e6d55fc50512ae2bddd91fbd11d45194d9c040bb2d0949b4841b1",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.042814399999999996
+  }
+}

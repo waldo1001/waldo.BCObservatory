@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Sales Validation Sample Agent for Business Central",
   "url": "https://www.youtube.com/watch?v=MKuOgMWXJ_8",
-  "published_at": null,
+  "published_at": "2026-02-27T15:12:56.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:56:34.715Z",
+      "captions": "auto:en-orig",
+      "duration_s": 267
+    },
+    "captioned": {
+      "at": "2026-10-06T13:56:55.330Z",
+      "path": "data/captions/microsoft/MKuOgMWXJ_8.vtt",
+      "vtt_sha256": "7168afbe6dec145b7eb2acd3322738912f39f9a09764688d471f928a84a7467a",
+      "segments": 20,
+      "words": 732,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 119,
     "duration_s": 267,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7168afbe6dec145b7eb2acd3322738912f39f9a09764688d471f928a84a7467a"
 }

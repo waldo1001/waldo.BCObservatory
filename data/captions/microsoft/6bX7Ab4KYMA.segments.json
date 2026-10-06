@@ -1,0 +1,253 @@
+{
+  "video_id": "6bX7Ab4KYMA",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.5,
+      "end": 17,
+      "text": ">> Hello everyone and welcome to this Business Central Launch Edition session on the cloud migration tooling. My name is Joost. I'm the product owner for the cloud migration tooling and today I'm joined by my colleague Yeah, I'm Wenjie."
+    },
+    {
+      "t": 17,
+      "end": 29.1,
+      "text": "I'm the software engineer working on the cloud migration. All right. So today we're here to present three new features for the cloud migration tooling that we've worked on for the past year."
+    },
+    {
+      "t": 29.1,
+      "end": 43.4,
+      "text": "We've made some some significant changes to the cloud migration platform that now make it easier to migrate from different sources or with different tables. So today we'll present how you can create your own migration tool in your own app."
+    },
+    {
+      "t": 43.4,
+      "end": 55.2,
+      "text": "How you can re-implement from Business Central version 14 for customers that are stuck on older on-premise versions. And finally we'll show you how to do a migration setup without any code."
+    },
+    {
+      "t": 55.2,
+      "end": 71.7,
+      "text": "Firstly, we've launched the ability for developers to create their own migration tooling. Meaning that Business Central developer can write an app that defines the table mappings and setup data to migrate to Business Central from any SQL based source using the existing migration tooling."
+    },
+    {
+      "t": 71.7,
+      "end": 81.9,
+      "text": "Now to show you how it works, Wenjie. Thanks. Thanks Joost. I will introduce how to implement your own cloud migration tool. It's quite simple."
+    },
+    {
+      "t": 81.9,
+      "end": 96.6,
+      "text": "There are only two things. First, you need to provide your table mappings. There are two kind of table mappings. One is replication table mappings. It is defined to sorry, it defines which table will be moved to Business Central."
+    },
+    {
+      "t": 96.6,
+      "end": 110,
+      "text": "Another one is setup table mappings. It's similar but it will be replicated once connected to the on-premise database. So it can be used during the setup step"
+    },
+    {
+      "t": 110,
+      "end": 123.3,
+      "text": "Second, you need to remember to create a new table with company information in the source database. The table can be named as company or anything else you want but it must contain two fields."
+    },
+    {
+      "t": 123.3,
+      "end": 141.2,
+      "text": "One is name, another one is display name. The table must be created with a SQL script. For extensibility we created a new interface called customer migration provider to make it simpler to integrate."
+    },
+    {
+      "t": 141.2,
+      "end": 152.2,
+      "text": "After implementing this interface, you must extend the enum to make your cloud migration tool visible in our standard wizard page."
+    },
+    {
+      "t": 152.2,
+      "end": 162.5,
+      "text": "So just like ISVs can now build their own apps to migrate from any SQL based source. Within the Business Central team, we've developed our first custom migration tool ourselves."
+    },
+    {
+      "t": 162.5,
+      "end": 172.6,
+      "text": "This is the Business Central version 14 re-implementation tool which enables customers that are stuck on older on-premise versions to migrate to Business Central"
+    },
+    {
+      "t": 172.6,
+      "end": 184.4,
+      "text": "with only their core business data. This tool lets you move only a subset of your of the data and it replaces the process that some partners are going through with customers to migrate this data using configuration packages."
+    },
+    {
+      "t": 184.4,
+      "end": 199.7,
+      "text": "So this tool is good for customers that are stuck on older Business Central and NAV on-premise versions and it moves only a subset of their data. So some partners over the past years have migrated these customers using configuration packages giving them a clean start in SaaS."
+    },
+    {
+      "t": 199.7,
+      "end": 213.8,
+      "text": "But now using this tool, there's no need to use these configuration packages anymore. You can simply set this up, migrate the master data, select the transactional data opening balances and the essential setup data from the on-premise environment to get started in SaaS."
+    },
+    {
+      "t": 213.8,
+      "end": 224.8,
+      "text": "This is useful for customers that are looking for this fresh start and I can update their business processes to be more standardized in Business Central and leverage more of our AI and genetic features in the cloud."
+    },
+    {
+      "t": 224.8,
+      "end": 235.4,
+      "text": "Yeah. Then I will show how to use the the BC14 re-implementation tool in Business Central. First, we need to go to the"
+    },
+    {
+      "t": 235.4,
+      "end": 251.6,
+      "text": "cloud migration management page and then open the wizard page. Yeah, here you can see because we extend the enum, so we there is a new option called Business Central 14 re-implementation"
+    },
+    {
+      "t": 251.6,
+      "end": 264.6,
+      "text": "option here. So let's select this. Then next, we need to fill some SQL connection string."
+    },
+    {
+      "t": 264.6,
+      "end": 279,
+      "text": "Yeah. Once we connected to the on-premise database, we can find all the available companies. You can select one of them or you can also select all."
+    },
+    {
+      "t": 280,
+      "end": 291.4,
+      "text": "Then we need to move to cloud migration management page. Once we complete the setup at the very beginning, you can see the status it's"
+    },
+    {
+      "t": 291.4,
+      "end": 305.3,
+      "text": "it's waiting for creating companies. We need to wait for it. Yeah. Then once the creating complete we can start to run the replication."
+    },
+    {
+      "t": 305.3,
+      "end": 315.9,
+      "text": "Now it's it's in progress. It could take several minutes. Then here you can see the replication progress it's completed successfully."
+    },
+    {
+      "t": 315.9,
+      "end": 326.4,
+      "text": "Then the status is changed to upgrade in progress. This is because by default the upgrade the upgrade will be triggered automatically after migration."
+    },
+    {
+      "t": 326.4,
+      "end": 341.2,
+      "text": "But if you don't want that, you can also change it in the setting page. Yeah, then we need to wait for the complete of upgrade. And you can also find some details of the migration for every tables."
+    },
+    {
+      "t": 341.2,
+      "end": 351.8,
+      "text": "And you can also find how many lines it's successfully migrated. Then just to wait for several minutes and the upgrade progress will complete."
+    },
+    {
+      "t": 351.8,
+      "end": 364.8,
+      "text": "Yeah, now it's completed. So as you're getting ready to migrate your older customers on version 14, there's a few things that are good to know. Firstly, we only support this tool for migrations from Business Central version 14."
+    },
+    {
+      "t": 364.8,
+      "end": 380.7,
+      "text": "So no older or later versions than that. We intend to make this tool open source meaning that you can find the source code on GitHub. You can contribute to it to add or remove tables to migrate or you can extend it to also migrate tables from your ISV solutions."
+    },
+    {
+      "t": 380.7,
+      "end": 393.4,
+      "text": "This is built as a custom cloud migration tool. So it's built on the same platform that Wenjie just showed to migrate from any SQL based source and you can review the source code, learn from it and then build similar tools to migrate from other sources."
+    },
+    {
+      "t": 393.4,
+      "end": 407.4,
+      "text": "And finally it's good to mention that this is still work in progress. We're expecting to ship it in one of the first minor updates of version 28. Finally, we've also built the ability to migrate from any SQL source without writing any code with these new platform changes."
+    },
+    {
+      "t": 407.4,
+      "end": 417.5,
+      "text": "To do this, you can define custom table mappings in the cloud migration setup and migrate individual tables from your SQL source. This is useful if you're migrating individual tables ad hoc."
+    },
+    {
+      "t": 417.5,
+      "end": 437.7,
+      "text": "For example, if you're missing individual tables after completing the initial migration or if you want to do performance testing using real data. So you can imagine migrating some large tables that could be a concern for performance for prospective customer in the cloud to a sandbox environment and then test the performance of that environment using real data."
+    },
+    {
+      "t": 437.7,
+      "end": 453.1,
+      "text": "This no-code data migration from any SQL source is highly controlled. So you select the tables that you want to be copied and nothing else will be copied. And finally, it's good to mention that system tables that are inaccessible by AL code can still not be migrated using this tool."
+    },
+    {
+      "t": 453.1,
+      "end": 464.1,
+      "text": "So this has not been possible by other migration tools built on top of our cloud migration platform and it's not possible with this one either. So there's no changes there. Now to show you how this work, back to Wenjie."
+    },
+    {
+      "t": 464.1,
+      "end": 475.8,
+      "text": "I will show you how to use the non-code migration in Business Central. First, the same. We need to go to the cloud migration management page to enable the custom migration."
+    },
+    {
+      "t": 475.8,
+      "end": 490,
+      "text": "Then once it's enabled, we need to add some new table mappings. Yeah. Here we just select the tenant media table as an example."
+    },
+    {
+      "t": 490,
+      "end": 493.6,
+      "text": "Adding the map."
+    },
+    {
+      "t": 493.6,
+      "end": 502.2,
+      "text": "Yeah, then we also add another map for the tenant media set table."
+    },
+    {
+      "t": 502.6,
+      "end": 513.2,
+      "text": "Now we successfully added two table mappings and in this page we can find we also support the import and export. So you don't need to configure it every time."
+    },
+    {
+      "t": 513.2,
+      "end": 528.6,
+      "text": "You can export your configuration and then import it in a new tenant. Then once we complete the the mappings we can we need to start the wizard page."
+    },
+    {
+      "t": 528.6,
+      "end": 535.3,
+      "text": "And here we need to select the custom migration."
+    },
+    {
+      "t": 537.5,
+      "end": 547.9,
+      "text": "Then the same as before, we need to fill some SQL connection strings to connect to the on-premise database."
+    },
+    {
+      "t": 547.9,
+      "end": 552.1,
+      "text": "Then select companies."
+    },
+    {
+      "t": 552.1,
+      "end": 561,
+      "text": "Yeah, finally run the replication. And then it will automatically trigger the upgrade progress."
+    },
+    {
+      "t": 561,
+      "end": 573.7,
+      "text": "Here you can see it's completed. Then we can check how many tables are migrated. That concludes our session on cloud migration as part of the Business Central Launch Edition."
+    },
+    {
+      "t": 573.7,
+      "end": 589,
+      "text": "Thank you for watching and let us know what you think on Viva Engage. Wenjie, myself and other engineers working on these tools are actively engaging with partners there to hear your scenarios, get your feedback, answer your questions and get your ideas on how to improve this further."
+    },
+    {
+      "t": 589,
+      "end": 593.9,
+      "text": "Thank you. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 1479
+}

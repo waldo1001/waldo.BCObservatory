@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/qms-lot-blocking-unblocking.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/qms-lot-blocking-unblocking",
+  "title": "Block or unblock lots",
+  "blob": "56a38704d31e1e26df164431ef3bcac784a22c28",
+  "summary": "Block and unblock inventory lots, serial numbers, and packages automatically using workflows or based on quality inspection results. Control document-specific restrictions for sales, transfers, and other transactions.",
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "lot blocking",
+    "quality management",
+    "workflows",
+    "inventory control",
+    "non-compliant items"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Lot No. Information Card"
+    },
+    {
+      "type": "page",
+      "name": "Lot No. Information List"
+    },
+    {
+      "type": "page",
+      "name": "Serial No. Information Card"
+    },
+    {
+      "type": "page",
+      "name": "Package No. Information Card"
+    },
+    {
+      "type": "page",
+      "name": "Workflows"
+    }
+  ],
+  "features": [
+    "workflow-based blocking",
+    "result-based blocking",
+    "lot information cards",
+    "restriction controls",
+    "quality inspection selection criteria"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005231,
+      "pages_in_call": 8
+    }
+  ]
+}

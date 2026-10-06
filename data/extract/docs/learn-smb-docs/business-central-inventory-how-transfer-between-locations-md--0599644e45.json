@@ -1,0 +1,76 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-transfer-between-locations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-transfer-between-locations",
+  "title": "Transfer items between locations",
+  "blob": "9f8c873c58bbed482d62172713a3a8bfb8958f87",
+  "summary": "Transfer inventory items between locations using transfer orders or item reclassification journals. Support both standard multi-step transfers and direct transfers with optional in-transit tracking.",
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "transfer orders",
+    "item reclassification",
+    "direct transfers",
+    "in-transit location",
+    "warehouse handling",
+    "batch posting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Transfer Order"
+    },
+    {
+      "type": "page",
+      "name": "Posted Transfer Shipment"
+    },
+    {
+      "type": "page",
+      "name": "Item Reclassification Journals"
+    },
+    {
+      "type": "page",
+      "name": "Transfer Orders"
+    },
+    {
+      "type": "page",
+      "name": "Batch Post Transfer Order"
+    },
+    {
+      "type": "page",
+      "name": "Error Message Register"
+    },
+    {
+      "type": "page",
+      "name": "Job Queue Entries"
+    },
+    {
+      "type": "report",
+      "name": "Batch Post Transfer Orders"
+    }
+  ],
+  "features": [
+    "transfer order posting",
+    "undo shipment",
+    "batch transfer posting",
+    "job queue scheduling",
+    "direct transfer posting methods",
+    "in-transit location tracking",
+    "get bin content",
+    "get receipt lines",
+    "item charge assignment",
+    "serial lot number reclassification"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007547,
+      "pages_in_call": 8
+    }
+  ]
+}

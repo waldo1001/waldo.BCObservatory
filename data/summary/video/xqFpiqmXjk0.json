@@ -1,0 +1,26 @@
+{
+  "video_id": "xqFpiqmXjk0",
+  "item_id": "video/yt-microsoft/xqFpiqmXjk0",
+  "summary": "Production orders in Business Central manufacturing: statuses as commitment levels, creating an order from production BOM, routing and capacity setup, checking item availability by BOM level, and posting the production journal on a released order. Part of a Manufacturing Foundations series.",
+  "overview": "This five-minute video from the Manufacturing Foundations series walks through the life cycle of a production order. It starts with the statuses (simulated, planned, firm planned, released, finished) and shows how an order is created and refreshed from master data.\n\nIt then looks at the Components, Routing and Statistics functions, uses item availability by BOM level on a firm planned order, and ends on a released order where the production journal is reviewed and posted. Flushing methods and costing are left for the next video.",
+  "key_points": [
+    "Statuses are commitment levels: simulated is a safe sandbox, planned is a production suggestion, firm planned follows approval, released goes to the shop floor, and finished closes the order for cost analysis.",
+    "On refresh, the production BOM becomes component demand, the routing becomes operations, and the calendar and capacity setup becomes scheduled start and finish times.",
+    "The Components, Routing and Statistics functions show required components, scheduled operations with routing link code and times, and expected costs and capacity needs before release.",
+    "Once an order is firm planned, item availability by BOM level shows for each component how many are needed and available, how many parent items can be produced, and which component is the bottleneck.",
+    "The production journal on a released order lists components to consume, uses the routing link code to show where each is consumed, and lets the operator adjust quantities and operational times.",
+    "Posting the production journal consumes components, accounts for capacity usage, and produces inventory, capacity and cost postings.",
+    "Flushing methods and costing are covered in a later video."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user"
+  ],
+  "extraction_hash": "a277f4b706c3287ef3c670fea0cdb132c8f304747378146f5c2fd4290e19a9ca",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.042654399999999995
+  }
+}

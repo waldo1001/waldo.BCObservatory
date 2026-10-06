@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Enhanced MCP Server (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=0WAOtNaKjws",
-  "published_at": null,
+  "published_at": "2026-04-01T12:00:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:54:14.045Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1082
+    },
+    "captioned": {
+      "at": "2026-10-06T13:54:36.161Z",
+      "path": "data/captions/microsoft/0WAOtNaKjws.vtt",
+      "vtt_sha256": "cb88ecd1ddfd397bf062d278e291b08c2d600750e72e2614314c586d382da66a",
+      "segments": 78,
+      "words": 2764,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 111,
     "duration_s": 1082,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cb88ecd1ddfd397bf062d278e291b08c2d600750e72e2614314c586d382da66a"
 }

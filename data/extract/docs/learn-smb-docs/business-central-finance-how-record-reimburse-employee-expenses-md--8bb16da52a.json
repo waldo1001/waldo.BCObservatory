@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-record-reimburse-employee-expenses.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-record-reimburse-employee-expenses",
+  "title": "Record and reimburse employees' expenses",
+  "blob": "13a31a5921928bd4b25e8e61a28980e7040a988d",
+  "summary": "Record and reimburse employee expenses by posting to employee accounts and making payments through the Payment Journal, with support for foreign currency and withholding tax.",
+  "systems": [
+    "finance",
+    "hr"
+  ],
+  "topics": [
+    "employee expenses",
+    "reimbursement",
+    "payment journal",
+    "withholding tax"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Journals"
+    },
+    {
+      "type": "page",
+      "name": "Employee Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Posted Expense Report"
+    },
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journals"
+    }
+  ],
+  "features": [
+    "Expense posting",
+    "Employee reimbursement",
+    "Foreign currency support",
+    "Withholding tax calculation",
+    "Payment reconciliation",
+    "Reimbursement notifications"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005432,
+      "pages_in_call": 8
+    }
+  ]
+}

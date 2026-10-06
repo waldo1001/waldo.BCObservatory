@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-financial-reporting-auditing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-auditing",
+  "title": "Auditing and financial reporting",
+  "blob": "9e9e3d8ba03b55729dd1beef409b93de42ce1215",
+  "summary": "Monitor changes to financial report definitions using the change log and telemetry, control access through permission sets, and receive notifications when definitions change.",
+  "systems": [
+    "reporting",
+    "administration",
+    "finance"
+  ],
+  "topics": [
+    "financial reporting",
+    "auditing",
+    "change log",
+    "permissions",
+    "telemetry"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Report Definition"
+    },
+    {
+      "type": "table",
+      "name": "Row Definition"
+    },
+    {
+      "type": "table",
+      "name": "Row Definition lines"
+    },
+    {
+      "type": "table",
+      "name": "Column Definition"
+    },
+    {
+      "type": "table",
+      "name": "Column Definition lines"
+    }
+  ],
+  "features": [
+    "Change monitoring",
+    "Change notifications",
+    "Telemetry tracking",
+    "Permission control",
+    "Definition auditing"
+  ],
+  "versions": [
+    "2026 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005432,
+      "pages_in_call": 8
+    }
+  ]
+}

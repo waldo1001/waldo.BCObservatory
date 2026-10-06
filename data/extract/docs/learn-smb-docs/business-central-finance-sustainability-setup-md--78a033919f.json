@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-sustainability-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-sustainability-setup",
+  "title": "Set up sustainability features",
+  "blob": "6e81d2c8d9a2f4afa47ac1749e117e39a1b3cfe2",
+  "summary": "Sustainability setup configures units of measure, decimal places, emissions in procurement, carbon fees, and responsibility centers for effective sustainability tracking.",
+  "systems": [
+    "sustainability",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "setup configuration",
+    "unit of measure",
+    "carbon fees",
+    "responsibility center"
+  ],
+  "objects": [],
+  "features": [
+    "Emission unit of measure configuration",
+    "Waste and water unit setup",
+    "Decimal place settings",
+    "Background error checking",
+    "Carbon fee calculation",
+    "Carbon equivalent factors",
+    "Procurement emissions",
+    "Dataverse integration",
+    "Value chain tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007148,
+      "pages_in_call": 8
+    }
+  ]
+}

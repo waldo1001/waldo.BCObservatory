@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/match-purchase-invoice-drafts-to-orders.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/match-purchase-invoice-drafts-to-orders",
+  "title": "Match Purchase Invoice Drafts to Purchase Orders",
+  "blob": "b31efbee7a84e26f9a6a89af20e4f3784e6769a4",
+  "summary": "Match incoming purchase invoice drafts to purchase orders in Business Central. Review and match draft lines to order lines and receipts, understand order-match warnings, specify receipt lines, and finalize invoices before posting with persistent order and receipt links.",
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "topics": [
+    "purchase invoices",
+    "e-documents",
+    "order matching",
+    "invoice drafts",
+    "payables",
+    "receipt handling"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase document draft"
+    },
+    {
+      "type": "page",
+      "name": "Available Purchase Order Lines"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    }
+  ],
+  "features": [
+    "Purchase order matching",
+    "Draft line to order line matching",
+    "Receipt specification",
+    "Order-match warnings",
+    "Unit of measure validation",
+    "Quantity validation",
+    "Price difference detection",
+    "Receipt on Invoice",
+    "Item tracking",
+    "Batch submission",
+    "Manual review process"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008326,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "video_id": "UFLo2XGGS14",
+  "item_id": "video/yt-microsoft/UFLo2XGGS14",
+  "summary": "Agentic developer loop in Business Central (2026 release wave 2): an AI agent combines the AL language server, a snapshot debugging MCP server and a sampling profiling MCP server to investigate production errors and slow sessions. Feature status is not stated in the facts.",
+  "overview": "The video describes the agentic developer loop: a developer prompts an agent about a production problem, and the agent reads the source, collects runtime evidence from the real environment, and uses it to explain and fix the issue. Three pieces work together: the AL language server protocol for code understanding, a snapshot debugging MCP server, and a sampling profiling MCP server.\n\nDemos cover capturing snapshots with call stacks and variables, profiling a session by its Business Central session ID, and having the agent pick a target from telemetry. Setup is shown through the AL tool acting as an MCP proxy and through launch.json configuration in Visual Studio Code.",
+  "key_points": [
+    "The snapshot debugging MCP server is built into the standard Business Central MCP infrastructure. The MCP server must be configured for the Business Central environment.",
+    "The AL tool acts as an MCP host for the Business Central MCP server and as an MCP server for local clients.",
+    "In Visual Studio Code, Business Central is configured as an MCP target in launch.json. The extension registers and starts the snapshot MCP proxy and reuses the existing AI development sign-in.",
+    "The agent can use the AL language server (definitions, types, symbols, implementations, callers) to place snap points more effectively than text search.",
+    "Sampling profiling needs a numeric Business Central session ID, which can come from the help and support page or be inferred by the agent from telemetry. It returns CPU profile files with activity duration, CQL calls, HTTP calls and memory information.",
+    "Profiling permissions: create profile schedules and read performance profile for your own session, or D365 attach debug for other sessions.",
+    "In the demo, the profile showed 30,000 CQL statements in 5 seconds, tied to the methods that issued them. Agents can also poll telemetry to trigger snapshots or profiling, with a configurable polling interval that is longer in production than in the demo."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "e56a4a674d8de31ecd35b3cd5c52e1f2837aa2726e838afcd818597c4a9184e8",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0451604
+  }
+}

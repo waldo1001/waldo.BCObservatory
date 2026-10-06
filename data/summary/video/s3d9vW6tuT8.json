@@ -1,0 +1,28 @@
+{
+  "video_id": "s3d9vW6tuT8",
+  "item_id": "video/yt-microsoft/s3d9vW6tuT8",
+  "summary": "Travel Request in Expense Agent (2026 release wave 2): an optional way for employees to ask for approval to spend before travel, with line items, foreign currency budgeting, and a link from posted GL entries back to the request. Demoed in the Business Central client.",
+  "overview": "The video walks through the Travel Request feature of Expense Agent. An employee submits a request with amount, dates, destination and purpose, and a manager approves it. The company gets an overview of expected expenses and an audit trail once expenses are posted.\n\nThe demo covers creating a basic request, adding line items by category with a currency per line, entering and posting the expense report, and checking the posted report. It ends with budgeting in a foreign currency for volatile markets. At recording time the web app and phone app versions were not ready.",
+  "key_points": [
+    "Travel Request is entirely optional; it gives employees a way to ask for permission to spend and gives the company an overview of expected expenses.",
+    "A request holds amount, dates, destination and purpose for manager approval; it can also list several travelers.",
+    "Line items can be split by category such as flight and hotel, with a currency set per line; euro amounts are translated into local currency.",
+    "Posting the expense report creates GL entries that are linked back to the travel request, which helps in an audit, and employee ledger entries for the reimbursement.",
+    "Foreign currency budgeting lets you budget in a currency such as Swiss franc and run an action to update local currency amounts, useful with volatile currency or high inflation.",
+    "Automatic expense report creation applies only when the request is made in the expense agent web or phone app, not in the Business Central client.",
+    "The web app and phone app versions of Travel Request were not ready when the video was recorded; the same functionality is to come there."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "4c512dcfbb0a0370037a8f1f054b8dda8ab3c883a503233e7ce8a9d64590198f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0414404
+  }
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-record-reimburse-employee-expenses",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "13a31a5921928bd4b25e8e61a28980e7040a988d",
       "words": 550,
       "forms": 8
+    },
+    "extracted": {
+      "at": "2026-10-06T13:46:45.125Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.005432
+    },
+    "summarized": {
+      "at": "2026-10-06T13:46:45.132Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:46:45.133Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:46:45.133Z",
+      "page": false
     }
   },
   "input_hash": "13a31a5921928bd4b25e8e61a28980e7040a988d",
@@ -78,5 +97,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "13a31a5921928bd4b25e8e61a28980e7040a988d"
+  "output_hash": "14f6f02e2787cce4328abbbed920811224beadca5165191c66a0737233ecbf8b"
 }

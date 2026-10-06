@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/quick-start-reports-and-documents",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "53b6c1cbf1c2ee362317ed3b9e95f24bfe6bfd43",
       "words": 646,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:59:13.074Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.007092
+    },
+    "summarized": {
+      "at": "2026-10-06T13:59:13.077Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:59:13.077Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:59:13.077Z",
+      "page": false
     }
   },
   "input_hash": "53b6c1cbf1c2ee362317ed3b9e95f24bfe6bfd43",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "53b6c1cbf1c2ee362317ed3b9e95f24bfe6bfd43"
+  "output_hash": "b8e5e255d1112858e07fb8b236fed11b999fffb4ec4a78a6ccdb143a73f00695"
 }

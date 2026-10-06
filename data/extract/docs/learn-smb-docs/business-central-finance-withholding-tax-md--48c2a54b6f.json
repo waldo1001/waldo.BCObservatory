@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-withholding-tax.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-withholding-tax",
+  "title": "Calculate withholding tax for vendors",
+  "blob": "c52aad0815a334164c47a3abd92abff4f7f85a7d",
+  "summary": "Calculate and manage withholding tax for purchase invoices and orders based on vendor, item, and G/L account setup. The system automatically calculates tax amounts withheld from vendor payments when thresholds are met.",
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "withholding tax",
+    "vendor setup",
+    "purchase invoices",
+    "purchase orders",
+    "tax calculation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    }
+  ],
+  "features": [
+    "withholding tax calculation",
+    "withholding tax liable toggle",
+    "withholding tax business posting group",
+    "minimum threshold configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007547,
+      "pages_in_call": 8
+    }
+  ]
+}

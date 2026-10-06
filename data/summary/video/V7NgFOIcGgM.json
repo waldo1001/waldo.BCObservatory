@@ -1,0 +1,29 @@
+{
+  "video_id": "V7NgFOIcGgM",
+  "item_id": "video/yt-microsoft/V7NgFOIcGgM",
+  "summary": "Microsoft Copilot Chat in Business Central, coming to all users in the 2026 release wave 2, answers natural language questions using Business Central and web data. The video covers the agentic loop, MCP server basis, permission enforcement, citations and admin control, with two demos.",
+  "overview": "The session introduces the new Microsoft Copilot Chat for Business Central, which Microsoft says will reach all users with the 2026 release wave 2. Two demos show a multi-source query (top items by price with currency conversion) and a vague query where \"S100\" is resolved to the item \"S100 semi-automatic\".\n\nThe second half explains how Copilot works: intent detection from conversation history, then an agentic loop that iterates over multiple tools and data sources instead of a single attempt. A Q&A covers permissions, the Business Central MCP server, citations and how to verify answers, and how users send feedback.",
+  "key_points": [
+    "Copilot runs as the authenticated user and respects Business Central permissions, so it cannot access data the user may not view.",
+    "Admins control who gets Copilot features through a Copilot and Agent Capabilities page, where they can opt in or opt out of AI features.",
+    "Copilot uses an agentic loop: it iterates through multiple tools and data sources rather than making one attempt to find the answer.",
+    "The underlying technology is the Microsoft Business Central MCP server, which gives access to all tables, including data from extensions and customizations, without custom APIs.",
+    "Answers include clickable citation pills that open the source data in Business Central, and a sources button at the end lists all data accessed.",
+    "Copilot can combine Business Central data with web data, work data, calendar, Outlook, SharePoint and agents built with Microsoft tools.",
+    "It can pull context from the page the user is viewing, keeps conversation context, suggests follow-up questions and can return charts and tables."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "developer",
+    "partner",
+    "decision maker"
+  ],
+  "extraction_hash": "dc68905a5435148fffc3416fa4e4736f34533b71d97333d1c085c7427795a2c9",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0457924
+  }
+}

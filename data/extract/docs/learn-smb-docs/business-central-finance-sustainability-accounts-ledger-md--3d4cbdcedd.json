@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-sustainability-accounts-ledger.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-sustainability-accounts-ledger",
+  "title": "Chart of sustainability accounts and ledger",
+  "blob": "f59ac3ca756d1ab7e7900c3d5dc7f65ea17da117",
+  "summary": "Chart of sustainability accounts organizes emissions, water, and waste data with categories and subcategories defining scopes, calculation methods, and emission factors for ledger posting.",
+  "systems": [
+    "sustainability",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "chart of accounts",
+    "sustainability accounting",
+    "emission factors",
+    "ledger entries"
+  ],
+  "objects": [],
+  "features": [
+    "Chart of sustainability accounts (CoSA)",
+    "Account categories and subcategories",
+    "Emission scope classification",
+    "Calculation foundation configuration",
+    "Emission factor management",
+    "Sustainability ledger entries",
+    "Entry reversal",
+    "Dimension filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007148,
+      "pages_in_call": 8
+    }
+  ]
+}

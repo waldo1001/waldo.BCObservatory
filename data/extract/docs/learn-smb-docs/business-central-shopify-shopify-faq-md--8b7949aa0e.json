@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/shopify/shopify-faq.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-faq",
+  "title": "FAQ for technical details",
+  "blob": "918ce726ac5f0d12011824c2512a92b4351df48a",
+  "summary": "Technical FAQ about the Shopify Connector covering product compatibility, supported API versions, extensibility model, and quarterly API deprecation management for Business Central online.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "shopify connector",
+    "graphql api",
+    "extensibility",
+    "api versioning",
+    "technical faq"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Shpfy Orders"
+    },
+    {
+      "type": "codeunit",
+      "name": "Shpfy Metafields"
+    },
+    {
+      "type": "codeunit",
+      "name": "Shpfy Product"
+    }
+  ],
+  "features": [
+    "GraphQL Admin API",
+    "API versioning",
+    "extensibility",
+    "integration events",
+    "public façade codeunits",
+    "extensible enums"
+  ],
+  "versions": [
+    "2026 release wave 1",
+    "2026 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007092,
+      "pages_in_call": 7
+    }
+  ]
+}

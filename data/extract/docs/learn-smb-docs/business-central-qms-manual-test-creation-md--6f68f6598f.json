@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/qms-manual-test-creation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/qms-manual-test-creation",
+  "title": "Work with quality inspections",
+  "blob": "5fb21c280998a1eda58905ce4eaa65e93d01b2b3",
+  "summary": "Create and perform quality inspections from templates, source records, or automatic triggers. Assign inspections to users, enter test values, finish inspections, print reports, and create reinspections.",
+  "systems": [
+    "inventory"
+  ],
+  "topics": [
+    "quality management",
+    "inspections",
+    "testing",
+    "templates",
+    "quality control"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Quality Inspections"
+    },
+    {
+      "type": "page",
+      "name": "Quality Inspection Templates"
+    },
+    {
+      "type": "page",
+      "name": "Item Tracking Lines"
+    }
+  ],
+  "features": [
+    "inspection templates",
+    "test values",
+    "result calculation",
+    "inspection reports",
+    "reinspections",
+    "ownership assignment",
+    "attachments"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005231,
+      "pages_in_call": 8
+    }
+  ]
+}

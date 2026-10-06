@@ -1,0 +1,25 @@
+{
+  "video_id": "WL3m2dffwU8",
+  "item_id": "video/yt-microsoft/WL3m2dffwU8",
+  "flags": [
+    "quote-check"
+  ],
+  "verdict": "fix",
+  "issues": [
+    "The 3 kept quotes are in the transcript. Quote 34.2 differs only in case and punctuation, and quote 189.7 runs on into segment 203.2. Both are acceptable.",
+    "The summary called the video a 4-minute demo, but it runs 214 seconds (about 3.5 minutes), so I rewrote that part.",
+    "No quote backed the Work IQ license condition, so I added one from segment 49.5.",
+    "I left all feature statuses as unclear. 'You have access to this feature in your newest Business Central' says the feature is available, but it does not say whether it is preview or GA."
+  ],
+  "applied": [
+    "quote at 50s",
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.119024
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "video_id": "GEuUFcgFZF0",
+  "item_id": "video/yt-microsoft/GEuUFcgFZF0",
+  "title": "Manufacturing Foundations BOM (2026)",
+  "duration_s": 298,
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "bill of materials",
+    "bom",
+    "production order",
+    "assembly",
+    "replenishment",
+    "components",
+    "bom versions",
+    "phantoms",
+    "routings",
+    "costing"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Bill of Materials",
+      "t_start": 0,
+      "t_end": 27.8
+    },
+    {
+      "title": "Item Card and Replenishment Methods",
+      "t_start": 27.8,
+      "t_end": 58.8
+    },
+    {
+      "title": "Production BOM Structure and Components",
+      "t_start": 58.8,
+      "t_end": 100.3
+    },
+    {
+      "title": "BOM Organization and Where-Used Analysis",
+      "t_start": 100.3,
+      "t_end": 139.8
+    },
+    {
+      "title": "BOM Versions and Version Management",
+      "t_start": 139.8,
+      "t_end": 197.3
+    },
+    {
+      "title": "Production Orders and Component Selection",
+      "t_start": 197.3,
+      "t_end": 256.4
+    },
+    {
+      "title": "BOM Impact on Cost Control and Manufacturing",
+      "t_start": 256.4,
+      "t_end": 298
+    }
+  ],
+  "features": [
+    {
+      "name": "Bill of Materials definition",
+      "description": "The BOM is the list that defines the components required to produce an item. It acts as a recipe and drives material planning, consumption, and costing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 13.6,
+      "t_end": 85.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "bom",
+        "components",
+        "recipes",
+        "material planning"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production order replenishment",
+      "description": "Items can be replenished through production order when you need multi-step operations, machine centers, or capacity planning with associated BOMs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 34.8,
+      "t_end": 72.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "replenishment",
+        "production order",
+        "capacity planning"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Assembly replenishment",
+      "description": "Assembly is used for straightforward processes and simple labor-only work, with an associated BOM defining the components.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 58.8,
+      "t_end": 72.8,
+      "is_demoed": false,
+      "caveats": [
+        "Used only for simple labor-only processes"
+      ],
+      "tags": [
+        "assembly",
+        "replenishment",
+        "simple labor"
+      ],
+      "system": "assembly"
+    },
+    {
+      "name": "BOM formulas for units of measure",
+      "description": "You can use formulas for standardized units of measure in BOM component quantities, allowing flexible quantity calculations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 85.2,
+      "t_end": 100.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "bom",
+        "formulas",
+        "units of measure"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Where-used analysis",
+      "description": "For each item listed on the bill of materials, you can see where it is used using the where-used action.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 116,
+      "t_end": 129.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "where-used",
+        "bom",
+        "traceability"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "BOM item versions with ending dates",
+      "description": "You can set ending dates for item versions in a BOM, allowing transition from pre-produced items to production BOMs on a specific date without major alterations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 139.8,
+      "t_end": 171.2,
+      "is_demoed": true,
+      "caveats": [
+        "Used for managing transitions between item and BOM versions"
+      ],
+      "tags": [
+        "bom versions",
+        "ending dates",
+        "item transitions"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Phantom BOMs",
+      "description": "Phantom BOMs allow you to replace pre-produced items with production BOMs from a specific date onward without major alterations to the main product.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 156.2,
+      "t_end": 171.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "phantom bom",
+        "bom versions",
+        "production changes"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production BOM version management",
+      "description": "You can define multiple versions of a production BOM with different starting dates, so production automatically picks the correct BOM based on the production date.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 171.2,
+      "t_end": 197.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "bom versions",
+        "version management",
+        "production dates"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production BOM version comparison",
+      "description": "You can compare different versions of a single production BOM to see how the components vary across versions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 186.3,
+      "t_end": 197.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "bom versions",
+        "comparison",
+        "analysis"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production order creation from BOM",
+      "description": "Production orders automatically populate component lines and routings by refreshing the order, pulling from the appropriate BOM version based on the due date.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 212.8,
+      "t_end": 256.4,
+      "is_demoed": true,
+      "caveats": [
+        "Version selection is automatic based on due date but can be manually overridden"
+      ],
+      "tags": [
+        "production order",
+        "bom",
+        "automation",
+        "components"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production order components action",
+      "description": "The components action in a production order allows exploration of which items are required for production of each product line.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 256.4,
+      "t_end": 270.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "production order",
+        "components",
+        "visibility"
+      ],
+      "system": "manufacturing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item Card",
+      "t": 27.8
+    },
+    {
+      "type": "other",
+      "name": "Production BOM",
+      "t": 72.8
+    },
+    {
+      "type": "other",
+      "name": "Where Used action",
+      "t": 116
+    },
+    {
+      "type": "other",
+      "name": "Production BOM version comparison",
+      "t": 186.3
+    },
+    {
+      "type": "table",
+      "name": "Production Order",
+      "t": 212.8
+    },
+    {
+      "type": "other",
+      "name": "Components action",
+      "t": 256.4
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 13.6,
+      "text": "The bill of materials, also called BOM, is the list that defines the components required to produce an item.",
+      "why_it_matters": "Core definition of the BOM concept central to the entire manufacturing process.",
+      "check": "exact"
+    },
+    {
+      "t": 58.8,
+      "text": "Choose production order when you need multi-step operations, machine centers, or capacity planning.",
+      "why_it_matters": "Clarifies when to use production order versus assembly for replenishment, a key design decision.",
+      "check": "snapped"
+    },
+    {
+      "t": 85.2,
+      "text": "BOM acts as the recipe and drives material planning, consumption, and costing.",
+      "why_it_matters": "Explains the fundamental role of BOMs in manufacturing operations and their impact on business outcomes.",
+      "check": "exact"
+    },
+    {
+      "t": 139.8,
+      "text": "The item version of reservoir assembly has an ending date of 1st of June, when the production BOM version starts being used.",
+      "why_it_matters": "Demonstrates how BOM versions enable controlled transitions between different manufacturing approaches without disruption.",
+      "check": "exact"
+    },
+    {
+      "t": 171.2,
+      "text": "For more complex modifications, you can define new versions and their starting date, so that production will pick the correct production BOM.",
+      "why_it_matters": "Shows the flexibility of BOM versioning for managing product changes and evolution over time.",
+      "check": "exact"
+    },
+    {
+      "t": 225.7,
+      "text": "Once those fields are defined, we can refresh the production order to automatically populate the order lines with components and routings.",
+      "why_it_matters": "Demonstrates automation in production order creation that pulls BOM components and routings based on due date.",
+      "check": "exact"
+    },
+    {
+      "t": 270.7,
+      "text": "An accurate bill of material definition improves cost visibility and gives you better control over costs and product changes as your business evolves.",
+      "why_it_matters": "Summarizes the strategic value of accurate BOMs for cost control and organizational agility.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 11
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0535992
+    }
+  ]
+}

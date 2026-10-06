@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/france-local-functionality",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9265e0c565dab86c1d69a1f1bfbf891056c65ed4",
       "words": 346,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:51:07.569Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007547
+    },
+    "summarized": {
+      "at": "2026-10-06T13:51:07.575Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:51:07.575Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:51:07.576Z",
+      "page": false
     }
   },
   "input_hash": "9265e0c565dab86c1d69a1f1bfbf891056c65ed4",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9265e0c565dab86c1d69a1f1bfbf891056c65ed4"
+  "output_hash": "666935fce63223f60964e066f13db5806d6fd5898b2aeaaa7d439d4cdfaa78fc"
 }

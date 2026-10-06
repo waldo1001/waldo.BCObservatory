@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-to-combine-receipts",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "41da97c2414b42e3991fe873481d6dbed9a77d24",
       "words": 886,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T13:54:44.437Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005231
+    },
+    "summarized": {
+      "at": "2026-10-06T13:54:44.440Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:54:44.440Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:54:44.440Z",
+      "page": false
     }
   },
   "input_hash": "41da97c2414b42e3991fe873481d6dbed9a77d24",
@@ -65,5 +84,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "41da97c2414b42e3991fe873481d6dbed9a77d24"
+  "output_hash": "b619eec43aff0a076c9e01c29afba1a6f4f7946890cba8c4f44b2961561d1549"
 }

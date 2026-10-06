@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/fa-how-trans-split-combine.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-trans-split-combine",
+  "title": "Reclassify fixed assets",
+  "blob": "57cb3c47e5be77691e0bbee591726ab6b443dcbb",
+  "summary": "Transfer, split, or combine fixed assets across departments using the Fixed Asset Reclassification Journal to redistribute acquisition costs, depreciation, and emissions.",
+  "systems": [
+    "fixed-assets",
+    "finance"
+  ],
+  "topics": [
+    "fixed assets",
+    "reclassification",
+    "transfer",
+    "depreciation",
+    "sustainability"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Fixed Asset Reclassification Journals"
+    },
+    {
+      "type": "page",
+      "name": "FA G/L Journals"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset Book Value 02"
+    }
+  ],
+  "features": [
+    "Asset transfer",
+    "Asset splitting",
+    "Asset combining",
+    "Cost reclassification",
+    "Depreciation reclassification",
+    "Emission transfer"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005432,
+      "pages_in_call": 8
+    }
+  ]
+}

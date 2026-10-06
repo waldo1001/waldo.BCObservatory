@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: How To Create Agents in Business Central",
   "url": "https://www.youtube.com/watch?v=moPzf04Mwlc",
-  "published_at": null,
+  "published_at": "2026-02-27T15:12:54.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:56:39.855Z",
+      "captions": "auto:en-orig",
+      "duration_s": 460
+    },
+    "captioned": {
+      "at": "2026-10-06T13:57:01.674Z",
+      "path": "data/captions/microsoft/moPzf04Mwlc.vtt",
+      "vtt_sha256": "ac18c70ff98f54db6b4436f19ea7d5db09913f64eda92c1ca19a4e528e39c4de",
+      "segments": 36,
+      "words": 1276,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 120,
     "duration_s": 460,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ac18c70ff98f54db6b4436f19ea7d5db09913f64eda92c1ca19a4e528e39c4de"
 }

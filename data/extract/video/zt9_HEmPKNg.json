@@ -1,0 +1,344 @@
+{
+  "video_id": "zt9_HEmPKNg",
+  "item_id": "video/yt-microsoft/zt9_HEmPKNg",
+  "title": "Manufacturing Foundations Capacities (2026)",
+  "duration_s": 355,
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "work centers",
+    "machine centers",
+    "shop calendar",
+    "work shifts",
+    "production scheduling",
+    "capacity planning",
+    "holidays",
+    "work center groups",
+    "machine center flushing",
+    "production order"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and capacity overview",
+      "t_start": 0,
+      "t_end": 27.2
+    },
+    {
+      "title": "Work shifts as building blocks",
+      "t_start": 27.2,
+      "t_end": 41.4
+    },
+    {
+      "title": "Shop calendars and shift combinations",
+      "t_start": 41.4,
+      "t_end": 69.4
+    },
+    {
+      "title": "Work centers and work center groups",
+      "t_start": 69.4,
+      "t_end": 105.4
+    },
+    {
+      "title": "Work center posting and scheduling settings",
+      "t_start": 105.4,
+      "t_end": 150.3
+    },
+    {
+      "title": "Machine centers and consolidated calendars",
+      "t_start": 150.3,
+      "t_end": 194.2
+    },
+    {
+      "title": "Work center calendar matrix and capacity calculations",
+      "t_start": 194.2,
+      "t_end": 274.8
+    },
+    {
+      "title": "Production order scheduling demonstration",
+      "t_start": 274.8,
+      "t_end": 319.3
+    },
+    {
+      "title": "Summary and closing",
+      "t_start": 319.3,
+      "t_end": 355
+    }
+  ],
+  "features": [
+    {
+      "name": "Work shifts",
+      "description": "Reusable labels assigned to working days in a shop calendar to define shop floor operating hours. Contoso Coffee uses code one for first shift and code two for second shift.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 27.2,
+      "t_end": 41.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "work shifts",
+        "shop calendar",
+        "scheduling"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Shop calendars",
+      "description": "Combine shifts with working days to define when shop floor operates. Support multiple shifts per day and holiday definitions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 41.4,
+      "t_end": 81.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "shop calendar",
+        "scheduling",
+        "holidays"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Work center groups",
+      "description": "Higher organizational rank for work centers used for reporting and cost aggregation. Every work center belongs to exactly one group.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 93.6,
+      "t_end": 116.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "work centers",
+        "costing",
+        "organization"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Work center posting settings",
+      "description": "Operational fields on posting tab include direct unit cost, indirect cost percentage, and overhead rate that add to unit cost.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 116.7,
+      "t_end": 127.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "work centers",
+        "costing",
+        "posting"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Work center scheduling configuration",
+      "description": "Scheduling tab allows definition of unit of measure, capacity, efficiency, and shop calendar assignment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 127.2,
+      "t_end": 139,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "work centers",
+        "scheduling",
+        "capacity"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Machine centers",
+      "description": "Represent individual machines or stations and are always part of a work center. Inherit calendar from parent but have their own capacity, efficiency, and routing setups.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 150.3,
+      "t_end": 162,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "machine centers",
+        "work centers",
+        "scheduling"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Consolidated calendar for work centers",
+      "description": "When activated, work center capacity is computed as the sum of its machine centers instead of being defined by the work center card.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 162,
+      "t_end": 179.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "work centers",
+        "machine centers",
+        "capacity calculation"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Work center calendar calculation",
+      "description": "Calculate work center calendar to generate capacity matrix showing available production time based on shop calendar, shifts, and holidays.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 179.1,
+      "t_end": 208.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "capacity planning",
+        "scheduling",
+        "calendar"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Work center calendar matrix",
+      "description": "Shows capacity values in minutes based on shop calendar, including effects of efficiency settings and holidays. Calculates weekly and daily effective capacity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 208.6,
+      "t_end": 264.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "capacity planning",
+        "calendar matrix",
+        "scheduling"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production order scheduling",
+      "description": "System calculates when production must start and finish based on work center capacities, routings, and shop calendar. Accounts for maintenance windows and non-working days.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 282.3,
+      "t_end": 319.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "production order",
+        "scheduling",
+        "capacity"
+      ],
+      "system": "manufacturing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Work Center",
+      "t": 12.2
+    },
+    {
+      "type": "table",
+      "name": "Machine Center",
+      "t": 12.2
+    },
+    {
+      "type": "table",
+      "name": "Work Shift",
+      "t": 12.2
+    },
+    {
+      "type": "table",
+      "name": "Shop Calendar",
+      "t": 12.2
+    },
+    {
+      "type": "table",
+      "name": "Production Order",
+      "t": 282.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Unknown narrator",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 12.2,
+      "text": "On Business Central, by clicking into capacities, you can access work centers, machine centers, and related setup pages that drives production scheduling.",
+      "why_it_matters": "States the core objects and pages available in the capacity model entry point in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 27.2,
+      "text": "Work shifts are the smallest building blocks. Contoso has two shifts, code one for the first shift, and code two for the second shift.",
+      "why_it_matters": "Establishes work shifts as the foundational building block of capacity definition.",
+      "check": "exact"
+    },
+    {
+      "t": 69.4,
+      "text": "A work center using two shifts can schedule 16 hours per day instead of eight.",
+      "why_it_matters": "Demonstrates the practical impact of shift configuration on available production capacity.",
+      "check": "exact"
+    },
+    {
+      "t": 105.4,
+      "text": "Every work center belongs to exactly one group and are useful for costing.",
+      "why_it_matters": "Defines the mandatory relationship between work centers and groups with costing purpose.",
+      "check": "exact"
+    },
+    {
+      "t": 228.4,
+      "text": "Our weekly capacity the work center 200 is 2,400 minutes of effective capacity.",
+      "why_it_matters": "Shows how calendar matrix quantifies capacity in minutes for scheduling.",
+      "check": "exact"
+    },
+    {
+      "t": 295.3,
+      "text": "Once we click refresh production order, the system calculates when production must start and finish.",
+      "why_it_matters": "Describes the mechanism by which production orders are scheduled against capacity.",
+      "check": "exact"
+    },
+    {
+      "t": 319.3,
+      "text": "Business Central uses calendar entries for scheduling your production against your capacities.",
+      "why_it_matters": "Explains the role of calendar entries in the scheduling algorithm.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.033085
+    }
+  ]
+}

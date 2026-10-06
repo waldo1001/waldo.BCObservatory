@@ -1,0 +1,330 @@
+{
+  "video_id": "npkC4wyucyY",
+  "item_id": "video/yt-microsoft/npkC4wyucyY",
+  "title": "What's new in BC-Bench (2026 release wave 2)",
+  "duration_s": 887,
+  "systems": [
+    "development",
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "benchmarking",
+    "ai coding agents",
+    "bug fixing",
+    "code review",
+    "test generation",
+    "contamination detection",
+    "al-mcp server",
+    "bc quality",
+    "evaluation framework"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to BC-Bench and its purpose",
+      "t_start": 0,
+      "t_end": 62.2
+    },
+    {
+      "title": "Why BC-Bench matters and coverage areas",
+      "t_start": 62.2,
+      "t_end": 140
+    },
+    {
+      "title": "Bug fixing category and AL MCP server",
+      "t_start": 140,
+      "t_end": 226.4
+    },
+    {
+      "title": "Bug fixing results and agent harness comparison",
+      "t_start": 226.4,
+      "t_end": 310.6
+    },
+    {
+      "title": "Contamination detection strategy",
+      "t_start": 310.6,
+      "t_end": 447.4
+    },
+    {
+      "title": "Contamination detection results",
+      "t_start": 447.4,
+      "t_end": 514.7
+    },
+    {
+      "title": "Code review category introduction and approaches",
+      "t_start": 514.7,
+      "t_end": 637.1
+    },
+    {
+      "title": "Code review methodology and results",
+      "t_start": 637.1,
+      "t_end": 774.5
+    },
+    {
+      "title": "How to use BC-Bench for your own AL apps",
+      "t_start": 774.5,
+      "t_end": 887
+    }
+  ],
+  "features": [
+    {
+      "name": "Bug fixing category",
+      "description": "An agent is tasked with fixing a bug in the real codebase using 101 tasks from real BC apps repositories where real human engineers solved problems. Uses the AL MCP server to expose development tools like compiling, publishing and search.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 166.3,
+      "t_end": 226.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "bug fixing",
+        "real world tasks",
+        "al-mcp server"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL MCP server",
+      "description": "Exposes AL development tools like compiling, publishing and simple search to coding agents, allowing agents to work without needing to open Visual Studio Code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 199.8,
+      "t_end": 226.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al-mcp",
+        "development tools",
+        "agents"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Pass@5 improvement with MCP",
+      "description": "Using GitHub Copilot CLI and Claude Opus for bug fixing, the AL MCP server provides a meaningful improvement with pass@5 metric improving almost 10% and significant improvement in mean resolution rate.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 226.4,
+      "t_end": 270.2,
+      "is_demoed": true,
+      "caveats": [
+        "task completion takes longer due to agents publishing apps and running tests"
+      ],
+      "tags": [
+        "performance",
+        "metrics",
+        "bug fixing"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Agent harness comparison",
+      "description": "Comparison of different agent harnesses like GitHub Copilot CLI versus Cloud Code shows no significant differences when using the same models, suggesting model choice matters more than harness choice.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 280.5,
+      "t_end": 310.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent harness",
+        "comparison",
+        "model selection"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Contamination detection strategy",
+      "description": "Three-step method to detect if models memorized solutions from public BC-Bench data: provide repository context and problem statement, ask agent to identify files to modify without codebase access, then compare against expected files.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 344.1,
+      "t_end": 447.4,
+      "is_demoed": true,
+      "caveats": [
+        "agents can deduce paths from bug descriptions even if they did not memorize exact solutions"
+      ],
+      "tags": [
+        "contamination detection",
+        "data integrity",
+        "memorization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Contamination results across three models",
+      "description": "Over 101 tasks in the data set with three models that had knowledge cutoff dates after BC-Bench was made public, only one out of 101 tasks showed memorization match across all three models.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 458.2,
+      "t_end": 514.7,
+      "is_demoed": true,
+      "caveats": [
+        "continuous monitoring will be done to track contamination over time"
+      ],
+      "tags": [
+        "contamination",
+        "metrics",
+        "data integrity"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Code review category",
+      "description": "New BC-Bench category to evaluate AI-assisted code review of AL pull requests on BC apps, implemented with three approaches: baseline barebone GitHub Copilot UI, BC Quality plugin approach, and specialized AL review agent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 514.7,
+      "t_end": 637.1,
+      "is_demoed": true,
+      "caveats": [
+        "results for code review category still being finalized at time of recording"
+      ],
+      "tags": [
+        "code review",
+        "pull requests",
+        "al quality"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "BC Quality plugin",
+      "description": "Plugin with best practices and guidance for AL code that can be installed onto Copilot CLI to enhance code review capabilities beyond the barebone GitHub Copilot UI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 587.6,
+      "t_end": 620,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "bc quality",
+        "code review",
+        "plugin"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL review agent",
+      "description": "Specialized orchestration for code review that enhances BC Quality with focus on security, privacy and performance for individual review rather than applying all BC Quality rules together.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 620,
+      "t_end": 637.1,
+      "is_demoed": true,
+      "caveats": [
+        "leaves comments on BC apps pull requests"
+      ],
+      "tags": [
+        "code review",
+        "al review agent",
+        "security"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "LM-as-judge for code review evaluation",
+      "description": "Uses language models to determine if AI-generated code review comments are semantically equivalent to expected comments, allowing evaluation of code review quality beyond exact text matching.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 744.1,
+      "t_end": 774.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "evaluation",
+        "semantic similarity",
+        "code review"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Yos",
+      "confidence": "high"
+    },
+    {
+      "name": "Mharen",
+      "confidence": "medium"
+    },
+    {
+      "name": "Javan",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 19.8,
+      "text": "BCBench is a reproducible evaluation framework for AI coding agents working on real world AI development task inspired by SVBench",
+      "why_it_matters": "Defines BC-Bench as an evaluation framework specifically designed for AI coding agents on AL development tasks, distinguishing it from general coding benchmarks.",
+      "check": "exact"
+    },
+    {
+      "t": 106.6,
+      "text": "BCbench covers the following categories of AL development work. First of all, there's bug fixing and there's test generation and also there's PR reviews",
+      "why_it_matters": "Lists the three main categories that BC-Bench evaluates: bug fixing, test generation, and code reviews.",
+      "check": "exact"
+    },
+    {
+      "t": 257.7,
+      "text": "the pass head five matrix improved almost 10 uh and there's also a significant improvement",
+      "why_it_matters": "Quantifies the performance gain from using AL MCP server, showing nearly 10% improvement in pass@5 and mean resolution metrics.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 474.2,
+      "text": "they had a chance to memorize our data set and the solutions and as you can see",
+      "why_it_matters": "Shows contamination results: only 1 out of 101 tasks showed evidence of memorization across three models with knowledge cutoffs after BC-Bench became public.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 526.6,
+      "text": "the motivation for us to introduce use the code view category is because we are getting more and more poll requests on BC apps",
+      "why_it_matters": "Explains why code review was added to BC-Bench: rising PR volume on BC apps makes AI-assisted review increasingly important.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 774.5,
+      "kind": "not-in-this-release",
+      "text": "At the time of the recording of this session we are still working hard on the results for code review so please check back on our GitHub repository if you're curious"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 2,
+    "evidence_verified": 0,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.039235
+    }
+  ]
+}

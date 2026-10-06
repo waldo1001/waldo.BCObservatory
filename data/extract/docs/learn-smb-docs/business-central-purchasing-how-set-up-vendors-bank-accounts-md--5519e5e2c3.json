@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchasing-how-set-up-vendors-bank-accounts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-set-up-vendors-bank-accounts",
+  "title": "Set up vendor bank accounts",
+  "blob": "30dc9270c2505896af3e9a34a3bc9cb9c842be4d",
+  "summary": "Set up vendor bank account details in Business Central to track supplier banking information and simplify payment processing. Configure preferred accounts and approval workflows for new accounts.",
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "vendor bank accounts",
+    "payment setup",
+    "banking",
+    "approval workflows"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Vendor Bank Account List"
+    }
+  ],
+  "features": [
+    "preferred bank accounts",
+    "approval workflows",
+    "IBAN management",
+    "vendor payments"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005231,
+      "pages_in_call": 8
+    }
+  ]
+}

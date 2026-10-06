@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Enhanced Financial Analytics (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=fxrVyBD8UoU",
-  "published_at": null,
+  "published_at": "2026-04-01T12:00:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:52:10.422Z",
+      "captions": "auto:en-orig",
+      "duration_s": 608
+    },
+    "captioned": {
+      "at": "2026-10-06T13:52:32.864Z",
+      "path": "data/captions/microsoft/fxrVyBD8UoU.vtt",
+      "vtt_sha256": "bd79427cb136c8efdbcaa636df506712ef0c9da55a3462e5121c8a6adf5d3696",
+      "segments": 47,
+      "words": 1466,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 103,
     "duration_s": 608,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bd79427cb136c8efdbcaa636df506712ef0c9da55a3462e5121c8a6adf5d3696"
 }

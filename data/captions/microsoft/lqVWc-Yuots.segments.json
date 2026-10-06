@@ -1,0 +1,263 @@
+{
+  "video_id": "lqVWc-Yuots",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.4,
+      "end": 17.6,
+      "text": "Welcome to Business Central Launch Edition 2026 release wave one. My name is Aleksandar Totovic. I'm product manager and now I will try to explain what is new in sustainability in Business Central."
+    },
+    {
+      "t": 17.6,
+      "end": 33.4,
+      "text": "We invested in a last few releases a lot of sustainability. This time you will see a few features uh because we are very close to finish this module. I say the finish it will be treated as any other module in a Business Central because the most of features are already delivered."
+    },
+    {
+      "t": 33.4,
+      "end": 45.2,
+      "text": "Now we want to complete some of them and this is actually what is about in this release. So, first I will start with some technical things. What did we enable in this release?"
+    },
+    {
+      "t": 45.2,
+      "end": 55.9,
+      "text": "We have now new sustainability APIs. If you remember, if you used, we already have a set of a lot of APIs related to sustainability, but now we enable four more."
+    },
+    {
+      "t": 55.9,
+      "end": 71.6,
+      "text": "We enable posted ESG reporting lines. Method is only get. And what is about? If you started to use um reporting for uh CSRD and other types, depends in which country you are, this is something what we enabled in previous release."
+    },
+    {
+      "t": 71.6,
+      "end": 83.9,
+      "text": "So, you can do it directly in the Business Central. You can calculate, you can prepare reporting and you have by default enabled integration with external ESG reporting tool uh Microsoft already delivered."
+    },
+    {
+      "t": 83.9,
+      "end": 99.8,
+      "text": "So, we have this native integration. You need to have this license for Power Platform, but this integration exists as native integration. But, we said, \"Okay, what if from some reason you want to use some other tool?\" So, we are not limited only for this one tool."
+    },
+    {
+      "t": 99.8,
+      "end": 114.1,
+      "text": "This is by default. This is enabled, but we do not want to limit you. So, if you want to use any other tool or if you want to use some other reporting reason for whatever reason you have, you can use now this API posted ESG reporting line get."
+    },
+    {
+      "t": 114.1,
+      "end": 130,
+      "text": "So, you can collect all this information to use in a regular report or some specific compliance reporting tool. So, this is a new. We already enabled sustainability value entry as API again get because you cannot post into value entry directly from outside of Business Central."
+    },
+    {
+      "t": 130,
+      "end": 140.1,
+      "text": "So, this is related with value chain scope three. So, all these entries will come directly when you post purchase documents, sales document, production document, and so on."
+    },
+    {
+      "t": 140.1,
+      "end": 152.4,
+      "text": "But, if you need it for external reporting or you you can make some nice charts, whatever you need, you can now use this API. And now we have two APIs with a get, post, and patch"
+    },
+    {
+      "t": 152.4,
+      "end": 167.7,
+      "text": "methods. First is sustainability purchase line. So, now you we can combine this purchase line with connect with another softwares. Idea is to enable calculations of carbon footprint and other options directly on a purchase line."
+    },
+    {
+      "t": 167.7,
+      "end": 178.1,
+      "text": "So, this is a first step, so you can connect with external software. And if you have this information some external software, you can collect and import into Business Central purchase lines."
+    },
+    {
+      "t": 178.1,
+      "end": 193.6,
+      "text": "And the last one is about goals. So, again, if you're using some external third-party software, you can integrate goals you configure in external software with Business Central goals, so you can easily track in a Business Central even if you have third-party app."
+    },
+    {
+      "t": 193.6,
+      "end": 209.9,
+      "text": "What else we have? Now we have new sales layout report layouts. This may be not such a big things, but more and more customers are asking us, \"Okay, we have all this information.\" So, we have value chain, we have automatic calculation through all these from purchase,"
+    },
+    {
+      "t": 209.9,
+      "end": 223.7,
+      "text": "through transfers, through manufacturing, and sales. We have all this information, but we need to show that. So, now you have in sales invoice, posted sales invoice, you have two options, two new ESG layouts."
+    },
+    {
+      "t": 223.7,
+      "end": 235.1,
+      "text": "And the same for sales quote because sometimes this exposure, what is your carbon footprint, maybe will give you a bit better chance to win when you sell when you send a sales quote."
+    },
+    {
+      "t": 235.1,
+      "end": 246.2,
+      "text": "So, this is what we have and you can see we have carbon equivalent in our lines for each of lines and we have for total. So, this is what we have in both of these layouts."
+    },
+    {
+      "t": 246.2,
+      "end": 256.2,
+      "text": "So, we expose carbon footprint as a carbon carbon equivalent information. What else? Let's say small part."
+    },
+    {
+      "t": 256.2,
+      "end": 269.2,
+      "text": "Actually, this is maybe beginning of some enabling some another integrations. We have product classification item card. It can be interesting if you want to integrate this is what I mentioned with this API."
+    },
+    {
+      "t": 269.2,
+      "end": 282,
+      "text": "If you want to integrate with some external sources about information. So, by default you have blank, but you can choose only one option in this moment. So, we have only one option if this is UNSPSC"
+    },
+    {
+      "t": 282,
+      "end": 295.7,
+      "text": "option. This is UN standard product and service code list. So, this list is free. You can connect with this free list and collect all carbon footprints and all information about items you are producing into your item card."
+    },
+    {
+      "t": 295.7,
+      "end": 310.3,
+      "text": "So, this integration doesn't exist, but you have all prerequisites here right now. After you choose this option, you can choose product classification. This is another table, so you can fill or you can integrate with the external software and you can collect all of them."
+    },
+    {
+      "t": 310.3,
+      "end": 323.4,
+      "text": "What is important? We have only one option, but this is extendable. So, if you have different source, so if you have even paid source with emission factors, you can easily add another option and you can use all this information from there."
+    },
+    {
+      "t": 323.4,
+      "end": 334.2,
+      "text": "So, this is about that. So, only what you need to do is to have this product classification codes and system will handle all this information."
+    },
+    {
+      "t": 334.2,
+      "end": 348.6,
+      "text": "In this moment, we used this option for OABL electronic invoicing in Denmark as a integration sustainability information into e-documents as a pilot program first time."
+    },
+    {
+      "t": 348.6,
+      "end": 358.8,
+      "text": "But again, it will be enabled for you for your usage or for extending if you need. And the last feature new carbon costing model."
+    },
+    {
+      "t": 358.8,
+      "end": 370.5,
+      "text": "This is actually our carbon costing method actually. This is more accurate naming. This is now in a public preview. And now I want to show what exactly."
+    },
+    {
+      "t": 370.5,
+      "end": 384.4,
+      "text": "Previously, with no configuration option, you had only average model. So, this is the same as a costing method for your costs, but it doesn't work with your values, but with your carbon footprint."
+    },
+    {
+      "t": 384.4,
+      "end": 395.9,
+      "text": "Carbon equivalent actually. So, you had earlier if you wanted to track through your value chain, you had default option average and you couldn't change. You couldn't see this option this it was only one and it was there."
+    },
+    {
+      "t": 395.9,
+      "end": 406.6,
+      "text": "But now, you have a new field on the item card. You can choose what you want to use. You have new field carbon tracking method and this is currently in a public preview."
+    },
+    {
+      "t": 406.6,
+      "end": 421.4,
+      "text": "So, by default is average method. So, this is still by default and why? If you already started to use value chain, we didn't want to make any breaking change. So, now this is only this exposed as option, but everything will work exactly the same as previously."
+    },
+    {
+      "t": 421.4,
+      "end": 434,
+      "text": "So, this is in a GA. But we added new specific method in addition as additional option. And why we did it? Uh to make probably the most accurate model for carbon footprint tracking."
+    },
+    {
+      "t": 434,
+      "end": 446.6,
+      "text": "But what it requires, it requires item tracking. So, you cannot use specific method if you do not item tracking. It uh assumes that you have item tracking for serial numbers or lot numbers."
+    },
+    {
+      "t": 446.6,
+      "end": 458.9,
+      "text": "So, if you have this um costing method already enabled, you can enable specific method and it will work the same way as uh we have specific uh costing method in the Business Central for"
+    },
+    {
+      "t": 458.9,
+      "end": 468.9,
+      "text": "um uh costs. So, this is what we have new. And now I would like to show you in a short demo how it works."
+    },
+    {
+      "t": 468.9,
+      "end": 476.9,
+      "text": "First, let's look in a posted sales invoice."
+    },
+    {
+      "t": 480,
+      "end": 491.2,
+      "text": "I'll choose the last one I have created. When I go to report, you can see report layout. Now, I can choose another layout."
+    },
+    {
+      "t": 491.2,
+      "end": 505.3,
+      "text": "I have standard ESG sales invoice in Word and standard ESG sales invoice blue. I will show one of them and for quote I will show another one. So, now if I click it, you will get all this information shows."
+    },
+    {
+      "t": 505.3,
+      "end": 518.4,
+      "text": "So, you can see carbon equivalent in kilograms. These kilograms are coming from your sustainability setup. You have per item. Okay, and you have total carbon equivalent in kilograms for whole invoice."
+    },
+    {
+      "t": 518.4,
+      "end": 533,
+      "text": "So, this is if you're using invoices. And if you use sales quote, as I mentioned, we have this in sales quote as well. Okay, if you want to impress your potential customers,"
+    },
+    {
+      "t": 533,
+      "end": 543.9,
+      "text": "you can just go here and print. Again, we have standard, but you can choose to use again I don't want standard this time I will use blue one, different design."
+    },
+    {
+      "t": 543.9,
+      "end": 559.7,
+      "text": "And when I open preview, again let's see what we have. We have carbon equivalent per unit and we have total carbon equivalent in kilograms for whole uh sales quote."
+    },
+    {
+      "t": 559.7,
+      "end": 570.8,
+      "text": "So, this is what we have here and I just want shortly to switch to items to show these new options. Sorry."
+    },
+    {
+      "t": 570.8,
+      "end": 585,
+      "text": "So, now in sustainability fast tab, you have carbon tracking method. As I said, by default this is average, but you can switch to specific if you have specific model and enable serial numbers or lots, whatever for item tracking,"
+    },
+    {
+      "t": 585,
+      "end": 602.2,
+      "text": "and product classification. This is what I said, you have UN SPCC, and then you are code, so you can create them manually, but in general, this is created to enable you to make integration with this source and then to collect all their"
+    },
+    {
+      "t": 602.2,
+      "end": 613,
+      "text": "um sources of calculation in the system and automatically populate all this information about carbon carbon or methane and other gas emissions."
+    },
+    {
+      "t": 613,
+      "end": 627.4,
+      "text": "So, this is what we have right now in demo. This is what we have improved. We are working on some other value chain extensions, but in this moment, this is what we deliver, and again, keep in mind this carbon tracking method."
+    },
+    {
+      "t": 627.4,
+      "end": 638,
+      "text": "If you want to check specific method, please do it in a sandbox because this is a public preview. Before I close the session, I just want to remind you you have a lot of interesting links."
+    },
+    {
+      "t": 638,
+      "end": 651.3,
+      "text": "You can go there and find interesting information. One of the most important is LinkedIn. We have updated information all the time there or watch some of YouTube videos. This is something where This is a place where you find"
+    },
+    {
+      "t": 651.3,
+      "end": 659,
+      "text": "BCLE and other videos from Microsoft as well. So, thank you for watching this session."
+    }
+  ],
+  "markers": [],
+  "word_count": 1768
+}

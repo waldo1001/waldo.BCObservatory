@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Exporting and Importing Agent in Business Central",
   "url": "https://www.youtube.com/watch?v=3UcLmXqyl44",
-  "published_at": null,
+  "published_at": "2026-02-27T15:13:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:55:49.129Z",
+      "captions": "auto:en-orig",
+      "duration_s": 331
+    },
+    "captioned": {
+      "at": "2026-10-06T13:56:18.126Z",
+      "path": "data/captions/microsoft/3UcLmXqyl44.vtt",
+      "vtt_sha256": "3d88e0b06ed28cca89713bf1ad22bf13d3bb86675741c7024c495b8bb0d5bdd4",
+      "segments": 23,
+      "words": 940,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 117,
-    "duration_s": 332,
-    "via": "reconcile"
-  }
+    "duration_s": 331,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3d88e0b06ed28cca89713bf1ad22bf13d3bb86675741c7024c495b8bb0d5bdd4"
 }

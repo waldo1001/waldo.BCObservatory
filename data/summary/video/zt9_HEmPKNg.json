@@ -1,0 +1,26 @@
+{
+  "video_id": "zt9_HEmPKNg",
+  "item_id": "video/yt-microsoft/zt9_HEmPKNg",
+  "summary": "Capacity setup in Business Central Manufacturing: work shifts, shop calendars, work centers and groups, machine centers, consolidated calendars, the work center calendar matrix, and how these drive production order scheduling. Uses the Contoso Coffee demo data.",
+  "overview": "The video walks through the capacity setup that production scheduling depends on in Business Central. It starts with work shifts as the smallest building block, combines them into shop calendars with working days and holidays, and then sets up work centers, work center groups and machine centers.\n\nIt then calculates the work center calendar to produce a capacity matrix in minutes, and finishes by refreshing a production order to show how start and finish dates are derived from capacities, routings and the shop calendar.",
+  "key_points": [
+    "Work shifts are reusable labels (Contoso Coffee uses code 1 for first shift and code 2 for second shift) assigned to working days in a shop calendar.",
+    "A work center using two shifts can schedule 16 hours per day instead of 8.",
+    "Every work center belongs to exactly one work center group; groups are used for reporting and cost aggregation.",
+    "The work center Posting tab holds direct unit cost, indirect cost percentage and overhead rate; the Scheduling tab holds unit of measure, capacity, efficiency and shop calendar.",
+    "Machine centers always belong to a work center, inherit its calendar, and have their own capacity, efficiency and routing setups.",
+    "With the consolidated calendar activated, work center capacity is the sum of its machine centers instead of coming from the work center card.",
+    "Calculate the work center calendar to build the capacity matrix in minutes. In the demo, work center 200 has 2,400 minutes of effective weekly capacity."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "d06d4af0ea85a33bb933bdad127839838d45eda72cdebc99660518f0be8b2a99",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0427084
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "video_id": "o94V_lF8oNM",
+  "item_id": "video/yt-microsoft/o94V_lF8oNM",
+  "title": "What's new in Expense Agent: Travel and Expense Policy Automation (2026 release wave 2)",
+  "duration_s": 560,
+  "systems": [
+    "copilot",
+    "hr",
+    "finance"
+  ],
+  "topics": [
+    "expense agent",
+    "travel and expense policies",
+    "ai policy evaluation",
+    "copilot credits",
+    "approval workflow",
+    "compliance checking",
+    "receipt itemization",
+    "expense reports"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and demo setup",
+      "t_start": 0,
+      "t_end": 22.5
+    },
+    {
+      "title": "Policy compliance settings and AI evaluation options",
+      "t_start": 22.5,
+      "t_end": 75.3
+    },
+    {
+      "title": "Expense policy categories and presubmission evaluation",
+      "t_start": 75.3,
+      "t_end": 151.7
+    },
+    {
+      "title": "Expense agent dashboard and compliance status",
+      "t_start": 151.7,
+      "t_end": 206.2
+    },
+    {
+      "title": "Policy validation examples - hotel and flight expenses",
+      "t_start": 206.2,
+      "t_end": 288.1
+    },
+    {
+      "title": "Submitter-initiated policy checking and receipt itemization",
+      "t_start": 288.1,
+      "t_end": 361
+    },
+    {
+      "title": "Policy scope and submission workflow",
+      "t_start": 361,
+      "t_end": 426.6
+    },
+    {
+      "title": "Approver workflow and policy override requirements",
+      "t_start": 426.6,
+      "t_end": 522.6
+    },
+    {
+      "title": "Policy check optimization and conclusion",
+      "t_start": 522.6,
+      "t_end": 560
+    }
+  ],
+  "features": [
+    {
+      "name": "Evaluate compliance with AI",
+      "description": "A new toggle in policy compliance settings that uses copilot credits to analyze free text expense policies and help approvers make decisions about submitted expenses.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 35.8,
+      "t_end": 61,
+      "is_demoed": true,
+      "caveats": [
+        "Requires copilot credits",
+        "Pricing is updated - check documentation"
+      ],
+      "tags": [
+        "ai",
+        "policy",
+        "copilot",
+        "compliance"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Presubmission evaluation",
+      "description": "Allows expense submitters to run policy checks against their own expense reports before submitting them to approvers, helping them fix compliance issues in advance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 134.1,
+      "t_end": 164.6,
+      "is_demoed": true,
+      "caveats": [
+        "Can be disabled by administrators if concerned about AI credit usage",
+        "Optional feature"
+      ],
+      "tags": [
+        "submitter",
+        "policy",
+        "presubmission",
+        "approval"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Policy compliance flagging",
+      "description": "New status indicator that marks expense reports with flagged policies - policies that have been evaluated and found potential non-compliance, requiring approver attention.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 189.8,
+      "t_end": 218.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "status",
+        "compliance",
+        "flagging",
+        "dashboard"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Policy validation with free text rules",
+      "description": "System accepts free text expense policies organized by category that AI analyzes against submitted expenses to evaluate compliance with company rules.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 49.2,
+      "t_end": 122.8,
+      "is_demoed": true,
+      "caveats": [
+        "Multiple policies per category should be separate lines for better AI analysis",
+        "Policies only as detailed as available receipt information"
+      ],
+      "tags": [
+        "ai",
+        "policy",
+        "free-text",
+        "categories"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Policy check with AI button",
+      "description": "Submitter-initiated action to run AI policy evaluation against expense report before submission, providing status update on whether expenses comply with configured policies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 300.2,
+      "t_end": 313.9,
+      "is_demoed": true,
+      "caveats": [
+        "Takes approximately one minute to evaluate"
+      ],
+      "tags": [
+        "submitter",
+        "ai",
+        "button",
+        "evaluation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Enhanced receipt itemization",
+      "description": "Upcoming feature to provide more detailed itemization of receipts so AI policy evaluation has complete information needed, for example to detect specific items like alcoholic beverages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 349.3,
+      "t_end": 375.5,
+      "is_demoed": false,
+      "caveats": [
+        "Coming soon",
+        "Not yet available"
+      ],
+      "tags": [
+        "receipt",
+        "itemization",
+        "upcoming",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Policy version tracking",
+      "description": "System tracks which version of a receipt policies are evaluated against - when an expense is modified, policies revert to pending status requiring re-evaluation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 375.5,
+      "t_end": 415,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual re-evaluation after changes to expenses"
+      ],
+      "tags": [
+        "versioning",
+        "policy",
+        "tracking"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Policy override with audit trail",
+      "description": "Upcoming requirement for approvers to specify a reason when overriding a policy violation, with reasons kept in Business Central audit records for compliance tracking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 487.9,
+      "t_end": 522.6,
+      "is_demoed": false,
+      "caveats": [
+        "Upcoming feature not yet enforced",
+        "Will create audit records"
+      ],
+      "tags": [
+        "override",
+        "mandatory",
+        "audit",
+        "approver"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Intelligent policy check optimization",
+      "description": "System does not run policy checks if there are no policies configured or if the expense record has not changed since the last evaluation, reducing unnecessary AI credit usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 522.6,
+      "t_end": 550.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "optimization",
+        "efficiency",
+        "credits"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Unknown presenter",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 35.8,
+      "text": "evaluate compliance with AI, first of all, it's a new feature that can use copilot credits. So um make sure you check our documentation",
+      "why_it_matters": "Establishes that AI policy evaluation is a released feature that consumes copilot credits, requiring customers to check pricing documentation.",
+      "check": "exact"
+    },
+    {
+      "t": 49.2,
+      "text": "companies have policies that apply to expenses and some of the policies are not as easy to check. Um they cannot be automated in",
+      "why_it_matters": "Clarifies the business need for AI-based policy evaluation - handling complex, hard-to-automate expense rules that simple rule engines cannot handle.",
+      "check": "exact"
+    },
+    {
+      "t": 90.6,
+      "text": "you can also see that there's multiple um possible expense policies for the same category. And the idea is every policy should be a",
+      "why_it_matters": "Establishes a configuration best practice that multiple policies per category should be entered as separate lines for better AI analysis.",
+      "check": "exact"
+    },
+    {
+      "t": 189.8,
+      "text": "already marked as compliant but i also have some that have been marked as flagged this is a new status",
+      "why_it_matters": "Introduces the new 'flagged' status as a distinct outcome from compliant, indicating potential policy violations requiring approver attention.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 361,
+      "text": "So that's also some new feature that is going to come soon. We plan to have more um itemization for receipts so that all",
+      "why_it_matters": "Confirms upcoming receipt itemization feature as roadmap item to improve AI policy evaluation by providing detailed line-item data.",
+      "check": "exact"
+    },
+    {
+      "t": 502.6,
+      "text": "we have upcoming that it's going to be mandatory for the for the approver to actually specify a reason when they override a policy.",
+      "why_it_matters": "Signals upcoming enforcement of audit trail requirements for policy overrides, moving from guidance to mandatory audit records.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 35.8,
+      "kind": "subject-to-change",
+      "text": "pricing regarding copilot credits for this feature - check documentation for updates"
+    },
+    {
+      "t": 361,
+      "kind": "coming-later",
+      "text": "Enhanced receipt itemization is a new feature that is going to come soon"
+    },
+    {
+      "t": 502.6,
+      "kind": "coming-later",
+      "text": "Mandatory policy override reason specification is upcoming and will be required for approvers"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.035967
+    }
+  ]
+}

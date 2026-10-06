@@ -1,0 +1,307 @@
+{
+  "video_id": "xqFpiqmXjk0",
+  "item_id": "video/yt-microsoft/xqFpiqmXjk0",
+  "title": "Manufacturing Foundations Production Orders (2026)",
+  "duration_s": 285,
+  "systems": [
+    "manufacturing",
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "production orders",
+    "bill of materials",
+    "routing",
+    "capacity planning",
+    "item availability",
+    "flushing",
+    "production journal",
+    "costing",
+    "work center scheduling"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and series context",
+      "t_start": 0,
+      "t_end": 13
+    },
+    {
+      "title": "Production order statuses and commitment levels",
+      "t_start": 13,
+      "t_end": 49.6
+    },
+    {
+      "title": "Creating a production order from master data",
+      "t_start": 49.6,
+      "t_end": 80.4
+    },
+    {
+      "title": "Exploring components, routing, and statistics",
+      "t_start": 80.4,
+      "t_end": 118.5
+    },
+    {
+      "title": "Checking availability by bill of materials level",
+      "t_start": 118.5,
+      "t_end": 161
+    },
+    {
+      "title": "Released production orders and the production journal",
+      "t_start": 161,
+      "t_end": 227.3
+    },
+    {
+      "title": "Posting the production journal and finishing the order",
+      "t_start": 227.3,
+      "t_end": 256.1
+    },
+    {
+      "title": "Production order lifecycle and future topics",
+      "t_start": 256.1,
+      "t_end": 285
+    }
+  ],
+  "features": [
+    {
+      "name": "Production order statuses",
+      "description": "Production orders progress through multiple statuses representing commitment levels: simulated as a safe sandbox, planned as production suggestions, firm planned after approval, released for shop floor execution, and finished to close work for cost analysis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 26.5,
+      "t_end": 48.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "status lifecycle",
+        "planning",
+        "commitment"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production order creation from master data",
+      "description": "When a production order is refreshed, Business Central uses production BOM to define component demand, routing to define operations, and calendar and capacity setup to define scheduled start and finish times, combining material, time, and cost expectations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 49.6,
+      "t_end": 79.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "master data",
+        "bom",
+        "routing",
+        "scheduling"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Components function",
+      "description": "Allows viewing which components a production order needs and the quantity of each required component.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 80.4,
+      "t_end": 88.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "components",
+        "bom",
+        "visibility"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Routing function",
+      "description": "Shows scheduled operations with start and finish date-time, operational times, and routing link code for each operation in the production order.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 89.4,
+      "t_end": 100.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "operations",
+        "scheduling",
+        "work center"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Statistics function",
+      "description": "Displays expected costs and capacity needs for a production order during the planning phase before release to production.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 101.4,
+      "t_end": 117.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "costs",
+        "capacity",
+        "analysis"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Item availability by BOM level",
+      "description": "Once a production order is firm planned, this feature shows whether enough units are available to produce the required order, identifies which component creates the bottleneck, and displays for each component how many are needed, how many are available, and how many parent items can be produced.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 118.5,
+      "t_end": 149.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "availability",
+        "bom",
+        "bottleneck",
+        "release date"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Production journal",
+      "description": "A document that combines components from the production BOM and routings for released production orders. It lists items to be consumed during production, shows where each component is consumed based on routing links, and allows operators to adjust consumption quantities and operational times before posting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 161,
+      "t_end": 214.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "shop floor",
+        "consumption",
+        "routing link",
+        "posting"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Production journal posting",
+      "description": "When an operator posts the production journal after reviewing and adjusting consumption quantities and operational times, it effectively consumes components, accounts for capacity usage, and turns floor activity into accurate inventory, capacity, and cost postings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 214.8,
+      "t_end": 227.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting",
+        "inventory",
+        "costs",
+        "capacity"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Routing link code",
+      "description": "A mechanism in production BOM that shows where each component is consumed during production, linking components to specific operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 177.4,
+      "t_end": 200.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "bom",
+        "routing",
+        "scrap",
+        "traceability"
+      ],
+      "system": "manufacturing"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 13,
+      "text": "We are no longer modeling the production. We are asking whether we can safely release this order to production. That is the role of",
+      "why_it_matters": "Explains the core purpose of production orders - to validate feasibility before committing resources to the shop floor.",
+      "check": "exact"
+    },
+    {
+      "t": 26.5,
+      "text": "Simulated production orders are a safe sandbox. Planned production orders are production suggestions. When they are approved, they move to the firm planned production",
+      "why_it_matters": "Defines the progression of production order statuses and the increasing commitment at each level.",
+      "check": "exact"
+    },
+    {
+      "t": 64.1,
+      "text": "The production BOM becomes the component demand. The routing becomes operations. The calendar and capacity setup becomes scheduled start and finish time.",
+      "why_it_matters": "Shows how master data elements map to production order calculations.",
+      "check": "exact"
+    },
+    {
+      "t": 118.5,
+      "text": "Once it's firm plans, we can explore the item availability by bomb level, which will give us that release date.",
+      "why_it_matters": "Describes a key validation step before releasing to production - checking material availability.",
+      "check": "exact"
+    },
+    {
+      "t": 177.4,
+      "text": "Remember that we added routing link when we were creating the production BOM? That allows us to see where each component is consumed during",
+      "why_it_matters": "Explains how routing links enable precise tracking of component consumption across specific operations.",
+      "check": "exact"
+    },
+    {
+      "t": 214.8,
+      "text": "This allows to account for the actual production. Once the operator has reviewed the production journal, he posts the production journal to effectively consume",
+      "why_it_matters": "Shows how posting production journals converts shop floor activities into GL and inventory postings.",
+      "check": "exact"
+    },
+    {
+      "t": 256.1,
+      "text": "They give planners and supervisors a controlled life cycle. Prepare the order, check whether it can be built, release it to the floor, record",
+      "why_it_matters": "Summarizes the complete production order workflow from creation through cost analysis.",
+      "check": "exact"
+    },
+    {
+      "t": 267.8,
+      "text": "Each production order allows you to monitor the costing associated. But, that will come at a later video. Next time, we will dig deeper",
+      "why_it_matters": "Indicates upcoming coverage of flushing methods as a key topic in manufacturing cost control.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 267.8,
+      "kind": "coming-later",
+      "text": "that will come at a later video. Next time, we will dig deeper into the flushing methods, the backbone of costing in manufacturing."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032625
+    }
+  ]
+}

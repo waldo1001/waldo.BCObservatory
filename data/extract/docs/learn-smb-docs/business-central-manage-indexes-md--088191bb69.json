@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/manage-indexes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/manage-indexes",
+  "title": "Manage database index usage",
+  "blob": "e5faf098808ebc9d68489b5db1bd40c10aa1c81c",
+  "summary": "Manage database indexes per company to optimize performance and reduce storage costs. View index usage statistics, disable nonessential indexes to improve write performance, and protect unique indexes and primary keys from being disabled.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "database indexes",
+    "performance",
+    "storage optimization",
+    "table management",
+    "system administration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Table Information"
+    },
+    {
+      "type": "page",
+      "name": "Table Data Management"
+    }
+  ],
+  "features": [
+    "Index management per company",
+    "Index usage statistics",
+    "Index storage size tracking",
+    "Turn index on/off",
+    "Turn index off all companies",
+    "Unique index protection",
+    "Primary key protection",
+    "$systemid index protection"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008326,
+      "pages_in_call": 8
+    }
+  ]
+}

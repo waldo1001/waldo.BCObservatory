@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-transfer-between-locations",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9f8c873c58bbed482d62172713a3a8bfb8958f87",
       "words": 1782,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:51:07.568Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.007547
+    },
+    "summarized": {
+      "at": "2026-10-06T13:51:07.573Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:51:07.573Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:51:07.574Z",
+      "page": false
     }
   },
   "input_hash": "9f8c873c58bbed482d62172713a3a8bfb8958f87",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9f8c873c58bbed482d62172713a3a8bfb8958f87"
+  "output_hash": "bcfefe3e3edf3dfd787e285ad232a6eab19aec73bf9a5b5b9150e20b8a870476"
 }

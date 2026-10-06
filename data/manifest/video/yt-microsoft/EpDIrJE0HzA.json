@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Build an Agent in Microsoft Copilot Studio for Business Central (2025)",
   "url": "https://www.youtube.com/watch?v=EpDIrJE0HzA",
-  "published_at": null,
+  "published_at": "2025-12-03T15:00:36.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:59:33.978Z",
+      "captions": "auto:en-orig",
+      "duration_s": 365
+    },
+    "captioned": {
+      "at": "2026-10-06T13:59:53.890Z",
+      "path": "data/captions/microsoft/EpDIrJE0HzA.vtt",
+      "vtt_sha256": "792e0c2a7b93e3b19446d1d9ec6ddc6abd2f7a2e6ee69899cddac3f158bb8a04",
+      "segments": 26,
+      "words": 803,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 131,
     "duration_s": 365,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "792e0c2a7b93e3b19446d1d9ec6ddc6abd2f7a2e6ee69899cddac3f158bb8a04"
 }

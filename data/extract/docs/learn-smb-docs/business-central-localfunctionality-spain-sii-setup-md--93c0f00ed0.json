@@ -1,0 +1,76 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/sii-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/sii-setup",
+  "title": "Set up SII for VAT reporting [ES]",
+  "blob": "4a5121d9e56e755cdf1cef8b9a08240bd02652b2",
+  "summary": "Set up SII (Suministro Inmediato de Información) for VAT reporting in the Spanish version of Business Central. Enable the SII module, configure batch submission thresholds, mark documents as accepted, specify customers not in AEAT, set VAT exemptions, and ignore invoice lines for SII reporting.",
+  "systems": [
+    "finance",
+    "localization",
+    "administration"
+  ],
+  "topics": [
+    "sii",
+    "vat reporting",
+    "spain",
+    "tax compliance",
+    "e-invoicing",
+    "document submission"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "SII Setup"
+    },
+    {
+      "type": "page",
+      "name": "SII History"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "VAT Clauses"
+    },
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Statements"
+    },
+    {
+      "type": "report",
+      "name": "Calc. and Post VAT Settlement"
+    },
+    {
+      "type": "report",
+      "name": "VAT Declaration"
+    }
+  ],
+  "features": [
+    "SII module enable/disable",
+    "Operation date configuration",
+    "Batch submission",
+    "Job batch submission thresholds",
+    "Mark documents as accepted",
+    "AEAT customer registration",
+    "VAT exemptions",
+    "No Taxable Type setup",
+    "Ignore in SII configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008326,
+      "pages_in_call": 8
+    }
+  ]
+}

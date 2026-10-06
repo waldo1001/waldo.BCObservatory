@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-sustainability",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2f90bae452dbae3a67aa3a7e0d5158a2a1f8bcb2",
       "words": 669,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:48:42.816Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007148
+    },
+    "summarized": {
+      "at": "2026-10-06T13:48:42.819Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:48:42.819Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:48:42.820Z",
+      "page": false
     }
   },
   "input_hash": "2f90bae452dbae3a67aa3a7e0d5158a2a1f8bcb2",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2f90bae452dbae3a67aa3a7e0d5158a2a1f8bcb2"
+  "output_hash": "333fdd55747bd26b49c5b896aa222e39d123acb0f1abb39228389797b8072fc8"
 }

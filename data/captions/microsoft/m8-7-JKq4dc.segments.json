@@ -1,0 +1,1182 @@
+{
+  "video_id": "m8-7-JKq4dc",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.4,
+      "end": 18.1,
+      "text": ">> In this release, we are adding a new quality management extension. So, now you can install it and comply with the regulatory requirements and the industry standards."
+    },
+    {
+      "t": 18.1,
+      "end": 34.1,
+      "text": "And of course, you can use it during receiving of goods or checking the produced output and ensure that quality is right as internally, but also to make sure that your customer happy with the quality items you are shipping."
+    },
+    {
+      "t": 34.1,
+      "end": 46.8,
+      "text": "So, now with a quality management extension, you can trigger tests automatically when something happens in the system. You don't need to worry about it. You can schedule them to do them on recurring basis."
+    },
+    {
+      "t": 46.8,
+      "end": 66.3,
+      "text": "For example, if you need from time to time recheck goods which usually reducing the quality over the time. And you can trigger the inspection manually just because you receive some input from outside or internal sources that something is not really good and you better to stop and check."
+    },
+    {
+      "t": 66.3,
+      "end": 82.6,
+      "text": "And it's super flexible solution actually because many companies use different business practices and quality process can be very very different in each industry or organization or even for each vendors or product groups."
+    },
+    {
+      "t": 82.6,
+      "end": 93.2,
+      "text": "It's very easy to configure. And it might happen from time to time that as a result of the quality check you discover that some items are non-compliant. What to do?"
+    },
+    {
+      "t": 93.2,
+      "end": 103.3,
+      "text": "There are different options which automate handling of non-compliant items in the Business Central. But enough of these the slides. Let's take a look at the demo."
+    },
+    {
+      "t": 103.3,
+      "end": 114.2,
+      "text": "How it actually works. I'm in the Business Manager Role Center doing my normal job buying stuff. Let's go to purchase, purchase orders."
+    },
+    {
+      "t": 114.2,
+      "end": 130.5,
+      "text": "I already created purchase order up front. It contains some coffee beans. It's a item tracking items with a lot. And what I will do as usually, I just post receipt."
+    },
+    {
+      "t": 133.3,
+      "end": 151.4,
+      "text": "You can notice the new notification appears in notifying me that new inspection was created. Normally, when you implement quality management in the real life, you don't need to display this notification to the person who is a performing"
+    },
+    {
+      "t": 151.4,
+      "end": 162.3,
+      "text": "uh posting of orders, receipt, transfers, maybe output because inspections are not for them. It's for other people who will be performing quality."
+    },
+    {
+      "t": 162.3,
+      "end": 172.3,
+      "text": "But during demonstration, it's very convenient when we see that quality inspection is created and we can jump to it directly from the relevant document."
+    },
+    {
+      "t": 172.3,
+      "end": 184,
+      "text": "So, I posted receipt and my inspection was created automatically. I can see that I'm uh checking uh quality of roasted beans."
+    },
+    {
+      "t": 184,
+      "end": 195.4,
+      "text": "I can see item number. I can see lot information because yes, this item requires item tracking for lots with expiration dates and I assigned something already in the my purchase document up front."
+    },
+    {
+      "t": 195.4,
+      "end": 207.9,
+      "text": "You can also see the quality quantity, but if I will scroll down I can see a list of different tests I need to perform. Let's expand it and do them."
+    },
+    {
+      "t": 207.9,
+      "end": 221.2,
+      "text": "Notice, I will be populating the test value column and what will happen? So, the first one, I press the assist edit and I can see pop-up page which allows me to select"
+    },
+    {
+      "t": 221.2,
+      "end": 233.6,
+      "text": "one out of three options. And the package in my case looks undamaged which is a good sign, good starting point. Labeling, correct and readable?"
+    },
+    {
+      "t": 233.6,
+      "end": 245.4,
+      "text": "Yes. Oh, again pop-up window, but looks slightly different. Yeah, it has two options. Yes. will be yes. Then the next one bean defect types."
+    },
+    {
+      "t": 245.4,
+      "end": 256.7,
+      "text": "Again, I can choose something from the list including the blank option. But this time something is not good. The color of the coffee beans looks suspicious."
+    },
+    {
+      "t": 256.7,
+      "end": 267.2,
+      "text": "Let's mark it. Uh what about form? Kind of mixed. But it still passed. Interesting. And that what about moisture?"
+    },
+    {
+      "t": 267.2,
+      "end": 285.3,
+      "text": "Now I'm using some equipment to check the moisture. And it will be right in the middle of what? Of the past description. You can see that I have past and failed descriptions which provide me some hints about what do I need to enter to make sure that it's"
+    },
+    {
+      "t": 285.3,
+      "end": 301.5,
+      "text": "clarified classified as a past or failed. I can provide some additional comments or I can provide comments for each line. There is a special note column where I can provide more details for each individual test I'm performing."
+    },
+    {
+      "t": 301.5,
+      "end": 312,
+      "text": "All right, most of them passed, one failed. One failure is already enough to to mark the whole inspection as failed."
+    },
+    {
+      "t": 312,
+      "end": 322.4,
+      "text": "So, you can see the result says fail. I'm ready to finish my inspection, but before that, let's also attach the image. So, to to document how it looks like."
+    },
+    {
+      "t": 322.4,
+      "end": 335.3,
+      "text": "If I'm using device, I can take a picture right from it, but I'm using laptop, so I will just drag and drop the image prepared up front."
+    },
+    {
+      "t": 336,
+      "end": 346,
+      "text": "Yeah. Color looks suspicious. All right, now we are ready to change status to of the whole inspection to finish."
+    },
+    {
+      "t": 346,
+      "end": 357.1,
+      "text": "So, now it documented the process. Hey, I finished my inspection, but again something happened automatically. The system created transfer order."
+    },
+    {
+      "t": 357.1,
+      "end": 369.1,
+      "text": "Do I want to open it? Of course, I want. We are doing the demonstration here. So, transfer order was created automatically and it transferring quantity three"
+    },
+    {
+      "t": 369.1,
+      "end": 380.4,
+      "text": "from main to east location. Why three? You can ask. And before you do that we can also double check that lot information is passed correctly."
+    },
+    {
+      "t": 380.4,
+      "end": 390.7,
+      "text": "Lot information is passed. And now the time to answer the question why three. Because even if I received 25, I decided not to test all of them."
+    },
+    {
+      "t": 390.7,
+      "end": 404.1,
+      "text": "I decided to test only some. Smaller sample size and I have extra field sample size which is defined as three. All right, more questions more questions, but"
+    },
+    {
+      "t": 404.1,
+      "end": 414.4,
+      "text": "we will find answers later. Right now we done with our inspection. And what we will do next, we will close this purchase document and move to a different role."
+    },
+    {
+      "t": 414.4,
+      "end": 424.4,
+      "text": "So, now it will be sales process. We also have a sales document prepared up front with a the same item."
+    },
+    {
+      "t": 424.4,
+      "end": 429,
+      "text": "Now we need to"
+    },
+    {
+      "t": 429.3,
+      "end": 440.3,
+      "text": "specify item tracking details. Uh select something from the list. Good."
+    },
+    {
+      "t": 440.3,
+      "end": 447.8,
+      "text": "So, we are ready to ship 10 items. Let's try. Post and ship."
+    },
+    {
+      "t": 447.8,
+      "end": 459.6,
+      "text": "We cannot. We can see some red letters which says that my transaction my sales transaction was blocked because there is inspection with a result fail"
+    },
+    {
+      "t": 459.6,
+      "end": 475.4,
+      "text": "for this specific lot of this item and we do not allow sales transactions. So, what do we do next? Maybe it's a good idea not to sell items which has indication that they are not of the good quality."
+    },
+    {
+      "t": 475.4,
+      "end": 488.2,
+      "text": "All right, what do we do next? Let's go to the Role Center. We find here quality inspections"
+    },
+    {
+      "t": 488.2,
+      "end": 498.9,
+      "text": "and uh find our inspection and we will recreate it. Let's try it again. So, we do the another check."
+    },
+    {
+      "t": 498.9,
+      "end": 509.3,
+      "text": "We open this new inspection. Probably this time we will take a look at the remaining quantity. So, we already uh moved three out."
+    },
+    {
+      "t": 509.3,
+      "end": 514.9,
+      "text": "So, now we going to test all of them."
+    },
+    {
+      "t": 514.9,
+      "end": 520,
+      "text": "So, we are doing another test."
+    },
+    {
+      "t": 520.2,
+      "end": 525.3,
+      "text": "And again, packaging looks good."
+    },
+    {
+      "t": 525.3,
+      "end": 536.8,
+      "text": "This time color is actually fine. So, that was a fine. And no other other"
+    },
+    {
+      "t": 536.8,
+      "end": 547.8,
+      "text": "signals of the better or defect types in the in the coffee beans. And they are looks very good. They all the same and um moisture is the same."
+    },
+    {
+      "t": 547.8,
+      "end": 564,
+      "text": "So, probably we were unlucky when we picked the three different samples. So, they were not good. But the remaining ones looks looks fine and we again ready to finish this inspection."
+    },
+    {
+      "t": 564,
+      "end": 575.6,
+      "text": "Yes, we finishing it. What else can we do? We can actually print it. There are three documents. Certificate of analysis. Let's take a look at the layouts."
+    },
+    {
+      "t": 575.6,
+      "end": 587.2,
+      "text": "We are in the progress of changing layout. So, when you will see this video, I would expect you to see a very different layout. But the idea and the data set will stay the same."
+    },
+    {
+      "t": 587.2,
+      "end": 597.4,
+      "text": "All right. So, this is external facing document which we can attach to the document and communicate externally. So, we see information about"
+    },
+    {
+      "t": 597.4,
+      "end": 608,
+      "text": "what we tested, who we tested, and then information the results if it's passed or failed situation and information about conditions."
+    },
+    {
+      "t": 608,
+      "end": 613.7,
+      "text": "We also have a non-conformance report."
+    },
+    {
+      "t": 616,
+      "end": 627,
+      "text": "Where we can see the same information but with a slightly different details. You can see that for each test we performed packaging, labeling, coffee bean defects, etc."
+    },
+    {
+      "t": 627,
+      "end": 640.5,
+      "text": "We have information about who registered it. It's a username. Yeah, this is a my name apparently in this environment and the date time when the test was performed."
+    },
+    {
+      "t": 640.5,
+      "end": 644.6,
+      "text": "All right."
+    },
+    {
+      "t": 644.7,
+      "end": 657,
+      "text": "So, now we completed the quality check and now it is a passed. Let's go back to our sales document and try to complete the transaction again."
+    },
+    {
+      "t": 657,
+      "end": 664.5,
+      "text": "Let's try to ship to ship these goods to our customers."
+    },
+    {
+      "t": 668.4,
+      "end": 678.6,
+      "text": "And perfectly, goods were shipped to the customers and we know that quality of these goods were very good. We checked it and we documented the fact."
+    },
+    {
+      "t": 678.6,
+      "end": 693.5,
+      "text": "All right. Let's stop and think how we achieved it. Like what actually happened. If you're not ready for details, you can stop watching this video now, but otherwise,"
+    },
+    {
+      "t": 693.5,
+      "end": 705.2,
+      "text": "let's switch to a different role center. With a quality management extension, we also including the special quality management role center."
+    },
+    {
+      "t": 705.2,
+      "end": 717.9,
+      "text": "I don't think many people will use it by default, but it has one very valuable part, demo tools. If I will activate show demo tools, you can see the number of steps"
+    },
+    {
+      "t": 717.9,
+      "end": 733.3,
+      "text": "which will guide you through the setup process and help you to understand how to configure and use the product. So, if you forgot how to use it, instead of watching video, you can always jump to the quality management role center and explore the tools."
+    },
+    {
+      "t": 733.3,
+      "end": 750,
+      "text": "So, the first step is about demo data. Ex- the demo data, we do not need to actually set up data. Set up data are installed automatically with extension, but it is very much isolated, so no impact on any other stuff or functionality of the product."
+    },
+    {
+      "t": 750,
+      "end": 764.6,
+      "text": "So, it's a very safe to install. The only things which will you see is number series. One number series series. Otherwise, for demonstration purposes, you might want to get some sample data like test,"
+    },
+    {
+      "t": 764.6,
+      "end": 775,
+      "text": "etc. For this one, you install stuff in the quality install quality uh module"
+    },
+    {
+      "t": 775,
+      "end": 785.2,
+      "text": "with the Contoso app. Contoso demo tool and you can see quality management already installed, so now we see all the data. That's good."
+    },
+    {
+      "t": 785.2,
+      "end": 796.4,
+      "text": "The next one, inspection results. You can ask like why why why are we starting with results? Uh because actually we are not inspecting results."
+    },
+    {
+      "t": 796.4,
+      "end": 812.1,
+      "text": "It is results configuration, so we need to configure possible outcomes. What does it mean? By default, there are three different states, inspection not started or in progress and then failed or passed."
+    },
+    {
+      "t": 812.1,
+      "end": 831.6,
+      "text": "But sometimes, the world is not black and white. It has like shadows in the between. For example, in the school, you have multiple grades. And uh you can always add extra grades to and and the register the fact that something perfectly passed and something like almost failed,"
+    },
+    {
+      "t": 831.6,
+      "end": 844,
+      "text": "but they still good. It is possible, but by default and many companies probably will be happy with it, we have three statuses. What else do we see here?"
+    },
+    {
+      "t": 844,
+      "end": 854.7,
+      "text": "Evaluation sequence. That's very interesting because it impacts on which status will be applied. You will see a bit later."
+    },
+    {
+      "t": 854.7,
+      "end": 865.7,
+      "text": "Another one interesting field, result visibility. It says promoted or configuration only. So, promoted, it means it will be visible in many places."
+    },
+    {
+      "t": 865.7,
+      "end": 884.7,
+      "text": "For example, in the inspection or printed in the document. We saw it. And the last one, but not least, it's a group of different allow columns which instruct what to do if there are items"
+    },
+    {
+      "t": 884.7,
+      "end": 901.1,
+      "text": "in if there are inspections for specific item with specific item tracking or lot tracking information. So, you saw the error when I tried to post the document because system identified that there is an item with a lot 25"
+    },
+    {
+      "t": 901.1,
+      "end": 912.9,
+      "text": "which has inspection in failed status. Remember the word failed? And regarding sales, it is not allowed. So, the sales transaction was blocked."
+    },
+    {
+      "t": 912.9,
+      "end": 923,
+      "text": "But we allow every other transactions. Maybe it would be reasonable also to block consumption uh if you in some manufacturing scenarios."
+    },
+    {
+      "t": 923,
+      "end": 933.2,
+      "text": "All right. Too much for the beginning? The next one will be easier. Or not. Uh quality tests."
+    },
+    {
+      "t": 933.2,
+      "end": 944,
+      "text": "So, everybody different, so we do the different checks. In some cases, we need to measure temperature. In some cases, we need to measure sizes or basically we can measure sizes"
+    },
+    {
+      "t": 944,
+      "end": 952.4,
+      "text": "for different group of items. Then you define all these quality parameters."
+    },
+    {
+      "t": 952.4,
+      "end": 967.1,
+      "text": "All different type of those. And they kind of work as a fields, so you can have them in different types. Decimals, integer, Boolean, looks familiar, test, date,"
+    },
+    {
+      "t": 967.1,
+      "end": 978.3,
+      "text": "option and table look up. That's something to explore. But let's start with the simple cases. For example, we will pick moisture which we already explored."
+    },
+    {
+      "t": 978.3,
+      "end": 990.6,
+      "text": "So, the name and description uh easy to do. Then test value type. It is integer in my case, but makes sense to have a decimal if it can be"
+    },
+    {
+      "t": 990.6,
+      "end": 1001.6,
+      "text": "some decimal points. All right. Then we can define allowable values. It's percentage, so it makes sense to do like between 0 and 100."
+    },
+    {
+      "t": 1001.6,
+      "end": 1012.4,
+      "text": "So, we do not allow inspector to make a typo and enter, for example, 1,000. So, the system just do not accept does not accept this value."
+    },
+    {
+      "t": 1012.4,
+      "end": 1030,
+      "text": "So, value must be between 0 and 100. But again, looks very familiar to the uh Business Central uh filtering capability, so nothing prevents you from doing something like that which makes no sense from uh"
+    },
+    {
+      "t": 1030,
+      "end": 1042,
+      "text": "percentage, but makes total sense from the filtering possibilities. You can always learn about filters"
+    },
+    {
+      "t": 1042,
+      "end": 1052.7,
+      "text": "in the documentation. But all right, let me remove this strange filter string and go backwards. Another one, default value. You can actually"
+    },
+    {
+      "t": 1052.7,
+      "end": 1063.2,
+      "text": "save some effort and specify what value will be populated by default. It is good and bad. On one hand, user, the inspector, do not"
+    },
+    {
+      "t": 1063.2,
+      "end": 1076.5,
+      "text": "does not need to modify the value when doing inspections. So, like, yeah, all good all good all good, match, pass. But because they do not change the value in the lines, system will not register who actually"
+    },
+    {
+      "t": 1076.5,
+      "end": 1091.5,
+      "text": "check this specific line. So, if you want to register the fact that somebody actually checked specific test or performed specific test and know the time when it happened and the name or who performed it,"
+    },
+    {
+      "t": 1091.5,
+      "end": 1103.9,
+      "text": "you should not use default values because otherwise lines will not be updated. Good to know, but let's move forward. Result conditions. This is very interesting tab."
+    },
+    {
+      "t": 1103.9,
+      "end": 1115.7,
+      "text": "It allows you to specify what actually we are checking and what will be uh the results of how the output will be evaluated."
+    },
+    {
+      "t": 1115.7,
+      "end": 1126.3,
+      "text": "All right. What we know? What we know? We know that we decided that we have only two buckets in addition to in progress, pass and fail."
+    },
+    {
+      "t": 1126.3,
+      "end": 1141.1,
+      "text": "And this is a pass condition and this is a fail condition. So, here we can specify even if we allow user to enter something between 0 and 100, the good values will be between 10 and 12."
+    },
+    {
+      "t": 1141.1,
+      "end": 1145.5,
+      "text": "What if user enters"
+    },
+    {
+      "t": 1145.5,
+      "end": 1159.7,
+      "text": "three? Then it is outside of this range, but within each each range. Yeah, it's definitely in the fail condition. So, three is definitely not zero, so yeah, fail is applicable."
+    },
+    {
+      "t": 1159.7,
+      "end": 1170.9,
+      "text": "And it's not applicable and it's not here. So, system will decide. What if somebody enters 11? Then,"
+    },
+    {
+      "t": 1170.9,
+      "end": 1184.1,
+      "text": "surprisingly, both pass and fail conditions applied. Yeah, because 11 is definitely not equal zero, so it is fail. But it is also"
+    },
+    {
+      "t": 1184.1,
+      "end": 1196,
+      "text": "between 10 and 12 which we decided to to use as a pass condition. So, which one system will pick? And here we need to"
+    },
+    {
+      "t": 1196,
+      "end": 1207.6,
+      "text": "check results. Quality inspection results. Remember, fail and pass and there is something which is called evaluation sequence. So, system will first check fail condition."
+    },
+    {
+      "t": 1207.6,
+      "end": 1219.8,
+      "text": "Yeah, it failed because 11 is not equal zero as we decide. Failed. Shall we check further? Yes, we should. And let's check the pass condition."
+    },
+    {
+      "t": 1219.8,
+      "end": 1230.8,
+      "text": "But 11 is also between 20 and 12. So, pass and because it has a high evaluation sequence and applicable, so it wins. That's might be difficult."
+    },
+    {
+      "t": 1230.8,
+      "end": 1242.8,
+      "text": "So, that's why up to you how you define this these different conditions. Maybe you can just write something absolutely different like till nine or"
+    },
+    {
+      "t": 1242.8,
+      "end": 1253.2,
+      "text": "what is 12? That's more reasonable. And then you don't need to think about these prioritizations. Up to you. Again, flexible, powerful,"
+    },
+    {
+      "t": 1253.2,
+      "end": 1265,
+      "text": "a bit difficult. Let's take a look at another example. Decimal we don't want to explore right now because kind of the same, but what about Boolean?"
+    },
+    {
+      "t": 1265,
+      "end": 1276.8,
+      "text": "Here we have example about break checks breaks check. So, this is you can always generate a checklist when people just say like yes, I tested this this this this this and set checkbox."
+    },
+    {
+      "t": 1276.8,
+      "end": 1289.1,
+      "text": "Boolean field is very good for it. And you have pass and fail conditions which are very clearly defined. You can define the default value. And let me press the button."
+    },
+    {
+      "t": 1289.1,
+      "end": 1301.1,
+      "text": "And this is how it will look for for user. So, we can don't need to type in information. We can always select from possible possible options."
+    },
+    {
+      "t": 1301.1,
+      "end": 1310,
+      "text": "All right. So, this is like very short list with only two values. Now we're talking about list."
+    },
+    {
+      "t": 1310,
+      "end": 1322.8,
+      "text": "List. For people who developed and used C L O L as a developer know the word option. It's a data type which allows you to set"
+    },
+    {
+      "t": 1322.8,
+      "end": 1334.7,
+      "text": "to provide number of allowed values and separate them with a comma. So, this is exactly what I did. I specified option type, but which value user can select from?"
+    },
+    {
+      "t": 1334.7,
+      "end": 1345.5,
+      "text": "They are all listed in allowable values field. And it's color for etc. etc. And I put the beginning"
+    },
+    {
+      "t": 1345.5,
+      "end": 1355.8,
+      "text": "I have it as as an empty string. Maybe that was not very smart. Maybe I should have something"
+    },
+    {
+      "t": 1355.8,
+      "end": 1361,
+      "text": "like no defect."
+    },
+    {
+      "t": 1362.8,
+      "end": 1373.6,
+      "text": "Maybe that looks even even better. That's that's a not a not a bad option. All right. And this is my pass conditions like all of them."
+    },
+    {
+      "t": 1373.6,
+      "end": 1377.1,
+      "text": "And"
+    },
+    {
+      "t": 1377.1,
+      "end": 1390,
+      "text": "now I have no defects. Maybe I could specify it differently. I can open this quality inspection template edit and use it. Or I can just type my formula directly."
+    },
+    {
+      "t": 1390,
+      "end": 1403,
+      "text": "No defects. Should also work. Yeah, I'm using it in already different template and inspection. So, of course if I'm doing some changes, it should be propagated."
+    },
+    {
+      "t": 1403,
+      "end": 1407,
+      "text": "Good."
+    },
+    {
+      "t": 1407,
+      "end": 1419.8,
+      "text": "Is it the only way to define multiple selection? Not really. And you already guess that I'm going to talk about something which is called lookup table lookup."
+    },
+    {
+      "t": 1419.8,
+      "end": 1431.3,
+      "text": "Coffee bean uniformity. That's our option. I select table lookup and then finally the table lookup configuration first up start making sense."
+    },
+    {
+      "t": 1431.3,
+      "end": 1444.4,
+      "text": "So, here we are defining what kind of lookup you want to do. So, we can do lookup to any table in Business Central. Yeah, really. Let's try to do that. For example, it will be country."
+    },
+    {
+      "t": 1444.4,
+      "end": 1454.7,
+      "text": "Country. And it will be table lookup table lookup. >> [snorts] >> And then I'm going to use country."
+    },
+    {
+      "t": 1454.7,
+      "end": 1466.4,
+      "text": "Do you remember the ID? Let me guess. Probably it will be nine. Not that one. All right. Now I can select any value from country."
+    },
+    {
+      "t": 1466.4,
+      "end": 1479.4,
+      "text": "Let me let me show. Looks empty. Why so? So, it should have some values. We definitely have a list information about country because I did not specify which field I want to use."
+    },
+    {
+      "t": 1479.4,
+      "end": 1491.2,
+      "text": "Notice it's not using primary key because again we can select any table with a very complex primary key which consists of like two, three, five in some cases fields."
+    },
+    {
+      "t": 1491.2,
+      "end": 1502.4,
+      "text": "So, we need to pick something else. Which field I'm going to use? I will be using name. All right. And you can see allowable allowable values automatically populated."
+    },
+    {
+      "t": 1502.4,
+      "end": 1512.4,
+      "text": "And if I will click here, I can see the list. Yeah, names. But I can also apply some filters."
+    },
+    {
+      "t": 1512.4,
+      "end": 1521.3,
+      "text": "For example, I'm only interested in countries where"
+    },
+    {
+      "t": 1521.3,
+      "end": 1531,
+      "text": "Let's focus on European ones. Not empty. Why not?"
+    },
+    {
+      "t": 1531.9,
+      "end": 1544.7,
+      "text": "And now the list is shorter and looks like it includes only European countries. All right. What if I will do some crazy stuff here? What if I will go to"
+    },
+    {
+      "t": 1544.7,
+      "end": 1551.5,
+      "text": "GL entries. And I will be looking at"
+    },
+    {
+      "t": 1552.2,
+      "end": 1564,
+      "text": "No, I'm not using any filters. That's on purpose. And I'm selecting the entry number. All right. What will happen if I will try to click here? Million of entries?"
+    },
+    {
+      "t": 1564,
+      "end": 1576.8,
+      "text": "Definitely not. As you can see, it stopped exactly on the number 30. Why? Performance reasons, of course, like because if people select something unreasonable"
+    },
+    {
+      "t": 1576.8,
+      "end": 1594.7,
+      "text": "and it will take some time to browse through the all GL ledger entries. We don't want that. So, there is a setup in the quality management setup where we have some setups which actually dictates the number of rows to fetch in the lookup."
+    },
+    {
+      "t": 1594.7,
+      "end": 1608.5,
+      "text": "That's a little bit interesting name of the field, but the value 30 definitely indicate that it's used in this specific scenario. Let me change it to 40 and and try it again."
+    },
+    {
+      "t": 1608.5,
+      "end": 1622.3,
+      "text": "Oh, now it goes up to the 40. Should we try two millions? No, not in this demo. All right. But what if I don't have the table with the right data?"
+    },
+    {
+      "t": 1622.3,
+      "end": 1631.2,
+      "text": "We have something for you. Some values."
+    },
+    {
+      "t": 1632,
+      "end": 1643,
+      "text": "As soon as you define decide to use table lookup, the table lookup configuration it gets automatically populated with a very specific table. This is its name."
+    },
+    {
+      "t": 1643,
+      "end": 1654,
+      "text": "This is its number. What does this table has in it? We can always check. Quality lookup."
+    },
+    {
+      "t": 1654,
+      "end": 1664.5,
+      "text": "Test lookup values. As you can see, it's a very interesting table. It has the first field"
+    },
+    {
+      "t": 1664.5,
+      "end": 1675.5,
+      "text": "which similar to what we see in the in the quality test names. Yeah, so like we remember we had something called coffee defects."
+    },
+    {
+      "t": 1675.5,
+      "end": 1690,
+      "text": "Yeah, with a color for etc. Oh, no. Coffee uniformity irregular, mixed, and uniform. You remember them. So, these three lines are linked to specific test by the lookup code."
+    },
+    {
+      "t": 1690,
+      "end": 1704.8,
+      "text": "And it happens automatically as soon as you define the the new test. You can see that lookup field filter is populated. It says that lookup group code to be used some values in this case."
+    },
+    {
+      "t": 1704.8,
+      "end": 1717.7,
+      "text": "Okay, not bad. And lookup field is automatically populated the value. Now I need to somehow populate the values. The easiest way will be go to allowable values and press the button."
+    },
+    {
+      "t": 1717.7,
+      "end": 1731.2,
+      "text": "So, that's a super easy way to initialize this table. We can of course go to a separate uh quality test lookup table as we saw few seconds earlier, but this is just easier."
+    },
+    {
+      "t": 1731.2,
+      "end": 1747.7,
+      "text": "Value one, value two, value three. Okay. And it already works. I can already select the the default value and in the the same way it will be selected in the inspection as well."
+    },
+    {
+      "t": 1747.7,
+      "end": 1758.9,
+      "text": "All right. Phew. I promised to make this easier. I think it is now after this video."
+    },
+    {
+      "t": 1758.9,
+      "end": 1770.1,
+      "text": "All right. So, what what we learned so far? You have quality inspection results where you can define fail or pass or maybe more. And then you can instruct which of those should be propagated to the test and use them."
+    },
+    {
+      "t": 1770.1,
+      "end": 1781.4,
+      "text": "All right. Now we define the test of different type integer or decimal or maybe date or maybe text or maybe something else. Option lookup and Boolean for different type of selections."
+    },
+    {
+      "t": 1781.4,
+      "end": 1792.4,
+      "text": "All right. But now time to take the right test and gather them together. And it will be quality template."
+    },
+    {
+      "t": 1792.4,
+      "end": 1803.3,
+      "text": "We have collection of different templates and the one which we already saw, it's a coffee related coffee bean templates."
+    },
+    {
+      "t": 1803.3,
+      "end": 1813.4,
+      "text": "I have multiple different tests added as a lines. So, that's exactly what I want to check. You remember we checked the package visual labels"
+    },
+    {
+      "t": 1813.4,
+      "end": 1824.1,
+      "text": "uh some coffee parameters even additional comments, free entry text. What we didn't check is the verification. It's a special entry of type label."
+    },
+    {
+      "t": 1824.1,
+      "end": 1835.3,
+      "text": "Does nothing only just to split stuff and uh looks look good on when you print the document when you print the inspection. It's a it works as a separator."
+    },
+    {
+      "t": 1835.3,
+      "end": 1845.6,
+      "text": "All right, separator with name. If you can enter. Also, remember about sampling size. We have two types"
+    },
+    {
+      "t": 1845.6,
+      "end": 1857.9,
+      "text": "in addition to to not define uh sample size. We have two types, fixed quantity and percent of quantity. So, I decided to go with a percent, 10%. What will be 10% of 25?"
+    },
+    {
+      "t": 1857.9,
+      "end": 1870,
+      "text": "2.5, round it up, three. So, only only uh integers are allowed here. All right, so now we know what to test. We know how many"
+    },
+    {
+      "t": 1870,
+      "end": 1880,
+      "text": "what is a what is a samples quantity. How do we connect this template to specific operation?"
+    },
+    {
+      "t": 1880,
+      "end": 1887.3,
+      "text": "Again, it's called inspection generation rules."
+    },
+    {
+      "t": 1887.5,
+      "end": 1899.2,
+      "text": "What is it? It's a separate table which defines when this template can be used. And for what? So, this template"
+    },
+    {
+      "t": 1899.2,
+      "end": 1911,
+      "text": "I decided to use it for purchase scenarios. Can I use it for something else? Definitely. For example, I can use it for"
+    },
+    {
+      "t": 1911,
+      "end": 1922.8,
+      "text": "sales scenario. What? Sales return. Yeah, of course. Sales scenarios when we are receiving something, it is sales return. But, when is it like for every line?"
+    },
+    {
+      "t": 1922.8,
+      "end": 1935.5,
+      "text": "You can define conditions. You can define conditions for line. I decided that I'm only running this inspection if my location is main. But, I can have other parameters, maybe quantity."
+    },
+    {
+      "t": 1935.5,
+      "end": 1940.2,
+      "text": "Maybe maybe"
+    },
+    {
+      "t": 1940.2,
+      "end": 1955.4,
+      "text": "any of other hundred of fields we have here. For example, I can skip drop shipments. We have a separate video about drop shipments, by the way. All right. Then, I can also enhance my filters and deal with items."
+    },
+    {
+      "t": 1955.4,
+      "end": 1967.1,
+      "text": "Even if location is main, let's check the items. I decided only to test items where item tracking code is not empty. Why?"
+    },
+    {
+      "t": 1967.1,
+      "end": 1978.8,
+      "text": "You can use quality management for different purposes without tracking code. But, if you use tracking code, then there even more interesting scenarios."
+    },
+    {
+      "t": 1978.8,
+      "end": 1990.1,
+      "text": "For example, uh they all limitations which we saw in the quality results like allow post, allow allow sales, allow purchase, allow allow consumption, etc."
+    },
+    {
+      "t": 1990.1,
+      "end": 2004.2,
+      "text": "They only work for items with item tracking. For items without tracking, you need to use a different ways to to block them and exclude them from inventory if they are of not good quality."
+    },
+    {
+      "t": 2004.2,
+      "end": 2015.7,
+      "text": "All right, and items also have concept of attributes. So, we can also define extra parameters about attributes. The next one is when do we create inspection?"
+    },
+    {
+      "t": 2015.7,
+      "end": 2026.8,
+      "text": "Maybe manually. Fair enough, you can press the button in which is available in many many places. In the purchase document, item trackings, you can press the buttons. Or it might happen automatically"
+    },
+    {
+      "t": 2026.8,
+      "end": 2040.9,
+      "text": "for different intent, is it purchase or sales? Of course, the event or trigger will be also different. For example, for purchase orders, it can be order received or order is released."
+    },
+    {
+      "t": 2040.9,
+      "end": 2056.4,
+      "text": "It's not applicable for sales returns. For sales returns, we have a separate column which kind of very similar. Something is received. Good. Scheduled group is if for inspections which you want to run on the recurring basis and use a job queue to create them."
+    },
+    {
+      "t": 2056.4,
+      "end": 2067.3,
+      "text": "So, it's a not business events, it's timer based event. All right, so we defined this uh inspection generation rule."
+    },
+    {
+      "t": 2067.3,
+      "end": 2080.2,
+      "text": "And now, as soon as we post purchase document, inspection will be created. So, this is our existing inspections. Now, they look dramatically more familiar to you."
+    },
+    {
+      "t": 2080.2,
+      "end": 2091.3,
+      "text": "So, we see information about tracking. So, what exactly we're testing. Remember it. The sample size. You know where it's coming from? From the source rules."
+    },
+    {
+      "t": 2091.3,
+      "end": 2097.4,
+      "text": "The the result. Where is my result?"
+    },
+    {
+      "t": 2097.4,
+      "end": 2110.6,
+      "text": "Okay, this is my result in the status. And you know where results is coming from? From the quality inspection results. And you remember that it blocks sales because my item has a uh item tracking defined."
+    },
+    {
+      "t": 2110.6,
+      "end": 2125.8,
+      "text": "And these lines are coming from template and in the template from quality test. And we can open the them to get additional information. For example, what does this pass and fail uh criteria means."
+    },
+    {
+      "t": 2125.8,
+      "end": 2132.7,
+      "text": "Yeah. Pass condition, fail condition."
+    },
+    {
+      "t": 2133.2,
+      "end": 2143.9,
+      "text": "All right. Almost there. Almost there. One more page to explore. It will be quality setup."
+    },
+    {
+      "t": 2143.9,
+      "end": 2154,
+      "text": "Quality management setup. As I mentioned, once we install this extension because it will be preinstalled, but only for new environments."
+    },
+    {
+      "t": 2154,
+      "end": 2166.8,
+      "text": "So, like if you create new environment in the 2026 Oh, it's 2026 nowadays. Uh wave one release, quality management will be there."
+    },
+    {
+      "t": 2166.8,
+      "end": 2179.2,
+      "text": "So, you can directly navigate to quality management setup page and other places. And uh and explore."
+    },
+    {
+      "t": 2179.2,
+      "end": 2191.8,
+      "text": "But, uh for existing customers, for existing customers, what will happen? Uh you need to navigate in the app source and find the quality management app and install it."
+    },
+    {
+      "t": 2191.8,
+      "end": 2204.8,
+      "text": "And at this point of time, something will happen, system will initialize some values. But again, the only table the normal table uh or shared table, it will be the number series."
+    },
+    {
+      "t": 2204.8,
+      "end": 2218.8,
+      "text": "So, with this value will be will be inserted. Everything else is super safe. So, unless you suspect that you will have a conflict with the quality inspection number series, you're very safe to install it, uninstall it at any point of time."
+    },
+    {
+      "t": 2218.8,
+      "end": 2230.3,
+      "text": "All right. What else? What are these fields are doing here? They are default values. They will be used in the"
+    },
+    {
+      "t": 2230.3,
+      "end": 2244,
+      "text": "when you create generation rules, quality inspection generation rule. Remember my purchase trigger, it will set by to never, but I could set up the default value. Then, once I initialize a new line, it will be"
+    },
+    {
+      "t": 2244,
+      "end": 2258.1,
+      "text": "purchase trigger will be initialized respectively. Another one. That's a good one. Which reminds me that I forgot to show you something in the quality inspection."
+    },
+    {
+      "t": 2258.1,
+      "end": 2271.4,
+      "text": "It is about what to do uh what you can do with uh failed or passed scenarios. Let me show it."
+    },
+    {
+      "t": 2272.7,
+      "end": 2282.6,
+      "text": "Let's navigate to the to some inspection. For example, the pass one. And what we can do here?"
+    },
+    {
+      "t": 2282.6,
+      "end": 2294,
+      "text": "We can finish it. You know, we can reopen it. We can create reinspection. In this case, it will stay here, but the new version will be created. And then, you can do something."
+    },
+    {
+      "t": 2294,
+      "end": 2308.1,
+      "text": "Uh reopen and deletion is limited by permission. So, if you are not quality management administrator, you cannot do these actions. It's only only uh administrator can do that."
+    },
+    {
+      "t": 2308.1,
+      "end": 2319,
+      "text": "Other people just recreate inspections. All right. And then, what you can do? Multiple actions. You can move inventory."
+    },
+    {
+      "t": 2319,
+      "end": 2329.2,
+      "text": "What does it mean? Reclassification journal. You can move it also using transfer order. You can move it inside"
+    },
+    {
+      "t": 2329.2,
+      "end": 2339.6,
+      "text": "by using uh between bins. Again, reclassification journal or internal put away if you're using directed put away and pick scenarios."
+    },
+    {
+      "t": 2339.6,
+      "end": 2350.1,
+      "text": "Negative adjustment. Write it off. It's broken, no chance. And purchase return order. You can retry, return it to the vendor."
+    },
+    {
+      "t": 2350.1,
+      "end": 2360.8,
+      "text": "Depends on your agreements with your vendor. What else? We already know. You can also change item tracking. Maybe"
+    },
+    {
+      "t": 2360.8,
+      "end": 2373.7,
+      "text": "lot number or expiration dates. All right, and when you trigger, for example, negative adjustment."
+    },
+    {
+      "t": 2373.7,
+      "end": 2386.2,
+      "text": "You can define what quantity to use. You can use the full quantity, you can specify quantity which you can specify here. Or you can use sample quantity failed or pass quantity."
+    },
+    {
+      "t": 2386.2,
+      "end": 2395.4,
+      "text": "You can see that we have a with a separate field and sample quantity which is right now hiding is also available."
+    },
+    {
+      "t": 2395.4,
+      "end": 2408.1,
+      "text": "Populate some extra fields. For example, reason code. Yeah, it makes sense to use a different reason code. Additional filters and actions. Okay, the journal line is created."
+    },
+    {
+      "t": 2408.1,
+      "end": 2419.7,
+      "text": "What next? Nothing. You can review and post it later maybe with approvals. But you can also post it immediately if you do not use approvals."
+    },
+    {
+      "t": 2419.7,
+      "end": 2432.4,
+      "text": "All right. Extra fields. Do nothing. Cancel. But you remember that in my demo scenario that happened automatically."
+    },
+    {
+      "t": 2432.4,
+      "end": 2443.1,
+      "text": "The answer is workflows. Yes, yes. The standard built-in workflows."
+    },
+    {
+      "t": 2443.1,
+      "end": 2454.4,
+      "text": "We do not have templates because these workflows are very simple, I would say. They are not that complex to configure as any approval workflows."
+    },
+    {
+      "t": 2454.4,
+      "end": 2468.8,
+      "text": "When you need to approve one first etc. No, it's a one liner basically. When something happens, when event happened and there are four quality management related events."
+    },
+    {
+      "t": 2468.8,
+      "end": 2479.2,
+      "text": "All about inspection. So, quality inspection created, changed, finished, reopened. So, there are four events. Very simple."
+    },
+    {
+      "t": 2479.2,
+      "end": 2491.6,
+      "text": "When one of these events happen, you select which one, and you can change check condition. It is finished but with what condition? Or maybe for which item because you can decide different rules for different items."
+    },
+    {
+      "t": 2491.6,
+      "end": 2505.9,
+      "text": "Which location etc. Result fail, then what do we do? There again number of default responses. It's a little bit longer list but again manageable."
+    },
+    {
+      "t": 2505.9,
+      "end": 2517.2,
+      "text": "If you're using tracking, you can block tracking numbers. For example, you start inspection, you immediately block tracking numbers. You finish inspection, you do what?"
+    },
+    {
+      "t": 2517.2,
+      "end": 2527.6,
+      "text": "Depends on the result. Maybe you unblocked finish status. Actions. That's a simple six responses."
+    },
+    {
+      "t": 2527.6,
+      "end": 2538.9,
+      "text": "Next one is about inspection itself. You create inspection, you can recreate inspection, you can finish inspection."
+    },
+    {
+      "t": 2539.2,
+      "end": 2549.8,
+      "text": "You can reopen inspection. So, there are something based on based on conditions. So, there are three actions about inspections itself. And then about movements."
+    },
+    {
+      "t": 2549.8,
+      "end": 2557.4,
+      "text": "You can move or whatever you saw."
+    },
+    {
+      "t": 2557.4,
+      "end": 2570.5,
+      "text": "Negative adjustment, internal put away, purchase return, transfer order, move inventory from inspection, uh yeah, maybe something else."
+    },
+    {
+      "t": 2570.5,
+      "end": 2581,
+      "text": "I don't see something don't see anything else. And tracking information. You can change check change tracking information. So, the same actions which you saw in the"
+    },
+    {
+      "t": 2581,
+      "end": 2597.5,
+      "text": "quality inspection itself. And some people are asking, \"What about Power Automate? Isn't it the future?\" Power Automate is very great tool and we do expose the similar events and the similar responses through API."
+    },
+    {
+      "t": 2597.5,
+      "end": 2610.1,
+      "text": "So, if you prefer to use Power Automate, go ahead. But there is a benefit of using some of these internally with built-in workflows because if you when you create inspection"
+    },
+    {
+      "t": 2610.1,
+      "end": 2621,
+      "text": "and you plan to block lot, there is no point to call the external engine and do orchestration outside and then go back and do market. Like, why?"
+    },
+    {
+      "t": 2621,
+      "end": 2631.2,
+      "text": "You can perform these actions very much inside the Business Central without leaving and solving all these authentication problems etc. It's a very simple activity."
+    },
+    {
+      "t": 2631.2,
+      "end": 2643.2,
+      "text": "So, with simple activities which do not require human involvement, maybe it's not approval notification etc. And just perform the action."
+    },
+    {
+      "t": 2643.2,
+      "end": 2654,
+      "text": "Do it internally. It's a easy to set up. It's fast. It runs in the same transaction. So, if something goes wrong, it will be rolled back."
+    },
+    {
+      "t": 2654,
+      "end": 2667.7,
+      "text": "I think it has its own list of use cases and I'm very surprised that we did not look at it uh for all 10 years when this workflow engine was introduced and only focusing on the approval scenarios."
+    },
+    {
+      "t": 2667.7,
+      "end": 2677.7,
+      "text": "It's actually very good for simple automation. If events and response are present. And for quality management, decent number of events and decent number of responses are present."
+    },
+    {
+      "t": 2677.7,
+      "end": 2692.6,
+      "text": "So, use it. If you, of course, prefer to based on some event send notification in Teams and ask user to make a decision and then they choose A or B,"
+    },
+    {
+      "t": 2692.6,
+      "end": 2713.4,
+      "text": "go with it. APIs, events etc. Everything is exposed. So, long video. We started with a very short and inspiring demonstration how you can use quality management app and how it impacts the flow and involve different users in the in the process."
+    },
+    {
+      "t": 2713.4,
+      "end": 2723.8,
+      "text": "Then we did a very deep dive but not on a different ideas on how to configure the different templates, rules etc."
+    },
+    {
+      "t": 2723.8,
+      "end": 2738,
+      "text": "connected to different processes and set up automatic or maybe manual processes. So, time for you to explore. Of course, it's not everything. There are much more scenarios which I did not describe."
+    },
+    {
+      "t": 2738,
+      "end": 2749.2,
+      "text": "Check our documentation and if you have any questions, you know where to find us. We have YouTube channel and now we have a Viva Engage in addition to our LinkedIn"
+    },
+    {
+      "t": 2749.2,
+      "end": 2762.3,
+      "text": "account where we are always ready to collaborate and here for your feedback. Thank you for watching. Try it and have a nice day."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    },
+    {
+      "t": 981.201,
+      "text": "[snorts]"
+    }
+  ],
+  "word_count": 5923
+}

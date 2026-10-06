@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-to-create-production-orders.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-production-orders",
+  "title": "Create production orders",
+  "blob": "cd638d5936deef1d81faf75201ac9d9ec3bd4eaf",
+  "summary": "Create production orders specifying items to produce, quantities, and due dates. Define production order headers with source types (item, family, or sales order), add production lines, copy lines from existing orders, and refresh production orders when requirements change.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "production orders",
+    "manufacturing",
+    "firm planned orders",
+    "production bom",
+    "production planning"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Firm Planned Prod. Orders"
+    },
+    {
+      "type": "page",
+      "name": "Simulated Production Orders"
+    },
+    {
+      "type": "page",
+      "name": "Planned Production Orders"
+    },
+    {
+      "type": "page",
+      "name": "Released Production Orders"
+    }
+  ],
+  "features": [
+    "Production order header creation",
+    "Source type selection",
+    "Quantity specification",
+    "Due date configuration",
+    "Starting date/time calculation",
+    "Ending date/time calculation",
+    "Production line entry",
+    "Copy production order lines"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008326,
+      "pages_in_call": 8
+    }
+  ]
+}

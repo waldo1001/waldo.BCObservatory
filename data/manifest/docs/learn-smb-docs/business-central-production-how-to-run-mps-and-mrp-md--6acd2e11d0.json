@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-run-mps-and-mrp",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "91eccbadc26b54df668e409b82dbc30ace32f225",
       "words": 1906,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T13:53:10.120Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.008326
+    },
+    "summarized": {
+      "at": "2026-10-06T13:53:10.126Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:53:10.127Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:53:10.127Z",
+      "page": false
     }
   },
   "input_hash": "91eccbadc26b54df668e409b82dbc30ace32f225",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "91eccbadc26b54df668e409b82dbc30ace32f225"
+  "output_hash": "1c6143d36823f9a163de11b0e4639462ec6af5c2a4092b39d50a6b13abfef0ce"
 }

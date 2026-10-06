@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/install-mobile-app",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "53c158e9b18da958f440b92f69578661a2d76001",
       "words": 425,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:51:07.568Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007547
+    },
+    "summarized": {
+      "at": "2026-10-06T13:51:07.572Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:51:07.572Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:51:07.572Z",
+      "page": false
     }
   },
   "input_hash": "53c158e9b18da958f440b92f69578661a2d76001",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "53c158e9b18da958f440b92f69578661a2d76001"
+  "output_hash": "a99635d3aa05138167da87b8a510d715ef0750677df49ee7a84ede4c94f14d64"
 }

@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-service-posting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-service-posting",
+  "title": "Service posting",
+  "blob": "8fca9b0feec457f1c3fdf6776b2e9128ad8c749a",
+  "summary": "Service posting functionality enables efficient processing of service documents and maintains customer service policy by creating posted documents and ledger entries across service and other modules.",
+  "systems": [
+    "service",
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "service posting",
+    "service orders",
+    "shipment",
+    "invoicing",
+    "consumption",
+    "sustainability"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Lines"
+    },
+    {
+      "type": "page",
+      "name": "Posted Service Shipment"
+    },
+    {
+      "type": "page",
+      "name": "Posted Service Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Posted Service Credit Memo"
+    }
+  ],
+  "features": [
+    "service shipment",
+    "service invoice",
+    "partial posting",
+    "service consumption",
+    "sustainability value chain tracking",
+    "ledger entry creation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007092,
+      "pages_in_call": 7
+    }
+  ]
+}

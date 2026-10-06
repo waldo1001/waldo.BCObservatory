@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-sustainability-journal",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ee83d0074a9162a4db217c249d6e6c59640c6447",
       "words": 2244,
       "forms": 9
+    },
+    "extracted": {
+      "at": "2026-10-06T13:48:42.818Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007148
+    },
+    "summarized": {
+      "at": "2026-10-06T13:48:42.823Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:48:42.823Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:48:42.823Z",
+      "page": false
     }
   },
   "input_hash": "ee83d0074a9162a4db217c249d6e6c59640c6447",
@@ -91,5 +110,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ee83d0074a9162a4db217c249d6e6c59640c6447"
+  "output_hash": "de3392cd27bd7b1318155d93e183a5982e83e64685cdab4483a66cb2dcce0783"
 }

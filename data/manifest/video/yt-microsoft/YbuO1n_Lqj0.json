@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Enhanced IT Audit Reporting (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=YbuO1n_Lqj0",
-  "published_at": null,
+  "published_at": "2026-04-01T12:00:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:53:57.999Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1348
+    },
+    "captioned": {
+      "at": "2026-10-06T13:54:20.446Z",
+      "path": "data/captions/microsoft/YbuO1n_Lqj0.vtt",
+      "vtt_sha256": "07f73d628c02710e909c02434d14de984d1feca68bb38ff2f9260371195480cc",
+      "segments": 93,
+      "words": 3385,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 109,
-    "duration_s": 1349,
-    "via": "reconcile"
-  }
+    "duration_s": 1348,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "07f73d628c02710e909c02434d14de984d1feca68bb38ff2f9260371195480cc"
 }

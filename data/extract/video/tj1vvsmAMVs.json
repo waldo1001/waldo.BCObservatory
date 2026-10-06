@@ -1,0 +1,542 @@
+{
+  "video_id": "tj1vvsmAMVs",
+  "item_id": "video/yt-microsoft/tj1vvsmAMVs",
+  "title": "What's new in Expense Agent: Overview (2026 release wave 2)",
+  "duration_s": 893,
+  "systems": [
+    "copilot",
+    "finance",
+    "hr"
+  ],
+  "topics": [
+    "expense agent",
+    "mileage allowance",
+    "credit card feeds",
+    "travel expense policies",
+    "ai-driven approvals",
+    "travel requests",
+    "mobile app",
+    "vat reclaim",
+    "withholding tax",
+    "expense reports"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Session Overview",
+      "t_start": 0,
+      "t_end": 51.8
+    },
+    {
+      "title": "Web App Refresh and Language Support",
+      "t_start": 51.8,
+      "t_end": 76
+    },
+    {
+      "title": "Worldwide Availability Rollout",
+      "t_start": 76,
+      "t_end": 110.7
+    },
+    {
+      "title": "Improved Mileage Handling",
+      "t_start": 110.7,
+      "t_end": 194.5
+    },
+    {
+      "title": "Credit Card Feeds Enablement",
+      "t_start": 194.5,
+      "t_end": 300.1
+    },
+    {
+      "title": "AI-Driven Travel Expense Policy Approvals",
+      "t_start": 300.1,
+      "t_end": 459.8
+    },
+    {
+      "title": "Travel Requests and Expense Report Creation",
+      "t_start": 459.8,
+      "t_end": 537.5
+    },
+    {
+      "title": "New Mobile App",
+      "t_start": 537.5,
+      "t_end": 598.4
+    },
+    {
+      "title": "VAT Reclaim in Expense Reports",
+      "t_start": 598.4,
+      "t_end": 790.9
+    },
+    {
+      "title": "Withholding Tax for Employees and Closing Remarks",
+      "t_start": 790.9,
+      "t_end": 893
+    }
+  ],
+  "features": [
+    {
+      "name": "Improved Mileage Handling with Period-Based Rates",
+      "description": "Users can now configure mileage allowances per different periods, allowing for changes across years. System automatically applies the correct rate based on expense date.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 110.7,
+      "t_end": 147.4,
+      "is_demoed": false,
+      "caveats": [
+        "Customers can use a simple model without setting up periods if preferred",
+        "A separate session covers mileage in detail"
+      ],
+      "tags": [
+        "mileage",
+        "allowance",
+        "configuration",
+        "period-based"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Vehicle Type-Specific Mileage Rates",
+      "description": "Users can define different mileage allowances for different vehicle types such as car, truck, SUV, and motorcycle, combined with date ranges.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 147.4,
+      "t_end": 183,
+      "is_demoed": false,
+      "caveats": [
+        "Complexity is optional; simple setup available for customers who do not need this"
+      ],
+      "tags": [
+        "mileage",
+        "vehicle-type",
+        "allowance"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Credit Card Feeds Manual Upload",
+      "description": "Users can manually upload credit card statements which the system processes and reconciles with expenses. Automatically reconciles credit card records with existing expenses.",
+      "status": "announced",
+      "status_evidence_t": 209.1,
+      "status_evidence_quote": "it will not be available from October, it will be available from December, so 2029.2.",
+      "status_evidence_verified": true,
+      "t_start": 194.5,
+      "t_end": 248.2,
+      "is_demoed": false,
+      "caveats": [
+        "Available from December 2029.2, not October 2026",
+        "First release; features expand in later releases"
+      ],
+      "tags": [
+        "credit-card-feeds",
+        "reconciliation",
+        "upload"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Reactive Credit Card Expense Creation",
+      "description": "If receipts are not scanned in advance, system automatically creates expenses from credit card records. Users must later attach receipts before submitting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 248.2,
+      "t_end": 275.9,
+      "is_demoed": false,
+      "caveats": [
+        "Receipts must be attached before expense submission",
+        "Applies when expenses are created after credit card statement upload"
+      ],
+      "tags": [
+        "credit-card-feeds",
+        "expense-creation",
+        "receipt-attachment"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Proactive Credit Card Reconciliation",
+      "description": "If receipts are scanned in advance, system automatically reconciles credit card records with existing expenses in the background without user intervention.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 275.9,
+      "t_end": 300.1,
+      "is_demoed": false,
+      "caveats": [
+        "Only applies when receipts are scanned prior to credit card upload",
+        "Reconciliation is automatic based on which comes first"
+      ],
+      "tags": [
+        "credit-card-feeds",
+        "reconciliation",
+        "receipt-scanning"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "AI-Driven Travel Expense Policy Compliance",
+      "description": "System automatically checks all expenses against configured travel policies using AI. Policies are human-readable text covering flight classes, upgrades, and private aircraft usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 300.1,
+      "t_end": 378.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires enabling policy compliance which incurs additional AI costs",
+        "Flagged items are not hard limitations; approvers can override",
+        "Separate session covers details and demonstrations"
+      ],
+      "tags": [
+        "ai-driven",
+        "policy-compliance",
+        "travel-expense",
+        "approval"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Policy Flagging for Non-Compliant Expenses",
+      "description": "System flags expenses that do not comply with configured policies, such as missing flight class specification, to help approvers make informed decisions without hard blocking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 378.5,
+      "t_end": 421,
+      "is_demoed": true,
+      "caveats": [
+        "Flagged items do not prevent approval; approvers can approve non-compliant expenses"
+      ],
+      "tags": [
+        "policy-compliance",
+        "flagging",
+        "approval"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Enhanced Approval History and Audit Trail",
+      "description": "Expense approvals now include detailed approval history and audit trail to provide transparency in the approval process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 421,
+      "t_end": 459.8,
+      "is_demoed": false,
+      "caveats": [
+        "Details shown in separate session"
+      ],
+      "tags": [
+        "approval",
+        "history",
+        "audit-trail"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Interim Approvers and Delegate Approvals",
+      "description": "Approval workflow now supports interim approvers, specification of approval limits, and alternate delegate approvals.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 421,
+      "t_end": 459.8,
+      "is_demoed": false,
+      "caveats": [
+        "Gradual rollout from October to December"
+      ],
+      "tags": [
+        "approval",
+        "delegates",
+        "workflow"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Travel Requests",
+      "description": "New functionality allowing users to create travel requests for specific trips (e.g., conferences) that go through approval. When approved, system automatically creates an expense report and assigns all trip-related receipts to it.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 459.8,
+      "t_end": 537.5,
+      "is_demoed": false,
+      "caveats": [
+        "Completely new functionality",
+        "Separate session covers details",
+        "Gradual rollout from October to December"
+      ],
+      "tags": [
+        "travel-request",
+        "expense-report",
+        "approval"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Automatic Travel Expense Assignment",
+      "description": "System automatically assigns all receipts and expenses specified for a particular trip to the corresponding expense report created from the travel request.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 513.4,
+      "t_end": 537.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "travel-request",
+        "expense-report",
+        "automatic-assignment"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "New Mobile App with Offline Support",
+      "description": "New mobile app (available on iPhone and Android) allows users to scan receipts. System automatically crops receipts from background and works in offline mode, processing receipts when internet becomes available.",
+      "status": "preview",
+      "status_evidence_t": 537.5,
+      "status_evidence_quote": "this is available right now in a preview. So, only for testing, but this is this is available.",
+      "status_evidence_verified": true,
+      "t_start": 537.5,
+      "t_end": 598.4,
+      "is_demoed": true,
+      "caveats": [
+        "Currently in preview for testing only",
+        "Works on both iPhone and Android",
+        "Separate session covers details"
+      ],
+      "tags": [
+        "mobile-app",
+        "receipt-scanning",
+        "offline"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "VAT Reclaim in Expense Reports",
+      "description": "Users can now claim VAT in expense reports. System automatically identifies and collects VAT details from receipts and prepares VAT specifications per line. Requires enabling VAT reclaim in agent setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 598.4,
+      "t_end": 724.6,
+      "is_demoed": false,
+      "caveats": [
+        "Not fully automated; accountants must review and confirm",
+        "Rules vary by country; some countries do not allow VAT reclaim via expense reports",
+        "VAT only identified from receipts from user's home country",
+        "Multiple VAT rates can apply to a single line item",
+        "Manual setup required in expense categories and subcategories"
+      ],
+      "tags": [
+        "vat-reclaim",
+        "compliance",
+        "expense-report"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "VAT Specification per Expense Line",
+      "description": "VAT is tracked and reported per expense line rather than per document, allowing for multiple VAT rates per line item (e.g., different rates for breakfast and room in a hotel bill).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 683.7,
+      "t_end": 748.8,
+      "is_demoed": false,
+      "caveats": [
+        "Applies when VAT reclaim is enabled"
+      ],
+      "tags": [
+        "vat",
+        "line-item",
+        "specification"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Withholding Tax for Employees",
+      "description": "Extension of withholding tax to employees for expense reports. System supports gross/net and compound models. Withholding tax is applied based on thresholds and posting groups configured for employees and expense categories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 790.9,
+      "t_end": 871.1,
+      "is_demoed": false,
+      "caveats": [
+        "Applicable only in countries where withholding tax on per diem or allowances is required",
+        "Requires setup of withholding tax posting groups and assignment to employees and categories",
+        "Separate session covers details"
+      ],
+      "tags": [
+        "withholding-tax",
+        "employee",
+        "compliance"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Refreshed Web App User Experience",
+      "description": "Business Central Expense Agent web app has been refreshed with a new user interface that displays details upfront.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 51.8,
+      "t_end": 76,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ui-refresh",
+        "web-app"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Expanded Language Support",
+      "description": "Expense Agent language support expanded to include Czech, Dutch, Icelandic, Italian, Norwegian, and Swedish in addition to existing languages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 76,
+      "t_end": 88,
+      "is_demoed": false,
+      "caveats": [
+        "Currently five languages enabled; new languages added with this release"
+      ],
+      "tags": [
+        "localization",
+        "language-support"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Worldwide Availability Rollout",
+      "description": "Expense Agent worldwide availability enablement beginning October with gradual expansion to all countries within the next few months.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 88,
+      "t_end": 110.7,
+      "is_demoed": false,
+      "caveats": [
+        "Gradual rollout from October; not all countries available on day one",
+        "Expansion expected within a few months of October launch"
+      ],
+      "tags": [
+        "worldwide-availability",
+        "rollout"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Unknown Presenter",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 20.4,
+      "text": "we'll start with improved mileage handling. Then we will finally have enabled credit card feeds.",
+      "why_it_matters": "Establishes the primary features in this 2026 Wave 2 release for Expense Agent.",
+      "check": "exact"
+    },
+    {
+      "t": 98.1,
+      "text": "it will be gradually enablement but it will be really fast starting from october",
+      "why_it_matters": "Sets expectations for global availability rollout with a gradual approach.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 209.1,
+      "text": "it will not be available from October, it will be available from December, so 2029.2.",
+      "why_it_matters": "Clarifies the exact release timeline for credit card feeds, a highly anticipated feature.",
+      "check": "exact"
+    },
+    {
+      "t": 317.4,
+      "text": "when you start setup, you need to enable policy compliance. And why you need to do that? Because it can make additional cost of",
+      "why_it_matters": "Indicates that AI-driven policy compliance incurs additional costs and requires explicit enablement.",
+      "check": "exact"
+    },
+    {
+      "t": 409.4,
+      "text": "this is not hard limitation. Approver can approve even if this is flagged, even if this is not 100% compliant.",
+      "why_it_matters": "Clarifies that policy flags are informational only, not blocking constraints for approvers.",
+      "check": "exact"
+    },
+    {
+      "t": 537.5,
+      "text": "this is available right now in a preview. So, only for testing, but this is this is available.",
+      "why_it_matters": "Confirms the new mobile app is in preview status, available for testing only.",
+      "check": "exact"
+    },
+    {
+      "t": 617.3,
+      "text": "claiming VAT is a little bit more complex. In some countries, this is based on the uh on specific um authorities' rules, you cannot",
+      "why_it_matters": "Explains why VAT reclaim is not fully automated and requires local jurisdiction awareness.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 88,
+      "kind": "coming-later",
+      "text": "worldwide availability enablement will be gradual starting from October, not all countries available immediately"
+    },
+    {
+      "t": 209.1,
+      "kind": "coming-later",
+      "text": "credit card feeds will not be available from October, it will be available from December, so 2029.2"
+    },
+    {
+      "t": 317.4,
+      "kind": "subject-to-change",
+      "text": "AI-driven policy compliance enables additional cost of using AI, so you need to confirm you want to use it"
+    },
+    {
+      "t": 459.8,
+      "kind": "coming-later",
+      "text": "approval improvements and travel request features will come gradually from October to December"
+    },
+    {
+      "t": 537.5,
+      "kind": "preview",
+      "text": "new mobile app is available right now in a preview for testing only"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 16
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.050047
+    }
+  ]
+}

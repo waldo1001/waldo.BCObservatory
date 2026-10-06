@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Business Central Agent Instruction History",
   "url": "https://www.youtube.com/watch?v=WFAZLsUTk20",
-  "published_at": null,
+  "published_at": "2026-02-27T15:13:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:54:54.565Z",
+      "captions": "auto:en-orig",
+      "duration_s": 272
+    },
+    "captioned": {
+      "at": "2026-10-06T13:55:15.909Z",
+      "path": "data/captions/microsoft/WFAZLsUTk20.vtt",
+      "vtt_sha256": "3b6601c4443604b67af20edb2d22c6d219dc62c4b9d907de80d9434b41375248",
+      "segments": 20,
+      "words": 776,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 113,
     "duration_s": 272,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3b6601c4443604b67af20edb2d22c6d219dc62c4b9d907de80d9434b41375248"
 }

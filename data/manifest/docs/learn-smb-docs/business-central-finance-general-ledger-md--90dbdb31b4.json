@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-general-ledger",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2cba5f0c895788cc93063d1efa9ee7d5a3623884",
       "words": 1049,
       "forms": 17
+    },
+    "extracted": {
+      "at": "2026-10-06T13:46:45.125Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.005432
+    },
+    "summarized": {
+      "at": "2026-10-06T13:46:45.132Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:46:45.132Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:46:45.132Z",
+      "page": false
     }
   },
   "input_hash": "2cba5f0c895788cc93063d1efa9ee7d5a3623884",
@@ -125,5 +144,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2cba5f0c895788cc93063d1efa9ee7d5a3623884"
+  "output_hash": "6ae5a3be8e154aba91fcb09aff3c1d4e539af32473deb4d25c37287a736353e9"
 }

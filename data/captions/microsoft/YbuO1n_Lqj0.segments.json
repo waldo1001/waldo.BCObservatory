@@ -1,0 +1,473 @@
+{
+  "video_id": "YbuO1n_Lqj0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.2,
+      "end": 17.8,
+      "text": "Welcome to 2026 release wave 1 of business central launch edition. This session is about enhanced IT audit reporting. So why invest in this?"
+    },
+    {
+      "t": 17.8,
+      "end": 34.5,
+      "text": "Well, we got first of all we got feedback the internal controls and the reporting on that was kind of hard in business central. So we try to make that easier and in general make it easier for the IT admin to uh to on on things such as permissions,"
+    },
+    {
+      "t": 34.5,
+      "end": 48.4,
+      "text": "approvals, user management se so second value add here is that we learned that for some larger organizations it can be quite difficult for it to get access to the IP system."
+    },
+    {
+      "t": 48.4,
+      "end": 62.9,
+      "text": "problem is that it needs to perform internal control, reporting and compliance. Um, so for them to actually get the data out of the AP system would need to ask controllers to to get reports and hand it over."
+    },
+    {
+      "t": 62.9,
+      "end": 76.2,
+      "text": "So we thought maybe we can add APIs to business central so that it can get access to APIs and do their own internal controls reporting with copilot studio agents or with power powerbi."
+    },
+    {
+      "t": 76.2,
+      "end": 92.4,
+      "text": "In this session, we're going to talk start in analyzing permissions and new ways of analyzing approvals, go through user management, and end in permission and approval APIs, new APIs that are coming in 28.x."
+    },
+    {
+      "t": 92.4,
+      "end": 104,
+      "text": "The first new feature is a page where you can analyze permissions across probably every aspect of uh of things. And this page is called permission overview."
+    },
+    {
+      "t": 104,
+      "end": 114.4,
+      "text": "And basically it allows you either to filter on objects uh object type, object ID, permission set scope or which app things are coming from."
+    },
+    {
+      "t": 114.4,
+      "end": 128.6,
+      "text": "That's one way of filtering down. Also in the fact box uh on this page you can see for each permission set which security groups does include this and also which users have this permission set."
+    },
+    {
+      "t": 128.6,
+      "end": 140.1,
+      "text": "This data is valuable like this in itself. But when you then take this list into analysis mode, then you can you can do some really compelling analysis."
+    },
+    {
+      "t": 140.1,
+      "end": 153.8,
+      "text": "For instance, in this case here, I've just grouped by object name and delete whether you can delete. And suddenly you have an overview of which permission sets allow deletion on which tables."
+    },
+    {
+      "t": 153.8,
+      "end": 168.3,
+      "text": "Right? So that's just one way of pivoting this data. Here's a different pivot. What does this permission allow? So here we are grouping on permission set and then object name and then you can see then across delete, modify,"
+    },
+    {
+      "t": 168.3,
+      "end": 189.8,
+      "text": "execute and so on kind of what permission set allows certain operations to which objects. This also highlights or showcase the screenshot, the new feature in analysis mode where you can add descriptions to your analysis views and then they showcase as tool tips when you hover over these."
+    },
+    {
+      "t": 189.8,
+      "end": 205.3,
+      "text": "Now, there are tons of things you could show with that permission overview, but I would rather that you play with it and and get an understanding and and and hopefully let us know where it's valuable and if there are places where we could do uh better."
+    },
+    {
+      "t": 205.3,
+      "end": 224.4,
+      "text": "Now one thing is is analyzing permissions then it's uh it's cousin in auditing is approvals or workflow like so permissions is who can do what where approvals is who are who are allowed to approve what and to which limits."
+    },
+    {
+      "t": 224.4,
+      "end": 234.9,
+      "text": "So here in 28.x so this is not for the April release hopefully in one of the m like miners 28.1 28.2 two uh two new overviews,"
+    },
+    {
+      "t": 234.9,
+      "end": 255,
+      "text": "approval user overview and approval entry overview. Let's take a look at the first one. So um with this page you can simply navigate through the different types of workflows on the top of the screen and below you can see who are allowed to approve what with which limits across"
+    },
+    {
+      "t": 255,
+      "end": 274.6,
+      "text": "these. So before this overview you would need to go into each type of workflow and do this analysis. Now you can just do it one by one and hopefully this frees up a lot of time in case you need to answer an auditor who are allowed to approve what and to which limits."
+    },
+    {
+      "t": 274.6,
+      "end": 288.6,
+      "text": "A different overview across all workflows is the approval entry overview. I don't have any data to show you but this page shows you across types of approvals uh whether it's posted or not apposted."
+    },
+    {
+      "t": 288.6,
+      "end": 308.4,
+      "text": "You can kind of see get that overview in one screen. And similar to the permissions overview here, you can also take this page into analysis mode and then perform all sorts of pivots that in themselves would feel like different reports on this data set."
+    },
+    {
+      "t": 308.4,
+      "end": 321,
+      "text": "Now when we looked at the code for the approval of workflow system we also um just made sure that it is we leave it in a better state than when we we came there."
+    },
+    {
+      "t": 321,
+      "end": 339.5,
+      "text": "uh which means all the approval pages now appear in advanced tellme with uh teaching tips with good descriptions and uh and and also that when you open the help pane for all these pages they have uh inclient help and correct links to the documentation."
+    },
+    {
+      "t": 339.5,
+      "end": 356.9,
+      "text": "So just hopefully if you don't if you're not like super familiar with this part of business central just the inclined help experience and all of these um help uh teaching tips will help you to quicker to get an understanding of the different objects."
+    },
+    {
+      "t": 356.9,
+      "end": 374.1,
+      "text": "Just some examples here posted approval entries approval request entries and approval entries all got teaching tips. They surface in advanced tell me and in in uh when you hover when you click the captions or with if you open the help pane."
+    },
+    {
+      "t": 374.1,
+      "end": 385.9,
+      "text": "All right. In version 28 we added the ability from A code to add analysis views. So we're also applying this to the base uh to the to the base app to the application."
+    },
+    {
+      "t": 385.9,
+      "end": 402.6,
+      "text": "And within auditing we have added um um these analysis tabs in in two lists. One is change log entries. to the other one is the users lists and that means that you will in 28.x X when this is surfacing"
+    },
+    {
+      "t": 402.6,
+      "end": 417,
+      "text": "for instance here on the change lock entries the two mini reports so quote unquote reports are uh data changes by table and field. So here in this report, it's not a report, it's just an analysis tab."
+    },
+    {
+      "t": 417,
+      "end": 432.7,
+      "text": "Uh but you can see it's grouped by uh table field. And then if you if you go down to customer address, you can then see everything that happened to the customer uh table on the address field and by whom."
+    },
+    {
+      "t": 432.7,
+      "end": 452.9,
+      "text": "Similarly, the other report that we added to change lock is who changed to what data when. So in this case here you can see we're grouping by user ID and then based on the user you can say see everything that that user changed if change log has been enabled for these uh"
+    },
+    {
+      "t": 452.9,
+      "end": 472.3,
+      "text": "tables and fields. Another way to use this uh report is that uh for agents that are performing in this things in your business in your in your system business central environment for things where you have enabled change lock you can see the agent users similar to a normal user."
+    },
+    {
+      "t": 472.3,
+      "end": 485.8,
+      "text": "So this is also kind of an audit log of uh what was changed in the system by agents. You can you can use it for that as well. For the user table, we have these two uh user by status."
+    },
+    {
+      "t": 485.8,
+      "end": 497.5,
+      "text": "So, it's a very simple whether users are enabled or not and what license type they have. So, just a very quick overview of that. It's a mini report of enabled or disabled users."
+    },
+    {
+      "t": 497.5,
+      "end": 510.6,
+      "text": "And the other report is users by license type. So, you can kind of see depending on uh whether you're onrem or or in the online version uh the license type and then which users have one or the other."
+    },
+    {
+      "t": 510.6,
+      "end": 523,
+      "text": "So permissions, approvals and now um since we were kind of working in in this area, we thought let's also do something to the user management experience."
+    },
+    {
+      "t": 523,
+      "end": 534.6,
+      "text": "So we have a couple of uh smaller and larger improvements here. Um I think smaller but if you collectively I think this is lifting the user management experience. This is also coming in 28.x."
+    },
+    {
+      "t": 534.6,
+      "end": 545.2,
+      "text": "So you just wait to to have to wait uh one or two months to get this. So here is the users list the nor normal lists uh for where you see anything related to users."
+    },
+    {
+      "t": 545.2,
+      "end": 562,
+      "text": "Here we are adding the last login date and also inact we we are computing inactive days. So just on the users list here you can see if you have inactive users um and how long time they have been active or if they are uh in the system."
+    },
+    {
+      "t": 562,
+      "end": 573.9,
+      "text": "You could easily use this on go live. So you can just see here if people are actually testing. If they said they tested on Friday and they never logged in, well they didn't test."
+    },
+    {
+      "t": 573.9,
+      "end": 587.4,
+      "text": "There's also in the fact box new information on the user setup things like allow posting from register time settings uh things from the user settings uh is is shown here as well for the given user."
+    },
+    {
+      "t": 587.4,
+      "end": 601.9,
+      "text": "So that's just instead of needing to navigate you can just see that in the fact box. Then for a given user, we added navigation links to user settings, approval user setup and user setup all related to the user."
+    },
+    {
+      "t": 601.9,
+      "end": 617.4,
+      "text": "But in the past, you couldn't navigate from here. You would actually need to open that page and and do things. So just making it easier to manage all users in all aspects of what a user needs to be managed on."
+    },
+    {
+      "t": 617.4,
+      "end": 637.4,
+      "text": "And then I think two years ago we added this user detailed view which is kind of similar to this page but it's constructed in a way that allows us to do normal analysis mode operations which then for implementation details the normal users list is is it's hard for us"
+    },
+    {
+      "t": 637.4,
+      "end": 647.8,
+      "text": "to do things there. So let me open that. For this one we added a few things. We added some different views on this table. So you can see the user detail view."
+    },
+    {
+      "t": 647.8,
+      "end": 660.2,
+      "text": "We also added the last login date and inactive days. But now you can also uh see things like users with super active users or inactive 7, 30 or 90 days."
+    },
+    {
+      "t": 660.2,
+      "end": 671.1,
+      "text": "So make it very easy to prefilter on certain of these scenarios. And of course if you then take that list uh here's an example of inactive 30 days."
+    },
+    {
+      "t": 671.1,
+      "end": 683.3,
+      "text": "You can also take this list with this view, filter it to something and then take that into analysis mode and add a further um analysis views on that."
+    },
+    {
+      "t": 683.3,
+      "end": 703.5,
+      "text": "All right. And the final part of this um work are the new permissions uh sorry the new APIs. So the reason we are investing in APIs of course it's broadening the API surface for business central is helping copilot studio powerbi"
+    },
+    {
+      "t": 703.5,
+      "end": 723.7,
+      "text": "um power automate things like that. Um in this particular case the the business case or the reason for this is that we learned in probably larger organizations there's kind of a natural barrier or physical barrier between the IT department who traditionally own the internal controls like"
+    },
+    {
+      "t": 723.7,
+      "end": 736.9,
+      "text": "who have access to what like the auditing of users and all of that and then over here this the you can think of these as the technical system owners of the ERP system or business central and over here in the finance department."
+    },
+    {
+      "t": 736.9,
+      "end": 753.6,
+      "text": "They're typically the system owners or the operational part of the the organization are the the the operational system owners of Business Central. And then if the IT guys don't have can't get access to the EIP system,"
+    },
+    {
+      "t": 753.6,
+      "end": 764,
+      "text": "if they need to do their internal control, they need to ask someone over here to run reports, send data back and forth and so on. So what if we could do something else?"
+    },
+    {
+      "t": 764,
+      "end": 783,
+      "text": "Um and that's why we are introducing these APIs and the APIs on workflow or approvals. So that with these APIs if in the business central administrator give the IT or a user in IT only access to these uh APIs"
+    },
+    {
+      "t": 783,
+      "end": 796.3,
+      "text": "they will be able to set up agents where they can ask who can do what or they can uh take these this data and load it into their own PowerBI reports and kind of do all their internal controls"
+    },
+    {
+      "t": 796.3,
+      "end": 807.8,
+      "text": "uh that way. So that's the reasoning for these the the different APIs are as follows. So we have one on permission sets this one and all of these APIs are read only."
+    },
+    {
+      "t": 807.8,
+      "end": 821.4,
+      "text": "This one you can you can query all permission sets but then navigate from there through the access control subpage to also get which users or security groups are linked to a given permission set."
+    },
+    {
+      "t": 821.4,
+      "end": 832.9,
+      "text": "Basically, if you go back to this presentation in the permissions overview, that's the UI. These are the the API version of of uh of that overview."
+    },
+    {
+      "t": 832.9,
+      "end": 853.1,
+      "text": "Expanded permission sets allows you to also get the app table. So it expanded permissions table and then the the app name added um security groups shows you security group but also uh subpage through uh to the access control to see uh the linked permission sets and security"
+    },
+    {
+      "t": 853.1,
+      "end": 873.2,
+      "text": "group members for security groups. User permission pay API shows the users but then also navigate from a from users into user permission sets to see who um what are permissions assigned to users and then finally uh the access control you have heard"
+    },
+    {
+      "t": 873.2,
+      "end": 883.8,
+      "text": "about that already uh this is uh the access control records for for all the other uh APIs you can navigate to this from the other pages"
+    },
+    {
+      "t": 883.8,
+      "end": 897.3,
+      "text": "similarly also in 28.x X the permission APIs are also coming in 28.x Same thing for approval APIs. I call it approval but these are kind of workflow APIs."
+    },
+    {
+      "t": 897.3,
+      "end": 915.3,
+      "text": "So here the workflows API will allow you to navigate all workflows and then from there you can you can uh from a given workflow you can go to workflow steps in workflow steps that shows all the steps for a specific workflow."
+    },
+    {
+      "t": 915.3,
+      "end": 927.6,
+      "text": "You can navigate from a step into the workflow response option and that's the next API that then show all the step argument records approver type approver ID and so on"
+    },
+    {
+      "t": 927.6,
+      "end": 938.9,
+      "text": "for all these APIs similar with these compared to what permissions. So all of these APIs is kind of the API version of the new pages on a on approvals."
+    },
+    {
+      "t": 938.9,
+      "end": 959.9,
+      "text": "Um so just opening up for those same types of reports but now with APIs so you can create recreate those reports without having like a login UI access to business central workflow approvers uh list every workflow and approver type and and limit and then"
+    },
+    {
+      "t": 959.9,
+      "end": 977.2,
+      "text": "um then you can also navigate the users if it's a workflow group or specific approver user setup again show it. This one shows the detail uh approval chain, direct approval or first qualified approval workflows for a given user."
+    },
+    {
+      "t": 977.2,
+      "end": 988.1,
+      "text": "And finally, approval entries will list all approval entry record. So you can kind of get that uh who did what when or who approved what when uh type of report."
+    },
+    {
+      "t": 988.1,
+      "end": 1005.1,
+      "text": "It comes both with a normal and with posted approval entries. So that's it. Before we close uh close the presentation, if you want to learn more, go to our security guide aka.ms/bcsecurity."
+    },
+    {
+      "t": 1005.1,
+      "end": 1023.5,
+      "text": "And in here uh we have updated everything to these new objects, APIs and so on. As well as uh we also updated the security guide with um specifically for different types of scen security scenarios."
+    },
+    {
+      "t": 1023.5,
+      "end": 1037.1,
+      "text": "Um so a completely new article for that. We took all we learned from giving security and auditing sessions at conferences plus the work that was done internally in Microsoft to harden"
+    },
+    {
+      "t": 1037.1,
+      "end": 1048,
+      "text": "um things around business central internally and part of this secure future initiative across Microsoft and kind of applied that into the publicly facing security guide."
+    },
+    {
+      "t": 1048,
+      "end": 1059.2,
+      "text": "So go check that out. Hopefully you can learn something that can help you harden the systems both from within and uh and with the external boundaries."
+    },
+    {
+      "t": 1059.2,
+      "end": 1072.4,
+      "text": "Specifically for the APIs, your friend here to learn more is aka.ms/bc integration. This is the landing page for everything related to integrations that are built on APIs."
+    },
+    {
+      "t": 1072.4,
+      "end": 1082.7,
+      "text": "So uh here uh you can find under APIs all the new APIs uh will be documented here when they surface in business central."
+    },
+    {
+      "t": 1082.7,
+      "end": 1097.9,
+      "text": "If this is interesting for you maybe a related session for the new APIs also for all the documents types will might also be of interest. So uh so there's a link for that presentation down here in the description."
+    },
+    {
+      "t": 1097.9,
+      "end": 1109,
+      "text": "And that's it before I close the session recording here. If you uh don't know the general business central resources, stay put for another couple of minutes."
+    },
+    {
+      "t": 1109,
+      "end": 1119,
+      "text": "If you already know all of this, then uh this is the end. Thank you so much for watching. Thanks for being part of the Business Central launch edition and have a great day."
+    },
+    {
+      "t": 1119,
+      "end": 1130.7,
+      "text": "Bye. We have compiled a number of general resources that we believe are key both for partners but also uh business central customers."
+    },
+    {
+      "t": 1130.7,
+      "end": 1151,
+      "text": "Most some of these are partner some of them are also for customers. So the first one is called aka.ms/bcall. This is a partner resource for that contains lists of every other AKA link that is needed for you to understand anything about both the business central product"
+    },
+    {
+      "t": 1151,
+      "end": 1163.7,
+      "text": "but also processes around it. We call these aka links because they are called aka.ms and then for/ something. And with business central links we all always prefix with bc and then something."
+    },
+    {
+      "t": 1163.7,
+      "end": 1175.4,
+      "text": "The next one is uh our uh partner network uh social media for for business central partners Viva. Viva engage. So ak.ms/bc"
+    },
+    {
+      "t": 1175.4,
+      "end": 1190.6,
+      "text": "viva engage is where you go and interact with other partners. It's not open for customers. So this is where you can ask questions, interact with a product group, interact with with with each other um in a in a closed network."
+    },
+    {
+      "t": 1190.6,
+      "end": 1206.3,
+      "text": "Second link, a third link is for both partners and customers. We are called office hours. So office hours is something we do once or twice a month from the product group engaging with the community about new features or things we want to discuss."
+    },
+    {
+      "t": 1206.3,
+      "end": 1216.7,
+      "text": "Aka.msbc office hours is the is the place where you go to find out about upcoming events. These are recorded."
+    },
+    {
+      "t": 1216.7,
+      "end": 1227.1,
+      "text": "I believe the recordings are available only to partners but the live events are available to customers as well. Fourth link is YouTube, our YouTube channel."
+    },
+    {
+      "t": 1227.1,
+      "end": 1239,
+      "text": "I'll talk about that uh in the next slide and LinkedIn in the next slide. Uh and then finally uh for for Microsoft partners, the BC ak.msbc"
+    },
+    {
+      "t": 1239,
+      "end": 1251.9,
+      "text": "partner portal is where you get um a lot of the resources as a partner such as compete decks, uh pitch decks and a lot of other resources"
+    },
+    {
+      "t": 1251.9,
+      "end": 1270.1,
+      "text": "for LinkedIn. This is our product group's uh LinkedIn profile. We have 30K or more followers. So both partners and customers, this is the place where we from the product group put in news and small bits of information outside the quote unquote official channel."
+    },
+    {
+      "t": 1270.1,
+      "end": 1285.8,
+      "text": "So follow us on on LinkedIn to learn what's happening right now um in in this in the around the product. Um and then uh also on our YouTube channel, this is where you're probably watching this aka.msbc"
+    },
+    {
+      "t": 1285.8,
+      "end": 1299,
+      "text": "YouTube. We put in not only these launch editions twice a year, but also co-pilot and AI video shorts, tips and tricks, technical deep dives under the hood."
+    },
+    {
+      "t": 1299,
+      "end": 1311.7,
+      "text": "Uh we even have this watch cooking where we put little nuggets of of videos out for new features that are even coming in on the YouTube channel before uh they're coming in the release notes."
+    },
+    {
+      "t": 1311.7,
+      "end": 1324.2,
+      "text": "So watch uh and maybe bookmark us on YouTube and also notice all the playlists. So the the content is also organized in areas not only all the videos."
+    },
+    {
+      "t": 1324.2,
+      "end": 1335.4,
+      "text": "So if you have an area that has special interests such as analytics um you can find an a playlist and kind of see all the content related to that."
+    },
+    {
+      "t": 1335.4,
+      "end": 1348,
+      "text": "And that's it. That is truly it. We won't uh there would be no more. So, thank you for watching all the way to the end and again have a great day. Thank you."
+    }
+  ],
+  "markers": [],
+  "word_count": 3385
+}

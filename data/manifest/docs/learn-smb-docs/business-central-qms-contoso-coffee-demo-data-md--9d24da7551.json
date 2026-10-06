@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/qms-contoso-coffee-demo-data",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "76f96f2ed6961f36b8bf10290ba4f3ac7033b465",
       "words": 429,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T13:54:44.438Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005231
+    },
+    "summarized": {
+      "at": "2026-10-06T13:54:44.441Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:54:44.441Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:54:44.442Z",
+      "page": false
     }
   },
   "input_hash": "76f96f2ed6961f36b8bf10290ba4f3ac7033b465",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "76f96f2ed6961f36b8bf10290ba4f3ac7033b465"
+  "output_hash": "87244c61726e1062eae7d9b245327a65099af3425e263bf8eaf00d391ac4f2c8"
 }

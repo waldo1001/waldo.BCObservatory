@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-auditing",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9e9e3d8ba03b55729dd1beef409b93de42ce1215",
       "words": 381,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T13:46:45.124Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.005432
+    },
+    "summarized": {
+      "at": "2026-10-06T13:46:45.129Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:46:45.129Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:46:45.129Z",
+      "page": false
     }
   },
   "input_hash": "9e9e3d8ba03b55729dd1beef409b93de42ce1215",
@@ -60,5 +79,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9e9e3d8ba03b55729dd1beef409b93de42ce1215"
+  "output_hash": "d75c666063ebded584bac3babe62472b468bfc7eaebc9ce188b92714b1f912c9"
 }

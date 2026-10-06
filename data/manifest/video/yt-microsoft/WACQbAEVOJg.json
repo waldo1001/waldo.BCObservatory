@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=WACQbAEVOJg",
   "published_at": "2026-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T13:48:59.830Z",
+      "path": "data/extract/video/WACQbAEVOJg.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 15,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.044632
+    },
+    "summarized": {
+      "at": "2026-10-06T13:49:09.433Z",
+      "path": "data/summary/video/WACQbAEVOJg.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0493084
+    },
+    "linked": {
+      "at": "2026-10-06T13:49:09.434Z",
+      "systems": [
+        "manufacturing",
+        "warehouse",
+        "inventory"
+      ],
+      "topics": 10,
+      "objects_as_heard": 5
+    },
+    "published": {
+      "at": "2026-10-06T13:49:09.436Z",
+      "path": "content/videos/WACQbAEVOJg.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2026-10-01 - BCLE - What's new in SCM： Overview (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "67c9488ade16b8b19b853d31b9aadcf243ba759a298129a007723db452db9685"
 }

@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/shopify/get-started.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/get-started",
+  "title": "Getting started with the connector for Shopify",
+  "blob": "216bff4dc656648e4716e205c7e413831a2f313b",
+  "summary": "Connect Shopify stores to Business Central and synchronize items, prices, inventory, customers, companies, and orders between the two systems using the Shopify Connector.",
+  "systems": [
+    "integration",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "shopify connector",
+    "setup",
+    "integration",
+    "synchronization",
+    "e-commerce"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Shopify Shop"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Shop Card"
+    },
+    {
+      "type": "page",
+      "name": "Add Item to Shopify"
+    }
+  ],
+  "features": [
+    "Shopify connection",
+    "item synchronization",
+    "price synchronization",
+    "inventory synchronization",
+    "customer synchronization",
+    "order synchronization",
+    "access tokens",
+    "offline access tokens"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007092,
+      "pages_in_call": 7
+    }
+  ]
+}

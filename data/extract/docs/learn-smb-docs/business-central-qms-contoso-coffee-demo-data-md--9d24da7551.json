@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/qms-contoso-coffee-demo-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/qms-contoso-coffee-demo-data",
+  "title": "Set up Contoso Coffee demo data for quality management",
+  "blob": "76f96f2ed6961f36b8bf10290ba4f3ac7033b465",
+  "summary": "Install and generate Contoso Coffee demo data for quality management testing and training. Provides sample templates, tests, results, and generation rules for purchase and production inspections.",
+  "systems": [
+    "inventory",
+    "manufacturing",
+    "warehouse"
+  ],
+  "topics": [
+    "quality management",
+    "demo data",
+    "setup",
+    "contoso coffee",
+    "testing scenarios"
+  ],
+  "objects": [],
+  "features": [
+    "demo data installation",
+    "quality templates",
+    "inspection rules",
+    "lot tracking scenarios"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005231,
+      "pages_in_call": 8
+    }
+  ]
+}

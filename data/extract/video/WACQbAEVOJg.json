@@ -1,0 +1,467 @@
+{
+  "video_id": "WACQbAEVOJg",
+  "item_id": "video/yt-microsoft/WACQbAEVOJg",
+  "title": "What's new in SCM: Overview (2026 release wave 2)",
+  "duration_s": 1096,
+  "systems": [
+    "manufacturing",
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "subcontracting",
+    "production orders",
+    "planning worksheet",
+    "direct transfers",
+    "transfer routes",
+    "quality management",
+    "routing",
+    "inventory put-away",
+    "machine center calendar",
+    "in-transit locations"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview of new SCM capabilities",
+      "t_start": 0,
+      "t_end": 55.2
+    },
+    {
+      "title": "Subcontracting enhancements: comments, attachments, and inventory put-away",
+      "t_start": 55.2,
+      "t_end": 258.1
+    },
+    {
+      "title": "Planning worksheet and automatic production order creation",
+      "t_start": 258.1,
+      "t_end": 390.2
+    },
+    {
+      "title": "Manufacturing improvements: routing certification and machine center calendar",
+      "t_start": 390.2,
+      "t_end": 517.7
+    },
+    {
+      "title": "Direct transfer orders: new posting modes and flexibility",
+      "t_start": 517.7,
+      "t_end": 669.4
+    },
+    {
+      "title": "Transfer routes and in-transit locations",
+      "t_start": 669.4,
+      "t_end": 810.6
+    },
+    {
+      "title": "Inventory put-away and pick for direct transfers",
+      "t_start": 810.6,
+      "t_end": 896.5
+    },
+    {
+      "title": "Quality inspection enhancements: user roles and workflow automation",
+      "t_start": 896.5,
+      "t_end": 1096
+    }
+  ],
+  "features": [
+    {
+      "name": "Subcontracting comments and attachments on purchase lines",
+      "description": "Suppliers receive detailed comments and attached documents from routing operations on purchase order lines, instructing them on how to perform subcontracted operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 89.4,
+      "t_end": 157.6,
+      "is_demoed": true,
+      "caveats": [
+        "Comments and attachments flow from routing to production order to purchase document"
+      ],
+      "tags": [
+        "subcontracting",
+        "purchase orders",
+        "routing"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Inventory put-away for subcontracted operations",
+      "description": "Received subcontracted items can be handled with inventory put-aways in addition to normal posting and warehouse receipts, supporting both last and non-last operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 168.3,
+      "t_end": 245.6,
+      "is_demoed": true,
+      "caveats": [
+        "Serial numbers can only be specified for last operations",
+        "Non-last operations do not support serial number specification"
+      ],
+      "tags": [
+        "subcontracting",
+        "inventory put-away",
+        "item tracking"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Create released production orders from planning worksheet",
+      "description": "The planning worksheet now allows creating production orders directly in released status or released and print status via the carry out action message, with automatic consumption based on flushing method configuration.",
+      "status": "ga",
+      "status_evidence_t": 281.5,
+      "status_evidence_quote": "I can create production orders in status released or released and print",
+      "status_evidence_verified": true,
+      "t_start": 281.5,
+      "t_end": 336,
+      "is_demoed": true,
+      "caveats": [
+        "Automatic consumption occurs when status is released",
+        "Requires careful configuration of flushing methods to avoid unintended automatic posting"
+      ],
+      "tags": [
+        "planning",
+        "production orders",
+        "planning worksheet",
+        "automatic consumption"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Dynamic field visibility for parallel routings",
+      "description": "When a routing type is changed from serial to parallel, the previous and next operations fields become visible automatically without requiring manual personalization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 418,
+      "t_end": 445.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "routing",
+        "usability",
+        "parallel routing"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Machine center calendar entries availability check",
+      "description": "A new field on the machine center card shows when calendar entries are available until, displayed in red when insufficient data exists. The calculate machine center calendar report can be run directly from the card.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 456.3,
+      "t_end": 507.3,
+      "is_demoed": true,
+      "caveats": [
+        "Report is pre-filtered and uses current work year as starting date"
+      ],
+      "tags": [
+        "machine center",
+        "calendar",
+        "usability"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Direct transfer posting modes selection",
+      "description": "Direct transfers now support choosing between direct posting mode (one-go, one-to-one posting) or shipment and receipt mode (separate documents with partial shipping support).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 582.5,
+      "t_end": 622.6,
+      "is_demoed": true,
+      "caveats": [
+        "Previously, shipment and receipt mode was blocked for direct transfers",
+        "Warehouse handling differs by posting mode"
+      ],
+      "tags": [
+        "direct transfer",
+        "transfer orders",
+        "posting modes"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Partial shipment for direct transfer shipment and receipt mode",
+      "description": "When using direct transfer with shipment and receipt mode, users can partially ship goods instead of being forced to ship all quantities.",
+      "status": "ga",
+      "status_evidence_t": 645,
+      "status_evidence_quote": "this is a benefit of direct transfer of mode ship and receipt. It supports partial shipping",
+      "status_evidence_verified": true,
+      "t_start": 645,
+      "t_end": 658.2,
+      "is_demoed": true,
+      "caveats": [
+        "Only available when shipment and receipt mode is selected"
+      ],
+      "tags": [
+        "direct transfer",
+        "partial shipment",
+        "warehouse handling"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Transfer route specification for direct transfer mode",
+      "description": "Transfer routes now include fields to specify direct transfer mode (direct or shipment and receipt) with values defaulting from inventory posting setup but overridable per route.",
+      "status": "ga",
+      "status_evidence_t": 697,
+      "status_evidence_quote": "these two fields are now available in the on the transfer route specification. And I can change it and decide to use shipment and",
+      "status_evidence_verified": true,
+      "t_start": 669.4,
+      "t_end": 708,
+      "is_demoed": true,
+      "caveats": [
+        "Default values come from inventory posting setup",
+        "Can be overridden for specific transfer documents"
+      ],
+      "tags": [
+        "transfer routes",
+        "direct transfer",
+        "inventory setup"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "In-transit location for transfers",
+      "description": "Transfer orders can now define and use an in-transit location code, allowing item ledger entries to have a populated location code instead of blank entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 743.5,
+      "t_end": 756,
+      "is_demoed": true,
+      "caveats": [
+        "Eliminates the need for blank location code entries in inventory posting setup"
+      ],
+      "tags": [
+        "in-transit locations",
+        "transfers",
+        "inventory posting"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Location code copy to value entries for manufacturing",
+      "description": "Manufacturing operations now copy location codes to value entries linked to capacity ledger entries, ensuring location code is always populated in manufacturing-related value entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 774.8,
+      "t_end": 800.6,
+      "is_demoed": true,
+      "caveats": [
+        "Eliminates need for empty location code entries in inventory posting setup"
+      ],
+      "tags": [
+        "manufacturing",
+        "location code",
+        "value entries"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Inventory put-away and pick for partial transfers",
+      "description": "Users can create inventory put-aways and picks for both outbound and inbound transfers with support for partial quantities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 810.6,
+      "t_end": 849.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires location to be configured for put-away and pick",
+        "Can be used for partial shipments"
+      ],
+      "tags": [
+        "inventory put-away",
+        "inventory pick",
+        "transfers",
+        "warehouse"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Quality inspection blocking transfers",
+      "description": "Transfer orders are blocked when a quality inspection has a failed result, preventing movement of items that have not passed inspection.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 925.6,
+      "t_end": 942.7,
+      "is_demoed": true,
+      "caveats": [
+        "Only applies to items with item tracking",
+        "Navigation to quality inspection details is available"
+      ],
+      "tags": [
+        "quality management",
+        "transfers",
+        "quality inspection"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Quality inspection user role permissions",
+      "description": "Quality inspection apps provide multiple roles: inspector (performs inspection), administrator (modifies fields like sample size and failed/passed quantities, assigns inspections, reopens or deletes finished inspections), with normal users having restricted modification capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 989,
+      "t_end": 1018,
+      "is_demoed": true,
+      "caveats": [
+        "Role-based restrictions apply to field modifications",
+        "Administrators have broader permissions than inspectors"
+      ],
+      "tags": [
+        "quality management",
+        "user roles",
+        "permissions"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Quality inspection auto-assignment recommendation",
+      "description": "When a quality inspection header is modified, the system recommends assigning the inspection to the current user, which can be accepted with one click.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 978.3,
+      "t_end": 989,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "quality management",
+        "usability",
+        "quality inspection"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Quality inspection passed/failed quantity auto-update",
+      "description": "When a quality inspection is finished with a passed result, the passed quantity is automatically updated from the sample size, and previously failed quantities are preserved for workflow usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1054.3,
+      "t_end": 1065.6,
+      "is_demoed": true,
+      "caveats": [
+        "Values are used in workflows",
+        "Failed quantity initialization uses previous inspection results"
+      ],
+      "tags": [
+        "quality management",
+        "quality inspection",
+        "workflow"
+      ],
+      "system": "manufacturing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Planning Worksheet",
+      "t": 258.1
+    },
+    {
+      "type": "other",
+      "name": "Machine Center",
+      "t": 445.2
+    },
+    {
+      "type": "other",
+      "name": "Transfer Order",
+      "t": 541.8
+    },
+    {
+      "type": "other",
+      "name": "Transfer Route",
+      "t": 669.4
+    },
+    {
+      "type": "other",
+      "name": "Quality Inspection",
+      "t": 925.6
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 6.6,
+      "text": "we will look at the demos about new capabilities, very very new capabilities in the supply chain area",
+      "why_it_matters": "Sets expectations for scope: supply chain management enhancements only",
+      "check": "exact"
+    },
+    {
+      "t": 281.5,
+      "text": "I can create production orders in status released or released and print",
+      "why_it_matters": "Key new feature: planning worksheet can now directly create released production orders with automatic consumption",
+      "check": "exact"
+    },
+    {
+      "t": 582.5,
+      "text": "now I have ability to decide about the mode on how exactly my direct transfer will be posted",
+      "why_it_matters": "Direct transfers gain new flexibility: users can choose between direct mode and shipment and receipt mode",
+      "check": "exact"
+    },
+    {
+      "t": 610.4,
+      "text": "It used to be not possible to do what I'm doing right now. Select shipment and receipt. You just could not do that like",
+      "why_it_matters": "Clarifies that shipment and receipt mode for direct transfers was previously blocked and is now enabled",
+      "check": "exact"
+    },
+    {
+      "t": 743.5,
+      "text": "I can also now define in transit location code and use transit location",
+      "why_it_matters": "New feature: in-transit location support eliminates blank location code entries from inventory posting setup",
+      "check": "exact"
+    },
+    {
+      "t": 756,
+      "text": "finally, we can remove these lines from the inventory posting setup because they are not needed for transfers",
+      "why_it_matters": "Simplification outcome: eliminates configuration complexity in inventory posting setup",
+      "check": "exact"
+    },
+    {
+      "t": 989,
+      "text": "not all fields can be modified by normal user. Sometimes you need to have quality admin or supervisor role",
+      "why_it_matters": "Role-based access controls are enforced in quality inspection; normal users have restricted capabilities",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 17.8,
+      "kind": "subject-to-change",
+      "text": "majority of subcontracting was added in minor release, but we added something in this release as well"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 3,
+    "evidence_unverified": 12
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.044632000000000005
+    }
+  ]
+}

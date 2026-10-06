@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-to-run-mps-and-mrp.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-run-mps-and-mrp",
+  "title": "Run Full Planning, MPS, or MRP",
+  "blob": "91eccbadc26b54df668e409b82dbc30ace32f225",
+  "summary": "Run full planning, master production schedule (MPS), and material requirements planning (MRP) to calculate replenishment orders based on actual and forecasted demand. Use regenerative plan, net change plan, or get action messages methods and review suggested supply order changes.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "mps",
+    "mrp",
+    "production planning",
+    "demand forecasting",
+    "supply planning",
+    "action messages",
+    "order tracking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Planning Worksheets"
+    },
+    {
+      "type": "page",
+      "name": "Planning Error Log"
+    },
+    {
+      "type": "page",
+      "name": "Order Tracking"
+    },
+    {
+      "type": "page",
+      "name": "Manufacturing Setup"
+    }
+  ],
+  "features": [
+    "Calculate regenerative plan",
+    "Calculate net change plan",
+    "Get action messages",
+    "MPS calculation",
+    "MRP calculation",
+    "Combined MPS/MRP calculation",
+    "Planning horizon configuration",
+    "Reorder point"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008326,
+      "pages_in_call": 8
+    }
+  ]
+}

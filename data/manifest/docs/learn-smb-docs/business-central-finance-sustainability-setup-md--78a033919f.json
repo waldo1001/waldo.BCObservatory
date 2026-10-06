@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-sustainability-setup",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6e81d2c8d9a2f4afa47ac1749e117e39a1b3cfe2",
       "words": 2007,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T13:48:42.819Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007148
+    },
+    "summarized": {
+      "at": "2026-10-06T13:48:42.823Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:48:42.824Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:48:42.824Z",
+      "page": false
     }
   },
   "input_hash": "6e81d2c8d9a2f4afa47ac1749e117e39a1b3cfe2",
@@ -66,5 +85,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6e81d2c8d9a2f4afa47ac1749e117e39a1b3cfe2"
+  "output_hash": "344c8697eb192f4538823b4442d1dd6397dbbd0384f795e626e66fef7646dd26"
 }

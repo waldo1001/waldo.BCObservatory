@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/qms-configuring-grades.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/qms-configuring-grades",
+  "title": "Configure quality inspection results",
+  "blob": "107302c1f3f452222941b3f17bfcfb0c76bd66c9",
+  "summary": "Configure quality inspection results such as Pass, Fail, and In Progress to define possible outcomes of quality inspections. Create custom results and set result visibility, categories, and blocking behaviors.",
+  "systems": [
+    "inventory",
+    "administration"
+  ],
+  "topics": [
+    "quality management",
+    "inspection results",
+    "quality control",
+    "result configuration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Quality Inspection Results"
+    }
+  ],
+  "features": [
+    "result codes",
+    "evaluation sequence",
+    "result visibility",
+    "result categories",
+    "lot blocking conditions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005231,
+      "pages_in_call": 8
+    }
+  ]
+}

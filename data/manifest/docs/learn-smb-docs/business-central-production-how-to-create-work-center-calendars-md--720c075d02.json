@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-work-center-calendars",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3006c43edd2279083edc92dad21e30bd75600466",
       "words": 1041,
       "forms": 13
+    },
+    "extracted": {
+      "at": "2026-10-06T13:53:10.120Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 9,
+      "cost_usd": 0.008326
+    },
+    "summarized": {
+      "at": "2026-10-06T13:53:10.125Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:53:10.126Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:53:10.126Z",
+      "page": false
     }
   },
   "input_hash": "3006c43edd2279083edc92dad21e30bd75600466",
@@ -101,5 +120,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3006c43edd2279083edc92dad21e30bd75600466"
+  "output_hash": "6ad4f1b7c9e19467dafd52915bd03a1bc72581fa97ee36903916ca4fc933c1f6"
 }

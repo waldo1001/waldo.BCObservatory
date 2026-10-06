@@ -1,0 +1,322 @@
+{
+  "video_id": "XLUAuUWtJDw",
+  "item_id": "video/yt-microsoft/XLUAuUWtJDw",
+  "title": "What's new in Document Reporting: Word add-in (2026 release wave 2)",
+  "duration_s": 663,
+  "systems": [
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "word add-in",
+    "document reporting",
+    "data picker",
+    "company information",
+    "table builder",
+    "design blocks",
+    "themes",
+    "header footer",
+    "layouts"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview",
+      "t_start": 0,
+      "t_end": 29
+    },
+    {
+      "title": "Company information dataset",
+      "t_start": 29,
+      "t_end": 117.6
+    },
+    {
+      "title": "Table builder improvements",
+      "t_start": 117.6,
+      "t_end": 173
+    },
+    {
+      "title": "Design building blocks for layouts",
+      "t_start": 173,
+      "t_end": 411.3
+    },
+    {
+      "title": "Theme and header footer samples",
+      "t_start": 411.3,
+      "t_end": 509.5
+    },
+    {
+      "title": "Managing themes and layouts in Business Central",
+      "t_start": 509.5,
+      "t_end": 579
+    },
+    {
+      "title": "Data sets and documentation",
+      "t_start": 579,
+      "t_end": 630.5
+    },
+    {
+      "title": "Closing and resources",
+      "t_start": 630.5,
+      "t_end": 663
+    }
+  ],
+  "features": [
+    {
+      "name": "Company information dataset",
+      "description": "A new pre-populated dataset automatically available in all Word layouts containing company data like logo, name, and address fields that do not need to be manually encoded.",
+      "status": "ga",
+      "status_evidence_t": 60.4,
+      "status_evidence_quote": "So we decided we wanted to ship that always. So in the future when you need to create a report uh with a word",
+      "status_evidence_verified": true,
+      "t_start": 29,
+      "t_end": 96.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "data picker",
+        "company information",
+        "word add-in"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Table builder editing",
+      "description": "The table builder, previously in preview, now supports editing tables directly within the wizard interface, allowing users to add columns and modify table definitions without recreating them.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 117.6,
+      "t_end": 160.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "table builder",
+        "editing",
+        "word add-in",
+        "ux improvements"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Address design control",
+      "description": "A reusable design block for formatting addresses with three layout options: sender-receiver-shipping in three columns, receiver only, or other configurations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 193,
+      "t_end": 234.1,
+      "is_demoed": true,
+      "caveats": [
+        "Not necessarily data-bound"
+      ],
+      "tags": [
+        "design blocks",
+        "address formatting",
+        "body layouts"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Field group design control",
+      "description": "A design component for displaying key-value pairs as label and data items, supporting single or double-stacked column grids with flexible field counts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 245.8,
+      "t_end": 277.4,
+      "is_demoed": true,
+      "caveats": [
+        "Not necessarily data-bound for now"
+      ],
+      "tags": [
+        "design blocks",
+        "field layout",
+        "body layouts"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Amounts design control",
+      "description": "A design component for visualizing calculations with captions and values, used across Business Central reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 290.1,
+      "t_end": 303.8,
+      "is_demoed": true,
+      "caveats": [
+        "Not necessarily data-bound for now"
+      ],
+      "tags": [
+        "design blocks",
+        "amounts",
+        "calculations"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Signature line design control",
+      "description": "A design block providing two types of signature lines: one with name and caption (for approvers) and one with notes option, used in quality management module.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 303.8,
+      "t_end": 326.7,
+      "is_demoed": true,
+      "caveats": [
+        "Not necessarily data-bound for now"
+      ],
+      "tags": [
+        "design blocks",
+        "signature",
+        "quality management"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Notes design control",
+      "description": "A design component that allows selection of bullet point count and adds a corresponding design element for notes content in layouts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 326.7,
+      "t_end": 346.7,
+      "is_demoed": true,
+      "caveats": [
+        "Not necessarily data-bound for now"
+      ],
+      "tags": [
+        "design blocks",
+        "notes",
+        "body layouts"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Hide-if logical control",
+      "description": "A logical control that hides or shows content based on a boolean value; future versions will support boolean expressions based on dataset values.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 361,
+      "t_end": 396.3,
+      "is_demoed": true,
+      "caveats": [
+        "Boolean expressions coming in future versions"
+      ],
+      "tags": [
+        "logical control",
+        "conditional content",
+        "word add-in"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Theme sample documents",
+      "description": "Pre-built sample layouts (invoice, pick list, outstanding orders) demonstrating how theme changes (styles, fonts, colors) affect document appearance, used by communication and back office teams.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 428.5,
+      "t_end": 492.7,
+      "is_demoed": true,
+      "caveats": [
+        "Sample documents are not actual layouts, designed for theming preview only"
+      ],
+      "tags": [
+        "themes",
+        "sample documents",
+        "design preview"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Header footer layout templates",
+      "description": "Eight to ten pre-built header footer layouts available by default; users can create custom layouts using the Word add-in with access to company information dataset.",
+      "status": "ga",
+      "status_evidence_t": 536.6,
+      "status_evidence_quote": "we ship I think eight 10 different header footer layouts. If you want to create your own, you can also get some help from",
+      "status_evidence_verified": true,
+      "t_start": 509.5,
+      "t_end": 564.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "header footer",
+        "layouts",
+        "themes"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 60.4,
+      "text": "So in the future when you need to create a report uh with a word layout, you don't need to encode any of the",
+      "why_it_matters": "Explains the key value of the new company information dataset - it eliminates manual data encoding by making company data automatically available in all layouts.",
+      "check": "exact"
+    },
+    {
+      "t": 117.6,
+      "text": "We also um worked on the table builder which was in preview in the wave one and it now supports editing",
+      "why_it_matters": "Confirms the table builder has moved from preview to GA status with editing capability, a major usability improvement.",
+      "check": "exact"
+    },
+    {
+      "t": 160.8,
+      "text": "In the past that the table builder would would just allow you to put a table in, but now you can go back if",
+      "why_it_matters": "Demonstrates the practical benefit of editing support - users no longer need to recreate tables to modify them.",
+      "check": "exact"
+    },
+    {
+      "t": 173,
+      "text": "During our work on renovating um new layouts for reports, we invented um a design language of different kind of building blocks that we",
+      "why_it_matters": "Signals a strategic shift toward reusable design components for consistency across Business Central reports.",
+      "check": "exact"
+    },
+    {
+      "t": 536.6,
+      "text": "we ship I think eight 10 different header footer layouts. If you want to create your own, you can also get some help from",
+      "why_it_matters": "Indicates the number of pre-built templates available and confirms tooling support for custom layout creation.",
+      "check": "exact"
+    },
+    {
+      "t": 579,
+      "text": "the company information is just uh whatever is in the company information card on Business Central.",
+      "why_it_matters": "Clarifies that the company information dataset pulls directly from the Business Central company master record.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 376.2,
+      "kind": "coming-later",
+      "text": "later on you will actually be able to set boolean expression based on the data in the data set"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.035342
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-faq",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "80cda32e1b2db9c3dc3e19fe46b9be5acbe99b1d",
       "words": 402,
       "forms": 14
+    },
+    "extracted": {
+      "at": "2026-10-06T13:46:45.125Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005432
+    },
+    "summarized": {
+      "at": "2026-10-06T13:46:45.130Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:46:45.130Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:46:45.130Z",
+      "page": false
     }
   },
   "input_hash": "80cda32e1b2db9c3dc3e19fe46b9be5acbe99b1d",
@@ -113,5 +132,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "80cda32e1b2db9c3dc3e19fe46b9be5acbe99b1d"
+  "output_hash": "7508e1f5057dbbb1d3d691e799f0b9f0623feb424df727efe25d66a305655b9c"
 }

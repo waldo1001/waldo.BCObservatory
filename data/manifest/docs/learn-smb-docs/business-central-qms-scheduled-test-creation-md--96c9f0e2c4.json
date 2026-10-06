@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/qms-scheduled-test-creation",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f01380f67c6b2e883d06994174f06e10d8908460",
       "words": 610,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T13:57:04.634Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005457
+    },
+    "summarized": {
+      "at": "2026-10-06T13:57:04.638Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:57:04.639Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:57:04.639Z",
+      "page": false
     }
   },
   "input_hash": "f01380f67c6b2e883d06994174f06e10d8908460",
@@ -61,5 +80,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f01380f67c6b2e883d06994174f06e10d8908460"
+  "output_hash": "153e98d03f4c55857534b158c650b736ab8857e575791b61c744d09ccc61c1c2"
 }

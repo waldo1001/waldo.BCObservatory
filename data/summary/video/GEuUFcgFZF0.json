@@ -1,0 +1,27 @@
+{
+  "video_id": "GEuUFcgFZF0",
+  "item_id": "video/yt-microsoft/GEuUFcgFZF0",
+  "summary": "Business Central production BOM basics: how a BOM defines components, how items are replenished by production order or assembly, how BOM versions and phantoms handle changes, and how production orders pull components and routings from the BOM. Covers where-used analysis and version comparison.",
+  "overview": "The video explains the bill of materials (BOM) as the list of components needed to produce an item. It describes the BOM as a recipe that drives material planning, consumption, and costing. It starts at the item card and the replenishment method, then goes through the production BOM structure and its components.\n\nIt then covers organizing BOMs and using the where-used action, managing BOM versions with starting and ending dates, and creating production orders that fill in components and routings from the right BOM version. It closes on how an accurate BOM gives better cost visibility and control over product changes.",
+  "key_points": [
+    "Choose production order replenishment when you need multi-step operations, machine centers, or capacity planning. Assembly is for simple, labor-only processes. Both use an associated BOM for the components.",
+    "Formulas for standardized units of measure can be used in BOM component quantities.",
+    "The where-used action shows, for each item on the bill of materials, where that item is used.",
+    "Define several versions of a production BOM with different starting dates. Production picks the correct BOM based on the production date. Versions of one production BOM can be compared to see how components differ.",
+    "Ending dates on item versions, together with phantom BOMs, let you replace pre-produced items with production BOMs from a set date without major changes to the main product. The example switches on 1 June.",
+    "Refreshing a production order fills in component lines and routings. The BOM version is chosen automatically from the due date and can be overridden manually.",
+    "The components action on a production order shows which items are required for each product line."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "07f03c7ca0433d85f3917c5cd471814bc8a17df86715b939d30499cff813202d",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0426444
+  }
+}

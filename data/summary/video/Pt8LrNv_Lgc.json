@@ -1,0 +1,27 @@
+{
+  "video_id": "Pt8LrNv_Lgc",
+  "item_id": "video/yt-microsoft/Pt8LrNv_Lgc",
+  "summary": "Business Central manufacturing routings: serial vs parallel operations, operational times, routing link codes, send ahead quantity, routing versions, and how routing choice changes production order lead times. Uses an Airpod demo; a 5-minute fundamentals video published 2026-09-08.",
+  "overview": "The video introduces routings as the counterpart to the BOM: the BOM defines what is needed, the routing defines the sequence of operations required to build the product. It compares serial routings, where steps run one after another, with parallel routings, where independent operations run at the same time.\n\nIt then covers the time components of an operation, the routing link code, send ahead quantity, standard tasks and routing versions. In the demo, a production order is created and picks up the BOM and routing automatically. The order is then modified to use parallel routing for some quantities and serial for others, and the effect on lead time and start date is compared. The video closes with a preview of capacities.",
+  "key_points": [
+    "Routing describes the sequence of operations to build a product, as the BOM describes the components.",
+    "Serial routing runs operations one after another. Parallel routing runs independent operations at the same time and reduces total lead time.",
+    "Operational times are setup time, run time, wait time and move time. They drive scheduling and cost calculations.",
+    "Routing link code connects a component to a specific operation, so the material is consumed when that operation runs (just-in-time material control).",
+    "Send ahead quantity lets the next operation start before the current one finishes, overlapping steps to shorten lead time.",
+    "Routing versions let you create a new version when the process changes without losing the original.",
+    "A new production order populates the BOM and routing and computes production times, including start and end dates. In the demo it was modified to use different routings for different quantities."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "decision maker"
+  ],
+  "extraction_hash": "918b5d1bc3920afb5fe990714f39d0de69aafbb837e907766f66eb955e532a30",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.042390399999999995
+  }
+}

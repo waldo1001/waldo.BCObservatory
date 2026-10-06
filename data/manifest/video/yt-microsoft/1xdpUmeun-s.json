@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Business Central Under the Hood episode 12: Evolving AL for Performance",
   "url": "https://www.youtube.com/watch?v=1xdpUmeun-s",
-  "published_at": null,
+  "published_at": "2025-12-05T15:00:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:59:25.435Z",
+      "captions": "auto:en-orig",
+      "duration_s": 2190
+    },
+    "captioned": {
+      "at": "2026-10-06T13:59:45.410Z",
+      "path": "data/captions/microsoft/1xdpUmeun-s.vtt",
+      "vtt_sha256": "07b47824140104780b4d25aed6aa6226a7356eae483dc15713e0e930e96bec78",
+      "segments": 146,
+      "words": 7265,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 130,
-    "duration_s": 2191,
-    "via": "reconcile"
-  }
+    "duration_s": 2190,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "07b47824140104780b4d25aed6aa6226a7356eae483dc15713e0e930e96bec78"
 }

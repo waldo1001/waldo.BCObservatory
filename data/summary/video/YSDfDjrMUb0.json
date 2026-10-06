@@ -1,0 +1,27 @@
+{
+  "video_id": "YSDfDjrMUb0",
+  "item_id": "video/yt-microsoft/YSDfDjrMUb0",
+  "summary": "Shopify Connector changes in the 2026 release wave 2: tariff code sync, barcode mapping setting, unlisted status, skipped-records tracking, B2B company and market-based catalogs, Belgium and US localization extensions, Shopify order numbers, and return orders from refunds. Demoed across product, price, B2B and order sync.",
+  "overview": "The video walks through what changed in the Shopify Connector for product, price, B2B and order management. It covers items and products (tariff codes, barcode mapping, the unlisted status), price sync visibility through skipped records, and a feedback button on the shop card.\n\nIt then covers B2B company synchronization and catalogs (with a recommendation for market-based catalogs), tax registration import, and two small localization extensions for Belgium and the US. The last part covers order handling: Shopify order numbers, contact numbers, multi-line orders with exchanges, return orders from refunds, and tax area code overrides. Some of the tax details are described as pre-release.",
+  "key_points": [
+    "Tariff code sync imports and exports harmonized system codes between items and Shopify products. Codes are not auto-created, so they must already exist in the Business Central tariff list or they are ignored on import.",
+    "The new 'Find mapping by barcode' shop card field controls whether item references are searched by barcode when SKU mapping fails. It is hidden by default and needs personalization to show. When enabled it can map several variants to one Business Central entity.",
+    "Skipped records page and Role Center widget show items skipped during price sync, such as sales-blocked items, and API errors. The job queue still marks these runs as successful.",
+    "B2B company synchronization is now visible by default for all Shopify plans. Auto-creating a B2B catalog is only available for Plus and Advanced plans. B2B catalogs are imported only if the matching company exists in Business Central.",
+    "Market-based catalogs are recommended over company-location catalogs. Linking several B2B catalogs to the same Shopify catalog makes the last sync overwrite earlier prices.",
+    "Belgium and US localization extensions are released outside AppSource. The Belgium one adds an 'enterprise number' option for company tax ID mapping, because VAT registration ID mapping previously failed there.",
+    "Shopify refunds can be processed as return orders instead of credit memos. Credit memos are not compatible with directed put-away and pick. Negative lines can be moved with the standard action after reopening the document."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer"
+  ],
+  "extraction_hash": "3c25be2ee45146057360e43ee29548aa6d0fa67de1c980ef90206e4b285edd0c",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.052454400000000005
+  }
+}

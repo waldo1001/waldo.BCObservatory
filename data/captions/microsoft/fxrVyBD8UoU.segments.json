@@ -1,0 +1,243 @@
+{
+  "video_id": "fxrVyBD8UoU",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 7.3,
+      "end": 19.2,
+      "text": "Welcome to the 2026 release wave one version of Business Central. This is the launch edition and the video here you are seeing here is about enhanced finance analytics."
+    },
+    {
+      "t": 19.2,
+      "end": 29.2,
+      "text": "We invested in this for three things: better reports, faster reports, and in-client analysis of of things related to finance."
+    },
+    {
+      "t": 29.2,
+      "end": 43.7,
+      "text": "Um You see some some icons here. That means that there are additional videos that you can go and check out. But we're we're in this video I'm going to talk about added subtotals all the way down to analysis tabs."
+    },
+    {
+      "t": 43.7,
+      "end": 59.4,
+      "text": "And then the other two here, go check out related videos for enhanced financial reporting and demo data. In the fall of 2025, we released a lot of Excel layouts for existing reports."
+    },
+    {
+      "t": 59.4,
+      "end": 70.3,
+      "text": "And it's For finance, we did the three deferral reports for GL, purchase, and sales. We got some feedback that these reports were missing subtotals."
+    },
+    {
+      "t": 70.3,
+      "end": 81.4,
+      "text": "So here you can see the version we shipped in the fall. In in the pivot table, it there's no subtotal totals. It's it's an easy change. You can do it on your on your own versions."
+    },
+    {
+      "t": 81.4,
+      "end": 91.2,
+      "text": "But we're also shipping in Business Central out of the box the deferral reports with subtotals included."
+    },
+    {
+      "t": 91.2,
+      "end": 108.7,
+      "text": "Another thing that actually the the types of reports in in Business Central that all started the Excel layouts wave was back in version 25. And here the what we shipped back then was a lot of trial balance reports in finance and some other things."
+    },
+    {
+      "t": 108.7,
+      "end": 123,
+      "text": "Um those finance reports were not fast. So um we we took the time to actually performance tune them from the trial balance all the way down to trial balance previous year."
+    },
+    {
+      "t": 123,
+      "end": 136.3,
+      "text": "Uh and they run much faster. Now, when we mess with finance reports, we want to be a little bit careful. So, therefore, we have put these new uh the new"
+    },
+    {
+      "t": 136.3,
+      "end": 151.5,
+      "text": "tuned reports under a feature management flag for now. In case something uh you you you find that they're not showing the right numbers, we try to test as much as we can. You can always go back to the old behavior, at least for this release wave and maybe the next one,"
+    },
+    {
+      "t": 151.5,
+      "end": 162.8,
+      "text": "but if you want to take get the speed now, just toggle this and you will have much faster trial balance in Excel. And finally, we added for finance"
+    },
+    {
+      "t": 162.8,
+      "end": 177.4,
+      "text": "um in this release wave, it's possible to ship analysis views out of the box with the application, and therefore, we are shipping some of these to the finance area, specifically for GL registered and fixed asset ledgers pages."
+    },
+    {
+      "t": 177.4,
+      "end": 189.9,
+      "text": "They now come with with out of the box analysis views. These are shipped in 20 eight {dot} X, so they're not in the April release yet, but they will come very soon."
+    },
+    {
+      "t": 189.9,
+      "end": 200.9,
+      "text": "And if you want to see more examples of things that you can do with analysis mode in finance, go to Microsoft Learn and find the ad hoc analysis of finance data article."
+    },
+    {
+      "t": 200.9,
+      "end": 214.9,
+      "text": "Here you see more examples of what we ship. Uh some of these examples require you to filter in on certain accounts or things in your chart of accounts. So, so these are not easy for us to ship out of the box, but you can create them very easily."
+    },
+    {
+      "t": 214.9,
+      "end": 227.3,
+      "text": "Copy the description of what to do into uh Copilot analysis assist, and and it will give you these additional uh reports or analysis."
+    },
+    {
+      "t": 227.3,
+      "end": 237.7,
+      "text": "I also want to highlight or do a commercial of enhanced financial reporting session. So, go check the link. There's ton of thing happening in finance reporting."
+    },
+    {
+      "t": 237.7,
+      "end": 248.4,
+      "text": "If you watch this on financial analytics analytics, you definitely want to see the things on finance reporting as well. And just a short bonus"
+    },
+    {
+      "t": 248.4,
+      "end": 262.6,
+      "text": "related to to finance, we're adding new demo data in fixed assets for transactions data for acquisitions and depreciations. Because this come out of the box in a demo company, you can do a lot better,"
+    },
+    {
+      "t": 262.6,
+      "end": 273.3,
+      "text": "easier Well, you are able to demo all the reports that exist in in fixed assets at least if they are in these two acquisitions and depreciations."
+    },
+    {
+      "t": 273.3,
+      "end": 285.3,
+      "text": "There's a full session on demo data. If that's your thing, go to the description and and and see that as well. Anything related to financial analytics"
+    },
+    {
+      "t": 285.3,
+      "end": 290.8,
+      "text": "is described under aka.ms/bcfinanceanalytics."
+    },
+    {
+      "t": 290.8,
+      "end": 306.7,
+      "text": "That's the landing page for everything financial reporting, building reports, Power BI, you name it. So, if you don't know this resource, there's a gold mine of examples and things where it can make your finance life much easier."
+    },
+    {
+      "t": 306.7,
+      "end": 321,
+      "text": "And if you think that this is too much, why not try the new copilot or in in Microsoft Learn where you can get an AI summary of any of these pages, especially for the building finance reports."
+    },
+    {
+      "t": 321,
+      "end": 336.3,
+      "text": "There are a lot, so maybe have an AI to summarize what's there and then dive further in. I mentioned the enhanced finance reporting related session, so go definitely check that out."
+    },
+    {
+      "t": 336.3,
+      "end": 346.4,
+      "text": "And other related sessions, if you're interested in analytics span from sales analytics all the way down to enhanced demo data to mode."
+    },
+    {
+      "t": 346.4,
+      "end": 360.3,
+      "text": "Those links are also in the description of this video. So uh so go check that out as well. After my goodbye, there is a a little bit on general Business Central resources."
+    },
+    {
+      "t": 360.3,
+      "end": 371.4,
+      "text": "If you don't If you know them already, uh here, skip this. If you don't, uh stay tuned or or keep watching the video. For now, financial analytics uh is is over."
+    },
+    {
+      "t": 371.4,
+      "end": 380.8,
+      "text": "This video is over. I wish you a great day and uh see you in another time. Bye."
+    },
+    {
+      "t": 380.8,
+      "end": 391.8,
+      "text": "We have compiled a number of general resources that we believe are key both for partners, but also uh Business Central customers. Most Some of these are partner."
+    },
+    {
+      "t": 391.8,
+      "end": 410.4,
+      "text": "Some of them are also for customers. So, the first one is called aka.ms/bcall. This is a partner resource for that contains lists of every other aka link that is needed for you to understand anything about both the Business Central product,"
+    },
+    {
+      "t": 410.4,
+      "end": 423.2,
+      "text": "but also processes around it. We call these aka links because they're called aka.ms and then for forward/something. And with Business Central links, we all always prefix with BC and then something."
+    },
+    {
+      "t": 423.2,
+      "end": 436.1,
+      "text": "The next one is uh our uh partner network uh social media for for Business Central partners, Viva. Viva Engage. So, aka.ms/bcvivaengage"
+    },
+    {
+      "t": 436.1,
+      "end": 450,
+      "text": "is where you go and interact with other partners. It's not open for customers. So, this is where you can ask uh questions, interact with the product group, interact with you with with each other uh in a in a closed network."
+    },
+    {
+      "t": 450,
+      "end": 465.6,
+      "text": "Second link A third link is for both partners and customers. We are called office hours. So, office hours is something we do once or twice a month from the product group engaging with the community about new features or things we want to discuss."
+    },
+    {
+      "t": 465.6,
+      "end": 476.1,
+      "text": "aka.ms/bcofficehours is the is the place where you go to find out about upcoming events. These are recorded."
+    },
+    {
+      "t": 476.1,
+      "end": 486.4,
+      "text": "I believe the recordings are available only to partners, but the live events are available to customers as well. Fourth link is YouTube, our YouTube channel."
+    },
+    {
+      "t": 486.4,
+      "end": 499.8,
+      "text": "I'll talk about that in the next slide and LinkedIn in the next slide. And then finally for for Microsoft partners, the BC's aka.ms/bcpartnerportal"
+    },
+    {
+      "t": 499.8,
+      "end": 511.4,
+      "text": "is where you get a lot of the resources as a partner such as compete decks, pitch decks, and a lot of other resources."
+    },
+    {
+      "t": 511.4,
+      "end": 526.4,
+      "text": "For LinkedIn, this is our product group's LinkedIn profile. We have 30k or more followers, so both partners and customers. This is the place where we from the product group put in news and small bits of information"
+    },
+    {
+      "t": 526.4,
+      "end": 537,
+      "text": "outside the {quote} official channel. So, follow us on LinkedIn to learn what's happening right now in in this in the around the product."
+    },
+    {
+      "t": 537,
+      "end": 554.2,
+      "text": "And then also on our YouTube channel, this is where you're probably watching this aka.ms/bcyoutube. We put in not only these launch editions twice a year, but also copilot and AI video shorts,"
+    },
+    {
+      "t": 554.2,
+      "end": 570.9,
+      "text": "tips and tricks, technical deep dives, under the hood. We even have this what's cooking where we put little nuggets of of videos out for new features that are even coming in on the YouTube channel before they're coming in the release notes."
+    },
+    {
+      "t": 570.9,
+      "end": 583.6,
+      "text": "So, watch and maybe bookmark us on YouTube. And also notice all the playlists. So, that all the content is also organized in areas, not only all the videos."
+    },
+    {
+      "t": 583.6,
+      "end": 594.9,
+      "text": "So, if you have an area that's has special interest such as analytics, um you can find an a playlist and kind of see all the content related to that."
+    },
+    {
+      "t": 594.9,
+      "end": 608,
+      "text": "And that's it. That is truly it. We won't There will be no more. So, thank you for watching all the way to the end. And again, have a great day. Thank you."
+    }
+  ],
+  "markers": [],
+  "word_count": 1466
+}

@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchasing-how-register-new-vendors.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-register-new-vendors",
+  "title": "Register a new vendor",
+  "blob": "d763642cca73ee7178811aecf826650715c3341a",
+  "summary": "Register new vendors in Business Central by creating vendor cards manually or using templates. Setup includes recording vendor information, bank accounts, payment preferences, and optional self-billing agreements.",
+  "systems": [
+    "purchasing",
+    "administration"
+  ],
+  "topics": [
+    "vendor setup",
+    "vendor cards",
+    "master data",
+    "purchase partners",
+    "payment terms"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Template"
+    }
+  ],
+  "features": [
+    "vendor templates",
+    "remit-to addresses",
+    "vendor bank accounts",
+    "self-billing agreements",
+    "vendor dimensions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005231,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-general-ledger.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-general-ledger",
+  "title": "Understand the general ledger and Chart of Accounts",
+  "blob": "2cba5f0c895788cc93063d1efa9ee7d5a3623884",
+  "summary": "The general ledger and chart of accounts setup defines how to post financial data; use account categories, dimensions, and posting groups to structure financial processes.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "general ledger",
+    "chart of accounts",
+    "posting groups",
+    "account categories",
+    "dimensions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "G/L Account Categories"
+    }
+  ],
+  "features": [
+    "Invoice rounding",
+    "Address formats",
+    "Posting groups",
+    "Account categories",
+    "Category grouping",
+    "Dimension assignment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005432,
+      "pages_in_call": 8
+    }
+  ]
+}

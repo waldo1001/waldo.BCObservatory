@@ -1,0 +1,168 @@
+{
+  "video_id": "jqVt0hYDfz0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.3,
+      "end": 20.7,
+      "text": ">> Hello everyone and welcome to a new episode of What's Cooking. For today, I'm going to show you a new feature that is coming up with the next release. And it's for those of you who use analysis mode to perform data analysis."
+    },
+    {
+      "t": 20.7,
+      "end": 33.3,
+      "text": "So, with this new feature, you will now be able to export those analysis tabs that you have defined from web client and deliver them with your own AL extensions."
+    },
+    {
+      "t": 33.3,
+      "end": 48.9,
+      "text": "This [clears throat] makes it easier to persist these analysis tabs and also share them with other users and other environments. This will also allow us to create our own predefined analysis views based on some of the most common scenarios"
+    },
+    {
+      "t": 48.9,
+      "end": 60.5,
+      "text": "and deliver them with our base application. So, to show you how it works, I'm just going to go ahead and jump into analysis mode for my sales order list."
+    },
+    {
+      "t": 60.5,
+      "end": 73.9,
+      "text": "And here you can see that I have already created a a new analysis view um where I have added a related column to bring the country and region code for the the customer."
+    },
+    {
+      "t": 73.9,
+      "end": 86,
+      "text": "And then I also have grouped my my sales order based on this country or region code. You can also use create analysis compiler assist to create a new analysis"
+    },
+    {
+      "t": 86,
+      "end": 96.4,
+      "text": "um with with AI. But in this case, before I export my analysis view, I'm going to add a description for it."
+    },
+    {
+      "t": 96.4,
+      "end": 112.8,
+      "text": "This is also something that we have added with this release. So, now I can just go on and rename and add a a description for this analysis view that will give some context or help uh users see how they can use this tab."
+    },
+    {
+      "t": 112.8,
+      "end": 116.8,
+      "text": "No."
+    },
+    {
+      "t": 123.2,
+      "end": 135.3,
+      "text": ">> So, in this case, I have I got the description. I when I hover over it, I will be able to see that one. So, now my analysis view is ready to be exported."
+    },
+    {
+      "t": 135.3,
+      "end": 147.5,
+      "text": "So, I can go into share and export definition. And here I will just get my analysis tab in the shape of a JSON file."
+    },
+    {
+      "t": 147.5,
+      "end": 157.6,
+      "text": "And here I have all the information to recreate tab. So, I have the title, the tooltip, target page, and other filters, grouping,"
+    },
+    {
+      "t": 157.6,
+      "end": 172.7,
+      "text": "or related columns that I have added to my to my tab. So, the first thing that I need to do is get that file into my um into my extension."
+    },
+    {
+      "t": 172.7,
+      "end": 187.2,
+      "text": "And then in this case, I'm just going to add this view to the sales order list. So, I need to create a page extension and use this new syntax that is also coming up with this release uh for analysis views."
+    },
+    {
+      "t": 187.2,
+      "end": 205.7,
+      "text": "So, it's quite similar to other controls. The only difference here is that I have the definition file property. And this property should point to the path to my JSON file uh that I have just downloaded that contains the definition for my analysis view."
+    },
+    {
+      "t": 205.7,
+      "end": 220.3,
+      "text": "In a similar mode, I can also set properties for the caption or the tooltip, which will override the name and the description. Or I can also uh set the visibility from AL code directly."
+    },
+    {
+      "t": 220.3,
+      "end": 240.6,
+      "text": "In a similar way, I can also create a page customization and then assign this customization to a profile or profile extension. And in this case, I'm just making sure that this new tab is only visible for the those users that have a order processor profile."
+    },
+    {
+      "t": 240.6,
+      "end": 251.7,
+      "text": "So, this way I can also create different analysis tabs that are tailored for different users and assign them to to these different profiles."
+    },
+    {
+      "t": 251.7,
+      "end": 266.1,
+      "text": "And in a similar way, if I'm also defining new pages or list pages, um I will also be able to have this new section to define analysis views that are available with this list page."
+    },
+    {
+      "t": 266.1,
+      "end": 280.2,
+      "text": "So, that was it for how to add analysis views in a year. That was very straightforward, so let's get this extension published in another different environment."
+    },
+    {
+      "t": 284,
+      "end": 297.2,
+      "text": "And that is my sales order list, and if I go into analysis mode, then I will be able to see this new analysis view um that comes from that extension."
+    },
+    {
+      "t": 297.2,
+      "end": 314.6,
+      "text": "You will notice that this analysis view is a bit different from the others. First of all, because it contains a um a lock icon, which will indicate that it comes from the extension, and also indicate that this analysis view is not editable."
+    },
+    {
+      "t": 314.6,
+      "end": 325.5,
+      "text": "So, I cannot really do some more filtering or sorting or grouping or anything like that um on this on this analysis view."
+    },
+    {
+      "t": 325.5,
+      "end": 341.8,
+      "text": "But, if I do want to create do more advanced data analysis on top of this file, then I can just go ahead and duplicate it. And this is now my tab, and now I can just have all my filtering and pivoting back,"
+    },
+    {
+      "t": 341.8,
+      "end": 348.9,
+      "text": "so I can just perform more data analysis on top of that view."
+    },
+    {
+      "t": 348.9,
+      "end": 361.9,
+      "text": "Another thing to to take into consideration is that maybe users, or me in this case, maybe I don't really want all the analysis tabs that come with the AL extensions."
+    },
+    {
+      "t": 361.9,
+      "end": 373.1,
+      "text": "So, if I don't really find one relevant, then I can just go into the menu and choose to hide it. And now this will hide the the analysis view just for me."
+    },
+    {
+      "t": 373.1,
+      "end": 388.2,
+      "text": "If I made a mistake or I want to bring it back, then I can always go into personalization mode, like we do with other controls, such as views. Um and I will find my my hidden analysis views uh grayed out,"
+    },
+    {
+      "t": 388.2,
+      "end": 400.6,
+      "text": "and then I can go into the menu and just uh click on show. And as you can see, this will bring my analysis view back and I can see it back again."
+    },
+    {
+      "t": 400.6,
+      "end": 410.8,
+      "text": "So, that was it for the new addition uh for analysis mode, and hopefully you will also like it very much. Um yeah, and that was it."
+    },
+    {
+      "t": 410.8,
+      "end": 416,
+      "text": "Thank you everyone for listening in."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.309,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 974
+}

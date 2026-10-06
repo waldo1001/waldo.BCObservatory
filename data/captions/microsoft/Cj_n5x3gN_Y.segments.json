@@ -1,0 +1,388 @@
+{
+  "video_id": "Cj_n5x3gN_Y",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.2,
+      "end": 18.3,
+      "text": ">> Welcome to Business Central Launch Edition 2026 release wave one. My name is Aleksandar Totovic, I'm a product manager, and I will show what's new in excise taxes or excise duties."
+    },
+    {
+      "t": 18.3,
+      "end": 33.9,
+      "text": "So, let's first look in a Business Central. Even we started with this functionality already in previous wave, I still want to emphasize that this is really important because excise tax calculation regulatory is extremely important for all users,"
+    },
+    {
+      "t": 33.9,
+      "end": 47.4,
+      "text": "all customers who are handling with excise taxes or duties in their regular work. If you definitely minimize risk of penalties because now they are on control and they can calculate all of them automatically in a Business Central."
+    },
+    {
+      "t": 47.4,
+      "end": 61.7,
+      "text": "And of course, operational efficiency because they do not need to repeat and manually to calculate all these taxes or duties all the time. So, as I mentioned, this is something what we continue from previous wave."
+    },
+    {
+      "t": 61.7,
+      "end": 75.3,
+      "text": "So, excise taxes framework officially has been delivered in 2025 wave release wave two. But in this moment, we had only framework and two options for calculation, CBAM and EPR."
+    },
+    {
+      "t": 75.3,
+      "end": 88.6,
+      "text": ">> [snorts] >> Both of them, carbon border adjustment mechanism and environmental all these environmental and sustainability calculations. So, both of them were really important to be on a time."
+    },
+    {
+      "t": 88.6,
+      "end": 104.6,
+      "text": "So, when we started to work about them, we saw that this is almost the same model as all other excise types. So, we said, \"Okay, let's build excise journal and we will use excise journal for both of these CBAM and EPR calculations."
+    },
+    {
+      "t": 104.6,
+      "end": 115.7,
+      "text": "So, now we already have them inside from previous wave, but in this wave, we extended it to much more options. So, what does it mean? We support other excise types."
+    },
+    {
+      "t": 115.7,
+      "end": 131.4,
+      "text": "And when I say other excise types, I do not want to count them because this is configurable. You can use for many, many different excise types. We have some ideas, we have some different tax bases, so you you're limited with tax calculation models,"
+    },
+    {
+      "t": 131.4,
+      "end": 142.3,
+      "text": "but behind all these calculation models, if you want to use them, if all of them are good for you, they are configurable and you can use different tax calculations."
+    },
+    {
+      "t": 142.3,
+      "end": 157.8,
+      "text": "So, excise journal, this is something what we already had earlier. So, you could choose CBAM, EPR, or excise taxes models. But if you choose excise tax model, you need to choose exactly which excise type you want to use."
+    },
+    {
+      "t": 157.8,
+      "end": 170.1,
+      "text": "This is what I said. CBAM, EPR, they are independent calculation, but for all our other excise taxes, this is excise type and you need to choose which one you want to use. What do we have in a excise journal?"
+    },
+    {
+      "t": 170.1,
+      "end": 186.2,
+      "text": "We have excise journal template batch, just standard journal, as you already have it all other journals in a Business Central. And once when you post or not post actually, but registering, you will get excise taxes at transaction logs."
+    },
+    {
+      "t": 186.2,
+      "end": 198,
+      "text": "So, how you will start with specifying different excise taxes behind CBAM and EPR? You will find excise tax types."
+    },
+    {
+      "t": 198,
+      "end": 209.3,
+      "text": "So, this is not so complicated for setting up. You have code, description, and then what is important, you have tax bases. Tax bases actually heart of this system."
+    },
+    {
+      "t": 209.3,
+      "end": 222.4,
+      "text": "You need to choose how you will collect information about excise taxes. Are they based on weight or volume, quantity, sugar content, pure alcohol content, active content?"
+    },
+    {
+      "t": 222.4,
+      "end": 232.7,
+      "text": "So, you have different models, six different models, how you will calculate and what what will be used as a calculation for this excise taxes."
+    },
+    {
+      "t": 232.7,
+      "end": 244.9,
+      "text": "Okay, you have one field where you can enable disable this calculation in one moment. And the last one, reporting is how you will expose these fields on your journal."
+    },
+    {
+      "t": 244.9,
+      "end": 256.7,
+      "text": "We just wanted to avoid misunderstanding if you have the if you are working with different excise taxes to have only excise tax field. So, you will get in a bracket exactly name you have here in a reporting caption."
+    },
+    {
+      "t": 256.7,
+      "end": 269.7,
+      "text": "So, this is plastic tax or sugar tax, it will be easier to see when you open journal. So, for all of these excise tax types, you need to add"
+    },
+    {
+      "t": 269.7,
+      "end": 281.9,
+      "text": "um how from where you want to collect this information. So, now we know how we want because quantity, volume, or some other options, but now from where to collect."
+    },
+    {
+      "t": 281.9,
+      "end": 291.9,
+      "text": "We will collect this information using these connected field table entry permissions. And from there, you can choose different entry types."
+    },
+    {
+      "t": 291.9,
+      "end": 304,
+      "text": "So, what does it mean? Some excise taxes are based on a purchase, some excise taxes are based on a sales. So, you can configure what you want to use. So, you have all these six options."
+    },
+    {
+      "t": 304,
+      "end": 317.5,
+      "text": "Purchase. And if this is incoming, positive adjustment, output, or assembly output, if this is about production, or if this is from um uh sales process, you can use sales or eventually negative adjustment."
+    },
+    {
+      "t": 317.5,
+      "end": 333.6,
+      "text": "So, you can configure what you want to use and what you have. So, for example, if you have production, you can use output. If you do not have production, you don't need to have this configured. And the last one is you need to configure excise duty rates."
+    },
+    {
+      "t": 333.6,
+      "end": 349,
+      "text": "Um in probably more than 95% probably almost all all possible cases, you will use excise duties on items. But still, in some rare situations, it can happen that you need to calculate based on fixed assets."
+    },
+    {
+      "t": 349,
+      "end": 359,
+      "text": "So, you can use for both of them, item and fixed assets. And you need to go to excise duty rates. And if you have fixed asset, you will just add one new line that you will use for fixed assets."
+    },
+    {
+      "t": 359,
+      "end": 369.1,
+      "text": "And you need to configure what will be excise duty rate. This is not percent because they are not we do not use as a percentage on some specific value."
+    },
+    {
+      "t": 369.1,
+      "end": 384.3,
+      "text": "This is let's say limitation. We do not use as well our model. Only model is configured that you will use fixed fast excise duty rate based on some specific model of calculation."
+    },
+    {
+      "t": 384.3,
+      "end": 396.7,
+      "text": "So, how does it work? Now you have full workflow for excise journal calculation. When you run calculation, first system will look to identify all excise types you have there."
+    },
+    {
+      "t": 396.7,
+      "end": 414.2,
+      "text": "And based on these excise types, system will search through entries to find appropriate entries. What does it mean? It means if you configure purchase, sales, output, whatever you configure there, system will try to locate all these entries with specific types."
+    },
+    {
+      "t": 414.2,
+      "end": 429.9,
+      "text": "Then based on that, system will use dedicated tax bases you have configured on your excise tax types and calculate excise duty rate. How it works in general, system will take quantity from item journal from item ledger entry,"
+    },
+    {
+      "t": 429.9,
+      "end": 446.6,
+      "text": "multiply with a quantity for excise taxes you have configured on your item card, and multiply with a excise duty rate. Once when you get this final value, system will have everything calculated and when you register, it will finish in excise transaction logs."
+    },
+    {
+      "t": 446.6,
+      "end": 452.9,
+      "text": "So, now let's switch to demo to see how it works in a practice."
+    },
+    {
+      "t": 452.9,
+      "end": 459,
+      "text": "First, I want to show you items."
+    },
+    {
+      "t": 459,
+      "end": 469.1,
+      "text": "How we configure our items. And I already have some configuration here. So, I have the last fast tab."
+    },
+    {
+      "t": 469.1,
+      "end": 482.5,
+      "text": "Now, new fast tab, excise taxes. Keep in mind that excise taxes is independent app. So, if you don't calculate, you can easily remove this app outside of of the system. So, you don't need to choose excise tax type."
+    },
+    {
+      "t": 482.5,
+      "end": 494.4,
+      "text": "I will show how we making this excise tax types, as I already shown on the slides. And then, if I choose plastic, I will say what is quantity for excise taxes"
+    },
+    {
+      "t": 494.4,
+      "end": 509.3,
+      "text": "on this item. What does it mean? This item can be weight, for example, 30 kilos. But it has 4 kilograms because kilogram is excise tax unit of measure, 4 kg of plastics inside."
+    },
+    {
+      "t": 509.3,
+      "end": 520.7,
+      "text": "So, system will not calculate whole weight from this item, but only what is plastic because we are paying plastic tax based on a plastic amount in your items."
+    },
+    {
+      "t": 520.7,
+      "end": 531.2,
+      "text": "So, this is configuration what you have. I have this configured for few other items. So, you can see here. But I just do not wanted"
+    },
+    {
+      "t": 531.2,
+      "end": 544.5,
+      "text": "don't I didn't want to forget EPR and CBAM. So, still on sustainability fast tab, you can use in combination. You can configure if um source for emissions is coming from vendor."
+    },
+    {
+      "t": 544.5,
+      "end": 555.7,
+      "text": "So, this is for CBAM and you can run CBAM compliance. Or if you have some item, for example, another one, I already configure"
+    },
+    {
+      "t": 555.7,
+      "end": 567.9,
+      "text": "EPR category. So, in EPR category, you can choose one of them and you need to configure material composition. Why I want to show you? There are some misunderstandings"
+    },
+    {
+      "t": 567.9,
+      "end": 581.9,
+      "text": "when you have more different things for taxation related to the plastic tax. Plastic tax is only plastic tax. But if you have situation that you need to register EPR, this is not a regular"
+    },
+    {
+      "t": 581.9,
+      "end": 595,
+      "text": "excise duty for plastic taxes. This is completely different. So, if you have all these subjects, for example, plastic, leather, textile, depends what is required to be taxed, you will use EPR and item material composition."
+    },
+    {
+      "t": 595,
+      "end": 607.1,
+      "text": "Here, you can configure weight for all of them, what is EPR fee rate, and so on, so on. So, once when you have configured, system will automatically say what is EPR weight and what is EPR fees per unit."
+    },
+    {
+      "t": 607.1,
+      "end": 622.9,
+      "text": "So, this part is not directly connected with excise taxes. Even we are using the same excise tax journal, they can work in a parallel. But, what you cannot you cannot combine uh plastic excise tax with some other excise taxes here from different types."
+    },
+    {
+      "t": 622.9,
+      "end": 632.9,
+      "text": "This is not possible. And now, let's look in excise taxes types. So, what is necessary for you to make setup?"
+    },
+    {
+      "t": 632.9,
+      "end": 648.8,
+      "text": "I already configure some alcohol, cannabis, cigarettes, petrol, plastic, sugar. They're just ideas uh for where um in the most of countries is required some type of tax calculate excise tax or excise duty calculations."
+    },
+    {
+      "t": 648.8,
+      "end": 663.1,
+      "text": "So, I will make a look in the plastic tax, for example. And I already configure that this is based on weight. This is how it should be calculated, but as I mentioned, you have different. If this is sugar tax, you can use sugar content or active content, volume, pure alcohol quantity,"
+    },
+    {
+      "t": 663.1,
+      "end": 679.4,
+      "text": "and so on. So, okay, here I'm using weight. What else I need to do? I need to configure entry permissions. And you can enter one by one, or you can use action set of default permissions, so system will offer all types behavior system,"
+    },
+    {
+      "t": 679.4,
+      "end": 691.8,
+      "text": "and only what you need to do is to mark what is allowed. I have here plastic tax is used on a purchase, so I have purchase positive output assembly output. If you don't want to use positive adjustment, just disable it."
+    },
+    {
+      "t": 691.8,
+      "end": 706.7,
+      "text": "So, this is on you how you will make a setup. And I mentioned the last setup is item and fixed asset rates. That means you need to configure that source type used for calculation will be item or item and fixed assets, and what is excise duty rate."
+    },
+    {
+      "t": 706.7,
+      "end": 718.8,
+      "text": "Of course, effective from date for calculation. So, that's it. Uh there is nothing specific more to have here. I already have posted purchase invoices, so there is nothing uh specific in purchase invoices."
+    },
+    {
+      "t": 718.8,
+      "end": 727.6,
+      "text": "You just need to uh post them. And uh I will open excise journal."
+    },
+    {
+      "t": 727.7,
+      "end": 738.2,
+      "text": "So, now we have plastic. What I said, if you are using excise as a type in a batch, you need to decide excise tax type filter."
+    },
+    {
+      "t": 738.2,
+      "end": 754.4,
+      "text": "So, this is connected only with the model of excise. But, if you are using type CBM EPR, you will leave this empty. This is something what we already had from the previous wave. So, okay, let's use plastic because I already have uh posted um and uh entries uh invoices."
+    },
+    {
+      "t": 754.4,
+      "end": 766.8,
+      "text": "So, once when I generate tax entries, I need to say, \"Okay, what is posting date?\" And starting and ending date, I already configure. I think that I have all entries in June 27."
+    },
+    {
+      "t": 766.8,
+      "end": 782.5,
+      "text": "Okay. I got 18 lines. So, what you will have here, excise entry type, if this is purchase, if original document is invoice, document number for that means journal document number."
+    },
+    {
+      "t": 782.5,
+      "end": 795.1,
+      "text": "So, you have descriptions, if this is vendor or customer, if we this come from sales process. Partner number, then we have all these calculations, all items uh number, description."
+    },
+    {
+      "t": 795.1,
+      "end": 807,
+      "text": "Now, about unit of measure. Do not forget what I mentioned. This is regular source unit of measure. This is unit of measure from your item, but this is excise tax unit of measure you configure on uh for this item."
+    },
+    {
+      "t": 807,
+      "end": 818.8,
+      "text": "So, source quantity in item ledger entry is 15. But, multiplier from item card is four. So, that means that 4 kg in one piece of item desk is plastic."
+    },
+    {
+      "t": 818.8,
+      "end": 831,
+      "text": "And then, we have 15 * 4 * 25 as this is excise duty, we will get final amount for payment $1,500."
+    },
+    {
+      "t": 831,
+      "end": 843,
+      "text": "So, uh if you remember, I mentioned this caption for plastic tax. You can see here in a bracket plastic tax, excise duty plastic tax, and so on. So, if you choose, for example, alcohol,"
+    },
+    {
+      "t": 843,
+      "end": 855,
+      "text": "you can see alcohol excise duty alcohol excise duty, so it depends how we calculated. And what I wanted to show you that this uh EPR, for example, EPR is based on sales."
+    },
+    {
+      "t": 855,
+      "end": 871,
+      "text": "So, if I run calculate, I should get some lines. I already have configured on sales invoices, so it works. So, that means if you are using plastic tax calculation, it will not exclude completely EPR calculation."
+    },
+    {
+      "t": 871,
+      "end": 882.2,
+      "text": "They are completely different, so you can use both of them or CBM as well. So, this time we have different calculation. Uh we have from uh item, from customer."
+    },
+    {
+      "t": 882.2,
+      "end": 893.2,
+      "text": "Previous type we had vendor, now we have customer. So, what we need to do? We need to register. It will be Um okay, I didn't specify emission, sorry."
+    },
+    {
+      "t": 893.2,
+      "end": 906,
+      "text": "But, let's go back to plastic. We can register it. And once when we register, everything will be there. So, eventually I can check"
+    },
+    {
+      "t": 908.8,
+      "end": 924.5,
+      "text": "excise taxes transaction logs. And you can see all these transactions I have. It can be related to different types. You have here excise uh log type excise or CBM EPR, so you can combine all them all of them will be in the same place."
+    },
+    {
+      "t": 924.5,
+      "end": 940,
+      "text": "Currently, we do not have any specific report for um showing, so you can export in Excel, but plan is to continue invest invest into this direction and this functionality, so we will see what will be next delivered."
+    },
+    {
+      "t": 940,
+      "end": 952.9,
+      "text": "So, this is shortly about demo and about how excise taxes and duties works. So, we are on the end of this session, so I will just remind you use some of these links."
+    },
+    {
+      "t": 952.9,
+      "end": 964,
+      "text": "You can find the interesting content, or go to LinkedIn, or watch our YouTube sessions. So, that's it from me about excise taxes or excise duties."
+    },
+    {
+      "t": 964,
+      "end": 969,
+      "text": "Thank you for watching this video."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 2486
+}

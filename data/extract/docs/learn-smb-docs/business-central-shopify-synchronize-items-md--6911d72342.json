@@ -1,0 +1,76 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/shopify/synchronize-items.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-items",
+  "title": "Synchronize items with Shopify",
+  "blob": "b7be656e5c87dc0f5940928da1efbbe9364dcced",
+  "summary": "Item synchronization between Business Central and Shopify, including configuration options for bidirectional sync, import/export settings, mapping strategies, and handling of product variants, images, and metadata.",
+  "systems": [
+    "integration",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "shopify connector",
+    "item synchronization",
+    "product mapping",
+    "variants",
+    "sku mapping",
+    "metafields",
+    "product collections"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Shopify Shop"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Products"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Variants"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Custom Product Collections"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Languages"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Metafields"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    }
+  ],
+  "features": [
+    "item export to Shopify",
+    "item import from Shopify",
+    "SKU mapping strategies",
+    "barcode mapping",
+    "variant handling",
+    "image synchronization",
+    "metafield support",
+    "product collections",
+    "translation sync",
+    "unit of measure as variant",
+    "inventory tracking",
+    "custom product status"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.035295,
+      "pages_in_call": 1
+    }
+  ]
+}

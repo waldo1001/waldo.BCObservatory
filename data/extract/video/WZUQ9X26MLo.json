@@ -1,0 +1,199 @@
+{
+  "video_id": "WZUQ9X26MLo",
+  "item_id": "video/yt-microsoft/WZUQ9X26MLo",
+  "title": "What's new in Sustainability: EUDR Certificate Capture (2026 release wave 2)",
+  "duration_s": 266,
+  "systems": [
+    "sustainability",
+    "inventory",
+    "purchasing"
+  ],
+  "topics": [
+    "eudr certificate capture",
+    "item tracking",
+    "deforestation regulation",
+    "lot numbers",
+    "commodity classification",
+    "certification schema",
+    "supply chain compliance"
+  ],
+  "chapters": [
+    {
+      "title": "EUDR context and tracking requirements",
+      "t_start": 0,
+      "t_end": 46.2
+    },
+    {
+      "title": "Item card EUDR fields",
+      "t_start": 46.2,
+      "t_end": 89.7
+    },
+    {
+      "title": "Lot number and certificate information",
+      "t_start": 89.7,
+      "t_end": 140
+    },
+    {
+      "title": "Purchase documents and EUTR flag",
+      "t_start": 140,
+      "t_end": 171.6
+    },
+    {
+      "title": "Sales invoice certification display",
+      "t_start": 171.6,
+      "t_end": 212.7
+    },
+    {
+      "title": "Current capabilities, limitations and roadmap",
+      "t_start": 212.7,
+      "t_end": 266
+    }
+  ],
+  "features": [
+    {
+      "name": "EUDR item marking on item card",
+      "description": "Dedicated fields on the item card sustainability tab to mark items as EUDR relevant and assign commodity classification.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 59.8,
+      "t_end": 89.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "item card",
+        "sustainability tab",
+        "eudr relevant",
+        "commodity classification"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Lot number certificate information capture",
+      "description": "Certificate details captured on the lot number information card, including certificate number, certification schema, dates, and country of origin.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 99.8,
+      "t_end": 140,
+      "is_demoed": false,
+      "caveats": [
+        "DDS numbers must be entered manually",
+        "Geolocation must be entered manually"
+      ],
+      "tags": [
+        "lot number",
+        "certificate number",
+        "certification schema",
+        "item tracking"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "EUTR flag on purchase lines",
+      "description": "EUTR flag added at line level on purchase orders and receipts to identify lines related to EUTR for supply chain purposes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 140,
+      "t_end": 161.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "purchase order",
+        "receipt",
+        "eutr flag",
+        "supply chain"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Certification information on sales invoices",
+      "description": "Ability to display certification details on sales invoice layout, showing lot number, certification schema, and certification number to customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 171.6,
+      "t_end": 182.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sales invoice",
+        "certification display",
+        "lot number",
+        "layout"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Ksenia",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 17.7,
+      "text": "it's like people talking everywhere about this EUDR, which is EU Deforestation Regulation. It's starting to be mandatory",
+      "why_it_matters": "Establishes the regulatory driver and timing for EUDR feature development.",
+      "check": "exact"
+    },
+    {
+      "t": 32.2,
+      "text": "when you're getting to the EU market your items, where it was produced and that it has a certification",
+      "why_it_matters": "Explains the core business requirement the feature addresses - tracking production origin and certification for EU market access.",
+      "check": "exact"
+    },
+    {
+      "t": 46.2,
+      "text": "that is why we are going to use the item tracking for that functionality",
+      "why_it_matters": "Design decision to leverage existing item tracking infrastructure for EUDR batch-level tracking.",
+      "check": "exact"
+    },
+    {
+      "t": 223.3,
+      "text": "We don't have the integration with Traces. So the DDS numbers you will need to type in manually",
+      "why_it_matters": "Key limitation stating that Traces integration is not included in the current release.",
+      "check": "exact"
+    },
+    {
+      "t": 236,
+      "text": "same for the geolocation. But, we are continue to work on that functionality",
+      "why_it_matters": "Indicates geolocation is planned as future work but not currently automated.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 223.3,
+      "kind": "not-in-this-release",
+      "text": "We don't have the integration with Traces. So the DDS numbers you will need to type in manually"
+    },
+    {
+      "t": 236,
+      "kind": "coming-later",
+      "text": "same for the geolocation. But, we are continue to work on that functionality"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025872
+    }
+  ]
+}

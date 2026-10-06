@@ -1,0 +1,833 @@
+{
+  "video_id": "nMiLzdfidos",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 8,
+      "end": 24.8,
+      "text": "Welcome to this 2026 release wave one edition of what's new in the AL language. We're going to talk a little bit about the language changes and the tools changes in this release and then we're going to talk about AI from an AL developer perspective."
+    },
+    {
+      "t": 24.8,
+      "end": 36.5,
+      "text": "I know AI is super interesting, but first let's go to my favorite editor and look at some code. Let's start with the continuation of our JSON support."
+    },
+    {
+      "t": 36.5,
+      "end": 51.8,
+      "text": "We've now added the ability for you to select multiple tokens in the select token method. As we can see in this line here, I am now selecting a number of origins into the result list."
+    },
+    {
+      "t": 51.8,
+      "end": 63.7,
+      "text": "If we go further down the list here, we can see I get the list of routes here into an array and from that array I can even select the more complicated set of my JSON objects here."
+    },
+    {
+      "t": 63.7,
+      "end": 78.4,
+      "text": "Moving on to something different, the data transfer object has now a new method called add destination table filter. With this method, you can now filter what you want to update in a data transfer."
+    },
+    {
+      "t": 78.4,
+      "end": 88.4,
+      "text": "In this case, we want to get all the Copenhagen origins and we want to put them into all the routes where the routes are currently empty."
+    },
+    {
+      "t": 88.4,
+      "end": 99,
+      "text": "Not all the rows, but only the ones where the route is currently empty. This makes it much easier to do specific targeted updates in a data transfer."
+    },
+    {
+      "t": 99,
+      "end": 114,
+      "text": "With data transfer, we also updated the update audit fields method to now be available in cloud. This means everyone can now control whether the system modified and other audit fields will be updated as part of the data transfer."
+    },
+    {
+      "t": 114,
+      "end": 118.8,
+      "text": "By setting it to false as I've done here,"
+    },
+    {
+      "t": 118.8,
+      "end": 131.4,
+      "text": "the audit fields will not be updated as part of this migration. Another new language addition is the ability to define and include analysis views in your extension."
+    },
+    {
+      "t": 131.4,
+      "end": 143.2,
+      "text": "You can now ship analysis views with your pages in your applications. And now let's talk about namespaces. My colleague Balazs will talk about what's new in namespaces."
+    },
+    {
+      "t": 143.2,
+      "end": 157.5,
+      "text": "As you all know, AL namespaces are nothing new. We have introduced them in version 23 and since then it has been an active area of investment for us. We have been continuously adding tooling and language improvements to make them better and easier to adopt."
+    },
+    {
+      "t": 157.5,
+      "end": 167.8,
+      "text": "In this In this session, I would like to show you some of the latest improvements we have made to this namespace story. The first area is making namespace adoption easier."
+    },
+    {
+      "t": 167.8,
+      "end": 181.8,
+      "text": "Adding namespaces to an already existing large code base can be a lot of repetitive work and we want to automate as much of that as possible. So, we have made the code action for adding namespaces automatically"
+    },
+    {
+      "t": 181.8,
+      "end": 192,
+      "text": "even smarter. It now uses a three-tier resolution strategy. First, it checks if you have a namespace template set in your settings.json."
+    },
+    {
+      "t": 192,
+      "end": 203,
+      "text": "the parent folder placeholder if you want to resolve the namespaces using the folder structure. In my In my case, it is set to my root namespace.parentfolder."
+    },
+    {
+      "t": 203,
+      "end": 216,
+      "text": "So, if I go to the sales order sales order.page.al file, which is in the sales folder, and invoke the code action, it will add my root namespace.sales."
+    },
+    {
+      "t": 216.3,
+      "end": 231,
+      "text": "If there is no namespace template specified, the second resolution strategy will kick in. It looks at all of the sibling files in the same folder and tries to infer the namespace using the longest common prefix of their namespaces."
+    },
+    {
+      "t": 231,
+      "end": 242.7,
+      "text": "So, in my case, I have three files under the sales folder. One of them has my root namespace.other. Next one has my root namespace.sales. And therefore,"
+    },
+    {
+      "t": 242.7,
+      "end": 258.8,
+      "text": "the third one will get the longest common prefix of those two, which is my root namespace. In case there are no sibling files or the sibling files do not specify a namespace, we fall back to publisher.projectname"
+    },
+    {
+      "t": 258.8,
+      "end": 270.2,
+      "text": "like so. And in this file, you can already see the other area where we have made it significant changes and that is referencing objects by their fully qualified names."
+    },
+    {
+      "t": 270.2,
+      "end": 286.3,
+      "text": "We have extended the object metadata model to carry the namespace information all the way down, allowing us to build a name-based object resolution system in the runtime. Among the first things benefiting from this new system are handful of method overloads for running code units,"
+    },
+    {
+      "t": 286.3,
+      "end": 297.7,
+      "text": "pages and reports. So now, you can invoke the run, run model and execute methods using the fully qualified name string literals."
+    },
+    {
+      "t": 297.7,
+      "end": 315.1,
+      "text": "We have also added support when it comes to working with records. You can now invoke recordref.open with a fully qualified table name. And the other going the other way, we have exposed the fully qualified name property on both records and recordrefs."
+    },
+    {
+      "t": 315.1,
+      "end": 328.4,
+      "text": "So, you can open records by fully qualified name and you can retrieve the name at runtime. So, to summarize, this new system will enable a bunch of exciting new features in the future."
+    },
+    {
+      "t": 328.4,
+      "end": 342,
+      "text": "So, if you haven't started adopting namespaces yet, now is a great time. And now, let's turn our attention to tooling. First, I would like to talk about an alternative way of downloading symbols."
+    },
+    {
+      "t": 342,
+      "end": 352,
+      "text": "I believe that all AL developers know the pain. You have just opened up a new project, maybe a completely fresh one, maybe a newly cloned one, and you see errors."
+    },
+    {
+      "t": 352,
+      "end": 362.5,
+      "text": "The AL packages folder is empty and you're missing a bunch of symbols. Traditionally, you would have to go into the launch.json and set up a connection to an environment to get them."
+    },
+    {
+      "t": 362.5,
+      "end": 373.4,
+      "text": "It can be a real productivity killer. We want to focus on development and spend as little time on setup as possible. Today, I will show you how we have gotten rid of this friction."
+    },
+    {
+      "t": 373.4,
+      "end": 389,
+      "text": "Let's jump straight into it by running the download symbols from global sources command. After specifying the localization, in a matter of seconds, it will pull all of the symbol packages directly from Microsoft public NuGet feeds."
+    },
+    {
+      "t": 389,
+      "end": 404.1,
+      "text": "No authentication, no environment, no extra setup. Just your extension and an internet connection. In the background, it is resolving the platform, application and all dependency packages specified in your app.json"
+    },
+    {
+      "t": 404.1,
+      "end": 416.4,
+      "text": "and also resolving their second level dependencies automatically. And since these are symbols only packages, there's no IP concern either. These feeds are not brand new infrastructure."
+    },
+    {
+      "t": 416.4,
+      "end": 430.4,
+      "text": "AL Go for GitHub has had the ability to pull AppSource symbols from these feeds already. What we have done is surfaced the same functionality directly in VS Code so you can benefit from it in your local development loop as well."
+    },
+    {
+      "t": 430.4,
+      "end": 442.6,
+      "text": "But what about my PTEs or apps not yet published to AppSource, you might ask. Using the AL.NuGetFeeds, you can specify your own NuGet feeds and the downloader will include these alongside the Microsoft ones."
+    },
+    {
+      "t": 442.6,
+      "end": 453.7,
+      "text": "These custom feeds take priority, but if you want full control over the source of symbols, you can completely disable the Microsoft feeds by using the use only custom feeds setting."
+    },
+    {
+      "t": 453.7,
+      "end": 464,
+      "text": "So, give it a try. One command and you're ready to build. No environment setup needed at all. Thank you, Balazs. And talking about building applications, we also have to test."
+    },
+    {
+      "t": 464,
+      "end": 476,
+      "text": "We now have the test execution built into the AL language extension. Check out this video on running tests from Visual Studio Code where we'll go into all the details and perhaps a few extra details."
+    },
+    {
+      "t": 476,
+      "end": 488.4,
+      "text": "We develop and test many applications in the Business Central team. So, let's check in with Espen on workspace compilation. Thank you, Stefan. Last time I was I was here, I was showing this slide."
+    },
+    {
+      "t": 488.4,
+      "end": 503.1,
+      "text": "This slide is a snapshot of our BC apps repo. It is growing and it's already huge. And last time I talked about how you can streamline your builds with the directory"
+    },
+    {
+      "t": 503.1,
+      "end": 513.2,
+      "text": "app.props.json file. This time, I will talk about another problem we have in this repo now. It takes a long time to build."
+    },
+    {
+      "t": 513.2,
+      "end": 528.9,
+      "text": "Today, we are building this using the BC container helper. It takes approximately 2 hours using GitHub runners. Our system engineering team, they would actually like us to do a little bit better."
+    },
+    {
+      "t": 528.9,
+      "end": 545.1,
+      "text": "So, we have looked at how we can optimize the compilation process. And I will show you what we did. We have added some new tools to our AL tool, AL alias if you're installing the tools package."
+    },
+    {
+      "t": 545.1,
+      "end": 557.3,
+      "text": "And with that, we can do a lot better. What I have here is a is a folder open the folder with four uh AL projects in it."
+    },
+    {
+      "t": 557.3,
+      "end": 569.2,
+      "text": "They have dependencies. Right now, there's only a directory app.props.json file, which specifies the publisher name, the version and also the runtime in this case."
+    },
+    {
+      "t": 569.2,
+      "end": 582.8,
+      "text": "The runtime is new. I will get back to that later. But that right now, I don't have any workspace file defined in this folder. But I would like to have one so I can build it fast and efficient."
+    },
+    {
+      "t": 582.8,
+      "end": 593,
+      "text": "So, I will use the AL workspace create command. And I create a new workspace space called Contoso"
+    },
+    {
+      "t": 593,
+      "end": 607.5,
+      "text": "and I point it to this directory with a dot. So, what it will do is that it will search for all after JSON files in this directory and below and create me a workspace from it."
+    },
+    {
+      "t": 607.5,
+      "end": 618.3,
+      "text": "And it takes a short minute or less. And it have now created this console.code that workspace file."
+    },
+    {
+      "t": 618.3,
+      "end": 629.5,
+      "text": "Which includes those projects. But also, it would actually be nice to see what it contains. So, let's do"
+    },
+    {
+      "t": 629.5,
+      "end": 641.4,
+      "text": "use this command. The map command. It's useful for visualizing what's in it. It creates a markdown file using mermaid."
+    },
+    {
+      "t": 641.4,
+      "end": 656.3,
+      "text": "And we can actually preview it. And as you can see here what we have in this project is a console base where we have both console and inventory and console sales."
+    },
+    {
+      "t": 656.3,
+      "end": 665.8,
+      "text": "That both depends on the base and then we have console dashboard on the top that uses two others."
+    },
+    {
+      "t": 665.8,
+      "end": 679.1,
+      "text": "Before, when we compile BC apps, we would compile all the apps sequential. We would try to figure out how the compilation graph was depend using dependencies and BC helper."
+    },
+    {
+      "t": 679.1,
+      "end": 689.5,
+      "text": "This is now built into a new tool called workspace compile. Workspace compile can be directed or is taking a"
+    },
+    {
+      "t": 689.5,
+      "end": 700.9,
+      "text": "a workspace file as an input and then it computes the most efficient compilation graph for compiling this workspace."
+    },
+    {
+      "t": 700.9,
+      "end": 711.5,
+      "text": ">> [snorts] >> And let us do that. Let's go down here. And that command is called workspace"
+    },
+    {
+      "t": 711.5,
+      "end": 722.8,
+      "text": "compile. And it simply takes the workspace I just created as the input. And then it starts doing compilation."
+    },
+    {
+      "t": 722.8,
+      "end": 741.8,
+      "text": "And it figures out and you can see down here right now it's compiling two projects in parallel and now it's compiling one. So, it realized that it has to compile the base first and then it can actually compile sales and inventory in parallel."
+    },
+    {
+      "t": 741.8,
+      "end": 753.5,
+      "text": "And at the end it compiled the dashboard. All of that was computed as a large dependency graph and then it just started from the bottom and compile everything."
+    },
+    {
+      "t": 753.5,
+      "end": 768,
+      "text": "Using that one, we see huge gains. I will get back to that in a second because I also want to highlight another new command we have which is the is simple only."
+    },
+    {
+      "t": 768,
+      "end": 784.2,
+      "text": "It's also something that we use in the AL Go for GitHub pipelines. It's used to figure out whether an app file is a simple only app file or it's a app file that also contains everything else."
+    },
+    {
+      "t": 784.2,
+      "end": 798.2,
+      "text": "In this case, the ones I have just created contains everything, but let's just test and see if it's true. I'm using the console base, calling that and it's as we already knew,"
+    },
+    {
+      "t": 798.2,
+      "end": 808.9,
+      "text": "it's not a simple only. And remember in my directory app.prop.json"
+    },
+    {
+      "t": 808.9,
+      "end": 823,
+      "text": "file, I included the runtime and set that to runtime 16. That's also something new. I can actually use the"
+    },
+    {
+      "t": 823,
+      "end": 834.4,
+      "text": "the the the the props file to also specify the runtime and you can see here it correctly added the runtime 16 to the manifest."
+    },
+    {
+      "t": 834.4,
+      "end": 847.2,
+      "text": "These is some preliminary measurements on how much we will gain by using this when compiling the our BC apps repo. We are using AL Go as the driver for this."
+    },
+    {
+      "t": 847.2,
+      "end": 861,
+      "text": "And the as you can see the baseline is currently just below 2 hours. The timing here shows with using different number of processes."
+    },
+    {
+      "t": 861,
+      "end": 875.8,
+      "text": "And if I use four, which is the maximum that you can use in a GitHub runner, standard GitHub runner, it gets down to 26 minutes. Which is I mean a reduction of 75%."
+    },
+    {
+      "t": 875.8,
+      "end": 890.5,
+      "text": "It turns out there's a I mean there's a difference between the 50 minutes here with one and the AL Go, but that's also because the workspace compile actually do all the orchestration where in AL Go today,"
+    },
+    {
+      "t": 890.5,
+      "end": 900.6,
+      "text": "we use the BC container container helper to do a lot of the which what can I compile now on the orchestration and what have you."
+    },
+    {
+      "t": 900.6,
+      "end": 910.8,
+      "text": "So, we expect to use this internally where we can because this is very huge gain in utilizing our hardware."
+    },
+    {
+      "t": 910.8,
+      "end": 923.6,
+      "text": "If you are using AL Go for GitHub already, you will get this for free and you can just use as do as you're used to. If not, you can use the tool in your own pipelines to improve them."
+    },
+    {
+      "t": 923.6,
+      "end": 934.7,
+      "text": "Let's turn our attention to AI and I'd like to welcome one of our very experienced engineers, Arthur. Tell me, Arthur, what's your perspective on AL development at AI?"
+    },
+    {
+      "t": 934.7,
+      "end": 949,
+      "text": "Thank you, Stefan. If I have to describe my experience in a few words, I would say it is about the changing mindset. So, what I do nowadays is I I simply spend less time writing low-level syntax and more time describing how system should behave."
+    },
+    {
+      "t": 949,
+      "end": 960.3,
+      "text": "What should be the right outcome. And what is equally important is exactly what system should not do. Um so, for me producing the code is kind of not longer like the bottleneck, right?"
+    },
+    {
+      "t": 960.3,
+      "end": 970.4,
+      "text": "But making sure it's correct, secure and easy to maintain, that is what is really important. And um that is responsibility still on us, on developers. It's not on the tool."
+    },
+    {
+      "t": 970.4,
+      "end": 988,
+      "text": "Um and the way I I I treat the AI-generated code, it is a draft for me. So, whenever I get the draft and whatever you get the draft, uh we review it, we correct direction, we refine the prompt and we make sure that the code is aligned with architecture and with the standards."
+    },
+    {
+      "t": 988,
+      "end": 999.6,
+      "text": "Uh now, that was a bit theoretical. How it's even related to Business Central and AL language? What is important here, it is not our prompts that's used for compilation for Business Central for our feature."
+    },
+    {
+      "t": 999.6,
+      "end": 1010.6,
+      "text": "It is still good old AL language. But the change of the mindset is exactly in the way that previously I wrote AL code and then I commit AL code."
+    },
+    {
+      "t": 1010.6,
+      "end": 1021.1,
+      "text": "Right now, there's a layer in the in the beginning. So, I first describe the intent, I get the draft and then finally, I have a AL code generated."
+    },
+    {
+      "t": 1021.1,
+      "end": 1034.5,
+      "text": "So, AL becomes like a final record. And even though if developers like me describing functionality in prompts, the final authoritative implementation of Business Central is still lives in AL code."
+    },
+    {
+      "t": 1034.5,
+      "end": 1045.2,
+      "text": "And what is important about AL? AI here is not replacing AL. In fact, it is vice versa. AL suddenly becomes more important. We can think of AI as an as an intern."
+    },
+    {
+      "t": 1045.2,
+      "end": 1057.2,
+      "text": "It's super productive, but if you don't give it the rules, it will do something let's say creative. And AL basically is those rules. These are constraints. And once AI is in the loop, the good constraint is just a pure gold."
+    },
+    {
+      "t": 1057.2,
+      "end": 1068.3,
+      "text": "And you can see all those constraint exactly on the screen. And you know them. You've been writing AL code for a for a long time. And I need to admit that I'm I'm writing my code with AI different languages."
+    },
+    {
+      "t": 1068.3,
+      "end": 1080.3,
+      "text": "And AL with great capabilities is exactly perfect for for the AI coding era. Uh now, a few words about planning, about the iterative approach."
+    },
+    {
+      "t": 1080.3,
+      "end": 1092.4,
+      "text": "Nowadays, I can quickly test my hypothesis. So, I don't need to have a heavy upfront planning. What I can do, I can build a prototype within a day rather than a week."
+    },
+    {
+      "t": 1092.4,
+      "end": 1109.2,
+      "text": "And that give me a possibility to quickly build, learn from it, throw it away and then actually start making it smartly, iteratively, plan mode, describing the proper architecture and gradually modding adding more features one by one with a proper test animation."
+    },
+    {
+      "t": 1109.2,
+      "end": 1124.2,
+      "text": "Exactly the same way how I going to do this without AI. Um one of the real eye-openers for me is the feedback loop. Once I define the task for the agent and specify the success criteria,"
+    },
+    {
+      "t": 1124.2,
+      "end": 1137.9,
+      "text": "and that could be for example AL test, the agent can iterate on solution and recover from failure until the goal is achieved. That is absolutely the greatest uh capability in the AI coding era."
+    },
+    {
+      "t": 1137.9,
+      "end": 1148.5,
+      "text": "Um in this journey, AI is definitely a collaborator. So, for some for some reason, people think that the general purpose of AI for software engineering is writing the code."
+    },
+    {
+      "t": 1148.5,
+      "end": 1161.1,
+      "text": "But it also can help with brainstorming ideas, planning, searching code base, debugging, refactoring. A lot of use cases and all of them are really popular. But they require someone who actually triggers the action."
+    },
+    {
+      "t": 1161.1,
+      "end": 1176,
+      "text": "And that someone is a software engineer like me and you. And the one who do not say, \"Hey, implement the feature for me. Be smart.\" But rather use AI to research, find proper references, create a plan and then guide the agent towards the execution."
+    },
+    {
+      "t": 1176,
+      "end": 1187.2,
+      "text": "And if something goes wrong, it's exactly it's a software engineer who push it to the right direction. So, you can think about AI as a new colleague and just get started. Doesn't really matter which coding agent it is."
+    },
+    {
+      "t": 1187.2,
+      "end": 1200.4,
+      "text": "Be curious and explore. Over to you, Stefan. Thank you, Arthur. Thank you. So, we still need to write code. In the Business Central team, we've been working on building tools to help agents work with AL code."
+    },
+    {
+      "t": 1200.4,
+      "end": 1216.2,
+      "text": "Blanca, please help me get an overview of what we've done in this release. So, for better support of AL agentic development, we have also added some new AL tools both within the Visual Studio code, which can be used by the GitHub Copilot agent,"
+    },
+    {
+      "t": 1216.2,
+      "end": 1230.2,
+      "text": "and also through a dedicated ALM AL MCP server, which you can use outside VS code with other agents such as Claude or Codex, and also something that you can use in your agentic pipelines."
+    },
+    {
+      "t": 1230.2,
+      "end": 1243.2,
+      "text": "So, first of all, let's start with Visual Studio code. So, here in my solution, I already have You are pro- probably already familiar with the GitHub Copilot chat."
+    },
+    {
+      "t": 1243.2,
+      "end": 1257.1,
+      "text": "And here, if I check out the tools, then you can see the AL extension already provides some AL tools just out of the box. So, now the agent can build, debug, and do many other things"
+    },
+    {
+      "t": 1257.1,
+      "end": 1268.6,
+      "text": "as use these tools to solve more complex problems. So, for example, here I have an AL project, and you can see I have some diagnostics."
+    },
+    {
+      "t": 1268.6,
+      "end": 1285.4,
+      "text": "Uh there are some diagnostics about some uh some of the dependency symbols that are going to be obsoleted. So, I would need to refactor this code, and instead of doing that myself, I'm just going to go ahead and outsource that outsource that to my GitHub Copilot agent."
+    },
+    {
+      "t": 1285.4,
+      "end": 1292.8,
+      "text": "So, I'm just going to select tool fix my diagnostics"
+    },
+    {
+      "t": 1292.8,
+      "end": 1297.5,
+      "text": "and build."
+    },
+    {
+      "t": 1301.4,
+      "end": 1318.3,
+      "text": "All right. So, then after some time, you will be able to see that the agent has fixed all these diagnostics, and it has also built the project for me. If you want to see behind the scenes what actually happened, then you can just ask the agent."
+    },
+    {
+      "t": 1321.7,
+      "end": 1338.8,
+      "text": "And then here, you can see that it used some of the two AL tools that the AL extension provided. So, you can see that it's very powerful to support different scenarios, um and of course, you can also include your own skills or agent instructions to customize it to your workspace,"
+    },
+    {
+      "t": 1338.8,
+      "end": 1352.9,
+      "text": "and um solve more complex problems. So, that was it for the GitHub Copilot agent to use the AL tools, but now, if you want to use uh other agents like, for example,"
+    },
+    {
+      "t": 1352.9,
+      "end": 1368.5,
+      "text": "Claude, then you will need the ALM CP server. This is a new MCP server that we have added as part of this release, and to get it, you can just simply download the development tools um in your command line,"
+    },
+    {
+      "t": 1368.5,
+      "end": 1379.1,
+      "text": "and then, if you're using Claude, for example, in this case, you can just add the ALM CP um also with this command line, where you specify your workspace path."
+    },
+    {
+      "t": 1379.1,
+      "end": 1392.8,
+      "text": "Um all of this is going to be documented, so you don't need to worry about it right now. And then, if you go to to Claude in this case, you can check out um if your MCP is connected just like that."
+    },
+    {
+      "t": 1392.8,
+      "end": 1402.5,
+      "text": "As you can see, I have my ALM MCP connected. And then, uh I can also check it out."
+    },
+    {
+      "t": 1408.4,
+      "end": 1424.1,
+      "text": "And here, you can see that it has multiple AL tools. They are not exactly the same as in Visual Studio code, but they do support most of the scenarios, so you can use these also with a similar scenarios in your um with your other agents."
+    },
+    {
+      "t": 1424.1,
+      "end": 1439,
+      "text": "And then, a small note, you will see here that when I'm downloaded the development tools, I'm using the pre-release flag. This is because at the point of this recording, uh this is only available on the pre-release version."
+    },
+    {
+      "t": 1439,
+      "end": 1456.4,
+      "text": "Um at the point of when you see this video, the ALM CP will be available also just on the standard release version, but uh in the future, if you want to make sure you are using the latest um if you want to see the latest features or advancements that we're working on,"
+    },
+    {
+      "t": 1456.4,
+      "end": 1471.1,
+      "text": "then you can always use the pre-release flag to just test things out before they actually come in in the release version. Um and all of these scenarios was were mostly focused on some sort of by coding your AL solutions."
+    },
+    {
+      "t": 1471.1,
+      "end": 1481.1,
+      "text": "Um so, some human interaction in [clears throat] the loop, but it might also be the case where you might just want to use some completely automated agentic pipelines."
+    },
+    {
+      "t": 1481.1,
+      "end": 1497.2,
+      "text": "And for this, the ALM CP is very useful. Um so, to showcase you how you can use this for your agentic pipelines, I have created one in GitHub, and here, you can see I have uh how the workflow looks like."
+    },
+    {
+      "t": 1497.2,
+      "end": 1514,
+      "text": "So, I have uh different steps where I use agents to first of all compile uh my extension and check if there are any diagnostics and fix those. And then, it also creates some tests and runs those to ensure that there weren't any regressions while doing so."
+    },
+    {
+      "t": 1514,
+      "end": 1525.4,
+      "text": "Um and then, if all goes correctly, then it will open a PR, which I can review. So, I'm basically automating through agents the maintenance of my extensions."
+    },
+    {
+      "t": 1525.4,
+      "end": 1537,
+      "text": "If we look a bit uh further down uh this um step, then you can see the step where I'm using my agent. It is connected to the ALM CP,"
+    },
+    {
+      "t": 1537,
+      "end": 1550.1,
+      "text": "um and then, you can see how it's using the different tools to, in this case, compile, get the diagno- get the diagnostics, and then fix my solution. Um and it's doing the same with the different steps."
+    },
+    {
+      "t": 1550.1,
+      "end": 1571.3,
+      "text": "And then, once that is done, it creates a PR where I can see um and review the changes done by the agent. So, as you can see, it's very powerful how you can use the combination of agents and AL tools to uh create a very complex or to solve very complex scenarios and tasks."
+    },
+    {
+      "t": 1571.3,
+      "end": 1583.2,
+      "text": "And that was it for the AL tools. Now, um onto you, Stefan. Now, we've been building and testing AL code. Let's look at something completely different where we can use AI."
+    },
+    {
+      "t": 1583.2,
+      "end": 1595.5,
+      "text": "Troubleshooting. Kelman, please guide us through what's new in troubleshooting with AI. The scenario is the following. An external system sends a JSON file with item codes."
+    },
+    {
+      "t": 1595.5,
+      "end": 1606.3,
+      "text": "Each entry is matched against the item table. If one is not found, an error is shown. So, let's run this app."
+    },
+    {
+      "t": 1606.3,
+      "end": 1618.8,
+      "text": "Oops. It's failing. But it's failing at a point it should not fail, because this item exists. It is the office desk."
+    },
+    {
+      "t": 1618.8,
+      "end": 1623.7,
+      "text": "So, what went wrong?"
+    },
+    {
+      "t": 1624.2,
+      "end": 1639.3,
+      "text": "Before debugging the code, let's just go through what it does. So, I have a method import from JSON, which traverses a JSON file, and for each JSON entry, it's calling"
+    },
+    {
+      "t": 1639.3,
+      "end": 1650.5,
+      "text": "another procedure called process entry, which is looking up in the item table the JSON entry, and if it's not found,"
+    },
+    {
+      "t": 1650.5,
+      "end": 1661.3,
+      "text": "an error is shown. Pretty straightforward, so what went wrong? Let's attach to this process."
+    },
+    {
+      "t": 1670,
+      "end": 1676.4,
+      "text": "We have attached to the process. Now, let's exercise the code."
+    },
+    {
+      "t": 1676.4,
+      "end": 1687.4,
+      "text": "It should break in the debugger. It broke. And now, instead of using the debugger UI, let's just"
+    },
+    {
+      "t": 1687.4,
+      "end": 1692.6,
+      "text": "use Copilot and start prompting."
+    },
+    {
+      "t": 1692.6,
+      "end": 1702.2,
+      "text": "I'm going to prompt the following. The AL debugger is paused on an error. Can you investigate what went wrong?"
+    },
+    {
+      "t": 1703,
+      "end": 1710.7,
+      "text": "This is going to take some time, but let me explain what's going on."
+    },
+    {
+      "t": 1710.7,
+      "end": 1724.4,
+      "text": "Copilot has attached to the session running the code, and on that session, it's using the Business Central troubleshooting MCP server"
+    },
+    {
+      "t": 1724.4,
+      "end": 1738.2,
+      "text": "to get stack frames and get variables. Now, it goes through the variable content, and let's see what it will be its verdict."
+    },
+    {
+      "t": 1741,
+      "end": 1752.1,
+      "text": "It says it found the issue, but it's still not finished, and now it finished. So, what's the problem?"
+    },
+    {
+      "t": 1756.2,
+      "end": 1767.2,
+      "text": "The problem is that the JSON entry item code had leading space, and this was the reason why"
+    },
+    {
+      "t": 1767.2,
+      "end": 1780.5,
+      "text": "looking it up has never found an associated item code. So, it's suggesting the fix to delete the entry character."
+    },
+    {
+      "t": 1780.5,
+      "end": 1790.6,
+      "text": "It could have suggested to trim it, but nevertheless, this is a acceptable solution, So, let's just keep it."
+    },
+    {
+      "t": 1790.6,
+      "end": 1802.1,
+      "text": "The point is that it found a problem. This was a data error. A leading space issue. And let's just step back for a second. So, what happened here?"
+    },
+    {
+      "t": 1802.1,
+      "end": 1813.8,
+      "text": "I had a bug. I couldn't see it by reading the code. I attached the debugger, typed one sentence, and waited a little bit, and Copilot figured out what went wrong."
+    },
+    {
+      "t": 1813.8,
+      "end": 1826.4,
+      "text": "More, it suggested a fix. So, that said, can we use the MCP troubleshooting server for something else?"
+    },
+    {
+      "t": 1826.4,
+      "end": 1837.4,
+      "text": "Can we use it for analyzing performance problems without doing a performance profiling session? Let's see."
+    },
+    {
+      "t": 1837.4,
+      "end": 1848.7,
+      "text": "I'm going to stop this debugging session, and I'm going to go to this code unit, which is presenting a typical performance problem."
+    },
+    {
+      "t": 1848.7,
+      "end": 1863.5,
+      "text": "In this case, CalcFields is called within a loop. Let's see if Copilot can figure this out and suggest a fix for this problem."
+    },
+    {
+      "t": 1863.5,
+      "end": 1872.8,
+      "text": "So, I have a unit test, which is exercising this code unit. Let's just run it."
+    },
+    {
+      "t": 1883.2,
+      "end": 1893.4,
+      "text": "Yep. We are at the breakpoint. Now, let's prompt start prompting again. The prompt will be, \"I am at a breakpoint."
+    },
+    {
+      "t": 1893.4,
+      "end": 1900.8,
+      "text": "This test is very slow. Can you analyze why?\""
+    },
+    {
+      "t": 1907.1,
+      "end": 1917.2,
+      "text": "Still working. It attached to the Business Central troubleshooting server. It's getting stack frames, getting variables."
+    },
+    {
+      "t": 1917.2,
+      "end": 1922.7,
+      "text": "And let's see what will be the verdict."
+    },
+    {
+      "t": 1928,
+      "end": 1939.5,
+      "text": "Yep, confirmed. CalcFields is called inside the repeat until loop. The root cause, yeah, it found very nicely the root cause. And then it suggests a fix."
+    },
+    {
+      "t": 1939.5,
+      "end": 1945.2,
+      "text": "Call SetAutoCalcFields before FindSet."
+    },
+    {
+      "t": 1945.2,
+      "end": 1961,
+      "text": "Let's just accept this. This is a correct fix. And that's it. Now we have a more performant code. Let's just summarize what we have seen here."
+    },
+    {
+      "t": 1961,
+      "end": 1975.6,
+      "text": "So, we have a completely new MCP server for Business Central troubleshooting server, which runs in an NST. And what it does, it exposes the debug runtime to GitHub Copilot."
+    },
+    {
+      "t": 1975.6,
+      "end": 1987.1,
+      "text": "It's very important to note that you can invoke this while at a breakpoint. But, at a breakpoint, Copilot"
+    },
+    {
+      "t": 1987.1,
+      "end": 2001.4,
+      "text": "can inspect the full call stack. You can uh you can prompt, \"Give me the stack at frame zero.\" Or, \"Give me the stack at frame one.\" And you will get it."
+    },
+    {
+      "t": 2001.4,
+      "end": 2018.6,
+      "text": "It can read variables across all stack frames or given stack frame. You can prompt, \"Give me all variables at frame one or frame zero.\" Or, you can do you know, you can say, \"What was the variable X at frame one,"
+    },
+    {
+      "t": 2018.6,
+      "end": 2028.7,
+      "text": "and what happened with it at frame two?\" You can fetch relevant AL source code for a given frame. More,"
+    },
+    {
+      "t": 2028.7,
+      "end": 2043,
+      "text": "you can add breakpoints by object name or ID and type, plus a line number, which is very helpful if you want Copilot to govern you through a debugging session."
+    },
+    {
+      "t": 2043,
+      "end": 2057.3,
+      "text": "The experience, ask Copilot a single question, it analyzes the entire execution context, it identifies the root cause, and helps you move forward without touching the debugger UI."
+    },
+    {
+      "t": 2057.3,
+      "end": 2068.3,
+      "text": "Thank you very much. Troubleshooting and building code with AI is great. And now you can also design and code agents for Business Central."
+    },
+    {
+      "t": 2068.3,
+      "end": 2084,
+      "text": "Check out all of these videos to help you get started on building agents in Business Central. As always, check out the latest changes in the change log, and try out the pre-release for any upcoming changes and addition to the developer experience."
+    },
+    {
+      "t": 2084,
+      "end": 2097.9,
+      "text": "This marks the end of this presentation. I want to thank all my co-presenters for sharing what's new in AL in this release. We are excited about the AI and all the future things it brings, and looking forward to hearing about all your future development."
+    },
+    {
+      "t": 2097.9,
+      "end": 2102,
+      "text": "Thank you for watching."
+    }
+  ],
+  "markers": [
+    {
+      "t": 689.722,
+      "text": "[snorts]"
+    }
+  ],
+  "word_count": 4887
+}

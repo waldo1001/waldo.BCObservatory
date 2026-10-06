@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-production-orders",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cd638d5936deef1d81faf75201ac9d9ec3bd4eaf",
       "words": 517,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T13:53:10.119Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.008326
+    },
+    "summarized": {
+      "at": "2026-10-06T13:53:10.124Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:53:10.125Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:53:10.125Z",
+      "page": false
     }
   },
   "input_hash": "cd638d5936deef1d81faf75201ac9d9ec3bd4eaf",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cd638d5936deef1d81faf75201ac9d9ec3bd4eaf"
+  "output_hash": "cc85df3bd9fc63a557f1e410e8d6a7c4cc65f85d5696df7d93a0021939f24df0"
 }

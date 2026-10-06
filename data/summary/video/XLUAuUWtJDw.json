@@ -1,0 +1,27 @@
+{
+  "video_id": "XLUAuUWtJDw",
+  "item_id": "video/yt-microsoft/XLUAuUWtJDw",
+  "summary": "Word add-in for Document Reporting in the 2026 release wave 2: a company information dataset available in all Word layouts, editing in the table builder, new design building blocks, theme sample documents and header/footer layout templates.",
+  "overview": "The video covers what is new in the Word add-in used to build Word layouts for Business Central reports. A pre-populated company information dataset (logo, name, address and other data from the company information card) is now available in every Word layout, so these fields no longer need to be encoded by hand. The table builder, in preview in wave one, now supports editing tables in the wizard.\n\nIt also shows a set of reusable design building blocks (address, field group, amounts, signature line, notes, and a hide-if logical control), sample documents for previewing theme changes, and the header/footer layouts that ship by default. It ends with a section on managing themes and layouts in Business Central, and on data sets and documentation.",
+  "key_points": [
+    "The company information dataset is pre-populated and available in all Word layouts. It holds whatever is on the Company Information card in Business Central, such as logo, name and address.",
+    "The table builder, in preview in wave one, now lets you go back and edit a table in the wizard, for example to add columns, instead of recreating it.",
+    "Design blocks shown: address (three-column sender/receiver/shipping, receiver only, and other layouts), field group (label and data pairs in single or double stacked columns), amounts, signature line (two variants, one used in quality management) and notes (selectable bullet count).",
+    "The address, field group, amounts, signature line and notes blocks are not necessarily data-bound for now.",
+    "The hide-if logical control hides or shows content based on a boolean value. Boolean expressions based on dataset values are planned for later versions.",
+    "Theme sample documents (invoice, pick list, outstanding orders) are for previewing how styles, fonts and colors change a document. They are not actual layouts.",
+    "About eight to ten header/footer layouts ship by default, and you can create your own with the Word add-in using the company information dataset."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "0144ff11b7e783178349b0e195505ec60a134160111c09c88d66e4bae4dcb952",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0433384
+  }
+}

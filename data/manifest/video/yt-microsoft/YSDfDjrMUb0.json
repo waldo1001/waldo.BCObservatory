@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=YSDfDjrMUb0",
   "published_at": "2026-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T13:51:05.003Z",
+      "path": "data/extract/video/YSDfDjrMUb0.json",
+      "prompt": "extract-video@1",
+      "windows": 2,
+      "features": 16,
+      "quotes": 15,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.117217
+    },
+    "summarized": {
+      "at": "2026-10-06T13:51:14.882Z",
+      "path": "data/summary/video/YSDfDjrMUb0.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.052454400000000005
+    },
+    "linked": {
+      "at": "2026-10-06T13:51:14.882Z",
+      "systems": [
+        "integration",
+        "sales",
+        "inventory"
+      ],
+      "topics": 12,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T13:51:14.885Z",
+      "path": "content/videos/YSDfDjrMUb0.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2026-10-01 - BCLE - What's new in Shopify Connector： Overview (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "2ac63ef5efc9180d5e7222c9d38d98580dc373a99288a8814eec898371848c4d"
 }

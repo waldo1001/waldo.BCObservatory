@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/qms-quality-templates.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/qms-quality-templates",
+  "title": "Create quality inspection templates",
+  "blob": "0a06da4d52fa765c65d7f6c6893515fba10061fb",
+  "summary": "Quality inspection templates define the measurements and attributes collected during quality testing, including tests, pass/fail criteria, and sample sources.",
+  "systems": [
+    "manufacturing",
+    "purchasing"
+  ],
+  "topics": [
+    "quality templates",
+    "quality tests",
+    "measurements",
+    "pass/fail criteria",
+    "sample sizing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Quality Tests"
+    },
+    {
+      "type": "page",
+      "name": "Quality Inspection Templates"
+    }
+  ],
+  "features": [
+    "Template code and description",
+    "Test value types",
+    "Allowable values",
+    "Result conditions",
+    "Sample source configuration",
+    "Copy template",
+    "Template-based inspection generation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005457,
+      "pages_in_call": 8
+    }
+  ]
+}

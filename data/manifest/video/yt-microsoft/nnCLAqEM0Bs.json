@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Understanding Copilot Credit Consumptions for Your Business Central Agent",
   "url": "https://www.youtube.com/watch?v=nnCLAqEM0Bs",
-  "published_at": null,
+  "published_at": "2026-02-27T15:13:12.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:55:00.290Z",
+      "captions": "auto:en-orig",
+      "duration_s": 496
+    },
+    "captioned": {
+      "at": "2026-10-06T13:55:32.183Z",
+      "path": "data/captions/microsoft/nnCLAqEM0Bs.vtt",
+      "vtt_sha256": "5fcfd9ee9b0874dfd784fefa37db5b42a61e32bcdfcbcc9dd98a8f8870db242c",
+      "segments": 34,
+      "words": 1337,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 114,
     "duration_s": 496,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5fcfd9ee9b0874dfd784fefa37db5b42a61e32bcdfcbcc9dd98a8f8870db242c"
 }

@@ -3,37 +3,56 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Auditing overview",
+  "title": "Business Central Auditing Overview",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/auditing/auditing-overview",
-  "published_at": "2025-05-06T19:26:44.000Z",
+  "published_at": "2026-10-06T09:16:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.017Z",
-      "blob": "49f2a051c30d63cca1e1c01986e7489eff9912be",
-      "words": 207,
+      "at": "2026-10-06T13:46:23.878Z",
+      "blob": "04b607f8b2febb92cdd8a8138d60beafa7144f02",
+      "words": 193,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:46:45.123Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005432
+    },
+    "summarized": {
+      "at": "2026-10-06T13:46:45.126Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:46:45.126Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:46:45.126Z",
+      "page": false
     }
   },
-  "input_hash": "49f2a051c30d63cca1e1c01986e7489eff9912be",
+  "input_hash": "04b607f8b2febb92cdd8a8138d60beafa7144f02",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/auditing/auditing-overview.md",
-    "description": "Get an overview of the articles about auditing in Business Central, so that you can configure your solution.",
-    "ms_date": "2024-10-21",
-    "ms_topic": "concept-article",
+    "description": "Learn about Business Central auditing for reviewing permissions, tracking data changes, and analyzing change logs, plus related data classification guidance.",
+    "ms_date": "2026-10-06",
+    "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 207
+    "words": 193
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "49f2a051c30d63cca1e1c01986e7489eff9912be"
+  "output_hash": "d3cf8f06f93318befd589330020da4e0ca47bcf74b44db84b1d4255511d4043e"
 }

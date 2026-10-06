@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-manage-sustainability.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-sustainability",
+  "title": "Sustainability management overview",
+  "blob": "2f90bae452dbae3a67aa3a7e0d5158a2a1f8bcb2",
+  "summary": "Sustainability management features track and manage greenhouse gas emissions, water, and waste intensity with journal entry methods, formulas, scorecards, and reporting to meet GHG protocol standards.",
+  "systems": [
+    "sustainability",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "sustainability management",
+    "greenhouse gas emissions",
+    "water waste tracking",
+    "carbon footprint",
+    "sustainability ledger",
+    "emission scopes"
+  ],
+  "objects": [],
+  "features": [
+    "Emission tracking (Scope 1, 2, 3, out of scope)",
+    "Water and waste intensity measurement",
+    "Carbon credit management",
+    "Internal carbon fee calculation",
+    "CO2 equivalent recalculation",
+    "Sustainability journals",
+    "Sustainability scorecards and goals",
+    "Sustainability API integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007148,
+      "pages_in_call": 8
+    }
+  ]
+}

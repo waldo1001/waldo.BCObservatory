@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/qms-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/qms-overview",
+  "title": "Quality management overview",
+  "blob": "fbf2a8316d7792268c9d3ab88f6a69f7952a22a2",
+  "summary": "Quality Management is a Microsoft-published extension that enables automatic and manual quality inspections at key points in purchasing, production, assembly, and warehouse processes.",
+  "systems": [
+    "manufacturing",
+    "warehouse",
+    "purchasing"
+  ],
+  "topics": [
+    "quality management",
+    "inspections",
+    "lot blocking",
+    "noncompliant items",
+    "workflows"
+  ],
+  "objects": [],
+  "features": [
+    "Create inspections automatically",
+    "Create inspections manually",
+    "Create inspections on a schedule",
+    "Use templates for inspections",
+    "Block noncompliant lots",
+    "Integrate workflows",
+    "Handle noncompliant items",
+    "Integrate with inbound warehouse flows",
+    "Inspect warehouse movements"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005457,
+      "pages_in_call": 8
+    }
+  ]
+}

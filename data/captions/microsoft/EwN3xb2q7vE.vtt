@@ -1,0 +1,3472 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.654 --> 00:00:05.590 align:start position:0%
+ 
+[music]
+
+00:00:05.590 --> 00:00:05.600 align:start position:0%
+ 
+ 
+
+00:00:05.600 --> 00:00:07.910 align:start position:0%
+ 
+&gt;&gt; Hello<00:00:05.880><c> everyone.</c><00:00:06.880><c> Welcome</c><00:00:07.200><c> to</c><00:00:07.280><c> this</c><00:00:07.480><c> session</c>
+
+00:00:07.910 --> 00:00:07.920 align:start position:0%
+&gt;&gt; Hello everyone. Welcome to this session
+ 
+
+00:00:07.920 --> 00:00:10.670 align:start position:0%
+&gt;&gt; Hello everyone. Welcome to this session
+about<00:00:08.440><c> coding</c><00:00:08.760><c> agents</c><00:00:09.120><c> in</c><00:00:09.240><c> AL.</c><00:00:10.040><c> Today</c><00:00:10.360><c> we</c><00:00:10.480><c> will</c>
+
+00:00:10.670 --> 00:00:10.680 align:start position:0%
+about coding agents in AL. Today we will
+ 
+
+00:00:10.680 --> 00:00:13.950 align:start position:0%
+about coding agents in AL. Today we will
+see<00:00:10.960><c> how</c><00:00:11.200><c> we</c><00:00:11.320><c> can</c><00:00:11.560><c> use</c><00:00:11.920><c> the</c><00:00:12.600><c> APIs</c><00:00:13.120><c> provided</c><00:00:13.800><c> in</c>
+
+00:00:13.950 --> 00:00:13.960 align:start position:0%
+see how we can use the APIs provided in
+ 
+
+00:00:13.960 --> 00:00:17.750 align:start position:0%
+see how we can use the APIs provided in
+Business<00:00:14.280><c> Central</c><00:00:14.720><c> to</c><00:00:14.840><c> code</c><00:00:15.120><c> our</c><00:00:15.400><c> own</c><00:00:15.600><c> agents.</c>
+
+00:00:17.750 --> 00:00:17.760 align:start position:0%
+Business Central to code our own agents.
+ 
+
+00:00:17.760 --> 00:00:21.030 align:start position:0%
+Business Central to code our own agents.
+For<00:00:18.360><c> to</c><00:00:18.560><c> get</c><00:00:18.760><c> a</c><00:00:18.800><c> quick</c><00:00:19.040><c> start</c><00:00:19.680><c> and</c><00:00:20.480><c> jump</c><00:00:20.800><c> right</c>
+
+00:00:21.030 --> 00:00:21.040 align:start position:0%
+For to get a quick start and jump right
+ 
+
+00:00:21.040 --> 00:00:23.070 align:start position:0%
+For to get a quick start and jump right
+into<00:00:21.280><c> it,</c><00:00:21.800><c> you</c><00:00:21.960><c> can</c><00:00:22.160><c> get</c><00:00:22.320><c> the</c><00:00:22.400><c> latest</c><00:00:22.720><c> version</c>
+
+00:00:23.070 --> 00:00:23.080 align:start position:0%
+into it, you can get the latest version
+ 
+
+00:00:23.080 --> 00:00:26.310 align:start position:0%
+into it, you can get the latest version
+of<00:00:23.160><c> the</c><00:00:23.240><c> VS</c><00:00:23.480><c> Code</c><00:00:23.640><c> extension.</c><00:00:24.840><c> And</c><00:00:25.840><c> use</c><00:00:26.160><c> the</c>
+
+00:00:26.310 --> 00:00:26.320 align:start position:0%
+of the VS Code extension. And use the
+ 
+
+00:00:26.320 --> 00:00:28.150 align:start position:0%
+of the VS Code extension. And use the
+new<00:00:26.480><c> project</c><00:00:26.880><c> command</c><00:00:27.520><c> to</c><00:00:27.720><c> access</c><00:00:28.040><c> our</c>
+
+00:00:28.150 --> 00:00:28.160 align:start position:0%
+new project command to access our
+ 
+
+00:00:28.160 --> 00:00:29.990 align:start position:0%
+new project command to access our
+templates.<00:00:29.120><c> There</c><00:00:29.320><c> you</c><00:00:29.440><c> will</c><00:00:29.560><c> find</c><00:00:29.760><c> the</c><00:00:29.840><c> new</c>
+
+00:00:29.990 --> 00:00:30.000 align:start position:0%
+templates. There you will find the new
+ 
+
+00:00:30.000 --> 00:00:32.589 align:start position:0%
+templates. There you will find the new
+template<00:00:30.440><c> called</c><00:00:30.720><c> agent</c><00:00:31.200><c> where</c><00:00:31.520><c> you</c><00:00:31.680><c> will</c><00:00:31.840><c> get</c>
+
+00:00:32.589 --> 00:00:32.599 align:start position:0%
+template called agent where you will get
+ 
+
+00:00:32.599 --> 00:00:34.430 align:start position:0%
+template called agent where you will get
+both<00:00:33.160><c> samples</c><00:00:33.600><c> of</c><00:00:33.680><c> the</c><00:00:33.800><c> code</c><00:00:34.000><c> that</c><00:00:34.160><c> will</c><00:00:34.320><c> be</c>
+
+00:00:34.430 --> 00:00:34.440 align:start position:0%
+both samples of the code that will be
+ 
+
+00:00:34.440 --> 00:00:36.270 align:start position:0%
+both samples of the code that will be
+shown<00:00:35.240><c> and</c>
+
+00:00:36.270 --> 00:00:36.280 align:start position:0%
+shown and
+ 
+
+00:00:36.280 --> 00:00:38.070 align:start position:0%
+shown and
+and<00:00:36.720><c> almost</c><00:00:37.120><c> ready</c><00:00:37.400><c> agent</c><00:00:37.720><c> that</c><00:00:37.840><c> you</c><00:00:37.920><c> can</c>
+
+00:00:38.070 --> 00:00:38.080 align:start position:0%
+and almost ready agent that you can
+ 
+
+00:00:38.080 --> 00:00:42.190 align:start position:0%
+and almost ready agent that you can
+publish<00:00:38.640><c> to</c><00:00:38.880><c> and</c><00:00:39.480><c> see</c><00:00:39.720><c> directly</c><00:00:40.200><c> in</c><00:00:40.280><c> the</c><00:00:40.400><c> UI.</c>
+
+00:00:42.190 --> 00:00:42.200 align:start position:0%
+publish to and see directly in the UI.
+ 
+
+00:00:42.200 --> 00:00:43.830 align:start position:0%
+publish to and see directly in the UI.
+You<00:00:42.320><c> will</c><00:00:42.440><c> also</c><00:00:42.640><c> get</c><00:00:42.880><c> a</c><00:00:42.960><c> very</c><00:00:43.200><c> nice</c><00:00:43.480><c> read</c><00:00:43.720><c> me</c>
+
+00:00:43.830 --> 00:00:43.840 align:start position:0%
+You will also get a very nice read me
+ 
+
+00:00:43.840 --> 00:00:46.630 align:start position:0%
+You will also get a very nice read me
+that<00:00:44.080><c> you</c><00:00:44.160><c> can</c><00:00:44.800><c> go</c><00:00:45.000><c> through</c><00:00:45.320><c> to</c><00:00:45.800><c> figure</c><00:00:46.160><c> out</c>
+
+00:00:46.630 --> 00:00:46.640 align:start position:0%
+that you can go through to figure out
+ 
+
+00:00:46.640 --> 00:00:48.990 align:start position:0%
+that you can go through to figure out
+all<00:00:46.800><c> the</c><00:00:46.920><c> different</c><00:00:47.760><c> parts</c><00:00:48.120><c> of</c><00:00:48.360><c> designing</c><00:00:48.880><c> an</c>
+
+00:00:48.990 --> 00:00:49.000 align:start position:0%
+all the different parts of designing an
+ 
+
+00:00:49.000 --> 00:00:50.870 align:start position:0%
+all the different parts of designing an
+agent<00:00:49.600><c> and</c>
+
+00:00:50.870 --> 00:00:50.880 align:start position:0%
+agent and
+ 
+
+00:00:50.880 --> 00:00:52.550 align:start position:0%
+agent and
+setting<00:00:51.280><c> up</c><00:00:51.480><c> different</c><00:00:51.880><c> functionalities</c>
+
+00:00:52.550 --> 00:00:52.560 align:start position:0%
+setting up different functionalities
+ 
+
+00:00:52.560 --> 00:00:55.665 align:start position:0%
+setting up different functionalities
+that<00:00:53.080><c> are</c><00:00:53.320><c> offered</c><00:00:53.760><c> by</c><00:00:53.960><c> Business</c><00:00:54.280><c> Central.</c>
+
+00:00:55.665 --> 00:00:55.675 align:start position:0%
+that are offered by Business Central.
+ 
+
+00:00:55.675 --> 00:00:56.830 align:start position:0%
+that are offered by Business Central.
+&gt;&gt; [snorts]
+
+00:00:56.830 --> 00:00:56.840 align:start position:0%
+&gt;&gt; [snorts]
+ 
+
+00:00:56.840 --> 00:00:58.990 align:start position:0%
+&gt;&gt; [snorts]
+&gt;&gt; The<00:00:56.920><c> first</c><00:00:57.200><c> step</c><00:00:57.480><c> to</c><00:00:57.800><c> designing</c><00:00:58.200><c> an</c><00:00:58.320><c> agent</c><00:00:58.800><c> is</c>
+
+00:00:58.990 --> 00:00:59.000 align:start position:0%
+&gt;&gt; The first step to designing an agent is
+ 
+
+00:00:59.000 --> 00:01:00.950 align:start position:0%
+&gt;&gt; The first step to designing an agent is
+defining<00:00:59.480><c> the</c><00:00:59.600><c> agent</c><00:00:59.880><c> type.</c>
+
+00:01:00.950 --> 00:01:00.960 align:start position:0%
+defining the agent type.
+ 
+
+00:01:00.960 --> 00:01:03.150 align:start position:0%
+defining the agent type.
+The<00:01:01.360><c> agent</c><00:01:01.640><c> type</c><00:01:02.240><c> you</c><00:01:02.400><c> can</c><00:01:02.600><c> think</c><00:01:02.800><c> of</c><00:01:02.920><c> it</c><00:01:03.000><c> as</c><00:01:03.120><c> a</c>
+
+00:01:03.150 --> 00:01:03.160 align:start position:0%
+The agent type you can think of it as a
+ 
+
+00:01:03.160 --> 00:01:05.670 align:start position:0%
+The agent type you can think of it as a
+blueprint<00:01:03.640><c> for</c><00:01:03.760><c> the</c><00:01:03.880><c> agent</c><00:01:04.400><c> that</c><00:01:04.800><c> defines</c><00:01:05.600><c> a</c>
+
+00:01:05.670 --> 00:01:05.680 align:start position:0%
+blueprint for the agent that defines a
+ 
+
+00:01:05.680 --> 00:01:08.150 align:start position:0%
+blueprint for the agent that defines a
+lot<00:01:05.920><c> of</c><00:01:06.040><c> things</c><00:01:06.400><c> like</c><00:01:07.120><c> the</c><00:01:07.200><c> default</c><00:01:07.560><c> settings</c>
+
+00:01:08.150 --> 00:01:08.160 align:start position:0%
+lot of things like the default settings
+ 
+
+00:01:08.160 --> 00:01:10.830 align:start position:0%
+lot of things like the default settings
+and<00:01:08.680><c> the</c><00:01:08.960><c> identity</c><00:01:09.440><c> of</c><00:01:09.520><c> your</c><00:01:09.680><c> agent.</c>
+
+00:01:10.830 --> 00:01:10.840 align:start position:0%
+and the identity of your agent.
+ 
+
+00:01:10.840 --> 00:01:12.790 align:start position:0%
+and the identity of your agent.
+It<00:01:11.040><c> consists</c><00:01:11.480><c> of</c><00:01:11.560><c> the</c><00:01:11.680><c> following</c><00:01:12.040><c> parts.</c>
+
+00:01:12.790 --> 00:01:12.800 align:start position:0%
+It consists of the following parts.
+ 
+
+00:01:12.800 --> 00:01:15.030 align:start position:0%
+It consists of the following parts.
+First<00:01:13.040><c> of</c><00:01:13.160><c> all,</c><00:01:13.360><c> we</c><00:01:13.520><c> have</c><00:01:13.840><c> a</c><00:01:13.960><c> new</c><00:01:14.160><c> enum</c><00:01:14.480><c> value</c>
+
+00:01:15.030 --> 00:01:15.040 align:start position:0%
+First of all, we have a new enum value
+ 
+
+00:01:15.040 --> 00:01:16.750 align:start position:0%
+First of all, we have a new enum value
+that<00:01:15.240><c> you</c><00:01:15.360><c> have</c><00:01:15.680><c> to</c><00:01:15.840><c> add</c><00:01:16.120><c> to</c><00:01:16.240><c> the</c><00:01:16.480><c> agent</c>
+
+00:01:16.750 --> 00:01:16.760 align:start position:0%
+that you have to add to the agent
+ 
+
+00:01:16.760 --> 00:01:19.670 align:start position:0%
+that you have to add to the agent
+metadata<00:01:17.160><c> provider</c><00:01:17.680><c> enum</c><00:01:18.400><c> via</c><00:01:18.640><c> an</c><00:01:18.760><c> extension.</c>
+
+00:01:19.670 --> 00:01:19.680 align:start position:0%
+metadata provider enum via an extension.
+ 
+
+00:01:19.680 --> 00:01:22.230 align:start position:0%
+metadata provider enum via an extension.
+This<00:01:19.880><c> will</c><00:01:20.000><c> be</c><00:01:20.800><c> the</c><00:01:21.120><c> main</c><00:01:21.360><c> identifier</c><00:01:21.960><c> of</c><00:01:22.080><c> your</c>
+
+00:01:22.230 --> 00:01:22.240 align:start position:0%
+This will be the main identifier of your
+ 
+
+00:01:22.240 --> 00:01:23.310 align:start position:0%
+This will be the main identifier of your
+agent.
+
+00:01:23.310 --> 00:01:23.320 align:start position:0%
+agent.
+ 
+
+00:01:23.320 --> 00:01:24.910 align:start position:0%
+agent.
+Then<00:01:23.600><c> you</c><00:01:23.720><c> will</c><00:01:23.840><c> need</c><00:01:24.040><c> to</c><00:01:24.120><c> also</c><00:01:24.360><c> set</c><00:01:24.560><c> up</c><00:01:24.680><c> a</c><00:01:24.720><c> new</c>
+
+00:01:24.910 --> 00:01:24.920 align:start position:0%
+Then you will need to also set up a new
+ 
+
+00:01:24.920 --> 00:01:26.790 align:start position:0%
+Then you will need to also set up a new
+Copilot<00:01:25.320><c> capability</c><00:01:25.840><c> via</c><00:01:26.080><c> another</c><00:01:26.520><c> enum</c>
+
+00:01:26.790 --> 00:01:26.800 align:start position:0%
+Copilot capability via another enum
+ 
+
+00:01:26.800 --> 00:01:28.550 align:start position:0%
+Copilot capability via another enum
+extension<00:01:27.440><c> which</c><00:01:27.680><c> will</c><00:01:27.880><c> act</c><00:01:28.080><c> as</c><00:01:28.200><c> a</c><00:01:28.240><c> feature</c>
+
+00:01:28.550 --> 00:01:28.560 align:start position:0%
+extension which will act as a feature
+ 
+
+00:01:28.560 --> 00:01:31.070 align:start position:0%
+extension which will act as a feature
+switch<00:01:29.080><c> so</c><00:01:29.240><c> that</c><00:01:29.520><c> users</c><00:01:29.920><c> can</c><00:01:30.320><c> turn</c><00:01:30.960><c> the</c>
+
+00:01:31.070 --> 00:01:31.080 align:start position:0%
+switch so that users can turn the
+ 
+
+00:01:31.080 --> 00:01:33.230 align:start position:0%
+switch so that users can turn the
+feature<00:01:31.440><c> on</c><00:01:31.640><c> and</c><00:01:31.800><c> off.</c><00:01:32.440><c> And</c><00:01:32.600><c> finally,</c><00:01:33.080><c> you</c>
+
+00:01:33.230 --> 00:01:33.240 align:start position:0%
+feature on and off. And finally, you
+ 
+
+00:01:33.240 --> 00:01:35.230 align:start position:0%
+feature on and off. And finally, you
+will<00:01:33.360><c> need</c><00:01:33.600><c> to</c><00:01:33.960><c> provide</c><00:01:34.360><c> implementations</c><00:01:35.120><c> for</c>
+
+00:01:35.230 --> 00:01:35.240 align:start position:0%
+will need to provide implementations for
+ 
+
+00:01:35.240 --> 00:01:37.590 align:start position:0%
+will need to provide implementations for
+the<00:01:35.360><c> agent</c><00:01:35.600><c> interfaces</c><00:01:36.360><c> which</c><00:01:36.680><c> defines</c><00:01:37.320><c> a</c><00:01:37.400><c> lot</c>
+
+00:01:37.590 --> 00:01:37.600 align:start position:0%
+the agent interfaces which defines a lot
+ 
+
+00:01:37.600 --> 00:01:39.110 align:start position:0%
+the agent interfaces which defines a lot
+of<00:01:37.680><c> different</c><00:01:38.000><c> things</c><00:01:38.160><c> that</c><00:01:38.320><c> we</c><00:01:38.440><c> will</c><00:01:38.600><c> see</c>
+
+00:01:39.110 --> 00:01:39.120 align:start position:0%
+of different things that we will see
+ 
+
+00:01:39.120 --> 00:01:40.206 align:start position:0%
+of different things that we will see
+very<00:01:39.320><c> soon.</c>
+
+00:01:40.206 --> 00:01:40.216 align:start position:0%
+very soon.
+ 
+
+00:01:40.216 --> 00:01:41.230 align:start position:0%
+very soon.
+&gt;&gt; [snorts]
+
+00:01:41.230 --> 00:01:41.240 align:start position:0%
+&gt;&gt; [snorts]
+ 
+
+00:01:41.240 --> 00:01:43.270 align:start position:0%
+&gt;&gt; [snorts]
+&gt;&gt; Here<00:01:41.440><c> is</c><00:01:41.560><c> an</c><00:01:41.680><c> example</c><00:01:42.200><c> of</c><00:01:42.360><c> the</c><00:01:42.800><c> metadata</c>
+
+00:01:43.270 --> 00:01:43.280 align:start position:0%
+&gt;&gt; Here is an example of the metadata
+ 
+
+00:01:43.280 --> 00:01:44.510 align:start position:0%
+&gt;&gt; Here is an example of the metadata
+provider.
+
+00:01:44.510 --> 00:01:44.520 align:start position:0%
+provider.
+ 
+
+00:01:44.520 --> 00:01:46.590 align:start position:0%
+provider.
+You<00:01:45.160><c> can</c><00:01:45.360><c> see</c><00:01:45.640><c> that</c>
+
+00:01:46.590 --> 00:01:46.600 align:start position:0%
+You can see that
+ 
+
+00:01:46.600 --> 00:01:49.030 align:start position:0%
+You can see that
+it<00:01:46.800><c> has</c><00:01:46.960><c> a</c><00:01:47.000><c> value,</c><00:01:47.320><c> it</c><00:01:47.440><c> has</c><00:01:47.600><c> a</c><00:01:47.640><c> name</c><00:01:48.480><c> and</c><00:01:48.640><c> then</c>
+
+00:01:49.030 --> 00:01:49.040 align:start position:0%
+it has a value, it has a name and then
+ 
+
+00:01:49.040 --> 00:01:50.790 align:start position:0%
+it has a value, it has a name and then
+it<00:01:49.200><c> has</c><00:01:49.440><c> an</c><00:01:49.520><c> implementation</c><00:01:50.280><c> for</c><00:01:50.480><c> the</c>
+
+00:01:50.790 --> 00:01:50.800 align:start position:0%
+it has an implementation for the
+ 
+
+00:01:50.800 --> 00:01:53.270 align:start position:0%
+it has an implementation for the
+different<00:01:51.800><c> interfaces</c><00:01:52.560><c> that</c><00:01:52.880><c> need</c><00:01:53.120><c> to</c><00:01:53.200><c> be</c>
+
+00:01:53.270 --> 00:01:53.280 align:start position:0%
+different interfaces that need to be
+ 
+
+00:01:53.280 --> 00:01:55.271 align:start position:0%
+different interfaces that need to be
+implemented<00:01:53.840><c> for</c><00:01:53.960><c> an</c><00:01:54.080><c> agent</c><00:01:54.400><c> to</c><00:01:54.480><c> work.</c>
+
+00:01:55.271 --> 00:01:55.281 align:start position:0%
+implemented for an agent to work.
+ 
+
+00:01:55.281 --> 00:01:55.390 align:start position:0%
+implemented for an agent to work.
+&gt;&gt; [snorts]
+
+00:01:55.390 --> 00:01:55.400 align:start position:0%
+&gt;&gt; [snorts]
+ 
+
+00:01:55.400 --> 00:01:57.670 align:start position:0%
+&gt;&gt; [snorts]
+&gt;&gt; This<00:01:55.600><c> is</c><00:01:55.760><c> the</c><00:01:56.040><c> starting</c><00:01:56.400><c> point</c><00:01:56.720><c> where</c><00:01:56.920><c> you</c><00:01:57.240><c> tie</c>
+
+00:01:57.670 --> 00:01:57.680 align:start position:0%
+&gt;&gt; This is the starting point where you tie
+ 
+
+00:01:57.680 --> 00:02:00.310 align:start position:0%
+&gt;&gt; This is the starting point where you tie
+your<00:01:57.840><c> implementation</c><00:01:58.520><c> with</c><00:01:58.640><c> your</c><00:01:58.800><c> agent.</c>
+
+00:02:00.310 --> 00:02:00.320 align:start position:0%
+your implementation with your agent.
+ 
+
+00:02:00.320 --> 00:02:02.310 align:start position:0%
+your implementation with your agent.
+Here<00:02:00.640><c> you</c><00:02:00.720><c> can</c><00:02:00.880><c> also</c><00:02:01.080><c> see</c><00:02:01.240><c> an</c><00:02:01.320><c> extension</c><00:02:02.160><c> for</c>
+
+00:02:02.310 --> 00:02:02.320 align:start position:0%
+Here you can also see an extension for
+ 
+
+00:02:02.320 --> 00:02:04.830 align:start position:0%
+Here you can also see an extension for
+the<00:02:02.720><c> co-pilot</c><00:02:03.080><c> capability.</c><00:02:04.320><c> You</c><00:02:04.479><c> just</c><00:02:04.680><c> need</c>
+
+00:02:04.830 --> 00:02:04.840 align:start position:0%
+the co-pilot capability. You just need
+ 
+
+00:02:04.840 --> 00:02:06.630 align:start position:0%
+the co-pilot capability. You just need
+the<00:02:04.960><c> unique</c><00:02:05.320><c> name</c><00:02:05.680><c> and</c><00:02:05.840><c> the</c><00:02:05.920><c> unique</c><00:02:06.240><c> options</c>
+
+00:02:06.630 --> 00:02:06.640 align:start position:0%
+the unique name and the unique options
+ 
+
+00:02:06.640 --> 00:02:09.109 align:start position:0%
+the unique name and the unique options
+so<00:02:06.760><c> that</c><00:02:07.000><c> your</c><00:02:07.160><c> users</c><00:02:07.520><c> can</c><00:02:07.760><c> figure</c><00:02:08.119><c> out</c>
+
+00:02:09.109 --> 00:02:09.119 align:start position:0%
+so that your users can figure out
+ 
+
+00:02:09.119 --> 00:02:10.109 align:start position:0%
+so that your users can figure out
+what
+
+00:02:10.109 --> 00:02:10.119 align:start position:0%
+what
+ 
+
+00:02:10.119 --> 00:02:14.350 align:start position:0%
+what
+corresponds<00:02:10.679><c> to</c><00:02:10.800><c> your</c><00:02:11.040><c> specific</c><00:02:11.520><c> feature.</c>
+
+00:02:14.350 --> 00:02:14.360 align:start position:0%
+ 
+ 
+
+00:02:14.360 --> 00:02:16.710 align:start position:0%
+ 
+Jumping<00:02:14.760><c> onto</c><00:02:15.040><c> the</c><00:02:15.280><c> interfaces</c><00:02:15.840><c> themselves,</c>
+
+00:02:16.710 --> 00:02:16.720 align:start position:0%
+Jumping onto the interfaces themselves,
+ 
+
+00:02:16.720 --> 00:02:19.470 align:start position:0%
+Jumping onto the interfaces themselves,
+they<00:02:16.959><c> are</c><00:02:17.240><c> what</c><00:02:17.959><c> basically</c><00:02:18.360><c> defines</c><00:02:19.000><c> the</c>
+
+00:02:19.470 --> 00:02:19.480 align:start position:0%
+they are what basically defines the
+ 
+
+00:02:19.480 --> 00:02:20.990 align:start position:0%
+they are what basically defines the
+default<00:02:19.840><c> settings</c><00:02:20.240><c> and</c><00:02:20.360><c> the</c><00:02:20.440><c> behavior</c><00:02:20.880><c> of</c>
+
+00:02:20.990 --> 00:02:21.000 align:start position:0%
+default settings and the behavior of
+ 
+
+00:02:21.000 --> 00:02:23.510 align:start position:0%
+default settings and the behavior of
+your<00:02:21.160><c> agent.</c><00:02:21.720><c> The</c><00:02:21.840><c> first</c><00:02:22.120><c> one</c><00:02:22.760><c> is</c><00:02:22.959><c> the</c><00:02:23.200><c> agent</c>
+
+00:02:23.510 --> 00:02:23.520 align:start position:0%
+your agent. The first one is the agent
+ 
+
+00:02:23.520 --> 00:02:25.590 align:start position:0%
+your agent. The first one is the agent
+factory<00:02:24.040><c> interface</c><00:02:24.640><c> which</c><00:02:25.120><c> defines</c><00:02:25.520><c> the</c>
+
+00:02:25.590 --> 00:02:25.600 align:start position:0%
+factory interface which defines the
+ 
+
+00:02:25.600 --> 00:02:27.110 align:start position:0%
+factory interface which defines the
+default<00:02:25.959><c> settings.</c>
+
+00:02:27.110 --> 00:02:27.120 align:start position:0%
+default settings.
+ 
+
+00:02:27.120 --> 00:02:29.270 align:start position:0%
+default settings.
+These<00:02:27.480><c> include</c><00:02:27.760><c> things</c><00:02:28.080><c> like</c><00:02:28.720><c> the</c><00:02:28.840><c> first</c><00:02:29.080><c> time</c>
+
+00:02:29.270 --> 00:02:29.280 align:start position:0%
+These include things like the first time
+ 
+
+00:02:29.280 --> 00:02:30.710 align:start position:0%
+These include things like the first time
+set<00:02:29.480><c> up</c><00:02:29.600><c> page.</c>
+
+00:02:30.710 --> 00:02:30.720 align:start position:0%
+set up page.
+ 
+
+00:02:30.720 --> 00:02:32.150 align:start position:0%
+set up page.
+This<00:02:30.920><c> is</c><00:02:31.040><c> what</c><00:02:31.240><c> will</c><00:02:31.360><c> come</c><00:02:31.600><c> up</c><00:02:31.840><c> when</c><00:02:32.000><c> your</c>
+
+00:02:32.150 --> 00:02:32.160 align:start position:0%
+This is what will come up when your
+ 
+
+00:02:32.160 --> 00:02:34.670 align:start position:0%
+This is what will come up when your
+users<00:02:32.600><c> first</c><00:02:32.880><c> try</c><00:02:33.080><c> to</c><00:02:33.200><c> create</c><00:02:33.480><c> an</c><00:02:33.600><c> agent.</c>
+
+00:02:34.670 --> 00:02:34.680 align:start position:0%
+users first try to create an agent.
+ 
+
+00:02:34.680 --> 00:02:36.830 align:start position:0%
+users first try to create an agent.
+Then<00:02:35.680><c> this</c><00:02:35.880><c> is</c><00:02:36.000><c> also</c><00:02:36.240><c> the</c><00:02:36.320><c> place</c><00:02:36.600><c> where</c><00:02:36.720><c> the</c>
+
+00:02:36.830 --> 00:02:36.840 align:start position:0%
+Then this is also the place where the
+ 
+
+00:02:36.840 --> 00:02:38.550 align:start position:0%
+Then this is also the place where the
+co-pilot<00:02:37.240><c> capability</c><00:02:37.800><c> is</c><00:02:37.920><c> bound</c><00:02:38.280><c> to</c><00:02:38.400><c> your</c>
+
+00:02:38.550 --> 00:02:38.560 align:start position:0%
+co-pilot capability is bound to your
+ 
+
+00:02:38.560 --> 00:02:40.910 align:start position:0%
+co-pilot capability is bound to your
+agent<00:02:39.440><c> and</c><00:02:39.600><c> a</c><00:02:39.640><c> few</c><00:02:39.840><c> other</c><00:02:40.000><c> settings</c><00:02:40.480><c> like</c><00:02:40.760><c> what</c>
+
+00:02:40.910 --> 00:02:40.920 align:start position:0%
+agent and a few other settings like what
+ 
+
+00:02:40.920 --> 00:02:43.190 align:start position:0%
+agent and a few other settings like what
+is<00:02:41.040><c> the</c><00:02:41.120><c> default</c><00:02:41.480><c> profile</c><00:02:41.920><c> that</c><00:02:42.160><c> your</c><00:02:42.800><c> agents</c>
+
+00:02:43.190 --> 00:02:43.200 align:start position:0%
+is the default profile that your agents
+ 
+
+00:02:43.200 --> 00:02:44.990 align:start position:0%
+is the default profile that your agents
+will<00:02:43.320><c> be</c><00:02:43.440><c> using</c><00:02:43.920><c> and</c><00:02:44.160><c> what</c><00:02:44.360><c> are</c><00:02:44.480><c> the</c><00:02:44.600><c> default</c>
+
+00:02:44.990 --> 00:02:45.000 align:start position:0%
+will be using and what are the default
+ 
+
+00:02:45.000 --> 00:02:47.150 align:start position:0%
+will be using and what are the default
+permissions.
+
+00:02:47.150 --> 00:02:47.160 align:start position:0%
+permissions.
+ 
+
+00:02:47.160 --> 00:02:50.350 align:start position:0%
+permissions.
+Then<00:02:47.480><c> we</c><00:02:47.600><c> have</c><00:02:47.840><c> the</c><00:02:47.959><c> metadata</c><00:02:49.360><c> interface</c>
+
+00:02:50.350 --> 00:02:50.360 align:start position:0%
+Then we have the metadata interface
+ 
+
+00:02:50.360 --> 00:02:52.190 align:start position:0%
+Then we have the metadata interface
+which<00:02:50.640><c> defines</c><00:02:51.080><c> the</c><00:02:51.200><c> runtime</c><00:02:51.560><c> behavior</c><00:02:52.040><c> of</c>
+
+00:02:52.190 --> 00:02:52.200 align:start position:0%
+which defines the runtime behavior of
+ 
+
+00:02:52.200 --> 00:02:55.230 align:start position:0%
+which defines the runtime behavior of
+agents.<00:02:52.959><c> Some</c><00:02:53.800><c> settings</c><00:02:54.280><c> that</c><00:02:54.520><c> can</c><00:02:54.680><c> change</c>
+
+00:02:55.230 --> 00:02:55.240 align:start position:0%
+agents. Some settings that can change
+ 
+
+00:02:55.240 --> 00:02:57.710 align:start position:0%
+agents. Some settings that can change
+during<00:02:55.600><c> the</c><00:02:55.920><c> lifetime</c><00:02:56.360><c> of</c><00:02:56.480><c> an</c><00:02:56.600><c> agent.</c><00:02:57.520><c> These</c>
+
+00:02:57.710 --> 00:02:57.720 align:start position:0%
+during the lifetime of an agent. These
+ 
+
+00:02:57.720 --> 00:02:59.470 align:start position:0%
+during the lifetime of an agent. These
+are<00:02:57.840><c> things</c><00:02:58.160><c> like</c><00:02:58.480><c> what</c><00:02:58.680><c> summary</c><00:02:59.040><c> page</c><00:02:59.320><c> is</c>
+
+00:02:59.470 --> 00:02:59.480 align:start position:0%
+are things like what summary page is
+ 
+
+00:02:59.480 --> 00:03:00.710 align:start position:0%
+are things like what summary page is
+shown.
+
+00:03:00.710 --> 00:03:00.720 align:start position:0%
+shown.
+ 
+
+00:03:00.720 --> 00:03:02.509 align:start position:0%
+shown.
+You<00:03:00.840><c> can</c><00:03:01.120><c> Here</c><00:03:01.360><c> you</c><00:03:01.440><c> can</c><00:03:01.560><c> also</c><00:03:01.800><c> override</c><00:03:02.320><c> the</c>
+
+00:03:02.509 --> 00:03:02.519 align:start position:0%
+You can Here you can also override the
+ 
+
+00:03:02.519 --> 00:03:04.110 align:start position:0%
+You can Here you can also override the
+message<00:03:02.840><c> review</c><00:03:03.160><c> page</c><00:03:03.480><c> to</c><00:03:03.600><c> show</c><00:03:03.760><c> something</c>
+
+00:03:04.110 --> 00:03:04.120 align:start position:0%
+message review page to show something
+ 
+
+00:03:04.120 --> 00:03:06.030 align:start position:0%
+message review page to show something
+different.<00:03:04.800><c> You</c><00:03:04.880><c> can</c><00:03:05.080><c> change</c><00:03:05.400><c> what</c><00:03:05.560><c> initials</c>
+
+00:03:06.030 --> 00:03:06.040 align:start position:0%
+different. You can change what initials
+ 
+
+00:03:06.040 --> 00:03:07.630 align:start position:0%
+different. You can change what initials
+will<00:03:06.200><c> appear</c><00:03:06.440><c> for</c><00:03:06.600><c> your</c><00:03:06.760><c> agent</c><00:03:07.239><c> and</c><00:03:07.400><c> a</c><00:03:07.440><c> few</c>
+
+00:03:07.630 --> 00:03:07.640 align:start position:0%
+will appear for your agent and a few
+ 
+
+00:03:07.640 --> 00:03:10.670 align:start position:0%
+will appear for your agent and a few
+other<00:03:07.840><c> things.</c>
+
+00:03:10.670 --> 00:03:10.680 align:start position:0%
+ 
+ 
+
+00:03:10.680 --> 00:03:12.870 align:start position:0%
+ 
+Finally,<00:03:11.200><c> we</c><00:03:11.320><c> have</c><00:03:11.560><c> the</c><00:03:11.800><c> task</c><00:03:12.080><c> execution</c>
+
+00:03:12.870 --> 00:03:12.880 align:start position:0%
+Finally, we have the task execution
+ 
+
+00:03:12.880 --> 00:03:15.229 align:start position:0%
+Finally, we have the task execution
+interface<00:03:13.600><c> which</c><00:03:13.920><c> is</c><00:03:14.280><c> the</c><00:03:14.640><c> interface</c><00:03:15.120><c> that</c>
+
+00:03:15.229 --> 00:03:15.239 align:start position:0%
+interface which is the interface that
+ 
+
+00:03:15.239 --> 00:03:16.590 align:start position:0%
+interface which is the interface that
+controls
+
+00:03:16.590 --> 00:03:16.600 align:start position:0%
+controls
+ 
+
+00:03:16.600 --> 00:03:19.030 align:start position:0%
+controls
+things<00:03:17.680><c> that</c><00:03:17.880><c> happen</c>
+
+00:03:19.030 --> 00:03:19.040 align:start position:0%
+things that happen
+ 
+
+00:03:19.040 --> 00:03:21.390 align:start position:0%
+things that happen
+when<00:03:19.760><c> messages</c><00:03:20.280><c> are</c><00:03:20.400><c> processed</c><00:03:21.000><c> like</c><00:03:21.280><c> for</c>
+
+00:03:21.390 --> 00:03:21.400 align:start position:0%
+when messages are processed like for
+ 
+
+00:03:21.400 --> 00:03:23.509 align:start position:0%
+when messages are processed like for
+example<00:03:21.720><c> validation</c><00:03:22.400><c> for</c><00:03:22.800><c> input</c><00:03:23.120><c> and</c><00:03:23.239><c> output</c>
+
+00:03:23.509 --> 00:03:23.519 align:start position:0%
+example validation for input and output
+ 
+
+00:03:23.519 --> 00:03:26.110 align:start position:0%
+example validation for input and output
+messages<00:03:24.000><c> that</c><00:03:24.120><c> you</c><00:03:24.239><c> can</c><00:03:24.440><c> add</c><00:03:24.680><c> through</c><00:03:25.040><c> AL.</c>
+
+00:03:26.110 --> 00:03:26.120 align:start position:0%
+messages that you can add through AL.
+ 
+
+00:03:26.120 --> 00:03:29.070 align:start position:0%
+messages that you can add through AL.
+And<00:03:27.080><c> what</c><00:03:27.320><c> suggestions</c><00:03:27.880><c> are</c><00:03:28.000><c> shown</c><00:03:28.480><c> when</c><00:03:28.760><c> the</c>
+
+00:03:29.070 --> 00:03:29.080 align:start position:0%
+And what suggestions are shown when the
+ 
+
+00:03:29.080 --> 00:03:31.910 align:start position:0%
+And what suggestions are shown when the
+agent<00:03:29.480><c> will</c><00:03:29.640><c> ask</c><00:03:29.840><c> your</c><00:03:30.040><c> user</c><00:03:30.320><c> for</c><00:03:30.959><c> assistance</c>
+
+00:03:31.910 --> 00:03:31.920 align:start position:0%
+agent will ask your user for assistance
+ 
+
+00:03:31.920 --> 00:03:34.790 align:start position:0%
+agent will ask your user for assistance
+and<00:03:32.959><c> the</c><00:03:33.080><c> user</c><00:03:33.360><c> can</c><00:03:33.480><c> click</c><00:03:33.720><c> on</c><00:03:33.920><c> to</c><00:03:34.160><c> proceed.</c>
+
+00:03:34.790 --> 00:03:34.800 align:start position:0%
+and the user can click on to proceed.
+ 
+
+00:03:34.800 --> 00:03:36.110 align:start position:0%
+and the user can click on to proceed.
+And<00:03:34.920><c> finally,</c>
+
+00:03:36.110 --> 00:03:36.120 align:start position:0%
+And finally,
+ 
+
+00:03:36.120 --> 00:03:38.830 align:start position:0%
+And finally,
+settings<00:03:36.640><c> that</c><00:03:37.360><c> are</c><00:03:37.640><c> context</c><00:03:38.040><c> specific</c><00:03:38.600><c> like</c>
+
+00:03:38.830 --> 00:03:38.840 align:start position:0%
+settings that are context specific like
+ 
+
+00:03:38.840 --> 00:03:40.229 align:start position:0%
+settings that are context specific like
+what<00:03:39.040><c> language</c><00:03:39.519><c> should</c><00:03:39.760><c> be</c><00:03:39.880><c> used</c><00:03:40.120><c> on</c><00:03:40.200><c> a</c>
+
+00:03:40.229 --> 00:03:40.239 align:start position:0%
+what language should be used on a
+ 
+
+00:03:40.239 --> 00:03:41.949 align:start position:0%
+what language should be used on a
+specific<00:03:40.720><c> page</c><00:03:41.080><c> for</c><00:03:41.200><c> example</c><00:03:41.560><c> based</c><00:03:41.760><c> on</c><00:03:41.880><c> the</c>
+
+00:03:41.949 --> 00:03:41.959 align:start position:0%
+specific page for example based on the
+ 
+
+00:03:41.959 --> 00:03:45.312 align:start position:0%
+specific page for example based on the
+customer<00:03:42.519><c> formatting</c><00:03:43.040><c> and</c><00:03:43.160><c> so</c><00:03:43.360><c> on.</c>
+
+00:03:45.312 --> 00:03:45.322 align:start position:0%
+customer formatting and so on.
+ 
+
+00:03:45.322 --> 00:03:46.270 align:start position:0%
+customer formatting and so on.
+&gt;&gt; [snorts]
+
+00:03:46.270 --> 00:03:46.280 align:start position:0%
+&gt;&gt; [snorts]
+ 
+
+00:03:46.280 --> 00:03:48.470 align:start position:0%
+&gt;&gt; [snorts]
+&gt;&gt; Going<00:03:46.640><c> into</c><00:03:47.360><c> the</c><00:03:47.680><c> message</c><00:03:47.959><c> validation</c>
+
+00:03:48.470 --> 00:03:48.480 align:start position:0%
+&gt;&gt; Going into the message validation
+ 
+
+00:03:48.480 --> 00:03:50.870 align:start position:0%
+&gt;&gt; Going into the message validation
+itself,<00:03:49.080><c> some</c><00:03:49.320><c> things</c><00:03:49.560><c> that</c><00:03:49.680><c> you</c><00:03:49.800><c> can</c><00:03:50.000><c> do</c><00:03:50.200><c> with</c>
+
+00:03:50.870 --> 00:03:50.880 align:start position:0%
+itself, some things that you can do with
+ 
+
+00:03:50.880 --> 00:03:52.950 align:start position:0%
+itself, some things that you can do with
+this<00:03:51.120><c> API</c><00:03:51.519><c> is</c><00:03:51.640><c> that</c><00:03:52.040><c> you</c><00:03:52.320><c> for</c><00:03:52.480><c> example</c>
+
+00:03:52.950 --> 00:03:52.960 align:start position:0%
+this API is that you for example
+ 
+
+00:03:52.960 --> 00:03:54.830 align:start position:0%
+this API is that you for example
+implement<00:03:53.560><c> relevance</c><00:03:54.080><c> checks</c><00:03:54.480><c> before</c>
+
+00:03:54.830 --> 00:03:54.840 align:start position:0%
+implement relevance checks before
+ 
+
+00:03:54.840 --> 00:03:56.950 align:start position:0%
+implement relevance checks before
+accepting<00:03:55.640><c> an</c><00:03:55.800><c> input</c><00:03:56.040><c> message</c><00:03:56.520><c> for</c><00:03:56.680><c> further</c>
+
+00:03:56.950 --> 00:03:56.960 align:start position:0%
+accepting an input message for further
+ 
+
+00:03:56.960 --> 00:03:59.230 align:start position:0%
+accepting an input message for further
+processing<00:03:57.880><c> so</c><00:03:58.040><c> that</c><00:03:58.240><c> you</c><00:03:58.360><c> can</c><00:03:58.680><c> discard</c><00:03:59.120><c> for</c>
+
+00:03:59.230 --> 00:03:59.240 align:start position:0%
+processing so that you can discard for
+ 
+
+00:03:59.240 --> 00:04:00.590 align:start position:0%
+processing so that you can discard for
+example
+
+00:04:00.590 --> 00:04:00.600 align:start position:0%
+example
+ 
+
+00:04:00.600 --> 00:04:02.950 align:start position:0%
+example
+unrelated<00:04:01.720><c> messages.</c>
+
+00:04:02.950 --> 00:04:02.960 align:start position:0%
+unrelated messages.
+ 
+
+00:04:02.960 --> 00:04:05.190 align:start position:0%
+unrelated messages.
+You<00:04:03.080><c> can</c><00:04:03.320><c> add</c><00:04:03.800><c> warnings</c><00:04:04.320><c> on</c><00:04:04.440><c> input</c><00:04:04.680><c> messages</c>
+
+00:04:05.190 --> 00:04:05.200 align:start position:0%
+You can add warnings on input messages
+ 
+
+00:04:05.200 --> 00:04:07.390 align:start position:0%
+You can add warnings on input messages
+in<00:04:05.320><c> case</c><00:04:05.520><c> that</c><00:04:05.720><c> you</c><00:04:05.840><c> want</c><00:04:06.240><c> to</c>
+
+00:04:07.390 --> 00:04:07.400 align:start position:0%
+in case that you want to
+ 
+
+00:04:07.400 --> 00:04:09.750 align:start position:0%
+in case that you want to
+point<00:04:07.720><c> your</c><00:04:07.880><c> users</c><00:04:08.280><c> attention</c><00:04:08.800><c> to</c><00:04:08.959><c> the</c><00:04:09.640><c> to</c>
+
+00:04:09.750 --> 00:04:09.760 align:start position:0%
+point your users attention to the to
+ 
+
+00:04:09.760 --> 00:04:12.350 align:start position:0%
+point your users attention to the to
+them.<00:04:10.600><c> And</c><00:04:10.760><c> finally,</c><00:04:11.280><c> you</c><00:04:11.440><c> can</c><00:04:11.640><c> also</c><00:04:11.880><c> modify</c>
+
+00:04:12.350 --> 00:04:12.360 align:start position:0%
+them. And finally, you can also modify
+ 
+
+00:04:12.360 --> 00:04:14.750 align:start position:0%
+them. And finally, you can also modify
+output<00:04:12.680><c> messages</c><00:04:13.280><c> to</c><00:04:13.800><c> add</c><00:04:14.040><c> signatures.</c><00:04:14.640><c> For</c>
+
+00:04:14.750 --> 00:04:14.760 align:start position:0%
+output messages to add signatures. For
+ 
+
+00:04:14.760 --> 00:04:16.150 align:start position:0%
+output messages to add signatures. For
+example,<00:04:15.080><c> if</c><00:04:15.200><c> you</c><00:04:15.320><c> want</c><00:04:15.600><c> to</c><00:04:15.680><c> add</c><00:04:15.800><c> an</c><00:04:15.920><c> email</c>
+
+00:04:16.150 --> 00:04:16.160 align:start position:0%
+example, if you want to add an email
+ 
+
+00:04:16.160 --> 00:04:17.830 align:start position:0%
+example, if you want to add an email
+signature.
+
+00:04:17.830 --> 00:04:17.840 align:start position:0%
+signature.
+ 
+
+00:04:17.840 --> 00:04:19.949 align:start position:0%
+signature.
+Here<00:04:18.200><c> you</c><00:04:18.320><c> can</c><00:04:18.480><c> see</c><00:04:18.799><c> an</c><00:04:18.920><c> example</c><00:04:19.440><c> of</c><00:04:19.840><c> the</c>
+
+00:04:19.949 --> 00:04:19.959 align:start position:0%
+Here you can see an example of the
+ 
+
+00:04:19.959 --> 00:04:22.390 align:start position:0%
+Here you can see an example of the
+implementation<00:04:20.640><c> of</c><00:04:20.720><c> this</c>
+
+00:04:22.390 --> 00:04:22.400 align:start position:0%
+implementation of this
+ 
+
+00:04:22.400 --> 00:04:24.550 align:start position:0%
+implementation of this
+interface.<00:04:23.160><c> On</c><00:04:23.320><c> the</c><00:04:23.400><c> first</c><00:04:23.720><c> one,</c><00:04:24.080><c> you</c><00:04:24.240><c> can</c><00:04:24.400><c> see</c>
+
+00:04:24.550 --> 00:04:24.560 align:start position:0%
+interface. On the first one, you can see
+ 
+
+00:04:24.560 --> 00:04:27.310 align:start position:0%
+interface. On the first one, you can see
+that<00:04:24.800><c> there</c><00:04:25.000><c> is</c><00:04:25.160><c> code</c><00:04:25.680><c> to</c><00:04:26.640><c> choose</c><00:04:26.960><c> based</c><00:04:27.240><c> on</c>
+
+00:04:27.310 --> 00:04:27.320 align:start position:0%
+that there is code to choose based on
+ 
+
+00:04:27.320 --> 00:04:29.190 align:start position:0%
+that there is code to choose based on
+the<00:04:27.440><c> type</c><00:04:27.680><c> of</c><00:04:27.760><c> the</c><00:04:27.880><c> message</c><00:04:28.400><c> and</c><00:04:28.680><c> either</c><00:04:28.960><c> post</c>
+
+00:04:29.190 --> 00:04:29.200 align:start position:0%
+the type of the message and either post
+ 
+
+00:04:29.200 --> 00:04:31.070 align:start position:0%
+the type of the message and either post
+process<00:04:29.560><c> output</c><00:04:29.840><c> messages</c><00:04:30.400><c> or</c><00:04:30.600><c> validate</c>
+
+00:04:31.070 --> 00:04:31.080 align:start position:0%
+process output messages or validate
+ 
+
+00:04:31.080 --> 00:04:32.550 align:start position:0%
+process output messages or validate
+them.<00:04:31.520><c> You</c><00:04:31.640><c> can</c><00:04:31.800><c> see</c><00:04:31.919><c> that</c><00:04:32.080><c> we</c><00:04:32.200><c> can</c><00:04:32.400><c> add</c>
+
+00:04:32.550 --> 00:04:32.560 align:start position:0%
+them. You can see that we can add
+ 
+
+00:04:32.560 --> 00:04:35.990 align:start position:0%
+them. You can see that we can add
+suggestions<00:04:33.280><c> in</c><00:04:33.480><c> the</c><00:04:34.400><c> user</c><00:04:34.960><c> intervention</c>
+
+00:04:35.990 --> 00:04:36.000 align:start position:0%
+suggestions in the user intervention
+ 
+
+00:04:36.000 --> 00:04:38.430 align:start position:0%
+suggestions in the user intervention
+suggestions.<00:04:37.160><c> And</c><00:04:37.320><c> finally,</c><00:04:37.960><c> you</c><00:04:38.080><c> can</c><00:04:38.280><c> see</c>
+
+00:04:38.430 --> 00:04:38.440 align:start position:0%
+suggestions. And finally, you can see
+ 
+
+00:04:38.440 --> 00:04:40.190 align:start position:0%
+suggestions. And finally, you can see
+that<00:04:38.840><c> I</c><00:04:38.960><c> can</c>
+
+00:04:40.190 --> 00:04:40.200 align:start position:0%
+that I can
+ 
+
+00:04:40.200 --> 00:04:42.710 align:start position:0%
+that I can
+add<00:04:40.440><c> an</c><00:04:40.560><c> if</c><00:04:40.840><c> based</c><00:04:41.160><c> on</c><00:04:41.280><c> the</c><00:04:41.560><c> page</c><00:04:41.840><c> ID</c><00:04:42.280><c> and</c>
+
+00:04:42.710 --> 00:04:42.720 align:start position:0%
+add an if based on the page ID and
+ 
+
+00:04:42.720 --> 00:04:45.430 align:start position:0%
+add an if based on the page ID and
+change<00:04:43.240><c> the</c><00:04:43.760><c> currency</c><00:04:44.240><c> for</c><00:04:44.360><c> example</c><00:04:44.720><c> that</c><00:04:44.880><c> the</c>
+
+00:04:45.430 --> 00:04:45.440 align:start position:0%
+change the currency for example that the
+ 
+
+00:04:45.440 --> 00:04:48.848 align:start position:0%
+change the currency for example that the
+our<00:04:45.680><c> agent</c><00:04:45.960><c> is</c><00:04:46.040><c> supposed</c><00:04:46.360><c> to</c><00:04:46.440><c> use.</c>
+
+00:04:48.848 --> 00:04:48.858 align:start position:0%
+ 
+ 
+
+00:04:48.858 --> 00:04:49.110 align:start position:0%
+ 
+&gt;&gt; [snorts]
+
+00:04:49.110 --> 00:04:49.120 align:start position:0%
+&gt;&gt; [snorts]
+ 
+
+00:04:49.120 --> 00:04:50.990 align:start position:0%
+&gt;&gt; [snorts]
+&gt;&gt; Let's<00:04:49.400><c> jump</c><00:04:49.720><c> into</c><00:04:49.960><c> another</c><00:04:50.280><c> topic</c><00:04:50.680><c> which</c><00:04:50.880><c> is</c>
+
+00:04:50.990 --> 00:04:51.000 align:start position:0%
+&gt;&gt; Let's jump into another topic which is
+ 
+
+00:04:51.000 --> 00:04:52.950 align:start position:0%
+&gt;&gt; Let's jump into another topic which is
+very<00:04:51.160><c> important</c><00:04:51.600><c> when</c><00:04:51.960><c> designing</c><00:04:52.440><c> agents.</c>
+
+00:04:52.950 --> 00:04:52.960 align:start position:0%
+very important when designing agents.
+ 
+
+00:04:52.960 --> 00:04:55.390 align:start position:0%
+very important when designing agents.
+Agent<00:04:53.320><c> types</c><00:04:53.640><c> versus</c><00:04:54.000><c> instances.</c><00:04:54.720><c> So,</c><00:04:55.080><c> okay,</c>
+
+00:04:55.390 --> 00:04:55.400 align:start position:0%
+Agent types versus instances. So, okay,
+ 
+
+00:04:55.400 --> 00:04:56.990 align:start position:0%
+Agent types versus instances. So, okay,
+you<00:04:55.520><c> have</c><00:04:55.680><c> defined</c><00:04:56.040><c> the</c><00:04:56.160><c> type</c><00:04:56.480><c> for</c><00:04:56.680><c> your</c>
+
+00:04:56.990 --> 00:04:57.000 align:start position:0%
+you have defined the type for your
+ 
+
+00:04:57.000 --> 00:04:59.190 align:start position:0%
+you have defined the type for your
+agent,<00:04:57.400><c> but</c><00:04:57.600><c> now</c><00:04:57.760><c> it's</c><00:04:57.919><c> time</c><00:04:58.200><c> to</c>
+
+00:04:59.190 --> 00:04:59.200 align:start position:0%
+agent, but now it's time to
+ 
+
+00:04:59.200 --> 00:05:00.790 align:start position:0%
+agent, but now it's time to
+actually<00:04:59.840><c> make</c><00:05:00.080><c> an</c><00:05:00.200><c> agent</c><00:05:00.480><c> that</c><00:05:00.600><c> does</c>
+
+00:05:00.790 --> 00:05:00.800 align:start position:0%
+actually make an agent that does
+ 
+
+00:05:00.800 --> 00:05:01.950 align:start position:0%
+actually make an agent that does
+something.
+
+00:05:01.950 --> 00:05:01.960 align:start position:0%
+something.
+ 
+
+00:05:01.960 --> 00:05:04.070 align:start position:0%
+something.
+So,<00:05:02.360><c> in</c><00:05:02.480><c> Business</c><00:05:02.800><c> Central,</c><00:05:03.600><c> agents</c><00:05:04.000><c> are</c>
+
+00:05:04.070 --> 00:05:04.080 align:start position:0%
+So, in Business Central, agents are
+ 
+
+00:05:04.080 --> 00:05:06.310 align:start position:0%
+So, in Business Central, agents are
+modeled<00:05:04.600><c> via</c><00:05:04.960><c> instances</c><00:05:05.680><c> which</c><00:05:05.880><c> are</c><00:05:06.000><c> also</c>
+
+00:05:06.310 --> 00:05:06.320 align:start position:0%
+modeled via instances which are also
+ 
+
+00:05:06.320 --> 00:05:08.750 align:start position:0%
+modeled via instances which are also
+users<00:05:06.720><c> in</c><00:05:06.840><c> Business</c><00:05:07.120><c> Central.</c>
+
+00:05:08.750 --> 00:05:08.760 align:start position:0%
+users in Business Central.
+ 
+
+00:05:08.760 --> 00:05:11.190 align:start position:0%
+users in Business Central.
+You<00:05:09.240><c> have</c><00:05:09.440><c> a</c><00:05:09.480><c> type</c><00:05:10.080><c> of</c><00:05:10.240><c> an</c><00:05:10.400><c> agent,</c><00:05:10.840><c> but</c><00:05:11.000><c> then</c>
+
+00:05:11.190 --> 00:05:11.200 align:start position:0%
+You have a type of an agent, but then
+ 
+
+00:05:11.200 --> 00:05:13.710 align:start position:0%
+You have a type of an agent, but then
+you<00:05:11.320><c> have</c><00:05:11.520><c> multiple</c><00:05:11.960><c> instances</c><00:05:12.640><c> of</c><00:05:12.800><c> this</c><00:05:13.000><c> type</c>
+
+00:05:13.710 --> 00:05:13.720 align:start position:0%
+you have multiple instances of this type
+ 
+
+00:05:13.720 --> 00:05:15.790 align:start position:0%
+you have multiple instances of this type
+which<00:05:14.120><c> need</c><00:05:14.360><c> to</c><00:05:14.440><c> be</c><00:05:14.560><c> created.</c>
+
+00:05:15.790 --> 00:05:15.800 align:start position:0%
+which need to be created.
+ 
+
+00:05:15.800 --> 00:05:18.030 align:start position:0%
+which need to be created.
+These<00:05:16.320><c> instances</c><00:05:16.919><c> keep</c><00:05:17.160><c> their</c><00:05:17.360><c> own</c><00:05:17.600><c> versions</c>
+
+00:05:18.030 --> 00:05:18.040 align:start position:0%
+These instances keep their own versions
+ 
+
+00:05:18.040 --> 00:05:21.110 align:start position:0%
+These instances keep their own versions
+of<00:05:18.160><c> the</c><00:05:18.760><c> permissions,</c><00:05:19.520><c> of</c><00:05:19.600><c> the</c><00:05:19.720><c> profile,</c><00:05:20.800><c> the</c>
+
+00:05:21.110 --> 00:05:21.120 align:start position:0%
+of the permissions, of the profile, the
+ 
+
+00:05:21.120 --> 00:05:24.350 align:start position:0%
+of the permissions, of the profile, the
+user<00:05:21.440><c> settings,</c><00:05:21.880><c> and</c><00:05:22.080><c> the</c><00:05:22.160><c> instructions.</c>
+
+00:05:24.350 --> 00:05:24.360 align:start position:0%
+user settings, and the instructions.
+ 
+
+00:05:24.360 --> 00:05:27.070 align:start position:0%
+user settings, and the instructions.
+You<00:05:24.800><c> can</c><00:05:24.960><c> also</c><00:05:25.160><c> notice</c><00:05:25.919><c> in</c><00:05:26.160><c> the</c><00:05:26.520><c> previous</c>
+
+00:05:27.070 --> 00:05:27.080 align:start position:0%
+You can also notice in the previous
+ 
+
+00:05:27.080 --> 00:05:29.230 align:start position:0%
+You can also notice in the previous
+interfaces<00:05:27.600><c> that</c><00:05:27.760><c> we</c><00:05:27.880><c> showed</c><00:05:28.320><c> that</c><00:05:28.680><c> there</c><00:05:28.960><c> is</c>
+
+00:05:29.230 --> 00:05:29.240 align:start position:0%
+interfaces that we showed that there is
+ 
+
+00:05:29.240 --> 00:05:32.230 align:start position:0%
+interfaces that we showed that there is
+an<00:05:29.400><c> agent</c><00:05:29.720><c> user</c><00:05:30.000><c> ID</c><00:05:30.400><c> as</c><00:05:30.600><c> part</c><00:05:30.840><c> of</c><00:05:31.040><c> the</c>
+
+00:05:32.230 --> 00:05:32.240 align:start position:0%
+an agent user ID as part of the
+ 
+
+00:05:32.240 --> 00:05:33.909 align:start position:0%
+an agent user ID as part of the
+method
+
+00:05:33.909 --> 00:05:33.919 align:start position:0%
+method
+ 
+
+00:05:33.919 --> 00:05:36.590 align:start position:0%
+method
+signatures<00:05:34.720><c> so</c><00:05:35.160><c> you</c><00:05:35.320><c> can</c><00:05:36.000><c> define</c><00:05:36.400><c> these</c>
+
+00:05:36.590 --> 00:05:36.600 align:start position:0%
+signatures so you can define these
+ 
+
+00:05:36.600 --> 00:05:38.750 align:start position:0%
+signatures so you can define these
+interfaces<00:05:37.200><c> to</c><00:05:37.680><c> behave</c><00:05:38.040><c> differently</c><00:05:38.480><c> based</c>
+
+00:05:38.750 --> 00:05:38.760 align:start position:0%
+interfaces to behave differently based
+ 
+
+00:05:38.760 --> 00:05:42.270 align:start position:0%
+interfaces to behave differently based
+on<00:05:38.880><c> the</c><00:05:39.120><c> instance</c><00:05:39.520><c> that</c><00:05:39.640><c> they're</c><00:05:39.840><c> targeting.</c>
+
+00:05:42.270 --> 00:05:42.280 align:start position:0%
+on the instance that they're targeting.
+ 
+
+00:05:42.280 --> 00:05:45.830 align:start position:0%
+on the instance that they're targeting.
+But<00:05:42.760><c> where</c><00:05:43.000><c> do</c><00:05:43.160><c> I</c><00:05:43.240><c> create</c><00:05:43.720><c> an</c><00:05:44.160><c> agent?</c><00:05:45.200><c> So,</c><00:05:45.640><c> our</c>
+
+00:05:45.830 --> 00:05:45.840 align:start position:0%
+But where do I create an agent? So, our
+ 
+
+00:05:45.840 --> 00:05:48.350 align:start position:0%
+But where do I create an agent? So, our
+stop<00:05:46.200><c> to</c><00:05:46.280><c> do</c><00:05:46.440><c> that</c><00:05:46.760><c> is</c><00:05:46.920><c> the</c><00:05:47.040><c> setup</c><00:05:47.360><c> page.</c>
+
+00:05:48.350 --> 00:05:48.360 align:start position:0%
+stop to do that is the setup page.
+ 
+
+00:05:48.360 --> 00:05:49.550 align:start position:0%
+stop to do that is the setup page.
+Um
+
+00:05:49.550 --> 00:05:49.560 align:start position:0%
+Um
+ 
+
+00:05:49.560 --> 00:05:52.030 align:start position:0%
+Um
+On<00:05:49.840><c> top</c><00:05:50.040><c> of</c><00:05:50.120><c> the</c><00:05:50.240><c> all</c><00:05:50.360><c> sender,</c><00:05:50.840><c> you</c><00:05:51.040><c> will</c><00:05:51.200><c> see</c>
+
+00:05:52.030 --> 00:05:52.040 align:start position:0%
+On top of the all sender, you will see
+ 
+
+00:05:52.040 --> 00:05:54.430 align:start position:0%
+On top of the all sender, you will see
+uh<00:05:52.200><c> icons</c><00:05:52.720><c> that</c><00:05:52.880><c> allowed</c><00:05:53.200><c> you</c><00:05:53.360><c> to</c><00:05:53.640><c> create</c><00:05:54.360><c> uh</c>
+
+00:05:54.430 --> 00:05:54.440 align:start position:0%
+uh icons that allowed you to create uh
+ 
+
+00:05:54.440 --> 00:05:56.510 align:start position:0%
+uh icons that allowed you to create uh
+agents<00:05:54.920><c> if</c><00:05:55.120><c> you</c><00:05:55.240><c> so</c><00:05:55.480><c> allow.</c>
+
+00:05:56.510 --> 00:05:56.520 align:start position:0%
+agents if you so allow.
+ 
+
+00:05:56.520 --> 00:05:57.150 align:start position:0%
+agents if you so allow.
+Uh
+
+00:05:57.150 --> 00:05:57.160 align:start position:0%
+Uh
+ 
+
+00:05:57.160 --> 00:05:58.590 align:start position:0%
+Uh
+if<00:05:57.360><c> you</c><00:05:57.480><c> click</c><00:05:57.680><c> on</c><00:05:57.800><c> them,</c><00:05:58.080><c> you</c><00:05:58.200><c> will</c><00:05:58.360><c> get</c><00:05:58.520><c> the</c>
+
+00:05:58.590 --> 00:05:58.600 align:start position:0%
+if you click on them, you will get the
+ 
+
+00:05:58.600 --> 00:06:01.190 align:start position:0%
+if you click on them, you will get the
+setup<00:05:58.920><c> page</c><00:05:59.680><c> uh</c><00:05:59.880><c> where</c><00:06:00.160><c> you</c><00:06:00.280><c> will</c><00:06:00.440><c> be</c><00:06:00.560><c> able</c><00:06:00.880><c> to</c>
+
+00:06:01.190 --> 00:06:01.200 align:start position:0%
+setup page uh where you will be able to
+ 
+
+00:06:01.200 --> 00:06:02.750 align:start position:0%
+setup page uh where you will be able to
+create<00:06:01.520><c> the</c><00:06:01.600><c> new</c><00:06:01.720><c> agents.</c><00:06:02.240><c> And</c><00:06:02.400><c> you</c><00:06:02.520><c> will</c><00:06:02.640><c> be</c>
+
+00:06:02.750 --> 00:06:02.760 align:start position:0%
+create the new agents. And you will be
+ 
+
+00:06:02.760 --> 00:06:05.310 align:start position:0%
+create the new agents. And you will be
+the<00:06:02.880><c> one</c><00:06:03.440><c> defining</c><00:06:03.960><c> the</c><00:06:04.120><c> setup</c><00:06:04.400><c> page</c><00:06:04.640><c> for</c><00:06:05.200><c> uh</c>
+
+00:06:05.310 --> 00:06:05.320 align:start position:0%
+the one defining the setup page for uh
+ 
+
+00:06:05.320 --> 00:06:06.870 align:start position:0%
+the one defining the setup page for uh
+custom<00:06:05.680><c> agents.</c>
+
+00:06:06.870 --> 00:06:06.880 align:start position:0%
+custom agents.
+ 
+
+00:06:06.880 --> 00:06:09.190 align:start position:0%
+custom agents.
+When<00:06:07.400><c> an</c><00:06:07.600><c> agent</c><00:06:07.880><c> is</c><00:06:08.000><c> already</c><00:06:08.280><c> created,</c><00:06:09.040><c> the</c>
+
+00:06:09.190 --> 00:06:09.200 align:start position:0%
+When an agent is already created, the
+ 
+
+00:06:09.200 --> 00:06:10.710 align:start position:0%
+When an agent is already created, the
+setup<00:06:09.480><c> page</c><00:06:09.680><c> will</c><00:06:09.840><c> also</c><00:06:10.040><c> be</c><00:06:10.160><c> used</c><00:06:10.400><c> for</c><00:06:10.560><c> its</c>
+
+00:06:10.710 --> 00:06:10.720 align:start position:0%
+setup page will also be used for its
+ 
+
+00:06:10.720 --> 00:06:13.999 align:start position:0%
+setup page will also be used for its
+configuration.
+
+00:06:13.999 --> 00:06:14.009 align:start position:0%
+ 
+ 
+
+00:06:14.009 --> 00:06:14.190 align:start position:0%
+ 
+&gt;&gt; [snorts]
+
+00:06:14.190 --> 00:06:14.200 align:start position:0%
+&gt;&gt; [snorts]
+ 
+
+00:06:14.200 --> 00:06:16.350 align:start position:0%
+&gt;&gt; [snorts]
+&gt;&gt; What<00:06:14.480><c> is</c><00:06:14.600><c> the</c><00:06:14.680><c> setup</c><00:06:15.000><c> page?</c><00:06:15.560><c> The</c><00:06:15.680><c> setup</c><00:06:15.960><c> page</c>
+
+00:06:16.350 --> 00:06:16.360 align:start position:0%
+&gt;&gt; What is the setup page? The setup page
+ 
+
+00:06:16.360 --> 00:06:17.630 align:start position:0%
+&gt;&gt; What is the setup page? The setup page
+is<00:06:16.640><c> a</c>
+
+00:06:17.630 --> 00:06:17.640 align:start position:0%
+is a
+ 
+
+00:06:17.640 --> 00:06:19.670 align:start position:0%
+is a
+normal<00:06:18.120><c> page</c><00:06:18.480><c> in</c><00:06:18.600><c> Business</c><00:06:18.919><c> Central</c><00:06:19.320><c> except</c>
+
+00:06:19.670 --> 00:06:19.680 align:start position:0%
+normal page in Business Central except
+ 
+
+00:06:19.680 --> 00:06:21.390 align:start position:0%
+normal page in Business Central except
+we<00:06:19.800><c> have</c><00:06:20.000><c> a</c><00:06:20.040><c> new</c><00:06:20.200><c> type,</c><00:06:20.560><c> the</c><00:06:20.680><c> configuration</c>
+
+00:06:21.390 --> 00:06:21.400 align:start position:0%
+we have a new type, the configuration
+ 
+
+00:06:21.400 --> 00:06:22.510 align:start position:0%
+we have a new type, the configuration
+dialog,
+
+00:06:22.510 --> 00:06:22.520 align:start position:0%
+dialog,
+ 
+
+00:06:22.520 --> 00:06:25.350 align:start position:0%
+dialog,
+which<00:06:22.880><c> is</c><00:06:23.200><c> uh</c><00:06:23.320><c> specifically</c><00:06:23.880><c> designed</c><00:06:24.360><c> for</c><00:06:25.280><c> uh</c>
+
+00:06:25.350 --> 00:06:25.360 align:start position:0%
+which is uh specifically designed for uh
+ 
+
+00:06:25.360 --> 00:06:27.390 align:start position:0%
+which is uh specifically designed for uh
+making<00:06:25.720><c> agent</c><00:06:26.000><c> setup</c><00:06:26.280><c> pages.</c>
+
+00:06:27.390 --> 00:06:27.400 align:start position:0%
+making agent setup pages.
+ 
+
+00:06:27.400 --> 00:06:29.790 align:start position:0%
+making agent setup pages.
+Uh<00:06:27.760><c> it</c><00:06:27.919><c> has</c><00:06:28.080><c> a</c><00:06:28.120><c> few</c><00:06:28.320><c> parts.</c><00:06:29.080><c> The</c><00:06:29.200><c> first</c><00:06:29.440><c> part</c><00:06:29.680><c> is</c>
+
+00:06:29.790 --> 00:06:29.800 align:start position:0%
+Uh it has a few parts. The first part is
+ 
+
+00:06:29.800 --> 00:06:31.430 align:start position:0%
+Uh it has a few parts. The first part is
+the<00:06:29.919><c> agent</c><00:06:30.240><c> setup</c><00:06:30.520><c> part,</c><00:06:30.880><c> which</c><00:06:31.120><c> is</c><00:06:31.360><c> a</c>
+
+00:06:31.430 --> 00:06:31.440 align:start position:0%
+the agent setup part, which is a
+ 
+
+00:06:31.440 --> 00:06:34.430 align:start position:0%
+the agent setup part, which is a
+standard<00:06:31.880><c> component</c><00:06:32.960><c> that</c><00:06:33.680><c> gives</c><00:06:34.000><c> you</c><00:06:34.120><c> some</c>
+
+00:06:34.430 --> 00:06:34.440 align:start position:0%
+standard component that gives you some
+ 
+
+00:06:34.440 --> 00:06:37.470 align:start position:0%
+standard component that gives you some
+basic<00:06:35.280><c> uh</c><00:06:35.800><c> information</c><00:06:36.400><c> about</c><00:06:36.720><c> the</c><00:06:37.000><c> agent</c>
+
+00:06:37.470 --> 00:06:37.480 align:start position:0%
+basic uh information about the agent
+ 
+
+00:06:37.480 --> 00:06:40.350 align:start position:0%
+basic uh information about the agent
+like<00:06:38.120><c> uh</c><00:06:38.280><c> its</c><00:06:38.520><c> name,</c><00:06:39.160><c> a</c><00:06:39.240><c> toggle</c><00:06:39.640><c> to</c><00:06:39.880><c> turn</c><00:06:40.120><c> it</c><00:06:40.240><c> on</c>
+
+00:06:40.350 --> 00:06:40.360 align:start position:0%
+like uh its name, a toggle to turn it on
+ 
+
+00:06:40.360 --> 00:06:43.190 align:start position:0%
+like uh its name, a toggle to turn it on
+and<00:06:40.560><c> off,</c><00:06:41.000><c> and</c><00:06:41.560><c> a</c><00:06:41.600><c> few</c><00:06:41.800><c> other</c><00:06:42.000><c> things.</c><00:06:42.880><c> Then</c>
+
+00:06:43.190 --> 00:06:43.200 align:start position:0%
+and off, and a few other things. Then
+ 
+
+00:06:43.200 --> 00:06:44.909 align:start position:0%
+and off, and a few other things. Then
+you<00:06:43.320><c> add</c><00:06:43.440><c> your</c><00:06:43.760><c> own</c><00:06:43.960><c> functionality</c><00:06:44.600><c> in</c><00:06:44.680><c> case</c>
+
+00:06:44.909 --> 00:06:44.919 align:start position:0%
+you add your own functionality in case
+ 
+
+00:06:44.919 --> 00:06:46.590 align:start position:0%
+you add your own functionality in case
+you<00:06:45.000><c> want</c><00:06:45.200><c> to</c><00:06:45.320><c> add</c><00:06:45.560><c> custom</c><00:06:45.960><c> settings</c><00:06:46.320><c> for</c><00:06:46.440><c> your</c>
+
+00:06:46.590 --> 00:06:46.600 align:start position:0%
+you want to add custom settings for your
+ 
+
+00:06:46.600 --> 00:06:48.714 align:start position:0%
+you want to add custom settings for your
+agent.
+
+00:06:48.714 --> 00:06:48.724 align:start position:0%
+agent.
+ 
+
+00:06:48.724 --> 00:06:49.230 align:start position:0%
+agent.
+&gt;&gt; [snorts]
+
+00:06:49.230 --> 00:06:49.240 align:start position:0%
+&gt;&gt; [snorts]
+ 
+
+00:06:49.240 --> 00:06:50.790 align:start position:0%
+&gt;&gt; [snorts]
+&gt;&gt; Here<00:06:49.560><c> you</c><00:06:49.640><c> can</c><00:06:49.800><c> see</c><00:06:49.880><c> an</c><00:06:49.960><c> example</c><00:06:50.320><c> of</c><00:06:50.400><c> the</c><00:06:50.480><c> setup</c>
+
+00:06:50.790 --> 00:06:50.800 align:start position:0%
+&gt;&gt; Here you can see an example of the setup
+ 
+
+00:06:50.800 --> 00:06:53.110 align:start position:0%
+&gt;&gt; Here you can see an example of the setup
+page.<00:06:51.320><c> On</c><00:06:51.440><c> the</c><00:06:51.560><c> left,</c><00:06:52.080><c> you</c><00:06:52.200><c> can</c><00:06:52.360><c> see</c><00:06:52.560><c> the</c><00:06:52.800><c> setup</c>
+
+00:06:53.110 --> 00:06:53.120 align:start position:0%
+page. On the left, you can see the setup
+ 
+
+00:06:53.120 --> 00:06:54.550 align:start position:0%
+page. On the left, you can see the setup
+part,<00:06:53.400><c> which</c><00:06:53.560><c> is</c><00:06:53.720><c> the</c>
+
+00:06:54.550 --> 00:06:54.560 align:start position:0%
+part, which is the
+ 
+
+00:06:54.560 --> 00:06:55.470 align:start position:0%
+part, which is the
+uh
+
+00:06:55.470 --> 00:06:55.480 align:start position:0%
+uh
+ 
+
+00:06:55.480 --> 00:06:57.110 align:start position:0%
+uh
+standard<00:06:55.919><c> component,</c><00:06:56.560><c> and</c><00:06:56.680><c> then</c><00:06:56.919><c> on</c><00:06:57.040><c> the</c>
+
+00:06:57.110 --> 00:06:57.120 align:start position:0%
+standard component, and then on the
+ 
+
+00:06:57.120 --> 00:06:58.470 align:start position:0%
+standard component, and then on the
+right,<00:06:57.360><c> you</c><00:06:57.480><c> can</c><00:06:57.600><c> see</c><00:06:57.840><c> things</c><00:06:58.120><c> that</c><00:06:58.280><c> were</c>
+
+00:06:58.470 --> 00:06:58.480 align:start position:0%
+right, you can see things that were
+ 
+
+00:06:58.480 --> 00:07:00.030 align:start position:0%
+right, you can see things that were
+added<00:06:58.800><c> extra.</c>
+
+00:07:00.030 --> 00:07:00.040 align:start position:0%
+added extra.
+ 
+
+00:07:00.040 --> 00:07:02.750 align:start position:0%
+added extra.
+Notice<00:07:00.520><c> here</c><00:07:00.760><c> that</c><00:07:01.440><c> uh</c><00:07:01.520><c> the</c><00:07:01.960><c> left</c><00:07:02.240><c> part</c><00:07:02.560><c> also</c>
+
+00:07:02.750 --> 00:07:02.760 align:start position:0%
+Notice here that uh the left part also
+ 
+
+00:07:02.760 --> 00:07:03.950 align:start position:0%
+Notice here that uh the left part also
+contains
+
+00:07:03.950 --> 00:07:03.960 align:start position:0%
+contains
+ 
+
+00:07:03.960 --> 00:07:06.950 align:start position:0%
+contains
+things<00:07:04.360><c> like</c><00:07:04.919><c> uh</c><00:07:05.440><c> disclaimers</c><00:07:06.160><c> about</c><00:07:06.680><c> AI</c>
+
+00:07:06.950 --> 00:07:06.960 align:start position:0%
+things like uh disclaimers about AI
+ 
+
+00:07:06.960 --> 00:07:08.510 align:start position:0%
+things like uh disclaimers about AI
+usage,<00:07:07.360><c> which</c><00:07:07.520><c> are</c><00:07:07.640><c> important</c><00:07:08.120><c> to</c><00:07:08.200><c> add</c><00:07:08.360><c> when</c>
+
+00:07:08.510 --> 00:07:08.520 align:start position:0%
+usage, which are important to add when
+ 
+
+00:07:08.520 --> 00:07:12.070 align:start position:0%
+usage, which are important to add when
+you<00:07:08.640><c> are</c><00:07:08.720><c> designing</c><00:07:09.160><c> an</c><00:07:09.280><c> AI</c><00:07:09.560><c> feature.</c>
+
+00:07:12.070 --> 00:07:12.080 align:start position:0%
+ 
+ 
+
+00:07:12.080 --> 00:07:14.470 align:start position:0%
+ 
+What<00:07:12.320><c> do</c><00:07:12.440><c> I</c><00:07:12.480><c> need</c><00:07:12.880><c> to</c><00:07:13.160><c> design</c><00:07:13.560><c> a</c><00:07:13.600><c> setup</c><00:07:13.919><c> page</c>
+
+00:07:14.470 --> 00:07:14.480 align:start position:0%
+What do I need to design a setup page
+ 
+
+00:07:14.480 --> 00:07:16.190 align:start position:0%
+What do I need to design a setup page
+and<00:07:14.720><c> to</c><00:07:14.840><c> make</c><00:07:15.040><c> it</c><00:07:15.160><c> work?</c>
+
+00:07:16.190 --> 00:07:16.200 align:start position:0%
+and to make it work?
+ 
+
+00:07:16.200 --> 00:07:18.230 align:start position:0%
+and to make it work?
+The<00:07:16.400><c> first</c><00:07:16.640><c> thing</c><00:07:16.840><c> is</c><00:07:16.960><c> that</c><00:07:17.160><c> you</c><00:07:17.280><c> will</c><00:07:17.440><c> need</c><00:07:17.880><c> to</c>
+
+00:07:18.230 --> 00:07:18.240 align:start position:0%
+The first thing is that you will need to
+ 
+
+00:07:18.240 --> 00:07:19.790 align:start position:0%
+The first thing is that you will need to
+make<00:07:18.480><c> your</c><00:07:18.600><c> own</c><00:07:18.760><c> table</c><00:07:19.120><c> to</c><00:07:19.240><c> track</c><00:07:19.480><c> your</c><00:07:19.640><c> own</c>
+
+00:07:19.790 --> 00:07:19.800 align:start position:0%
+make your own table to track your own
+ 
+
+00:07:19.800 --> 00:07:21.870 align:start position:0%
+make your own table to track your own
+instances.<00:07:20.760><c> It</c><00:07:20.919><c> needs</c><00:07:21.080><c> to</c><00:07:21.200><c> be</c><00:07:21.280><c> a</c><00:07:21.360><c> table</c><00:07:21.720><c> that</c>
+
+00:07:21.870 --> 00:07:21.880 align:start position:0%
+instances. It needs to be a table that
+ 
+
+00:07:21.880 --> 00:07:23.950 align:start position:0%
+instances. It needs to be a table that
+has<00:07:22.080><c> the</c><00:07:22.200><c> user</c><00:07:22.520><c> security</c><00:07:22.960><c> ID</c><00:07:23.280><c> as</c><00:07:23.440><c> the</c><00:07:23.520><c> primary</c>
+
+00:07:23.950 --> 00:07:23.960 align:start position:0%
+has the user security ID as the primary
+ 
+
+00:07:23.960 --> 00:07:26.990 align:start position:0%
+has the user security ID as the primary
+key,<00:07:24.760><c> which</c><00:07:25.040><c> is</c><00:07:25.320><c> also</c><00:07:25.640><c> what</c><00:07:25.960><c> is</c><00:07:26.160><c> used</c><00:07:26.560><c> for</c>
+
+00:07:26.990 --> 00:07:27.000 align:start position:0%
+key, which is also what is used for
+ 
+
+00:07:27.000 --> 00:07:28.470 align:start position:0%
+key, which is also what is used for
+agents.
+
+00:07:28.470 --> 00:07:28.480 align:start position:0%
+agents.
+ 
+
+00:07:28.480 --> 00:07:30.670 align:start position:0%
+agents.
+And<00:07:28.720><c> then</c><00:07:29.560><c> uh</c><00:07:29.640><c> it</c><00:07:29.800><c> should</c><00:07:29.960><c> also</c><00:07:30.200><c> hold</c><00:07:30.440><c> your</c>
+
+00:07:30.670 --> 00:07:30.680 align:start position:0%
+And then uh it should also hold your
+ 
+
+00:07:30.680 --> 00:07:32.630 align:start position:0%
+And then uh it should also hold your
+custom<00:07:31.000><c> settings</c><00:07:31.360><c> for</c><00:07:31.480><c> your</c><00:07:31.640><c> agent.</c><00:07:32.320><c> And</c><00:07:32.440><c> then</c>
+
+00:07:32.630 --> 00:07:32.640 align:start position:0%
+custom settings for your agent. And then
+ 
+
+00:07:32.640 --> 00:07:35.070 align:start position:0%
+custom settings for your agent. And then
+you<00:07:32.760><c> can</c><00:07:33.000><c> use</c><00:07:33.240><c> the</c><00:07:33.480><c> agent</c><00:07:33.800><c> setup</c><00:07:34.080><c> code</c><00:07:34.280><c> unit</c><00:07:34.680><c> to</c>
+
+00:07:35.070 --> 00:07:35.080 align:start position:0%
+you can use the agent setup code unit to
+ 
+
+00:07:35.080 --> 00:07:37.270 align:start position:0%
+you can use the agent setup code unit to
+make<00:07:35.560><c> instances</c><00:07:36.000><c> of</c><00:07:36.120><c> the</c><00:07:36.240><c> agent</c><00:07:36.760><c> and</c><00:07:37.000><c> track</c>
+
+00:07:37.270 --> 00:07:37.280 align:start position:0%
+make instances of the agent and track
+ 
+
+00:07:37.280 --> 00:07:39.070 align:start position:0%
+make instances of the agent and track
+them<00:07:37.480><c> inside</c><00:07:37.960><c> this</c><00:07:38.520><c> uh</c>
+
+00:07:39.070 --> 00:07:39.080 align:start position:0%
+them inside this uh
+ 
+
+00:07:39.080 --> 00:07:40.430 align:start position:0%
+them inside this uh
+table.
+
+00:07:40.430 --> 00:07:40.440 align:start position:0%
+table.
+ 
+
+00:07:40.440 --> 00:07:43.390 align:start position:0%
+table.
+The<00:07:40.720><c> code</c><00:07:40.960><c> for</c><00:07:41.080><c> the</c><00:07:41.200><c> page</c><00:07:41.480><c> is</c><00:07:41.640><c> also</c><00:07:42.520><c> uh</c><00:07:42.760><c> it</c><00:07:42.920><c> goes</c>
+
+00:07:43.390 --> 00:07:43.400 align:start position:0%
+The code for the page is also uh it goes
+ 
+
+00:07:43.400 --> 00:07:45.430 align:start position:0%
+The code for the page is also uh it goes
+along<00:07:43.720><c> those</c><00:07:43.920><c> lines.</c><00:07:44.600><c> One</c><00:07:44.800><c> of</c><00:07:44.920><c> the</c><00:07:45.280><c> very</c>
+
+00:07:45.430 --> 00:07:45.440 align:start position:0%
+along those lines. One of the very
+ 
+
+00:07:45.440 --> 00:07:47.830 align:start position:0%
+along those lines. One of the very
+important<00:07:46.240><c> concepts</c><00:07:46.840><c> in</c><00:07:47.000><c> its</c><00:07:47.160><c> design</c><00:07:47.560><c> is</c><00:07:47.680><c> that</c>
+
+00:07:47.830 --> 00:07:47.840 align:start position:0%
+important concepts in its design is that
+ 
+
+00:07:47.840 --> 00:07:49.310 align:start position:0%
+important concepts in its design is that
+it's<00:07:47.960><c> supposed</c><00:07:48.280><c> to</c><00:07:48.400><c> work</c><00:07:48.600><c> with</c><00:07:48.760><c> a</c><00:07:48.800><c> temporary</c>
+
+00:07:49.310 --> 00:07:49.320 align:start position:0%
+it's supposed to work with a temporary
+ 
+
+00:07:49.320 --> 00:07:51.190 align:start position:0%
+it's supposed to work with a temporary
+table.<00:07:50.160><c> So</c><00:07:50.320><c> that</c><00:07:50.520><c> means</c><00:07:50.760><c> that</c><00:07:50.880><c> you</c><00:07:51.000><c> should</c>
+
+00:07:51.190 --> 00:07:51.200 align:start position:0%
+table. So that means that you should
+ 
+
+00:07:51.200 --> 00:07:52.990 align:start position:0%
+table. So that means that you should
+only<00:07:51.480><c> save</c><00:07:51.920><c> your</c><00:07:52.080><c> changes</c><00:07:52.520><c> when</c><00:07:52.640><c> the</c><00:07:52.760><c> user</c>
+
+00:07:52.990 --> 00:07:53.000 align:start position:0%
+only save your changes when the user
+ 
+
+00:07:53.000 --> 00:07:55.310 align:start position:0%
+only save your changes when the user
+clicks<00:07:53.280><c> okay</c><00:07:53.640><c> and</c><00:07:53.840><c> accepts.</c>
+
+00:07:55.310 --> 00:07:55.320 align:start position:0%
+clicks okay and accepts.
+ 
+
+00:07:55.320 --> 00:07:58.110 align:start position:0%
+clicks okay and accepts.
+And<00:07:56.160><c> on</c><00:07:56.280><c> the</c><00:07:56.400><c> right</c><00:07:56.640><c> you</c><00:07:56.760><c> can</c><00:07:56.920><c> see</c><00:07:57.800><c> a</c><00:07:57.880><c> little</c>
+
+00:07:58.110 --> 00:07:58.120 align:start position:0%
+And on the right you can see a little
+ 
+
+00:07:58.120 --> 00:07:59.630 align:start position:0%
+And on the right you can see a little
+bit<00:07:58.280><c> about</c><00:07:58.560><c> how</c><00:07:58.720><c> it</c><00:07:58.840><c> works.</c><00:07:59.200><c> You</c><00:07:59.320><c> can</c><00:07:59.440><c> also</c>
+
+00:07:59.630 --> 00:07:59.640 align:start position:0%
+bit about how it works. You can also
+ 
+
+00:07:59.640 --> 00:08:01.710 align:start position:0%
+bit about how it works. You can also
+find<00:07:59.880><c> these</c><00:08:00.000><c> things</c><00:08:00.240><c> in</c><00:08:00.320><c> the</c><00:08:00.440><c> template.</c>
+
+00:08:01.710 --> 00:08:01.720 align:start position:0%
+find these things in the template.
+ 
+
+00:08:01.720 --> 00:08:04.550 align:start position:0%
+find these things in the template.
+The<00:08:02.320><c> The</c><00:08:02.480><c> main</c><00:08:02.680><c> part</c><00:08:03.000><c> is</c><00:08:03.120><c> that</c><00:08:03.440><c> the</c><00:08:03.800><c> setup</c><00:08:04.160><c> part</c>
+
+00:08:04.550 --> 00:08:04.560 align:start position:0%
+The The main part is that the setup part
+ 
+
+00:08:04.560 --> 00:08:06.710 align:start position:0%
+The The main part is that the setup part
+the<00:08:05.200><c> standard</c><00:08:05.560><c> component</c><00:08:06.080><c> gives</c><00:08:06.320><c> you</c><00:08:06.400><c> access</c>
+
+00:08:06.710 --> 00:08:06.720 align:start position:0%
+the standard component gives you access
+ 
+
+00:08:06.720 --> 00:08:08.710 align:start position:0%
+the standard component gives you access
+to<00:08:06.960><c> a</c><00:08:07.120><c> setup</c><00:08:07.480><c> buffer</c>
+
+00:08:08.710 --> 00:08:08.720 align:start position:0%
+to a setup buffer
+ 
+
+00:08:08.720 --> 00:08:11.950 align:start position:0%
+to a setup buffer
+record<00:08:09.680><c> that</c><00:08:09.840><c> you</c><00:08:09.960><c> can</c><00:08:10.160><c> use</c><00:08:10.560><c> to</c><00:08:10.920><c> track</c><00:08:11.560><c> some</c><00:08:11.840><c> of</c>
+
+00:08:11.950 --> 00:08:11.960 align:start position:0%
+record that you can use to track some of
+ 
+
+00:08:11.960 --> 00:08:13.670 align:start position:0%
+record that you can use to track some of
+the<00:08:12.080><c> basic</c><00:08:12.560><c> characteristics</c><00:08:13.160><c> of</c><00:08:13.240><c> an</c><00:08:13.360><c> agent</c>
+
+00:08:13.670 --> 00:08:13.680 align:start position:0%
+the basic characteristics of an agent
+ 
+
+00:08:13.680 --> 00:08:16.190 align:start position:0%
+the basic characteristics of an agent
+like<00:08:13.840><c> it's</c><00:08:14.000><c> ID</c><00:08:14.400><c> if</c><00:08:14.560><c> it's</c><00:08:14.720><c> active</c><00:08:15.040><c> and</c><00:08:15.160><c> so</c><00:08:15.360><c> on.</c>
+
+00:08:16.190 --> 00:08:16.200 align:start position:0%
+like it's ID if it's active and so on.
+ 
+
+00:08:16.200 --> 00:08:19.790 align:start position:0%
+like it's ID if it's active and so on.
+And<00:08:16.600><c> you</c><00:08:17.120><c> set</c><00:08:17.520><c> this</c><00:08:17.760><c> to</c><00:08:17.880><c> make</c><00:08:18.120><c> changes.</c>
+
+00:08:19.790 --> 00:08:19.800 align:start position:0%
+And you set this to make changes.
+ 
+
+00:08:19.800 --> 00:08:21.270 align:start position:0%
+And you set this to make changes.
+And<00:08:20.000><c> then</c><00:08:20.160><c> you</c><00:08:20.280><c> also</c><00:08:20.440><c> make</c><00:08:20.640><c> changes</c><00:08:20.960><c> to</c><00:08:21.080><c> your</c>
+
+00:08:21.270 --> 00:08:21.280 align:start position:0%
+And then you also make changes to your
+ 
+
+00:08:21.280 --> 00:08:25.590 align:start position:0%
+And then you also make changes to your
+own<00:08:22.120><c> table</c><00:08:22.760><c> when</c><00:08:23.040><c> the</c><00:08:23.480><c> user</c><00:08:23.760><c> clicks</c><00:08:24.040><c> okay.</c>
+
+00:08:25.590 --> 00:08:25.600 align:start position:0%
+own table when the user clicks okay.
+ 
+
+00:08:25.600 --> 00:08:29.190 align:start position:0%
+own table when the user clicks okay.
+The<00:08:26.240><c> agent</c><00:08:26.600><c> setup</c><00:08:27.120><c> code</c><00:08:27.320><c> unit</c><00:08:27.640><c> allows</c><00:08:28.000><c> you</c><00:08:28.160><c> to</c>
+
+00:08:29.190 --> 00:08:29.200 align:start position:0%
+The agent setup code unit allows you to
+ 
+
+00:08:29.200 --> 00:08:31.390 align:start position:0%
+The agent setup code unit allows you to
+basically<00:08:29.640><c> automatically</c><00:08:30.240><c> create</c><00:08:30.840><c> an</c><00:08:31.000><c> agent</c>
+
+00:08:31.390 --> 00:08:31.400 align:start position:0%
+basically automatically create an agent
+ 
+
+00:08:31.400 --> 00:08:34.469 align:start position:0%
+basically automatically create an agent
+when<00:08:31.600><c> you</c><00:08:31.720><c> save</c><00:08:32.000><c> changes</c><00:08:32.440><c> on</c><00:08:32.560><c> it.</c>
+
+00:08:34.469 --> 00:08:34.479 align:start position:0%
+when you save changes on it.
+ 
+
+00:08:34.479 --> 00:08:35.709 align:start position:0%
+when you save changes on it.
+Finally<00:08:35.000><c> you</c><00:08:35.080><c> also</c><00:08:35.280><c> need</c><00:08:35.440><c> to</c><00:08:35.520><c> set</c>
+
+00:08:35.709 --> 00:08:35.719 align:start position:0%
+Finally you also need to set
+ 
+
+00:08:35.719 --> 00:08:37.630 align:start position:0%
+Finally you also need to set
+instructions<00:08:36.360><c> on</c><00:08:36.520><c> it</c><00:08:36.960><c> in</c><00:08:37.120><c> order</c><00:08:37.360><c> for</c><00:08:37.520><c> the</c>
+
+00:08:37.630 --> 00:08:37.640 align:start position:0%
+instructions on it in order for the
+ 
+
+00:08:37.640 --> 00:08:40.270 align:start position:0%
+instructions on it in order for the
+agent<00:08:37.880><c> to</c><00:08:37.960><c> have</c><00:08:38.120><c> some</c><00:08:38.320><c> instructions.</c>
+
+00:08:40.270 --> 00:08:40.280 align:start position:0%
+agent to have some instructions.
+ 
+
+00:08:40.280 --> 00:08:42.589 align:start position:0%
+agent to have some instructions.
+Another<00:08:40.919><c> alternative</c><00:08:41.520><c> for</c><00:08:41.760><c> creating</c><00:08:42.120><c> agents</c>
+
+00:08:42.589 --> 00:08:42.599 align:start position:0%
+Another alternative for creating agents
+ 
+
+00:08:42.599 --> 00:08:44.870 align:start position:0%
+Another alternative for creating agents
+is<00:08:43.000><c> to</c><00:08:43.560><c> create</c><00:08:43.760><c> them</c><00:08:43.880><c> programmatically.</c><00:08:44.720><c> So</c>
+
+00:08:44.870 --> 00:08:44.880 align:start position:0%
+is to create them programmatically. So
+ 
+
+00:08:44.880 --> 00:08:47.670 align:start position:0%
+is to create them programmatically. So
+you<00:08:45.000><c> can</c><00:08:45.160><c> also</c><00:08:45.400><c> tie</c><00:08:45.720><c> agent</c><00:08:46.040><c> creation</c><00:08:46.640><c> to</c>
+
+00:08:47.670 --> 00:08:47.680 align:start position:0%
+you can also tie agent creation to
+ 
+
+00:08:47.680 --> 00:08:50.470 align:start position:0%
+you can also tie agent creation to
+for<00:08:48.240><c> example</c><00:08:48.839><c> clicking</c><00:08:49.200><c> an</c><00:08:49.320><c> action</c><00:08:49.760><c> or</c><00:08:49.920><c> some</c>
+
+00:08:50.470 --> 00:08:50.480 align:start position:0%
+for example clicking an action or some
+ 
+
+00:08:50.480 --> 00:08:52.630 align:start position:0%
+for example clicking an action or some
+workflow.<00:08:51.200><c> This</c><00:08:51.360><c> need</c><00:08:51.520><c> to</c><00:08:51.640><c> be</c><00:08:52.040><c> in</c><00:08:52.240><c> a</c><00:08:52.320><c> user</c>
+
+00:08:52.630 --> 00:08:52.640 align:start position:0%
+workflow. This need to be in a user
+ 
+
+00:08:52.640 --> 00:08:54.310 align:start position:0%
+workflow. This need to be in a user
+session<00:08:53.040><c> but</c><00:08:53.200><c> otherwise</c><00:08:53.640><c> it</c><00:08:53.760><c> is</c><00:08:53.880><c> possible</c><00:08:54.240><c> to</c>
+
+00:08:54.310 --> 00:08:54.320 align:start position:0%
+session but otherwise it is possible to
+ 
+
+00:08:54.320 --> 00:08:55.790 align:start position:0%
+session but otherwise it is possible to
+create<00:08:54.600><c> agents</c>
+
+00:08:55.790 --> 00:08:55.800 align:start position:0%
+create agents
+ 
+
+00:08:55.800 --> 00:08:57.590 align:start position:0%
+create agents
+dynamically<00:08:56.400><c> and</c><00:08:56.880><c> you</c><00:08:57.080><c> would</c><00:08:57.240><c> do</c><00:08:57.400><c> that</c>
+
+00:08:57.590 --> 00:08:57.600 align:start position:0%
+dynamically and you would do that
+ 
+
+00:08:57.600 --> 00:09:00.030 align:start position:0%
+dynamically and you would do that
+through<00:08:57.800><c> the</c><00:08:57.920><c> agent</c><00:08:58.280><c> code</c><00:08:58.440><c> unit.</c>
+
+00:09:00.030 --> 00:09:00.040 align:start position:0%
+through the agent code unit.
+ 
+
+00:09:00.040 --> 00:09:01.950 align:start position:0%
+through the agent code unit.
+Another<00:09:00.400><c> thing</c><00:09:00.560><c> that</c><00:09:00.720><c> is</c><00:09:00.839><c> offered</c><00:09:01.240><c> is</c><00:09:01.680><c> quite</c><00:09:01.920><c> a</c>
+
+00:09:01.950 --> 00:09:01.960 align:start position:0%
+Another thing that is offered is quite a
+ 
+
+00:09:01.960 --> 00:09:03.870 align:start position:0%
+Another thing that is offered is quite a
+lot<00:09:02.120><c> of</c><00:09:02.240><c> functions</c><00:09:02.760><c> on</c><00:09:02.880><c> the</c><00:09:03.000><c> agent</c><00:09:03.320><c> code</c><00:09:03.520><c> unit</c>
+
+00:09:03.870 --> 00:09:03.880 align:start position:0%
+lot of functions on the agent code unit
+ 
+
+00:09:03.880 --> 00:09:06.710 align:start position:0%
+lot of functions on the agent code unit
+that<00:09:04.040><c> can</c><00:09:04.160><c> be</c><00:09:04.320><c> used</c><00:09:04.800><c> to</c><00:09:05.760><c> manage</c><00:09:06.120><c> your</c><00:09:06.320><c> agent.</c>
+
+00:09:06.710 --> 00:09:06.720 align:start position:0%
+that can be used to manage your agent.
+ 
+
+00:09:06.720 --> 00:09:08.790 align:start position:0%
+that can be used to manage your agent.
+You<00:09:06.839><c> can</c><00:09:07.000><c> set</c><00:09:07.200><c> its</c><00:09:07.360><c> display</c><00:09:07.800><c> name</c><00:09:08.080><c> its</c><00:09:08.240><c> profile</c>
+
+00:09:08.790 --> 00:09:08.800 align:start position:0%
+You can set its display name its profile
+ 
+
+00:09:08.800 --> 00:09:10.390 align:start position:0%
+You can set its display name its profile
+and<00:09:08.960><c> a</c><00:09:09.000><c> bunch</c><00:09:09.280><c> of</c><00:09:09.400><c> other</c><00:09:09.600><c> settings</c><00:09:10.200><c> through</c>
+
+00:09:10.390 --> 00:09:10.400 align:start position:0%
+and a bunch of other settings through
+ 
+
+00:09:10.400 --> 00:09:12.350 align:start position:0%
+and a bunch of other settings through
+the<00:09:10.520><c> agent</c><00:09:10.839><c> code</c><00:09:11.040><c> unit.</c><00:09:11.720><c> This</c><00:09:11.880><c> is</c><00:09:12.000><c> the</c><00:09:12.080><c> main</c>
+
+00:09:12.350 --> 00:09:12.360 align:start position:0%
+the agent code unit. This is the main
+ 
+
+00:09:12.360 --> 00:09:14.430 align:start position:0%
+the agent code unit. This is the main
+place<00:09:12.600><c> to</c><00:09:12.680><c> look</c><00:09:12.880><c> at</c><00:09:13.440><c> if</c><00:09:13.640><c> you</c><00:09:13.720><c> are</c><00:09:14.080><c> making</c>
+
+00:09:14.430 --> 00:09:14.440 align:start position:0%
+place to look at if you are making
+ 
+
+00:09:14.440 --> 00:09:16.470 align:start position:0%
+place to look at if you are making
+changes<00:09:15.080><c> dynamically</c><00:09:15.640><c> to</c><00:09:15.760><c> the</c><00:09:15.839><c> configuration</c>
+
+00:09:16.470 --> 00:09:16.480 align:start position:0%
+changes dynamically to the configuration
+ 
+
+00:09:16.480 --> 00:09:18.056 align:start position:0%
+changes dynamically to the configuration
+of<00:09:16.560><c> your</c><00:09:16.720><c> agent.</c>
+
+00:09:18.056 --> 00:09:18.066 align:start position:0%
+of your agent.
+ 
+
+00:09:18.066 --> 00:09:18.990 align:start position:0%
+of your agent.
+&gt;&gt; [snorts]
+
+00:09:18.990 --> 00:09:19.000 align:start position:0%
+&gt;&gt; [snorts]
+ 
+
+00:09:19.000 --> 00:09:21.510 align:start position:0%
+&gt;&gt; [snorts]
+&gt;&gt; Instructions<00:09:19.640><c> are</c><00:09:19.760><c> also</c><00:09:19.960><c> very</c><00:09:20.160><c> important.</c>
+
+00:09:21.510 --> 00:09:21.520 align:start position:0%
+&gt;&gt; Instructions are also very important.
+ 
+
+00:09:21.520 --> 00:09:23.430 align:start position:0%
+&gt;&gt; Instructions are also very important.
+They<00:09:22.040><c> can</c><00:09:22.200><c> be</c><00:09:22.280><c> loaded</c><00:09:22.600><c> at</c><00:09:22.760><c> any</c><00:09:22.880><c> time</c><00:09:23.160><c> during</c>
+
+00:09:23.430 --> 00:09:23.440 align:start position:0%
+They can be loaded at any time during
+ 
+
+00:09:23.440 --> 00:09:25.150 align:start position:0%
+They can be loaded at any time during
+the<00:09:23.600><c> lifetime</c><00:09:24.000><c> of</c><00:09:24.080><c> the</c><00:09:24.200><c> agent</c><00:09:24.600><c> but</c><00:09:24.760><c> for</c><00:09:24.920><c> most</c>
+
+00:09:25.150 --> 00:09:25.160 align:start position:0%
+the lifetime of the agent but for most
+ 
+
+00:09:25.160 --> 00:09:28.110 align:start position:0%
+the lifetime of the agent but for most
+agents<00:09:25.960><c> the</c><00:09:26.040><c> most</c><00:09:26.240><c> common</c><00:09:26.480><c> pattern</c><00:09:26.960><c> is</c><00:09:27.240><c> to</c>
+
+00:09:28.110 --> 00:09:28.120 align:start position:0%
+agents the most common pattern is to
+ 
+
+00:09:28.120 --> 00:09:29.630 align:start position:0%
+agents the most common pattern is to
+load<00:09:28.400><c> them</c><00:09:28.640><c> during</c><00:09:28.920><c> the</c><00:09:29.040><c> creation</c><00:09:29.440><c> of</c><00:09:29.520><c> the</c>
+
+00:09:29.630 --> 00:09:29.640 align:start position:0%
+load them during the creation of the
+ 
+
+00:09:29.640 --> 00:09:31.510 align:start position:0%
+load them during the creation of the
+agent<00:09:30.200><c> and</c><00:09:30.440><c> you</c><00:09:30.520><c> can</c><00:09:30.760><c> get</c><00:09:30.960><c> them</c><00:09:31.160><c> from</c><00:09:31.440><c> a</c>
+
+00:09:31.510 --> 00:09:31.520 align:start position:0%
+agent and you can get them from a
+ 
+
+00:09:31.520 --> 00:09:32.750 align:start position:0%
+agent and you can get them from a
+resource
+
+00:09:32.750 --> 00:09:32.760 align:start position:0%
+resource
+ 
+
+00:09:32.760 --> 00:09:34.630 align:start position:0%
+resource
+so<00:09:32.920><c> that</c><00:09:33.120><c> you</c><00:09:33.240><c> can</c><00:09:33.839><c> have</c><00:09:34.000><c> a</c><00:09:34.080><c> nice</c><00:09:34.320><c> place</c><00:09:34.560><c> to</c>
+
+00:09:34.630 --> 00:09:34.640 align:start position:0%
+so that you can have a nice place to
+ 
+
+00:09:34.640 --> 00:09:37.950 align:start position:0%
+so that you can have a nice place to
+store<00:09:34.880><c> them</c><00:09:35.160><c> and</c><00:09:35.360><c> display</c><00:09:35.680><c> them.</c>
+
+00:09:37.950 --> 00:09:37.960 align:start position:0%
+store them and display them.
+ 
+
+00:09:37.960 --> 00:09:40.190 align:start position:0%
+store them and display them.
+Another<00:09:38.360><c> feature</c><00:09:38.680><c> that</c><00:09:38.840><c> is</c><00:09:38.960><c> supported</c><00:09:39.600><c> is</c><00:09:40.120><c> uh</c>
+
+00:09:40.190 --> 00:09:40.200 align:start position:0%
+Another feature that is supported is uh
+ 
+
+00:09:40.200 --> 00:09:42.910 align:start position:0%
+Another feature that is supported is uh
+KPI<00:09:40.600><c> pages</c><00:09:40.960><c> for</c><00:09:41.080><c> your</c><00:09:41.280><c> agents.</c><00:09:42.280><c> When</c><00:09:42.520><c> a</c><00:09:42.600><c> user</c>
+
+00:09:42.910 --> 00:09:42.920 align:start position:0%
+KPI pages for your agents. When a user
+ 
+
+00:09:42.920 --> 00:09:44.430 align:start position:0%
+KPI pages for your agents. When a user
+hovers<00:09:43.280><c> over</c><00:09:43.520><c> your</c>
+
+00:09:44.430 --> 00:09:44.440 align:start position:0%
+hovers over your
+ 
+
+00:09:44.440 --> 00:09:46.630 align:start position:0%
+hovers over your
+uh<00:09:44.880><c> agent's</c><00:09:45.320><c> avatar,</c><00:09:45.800><c> they</c><00:09:46.000><c> will</c><00:09:46.120><c> be</c><00:09:46.240><c> able</c><00:09:46.520><c> to</c>
+
+00:09:46.630 --> 00:09:46.640 align:start position:0%
+uh agent's avatar, they will be able to
+ 
+
+00:09:46.640 --> 00:09:49.510 align:start position:0%
+uh agent's avatar, they will be able to
+see<00:09:47.560><c> uh</c><00:09:47.760><c> important</c><00:09:48.400><c> metrics</c><00:09:48.760><c> about</c><00:09:49.120><c> the</c>
+
+00:09:49.510 --> 00:09:49.520 align:start position:0%
+see uh important metrics about the
+ 
+
+00:09:49.520 --> 00:09:51.550 align:start position:0%
+see uh important metrics about the
+agent.<00:09:50.200><c> So,</c><00:09:50.400><c> here</c><00:09:50.640><c> you</c><00:09:50.760><c> can</c><00:09:50.880><c> see</c><00:09:51.000><c> an</c><00:09:51.080><c> example.</c>
+
+00:09:51.550 --> 00:09:51.560 align:start position:0%
+agent. So, here you can see an example.
+ 
+
+00:09:51.560 --> 00:09:53.790 align:start position:0%
+agent. So, here you can see an example.
+This<00:09:51.760><c> is</c><00:09:51.840><c> very</c><00:09:52.040><c> similar</c><00:09:52.480><c> to</c><00:09:52.640><c> the</c><00:09:53.160><c> setup</c><00:09:53.480><c> page,</c>
+
+00:09:53.790 --> 00:09:53.800 align:start position:0%
+This is very similar to the setup page,
+ 
+
+00:09:53.800 --> 00:09:56.870 align:start position:0%
+This is very similar to the setup page,
+except<00:09:54.160><c> you</c><00:09:54.240><c> can</c><00:09:54.440><c> use</c><00:09:54.720><c> any</c><00:09:55.240><c> card</c><00:09:55.440><c> part</c><00:09:55.880><c> page,</c>
+
+00:09:56.870 --> 00:09:56.880 align:start position:0%
+except you can use any card part page,
+ 
+
+00:09:56.880 --> 00:09:58.510 align:start position:0%
+except you can use any card part page,
+and<00:09:57.000><c> you</c><00:09:57.080><c> can</c><00:09:57.240><c> add</c><00:09:57.400><c> there</c><00:09:57.920><c> uh</c>
+
+00:09:58.510 --> 00:09:58.520 align:start position:0%
+and you can add there uh
+ 
+
+00:09:58.520 --> 00:09:59.870 align:start position:0%
+and you can add there uh
+metrics<00:09:58.920><c> which</c><00:09:59.080><c> are</c><00:09:59.160><c> important</c><00:09:59.600><c> for</c><00:09:59.720><c> your</c>
+
+00:09:59.870 --> 00:09:59.880 align:start position:0%
+metrics which are important for your
+ 
+
+00:09:59.880 --> 00:10:02.310 align:start position:0%
+metrics which are important for your
+agent.
+
+00:10:02.310 --> 00:10:02.320 align:start position:0%
+agent.
+ 
+
+00:10:02.320 --> 00:10:04.070 align:start position:0%
+agent.
+Now,<00:10:02.600><c> okay,</c><00:10:02.920><c> I've</c><00:10:03.040><c> created</c><00:10:03.480><c> my</c><00:10:03.640><c> agent,</c><00:10:03.960><c> I've</c>
+
+00:10:04.070 --> 00:10:04.080 align:start position:0%
+Now, okay, I've created my agent, I've
+ 
+
+00:10:04.080 --> 00:10:05.990 align:start position:0%
+Now, okay, I've created my agent, I've
+created<00:10:04.520><c> my</c><00:10:04.640><c> instances.</c><00:10:05.280><c> I</c><00:10:05.360><c> need</c><00:10:05.600><c> to</c><00:10:05.680><c> assign</c>
+
+00:10:05.990 --> 00:10:06.000 align:start position:0%
+created my instances. I need to assign
+ 
+
+00:10:06.000 --> 00:10:08.870 align:start position:0%
+created my instances. I need to assign
+work<00:10:06.240><c> to</c><00:10:06.360><c> it</c><00:10:06.480><c> so</c><00:10:06.600><c> that</c><00:10:06.760><c> it's</c><00:10:06.920><c> useful.</c>
+
+00:10:08.870 --> 00:10:08.880 align:start position:0%
+work to it so that it's useful.
+ 
+
+00:10:08.880 --> 00:10:11.550 align:start position:0%
+work to it so that it's useful.
+Uh<00:10:09.400><c> you</c><00:10:09.560><c> can</c><00:10:09.720><c> do</c><00:10:09.880><c> that</c><00:10:10.160><c> through</c><00:10:10.480><c> the</c><00:10:11.160><c> tasks</c>
+
+00:10:11.550 --> 00:10:11.560 align:start position:0%
+Uh you can do that through the tasks
+ 
+
+00:10:11.560 --> 00:10:13.630 align:start position:0%
+Uh you can do that through the tasks
+part<00:10:12.040><c> of</c><00:10:12.160><c> the</c><00:10:12.280><c> API,</c>
+
+00:10:13.630 --> 00:10:13.640 align:start position:0%
+part of the API,
+ 
+
+00:10:13.640 --> 00:10:15.390 align:start position:0%
+part of the API,
+which<00:10:14.200><c> uh</c><00:10:14.280><c> allows</c><00:10:14.560><c> you</c><00:10:14.640><c> to</c><00:10:14.760><c> automate</c><00:10:15.160><c> task</c>
+
+00:10:15.390 --> 00:10:15.400 align:start position:0%
+which uh allows you to automate task
+ 
+
+00:10:15.400 --> 00:10:17.910 align:start position:0%
+which uh allows you to automate task
+creation<00:10:15.880><c> for</c><00:10:16.040><c> the</c><00:10:16.360><c> agent</c><00:10:16.720><c> instances.</c>
+
+00:10:17.910 --> 00:10:17.920 align:start position:0%
+creation for the agent instances.
+ 
+
+00:10:17.920 --> 00:10:19.990 align:start position:0%
+creation for the agent instances.
+There<00:10:18.080><c> is</c><00:10:18.760><c> a</c><00:10:18.920><c> a</c><00:10:19.000><c> set</c><00:10:19.240><c> of</c><00:10:19.360><c> code</c><00:10:19.520><c> units</c><00:10:19.800><c> that</c><00:10:19.920><c> you</c>
+
+00:10:19.990 --> 00:10:20.000 align:start position:0%
+There is a a set of code units that you
+ 
+
+00:10:20.000 --> 00:10:21.350 align:start position:0%
+There is a a set of code units that you
+can<00:10:20.200><c> use.</c>
+
+00:10:21.350 --> 00:10:21.360 align:start position:0%
+can use.
+ 
+
+00:10:21.360 --> 00:10:23.310 align:start position:0%
+can use.
+The<00:10:21.440><c> most</c><00:10:21.600><c> important</c><00:10:22.000><c> ones</c><00:10:22.280><c> are</c><00:10:22.480><c> the</c><00:10:23.000><c> agent</c>
+
+00:10:23.310 --> 00:10:23.320 align:start position:0%
+The most important ones are the agent
+ 
+
+00:10:23.320 --> 00:10:25.470 align:start position:0%
+The most important ones are the agent
+task<00:10:23.600><c> and</c><00:10:23.720><c> the</c><00:10:23.800><c> builder</c><00:10:24.600><c> uh</c>
+
+00:10:25.470 --> 00:10:25.480 align:start position:0%
+task and the builder uh
+ 
+
+00:10:25.480 --> 00:10:27.510 align:start position:0%
+task and the builder uh
+code<00:10:25.600><c> units.</c><00:10:26.280><c> They</c><00:10:26.440><c> allow</c><00:10:26.640><c> you</c><00:10:26.840><c> to</c><00:10:26.960><c> build</c><00:10:27.240><c> both</c>
+
+00:10:27.510 --> 00:10:27.520 align:start position:0%
+code units. They allow you to build both
+ 
+
+00:10:27.520 --> 00:10:31.070 align:start position:0%
+code units. They allow you to build both
+tasks<00:10:28.040><c> and</c><00:10:28.240><c> messages.</c>
+
+00:10:31.070 --> 00:10:31.080 align:start position:0%
+ 
+ 
+
+00:10:31.080 --> 00:10:33.430 align:start position:0%
+ 
+Let's<00:10:31.360><c> talk</c><00:10:31.560><c> about</c><00:10:31.920><c> tasks</c><00:10:32.240><c> versus</c><00:10:32.560><c> messages.</c>
+
+00:10:33.430 --> 00:10:33.440 align:start position:0%
+Let's talk about tasks versus messages.
+ 
+
+00:10:33.440 --> 00:10:35.590 align:start position:0%
+Let's talk about tasks versus messages.
+For<00:10:33.600><c> tasks,</c><00:10:34.240><c> you</c><00:10:34.360><c> can</c><00:10:34.480><c> imagine</c><00:10:34.840><c> them</c><00:10:35.080><c> as</c><00:10:35.280><c> units</c>
+
+00:10:35.590 --> 00:10:35.600 align:start position:0%
+For tasks, you can imagine them as units
+ 
+
+00:10:35.600 --> 00:10:37.790 align:start position:0%
+For tasks, you can imagine them as units
+of<00:10:35.720><c> work</c><00:10:35.960><c> for</c><00:10:36.080><c> the</c><00:10:36.240><c> agent.</c><00:10:37.120><c> They</c><00:10:37.240><c> are</c><00:10:37.360><c> bound</c><00:10:37.680><c> to</c>
+
+00:10:37.790 --> 00:10:37.800 align:start position:0%
+of work for the agent. They are bound to
+ 
+
+00:10:37.800 --> 00:10:39.829 align:start position:0%
+of work for the agent. They are bound to
+a<00:10:37.840><c> specific</c><00:10:38.320><c> agent</c><00:10:38.640><c> instance.</c>
+
+00:10:39.829 --> 00:10:39.839 align:start position:0%
+a specific agent instance.
+ 
+
+00:10:39.839 --> 00:10:41.270 align:start position:0%
+a specific agent instance.
+They<00:10:39.960><c> have</c><00:10:40.160><c> a</c><00:10:40.200><c> title,</c><00:10:40.920><c> and</c><00:10:41.040><c> they</c><00:10:41.160><c> are</c>
+
+00:10:41.270 --> 00:10:41.280 align:start position:0%
+They have a title, and they are
+ 
+
+00:10:41.280 --> 00:10:42.790 align:start position:0%
+They have a title, and they are
+triggered<00:10:41.760><c> when</c><00:10:41.920><c> the</c><00:10:42.000><c> agent</c><00:10:42.320><c> should</c><00:10:42.520><c> start</c>
+
+00:10:42.790 --> 00:10:42.800 align:start position:0%
+triggered when the agent should start
+ 
+
+00:10:42.800 --> 00:10:45.790 align:start position:0%
+triggered when the agent should start
+processing.<00:10:43.920><c> Messages</c><00:10:44.600><c> are</c><00:10:45.000><c> instead</c><00:10:45.440><c> bound</c>
+
+00:10:45.790 --> 00:10:45.800 align:start position:0%
+processing. Messages are instead bound
+ 
+
+00:10:45.800 --> 00:10:47.390 align:start position:0%
+processing. Messages are instead bound
+to<00:10:45.920><c> a</c><00:10:45.960><c> task.</c>
+
+00:10:47.390 --> 00:10:47.400 align:start position:0%
+to a task.
+ 
+
+00:10:47.400 --> 00:10:49.430 align:start position:0%
+to a task.
+You<00:10:47.560><c> add</c><00:10:47.720><c> input</c><00:10:48.000><c> messages</c><00:10:48.440><c> to</c><00:10:48.520><c> a</c><00:10:48.600><c> task</c><00:10:48.960><c> to</c><00:10:49.080><c> give</c>
+
+00:10:49.430 --> 00:10:49.440 align:start position:0%
+You add input messages to a task to give
+ 
+
+00:10:49.440 --> 00:10:51.310 align:start position:0%
+You add input messages to a task to give
+extra<00:10:49.760><c> context</c><00:10:50.200><c> to</c><00:10:50.280><c> the</c><00:10:50.400><c> agent</c><00:10:50.800><c> except</c><00:10:51.160><c> its</c>
+
+00:10:51.310 --> 00:10:51.320 align:start position:0%
+extra context to the agent except its
+ 
+
+00:10:51.320 --> 00:10:53.150 align:start position:0%
+extra context to the agent except its
+instructions.<00:10:52.440><c> For</c><00:10:52.560><c> example,</c><00:10:53.000><c> its</c>
+
+00:10:53.150 --> 00:10:53.160 align:start position:0%
+instructions. For example, its
+ 
+
+00:10:53.160 --> 00:10:55.550 align:start position:0%
+instructions. For example, its
+instructions<00:10:53.680><c> might</c><00:10:53.920><c> be</c><00:10:54.120><c> to</c><00:10:54.880><c> process</c>
+
+00:10:55.550 --> 00:10:55.560 align:start position:0%
+instructions might be to process
+ 
+
+00:10:55.560 --> 00:10:57.350 align:start position:0%
+instructions might be to process
+invoices,<00:10:56.200><c> and</c><00:10:56.320><c> the</c><00:10:56.400><c> message</c><00:10:56.720><c> might</c><00:10:56.960><c> be</c><00:10:57.120><c> which</c>
+
+00:10:57.350 --> 00:10:57.360 align:start position:0%
+invoices, and the message might be which
+ 
+
+00:10:57.360 --> 00:10:59.910 align:start position:0%
+invoices, and the message might be which
+invoice<00:10:57.720><c> to</c><00:10:57.800><c> process.</c>
+
+00:10:59.910 --> 00:10:59.920 align:start position:0%
+invoice to process.
+ 
+
+00:10:59.920 --> 00:11:01.790 align:start position:0%
+invoice to process.
+Uh<00:11:00.440><c> the</c><00:11:00.600><c> agent</c><00:11:00.920><c> then</c><00:11:01.120><c> creates</c><00:11:01.480><c> output</c>
+
+00:11:01.790 --> 00:11:01.800 align:start position:0%
+Uh the agent then creates output
+ 
+
+00:11:01.800 --> 00:11:05.829 align:start position:0%
+Uh the agent then creates output
+messages<00:11:02.400><c> to</c><00:11:02.839><c> respond</c><00:11:03.360><c> to</c><00:11:03.440><c> your</c><00:11:03.600><c> user.</c>
+
+00:11:05.829 --> 00:11:05.839 align:start position:0%
+messages to respond to your user.
+ 
+
+00:11:05.839 --> 00:11:07.190 align:start position:0%
+messages to respond to your user.
+Multi-turn<00:11:06.360><c> interactions</c><00:11:06.920><c> are</c><00:11:07.040><c> also</c>
+
+00:11:07.190 --> 00:11:07.200 align:start position:0%
+Multi-turn interactions are also
+ 
+
+00:11:07.200 --> 00:11:08.790 align:start position:0%
+Multi-turn interactions are also
+supported<00:11:07.839><c> because</c><00:11:08.160><c> you</c><00:11:08.240><c> can</c><00:11:08.360><c> insert</c>
+
+00:11:08.790 --> 00:11:08.800 align:start position:0%
+supported because you can insert
+ 
+
+00:11:08.800 --> 00:11:11.110 align:start position:0%
+supported because you can insert
+multiple<00:11:09.160><c> input</c><00:11:09.440><c> messages,</c><00:11:10.160><c> and</c><00:11:10.640><c> the</c><00:11:10.800><c> agent</c>
+
+00:11:11.110 --> 00:11:11.120 align:start position:0%
+multiple input messages, and the agent
+ 
+
+00:11:11.120 --> 00:11:13.350 align:start position:0%
+multiple input messages, and the agent
+might<00:11:11.360><c> answer</c><00:11:11.640><c> multiple</c><00:11:12.040><c> times</c><00:11:12.520><c> if</c><00:11:12.760><c> it</c><00:11:13.080><c> if</c><00:11:13.240><c> it</c>
+
+00:11:13.350 --> 00:11:13.360 align:start position:0%
+might answer multiple times if it if it
+ 
+
+00:11:13.360 --> 00:11:16.990 align:start position:0%
+might answer multiple times if it if it
+gets<00:11:13.640><c> a</c><00:11:13.680><c> new</c><00:11:14.000><c> input</c><00:11:14.280><c> message.</c>
+
+00:11:16.990 --> 00:11:17.000 align:start position:0%
+ 
+ 
+
+00:11:17.000 --> 00:11:20.350 align:start position:0%
+ 
+Okay,<00:11:17.320><c> so</c><00:11:17.640><c> how</c><00:11:17.800><c> do</c><00:11:17.960><c> I</c><00:11:18.000><c> create</c><00:11:18.320><c> my</c><00:11:18.440><c> first</c><00:11:18.720><c> task?</c>
+
+00:11:20.350 --> 00:11:20.360 align:start position:0%
+Okay, so how do I create my first task?
+ 
+
+00:11:20.360 --> 00:11:22.990 align:start position:0%
+Okay, so how do I create my first task?
+The<00:11:20.839><c> task</c><00:11:21.200><c> basically</c><00:11:21.600><c> requires</c><00:11:22.120><c> you</c><00:11:22.280><c> to</c><00:11:22.720><c> get</c>
+
+00:11:22.990 --> 00:11:23.000 align:start position:0%
+The task basically requires you to get
+ 
+
+00:11:23.000 --> 00:11:25.550 align:start position:0%
+The task basically requires you to get
+your<00:11:23.160><c> agent</c><00:11:23.480><c> instance,</c><00:11:24.400><c> uh</c><00:11:24.839><c> possibly</c><00:11:25.320><c> from</c>
+
+00:11:25.550 --> 00:11:25.560 align:start position:0%
+your agent instance, uh possibly from
+ 
+
+00:11:25.560 --> 00:11:29.390 align:start position:0%
+your agent instance, uh possibly from
+your<00:11:26.280><c> setup</c><00:11:26.600><c> table,</c><00:11:27.360><c> and</c><00:11:27.560><c> then</c><00:11:28.080><c> use</c><00:11:28.400><c> the</c><00:11:29.120><c> task</c>
+
+00:11:29.390 --> 00:11:29.400 align:start position:0%
+your setup table, and then use the task
+ 
+
+00:11:29.400 --> 00:11:31.790 align:start position:0%
+your setup table, and then use the task
+builder<00:11:29.720><c> code</c><00:11:29.920><c> unit</c><00:11:30.240><c> in</c><00:11:30.360><c> order</c><00:11:30.720><c> to</c><00:11:31.200><c> create</c><00:11:31.680><c> the</c>
+
+00:11:31.790 --> 00:11:31.800 align:start position:0%
+builder code unit in order to create the
+ 
+
+00:11:31.800 --> 00:11:33.390 align:start position:0%
+builder code unit in order to create the
+task.
+
+00:11:33.390 --> 00:11:33.400 align:start position:0%
+task.
+ 
+
+00:11:33.400 --> 00:11:36.670 align:start position:0%
+task.
+You<00:11:34.280><c> create</c><00:11:34.560><c> a</c><00:11:34.640><c> message</c><00:11:35.000><c> for</c><00:11:35.160><c> your</c><00:11:35.320><c> task</c>
+
+00:11:36.670 --> 00:11:36.680 align:start position:0%
+You create a message for your task
+ 
+
+00:11:36.680 --> 00:11:39.590 align:start position:0%
+You create a message for your task
+and<00:11:37.200><c> you</c><00:11:37.360><c> populate</c><00:11:38.000><c> the</c><00:11:38.520><c> task</c><00:11:38.760><c> builder,</c><00:11:39.400><c> you</c>
+
+00:11:39.590 --> 00:11:39.600 align:start position:0%
+and you populate the task builder, you
+ 
+
+00:11:39.600 --> 00:11:41.230 align:start position:0%
+and you populate the task builder, you
+call<00:11:39.800><c> create</c><00:11:40.240><c> and</c><00:11:40.400><c> then</c><00:11:40.600><c> you</c><00:11:40.720><c> get</c><00:11:40.920><c> the</c><00:11:41.000><c> task</c>
+
+00:11:41.230 --> 00:11:41.240 align:start position:0%
+call create and then you get the task
+ 
+
+00:11:41.240 --> 00:11:43.270 align:start position:0%
+call create and then you get the task
+for<00:11:41.360><c> your</c><00:11:41.560><c> agent</c><00:11:42.080><c> that</c><00:11:42.320><c> is</c><00:11:42.720><c> waiting</c><00:11:43.120><c> for</c>
+
+00:11:43.270 --> 00:11:43.280 align:start position:0%
+for your agent that is waiting for
+ 
+
+00:11:43.280 --> 00:11:45.070 align:start position:0%
+for your agent that is waiting for
+approval<00:11:43.680><c> from</c><00:11:43.840><c> the</c><00:11:44.000><c> user</c><00:11:44.320><c> and</c><00:11:44.440><c> will</c><00:11:44.640><c> execute</c>
+
+00:11:45.070 --> 00:11:45.080 align:start position:0%
+approval from the user and will execute
+ 
+
+00:11:45.080 --> 00:11:46.630 align:start position:0%
+approval from the user and will execute
+when<00:11:45.240><c> they</c><00:11:45.360><c> do</c><00:11:45.560><c> that.</c>
+
+00:11:46.630 --> 00:11:46.640 align:start position:0%
+when they do that.
+ 
+
+00:11:46.640 --> 00:11:48.750 align:start position:0%
+when they do that.
+Another<00:11:46.920><c> thing</c><00:11:47.120><c> that</c><00:11:47.320><c> is</c><00:11:47.760><c> supported</c><00:11:48.440><c> is</c><00:11:48.680><c> the</c>
+
+00:11:48.750 --> 00:11:48.760 align:start position:0%
+Another thing that is supported is the
+ 
+
+00:11:48.760 --> 00:11:51.270 align:start position:0%
+Another thing that is supported is the
+ability<00:11:49.160><c> to</c><00:11:49.360><c> add</c><00:11:50.040><c> attachments</c><00:11:50.640><c> to</c><00:11:50.760><c> your</c>
+
+00:11:51.270 --> 00:11:51.280 align:start position:0%
+ability to add attachments to your
+ 
+
+00:11:51.280 --> 00:11:53.030 align:start position:0%
+ability to add attachments to your
+messages.
+
+00:11:53.030 --> 00:11:53.040 align:start position:0%
+messages.
+ 
+
+00:11:53.040 --> 00:11:54.710 align:start position:0%
+messages.
+Attachments<00:11:53.520><c> can</c><00:11:53.680><c> be</c><00:11:53.800><c> for</c><00:11:53.960><c> example</c><00:11:54.360><c> PDF</c>
+
+00:11:54.710 --> 00:11:54.720 align:start position:0%
+Attachments can be for example PDF
+ 
+
+00:11:54.720 --> 00:11:57.310 align:start position:0%
+Attachments can be for example PDF
+documents<00:11:55.280><c> that</c><00:11:55.480><c> will</c><00:11:55.640><c> be</c><00:11:56.400><c> analyzed</c><00:11:57.040><c> by</c><00:11:57.160><c> the</c>
+
+00:11:57.310 --> 00:11:57.320 align:start position:0%
+documents that will be analyzed by the
+ 
+
+00:11:57.320 --> 00:11:59.110 align:start position:0%
+documents that will be analyzed by the
+agent<00:11:57.920><c> and</c>
+
+00:11:59.110 --> 00:11:59.120 align:start position:0%
+agent and
+ 
+
+00:11:59.120 --> 00:12:01.110 align:start position:0%
+agent and
+the<00:11:59.280><c> text</c><00:11:59.520><c> will</c><00:11:59.640><c> be</c><00:11:59.760><c> extracted.</c>
+
+00:12:01.110 --> 00:12:01.120 align:start position:0%
+the text will be extracted.
+ 
+
+00:12:01.120 --> 00:12:03.270 align:start position:0%
+the text will be extracted.
+You<00:12:01.240><c> do</c><00:12:01.400><c> that</c><00:12:01.600><c> very</c><00:12:01.840><c> similarly</c><00:12:02.680><c> through</c><00:12:02.960><c> the</c>
+
+00:12:03.270 --> 00:12:03.280 align:start position:0%
+You do that very similarly through the
+ 
+
+00:12:03.280 --> 00:12:05.310 align:start position:0%
+You do that very similarly through the
+message<00:12:03.640><c> builder</c><00:12:04.080><c> code</c><00:12:04.280><c> unit.</c><00:12:04.840><c> So</c><00:12:05.000><c> from</c><00:12:05.200><c> the</c>
+
+00:12:05.310 --> 00:12:05.320 align:start position:0%
+message builder code unit. So from the
+ 
+
+00:12:05.320 --> 00:12:07.430 align:start position:0%
+message builder code unit. So from the
+task<00:12:05.560><c> builder</c><00:12:05.960><c> before</c><00:12:06.280><c> you</c><00:12:06.400><c> create</c><00:12:06.760><c> it,</c><00:12:07.320><c> you</c>
+
+00:12:07.430 --> 00:12:07.440 align:start position:0%
+task builder before you create it, you
+ 
+
+00:12:07.440 --> 00:12:10.790 align:start position:0%
+task builder before you create it, you
+can<00:12:07.640><c> get</c><00:12:08.000><c> the</c><00:12:08.440><c> message</c><00:12:08.760><c> builder</c><00:12:09.640><c> and</c><00:12:10.000><c> insert</c>
+
+00:12:10.790 --> 00:12:10.800 align:start position:0%
+can get the message builder and insert
+ 
+
+00:12:10.800 --> 00:12:12.470 align:start position:0%
+can get the message builder and insert
+different<00:12:11.160><c> attachments</c><00:12:11.720><c> into</c><00:12:11.960><c> it</c><00:12:12.280><c> through</c>
+
+00:12:12.470 --> 00:12:12.480 align:start position:0%
+different attachments into it through
+ 
+
+00:12:12.480 --> 00:12:15.670 align:start position:0%
+different attachments into it through
+the<00:12:12.600><c> provided</c><00:12:13.680><c> method</c><00:12:14.080><c> add</c><00:12:14.240><c> attachment.</c>
+
+00:12:15.670 --> 00:12:15.680 align:start position:0%
+the provided method add attachment.
+ 
+
+00:12:15.680 --> 00:12:17.070 align:start position:0%
+the provided method add attachment.
+And<00:12:15.800><c> then</c><00:12:15.960><c> when</c><00:12:16.160><c> you</c><00:12:16.240><c> create</c><00:12:16.480><c> the</c><00:12:16.560><c> task,</c><00:12:16.920><c> these</c>
+
+00:12:17.070 --> 00:12:17.080 align:start position:0%
+And then when you create the task, these
+ 
+
+00:12:17.080 --> 00:12:20.910 align:start position:0%
+And then when you create the task, these
+attachments<00:12:17.560><c> will</c><00:12:17.720><c> be</c><00:12:17.840><c> included.</c>
+
+00:12:20.910 --> 00:12:20.920 align:start position:0%
+ 
+ 
+
+00:12:20.920 --> 00:12:23.070 align:start position:0%
+ 
+Another<00:12:21.200><c> thing</c><00:12:21.400><c> that</c><00:12:21.560><c> is</c><00:12:21.720><c> supported</c><00:12:22.280><c> is</c><00:12:22.880><c> as</c>
+
+00:12:23.070 --> 00:12:23.080 align:start position:0%
+Another thing that is supported is as
+ 
+
+00:12:23.080 --> 00:12:25.790 align:start position:0%
+Another thing that is supported is as
+mentioned<00:12:23.600><c> is</c><00:12:23.800><c> multi-turn</c><00:12:24.440><c> agents</c><00:12:25.120><c> where</c><00:12:25.640><c> you</c>
+
+00:12:25.790 --> 00:12:25.800 align:start position:0%
+mentioned is multi-turn agents where you
+ 
+
+00:12:25.800 --> 00:12:26.950 align:start position:0%
+mentioned is multi-turn agents where you
+can
+
+00:12:26.950 --> 00:12:26.960 align:start position:0%
+can
+ 
+
+00:12:26.960 --> 00:12:28.950 align:start position:0%
+can
+continue<00:12:27.400><c> a</c><00:12:27.440><c> discussion</c><00:12:27.920><c> with</c><00:12:28.040><c> an</c><00:12:28.160><c> agent.</c><00:12:28.760><c> So</c>
+
+00:12:28.950 --> 00:12:28.960 align:start position:0%
+continue a discussion with an agent. So
+ 
+
+00:12:28.960 --> 00:12:30.910 align:start position:0%
+continue a discussion with an agent. So
+when<00:12:29.120><c> it</c><00:12:29.280><c> finishes</c><00:12:29.760><c> and</c><00:12:30.200><c> sends</c><00:12:30.520><c> an</c><00:12:30.640><c> output</c>
+
+00:12:30.910 --> 00:12:30.920 align:start position:0%
+when it finishes and sends an output
+ 
+
+00:12:30.920 --> 00:12:33.110 align:start position:0%
+when it finishes and sends an output
+message,<00:12:31.280><c> for</c><00:12:31.400><c> example,</c><00:12:31.880><c> you</c><00:12:32.040><c> can</c>
+
+00:12:33.110 --> 00:12:33.120 align:start position:0%
+message, for example, you can
+ 
+
+00:12:33.120 --> 00:12:35.270 align:start position:0%
+message, for example, you can
+send<00:12:33.400><c> a</c><00:12:33.480><c> new</c><00:12:34.120><c> input</c><00:12:34.400><c> message</c><00:12:34.720><c> to</c><00:12:34.800><c> continue</c><00:12:35.200><c> the</c>
+
+00:12:35.270 --> 00:12:35.280 align:start position:0%
+send a new input message to continue the
+ 
+
+00:12:35.280 --> 00:12:37.790 align:start position:0%
+send a new input message to continue the
+discussion.<00:12:35.920><c> This</c><00:12:36.040><c> can</c><00:12:36.200><c> be</c><00:12:36.320><c> to</c><00:12:36.440><c> simulate</c>
+
+00:12:37.790 --> 00:12:37.800 align:start position:0%
+discussion. This can be to simulate
+ 
+
+00:12:37.800 --> 00:12:41.270 align:start position:0%
+discussion. This can be to simulate
+an<00:12:38.040><c> email</c><00:12:38.400><c> thread</c><00:12:38.760><c> or</c><00:12:38.920><c> some</c><00:12:39.200><c> other</c><00:12:39.440><c> continuous</c>
+
+00:12:41.270 --> 00:12:41.280 align:start position:0%
+an email thread or some other continuous
+ 
+
+00:12:41.280 --> 00:12:42.418 align:start position:0%
+an email thread or some other continuous
+discussion.
+
+00:12:42.418 --> 00:12:42.428 align:start position:0%
+discussion.
+ 
+
+00:12:42.428 --> 00:12:43.070 align:start position:0%
+discussion.
+&gt;&gt; [snorts]
+
+00:12:43.070 --> 00:12:43.080 align:start position:0%
+&gt;&gt; [snorts]
+ 
+
+00:12:43.080 --> 00:12:46.270 align:start position:0%
+&gt;&gt; [snorts]
+&gt;&gt; There<00:12:43.560><c> is</c><00:12:43.760><c> the</c><00:12:44.040><c> external</c><00:12:44.640><c> ID</c><00:12:45.560><c> field</c><00:12:46.160><c> on</c>
+
+00:12:46.270 --> 00:12:46.280 align:start position:0%
+&gt;&gt; There is the external ID field on
+ 
+
+00:12:46.280 --> 00:12:48.950 align:start position:0%
+&gt;&gt; There is the external ID field on
+messages<00:12:47.120><c> and</c><00:12:47.520><c> the</c><00:12:47.920><c> corresponding</c><00:12:48.480><c> method</c>
+
+00:12:48.950 --> 00:12:48.960 align:start position:0%
+messages and the corresponding method
+ 
+
+00:12:48.960 --> 00:12:50.750 align:start position:0%
+messages and the corresponding method
+which<00:12:49.120><c> allows</c><00:12:49.440><c> you</c><00:12:49.560><c> to</c><00:12:49.720><c> tie</c>
+
+00:12:50.750 --> 00:12:50.760 align:start position:0%
+which allows you to tie
+ 
+
+00:12:50.760 --> 00:12:53.190 align:start position:0%
+which allows you to tie
+messages<00:12:51.400><c> to</c><00:12:52.120><c> concepts</c><00:12:52.600><c> like</c><00:12:52.839><c> an</c><00:12:52.960><c> email</c>
+
+00:12:53.190 --> 00:12:53.200 align:start position:0%
+messages to concepts like an email
+ 
+
+00:12:53.200 --> 00:12:55.550 align:start position:0%
+messages to concepts like an email
+thread<00:12:53.720><c> so</c><00:12:53.880><c> that</c><00:12:54.080><c> you</c><00:12:54.200><c> can</c><00:12:54.800><c> find</c><00:12:55.160><c> them</c><00:12:55.400><c> and</c>
+
+00:12:55.550 --> 00:12:55.560 align:start position:0%
+thread so that you can find them and
+ 
+
+00:12:55.560 --> 00:12:57.910 align:start position:0%
+thread so that you can find them and
+continue<00:12:55.960><c> them.</c>
+
+00:12:57.910 --> 00:12:57.920 align:start position:0%
+continue them.
+ 
+
+00:12:57.920 --> 00:13:01.430 align:start position:0%
+continue them.
+So<00:12:58.480><c> how</c><00:12:58.680><c> do</c><00:12:58.880><c> I</c><00:12:59.760><c> trigger</c><00:13:00.000><c> your</c><00:13:00.120><c> tasks</c><00:13:01.040><c> after</c><00:13:01.360><c> I</c>
+
+00:13:01.430 --> 00:13:01.440 align:start position:0%
+So how do I trigger your tasks after I
+ 
+
+00:13:01.440 --> 00:13:03.150 align:start position:0%
+So how do I trigger your tasks after I
+have<00:13:01.760><c> created</c><00:13:02.120><c> the</c><00:13:02.200><c> code</c><00:13:02.440><c> for</c><00:13:02.600><c> it?</c><00:13:02.920><c> All</c><00:13:03.080><c> you</c>
+
+00:13:03.150 --> 00:13:03.160 align:start position:0%
+have created the code for it? All you
+ 
+
+00:13:03.160 --> 00:13:05.590 align:start position:0%
+have created the code for it? All you
+need<00:13:03.320><c> to</c><00:13:03.440><c> do</c><00:13:03.680><c> is</c><00:13:03.920><c> to</c><00:13:04.560><c> embed</c><00:13:04.920><c> it</c><00:13:05.080><c> inside</c><00:13:05.480><c> the</c>
+
+00:13:05.590 --> 00:13:05.600 align:start position:0%
+need to do is to embed it inside the
+ 
+
+00:13:05.600 --> 00:13:07.870 align:start position:0%
+need to do is to embed it inside the
+business<00:13:05.960><c> central</c><00:13:06.480><c> either</c><00:13:07.320><c> as</c><00:13:07.440><c> part</c><00:13:07.680><c> of</c><00:13:07.760><c> an</c>
+
+00:13:07.870 --> 00:13:07.880 align:start position:0%
+business central either as part of an
+ 
+
+00:13:07.880 --> 00:13:10.350 align:start position:0%
+business central either as part of an
+action<00:13:08.800><c> or</c><00:13:09.000><c> as</c><00:13:09.120><c> part</c><00:13:09.360><c> of</c><00:13:09.640><c> a</c><00:13:09.720><c> process</c><00:13:10.160><c> through</c>
+
+00:13:10.350 --> 00:13:10.360 align:start position:0%
+action or as part of a process through
+ 
+
+00:13:10.360 --> 00:13:13.030 align:start position:0%
+action or as part of a process through
+events<00:13:11.080><c> or</c><00:13:11.839><c> in</c><00:13:12.000><c> many</c><00:13:12.240><c> different</c><00:13:12.600><c> ways</c><00:13:12.880><c> that</c>
+
+00:13:13.030 --> 00:13:13.040 align:start position:0%
+events or in many different ways that
+ 
+
+00:13:13.040 --> 00:13:15.550 align:start position:0%
+events or in many different ways that
+you<00:13:13.160><c> can</c><00:13:13.640><c> try</c><00:13:14.200><c> through</c><00:13:14.480><c> the</c><00:13:15.040><c> through</c><00:13:15.240><c> coding</c>
+
+00:13:15.550 --> 00:13:15.560 align:start position:0%
+you can try through the through coding
+ 
+
+00:13:15.560 --> 00:13:16.950 align:start position:0%
+you can try through the through coding
+in<00:13:15.720><c> AL.</c>
+
+00:13:16.950 --> 00:13:16.960 align:start position:0%
+in AL.
+ 
+
+00:13:16.960 --> 00:13:18.710 align:start position:0%
+in AL.
+Here<00:13:17.240><c> we</c><00:13:17.360><c> have</c><00:13:17.520><c> an</c><00:13:17.600><c> example</c><00:13:18.040><c> where</c><00:13:18.520><c> we</c><00:13:18.640><c> are</c>
+
+00:13:18.710 --> 00:13:18.720 align:start position:0%
+Here we have an example where we are
+ 
+
+00:13:18.720 --> 00:13:20.510 align:start position:0%
+Here we have an example where we are
+doing<00:13:18.960><c> this</c><00:13:19.160><c> as</c><00:13:19.320><c> part</c><00:13:19.520><c> of</c><00:13:19.680><c> a</c><00:13:19.800><c> page</c><00:13:20.040><c> extension</c>
+
+00:13:20.510 --> 00:13:20.520 align:start position:0%
+doing this as part of a page extension
+ 
+
+00:13:20.520 --> 00:13:22.150 align:start position:0%
+doing this as part of a page extension
+and<00:13:20.680><c> we</c><00:13:20.800><c> are</c><00:13:20.960><c> adding</c><00:13:21.200><c> a</c><00:13:21.240><c> new</c><00:13:21.480><c> action</c><00:13:21.839><c> to</c><00:13:22.000><c> the</c>
+
+00:13:22.150 --> 00:13:22.160 align:start position:0%
+and we are adding a new action to the
+ 
+
+00:13:22.160 --> 00:13:23.910 align:start position:0%
+and we are adding a new action to the
+sales<00:13:22.440><c> order</c><00:13:22.680><c> list.</c>
+
+00:13:23.910 --> 00:13:23.920 align:start position:0%
+sales order list.
+ 
+
+00:13:23.920 --> 00:13:25.750 align:start position:0%
+sales order list.
+Again,<00:13:24.480><c> like</c><00:13:24.760><c> with</c><00:13:24.960><c> agents,</c><00:13:25.360><c> you</c><00:13:25.440><c> can</c><00:13:25.560><c> also</c>
+
+00:13:25.750 --> 00:13:25.760 align:start position:0%
+Again, like with agents, you can also
+ 
+
+00:13:25.760 --> 00:13:28.030 align:start position:0%
+Again, like with agents, you can also
+manage<00:13:26.120><c> tasks</c><00:13:26.680><c> through</c><00:13:26.920><c> the</c><00:13:27.200><c> agent</c><00:13:27.600><c> task</c><00:13:27.840><c> code</c>
+
+00:13:28.030 --> 00:13:28.040 align:start position:0%
+manage tasks through the agent task code
+ 
+
+00:13:28.040 --> 00:13:29.710 align:start position:0%
+manage tasks through the agent task code
+unit,<00:13:28.360><c> which</c><00:13:28.560><c> allows</c><00:13:28.880><c> you</c><00:13:29.000><c> to,</c><00:13:29.240><c> for</c><00:13:29.360><c> example,</c>
+
+00:13:29.710 --> 00:13:29.720 align:start position:0%
+unit, which allows you to, for example,
+ 
+
+00:13:29.720 --> 00:13:31.790 align:start position:0%
+unit, which allows you to, for example,
+stop<00:13:30.000><c> tasks</c><00:13:30.400><c> or</c><00:13:30.520><c> restart</c><00:13:30.960><c> them,</c>
+
+00:13:31.790 --> 00:13:31.800 align:start position:0%
+stop tasks or restart them,
+ 
+
+00:13:31.800 --> 00:13:34.070 align:start position:0%
+stop tasks or restart them,
+and<00:13:31.960><c> a</c><00:13:32.000><c> few</c><00:13:32.200><c> other</c><00:13:32.440><c> things.</c>
+
+00:13:34.070 --> 00:13:34.080 align:start position:0%
+and a few other things.
+ 
+
+00:13:34.080 --> 00:13:36.630 align:start position:0%
+and a few other things.
+There<00:13:34.280><c> are</c><00:13:34.360><c> a</c><00:13:34.400><c> few</c><00:13:34.600><c> different</c><00:13:34.960><c> ways</c><00:13:35.360><c> to</c><00:13:36.280><c> get</c>
+
+00:13:36.630 --> 00:13:36.640 align:start position:0%
+There are a few different ways to get
+ 
+
+00:13:36.640 --> 00:13:39.750 align:start position:0%
+There are a few different ways to get
+the<00:13:37.400><c> result</c><00:13:37.840><c> of</c><00:13:37.960><c> a</c><00:13:38.000><c> task.</c><00:13:38.720><c> One</c><00:13:38.960><c> of</c><00:13:39.040><c> them</c><00:13:39.320><c> is</c><00:13:39.520><c> to</c>
+
+00:13:39.750 --> 00:13:39.760 align:start position:0%
+the result of a task. One of them is to
+ 
+
+00:13:39.760 --> 00:13:42.510 align:start position:0%
+the result of a task. One of them is to
+wait<00:13:39.960><c> for</c><00:13:40.120><c> the</c><00:13:40.240><c> task</c><00:13:40.720><c> via</c><00:13:40.960><c> polling,</c>
+
+00:13:42.510 --> 00:13:42.520 align:start position:0%
+wait for the task via polling,
+ 
+
+00:13:42.520 --> 00:13:45.590 align:start position:0%
+wait for the task via polling,
+and<00:13:43.560><c> you</c><00:13:43.720><c> can</c><00:13:43.880><c> do</c><00:13:44.000><c> that</c><00:13:44.240><c> through</c><00:13:44.480><c> the</c><00:13:45.200><c> agent</c>
+
+00:13:45.590 --> 00:13:45.600 align:start position:0%
+and you can do that through the agent
+ 
+
+00:13:45.600 --> 00:13:47.910 align:start position:0%
+and you can do that through the agent
+task<00:13:46.280><c> record.</c>
+
+00:13:47.910 --> 00:13:47.920 align:start position:0%
+task record.
+ 
+
+00:13:47.920 --> 00:13:49.910 align:start position:0%
+task record.
+Through<00:13:48.480><c> the</c><00:13:48.600><c> record,</c>
+
+00:13:49.910 --> 00:13:49.920 align:start position:0%
+Through the record,
+ 
+
+00:13:49.920 --> 00:13:51.710 align:start position:0%
+Through the record,
+you<00:13:50.080><c> have</c><00:13:50.240><c> the</c><00:13:50.360><c> status</c><00:13:50.760><c> field,</c><00:13:51.200><c> which</c><00:13:51.400><c> you</c><00:13:51.480><c> can</c>
+
+00:13:51.710 --> 00:13:51.720 align:start position:0%
+you have the status field, which you can
+ 
+
+00:13:51.720 --> 00:13:55.790 align:start position:0%
+you have the status field, which you can
+use<00:13:52.520><c> to</c><00:13:53.200><c> see</c><00:13:53.520><c> in</c><00:13:53.720><c> what</c><00:13:54.240><c> kind</c><00:13:54.440><c> of</c><00:13:54.560><c> state</c><00:13:55.160><c> the</c>
+
+00:13:55.790 --> 00:13:55.800 align:start position:0%
+use to see in what kind of state the
+ 
+
+00:13:55.800 --> 00:13:57.390 align:start position:0%
+use to see in what kind of state the
+task<00:13:56.080><c> is</c><00:13:56.200><c> in,</c><00:13:56.640><c> if</c><00:13:56.800><c> it</c><00:13:56.880><c> is,</c><00:13:57.000><c> for</c><00:13:57.120><c> example,</c>
+
+00:13:57.390 --> 00:13:57.400 align:start position:0%
+task is in, if it is, for example,
+ 
+
+00:13:57.400 --> 00:13:59.230 align:start position:0%
+task is in, if it is, for example,
+completed<00:13:58.080><c> or</c><00:13:58.240><c> stopped</c><00:13:58.600><c> by</c><00:13:58.720><c> the</c><00:13:58.840><c> system</c>
+
+00:13:59.230 --> 00:13:59.240 align:start position:0%
+completed or stopped by the system
+ 
+
+00:13:59.240 --> 00:14:02.110 align:start position:0%
+completed or stopped by the system
+because<00:14:00.040><c> something</c><00:14:00.560><c> occurred.</c>
+
+00:14:02.110 --> 00:14:02.120 align:start position:0%
+because something occurred.
+ 
+
+00:14:02.120 --> 00:14:04.590 align:start position:0%
+because something occurred.
+And<00:14:02.640><c> then</c><00:14:02.840><c> you</c><00:14:02.960><c> can</c><00:14:03.120><c> continue</c><00:14:03.600><c> and</c><00:14:04.160><c> query</c><00:14:04.440><c> into</c>
+
+00:14:04.590 --> 00:14:04.600 align:start position:0%
+And then you can continue and query into
+ 
+
+00:14:04.600 --> 00:14:06.750 align:start position:0%
+And then you can continue and query into
+Business<00:14:04.920><c> Central</c><00:14:05.200><c> to</c><00:14:05.280><c> get</c><00:14:05.440><c> its</c><00:14:05.600><c> result.</c><00:14:06.560><c> This</c>
+
+00:14:06.750 --> 00:14:06.760 align:start position:0%
+Business Central to get its result. This
+ 
+
+00:14:06.760 --> 00:14:09.430 align:start position:0%
+Business Central to get its result. This
+is<00:14:06.880><c> good</c><00:14:07.120><c> for</c><00:14:07.360><c> unit</c><00:14:07.680><c> testing</c><00:14:08.240><c> or</c><00:14:08.960><c> these</c><00:14:09.120><c> kinds</c>
+
+00:14:09.430 --> 00:14:09.440 align:start position:0%
+is good for unit testing or these kinds
+ 
+
+00:14:09.440 --> 00:14:12.030 align:start position:0%
+is good for unit testing or these kinds
+of<00:14:09.920><c> non-production-ready</c>
+
+00:14:12.030 --> 00:14:12.040 align:start position:0%
+of non-production-ready
+ 
+
+00:14:12.040 --> 00:14:13.470 align:start position:0%
+of non-production-ready
+scenarios.
+
+00:14:13.470 --> 00:14:13.480 align:start position:0%
+scenarios.
+ 
+
+00:14:13.480 --> 00:14:14.790 align:start position:0%
+scenarios.
+The<00:14:13.560><c> other</c><00:14:13.680><c> thing</c><00:14:13.840><c> you</c><00:14:13.960><c> can</c><00:14:14.120><c> do</c><00:14:14.280><c> is</c><00:14:14.520><c> you</c><00:14:14.640><c> can</c>
+
+00:14:14.790 --> 00:14:14.800 align:start position:0%
+The other thing you can do is you can
+ 
+
+00:14:14.800 --> 00:14:17.550 align:start position:0%
+The other thing you can do is you can
+create<00:14:15.080><c> events</c><00:14:15.840><c> that</c><00:14:16.040><c> will</c><00:14:16.200><c> only</c><00:14:16.440><c> fire</c><00:14:16.960><c> if</c><00:14:17.200><c> the</c>
+
+00:14:17.550 --> 00:14:17.560 align:start position:0%
+create events that will only fire if the
+ 
+
+00:14:17.560 --> 00:14:19.070 align:start position:0%
+create events that will only fire if the
+session<00:14:17.960><c> is</c>
+
+00:14:19.070 --> 00:14:19.080 align:start position:0%
+session is
+ 
+
+00:14:19.080 --> 00:14:20.990 align:start position:0%
+session is
+is<00:14:19.240><c> an</c><00:14:19.400><c> agent</c><00:14:19.720><c> session.</c>
+
+00:14:20.990 --> 00:14:21.000 align:start position:0%
+is an agent session.
+ 
+
+00:14:21.000 --> 00:14:22.470 align:start position:0%
+is an agent session.
+This<00:14:21.200><c> way</c><00:14:21.400><c> you</c><00:14:21.560><c> can</c>
+
+00:14:22.470 --> 00:14:22.480 align:start position:0%
+This way you can
+ 
+
+00:14:22.480 --> 00:14:24.310 align:start position:0%
+This way you can
+have<00:14:22.720><c> code</c><00:14:23.040><c> be</c><00:14:23.160><c> triggered</c><00:14:23.640><c> after</c><00:14:23.880><c> the</c><00:14:24.040><c> agent,</c>
+
+00:14:24.310 --> 00:14:24.320 align:start position:0%
+have code be triggered after the agent,
+ 
+
+00:14:24.320 --> 00:14:26.630 align:start position:0%
+have code be triggered after the agent,
+for<00:14:24.440><c> example,</c><00:14:24.840><c> does</c><00:14:25.040><c> an</c><00:14:25.160><c> action</c><00:14:25.520><c> in</c><00:14:25.640><c> the</c><00:14:25.720><c> UI.</c>
+
+00:14:26.630 --> 00:14:26.640 align:start position:0%
+for example, does an action in the UI.
+ 
+
+00:14:26.640 --> 00:14:29.070 align:start position:0%
+for example, does an action in the UI.
+The<00:14:26.760><c> agent</c><00:14:27.080><c> session</c><00:14:27.400><c> code</c><00:14:27.600><c> unit</c><00:14:28.200><c> provides</c><00:14:28.680><c> you</c>
+
+00:14:29.070 --> 00:14:29.080 align:start position:0%
+The agent session code unit provides you
+ 
+
+00:14:29.080 --> 00:14:31.030 align:start position:0%
+The agent session code unit provides you
+the<00:14:29.400><c> is</c><00:14:29.600><c> agent</c><00:14:29.920><c> session</c>
+
+00:14:31.030 --> 00:14:31.040 align:start position:0%
+the is agent session
+ 
+
+00:14:31.040 --> 00:14:33.870 align:start position:0%
+the is agent session
+procedure,<00:14:32.360><c> which</c><00:14:32.640><c> lets</c><00:14:32.960><c> you</c>
+
+00:14:33.870 --> 00:14:33.880 align:start position:0%
+procedure, which lets you
+ 
+
+00:14:33.880 --> 00:14:35.590 align:start position:0%
+procedure, which lets you
+do<00:14:34.040><c> exactly</c><00:14:34.480><c> this.</c>
+
+00:14:35.590 --> 00:14:35.600 align:start position:0%
+do exactly this.
+ 
+
+00:14:35.600 --> 00:14:38.030 align:start position:0%
+do exactly this.
+You<00:14:35.720><c> can</c><00:14:35.880><c> also</c><00:14:36.160><c> use</c><00:14:36.560><c> the</c><00:14:36.839><c> user</c><00:14:37.200><c> ID</c><00:14:37.440><c> if</c><00:14:37.560><c> you</c><00:14:37.680><c> want</c>
+
+00:14:38.030 --> 00:14:38.040 align:start position:0%
+You can also use the user ID if you want
+ 
+
+00:14:38.040 --> 00:14:39.590 align:start position:0%
+You can also use the user ID if you want
+to
+
+00:14:39.590 --> 00:14:39.600 align:start position:0%
+to
+ 
+
+00:14:39.600 --> 00:14:44.630 align:start position:0%
+to
+add<00:14:39.839><c> events</c><00:14:40.360><c> only</c><00:14:40.640><c> for</c><00:14:40.760><c> specific</c><00:14:41.240><c> instances.</c>
+
+00:14:44.630 --> 00:14:44.640 align:start position:0%
+ 
+ 
+
+00:14:44.640 --> 00:14:47.150 align:start position:0%
+ 
+The<00:14:44.760><c> final</c><00:14:45.080><c> topic</c><00:14:45.960><c> that</c><00:14:46.480><c> we</c><00:14:46.640><c> will</c><00:14:46.760><c> talk</c><00:14:46.920><c> about</c>
+
+00:14:47.150 --> 00:14:47.160 align:start position:0%
+The final topic that we will talk about
+ 
+
+00:14:47.160 --> 00:14:49.470 align:start position:0%
+The final topic that we will talk about
+today<00:14:47.600><c> is</c><00:14:47.880><c> about</c><00:14:48.360><c> exposing</c><00:14:48.880><c> your</c><00:14:49.080><c> agent</c><00:14:49.400><c> to</c>
+
+00:14:49.470 --> 00:14:49.480 align:start position:0%
+today is about exposing your agent to
+ 
+
+00:14:49.480 --> 00:14:50.800 align:start position:0%
+today is about exposing your agent to
+other<00:14:49.760><c> apps.</c>
+
+00:14:50.800 --> 00:14:50.810 align:start position:0%
+other apps.
+ 
+
+00:14:50.810 --> 00:14:51.550 align:start position:0%
+other apps.
+&gt;&gt; [snorts]
+
+00:14:51.550 --> 00:14:51.560 align:start position:0%
+&gt;&gt; [snorts]
+ 
+
+00:14:51.560 --> 00:14:55.070 align:start position:0%
+&gt;&gt; [snorts]
+&gt;&gt; By<00:14:51.720><c> default,</c><00:14:52.520><c> the</c><00:14:53.040><c> AL</c><00:14:53.360><c> API</c><00:14:54.440><c> only</c><00:14:54.640><c> supports</c>
+
+00:14:55.070 --> 00:14:55.080 align:start position:0%
+&gt;&gt; By default, the AL API only supports
+ 
+
+00:14:55.080 --> 00:14:56.710 align:start position:0%
+&gt;&gt; By default, the AL API only supports
+interacting<00:14:55.560><c> with</c><00:14:55.720><c> agents</c><00:14:56.040><c> defined</c><00:14:56.440><c> in</c><00:14:56.560><c> your</c>
+
+00:14:56.710 --> 00:14:56.720 align:start position:0%
+interacting with agents defined in your
+ 
+
+00:14:56.720 --> 00:14:58.670 align:start position:0%
+interacting with agents defined in your
+own<00:14:56.960><c> app.</c><00:14:57.360><c> This</c><00:14:57.520><c> is</c><00:14:57.640><c> for</c><00:14:57.800><c> security</c><00:14:58.240><c> reasons,</c>
+
+00:14:58.670 --> 00:14:58.680 align:start position:0%
+own app. This is for security reasons,
+ 
+
+00:14:58.680 --> 00:14:59.750 align:start position:0%
+own app. This is for security reasons,
+so<00:14:58.800><c> that</c>
+
+00:14:59.750 --> 00:14:59.760 align:start position:0%
+so that
+ 
+
+00:14:59.760 --> 00:15:01.350 align:start position:0%
+so that
+different<00:15:00.120><c> agents</c><00:15:00.480><c> don't</c><00:15:00.720><c> interfere</c><00:15:01.160><c> with</c>
+
+00:15:01.350 --> 00:15:01.360 align:start position:0%
+different agents don't interfere with
+ 
+
+00:15:01.360 --> 00:15:02.590 align:start position:0%
+different agents don't interfere with
+each<00:15:01.520><c> other.</c>
+
+00:15:02.590 --> 00:15:02.600 align:start position:0%
+each other.
+ 
+
+00:15:02.600 --> 00:15:04.790 align:start position:0%
+each other.
+But<00:15:02.920><c> it</c><00:15:03.080><c> is</c><00:15:03.200><c> possible</c><00:15:03.720><c> to</c><00:15:04.080><c> also</c><00:15:04.320><c> expose</c><00:15:04.640><c> your</c>
+
+00:15:04.790 --> 00:15:04.800 align:start position:0%
+But it is possible to also expose your
+ 
+
+00:15:04.800 --> 00:15:07.670 align:start position:0%
+But it is possible to also expose your
+agents<00:15:05.160><c> to</c><00:15:05.240><c> other</c><00:15:05.480><c> apps</c><00:15:05.839><c> by</c><00:15:06.000><c> creating</c><00:15:06.680><c> an</c><00:15:06.960><c> API</c>
+
+00:15:07.670 --> 00:15:07.680 align:start position:0%
+agents to other apps by creating an API
+ 
+
+00:15:07.680 --> 00:15:10.190 align:start position:0%
+agents to other apps by creating an API
+for<00:15:07.880><c> your</c><00:15:08.280><c> app.</c><00:15:08.920><c> So,</c><00:15:09.080><c> what</c><00:15:09.240><c> you</c><00:15:09.320><c> need</c><00:15:09.520><c> to</c><00:15:09.600><c> do</c><00:15:09.800><c> is</c>
+
+00:15:10.190 --> 00:15:10.200 align:start position:0%
+for your app. So, what you need to do is
+ 
+
+00:15:10.200 --> 00:15:12.950 align:start position:0%
+for your app. So, what you need to do is
+that<00:15:10.400><c> you</c><00:15:10.480><c> need</c><00:15:10.880><c> inside</c><00:15:11.280><c> your</c><00:15:11.480><c> app</c><00:15:11.640><c> to</c><00:15:11.760><c> create</c>
+
+00:15:12.950 --> 00:15:12.960 align:start position:0%
+that you need inside your app to create
+ 
+
+00:15:12.960 --> 00:15:14.870 align:start position:0%
+that you need inside your app to create
+public<00:15:13.280><c> functions</c><00:15:13.839><c> that</c>
+
+00:15:14.870 --> 00:15:14.880 align:start position:0%
+public functions that
+ 
+
+00:15:14.880 --> 00:15:17.110 align:start position:0%
+public functions that
+other<00:15:15.160><c> apps</c><00:15:15.360><c> can</c><00:15:15.520><c> call.</c><00:15:16.160><c> Like,</c><00:15:16.520><c> for</c><00:15:16.640><c> example,</c>
+
+00:15:17.110 --> 00:15:17.120 align:start position:0%
+other apps can call. Like, for example,
+ 
+
+00:15:17.120 --> 00:15:19.350 align:start position:0%
+other apps can call. Like, for example,
+you<00:15:17.240><c> can</c><00:15:17.440><c> see</c><00:15:17.560><c> the</c><00:15:17.720><c> deactivate</c><00:15:18.240><c> function,</c>
+
+00:15:19.350 --> 00:15:19.360 align:start position:0%
+you can see the deactivate function,
+ 
+
+00:15:19.360 --> 00:15:21.390 align:start position:0%
+you can see the deactivate function,
+which<00:15:19.600><c> by</c><00:15:19.680><c> default</c><00:15:20.040><c> would</c><00:15:20.160><c> be</c><00:15:20.280><c> blocked,</c>
+
+00:15:21.390 --> 00:15:21.400 align:start position:0%
+which by default would be blocked,
+ 
+
+00:15:21.400 --> 00:15:23.510 align:start position:0%
+which by default would be blocked,
+but<00:15:21.560><c> because</c><00:15:21.920><c> we</c><00:15:22.040><c> are</c><00:15:22.120><c> exposing</c><00:15:22.600><c> it</c>
+
+00:15:23.510 --> 00:15:23.520 align:start position:0%
+but because we are exposing it
+ 
+
+00:15:23.520 --> 00:15:24.830 align:start position:0%
+but because we are exposing it
+as<00:15:24.040><c> um</c>
+
+00:15:24.830 --> 00:15:24.840 align:start position:0%
+as um
+ 
+
+00:15:24.840 --> 00:15:27.070 align:start position:0%
+as um
+public<00:15:25.200><c> method</c><00:15:25.560><c> on</c><00:15:25.720><c> our</c><00:15:25.920><c> code</c><00:15:26.160><c> unit</c><00:15:26.600><c> my</c><00:15:26.800><c> agent</c>
+
+00:15:27.070 --> 00:15:27.080 align:start position:0%
+public method on our code unit my agent
+ 
+
+00:15:27.080 --> 00:15:29.270 align:start position:0%
+public method on our code unit my agent
+public<00:15:27.400><c> API,</c><00:15:28.200><c> it</c><00:15:28.320><c> can</c><00:15:28.480><c> be</c><00:15:28.600><c> called</c><00:15:28.840><c> by</c><00:15:29.040><c> other</c>
+
+00:15:29.270 --> 00:15:29.280 align:start position:0%
+public API, it can be called by other
+ 
+
+00:15:29.280 --> 00:15:31.350 align:start position:0%
+public API, it can be called by other
+apps.<00:15:29.880><c> So,</c><00:15:30.040><c> this</c><00:15:30.280><c> way</c><00:15:30.560><c> you</c><00:15:30.720><c> can</c><00:15:30.960><c> expose</c>
+
+00:15:31.350 --> 00:15:31.360 align:start position:0%
+apps. So, this way you can expose
+ 
+
+00:15:31.360 --> 00:15:32.510 align:start position:0%
+apps. So, this way you can expose
+everything
+
+00:15:32.510 --> 00:15:32.520 align:start position:0%
+everything
+ 
+
+00:15:32.520 --> 00:15:34.590 align:start position:0%
+everything
+inside<00:15:32.880><c> your</c><00:15:33.040><c> app</c><00:15:33.280><c> to</c>
+
+00:15:34.590 --> 00:15:34.600 align:start position:0%
+inside your app to
+ 
+
+00:15:34.600 --> 00:15:38.310 align:start position:0%
+inside your app to
+to<00:15:34.720><c> be</c><00:15:34.880><c> used</c><00:15:35.200><c> by</c><00:15:35.440><c> external</c><00:15:36.440><c> um</c><00:15:36.800><c> consumers.</c>
+
+00:15:38.310 --> 00:15:38.320 align:start position:0%
+to be used by external um consumers.
+ 
+
+00:15:38.320 --> 00:15:39.910 align:start position:0%
+to be used by external um consumers.
+You<00:15:38.480><c> can</c><00:15:38.640><c> find</c><00:15:38.880><c> everything</c><00:15:39.600><c> that</c><00:15:39.800><c> was</c>
+
+00:15:39.910 --> 00:15:39.920 align:start position:0%
+You can find everything that was
+ 
+
+00:15:39.920 --> 00:15:41.470 align:start position:0%
+You can find everything that was
+discussed<00:15:40.280><c> today</c><00:15:40.480><c> in</c><00:15:40.560><c> our</c><00:15:40.680><c> documentation</c>
+
+00:15:41.470 --> 00:15:41.480 align:start position:0%
+discussed today in our documentation
+ 
+
+00:15:41.480 --> 00:15:44.750 align:start position:0%
+discussed today in our documentation
+about<00:15:42.000><c> coding</c><00:15:42.320><c> agents</c><00:15:42.680><c> in</c><00:15:42.840><c> AL.</c>
+
+00:15:44.750 --> 00:15:44.760 align:start position:0%
+about coding agents in AL.
+ 
+
+00:15:44.760 --> 00:15:46.670 align:start position:0%
+about coding agents in AL.
+Thank<00:15:44.920><c> you</c><00:15:45.000><c> very</c><00:15:45.160><c> much</c><00:15:45.400><c> for</c><00:15:45.520><c> your</c><00:15:45.680><c> time,</c><00:15:46.240><c> and</c>
+
+00:15:46.670 --> 00:15:46.680 align:start position:0%
+Thank you very much for your time, and
+ 
+
+00:15:46.680 --> 00:15:50.680 align:start position:0%
+Thank you very much for your time, and
+have<00:15:46.920><c> fun</c><00:15:47.480><c> coding</c><00:15:47.880><c> agents</c><00:15:48.240><c> in</c><00:15:48.360><c> AL.</c>
+

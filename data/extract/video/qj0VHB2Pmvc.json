@@ -1,0 +1,313 @@
+{
+  "video_id": "qj0VHB2Pmvc",
+  "item_id": "video/yt-microsoft/qj0VHB2Pmvc",
+  "title": "What's new: Enhanced Financial Reporting (2026 release wave 2)",
+  "duration_s": 554,
+  "systems": [
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "financial reporting",
+    "chart of accounts",
+    "account categories",
+    "row definitions",
+    "column definitions",
+    "report packs",
+    "scheduling",
+    "change log",
+    "auditing",
+    "api"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and feature categories",
+      "t_start": 0,
+      "t_end": 17.7
+    },
+    {
+      "title": "Author features - Discovering uncategorized accounts",
+      "t_start": 17.7,
+      "t_end": 112.4
+    },
+    {
+      "title": "Author features - Account usage and filter transparency",
+      "t_start": 112.4,
+      "t_end": 235.7
+    },
+    {
+      "title": "Author features - Preview and defaulting capabilities",
+      "t_start": 235.7,
+      "t_end": 317.8
+    },
+    {
+      "title": "User features - Report packs and scheduling",
+      "t_start": 317.8,
+      "t_end": 413.1
+    },
+    {
+      "title": "Administrator features - Change log and auditing",
+      "t_start": 413.1,
+      "t_end": 472.8
+    },
+    {
+      "title": "Administrator features - Report inbox APIs",
+      "t_start": 472.8,
+      "t_end": 525.4
+    },
+    {
+      "title": "Closing and resources",
+      "t_start": 525.4,
+      "t_end": 554
+    }
+  ],
+  "features": [
+    {
+      "name": "Uncategorized accounts views",
+      "description": "Two new saved views added to the chart of accounts page to help authors discover GL accounts that lack categorization or have missing subcategories, making it easier to ensure all accounts are properly categorized.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 73,
+      "t_end": 112.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "chart of accounts",
+        "account categories",
+        "discovery"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Where used for GL accounts",
+      "description": "The where used action on the account card now includes data from which financial report definitions would include that account, allowing authors to track account usage in reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 123.1,
+      "t_end": 147.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "account tracking",
+        "report definitions"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Totaling line account visibility in row definitions",
+      "description": "A new fact box on row definitions shows which accounts are covered by a totaling line filter, and allows navigation directly to the GL account list for further investigation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 161.2,
+      "t_end": 191.2,
+      "is_demoed": true,
+      "caveats": [
+        "Helps troubleshoot complex totaling formulas"
+      ],
+      "tags": [
+        "row definitions",
+        "filtering",
+        "troubleshooting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Totaling field account visibility in column definitions",
+      "description": "Column definitions with GL account totaling filters now also include a fact box showing which accounts the totaling filter includes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 203.7,
+      "t_end": 223.7,
+      "is_demoed": true,
+      "caveats": [
+        "GL account totaling on columns is not commonly used"
+      ],
+      "tags": [
+        "column definitions",
+        "filtering"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Preview capability for row and column definitions",
+      "description": "Authors can set a default column definition when working on a row definition and vice versa, with a test button to preview the full report without leaving the definition page.",
+      "status": "announced",
+      "status_evidence_t": 235.7,
+      "status_evidence_quote": "The first is that you can preview the so if you're working on a row or a column definition, you can set the corresponding",
+      "status_evidence_verified": true,
+      "t_start": 247.3,
+      "t_end": 276.3,
+      "is_demoed": true,
+      "caveats": [
+        "Coming in a minor version of 29"
+      ],
+      "tags": [
+        "row definitions",
+        "column definitions",
+        "preview",
+        "testing"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Defaulting for row and column definition lines",
+      "description": "When adding lines of the same type in row or column definitions, the system now defaults to the previously used settings, making data entry easier.",
+      "status": "announced",
+      "status_evidence_t": 287.2,
+      "status_evidence_quote": "Also coming in a minor to 29 is defaulting. So if you work on a row or column definition and add the lines of",
+      "status_evidence_verified": true,
+      "t_start": 287.2,
+      "t_end": 301.5,
+      "is_demoed": true,
+      "caveats": [
+        "Coming in a minor version of 29"
+      ],
+      "tags": [
+        "row definitions",
+        "column definitions",
+        "data entry"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report packs",
+      "description": "Users can now create report packages that run multiple reports in one operation and produce a single consolidated PDF. Packages support custom filters per report and start/end date filters, and can be scheduled.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 328,
+      "t_end": 405,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "report packaging",
+        "scheduling",
+        "pdf generation"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Change log for financial report definitions",
+      "description": "Change log is now automatically set up on all financial report definitions, enabling automatic auditing of changes to financial reports, row definitions, and column definitions without manual configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 413.1,
+      "t_end": 443.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "auditing",
+        "change tracking",
+        "compliance"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report inbox APIs",
+      "description": "New APIs for report inbox operations allow external systems to interact with scheduled reports, enabling automation such as triggering other workflows or using AI to analyze report output.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 472.8,
+      "t_end": 515.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "api",
+        "integration",
+        "automation"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Kenny",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 6.1,
+      "text": "We have three types of features to show you. Features for authors, for users, and for administrators.",
+      "why_it_matters": "Establishes the structure of the release and its scope across three stakeholder groups.",
+      "check": "exact"
+    },
+    {
+      "t": 45.2,
+      "text": "if you use account categories, which you should, in my opinion, both to make your financial reporting definitions easier, also if you're using Power",
+      "why_it_matters": "Emphasizes account categories as a foundational practice affecting both financial reporting and Power BI integration.",
+      "check": "exact"
+    },
+    {
+      "t": 235.7,
+      "text": "in here in the fall there will be some other goodies. The first is that you can preview",
+      "why_it_matters": "Signals that preview and defaulting features are coming in a future minor version rather than in the current major release.",
+      "check": "exact"
+    },
+    {
+      "t": 328,
+      "text": "you can now run multiple reports in one go and get a single PDF.",
+      "why_it_matters": "Core capability statement for the new report packs feature that enables batch reporting.",
+      "check": "exact"
+    },
+    {
+      "t": 390.8,
+      "text": "the idea is that maybe each Friday for the team meeting in the finance team, there's going to be a pack of reports, and",
+      "why_it_matters": "Illustrates the practical use case of report pack scheduling for recurring financial reporting needs.",
+      "check": "exact"
+    },
+    {
+      "t": 413.1,
+      "text": "we now uh simply set up change log on all financial report definitions, not the actual uh log tables, but everything else.",
+      "why_it_matters": "Clarifies the scope of automatic change log setup - on definitions but not on the underlying log tables themselves.",
+      "check": "exact"
+    },
+    {
+      "t": 497,
+      "text": "maybe you want to kick off some other automation. Maybe you want to use some AI to analyze the report output something and that",
+      "why_it_matters": "Describes the integration and automation possibilities enabled by the new report inbox APIs.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 235.7,
+      "kind": "coming-later",
+      "text": "in here in the fall there will be some other goodies. The first is that you can preview"
+    },
+    {
+      "t": 287.2,
+      "kind": "coming-later",
+      "text": "Also coming in a minor to 29 is defaulting"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.034305
+    }
+  ]
+}

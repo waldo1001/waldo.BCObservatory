@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-set-up-excise-tax.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-set-up-excise-tax",
+  "title": "Set up excise tax",
+  "blob": "52f26b050db6a36b2eb1c0778a3129c14bb584d5",
+  "summary": "Excise tax setup configures tax types with basis measures, duty rates, and assigns them to items and fixed assets for calculation during document posting.",
+  "systems": [
+    "finance",
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "excise tax",
+    "tax setup",
+    "tax rates",
+    "item configuration"
+  ],
+  "objects": [],
+  "features": [
+    "Excise tax type configuration",
+    "Tax basis definition (weight, volume, quantity)",
+    "Excise duty rates",
+    "Item excise tax assignment",
+    "Fixed asset excise tax assignment",
+    "Journal batch setup",
+    "Number series configuration"
+  ],
+  "versions": [
+    "version 29"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007148,
+      "pages_in_call": 8
+    }
+  ]
+}

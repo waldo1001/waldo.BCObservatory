@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-register-new-vendors",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d763642cca73ee7178811aecf826650715c3341a",
       "words": 1161,
       "forms": 12
+    },
+    "extracted": {
+      "at": "2026-10-06T13:54:44.436Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.005231
+    },
+    "summarized": {
+      "at": "2026-10-06T13:54:44.438Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:54:44.438Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:54:44.439Z",
+      "page": false
     }
   },
   "input_hash": "d763642cca73ee7178811aecf826650715c3341a",
@@ -107,5 +126,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d763642cca73ee7178811aecf826650715c3341a"
+  "output_hash": "9fdb8f49685bdce4a802c6a9713f352179effa61f0791428b90418b0e852b444"
 }

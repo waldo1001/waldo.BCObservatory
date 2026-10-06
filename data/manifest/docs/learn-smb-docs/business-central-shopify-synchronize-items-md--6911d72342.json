@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/synchronize-items",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b7be656e5c87dc0f5940928da1efbbe9364dcced",
       "words": 5758,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T13:59:13.075Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.035295
+    },
+    "summarized": {
+      "at": "2026-10-06T13:59:13.081Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:59:13.081Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:59:13.081Z",
+      "page": false
     }
   },
   "input_hash": "b7be656e5c87dc0f5940928da1efbbe9364dcced",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b7be656e5c87dc0f5940928da1efbbe9364dcced"
+  "output_hash": "1317c5fff25ed6e204e65baaf8f76b0e3a377f563001c10b80f8ba01b8694061"
 }

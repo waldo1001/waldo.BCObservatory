@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-withholding-tax-employees",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e2daf87f20baa31e6fb52425a9ef4577dc1fddad",
       "words": 809,
       "forms": 8
+    },
+    "extracted": {
+      "at": "2026-10-06T13:48:42.819Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007148
+    },
+    "summarized": {
+      "at": "2026-10-06T13:48:42.824Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:48:42.825Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:48:42.825Z",
+      "page": false
     }
   },
   "input_hash": "e2daf87f20baa31e6fb52425a9ef4577dc1fddad",
@@ -82,5 +101,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e2daf87f20baa31e6fb52425a9ef4577dc1fddad"
+  "output_hash": "3edbf9affeedf8e1c5b0463e15d63ed93e59c6db2dd8becec2d7da86b5d445c4"
 }

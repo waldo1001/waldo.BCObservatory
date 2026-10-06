@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Introducing: Envision, Design and Code Business Central Agents",
   "url": "https://www.youtube.com/watch?v=jWqjDTbqjeE",
-  "published_at": null,
+  "published_at": "2026-02-27T15:12:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:57:11.732Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1114
+    },
+    "captioned": {
+      "at": "2026-10-06T13:57:32.048Z",
+      "path": "data/captions/microsoft/jWqjDTbqjeE.vtt",
+      "vtt_sha256": "a207191dbfb9cfbf63e2fd4bc2ec70e783aeafc7c5693860b4b5e13d3733a9e1",
+      "segments": 78,
+      "words": 2772,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 121,
     "duration_s": 1114,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a207191dbfb9cfbf63e2fd4bc2ec70e783aeafc7c5693860b4b5e13d3733a9e1"
 }

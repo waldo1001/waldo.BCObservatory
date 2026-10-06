@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/qms-purchase-receipt-testing-warehouse.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/qms-purchase-receipt-testing-warehouse",
+  "title": "Create an inspection automatically from a warehouse receipt and reinspect the lot",
+  "blob": "07b1e825949d1b62ff61ebbbf57d78805424203b",
+  "summary": "This demo shows how to automatically create a quality inspection when posting a warehouse receipt and then create a reinspection after the initial inspection fails.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "quality inspections",
+    "warehouse receipts",
+    "lot tracking",
+    "reinspection",
+    "contoso coffee demo"
+  ],
+  "objects": [],
+  "features": [
+    "Automatic inspection from warehouse receipt",
+    "Warehouse receipt posting trigger",
+    "Reinspection creation",
+    "Lot-tracked items",
+    "Warehouse put-away registration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005457,
+      "pages_in_call": 8
+    }
+  ]
+}

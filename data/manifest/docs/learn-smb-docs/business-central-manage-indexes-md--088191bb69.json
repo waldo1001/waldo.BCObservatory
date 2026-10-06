@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/manage-indexes",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e5faf098808ebc9d68489b5db1bd40c10aa1c81c",
       "words": 647,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T13:53:10.118Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.008326
+    },
+    "summarized": {
+      "at": "2026-10-06T13:53:10.121Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:53:10.122Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:53:10.122Z",
+      "page": false
     }
   },
   "input_hash": "e5faf098808ebc9d68489b5db1bd40c10aa1c81c",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e5faf098808ebc9d68489b5db1bd40c10aa1c81c"
+  "output_hash": "6cdffc88ede0b03d8d683c834bdf5a2c463586ecbff7485e1f3dcaf6f8aee56d"
 }

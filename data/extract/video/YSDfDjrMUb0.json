@@ -1,0 +1,557 @@
+{
+  "video_id": "YSDfDjrMUb0",
+  "item_id": "video/yt-microsoft/YSDfDjrMUb0",
+  "title": "What's new in Shopify Connector: Overview (2026 release wave 2)",
+  "duration_s": 1326,
+  "systems": [
+    "integration",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "shopify connector",
+    "product synchronization",
+    "tariff codes",
+    "b2b",
+    "company synchronization",
+    "catalogs",
+    "pricing",
+    "order management",
+    "localization",
+    "skipped records",
+    "order numbering",
+    "returns processing"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview",
+      "t_start": 0,
+      "t_end": 28.4
+    },
+    {
+      "title": "Item and product synchronization - tariff codes",
+      "t_start": 28.4,
+      "t_end": 92.8
+    },
+    {
+      "title": "Shop card settings - tariff mapping and barcode search",
+      "t_start": 92.8,
+      "t_end": 177.2
+    },
+    {
+      "title": "Product status and unlisted items",
+      "t_start": 177.2,
+      "t_end": 212.6
+    },
+    {
+      "title": "Price synchronization and skipped records",
+      "t_start": 212.6,
+      "t_end": 312.8
+    },
+    {
+      "title": "Feedback mechanisms and support",
+      "t_start": 312.8,
+      "t_end": 399.5
+    },
+    {
+      "title": "B2B and company synchronization - catalogs",
+      "t_start": 399.5,
+      "t_end": 565.3
+    },
+    {
+      "title": "B2B catalog issues and market-based catalogs",
+      "t_start": 565.3,
+      "t_end": 751.6
+    },
+    {
+      "title": "Company location tax registration and localization extensions",
+      "t_start": 751.6,
+      "t_end": 880
+    },
+    {
+      "title": "Order synchronization and number series configuration",
+      "t_start": 880,
+      "t_end": 1028.9
+    },
+    {
+      "title": "Multi-line order handling and returns processing",
+      "t_start": 1028.9,
+      "t_end": 1138
+    },
+    {
+      "title": "Return orders, exchange processing, and negative line handling",
+      "t_start": 1138,
+      "t_end": 1218.3
+    },
+    {
+      "title": "Tax details, area code mapping, and closing remarks",
+      "t_start": 1218.3,
+      "t_end": 1326
+    }
+  ],
+  "features": [
+    {
+      "name": "Tariff code synchronization",
+      "description": "Import and export tariff codes (harmonized system codes) from items in Business Central to Shopify products. Tariff codes are mapped but not auto-created; they must exist in the tariff list to import.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 66.8,
+      "t_end": 115.6,
+      "is_demoed": true,
+      "caveats": [
+        "Tariff codes are not auto-created; they must already exist in Business Central's tariff list",
+        "If tariff codes are not present, they are ignored during import"
+      ],
+      "tags": [
+        "tariff",
+        "product sync",
+        "foreign trade",
+        "country of origin"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Find mapping by barcode",
+      "description": "New field in shop card settings that controls whether the connector searches by barcode in item references when SKU mapping fails. Can be disabled to prevent undesired multiple-to-one variant mapping.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 125.9,
+      "t_end": 177.2,
+      "is_demoed": true,
+      "caveats": [
+        "Field is hidden by default and requires personalization to display",
+        "When enabled, can cause multiple variants to map to the same Business Central entity if barcode matching occurs",
+        "Manual mapping required if disabled"
+      ],
+      "tags": [
+        "item mapping",
+        "barcode",
+        "sku",
+        "product sync"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Unlisted product status",
+      "description": "Support for Shopify's new 'unlisted' status where products exist in Shopify and can be sold via direct link, but are not visible in the online store.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 177.2,
+      "t_end": 212.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "product status",
+        "shopify feature"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Skipped records tracking",
+      "description": "Visibility into items skipped during price synchronization. Skipped records page and Role Center widget now show which items were not synchronized (e.g., sales-blocked items) and any API errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 237.3,
+      "t_end": 312.8,
+      "is_demoed": true,
+      "caveats": [
+        "Job queue still marks runs as successful even when items are skipped",
+        "Blocked items (e.g., sales-blocked) cannot have prices calculated and will be skipped"
+      ],
+      "tags": [
+        "price sync",
+        "error tracking",
+        "job queue",
+        "diagnostics"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Provide feedback mechanism",
+      "description": "New 'Provide feedback' button in Shopify shop card that sends detailed feedback (text, screenshots, files) to Microsoft Development Center team privately, separate from Shopify App Store reviews.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 312.8,
+      "t_end": 399.5,
+      "is_demoed": true,
+      "caveats": [
+        "Feedback is private and not visible on Shopify App Store",
+        "User can opt to be contacted back about the feedback"
+      ],
+      "tags": [
+        "feedback",
+        "support",
+        "user engagement"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "B2B company synchronization",
+      "description": "Company synchronization now visible by default for all Shopify plans. Companies can be added to Shopify with automatic creation of customer and catalog for B2B.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 399.5,
+      "t_end": 447,
+      "is_demoed": true,
+      "caveats": [
+        "Not every B2B capability is available on all Shopify plans; auto-create B2B catalog only available for Plus and Advanced plans"
+      ],
+      "tags": [
+        "b2b",
+        "company sync",
+        "shopify plus"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Market-based catalogs",
+      "description": "Use Shopify markets (by region, B2B, or POS) linked to Business Central catalogs instead of company-location-based catalogs. Provides easier management and prevents duplicate price synchronization issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 467.2,
+      "t_end": 751.6,
+      "is_demoed": true,
+      "caveats": [
+        "Market catalogs are recommended over company-location catalogs to avoid confusion",
+        "Company-location option only available for Plus customers",
+        "Multiple B2B catalogs linked to same Shopify catalog will cause last sync to overwrite previous prices"
+      ],
+      "tags": [
+        "b2b",
+        "catalogs",
+        "markets",
+        "pricing"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Company location tax registration import",
+      "description": "Tax registration IDs for company locations are imported from Shopify and used when mapping Shopify companies to Business Central companies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 751.6,
+      "t_end": 804.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "b2b",
+        "company location",
+        "tax registration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Shopify Connector localization extensions - Belgium and US",
+      "description": "New small localization extensions released for Belgium and US outside AppSource. Belgium extension adds 'enterprise number' option for company tax ID mapping (replacing VAT registration ID). US extension adds country-specific capability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 804.2,
+      "t_end": 854.6,
+      "is_demoed": true,
+      "caveats": [
+        "Extensions not found in AppSource; distributed differently",
+        "Belgium extension required because local field for enterprise number not supported in W1 version",
+        "VAT registration ID field mapping previously failed in Belgium"
+      ],
+      "tags": [
+        "localization",
+        "belgium",
+        "us",
+        "tax mapping",
+        "enterprise number"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Shopify order number in sales documents",
+      "description": "Ability to populate Shopify order number as a separate field in sales documents or as an extra line. Can be toggled via a new use Shopify order number setting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 880,
+      "t_end": 927.3,
+      "is_demoed": true,
+      "caveats": [
+        "requires that invoice and sales order documents support manual numbers",
+        "setting inherited from setup at order import time"
+      ],
+      "tags": [
+        "order synchronization",
+        "numbering",
+        "sales order"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Contact numbers on sales orders",
+      "description": "Ability to populate sell-to, bill-to, and ship-to contact numbers on sales orders from Shopify orders. Contacts are populated automatically and can be changed if multiple contacts exist.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 948,
+      "t_end": 974.5,
+      "is_demoed": true,
+      "caveats": [
+        "requires personalization of order page to display"
+      ],
+      "tags": [
+        "contacts",
+        "sales order",
+        "order import"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Multi-line order handling and returns",
+      "description": "Support for Shopify orders with exchanges and returns that result in multiple lines in Business Central sales documents. Includes handling of returned items and store credits.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1028.9,
+      "t_end": 1080.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "order synchronization",
+        "returns",
+        "exchange",
+        "inventory"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Return order processing from Shopify refunds",
+      "description": "Process Shopify refunds as Business Central return orders instead of credit memos. Includes two-line handling with positive and negative quantities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1091.9,
+      "t_end": 1138,
+      "is_demoed": true,
+      "caveats": [
+        "credit memos not compatible with directed put-away and pick in advanced warehouse",
+        "return order option available as alternative"
+      ],
+      "tags": [
+        "returns",
+        "refunds",
+        "warehouse",
+        "credit memo"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Move negative lines in return orders",
+      "description": "Standard Business Central action to move negative lines from a return order to a separate sales order or invoice. Default value is order for return orders and invoice for credit memos.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1138,
+      "t_end": 1218.3,
+      "is_demoed": true,
+      "caveats": [
+        "document must be reopened before applying the action"
+      ],
+      "tags": [
+        "exchange",
+        "order handling",
+        "sales order"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Tax details on Shopify refunds and orders",
+      "description": "Display of tax fact box and tax lines on Shopify refunds and related orders. Includes tax area code and tax liable fields that can be overridden before creating sales documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1218.3,
+      "t_end": 1301.2,
+      "is_demoed": true,
+      "caveats": [
+        "described as pre-release; fact box position will change in final version"
+      ],
+      "tags": [
+        "tax",
+        "refunds",
+        "mapping"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Tax area code and tax liable mapping override",
+      "description": "New fields on Shopify order details (tax area code and tax liable) that can be manually overridden. When overridden, standard tax mapping is not triggered during document creation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1278.4,
+      "t_end": 1301.2,
+      "is_demoed": true,
+      "caveats": [
+        "preview status indicated by presenter noting this is a separate video topic"
+      ],
+      "tags": [
+        "tax",
+        "mapping",
+        "configuration"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 18.1,
+      "text": "We did something better for our product information management, for order management and for customer management.",
+      "why_it_matters": "Establishes the three main areas where improvements were made in this release wave.",
+      "check": "exact"
+    },
+    {
+      "t": 66.8,
+      "text": "Something new is here. It's a shipping. It's a information about a country of origin and harmonized system code, which is in Business Central",
+      "why_it_matters": "Announces the new tariff code synchronization capability as a key feature.",
+      "check": "exact"
+    },
+    {
+      "t": 102.2,
+      "text": "We have a new toggle which instruct system to import and export tariff codes. When we importing tariff codes from Shopify, they will not",
+      "why_it_matters": "Clarifies the tariff code import behavior and the no-auto-creation limitation.",
+      "check": "exact"
+    },
+    {
+      "t": 177.2,
+      "text": "Shopify introduced new status, unlisted. In this case, product is in Shopify. It can be sold, but nobody can see it.",
+      "why_it_matters": "Explains the new unlisted product status feature and its business meaning.",
+      "check": "exact"
+    },
+    {
+      "t": 413.1,
+      "text": "All but one capabilities is available. So, that's why B2B company synchronization is now visible by default.",
+      "why_it_matters": "Announces B2B support availability across all Shopify plans as a major feature change.",
+      "check": "exact"
+    },
+    {
+      "t": 653.2,
+      "text": "B2B catalogs are only imported if corresponding company present in Business Central.",
+      "why_it_matters": "Establishes a key constraint for B2B catalog import logic.",
+      "check": "exact"
+    },
+    {
+      "t": 720.6,
+      "text": "In this version, we are starting preventing this situation because it make no sense because it's only one catalog on a Shopify site, and",
+      "why_it_matters": "Announces prevention of duplicate catalog pricing issues and recommends market-based catalogs.",
+      "check": "exact"
+    },
+    {
+      "t": 828.8,
+      "text": "So, in this release, we still have Shopify connector W1 version, same for everyone, but we are releasing two small extensions, nano extensions, I",
+      "why_it_matters": "Announces localization extensions for Belgium and US addressing country-specific tax mapping.",
+      "check": "exact"
+    },
+    {
+      "t": 828.8,
+      "text": "in this release, we still have Shopify connector W1 version, same for everyone, but we are releasing two small extensions, nano extensions",
+      "why_it_matters": "Establishes the release strategy: maintaining a single global W1 version but adding country-specific nano extensions outside AppSource for Belgium and US.",
+      "check": "exact"
+    },
+    {
+      "t": 854.6,
+      "text": "If you are in Belgium or in the US. So, we have different extensions, which are adding couple of capabilities.",
+      "why_it_matters": "Clarifies that localization extensions are auto-detected based on user country and provide specific tax and compliance features.",
+      "check": "exact"
+    },
+    {
+      "t": 868.6,
+      "text": "In Belgium, what happens, it will extend and will extend the company tax ID mapping. It will add a new option, enterprise number.",
+      "why_it_matters": "Specifies the Belgium extension capability: adds enterprise number as a VAT registration option to solve the earlier Belgium VAT field limitation.",
+      "check": "exact"
+    },
+    {
+      "t": 891,
+      "text": "I'm in the Shopify shop store, and I will scroll down to order synchronization, and there is a new field, use Shopify order number.",
+      "why_it_matters": "Announces a new feature allowing Shopify order numbers to be used as sales document numbers instead of Business Central's native number series.",
+      "check": "exact"
+    },
+    {
+      "t": 958.7,
+      "text": "Contact numbers. So, now contact numbers are actually available. They are populated automatically. And you can change the values if there are more than",
+      "why_it_matters": "Describes automatic population of sell-to, bill-to, and ship-to contact numbers from Shopify orders with manual override capability.",
+      "check": "exact"
+    },
+    {
+      "t": 1138,
+      "text": "because credit memos are not compatible with uh directed put away and pick and other warehouse scenarios.",
+      "why_it_matters": "Explains the rationale for offering return orders as an alternative to credit memos in advanced warehouse environments.",
+      "check": "exact"
+    },
+    {
+      "t": 1278.4,
+      "text": "But tax area code and tax liable are the new ones. So, now they are present in the document itself. And you can override",
+      "why_it_matters": "Introduces new fields for tax configuration on Shopify order details that override automatic tax mapping during document creation.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 828.8,
+      "kind": "subject-to-change",
+      "text": "You cannot find them in the AppSource because we are using different way to distribute it."
+    },
+    {
+      "t": 1243.5,
+      "kind": "preview",
+      "text": "This is a pre-release version in the reality this fact box will be down"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 15,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 16
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.040441000000000005
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.034836
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.041940000000000005
+    }
+  ]
+}

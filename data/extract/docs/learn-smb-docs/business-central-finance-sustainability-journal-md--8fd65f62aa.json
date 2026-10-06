@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-sustainability-journal.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-sustainability-journal",
+  "title": "Record sustainability entries",
+  "blob": "ee83d0074a9162a4db217c249d6e6c59640c6447",
+  "summary": "Sustainability journals record greenhouse gas emissions and water/waste intensity manually or via formulas, with posting to sustainability ledger and purchase document integration.",
+  "systems": [
+    "sustainability",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "sustainability journal",
+    "emissions recording",
+    "purchase integration",
+    "calculation formulas"
+  ],
+  "objects": [],
+  "features": [
+    "Sustainability journal templates and batches",
+    "Manual emission entry",
+    "Formula-based emission calculation",
+    "Purchase document emissions",
+    "General journal emissions",
+    "Recurring journals",
+    "Journal validation",
+    "Approval workflows"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007148,
+      "pages_in_call": 8
+    }
+  ]
+}

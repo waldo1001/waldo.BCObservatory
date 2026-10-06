@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-financial-reporting-view-a-report.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-view-a-report",
+  "title": "View a financial report",
+  "blob": "e10861cbf7f21f3f309df34040f3a2896b2f78ca",
+  "summary": "View financial reports on-screen with drill-through, export to PDF or Excel, print individually or packaged, and schedule recurring runs with email delivery.",
+  "systems": [
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "financial reporting",
+    "viewing",
+    "export",
+    "excel",
+    "scheduling"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Financial Reports"
+    },
+    {
+      "type": "page",
+      "name": "Financial Report Packages"
+    }
+  ],
+  "features": [
+    "On-screen viewing",
+    "Drill-through analysis",
+    "PDF export",
+    "Excel export",
+    "Report scheduling",
+    "Email distribution",
+    "Report packaging"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005432,
+      "pages_in_call": 8
+    }
+  ]
+}

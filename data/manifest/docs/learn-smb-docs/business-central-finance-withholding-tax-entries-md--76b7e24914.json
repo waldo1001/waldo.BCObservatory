@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-withholding-tax-entries",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fc1fee2a6901c0bc22c23556cf1bf2ed065b3939",
       "words": 115,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T13:51:07.567Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.007547
+    },
+    "summarized": {
+      "at": "2026-10-06T13:51:07.570Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:51:07.570Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:51:07.570Z",
+      "page": false
     }
   },
   "input_hash": "fc1fee2a6901c0bc22c23556cf1bf2ed065b3939",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fc1fee2a6901c0bc22c23556cf1bf2ed065b3939"
+  "output_hash": "d310d8a3e8da1145ad5bfa0a4d95b7630fc058e13a0977f95112c76eba170bc4"
 }

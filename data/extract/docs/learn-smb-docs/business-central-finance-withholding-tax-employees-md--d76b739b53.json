@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-withholding-tax-employees.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-withholding-tax-employees",
+  "title": "Set up and post employee withholding tax",
+  "blob": "e2daf87f20baa31e6fb52425a9ef4577dc1fddad",
+  "summary": "Employee withholding tax setup enables tax calculation when posting employee transactions in journals with business/product posting groups and threshold options.",
+  "systems": [
+    "hr",
+    "finance"
+  ],
+  "topics": [
+    "withholding tax",
+    "employee",
+    "journal posting",
+    "tax calculation"
+  ],
+  "objects": [],
+  "features": [
+    "Employee withholding tax posting setup",
+    "Tax calculation base (Gross/Net)",
+    "Withholding threshold configuration",
+    "Tax component grouping",
+    "Expense category withholding tax",
+    "Period-based threshold accumulation",
+    "Certificate management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007148,
+      "pages_in_call": 8
+    }
+  ]
+}

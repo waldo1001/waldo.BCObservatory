@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/qms-purchase-receipt-testing-simple.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/qms-purchase-receipt-testing-simple",
+  "title": "Create an inspection manually from item tracking",
+  "blob": "33167c9ef3f910231d272acfde67b53eeb3e7237",
+  "summary": "This demo shows how to create a quality inspection manually from a purchase order's item-tracking line before posting the receipt.",
+  "systems": [
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "quality inspections",
+    "item tracking",
+    "lot tracking",
+    "manual creation",
+    "contoso coffee demo"
+  ],
+  "objects": [],
+  "features": [
+    "Manual inspection creation",
+    "Item tracking integration",
+    "Lot assignment",
+    "Test value entry",
+    "Certificate of analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005457,
+      "pages_in_call": 8
+    }
+  ]
+}

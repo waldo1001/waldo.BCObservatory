@@ -1,0 +1,27 @@
+{
+  "video_id": "t_UXxbvgnHY",
+  "item_id": "video/yt-microsoft/t_UXxbvgnHY",
+  "summary": "Sustainability changes in the 2026 release wave 2: formulas in purchase orders and invoices, value chain emissions in item and fixed asset journals, scope three tracking by item tracking level, sustainability ledger reversal for journal entries, and collect from GL that remembers what was posted.",
+  "overview": "The video walks through what's new in Business Central Sustainability for 2026 release wave 2. It covers setup and formula configuration, then demos in a purchase order, a sales order, the item journal, item reclassification and a service order.\n\nIt then covers reversing sustainability ledger entries and the fixed asset changes: emissions columns in journals and an improved collect amount from GL. UDR certificate capture is mentioned, with details left to a separate video.",
+  "key_points": [
+    "Sustainability formulas now work in purchase order and purchase invoice, so emissions can be calculated from distance and other parameters as in journals. After posting, formulas are read-only and only certain fields such as distance can be changed.",
+    "Value chain emissions are now available in item journals, item reclassification journals, fixed asset reclassification journals and service management.",
+    "Scope three can be tracked at item tracking level. You define an average or specific method on the item card to track emissions by lot or serial number.",
+    "The ESG report layout can print information per lot. The transcript calls it 'ECG', which likely means ESG.",
+    "Sustainability ledger entries can be reversed with a standard reverse button, as for general ledger entries. This works only for entries created through journals, not for entries posted through documents.",
+    "Collect amount from GL now remembers what was already posted and suggests only the remaining amount. When everything is posted, it suggests zero. Date filters help control the suggestion.",
+    "Fixed asset journals gain sustainability columns, including sustainability account and CO2 totals. Fixed asset reclassification can split CO2 by percentage, the same way as acquisition cost."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "11cad86ed3a6a6b9e00591b2ca44cb15bee4974f526c6c06d246492be5fd7dde",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0434544
+  }
+}

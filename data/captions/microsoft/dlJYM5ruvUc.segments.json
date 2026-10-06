@@ -1,0 +1,188 @@
+{
+  "video_id": "dlJYM5ruvUc",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.6,
+      "end": 17.4,
+      "text": "Welcome to Business Central 2026 uh launch edition. This session is about the new APIs we added for permissions, approvals, and documents."
+    },
+    {
+      "t": 17.4,
+      "end": 28.2,
+      "text": "So why did we do this? What what what does this help you with? Well, for for documents, we are opening up for automation on all the document types."
+    },
+    {
+      "t": 28.2,
+      "end": 48.4,
+      "text": "in the beginning only for getting the PDFs then later in later versions of business central we might open up for more and then for um for internal controls for IT departments you can now uh easily report uh on that using copilot studio agents or powerbi on all data"
+    },
+    {
+      "t": 48.4,
+      "end": 58.6,
+      "text": "related to permissions and approvals. So let's just quickly see what's going on here for sales you have in 28.x"
+    },
+    {
+      "t": 58.6,
+      "end": 75.1,
+      "text": "like all of these document types get APIs within the purchasing area also 28.x X you get all these areas with PDF so you can get them in APIs inventory get even more all these um ones"
+    },
+    {
+      "t": 75.1,
+      "end": 96.3,
+      "text": "um and finally for assembly uh these two get APIs if you want to learn more about document reporting as a whole including these APIs there's a breakout session for that uh there's a link in the description so you can learn much more about what we did for document reporting not only the new APIs"
+    },
+    {
+      "t": 96.3,
+      "end": 108.8,
+      "text": "All right. So within permissions, we have these five new APIs coming all the way from permission sets down to who actually has which users have different permission sets."
+    },
+    {
+      "t": 108.8,
+      "end": 127.4,
+      "text": "So we have a new API that show all permission sets. You can link to users and security groups that use these. We have expanded permission sets so you can also get from where these permission sets uh are coming which apps are introducing them."
+    },
+    {
+      "t": 127.4,
+      "end": 142.8,
+      "text": "We have security groups that also allows you to navigate to the linked permission sets and group members. So you can see from this also who has kind of inside these per security groups."
+    },
+    {
+      "t": 142.8,
+      "end": 156.9,
+      "text": "permissions. User permissions uh allow you to see all sets assigned directly or inherited uh to users and then uh access control uh all all"
+    },
+    {
+      "t": 156.9,
+      "end": 169.4,
+      "text": "records related to that. For approvals, we have also uh these new seven APIs on workflows all the way down to approval and posted approval entries."
+    },
+    {
+      "t": 169.4,
+      "end": 189.7,
+      "text": "So um ability to see all workflows go uh navigate from that to workflow steps from work workflow step is a is its own API you can navigate from there to response options and then here you are able to see all workflow step"
+    },
+    {
+      "t": 189.7,
+      "end": 201.8,
+      "text": "arguments approver types approver ID and so on for approvers you have an API for that uh for each workflow approver type and approval limit."
+    },
+    {
+      "t": 201.8,
+      "end": 218.1,
+      "text": "So that allows you to uh see who can do approve what to which extent in uh in money. Um there's an approvals user setup so you can see approval change direct approver and so on for a given user or all users."
+    },
+    {
+      "t": 218.1,
+      "end": 230.1,
+      "text": "Uh you can you can you can see all approval entries as well as all posted approval entries through these two new APIs."
+    },
+    {
+      "t": 230.1,
+      "end": 247,
+      "text": "Now everything related to this is covered in more details in the IT auditing session. So there's a breakout session for there where we will also introduce all the other things we added within the IT audit area."
+    },
+    {
+      "t": 247,
+      "end": 257.7,
+      "text": "If you want to learn more, the the place to go for as always for APIs is the AK link aka.msbc integration."
+    },
+    {
+      "t": 257.7,
+      "end": 269.3,
+      "text": "And here you can learn about everything in this topic including all the new APIs which will be documented uh here on API v2."
+    },
+    {
+      "t": 269.3,
+      "end": 286.8,
+      "text": "And that's it for for APIs. Um, I hope you enjoy the other sessions here in our launch edition. Look for our related sessions in the co in down in the description and u have a great uh conference or a great um launch edition."
+    },
+    {
+      "t": 286.8,
+      "end": 299,
+      "text": "Thank you. Bye. We have compiled a number of general resources that we believe are key both for partners but also uh business central customers."
+    },
+    {
+      "t": 299,
+      "end": 319.2,
+      "text": "Most some of these are partner some of them are also for customers. So the first one is called aka.msbcall. This is a partner resource for that contains lists of every other aka link that is needed for you to understand anything about both the business central product"
+    },
+    {
+      "t": 319.2,
+      "end": 332,
+      "text": "but also processes around it. We call these aka links because they're called aka.ms and then forward/ something. And with business central links we all always prefix with BC and then something."
+    },
+    {
+      "t": 332,
+      "end": 343.7,
+      "text": "The next one is uh our partner network uh social media for for business central partners. Viva Viva engage. So ak.msbc"
+    },
+    {
+      "t": 343.7,
+      "end": 356.4,
+      "text": "viva engage is where you go and interact with other partners. It's not open for customers. So this is where you can ask questions, interact with the product group, interact with with with each other."
+    },
+    {
+      "t": 356.4,
+      "end": 374.6,
+      "text": "um in a in a closed network. Second link, a third link is for both partners and customers. We are called office hours. So office hours is something we do once or twice a month from the product group engaging with the community about new features or things we want to discuss."
+    },
+    {
+      "t": 374.6,
+      "end": 385,
+      "text": "Aka.msbc office hours is the is the place where you go to find out about upcoming events. These are recorded."
+    },
+    {
+      "t": 385,
+      "end": 395.4,
+      "text": "I believe the recordings are available only to partners, but the live events are available to customers as well. Fourth link is YouTube, our YouTube channel."
+    },
+    {
+      "t": 395.4,
+      "end": 407.3,
+      "text": "I'll talk about that uh in the next slide and LinkedIn in the next slide. Uh and then finally uh for for Microsoft partners, the BC ak.ms/BC"
+    },
+    {
+      "t": 407.3,
+      "end": 420.2,
+      "text": "partner portal is where you get um a lot of the resources as a partner such as compete decks, uh pitch decks and a lot of other resources"
+    },
+    {
+      "t": 420.2,
+      "end": 438.3,
+      "text": "for LinkedIn. This is our product group's uh LinkedIn profile. We have 30K or more followers. So both partners and customers, this is the place where we from the product group put in news and small bits of information outside the quote unquote official channel."
+    },
+    {
+      "t": 438.3,
+      "end": 454.1,
+      "text": "So follow us on on LinkedIn to learn what's happening right now um in in this in the around the product. Um and then uh also on our YouTube channel, this is where you're probably watching this aka.ms/bc"
+    },
+    {
+      "t": 454.1,
+      "end": 467.4,
+      "text": "YouTube. We put in not only these launch editions twice a year, but also co-pilot and AI videos, shorts, tips and tricks, technical deep dives under the hood."
+    },
+    {
+      "t": 467.4,
+      "end": 480,
+      "text": "Uh we even have this watch cooking where we put little nuggets of of videos out for new features that are even coming in on the YouTube channel before uh they're coming in the release notes."
+    },
+    {
+      "t": 480,
+      "end": 492.5,
+      "text": "So watch uh and maybe bookmark us on YouTube and also notice all the playlists. So the the content is also organized in areas not only all the videos."
+    },
+    {
+      "t": 492.5,
+      "end": 503.7,
+      "text": "So if you have an area that has special interests such as analytics um you can find an a playlist and kind of see all the content related to that."
+    },
+    {
+      "t": 503.7,
+      "end": 517,
+      "text": "And that's it. That is truly it. We won't uh there would be no more. So, thank you for watching all the way to the end and again have a great day. Thank you."
+    }
+  ],
+  "markers": [],
+  "word_count": 1191
+}

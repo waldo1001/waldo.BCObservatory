@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/quick-start-reports-and-documents.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/quick-start-reports-and-documents",
+  "title": "Basic reports and documents output quick start",
+  "blob": "53b6c1cbf1c2ee362317ed3b9e95f24bfe6bfd43",
+  "summary": "Quick start guide for setting up and using reports and documents in Business Central, including adding company logos, running reports, saving to PDF/Excel/Word, and customizing report layouts.",
+  "systems": [
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "reports",
+    "documents",
+    "layouts",
+    "printing",
+    "customization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Report Layouts"
+    },
+    {
+      "type": "page",
+      "name": "Items"
+    }
+  ],
+  "features": [
+    "company logo",
+    "report layouts",
+    "Word document export",
+    "PDF export",
+    "Excel export",
+    "report filtering",
+    "report scheduling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007092,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/qms-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/qms-setup",
+  "title": "Quality management setup and configuration",
+  "blob": "449dbac985e86b2b60cc736b4691a6a71388fd79",
+  "summary": "Quality Management setup and configuration covers prerequisites, permission sets, base data configuration, assisted setup, and settings for inspection creation, search criteria, workflows, and item tracking.",
+  "systems": [
+    "administration",
+    "purchasing",
+    "manufacturing"
+  ],
+  "topics": [
+    "quality management setup",
+    "permissions",
+    "configuration",
+    "inspection creation options",
+    "base data",
+    "notifications"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Quality Management Setup"
+    },
+    {
+      "type": "page",
+      "name": "Assisted Setup"
+    },
+    {
+      "type": "page",
+      "name": "My Notifications"
+    }
+  ],
+  "features": [
+    "Permission sets",
+    "Inspection creation options",
+    "Inspection search criteria",
+    "Certificate of analysis contact",
+    "Picture handling",
+    "Generation rule trigger defaults",
+    "Bin movements and reclassifications",
+    "Inventory adjustments",
+    "Item tracking requirements",
+    "Quality inspection selection criteria",
+    "Notifications"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005457,
+      "pages_in_call": 8
+    }
+  ]
+}

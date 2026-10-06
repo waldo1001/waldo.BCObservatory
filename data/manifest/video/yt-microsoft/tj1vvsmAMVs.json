@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=tj1vvsmAMVs",
   "published_at": "2026-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T13:48:11.542Z",
+      "path": "data/extract/video/tj1vvsmAMVs.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 18,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.050047
+    },
+    "summarized": {
+      "at": "2026-10-06T13:48:21.953Z",
+      "path": "data/summary/video/tj1vvsmAMVs.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0520104
+    },
+    "linked": {
+      "at": "2026-10-06T13:48:21.954Z",
+      "systems": [
+        "copilot",
+        "finance",
+        "hr"
+      ],
+      "topics": 10,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T13:48:21.956Z",
+      "path": "content/videos/tj1vvsmAMVs.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2026-10-01 - BCLE - What's new in Expense Agent： Overview (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "b6d02a89a10b1a61fee78066d284bdc8387dcbe8a18f9680c4b315447ccb607a"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-trans-split-combine",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "57cb3c47e5be77691e0bbee591726ab6b443dcbb",
       "words": 854,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T13:46:45.124Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.005432
+    },
+    "summarized": {
+      "at": "2026-10-06T13:46:45.128Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:46:45.128Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:46:45.129Z",
+      "page": false
     }
   },
   "input_hash": "57cb3c47e5be77691e0bbee591726ab6b443dcbb",
@@ -67,5 +86,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "57cb3c47e5be77691e0bbee591726ab6b443dcbb"
+  "output_hash": "0c09b5e074bd206f2a815b658365886291ab51ea79d88e347248e82a815e2c59"
 }

@@ -1,0 +1,250 @@
+{
+  "video_id": "oIoH3gxc0uk",
+  "item_id": "video/yt-microsoft/oIoH3gxc0uk",
+  "title": "Execution & Control Flushing Methods (2026)",
+  "duration_s": 274,
+  "systems": [
+    "manufacturing",
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "flushing methods",
+    "production orders",
+    "material consumption",
+    "routing link codes",
+    "forward flushing",
+    "backward flushing",
+    "manual flushing",
+    "pick plus",
+    "production control",
+    "operator control"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to flushing methods",
+      "t_start": 0,
+      "t_end": 21.3
+    },
+    {
+      "title": "What is flushing - definition and scope",
+      "t_start": 21.3,
+      "t_end": 44.2
+    },
+    {
+      "title": "Three flushing methods and pick plus",
+      "t_start": 44.2,
+      "t_end": 102
+    },
+    {
+      "title": "Routing link codes and component timing",
+      "t_start": 102,
+      "t_end": 155.5
+    },
+    {
+      "title": "Reading the production order page",
+      "t_start": 155.5,
+      "t_end": 193.1
+    },
+    {
+      "title": "Practical benefits of flexible flushing",
+      "t_start": 193.1,
+      "t_end": 226.2
+    },
+    {
+      "title": "Demo - posting manual components and finishing the order",
+      "t_start": 226.2,
+      "t_end": 274
+    }
+  ],
+  "features": [
+    {
+      "name": "Forward flushing",
+      "description": "Automatic consumption of components once a production order is released. Designed for predictable components that do not require manual journal entry from the operator.",
+      "status": "ga",
+      "status_evidence_t": 55.1,
+      "status_evidence_quote": "Forward is for predictable components. Once the order is released, Business Central can consume them automatically",
+      "status_evidence_verified": true,
+      "t_start": 55.1,
+      "t_end": 73.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "flushing",
+        "material consumption",
+        "automatic posting"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Backward flushing",
+      "description": "Automatic consumption posted later when output is recorded or when the production order is finished. Waits for proof that work actually happened before posting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 73.7,
+      "t_end": 86.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "flushing",
+        "material consumption",
+        "automatic posting",
+        "delayed posting"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Manual flushing",
+      "description": "Operator reviews the component line and posts the actual consumption in the journal. Useful when quantities can vary or when the business wants tighter control.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 86.5,
+      "t_end": 102,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "flushing",
+        "material consumption",
+        "manual posting",
+        "operator control"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Pick plus",
+      "description": "A warehouse step that adds picking before the selected flushing rule applies. Does not replace forward, manual, or backward flushing, only adds the warehouse picking step.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 86.5,
+      "t_end": 102,
+      "is_demoed": false,
+      "caveats": [
+        "pick plus only adds to the warehouse workflow; it does not replace the base flushing method"
+      ],
+      "tags": [
+        "flushing",
+        "warehouse",
+        "picking"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Routing link codes on components",
+      "description": "A code on production order components that ties material consumption to a specific routing operation rather than treating the entire order as one timing event. Matching codes link components to their anchor operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 114.8,
+      "t_end": 165.5,
+      "is_demoed": true,
+      "caveats": [
+        "routing link codes are optional; a blank routing link code applies timing to the order more generally"
+      ],
+      "tags": [
+        "routing",
+        "production orders",
+        "component timing",
+        "material consumption"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Component-level flushing policies",
+      "description": "Each component line on a production order can carry its own flushing method instead of using one posting rule for the entire order. Allows mixing of forward, backward, manual, and pick plus on different components.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 44.2,
+      "t_end": 102,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "flushing",
+        "production orders",
+        "material consumption",
+        "flexibility"
+      ],
+      "system": "manufacturing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "production journal",
+      "t": 10.9
+    },
+    {
+      "type": "other",
+      "name": "production order",
+      "t": 21.3
+    },
+    {
+      "type": "other",
+      "name": "production order routing",
+      "t": 125.8
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 21.3,
+      "text": "A flushing method defines when the system posts production activity automatically.",
+      "why_it_matters": "Core definition of flushing and its purpose in the manufacturing workflow.",
+      "check": "exact"
+    },
+    {
+      "t": 44.2,
+      "text": "On a production order, each component line can carry its own posting rule.",
+      "why_it_matters": "Establishes that flushing methods are flexible at the component level, not fixed at the order level.",
+      "check": "exact"
+    },
+    {
+      "t": 102,
+      "text": "It only adds picking before that selected rule applies. That is the main point.",
+      "why_it_matters": "Clarifies the role of pick plus as an additive warehouse step, not a replacement for flushing methods.",
+      "check": "exact"
+    },
+    {
+      "t": 125.8,
+      "text": "That matching code is what ties component consumption to a specific operation instead of treating the whole order as one timing event.",
+      "why_it_matters": "Explains how routing link codes enable operation-level control over material consumption timing.",
+      "check": "exact"
+    },
+    {
+      "t": 165.5,
+      "text": "If a routing link code is blank, the timing applies to the order more generally. If a routing link code is filled in, the",
+      "why_it_matters": "Provides the practical decision rule for when routing link codes affect component timing.",
+      "check": "exact"
+    },
+    {
+      "t": 205,
+      "text": "Predictable components can be automated. Components that need warehouse handling can stay pick controlled.",
+      "why_it_matters": "Shows the real-world benefits of flexible flushing policies for different component types.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028835
+    }
+  ]
+}

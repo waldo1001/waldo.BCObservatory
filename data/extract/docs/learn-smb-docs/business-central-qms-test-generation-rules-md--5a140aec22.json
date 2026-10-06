@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/qms-test-generation-rules.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/qms-test-generation-rules",
+  "title": "Set up quality inspection generation rules",
+  "blob": "d71b0dde41d25ef1184c327fde052df207ced367",
+  "summary": "Quality inspection generation rules define when and how to automatically create quality inspections in response to business transactions such as purchase receipts, production output, and warehouse movements.",
+  "systems": [
+    "purchasing",
+    "manufacturing",
+    "warehouse"
+  ],
+  "topics": [
+    "generation rules",
+    "inspection triggers",
+    "template mapping",
+    "source documents",
+    "rule filters"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Quality Inspection Generation Rules"
+    }
+  ],
+  "features": [
+    "Sort order configuration",
+    "Template-to-source mapping",
+    "Condition filters",
+    "Item filters",
+    "Attribute filters",
+    "Activation trigger selection",
+    "Receiving rule creation",
+    "Bin movement rule creation",
+    "Production rule creation",
+    "Assembly rule creation",
+    "Schedule group configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005457,
+      "pages_in_call": 8
+    }
+  ]
+}

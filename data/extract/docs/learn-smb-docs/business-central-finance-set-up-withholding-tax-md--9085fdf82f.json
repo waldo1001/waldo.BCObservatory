@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-set-up-withholding-tax.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-set-up-withholding-tax",
+  "title": "Set up withholding tax",
+  "blob": "783a5ead44cfdd1d7491773ced3c9feb4d53ac18",
+  "summary": "Withholding tax setup enables calculation and posting for vendors and employees with posting groups, rates, thresholds, and account assignments for accurate tax compliance.",
+  "systems": [
+    "finance",
+    "purchasing",
+    "hr"
+  ],
+  "topics": [
+    "withholding tax",
+    "tax calculation",
+    "posting groups",
+    "compliance"
+  ],
+  "objects": [],
+  "features": [
+    "Withholding tax calculation",
+    "Revenue type setup",
+    "Business and product posting groups",
+    "Withholding threshold configuration",
+    "Realization timing (invoice, payment)",
+    "Employee withholding tax",
+    "Withholding tax groups",
+    "Expense category withholding tax"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007148,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/qms-non-compliant-processing",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b559065f98f3b5825392ef5ce15923e383c3db05",
       "words": 741,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T13:54:44.438Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005231
+    },
+    "summarized": {
+      "at": "2026-10-06T13:54:44.443Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:54:44.443Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:54:44.443Z",
+      "page": false
     }
   },
   "input_hash": "b559065f98f3b5825392ef5ce15923e383c3db05",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b559065f98f3b5825392ef5ce15923e383c3db05"
+  "output_hash": "099cdec29b72e27c1647b691be751deac43c704e997ca1f3db9b7d85907f64a9"
 }
