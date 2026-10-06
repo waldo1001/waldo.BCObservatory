@@ -1,0 +1,133 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-001-Basic-Setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-001-Basic-Setup",
+  "title": "Setting up Goods and Service Tax",
+  "blob": "48246677c76fa5823cfe47e73bdbce251d5f644a",
+  "summary": "Setting up Goods and Services Tax (GST) for Indian localization with automatic tax engine configuration and manual setup of rates, registration numbers, accounting periods, states, groups, HSN/SAC codes, posting accounts, and master data.",
+  "systems": [
+    "finance",
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "gst",
+    "india localization",
+    "tax setup",
+    "tax rates",
+    "registration",
+    "accounting periods"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Tax Type"
+    },
+    {
+      "type": "page",
+      "name": "GST Registration Nos."
+    },
+    {
+      "type": "page",
+      "name": "Tax Accounting Period"
+    },
+    {
+      "type": "page",
+      "name": "States"
+    },
+    {
+      "type": "page",
+      "name": "GST Groups"
+    },
+    {
+      "type": "page",
+      "name": "HSN/SAC"
+    },
+    {
+      "type": "page",
+      "name": "GST Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Locations"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchase & Payable Setup"
+    },
+    {
+      "type": "page",
+      "name": "Source Code Setup"
+    },
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Account"
+    },
+    {
+      "type": "page",
+      "name": "Resources"
+    },
+    {
+      "type": "page",
+      "name": "Item Charges"
+    },
+    {
+      "type": "page",
+      "name": "Sales Price"
+    },
+    {
+      "type": "page",
+      "name": "Vendor"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "Service Cost"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account"
+    }
+  ],
+  "features": [
+    "gst rates",
+    "registration number setup",
+    "tax accounting periods",
+    "gst groups",
+    "hsn/sac codes",
+    "gst posting setup",
+    "tax engine configuration",
+    "reverse charge",
+    "cess",
+    "kfc"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005419,
+      "pages_in_call": 8
+    }
+  ]
+}

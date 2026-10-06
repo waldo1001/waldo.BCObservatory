@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Bank-Charges-Overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Bank-Charges-Overview",
+  "title": "Setting up GST for Bank Charges",
+  "blob": "47e4358fc1c90fbe6538142fcc9dd1433031633b",
+  "summary": "Setting up GST for bank charges including bank account configuration, bank charges master setup, and deemed value calculation for foreign exchange transactions.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "gst",
+    "bank charges",
+    "india localization",
+    "tax setup",
+    "foreign exchange"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Account"
+    },
+    {
+      "type": "page",
+      "name": "Bank Charges"
+    },
+    {
+      "type": "page",
+      "name": "Bank Charges Deemed Value Setup"
+    }
+  ],
+  "features": [
+    "bank charges gst",
+    "deemed value setup",
+    "tax invoice",
+    "input tax credit",
+    "foreign exchange charges"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005419,
+      "pages_in_call": 8
+    }
+  ]
+}

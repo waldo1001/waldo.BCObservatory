@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/collecting-profit-tax-information-for-tax-declaration",
   "published_at": "2025-07-22T16:06:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "086654cf835d20c832f9646e0add90511f75250d",
       "words": 179,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:01.564Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00367
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:01.571Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:01.572Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:01.573Z",
+      "page": false
     }
   },
   "input_hash": "086654cf835d20c832f9646e0add90511f75250d",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "086654cf835d20c832f9646e0add90511f75250d"
+  "output_hash": "2166cd066e82dafa2f35d12cdb5d6f259c026964810b4a97bb20a3185f8fa803"
 }

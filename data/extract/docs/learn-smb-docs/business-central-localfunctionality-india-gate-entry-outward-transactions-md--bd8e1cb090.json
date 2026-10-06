@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/Gate-Entry-Outward_Transactions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Gate-Entry-Outward_Transactions",
+  "title": "Gate Entry Outward Transactions",
+  "blob": "38ea3a7affd46a5588bfbe9236f34efd47976963",
+  "summary": "Creating and attaching outward gate entries to track goods exit from the organization, with integration to sales orders, transfer shipments, and purchase return orders.",
+  "systems": [
+    "inventory",
+    "localization"
+  ],
+  "topics": [
+    "gate entry",
+    "outward",
+    "india localization",
+    "goods dispatch",
+    "tracking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Outward Gate Entry List"
+    },
+    {
+      "type": "page",
+      "name": "Posted Outward Gate Entry"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Shipment"
+    },
+    {
+      "type": "page",
+      "name": "Posted Transfer Shipment"
+    },
+    {
+      "type": "page",
+      "name": "Posted Return Shipment"
+    }
+  ],
+  "features": [
+    "outward gate entry creation",
+    "source document attachment",
+    "transport details",
+    "vehicle tracking",
+    "posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005419,
+      "pages_in_call": 8
+    }
+  ]
+}

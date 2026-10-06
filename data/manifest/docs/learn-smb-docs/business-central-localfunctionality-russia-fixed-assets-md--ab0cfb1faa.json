@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/fixed-assets",
   "published_at": "2025-07-22T16:06:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "11d5968a75b9ecbbe8a0ba7da4117929be743bed",
       "words": 384,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:01.569Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00367
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:03.331Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:03.332Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:03.334Z",
+      "page": false
     }
   },
   "input_hash": "11d5968a75b9ecbbe8a0ba7da4117929be743bed",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "11d5968a75b9ecbbe8a0ba7da4117929be743bed"
+  "output_hash": "99ec563dd59fcac1ef400b73bfa42ca1ca4b375d10f588ff552547b30e9239c7"
 }

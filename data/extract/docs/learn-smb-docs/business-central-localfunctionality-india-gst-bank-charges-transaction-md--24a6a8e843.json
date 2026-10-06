@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Bank-Charges-Transaction.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Bank-Charges-Transaction",
+  "title": "GST on Bank Charges Transaction",
+  "blob": "133b07485ea639cfc4744088214688c91ffefd1c",
+  "summary": "GST calculation on bank charges transactions in bank payment and receipt vouchers, with examples for intra-state and inter-state scenarios with and without input tax credit.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "gst",
+    "bank charges",
+    "transaction",
+    "india localization",
+    "deemed value",
+    "payment voucher"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Payment Voucher"
+    },
+    {
+      "type": "page",
+      "name": "Bank Receipt Voucher"
+    },
+    {
+      "type": "page",
+      "name": "Journal Bank Charges"
+    }
+  ],
+  "features": [
+    "gst on bank charges",
+    "deemed value calculation",
+    "foreign exchange bank charges",
+    "input tax credit",
+    "intra-state",
+    "inter-state"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005419,
+      "pages_in_call": 8
+    }
+  ]
+}

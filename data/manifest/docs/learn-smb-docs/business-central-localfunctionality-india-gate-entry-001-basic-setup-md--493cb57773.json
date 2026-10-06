@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Gate-Entry-001-Basic-Setup",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e430875e3040e093e557877f859fd6b29b763bd8",
       "words": 331,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:15:56.547Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.005419
+    },
+    "summarized": {
+      "at": "2026-10-06T19:15:56.556Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:15:56.557Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:15:56.558Z",
+      "page": false
     }
   },
   "input_hash": "e430875e3040e093e557877f859fd6b29b763bd8",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e430875e3040e093e557877f859fd6b29b763bd8"
+  "output_hash": "2e0476ee7f25573eec819b2dce5e9e99339e67a83c0aeaa4246ef2052fc8cf5f"
 }

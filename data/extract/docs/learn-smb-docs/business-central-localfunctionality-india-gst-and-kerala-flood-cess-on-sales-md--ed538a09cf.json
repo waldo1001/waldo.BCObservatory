@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-and-Kerala-Flood-Cess-on-Sales.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-and-Kerala-Flood-Cess-on-Sales",
+  "title": "GST and Kerala Flood Cess on Sales Transaction",
+  "blob": "e5240e61de974197a7d825d464624e572ac8d477",
+  "summary": "GST and Kerala Flood Cess (KFC) calculation on sales transactions to unregistered customers (B2C), showing separate KFC display on invoices and GL posting entries.",
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "gst",
+    "kerala flood cess",
+    "sales transaction",
+    "b2c",
+    "india localization",
+    "tax calculation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Invoice"
+    }
+  ],
+  "features": [
+    "kerala flood cess",
+    "b2c supply",
+    "gst on sales",
+    "unregistered customer"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005419,
+      "pages_in_call": 8
+    }
+  ]
+}

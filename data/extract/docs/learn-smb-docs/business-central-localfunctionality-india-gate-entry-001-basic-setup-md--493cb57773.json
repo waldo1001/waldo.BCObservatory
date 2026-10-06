@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/Gate-Entry-001-Basic-Setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Gate-Entry-001-Basic-Setup",
+  "title": "Setting up Gate Entry tracking",
+  "blob": "e430875e3040e093e557877f859fd6b29b763bd8",
+  "summary": "Setting up gate entry tracking in India to keep records of material entrance and exit (inward/outward) and relate them to purchase, sales, transfer orders and return orders, with setup requirements for inventory and posting number series.",
+  "systems": [
+    "inventory",
+    "localization"
+  ],
+  "topics": [
+    "gate entry",
+    "india localization",
+    "inward",
+    "outward",
+    "material tracking",
+    "audit trail"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    },
+    {
+      "type": "page",
+      "name": "Posting No. Series Setup"
+    }
+  ],
+  "features": [
+    "inward gate entry",
+    "outward gate entry",
+    "number series configuration",
+    "purchase order integration",
+    "sales order integration",
+    "transfer order integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005419,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-001-Basic-Setup",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "48246677c76fa5823cfe47e73bdbce251d5f644a",
       "words": 2703,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:15:56.549Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 22,
+      "cost_usd": 0.005419
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:01.577Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:01.578Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:01.579Z",
+      "page": false
     }
   },
   "input_hash": "48246677c76fa5823cfe47e73bdbce251d5f644a",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "48246677c76fa5823cfe47e73bdbce251d5f644a"
+  "output_hash": "71ddd9478c536475a53c02049eca21dd32aa30ed0eb30b91c2033a034b5d3c94"
 }

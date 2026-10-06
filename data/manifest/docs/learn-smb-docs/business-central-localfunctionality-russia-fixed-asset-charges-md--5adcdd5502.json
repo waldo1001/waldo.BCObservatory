@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/fixed-asset-charges",
   "published_at": "2025-07-22T16:06:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a8830c174016dbc4897f631221b9b4e9623a6f75",
       "words": 116,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:01.567Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00367
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:03.319Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:03.320Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:03.321Z",
+      "page": false
     }
   },
   "input_hash": "a8830c174016dbc4897f631221b9b4e9623a6f75",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a8830c174016dbc4897f631221b9b4e9623a6f75"
+  "output_hash": "e8016ce32f64f8d060e8c011806d95f78379d7f9af303737c1debe9a1aa1bdab"
 }

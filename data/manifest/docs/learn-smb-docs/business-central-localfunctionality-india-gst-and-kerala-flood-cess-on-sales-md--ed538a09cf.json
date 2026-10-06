@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-and-Kerala-Flood-Cess-on-Sales",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e5240e61de974197a7d825d464624e572ac8d477",
       "words": 250,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:15:56.552Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005419
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:03.294Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:03.296Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:03.297Z",
+      "page": false
     }
   },
   "input_hash": "e5240e61de974197a7d825d464624e572ac8d477",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e5240e61de974197a7d825d464624e572ac8d477"
+  "output_hash": "7bca980e3aab5874903614df716fa8e324ab8b09745b520e04fd23650aeff7b8"
 }

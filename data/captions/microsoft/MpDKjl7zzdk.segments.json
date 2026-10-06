@@ -1,0 +1,166 @@
+{
+  "video_id": "MpDKjl7zzdk",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 7.4,
+      "end": 27.6,
+      "text": "so with 2024 release Wave 2 co-pilot in business Central can help you generate new modify existing or alleviate you of the pain of preparing number series for the next year I'm Ian ktic I'm a product manager in business Central team join me for the next couple of minutes to show"
+    },
+    {
+      "t": 27.6,
+      "end": 47.7,
+      "text": "you how the new co-pilot capabilities help you with number Series so getting started fast uh on new implementation or recurring maintenance or simply rolling out a new module or a new company uh usually requires uh a bit of time and money uh"
+    },
+    {
+      "t": 47.7,
+      "end": 68,
+      "text": "co-pilot can reduce the time it takes to set up number series and make their maintenance quick and easy for example when you need to update a year or month based numbering to many d or posted documents in business Central so without me talking more about it let's see the co-pilot in action"
+    },
+    {
+      "t": 68,
+      "end": 80,
+      "text": "I'm in business Central and my company decided to uh uh roll out a service management module looking at a service management"
+    },
+    {
+      "t": 80.8,
+      "end": 91.1,
+      "text": "setup I can see that there are some number series uh that are missing so let me open number series"
+    },
+    {
+      "t": 91.1,
+      "end": 111.4,
+      "text": "and let's see how uh co-pilot can actually help me what I can do is I can click the generate button in here to open the the prom dialogue and in here I can actually instruct the co-pilot to generate the number series for I think I saw uh contract credit members missing a uh"
+    },
+    {
+      "t": 111.4,
+      "end": 131.4,
+      "text": "number series if you looking for inspiration there are a couple of prompt guides that can help you get inspired with the with the prompts of of uh creating new number series modifying existing or preparing uh one for the next year what I'll do in here is I will paste uh one of the prompts that I have where I want uh"
+    },
+    {
+      "t": 131.4,
+      "end": 151.8,
+      "text": "contract credit memo number series to be created you can just end it in there and the co-pilot can uh do its magic or you can supplement it with additional things for example in here I explicitly ask a co-pilot to create a number series that will include the last two digit of the number so it needs to have 24 somewhere"
+    },
+    {
+      "t": 151.8,
+      "end": 172,
+      "text": "in the uh in the number series and the numbers that it's going to generate because I know the accountant for example really do love seeing that on on the posted documents for example where that it gives them an indication of when that which uh which fiscal year that posted document uh belongs to so"
+    },
+    {
+      "t": 172,
+      "end": 192.6,
+      "text": "let's see what a co-pilot comes up with okay so it has created a suggestion for the the contract credit memo as I asked it and what you can see in here is actually the the the numbering of the contract credit memos will include 24 the year that I asked it to do"
+    },
+    {
+      "t": 192.6,
+      "end": 212.9,
+      "text": "and when I actually go ahead and click keep it it's going to insert the number Series so let's see contract so you can see contract credit memo and what is even cooler it's actually going to uh update the numbers serious also on the service management setup"
+    },
+    {
+      "t": 212.9,
+      "end": 232.9,
+      "text": "this is just this is just so cool and so mind-blowing right so the next thing I want to try it out I want to try out is since okay this is an initial number series that uh got created for the contract credit memos but let's see how how co-pilot actually handles uh"
+    },
+    {
+      "t": 232.9,
+      "end": 252.9,
+      "text": "preparing for the uh for the next year so let me go back to number series and let me generate again and in here as you can see the prompt guy actually has these uh sort of templates for for the prompts where you can say set up number series for the next year meaning you know go through all of the"
+    },
+    {
+      "t": 252.9,
+      "end": 267.4,
+      "text": "number series and set them up for the next year which is great but we'll limit ourselves only for that one that uh we have just created and we'll say let's prepare it for the next"
+    },
+    {
+      "t": 268.7,
+      "end": 288.9,
+      "text": "year all right what you can see right now it it actually found a couple of uh credit memo number series which is the reason why we always say in here AI generated content might be incorrect we didn't ask for the sales credit memo but we did ask for the contract credit memo and I will delete this one because this one I don't"
+    },
+    {
+      "t": 288.9,
+      "end": 308.9,
+      "text": "need and this one I also don't need because I know that my uh number serious for the contract credit memo was uh service management contract credit memo and what's cool about this is you can see that it it has actually respected the rule that we've uh introduced with the first number series for the current year right let's see what happens"
+    },
+    {
+      "t": 308.9,
+      "end": 329,
+      "text": "when I say keep it right and let's have a look at this contract credit members what you can see it actually it created an additional number series line and it actually set the starting date uh for the 1 of January 2025 I mean if this isn't mindblowing I don't know what is it I'm so happy to see this"
+    },
+    {
+      "t": 329,
+      "end": 348.4,
+      "text": "this uh this thing in action and one last thing that I want to show you which I'm sure is going to blow your mind is another thing where you are where we will start from a completely empty company and ask the co-pilot to generate the number series for the company let's switch to an empty"
+    },
+    {
+      "t": 348.4,
+      "end": 353.8,
+      "text": "company and let's go to number"
+    },
+    {
+      "t": 353.8,
+      "end": 374.1,
+      "text": "series and what you can see in here I have just the two number series nothing else is in there I mean we can even delete those right and I'll hit generate and as you saw in here in the create new promp guide there's this create number series for the new company I can use that template or I can use a slightly adjusted"
+    },
+    {
+      "t": 374.1,
+      "end": 394.2,
+      "text": "one that I've created to make things a bit more difficult for the co-pilot and for you to see the full power of it right so we'll ask you to create the number series for everything in business Central for the new company but what want to do is my accounting department actually said for all the poster documents make"
+    },
+    {
+      "t": 394.2,
+      "end": 412.4,
+      "text": "sure that there is a year number included in that so let's hit generate and see what it comes up with so generating number series for all of the modules general ledger sales purchase inventory it'll switch to Pro jobs uh to to projects to"
+    },
+    {
+      "t": 412.4,
+      "end": 432.5,
+      "text": "resources to manufacturing service management it will go through all of the modules and the reason why it will go through all of the modules is because this particular company has this user experience set to premium which means you know you need to set up all the number series and here it is look at all of the number series that the"
+    },
+    {
+      "t": 432.5,
+      "end": 453.1,
+      "text": "co-pilot created let's take a closer look at some of those posted documents that I've explicitly asked to include the year number you can see the posted assembly order has 24 in there let's scroll a bit down posted receipts have the year number in it I mean this is just uh great let's keep the suggestion in here"
+    },
+    {
+      "t": 453.1,
+      "end": 473.7,
+      "text": "and as you can see all of the number series have been added in here and what's even cooler about it yeah let's just go to purchase setup and I mean look at all of this this has just been said by the co-pilot and you're ready to go of course from the perspective"
+    },
+    {
+      "t": 473.7,
+      "end": 493.9,
+      "text": "of uh number series all right so what you saw in this grade demo is that you can use co-pilot to help you with number series it can generate them or modify existing ones for a specific record for a specific module or for an entire company and what's more about it it"
+    },
+    {
+      "t": 493.9,
+      "end": 514.5,
+      "text": "can actually help you maintain those number series easily with a simple prompt and using the prompt guides prompt guides that uh show up in the prom dialogue it'll make your it will make a lot of consultants and a lot of admins lives a way way much easier by removing that chore that they needed to do"
+    },
+    {
+      "t": 514.5,
+      "end": 534.5,
+      "text": "on a periodic basis I hope you enjoyed this uh video as much as I did make sure to try out these uh new improvements that kilot brings to uh number series and also make sure to check out the description that is below uh the video uh for more content and useful"
+    },
+    {
+      "t": 534.5,
+      "end": 539.8,
+      "text": "links thank you for your time"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.04,
+      "text": "[Music]"
+    },
+    {
+      "t": 7.389,
+      "text": "[Music]"
+    },
+    {
+      "t": 7.399,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1450
+}

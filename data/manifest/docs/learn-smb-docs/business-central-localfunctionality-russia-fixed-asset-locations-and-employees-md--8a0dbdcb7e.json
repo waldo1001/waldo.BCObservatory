@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/fixed-asset-locations-and-employees",
   "published_at": "2025-07-22T16:06:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "717bad70681b30ca7a3c449c66af48460b6b2871",
       "words": 383,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:01.568Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00367
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:03.325Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:03.326Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:03.327Z",
+      "page": false
     }
   },
   "input_hash": "717bad70681b30ca7a3c449c66af48460b6b2871",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "717bad70681b30ca7a3c449c66af48460b6b2871"
+  "output_hash": "2bf9a4865715b66b537a50249c3071be218ddddd69354794b9978f7b4c3f409a"
 }

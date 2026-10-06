@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "62649fbf974dec9eef95cf85d2725eae738c9350",
       "words": 810,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:15:56.550Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005419
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:01.580Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:03.290Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:03.292Z",
+      "page": false
     }
   },
   "input_hash": "62649fbf974dec9eef95cf85d2725eae738c9350",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "62649fbf974dec9eef95cf85d2725eae738c9350"
+  "output_hash": "f8433e18cf2d74061c7795d7f7691b52d3969996ae34b11a9d5d662ec04171a6"
 }

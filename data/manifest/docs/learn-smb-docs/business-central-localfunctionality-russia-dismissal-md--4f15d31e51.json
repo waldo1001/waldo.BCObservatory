@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Dismissal",
   "published_at": "2025-07-22T16:06:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "019cb27aa6f24f3e8f3018757edf4af4d3b54b6c",
       "words": 217,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:01.565Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00367
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:03.316Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:03.317Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:03.318Z",
+      "page": false
     }
   },
   "input_hash": "019cb27aa6f24f3e8f3018757edf4af4d3b54b6c",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "019cb27aa6f24f3e8f3018757edf4af4d3b54b6c"
+  "output_hash": "002fff19f73516e5e52ad84d556786b7a69f4c202dfa8ff92f4520589d58fef1"
 }

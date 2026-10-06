@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/FA_Overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/FA_Overview",
+  "title": "Setting up Fixed Asset for depreciation calculation",
+  "blob": "b7909afbd528c77bc7e52636254c59f4b06201d3",
+  "summary": "Fixed asset depreciation calculation setup for India under Income Tax Act 1961 and Companies Act 2013, including depreciation books, accounting periods, and block codes.",
+  "systems": [
+    "fixed-assets",
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "fixed assets",
+    "depreciation calculation",
+    "income tax",
+    "india",
+    "block code",
+    "accounting period"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Depreciation Books"
+    },
+    {
+      "type": "table",
+      "name": "FA Accounting Period for Inc. Tax"
+    },
+    {
+      "type": "page",
+      "name": "FA Classes"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Assets"
+    }
+  ],
+  "features": [
+    "Depreciation Book Setup",
+    "FA Accounting Period for Income Tax",
+    "FA Block Code",
+    "Additional Depreciation Setup",
+    "Seasonal and Non-Seasonal Days",
+    "Depreciation Threshold",
+    "Book Value Calculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00367,
+      "pages_in_call": 8
+    }
+  ]
+}
