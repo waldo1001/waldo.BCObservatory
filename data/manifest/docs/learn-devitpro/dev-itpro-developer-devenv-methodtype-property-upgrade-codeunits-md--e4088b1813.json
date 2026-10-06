@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-methodtype-property-upgrade-codeunits",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "01375dcc56d9afb6c7825cc7e273803c4e66d102",
       "words": 222,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:35:49.556Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004543
+    },
+    "summarized": {
+      "at": "2026-10-06T19:35:49.570Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:35:49.572Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:35:49.572Z",
+      "page": false
     }
   },
   "input_hash": "01375dcc56d9afb6c7825cc7e273803c4e66d102",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "01375dcc56d9afb6c7825cc7e273803c4e66d102"
+  "output_hash": "1de0eb2a117fb7ca4a2dbf695591017733ac9790eec8e8b1ec3d3300eeff4af2"
 }

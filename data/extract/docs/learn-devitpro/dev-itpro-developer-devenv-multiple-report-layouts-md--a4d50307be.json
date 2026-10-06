@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-multiple-report-layouts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-multiple-report-layouts",
+  "title": "Defining multiple report layouts",
+  "blob": "27f209d50fa3f454797827cc370edfe2fa893c50",
+  "summary": "Multiple report layouts in AL allow defining different layout versions (Word, Excel, RDLC, Custom) for one report using the rendering section with layout elements, captions, summaries, and obsolescence properties.",
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "report layouts",
+    "rendering",
+    "excel layouts",
+    "word layouts",
+    "rdlc layouts",
+    "report extensions"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Report with Multiple Layouts"
+    }
+  ],
+  "features": [
+    "rendering section",
+    "layout definition",
+    "Caption property",
+    "Summary property",
+    "DefaultRenderingLayout property",
+    "ExcelLayoutMultipleDataSheets",
+    "ObsoleteReason",
+    "ObsoleteState"
+  ],
+  "versions": [
+    "version 26",
+    "2024 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004543,
+      "pages_in_call": 8
+    }
+  ]
+}

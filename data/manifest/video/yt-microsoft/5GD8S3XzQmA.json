@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Using the Spotlight Tour Element in Onboarding",
   "url": "https://www.youtube.com/watch?v=5GD8S3XzQmA",
-  "published_at": null,
+  "published_at": "2024-04-18T14:16:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:35:36.729Z",
+      "captions": "auto:en-orig",
+      "duration_s": 98
+    },
+    "captioned": {
+      "at": "2026-10-06T19:35:43.499Z",
+      "path": "data/captions/microsoft/5GD8S3XzQmA.vtt",
+      "vtt_sha256": "cbfd66e8a3dc82e9a169a6ca3f133afefb5f5c0d19fa1a6f490a05e8b1cd9294",
+      "segments": 6,
+      "words": 235,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 404,
-    "duration_s": 99,
-    "via": "reconcile"
-  }
+    "duration_s": 98,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cbfd66e8a3dc82e9a169a6ca3f133afefb5f5c0d19fa1a6f490a05e8b1cd9294"
 }

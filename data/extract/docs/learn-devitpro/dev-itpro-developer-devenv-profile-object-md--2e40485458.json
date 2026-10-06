@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-profile-object.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-profile-object",
+  "title": "Profile object",
+  "blob": "8c0c7c223fbbeafaa18807809ec53d0f94b093a4",
+  "summary": "Profile object defines individual user experiences by specifying a role center and optional page customizations that modify layout and actions for specific profiles.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "profile object",
+    "role center",
+    "page customization",
+    "user experience",
+    "personalization"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Profile Object"
+    },
+    {
+      "type": "other",
+      "name": "Page Customization Object"
+    }
+  ],
+  "features": [
+    "RoleCenter property",
+    "Enabled property",
+    "Promoted property",
+    "Customizations property",
+    "page customization",
+    "layout modification"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004543,
+      "pages_in_call": 8
+    }
+  ]
+}

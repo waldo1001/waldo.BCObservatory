@@ -1,0 +1,27 @@
+{
+  "video_id": "2Zz55J8rt8I",
+  "item_id": "video/yt-microsoft/2Zz55J8rt8I",
+  "summary": "Teaching tips in Business Central: how to write them for users on a page, and how they relate to documentation and tours. Guidance covers keeping tips brief, limiting them to the three most important things, and that page order sets their sequence.",
+  "overview": "This 2-minute video from the Dynamics 365 Business Central channel (published 2024-04-18) explains how to use teaching tips to tell users what they can do on a page. A tip should state the key value of the page, as if introducing it in one sentence, rather than explain how to use it.\n\nIt also covers how teaching tips differ from documentation, how tours with teaching tips can point to specific actions or fields, and how the order of tips follows the page layout from top to bottom. The main advice is to keep tips short and few, because users may skip them if there are too many.",
+  "key_points": [
+    "Use teaching tips to educate users about what they can do on a particular page.",
+    "Keep each tip brief and state the key value of the page as if introducing it in one sentence.",
+    "Focus on the page's value, not on how to use it; users can find relevant documentation for that.",
+    "Teaching tips cannot be used to prescribe a business process.",
+    "Tip sequence is controlled by the order they appear on the page, top to bottom.",
+    "Limit tips to the three most important things; too many may be skipped or ignored.",
+    "Tours with teaching tips can point to particular actions or fields and explain them, which helps users discover key elements."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "b9f14ed0726a596b946fdae459273d0e0a801f0ca2dbc3849b4d4a96e68eed8d",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0104064
+  }
+}

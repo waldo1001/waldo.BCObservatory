@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-notifications-developing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-notifications-developing",
+  "title": "Notifications",
+  "blob": "7b30e5ce090079526bd060d72b48edd45d8db045",
+  "summary": "Notifications provide nonintrusive UI messages using Notification data type with methods to set message, scope, send, add actions, and manage data for interactive user notifications in Business Central web client.",
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "notifications",
+    "user interface",
+    "nonmodal messages",
+    "notification actions",
+    "notification scope"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Notification Data Type"
+    },
+    {
+      "type": "other",
+      "name": "NotificationScope Data Type"
+    }
+  ],
+  "features": [
+    "Message method",
+    "Scope method",
+    "Send method",
+    "AddAction method",
+    "SetData method",
+    "GetData method",
+    "Recall method",
+    "LocalScope",
+    "GlobalScope"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004543,
+      "pages_in_call": 8
+    }
+  ]
+}

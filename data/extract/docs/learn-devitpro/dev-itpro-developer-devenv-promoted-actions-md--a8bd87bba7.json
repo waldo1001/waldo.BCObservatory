@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-promoted-actions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-promoted-actions",
+  "title": "Promoted actions",
+  "blob": "6ea760830ba1c4233c39b00d63639cf738616ae8",
+  "summary": "Promoted actions provide quick access to frequently used commands using actionref syntax with split button groups, supporting legacy category syntax, icons, and gradual migration between syntax styles.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "promoted actions",
+    "actionref",
+    "action organization",
+    "split buttons",
+    "home tab",
+    "legacy syntax"
+  ],
+  "objects": [],
+  "features": [
+    "actionref syntax",
+    "split button",
+    "ShowAs property",
+    "Image property",
+    "PromotedIsBig property",
+    "PromotedCategory property",
+    "PromotedActionCategories property",
+    "Promoted property"
+  ],
+  "versions": [
+    "2022 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004543,
+      "pages_in_call": 8
+    }
+  ]
+}

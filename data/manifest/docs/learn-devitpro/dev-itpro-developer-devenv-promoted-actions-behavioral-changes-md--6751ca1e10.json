@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-promoted-actions-behavioral-changes",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "243436951a277a966afe616d82a4f13af26ad4b1",
       "words": 445,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:35:49.562Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004543
+    },
+    "summarized": {
+      "at": "2026-10-06T19:35:51.399Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:35:51.400Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:35:51.401Z",
+      "page": false
     }
   },
   "input_hash": "243436951a277a966afe616d82a4f13af26ad4b1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "243436951a277a966afe616d82a4f13af26ad4b1"
+  "output_hash": "5af29885afcd490ac41ed23fa99ecc0bcec5d183dcdd2e10873bfa713e1256fe"
 }

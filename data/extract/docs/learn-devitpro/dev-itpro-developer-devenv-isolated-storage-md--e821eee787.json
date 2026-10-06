@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-isolated-storage.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-isolated-storage",
+  "title": "Isolated Storage",
+  "blob": "fbec65e9fdb9ea7115defa68714308c7ae75dffe",
+  "summary": "Isolated Storage provides data storage with extension isolation, allowing keys and values to be kept private within extensions using Set, Get, Contains, Delete, and SetEncrypted methods with DataScope option type.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "isolated storage",
+    "extension isolation",
+    "data persistence",
+    "encryption",
+    "datascope"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "IsolatedStorage Data Type"
+    }
+  ],
+  "features": [
+    "Set method",
+    "Get method",
+    "Contains method",
+    "Delete method",
+    "SetEncrypted method"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004543,
+      "pages_in_call": 8
+    }
+  ]
+}

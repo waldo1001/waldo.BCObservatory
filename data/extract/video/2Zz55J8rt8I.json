@@ -1,0 +1,157 @@
+{
+  "video_id": "2Zz55J8rt8I",
+  "item_id": "video/yt-microsoft/2Zz55J8rt8I",
+  "title": "Use Teaching Tips to Educate and Guide Users",
+  "duration_s": 139,
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "teaching tips",
+    "user education",
+    "onboarding",
+    "ui design",
+    "help documentation",
+    "tours",
+    "user guidance"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Teaching Tips",
+      "t_start": 0,
+      "t_end": 20.8
+    },
+    {
+      "title": "Creating Effective Teaching Tips Content",
+      "t_start": 20.8,
+      "t_end": 41.2
+    },
+    {
+      "title": "Teaching Tips vs Documentation",
+      "t_start": 41.2,
+      "t_end": 56.9
+    },
+    {
+      "title": "Using Tours with Teaching Tips",
+      "t_start": 56.9,
+      "t_end": 77.6
+    },
+    {
+      "title": "Sequencing and Page Layout",
+      "t_start": 77.6,
+      "t_end": 98.2
+    },
+    {
+      "title": "Best Practices: Keep It Brief",
+      "t_start": 98.2,
+      "t_end": 114.8
+    },
+    {
+      "title": "Conclusion and Resources",
+      "t_start": 114.8,
+      "t_end": 139
+    }
+  ],
+  "features": [
+    {
+      "name": "Teaching Tips",
+      "description": "Teaching tips are a valuable method for educating users about what they can do on a particular page. They should be brief, focus on key value rather than how to use the page, and allow users to find relevant documentation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 20.8,
+      "t_end": 98.2,
+      "is_demoed": false,
+      "caveats": [
+        "Cannot be used to prescribe a certain business process",
+        "Sequence is controlled by order on page top to bottom",
+        "Users may skip or ignore if too many are used",
+        "Should be limited to three most important things"
+      ],
+      "tags": [
+        "teaching tips",
+        "user education",
+        "ui guidance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Tours with Teaching Tips",
+      "description": "Tours with teaching tips can point to particular actions or fields and provide explanations. They are a better choice for helping users discover key elements on a page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 56.9,
+      "t_end": 77.6,
+      "is_demoed": false,
+      "caveats": [
+        "Cannot prescribe business processes",
+        "Sequence determined by page order top to bottom"
+      ],
+      "tags": [
+        "tours",
+        "teaching tips",
+        "user discovery"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Sarah",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 20.8,
+      "text": "teaching tips are a valuable method for educating users about what they can do in a particular particular page",
+      "why_it_matters": "Establishes the primary purpose and value of teaching tips as a user education tool.",
+      "check": "exact"
+    },
+    {
+      "t": 20.8,
+      "text": "be brief make sure the user understands the key value of the page as if you would introduce it in one sentence",
+      "why_it_matters": "Sets the design principle that teaching tips should focus on key value, not procedures.",
+      "check": "exact"
+    },
+    {
+      "t": 56.9,
+      "text": "you can't use teaching tips to prescribe a certain business process",
+      "why_it_matters": "Defines a critical limitation of teaching tips - they cannot be used for process workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 77.6,
+      "text": "the sequence of the teaching tips is controlled by the order they appear on the page top to bottom",
+      "why_it_matters": "Explains the technical constraint that teaching tips follow page layout order, not custom sequencing.",
+      "check": "exact"
+    },
+    {
+      "t": 98.2,
+      "text": "shorter and fewer tips is usually better if you try to communicate too much",
+      "why_it_matters": "Provides best practice guidance on balancing coverage with user engagement.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010255
+    }
+  ]
+}

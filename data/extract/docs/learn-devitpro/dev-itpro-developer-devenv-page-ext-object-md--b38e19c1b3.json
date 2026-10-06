@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-page-ext-object.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object",
+  "title": "Page extension object",
+  "blob": "add3795fb2df25feed3ea1492cd8844d8a295ce8",
+  "summary": "Page extension object extends Business Central pages by adding or modifying functionality, layout controls, and actions using keywords like addlast, addfirst, addafter, addbefore, modify, movefirst, movelast, moveafter, and movebefore.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "page extensions",
+    "page layout",
+    "actions",
+    "controls",
+    "extensibility"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Page Extension Object"
+    }
+  ],
+  "features": [
+    "addfirst",
+    "addlast",
+    "addafter",
+    "addbefore",
+    "movefirst",
+    "movelast",
+    "moveafter",
+    "movebefore",
+    "modify keyword",
+    "views support",
+    "tooltip support"
+  ],
+  "versions": [
+    "2024 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004543,
+      "pages_in_call": 8
+    }
+  ]
+}

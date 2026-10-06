@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-methodtype-property-upgrade-codeunits.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-methodtype-property-upgrade-codeunits",
+  "title": "MethodType Property (Upgrade Codeunits)",
+  "blob": "01375dcc56d9afb6c7825cc7e273803c4e66d102",
+  "summary": "MethodType property on upgrade codeunits defines method types for data migration: Normal, UpgradePerCompany, UpgradePerDatabase, TableSyncSetup, and CheckPrecondition.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "upgrade codeunits",
+    "data upgrade",
+    "methodtype property",
+    "table synchronization"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Upgrade Codeunit"
+    }
+  ],
+  "features": [
+    "UpgradePerCompany",
+    "UpgradePerDatabase",
+    "TableSyncSetup",
+    "CheckPrecondition"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004543,
+      "pages_in_call": 8
+    }
+  ]
+}
