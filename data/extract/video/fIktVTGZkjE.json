@@ -1,0 +1,158 @@
+{
+  "video_id": "fIktVTGZkjE",
+  "item_id": "video/yt-microsoft/fIktVTGZkjE",
+  "title": "Comparing Correcting and Reversing Entries Between Dynamics GP and Dynamics Business Central (2024)",
+  "duration_s": 180,
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "correcting entries",
+    "reversing entries",
+    "journal entries",
+    "dimensions",
+    "general ledger",
+    "posting",
+    "dynamics gp vs business central"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to correcting entries",
+      "t_start": 0,
+      "t_end": 11.4
+    },
+    {
+      "title": "Correcting entries workflow in Dynamics GP",
+      "t_start": 11.4,
+      "t_end": 58.9
+    },
+    {
+      "title": "Reversing entries in Business Central",
+      "t_start": 58.9,
+      "t_end": 99.3
+    },
+    {
+      "title": "Correcting dimensions in Business Central",
+      "t_start": 99.3,
+      "t_end": 157.2
+    },
+    {
+      "title": "Summary and resources",
+      "t_start": 157.2,
+      "t_end": 180
+    }
+  ],
+  "features": [
+    {
+      "name": "Reverse transaction in Business Central",
+      "description": "Functionality to reverse a posted journal entry by selecting the reverse option in the general ledger entries window, which automatically reverses the debits and credits of the original entry.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 58.9,
+      "t_end": 99.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reversing",
+        "general ledger",
+        "posted entries"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Correct Dimension functionality",
+      "description": "Allows correcting an incorrectly posted dimension value on a journal entry without reversing the entire transaction, by selecting the correct dimension option and entering the correct dimension value code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 99.3,
+      "t_end": 157.2,
+      "is_demoed": true,
+      "caveats": [
+        "Allows correcting dimension values without full transaction reversal"
+      ],
+      "tags": [
+        "dimensions",
+        "journal entries",
+        "correction"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Correct entry option in Dynamics GP",
+      "description": "In GP's general journal window, the correct button provides options to back out a journal entry or back out and create a correcting entry, with the ability to select and reverse a specific journal entry.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 11.4,
+      "t_end": 58.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "correcting entries",
+        "general journal",
+        "dynamics gp"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "general journal window",
+      "t": 11.4
+    },
+    {
+      "type": "page",
+      "name": "general ledger entries window",
+      "t": 58.9
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 11.4,
+      "text": "I'll select the correct button here there are two options to select from to back out the journal entry or back out and create",
+      "why_it_matters": "Explains the two distinct correcting entry options available in Dynamics GP",
+      "check": "exact"
+    },
+    {
+      "t": 58.9,
+      "text": "now let's look at how we can reverse that same posted journal entry in business Central first I'll select the general ledger entries window",
+      "why_it_matters": "Demonstrates that Business Central uses a different workflow through general ledger entries for reversing rather than the GP approach",
+      "check": "exact"
+    },
+    {
+      "t": 99.3,
+      "text": "you could reverse the transaction or you can use the correct Dimension functionality to correct a dimension value",
+      "why_it_matters": "Shows that Business Central offers an alternative to full reversal when only dimension values need correction",
+      "check": "exact"
+    },
+    {
+      "t": 157.2,
+      "text": "reversing and correcting Dimensions is a quick and simple process in business Central",
+      "why_it_matters": "Summarizes the efficiency of Business Central's reversing and dimension correction features",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010401999999999998
+    }
+  ]
+}

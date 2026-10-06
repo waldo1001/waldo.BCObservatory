@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-99000787.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000787",
+  "title": "Routing Sheet (report)",
+  "blob": "754f27ef3b32a13de817e1abb9e5fa7faf580c06",
+  "summary": "The Routing Sheet report displays manufacturing operations required to build an item, including work center, machine center, personnel, tools, and timing information such as setup time, run time, and wait time.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "routing",
+    "production",
+    "work center",
+    "operations"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Routing Sheet"
+    }
+  ],
+  "features": [
+    "send ahead quantity",
+    "scrap factor percentage",
+    "setup time",
+    "run time",
+    "wait time",
+    "production quantity"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002583,
+      "pages_in_call": 8
+    }
+  ]
+}

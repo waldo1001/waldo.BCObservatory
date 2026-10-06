@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/how-to-view-posted-tax-credit-memos.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-view-posted-tax-credit-memos",
+  "title": "View posted tax credit memos [NZ]",
+  "blob": "1fa1a4c97e3471cf1dbd9a46fbf2dae9a5671277",
+  "summary": "View details of posted sales and purchase tax credit memos in the New Zealand version of Business Central using dedicated pages for each transaction type.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "tax credit memos",
+    "posted transactions",
+    "new zealand"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Posted Sales Tax Credit Memo"
+    },
+    {
+      "type": "page",
+      "name": "Posted Purch. Tax Credit Memo"
+    }
+  ],
+  "features": [
+    "posted credit memo viewing",
+    "general information display",
+    "invoicing details",
+    "shipping details",
+    "foreign trade information"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00122,
+      "pages_in_call": 8
+    }
+  ]
+}

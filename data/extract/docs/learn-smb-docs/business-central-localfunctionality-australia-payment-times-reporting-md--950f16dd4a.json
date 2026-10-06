@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/payment-times-reporting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/payment-times-reporting",
+  "title": "Payment Times Reporting in the Australian version",
+  "blob": "1ba7b766cd4ae8d66a696c7e53e3c62b7ce4a8cc",
+  "summary": "Payment Times Reporting in Australia describes compliance requirements for large businesses reporting vendor payment performance to authorities, and how to extract relevant data from Business Central for the mandated delimited text file.",
+  "systems": [
+    "purchasing"
+  ],
+  "topics": [
+    "australia",
+    "payment times",
+    "compliance",
+    "reporting",
+    "small business vendors"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Vendor Ledger Entries"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Posting Group"
+    }
+  ],
+  "features": [
+    "small business vendor marking",
+    "payment bucket reporting",
+    "vendor lookup",
+    "invoice payment tracking",
+    "applied entries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002583,
+      "pages_in_call": 8
+    }
+  ]
+}

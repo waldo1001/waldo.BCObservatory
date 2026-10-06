@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-99000786.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000786",
+  "title": "Machine Center Load/Bar (report)",
+  "blob": "354e221cb412e92d41da149e51db74aa5ad3e3c1",
+  "summary": "The Machine Center Load/Bar report shows a list of machine centers that are overloaded according to production plans, with graphical efficiency bars indicating capacity status and expected efficiency.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "machine center",
+    "load reporting",
+    "capacity planning",
+    "overload visualization"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Machine Center Load/Bar"
+    }
+  ],
+  "features": [
+    "overload detection",
+    "efficiency bars",
+    "capacity display",
+    "expected efficiency tracking",
+    "configurable overload thresholds"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00122,
+      "pages_in_call": 8
+    }
+  ]
+}

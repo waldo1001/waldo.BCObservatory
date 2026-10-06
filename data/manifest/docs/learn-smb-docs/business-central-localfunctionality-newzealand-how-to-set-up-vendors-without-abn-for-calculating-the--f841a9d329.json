@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax",
   "published_at": "2025-05-07T13:37:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f4b935d9edd2547d151ba007fdc0c9221f0d1247",
       "words": 142,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:45.880Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00122
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:45.892Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:45.893Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:45.894Z",
+      "page": false
     }
   },
   "input_hash": "f4b935d9edd2547d151ba007fdc0c9221f0d1247",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f4b935d9edd2547d151ba007fdc0c9221f0d1247"
+  "output_hash": "68d8e8cd4f420198a19f69010fc7874939f8a16565b327933c2f726b3451abc5"
 }

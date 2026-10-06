@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/how-to-print-income-statements.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-print-income-statements",
+  "title": "Print Income Statements [NZ]",
+  "blob": "71f56895b1e1d0cd38f2db6b09a144d0b4d3c967",
+  "summary": "Print income statements in the New Zealand version generates statutory income statements showing revenues and expenses for current and prior years.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "income statement",
+    "new zealand",
+    "financial reporting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Income Statement"
+    }
+  ],
+  "features": [
+    "Income statement report",
+    "Amounts in whole",
+    "Show Amounts in Add. Reporting Currency"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.000994,
+      "pages_in_call": 7
+    }
+  ]
+}

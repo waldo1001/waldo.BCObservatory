@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/how-to-enter-new-zealand-business-numbers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-enter-new-zealand-business-numbers",
+  "title": "Enter Inland revenue department numbers",
+  "blob": "a10ef438bf899938434ab2c958b455b854abcbb1",
+  "summary": "Enter Inland Revenue Department numbers explains how to enter New Zealand IRD numbers in Company Information and Vendor Card pages for tax compliance.",
+  "systems": [
+    "administration",
+    "localization"
+  ],
+  "topics": [
+    "ird number",
+    "new zealand",
+    "tax registration",
+    "compliance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    }
+  ],
+  "features": [
+    "IRD number entry",
+    "Registration FastTab",
+    "IRD No. field"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.000994,
+      "pages_in_call": 7
+    }
+  ]
+}

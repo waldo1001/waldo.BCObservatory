@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax",
+  "title": "Set up vendors without IRD for calculating withholding tax (NZ)",
+  "blob": "f4b935d9edd2547d151ba007fdc0c9221f0d1247",
+  "summary": "Set up vendors without IRD numbers in Business Central to calculate withholding tax for local New Zealand vendors as required by tax law. The WHT percentage is automatically withheld based on WHT Posting Setup configuration.",
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "withholding tax",
+    "vendors",
+    "ird number",
+    "new zealand"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    }
+  ],
+  "features": [
+    "withholding tax calculation",
+    "vendor registration",
+    "WHT certificate"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00122,
+      "pages_in_call": 8
+    }
+  ]
+}

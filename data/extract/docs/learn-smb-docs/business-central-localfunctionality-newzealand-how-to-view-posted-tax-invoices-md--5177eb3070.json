@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/how-to-view-posted-tax-invoices.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/NewZealand/how-to-view-posted-tax-invoices",
+  "title": "View posted tax invoices [NZ]",
+  "blob": "f895d0ec0936b30d6cc607274f832f66eda61750",
+  "summary": "View details of posted sales and purchase tax invoices in the New Zealand version of Business Central using dedicated pages for reviewing transaction details.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "tax invoices",
+    "posted transactions",
+    "new zealand"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Posted Sales Tax Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Posted Purchase Tax Invoice"
+    }
+  ],
+  "features": [
+    "posted invoice viewing",
+    "general information display",
+    "invoicing details",
+    "shipping details",
+    "foreign trade information"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00122,
+      "pages_in_call": 8
+    }
+  ]
+}

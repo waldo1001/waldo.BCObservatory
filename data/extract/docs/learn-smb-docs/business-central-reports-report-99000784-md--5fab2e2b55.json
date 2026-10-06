@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-99000784.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-99000784",
+  "title": "Machine Center Load (report)",
+  "blob": "096fdddbb2e6e7359bec8bcb8de4065933da8da6",
+  "summary": "The Machine Center Load report displays the work load on a machine center by summing required run times for all planned and actual orders over a specified period.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "machine center",
+    "load reporting",
+    "production planning"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Machine Center Load"
+    }
+  ],
+  "features": [
+    "work load calculation",
+    "planned and actual orders",
+    "period-based analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00122,
+      "pages_in_call": 8
+    }
+  ]
+}

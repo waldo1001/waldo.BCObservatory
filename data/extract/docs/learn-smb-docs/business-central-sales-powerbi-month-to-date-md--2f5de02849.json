@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-month-to-date.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-month-to-date",
+  "title": "Sales Month-to-Date (MTD) (Power BI Report)",
+  "blob": "d6a95aba0fd0682193a484a654650196d8b09de0",
+  "summary": "The Month-to-Date Power BI report monitors current month sales revenue progress and performance for executives and sales managers, including gross profit and top customer breakdown.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "sales",
+    "power bi",
+    "month-to-date",
+    "revenue",
+    "analytics"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    }
+  ],
+  "features": [
+    "sales amount",
+    "sales amount MTD fiscal",
+    "gross profit MTD fiscal",
+    "customer breakdown",
+    "sales performance analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002583,
+      "pages_in_call": 8
+    }
+  ]
+}
