@@ -1,0 +1,76 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TDS-for-Customer-Overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-for-Customer-Overview",
+  "title": "Setting up TDS by Customer as per the Income Tax Act, 1961 provisions",
+  "blob": "99cf2920b7745bd1375fc981efb4b6e218795396",
+  "summary": "Tax Deducted at Source (TDS) by customer is a withholding tax deducted at payment or invoice booking, requiring setup of rates, sections, assessee codes, concessional codes, and customer master configurations for TDS calculation and certificate tracking.",
+  "systems": [
+    "finance",
+    "sales",
+    "administration"
+  ],
+  "topics": [
+    "tds",
+    "india",
+    "tax deduction",
+    "customer",
+    "withholding tax"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Tax Type"
+    },
+    {
+      "type": "page",
+      "name": "Tax Acc. Period Setup"
+    },
+    {
+      "type": "page",
+      "name": "T.A.N Nos."
+    },
+    {
+      "type": "page",
+      "name": "Assessee Codes"
+    },
+    {
+      "type": "page",
+      "name": "TDS Sections"
+    },
+    {
+      "type": "page",
+      "name": "Concessional Codes"
+    },
+    {
+      "type": "page",
+      "name": "TDS Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Customer"
+    }
+  ],
+  "features": [
+    "TDS Rate",
+    "Tax Accounting Period",
+    "T.A.N",
+    "Assessee Code",
+    "TDS Section",
+    "Concessional Code",
+    "TDS Posting Setup",
+    "TDS Certificate Receivable",
+    "Threshold Overlook",
+    "Surcharge Overlook"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004317,
+      "pages_in_call": 8
+    }
+  ]
+}

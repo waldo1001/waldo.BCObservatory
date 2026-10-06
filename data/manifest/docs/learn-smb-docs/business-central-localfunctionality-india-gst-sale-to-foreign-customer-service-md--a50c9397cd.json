@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Foreign-Customer-Service",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7df30a95e51389d8d26e2ca5c40bd43b31184574",
       "words": 315,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:49.953Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003358
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:55.895Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:55.896Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:55.898Z",
+      "page": false
     }
   },
   "input_hash": "7df30a95e51389d8d26e2ca5c40bd43b31184574",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7df30a95e51389d8d26e2ca5c40bd43b31184574"
+  "output_hash": "9d2f69f5105f87911a772cd3823e786f12929f043b3544c96fe4bdd75fcf547c"
 }

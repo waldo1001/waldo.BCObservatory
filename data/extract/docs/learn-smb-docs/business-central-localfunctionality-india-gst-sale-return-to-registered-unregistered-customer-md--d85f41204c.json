@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Sale-Return-to-Registered-Unregistered-Customer.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-Return-to-Registered-Unregistered-Customer",
+  "title": "Sales Return of Goods from Registered or Unregistered Customer",
+  "blob": "656fab0713c4255d46b8e0a9038ab4ccfd7b7adf",
+  "summary": "Sales returns and credit memos to registered (B2B) and unregistered (B2C) customers in India with identical GST computation covering intra-state (CGST/SGST) and inter-state (IGST) transactions. Includes GL entries for both goods and services.",
+  "systems": [
+    "sales",
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "gst",
+    "india",
+    "sales returns",
+    "b2b",
+    "b2c",
+    "customer",
+    "cgst",
+    "sgst",
+    "igst"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Return Order"
+    },
+    {
+      "type": "page",
+      "name": "Sales Credit Memo"
+    }
+  ],
+  "features": [
+    "Registered customer handling",
+    "Unregistered customer handling",
+    "Intra-state transactions",
+    "Inter-state transactions",
+    "Service returns",
+    "GL entry generation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003358,
+      "pages_in_call": 8
+    }
+  ]
+}

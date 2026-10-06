@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Composite-Vendor",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6cbad243c370a6d11dc6e31ba2d38613f48b5e2c",
       "words": 297,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:49.946Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003358
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:49.954Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:49.955Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:49.956Z",
+      "page": false
     }
   },
   "input_hash": "6cbad243c370a6d11dc6e31ba2d38613f48b5e2c",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6cbad243c370a6d11dc6e31ba2d38613f48b5e2c"
+  "output_hash": "2d20eee4de2ce55c068123fbdef9b7a921d2bb7137cb609d47f26b0614946061"
 }

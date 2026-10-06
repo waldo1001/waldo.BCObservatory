@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Settelement.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Settelement",
+  "title": "GST Settlement of Net Payment Liability",
+  "blob": "cd46b988daeea2a609b70f99f677b71bc60c9d36",
+  "summary": "GST settlement of net payment liability involves calculating tax payable from outward and inward supplies, applying credit offsets in priority order, and discharging liability through cash or credit utilization on a monthly basis.",
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "gst",
+    "india",
+    "settlement",
+    "tax liability",
+    "credit",
+    "igst",
+    "cgst",
+    "sgst"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "GST Settlement"
+    },
+    {
+      "type": "page",
+      "name": "Return & Reco Components"
+    }
+  ],
+  "features": [
+    "Net Payment Liability",
+    "Credit Availed",
+    "Credit Utilized",
+    "Reverse Charge Liability",
+    "GST TDS Credit",
+    "GST TCS Credit",
+    "Interest",
+    "Penalty",
+    "Fees",
+    "Payment Liability"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004317,
+      "pages_in_call": 8
+    }
+  ]
+}

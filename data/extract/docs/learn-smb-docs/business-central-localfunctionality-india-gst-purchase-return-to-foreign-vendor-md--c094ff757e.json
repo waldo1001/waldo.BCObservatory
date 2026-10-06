@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Foreign-Vendor.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Foreign-Vendor",
+  "title": "Purchase Credit Memo or Return Order to Foreign Vendor",
+  "blob": "670838b209bbf6cffa8d6b8cd2ac2cab1856b524",
+  "summary": "Purchase credit memos and return orders for foreign vendors (imports) in India, subject to reverse charge with IGST calculation on GST assessable value plus basic customs duty. Covers GL entries for available and unavailable input tax credit scenarios.",
+  "systems": [
+    "purchasing",
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "gst",
+    "india",
+    "imports",
+    "foreign vendor",
+    "reverse charge",
+    "igst",
+    "custom duty"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Return Order"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Credit Memo"
+    }
+  ],
+  "features": [
+    "Import tax treatment",
+    "Reverse charge mechanism",
+    "IGST calculation",
+    "Custom duty handling",
+    "Input tax credit options",
+    "GL entries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003358,
+      "pages_in_call": 8
+    }
+  ]
+}

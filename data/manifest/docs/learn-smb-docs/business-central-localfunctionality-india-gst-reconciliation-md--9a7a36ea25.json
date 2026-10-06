@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Reconciliation",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "695000643e8a8772e585c6606ff06e6677bc1053",
       "words": 871,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:49.950Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.003358
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:55.884Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:55.884Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:55.885Z",
+      "page": false
     }
   },
   "input_hash": "695000643e8a8772e585c6606ff06e6677bc1053",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "695000643e8a8772e585c6606ff06e6677bc1053"
+  "output_hash": "6cb241b5fc01847e1be906447801338375a1791c831c605b6db030d559586117"
 }

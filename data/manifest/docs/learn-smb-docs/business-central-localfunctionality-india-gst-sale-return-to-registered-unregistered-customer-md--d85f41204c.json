@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-Return-to-Registered-Unregistered-Customer",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "656fab0713c4255d46b8e0a9038ab4ccfd7b7adf",
       "words": 355,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:49.952Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003358
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:55.890Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:55.891Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:55.893Z",
+      "page": false
     }
   },
   "input_hash": "656fab0713c4255d46b8e0a9038ab4ccfd7b7adf",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "656fab0713c4255d46b8e0a9038ab4ccfd7b7adf"
+  "output_hash": "703e37fd0391b94528c1cad50d148bef450a19c732a9da25501f931fa2d8e78e"
 }

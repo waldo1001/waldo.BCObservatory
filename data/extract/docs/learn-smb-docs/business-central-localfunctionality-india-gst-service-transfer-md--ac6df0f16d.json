@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Service-Transfer.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Transfer",
+  "title": "Service Transfer",
+  "blob": "90b490f6e31023df11164d2e64ca818766611c54",
+  "summary": "Service transfers between locations with different registration numbers are taxable under GST, with CGST/SGST levied for intra-state transfers and IGST for inter-state transfers, processed through Service Transfer Order.",
+  "systems": [
+    "finance",
+    "sales",
+    "warehouse"
+  ],
+  "topics": [
+    "gst",
+    "india",
+    "service transfer",
+    "cgst",
+    "sgst",
+    "igst"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Transfer Order"
+    }
+  ],
+  "features": [
+    "Transfer-from Code",
+    "Transfer-to Code",
+    "Ship Control Account",
+    "Receive Control Account",
+    "GST Group Code",
+    "HSN/SAC Code",
+    "Inter-location Control Account"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004317,
+      "pages_in_call": 8
+    }
+  ]
+}

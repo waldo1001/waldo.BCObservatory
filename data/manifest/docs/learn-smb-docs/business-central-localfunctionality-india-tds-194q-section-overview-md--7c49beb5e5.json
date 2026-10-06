@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-194Q-Section-Overview",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fa9317f07db81ea2d6f82bdabcc3ce2c5b923291",
       "words": 616,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:55.869Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004317
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:57.661Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:57.662Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:57.663Z",
+      "page": false
     }
   },
   "input_hash": "fa9317f07db81ea2d6f82bdabcc3ce2c5b923291",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fa9317f07db81ea2d6f82bdabcc3ce2c5b923291"
+  "output_hash": "cdbde4f73e12f0a5aece36b45a1f80b4a6eb52ee07f9847f533c586f48fd8f71"
 }

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Composite-Vendor.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Composite-Vendor",
+  "title": "Purchase Return of Goods and Services to Composite Vendor or Purchase Return of exempted goods and services with no GST Impact",
+  "blob": "6cbad243c370a6d11dc6e31ba2d38613f48b5e2c",
+  "summary": "Purchase returns and credit memos to composite vendors (small businesses under 50 lakh rupees turnover) and exempted goods/services that don't attract GST in India. No GST entries are generated for composite vendors.",
+  "systems": [
+    "purchasing",
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "gst",
+    "india",
+    "purchase returns",
+    "composite vendor",
+    "exempted goods",
+    "credit memo"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Return Order"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Credit Memo"
+    }
+  ],
+  "features": [
+    "Composite vendor GST treatment",
+    "Exempted goods handling",
+    "Purchase return processing",
+    "GL entry generation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003358,
+      "pages_in_call": 8
+    }
+  ]
+}

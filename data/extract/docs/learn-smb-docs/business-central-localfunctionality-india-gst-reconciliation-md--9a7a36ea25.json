@@ -1,0 +1,62 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Reconciliation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Reconciliation",
+  "title": "GST Reconciliation",
+  "blob": "695000643e8a8772e585c6606ff06e6677bc1053",
+  "summary": "GST reconciliation process in India for matching purchase transactions with GSTR-2A (supplier-uploaded data) downloaded from GSTN portal. Includes setup of GST component mapping and reconciliation workflow to identify matched/unmatched transactions and manage provisional tax credits.",
+  "systems": [
+    "purchasing",
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "gst",
+    "india",
+    "reconciliation",
+    "gstr-2a",
+    "tax compliance",
+    "input service distribution"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "GST Component Mapping Recon."
+    },
+    {
+      "type": "page",
+      "name": "GST Reconciliation List"
+    },
+    {
+      "type": "page",
+      "name": "GST Reconciliation Lines"
+    },
+    {
+      "type": "table",
+      "name": "Periodic GSTR-2A Data"
+    },
+    {
+      "type": "table",
+      "name": "Detailed GST Ledger Entries"
+    }
+  ],
+  "features": [
+    "GSTR-2A import",
+    "Transaction reconciliation",
+    "Tolerance settings",
+    "Input service distribution",
+    "Monthly reconciliation",
+    "Unmatched transaction tracking",
+    "Multi-line invoice clubbing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003358,
+      "pages_in_call": 8
+    }
+  ]
+}

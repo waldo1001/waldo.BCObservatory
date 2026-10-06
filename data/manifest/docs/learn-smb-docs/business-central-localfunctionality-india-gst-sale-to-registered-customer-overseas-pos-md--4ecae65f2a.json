@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Registered-Customer-Overseas-POS",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ba422bb76f9d03303e554ad8bd47a822bfd1bbc9",
       "words": 246,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:55.862Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004317
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:55.871Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:55.871Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:55.872Z",
+      "page": false
     }
   },
   "input_hash": "ba422bb76f9d03303e554ad8bd47a822bfd1bbc9",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ba422bb76f9d03303e554ad8bd47a822bfd1bbc9"
+  "output_hash": "d7cc81b4a02efd3ac64b763a2ad89990e9d59d2e9b0fea1f8a3eed87f6c3b662"
 }

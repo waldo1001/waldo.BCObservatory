@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS",
+  "title": "Sales returns from registered customers for goods with an overseas place of supply",
+  "blob": "eea2d980f0f01dab4a4ee40bb3a5ac09798f565e",
+  "summary": "Sales returns from registered customers for goods with overseas place of supply under GST involve creating return orders or credit memos with POS Out of India marked and IGST charged, posting GL entries to reverse the original sale.",
+  "systems": [
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "gst",
+    "india",
+    "sales returns",
+    "overseas",
+    "igst",
+    "registered customer"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Return Order"
+    },
+    {
+      "type": "page",
+      "name": "Sales Credit Memo"
+    }
+  ],
+  "features": [
+    "POS Out of India",
+    "IGST calculation",
+    "GST Group Code",
+    "HSN/SAC Code",
+    "Registered customer type"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004317,
+      "pages_in_call": 8
+    }
+  ]
+}

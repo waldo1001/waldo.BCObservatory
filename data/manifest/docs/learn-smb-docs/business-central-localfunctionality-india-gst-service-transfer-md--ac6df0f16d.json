@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Transfer",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "90b490f6e31023df11164d2e64ca818766611c54",
       "words": 336,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:55.866Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004317
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:57.652Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:57.653Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:57.654Z",
+      "page": false
     }
   },
   "input_hash": "90b490f6e31023df11164d2e64ca818766611c54",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "90b490f6e31023df11164d2e64ca818766611c54"
+  "output_hash": "a749a6d9eb78d32b0307d58b2a6283d31e04c92d076dab5ae9dbe415ced19f82"
 }

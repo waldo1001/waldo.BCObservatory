@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Return-of-Service-for-Overseas-Place-of-supply-Registered-Vendor.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Return-of-Service-for-Overseas-Place-of-supply-Registered-Vendor",
+  "title": "Purchase Return of Services for Overseas Place of Supply to Registered Vendor",
+  "blob": "cc306668e8eab450e4d7268bbee283cf506bbaec",
+  "summary": "Purchase returns and credit memos for services with overseas place of supply (supplier in India, recipient outside India) to registered vendors, charged at IGST rate. Covers GL entries for available and unavailable input tax credit scenarios.",
+  "systems": [
+    "purchasing",
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "gst",
+    "india",
+    "purchase returns",
+    "overseas",
+    "place of supply",
+    "igst",
+    "services"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Return Order"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Credit Memo"
+    }
+  ],
+  "features": [
+    "Overseas place of supply treatment",
+    "IGST calculation",
+    "Service purchases",
+    "Input tax credit options",
+    "GL entry generation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003358,
+      "pages_in_call": 8
+    }
+  ]
+}

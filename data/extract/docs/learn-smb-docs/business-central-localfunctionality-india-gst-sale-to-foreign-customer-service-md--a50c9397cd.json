@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Sale-to-Foreign-Customer-Service.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Sale-to-Foreign-Customer-Service",
+  "title": "Export of Goods and/or Services to Foreign Customer",
+  "blob": "7df30a95e51389d8d26e2ca5c40bd43b31184574",
+  "summary": "Export of goods and services to foreign customers, deemed exporters, and SEZ units/developers in India with zero or IGST treatment depending on duty payment status. Covers GL entries for exports with and without payment of duty.",
+  "systems": [
+    "sales",
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "gst",
+    "india",
+    "exports",
+    "foreign customer",
+    "sez",
+    "igst",
+    "deemed export"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Invoice"
+    }
+  ],
+  "features": [
+    "Export customer types",
+    "Duty payment handling",
+    "IGST refund mechanism",
+    "SEZ treatment",
+    "Deemed export treatment",
+    "GL entry generation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003358,
+      "pages_in_call": 8
+    }
+  ]
+}

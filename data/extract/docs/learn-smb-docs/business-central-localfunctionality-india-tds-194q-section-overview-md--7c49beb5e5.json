@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TDS-194Q-Section-Overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-194Q-Section-Overview",
+  "title": "Setting Up Tax Deducted at Source (TDS) on purchase of goods under Section 194Q",
+  "blob": "fa9317f07db81ea2d6f82bdabcc3ce2c5b923291",
+  "summary": "Tax Deducted at Source (TDS) section 194Q on purchase of goods applies when aggregate purchases from a supplier exceed Rs.50 lacs, requiring TDS deduction at 0.10%, with setup for rates and opening amounts.",
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "tds",
+    "india",
+    "194q",
+    "purchase",
+    "tax deduction"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "TDS Section"
+    },
+    {
+      "type": "page",
+      "name": "TDS 194Q Opening"
+    }
+  ],
+  "features": [
+    "Calc. Over & Above Threshold",
+    "Aggregate Turnover",
+    "TDS Threshold Amount",
+    "TDS Rate",
+    "Threshold Overlook"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004317,
+      "pages_in_call": 8
+    }
+  ]
+}

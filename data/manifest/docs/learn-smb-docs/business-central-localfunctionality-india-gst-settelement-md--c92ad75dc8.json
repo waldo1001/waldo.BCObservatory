@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Settelement",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cd46b988daeea2a609b70f99f677b71bc60c9d36",
       "words": 1365,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:55.867Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004317
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:57.655Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:57.656Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:57.657Z",
+      "page": false
     }
   },
   "input_hash": "cd46b988daeea2a609b70f99f677b71bc60c9d36",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cd46b988daeea2a609b70f99f677b71bc60c9d36"
+  "output_hash": "8d8c1e4e20b1beccb20d7b62f92468166bdc238627d3961aa2c2dab723f80d36"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Unregistered-Vendor-RCM",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0216de286b2bdb11487727918d24f13c3828b9f9",
       "words": 393,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:49.949Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003358
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:55.880Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:55.881Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:55.882Z",
+      "page": false
     }
   },
   "input_hash": "0216de286b2bdb11487727918d24f13c3828b9f9",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0216de286b2bdb11487727918d24f13c3828b9f9"
+  "output_hash": "3e6b809383383967dd58c8eda4f701f3635aa1e198971317dc05576731e28110"
 }

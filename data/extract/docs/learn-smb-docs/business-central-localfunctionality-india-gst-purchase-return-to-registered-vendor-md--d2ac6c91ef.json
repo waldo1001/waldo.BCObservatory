@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Registered-Vendor.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Registered-Vendor",
+  "title": "Purchase Return to Registered Vendor",
+  "blob": "6b798ef6b9dfb40010823761d71b1661d9d3beee",
+  "summary": "Purchase returns and credit memos to registered GST vendors in India covering intra-state and inter-state transactions with CGST/SGST or IGST, including GL entries for available and unavailable input tax credit situations.",
+  "systems": [
+    "purchasing",
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "gst",
+    "india",
+    "purchase returns",
+    "registered vendor",
+    "cgst",
+    "sgst",
+    "igst",
+    "tax credit"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Return Order"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Credit Memo"
+    }
+  ],
+  "features": [
+    "Registered vendor handling",
+    "Intra-state transactions",
+    "Inter-state transactions",
+    "Input tax credit management",
+    "GL entry generation",
+    "Fixed asset purchases"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003358,
+      "pages_in_call": 8
+    }
+  ]
+}

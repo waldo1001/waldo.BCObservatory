@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-for-Customer-Overview",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "99cf2920b7745bd1375fc981efb4b6e218795396",
       "words": 1359,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:55.870Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.004317
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:57.664Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:57.665Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:57.667Z",
+      "page": false
     }
   },
   "input_hash": "99cf2920b7745bd1375fc981efb4b6e218795396",
@@ -54,5 +73,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "99cf2920b7745bd1375fc981efb4b6e218795396"
+  "output_hash": "6f432b15120885cb61898e01ccb75ae9aed88d2446280ccf20cdb2c1f1af325f"
 }

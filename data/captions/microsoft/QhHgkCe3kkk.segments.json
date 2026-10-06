@@ -1,0 +1,121 @@
+{
+  "video_id": "QhHgkCe3kkk",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.9,
+      "end": 27,
+      "text": "hi my name is stepen B and I'm from the developer tools team I have some code to show you and it's going to be really exciting but first I have to say you can't use it not right now at least so why do we even talk about it well you're going to see some uptake of this feature fairly soon uh you're going to see the code"
+    },
+    {
+      "t": 27,
+      "end": 47.5,
+      "text": "maybe in BC apps and other places so this is important that you know what it's all about and maybe we can also inspire you to use this feature in your projects as soon as it opens so what is it it's resources in applications meaning you can ship your resources with your application get the resource for that specific"
+    },
+    {
+      "t": 47.5,
+      "end": 68.4,
+      "text": "application for that specific version ship with that specific app file there are many other ways you can do this but this is another tool in the tool boox for making sure that you can ship certain Resources with your app and now you can do it with just one single file the app file let's look at it"
+    },
+    {
+      "t": 68.4,
+      "end": 88.9,
+      "text": "so here I have an app and it's fairly simple it doesn't have a lot of in it but it has a new folder called resources in that folder I have placed a few resources I've placed a CSV file containing some data could be demo data could be some initialization data or whatever and I have a picture in the images"
+    },
+    {
+      "t": 88.9,
+      "end": 109.3,
+      "text": "folder I also have a page here with some action and it's going to be utilizing the new function in the nav ad type called get resource the get resource function takes in a resource name which is the file name including the relative path from the root of the resources folder so in this case the default"
+    },
+    {
+      "t": 109.3,
+      "end": 125.7,
+      "text": "data CSV and it's going to take the stream that I want this resource to be put in so I can start using it so after calling this function I would have the data from the this file in the Stream and I can start using it this is fairly"
+    },
+    {
+      "t": 125.7,
+      "end": 146.2,
+      "text": "simple I also here have an action that will download an achievement this is implemented in the way I would do it prior to this feature maybe I would have a image label here a base 64 encoded text string that contains the image and naturally I can easily see that this is the right image"
+    },
+    {
+      "t": 146.2,
+      "end": 166.4,
+      "text": "so I can read it from the image stream or image text into a an outstream and change that into an instream and then you can download that one with the new functionality for resources it is much easier as you can see here I get the resource the path and the name in the resource name"
+    },
+    {
+      "t": 166.4,
+      "end": 186.8,
+      "text": "and the stream I want to put it in when I get that I can then download that and if I want to make sure that it's the right one I'm pointing to here I can just click the image over here and it works I can see the image right here and I'm sure it's the right one that I'm actually sending to the client or the customer using this"
+    },
+    {
+      "t": 186.8,
+      "end": 207,
+      "text": "okay so did any of you wonder about this do resources folder well I did well it's just the default you can actually specify many resource folders like here I'm going to include more resource folders I have an image folder here which"
+    },
+    {
+      "t": 207,
+      "end": 227.6,
+      "text": "has the images I have a data file FES folder which has the data and then I have the old resources file now there's a caveat to having multiple folders uh as resource folders and that is that the resource name including the path relative to the resource"
+    },
+    {
+      "t": 227.6,
+      "end": 240,
+      "text": "folder must be unique within the extension so if I try to compile this extension now it will fail and why would it fail well if I look here"
+    },
+    {
+      "t": 240,
+      "end": 260,
+      "text": "it says that there are multiple resources with the name default data CSV and multiple resources with the name images SL achievement PNG so why is that well I have the images achievement PNG here so this is the same name as it is up here and again here with the"
+    },
+    {
+      "t": 260,
+      "end": 270.8,
+      "text": "data I have the root for the data files and then I have the default data I have the root for the resources and the default data same name so these cannot exist in the same extension"
+    },
+    {
+      "t": 270.8,
+      "end": 282.8,
+      "text": "in this case because I wanted to move the whole thing to a different set of folders I can just remove the old resources folder and maybe delete this"
+    },
+    {
+      "t": 282.8,
+      "end": 302.8,
+      "text": "one and then we should be able to compile as simple as that having the ability to put resources into your app is a great new feature it does come with some limitations let's have a look at those so there are some size limitations to begin with"
+    },
+    {
+      "t": 302.8,
+      "end": 318.6,
+      "text": "so the max size of a resource is 1,24 kiloby the max size of all the resources in your extension is 16 megabytes and the max number of resources you could have in a single extension is"
+    },
+    {
+      "t": 318.6,
+      "end": 338.7,
+      "text": "256 the resources that you put in uh your extension are readon naturally because you cannot alter an app package after it has been shipped so they read only the resources are only only available from the extension that owns the resource so if you want to share resources with other extension you need to write some kind of logic that will expose that data"
+    },
+    {
+      "t": 338.7,
+      "end": 357.4,
+      "text": "Street to the other extensions in the end the server determines what is good and what is not good so if you don't have um or if your file extensions are not valid on the server that you want to deploy it to all the mime types checks will fail or the virus scanning will detect something"
+    },
+    {
+      "t": 357.4,
+      "end": 375,
+      "text": "then you will not be allowed to to publish so make sure that you understand these limitations but other than that this is a nice and new feature and I'm sure a lot of people are going to enjoy it thank you for watching"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.04,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.909,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.9190000000000005,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1030
+}

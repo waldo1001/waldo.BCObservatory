@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/Stale-Check.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Stale-Check",
+  "title": "Setting up and how to stale check",
+  "blob": "1c63768a66327157f47420854772c18af6d8940c",
+  "summary": "Stale check feature allows setting up check validity periods by bank, calculating stale expiry dates, and marking expired checks through Bank Ledger Entry or Check Ledger Entry.",
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "india",
+    "stale check",
+    "bank",
+    "check validity"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account"
+    },
+    {
+      "type": "page",
+      "name": "Bank Ledger Entry"
+    },
+    {
+      "type": "page",
+      "name": "Check Ledger Entry"
+    }
+  ],
+  "features": [
+    "Activate Cheque No.",
+    "Stale Cheque Stipulated Period",
+    "Stale Cheque Expiry Date"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004317,
+      "pages_in_call": 8
+    }
+  ]
+}

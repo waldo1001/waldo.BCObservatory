@@ -1,0 +1,28 @@
+{
+  "video_id": "YVViIBPui-A",
+  "item_id": "video/yt-microsoft/YVViIBPui-A",
+  "summary": "Business Central 2024 release wave 2 financial management changes: the Subscription Billing module for recurring invoicing, default quantity for G/L lines, Power BI apps (Finance app with 14 reports), a star schema Fixed Assets query, and new financial reporting templates.",
+  "overview": "A five-minute overview of financial management updates in 2024 release wave 2. It starts with the Subscription Billing module, which handles recurring invoicing for contracts and services, with frequency, periods, renewal and expiry dates, and revenue recognition control through deferrals. Automated billing is described as coming later.\n\nIt then covers a small default quantity toggle for G/L lines, Power BI apps for six areas, a star schema query on fixed asset ledger entries, and added financial reporting templates with five predefined reports.",
+  "key_points": [
+    "Subscription Billing is a module for recurring invoicing of contracts and services, with settings for frequency, periods, renewal and expiry dates, and deferral-based revenue control.",
+    "Automated subscription billing (set up once, runs automatically) is stated as coming later.",
+    "In 25.2, Excel reports for subscription billing are to be provided. A new Word layout and a Power BI app are announced for the next minor version.",
+    "A toggle in Sales & Receivables or Purchases & Payables setup sets the default quantity on G/L lines to one, similar to the item default quantity feature.",
+    "Power BI apps are delivered for six areas including Finance, Sales and Purchase. The Finance app has 14 embedded reports with overview, KPIs and ledger entry drill-down.",
+    "A Fixed Assets query based on a star schema lets you query fixed asset ledger entries, build your own views, and validate data across several tables.",
+    "Financial reporting adds templates that combine row and column definitions. Five predefined reports: balance sheet, income statement (detailed and summarized), and trial balance."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker",
+    "partner"
+  ],
+  "extraction_hash": "06f828921a2921f28ba14dc8e569d608c1ee81832e16d03bc7b41e2e7202e464",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014884399999999999
+  }
+}

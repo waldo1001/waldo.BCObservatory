@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-Return-to-Registered-Vendor",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6b798ef6b9dfb40010823761d71b1661d9d3beee",
       "words": 447,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:49.948Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003358
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:55.877Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:55.878Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:55.878Z",
+      "page": false
     }
   },
   "input_hash": "6b798ef6b9dfb40010823761d71b1661d9d3beee",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6b798ef6b9dfb40010823761d71b1661d9d3beee"
+  "output_hash": "6564623b74a177a052c305dc7615d5706d8173a7265d533549fbf1ca641f7f98"
 }
