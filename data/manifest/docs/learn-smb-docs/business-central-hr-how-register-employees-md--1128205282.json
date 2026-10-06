@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/hr-how-register-employees",
   "published_at": "2025-10-10T07:42:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f3b3fe9447b1e0a58d6e77038616111d54c522d9",
       "words": 533,
       "forms": 9
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:50.309Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.005257
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:52.218Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:52.218Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:52.219Z",
+      "page": false
     }
   },
   "input_hash": "f3b3fe9447b1e0a58d6e77038616111d54c522d9",
@@ -88,5 +107,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f3b3fe9447b1e0a58d6e77038616111d54c522d9"
+  "output_hash": "98dceae93cbafac1e84af3fef518648f916d940334dfe89b38eef802cb2d3137"
 }

@@ -1,0 +1,63 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-designing-navigate-pages.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-navigate-pages",
+  "title": "Designing Assisted Setup Guides",
+  "blob": "7a4f8d1c001e9b9c9df8d221f3c5d4662c961a18",
+  "summary": "Designing assisted setup guides using NavigatePage page type to create multi-step wizards for configuration and business tasks. Shows how to build steps, add navigation buttons, load banners, and register guides on the Assisted Setup page.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "assisted setup",
+    "wizard",
+    "navigatepage",
+    "user experience",
+    "guided setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Assisted Setup"
+    },
+    {
+      "type": "page",
+      "name": "Attendee Wizard Subform"
+    },
+    {
+      "type": "table",
+      "name": "Guided Experience Item"
+    },
+    {
+      "type": "table",
+      "name": "Media Repository"
+    },
+    {
+      "type": "table",
+      "name": "Media Resources"
+    },
+    {
+      "type": "codeunit",
+      "name": "Guided Experience"
+    }
+  ],
+  "features": [
+    "NavigatePage page type",
+    "multi-step wizards",
+    "navigation buttons",
+    "temporary tables",
+    "event subscribers",
+    "standard banners"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006121,
+      "pages_in_call": 8
+    }
+  ]
+}

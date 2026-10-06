@@ -1,0 +1,68 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/hr-how-manage-absence.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/hr-how-manage-absence",
+  "title": "Manage Employee Absence",
+  "blob": "0d7723c1ac8e249fafae45b34ef368b5cbf639b9",
+  "summary": "Register and view employee absences by day or hour, with analysis by category and period for HR reporting.",
+  "systems": [
+    "hr",
+    "reporting"
+  ],
+  "topics": [
+    "absence management",
+    "employee records",
+    "statistics",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Absence Registration"
+    },
+    {
+      "type": "page",
+      "name": "Employee Absences"
+    },
+    {
+      "type": "page",
+      "name": "Empl. Absences by categories"
+    },
+    {
+      "type": "page",
+      "name": "Empl. Absences by Cat. Matrix"
+    },
+    {
+      "type": "page",
+      "name": "Absence Overview by Categories"
+    },
+    {
+      "type": "page",
+      "name": "Absence Overview by Categories Matrix"
+    },
+    {
+      "type": "page",
+      "name": "Absence Overview by Periods"
+    },
+    {
+      "type": "page",
+      "name": "Abs. Overview by Periods Matrix"
+    }
+  ],
+  "features": [
+    "absence registration",
+    "absence tracking by category",
+    "absence tracking by period",
+    "matrix views"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005257,
+      "pages_in_call": 8
+    }
+  ]
+}

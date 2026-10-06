@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/fa-analytics-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
+  "title": "Fixed assets analytics",
+  "blob": "d251d2d7dee8be1d124d56c345e599ff357a8867",
+  "summary": "Analyze fixed asset data using KPIs, financial reports, consolidation, data analysis, Excel exports, and built-in reports.",
+  "systems": [
+    "fixed-assets",
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "fixed assets",
+    "analytics",
+    "business intelligence",
+    "depreciation",
+    "maintenance",
+    "insurance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset Ledger Entries"
+    }
+  ],
+  "features": [
+    "asset acquisitions",
+    "asset depreciation",
+    "insurance monitoring",
+    "maintenance tracking",
+    "financial reporting",
+    "KPIs",
+    "data analysis",
+    "Excel integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005257,
+      "pages_in_call": 8
+    }
+  ]
+}

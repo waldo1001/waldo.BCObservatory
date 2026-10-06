@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/report-outage",
   "published_at": "2025-10-14T08:34:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e9af37fa451ad50947233d9282094bc46e155156",
       "words": 374,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:49.052Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006121
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:52.208Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:52.209Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:52.211Z",
+      "page": false
     }
   },
   "input_hash": "e9af37fa451ad50947233d9282094bc46e155156",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e9af37fa451ad50947233d9282094bc46e155156"
+  "output_hash": "2329ac65642f016477a08a66791dae8df168a2ee9f1fa3efe2c49250e8c5817d"
 }

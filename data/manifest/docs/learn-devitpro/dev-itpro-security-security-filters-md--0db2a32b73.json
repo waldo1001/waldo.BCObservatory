@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/Security-Filters",
   "published_at": "2025-10-14T14:41:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "88fba122d493b6dd31f553cc51e3602c4f9ba29c",
       "words": 2047,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:49.048Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.006121
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:52.195Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:52.196Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:52.197Z",
+      "page": false
     }
   },
   "input_hash": "88fba122d493b6dd31f553cc51e3602c4f9ba29c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "88fba122d493b6dd31f553cc51e3602c4f9ba29c"
+  "output_hash": "dd5e9c82a63e1951c6bd82a0a7fd30f11f595a37d31d26d9b8842357399c33ad"
 }

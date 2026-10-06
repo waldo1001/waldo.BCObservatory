@@ -1,0 +1,74 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/transition-from-codeunit1.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/transition-from-codeunit1",
+  "title": "Transitioning from Codeunit 1 to System Codeunits",
+  "blob": "7c483b403eed0820c6f737d32a3b5406df82c8b0",
+  "summary": "Codeunit 1 is removed and replaced with system codeunits that contain event publishers instead of code. Maps old codeunit 1 triggers to new codeunit methods and explains how to update custom code during upgrade.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "codeunit 1",
+    "system codeunits",
+    "event publishers",
+    "upgrade",
+    "migration",
+    "method triggers"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "LogInManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "ReportManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "Application System Constants"
+    },
+    {
+      "type": "codeunit",
+      "name": "LanguageManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "TextManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "AutoFormatManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "CaptionManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "GlobalTriggerManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "ExtensionMarketplaceMgmt"
+    }
+  ],
+  "features": [
+    "event publishers",
+    "system codeunits",
+    "method triggers",
+    "integration events",
+    "upgrade path"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006121,
+      "pages_in_call": 8
+    }
+  ]
+}

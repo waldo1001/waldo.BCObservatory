@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/hr-manage-human-resources",
   "published_at": "2025-10-10T07:42:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7bac5fce5af24deee4faa0f68a736231b8b6c777",
       "words": 143,
       "forms": 10
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:50.310Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005257
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:52.220Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:52.221Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:52.222Z",
+      "page": false
     }
   },
   "input_hash": "7bac5fce5af24deee4faa0f68a736231b8b6c777",
@@ -92,5 +111,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7bac5fce5af24deee4faa0f68a736231b8b6c777"
+  "output_hash": "555ccf24363b325b1459ec9dafcf465da0d54af48478a4ad6ec4d5156f565b44"
 }

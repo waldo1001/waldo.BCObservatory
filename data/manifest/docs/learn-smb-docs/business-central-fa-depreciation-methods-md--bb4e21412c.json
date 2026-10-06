@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-depreciation-methods",
   "published_at": "2025-10-10T07:35:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a1a60c80b46b46704a10fa53c983f90ee98d1828",
       "words": 2404,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:50.312Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005257
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:52.226Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:52.227Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:52.229Z",
+      "page": false
     }
   },
   "input_hash": "a1a60c80b46b46704a10fa53c983f90ee98d1828",
@@ -55,5 +74,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a1a60c80b46b46704a10fa53c983f90ee98d1828"
+  "output_hash": "42d9fba486752a35e152ee5d4bfd8ab01aa7b55bcfe92d886ce4cc042e855b5b"
 }

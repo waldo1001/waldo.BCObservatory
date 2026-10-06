@@ -1,0 +1,87 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/fa-how-maintain.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-maintain",
+  "title": "Maintain fixed assets",
+  "blob": "bccfc17ca865b60a9711cd62aff477779b3e558b",
+  "summary": "Record, post, and monitor maintenance costs for fixed assets using maintenance registrations, journals, and invoices.",
+  "systems": [
+    "fixed-assets",
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "maintenance",
+    "fixed assets",
+    "cost tracking",
+    "service"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Fixed Assets"
+    },
+    {
+      "type": "page",
+      "name": "Maintenance Registrations"
+    },
+    {
+      "type": "page",
+      "name": "Depreciation Book List"
+    },
+    {
+      "type": "page",
+      "name": "FA G/L Journals"
+    },
+    {
+      "type": "page",
+      "name": "FA Posting Group Card"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset Statistics"
+    },
+    {
+      "type": "page",
+      "name": "FA Depreciation Books"
+    },
+    {
+      "type": "page",
+      "name": "Maintenance Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Maintenance - Next Service"
+    },
+    {
+      "type": "page",
+      "name": "Maintenance - Analysis"
+    },
+    {
+      "type": "page",
+      "name": "Maintenance - Details"
+    }
+  ],
+  "features": [
+    "maintenance registration",
+    "maintenance posting",
+    "maintenance cost tracking",
+    "service scheduling",
+    "maintenance reports",
+    "indexation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005257,
+      "pages_in_call": 8
+    }
+  ]
+}

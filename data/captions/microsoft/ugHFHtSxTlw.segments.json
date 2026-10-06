@@ -1,0 +1,613 @@
+{
+  "video_id": "ugHFHtSxTlw",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 10.5,
+      "end": 30.8,
+      "text": "welcome to the seventh episode of BC under the hood Series so when um when we design new features at at Microsoft and and for business Central we spend a lot of time writing code writing tests um doing manual test and also fixing box obviously but there's also another aspect of Designing new featur fees"
+    },
+    {
+      "t": 30.8,
+      "end": 51.2,
+      "text": "which is the your user interface and the user experience and today with me have yakob yakob this is this is your area um so tell us a little bit about what what's your role in the in the business Central engineering team and um what what do you actually work with thank you Vincent I'd love to um and thanks for inviting"
+    },
+    {
+      "t": 51.2,
+      "end": 72,
+      "text": "me it's an honor to sit in this chair knowing sort of who else has been sitting here telling about business Central so so thanks a lot um yes so I'm yinda and I'm leading the business Central design team and what we do uh quickly stated is that we're working with the engineering teams and the program managers to"
+    },
+    {
+      "t": 72,
+      "end": 92.1,
+      "text": "design and implement the features that goes into uh business Central so that means the the visual appearance um the interaction ways and the whole sort of how it works uh in a in a given area of business Central so that's what you call user experience or"
+    },
+    {
+      "t": 92.1,
+      "end": 112.1,
+      "text": "ux and and UI so so these are the terms that we usually use right UI for um the actual graphical design and the the pixels right and and ux for user experience yes so so the user interface is the the the actual thing you see you look at the thing that"
+    },
+    {
+      "t": 112.1,
+      "end": 133,
+      "text": "is being designed and the user experience is what sort of uh happens around that user interface and the distinction is sometimes po because the user interface is not just uh it's of course serving up the data and allowing users to work with business Central but to have a good user experience you also need to provide"
+    },
+    {
+      "t": 133,
+      "end": 153.3,
+      "text": "the uh documentation uh uh the whole uh way that users get to to discover the product discover the features and so on so user experience is a much broader concept than the user interface which is literally just what you see on the screen and that you click on so it's actually just a user user interface is just a subset"
+    },
+    {
+      "t": 153.3,
+      "end": 173.9,
+      "text": "of it and the graphical design is is but the the user experience and the graphical design are very connected right yes but it's kind of a subset of of the whole thing yes so so um the user interface lets users access business Central and and it is a visual design so it has to look attractive"
+    },
+    {
+      "t": 173.9,
+      "end": 193.9,
+      "text": "uh and it is an interaction design it means that when you click a button something has to happen uh and when you click two buttons next after each other it has to sort of connect logically conceptually uh so there's a lot of ways where you can look at the user experience and break down what it's part of but user interface is OB sort of the"
+    },
+    {
+      "t": 193.9,
+      "end": 210.8,
+      "text": "the main thing that is being designed so what so what is the usual process when uh we design a new feature so how at which at what stage do you get involved and what what do you do what's what's your what's your role in what's what's your what's your part in in in a new feature design"
+    },
+    {
+      "t": 210.8,
+      "end": 231.2,
+      "text": "yes I think we we um we could talk a lot about sort of that topic alone but just to to sort of paraphrase it a little bit then we have some features where um we have a a long period where uh the the feature is being uh sort of conceptualized understood and and"
+    },
+    {
+      "t": 231.2,
+      "end": 252,
+      "text": "researched uh and when we are part of that feature and the prime example there would be something like the onboarding project which was a multi uh um release investment where we gradually build out those features and we had a a a somewhat long period leading up to that to understand what what is onboarding about"
+    },
+    {
+      "t": 252,
+      "end": 272.5,
+      "text": "so so that is I mean that literally took multiple releases to to research and design and Implement and then we have sort of smaller features like the other example I will we can talk about later is the what is now the company switcher where you can go in and you can switch between the different companies and business Central that was a much shorter"
+    },
+    {
+      "t": 272.5,
+      "end": 292.7,
+      "text": "period of time sort of from the idea that we wanted to do something to the research through the design to the shipping was done in in a much shorter time so it really depends on what kind of feature and what kind of investment we are with putting in there but generally speaking we try to get involved as early as possible uh"
+    },
+    {
+      "t": 292.7,
+      "end": 312.9,
+      "text": "with with with sort of the key Investments so we can do our sort of due diligence in terms of understanding that uh who is the audience for this feature um what is the problem we're solving uh have several stages of the mockups and and red lines I can also Show an example of that and then"
+    },
+    {
+      "t": 312.9,
+      "end": 333.4,
+      "text": "the the implementation phase uh where we also involved in in overseeing that um that it is being living up to the intentions and often Al also catching stuff that wasn't discovered early on so so I mean Nobody's Perfect so I mean as you perfectly know we discover"
+    },
+    {
+      "t": 333.4,
+      "end": 354.3,
+      "text": "stuff along the way that means we have to adjust plans and that's sort of just how software development works so you you involved from Al on on the big design the big feature multi- relases features you know from from the conceptual Inception of things but also in smaller areas smaller features like yes and so and you are"
+    },
+    {
+      "t": 354.3,
+      "end": 374.4,
+      "text": "as you say you were involved at all and many many stages of of the design process um so so when uh is there is there a set of rules you're are using or reference so you want when you you to make these designs um is there you know somewhere you can look up uh as a reference yeah yeah I almost wish there was"
+    },
+    {
+      "t": 374.4,
+      "end": 394.7,
+      "text": "sort of a book of solutions where you could look in and just pull out the one and go ahead um and obviously um to meet users uh expectations uh we need to factor in their con ceptions of the world so I would say that that the first thing we're looking at is we're trying to"
+    },
+    {
+      "t": 394.7,
+      "end": 415.5,
+      "text": "understand where is the users coming from and that requires for you to know actually our users pretty well yes so a good part of our work is uh working with users both customers and partners to understand their perspective of things and when we talk about a business Central uh feature we are obviously"
+    },
+    {
+      "t": 415.5,
+      "end": 435.8,
+      "text": "a lot of the time talking about business Central users so when we are having a new feature we try to say look at so which of the use business Central users are going to use this feature how are they uh sort of uh understanding business Central and we try to align with their conception so I would say the first big sort of"
+    },
+    {
+      "t": 435.8,
+      "end": 455.8,
+      "text": "uh light post for us when we design a feature is sort of the understandings that the users are going to have then being part of Microsoft there's a whole sort of body of design and Concepts that um are coming from uh not necessarily sort of a central Source but there's a lot of work in Microsoft"
+    },
+    {
+      "t": 455.8,
+      "end": 476.3,
+      "text": "going on that also establish patterns and interaction paradigms and visuals and branding and so on that's a way to align across products right yes exactly so we don't have like word looks in way and then business Central will look totally different confusing the users right exactly the the the the the the um sort of the Mantra of one Microsoft"
+    },
+    {
+      "t": 476.3,
+      "end": 496.4,
+      "text": "also means that when users go into one Microsoft products and are trying and doing something then they uh have the advantage that when they come to another Microsoft product if they can use the same pattern or Paradigm even down to the same icon for I mean a common concept like sharing it would be difficult if in one"
+    },
+    {
+      "t": 496.4,
+      "end": 516.6,
+      "text": "program from Microsoft the share icon look one way and in another program it looked uh in another way so that would not have that recognition so we we're looking heavily at other Microsoft products and standards and guidelines to guide how we are designing business Central um and in terms of what we call the design language simply how"
+    },
+    {
+      "t": 516.6,
+      "end": 536.8,
+      "text": "what kind of styling do you choose for business Central we are adhering to what is known as the fluent design language which is Microsoft sort of official this this is a is it is it a Microsoft uh kind of developed design language for all Microsoft products yes so so people can find it online there's"
+    },
+    {
+      "t": 536.8,
+      "end": 557,
+      "text": "a search just search for fluent design language and you can find style guides and and widgets for the fluent uh design language we can put links in the description yeah yep and and it's a fully encompassing design language for all the stuff you would expect in a user uh interface like drop downs and input fields"
+    },
+    {
+      "t": 557,
+      "end": 577.6,
+      "text": "and radio buttons and what have you and that's sort of ions colors all that is defined or uh yes um so so of course we are um uh we are giving the business Central products the business Central sort of treatment in the sense that given our fantastic uh sort of"
+    },
+    {
+      "t": 577.6,
+      "end": 597.7,
+      "text": "um Legacy of of business Central there's a lot of the patterns and and ways of working that we have brought along it's important our user when they see the product they recognize it at business Central as well right they don't look when they don't think oh maybe it's word or Excel or something but like everybody you know Excel is like"
+    },
+    {
+      "t": 597.7,
+      "end": 617.8,
+      "text": "the green and word like the blue you know and uh so what what's business Central yes so so we have uh in terms of color we have this sort of teal brand um but people often say that Excel and Word and PowerPoint are similar but really it's it's an illusion right"
+    },
+    {
+      "t": 617.8,
+      "end": 638.3,
+      "text": "because if you look at those programs they do a lot of things differently for good reasons because one is for presentation the other is for word processing and the second is for for spreadsheet and BC is ANP product business Central is for another thing so so we are definitely aligning where it makes sense and and we are also in terms of uh aligning with Microsoft"
+    },
+    {
+      "t": 638.3,
+      "end": 658.8,
+      "text": "Office is a huge inspiration for us in terms of how things should work and act um but we cannot just pull the answers from office because we have to adjust it to what are users actually doing in business Central uh what are the task they have and they are not creating presentations in business Central they are not"
+    },
+    {
+      "t": 658.8,
+      "end": 679.4,
+      "text": "sort of writing letters in business Central they are doing Erp tasks so obviously we we look heavily and that would be sort of the third pillar of of of what we're looking at is simply what are what tasks are users doing what do we need to do to make business Central successful uh uh sorry to make our users successful in business"
+    },
+    {
+      "t": 679.4,
+      "end": 699.4,
+      "text": "Central so so I want to talk a little bit about figb you you use that a lot in your team right can you can you tell us a little bit what what that is and how how use it or maybe you know some our uh you know users are familiar with it but uh yes uh so so figma is a design tool um it has uh it's sort of the the the"
+    },
+    {
+      "t": 699.4,
+      "end": 719.6,
+      "text": "preferred choice for many Microsoft teams these days but it's not a Microsoft tool is it it's not a Microsoft tool it's actually recently uh acquired by Adobe so so these days it's an adobe tool um and it's it's interesting with Adobe because a lot of people obviously know illustrator and Photoshop and acrobat and sort of the Adobe"
+    },
+    {
+      "t": 719.6,
+      "end": 739.6,
+      "text": "portfolio so figma is was was a nice sort of complement to their sort of a modern complement um and it is but it is at the end of the day not doing much different from what maybe illustrator uh did in the past and in the past literally we were using illustrate all the time uh so these design tools sort of change and right now"
+    },
+    {
+      "t": 739.6,
+      "end": 759.8,
+      "text": "figma is a great tool for most UI design so what can you do with it so it is a uh it's a drawing package at the end of the day um so it let you design on a canvas similar to what illustrator offered uh draw elements put boxes and and their killer feature if you will for why they got"
+    },
+    {
+      "t": 759.8,
+      "end": 780.1,
+      "text": "successful was that they handled multi-user editing very well from from day one so so even in a last design team if you are working on something together then everybody I mean uh being able to work in the same document it sounds simple to say today I mean how could it ever be different but you have to go long"
+    },
+    {
+      "t": 780.1,
+      "end": 800.4,
+      "text": "back in time before we were sort of creating files and sharing files and opening and this is V1 and this is V2 and final final and all that so so figma is sort of the preferred tool for design teams uh certainly in Microsoft and in other many other places so being a maybe more on the development side or code writing side than you are I think"
+    },
+    {
+      "t": 800.4,
+      "end": 820.6,
+      "text": "you know I've seen some of these figmas and and and sometimes you know so so you as you say you create them usually early in the in the development process so at an early stage and um and sometimes it's a little bit you know it it sets expectations High because you can I mean you must admit it's easier to um design"
+    },
+    {
+      "t": 820.6,
+      "end": 840.9,
+      "text": "a feature in in in a way with thi Mass you you can draw pretty much what you want but sometimes you end up in this uh you know we we I know you and I have had some uh interaction in the past where you know you you you come up with something and then uh and then you then when we actually to have to implement it then realize it's actually more expensive"
+    },
+    {
+      "t": 840.9,
+      "end": 861,
+      "text": "than uh in terms of you know uh time and and and and maybe also complexity um but but usually we I think we're having you know you're having a good dialogue with the with our developers and and so so how my question I guess is how far do you get you know when you come with the first FC mass and when the feature"
+    },
+    {
+      "t": 861,
+      "end": 881.1,
+      "text": "ends up being implemented you know uh how much uh does the actual feature ends up diverging from the original figma you created right no I I think there two parts to what you say there one is clearly that where you start is usually not where you end up MH I mean and and that is sort of because the nature of"
+    },
+    {
+      "t": 881.1,
+      "end": 901.3,
+      "text": "software development and and sort of navigating in this sort of Erp space and building these features are I mean relatively complex so the initial idea about what this should do and then where it ends up after working with Engineers PMS uh doing use research uh and factoring all that"
+    },
+    {
+      "t": 901.3,
+      "end": 921.7,
+      "text": "up into the solution means that that you often end up in another place than than you thought you would which is uh you could say the right place to end up because at that point in time you have factored in input from all these peoples and all these insights and I have an example of that we can also look at um so that is one side of it that that that the"
+    },
+    {
+      "t": 921.7,
+      "end": 942.1,
+      "text": "uh you simply get wiser along the process and you need to change to accommodate all this input the other part is then um being in figma or any design tool you choose um and and as I mentioned we have used illustrator we have used Invision we have used in design there's a bunch of packages even PowerPoint I mean PowerPoint is still"
+    },
+    {
+      "t": 942.1,
+      "end": 962.5,
+      "text": "very sort of low cost in terms of creating something where you can click through and you can create an illusion of an experience that people can react to uh and that is really sort of the the secret Source in in in sort of in ux and ux design is that you need to let user ERS understand where you are"
+    },
+    {
+      "t": 962.5,
+      "end": 982.6,
+      "text": "wanting to take them and and it's very effective to show users at a journey or a click through and they can instantly react to that it's much harder in words to describe first you go to this screen and then there's a button and then you go to that screen and then there's another button it's very hard for for most people to visualize that um and if you put them in front of a"
+    },
+    {
+      "t": 982.6,
+      "end": 1002.6,
+      "text": "figma where it's just a mockup of the actual experience or a PowerPoint your favorite tool you can simulate what they would experience and most people will react to it and and that is a I mean uh what we do for a living so to say we we are selling the vision of how great this could be and then um"
+    },
+    {
+      "t": 1002.6,
+      "end": 1022.8,
+      "text": "when when reality hits often we need to scale down some Ambitions and we can maybe uh do it in another way mitigate it but it's very important as a design team to put out these ideas or visions of how great it could be to inspire uh people also I mean inspire people in your role of the organization to say hey"
+    },
+    {
+      "t": 1022.8,
+      "end": 1043,
+      "text": "this is actually super cool let's see if we can do that and then at the end of the day the what we ship is again as I mentioned before sort of accommodating a lot of different requirements so when you compare the two the vision to what we're actually shipping you sometimes say ah but but then there's a next release and a next release"
+    },
+    {
+      "t": 1043,
+      "end": 1063.3,
+      "text": "how that so I think you've also seen exactly so with some of the recent AI features the the uh the prom dialogue for for example um our initial version V1 was very sort of limited but then we have continued building it out so today it's the I would say the the best tool to build co-pilot"
+    },
+    {
+      "t": 1063.3,
+      "end": 1073.5,
+      "text": "features for for business Central and we can put co-pilot actions and so on we have the whole sort of foundation in place for delivering great co-pilot features and that's"
+    },
+    {
+      "t": 1073.5,
+      "end": 1093.7,
+      "text": "um that is uh that has certainly accommodated a lot of different requirements along the way so so I would say it's even better now in the product than it was in the initial sketches so that also sometimes happens so you talk about you talk you mentioned several times the user testing yeah so um so you're actually doing uh you're"
+    },
+    {
+      "t": 1093.7,
+      "end": 1113.7,
+      "text": "having like real users from from The Real World coming are they coming here at Microsoft and and you show them some how does it work tell us a little bit about it you show them some early version of products and and see how they react um yes all of the above yeah yeah yeah so are you sitting like behind a you know oneway mirror or something is"
+    },
+    {
+      "t": 1113.7,
+      "end": 1133.7,
+      "text": "that I know we have a room like that here uh so do you use it so um let me first say that that we call ourselves a design team um but design team actually means we also doing a lot of user research so we should rightfully say the ux design and research team it just gets so long so in in in a practical"
+    },
+    {
+      "t": 1133.7,
+      "end": 1153.9,
+      "text": "terms Des sign sort of encompasses everything you need to do to deliver uh this uh these features from a design side so the user research part is typically in two buckets there are what we call the generative research where you basically just go out to customers partners and observe a"
+    },
+    {
+      "t": 1153.9,
+      "end": 1174.1,
+      "text": "problem or challenge or just work practice um and we call it generative research because it is sort of it is not sort of necessarily answering a particular question it's more generating maybe a set of questions how could this be better how could this this be more interesting and then uh later in the process when you have something you have"
+    },
+    {
+      "t": 1174.1,
+      "end": 1194.3,
+      "text": "designed and and you want to find out how how will this UI design work how will this and that work in the hands of users then you go also out to customers also as a research activity more sort of with a evaluative perspective where you want to you you're literally going to the party with something under your arm"
+    },
+    {
+      "t": 1194.3,
+      "end": 1214.4,
+      "text": "and you want to see Half Baked or some some as early as you can do it typically because it's it's much cheaper to change a PowerPoint than it is to to change something that you have coded so the more discoveries you can do before you put stuff into code is usually better so to to have these feedback"
+    },
+    {
+      "t": 1214.4,
+      "end": 1234.7,
+      "text": "loops and inside Loops yes we are engaging uh customers and and and partners and and it happens these days I mean as you would expect mostly online okay so in in the old days uh it would be that we had a special lab on on site here with a one-way uh glass"
+    },
+    {
+      "t": 1234.7,
+      "end": 1254.9,
+      "text": "and so why why why is the oneway glass what's the purpose of it the purpose like it looks like an interrogation room in the movies right yes and and that's a bad uh um sort of feeling if people feel they're being interrogated they being watched for for sure yes and that was exactly the problem what typically happened"
+    },
+    {
+      "t": 1254.9,
+      "end": 1274.9,
+      "text": "in the past at least was that you would have someone who was your participant someone you wanted to give you feedback and you want to make them feel comfortable mhm you you you don't want to have sort of an exam kind of situation where they feel they are being T them over the shoulder for every time they click on something that that's what you don't want so so you wanted to"
+    },
+    {
+      "t": 1274.9,
+      "end": 1295,
+      "text": "create sort of a an informal situation where they could give you feedback on your design and be comfortable with that even give you critical feedback which is also super hard if you consider sort of the situation they're in and to avoid them feeling observed and to avoid them feeling like they were at an exam you typically wanted them to be just"
+    },
+    {
+      "t": 1295,
+      "end": 1315.2,
+      "text": "talking to one person so so I mean if you were my test uh uh person I would be sort of sitting and having a conversation like us and we would have the screen and we would sort of talk about the software and and if there were sort of 10 people in the room at the same time observing you uh then you would not feel relaxed uh so"
+    },
+    {
+      "t": 1315.2,
+      "end": 1335.2,
+      "text": "it it was back in the days an attempt to to to create a more natural setting I'm not sure they achieved that but but that was the idea but coming back to today um as you would expect most has happens online okay so so the way we run these what we call lab studies is not really in a lab it is uh"
+    },
+    {
+      "t": 1335.2,
+      "end": 1355.5,
+      "text": "on on teams or some specialized tools where fundamentally it works the same way as if you had invited people in so you may a set up a meeting with someone who has signed up to this um maybe recruited for from our user insights panel that we have um for people who are helping us try out business Central"
+    },
+    {
+      "t": 1355.5,
+      "end": 1375.9,
+      "text": "early on um and then you you have a typically onetoone or or with a co- colleague and um give them a link to the software they're sharing their screen you ask them to to solve a particular task in business Central and you don't give them how to do it you want them typically to"
+    },
+    {
+      "t": 1375.9,
+      "end": 1396,
+      "text": "discover how to do it so we're building the product to be as so and the features to be as discoverable as possible like that that's basically for some features that we don't you don't need like an to read you don't need to read the documentation for for some features you shouldn't be able you shouldn't have to is that that's a"
+    },
+    {
+      "t": 1396,
+      "end": 1416.5,
+      "text": "goal for some of the features for some of the features yes exactly you said it there um depending on the feature it will uh determine how you want to test it because obviously if you are designing someone like the onboarding stuff of the onboarding experience obviously we couldn't expect that people being unboarded trying business Central For the First Time"
+    },
+    {
+      "t": 1416.5,
+      "end": 1436.6,
+      "text": "new business Central so when when you're testing onboarding features you pretty much have to accept that they don't know business Central to be highly discoverable it has to be discoverable by someone who doesn't know where us should it to look in business Central but with another feature we build the um uh the analysis mode"
+    },
+    {
+      "t": 1436.6,
+      "end": 1456.6,
+      "text": "for for gits we were not designing that for users who were new to business Central that yeah that this this for experienced users and it is mostly for experienced users who who come to to have the need to do these kind of analysis so when we were recruiting users to try that particular features we were recruiting users who had experience"
+    },
+    {
+      "t": 1456.6,
+      "end": 1476.7,
+      "text": "with business Central when we were recruiting people to try onboarding we were recruiting folks that didn't know business Central so so it also about sort of connecting and making sort of the uh recruit the people that are relev for the feature that you designing so you had some uh some examples you wanted to show us um yes let's look at for example the analysis"
+    },
+    {
+      "t": 1476.7,
+      "end": 1497,
+      "text": "mode first to to and you mentioned this about um the mockups versus what we actually ship um so here is an example uh of on the left hand side the the mock up from uh the PowerPoint in this case we we when we built when we were uh sort of trying out before theature got implemented"
+    },
+    {
+      "t": 1497,
+      "end": 1517,
+      "text": "before anyone wrote any code this um we designed how would it be to use if the feature was in the product and this was the version on the left hand side that we tested with users and you can see here if you compare to the right hand side that is the version that you actually shipped that initially we had the idea that the Taps of the"
+    },
+    {
+      "t": 1517,
+      "end": 1537.2,
+      "text": "analysis would be at the bottom of the page and then uh uh we would have the normal action bar at the top of the page and in user testing this turned out to be not a great solution because uh users even experienced users of business Central would Overlook the tabs in the buttom mhm so we can speculate"
+    },
+    {
+      "t": 1537.2,
+      "end": 1557.2,
+      "text": "why they were overlooking it um but you ended up moving them at the top then but at the end of the day the the solution we opted for words to say well let's put the the tabs at the top of the page and that tested very well with users so so that was a one very concrete example uh uh and and um if if I mean there"
+    },
+    {
+      "t": 1557.2,
+      "end": 1577.4,
+      "text": "was a lot of debates and speculations why these tabs were not being noticed um but at the end of the day we can't go forward with a feature where more than half of the test participants were not noticing these tabs here so so they came at the top so we have we have that level of control on"
+    },
+    {
+      "t": 1577.4,
+      "end": 1597.6,
+      "text": "the UI because we are Microsoft designed the UI but but our partners can't control it that much I'll get back to that but we I think we need to talk a little bit about that let's let's let's save it for for the end yes and and quickly stated that is why it's so important that we get these decisions right exactly for that reason yes"
+    },
+    {
+      "t": 1597.6,
+      "end": 1617.9,
+      "text": "another example I wanted to also show uh so where does this feature start and where did it end up was a compan exactly the company switcher so on the left hand side is the PowerPoint mockup we created and on the right hand side is what we're actually shipping and apart from I mean the the the the way that we are using icons"
+    },
+    {
+      "t": 1617.9,
+      "end": 1637.9,
+      "text": "and so on and you can see that it is pretty close in conceptual side there's a list of companies but two important things happened along the way that sort of radically changed this feature and and is a good example of what we are learning along the way and was this once one one was that this"
+    },
+    {
+      "t": 1637.9,
+      "end": 1658,
+      "text": "notion of environments that some customers have is that they have access to multiple environments so along the way we said well this is not actually a company switcher what users want here is an environment and Company switcher so there an envir more than an environment switching exactly because when"
+    },
+    {
+      "t": 1658,
+      "end": 1678.3,
+      "text": "when when customers are having access to more environments uh then before this feature it was super hard for them actually to discover the other environments and if they wanted to switch from company in one environment to a company in another environment that was next to Impossible unless you had a sort of URL you could click and knew how to do it m so this started"
+    },
+    {
+      "t": 1678.3,
+      "end": 1698.4,
+      "text": "as a relatively simple feature how difficult can it be to switch company to actually just a drop down of some kind exactly to actually be a pretty complex features that involved platform teams uh and and client teams of course to make sure that that we were able to know which environments were available to each of these users here"
+    },
+    {
+      "t": 1698.4,
+      "end": 1708.5,
+      "text": "and then factor that into the UI and it also is an example of how we want it to align with how Microsoft does it because what is known as the environment"
+    },
+    {
+      "t": 1708.5,
+      "end": 1728.6,
+      "text": "um uh selector at the top of the app of of the app bar you can see it's here on the right hand side says environment that was a pattern that was already existing in other Microsoft products such as so such as power all the Power Platform enir platform dat based exactly so when we ended up"
+    },
+    {
+      "t": 1728.6,
+      "end": 1749,
+      "text": "saying well this is also about environments then clearly we didn't want to design an environment selector that was done in another way than people would expect it so so we ended up sort of aligning with with how you trigger that and to make that concrete I can just show you here the the mo two mockups that we ended up not doing one on the left hand side you can see there's an available"
+    },
+    {
+      "t": 1749,
+      "end": 1769,
+      "text": "company's link we decided not to do that uh and we decided also not to do the other idea we had where there was a a tool tip on the company indicator to switch company the moment we realized that selecting company and environment through the app bar would be the right way to align we went that wave all"
+    },
+    {
+      "t": 1769,
+      "end": 1789.6,
+      "text": "out all in it seems to be a simple feature but I it shows that uh turns out to be a little more uh involved than you would you would think right yes uh as as you also perfectly know when you open uh some of these areas it is often sort of a p Pandora's box of of"
+    },
+    {
+      "t": 1789.6,
+      "end": 1809.6,
+      "text": "requirements from customers Partners internal teams and so on and it has it all has to come together in a in a user interface when I used to work work in the class team we work we work together quite a lot and I used to be you know always impressed how you would be able patient you were with because the thing with UI and ux that a lot of people as opposed to other"
+    },
+    {
+      "t": 1809.6,
+      "end": 1829.7,
+      "text": "things everybody thinks they're experts but clearly a lot of people are not and everybody has an opinion on you know which color should be how much spacing they should be there but Mo most of the time you working with you I came to realize how much complexity there is and how much science there is also into all these things and uh and and you know I think it's best"
+    },
+    {
+      "t": 1829.7,
+      "end": 1849.8,
+      "text": "to rely on Experts like you to you know make these decisions rather than trying to you know have an have an opinion on you know which color it should be right thank you for for the confidence Vincent I hope I I can live up to that but but clearly people have opinions for good reasons because uh when we were working with the engineers they obviously have good"
+    },
+    {
+      "t": 1849.8,
+      "end": 1869.8,
+      "text": "opinions and we need to factor that into it so I think about it more as aligning and accommodating all these different opinions and require ments and and then of course there are areas where um I mean colors uh where um it can come across as more subjective but even that"
+    },
+    {
+      "t": 1869.8,
+      "end": 1890.3,
+      "text": "when you look into it is also a complex mix of brand considerations accessibility requirements and so on so not even color is sort of a a place where you can just pick a random choice and and go with it because uh uh it will either sort of not be on brand uh or it will create problems in terms of combinations"
+    },
+    {
+      "t": 1890.3,
+      "end": 1910.6,
+      "text": "when when people are color blind and and colors are being confirmed so um I think my work is I I I love what we're doing and but I think really about it as as trying to accommodate all these requirements and opinions uh and and make sure that we're designing on the best possible sort of foundation of of and insights"
+    },
+    {
+      "t": 1910.6,
+      "end": 1930.6,
+      "text": "for that so how about red lines do you have an example of red lines yes if we continue in the deck here um I can just Qui show here also an example from onboarding um this is a very early mockup for our onboarding screen so if our viewers don't recognize it is because this was never built okay"
+    },
+    {
+      "t": 1930.6,
+      "end": 1950.7,
+      "text": "this is an example of a screen where we said this was um a good initial idea but we ended up saying that um this experience where we were sort of pretty much taking over the whole screen right off the bat when users came into business Central that was not a good solution because a lot of users we found would look"
+    },
+    {
+      "t": 1950.7,
+      "end": 1970.9,
+      "text": "to how can I explore business Central before digging into these uh onboarding experience kind of too invasive in a way it was too modal because it was sort of required that you that you did that before you could start using business Central so uh you will recognize this screen this is sort of the banner where users can"
+    },
+    {
+      "t": 1970.9,
+      "end": 1991.3,
+      "text": "decide to engage with a banner but they can also decide to just navigate business Central try something else and then when they ready for it they can open this checklist and again this is being presented in a way that's totally optional so if they don't want to do this they can still use business Central on the side and and close it also so"
+    },
+    {
+      "t": 1991.3,
+      "end": 2011.4,
+      "text": "your question about red lines I took some examples here of of what we call red lines and they're called red lines because you can see it is the UI and then there are sort of red annotations uh with kind of an overlay the design you your team produce exactly so this is produced in fig mhm so so this is my my great"
+    },
+    {
+      "t": 2011.4,
+      "end": 2031.9,
+      "text": "team members who are very skilled at figma much more than I am who are um pretty uh much documenting uh at a at a very precise uh level of detail that is needed to actually go and implement this so it's all down to the font side the margin size the spacing between the different"
+    },
+    {
+      "t": 2031.9,
+      "end": 2052,
+      "text": "elements all these things yes and and you give that to the developers and then they they can they have to implement that yes so so there is a bit more clever handoff these days from figma to developers so so they don't need necessarily to go and read on the the little red text here we can actually hand"
+    },
+    {
+      "t": 2052,
+      "end": 2072.1,
+      "text": "um uh sort of it off in a digital form so they can take over the CSS from figma directly so it's become little more smooth but at the end of the day this is sort of the the the specification uh and it goes into sometimes to many sort of a surprising uh level of details because what we have to do here is also to test how"
+    },
+    {
+      "t": 2072.1,
+      "end": 2092.1,
+      "text": "will this react when suddenly more text appears in these here so we are we are making tests of how will these components react when other contents come into it and as you know uh we also have to look at localization so business Central is being available in a lot of languages and um that's also a challenge yeah"
+    },
+    {
+      "t": 2092.1,
+      "end": 2112.2,
+      "text": "which means that the content that we are designing for is not actually known at the point in time where we are designing the component so we need to make sure that all the components we design are flexible in their sizing uh so when it scales up or down that the TCH still flows and looks uh reasonable so so that is um that is a you could"
+    },
+    {
+      "t": 2112.2,
+      "end": 2132.4,
+      "text": "say the final stage of the design process is that we are producing the design specification at this level of detail and that is being used as the um uh sort of the the the check or the rule book if you will for uh okay when when we look at this in the product is it correct is it aligned is the margin correct"
+    },
+    {
+      "t": 2132.4,
+      "end": 2152.4,
+      "text": "and so on if any doubt is there then this is where we can go and check what what was the intention so sort of to sum it up it's all about getting from the design intention that we are establishing together with app PMS uh and and client PMs and the engineer leads and so on and all the way down"
+    },
+    {
+      "t": 2152.4,
+      "end": 2172.4,
+      "text": "to the final product where where that intention hopefully sort of is is visible so that brings me to I think it's going to be the last question but I think it's an important one so we when you show all this that you we have a lot of control of these uis I mentioned before you can we can go on the pixel label and adjust these things but but business Central is not you know as opposed maybe to"
+    },
+    {
+      "t": 2172.4,
+      "end": 2192.7,
+      "text": "other type of programming when when our partners develop their features they don't have that level of control we kind of have decided uh we have decided a lot of uh we made a lot of decision about the UI and how it's going to be so they just Express the basically what they want uh in a page but they don't go and adjust the pixels and decide"
+    },
+    {
+      "t": 2192.7,
+      "end": 2212.8,
+      "text": "the size of the buttons and all these things so so what advice would you would you give to our partners and developers when uh in terms of ux and and and design of their feature when they go you know is there anything you you would recommend they should do uh at at their level they cannot control where they place the different elements and how they look like or even how"
+    },
+    {
+      "t": 2212.8,
+      "end": 2233.2,
+      "text": "they behave but is there things they they should be aware of um in know to get uh to to have a great user experience for for their users of their features yes there there certainly some aspects to that and and first let me say that I'm I'm I'm so amazed by what our partners"
+    },
+    {
+      "t": 2233.2,
+      "end": 2253.3,
+      "text": "uh and community in generally are achieving with business Central I'm I'm I'm literally Blown Away about the creativity and and Ingenuity of of of of the solutions I'm seeing at directions and and other conferences so so so I'm I'm I'm totally confident that our partners are making the right"
+    },
+    {
+      "t": 2253.3,
+      "end": 2273.5,
+      "text": "calls in terms of how they are designing for business Central um and uh we are working hard to make it possible for them and for for partners in general to do the customizations that they need to do to deliver a great experience to their customers uh and that is sort of"
+    },
+    {
+      "t": 2273.5,
+      "end": 2294.3,
+      "text": "our priority number one that our customers get Solutions based business Central that is the best you can have um and we are doing that by um standardizing I mean we are standardizing how should a certain page type work and look um and we are doing it by reducing"
+    },
+    {
+      "t": 2294.3,
+      "end": 2307.6,
+      "text": "flexibility and and that is sort of where the the the where it can sometimes get complicated with business Central because we are um providing a uh spectrum of flexibility"
+    },
+    {
+      "t": 2307.6,
+      "end": 2328.4,
+      "text": "and if you stay within that spectrum of flexibility in terms of then then then you have a a good time with with business Central and the problem is of course when you want to do something that business Central is not supporting yeah then suddenly it gets super complicated MH but I think it's useful to uh think about and I know that that that"
+    },
+    {
+      "t": 2328.4,
+      "end": 2348.8,
+      "text": "people know this already of course if you go and build a power app for example to do the same thing that a business Central card page can do it will be a lot of work mhm right you will have to take care of a lot of stuff on your own if you were to build uh a a page as complex as a standard car page"
+    },
+    {
+      "t": 2348.8,
+      "end": 2369.5,
+      "text": "bus there's a lot of functionality build in the car page you get for free basically by just saying I just want a page and then you just get it and yes so so I think the tradeoff when you're building for business Central is that you you trade off some flexibility uh but you get a lot of behaviors and and and translations"
+    },
+    {
+      "t": 2369.5,
+      "end": 2389.6,
+      "text": "and not to mention security and and so on uh as that so so in some situations that tradeoff uh is easy to establish because you you don't need the flexibility for a certain case if you have to create a highly customized solution for a customer then I would certainly look at Power app I mean is this scenario"
+    },
+    {
+      "t": 2389.6,
+      "end": 2409.7,
+      "text": "worth doing a power app for instead of trying to to uh um to hack the way around business ation between powerups and business Central anyway yes I I think the story around what you can do to connect business Central data to other places is is a super story so that is sometimes the right"
+    },
+    {
+      "t": 2409.7,
+      "end": 2425.4,
+      "text": "uh tradeoff to make all right thank you yob that was really interesting another aspect of U how we build business Central um thank you for watching I hope you enjoy this episodes"
+    }
+  ],
+  "markers": [],
+  "word_count": 7401
+}

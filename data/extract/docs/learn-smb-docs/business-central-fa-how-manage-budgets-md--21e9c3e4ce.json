@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/fa-how-manage-budgets.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-manage-budgets",
+  "title": "Manage FA Budgets",
+  "blob": "b6b357a34e7894486206a7046e5c1bb5ad456163",
+  "summary": "Set up budgeted fixed assets and project disposal values, depreciation, and gains/losses using budgets and reports.",
+  "systems": [
+    "fixed-assets",
+    "finance"
+  ],
+  "topics": [
+    "budgeting",
+    "fixed assets",
+    "projections",
+    "disposal"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Fixed Assets"
+    },
+    {
+      "type": "page",
+      "name": "FA Depreciation Books"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset - Projected Value"
+    },
+    {
+      "type": "report",
+      "name": "FA Projected Value"
+    }
+  ],
+  "features": [
+    "budget assets",
+    "acquisition budgeting",
+    "disposal budgeting",
+    "projected values",
+    "depreciation forecasting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005257,
+      "pages_in_call": 8
+    }
+  ]
+}

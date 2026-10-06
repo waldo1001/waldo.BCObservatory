@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-navigate-pages",
   "published_at": "2025-10-14T15:06:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7a4f8d1c001e9b9c9df8d221f3c5d4662c961a18",
       "words": 1173,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:49.047Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.006121
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:49.056Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:49.057Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:49.058Z",
+      "page": false
     }
   },
   "input_hash": "7a4f8d1c001e9b9c9df8d221f3c5d4662c961a18",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7a4f8d1c001e9b9c9df8d221f3c5d4662c961a18"
+  "output_hash": "0ee43a782c74acb881d6de4cb962233aa5db8bc19df299f0b5a9e16ce7a9196b"
 }

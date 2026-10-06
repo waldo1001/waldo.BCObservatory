@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/security/Security-Filters.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/Security-Filters",
+  "title": "Using Security Filters",
+  "blob": "88fba122d493b6dd31f553cc51e3602c4f9ba29c",
+  "summary": "Using security filters to limit user access to table data at record level. Describes creating security filters via permission sets and configuring SecurityFiltering property modes for filtered, validated, ignored, or disallowed access behavior.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "security filters",
+    "permissions",
+    "record-level security",
+    "data access",
+    "authorization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Permission Sets"
+    },
+    {
+      "type": "page",
+      "name": "Permissions"
+    },
+    {
+      "type": "page",
+      "name": "Table Filter"
+    }
+  ],
+  "features": [
+    "security filters",
+    "SecurityFiltering modes",
+    "record-level access control",
+    "FlowField calculations",
+    "permission sets"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006121,
+      "pages_in_call": 8
+    }
+  ]
+}

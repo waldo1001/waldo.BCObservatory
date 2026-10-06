@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-maintain",
   "published_at": "2025-10-10T07:35:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bccfc17ca865b60a9711cd62aff477779b3e558b",
       "words": 886,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:50.314Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 12,
+      "cost_usd": 0.005257
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:52.233Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:52.234Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:52.235Z",
+      "page": false
     }
   },
   "input_hash": "bccfc17ca865b60a9711cd62aff477779b3e558b",
@@ -52,5 +71,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bccfc17ca865b60a9711cd62aff477779b3e558b"
+  "output_hash": "26426d1bf981714be80692e085a3631be5e878ade892aacc8857e25586c6d61b"
 }

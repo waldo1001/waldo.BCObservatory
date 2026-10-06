@@ -1,0 +1,79 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/fa-how-insure.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-insure",
+  "title": "Insure fixed assets",
+  "blob": "d444ae19723b69d6236860c19e058266197a49e4",
+  "summary": "Create insurance policies, assign fixed assets, track coverage, update values, and monitor over/under-insurance with reports.",
+  "systems": [
+    "fixed-assets",
+    "reporting"
+  ],
+  "topics": [
+    "insurance",
+    "fixed assets",
+    "coverage",
+    "monitoring"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Insurance Card"
+    },
+    {
+      "type": "page",
+      "name": "Insurance Journal"
+    },
+    {
+      "type": "page",
+      "name": "Insurance Statistics"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset Statistics"
+    },
+    {
+      "type": "page",
+      "name": "Insurance Coverage Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Insurance List"
+    },
+    {
+      "type": "page",
+      "name": "Insurance - Tot. Value Insured"
+    },
+    {
+      "type": "page",
+      "name": "Over/Under Coverage"
+    },
+    {
+      "type": "page",
+      "name": "Insurance - Analysis"
+    },
+    {
+      "type": "page",
+      "name": "Insurance - Uninsured FAs"
+    }
+  ],
+  "features": [
+    "insurance policies",
+    "asset assignment",
+    "coverage tracking",
+    "automatic insurance posting",
+    "index insurance",
+    "over/under coverage monitoring",
+    "insurance reports"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005257,
+      "pages_in_call": 8
+    }
+  ]
+}

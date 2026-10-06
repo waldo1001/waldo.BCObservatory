@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-analytics-overview",
   "published_at": "2025-10-10T07:35:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d251d2d7dee8be1d124d56c345e599ff357a8867",
       "words": 1137,
       "forms": 14
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:50.311Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.005257
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:52.223Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:52.225Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:52.225Z",
+      "page": false
     }
   },
   "input_hash": "d251d2d7dee8be1d124d56c345e599ff357a8867",
@@ -111,5 +130,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d251d2d7dee8be1d124d56c345e599ff357a8867"
+  "output_hash": "5c846156f373aa5c085c695b26154e41e98b8a3ff83877c17b3ac26d34a3422d"
 }

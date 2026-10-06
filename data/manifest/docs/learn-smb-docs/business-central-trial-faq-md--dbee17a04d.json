@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/trial-faq",
   "published_at": "2025-10-13T17:42:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5b47629a9d603301dd79521403d1a0aa27217029",
       "words": 319,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:01:49.054Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006121
+    },
+    "summarized": {
+      "at": "2026-10-06T19:01:52.212Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:01:52.213Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:01:52.214Z",
+      "page": false
     }
   },
   "input_hash": "5b47629a9d603301dd79521403d1a0aa27217029",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5b47629a9d603301dd79521403d1a0aa27217029"
+  "output_hash": "7d606f97d0d44e7dfa3348b04596dd438b8f475e8e59ab891c75450dc36df6c5"
 }
