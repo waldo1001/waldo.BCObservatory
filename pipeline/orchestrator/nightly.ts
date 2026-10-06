@@ -48,6 +48,7 @@ import { renderTopics } from "../render/topic.js";
 import { renderFeatureIndex, rerenderFeaturePages } from "../render/feature.js";
 import { linkRoadmap, type LinkRun } from "../link/roadmap.js";
 import { refreshCodeDerived, type CodeDerivedRun } from "../code/diff.js";
+import { refreshDocsObjects } from "../code/docs-objects.js";
 import { reviewCoverage, type CoverageReviewRun } from "../review/coverage.js";
 import { buildTopicHubs, mirrorReader } from "../link/toc.js";
 import { refreshNarratives } from "../summarize/hub.js";
@@ -108,7 +109,7 @@ export interface RunReport {
   roadmap_links?: Omit<LinkRun, "errors"> & { pages: number; review?: Omit<CoverageReviewRun, "errors"> };
   hubs?: { topics: number; narrated: number; refreshed: number; failed: number; backlog: number; stopped: string; reviewed?: number; review_fixed?: number; review_rejected?: number; review_backlog?: number };
   /** Code diffs, timelines and deprecation radar recomputed from the snapshots (D26). */
-  code?: CodeDerivedRun;
+  code?: CodeDerivedRun & { docs_objects?: ReturnType<typeof refreshDocsObjects> };
   /** Checkpoint commits made during stage execution (D26). */
   checkpoints?: number;
   /** check:leak before the commit (D08); findings block the commit. */
@@ -209,7 +210,8 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
     if (ck) { await ck.stop(); report.checkpoints = ck.count(); }
     report.execution = execution;
     try {
-      report.code = refreshCodeDerived(opts.dataDir, Object.keys(loadConfig<VersionsConfig>("versions").majors));
+      const majors = Object.keys(loadConfig<VersionsConfig>("versions").majors);
+      report.code = { ...refreshCodeDerived(opts.dataDir, majors), docs_objects: refreshDocsObjects(opts.dataDir, majors, manifest.list("docs")) };
     } catch (e) {
       errors.push(`code derived: ${(e as Error).message.slice(0, 300)}`);
     }

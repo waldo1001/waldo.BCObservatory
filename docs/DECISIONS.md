@@ -122,3 +122,10 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   night when inputs change: version diffs (28→29→30), country diffs, timelines per object type (one file per type,
   not per object), and the deprecation radar (Obsolete* + CLEAN guards; `clean_version` is the guard's version, not
   a removal date). Measured: 29 = 9,435 W1 objects + 22 countries in 44 s; all snapshots 334 MB raw, derived 22 MB.
+- **D29 Docs ↔ objects by exact id only; first-party apps get their own snapshot.** Learn's `ms.search.form`
+  (page/report/query ids) is joined to the snapshots by object key (`data/index/docs-objects.json`); PLAN's
+  name/caption matching is left out (AGENTS.md: no title matching). `data/code/drift.json` lists documented objects
+  in no snapshot, documented obsolete objects and new pages/reports without docs. BCApps first-party apps
+  (`src/Apps/W1/*/app`, ~6,900 objects, 16 MB) are `data/code/<major>/apps`, outside W1 so version diffs compare like
+  with like; they resolved 370 of 583 unmatched Learn ids. 2026-10-06: 1,144 pages, 4,888 links, 213 not found
+  (country apps, removed objects), 42 obsolete but documented, 39 new pages/reports undocumented.

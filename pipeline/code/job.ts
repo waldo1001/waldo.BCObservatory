@@ -11,7 +11,7 @@
  * lines of objects whose files changed. Only the major's `snapshot_source` (config/versions.json) runs; the other
  * code items are declined. Quota: code_jobs (one item per night).
  */
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { createRequire } from "node:module";
 import { join, relative, resolve } from "node:path";
 import { loadConfig } from "../lib/config.js";
@@ -29,6 +29,8 @@ export interface CodeApp { app: string; path: string }
 export interface SourceCodeConfig {
   w1: CodeApp[]; countries: "all" | string[]; country_app: string; docs: boolean;
   layers_root?: string; layer_app?: string; layers_config?: string; country_branch?: string; country_path?: string;
+  /** Glob of first-party app folders, one `*` segment = the app (e.g. src/Apps/W1/*\/app) → data/code/<major>/apps. */
+  apps?: string;
 }
 interface Versions { majors: Record<string, Record<string, unknown>>; repos: Record<string, string>; code: Record<string, SourceCodeConfig> }
 const REPO_KEY: Record<string, string> = { bcapps: "bcapps", "sandbox-history": "sandbox_history", "onprem-history": "onprem_history" };
@@ -58,6 +60,14 @@ export async function sparseCheckout(url: string, branch: string, paths: string[
   }
   await git(["sparse-checkout", "set", "--no-cone", ...patterns], dir);
   return (await git(["rev-parse", "HEAD"], dir)).trim();
+}
+
+/** Expand an `apps` glob (`src/Apps/W1/*\/app`) into one CodeApp per existing folder, named after the `*` segment. */
+export function expandApps(root: string, glob: string): CodeApp[] {
+  const [before, after] = glob.split("*");
+  const parent = resolve(root, before);
+  if (!existsSync(parent)) return [];
+  return readdirSync(parent).sort().map((name) => ({ app: name, path: `${before}${name}${after}` })).filter((a) => existsSync(resolve(root, a.path)));
 }
 
 /** layers_config.json → layer → base layer (W1 has none), for the configured app (BaseApp). */
@@ -208,7 +218,7 @@ export function codeFetched(deps: CodeDeps): StageHandler {
     run: async (item) => {
       const job = jobFor(item)!;
       const layers = job.cfg.layers_root ? [`${job.cfg.layers_root}/*/${job.cfg.layer_app}`, `${job.cfg.layers_root}/*/.layer`, job.cfg.layers_config!.slice(0, job.cfg.layers_config!.lastIndexOf("/"))] : [];
-      const paths = [...job.cfg.w1.map((a) => a.path), ...layers];
+      const paths = [...job.cfg.w1.map((a) => a.path), ...layers, ...(job.cfg.apps ? [job.cfg.apps] : [])];
       const sha = await deps.checkout(job.repo, job.branch, paths, codeCheckoutDir(deps.cacheDir, job));
       return { data: { commit: sha, branch: job.branch } };
     },
@@ -226,6 +236,13 @@ export function codeExtracted(deps: CodeDeps): StageHandler {
       const base = { source: job.source, repo: job.repo };
       const w1 = await extractApps(root, job.cfg.w1, { version: job.major, country: "w1", layer: "base", docs: job.cfg.docs });
       writeSnapshot(ctx.dataDir, [...w1.objects.values()], { ...base, major: job.major, country: "w1", layer: "base", branch: job.branch, commit, build: w1.build, apps: job.cfg.w1.map((a) => a.app), files: w1.files, parse_errors: w1.errors });
+      let appObjects = 0;
+      if (job.cfg.apps) {
+        const apps = expandApps(root, job.cfg.apps);
+        const a = await extractApps(root, apps, { version: job.major, country: "w1", layer: "base", docs: job.cfg.docs });
+        writeSnapshot(ctx.dataDir, [...a.objects.values()], { ...base, major: job.major, country: "apps", layer: "base", branch: job.branch, commit, build: w1.build, apps: apps.map((x) => x.app), files: a.files, parse_errors: a.errors });
+        appObjects = a.objects.size;
+      }
       const countries: Record<string, { added: number; replaced: number; absent: number }> = {};
       if (job.cfg.layers_root) {
         const parents = layerParents(root, job.cfg);
@@ -264,7 +281,7 @@ export function codeExtracted(deps: CodeDeps): StageHandler {
         }
       }
       log.info(`code ${job.source}/${job.major}: ${w1.objects.size} W1 objects, ${Object.keys(countries).length} countries`);
-      return { output_hash: commit, data: { commit, w1_objects: w1.objects.size, files: w1.files, parse_errors: w1.errors, countries } };
+      return { output_hash: commit, data: { commit, w1_objects: w1.objects.size, app_objects: appObjects, files: w1.files, parse_errors: w1.errors, countries } };
     },
   };
 }

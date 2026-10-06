@@ -222,7 +222,9 @@ export function refreshCodeDerived(dataDir: string, majors: string[]): CodeDeriv
 function countriesOf(dataDir: string, major: string): string[] {
   const dir = resolve(dataDir, "code", major);
   if (!existsSync(dir)) return [];
-  return readdirSyncSafe(dir).filter((cc) => cc !== "w1" && manifestOf(dataDir, major, cc)).sort();
+  return readdirSyncSafe(dir).filter((cc) => cc !== "w1" && cc !== APPS && manifestOf(dataDir, major, cc)).sort();
 }
 import { readdirSync } from "node:fs";
+/** data/code/<major>/apps holds first-party apps: a snapshot of its own, not a country. */
+export const APPS = "apps";
 const readdirSyncSafe = (d: string) => { try { return readdirSync(d); } catch { return []; } };

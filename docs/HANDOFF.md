@@ -90,8 +90,9 @@ Deliberate deviations from PLAN, all small:
 - M2 code pillar, in progress (D27, D28): extractor (`pipeline/code/extract.ts`), code job
   (`pipeline/code/job.ts`, code items in the nightly, quota `code_jobs`), snapshots 28/29/30 W1 + overlays in
   `data/code/`, version and country diffs, timelines, deprecation radar (`pipeline/code/diff.ts`, nightly post-pass).
-  Next: docs↔objects via `ms.search.form` (1,146 pages, 2,152 ids recorded) + drift report, object pages,
-  localization hubs (BE, NL narratives first), deprecation radar page.
+  Docs↔objects + drift report done (D29, `pipeline/code/docs-objects.ts`, first-party apps snapshot).
+  Next: object pages, localization hubs (BE, NL narratives first), deprecation radar page, site routes for them.
+- Running 2026-10-06 18:13: unlimited nightly on the Mini (run 37493958522), batch commits every 50 item stages.
 
 ## Execution notes (2026-10-06)
 

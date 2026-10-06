@@ -8,9 +8,10 @@
     "30": { "label": "2027 release wave 1 (BC30, vNext)", "bcapps_branch": "main", "bcapps_has_baseapp": true, "sandbox_branch": "w1-30-vNext", "onprem_branch": null, "vnext": true, "snapshot_source": "bcapps" }
   },
   "code": {
-    "$comment": "What the code job extracts per snapshot source (PLAN 4.6, D27). W1 apps in full; countries as overlays (objects new or changed against W1). BCApps carries every layer in one checkout and stacks them (layers_config.json: AT on DACH on W1, each layer may exclude inherited files); regional layers (APAC, DACH, NA) are bases, not countries. Code History has one complete branch per country, so its list is explicit.",
+    "$comment": "What the code job extracts per snapshot source (PLAN 4.6, D27). W1 apps in full; countries as overlays (objects new or changed against W1). BCApps carries every layer in one checkout and stacks them (layers_config.json: AT on DACH on W1, each layer may exclude inherited files); regional layers (APAC, DACH, NA) are bases, not countries. `apps` = Microsoft's first-party apps (Shopify, Power BI Reports, ...), their own snapshot data/code/<major>/apps (no tests, no demo data), kept out of W1 so version diffs compare like with like. Code History has one complete branch per country, so its list is explicit.",
     "bcapps": {
       "w1": [ { "app": "Base Application", "path": "src/Layers/W1/BaseApp" }, { "app": "System Application", "path": "src/System Application/App" }, { "app": "Business Foundation", "path": "src/Business Foundation/App" } ],
+      "apps": "src/Apps/W1/*/app",
       "layers_root": "src/Layers", "layer_app": "BaseApp", "layers_config": "src/Layers/.config/layers_config.json",
       "country_app": "Base Application", "countries": "all", "docs": true
     },

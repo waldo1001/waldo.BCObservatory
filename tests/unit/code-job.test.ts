@@ -74,7 +74,7 @@ test("BCApps job: W1 in full, countries as overlays through their layer chain, s
   execFileSync("mkdir", ["-p", join(cacheDir, "code")]);
   const it = item("bcapps", "29"); // the handlers read config/versions.json, where bcapps/29 has this fixture's shape
   await run(codeFetched(deps))(it, { dataDir } as any);
-  assert.deepEqual(checkouts[0].slice(-3), ["src/Layers/*/BaseApp", "src/Layers/*/.layer", "src/Layers/.config"]);
+  assert.deepEqual(checkouts[0].slice(-4), ["src/Layers/*/BaseApp", "src/Layers/*/.layer", "src/Layers/.config", "src/Apps/W1/*/app"]);
   const r = await run(codeExtracted(deps))(it, { dataDir } as any);
   const w1 = readSnapshot(dataDir, "29", "w1");
   assert.deepEqual(w1.map((o) => `${o.type}/${o.id}`).sort(), ["codeunit/1", "page/742", "table/18", "table/23"]);
