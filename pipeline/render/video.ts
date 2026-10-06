@@ -54,8 +54,12 @@ export function roadmapStatusOf(r: VideoRoadmap, i: number, now: Date): { ids: s
   return { ids, status: statuses.size === 1 ? [...statuses][0] : null };
 }
 
-export function renderVideoPage(item: ManifestItem, x: VideoExtraction, s: VideoSummary, source: { name: string }, now: Date, roadmap: VideoRoadmap = NO_ROADMAP): string {
+/** CONTENT-NOTICE.md: community pages carry a few short quotes, not a stitched transcript. */
+export const COMMUNITY_QUOTES_MAX = 5;
+
+export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: VideoSummary, source: { name: string }, now: Date, roadmap: VideoRoadmap = NO_ROADMAP): string {
   const id = videoIdOf(item);
+  const x = item.tier === "official" ? x0 : { ...x0, quotes: x0.quotes.slice(0, COMMUNITY_QUOTES_MAX) };
   const rm = x.features.map((_, i) => roadmapStatusOf(roadmap, i, now));
   const statusOf = (i: number) => rm[i].status ?? x.features[i].status;
   const flags = item.flags ?? [];

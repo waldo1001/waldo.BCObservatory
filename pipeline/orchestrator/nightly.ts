@@ -27,7 +27,7 @@ import { git } from "../lib/git.js";
 import { httpGet, type HttpGet } from "../lib/http.js";
 import { llmStats, setSpendLimit } from "../lib/llm.js";
 import { logger } from "../lib/log.js";
-import { Manifest, skip, type Pillar } from "../lib/manifest.js";
+import { captionRetryDue, Manifest, reviveForCaptions, skip, type Pillar } from "../lib/manifest.js";
 import { CACHE_DIR, DATA_DIR, ROOT, VAULT_DIR } from "../lib/paths.js";
 import { checkLeak, type LeakReport } from "../validate/leak.js";
 import { validateContent } from "../validate/content.js";
@@ -103,6 +103,8 @@ export interface RunReport {
   hubs?: { topics: number; narrated: number; refreshed: number; failed: number; backlog: number; stopped: string; reviewed?: number; review_fixed?: number; review_rejected?: number; review_backlog?: number };
   /** check:leak before the commit (D08); findings block the commit. */
   leak?: { vault: LeakReport["vault"]; raw_docs: number; files_scanned: number; findings: number; blocked: boolean };
+  /** no-captions videos put back in the queue this run (weekly, CAPTION_RETRIES times). */
+  captions_retried?: number;
   /** validate:content after rendering; reported, never blocks the commit (renderers schema-check as they write). */
   content?: { pages: number; errors: number };
   items_changed: number; errors: string[];
@@ -171,6 +173,10 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
   report.items_changed = (totals.new ?? 0) + (totals.changed ?? 0);
 
   if (opts.stages === "all") {
+    let revived = 0;
+    for (const item of manifest.list("video")) if (captionRetryDue(item, now)) { manifest.save(reviveForCaptions(item)); revived++; }
+    if (revived) log.info(`captions: ${revived} no-captions videos retried`);
+    report.captions_retried = revived;
     const quotas = capQuotas(scaleQuotas(cfg.quotas, guard), opts.quota);
     const handlers = deps.handlers ?? STAGE_HANDLERS;
     // only items whose next stage can run tonight compete for quota; the rest would only crowd them out

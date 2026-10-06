@@ -2,13 +2,16 @@
  * Video `fetched` and `captioned` stages (PLAN 4.3 stage 2, deterministic, Mini only).
  *
  * fetched: per-video metadata (yt-dlp --dump-json): real upload time, title, duration, which caption track exists.
- * captioned: that track as VTT → data/captions/microsoft/<id>.{vtt,segments.json} (D09). No track → skipped
- * `no-captions`; private or removed → skipped `unavailable`; upcoming or live → retried later.
- * Official tier only: community captions belong in the vault (D08). The leak scanner (`npm run check:leak`, D24)
- * exists and gates every nightly commit; community captions wait for the vault checkout on the Mini.
+ * captioned: that track as VTT plus cleaned segments (D09). Microsoft (tier official) → data/captions/microsoft/,
+ * full text in the public repo; community → vault/captions/community/<source>/, never in the public repo (D08).
+ * No track → skipped `no-captions` (retried weekly, see reviveCaptionSkips); private or removed → skipped
+ * `unavailable`; upcoming or live → retried later.
+ * Community videos are accepted only when the vault is a git checkout (the Mini), so their raw text always lands in
+ * the private repository and the leak scan (D24) can see it; elsewhere they wait.
  */
-import { resolve } from "node:path";
+import { relative, resolve } from "node:path";
 import { exists, readText, writeText } from "../lib/fsx.js";
+import { vaultDir } from "../lib/paths.js";
 import type { ManifestItem } from "../lib/manifest.js";
 import { sha256 } from "../lib/text.js";
 import type { StageHandler } from "../orchestrator/execute.js";
@@ -17,13 +20,21 @@ import { fetchCaptions, videoMeta, YtUnavailable, type VideoMeta } from "./ytdlp
 
 const videoIdOf = (item: ManifestItem) => item.id.slice(item.id.lastIndexOf("/") + 1);
 export const officialOnly = (item: ManifestItem) => item.tier === "official";
+/** Official videos always; community videos once the vault is a git checkout that the nightly pushes. */
+export const captionable = (item: ManifestItem) => item.tier === "official" || exists(resolve(vaultDir(), ".git"));
+/** Where a video's captions go: the public data dir for Microsoft, the private vault for everyone else. */
+export function captionDir(item: ManifestItem, dataDir: string): { dir: string; label: string } {
+  if (item.tier === "official") return { dir: resolve(dataDir, "captions", "microsoft"), label: "data/captions/microsoft" };
+  const dir = resolve(vaultDir(), "captions", "community", item.source);
+  return { dir, label: `vault:${relative(vaultDir(), dir)}` };
+}
 
 export interface CaptionDeps { meta: typeof videoMeta; captions: typeof fetchCaptions }
 const real: CaptionDeps = { meta: videoMeta, captions: fetchCaptions };
 
 export function fetchedHandler(deps: CaptionDeps = real): StageHandler {
   return {
-    accepts: officialOnly,
+    accepts: captionable,
     lane: "youtube",
     run: async (item) => {
       let m: VideoMeta;
@@ -45,7 +56,7 @@ export function fetchedHandler(deps: CaptionDeps = real): StageHandler {
 
 export function captionedHandler(deps: CaptionDeps = real): StageHandler {
   return {
-    accepts: officialOnly,
+    accepts: captionable,
     lane: "youtube",
     run: async (item, ctx) => {
       const track = item.meta?.captions_track as VideoMeta["captions"] | undefined;
@@ -55,13 +66,13 @@ export function captionedHandler(deps: CaptionDeps = real): StageHandler {
       if (!vtt) return { skip: "no-captions", data: { track: `${track.kind}:${track.lang}` } };
       const cleaned = cleanVtt(vtt, typeof item.meta?.duration_s === "number" ? item.meta.duration_s : undefined);
       if (!cleaned.segments.length) return { skip: "no-captions", data: { track: `${track.kind}:${track.lang}`, empty: true } };
-      const dir = resolve(ctx.dataDir, "captions", "microsoft");
+      const { dir, label } = captionDir(item, ctx.dataDir);
       const write = (p: string, t: string) => { if (!exists(p) || readText(p) !== t) writeText(p, t); };
       write(resolve(dir, `${id}.vtt`), vtt);
       write(resolve(dir, `${id}.segments.json`), JSON.stringify({ video_id: id, source: "yt-dlp", ...cleaned }, null, 2) + "\n");
       return {
         output_hash: sha256(vtt),
-        data: { path: `data/captions/microsoft/${id}.vtt`, vtt_sha256: sha256(vtt), segments: cleaned.segments.length, words: cleaned.word_count, lang: track.lang, kind: track.kind },
+        data: { path: `${label}/${id}.vtt`, vtt_sha256: sha256(vtt), segments: cleaned.segments.length, words: cleaned.word_count, lang: track.lang, kind: track.kind },
       };
     },
   };

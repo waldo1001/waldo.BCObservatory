@@ -13,7 +13,8 @@ import { resolve } from "node:path";
 import { exists, readJson, writeJson } from "../lib/fsx.js";
 import { complete, type LlmRequest, type LlmResult } from "../lib/llm.js";
 import type { ManifestItem } from "../lib/manifest.js";
-import { VAULT_DIR } from "../lib/paths.js";
+import { vaultDir as currentVault } from "../lib/paths.js";
+import { repeatsRun } from "../validate/leak.js";
 import { checkQuote, type Seg } from "../lib/quotes.js";
 import { canonicalJson, sha256 } from "../lib/text.js";
 import { taxonomy } from "../lib/config.js";
@@ -110,11 +111,22 @@ export function makeWindows(segs: Seg[], duration: number): Seg[][] {
   return out;
 }
 
-export function captionSegmentsPath(item: ManifestItem, dataDir: string, vaultDir = VAULT_DIR): string {
+export function captionSegmentsPath(item: ManifestItem, dataDir: string, vaultDir = currentVault()): string {
   const key = item.id.slice(item.id.lastIndexOf("/") + 1);
   return item.tier === "official"
     ? resolve(dataDir, "captions", "microsoft", `${key}.segments.json`)
     : resolve(vaultDir, "captions", "community", item.source, `${key}.segments.json`);
+}
+/**
+ * D08/D24 per-item leak guard: for a community video, the first run of 25+ caption words that `derived` repeats.
+ * Official (Microsoft) captions are full text, so their items are never checked.
+ */
+export function communityLeak(item: ManifestItem, dataDir: string, derived: unknown): string | null {
+  if (item.tier === "official") return null;
+  const p = captionSegmentsPath(item, dataDir);
+  if (!exists(p)) return null;
+  const raw = readJson<{ segments: Seg[] }>(p).segments.map((s) => s.text).join(" ");
+  return repeatsRun(raw, JSON.stringify(derived));
 }
 export const extractionPath = (dataDir: string, videoId: string) => resolve(dataDir, "extract", "video", `${videoId}.json`);
 
@@ -236,6 +248,8 @@ export function extractionHash(x: VideoExtraction): string {
 /** Executor handler for the video `extracted` stage. */
 export async function extractedHandler(item: ManifestItem, ctx: { dataDir: string }, llm: Llm = complete) {
   const x = await extractVideo(item, ctx.dataDir, llm);
+  const leak = communityLeak(item, ctx.dataDir, x);
+  if (leak) return { skip: "leak", data: { stage: "extracted", run: leak.split(" ").slice(0, 10).join(" ") } };
   const path = extractionPath(ctx.dataDir, x.video_id);
   writeJson(path, x);
   return {

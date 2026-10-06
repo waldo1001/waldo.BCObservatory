@@ -79,6 +79,29 @@ export function forEachShingle(words: string[], fn: (key: number, start: number)
   }
 }
 
+/**
+ * Per-item guard for derived community text: the first run of SHINGLE words of `raw` that `derived` repeats, or null.
+ * Stages call it before writing an extraction, summary or review of a community item, so one item is skipped
+ * instead of the commit-time scan blocking the whole night.
+ */
+export function repeatsRun(raw: string, derived: string): string | null {
+  const rw = leakWords(raw);
+  const index = new Set<number>();
+  forEachShingle(rw, (k) => { index.add(k); });
+  if (!index.size) return null;
+  const hay = ` ${rw.join(" ")} `;
+  const dw = leakWords(derived);
+  let hit: string | null = null;
+  forEachShingle(dw, (k, start) => {
+    if (!index.has(k)) return;
+    const run = dw.slice(start, start + SHINGLE).join(" ");
+    if (!hay.includes(` ${run} `)) return;
+    hit = run;
+    return true;
+  });
+  return hit;
+}
+
 // ---------------------------------------------------------------------------------------------- vault raw text
 
 export interface RawDoc { source: string; key: string; path: string; words: string[] }

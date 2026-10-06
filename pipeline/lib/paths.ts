@@ -22,4 +22,6 @@ export const SOURCES_FILE = resolve(ROOT, "sources.yaml");
 export const CACHE_DIR = process.env.BCOBS_CACHE_DIR ?? resolve(ROOT, ".cache");
 /** Private vault checkout (community raw text + LLM cache). Never inside the public repo. */
 export const VAULT_DIR = process.env.BCOBS_VAULT_DIR ?? resolve(ROOT, "vault");
+/** VAULT_DIR read at call time, so tests and the Mini's env file can point it elsewhere after import. */
+export const vaultDir = () => process.env.BCOBS_VAULT_DIR ?? VAULT_DIR;
 export const LLM_CACHE_DIR = process.env.BCOBS_LLM_CACHE_DIR ?? resolve(VAULT_DIR, "llm-cache");

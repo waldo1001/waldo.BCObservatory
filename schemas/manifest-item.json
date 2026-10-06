@@ -31,7 +31,8 @@
     "retry_after": { "type": ["string", "null"], "format": "date-time" },
     "flags": { "type": "array", "items": { "type": "string" } },
     "review": { "type": "object", "properties": { "state": { "enum": ["unreviewed", "reviewed", "flagged"] }, "by": { "type": ["string", "null"] }, "at": { "type": ["string", "null"] } } },
-    "skip": { "type": ["string", "null"], "description": "horizon|policy|no-captions|..." },
+    "skip": { "type": ["string", "null"], "description": "horizon|policy|no-captions|leak|..." },
+    "skipped_at": { "type": ["string", "null"], "format": "date-time" },
     "meta": { "type": "object", "description": "pillar-specific discovery data (video duration, doc paths, commit, ...)" }
   }
 }

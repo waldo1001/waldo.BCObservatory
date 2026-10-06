@@ -58,7 +58,7 @@ test("summary: Sonnet prose role over the extraction only, tidied, stored", asyn
   const saved = JSON.parse(readFileSync(join(dataDir, `summary/video/${ID}.json`), "utf8"));
   assert.equal(saved.summary, "Posting preview is generally available - shown in a demo.");
   assert.deepEqual(saved.audience, ["functional consultant"]);
-  assert.match(r.output_hash, /^[0-9a-f]{64}$/);
+  assert.match(r.output_hash ?? "", /^[0-9a-f]{64}$/);
 });
 
 test("page: valid video frontmatter, evidence with t, escaped tables, objects marked as heard; index newest first", async () => {

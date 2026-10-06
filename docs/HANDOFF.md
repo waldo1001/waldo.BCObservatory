@@ -44,8 +44,7 @@ Deliberate deviations from PLAN, all small:
    - Done (same day): Microsoft channel reconcile (weekly `yt-dlp --flat-playlist`, 444 more videos, undated until
      `fetched`), caption fetch (`pipeline/caption/{ytdlp,fetch}.ts`, official tier only), Astro routes `/videos/`,
      `/videos/<id>/`, `/videos/<id>.md`, `/videos/llms.txt`, root `llms.txt` Sections block.
-   - Open: Opus `reviewed` handler (flagged videos wait at `linked`); community video captions (need `check:leak`,
-     D08); `no-captions` skips are terminal for now (PLAN wants a weekly retry).
+   - Done since: Opus `reviewed` handler; community video captions (D25); weekly `no-captions` retry (D25).
    - Nightly per night (reduced mode, no usage token): 40 captions (2 yt-dlp calls each, 5-10 s apart), 12 videos
      extracted + summarized + published. 82 seed + 444 reconciled videos ≈ 6 weeks at that pace; full quotas halve it.
    - Measured (claude -p, 2.1.287): Haiku extraction 9-min video $0.036 / 27 s, 35-min video $0.16 (4 calls);
@@ -83,8 +82,10 @@ Deliberate deviations from PLAN, all small:
   3-per-ref cap and link nothing (they cover dozens of features legitimately); ~3,400 Learn pages still to extract
   will cost ~$9 of linking spread over nights.
 - ~~`check:leak` + `validate:content` scripts~~ Done 2026-10-06 (D24): `pipeline/validate/{leak,content}.ts`, nightly
-  gate before every commit, PR CI steps. Next: community video captions into the vault (D08); needs the vault
-  checked out on the Mini (deploy key: owner-approved security step), then `captioned` may accept community tiers.
+  gate before every commit, PR CI steps.
+- ~~Community video captions into the vault~~ Done 2026-10-06 (D25): the vault was already cloned on the Mini with its
+  deploy key (`infra/mini/60-vault.sh`, M0 gate 6), so no new security step. Community videos (7 channels, ~105
+  discovered) now compete for the `captions`/`video_extract` quotas newest first. Weekly `no-captions` retry done.
 - Weekly retry for `no-captions` skips; usage-guard token (D16) when a durable source exists.
 - M2 code pillar: tree-sitter-al extractor, 28/29 W1 + country overlays, docs↔objects via `ms.search.form`
   (1,146 pages, 2,152 ids already recorded), object hubs for the generated reference pages.

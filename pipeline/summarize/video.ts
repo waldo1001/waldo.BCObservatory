@@ -10,7 +10,7 @@ import { exists, readJson, writeJson } from "../lib/fsx.js";
 import { complete } from "../lib/llm.js";
 import type { ManifestItem } from "../lib/manifest.js";
 import { canonicalJson, sha256 } from "../lib/text.js";
-import { extractionPath, type Llm, type VideoExtraction } from "../extract/video.js";
+import { communityLeak, extractionPath, type Llm, type VideoExtraction } from "../extract/video.js";
 
 export const PROMPT_VERSION = 2;
 export const STAGE = "summarize-video";
@@ -98,6 +98,8 @@ export async function summarizeVideo(item: ManifestItem, dataDir: string, channe
 /** Executor handler for the video `summarized` stage. */
 export async function summarizedHandler(item: ManifestItem, ctx: { dataDir: string; channel?: string }, llm: Llm = complete) {
   const s = await summarizeVideo(item, ctx.dataDir, ctx.channel ?? item.source, llm);
+  const leak = communityLeak(item, ctx.dataDir, s);
+  if (leak) return { skip: "leak", data: { stage: "summarized", run: leak.split(" ").slice(0, 10).join(" ") } };
   writeJson(summaryPath(ctx.dataDir, s.video_id), s);
   const { llm: _l, ...content } = s;
   return {

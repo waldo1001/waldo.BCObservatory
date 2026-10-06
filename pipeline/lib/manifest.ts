@@ -34,6 +34,8 @@ export interface ManifestItem {
   flags?: string[];
   review?: { state: "unreviewed" | "reviewed" | "flagged"; by: string | null; at: string | null };
   skip?: string | null;
+  /** When the item was skipped; lets a retryable skip (no-captions) come back later. */
+  skipped_at?: string | null;
   meta?: Record<string, unknown>;
 }
 
@@ -96,8 +98,23 @@ export function fail(item: ManifestItem, error: string, retry: { max_attempts: n
   return { ...item, attempts, last_error, retry_after };
 }
 
-export function skip(item: ManifestItem, reason: string): ManifestItem {
-  return { ...item, state: "skipped", skip: reason, retry_after: null };
+export function skip(item: ManifestItem, reason: string, now = new Date()): ManifestItem {
+  return { ...item, state: "skipped", skip: reason, skipped_at: now.toISOString(), retry_after: null };
+}
+
+/** Captions often appear days after upload: a `no-captions` skip is retried weekly, CAPTION_RETRIES times. */
+export const CAPTION_RETRY_DAYS = 7;
+export const CAPTION_RETRIES = 4;
+export function captionRetryDue(item: ManifestItem, now: Date): boolean {
+  if (item.pillar !== "video" || item.state !== "skipped" || item.skip !== "no-captions") return false;
+  if (Number(item.meta?.caption_retries ?? 0) >= CAPTION_RETRIES) return false;
+  // skips older than skipped_at fall back to the fetch time, which is when the missing track was seen
+  const since = Date.parse(item.skipped_at ?? (item.stages.fetched?.at as string | undefined) ?? "");
+  return Number.isFinite(since) && now.getTime() - since >= CAPTION_RETRY_DAYS * 86_400_000;
+}
+/** Back to `discovered`: the next run re-reads the video's metadata (which caption tracks exist) and tries again. */
+export function reviveForCaptions(item: ManifestItem): ManifestItem {
+  return { ...item, state: "discovered", skip: null, skipped_at: null, attempts: 0, last_error: null, retry_after: null, meta: { ...(item.meta ?? {}), caption_retries: Number(item.meta?.caption_retries ?? 0) + 1 } };
 }
 
 export interface DiscoveredInput {

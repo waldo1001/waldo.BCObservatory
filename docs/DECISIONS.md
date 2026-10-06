@@ -85,3 +85,11 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   recovery commit (status aborted). `validate:content` checks frontmatter schemas, id = path, unique ids, link ids
   and relative links; its errors go to the run report without blocking. Both run in PR CI (leak: policy only, no
   vault there). Why: 25 = the content notice's quote limit; a full repo scan takes about 2 s.
+- **D25 Community video captions go to the vault; derived pages pass a per-item leak guard.** `fetched`/`captioned`
+  accept community videos once the vault is a git checkout (the Mini); captions land in
+  `vault/captions/community/<source>/` and run-nightly.sh pushes them to the private repo. Extraction, summary and
+  Opus fixes of a community video are checked against that video's own captions before they are written: 25
+  repeated words skip the item (`leak`) instead of letting the commit-time scan (D24) block the night. Community
+  pages show at most 5 quotes (each under 25 words). `no-captions` skips record `skipped_at` and are retried weekly,
+  4 times. Verified 2026-10-06 on one Erik Hougaard video end to end ($0.23 incl. roadmap link + Opus review); the
+  full leak scan of that tree with its captions in the vault found nothing.
