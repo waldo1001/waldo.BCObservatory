@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-001-Overview",
   "published_at": "2025-07-11T07:35:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fa45f5f5ed6ae4ebe9ade6fd746afced7cfc2a13",
       "words": 387,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:09.414Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00322
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:11.189Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:11.191Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:11.192Z",
+      "page": false
     }
   },
   "input_hash": "fa45f5f5ed6ae4ebe9ade6fd746afced7cfc2a13",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fa45f5f5ed6ae4ebe9ade6fd746afced7cfc2a13"
+  "output_hash": "b943db0a69f8da24c579f8debbee3419e7e0c4e66d1209f00840b1926d619a56"
 }

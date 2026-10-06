@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-TCS-on-Receipt",
   "published_at": "2025-07-11T07:35:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7d9d9f5dc979132a7cc249e60b6371ba78ea29e3",
       "words": 639,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:09.412Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00322
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:09.427Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:09.428Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:09.429Z",
+      "page": false
     }
   },
   "input_hash": "7d9d9f5dc979132a7cc249e60b6371ba78ea29e3",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7d9d9f5dc979132a7cc249e60b6371ba78ea29e3"
+  "output_hash": "7840fe97a58cbbf9984c8cc8eb2b8d09222a78f16b0b300c292a8a6ed7708103"
 }

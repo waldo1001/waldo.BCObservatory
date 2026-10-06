@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/setup/job-queue.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/setup/job-queue",
+  "title": "Job queue",
+  "blob": "04caaddcd966742b3695c4fd7b51f7f0ae831569",
+  "summary": "Job queue allows businesses to automate recurring tasks in Business Central, including automatic updates of subscription contract termination dates through codeunit 8058.",
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "job queue",
+    "automation",
+    "subscription billing",
+    "recurring tasks"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Update Sub. Lines Term. Dates (8058)"
+    }
+  ],
+  "features": [
+    "job queue automation",
+    "subscription billing task scheduling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00322,
+      "pages_in_call": 8
+    }
+  ]
+}

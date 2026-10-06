@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-and-GST-on-Purchase",
   "published_at": "2025-07-11T07:35:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d5eafa0cde07915913e0a66b296ec9241b98b7ca",
       "words": 378,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:09.411Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00322
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:09.424Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:09.425Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:09.426Z",
+      "page": false
     }
   },
   "input_hash": "d5eafa0cde07915913e0a66b296ec9241b98b7ca",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d5eafa0cde07915913e0a66b296ec9241b98b7ca"
+  "output_hash": "7b3fe8cf75e794c24983667bc7d9b3ec73090a7cc423e17329ba8e0ee7c29237"
 }

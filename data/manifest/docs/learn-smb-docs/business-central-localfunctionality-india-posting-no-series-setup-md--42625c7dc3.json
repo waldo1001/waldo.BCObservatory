@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Posting-No-series-setup",
   "published_at": "2025-07-11T07:35:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "58c93aad08aa65576c415cb651af21cad210ac08",
       "words": 313,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:09.413Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00322
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:11.183Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:11.184Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:11.186Z",
+      "page": false
     }
   },
   "input_hash": "58c93aad08aa65576c415cb651af21cad210ac08",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "58c93aad08aa65576c415cb651af21cad210ac08"
+  "output_hash": "908cf26e1d1a5289baf4347065953f26f427d0c7ac221c53d12fbad8d38a4183"
 }

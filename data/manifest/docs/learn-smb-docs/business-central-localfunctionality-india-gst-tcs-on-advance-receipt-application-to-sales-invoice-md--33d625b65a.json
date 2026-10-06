@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice",
   "published_at": "2025-07-11T07:35:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "98015d34e382035c772fc9c34b6743130996f03f",
       "words": 465,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:09.410Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00322
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:09.421Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:09.422Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:09.423Z",
+      "page": false
     }
   },
   "input_hash": "98015d34e382035c772fc9c34b6743130996f03f",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "98015d34e382035c772fc9c34b6743130996f03f"
+  "output_hash": "5112664671b82470805e249b9960d72545506e665bccde60280001ab24f9bfdd"
 }

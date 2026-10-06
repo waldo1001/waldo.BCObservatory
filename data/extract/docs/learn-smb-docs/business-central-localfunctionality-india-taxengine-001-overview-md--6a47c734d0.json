@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TaxEngine-001-Overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-001-Overview",
+  "title": "Tax Engine Overview",
+  "blob": "fa45f5f5ed6ae4ebe9ade6fd746afced7cfc2a13",
+  "summary": "Tax Engine is a configurable extension suite for India that enables dynamic tax rule setup, calculation, and posting without code changes through six modular extensions.",
+  "systems": [
+    "localization",
+    "finance",
+    "development"
+  ],
+  "topics": [
+    "tax engine",
+    "india localization",
+    "tax configuration",
+    "tax calculation",
+    "tax scripting"
+  ],
+  "objects": [],
+  "features": [
+    "Tax Type Handler",
+    "Tax Use Case Handler",
+    "Tax Scripting",
+    "Tax Posting Handler",
+    "JSON import/export"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00322,
+      "pages_in_call": 8
+    }
+  ]
+}

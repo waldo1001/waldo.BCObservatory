@@ -1,0 +1,264 @@
+{
+  "video_id": "QfOgUCXg94o",
+  "item_id": "video/yt-microsoft/QfOgUCXg94o",
+  "title": "What's New: Concurrency in Warehousing (2024 release wave 1)",
+  "duration_s": 321,
+  "systems": [
+    "warehouse",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "concurrency",
+    "warehouse posting",
+    "entry numbering",
+    "number sequences",
+    "sift index",
+    "locking",
+    "feature key",
+    "event hooks"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to warehouse posting",
+      "t_start": 0,
+      "t_end": 28.2
+    },
+    {
+      "title": "How warehouse posting works until now",
+      "t_start": 28.2,
+      "t_end": 89
+    },
+    {
+      "title": "New concurrent posting approach in BC25",
+      "t_start": 89,
+      "t_end": 143.4
+    },
+    {
+      "title": "Insert record function and sift bucket handling",
+      "t_start": 143.4,
+      "t_end": 202.8
+    },
+    {
+      "title": "Drill down filtering and event hooks",
+      "t_start": 202.8,
+      "t_end": 263.2
+    },
+    {
+      "title": "Feature key and implementation considerations",
+      "t_start": 263.2,
+      "t_end": 321
+    }
+  ],
+  "features": [
+    {
+      "name": "Concurrent warehouse entry posting",
+      "description": "Multiple users can now post warehouse entries at the same time, replacing the previous single-user-at-a-time model. This is achieved using number sequences instead of table locks and manual entry numbering.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 89,
+      "t_end": 143.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires careful implementation for extensions",
+        "Sift index contention can still occur with same item and location combinations"
+      ],
+      "tags": [
+        "concurrency",
+        "warehouse posting",
+        "performance",
+        "number sequences"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Number sequences for entry numbering",
+      "description": "Entry numbers are now assigned via a number sequence function instead of manual lock and find last operations, enabling parallel posting without blocking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 89,
+      "t_end": 122.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "number sequences",
+        "entry numbering",
+        "concurrency"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Insert record function",
+      "description": "New function called insert record replaces simple insert operations to handle cases where old-style locking code still exists and to manage number sequence resets on insertion conflicts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 143.4,
+      "t_end": 162.4,
+      "is_demoed": false,
+      "caveats": [
+        "Must handle reset of number sequence on insertion failure"
+      ],
+      "tags": [
+        "insert record",
+        "backward compatibility",
+        "error handling"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Sift bucket number assignment",
+      "description": "A semi-random sift bucket number between zero and four is assigned to warehouse entries to reduce lock contention on sift indexes when multiple users insert entries for the same item and location combination.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 182.5,
+      "t_end": 202.8,
+      "is_demoed": false,
+      "caveats": [
+        "Only reduces risk, does not completely eliminate sift index contention"
+      ],
+      "tags": [
+        "sift index",
+        "locking",
+        "contention reduction"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "On init event for warehouse entries",
+      "description": "Event hook called after warehouse entry initialization but before insertion, allowing extensions to create additional entries or perform custom logic with access to entry number and warehouse register information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 243,
+      "t_end": 263.2,
+      "is_demoed": false,
+      "caveats": [
+        "Extensions using this event may need to implement similar concurrent posting patterns"
+      ],
+      "tags": [
+        "event hooks",
+        "extensibility",
+        "warehouse entries"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Concurrent posting feature key",
+      "description": "A feature key controls the new concurrent posting behavior and is enabled by default. Can be disabled if needed through warehouse setup configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 279.6,
+      "t_end": 299.9,
+      "is_demoed": false,
+      "caveats": [
+        "Feature key provides backward compatibility option"
+      ],
+      "tags": [
+        "feature key",
+        "configuration",
+        "backward compatibility"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Warehouse Register",
+      "t": 28.2
+    },
+    {
+      "type": "table",
+      "name": "Warehouse Entry",
+      "t": 48.8
+    },
+    {
+      "type": "table",
+      "name": "Warehouse Setup",
+      "t": 299.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "B Knutsen",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 28.2,
+      "text": "only one user can post at the time and you usually have a register like a warehouse register and then some entries",
+      "why_it_matters": "Establishes the baseline limitation that the new feature addresses - single-user serialization of warehouse posting.",
+      "check": "exact"
+    },
+    {
+      "t": 89,
+      "text": "in bc25 we will allow multiple users at the same time to post and we'll do that by using number sequences",
+      "why_it_matters": "Announces the major feature change and the technical approach to enabling concurrency.",
+      "check": "exact"
+    },
+    {
+      "t": 143.4,
+      "text": "we call a new function that we call insert record and that's because maybe someone else has posted old style with a lock table",
+      "why_it_matters": "Explains the backward compatibility design decision and why the new insert record function is necessary.",
+      "check": "exact"
+    },
+    {
+      "t": 182.5,
+      "text": "if you have a combination of values in a sift index for instance item number and location and two users insert Warehouse entries to",
+      "why_it_matters": "Identifies a specific concurrency problem with sift indexes that the sift bucket number solution addresses.",
+      "check": "exact"
+    },
+    {
+      "t": 202.8,
+      "text": "We additionally filter on the register number so either it's zero because it's from before 25 or it is the reg number",
+      "why_it_matters": "Shows how the new design maintains backward compatibility with pre-BC25 data and behavior.",
+      "check": "snapped"
+    },
+    {
+      "t": 243,
+      "text": "we have an event that's called on in it something that we call after we have initiated the warehous entry but before we insert",
+      "why_it_matters": "Describes the extension hook that allows custom code to integrate with the new concurrent posting pattern.",
+      "check": "exact"
+    },
+    {
+      "t": 279.6,
+      "text": "there is a feature key that we have enabled by default but you can turn it off and in the code there is a",
+      "why_it_matters": "Explains the feature key mechanism providing a way to disable or control the new concurrent posting if needed.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 89,
+      "kind": "coming-later",
+      "text": "in bc25 we will allow multiple users at the same time to post"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.05266309999999999
+    }
+  ]
+}

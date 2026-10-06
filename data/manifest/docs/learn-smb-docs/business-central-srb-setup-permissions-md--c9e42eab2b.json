@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/setup/permissions",
   "published_at": "2025-07-11T11:45:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5eaab700ded7acd2d0fc84074f0bacaa71ca5804",
       "words": 180,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:09.409Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00322
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:09.418Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:09.419Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:09.420Z",
+      "page": false
     }
   },
   "input_hash": "5eaab700ded7acd2d0fc84074f0bacaa71ca5804",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5eaab700ded7acd2d0fc84074f0bacaa71ca5804"
+  "output_hash": "07638c281e6f7b0fcf1a3d296d0dec9e7eca56e75ed548458d1a5ae471d7841b"
 }

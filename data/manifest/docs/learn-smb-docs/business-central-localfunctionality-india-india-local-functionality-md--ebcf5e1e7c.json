@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/india-local-functionality",
   "published_at": "2025-07-11T07:35:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6d0957543d649c56018c3f5fc2b7dba2626b1773",
       "words": 607,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:09.412Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00322
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:09.430Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:09.431Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:11.181Z",
+      "page": false
     }
   },
   "input_hash": "6d0957543d649c56018c3f5fc2b7dba2626b1773",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6d0957543d649c56018c3f5fc2b7dba2626b1773"
+  "output_hash": "8887f067636044ad057aeb9ba041cccf399add1632fc905164d07517cd917ea8"
 }

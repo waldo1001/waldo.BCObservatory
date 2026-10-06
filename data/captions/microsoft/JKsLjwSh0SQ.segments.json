@@ -1,0 +1,183 @@
+{
+  "video_id": "JKsLjwSh0SQ",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.1,
+      "end": 17.9,
+      "text": "Hello, my name is Stefan Balslev and I'm going to talk to you about a challenge that many developers face every day. The challenge of changing out a lower dependency."
+    },
+    {
+      "t": 17.9,
+      "end": 32.3,
+      "text": "To change out a dependency, you need to remove all the things that depend on it first. And like this game here, there is some rules to it. You have to remove them in a certain order and there's certain order in which things have to come back."
+    },
+    {
+      "t": 32.3,
+      "end": 42.6,
+      "text": "Managing these kind of dependencies can be very hard. Let's look at an example. So here, I want to remove an app and change it out with a new version."
+    },
+    {
+      "t": 42.6,
+      "end": 53.5,
+      "text": "The core version in the bottom version one, I want to change with the new version, a new version of that extension. So what do I need to do? Well, first I need to remove all the extensions that depend on it."
+    },
+    {
+      "t": 53.5,
+      "end": 67.2,
+      "text": "I'll do that one by one. So uninstall, unpublish, and all of that work. And then, of course, I'll remove the extension itself and replace it with a new one. Again here, I'll do the publish, the sync, the install."
+    },
+    {
+      "t": 67.2,
+      "end": 82.3,
+      "text": "I'll then start to install all the other extensions that were on top. One, two, three, and then so on. Seems fairly simple. It's full life cycle operations with the uninstall, unpublish, publish, sync, install,"
+    },
+    {
+      "t": 82.3,
+      "end": 94.2,
+      "text": "and then install all of the rest of the applications. Seems very simple, right? VS Code does that for you when you press F5. It detects the changes that you've made in your project and tries to do all of this for you."
+    },
+    {
+      "t": 94.2,
+      "end": 106.8,
+      "text": "But what happens when this go wrong? Let's look at that. What happens if one of them doesn't compile? Again, we apply the core version two and then we see there's one that applied and reinstalled and went well."
+    },
+    {
+      "t": 106.8,
+      "end": 120.4,
+      "text": "We tried another one and it didn't go so well. So what happened here? Well, it couldn't compile. We did some changes in the core app that are no longer compatible with the extension that we're trying to install on top."
+    },
+    {
+      "t": 120.4,
+      "end": 130.5,
+      "text": "So now the process halts. And in this case, yes, it halts and I'm broken. I can't do anything. If I'm in VS code and I press F5 and I end up in this situation,"
+    },
+    {
+      "t": 130.5,
+      "end": 143,
+      "text": "it can be quite hard sometimes to get back to the original state on the left side here in order for me to continue and retry the development. And this is the part that we've been working hard to get right."
+    },
+    {
+      "t": 143,
+      "end": 155.4,
+      "text": "So let's look at it. So in my service here, I have these apps installed. Let's see it. Extension management."
+    },
+    {
+      "t": 155.4,
+      "end": 167.5,
+      "text": "So here I have the four apps we talked about before. There's the core, there's the customer agent, invoice agent, and enhancements on top of invoices. So same scenario, same setup, seems fairly simple."
+    },
+    {
+      "t": 167.5,
+      "end": 176.7,
+      "text": "I'll open VS code and find a project that I've been working on."
+    },
+    {
+      "t": 177,
+      "end": 187.8,
+      "text": "So as many of us, when we are working with projects, we do not have everything loaded in a workspace. We have the projects that we are working on, they are loaded in this workspace."
+    },
+    {
+      "t": 187.8,
+      "end": 203.6,
+      "text": "In this case, I'm working on the customer agent and the core, so I am uh in a project in a workspace where these two are present. The other ones may be also my projects, but they may not be in this workspace or they might be third-party products that depend on my core."
+    },
+    {
+      "t": 203.6,
+      "end": 217.3,
+      "text": "Nevertheless, I am looking at this and now I'm going to do a change. So I'm going to go here. I'm going to change this to a secret text. This is a good change because we want to make sure that our tokens cannot be debugged."
+    },
+    {
+      "t": 217.3,
+      "end": 227.8,
+      "text": "So we make sure that it's a secret text that we return. I could add non-debuggable and so forth, but now let's just stop here and say we did a small change of this return type."
+    },
+    {
+      "t": 227.8,
+      "end": 241.2,
+      "text": "This is a breaking change and we'll see it immediately in this workspace because there is a dependency down here that lights up red and says that well, it's not a text anymore. It is a secret text."
+    },
+    {
+      "t": 241.2,
+      "end": 253.3,
+      "text": "Fair enough. Now I've changed that into a secret text also. We are happy, everything is green. I press F5 and we start compiling and we start publishing and we'll see what happens when we publish this to my local service here."
+    },
+    {
+      "t": 253.3,
+      "end": 265.2,
+      "text": "Let's see. Give it a second here. It will do the whole lifecycle operations for everything on top and then you'll try to reapply the new versions and it says here something did not work."
+    },
+    {
+      "t": 265.2,
+      "end": 277.5,
+      "text": "Something did not work and it was all in vain here. So publishing failed. So something is depending on the the fact that I changed this from a text to a secret text and we can see that here."
+    },
+    {
+      "t": 277.5,
+      "end": 287.7,
+      "text": "The new thing we'll see now is this part here. The original extensions have been restored. So why is this? Why is this even possible? Well,"
+    },
+    {
+      "t": 287.7,
+      "end": 297.9,
+      "text": "we have a option in the launch config called dependency publishing options. Let's go look at it. So with this one set I can instruct"
+    },
+    {
+      "t": 297.9,
+      "end": 312.2,
+      "text": "the deployment of these apps to recompile all direct dependencies of the changed app. So setting it to default here will recompile all the direct dependencies of the changed app whether or not they're in the workspace I'm working on."
+    },
+    {
+      "t": 312.2,
+      "end": 325,
+      "text": "So in this case I changed both the core and the customer agent extensions. When they were published all the extensions that were installed on the system that depended on the on them were recompiled as they were installed again."
+    },
+    {
+      "t": 325,
+      "end": 340.4,
+      "text": "Of course, the invoicing agent failed because it was depending on this one causing the whole thing to fail. And because we have improved the way we detect what is getting published and uninstalled and ready to be reapplied, we can now restore this."
+    },
+    {
+      "t": 340.4,
+      "end": 356,
+      "text": "There are other options in this dependency publishing option. The ignore will only recompile the the published app or the changed app. So, in this case, if I'm changing the core, then only the core will be recompiled and you'll start getting runtime errors"
+    },
+    {
+      "t": 356,
+      "end": 370,
+      "text": "for all the dependencies. The strict requires that you have all the dependencies in the workspace. So, it will fail from the get-go because there is more dependencies to the core app than is in this workspace."
+    },
+    {
+      "t": 370,
+      "end": 380.9,
+      "text": "I'll need to include the invoicing agent also in order for this to work. Okay, there are still some scenarios where this will break. It's not solving all the problems."
+    },
+    {
+      "t": 380.9,
+      "end": 391,
+      "text": "One of the core scenarios is is that we do not support in Business Central uh the downgrade of apps because they have destructive changes or they could have destructive changes."
+    },
+    {
+      "t": 391,
+      "end": 406.8,
+      "text": "Your install logic of a newer version may have some logic that changes the data that is not compatible with the older version, your schema changes, and so forth. Lots of things can change and you with a a version change, you indicate that something major has happened, something significant has happened."
+    },
+    {
+      "t": 406.8,
+      "end": 421.8,
+      "text": "So, if you change the version as part of a small change, then it does not work with the restore. However, for a normal developer like me looking here and changing some small things, pressing every every F5 every now and then,"
+    },
+    {
+      "t": 421.8,
+      "end": 436.8,
+      "text": "this will be a great help for my productivity because I don't have to go back and restore manually this extension setup that I had before. So, now you know much more about dependency publishing and you can learn much more about it from the learn site."
+    },
+    {
+      "t": 436.8,
+      "end": 442,
+      "text": "The link is below. Thank you for watching."
+    }
+  ],
+  "markers": [],
+  "word_count": 1282
+}

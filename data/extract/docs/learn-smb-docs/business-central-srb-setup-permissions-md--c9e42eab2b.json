@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/setup/permissions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/setup/permissions",
+  "title": "Permissions in subscription billing",
+  "blob": "5eaab700ded7acd2d0fc84074f0bacaa71ca5804",
+  "summary": "Subscription billing permission sets control user access to subscription contracts, packages, and billing operations with four levels from read-only to administrative.",
+  "systems": [
+    "administration",
+    "sales"
+  ],
+  "topics": [
+    "permissions",
+    "subscription billing",
+    "access control",
+    "permission sets"
+  ],
+  "objects": [],
+  "features": [
+    "SUB. BILLING ALL",
+    "SUB. BILLING ADMIN",
+    "SUB. BILLING BASIC",
+    "SUB. BILLING USER"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00322,
+      "pages_in_call": 8
+    }
+  ]
+}

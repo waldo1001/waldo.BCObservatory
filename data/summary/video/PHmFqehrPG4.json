@@ -1,0 +1,25 @@
+{
+  "video_id": "PHmFqehrPG4",
+  "item_id": "video/yt-microsoft/PHmFqehrPG4",
+  "summary": "AL interface extension in the 2024 release wave 2: how to extend an existing interface without breaking existing implementations, and how to use the new is and as operators for type checking and casting. Shown with a shipping cost calculator sample app using a provider model.",
+  "overview": "The video builds on a shipping cost calculator sample app made of an interface, an enum, an orchestrator codeunit and provider codeunits. It uses the app to show the limit of the current interface model: adding a method to an interface breaks every existing provider app that implements it.",
+  "key_points": [
+    "Interfaces were first released in AL more than four years before this video, integrated with enums for extensibility.",
+    "Adding a new method to an existing interface breaks all existing provider apps that implement it.",
+    "Interface extension creates a new interface that extends an existing one; the syntax is the normal interface declaration plus the extends keyword.",
+    "Implementors must implement all methods from all extended interfaces. Existing enums are not changed, so old implementations keep working.",
+    "The is operator is a Boolean expression that tests whether an interface instance also implements another interface. Its left side must be an interface instance or a variant.",
+    "The as operator casts an interface instance to another interface type and errors if the cast is not possible, so check with is first.",
+    "A new common base interface, unknown interface, was added to the system application for generic checks on whether an unknown interface implements a specific interface."
+  ],
+  "audience": [
+    "developer"
+  ],
+  "extraction_hash": "dc834a7185365925a4c7266359ad491c4a887615a442fa1bb7b187c6329f931e",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0122044
+  }
+}

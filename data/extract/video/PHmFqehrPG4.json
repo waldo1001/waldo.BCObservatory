@@ -1,0 +1,247 @@
+{
+  "video_id": "PHmFqehrPG4",
+  "item_id": "video/yt-microsoft/PHmFqehrPG4",
+  "title": "What's New: AL - Interfaces (2024 release wave 2)",
+  "duration_s": 885,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "interfaces",
+    "extensibility",
+    "interface extension",
+    "type checking",
+    "casting",
+    "provider model",
+    "enum",
+    "codeunit"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Sample App Overview",
+      "t_start": 0,
+      "t_end": 54.7
+    },
+    {
+      "title": "Shipping Cost Calculator UI and Architecture",
+      "t_start": 54.7,
+      "t_end": 105.6
+    },
+    {
+      "title": "Interface, Enum and Orchestrator Code Structure",
+      "t_start": 105.6,
+      "t_end": 207.2
+    },
+    {
+      "title": "Provider Implementation and Architecture Diagram",
+      "t_start": 207.2,
+      "t_end": 310
+    },
+    {
+      "title": "Limitations of the Current Interface Model",
+      "t_start": 310,
+      "t_end": 416.6
+    },
+    {
+      "title": "Interface Extension Feature - Syntax and Benefits",
+      "t_start": 416.6,
+      "t_end": 527.2
+    },
+    {
+      "title": "Implementing Extended Interfaces in Code",
+      "t_start": 527.2,
+      "t_end": 602
+    },
+    {
+      "title": "Type Checking and Casting with Is and As Operators",
+      "t_start": 602,
+      "t_end": 788.2
+    },
+    {
+      "title": "Live Demo of Extended Interfaces",
+      "t_start": 788.2,
+      "t_end": 840.2
+    },
+    {
+      "title": "Conclusion and Summary",
+      "t_start": 840.2,
+      "t_end": 885
+    }
+  ],
+  "features": [
+    {
+      "name": "Interface Extension",
+      "description": "Allows you to create a new interface that extends an existing interface, enabling vendors to add new methods without breaking existing implementations. Implementors must implement all methods from all extended interfaces.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 456.7,
+      "t_end": 527.2,
+      "is_demoed": true,
+      "caveats": [
+        "All implementors must implement all methods from all extended interfaces",
+        "Does not change existing enums so old implementations still work"
+      ],
+      "tags": [
+        "interface extension",
+        "extensibility",
+        "backward compatibility"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Type Checking with Is Operator for Interfaces",
+      "description": "A new Boolean expression that tests if an interface instance implements another interface. Can be used with interface variables, parameters, or variant types to check if a codeunit implements a specific interface.",
+      "status": "ga",
+      "status_evidence_t": 638.2,
+      "status_evidence_quote": "if provider is express shipping provider it's a it's a Boolean expression that tests if the provider also implements I express shipping provider",
+      "status_evidence_verified": true,
+      "t_start": 602,
+      "t_end": 754.3,
+      "is_demoed": true,
+      "caveats": [
+        "Left side must be an instance of interface type or variant",
+        "Should check before casting to avoid errors"
+      ],
+      "tags": [
+        "type checking",
+        "interface instance",
+        "variant support"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Interface Casting with As Operator",
+      "description": "A new casting operator that converts an interface instance to a different interface type. Returns an interface of the type specified on the right side. Will error if the left side cannot be cast to the right side.",
+      "status": "ga",
+      "status_evidence_t": 659.5,
+      "status_evidence_quote": "we can cast it using the s expression which is also new so we can say if provider is i express shipping provider",
+      "status_evidence_verified": true,
+      "t_start": 659.5,
+      "t_end": 788.2,
+      "is_demoed": true,
+      "caveats": [
+        "Will error if left side cannot be cast to right side",
+        "Should check with is operator first before casting"
+      ],
+      "tags": [
+        "casting",
+        "type conversion",
+        "interface instance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Unknown Interface Type",
+      "description": "A new common base interface type added to the system application that can be used for generic functionality when checking whether an unknown interface implements a specific interface type.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 692.9,
+      "t_end": 720.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "unknown interface",
+        "generic functionality",
+        "type checking"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "interface",
+      "name": "I shipping provider",
+      "t": 146.2
+    },
+    {
+      "type": "enum",
+      "name": "shipping vendor",
+      "t": 186.7
+    },
+    {
+      "type": "codeunit",
+      "name": "shipping cost orchestrator",
+      "t": 207.2
+    },
+    {
+      "type": "codeunit",
+      "name": "standard shipping provider",
+      "t": 267.9
+    },
+    {
+      "type": "interface",
+      "name": "I express shipping provider",
+      "t": 476.8
+    },
+    {
+      "type": "interface",
+      "name": "I unknown interface",
+      "t": 708.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Esp new Christopherson",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 20.4,
+      "text": "it is more than four years since we first released interfaces in Al and although it was integrated with voms from for extensibility from",
+      "why_it_matters": "Establishes the motivation for the new interface features by noting that the existing interface model had limitations despite being designed for extensibility from the start.",
+      "check": "exact"
+    },
+    {
+      "t": 378.4,
+      "text": "what we would like to do is add a new myth to the interface but that breaks all the existing provider apps because they",
+      "why_it_matters": "Demonstrates the core problem that interface extension solves - adding new methods to an interface breaks all existing implementations that must be updated.",
+      "check": "exact"
+    },
+    {
+      "t": 456.7,
+      "text": "all we want is just to extend the existing interface without changing or breaking everything so what we have now introduced is a way",
+      "why_it_matters": "Clearly states the solution introduced in this release - the ability to extend interfaces without breaking existing code.",
+      "check": "exact"
+    },
+    {
+      "t": 496.9,
+      "text": "this is one of the new features extending interfaces syntax is you have the normal interface declaration and then you add extend and then",
+      "why_it_matters": "Provides the exact syntax for the new interface extension feature in this release wave 2.",
+      "check": "exact"
+    },
+    {
+      "t": 638.2,
+      "text": "if provider is express shipping provider it's a it's a Boolean expression that tests if the provider also implements I express shipping provider",
+      "why_it_matters": "Explains the is operator for type checking, a new feature that enables safe interface type checking before casting.",
+      "check": "exact"
+    },
+    {
+      "t": 708.9,
+      "text": "we have added a i an unknown interface that you can use that gives a common ground for anyone who wants this kind of",
+      "why_it_matters": "Introduces the unknown interface type as a new system addition to support generic interface functionality.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022224
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "video_id": "QfOgUCXg94o",
+  "item_id": "video/yt-microsoft/QfOgUCXg94o",
+  "summary": "Concurrent warehouse posting in Business Central 25: multiple users can post warehouse entries at the same time, using number sequences instead of table locks. Covers the insert record function, sift bucket numbers, the on init event for warehouse entries, and a feature key that is on by default.",
+  "overview": "The video explains how warehouse posting worked until now: one user could post at a time, with a register such as the warehouse register and then its entries, and entry numbers were found through locking. In BC25, multiple users can post at the same time, and entry numbers come from a number sequence.\n\nIt then covers the changes developers need to know about. A new insert record function handles cases where someone has posted the old way with a lock table, and resets the number sequence if insertion conflicts. A semi-random sift bucket number lowers lock contention on sift indexes. Drill down filters on the register number, and an on init event lets extensions add logic before insertion. A feature key controls the behavior and can be turned off.",
+  "key_points": [
+    "Until now only one user could post warehouse entries at a time; BC25 allows multiple users to post concurrently.",
+    "Entry numbers are assigned through a number sequence instead of locking the table and finding the last entry.",
+    "A new insert record function replaces simple inserts, to cope with old-style posting that still uses a lock table and to reset the number sequence when insertion conflicts occur.",
+    "Warehouse entries get a semi-random sift bucket number between zero and four. This reduces the risk of sift index lock contention for the same item and location, but does not remove it.",
+    "Drill down filters on register number: either zero (entries from before version 25) or the register number.",
+    "The on init event for warehouse entries runs after initialization and before insertion. Extensions using it may need to follow similar concurrent posting patterns.",
+    "A feature key for concurrent posting is enabled by default and can be turned off, with a related setting in Warehouse Setup."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "685b4fd74e42136d65237855ff6e42a10eaf2512d1f7aa0a76e185c6f5079874",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0144064
+  }
+}
