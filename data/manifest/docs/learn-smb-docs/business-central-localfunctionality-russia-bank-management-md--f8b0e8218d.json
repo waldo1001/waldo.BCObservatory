@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/bank-management",
   "published_at": "2025-08-08T07:13:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "72b3d5dadfff0752cee5247fcda86148e9723f12",
       "words": 297,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:14.549Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003478
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:20.122Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:20.123Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:22.022Z",
+      "page": false
     }
   },
   "input_hash": "72b3d5dadfff0752cee5247fcda86148e9723f12",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "72b3d5dadfff0752cee5247fcda86148e9723f12"
+  "output_hash": "0397be8eb1ca191bf80cb91cc8e09ab414e35600f0a4bd330ea5ab5597abcc07"
 }

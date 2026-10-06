@@ -1,0 +1,202 @@
+{
+  "video_id": "fHi8ohBlZro",
+  "item_id": "video/yt-microsoft/fHi8ohBlZro",
+  "title": "What's New: Enhancements to Job Queue (2024 release wave 2)",
+  "duration_s": 338,
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "job queue",
+    "category code",
+    "background tasks",
+    "task scheduling",
+    "queue management",
+    "execution order",
+    "priority",
+    "concurrent execution"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Job Queue Overview",
+      "t_start": 0,
+      "t_end": 32.3
+    },
+    {
+      "title": "Job Queue Fundamentals and Category Codes",
+      "t_start": 32.3,
+      "t_end": 93.8
+    },
+    {
+      "title": "Previous Job Queue Behavior and Limitations",
+      "t_start": 93.8,
+      "t_end": 199.9
+    },
+    {
+      "title": "New Queue-Based Execution Model",
+      "t_start": 199.9,
+      "t_end": 267.2
+    },
+    {
+      "title": "Priority Support and Summary",
+      "t_start": 267.2,
+      "t_end": 338
+    }
+  ],
+  "features": [
+    {
+      "name": "Job Queue Category Code Queueing",
+      "description": "Changed job queue behavior for category codes from retry-based polling to a proper queue system where tasks with the same category code line up and wait their turn, with the previous task activating the next one when complete.",
+      "status": "ga",
+      "status_evidence_t": 6.4,
+      "status_evidence_quote": "with this wave we technically already released it but it belongs to this",
+      "status_evidence_verified": true,
+      "t_start": 199.9,
+      "t_end": 248.8,
+      "is_demoed": false,
+      "caveats": [
+        "Only applies to jobs with the same category code",
+        "Typically used for sales and purchase order posting to avoid locking"
+      ],
+      "tags": [
+        "job-queue",
+        "category-code",
+        "execution-order",
+        "queueing"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Waiting Status for Queued Jobs",
+      "description": "Added a new status code 'waiting' to indicate when a job is sleeping in the queue waiting for its turn to execute, corresponding to the previous figurative hang-up behavior.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 210.8,
+      "t_end": 228.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "job-queue",
+        "status",
+        "waiting-state"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Job Queue Priority Support",
+      "description": "Introduced priority support within category codes to allow jobs to skip the queue if marked with higher priority, useful for urgent tasks like orders with trucks waiting outside.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 267.2,
+      "t_end": 318,
+      "is_demoed": false,
+      "caveats": [
+        "Priority only applies within the same category code",
+        "Requires manual prioritization of urgent jobs"
+      ],
+      "tags": [
+        "job-queue",
+        "priority",
+        "queueing"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Improved Execution Order in Job Queue",
+      "description": "By implementing a proper queue with sequential numbering instead of random retry attempts, jobs now execute in first-in-first-out order rather than the previous random execution order.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 248.8,
+      "t_end": 267.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "job-queue",
+        "execution-order",
+        "fifo"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Job Q Category Code",
+      "t": 73.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Barrick Nutson",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 6.4,
+      "text": "I would say with this wave we technically already released it but it belongs to this wave",
+      "why_it_matters": "Indicates the feature is already in general availability, establishing timing for the enhancement.",
+      "check": "exact"
+    },
+    {
+      "t": 32.3,
+      "text": "it's not so much a q as it is a way to schedule background tasks",
+      "why_it_matters": "Clarifies the fundamental nature of the job queue as a task scheduling mechanism, not literally a queue.",
+      "check": "exact"
+    },
+    {
+      "t": 73.4,
+      "text": "there's one particular field that we are going to touch upon in this presentation which is the um category code job Q category",
+      "why_it_matters": "Highlights the key field that was enhanced and the focus of the presentation.",
+      "check": "exact"
+    },
+    {
+      "t": 159.4,
+      "text": "if there a long Q it means you need to call very often like the pizza delivery or doctor you need to try many",
+      "why_it_matters": "Explains the problem with the old retry-based system and why it was inefficient under load.",
+      "check": "exact"
+    },
+    {
+      "t": 210.8,
+      "text": "if there's a category and someone else is running then we go to sleep so we set status to waiting",
+      "why_it_matters": "Describes the core change - transitioning from active retries to a passive waiting state.",
+      "check": "exact"
+    },
+    {
+      "t": 228.2,
+      "text": "someone else was running at this time when they're done they will go out and say activate next next in Q",
+      "why_it_matters": "Explains the new activation mechanism where completed jobs trigger the next queued job.",
+      "check": "exact"
+    },
+    {
+      "t": 267.2,
+      "text": "had a lot of sales postings and purchase postings all with very very large orders thousands of lines so each single order would",
+      "why_it_matters": "Provides business context for why priority support was needed - real customer scenario with multi-minute processing times.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012937
+    }
+  ]
+}

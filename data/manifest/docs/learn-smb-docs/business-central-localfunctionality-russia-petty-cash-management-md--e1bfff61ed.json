@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/petty-cash-management",
   "published_at": "2025-08-08T07:13:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d57290698be1851187e8b52453082b8705691e1d",
       "words": 1450,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:14.553Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003478
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:22.030Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:22.031Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:22.032Z",
+      "page": false
     }
   },
   "input_hash": "d57290698be1851187e8b52453082b8705691e1d",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d57290698be1851187e8b52453082b8705691e1d"
+  "output_hash": "a965488aac955f4c9e72b54c48e5c265828e339b17bf69d09d4f44a14d1e2362"
 }

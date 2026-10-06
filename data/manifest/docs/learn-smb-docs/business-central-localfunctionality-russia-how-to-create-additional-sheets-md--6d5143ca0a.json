@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-additional-sheets",
   "published_at": "2025-08-08T07:13:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b0df24fa04f3c48b1311f99caf7ebcfe5305e7c2",
       "words": 635,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:14.551Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003478
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:22.027Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:22.028Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:22.029Z",
+      "page": false
     }
   },
   "input_hash": "b0df24fa04f3c48b1311f99caf7ebcfe5305e7c2",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b0df24fa04f3c48b1311f99caf7ebcfe5305e7c2"
+  "output_hash": "0c4c267370bec725e9d7e4ae4e5119189f00d8a7e41444227a6b96bca9310eb3"
 }

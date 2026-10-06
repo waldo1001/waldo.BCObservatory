@@ -1,0 +1,27 @@
+{
+  "video_id": "fHi8ohBlZro",
+  "item_id": "video/yt-microsoft/fHi8ohBlZro",
+  "summary": "Job queue enhancements in Business Central 2024 release wave 2: jobs with the same category code now wait in a real queue instead of retrying by polling. The video covers the new \"waiting\" status, first-in-first-out order, and priority within a category code.",
+  "overview": "The video explains how the job queue handled jobs that share a category code before and what changed. Category codes are typically used for sales and purchase order posting, to avoid locking. Previously, a job that found another job running in its category kept retrying, so execution order was effectively random and long waits meant many retries.\n\nNow jobs with the same category code line up in a queue. A waiting job sleeps with the new status \"waiting\", and the job that finishes activates the next one in the queue. Jobs run in first-in-first-out order. Priority support lets an urgent job skip ahead within its category code, for example an order with a truck waiting outside. The presenter notes the change was technically already released but belongs to this wave.",
+  "key_points": [
+    "Jobs with the same job queue category code now line up in a queue and wait their turn, replacing retry-based polling.",
+    "When a job finishes, it activates the next job in the queue.",
+    "A new status, 'waiting', shows that a job is sleeping in the queue until its turn.",
+    "Execution order is now first-in-first-out through sequential numbering, instead of the earlier random order from retries.",
+    "Priority support lets a job skip the queue, but only within the same category code, and urgent jobs must be prioritized manually.",
+    "The queueing applies only to jobs sharing a category code, typically sales and purchase order posting used to avoid locking.",
+    "The presenter says the change was technically already released but belongs to 2024 release wave 2."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "fbab10b3382107eb482570dec6072c878bde7729cb0ea0ff08f178cb736f1e5c",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0123764
+  }
+}

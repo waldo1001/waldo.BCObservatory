@@ -322,10 +322,16 @@
       "check": "fuzzy"
     },
     {
+      "t": 127.1,
+      "text": "you can configure one vat per country you cannot have more countries for the same customers",
+      "why_it_matters": "States the setup rule that each customer has only one alternative VAT number per country.",
+      "check": "exact"
+    },
+    {
       "t": 998.9,
-      "text": "and if you want to change any part of it you can do that with your",
-      "why_it_matters": "Highlights that developers can customize VAT behavior through multiple interfaces",
-      "check": "fuzzy"
+      "text": "the whole feature is highly highly extensible um and if you want to change any part of it",
+      "why_it_matters": "States that the feature's logic can be extended or replaced through interface implementations.",
+      "check": "exact"
     },
     {
       "t": 1019.6,
