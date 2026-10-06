@@ -289,3 +289,15 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   (`?ns=`), and the localization markdown gains a "By area" table. The country diffs and the matrix are served under
   `/code/diffs/country/`. Why: "who subscribes to OnBeforePostSalesDoc" and "where does BE really touch the code"
   were questions the data could answer and no page did.
+- **D50 Localization narratives tell the story per area.** The Sonnet narrative of a country layer
+  (`pipeline/summarize/localization.ts`, prompt v2) now returns, next to summary, overview and key points, one entry
+  per area the country touches: what it changes there, why (only when a Learn local-functionality page in the input
+  explains the requirement, otherwise null and shown as "not explained by a Learn page"), and up to eight object keys
+  that carry the change. The response schema allows only the areas and object keys of the country diff, so the
+  model cannot invent an object. The localization page's "By area" table links each area to its section (what, why,
+  the cited objects as links, and a link that narrows the code diff on the site to that area via `?ns=`). Narratives
+  run for the priority countries (BE, NL) and then every known country, one call each (~$0.18), redone only when the
+  diff or the Learn pages change, after a run that ends "done" or on a clean memory stop (they never ran during
+  catch-up before). `npm run narrate:localization -- --country be` samples one country into a temp copy. Why: the
+  owner asked for an overview of what a localization changes, where, why, and a way into the code behind it; the
+  deterministic tables showed the where, not the what or why.

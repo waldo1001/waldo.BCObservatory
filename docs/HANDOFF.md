@@ -107,7 +107,8 @@ Deliberate deviations from PLAN, all small:
   inline SVG at build time from data/code/relations); a 2-hop view is deferred because it would ship the 6.9 MB
   relations file to the browser (per-type shards would fix that). Objects index + Ctrl+K finder (D46), the codebase atlas on /objects/ (D47), the version lens + deprecation radar
   pages (D48), the event explorer and the country heatmap (D49) are done: the 2026-10-07 plan is complete except the
-  deferred 2-hop neighbourhood.
+  deferred 2-hop neighbourhood. Localization narratives tell the story per area with links into the code (D50);
+  BE and NL are written, the other 20 countries follow in the nightly (~$0.18 each).
 - Topic links (D43): videos and posts link to topic hubs, 40 calls a night (all of them during catch-up);
   `npm run link:topics -- --videos N --posts N` samples on a temp copy. No Opus review of these links yet.
 - M4 weekly digest + RSS done (D36).

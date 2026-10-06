@@ -242,7 +242,8 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
     try {
       const majors = Object.keys(loadConfig<VersionsConfig>("versions").majors);
       report.code = { ...refreshCodeDerived(opts.dataDir, majors), docs_objects: refreshDocsObjects(opts.dataDir, majors, manifest.list("docs")) };
-      if (execution.stop_reason === "done") {
+      // narratives also run after a clean memory stop (catch-up runs end that way)
+      if (execution.stop_reason === "done" || execution.stop_reason === "memory") {
         const { errors: nErr, ...nRun } = await refreshLocalizationNarratives(opts.dataDir, manifest.list("docs"), { deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()) });
         errors.push(...nErr);
         report.code.narratives = nRun;

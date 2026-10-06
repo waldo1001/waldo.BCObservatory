@@ -1,0 +1,192 @@
+{
+  "country": "BE",
+  "version": "29",
+  "input_hash": "b1d4e044a26ce3a436a2caa5b6e6b8910ad2387e07fbc7feefc8e70b90e64d22",
+  "summary": "Belgium (BE) layer of Business Central 29. It covers Belgian VAT reporting (declarations, annual listing, VIES, non-deductible VAT, manual corrections), enterprise numbers, Intrastat, electronic banking (domestic, international, SEPA payments), CODA statements, domiciliation direct debit, financial journals, and Belgian ledger reports.",
+  "overview": "The Belgian localization adds a large set of own objects. Electronic banking uses the 2000000 range: payment journals, export protocols, check codeunits, file export reports for domestic, international, SEPA and non-Euro SEPA payments, and IBLC/BLWI transaction codes. CODA statements are imported, applied and posted through the 2000040 range, and domiciliation uses its own journal and file export. The Electronic Banking Setup controls how payment lines are summarized and how message texts are cut off.\n\nFor finance and VAT, the code adds the Belgian VAT declaration and annual listing reports, VAT-VIES disk file, manual VAT corrections, representatives, a financial journal, and Belgian ledger reports (general, centralization, financial, sales, purchase). Many W1 tables get an Enterprise No. field. Non-deductible VAT fields and procedures are added to purchase lines, posting buffers, VAT entries and journal lines. G/L entries get application fields, and Intrastat, tariff number and PEPPOL objects are extended.\n\nLearn documents these under the Belgium local functionality section: Belgian VAT, Belgian Electronic Banking, Belgian CODA bank statements, domiciliation, Intrastat reporting, enterprise numbers, journal templates, and posting period limits.",
+  "key_points": [
+    "Belgian VAT: VAT declaration form and Intervat XML, VAT annual listing (also on disk), VAT-VIES declaration, manual VAT corrections and representatives.",
+    "Non-deductible VAT: percentage on G/L accounts, fields on purchase lines, posted lines, VAT entries and journal lines, and statement line option 'Incl. Non Deductible VAT'.",
+    "Enterprise No. and Branch No. on company, customer, vendor, contact and sales, purchase and service documents, with PEPPOL and SEPA direct debit hooks.",
+    "Electronic banking: payment journals, export protocols, payment checks, and file export for domestic, international, SEPA and non-Euro SEPA payments, plus Suggest Vendor Payments EB.",
+    "CODA: import, apply, default posting and transfer to a financial journal; bank account fields Protocol No. and Version Code.",
+    "Domiciliation direct debit with its own journal, suggestion report, test report and file export; Domiciliation No. on customers.",
+    "Intrastat: simplified and extended declarations, tariff number conversion factors and supplementary units, tariff import reports.",
+    "Belgian ledger reports (Sales, Purchase, General, Centralization, Financial Ledger), Link to Accon export, and journal template upgrade tags."
+  ],
+  "areas": [
+    {
+      "area": "Bank",
+      "what": "Adds the Belgian electronic banking stack: payment journals with templates and batches, export protocols, check codeunits and file reports for domestic, international, SEPA and non-Euro SEPA payments, and IBLC/BLWI codes. Also adds CODA statement import, application and posting, and a domiciliation journal with file export. Bank Account gets Protocol No., Version Code and Interbank Clearing Code.",
+      "why": "Learn describes these as Belgian electronic banking: payment files per export protocol, CODA statements imported from the bank and matched to ledger entries, and domiciliation for direct debit from domestic customers.",
+      "objects": [
+        "table/2000001",
+        "report/2000005",
+        "codeunit/2000004",
+        "table/2000005",
+        "codeunit/2000040",
+        "table/2000040",
+        "codeunit/2000020",
+        "table/270"
+      ]
+    },
+    {
+      "area": "Finance",
+      "what": "Adds Belgian VAT reporting (VAT form, annual listing, VIES disk file, statement summary), manual VAT corrections, representatives, a financial journal and Belgian ledger reports. W1 VAT Statement, VAT Statement Preview Line and VAT settlement get procedures and events for corrections and non-deductible VAT. VAT Entry, G/L Entry and journal tables get new fields such as Enterprise No., non-deductible amounts and application fields.",
+      "why": "Learn documents Belgian VAT declarations, annual listing, VIES, non-deductible VAT, manual VAT corrections, G/L entry application and the Accon export.",
+      "objects": [
+        "report/11307",
+        "report/11308",
+        "report/11315",
+        "table/11301",
+        "report/12",
+        "page/475",
+        "table/254",
+        "table/17"
+      ]
+    },
+    {
+      "area": "Purchases",
+      "what": "Adds non-deductible VAT percentage and amount functions to purchase lines and posted invoice and credit memo lines, with events in Purch.-Post. Enterprise No. is added to vendors and purchase headers, and Suggest Payments to vendors. Vendor Bank Account gets Export Protocol Code, and a Purchase Ledger report is added.",
+      "why": "Learn explains non-deductible VAT percentages on expense accounts and Suggest Vendor Payments for Belgian electronic payments.",
+      "objects": [
+        "table/39",
+        "table/23",
+        "table/123",
+        "codeunit/90",
+        "page/161",
+        "report/11301",
+        "table/288",
+        "codeunit/816"
+      ]
+    },
+    {
+      "area": "Sales",
+      "what": "Adds Enterprise No., VAT Liable and Domiciliation No. to customers and templates, and Enterprise No. to sales, shipment, reminder and finance charge documents. PEPPOL Management gets payment discount compensation and enterprise number formatting procedures. A Sales Ledger report is added, and Customer Bank Account gets Export Protocol Code.",
+      "why": "Learn describes enterprise numbers for identification on documents, and the domiciliation number used for Belgian direct debit.",
+      "objects": [
+        "table/18",
+        "codeunit/1605",
+        "report/11300",
+        "table/36",
+        "table/1381",
+        "table/287",
+        "codeunit/854",
+        "table/110"
+      ]
+    },
+    {
+      "area": "Service",
+      "what": "Adds Belgian service documents: invoice, credit memo and shipment reports, a service test report, and management codeunits. Table extensions add Belgian fields to service headers and archives.",
+      "why": null,
+      "objects": [
+        "report/11321",
+        "report/11322",
+        "report/11323",
+        "report/11325",
+        "codeunit/11309",
+        "codeunit/11350",
+        "tableextension/11300",
+        "tableextension/11303"
+      ]
+    },
+    {
+      "area": "Inventory",
+      "what": "Supports Belgian Intrastat. Tariff Number and Intrastat Journal Line get conversion factor, unit of measure and supplementary unit fields, and batches track System 19 and 29 reporting. Two reports import tariff numbers, and Location is extended.",
+      "why": "Learn describes simplified and extended Intrastat declarations, tariff numbers with conversion factors, and export to the OneGate portal.",
+      "objects": [
+        "table/260",
+        "table/263",
+        "table/262",
+        "report/11333",
+        "report/11332",
+        "tableextension/11310",
+        "table/258",
+        "table/259"
+      ]
+    },
+    {
+      "area": "Foundation",
+      "what": "Company Information gets Enterprise No., Branch No., Intrastat Establishment No., accountant enterprise number and XML sequence numbers. Country/Region gets ISO code, IBAN and SEPA fields with a DetermineCountry procedure. Source Code Setup gets Financial Journal and Domiciliation Journal, and Shipment Method gets an Incoterm option for Intrastat.",
+      "why": "Learn covers enterprise and branch numbers assigned by the Crossroads Bank for Enterprises, and Intrastat establishment numbers.",
+      "objects": [
+        "table/79",
+        "table/9",
+        "table/242",
+        "table/10",
+        "tableextension/11307",
+        "pageextension/11307",
+        "codeunit/11311"
+      ]
+    },
+    {
+      "area": "(no namespace)",
+      "what": "Adds a Transaction Coding table and page used with CODA statements, plus a codeunit that copies invoice numbers to payment references. Other objects here are upgrade plumbing.",
+      "why": null,
+      "objects": [
+        "table/2000043",
+        "page/2000045",
+        "codeunit/104153"
+      ]
+    },
+    {
+      "area": "CashFlow",
+      "what": "Cash flow worksheet suggestion gets VAT base amount calculation procedures for purchase, sales, service and ledger entries. Cash Flow Worksheet Line gets a VAT Base Amount field.",
+      "why": null,
+      "objects": [
+        "report/840",
+        "table/846",
+        "reportextension/6485"
+      ]
+    },
+    {
+      "area": "Security",
+      "what": "The LOCAL and LOCAL READ permission sets are changed to cover the Belgian objects.",
+      "why": null,
+      "objects": [
+        "permissionset/1001",
+        "permissionset/1002"
+      ]
+    },
+    {
+      "area": "CRM",
+      "what": "Contact gets an Enterprise No. field.",
+      "why": "Learn describes enterprise numbers used for identification in business documents and correspondence.",
+      "objects": [
+        "table/5050"
+      ]
+    },
+    {
+      "area": "Text",
+      "what": "SelectionFilterManagement gets procedures to build selection filters for bank accounts and for the electronic banking payment journal.",
+      "why": null,
+      "objects": [
+        "codeunit/46"
+      ]
+    },
+    {
+      "area": "Utilities",
+      "what": "Document Totals gets procedures and an event to calculate purchase totals including non-deductible VAT.",
+      "why": null,
+      "objects": [
+        "codeunit/57"
+      ]
+    },
+    {
+      "area": "Warehouse",
+      "what": "Whse.-Post Receipt gets a GetSourceJnlTemplate procedure, supporting journal template handling.",
+      "why": "Learn describes making journal templates mandatory in General Ledger Setup.",
+      "objects": [
+        "codeunit/5760"
+      ]
+    }
+  ],
+  "learn_pages_used": 37,
+  "prompt_version": 2,
+  "at": "2026-10-06T23:18:34.522Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": true,
+    "cost_usd": null
+  }
+}

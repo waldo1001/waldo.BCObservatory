@@ -24,7 +24,7 @@ test("narratives wait for 80% of the Learn pages, then write once per input; the
   const extract = (k: string) => writeJson(docExtractionPath(dataDir, doc(k)), { item_id: doc(k).id, url: doc(k).url, title: `Belgian ${k}`, blob: "b", summary: `How ${k} works in Belgium.`, systems: ["finance"], topics: [], objects: [], features: [], versions: [], parts: 1, prompt_version: 1, llm: [] });
   extract("coda"); extract("vat"); extract("intrastat");
   const reqs: LlmRequest[] = [];
-  const llm: Llm = async <T>(r: LlmRequest) => { reqs.push(r); return { output: { summary: "Belgium — CODA bank statements and VAT.", overview: "o", key_points: ["k1", "k2", "k3"] } as T, cached: false, meta: { model: "claude-sonnet-5-5", cost_usd: 0.03 } as any }; };
+  const llm: Llm = async <T>(r: LlmRequest) => { reqs.push(r); return { output: { summary: "Belgium — CODA bank statements and VAT.", overview: "o", key_points: ["k1", "k2", "k3"], areas: [{ area: "(no namespace)", what: "Belgian CODA statements and the enterprise number on customers.", why: "Belgian banks deliver CODA files.", objects: ["table/11300", "table/18"] }] } as T, cached: false, meta: { model: "claude-sonnet-5-5", cost_usd: 0.03 } as any }; };
   const o = { deadline: new Date("2099-01-01"), clock: () => new Date("2026-10-07T00:00:00Z"), llm, countries: ["BE"] };
   const r1 = await refreshLocalizationNarratives(dataDir, docs, o);
   assert.deepEqual([r1.ready, r1.waiting], [0, ["be (3/5 Learn pages extracted)"]]);
@@ -39,5 +39,8 @@ test("narratives wait for 80% of the Learn pages, then write once per input; the
   assert.ok(validate("frontmatter.localization", page.data).ok);
   assert.equal(page.data.summary, n.summary);
   assert.match(page.content, /## Overview[\s\S]*## Key points[\s\S]*- k1/);
+  assert.match(page.content, /### \(no namespace\)\n\nBelgian CODA statements[\s\S]*Why: Belgian banks deliver CODA files\.[\s\S]*Objects: table\/11300 "CODA Statement" \(own\), table\/18 "Customer"\.[\s\S]*\[All 2 objects of \(no namespace\) in the diff\]\(\?ns=\(no%20namespace\)#country-diff\)/);
+  assert.ok(reqs[0].prompt.includes("By area (JSON"));
+  assert.deepEqual((reqs[0].schema as any).properties.areas.items.properties.area.enum, ["(no namespace)"]);
   assert.match(page.content, /narrative \*\*unreviewed\*\*/);
 });

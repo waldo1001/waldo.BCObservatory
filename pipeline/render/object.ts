@@ -272,10 +272,22 @@ export function renderLocalizationPage(cc: string, d: AlDiff, older: { major: st
     c.fields += o.fields?.filter((f) => f.change === "added").length ?? 0;
     byArea.set(a, c);
   }
-  if (byArea.size && d.objects.some((o) => o.ns !== undefined)) {
+  if (byArea.size) {
+    const areasSorted = [...byArea].sort((x, y) => y[1].replaced + y[1].added - (x[1].replaced + x[1].added) || x[0].localeCompare(y[0]));
+    const story = new Map((n?.areas ?? []).map((a) => [a.area, a]));
     lines.push("## By area", "", "| Area | W1 objects changed | Own objects | Fields added |", "|---|---|---|---|");
-    for (const [a, c] of [...byArea].sort((x, y) => y[1].replaced + y[1].added - (x[1].replaced + x[1].added) || x[0].localeCompare(y[0]))) lines.push(`| ${cell(a)} | ${c.replaced} | ${c.added} | ${c.fields} |`);
+    for (const [a, c] of areasSorted) lines.push(`| ${story.has(a) ? `[${cell(a)}](#${slug(a)})` : cell(a)} | ${c.replaced} | ${c.added} | ${c.fields} |`);
     lines.push("");
+    // the story per area (D50): what, why (Learn), the objects that carry it, and a way into the full diff
+    for (const [a, c] of areasSorted) {
+      const st = story.get(a);
+      if (!st) continue;
+      lines.push(`### ${a}`, "", st.what, "");
+      lines.push(st.why ? `Why: ${st.why}` : "Why: not explained by a Learn page in the input; the code shows the change, not the requirement.", "");
+      const cited = st.objects.map((k) => { const o = d.objects.find((x) => x.key === k); const p = hasObjectPage(k); return o ? `${p ? `[${cell(k)} "${cell(o.name)}"](../objects/${p}.md)` : `${cell(k)} "${cell(o.name)}"`}${o.change === "added" ? " (own)" : ""}` : null; }).filter(Boolean);
+      if (cited.length) lines.push(`Objects: ${cited.join(", ")}.`, "");
+      lines.push(`[All ${c.replaced + c.added} objects of ${cell(a)} in the diff](?ns=${encodeURIComponent(a)}#country-diff)`, "");
+    }
   }
   if (replaced.length) {
     lines.push("## W1 objects this country changes", "", "| Object | Changes |", "|---|---|");
