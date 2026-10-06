@@ -1,0 +1,211 @@
+{
+  "video_id": "uxYuoJP-uH8",
+  "item_id": "video/yt-bcmusings/uxYuoJP-uH8",
+  "title": "Let's pass MB-820: Episode 19 - Extend ApplicationArea with custom areas",
+  "duration_s": 605,
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "application area",
+    "custom areas",
+    "table extension",
+    "page extension",
+    "application area setup",
+    "user experience",
+    "fields visibility",
+    "mb-800 exam"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and concept of application areas",
+      "t_start": 0,
+      "t_end": 84.1
+    },
+    {
+      "title": "Creating custom application areas in setup table",
+      "t_start": 84.1,
+      "t_end": 154.5
+    },
+    {
+      "title": "Enabling and validating custom application areas",
+      "t_start": 154.5,
+      "t_end": 247.9
+    },
+    {
+      "title": "Using application areas in page extensions",
+      "t_start": 247.9,
+      "t_end": 380.2
+    },
+    {
+      "title": "Demonstrating enabled application areas in UI",
+      "t_start": 380.2,
+      "t_end": 455.8
+    },
+    {
+      "title": "Summary of implementation approach",
+      "t_start": 455.8,
+      "t_end": 538.4
+    },
+    {
+      "title": "Closing remarks and channel information",
+      "t_start": 538.4,
+      "t_end": 605
+    }
+  ],
+  "features": [
+    {
+      "name": "Application Area extension",
+      "description": "Ability to create custom application areas by extending the application area setup table and hooking them to experiences like premium or essential.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 47.8,
+      "t_end": 184.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires table extension to application area setup",
+        "Must be hooked to an existing experience (premium or essential)"
+      ],
+      "tags": [
+        "application area",
+        "table extension",
+        "custom areas",
+        "experiences"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Enable custom area function",
+      "description": "A function that refreshes the experience for the current company and registers the new application area.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 164.6,
+      "t_end": 196.5,
+      "is_demoed": true,
+      "caveats": [
+        "Works on installation via install codeunit"
+      ],
+      "tags": [
+        "application area",
+        "enable function",
+        "experience setup"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Application area validation",
+      "description": "Validation logic that checks if a custom application area is enabled and returns an error if conditions are not met.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 224.2,
+      "t_end": 236.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "validation",
+        "application area",
+        "error handling"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Application area usage in page extensions",
+      "description": "Ability to apply custom application areas to fields and groups in page extensions to control visibility based on the selected experience.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 263.3,
+      "t_end": 353.4,
+      "is_demoed": true,
+      "caveats": [
+        "Spaces in application area names should be omitted when used in page extensions"
+      ],
+      "tags": [
+        "page extension",
+        "field visibility",
+        "application area"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "application area setup",
+      "t": 47.8
+    },
+    {
+      "type": "table",
+      "name": "customer",
+      "t": 263.3
+    },
+    {
+      "type": "codeunit",
+      "name": "installed",
+      "t": 154.5
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 47.8,
+      "text": "we can actually create um a new application area uh by extending application area setup table",
+      "why_it_matters": "States the core capability of creating custom application areas through table extension.",
+      "check": "exact"
+    },
+    {
+      "t": 84.1,
+      "text": "application areas are um uh it's a feature of um of business central uh through which we can uh develop different experiences hide fields",
+      "why_it_matters": "Defines what application areas are and their primary purpose in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 107.3,
+      "text": "when you hide fields or when you show fields uh you can write code uh for the business logic accordingly uh your your code",
+      "why_it_matters": "Explains the benefit of using application areas for cleaner code organization.",
+      "check": "exact"
+    },
+    {
+      "t": 164.6,
+      "text": "enable custom area and the enable custom area basically is u refreshing the experience either premium or essential",
+      "why_it_matters": "Explains the mechanism for enabling custom areas within existing experiences.",
+      "check": "exact"
+    },
+    {
+      "t": 562.2,
+      "text": "I want it uh for those that uh just like me I I used to use application equal wall almost everywhere",
+      "why_it_matters": "Indicates the presenter's past practice and motivation for demonstrating custom application areas as a better approach.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 14.2,
+      "kind": "other",
+      "text": "this is about uh extending application area in Business Central and this was something bumped into in MB800 exam"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.018354
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-unmodified-application-v14-v16.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-v14-v16",
+  "title": "Upgrading Unmodified C/AL Application to Version 16",
+  "blob": "de7c639bc3cc6eb7d0ce381f09b3eeee2ebd8454",
+  "summary": "Upgrading unmodified C/AL applications from version 14 or earlier to Business Central 2020 release wave 1 (version 16) involves installing version 16, converting the database schema, configuring the server, publishing extensions, synchronizing tenants, and running data upgrades.",
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "upgrade",
+    "version 16",
+    "c/al",
+    "extension migration",
+    "database conversion"
+  ],
+  "objects": [],
+  "features": [
+    "database conversion",
+    "extension publishing",
+    "tenant synchronization",
+    "data upgrade",
+    "control add-in upgrade",
+    "encryption management"
+  ],
+  "versions": [
+    "2020 release wave 1",
+    "version 16",
+    "version 14"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017392,
+      "pages_in_call": 2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-technical-upgrade-v15-v17.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-technical-upgrade-v15-v17",
+  "title": "Technical Upgrade from Version 15 to Version 17",
+  "blob": "88edec7c3a180cfd6e2a1edd9cec4c1fdbd8b65e",
+  "summary": "Technical upgrade process from Business Central version 15 to version 17, including application code updates for deprecated tables, database conversion, extension publishing and installation, and post-upgrade configuration steps.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "technical upgrade",
+    "version 15",
+    "version 17",
+    "database conversion",
+    "extensions",
+    "deprecated tables",
+    "data upgrade"
+  ],
+  "objects": [],
+  "features": [
+    "Deprecated table replacement",
+    "Application code rewriting",
+    "Database conversion",
+    "System and base application updates",
+    "Extension compilation",
+    "Tenant synchronization",
+    "Control add-in upgrades"
+  ],
+  "versions": [
+    "2019 release wave 2 (version 15)",
+    "2020 release wave 1 (version 17)"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007292,
+      "pages_in_call": 5
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "video_id": "ecYXnXULijI",
+  "item_id": "video/yt-stefanmaron/ecYXnXULijI",
+  "summary": "Live coding stream on building a dev container for running Claude Code in AL development. It covers the Dockerfile and dev container JSON, the bypass-permission flag inside a container, and sharing Claude Code authentication through Docker volumes. It is work in progress, part one of at least two.",
+  "overview": "Stefan Maron builds a dev container for AL development with Claude Code, prompting Claude by voice (Whisper transcription) and letting it research and generate the Dockerfile and dev container JSON on an Ubuntu base. The goal is to run Claude Code with the dangerous bypass-permission flag only inside a container, so that a malfunction can only damage the container.\n\nMost of the stream deals with authentication. Login did not carry over from the host and did not persist across rebuilds. He tests mounting folders and Docker volumes that are created on first use, so users authenticate once and can use a different subscription per project. He also looks at removing git remotes and credentials in the container, and ends by pointing to an Anthropic dev container that whitelists only Anthropic APIs. The work is on GitHub and is not finished.",
+  "key_points": [
+    "The bypass-permission flag removes manual approval of every command. It is dangerous outside a sandbox, so the presenter wants it used only inside a dev container.",
+    "Claude generated a Dockerfile based on Ubuntu that installs Claude Code, sets the path, writes dev container JSON and binds an environment key. It was checked as compatible with WSL on Windows.",
+    "Three authentication approaches were named: bind Claude Code from the host, use an API key environment variable, or combine them. Login did not carry through correctly with the Dockerfile approach.",
+    "Credentials did not persist across container rebuilds. Mounting the .local/share folder was not enough, because Claude Code still prompted for onboarding and writes files elsewhere.",
+    "Docker volumes created on first use hold the authentication, so users log in once and reuse it. Naming the mounts differently per project allows a different subscription per project.",
+    "Removing the git remote inside the container also removes it on the host, because the workspace is shared. Credential stripping was incomplete, since pull and push still worked.",
+    "Anthropic publishes a dev container that whitelists only Anthropic APIs. It is not used in this setup. An AL-specific config folder, and AL compile, publish and test commands, are planned for part two."
+  ],
+  "audience": [
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "e8eec722a070e559109e4706cf0a588bf392491a42341078acb61d841b67ee87",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0371324
+  }
+}

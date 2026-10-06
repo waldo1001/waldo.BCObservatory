@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-system-application-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-system-application-overview",
+  "title": "Overview of the application",
+  "blob": "e52c53b56c4d81a71933624c859cd6e3c1c5dde8",
+  "summary": "The Business Central application is being refactored into smaller modular layers including System Application (ERP agnostic functionality) and Business Foundation (ERP related functionality) to improve code organization and maintainability.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "application architecture",
+    "modules",
+    "layers",
+    "system application",
+    "business foundation",
+    "code refactoring"
+  ],
+  "objects": [],
+  "features": [
+    "System Application layer",
+    "Business Foundation layer",
+    "modular architecture"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007292,
+      "pages_in_call": 5
+    }
+  ]
+}

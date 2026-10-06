@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-destinationappsformigration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-destinationappsformigration",
+  "title": "DestinationAppsForMigration",
+  "blob": "53907ba1e8290b4469e0f6d5f5935989b25da6c2",
+  "summary": "DestinationAppsForMigration is a server instance setting that manages migration of tables and extensions from C/AL to AL during upgrades, handles extension dependencies, and automates the data upgrade process.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "migration",
+    "c/al to al",
+    "extensions",
+    "data upgrade",
+    "table ownership",
+    "server configuration"
+  ],
+  "objects": [],
+  "features": [
+    "Table migration from C/AL to AL",
+    "Automatic extension installation during upgrade",
+    "Extension dependency resolution",
+    "Republishing legacy extensions",
+    "DestinationAppsForMigration setting"
+  ],
+  "versions": [
+    "version 14"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007292,
+      "pages_in_call": 5
+    }
+  ]
+}

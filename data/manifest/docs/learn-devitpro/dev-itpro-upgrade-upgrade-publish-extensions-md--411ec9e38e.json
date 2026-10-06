@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-publish-extensions",
   "published_at": "2026-06-02T11:43:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "dd6413f788556fc8fa1a6c9dd847e29803ff7c47",
       "words": 752,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:18:23.595Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007292
+    },
+    "summarized": {
+      "at": "2026-10-06T18:18:23.606Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:18:23.607Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:18:23.608Z",
+      "page": false
     }
   },
   "input_hash": "dd6413f788556fc8fa1a6c9dd847e29803ff7c47",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "dd6413f788556fc8fa1a6c9dd847e29803ff7c47"
+  "output_hash": "1ecf1496ca1c7fc521d60a99690839b81a624292c871ac65c0d51b348588a0a8"
 }

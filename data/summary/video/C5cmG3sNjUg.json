@@ -1,0 +1,27 @@
+{
+  "video_id": "C5cmG3sNjUg",
+  "item_id": "video/yt-microsoft/C5cmG3sNjUg",
+  "summary": "The Business Central MCP server (in public preview) is covered in depth: default vs named configurations, dynamic tools (search, describe, invoke), API page design with about text, tool limits (about 70 in Copilot Studio at recording), and the sample bcmcp proxy for other MCP hosts.",
+  "overview": "This is part 3 of a series on the MCP server for Business Central, published 2026-01-21. It explains how the server exposes built-in APIs and lets you add custom APIs, and how the default configuration differs from named configurations that pre-load an explicit tool list.\n\nIt also covers the dynamic tools system, how API pages are named and described for language models, and the limits on tool counts in MCP hosts. It closes with agent instructions, model selection, and the sample proxy for hosts other than Copilot Studio. The proxy is sample code that is delivered as is, and an update is expected to remove the need for it.",
+  "key_points": [
+    "The MCP server is in public preview. It exposes all built-in APIs for data, and custom APIs can be added. API queries might be opened up in the future.",
+    "The default configuration offers three dynamic tools: search, describe and invoke. The client passes keywords, a semantic search returns the top relevant tools, and the model then describes and invokes API pages over OData.",
+    "Named configurations pre-load an explicit tool list for a specific business process, so no tool search is needed. Too many tools fill the model context and hit host limits.",
+    "Copilot Studio supported around 70 tools when the video was recorded. The limit will likely change.",
+    "API page tool names append the object type and ID to stay unique. Descriptions and the about text property help the model reason about what each API does.",
+    "The discover additional objects setting exposes more readonly API pages. It can raise the chance of model errors, use more context and reduce performance.",
+    "For hosts other than Copilot Studio, the bcmcp proxy sample is on BCTech samples. It is not production ready, not part of the product, and is expected to be replaced by a simpler setup."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "5132e4b68f11fad78ac4aec3f1185b337146f803f8350842a6d5b135421154b6",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0173864
+  }
+}

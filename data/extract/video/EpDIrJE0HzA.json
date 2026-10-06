@@ -1,0 +1,214 @@
+{
+  "video_id": "EpDIrJE0HzA",
+  "item_id": "video/yt-microsoft/EpDIrJE0HzA",
+  "title": "Build an Agent in Microsoft Copilot Studio for Business Central (2025)",
+  "duration_s": 365,
+  "systems": [
+    "copilot",
+    "integration",
+    "inventory"
+  ],
+  "topics": [
+    "copilot studio",
+    "mcp server",
+    "agent building",
+    "business central data",
+    "power platform connector",
+    "agents",
+    "model context protocol",
+    "licensing"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Copilot Studio and Agent Architecture",
+      "t_start": 0,
+      "t_end": 60
+    },
+    {
+      "title": "Model Context Protocol and API Connectivity",
+      "t_start": 60,
+      "t_end": 91.8
+    },
+    {
+      "title": "Building an Agent: Demo Setup and Data Configuration",
+      "t_start": 91.8,
+      "t_end": 172.6
+    },
+    {
+      "title": "MCP Configuration and Agent Publishing",
+      "t_start": 172.6,
+      "t_end": 226.3
+    },
+    {
+      "title": "Testing and Using the Agent in Microsoft 365 Copilot",
+      "t_start": 226.3,
+      "t_end": 304.9
+    },
+    {
+      "title": "Licensing and Credits Model",
+      "t_start": 304.9,
+      "t_end": 365
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot Studio agents for Business Central",
+      "description": "A product that allows building conversational experiences and agents connected to Business Central data through Power Platform connectors and APIs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 12.7,
+      "t_end": 44.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent building",
+        "power platform",
+        "copilot"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Model Context Protocol (MCP) server for Business Central",
+      "description": "An open protocol that allows AI systems to communicate with business applications in a standard way, serving as an alternative to Power Platform connectors for accessing Business Central APIs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 77.6,
+      "t_end": 91.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "api",
+        "protocol",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "MCP Configurations page in Business Central",
+      "description": "A new page in Business Central where users can define specific configurations exposing APIs with data in read-only mode for use with MCP servers and Copilot Studio.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 172.6,
+      "t_end": 188.3,
+      "is_demoed": true,
+      "caveats": [
+        "read-only mode"
+      ],
+      "tags": [
+        "mcp",
+        "configuration",
+        "setup",
+        "read-only"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Agent publication to multiple channels",
+      "description": "Ability to publish Copilot Studio agents to different channels including Teams and Microsoft 365 Copilot where the agent can be accessed and used.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 226.3,
+      "t_end": 239.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "publishing",
+        "channels",
+        "teams",
+        "microsoft 365 copilot"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Studio credit-based licensing",
+      "description": "Copilot Studio requires purchasing credit packs or pay-as-you-go subscriptions based on usage. Users sharing the agent consume the credits but do not need additional paid user licenses.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 304.9,
+      "t_end": 331.2,
+      "is_demoed": false,
+      "caveats": [
+        "requires separate purchase",
+        "not included in Business Central licensing"
+      ],
+      "tags": [
+        "licensing",
+        "credits",
+        "pricing"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "MCP Configurations",
+      "t": 172.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Buko",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 12.7,
+      "text": "Copilot Studio is a part of Power Platform, a product that allows you to build conversational experiences and agents connected to various data.",
+      "why_it_matters": "Establishes the foundational positioning of Copilot Studio within the Power Platform ecosystem and its core purpose.",
+      "check": "exact"
+    },
+    {
+      "t": 77.6,
+      "text": "Model context protocol or MCP is an open protocol that allows all AI systems to communicate with the various business applications in a standard",
+      "why_it_matters": "Explains the key technical innovation that enables standardized communication between AI systems and business applications.",
+      "check": "exact"
+    },
+    {
+      "t": 172.6,
+      "text": "there is a new page in called MCP configurations where I define a specific configurations exposing this API with items in a read only",
+      "why_it_matters": "Documents the Business Central configuration interface required for MCP and specifies the read-only access limitation.",
+      "check": "exact"
+    },
+    {
+      "t": 321,
+      "text": "for Copilot Studio, you need to buy specific um credits, credit uh packs or pay as you go uh subscription because Copilot Studio um",
+      "why_it_matters": "Clarifies the licensing model and cost structure for Copilot Studio, which is separate from Business Central licensing.",
+      "check": "exact"
+    },
+    {
+      "t": 331.2,
+      "text": "you don't need to have any additional paid user licenses because your users that that you share the agent with will use and and",
+      "why_it_matters": "Specifies that agent users do not require separate paid licenses, only consumption of shared credits.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014034999999999999
+    }
+  ]
+}

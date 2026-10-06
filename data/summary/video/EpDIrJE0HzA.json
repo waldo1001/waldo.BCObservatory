@@ -1,0 +1,27 @@
+{
+  "video_id": "EpDIrJE0HzA",
+  "item_id": "video/yt-microsoft/EpDIrJE0HzA",
+  "summary": "Building an agent in Microsoft Copilot Studio that reads Business Central data through an MCP server, using the MCP Configurations page in Business Central. It covers publishing the agent to Teams and Microsoft 365 Copilot, and the credit-based Copilot Studio licensing.",
+  "overview": "The video, published 2025-12-03 and about 6 minutes long, explains that Copilot Studio is part of Power Platform and is used to build conversational experiences and agents connected to data. It describes the Model Context Protocol (MCP) as an open protocol for AI systems to talk to business applications, and as an alternative to Power Platform connectors for reaching Business Central APIs.\n\nThe demo sets up data, configures MCP in Business Central, publishes the agent, and tests it in Microsoft 365 Copilot. It ends with licensing: Copilot Studio is bought separately from Business Central, through credit packs or pay-as-you-go.",
+  "key_points": [
+    "Copilot Studio is part of Power Platform and builds agents connected to data, including Business Central data via Power Platform connectors and APIs.",
+    "An MCP server is an alternative to Power Platform connectors for giving an agent access to Business Central APIs.",
+    "Business Central has an MCP Configurations page where you define a configuration that exposes an API (for example items) in read-only mode.",
+    "The demo publishes the agent to channels including Teams and Microsoft 365 Copilot, and tests it in Microsoft 365 Copilot.",
+    "Copilot Studio needs credit packs or a pay-as-you-go subscription, purchased separately and not included in Business Central licensing.",
+    "Users the agent is shared with consume the credits and do not need additional paid user licenses."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer",
+    "decision maker"
+  ],
+  "extraction_hash": "7d78bf16ca179df7e8c2cd8a817fb66efd06b97d6e8b2e0080aca05f8523f98c",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013114399999999998
+  }
+}

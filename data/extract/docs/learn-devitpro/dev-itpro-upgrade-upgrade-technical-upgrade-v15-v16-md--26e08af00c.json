@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-technical-upgrade-v15-v16.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-technical-upgrade-v15-v16",
+  "title": "Technical upgrade from version 15 to version 16",
+  "blob": "dd574e924afd2e50ebd80c6157e7dc65b85cda0c",
+  "summary": "Technical upgrade process from Business Central version 15 to version 16, covering database conversion, server configuration, extension recompilation, tenant synchronization, and post-upgrade tasks for single-tenant and multitenant deployments.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "technical upgrade",
+    "version 15",
+    "version 16",
+    "database conversion",
+    "extensions",
+    "server configuration",
+    "data encryption"
+  ],
+  "objects": [],
+  "features": [
+    "Database conversion",
+    "System table schema updates",
+    "Extension repair and recompilation",
+    "Tenant synchronization",
+    "Task scheduler management",
+    "Data encryption management",
+    "Permission system updates"
+  ],
+  "versions": [
+    "2019 release wave 2 (version 15)",
+    "2020 release wave 1 (version 16)"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007292,
+      "pages_in_call": 5
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "video_id": "uxYuoJP-uH8",
+  "item_id": "video/yt-bcmusings/uxYuoJP-uH8",
+  "summary": "Extending ApplicationArea with custom areas in Business Central AL: extend the application area setup table, hook the new area to the premium or essential experience, enable it from an install codeunit, and use it on fields and groups in page extensions. Episode 19 of an MB-820 exam series.",
+  "overview": "The episode explains application areas as a Business Central feature for building different experiences and showing or hiding fields. It walks through creating a custom application area by extending the application area setup table, then enabling and validating it in code.\n\nThe demo then applies the custom area to fields and groups in a page extension and shows the result in the UI depending on the enabled experience. The presenter says the topic came up in the MB-800 exam and notes that they previously used ApplicationArea = All almost everywhere.",
+  "key_points": [
+    "Create a custom application area by adding a table extension to the application area setup table.",
+    "The new area must be hooked to an existing experience, premium or essential.",
+    "An enable custom area function refreshes the experience for the current company and registers the new area; it runs on installation via an install codeunit.",
+    "Validation logic checks whether the custom application area is enabled and returns an error if conditions are not met.",
+    "In page extensions, apply the custom area to fields and groups to control visibility by selected experience.",
+    "Omit spaces from the application area name when using it in a page extension."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "e97897b3efaf127d6d01de7ca235ed6dfd08bf39ccedb730370e69cf5af1bd40",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0108924
+  }
+}
