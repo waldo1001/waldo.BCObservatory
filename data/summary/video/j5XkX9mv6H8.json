@@ -1,0 +1,25 @@
+{
+  "video_id": "j5XkX9mv6H8",
+  "item_id": "video/yt-microsoft/j5XkX9mv6H8",
+  "summary": "Enabling telemetry for a Business Central online environment by setting an Application Insights connection string in the tenant admin center. It shows where to find the setting, how to copy the string from the Azure portal, and warns that saving restarts the environment.",
+  "overview": "The video walks through connecting a Business Central online environment to Application Insights. In the tenant admin center, you pick the environment and open its details, where a setting for the Application Insights connection string is available.\n\nThe presenter opens the configuration menu, then gets the connection string from the Azure portal, copies it, pastes it into the menu and saves. Saving injects the connection string into Business Central, and data starts arriving within a few minutes. The video warns that saving restarts the environment, so it should not be done during working hours.",
+  "key_points": [
+    "Go to the tenant admin center, select the environment, and use the details menu to set the Application Insights connection string.",
+    "The connection string is copied from the Application Insights resource in the Azure portal.",
+    "Saving the connection string triggers a restart of the environment.",
+    "Avoid saving during working hours because of the restart.",
+    "After saving, the connection string is injected into Business Central and telemetry data starts arriving within a few minutes."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "845a73cc6cd227b9437dee54f62b514ca2a647703bfb861d7ab05054b7ff57aa",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0094464
+  }
+}

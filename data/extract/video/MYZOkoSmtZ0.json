@@ -1,0 +1,140 @@
+{
+  "video_id": "MYZOkoSmtZ0",
+  "item_id": "video/yt-microsoft/MYZOkoSmtZ0",
+  "title": "Store Business Central Telemetry in Azure Application Insights",
+  "duration_s": 149,
+  "systems": [
+    "platform",
+    "administration",
+    "reporting"
+  ],
+  "topics": [
+    "telemetry",
+    "application insights",
+    "azure",
+    "data storage",
+    "resource deployment",
+    "workspace configuration"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Application Insights",
+      "t_start": 0,
+      "t_end": 20.6
+    },
+    {
+      "title": "Creating an Application Insights Resource",
+      "t_start": 20.6,
+      "t_end": 46.5
+    },
+    {
+      "title": "Configuring Instance Name and Region",
+      "t_start": 46.5,
+      "t_end": 82.1
+    },
+    {
+      "title": "Selecting Resource Mode and Workspace",
+      "t_start": 82.1,
+      "t_end": 116.8
+    },
+    {
+      "title": "Deployment and Readiness",
+      "t_start": 116.8,
+      "t_end": 149
+    }
+  ],
+  "features": [
+    {
+      "name": "Application Insights for Business Central Telemetry",
+      "description": "Azure Application Insights is a service used to store telemetry data from Business Central. It requires provisioning a resource in the Azure portal and configuring it with subscription, resource group, name, and region settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.5,
+      "t_end": 147.8,
+      "is_demoed": true,
+      "caveats": [
+        "Classic mode is deprecated; workspace-based mode should be used",
+        "Deployment takes a few minutes to complete"
+      ],
+      "tags": [
+        "telemetry",
+        "application insights",
+        "azure",
+        "data storage"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Workspace-based Application Insights Mode",
+      "description": "The workspace-based mode is the recommended configuration for Application Insights resources, where the workspace is where the data is actually stored. The classic mode is deprecated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 82.1,
+      "t_end": 116.8,
+      "is_demoed": true,
+      "caveats": [
+        "Classic mode should not be used"
+      ],
+      "tags": [
+        "workspace",
+        "configuration",
+        "deployment"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.5,
+      "text": "to get Telemetry data for business Central you need a place to store that data and that place is called application insights",
+      "why_it_matters": "Establishes the fundamental purpose of Application Insights in the Business Central telemetry architecture",
+      "check": "exact"
+    },
+    {
+      "t": 82.1,
+      "text": "you can choose between two different modes of the resource a classic and a workspace us should should always use the workspace uh based",
+      "why_it_matters": "Provides clear guidance on which resource mode to use and warns against deprecated configuration",
+      "check": "exact"
+    },
+    {
+      "t": 96.7,
+      "text": "the workspace is actually where the data is stored",
+      "why_it_matters": "Clarifies the role of the workspace in storing telemetry data",
+      "check": "exact"
+    },
+    {
+      "t": 116.8,
+      "text": "within a few minutes I will get my application insights resource and I'm ready to add that to business Central",
+      "why_it_matters": "States the expected timeline for resource deployment and readiness",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 82.1,
+      "kind": "subject-to-change",
+      "text": "the classic is a deprecated mode"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009379
+    }
+  ]
+}

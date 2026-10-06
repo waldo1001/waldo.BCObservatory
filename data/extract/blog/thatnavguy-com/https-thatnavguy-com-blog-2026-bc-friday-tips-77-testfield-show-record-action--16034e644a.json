@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-77-testfield-show-record-action/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-77-testfield-show-record-action/",
+  "title": "BC Friday Tips #77 TestField Show Record Action",
+  "source": "thatnavguy-com",
+  "published_at": "2026-07-31T00:00:00.000Z",
+  "words": 163,
+  "summary": "TestField automatically adds a Show Record button to error dialogs when field validation fails, letting users jump directly to the problem record. This feature works natively for tables with single primary keys like Customer, but not for compound primary key tables like Sales Header.",
+  "key_points": [
+    "TestField can automatically generate a Show Record action without requiring ErrorInfo code",
+    "Business Central resolves the target page from Card pages matching the failing record's table",
+    "Feature works for single primary key tables but not compound primary key tables",
+    "Users can directly open and fix problematic records instead of manually searching"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "testfield",
+    "error handling",
+    "validation",
+    "user experience",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Sales Header"
+    }
+  ],
+  "features": [
+    "TestField method",
+    "Show Record action",
+    "error dialogs",
+    "field validation"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004802,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "When TestField fails, Business Central can give users a direct action to open the record and fix the problem.",
+      "why_it_matters": "Explains the core benefit of TestField's Show Record functionality"
+    },
+    {
+      "text": "Business Central resolves the target page from the Card page whose SourceTable matches the failing record's table.",
+      "why_it_matters": "Clarifies the mechanism for how the platform determines which page to show"
+    }
+  ]
+}

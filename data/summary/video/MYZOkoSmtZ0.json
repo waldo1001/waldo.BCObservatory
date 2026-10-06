@@ -1,0 +1,26 @@
+{
+  "video_id": "MYZOkoSmtZ0",
+  "item_id": "video/yt-microsoft/MYZOkoSmtZ0",
+  "summary": "Creating an Azure Application Insights resource to store Business Central telemetry: subscription, resource group, name, region, and the choice between classic and workspace-based mode. The video says to use workspace-based mode because classic is deprecated.",
+  "overview": "Business Central telemetry needs a place to be stored, and the video names Azure Application Insights as that place. It walks through creating the resource in the Azure portal, from the introduction through setting the instance name and region, choosing the resource mode and workspace, and waiting for deployment.\n\nThe resource can be created in classic or workspace-based mode. The presenter says to always use workspace-based mode, since the workspace is where the data is stored and classic mode is deprecated. Deployment takes a few minutes, after which the resource is ready to be connected to Business Central.",
+  "key_points": [
+    "Business Central telemetry is stored in Azure Application Insights, which must be provisioned in the Azure portal.",
+    "The resource is configured with subscription, resource group, name, and region.",
+    "Two resource modes exist: classic and workspace-based. Use workspace-based.",
+    "Classic mode is deprecated (marked subject to change in the video).",
+    "In workspace-based mode, the workspace is where the data is actually stored.",
+    "Deployment takes a few minutes, after which the resource can be added to Business Central."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "649f6b2bceb5e088f94cdda2d122793e49ed512ab1e7c7f5ddfa9562528dc94f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0099484
+  }
+}

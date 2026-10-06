@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2333",
+  "url": "https://aardvarklabs.blog/2026/07/31/essential-guides-to-data-imports-in-business-central/",
+  "title": "Essential Guides to Data Imports in Business Central",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-07-31T12:00:00.000Z",
+  "words": 121,
+  "summary": "Guide to data import and export operations in Business Central using AL code. Covers patterns for onboarding customers, synchronizing data across systems, and maintaining data quality through reliable, repeatable data flows using JSON, delimited files, Excel, XML, and header-detail imports.",
+  "key_points": [
+    "Data imports and exports are critical to successful Business Central implementations",
+    "AL code patterns for handling JSON, delimited data, Excel files, and XML formats",
+    "Techniques for header-detail imports and multi-tab Excel file processing",
+    "Best practices for building scalable, reliable data flows that handle customer onboarding and cross-system synchronization"
+  ],
+  "systems": [
+    "integration",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "data imports",
+    "data exports",
+    "al code",
+    "json",
+    "excel",
+    "xml",
+    "delimited data",
+    "data integration"
+  ],
+  "objects": [],
+  "features": [
+    "JSON handling in AL",
+    "Delimited data imports",
+    "Header and detail imports",
+    "Excel data import",
+    "Multi-tab Excel file import",
+    "XML import"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004665,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Data imports and exports sit at the heart of every successful Business Central implementation.",
+      "why_it_matters": "Establishes the fundamental importance of data handling to implementation success"
+    },
+    {
+      "text": "Understanding how AL handles these operations gives you a major advantage.",
+      "why_it_matters": "Explains why developers need to master AL data handling patterns and best practices"
+    },
+    {
+      "text": "Build reliable, repeatable data flows that scale with your business.",
+      "why_it_matters": "Highlights the goal of sustainable, scalable data integration approaches"
+    }
+  ]
+}

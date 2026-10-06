@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/freddysblog/https://freddysblog.com/2026/08/04/file-storage-in-fkh",
+  "url": "https://freddysblog.com/2026/08/04/file-storage-in-fkh/",
+  "title": "File storage in Fkh (Freddy’s Kubernetes Helper)",
+  "source": "freddysblog",
+  "published_at": "2026-08-04T10:00:00.000Z",
+  "words": 946,
+  "summary": "Fkh file storage provides versioned, authenticated file management in Azure blob storage for Business Central containers, eliminating the need for SAS URLs or secret credentials. It includes CLI commands for uploading, downloading, listing, and removing files with version control.",
+  "key_points": [
+    "File storage replaces ad-hoc file handling with versioned, secure storage in Azure blob storage accessible through authenticated channels only",
+    "Uploading and deleting are admin-only operations, while downloading and listing are available to authorized users",
+    "Version manifest (all.json) tracks all file versions automatically, defaulting to UTC timestamps if no explicit version label is provided",
+    "CLI commands support scripting and pipeline integration with pattern matching and flexible version selection"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "file storage",
+    "kubernetes",
+    "azure",
+    "versioning",
+    "cli",
+    "containers"
+  ],
+  "objects": [],
+  "features": [
+    "versioned file storage",
+    "blob storage integration",
+    "authenticated access",
+    "version manifest",
+    "CLI commands",
+    "admin controls",
+    "pattern matching"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006107,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Every file is stored under a name, and each upload creates a new version under that name.",
+      "why_it_matters": "Describes the versioning mechanism that enables rollback and historical tracking of file changes"
+    }
+  ]
+}

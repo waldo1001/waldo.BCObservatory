@@ -7,13 +7,39 @@
   "url": "https://www.dvlprlife.com/2026/08/i-finally-fixed-my-note-taking/",
   "published_at": "2026-08-02T14:25:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:44:22.127Z",
+      "path": "vault:posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-i-finally-fixed-my-note-taking--bb0593bedf.md",
+      "words": 1132
+    },
+    "extracted": {
+      "at": "2026-10-06T21:44:51.593Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.010901
+    },
+    "summarized": {
+      "at": "2026-10-06T21:44:51.594Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:44:53.609Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:44:53.613Z",
+      "path": "content/posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-i-finally-fixed-my-note-taking--bb0593bedf.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "57b5cd268e4f667f77f059cb4e8989d7872c0b1dd30da877fd0f0d356af37b25"
 }

@@ -1,0 +1,26 @@
+{
+  "video_id": "VX_aPhcsIOc",
+  "item_id": "video/yt-microsoft/VX_aPhcsIOc",
+  "summary": "Controlling Application Insights telemetry costs for Business Central: viewing usage and estimated monthly costs from the configure menu, and setting a daily ingestion cap with warnings. The video notes the first four GB per month are free and that data beyond the cap is not ingested.",
+  "overview": "A short demo of how to manage the cost of Business Central telemetry sent to Application Insights. Ingesting data costs money, so the video treats it like any other resource whose cost should be controlled.\n\nIt shows where to see telemetry usage and estimated monthly costs, which read zero for a new resource until data has been ingested. It then covers setting a daily cap in gigabytes or megabytes and the warnings that appear when the cap is approached or exceeded. When a warning appears, data is being lost because it is no longer ingested.",
+  "key_points": [
+    "Telemetry usage and estimated costs are available from the configure menu and give an overview of monthly Application Insights payments.",
+    "A new resource shows zero cost until data has been ingested.",
+    "The speaker says the first four gigabytes per month are free; ingestion after that is charged.",
+    "A daily cap can be set as a maximum amount of data, in gigabytes or megabytes, to ingest per day.",
+    "A daily cap warning means data is being lost: data beyond the cap is not ingested.",
+    "Choose the cap with this tradeoff in mind: lower cost versus possible gaps in telemetry."
+  ],
+  "audience": [
+    "administrator",
+    "decision maker",
+    "functional consultant"
+  ],
+  "extraction_hash": "12f6c10a9ba448914e413f31ca1022e4269a83523a62cf4de21ca0defe5f62eb",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.010676399999999999
+  }
+}

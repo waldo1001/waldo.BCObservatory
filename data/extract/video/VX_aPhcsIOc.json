@@ -1,0 +1,153 @@
+{
+  "video_id": "VX_aPhcsIOc",
+  "item_id": "video/yt-microsoft/VX_aPhcsIOc",
+  "title": "Enable Cost Control Strategies for Business Central Telemetry",
+  "duration_s": 133,
+  "systems": [
+    "platform"
+  ],
+  "topics": [
+    "telemetry",
+    "cost control",
+    "daily cap",
+    "application insights",
+    "data retention",
+    "usage monitoring"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Telemetry Cost Management",
+      "t_start": 0,
+      "t_end": 20.6
+    },
+    {
+      "title": "Accessing Usage and Cost Information",
+      "t_start": 20.6,
+      "t_end": 40.8
+    },
+    {
+      "title": "Understanding Monthly Costs and Pricing",
+      "t_start": 40.8,
+      "t_end": 81.6
+    },
+    {
+      "title": "Setting Daily Cap and Alerts",
+      "t_start": 81.6,
+      "t_end": 119
+    },
+    {
+      "title": "Conclusion and Next Steps",
+      "t_start": 119,
+      "t_end": 133
+    }
+  ],
+  "features": [
+    {
+      "name": "Telemetry Usage and Estimated Costs View",
+      "description": "A feature in the configure menu that allows users to see an overview of their monthly telemetry payments for Application Insights.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 20.6,
+      "t_end": 40.8,
+      "is_demoed": true,
+      "caveats": [
+        "Shows zero for new resources with no data yet",
+        "Requires data ingestion before costs appear"
+      ],
+      "tags": [
+        "telemetry",
+        "cost monitoring",
+        "application insights"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Daily Cap for Telemetry Ingestion",
+      "description": "A configurable setting that allows users to define a maximum amount of data in gigabytes or megabytes to ingest per day for Application Insights.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 61.6,
+      "t_end": 98.7,
+      "is_demoed": true,
+      "caveats": [
+        "First four gigabytes per month are free",
+        "Charges apply after free tier is exceeded"
+      ],
+      "tags": [
+        "daily cap",
+        "cost control",
+        "data ingestion"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Telemetry Daily Cap Warnings",
+      "description": "An alert system that warns users when telemetry data ingestion is approaching or exceeding the configured daily cap limit.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 98.7,
+      "t_end": 119,
+      "is_demoed": true,
+      "caveats": [
+        "When warning triggers, data loss occurs",
+        "Data beyond the cap is not ingested"
+      ],
+      "tags": [
+        "daily cap",
+        "warnings",
+        "telemetry alerts"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.3,
+      "text": "it is important just like any other as a resource that you control the cost of this it cost data to ingest data into",
+      "why_it_matters": "Establishes the fundamental principle that telemetry costs need to be actively managed and controlled like any other resource.",
+      "check": "exact"
+    },
+    {
+      "t": 40.8,
+      "text": "once you have data here you um you will be able to see see your monthly costs",
+      "why_it_matters": "Explains that the usage and costs view becomes populated once telemetry data is actually being ingested.",
+      "check": "exact"
+    },
+    {
+      "t": 81.6,
+      "text": "the first I believe it's four gigabytes a month is free and after that you pay for your ingestion",
+      "why_it_matters": "Critical pricing information showing the free tier threshold and when charges begin for Application Insights.",
+      "check": "exact"
+    },
+    {
+      "t": 98.7,
+      "text": "if you get a warning it means that there is data that you not not getting anymore",
+      "why_it_matters": "Important consequence of exceeding the daily cap: data loss occurs, which can impact telemetry completeness.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010209
+    }
+  ]
+}

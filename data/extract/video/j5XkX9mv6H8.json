@@ -1,0 +1,148 @@
+{
+  "video_id": "j5XkX9mv6H8",
+  "item_id": "video/yt-microsoft/j5XkX9mv6H8",
+  "title": "Enable Telemetry in Online Business Central Environments",
+  "duration_s": 126,
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "telemetry",
+    "application insights",
+    "environment administration",
+    "tenant admin center",
+    "azure integration",
+    "monitoring",
+    "data collection"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to enabling telemetry",
+      "t_start": 0,
+      "t_end": 13.8
+    },
+    {
+      "title": "Accessing the application insights connection string setting",
+      "t_start": 13.8,
+      "t_end": 25.8
+    },
+    {
+      "title": "Opening the connection string configuration menu",
+      "t_start": 25.8,
+      "t_end": 41.3
+    },
+    {
+      "title": "Warning about environment restart impact",
+      "t_start": 41.3,
+      "t_end": 51.3
+    },
+    {
+      "title": "Locating the connection string in Azure portal",
+      "t_start": 51.3,
+      "t_end": 67.7
+    },
+    {
+      "title": "Copying the connection string from Azure",
+      "t_start": 67.7,
+      "t_end": 82.6
+    },
+    {
+      "title": "Pasting and saving the connection string",
+      "t_start": 82.6,
+      "t_end": 105.8
+    },
+    {
+      "title": "Summary of telemetry enablement process",
+      "t_start": 105.8,
+      "t_end": 126
+    }
+  ],
+  "features": [
+    {
+      "name": "Application Insights telemetry integration",
+      "description": "Ability to connect Business Central online environments to Application Insights by configuring a connection string in the tenant admin center, allowing the environment to emit telemetry data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0,
+      "t_end": 116.8,
+      "is_demoed": true,
+      "caveats": [
+        "Enabling this triggers an environment restart",
+        "Should not be done during working hours"
+      ],
+      "tags": [
+        "telemetry",
+        "application insights",
+        "monitoring",
+        "azure",
+        "configuration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Connection string configuration UI",
+      "description": "A settings menu in the tenant admin center environment details that allows users to define and paste an Application Insights connection string to enable telemetry data emission.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 13.8,
+      "t_end": 95.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "configuration",
+        "application insights"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0,
+      "text": "To enable telemetry for a Business Central online environment, you go to the tenant admin center and pick the environment.",
+      "why_it_matters": "States the fundamental process for enabling telemetry, establishing where users start the configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 13.8,
+      "text": "in the details menu here, I have an ability to set application insights connection string.",
+      "why_it_matters": "Identifies the specific UI location where the connection string setting is found in the tenant admin center.",
+      "check": "exact"
+    },
+    {
+      "t": 41.3,
+      "text": "Be aware that this will trigger if if you save this, it will trigger restart of the environment. So, please don't do this during",
+      "why_it_matters": "Critical operational limitation indicating that enabling telemetry causes environment downtime and requires scheduling outside business hours.",
+      "check": "exact"
+    },
+    {
+      "t": 105.8,
+      "text": "when I click save, this will inject the connection string into Business Central and within a few minutes, you now start getting data.",
+      "why_it_matters": "Specifies the timeline for telemetry data availability after configuration, allowing users to verify successful enablement.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009642
+    }
+  ]
+}

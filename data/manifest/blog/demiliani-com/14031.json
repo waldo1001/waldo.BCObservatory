@@ -7,7 +7,7 @@
   "url": "https://demiliani.com/2026/08/05/dynamics-365-business-central-al-transaction-isolation-levels-and-cache-usage/",
   "published_at": "2026-08-05T08:11:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T21:44:08.157Z",
       "path": "vault:posts/demiliani-com/14031.md",
       "words": 1031
+    },
+    "extracted": {
+      "at": "2026-10-06T21:44:21.969Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.007975
+    },
+    "summarized": {
+      "at": "2026-10-06T21:44:21.971Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:44:21.972Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:44:21.976Z",
+      "path": "content/posts/demiliani-com/14031.md"
     }
   },
   "input_hash": "2026-08-05T08:11:52.000Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "af106eb402928026840be4bafb3dd6f496cbb26700df87273df16fa19244195f"
+  "output_hash": "74d436a758fbc0e4aed0b1a4e49b2954a1733fd4a6493ac8cb15af3f9e59cba2"
 }

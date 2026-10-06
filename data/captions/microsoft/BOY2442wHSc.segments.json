@@ -1,0 +1,81 @@
+{
+  "video_id": "BOY2442wHSc",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.2,
+      "end": 20.2,
+      "text": "how to connect powerbi Telemetry apps to read your Telemetry data in aure application insights when you have installed the powerbi app for business business Central Telemetry whether it is for environments or for apps you notice that you see the app with sample data but"
+    },
+    {
+      "t": 20.2,
+      "end": 41,
+      "text": "you of course would like to see this with your data so how do you do that well you see this Banner in yellow on the top if you click connect your data you get a menu where you need to set certain things the most important thing you need to set is"
+    },
+    {
+      "t": 41,
+      "end": 58.6,
+      "text": "the application insights application ID and this uh where do you get this ID from because this is you specifying where is my data let me show you where you find the application insights application"
+    },
+    {
+      "t": 58.6,
+      "end": 78.6,
+      "text": "ID um under the API menu to the left so let me scroll down here on the menu on the left a little bit scroll scroll scroll scroll scroll here and then under the configure menu there's a menu called API access let's"
+    },
+    {
+      "t": 78.6,
+      "end": 98.6,
+      "text": "go here and this is where the application ID resides you need for your power pi to connect to your data so you simply take this guid on the right hand side I can copy to clipboard let me copy that and then go back to powerbi to"
+    },
+    {
+      "t": 98.6,
+      "end": 118.9,
+      "text": "insert that so back in powerbi I copi the application insights application ID guid there you go I will probably also set the time zone so my customer is located in Copenhagen so I set the time zone"
+    },
+    {
+      "t": 118.9,
+      "end": 140.3,
+      "text": "of the report to to Copenhagen and then the only other thing I need to set is the look back period when the when the report refreshes you can set a weekly or daily or a monthly so it every night it will refresh with that look back period let's just pick two weeks and click next"
+    },
+    {
+      "t": 140.3,
+      "end": 160.3,
+      "text": "and the the only other thing I need for this report to start set up nightly refresh is I need to authentic at to um to application insights using or so there will come a small menu up here in a second there you go"
+    },
+    {
+      "t": 160.3,
+      "end": 176.8,
+      "text": "so I need to pick o or two and then I need to Simply say sign in and connect when I do that I will be prompted for my uh authorization so I will click"
+    },
+    {
+      "t": 176.8,
+      "end": 197.2,
+      "text": "here and uh that's it now the powerbi report is authorized to refresh as me and uh you can see that um this will start uh uh refreshing you can see the banner here is changing to refresh is in"
+    },
+    {
+      "t": 197.2,
+      "end": 202.7,
+      "text": "progress and you're all"
+    },
+    {
+      "t": 203.5,
+      "end": 205,
+      "text": "set"
+    }
+  ],
+  "markers": [
+    {
+      "t": 201.47,
+      "text": "[Music]"
+    },
+    {
+      "t": 203.509,
+      "text": "[Music]"
+    },
+    {
+      "t": 203.519,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 445
+}

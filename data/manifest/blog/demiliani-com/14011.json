@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/07/30/visual-studio-code-agent-hook-for-auditing-your-al-coding-sessions/",
   "published_at": "2026-07-30T14:55:28.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:44:44.441Z",
+      "path": "vault:posts/demiliani-com/14011.md",
+      "words": 1132
+    },
+    "extracted": {
+      "at": "2026-10-06T21:44:53.644Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.006861
+    },
+    "summarized": {
+      "at": "2026-10-06T21:44:53.645Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:44:53.647Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:44:53.651Z",
+      "path": "content/posts/demiliani-com/14011.md"
     }
   },
   "input_hash": "2026-07-31T05:22:19.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1223c58f344c7c91823b4adc21a5fa69501ff5ef9add02b36186be418430e8ab"
 }

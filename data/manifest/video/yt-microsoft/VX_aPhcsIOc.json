@@ -5,12 +5,58 @@
   "tier": "official",
   "title": "Enable Cost Control Strategies for Business Central Telemetry",
   "url": "https://www.youtube.com/watch?v=VX_aPhcsIOc",
-  "published_at": null,
+  "published_at": "2023-12-05T10:49:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:44:22.578Z",
+      "captions": "auto:en-orig",
+      "duration_s": 133
+    },
+    "captioned": {
+      "at": "2026-10-06T21:44:27.997Z",
+      "path": "data/captions/microsoft/VX_aPhcsIOc.vtt",
+      "vtt_sha256": "c42cd5fb1e301e0cf04d2257e35583f6264bf68b90fcfd339d65236099c77b33",
+      "segments": 8,
+      "words": 297,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:44:41.066Z",
+      "path": "data/extract/video/VX_aPhcsIOc.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 3,
+      "quotes": 4,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.010209
+    },
+    "summarized": {
+      "at": "2026-10-06T21:44:47.110Z",
+      "path": "data/summary/video/VX_aPhcsIOc.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.010676399999999999
+    },
+    "linked": {
+      "at": "2026-10-06T21:44:47.111Z",
+      "systems": [
+        "platform"
+      ],
+      "topics": 6,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T21:44:47.121Z",
+      "path": "content/videos/VX_aPhcsIOc.md"
     }
   },
   "input_hash": null,
@@ -20,6 +66,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 502,
     "duration_s": 133,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "68d6fa1fe1d532ab578aac86235f1cb10487190c531491eada199feb0a9d3c69"
 }

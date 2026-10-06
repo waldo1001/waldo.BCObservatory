@@ -1,0 +1,76 @@
+{
+  "video_id": "MYZOkoSmtZ0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.5,
+      "end": 20.6,
+      "text": "how to deploy an AER application insights resource to store business Central Telemetry to get Telemetry data for business Central you need a place to store that data and that place is called application insights it's a it's a service Insight AER so let's try"
+    },
+    {
+      "t": 20.6,
+      "end": 31.5,
+      "text": "to provision one of those I simply in the aser portal click create resource and I search for application"
+    },
+    {
+      "t": 31.5,
+      "end": 39.4,
+      "text": "insights let's see if we can find that here application insights and"
+    },
+    {
+      "t": 39.4,
+      "end": 46.2,
+      "text": "um then I create a"
+    },
+    {
+      "t": 46.5,
+      "end": 62.2,
+      "text": "resource I need an a subscription I will pick that and then I need to supply as always a resource Group I will um just create I will just uh select one"
+    },
+    {
+      "t": 62.2,
+      "end": 82.1,
+      "text": "here then you need to supply the name of your new instance let me call this Telemetry uh data and you need to supply which region this data is stored in this case we choose North"
+    },
+    {
+      "t": 82.1,
+      "end": 96.7,
+      "text": "Europe you can choose between two different modes of the resource a classic and a workspace us should should always use the workspace uh based one the classic is a deprecated"
+    },
+    {
+      "t": 96.7,
+      "end": 116.8,
+      "text": "mode and then you need um to supply which subscription as a subscription for the workspace the workspace is actually where the data is stored I'll just uh take the defaults I will click review and create and wait"
+    },
+    {
+      "t": 116.8,
+      "end": 137,
+      "text": "for Asher to pass that and then I will click create and this will initialize the deployment of my new resource and within a few minutes I will get my application insights resource and I'm ready to add that to business Central it's complete"
+    },
+    {
+      "t": 137,
+      "end": 146.9,
+      "text": "and uh that's it that's is how you get an application insights resource for your business Central"
+    },
+    {
+      "t": 147.8,
+      "end": 149,
+      "text": "telemetry"
+    }
+  ],
+  "markers": [
+    {
+      "t": 145.77,
+      "text": "[Music]"
+    },
+    {
+      "t": 147.83,
+      "text": "[Music]"
+    },
+    {
+      "t": 147.84,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 281
+}

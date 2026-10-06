@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/demiliani-com/14011",
+  "url": "https://demiliani.com/2026/07/30/visual-studio-code-agent-hook-for-auditing-your-al-coding-sessions/",
+  "title": "Visual Studio Code Agent hook for auditing your AL coding sessions.",
+  "source": "demiliani-com",
+  "published_at": "2026-07-30T14:55:28.000Z",
+  "words": 1132,
+  "summary": "Visual Studio Code Agent Hooks enable custom shell commands to execute at specific points during agent sessions to audit, enforce security policies, and log file access and tool usage. This is useful for compliance when AI coding agents modify AL projects, capturing details that Git history alone cannot track.",
+  "key_points": [
+    "Agent Hooks intercept the agent loop deterministically at lifecycle events (SessionStart, PreToolUse, PostToolUse, Stop, etc.), unlike agent skills which are probabilistically invoked by the model.",
+    "Hooks capture an audit trail of every file read/write, terminal commands, and tool calls with timestamps and session IDs, which Git alone cannot provide.",
+    "Eight hook events are available to run custom commands at predefined stages during agent sessions for security, compliance, code quality, and workflow automation.",
+    "Hooks sit at the policy-enforcement layer outside agent reasoning, enabling security guardrails like preventing dangerous operations (rm -rf, DROP TABLE) and enforcing code standards."
+  ],
+  "systems": [
+    "development",
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "agent hooks",
+    "al development",
+    "auditing",
+    "security",
+    "compliance",
+    "visual studio code",
+    "ai coding agents"
+  ],
+  "objects": [],
+  "features": [
+    "Agent Hooks lifecycle events",
+    "SessionStart hook",
+    "PreToolUse hook",
+    "PostToolUse hook",
+    "PreCompact hook",
+    "SubagentStart hook",
+    "SubagentStop hook",
+    "Stop hook"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006861,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Hooks enable you to execute custom shell commands at key lifecycle points during agent sessions.",
+      "why_it_matters": "Explains the core mechanism of agent hooks for automation and control during AI-assisted coding."
+    }
+  ]
+}
