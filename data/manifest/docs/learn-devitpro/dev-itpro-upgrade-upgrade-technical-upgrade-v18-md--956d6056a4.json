@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-technical-upgrade-v18",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "77dd9aa1c466590b653bf7d2fca06d73aeb8dd0f",
       "words": 2281,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:20:28.609Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.016418
+    },
+    "summarized": {
+      "at": "2026-10-06T19:20:28.631Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:20:28.631Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:20:28.632Z",
+      "page": false
     }
   },
   "input_hash": "77dd9aa1c466590b653bf7d2fca06d73aeb8dd0f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "77dd9aa1c466590b653bf7d2fca06d73aeb8dd0f"
+  "output_hash": "1b9806fd1698916b9e6e367021d0330c3b9476290a906a192e1c6c603d618d46"
 }

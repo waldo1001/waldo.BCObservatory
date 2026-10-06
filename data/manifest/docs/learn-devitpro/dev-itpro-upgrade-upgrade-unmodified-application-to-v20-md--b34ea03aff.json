@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v20",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3c7e616b375ad3ca8cb6827be61189a0a3f03787",
       "words": 1960,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:20:54.094Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.016297
+    },
+    "summarized": {
+      "at": "2026-10-06T19:20:54.162Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:20:54.170Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:20:54.178Z",
+      "page": false
     }
   },
   "input_hash": "3c7e616b375ad3ca8cb6827be61189a0a3f03787",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3c7e616b375ad3ca8cb6827be61189a0a3f03787"
+  "output_hash": "27347adbcee02e3ced21f6c3a389b5dd7fa17b9c2889995c9cff25cf9f8a9392"
 }

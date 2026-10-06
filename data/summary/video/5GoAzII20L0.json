@@ -1,0 +1,27 @@
+{
+  "video_id": "5GoAzII20L0",
+  "item_id": "video/yt-microsoft/5GoAzII20L0",
+  "summary": "Page script replayer for CI/CD pipelines in Business Central (2024 release wave 2): a standalone replayer distributed as an NPM package that runs recorded page scripts in pipelines for regression testing. AL-Go for GitHub support is announced for the near future; ALOps and Alpaca support are also planned.",
+  "overview": "The video builds on the page scripting tool, which lets customers and consultants record and replay user actions in the web client to create user acceptance tests. Partners asked for a way to run these scripts without replaying them manually in the client, since the earlier preview worked only that way.\nThe release adds a standalone page script replayer, distributed as an NPM package, so recorded scripts can run in CI/CD pipelines as automated regression tests. The video demos installing and using the BC Replayer package. It also says support in managed DevOps solutions, mainly AL-Go for GitHub, is coming soon, with ALOps and Alpaca also planned.",
+  "key_points": [
+    "Page scripting records and replays user actions in the web client to build user acceptance tests.",
+    "Before this release, replay was client-only, which partners flagged as a limitation.",
+    "The standalone replayer is an NPM package; install the latest version and use it in pipelines. It is available today.",
+    "It needs Node.js, Playwright and additional dependencies installed; Windows authentication is the default.",
+    "AL-Go for GitHub support for the replayer is announced for the near future; ALOps and Alpaca support are also planned.",
+    "The video describes the page scripting tool as having launched in the previous release as a preview."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "63467e8794d3d6d6a2a8e56f1a34df1ce5e16578f6001a6e43225cc33e765904",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012260400000000001
+  }
+}

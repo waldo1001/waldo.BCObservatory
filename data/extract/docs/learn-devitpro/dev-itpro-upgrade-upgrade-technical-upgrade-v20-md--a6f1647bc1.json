@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-technical-upgrade-v20.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-technical-upgrade-v20",
+  "title": "Technical Upgrade to Version 20",
+  "blob": "a16c645691434994b79d30f7263e2ac563520c0d",
+  "summary": "Technical upgrade process from Business Central version 17, 18, or 19 to version 20 (2022 release wave 1), covering platform database conversion, report modifications for platform-rendering, and extension recompilation.",
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "technical upgrade",
+    "version migration",
+    "database conversion",
+    "extensions",
+    "reports"
+  ],
+  "objects": [],
+  "features": [
+    "database conversion",
+    "platform-rendering of reports",
+    "extension recompilation",
+    "permission sets as AL objects",
+    "data encryption management",
+    "tenant synchronization"
+  ],
+  "versions": [
+    "version 20",
+    "2022 release wave 1",
+    "version 19",
+    "2021 release wave 2",
+    "version 18",
+    "2021 release wave 1",
+    "version 17",
+    "2020 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012473,
+      "pages_in_call": 4
+    }
+  ]
+}

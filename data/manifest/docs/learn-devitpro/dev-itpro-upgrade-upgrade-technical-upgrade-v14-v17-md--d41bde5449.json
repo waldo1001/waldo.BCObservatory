@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-technical-upgrade-v14-v17",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3935014c8096ecf13373809a454e63cc3e4bda04",
       "words": 1993,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:20:28.602Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.013536
+    },
+    "summarized": {
+      "at": "2026-10-06T19:20:28.610Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:20:28.611Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:20:28.612Z",
+      "page": false
     }
   },
   "input_hash": "3935014c8096ecf13373809a454e63cc3e4bda04",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3935014c8096ecf13373809a454e63cc3e4bda04"
+  "output_hash": "96d60b398376e7b596284aead933661b49550995fa5105b0c05f68dd2b5a8fd6"
 }

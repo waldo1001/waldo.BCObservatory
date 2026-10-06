@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/Upgrading-the-Data-Multitenant.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrading-the-Data-Multitenant",
+  "title": "Upgrading the Database to in a Multitenant Deployment",
+  "blob": "574f4362d82d05e9d67befb59e9c87d53decff9d",
+  "summary": "Data upgrade for Business Central multitenant deployments covers converting old data structures to new versions through database synchronization and upgrade codeunits. Use this when upgrading existing multitenant deployments with multiple tenants.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "data upgrade",
+    "multitenant deployment",
+    "tenant migration",
+    "database synchronization",
+    "extension upgrade"
+  ],
+  "objects": [],
+  "features": [
+    "Tenant mounting and dismounting",
+    "Database synchronization",
+    "Data upgrade execution",
+    "Permission set import/export",
+    "Encryption key management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004751,
+      "pages_in_call": 8
+    }
+  ]
+}

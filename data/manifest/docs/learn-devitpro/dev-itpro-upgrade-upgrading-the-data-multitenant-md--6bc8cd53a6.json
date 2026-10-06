@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Upgrading-the-Data-Multitenant",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "574f4362d82d05e9d67befb59e9c87d53decff9d",
       "words": 2079,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:20:46.428Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004751
+    },
+    "summarized": {
+      "at": "2026-10-06T19:20:54.098Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:20:54.099Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:20:54.101Z",
+      "page": false
     }
   },
   "input_hash": "574f4362d82d05e9d67befb59e9c87d53decff9d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "574f4362d82d05e9d67befb59e9c87d53decff9d"
+  "output_hash": "7a78dc42dbc5922df277b8ac80cab2ef1d1b443dd9bd36b6d507215f6dccf412"
 }

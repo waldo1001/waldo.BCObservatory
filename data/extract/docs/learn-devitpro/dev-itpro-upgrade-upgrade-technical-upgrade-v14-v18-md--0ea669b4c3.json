@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-technical-upgrade-v14-v18.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-technical-upgrade-v14-v18",
+  "title": "Technical Upgrade From Version 14 to Version 18",
+  "blob": "423bd11419279d45faf76bc366252997d382e5b2",
+  "summary": "Technical upgrade process for converting a version 14 Business Central application with C/AL customizations to version 18 (2020 release wave 2) platform using AL base application extensions.",
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "upgrade",
+    "v14 to v18",
+    "c/al to al conversion",
+    "technical upgrade",
+    "database migration"
+  ],
+  "objects": [],
+  "features": [
+    "C/AL to AL code conversion",
+    "database schema conversion",
+    "permission sets as AL objects",
+    "extension installation",
+    "control add-in upgrade",
+    "data encryption",
+    "task scheduler"
+  ],
+  "versions": [
+    "version 14",
+    "version 18",
+    "2020 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013536,
+      "pages_in_call": 3
+    }
+  ]
+}

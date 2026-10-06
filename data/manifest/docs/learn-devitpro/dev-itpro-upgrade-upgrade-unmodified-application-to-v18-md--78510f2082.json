@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v18",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f5afc3a88ca81572c82b69bf0b1bb695c19b8ae5",
       "words": 2547,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:20:54.092Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.013943
+    },
+    "summarized": {
+      "at": "2026-10-06T19:20:54.131Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:20:54.132Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:20:54.138Z",
+      "page": false
     }
   },
   "input_hash": "f5afc3a88ca81572c82b69bf0b1bb695c19b8ae5",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f5afc3a88ca81572c82b69bf0b1bb695c19b8ae5"
+  "output_hash": "baf1e08c6b996306f0306e0bbae7e271d67d01687236265fb163cce6fb75b236"
 }

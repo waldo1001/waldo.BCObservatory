@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-unmodified-application-to-v20.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v20",
+  "title": "Upgrading Version 15, 16, 17, or 18 Base Application to Version 20",
+  "blob": "3c7e616b375ad3ca8cb6827be61189a0a3f03787",
+  "summary": "Complete technical upgrade process for Business Central versions 15-19 to version 20, covering database conversion, extension publishing, tenant synchronization, and data migration using PowerShell cmdlets.",
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "upgrade",
+    "version 20",
+    "database conversion",
+    "extensions",
+    "powershell",
+    "tenant synchronization",
+    "permissions"
+  ],
+  "objects": [],
+  "features": [
+    "PowerShell upgrade automation",
+    "Application database conversion",
+    "Extension publishing and recompilation",
+    "Tenant mounting and synchronization",
+    "Data upgrade",
+    "Permission set installation",
+    "Encryption key management",
+    "Task scheduler configuration"
+  ],
+  "versions": [
+    "2019 release wave 2 (version 15)",
+    "2020 release wave 1 (version 16)",
+    "2020 release wave 2 (version 17)",
+    "2021 release wave 1 (version 18)",
+    "2021 release wave 2 (version 19)",
+    "2022 (version 20)"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016297,
+      "pages_in_call": 1
+    }
+  ]
+}
