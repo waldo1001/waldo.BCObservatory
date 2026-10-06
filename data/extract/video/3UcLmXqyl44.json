@@ -1,0 +1,286 @@
+{
+  "video_id": "3UcLmXqyl44",
+  "item_id": "video/yt-microsoft/3UcLmXqyl44",
+  "title": "What's New: Exporting and Importing Agent in Business Central",
+  "duration_s": 331,
+  "systems": [
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "agent export",
+    "agent import",
+    "agent definition",
+    "xml",
+    "agent backup",
+    "cross-environment sharing",
+    "agent activation",
+    "validation warnings",
+    "security",
+    "agent permissions"
+  ],
+  "chapters": [
+    {
+      "title": "Why export agents and overview of export options",
+      "t_start": 0,
+      "t_end": 47.9
+    },
+    {
+      "title": "Exporting agents via the UI - live demonstration",
+      "t_start": 47.9,
+      "t_end": 103.3
+    },
+    {
+      "title": "Import process overview and security features",
+      "t_start": 103.3,
+      "t_end": 155.4
+    },
+    {
+      "title": "Importing agents - file selection and preview",
+      "t_start": 155.4,
+      "t_end": 196.3
+    },
+    {
+      "title": "Reviewing import details and validation warnings",
+      "t_start": 196.3,
+      "t_end": 257.8
+    },
+    {
+      "title": "Completing import and activating agents",
+      "t_start": 257.8,
+      "t_end": 308.6
+    },
+    {
+      "title": "Conclusion and resources",
+      "t_start": 308.6,
+      "t_end": 331
+    }
+  ],
+  "features": [
+    {
+      "name": "Export agent definition",
+      "description": "Users can export agent definitions as XML files either from the agent card via an export agent definition action or from the agent list to back up agents or share them across environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 47.9,
+      "t_end": 103.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent export",
+        "xml",
+        "backup",
+        "sharing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent XML format",
+      "description": "The exported XML file contains all information related to the agent including name, display name, permissions, and instructions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 103.3,
+      "t_end": 119,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "agent definition",
+        "xml",
+        "metadata"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Import agent definition",
+      "description": "Users can import agent definitions from XML files through an import agent definition wizard that allows preview of changes, review of warnings, selection of which agents to import, and activation when ready.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 119,
+      "t_end": 278.6,
+      "is_demoed": true,
+      "caveats": [
+        "Validation warnings may indicate missing dependencies like profiles that need manual fixing after import"
+      ],
+      "tags": [
+        "agent import",
+        "wizard",
+        "preview",
+        "security"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent import preview",
+      "description": "Before importing, users can preview the agent definitions that will be imported to review what changes will occur to existing agents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 119,
+      "t_end": 142.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "import preview",
+        "agent review"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent validation warnings",
+      "description": "During import, users receive validation status with warnings and errors indicating potential issues with agent definitions, such as missing profiles or other configuration problems.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 196.3,
+      "t_end": 257.8,
+      "is_demoed": true,
+      "caveats": [
+        "Users must manually fix issues after import if warnings are not resolved"
+      ],
+      "tags": [
+        "validation",
+        "warnings",
+        "error checking"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent replace or create option",
+      "description": "During import, users can choose whether to replace existing agents or create new instances instead of replacing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 257.8,
+      "t_end": 278.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent management",
+        "import options"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent activation after import",
+      "description": "After importing agents, users can activate them directly from the import results view or navigate to the agent card to review permissions and other settings before activation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 278.6,
+      "t_end": 308.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent activation",
+        "agent card"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent productization via API",
+      "description": "Agents can be productized through AL code via the API by using exported definitions with Copilot as a reference to fill in instructions and other configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 27.8,
+      "t_end": 47.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al development",
+        "api",
+        "copilot",
+        "productization"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "agent list",
+      "t": 70.2
+    },
+    {
+      "type": "other",
+      "name": "agent card",
+      "t": 47.9
+    },
+    {
+      "type": "other",
+      "name": "inventory agent",
+      "t": 70.2
+    },
+    {
+      "type": "other",
+      "name": "sales validation agent",
+      "t": 196.3
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 16.4,
+      "text": "It is quite useful sometimes to back up your agents when you are working on them and you want to make sure that you",
+      "why_it_matters": "Explains the primary use case for exporting agents - backup and restore functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 27.8,
+      "text": "The other thing is that you might want to share them across environments and easily import them.",
+      "why_it_matters": "Key capability for sharing agent configurations between sandbox and production environments.",
+      "check": "exact"
+    },
+    {
+      "t": 103.3,
+      "text": "It will contain its name, its display name, the different permissions it's using and also the instructions that it is using.",
+      "why_it_matters": "Defines what metadata is captured in the exported XML file format.",
+      "check": "exact"
+    },
+    {
+      "t": 119,
+      "text": "The importing experience is designed to offer both security and convenience uh for viewing what changes will happen to existing agents.",
+      "why_it_matters": "Design principle of the import feature balancing security controls with usability.",
+      "check": "exact"
+    },
+    {
+      "t": 242.7,
+      "text": "a warning which says that the profile that it is being imported with was not found in the system",
+      "why_it_matters": "Example of validation warnings that alert users to configuration issues requiring post-import fixes.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 257.8,
+      "text": "want to replace existing agents or to add a new one in which case a new instance will be",
+      "why_it_matters": "Import flexibility allowing users to either update existing agents or create duplicates.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020895999999999998
+    }
+  ]
+}

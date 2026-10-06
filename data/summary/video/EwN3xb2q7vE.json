@@ -1,0 +1,26 @@
+{
+  "video_id": "EwN3xb2q7vE",
+  "item_id": "video/yt-microsoft/EwN3xb2q7vE",
+  "summary": "Coding custom Business Central agents in AL with the AI development toolkit APIs: agent types, interfaces, setup pages, instances, tasks and messages, multi-turn interactions, agent session events, and exposing agents to other apps. Demo-based walkthrough, 16 minutes, published 2026-02-27.",
+  "overview": "The video shows how to use the APIs in Business Central to code your own agents in AL. It starts with the agent type, which acts as a blueprint and is defined through enum extensions for the agent metadata provider and the Copilot capability, plus three interfaces: agent factory, agent metadata and task execution. These cover default settings, runtime behavior and message validation.\n\nIt then covers agent instances, which are also users in Business Central, and how to create them with setup pages and the agent setup codeunit, tracked in your own table. The second half covers the tasks and messages API, multi-turn interactions, triggering tasks, getting task results, agent session events, and exposing an agent to other apps through public codeunit functions.",
+  "key_points": [
+    "Agents are modeled as instances, which are also users in Business Central. Each instance keeps its own permissions, profile, user settings and instructions.",
+    "An agent type is defined with enum extensions for the agent metadata provider and Copilot capability. It uses the agent factory, agent metadata and task execution interfaces.",
+    "The task execution interface supports input and output message validation. Examples are relevance checks, warnings on input messages, and adding a signature to output messages.",
+    "You must make your own table to track agent instances, and it needs user security. Instances can be created from a setup page or programmatically through the agent codeunit, but only within a user session.",
+    "Tasks are units of work bound to one agent instance. Multi-turn interactions are done by adding several input messages. The external ID field on messages ties them to something like an email thread.",
+    "Polling the agent task status field to wait for results is suited to unit testing and non-production scenarios. Events that fire only in agent sessions are also covered, along with the is-agent-session procedure.",
+    "By default the AL API only works with agents defined in your own app. To share an agent, expose public functions in a codeunit that other apps can call."
+  ],
+  "audience": [
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "1ba194f87f5719106b50cee67f0874c2909487c001b96fce6017f844e7065d7f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0209084
+  }
+}

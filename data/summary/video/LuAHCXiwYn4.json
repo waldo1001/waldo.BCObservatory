@@ -1,0 +1,26 @@
+{
+  "video_id": "LuAHCXiwYn4",
+  "item_id": "video/yt-stefanmaron/LuAHCXiwYn4",
+  "summary": "Swappable Claude Code profiles for AL development, using Docker container mounting of a host config folder per project. Part 3 of a series by Stefan Maron. It covers project-scoped agents, memory, telemetry MCP folders, the LSP plugin, and moving from commands to skills.",
+  "overview": "The video shows how to keep Claude configuration in a host folder instead of a Docker volume, then mount a different folder into the container for each project. Each mounted folder acts as its own profile, with its own agents, memory and credentials. The presenter creates a project-scoped AL repository summarizer agent and looks at the memory files the agent writes automatically.\n\nThe second half covers a telemetry folder that loads Waldo's MCP server, the LSP navigation plugin from Corpin Le, and the difference between legacy commands and skills. It shows skill context settings, supporting files, and sub-agents attached to skills. It closes with the presenter's view that the container base is ready for general use and that problems should be reported as GitHub issues.",
+  "key_points": [
+    "Config is persisted into a host config folder rather than a Docker volume, and that folder is passed into the container as the Claude main folder. Any folder on disk can be used, not only the home directory.",
+    "The host folder caches sensitive credentials and memory files, so treat it as sensitive. Switching projects requires re-authenticating.",
+    "Agents can be created project-scoped and are stored in project-specific directories instead of globally. The demo built an AL repository summarizer agent that gives a human-readable overview.",
+    "Commands are described as the legacy approach. Skills follow the agent skills standard, can be invoked automatically by the model, and have no built-in generator.",
+    "Skill context is either omitted or fork. Skills can have supporting files and helper scripts, and can be set up to use dedicated sub-agents.",
+    "Waldo's telemetry MCP server can be loaded into its own folder with its own instructions. The presenter currently uses one dedicated telemetry folder across all projects.",
+    "The Corpin Le LSP plugin needs environment variables set in the container config. Marketplace setup had problems, including GitHub access being locked out in the container."
+  ],
+  "audience": [
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "eba1d3fdc737155c037a84af31c89c4f095fcca478444f5c2da2abde9c12efa6",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0247864
+  }
+}

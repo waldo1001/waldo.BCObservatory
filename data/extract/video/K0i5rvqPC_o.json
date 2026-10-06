@@ -1,0 +1,300 @@
+{
+  "video_id": "K0i5rvqPC_o",
+  "item_id": "video/yt-microsoft/K0i5rvqPC_o",
+  "title": "What's New: Troubleshooting Business Central Agents",
+  "duration_s": 409,
+  "systems": [
+    "copilot",
+    "sales",
+    "development"
+  ],
+  "topics": [
+    "agent troubleshooting",
+    "agent decision-making",
+    "agent logging",
+    "instructions",
+    "tools",
+    "virtual user interface",
+    "task messages",
+    "step history",
+    "sales order classification",
+    "assistance requests"
+  ],
+  "chapters": [
+    {
+      "title": "Agent decision-making fundamentals",
+      "t_start": 0,
+      "t_end": 73.3
+    },
+    {
+      "title": "Agent example and problem scenario",
+      "t_start": 73.3,
+      "t_end": 122.7
+    },
+    {
+      "title": "Accessing agent logs and task details",
+      "t_start": 122.7,
+      "t_end": 165.4
+    },
+    {
+      "title": "Analyzing agent perception and configuration",
+      "t_start": 165.4,
+      "t_end": 268.2
+    },
+    {
+      "title": "Examining tools, memory, and messages",
+      "t_start": 268.2,
+      "t_end": 318
+    },
+    {
+      "title": "Page stack and settings information",
+      "t_start": 318,
+      "t_end": 391
+    },
+    {
+      "title": "Summary and troubleshooting recap",
+      "t_start": 391,
+      "t_end": 409
+    }
+  ],
+  "features": [
+    {
+      "name": "Agent decision-making framework",
+      "description": "Agents make decisions based on instructions, available tools, virtual user interface representation, task messages, and step history. All these elements combine to determine what tool to call and how to interact with Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 17.7,
+      "t_end": 73.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent",
+        "architecture",
+        "decision-making"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent task logging and view log entries",
+      "description": "The agents tasks page provides access to task logs showing all steps an agent has performed, including assistance requests with detailed messages about why the agent needs help.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 136.2,
+      "t_end": 155,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "logging",
+        "troubleshooting",
+        "task tracking"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent view details page",
+      "description": "Provides detailed insight into agent decision-making with information about what the agent saw, what tools it had access to, what data it memorized, what messages it had access to, page stack, and settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 165.4,
+      "t_end": 328.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "troubleshooting",
+        "debugging",
+        "agent visibility"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "What the agent saw section",
+      "description": "Shows a textual view of what the agent perceives in Business Central including page information, page type, editability, page descriptions, actions, and available fields that the agent can interact with.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 190.7,
+      "t_end": 245.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent perception",
+        "page elements",
+        "fields"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "What tools the agent had access to",
+      "description": "Shows what capabilities and tools the agent could use at a specific point in time, helping users understand and design agent instructions based on available capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 268.2,
+      "t_end": 292.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent capabilities",
+        "tool discovery"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "What data the agent memorized section",
+      "description": "Allows users to see what data the agent retained in its memory for use later in the process, helping diagnose whether the agent captured the right information for decision-making.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 292.4,
+      "t_end": 305.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "memory",
+        "data retention",
+        "troubleshooting"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "What messages the agent had access to section",
+      "description": "Shows all messages the agent could see up to a specific point, allowing users to understand what information the agent was working with when making decisions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 318,
+      "t_end": 328.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "messages",
+        "context",
+        "information flow"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Page stack fact box",
+      "description": "Shows which pages were open at a specific point, tracking the agent's navigation between pages as it opens and closes them to accomplish its task.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 339.3,
+      "t_end": 352.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "page navigation",
+        "context tracking"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent settings and formatting",
+      "description": "Provides information about settings such as currency used and formatting that the agent applies to its messages, helping diagnose output-related issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 352.6,
+      "t_end": 363.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "settings",
+        "formatting",
+        "configuration"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "agents tasks page",
+      "t": 136.2
+    },
+    {
+      "type": "page",
+      "name": "sales order page",
+      "t": 204.6
+    },
+    {
+      "type": "page",
+      "name": "sales order card",
+      "t": 204.6
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 17.7,
+      "text": "an agent is a system that takes a few different elements into account to make a decision",
+      "why_it_matters": "Establishes the foundational concept that agents use multiple inputs to decide their actions rather than operating on single criteria.",
+      "check": "exact"
+    },
+    {
+      "t": 28.2,
+      "text": "The first of them is the instructions which is the blueprint how the agent works and what its purpose is",
+      "why_it_matters": "Clarifies that instructions are the core component defining agent behavior and goals.",
+      "check": "exact"
+    },
+    {
+      "t": 122.7,
+      "text": "the agent is telling me it can't proceed with the task because there is a risk field that is it is supposed to fill",
+      "why_it_matters": "Demonstrates a real troubleshooting scenario showing how agents request assistance when they cannot find expected fields.",
+      "check": "exact"
+    },
+    {
+      "t": 165.4,
+      "text": "If I click on view details uh I get uh a lot of insight into what exactly went into the decision of the agent",
+      "why_it_matters": "Shows that the view details feature is the key tool for diagnosing agent issues by exposing the decision-making process.",
+      "check": "exact"
+    },
+    {
+      "t": 190.7,
+      "text": "I see a textual view of what the agent sees as well. So, uh I can understand exactly what things it can take into",
+      "why_it_matters": "Explains how the agent perception view helps users understand what the agent can and cannot see on a page.",
+      "check": "exact"
+    },
+    {
+      "t": 278.6,
+      "text": "This section uh gives you the ability to see what capabilities the agent could use at a specific point",
+      "why_it_matters": "Indicates that tool visibility is crucial for understanding what actions an agent can perform and for designing instructions.",
+      "check": "exact"
+    },
+    {
+      "t": 363.3,
+      "text": "we can answer what was on a page, what the properties of the elements were on this page",
+      "why_it_matters": "Summarizes the key troubleshooting capabilities that help users diagnose agent configuration and behavior issues.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023503
+    }
+  ]
+}

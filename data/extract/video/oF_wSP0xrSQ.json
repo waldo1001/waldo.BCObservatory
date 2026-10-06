@@ -1,0 +1,301 @@
+{
+  "video_id": "oF_wSP0xrSQ",
+  "item_id": "video/yt-bcmusings/oF_wSP0xrSQ",
+  "title": "I Built an AI That Turns Business Central Telemetry Into GitHub Issues (Automatically)",
+  "duration_s": 1111,
+  "systems": [
+    "platform",
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "telemetry",
+    "application insights",
+    "kql queries",
+    "logic app",
+    "ai analysis",
+    "github integration",
+    "database locking",
+    "rt00002 events",
+    "blob storage",
+    "infrastructure as code",
+    "bicep",
+    "yaml"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview of telemetry triage tool",
+      "t_start": 0,
+      "t_end": 117.9
+    },
+    {
+      "title": "Solution architecture and GitHub issue generation",
+      "t_start": 117.9,
+      "t_end": 221.3
+    },
+    {
+      "title": "Video agenda and demo plan",
+      "t_start": 221.3,
+      "t_end": 290.5
+    },
+    {
+      "title": "Visual Studio Code demo - table, codeunit, and page",
+      "t_start": 290.5,
+      "t_end": 432.6
+    },
+    {
+      "title": "Application Insights telemetry logs",
+      "t_start": 432.6,
+      "t_end": 487
+    },
+    {
+      "title": "Logic app workflow and query",
+      "t_start": 487,
+      "t_end": 658.2
+    },
+    {
+      "title": "AI analysis and GitHub issue resolution",
+      "t_start": 658.2,
+      "t_end": 754.9
+    },
+    {
+      "title": "Blob storage watermark for tracking",
+      "t_start": 754.9,
+      "t_end": 803.1
+    },
+    {
+      "title": "GitHub labels and API integration",
+      "t_start": 803.1,
+      "t_end": 926.2
+    },
+    {
+      "title": "Infrastructure as code and expanding the solution",
+      "t_start": 926.2,
+      "t_end": 1111
+    }
+  ],
+  "features": [
+    {
+      "name": "Automated BC telemetry triage with Azure Logic App and AI",
+      "description": "A tool that runs daily to capture Business Central telemetry events from Application Insights, analyzes them using AI, and automatically generates GitHub issues with root cause analysis and resolutions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.2,
+      "t_end": 1074.2,
+      "is_demoed": true,
+      "caveats": [
+        "Demo focuses on RT00002 event type but can be expanded to other events",
+        "Requires setup of Azure services and GitHub repository access"
+      ],
+      "tags": [
+        "telemetry",
+        "automation",
+        "ai",
+        "logic app",
+        "github"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "KQL query for database lock timeouts",
+      "description": "A Kusto Query Language query that retrieves traces from Application Insights where the event ID is RT00002 to identify database locking timeout events.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 44.4,
+      "t_end": 103.5,
+      "is_demoed": true,
+      "caveats": [
+        "Specific to RT00002 event type",
+        "Can be extended to multiple event types"
+      ],
+      "tags": [
+        "kql",
+        "application insights",
+        "database locking"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub issue generation from telemetry",
+      "description": "The logic app generates GitHub issues containing the event details, AI-determined root cause analysis, and actionable resolutions based on telemetry data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 129.4,
+      "t_end": 191.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires GitHub repository access",
+        "Depends on AI prompt configuration"
+      ],
+      "tags": [
+        "github",
+        "issue creation",
+        "ai analysis"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI-powered root cause analysis",
+      "description": "An AI tool that analyzes telemetry events and GitHub repository content to determine root causes and provide actionable fixes for database performance issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 165.8,
+      "t_end": 713.7,
+      "is_demoed": true,
+      "caveats": [
+        "Prompt engineering required for optimal results",
+        "Focuses on database performance and locking issues"
+      ],
+      "tags": [
+        "ai",
+        "telemetry analysis",
+        "resolution"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Blob storage watermark for incremental runs",
+      "description": "A text file stored in Azure Blob Storage that tracks the last successful run time of the logic app, enabling incremental KQL queries to avoid re-processing historical data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 270.2,
+      "t_end": 803.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Azure Storage Account setup",
+        "Manual initialization needed if file does not exist"
+      ],
+      "tags": [
+        "blob storage",
+        "watermark",
+        "incremental processing"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub REST API for issue and label creation",
+      "description": "Uses GitHub REST API endpoints to programmatically create issues and labels in a repository, including setting custom colors and names for telemetry-related labels.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 555.5,
+      "t_end": 926.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires GitHub authentication and API access",
+        "Labels must be pre-configured or created via API"
+      ],
+      "tags": [
+        "github api",
+        "automation",
+        "labels"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Infrastructure as Code with Bicep and YAML",
+      "description": "Azure services like Logic App, Application Insights, and Blob Storage can be exported and deployed using Bicep or YAML templates for infrastructure automation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 943.6,
+      "t_end": 1003,
+      "is_demoed": false,
+      "caveats": [
+        "Requires knowledge of Bicep or YAML syntax",
+        "Deployment via Azure CLI"
+      ],
+      "tags": [
+        "infrastructure as code",
+        "bicep",
+        "yaml",
+        "automation"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Table",
+      "t": 310.6
+    },
+    {
+      "type": "codeunit",
+      "name": "Codeunit",
+      "t": 310.6
+    },
+    {
+      "type": "page",
+      "name": "Page",
+      "t": 310.6
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 10.6,
+      "text": "this is an automated BC telemetry triage with Azure logic app and AI",
+      "why_it_matters": "Clearly states what the tool is - an automated solution combining Azure services and AI for telemetry analysis",
+      "check": "exact"
+    },
+    {
+      "t": 23.5,
+      "text": "when something uh bad happens in BC uh the platform or your uh custom code will trigger an event um and uh the event",
+      "why_it_matters": "Explains the fundamental mechanism of Business Central telemetry - events are automatically captured in Application Insights",
+      "check": "exact"
+    },
+    {
+      "t": 140.4,
+      "text": "The automation is based on logic app. Logo runs once a day. It looks for certain events.",
+      "why_it_matters": "Establishes the frequency and automation basis - daily execution with targeted event filtering",
+      "check": "exact"
+    },
+    {
+      "t": 165.8,
+      "text": "the AI tool has also access to the GitHub repository. With those two things, the AI tool can um determine a resolution",
+      "why_it_matters": "Describes how the AI combines two data sources - telemetry events and code context - to generate solutions",
+      "check": "exact"
+    },
+    {
+      "t": 270.2,
+      "text": "capturing the last time when the logic app was run",
+      "why_it_matters": "Explains the watermark mechanism that enables efficient incremental processing without re-analyzing historical data",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1035,
+      "text": "This logic app only looks at the uh RP000012 but we can easily expand it to um to many other events",
+      "why_it_matters": "Indicates the solution is extensible beyond the RT00002 event type demonstrated, supporting multiple event types",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

@@ -1,0 +1,677 @@
+{
+  "video_id": "LuAHCXiwYn4",
+  "item_id": "video/yt-stefanmaron/LuAHCXiwYn4",
+  "title": "Swappable Claude Profiles: Per-Project Configs via Container Mounting (Part 3)",
+  "duration_s": 2461,
+  "systems": [
+    "development",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "container mounting",
+    "claude profiles",
+    "agent configuration",
+    "al development setup",
+    "project-scoped settings",
+    "cloud code sandbox",
+    "docker containers",
+    "agent memory",
+    "repository analysis",
+    "mcp server",
+    "telemetry configuration",
+    "skills"
+  ],
+  "chapters": [
+    {
+      "title": "Cloud code isolation with host folder mounting",
+      "t_start": 0,
+      "t_end": 280
+    },
+    {
+      "title": "Container setup and configuration",
+      "t_start": 280,
+      "t_end": 420
+    },
+    {
+      "title": "Project-scoped and reusable agent configurations",
+      "t_start": 420,
+      "t_end": 520
+    },
+    {
+      "title": "Creating a specialized AL repository summarizer agent",
+      "t_start": 520,
+      "t_end": 650
+    },
+    {
+      "title": "Agent memory and configuration exploration",
+      "t_start": 650,
+      "t_end": 884.2
+    },
+    {
+      "title": "Swapping projects with container mounting and authentication",
+      "t_start": 884.2,
+      "t_end": 1010.2
+    },
+    {
+      "title": "Telemetry configuration and folder-level customization",
+      "t_start": 1010.2,
+      "t_end": 1154.5
+    },
+    {
+      "title": "Plugin configuration and LSP navigation setup",
+      "t_start": 1154.5,
+      "t_end": 1390.6
+    },
+    {
+      "title": "Commands vs Skills: Modern agent skills framework",
+      "t_start": 1390.6,
+      "t_end": 1679.4
+    },
+    {
+      "title": "Configuring skill documentation and testing",
+      "t_start": 1679.4,
+      "t_end": 1943.5
+    },
+    {
+      "title": "Supporting files, sub-agents and custom agent configuration",
+      "t_start": 1943.5,
+      "t_end": 2204.2
+    },
+    {
+      "title": "Rethinking AL development profile architecture and future work",
+      "t_start": 2204.2,
+      "t_end": 2378.6
+    },
+    {
+      "title": "General readiness, issue reporting and closing remarks",
+      "t_start": 2378.6,
+      "t_end": 2461
+    }
+  ],
+  "features": [
+    {
+      "name": "Host folder mounting for cloud configuration",
+      "description": "Instead of persisting cloud JSON in a Docker volume, configurations are persisted into a host config folder that can be mounted into containers for project-specific profiles.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 128.6,
+      "t_end": 280,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual folder setup",
+        "Sensitive credential information is cached in the host folder"
+      ],
+      "tags": [
+        "container",
+        "docker",
+        "configuration",
+        "profile",
+        "mounting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Project-scoped agent creation",
+      "description": "Users can create agents that are scoped to specific projects and stored in project-specific directories rather than globally, allowing different agents for different contexts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 467.4,
+      "t_end": 565.3,
+      "is_demoed": true,
+      "caveats": [
+        "Agents command requires cloud code",
+        "Skills cannot be automatically defined in the same way"
+      ],
+      "tags": [
+        "agents",
+        "project-scoped",
+        "configuration",
+        "reusable"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AL repository summarizer agent",
+      "description": "A specialized agent that can be created to summarize AL repositories and provide human-readable overviews of AL project structures without reading every line of code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 504.8,
+      "t_end": 650,
+      "is_demoed": true,
+      "caveats": [
+        "Experimental use case",
+        "Effectiveness may vary"
+      ],
+      "tags": [
+        "agent",
+        "al development",
+        "repository analysis",
+        "summarization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent memory and automatic persistence",
+      "description": "Agents automatically create and persist memory files in user-specific directories, storing conversation history and context that can be reused across sessions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 591.8,
+      "t_end": 750,
+      "is_demoed": true,
+      "caveats": [
+        "Memory files may contain sensitive information",
+        "Requires manual exploration to understand structure"
+      ],
+      "tags": [
+        "agent memory",
+        "persistence",
+        "context",
+        "auto-save"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Cloud code voice mode",
+      "description": "Voice mode support for cloud code interactions, though the presenter notes it does not appear to be working in their current environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 538,
+      "t_end": 565.3,
+      "is_demoed": false,
+      "caveats": [
+        "Non-functional in presenter's environment",
+        "Availability status uncertain"
+      ],
+      "tags": [
+        "voice",
+        "accessibility",
+        "experimental"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Repository Summarizer Tool",
+      "description": "An automatically-generated tool that summarizes repository information, though the speaker notes that skills cannot be automatically defined unlike this tool.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 836.9,
+      "t_end": 858,
+      "is_demoed": true,
+      "caveats": [
+        "Skills cannot be automatically defined",
+        "Cannot do the same for skills"
+      ],
+      "tags": [
+        "summarizer",
+        "repo",
+        "mcp"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Container-based project switching with cloud code",
+      "description": "Ability to mount different folders as projects and connect to different projects using cloud code with separate authentication and credential management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 884.2,
+      "t_end": 963.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires re-authentication when switching projects",
+        "Behavior of running with different authentications unclear"
+      ],
+      "tags": [
+        "container",
+        "mounting",
+        "project switching",
+        "cloud code"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Per-folder MCP server configuration",
+      "description": "Ability to load MCP servers like Waldo's telemetry MCP server into any folder structure with folder-specific settings and instructions without needing to care about AL-specific instructions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 996.3,
+      "t_end": 1049.1,
+      "is_demoed": true,
+      "caveats": [
+        "Currently using dedicated telemetry folder across all projects",
+        "Requires manual setup per folder"
+      ],
+      "tags": [
+        "mcp",
+        "telemetry",
+        "folder configuration",
+        "agent"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "LSP code navigation plugin",
+      "description": "A plugin from Corpin Le that enables code navigation and related features, configurable via environment variables in container configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1154.5,
+      "t_end": 1390.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires environment variable setup",
+        "LSP tool must be enabled globally",
+        "Marketplace linking and cloning requires manual setup or external GitHub connection",
+        "Had issues with GitHub access restrictions in container"
+      ],
+      "tags": [
+        "lsp",
+        "navigation",
+        "plugin",
+        "code editor"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Skills framework for AI development",
+      "description": "Modern replacement for the legacy commands approach using agent skills standard, supporting markdown-based skill definitions that can run in isolated sub-processes with automatic model invocation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1444,
+      "t_end": 1679.4,
+      "is_demoed": true,
+      "caveats": [
+        "Commands are the legacy approach",
+        "No built-in skill generator",
+        "Model invocation can be disabled"
+      ],
+      "tags": [
+        "skills",
+        "agents",
+        "markdown",
+        "al development",
+        "commands"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Skill context configuration",
+      "description": "Skills can be configured with context options that can be set to either omitted or fork mode. Context configuration affects how tools are restricted and available to skills.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1744,
+      "t_end": 1820.6,
+      "is_demoed": true,
+      "caveats": [
+        "Context options behavior may be counterintuitive"
+      ],
+      "tags": [
+        "skill configuration",
+        "context",
+        "tool access"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Supporting files in skills",
+      "description": "Skills can include supporting files and helper scripts beyond the main skill markdown file. This allows utility scripts and user-invocable functions to be organized without cluttering slash commands.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1996.9,
+      "t_end": 2080,
+      "is_demoed": true,
+      "caveats": [
+        "Requires proper organization to maintain focus"
+      ],
+      "tags": [
+        "supporting files",
+        "skill organization",
+        "helper scripts"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sub-agents for skills",
+      "description": "Skills can be configured to use dedicated custom sub-agents for execution. When the main Claude session runs a skill, it automatically uses the sub-agent defined within the skill configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2112.9,
+      "t_end": 2204.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires careful specification of skill documentation versus sub-agent instructions",
+        "Architecture complexity increases with this approach"
+      ],
+      "tags": [
+        "sub-agents",
+        "custom agents",
+        "skill execution"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Commands to skills migration pattern",
+      "description": "Existing AL development profiles that used sub-agents and commands can be refactored to use skills instead. This changes the architecture as skills can now be pre-configured with sub-agent usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2240.7,
+      "t_end": 2319.7,
+      "is_demoed": false,
+      "caveats": [
+        "Requires rethinking profile architecture",
+        "Needs clarification on skill documentation versus sub-agent instructions boundaries"
+      ],
+      "tags": [
+        "migration",
+        "al development",
+        "profile architecture"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Swappable Claude profiles per project via container mounting",
+      "description": "A container-based system allowing developers to configure and use swappable Claude profiles on a per-project basis through container mounting. The base container is considered stable and ready for general purpose usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2348.9,
+      "t_end": 2455.8,
+      "is_demoed": false,
+      "caveats": [
+        "Some known issues with marketplace functionality remain",
+        "Users may encounter problems requiring issue reporting",
+        "Container base will not change much but is subject to fixes"
+      ],
+      "tags": [
+        "container",
+        "docker",
+        "profiles",
+        "configuration",
+        "al development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GitHub issue reporting for container problems",
+      "description": "Users can report problems and issues found in the container system by creating issues on the GitHub repository. The presenter commits to finding and fixing issues accordingly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2402.2,
+      "t_end": 2416.9,
+      "is_demoed": false,
+      "caveats": [
+        "Marketplace functionality has known issues"
+      ],
+      "tags": [
+        "issue tracking",
+        "github",
+        "support",
+        "container"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "cloud.markdown",
+      "t": 165.1
+    },
+    {
+      "type": "other",
+      "name": "AL repo summarizer",
+      "t": 591.8
+    },
+    {
+      "type": "other",
+      "name": "MCP service",
+      "t": 874.5
+    },
+    {
+      "type": "other",
+      "name": "Waldo's MCP server",
+      "t": 996.3
+    },
+    {
+      "type": "other",
+      "name": "Corpin Le's plugin",
+      "t": 1154.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Unknown presenter",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 140.2,
+      "text": "in its own volume basically we persisted into into a host config folder",
+      "why_it_matters": "Explains the key architectural change enabling reusable, project-specific configurations through host folder mounting instead of container volumes.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 247.8,
+      "text": "We pass in the cloud AO development folder as the cloud main folder inside the container",
+      "why_it_matters": "Describes how the configuration folder is mounted into the container at runtime, enabling profile swapping.",
+      "check": "exact"
+    },
+    {
+      "t": 420,
+      "text": "I can have differently prepared user directories somewhere. It doesn't have to be home. You can have it wherever you want on disk",
+      "why_it_matters": "Shows flexibility in storing project-specific profiles and configurations across the filesystem.",
+      "check": "exact"
+    },
+    {
+      "t": 504.8,
+      "text": "create an agent that's uh specialized in uh summarizing AL repositories to give a general overview over this that is human readable",
+      "why_it_matters": "Demonstrates capability to create domain-specific agents for AL development tasks.",
+      "check": "exact"
+    },
+    {
+      "t": 538,
+      "text": "I don't know if it's general availability now or my user account has been enabled for the voice mode but it seems to not",
+      "why_it_matters": "Indicates uncertain status of cloud code voice mode functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 608.6,
+      "text": "it saved it automatically into the ALS specific user directory. Isn't that cool?",
+      "why_it_matters": "Shows agent configurations and memory are automatically persisted to project-scoped directories.",
+      "check": "exact"
+    },
+    {
+      "t": 848,
+      "text": "Skills cannot be automatically defined. A little bit annoying.",
+      "why_it_matters": "Establishes a key limitation compared to the repository summarizer tool which can be auto-generated.",
+      "check": "exact"
+    },
+    {
+      "t": 947,
+      "text": "it will save credentials, but so you can also run this with different authentications theoretically if you wanted to",
+      "why_it_matters": "Describes a capability for managing different project authentications within the same container setup.",
+      "check": "exact"
+    },
+    {
+      "t": 1023.4,
+      "text": "I can load the telemetry agent basically if you want to call it like this. I I guess it is a telemetry agent into",
+      "why_it_matters": "Shows the flexibility of per-project MCP server configuration without folder-specific constraints.",
+      "check": "exact"
+    },
+    {
+      "t": 1493.3,
+      "text": "Commands are the legacy approach. Simple markdown files content skills are the modern replacement following agent skills.",
+      "why_it_matters": "Clearly defines the status and relationship between commands and skills, establishing skills as the current standard.",
+      "check": "exact"
+    },
+    {
+      "t": 1552.7,
+      "text": "when when I write a skill, my model can automatically uh load them and run them. So that's much better than the commands.",
+      "why_it_matters": "Highlights a key advantage of skills over commands: automatic model invocation capability.",
+      "check": "exact"
+    },
+    {
+      "t": 1597.5,
+      "text": "the number of skills that we would want to create is probably quite significant",
+      "why_it_matters": "Indicates the scope and effort required for building a comprehensive AI development profile with skills",
+      "check": "exact"
+    },
+    {
+      "t": 1679.4,
+      "text": "No, there is no built-in skill generator.",
+      "why_it_matters": "Establishes a current limitation: skills must be created manually without automated generation tools.",
+      "check": "exact"
+    },
+    {
+      "t": 1679.4,
+      "text": "there is no built-in skill generator",
+      "why_it_matters": "States a clear limitation - skills must be created and configured manually without automated generation tools",
+      "check": "exact"
+    },
+    {
+      "t": 1789.4,
+      "text": "context is either omitted or fork. So, we can just remove context and set this to on it.",
+      "why_it_matters": "Describes the context configuration options available for controlling tool access in skills",
+      "check": "exact"
+    },
+    {
+      "t": 2027.8,
+      "text": "multiple fights in directory. This keeps the skill MD focused essentially while even helper scripts.",
+      "why_it_matters": "Explains the organizational pattern for structuring skills with supporting files and helper utilities",
+      "check": "exact"
+    },
+    {
+      "t": 2175.4,
+      "text": "so when when the main session of god code runs the the skill it then",
+      "why_it_matters": "Clarifies how skills can be automatically routed to custom sub-agents for specialized execution",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2267,
+      "text": "if I have skills instead of commands that are already defined to use sub agents correctly then this changes the picture a little bit",
+      "why_it_matters": "Demonstrates how the shift from commands to skills fundamentally alters the architecture of AI development profiles",
+      "check": "exact"
+    },
+    {
+      "t": 2378.6,
+      "text": "now I think this should be ready for uh for general uh purpose and for usage",
+      "why_it_matters": "Indicates the container-based configuration approach is now ready for general adoption by users",
+      "check": "exact"
+    },
+    {
+      "t": 2391.8,
+      "text": "You can get started building your profile. I think the base of of that uh container will not uh change anymore that much at",
+      "why_it_matters": "Signals API stability: the base container architecture is considered stable enough for users to build on.",
+      "check": "exact"
+    },
+    {
+      "t": 2402.2,
+      "text": "if you have problems, if you find problems like the marketplace stuff and other things, uh, just create issues on the on the GitHub",
+      "why_it_matters": "Provides the official support mechanism and acknowledges known issues with marketplace functionality.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 538,
+      "kind": "other",
+      "text": "I don't know if it's general availability now or my user account has been enabled for the voice mode"
+    },
+    {
+      "t": 848,
+      "kind": "other",
+      "text": "Skills cannot be automatically defined"
+    },
+    {
+      "t": 1241.5,
+      "kind": "other",
+      "text": "We locked out GitHub completely but it will be cloned into here"
+    },
+    {
+      "t": 1493.3,
+      "kind": "other",
+      "text": "error compile isn't installed in the container"
+    },
+    {
+      "t": 1824.2,
+      "kind": "other",
+      "text": "There are always new features coming. which are really um which can be missed quite quickly."
+    },
+    {
+      "t": 2204.2,
+      "kind": "coming-later",
+      "text": "building that is probably taking more will take more longer than I want to be on stream for"
+    },
+    {
+      "t": 2402.2,
+      "kind": "subject-to-change",
+      "text": "the base of of that uh container will not uh change anymore that much at least"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 21,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 16
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0206961
+    }
+  ]
+}
