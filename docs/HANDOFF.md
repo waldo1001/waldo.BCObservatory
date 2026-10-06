@@ -87,6 +87,13 @@ Deliberate deviations from PLAN, all small:
 - M2 code pillar: tree-sitter-al extractor, 28/29 W1 + country overlays, docs↔objects via `ms.search.form`
   (1,146 pages, 2,152 ids already recorded), object hubs for the generated reference pages.
 
+## Execution notes (2026-10-06)
+
+- The executor runs `concurrency` items at once (`config/budget.json`, default 3; `--concurrency N`). yt-dlp
+  stages use the `youtube` lane: one item at a time, and a worker never waits on a busy lane (the item is parked and
+  comes back first), so caption fetches overlap LLM work. `--night-cap` / `--week-cap` override the caps for one run.
+- Background runs started from a Claude Code session die with the session; start long manual runs with `nohup`.
+
 ## Facts you will need
 
 - Pushes made with `GITHUB_TOKEN` never trigger other workflows. The nightly's commits therefore reach Pages through

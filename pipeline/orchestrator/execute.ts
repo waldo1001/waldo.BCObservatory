@@ -11,6 +11,8 @@
  * - `concurrency` workers share the plan (quota charging is synchronous, so it cannot race). An item in a batch in
  *   flight is claimed and handed back for its next stages when the batch returns. Run-level checks happen before each
  *   call starts, so a cap can be exceeded by at most the calls already in flight.
+ * - Lanes: a handler with `lane` (yt-dlp: "youtube") runs one item at a time. A worker never waits on a busy lane:
+ *   the item is parked and comes back first when the lane frees, so caption fetches overlap LLM work.
  */
 import type { Budget, SourceDef } from "../lib/config.js";
 import { decideGuard, type GuardDecision, type PlanUsage, type PlanUsageUnavailable } from "../lib/budget.js";
@@ -49,10 +51,11 @@ export type BatchFn = (items: ManifestItem[], ctx: StageContext) => Promise<Map<
  * declines never compete for quota.
  */
 export type StageHandler = StageFn
-  | { accepts?: (item: ManifestItem) => boolean; run: StageFn }
-  | { accepts?: (item: ManifestItem) => boolean; batch: { size: number; run: BatchFn } };
+  | { accepts?: (item: ManifestItem) => boolean; run: StageFn; lane?: string }
+  | { accepts?: (item: ManifestItem) => boolean; batch: { size: number; run: BatchFn }; lane?: string };
 export type StageHandlers = Partial<Record<Pillar, Partial<Record<Stage, StageHandler>>>>;
-export interface ResolvedHandler { run?: StageFn; batch?: { size: number; run: BatchFn } }
+/** `lane`: at most one item runs a stage of this lane at a time (e.g. "youtube"); other workers do other work. */
+export interface ResolvedHandler { run?: StageFn; batch?: { size: number; run: BatchFn }; lane?: string }
 
 /** The handler that would run this item's next stage, or null (no handler, or it declines the item). */
 export function handlerFor(handlers: StageHandlers, item: ManifestItem): ResolvedHandler | null {
@@ -61,7 +64,8 @@ export function handlerFor(handlers: StageHandlers, item: ManifestItem): Resolve
   if (!h) return null;
   if (typeof h === "function") return { run: h };
   if (h.accepts && !h.accepts(item)) return null;
-  return "batch" in h ? { batch: h.batch } : { run: h.run };
+  const lane = h.lane ? { lane: h.lane } : {};
+  return "batch" in h ? { batch: h.batch, ...lane } : { run: h.run, ...lane };
 }
 
 export type StopReason = "done" | "hard-stop" | "llm-calls-max" | "spend-cap" | "guard-skip" | "aborted";
@@ -77,6 +81,8 @@ export interface ExecutionReport {
   no_handler: number;
   /** Items left untouched by StageHold (no attempt counted). */
   held: number;
+  /** Times an item was set aside because its lane (e.g. youtube) was busy; it ran later in the same run. */
+  parked: number;
   quota_charged: Record<string, number>;
   regards: { at_calls: number; decision: GuardDecision["decision"]; status: string }[];
   errors: string[];
@@ -120,7 +126,7 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
   const deadline = deadlineFor(o.started, o.budget.window);
   const r: ExecutionReport = {
     stop_reason: "done", deadline: deadline.toISOString(), items_touched: 0, stages_run: {}, advanced: 0, skipped: 0,
-    failed_attempts: 0, failed_final: 0, no_handler: 0, held: 0, quota_charged: {}, regards: [], errors: [],
+    failed_attempts: 0, failed_final: 0, no_handler: 0, held: 0, parked: 0, quota_charged: {}, regards: [], errors: [],
   };
   const every = o.budget.usage_guard.recheck_every_llm_calls;
   const callCount = o.callCount ?? (() => llmStats().calls);
@@ -201,6 +207,9 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
   const active = new Set<string>();
   /** Items already handed to a worker or claimed by a batch: the cursor never hands them out again. */
   const visited = new Set<string>();
+  /** Lanes in use, and items parked until their lane is free (they come back first through `requeue`). */
+  const laneBusy = new Set<string>();
+  const parked = new Map<string, string[]>();
   const nextId = (): string | null => {
     if (requeue.length) return requeue.shift()!;
     while (cursor < ids.length) {
@@ -216,10 +225,31 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
     let item: ManifestItem | null = o.manifest.get(id);
     if (!item) return;
     active.add(id);
+    let holding: string | null = null;
+    /** Free the lane this item holds and hand it to the first parked item, which runs next. */
+    const release = () => {
+      if (!holding) return;
+      laneBusy.delete(holding);
+      const waiting = parked.get(holding);
+      if (waiting?.length) requeue.unshift(waiting.shift()!);
+      holding = null;
+    };
     try {
       for (let stage: Stage | null = nextStage(item); item && stage && !stop; stage = item ? nextStage(item) : null) {
         const h = handlerFor(o.handlers, item);
         if (!h) { if (!touched.has(item.id)) r.no_handler++; break; }
+        if (h.lane !== holding) release(); // keep a lane across consecutive stages of the same lane
+        if (h.lane && holding !== h.lane) {
+          if (laneBusy.has(h.lane)) {
+            // never wait on a busy lane: park the item and let this worker do other work
+            if (!parked.has(h.lane)) parked.set(h.lane, []);
+            parked.get(h.lane)!.push(item.id);
+            r.parked++;
+            break;
+          }
+          laneBusy.add(h.lane);
+          holding = h.lane;
+        }
         const s = await runStop();
         if (s) { stop ??= s; break; }
         const q = quotaFor(item.pillar, stage);
@@ -256,6 +286,7 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
         item = mine;
       }
     } finally {
+      release();
       active.delete(id);
     }
   };

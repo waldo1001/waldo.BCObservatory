@@ -91,7 +91,7 @@
         "stop_reason": { "enum": ["done", "hard-stop", "llm-calls-max", "spend-cap", "guard-skip", "aborted"] },
         "deadline": { "type": "string", "format": "date-time" },
         "items_touched": { "type": "integer" }, "advanced": { "type": "integer" }, "skipped": { "type": "integer" },
-        "failed_attempts": { "type": "integer" }, "failed_final": { "type": "integer" }, "no_handler": { "type": "integer" }, "held": { "type": "integer" },
+        "failed_attempts": { "type": "integer" }, "failed_final": { "type": "integer" }, "no_handler": { "type": "integer" }, "held": { "type": "integer" }, "parked": { "type": "integer" },
         "stages_run": { "type": "object", "additionalProperties": { "type": "integer" } },
         "quota_charged": { "type": "object", "additionalProperties": { "type": "integer" } },
         "regards": { "type": "array", "items": { "type": "object", "required": ["at_calls", "decision", "status"] } },

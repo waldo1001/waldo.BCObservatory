@@ -24,6 +24,7 @@ const real: CaptionDeps = { meta: videoMeta, captions: fetchCaptions };
 export function fetchedHandler(deps: CaptionDeps = real): StageHandler {
   return {
     accepts: officialOnly,
+    lane: "youtube",
     run: async (item) => {
       let m: VideoMeta;
       try { m = await deps.meta(videoIdOf(item)); } catch (e) {
@@ -45,6 +46,7 @@ export function fetchedHandler(deps: CaptionDeps = real): StageHandler {
 export function captionedHandler(deps: CaptionDeps = real): StageHandler {
   return {
     accepts: officialOnly,
+    lane: "youtube",
     run: async (item, ctx) => {
       const track = item.meta?.captions_track as VideoMeta["captions"] | undefined;
       if (!track) return { skip: "no-captions" };

@@ -8,7 +8,7 @@ import { budget } from "../../pipeline/lib/config.js";
 import { LlmBudgetExhausted, LlmInfraError } from "../../pipeline/lib/llm.js";
 import { Manifest, type ManifestItem } from "../../pipeline/lib/manifest.js";
 import { planQueue } from "../../pipeline/lib/queue.js";
-import { deadlineFor, executePlan, StageHold, type ExecuteOptions, type StageHandler, type StageHandlers } from "../../pipeline/orchestrator/execute.js";
+import { deadlineFor, executePlan, StageHold, type ExecuteOptions, type StageFn, type StageHandler, type StageHandlers } from "../../pipeline/orchestrator/execute.js";
 
 const started = new Date("2026-10-07T00:00:00Z"); // 02:00 Brussels, inside the window
 const quotas = { captions: 10, video_extract: 10, opus_reviews: 10, llm_calls_max: 450 };
@@ -194,4 +194,47 @@ test("concurrency with batches: a claimed item is never started twice and contin
   assert.equal(new Set(flat).size, 7, "every item batched exactly once");
   for (let i = 1; i <= 7; i++) assert.equal(get(m, `VID${i}`).state, "captioned");
   assert.equal(r.stages_run["video:captioned"], 7);
+});
+
+test("lanes: one item in the youtube lane at a time while LLM stages keep the other workers busy", async () => {
+  const m = setup(6);
+  let lane = 0, lanePeak = 0, llm = 0, llmPeak = 0, llmDuringLane = 0;
+  const seen: string[] = [];
+  const yt: StageFn = async (it) => {
+    lane++; lanePeak = Math.max(lanePeak, lane); seen.push(`${it.id.slice(-4)}:${it.state}`);
+    await new Promise((r) => setTimeout(r, 15));
+    lane--;
+    return {};
+  };
+  const think: StageFn = async (it) => {
+    llm++; llmPeak = Math.max(llmPeak, llm); if (lane) llmDuringLane++; seen.push(`${it.id.slice(-4)}:${it.state}`);
+    await new Promise((r) => setTimeout(r, 5));
+    llm--;
+    return {};
+  };
+  // the newest items (VID6..VID4) need both youtube stages, as after a channel reconcile; VID3..VID1 only need LLM work
+  for (const k of ["VID3", "VID2", "VID1"]) m.save({ ...get(m, k), state: "captioned", stages: { ...get(m, k).stages, fetched: { at: "2026-10-06T00:00:00Z" }, captioned: { at: "2026-10-06T00:00:00Z" } } });
+  const h: StageHandlers = { video: {
+    fetched: { lane: "youtube", run: yt }, captioned: { lane: "youtube", run: yt },
+    extracted: think, summarized: think, linked: ok, published: ok,
+  } };
+  const r = await run(m, h, { concurrency: 3 });
+  assert.equal(lanePeak, 1, "never two items in the youtube lane");
+  assert.ok(llmDuringLane > 0, "LLM stages ran while a caption fetch was in flight");
+  assert.ok(llmPeak >= 2, "other workers kept doing LLM work in parallel");
+  for (let i = 1; i <= 6; i++) assert.equal(get(m, `VID${i}`).state, "published", `VID${i} finished in the same run`);
+  assert.equal(new Set(seen).size, seen.length, "no stage ran twice");
+  assert.equal(seen.filter((s) => s.endsWith(":discovered")).length, 3);
+  assert.equal(seen.filter((s) => s.endsWith(":fetched")).length, 3, "an item keeps the lane from fetched to captioned");
+  assert.equal(r.quota_charged.captions, 3);
+  assert.ok(r.parked >= 1);
+});
+
+test("lanes: concurrency 1 runs everything in plan order without parking", async () => {
+  const m = setup(3);
+  const order: string[] = [];
+  const rec: StageFn = async (it) => { order.push(`${it.id.slice(-4)}:${it.state}`); return {}; };
+  const r = await run(m, { video: { fetched: { lane: "youtube", run: rec }, captioned: { lane: "youtube", run: rec } } }, { concurrency: 1 });
+  assert.deepEqual(order, ["VID3:discovered", "VID3:fetched", "VID2:discovered", "VID2:fetched", "VID1:discovered", "VID1:fetched"]);
+  assert.equal(r.parked, 0);
 });
