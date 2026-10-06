@@ -99,8 +99,9 @@ Deliberate deviations from PLAN, all small:
   run Claude Design with docs/brief/PROMPT-design.md, put tokens.json + HANDOFF.md in design/. Then the Astro UI.
   Source footprints and coverage heatmap done (D39).
 - M4 weekly digest + RSS done (D36).
-- M4 MCP server + plugin done (D35). npm: publish workflow ready (D40); waiting on the owner to add the trusted
-  publisher on npmjs.com and dispatch `publish-mcp`. Announcement drafts: docs/announcement/v0.1-draft.md.
+- M4 MCP server + plugin done (D35). npm: bc-observatory@0.1.0 published 2026-10-06 (first publish by
+  hand, `npx bc-observatory` verified from the registry). Later releases: bump packages/mcp/package.json and dispatch
+  `publish-mcp` (trusted publisher, D40; it needs "Allow npm publish" ticked on npmjs.com). Announcement drafts: docs/announcement/v0.1-draft.md.
 - M3 blogs pillar done (D34): 601 discovered posts flow through fetched (vault) → extracted (Haiku) → published.
 - Catch-up mode until 2026-10-10 (D41): every scheduled run (00/06/12/18 UTC) is unlimited. To end it early, set
   `catch_up.until` to a past date in config/budget.json.

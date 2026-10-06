@@ -18,7 +18,7 @@ claude mcp add bc-observatory -- npx -y bc-observatory@latest      # MCP server 
 claude plugin marketplace add waldo1001/waldo.BCObservatory          # Claude Code plugin: MCP + bc-lookup, bc-whats-new, bc-localization
 ```
 
-Until the npm package is published, run the server from a checkout:
+To run the server from a checkout instead:
 `claude mcp add bc-observatory -- env BC_OBSERVATORY_LOCAL=$PWD node --import tsx packages/mcp/src/server.ts`.
 Without any install: [`llms.txt`](https://waldo1001.github.io/waldo.BCObservatory/llms.txt), GitMCP and DeepWiki (badges above).
 
