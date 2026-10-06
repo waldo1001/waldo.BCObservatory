@@ -301,3 +301,16 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   catch-up before). `npm run narrate:localization -- --country be` samples one country into a temp copy. Why: the
   owner asked for an overview of what a localization changes, where, why, and a way into the code behind it; the
   deterministic tables showed the where, not the what or why.
+- **D51 Leak provenance, the post guard covers quotes, and relations stream.** Three fixes to the failure of the
+  2026-10-06 21:15 unlimited run (OOM, then the recovery gate refusing to commit). (a) The shingle scan now reasons
+  about provenance: files generated from Microsoft's AL code alone (`data/code/`, `content/objects/`) are not
+  scanned, because a blogger quoting an AL signature shares words with an extractor that never reads a post, and a
+  run that also appears in official text the repo holds (the newest roadmap snapshot, Learn's page descriptions in
+  the docs manifest) is counted as `official_runs` instead of reported. The official index is built only when a hit
+  occurs, so a clean run pays nothing; every policy check still applies to every file. (b) Post extraction guards
+  the whole extraction including quotes: a quote's text is already at most 24 words, but `why_it_matters` was free
+  text that could copy the post, and fields that are short on their own can repeat a long run once serialized side
+  by side; an extraction that still repeats after trimming is skipped (`StillRepeats`), like the video guard.
+  (c) `buildRelations` (D45) held both snapshots of a major in memory, about a gigabyte per major, and was what
+  exhausted the 8 GB heap in the post-pass; it now streams each snapshot twice (index pass, edge pass) keeping only
+  a slim index entry per object: 308 MB peak and 2.2 s for BC28-30, same edges and subscriptions.

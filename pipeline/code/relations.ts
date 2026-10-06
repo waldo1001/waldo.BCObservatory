@@ -12,6 +12,9 @@
  * Resolution is by exact object type and name, the way AL itself refers to objects (D29: exact ids only, never a
  * guess): the same app first, then W1, then the other apps. The markdown object pages and the site read this file;
  * reverse lookups (referenced by, extended by) are built by the reader.
+ *
+ * Memory: the snapshots are streamed twice (an index pass, then an edge pass) and only a slim index entry per object
+ * is kept, so a major costs megabytes, not the gigabyte its objects would take held together (D51).
  */
 import { objectKey, type AlObject, type AlProcedure } from "./extract.js";
 
@@ -94,17 +97,22 @@ export function calcTarget(value: string): { name: string | null; clipped: boole
   return { name: m ? refName(m[1]) : null, clipped };
 }
 
-interface Indexed { key: string; app: string | null; w1: boolean; obj: AlObject }
+/** What the resolver keeps per object: never the object itself, so a snapshot is not held in memory. */
+interface Indexed { key: string; app: string | null; w1: boolean }
+/** One snapshot of the major: W1 apps or the first-party apps. `objects()` is re-read for each pass. */
+export interface RelationPart { w1: boolean; objects: () => Iterable<AlObject> }
 
-/** Build the relations of one major from its objects. `isW1` tells W1 apps (Base, System, Business Foundation) from first-party apps. */
-export function buildRelations(major: string, objects: AlObject[], isW1: (o: AlObject) => boolean): Relations {
+/** Build the relations of one major by streaming its snapshots twice: an index pass, then an edge pass. */
+export function buildRelations(major: string, parts: RelationPart[]): Relations {
   const byName = new Map<string, Indexed[]>();
   const byId = new Map<string, Indexed>();
-  const all: Indexed[] = objects.map((o) => ({ key: objectKey(o), app: o.app, w1: isW1(o), obj: o }));
-  for (const x of all) {
-    const k = `${x.obj.type}|${x.obj.name.toLowerCase()}`;
-    byName.set(k, [...(byName.get(k) ?? []), x]);
-    byId.set(x.key, x);
+  for (const part of parts) {
+    for (const o of part.objects()) {
+      const x: Indexed = { key: objectKey(o), app: o.app, w1: part.w1 };
+      const k = `${o.type}|${o.name.toLowerCase()}`;
+      byName.set(k, [...(byName.get(k) ?? []), x]);
+      byId.set(x.key, x);
+    }
   }
   const edges: RelEdge[] = [];
   const unresolved: Unresolved[] = [];
@@ -139,8 +147,8 @@ export function buildRelations(major: string, objects: AlObject[], isW1: (o: AlO
     edge(from, "page", raw, name, k);
   };
 
-  for (const x of all) {
-    const o = x.obj;
+  for (const part of parts) for (const o of part.objects()) {
+    const x: Indexed = { key: objectKey(o), app: o.app, w1: part.w1 };
     if (o.type === "table" || o.type === "tableextension") {
       for (const f of o.fields) {
         const tr = f.properties.TableRelation;
@@ -172,10 +180,11 @@ export function buildRelations(major: string, objects: AlObject[], isW1: (o: AlO
     const ev = (events[key] ??= {});
     return (ev[name] ??= { kind, obsolete: p?.obsolete ? `${p.obsolete.state}${p.obsolete.tag ? ` ${p.obsolete.tag}` : ""}` : null, subs: [] });
   };
-  for (const x of all) for (const p of x.obj.procedures) if (p.event && p.event !== "subscriber") publish(x.key, p.name, p.event, p);
-  for (const x of all) for (const p of x.obj.procedures) {
+  for (const part of parts) for (const o of part.objects()) for (const p of o.procedures) if (p.event && p.event !== "subscriber") publish(objectKey(o), p.name, p.event, p);
+  for (const part of parts) for (const o of part.objects()) for (const p of o.procedures) {
     const s = p.subscribes_to;
     if (!s) continue;
+    const x: Indexed = { key: objectKey(o), app: o.app, w1: part.w1 };
     const type = s.object_type.toLowerCase();
     const r = resolve(x, type, refName(s.object_name) ?? s.object_name);
     if ("reason" in r) { note({ s: x.key, k: "subscribes", raw: `${s.object_type} "${s.object_name}" ${s.event}`, reason: r.reason }); continue; }

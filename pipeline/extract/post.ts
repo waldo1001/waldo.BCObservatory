@@ -4,8 +4,9 @@
  * Posts go BATCH_SIZE per call up to CALL_CHARS (long posts are cut at CALL_CHARS: blog posts rarely exceed it, and a
  * post is summarized, not reproduced). Per post: agent-facing summary and key points, systems, topics, AL objects as
  * named, features, versions, language, and at most 3 quotes that must be verbatim in the post and under 25 words
- * (CONTENT-NOTICE.md). Community posts then pass the per-item guard: any field repeating 25+ words of the post is
- * trimmed to 20 (D33). One Haiku pass stands as the summary (no Sonnet pass per post, D34).
+ * (CONTENT-NOTICE.md). Community posts then pass the per-item guard: every field, quotes included, that repeats
+ * 25+ words of the post is trimmed to 20, and an extraction that still repeats a run is skipped (D33). One Haiku
+ * pass stands as the summary (no Sonnet pass per post, D34).
  */
 import { resolve } from "node:path";
 import { exists, readText, writeJson } from "../lib/fsx.js";
@@ -79,6 +80,11 @@ export function verbatimQuote(text: string, post: string): boolean {
   return ` ${leakWords(post).join(" ")} `.includes(` ${q.join(" ")} `);
 }
 
+/** The derived text still repeats a run of the post after trimming: the item is skipped, not retried (D33). */
+export class StillRepeats extends Error {
+  constructor(id: string) { super(`${id}: derived text still repeats 25+ words of the post after trimming`); this.name = "StillRepeats"; }
+}
+
 interface Unit { item: ManifestItem; key: string; text: string }
 export function postPrompt(units: Unit[]): string {
   const sys = taxonomy().systems.map((s) => `${s.id} (${s.label})`).join(", ");
@@ -129,9 +135,13 @@ export async function extractPosts(items: ManifestItem[], full: (source: string)
         llm: { model: res.meta.model, cached: res.cached, cost_usd: res.cached ? null : Number(((res.meta.cost_usd ?? 0) / call.length).toFixed(6)), posts_in_call: call.length },
       };
       if (!full(u.item.source)) {
-        const { quotes, ...rest } = x; // quotes are verbatim by design and already under the limit
-        const s = scrubRepeats(rest, repeatChecker(text));
-        x = { ...s.value, quotes, trimmed_for_policy: s.trimmed };
+        // the whole extraction, quotes included, like the video guard (D25/D33): a quote's own text is already at
+        // most QUOTE_MAX_WORDS so it is never trimmed, but `why_it_matters` is free text and used to slip through.
+        // The re-check on the serialized whole catches runs that only appear once the fields sit next to each other.
+        const check = repeatChecker(text);
+        const s = scrubRepeats(x, check);
+        if (check(JSON.stringify(s.value))) { results.set(u.item.id, new StillRepeats(u.item.id)); continue; }
+        x = { ...s.value, trimmed_for_policy: s.trimmed };
       }
       results.set(u.item.id, x);
     }
@@ -148,6 +158,7 @@ export function postExtractedHandler(fullText: (source: string) => boolean, llm:
         const out = new Map<string, StageResult | Error>();
         for (const item of items) {
           const x = res.get(item.id)!;
+          if (x instanceof StillRepeats) { out.set(item.id, { skip: "leak", data: { stage: "extracted" } }); continue; }
           if (x instanceof Error) { out.set(item.id, x); continue; }
           writeJson(postExtractionPath(ctx.dataDir, item), x);
           const { llm: _l, ...facts } = x;

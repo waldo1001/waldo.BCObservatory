@@ -15,6 +15,14 @@
  * The vault is required as soon as any community item has stored raw text (a captioned video or a fetched post);
  * before that a missing vault only skips the scan.
  *
+ * Provenance (D51): a run of words shared with a community post is only a leak when the file could have taken it
+ * from that post. Two cases where it could not, and the scan says so:
+ *   - files generated from Microsoft's code alone (data/code/, content/objects/): a blogger quoting an AL signature
+ *     shares words with the extractor's output, which never reads a post.
+ *   - runs that also appear in official text the repo holds (the roadmap snapshot, Learn's own page descriptions):
+ *     the blogger quoted Microsoft too. Checked only when a hit occurs, so a clean run pays nothing.
+ * The policy checks above apply to every file either way.
+ *
  * Incremental mode (`changedOnly`): only files that differ from HEAD (modified, staged or untracked) are scanned and
  * quote-checked; the nightly's checkpoint commits use it, because everything already committed passed an earlier
  * gate and a full scan of ~1 GB blocks the process for tens of seconds. The night's final commit scans everything.
@@ -34,7 +42,11 @@ const TEXT_EXT = new Set([".md", ".json", ".jsonl", ".txt", ".yaml", ".yml", ".h
 const MAX_FILE_BYTES = 50 * 1024 * 1024;
 
 export interface LeakFinding { kind: "vault-in-tree" | "llm-cache-in-tree" | "captions-location" | "quote-length" | "shingle" | "vault-missing"; path: string; detail: string }
-export interface LeakReport { files_scanned: number; shingles: number; raw_docs: number; vault: "scanned" | "missing" | "not-needed"; findings: LeakFinding[] }
+export interface LeakReport {
+  files_scanned: number; shingles: number; raw_docs: number; vault: "scanned" | "missing" | "not-needed"; findings: LeakFinding[];
+  /** Hits suppressed because the run is also in official text the repo holds (the post quoted Microsoft). */
+  official_runs: number;
+}
 
 /** Words as both sides see them: lowercase letters and digits, punctuation and markdown dropped, link text kept. */
 export function leakWords(s: string): string[] {
@@ -179,6 +191,33 @@ export function communityRawExpected(dataDir: string, sources: SourceDef[]): str
   return null;
 }
 
+/**
+ * Files generated only from Microsoft's AL code: the snapshots and everything derived from them, and the object
+ * pages rendered from those snapshots. No community text ever reaches these steps, so a shared run of words means
+ * the post quoted Microsoft's code. Indexing the code itself as official text would cost a gigabyte, hence by path.
+ */
+const OFFICIAL_ONLY = [/^data\/code\//, /^content\/objects\//];
+export const officialOnlyOutput = (rel: string) => OFFICIAL_ONLY.some((re) => re.test(rel));
+
+/** Official text the repo holds: the newest roadmap snapshot and Learn's own page descriptions (manifest meta). */
+export function readOfficialText(dataDir: string): string[] {
+  const out: string[] = [];
+  const snaps = resolve(dataDir, "roadmap", "snapshots");
+  const latest = existsSync(snaps) ? readdirSync(snaps).filter((f) => f.endsWith(".json")).sort().pop() : undefined;
+  if (latest) {
+    try {
+      for (const e of JSON.parse(readFileSync(join(snaps, latest), "utf8")).items ?? []) out.push(`${e.title ?? ""} ${e.description ?? ""}`);
+    } catch { /* a half-written snapshot is not official text */ }
+  }
+  for (const p of listFiles(resolve(dataDir, "manifest", "docs"), ".json")) {
+    try {
+      const d = JSON.parse(readFileSync(p, "utf8")).meta?.description;
+      if (typeof d === "string") out.push(d);
+    } catch { /* skip */ }
+  }
+  return out;
+}
+
 // ---------------------------------------------------------------------------------------------- the check
 
 /** Files that differ from HEAD (modified, staged, untracked-not-ignored, renamed targets), relative to repoDir. */
@@ -254,7 +293,7 @@ export function checkLeak(o: { repoDir: string; dataDir?: string; contentDir?: s
   }
 
   // shingles
-  const report: LeakReport = { files_scanned: 0, shingles: 0, raw_docs: 0, vault: "not-needed", findings };
+  const report: LeakReport = { files_scanned: 0, shingles: 0, raw_docs: 0, vault: "not-needed", findings, official_runs: 0 };
   if (o.policyOnly) return report; // PR CI: no vault there by design; the Mini's nightly gate runs the scan
   if (!existsSync(o.vaultDir)) {
     const why = communityRawExpected(dataDir, o.sources);
@@ -268,8 +307,10 @@ export function checkLeak(o: { repoDir: string; dataDir?: string; contentDir?: s
   docs.forEach((d, i) => forEachShingle(d.words, (k) => { if (!index.has(k)) index.set(k, i); }));
   report.shingles = index.size;
   if (!index.size) return report;
+  const hits: { f: string; run: string; doc: RawDoc; head: string }[] = [];
   for (const f of files) {
     if (f.startsWith("vault/") || !TEXT_EXT.has(extname(f).toLowerCase())) continue;
+    if (officialOnlyOutput(f)) continue; // generated from Microsoft's code alone: it cannot carry a post's words
     const abs = join(o.repoDir, f);
     if (statSync(abs).size > MAX_FILE_BYTES) continue;
     report.files_scanned++;
@@ -279,9 +320,17 @@ export function checkLeak(o: { repoDir: string; dataDir?: string; contentDir?: s
       if (di === undefined) return;
       const run = words.slice(start, start + SHINGLE).join(" ");
       if (!` ${docs[di].words.join(" ")} `.includes(` ${run} `)) return; // hash collision
-      findings.push({ kind: "shingle", path: f, detail: `${SHINGLE}+ consecutive words of ${docs[di].source}/${docs[di].key}: "${words.slice(start, start + 10).join(" ")} ..."` });
+      hits.push({ f, run, doc: docs[di], head: words.slice(start, start + 10).join(" ") });
       return true; // one finding per file is enough
     });
+  }
+  // a run the repo also holds as official text (roadmap, Learn descriptions) came from Microsoft, not from the post
+  if (hits.length) {
+    const official = ` ${readOfficialText(dataDir).map((t) => leakWords(t).join(" ")).join(" | ")} `;
+    for (const h of hits) {
+      if (official.includes(` ${h.run} `)) { report.official_runs++; continue; }
+      findings.push({ kind: "shingle", path: h.f, detail: `${SHINGLE}+ consecutive words of ${h.doc.source}/${h.doc.key}: "${h.head} ..."` });
+    }
   }
   return report;
 }

@@ -136,6 +136,25 @@ test("check:leak: the vault is required once community raw text exists", () => {
   assert.deepEqual(checkLeak({ repoDir: dir, vaultDir: missing, sources: SOURCES, policyOnly: true }).findings, [], "PR CI: policy checks only");
 });
 
+test("check:leak provenance: a run a post shares with Microsoft's code or roadmap is not a leak, elsewhere it is", () => {
+  const { dir, g, vault } = gitRepo();
+  const run = words(SHINGLE);
+  writeText(join(vault, "posts/yt-comm/1.md"), `intro ${run} outro`);
+  // the same run in three places: a post page (a real leak), an object page and a code snapshot (generated from
+  // Microsoft's AL code, which the blogger quoted), and a feature page whose words are in the roadmap snapshot
+  writeText(join(dir, "content/posts/yt-comm/1.md"), `# p\n\n${run}\n`);
+  writeText(join(dir, "content/objects/table/18.md"), `# Table 18\n\n${run}\n`);
+  writeText(join(dir, "data/code/29/w1/objects-table-1.jsonl"), `{"n":"${run}"}\n`);
+  const roadmapRun = words(SHINGLE, 500);
+  writeText(join(vault, "posts/yt-comm/2.md"), `quoting microsoft: ${roadmapRun}`);
+  writeJson(join(dir, "data/roadmap/snapshots/2026-10-06.json"), { items: [{ id: "1", title: "t", description: `blah ${roadmapRun} blah` }] });
+  writeText(join(dir, "content/features/1.md"), `# f\n\n${roadmapRun}\n`);
+  g("add", "-A");
+  const r = checkLeak({ repoDir: dir, vaultDir: vault, sources: SOURCES });
+  assert.deepEqual(r.findings.map((f) => `${f.kind} ${f.path}`).sort(), ["shingle content/posts/yt-comm/1.md"]);
+  assert.equal(r.official_runs, 2, "the feature page and the roadmap snapshot itself: suppressed, not dropped silently");
+});
+
 test("shingle hashing: every window of SHINGLE words, same key for the same words", () => {
   const keys: number[] = [];
   forEachShingle(leakWords(words(SHINGLE + 2)), (k) => { keys.push(k); });

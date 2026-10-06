@@ -60,6 +60,30 @@ test("extracted: one Haiku pass, quotes must be verbatim and short, community fi
   assert.equal(verbatimQuote("too short", text), false);
 });
 
+test("extracted: a quote's why_it_matters that copies the post is trimmed too; a whole extraction that still repeats is skipped", async () => {
+  const v = vault();
+  const text = `${BODY}. The new API page lets you post documents directly. ${BODY.replace(/word/g, "term")}`;
+  const it = item();
+  mkdirSync(join(postRawPath(it, v), ".."), { recursive: true });
+  writeFileSync(postRawPath(it, v), text);
+  const copied = BODY.split(" ").slice(0, 30).join(" ");
+  // the quote text stays under the limit, but "why it matters" copies 30 words of the post: it used to slip through
+  const llm: Llm = async <T>() => ({ output: { posts: [{ key: "p1", summary: "A short summary.", key_points: ["k"], systems: ["integration"], topics: ["api"], objects: [], features: [], versions: [], language: "en",
+    quotes: [{ text: "The new API page lets you post documents directly.", why_it_matters: copied }] }] } as T, cached: false, meta: { model: "claude-haiku-4-5", cost_usd: 0.01 } as any });
+  const c = (await extractPosts([it], () => false, llm)).get(it.id) as any;
+  assert.deepEqual(c.quotes.map((q: any) => q.text), ["The new API page lets you post documents directly."], "the verbatim quote itself is kept");
+  assert.ok(c.quotes[0].why_it_matters.endsWith(" ..."), `why_it_matters trimmed, got: ${c.quotes[0].why_it_matters}`);
+  assert.equal(c.trimmed_for_policy, 1);
+
+  // six key points of five words each: none is long enough to trim on its own, but side by side in the extraction
+  // they repeat 30 consecutive words of the post, so the item is skipped rather than published
+  const w = BODY.split(" ");
+  const chunks = Array.from({ length: 6 }, (_, i) => w.slice(i * 5, i * 5 + 5).join(" "));
+  const sliced: Llm = async <T>() => ({ output: { posts: [{ key: "p1", summary: "A short summary.", key_points: chunks, systems: [], topics: [], objects: [], features: [], versions: [], language: "en", quotes: [] }] } as T, cached: false, meta: { model: "claude-haiku-4-5", cost_usd: 0.01 } as any });
+  const skipped = (await extractPosts([it], () => false, sliced)).get(it.id);
+  assert.equal((skipped as Error).name, "StillRepeats");
+});
+
 test("published: a valid post page and the index", async () => {
   const root = mkdtempSync(join(tmpdir(), "bcobs-posts-"));
   const x = { item_id: "blog/kauffmann-nl/1234", url: "u", title: "t", source: "kauffmann-nl", published_at: "2026-10-01T08:00:00Z", words: 900, summary: "How to post documents through the new API.", key_points: ["Use the action"], systems: ["integration"], topics: ["api"], objects: [{ type: "page", name: "Sales Order" }], features: [], versions: ["29.0"], language: "en", quotes: [{ text: "The new API page lets you post documents directly.", why_it_matters: "core" }], trimmed_for_policy: 0, prompt_version: 1, llm: { model: "m", cached: false, cost_usd: 0.01, posts_in_call: 1 } };

@@ -61,7 +61,7 @@ table 50201 "Sales Header" { fields { field(1; Code; Code[10]) { } } }
 
 test("relations: TableRelation, CalcFormula, SourceTable, CardPage, TableNo and extends become edges; unknown names are reported", async () => {
   const objects = [...(await objs(BASE, "Base Application")), ...(await objs(APP, "Shopify Connector"))];
-  const rel = buildRelations("29", objects, (o) => o.app === "Base Application");
+  const rel = buildRelations("29", [{ w1: true, objects: () => objects.filter((o) => o.app === "Base Application") }, { w1: false, objects: () => objects.filter((o) => o.app !== "Base Application") }]);
   const e = (k: string) => rel.edges.filter((x) => x.k === k).map((x) => `${x.s}>${x.t}${x.via ? `:${x.via}` : ""}${x.cond ? "?" : ""}`);
   assert.deepEqual(e("table_relation"), ["table/18>table/225:City?", "table/18>table/9:Country/Region Code"]);
   assert.deepEqual(e("calc_formula"), ["table/18>table/21:Balance"]);
@@ -77,7 +77,7 @@ test("relations: TableRelation, CalcFormula, SourceTable, CardPage, TableNo and 
 
 test("relations: subscribers land on the published event, trigger events get their own entry, dead events are listed", async () => {
   const objects = [...(await objs(BASE, "Base Application")), ...(await objs(APP, "Shopify Connector"))];
-  const rel = buildRelations("29", objects, (o) => o.app === "Base Application");
+  const rel = buildRelations("29", [{ w1: true, objects: () => objects.filter((o) => o.app === "Base Application") }, { w1: false, objects: () => objects.filter((o) => o.app !== "Base Application") }]);
   const cust = rel.events["table/18"];
   assert.deepEqual(Object.keys(cust).sort(), ["OnAfterCopy", "OnAfterDeleteEvent", "OnNobodyCares"]);
   assert.deepEqual(cust.OnAfterCopy.subs, [{ s: "codeunit/50200", proc: "HandleCopy", app: "Shopify Connector" }]);

@@ -251,20 +251,22 @@ export function refreshCodeDerived(dataDir: string, majors: string[]): CodeDeriv
       run.country_diffs++;
       if (writeIfInputsChanged(resolve(root, "diffs", "country", `${m}-${cc}.json`), [mw.commit, mc.commit, mc.extractor, mc.absent ?? []], () => countryDiff(w1(m), readSnapshot(dataDir, m, cc), mc.absent ?? [], ref(m, "w1", mw), ref(m, cc, mc)))) run.written++;
     }
-    // relations between the objects of W1 + first-party apps (D45)
-    const ma = manifestOf(dataDir, m, APPS);
-    run.relations = (run.relations ?? 0) + 1;
-    if (writeIfInputsChanged(resolve(root, "relations", `${m}.json`), [mw.commit, mw.extractor, ma?.commit ?? null, ma?.extractor ?? null], () => {
-      const w1Objs = w1(m), appObjs = ma ? readSnapshot(dataDir, m, APPS) : [];
-      const w1Set = new Set(w1Objs);
-      return buildRelations(m, [...w1Objs, ...appObjs], (o) => w1Set.has(o));
-    })) run.written++;
     run.deprecations++;
     if (writeIfInputsChanged(resolve(root, "deprecations", `${m}.json`), [mw.commit, mw.extractor], () => {
       const list = deprecations(w1(m));
       const byTag: Record<string, number> = {};
       for (const d of list) byTag[d.tag ?? "untagged"] = (byTag[d.tag ?? "untagged"] ?? 0) + 1;
       return { major: m, count: list.length, by_tag: byTag, items: list };
+    })) run.written++;
+    // relations between the objects of W1 + first-party apps (D45)
+    const ma = manifestOf(dataDir, m, APPS);
+    run.relations = (run.relations ?? 0) + 1;
+    if (writeIfInputsChanged(resolve(root, "relations", `${m}.json`), [mw.commit, mw.extractor, ma?.commit ?? null, ma?.extractor ?? null], () => {
+      // streamed, never held: the two snapshots of a major are a gigabyte of objects in memory (D51)
+      cache.clear();
+      const parts = [{ w1: true, objects: () => iterSnapshot(dataDir, m, "w1") }];
+      if (ma) parts.push({ w1: false, objects: () => iterSnapshot(dataDir, m, APPS) });
+      return buildRelations(m, parts);
     })) run.written++;
   }
   // the matrix: every country at its newest major
