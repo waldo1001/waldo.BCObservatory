@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/demiliani-com/13761",
+  "url": "https://demiliani.com/2026/05/21/be-careful-with-visual-studio-code-extensions/",
+  "title": "Be careful with Visual Studio Code extensions…",
+  "source": "demiliani-com",
+  "published_at": "2026-05-21T06:50:51.000Z",
+  "words": 972,
+  "summary": "Visual Studio Code extensions run with full IDE privileges and pose security risks if compromised, as demonstrated by a malware-infected Nx Console extension that compromised GitHub. The post explains multiple strategies to control extension deployment, including allowlist policies, file system permissions, WDAC, private marketplaces, and Azure Artifacts.",
+  "key_points": [
+    "VS Code extensions are not sandboxed and have full access to the file system, terminal, and credential stores, making them security-critical targets.",
+    "Version 1.96+ introduces extensions.allowed policy enforceable via Group Policy to whitelist approved extensions and control auto-updates.",
+    "File system permissions via icacls and Windows Defender Application Control (WDAC) can block unauthorized .vsix file installations.",
+    "Private VS Code marketplace (for GitHub Enterprise) and Azure Artifacts provide controlled, private distribution channels for extensions.",
+    "Developer machines accumulate secrets and control the supply chain start, making them equally critical to production infrastructure security."
+  ],
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "security",
+    "vs code extensions",
+    "governance",
+    "developer tools",
+    "risk management"
+  ],
+  "objects": [],
+  "features": [
+    "extensions.allowed policy",
+    "extensions.autoUpdate setting",
+    "Private Marketplace",
+    "Azure Artifacts Universal Package",
+    "Windows Defender Application Control",
+    "icacls file permissions"
+  ],
+  "versions": [
+    "1.96"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006747,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "A compromised extension is just a Node.js process running inside a trusted application, with the same access rights as the developer.",
+      "why_it_matters": "Clarifies the attack mechanism: malware executes with full developer privileges, exploiting VS Code's trust model."
+    }
+  ]
+}

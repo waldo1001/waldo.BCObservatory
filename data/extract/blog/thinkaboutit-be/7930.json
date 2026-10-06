@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/thinkaboutit-be/7930",
+  "url": "https://thinkaboutit.be/2026/05/quick-tip-almost-every-bc-major-release-gets-paused-are-your-environments-ready/",
+  "title": "Quick Tip: Almost Every BC Major Release Gets Paused. Are Your Environments Ready?",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-05-20T13:20:48.000Z",
+  "words": 965,
+  "summary": "Business Central major release rollouts get paused frequently due to discovered issues, and this is normal process design since 2020. Environments already upgraded before a pause cannot be rolled back, but those not yet upgraded get rescheduled safely. Partners should schedule production updates late in the window, configure notification recipients, and test in sandboxes to manage the risk effectively.",
+  "key_points": [
+    "Rollout pauses have occurred with nearly every BC major release since BC17, including BC28, BC25, BC24, BC23, and BC22.",
+    "Environments upgraded before a pause remains on the new version with the issue, while unupgraded environments are held and rescheduled without losing time.",
+    "Common problems occur when partners schedule production early, skip notification configuration, or omit sandbox testing before the production update.",
+    "Configuring notification recipients and testing in sandbox copies beforehand are the key preventative practices available to partners."
+  ],
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "release management",
+    "update scheduling",
+    "rollout process",
+    "environment management",
+    "risk mitigation",
+    "notifications"
+  ],
+  "objects": [],
+  "features": [
+    "staged rollout",
+    "update postponement",
+    "admin center notifications",
+    "sandbox testing",
+    "update scheduling",
+    "notification recipients"
+  ],
+  "versions": [
+    "BC28",
+    "BC25",
+    "BC24",
+    "BC23",
+    "BC22",
+    "BC17"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005843,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The question is not whether a pause will happen, but whether your environments are in a good position when it does.",
+      "why_it_matters": "This frames the rollout pause as inevitable, shifting focus to preparation rather than prevention."
+    },
+    {
+      "text": "Environments already upgraded before the pause was called are not rolled back. They stay on the new version with whatever issue triggered the pause.",
+      "why_it_matters": "This is the critical risk: early adopters cannot be protected after a pause is declared, making scheduling timing essential."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/projects/al-pocket-tools/",
+  "url": "https://thatnavguy.com/projects/al-pocket-tools/",
+  "title": "AL Pocket Tools",
+  "source": "thatnavguy-com",
+  "published_at": "2026-05-21T00:00:00.000Z",
+  "words": 159,
+  "summary": "AL Pocket Tools is a VS Code extension that provides utilities for Dynamics 365 Business Central developers to streamline repetitive development tasks like managing app files, updating versions, and navigating code blocks.",
+  "key_points": [
+    "Collection of small utilities designed to reduce interruptions in AL development workflow",
+    "Features include cleaning old app files, managing alpackages, saving/loading launch.json, and updating versions",
+    "Includes navigation helpers for region blocks, report triggers, and pragma directives",
+    "Can refactor procedure visibility automatically",
+    "Lightweight tool designed not to affect performance"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "vs code extension",
+    "al development",
+    "developer tools",
+    "workflow optimization",
+    "code navigation"
+  ],
+  "objects": [],
+  "features": [
+    "cleaning app files",
+    "alpackages management",
+    "launch.json configuration",
+    "version updating",
+    "region block navigation",
+    "report trigger navigation",
+    "pragma navigation",
+    "procedure visibility refactoring"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004464,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "AL development involves many small tasks. None of them is too difficult, but they take time and constantly interrupt your flow.",
+      "why_it_matters": "Explains the problem the extension solves for developers"
+    },
+    {
+      "text": "It is a collection of utilities for Dynamics 365 Business Central developers working in AL.",
+      "why_it_matters": "Defines the purpose and scope of the tool"
+    },
+    {
+      "text": "It should be small, fast, and shouldn't affect the performance.",
+      "why_it_matters": "Establishes the design philosophy to keep the extension lightweight"
+    }
+  ]
+}

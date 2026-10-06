@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2026/05/19/%f0%9f%a7%a0-global-memory-for-your-vs-code-agent-preferences-that-follow-you/",
   "published_at": "2026-05-18T22:06:00.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:58:45.121Z",
+      "path": "vault:posts/gerardorenteria-blog/14663.md",
+      "words": 885
+    },
+    "extracted": {
+      "at": "2026-10-06T21:58:52.286Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.005809
+    },
+    "summarized": {
+      "at": "2026-10-06T21:58:52.287Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:58:54.751Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:58:54.755Z",
+      "path": "content/posts/gerardorenteria-blog/14663.md"
     }
   },
   "input_hash": "2026-05-18T22:06:07.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "05cee72b88988222b565f46049d371767d7ae47393b6ea2d2314983b49f31fff"
 }

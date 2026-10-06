@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/unittestswithoutbaseapp/",
+  "url": "https://stefanmaron.com/posts/unittestswithoutbaseapp/",
+  "title": "You don't need the base app to run your unit tests",
+  "source": "stefanmaron-com",
+  "published_at": "2026-05-24T22:00:00.000Z",
+  "words": 850,
+  "summary": "Unit tests for self-contained Business Central logic do not require the base application to run. By structuring code as isolated sub-extensions with their own app.json files and only platform dependencies, developers can significantly reduce container startup time and pipeline costs.",
+  "key_points": [
+    "Isolate business logic and its tests in sub-extensions with no application dependency, only platform dependency",
+    "Use nested app.json files as compilation scopes - the AL compiler picks up only the app.json at the root folder it targets",
+    "Deploy isolated sub-extensions to containers without the base app to match test scope with environment scope",
+    "Test pipeline execution time reduced from 8 minutes to under 2 minutes by eliminating unnecessary base app overhead",
+    "This pattern mirrors Microsoft's own application stack structure but requires code to be architected for isolation from the start"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "reporting"
+  ],
+  "topics": [
+    "unit testing",
+    "ci/cd pipelines",
+    "code architecture",
+    "performance optimization",
+    "compiler behavior",
+    "sub-extensions"
+  ],
+  "objects": [],
+  "features": [
+    "sub-extension compilation",
+    "isolated test environments",
+    "base app removal",
+    "container configuration",
+    "pipeline optimization"
+  ],
+  "versions": [
+    "27",
+    "28"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005623,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "If your tests are truly testing a unit, they should not need the entire application stack as their environment.",
+      "why_it_matters": "This principle establishes why isolated testing is both valid and efficient - it's fundamental to unit test philosophy"
+    },
+    {
+      "text": "Eight minutes down to under two is not a marginal improvement. It changes how often you run tests and how fast you can iterate.",
+      "why_it_matters": "Quantifies the practical benefit, showing that performance gains directly impact development workflow and feedback loops"
+    }
+  ]
+}

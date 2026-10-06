@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/05/21/be-careful-with-visual-studio-code-extensions/",
   "published_at": "2026-05-21T06:50:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:58:30.641Z",
+      "path": "vault:posts/demiliani-com/13761.md",
+      "words": 972
+    },
+    "extracted": {
+      "at": "2026-10-06T21:58:38.995Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.006747
+    },
+    "summarized": {
+      "at": "2026-10-06T21:58:38.997Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:58:38.998Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:58:39.002Z",
+      "path": "content/posts/demiliani-com/13761.md"
     }
   },
   "input_hash": "2026-05-21T06:51:29.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "02def1615a080e1993cd12116fa87fa3129dec180fc38fb142c13363d3d2fb49"
 }

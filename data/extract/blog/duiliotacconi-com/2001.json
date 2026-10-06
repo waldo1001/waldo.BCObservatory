@@ -1,0 +1,73 @@
+{
+  "item_id": "blog/duiliotacconi-com/2001",
+  "url": "https://duiliotacconi.com/2026/05/28/index-management-with-dynamics-365-business-central-2026-wave-1/",
+  "title": "Index Management with Dynamics 365 Business Central 2026 Wave 1",
+  "source": "duiliotacconi-com",
+  "published_at": "2026-05-28T13:13:22.000Z",
+  "words": 2001,
+  "summary": "Dynamics 365 Business Central 2026 Wave 1 introduces the ability to disable and enable indexes on demand, allowing organizations to improve write performance by removing unused or unnecessary indexes from their databases. The feature is particularly valuable for online deployments and provides detailed statistics to help administrators make informed decisions about which indexes to retain.",
+  "key_points": [
+    "Disabling unused indexes reduces write operation duration and decreases database storage requirements by eliminating unnecessary index maintenance overhead",
+    "The page displays detailed metrics including seeks, scans, lookups, updates, fragmentation percentage, and last usage dates to identify candidates for removal",
+    "Microsoft's automatic index tuning has added indexes based on workload analysis over time, and administrators can now review and remove relics from past periods that no longer benefit queries",
+    "Administrators should wait at least 2 weeks (ideally 30 days) after database restart before making index changes to ensure statistics are representative of actual usage patterns",
+    "Index defragmentation can be performed by disabling and re-enabling an index, which reduces fragmentation and updates statistics during off-peak hours"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "index management",
+    "performance tuning",
+    "database optimization",
+    "sql server",
+    "storage capacity",
+    "query optimization",
+    "write operations"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Line"
+    }
+  ],
+  "features": [
+    "Index disable/enable capability",
+    "Index usage statistics",
+    "Fragmentation analysis",
+    "Index size reporting",
+    "Database start time tracking",
+    "Statistics update monitoring",
+    "Combined index size calculation",
+    "Per-company index metrics"
+  ],
+  "versions": [
+    "2026 Wave 1",
+    "version 28"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.013696,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "capability of disabling / enabling indexes at will",
+      "why_it_matters": "This is the core feature of the release that enables proactive performance optimization by allowing administrators to control indexes without requiring direct SQL access on-premises"
+    },
+    {
+      "text": "Bad Index = Zero Read and High Updates. Bad Indexes should be disabled.",
+      "why_it_matters": "Provides a simple decision rule for identifying indexes that consume resources during writes but provide no query benefits, making them candidates for removal"
+    },
+    {
+      "text": "Unused (outdated) Index = Last Read (index seek, scan or lookup) far back in time",
+      "why_it_matters": "Establishes a practical criterion for identifying indexes that are no longer actively used and can be safely disabled to free storage and reduce maintenance overhead"
+    }
+  ]
+}

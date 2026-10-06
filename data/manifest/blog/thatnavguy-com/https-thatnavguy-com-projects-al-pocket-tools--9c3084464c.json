@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/projects/al-pocket-tools/",
   "published_at": "2026-05-21T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:58:38.646Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-projects-al-pocket-tools--9c3084464c.md",
+      "words": 159
+    },
+    "extracted": {
+      "at": "2026-10-06T21:58:44.689Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.004464
+    },
+    "summarized": {
+      "at": "2026-10-06T21:58:44.690Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:58:44.691Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:58:44.694Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-projects-al-pocket-tools--9c3084464c.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "95f7c458f367f9133589826fabbef75ceadf3413236e93de24e694a288775a85"
 }

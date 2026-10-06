@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/05/22/maximizing-productivity-with-copilot-cowork-skills/",
   "published_at": "2026-05-22T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:58:28.792Z",
+      "path": "vault:posts/aardvarklabs-blog/3496.md",
+      "words": 2262
+    },
+    "extracted": {
+      "at": "2026-10-06T21:58:38.348Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.013942
+    },
+    "summarized": {
+      "at": "2026-10-06T21:58:38.349Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:58:38.350Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:58:38.353Z",
+      "path": "content/posts/aardvarklabs-blog/3496.md"
     }
   },
   "input_hash": "2026-05-26T22:42:24.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "82100f210553ade504597341fd5631beaa8c7f9c3ce748ea4f762c9b29ad6b0a"
 }

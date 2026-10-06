@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/waldo-be/318604",
+  "url": "https://waldo.be/2026/05/28/optimal-performance-still-matters/",
+  "title": "OptimAL – performance still matters",
+  "source": "waldo-be",
+  "published_at": "2026-05-28T17:40:26.000Z",
+  "words": 768,
+  "summary": "OptimAL is a structured Microsoft performance initiative for BC partners and ISVs that combines maturity assessment, skills training, telemetry analysis, and hands-on code optimization. The program addresses how most BC performance issues stem from partner code rather than the platform, with participants achieving dramatic improvements like reducing batch job runtime from 5+ hours to under 20 minutes or improving page load times by 93%.",
+  "key_points": [
+    "OptimAL is a Microsoft-led program delivered by Dev Center partner Ciellos, not a third-party product",
+    "Most BC performance problems come from partner code, outdated patterns, and anti-patterns rather than the platform itself",
+    "The program includes assessment, skills development, telemetry analysis, and hands-on optimization with documented results",
+    "Participants shifted from reactive to proactive performance thinking and increased focus on telemetry",
+    "Escape Room format teaches performance optimization by having participants fix common mistakes found in real BC code"
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "performance optimization",
+    "code quality",
+    "telemetry",
+    "batch jobs",
+    "page load time",
+    "anti-patterns",
+    "development practices"
+  ],
+  "objects": [],
+  "features": [
+    "OptimAL performance initiative",
+    "maturity baseline assessment",
+    "skills training sessions",
+    "telemetry analysis",
+    "hands-on code optimization",
+    "Escape Room training",
+    "in-person workshops"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "most BC performance issues don't come from the platform. They don't come from the baseapp. They come from our code.",
+      "why_it_matters": "This is the core insight that OptimAL addresses - performance problems are typically in partner implementations, not BC itself"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005843,
+    "posts_in_call": 1
+  }
+}

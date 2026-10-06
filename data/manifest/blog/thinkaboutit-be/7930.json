@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/05/quick-tip-almost-every-bc-major-release-gets-paused-are-your-environments-ready/",
   "published_at": "2026-05-20T13:20:48.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:58:39.186Z",
+      "path": "vault:posts/thinkaboutit-be/7930.md",
+      "words": 965
+    },
+    "extracted": {
+      "at": "2026-10-06T21:58:47.316Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005843
+    },
+    "summarized": {
+      "at": "2026-10-06T21:58:47.317Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:58:47.318Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:58:47.321Z",
+      "path": "content/posts/thinkaboutit-be/7930.md"
     }
   },
   "input_hash": "2026-05-20T13:20:48.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7d0e1d67ccf4926b83a153234d582e9ed3ebdaa7f83bd160300fc963c85898ce"
 }

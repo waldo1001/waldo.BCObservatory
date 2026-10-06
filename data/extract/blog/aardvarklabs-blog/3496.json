@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3496",
+  "url": "https://aardvarklabs.blog/2026/05/22/maximizing-productivity-with-copilot-cowork-skills/",
+  "title": "Maximizing Productivity with Copilot Cowork Skills",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-05-22T12:00:00.000Z",
+  "words": 2262,
+  "summary": "Copilot Cowork Skills enable repeatable, structured AI workflows that go beyond conversational prompts. The post demonstrates how to create and manage Skills as reusable job descriptions with defined inputs, outputs, governance, and integration with real systems, using a Weekly Project Status Report example.",
+  "key_points": [
+    "Skills are declarative, reusable workflows stored in OneDrive folders with markdown definitions that provide structured governance and versioning compared to ad-hoc prompts.",
+    "Each Skill includes step-by-step processes, default settings, and guardrails (like never fabricating data or auto-sending) that ensure consistent, reliable execution across teams and applications.",
+    "Skills can reference supporting scripts, document templates, and regulatory references in designated folders to extend AI capabilities beyond what Cowork alone can accomplish.",
+    "The example Skill generates weekly status emails from meeting transcripts with RAG status indicators, accomplishments, decisions, risks, and action items automatically extracted and formatted for Outlook."
+  ],
+  "systems": [
+    "copilot",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "copilot cowork skills",
+    "ai workflows",
+    "reusable processes",
+    "automation",
+    "governance",
+    "project status reporting",
+    "structured ai",
+    "repeatable tasks"
+  ],
+  "objects": [],
+  "features": [
+    "Copilot Cowork Skills",
+    "Skill declarative definitions",
+    "Structured inputs and outputs",
+    "Governance and versioning",
+    "OneDrive skill storage",
+    "Supporting scripts integration",
+    "References and templates",
+    "Weekly project status report generation"
+  ],
+  "versions": [
+    "Fronter (at time of writing)"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.013942,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Never fabricate names, dates, decisions, or commitments not in the transcript.",
+      "why_it_matters": "Establishes critical guardrails that ensure Skills maintain data integrity and traceability to source information."
+    }
+  ]
+}
