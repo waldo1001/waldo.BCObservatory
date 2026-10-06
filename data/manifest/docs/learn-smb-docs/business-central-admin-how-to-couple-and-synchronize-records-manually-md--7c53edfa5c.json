@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-to-couple-and-synchronize-records-manually",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "114352a480d43cfc9f6c6d922faa47632c848b22",
       "words": 954,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:19.650Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.004037
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:19.665Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:19.666Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:19.667Z",
+      "page": false
     }
   },
   "input_hash": "114352a480d43cfc9f6c6d922faa47632c848b22",
@@ -47,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "114352a480d43cfc9f6c6d922faa47632c848b22"
+  "output_hash": "07d85cd9b446441c7672e3ac36691a673328c4ad5c041412a3efd434a30a2059"
 }

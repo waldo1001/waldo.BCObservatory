@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-set-up-colored-indicator-on-cues",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6988768e59718beeff583ed2f86a4a091463b5b2",
       "words": 692,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:19.649Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004037
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:19.662Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:19.663Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:19.664Z",
+      "page": false
     }
   },
   "input_hash": "6988768e59718beeff583ed2f86a4a091463b5b2",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6988768e59718beeff583ed2f86a4a091463b5b2"
+  "output_hash": "6807e7168165c79d7507188d69e515030e1518a1990f1a5e1fcd7a0efe999b92"
 }

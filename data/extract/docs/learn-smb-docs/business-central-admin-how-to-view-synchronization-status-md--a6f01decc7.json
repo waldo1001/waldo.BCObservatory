@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-how-to-view-synchronization-status.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-to-view-synchronization-status",
+  "title": "View the Status of Synchronization Jobs",
+  "blob": "0139783e78dd7e309441c6e0bc2347bc316b17d9",
+  "summary": "Coupled Data Synchronization Errors page shows the status of synchronization jobs for records integrated with Dataverse or Dynamics 365 Sales. View error details and use actions like Retry, Synchronize, Restore, or Delete to resolve coupling issues.",
+  "systems": [
+    "integration",
+    "crm"
+  ],
+  "topics": [
+    "synchronization",
+    "error handling",
+    "coupling",
+    "job status",
+    "troubleshooting",
+    "dataverse"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Coupled Data Synchronization Errors"
+    },
+    {
+      "type": "page",
+      "name": "Integration Table Mappings"
+    }
+  ],
+  "features": [
+    "synchronization status",
+    "error resolution",
+    "retry actions",
+    "conflict resolution",
+    "record restoration",
+    "coupling removal"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004037,
+      "pages_in_call": 8
+    }
+  ]
+}

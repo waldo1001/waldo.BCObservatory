@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-onedrive-integration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-onedrive-integration",
+  "title": "Managing OneDrive Integration with Business Central",
+  "blob": "c6e5af45425619c9a8bc2f53951483fe4a1cca49",
+  "summary": "OneDrive Integration allows Business Central users to open and share files in OneDrive for Business. Administrators configure integration using the OneDrive Setup assisted guide, with automatic setup for online deployments and manual setup for on-premises.",
+  "systems": [
+    "administration",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "onedrive",
+    "file sharing",
+    "sharepoint",
+    "cloud storage",
+    "data residency",
+    "privacy"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "OneDrive Setup"
+    },
+    {
+      "type": "page",
+      "name": "SharePoint Connection Setup"
+    }
+  ],
+  "features": [
+    "onedrive integration",
+    "file sharing",
+    "excel in onedrive",
+    "data residency management",
+    "privacy controls",
+    "multi-environment setup"
+  ],
+  "versions": [
+    "2022 release wave 2",
+    "version 21.0",
+    "2023 release wave 2",
+    "version 23.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004037,
+      "pages_in_call": 8
+    }
+  ]
+}

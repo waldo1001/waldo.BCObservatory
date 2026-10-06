@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-how-to-couple-and-synchronize-records-manually.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-to-couple-and-synchronize-records-manually",
+  "title": "Coupling and synchronizing",
+  "blob": "114352a480d43cfc9f6c6d922faa47632c848b22",
+  "summary": "Coupling and synchronizing records enables you to link Business Central records with Dataverse or Dynamics 365 Sales records for bidirectional data sharing. Use manual coupling, match-based coupling, or bulk import methods to synchronize customers, vendors, items, and other entities.",
+  "systems": [
+    "integration",
+    "crm",
+    "sales"
+  ],
+  "topics": [
+    "dataverse",
+    "dynamics 365 sales",
+    "record coupling",
+    "synchronization",
+    "data integration",
+    "bulk import"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Contact Card"
+    },
+    {
+      "type": "page",
+      "name": "Integration Table Mappings"
+    }
+  ],
+  "features": [
+    "record coupling",
+    "data synchronization",
+    "match-based coupling",
+    "bidirectional sync",
+    "bulk insert",
+    "uncoupling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004037,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-data-access-intent.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-data-access-intent",
+  "title": "Manage database access intent in Business Central",
+  "blob": "76d8ef2b688f8dba58400eaa88ec811ed185348c",
+  "summary": "Database Access Intent lets administrators override predefined database access settings for reports, API pages, and queries to optimize performance using read-only replicas. Configure these settings on the Database Access Intent List page.",
+  "systems": [
+    "platform",
+    "reporting"
+  ],
+  "topics": [
+    "database",
+    "performance",
+    "read-only",
+    "read scale-out",
+    "access intent"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Database Access Intent List"
+    }
+  ],
+  "features": [
+    "read-only replica access",
+    "primary database access",
+    "database access intent override",
+    "write allowance",
+    "performance optimization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004037,
+      "pages_in_call": 8
+    }
+  ]
+}

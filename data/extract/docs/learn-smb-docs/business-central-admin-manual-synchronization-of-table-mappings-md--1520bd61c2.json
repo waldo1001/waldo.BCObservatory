@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-manual-synchronization-of-table-mappings.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manual-synchronization-of-table-mappings",
+  "title": "Manual Synchronization of Table Mappings | Microsoft Docs",
+  "blob": "cc50f5930458176f16874cebc426b10d257a5591",
+  "summary": "Manual table mapping synchronization provides three methods to synchronize data between Business Central and Dataverse: full synchronization, synchronize all modified records, and synchronize individual table mappings. Each method controls whether to create and couple new records.",
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "table mapping",
+    "synchronization",
+    "dataverse",
+    "dynamics 365 sales",
+    "data coupling"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Dataverse Connection Setup"
+    },
+    {
+      "type": "page",
+      "name": "Microsoft Dynamics 365 Sales Connection Setup"
+    },
+    {
+      "type": "page",
+      "name": "Integration Table Mappings"
+    },
+    {
+      "type": "page",
+      "name": "Integration Synchronization Jobs"
+    }
+  ],
+  "features": [
+    "full synchronization",
+    "modified records sync",
+    "table mapping sync",
+    "uncoupled record creation",
+    "synchronization jobs",
+    "coupling dependencies"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004037,
+      "pages_in_call": 8
+    }
+  ]
+}

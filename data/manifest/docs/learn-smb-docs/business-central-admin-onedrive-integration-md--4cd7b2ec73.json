@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-onedrive-integration",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c6e5af45425619c9a8bc2f53951483fe4a1cca49",
       "words": 915,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:19.653Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004037
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:19.675Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:19.676Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:19.676Z",
+      "page": false
     }
   },
   "input_hash": "c6e5af45425619c9a8bc2f53951483fe4a1cca49",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c6e5af45425619c9a8bc2f53951483fe4a1cca49"
+  "output_hash": "4913ab30c1558cf2f32cd91b72114e25db7e765eac3c76e2d4dbbd9f6da109aa"
 }

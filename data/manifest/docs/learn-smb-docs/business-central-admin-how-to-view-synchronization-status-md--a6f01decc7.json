@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-to-view-synchronization-status",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0139783e78dd7e309441c6e0bc2347bc316b17d9",
       "words": 593,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:19.652Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004037
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:19.668Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:19.669Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:19.671Z",
+      "page": false
     }
   },
   "input_hash": "0139783e78dd7e309441c6e0bc2347bc316b17d9",
@@ -47,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0139783e78dd7e309441c6e0bc2347bc316b17d9"
+  "output_hash": "846c4b4965c31664b0daaa32b1d96a74124c9f8bec0af94c076dbb9427c3a3b5"
 }

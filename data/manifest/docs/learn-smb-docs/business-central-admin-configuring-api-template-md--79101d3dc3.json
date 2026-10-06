@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-configuring-api-template",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c0342f38e7b3077e3e0b83e096d087856ebf2cdf",
       "words": 461,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:05:17.845Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004037
+    },
+    "summarized": {
+      "at": "2026-10-06T19:05:19.656Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:05:19.657Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:05:19.658Z",
+      "page": false
     }
   },
   "input_hash": "c0342f38e7b3077e3e0b83e096d087856ebf2cdf",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c0342f38e7b3077e3e0b83e096d087856ebf2cdf"
+  "output_hash": "a722b65de8f06002fdace6005499ebeb6616853e004bb1732a0df703b91bbead"
 }
