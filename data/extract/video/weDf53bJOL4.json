@@ -1,0 +1,754 @@
+{
+  "video_id": "weDf53bJOL4",
+  "item_id": "video/yt-microsoft/weDf53bJOL4",
+  "title": "What's New in AL: Go for GitHub (2024 release wave 2)",
+  "duration_s": 2142,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al-go",
+    "github actions",
+    "security",
+    "federated credentials",
+    "managed identity",
+    "nuget support",
+    "app source symbols",
+    "ci-cd",
+    "pre-commit",
+    "dependabot",
+    "performance testing",
+    "github packages"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 68.8
+    },
+    {
+      "title": "Security Enhancements Part 1: Actions and Pre-commit",
+      "t_start": 68.8,
+      "t_end": 227
+    },
+    {
+      "title": "Federated Credentials and Managed Identities",
+      "t_start": 227,
+      "t_end": 501.2
+    },
+    {
+      "title": "Federated Credentials Technical Deep Dive",
+      "t_start": 501.2,
+      "t_end": 662.2
+    },
+    {
+      "title": "Federated Credentials Demo",
+      "t_start": 662.2,
+      "t_end": 774.5
+    },
+    {
+      "title": "NuGet support and symbols for AppSource apps, Future NuGet investments and first-party apps",
+      "t_start": 774.5,
+      "t_end": 915.2
+    },
+    {
+      "title": "AppSource symbols NuGet feed demonstration",
+      "t_start": 915.2,
+      "t_end": 1011
+    },
+    {
+      "title": "Dependency resolution with traditional install apps",
+      "t_start": 1011,
+      "t_end": 1092.2
+    },
+    {
+      "title": "Trusted NuGet feeds configuration and authentication",
+      "t_start": 1092.2,
+      "t_end": 1231.2
+    },
+    {
+      "title": "GitHub packages and NuGet package naming changes",
+      "t_start": 1231.2,
+      "t_end": 1326.5
+    },
+    {
+      "title": "Performance test capabilities, configuration and results analysis",
+      "t_start": 1326.5,
+      "t_end": 1547.5
+    },
+    {
+      "title": "BC samples GitHub tag and repository discovery",
+      "t_start": 1547.5,
+      "t_end": 1709.4
+    },
+    {
+      "title": "Container Helper deprecation, DevOps strategy and Managed DevOps solutions",
+      "t_start": 1709.4,
+      "t_end": 1950.2
+    },
+    {
+      "title": "Page scripting tests, Template customization, Runtime packages and future investments",
+      "t_start": 1950.2,
+      "t_end": 2142
+    }
+  ],
+  "features": [
+    {
+      "name": "GitHub actions referenced by commit SHA",
+      "description": "AL Go for GitHub now references non-AL Go GitHub actions using commit SHA instead of tags or branches for enhanced security.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 84.4,
+      "t_end": 151.9,
+      "is_demoed": true,
+      "caveats": [
+        "AL Go actions still use version numbers like 5.3 to allow hotfixes"
+      ],
+      "tags": [
+        "security",
+        "github actions",
+        "al-go"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Pre-commit for file consistency",
+      "description": "Pre-commit has been added to ensure consistency of markdown files and other files for general file housekeeping in AL Go for GitHub repositories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 214,
+      "t_end": 227,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "security",
+        "housekeeping",
+        "pre-commit"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Federated credentials and managed identities",
+      "description": "AL Go for GitHub now supports federated credentials and managed identities to eliminate the need for secrets in authentication to resources like key vaults and Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 227,
+      "t_end": 774.5,
+      "is_demoed": true,
+      "caveats": [
+        "Tenant ID and client ID are still stored in secrets template for implementation reasons",
+        "Access tokens remain valid for typically one hour if exposed"
+      ],
+      "tags": [
+        "security",
+        "authentication",
+        "managed identity",
+        "federated credentials"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "NuGet support for AppSource apps",
+      "description": "Symbols for all AppSource apps are now available on a public NuGet feed. AL Go for GitHub supports trusting both private and public NuGet feeds with options to register prefixes and fingerprints for security.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 784.8,
+      "t_end": 839.5,
+      "is_demoed": true,
+      "caveats": [
+        "Normally you should not trust nuget.org unless you have registered prefixes or fingerprints",
+        "Federated credentials not yet supported"
+      ],
+      "tags": [
+        "nuget",
+        "appsource",
+        "symbols",
+        "package management",
+        "dependencies"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Deliver to NuGet implementation changes",
+      "description": "NuGet delivery implementation has been updated to use the same mechanism as GitHub packages, with each app having one package instead of collecting apps and dependencies into one NuGet package.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 839.5,
+      "t_end": 875.3,
+      "is_demoed": true,
+      "caveats": [
+        "Each app must be its own package",
+        "Full dependency tree required in full app packages"
+      ],
+      "tags": [
+        "nuget",
+        "delivery",
+        "package format"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Runtime packages publishing to NuGet",
+      "description": "Future capability to publish runtime packages to NuGet as either private or public feeds, allowing sharing with partners or customers.",
+      "status": "announced",
+      "status_evidence_t": 883.4,
+      "status_evidence_quote": "As future investments, we will also be able to publish runtime packages to NuGet, either private or public",
+      "status_evidence_verified": true,
+      "t_start": 883.4,
+      "t_end": 896.9,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet available",
+        "Still in future investments phase"
+      ],
+      "tags": [
+        "nuget",
+        "runtime packages",
+        "future investment"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "First-party apps in NuGet packages",
+      "description": "Future capability to make all Microsoft first-party apps available in NuGet packages along with app source symbols.",
+      "status": "announced",
+      "status_evidence_t": 896.9,
+      "status_evidence_quote": "we're also working on having all first-party apps, meaning all Microsoft apps, available in NuGet packages as well as the app source symbols.",
+      "status_evidence_verified": true,
+      "t_start": 883.4,
+      "t_end": 915.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "nuget",
+        "first-party apps",
+        "microsoft apps",
+        "future investment"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Trusted NuGet feeds in AL Go for GitHub",
+      "description": "Configuration to add trusted NuGet servers in AL Go for GitHub settings. Microsoft-provided AppSource symbols NuGet feeds are automatically trusted by default.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1092.2,
+      "t_end": 1231.2,
+      "is_demoed": true,
+      "caveats": [
+        "Federated credentials not yet supported for auth tokens",
+        "URL must be known for non-default feeds"
+      ],
+      "tags": [
+        "nuget",
+        "trusted feeds",
+        "configuration",
+        "al go"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "NuGet feed fingerprint and prefix registration",
+      "description": "Ability to register package prefixes and fingerprints with NuGet feeds to ensure you are only trusting specific packages or certificate-signed packages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1179.5,
+      "t_end": 1231.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "nuget",
+        "security",
+        "package verification"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub packages naming changes",
+      "description": "Small change to GitHub packages naming format from AL Go app ID to app name and app ID to better reflect the package identity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1249.9,
+      "t_end": 1307.1,
+      "is_demoed": true,
+      "caveats": [
+        "Existing users will see name changes",
+        "Package resolution still uses app ID"
+      ],
+      "tags": [
+        "github packages",
+        "naming",
+        "package management"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Performance test in AL Go for GitHub",
+      "description": "New capability to run performance tests in CI/CD or scheduled test runs with baseline comparison, regression detection, and configurable thresholds for duration and SQL statement counts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1326.5,
+      "t_end": 1448.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual baseline setup or copy from prior runs"
+      ],
+      "tags": [
+        "performance testing",
+        "ci-cd",
+        "al go",
+        "baselines"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Performance test threshold configuration",
+      "description": "Configurable thresholds for performance test regression warnings and errors based on duration percentage and SQL statement counts, with separate thresholds for warnings and failures.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1419.2,
+      "t_end": 1506.2,
+      "is_demoed": true,
+      "caveats": [
+        "SQL statement regression often primary cause of performance issues"
+      ],
+      "tags": [
+        "performance testing",
+        "thresholds",
+        "baselines"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "BC samples GitHub tag",
+      "description": "GitHub tag and centralized list of Business Central sample repositories that can be discovered at aka.ms/bcsamples. Currently includes repositories showcasing Power Platform integration, onboarding approaches, and Bing Maps implementations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1547.5,
+      "t_end": 1697.7,
+      "is_demoed": true,
+      "caveats": [
+        "Currently only Microsoft repositories shown initially",
+        "Community samples can be added by tagging with BC samples topic"
+      ],
+      "tags": [
+        "bc samples",
+        "github",
+        "samples",
+        "community",
+        "discovery"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "BC samples repository forking and setup",
+      "description": "Ability to fork BC sample repositories to get complete AL Go for GitHub setup and Power Platform integration for local development and testing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1641.2,
+      "t_end": 1697.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "bc samples",
+        "fork",
+        "github",
+        "development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "BC Container Helper deprecation in AL Go",
+      "description": "AL Go for GitHub will gradually stop using BC Container Helper and move DevOps-relevant features to other PowerShell modules and GitHub Actions instead. BC Container Helper will remain available but eventually lose support as platform requirements evolve.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1709.4,
+      "t_end": 1882.8,
+      "is_demoed": false,
+      "caveats": [
+        "Transition planned over 2 to 3 years",
+        "Users of self-made DevOps solutions will need to migrate",
+        "New PowerShell module commands will not be compatible with BC Container Helper",
+        "Eventually BC Container Helper will no longer be supported"
+      ],
+      "tags": [
+        "devops",
+        "container helper",
+        "deprecation",
+        "migration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Managed DevOps solutions strategy",
+      "description": "Recommends using managed DevOps solutions like Azure DevOps tasks (ALOps), AL Go for GitHub, or Cosmo Alpaca instead of self-made DevOps pipelines. These solutions automatically handle updates when new Business Central versions are released.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1890.7,
+      "t_end": 1950.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "devops",
+        "managed solutions",
+        "guidance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Page scripting tests in AL Go CI/CD",
+      "description": "Support for running page scripting tests directly in CI/CD pipelines as part of test current, test next minor, and test next major workflows. The BC replay NPM package was recently released publicly to enable this capability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1950.2,
+      "t_end": 1993.1,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet implemented in AL Go",
+        "ALOps already offers this capability"
+      ],
+      "tags": [
+        "page scripting tests",
+        "ci-cd",
+        "testing",
+        "npm package"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Indirect template customization capabilities",
+      "description": "Partners will be able to customize AL Go templates beyond what comes out of the box, with the ability to add custom scripts, steps, and jobs while remaining current with latest versions.",
+      "status": "announced",
+      "status_evidence_t": 1993.1,
+      "status_evidence_quote": "We're working on indirect tape templates and customization capabilities, and we're not really sure where to land this one.",
+      "status_evidence_verified": true,
+      "t_start": 1993.1,
+      "t_end": 2030.4,
+      "is_demoed": false,
+      "caveats": [
+        "Decision point on scope of customization not yet finalized",
+        "Need to clearly document customization boundaries"
+      ],
+      "tags": [
+        "templates",
+        "customization",
+        "al-go"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Runtime package generation and NuGet publishing",
+      "description": "Future capability to generate and publish runtime packages to NuGet for apps with AppSource or local dependencies only, using symbols of AppSource apps and a small addition to the AL compiler.",
+      "status": "announced",
+      "status_evidence_t": 2056.7,
+      "status_evidence_quote": "We also will add mechanisms to generate and publish runtime packages to NuGet. We've talked about this for quite some time. Now we have",
+      "status_evidence_verified": true,
+      "t_start": 2056.7,
+      "t_end": 2106.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires additional AL compiler functionality",
+        "Applies only to apps with AppSource or local dependencies"
+      ],
+      "tags": [
+        "runtime packages",
+        "nuget",
+        "symbols",
+        "appsource"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Enhanced documentation and roadmap for AL Go",
+      "description": "Plans to add more documentation, how-to videos, and an updated roadmap for AL Go for GitHub to make it easier for partners and customers to use.",
+      "status": "announced",
+      "status_evidence_t": 2117.6,
+      "status_evidence_quote": "We'll add some more documentation, more how-to videos, and an updated roadmap so that this will make life easier for partners and customers using",
+      "status_evidence_verified": true,
+      "t_start": 2117.6,
+      "t_end": 2129,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "roadmap",
+        "guidance"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "CICD YAML file",
+      "t": 114.6
+    },
+    {
+      "type": "other",
+      "name": "checkout action",
+      "t": 127.1
+    },
+    {
+      "type": "other",
+      "name": "GitHub workflow for CICD",
+      "t": 181.2
+    },
+    {
+      "type": "other",
+      "name": "Microsoft AL Go action",
+      "t": 181.2
+    },
+    {
+      "type": "other",
+      "name": "BC samples Bing Maps dot app source",
+      "t": 693.6
+    },
+    {
+      "type": "other",
+      "name": "Abakion Legal",
+      "t": 939.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Freddy Christiansen",
+      "confidence": "high"
+    },
+    {
+      "name": "Kamil",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 33.4,
+      "text": "Security is important. Uh if not the most important thing, then it's up there.",
+      "why_it_matters": "Establishes that security enhancements are a primary focus of this release.",
+      "check": "exact"
+    },
+    {
+      "t": 84.4,
+      "text": "always reference GitHub actions using a commit uh sha really, right? Um and this this is for all non-AL Go actions.",
+      "why_it_matters": "Describes the key security enhancement in how GitHub actions are referenced in workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 227,
+      "text": "federated credentials and managed identities. Um No more secrets. We basically have removed the the the most of the reasons for having secrets in",
+      "why_it_matters": "Announces the removal of secrets as a major security improvement, a significant shift in the authentication model.",
+      "check": "exact"
+    },
+    {
+      "t": 618,
+      "text": "if the access token is exposed, then you will have access to the resource it for the validity of the access token, which typically",
+      "why_it_matters": "Clarifies the time-limited nature of access tokens in federated credentials, reducing exposure window.",
+      "check": "exact"
+    },
+    {
+      "t": 784.8,
+      "text": "Now, NuGet support is something that we've been working on for a long time. Um and in this release, we have symbols for all",
+      "why_it_matters": "Indicates NuGet support with AppSource symbols is now generally available, a major dependency management improvement for AL Go for GitHub.",
+      "check": "exact"
+    },
+    {
+      "t": 796.3,
+      "text": "symbols for all app source apps available on a public NuGet feed. Uh AL Go for GitHub supports trusting NuGet feeds",
+      "why_it_matters": "Announces a major new capability for NuGet package management and distribution of app source symbols.",
+      "check": "exact"
+    },
+    {
+      "t": 853.2,
+      "text": "the agreed upon NuGet format for for Business Central apps does not include multiple apps in one package.",
+      "why_it_matters": "Clarifies the NuGet package format requirement that each app has its own package.",
+      "check": "exact"
+    },
+    {
+      "t": 853.2,
+      "text": "Uh the the agreed upon NuGet format for for Business Central apps does not include multiple apps in one package.",
+      "why_it_matters": "Establishes the standard Business Central NuGet package format - one app per package - clarifying the implementation approach.",
+      "check": "exact"
+    },
+    {
+      "t": 883.4,
+      "text": "we will also be able to publish runtime packages to NuGet, either private or public, so that you can share your NuGet feed with",
+      "why_it_matters": "Outlines future planned capabilities for runtime package sharing and collaboration.",
+      "check": "exact"
+    },
+    {
+      "t": 883.4,
+      "text": "Now, as future investments, we will also be able to publish runtime packages to NuGet, either private or public",
+      "why_it_matters": "Announces future roadmap capability for runtime package distribution, not yet available.",
+      "check": "exact"
+    },
+    {
+      "t": 1113.5,
+      "text": "We will by default trust all Microsoft trusted NuGet feeds, this one and the feeds that uh that will have our first-party apps, the",
+      "why_it_matters": "Establishes automatic trust model for Microsoft NuGet feeds, reducing configuration burden for users.",
+      "check": "exact"
+    },
+    {
+      "t": 1200.7,
+      "text": "Uh this piece does not yet uh support federated credentials.",
+      "why_it_matters": "Clarifies limitation in NuGet authentication - federated credentials not yet supported, requiring alternative auth methods.",
+      "check": "exact"
+    },
+    {
+      "t": 1348.5,
+      "text": "The latest version of Algo for GitHub, you will now have the ability to run performance test either in CI/CD or in scheduled test",
+      "why_it_matters": "Announces general availability of performance testing with UI in AL Go for GitHub, filling prior gap.",
+      "check": "exact"
+    },
+    {
+      "t": 1518.8,
+      "text": "The reason why we really count the SQL statements is that uh very frequently that is the primary reason for things to to regress",
+      "why_it_matters": "Explains design decision to track SQL statements in performance tests - they are key performance regression indicator.",
+      "check": "exact"
+    },
+    {
+      "t": 1577.9,
+      "text": "And it will show me all repositories on GitHub that has the tag BC samples. And right now, this is only Microsoft repositories, but",
+      "why_it_matters": "Clarifies BC samples tag is open to community contributions, not limited to Microsoft repositories.",
+      "check": "exact"
+    },
+    {
+      "t": 1577.9,
+      "text": "And it will show me all repositories on GitHub that has the tag BC samples.",
+      "why_it_matters": "Explains the discovery mechanism for BC sample repositories that developers can fork and learn from.",
+      "check": "exact"
+    },
+    {
+      "t": 1768,
+      "text": "We will, however, take all DevOps relevant features and implement that in either other PowerShell module and in GitHub Actions. And then will AL",
+      "why_it_matters": "Announces a major strategic shift away from BC Container Helper dependency in AL Go for GitHub.",
+      "check": "exact"
+    },
+    {
+      "t": 1814.4,
+      "text": "It's not going to happen day one when we go away from using BC Container Helper in AL Go for GitHub. But eventually, like,",
+      "why_it_matters": "Clarifies that the BC Container Helper transition is planned over multiple years, not immediate.",
+      "check": "exact"
+    },
+    {
+      "t": 1851.9,
+      "text": "If you're running like projects that needs to go on AppSource or PTEs that needs to be installed in online environments, I urge you",
+      "why_it_matters": "Provides clear guidance for AppSource and PTE developers on recommended DevOps approach.",
+      "check": "exact"
+    },
+    {
+      "t": 1950.2,
+      "text": "The BC replay and NPM package was actually released to the public. And that means that we can in AL Go for GitHub start",
+      "why_it_matters": "Describes the prerequisite for future page scripting test integration in AL Go CI/CD workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 2069.5,
+      "text": "With the small addition to the to the AL compiler. They might the team might not think it's small, but let's see.",
+      "why_it_matters": "Indicates that runtime package generation depends on AL compiler enhancements, with implementation complexity uncertain.",
+      "check": "exact"
+    },
+    {
+      "t": 2129,
+      "text": "We'll make AL Go for GitHub independent of BC Container Helper over the next 2 to 3 years.",
+      "why_it_matters": "Provides concrete timeline for the planned deprecation and replacement of BC Container Helper in AL Go.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 45.6,
+      "kind": "preview",
+      "text": "Performance tests has been in preview for some time."
+    },
+    {
+      "t": 825.3,
+      "kind": "subject-to-change",
+      "text": "Deliver to GitHub packages has been as a proof of concept prototype in AL Go for quite some time uh and and that still works as earlier."
+    },
+    {
+      "t": 883.4,
+      "kind": "coming-later",
+      "text": "As future investments, we will also be able to publish runtime packages to NuGet"
+    },
+    {
+      "t": 896.9,
+      "kind": "coming-later",
+      "text": "we're also working on having all first-party apps, meaning all Microsoft apps, available in NuGet packages as well as the app source symbols."
+    },
+    {
+      "t": 1200.7,
+      "kind": "subject-to-change",
+      "text": "This piece does not yet uh support federated credentials."
+    },
+    {
+      "t": 1939.1,
+      "kind": "coming-later",
+      "text": "What I say now, there's no timeline, there's no promises. It might I actually some of them I'm pretty sure they'll be there, but I'm no timeline."
+    },
+    {
+      "t": 2129,
+      "kind": "coming-later",
+      "text": "We'll make AL Go for GitHub independent of BC Container Helper over the next 2 to 3 years."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 22,
+    "quotes_dropped": 0,
+    "evidence_verified": 5,
+    "evidence_unverified": 15
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027233
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032854
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024697999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.040228
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-set-up-shipment-methods",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b0de28cb67595119e4b8f75428ab9c6732d995a7",
       "words": 236,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:09:43.888Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003715
+    },
+    "summarized": {
+      "at": "2026-10-06T19:09:51.111Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:09:51.112Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:09:51.114Z",
+      "page": false
     }
   },
   "input_hash": "b0de28cb67595119e4b8f75428ab9c6732d995a7",
@@ -48,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b0de28cb67595119e4b8f75428ab9c6732d995a7"
+  "output_hash": "b37537c34a8679a0cc1799dfdb464dd671c83693b3eef40cac1fd4d19bbd8bd5"
 }

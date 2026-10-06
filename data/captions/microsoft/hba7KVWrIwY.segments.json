@@ -1,0 +1,261 @@
+{
+  "video_id": "hba7KVWrIwY",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.9,
+      "end": 27.1,
+      "text": "welcome to busy cental lunch event related to 2024 release Wave 2 my name is Alexander toic and today with me I have my colleague Magnus hi my name is Magus and I'm a software engineer in business Central okay thank you Magnus uh we will today in explain"
+    },
+    {
+      "t": 27.1,
+      "end": 43.7,
+      "text": "what is new in electronic documents show L we will just explain a few things from a previous release and what is new in this release and then we will switch to demo where Magnus will show you uh setup of different services and new features we deliver in this"
+    },
+    {
+      "t": 43.7,
+      "end": 63.8,
+      "text": "wave okay before we start I just wanted to remind you uh how we started e documents first idea was to start with invoicing but we decided to switch to e documents as it can be Central hub for exchanging any type of electronic documents when I say any probably not are really any but the most of electronic documents can be exchanged"
+    },
+    {
+      "t": 63.8,
+      "end": 84.2,
+      "text": "through eents module uh our main focus is to manage all incoming and outcoming documents but current Focus for Microsoft side is still electronic invoicing exchange so feature is open for exchanging any of um as a feature framework is open for exchanging any type of documents but Microsoft is currently focus"
+    },
+    {
+      "t": 84.2,
+      "end": 104.4,
+      "text": "on electronic voicing uh all uh upcoming and features in this release are actually driven by regulatory requirements and feedback uh we are getting from Community for partners and customers but what is important to remember uh again this framework"
+    },
+    {
+      "t": 104.4,
+      "end": 124.7,
+      "text": "is designed to be easy extendable and allowing all isvs or other partners to integrate various type of electronic documents so we are again open not only for regulatory features we are open to uh extend the functionality to make it EAS easier for you to build on top of that why electronic invoices"
+    },
+    {
+      "t": 124.7,
+      "end": 144.8,
+      "text": "primary if you look in this table you will see first that b2g uh electronic invoic is definitely mandatory majority of countries across the world actually this is list of localization where Microsoft deliver localizations not partner based localization so probably uh this list will be much much bigger but if you look in our"
+    },
+    {
+      "t": 144.8,
+      "end": 165.2,
+      "text": "localization may u support localization processes b2g is already mandat but it was not trigger uh for us to start with electronic documents electronic invoices B2B mandat being mandatory was a trigger for us so if you look right now this is mandatory in Denmark in Belgium in Italy"
+    },
+    {
+      "t": 165.2,
+      "end": 185.4,
+      "text": "uh India Mexico in this moment we already have Italian and Mexico electronic invoicing in old format so uh for our future um backlog this is something what we will move to New framework and um outside of these countries you will see that Australia New Zealand have recommended uh usage of B2B"
+    },
+    {
+      "t": 185.4,
+      "end": 205.6,
+      "text": "so this is not mandatory but this is highly recommended to use uh but this yellow column with B2B voluntary you can see again that this is available for for voluntary usage in all these countries so if not mandatory this is voluntary so you can use you can automate some of your processes especially account payable there are a lot of automation"
+    },
+    {
+      "t": 205.6,
+      "end": 225.8,
+      "text": "there and you have when we talk about plans you see these orange plans in the right columns that um France Germany and Spain will come sooner but other countries will come again in a few years so we decided to first to be focused on electronic invoicing so we will be compliant"
+    },
+    {
+      "t": 225.8,
+      "end": 246,
+      "text": "in all these regulations okay now let's focus what we have in this wave first uh we have some improvements electronic documents framework so you can see we have new default end points they will not be available immediately from this major release so first will come with"
+    },
+    {
+      "t": 246,
+      "end": 266.4,
+      "text": "25.1 and others will be deliver in this period now I cannot see exactly because um we need to finish reviewing to to check all these details we need to be really sure that everything will work as expected but what I want to um emphasize here uh majority of these connectors"
+    },
+    {
+      "t": 266.4,
+      "end": 286.4,
+      "text": "are uh made in collaboration with these partners so we use open source collaboration model and we work together with a Partners so these Partners made the majority of these things by themsel and uh from our side we instructed how to do it and now we are making a review of code so code quality must be the same as Microsoft is delivering so this"
+    },
+    {
+      "t": 286.4,
+      "end": 306.6,
+      "text": "is why it cannot be delivered immediately but you can expect that very soon you will have all these connectors so avalara B2B router Contin logic sign up the the every and through Commerce this is important so now except pagero as we already have in total until the end of this wave we will have eight default"
+    },
+    {
+      "t": 306.6,
+      "end": 326.6,
+      "text": "connectors so you can choose what you want to use again uh you will not have any commercial model inside the BC so you must sign contract with these providers uh but once when you have contact you can just choose one of these options and make a setup easy setup you will see how it easy and you can"
+    },
+    {
+      "t": 326.6,
+      "end": 346.8,
+      "text": "continue to work without any additional development and configuration then additionally we added one of the highly uh required feature having attachments as encoded object uh within XML files it was important it is important because XML files with payo and other f file formats are good for"
+    },
+    {
+      "t": 346.8,
+      "end": 366.9,
+      "text": "as a machine readable format so they can be easily translated from XML to purchase documents that's good but this is not easy for human read as a human readable format so having encoded uh attachment inside this is something what can improve a human readable usage so it will be much easier for"
+    },
+    {
+      "t": 366.9,
+      "end": 387.1,
+      "text": "users to handle with electronic documents then we improve some small things in the search it was not easy because uh you had to use Dash or not now this is much easier to find the all these pag in a search we also added uh some small things you cannot recognize on our first side but we wanted to stabilize this framework it was our focus"
+    },
+    {
+      "t": 387.1,
+      "end": 407.4,
+      "text": "on stabilizing so we work a lot of small features in inside the framework and you will see e documents apis first idea was to deliver them in a major but we decided to postpone because we got some better idea how we can improve this API so we wanted to take some additional time so the most probably 25.3 we will deliver"
+    },
+    {
+      "t": 407.4,
+      "end": 419.8,
+      "text": "e documents API so you can reuse them in a Bo and purchase and sales process and it will be really good for you if you want to integrate then we have another part it documents localizations"
+    },
+    {
+      "t": 419.8,
+      "end": 440.6,
+      "text": "as you know we already have by default P B3 in a W1 so this is available in all localization and we have Papo deliver as a code and as a data exchange definition so you can use this as a showcase how to build your own formats if you need so you can choose what is better for you it depends from country to country from partner to partner"
+    },
+    {
+      "t": 440.6,
+      "end": 460.6,
+      "text": "they some of them uh much more prefer Cod some of them data exchange so we are open we have good showcase so you can see how you can make your own format but from Microsoft side in period from December this year until the April 25th we will um deliver this format to be more accurate"
+    },
+    {
+      "t": 460.6,
+      "end": 480.8,
+      "text": "uh in December we will deliver ex and in Germany and fatura a in Spain so uh this country will be a compliance uh from the beginning of next year because it will be mandatory usage of electronic do electronic invoicing in in Spain and Germany and P and Z format for Australia New Zealand will come after new year so this is"
+    },
+    {
+      "t": 480.8,
+      "end": 500.9,
+      "text": "by I said until the April uh 25 okay it was shortly what we have in this release and now I will give a word my colleague Magnus so he will show you how it's look like in a demo thanks Alexander thanks for introducing the new features Let's uh see how they look in business Central so with me today I have"
+    },
+    {
+      "t": 500.9,
+      "end": 520.4,
+      "text": "a a GB environment in version 251 so uh let's uh search for E documents and here we can see that I have created a e doent service for today's demo if we open that up we can see that the service integration that I have selected is the new integration that we have added"
+    },
+    {
+      "t": 520.4,
+      "end": 540.5,
+      "text": "avalara and we still have peero as well uh that you can use and there will be more to come the next coming months so if we open up a setup service integration in order to set up avalara we can see that we don't actually have to add a lot of things we have to provide the client ID and the client SE secet as"
+    },
+    {
+      "t": 540.5,
+      "end": 558.1,
+      "text": "well as selecting avalara Company ID to link your avalara company ID to your business Central uh company so let's go ahead and do that we just click the action and then we select one of our avalara companies I will select Ms business"
+    },
+    {
+      "t": 558.1,
+      "end": 578.6,
+      "text": "Central and then we also have to select an avalara mandate which determines uh when we send our invoices to Avalar this mandate specifies what checks should be done to verify uh if the right fields and so on are provided since we are in a GB environment and I want to demo a businessto"
+    },
+    {
+      "t": 578.6,
+      "end": 598.6,
+      "text": "business scenario with pble I'm going to find that in the list so GB B2B pble select that and then that is what will be used when we send with this service just to uh compare how it was with uh pagero I'll switch to another company where I have the pagero setup here so you"
+    },
+    {
+      "t": 598.6,
+      "end": 617.4,
+      "text": "can see it's still very very similar um the URLs are already filled out for you you just provide like these small pieces of information so in pagero for instance it it is the company ID you need to provide but with avalara we are we asking for client ID and client"
+    },
+    {
+      "t": 617.4,
+      "end": 632.9,
+      "text": "secret and that's essentially everything the service is using the pble format and uh then let's go see how we send an invoice using it so I'll just go go to customers I will select the tray"
+    },
+    {
+      "t": 632.9,
+      "end": 648.4,
+      "text": "research and as you can see here we have the document sending profile set for this customer to e doents allowing us to actually use the E doent framework when we post invoices so let's create a new sales"
+    },
+    {
+      "t": 648.4,
+      "end": 666.4,
+      "text": "invoice and from here we will just have to fill out a couple of things so the first thing I will fill out is the reference as that is required by the P format and then I will sell a let's say a desk and we will just sell"
+    },
+    {
+      "t": 666.4,
+      "end": 678.3,
+      "text": "one and then as Alexander said before we've also added in the pble format that we can send uh attachments so I will also go ahead and actually attach a PDF"
+    },
+    {
+      "t": 678.3,
+      "end": 690.6,
+      "text": "here so we will just use this invoice sample like so and that is everything we need to just go ahead and uh post it"
+    },
+    {
+      "t": 690.6,
+      "end": 704.3,
+      "text": "and then this will uh take the invoice create a XML format in Pebble and then send that to avalara that will then send it on to the receiving end and we'll see that in just a"
+    },
+    {
+      "t": 704.3,
+      "end": 724.4,
+      "text": "second there we go and then we just uh open the posted invoice and then we navigate to the E doent that has been created and here we can see that the E doent is in pending response State and this is because the way it works with avalara is that we we send the"
+    },
+    {
+      "t": 724.4,
+      "end": 744.7,
+      "text": "the invoice to them then they will do some processing to with the mandate to verify that the correct things are provided and then we will have to actually send another request to Avalar asking if the the processing of this invoice was successful so normally or in production this is happening in the background automatically you don't have to do"
+    },
+    {
+      "t": 744.7,
+      "end": 755,
+      "text": "anything but because we are in a demo today I will just go ahead and and Trigger this in our job"
+    },
+    {
+      "t": 755,
+      "end": 759.4,
+      "text": "tues like"
+    },
+    {
+      "t": 759.4,
+      "end": 779.4,
+      "text": "so and now we can see that the document is indeed sent so this is all you need to do to uh to send with our allow let's let's look at it from the other side which we want to receive so I'm going to change to a different company uh trade research and now we want to receive invoices from our vendors so I'm going"
+    },
+    {
+      "t": 779.4,
+      "end": 799.5,
+      "text": "to go to E doents and here we can see we have already received documents before um and then we can open up e doent services from here and just as with the other company we have set up a service that is using the avalara integration one thing I will add is that you should uh you should set a"
+    },
+    {
+      "t": 799.5,
+      "end": 819.9,
+      "text": "to import when you're using this in production such that every x amount of time we will run and check if there is a new incoming documents because we are again running running at demo today I will just do this manually so I will click the receive action to see if there's anything new and this will just run for a little bit it says processing eent so it found one"
+    },
+    {
+      "t": 819.9,
+      "end": 840.6,
+      "text": "and it will create the purchase invoice so let's go back to the list and from here you can see we got a new entry we can open that up and we can see everything is as it should be it's uh created it says import document created and we can actually also open the purchase invoice that we generated for you"
+    },
+    {
+      "t": 840.6,
+      "end": 861.4,
+      "text": "and you can see it here and it also has the attachment um that we attached when we send it and that's essentially for sending and receiving with avalara thank you Magnus um as you can see this is something uh what we deliver in this wave and you can insect some other connectors and other features uh in X miners"
+    },
+    {
+      "t": 861.4,
+      "end": 881.5,
+      "text": "in the meantime call for Action uh if you didn't start to use electronic documents earlier we have on YouTube uh recordings from previous VES so you can familiarize yourself little bit more in details of what we have in electronic documents so because today you could see only what is new so please watch old videos to see"
+    },
+    {
+      "t": 881.5,
+      "end": 896,
+      "text": "what we had in the beginning how it works the total and then you can easily understand what is new in this release and how we are improving this feature okay thank you for watching us thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.04,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.909,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.9190000000000005,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2491
+}

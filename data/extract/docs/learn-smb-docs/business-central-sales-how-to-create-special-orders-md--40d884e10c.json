@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-how-to-create-special-orders.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-to-create-special-orders",
+  "title": "How to Create special orders",
+  "blob": "46ea133b90797a0991d32bc5ffad299da4d2bc89",
+  "summary": "Create special orders links purchase and sales orders to ensure specific catalog items are shipped to customers through vendors.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "special orders",
+    "purchase orders",
+    "sales orders",
+    "order linking",
+    "vendor management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Order"
+    },
+    {
+      "type": "page",
+      "name": "Requisition Worksheets"
+    }
+  ],
+  "features": [
+    "special order purchasing",
+    "purchase order creation",
+    "order requisition",
+    "planning system integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00293,
+      "pages_in_call": 8
+    }
+  ]
+}

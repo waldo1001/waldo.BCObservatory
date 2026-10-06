@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-how-process-sales-returns-orders.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-process-sales-returns-orders",
+  "title": "Process sales return orders",
+  "blob": "52f8f0581bb2224d323f2dc2b52119c8cab08198",
+  "summary": "Processing sales return orders with automatic creation of credit memos and related documents. Includes creating replacement sales orders, purchase return orders, and adding restock charges.",
+  "systems": [
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "sales returns",
+    "credit memos",
+    "return orders",
+    "replacement orders",
+    "restock charges"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Return Order"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Document Lines"
+    },
+    {
+      "type": "page",
+      "name": "Move Negative Sales Lines"
+    }
+  ],
+  "features": [
+    "sales return order",
+    "get posted document lines",
+    "create replacement order",
+    "create return-related documents",
+    "restock charge",
+    "item charges"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003715,
+      "pages_in_call": 8
+    }
+  ]
+}

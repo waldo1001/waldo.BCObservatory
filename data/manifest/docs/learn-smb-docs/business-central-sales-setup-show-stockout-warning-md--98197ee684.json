@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-setup-show-stockout-warning",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "a8801a927c19941f98af5a13f04efb72aa75fbeb",
       "words": 134,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:10:12.213Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00293
     }
   },
   "input_hash": "a8801a927c19941f98af5a13f04efb72aa75fbeb",
@@ -39,5 +46,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a8801a927c19941f98af5a13f04efb72aa75fbeb"
+  "output_hash": "380f1c0c37452100effab4ba7d1249078a26ce404cb94a752488311ace8c27e8"
 }

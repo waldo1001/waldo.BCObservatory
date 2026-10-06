@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-to-calculate-order-promising-dates",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9dc85ec6f0e36596390dc1ab31c45791f4ee3517",
       "words": 1471,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:09:43.891Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.003715
+    },
+    "summarized": {
+      "at": "2026-10-06T19:09:51.121Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:09:51.122Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:09:51.123Z",
+      "page": false
     }
   },
   "input_hash": "9dc85ec6f0e36596390dc1ab31c45791f4ee3517",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9dc85ec6f0e36596390dc1ab31c45791f4ee3517"
+  "output_hash": "c5307f5abf4ee5ab3d872f3df5adcb09af07715f2d9d378977726b8b2a2db1d8"
 }

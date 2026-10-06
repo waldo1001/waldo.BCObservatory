@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-how-work-standard-lines.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-work-standard-lines",
+  "title": "Standard recurring sales lines",
+  "blob": "67a7c41c40ba0fdd25def4cd3819205c1610f29c",
+  "summary": "Create recurring sales lines for items sold repeatedly to customers, then insert them on sales documents or batch create invoices with the Create Recurring Sales Invoices job.",
+  "systems": [
+    "sales"
+  ],
+  "topics": [
+    "recurring sales",
+    "standard lines",
+    "sales invoices",
+    "batch processing",
+    "customer management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Recurring Sales Lines"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "Create Recurring Sales Invoices"
+    }
+  ],
+  "features": [
+    "recurring sales lines",
+    "standard sales lines",
+    "batch invoice creation",
+    "direct debit integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00293,
+      "pages_in_call": 8
+    }
+  ]
+}

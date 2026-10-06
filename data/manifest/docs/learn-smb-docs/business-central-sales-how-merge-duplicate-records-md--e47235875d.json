@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6f475c9264148138cf7e86b8000a80984c70b5e9",
       "words": 797,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:09:43.884Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003715
+    },
+    "summarized": {
+      "at": "2026-10-06T19:09:51.097Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:09:51.098Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:09:51.100Z",
+      "page": false
     }
   },
   "input_hash": "6f475c9264148138cf7e86b8000a80984c70b5e9",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6f475c9264148138cf7e86b8000a80984c70b5e9"
+  "output_hash": "969fd7898f79ad9e4dec394c9940f652841e51b04f48f199eb63ace18fa57f16"
 }

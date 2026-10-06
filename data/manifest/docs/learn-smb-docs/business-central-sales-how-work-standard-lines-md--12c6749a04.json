@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-work-standard-lines",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "67a7c41c40ba0fdd25def4cd3819205c1610f29c",
       "words": 770,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:10:12.212Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.00293
     }
   },
   "input_hash": "67a7c41c40ba0fdd25def4cd3819205c1610f29c",
@@ -45,5 +52,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "67a7c41c40ba0fdd25def4cd3819205c1610f29c"
+  "output_hash": "fc65e3ef37120cda791e6d21de1b61f3552da76227f9d389b5b356b3ed3dde4c"
 }

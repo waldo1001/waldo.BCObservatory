@@ -1,0 +1,409 @@
+{
+  "video_id": "hba7KVWrIwY",
+  "item_id": "video/yt-microsoft/hba7KVWrIwY",
+  "title": "What's New: E-Documents (2024 release wave 2)",
+  "duration_s": 896,
+  "systems": [
+    "localization",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "e-documents",
+    "electronic invoicing",
+    "avalara",
+    "pagero",
+    "b2b",
+    "b2g",
+    "connectors",
+    "attachments",
+    "regulatory compliance"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and E-Documents Overview",
+      "t_start": 0,
+      "t_end": 43.7
+    },
+    {
+      "title": "E-Documents Framework and Purpose",
+      "t_start": 43.7,
+      "t_end": 104.4
+    },
+    {
+      "title": "B2G and B2B Regulatory Requirements",
+      "t_start": 104.4,
+      "t_end": 165.2
+    },
+    {
+      "title": "Global Mandate Timeline and Voluntary Usage",
+      "t_start": 165.2,
+      "t_end": 225.8
+    },
+    {
+      "title": "Framework Improvements and New Connectors",
+      "t_start": 225.8,
+      "t_end": 326.6
+    },
+    {
+      "title": "Attachments, Search, API, and Localizations",
+      "t_start": 326.6,
+      "t_end": 407.4
+    },
+    {
+      "title": "E-Documents Localizations and Country Rollout",
+      "t_start": 407.4,
+      "t_end": 480.8
+    },
+    {
+      "title": "Demo: Sending Invoices with Avalara",
+      "t_start": 480.8,
+      "t_end": 690.6
+    },
+    {
+      "title": "Demo: Receiving and Processing Documents",
+      "t_start": 690.6,
+      "t_end": 840.6
+    },
+    {
+      "title": "Conclusion and Call to Action",
+      "t_start": 840.6,
+      "t_end": 896
+    }
+  ],
+  "features": [
+    {
+      "name": "New E-Document Connectors",
+      "description": "Addition of new default endpoints including Avalara, B2B Router, Contineo, Logic Sign, Every, and Commerce in collaboration with partners. Eight default connectors total by end of wave.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 225.8,
+      "t_end": 306.6,
+      "is_demoed": true,
+      "caveats": [
+        "Connectors developed with partners in open source collaboration model",
+        "Commercial terms require separate contracts with providers",
+        "Code review process may delay immediate availability"
+      ],
+      "tags": [
+        "connectors",
+        "integration",
+        "partners"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Attachments as Encoded Objects in XML",
+      "description": "Feature to include encoded attachments within XML files to improve human readability of electronic documents beyond machine-readable format.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 326.6,
+      "t_end": 366.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "attachments",
+        "xml",
+        "peppol"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Improved Search in E-Documents",
+      "description": "Enhancement to search functionality in e-documents module to make it easier to find documents without requiring special characters like dashes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 366.9,
+      "t_end": 387.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "search",
+        "usability"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "E-Documents Framework Stabilization",
+      "description": "Focus on stabilizing the e-documents framework through work on small internal features to ensure reliability and robustness of the platform.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 366.9,
+      "t_end": 407.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "framework",
+        "stability"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "E-Documents APIs",
+      "description": "APIs for e-documents to enable reuse in purchasing and sales processes. Postponed from major release to allow for API improvements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 387.1,
+      "t_end": 407.4,
+      "is_demoed": false,
+      "caveats": [
+        "Timeline is approximate - delivery expected at version 25.3"
+      ],
+      "tags": [
+        "api",
+        "integration",
+        "roadmap"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Peppol Format with Data Exchange Definition",
+      "description": "Peppol B3 format available by default in W1 with both code and data exchange definition provided as a showcase for building custom formats.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 407.4,
+      "t_end": 440.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "peppol",
+        "format",
+        "framework"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "UBL/XML Format for Germany",
+      "description": "UBL/XML format localization for Germany to ensure compliance with mandatory electronic invoicing requirements effective January 2025.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 440.6,
+      "t_end": 480.8,
+      "is_demoed": false,
+      "caveats": [
+        "Delivery scheduled for December 2024"
+      ],
+      "tags": [
+        "germany",
+        "ubl",
+        "mandatory"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Fattura PA Format for Spain",
+      "description": "Fattura PA format localization for Spain to meet compliance requirements for mandatory electronic invoicing starting January 2025.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 440.6,
+      "t_end": 480.8,
+      "is_demoed": false,
+      "caveats": [
+        "Delivery scheduled for December 2024",
+        "Will be mandatory usage in Spain from 2025"
+      ],
+      "tags": [
+        "spain",
+        "fattura",
+        "mandatory"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Peppol Format for Australia and New Zealand",
+      "description": "Peppol format localization for Australia and New Zealand for recommended B2B electronic invoicing usage.",
+      "status": "announced",
+      "status_evidence_t": 460.6,
+      "status_evidence_quote": "P and Z format for Australia New Zealand will come after new year",
+      "status_evidence_verified": true,
+      "t_start": 440.6,
+      "t_end": 480.8,
+      "is_demoed": false,
+      "caveats": [
+        "Delivery scheduled for after January 2025"
+      ],
+      "tags": [
+        "australia",
+        "newzealand",
+        "peppol"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Avalara Integration",
+      "description": "New integration with Avalara for sending and receiving electronic invoices with setup requiring client ID, client secret, and company ID mapping.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 480.8,
+      "t_end": 690.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Avalara account and credentials",
+        "Mandate selection determines validation checks"
+      ],
+      "tags": [
+        "avalara",
+        "connector",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Document Sending Profile for Customers",
+      "description": "Feature to set document sending profiles on customer master data to enable automatic routing through e-documents framework when posting sales invoices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 632.9,
+      "t_end": 690.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales",
+        "profile",
+        "automation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Automatic Scheduled Import for Receiving Documents",
+      "description": "Feature to configure automatic scheduled imports to periodically check for and receive incoming electronic documents from vendors without manual intervention.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 759.4,
+      "t_end": 819.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "purchasing",
+        "automation",
+        "receiving"
+      ],
+      "system": "purchasing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "E documents",
+      "t": 500.9
+    },
+    {
+      "type": "page",
+      "name": "E doent services",
+      "t": 500.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander toic",
+      "confidence": "medium"
+    },
+    {
+      "name": "Magnus",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 63.8,
+      "text": "our main focus is to manage all incoming and outcoming documents but current Focus for Microsoft side is still electronic invoicing exchange",
+      "why_it_matters": "Clarifies that e-documents module is a general hub but Microsoft's current priority is electronic invoicing specifically.",
+      "check": "snapped"
+    },
+    {
+      "t": 84.2,
+      "text": "this framework is designed to be easy extendable and allowing all isvs or other partners to integrate various type of electronic documents",
+      "why_it_matters": "Explains the platform's open architecture strategy for accommodating diverse document types and partner contributions.",
+      "check": "snapped"
+    },
+    {
+      "t": 144.8,
+      "text": "B2B mandat being mandatory was a trigger for us so if you look right now this is mandatory in Denmark in Belgium in Italy",
+      "why_it_matters": "Identifies the key regulatory drivers for e-invoicing development across multiple countries.",
+      "check": "exact"
+    },
+    {
+      "t": 286.4,
+      "text": "until the end of this wave we will have eight default connectors so you can choose what you want to use",
+      "why_it_matters": "Specifies the target number of connectors available in this release wave.",
+      "check": "exact"
+    },
+    {
+      "t": 387.1,
+      "text": "the most probably 25.3 we will deliver e documents API so you can reuse them in a Bo and purchase and sales process",
+      "why_it_matters": "Announces the roadmap for e-documents APIs to enable broader business process integration.",
+      "check": "exact"
+    },
+    {
+      "t": 460.6,
+      "text": "in December we will deliver ex and in Germany and fatura a in Spain so uh this country will be a compliance uh from",
+      "why_it_matters": "Provides specific delivery dates for localized formats required by regulatory mandates in key markets.",
+      "check": "exact"
+    },
+    {
+      "t": 520.4,
+      "text": "we don't actually have to add a lot of things we have to provide the client ID and the client SE secet as well",
+      "why_it_matters": "Demonstrates the simplified setup process for new connector integrations like Avalara.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 225.8,
+      "kind": "coming-later",
+      "text": "new default end points they will not be available immediately from this major release so first will come with 25.1 and others will be deliver in this period"
+    },
+    {
+      "t": 266.4,
+      "kind": "coming-later",
+      "text": "majority of these connectors are uh made in collaboration with these partners and we are making a review of code so code quality must be the same as Microsoft is delivering so this is why it cannot be delivered immediately but you can expect that very soon you will have all these connectors"
+    },
+    {
+      "t": 387.1,
+      "kind": "coming-later",
+      "text": "we decided to postpone because we got some better idea how we can improve this API so we wanted to take some additional time so the most probably 25.3 we will deliver e documents API"
+    },
+    {
+      "t": 440.6,
+      "kind": "coming-later",
+      "text": "from December this year until the April 25th we will um deliver this format to be more accurate uh in December we will deliver ex and in Germany and fatura a in Spain"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 11
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030986
+    }
+  ]
+}

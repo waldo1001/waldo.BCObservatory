@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-how-track-packages.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-track-packages",
+  "title": "Track packages",
+  "blob": "e60e608ce1c7e1c3e35b35e3e5a0b8af46d6d008",
+  "summary": "Track packages in transit by entering tracking numbers from shipping agents on posted sales shipments, invoices, credit memos, and return receipts.",
+  "systems": [
+    "sales",
+    "warehouse"
+  ],
+  "topics": [
+    "package tracking",
+    "shipping agents",
+    "posted shipments",
+    "customer service"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Posted Sales Shipment"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Credit Memo"
+    },
+    {
+      "type": "page",
+      "name": "Posted Return Receipt"
+    }
+  ],
+  "features": [
+    "package tracking service",
+    "tracking number entry",
+    "shipment tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00293,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-how-merge-duplicate-records.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-merge-duplicate-records",
+  "title": "Merge duplicate customer or vendor records",
+  "blob": "6f475c9264148138cf7e86b8000a80984c70b5e9",
+  "summary": "Merging duplicate customer, vendor, or contact records by comparing field values and selecting which values to keep. Users need the MERGE DUPLICATES permission set to access this functionality.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "crm"
+  ],
+  "topics": [
+    "duplicate records",
+    "data quality",
+    "customer management",
+    "vendor management",
+    "contacts"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Merge Duplicate"
+    },
+    {
+      "type": "page",
+      "name": "Merge Duplicate Conflicts"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    }
+  ],
+  "features": [
+    "merge duplicates",
+    "override field values",
+    "resolve merge conflicts",
+    "remove duplicate",
+    "rename duplicate"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003715,
+      "pages_in_call": 8
+    }
+  ]
+}

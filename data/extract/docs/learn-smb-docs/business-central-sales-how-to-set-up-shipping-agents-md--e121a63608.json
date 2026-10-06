@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-how-to-set-up-shipping-agents.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-to-set-up-shipping-agents",
+  "title": "How to Set Up Shipping Agents",
+  "blob": "4ef8af8a497fe4a357fb25b08b01cfc09138278f",
+  "summary": "Set up shipping agents with services and tracking information to enable package tracking and shipping time calculations for order promising.",
+  "systems": [
+    "sales",
+    "warehouse"
+  ],
+  "topics": [
+    "shipping agents",
+    "package tracking",
+    "order promising",
+    "shipping services",
+    "logistics"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Shipping Agents"
+    },
+    {
+      "type": "page",
+      "name": "Shipping Agent Services"
+    }
+  ],
+  "features": [
+    "shipping agent setup",
+    "shipping services",
+    "package tracking",
+    "order promising dates"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00293,
+      "pages_in_call": 8
+    }
+  ]
+}

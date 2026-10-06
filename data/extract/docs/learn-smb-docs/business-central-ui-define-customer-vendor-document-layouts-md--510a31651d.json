@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-define-customer-vendor-document-layouts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts",
+  "title": "Assign document layouts to customers or vendors",
+  "blob": "5bd70d910e773c6c348d42f2542cb9a05f82fa30",
+  "summary": "Assign document layouts to customers and vendors to define the appearance of sales and purchase documents, and specify contact email addresses for document distribution.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "administration"
+  ],
+  "topics": [
+    "document layouts",
+    "report layouts",
+    "customer management",
+    "vendor management",
+    "email distribution"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    },
+    {
+      "type": "page",
+      "name": "Document Layouts"
+    },
+    {
+      "type": "page",
+      "name": "Report Selections"
+    },
+    {
+      "type": "page",
+      "name": "Contacts"
+    }
+  ],
+  "features": [
+    "document layout assignment",
+    "custom report layouts",
+    "email distribution layouts",
+    "contact email addresses"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00293,
+      "pages_in_call": 8
+    }
+  ]
+}

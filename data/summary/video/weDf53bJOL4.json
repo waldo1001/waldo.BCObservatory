@@ -1,0 +1,27 @@
+{
+  "video_id": "weDf53bJOL4",
+  "item_id": "video/yt-microsoft/weDf53bJOL4",
+  "summary": "AL Go for GitHub changes in the 2024 release wave 2: commit SHA references for non-AL Go actions, federated credentials and managed identities, NuGet symbols for AppSource apps with trusted feeds, performance tests, and the planned move away from BC Container Helper over 2 to 3 years.",
+  "overview": "The session covers what is new in AL Go for GitHub in release wave 2 of 2024. It starts with security: non-AL Go actions are referenced by commit SHA, pre-commit was added for file consistency, and federated credentials and managed identities remove most secrets. The tenant ID and client ID are still kept in the secrets template.\n\nIt then covers NuGet support. Symbols for AppSource apps are on a public NuGet feed, trusted feeds are configured in settings, and Deliver to NuGet now uses the same one-package-per-app mechanism as GitHub packages. Other topics are performance tests with baseline comparison and thresholds, the BC samples tag, the BC Container Helper deprecation plan, managed DevOps recommendations, and future items (runtime packages on NuGet, first-party apps in NuGet, page scripting tests in CI/CD, template customization). The speaker gives no timeline or promise for the future items.",
+  "key_points": [
+    "Non-AL Go GitHub actions are now referenced by commit SHA; AL Go actions keep version numbers such as 5.3 so hotfixes can be delivered.",
+    "Federated credentials and managed identities remove most secrets. Tenant ID and client ID stay in the secrets template, and an exposed access token is valid for typically one hour.",
+    "Symbols for all AppSource apps are on a public NuGet feed. Microsoft feeds are trusted by default; do not trust nuget.org unless prefixes or fingerprints are registered. Federated credentials are not yet supported for feed authentication.",
+    "Deliver to NuGet now uses one package per app, matching the GitHub packages mechanism. GitHub package names change to app name plus app ID, while resolution still uses app ID.",
+    "Performance tests run in CI/CD or scheduled runs, compare against a baseline, and have separate warning and failure thresholds for duration and SQL statement counts. A baseline must be set up manually or copied from earlier runs.",
+    "AL Go will stop using BC Container Helper gradually over 2 to 3 years. Self-made DevOps solutions will need to migrate, and the new PowerShell module commands will not be compatible with BC Container Helper.",
+    "BC sample repositories can be found through the BC samples tag at aka.ms/bcsamples and forked to get a full AL Go and Power Platform setup."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "910e4ea83f6ff5e1ac8795f4e89a581419b144696afa3a3b46fb3c9c3ed5a1fa",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.029938399999999997
+  }
+}

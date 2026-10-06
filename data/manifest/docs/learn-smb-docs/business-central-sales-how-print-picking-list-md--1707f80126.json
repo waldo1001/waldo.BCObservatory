@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-print-picking-list",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ea48e24b2ee99b33628403f7367bad4e5e8e2506",
       "words": 404,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:09:43.885Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003715
+    },
+    "summarized": {
+      "at": "2026-10-06T19:09:51.102Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:09:51.104Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:09:51.105Z",
+      "page": false
     }
   },
   "input_hash": "ea48e24b2ee99b33628403f7367bad4e5e8e2506",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ea48e24b2ee99b33628403f7367bad4e5e8e2506"
+  "output_hash": "8be0f125ee152f2fc7bc0272b9c43d6358e45478ee8a48228b9239d2e97258d7"
 }

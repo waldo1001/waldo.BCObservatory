@@ -1,0 +1,326 @@
+{
+  "video_id": "pEXl-POet_4",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.4,
+      "end": 27,
+      "text": "hello and welcome to what's new in projects and service management we continue our investment into the industry specific areas of business Central you already know that we are adding integration to Dynamics 365 field service and the business Central and the service management model people"
+    },
+    {
+      "t": 27,
+      "end": 47.2,
+      "text": "usually developers who are using Insider build all already noticed some rare architecture happening in the internals of service management where we are transforming it to behave like IV solution and use the same patterns and dependencies but we also continue to polish project and service management functionality to align it with"
+    },
+    {
+      "t": 47.2,
+      "end": 67.4,
+      "text": "other parts of application and in this video I would like to focus on exactly this part let's start with project management area we continue our journey related to up taking of Rich warehouse and inventory capabilities and now we are also supporting locations where directed"
+    },
+    {
+      "t": 67.4,
+      "end": 79.6,
+      "text": "put away and PE is enabled we also added extra capability to do replenishment for projects in addition to planning worksheet or order planning"
+    },
+    {
+      "t": 79.6,
+      "end": 99.6,
+      "text": "capabilities we also getting some uh features developed by Community via Cod development contribution and this one of the example extend the text we also did number of UI alignments all the way let's start with the demo let's navigate to the project list I'm now in the project"
+    },
+    {
+      "t": 99.6,
+      "end": 120,
+      "text": "manager rolling Center and when I mentioned U improvements you probably expect me to mention that we are adding more columns here not this time this time we are adding more actions and for example we are adding project we cockpit action right to the project list this functionality is quite powerful"
+    },
+    {
+      "t": 120,
+      "end": 139.7,
+      "text": "and useful if you're dealing with work in progress for projects and because it's a little bit hidden not everybody knows about it existence for example it allows you to delete work in progress entries which allows you to change the viip method in the project and try a different one"
+    },
+    {
+      "t": 139.7,
+      "end": 160.2,
+      "text": "right but this is existing functionality getting closer what else available here not on the main menu because usually we're trying to add actions but do not promote them unless it's necessary uh it will give you choice to actually use personalization capabilities to pin what is needed let's for example go to the"
+    },
+    {
+      "t": 160.2,
+      "end": 180.2,
+      "text": "project assembly orders you remember that in previous release we deed assembly to order capability and you can navigate to assembly from cardart now from the list as well but what else we can see here we can also see Warehouse capabilities and let's take a look at the peak lines yeah what what do we"
+    },
+    {
+      "t": 180.2,
+      "end": 200.4,
+      "text": "see here Warehouse PE lines because somebody probably me already created Warehouse Peak for this project and what do we see here we see here a white location and for people who working with business Central for a long time already know the synonym of white location as location where the most"
+    },
+    {
+      "t": 200.4,
+      "end": 220.6,
+      "text": "uh comprehensive or Advanced Warehouse capabilities enabled it's directed put away and pick so it's enabled for this location and now you can use it for project as well you can see that project consumption will work as Warehouse Peak mandatory all right let's navigate to the"
+    },
+    {
+      "t": 220.6,
+      "end": 235.4,
+      "text": "warehouse Peak document and register it to make sure that it actually works as expected all right so we completed the peck let's open the document and explore uh internally what's happening with this"
+    },
+    {
+      "t": 235.4,
+      "end": 256.2,
+      "text": "project all right the first project task where you can see is a location and being selected right there or which can be defaulted to different values that's something we added earlier now let's navigate to the project planning lines and we can see here project planning line yeah with the element"
+    },
+    {
+      "t": 256.2,
+      "end": 267.1,
+      "text": "which we can transfer to the uh project Journal because now we want to you perform consumption of it or actually register"
+    },
+    {
+      "t": 267.1,
+      "end": 287.4,
+      "text": "usage okay it is transferred now let's let's open it and it is here we can post it we will not post it we will do posting preview feature my favorite ones uh because we can see the results without actual changing data in the database all right project Ledger entry is here value entry is here Warehouse entry"
+    },
+    {
+      "t": 287.4,
+      "end": 302.1,
+      "text": "is also here for white location where we consuming uh picked items what if I will go and change quantity from two which was originally picked to let's say"
+    },
+    {
+      "t": 302.1,
+      "end": 322.4,
+      "text": "five expected yeah because we didn't pick five we picked only two and this is exactly what uh business Central tells us about all right so that was about directed Peck and put away support we have one limitation still pending we will talk about it in"
+    },
+    {
+      "t": 322.4,
+      "end": 342.6,
+      "text": "uh later stage today the next one is extended text you can see how I call it let's open it in the different mode introduced in the previous release but you know we do multi-release enhancements now we have project task and we can see the item here let's scroll"
+    },
+    {
+      "t": 342.6,
+      "end": 354.6,
+      "text": "to the right a little bit item semi-automatic two pieces and we can see new function insert extended text added by Vi code development"
+    },
+    {
+      "t": 354.6,
+      "end": 374.8,
+      "text": "project all right I will press the button and what we can see extend the text was added we can of course configure it to be automatically inserted for projects or for invoices or whatever document you like so you can configure different ones for different purposes why do we need those to be able to"
+    },
+    {
+      "t": 374.8,
+      "end": 387.6,
+      "text": "print Let's uh navigate to print sent and choose preview project quote let's use a preview and uh Zoom a little"
+    },
+    {
+      "t": 387.6,
+      "end": 407.9,
+      "text": "bit now you can see that text is also printed on the quote thank you for contributing next element will be about replenishment you know that we already have assembly to order to build right for the project you can also use planning worksheet with most advanced planning capabilities"
+    },
+    {
+      "t": 407.9,
+      "end": 428.1,
+      "text": "or order planning uh for order per order execution but sometimes people would like to do planning from the project right away that's why we will go to the project planning lines see what we have here and I have here remote pump and power cord which are needed"
+    },
+    {
+      "t": 428.1,
+      "end": 447.4,
+      "text": "both in quantity 10 and then I have new action hiding very well under the actions functions and very bottom it actually behaves very similar to what we already know in the sales order document it goes through the content and it analyze"
+    },
+    {
+      "t": 447.4,
+      "end": 467.7,
+      "text": "availability uh what can be used and suggest to buy what is missing and you can see that it suggest to buy 10 and eight why eight because guess we already have something available or on its way actually and then we have two extra ways how to create purchase documents"
+    },
+    {
+      "t": 467.7,
+      "end": 488.7,
+      "text": "this is a big difference comparing to uh sales area where it actually doesn't matter if you reserve or not it just adds reservation but here the change will be noticeable I will activate Reserve in one line but keep it blank for another one and press"
+    },
+    {
+      "t": 488.7,
+      "end": 509.8,
+      "text": "okay because both are purchased from the same vendor we will get the same purchase order uh on the screen and we can scroll a little bit F further down to see what is actually will be purchased yeah both components will be here quantity 10 and 8 as expected but"
+    },
+    {
+      "t": 509.8,
+      "end": 530.5,
+      "text": "quantity reserved only for one line which is fair because this is exactly what we wanted to see but there is one more difference and if I will scroll to the right to the project number and project task number which I made added via personalization you can see that it is populated only for the first line and the second line"
+    },
+    {
+      "t": 530.5,
+      "end": 550.6,
+      "text": "doesn't have those which is not a problem it's still reserved for exactly that project so once I will register purchase which I will do right now you can see there are three item Ledger entries first item F100 F100 is"
+    },
+    {
+      "t": 550.6,
+      "end": 572.5,
+      "text": "purchased and used for the project immediately so it immediately get consumed the second item is only purchased and now it is in inventory but it is reserved for specific project so now you decide actually how you want to process the purchase document linked to the the project"
+    },
+    {
+      "t": 572.5,
+      "end": 592.6,
+      "text": "immediately uh register usage or do it later the second mod is uh actually very useful for warehouse integration because we do not support Warehouse receipt scenarios for projects it means if you are using white location with directed pick"
+    },
+    {
+      "t": 592.6,
+      "end": 609.2,
+      "text": "and putaway you cannot post purchase via wherehouse receipt and expect it to be immediate ly consumed not yet at least all right so that's what I wanted to tell you accept one extra"
+    },
+    {
+      "t": 609.2,
+      "end": 627.6,
+      "text": "thing all right I mentioned that we have something available how do I know that we also added item availabilities in different places for example in Project planning lines and project journals let's look at the availability by"
+    },
+    {
+      "t": 627.6,
+      "end": 647.8,
+      "text": "event and expand it and you can see that we have project and two purchases with quantity two and eight the eight is the one which we created just a few minutes ago okay we can also navigate to the created purchase documents if you can use"
+    },
+    {
+      "t": 647.8,
+      "end": 667.9,
+      "text": "uh related project planning lines and purchase lines okay this is the in case if it's not reserved you can navigate to the purchase lines this way to summarize what has changed for projects ignoring the like old journey by now"
+    },
+    {
+      "t": 667.9,
+      "end": 686.2,
+      "text": "because it was multiple releases when we did multiple improvements finally we get uh directed put away and locations supported we have a more convenient way to do replenishment for projects and user experience is like very much aligned with what we saw in as"
+    },
+    {
+      "t": 686.2,
+      "end": 706.3,
+      "text": "areas and now let's talk about service management it also gets ux improvements obviously but we also getting archiving capabilities which we are missing in service area for service quotes and orders we also added support for report selection in one"
+    },
+    {
+      "t": 706.3,
+      "end": 726.4,
+      "text": "extra report and uh we will talk about filing of service contracts and quote contracts which were available before but now gets improved all right now I'm in in the service manager rolet Center and here we will start with the service quote I will open my list of service quotes"
+    },
+    {
+      "t": 726.4,
+      "end": 747,
+      "text": "here what we see oh we can see the document attachments actually looking very good you can upload it right here so you don't need to click this number anymore but this is a generic Improvement you already saw it in different places not a service specific of course if you're talking about ux alignment"
+    },
+    {
+      "t": 747,
+      "end": 767,
+      "text": "and improvements usually we mention the columns and yeah we didn't added columns in the projects area but for service we could not control ourselves and we added your reference here as well in the majority of the list so now you can find the right document without opening the card all right what next we will do we"
+    },
+    {
+      "t": 767,
+      "end": 787,
+      "text": "will do make order we use this action to convert quote to order this is a familiar confirmation but now something new something new in this service people who already used purchase area or sales where you converted sales quote to the sales order or same for purchase you already know"
+    },
+    {
+      "t": 787,
+      "end": 801.4,
+      "text": "about this useful dialog which allows you to jump directly to the newly created order we can do that in the service as well this feature is added via Cod development"
+    },
+    {
+      "t": 801.4,
+      "end": 821.7,
+      "text": "project all right this is service order which is uh right here let's do one thing first let's AR arive it yes do we want to Archive it of course we do all right number of archived versions here what do we do next we will start changing it let's delease this"
+    },
+    {
+      "t": 821.7,
+      "end": 835.6,
+      "text": "line let's scroll down and find this your reference and change it to something absolutely different all right what next probably what next we will go to archived versions"
+    },
+    {
+      "t": 835.6,
+      "end": 847,
+      "text": "explored and we can see there is a restore setion and of course we want to try it and the document has been"
+    },
+    {
+      "t": 847,
+      "end": 858.8,
+      "text": "restored let's close everything uh service quote and find our service order of course we cannot restore the document itself it will be closed so we need to reopen it again"
+    },
+    {
+      "t": 858.8,
+      "end": 877.1,
+      "text": "so yeah document attachment uh does it look familiar yes now it again has two lines and it has a old reference which we mentioned form so what else do we want to look here let's open the Service item"
+    },
+    {
+      "t": 877.1,
+      "end": 894.3,
+      "text": "worksheet and press print button actually nothing suspicious here or nothing new from the user perspective you will not notice change uh because it behaves the same for new environment and for upgraded environment but"
+    },
+    {
+      "t": 894.3,
+      "end": 914.4,
+      "text": "if in your business it's needed to print a different document now you can navigate to the report selection service and you can find the here a new line with a item worksheet where you can change uh report maybe select different layout or maybe you want to print several"
+    },
+    {
+      "t": 914.4,
+      "end": 924.9,
+      "text": "documents at one time all right so we now know how to do archiving we know how to print service"
+    },
+    {
+      "t": 924.9,
+      "end": 944.9,
+      "text": "uh item worksh Street uh what about filing uh actually for service contracts and the service contract quote the archiving functionality already existed it called filing yeah let's open the service contract quote and open it and"
+    },
+    {
+      "t": 944.9,
+      "end": 960.1,
+      "text": "you can find here the button which is called file contract quote okay let's press it do you want to file it yes all right the next step we will convert quote to end order"
+    },
+    {
+      "t": 960.1,
+      "end": 980.4,
+      "text": "we don't want to create invoices no all good so here now we can find the service contract quote here but we will not go there probably people who work with the filing capability they know its limitations it actually didn't support all fields which you expect or tables which you expected to support"
+    },
+    {
+      "t": 980.4,
+      "end": 1000.4,
+      "text": "but also uh filed contract had a tendency to be deleted uh together with the main document but we stopped that let me show to you so now if you go and search for file service contracts yeah it's actually the shareed one it can be for quote and for contract as well you can see the all"
+    },
+    {
+      "t": 1000.4,
+      "end": 1020.6,
+      "text": "filed uh versions even if the quote doesn't exist anymore you can explore what was in the original one and you can see some related tables here and comments there right how do we do that we have some changes in the in the settings let's navigate to the"
+    },
+    {
+      "t": 1020.6,
+      "end": 1041.1,
+      "text": "service management setup and have a quick look at what has happened here in the contract part you can see the new toggle deleted filed contracts which is off so now filed versions of the contract or contract quote will not be deleted if you want ex uh old Behavior you need to activate with toggle back"
+    },
+    {
+      "t": 1041.1,
+      "end": 1062.3,
+      "text": "also for archiving we can see the familiar uh settings for quote where you can actually decide if it will be always question or never and for orders it's like uh on or off uh setting very similar to what we can see in the purchase and sales areas"
+    },
+    {
+      "t": 1062.3,
+      "end": 1081.2,
+      "text": "already uh again now we have contracts files and of course the list can can be uh big how to keep our database under control the same story as usual retention policies you can now add new retention policy and"
+    },
+    {
+      "t": 1081.2,
+      "end": 1093.2,
+      "text": "include uh filed service contract or service header archive there or actually both if necessary and then it will be deleted"
+    },
+    {
+      "t": 1093.2,
+      "end": 1114,
+      "text": "as other retention policy entries will be processed now we know how to archive or file contracts and orders how to change report to be printed when you want to print service item worksheet and also minor uh usability experience uh changes in the service Management"
+    },
+    {
+      "t": 1114,
+      "end": 1119.4,
+      "text": "Area thank you for watching"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.04,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.43,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.44,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2629
+}

@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-how-correct-cancel-sales-invoice.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-correct-cancel-sales-invoice",
+  "title": "Correct or cancel a posted sales invoice",
+  "blob": "cf7812307e6c171bf80b29fc242e9a9bbc1497b9",
+  "summary": "Correcting or canceling unpaid posted sales invoices before shipment is complete. Use the Cancel action to automatically create a reversing credit memo, or the Correct action to create a new invoice and credit memo.",
+  "systems": [
+    "sales"
+  ],
+  "topics": [
+    "sales invoices",
+    "corrections",
+    "cancellations",
+    "credit memos",
+    "posted documents"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoice"
+    }
+  ],
+  "features": [
+    "cancel posted invoice",
+    "correct posted invoice",
+    "create corrective credit memo",
+    "reverse posted invoice",
+    "partial invoice posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003715,
+      "pages_in_call": 8
+    }
+  ]
+}

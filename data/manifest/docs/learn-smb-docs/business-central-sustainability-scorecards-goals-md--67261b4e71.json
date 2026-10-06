@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-scorecards-goals",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "570c5c40592cb059af416fc405f67a138d6d8d73",
       "words": 609,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:10:12.214Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00293
     }
   },
   "input_hash": "570c5c40592cb059af416fc405f67a138d6d8d73",
@@ -45,5 +52,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "570c5c40592cb059af416fc405f67a138d6d8d73"
+  "output_hash": "192e3eee5ad18daadbc8d6c20bbc6c80bca8c19f2d2a29939de2430cea873f21"
 }

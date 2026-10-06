@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-how-set-up-shipment-methods.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-set-up-shipment-methods",
+  "title": "Set Up Shipment Methods",
+  "blob": "b0de28cb67595119e4b8f75428ab9c6732d995a7",
+  "summary": "Setting up shipment methods with codes and descriptions. Shipment methods represent delivery preferences for customers and vendors, and can represent Incoterms rules.",
+  "systems": [
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "shipment methods",
+    "delivery",
+    "incoterms",
+    "setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Shipment Methods"
+    }
+  ],
+  "features": [
+    "shipment method code",
+    "shipment method description",
+    "incoterms setup"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003715,
+      "pages_in_call": 8
+    }
+  ]
+}
