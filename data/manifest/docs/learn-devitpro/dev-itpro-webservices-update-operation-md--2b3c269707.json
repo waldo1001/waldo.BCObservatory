@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/Update-Operation",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "82dcb4e6e4a09ead53e56800610a0a741ada8b45",
       "words": 178,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:40.979Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002966
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:42.698Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:42.699Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:42.700Z",
+      "page": false
     }
   },
   "input_hash": "82dcb4e6e4a09ead53e56800610a0a741ada8b45",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "82dcb4e6e4a09ead53e56800610a0a741ada8b45"
+  "output_hash": "b8b39c300f7637b27373e0be27f60496e7a339365ce59c5bc5e5bd347ade54a6"
 }

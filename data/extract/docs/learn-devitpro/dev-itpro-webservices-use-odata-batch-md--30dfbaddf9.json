@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/webservices/use-odata-batch.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-odata-batch",
+  "title": "Using OData transactional $batch requests",
+  "blob": "65ad5e2f20d113e2b1283b143970e4cc1d1009aa",
+  "summary": "Using OData transactional $batch requests enables multiple inner requests to execute within a single transaction using the Isolation: snapshot header, reverting all changes if any request fails.",
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "odata",
+    "batch requests",
+    "transactions",
+    "web services"
+  ],
+  "objects": [],
+  "features": [
+    "transactional batch requests",
+    "Isolation: snapshot header",
+    "batch processing",
+    "transaction rollback"
+  ],
+  "versions": [
+    "2020 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002966,
+      "pages_in_call": 8
+    }
+  ]
+}

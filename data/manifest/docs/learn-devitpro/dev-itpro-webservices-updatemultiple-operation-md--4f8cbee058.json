@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/UpdateMultiple-Operation",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "52788eb7bf88eb78bac9d2f4d6ba8234b130669d",
       "words": 286,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:40.980Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002966
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:42.701Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:42.702Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:42.702Z",
+      "page": false
     }
   },
   "input_hash": "52788eb7bf88eb78bac9d2f4d6ba8234b130669d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "52788eb7bf88eb78bac9d2f4d6ba8234b130669d"
+  "output_hash": "93a153b067a70dd6441ff64e73e5da381d7576962c20bb2850173f5df16eabd8"
 }

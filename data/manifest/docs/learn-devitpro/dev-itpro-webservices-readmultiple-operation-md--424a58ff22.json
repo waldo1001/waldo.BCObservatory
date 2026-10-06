@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/ReadMultiple-Operation",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ca6ab602194f75fdfb354c3e1f6a5848c4711b5d",
       "words": 427,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:39.200Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002944
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:42.684Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:42.685Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:42.686Z",
+      "page": false
     }
   },
   "input_hash": "ca6ab602194f75fdfb354c3e1f6a5848c4711b5d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ca6ab602194f75fdfb354c3e1f6a5848c4711b5d"
+  "output_hash": "f396666ed8d636de1153987e7c856704c4edfeabfa0933f496ad6b3b6e887abd"
 }

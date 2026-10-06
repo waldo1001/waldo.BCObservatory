@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/return-obtain-an-atompub-document",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f97e0745f36c3bae99d218e56a2746363fc7ad38",
       "words": 605,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:39.200Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002944
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:42.687Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:42.688Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:42.689Z",
+      "page": false
     }
   },
   "input_hash": "f97e0745f36c3bae99d218e56a2746363fc7ad38",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f97e0745f36c3bae99d218e56a2746363fc7ad38"
+  "output_hash": "65957672f2f1ef18ff4725c41c80f79c11f611c56336987f19c7b71d8d7068f7"
 }

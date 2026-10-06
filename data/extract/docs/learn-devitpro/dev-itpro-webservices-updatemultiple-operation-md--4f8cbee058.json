@@ -1,0 +1,34 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/webservices/UpdateMultiple-Operation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/UpdateMultiple-Operation",
+  "title": "UpdateMultiple Operation",
+  "blob": "52788eb7bf88eb78bac9d2f4d6ba8234b130669d",
+  "summary": "UpdateMultiple Operation describes the SOAP web service method for updating multiple records in a single transaction, with note that field updates are processed one at a time.",
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "soap",
+    "web services",
+    "bulk updates",
+    "transactions"
+  ],
+  "objects": [],
+  "features": [
+    "UpdateMultiple method",
+    "batch record updates",
+    "transactional updates",
+    "array operations"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002966,
+      "pages_in_call": 8
+    }
+  ]
+}

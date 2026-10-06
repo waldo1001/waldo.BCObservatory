@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/ReadByRecId-Operation",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "26afa05d98c4559da4b69115aa560806caab92bf",
       "words": 125,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:39.199Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002944
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:42.682Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:42.683Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:42.683Z",
+      "page": false
     }
   },
   "input_hash": "26afa05d98c4559da4b69115aa560806caab92bf",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "26afa05d98c4559da4b69115aa560806caab92bf"
+  "output_hash": "a1e78fbf9b1d4a3b2586eb9fe2eec30b4fb27d8ee577854561a55b0c3b06e324"
 }

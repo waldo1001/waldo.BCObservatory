@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/SOAP-Web-Services",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fc16ec345cf036252ffa585e5d441341e134cb0a",
       "words": 127,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:40.978Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002966
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:42.695Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:42.697Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:42.697Z",
+      "page": false
     }
   },
   "input_hash": "fc16ec345cf036252ffa585e5d441341e134cb0a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fc16ec345cf036252ffa585e5d441341e134cb0a"
+  "output_hash": "dac05a1baa842a43850086a4f6bdddcede30494b4bfbfee6aa8e81a85a55c82e"
 }

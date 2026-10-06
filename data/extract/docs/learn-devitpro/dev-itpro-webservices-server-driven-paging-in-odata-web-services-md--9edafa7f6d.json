@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/webservices/Server-Driven-Paging-in-OData-Web-Services.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/Server-Driven-Paging-in-OData-Web-Services",
+  "title": "Server-Driven Paging in OData Web Services",
+  "blob": "8b297b8d0406d2472a19fef5a548f244a8172f36",
+  "summary": "Server-Driven Paging in OData Web Services divides large OData result sets into smaller chunks with a default maximum of 20,000 entities per page to optimize performance and prevent timeouts and memory exceptions. Configure Max Page Size for on-premises or override paging per request using the odata.maxpagesize preference header.",
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "odata",
+    "paging",
+    "web services",
+    "performance",
+    "configuration"
+  ],
+  "objects": [],
+  "features": [
+    "server-driven paging",
+    "Max Page Size configuration",
+    "odata.maxpagesize preference",
+    "entity page limits",
+    "request-based paging override"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002966,
+      "pages_in_call": 8
+    }
+  ]
+}

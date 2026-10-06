@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-containments-associations",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "91c7539ad8d8ae4c735238f5a40c0aec4b3c10df",
       "words": 517,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:40.981Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002966
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:42.703Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:42.704Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:42.705Z",
+      "page": false
     }
   },
   "input_hash": "91c7539ad8d8ae4c735238f5a40c0aec4b3c10df",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "91c7539ad8d8ae4c735238f5a40c0aec4b3c10df"
+  "output_hash": "495f1786bd3cb2ff8881d40be7ed687aff3c646d2c2624905ee9348cf243bb20"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/Read-Operation",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b43362a0ffcddb477c92021e5599e6d1c3356c37",
       "words": 269,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:39.198Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002944
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:42.679Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:42.680Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:42.681Z",
+      "page": false
     }
   },
   "input_hash": "b43362a0ffcddb477c92021e5599e6d1c3356c37",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b43362a0ffcddb477c92021e5599e6d1c3356c37"
+  "output_hash": "6ecd3f32fe497bf2d63f55ff544be0341e95be825eaa987f63ffa443ddef2acd"
 }

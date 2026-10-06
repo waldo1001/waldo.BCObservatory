@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/webservices/odata-known-limitations.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/odata-known-limitations",
+  "title": "Known OData Limitations",
+  "blob": "1ac680f611406d9726aca8b79a66623c075bc2f4",
+  "summary": "Known OData Limitations documents restrictions in Business Central OData implementation, including unsupported PATCH operations on collection properties, OR filters on distinct fields, lambda operators, and deep insert/patching operations.",
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "odata",
+    "web services",
+    "api limitations",
+    "filters",
+    "lambda operators"
+  ],
+  "objects": [],
+  "features": [
+    "PATCH restrictions",
+    "filter support",
+    "lambda operators",
+    "UI pages",
+    "deep insert"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002944,
+      "pages_in_call": 8
+    }
+  ]
+}

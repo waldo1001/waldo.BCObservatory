@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/publish-web-service",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5d3506e08417da3832c8199f77f4b840e3c75fb4",
       "words": 1038,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:39.197Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002944
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:42.675Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:42.676Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:42.678Z",
+      "page": false
     }
   },
   "input_hash": "5d3506e08417da3832c8199f77f4b840e3c75fb4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5d3506e08417da3832c8199f77f4b840e3c75fb4"
+  "output_hash": "aced02a10361e78e6ab52a8be1aa7717c2c474c2fa57560909877a7d9faacfd4"
 }

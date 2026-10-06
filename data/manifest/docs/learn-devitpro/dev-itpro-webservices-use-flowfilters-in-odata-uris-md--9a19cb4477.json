@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-flowfilters-in-odata-uris",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bc392d61e109569278449f1bbe2243178709ca89",
       "words": 407,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:40.982Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002966
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:42.705Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:42.706Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:42.707Z",
+      "page": false
     }
   },
   "input_hash": "bc392d61e109569278449f1bbe2243178709ca89",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bc392d61e109569278449f1bbe2243178709ca89"
+  "output_hash": "4393d5d69dff15e60dce27ef17ca1cea0ae4a657e8e1e6a91433ff1416693ec8"
 }

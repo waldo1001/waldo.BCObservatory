@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/preserving-data-when-working-with-a-statically-generated-proxy",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7fd45a342b5ad017b6c422446faad159fc3f0f79",
       "words": 227,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:39.196Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002944
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:40.986Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:40.987Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:42.673Z",
+      "page": false
     }
   },
   "input_hash": "7fd45a342b5ad017b6c422446faad159fc3f0f79",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7fd45a342b5ad017b6c422446faad159fc3f0f79"
+  "output_hash": "3456abc9d9d8029f10835fca1ec2a43bb5861a06c9e13f8cad95f86c57adbffc"
 }

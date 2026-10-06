@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/return-obtain-json-document",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "52e6d0a4ba728c9c9da17a82c9ffb103f1d267e3",
       "words": 219,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:39.201Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002944
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:42.690Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:42.691Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:42.692Z",
+      "page": false
     }
   },
   "input_hash": "52e6d0a4ba728c9c9da17a82c9ffb103f1d267e3",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "52e6d0a4ba728c9c9da17a82c9ffb103f1d267e3"
+  "output_hash": "16e337326a8a39801a30e27c92e4d228886a43f535d7a709a480db48b0ee79f8"
 }
