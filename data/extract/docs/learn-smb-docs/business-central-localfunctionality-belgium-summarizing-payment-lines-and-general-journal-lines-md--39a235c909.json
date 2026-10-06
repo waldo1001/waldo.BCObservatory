@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines",
+  "title": "Payment lines and general journal lines [BE]",
+  "blob": "c3315ce2202b1a2c3d18ff3ea2e639f478c6d777",
+  "summary": "Payment line and journal line summarization in Belgium consolidates domestic, international, SEPA, and non-Euro SEPA payments into general journal entries based on Electronic Banking Setup options.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "payment lines",
+    "journal lines",
+    "belgium",
+    "electronic banking",
+    "payment summarization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Electronic Banking Setup"
+    }
+  ],
+  "features": [
+    "Summarize Gen. Jnl. Lines",
+    "Cut off Payment Message Texts",
+    "partial payments",
+    "SEPA payments",
+    "non-Euro SEPA payments"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001861,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "video_id": "fpc_XlVEnWw",
+  "item_id": "video/yt-microsoft/fpc_XlVEnWw",
+  "summary": "Paying vendors in Business Central compared with Dynamics SL payment selection. It covers payment journals, the Suggest Vendor Payments wizard, summarizing payments per vendor, a payment amount limit, and using vendor priority to filter suggestions and control cash flow.",
+  "overview": "The video compares the pay vendor process in Dynamics SL, which uses payment selection and payment vouchers, with the equivalent process in Business Central. It is a 3-minute walkthrough published on 2024-07-26.\n\nIn Business Central, the demo creates a payment journal and opens the Suggest Vendor Payments wizard. It uses saved defaults, filters by payment date and payment documents, and summarizes payments per vendor. It then sets vendor priority levels and filters suggestions by priority so high priority vendors are paid first and cash flow stays controlled.",
+  "key_points": [
+    "Business Central creates payment journals and suggests vendors to pay based on criteria the user defines.",
+    "The Suggest Vendor Payments wizard can use previously saved defaults, so settings need not be re-entered each time.",
+    "Choosing to summarize per vendor creates one payment per vendor instead of one payment per invoice.",
+    "A total payment amount limit can be set to control how much is paid toward vendor invoices in a payment run.",
+    "Vendor priority is set per vendor, and the lower the number, the higher the priority.",
+    "Filtering suggestions by vendor priority makes Business Central suggest payments to high priority vendors first, which helps control cash flow.",
+    "Objects shown include the Payment Journals page and the Vendor Card page."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "decision maker"
+  ],
+  "extraction_hash": "845af18a54078c4140c0892f197a0293c2e40451f21b66ed7af1620c48ee1e2a",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0124944
+  }
+}

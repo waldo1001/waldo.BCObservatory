@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/ca-sales-tax",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "29cb88a40e0f914c61236b5707891d6b10e61597",
       "words": 286,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:59.315Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.001861
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:59.339Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:59.340Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:59.341Z",
+      "page": false
     }
   },
   "input_hash": "29cb88a40e0f914c61236b5707891d6b10e61597",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "29cb88a40e0f914c61236b5707891d6b10e61597"
+  "output_hash": "8187d13f9ca98827450bf46d1db9b404a877055de2017ac040f7c7aebb6bcd7b"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "93893161b889cda7652c257a17cb2c4a51d8ba60",
       "words": 30,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:59.323Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001861
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:01.047Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:01.056Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:01.058Z",
+      "page": false
     }
   },
   "input_hash": "93893161b889cda7652c257a17cb2c4a51d8ba60",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "93893161b889cda7652c257a17cb2c4a51d8ba60"
+  "output_hash": "02a4caba06d6bb126da60136a7f81ca0b42852875bcb84e9bf8dab5ba4f8ddc6"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/sales-tax-goods-services",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "40f30cf0df66628405eee67e3b52f8097c5748ab",
       "words": 214,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:59.328Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001861
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:01.062Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:01.063Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:01.064Z",
+      "page": false
     }
   },
   "input_hash": "40f30cf0df66628405eee67e3b52f8097c5748ab",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "40f30cf0df66628405eee67e3b52f8097c5748ab"
+  "output_hash": "226e086116794689dad59507b855ee9a707198133726338740cc6ce511b672e9"
 }

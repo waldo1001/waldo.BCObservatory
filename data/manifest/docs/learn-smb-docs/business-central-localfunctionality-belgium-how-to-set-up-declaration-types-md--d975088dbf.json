@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-declaration-types",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9a2ed9f1cbe0ace2b5579dd2596330e61931b348",
       "words": 180,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:59.103Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002314
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:59.113Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:59.114Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:59.115Z",
+      "page": false
     }
   },
   "input_hash": "9a2ed9f1cbe0ace2b5579dd2596330e61931b348",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9a2ed9f1cbe0ace2b5579dd2596330e61931b348"
+  "output_hash": "9a4a4f75840a78c85561bf0ab91e76ab31a6f9499b2f651fd564d1c9e48fc8a7"
 }

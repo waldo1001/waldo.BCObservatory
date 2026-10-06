@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f455fe16edbb941c2226f6622865af98c757a903",
       "words": 28,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:59.326Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001861
+    },
+    "summarized": {
+      "at": "2026-10-06T19:32:01.060Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:32:01.061Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:32:01.061Z",
+      "page": false
     }
   },
   "input_hash": "f455fe16edbb941c2226f6622865af98c757a903",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f455fe16edbb941c2226f6622865af98c757a903"
+  "output_hash": "10827070724652b20ae2e69e37c016c14127d433bbb0322b518e2da97b9040d3"
 }

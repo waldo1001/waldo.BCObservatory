@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-test-electronic-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-test-electronic-payments",
+  "title": "Test Electronic Payments [BE]",
+  "blob": "7fabfa8417748d7a5092104704872261a1f703b5",
+  "summary": "Test electronic payment journal lines in Belgian electronic banking to validate bank account numbers, payment amounts, single bank account usage, and SEPA requirements before posting.",
+  "systems": [
+    "localization",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "belgian",
+    "electronic payments",
+    "payment validation",
+    "testing"
+  ],
+  "objects": [],
+  "features": [
+    "Export Check Error Logs",
+    "Check Payment Lines",
+    "Payment validation",
+    "Error correction"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002314,
+      "pages_in_call": 7
+    }
+  ]
+}

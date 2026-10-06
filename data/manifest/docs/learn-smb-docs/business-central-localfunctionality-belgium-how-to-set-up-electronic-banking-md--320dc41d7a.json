@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-electronic-banking",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8382d0c4e1ebc3a4904bcf6f44efe9411ed83502",
       "words": 198,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:59.104Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002314
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:59.116Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:59.117Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:59.118Z",
+      "page": false
     }
   },
   "input_hash": "8382d0c4e1ebc3a4904bcf6f44efe9411ed83502",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8382d0c4e1ebc3a4904bcf6f44efe9411ed83502"
+  "output_hash": "b9480b8fc5d67885eb8693eeefbb8cd9232311f7f826bb70edcd1ab0b2a161f0"
 }

@@ -1,0 +1,84 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-set-up-export-protocols.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-export-protocols",
+  "title": "How to set up export protocols [BE]",
+  "blob": "05e9be8aaba57ce508ae08c20148ee87659a5ee9",
+  "summary": "Set up export protocols for Belgian electronic banking to define payment file formats for domestic, international, SEPA, and non-Euro SEPA payment processing.",
+  "systems": [
+    "localization",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "belgian",
+    "export protocols",
+    "electronic banking",
+    "payment formats"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Check Domestic Payments"
+    },
+    {
+      "type": "codeunit",
+      "name": "Check International Payments"
+    },
+    {
+      "type": "codeunit",
+      "name": "Check SEPA Payments"
+    },
+    {
+      "type": "codeunit",
+      "name": "Check Non-Euro SEPA Payments"
+    },
+    {
+      "type": "codeunit",
+      "name": "Check SEPA 001.001.09 Payments"
+    },
+    {
+      "type": "report",
+      "name": "File Domestic Payments"
+    },
+    {
+      "type": "report",
+      "name": "File International Payments"
+    },
+    {
+      "type": "report",
+      "name": "File SEPA Payments"
+    },
+    {
+      "type": "report",
+      "name": "File Non-Euro SEPA Payments"
+    },
+    {
+      "type": "report",
+      "name": "File FCY SEPA 001.001.09 Payments"
+    },
+    {
+      "type": "xmlport",
+      "name": "SEPA pain.001.001.03 Payments"
+    }
+  ],
+  "features": [
+    "Export Protocol Code",
+    "Code Expenses",
+    "Check Object ID",
+    "Export Object Type",
+    "Export Object ID",
+    "Export Number Series",
+    "Grouped Payment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002314,
+      "pages_in_call": 7
+    }
+  ]
+}

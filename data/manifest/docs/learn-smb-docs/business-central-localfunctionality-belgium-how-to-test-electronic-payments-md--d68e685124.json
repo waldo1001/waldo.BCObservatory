@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-test-electronic-payments",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7fabfa8417748d7a5092104704872261a1f703b5",
       "words": 243,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:59.112Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002314
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:59.130Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:59.131Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:59.132Z",
+      "page": false
     }
   },
   "input_hash": "7fabfa8417748d7a5092104704872261a1f703b5",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7fabfa8417748d7a5092104704872261a1f703b5"
+  "output_hash": "7a174bdc3c37565fb736f948d5444db6d481f47da93ec30deb5644e9aa3cafe4"
 }

@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Canada/ca-sales-tax.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/ca-sales-tax",
+  "title": "Reporting Sales Tax [CA]",
+  "blob": "29cb88a40e0f914c61236b5707891d6b10e61597",
+  "summary": "Sales tax reporting in Canada requires setting up tax areas and jurisdictions across multiple provinces and federal levels, with support for up to four jurisdictions per document and combined tax calculations.",
+  "systems": [
+    "finance",
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "sales tax",
+    "canada",
+    "tax jurisdictions",
+    "tax reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Tax Details"
+    }
+  ],
+  "features": [
+    "sales tax",
+    "tax jurisdictions",
+    "multiple jurisdictions",
+    "tax groups",
+    "tax rates"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001861,
+      "pages_in_call": 7
+    }
+  ]
+}

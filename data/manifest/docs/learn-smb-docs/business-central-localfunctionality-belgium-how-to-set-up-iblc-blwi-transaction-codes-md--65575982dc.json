@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-iblc-blwi-transaction-codes",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6e40fa6092fab71436253e33f919ad1c700abdd4",
       "words": 110,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:59.106Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002314
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:59.122Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:59.123Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:59.124Z",
+      "page": false
     }
   },
   "input_hash": "6e40fa6092fab71436253e33f919ad1c700abdd4",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6e40fa6092fab71436253e33f919ad1c700abdd4"
+  "output_hash": "ad8728dc120350161c580f5b73679ecb105155df03231e8ed9620b96fe451a97"
 }

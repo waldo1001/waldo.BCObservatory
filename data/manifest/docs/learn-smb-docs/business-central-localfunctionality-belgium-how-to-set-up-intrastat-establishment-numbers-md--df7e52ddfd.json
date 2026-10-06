@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b2f42cb285c47726a8a4a847bbe0731a6701a3c0",
       "words": 96,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:59.108Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002314
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:59.125Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:59.125Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:59.126Z",
+      "page": false
     }
   },
   "input_hash": "b2f42cb285c47726a8a4a847bbe0731a6701a3c0",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b2f42cb285c47726a8a4a847bbe0731a6701a3c0"
+  "output_hash": "580f93876a4343c5b2c9e9d3e3eefa575a688671f3f4f0b59d638d8ce596e306"
 }

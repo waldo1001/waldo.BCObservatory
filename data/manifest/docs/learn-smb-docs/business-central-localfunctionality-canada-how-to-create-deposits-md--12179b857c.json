@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-create-deposits",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "36bd89dddd1b7216b476be8b0e23704bc17fa5ca",
       "words": 18,
       "forms": 8
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:59.317Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.001861
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:59.343Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:59.344Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:59.344Z",
+      "page": false
     }
   },
   "input_hash": "36bd89dddd1b7216b476be8b0e23704bc17fa5ca",
@@ -81,5 +100,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "36bd89dddd1b7216b476be8b0e23704bc17fa5ca"
+  "output_hash": "89536ee83bf2cf8740bd43661b06868636a4e0223d608c0390c7dc976dad6b1c"
 }

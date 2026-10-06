@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines",
   "published_at": "2025-05-06T19:33:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c3315ce2202b1a2c3d18ff3ea2e639f478c6d777",
       "words": 504,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:31:59.312Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.001861
+    },
+    "summarized": {
+      "at": "2026-10-06T19:31:59.334Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:31:59.336Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:31:59.337Z",
+      "page": false
     }
   },
   "input_hash": "c3315ce2202b1a2c3d18ff3ea2e639f478c6d777",
@@ -48,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c3315ce2202b1a2c3d18ff3ea2e639f478c6d777"
+  "output_hash": "ce3181c425b0c2f570e2f5ffb262301d07e4a7a0e9e942f8554bc5ca52c8e185"
 }
