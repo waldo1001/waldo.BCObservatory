@@ -15,6 +15,7 @@
  *   fetches: "web", D41). A worker never waits on a full lane: the item is parked and comes back first when a slot
  *   frees, so caption and post fetches overlap LLM work.
  */
+import { getHeapStatistics } from "node:v8";
 import type { Budget, SourceDef } from "../lib/config.js";
 import { decideGuard, type GuardDecision, type PlanUsage, type PlanUsageUnavailable } from "../lib/budget.js";
 import { LlmBudgetExhausted, LlmInfraError, llmStats } from "../lib/llm.js";
@@ -69,7 +70,7 @@ export function handlerFor(handlers: StageHandlers, item: ManifestItem): Resolve
   return "batch" in h ? { batch: h.batch, ...lane } : { run: h.run, ...lane };
 }
 
-export type StopReason = "done" | "hard-stop" | "llm-calls-max" | "spend-cap" | "guard-skip" | "aborted";
+export type StopReason = "done" | "hard-stop" | "llm-calls-max" | "spend-cap" | "guard-skip" | "aborted" | "memory";
 export interface ExecutionReport {
   stop_reason: StopReason;
   deadline: string;
@@ -110,6 +111,17 @@ export interface ExecuteOptions {
   callCount?: () => number;
   /** Items worked on at the same time (each runs its stages in order). Default 1. */
   concurrency?: number;
+  /**
+   * True when the heap is too full to start more work: the run stops cleanly ("memory") and commits instead of
+   * dying at the heap limit with up to one checkpoint of work lost; the Mini's wrapper starts a fresh process.
+   */
+  heapFull?: () => boolean;
+}
+
+/** Heap above `fraction` of V8's limit (--max-old-space-size): the default `heapFull` of the nightly. */
+export function heapAbove(fraction: number): () => boolean {
+  const limit = getHeapStatistics().heap_size_limit;
+  return () => process.memoryUsage().heapUsed > limit * fraction;
 }
 
 /**
@@ -146,6 +158,7 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
   /** Run-level stop before starting a stage; null = carry on. */
   const runStop = async (): Promise<StopReason | null> => {
     if (o.clock().getTime() >= deadline.getTime()) return "hard-stop";
+    if (o.heapFull?.()) return "memory";
     const calls = callCount();
     if (o.quotas.llm_calls_max !== undefined && calls >= o.quotas.llm_calls_max) return "llm-calls-max";
     if (o.readUsage && every > 0 && calls - guardedAt >= every) {

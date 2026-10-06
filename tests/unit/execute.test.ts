@@ -258,3 +258,12 @@ test("lanes: concurrency 1 runs everything in plan order without parking", async
   assert.deepEqual(order, ["VID3:discovered", "VID3:fetched", "VID2:discovered", "VID2:fetched", "VID1:discovered", "VID1:fetched"]);
   assert.equal(r.parked, 0);
 });
+
+test("a full heap stops the run cleanly before the next stage (stop reason memory); finished stages stay saved", async () => {
+  const m = setup();
+  let checks = 0;
+  const r = await run(m, allVideo(), { concurrency: 1, heapFull: () => ++checks > 3 });
+  assert.equal(r.stop_reason, "memory");
+  assert.equal(r.advanced, 3);
+  assert.equal(get(m, "VID2").stages.extracted !== undefined, true, "the three stages before the stop are in the manifest");
+});

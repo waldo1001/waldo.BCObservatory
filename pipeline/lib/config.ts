@@ -64,6 +64,8 @@ export interface Budget {
   checkpoint_items?: number;
   /** ...or after this many minutes, whichever comes first; both 0 = only the final commit. */
   checkpoint_minutes?: number;
+  /** Stop starting new work once the heap passes this share of its limit (default 0.6): a clean stop, not an OOM. */
+  memory_stop_fraction?: number;
   spend_caps: { night_usd: number; week_usd: number };
   quotas: Record<string, number>;
   retry: { max_attempts: number; backoff_hours_base: number };

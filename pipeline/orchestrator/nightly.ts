@@ -41,7 +41,7 @@ import { mirrorFor, prefetchBlobs } from "../fetch/git-page.js";
 import { validateOrThrow } from "../lib/schema.js";
 import { knownHosts, runIngest } from "../ingest/index.js";
 import type { IngestContext, VersionsConfig } from "../ingest/types.js";
-import { executePlan, handlerFor, type ExecutionReport, type StageHandlers } from "./execute.js";
+import { executePlan, handlerFor, heapAbove, type ExecutionReport, type StageHandlers } from "./execute.js";
 import { acquireLock } from "./lock.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { STAGE_HANDLERS } from "./stages.js";
@@ -107,6 +107,8 @@ export interface NightlyDeps {
   clock?: () => Date;
   /** Channel listing for the weekly reconcile; defaults to yt-dlp. */
   flatPlaylist?: IngestContext["flatPlaylist"];
+  /** Heap check before each stage; defaults to heapAbove(budget memory_stop_fraction). */
+  heapFull?: () => boolean;
 }
 type GuardReport = Omit<GuardDecision, "decision"> & { decision: GuardDecision["decision"] | "disabled" };
 export interface RunReport {
@@ -229,6 +231,7 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
       sources: new Map(deps.sources.map((s) => [s.id, s])), handlers, concurrency: opts.concurrency ?? cfg.concurrency ?? 1, laneCapacity: cfg.lanes,
       started, clock: deps.clock ?? (() => new Date()), readUsage: opts.guard ? deps.readUsage : undefined,
       ...(ck ? { onProgress: ck.progress } : {}),
+      heapFull: deps.heapFull ?? heapAbove(cfg.memory_stop_fraction ?? 0.6),
     });
     if (ck) { await ck.stop(); report.checkpoints = ck.count(); }
     report.execution = execution;
@@ -497,7 +500,8 @@ export function startCheckpoints(opts: NightlyOptions, sources: SourceDef[], dat
         // incremental: what is already committed passed an earlier gate; the final commit scans the whole tree
         const t0 = Date.now();
         const problems = leakGate(opts, sources, true);
-        log.info(`checkpoint leak gate: ${problems.length} findings in ${Date.now() - t0} ms`);
+        const mem = process.memoryUsage(), mb = (b: number) => Math.round(b / 2 ** 20);
+        log.info(`checkpoint leak gate: ${problems.length} findings in ${Date.now() - t0} ms; heap ${mb(mem.heapUsed)} MB, rss ${mb(mem.rss)} MB, external ${mb(mem.external)} MB`);
         if (problems.length) { log.warn(`checkpoint skipped: check:leak found ${problems.length} problems: ${problems[0]}`); return; }
         // count the commit itself: a push that loses a race is retried by the next checkpoint, which pushes both
         try { if (await commitTracked(opts.repoDir, `content: nightly ${date} checkpoint ${n + 1}`, false)) n++; }
