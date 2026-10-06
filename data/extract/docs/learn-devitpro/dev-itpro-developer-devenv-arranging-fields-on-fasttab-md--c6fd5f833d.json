@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-arranging-fields-on-fasttab.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arranging-fields-on-fasttab",
+  "title": "Field Arrangement on FastTabs",
+  "blob": "310dd2b5b8bd5f2497b981822afa40b31d9c1380",
+  "summary": "FastTabs on Business Central pages organize data into collapsible groups that automatically distribute fields across columns based on screen size, with the Importance property controlling field visibility on summary lines and Show more actions.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "page layout",
+    "fasttabs",
+    "fields",
+    "ui design"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "SimpleCustomerCard"
+    }
+  ],
+  "features": [
+    "FastTabs",
+    "field distribution",
+    "Importance property",
+    "Show more action",
+    "GridLayout",
+    "FixedLayout",
+    "responsive layout"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003352,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-adding-help-links-from-pages-tables-xmlports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-adding-help-links-from-pages-tables-xmlports",
+  "title": "Adding help links from pages, reports, and XMLports",
+  "blob": "22056963730bd95436e4529a71c95adfd0453ff9",
+  "summary": "Context-sensitive help links for pages, reports, and XMLports are configured using the ContextSensitiveHelpPage property and app.json settings to direct users to relevant help documentation when selecting Learn more links.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "help",
+    "context-sensitive",
+    "documentation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "MyPageWithHelp"
+    },
+    {
+      "type": "report",
+      "name": "MyReportWithHelp"
+    },
+    {
+      "type": "xmlport",
+      "name": "XmlPortWithHelp"
+    }
+  ],
+  "features": [
+    "ContextSensitiveHelpPage property",
+    "app.json configuration",
+    "Learn more links"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003352,
+      "pages_in_call": 8
+    }
+  ]
+}

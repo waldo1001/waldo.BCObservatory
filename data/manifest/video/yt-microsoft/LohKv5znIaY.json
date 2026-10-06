@@ -5,12 +5,17 @@
   "tier": "official",
   "title": "Use Actionable Error Messages to Unblock Users",
   "url": "https://www.youtube.com/watch?v=LohKv5znIaY",
-  "published_at": null,
+  "published_at": "2024-04-18T14:25:57.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:35:01.635Z",
+      "captions": "auto:en-orig",
+      "duration_s": 95
     }
   },
   "input_hash": null,
@@ -20,6 +25,12 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 402,
     "duration_s": 95,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null
 }

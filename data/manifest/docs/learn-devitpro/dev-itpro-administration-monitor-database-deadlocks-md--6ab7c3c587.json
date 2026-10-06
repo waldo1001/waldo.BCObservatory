@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-database-deadlocks",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3ad5e036475ebd4e92e4e27c9e087cc535e08a84",
       "words": 1278,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:35:02.697Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003352
+    },
+    "summarized": {
+      "at": "2026-10-06T19:35:02.707Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:35:02.708Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:35:02.709Z",
+      "page": false
     }
   },
   "input_hash": "3ad5e036475ebd4e92e4e27c9e087cc535e08a84",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3ad5e036475ebd4e92e4e27c9e087cc535e08a84"
+  "output_hash": "ade00302c99a3f6bda9fa269b19ccf4f3ad5f27ef337190035c749accd41bb35"
 }

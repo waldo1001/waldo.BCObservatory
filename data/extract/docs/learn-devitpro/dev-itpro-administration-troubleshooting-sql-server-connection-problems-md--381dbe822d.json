@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/troubleshooting-sql-server-connection-problems.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/troubleshooting-sql-server-connection-problems",
+  "title": "Troubleshooting: SQL Server Connection Problems",
+  "blob": "c170bf4677e572d307a0ecc77ca83622a610b19a",
+  "summary": "SQL Server connection problems for Business Central can be resolved by enabling Named Pipes and TCP/IP protocols, allowing SQL Server through Windows Firewall, and starting the SQL Browser Service when using named instances.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "sql server",
+    "networking",
+    "connection",
+    "troubleshooting"
+  ],
+  "objects": [],
+  "features": [
+    "Named Pipes protocol",
+    "TCP/IP protocol",
+    "SQL Server Configuration Manager",
+    "Windows Firewall",
+    "SQL Browser Service"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003352,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-database-deadlocks.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-database-deadlocks",
+  "title": "Monitoring SQL Database Deadlocks",
+  "blob": "3ad5e036475ebd4e92e4e27c9e087cc535e08a84",
+  "summary": "SQL database deadlock logging records deadlock events in the Windows Event Log with AL code context and SQL Server deadlock reports to help identify application design issues causing transactions to block each other.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "deadlock monitoring",
+    "database performance",
+    "logging",
+    "event viewer"
+  ],
+  "objects": [],
+  "features": [
+    "Deadlock logging",
+    "Enable Deadlock Monitoring",
+    "Extended Events",
+    "ring_buffer target",
+    "event_file target",
+    "deadlock_report_event_file_view"
+  ],
+  "versions": [
+    "Cumulative Update 3"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003352,
+      "pages_in_call": 8
+    }
+  ]
+}

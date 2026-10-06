@@ -1,0 +1,152 @@
+{
+  "video_id": "r1LrZH8IPJY",
+  "item_id": "video/yt-microsoft/r1LrZH8IPJY",
+  "title": "BCTalent Stories: JourneyTEAM",
+  "duration_s": 141,
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "talent recruitment",
+    "bc consulting",
+    "professional development",
+    "skills training",
+    "soft skills",
+    "reskill program",
+    "consulting practices",
+    "business requirements"
+  ],
+  "chapters": [
+    {
+      "title": "JourneyTEAM background and talent challenges",
+      "t_start": 0,
+      "t_end": 25.1
+    },
+    {
+      "title": "ReSkill as a solution to talent gap",
+      "t_start": 25.1,
+      "t_end": 45.2
+    },
+    {
+      "title": "BC community needs next generation talent",
+      "t_start": 45.2,
+      "t_end": 65.4
+    },
+    {
+      "title": "ReSkill strategy combining industry and technology training",
+      "t_start": 65.4,
+      "t_end": 85.6
+    },
+    {
+      "title": "Professional skills training addresses soft skills gap",
+      "t_start": 85.6,
+      "t_end": 105.9
+    },
+    {
+      "title": "Program outcomes and recommendations",
+      "t_start": 105.9,
+      "t_end": 141
+    }
+  ],
+  "features": [
+    {
+      "name": "ReSkill talent development program",
+      "description": "A professional services training program developed to address the talent gap in Business Central consulting by identifying people with industry experience, teaching them BC technology knowledge, and developing their consultant skills.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 25.1,
+      "t_end": 105.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "talent development",
+        "bc consulting",
+        "professional training",
+        "skills gap"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Professional skills training for consultants",
+      "description": "Training program addressing the mindset and behavioral side of consulting, focusing on soft skills required to serve clients beyond just technology skill sets.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 85.6,
+      "t_end": 105.9,
+      "is_demoed": false,
+      "caveats": [
+        "focuses on soft skills beyond technology"
+      ],
+      "tags": [
+        "soft skills",
+        "professional development",
+        "consulting",
+        "training"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Kip sson",
+      "confidence": "low"
+    },
+    {
+      "name": "Greg crle",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 4.7,
+      "text": "we've had substantial growth roughly 30 or greater over the last few years and finding the right talent with the right skill sets",
+      "why_it_matters": "Establishes the significant talent gap problem driving the need for solutions like ReSkill in the BC consulting industry.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 45.2,
+      "text": "there are a limited number of people with BC experience today with consultant skills and identifying a new source that we could tap into",
+      "why_it_matters": "Quantifies the scarcity of BC consultants and the importance of developing new talent sources for business growth.",
+      "check": "exact"
+    },
+    {
+      "t": 65.4,
+      "text": "res skill is part of our growth strategy because we're trying to identify people with industry experience who understand the processes teach them the",
+      "why_it_matters": "Describes the core strategy of ReSkill - leveraging existing industry knowledge and teaching BC technology as a faster path to consultant readiness.",
+      "check": "exact"
+    },
+    {
+      "t": 85.6,
+      "text": "as technologist we have a tendency to just double down on skill sets around technology and we Overlook what are the soft skills and",
+      "why_it_matters": "Highlights a critical insight that BC consulting requires both technical skills and soft skills, not just technology knowledge.",
+      "check": "exact"
+    },
+    {
+      "t": 105.9,
+      "text": "what we've gained in this program so far is an increase of technical knowledge but most importantly this expectation and Clarity of how we",
+      "why_it_matters": "Summarizes the dual benefit of the program - technical skills plus professional expectations and clarity on consultant role.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010713
+    }
+  ]
+}

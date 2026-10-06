@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/hide-ui-elements.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/hide-ui-elements",
+  "title": "Removing Elements from the User Interface According to Permissions",
+  "blob": "7012d14410703a4b5d88ab2e1aa8f21bd90acb64",
+  "summary": "UI elements removal based on user licenses and permissions hides fields, actions, and page parts from users according to their access rights and the License File and User Permissions settings.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "ui elements",
+    "permissions",
+    "licensing",
+    "access control"
+  ],
+  "objects": [],
+  "features": [
+    "UI Elements Removal",
+    "AccessByPermission property",
+    "TableRelation property",
+    "CalcFormula property",
+    "FOUNDATION permission set"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003352,
+      "pages_in_call": 8
+    }
+  ]
+}

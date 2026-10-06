@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arranging-fields-on-fasttab",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "310dd2b5b8bd5f2497b981822afa40b31d9c1380",
       "words": 737,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:35:02.701Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003352
+    },
+    "summarized": {
+      "at": "2026-10-06T19:35:02.720Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:35:02.721Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:35:04.468Z",
+      "page": false
     }
   },
   "input_hash": "310dd2b5b8bd5f2497b981822afa40b31d9c1380",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "310dd2b5b8bd5f2497b981822afa40b31d9c1380"
+  "output_hash": "29d23295bce5d91ab4f9bf838003c27c6fb23c005e871a79ab7c5c87af681fd6"
 }

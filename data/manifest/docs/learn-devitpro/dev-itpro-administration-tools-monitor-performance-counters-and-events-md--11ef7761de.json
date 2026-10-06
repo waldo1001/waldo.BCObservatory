@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tools-monitor-performance-counters-and-events",
   "published_at": "2025-05-06T19:27:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8c8887e1ac1fe2a412db0e155f5b78924d9ad023",
       "words": 340,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:35:02.697Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003352
+    },
+    "summarized": {
+      "at": "2026-10-06T19:35:02.710Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:35:02.711Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:35:02.712Z",
+      "page": false
     }
   },
   "input_hash": "8c8887e1ac1fe2a412db0e155f5b78924d9ad023",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8c8887e1ac1fe2a412db0e155f5b78924d9ad023"
+  "output_hash": "2f5ee682df119eaa92209a8dfdf0b545b810bd89a549e47196c9c36ce93ed91e"
 }

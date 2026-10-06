@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-about-dates.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-about-dates",
+  "title": "About dates in Business Central",
+  "blob": "49aa5f48e6ccb66e1dc4ed94011de9695f0f512c",
+  "summary": "Business Central stores all DateTime fields as UTC and converts them to user-specified timezones in the UI, while Date fields are never converted and represent dates for financial reporting without timestamp conversion.",
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "dates",
+    "timezones",
+    "datetime",
+    "user settings"
+  ],
+  "objects": [],
+  "features": [
+    "DateTime fields",
+    "Date fields",
+    "User Settings",
+    "UTC storage",
+    "timezone conversion",
+    "Web Services"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003352,
+      "pages_in_call": 8
+    }
+  ]
+}
