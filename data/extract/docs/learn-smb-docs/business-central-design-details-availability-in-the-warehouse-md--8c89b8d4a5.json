@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-availability-in-the-warehouse.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-availability-in-the-warehouse",
+  "title": "Design details - Availability in the warehouse",
+  "blob": "7ff0aaeea628ab5c5f2f9e36deef70f066fb6d23",
+  "summary": "Warehouse availability mechanics showing how item allocations and reservations affect pick and reserve quantities. Explains bin content tracking and calculations for available-to-pick and available-to-reserve quantities considering warehouse activities and outbound flows.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "warehouse availability",
+    "bin content",
+    "reservations",
+    "picking",
+    "quantity calculations"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Pick Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Reservation"
+    }
+  ],
+  "features": [
+    "quantity available to pick",
+    "quantity available to reserve",
+    "bin content",
+    "warehouse reservations",
+    "pick allocation",
+    "bin level allocation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00788,
+      "pages_in_call": 8
+    }
+  ]
+}

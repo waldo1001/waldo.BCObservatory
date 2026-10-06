@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-average-cost.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-average-cost",
+  "title": "Design details - Average cost",
+  "blob": "a567d5a74c5ac0c528c74632d6158b61f7c8d0a8",
+  "summary": "Average cost calculation methodology based on weighted average within configurable periods and calculation types. Explains how average costs are determined, adjusted, and applied to inventory decreases through the Adjust Cost batch job with detailed examples by period.",
+  "systems": [
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "average cost",
+    "costing methods",
+    "inventory valuation",
+    "cost adjustment",
+    "periodic average"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Avg. Cost Adjmt. Entry Point"
+    },
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    }
+  ],
+  "features": [
+    "average cost calculation",
+    "average cost period",
+    "average cost type",
+    "cost adjustment",
+    "valuation date",
+    "weighted average",
+    "cost recalculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00788,
+      "pages_in_call": 8
+    }
+  ]
+}

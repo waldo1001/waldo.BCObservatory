@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bi-how-work-account-schedule.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bi-how-work-account-schedule",
+  "title": "Build financial reports using financial data and account categories",
+  "blob": "4643d35f681dc7bd6dccddd44811929dfe77b05f",
+  "summary": "Set up and prepare financial reports to analyze general ledger accounts and compare against budgets using row and column definitions with account categories. Covers prerequisites including chart of accounts structure, dimensions, and G/L budgets, plus guidance on creating reports from scratch or copying existing ones.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "financial reporting",
+    "chart of accounts",
+    "account categories",
+    "row definitions",
+    "column definitions",
+    "g/l budgets",
+    "dimensions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Financial Reports"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Financial Report"
+    },
+    {
+      "type": "page",
+      "name": "Financial Report Categories"
+    }
+  ],
+  "features": [
+    "financial reports",
+    "row definitions",
+    "column definitions",
+    "G/L account categories",
+    "dimensions",
+    "G/L budgets",
+    "additional reporting currency",
+    "report categories"
+  ],
+  "versions": [
+    "2025 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00788,
+      "pages_in_call": 8
+    }
+  ]
+}

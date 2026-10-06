@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/bi-design-financial-reports",
   "published_at": "2026-03-18T12:24:08.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8730c58c5b4957b95a4eca841172a5607adeeb47",
       "words": 947,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:40.266Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.00788
+    },
+    "summarized": {
+      "at": "2026-10-06T18:44:40.274Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:44:40.275Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:44:40.276Z",
+      "page": false
     }
   },
   "input_hash": "8730c58c5b4957b95a4eca841172a5607adeeb47",
@@ -58,5 +77,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8730c58c5b4957b95a4eca841172a5607adeeb47"
+  "output_hash": "a808f178aedeb08f267e5f83341a66f196d15b880349c7e7e97c3f2031a025e5"
 }

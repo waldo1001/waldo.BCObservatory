@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bi-column-definitions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bi-column-definitions",
+  "title": "Column definitions in Financial Reporting",
+  "blob": "adc335c247a592cc407fbfa2b237e2205fb769be",
+  "summary": "Define financial report columns to control data presentation including net change, balance, budget comparisons, and calculated percentages. Use column definitions to set up formulas, period comparisons, and multi-month budget displays with support for up to 15 columns in PDF exports.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "column definitions",
+    "financial reporting",
+    "budget analysis",
+    "period formulas",
+    "report layout"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Column Definitions"
+    },
+    {
+      "type": "page",
+      "name": "Column Definition"
+    },
+    {
+      "type": "page",
+      "name": "Financial Report"
+    }
+  ],
+  "features": [
+    "column definitions",
+    "budget comparison",
+    "period formulas",
+    "comparison date formula",
+    "percentage calculations",
+    "dynamic date headers",
+    "G/L account filtering",
+    "conditional number display"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00788,
+      "pages_in_call": 8
+    }
+  ]
+}

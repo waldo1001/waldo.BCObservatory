@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-assembly-order-posting",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c7741598a7911608b6ae20315f6f88542cc47dce",
       "words": 1316,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:40.271Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.00788
+    },
+    "summarized": {
+      "at": "2026-10-06T18:44:40.291Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:44:40.291Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:44:40.292Z",
+      "page": false
     }
   },
   "input_hash": "c7741598a7911608b6ae20315f6f88542cc47dce",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c7741598a7911608b6ae20315f6f88542cc47dce"
+  "output_hash": "3d74ac2ab9bb9d8e2572e53b6f2bd1d71ea94408dc4485cd6182077d03e50b3f"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/bi-column-definitions",
   "published_at": "2026-03-17T15:58:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "adc335c247a592cc407fbfa2b237e2205fb769be",
       "words": 1916,
       "forms": 11
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:40.267Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.00788
+    },
+    "summarized": {
+      "at": "2026-10-06T18:44:40.277Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:44:40.278Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:44:40.279Z",
+      "page": false
     }
   },
   "input_hash": "adc335c247a592cc407fbfa2b237e2205fb769be",
@@ -98,5 +117,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "adc335c247a592cc407fbfa2b237e2205fb769be"
+  "output_hash": "d7d2167af8b0223b2ca8fb59fb0e7ee0097814d1ac23b0a1de898f9b14c625f8"
 }

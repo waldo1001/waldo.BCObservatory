@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-planning-parameters",
   "published_at": "2026-03-17T10:19:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2c35b56576e701d93611e28b66b565f82323c22f",
       "words": 790,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:40.269Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.00788
+    },
+    "summarized": {
+      "at": "2026-10-06T18:44:40.285Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:44:40.286Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:44:40.287Z",
+      "page": false
     }
   },
   "input_hash": "2c35b56576e701d93611e28b66b565f82323c22f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2c35b56576e701d93611e28b66b565f82323c22f"
+  "output_hash": "ce58367cd6339b1304f14191c83f4d73d74153a7814b674218657be2b7a4b948"
 }

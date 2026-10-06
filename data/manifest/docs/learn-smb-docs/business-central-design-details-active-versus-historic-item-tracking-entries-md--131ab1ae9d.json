@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-active-versus-historic-item-tracking-entries",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "689e9713ad804e00500d78e6ed00147a7a69c566",
       "words": 283,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:40.270Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.00788
+    },
+    "summarized": {
+      "at": "2026-10-06T18:44:40.288Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:44:40.289Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:44:40.290Z",
+      "page": false
     }
   },
   "input_hash": "689e9713ad804e00500d78e6ed00147a7a69c566",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "689e9713ad804e00500d78e6ed00147a7a69c566"
+  "output_hash": "a926366ba8707b832f9519908ae4d5edf25f7177b58e95fee0bb455fd6c9bc19"
 }

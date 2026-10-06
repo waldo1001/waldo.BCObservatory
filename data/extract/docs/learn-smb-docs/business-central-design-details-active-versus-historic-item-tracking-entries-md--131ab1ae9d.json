@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-active-versus-historic-item-tracking-entries.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-active-versus-historic-item-tracking-entries",
+  "title": "Design details - Active versus historic item tracking entries",
+  "blob": "689e9713ad804e00500d78e6ed00147a7a69c566",
+  "summary": "Explains how item tracking entries work in the Tracking Specification and Reservation Entry tables, showing active versus historic data flow during purchase order processing. Details how quantities are tracked through receiving and invoicing stages with table-based examples.",
+  "systems": [
+    "inventory"
+  ],
+  "topics": [
+    "item tracking",
+    "tracking entries",
+    "reservations",
+    "purchase orders",
+    "inventory control"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Tracking Specification"
+    },
+    {
+      "type": "table",
+      "name": "Reservation Entry"
+    },
+    {
+      "type": "page",
+      "name": "Item Tracking Lines"
+    }
+  ],
+  "features": [
+    "item tracking",
+    "active tracking",
+    "historic tracking",
+    "reservation entries",
+    "quantity tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00788,
+      "pages_in_call": 8
+    }
+  ]
+}

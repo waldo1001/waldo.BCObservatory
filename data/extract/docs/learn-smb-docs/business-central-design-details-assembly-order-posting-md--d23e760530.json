@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-assembly-order-posting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-assembly-order-posting",
+  "title": "Design details - Assembly order posting",
+  "blob": "c7741598a7911608b6ae20315f6f88542cc47dce",
+  "summary": "Design details of assembly order posting including journal posting sequences, cost adjustments, and how assembly costs flow into ledger entries. Explains that assembly output posts at actual cost with no WIP concept, and how assemble-to-order sales are linked to assembly output.",
+  "systems": [
+    "assembly",
+    "finance"
+  ],
+  "topics": [
+    "assembly orders",
+    "order posting",
+    "cost adjustment",
+    "item journal",
+    "assemble-to-order"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Capacity Ledger Entry"
+    }
+  ],
+  "features": [
+    "assembly order posting",
+    "cost adjustment",
+    "item journal posting",
+    "resource journal posting",
+    "assemble-to-order",
+    "actual cost posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00788,
+      "pages_in_call": 8
+    }
+  ]
+}

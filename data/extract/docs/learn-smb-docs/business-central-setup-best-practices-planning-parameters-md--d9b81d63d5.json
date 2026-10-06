@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/setup-best-practices-planning-parameters.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-planning-parameters",
+  "title": "Setup best practices - Planning parameters",
+  "blob": "2c35b56576e701d93611e28b66b565f82323c22f",
+  "summary": "Best practices for setting planning parameters on item cards including reorder points, safety stock, dampener periods, and lot accumulation settings. Guidance on optimal inventory control and supply chain planning configuration to balance working capital and service levels.",
+  "systems": [
+    "inventory",
+    "manufacturing"
+  ],
+  "topics": [
+    "planning parameters",
+    "inventory planning",
+    "reorder points",
+    "safety stock",
+    "supply chain"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "SKU"
+    }
+  ],
+  "features": [
+    "reordering policy",
+    "reserve",
+    "dampener period",
+    "include inventory",
+    "safety lead time",
+    "safety stock quantity",
+    "lot accumulation period",
+    "reorder point"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00788,
+      "pages_in_call": 8
+    }
+  ]
+}

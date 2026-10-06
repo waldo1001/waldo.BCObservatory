@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-availability-in-the-warehouse",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7ff0aaeea628ab5c5f2f9e36deef70f066fb6d23",
       "words": 668,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:44:40.272Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.00788
+    },
+    "summarized": {
+      "at": "2026-10-06T18:44:40.293Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:44:42.068Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:44:42.069Z",
+      "page": false
     }
   },
   "input_hash": "7ff0aaeea628ab5c5f2f9e36deef70f066fb6d23",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7ff0aaeea628ab5c5f2f9e36deef70f066fb6d23"
+  "output_hash": "99ab5d07576b5db3c96182f3e813658baf57ed2e113bc624b952fbe802bec358"
 }

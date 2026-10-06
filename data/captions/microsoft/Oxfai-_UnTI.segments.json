@@ -1,0 +1,168 @@
+{
+  "video_id": "Oxfai-_UnTI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 8.1,
+      "end": 25.2,
+      "text": "What's new in financial reporting in Business Central 2025 release wave 1 for administrators? In this wave, you get two new features and then I'm going to show you some new documentation for auditing."
+    },
+    {
+      "t": 25.2,
+      "end": 35.6,
+      "text": "So you get telemetry on usage and life cycle changes to to definitions. You get the same in Microsoft Purview. I don't have a demo for it."
+    },
+    {
+      "t": 35.6,
+      "end": 55.7,
+      "text": "I'll just mention that here. And then there's some new documentation as I said on how to set up audit changes to report definitions with change lock and also how um to set up permissions both for a authoring and for using financial reports."
+    },
+    {
+      "t": 55.7,
+      "end": 69.1,
+      "text": "So let's dive into business central and see that. So imagine you have a finance user and um a user that use finance reporting all the time."
+    },
+    {
+      "t": 69.1,
+      "end": 85.6,
+      "text": "There are two types of users here. One type of user we call the author. The author can uh likely edit uh report row column definitions and similarly do actions such as copying,"
+    },
+    {
+      "t": 85.6,
+      "end": 102.6,
+      "text": "exporting, importing both for row uh report definitions but also for row definitions and column definitions. So in order for you to track if you have requirements where it's important that you track changes to report definitions"
+    },
+    {
+      "t": 102.6,
+      "end": 117.6,
+      "text": "uh we now have the ability to see this in in in telemetry for the environment and similarly not only for the author but also for users of of um financial reports."
+    },
+    {
+      "t": 117.6,
+      "end": 129.4,
+      "text": "Whenever users view a report or they print a report to PDF or if they open a report with an Excel layout, all of this is also locked."
+    },
+    {
+      "t": 129.4,
+      "end": 144.3,
+      "text": "So all the usage of financial reports are also logged to telemetry. So you can see who ran which reports and with the author you can see who changed which report uh report definitions when."
+    },
+    {
+      "t": 144.3,
+      "end": 164.2,
+      "text": "So let's dive into uh to to see that in just a few examples in Azure applications insights. All right. So here in application insights, let me just try to query the last 30 days of of traces where the message has financial in the name."
+    },
+    {
+      "t": 164.2,
+      "end": 174.9,
+      "text": "There are of course real event ids that you can use. So you should never just use the message as I do it for illustration purposes. I'm just doing that."
+    },
+    {
+      "t": 174.9,
+      "end": 193.7,
+      "text": "And here um you can see some of the different types of events that I talked about when I was in business central. For instance, I can see that a certain financial report was run on screen and this is the code Russ Vaja whatever that report is."
+    },
+    {
+      "t": 193.7,
+      "end": 209.5,
+      "text": "We also get some life cycle telemetry here um of a report being created. Some different reports being created. These are the report definition codes and uh similarly report column definitions were created here."
+    },
+    {
+      "t": 209.5,
+      "end": 224.9,
+      "text": "If I expand this a bit, you can see the code of these. So that means that you in telemetry now have depending on your retention policy of telemetry you have"
+    },
+    {
+      "t": 224.9,
+      "end": 236.4,
+      "text": "um events that show both the usage of financial reports as well as changes to financial reports. So that was uh the telemetry part."
+    },
+    {
+      "t": 236.4,
+      "end": 251,
+      "text": "Now the similar type of events will eventually surface in Microsoft purview. Business central in uh data in Microsoft purview is uh in currently in preview."
+    },
+    {
+      "t": 251,
+      "end": 261.2,
+      "text": "Um but uh these changes to financial reports definitions will also appear in your Microsoft purview instance."
+    },
+    {
+      "t": 261.2,
+      "end": 279.6,
+      "text": "Then I mentioned two things about being able to track with change lock. Um that's new so new documentation. So let's switch to the to the business central documentation for financial report and I'll show you the new documentation."
+    },
+    {
+      "t": 279.6,
+      "end": 294.5,
+      "text": "So here in Microsoft learn there's a new article for auditing and I'll just uh simply search for audits here and immediately I get the first search result audit changes to financial reporting."
+    },
+    {
+      "t": 294.5,
+      "end": 308.6,
+      "text": "Let's have a look. So this new article tells you as an ad administrator what are the report uh definition tables. What are the tables behind report row and column definitions?"
+    },
+    {
+      "t": 308.6,
+      "end": 320,
+      "text": "And these are the table numbers that you need to set up change log for financial report definition changes. I'm not going to demo the change lock feature here. I'm sure you can do that."
+    },
+    {
+      "t": 320,
+      "end": 335,
+      "text": "If you are uh if you want even more um security around or auditing around your financial report definitions, you can you can use the deluxe version of change log which is called"
+    },
+    {
+      "t": 335,
+      "end": 351.6,
+      "text": "um which is called uh sensitive field monitoring. Um, so if you set up that, you will both get change log, but you also have the ability to get email notifications if someone changes a value for that."
+    },
+    {
+      "t": 351.6,
+      "end": 368.7,
+      "text": "Another thing this article shows is how to analyze your changes to financial report definitions with the data analysis feature. And uh let me just quickly show you that if if you take the change lock page into analysis mode,"
+    },
+    {
+      "t": 368.7,
+      "end": 388.8,
+      "text": "you now have a way to pivot this data either which definition changed or the other way around who changed what and when. So you can either put yourself in the in the context of a user changing and see who what they did can it change or you can you"
+    },
+    {
+      "t": 388.8,
+      "end": 402,
+      "text": "can go in and see who has been working on the report definitions for uh the income statement. The final part of this documentation is what are the permissions to view or edit reports."
+    },
+    {
+      "t": 402,
+      "end": 413.9,
+      "text": "You might know but now this is also part of the financial reporting documentation. So you can easily see the permission sets either for viewing or editing financial reports."
+    },
+    {
+      "t": 413.9,
+      "end": 429.1,
+      "text": "Now while we are in docs or in in the documentation two new articles I think might be of interest for you as an administrator. The first article is about troubleshooting financial reporting in case you need to help an author."
+    },
+    {
+      "t": 429.1,
+      "end": 449.3,
+      "text": "There's some guidance here. So maybe it doesn't work and maybe there are uh some advice here that can help that author get unblocked. And finally, we added also an FAQ, a frequently asked question page for financial reporting with at least the the most recently quest or frequent"
+    },
+    {
+      "t": 449.3,
+      "end": 460,
+      "text": "quest questions we get on the feature. And maybe this can also be of help for you to unblock uh the the the authors uh among your users."
+    },
+    {
+      "t": 460,
+      "end": 467,
+      "text": "So that's what we have for the administrator in financial reporting."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1045
+}

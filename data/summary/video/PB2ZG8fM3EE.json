@@ -1,0 +1,28 @@
+{
+  "video_id": "PB2ZG8fM3EE",
+  "item_id": "video/yt-microsoft/PB2ZG8fM3EE",
+  "summary": "Copilot autofill in Business Central (2025 release wave 1) suggests values for blank fields on card and document pages, demoed on customer and fixed asset records. Suggestions are not saved until the user keeps them, and field validation overrides them. Web search is announced for later in the wave, not in the initial update 26 release.",
+  "overview": "The video shows how Copilot suggests values for blank fields on cards and document pages. It creates a customer record and a fixed asset, and shows suggestions from most recently or most frequently used values, lookup selection based on other fields, and AI model knowledge, such as a five-year depreciation life for inkjet printers.\n\nIt also covers user control and extensibility. Suggestions are visually distinct and are not saved automatically. Users can see why a suggestion was made, use Alt+I or quick entry, and get a reminder when leaving a page with unreviewed suggestions. Custom fields and pages work without extra extensibility code, and developers can read the documentation to improve the output.",
+  "key_points": [
+    "Copilot suggests values for blank fields on card and document pages. Suggestions appear visually distinct inside fast tabs.",
+    "Suggestions are not saved automatically. The user chooses to keep them, and leaving a page with unreviewed suggestions triggers a reminder.",
+    "Business Central field validation and AL-based logic override Copilot suggestions.",
+    "Suggestions come from most recently or most frequently used values, from lookup choices based on other fields (for example the responsibility center closest to the customer's country), or from the AI model's own knowledge.",
+    "Alt+I asks Copilot to fill a field and related fields in a fast tab. Enter accepts a suggestion and moves on in quick entry.",
+    "An info icon explains why Copilot made a suggestion.",
+    "Web search (Bing) for public details such as addresses, phone numbers and emails is announced for later in the wave, not in the initial update 26 release."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "b504546bad76cd9ddd4391b5d37a852fa7295b0d3ed00dc2251f26f1147cd3f8",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.017124399999999998
+  }
+}

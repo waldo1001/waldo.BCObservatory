@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bi-design-financial-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bi-design-financial-reports",
+  "title": "Design your own financial reports",
+  "blob": "8730c58c5b4957b95a4eca841172a5607adeeb47",
+  "summary": "Design custom financial reports using row and column definitions to create layouts tailored to your reporting needs. Use this to build complex reports beyond standard formats, leveraging default settings, copying existing reports, and configuring row/column definitions with formulas and formatting options.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "financial reporting",
+    "row definitions",
+    "column definitions",
+    "report design",
+    "account scheduling"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Financial Report"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Row Definition"
+    },
+    {
+      "type": "page",
+      "name": "Column Definition"
+    }
+  ],
+  "features": [
+    "custom financial reports",
+    "row definitions",
+    "column definitions",
+    "show opposite sign",
+    "bold formatting",
+    "formula calculations",
+    "analysis views"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00788,
+      "pages_in_call": 8
+    }
+  ]
+}
