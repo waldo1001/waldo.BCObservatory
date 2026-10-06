@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-supply-planning.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-supply-planning",
+  "title": "Design Details - Supply Planning",
+  "blob": "f3d44510dbe07e49cea021da1ad7d1a54be268f5",
+  "summary": "Supply planning system in Business Central uses central concepts like supply balancing, reordering policies, and planning parameters to adjust algorithms for different environments and inventory planning needs.",
+  "systems": [
+    "inventory",
+    "manufacturing"
+  ],
+  "topics": [
+    "supply planning",
+    "demand and supply balancing",
+    "reordering policies",
+    "planning parameters",
+    "order tracking",
+    "reservation"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Planning Assignment"
+    }
+  ],
+  "features": [
+    "supply balancing",
+    "reordering policies",
+    "reservation",
+    "order tracking",
+    "action messaging",
+    "planning parameters",
+    "transfers in planning"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005224,
+      "pages_in_call": 8
+    }
+  ]
+}

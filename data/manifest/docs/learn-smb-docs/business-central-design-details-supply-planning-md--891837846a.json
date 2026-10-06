@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-supply-planning",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f3d44510dbe07e49cea021da1ad7d1a54be268f5",
       "words": 118,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:52.896Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005224
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:00.820Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:00.820Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:00.821Z",
+      "page": false
     }
   },
   "input_hash": "f3d44510dbe07e49cea021da1ad7d1a54be268f5",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f3d44510dbe07e49cea021da1ad7d1a54be268f5"
+  "output_hash": "540afb95c92c0c7abfc589f8111b49d414ac6c50b7eaecea0452d9efc1c3fbab"
 }

@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/service-scalability.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/service-scalability",
+  "title": "Service scalability for Business Central online",
+  "blob": "d0b010b0b226f43679f0bfd9c70b84900cebe1b0",
+  "summary": "Business Central online provides resource elasticity and autoscaling supporting over 2B API calls and 1B UI interactions weekly, with 99.81% execution on adequately resourced nodes and no fixed limits on users or database size.",
+  "systems": [
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "scalability",
+    "autoscaling",
+    "performance",
+    "throughput",
+    "resource elasticity",
+    "telemetry"
+  ],
+  "objects": [],
+  "features": [
+    "autoscaling",
+    "load balancing",
+    "API throughput",
+    "sales order creation",
+    "invoice posting",
+    "web service rate limiting",
+    "job queues",
+    "storage capacity",
+    "multi-environment support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005224,
+      "pages_in_call": 8
+    }
+  ]
+}

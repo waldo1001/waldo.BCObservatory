@@ -1,0 +1,121 @@
+{
+  "video_id": "xBORySiYWog",
+  "item_id": "video/yt-microsoft/xBORySiYWog",
+  "title": "#BCTalent Stories: SwissSalary",
+  "duration_s": 119,
+  "systems": [
+    "hr",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "talent program",
+    "resale program",
+    "business central training",
+    "us expansion",
+    "recruitment",
+    "payroll",
+    "international growth"
+  ],
+  "chapters": [
+    {
+      "title": "SwissSalary's expansion and market success",
+      "t_start": 0,
+      "t_end": 22.8
+    },
+    {
+      "title": "Opening a US branch and joining the talent program",
+      "t_start": 22.8,
+      "t_end": 43.1
+    },
+    {
+      "title": "First US employee joins the team",
+      "t_start": 43.1,
+      "t_end": 63.5
+    },
+    {
+      "title": "Career growth and technical skill development",
+      "t_start": 63.5,
+      "t_end": 83.6
+    },
+    {
+      "title": "Talent program as key to company growth",
+      "t_start": 83.6,
+      "t_end": 119
+    }
+  ],
+  "features": [
+    {
+      "name": "Resale skill program",
+      "description": "A talent development program that bridges the gap between outsiders and Business Central expertise, providing training and career growth opportunities for new employees joining companies using Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 63.5,
+      "t_end": 104,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "talent development",
+        "business central training",
+        "recruitment",
+        "career growth"
+      ],
+      "system": "hr"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "SwissSalary founder/representative",
+      "confidence": "low"
+    },
+    {
+      "name": "First US employee",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 22.8,
+      "text": "we have to join this program I am happy to have a strong partner who helps me with recruiting the best talents for Swiss",
+      "why_it_matters": "Shows the company's commitment to the talent program as a recruitment tool for international expansion",
+      "check": "exact"
+    },
+    {
+      "t": 63.5,
+      "text": "I'm at the point in my career where I'm looking for more growth opportunities and I feel for me the res skill program um",
+      "why_it_matters": "Demonstrates how the resale program helps career development by providing Business Central technical training",
+      "check": "exact"
+    },
+    {
+      "t": 83.6,
+      "text": "the resale program I think gives an incentive for Outsiders to come in learn business Central and start at a higher level",
+      "why_it_matters": "Explains the program's purpose of bringing external talent into Business Central expertise at an advanced level",
+      "check": "exact"
+    },
+    {
+      "t": 83.6,
+      "text": "we know we have the best product on the market and growing the company in Switzerland even in the United States is the most",
+      "why_it_matters": "Articulates the company's confidence in its product and strategy for international growth",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 1
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008284
+    }
+  ]
+}

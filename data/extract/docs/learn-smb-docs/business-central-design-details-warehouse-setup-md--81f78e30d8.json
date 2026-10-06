@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-warehouse-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-warehouse-setup",
+  "title": "Design Details - Warehouse Setup",
+  "blob": "927c033a88107b9498566279ddef62bef405fd8c",
+  "summary": "Warehouse setup in Business Central defines complexity levels from no dedicated warehouse activity to WMS with directed operations, using bin types, bin ranking, zones, classes, and capacity management across six complexity levels.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "warehouse complexity levels",
+    "bin setup",
+    "bin types",
+    "bin ranking",
+    "zone management",
+    "warehouse classes",
+    "bin capacity",
+    "fefo picking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Location Card"
+    },
+    {
+      "type": "page",
+      "name": "Bin Content"
+    }
+  ],
+  "features": [
+    "bin types",
+    "bin ranking",
+    "fixed bins",
+    "dedicated bins",
+    "default bins",
+    "floating bins",
+    "RECEIVE bin type",
+    "SHIP bin type",
+    "PUT AWAY bin type",
+    "PICK bin type",
+    "PUTPICK bin type",
+    "QC bin type"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005224,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-internal-warehouse-flows",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "787a80b8e9fb990a0de28f36e2f0caa9bf105679",
       "words": 1356,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:52.894Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 12,
+      "cost_usd": 0.005224
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:00.817Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:00.817Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:00.818Z",
+      "page": false
     }
   },
   "input_hash": "787a80b8e9fb990a0de28f36e2f0caa9bf105679",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "787a80b8e9fb990a0de28f36e2f0caa9bf105679"
+  "output_hash": "96c67be56ff8620d22574fa9468f01f00c4c026f09e34b7035e60ecc73689585"
 }

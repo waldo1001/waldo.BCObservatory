@@ -1,0 +1,94 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-internal-warehouse-flows.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-internal-warehouse-flows",
+  "title": "Design details - flows for production, assembly, and projects",
+  "blob": "787a80b8e9fb990a0de28f36e2f0caa9bf105679",
+  "summary": "Internal warehouse flows for production, assembly, and projects support multiple complexity levels from basic order-by-order picks and put-aways to advanced directed activities with consolidated operations across multiple source documents.",
+  "systems": [
+    "warehouse",
+    "manufacturing",
+    "assembly"
+  ],
+  "topics": [
+    "internal flows",
+    "warehouse configuration",
+    "pick and put-away",
+    "production orders",
+    "assembly orders",
+    "project management",
+    "complexity levels"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Location Card"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Pick"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Movement"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Put-away"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Pick"
+    },
+    {
+      "type": "page",
+      "name": "Pick Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Movement"
+    },
+    {
+      "type": "page",
+      "name": "Movement Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Whse. Internal Put-away"
+    },
+    {
+      "type": "page",
+      "name": "Production Journal"
+    },
+    {
+      "type": "page",
+      "name": "Output Journal"
+    },
+    {
+      "type": "page",
+      "name": "Consumption Journal"
+    }
+  ],
+  "features": [
+    "directed pick and put-away",
+    "bin code mandatory toggle",
+    "production output warehouse handling",
+    "assembly consumption warehouse handling",
+    "project consumption warehouse handling",
+    "to-production bin code",
+    "from-production bin code",
+    "to-assembly bin code",
+    "from-assembly bin code",
+    "component flushing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005224,
+      "pages_in_call": 8
+    }
+  ]
+}

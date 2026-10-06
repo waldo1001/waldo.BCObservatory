@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-warehouse-setup",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "927c033a88107b9498566279ddef62bef405fd8c",
       "words": 2000,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:52.898Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.005224
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:00.822Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:00.822Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:00.823Z",
+      "page": false
     }
   },
   "input_hash": "927c033a88107b9498566279ddef62bef405fd8c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "927c033a88107b9498566279ddef62bef405fd8c"
+  "output_hash": "a70ef57386cd70abb0e236868c392f3c7fbd619e434f4eb454bb4a3fcae69278"
 }

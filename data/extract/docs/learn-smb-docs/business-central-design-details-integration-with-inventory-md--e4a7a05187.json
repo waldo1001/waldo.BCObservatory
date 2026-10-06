@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-integration-with-inventory.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-integration-with-inventory",
+  "title": "Design Details - Integration with Inventory",
+  "blob": "c4704a1f21c7f9b511b5bbf120a11e43b33eaa3e",
+  "summary": "Physical inventory and warehouse adjustments in Business Central integrate inventory ledger and warehouse bin tracking, using the Whse. Phys. Inventory Journal and Item Journal with default adjustment bins to reconcile counted quantities.",
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "physical inventory",
+    "bin management",
+    "adjustment bins",
+    "warehouse integration",
+    "inventory reconciliation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Whse. Phys. Inventory Journal"
+    },
+    {
+      "type": "page",
+      "name": "Phys. Inventory Journal"
+    },
+    {
+      "type": "page",
+      "name": "Item Journal"
+    }
+  ],
+  "features": [
+    "physical inventory posting",
+    "bin level inventory calculation",
+    "default adjustment bin",
+    "warehouse adjustments to item ledger",
+    "quantity reconciliation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005224,
+      "pages_in_call": 8
+    }
+  ]
+}

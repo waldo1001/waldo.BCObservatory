@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-inventory-costing",
   "published_at": "2025-05-06T19:33:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c028f3c0c12d0c69112bd4c7c5edec67bf4bc543",
       "words": 130,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:52.895Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005224
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:00.818Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:00.819Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:00.819Z",
+      "page": false
     }
   },
   "input_hash": "c028f3c0c12d0c69112bd4c7c5edec67bf4bc543",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c028f3c0c12d0c69112bd4c7c5edec67bf4bc543"
+  "output_hash": "8a3cbb6a29e0b1d0bdb9bc147f1ee4181441c1b6a0d19af3f0584fcd7caaac2b"
 }

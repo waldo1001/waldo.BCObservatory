@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/service-scalability",
   "published_at": "2025-05-06T19:29:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d0b010b0b226f43679f0bfd9c70b84900cebe1b0",
       "words": 1710,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:32:52.900Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005224
+    },
+    "summarized": {
+      "at": "2026-10-06T19:33:02.647Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:33:02.648Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:33:02.649Z",
+      "page": false
     }
   },
   "input_hash": "d0b010b0b226f43679f0bfd9c70b84900cebe1b0",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d0b010b0b226f43679f0bfd9c70b84900cebe1b0"
+  "output_hash": "e42102cb10f4461f267e5ef32abd6525ea5b02d56c9c3a993ddb8178831866fd"
 }
