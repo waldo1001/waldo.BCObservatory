@@ -1,0 +1,109 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/ui-extensions-qr-bill-management",
+  "title": "QR-Bill Management [CH]",
+  "blob": "799c7bc6252930e3e93acd221cd1ed4b250ca605",
+  "summary": "QR-Bill Management in Switzerland handles creation and receipt of QR-bills for payments, including scanning, importing, and reconciliation with support for structured addresses starting October 2026.",
+  "systems": [
+    "localization",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "qr-bill",
+    "swiss",
+    "payment",
+    "invoice",
+    "scanning",
+    "iban",
+    "reconciliation",
+    "structured-address"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "QR-Bill Setup"
+    },
+    {
+      "type": "page",
+      "name": "QR-Bill Layout"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection - Sales"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Bank Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Payment Methods"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Incoming Documents"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Journals"
+    },
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journals"
+    },
+    {
+      "type": "page",
+      "name": "Data Exchange Definitions"
+    },
+    {
+      "type": "page",
+      "name": "Field Mapping"
+    },
+    {
+      "type": "page",
+      "name": "Matching Details"
+    }
+  ],
+  "features": [
+    "QR-bill generation",
+    "QR-bill scanning",
+    "QR-bill import",
+    "structured addresses",
+    "IBAN/QR-IBAN support",
+    "payment reference",
+    "multiple bank accounts",
+    "Kofax OCR integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005891,
+      "pages_in_call": 8
+    }
+  ]
+}

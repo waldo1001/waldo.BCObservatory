@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-manage-appsource-apps.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manage-appsource-apps",
+  "title": "Manage Marketplace apps",
+  "blob": "83a1379e40d410e5e4d42d05f766c96badcca299",
+  "summary": "Manage Marketplace apps page allows discovery, filtering, and viewing of Microsoft Marketplace apps integrated with Business Central, with actions to view, refresh, and install apps.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "marketplace",
+    "apps",
+    "appsource",
+    "extension",
+    "installation",
+    "filtering"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Microsoft Marketplace Apps"
+    },
+    {
+      "type": "page",
+      "name": "Extension Management"
+    }
+  ],
+  "features": [
+    "app discovery",
+    "app filtering",
+    "analysis mode",
+    "marketplace view",
+    "app refresh",
+    "copilot assistance"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005891,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "video_id": "LKt0K-EdiX0",
+  "item_id": "video/yt-microsoft/LKt0K-EdiX0",
+  "title": "What's New: Fixed Assets (2026 release wave 1)",
+  "duration_s": 603,
+  "systems": [
+    "fixed-assets",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "bonus depreciation",
+    "depreciation methods",
+    "fixed asset setup",
+    "tax planning",
+    "compliance",
+    "accelerated depreciation",
+    "reporting fields"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and business value",
+      "t_start": 0,
+      "t_end": 50.6
+    },
+    {
+      "title": "Bonus depreciation overview",
+      "t_start": 50.6,
+      "t_end": 135
+    },
+    {
+      "title": "Setup and configuration",
+      "t_start": 135,
+      "t_end": 235.4
+    },
+    {
+      "title": "Demo - setup and asset eligibility",
+      "t_start": 235.4,
+      "t_end": 350.1
+    },
+    {
+      "title": "Demo - depreciation calculation with and without bonus",
+      "t_start": 350.1,
+      "t_end": 472.6
+    },
+    {
+      "title": "Demo - ledger entries and reporting",
+      "t_start": 472.6,
+      "t_end": 555.8
+    },
+    {
+      "title": "Conclusion and resources",
+      "t_start": 555.8,
+      "t_end": 603
+    }
+  ],
+  "features": [
+    {
+      "name": "Bonus depreciation method",
+      "description": "A new accelerated depreciation method that allows businesses to deduct a specific percentage of asset cost in the first year of service, with the remainder following regular depreciation rules. Available globally in the base app.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 50.6,
+      "t_end": 120.5,
+      "is_demoed": true,
+      "caveats": [
+        "Different names across countries (investment bonus depreciation in Australia and New Zealand, 168K depreciation in United States, etc.)",
+        "Percentage and eligibility determined by local tax law"
+      ],
+      "tags": [
+        "bonus depreciation",
+        "accelerated depreciation",
+        "tax compliance",
+        "depreciation methods"
+      ],
+      "system": "fixed-assets"
+    },
+    {
+      "name": "Fixed Asset Setup fields for bonus depreciation",
+      "description": "Two new fields added to the Fixed Asset Setup page: percentage field for the bonus depreciation rate and effective date field that determines eligibility for all assets placed in service after that date.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 138.1,
+      "t_end": 210.5,
+      "is_demoed": true,
+      "caveats": [
+        "Fields contain maximum percentages defined by law; lower percentages can be used",
+        "Eligibility driven by depreciation starting date of the asset"
+      ],
+      "tags": [
+        "setup",
+        "configuration",
+        "fixed asset setup page"
+      ],
+      "system": "fixed-assets"
+    },
+    {
+      "name": "Bonus depreciation toggle on fixed asset card",
+      "description": "A toggle field on the fixed asset depreciation book that allows users to opt in or opt out of using bonus depreciation for each individual asset, regardless of setup settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 190.4,
+      "t_end": 210.5,
+      "is_demoed": true,
+      "caveats": [
+        "Automatically set to true when depreciation starting date is higher than effective date on setup, but can be manually toggled"
+      ],
+      "tags": [
+        "bonus depreciation",
+        "fixed asset card",
+        "configuration"
+      ],
+      "system": "fixed-assets"
+    },
+    {
+      "name": "Additional reporting fields for FA depreciation books",
+      "description": "Several new fields have been added to the FA Depreciation Books page for reporting purposes. These fields are hidden by default but can be customized onto the page and used for reporting via Excel export.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 210.5,
+      "t_end": 235.4,
+      "is_demoed": true,
+      "caveats": [
+        "Fields are hidden by default and require personalization to display"
+      ],
+      "tags": [
+        "reporting",
+        "depreciation books",
+        "customization"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Fixed Asset Setup",
+      "t": 240
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset card",
+      "t": 307.9
+    },
+    {
+      "type": "report",
+      "name": "Calculate Depreciation",
+      "t": 361.4
+    },
+    {
+      "type": "page",
+      "name": "FA Depreciation Books",
+      "t": 513.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander Totovic",
+      "confidence": "high"
+    },
+    {
+      "name": "George",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 30.6,
+      "text": "idea with these new functionalities what you will see in a minute is to improve compliance for global customers, to make more accurate tax",
+      "why_it_matters": "Explains the primary business drivers for the new fixed assets features.",
+      "check": "exact"
+    },
+    {
+      "t": 61,
+      "text": "now in a W1 in a base app global base app you will find new depreciation model as a bonus depreciation method",
+      "why_it_matters": "Confirms that bonus depreciation is generally available in the global base app, not a preview or localization-specific feature.",
+      "check": "exact"
+    },
+    {
+      "t": 88.9,
+      "text": "Bonus depreciation is accelerated depreciation method that allows businesses to deduct specific percentage of asset cost in the first year in a place in",
+      "why_it_matters": "Defines the core functionality and benefit of the new depreciation method.",
+      "check": "exact"
+    },
+    {
+      "t": 148.2,
+      "text": "it is set up on the fixed asset setup page. There are two fields, one for the percentage and one for the eligibility date",
+      "why_it_matters": "Specifies exactly where and how bonus depreciation is configured.",
+      "check": "exact"
+    },
+    {
+      "t": 190.4,
+      "text": "you can opt in to use it or not on each fixed asset depreciation book. It is entirely driven by the by the depreciation",
+      "why_it_matters": "Clarifies that usage is optional per asset and the depreciation starting date is the key driver.",
+      "check": "exact"
+    },
+    {
+      "t": 262.8,
+      "text": "These are typically communicated to the accountant by the government. They are defined in the law. And this is the maximum percentage you can",
+      "why_it_matters": "Explains that the fields contain government-defined maximum percentages that can be customized lower as needed.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019794
+    }
+  ]
+}

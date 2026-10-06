@@ -1,0 +1,28 @@
+{
+  "video_id": "m8-7-JKq4dc",
+  "item_id": "video/yt-microsoft/m8-7-JKq4dc",
+  "summary": "Quality Management extension in Business Central (2026 release wave 1): a 46-minute walkthrough covering automatic inspections on purchase receipt, test setup, templates, sampling, generation rules, blocking by item tracking, non-compliant item actions and built-in workflows.",
+  "overview": "The video introduces a new Quality Management extension. It first demos a purchase receipt that creates an inspection automatically, a failed test that creates a transfer order for the sample quantity, and a sales transaction blocked for the failed lot. It then shows rechecking the remaining quantity and the Certificate of Analysis and Non-Conformance Report documents.\n\nThe second part covers configuration: inspection results, quality tests and data types, result conditions and evaluation sequence, table lookups, templates, sampling, generation rules, and blocking by item tracking. It ends with actions for failed or passed inspections, quantity selection, built-in workflows with four events, and API exposure for Power Automate. The speaker says the layout is being changed, so the UI in the release will differ from the demo.",
+  "key_points": [
+    "Inspections can be created automatically from generation rules tied to events such as a purchase order receipt or a sales return receipt, manually, or on a schedule through a job queue option.",
+    "One failed test marks the whole inspection as failed. A failed inspection can create a transfer order for the sample size tested, not the total received quantity.",
+    "Blocking of sales, purchases and consumption by inspection result works only for items with an item tracking code. Items without tracking need another blocking method.",
+    "When several result conditions apply to a test, the higher evaluation sequence takes precedence. Conflicting conditions need careful setup.",
+    "Default test values mean the system does not register who performed the test, because the line is not modified.",
+    "Table lookup tests let you pick a display field and filter. A row limit in Quality Management Setup controls lookup performance.",
+    "Sampling is a fixed quantity or a percent of quantity, rounded to integers. Built-in workflows have four events (created, changed, finished, reopened) and run in the same transaction, so they roll back on error."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "f2b14dfb12f9fd8d24a2beedd2f18f358bd359c07f643f14e16d9e3506eec402",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0442024
+  }
+}

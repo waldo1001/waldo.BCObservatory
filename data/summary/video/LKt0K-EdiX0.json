@@ -1,0 +1,27 @@
+{
+  "video_id": "LKt0K-EdiX0",
+  "item_id": "video/yt-microsoft/LKt0K-EdiX0",
+  "summary": "Bonus depreciation in Business Central Fixed Assets (2026 release wave 1): a new accelerated depreciation method in the global base app, with setup fields, a per-asset toggle, and extra reporting fields on FA Depreciation Books. The video demos setup, calculation with and without bonus, and ledger entries.",
+  "overview": "The video covers the new bonus depreciation method in Fixed Assets. It lets a business deduct a set percentage of an asset's cost in the first year of service, with the remainder following regular depreciation rules. The method is in the global base app. Its name differs by country, for example investment bonus depreciation in Australia and New Zealand and 168K depreciation in the United States.\n\nThe demo walks through the Fixed Asset Setup page, asset eligibility, running depreciation calculation with and without bonus, and the resulting ledger entries and reporting. It also shows new reporting fields on FA Depreciation Books.",
+  "key_points": [
+    "Bonus depreciation is a new depreciation method in the global base app, aimed at compliance and more accurate tax planning for global customers.",
+    "Fixed Asset Setup has two new fields: a bonus depreciation percentage and an effective date. Assets placed in service after that date are eligible.",
+    "The percentage in setup is the maximum defined by law, typically communicated by the government. A lower percentage can be used.",
+    "Eligibility is driven by the asset's depreciation starting date. The toggle on the fixed asset depreciation book is set to true when that date is later than the setup effective date.",
+    "The toggle can be changed manually per asset to opt in or out, regardless of setup.",
+    "Several new reporting fields on the FA Depreciation Books page are hidden by default. Personalize the page to show them and export to Excel for reporting.",
+    "The percentage and eligibility follow local tax law, so check the rules for your country."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "7a214eb1fa1011029cedb5eecd228b3738239c9eb63e96d96eb6b25aef8cfcd1",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014112399999999999
+  }
+}

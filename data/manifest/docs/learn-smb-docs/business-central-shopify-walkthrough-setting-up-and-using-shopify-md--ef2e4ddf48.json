@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/walkthrough-setting-up-and-using-shopify",
   "published_at": "2026-06-12T03:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "80134fb64b7f473e0f4305b00b545a48b6e39cc5",
       "words": 3403,
       "forms": 9
+    },
+    "extracted": {
+      "at": "2026-10-06T18:02:39.824Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 11,
+      "cost_usd": 0.005891
+    },
+    "summarized": {
+      "at": "2026-10-06T18:02:41.425Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:02:41.426Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:02:41.427Z",
+      "page": false
     }
   },
   "input_hash": "80134fb64b7f473e0f4305b00b545a48b6e39cc5",
@@ -81,5 +100,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "80134fb64b7f473e0f4305b00b545a48b6e39cc5"
+  "output_hash": "38bd80e722468fb9b62abd30cb636874a08d3a4c61ee4a6ab25e56a65e1f6557"
 }

@@ -1,0 +1,441 @@
+{
+  "video_id": "d4mYltz4Zwg",
+  "item_id": "video/yt-microsoft/d4mYltz4Zwg",
+  "title": "Introducing: Withholding Taxes (2026 release wave 1)",
+  "duration_s": 808,
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "withholding taxes",
+    "vendor payments",
+    "posting groups",
+    "tax calculation",
+    "invoice posting",
+    "payment processing",
+    "localization",
+    "setup configuration"
+  ],
+  "chapters": [
+    {
+      "title": "Understanding withholding taxes",
+      "t_start": 0,
+      "t_end": 105.2
+    },
+    {
+      "title": "How withholding taxes work - workflow example",
+      "t_start": 105.2,
+      "t_end": 157.7
+    },
+    {
+      "title": "Setup architecture and configuration model",
+      "t_start": 157.7,
+      "t_end": 271.5
+    },
+    {
+      "title": "Vendor and item configuration",
+      "t_start": 271.5,
+      "t_end": 384.5
+    },
+    {
+      "title": "Withholding tax setup details",
+      "t_start": 384.5,
+      "t_end": 455.4
+    },
+    {
+      "title": "Demo - purchase invoice posting and calculations",
+      "t_start": 455.4,
+      "t_end": 627
+    },
+    {
+      "title": "Demo - unrealized to realized entries",
+      "t_start": 627,
+      "t_end": 641.4
+    },
+    {
+      "title": "Limitations, availability and localization",
+      "t_start": 641.4,
+      "t_end": 770.3
+    },
+    {
+      "title": "Resources and closing",
+      "t_start": 770.3,
+      "t_end": 808
+    }
+  ],
+  "features": [
+    {
+      "name": "Withholding Tax for Vendors and Purchase Process",
+      "description": "New capability to apply withholding taxes to vendors during the purchase process. Withholding tax is deducted at source from payments before the recipient receives the net amount, based on configured percentages and thresholds.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 20.2,
+      "t_end": 145.4,
+      "is_demoed": true,
+      "caveats": [
+        "Currently only covers vendors and purchase process, not employees or customers",
+        "Not available in Australia, New Zealand, India, and Italy",
+        "Available globally except these four countries"
+      ],
+      "tags": [
+        "withholding taxes",
+        "vendor payments",
+        "purchase process",
+        "tax compliance"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Withholding Tax Posting Groups Configuration",
+      "description": "Configuration model using withholding tax business posting groups and product posting groups, similar to VAT setup. Includes withholding tax posting setup with threshold rules, revenue types, and sequences to support multiple withholding taxes for the same vendor.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 169.6,
+      "t_end": 260.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires completion of setup fields before posting is allowed"
+      ],
+      "tags": [
+        "posting groups",
+        "configuration",
+        "setup",
+        "business groups"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Vendor Withholding Tax Enablement",
+      "description": "Vendors can be configured with withholding tax liability through the Invoicing tab by enabling the withholding tax liable field and assigning a withholding tax business posting group. System blocks posting if withholding tax liable is enabled but posting group is not populated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 271.5,
+      "t_end": 326.9,
+      "is_demoed": true,
+      "caveats": [
+        "Not required for all vendors",
+        "System enforces validation - posting blocked without complete setup"
+      ],
+      "tags": [
+        "vendor setup",
+        "configuration",
+        "validation"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Item Withholding Tax Product Posting Group",
+      "description": "Items can be configured with withholding tax product posting groups to determine withholding tax calculation behavior at the item level, independent of vendor configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 338.2,
+      "t_end": 371.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "item configuration",
+        "product posting groups"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Withholding Tax Threshold and Calculation Rules",
+      "description": "Support for multiple calculation rule types including less than, less than or equal, equal, greater than, and greater than or equal thresholds. Each rule can have its own withholding tax percentage, and multiple sequential rules can be applied to the same vendor.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 195,
+      "t_end": 246.1,
+      "is_demoed": true,
+      "caveats": [
+        "Sequences allow multiple withholding taxes to be calculated in order"
+      ],
+      "tags": [
+        "calculation rules",
+        "thresholds",
+        "sequences"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Invoice vs Payment Withholding Tax Timing",
+      "description": "Withholding tax can be realized on invoice or unrealized on payment. Configuration allows choosing when withholding tax is calculated and recorded - either when the invoice is created or when payment is made.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 55.1,
+      "t_end": 627,
+      "is_demoed": true,
+      "caveats": [
+        "Payment-based withholding shows as unrealized until payment is made"
+      ],
+      "tags": [
+        "withholding tax timing",
+        "invoice",
+        "payment",
+        "realized"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Withholding Tax Base Override",
+      "description": "Field to override the withholding tax calculation base amount. Allows using a different base amount than the invoice amount for withholding tax calculation purposes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 568.5,
+      "t_end": 611.7,
+      "is_demoed": true,
+      "caveats": [
+        "Does not change the invoice amount, only the calculation base"
+      ],
+      "tags": [
+        "calculation base",
+        "override",
+        "flexibility"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Withholding Tax Posting Preview",
+      "description": "Preview posting functionality shows withholding tax entries before posting, including base amounts and withholding tax amounts for both realized and unrealized scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 455.4,
+      "t_end": 467,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting preview",
+        "validation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Withholding Tax Entries Tracking",
+      "description": "New withholding tax entries are created during posting that track the withholding tax amount, base amount, and status (realized or unrealized). Entries can be found and reviewed after posting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 477.7,
+      "t_end": 627,
+      "is_demoed": true,
+      "caveats": [
+        "Unrealized entries convert to realized when payment is made"
+      ],
+      "tags": [
+        "entries",
+        "tracking",
+        "realized",
+        "unrealized"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "General Ledger Setup Requirement",
+      "description": "Withholding tax must be enabled in General Ledger Setup, and minimum withholding tax amount must be configured before the feature can be used. Payment rounding option is also available.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 423.6,
+      "t_end": 440.3,
+      "is_demoed": true,
+      "caveats": [
+        "Feature is disabled by default and requires explicit enablement"
+      ],
+      "tags": [
+        "setup",
+        "configuration",
+        "general ledger"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Withholding Tax for Australia and New Zealand",
+      "description": "Withholding tax functionality is currently unavailable in Australia and New Zealand due to existing local withholding tax implementations. Future release will provide upgrade path via feature management to migrate to the new global model with localizations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 692.2,
+      "t_end": 739.3,
+      "is_demoed": false,
+      "caveats": [
+        "Not available in current release for Australia and New Zealand",
+        "Upgrade path coming in next release",
+        "Will maintain same functionality level as current localizations"
+      ],
+      "tags": [
+        "localization",
+        "australia",
+        "new zealand",
+        "upgrade",
+        "future"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Withholding Tax for India and Italy",
+      "description": "Withholding tax functionality is not available in India and Italy in this release. These countries have different withholding tax models that require separate research and implementation.",
+      "status": "announced",
+      "status_evidence_t": 755.6,
+      "status_evidence_quote": "In Italy we have completely different withholding tax. So it will be subject of research what we need to do how we can and",
+      "status_evidence_verified": true,
+      "t_start": 755.6,
+      "t_end": 770.3,
+      "is_demoed": false,
+      "caveats": [
+        "Not available for these countries in current release",
+        "Requires research for proper implementation"
+      ],
+      "tags": [
+        "localization",
+        "india",
+        "italy",
+        "future",
+        "research"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Withholding Tax Posting Setup",
+      "t": 195
+    },
+    {
+      "type": "other",
+      "name": "Withholding Tax Business Posting Group",
+      "t": 182.2
+    },
+    {
+      "type": "other",
+      "name": "Withholding Tax Product Posting Group",
+      "t": 182.2
+    },
+    {
+      "type": "other",
+      "name": "General Ledger Setup",
+      "t": 423.6
+    },
+    {
+      "type": "other",
+      "name": "Withholding Tax Entries",
+      "t": 477.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander Totovich",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 31.7,
+      "text": "currently with this functionality we are covering withholding taxes related to vendors and purchase process",
+      "why_it_matters": "Clearly establishes the scope - only vendors and purchase process, not employees or customers",
+      "check": "exact"
+    },
+    {
+      "t": 42.6,
+      "text": "withholding tax is actually a tax deducted at source from payment before the recipient received the net amount",
+      "why_it_matters": "Defines the core concept of withholding tax and clarifies it is deducted before the recipient gets paid",
+      "check": "exact"
+    },
+    {
+      "t": 246.1,
+      "text": "With a sequence you can have more than one bit holding tax in the same for same vendor for same uh model in some",
+      "why_it_matters": "Shows design capability to support multiple sequential withholding tax calculations on same vendor",
+      "check": "exact"
+    },
+    {
+      "t": 314.6,
+      "text": "for this vendor and i didn't populate the withholding tax uh posting group system will block posting for",
+      "why_it_matters": "Shows system validation that prevents incomplete setup from causing posting errors",
+      "check": "fuzzy"
+    },
+    {
+      "t": 423.6,
+      "text": "before I start to work it will not be enabled by default. You need to go to general ledger setup and to enable withholding",
+      "why_it_matters": "Establishes that feature requires explicit enablement in setup before use",
+      "check": "exact"
+    },
+    {
+      "t": 656.6,
+      "text": "this is enabled as a global app. So this is available everywhere. This everywhere is except these four countries",
+      "why_it_matters": "Indicates general availability status and global availability with four country exceptions",
+      "check": "exact"
+    },
+    {
+      "t": 712.4,
+      "text": "in next release we will enable through feature management upgrade process so they can remove from existing model they have right now",
+      "why_it_matters": "Indicates future roadmap for Australia and New Zealand to migrate to new model via feature management",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 31.7,
+      "kind": "not-in-this-release",
+      "text": "currently with this functionality we are covering withholding taxes related to vendors and purchase process. Employees and customers not included"
+    },
+    {
+      "t": 656.6,
+      "kind": "not-in-this-release",
+      "text": "currently we do not cover other options. So no employee not customers only purchase process"
+    },
+    {
+      "t": 668.2,
+      "kind": "not-in-this-release",
+      "text": "This everywhere is except these four countries. Australia, New Zealand, India and Italy"
+    },
+    {
+      "t": 678.7,
+      "kind": "other",
+      "text": "with no localization. So regardless if you are UK, US, Germany, any countries you will get the same functionality no localization for any specific country in this moment"
+    },
+    {
+      "t": 712.4,
+      "kind": "coming-later",
+      "text": "in next release we will enable through feature management upgrade process for Australia and New Zealand"
+    },
+    {
+      "t": 755.6,
+      "kind": "coming-later",
+      "text": "In Italy we have completely different withholding tax. So it will be subject of research. And the same for India"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 11
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.03311
+    }
+  ]
+}

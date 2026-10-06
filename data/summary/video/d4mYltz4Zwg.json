@@ -1,0 +1,27 @@
+{
+  "video_id": "d4mYltz4Zwg",
+  "item_id": "video/yt-microsoft/d4mYltz4Zwg",
+  "summary": "Withholding taxes for vendors and the purchase process in Business Central (2026 release wave 1): setup with posting groups, vendor and item configuration, and a demo of invoice posting and unrealized-to-realized entries. Covers limits: no employees or customers, and not available in Australia, New Zealand, India and Italy.",
+  "overview": "The video introduces withholding tax, described as tax deducted at source from a payment before the recipient receives the net amount. The new capability covers vendors and the purchase process only. It is a global app with no country-specific localization, available everywhere except Australia, New Zealand, India and Italy.\n\nIt walks through the configuration model, which uses withholding tax business and product posting groups similar to VAT setup, plus a posting setup with threshold rules and sequences. It then demos purchase invoice posting, the posting preview, and how unrealized entries become realized when payment is made. It closes with limitations and plans for the excluded countries.",
+  "key_points": [
+    "The feature is off by default: enable withholding tax in General Ledger Setup and set the minimum withholding tax amount before use. A payment rounding option is also available.",
+    "Vendors are set up on the Invoicing tab: enable withholding tax liable and assign a withholding tax business posting group. Posting is blocked if the group is empty.",
+    "Items can carry a withholding tax product posting group, which sets calculation behavior at item level.",
+    "Withholding Tax Posting Setup supports threshold rules (less than, less than or equal, equal, greater than, greater than or equal), each with its own percentage. Sequences allow several withholding taxes for the same vendor.",
+    "Withholding tax can be realized on invoice or unrealized until payment. Unrealized entries become realized when payment is made, and the posting preview shows base and withholding amounts.",
+    "A base override field changes the calculation base without changing the invoice amount.",
+    "Not covered: employees and customers. Not available in Australia, New Zealand, India and Italy. An upgrade path through feature management for Australia and New Zealand is planned for the next release. India and Italy need separate research."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "f01a695f3852887b9f9b5926e95e85dcb5576bf7aefd7e3e95078a0c5da226db",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0205124
+  }
+}

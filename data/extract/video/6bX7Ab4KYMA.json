@@ -1,0 +1,276 @@
+{
+  "video_id": "6bX7Ab4KYMA",
+  "item_id": "video/yt-microsoft/6bX7Ab4KYMA",
+  "title": "What's New: Cloud Migration Tooling (2026 release wave 1)",
+  "duration_s": 594,
+  "systems": [
+    "integration",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "cloud migration",
+    "custom migration tool",
+    "migration platform",
+    "sql sources",
+    "table mappings",
+    "bc14 re-implementation",
+    "no-code migration",
+    "configuration packages"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview of Three New Features",
+      "t_start": 0,
+      "t_end": 43.4
+    },
+    {
+      "title": "Custom Migration Tooling Platform for Developers",
+      "t_start": 43.4,
+      "t_end": 152.2
+    },
+    {
+      "title": "Business Central Version 14 Re-Implementation Tool",
+      "t_start": 152.2,
+      "t_end": 224.8
+    },
+    {
+      "title": "Demo and Details of BC14 Re-Implementation Tool",
+      "t_start": 224.8,
+      "t_end": 380.7
+    },
+    {
+      "title": "No-Code SQL Migration from Any Source",
+      "t_start": 380.7,
+      "t_end": 453.1
+    },
+    {
+      "title": "Demo and Conclusion of No-Code Migration",
+      "t_start": 453.1,
+      "t_end": 594
+    }
+  ],
+  "features": [
+    {
+      "name": "Custom Migration Tooling Platform",
+      "description": "Developers can create their own migration tooling by writing an app that defines table mappings and setup data to migrate to Business Central from any SQL-based source using the existing migration platform.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 55.2,
+      "t_end": 152.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "custom migration",
+        "developer platform",
+        "sql sources"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Customer Migration Provider Interface",
+      "description": "A new interface that provides extensibility for integrating custom migration tools with the cloud migration platform.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 123.3,
+      "t_end": 141.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "interface",
+        "extensibility"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Business Central Version 14 Re-Implementation Tool",
+      "description": "A custom migration tool that enables customers stuck on older on-premise Business Central and NAV versions to migrate core business data to the cloud, moving only a subset of data including master data, transactional data, opening balances and essential setup data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 162.5,
+      "t_end": 380.7,
+      "is_demoed": true,
+      "caveats": [
+        "Only supports Business Central version 14",
+        "Will be made open source",
+        "System tables inaccessible by AL code cannot be migrated"
+      ],
+      "tags": [
+        "bc14",
+        "re-implementation",
+        "legacy migration",
+        "open source"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "No-Code SQL Data Migration",
+      "description": "Ability to migrate from any SQL source without writing code by defining custom table mappings in the cloud migration setup and selecting individual tables to copy.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 393.4,
+      "t_end": 453.1,
+      "is_demoed": true,
+      "caveats": [
+        "System tables inaccessible by AL code cannot be migrated",
+        "Highly controlled - only selected tables are copied"
+      ],
+      "tags": [
+        "no-code",
+        "sql migration",
+        "table mappings"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Table Mappings for Replication and Setup",
+      "description": "Two kinds of table mappings: replication table mappings which define tables moved to Business Central, and setup table mappings which replicate once connected to on-premise database for use during setup step.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 81.9,
+      "t_end": 96.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "table mappings",
+        "replication"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Configuration Export and Import for Migrations",
+      "description": "Support for exporting and importing migration configurations so users do not need to configure mappings every time and can reuse configurations across tenants.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 502.6,
+      "t_end": 513.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "configuration management",
+        "import export"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "interface",
+      "name": "customer migration provider",
+      "t": 123.3
+    },
+    {
+      "type": "page",
+      "name": "cloud migration management page",
+      "t": 224.8
+    },
+    {
+      "type": "page",
+      "name": "cloud migration setup",
+      "t": 407.4
+    },
+    {
+      "type": "table",
+      "name": "tenant media table",
+      "t": 475.8
+    },
+    {
+      "type": "table",
+      "name": "tenant media set table",
+      "t": 493.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Joost",
+      "confidence": "high"
+    },
+    {
+      "name": "Wenjie",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 55.2,
+      "text": "we've launched the ability for developers to create their own migration tooling meaning that Business Central developer can write an app that defines the",
+      "why_it_matters": "Announces new capability for ISVs and developers to build custom migration tools using the cloud migration platform.",
+      "check": "exact"
+    },
+    {
+      "t": 162.5,
+      "text": "This is the Business Central version 14 re-implementation tool which enables customers that are stuck on older on-premise versions to migrate to Business Central",
+      "why_it_matters": "Introduces the first custom migration tool built on the new platform, addressing a specific customer need for legacy system migration.",
+      "check": "exact"
+    },
+    {
+      "t": 351.8,
+      "text": "Firstly, we only support this tool for migrations from Business Central version 14 so no older or later versions than that",
+      "why_it_matters": "Clarifies a specific limitation of the BC14 re-implementation tool scope.",
+      "check": "exact"
+    },
+    {
+      "t": 364.8,
+      "text": "We intend to make this tool open source meaning that you can find the source code on GitHub you can contribute to it to",
+      "why_it_matters": "Describes future open-source release plan and community contribution opportunities for the BC14 tool.",
+      "check": "exact"
+    },
+    {
+      "t": 393.4,
+      "text": "still work in progress we're expecting to ship it in one of the first minor updates of version 28",
+      "why_it_matters": "Sets expectations for release timing of the BC14 re-implementation tool.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 393.4,
+      "text": "Finally, we've also built the ability to migrate from any SQL source without writing any code with these new platform changes",
+      "why_it_matters": "Announces no-code SQL migration capability as part of platform enhancements.",
+      "check": "exact"
+    },
+    {
+      "t": 437.7,
+      "text": "system tables that are inaccessible by al code can still not be migrated using this tool",
+      "why_it_matters": "Clarifies an important technical limitation that applies across all migration tools built on the platform.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 364.8,
+      "kind": "coming-later",
+      "text": "We intend to make this tool open source"
+    },
+    {
+      "t": 393.4,
+      "kind": "coming-later",
+      "text": "it's still work in progress. We're expecting to ship it in one of the first minor updates of version 28"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022961
+    }
+  ]
+}

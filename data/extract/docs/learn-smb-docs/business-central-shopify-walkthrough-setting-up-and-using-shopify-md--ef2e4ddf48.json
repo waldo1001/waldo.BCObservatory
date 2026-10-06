@@ -1,0 +1,91 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/shopify/walkthrough-setting-up-and-using-shopify.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/walkthrough-setting-up-and-using-shopify",
+  "title": "Set up and use the Shopify Connector",
+  "blob": "80134fb64b7f473e0f4305b00b545a48b6e39cc5",
+  "summary": "Walkthrough for setting up and using Shopify Connector with Business Central, covering product synchronization, customer management, order processing, B2B flows, and data import from Shopify.",
+  "systems": [
+    "integration",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "shopify",
+    "connector",
+    "e-commerce",
+    "synchronization",
+    "products",
+    "customers",
+    "orders",
+    "b2b"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Shopify Shops"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Products"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Orders"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Customers"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Companies"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Catalogs"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order"
+    },
+    {
+      "type": "page",
+      "name": "Customer Price Group"
+    },
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
+      "name": "Sync Shipments to Shopify"
+    }
+  ],
+  "features": [
+    "product synchronization",
+    "inventory sync",
+    "customer import",
+    "order sync",
+    "price management",
+    "discount configuration",
+    "B2B catalog management",
+    "variant management",
+    "image sync",
+    "payment handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005891,
+      "pages_in_call": 8
+    }
+  ]
+}

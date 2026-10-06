@@ -1,0 +1,161 @@
+{
+  "video_id": "1ht5nxubZ9c",
+  "item_id": "video/yt-microsoft/1ht5nxubZ9c",
+  "title": "Sales Order Agent - Working with a Personal or Shared Folder (2026)",
+  "duration_s": 117,
+  "systems": [
+    "copilot",
+    "sales"
+  ],
+  "topics": [
+    "sales order agent",
+    "outlook folder configuration",
+    "email account setup",
+    "personal vs shared folder",
+    "testing workflow"
+  ],
+  "chapters": [
+    {
+      "title": "Setting up a test folder and email account",
+      "t_start": 0,
+      "t_end": 27.2
+    },
+    {
+      "title": "Configuring the sales order agent",
+      "t_start": 27.2,
+      "t_end": 50.2
+    },
+    {
+      "title": "Managing pending tasks and testing with emails",
+      "t_start": 50.2,
+      "t_end": 72.4
+    },
+    {
+      "title": "Switching back to shared mailbox and folder support",
+      "t_start": 72.4,
+      "t_end": 117
+    }
+  ],
+  "features": [
+    {
+      "name": "Sales Order Agent folder selection",
+      "description": "The sales order agent can be configured to monitor a specific folder in Outlook instead of the inbox, allowing selective email processing for testing or shared mailbox scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 27.2,
+      "t_end": 104.5,
+      "is_demoed": true,
+      "caveats": [
+        "Do not point the agent to your inbox",
+        "Only selected emails are processed",
+        "Requires initial folder creation in Outlook"
+      ],
+      "tags": [
+        "sales order agent",
+        "folder selection",
+        "testing",
+        "configuration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sales Order Agent email conversion",
+      "description": "The sales order agent can automatically pick up emails from a monitored folder and convert them into quotes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 72.4,
+      "t_end": 84.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales order agent",
+        "email processing",
+        "quote creation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Stop pending tasks in Sales Order Agent",
+      "description": "Users can stop all pending tasks with a single click in the sales order agent interface.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 72.4,
+      "t_end": 84.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales order agent",
+        "task management"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sales Order Agent shared mailbox support",
+      "description": "Folder selection for the sales order agent is supported for shared mailboxes as well as personal accounts, maintaining control over which emails are processed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 96.2,
+      "t_end": 117,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sales order agent",
+        "shared mailbox",
+        "folder selection"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0,
+      "text": "Did you know there's an easy way to try the sales order agent on your own without complicated setup?",
+      "why_it_matters": "Establishes that the sales order agent can be tested easily, setting the context for the tutorial",
+      "check": "exact"
+    },
+    {
+      "t": 38.7,
+      "text": "Do not point the agent to your inbox. You only want your selected emails to be processed, not all of them",
+      "why_it_matters": "Critical configuration instruction that prevents unintended email processing",
+      "check": "exact"
+    },
+    {
+      "t": 72.4,
+      "text": "If you already have many pending tasks, which you don't need, you can stop them all with a single click",
+      "why_it_matters": "Describes a capability to bulk-clear pending tasks in the agent",
+      "check": "exact"
+    },
+    {
+      "t": 104.5,
+      "text": "Folder selection is supported for shared mailboxes as well. So you remain in control of which emails are processed by the agent",
+      "why_it_matters": "Confirms that folder selection works for shared mailboxes, expanding the use cases beyond personal testing",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010346000000000001
+    }
+  ]
+}

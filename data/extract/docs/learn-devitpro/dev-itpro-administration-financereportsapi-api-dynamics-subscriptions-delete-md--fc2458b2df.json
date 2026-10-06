@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/financereportsapi/api/dynamics_subscriptions_delete.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/financereportsapi/api/dynamics_subscriptions_delete",
+  "title": "Delete subscriptions (Beta)",
+  "blob": "d7f5011a918da5ec87866fa3072c149f1d49ff2d",
+  "summary": "API endpoint for deleting subscriptions from Business Central, requiring authorization header and If-Match header validation, returning 204 No Content on success.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "api",
+    "rest",
+    "subscription",
+    "delete",
+    "http",
+    "financereportsapi"
+  ],
+  "objects": [],
+  "features": [
+    "subscription deletion",
+    "authorization",
+    "etag validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005891,
+      "pages_in_call": 8
+    }
+  ]
+}

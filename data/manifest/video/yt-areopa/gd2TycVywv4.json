@@ -7,16 +7,38 @@
   "url": "https://www.youtube.com/watch?v=gd2TycVywv4",
   "published_at": "2026-03-24T21:02:55.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:02:21.468Z",
+      "captions": "auto:en-orig",
+      "duration_s": 3722
+    },
+    "captioned": {
+      "at": "2026-10-06T18:02:28.858Z",
+      "path": "vault:captions/community/yt-areopa/gd2TycVywv4.vtt",
+      "vtt_sha256": "d064ea8f6e181f14bb031b8192fa726d4d2c38ee2d7b420de9a14e181c53a7b0",
+      "segments": 275,
+      "words": 9495,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UCWL0RbbT6ILzzCd6Ix7t0AQ"
-  }
+    "channel_id": "UCWL0RbbT6ILzzCd6Ix7t0AQ",
+    "duration_s": 3722,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d064ea8f6e181f14bb031b8192fa726d4d2c38ee2d7b420de9a14e181c53a7b0"
 }

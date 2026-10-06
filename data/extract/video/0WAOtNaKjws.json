@@ -1,0 +1,297 @@
+{
+  "video_id": "0WAOtNaKjws",
+  "item_id": "video/yt-microsoft/0WAOtNaKjws",
+  "title": "What's New: Enhanced MCP Server (2026 release wave 1)",
+  "duration_s": 1082,
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "mcp server",
+    "configuration validation",
+    "import export",
+    "connection string",
+    "telemetry",
+    "auditing",
+    "mcp resources",
+    "embedded resources",
+    "mcp hosts",
+    "code execution"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to MCP Server",
+      "t_start": 0,
+      "t_end": 63.6
+    },
+    {
+      "title": "MCP Configuration Validations",
+      "t_start": 63.6,
+      "t_end": 164.1
+    },
+    {
+      "title": "Import Export and Multiple MCP Hosts",
+      "t_start": 164.1,
+      "t_end": 240.5
+    },
+    {
+      "title": "Connection String Demo",
+      "t_start": 240.5,
+      "t_end": 307.7
+    },
+    {
+      "title": "Telemetry and Auditing",
+      "t_start": 307.7,
+      "t_end": 431.1
+    },
+    {
+      "title": "MCP Resources Support",
+      "t_start": 431.1,
+      "t_end": 589.4
+    },
+    {
+      "title": "Embedded Resources Demo",
+      "t_start": 589.4,
+      "t_end": 702.7
+    },
+    {
+      "title": "Documentation and Related Sessions",
+      "t_start": 702.7,
+      "t_end": 813.8
+    },
+    {
+      "title": "General Business Central Resources",
+      "t_start": 813.8,
+      "t_end": 1082
+    }
+  ],
+  "features": [
+    {
+      "name": "MCP Configuration Validations",
+      "description": "Validates whether MCP configuration is still valid when APIs or queries are added or removed. Provides warnings when parent APIs are missing and offers automatic recommended actions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 75.8,
+      "t_end": 151,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "configuration",
+        "validation",
+        "api management"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Configuration Import Export",
+      "description": "Allows exporting a configuration to JSON on one environment and importing it to another environment. Enables safe deployment of configurations across test, pre-production and production environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 164.1,
+      "t_end": 190.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "import export",
+        "deployment",
+        "configuration management"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Support for Multiple MCP Hosts",
+      "description": "Business Central MCP server now supports other MCP hosts beyond Microsoft Copilot Studio. Microsoft Copilot Studio is the fully supported host; other hosts like VS Code are in public preview.",
+      "status": "preview",
+      "status_evidence_t": 202,
+      "status_evidence_quote": "Other hosts would be in public preview and not kind of fully supported",
+      "status_evidence_verified": true,
+      "t_start": 202,
+      "t_end": 240.5,
+      "is_demoed": true,
+      "caveats": [
+        "VS Code requires pre-authorization; other hosts may need additional setup like intra application registration"
+      ],
+      "tags": [
+        "mcp hosts",
+        "copilot studio",
+        "vs code"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Connection String Setup",
+      "description": "New connection string feature under advanced settings that provides exact configuration needed to connect MCP clients to Business Central. Simplifies setup for cloud or VS Code clients.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 269.9,
+      "t_end": 307.7,
+      "is_demoed": true,
+      "caveats": [
+        "VS Code is pre-authorized; other hosts may require additional setup"
+      ],
+      "tags": [
+        "connection string",
+        "setup",
+        "configuration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP Configuration Telemetry",
+      "description": "All MCP configuration changes are logged to Microsoft audit logs as auditable events. Also includes telemetry on MCP calls - both successful and failed - allowing monitoring of agent health and usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 322.6,
+      "t_end": 392.5,
+      "is_demoed": false,
+      "caveats": [
+        "MCP host type logging may be limited for hosts where HTTP headers cannot be fully trusted"
+      ],
+      "tags": [
+        "telemetry",
+        "auditing",
+        "monitoring",
+        "observability"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP Resources Support",
+      "description": "Business Central MCP server now supports the MCP resources protocol feature added months ago. Enables MCP hosts to use code execution and handle large amounts of data more efficiently.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 443.6,
+      "t_end": 589.4,
+      "is_demoed": true,
+      "caveats": [
+        "Resources are optional; existing MCP implementations continue to work without changes"
+      ],
+      "tags": [
+        "resources",
+        "embedded resources",
+        "mcp protocol"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Embedded Resources",
+      "description": "MCP server returns large data sets as embedded file references instead of text content blocks. Allows MCP hosts to pass file references to code execution tools for data analysis without inflating model context.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 477.4,
+      "t_end": 702.7,
+      "is_demoed": true,
+      "caveats": [
+        "Code execution happens on MCP host side, not Business Central side; requires code interpreter to be enabled"
+      ],
+      "tags": [
+        "embedded resources",
+        "file references",
+        "data analysis",
+        "code execution"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "api",
+      "name": "sales header",
+      "t": 124.9
+    },
+    {
+      "type": "api",
+      "name": "sales line",
+      "t": 124.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kenny Pontoppidan",
+      "confidence": "high"
+    },
+    {
+      "name": "Poorshad Dwivedi",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 29.5,
+      "text": "The reason we invest in business in in MCP server is to allow you to create the flexible agentic workflows that you need for",
+      "why_it_matters": "Explains the core business case for MCP server investment in this release",
+      "check": "exact"
+    },
+    {
+      "t": 88.8,
+      "text": "you might add API pages or queries later, API pages to your configuration and then someone uninstalls an app and this API is no",
+      "why_it_matters": "Describes the problem that configuration validations solve",
+      "check": "exact"
+    },
+    {
+      "t": 202,
+      "text": "Other hosts would be in public preview and not kind of fully supported. Well, they they work, but Microsoft Copilot Studio is the is",
+      "why_it_matters": "Clarifies support status for different MCP hosts",
+      "check": "exact"
+    },
+    {
+      "t": 490.9,
+      "text": "unlike your normal use of MCP, it does not return text content block with a large amount of data because that's a problem",
+      "why_it_matters": "Explains the key advantage of embedded resources over traditional MCP approach",
+      "check": "exact"
+    },
+    {
+      "t": 515,
+      "text": "all the list tools where you return a lot of data, instead of returning just the text content, you return an embedded file",
+      "why_it_matters": "Describes the technical implementation of how embedded resources work",
+      "check": "exact"
+    },
+    {
+      "t": 660,
+      "text": "embedded resources are optional, right? So if you have already an existing MCP server MCP implementation, it does not break that",
+      "why_it_matters": "Important backward compatibility statement for existing MCP implementations",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 202,
+      "kind": "preview",
+      "text": "Other hosts would be in public preview and not kind of fully supported"
+    },
+    {
+      "t": 225.6,
+      "kind": "other",
+      "text": "VS Code and Copilot Studio pre-authorized with authorization. If you have other MCP hosts, you might need to do additional setup."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027327999999999998
+    }
+  ]
+}

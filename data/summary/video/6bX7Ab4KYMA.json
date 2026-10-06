@@ -1,0 +1,27 @@
+{
+  "video_id": "6bX7Ab4KYMA",
+  "item_id": "video/yt-microsoft/6bX7Ab4KYMA",
+  "summary": "Cloud migration tooling in the 2026 release wave 1: a platform for developers to build custom migration tools, a Business Central version 14 re-implementation tool, and no-code migration from any SQL source using table mappings. Includes demos of the BC14 tool and no-code setup.",
+  "overview": "The video covers three additions to Business Central cloud migration. Developers can write an app that defines table mappings and setup data to migrate from any SQL-based source, using the existing migration platform and a new customer migration provider interface for extensibility.\n\nThe second addition is a Business Central version 14 re-implementation tool for customers on older on-premise Business Central and NAV versions. It moves a subset of data: master data, transactional data, opening balances and essential setup data. The third lets users migrate from any SQL source without code, by defining table mappings in the cloud migration setup and selecting which tables to copy. Configurations can be exported and imported for reuse across tenants.",
+  "key_points": [
+    "Developers can build custom migration tools with an app that defines table mappings and setup data for any SQL-based source, via the customer migration provider interface.",
+    "The BC14 re-implementation tool supports migrations only from Business Central version 14, no older or later versions.",
+    "The BC14 tool migrates a subset of data: master data, transactional data, opening balances and essential setup data.",
+    "The BC14 tool is work in progress; shipping is expected in one of the first minor updates of version 28, and the team intends to make it open source on GitHub.",
+    "No-code migration uses custom table mappings in cloud migration setup; only the tables you select are copied.",
+    "There are two mapping kinds: replication table mappings (tables moved to Business Central) and setup table mappings (replicated once connected, used in the setup step).",
+    "System tables inaccessible by AL code cannot be migrated. Migration configurations can be exported and imported to reuse across tenants."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "be8a6e5ab428dff650e1b92165d46d795725e2392598cec2d348a8d2bcc5c7ca",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0148204
+  }
+}

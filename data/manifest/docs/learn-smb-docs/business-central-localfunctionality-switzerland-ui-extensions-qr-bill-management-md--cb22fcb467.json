@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/ui-extensions-qr-bill-management",
   "published_at": "2026-06-16T07:31:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "799c7bc6252930e3e93acd221cd1ed4b250ca605",
       "words": 2362,
       "forms": 10
+    },
+    "extracted": {
+      "at": "2026-10-06T18:02:39.819Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 16,
+      "cost_usd": 0.005891
+    },
+    "summarized": {
+      "at": "2026-10-06T18:02:39.827Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:02:39.828Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:02:39.829Z",
+      "page": false
     }
   },
   "input_hash": "799c7bc6252930e3e93acd221cd1ed4b250ca605",
@@ -91,5 +110,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "799c7bc6252930e3e93acd221cd1ed4b250ca605"
+  "output_hash": "5fc9ddd9ea43a32db48fe5e885a7f73af4e05614d1b6f07a34bb3ffebe4c04d6"
 }

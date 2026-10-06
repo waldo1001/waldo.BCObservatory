@@ -1,0 +1,27 @@
+{
+  "video_id": "0WAOtNaKjws",
+  "item_id": "video/yt-microsoft/0WAOtNaKjws",
+  "summary": "Business Central MCP server enhancements in 2026 release wave 1: configuration validation, import/export, connection string setup, telemetry and auditing, MCP resources and embedded resources. Support for MCP hosts other than Copilot Studio, such as VS Code, is in public preview.",
+  "overview": "The session covers what changed in the Business Central MCP server in 2026 release wave 1. It starts with configuration validation, which warns when APIs or queries in an MCP configuration are removed, for example when an app is uninstalled, and offers recommended actions. It then covers exporting a configuration to JSON and importing it into another environment.\n\nIt also covers connecting other MCP hosts, a connection string under advanced settings, telemetry and audit logging of configuration changes, and MCP resources. Embedded resources let the server return large data as file references instead of text, so the host can pass them to a code execution tool. Demos show the connection string and embedded resources.",
+  "key_points": [
+    "Configuration validation checks whether an MCP configuration is still valid after APIs or queries are added or removed, warns when parent APIs are missing (for example api sales header for api sales line), and offers automatic recommended actions.",
+    "A configuration can be exported to JSON in one environment and imported into another, which supports moving it across test, pre-production and production.",
+    "Microsoft Copilot Studio is the fully supported MCP host. Other hosts such as VS Code are in public preview. VS Code is pre-authorized, and other hosts may need extra setup such as an application registration.",
+    "A connection string under advanced settings gives the exact configuration needed to connect MCP clients such as VS Code to Business Central.",
+    "MCP configuration changes are logged as auditable events in Microsoft audit logs. Telemetry covers successful and failed MCP calls. MCP host type logging may be limited where HTTP headers cannot be fully trusted.",
+    "With embedded resources, list tools that return a lot of data return an embedded file reference instead of a text content block. Code execution runs on the MCP host side and needs the code interpreter enabled.",
+    "Resources are optional, and existing MCP implementations continue to work without changes."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "b05cadbb3150ff36e04849029ba3f6c4beedf5463411b0e9d41ad951e9a7638e",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.016368399999999998
+  }
+}

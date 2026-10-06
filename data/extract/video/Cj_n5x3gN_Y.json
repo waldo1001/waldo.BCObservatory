@@ -1,0 +1,375 @@
+{
+  "video_id": "Cj_n5x3gN_Y",
+  "item_id": "video/yt-microsoft/Cj_n5x3gN_Y",
+  "title": "What's New: Excise Taxes (2026 release wave 1)",
+  "duration_s": 969,
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "excise taxes",
+    "excise duties",
+    "tax calculation",
+    "cbam",
+    "epr",
+    "sustainability",
+    "tax bases",
+    "excise journal",
+    "regulatory compliance",
+    "tax rates"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and excise taxes framework overview",
+      "t_start": 0,
+      "t_end": 61.7
+    },
+    {
+      "title": "Evolution from 2025 wave 2 to 2026 wave 1 capabilities",
+      "t_start": 61.7,
+      "t_end": 131.4
+    },
+    {
+      "title": "Excise journal setup and tax types configuration",
+      "t_start": 131.4,
+      "t_end": 244.9
+    },
+    {
+      "title": "Tax bases, entry permissions, and duty rates setup",
+      "t_start": 244.9,
+      "t_end": 369.1
+    },
+    {
+      "title": "Excise journal workflow and calculation logic",
+      "t_start": 369.1,
+      "t_end": 446.6
+    },
+    {
+      "title": "Demo - item configuration with excise taxes",
+      "t_start": 446.6,
+      "t_end": 595
+    },
+    {
+      "title": "Demo - excise tax types and entry permissions setup",
+      "t_start": 595,
+      "t_end": 718.8
+    },
+    {
+      "title": "Demo - excise journal generation and calculation results",
+      "t_start": 718.8,
+      "t_end": 831
+    },
+    {
+      "title": "Demo - multiple excise types and transaction logs",
+      "t_start": 831,
+      "t_end": 908.8
+    },
+    {
+      "title": "Reporting plans and session conclusion",
+      "t_start": 908.8,
+      "t_end": 969
+    }
+  ],
+  "features": [
+    {
+      "name": "Excise taxes framework",
+      "description": "A configurable framework for calculating and managing excise taxes and duties across multiple excise types including plastic tax, sugar tax, alcohol, cigarettes, petrol, and cannabis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.2,
+      "t_end": 104.6,
+      "is_demoed": true,
+      "caveats": [
+        "excise taxes is independent app and can be removed from the system",
+        "only supports fixed rate excise duty calculations, not percentage-based",
+        "cannot combine plastic excise tax with other excise tax types"
+      ],
+      "tags": [
+        "excise taxes",
+        "regulatory compliance",
+        "tax calculation",
+        "configurable"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Excise journal with multiple calculation models",
+      "description": "An excise journal that supports multiple calculation models including CBAM, EPR, and configurable excise tax types. Users can select specific excise types and configure how they are calculated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 88.6,
+      "t_end": 170.1,
+      "is_demoed": true,
+      "caveats": [
+        "CBAM and EPR are independent calculations and cannot be combined with regular excise taxes",
+        "Different excise types require separate configuration"
+      ],
+      "tags": [
+        "excise journal",
+        "cbam",
+        "epr",
+        "tax calculation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Tax bases configuration",
+      "description": "Six different tax base models for calculating excise taxes: weight, volume, quantity, sugar content, pure alcohol content, and active content.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 186.2,
+      "t_end": 232.7,
+      "is_demoed": true,
+      "caveats": [
+        "Selection of tax base is mandatory for each excise tax type"
+      ],
+      "tags": [
+        "tax bases",
+        "calculation models",
+        "configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Entry permissions and source types",
+      "description": "Configurable entry permissions to specify which transaction types contribute to excise tax calculation: purchase, positive adjustment, output, assembly output, sales, or negative adjustment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 256.7,
+      "t_end": 317.5,
+      "is_demoed": true,
+      "caveats": [
+        "Different excise types may require different entry permission configurations"
+      ],
+      "tags": [
+        "entry permissions",
+        "source types",
+        "transaction configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Excise duty rates on items and fixed assets",
+      "description": "Configuration of fixed excise duty rates that can be applied to items or fixed assets with effective from dates. Supports rare scenarios where fixed assets are subject to excise taxation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 317.5,
+      "t_end": 369.1,
+      "is_demoed": true,
+      "caveats": [
+        "Only fixed rate calculation is supported, not percentage-based",
+        "Fixed asset excise duties are rare scenarios"
+      ],
+      "tags": [
+        "excise duty rates",
+        "items",
+        "fixed assets",
+        "calculation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Excise quantity configuration on items",
+      "description": "Ability to specify excise quantity on item master data to track the specific quantity subject to excise tax separately from total item weight or volume.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 469.1,
+      "t_end": 520.7,
+      "is_demoed": true,
+      "caveats": [
+        "Excise quantity uses separate unit of measure from item's standard unit"
+      ],
+      "tags": [
+        "item configuration",
+        "excise quantity",
+        "unit of measure"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Excise journal calculation workflow",
+      "description": "Automated workflow that identifies excise types, searches for relevant entries, applies configured tax bases and rates, then generates excise transaction entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 369.1,
+      "t_end": 446.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "calculation workflow",
+        "excise journal",
+        "automation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Excise transaction logs",
+      "description": "Transaction log page that records all excise tax calculations including type, source, amount, and related document information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 170.1,
+      "t_end": 186.2,
+      "is_demoed": true,
+      "caveats": [
+        "No specific report available yet for excise transaction logs",
+        "Data can be exported to Excel"
+      ],
+      "tags": [
+        "transaction logs",
+        "reporting",
+        "audit trail"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Parallel CBAM and EPR with excise taxes",
+      "description": "Ability to run CBAM (Carbon Border Adjustment Mechanism) and EPR (Extended Producer Responsibility) calculations in parallel with excise tax calculations on the same item.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 531.2,
+      "t_end": 622.9,
+      "is_demoed": true,
+      "caveats": [
+        "CBAM and EPR work in parallel but cannot be combined with other excise tax types on the same item",
+        "Requires separate configuration on sustainability fast tab"
+      ],
+      "tags": [
+        "cbam",
+        "epr",
+        "sustainability",
+        "parallel processing"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Dynamic reporting captions for excise types",
+      "description": "Configurable reporting captions for excise tax types that display on the excise journal, showing the specific tax type name in brackets (e.g., 'plastic tax', 'alcohol excise duty').",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 232.7,
+      "t_end": 256.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reporting captions",
+        "user interface",
+        "configuration"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "excise journal",
+      "t": 170.1
+    },
+    {
+      "type": "table",
+      "name": "excise transaction logs",
+      "t": 170.1
+    },
+    {
+      "type": "page",
+      "name": "excise tax types",
+      "t": 186.2
+    },
+    {
+      "type": "page",
+      "name": "excise duty rates",
+      "t": 317.5
+    },
+    {
+      "type": "other",
+      "name": "item card",
+      "t": 452.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Aleksandar Totovic",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 61.7,
+      "text": "excise taxes framework officially has been delivered in 2025 wave release wave two. But in this moment, we had only framework and two options",
+      "why_it_matters": "Establishes that the core framework is GA since wave 2, and this wave 1 extends it with additional functionality beyond CBAM and EPR.",
+      "check": "exact"
+    },
+    {
+      "t": 104.6,
+      "text": "So, now we already have them inside from previous wave, but in this wave, we extended it to much more options. So, what does",
+      "why_it_matters": "Clarifies the scope of 2026 wave 1 enhancement - expanding from just CBAM and EPR to fully configurable excise tax types.",
+      "check": "exact"
+    },
+    {
+      "t": 222.4,
+      "text": "You have different models, six different models, how you will calculate and what what will be used as a calculation for this excise taxes.",
+      "why_it_matters": "Defines the specific calculation models available (weight, volume, quantity, sugar content, pure alcohol content, active content) for tax base configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 359,
+      "text": "This is not percent because they are not we do not use as a percentage on some specific value. This is let's say limitation.",
+      "why_it_matters": "Establishes a key limitation - only fixed rates are supported, not percentage-based excise duty calculations.",
+      "check": "exact"
+    },
+    {
+      "t": 607.1,
+      "text": "But, what you cannot you cannot combine uh plastic excise tax with some other excise taxes here from different types. This is not possible.",
+      "why_it_matters": "Clarifies an important constraint - different excise tax types cannot be combined on the same item, though CBAM/EPR can run in parallel.",
+      "check": "exact"
+    },
+    {
+      "t": 924.5,
+      "text": "Currently, we do not have any specific report for um showing, so you can export in Excel, but plan is to continue invest invest",
+      "why_it_matters": "Indicates that specialized reporting for excise transaction logs is planned but not yet delivered, currently only Excel export is available.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 924.5,
+      "kind": "coming-later",
+      "text": "plan is to continue invest into this direction and this functionality, so we will see what will be next delivered"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032024
+    }
+  ]
+}

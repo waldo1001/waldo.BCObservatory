@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software",
   "published_at": "2026-06-12T07:32:34.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "16bd38a0b1b4188132666c61fd6b90fb1d527998",
       "words": 1882,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:02:39.822Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.005891
+    },
+    "summarized": {
+      "at": "2026-10-06T18:02:39.836Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:02:39.837Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:02:39.838Z",
+      "page": false
     }
   },
   "input_hash": "16bd38a0b1b4188132666c61fd6b90fb1d527998",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "16bd38a0b1b4188132666c61fd6b90fb1d527998"
+  "output_hash": "95b6e89775e5070b31627515337b4a7c39f318776abe93c79cd71859c7884915"
 }

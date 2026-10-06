@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-role-explorer",
   "published_at": "2026-06-12T06:48:35.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b9a002e9319a8f62a06d9ea03b7afc5737668996",
       "words": 909,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T18:02:39.823Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005891
+    },
+    "summarized": {
+      "at": "2026-10-06T18:02:41.422Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:02:41.423Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:02:41.424Z",
+      "page": false
     }
   },
   "input_hash": "b9a002e9319a8f62a06d9ea03b7afc5737668996",
@@ -65,5 +84,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b9a002e9319a8f62a06d9ea03b7afc5737668996"
+  "output_hash": "d091cb7117661cec855d0587fb4582c2cbef1dd7fb246531249b5bc68390f3c4"
 }

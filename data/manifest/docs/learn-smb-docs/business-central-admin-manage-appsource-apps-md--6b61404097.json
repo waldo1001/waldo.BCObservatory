@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manage-appsource-apps",
   "published_at": "2026-06-15T08:38:25.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "83a1379e40d410e5e4d42d05f766c96badcca299",
       "words": 218,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:02:39.821Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.005891
+    },
+    "summarized": {
+      "at": "2026-10-06T18:02:39.834Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:02:39.834Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:02:39.835Z",
+      "page": false
     }
   },
   "input_hash": "83a1379e40d410e5e4d42d05f766c96badcca299",
@@ -47,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "83a1379e40d410e5e4d42d05f766c96badcca299"
+  "output_hash": "4a3572fac6000fba42119360280742b323002f73d17cf8de6d0f889e17f226fd"
 }
