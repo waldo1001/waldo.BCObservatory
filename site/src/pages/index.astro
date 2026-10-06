@@ -1,0 +1,62 @@
+---
+import { latestRun, pillarCounts } from "../lib/state";
+const run = latestRun();
+const pillars = pillarCounts();
+const base = import.meta.env.BASE_URL;
+const repo = "https://github.com/waldo1001/waldo.BCObservatory";
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BC Observatory</title>
+    <meta name="description" content="An agent-first, cross-referenced knowledge base of Microsoft Dynamics 365 Business Central." />
+    <link rel="alternate" type="text/plain" href={`${base}llms.txt`} title="llms.txt" />
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Bootstrapping · milestone M0</p>
+      <h1>BC Observatory</h1>
+      <p class="lede">
+        Official docs, source code, guidelines, videos and community blogs about Microsoft Dynamics 365 Business Central,
+        woven into one cross-referenced knowledge base for AI agents first and people right after.
+      </p>
+      <section>
+        <h2>Pipeline</h2>
+        {run ? (
+          <p>Last nightly <strong>{run.date}</strong>: {run.status}, guard {run.guard.decision}, {run.items_changed} items new or changed, {run.plan.work} queued for processing.</p>
+        ) : (
+          <p>No nightly run has been committed yet.</p>
+        )}
+        {pillars.length > 0 && (
+          <table>
+            <thead><tr><th scope="col">Pillar</th><th scope="col">Items tracked</th></tr></thead>
+            <tbody>{pillars.map((p) => <tr><td>{p.pillar}</td><td>{p.items.toLocaleString("en")}</td></tr>)}</tbody>
+          </table>
+        )}
+      </section>
+      <section>
+        <h2>Follow along</h2>
+        <ul>
+          <li><a href={repo}>Repository</a> (code MIT, content CC BY 4.0)</li>
+          <li><a href={`${repo}/blob/main/AGENTS.md`}>AGENTS.md</a>: how agents use this knowledge base</li>
+          <li><a href={`${repo}/blob/main/docs/PLAN.md`}>The plan</a> and <a href={`${repo}/blob/main/sources.yaml`}>the source registry</a></li>
+        </ul>
+      </section>
+    </main>
+    <style is:global>
+      :root { color-scheme: light dark; --bg: #fbfbfd; --fg: #1d1d22; --muted: #5b5b66; --line: #e2e2ea; --accent: #3a5bd9; }
+      @media (prefers-color-scheme: dark) { :root { --bg: #0d0f17; --fg: #e9e9f0; --muted: #a0a0b2; --line: #262a3a; --accent: #8ea6ff; } }
+      body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+      main { max-width: 42rem; margin: 0 auto; padding: 4rem 1rem; }
+      .eyebrow { color: var(--muted); font-size: .85rem; letter-spacing: .04em; text-transform: uppercase; margin: 0; }
+      h1 { font-size: 2.4rem; margin: .25rem 0 1rem; }
+      h2 { font-size: 1.1rem; margin-top: 2.5rem; }
+      .lede { font-size: 1.15rem; color: var(--muted); }
+      a { color: var(--accent); }
+      table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+      th, td { text-align: left; padding: .4rem .6rem; border-bottom: 1px solid var(--line); }
+      td:last-child, th:last-child { text-align: right; }
+    </style>
+  </body>
+</html>
