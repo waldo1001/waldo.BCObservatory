@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Going Open Source with the New GitHub Repository for Business Central (2024 release w 2)",
   "url": "https://www.youtube.com/watch?v=tjHDcjwsOIE",
-  "published_at": null,
+  "published_at": "2024-04-04T13:30:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:40:04.086Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1220
+    },
+    "captioned": {
+      "at": "2026-10-06T19:40:09.917Z",
+      "path": "data/captions/microsoft/tjHDcjwsOIE.vtt",
+      "vtt_sha256": "c3f5b89a089f46b661af83053e34f10c115a1564482ee0038515821b697aa63c",
+      "segments": 62,
+      "words": 3888,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 418,
     "duration_s": 1220,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c3f5b89a089f46b661af83053e34f10c115a1564482ee0038515821b697aa63c"
 }

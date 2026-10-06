@@ -1,0 +1,323 @@
+{
+  "video_id": "tjHDcjwsOIE",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 17.8,
+      "end": 38.1,
+      "text": "welcome to this session titled What's new going open source with the new GitHub repository for business Central my name is Maria Jova and with me today here is Alexander hrop Maria and I work on the team that are working on taking the business Central application open source and this session here is going to talk about how we did that for the system application with the repository called BC apps today's"
+    },
+    {
+      "t": 38.1,
+      "end": 58.3,
+      "text": "session we're going to start out by talking who this session is for and then we'll introduce the bcfs repository we'll give an overview of what's in there and then uh we'll go over some of the automation that we have set up in the bcfs repository and finally we'll go through an end-to-end process of how you as a member of the BC Community can uh make a contribution into the bcfs repository"
+    },
+    {
+      "t": 58.3,
+      "end": 78.8,
+      "text": "from idea all the way to pull request thank you Alex now let's get started first let's cover who the session is for first and foremost we are looking for people with somewhat technical experience in developing applications for business Central we also want people who are curious about how micros Microsoft moves closer to collaborations"
+    },
+    {
+      "t": 78.8,
+      "end": 99.1,
+      "text": "with partner we want people who are willing to contribute source code to unblock their own Solutions or they want to uh they they're tired of uh doing repetitive work and want to fix it once and for all in the product itself now let's uh take a look at a brief introduction to BC apps"
+    },
+    {
+      "t": 99.1,
+      "end": 119.3,
+      "text": "it's a repository hosted on GitHub uh and it was actually launched officially in November 2033 just before Direction s since then we have built version 240 in close in collaborations with the community it has been forked a lot of times we have nearly like 200 Stars"
+    },
+    {
+      "t": 119.3,
+      "end": 139.4,
+      "text": "a lot of contributors nearly 400 merch PO requests and 27 of these PO requests were actually made by the community and we're happy to announce that actually 21 made it with version 240 of the of business Central with that we want to express our gratitude and big thank you for to all the contributors uh"
+    },
+    {
+      "t": 139.4,
+      "end": 159.6,
+      "text": "now let's take a look at the repository itself for the newcomers for hopefully the new contributors that we're going to have going forward this is what you're going to see uh uh on the front page when you go to AKs BC apps uh I want to emphasize here that this repository only hosts the source code for applications"
+    },
+    {
+      "t": 159.6,
+      "end": 180,
+      "text": "developed by Microsoft such as system application business foundation and some of the developer tools uh such as test Runner performance toet and many others we use aoo for GitHub which is another product that Microsoft is developing as a backbone for devops this is how we run the builds and uh test the apps Etc"
+    },
+    {
+      "t": 180,
+      "end": 200,
+      "text": "and the last thing I want to emphasize here is that this is not the place to report product defects with any customer impact there are like other channels to do that so please don't use the repository now here you can see the rest of the page that you're going to see when you go to akms BC apps here in the center you can see and browse"
+    },
+    {
+      "t": 200,
+      "end": 220.7,
+      "text": "the source code and and um try to see how it's organized on the right side uh there is a link to the reference documentations where you can read the reference documentation for the code that is uh right here on the main branch up in the issue steps you can see what work is being planned by the by the community this is going to be"
+    },
+    {
+      "t": 220.7,
+      "end": 241,
+      "text": "uh some work that the community wants to address in this repository and pro possibly the most important part is the P requests app where you can go and see what is currently being worked on actively worked on this is where both Microsoft developers and Community developers they collaborate each other they Cod develop"
+    },
+    {
+      "t": 241,
+      "end": 261,
+      "text": "uh you can go and browse put requests leave comments we already receive feedback that this this feedback is actually quite valuable for our developers and one thing you would actually notice that I want to mention here is that we run several automation pool requests these are PO requests taged with the automation tag and you don't"
+    },
+    {
+      "t": 261,
+      "end": 276.7,
+      "text": "really need to do anything about them you just I just want to briefly cover them so that you're aware what automations we actually run in the BC apps Repository first and foremost um we have an automation that updates the BC artifact version in our aogo"
+    },
+    {
+      "t": 276.7,
+      "end": 296.8,
+      "text": "settings this is because our po request builds and cic builds they run against a concrete BC artifact version that is mainly due to the fact that we want to rerun the same builds with the same configurations and we don't we want to ensure the development cycle is not broken and the next two automations"
+    },
+    {
+      "t": 296.8,
+      "end": 316.8,
+      "text": "combined is automation that updates the app baselines version and the translation package versions the former you updates the package version for the app baselines and we use these baselines to compile the apps and to ensure no new Breaking changes are introduced the the second automation is to update the"
+    },
+    {
+      "t": 316.8,
+      "end": 337.1,
+      "text": "translation package versions and we do that mainly to ensure that translations and apps are compatible now if you're already curious how you can build your own Pro request Alexander here is going to walk you through the process thank you Maria so I'll in this next session of the presentation I'll talk about the contribution process for you as a contributor out there in the BC Community"
+    },
+    {
+      "t": 337.1,
+      "end": 357.2,
+      "text": "I'll go through an end-to-end process of how you can go from an idea or a bug uh that you've discovered in the product to uh to actually merging your PO request and making it into the product so to get started with contrib contributing to the BCF processor the first thing you'll need is just an idea or a book um so an idea could be something you find on the BC"
+    },
+    {
+      "t": 357.2,
+      "end": 377.3,
+      "text": "ideas page um it could also be an idea that you've subed yourself to the BCI IDs page uh or you can find a bug in the product uh ideally not something with customer impact because as Mar already mentioned that should something we should expedite uh but if you have something that just is mildly annoying to you and you want to you have a way of fixing it by all means um continue"
+    },
+    {
+      "t": 377.3,
+      "end": 397.3,
+      "text": "with a contribution the second step in this process is that you need to create an issue on GitHub if you go under the issues tab you should be able to see these options and you want to select one of the top two ones so either you want to implement a BC idea or you want to fix a book when you click get started it will take you to a form they you need to fill out it's just to give you some to give"
+    },
+    {
+      "t": 397.3,
+      "end": 417.7,
+      "text": "us some information of what it is you want to do once you open up an issue this is really the place where you can collaborate with the BC community and members of the Microsoft team in order to figure out what it is you want to implement maybe there are some clarifying questions that need to be asked um the thing to look out for is here on the right side you'll get an approve label"
+    },
+    {
+      "t": 417.7,
+      "end": 438,
+      "text": "and the approv label Bas basically means that youve gotten the go-ahead for Microsoft to continue with this contribution we support you in the contribution and we're looking forward to seeing your pool request so once you have the approved label then you can go ahead and start with start developing basically um and to start developing probably the easiest way to do that is just by creating a fork of the BC apps"
+    },
+    {
+      "t": 438,
+      "end": 458.1,
+      "text": "repository on the GitHub page it's relatively simple just click on the fork icon and then you're off the second step is to then set up your Dev environment this is a bit up to you how you set it up but we we've documented how to do this with BC container Helper and Docker uh we essentially have a script that you can run type in the right parameters and you're"
+    },
+    {
+      "t": 458.1,
+      "end": 471.1,
+      "text": "off you have a local Docker environment where you can publish your apps to and you can test uh you can test it manually you can write test cases run those tests uh however you develop you can do that in these"
+    },
+    {
+      "t": 471.1,
+      "end": 491.3,
+      "text": "containers Next Step here as I mentioned time to develop this is when you get to develop your buck fix or your idea or you know write the test uh test it manually get a coworker to test it with you however you normally uh develop once you're happy with with what you have then it's time to open up a pool request now opening up a pool request"
+    },
+    {
+      "t": 491.3,
+      "end": 511.8,
+      "text": "again is done through the GitHub UI and all you need to provide is a title a good description of what it is that you're trying to do if you have GitHub co-pilot this is very easy because you can just get co-pilot to do it for you and then the last step here is to link your pull request to your approved GitHub issue now the way you do that is just by writing a hashtag"
+    },
+    {
+      "t": 511.8,
+      "end": 532.6,
+      "text": "and then the number of your issue so if you go under the issues uh page in GitHub it should say a number like 123 so just write # 1223 if that's your issue number once you open up your poll request we have some automation that starts kicking off right away this is also when members of the BC community and Engineers of Microsoft will take a look at your PR write some comments"
+    },
+    {
+      "t": 532.6,
+      "end": 552.7,
+      "text": "um you know ask some questions about what it is you're doing uh but if you scroll down to the bottom of your PR you'll see uh a summary that GitHub gives you now in this summary in the top here this section is really focused on the code review aspect of what we require to merge your PR so in this case here yeser is requesting me to make some changes I can"
+    },
+    {
+      "t": 552.7,
+      "end": 574.7,
+      "text": "see I I don't have quite the approvals yet uh there's still some comments I need to resolve in the bottom part here that's where we report the automated checks so we have checks for checking for work items and the polar request build and so on so I think it's worthwhile to go through each of the one of these one by one to see what it is that's required to merge a PR into the BC apps"
+    },
+    {
+      "t": 574.7,
+      "end": 594.8,
+      "text": "repository so starting off with comments the first thing we require is that all comments are resolved as as I said when you when you open up your poll request you'll get comments from us in Microsoft or other members of the BC community and you know comments could be as simple as just committing a suggestion or it could be something like uh and a disc discussion item that you need to resolve"
+    },
+    {
+      "t": 594.8,
+      "end": 612.2,
+      "text": "with the reviewer the important thing here is that all these conversations are resolved before the pr can be merged the Second Step here is that you need approvals we require at least two approvals from maintainers of the BCS repository which essentially means two approvals from U engineers at"
+    },
+    {
+      "t": 612.2,
+      "end": 632.2,
+      "text": "Microsoft as for automated checks we check for uh linked work items so as I as I mentioned earlier it's important when you open up your pool request that you link to uh an approved issue and that's because we have a check on the poll request that looks for links to uh issues and if you if you don't have a link to an"
+    },
+    {
+      "t": 632.2,
+      "end": 649.8,
+      "text": "issue or if the issue that you're linking to is not approved then you'll get a comment in your PR explaining what the next steps are luckily it's very easy to resolve once you have your approved issue you can just write hashtag and then your issue ID and the common goes away and this check becomes"
+    },
+    {
+      "t": 649.8,
+      "end": 670,
+      "text": "green the next check is called for Microsoft validate link to internal work items now there are no action items for you here as a contributor this is a reminder to us in Microsoft that there's some internal accounting we need to do for example if your change needs to be reflected in uh the release notes then this this is a reminder"
+    },
+    {
+      "t": 670,
+      "end": 690,
+      "text": "for us to do that but there is no action for you as a contributor the last and probably more significant of these checks is the pull request build now here we actually take what you've built and we we try to compile that and test that in our gates and the requirement here is that everything compiles all code Cup rules satisfied and"
+    },
+    {
+      "t": 690,
+      "end": 710.7,
+      "text": "that tests are passing if you open up a pus build it'll look a little bit like this there's a lot going on here uh many green checks here this is an example of a successful one unfortunately GitHub doesn't do a great job at displaying this so I'll try to represent it a bit of a different way in that our proquest build essentially consists of two phases a build phase and a test"
+    },
+    {
+      "t": 710.7,
+      "end": 731.1,
+      "text": "phase in the build phase we build the system application the business Foundation the test framework and so on uh all the apps essentially in the Repository and we build those apps in three different flavors we build it in the vanilla mode which is just compiling the app as it is then we build it with translations as well and then we build it in clean"
+    },
+    {
+      "t": 731.1,
+      "end": 751.2,
+      "text": "mode now clean mode means that we apply these pre-processor attacks that we use um our pre-processed attacks are clean for example here we have clean 23 and it just means that this snippet of code here will not be included in the clean build but would be included in uh the other builds there's just a bit of a difference between"
+    },
+    {
+      "t": 751.2,
+      "end": 771.2,
+      "text": "the our different build modes now mo more often than not you'll see if one of them fails then all of them fails but there are cases where only the clean build would fail and the normal vanilla build of the system application would not so that's just something to keep in mind in the second phase we start testing and we we test the system application and the business Foundation"
+    },
+    {
+      "t": 771.2,
+      "end": 791.3,
+      "text": "both in the vanilla mode but also in uh clean mode if everything goes well everything compiles all tests pass you'll see your poqu build looking like this uh but that's not always the case and sometimes uh things are failing and to discuss what you need to do"
+    },
+    {
+      "t": 791.3,
+      "end": 811.3,
+      "text": "when things are failing I'll go through a short demo of of an example of where something is failing and how you can fix that so here I have a polar Quest and just to explain the polar Quest really quickly uh it just it changes the headlines implementation uh to just the first time a user logs in it displays a different message so in this case it displays welcome to"
+    },
+    {
+      "t": 811.3,
+      "end": 831.3,
+      "text": "business Central the first time you log in now I open up this pull request I provided a summary and I linked to my issue when I scroll down I can see that some checks are not successful so I have five failing checks so when I scroll through the list I see this for Microsoft check that's failing as I mentioned there's no action item for you so just feel"
+    },
+    {
+      "t": 831.3,
+      "end": 851.3,
+      "text": "free to ignore it but if I scroll further down I see that building the system application fails and it fails both in default clean and translated mode so now I know that there's something I need to do uh now because it fail fails in the build phase one trick that you can use is just to go up to the files uh tab here and not only can you"
+    },
+    {
+      "t": 851.3,
+      "end": 871.5,
+      "text": "see my changes but GitHub actually also reports uh what the compilation issues are so in this case it says here that I haven't given an argument that requires that corresponds to the required formal parameter use a security ID in is first login so here I'm calling a function called is first login but I didn't give any guit as an input"
+    },
+    {
+      "t": 871.5,
+      "end": 890.8,
+      "text": "and I was supposed to do that uh so I made a mistake here and that caused a compilation issue so that's an example of how you can debug a compilation issue in your PR now to fix that you can either do it in vs code or you can go up here and click edit file however you prefer to do"
+    },
+    {
+      "t": 890.8,
+      "end": 900.8,
+      "text": "it now let's say I fixed that so I have another PR here where I fixed that compilation issue I go under files changed"
+    },
+    {
+      "t": 900.8,
+      "end": 921.1,
+      "text": "and under files changed I see that I now pass an input to this function uh that is of gu type and now GitHub is not complaining about any compilation issues anymore so if I scroll back up again and I go back out into the conversation tab scroll down I still see I still have four failing checks so if I scroll through the list"
+    },
+    {
+      "t": 921.1,
+      "end": 935.8,
+      "text": "I see building the system application in default clean and translated mode that now succeeds but when I scroll past that I see that building this system application tests is failing so let's take a deeper look at that if we go under the details"
+    },
+    {
+      "t": 935.8,
+      "end": 955.9,
+      "text": "tab uh there are two ways you can kind of figure out what's going wrong here but probably the easiest way is to go under summary and when you scroll through the summary you see it a couple places here for example we can see we have some test function here that failed it expected one message but got another um if you scroll past that and all"
+    },
+    {
+      "t": 955.9,
+      "end": 976,
+      "text": "the way down to the bottom algo actually provides a nice summary of all the tests that we're running and which ones are failing so here for example the business Foundation tests are all succeeding that's great but when you scroll past that we see that the system application tests uh are mostly succeeding but one of them failed uh so the way you can debug that and figure out what's going on is just"
+    },
+    {
+      "t": 976,
+      "end": 995.1,
+      "text": "to expand this section here and now we can see that it's it's a headline test that failed is this particular test case called test get user greeting and we can also see the stack Trace so this is when you as a as a developer can can use that information to then either fix your test or fix the"
+    },
+    {
+      "t": 995.1,
+      "end": 1016,
+      "text": "implementation uh once you fix that hopefully the checks become green and and once you get the approvals we're ready to merge so to wrap up I've made a short checklist of what it takes to make a contribution into the BC apps repository first of all you need that all Commons are resolved you need at least two approvers you need to link your polar to an issue"
+    },
+    {
+      "t": 1016,
+      "end": 1036.2,
+      "text": "and then the poest build needs to be passing meaning no compilation issues and no test failures if you can check out all these boxes then you can merge your pquest and you've made a contribution into the bcfs repository if for whatever reason you can check off most of the boxes but one of them for some reason you can't let's say the pulus build is failing and you just can't"
+    },
+    {
+      "t": 1036.2,
+      "end": 1056.3,
+      "text": "figure out why or you think that you've linked your issue but for some reason it just GitHub doesn't recognize that you've linked your issue by all means just ask for help in your PO request create a comment in the pull request and a member of our team or someone in the BC Community will help you out uh as we mentioned earlier BC apps is truly a community effort"
+    },
+    {
+      "t": 1056.3,
+      "end": 1070.5,
+      "text": "and so there are people looking at this repository every day uh and at least our engineers in Microsoft are very familiar with the process of getting a contribution into the BCF repository so there'll be there'll be people out there to to help you"
+    },
+    {
+      "t": 1070.5,
+      "end": 1090.7,
+      "text": "out if you discover a buck in the contribution process meaning you can't spin up a container for some reason or you find that our documentation is lacking or is missing some information by all means create an issue for us we have an issue template for that it's called report a bug in the contribution process and we'll take a look as quickly as possible we want to smoothen out the contribution"
+    },
+    {
+      "t": 1090.7,
+      "end": 1111.2,
+      "text": "process as much as we can so please help us out if you find a bug in the contribution process thank you Alex for this lovely demonstration of the contribution process now I've prepared we've prepared uh several key takeaways from these sessions and first and foremost is that c development is Microsoft visions of business Central application"
+    },
+    {
+      "t": 1111.2,
+      "end": 1131.2,
+      "text": "if you haven't gotten the memo yet this is indeed why we're doing uh all the GitHub work we do this is why we are moving to True open source this is why we're moving our internal development to GitHub so this is the place where Microsoft developers can indeed co-develop with all the partners we have out there for business Central next I"
+    },
+    {
+      "t": 1131.2,
+      "end": 1151.2,
+      "text": "also want to emphasize that contribution is the same for everyone uh all the checks that Alex mentioned earlier they are the same for both internal developers and for everyone else out there we require the same number of recurs the same number of reviewers the same checks need to pass on every po"
+    },
+    {
+      "t": 1151.2,
+      "end": 1171.4,
+      "text": "request no matter if it's external or internal and again as Alexander mentioned do not hesitate to ask we would hate to see you get stuck on something that is uh might be like an issue on our side or might some sometimes it just might be like a instability or whatever just ask us for help"
+    },
+    {
+      "t": 1171.4,
+      "end": 1191.7,
+      "text": "so if you're eager to start just go to akms BC apps and explore our repository here we have compiled a list of other resources that you can check out in order to connect with other members of the community or have more documentation on your s when you are trying to contribute to BC apps next I want to promote a session"
+    },
+    {
+      "t": 1191.7,
+      "end": 1212.1,
+      "text": "from our colleagues uh that is about business foundation and the number series modules and I want to emphasize that business Foundation was indeed the first applications application that uh was developed on GitHub from the beginning so please check out the sessions to familiarize yourself more about this"
+    },
+    {
+      "t": 1212.1,
+      "end": 1220,
+      "text": "application with that I want to say thank you and see you on GitHub"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3888
+}
