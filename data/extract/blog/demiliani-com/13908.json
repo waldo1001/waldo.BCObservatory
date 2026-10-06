@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/demiliani-com/13908",
+  "url": "https://demiliani.com/2026/06/23/github-copilot-sessions-obtaining-tips-for-better-usage/",
+  "title": "GitHub Copilot sessions: obtaining tips for better usage.",
+  "source": "demiliani-com",
+  "published_at": "2026-06-23T08:20:39.000Z",
+  "words": 698,
+  "summary": "GitHub Copilot's Chronicle feature saves and indexes your coding sessions in a local SQLite database, letting you search past work with natural language queries and receive tips to optimize usage and reduce costs.",
+  "key_points": [
+    "Chronicle tracks session metadata, conversation turns, files touched, and external references in a searchable local database",
+    "Secrets like tokens and API keys are automatically filtered before cloud sync",
+    "Commands like /chronicle:tips and /chronicle:cost-tips analyze your recent sessions to suggest improvements",
+    "VS Code stores chat sessions per-workspace in workspace storage, while Copilot CLI stores sessions globally in ~/.copilot/session-state/",
+    "You can export, import, or manually copy session files when migrating between machines"
+  ],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "github copilot",
+    "session management",
+    "coding history",
+    "cost optimization",
+    "session tracking",
+    "chronicle feature"
+  ],
+  "objects": [],
+  "features": [
+    "Chronicle session search",
+    "Chronicle tips command",
+    "Chronicle cost-tips command",
+    "Local session tracking",
+    "Cloud sync of sessions",
+    "Session export and import",
+    "Natural language session queries"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005719,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Secrets such as tokens, API keys, passwords, and connection strings are automatically filtered before data is synced to the cloud.",
+      "why_it_matters": "Important security feature showing how sensitive data is protected during session synchronization"
+    },
+    {
+      "text": "Chronicle will start analyzing your session store and it will give tips on how to optimize token usage in your coding sessions.",
+      "why_it_matters": "Demonstrates practical cost-saving capability that helps developers reduce GitHub Copilot expenses"
+    }
+  ]
+}

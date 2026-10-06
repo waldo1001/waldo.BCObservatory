@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-21-27-2026/",
+  "url": "https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-21-27-2026/",
+  "title": "Weekly Review: Business Central AL Development – June 21–27, 2026",
+  "source": "dvlprlife-com",
+  "published_at": "2026-06-29T13:00:00.000Z",
+  "words": 660,
+  "summary": "A weekly community review from June 21-27, 2026 covering four practical Business Central AL development topics: user and AI agent avatars for record ownership visibility in BC28, dynamic column editability on list pages, Copilot token cost optimization, and namespace adoption for app modernization.",
+  "key_points": [
+    "BC28 avatars display who created or modified records, helping users distinguish AI-generated from human changes without opening cards",
+    "Dynamic editability can be controlled via Boolean variables bound to field properties, evaluated per record in OnAfterGetRecord",
+    "Copilot output token costs are reduced by narrow prompts, omitting explanations, and choosing cheaper modes like Ask over Agent",
+    "Moving older AL apps to namespaces improves object clarity, reduces naming friction, and aligns with modern AL practices"
+  ],
+  "systems": [
+    "development",
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "al development",
+    "list pages",
+    "record ownership",
+    "avatars",
+    "copilot costs",
+    "token usage",
+    "namespaces",
+    "maintainability"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Unit of Measure"
+    }
+  ],
+  "features": [
+    "user avatars",
+    "agent avatars",
+    "dynamic editability",
+    "Copilot token optimization",
+    "namespaces",
+    "hover details"
+  ],
+  "versions": [
+    "BC28"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005873,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Narrow prompts and clear stop conditions reduce both generated text and unnecessary agent iterations.",
+      "why_it_matters": "Directly explains how developers can lower Copilot costs through prompt discipline."
+    },
+    {
+      "text": "Namespaces make object ownership clearer, reduce naming friction as apps grow, and align existing extensions with the direction of newer AL projects.",
+      "why_it_matters": "Summarizes the key modernization benefits of adopting namespaces in AL apps."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "item_id": "blog/waldo-be/318627",
+  "url": "https://waldo.be/2026/06/29/the-waldo-way/",
+  "title": "“the waldo way”",
+  "source": "waldo-be",
+  "published_at": "2026-06-29T21:51:44.000Z",
+  "words": 975,
+  "summary": "A CTO reflects on building a pre-packaged agentic development harness for the team to accelerate adoption, but questions whether removing setup friction also eliminates valuable learning opportunities. The post explores the tradeoff between speed-and-consistency versus developer ownership and skill-building.",
+  "key_points": [
+    "A ready-made VSCode extension with agents, guidelines, and MCPs was created to lower adoption barriers and ensure uniform practices across the team",
+    "Removing friction from setup may simultaneously remove the learning that happens when developers struggle through configuration and problem-solving",
+    "The approach achieved fast, consistent adoption with no complaints, but potentially at the cost of developers learning to build and evolve their own solutions",
+    "Other CTOs typically favor organic adoption by providing tools and direction, while this approach enforces uniformity upfront",
+    "The core tension is whether to prioritize immediate capability (head start) or long-term ownership (deep learning)"
+  ],
+  "systems": [
+    "development",
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "agentic development",
+    "team adoption",
+    "developer skills",
+    "setup friction",
+    "learning curve",
+    "vscode extension",
+    "company guidelines"
+  ],
+  "objects": [],
+  "features": [
+    "VSCode extension",
+    "agents",
+    "MCP integration",
+    "company guidelines automation",
+    "wizard setup",
+    "playbook"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "By taking away all the friction .. did we also take away the learning?",
+      "why_it_matters": "Captures the core dilemma of whether removing setup complexity eliminates the educational value that comes from struggling through technical challenges"
+    },
+    {
+      "text": "We traded depth-of-ownership for speed-and-consistency.",
+      "why_it_matters": "Summarizes the fundamental tradeoff between immediate team uniformity and developers' long-term ability to independently evolve solutions"
+    },
+    {
+      "text": "You can't evolve a harness you've never even touched, right?",
+      "why_it_matters": "Presents the counter-argument that providing a working foundation first allows developers to improve it later, suggesting a phased approach to skill development"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006133,
+    "posts_in_call": 1
+  }
+}

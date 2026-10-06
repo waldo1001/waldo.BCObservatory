@@ -7,13 +7,39 @@
   "url": "https://waldo.be/2026/06/29/the-waldo-way/",
   "published_at": "2026-06-29T21:51:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:54:21.559Z",
+      "path": "vault:posts/waldo-be/318627.md",
+      "words": 975
+    },
+    "extracted": {
+      "at": "2026-10-06T21:54:29.948Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.006133
+    },
+    "summarized": {
+      "at": "2026-10-06T21:54:29.950Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:54:29.951Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:54:29.954Z",
+      "path": "content/posts/waldo-be/318627.md"
     }
   },
   "input_hash": "2026-06-28T14:48:25.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f0420fe4655425f341c0a225c9c510d648667dbaa3cdb5c5cf23af4d97e8d669"
 }

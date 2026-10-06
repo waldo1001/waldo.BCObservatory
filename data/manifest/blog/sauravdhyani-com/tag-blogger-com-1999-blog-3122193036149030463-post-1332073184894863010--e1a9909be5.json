@@ -7,13 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/06/how-user-and-ai-agent-avatars-improve.html",
   "published_at": "2026-06-25T05:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:54:53.292Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1332073184894863010--e1a9909be5.md",
+      "words": 537
+    },
+    "extracted": {
+      "at": "2026-10-06T21:54:59.449Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.004618
+    },
+    "summarized": {
+      "at": "2026-10-06T21:54:59.451Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:54:59.452Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:54:59.457Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1332073184894863010--e1a9909be5.md"
     }
   },
   "input_hash": "2026-06-25T05:30:00.117Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ccc799621243d46d60ef8cf917a73f98eebaefbccdc703be3679133be92fc34c"
 }

@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/",
   "published_at": "2026-06-26T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:54:46.093Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md",
+      "words": 122
+    },
+    "extracted": {
+      "at": "2026-10-06T21:54:52.205Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.004202
+    },
+    "summarized": {
+      "at": "2026-10-06T21:54:52.206Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:54:52.207Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:54:52.210Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-74-copy-document--70de705561.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "91d2081fd023c776064f3952909bfcdc6c9c5a8b0bf6e527c590947f103ea281"
 }

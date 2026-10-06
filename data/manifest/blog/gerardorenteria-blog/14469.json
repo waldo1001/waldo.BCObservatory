@@ -7,13 +7,21 @@
   "url": "https://gerardorenteria.blog/2026/06/29/git-version-2/",
   "published_at": "2026-06-29T19:43:42.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:54:29.291Z",
+      "path": "vault:posts/gerardorenteria-blog/14469.md",
+      "words": 80
     }
   },
   "input_hash": "2026-07-07T20:51:54.000Z",
-  "attempts": 0,
-  "flags": []
+  "attempts": 1,
+  "flags": [],
+  "last_error": "model returned no entry for this post",
+  "retry_after": "2026-10-06T23:54:36.314Z",
+  "output_hash": "2a33cffd7e7b2951ce21afb2171d8c256c10ade727d43afed0e9a2b908ac39af"
 }

@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/06/23/github-copilot-sessions-obtaining-tips-for-better-usage/",
   "published_at": "2026-06-23T08:20:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:54:54.621Z",
+      "path": "vault:posts/demiliani-com/13908.md",
+      "words": 698
+    },
+    "extracted": {
+      "at": "2026-10-06T21:55:01.922Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005719
+    },
+    "summarized": {
+      "at": "2026-10-06T21:55:01.924Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:55:01.925Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:55:01.927Z",
+      "path": "content/posts/demiliani-com/13908.md"
     }
   },
   "input_hash": "2026-06-23T08:20:40.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "53deeb9694c7296d777543abcd4b4aede572a8b1c2c333bed474d04dee34de99"
 }

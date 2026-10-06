@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/",
+  "title": "BC Friday Tips #74 Copy Document and Custom Field",
+  "source": "thatnavguy-com",
+  "published_at": "2026-06-26T00:00:00.000Z",
+  "words": 122,
+  "summary": "When adding custom fields to Sales Header or Sales Invoice Header tables, developers must consider how the Copy Document feature will handle those fields. The post explains that custom fields are automatically copied along with documents, requiring developers to decide whether values should be copied, cleared, or recalculated to maintain data integrity.",
+  "key_points": [
+    "Custom fields added to Sales tables are automatically included when users copy documents",
+    "Developers must determine for each field whether its value should be copied, cleared, or recalculated",
+    "Improper Copy Document behavior can introduce invalid data and cause process issues",
+    "Field design decisions at creation time prevent problems during document operations"
+  ],
+  "systems": [
+    "sales",
+    "development"
+  ],
+  "topics": [
+    "copy document",
+    "custom fields",
+    "sales header",
+    "data integrity",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Header"
+    }
+  ],
+  "features": [
+    "Copy Document",
+    "Custom Fields",
+    "Data Validation"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004202,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "If users use Copy Document, your custom field will be copied too.",
+      "why_it_matters": "This explains that custom fields are not exempt from Copy Document behavior, making developers responsible for controlling this behavior"
+    },
+    {
+      "text": "A small design decision now can prevent a lot of problems later.",
+      "why_it_matters": "This emphasizes the importance of planning Copy Document behavior upfront rather than fixing it reactively"
+    }
+  ]
+}

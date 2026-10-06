@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/thinkaboutit-be/7995",
+  "url": "https://thinkaboutit.be/2026/06/quick-tip-troubleshooting-business-central-power-bi-reports-my-5-minute-checklist/",
+  "title": "Quick Tip: Troubleshooting Business Central Power BI Reports: My 5-Minute Checklist",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-06-30T08:06:45.000Z",
+  "words": 665,
+  "summary": "Most Business Central Power BI issues stem from configuration problems rather than Power BI itself. The post provides a systematic 5-step troubleshooting checklist covering environment connectivity, data source verification, access permissions, refresh timing, and only then investigating actual Power BI problems.",
+  "key_points": [
+    "Connection issues are the primary cause: reports must be explicitly connected to the correct tenant, environment, and company",
+    "Many 'wrong data' problems result from users viewing data from the wrong environment or company rather than actual data errors",
+    "Both Power BI and Business Central security models must be configured correctly; Business Central SUPER permission does not grant Power BI access",
+    "Data refresh status should be verified before investigating deeper issues, as missing transactions often appear immediately after posting data",
+    "Power BI itself rarely causes problems; most issues involve misconfiguration in the chain of Business Central, authentication, APIs, workspaces, and licensing"
+  ],
+  "systems": [
+    "reporting",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "power bi",
+    "troubleshooting",
+    "configuration",
+    "connectivity",
+    "security",
+    "data refresh"
+  ],
+  "objects": [],
+  "features": [
+    "Power BI integration",
+    "Standard Power BI apps",
+    "Report connectivity",
+    "Security and permissions",
+    "Data refresh scheduling"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005827,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Most were configuration issues somewhere between Business Central and Power BI.",
+      "why_it_matters": "Identifies that Power BI problems are rarely about Power BI itself, setting the stage for a configuration-focused troubleshooting approach"
+    },
+    {
+      "text": "Having SUPER in Business Central doesn't automatically grant access to Power BI, and Power BI permissions don't override Business Central security.",
+      "why_it_matters": "Clarifies a critical misconception that both security models must be independently configured, preventing access issues"
+    },
+    {
+      "text": "Power BI is simply the last step in that chain. When one of the earlier steps is misconfigured, the dashboard becomes the messenger.",
+      "why_it_matters": "Reframes the troubleshooting mindset from blaming Power BI to examining the entire configuration chain"
+    }
+  ]
+}

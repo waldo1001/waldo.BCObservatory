@@ -1,0 +1,68 @@
+{
+  "item_id": "blog/demiliani-com/13931",
+  "url": "https://demiliani.com/2026/06/26/dynamics-365-business-central-using-semantic-search-from-al/",
+  "title": "Dynamics 365 Business Central: Using Semantic Search from AL",
+  "source": "demiliani-com",
+  "published_at": "2026-06-26T10:13:12.000Z",
+  "words": 637,
+  "summary": "Dynamics 365 Business Central now exposes embedding-based semantic search as a native AL capability that understands meaning and context instead of relying on exact keyword matches. This feature uses vector embeddings stored in Azure SQL Database and is currently available for on-premises deployments through the System.Search.Semantic Search codeunit.",
+  "key_points": [
+    "Semantic search converts text into numerical embeddings that capture meaning, allowing searches to find results based on intent and similarity rather than exact word matches",
+    "The implementation stores vectors in Azure SQL Database and caches embeddings in the tenant database with background processing for metadata",
+    "Developers access semantic search via System.Search.Semantic Search codeunit with methods to set search targets, max results, and perform similarity searches on specified fields",
+    "Currently limited to on-premises deployments with target OnPrem, with plans to extend to SaaS in version 29"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "semantic search",
+    "embeddings",
+    "ai capabilities",
+    "vector database",
+    "al development",
+    "search functionality"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "System.Search.Semantic Search"
+    },
+    {
+      "type": "table",
+      "name": "Similarity Result"
+    }
+  ],
+  "features": [
+    "Embedding-based semantic search",
+    "Vector embeddings in SQL",
+    "Background embedding generation",
+    "Similarity result ranking",
+    "Field-specific search targeting",
+    "Search result limiting"
+  ],
+  "versions": [
+    "v29"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006545,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Semantic search understands the meaning of your query, not just keywords. It finds results based on intent and context rather than exact word matches.",
+      "why_it_matters": "Explains the fundamental advantage of semantic search over traditional keyword-based approaches, which is essential for understanding why this feature matters for users"
+    },
+    {
+      "text": "Dynamics 365 Business Central now stores vectors in tthe Azure SQL Database and queries them via vectors functionalities provided by the SQL platform.",
+      "why_it_matters": "Describes the technical implementation approach that makes semantic search performant at scale using native database capabilities"
+    }
+  ]
+}
