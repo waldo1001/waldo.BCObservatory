@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-79-change-log-deletion-on-one-field/",
   "published_at": "2026-08-14T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:42:41.460Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf.md",
+      "words": 113
+    },
+    "extracted": {
+      "at": "2026-10-06T21:42:47.357Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.003951
+    },
+    "summarized": {
+      "at": "2026-10-06T21:42:47.358Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:42:47.360Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:42:47.363Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8489db84172e13d21dc13c0b501712e6b48b48e97eda79e4130d964aadb9b1b1"
 }

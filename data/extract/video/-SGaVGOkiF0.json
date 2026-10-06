@@ -1,0 +1,290 @@
+{
+  "video_id": "-SGaVGOkiF0",
+  "item_id": "video/yt-microsoft/-SGaVGOkiF0",
+  "title": "Introducing Payment Times Analysis in Business Central (2023 release wave 2)",
+  "duration_s": 528,
+  "systems": [
+    "finance",
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "payment analysis",
+    "payment times",
+    "regulatory compliance",
+    "vendor payments",
+    "customer payments",
+    "company size aggregation",
+    "period aggregation",
+    "payment practices",
+    "due dates"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Payment Times Analysis",
+      "t_start": 0,
+      "t_end": 47.5
+    },
+    {
+      "title": "Regulatory Requirements and Global Scope",
+      "t_start": 47.5,
+      "t_end": 113
+    },
+    {
+      "title": "Feature Overview and Analysis Options",
+      "t_start": 113,
+      "t_end": 193.5
+    },
+    {
+      "title": "Demo: Aggregation by Company Size",
+      "t_start": 193.5,
+      "t_end": 323.2
+    },
+    {
+      "title": "Demo: Aggregation by Period",
+      "t_start": 323.2,
+      "t_end": 396.8
+    },
+    {
+      "title": "Analysis Insights and Customer Payments",
+      "t_start": 396.8,
+      "t_end": 437
+    },
+    {
+      "title": "Summary and Resources",
+      "t_start": 437,
+      "t_end": 528
+    }
+  ],
+  "features": [
+    {
+      "name": "Payment Times Analysis",
+      "description": "A new global feature that analyzes payment behavior against vendors and customers, tracking whether payments occur on or after due dates. Can be aggregated by company size or period.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 47.5,
+      "t_end": 174,
+      "is_demoed": true,
+      "caveats": [
+        "Currently required for vendors only by authorities, but feature extended to include customers and both",
+        "Company size field must be specified on vendor cards"
+      ],
+      "tags": [
+        "payment analysis",
+        "regulatory",
+        "vendor",
+        "customer",
+        "aggregation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Aggregation by Company Size",
+      "description": "Analysis option that groups payment data by company size categories, required by Swedish regulatory requirements for companies with 250 or more employees.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 153.7,
+      "t_end": 323.2,
+      "is_demoed": true,
+      "caveats": [
+        "Company sizes must be specified on vendor cards to be included in the report"
+      ],
+      "tags": [
+        "company size",
+        "sweden",
+        "aggregation",
+        "regulatory"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Aggregation by Period",
+      "description": "Analysis option that groups payment data by custom periods defined in a payment periods table, allowing flexible period-based reporting for different regulatory requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 343.2,
+      "t_end": 396.8,
+      "is_demoed": true,
+      "caveats": [
+        "Periods must be configured in the payment periods table before generating reports"
+      ],
+      "tags": [
+        "period",
+        "aggregation",
+        "flexible",
+        "customizable"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Payment Analysis Statistics",
+      "description": "Statistics provided in payment analysis including average agreed payment period, average actual payment period, percentage paid on time, and optional amount-based analysis instead of invoice count.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 174,
+      "t_end": 248,
+      "is_demoed": true,
+      "caveats": [
+        "Some countries may prefer amount-based analysis rather than invoice count"
+      ],
+      "tags": [
+        "statistics",
+        "analytics",
+        "reporting",
+        "metrics"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Payment Analysis Drill-Down",
+      "description": "Ability to drill down into payment analysis details to see specific invoice and payment entries, dates, and amounts relating to each line item.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 268.3,
+      "t_end": 288.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "drill-down",
+        "details",
+        "invoice",
+        "payment"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Historical Payment Data Storage",
+      "description": "Payment analysis data is stored for historical purposes, allowing users to view historical payment data over time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 288.3,
+      "t_end": 308.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "history",
+        "data storage",
+        "reporting"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Payment Analysis Print Reports",
+      "description": "Ability to print payment analysis reports with appropriate layout selected automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 308.6,
+      "t_end": 323.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "printing",
+        "reporting",
+        "export"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Practices",
+      "t": 193.7
+    },
+    {
+      "type": "table",
+      "name": "Payment Periods",
+      "t": 356.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Vadim",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 47.5,
+      "text": "we simply want to analyze how you behave against your vent when it comes to the payments on or after due dates",
+      "why_it_matters": "Defines the core purpose of the feature - analyzing payment behavior relative to due dates for both vendors and customers",
+      "check": "exact"
+    },
+    {
+      "t": 68,
+      "text": "Swedish companies with 250 and more employees must report Swedish companies registration office that payment times they have for purchase is from a company",
+      "why_it_matters": "Explains the specific regulatory requirement in Sweden that drove the need for this feature",
+      "check": "exact"
+    },
+    {
+      "t": 102.8,
+      "text": "we decided to create this app as a global feature for this kind of reporting as it can be useful in other countries",
+      "why_it_matters": "Shows the decision to make this a global feature rather than a country-specific localization",
+      "check": "exact"
+    },
+    {
+      "t": 153.7,
+      "text": "per company size is required in Sweden but in other countries he mentioned it is required to provide analyzis per period",
+      "why_it_matters": "Explains the two different aggregation modes and their regional regulatory drivers",
+      "check": "exact"
+    },
+    {
+      "t": 174,
+      "text": "now you can choose between vendors customers or both of them",
+      "why_it_matters": "Shows the feature was expanded beyond just vendor analysis to include customer payment analysis",
+      "check": "snapped"
+    },
+    {
+      "t": 228,
+      "text": "you just need to click generate and the line will be generated so the data will be collected",
+      "why_it_matters": "Demonstrates the simplicity of generating payment analysis reports with a single action",
+      "check": "exact"
+    },
+    {
+      "t": 356.5,
+      "text": "those periods are set up in special table payment periods where you can specify any periods you desire to see in this report",
+      "why_it_matters": "Explains how the period aggregation method is configured and customizable",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 113,
+      "kind": "other",
+      "text": "as we had a similar feature earlier in United Kingdom Bas app we decided to obsolute this code and deize it"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021086
+    }
+  ]
+}

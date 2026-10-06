@@ -7,7 +7,7 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/08/analysis-mode-killed-half-excel-exports.html",
   "published_at": "2026-08-16T15:21:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T21:41:44.521Z",
       "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257.md",
       "words": 1046
+    },
+    "extracted": {
+      "at": "2026-10-06T21:41:53.202Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.006754
+    },
+    "summarized": {
+      "at": "2026-10-06T21:41:53.203Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:41:53.204Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:41:53.207Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2404641747766690790--5e5cc51257.md"
     }
   },
   "input_hash": "2026-08-16T15:21:23.842Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6502a52179154fafdb130d24c012ec12b6d58832077a5b3d4c551997f6a67184"
+  "output_hash": "afc5f07ac23e4e443e549ca1f2488c66d3eea033029eb8e6ce8f17624b7e5a80"
 }

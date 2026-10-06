@@ -1,0 +1,81 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-2404641747766690790",
+  "url": "http://mohana-dynamicsnav.blogspot.com/2026/08/analysis-mode-killed-half-excel-exports.html",
+  "title": "Analysis Mode killed half the Excel exports on your client's shared drive",
+  "source": "mohana-blog",
+  "published_at": "2026-08-16T15:21:23.000Z",
+  "words": 1046,
+  "summary": "Analysis Mode is a feature that lets users group, filter, and pivot data on Business Central list pages without exporting to Excel. It creates personal analysis views with their own columns, filters, and arrangements that persist between sessions and can be packaged into extensions.",
+  "key_points": [
+    "Analysis views let users organize data by grouping, filtering, and pivoting without changing underlying data or affecting other users",
+    "Date hierarchies automatically generate Year, Quarter, and Month fields for grouping, but use calendar years not fiscal years",
+    "Requires execute permission on system object 9640; check the DATA ANALYSIS - EXEC permission set if the button is missing",
+    "Analysis mode can be disabled per page with the AnalysisModeEnabled property and is not supported on indented lists like Chart of Accounts",
+    "Analysis definitions can be exported as JSON and packaged into extensions for distribution to clients"
+  ],
+  "systems": [
+    "reporting",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "analysis mode",
+    "data grouping",
+    "pivoting",
+    "permissions",
+    "excel alternatives",
+    "list pages"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "system object 9640"
+    },
+    {
+      "type": "permissionset",
+      "name": "DATA ANALYSIS - EXEC"
+    },
+    {
+      "type": "page",
+      "name": "Customer Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "G/L Account List"
+    }
+  ],
+  "features": [
+    "Analysis Mode",
+    "Analysis views",
+    "Date hierarchies",
+    "Pivot mode",
+    "Row Groups",
+    "Column Labels",
+    "Add columns from related tables",
+    "JSON export of analysis definitions"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006754,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Nothing you do here touches the underlying data, and nothing you do changes the page for anyone else.",
+      "why_it_matters": "Explains the safety and isolation of analysis mode operations for nervous users"
+    },
+    {
+      "text": "Date hierarchies use the calendar year. Not your client's fiscal year.",
+      "why_it_matters": "Critical limitation when fiscal year differs from calendar year; causes reporting discrepancies"
+    }
+  ]
+}

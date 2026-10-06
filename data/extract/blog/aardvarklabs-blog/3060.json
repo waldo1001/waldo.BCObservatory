@@ -1,0 +1,92 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3060",
+  "url": "https://aardvarklabs.blog/2026/08/14/getting-started-with-ai-for-rapid-software-development-for-business-central/",
+  "title": "Getting Started with AI for Rapid Software Development for Business Central",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-08-14T12:00:00.000Z",
+  "words": 4545,
+  "summary": "This post demonstrates using Copilot Chat and other AI tools to accelerate Business Central software development by extracting functional requirements from unstructured sources like meeting transcripts, then designing a real-world accounting system for a space travel agency that tracks asset depreciation by time and usage events, manages launch-based mission costing, and integrates with Business Central for GL posting.",
+  "key_points": [
+    "Functional requirements documents should capture what a system must do (not how), making them ideal for Copilot Chat to extract from meetings, emails, and transcripts",
+    "A space travel agency accounting system must track reusable assets with usage-based depreciation (launches, flight hours, engine burns) alongside time-based methods, grouped into LaunchEvents that consume assets",
+    "The system requires bidirectional sync with Business Central for asset masters and GL posting, plus telemetry ingestion APIs, refurbishment workflows, cost allocation, and full audit traceability from GL back to source telemetry and approvals",
+    "Functional design moves from requirements (what) to implementation specifics (how), requiring product knowledge and AL extension development for features Business Central does not provide natively"
+  ],
+  "systems": [
+    "finance",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "ai-assisted development",
+    "copilot chat",
+    "functional requirements",
+    "functional design",
+    "business central integration",
+    "asset depreciation",
+    "usage-based amortization",
+    "approval workflows"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "LaunchEvent"
+    },
+    {
+      "type": "other",
+      "name": "AssetInstance"
+    },
+    {
+      "type": "other",
+      "name": "UsageEvent"
+    },
+    {
+      "type": "other",
+      "name": "RefurbishmentRecord"
+    },
+    {
+      "type": "other",
+      "name": "LaunchCostLine"
+    },
+    {
+      "type": "other",
+      "name": "AssetComponent"
+    },
+    {
+      "type": "other",
+      "name": "DepreciationSchedule"
+    }
+  ],
+  "features": [
+    "telemetry ingestion API",
+    "usage-based amortization engine",
+    "time-based depreciation methods",
+    "hybrid depreciation rules",
+    "refurbishment capitalisation workflow",
+    "cost allocation by key",
+    "accounting preview and posting",
+    "audit pack generation",
+    "GL posting with traceability",
+    "RBAC and approval matrix"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.021866,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "AI Assisted Software Development promises faster, more accurate, and more feature rich software at fewer hours of labor.",
+      "why_it_matters": "Sets expectation for using AI to accelerate both requirements extraction and functional design phases of software projects"
+    },
+    {
+      "text": "We'll design a bi‑directional sync: asset master and depreciation schedules flow to BC, and vendor invoices/payments flow back.",
+      "why_it_matters": "Shows how a specialized asset accounting system integrates with Business Central as the GL and invoicing source of truth"
+    }
+  ]
+}

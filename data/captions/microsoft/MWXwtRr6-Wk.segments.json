@@ -1,0 +1,296 @@
+{
+  "video_id": "MWXwtRr6-Wk",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 18.3,
+      "end": 32,
+      "text": "welcome to busy Center lunch event and our session about what is new about V8 da in busy Center well my colleague pred and Magnus together with me will try to explain all new features related with this topic but also clarify some of"
+    },
+    {
+      "t": 32,
+      "end": 52.1,
+      "text": "them we will first start with reminding why and how we started with this feature and continue with some setup and expected results based on this setup then we will continue with uh showing how to use this feature in practice but also some development aspects of this feature we will also introduce something you asked and now we are planning"
+    },
+    {
+      "t": 52.1,
+      "end": 64.1,
+      "text": "to deliver redesign of V date range as many of you wanted it separate from posting date range and you will also touch topic about possible changing of f date after"
+    },
+    {
+      "t": 64.1,
+      "end": 84.2,
+      "text": "posting okay let's start uh first to remind how we started this is um uh requirement from BC ideas uh idea in basically was uh not to use all the time posting date for V purpose that we can choose a document date and based on all this requirement we decided"
+    },
+    {
+      "t": 84.2,
+      "end": 104.3,
+      "text": "to introduce new field V8 date okay a road map uh was that we started with 2022 release Wave 2 or version 21 and this is this is the moment when we added these to production on the first minor we uh made some update adding"
+    },
+    {
+      "t": 104.3,
+      "end": 124.6,
+      "text": "V return limitations and after that uh based on your feedback especially from directions Yammer we introducing few uh new features limitations and some back fixes so we will we continue with upgrade grading and adding small improvements based on all existing feedbacks and internal fining"
+    },
+    {
+      "t": 124.6,
+      "end": 145,
+      "text": "in last five to six months and now finally with version 23 uh we as I said we listen your feedback and you're required to change this setup not to use a general ledger setup for a l from to posting We decided to move this to"
+    },
+    {
+      "t": 145,
+      "end": 155.1,
+      "text": "V allow from uh posting it will come in next to min not immediately in October but this is definitely in our Clos road"
+    },
+    {
+      "t": 155.1,
+      "end": 175.1,
+      "text": "map um let's remind you about basic things of involving these new fields to the entries in preparation for 2022 release W2 Microsoft run upgrade code to populate V8 date in existing entries for the posting date we did that because the V date wasn't previously used in V"
+    },
+    {
+      "t": 175.1,
+      "end": 195.4,
+      "text": "reporting so data transfer was used the first time to populate this data now what is important here this feature is W1 feature so it means it is available in all actually in most of countries where busy Central is available except Italy as Italy already had similar feature there so"
+    },
+    {
+      "t": 195.4,
+      "end": 216.2,
+      "text": "in Italy it is postponed it um in all those countries with existing V functionality this field is named as vat date but what is important to know in localization without V system this field still exists and"
+    },
+    {
+      "t": 216.2,
+      "end": 234.4,
+      "text": "this date is referred to as tax date tax date automatically use the posting date on a document so it must have date even customers do not see it that means you will not see it but c will automatically fill in this uh uh tax date uh based on your posting"
+    },
+    {
+      "t": 234.4,
+      "end": 253.6,
+      "text": "date okay let's now make a look at the setup and results expected based on different different setup models first V dat usage um to use V date feature the first step is to choose enable in a vat date usage field on a general ler setup"
+    },
+    {
+      "t": 253.6,
+      "end": 274,
+      "text": "page enabling V date usage field um makes V dat field available in all relevant page it means in document page in entries everywhere it is important to know that except enabl there are two other uh options for this field all those options will not block"
+    },
+    {
+      "t": 274,
+      "end": 294.1,
+      "text": "uh the use of 8 date these two other options are accept enable we now have enable prevent modification option which prevents user from modify V8 date after document has been posted that means this is more or less the same your enable feature but if this is only enabled you can do everything you can change even"
+    },
+    {
+      "t": 294.1,
+      "end": 314.3,
+      "text": "date after posting but if you have this prevent modification you you will have everything except possibility to change V dat in the posting documents and this is enabled by default uh this exists especially because some countries it is not allowed to modify vat date after document have be posted then disabled which hides all"
+    },
+    {
+      "t": 314.3,
+      "end": 334.4,
+      "text": "instances of vat data across the application but what is important to remember V date will still be used and automatically populated with posting date it means if you choose disable it will not be disabled as a feature you will just not see V8 fi across application but system will use posting date by default in general there will"
+    },
+    {
+      "t": 334.4,
+      "end": 344.9,
+      "text": "not be difference because previously used all the C reports basing on posting date now you will use based on V date but this V date be exactly the same as a posting"
+    },
+    {
+      "t": 344.9,
+      "end": 365.3,
+      "text": "date um note that these options aren't available in a country version where V is not used and system will use posting dat is default date in tax date field but it means in general you will not see this feature uh to enable this disabl but this feature will be disabled automatically and system will populate the text date with posting"
+    },
+    {
+      "t": 365.3,
+      "end": 385.4,
+      "text": "date uh what is additionally important here if the feature is enabled you can enter the V date on theant page but however if left empty it will be populated with default date you will see later in some examples now uh default date the default V date field defines whether the posting"
+    },
+    {
+      "t": 385.4,
+      "end": 405.4,
+      "text": "date or document date are used as a fault value again they're talking only about default date as it can be changed in not posting documents and it will have an impact about some postings as well and as I said you will see it later and now if you use V period in B Central the control V"
+    },
+    {
+      "t": 405.4,
+      "end": 425.5,
+      "text": "period setup field controls whether to check and potentially block posting in V date is defined with Clos periods in those cases the following happens uh this is because these settings ensure consistency in vort reporting and prevent uh posed documents with an empty V8 date but with this control you can"
+    },
+    {
+      "t": 425.5,
+      "end": 438.7,
+      "text": "prevent or eventually warning having new posting entries within closed and close or and release V8 period and of course you can disable this setup at all if you do not use the 18"
+    },
+    {
+      "t": 438.7,
+      "end": 451.4,
+      "text": "periods now my colleague Magnus will show you how to use this feature in a practice and the list of available reports where V date appears Magnus"
+    },
+    {
+      "t": 451.4,
+      "end": 472,
+      "text": "thank you Alexander so let's take a a brief moment to have an overview of how V date Works in business Central so as Alexander nicely explained we have on the general ledger setup default vat date field which controls whether vat date should default to posting date or document date and this is used to aop populate"
+    },
+    {
+      "t": 472,
+      "end": 489.1,
+      "text": "the field on a document that you might create if you want you can of course edit V date if needed and then when posting We copy the date onto the posted document and the related entries such as vat entries and G"
+    },
+    {
+      "t": 489.1,
+      "end": 509.3,
+      "text": "entries let's look at what happens in case that the vat date is not populated during the posting routine we will again use the setup from general ledger setup the default V date to actually take the posting date and copy onto the vat date in case this was the setting that you have and then as before"
+    },
+    {
+      "t": 509.3,
+      "end": 530,
+      "text": "or this will just be copied onto the posted document we also updated some V based reports among those are the V statement the calculate and post V settlement vat Vice declaration and many more in both W1 and local reports"
+    },
+    {
+      "t": 530,
+      "end": 551,
+      "text": "the important thing to note here is that with the default setup in the system there are not going to be any changes to these reports or their output posting date and vat date will be the same and it's only in the case that you manually edit V date on a document or change the setup that these reports might produce different"
+    },
+    {
+      "t": 551,
+      "end": 571.6,
+      "text": "results and now I will hand it over to my colleague pric who will go more in detail with vat thank you Manus we saw how to enable and set up vat date in business Central that can be used for vat related reports this report summarize V related transaction and assist user in complying with local tax"
+    },
+    {
+      "t": 571.6,
+      "end": 587.6,
+      "text": "regulation to ensure that the reports are accurate we needed to guarantee that transactions are correctly filtered in these reports based on their V dates this bring us to the V date consistency check that we implemented in the posting"
+    },
+    {
+      "t": 587.6,
+      "end": 603,
+      "text": "procedure we Define three checks the first one is about Define a default vat date if it is empty the second one is to ensure that V date is within allow vat posting data"
+    },
+    {
+      "t": 603,
+      "end": 618.2,
+      "text": "range and third one is to ensure that vat date is within not close V return periods I will trying to explain the reasons for introducing those and how they are implemented in the next few"
+    },
+    {
+      "t": 618.8,
+      "end": 639.2,
+      "text": "minutes this is an overview of how the posting process works in regard to V date our approach was to design it on that way to provide High level of flexibility for partners to set it up while also considering different localization aspects in the first step for every document type we check whether V"
+    },
+    {
+      "t": 639.2,
+      "end": 659.8,
+      "text": "date is defined while it is impossible to post issue or release document with the blank V date from user interface there is possibility to do that using apis therefore we introduce this check and if the vat is blank BC will default it according to the general ledger setup"
+    },
+    {
+      "t": 659.8,
+      "end": 679.8,
+      "text": "next we have V allowed uh periods and if the vat date Falls outside of defined period posting procedure would be aborted finally we need to ensure that no new posting are completed within close vat return periods or provide warning in cases when V period is"
+    },
+    {
+      "t": 679.8,
+      "end": 683.7,
+      "text": "released or"
+    },
+    {
+      "t": 683.7,
+      "end": 703.8,
+      "text": "submitted I would like to take a few minutes to clarify how we handle defaulting the V date many users Express the expectation that setting the field V date usage to disabled would prevent its usage entirely however it is crucial to understand that V date is from compliance"
+    },
+    {
+      "t": 703.8,
+      "end": 724,
+      "text": "standpoint indispensible and cannot be disabled V date should be considered as a tax date and it is used in all localization primarily for reporting purposes given this significance of V date we have taken steps to ensure that every Cod involved in posting procedure in includes"
+    },
+    {
+      "t": 724,
+      "end": 744,
+      "text": "check for the vat date on this slide you can see simple procedure that is implemented in the code units above in cases where V date is left blank we have implemented a mechanism to defaulty to the value defined in the GL setup this ensur that compliance requirements are consistently met and there are no gaps in the handling"
+    },
+    {
+      "t": 744,
+      "end": 747.9,
+      "text": "of the V"
+    },
+    {
+      "t": 747.9,
+      "end": 768.6,
+      "text": "date let's now take a look on allowed V date periods following the similar principle from implementing allowed posting dates in general ledger setup we implemented similar functionality for V date the idea is to allow administrators to Define periods of time during which specified users are able to post"
+    },
+    {
+      "t": 768.6,
+      "end": 789.1,
+      "text": "the code here is simple we use is handle pattern to allow Partners to change behavior and then verify V date what is important also to mention that in the initial version we used existing Fields allowed posting from and allowed posting to from the general ledger setup to verify vat date 2"
+    },
+    {
+      "t": 789.1,
+      "end": 805,
+      "text": "based on your feedback we decided to split it in the version 23 uh it will be released in one of minor versions so now we have the same Fields used to check vat date only defined in vat"
+    },
+    {
+      "t": 807.2,
+      "end": 827.5,
+      "text": "setup how it will work to ensure seamless transition from our current for our current user the upate code will copy the existing values from the general ledger setup to the vat setup Fields the existing posting date check um remains unchanged but we are uh enhancing flexibility and V date control"
+    },
+    {
+      "t": 827.5,
+      "end": 847.6,
+      "text": "as these fields will be exclusively used for verifying vat date finally our priority is to prevent any new posting with v date within closed V return periods or in cases where the V return is released or submitted issue a warning the"
+    },
+    {
+      "t": 847.6,
+      "end": 867.7,
+      "text": "V return can have various statuses from open accepted closed to cancelled and our aim here is to protect users from posting documents that would result with non-compliance situation that would require additional effort to fix the problem using general ledger setup field control vat date um"
+    },
+    {
+      "t": 867.7,
+      "end": 887.7,
+      "text": "it is possible to handle these cases from blocking posting providing warning to ignore it with that I will pass to monus who will continue explaining how you can modify V date after posting the documents thank you prodct all right so let's take a look at if you might need to change"
+    },
+    {
+      "t": 887.7,
+      "end": 907.8,
+      "text": "V date after having posted a document we allow you to do this from the vat entries where you can go to a record and specify a new vat date but only if your setup allows you to do so as nicely explained by Alexander once saved this date will then be propagated to"
+    },
+    {
+      "t": 907.8,
+      "end": 927.8,
+      "text": "posted document as well as related GL entries based on transaction number document number document type and posting date and now I will hand it off to Alexander to conclude this session okay Magus thank you and um yeah we we finish this session for"
+    },
+    {
+      "t": 927.8,
+      "end": 948.1,
+      "text": "today I would like to say thank you uh for all of you who watching this session and I would like to invite you to for q& a session Q&A session is planned for October 11 you will find more information on a portal so you are more than welcome to ask more questions about these features"
+    },
+    {
+      "t": 948.1,
+      "end": 968.4,
+      "text": "before I finish with um this session I would like to invite you for some other sessions and all of them if I'm not wrong 35 of them are there and all of them are really good good about new features but I would like to take this opportunity to invite you uh something more related with localization and legislation topics what is new"
+    },
+    {
+      "t": 968.4,
+      "end": 988.7,
+      "text": "legislation localization and again something really important for the most of countries introduction to new electronic invoicing or electronic document uh module this is something really important and it will be used much more in future before I close again there are a lot of interesting and important URLs about uh busy Center"
+    },
+    {
+      "t": 988.7,
+      "end": 1009.6,
+      "text": "so you can use some of them to find interesting information if you cannot uh remember all of them please do not forget this AK msbc all so you can find all interest information there so on the end thank you in M and P mag"
+    },
+    {
+      "t": 1009.6,
+      "end": 1011,
+      "text": "name"
+    }
+  ],
+  "markers": [
+    {
+      "t": 2.09,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.31,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.32,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2529
+}

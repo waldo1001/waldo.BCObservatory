@@ -1,0 +1,334 @@
+{
+  "video_id": "205F8ljmInU",
+  "item_id": "video/yt-microsoft/205F8ljmInU",
+  "title": "What's New: The Danish Bookkeeping Act (2023 release wave 2)",
+  "duration_s": 1143,
+  "systems": [
+    "finance",
+    "localization",
+    "integration"
+  ],
+  "topics": [
+    "danish bookkeeping act",
+    "audit trail",
+    "saf-t export",
+    "digital vouchers",
+    "nemhandle",
+    "e-invoicing",
+    "data retention",
+    "chart of accounts mapping",
+    "bank reconciliation",
+    "compliance"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 135
+    },
+    {
+      "title": "Existing Compliance Features",
+      "t_start": 135,
+      "t_end": 292
+    },
+    {
+      "title": "New Features Overview",
+      "t_start": 292,
+      "t_end": 385.2
+    },
+    {
+      "title": "Mandatory Digital Vouchers",
+      "t_start": 385.2,
+      "t_end": 463.1
+    },
+    {
+      "title": "SAF-T Module and Chart of Accounts Mapping",
+      "t_start": 463.1,
+      "t_end": 543.7
+    },
+    {
+      "title": "Demo: SAF-T Export Implementation",
+      "t_start": 543.7,
+      "t_end": 681.5
+    },
+    {
+      "title": "NemHandle Registration and Requirements",
+      "t_start": 681.5,
+      "t_end": 825.6
+    },
+    {
+      "title": "E-invoicing and Digital Voucher Storage",
+      "t_start": 825.6,
+      "t_end": 927.6
+    },
+    {
+      "title": "Data Retention and GDPR Compliance",
+      "t_start": 927.6,
+      "t_end": 1045.5
+    },
+    {
+      "title": "Summary and Resources",
+      "t_start": 1045.5,
+      "t_end": 1143
+    }
+  ],
+  "features": [
+    {
+      "name": "Mandatory Digital Vouchers",
+      "description": "Global feature that enforces attachment of purchase and sales documents before posting. In Denmark, purchase documents must be attached before posting; sales documents are automatically created and attached by the system.",
+      "status": "announced",
+      "status_evidence_t": 353.8,
+      "status_evidence_quote": "all new plan features are part of 2023 release wave two but they will not all of them will be available in October they",
+      "status_evidence_verified": true,
+      "t_start": 385.2,
+      "t_end": 446.3,
+      "is_demoed": false,
+      "caveats": [
+        "Available in 2023 release wave 2, but not all features available in October",
+        "Will be ready for beginning of next calendar year"
+      ],
+      "tags": [
+        "mandatory",
+        "audit",
+        "documents",
+        "denmark"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "SAF-T Module",
+      "description": "Created on top of audit file export app, contains SAF-T export, Danish public standard chart of account, and standard VAT chart of account. Allows mapping existing chart of accounts to standard chart of accounts and export in SAF-T and CSV formats.",
+      "status": "announced",
+      "status_evidence_t": 353.8,
+      "status_evidence_quote": "all new plan features are part of 2023 release wave two but they will not all of them will be available in October they",
+      "status_evidence_verified": true,
+      "t_start": 463.1,
+      "t_end": 523.6,
+      "is_demoed": true,
+      "caveats": [
+        "Public standard chart of account mapping is mandatory for compliance",
+        "Will be finished and ready for beginning of next year"
+      ],
+      "tags": [
+        "saf-t",
+        "export",
+        "chart of accounts",
+        "localization"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "NemHandle Registration Notification",
+      "description": "System displays notification if company is not registered with NemHandle service. If CVR number is registered in NemHandle, Business Central verifies it and notification disappears. Registration is mandatory for invoicing.",
+      "status": "announced",
+      "status_evidence_t": 353.8,
+      "status_evidence_quote": "all new plan features are part of 2023 release wave two but they will not all of them will be available in October they",
+      "status_evidence_verified": true,
+      "t_start": 681.5,
+      "t_end": 825.6,
+      "is_demoed": true,
+      "caveats": [
+        "NemHandle registration is mandatory to use invoicing",
+        "Registration must be completed before proceeding with invoicing functionality"
+      ],
+      "tags": [
+        "nemhandle",
+        "registration",
+        "compliance",
+        "mandatory"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "E-invoicing for Denmark",
+      "description": "Based on e-documents core module with local format options OioPh and PEP3. Includes connectors to third party access points for document exchange with NemHandle. Requires VAT submission through Danish tax agency API.",
+      "status": "announced",
+      "status_evidence_t": 893.2,
+      "status_evidence_quote": "this app is still work in progress and it will be finished soon so it will be ready for the beginning of usage of",
+      "status_evidence_verified": true,
+      "t_start": 825.6,
+      "t_end": 910.6,
+      "is_demoed": false,
+      "caveats": [
+        "Still work in progress",
+        "Will be ready for beginning of certification process",
+        "VAT API submission still in development"
+      ],
+      "tags": [
+        "e-invoicing",
+        "denmark",
+        "local formats",
+        "nemhandle"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Digital Voucher Storage for Five Years",
+      "description": "System must support storage of recorded bookkeeping transactions in digital vouchers for five years, immutable by user or administrator. Production companies cannot be deleted once registered. Microsoft must retain data for five years after fiscal year end per Danish law, then delete per GDPR.",
+      "status": "announced",
+      "status_evidence_t": 1027,
+      "status_evidence_quote": "this solution will be automatically set up and this is still work in progress uh we are we are finishing the these procedures but",
+      "status_evidence_verified": true,
+      "t_start": 910.6,
+      "t_end": 1027,
+      "is_demoed": false,
+      "caveats": [
+        "Still work in progress",
+        "Automatically configured, no manual setup required",
+        "Microsoft retains data for five years minimum for authorities"
+      ],
+      "tags": [
+        "data retention",
+        "compliance",
+        "immutable",
+        "five years"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Audit Trail for Transactions",
+      "description": "Every transaction automatically creates audit trail with registration date, transaction number or ID, user ID of person who recorded it, and system changes. Entries cannot be deleted, backdated or changed - corrections require new entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 214,
+      "t_end": 292,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "audit trail",
+        "compliance",
+        "immutable",
+        "existing feature"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Bank Reconciliation",
+      "description": "Advanced bank reconciliation allowing import of electronic bank statements in various formats including CSV, with automatic reconciliation to bank transactions. Bank accounts linked to chart of account through posting groups.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 292,
+      "t_end": 353.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "bank reconciliation",
+        "compliance",
+        "existing feature"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "G/L Account Mapping",
+      "t": 543.7
+    },
+    {
+      "type": "page",
+      "name": "VAT Posting Setup for SAF-T",
+      "t": 577.8
+    },
+    {
+      "type": "page",
+      "name": "Audit Document",
+      "t": 625.3
+    },
+    {
+      "type": "page",
+      "name": "Company Information",
+      "t": 722.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Sasha",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 72.4,
+      "text": "Microsoft register Beil Central Cloud version in the first wave and solution will be certified as a standard solution as is this is what",
+      "why_it_matters": "Establishes that Business Central Cloud will be certified for Danish Bookkeeping Act compliance as a standard solution without requiring customizations",
+      "check": "exact"
+    },
+    {
+      "t": 114.9,
+      "text": "every time we saw some required feature can be applicable for other countries we decided to deliver this as a global feature adding only",
+      "why_it_matters": "Explains the strategy of creating global features when possible rather than Denmark-only features, maximizing reusability across markets",
+      "check": "exact"
+    },
+    {
+      "t": 353.8,
+      "text": "all new plan features are part of 2023 release wave two but they will not all of them will be available in October they",
+      "why_it_matters": "Critical timeline information - features are in 2023 release wave 2 but phased availability, with full readiness for new calendar year",
+      "check": "exact"
+    },
+    {
+      "t": 405.8,
+      "text": "in Denmark you will be by default enforced to attach purchase document before posting it you cannot post document if you don't attach uh",
+      "why_it_matters": "Specifies the mandatory enforcement of digital voucher attachment for purchases, a key compliance requirement",
+      "check": "exact"
+    },
+    {
+      "t": 805.5,
+      "text": "if you do not register your company in M handle you will not use uh you will not be uh situation to use invoicing",
+      "why_it_matters": "States that NemHandle registration is a blocking requirement for invoicing functionality in Denmark",
+      "check": "exact"
+    },
+    {
+      "t": 927.6,
+      "text": "our system our standard bookkeeping system as a busy Central must support the storage of recorded bookkeeping transactions in digital vouchers for five years",
+      "why_it_matters": "Specifies the five-year immutable storage requirement for transactions, a central compliance obligation",
+      "check": "exact"
+    },
+    {
+      "t": 986.3,
+      "text": "we will not delete your data in your database this is not something Microsoft will do it and uh only what we are talking",
+      "why_it_matters": "Clarifies Microsoft's data retention obligations - customer data stays with customer, only transaction backups are deleted after five years",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 353.8,
+      "kind": "coming-later",
+      "text": "all new plan features are part of 2023 release wave two but they will not all of them will be available in October they will be finishing next minors and ready for the beginning uh new calendar year"
+    },
+    {
+      "t": 893.2,
+      "kind": "preview",
+      "text": "this app is still work in progress and it will be finished soon so it will be ready for the beginning of usage of new BKP G and certification process"
+    },
+    {
+      "t": 1027,
+      "kind": "preview",
+      "text": "this solution will be automatically set up and this is still work in progress uh we are we are finishing the these procedures but it will be on a time as I said for certification"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 5,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0295
+    }
+  ]
+}

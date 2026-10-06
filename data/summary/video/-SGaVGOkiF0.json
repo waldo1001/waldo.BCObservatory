@@ -1,0 +1,27 @@
+{
+  "video_id": "-SGaVGOkiF0",
+  "item_id": "video/yt-microsoft/-SGaVGOkiF0",
+  "summary": "Payment Times Analysis in Business Central (2023 release wave 2) analyzes whether vendor and customer payments happen on or after due dates. It can aggregate by company size or by custom period, and the video demos both, including drill-down, history and printing.",
+  "overview": "The video introduces Payment Times Analysis, a global feature that checks how a company pays its vendors, and optionally how customers pay it, against due dates. It was prompted by Swedish rules requiring companies with 250 or more employees to report payment times for purchases to the Swedish companies registration office. The feature replaces a similar earlier feature in the United Kingdom base app, which was made obsolete.\n\nThe demo covers two aggregation options: by company size, as required in Sweden, and by period, using periods set up in the Payment Periods table. It shows generating the lines, the statistics, drilling down to invoice and payment entries, viewing stored historical data and printing the report.",
+  "key_points": [
+    "Authorities currently require the analysis for vendors only, but the feature lets you choose vendors, customers or both.",
+    "Aggregation by company size is the Swedish requirement; company size must be specified on vendor cards or the vendors are not included in the report.",
+    "Aggregation by period uses periods defined in the Payment Periods table, which must be configured before generating the report.",
+    "Statistics include average agreed payment period, average actual payment period and percentage paid on time; amount-based analysis can replace invoice count where a country prefers it.",
+    "Click generate on the Payment Practices page to collect the data; lines can be drilled into to see invoice and payment entries, dates and amounts.",
+    "Results are stored for historical viewing and can be printed with the layout selected automatically.",
+    "A similar earlier feature in the United Kingdom base app was made obsolete in favor of this global app."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "ea14c353b3a713667052f0e898b7b3aae961c3925c2021f600df6f4e3e8f0790",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0145764
+  }
+}

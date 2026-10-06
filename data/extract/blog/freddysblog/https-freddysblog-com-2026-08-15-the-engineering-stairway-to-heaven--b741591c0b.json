@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/freddysblog/https://freddysblog.com/2026/08/15/the-engineering-stairway-to-heaven",
+  "url": "https://freddysblog.com/2026/08/15/the-engineering-stairway-to-heaven/",
+  "title": "The Engineering Stairway to Heaven",
+  "source": "freddysblog",
+  "published_at": "2026-08-15T06:00:00.000Z",
+  "words": 2663,
+  "summary": "Engineering is evolving through a stairway of six ascending steps, from traditional code-writing to orchestrating systems of AI agents. The post describes how engineers move from doing all work themselves, to prompting, adding context, building harnesses, designing feedback loops, and finally architecting multi-agent graphs. Business Central lags behind in AI tooling and context compared to mainstream development stacks.",
+  "key_points": [
+    "Engineering now includes prompt engineering (asking the AI), context engineering (providing knowledge), harness engineering (giving tools and permissions), loop engineering (designing autonomous cycles), and graph engineering (orchestrating multiple agents).",
+    "Vibe coding (accepting AI output without understanding it) skips essential rigor and only works with guardrails; tools like Lovable embed architectural structure and context handling automatically.",
+    "Business Central developers lack the AI tooling, context, and agent infrastructure that mainstream stacks now offer, requiring community and partner collaboration to close the gap.",
+    "Each step builds on previous ones; classical engineering principles (craftsmanship, architecture, system design) remain foundational at every level, just applied to AI-driven components.",
+    "The stairway is unfinished with emerging steps like evaluation engineering, memory engineering, and environment engineering likely to appear."
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "copilot"
+  ],
+  "topics": [
+    "ai",
+    "engineering",
+    "agents",
+    "architecture",
+    "orchestration",
+    "context",
+    "automation",
+    "tooling"
+  ],
+  "objects": [],
+  "features": [
+    "prompt engineering",
+    "context engineering",
+    "harness engineering",
+    "loop engineering",
+    "graph engineering",
+    "agent orchestration",
+    "multi-agent systems",
+    "autonomous loops"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.013753,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "A mediocre prompt with great context beats a great prompt with no context almost every time.",
+      "why_it_matters": "Emphasizes that context engineering, not clever prompting alone, delivers the real practical value in AI-assisted development."
+    }
+  ]
+}

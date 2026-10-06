@@ -1,0 +1,27 @@
+{
+  "video_id": "tpAh4q3h8T8",
+  "item_id": "video/yt-microsoft/tpAh4q3h8T8",
+  "summary": "Directions EMEA 2023 keynote demoing Business Central tools for developers, consultants and power users: attached debugger from the client, actionable errors, GitHub Copilot, page inspector, Copilot Chat, embedded Power BI visuals, page customization by power users, and AL-GO deployment to production.",
+  "overview": "The keynote walks through an error scenario: telemetry captures errors in the online service, a developer attaches the debugger straight from the client, makes the error actionable, and uses GitHub Copilot to write a better error message. The page inspector and Copilot Chat are then used to find the code behind item tracking and to explain what it checks.\n\nThe second half covers embedding a Power BI visual in a page with a fact box and trigger, and power users adding fields to pages through customization mode without Visual Studio Code. It ends with submitting sandbox changes to a GitHub repository using AL-GO, which runs quality checks and requires peer review before production.",
+  "key_points": [
+    "The debugger can be attached to a session directly from the client, without configuration files, and runs the current project scope.",
+    "Actionable errors let developers add context and suggested actions to error messages.",
+    "The page inspector shows the page name, items and fields from the client and leads to the relevant code. Symbols must be downloaded beforehand.",
+    "GitHub Copilot can generate error messages in the context of the developer's work. The speaker recommends checking the generated code before using it.",
+    "Embedding a Power BI visual needs a fact box, a trigger, and the report ID and visual ID. The BC samples documentation has examples.",
+    "Power users can add fields in customization mode without code, but an admin must give them permission to invoke the customization action.",
+    "Sandbox code cannot be copied directly to production. Changes go through a GitHub repository with AL-GO, which runs quality checks and needs peer review."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "2f61d4ab90fd56c33db207158742c06ffccb6a571fe870b557e8f5a0752ac2c9",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0170924
+  }
+}

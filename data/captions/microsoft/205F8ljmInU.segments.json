@@ -1,0 +1,328 @@
+{
+  "video_id": "205F8ljmInU",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 20.4,
+      "end": 31.8,
+      "text": "welcome the busy Center lunch event and our session about what is new related with new denish bookkeeping act and B Central where my colleague Alexander and I will try to explain all those"
+    },
+    {
+      "t": 31.8,
+      "end": 52.2,
+      "text": "details um I will start first with a short introduction and continue with what we already have inside the business center from all those requirements as this is something we didn't change at all uh but after that I will continue with new planed features as I said some of them are already finished so my colleague"
+    },
+    {
+      "t": 52.2,
+      "end": 72.4,
+      "text": "Alexander will show some of them okay uh from 2022 when this new L was approved we were active investigating what to do and how to adjust BS Center related with these requirements even the guidelines are not so clear in many situation we are dedicated to certify our solution"
+    },
+    {
+      "t": 72.4,
+      "end": 94.6,
+      "text": "against new Dage bookkeeping act what is important to know Microsoft register Beil Central Cloud version in the first wave and solution will be certified as a standard solution as is this is what part Microsoft deliver without customizations now I will go more in details to explain the process and what we did as well as what we are still"
+    },
+    {
+      "t": 94.6,
+      "end": 114.9,
+      "text": "doing okay first thing first as I already mentioned Microsoft is committed to provide full compliance to all our customers globally so this is applicable for Danish customers as well uh Cloud option has an absolute Advantage as there are not so many limitations there because of the following uh this guiding star"
+    },
+    {
+      "t": 114.9,
+      "end": 135,
+      "text": "we are started early with designing and redesigning our solution what is important here every time we saw some required feature can be applicable for other countries we decided to deliver this as a global feature adding only local Danish flavor but for all other changes uh even they are fully local they will be delivered as extensions without"
+    },
+    {
+      "t": 135,
+      "end": 147,
+      "text": "changing W1 base for Danish Market um in this moment we are closing the most of requirement and some of them are already finished but some of them are close to be"
+    },
+    {
+      "t": 147,
+      "end": 159.7,
+      "text": "done uh let's first see what we already have inside the busy Central not everything but what is required with uh Danish bookkeeping act and what we already have inside the bus Central without any"
+    },
+    {
+      "t": 159.7,
+      "end": 179.8,
+      "text": "customization um the standard digital bookkeeping system must contain fields for company to provide information on following matters when record each indidual transaction this is related with transaction date amount receipt number transaction text exchange rate and conversion factor for or um"
+    },
+    {
+      "t": 179.8,
+      "end": 199.8,
+      "text": "currencies not in a local currency not in the Dage crown and when you look in B Central all transaction enter in B Central contain already transaction date amount uh document number uh description is a transaction text and all ENT general ledger um transactions are start stored in um exclusively in"
+    },
+    {
+      "t": 199.8,
+      "end": 214,
+      "text": "a local currency and if original do uh if original document has currency other than Danish Crown this information exists in subledger connected with general ledger entry for example customer Ledger entry vendor Ledger entry"
+    },
+    {
+      "t": 214,
+      "end": 234.4,
+      "text": "so um then we need to provide uh full audit Trail for recorded transactions what it means system assigns the following registration date for each uh recorded transaction conse transaction number or ID for each recorded transaction initial or similar to the person"
+    },
+    {
+      "t": 234.4,
+      "end": 254.9,
+      "text": "who has a recorded transaction system also save changes to recording what does it mean uh that incorrect entries in a system must be corrected in the new entries and record transaction cannot be changed backdated or deleted and of course in a busy Central and a trail uh record"
+    },
+    {
+      "t": 254.9,
+      "end": 275.1,
+      "text": "is created for every transaction everything is in general ler register upon posting this register they already have created it and even creation time together with user ID as a person who recorded the section for each odit Trail record register you can also find uh you can also find the view number column"
+    },
+    {
+      "t": 275.1,
+      "end": 292,
+      "text": "which specific System created number of general ledger register and of course you cannot delete uh any entries you cannot change date this is already inside so if you want to make some correction you need to uh create new entry uh as a corrected entry"
+    },
+    {
+      "t": 292,
+      "end": 312.8,
+      "text": "stere what else uh the needs to provide bank reconciliation uh is the first part you can see we need to provide minimum one of the options and P Center provide the solution that means this requirement of digital standard bookkeeping system where we need to support possibility of reconciling the company bookkeeping"
+    },
+    {
+      "t": 312.8,
+      "end": 333.2,
+      "text": "with a company bank account it supports Advanced bank reconciliation allowing you to import electronic bank statement in various format including CSV what is mandatory and automatically reconcile them with the back transaction in the system this is first requirement and this is of three uh mandatory what is"
+    },
+    {
+      "t": 333.2,
+      "end": 353.8,
+      "text": "else require the additional requirement that each bank account is linked to an account in a chart of account through a sign a bank account posting group this is already in a bus Central so reconciliation exists for payment and bank accounts and there is already clear difference in the bank accounts Ledger entry for uh um reconcile"
+    },
+    {
+      "t": 353.8,
+      "end": 374.2,
+      "text": "and not reconcile entries now it was shortly what we already had and what we already have in the system now let's make a look in new plan features all new plan features are part of 2023 release wave two but they will not all of them will be available in October they will be finishing"
+    },
+    {
+      "t": 374.2,
+      "end": 385.2,
+      "text": "next minors and ready for the beginning uh new calendar year so we will certify everything on time and you can start using them from the beginning of next"
+    },
+    {
+      "t": 385.2,
+      "end": 405.8,
+      "text": "year what first uh mandatory digital vouchers this is now new Global feature we decided to create this as a global feature in in all other countries it can be voluntarily used but it will be enforcing in Denmark there will be mandatory setup for purchase and sales documents"
+    },
+    {
+      "t": 405.8,
+      "end": 425.8,
+      "text": "but you can set up additional entries as you want to use there are different uh entry types you can choose to set up such as sales document purchase document different type of journals and what it means you in in Denmark you will be by default enforced to attach purchase document before posting it you cannot post document if you"
+    },
+    {
+      "t": 425.8,
+      "end": 446.3,
+      "text": "don't attach uh scan or document or PDF or some kind of purchase document uh related with your purchase invoice or purchase gate memo and in the sales system will automatically create sales documents and attach it because you don't need to create something manually it will be full automation syst will create PDF from your"
+    },
+    {
+      "t": 446.3,
+      "end": 463.1,
+      "text": "U sales invoice or your C whatever and automatically attached to your transaction more about this feature uh you can see in separate session about uh mandatory digital vouchers and I will encourage you to go to watch this session it will be important for"
+    },
+    {
+      "t": 463.1,
+      "end": 483.3,
+      "text": "you now sft sft module is created on the top of our audit file export app uh it contains not only sft export but much more part of this package are Danish public standard chart of account and public standard V chart of account so"
+    },
+    {
+      "t": 483.3,
+      "end": 503.5,
+      "text": "when you run it you will automatically get you will automatically get standard chart of accounts and your obligation is only to map this uh stand public standard chart of account with your existing chart of account in the system eventually uh you can choose to set up then standard chart of account as your main primary chart of account in the system"
+    },
+    {
+      "t": 503.5,
+      "end": 523.6,
+      "text": "if you want but this is not mandatory you can use any type chart of account as a primary and you just need to map it with the public standard chart of account then there is an sft file export as required by the local authorities and we use the same model for export bookkeeping data to r c basis as a"
+    },
+    {
+      "t": 523.6,
+      "end": 543.7,
+      "text": "CSV file so the same model will export both of these sft and CSV file you can just choose which file you want to export and how to configure them and now my colleague Alexander will show you how you can use it in the practice thank you Alexander first of all to start using soft"
+    },
+    {
+      "t": 543.7,
+      "end": 563.7,
+      "text": "expert you need to map your existing chart of accounts to the standard chart of accounts to do this you open J account mapping page I already created a new document here and then on the left side of the table part we see the list of existing jail"
+    },
+    {
+      "t": 563.7,
+      "end": 577.8,
+      "text": "accounts and for each of them we need to map uh them to the standard chart of accounts this is a list that was pre-approved"
+    },
+    {
+      "t": 577.8,
+      "end": 598.1,
+      "text": "by Danish tax authorities and after we done with this we go to V posting setup for soft and here we need to set the three Fields starting date it's the date from"
+    },
+    {
+      "t": 598.1,
+      "end": 608.6,
+      "text": "which the V posting setup is valid and we also need to set these sales uh and purchase what reporting"
+    },
+    {
+      "t": 608.6,
+      "end": 625.3,
+      "text": "codes these are filled from the list of VT reporting codes that are also predefined uh by Danish tax authorities and then we proceed with the"
+    },
+    {
+      "t": 625.3,
+      "end": 636.4,
+      "text": "expert so we go to audit document we create a new one the exper format is set"
+    },
+    {
+      "t": 636.4,
+      "end": 651.2,
+      "text": "automatically and we select the J account mapping that we created before if necessary we can adjust starting and end date the of the period in which the data will be"
+    },
+    {
+      "t": 651.2,
+      "end": 661.4,
+      "text": "collected and then if you want to collect to our data in the background we can turnone the a parallel processing"
+    },
+    {
+      "t": 661.4,
+      "end": 681.5,
+      "text": "option but in our case we don't need them so we start expert and after it's done download a zip archive with the XML files inside and these"
+    },
+    {
+      "t": 681.5,
+      "end": 702,
+      "text": "files contain our data in the sft format thank you Sasha uh now I want to show more requirements uh now little bit more about name handle notification and registration uh if the company is not registered with name hand registered"
+    },
+    {
+      "t": 702,
+      "end": 722.1,
+      "text": "a notification about that will appear on top screen together with instruction how to register there this is mandatory requirement uh with this new bookkeeping act and now if the company is registered already in M handle busy Center we check if c number in the company information page exist as registered in an M handle and"
+    },
+    {
+      "t": 722.1,
+      "end": 742.2,
+      "text": "if it exists the message will not appear actually it just disappear if previously existed and this company will be marked as a register in M handle uh how does it work business Central is using the API call to verify in the provided CVR number CV number is actually in register number in company information and if this number"
+    },
+    {
+      "t": 742.2,
+      "end": 754.5,
+      "text": "um page exist in the Leger entity in registering M handle uh now we will show this again as a Dem so Alexander will show how it look like in a practice Sasha can you"
+    },
+    {
+      "t": 754.5,
+      "end": 775.2,
+      "text": "continue thank you Alexander when we loging into our business Central tenant we see a notification that the company is not registered in the enm handle service to register our company we open the link in the notification we cck on it the accept customer"
+    },
+    {
+      "t": 775.2,
+      "end": 788.6,
+      "text": "consent and the website for name handle service is opened and here we register our company with its CV number and after we done with the"
+    },
+    {
+      "t": 788.6,
+      "end": 805.5,
+      "text": "registration we return to the business Central we open company information page and we set the company's CV number into the registration no field and after the field is set the notification"
+    },
+    {
+      "t": 805.5,
+      "end": 825.6,
+      "text": "disappears thank you Sasha as you can see this is not so complic ated part but this is mandatory this is required and one more thing if you do not register your company in M handle you will not use uh you will not be uh situation to use invoicing because this is mandatory so you must first register you must have all this information there so you"
+    },
+    {
+      "t": 825.6,
+      "end": 839,
+      "text": "can continue with um uh invoicing and when we are with be voicing more feature uh This Time Again n handle and invoicing uh just natural continuation"
+    },
+    {
+      "t": 839,
+      "end": 859.1,
+      "text": "uh what about that uh invoicing in Denmark will be based on eents core module for our Global Market this is what we are deliver for all countries and on the top of this module user can choose local format obl and P B3 and this additional app would also have connectors to"
+    },
+    {
+      "t": 859.1,
+      "end": 881.2,
+      "text": "the third party access points for documents and message exchange with an M handle that means it will be localization on top of our e document core and I suggest to look in independent session how invoicing works so you can get a clue about completely process as it will be very similar there would not be such a big difference in"
+    },
+    {
+      "t": 881.2,
+      "end": 893.2,
+      "text": "Denmark then it is also requirement that new register standard bookkeeping software must support the reporting of V via Danish tax agency V"
+    },
+    {
+      "t": 893.2,
+      "end": 910.6,
+      "text": "API uh that means busy Central will support V submission in Denmark through Define apis this is uh this app is still work in progress and it will be finished soon so it will be ready for the beginning of usage of new BKP G and certification"
+    },
+    {
+      "t": 910.6,
+      "end": 927.6,
+      "text": "process um and now about storage of transaction in digital vouchers for five years this is probably one of the most controversial requirements but this is one of definitely must to deliver this is definitely obligation we must deliver"
+    },
+    {
+      "t": 927.6,
+      "end": 946,
+      "text": "it that means our system our standard bookkeeping system as a busy Central must support the storage of recorded bookkeeping transactions in digital vouchers for five years and this data must be not changed PD or deleted by user or"
+    },
+    {
+      "t": 946,
+      "end": 966.3,
+      "text": "administrator uh this also means customer cannot delete production company once it is registered and even if customer delete whole environment Microsoft must still keep all those data and provide them to authorities if required this is the law uh if customer is active on our subscription"
+    },
+    {
+      "t": 966.3,
+      "end": 986.3,
+      "text": "all those data exist in a database and customer can provide them to the authorities without any problem but we as a software providers have an obligation to keep these data for five years even if customer go to bankruptcy or stop paying subscription or and change the AP"
+    },
+    {
+      "t": 986.3,
+      "end": 1006.8,
+      "text": "software or try to delete and hide the data on the other side based on gdpr requirements we cannot keep more than required so all data kept by Microsoft after five years will be deleted it is important to explain we will not delete your data in your database this is not something Microsoft"
+    },
+    {
+      "t": 1006.8,
+      "end": 1027,
+      "text": "will do it and uh only what we are talking we will delete uh all data related foret transaction and vouchers backups that means something what Microsoft must keep for author ities we will keep only for five years after your last fiscal year and every time and this is older five years we will"
+    },
+    {
+      "t": 1027,
+      "end": 1045.5,
+      "text": "remove this data keeping uh um jdpr standards uh this solution will be automatically set up and this is still work in progress uh we are we are finishing the these procedures but it will be on a time as I said for certification uh of"
+    },
+    {
+      "t": 1045.5,
+      "end": 1065.5,
+      "text": "product um yeah uh before close this session uh I would like to invite you to actually to watch all session because if I'm not wrong 35 sessions are the really great new functionalities but minimum what is really connected with Danish uh bookkeeping act this is uh session about"
+    },
+    {
+      "t": 1065.5,
+      "end": 1081.2,
+      "text": "using of enforced digital vouchers then introduction to invoicing and what is new legislation localization definitely um I would recommend to watch this session it will be important for all denish companies for other companies as well as but especially for Danish"
+    },
+    {
+      "t": 1081.2,
+      "end": 1101.4,
+      "text": "companies uh yes uh you have few links very important for bus Central if you cannot remember all of them try not to forget uh AKA Ms bco all because you can find all important links there so definitely try to not to forget this link and yes uh"
+    },
+    {
+      "t": 1101.4,
+      "end": 1122,
+      "text": "I would like to say thank you I hope we demystify all details related with new Dage bookkeeping act and clarify some details um yeah I hope but definitely probably some uh new questions will appear and I'm inviting you to uh log in for our Q&A session where Sasha and I"
+    },
+    {
+      "t": 1122,
+      "end": 1142,
+      "text": "uh will try to explain all details about maybe some missing topics so uh it will be yes October 11th so please uh join the q& session and we will try to uh clarify and explain all these details one more time thank you and my in"
+    },
+    {
+      "t": 1142,
+      "end": 1143,
+      "text": "name"
+    }
+  ],
+  "markers": [
+    {
+      "t": 2.09,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2782
+}

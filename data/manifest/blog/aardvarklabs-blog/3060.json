@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/08/14/getting-started-with-ai-for-rapid-software-development-for-business-central/",
   "published_at": "2026-08-14T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:41:53.664Z",
+      "path": "vault:posts/aardvarklabs-blog/3060.md",
+      "words": 4545
+    },
+    "extracted": {
+      "at": "2026-10-06T21:42:05.130Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.021866
+    },
+    "summarized": {
+      "at": "2026-10-06T21:42:05.131Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:42:05.132Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:42:05.136Z",
+      "path": "content/posts/aardvarklabs-blog/3060.md"
     }
   },
   "input_hash": "2026-08-29T17:27:02.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "420eaff6ff2b8e3446143e5feb591e25f74b70ca1662bb5d6039ff22817217d0"
 }

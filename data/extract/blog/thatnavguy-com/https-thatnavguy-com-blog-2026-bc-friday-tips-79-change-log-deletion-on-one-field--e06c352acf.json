@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-79-change-log-deletion-on-one-field/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-79-change-log-deletion-on-one-field/",
+  "title": "BC Friday Tips #79 Change Log Deletion on One Field",
+  "source": "thatnavguy-com",
+  "published_at": "2026-08-14T00:00:00.000Z",
+  "words": 113,
+  "summary": "Enabling deletion logging on a single primary key field is sufficient to track who deleted a record in Business Central, avoiding unnecessary duplicate Change Log entries. This approach keeps the change log smaller and easier to review.",
+  "key_points": [
+    "Enable deletion logging on only one field in the primary key to capture deletion information",
+    "Enabling logging on multiple fields creates redundant Change Log entries with duplicate information",
+    "A smaller, cleaner change log makes investigation and troubleshooting easier",
+    "Single-field logging approach provides the same deletion tracking result with less configuration noise"
+  ],
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "change log",
+    "deletion logging",
+    "audit trail",
+    "data configuration",
+    "performance optimization"
+  ],
+  "objects": [],
+  "features": [
+    "Change Log deletion tracking",
+    "audit logging"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003951,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "If you enable deletion logging for every field, Business Central can create many unnecessary Change Log entries.",
+      "why_it_matters": "Explains the problem of over-configuration that leads to bloated audit logs"
+    },
+    {
+      "text": "Business Central can still capture who deleted the record.",
+      "why_it_matters": "Confirms that single-field logging provides sufficient deletion tracking capability"
+    }
+  ]
+}

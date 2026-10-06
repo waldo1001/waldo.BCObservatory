@@ -7,13 +7,39 @@
   "url": "https://freddysblog.com/2026/08/15/the-engineering-stairway-to-heaven/",
   "published_at": "2026-08-15T06:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:41:49.721Z",
+      "path": "vault:posts/freddysblog/https-freddysblog-com-2026-08-15-the-engineering-stairway-to-heaven--b741591c0b.md",
+      "words": 2663
+    },
+    "extracted": {
+      "at": "2026-10-06T21:41:59.621Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.013753
+    },
+    "summarized": {
+      "at": "2026-10-06T21:41:59.622Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:41:59.623Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:41:59.626Z",
+      "path": "content/posts/freddysblog/https-freddysblog-com-2026-08-15-the-engineering-stairway-to-heaven--b741591c0b.md"
     }
   },
   "input_hash": "2026-08-15T06:00:00.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "abb12d3c373a392566292dde3bdb59b588273c7be7e7188feb57d279428a9a60"
 }

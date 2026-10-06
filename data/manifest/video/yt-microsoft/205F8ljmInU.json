@@ -5,12 +5,60 @@
   "tier": "official",
   "title": "What's New: The Danish Bookkeeping Act (2023 release wave 2)",
   "url": "https://www.youtube.com/watch?v=205F8ljmInU",
-  "published_at": null,
+  "published_at": "2023-12-11T16:20:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:41:52.103Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1143
+    },
+    "captioned": {
+      "at": "2026-10-06T21:41:57.680Z",
+      "path": "data/captions/microsoft/205F8ljmInU.vtt",
+      "vtt_sha256": "1861d1f9407d3b0a079aa5993bf512d22d31f67013782cf50107d00bf5f0acae",
+      "segments": 63,
+      "words": 2782,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:42:29.978Z",
+      "path": "data/extract/video/205F8ljmInU.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 7,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.0295
+    },
+    "summarized": {
+      "at": "2026-10-06T21:42:36.942Z",
+      "path": "data/summary/video/205F8ljmInU.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0182604
+    },
+    "linked": {
+      "at": "2026-10-06T21:42:36.944Z",
+      "systems": [
+        "finance",
+        "localization",
+        "integration"
+      ],
+      "topics": 10,
+      "objects_as_heard": 4
+    },
+    "published": {
+      "at": "2026-10-06T21:42:36.956Z",
+      "path": "content/videos/205F8ljmInU.md"
     }
   },
   "input_hash": null,
@@ -19,7 +67,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 493,
-    "duration_s": 1144,
-    "via": "reconcile"
-  }
+    "duration_s": 1143,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "51fee4922ce4e7c0ab29ff4f1f0d0e727d7dfb804db566e10728783251b7f15e"
 }

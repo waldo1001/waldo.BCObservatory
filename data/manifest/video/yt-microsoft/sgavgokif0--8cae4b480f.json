@@ -5,12 +5,60 @@
   "tier": "official",
   "title": "Introducing Payment Times Analysis in Business Central (2023 release wave 2)",
   "url": "https://www.youtube.com/watch?v=-SGaVGOkiF0",
-  "published_at": null,
+  "published_at": "2023-12-11T16:15:28.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:42:04.038Z",
+      "captions": "auto:en-orig",
+      "duration_s": 528
+    },
+    "captioned": {
+      "at": "2026-10-06T21:42:15.776Z",
+      "path": "data/captions/microsoft/-SGaVGOkiF0.vtt",
+      "vtt_sha256": "f9acfa012f81914b1d131d1c2b5bbd1284cc281acbb28118c8a8511aef05507e",
+      "segments": 28,
+      "words": 1296,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:42:39.229Z",
+      "path": "data/extract/video/-SGaVGOkiF0.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 7,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.021086
+    },
+    "summarized": {
+      "at": "2026-10-06T21:42:45.952Z",
+      "path": "data/summary/video/-SGaVGOkiF0.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0145764
+    },
+    "linked": {
+      "at": "2026-10-06T21:42:45.954Z",
+      "systems": [
+        "finance",
+        "purchasing",
+        "sales"
+      ],
+      "topics": 9,
+      "objects_as_heard": 2
+    },
+    "published": {
+      "at": "2026-10-06T21:42:45.965Z",
+      "path": "content/videos/-SGaVGOkiF0.md"
     }
   },
   "input_hash": null,
@@ -19,7 +67,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 494,
-    "duration_s": 529,
-    "via": "reconcile"
-  }
+    "duration_s": 528,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bec84239c2417c76ae4528db6b25802bbbe1d562583c04976586c314582cae61"
 }

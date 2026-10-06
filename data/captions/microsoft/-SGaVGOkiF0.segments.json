@@ -1,0 +1,161 @@
+{
+  "video_id": "-SGaVGOkiF0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 18.4,
+      "end": 30.2,
+      "text": "welcome the busy Central lunch event and our session about payment practices analyzes in a busy centrer where my colleague Vadim and I will try to explain how to use this feature and where it is applicable"
+    },
+    {
+      "t": 30.2,
+      "end": 47.5,
+      "text": "I will start first with a short introduction and continue with specifics required by some countries where it can be used as a regular regulatory feature and then my colleague V will show you different models of usage of this new analyes for payments to vendors and from"
+    },
+    {
+      "t": 47.5,
+      "end": 68,
+      "text": "customers okay let's start um let's first explain what payment times or payment practices analyzes is uh we simply want to analyze how you behave against your vent when it comes to the payments on or after due dates but also how your customers behave against your"
+    },
+    {
+      "t": 68,
+      "end": 88.4,
+      "text": "company you can collect this information on other places but not so structural additionally some countries require payment analyes for your vendors as a regulatory obligation for example each year Swedish companies with 250 and more employees must report Swedish companies registration office that payment times"
+    },
+    {
+      "t": 88.4,
+      "end": 102.8,
+      "text": "they have for purchase is from a company that are smaller than themselves similar acts exist in United Kingdom Australia and New Zealand but in these countries this is not related to the company size"
+    },
+    {
+      "t": 102.8,
+      "end": 113,
+      "text": "so we decided to create this app as a global feature for this kind of reporting as it can be useful in other countries as for some additional"
+    },
+    {
+      "t": 113,
+      "end": 133.3,
+      "text": "analyzis it can become obligatory in other countries but also can be useful for internal analyzis or for audit reporting and as we had a similar feature earlier in United Kingdom Bas app we decided to obsolute this code and deize it extending this functionality with additional features so it can work as a global app"
+    },
+    {
+      "t": 133.3,
+      "end": 153.7,
+      "text": "so result is a new app but also one additional step toward the localization what can we analyze with this new feature my colleague vadin will show it in details but I just want to provide some high level over you users can choose between two different"
+    },
+    {
+      "t": 153.7,
+      "end": 174,
+      "text": "aggregation types per period or per company size per company size is required in Sweden but in other countries he mentioned it is required to provide analyzis per period now so far authorities require this analysis work for vendors only but we decided to extend the feature so you can use for additional"
+    },
+    {
+      "t": 174,
+      "end": 193.5,
+      "text": "analyzis and now you can choose between vendors customers or both of them and when you aggregate report you can get detailed lines but also some good statistics average agreed and actual payment period and percentage paid on"
+    },
+    {
+      "t": 193.5,
+      "end": 213.8,
+      "text": "time now my colleague vadin will show you first analyzes per company size and after that per payment times Bim thanks Alexander uh let me show you how this works in business Central so uh we will navigate to the P practices page where will create a new payment"
+    },
+    {
+      "t": 213.8,
+      "end": 228,
+      "text": "practice header here we have the options that we need to uh consider let's start with the company SE so for this uh we will use a full year of"
+    },
+    {
+      "t": 228,
+      "end": 248,
+      "text": "24 um and we will fill in all the necessary uh data after that you just need to click generate and the line will be generated so the data will be collected the header will be populated with the statistics such as averages and"
+    },
+    {
+      "t": 248,
+      "end": 268.3,
+      "text": "uh particulars are generated where you can see uh uh the statistics for each uh company size so for company size small for example you can see uh average GD payment period and average actual payment period with the percent p in time if you're interested in the particulars"
+    },
+    {
+      "t": 268.3,
+      "end": 288.3,
+      "text": "uh you can always click uh on the numbers where you will see the particular details such as uh what was the invoice entry what was the payment entry relating to that invoice and all the dates uh also the invoice amount Etc uh this will be the particulars for only for this line but if"
+    },
+    {
+      "t": 288.3,
+      "end": 308.6,
+      "text": "you want uh to see the particular spot all the header you can click uh on the headers number here you will see more lines uh all of them that were used for for this header uh this data is stored for historical purposes so you can always come back and see the historical data"
+    },
+    {
+      "t": 308.6,
+      "end": 323.2,
+      "text": "so we did this for the company size uh now let's uh switch it out oh yeah I forgot you can also print it so of course when you need reported you will print it and uh the appropriate layout will be selected"
+    },
+    {
+      "t": 323.2,
+      "end": 343.2,
+      "text": "Etc let's close this one yes so now we can go back and generate one for period uh one thing to mention about the company sizes of course you specify the company sizes uh on the vendor cards and the ones that are specified will be included in this"
+    },
+    {
+      "t": 343.2,
+      "end": 356.5,
+      "text": "report now let's switch to the uh aggregation type period you can see the lines have disappeared because the aggregation type has changed and they are no longer valid uh let's regenerate them"
+    },
+    {
+      "t": 356.5,
+      "end": 376.7,
+      "text": "so here we can see the report uh has generated other lines uh now these are lines uh that are uh related to the periods uh those periods are set up in special table payment periods where you can specify any periods you desire to see in this report but for demonstration purposes"
+    },
+    {
+      "t": 376.7,
+      "end": 396.8,
+      "text": "uh here here are some lines so again as uh with company sizes you can uh drill down into the particulars of each period where you can see which uh payments were included why uh some data on the actual payment days GRE payment days Etc"
+    },
+    {
+      "t": 396.8,
+      "end": 416.9,
+      "text": "um uh one thing to note that in some countries uh they're more interested uh in what amounts from invoices were paid in particular periods and and not the count of the invoices so this this would uh be reflected in this statistic"
+    },
+    {
+      "t": 416.9,
+      "end": 437,
+      "text": "so as we can see here a lot of the invoices were paid uh very fast but amount wise they were not even the 1/3 uh and the bigger invoices are always paid late so this is something we can learn from this one also this uh is applicable for example for we did just did this for"
+    },
+    {
+      "t": 437,
+      "end": 457.4,
+      "text": "customer but we can do the same for uh we just did this for we do the same for customers uh and um yeah this is how you can use the payment uh practices in your business Central now take it away Alexandra thank you Vadim on such a good presentation and"
+    },
+    {
+      "t": 457.4,
+      "end": 477.5,
+      "text": "now we are finishing uh as I like to say this is small feature but very cool and yeah I want to thank you all of you uh for attending this session uh I want to remind you we will have Q&A session so you can go there you can ask whatever you want to hear about this feature if something is missing if you"
+    },
+    {
+      "t": 477.5,
+      "end": 497.5,
+      "text": "want to get more information and before I close this session I want to invite you I want to invite you to watch all sessions on BC lunch event of course but this one what is new legislation localization is Clos connected with um what we presented today so it will be good to to take this session to see all new"
+    },
+    {
+      "t": 497.5,
+      "end": 517.7,
+      "text": "things in legislation localization scope and before I close uh if you need some information about be Central whatever topic is you can easily find one of these links if you cannot remember all of them minimum try to not to forget these in the middle AK msbc all so when you go"
+    },
+    {
+      "t": 517.7,
+      "end": 528,
+      "text": "there you can find all important information all links about V Central so once more thank you for attending this session"
+    }
+  ],
+  "markers": [
+    {
+      "t": 2.09,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.429,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.439,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1296
+}

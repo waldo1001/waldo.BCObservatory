@@ -1,0 +1,89 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/",
+  "url": "https://stefanmaron.com/posts/weekly-recap-2026-08-14/",
+  "title": "Weekly Recap: August 7-14",
+  "source": "stefanmaron-com",
+  "published_at": "2026-08-14T07:30:00.000Z",
+  "words": 1839,
+  "summary": "A weekly recap covering AL Runner v2 improvements closing emulation gaps against real BC, reference suite growth through sandbox-verified testing, bc-code-atlas enhancements for cross-app call graphs with deterministic global IDs, AL-Go fast lane hardening for multi-workflow stability, and compile-time benchmarking showing NuGet-sourced compilation is faster due to smaller dependency caches.",
+  "key_points": [
+    "AL Runner shipped 85 PRs fixing emulation-to-real-BC divergences in rename propagation, calc formulas, test paging, and event dispatch",
+    "Added safety mechanisms like count-baseline floors to prevent silent test vanishing and reclassified permanent gaps from temporary ones",
+    "bc-code-atlas global_id enables cross-instance call graphs by using deterministic identity-based keys independent of indexing",
+    "Fast lane hardening fixed silent build skips in non-PR workflows and missing-package errors in compile-only projects",
+    "Compile benchmarking revealed NuGet folder dependency caches are faster than artifact folders because they only contain actual closure, not all bundled apps"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "al runner",
+    "testing",
+    "code analysis",
+    "ci/cd pipeline",
+    "performance benchmarking",
+    "cross-app integration",
+    "linux support"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "AL Runner"
+    },
+    {
+      "type": "other",
+      "name": "bc-code-atlas"
+    },
+    {
+      "type": "other",
+      "name": "AL-Go"
+    },
+    {
+      "type": "other",
+      "name": "BusinessCentral.AL.Language.Tests"
+    },
+    {
+      "type": "other",
+      "name": "MsDyn365Bc.On.Linux"
+    },
+    {
+      "type": "other",
+      "name": "al-go-compile-bench"
+    }
+  ],
+  "features": [
+    "AL Runner emulation correctness",
+    "Event dispatch with EventSubscriberInstance Manual",
+    "TableRelation rename propagation",
+    "TestPage AutoSplitKey numbering",
+    "Cross-app call graph navigation",
+    "Deterministic global IDs",
+    "AL-Go fast lane multi-workflow support",
+    "TLS reverse proxy support for containers"
+  ],
+  "versions": [
+    "BC 27.x",
+    "BC 28.x"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012947,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "run the corpus against real BC, find a case where the runner and BC disagree, fix it",
+      "why_it_matters": "Explains the systematic approach to closing emulation gaps through measured comparison rather than assumptions"
+    },
+    {
+      "text": "if a measured run disagrees with the assumption, the measurement wins",
+      "why_it_matters": "Illustrates the core testing discipline of validating against real BC behavior as the authoritative reference"
+    }
+  ]
+}

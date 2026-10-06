@@ -1,0 +1,419 @@
+{
+  "video_id": "tpAh4q3h8T8",
+  "item_id": "video/yt-microsoft/tpAh4q3h8T8",
+  "title": "Directions EMEA 2023 Keynote: Business Central saves time for consultants and power users",
+  "duration_s": 1386,
+  "systems": [
+    "development",
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "debugger",
+    "actionable errors",
+    "telemetry",
+    "github copilot",
+    "page inspector",
+    "copilot chat",
+    "power bi embedding",
+    "item tracking",
+    "error messages",
+    "power bi integration",
+    "page customization",
+    "personalization"
+  ],
+  "chapters": [
+    {
+      "title": "Error handling and telemetry in online service",
+      "t_start": 0,
+      "t_end": 121.2
+    },
+    {
+      "title": "Debugging with attached debugger and actionable errors",
+      "t_start": 121.2,
+      "t_end": 291.4
+    },
+    {
+      "title": "Using GitHub Copilot to create better error messages",
+      "t_start": 291.4,
+      "t_end": 468
+    },
+    {
+      "title": "Page inspector and Copilot Chat for item tracking discovery",
+      "t_start": 468,
+      "t_end": 742.4
+    },
+    {
+      "title": "Embedding Power BI visuals in pages",
+      "t_start": 742.4,
+      "t_end": 897.7
+    },
+    {
+      "title": "Implementing the visual embedding feature with code",
+      "t_start": 897.7,
+      "t_end": 975.4
+    },
+    {
+      "title": "Demonstrating Power BI visual integration in action",
+      "t_start": 975.4,
+      "t_end": 1041.2
+    },
+    {
+      "title": "Page customization through personalization for power users",
+      "t_start": 1041.2,
+      "t_end": 1123.4
+    },
+    {
+      "title": "Adding fields to pages in customization mode",
+      "t_start": 1123.4,
+      "t_end": 1225.6
+    },
+    {
+      "title": "Deploying customizations across environments",
+      "t_start": 1225.6,
+      "t_end": 1300.2
+    },
+    {
+      "title": "AL-GO and GitHub integration for production deployment",
+      "t_start": 1300.2,
+      "t_end": 1386
+    }
+  ],
+  "features": [
+    {
+      "name": "Attached debugger from client",
+      "description": "New capability in Business Central release allowing developers to directly attach the debugger to a session from the client without configuration files, running the current project scope.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 141.4,
+      "t_end": 172.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "debugger",
+        "development",
+        "debugging"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Actionable errors",
+      "description": "New feature in Business Central allowing developers to make error messages actionable, providing more context and suggested actions to users when errors occur.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 213.2,
+      "t_end": 291.4,
+      "is_demoed": true,
+      "caveats": [
+        "the developer already started to use this but missed on this error"
+      ],
+      "tags": [
+        "error-messages",
+        "ux",
+        "actionable-errors"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GitHub Copilot integration",
+      "description": "AI-powered code assistance integrated into Business Central development, providing intelligent code suggestions and error message generation in the context of the developer's work.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 273.4,
+      "t_end": 386.6,
+      "is_demoed": true,
+      "caveats": [
+        "recommendation to check the generated code once or twice before using"
+      ],
+      "tags": [
+        "copilot",
+        "ai",
+        "code-generation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Page inspector",
+      "description": "Development tool that allows developers to inspect a page directly from the client, showing page name, items, and fields, enabling quick navigation to the relevant code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 548.6,
+      "t_end": 589.2,
+      "is_demoed": true,
+      "caveats": [
+        "symbols must be downloaded beforehand"
+      ],
+      "tags": [
+        "page-inspector",
+        "development",
+        "debugging"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Copilot Chat for code explanation",
+      "description": "AI assistant feature that can explain complex code segments in natural language, helping developers understand what specific code checks and validations are performing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 639.8,
+      "t_end": 722.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "ai",
+        "code-explanation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Telemetry capture for errors",
+      "description": "Automatic capture of error information in telemetry when users encounter errors in the application, allowing operators to receive notifications and investigate issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 100.8,
+      "t_end": 141.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "monitoring",
+        "error-tracking"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Embedding Power BI visuals in pages",
+      "description": "Capability to select a Power BI visual and embed it directly into a Business Central page without navigating away, keeping the data context within the page. The feature uses a fact box and trigger mechanism requiring report ID and visual ID.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 777.1,
+      "t_end": 975.4,
+      "is_demoed": true,
+      "caveats": [
+        "requires adding a fact box and trigger",
+        "requires finding report ID and visual ID",
+        "Requires BC samples documentation and guidelines"
+      ],
+      "tags": [
+        "power-bi",
+        "reporting",
+        "embedding",
+        "fact box",
+        "visualization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power user page customization without development tools",
+      "description": "Power users with appropriate permissions can add fields to pages directly through the Business Central interface without using Visual Studio Code or writing code. The customization mode provides an intuitive interface with plus buttons and field filtering.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1041.2,
+      "t_end": 1225.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires admin permission to invoke customization action",
+        "Permission-based - not all users can customize by default"
+      ],
+      "tags": [
+        "customization",
+        "personalization",
+        "power users",
+        "fields",
+        "low-code"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "AL-GO integration for deploying customizations to production",
+      "description": "Customizations made in sandbox can be submitted to a GitHub repository empowered by AL-GO, which automates quality checks including code compatibility, performance testing, and peer review before publishing to production environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1245.8,
+      "t_end": 1361.3,
+      "is_demoed": true,
+      "caveats": [
+        "Cannot directly copy code from sandbox to production",
+        "Requires peer review before publishing"
+      ],
+      "tags": [
+        "al-go",
+        "deployment",
+        "github",
+        "automation",
+        "quality assurance",
+        "production"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "item card",
+      "t": 407.4
+    },
+    {
+      "type": "page",
+      "name": "page inspector",
+      "t": 548.6
+    },
+    {
+      "type": "page",
+      "name": "Sales Order",
+      "t": 1041.2
+    },
+    {
+      "type": "page",
+      "name": "Profiles",
+      "t": 1102.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Dimitri",
+      "confidence": "high"
+    },
+    {
+      "name": "Ida",
+      "confidence": "high"
+    },
+    {
+      "name": "Kenny",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mike Morton",
+      "confidence": "medium"
+    },
+    {
+      "name": "Andre",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 60.8,
+      "text": "the last three months the service was super performant highly available resilient loved it today look at this",
+      "why_it_matters": "Establishes the reliability of the online service before introducing development workflow improvements.",
+      "check": "exact"
+    },
+    {
+      "t": 141.4,
+      "text": "release of business central you can actually directly attach the debugger to this session from the client",
+      "why_it_matters": "Key new capability for developers - attached debugger eliminates configuration complexity in debugging workflows.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 233.2,
+      "text": "with this release of business Central I am able to go and make this error actionable",
+      "why_it_matters": "Introduces actionable errors feature that improves developer and end-user experience by providing contextual error information.",
+      "check": "exact"
+    },
+    {
+      "t": 328,
+      "text": "this is exactly directly in the context of what I'm trying to do which is the item and it's already done for me",
+      "why_it_matters": "Demonstrates how AI context-awareness improves developer productivity in code generation.",
+      "check": "exact"
+    },
+    {
+      "t": 548.6,
+      "text": "summon the page inspector we are summoning many many nice great Technologies today",
+      "why_it_matters": "Highlights the page inspector tool as a key development capability for efficient debugging.",
+      "check": "exact"
+    },
+    {
+      "t": 681.3,
+      "text": "you see AI is the only thinking as well it's not only me and you",
+      "why_it_matters": "Emphasizes the collaborative nature of AI-assisted development in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 817.2,
+      "text": "with this release of Business Center you can go to a report select the visual that you love and directly put it in the",
+      "why_it_matters": "Enables embedding of analytics directly in operational pages, reducing navigation and context-switching.",
+      "check": "snapped"
+    },
+    {
+      "t": 877.7,
+      "text": "I need to add a fact box and a trigger to initiate it just like that so but to initiate that trigger what should",
+      "why_it_matters": "Specifies the technical requirements and minimal implementation steps needed for the feature, showing the low complexity barrier.",
+      "check": "exact"
+    },
+    {
+      "t": 1082.3,
+      "text": "you as the customer can go ahead yourself absolutely you can go and at the field I can guide you through for the first",
+      "why_it_matters": "Demonstrates that power users can now perform customizations without developer involvement, marking a shift in who can modify pages.",
+      "check": "exact"
+    },
+    {
+      "t": 1102.9,
+      "text": "I have as your admin give you permission yep to invoke this action that's important because you are you know you are Dimitri you",
+      "why_it_matters": "Shows that customization permissions are role-based and granted selectively by administrators to designated power users.",
+      "check": "snapped"
+    },
+    {
+      "t": 1300.2,
+      "text": "go and submit all these changes that I have to the same safe and secure Cloud repository in GitHub it is empowered by algo",
+      "why_it_matters": "Explains the AL-GO workflow for safe deployment, emphasizing automated quality checks before code reaches production.",
+      "check": "exact"
+    },
+    {
+      "t": 1320.6,
+      "text": "it will do all the processes all the automation that I need to do to ensure the high quality of the code is it",
+      "why_it_matters": "Details the specific automated checks AL-GO performs, including version compatibility and performance regression detection.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 837.5,
+      "kind": "subject-to-change",
+      "text": "all you need to do is to go to the BCT Tech and there very nice samples available"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 12,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024352
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019555999999999997
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013555000000000001
+    }
+  ]
+}
