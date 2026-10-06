@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-checklist-submission.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission",
+  "title": "Technical validation checklist",
+  "blob": "ecd74c3c7442f9ad3c1f67d599241af2056736c2",
+  "summary": "Technical validation checklist outlines mandatory requirements for Business Central extensions before Marketplace submission and describes how validation is performed, including self-validation using BcContainerHelper and AppSourceCop analysis.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "marketplace submission",
+    "technical validation",
+    "extension development",
+    "appsourcecop",
+    "validation pipeline"
+  ],
+  "objects": [],
+  "features": [
+    "technical validation checklist",
+    "manifest validation",
+    "affix registration",
+    "digital code signing",
+    "permission sets",
+    "extension publishing",
+    "translation files",
+    "AppSourceCop analyzer",
+    "application area guidance",
+    "app id uniqueness"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 6
+    }
+  ]
+}

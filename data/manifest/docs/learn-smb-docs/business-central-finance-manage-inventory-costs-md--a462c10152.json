@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-inventory-costs",
   "published_at": "2026-07-23T12:26:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "aec8b44af8cc01353710fcd5cc8c0b9fd21b3842",
       "words": 974,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:15:00.324Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T16:15:00.343Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:15:00.345Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:15:00.346Z",
+      "page": false
     }
   },
   "input_hash": "aec8b44af8cc01353710fcd5cc8c0b9fd21b3842",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "aec8b44af8cc01353710fcd5cc8c0b9fd21b3842"
+  "output_hash": "08e9e0f7af1298c178de41e257a99c4d7c5724ed685ad77dfdc244d770a75772"
 }

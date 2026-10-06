@@ -1,0 +1,69 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/payables-how-assign-item-charges.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-assign-item-charges",
+  "title": "Use item charges to account for extra trade costs",
+  "blob": "f465e566c0d5551936868b8611f9ee62246833fa",
+  "summary": "Item charges account for additional trade costs like freight, insurance, and customs duties by assigning them to purchase or sales documents. Use this to calculate landed costs, ensure accurate inventory valuation, and track true profitability.",
+  "systems": [
+    "inventory",
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "landed costs",
+    "item charges",
+    "freight costs",
+    "inventory valuation",
+    "cost assignment",
+    "profitability analysis"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Charges"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Item Charge Assignment"
+    },
+    {
+      "type": "page",
+      "name": "Item Charge Assignment (Purch.)"
+    },
+    {
+      "type": "page",
+      "name": "Item Charge Assignment (Sales)"
+    },
+    {
+      "type": "report",
+      "name": "Item Charges - Specification"
+    },
+    {
+      "type": "report",
+      "name": "Cost Shares Breakdown"
+    }
+  ],
+  "features": [
+    "item charge assignment",
+    "landed cost calculation",
+    "charge distribution",
+    "cost of goods sold impact",
+    "variance posting",
+    "non-inventoriable charges"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 8
+    }
+  ]
+}

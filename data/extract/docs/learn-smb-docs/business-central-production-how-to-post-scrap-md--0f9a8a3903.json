@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-to-post-scrap.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-post-scrap",
+  "title": "Post scrap manually",
+  "blob": "63fb7349793a4838f3887e3b0ddd2d8705c247e6",
+  "summary": "Post scrap manually records quantities processed but not qualifying as finished output, separating good output from production losses. Use this to enter scrap quantities and reason codes in the output journal.",
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "scrap posting",
+    "production losses",
+    "output recording",
+    "scrap codes",
+    "operation tracking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Output Journal"
+    }
+  ],
+  "features": [
+    "manual scrap posting",
+    "scrap quantity recording",
+    "scrap codes",
+    "loss tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 8
+    }
+  ]
+}

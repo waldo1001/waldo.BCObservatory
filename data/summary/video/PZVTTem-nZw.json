@@ -1,0 +1,27 @@
+{
+  "video_id": "PZVTTem-nZw",
+  "item_id": "video/yt-hougaard/PZVTTem-nZw",
+  "summary": "Table extension storage in Business Central 29 and cross-app keys. Extension fields now sit in a single SQL table alongside the base table, which allows keys that mix base table fields with fields from extensions in different apps. Requires runtime 18 and platform 29.",
+  "overview": "Erik Hougaard walks through how table extension storage has changed from NAV through Business Central. Earlier versions used a separate table per app. A later change (around BC24, version uncertain) moved all app fields into one extra table per base table and added load fields to cut join cost.\n\nIn BC29, table extensions are no longer stored in separate tables. The video demonstrates creating a table extension with a key that combines base table fields and extension fields from different apps, which was not possible in BC12 to BC28. It also covers the expected performance impact and practical limitations of the new approach.",
+  "key_points": [
+    "In BC29, table extensions are no longer stored in a separate table per app but in a single SQL table together with the base table.",
+    "Cross-app keys, combining standard table fields with extension fields from different apps, are possible in BC29 and were not possible in BC12 to BC28.",
+    "The behavior requires runtime 18 and platform 29.",
+    "The SQL column limit is around 1000 fields in the Business Central setup, which limits how many fields can be stored.",
+    "Compact extension storage (around BC24, version uncertain) reduced joins to two tables but did not support cross-app keys.",
+    "Load fields let developers choose which fields to retrieve, but it is hard to predict which fields can safely be excluded.",
+    "The video touches on uninstalling an app and deleting its data when it is the only app extending a table."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "c26cf272805513e5bd5b6e57b92c9e9505d04781e64a72f291587f85c252b670",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": true,
+    "cost_usd": null
+  }
+}

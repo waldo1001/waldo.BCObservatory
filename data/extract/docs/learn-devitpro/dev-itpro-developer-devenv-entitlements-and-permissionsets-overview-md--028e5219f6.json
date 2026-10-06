@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview",
+  "title": "Entitlements and permission sets overview",
+  "blob": "fd6f538a675e9222af35f9e8e6354986108ae5c4",
+  "summary": "Entitlements and permission sets overview explains the difference between entitlements (license-based access), permissions (administrator-assigned access), and permission sets (logical groups), plus upgrade considerations from versions prior to 18.0.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "entitlements",
+    "permission sets",
+    "permissions",
+    "licensing",
+    "access control",
+    "upgrade"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Permission Set"
+    },
+    {
+      "type": "table",
+      "name": "Permission"
+    },
+    {
+      "type": "table",
+      "name": "Entitlement"
+    }
+  ],
+  "features": [
+    "entitlement types",
+    "permission set scopes",
+    "system permission sets",
+    "user-defined permission sets",
+    "al object permissions"
+  ],
+  "versions": [
+    "version 18.0",
+    "2021 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 6
+    }
+  ]
+}

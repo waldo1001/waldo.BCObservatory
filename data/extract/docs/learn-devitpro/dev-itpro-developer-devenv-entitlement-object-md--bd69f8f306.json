@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-entitlement-object.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-entitlement-object",
+  "title": "Entitlement object",
+  "blob": "d9355d6042d79c29c66397734d06f12b9eba25bd",
+  "summary": "Entitlement object documentation describes how entitlements define which Business Central objects customers can use based on purchased licenses or Microsoft Entra roles, supporting transactability for Marketplace apps.",
+  "systems": [
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "entitlements",
+    "licensing",
+    "permission sets",
+    "marketplace transactability",
+    "microsoft entra roles"
+  ],
+  "objects": [
+    {
+      "type": "enum",
+      "name": "Entitlement"
+    }
+  ],
+  "features": [
+    "role-based entitlements",
+    "per-user offer plans",
+    "unlicensed entitlements",
+    "microsoft entra group entitlements",
+    "application scope entitlements",
+    "marketplace app monetization"
+  ],
+  "versions": [
+    "2023 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 6
+    }
+  ]
+}

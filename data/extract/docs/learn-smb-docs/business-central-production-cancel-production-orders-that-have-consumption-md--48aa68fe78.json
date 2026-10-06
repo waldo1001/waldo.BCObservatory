@@ -1,0 +1,76 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-cancel-production-orders-that-have-consumption.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-cancel-production-orders-that-have-consumption",
+  "title": "Reverse and correct production order transactions",
+  "blob": "7c845b7cd0b7d9fadba5c83fd83a64ece8729574",
+  "summary": "Reverse and correct production order transactions by undoing consumption, output, or subcontracting receipts to maintain accurate inventory and financial records. Use this to handle mistakes, scrap scenarios, and reopen finished orders.",
+  "systems": [
+    "manufacturing",
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "production order reversal",
+    "consumption reversal",
+    "output reversal",
+    "scrap handling",
+    "order status management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Released Production Order"
+    },
+    {
+      "type": "page",
+      "name": "Item Ledger entries"
+    },
+    {
+      "type": "page",
+      "name": "Capacity Ledger entries"
+    },
+    {
+      "type": "page",
+      "name": "Output Journal"
+    },
+    {
+      "type": "page",
+      "name": "Manufacturing Setup"
+    },
+    {
+      "type": "page",
+      "name": "Change production order status"
+    },
+    {
+      "type": "page",
+      "name": "Finished Production Orders"
+    },
+    {
+      "type": "page",
+      "name": "General Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Posted Purchase Receipt"
+    }
+  ],
+  "features": [
+    "reverse production transactions",
+    "undo subcontracting receipts",
+    "finish order without output",
+    "reopen finished orders",
+    "WIP write-off",
+    "inventory adjustment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 8
+    }
+  ]
+}

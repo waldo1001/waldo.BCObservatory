@@ -1,0 +1,66 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-manage-inventory-costs.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-manage-inventory-costs",
+  "title": "Managing inventory costs",
+  "blob": "aec8b44af8cc01353710fcd5cc8c0b9fd21b3842",
+  "summary": "Managing inventory costs involves recording and reporting business operating costs, including costing methods, cost adjustment, and reconciliation with the general ledger. Use this when you need to set up inventory costing, manage landed costs, and ensure accurate cost valuation.",
+  "systems": [
+    "inventory",
+    "finance",
+    "manufacturing"
+  ],
+  "topics": [
+    "costing methods",
+    "inventory valuation",
+    "cost adjustment",
+    "cost accounting",
+    "landed costs",
+    "general ledger posting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables"
+    },
+    {
+      "type": "page",
+      "name": "Rounding Method"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    }
+  ],
+  "features": [
+    "costing methods",
+    "inventory periods",
+    "cost adjustment",
+    "automatic cost posting",
+    "expected cost posting",
+    "average cost calculation",
+    "item revaluation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 8
+    }
+  ]
+}

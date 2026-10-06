@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-faq",
   "published_at": "2026-08-04T13:24:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4e3943034880fac41004a43a0b929da14bd9585b",
       "words": 6174,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:15:00.220Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T16:15:00.233Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:15:00.233Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:15:00.234Z",
+      "page": false
     }
   },
   "input_hash": "4e3943034880fac41004a43a0b929da14bd9585b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4e3943034880fac41004a43a0b929da14bd9585b"
+  "output_hash": "731eea5b943cbf140bcfe951d9fc7c486c692511249634e3fff14108482bf4bf"
 }

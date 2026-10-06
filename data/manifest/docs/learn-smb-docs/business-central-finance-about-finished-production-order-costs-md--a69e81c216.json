@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-about-finished-production-order-costs",
   "published_at": "2026-07-17T14:25:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d67a2a28d5197e9f2e983fb7d2711da48b337332",
       "words": 213,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T16:15:00.331Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T16:15:00.355Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:15:00.357Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:15:00.358Z",
+      "page": false
     }
   },
   "input_hash": "d67a2a28d5197e9f2e983fb7d2711da48b337332",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d67a2a28d5197e9f2e983fb7d2711da48b337332"
+  "output_hash": "86f72bc808f865c1e9dc8aef9ad76df76acaab2634a56a56f693b82bebf7977b"
 }

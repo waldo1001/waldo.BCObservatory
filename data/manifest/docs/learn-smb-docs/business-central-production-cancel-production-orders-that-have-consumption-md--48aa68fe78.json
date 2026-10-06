@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-cancel-production-orders-that-have-consumption",
   "published_at": "2026-07-17T14:25:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7c845b7cd0b7d9fadba5c83fd83a64ece8729574",
       "words": 833,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T16:15:00.333Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 9,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T16:15:00.360Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:15:00.361Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:15:00.362Z",
+      "page": false
     }
   },
   "input_hash": "7c845b7cd0b7d9fadba5c83fd83a64ece8729574",
@@ -61,5 +80,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7c845b7cd0b7d9fadba5c83fd83a64ece8729574"
+  "output_hash": "36ecea60f0734fa24a8f1866e0156f16446f47d73835c6023e2902a78da32fb0"
 }

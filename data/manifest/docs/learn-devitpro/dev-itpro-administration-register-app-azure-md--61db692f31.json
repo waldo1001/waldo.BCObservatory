@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/register-app-azure",
   "published_at": "2026-07-30T22:07:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e189ec6489c3440aa9c838c97bff337b13f5bf49",
       "words": 1949,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:15:00.231Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T16:15:00.248Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:15:00.249Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:15:00.250Z",
+      "page": false
     }
   },
   "input_hash": "e189ec6489c3440aa9c838c97bff337b13f5bf49",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e189ec6489c3440aa9c838c97bff337b13f5bf49"
+  "output_hash": "3a26dadde00ecb1fbe8b1b1e0f2e6ca64a3bb8616623d035b83c00f0341c2168"
 }

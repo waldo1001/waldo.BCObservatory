@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-how-assign-item-charges",
   "published_at": "2026-07-23T12:26:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f465e566c0d5551936868b8611f9ee62246833fa",
       "words": 2041,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T16:15:00.328Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T16:15:00.348Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:15:00.352Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:15:00.353Z",
+      "page": false
     }
   },
   "input_hash": "f465e566c0d5551936868b8611f9ee62246833fa",
@@ -64,5 +83,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f465e566c0d5551936868b8611f9ee62246833fa"
+  "output_hash": "ad8db617a3f675081bd15542d3b1ae073e5fea0fd0f2d9146c0c6071e22addee"
 }

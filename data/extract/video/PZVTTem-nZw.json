@@ -1,0 +1,250 @@
+{
+  "video_id": "PZVTTem-nZw",
+  "item_id": "video/yt-hougaard/PZVTTem-nZw",
+  "title": "Creating TableExtensions in BC29 like we're back in NAV (But Business Central)",
+  "duration_s": 746,
+  "systems": [
+    "development",
+    "platform",
+    "finance"
+  ],
+  "topics": [
+    "table extensions",
+    "cross-app keys",
+    "sql performance",
+    "extension storage",
+    "field storage",
+    "al development",
+    "app uninstalling"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and BC29 table extensions overview",
+      "t_start": 0,
+      "t_end": 62.9
+    },
+    {
+      "title": "History: NAV to BC extension storage evolution",
+      "t_start": 62.9,
+      "t_end": 145.9
+    },
+    {
+      "title": "Performance optimization with compact storage and load fields",
+      "t_start": 145.9,
+      "t_end": 236.3
+    },
+    {
+      "title": "Cross-app keys limitation and BC29 solution",
+      "t_start": 236.3,
+      "t_end": 311.8
+    },
+    {
+      "title": "Demonstration: creating table extensions with cross-app keys",
+      "t_start": 311.8,
+      "t_end": 475.1
+    },
+    {
+      "title": "Impact on performance and workarounds no longer needed",
+      "t_start": 475.1,
+      "t_end": 562.3
+    },
+    {
+      "title": "Practical challenges and limitations of the new approach",
+      "t_start": 562.3,
+      "t_end": 694.4
+    },
+    {
+      "title": "Conclusion and wrap-up",
+      "t_start": 694.4,
+      "t_end": 746
+    }
+  ],
+  "features": [
+    {
+      "name": "Table extensions stored in single SQL table",
+      "description": "In BC29, table extensions are no longer stored in separate tables per app but consolidated into a single SQL table alongside the base table, improving performance and enabling cross-app key support.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 288.3,
+      "t_end": 311.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires runtime 18 and platform 29",
+        "SQL column limit around 1000 fields"
+      ],
+      "tags": [
+        "table extensions",
+        "sql storage",
+        "performance",
+        "cross-app"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Cross-app keys in table extensions",
+      "description": "BC29 now enables creation of keys that combine standard base table fields with extension fields from different apps, solving a long-standing limitation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 247.2,
+      "t_end": 311.8,
+      "is_demoed": true,
+      "caveats": [
+        "Previously impossible in BC12-BC28"
+      ],
+      "tags": [
+        "cross-app keys",
+        "filtering",
+        "table extensions",
+        "ledger entries"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Load fields for selective field retrieval",
+      "description": "Feature introduced in BC24 (exact version uncertain) allowing developers to specify which fields to load in queries to optimize joins between extension tables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 145.9,
+      "t_end": 190.9,
+      "is_demoed": false,
+      "caveats": [
+        "Difficult to predict which fields can be safely excluded"
+      ],
+      "tags": [
+        "performance",
+        "query optimization",
+        "field loading"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Compact extension table storage",
+      "description": "Storage mechanism introduced around BC24 that consolidates all app extension fields into a single extra table per base table, reducing join complexity from many tables to just two.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 212.5,
+      "t_end": 236.3,
+      "is_demoed": false,
+      "caveats": [
+        "No cross-app key support until BC29"
+      ],
+      "tags": [
+        "compact storage",
+        "performance",
+        "sql joins"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "customer table",
+      "t": 448.2
+    },
+    {
+      "type": "table",
+      "name": "table 36",
+      "t": 119.6
+    },
+    {
+      "type": "table",
+      "name": "table 37",
+      "t": 119.6
+    },
+    {
+      "type": "table",
+      "name": "sales head",
+      "t": 119.6
+    },
+    {
+      "type": "table",
+      "name": "sales lines",
+      "t": 119.6
+    },
+    {
+      "type": "table",
+      "name": "customer ledger entries",
+      "t": 277
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 23.4,
+      "text": "table extensions are no longer stored in the separate table",
+      "why_it_matters": "This is the core architectural change in BC29 that enables new functionality and improves performance.",
+      "check": "exact"
+    },
+    {
+      "t": 247.2,
+      "text": "Microsoft never got around to support cross app uh keys. And and when I say cross app, I I the the main use case",
+      "why_it_matters": "Explains the specific problem that BC29 solves for developers working with extension tables.",
+      "check": "exact"
+    },
+    {
+      "t": 288.3,
+      "text": "now we arrive at BC 29 and Microsoft has added so we have the base table and we have the table with with the",
+      "why_it_matters": "Confirms the new unified storage model that is the foundation for cross-app key support.",
+      "check": "exact"
+    },
+    {
+      "t": 475.1,
+      "text": "we couldn't do this before and this will have a big impact on on",
+      "why_it_matters": "Indicates the significance of cross-app key functionality for existing BC implementations.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 576.6,
+      "text": "when you uninstall an app and ask to delete data if you're the only app that is extending a table, then you know, Microsoft",
+      "why_it_matters": "Explains a behavioral change in app uninstalling that could impact deployment procedures.",
+      "check": "exact"
+    },
+    {
+      "t": 628.9,
+      "text": "The number of fields and the columns in in in in sequel is around a thousand in the setup Business Central is running",
+      "why_it_matters": "Defines a practical limit developers should be aware of when extending multiple tables.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 201.5,
+      "kind": "subject-to-change",
+      "text": "with BC, I can't even remember I think it was BC 24. Don't quote me on the number here"
+    },
+    {
+      "t": 348.2,
+      "kind": "subject-to-change",
+      "text": "if we're not on runtime 18 and if you're not on a uh in reality platform 29 uh you're not getting this"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

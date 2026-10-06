@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-post-consumption",
   "published_at": "2026-07-17T14:25:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2d5ec95e7f4c0af664515255639441f8229543e8",
       "words": 367,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T16:15:00.336Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T16:15:00.367Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:15:00.368Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:15:00.369Z",
+      "page": false
     }
   },
   "input_hash": "2d5ec95e7f4c0af664515255639441f8229543e8",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2d5ec95e7f4c0af664515255639441f8229543e8"
+  "output_hash": "2738bd62b82fd01873bd24e1cda92dbbbe1ab175c257ec25230881cc89b145a3"
 }

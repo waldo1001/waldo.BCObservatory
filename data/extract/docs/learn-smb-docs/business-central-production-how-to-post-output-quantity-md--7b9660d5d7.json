@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-to-post-output-quantity.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-post-output-quantity",
+  "title": "Batch post production output and run times",
+  "blob": "78e1a9534f422adb8d9e146cfc0b861eeff3570e",
+  "summary": "Batch post production output and run times records quantities completed, setup time, and run time for work or machine centers. Use this to update inventory, progress, capacity, and costs for released production orders.",
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "output posting",
+    "run times",
+    "setup times",
+    "scrap tracking",
+    "capacity recording",
+    "production progress"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Output Journal"
+    },
+    {
+      "type": "page",
+      "name": "Production Journal"
+    },
+    {
+      "type": "page",
+      "name": "Stop Codes"
+    },
+    {
+      "type": "page",
+      "name": "Scrap Codes"
+    }
+  ],
+  "features": [
+    "output posting",
+    "run time recording",
+    "scrap posting",
+    "stop codes",
+    "scrap codes",
+    "routing explosion",
+    "item tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 8
+    }
+  ]
+}

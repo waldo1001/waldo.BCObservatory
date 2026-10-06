@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-to-post-consumption.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-post-consumption",
+  "title": "Batch post consumption",
+  "blob": "2d5ec95e7f4c0af664515255639441f8229543e8",
+  "summary": "Batch post production consumption records components used to produce items and reduces available inventory. Use this journal to enter or calculate component usage manually for one or more production order lines.",
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "consumption posting",
+    "component usage",
+    "inventory reduction",
+    "production orders",
+    "flushing methods"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Consumption Journal"
+    },
+    {
+      "type": "page",
+      "name": "Manufacturing Setup"
+    }
+  ],
+  "features": [
+    "consumption posting",
+    "calculate consumption",
+    "flushing methods",
+    "warehouse pick processing",
+    "consumption calculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 8
+    }
+  ]
+}

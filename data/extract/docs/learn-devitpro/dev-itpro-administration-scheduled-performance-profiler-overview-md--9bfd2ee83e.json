@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/scheduled-performance-profiler-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/scheduled-performance-profiler-overview",
+  "title": "Scheduled performance profiler overview",
+  "blob": "846da6c131b1b484575464e40daaee85348d22c3",
+  "summary": "Scheduled performance profiler overview describes how administrators can set up performance profiling schedules to monitor and diagnose slow processes for specific users and activity types, with options for viewing analysis and downloading profiles.",
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "performance profiling",
+    "scheduled profiler",
+    "performance analysis",
+    "debugging",
+    "session monitoring",
+    "mcp server"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Profiler Schedules"
+    },
+    {
+      "type": "page",
+      "name": "Performance Profiles"
+    },
+    {
+      "type": "page",
+      "name": "Performance Profiler"
+    }
+  ],
+  "features": [
+    "profiler schedule creation",
+    "activity recording",
+    "sampling frequency",
+    "activity duration threshold",
+    "profile download",
+    "performance metrics",
+    "correlation id tracking",
+    "memory usage estimation",
+    "ai agent profiling",
+    "mcp server integration"
+  ],
+  "versions": [
+    "runtime 18 (prerelease)",
+    "version 29 (prerelease)"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 6
+    }
+  ]
+}

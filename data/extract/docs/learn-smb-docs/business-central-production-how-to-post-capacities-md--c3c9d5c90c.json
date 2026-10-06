@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-to-post-capacities.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-post-capacities",
+  "title": "Post capacities",
+  "blob": "a9410a7231ec654ff5d21bd57012c30fa0c7bd08",
+  "summary": "Capacity journals record time used by work or machine centers outside production orders for maintenance or internal work. Use this to create capacity ledger entries that reflect both production and nonproduction activities.",
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "capacity posting",
+    "work centers",
+    "machine centers",
+    "capacity ledger entries",
+    "production resources"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Capacity Journals"
+    },
+    {
+      "type": "page",
+      "name": "Work Center Card"
+    },
+    {
+      "type": "page",
+      "name": "Machine Center Card"
+    },
+    {
+      "type": "page",
+      "name": "Capacity Ledger Entries"
+    }
+  ],
+  "features": [
+    "capacity posting",
+    "work center ledger entries",
+    "machine center tracking",
+    "capacity ledger entries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null,
+      "pages_in_call": 8
+    }
+  ]
+}

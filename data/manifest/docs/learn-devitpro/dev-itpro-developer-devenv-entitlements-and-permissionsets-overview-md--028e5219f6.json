@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview",
   "published_at": "2026-08-04T13:24:10.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fd6f538a675e9222af35f9e8e6354986108ae5c4",
       "words": 1211,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T16:15:00.226Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T16:15:00.240Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:15:00.241Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:15:00.241Z",
+      "page": false
     }
   },
   "input_hash": "fd6f538a675e9222af35f9e8e6354986108ae5c4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fd6f538a675e9222af35f9e8e6354986108ae5c4"
+  "output_hash": "46703428b35b33f1b1e0ee7f623d89ae4efa90f7a73e63943c0e080524dfc85c"
 }
