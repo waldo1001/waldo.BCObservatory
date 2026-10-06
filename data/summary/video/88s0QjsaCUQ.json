@@ -1,0 +1,27 @@
+{
+  "video_id": "88s0QjsaCUQ",
+  "item_id": "video/yt-microsoft/88s0QjsaCUQ",
+  "summary": "Business Central sign up context: a URI-encoded parameter in the sign up redirect URL that carries the sign up origin and custom JSON key-value pairs from a website profiler. It covers app ID, country code and EULA requirements for app provisioning, and how apps read the stored context.",
+  "overview": "The video explains how to build a sign up URL for Business Central that includes a redirect URL with a sign up context parameter. The parameter tells Business Central where a sign up came from. It currently supports two scenarios: the Microsoft website (marked as viral) and Shopify. It can also hold JSON key-value pairs that you define from answers collected in a profiler form on your own website, such as interest or previous system.\n\nThe context is stored in a system table in Business Central. Apps can read it on installation, move data to base application tables, and react to it, for example by loading a checklist matched to the profiler answer. If an app ID is included, the app can be provisioned with the Business Central Standard trial, which requires a matching country code and an EULA acceptance flag set to true. The video is a clip from a 2023 release wave 1 launch video that the presenter describes as still relevant.",
+  "key_points": [
+    "The sign up context is a parameter in the redirect URL and must be URI encoded.",
+    "It currently supports two scenarios: Microsoft website (viral) and Shopify.",
+    "You define the JSON key-value pairs yourself, based on what your website profiler form collects.",
+    "The context is stored in a system table; the app must implement logic to read it at install and copy data to base application tables.",
+    "To provision an app, include its app ID (public, from the store listing) in the context.",
+    "The country code must match the customer's Azure AD tenant and be among the app's supported countries, or the app is not provisioned.",
+    "The context must include the EULA acceptance flag set to true, or the API will not load the app."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "functional consultant"
+  ],
+  "extraction_hash": "e30d3c145820ee731a99481854f4c3430560fe2f48b1689de191dde0513e49ae",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.016950399999999997
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-cloud-migration-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-cloud-migration-trace",
+  "title": "Analyzing Cloud migration trace telemetry",
+  "blob": "be221f3dba03c0b050a6bb9374a1eef2f7a5aca6",
+  "summary": "Cloud migration trace telemetry gathers data about replication runs, cloud migration setup, and data upgrade operations, with trace log entries for success and failure of these operations.",
+  "systems": [
+    "administration",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "cloud migration",
+    "telemetry",
+    "replication",
+    "data upgrade",
+    "trace logging",
+    "diagnostics"
+  ],
+  "objects": [],
+  "features": [
+    "replication run tracking",
+    "data upgrade monitoring",
+    "companion table repair",
+    "cloud migration setup",
+    "failure reason logging",
+    "recovery operations"
+  ],
+  "versions": [
+    "2023 release wave 1",
+    "version 22.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011812,
+      "pages_in_call": 1
+    }
+  ]
+}

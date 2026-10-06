@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-data-archive-extension",
   "published_at": "2025-05-06T19:26:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "af602df543df82ca0ffcbc0a17c908740589386d",
       "words": 573,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:36:55.897Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.007635
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:03.585Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:03.586Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:03.587Z",
+      "page": false
     }
   },
   "input_hash": "af602df543df82ca0ffcbc0a17c908740589386d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "af602df543df82ca0ffcbc0a17c908740589386d"
+  "output_hash": "d6c48abb37c191f4fb3916be886760df081bc91922ef240e220ffc25bf5dea86"
 }

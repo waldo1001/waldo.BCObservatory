@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/deprecated-features-mx.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-mx",
+  "title": "Mexican features that are moved, removed, or replaced | Microsoft Docs",
+  "blob": "bedbcdbae05c27a765d8eceaf75e3e3d5074dc2b",
+  "summary": "Mexican local functionality features that have been moved, removed, or replaced in Dynamics 365 Business Central, including customer statement and aged accounts reports replaced with standard versions.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "reporting"
+  ],
+  "topics": [
+    "mexico",
+    "deprecated features",
+    "local functionality",
+    "reports"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer Statement"
+    },
+    {
+      "type": "report",
+      "name": "Standard Statement"
+    },
+    {
+      "type": "report",
+      "name": "Aged Accounts Payable"
+    },
+    {
+      "type": "report",
+      "name": "Aged Accounts Receivable"
+    }
+  ],
+  "features": [
+    "local functionality",
+    "report replacement",
+    "customer statement",
+    "aged accounts reports"
+  ],
+  "versions": [
+    "2019 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007635,
+      "pages_in_call": 7
+    }
+  ]
+}

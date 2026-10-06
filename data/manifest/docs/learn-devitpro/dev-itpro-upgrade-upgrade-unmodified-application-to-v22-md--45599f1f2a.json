@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v22",
   "published_at": "2025-05-06T19:26:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c8c3238ff216e7710b266fdb858be39fdf77eee8",
       "words": 2100,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:37:01.877Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.014717
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:03.605Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:03.606Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:03.606Z",
+      "page": false
     }
   },
   "input_hash": "c8c3238ff216e7710b266fdb858be39fdf77eee8",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c8c3238ff216e7710b266fdb858be39fdf77eee8"
+  "output_hash": "895bfb8c08fbbbe44d5d97efa7172905604f66a27da2b17605066f47dd1486ed"
 }

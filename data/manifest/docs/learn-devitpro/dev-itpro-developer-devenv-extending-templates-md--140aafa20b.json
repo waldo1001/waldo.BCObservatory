@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-templates",
   "published_at": "2025-05-06T19:26:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a3e98c2c0daab8f17523f49d12f2417f47873503",
       "words": 379,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:36:55.899Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.007635
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:03.588Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:03.589Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:03.590Z",
+      "page": false
     }
   },
   "input_hash": "a3e98c2c0daab8f17523f49d12f2417f47873503",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a3e98c2c0daab8f17523f49d12f2417f47873503"
+  "output_hash": "9310fd698c605fed07f18e5ef47c762f456625995f0d6884ca35311da2f31ed0"
 }

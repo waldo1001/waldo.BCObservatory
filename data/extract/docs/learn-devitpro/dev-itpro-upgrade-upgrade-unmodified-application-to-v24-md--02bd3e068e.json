@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-unmodified-application-to-v24.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v24",
+  "title": "Upgrading Microsoft System and Base Application to Version 24",
+  "blob": "0c55b942d228290252d63a7d76b6049d99a2bc8d",
+  "summary": "Upgrade path from versions 15-23 to Business Central version 24 for unmodified Microsoft System and Base applications using PowerShell tasks for database conversion, license import, extension publishing, and data migration.",
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "upgrade",
+    "v24",
+    "extensions",
+    "powershell",
+    "database",
+    "migration"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "System Application extension"
+    }
+  ],
+  "features": [
+    "Application database conversion",
+    "Permission sets upgrade",
+    "Data encryption management",
+    "Extension publishing and synchronization",
+    "Data upgrade with task scheduler",
+    "License import and management"
+  ],
+  "versions": [
+    "version 15",
+    "version 16",
+    "version 17",
+    "version 18",
+    "version 19",
+    "version 20",
+    "version 21",
+    "version 22",
+    "version 23",
+    "version 24"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.018082,
+      "pages_in_call": 2
+    }
+  ]
+}

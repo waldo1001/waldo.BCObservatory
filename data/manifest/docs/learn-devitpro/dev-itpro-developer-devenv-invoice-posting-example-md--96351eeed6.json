@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-invoice-posting-example",
   "published_at": "2025-05-06T19:26:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "235cfc786d28cec13e717b81141add8f479a44dd",
       "words": 578,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:36:55.902Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.007635
+    },
+    "summarized": {
+      "at": "2026-10-06T19:37:03.594Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:37:03.595Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:37:03.596Z",
+      "page": false
     }
   },
   "input_hash": "235cfc786d28cec13e717b81141add8f479a44dd",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "235cfc786d28cec13e717b81141add8f479a44dd"
+  "output_hash": "3f8e1aafb6bb0d221be979fa932de0257340f1ef99d81d75a52cb44e3571c1ec"
 }

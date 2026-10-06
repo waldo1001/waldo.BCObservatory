@@ -1,0 +1,112 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/administration-custom-cds-integration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration",
+  "title": "Customizing an integration with Microsoft Dataverse",
+  "blob": "162a6471bfa1ed72b6c64226c69af51cc30fa33a",
+  "summary": "Customizing an integration between Business Central and Microsoft Dataverse by creating integration tables, pages, and mappings to synchronize data between the two systems, including coupling and uncoupling records.",
+  "systems": [
+    "integration",
+    "hr",
+    "development"
+  ],
+  "topics": [
+    "dataverse",
+    "integration",
+    "synchronization",
+    "coupling",
+    "data mapping",
+    "field mapping",
+    "cds"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Dataverse Worker"
+    },
+    {
+      "type": "table",
+      "name": "CRM Integration Record"
+    },
+    {
+      "type": "page",
+      "name": "Dataverse Worker List"
+    },
+    {
+      "type": "page",
+      "name": "Employee Card"
+    },
+    {
+      "type": "table",
+      "name": "Integration Table Mapping"
+    },
+    {
+      "type": "table",
+      "name": "Integration Field Mapping"
+    },
+    {
+      "type": "codeunit",
+      "name": "CRM Integration Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "CRM Setup Defaults"
+    },
+    {
+      "type": "codeunit",
+      "name": "Lookup CRM Tables"
+    },
+    {
+      "type": "codeunit",
+      "name": "CRM Coupling Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "Int. Rec. Uncouple Invoke"
+    },
+    {
+      "type": "codeunit",
+      "name": "CDS Int. Table Subscriber"
+    },
+    {
+      "type": "codeunit",
+      "name": "Integration Record Synch. Invoke"
+    },
+    {
+      "type": "codeunit",
+      "name": "Integration Record Synch."
+    },
+    {
+      "type": "codeunit",
+      "name": "CRM Int. Table. Subscriber"
+    },
+    {
+      "type": "table",
+      "name": "Table Config Template"
+    },
+    {
+      "type": "table",
+      "name": "Int. Table Config Template"
+    }
+  ],
+  "features": [
+    "integration table",
+    "field mapping",
+    "table mapping",
+    "coupling",
+    "synchronization",
+    "deep linking",
+    "custom uncoupling",
+    "event subscription"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007635,
+      "pages_in_call": 7
+    }
+  ]
+}

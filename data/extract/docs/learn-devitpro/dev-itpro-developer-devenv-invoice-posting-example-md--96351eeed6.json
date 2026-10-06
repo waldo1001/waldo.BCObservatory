@@ -1,0 +1,62 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-invoice-posting-example.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-invoice-posting-example",
+  "title": "Extending G/L entry aggregations when posting invoices",
+  "blob": "235cfc786d28cec13e717b81141add8f479a44dd",
+  "summary": "Extending G/L entry aggregations when posting invoices by implementing the Invoice Posting interface to customize how entries are aggregated according to business requirements for sales, purchase, and service documents.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "invoice posting",
+    "g/l entries",
+    "aggregation",
+    "posting groups",
+    "customization"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Invoice Posting Buffer"
+    },
+    {
+      "type": "interface",
+      "name": "Invoice Posting"
+    },
+    {
+      "type": "enum",
+      "name": "Sales Invoice Posting"
+    },
+    {
+      "type": "enum",
+      "name": "Purchase Invoice Posting"
+    },
+    {
+      "type": "enum",
+      "name": "Service Invoice Posting"
+    },
+    {
+      "type": "codeunit",
+      "name": "Sales Post Invoice"
+    }
+  ],
+  "features": [
+    "invoice posting interface",
+    "g/l entry aggregation",
+    "custom posting process",
+    "posting buffer extension"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007635,
+      "pages_in_call": 7
+    }
+  ]
+}

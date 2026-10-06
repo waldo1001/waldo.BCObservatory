@@ -1,0 +1,318 @@
+{
+  "video_id": "88s0QjsaCUQ",
+  "item_id": "video/yt-microsoft/88s0QjsaCUQ",
+  "title": "Understanding the Sign Up Context and Using it for Profiling Customers",
+  "duration_s": 439,
+  "systems": [
+    "crm",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "sign up context",
+    "customer profiling",
+    "onboarding experience",
+    "redirect url",
+    "app provisioning",
+    "uri encoding",
+    "json parameters",
+    "end user license agreement",
+    "country code validation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Sign Up Context and Profiling",
+      "t_start": 0,
+      "t_end": 40.8
+    },
+    {
+      "title": "Sign Up URL Structure and Components",
+      "t_start": 40.8,
+      "t_end": 78.5
+    },
+    {
+      "title": "Redirect URL and Sign Up Context Parameter",
+      "t_start": 78.5,
+      "t_end": 137.8
+    },
+    {
+      "title": "Sign Up Context Scenarios and JSON Format",
+      "t_start": 137.8,
+      "t_end": 213
+    },
+    {
+      "title": "Using Sign Up Context with Profiler Data",
+      "t_start": 213,
+      "t_end": 305.2
+    },
+    {
+      "title": "App ID and Country Code Requirements",
+      "t_start": 305.2,
+      "t_end": 385.4
+    },
+    {
+      "title": "Provisioning with Sign Up Context and App Loading",
+      "t_start": 385.4,
+      "t_end": 439
+    }
+  ],
+  "features": [
+    {
+      "name": "Sign Up Context Parameter",
+      "description": "A new parameter in the redirect URL that determines the origin of a sign up, such as whether it came from the Microsoft website (marked as viral) or from Shopify. It enables customized onboarding experiences based on customer context.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 137.8,
+      "t_end": 157.8,
+      "is_demoed": true,
+      "caveats": [
+        "Currently only supports two scenarios: Microsoft website (viral) and Shopify",
+        "Must be URI encoded when included in redirect URL"
+      ],
+      "tags": [
+        "sign up context",
+        "redirect",
+        "onboarding",
+        "customer profiling"
+      ],
+      "system": "crm"
+    },
+    {
+      "name": "Profiler Form on Website",
+      "description": "A regular form built on your website that collects customer and prospect information through questions of different sorts, with full control over the website implementation and question types.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 20.6,
+      "t_end": 40.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires careful construction of the sign up URL with specific elements for proper functionality"
+      ],
+      "tags": [
+        "profiling",
+        "customer data",
+        "website integration"
+      ],
+      "system": "crm"
+    },
+    {
+      "name": "Sign Up Context JSON Key-Value Pairs",
+      "description": "The sign up context can contain custom JSON key-value pairs that you define based on information collected from the profiler. Examples include interest (basic trade) and previous system preference (Excel). You determine what key-value pairs are included.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 213,
+      "t_end": 264.9,
+      "is_demoed": true,
+      "caveats": [
+        "Certain key-value pairs are required when using an app ID",
+        "Must be URI encoded when included in the redirect URL"
+      ],
+      "tags": [
+        "sign up context",
+        "json",
+        "custom parameters",
+        "onboarding"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Sign Up Context Storage in System Table",
+      "description": "The sign up context information is automatically stored in a system table inside Business Central. Apps can read this table during installation to recognize the sign up context and transfer relevant data to base application tables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 285.2,
+      "t_end": 305.2,
+      "is_demoed": false,
+      "caveats": [
+        "Developers must implement app logic to read and react to the stored sign up context",
+        "Data must be transferred to base application tables based on documentation requirements"
+      ],
+      "tags": [
+        "sign up context",
+        "system table",
+        "app development",
+        "provisioning"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "App ID in Sign Up Context",
+      "description": "You can specify an app ID in the sign up context to indicate which app should be automatically provisioned as part of the Business Central Standard trial. The app ID is public information available from your store listing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 305.2,
+      "t_end": 325.2,
+      "is_demoed": true,
+      "caveats": [
+        "App ID must be obtained from store listing",
+        "Country code must match both customer's AD tenant and app's supported countries"
+      ],
+      "tags": [
+        "app id",
+        "app provisioning",
+        "onboarding",
+        "sign up context"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Country Code Validation in Sign Up Context",
+      "description": "When using an app ID, the country code in the sign up context must match both the customer's Azure AD tenant country code and must be among the app's supported countries. Mismatches prevent app provisioning.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 325.2,
+      "t_end": 345.1,
+      "is_demoed": false,
+      "caveats": [
+        "Three-way match required: customer AD tenant, app supported countries, and sign up context",
+        "Failures prevent app installation during provisioning"
+      ],
+      "tags": [
+        "country code",
+        "app provisioning",
+        "validation",
+        "sign up context"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "End User License Agreement Acceptance Flag",
+      "description": "The sign up context must include an end user license agreement acceptance flag set to true. This ensures that apps are only provisioned if the user has explicitly accepted the app's EULA on your website.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 345.1,
+      "t_end": 365.2,
+      "is_demoed": false,
+      "caveats": [
+        "Developers must provide users with access to the EULA before provisioning",
+        "API will not load the app if this flag is not set to true or EULA is not accepted"
+      ],
+      "tags": [
+        "eula",
+        "end user license agreement",
+        "compliance",
+        "app provisioning"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Checklist Customization Based on Sign Up Context",
+      "description": "Apps can react to sign up context key-value pairs to load specific checklist items during provisioning. For example, if a user selected basic trade in the profiler, the app can load a checklist tailored to basic trade needs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 385.4,
+      "t_end": 406,
+      "is_demoed": true,
+      "caveats": [
+        "Requires app development to implement reactive logic",
+        "Depends on proper capture of profiler answers in sign up context"
+      ],
+      "tags": [
+        "checklist",
+        "onboarding",
+        "personalization",
+        "sign up context"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "system table",
+      "t": 285.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kjartan",
+      "confidence": "high"
+    },
+    {
+      "name": "Jakob",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 20.6,
+      "text": "this is just a regular form you would build you have full control over your website you can do questions of of different sorts",
+      "why_it_matters": "Establishes that profilers are fully customizable forms with developer control over design and question types.",
+      "check": "exact"
+    },
+    {
+      "t": 137.8,
+      "text": "that's a new parameter that we're actually using today uh to determine whether or not a sign up happened from the Microsoft website in",
+      "why_it_matters": "Clarifies the current status and supported sources for sign up context tracking (Microsoft website and Shopify).",
+      "check": "exact"
+    },
+    {
+      "t": 213,
+      "text": "it's a text string in form of a Json key value pair what's key here is that you can determine those key value pairs",
+      "why_it_matters": "Explains how developers can define custom JSON parameters in sign up context based on profiler data.",
+      "check": "exact"
+    },
+    {
+      "t": 264.9,
+      "text": "this signup context information is stored in a system table inside business Central it's your job in an app when it's installed to look",
+      "why_it_matters": "Describes the mechanism for apps to access and react to sign up context data during provisioning.",
+      "check": "snapped"
+    },
+    {
+      "t": 325.2,
+      "text": "the country code must match with the country code of the customer's a and it also much must match with uh a supported country",
+      "why_it_matters": "Establishes a critical validation requirement with three-way country code matching for app provisioning.",
+      "check": "exact"
+    },
+    {
+      "t": 345.1,
+      "text": "you also need to specify the end user license agreement acceptance uh as being true",
+      "why_it_matters": "Documents a mandatory compliance requirement that prevents app provisioning without explicit EULA acceptance.",
+      "check": "exact"
+    },
+    {
+      "t": 385.4,
+      "text": "by reacting on the on the signup context the key value pairs here uh I'm able to say load this checklist item because that",
+      "why_it_matters": "Shows how sign up context enables personalized onboarding through dynamic checklist loading based on user profile answers.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 0.1,
+      "kind": "other",
+      "text": "this is a clip from a launch M video for 2023 release Wave 1 but it's equally relevant today"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024345
+    }
+  ]
+}

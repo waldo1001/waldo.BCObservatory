@@ -1,0 +1,68 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-unmodified-application-v14-v24.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-v14-v24",
+  "title": "Upgrading Unmodified C/AL Application to version 24",
+  "blob": "db8343fdff72a48a1c360db1a657621ebb902a8e",
+  "summary": "Upgrading an unmodified C/AL Business Central Spring 2019 (version 14) application to version 24 (2024 release wave 2) by replacing the C/AL base application with new Microsoft System and Base Application extensions through a series of database conversion, extension publishing, synchronization, and data upgrade tasks.",
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "upgrade",
+    "version 24",
+    "c/al",
+    "application database",
+    "extensions",
+    "data upgrade",
+    "permissions"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "System Application"
+    },
+    {
+      "type": "other",
+      "name": "Business Foundation"
+    },
+    {
+      "type": "other",
+      "name": "Base Application"
+    },
+    {
+      "type": "other",
+      "name": "Microsoft_Application"
+    },
+    {
+      "type": "other",
+      "name": "_Exclude_ReportLayouts"
+    }
+  ],
+  "features": [
+    "application database conversion",
+    "extension publishing and synchronization",
+    "data upgrade",
+    "permission sets as AL objects",
+    "task scheduler configuration",
+    "license import",
+    "DestinationAppsForMigration",
+    "encryption management"
+  ],
+  "versions": [
+    "2024 release wave 2",
+    "version 24",
+    "version 14"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02208,
+      "pages_in_call": 1
+    }
+  ]
+}

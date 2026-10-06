@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-new-module.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-new-module",
+  "title": "Create a new module in the System Application",
+  "blob": "99d6e66fae12bb89a207a4d46a3ad6102f90ca0a",
+  "summary": "Creating a new module in the System Application by setting up development environment, building facade and implementation codeunits, adding tests, and following module architecture guidelines for contributions.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "module creation",
+    "system application",
+    "module architecture",
+    "testing",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "XmlWriter"
+    },
+    {
+      "type": "codeunit",
+      "name": "XmlWriter Impl"
+    }
+  ],
+  "features": [
+    "module facade",
+    "implementation codeunit",
+    "unit tests",
+    "module testing",
+    "git workflow"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007635,
+      "pages_in_call": 7
+    }
+  ]
+}

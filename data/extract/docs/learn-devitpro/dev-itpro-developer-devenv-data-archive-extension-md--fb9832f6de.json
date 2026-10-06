@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-data-archive-extension.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-data-archive-extension",
+  "title": "Extending the Data Archive extension",
+  "blob": "af602df543df82ca0ffcbc0a17c908740589386d",
+  "summary": "Extending the Data Archive extension to save and archive records and track deletions as part of date compression, providing methods to store individual or bulk records using the Data Archive codeunit.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "data archive",
+    "date compression",
+    "record archiving",
+    "deletion tracking"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Data Archive"
+    }
+  ],
+  "features": [
+    "SaveRecord",
+    "SaveRecords",
+    "StartSubscriptionToDelete",
+    "StopSubscriptionToDelete",
+    "DataArchiveProviderExists"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007635,
+      "pages_in_call": 7
+    }
+  ]
+}

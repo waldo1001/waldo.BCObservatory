@@ -1,0 +1,66 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extending-templates.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-templates",
+  "title": "Extending Customer, Vendor, and Item Templates",
+  "blob": "a3e98c2c0daab8f17523f49d12f2417f47873503",
+  "summary": "Extending customer, vendor, and item templates by adding fields to templates and creating new templates for primary tables to customize template data transfer when creating records.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "templates",
+    "customer template",
+    "vendor template",
+    "item template",
+    "configuration templates"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer Templ."
+    },
+    {
+      "type": "table",
+      "name": "Resource Template"
+    },
+    {
+      "type": "page",
+      "name": "Customer Templ. Card"
+    },
+    {
+      "type": "page",
+      "name": "Resource Template Card"
+    },
+    {
+      "type": "page",
+      "name": "Resource Template List"
+    },
+    {
+      "type": "table",
+      "name": "Mini Customer Template"
+    },
+    {
+      "type": "codeunit",
+      "name": "Customer Templ. Mgt."
+    }
+  ],
+  "features": [
+    "template extension",
+    "field mapping",
+    "data transfer",
+    "configuration templates"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007635,
+      "pages_in_call": 7
+    }
+  ]
+}

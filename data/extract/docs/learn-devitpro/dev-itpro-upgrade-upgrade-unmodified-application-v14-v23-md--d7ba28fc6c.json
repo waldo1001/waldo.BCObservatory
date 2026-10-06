@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-unmodified-application-v14-v23.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-v14-v23",
+  "title": "Upgrading Unmodified C/AL Application to version 23",
+  "blob": "3f6ece9bd5f40d36df8ec6b5bbd82f8af7176c4c",
+  "summary": "Upgrading an unmodified C/AL Business Central Spring 2019 (version 14) application to version 23 (2023 release wave 1) by replacing the base application with new System and Base Application extensions.",
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "upgrading",
+    "unmodified application",
+    "c/al",
+    "extension migration",
+    "data upgrade",
+    "permission sets"
+  ],
+  "objects": [],
+  "features": [
+    "Technical database conversion",
+    "Extension publishing and installation",
+    "Permission set migration",
+    "Data encryption management",
+    "Multitenant deployment support",
+    "DestinationAppsForMigration configuration",
+    "License import",
+    "Control add-in upgrade"
+  ],
+  "versions": [
+    "version 14",
+    "version 23",
+    "2023 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019666,
+      "pages_in_call": 2
+    }
+  ]
+}
