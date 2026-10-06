@@ -1,7 +1,7 @@
 {
   "date": "2026-10-06",
-  "started_at": "2026-10-06T12:39:05.031Z",
-  "finished_at": "2026-10-06T12:39:45.661Z",
+  "started_at": "2026-10-06T12:46:04.928Z",
+  "finished_at": "2026-10-06T12:46:06.397Z",
   "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
@@ -20,104 +20,70 @@
   "ingest": {
     "sources": [
       {
-        "id": "learn-smb-docs",
-        "kind": "docs-git",
+        "id": "m365-roadmap",
+        "kind": "roadmap-api",
         "ok": true,
         "counts": {
           "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 2157,
+          "unchanged": 80,
           "removed": 0
         },
-        "note": "2157 pages at bf5ffffa9b02",
-        "duration_ms": 3800
-      },
-      {
-        "id": "learn-devitpro",
-        "kind": "docs-git",
-        "ok": true,
-        "counts": {
-          "new": 0,
-          "changed": 0,
-          "updated": 0,
-          "unchanged": 5893,
-          "removed": 0
-        },
-        "note": "5893 pages at f928288ee840",
-        "duration_ms": 5754
+        "note": "80 Business Central items of 1889; snapshot unchanged",
+        "duration_ms": 324
       }
     ],
     "totals": {
-      "sources": 2,
+      "sources": 1,
       "failed": 0,
       "deferred": 0,
       "new": 0,
       "changed": 0,
       "updated": 0,
-      "unchanged": 8050,
+      "unchanged": 80,
       "removed": 0
     }
   },
   "plan": {
     "quotas": {
-      "captions": 8,
-      "video_extract": 8,
-      "docs": 8,
-      "posts": 8,
-      "guidelines": 8,
+      "captions": 60,
+      "video_extract": 40,
+      "docs": 400,
+      "posts": 40,
+      "guidelines": 20,
       "code_jobs": 1,
-      "hub_refresh": 8,
-      "opus_reviews": 8,
+      "hub_refresh": 60,
+      "opus_reviews": 10,
       "llm_calls_max": 450
     },
-    "work": 8,
-    "executed": 8,
+    "work": 80,
+    "executed": 80,
     "skips": 0,
     "quota_use": {
-      "docs": {
-        "selected": 8,
-        "available": 3377,
-        "limit": 8
+      "unlimited": {
+        "selected": 80,
+        "available": 80,
+        "limit": null
       }
     },
     "note": "stopped: done"
   },
   "llm": {
-    "calls": 3,
+    "calls": 0,
     "cache_hits": 0,
     "failures": 0,
-    "by_model": {
-      "claude-haiku-4-5-20251001": 2,
-      "claude-sonnet-5-5": 1
-    },
-    "cost_usd": 0.115774,
-    "tokens_by_model": {
-      "claude-haiku-4-5-20251001": {
-        "calls": 2,
-        "input": 6,
-        "output": 1772,
-        "cache_read": 0,
-        "cache_creation": 31134,
-        "cost_usd": 0.071134
-      },
-      "claude-sonnet-5-5": {
-        "calls": 1,
-        "input": 2,
-        "output": 818,
-        "cache_read": 0,
-        "cache_creation": 9114,
-        "cost_usd": 0.04464
-      }
-    },
+    "by_model": {},
+    "cost_usd": 0,
+    "tokens_by_model": {},
     "day_cost_usd": 0.43543
   },
   "spend": {
-    "today_usd": 0.319656,
+    "today_usd": 0.43543,
     "week_before_usd": 0,
     "night_cap_usd": 10,
     "week_cap_usd": 50,
-    "allowance_usd": 9.680344,
+    "allowance_usd": 9.56457,
     "binding": "night",
     "exhausted": false
   },
@@ -125,30 +91,27 @@
   "errors": [],
   "execution": {
     "stop_reason": "done",
-    "deadline": "2026-10-06T18:14:00.000Z",
-    "items_touched": 8,
+    "deadline": "2026-10-06T18:21:00.000Z",
+    "items_touched": 80,
     "stages_run": {
-      "docs:extracted": 8,
-      "docs:summarized": 8,
-      "docs:linked": 8,
-      "docs:published": 8
+      "roadmap:fetched": 80,
+      "roadmap:linked": 80,
+      "roadmap:published": 80
     },
-    "advanced": 32,
+    "advanced": 240,
     "skipped": 0,
     "failed_attempts": 0,
     "failed_final": 0,
     "no_handler": 0,
     "held": 0,
-    "quota_charged": {
-      "docs": 8
-    },
+    "quota_charged": {},
     "regards": [],
     "errors": []
   },
   "hubs": {
     "topics": 605,
     "narrated": 1,
-    "refreshed": 1,
+    "refreshed": 0,
     "failed": 0,
     "backlog": 0,
     "stopped": "done"

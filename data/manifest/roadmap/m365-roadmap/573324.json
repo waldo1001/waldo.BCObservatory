@@ -6,10 +6,21 @@
   "title": "Trace G/L account usage in finance reports",
   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573324",
   "published_at": "2026-09-30T23:31:03.000Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:46:05.721Z",
+      "from": "snapshot"
+    },
+    "linked": {
+      "at": "2026-10-06T12:46:05.721Z"
+    },
+    "published": {
+      "at": "2026-10-06T12:46:05.722Z",
+      "path": "content/features/573324.md"
     }
   },
   "input_hash": "8c17072bbf1bbb667386bbbd31057a267912d4f9603731fcb488fa69c215611e",
@@ -21,5 +32,8 @@
     "ga": "October CY2026",
     "preview": null,
     "area": "Reporting and data analysis"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8c17072bbf1bbb667386bbbd31057a267912d4f9603731fcb488fa69c215611e"
 }

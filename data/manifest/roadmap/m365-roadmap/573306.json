@@ -6,10 +6,21 @@
   "title": "Calculate multiple excise duties per item",
   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573306",
   "published_at": "2026-09-30T23:31:03.000Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:46:05.703Z",
+      "from": "snapshot"
+    },
+    "linked": {
+      "at": "2026-10-06T12:46:05.703Z"
+    },
+    "published": {
+      "at": "2026-10-06T12:46:05.704Z",
+      "path": "content/features/573306.md"
     }
   },
   "input_hash": "344a44e9f2061957a03023968e5cf500af742956651f6e069162bb3ac990a639",
@@ -21,5 +32,8 @@
     "ga": "January CY2027",
     "preview": "October CY2026",
     "area": "Finance"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "344a44e9f2061957a03023968e5cf500af742956651f6e069162bb3ac990a639"
 }

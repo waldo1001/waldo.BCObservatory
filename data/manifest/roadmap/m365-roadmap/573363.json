@@ -6,10 +6,21 @@
   "title": "Manage tasks from all agents in dedicated task pane",
   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573363",
   "published_at": "2026-09-30T23:31:03.000Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:46:05.763Z",
+      "from": "snapshot"
+    },
+    "linked": {
+      "at": "2026-10-06T12:46:05.763Z"
+    },
+    "published": {
+      "at": "2026-10-06T12:46:05.763Z",
+      "path": "content/features/573363.md"
     }
   },
   "input_hash": "166095f8845d9b4ec6a511bdb39bb10d02913c6e878e0fc6497ef9d03e23bc27",
@@ -21,5 +32,8 @@
     "ga": "October CY2026",
     "preview": null,
     "area": "Copilot and agents"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "166095f8845d9b4ec6a511bdb39bb10d02913c6e878e0fc6497ef9d03e23bc27"
 }

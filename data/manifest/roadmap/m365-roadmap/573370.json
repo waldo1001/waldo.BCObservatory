@@ -6,10 +6,21 @@
   "title": "Manage agent permissions easier",
   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573370",
   "published_at": "2026-09-30T23:31:03.000Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:46:05.769Z",
+      "from": "snapshot"
+    },
+    "linked": {
+      "at": "2026-10-06T12:46:05.769Z"
+    },
+    "published": {
+      "at": "2026-10-06T12:46:05.770Z",
+      "path": "content/features/573370.md"
     }
   },
   "input_hash": "691f8ca1fbc43b69de7b087ac9963e5bb7bd702550795e6dbf96f01154da8e0f",
@@ -21,5 +32,8 @@
     "ga": "October CY2026",
     "preview": null,
     "area": "Copilot and agents"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "691f8ca1fbc43b69de7b087ac9963e5bb7bd702550795e6dbf96f01154da8e0f"
 }

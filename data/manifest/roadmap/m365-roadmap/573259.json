@@ -6,10 +6,21 @@
   "title": "Use assigned projects only in the web app",
   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573259",
   "published_at": "2026-09-30T23:31:03.000Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:46:05.699Z",
+      "from": "snapshot"
+    },
+    "linked": {
+      "at": "2026-10-06T12:46:05.699Z"
+    },
+    "published": {
+      "at": "2026-10-06T12:46:05.700Z",
+      "path": "content/features/573259.md"
     }
   },
   "input_hash": "2cbb0d10fcf35580016bb2bc73110f03daafd10b34b3ef43930cc7f76f559e64",
@@ -21,5 +32,8 @@
     "ga": "December CY2026",
     "preview": "October CY2026",
     "area": "Expense Agent"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2cbb0d10fcf35580016bb2bc73110f03daafd10b34b3ef43930cc7f76f559e64"
 }

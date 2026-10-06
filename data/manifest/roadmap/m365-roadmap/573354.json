@@ -6,10 +6,21 @@
   "title": "Access application links through ModuleInfo",
   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573354",
   "published_at": "2026-09-30T23:31:03.000Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:46:05.753Z",
+      "from": "snapshot"
+    },
+    "linked": {
+      "at": "2026-10-06T12:46:05.753Z"
+    },
+    "published": {
+      "at": "2026-10-06T12:46:05.754Z",
+      "path": "content/features/573354.md"
     }
   },
   "input_hash": "f3c4c2b7f0e5294290e69d3d99607b11acc99d5419c07f06c7417a33de322aba",
@@ -21,5 +32,8 @@
     "ga": "October CY2026",
     "preview": null,
     "area": "Development"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f3c4c2b7f0e5294290e69d3d99607b11acc99d5419c07f06c7417a33de322aba"
 }
