@@ -1,0 +1,243 @@
+{
+  "video_id": "_nmA6xJXKiY",
+  "item_id": "video/yt-microsoft/_nmA6xJXKiY",
+  "title": "Introducing: PTEs in Admin Center (2025 release wave 1)",
+  "duration_s": 158,
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "pte",
+    "admin center",
+    "app management",
+    "uninstall",
+    "dependencies",
+    "api",
+    "extensions"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to PTEs in Admin Center",
+      "t_start": 0,
+      "t_end": 22.1
+    },
+    {
+      "title": "Viewing PTEs and Dev Extensions",
+      "t_start": 22.1,
+      "t_end": 44.7
+    },
+    {
+      "title": "Uninstalling Global Apps",
+      "t_start": 44.7,
+      "t_end": 76.9
+    },
+    {
+      "title": "Dependency Management and Uninstall",
+      "t_start": 76.9,
+      "t_end": 114.6
+    },
+    {
+      "title": "Admin Center API Support",
+      "t_start": 114.6,
+      "t_end": 158
+    }
+  ],
+  "features": [
+    {
+      "name": "PTEs visible in Admin Center",
+      "description": "PTEs are now surfaced and displayed in the Business Central admin center, allowing administrators to see what PTEs are installed on their environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.2,
+      "t_end": 22.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pte",
+        "visibility",
+        "admin-center"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Admin Center API for PTEs",
+      "description": "The admin center API now enables automation across PTEs and allows querying of installed extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.2,
+      "t_end": 143,
+      "is_demoed": false,
+      "caveats": [
+        "Available from API version 2.25"
+      ],
+      "tags": [
+        "api",
+        "automation",
+        "admin-center"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "App Filter Dropdown",
+      "description": "A new dropdown filter in the admin center allows filtering to view global apps, PTEs, and dev extensions separately.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 22.1,
+      "t_end": 33.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "filter",
+        "ui",
+        "app-management"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Uninstall Apps from Admin Center",
+      "description": "Global apps can now be uninstalled directly from the admin center UI, with the ability to choose whether to keep application data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 44.7,
+      "t_end": 76.9,
+      "is_demoed": true,
+      "caveats": [
+        "Base app cannot be uninstalled"
+      ],
+      "tags": [
+        "uninstall",
+        "data-retention"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Dependency Visibility on Uninstall",
+      "description": "When uninstalling an app with dependencies, the admin center now displays which apps depend on it, allowing the administrator to see what else will be uninstalled.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 76.9,
+      "t_end": 104,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dependencies",
+        "uninstall",
+        "dependency-management"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Uninstall Requirements API Endpoint",
+      "description": "A new uninstall requirements endpoint in the admin center API allows developers to query which apps would be uninstalled as a result of uninstalling an app with downstream dependencies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 114.6,
+      "t_end": 143,
+      "is_demoed": false,
+      "caveats": [
+        "Available from admin center API version 2.25"
+      ],
+      "tags": [
+        "api",
+        "uninstall",
+        "dependencies"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "App Type Property in API",
+      "description": "New properties on the app endpoint in the admin center API allow reading the app type of returned apps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 129.8,
+      "t_end": 143,
+      "is_demoed": false,
+      "caveats": [
+        "Available from admin center API version 2.25"
+      ],
+      "tags": [
+        "api",
+        "metadata"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 6.2,
+      "text": "starting this release wave we'll start surfacing the PTEs that are installed on your environments in the admin center and in the admin center",
+      "why_it_matters": "This establishes that PTE visibility in the admin center is new in this release wave and available through both UI and API.",
+      "check": "exact"
+    },
+    {
+      "t": 33.8,
+      "text": "whereas before we would only show global apps, we can now also see PTEES and dev extensions",
+      "why_it_matters": "Clarifies the change - the admin center previously only displayed global apps and now extends visibility to PTEs and dev extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 55,
+      "text": "for the apps that can be uninstalled, which is almost all of them with exceptions, just as base app, um you can now click",
+      "why_it_matters": "Defines the scope of which apps can be uninstalled and establishes the limitation that base app is an exception.",
+      "check": "exact"
+    },
+    {
+      "t": 76.9,
+      "text": "if I'm uninstalling an app that has dependencies, I can now see those dependencies right in the admin center",
+      "why_it_matters": "Key new capability for administrators - they can now see dependency chains before uninstalling, preventing accidental cascade uninstalls.",
+      "check": "exact"
+    },
+    {
+      "t": 114.6,
+      "text": "everything that I just demoed in the admin center will also be available in the admin center API from version 2.25",
+      "why_it_matters": "Establishes that all UI features are available programmatically and specifies the minimum API version required.",
+      "check": "exact"
+    },
+    {
+      "t": 129.8,
+      "text": "we're introducing a new uninstall requirements endpoint. This is an endpoint that you can use to see which apps would be uninstalled if you",
+      "why_it_matters": "Documents the new API endpoint that enables automation of dependency checking for app management workflows.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 114.6,
+      "kind": "other",
+      "text": "everything that I just demoed in the admin center will also be available in the admin center API from version 2.25"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015292
+    }
+  ]
+}

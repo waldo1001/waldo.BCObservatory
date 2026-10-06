@@ -1,0 +1,301 @@
+{
+  "video_id": "W003w36Isto",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 7.6,
+      "end": 18.2,
+      "text": "Welcome to the 2025 release wave 1. What's new in reporting for developers? In this video, we have four different topics to cover."
+    },
+    {
+      "t": 18.2,
+      "end": 31.1,
+      "text": "New layout features in AL, new layout features in the runtime also for users. easier development of reports with word layouts and and some updated developer documentation."
+    },
+    {
+      "t": 31.1,
+      "end": 47.9,
+      "text": "So let's dive in. So the new things you can do from AL from VS code when with report layouts is that you can first of all override any choice of Excel layout multiple data sheets property that has been set on the report."
+    },
+    {
+      "t": 47.9,
+      "end": 64,
+      "text": "You can now set that on the layout level. The second thing is that you can now obsolete a layout. Let me show you how. So here in Visual Studio Code, I have a small report al code."
+    },
+    {
+      "t": 64,
+      "end": 78.4,
+      "text": "Um and um you notice that I have a new layout called new layout. And that's because I also have an old layout here that I might want to deprecate or obsolete."
+    },
+    {
+      "t": 78.4,
+      "end": 89.9,
+      "text": "So uh so let's do that first. Um and it's the same way as you would deprecate any other thing in AL. You simply set the obsolete tag to"
+    },
+    {
+      "t": 89.9,
+      "end": 108.9,
+      "text": "something. Uh you set the obsolete state and in this case we set it to pending and obsolete reason. This obsolete is up layout is obsolete because we have something whatever obsolete tag is is probably the version that you uh you use for this."
+    },
+    {
+      "t": 108.9,
+      "end": 120.5,
+      "text": "So let's put in something like uh 20 28 whatever tags you use. So that's the way you can obsolete a layout from AL."
+    },
+    {
+      "t": 120.5,
+      "end": 140.6,
+      "text": "The second thing is um that you can override the Excel multiple worksheets property. So here I can simply say I would like the Excel layout multiple data sheets to be set to true even though the"
+    },
+    {
+      "t": 140.6,
+      "end": 155.1,
+      "text": "Excel um layout multiple data sheets might have been set to false on the report. And the reason this is is smart is that the default value for for this property is false."
+    },
+    {
+      "t": 155.1,
+      "end": 174.6,
+      "text": "So that that means if you add a new layout to an existing report, you can you can set this Excel layout multiple data sheets and therefore it's only your layout that will have this property, not any any old layouts uh that you might break that customers have added."
+    },
+    {
+      "t": 174.6,
+      "end": 185.2,
+      "text": "We also added some new features when you use report layouts in the report layouts page in the in the application. There are three things."
+    },
+    {
+      "t": 185.2,
+      "end": 197.1,
+      "text": "First of all, you can set the Excel layout multiple data sheets on the layout level there as well as you could in AL. There's also more visibility into the properties of a layout."
+    },
+    {
+      "t": 197.1,
+      "end": 211.3,
+      "text": "And finally, you can validate a layout that either uh that um that a customer or a user added or even one that was added from an extension or an app."
+    },
+    {
+      "t": 211.3,
+      "end": 222.3,
+      "text": "Let's uh dive in and take a look. So here on the report layouts page, you might notice a new menu called"
+    },
+    {
+      "t": 222.3,
+      "end": 233.9,
+      "text": "layout. Here we have first of all gathered some of the other old actions um for layouts. But you can also see two new actions validate and show layout info."
+    },
+    {
+      "t": 233.9,
+      "end": 246.4,
+      "text": "Before we dive into that, let me just quickly show you in case you want to add or a user wants to add Excel layout to any report, maybe the number series report here."
+    },
+    {
+      "t": 246.4,
+      "end": 258.8,
+      "text": "Um, they can set this multiple data sheets property directly when they create a new layout. So let's say test Excel, it's an Excel layout."
+    },
+    {
+      "t": 258.8,
+      "end": 269.8,
+      "text": "I can choose blank layout and then I can choose multiple data sheets and create um a new layout. So that's the first feature."
+    },
+    {
+      "t": 269.8,
+      "end": 280.6,
+      "text": "The second thing is that you might want to troubleshoot a layout. So here we offer first of all the show layout info."
+    },
+    {
+      "t": 280.6,
+      "end": 300.6,
+      "text": "So that means you can ask a user to provide everything about a layout. Um there is the system ID is all is in particularly useful if you have telemetry because this system ID is also the one that is locked to a custom dimension called layout ID"
+    },
+    {
+      "t": 300.6,
+      "end": 320.6,
+      "text": "there. So you can match the two and and see which of the layouts that had a problem. You can see um of course the type and you can see for the last four parts here um who created or modified the layout especially and this is only uh populated these properties only populated for layouts that"
+    },
+    {
+      "t": 320.6,
+      "end": 336.9,
+      "text": "users uh import or work with not the ones that are provided from extensions or apps. You also notice that um you can see the obsolete property if any layouts have been obsoleted that's shown here."
+    },
+    {
+      "t": 336.9,
+      "end": 347.4,
+      "text": "You can see the last modified date and the last modified by here on the list. So that's an just an easy way for you to see those properties."
+    },
+    {
+      "t": 347.4,
+      "end": 357.8,
+      "text": "And finally uh from this layout menu there's also this new validate action. So I can validate any layout uh whether there's anything wrong."
+    },
+    {
+      "t": 357.8,
+      "end": 373.7,
+      "text": "Uh I don't have any layouts with problems. So this layout is valid. Um for now for the 26.0 the the first major release is only RDL layout that will be validated in a next minor."
+    },
+    {
+      "t": 373.7,
+      "end": 392.8,
+      "text": "Uh we will also add validation for word and excel. We also made it a lot easier to work with reports that involve word layouts and that is both for new reports and for existing reports where you want to add a word layout."
+    },
+    {
+      "t": 392.8,
+      "end": 411.4,
+      "text": "Similarly to the Excel layout feature, you can now find um standard information about the report metadata and the requests directly in the XML for the for for the word uh report for word uh layout."
+    },
+    {
+      "t": 411.4,
+      "end": 431.9,
+      "text": "And that makes it first of all much easier because you don't have to code this in AL for a new report. But also for existing reports if um you can standardize the way you show report name or company name and other things so that anyone using the layout will just"
+    },
+    {
+      "t": 431.9,
+      "end": 446.2,
+      "text": "know that this is where you get that information. Let's dive into into Word and take a look. Imagine that you want to add a new word layout to an existing report in Business Central."
+    },
+    {
+      "t": 446.2,
+      "end": 459.6,
+      "text": "Let's take uh the number series report. The current version here only have uh one report layout which is of type RDLC and we want to add a more modern layout type."
+    },
+    {
+      "t": 459.6,
+      "end": 473.5,
+      "text": "So let's take uh here and say this is number series word and I want to add a word layout here and I want to create a new blank layout."
+    },
+    {
+      "t": 473.5,
+      "end": 487.4,
+      "text": "So let's create this. Okay. So I'll export this and get it downloaded. And now I will open it in word and let's take a look what's happening now."
+    },
+    {
+      "t": 487.4,
+      "end": 501.1,
+      "text": "So here in word I um will choose the developer menu and the XML mapping pane and here I will choose the the metadata for the report."
+    },
+    {
+      "t": 501.1,
+      "end": 512.2,
+      "text": "There you go. Now normally you can see um that you have the report data item columns here. We're not going to dive into that."
+    },
+    {
+      "t": 512.2,
+      "end": 522.9,
+      "text": "Instead you see a new kit on the block here. BC report information. If I expand this, there are new two new types of data available."
+    },
+    {
+      "t": 522.9,
+      "end": 541.1,
+      "text": "The first is uh the metadata from the report where it's coming from uh what's the report name uh the about title about text report help and maybe I want to use the report name and put that here into the report layout."
+    },
+    {
+      "t": 541.1,
+      "end": 553.8,
+      "text": "And uh the second part here is the requests metadata. Here I can see things like which environment, which company, company display name, which user"
+    },
+    {
+      "t": 553.8,
+      "end": 567.4,
+      "text": "uh when the report was rendered in which language and also uh instead of the date and time when it was rendered, I can also easily get a hierarchy of year, month, day, hour and minute."
+    },
+    {
+      "t": 567.4,
+      "end": 585.8,
+      "text": "So maybe I want to see that uh or I want to put into my layout the year somewhere here maybe in the header and maybe I want to take the month number here and now I can construct"
+    },
+    {
+      "t": 585.8,
+      "end": 598.4,
+      "text": "uh the the date and maybe the day as well. So and I can construct uh that in any any format I like. Um and uh similarly maybe the company display name."
+    },
+    {
+      "t": 598.4,
+      "end": 609.5,
+      "text": "Let's put that in as well. And of course you would then use all the other properties or the columns from the report uh data set down here."
+    },
+    {
+      "t": 609.5,
+      "end": 620.1,
+      "text": "But notice that the things that were previously coded here such as company name and maybe user uh name and so on, you don't have to use that anymore."
+    },
+    {
+      "t": 620.1,
+      "end": 630.1,
+      "text": "Uh you can just use them in a standard fashion. So, let's uh save this and get back to Business Central and import it and see what it looks like."
+    },
+    {
+      "t": 630.1,
+      "end": 641.4,
+      "text": "Back in Business Central on the report layouts page, I will now use the replace layout action and put in my new version of the layout."
+    },
+    {
+      "t": 641.4,
+      "end": 657,
+      "text": "Here we go. And let's let's run it and see what happens. And hopefully you will we will get these new properties from from these uh system generated data items."
+    },
+    {
+      "t": 657,
+      "end": 672.2,
+      "text": "So let's take a look. And there we go. So you see the report name, the year, the month, and the date. So this recording was apparently done on the 2nd of March 2025."
+    },
+    {
+      "t": 672.2,
+      "end": 686.9,
+      "text": "And this is the company display name that I put into the layout. The final part in the developer video here is about uh some updated developer documentation for especially for obsoleting reports."
+    },
+    {
+      "t": 686.9,
+      "end": 699.1,
+      "text": "So you can always go to the aka.ms/bcde developer to get to the developer documentation and then you need to go to the reporting or you can just search for obsoleting reports."
+    },
+    {
+      "t": 699.1,
+      "end": 718.4,
+      "text": "Let's try that. So I followed the AKA link for the developer documentation and um the things about reporting is here under programming in AL language and then down here under developing reports but we just want to find the"
+    },
+    {
+      "t": 718.4,
+      "end": 733.8,
+      "text": "obsolate reports new article. So that's here and um what this is is a guideline both for obsoleting report layouts but also how you can obsolete reports in general."
+    },
+    {
+      "t": 733.8,
+      "end": 744.6,
+      "text": "Now of course this is nothing new as a developer. You could just put in the obsolete um properties but how do you communicate the change to a user?"
+    },
+    {
+      "t": 744.6,
+      "end": 765.2,
+      "text": "And that's what this um documentation al is all about. Uh how could you how can you tell the user when they use tell me when they use the request page when they use the help pane or maybe when they show use if they use the report layouts page or the report uh layout picker from the request page."
+    },
+    {
+      "t": 765.2,
+      "end": 777.4,
+      "text": "So and also there's some guidance of how you can track the usage of your doc deprecated or obsoleted uh reports with telemetry. So, go check that out in the developer documentation."
+    },
+    {
+      "t": 777.4,
+      "end": 787.8,
+      "text": "And um in here there's a ton of different articles about how to how to work with with reports and layouts."
+    },
+    {
+      "t": 787.8,
+      "end": 797,
+      "text": "So, you might want to revisit the documentation in case new articles came in since last time you saw it."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 7.59,
+      "text": "[Music]"
+    },
+    {
+      "t": 7.6,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1844
+}

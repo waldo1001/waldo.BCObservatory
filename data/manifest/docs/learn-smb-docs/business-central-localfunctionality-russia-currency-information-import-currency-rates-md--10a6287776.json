@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Currency-information-Import-currency-rates",
   "published_at": "2026-05-04T02:42:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1a876dce691715a50099f7b429e71f146f1cd45f",
       "words": 184,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:41:21.201Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.003061
+    },
+    "summarized": {
+      "at": "2026-10-06T18:41:22.977Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:41:22.978Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:41:22.979Z",
+      "page": false
     }
   },
   "input_hash": "1a876dce691715a50099f7b429e71f146f1cd45f",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1a876dce691715a50099f7b429e71f146f1cd45f"
+  "output_hash": "ff16185541f3495341c704ac8982f0bc849c27f4ae4ce94162af6935b97b0fe3"
 }

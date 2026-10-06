@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Reporting (For Developers) (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=W003w36Isto",
-  "published_at": null,
+  "published_at": "2025-04-01T15:00:45.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:41:12.692Z",
+      "captions": "auto:en-orig",
+      "duration_s": 797
+    },
+    "captioned": {
+      "at": "2026-10-06T18:41:23.042Z",
+      "path": "data/captions/microsoft/W003w36Isto.vtt",
+      "vtt_sha256": "34ed9f5ea5960d3ec618d5bf3efb3972de4eb606bf4a9f129a79cf20e8f3c0ae",
+      "segments": 56,
+      "words": 1844,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 247,
     "duration_s": 797,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "34ed9f5ea5960d3ec618d5bf3efb3972de4eb606bf4a9f129a79cf20e8f3c0ae"
 }

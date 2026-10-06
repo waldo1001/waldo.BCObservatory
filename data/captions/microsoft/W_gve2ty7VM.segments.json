@@ -1,0 +1,263 @@
+{
+  "video_id": "W_gve2ty7VM",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.2,
+      "end": 16.1,
+      "text": "Welcome to this business central launch event about what's new in ALGO for GitHub on security. My name is Freddy Christensen, technical evangelist out of Microsoft and I have with me, thank you Freddie."
+    },
+    {
+      "t": 16.1,
+      "end": 26.5,
+      "text": "My name is Maria Jilelesa and I also work on Ago for GitHub with Freddy and we'll jump right into the agenda here and talk about deprecations."
+    },
+    {
+      "t": 26.5,
+      "end": 44.1,
+      "text": "While talking about deprecations is kind of like talking about what's not new, right? But um it's actually not about so much about what's deprecated. It's more about having a website now where we are explaining what's going to be deprecated in the future."
+    },
+    {
+      "t": 44.1,
+      "end": 55.5,
+      "text": "So there are some changes in effect that will like stop working after October 1st this year and you'll find those here. You'll also get warnings in the build if you're using these features."
+    },
+    {
+      "t": 55.5,
+      "end": 71.4,
+      "text": "So consult this site AKMS algo deprecations to see what's being deprecated in the near future. Beside that there is also a AKMS link called AKMS algo release notes."
+    },
+    {
+      "t": 71.4,
+      "end": 83.4,
+      "text": "Clicking at this one will take you to the release notes. Well, no wonder version 6.4 just released and the topmost release notes is from version 6.4."
+    },
+    {
+      "t": 83.4,
+      "end": 98.4,
+      "text": "If you'll find like features described on top of version 6.4, they will not be included in version 6.4, meaning that you probably have to run preview or yeah or or or they are not even in preview yet."
+    },
+    {
+      "t": 98.4,
+      "end": 111,
+      "text": "But you can yeah, you can ask us that on on GitHub if you are in doubt. But if they're not underneath a version number here in the release notes, they haven't been released yet in a in a full version."
+    },
+    {
+      "t": 111,
+      "end": 125.7,
+      "text": "Um, so next up talking about Azure trusted signing. Maria, take it away. Hi everybody. Uh, I'm going to walk you through what Asia trusted signing is and how Ago is integrated with it."
+    },
+    {
+      "t": 125.7,
+      "end": 141,
+      "text": "Um just the the key takeaway for Azure trusted signing is that it's the natural evolution of the signing process which completely eliminates the need to manually rotate certificates as well as storing secrets to access these certificates."
+    },
+    {
+      "t": 141,
+      "end": 154.2,
+      "text": "It is a service that Azure provides. So we get to have the natural experience and there is also link to the official documentation that where you can read more about it. Now off to the steps on how to set it up with a go."
+    },
+    {
+      "t": 154.2,
+      "end": 174.6,
+      "text": "Uh first and foremost you need to create the service on Azure which is called Azure trusted signing account. Uh then you need to perform an identity validation and this is the hardest step of the process where you need to uh verify indeed that you are who you say you are and because there's going to be like certificates is issued on your name"
+    },
+    {
+      "t": 174.6,
+      "end": 193.7,
+      "text": "and uh it needs to be made sure that this is the right identity for it. Once you have at least one identity validation uh request completed uh you can create a certificate profile where you will be able to create certificates for your signing purpose for your signing um purposes."
+    },
+    {
+      "t": 193.7,
+      "end": 212.2,
+      "text": "Uh after that you need to make the connection to to GitHub and the first step is to create a managed identity. The needed uh role or permission for that is trusted signing certificate profile signer and creating federated credentials is where you uh completely make the link to GitHub."
+    },
+    {
+      "t": 212.2,
+      "end": 225.3,
+      "text": "Uh on ago sites you only need to create a secret Azure credentials which you might already have because it's also used for integrating with other Azure uh services such as key votes."
+    },
+    {
+      "t": 225.3,
+      "end": 236.1,
+      "text": "And lastly, you need to create a trusted signing setting for your GitHub repository which looks like this. It has an endpoint account and certificate profile."
+    },
+    {
+      "t": 236.1,
+      "end": 249.8,
+      "text": "Uh setting up this will make the signing process seamless throughout uh all your GitHub repository that utilize this feature. Next up is GitHub app authentication."
+    },
+    {
+      "t": 249.8,
+      "end": 261.9,
+      "text": "So let me explain quickly what that is. As you know, you have we we require you to create a personal access token or a secret that contains a personal access token."
+    },
+    {
+      "t": 261.9,
+      "end": 273,
+      "text": "In the beginning, we had the classic personal access tokens that like impersonate a user have same access to all repositors and organizations that the user have"
+    },
+    {
+      "t": 273,
+      "end": 285,
+      "text": "uh and are used to authenticate to the APIs and so forth and and that's really a security wise it's a problem. So we created the fine grained personal access token."
+    },
+    {
+      "t": 285,
+      "end": 299.3,
+      "text": "It still impersonates a user and but it's now scoped to one organization and a select repositories. Still imposes some security risk if exposed to uh to to an evil person or whatever."
+    },
+    {
+      "t": 299.3,
+      "end": 309.5,
+      "text": "Uh what we have now is GitHub app authentication. And how why does that differentiate? What you have now in your secret is not the actual access token."
+    },
+    {
+      "t": 309.5,
+      "end": 326.6,
+      "text": "In your secret, you have an app ID and a private key. And that combination is used to create a short-lived access token. And the only thing that ever leaves the the GitHub runner is the shortlived access token that's typically living for an hour."
+    },
+    {
+      "t": 326.6,
+      "end": 343.7,
+      "text": "Um, and and with that, you can only do the stuff that this access token was created for. So if we create an access token for reading a repository, that's what you can do with that access token if it ever gets exposed."
+    },
+    {
+      "t": 343.7,
+      "end": 363.7,
+      "text": "Again here there's no impersonation. Uh it's a bot or it's a automation. Um it's it's the app. Um, and it's scoped to one organization and a select repositories and and you can do exactly you can get the permissions for the access token that the app is"
+    },
+    {
+      "t": 363.7,
+      "end": 379.5,
+      "text": "set up to be able to give you. There's one scenario that doesn't work. That's GitHub packages. So, uh, that's a feature that GitHub is is is missing. Uh what you can do there is you can create a specific personal access token that only has"
+    },
+    {
+      "t": 379.5,
+      "end": 394,
+      "text": "uh packages readr and nothing else. That would actually uh yeah that would solve that problem. But let's have a look at the GitHub app authentication and see how that actually"
+    },
+    {
+      "t": 394,
+      "end": 414.2,
+      "text": "looks. There's a number of uh runs here. And if we look at this one, the very first update algo system files I ran manually run by Freddy DK and the um the the commit that resolved from that uh workflow run the update elgo system files here is a commit pushed"
+    },
+    {
+      "t": 414.2,
+      "end": 424.6,
+      "text": "by Freddy DK. So that is done by my personal access token. That's my user that that was running this one and it was my user that pushed this one."
+    },
+    {
+      "t": 424.6,
+      "end": 444.4,
+      "text": "So that was done by GH token workflow that was uh impersonating me. The next one I ran here is done manually run by Freddy DK but the subsequent commit here is pushed by algo authentication and that's a bot that is the GitHub app."
+    },
+    {
+      "t": 444.4,
+      "end": 464.6,
+      "text": "Let's have a look at this one which actually ran this workflow. um and click here look into the update elgo system files and what happens here is that it gets the app info and it gets a token response and saying I want access to this repository and I want the permissions to read"
+    },
+    {
+      "t": 464.6,
+      "end": 484.9,
+      "text": "read and read uh these different things and when I then discover that yes we have to actually update the system files then later on we're going to get a new new token which is for write write read and write in order to update or create the pull request that updates our"
+    },
+    {
+      "t": 484.9,
+      "end": 496.5,
+      "text": "algo system files in this repository. So at any time the access token that we use does not have more permissions that it actually than it actually needs to have."
+    },
+    {
+      "t": 496.5,
+      "end": 509.8,
+      "text": "So let's go back to this one and talk about embed secrets in install apps and install test apps. We had a workshop with a partner that was using algo or was in"
+    },
+    {
+      "t": 509.8,
+      "end": 521.8,
+      "text": "uh in the process of setting up algo for their repositories. And one of the things they told us was that they had like right there in source code pointers to"
+    },
+    {
+      "t": 521.8,
+      "end": 533.3,
+      "text": "um to blobs that were like in a secure storage area, meaning there was like a SAS token there in clear text. Um well, it might be a read token."
+    },
+    {
+      "t": 533.3,
+      "end": 552.5,
+      "text": "it might not actually be uh a problem but we decided that that that should not happen. We should not have secrets in clear text. So what we did was we added a feature that enables you to instead of having an install apps where you have like oh this is Dropbox but anyway"
+    },
+    {
+      "t": 552.5,
+      "end": 565.8,
+      "text": "uh where you have an RL key or whatever now you can actually have a secret name right there in your install apps that allows you to store the SAS token or the RL key or the entire URL"
+    },
+    {
+      "t": 565.8,
+      "end": 577.6,
+      "text": "um away in a secret so that you never see that one in your logs or anything like that. Let's just have a quick look at how that"
+    },
+    {
+      "t": 577.6,
+      "end": 592,
+      "text": "looks. This one. Looking at the build here, we'll see that uh looking at the parameters, it should have a list of install apps,"
+    },
+    {
+      "t": 592,
+      "end": 606.5,
+      "text": "which is just some stars because it's a secret. Later on, we'll be able to see that when it's installing the apps, it's actually installing the Bing Maps app here, but we cannot see where it came from because the URL was a secret,"
+    },
+    {
+      "t": 606.5,
+      "end": 618,
+      "text": "obviously. So, with that, back to Maria. Thank you, Freddy. The last section of this presentation is about running AOG Go for GitHub on multiple branches."
+    },
+    {
+      "t": 618,
+      "end": 628.7,
+      "text": "Now, one of the things we recommend people do when they use AOG Go is to always use the latest version or to run updates um uh as soon as they're available."
+    },
+    {
+      "t": 628.7,
+      "end": 638.9,
+      "text": "Now, um uh we highly recommend that, but we also know that it's the workflow itself can can only be run uh one branch at a time."
+    },
+    {
+      "t": 638.9,
+      "end": 659,
+      "text": "And with the latest version 6.4, 4 we actually added the capability to do that to update Ago system files on multiple branches at a time. Uh what we also recommend is to run a go or update AGO system files on a schedule and we also acknowledge that there is a limitation on GitHub that doesn't"
+    },
+    {
+      "t": 659,
+      "end": 673.3,
+      "text": "allow you to do that for multiple branches that are not the default branch. So that's why we added a new setting uh called workflow schedule where you can define your chrome schedule as well as list of branches to include when running the workflow."
+    },
+    {
+      "t": 673.3,
+      "end": 686.2,
+      "text": "Now uh off to a short demo where I'm going to demonstrate uh quickly when you update uh a go system files. There is a new field where you can specify a list of branches to update."
+    },
+    {
+      "t": 686.2,
+      "end": 697.7,
+      "text": "Um you can use wild cards and you can use as many branches as the input allows you. Uh I'm not going to wait for this to to to to finish. I'm just going to show you what the result is."
+    },
+    {
+      "t": 697.7,
+      "end": 707.7,
+      "text": "Um you can verify on on the repository that there are indeed like two branches that match these uh patterns and the workflow runs on both of them."
+    },
+    {
+      "t": 707.7,
+      "end": 715,
+      "text": "With that, thanks for watching the video and see you next time. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1863
+}

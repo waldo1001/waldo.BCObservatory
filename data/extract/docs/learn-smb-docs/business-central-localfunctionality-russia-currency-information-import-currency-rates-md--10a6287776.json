@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/Currency-information-Import-currency-rates.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Currency-information-Import-currency-rates",
+  "title": "Currency information in Russia",
+  "blob": "1a876dce691715a50099f7b429e71f146f1cd45f",
+  "summary": "Currency information setup in Russia specifies local currency details and enables importing exchange rates from Russian banks with conflict resolution options.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "russia",
+    "currency",
+    "exchange rates",
+    "general ledger"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Currency"
+    },
+    {
+      "type": "report",
+      "name": "Import currency rates"
+    }
+  ],
+  "features": [
+    "local currency description",
+    "import exchange rates",
+    "russian bank codes",
+    "conflict resolution"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003061,
+      "pages_in_call": 8
+    }
+  ]
+}

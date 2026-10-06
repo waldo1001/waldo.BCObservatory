@@ -1,0 +1,27 @@
+{
+  "video_id": "b-ixzwDS41c",
+  "item_id": "video/yt-microsoft/b-ixzwDS41c",
+  "summary": "Customer-managed encryption key (CMK) for Business Central environment databases, using a key in the customer's own Azure Key Vault. The video demos the setup from Key Vault through Enterprise Policy to Power Platform admin center and lists the constraints: managed environment, purge protection, matching region, and copy/restore behavior.",
+  "overview": "The video, from the 2025 release wave 1 What's New series, presents CMK for Business Central. It targets customers with advanced data governance needs who want to encrypt the environment database with their own key instead of a Microsoft-managed key.\n\nIt walks through the setup: create a Key Vault and key in the Azure portal, enable the Power Platform resource provider, deploy an Enterprise Policy resource, assign access roles, set up CMK in the Power Platform admin center, and link the Business Central environment. It closes with considerations on licensing, unlinking, copy, restore, export and separation of duties.",
+  "key_points": [
+    "CMK works only on managed Power Platform environments linked to the Business Central environment. Managed environments need Microsoft 365 and Power Platform licensing beyond the Business Central license.",
+    "Purge protection must be enabled on any Key Vault that holds a key used to encrypt a Business Central environment database.",
+    "The microsoft.powerplatform resource provider is not enabled by default on an Azure subscription. Enable it before creating the Enterprise Policy resource.",
+    "The Enterprise Policy location must match the region of the Power Platform and Business Central environments. The Key ID must match the Key Vault resource ID.",
+    "Applying CMK starts encrypting the database right away, which may take time. Do it when the environment can be down.",
+    "Unlinking the environment reverts it to a Microsoft-managed key. A copy or restore creates a new environment that is not encrypted with CMK by default, so it needs a new link and CMK applied again.",
+    "An exported backup in the storage account is encrypted with Microsoft-managed keys by default. It can be re-encrypted with a customer-managed key. Separate the key administrator role from the Dynamics 365/Power Platform administrator role."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "decision maker"
+  ],
+  "extraction_hash": "34600f7deb21222c419c8d623f537016bbd0998a13f3e34a355f7da20f5c6b45",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0172224
+  }
+}

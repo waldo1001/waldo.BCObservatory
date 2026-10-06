@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/masterdata/items.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/items",
+  "title": "Subscription lines for items",
+  "blob": "63561dc85325eae7e2c023528eec5167ebfaa7f4",
+  "summary": "Item subscription options control whether items create subscription lines automatically in sales documents, supporting sales with subscriptions, subscription items, and invoicing items for recurring billing.",
+  "systems": [
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "subscription billing",
+    "item setup",
+    "subscription options",
+    "subscription packages"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Item Subscription Packages"
+    }
+  ],
+  "features": [
+    "Subscription Option field",
+    "Sales with Subscription",
+    "Subscription Item",
+    "Invoicing Item",
+    "subscription packages"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003061,
+      "pages_in_call": 8
+    }
+  ]
+}

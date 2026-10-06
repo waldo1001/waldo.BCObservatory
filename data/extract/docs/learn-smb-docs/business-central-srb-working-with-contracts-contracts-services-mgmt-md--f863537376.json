@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/working-with-contracts/contracts-services-mgmt.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/contracts-services-mgmt",
+  "title": "Managing contracts, subscriptions, and subscription lines",
+  "blob": "848f4b4db11d761d1ffa254069413b1ced83b0a8",
+  "summary": "Subscription contracts organize subscription lines for recurring billing to customers and vendors, with key fields controlling billing dates, amounts, discounts, periods, and termination dates.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "integration"
+  ],
+  "topics": [
+    "subscription billing",
+    "contracts",
+    "subscription lines",
+    "recurring billing",
+    "invoice discounts"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Subscription Contract"
+    },
+    {
+      "type": "page",
+      "name": "Planned Subscription Lines"
+    },
+    {
+      "type": "page",
+      "name": "Sales Subscription Lines"
+    }
+  ],
+  "features": [
+    "billing rhythm",
+    "calculation base amount",
+    "billing base period",
+    "invoice discounts",
+    "contract renewal",
+    "subscription line end date"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003061,
+      "pages_in_call": 8
+    }
+  ]
+}

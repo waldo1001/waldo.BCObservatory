@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/Sale-of-fixed-assets.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Sale-of-fixed-assets",
+  "title": "Selling fixed assets in Russia",
+  "blob": "b53aa99d26a925096d6288b02cb346334773ddc9",
+  "summary": "Selling fixed assets in Russia involves two stages: depreciating the asset through fixed asset journals, then posting a sales invoice with the fixed asset as the item type.",
+  "systems": [
+    "fixed-assets",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "russia",
+    "fixed assets",
+    "depreciation",
+    "sales"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Fixed Asset G/L Journals"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoices"
+    }
+  ],
+  "features": [
+    "depreciation posting",
+    "asset sales",
+    "depreciation books"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003061,
+      "pages_in_call": 8
+    }
+  ]
+}

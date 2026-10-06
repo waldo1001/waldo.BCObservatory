@@ -1,0 +1,28 @@
+{
+  "video_id": "_nmA6xJXKiY",
+  "item_id": "video/yt-microsoft/_nmA6xJXKiY",
+  "summary": "PTEs in the Business Central admin center (2025 release wave 1): the admin center now lists PTEs and dev extensions next to global apps, lets admins uninstall apps and see dependencies, and exposes the same data in admin center API version 2.25.",
+  "overview": "The video shows that, starting with this release wave, the admin center surfaces the PTEs installed on an environment. Before, only global apps were shown. A new dropdown filter separates global apps, PTEs and dev extensions.\n\nIt also demos uninstalling global apps from the admin center, with a choice of whether to keep application data. When an app has dependencies, the admin center shows which apps depend on it. Everything demoed is also available in the admin center API from version 2.25, including a new uninstall requirements endpoint and app type properties on the app endpoint.",
+  "key_points": [
+    "The admin center now shows PTEs and dev extensions, not only global apps.",
+    "A new dropdown filter shows global apps, PTEs and dev extensions separately.",
+    "Global apps can be uninstalled from the admin center, with the option to keep or remove application data.",
+    "Almost all apps can be uninstalled; the base app cannot.",
+    "When uninstalling an app with dependencies, the admin center lists the apps that depend on it, so you can see what else will be uninstalled.",
+    "Admin center API version 2.25 adds the same capabilities: querying installed extensions, reading app type on the app endpoint, and a new uninstall requirements endpoint.",
+    "The uninstall requirements endpoint returns which apps would be uninstalled as a result of uninstalling a given app."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "46996d9a39822870941737be9d7bed0421f7dd5ecd9feb1b21d6e86a0f241072",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0131964
+  }
+}

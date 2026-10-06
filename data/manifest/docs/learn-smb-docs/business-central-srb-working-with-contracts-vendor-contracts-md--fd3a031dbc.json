@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/vendor-contracts",
   "published_at": "2026-05-04T12:07:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f6feb5a0de50a6b0dcd5400042acdd35a49abe0b",
       "words": 1515,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T18:41:21.198Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003061
+    },
+    "summarized": {
+      "at": "2026-10-06T18:41:22.968Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:41:22.970Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:41:22.971Z",
+      "page": false
     }
   },
   "input_hash": "f6feb5a0de50a6b0dcd5400042acdd35a49abe0b",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f6feb5a0de50a6b0dcd5400042acdd35a49abe0b"
+  "output_hash": "cd21fa0cc1f544f048e43d4b27cd3517db0db903012606aeb1ac3a0b30e7d11f"
 }

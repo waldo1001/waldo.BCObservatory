@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/working-with-contracts/vendor-contracts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/vendor-contracts",
+  "title": "Vendor subscription contracts",
+  "blob": "f6feb5a0de50a6b0dcd5400042acdd35a49abe0b",
+  "summary": "Vendor subscription contracts record supplier liabilities with subscription lines, supporting contract extension, line merging, invoice creation, and tracking of closed contract lines.",
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "topics": [
+    "subscription billing",
+    "vendor contracts",
+    "contract management",
+    "recurring billing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Vendor Subscription Contracts"
+    },
+    {
+      "type": "page",
+      "name": "Vendors"
+    },
+    {
+      "type": "page",
+      "name": "Select Vendor Subscription Contract Line"
+    }
+  ],
+  "features": [
+    "contract extension",
+    "merge contract lines",
+    "invoice per contract",
+    "closed contract lines",
+    "get subscription lines"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003061,
+      "pages_in_call": 8
+    }
+  ]
+}

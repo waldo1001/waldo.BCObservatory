@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/purchases.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/purchases",
+  "title": "Purchasing in subscription billing",
+  "blob": "f97f9427311deb883ff2a22ab0e5baaf9e14522f",
+  "summary": "Purchasing with subscription lines maps recurring vendor purchases like rentals and maintenance to subscription contracts, using the same purchasing process as standard Business Central purchasing.",
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "topics": [
+    "subscription billing",
+    "vendor contracts",
+    "recurring purchases",
+    "subscription lines"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Assign Subscription Lines"
+    },
+    {
+      "type": "page",
+      "name": "Subscription Billing Role Center"
+    }
+  ],
+  "features": [
+    "vendor subscription lines",
+    "contract assignment",
+    "subscription package lines"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003061,
+      "pages_in_call": 8
+    }
+  ]
+}

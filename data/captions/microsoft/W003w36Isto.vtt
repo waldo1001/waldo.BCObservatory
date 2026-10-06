@@ -1,0 +1,2088 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:07.590 align:start position:0%
+ 
+[Music]
+
+00:00:07.590 --> 00:00:07.600 align:start position:0%
+[Music]
+ 
+
+00:00:07.600 --> 00:00:10.870 align:start position:0%
+[Music]
+Welcome<00:00:08.160><c> to</c><00:00:08.400><c> the</c><00:00:08.639><c> 2025</c><00:00:09.519><c> release</c><00:00:09.920><c> wave</c><00:00:10.240><c> 1.</c>
+
+00:00:10.870 --> 00:00:10.880 align:start position:0%
+Welcome to the 2025 release wave 1.
+ 
+
+00:00:10.880 --> 00:00:13.910 align:start position:0%
+Welcome to the 2025 release wave 1.
+What's<00:00:11.280><c> new</c><00:00:11.679><c> in</c><00:00:12.000><c> reporting</c><00:00:12.480><c> for</c><00:00:12.920><c> developers?</c>
+
+00:00:13.910 --> 00:00:13.920 align:start position:0%
+What's new in reporting for developers?
+ 
+
+00:00:13.920 --> 00:00:16.710 align:start position:0%
+What's new in reporting for developers?
+In<00:00:14.160><c> this</c><00:00:14.400><c> video,</c><00:00:15.280><c> we</c><00:00:15.519><c> have</c><00:00:16.000><c> four</c><00:00:16.400><c> different</c>
+
+00:00:16.710 --> 00:00:16.720 align:start position:0%
+In this video, we have four different
+ 
+
+00:00:16.720 --> 00:00:19.750 align:start position:0%
+In this video, we have four different
+topics<00:00:17.199><c> to</c><00:00:17.440><c> cover.</c><00:00:18.240><c> New</c><00:00:18.640><c> layout</c><00:00:19.039><c> features</c><00:00:19.439><c> in</c>
+
+00:00:19.750 --> 00:00:19.760 align:start position:0%
+topics to cover. New layout features in
+ 
+
+00:00:19.760 --> 00:00:22.390 align:start position:0%
+topics to cover. New layout features in
+AL,<00:00:20.320><c> new</c><00:00:20.720><c> layout</c><00:00:21.039><c> features</c><00:00:21.439><c> in</c><00:00:21.680><c> the</c><00:00:21.840><c> runtime</c>
+
+00:00:22.390 --> 00:00:22.400 align:start position:0%
+AL, new layout features in the runtime
+ 
+
+00:00:22.400 --> 00:00:25.590 align:start position:0%
+AL, new layout features in the runtime
+also<00:00:22.720><c> for</c><00:00:23.039><c> users.</c><00:00:24.080><c> easier</c><00:00:24.560><c> development</c><00:00:25.199><c> of</c>
+
+00:00:25.590 --> 00:00:25.600 align:start position:0%
+also for users. easier development of
+ 
+
+00:00:25.600 --> 00:00:28.429 align:start position:0%
+also for users. easier development of
+reports<00:00:26.080><c> with</c><00:00:26.480><c> word</c><00:00:26.880><c> layouts</c><00:00:27.359><c> and</c><00:00:27.599><c> and</c><00:00:28.080><c> some</c>
+
+00:00:28.429 --> 00:00:28.439 align:start position:0%
+reports with word layouts and and some
+ 
+
+00:00:28.439 --> 00:00:31.269 align:start position:0%
+reports with word layouts and and some
+updated<00:00:29.439><c> developer</c><00:00:30.119><c> documentation.</c><00:00:31.119><c> So</c>
+
+00:00:31.269 --> 00:00:31.279 align:start position:0%
+updated developer documentation. So
+ 
+
+00:00:31.279 --> 00:00:33.990 align:start position:0%
+updated developer documentation. So
+let's<00:00:31.599><c> dive</c><00:00:31.840><c> in.</c><00:00:32.800><c> So</c><00:00:32.960><c> the</c><00:00:33.200><c> new</c><00:00:33.360><c> things</c><00:00:33.600><c> you</c><00:00:33.840><c> can</c>
+
+00:00:33.990 --> 00:00:34.000 align:start position:0%
+let's dive in. So the new things you can
+ 
+
+00:00:34.000 --> 00:00:37.750 align:start position:0%
+let's dive in. So the new things you can
+do<00:00:34.399><c> from</c><00:00:35.040><c> AL</c><00:00:35.440><c> from</c><00:00:35.680><c> VS</c><00:00:36.079><c> code</c><00:00:36.559><c> when</c><00:00:36.800><c> with</c><00:00:37.200><c> report</c>
+
+00:00:37.750 --> 00:00:37.760 align:start position:0%
+do from AL from VS code when with report
+ 
+
+00:00:37.760 --> 00:00:40.910 align:start position:0%
+do from AL from VS code when with report
+layouts<00:00:38.559><c> is</c><00:00:39.040><c> that</c><00:00:39.280><c> you</c><00:00:39.520><c> can</c><00:00:39.680><c> first</c><00:00:39.840><c> of</c><00:00:40.000><c> all</c>
+
+00:00:40.910 --> 00:00:40.920 align:start position:0%
+layouts is that you can first of all
+ 
+
+00:00:40.920 --> 00:00:44.069 align:start position:0%
+layouts is that you can first of all
+override<00:00:41.920><c> any</c><00:00:42.480><c> choice</c><00:00:42.879><c> of</c><00:00:43.120><c> Excel</c><00:00:43.680><c> layout</c>
+
+00:00:44.069 --> 00:00:44.079 align:start position:0%
+override any choice of Excel layout
+ 
+
+00:00:44.079 --> 00:00:46.549 align:start position:0%
+override any choice of Excel layout
+multiple<00:00:44.480><c> data</c><00:00:44.800><c> sheets</c><00:00:45.200><c> property</c><00:00:46.079><c> that</c><00:00:46.399><c> has</c>
+
+00:00:46.549 --> 00:00:46.559 align:start position:0%
+multiple data sheets property that has
+ 
+
+00:00:46.559 --> 00:00:48.630 align:start position:0%
+multiple data sheets property that has
+been<00:00:46.719><c> set</c><00:00:46.960><c> on</c><00:00:47.120><c> the</c><00:00:47.280><c> report.</c><00:00:47.920><c> You</c><00:00:48.079><c> can</c><00:00:48.239><c> now</c><00:00:48.399><c> set</c>
+
+00:00:48.630 --> 00:00:48.640 align:start position:0%
+been set on the report. You can now set
+ 
+
+00:00:48.640 --> 00:00:51.190 align:start position:0%
+been set on the report. You can now set
+that<00:00:48.879><c> on</c><00:00:49.120><c> the</c><00:00:49.440><c> layout</c><00:00:49.760><c> level.</c><00:00:50.640><c> The</c><00:00:50.960><c> second</c>
+
+00:00:51.190 --> 00:00:51.200 align:start position:0%
+that on the layout level. The second
+ 
+
+00:00:51.200 --> 00:00:53.990 align:start position:0%
+that on the layout level. The second
+thing<00:00:51.520><c> is</c><00:00:51.920><c> that</c><00:00:52.239><c> you</c><00:00:52.399><c> can</c><00:00:52.559><c> now</c><00:00:52.960><c> obsolete</c><00:00:53.600><c> a</c>
+
+00:00:53.990 --> 00:00:54.000 align:start position:0%
+thing is that you can now obsolete a
+ 
+
+00:00:54.000 --> 00:00:58.069 align:start position:0%
+thing is that you can now obsolete a
+layout.<00:00:54.719><c> Let</c><00:00:54.960><c> me</c><00:00:55.120><c> show</c><00:00:55.280><c> you</c><00:00:55.800><c> how.</c><00:00:56.800><c> So</c><00:00:57.039><c> here</c><00:00:57.360><c> in</c>
+
+00:00:58.069 --> 00:00:58.079 align:start position:0%
+layout. Let me show you how. So here in
+ 
+
+00:00:58.079 --> 00:01:01.229 align:start position:0%
+layout. Let me show you how. So here in
+Visual<00:00:58.480><c> Studio</c><00:00:58.879><c> Code,</c><00:00:59.440><c> I</c><00:00:59.760><c> have</c><00:00:59.920><c> a</c><00:01:00.239><c> small</c>
+
+00:01:01.229 --> 00:01:01.239 align:start position:0%
+Visual Studio Code, I have a small
+ 
+
+00:01:01.239 --> 00:01:06.710 align:start position:0%
+Visual Studio Code, I have a small
+report<00:01:02.239><c> al</c><00:01:02.719><c> code.</c><00:01:04.040><c> Um</c><00:01:05.040><c> and</c><00:01:05.519><c> um</c><00:01:06.000><c> you</c><00:01:06.240><c> notice</c>
+
+00:01:06.710 --> 00:01:06.720 align:start position:0%
+report al code. Um and um you notice
+ 
+
+00:01:06.720 --> 00:01:09.750 align:start position:0%
+report al code. Um and um you notice
+that<00:01:07.360><c> I</c><00:01:07.680><c> have</c><00:01:07.840><c> a</c><00:01:08.159><c> new</c><00:01:08.479><c> layout</c><00:01:08.880><c> called</c><00:01:09.360><c> new</c>
+
+00:01:09.750 --> 00:01:09.760 align:start position:0%
+that I have a new layout called new
+ 
+
+00:01:09.760 --> 00:01:12.390 align:start position:0%
+that I have a new layout called new
+layout.<00:01:10.560><c> And</c><00:01:10.799><c> that's</c><00:01:11.119><c> because</c><00:01:11.439><c> I</c><00:01:11.760><c> also</c><00:01:12.159><c> have</c>
+
+00:01:12.390 --> 00:01:12.400 align:start position:0%
+layout. And that's because I also have
+ 
+
+00:01:12.400 --> 00:01:15.870 align:start position:0%
+layout. And that's because I also have
+an<00:01:12.640><c> old</c><00:01:13.119><c> layout</c><00:01:13.360><c> here</c><00:01:14.240><c> that</c><00:01:14.799><c> I</c><00:01:15.040><c> might</c><00:01:15.360><c> want</c><00:01:15.520><c> to</c>
+
+00:01:15.870 --> 00:01:15.880 align:start position:0%
+an old layout here that I might want to
+ 
+
+00:01:15.880 --> 00:01:19.510 align:start position:0%
+an old layout here that I might want to
+deprecate<00:01:16.880><c> or</c><00:01:17.119><c> obsolete.</c><00:01:18.400><c> So</c><00:01:18.799><c> uh</c><00:01:18.960><c> so</c><00:01:19.119><c> let's</c><00:01:19.360><c> do</c>
+
+00:01:19.510 --> 00:01:19.520 align:start position:0%
+deprecate or obsolete. So uh so let's do
+ 
+
+00:01:19.520 --> 00:01:22.469 align:start position:0%
+deprecate or obsolete. So uh so let's do
+that<00:01:19.759><c> first.</c><00:01:20.320><c> Um</c><00:01:20.880><c> and</c><00:01:21.119><c> it's</c><00:01:21.600><c> the</c><00:01:21.840><c> same</c><00:01:22.080><c> way</c><00:01:22.240><c> as</c>
+
+00:01:22.469 --> 00:01:22.479 align:start position:0%
+that first. Um and it's the same way as
+ 
+
+00:01:22.479 --> 00:01:24.310 align:start position:0%
+that first. Um and it's the same way as
+you<00:01:22.640><c> would</c><00:01:22.799><c> deprecate</c><00:01:23.280><c> any</c><00:01:23.520><c> other</c><00:01:23.759><c> thing</c><00:01:24.000><c> in</c>
+
+00:01:24.310 --> 00:01:24.320 align:start position:0%
+you would deprecate any other thing in
+ 
+
+00:01:24.320 --> 00:01:29.870 align:start position:0%
+you would deprecate any other thing in
+AL.<00:01:25.040><c> You</c><00:01:25.200><c> simply</c><00:01:25.600><c> set</c><00:01:26.159><c> the</c><00:01:26.479><c> obsolete</c><00:01:27.479><c> tag</c><00:01:28.600><c> to</c>
+
+00:01:29.870 --> 00:01:29.880 align:start position:0%
+AL. You simply set the obsolete tag to
+ 
+
+00:01:29.880 --> 00:01:33.910 align:start position:0%
+AL. You simply set the obsolete tag to
+something.<00:01:30.880><c> Uh</c><00:01:31.119><c> you</c><00:01:31.439><c> set</c><00:01:31.680><c> the</c><00:01:32.200><c> obsolete</c><00:01:33.200><c> state</c>
+
+00:01:33.910 --> 00:01:33.920 align:start position:0%
+something. Uh you set the obsolete state
+ 
+
+00:01:33.920 --> 00:01:36.550 align:start position:0%
+something. Uh you set the obsolete state
+and<00:01:34.560><c> in</c><00:01:34.720><c> this</c><00:01:34.960><c> case</c><00:01:35.119><c> we</c><00:01:35.360><c> set</c><00:01:35.520><c> it</c><00:01:35.600><c> to</c><00:01:35.840><c> pending</c>
+
+00:01:36.550 --> 00:01:36.560 align:start position:0%
+and in this case we set it to pending
+ 
+
+00:01:36.560 --> 00:01:40.469 align:start position:0%
+and in this case we set it to pending
+and<00:01:36.880><c> obsolete</c><00:01:37.439><c> reason.</c><00:01:38.479><c> This</c><00:01:38.720><c> obsolete</c><00:01:39.600><c> is</c><00:01:40.079><c> up</c>
+
+00:01:40.469 --> 00:01:40.479 align:start position:0%
+and obsolete reason. This obsolete is up
+ 
+
+00:01:40.479 --> 00:01:42.390 align:start position:0%
+and obsolete reason. This obsolete is up
+layout<00:01:40.720><c> is</c><00:01:40.880><c> obsolete</c><00:01:41.439><c> because</c><00:01:41.920><c> we</c><00:01:42.240><c> have</c>
+
+00:01:42.390 --> 00:01:42.400 align:start position:0%
+layout is obsolete because we have
+ 
+
+00:01:42.400 --> 00:01:45.670 align:start position:0%
+layout is obsolete because we have
+something<00:01:43.159><c> whatever</c><00:01:44.159><c> obsolete</c><00:01:44.720><c> tag</c><00:01:45.040><c> is</c><00:01:45.200><c> is</c>
+
+00:01:45.670 --> 00:01:45.680 align:start position:0%
+something whatever obsolete tag is is
+ 
+
+00:01:45.680 --> 00:01:48.389 align:start position:0%
+something whatever obsolete tag is is
+probably<00:01:46.079><c> the</c><00:01:46.320><c> version</c><00:01:46.799><c> that</c><00:01:47.200><c> you</c><00:01:47.680><c> uh</c><00:01:48.000><c> you</c><00:01:48.240><c> use</c>
+
+00:01:48.389 --> 00:01:48.399 align:start position:0%
+probably the version that you uh you use
+ 
+
+00:01:48.399 --> 00:01:51.590 align:start position:0%
+probably the version that you uh you use
+for<00:01:48.640><c> this.</c><00:01:48.880><c> So</c><00:01:49.040><c> let's</c><00:01:49.280><c> put</c><00:01:49.520><c> in</c><00:01:49.920><c> something</c><00:01:50.240><c> like</c>
+
+00:01:51.590 --> 00:01:51.600 align:start position:0%
+for this. So let's put in something like
+ 
+
+00:01:51.600 --> 00:01:56.149 align:start position:0%
+for this. So let's put in something like
+uh<00:01:52.119><c> 20</c><00:01:53.479><c> 28</c><00:01:54.479><c> whatever</c><00:01:54.880><c> tags</c><00:01:55.200><c> you</c><00:01:55.439><c> use.</c><00:01:55.920><c> So</c>
+
+00:01:56.149 --> 00:01:56.159 align:start position:0%
+uh 20 28 whatever tags you use. So
+ 
+
+00:01:56.159 --> 00:01:58.789 align:start position:0%
+uh 20 28 whatever tags you use. So
+that's<00:01:56.320><c> the</c><00:01:56.560><c> way</c><00:01:56.720><c> you</c><00:01:56.960><c> can</c><00:01:57.520><c> obsolete</c><00:01:58.079><c> a</c><00:01:58.479><c> layout</c>
+
+00:01:58.789 --> 00:01:58.799 align:start position:0%
+that's the way you can obsolete a layout
+ 
+
+00:01:58.799 --> 00:02:04.149 align:start position:0%
+that's the way you can obsolete a layout
+from<00:01:59.399><c> AL.</c><00:02:00.479><c> The</c><00:02:00.719><c> second</c><00:02:01.119><c> thing</c><00:02:01.360><c> is</c><00:02:02.399><c> um</c><00:02:02.840><c> that</c><00:02:03.840><c> you</c>
+
+00:02:04.149 --> 00:02:04.159 align:start position:0%
+from AL. The second thing is um that you
+ 
+
+00:02:04.159 --> 00:02:05.789 align:start position:0%
+from AL. The second thing is um that you
+can
+
+00:02:05.789 --> 00:02:05.799 align:start position:0%
+can
+ 
+
+00:02:05.799 --> 00:02:09.430 align:start position:0%
+can
+override<00:02:06.799><c> the</c><00:02:07.439><c> Excel</c><00:02:08.160><c> multiple</c><00:02:08.720><c> worksheets</c>
+
+00:02:09.430 --> 00:02:09.440 align:start position:0%
+override the Excel multiple worksheets
+ 
+
+00:02:09.440 --> 00:02:12.630 align:start position:0%
+override the Excel multiple worksheets
+property.<00:02:10.080><c> So</c><00:02:10.399><c> here</c><00:02:10.720><c> I</c><00:02:10.959><c> can</c><00:02:11.120><c> simply</c><00:02:11.440><c> say</c><00:02:12.400><c> I</c>
+
+00:02:12.630 --> 00:02:12.640 align:start position:0%
+property. So here I can simply say I
+ 
+
+00:02:12.640 --> 00:02:15.430 align:start position:0%
+property. So here I can simply say I
+would<00:02:12.800><c> like</c><00:02:13.200><c> the</c><00:02:14.000><c> Excel</c><00:02:14.560><c> layout</c><00:02:14.959><c> multiple</c>
+
+00:02:15.430 --> 00:02:15.440 align:start position:0%
+would like the Excel layout multiple
+ 
+
+00:02:15.440 --> 00:02:19.070 align:start position:0%
+would like the Excel layout multiple
+data<00:02:15.680><c> sheets</c><00:02:16.080><c> to</c><00:02:16.239><c> be</c><00:02:16.400><c> set</c><00:02:16.640><c> to</c><00:02:17.239><c> true</c><00:02:18.239><c> even</c>
+
+00:02:19.070 --> 00:02:19.080 align:start position:0%
+data sheets to be set to true even
+ 
+
+00:02:19.080 --> 00:02:23.510 align:start position:0%
+data sheets to be set to true even
+though<00:02:20.080><c> the</c><00:02:20.560><c> Excel</c><00:02:21.680><c> um</c><00:02:22.160><c> layout</c><00:02:22.720><c> multiple</c><00:02:23.200><c> data</c>
+
+00:02:23.510 --> 00:02:23.520 align:start position:0%
+though the Excel um layout multiple data
+ 
+
+00:02:23.520 --> 00:02:26.790 align:start position:0%
+though the Excel um layout multiple data
+sheets<00:02:24.239><c> might</c><00:02:24.480><c> have</c><00:02:24.720><c> been</c><00:02:24.959><c> set</c><00:02:25.599><c> to</c><00:02:25.920><c> false</c><00:02:26.560><c> on</c>
+
+00:02:26.790 --> 00:02:26.800 align:start position:0%
+sheets might have been set to false on
+ 
+
+00:02:26.800 --> 00:02:30.070 align:start position:0%
+sheets might have been set to false on
+the<00:02:27.040><c> report.</c><00:02:27.920><c> And</c><00:02:28.160><c> the</c><00:02:28.400><c> reason</c><00:02:28.560><c> this</c><00:02:28.879><c> is</c><00:02:29.680><c> is</c>
+
+00:02:30.070 --> 00:02:30.080 align:start position:0%
+the report. And the reason this is is
+ 
+
+00:02:30.080 --> 00:02:33.110 align:start position:0%
+the report. And the reason this is is
+smart<00:02:30.400><c> is</c><00:02:30.800><c> that</c><00:02:31.440><c> the</c><00:02:31.760><c> default</c><00:02:32.160><c> value</c><00:02:32.560><c> for</c><00:02:32.800><c> for</c>
+
+00:02:33.110 --> 00:02:33.120 align:start position:0%
+smart is that the default value for for
+ 
+
+00:02:33.120 --> 00:02:36.070 align:start position:0%
+smart is that the default value for for
+this<00:02:33.360><c> property</c><00:02:33.840><c> is</c><00:02:34.160><c> false.</c><00:02:35.120><c> So</c><00:02:35.519><c> that</c><00:02:35.760><c> that</c>
+
+00:02:36.070 --> 00:02:36.080 align:start position:0%
+this property is false. So that that
+ 
+
+00:02:36.080 --> 00:02:38.550 align:start position:0%
+this property is false. So that that
+means<00:02:36.400><c> if</c><00:02:36.640><c> you</c><00:02:36.800><c> add</c><00:02:37.040><c> a</c><00:02:37.280><c> new</c><00:02:37.599><c> layout</c><00:02:38.160><c> to</c><00:02:38.400><c> an</c>
+
+00:02:38.550 --> 00:02:38.560 align:start position:0%
+means if you add a new layout to an
+ 
+
+00:02:38.560 --> 00:02:41.910 align:start position:0%
+means if you add a new layout to an
+existing<00:02:39.040><c> report,</c><00:02:40.000><c> you</c><00:02:40.319><c> can</c><00:02:40.879><c> you</c><00:02:41.200><c> can</c><00:02:41.599><c> set</c>
+
+00:02:41.910 --> 00:02:41.920 align:start position:0%
+existing report, you can you can set
+ 
+
+00:02:41.920 --> 00:02:44.390 align:start position:0%
+existing report, you can you can set
+this<00:02:42.160><c> Excel</c><00:02:42.720><c> layout</c><00:02:43.040><c> multiple</c><00:02:43.440><c> data</c><00:02:43.760><c> sheets</c>
+
+00:02:44.390 --> 00:02:44.400 align:start position:0%
+this Excel layout multiple data sheets
+ 
+
+00:02:44.400 --> 00:02:47.190 align:start position:0%
+this Excel layout multiple data sheets
+and<00:02:44.720><c> therefore</c><00:02:45.599><c> it's</c><00:02:45.840><c> only</c><00:02:46.080><c> your</c><00:02:46.480><c> layout</c><00:02:46.959><c> that</c>
+
+00:02:47.190 --> 00:02:47.200 align:start position:0%
+and therefore it's only your layout that
+ 
+
+00:02:47.200 --> 00:02:50.710 align:start position:0%
+and therefore it's only your layout that
+will<00:02:47.519><c> have</c><00:02:47.760><c> this</c><00:02:48.480><c> property,</c><00:02:49.040><c> not</c><00:02:49.519><c> any</c><00:02:49.840><c> any</c><00:02:50.239><c> old</c>
+
+00:02:50.710 --> 00:02:50.720 align:start position:0%
+will have this property, not any any old
+ 
+
+00:02:50.720 --> 00:02:53.270 align:start position:0%
+will have this property, not any any old
+layouts<00:02:51.680><c> uh</c><00:02:51.840><c> that</c><00:02:52.080><c> you</c><00:02:52.239><c> might</c><00:02:52.480><c> break</c><00:02:52.959><c> that</c>
+
+00:02:53.270 --> 00:02:53.280 align:start position:0%
+layouts uh that you might break that
+ 
+
+00:02:53.280 --> 00:02:55.910 align:start position:0%
+layouts uh that you might break that
+customers<00:02:53.680><c> have</c><00:02:53.840><c> added.</c><00:02:54.640><c> We</c><00:02:54.959><c> also</c><00:02:55.200><c> added</c><00:02:55.599><c> some</c>
+
+00:02:55.910 --> 00:02:55.920 align:start position:0%
+customers have added. We also added some
+ 
+
+00:02:55.920 --> 00:02:59.190 align:start position:0%
+customers have added. We also added some
+new<00:02:56.239><c> features</c><00:02:57.200><c> when</c><00:02:57.519><c> you</c><00:02:57.760><c> use</c><00:02:58.160><c> report</c><00:02:58.800><c> layouts</c>
+
+00:02:59.190 --> 00:02:59.200 align:start position:0%
+new features when you use report layouts
+ 
+
+00:02:59.200 --> 00:03:03.070 align:start position:0%
+new features when you use report layouts
+in<00:02:59.440><c> the</c><00:02:59.920><c> report</c><00:03:00.480><c> layouts</c><00:03:00.879><c> page</c><00:03:01.360><c> in</c><00:03:01.599><c> the</c><00:03:01.760><c> in</c><00:03:02.000><c> the</c>
+
+00:03:03.070 --> 00:03:03.080 align:start position:0%
+in the report layouts page in the in the
+ 
+
+00:03:03.080 --> 00:03:05.190 align:start position:0%
+in the report layouts page in the in the
+application.<00:03:04.080><c> There</c><00:03:04.239><c> are</c><00:03:04.400><c> three</c><00:03:04.640><c> things.</c>
+
+00:03:05.190 --> 00:03:05.200 align:start position:0%
+application. There are three things.
+ 
+
+00:03:05.200 --> 00:03:07.830 align:start position:0%
+application. There are three things.
+First<00:03:05.360><c> of</c><00:03:05.519><c> all,</c><00:03:05.760><c> you</c><00:03:06.000><c> can</c><00:03:06.159><c> set</c><00:03:06.959><c> the</c><00:03:07.360><c> Excel</c>
+
+00:03:07.830 --> 00:03:07.840 align:start position:0%
+First of all, you can set the Excel
+ 
+
+00:03:07.840 --> 00:03:10.070 align:start position:0%
+First of all, you can set the Excel
+layout<00:03:08.159><c> multiple</c><00:03:08.640><c> data</c><00:03:08.959><c> sheets</c><00:03:09.599><c> on</c><00:03:09.840><c> the</c>
+
+00:03:10.070 --> 00:03:10.080 align:start position:0%
+layout multiple data sheets on the
+ 
+
+00:03:10.080 --> 00:03:12.149 align:start position:0%
+layout multiple data sheets on the
+layout<00:03:10.400><c> level</c><00:03:10.800><c> there</c><00:03:11.120><c> as</c><00:03:11.360><c> well</c><00:03:11.519><c> as</c><00:03:11.760><c> you</c><00:03:11.920><c> could</c>
+
+00:03:12.149 --> 00:03:12.159 align:start position:0%
+layout level there as well as you could
+ 
+
+00:03:12.159 --> 00:03:15.270 align:start position:0%
+layout level there as well as you could
+in<00:03:12.519><c> AL.</c><00:03:13.519><c> There's</c><00:03:13.840><c> also</c><00:03:14.159><c> more</c><00:03:14.400><c> visibility</c><00:03:14.959><c> into</c>
+
+00:03:15.270 --> 00:03:15.280 align:start position:0%
+in AL. There's also more visibility into
+ 
+
+00:03:15.280 --> 00:03:18.070 align:start position:0%
+in AL. There's also more visibility into
+the<00:03:15.519><c> properties</c><00:03:16.000><c> of</c><00:03:16.159><c> a</c><00:03:16.480><c> layout.</c><00:03:17.120><c> And</c><00:03:17.440><c> finally,</c>
+
+00:03:18.070 --> 00:03:18.080 align:start position:0%
+the properties of a layout. And finally,
+ 
+
+00:03:18.080 --> 00:03:21.830 align:start position:0%
+the properties of a layout. And finally,
+you<00:03:18.319><c> can</c><00:03:18.480><c> validate</c><00:03:19.040><c> a</c><00:03:19.440><c> layout</c><00:03:20.080><c> that</c><00:03:20.720><c> either</c><00:03:21.760><c> uh</c>
+
+00:03:21.830 --> 00:03:21.840 align:start position:0%
+you can validate a layout that either uh
+ 
+
+00:03:21.840 --> 00:03:25.309 align:start position:0%
+you can validate a layout that either uh
+that<00:03:22.560><c> um</c><00:03:23.120><c> that</c><00:03:23.440><c> a</c><00:03:23.760><c> customer</c><00:03:24.239><c> or</c><00:03:24.480><c> a</c>
+
+00:03:25.309 --> 00:03:25.319 align:start position:0%
+that um that a customer or a
+ 
+
+00:03:25.319 --> 00:03:28.869 align:start position:0%
+that um that a customer or a
+user<00:03:26.319><c> added</c><00:03:26.720><c> or</c><00:03:27.040><c> even</c><00:03:27.360><c> one</c><00:03:27.599><c> that</c><00:03:27.840><c> was</c><00:03:28.000><c> added</c>
+
+00:03:28.869 --> 00:03:28.879 align:start position:0%
+user added or even one that was added
+ 
+
+00:03:28.879 --> 00:03:31.910 align:start position:0%
+user added or even one that was added
+from<00:03:29.200><c> an</c><00:03:29.440><c> extension</c><00:03:29.920><c> or</c><00:03:30.159><c> an</c><00:03:30.400><c> app.</c><00:03:31.280><c> Let's</c><00:03:31.760><c> uh</c>
+
+00:03:31.910 --> 00:03:31.920 align:start position:0%
+from an extension or an app. Let's uh
+ 
+
+00:03:31.920 --> 00:03:33.789 align:start position:0%
+from an extension or an app. Let's uh
+dive<00:03:32.159><c> in</c><00:03:32.480><c> and</c><00:03:32.799><c> take</c><00:03:32.879><c> a</c>
+
+00:03:33.789 --> 00:03:33.799 align:start position:0%
+dive in and take a
+ 
+
+00:03:33.799 --> 00:03:36.710 align:start position:0%
+dive in and take a
+look.<00:03:34.799><c> So</c><00:03:35.040><c> here</c><00:03:35.280><c> on</c><00:03:35.519><c> the</c><00:03:35.760><c> report</c><00:03:36.319><c> layouts</c>
+
+00:03:36.710 --> 00:03:36.720 align:start position:0%
+look. So here on the report layouts
+ 
+
+00:03:36.720 --> 00:03:42.270 align:start position:0%
+look. So here on the report layouts
+page,<00:03:37.680><c> you</c><00:03:37.920><c> might</c><00:03:38.159><c> notice</c><00:03:38.959><c> a</c><00:03:39.280><c> new</c><00:03:39.879><c> menu</c><00:03:40.879><c> called</c>
+
+00:03:42.270 --> 00:03:42.280 align:start position:0%
+page, you might notice a new menu called
+ 
+
+00:03:42.280 --> 00:03:45.509 align:start position:0%
+page, you might notice a new menu called
+layout.<00:03:43.280><c> Here</c><00:03:43.840><c> we</c><00:03:44.159><c> have</c><00:03:44.879><c> first</c><00:03:45.120><c> of</c><00:03:45.200><c> all</c>
+
+00:03:45.509 --> 00:03:45.519 align:start position:0%
+layout. Here we have first of all
+ 
+
+00:03:45.519 --> 00:03:48.390 align:start position:0%
+layout. Here we have first of all
+gathered<00:03:46.000><c> some</c><00:03:46.159><c> of</c><00:03:46.319><c> the</c><00:03:46.560><c> other</c><00:03:46.799><c> old</c><00:03:47.120><c> actions</c>
+
+00:03:48.390 --> 00:03:48.400 align:start position:0%
+gathered some of the other old actions
+ 
+
+00:03:48.400 --> 00:03:50.390 align:start position:0%
+gathered some of the other old actions
+um<00:03:48.480><c> for</c><00:03:48.879><c> layouts.</c><00:03:49.280><c> But</c><00:03:49.360><c> you</c><00:03:49.519><c> can</c><00:03:49.599><c> also</c><00:03:49.840><c> see</c><00:03:50.159><c> two</c>
+
+00:03:50.390 --> 00:03:50.400 align:start position:0%
+um for layouts. But you can also see two
+ 
+
+00:03:50.400 --> 00:03:52.830 align:start position:0%
+um for layouts. But you can also see two
+new<00:03:50.640><c> actions</c><00:03:51.200><c> validate</c><00:03:51.840><c> and</c><00:03:52.159><c> show</c><00:03:52.560><c> layout</c>
+
+00:03:52.830 --> 00:03:52.840 align:start position:0%
+new actions validate and show layout
+ 
+
+00:03:52.840 --> 00:03:55.830 align:start position:0%
+new actions validate and show layout
+info.<00:03:53.920><c> Before</c><00:03:54.239><c> we</c><00:03:54.560><c> dive</c><00:03:54.799><c> into</c><00:03:55.040><c> that,</c><00:03:55.519><c> let</c><00:03:55.680><c> me</c>
+
+00:03:55.830 --> 00:03:55.840 align:start position:0%
+info. Before we dive into that, let me
+ 
+
+00:03:55.840 --> 00:03:58.229 align:start position:0%
+info. Before we dive into that, let me
+just<00:03:56.239><c> quickly</c><00:03:56.720><c> show</c><00:03:56.959><c> you</c><00:03:57.439><c> in</c><00:03:57.680><c> case</c><00:03:57.840><c> you</c><00:03:58.080><c> want</c>
+
+00:03:58.229 --> 00:03:58.239 align:start position:0%
+just quickly show you in case you want
+ 
+
+00:03:58.239 --> 00:04:01.190 align:start position:0%
+just quickly show you in case you want
+to<00:03:58.480><c> add</c><00:03:59.200><c> or</c><00:03:59.439><c> a</c><00:03:59.599><c> user</c><00:04:00.000><c> wants</c><00:04:00.239><c> to</c><00:04:00.400><c> add</c><00:04:00.720><c> Excel</c>
+
+00:04:01.190 --> 00:04:01.200 align:start position:0%
+to add or a user wants to add Excel
+ 
+
+00:04:01.200 --> 00:04:04.550 align:start position:0%
+to add or a user wants to add Excel
+layout<00:04:01.599><c> to</c><00:04:01.920><c> any</c><00:04:02.439><c> report,</c><00:04:03.439><c> maybe</c><00:04:03.840><c> the</c><00:04:04.159><c> number</c>
+
+00:04:04.550 --> 00:04:04.560 align:start position:0%
+layout to any report, maybe the number
+ 
+
+00:04:04.560 --> 00:04:08.309 align:start position:0%
+layout to any report, maybe the number
+series<00:04:04.959><c> report</c><00:04:05.400><c> here.</c><00:04:06.400><c> Um,</c><00:04:07.040><c> they</c><00:04:07.360><c> can</c><00:04:07.920><c> set</c>
+
+00:04:08.309 --> 00:04:08.319 align:start position:0%
+series report here. Um, they can set
+ 
+
+00:04:08.319 --> 00:04:11.589 align:start position:0%
+series report here. Um, they can set
+this<00:04:08.879><c> multiple</c><00:04:09.360><c> data</c><00:04:09.680><c> sheets</c><00:04:10.640><c> property</c>
+
+00:04:11.589 --> 00:04:11.599 align:start position:0%
+this multiple data sheets property
+ 
+
+00:04:11.599 --> 00:04:13.750 align:start position:0%
+this multiple data sheets property
+directly<00:04:12.239><c> when</c><00:04:12.480><c> they</c><00:04:12.720><c> create</c><00:04:12.959><c> a</c><00:04:13.120><c> new</c><00:04:13.439><c> layout.</c>
+
+00:04:13.750 --> 00:04:13.760 align:start position:0%
+directly when they create a new layout.
+ 
+
+00:04:13.760 --> 00:04:17.990 align:start position:0%
+directly when they create a new layout.
+So<00:04:13.920><c> let's</c><00:04:14.159><c> say</c><00:04:15.040><c> test</c><00:04:15.920><c> Excel,</c><00:04:16.799><c> it's</c><00:04:17.120><c> an</c><00:04:17.280><c> Excel</c>
+
+00:04:17.990 --> 00:04:18.000 align:start position:0%
+So let's say test Excel, it's an Excel
+ 
+
+00:04:18.000 --> 00:04:21.270 align:start position:0%
+So let's say test Excel, it's an Excel
+layout.<00:04:18.799><c> I</c><00:04:19.120><c> can</c><00:04:19.280><c> choose</c><00:04:20.239><c> blank</c><00:04:20.720><c> layout</c><00:04:21.040><c> and</c>
+
+00:04:21.270 --> 00:04:21.280 align:start position:0%
+layout. I can choose blank layout and
+ 
+
+00:04:21.280 --> 00:04:23.990 align:start position:0%
+layout. I can choose blank layout and
+then<00:04:21.440><c> I</c><00:04:21.680><c> can</c><00:04:21.840><c> choose</c><00:04:22.400><c> multiple</c><00:04:22.880><c> data</c><00:04:23.199><c> sheets</c>
+
+00:04:23.990 --> 00:04:24.000 align:start position:0%
+then I can choose multiple data sheets
+ 
+
+00:04:24.000 --> 00:04:26.870 align:start position:0%
+then I can choose multiple data sheets
+and<00:04:24.320><c> create</c><00:04:25.199><c> um</c><00:04:25.280><c> a</c><00:04:25.600><c> new</c><00:04:25.840><c> layout.</c><00:04:26.400><c> So</c><00:04:26.639><c> that's</c>
+
+00:04:26.870 --> 00:04:26.880 align:start position:0%
+and create um a new layout. So that's
+ 
+
+00:04:26.880 --> 00:04:28.749 align:start position:0%
+and create um a new layout. So that's
+the<00:04:27.120><c> first</c>
+
+00:04:28.749 --> 00:04:28.759 align:start position:0%
+the first
+ 
+
+00:04:28.759 --> 00:04:32.070 align:start position:0%
+the first
+feature.<00:04:29.759><c> The</c><00:04:30.080><c> second</c><00:04:30.400><c> thing</c><00:04:30.720><c> is</c><00:04:31.520><c> that</c><00:04:31.840><c> you</c>
+
+00:04:32.070 --> 00:04:32.080 align:start position:0%
+feature. The second thing is that you
+ 
+
+00:04:32.080 --> 00:04:35.590 align:start position:0%
+feature. The second thing is that you
+might<00:04:32.400><c> want</c><00:04:32.720><c> to</c><00:04:33.280><c> troubleshoot</c><00:04:34.240><c> a</c><00:04:34.639><c> layout.</c><00:04:35.280><c> So</c>
+
+00:04:35.590 --> 00:04:35.600 align:start position:0%
+might want to troubleshoot a layout. So
+ 
+
+00:04:35.600 --> 00:04:39.350 align:start position:0%
+might want to troubleshoot a layout. So
+here<00:04:36.080><c> we</c><00:04:36.400><c> offer</c><00:04:37.360><c> first</c><00:04:37.600><c> of</c><00:04:37.759><c> all</c><00:04:38.720><c> the</c><00:04:38.960><c> show</c>
+
+00:04:39.350 --> 00:04:39.360 align:start position:0%
+here we offer first of all the show
+ 
+
+00:04:39.360 --> 00:04:42.629 align:start position:0%
+here we offer first of all the show
+layout<00:04:39.840><c> info.</c><00:04:40.560><c> So</c><00:04:40.800><c> that</c><00:04:40.960><c> means</c><00:04:41.199><c> you</c><00:04:41.360><c> can</c><00:04:41.520><c> ask</c><00:04:42.320><c> a</c>
+
+00:04:42.629 --> 00:04:42.639 align:start position:0%
+layout info. So that means you can ask a
+ 
+
+00:04:42.639 --> 00:04:45.590 align:start position:0%
+layout info. So that means you can ask a
+user<00:04:43.360><c> to</c><00:04:43.759><c> provide</c><00:04:44.400><c> everything</c><00:04:44.880><c> about</c><00:04:45.199><c> a</c>
+
+00:04:45.590 --> 00:04:45.600 align:start position:0%
+user to provide everything about a
+ 
+
+00:04:45.600 --> 00:04:50.710 align:start position:0%
+user to provide everything about a
+layout.<00:04:46.840><c> Um</c><00:04:47.840><c> there</c><00:04:48.160><c> is</c><00:04:48.800><c> the</c><00:04:49.199><c> system</c><00:04:49.600><c> ID</c><00:04:50.080><c> is</c><00:04:50.479><c> all</c>
+
+00:04:50.710 --> 00:04:50.720 align:start position:0%
+layout. Um there is the system ID is all
+ 
+
+00:04:50.720 --> 00:04:53.030 align:start position:0%
+layout. Um there is the system ID is all
+is<00:04:51.040><c> in</c><00:04:51.360><c> particularly</c><00:04:51.919><c> useful</c><00:04:52.479><c> if</c><00:04:52.720><c> you</c><00:04:52.880><c> have</c>
+
+00:04:53.030 --> 00:04:53.040 align:start position:0%
+is in particularly useful if you have
+ 
+
+00:04:53.040 --> 00:04:56.870 align:start position:0%
+is in particularly useful if you have
+telemetry<00:04:53.919><c> because</c><00:04:54.320><c> this</c><00:04:54.880><c> system</c><00:04:55.360><c> ID</c><00:04:55.680><c> is</c><00:04:56.000><c> also</c>
+
+00:04:56.870 --> 00:04:56.880 align:start position:0%
+telemetry because this system ID is also
+ 
+
+00:04:56.880 --> 00:04:58.870 align:start position:0%
+telemetry because this system ID is also
+the<00:04:57.120><c> one</c><00:04:57.360><c> that</c><00:04:57.520><c> is</c><00:04:57.759><c> locked</c><00:04:58.160><c> to</c><00:04:58.320><c> a</c><00:04:58.560><c> custom</c>
+
+00:04:58.870 --> 00:04:58.880 align:start position:0%
+the one that is locked to a custom
+ 
+
+00:04:58.880 --> 00:05:01.670 align:start position:0%
+the one that is locked to a custom
+dimension<00:04:59.440><c> called</c><00:04:59.919><c> layout</c><00:05:00.240><c> ID</c><00:05:00.639><c> there.</c><00:05:01.280><c> So</c><00:05:01.440><c> you</c>
+
+00:05:01.670 --> 00:05:01.680 align:start position:0%
+dimension called layout ID there. So you
+ 
+
+00:05:01.680 --> 00:05:04.230 align:start position:0%
+dimension called layout ID there. So you
+can<00:05:02.000><c> match</c><00:05:02.400><c> the</c><00:05:02.560><c> two</c><00:05:02.800><c> and</c><00:05:03.040><c> and</c><00:05:03.440><c> see</c><00:05:03.759><c> which</c><00:05:04.080><c> of</c>
+
+00:05:04.230 --> 00:05:04.240 align:start position:0%
+can match the two and and see which of
+ 
+
+00:05:04.240 --> 00:05:06.790 align:start position:0%
+can match the two and and see which of
+the<00:05:04.560><c> layouts</c><00:05:04.880><c> that</c><00:05:05.280><c> had</c><00:05:05.440><c> a</c><00:05:05.680><c> problem.</c><00:05:06.479><c> You</c><00:05:06.720><c> can</c>
+
+00:05:06.790 --> 00:05:06.800 align:start position:0%
+the layouts that had a problem. You can
+ 
+
+00:05:06.800 --> 00:05:09.590 align:start position:0%
+the layouts that had a problem. You can
+see<00:05:07.360><c> um</c><00:05:07.919><c> of</c><00:05:08.080><c> course</c><00:05:08.240><c> the</c><00:05:08.479><c> type</c><00:05:09.039><c> and</c><00:05:09.280><c> you</c><00:05:09.440><c> can</c>
+
+00:05:09.590 --> 00:05:09.600 align:start position:0%
+see um of course the type and you can
+ 
+
+00:05:09.600 --> 00:05:13.510 align:start position:0%
+see um of course the type and you can
+see<00:05:10.560><c> for</c><00:05:10.880><c> the</c><00:05:11.039><c> last</c><00:05:11.360><c> four</c><00:05:11.759><c> parts</c><00:05:12.080><c> here</c><00:05:13.039><c> um</c><00:05:13.199><c> who</c>
+
+00:05:13.510 --> 00:05:13.520 align:start position:0%
+see for the last four parts here um who
+ 
+
+00:05:13.520 --> 00:05:15.350 align:start position:0%
+see for the last four parts here um who
+created<00:05:14.000><c> or</c><00:05:14.240><c> modified</c><00:05:14.720><c> the</c><00:05:15.039><c> layout</c>
+
+00:05:15.350 --> 00:05:15.360 align:start position:0%
+created or modified the layout
+ 
+
+00:05:15.360 --> 00:05:17.990 align:start position:0%
+created or modified the layout
+especially<00:05:15.840><c> and</c><00:05:16.000><c> this</c><00:05:16.160><c> is</c><00:05:16.320><c> only</c><00:05:17.120><c> uh</c><00:05:17.280><c> populated</c>
+
+00:05:17.990 --> 00:05:18.000 align:start position:0%
+especially and this is only uh populated
+ 
+
+00:05:18.000 --> 00:05:19.990 align:start position:0%
+especially and this is only uh populated
+these<00:05:18.320><c> properties</c><00:05:18.800><c> only</c><00:05:19.039><c> populated</c><00:05:19.600><c> for</c>
+
+00:05:19.990 --> 00:05:20.000 align:start position:0%
+these properties only populated for
+ 
+
+00:05:20.000 --> 00:05:23.029 align:start position:0%
+these properties only populated for
+layouts<00:05:20.240><c> that</c><00:05:20.639><c> users</c><00:05:21.680><c> uh</c><00:05:22.000><c> import</c><00:05:22.560><c> or</c><00:05:22.880><c> work</c>
+
+00:05:23.029 --> 00:05:23.039 align:start position:0%
+layouts that users uh import or work
+ 
+
+00:05:23.039 --> 00:05:25.670 align:start position:0%
+layouts that users uh import or work
+with<00:05:23.520><c> not</c><00:05:23.680><c> the</c><00:05:23.840><c> ones</c><00:05:24.160><c> that</c><00:05:24.400><c> are</c><00:05:24.639><c> provided</c><00:05:25.280><c> from</c>
+
+00:05:25.670 --> 00:05:25.680 align:start position:0%
+with not the ones that are provided from
+ 
+
+00:05:25.680 --> 00:05:27.150 align:start position:0%
+with not the ones that are provided from
+extensions<00:05:26.240><c> or</c>
+
+00:05:27.150 --> 00:05:27.160 align:start position:0%
+extensions or
+ 
+
+00:05:27.160 --> 00:05:31.110 align:start position:0%
+extensions or
+apps.<00:05:28.240><c> You</c><00:05:28.479><c> also</c><00:05:28.720><c> notice</c><00:05:29.120><c> that</c><00:05:29.840><c> um</c><00:05:30.720><c> you</c><00:05:30.960><c> can</c>
+
+00:05:31.110 --> 00:05:31.120 align:start position:0%
+apps. You also notice that um you can
+ 
+
+00:05:31.120 --> 00:05:34.070 align:start position:0%
+apps. You also notice that um you can
+see<00:05:31.280><c> the</c><00:05:31.600><c> obsolete</c><00:05:32.479><c> property</c><00:05:33.039><c> if</c><00:05:33.280><c> any</c><00:05:33.759><c> layouts</c>
+
+00:05:34.070 --> 00:05:34.080 align:start position:0%
+see the obsolete property if any layouts
+ 
+
+00:05:34.080 --> 00:05:36.870 align:start position:0%
+see the obsolete property if any layouts
+have<00:05:34.240><c> been</c><00:05:34.400><c> obsoleted</c><00:05:35.360><c> that's</c><00:05:35.840><c> shown</c><00:05:36.160><c> here.</c>
+
+00:05:36.870 --> 00:05:36.880 align:start position:0%
+have been obsoleted that's shown here.
+ 
+
+00:05:36.880 --> 00:05:39.110 align:start position:0%
+have been obsoleted that's shown here.
+You<00:05:37.120><c> can</c><00:05:37.280><c> see</c><00:05:37.440><c> the</c><00:05:37.680><c> last</c><00:05:38.000><c> modified</c><00:05:38.639><c> date</c><00:05:38.880><c> and</c>
+
+00:05:39.110 --> 00:05:39.120 align:start position:0%
+You can see the last modified date and
+ 
+
+00:05:39.120 --> 00:05:42.710 align:start position:0%
+You can see the last modified date and
+the<00:05:39.759><c> last</c><00:05:40.080><c> modified</c><00:05:40.960><c> by</c><00:05:41.680><c> here</c><00:05:41.919><c> on</c><00:05:42.160><c> the</c><00:05:42.320><c> list.</c>
+
+00:05:42.710 --> 00:05:42.720 align:start position:0%
+the last modified by here on the list.
+ 
+
+00:05:42.720 --> 00:05:45.510 align:start position:0%
+the last modified by here on the list.
+So<00:05:42.880><c> that's</c><00:05:43.280><c> an</c><00:05:43.600><c> just</c><00:05:43.840><c> an</c><00:05:44.080><c> easy</c><00:05:44.400><c> way</c><00:05:44.560><c> for</c><00:05:44.800><c> you</c><00:05:45.120><c> to</c>
+
+00:05:45.510 --> 00:05:45.520 align:start position:0%
+So that's an just an easy way for you to
+ 
+
+00:05:45.520 --> 00:05:48.870 align:start position:0%
+So that's an just an easy way for you to
+see<00:05:45.840><c> those</c><00:05:46.440><c> properties.</c><00:05:47.440><c> And</c><00:05:47.680><c> finally</c><00:05:48.639><c> uh</c>
+
+00:05:48.870 --> 00:05:48.880 align:start position:0%
+see those properties. And finally uh
+ 
+
+00:05:48.880 --> 00:05:51.909 align:start position:0%
+see those properties. And finally uh
+from<00:05:49.199><c> this</c><00:05:49.600><c> layout</c><00:05:50.080><c> menu</c><00:05:50.880><c> there's</c><00:05:51.199><c> also</c><00:05:51.680><c> this</c>
+
+00:05:51.909 --> 00:05:51.919 align:start position:0%
+from this layout menu there's also this
+ 
+
+00:05:51.919 --> 00:05:54.629 align:start position:0%
+from this layout menu there's also this
+new<00:05:52.160><c> validate</c><00:05:52.720><c> action.</c><00:05:53.520><c> So</c><00:05:53.680><c> I</c><00:05:53.919><c> can</c><00:05:54.080><c> validate</c>
+
+00:05:54.629 --> 00:05:54.639 align:start position:0%
+new validate action. So I can validate
+ 
+
+00:05:54.639 --> 00:05:57.029 align:start position:0%
+new validate action. So I can validate
+any<00:05:55.120><c> layout</c><00:05:55.919><c> uh</c><00:05:56.000><c> whether</c><00:05:56.320><c> there's</c><00:05:56.720><c> anything</c>
+
+00:05:57.029 --> 00:05:57.039 align:start position:0%
+any layout uh whether there's anything
+ 
+
+00:05:57.039 --> 00:05:59.909 align:start position:0%
+any layout uh whether there's anything
+wrong.<00:05:57.840><c> Uh</c><00:05:58.080><c> I</c><00:05:58.400><c> don't</c><00:05:58.560><c> have</c><00:05:58.720><c> any</c><00:05:59.280><c> layouts</c><00:05:59.680><c> with</c>
+
+00:05:59.909 --> 00:05:59.919 align:start position:0%
+wrong. Uh I don't have any layouts with
+ 
+
+00:05:59.919 --> 00:06:03.189 align:start position:0%
+wrong. Uh I don't have any layouts with
+problems.<00:06:00.720><c> So</c><00:06:00.880><c> this</c><00:06:01.280><c> layout</c><00:06:01.600><c> is</c><00:06:01.840><c> valid.</c><00:06:02.639><c> Um</c>
+
+00:06:03.189 --> 00:06:03.199 align:start position:0%
+problems. So this layout is valid. Um
+ 
+
+00:06:03.199 --> 00:06:05.469 align:start position:0%
+problems. So this layout is valid. Um
+for<00:06:03.600><c> now</c><00:06:03.919><c> for</c><00:06:04.160><c> the</c>
+
+00:06:05.469 --> 00:06:05.479 align:start position:0%
+for now for the
+ 
+
+00:06:05.479 --> 00:06:09.670 align:start position:0%
+for now for the
+26.0<00:06:06.479><c> the</c><00:06:06.720><c> the</c><00:06:07.120><c> first</c><00:06:07.759><c> major</c><00:06:08.280><c> release</c><00:06:09.280><c> is</c><00:06:09.440><c> only</c>
+
+00:06:09.670 --> 00:06:09.680 align:start position:0%
+26.0 the the first major release is only
+ 
+
+00:06:09.680 --> 00:06:12.710 align:start position:0%
+26.0 the the first major release is only
+RDL<00:06:10.560><c> layout</c><00:06:10.880><c> that</c><00:06:11.120><c> will</c><00:06:11.360><c> be</c><00:06:11.520><c> validated</c><00:06:12.240><c> in</c><00:06:12.479><c> a</c>
+
+00:06:12.710 --> 00:06:12.720 align:start position:0%
+RDL layout that will be validated in a
+ 
+
+00:06:12.720 --> 00:06:14.790 align:start position:0%
+RDL layout that will be validated in a
+next<00:06:13.120><c> minor.</c><00:06:13.680><c> Uh</c><00:06:13.919><c> we</c><00:06:14.160><c> will</c><00:06:14.319><c> also</c><00:06:14.560><c> add</c>
+
+00:06:14.790 --> 00:06:14.800 align:start position:0%
+next minor. Uh we will also add
+ 
+
+00:06:14.800 --> 00:06:18.550 align:start position:0%
+next minor. Uh we will also add
+validation<00:06:15.520><c> for</c><00:06:15.840><c> word</c><00:06:16.160><c> and</c><00:06:16.479><c> excel.</c>
+
+00:06:18.550 --> 00:06:18.560 align:start position:0%
+validation for word and excel.
+ 
+
+00:06:18.560 --> 00:06:21.510 align:start position:0%
+validation for word and excel.
+We<00:06:18.800><c> also</c><00:06:19.120><c> made</c><00:06:19.360><c> it</c><00:06:19.600><c> a</c><00:06:19.840><c> lot</c><00:06:20.000><c> easier</c><00:06:20.560><c> to</c><00:06:21.039><c> work</c>
+
+00:06:21.510 --> 00:06:21.520 align:start position:0%
+We also made it a lot easier to work
+ 
+
+00:06:21.520 --> 00:06:25.590 align:start position:0%
+We also made it a lot easier to work
+with<00:06:22.199><c> reports</c><00:06:23.199><c> that</c><00:06:23.680><c> involve</c><00:06:24.400><c> word</c><00:06:24.880><c> layouts</c>
+
+00:06:25.590 --> 00:06:25.600 align:start position:0%
+with reports that involve word layouts
+ 
+
+00:06:25.600 --> 00:06:28.550 align:start position:0%
+with reports that involve word layouts
+and<00:06:25.840><c> that</c><00:06:26.080><c> is</c><00:06:26.240><c> both</c><00:06:26.560><c> for</c><00:06:26.960><c> new</c><00:06:27.280><c> reports</c><00:06:28.000><c> and</c><00:06:28.240><c> for</c>
+
+00:06:28.550 --> 00:06:28.560 align:start position:0%
+and that is both for new reports and for
+ 
+
+00:06:28.560 --> 00:06:30.790 align:start position:0%
+and that is both for new reports and for
+existing<00:06:29.039><c> reports</c><00:06:29.440><c> where</c><00:06:29.759><c> you</c><00:06:29.919><c> want</c><00:06:30.080><c> to</c><00:06:30.240><c> add</c><00:06:30.560><c> a</c>
+
+00:06:30.790 --> 00:06:30.800 align:start position:0%
+existing reports where you want to add a
+ 
+
+00:06:30.800 --> 00:06:31.710 align:start position:0%
+existing reports where you want to add a
+word
+
+00:06:31.710 --> 00:06:31.720 align:start position:0%
+word
+ 
+
+00:06:31.720 --> 00:06:35.670 align:start position:0%
+word
+layout.<00:06:32.800><c> Similarly</c><00:06:33.360><c> to</c><00:06:33.720><c> the</c><00:06:34.720><c> Excel</c><00:06:35.280><c> layout</c>
+
+00:06:35.670 --> 00:06:35.680 align:start position:0%
+layout. Similarly to the Excel layout
+ 
+
+00:06:35.680 --> 00:06:39.430 align:start position:0%
+layout. Similarly to the Excel layout
+feature,<00:06:36.639><c> you</c><00:06:36.880><c> can</c><00:06:37.039><c> now</c><00:06:37.840><c> find</c>
+
+00:06:39.430 --> 00:06:39.440 align:start position:0%
+feature, you can now find
+ 
+
+00:06:39.440 --> 00:06:42.070 align:start position:0%
+feature, you can now find
+um<00:06:40.000><c> standard</c><00:06:40.479><c> information</c><00:06:40.960><c> about</c><00:06:41.280><c> the</c><00:06:41.520><c> report</c>
+
+00:06:42.070 --> 00:06:42.080 align:start position:0%
+um standard information about the report
+ 
+
+00:06:42.080 --> 00:06:45.189 align:start position:0%
+um standard information about the report
+metadata<00:06:42.960><c> and</c><00:06:43.199><c> the</c><00:06:43.440><c> requests</c><00:06:44.000><c> directly</c><00:06:44.960><c> in</c>
+
+00:06:45.189 --> 00:06:45.199 align:start position:0%
+metadata and the requests directly in
+ 
+
+00:06:45.199 --> 00:06:48.590 align:start position:0%
+metadata and the requests directly in
+the<00:06:45.360><c> XML</c><00:06:46.080><c> for</c><00:06:46.479><c> the</c><00:06:46.800><c> for</c><00:06:47.199><c> for</c><00:06:47.440><c> the</c><00:06:47.600><c> word</c><00:06:48.240><c> uh</c>
+
+00:06:48.590 --> 00:06:48.600 align:start position:0%
+the XML for the for for the word uh
+ 
+
+00:06:48.600 --> 00:06:51.990 align:start position:0%
+the XML for the for for the word uh
+report<00:06:49.600><c> for</c><00:06:50.000><c> word</c><00:06:50.400><c> uh</c><00:06:50.720><c> layout.</c><00:06:51.440><c> And</c><00:06:51.680><c> that</c>
+
+00:06:51.990 --> 00:06:52.000 align:start position:0%
+report for word uh layout. And that
+ 
+
+00:06:52.000 --> 00:06:54.070 align:start position:0%
+report for word uh layout. And that
+makes<00:06:52.240><c> it</c><00:06:52.639><c> first</c><00:06:52.880><c> of</c><00:06:53.039><c> all</c><00:06:53.440><c> much</c><00:06:53.759><c> easier</c>
+
+00:06:54.070 --> 00:06:54.080 align:start position:0%
+makes it first of all much easier
+ 
+
+00:06:54.080 --> 00:06:55.590 align:start position:0%
+makes it first of all much easier
+because<00:06:54.319><c> you</c><00:06:54.560><c> don't</c><00:06:54.720><c> have</c><00:06:54.800><c> to</c><00:06:54.960><c> code</c><00:06:55.199><c> this</c><00:06:55.360><c> in</c>
+
+00:06:55.590 --> 00:06:55.600 align:start position:0%
+because you don't have to code this in
+ 
+
+00:06:55.600 --> 00:06:58.629 align:start position:0%
+because you don't have to code this in
+AL<00:06:55.919><c> for</c><00:06:56.080><c> a</c><00:06:56.240><c> new</c><00:06:56.400><c> report.</c><00:06:57.360><c> But</c><00:06:57.600><c> also</c><00:06:58.319><c> for</c>
+
+00:06:58.629 --> 00:06:58.639 align:start position:0%
+AL for a new report. But also for
+ 
+
+00:06:58.639 --> 00:07:02.070 align:start position:0%
+AL for a new report. But also for
+existing<00:06:59.240><c> reports</c><00:07:00.240><c> if</c><00:07:00.960><c> um</c><00:07:01.680><c> you</c><00:07:01.919><c> can</c>
+
+00:07:02.070 --> 00:07:02.080 align:start position:0%
+existing reports if um you can
+ 
+
+00:07:02.080 --> 00:07:05.670 align:start position:0%
+existing reports if um you can
+standardize<00:07:02.800><c> the</c><00:07:03.039><c> way</c><00:07:03.520><c> you</c><00:07:03.919><c> show</c><00:07:04.800><c> report</c><00:07:05.199><c> name</c>
+
+00:07:05.670 --> 00:07:05.680 align:start position:0%
+standardize the way you show report name
+ 
+
+00:07:05.680 --> 00:07:09.270 align:start position:0%
+standardize the way you show report name
+or<00:07:06.560><c> company</c><00:07:06.960><c> name</c><00:07:07.199><c> and</c><00:07:07.520><c> other</c><00:07:07.759><c> things</c><00:07:08.319><c> so</c><00:07:08.560><c> that</c>
+
+00:07:09.270 --> 00:07:09.280 align:start position:0%
+or company name and other things so that
+ 
+
+00:07:09.280 --> 00:07:12.150 align:start position:0%
+or company name and other things so that
+anyone<00:07:09.840><c> using</c><00:07:10.160><c> the</c><00:07:10.479><c> layout</c><00:07:10.880><c> will</c><00:07:11.120><c> just</c><00:07:11.919><c> know</c>
+
+00:07:12.150 --> 00:07:12.160 align:start position:0%
+anyone using the layout will just know
+ 
+
+00:07:12.160 --> 00:07:14.029 align:start position:0%
+anyone using the layout will just know
+that<00:07:12.560><c> this</c><00:07:12.800><c> is</c><00:07:12.960><c> where</c><00:07:13.199><c> you</c><00:07:13.440><c> get</c><00:07:13.599><c> that</c>
+
+00:07:14.029 --> 00:07:14.039 align:start position:0%
+that this is where you get that
+ 
+
+00:07:14.039 --> 00:07:17.029 align:start position:0%
+that this is where you get that
+information.<00:07:15.039><c> Let's</c><00:07:15.360><c> dive</c><00:07:15.599><c> into</c><00:07:16.240><c> into</c><00:07:16.639><c> Word</c>
+
+00:07:17.029 --> 00:07:17.039 align:start position:0%
+information. Let's dive into into Word
+ 
+
+00:07:17.039 --> 00:07:20.230 align:start position:0%
+information. Let's dive into into Word
+and<00:07:17.280><c> take</c><00:07:17.440><c> a</c><00:07:17.599><c> look.</c><00:07:18.240><c> Imagine</c><00:07:19.120><c> that</c><00:07:19.440><c> you</c><00:07:20.000><c> want</c>
+
+00:07:20.230 --> 00:07:20.240 align:start position:0%
+and take a look. Imagine that you want
+ 
+
+00:07:20.240 --> 00:07:23.909 align:start position:0%
+and take a look. Imagine that you want
+to<00:07:20.400><c> add</c><00:07:20.720><c> a</c><00:07:21.039><c> new</c><00:07:21.520><c> word</c><00:07:22.000><c> layout</c><00:07:22.400><c> to</c><00:07:22.639><c> an</c><00:07:22.919><c> existing</c>
+
+00:07:23.909 --> 00:07:23.919 align:start position:0%
+to add a new word layout to an existing
+ 
+
+00:07:23.919 --> 00:07:26.950 align:start position:0%
+to add a new word layout to an existing
+report<00:07:24.319><c> in</c><00:07:24.560><c> Business</c><00:07:25.240><c> Central.</c><00:07:26.240><c> Let's</c><00:07:26.560><c> take</c>
+
+00:07:26.950 --> 00:07:26.960 align:start position:0%
+report in Business Central. Let's take
+ 
+
+00:07:26.960 --> 00:07:29.430 align:start position:0%
+report in Business Central. Let's take
+uh<00:07:27.039><c> the</c><00:07:27.280><c> number</c><00:07:27.759><c> series</c><00:07:28.319><c> report.</c><00:07:28.880><c> The</c><00:07:29.120><c> current</c>
+
+00:07:29.430 --> 00:07:29.440 align:start position:0%
+uh the number series report. The current
+ 
+
+00:07:29.440 --> 00:07:32.790 align:start position:0%
+uh the number series report. The current
+version<00:07:29.759><c> here</c><00:07:30.160><c> only</c><00:07:30.479><c> have</c><00:07:31.520><c> uh</c><00:07:31.759><c> one</c><00:07:32.080><c> report</c>
+
+00:07:32.790 --> 00:07:32.800 align:start position:0%
+version here only have uh one report
+ 
+
+00:07:32.800 --> 00:07:36.309 align:start position:0%
+version here only have uh one report
+layout<00:07:33.680><c> which</c><00:07:33.919><c> is</c><00:07:34.080><c> of</c><00:07:34.240><c> type</c><00:07:34.599><c> RDLC</c><00:07:35.599><c> and</c><00:07:35.840><c> we</c><00:07:36.080><c> want</c>
+
+00:07:36.309 --> 00:07:36.319 align:start position:0%
+layout which is of type RDLC and we want
+ 
+
+00:07:36.319 --> 00:07:39.909 align:start position:0%
+layout which is of type RDLC and we want
+to<00:07:36.639><c> add</c><00:07:37.440><c> a</c><00:07:37.759><c> more</c><00:07:37.919><c> modern</c><00:07:38.800><c> layout</c><00:07:39.199><c> type.</c><00:07:39.599><c> So</c>
+
+00:07:39.909 --> 00:07:39.919 align:start position:0%
+to add a more modern layout type. So
+ 
+
+00:07:39.919 --> 00:07:43.990 align:start position:0%
+to add a more modern layout type. So
+let's<00:07:40.240><c> take</c><00:07:41.120><c> uh</c><00:07:41.759><c> here</c><00:07:42.000><c> and</c><00:07:42.319><c> say</c><00:07:43.280><c> this</c><00:07:43.520><c> is</c>
+
+00:07:43.990 --> 00:07:44.000 align:start position:0%
+let's take uh here and say this is
+ 
+
+00:07:44.000 --> 00:07:48.230 align:start position:0%
+let's take uh here and say this is
+number<00:07:45.000><c> series</c><00:07:46.039><c> word</c><00:07:47.039><c> and</c><00:07:47.280><c> I</c><00:07:47.440><c> want</c><00:07:47.599><c> to</c><00:07:47.759><c> add</c><00:07:48.000><c> a</c>
+
+00:07:48.230 --> 00:07:48.240 align:start position:0%
+number series word and I want to add a
+ 
+
+00:07:48.240 --> 00:07:51.589 align:start position:0%
+number series word and I want to add a
+word<00:07:48.639><c> layout</c><00:07:48.960><c> here</c><00:07:49.840><c> and</c><00:07:50.160><c> I</c><00:07:50.400><c> want</c><00:07:50.479><c> to</c><00:07:50.720><c> create</c><00:07:51.280><c> a</c>
+
+00:07:51.589 --> 00:07:51.599 align:start position:0%
+word layout here and I want to create a
+ 
+
+00:07:51.599 --> 00:07:55.510 align:start position:0%
+word layout here and I want to create a
+new<00:07:52.080><c> blank</c><00:07:52.639><c> layout.</c><00:07:53.520><c> So</c><00:07:53.759><c> let's</c><00:07:54.639><c> create</c><00:07:54.960><c> this.</c>
+
+00:07:55.510 --> 00:07:55.520 align:start position:0%
+new blank layout. So let's create this.
+ 
+
+00:07:55.520 --> 00:07:58.270 align:start position:0%
+new blank layout. So let's create this.
+Okay.<00:07:56.160><c> So</c><00:07:56.560><c> I'll</c><00:07:56.960><c> export</c>
+
+00:07:58.270 --> 00:07:58.280 align:start position:0%
+Okay. So I'll export
+ 
+
+00:07:58.280 --> 00:08:00.830 align:start position:0%
+Okay. So I'll export
+this<00:07:59.280><c> and</c><00:07:59.680><c> get</c><00:07:59.840><c> it</c>
+
+00:08:00.830 --> 00:08:00.840 align:start position:0%
+this and get it
+ 
+
+00:08:00.840 --> 00:08:03.350 align:start position:0%
+this and get it
+downloaded.<00:08:01.840><c> And</c><00:08:02.080><c> now</c><00:08:02.319><c> I</c><00:08:02.560><c> will</c><00:08:02.720><c> open</c><00:08:02.960><c> it</c><00:08:03.120><c> in</c>
+
+00:08:03.350 --> 00:08:03.360 align:start position:0%
+downloaded. And now I will open it in
+ 
+
+00:08:03.360 --> 00:08:05.749 align:start position:0%
+downloaded. And now I will open it in
+word<00:08:03.759><c> and</c><00:08:04.160><c> let's</c><00:08:04.479><c> take</c><00:08:04.639><c> a</c><00:08:04.800><c> look</c><00:08:05.039><c> what's</c>
+
+00:08:05.749 --> 00:08:05.759 align:start position:0%
+word and let's take a look what's
+ 
+
+00:08:05.759 --> 00:08:10.629 align:start position:0%
+word and let's take a look what's
+happening<00:08:06.240><c> now.</c><00:08:07.440><c> So</c><00:08:07.680><c> here</c><00:08:07.840><c> in</c><00:08:08.080><c> word</c><00:08:08.560><c> I</c><00:08:09.120><c> um</c><00:08:10.000><c> will</c>
+
+00:08:10.629 --> 00:08:10.639 align:start position:0%
+happening now. So here in word I um will
+ 
+
+00:08:10.639 --> 00:08:14.070 align:start position:0%
+happening now. So here in word I um will
+choose<00:08:10.960><c> the</c><00:08:11.280><c> developer</c><00:08:11.960><c> menu</c><00:08:12.960><c> and</c><00:08:13.280><c> the</c><00:08:13.520><c> XML</c>
+
+00:08:14.070 --> 00:08:14.080 align:start position:0%
+choose the developer menu and the XML
+ 
+
+00:08:14.080 --> 00:08:18.710 align:start position:0%
+choose the developer menu and the XML
+mapping<00:08:14.680><c> pane</c><00:08:15.680><c> and</c><00:08:16.080><c> here</c><00:08:16.400><c> I</c><00:08:16.639><c> will</c><00:08:16.879><c> choose</c><00:08:17.720><c> the</c>
+
+00:08:18.710 --> 00:08:18.720 align:start position:0%
+mapping pane and here I will choose the
+ 
+
+00:08:18.720 --> 00:08:21.510 align:start position:0%
+mapping pane and here I will choose the
+the<00:08:19.120><c> metadata</c><00:08:19.680><c> for</c><00:08:19.840><c> the</c><00:08:20.120><c> report.</c><00:08:21.120><c> There</c><00:08:21.360><c> you</c>
+
+00:08:21.510 --> 00:08:21.520 align:start position:0%
+the metadata for the report. There you
+ 
+
+00:08:21.520 --> 00:08:25.749 align:start position:0%
+the metadata for the report. There you
+go.<00:08:22.240><c> Now</c><00:08:22.560><c> normally</c><00:08:23.199><c> you</c><00:08:23.520><c> can</c><00:08:23.680><c> see</c><00:08:24.560><c> um</c><00:08:25.199><c> that</c><00:08:25.520><c> you</c>
+
+00:08:25.749 --> 00:08:25.759 align:start position:0%
+go. Now normally you can see um that you
+ 
+
+00:08:25.759 --> 00:08:30.150 align:start position:0%
+go. Now normally you can see um that you
+have<00:08:26.319><c> the</c><00:08:26.919><c> report</c><00:08:27.919><c> data</c><00:08:28.319><c> item</c><00:08:29.280><c> columns</c><00:08:29.759><c> here.</c>
+
+00:08:30.150 --> 00:08:30.160 align:start position:0%
+have the report data item columns here.
+ 
+
+00:08:30.160 --> 00:08:32.149 align:start position:0%
+have the report data item columns here.
+We're<00:08:30.400><c> not</c><00:08:30.560><c> going</c><00:08:30.639><c> to</c><00:08:30.879><c> dive</c><00:08:31.199><c> into</c><00:08:31.440><c> that.</c>
+
+00:08:32.149 --> 00:08:32.159 align:start position:0%
+We're not going to dive into that.
+ 
+
+00:08:32.159 --> 00:08:34.870 align:start position:0%
+We're not going to dive into that.
+Instead<00:08:32.719><c> you</c><00:08:32.959><c> see</c><00:08:33.200><c> a</c><00:08:33.440><c> new</c><00:08:34.080><c> kit</c><00:08:34.320><c> on</c><00:08:34.479><c> the</c><00:08:34.640><c> block</c>
+
+00:08:34.870 --> 00:08:34.880 align:start position:0%
+Instead you see a new kit on the block
+ 
+
+00:08:34.880 --> 00:08:38.469 align:start position:0%
+Instead you see a new kit on the block
+here.<00:08:35.279><c> BC</c><00:08:35.839><c> report</c><00:08:36.320><c> information.</c><00:08:36.959><c> If</c><00:08:37.200><c> I</c><00:08:37.919><c> expand</c>
+
+00:08:38.469 --> 00:08:38.479 align:start position:0%
+here. BC report information. If I expand
+ 
+
+00:08:38.479 --> 00:08:41.509 align:start position:0%
+here. BC report information. If I expand
+this,<00:08:39.279><c> there</c><00:08:39.519><c> are</c><00:08:39.599><c> new</c><00:08:39.919><c> two</c><00:08:40.240><c> new</c><00:08:40.479><c> types</c><00:08:40.959><c> of</c>
+
+00:08:41.509 --> 00:08:41.519 align:start position:0%
+this, there are new two new types of
+ 
+
+00:08:41.519 --> 00:08:44.949 align:start position:0%
+this, there are new two new types of
+data<00:08:41.919><c> available.</c><00:08:42.880><c> The</c><00:08:43.120><c> first</c><00:08:43.360><c> is</c>
+
+00:08:44.949 --> 00:08:44.959 align:start position:0%
+data available. The first is
+ 
+
+00:08:44.959 --> 00:08:47.590 align:start position:0%
+data available. The first is
+uh<00:08:45.120><c> the</c><00:08:45.440><c> metadata</c><00:08:46.000><c> from</c><00:08:46.160><c> the</c><00:08:46.399><c> report</c><00:08:47.279><c> where</c>
+
+00:08:47.590 --> 00:08:47.600 align:start position:0%
+uh the metadata from the report where
+ 
+
+00:08:47.600 --> 00:08:49.910 align:start position:0%
+uh the metadata from the report where
+it's<00:08:47.839><c> coming</c><00:08:48.160><c> from</c><00:08:48.800><c> uh</c><00:08:49.040><c> what's</c><00:08:49.360><c> the</c><00:08:49.519><c> report</c>
+
+00:08:49.910 --> 00:08:49.920 align:start position:0%
+it's coming from uh what's the report
+ 
+
+00:08:49.920 --> 00:08:52.949 align:start position:0%
+it's coming from uh what's the report
+name<00:08:51.040><c> uh</c><00:08:51.200><c> the</c><00:08:51.440><c> about</c><00:08:51.839><c> title</c><00:08:52.240><c> about</c><00:08:52.480><c> text</c>
+
+00:08:52.949 --> 00:08:52.959 align:start position:0%
+name uh the about title about text
+ 
+
+00:08:52.959 --> 00:08:55.750 align:start position:0%
+name uh the about title about text
+report<00:08:53.440><c> help</c><00:08:53.839><c> and</c><00:08:54.080><c> maybe</c><00:08:54.399><c> I</c><00:08:54.640><c> want</c><00:08:54.959><c> to</c><00:08:55.200><c> use</c><00:08:55.519><c> the</c>
+
+00:08:55.750 --> 00:08:55.760 align:start position:0%
+report help and maybe I want to use the
+ 
+
+00:08:55.760 --> 00:08:59.110 align:start position:0%
+report help and maybe I want to use the
+report<00:08:56.160><c> name</c><00:08:57.040><c> and</c><00:08:57.360><c> put</c><00:08:57.600><c> that</c><00:08:57.920><c> here</c><00:08:58.480><c> into</c><00:08:58.880><c> the</c>
+
+00:08:59.110 --> 00:08:59.120 align:start position:0%
+report name and put that here into the
+ 
+
+00:08:59.120 --> 00:09:01.110 align:start position:0%
+report name and put that here into the
+report<00:08:59.600><c> layout.</c>
+
+00:09:01.110 --> 00:09:01.120 align:start position:0%
+report layout.
+ 
+
+00:09:01.120 --> 00:09:04.710 align:start position:0%
+report layout.
+And<00:09:01.519><c> uh</c><00:09:01.680><c> the</c><00:09:02.600><c> second</c><00:09:03.600><c> part</c><00:09:03.920><c> here</c><00:09:04.160><c> is</c><00:09:04.480><c> the</c>
+
+00:09:04.710 --> 00:09:04.720 align:start position:0%
+And uh the second part here is the
+ 
+
+00:09:04.720 --> 00:09:07.910 align:start position:0%
+And uh the second part here is the
+requests<00:09:05.640><c> metadata.</c><00:09:06.640><c> Here</c><00:09:06.880><c> I</c><00:09:07.200><c> can</c><00:09:07.360><c> see</c><00:09:07.600><c> things</c>
+
+00:09:07.910 --> 00:09:07.920 align:start position:0%
+requests metadata. Here I can see things
+ 
+
+00:09:07.920 --> 00:09:10.870 align:start position:0%
+requests metadata. Here I can see things
+like<00:09:08.560><c> which</c><00:09:08.880><c> environment,</c><00:09:09.600><c> which</c><00:09:10.000><c> company,</c>
+
+00:09:10.870 --> 00:09:10.880 align:start position:0%
+like which environment, which company,
+ 
+
+00:09:10.880 --> 00:09:14.310 align:start position:0%
+like which environment, which company,
+company<00:09:11.360><c> display</c><00:09:11.760><c> name,</c><00:09:12.240><c> which</c><00:09:12.560><c> user</c><00:09:13.760><c> uh</c><00:09:13.920><c> when</c>
+
+00:09:14.310 --> 00:09:14.320 align:start position:0%
+company display name, which user uh when
+ 
+
+00:09:14.320 --> 00:09:16.630 align:start position:0%
+company display name, which user uh when
+the<00:09:14.720><c> report</c><00:09:15.120><c> was</c><00:09:15.440><c> rendered</c><00:09:16.160><c> in</c><00:09:16.399><c> which</c>
+
+00:09:16.630 --> 00:09:16.640 align:start position:0%
+the report was rendered in which
+ 
+
+00:09:16.640 --> 00:09:20.230 align:start position:0%
+the report was rendered in which
+language<00:09:17.600><c> and</c><00:09:17.920><c> also</c><00:09:19.040><c> uh</c><00:09:19.200><c> instead</c><00:09:19.600><c> of</c><00:09:19.760><c> the</c><00:09:20.080><c> date</c>
+
+00:09:20.230 --> 00:09:20.240 align:start position:0%
+language and also uh instead of the date
+ 
+
+00:09:20.240 --> 00:09:22.070 align:start position:0%
+language and also uh instead of the date
+and<00:09:20.480><c> time</c><00:09:20.720><c> when</c><00:09:20.959><c> it</c><00:09:21.120><c> was</c><00:09:21.279><c> rendered,</c><00:09:21.680><c> I</c><00:09:21.920><c> can</c>
+
+00:09:22.070 --> 00:09:22.080 align:start position:0%
+and time when it was rendered, I can
+ 
+
+00:09:22.080 --> 00:09:24.710 align:start position:0%
+and time when it was rendered, I can
+also<00:09:22.480><c> easily</c><00:09:22.880><c> get</c><00:09:23.120><c> a</c><00:09:23.279><c> hierarchy</c><00:09:23.839><c> of</c><00:09:24.160><c> year,</c>
+
+00:09:24.710 --> 00:09:24.720 align:start position:0%
+also easily get a hierarchy of year,
+ 
+
+00:09:24.720 --> 00:09:28.310 align:start position:0%
+also easily get a hierarchy of year,
+month,<00:09:25.200><c> day,</c><00:09:26.080><c> hour</c><00:09:26.320><c> and</c><00:09:26.640><c> minute.</c><00:09:27.360><c> So</c><00:09:27.680><c> maybe</c><00:09:28.000><c> I</c>
+
+00:09:28.310 --> 00:09:28.320 align:start position:0%
+month, day, hour and minute. So maybe I
+ 
+
+00:09:28.320 --> 00:09:31.750 align:start position:0%
+month, day, hour and minute. So maybe I
+want<00:09:28.560><c> to</c><00:09:29.360><c> see</c><00:09:29.680><c> that</c><00:09:30.320><c> uh</c><00:09:30.480><c> or</c><00:09:30.880><c> I</c><00:09:31.200><c> want</c><00:09:31.279><c> to</c><00:09:31.519><c> put</c>
+
+00:09:31.750 --> 00:09:31.760 align:start position:0%
+want to see that uh or I want to put
+ 
+
+00:09:31.760 --> 00:09:35.350 align:start position:0%
+want to see that uh or I want to put
+into<00:09:32.080><c> my</c><00:09:32.480><c> layout</c><00:09:33.200><c> the</c><00:09:33.560><c> year</c><00:09:34.560><c> somewhere</c><00:09:35.040><c> here</c>
+
+00:09:35.350 --> 00:09:35.360 align:start position:0%
+into my layout the year somewhere here
+ 
+
+00:09:35.360 --> 00:09:36.590 align:start position:0%
+into my layout the year somewhere here
+maybe<00:09:35.600><c> in</c><00:09:35.760><c> the</c>
+
+00:09:36.590 --> 00:09:36.600 align:start position:0%
+maybe in the
+ 
+
+00:09:36.600 --> 00:09:39.949 align:start position:0%
+maybe in the
+header<00:09:37.600><c> and</c><00:09:38.000><c> maybe</c><00:09:38.320><c> I</c><00:09:38.640><c> want</c><00:09:38.800><c> to</c><00:09:39.040><c> take</c>
+
+00:09:39.949 --> 00:09:39.959 align:start position:0%
+header and maybe I want to take
+ 
+
+00:09:39.959 --> 00:09:44.070 align:start position:0%
+header and maybe I want to take
+the<00:09:40.959><c> month</c><00:09:41.519><c> number</c><00:09:42.200><c> here</c><00:09:43.200><c> and</c><00:09:43.440><c> now</c><00:09:43.680><c> I</c><00:09:43.920><c> can</c>
+
+00:09:44.070 --> 00:09:44.080 align:start position:0%
+the month number here and now I can
+ 
+
+00:09:44.080 --> 00:09:45.750 align:start position:0%
+the month number here and now I can
+construct
+
+00:09:45.750 --> 00:09:45.760 align:start position:0%
+construct
+ 
+
+00:09:45.760 --> 00:09:47.990 align:start position:0%
+construct
+uh<00:09:46.000><c> the</c><00:09:46.160><c> the</c><00:09:46.560><c> date</c><00:09:46.800><c> and</c><00:09:47.200><c> maybe</c><00:09:47.440><c> the</c><00:09:47.680><c> day</c><00:09:47.839><c> as</c>
+
+00:09:47.990 --> 00:09:48.000 align:start position:0%
+uh the the date and maybe the day as
+ 
+
+00:09:48.000 --> 00:09:50.470 align:start position:0%
+uh the the date and maybe the day as
+well.<00:09:48.160><c> So</c><00:09:48.320><c> and</c><00:09:48.560><c> I</c><00:09:48.720><c> can</c><00:09:48.959><c> construct</c>
+
+00:09:50.470 --> 00:09:50.480 align:start position:0%
+well. So and I can construct
+ 
+
+00:09:50.480 --> 00:09:55.350 align:start position:0%
+well. So and I can construct
+uh<00:09:50.640><c> that</c><00:09:51.040><c> in</c><00:09:51.360><c> any</c><00:09:52.080><c> any</c><00:09:52.399><c> format</c><00:09:52.800><c> I</c><00:09:53.040><c> like.</c><00:09:53.720><c> Um</c><00:09:54.720><c> and</c>
+
+00:09:55.350 --> 00:09:55.360 align:start position:0%
+uh that in any any format I like. Um and
+ 
+
+00:09:55.360 --> 00:09:58.070 align:start position:0%
+uh that in any any format I like. Um and
+uh<00:09:55.680><c> similarly</c><00:09:56.240><c> maybe</c><00:09:56.640><c> the</c><00:09:57.040><c> company</c><00:09:57.519><c> display</c>
+
+00:09:58.070 --> 00:09:58.080 align:start position:0%
+uh similarly maybe the company display
+ 
+
+00:09:58.080 --> 00:09:59.949 align:start position:0%
+uh similarly maybe the company display
+name.<00:09:58.399><c> Let's</c><00:09:58.640><c> put</c><00:09:58.800><c> that</c><00:09:58.959><c> in</c><00:09:59.120><c> as</c>
+
+00:09:59.949 --> 00:09:59.959 align:start position:0%
+name. Let's put that in as
+ 
+
+00:09:59.959 --> 00:10:03.430 align:start position:0%
+name. Let's put that in as
+well.<00:10:00.959><c> And</c><00:10:01.120><c> of</c><00:10:01.360><c> course</c><00:10:01.519><c> you</c><00:10:01.760><c> would</c><00:10:02.240><c> then</c><00:10:02.640><c> use</c>
+
+00:10:03.430 --> 00:10:03.440 align:start position:0%
+well. And of course you would then use
+ 
+
+00:10:03.440 --> 00:10:05.670 align:start position:0%
+well. And of course you would then use
+all<00:10:03.680><c> the</c><00:10:03.920><c> other</c><00:10:04.160><c> properties</c><00:10:04.640><c> or</c><00:10:04.880><c> the</c><00:10:05.120><c> columns</c>
+
+00:10:05.670 --> 00:10:05.680 align:start position:0%
+all the other properties or the columns
+ 
+
+00:10:05.680 --> 00:10:09.509 align:start position:0%
+all the other properties or the columns
+from<00:10:06.000><c> the</c><00:10:06.399><c> report</c><00:10:07.440><c> uh</c><00:10:07.600><c> data</c><00:10:07.920><c> set</c><00:10:08.240><c> down</c><00:10:08.560><c> here.</c>
+
+00:10:09.509 --> 00:10:09.519 align:start position:0%
+from the report uh data set down here.
+ 
+
+00:10:09.519 --> 00:10:11.829 align:start position:0%
+from the report uh data set down here.
+But<00:10:09.760><c> notice</c><00:10:10.080><c> that</c><00:10:10.720><c> the</c><00:10:10.959><c> things</c><00:10:11.200><c> that</c><00:10:11.440><c> were</c>
+
+00:10:11.829 --> 00:10:11.839 align:start position:0%
+But notice that the things that were
+ 
+
+00:10:11.839 --> 00:10:14.389 align:start position:0%
+But notice that the things that were
+previously<00:10:12.480><c> coded</c><00:10:12.959><c> here</c><00:10:13.440><c> such</c><00:10:13.680><c> as</c><00:10:13.920><c> company</c>
+
+00:10:14.389 --> 00:10:14.399 align:start position:0%
+previously coded here such as company
+ 
+
+00:10:14.399 --> 00:10:18.069 align:start position:0%
+previously coded here such as company
+name<00:10:14.720><c> and</c><00:10:15.040><c> maybe</c><00:10:15.440><c> user</c><00:10:16.560><c> uh</c><00:10:16.800><c> name</c><00:10:17.120><c> and</c><00:10:17.279><c> so</c><00:10:17.440><c> on,</c>
+
+00:10:18.069 --> 00:10:18.079 align:start position:0%
+name and maybe user uh name and so on,
+ 
+
+00:10:18.079 --> 00:10:20.310 align:start position:0%
+name and maybe user uh name and so on,
+you<00:10:18.320><c> don't</c><00:10:18.480><c> have</c><00:10:18.560><c> to</c><00:10:18.800><c> use</c><00:10:19.040><c> that</c><00:10:19.279><c> anymore.</c><00:10:20.079><c> Uh</c>
+
+00:10:20.310 --> 00:10:20.320 align:start position:0%
+you don't have to use that anymore. Uh
+ 
+
+00:10:20.320 --> 00:10:22.230 align:start position:0%
+you don't have to use that anymore. Uh
+you<00:10:20.480><c> can</c><00:10:20.560><c> just</c><00:10:20.720><c> use</c><00:10:20.959><c> them</c><00:10:21.200><c> in</c><00:10:21.360><c> a</c><00:10:21.600><c> standard</c>
+
+00:10:22.230 --> 00:10:22.240 align:start position:0%
+you can just use them in a standard
+ 
+
+00:10:22.240 --> 00:10:26.150 align:start position:0%
+you can just use them in a standard
+fashion.<00:10:23.120><c> So,</c><00:10:23.360><c> let's</c><00:10:23.839><c> uh</c><00:10:24.000><c> save</c><00:10:24.440><c> this</c><00:10:25.440><c> and</c><00:10:25.920><c> get</c>
+
+00:10:26.150 --> 00:10:26.160 align:start position:0%
+fashion. So, let's uh save this and get
+ 
+
+00:10:26.160 --> 00:10:27.829 align:start position:0%
+fashion. So, let's uh save this and get
+back<00:10:26.320><c> to</c><00:10:26.560><c> Business</c><00:10:26.880><c> Central</c><00:10:27.200><c> and</c><00:10:27.360><c> import</c><00:10:27.680><c> it</c>
+
+00:10:27.829 --> 00:10:27.839 align:start position:0%
+back to Business Central and import it
+ 
+
+00:10:27.839 --> 00:10:31.030 align:start position:0%
+back to Business Central and import it
+and<00:10:28.079><c> see</c><00:10:28.399><c> what</c><00:10:28.640><c> it</c><00:10:28.800><c> looks</c><00:10:29.079><c> like.</c><00:10:30.079><c> Back</c><00:10:30.320><c> in</c>
+
+00:10:31.030 --> 00:10:31.040 align:start position:0%
+and see what it looks like. Back in
+ 
+
+00:10:31.040 --> 00:10:32.870 align:start position:0%
+and see what it looks like. Back in
+Business<00:10:31.440><c> Central</c><00:10:31.680><c> on</c><00:10:31.920><c> the</c><00:10:32.000><c> report</c><00:10:32.480><c> layouts</c>
+
+00:10:32.870 --> 00:10:32.880 align:start position:0%
+Business Central on the report layouts
+ 
+
+00:10:32.880 --> 00:10:36.870 align:start position:0%
+Business Central on the report layouts
+page,<00:10:33.760><c> I</c><00:10:34.399><c> will</c><00:10:34.720><c> now</c><00:10:34.959><c> use</c><00:10:35.279><c> the</c><00:10:35.760><c> replace</c><00:10:36.399><c> layout</c>
+
+00:10:36.870 --> 00:10:36.880 align:start position:0%
+page, I will now use the replace layout
+ 
+
+00:10:36.880 --> 00:10:40.790 align:start position:0%
+page, I will now use the replace layout
+action<00:10:37.720><c> and</c><00:10:38.720><c> put</c><00:10:39.040><c> in</c><00:10:39.279><c> my</c><00:10:39.600><c> new</c><00:10:39.920><c> version</c><00:10:40.240><c> of</c><00:10:40.399><c> the</c>
+
+00:10:40.790 --> 00:10:40.800 align:start position:0%
+action and put in my new version of the
+ 
+
+00:10:40.800 --> 00:10:43.910 align:start position:0%
+action and put in my new version of the
+layout.<00:10:41.440><c> Here</c><00:10:41.680><c> we</c><00:10:41.920><c> go.</c><00:10:42.720><c> And</c><00:10:43.040><c> let's</c><00:10:43.360><c> let's</c><00:10:43.680><c> run</c>
+
+00:10:43.910 --> 00:10:43.920 align:start position:0%
+layout. Here we go. And let's let's run
+ 
+
+00:10:43.920 --> 00:10:47.310 align:start position:0%
+layout. Here we go. And let's let's run
+it<00:10:44.079><c> and</c><00:10:44.320><c> see</c><00:10:44.560><c> what</c>
+
+00:10:47.310 --> 00:10:47.320 align:start position:0%
+ 
+ 
+
+00:10:47.320 --> 00:10:49.750 align:start position:0%
+ 
+happens.<00:10:48.399><c> And</c><00:10:48.640><c> hopefully</c><00:10:49.040><c> you</c><00:10:49.200><c> will</c><00:10:49.360><c> we</c><00:10:49.600><c> will</c>
+
+00:10:49.750 --> 00:10:49.760 align:start position:0%
+happens. And hopefully you will we will
+ 
+
+00:10:49.760 --> 00:10:53.590 align:start position:0%
+happens. And hopefully you will we will
+get<00:10:50.560><c> these</c><00:10:50.880><c> new</c><00:10:51.399><c> properties</c><00:10:52.399><c> from</c><00:10:52.640><c> from</c><00:10:53.040><c> these</c>
+
+00:10:53.590 --> 00:10:53.600 align:start position:0%
+get these new properties from from these
+ 
+
+00:10:53.600 --> 00:10:57.590 align:start position:0%
+get these new properties from from these
+uh<00:10:54.560><c> system</c><00:10:54.959><c> generated</c><00:10:55.839><c> data</c><00:10:56.240><c> items.</c><00:10:57.040><c> So</c><00:10:57.279><c> let's</c>
+
+00:10:57.590 --> 00:10:57.600 align:start position:0%
+uh system generated data items. So let's
+ 
+
+00:10:57.600 --> 00:11:01.430 align:start position:0%
+uh system generated data items. So let's
+take<00:10:57.680><c> a</c><00:10:57.920><c> look.</c><00:10:58.800><c> And</c><00:10:59.040><c> there</c><00:10:59.200><c> we</c><00:10:59.480><c> go.</c><00:11:00.480><c> So</c><00:11:01.040><c> you</c><00:11:01.279><c> see</c>
+
+00:11:01.430 --> 00:11:01.440 align:start position:0%
+take a look. And there we go. So you see
+ 
+
+00:11:01.440 --> 00:11:04.630 align:start position:0%
+take a look. And there we go. So you see
+the<00:11:01.760><c> report</c><00:11:02.160><c> name,</c><00:11:02.880><c> the</c><00:11:03.200><c> year,</c><00:11:03.760><c> the</c><00:11:04.079><c> month,</c>
+
+00:11:04.630 --> 00:11:04.640 align:start position:0%
+the report name, the year, the month,
+ 
+
+00:11:04.640 --> 00:11:07.590 align:start position:0%
+the report name, the year, the month,
+and<00:11:04.959><c> the</c><00:11:05.200><c> date.</c><00:11:05.519><c> So</c><00:11:06.480><c> this</c><00:11:06.800><c> recording</c><00:11:07.279><c> was</c>
+
+00:11:07.590 --> 00:11:07.600 align:start position:0%
+and the date. So this recording was
+ 
+
+00:11:07.600 --> 00:11:11.150 align:start position:0%
+and the date. So this recording was
+apparently<00:11:08.160><c> done</c><00:11:08.399><c> on</c><00:11:09.200><c> the</c><00:11:09.519><c> 2nd</c><00:11:09.839><c> of</c><00:11:10.079><c> March</c>
+
+00:11:11.150 --> 00:11:11.160 align:start position:0%
+apparently done on the 2nd of March
+ 
+
+00:11:11.160 --> 00:11:13.590 align:start position:0%
+apparently done on the 2nd of March
+2025.<00:11:12.160><c> And</c><00:11:12.320><c> this</c><00:11:12.480><c> is</c><00:11:12.640><c> the</c><00:11:12.800><c> company</c><00:11:13.200><c> display</c>
+
+00:11:13.590 --> 00:11:13.600 align:start position:0%
+2025. And this is the company display
+ 
+
+00:11:13.600 --> 00:11:15.870 align:start position:0%
+2025. And this is the company display
+name<00:11:14.240><c> that</c><00:11:14.560><c> I</c><00:11:14.720><c> put</c><00:11:14.959><c> into</c><00:11:15.200><c> the</c>
+
+00:11:15.870 --> 00:11:15.880 align:start position:0%
+name that I put into the
+ 
+
+00:11:15.880 --> 00:11:19.750 align:start position:0%
+name that I put into the
+layout.<00:11:17.040><c> The</c><00:11:17.279><c> final</c><00:11:17.519><c> part</c><00:11:18.000><c> in</c><00:11:18.320><c> the</c><00:11:18.760><c> developer</c>
+
+00:11:19.750 --> 00:11:19.760 align:start position:0%
+layout. The final part in the developer
+ 
+
+00:11:19.760 --> 00:11:22.710 align:start position:0%
+layout. The final part in the developer
+video<00:11:20.160><c> here</c><00:11:20.880><c> is</c><00:11:21.120><c> about</c><00:11:21.680><c> uh</c><00:11:21.839><c> some</c><00:11:22.160><c> updated</c>
+
+00:11:22.710 --> 00:11:22.720 align:start position:0%
+video here is about uh some updated
+ 
+
+00:11:22.720 --> 00:11:25.190 align:start position:0%
+video here is about uh some updated
+developer<00:11:23.279><c> documentation</c><00:11:23.920><c> for</c><00:11:24.720><c> especially</c>
+
+00:11:25.190 --> 00:11:25.200 align:start position:0%
+developer documentation for especially
+ 
+
+00:11:25.200 --> 00:11:27.350 align:start position:0%
+developer documentation for especially
+for<00:11:25.360><c> obsoleting</c><00:11:26.079><c> reports.</c><00:11:26.880><c> So</c><00:11:27.040><c> you</c><00:11:27.279><c> can</c>
+
+00:11:27.350 --> 00:11:27.360 align:start position:0%
+for obsoleting reports. So you can
+ 
+
+00:11:27.360 --> 00:11:29.949 align:start position:0%
+for obsoleting reports. So you can
+always<00:11:27.839><c> go</c><00:11:28.079><c> to</c><00:11:28.480><c> the</c>
+
+00:11:29.949 --> 00:11:29.959 align:start position:0%
+always go to the
+ 
+
+00:11:29.959 --> 00:11:32.550 align:start position:0%
+always go to the
+aka.ms/bcde<00:11:30.959><c> developer</c><00:11:31.760><c> to</c><00:11:32.079><c> get</c><00:11:32.240><c> to</c><00:11:32.399><c> the</c>
+
+00:11:32.550 --> 00:11:32.560 align:start position:0%
+aka.ms/bcde developer to get to the
+ 
+
+00:11:32.560 --> 00:11:34.550 align:start position:0%
+aka.ms/bcde developer to get to the
+developer<00:11:33.040><c> documentation</c><00:11:33.680><c> and</c><00:11:33.920><c> then</c><00:11:34.240><c> you</c>
+
+00:11:34.550 --> 00:11:34.560 align:start position:0%
+developer documentation and then you
+ 
+
+00:11:34.560 --> 00:11:36.870 align:start position:0%
+developer documentation and then you
+need<00:11:34.800><c> to</c><00:11:35.120><c> go</c><00:11:35.279><c> to</c><00:11:35.519><c> the</c><00:11:35.839><c> reporting</c><00:11:36.399><c> or</c><00:11:36.640><c> you</c><00:11:36.800><c> can</c>
+
+00:11:36.870 --> 00:11:36.880 align:start position:0%
+need to go to the reporting or you can
+ 
+
+00:11:36.880 --> 00:11:39.110 align:start position:0%
+need to go to the reporting or you can
+just<00:11:37.120><c> search</c><00:11:37.760><c> for</c><00:11:38.000><c> obsoleting</c><00:11:38.720><c> reports.</c>
+
+00:11:39.110 --> 00:11:39.120 align:start position:0%
+just search for obsoleting reports.
+ 
+
+00:11:39.120 --> 00:11:42.389 align:start position:0%
+just search for obsoleting reports.
+Let's<00:11:39.440><c> try</c><00:11:39.600><c> that.</c><00:11:40.800><c> So</c><00:11:41.040><c> I</c><00:11:41.279><c> followed</c><00:11:41.600><c> the</c><00:11:41.839><c> AKA</c>
+
+00:11:42.389 --> 00:11:42.399 align:start position:0%
+Let's try that. So I followed the AKA
+ 
+
+00:11:42.399 --> 00:11:45.590 align:start position:0%
+Let's try that. So I followed the AKA
+link<00:11:42.720><c> for</c><00:11:42.959><c> the</c><00:11:43.120><c> developer</c><00:11:43.959><c> documentation</c><00:11:44.959><c> and</c>
+
+00:11:45.590 --> 00:11:45.600 align:start position:0%
+link for the developer documentation and
+ 
+
+00:11:45.600 --> 00:11:48.949 align:start position:0%
+link for the developer documentation and
+um<00:11:46.560><c> the</c><00:11:46.800><c> things</c><00:11:47.040><c> about</c><00:11:47.360><c> reporting</c><00:11:48.160><c> is</c><00:11:48.560><c> here</c>
+
+00:11:48.949 --> 00:11:48.959 align:start position:0%
+um the things about reporting is here
+ 
+
+00:11:48.959 --> 00:11:52.069 align:start position:0%
+um the things about reporting is here
+under<00:11:49.440><c> programming</c><00:11:50.000><c> in</c><00:11:50.240><c> AL</c><00:11:50.680><c> language</c><00:11:51.680><c> and</c>
+
+00:11:52.069 --> 00:11:52.079 align:start position:0%
+under programming in AL language and
+ 
+
+00:11:52.079 --> 00:11:55.190 align:start position:0%
+under programming in AL language and
+then<00:11:52.640><c> down</c><00:11:52.959><c> here</c><00:11:53.200><c> under</c><00:11:53.600><c> developing</c><00:11:54.200><c> reports</c>
+
+00:11:55.190 --> 00:11:55.200 align:start position:0%
+then down here under developing reports
+ 
+
+00:11:55.200 --> 00:11:58.350 align:start position:0%
+then down here under developing reports
+but<00:11:55.600><c> we</c><00:11:55.839><c> just</c><00:11:56.079><c> want</c><00:11:56.240><c> to</c><00:11:56.399><c> find</c><00:11:56.800><c> the</c>
+
+00:11:58.350 --> 00:11:58.360 align:start position:0%
+but we just want to find the
+ 
+
+00:11:58.360 --> 00:12:00.030 align:start position:0%
+but we just want to find the
+obsolate
+
+00:12:00.030 --> 00:12:00.040 align:start position:0%
+obsolate
+ 
+
+00:12:00.040 --> 00:12:04.069 align:start position:0%
+obsolate
+reports<00:12:01.040><c> new</c><00:12:01.360><c> article.</c><00:12:01.920><c> So</c><00:12:02.160><c> that's</c><00:12:02.519><c> here</c><00:12:03.519><c> and</c>
+
+00:12:04.069 --> 00:12:04.079 align:start position:0%
+reports new article. So that's here and
+ 
+
+00:12:04.079 --> 00:12:07.350 align:start position:0%
+reports new article. So that's here and
+um<00:12:04.640><c> what</c><00:12:05.040><c> this</c><00:12:05.279><c> is</c><00:12:05.440><c> is</c><00:12:05.839><c> a</c><00:12:06.079><c> guideline</c><00:12:06.639><c> both</c><00:12:06.959><c> for</c>
+
+00:12:07.350 --> 00:12:07.360 align:start position:0%
+um what this is is a guideline both for
+ 
+
+00:12:07.360 --> 00:12:10.870 align:start position:0%
+um what this is is a guideline both for
+obsoleting<00:12:08.079><c> report</c><00:12:08.639><c> layouts</c><00:12:09.519><c> but</c><00:12:09.839><c> also</c><00:12:10.320><c> how</c>
+
+00:12:10.870 --> 00:12:10.880 align:start position:0%
+obsoleting report layouts but also how
+ 
+
+00:12:10.880 --> 00:12:14.069 align:start position:0%
+obsoleting report layouts but also how
+you<00:12:11.120><c> can</c><00:12:11.440><c> obsolete</c><00:12:12.079><c> reports</c><00:12:12.959><c> in</c><00:12:13.279><c> general.</c><00:12:13.760><c> Now</c>
+
+00:12:14.069 --> 00:12:14.079 align:start position:0%
+you can obsolete reports in general. Now
+ 
+
+00:12:14.079 --> 00:12:16.550 align:start position:0%
+you can obsolete reports in general. Now
+of<00:12:14.279><c> course</c><00:12:15.279><c> this</c><00:12:15.519><c> is</c><00:12:15.680><c> nothing</c><00:12:15.920><c> new</c><00:12:16.240><c> as</c><00:12:16.399><c> a</c>
+
+00:12:16.550 --> 00:12:16.560 align:start position:0%
+of course this is nothing new as a
+ 
+
+00:12:16.560 --> 00:12:17.910 align:start position:0%
+of course this is nothing new as a
+developer.<00:12:16.959><c> You</c><00:12:17.120><c> could</c><00:12:17.279><c> just</c><00:12:17.440><c> put</c><00:12:17.600><c> in</c><00:12:17.760><c> the</c>
+
+00:12:17.910 --> 00:12:17.920 align:start position:0%
+developer. You could just put in the
+ 
+
+00:12:17.920 --> 00:12:21.470 align:start position:0%
+developer. You could just put in the
+obsolete<00:12:19.360><c> um</c><00:12:19.760><c> properties</c><00:12:20.639><c> but</c><00:12:20.880><c> how</c><00:12:21.040><c> do</c><00:12:21.120><c> you</c>
+
+00:12:21.470 --> 00:12:21.480 align:start position:0%
+obsolete um properties but how do you
+ 
+
+00:12:21.480 --> 00:12:24.710 align:start position:0%
+obsolete um properties but how do you
+communicate<00:12:22.480><c> the</c><00:12:22.800><c> change</c><00:12:23.200><c> to</c><00:12:23.519><c> a</c><00:12:23.839><c> user?</c><00:12:24.560><c> And</c>
+
+00:12:24.710 --> 00:12:24.720 align:start position:0%
+communicate the change to a user? And
+ 
+
+00:12:24.720 --> 00:12:27.829 align:start position:0%
+communicate the change to a user? And
+that's<00:12:24.959><c> what</c><00:12:25.279><c> this</c><00:12:26.320><c> um</c><00:12:26.480><c> documentation</c><00:12:27.279><c> al</c><00:12:27.600><c> is</c>
+
+00:12:27.829 --> 00:12:27.839 align:start position:0%
+that's what this um documentation al is
+ 
+
+00:12:27.839 --> 00:12:30.550 align:start position:0%
+that's what this um documentation al is
+all<00:12:28.000><c> about.</c><00:12:28.800><c> Uh</c><00:12:29.120><c> how</c><00:12:29.360><c> could</c><00:12:29.600><c> you</c><00:12:29.839><c> how</c><00:12:30.079><c> can</c><00:12:30.320><c> you</c>
+
+00:12:30.550 --> 00:12:30.560 align:start position:0%
+all about. Uh how could you how can you
+ 
+
+00:12:30.560 --> 00:12:33.110 align:start position:0%
+all about. Uh how could you how can you
+tell<00:12:30.800><c> the</c><00:12:31.040><c> user</c><00:12:31.360><c> when</c><00:12:31.600><c> they</c><00:12:31.760><c> use</c><00:12:32.000><c> tell</c><00:12:32.320><c> me</c><00:12:32.959><c> when</c>
+
+00:12:33.110 --> 00:12:33.120 align:start position:0%
+tell the user when they use tell me when
+ 
+
+00:12:33.120 --> 00:12:35.110 align:start position:0%
+tell the user when they use tell me when
+they<00:12:33.360><c> use</c><00:12:33.519><c> the</c><00:12:33.680><c> request</c><00:12:34.079><c> page</c><00:12:34.639><c> when</c><00:12:34.800><c> they</c><00:12:34.959><c> use</c>
+
+00:12:35.110 --> 00:12:35.120 align:start position:0%
+they use the request page when they use
+ 
+
+00:12:35.120 --> 00:12:38.550 align:start position:0%
+they use the request page when they use
+the<00:12:35.360><c> help</c><00:12:35.680><c> pane</c><00:12:36.639><c> or</c><00:12:36.880><c> maybe</c><00:12:37.200><c> when</c><00:12:37.440><c> they</c><00:12:38.000><c> show</c>
+
+00:12:38.550 --> 00:12:38.560 align:start position:0%
+the help pane or maybe when they show
+ 
+
+00:12:38.560 --> 00:12:41.110 align:start position:0%
+the help pane or maybe when they show
+use<00:12:38.880><c> if</c><00:12:39.120><c> they</c><00:12:39.360><c> use</c><00:12:39.600><c> the</c><00:12:39.839><c> report</c><00:12:40.320><c> layouts</c><00:12:40.720><c> page</c>
+
+00:12:41.110 --> 00:12:41.120 align:start position:0%
+use if they use the report layouts page
+ 
+
+00:12:41.120 --> 00:12:43.750 align:start position:0%
+use if they use the report layouts page
+or<00:12:41.360><c> the</c><00:12:41.600><c> report</c><00:12:42.320><c> uh</c><00:12:42.639><c> layout</c><00:12:42.959><c> picker</c><00:12:43.360><c> from</c><00:12:43.519><c> the</c>
+
+00:12:43.750 --> 00:12:43.760 align:start position:0%
+or the report uh layout picker from the
+ 
+
+00:12:43.760 --> 00:12:47.190 align:start position:0%
+or the report uh layout picker from the
+request<00:12:44.200><c> page.</c><00:12:45.200><c> So</c><00:12:45.519><c> and</c><00:12:45.839><c> also</c><00:12:46.240><c> there's</c><00:12:46.880><c> some</c>
+
+00:12:47.190 --> 00:12:47.200 align:start position:0%
+request page. So and also there's some
+ 
+
+00:12:47.200 --> 00:12:49.590 align:start position:0%
+request page. So and also there's some
+guidance<00:12:47.600><c> of</c><00:12:47.839><c> how</c><00:12:48.000><c> you</c><00:12:48.240><c> can</c><00:12:48.399><c> track</c><00:12:48.959><c> the</c><00:12:49.279><c> usage</c>
+
+00:12:49.590 --> 00:12:49.600 align:start position:0%
+guidance of how you can track the usage
+ 
+
+00:12:49.600 --> 00:12:52.230 align:start position:0%
+guidance of how you can track the usage
+of<00:12:49.760><c> your</c><00:12:50.000><c> doc</c><00:12:50.560><c> deprecated</c><00:12:51.120><c> or</c><00:12:51.279><c> obsoleted</c><00:12:52.079><c> uh</c>
+
+00:12:52.230 --> 00:12:52.240 align:start position:0%
+of your doc deprecated or obsoleted uh
+ 
+
+00:12:52.240 --> 00:12:54.790 align:start position:0%
+of your doc deprecated or obsoleted uh
+reports<00:12:52.639><c> with</c><00:12:53.000><c> telemetry.</c><00:12:54.079><c> So,</c><00:12:54.399><c> go</c><00:12:54.560><c> check</c>
+
+00:12:54.790 --> 00:12:54.800 align:start position:0%
+reports with telemetry. So, go check
+ 
+
+00:12:54.800 --> 00:12:57.350 align:start position:0%
+reports with telemetry. So, go check
+that<00:12:54.959><c> out</c><00:12:55.200><c> in</c><00:12:55.440><c> the</c><00:12:55.600><c> developer</c><00:12:56.360><c> documentation.</c>
+
+00:12:57.350 --> 00:12:57.360 align:start position:0%
+that out in the developer documentation.
+ 
+
+00:12:57.360 --> 00:13:00.990 align:start position:0%
+that out in the developer documentation.
+And<00:12:57.839><c> um</c><00:12:58.240><c> in</c><00:12:58.560><c> here</c><00:12:59.519><c> there's</c><00:13:00.160><c> a</c><00:13:00.399><c> ton</c><00:13:00.720><c> of</c>
+
+00:13:00.990 --> 00:13:01.000 align:start position:0%
+And um in here there's a ton of
+ 
+
+00:13:01.000 --> 00:13:04.870 align:start position:0%
+And um in here there's a ton of
+different<00:13:02.000><c> articles</c><00:13:02.800><c> about</c><00:13:03.600><c> how</c><00:13:03.920><c> to</c><00:13:04.240><c> how</c><00:13:04.560><c> to</c>
+
+00:13:04.870 --> 00:13:04.880 align:start position:0%
+different articles about how to how to
+ 
+
+00:13:04.880 --> 00:13:07.910 align:start position:0%
+different articles about how to how to
+work<00:13:05.120><c> with</c><00:13:05.440><c> with</c><00:13:06.079><c> reports</c><00:13:06.560><c> and</c><00:13:06.959><c> layouts.</c><00:13:07.760><c> So,</c>
+
+00:13:07.910 --> 00:13:07.920 align:start position:0%
+work with with reports and layouts. So,
+ 
+
+00:13:07.920 --> 00:13:09.269 align:start position:0%
+work with with reports and layouts. So,
+you<00:13:08.079><c> might</c><00:13:08.320><c> want</c><00:13:08.480><c> to</c><00:13:08.639><c> revisit</c><00:13:09.040><c> the</c>
+
+00:13:09.269 --> 00:13:09.279 align:start position:0%
+you might want to revisit the
+ 
+
+00:13:09.279 --> 00:13:12.310 align:start position:0%
+you might want to revisit the
+documentation<00:13:10.079><c> in</c><00:13:10.399><c> case</c><00:13:11.040><c> new</c><00:13:11.360><c> articles</c><00:13:12.160><c> came</c>
+
+00:13:12.310 --> 00:13:12.320 align:start position:0%
+documentation in case new articles came
+ 
+
+00:13:12.320 --> 00:13:17.000 align:start position:0%
+documentation in case new articles came
+in<00:13:12.639><c> since</c><00:13:12.959><c> last</c><00:13:13.279><c> time</c><00:13:13.519><c> you</c><00:13:13.760><c> saw</c><00:13:14.000><c> it.</c>
+

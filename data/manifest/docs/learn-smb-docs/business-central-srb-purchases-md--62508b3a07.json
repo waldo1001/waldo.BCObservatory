@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/purchases",
   "published_at": "2026-05-04T12:39:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f97f9427311deb883ff2a22ab0e5baaf9e14522f",
       "words": 254,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T18:41:21.195Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003061
+    },
+    "summarized": {
+      "at": "2026-10-06T18:41:21.204Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:41:21.205Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:41:21.206Z",
+      "page": false
     }
   },
   "input_hash": "f97f9427311deb883ff2a22ab0e5baaf9e14522f",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f97f9427311deb883ff2a22ab0e5baaf9e14522f"
+  "output_hash": "826d93c0f570d7d5a7894259e88b45a71e40540e910a2feeccfe28fbb40d4b71"
 }

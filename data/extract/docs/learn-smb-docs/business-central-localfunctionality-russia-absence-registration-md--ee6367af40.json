@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/Absence-registration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Absence-registration",
+  "title": "Absence registration in Russia",
+  "blob": "445e362d64fc3988ff10d15c833b55c40932bc4c",
+  "summary": "Absence registration in Russia tracks four types of employee absences (vacation, travel, sick leave, other) through orders posted to payroll and employee ledger entries.",
+  "systems": [
+    "hr",
+    "localization"
+  ],
+  "topics": [
+    "russia",
+    "absence registration",
+    "payroll",
+    "employee orders"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Absence Orders"
+    },
+    {
+      "type": "table",
+      "name": "Employee Ledger Entries"
+    }
+  ],
+  "features": [
+    "vacation orders",
+    "travel orders",
+    "sick leave",
+    "payroll elements",
+    "order cancellation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003061,
+      "pages_in_call": 8
+    }
+  ]
+}
