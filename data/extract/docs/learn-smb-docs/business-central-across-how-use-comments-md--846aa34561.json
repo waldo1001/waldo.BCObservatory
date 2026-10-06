@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-use-comments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-comments",
+  "title": "Add comments to cards and documents",
+  "blob": "e91ecea07d455491ca227f9944db37913cd9c33c",
+  "summary": "Add comments to cards and documents to communicate exceptions or special agreements, with the ability to transfer comments between related posted documents.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "comments",
+    "cards",
+    "documents",
+    "communication",
+    "document lines"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Comment Sheet"
+    }
+  ],
+  "features": [
+    "comment creation",
+    "card comments",
+    "document comments",
+    "line comments",
+    "comment transfer"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003112,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "video_id": "oN0XfuCe6Qg",
+  "item_id": "video/yt-microsoft/oN0XfuCe6Qg",
+  "summary": "External File Storage system application module in Business Central: an API for storing files outside Business Central, such as in Azure blob storage, Azure file share or SharePoint online. Covers file accounts, file scenarios, API methods and a demo. The base application does not use it yet.",
+  "overview": "The video introduces the External File Storage module, a system application module that gives developers an API to connect to external file storage and save data there. Supported targets named are Azure blob storage, Azure file share and SharePoint online. It is described as ready for release with 2025 wave 1.\n\nIt walks through setting up a storage account on the File Accounts page, defining file scenarios with an extensible enum, and writing code that initializes the module with a scenario, opens a save file dialog and creates a file. A demo shows the result in the storage browser. The base application does not use the module yet, and developers must build their own implementations. Microsoft says it will look at adopting some of these capabilities in upcoming waves.",
+  "key_points": [
+    "The module is a system application module with an API to store files in Azure blob storage, Azure file share or SharePoint online.",
+    "Per the video, it is ready for release with 2025 wave 1.",
+    "The base application has no uptake of it yet, so developers need to create their own implementations.",
+    "Storage accounts are configured on the File Accounts page, which follows the email accounts pattern.",
+    "File scenarios are defined through an extensible enum; the base application ships with no built-in scenarios initially.",
+    "The code flow shown uses Initialize with a scenario, OpenFileDialog/SaveFileDialog, and CreateFile.",
+    "A storage browser lets users view and manage files in the external storage account."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "d58d3d5655cf45da3c333edc0aff75513d98103480ad01a4c810b365a24bcf3d",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012576399999999998
+  }
+}

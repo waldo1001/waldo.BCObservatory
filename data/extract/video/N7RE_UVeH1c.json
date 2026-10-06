@@ -1,0 +1,151 @@
+{
+  "video_id": "N7RE_UVeH1c",
+  "item_id": "video/yt-microsoft/N7RE_UVeH1c",
+  "title": "What's Cooking in Business Central: Wanna Export Data to Excel in Analysis Mode?",
+  "duration_s": 90,
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "data analysis",
+    "excel export",
+    "analysis mode",
+    "file naming"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Data Analysis Export Features",
+      "t_start": 0,
+      "t_end": 25.6
+    },
+    {
+      "title": "Excel Export Methods - Right-Click and Menu Approaches",
+      "t_start": 25.6,
+      "t_end": 60.6
+    },
+    {
+      "title": "Improved File Naming for Excel Exports",
+      "t_start": 60.6,
+      "t_end": 90
+    }
+  ],
+  "features": [
+    {
+      "name": "Excel Export via Right-Click",
+      "description": "Users can right-click in the data area of the data analysis tool and choose Excel export, then open in Excel to get their data exported.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 25.6,
+      "t_end": 43.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "export",
+        "data analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel Export via Data Analysis Tab Menu",
+      "description": "A new menu option on the data analysis tab allows users to simply choose open in Excel to export their data directly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 43.2,
+      "t_end": 60.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "export",
+        "new",
+        "menu"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Improved Excel File Naming",
+      "description": "The Excel export now provides improved file naming that includes the page name and analysis tab name rather than just using export as the file name.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 60.6,
+      "t_end": 80.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "file naming",
+        "export"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "data analysis",
+      "t": 5.5
+    },
+    {
+      "type": "page",
+      "name": "customer ledger entries",
+      "t": 60.6
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.5,
+      "text": "if you like working with the data analysis tool in business Central we have a few new goodies for you",
+      "why_it_matters": "Indicates the focus of the video is on new features for the data analysis tool in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 25.6,
+      "text": "in this release wave we made it a little bit easier the first method is simply if you right click in the data area",
+      "why_it_matters": "Confirms that Excel export methods have been improved in the current release wave.",
+      "check": "exact"
+    },
+    {
+      "t": 43.2,
+      "text": "the other way which is in which is new is to use the menu here on the data analysis Tab and simply choose open",
+      "why_it_matters": "Establishes that a new menu-based export method has been added to the data analysis tab.",
+      "check": "exact"
+    },
+    {
+      "t": 60.6,
+      "text": "you also get the file name of your Excel workbook uh with a name not not with the name export but with a name",
+      "why_it_matters": "Explains the improvement in file naming for exported Excel files, providing more descriptive names based on the page being used.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 5.5,
+      "kind": "preview",
+      "text": "they're actually a bit old because they were backported to the current version but they are also available in the 2025 release Wave 1"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009968000000000001
+    }
+  ]
+}

@@ -5,12 +5,58 @@
   "tier": "official",
   "title": "What's Cooking in Business Central: Limiting the Available Product Languages",
   "url": "https://www.youtube.com/watch?v=OszitKuf8t0",
-  "published_at": null,
+  "published_at": "2025-01-24T12:58:57.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:58:40.945Z",
+      "captions": "auto:en-orig",
+      "duration_s": 103
+    },
+    "captioned": {
+      "at": "2026-10-06T18:58:49.555Z",
+      "path": "data/captions/microsoft/OszitKuf8t0.vtt",
+      "vtt_sha256": "3e4e46a44a919af27620f68eac8833cb27988f424cf3b9c055da6d05995ced6b",
+      "segments": 6,
+      "words": 231,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:58:57.881Z",
+      "path": "data/extract/video/OszitKuf8t0.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 1,
+      "quotes": 4,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.007911
+    },
+    "summarized": {
+      "at": "2026-10-06T18:59:03.746Z",
+      "path": "data/summary/video/OszitKuf8t0.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0083024
+    },
+    "linked": {
+      "at": "2026-10-06T18:59:03.748Z",
+      "systems": [
+        "administration"
+      ],
+      "topics": 6,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T18:59:03.761Z",
+      "path": "content/videos/OszitKuf8t0.md"
     }
   },
   "input_hash": null,
@@ -20,6 +66,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 301,
     "duration_s": 103,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1e17f2cd357b2a291a9d563fd0f6cb26ca75ccee82ca40b4cffc6c1833dcf4b6"
 }

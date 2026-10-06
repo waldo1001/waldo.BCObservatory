@@ -5,12 +5,59 @@
   "tier": "official",
   "title": "What's Cooking in Business Central: Wanna Export Data to Excel in Analysis Mode?",
   "url": "https://www.youtube.com/watch?v=N7RE_UVeH1c",
-  "published_at": null,
+  "published_at": "2025-01-30T12:27:28.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:58:21.304Z",
+      "captions": "auto:en-orig",
+      "duration_s": 90
+    },
+    "captioned": {
+      "at": "2026-10-06T18:58:33.427Z",
+      "path": "data/captions/microsoft/N7RE_UVeH1c.vtt",
+      "vtt_sha256": "8a7c1b0e005e21901a1825d7d39dce3ccd42b9134bfe8b82ef0e22bfc7c261df",
+      "segments": 5,
+      "words": 205,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:58:57.490Z",
+      "path": "data/extract/video/N7RE_UVeH1c.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 3,
+      "quotes": 4,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.009968
+    },
+    "summarized": {
+      "at": "2026-10-06T18:59:03.439Z",
+      "path": "data/summary/video/N7RE_UVeH1c.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0100504
+    },
+    "linked": {
+      "at": "2026-10-06T18:59:03.440Z",
+      "systems": [
+        "reporting",
+        "development"
+      ],
+      "topics": 4,
+      "objects_as_heard": 2
+    },
+    "published": {
+      "at": "2026-10-06T18:59:03.453Z",
+      "path": "content/videos/N7RE_UVeH1c.md"
     }
   },
   "input_hash": null,
@@ -19,7 +66,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 300,
-    "duration_s": 91,
-    "via": "reconcile"
-  }
+    "duration_s": 90,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eb4207a6e14f906d1ed541f7654c9e2f4be6f559f352648c999a24ac598f8261"
 }

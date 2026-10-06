@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-track-document-lines",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "54b039be1eefa6966cf4f6f93c015dab2239cef7",
       "words": 166,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T18:58:38.329Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003112
+    },
+    "summarized": {
+      "at": "2026-10-06T18:58:38.338Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:58:38.339Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:58:38.340Z",
+      "page": false
     }
   },
   "input_hash": "54b039be1eefa6966cf4f6f93c015dab2239cef7",
@@ -61,5 +80,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "54b039be1eefa6966cf4f6f93c015dab2239cef7"
+  "output_hash": "1147b1c9f71dad1c55d912a2f6f54443d823d423bdab6488707719e8d46c63e7"
 }

@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions",
+  "title": "XML schemas to prepare data exchange definitions",
+  "blob": "188a087604c9f49b6f767e8e0fab8bee144837b6",
+  "summary": "Use XML schemas to define data elements for import/export in the data exchange framework, generating data exchange definitions from selected schema nodes.",
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "xml schemas",
+    "data exchange",
+    "import export",
+    "data integration",
+    "sepa"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "XML Schema Viewer"
+    },
+    {
+      "type": "page",
+      "name": "Posting Exchange Definition"
+    }
+  ],
+  "features": [
+    "xml schema loading",
+    "node selection",
+    "data exchange definition generation",
+    "xmlport generation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003112,
+      "pages_in_call": 7
+    }
+  ]
+}

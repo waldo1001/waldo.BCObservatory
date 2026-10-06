@@ -1,0 +1,25 @@
+{
+  "video_id": "N7RE_UVeH1c",
+  "item_id": "video/yt-microsoft/N7RE_UVeH1c",
+  "summary": "Excel export from the data analysis tool (analysis mode) in Business Central: two ways to export (right-click in the data area, or the menu on the data analysis tab) and a new file naming that uses the page name and analysis tab name instead of \"export\". Shown on the customer ledger entries page.",
+  "overview": "The video is a short \"What's Cooking\" item on exporting data to Excel while working in the data analysis tool. It demonstrates two methods. The first is to right-click in the data area and choose the Excel export option, then open in Excel. The second, which is new, is a menu on the data analysis tab where you choose open in Excel.\n\nIt also shows that the exported Excel workbook now gets a file name built from the page name and the analysis tab name, instead of just \"export\". The speaker notes that the changes were backported to the current version and are also available in the 2025 release wave 1.",
+  "key_points": [
+    "Right-click in the data area of the data analysis tool, choose Excel export, then open in Excel.",
+    "A new menu on the data analysis tab offers an open in Excel option to export data directly.",
+    "Exported workbooks are named with the page name and the analysis tab name rather than just \"export\".",
+    "The speaker says these changes were backported to the current version and are also in the 2025 release wave 1.",
+    "The demo uses the customer ledger entries page in analysis mode."
+  ],
+  "audience": [
+    "end user",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "024f7d5a492711c90025e8351d7698f52957b4afb6823fac1ce4461a8e231420",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0100504
+  }
+}

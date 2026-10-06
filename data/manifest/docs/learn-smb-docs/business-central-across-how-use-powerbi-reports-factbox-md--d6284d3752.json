@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-use-powerbi-reports-factbox",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3200166a918a4c25459d2117c956da1a88dc87cf",
       "words": 1085,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:58:38.335Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003112
+    },
+    "summarized": {
+      "at": "2026-10-06T18:59:05.636Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:59:05.637Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:59:05.638Z",
+      "page": false
     }
   },
   "input_hash": "3200166a918a4c25459d2117c956da1a88dc87cf",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3200166a918a4c25459d2117c956da1a88dc87cf"
+  "output_hash": "50cb62233295ec8603956c2b92c7ab840c2478bb0fd155675e5cd48d8dfd6ddd"
 }

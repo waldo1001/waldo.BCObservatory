@@ -1,0 +1,221 @@
+{
+  "video_id": "oN0XfuCe6Qg",
+  "item_id": "video/yt-microsoft/oN0XfuCe6Qg",
+  "title": "What's Cooking in Business Central: External File Storage Module",
+  "duration_s": 279,
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "external file storage",
+    "api",
+    "azure blob storage",
+    "file accounts",
+    "file scenarios",
+    "al development",
+    "system application module"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to External File Storage Module",
+      "t_start": 0,
+      "t_end": 37.5
+    },
+    {
+      "title": "2025 Wave 1 Release Status and Availability",
+      "t_start": 37.5,
+      "t_end": 60
+    },
+    {
+      "title": "Setting up File Accounts and Storage Configuration",
+      "t_start": 60,
+      "t_end": 110.9
+    },
+    {
+      "title": "File Scenarios and Configuration",
+      "t_start": 110.9,
+      "t_end": 154.4
+    },
+    {
+      "title": "Code Implementation and API Usage",
+      "t_start": 154.4,
+      "t_end": 216
+    },
+    {
+      "title": "Demonstration of File Storage in Action",
+      "t_start": 216,
+      "t_end": 248.3
+    },
+    {
+      "title": "Future Plans and Closing Remarks",
+      "t_start": 248.3,
+      "t_end": 279
+    }
+  ],
+  "features": [
+    {
+      "name": "External File Storage System Application Module",
+      "description": "A new system application module that provides an API to connect to and store data in external file storage systems including Azure blob storage, Azure file share, and SharePoint online.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6,
+      "t_end": 60,
+      "is_demoed": true,
+      "caveats": [
+        "There is no uptake of it yet in the base application",
+        "Developers need to create their own implementations"
+      ],
+      "tags": [
+        "external storage",
+        "api",
+        "azure",
+        "system application"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "File Accounts Page",
+      "description": "A user interface page for configuring file storage accounts, similar to the email accounts pattern, allowing setup of blob storage, file share, or SharePoint connections.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 75.6,
+      "t_end": 110.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "file accounts",
+        "user interface",
+        "storage configuration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "File Scenarios Enum",
+      "description": "An extensible enum that allows developers to define custom file scenarios for different use cases, such as saving order confirmations or other document types.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 110.9,
+      "t_end": 154.4,
+      "is_demoed": true,
+      "caveats": [
+        "Initially no built-in scenarios in the base application"
+      ],
+      "tags": [
+        "file scenarios",
+        "enum",
+        "extensible"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "External File Storage API Methods",
+      "description": "API methods including Initialize, OpenFileDialog/SaveFileDialog, and CreateFile that enable developers to programmatically store files in external storage systems like Azure blob storage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 154.4,
+      "t_end": 216,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "api",
+        "file operations",
+        "external storage"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Storage Browser",
+      "description": "A browser interface that allows users to view and manage files stored in external file storage accounts, similar to file explorers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 236.3,
+      "t_end": 248.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "storage browser",
+        "file management"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "enum",
+      "name": "file scenario",
+      "t": 154.4
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 6,
+      "text": "an api that makes it easier to store your data outside of business central for instance in an azure blob storage",
+      "why_it_matters": "Explains the core purpose and benefit of the new External File Storage Module.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 37.5,
+      "text": "with 2025 wave 1 this new SST application module is ready for release",
+      "why_it_matters": "Confirms the general availability status of the feature in a specific release wave.",
+      "check": "exact"
+    },
+    {
+      "t": 37.5,
+      "text": "there is no uptake of it yet so the base application as such does not use it",
+      "why_it_matters": "Important limitation: the feature is available but not yet adopted by the base application.",
+      "check": "exact"
+    },
+    {
+      "t": 174.7,
+      "text": "we initialize our external file file storage um with our scenario um we open a file a save file dialogue",
+      "why_it_matters": "Describes the key developer workflow for using the External File Storage API.",
+      "check": "exact"
+    },
+    {
+      "t": 248.3,
+      "text": "we will be looking into uptaking some of these capabilities in business Central in the upcoming waves",
+      "why_it_matters": "Indicates future plans to integrate file storage capabilities into the base application.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 37.5,
+      "kind": "other",
+      "text": "there is no uptake of it yet so the base application as such does not use it"
+    },
+    {
+      "t": 248.3,
+      "kind": "coming-later",
+      "text": "we will be looking into uptaking some of these capabilities in business Central in the upcoming waves"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013341
+    }
+  ]
+}

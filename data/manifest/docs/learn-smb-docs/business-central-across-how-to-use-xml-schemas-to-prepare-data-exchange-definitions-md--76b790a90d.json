@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "188a087604c9f49b6f767e8e0fab8bee144837b6",
       "words": 853,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:58:38.330Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003112
+    },
+    "summarized": {
+      "at": "2026-10-06T18:59:03.764Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:59:03.766Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:59:03.767Z",
+      "page": false
     }
   },
   "input_hash": "188a087604c9f49b6f767e8e0fab8bee144837b6",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "188a087604c9f49b6f767e8e0fab8bee144837b6"
+  "output_hash": "e205e9915816b4d1c979173f94a1f8edf2b0e2d4834bee486249caa63a6916b0"
 }

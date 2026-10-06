@@ -1,0 +1,114 @@
+{
+  "video_id": "OszitKuf8t0",
+  "item_id": "video/yt-microsoft/OszitKuf8t0",
+  "title": "What's Cooking in Business Central: Limiting the Available Product Languages",
+  "duration_s": 103,
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "language settings",
+    "administration",
+    "user settings",
+    "product languages",
+    "partner contribution",
+    "business central 2025"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and problem statement",
+      "t_start": 0,
+      "t_end": 20.1
+    },
+    {
+      "title": "New administrator capability for allowed languages",
+      "t_start": 20.1,
+      "t_end": 38.1
+    },
+    {
+      "title": "Demo - selecting allowed languages",
+      "t_start": 38.1,
+      "t_end": 50.3
+    },
+    {
+      "title": "User experience with filtered language list",
+      "t_start": 50.3,
+      "t_end": 71.1
+    },
+    {
+      "title": "Partner contribution and delivery",
+      "t_start": 71.1,
+      "t_end": 103
+    }
+  ],
+  "features": [
+    {
+      "name": "Allowed languages administration",
+      "description": "Administrators can limit the product languages available to users by specifying which languages users can choose from in their personal settings, reducing confusion from the full list of available languages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 20.1,
+      "t_end": 71.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "language",
+        "administration",
+        "user settings",
+        "filtering"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Casper",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 5.6,
+      "text": "we'll show you another Nifty little addition to Business Center 2025 wave 1 developed by one of our community members",
+      "why_it_matters": "Establishes that this is a new feature in Business Central 2025 wave 1 from a community contributor.",
+      "check": "exact"
+    },
+    {
+      "t": 20.1,
+      "text": "administrators have the ability to go into allowed languages we can specify Which languages you would like the user to be able to choose",
+      "why_it_matters": "Core description of the new administrative capability to restrict language options.",
+      "check": "exact"
+    },
+    {
+      "t": 50.3,
+      "text": "if you go into my settings the user will only be able to choose from the languages which are allowed",
+      "why_it_matters": "Shows the user-facing impact of the administrator's language restrictions.",
+      "check": "exact"
+    },
+    {
+      "t": 71.1,
+      "text": "this pull request that enables his capability which then now ships with 2025 wave 1",
+      "why_it_matters": "Confirms the feature's GA status and delivery in Business Central 2025 wave 1.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 1
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007911000000000001
+    }
+  ]
+}

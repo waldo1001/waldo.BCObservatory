@@ -1,0 +1,26 @@
+{
+  "video_id": "OszitKuf8t0",
+  "item_id": "video/yt-microsoft/OszitKuf8t0",
+  "summary": "Allowed languages administration in Business Central 2025 wave 1: administrators limit which product languages users can pick in their personal settings. The video demos the admin setup and the filtered language list, and says a community member contributed it through a pull request.",
+  "overview": "The video covers a small addition to Business Central 2025 wave 1 that addresses confusion caused by the full list of product languages. Administrators can open an allowed languages setting and choose which languages users may select.\n\nThe demo shows the administrator selecting languages, then the user's My Settings page, where only the allowed languages appear. The presenter says a community member built the capability and that it ships with 2025 wave 1 through a pull request.",
+  "key_points": [
+    "Administrators can specify allowed languages, which limits the product languages users can choose from.",
+    "Users see only the allowed languages when they open My Settings.",
+    "The change reduces confusion from the full list of available languages.",
+    "The capability ships with Business Central 2025 wave 1.",
+    "It was developed by a community member and delivered through a pull request.",
+    "The video demos selecting allowed languages and the resulting user view."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "96afe814c1f4bac97ff9e4058b643d5df32330ad2342aa51063359870aa128bf",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0083024
+  }
+}

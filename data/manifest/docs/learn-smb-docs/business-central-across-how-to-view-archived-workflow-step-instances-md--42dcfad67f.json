@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-view-archived-workflow-step-instances",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "88ce2faebcefc07ded3fc108778173b653b024ad",
       "words": 252,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:58:38.331Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003112
+    },
+    "summarized": {
+      "at": "2026-10-06T18:59:03.768Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:59:03.771Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:59:03.775Z",
+      "page": false
     }
   },
   "input_hash": "88ce2faebcefc07ded3fc108778173b653b024ad",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "88ce2faebcefc07ded3fc108778173b653b024ad"
+  "output_hash": "189d3dde2232fc6a82033598080f450089cc6debd4301b60f16999829154b580"
 }

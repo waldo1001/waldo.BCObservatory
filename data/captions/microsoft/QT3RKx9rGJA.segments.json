@@ -1,0 +1,1031 @@
+{
+  "video_id": "QT3RKx9rGJA",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 9.4,
+      "end": 29.6,
+      "text": "okay let's see we do expect that people can hear us now can people maybe I don't know if people can give us a yes ah there's a thumbs up from somebody so it looks like we have started the meeting and um I am guessing"
+    },
+    {
+      "t": 29.6,
+      "end": 46.3,
+      "text": "that people can see my front screen a go for GitHub office I was called January 2025 so this is the first uh of our office hours calls we've talked about for quite some time we wanted"
+    },
+    {
+      "t": 46.3,
+      "end": 56.3,
+      "text": "to to do these calls um I'm in a meeting here with Maria and Alexander who also works on they'll go for GitHub"
+    },
+    {
+      "t": 56.3,
+      "end": 76.4,
+      "text": "um they'll share that camera and we'll try to like answer your questions have a discussion on topics the agenda for the meeting um is kind of I'll go through very quickly what's new what we've done uh over the last month I know that since this is the first I should"
+    },
+    {
+      "t": 76.4,
+      "end": 92.5,
+      "text": "go through what we've done for the last like X years but that's going to be a long meeting then um so we're just going to take what's new for in the latest release very quickly and then go on to Q&A and and uh an open discussion"
+    },
+    {
+      "t": 92.5,
+      "end": 109,
+      "text": "on various topics what on your minds um so let's Dive Right into what's new let me know if you can see the agenda slide now somebody put the thumbs up I guess"
+    },
+    {
+      "t": 109,
+      "end": 127.4,
+      "text": "yes nice thank you so in the latest release we in the latest month we released version 6.3 there were like four uh things in that one besid some some fixes and stuff like that the conditional settings"
+    },
+    {
+      "t": 127.4,
+      "end": 147.9,
+      "text": "were now applied on uh we you can now Define conditional settings on buil mode as well um we have pre-processor symbols something a number of Partners ask for and then no more this built artifacts I'll explain that in a second and then a new versioning strategy also requested by"
+    },
+    {
+      "t": 147.9,
+      "end": 163.9,
+      "text": "one of our partners so let's just have a look look at um the very first one here so if you look at the left hand side uh you'll be able to see like um the settings that it takes to do conditional"
+    },
+    {
+      "t": 163.9,
+      "end": 184,
+      "text": "settings conditional settings is really um you you can make some settings and the settings file is defined when these conditions are are met and you can do conditions on which workflow you can do it on now build modes as well um and and and various other topics uh you can you"
+    },
+    {
+      "t": 184,
+      "end": 204.4,
+      "text": "can put the conditions on and then some settings so what I've done here is I've defined two two different build modes the default and the next major and then I've set conditional settings on if the build mode is next major then use these settings like override what's in the uh settings file normally looking at"
+    },
+    {
+      "t": 204.4,
+      "end": 224.5,
+      "text": "the actual build you'll see that it now builds uh the first project twice once say default and one say next major and if you dive into the next major build you'll see the Top Line there it applies preprocessor symbols next major which use in your Al codes to um to make sure that that"
+    },
+    {
+      "t": 224.5,
+      "end": 241.5,
+      "text": "you you're using the right code there version number you can do whatever the pre-processor symbol is really something you define and you'll see the artifacts down there SBC inside of something and that also applies from the conditions"
+    },
+    {
+      "t": 241.5,
+      "end": 262.4,
+      "text": "settings next one no more this buil artifacts uh now the this buil something we've had from the very beginning if you had multiple projects you would we would like create these this buil artifacts in order to use them when building the next project in order to have like dependencies resolved from a multiproject"
+    },
+    {
+      "t": 262.4,
+      "end": 281.7,
+      "text": "uh repository uh these this build artifacts lasted for like 20 hours and was only used for for the build process and not meant for uh public consumption or what do you say um so and they were kind of yeah annoying"
+    },
+    {
+      "t": 281.7,
+      "end": 302.2,
+      "text": "um then we also had requests from partners that they wanted us to generate uh artifacts from pull requests from current uh workflows from next major next minor workflows they wanted us basically to leave the artifacts within the build even though uh um they weren't producing artifacts"
+    },
+    {
+      "t": 302.2,
+      "end": 322.8,
+      "text": "for for for shipping uh but maybe for people wanted to use pull request for deploying to an environment so that they could kind of test the bits before they actually um approved the pull request uh so what we did was we removed the this buil artifacts and we always produce normal artifacts in a"
+    },
+    {
+      "t": 322.8,
+      "end": 343.2,
+      "text": "in a build process now so in a in a multiproject repository you will now see the right hand side uh where you have the the various projects and the apps and the dependencies and stuff like that and and and those can be actually used whatever um you will have different names of these"
+    },
+    {
+      "t": 343.2,
+      "end": 360.7,
+      "text": "um of these artifacts based on which workflow it is so from the cicd you will have the project uh the the branch and apps and the version number in the next major you will have uh the next major name in there as well and then"
+    },
+    {
+      "t": 360.7,
+      "end": 381.6,
+      "text": "a date I think date time after that so there'll be various names so you can you can enumerate the artifacts and see that uh that it's the right ones new versioning strategy um normally we've always said that major minor comes from App Json build release comes from"
+    },
+    {
+      "t": 381.6,
+      "end": 397.2,
+      "text": "uh Al go for GitHub now it's actually major minor build if you use versioning strategy 3 that comes from uh your app Jason and then only the revision number now becomes the Run number"
+    },
+    {
+      "t": 397.2,
+      "end": 417.4,
+      "text": "um what what does this mean well it actually works pretty well when you do a release because there you have to do a sare like three digits and here you'll have the three digits from your app Json to release and we'll only be counting the very last of the four digits when you actually uh make a new build so"
+    },
+    {
+      "t": 417.4,
+      "end": 437.5,
+      "text": "you would name your your build version 1.0.1 and then when you run the create release you'd be able to say I'll add like plus 0.1 and it would be 1.1.0 or You' add like plus 0.0.1 and you'll add one to the to the third digit"
+    },
+    {
+      "t": 437.5,
+      "end": 457.7,
+      "text": "so it's the same as uh the normal versioning strategy just three digits are now um are now determined by ajason and the fourth digit is now the Run number if you rerun a build like if something fails and you reran then in the old days you would have the fourth digit"
+    },
+    {
+      "t": 457.7,
+      "end": 478.3,
+      "text": "be the Run attempt that no longer applies if you rerun it's just the same version number it's not going to um add anything to that one so with that I think we will switch over to open discussion and Q&A I don't know if people can actually unmute"
+    },
+    {
+      "t": 478.3,
+      "end": 490.2,
+      "text": "themselves or if they have to use the Q&A pane but um let's yeah people need to use the Q&A pain let's see if we have"
+    },
+    {
+      "t": 490.2,
+      "end": 509.6,
+      "text": "any any questions there not a single one in my list maybe I'm in the wrong location and somebody say hello or create a post or whatever in the Q&A pane so that we can see that we are that it actually is working"
+    },
+    {
+      "t": 509.6,
+      "end": 525.6,
+      "text": "maybe nobody could hear what I'm saying and I've just been talking for like 10 minutes okay we do have questions to says hi hi"
+    },
+    {
+      "t": 525.6,
+      "end": 529,
+      "text": "to"
+    },
+    {
+      "t": 529,
+      "end": 541.7,
+      "text": "okay oh we have a question in the chat though we have a question what's new in regards to Performance getting a faster check if the build"
+    },
+    {
+      "t": 541.7,
+      "end": 561.1,
+      "text": "compiles um so a few things um one of the things we did I can't remember I think that was in December um we did a change in the Run pipeline inside of"
+    },
+    {
+      "t": 561.1,
+      "end": 581.1,
+      "text": "um inside of the BC contain hel that actually now if you if you said that you want to use compiler folder um and you use a container you'll actually be compiling using the compiler folder and you'll create the container after all the compile is done now it means"
+    },
+    {
+      "t": 581.1,
+      "end": 601.7,
+      "text": "that the entire build will get a little slower but it means that the compile will be faster there's also other ways of handling this so you can you could imagine that you would uh have multiple projects where you have the tests in a separate project and actually just build the various projects first and then run the tests in a in a separate project"
+    },
+    {
+      "t": 601.7,
+      "end": 618.2,
+      "text": "um we do have a an item in our backlog to document these various ways of setting up Alo to get best performance or best matching whatever people needs and and it might be that we should"
+    },
+    {
+      "t": 618.2,
+      "end": 638.2,
+      "text": "like up the priority of of these documentations in order to make sure that we can that you can do that but but if you want like I think a good mechanism would be to like structure your repository so that you have the only place you need the the container really is in when you were running"
+    },
+    {
+      "t": 638.2,
+      "end": 652.6,
+      "text": "the tests so you could build using compiler folder in like in your projects that contain the source code and the tests really and then you could run the tests in a separate project"
+    },
+    {
+      "t": 652.6,
+      "end": 672.6,
+      "text": "um yeah see if we have other questions in post yes Todd asks about actions what does the use workflow from branch do does it mean the workflow runs on the context of that Branch for all source and"
+    },
+    {
+      "t": 672.6,
+      "end": 690.7,
+      "text": "configuration this is the GitHub one this yes so that's the top um yeah not radio button it's a top drop down it means that the the code in the workflow is from that and I"
+    },
+    {
+      "t": 690.7,
+      "end": 711.5,
+      "text": "I'm I think we also honor that so we'll use that Branch as our the branch for which we are like taking the source and stuff like that uh now be aware that if you have a an Old Branch then you will actually be running the action"
+    },
+    {
+      "t": 711.5,
+      "end": 731.6,
+      "text": "on the old version of algo if you're running in in that one now Maria is working on a on a PR where we can like up update algo system files in multiple branches so if you're using multiple branches you'd be able to um to keep them all to the same version of Elo because if you pick this one and you have a very"
+    },
+    {
+      "t": 731.6,
+      "end": 749.3,
+      "text": "old Branch You' be running old code that might not work anymore um but yes you'll be running in the context of that Branch for source and configuration and settings files and everything we' be reading that from there"
+    },
+    {
+      "t": 749.4,
+      "end": 769.4,
+      "text": "I think you need to get it from top to bottom because there was a previous question from Thomas okay let's see I can I can can you can you do this is there possibility to automatically run publish to environment we'd like to update production environments outside"
+    },
+    {
+      "t": 769.4,
+      "end": 781.6,
+      "text": "of working hours uh yeah it's actually a question we've had from quite some some people right now you cannot do a sketch on that because"
+    },
+    {
+      "t": 781.6,
+      "end": 801.6,
+      "text": "um it requires some input um there is a mechanism to do that by creating a small yo file that actually spawns the publish to environment and you can put a schedule in that one that requires you to to create a small yam file um I can if you I"
+    },
+    {
+      "t": 801.6,
+      "end": 815.6,
+      "text": "think I already have a GitHub suggestion on this one um but I should create document for how to do that as well I'll take some notes here"
+    },
+    {
+      "t": 815.6,
+      "end": 824.2,
+      "text": "um so yeah publish to environment on a"
+    },
+    {
+      "t": 824.2,
+      "end": 838,
+      "text": "schedule schedule we'll take a note that we'll create a documentation on how to do that inside of Alo um within the next week or two"
+    },
+    {
+      "t": 838,
+      "end": 849.7,
+      "text": "um I promise if I haven't done that raise an issue on get up and say you promised and I'll I'll make that happen"
+    },
+    {
+      "t": 849.7,
+      "end": 869.8,
+      "text": "and thoughts yes is there a possibility to deploy only apps that really changed imagine project with a lot of apps only the ones changed deployment deploys all apps floran you're right that is how it works right now there is an PR"
+    },
+    {
+      "t": 869.8,
+      "end": 890.2,
+      "text": "called incremental builds that one will only build the the apps that are changed or uh depends on apps that are changed so if you if you modify the the the very lowlevel app you'll still rebuild all apps and actually deploy all apps but if you are"
+    },
+    {
+      "t": 890.2,
+      "end": 905.8,
+      "text": "if you are just modifying one app it will only rebuild that one app and then the version number of of all the other apps in the repository will be the same and then it will only deploy the modified or rebuilt"
+    },
+    {
+      "t": 905.8,
+      "end": 926,
+      "text": "apps it's not really so we heard this actually we had a round table directions inia where where some of our partners mentioned the same thing deployment takes a lot of time building does not necessarily take a lot of time but deployment does so if we can just build the apps that are really changed then deployment would take over and figure out"
+    },
+    {
+      "t": 926,
+      "end": 940.9,
+      "text": "oh that app is already installed so not don't bother with that one and and that's uh the pr that is open we're expecting that one to get in uh preview within the next few uh"
+    },
+    {
+      "t": 947.8,
+      "end": 968.1,
+      "text": "weeks mik asks have you planned to spend one of these office hour slots to do an introduction to Alo for GitHub for partners that are new to go for GitHub or are in the process of deciding what devops tools to use in their"
+    },
+    {
+      "t": 968.1,
+      "end": 988.1,
+      "text": "organization um we haven't like I think the office hours is typically for people who are yeah people new people can listen in but but it's typically for people to answer the questions that that people have when they're trying or they're they're working with this um we"
+    },
+    {
+      "t": 988.1,
+      "end": 1008.9,
+      "text": "could do another office hours calls for people that are new to go for GitHub like really a directions session or whatever we will be at directions as well both in North America Andia and maybe also in Asia this year and we'll do like getting started we had a very good getting started session last year where where I"
+    },
+    {
+      "t": 1008.9,
+      "end": 1029,
+      "text": "I taught yonas blun how to use ELO forget Hub on stage and that worked pretty well um we could do stuff like that I think in a in a session um in the off sou session I also the launch event sessions yeah the launch that se is that getting started"
+    },
+    {
+      "t": 1029,
+      "end": 1051.6,
+      "text": "I think really what's new there's also an old one then the last last year there's only a getting what's new I remember there was also like getting started as well yeah but um point taken Eng and we'll uh we look at that"
+    },
+    {
+      "t": 1056.8,
+      "end": 1067.8,
+      "text": "recently found out that there are already many algo usage examples on GitHub in the form of repositories is there a list with a short explanation of individual use"
+    },
+    {
+      "t": 1067.8,
+      "end": 1087.9,
+      "text": "cases that would be a good idea to have um I don't have a list per se um I I I did start like let me roll back to the the first slide here I did start a repo here called GitHub business Central apps algo office hours 202- one this"
+    },
+    {
+      "t": 1087.9,
+      "end": 1103.8,
+      "text": "repository contains all the samples where I took the screenshots in this office hour course and I'll use the same naming for one but maybe we should have like um a list there is actually if you go aka."
+    },
+    {
+      "t": 1103.8,
+      "end": 1122.6,
+      "text": "msbc samples you will find some samples apps but but they are kind of yeah a little larger it's the big Maps app and there's a few other uh with the Power Platform integration and there's the onboarding one from from CERN"
+    },
+    {
+      "t": 1122.6,
+      "end": 1143.7,
+      "text": "um but maybe we should have yeah probably use more of repositories in the usage documentation and actually keep these repositories and keep them alive instead of just having them uh shortlived and not maintain them it's a good idea point taken glan"
+    },
+    {
+      "t": 1143.7,
+      "end": 1149.6,
+      "text": "we'll look at that as well"
+    },
+    {
+      "t": 1149.6,
+      "end": 1159.8,
+      "text": "and does a new change have page scripting tasks for the results using Alo for GitHub or Asher"
+    },
+    {
+      "t": 1159.8,
+      "end": 1180.4,
+      "text": "pipelines this new change uh so Manish so Sebastian is actually here as well she has joined and he is working on a results viewer for Alo for GitHub we we don't uh focus on Asha pipelines in this team um"
+    },
+    {
+      "t": 1180.4,
+      "end": 1201.2,
+      "text": "but we are working on a results viewer for p scripting tasks we're also working on figuring out if we can run the P scripting tasks as part of deployment so when you're deploying to a QA environment you could Define that you would like to run the pig scripting tasks in that environment as well so that you can kind of see"
+    },
+    {
+      "t": 1201.2,
+      "end": 1222.8,
+      "text": "with your customer data or your test data or whatever that your P scripting tasks actually completes that one but um I'll expect the results viewer to be done before we ship version seven in April isn't that a good yeah"
+    },
+    {
+      "t": 1222.8,
+      "end": 1243.5,
+      "text": "definitely I don't know if we're going to make it with the with the page scripting test and QA the primary problem there I think is that the current page scripting um Runner doesn't work with MFA and a lot of people have and or must enable NFA MFA for their"
+    },
+    {
+      "t": 1243.5,
+      "end": 1256.5,
+      "text": "authorization or auth indication actually um so that one requires some some investigation"
+    },
+    {
+      "t": 1264.3,
+      "end": 1277.1,
+      "text": "what is the recommended way to download external dependencies like Contin currently we have it on a server and manually have to maintain it"
+    },
+    {
+      "t": 1278,
+      "end": 1291.4,
+      "text": "so the recommended way is to use net I don't know if continia has a Nate feed I don't think uh we have been"
+    },
+    {
+      "t": 1291.4,
+      "end": 1311.4,
+      "text": "specifying in a good way how to how Partners should do this and that Al go for GitHub does support nuget both like as a as a provider and as a consumer of nou packages so so if you trusted a nou feed from continia then You' be able to"
+    },
+    {
+      "t": 1311.4,
+      "end": 1331.6,
+      "text": "have automatic dependency resolution through that one right now we do automatically trust the the symbols feed from appsource so the appsource symbols should be uh updated but you can only you can only compile the app so you wouldn't be able to run tests in a container with with those"
+    },
+    {
+      "t": 1331.6,
+      "end": 1350.4,
+      "text": "things so um but I think nugat is is the answer to this problem um and and we will be looking into that as we've been looking into that for a long time and it's probably been yeah too long time"
+    },
+    {
+      "t": 1353.7,
+      "end": 1365.3,
+      "text": "alping actually continue to ask if they have a n feeds just to know um where they are and and what they"
+    },
+    {
+      "t": 1370.6,
+      "end": 1391.2,
+      "text": "do any news regarding the future of local devv creation of development containers features like installing packages from private repositories external dependencies and stuff like that new get feed GI packages are not supported yeah so when running the local DD"
+    },
+    {
+      "t": 1391.2,
+      "end": 1411.9,
+      "text": "you need your GitHub user need to have permissions to read everything that you can install in that container um if you don't have permissions to that then we cannot get to that now U no real way around that at this time"
+    },
+    {
+      "t": 1411.9,
+      "end": 1432.3,
+      "text": "um yeah I don't know if if there's any way to fix this right now local debv builds the entire thing and publishes things through a container I've been thinking about whether it should not do that whether it should take the latest good build from GitHub and actually download the binaries and just install them and then you have something that is running"
+    },
+    {
+      "t": 1432.3,
+      "end": 1452.8,
+      "text": "and and that you now have the source maybe newer Source than what's installed but you still have have um easier access to all these dependencies because they would be in GitHub uh artifacts as apps test apps and dependencies especially with the latest"
+    },
+    {
+      "t": 1452.8,
+      "end": 1468.5,
+      "text": "fix if you go into a branch now you'd actually have these as well so um maybe we should start discussion on that on GitHub ELO and and see if if that would be something uh"
+    },
+    {
+      "t": 1468.5,
+      "end": 1474.4,
+      "text": "would be good to to do"
+    },
+    {
+      "t": 1502,
+      "end": 1522.9,
+      "text": "yeah so Philip you uh as the same question we had that as one of the first questions we uh I'll I'll make a documentation on how to do that it's not something can you read the question oh the question yeah it seems like cron schedules are aborted on cicd runs BYO are there any plans for making it possible to schedule"
+    },
+    {
+      "t": 1522.9,
+      "end": 1543,
+      "text": "deployment publish to environment in a similar fashion um and yes we've heard that from a number of partners and and we will document how to do that that as things are today um and and in a in a later fashion like going maybe a year or two from now U"
+    },
+    {
+      "t": 1543,
+      "end": 1563,
+      "text": "we are talking about not actually so so publishing to an environment is pushing from your from your GitHub repo into an environment what what we're talking about the future should look like is you're publishing to a to nou get feed and you're actually installing from the environment so you define on the environment"
+    },
+    {
+      "t": 1563,
+      "end": 1583.2,
+      "text": "when you want to install the update or when you want to uh to to take the update from net and that's something we are looking into whether that would be a good way of solving that but um right now publ to environment is uh yeah the only way you can do that and and the way to autate that is to"
+    },
+    {
+      "t": 1583.2,
+      "end": 1604.1,
+      "text": "create a small file next to to that uh one and and find what you want to to do there I'll I'll create a small documentation sample on how to do that and and add that and I think I promised do that within the next two weeks so expect that to be done"
+    },
+    {
+      "t": 1607.9,
+      "end": 1613.4,
+      "text": "there I miss anyone"
+    },
+    {
+      "t": 1619.1,
+      "end": 1624.3,
+      "text": "you can now archive the questions"
+    },
+    {
+      "t": 1637.9,
+      "end": 1650.1,
+      "text": "but so floran added a comment to his questions about the get packages in N uh actually if what you"
+    },
+    {
+      "t": 1650.1,
+      "end": 1666.8,
+      "text": "right now if you use the setting called generate dependency artifacts uh then in the buildt artifacts there will be a a an artifact called um project"
+    },
+    {
+      "t": 1666.8,
+      "end": 1687.7,
+      "text": "branch dependencies and then version number and and all the dependencies used for the builds would be in that one so so that would be possible um but it's not something that local Deb look at at this time that is what I talked about something we could do in the future instead of building actually just taking things from the repo"
+    },
+    {
+      "t": 1687.7,
+      "end": 1699.4,
+      "text": "and or from the latest good build and grabbing that to um to create with"
+    },
+    {
+      "t": 1725.6,
+      "end": 1728.8,
+      "text": "any more"
+    },
+    {
+      "t": 1728.8,
+      "end": 1733.8,
+      "text": "questions comments"
+    },
+    {
+      "t": 1753,
+      "end": 1773.1,
+      "text": "while people are writing their questions these office hours calls we're going to do them monthly uh this year except for July and December reason for not doing them in December is obviously that we'll put them on the last Tuesday in the month and it's a bad date in December I think"
+    },
+    {
+      "t": 1773.1,
+      "end": 1791.3,
+      "text": "so and we'll um alternate between a morning time and an afternoon time here in Copenhagen so we give us people a chance to attend and also people from from the Asia Pacific so"
+    },
+    {
+      "t": 1813.2,
+      "end": 1833.8,
+      "text": "other questions maybe I should ask questions but I don't know if I can get an answer I saw that people can give thumbs up on things but um how many people or try to like find the thumbs up thingy and uh if you are if you're working on implementing"
+    },
+    {
+      "t": 1833.8,
+      "end": 1846.7,
+      "text": "Alo then uh press the thumbs up button and let see how many people on the call would be doing that one"
+    },
+    {
+      "t": 1848.6,
+      "end": 1861,
+      "text": "two like a 10ish 11 12 people out of the the the people on the call around that"
+    },
+    {
+      "t": 1862.3,
+      "end": 1875.4,
+      "text": "probably yeah and I guess that the remaining people would then be actual users of"
+    },
+    {
+      "t": 1876,
+      "end": 1885.6,
+      "text": "Alo wouldn't make sense to join an office call and not have a clue about what they going"
+    },
+    {
+      "t": 1886.9,
+      "end": 1907.7,
+      "text": "on so instead of if you don't have a question you can type into the uh the chat what has your uh what has the biggest challenge been for for implementing and go what are you like what are you running into what you like us to document better or or do better for you as"
+    },
+    {
+      "t": 1907.7,
+      "end": 1927.7,
+      "text": "St is there a possibility to run oh there's another question here so is there a possibility to run all workflows on a self-hosted runner and not just the builds without editing the yam files yes there is Thomas there are two settings that determines uh which Runners you"
+    },
+    {
+      "t": 1927.7,
+      "end": 1948,
+      "text": "use there's the GitHub Runner which determines what uh what Runners are being used for the build jobs and then there's the runs on that determines what workflow what what Runners are being used for all the other ones so if you said runs Dash on to selfhosted or the name"
+    },
+    {
+      "t": 1948,
+      "end": 1968.1,
+      "text": "of your self hosted Runners and run the update Alo system files uh we will set the um the runs on in all the yaml files to be yourself Runner except for the update ELO system files the update ELO system files will"
+    },
+    {
+      "t": 1968.1,
+      "end": 1988.6,
+      "text": "always use the GitHub hosted Runner and the reason for that is that if your self-hosted Runner is for some reason no longer working or crashed or whatever then you cannot change the self-hosted runners because you do that using the update ELO system files meaning that that one needs to"
+    },
+    {
+      "t": 1988.6,
+      "end": 2009.9,
+      "text": "be um an get posted Runner now I'm sure that update ELO assistant files is not the workflow that is going to take all of your GitHub free minutes so I think that one would be fine to have as a g posted Runner"
+    },
+    {
+      "t": 2020.6,
+      "end": 2031.1,
+      "text": "you do like this I think that is a link to see the documentation for"
+    },
+    {
+      "t": 2031.1,
+      "end": 2054.7,
+      "text": "Ronan to comment here makes sense what about the runner groups is that a possibility yeah so what you specify in runson or GitHub Runner is exactly what's being used in runson so if you use Runner group name there or or tax in the runner uh that same thing so yeah"
+    },
+    {
+      "t": 2082.1,
+      "end": 2093,
+      "text": "so floran says follow up to Thomas's question our self hosted rner is quite fast but are there any recommendation regarding the setup the server Hardware softare"
+    },
+    {
+      "t": 2093,
+      "end": 2109.8,
+      "text": "Etc so we will always you guys can ch in if you want I think our goal is to be as efficient as possible on the GitHub of the runners meaning that if you need to like see what you need to install look at that"
+    },
+    {
+      "t": 2109.8,
+      "end": 2129.4,
+      "text": "um we'll find the url for that one and and post in the chat um the software that is installed there you don't need all the software uh we could actually probably do a good do a list of what what we need instead of like there's no reason for them to install everything thing that is on"
+    },
+    {
+      "t": 2129.4,
+      "end": 2141.2,
+      "text": "posted so let's write down that we'll if we don't have it we'll create a list of the software needed for that one"
+    },
+    {
+      "t": 2141.2,
+      "end": 2161.3,
+      "text": "and as to memory it really depends on the size of your app um some cases very large apps will in order to be published into a into a container actually use quite a bit of memory um and and some of the GitHub hosted Runners might not be big"
+    },
+    {
+      "t": 2161.3,
+      "end": 2172.3,
+      "text": "enough for that but you can have large Runners you have self-hosted Runners that have more memories so but uh we'll create a some"
+    },
+    {
+      "t": 2172.3,
+      "end": 2194.6,
+      "text": "documentation that describes the um what needs to be a little list of some software I'll share that in the question okay like net for example and get app things it might not be"
+    },
+    {
+      "t": 2194.6,
+      "end": 2205.3,
+      "text": "complete take a note that we need to make sure that that list is complete so we can share that"
+    },
+    {
+      "t": 2210.3,
+      "end": 2230.4,
+      "text": "um we going what I'm missing trying to implement go for GitHub in an organization is that it often looked as a developer tool instead of a tool to maintain a well Ro running BC implementation so like more documentation on management level that will explain"
+    },
+    {
+      "t": 2230.4,
+      "end": 2240.3,
+      "text": "the total value of the devop processes support by the go for GitHub"
+    },
+    {
+      "t": 2241.4,
+      "end": 2252.1,
+      "text": "okay wise words there it we take a note of that thank you for sharing"
+    },
+    {
+      "t": 2252.1,
+      "end": 2274.6,
+      "text": "um I'm sure that like over time that's also something that's going to help us uh yeah convince people that doing everything yourself is not necessarily the most efficient way or the most economic way um going"
+    },
+    {
+      "t": 2274.6,
+      "end": 2279.6,
+      "text": "forward so"
+    },
+    {
+      "t": 2281.4,
+      "end": 2292.6,
+      "text": "is there a possibility to deploy some test data to Containers during pipeline run posting groups Etc yeah so you can have um what they called configuration"
+    },
+    {
+      "t": 2292.6,
+      "end": 2309.4,
+      "text": "packages and remember the actual setting of that there's a setting called something you can Define I think it's configuration packages actually um where you can Define which configuration packages are applied doing"
+    },
+    {
+      "t": 2309.4,
+      "end": 2329.9,
+      "text": "build um will find the link to the documentation for that one and you can apply that even per localization so you can have a different configuration package if you're running the tests for us version for Danish version and for Italy version you can have three different config packages for those"
+    },
+    {
+      "t": 2329.9,
+      "end": 2350,
+      "text": "um confli packages is we also have an override called import test data NPC container so if you had a script called that then you can also do whatever custom thing you need to do for for configuration packages and demo data whatever yeah if you like to do things"
+    },
+    {
+      "t": 2350,
+      "end": 2362.6,
+      "text": "in code you can do that there's one question in the chat as well it's been posted"
+    },
+    {
+      "t": 2364.8,
+      "end": 2385,
+      "text": "there yeah we go to chat and second with the new resources function work in the do app as well to can you ask that as a separate question I'm not sure that I understand that one um but let's look in the chat if I need to sign the buildt app using another"
+    },
+    {
+      "t": 2385,
+      "end": 2398.2,
+      "text": "CA Vault not AC keyb do I need to write My Signing script if so should I include installing navs or other prere"
+    },
+    {
+      "t": 2398.2,
+      "end": 2418.4,
+      "text": "so what we utilize for for this is net sign um for doing the signing and and if if doet sign can sign your app using whatever where you have your your your certificate that would uh be"
+    },
+    {
+      "t": 2418.4,
+      "end": 2438.6,
+      "text": "our I mean that we would recommend that we would not recommend you to write your own code and and maintain that and and other things if you find that net sign can do what you need but you need like to add another um setting or whatever to to to support other CA"
+    },
+    {
+      "t": 2438.6,
+      "end": 2458.7,
+      "text": "vaults as well uh please work with us and we might be able to actually include that in Alo so that our signing mechanism could could could work with that uh if it's not too big a a of a change so yeah feel free to create a PR on on on our"
+    },
+    {
+      "t": 2458.7,
+      "end": 2466,
+      "text": "uh repository and we'll work with you to figure out whether that's possible or"
+    },
+    {
+      "t": 2474.9,
+      "end": 2494.1,
+      "text": "not for al42 we can include resources in the app itself for a test app we could use the resource in the initialization step of the test it would be just a different means of loading some configuration data yeah so I think you on to something here Todd"
+    },
+    {
+      "t": 2494.1,
+      "end": 2514.2,
+      "text": "um and actually configuration packages are if we are looking into the future going away so we're not we right now we're shipping conflict packages we had a a few weeks where we did not um uh but we are reshipping them but we know they'll be going away so we be deprecating the conflict packages"
+    },
+    {
+      "t": 2514.2,
+      "end": 2534.4,
+      "text": "as part of the of the of the DVD or part of our artifacts we're not dicating the functionality of config packages we still maintain that but we're not going to ship our extended demo data as contct packages we're going to ship that as absence that kind of like what to is referring to here like having an app that would"
+    },
+    {
+      "t": 2534.4,
+      "end": 2554.8,
+      "text": "actually encode create the demo data and and that's what we're going to ship as well so in the future we'll replace the the shipped config packages with um demo data apps uh and and yes that would be a good way of doing that yourself as well to not have a dependency of"
+    },
+    {
+      "t": 2554.8,
+      "end": 2572.7,
+      "text": "some demo data that is in a conflict package somewhere that will go away in the future um and I expect I haven't tried working with the resources in the app but I strongly assume that you could use that for that"
+    },
+    {
+      "t": 2572.7,
+      "end": 2592.8,
+      "text": "purposes there was one question before Oh regarding the Telemetry data from Alo quite a lot is recorded and we can already evaluate various things for ourselves especially PRS are there already some kql queries from you"
+    },
+    {
+      "t": 2592.8,
+      "end": 2612.8,
+      "text": "you can provide or that you use yourself to analyze usage on errors some want to take that one yeah uh we don't have that available but I think it's a good idea uh uh I it's a very like relatively new like module in Alo but I think that is something we"
+    },
+    {
+      "t": 2612.8,
+      "end": 2633.1,
+      "text": "can work on adding I think that would benefit more people maybe even like a dashboard or something we can share yeah probably a dashboard that people could see there yeah good idea and then make if we're missing something into limet we can add it so that the dashboard becomes more live maybe we can do a"
+    },
+    {
+      "t": 2633.1,
+      "end": 2643.4,
+      "text": "actually even put the dashboard inside of the repo so that it's open source as well be"
+    },
+    {
+      "t": 2643.4,
+      "end": 2648.4,
+      "text": "nice follow"
+    },
+    {
+      "t": 2652.9,
+      "end": 2672.9,
+      "text": "up so the old sign tool of the SDK wouldn't work I guess it would I mean I don't I haven't if if you use the old sign tool you definitely have to like download the um the navip library yourself and"
+    },
+    {
+      "t": 2672.9,
+      "end": 2694.7,
+      "text": "and install that and all of these things that that happens automatically with net sign um but yes you could go through sign tool and stuff like that if you do that then we would not take that as a um as a PR to algo we've decided on net sign and we'll"
+    },
+    {
+      "t": 2694.7,
+      "end": 2706.4,
+      "text": "until until further proof prove that that's the wrong way we'll stick to that I mean we think that that is the right"
+    },
+    {
+      "t": 2713.1,
+      "end": 2729.7,
+      "text": "choice and please uh put your questions in the Q&A tab instead of in the chat uh that helps a lot to get everything in one location and we can collect that afterwards"
+    },
+    {
+      "t": 2742.8,
+      "end": 2756.7,
+      "text": "so my Q&A pain is now stuck there's nothing okay now I can scroll again okay"
+    },
+    {
+      "t": 2762,
+      "end": 2785.4,
+      "text": "and I said before thanks a lot for to to in for sharing what he thinks it would take for us to to make algo easier to install or more digestible to organizations if other people have things we should like consider uh yeah please speak up very much like to me"
+    },
+    {
+      "t": 2819.7,
+      "end": 2832.9,
+      "text": "Floren dietr asks so we have the issue that old pte are remaining published but uninstalled in extensions list after deployments gets a little"
+    },
+    {
+      "t": 2832.9,
+      "end": 2853.2,
+      "text": "cluttered yeah so I think I've seen that before in the you have issues as well I don't think there is an unpublish mechanism in the um in the API right now uh but but I can definitely double check that so so they'll be unpublished"
+    },
+    {
+      "t": 2853.2,
+      "end": 2865.6,
+      "text": "when you get the next major or next minor update I think that is why they get unpublished but um can we"
+    },
+    {
+      "t": 2867.1,
+      "end": 2877.2,
+      "text": "unpublishing deployment to enement um take that as an action"
+    },
+    {
+      "t": 2877.2,
+      "end": 2881.6,
+      "text": "see if that's"
+    },
+    {
+      "t": 2885.2,
+      "end": 2903.6,
+      "text": "possible to ask is a training available somewhere for other developers and this is hard to manage the training on my own yeah the yearo workshop is Maria say is probably the best starting place"
+    },
+    {
+      "t": 2903.6,
+      "end": 2916.6,
+      "text": "um that one probably needs some some love and attention as well but we with"
+    },
+    {
+      "t": 2924.4,
+      "end": 2937.2,
+      "text": "that one thing I learned is that the ELO Workshop talks a lot about setting up AO and and and and like importing your your um"
+    },
+    {
+      "t": 2937.2,
+      "end": 2957.2,
+      "text": "your apps and stuff like that another Workshop that we should do or we should create somewhere uh is using Alo so now you you have it set up and you have like people who needs to work with GitHub and algo on a daily basis what do they do because they don't like they don't go to GitHub and create"
+    },
+    {
+      "t": 2957.2,
+      "end": 2977.6,
+      "text": "a new repository and stuff like that they'll be working with it as as users more than as but that probably yeah swings back to engus comment about it's a developer tool more than it's a it's a something that management can can understand but also yeah Consultants not probably"
+    },
+    {
+      "t": 2977.6,
+      "end": 2990.6,
+      "text": "got that feedback as well yeah using Workshop would be great let's put that on our list of things to"
+    },
+    {
+      "t": 2990.6,
+      "end": 2997.1,
+      "text": "document have three thumbs up in a second so"
+    },
+    {
+      "t": 3021.2,
+      "end": 3025.2,
+      "text": "sh"
+    },
+    {
+      "t": 3035.7,
+      "end": 3049.6,
+      "text": "one of the challenges so uel asks one of the challenges to push the customers to migrate to go for from as devops is SSO we have that in C"
+    },
+    {
+      "t": 3049.6,
+      "end": 3060.4,
+      "text": "SSO uh single signon single signon um"
+    },
+    {
+      "t": 3060.4,
+      "end": 3080.5,
+      "text": "well I do sign up so yeah um that's I think an organizational level can be forced at least it's forced for Microsoft organization and we need to sign in with our Microsoft credentials and using the Microsoft organization as that and use MFA as we do with other all other"
+    },
+    {
+      "t": 3080.5,
+      "end": 3083.9,
+      "text": "uh Microsoft"
+    },
+    {
+      "t": 3083.9,
+      "end": 3098.6,
+      "text": "um resources so so yes um I'm pretty sure you can set that up on the organizational level and and if your user belongs to that"
+    },
+    {
+      "t": 3098.6,
+      "end": 3105.5,
+      "text": "organization you'll be forced to to do"
+    },
+    {
+      "t": 3108.3,
+      "end": 3128.8,
+      "text": "that t says there still a future topics in the AL go for GitHub Workshop are they coming yeah well future topics is for the future and like we give rebates tomorrow is what it says in the shop wall right no yeah um definitely but it's something we need to prioritize some more about the documentation"
+    },
+    {
+      "t": 3128.8,
+      "end": 3148.8,
+      "text": "piece of this um they've been lying around there for for too long so um expect more uh over the next months I'll I'll try to maybe schedule a day every week where I'll do documentation work instead of other stuff that's probably the way to to do this instead of waiting"
+    },
+    {
+      "t": 3148.8,
+      "end": 3165.5,
+      "text": "for like a a chunk of time where you have time to actually do these things uh probably yeah set aside a day a week to to to document is probably a good way"
+    },
+    {
+      "t": 3181.4,
+      "end": 3199.2,
+      "text": "Emanuel says in that case how can we set the connection to the keyword that now use as a credential secret the connection to the keyword the as a credential secret uses a can be done in a few ways so you can use what's called Federated pretentions or you can use"
+    },
+    {
+      "t": 3199.2,
+      "end": 3219.3,
+      "text": "um an a app that has access to the keyword you typically don't use users for that um so you still have the a credentials in there in order to pinpoint the access to the keyboard but not through a user but through a aad app"
+    },
+    {
+      "t": 3219.3,
+      "end": 3225.7,
+      "text": "or using Federated PRS said"
+    },
+    {
+      "t": 3239.1,
+      "end": 3244.3,
+      "text": "may there's like seven minutes"
+    },
+    {
+      "t": 3249.7,
+      "end": 3265.1,
+      "text": "left I think there is documentation I Federate credential but yes I will write that down that we need that in the workshop"
+    },
+    {
+      "t": 3282.7,
+      "end": 3293.2,
+      "text": "a term that has always confused me is single project versus multi-project can you clarify um in the Alo context"
+    },
+    {
+      "t": 3293.2,
+      "end": 3313.3,
+      "text": "so yeah so Alo uh has a you can have any number of AO repositories and every repositor can have any number of projects and every project can can have any number of apps so an app is not"
+    },
+    {
+      "t": 3313.3,
+      "end": 3328.2,
+      "text": "a project but an algo project is a collection of apps that are typically installed together uh a repository is collecting collection of projects that are typically released"
+    },
+    {
+      "t": 3328.2,
+      "end": 3339.6,
+      "text": "together so does that make sense um the idea of the multi project is that you can have like um you can have"
+    },
+    {
+      "t": 3339.6,
+      "end": 3360.3,
+      "text": "like a a W1 version of your app and then you can have an Italy and a Danish version of the app the reason for having projects there is that the the Danish version and the Italy version of your app will compile with the Italy version of of of business Central artifacts and the Danish one with the Danish version and the w11 with the worldwide version of that"
+    },
+    {
+      "t": 3360.3,
+      "end": 3380.4,
+      "text": "obviously um and that would be three different projects where DK and it would would be have have a dependency on the w11 uh and that would uh then you build W1 first and then the other countries afterwards and you can then publish the Italy one to an Italy"
+    },
+    {
+      "t": 3380.4,
+      "end": 3400.5,
+      "text": "organ environment and so on and so forth now the the reason for having that is to to because this is one app you have like three different localizations of it it belongs into one repository sometimes you also have a common or"
+    },
+    {
+      "t": 3400.5,
+      "end": 3421.2,
+      "text": "miscellaneous where you have like an app is like licensing functionality whatever you can put that as a project in your repository but if you have other repositor other apps it might belong in a separate repository and the recommendation is for for for repositories in the same organization to use GitHub packages as your"
+    },
+    {
+      "t": 3421.2,
+      "end": 3441.9,
+      "text": "um dependency resolution for all the apps that are in the same organization um because that would be like automated now if you if you have like if you don't have very strict borders between your apps and and like your your changing things in in some of the base apps together with in some of the depending"
+    },
+    {
+      "t": 3441.9,
+      "end": 3462.2,
+      "text": "apps uh then you might put them in one repository obviously and and and that's that's totally fine as well but our recommendation is to split them so that a repository is what you release uh and uh a project is what you install and obviously if a project"
+    },
+    {
+      "t": 3462.2,
+      "end": 3482.4,
+      "text": "depends on another project that would be installed together with that project as well um if we make changes to the Italy project is it possible to build only that app while having two other projects in the same repository uh Emmanuel asks"
+    },
+    {
+      "t": 3482.4,
+      "end": 3505.4,
+      "text": "so today not after we merge the incremental builds PR that comes in preview in the next few weeks uh it will it will be possible to enable incremental builds and as such uh only build the apps that are changed and only deploy the apps that have changed there as well"
+    },
+    {
+      "t": 3524.4,
+      "end": 3528.8,
+      "text": "just take your"
+    },
+    {
+      "t": 3533.9,
+      "end": 3554.1,
+      "text": "not Floren asks how is a script for creation of local de andv behaving when using a multiproject repository so the local de andv is actually in the algo folder which is in a project so you're creating a development environment for that project that you're working on uh I do know that some"
+    },
+    {
+      "t": 3554.1,
+      "end": 3574.8,
+      "text": "people would like to have a local de andv and working on all projects at the same time that's not how local Dean re works at the moment um but I think yeah as before in this meeting also we might we might have a look at local D andd to see if we can make that uh smarter better"
+    },
+    {
+      "t": 3574.8,
+      "end": 3581.8,
+      "text": "behaving than it does today so let's"
+    },
+    {
+      "t": 3584.6,
+      "end": 3599.8,
+      "text": "that Lo de old projects would be nice yeah so the problem is that oh yeah you could do that so no no"
+    },
+    {
+      "t": 3600.7,
+      "end": 3614.5,
+      "text": "sorry you obviously if you had a Danish version and the Italy version you wouldn't be able to create a container for both those then you create two containers obviously"
+    },
+    {
+      "t": 3614.6,
+      "end": 3627,
+      "text": "right so you container kind of have to be connected to one of the projects because that one carries the artifacts but you could load the other"
+    },
+    {
+      "t": 3627,
+      "end": 3635.7,
+      "text": "um projects in yes code I guess yeah we'll have to think about that one"
+    },
+    {
+      "t": 3636.6,
+      "end": 3656.8,
+      "text": "for Emanuel asks do we need a license When developing in a local environment an appsource app you not need it for developing that you need the license uh you need the object range in order to deploy to appsource um but the the Kronos license"
+    },
+    {
+      "t": 3656.8,
+      "end": 3677,
+      "text": "that is included in the artifacts is a perfectly good development license and you don't need to to have a local license file for that sake but again yeah you need your object range and you need to be registered as a as a publisher with appsource in order to develop and"
+    },
+    {
+      "t": 3677,
+      "end": 3697.1,
+      "text": "appsource apps I think time's up uh let's say is anything in the chat same here here that's not started on the AL go yet but need to understand the possibilities we'll do our best Eric to to do that and good to"
+    },
+    {
+      "t": 3697.1,
+      "end": 3716.4,
+      "text": "see you here Eric it's been a while but um yeah thanks a lot for for joining everybody and um looking forward to see many a few in a month or in two months from now thank you"
+    },
+    {
+      "t": 3716.4,
+      "end": 3720.6,
+      "text": "thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 651.12,
+      "text": "[Music]"
+    },
+    {
+      "t": 652.629,
+      "text": "[Music]"
+    },
+    {
+      "t": 652.639,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 7484
+}
