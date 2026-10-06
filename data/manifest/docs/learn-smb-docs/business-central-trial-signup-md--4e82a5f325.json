@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/trial-signup",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e8069f6679aefad7fbd9a6931059a21c3a6c4442",
       "words": 583,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:01:29.870Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00737
+    },
+    "summarized": {
+      "at": "2026-10-06T18:01:29.890Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:01:29.891Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:01:29.892Z",
+      "page": false
     }
   },
   "input_hash": "e8069f6679aefad7fbd9a6931059a21c3a6c4442",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e8069f6679aefad7fbd9a6931059a21c3a6c4442"
+  "output_hash": "4be4b4dd134d444438514541b33cd6f94627e2b021f294b366b085fae5e8c091"
 }

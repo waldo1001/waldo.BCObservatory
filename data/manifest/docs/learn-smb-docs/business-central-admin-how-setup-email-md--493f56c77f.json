@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-setup-email",
   "published_at": "2026-06-17T06:49:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9dad0f00e5312b8ca926fbee5246ac25a2bca13a",
       "words": 3864,
       "forms": 8
+    },
+    "extracted": {
+      "at": "2026-10-06T18:01:29.877Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.011256
+    },
+    "summarized": {
+      "at": "2026-10-06T18:01:29.908Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:01:29.909Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:01:29.909Z",
+      "page": false
     }
   },
   "input_hash": "9dad0f00e5312b8ca926fbee5246ac25a2bca13a",
@@ -81,5 +100,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9dad0f00e5312b8ca926fbee5246ac25a2bca13a"
+  "output_hash": "ace043ffed9d872ee903c27b443b97a1bd1b2e049fa1d0b84862f3b060c2d6f1"
 }

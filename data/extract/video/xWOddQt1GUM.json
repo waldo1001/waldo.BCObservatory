@@ -1,0 +1,1178 @@
+{
+  "video_id": "xWOddQt1GUM",
+  "item_id": "video/yt-dynamicscorner/xWOddQt1GUM",
+  "title": "Episode 515: Stop Coding, Start Architecting: How AI Is Reshaping the BC Developer Role",
+  "duration_s": 3673,
+  "systems": [
+    "development",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "ai development",
+    "agents",
+    "al development",
+    "developer tools",
+    "open source",
+    "task worker",
+    "data editor",
+    "mcp server",
+    "business central 2026 wave one",
+    "ai-generated code",
+    "testing",
+    "tdd"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and guest welcome",
+      "t_start": 0,
+      "t_end": 150.5
+    },
+    {
+      "title": "2026 wave one features and agent preview",
+      "t_start": 150.5,
+      "t_end": 413.3
+    },
+    {
+      "title": "Guest introduction and background",
+      "t_start": 413.3,
+      "t_end": 540.1
+    },
+    {
+      "title": "Developer tools and open source projects",
+      "t_start": 540.1,
+      "t_end": 648.5
+    },
+    {
+      "title": "Contributing to Business Central",
+      "t_start": 648.5,
+      "t_end": 802.1
+    },
+    {
+      "title": "AI impact on AL development and code generation",
+      "t_start": 802.1,
+      "t_end": 923.8
+    },
+    {
+      "title": "Risks of generating too much code and quality control",
+      "t_start": 923.8,
+      "t_end": 1079.8
+    },
+    {
+      "title": "AI-generated tests and TDD for AL development",
+      "t_start": 1079.8,
+      "t_end": 1206.6
+    },
+    {
+      "title": "Test generation on production projects",
+      "t_start": 1206.6,
+      "t_end": 1371.4
+    },
+    {
+      "title": "Testing value and client communication",
+      "t_start": 1371.4,
+      "t_end": 1524.9
+    },
+    {
+      "title": "Quality improvement and testing across extensions",
+      "t_start": 1524.9,
+      "t_end": 1734.5
+    },
+    {
+      "title": "AI-assisted development challenges, planning mode, and context management",
+      "t_start": 1734.5,
+      "t_end": 2132.2
+    },
+    {
+      "title": "Tool selection, benchmarking, and team workflow management",
+      "t_start": 2132.2,
+      "t_end": 2450.7
+    },
+    {
+      "title": "CI/CD and AL-Go for multi-developer projects",
+      "t_start": 2450.7,
+      "t_end": 2624.6
+    },
+    {
+      "title": "AL-Go benefits and getting started with AI tools and MCP",
+      "t_start": 2624.6,
+      "t_end": 2881.5
+    },
+    {
+      "title": "IDE and command-line agents: Cursor, VS Code, and practical MCP approach",
+      "t_start": 2881.5,
+      "t_end": 3150.2
+    },
+    {
+      "title": "AI development landscape, architecture knowledge, and BC developer skills",
+      "t_start": 3150.2,
+      "t_end": 3673
+    }
+  ],
+  "features": [
+    {
+      "name": "Agent preview and agent playground",
+      "description": "Build agents in sandbox environments and export them to use in code. Allows creating agents visually in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 239,
+      "t_end": 341.1,
+      "is_demoed": true,
+      "caveats": [
+        "Only in preview stage",
+        "Code generation from visual agents not yet automatic"
+      ],
+      "tags": [
+        "agents",
+        "sandbox",
+        "ai",
+        "preview"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Unified interfaces for AI",
+      "description": "Code units and interfaces for working with AI inside Business Central through a unified approach.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 266.8,
+      "t_end": 303.2,
+      "is_demoed": false,
+      "caveats": [
+        "Still in evolving stage",
+        "Cannot pass files and work with them efficiently",
+        "Some limitations and challenges"
+      ],
+      "tags": [
+        "ai",
+        "interfaces",
+        "codeunits",
+        "unified"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Enable troubleshooting MCP server for AL",
+      "description": "MCP server functionality for AL development to help with troubleshooting and debugging.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 303.2,
+      "t_end": 316.9,
+      "is_demoed": false,
+      "caveats": [
+        "Scheduled for May 2026"
+      ],
+      "tags": [
+        "mcp",
+        "troubleshooting",
+        "al",
+        "development tools"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL tasks from Visual Studio Code",
+      "description": "AL development tasks integrated into Visual Studio Code for improved workflow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 316.9,
+      "t_end": 330.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "vscode",
+        "al",
+        "tasks",
+        "development tools"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Data Editor tool",
+      "description": "Open source tool for managing and editing data in test environments. Available on GitHub and AppSource with over 160 stars and almost 1000 AppSource installs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 563.4,
+      "t_end": 593.3,
+      "is_demoed": false,
+      "caveats": [
+        "Solves problem of data management that was removed after BC 14"
+      ],
+      "tags": [
+        "data management",
+        "testing",
+        "open source",
+        "developer tools"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Parallel Task Worker",
+      "description": "Open source library for developers to split large slow processes into chunks and run them in separate sessions, improving performance of long-running operations.",
+      "status": "ga",
+      "status_evidence_t": 593.3,
+      "status_evidence_quote": "recently I released um parallel task worker. It's like a library for developers uh where you can able to uh easily to split some",
+      "status_evidence_verified": true,
+      "t_start": 593.3,
+      "t_end": 626.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "parallel processing",
+        "open source",
+        "developer tools"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI-assisted code generation for AL",
+      "description": "AI can generate code and create products without spending much time writing specific lines of code, allowing developers to focus on architecture and design rather than manual coding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 867.4,
+      "t_end": 910.8,
+      "is_demoed": false,
+      "caveats": [
+        "Developers still need to read and understand generated code",
+        "Quality issues can arise when too much code is generated without review",
+        "Code ownership and understanding is diminished when not written by the developer"
+      ],
+      "tags": [
+        "code generation",
+        "al",
+        "ai",
+        "development",
+        "architecture"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Business Central MCP",
+      "description": "A tool that allows agents to manipulate data inside Business Central, enabling simplification of processes and improving code quality through proper tooling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1051.2,
+      "t_end": 3093.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires proper configuration and usage to improve code quality",
+        "Not for production use; only for sandboxes or Docker environments"
+      ],
+      "tags": [
+        "mcp",
+        "agent",
+        "integration",
+        "business central"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI-generated test creation for AL",
+      "description": "AI can generate tests for AL code, which was previously difficult to convince clients to invest in. Tests are now considered standard and can be generated easily with AI assistance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1067.5,
+      "t_end": 1108.3,
+      "is_demoed": true,
+      "caveats": [
+        "Developers should understand how tests work",
+        "Tests need to be proper and fail/pass correctly",
+        "Not always easy to come up with all test scenarios"
+      ],
+      "tags": [
+        "testing",
+        "al",
+        "tdd",
+        "ai-generated",
+        "quality"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "TDD approach for AL with AI",
+      "description": "Test-Driven Development is recommended as a great choice for AL development with AI, where developers can start from tests to ensure correctness before developing functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1118.5,
+      "t_end": 1143.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires developer discipline to follow TDD practice",
+        "AI can help but does not replace developer decision-making"
+      ],
+      "tags": [
+        "tdd",
+        "testing",
+        "al",
+        "development",
+        "architecture"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI-generated test suggestions and creation",
+      "description": "AI can analyze existing code and tests, suggest additional test scenarios that may not have been originally considered, and automatically create comprehensive test suites following project conventions like Gherkin scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1224.1,
+      "t_end": 1382.6,
+      "is_demoed": true,
+      "caveats": [
+        "AI may occasionally make mistakes in test creation",
+        "Tests must still be reviewed for correctness",
+        "Works best with instruction files and existing code structure"
+      ],
+      "tags": [
+        "testing",
+        "ai-generated",
+        "gherkin",
+        "scenarios",
+        "quality assurance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Automated testing for production code safety",
+      "description": "Automated tests are critical for identifying issues in production code, especially when extensions are modified or added, preventing unintended side effects in related functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1371.4,
+      "t_end": 1438.4,
+      "is_demoed": true,
+      "caveats": [
+        "Tests require proper setup to be effective",
+        "Not all user scenarios can be predicted in advance"
+      ],
+      "tags": [
+        "testing",
+        "quality",
+        "production",
+        "extension",
+        "safety"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI-assisted documentation creation",
+      "description": "AI can help create documentation alongside development, reducing the manual effort previously required and making documentation a standard part of deliverables alongside code and tests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1524.9,
+      "t_end": 1635.1,
+      "is_demoed": false,
+      "caveats": [
+        "Clients may not perceive documentation as direct value"
+      ],
+      "tags": [
+        "documentation",
+        "ai-generated",
+        "deliverables",
+        "development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Quality improvement through AI-assisted CICD and best practices",
+      "description": "When properly configured with CICD pipelines and best practices, AI-assisted development can actually increase code quality beyond what was achievable in the past through faster generation combined with comprehensive tests and documentation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1619.4,
+      "t_end": 1666.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires proper process configuration and discipline",
+        "Best practices must be followed consistently"
+      ],
+      "tags": [
+        "quality",
+        "cicd",
+        "best practices",
+        "ai",
+        "development"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Testing for Internal and External Extensions",
+      "description": "Testing applies to all extensions whether delivered by partners, contractors, or internal development teams. Multiple extensions should be tested together to avoid conflicts and ensure existing code is not impacted.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1680.3,
+      "t_end": 1720.2,
+      "is_demoed": false,
+      "caveats": [
+        "applies to all extension scenarios",
+        "testing multiple extensions together is recommended"
+      ],
+      "tags": [
+        "testing",
+        "extensions",
+        "quality assurance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI Challenges in Collaborative Development",
+      "description": "When collaborators use AI without understanding best practices or proper context, the quality of work can suffer. This is especially problematic in open source projects where low-quality AI-generated pull requests overwhelm maintainers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1797.3,
+      "t_end": 1880,
+      "is_demoed": false,
+      "caveats": [
+        "occurs when proper context is not provided",
+        "lacks understanding of AI usage",
+        "not following best practices"
+      ],
+      "tags": [
+        "collaboration",
+        "open source",
+        "code quality",
+        "pull requests"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI-Assisted Planning Mode",
+      "description": "Before generating code, developers should start with planning mode, asking AI to plan the solution rather than code immediately. This involves providing full context about the problem, specific objects involved, and communicating with the AI as if it were a person.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1956.6,
+      "t_end": 1999.2,
+      "is_demoed": false,
+      "caveats": [
+        "requires providing comprehensive context",
+        "requires communicating specific related objects",
+        "must highlight why those objects are relevant"
+      ],
+      "tags": [
+        "planning",
+        "context",
+        "development workflow"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Context Window and Session Management",
+      "description": "Proper context management is critical when working with AI agents. Developers must balance providing sufficient context without overwhelming the model. Multiple sessions should be used for different tasks to avoid losing focus.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2011.4,
+      "t_end": 2132.2,
+      "is_demoed": false,
+      "caveats": [
+        "balance between too little and too much context",
+        "context window limitations",
+        "multiple sessions needed for different tasks"
+      ],
+      "tags": [
+        "context management",
+        "session management",
+        "agent communication"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Development Benchmarking",
+      "description": "Microsoft released a BC bench for agents, though only two agents were counted. Developers should evaluate different AI tools themselves over time, as the relative performance of tools like Cursor, Codex, Cloud Code, and Copilot changes constantly.",
+      "status": "ga",
+      "status_evidence_t": 2149.2,
+      "status_evidence_quote": "Microsoft released a BC bench for agents. And they it was as I remember they only count two agents, Cloud Code and maybe Codex",
+      "status_evidence_verified": true,
+      "t_start": 2149.2,
+      "t_end": 2241.2,
+      "is_demoed": false,
+      "caveats": [
+        "BC bench only covers two agents",
+        "benchmarks are mostly based on C#, Python and other languages",
+        "performance changes over time",
+        "requires personal evaluation"
+      ],
+      "tags": [
+        "benchmarking",
+        "tool selection",
+        "ai tools",
+        "performance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Individual Communication Style and AI Output",
+      "description": "Each person has a unique communication style that affects the output from AI models and agents. Different tools and frameworks may work better for different people and tasks, and results vary based on how one communicates with the model.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2286.3,
+      "t_end": 2329.4,
+      "is_demoed": false,
+      "caveats": [
+        "highly subjective to individual communication style",
+        "no universal best tool for all users"
+      ],
+      "tags": [
+        "communication style",
+        "ai interaction",
+        "personalization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Source Control and Code Review Workflow",
+      "description": "What matters most in team development is not which AI tool was used, but the quality of output and how development is managed through source control, branching, merging, and code review processes. These practices maintain consistency regardless of tools used.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2428.4,
+      "t_end": 2450.7,
+      "is_demoed": false,
+      "caveats": [
+        "assumes proper source control practices are in place",
+        "requires code review discipline"
+      ],
+      "tags": [
+        "source control",
+        "code review",
+        "team workflow",
+        "branching"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go free tool for CI/CD",
+      "description": "AL-Go is a free tool that runs in GitHub for implementing CI/CD processes. It automates testing, linting, compilation, and project building to prevent regression bugs and manage multi-developer workflows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2535.8,
+      "t_end": 2592,
+      "is_demoed": false,
+      "caveats": [
+        "There could be a cost to GitHub runners depending on project setup",
+        "Requires discipline in managing branches"
+      ],
+      "tags": [
+        "ci/cd",
+        "al-go",
+        "automation",
+        "source-control"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "MCP protocol for AI communication",
+      "description": "MCP is a protocol that allows AI agents to communicate with and change external services like Business Central, browser MCP, or run Business Central pages and click buttons directly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2822.2,
+      "t_end": 2881.5,
+      "is_demoed": false,
+      "caveats": [
+        "Business Central MCP not recommended for production use, only for sandbox or Docker environments"
+      ],
+      "tags": [
+        "mcp",
+        "ai-agents",
+        "integration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot in Visual Studio Code",
+      "description": "Copilot is integrated into Visual Studio Code and allows developers to select different AI models including Anthropic and OpenAI models. It serves as a good starting point for developers new to AI-assisted development.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2921.2,
+      "t_end": 2946.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "ide",
+        "visual-studio-code",
+        "ai-models"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Command-line AI agents",
+      "description": "Command-line agents are independent from IDE and can run inside terminal. They work more efficiently with file system and batch/PowerShell commands than IDE-based agents. Examples include Copilot agent, Codex from OpenAI, and Claude from Anthropic.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2946.2,
+      "t_end": 3025.3,
+      "is_demoed": false,
+      "caveats": [
+        "Different agents perform differently and tools are changing rapidly"
+      ],
+      "tags": [
+        "command-line-agents",
+        "ai-agents",
+        "automation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Cursor IDE",
+      "description": "Cursor is a fork of Visual Studio Code with integrated AI models. It was used early in AI development journey but is now less necessary as AI capabilities are available in standard Visual Studio Code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2892.8,
+      "t_end": 2921.2,
+      "is_demoed": false,
+      "caveats": [
+        "Now considered unnecessary as Visual Studio Code has integrated AI capabilities"
+      ],
+      "tags": [
+        "ide",
+        "cursor",
+        "ai-models"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "MCP in Practice",
+      "description": "The importance of practicing MCP implementation beyond just reading theory to understand how it can provide valuable output for developers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3150.2,
+      "t_end": 3167.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "learning",
+        "practice"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Business Central Development Tools",
+      "description": "The platform continues to add development tools to assist from the development point of view, reinforcing that pure coding days are gone.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3181.3,
+      "t_end": 3193.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "development tools",
+        "ai assistance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI-Assisted Development with Architecture Review",
+      "description": "Developers need to understand the application and architecture to work with AI, and must review and understand what AI generates rather than blindly accepting it.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3193.2,
+      "t_end": 3230.2,
+      "is_demoed": false,
+      "caveats": [
+        "developers must understand and review generated code",
+        "architecture knowledge is required"
+      ],
+      "tags": [
+        "ai development",
+        "code review",
+        "architecture"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Business Central Constrained Framework Development",
+      "description": "Business Central is a predefined application with constraints that developers must work within, making it critical to understand the framework to review generated code and deliver quality solutions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3241.8,
+      "t_end": 3256.3,
+      "is_demoed": false,
+      "caveats": [
+        "standalone application with fixed framework"
+      ],
+      "tags": [
+        "business central",
+        "framework constraints",
+        "architecture"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Business Central Functionality Understanding Requirement",
+      "description": "BC developers must understand basic functionality, how it works from a business perspective, configuration options, and different use cases across business types - not just coding skills.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3267.6,
+      "t_end": 3330.8,
+      "is_demoed": false,
+      "caveats": [
+        "required for building efficient solutions"
+      ],
+      "tags": [
+        "developer skills",
+        "business central",
+        "functionality knowledge"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Research Before Coding Approach",
+      "description": "Developers should research whether functionality already exists in Business Central before coding custom solutions, as many features may already be built-in standard functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3330.8,
+      "t_end": 3354.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "development approach",
+        "standard functionality",
+        "efficiency"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI Enables Architecture and Functionality Focus",
+      "description": "With AI handling more coding tasks, developers now have more time to focus on architecture and understanding Business Central functionality, making these skills even more critical.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3369,
+      "t_end": 3386.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ai development",
+        "architecture",
+        "developer role shift"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Quality Delivery in Shorter Timeframe",
+      "description": "The outcome of using AI tools and freed-up time should be delivering better quality solutions in a shorter period of time rather than just reducing work hours.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3427,
+      "t_end": 3459.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "quality",
+        "efficiency",
+        "developer productivity"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "unified interfaces code units for AI",
+      "t": 266.8
+    },
+    {
+      "type": "codeunit",
+      "name": "library code unit",
+      "t": 1341.1
+    },
+    {
+      "type": "other",
+      "name": "BC bench",
+      "t": 2149.2
+    },
+    {
+      "type": "other",
+      "name": "Codex",
+      "t": 2165.1
+    },
+    {
+      "type": "other",
+      "name": "Cloud Code",
+      "t": 2165.1
+    },
+    {
+      "type": "other",
+      "name": "Cursor",
+      "t": 2202.8
+    },
+    {
+      "type": "other",
+      "name": "Copilot",
+      "t": 2202.8
+    },
+    {
+      "type": "other",
+      "name": "MCP",
+      "t": 2822.2
+    },
+    {
+      "type": "other",
+      "name": "AL-Go",
+      "t": 2560.8
+    },
+    {
+      "type": "other",
+      "name": "Business Central MCP",
+      "t": 3079.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Chris",
+      "confidence": "high"
+    },
+    {
+      "name": "Brad",
+      "confidence": "high"
+    },
+    {
+      "name": "Vladimir",
+      "confidence": "high"
+    },
+    {
+      "name": "Al",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 239,
+      "text": "now you can build some agents in your sandboxes environments",
+      "why_it_matters": "Demonstrates the availability of agent preview feature in 2026 wave one, allowing visual agent creation without initial code.",
+      "check": "exact"
+    },
+    {
+      "t": 276.8,
+      "text": "Some of Some of my past experience was great, some of it's not great. Like there's some limitations like you cannot pass files and",
+      "why_it_matters": "Identifies concrete limitations with AI interfaces still in development that affect practical usage.",
+      "check": "exact"
+    },
+    {
+      "t": 316.9,
+      "text": "I know that's due in May, so I'm I'm looking forward to seeing that",
+      "why_it_matters": "Establishes timeline for MCP server troubleshooting feature as announced for May 2026.",
+      "check": "exact"
+    },
+    {
+      "t": 341.1,
+      "text": "I really do hope that they make it to where you can create the agents and not have to create the code for the",
+      "why_it_matters": "Expresses developer desire for automatic code generation from visually-created agents, currently not available.",
+      "check": "exact"
+    },
+    {
+      "t": 430.8,
+      "text": "I'm Vladimir. Uh ABC developer from Ukraine, a recent Microsoft MVP. Uh and I have been in the ecosystem for 9 years",
+      "why_it_matters": "Establishes presenter credentials and deep experience with Business Central development.",
+      "check": "exact"
+    },
+    {
+      "t": 867.4,
+      "text": "what I actually see that AI is make code is cheaper. You can generate and create many uh many products uh without spending much",
+      "why_it_matters": "Captures fundamental shift in development economics due to AI, reducing time spent on code generation.",
+      "check": "exact"
+    },
+    {
+      "t": 867.4,
+      "text": "AI is make code is cheaper. You can generate and create many uh many products uh without spending much amount or amount of time",
+      "why_it_matters": "Establishes the fundamental value proposition of AI in development - reducing the time and cost to create functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 890.8,
+      "text": "You can spend more amount of time uh to focus on architecture of product, how you can build things. You can do actually real",
+      "why_it_matters": "Defines the shift in developer role from manual coding to architectural thinking and design, a key theme of the episode.",
+      "check": "exact"
+    },
+    {
+      "t": 961.6,
+      "text": "They are not on this stage where we can avoid reading code. We still need to read code. Uh and there is no real",
+      "why_it_matters": "Important limitation - despite AI capabilities, developers must still understand and review generated code, preventing blind delegation to agents.",
+      "check": "exact"
+    },
+    {
+      "t": 1108.3,
+      "text": "I think test is now uh standard for uh AL. We all need to generate tests. We all need to understand a little bit",
+      "why_it_matters": "Declares testing as a new standard practice for AL development, a significant shift in development culture.",
+      "check": "exact"
+    },
+    {
+      "t": 1274,
+      "text": "It went through and it created or suggested, I was planning at this point, so many tests that I didn't even think of, but",
+      "why_it_matters": "Demonstrates AI's capability to discover edge cases and scenarios beyond human intuition, improving test coverage.",
+      "check": "exact"
+    },
+    {
+      "t": 1394.2,
+      "text": "Code was introduced to a project that if we had not had tests for it, we would not have identified a problem that it",
+      "why_it_matters": "Real-world example of how automated tests catch regressions and prevent production issues, justifying the testing investment.",
+      "check": "exact"
+    },
+    {
+      "t": 1619.4,
+      "text": "because of the speed at which we can create code, we now can include more such as testing, extension documentation, and those infamous guides",
+      "why_it_matters": "Demonstrates how AI accelerates development and enables inclusion of quality practices that were previously neglected.",
+      "check": "exact"
+    },
+    {
+      "t": 1651.6,
+      "text": "if you have processes in correct way configured you have cicd you follow all best practice with ai",
+      "why_it_matters": "Concludes that AI, when used with proper practices and CICD, can deliver higher quality than pre-AI development methods.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1797.3,
+      "text": "it can create you some difficulties when you collaborate with other people who use AI, but they don't understand properly how to properly use",
+      "why_it_matters": "Identifies a key risk factor when teams adopt AI without proper training or best practices.",
+      "check": "exact"
+    },
+    {
+      "t": 1956.6,
+      "text": "I think you always have to start with planning mode. Like if you have some problem or you want to like to build something",
+      "why_it_matters": "Establishes a critical best practice for AI-assisted development that prioritizes planning over immediate code generation.",
+      "check": "exact"
+    },
+    {
+      "t": 2011.4,
+      "text": "context management is very important when you work with agents. So you try to provide as less but as much as possible context",
+      "why_it_matters": "Identifies the core challenge of balancing context provision with model effectiveness in AI-assisted development.",
+      "check": "exact"
+    },
+    {
+      "t": 2149.2,
+      "text": "Microsoft released a BC bench for agents. And they it was as I remember they only count two agents, Cloud Code and maybe Codex",
+      "why_it_matters": "Reveals limited benchmarking resources specific to AL development, requiring developers to evaluate tools independently.",
+      "check": "exact"
+    },
+    {
+      "t": 2241.2,
+      "text": "Like 6 months ago Codex was better, 6 months ago Copilot was better and so on and so on. It's constantly changing situation",
+      "why_it_matters": "Demonstrates that AI tool performance is volatile and requires ongoing evaluation rather than static selection.",
+      "check": "exact"
+    },
+    {
+      "t": 2405.2,
+      "text": "it's not to confuse the tool that somebody's using to create something. It's what they create is the important thing.",
+      "why_it_matters": "Establishes the principle that output quality matters more than which AI tool or IDE is used for development.",
+      "check": "exact"
+    },
+    {
+      "t": 2417.7,
+      "text": "What becomes important in those situations is not the focus of which AI tool they used or which IDE they used. It's what they",
+      "why_it_matters": "Clarifies that source control and development workflow discipline matter more than the specific AI tool selection in team environments.",
+      "check": "exact"
+    },
+    {
+      "t": 2560.8,
+      "text": "it's important now even more, same as testing all these CI/CD processes. And that's why we all need to look ...",
+      "why_it_matters": "States that AL-Go and CI/CD are increasingly important for AL developers, especially in the AI development era.",
+      "check": "exact"
+    },
+    {
+      "t": 2635.8,
+      "text": "AL Go is It is a free tool that runs in GitHub. There could be a cost to the runners that you use depending",
+      "why_it_matters": "Clarifies that while AL-Go itself is free, there may be costs associated with GitHub runners based on project configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 2849.6,
+      "text": "MCP is some protocol which will allow for my IA to communicate and to change something on external services. Can be Business Central.",
+      "why_it_matters": "Defines MCP as the underlying protocol enabling AI agents to interact with Business Central and other external services.",
+      "check": "exact"
+    },
+    {
+      "t": 2921.2,
+      "text": "So now I think it's good to start from Visual Studio Code. It's our daily IDE where we as AL developers works every day.",
+      "why_it_matters": "Recommends Visual Studio Code as the starting point for AL developers wanting to use AI tools rather than specialized IDEs.",
+      "check": "exact"
+    },
+    {
+      "t": 3107.3,
+      "text": "it does sound like there is a lot, but as with anything else, it sounds worse than it is. And I think once you",
+      "why_it_matters": "Addresses the perceived complexity of learning AI tools and MCPs by encouraging practical experimentation over theory.",
+      "check": "exact"
+    },
+    {
+      "t": 3150.2,
+      "text": "when I do practice, I um start to understand things better. But when you just read theory, yeah, you know MCP, but try to",
+      "why_it_matters": "Emphasizes that practical application of MCP is essential for developers to truly understand its value beyond theoretical knowledge.",
+      "check": "exact"
+    },
+    {
+      "t": 3193.2,
+      "text": "developers need to have a good understanding of the application and the function of the application so that they can work with AI to",
+      "why_it_matters": "States that architectural and functional knowledge remains essential even with AI-assisted development; AI does not replace understanding.",
+      "check": "exact"
+    },
+    {
+      "t": 3193.2,
+      "text": "the days of just development are gone. I think that developers need to have a good understanding of the application and the function of",
+      "why_it_matters": "Defines the fundamental shift in the BC developer role - coding alone is no longer sufficient; application understanding is now required.",
+      "check": "exact"
+    },
+    {
+      "t": 3217,
+      "text": "it's not one of those things that oh, AI, I can create this extension. It's going to do this thing. I think you do",
+      "why_it_matters": "Clarifies that developers must maintain code review and understanding capabilities even when using AI, not blindly accept AI output.",
+      "check": "exact"
+    },
+    {
+      "t": 3241.8,
+      "text": "Business Central to me is a little bit different because it's in a box. It's a predefined application that you need to work with",
+      "why_it_matters": "Explains BC's unique nature as a constrained framework versus general-purpose platforms, requiring developers to understand fixed boundaries.",
+      "check": "exact"
+    },
+    {
+      "t": 3288.3,
+      "text": "we are also should and we actually should really and must know basic functionality of Business Central, how it actually works right now, how",
+      "why_it_matters": "Emphasizes that BC developer competency requires understanding business processes and functionality, not just coding skills.",
+      "check": "exact"
+    },
+    {
+      "t": 3317.9,
+      "text": "if you without this understanding, you can't build efficient tools, you can't build efficient uh solutions for your customers because you will not aware",
+      "why_it_matters": "Connects functionality understanding directly to solution efficiency and customer value, making it a business requirement not optional.",
+      "check": "exact"
+    },
+    {
+      "t": 3369,
+      "text": "with AI, it's even more important because now we have more time for architecture and also more time for understanding functionality of Business Central",
+      "why_it_matters": "Indicates that AI frees time which should be invested in higher-value architectural and domain knowledge work, not reduced effort.",
+      "check": "exact"
+    },
+    {
+      "t": 3449.4,
+      "text": "you can deliver a better quality product in a shorter period of time that to me",
+      "why_it_matters": "Reframes the value of AI-assisted development as quality improvement and efficiency gains, not just time reduction.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 239,
+      "kind": "preview",
+      "text": "now you can build some agents in your sandboxes environments"
+    },
+    {
+      "t": 276.8,
+      "kind": "subject-to-change",
+      "text": "it's still in in the stage where it's evolving. And there's some challenges which we are uh right now trying to to solve"
+    },
+    {
+      "t": 316.9,
+      "kind": "coming-later",
+      "text": "I know that's due in May, so I'm I'm looking forward to seeing that"
+    },
+    {
+      "t": 402,
+      "kind": "preview",
+      "text": "Maybe give it a a few months. Yeah, it just it just very fresh techno Yeah. Business Central very fresh. ..."
+    },
+    {
+      "t": 3079.4,
+      "kind": "not-in-this-release",
+      "text": "Business Central MCP not for production use. Just do your daily work on some sandboxes or on some uh Docker environment."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 35,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 31
+  },
+  "windows": 5,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024689
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028233
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028886
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027177
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02384
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0576622
+    }
+  ]
+}

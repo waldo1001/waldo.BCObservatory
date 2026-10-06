@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-how-register-new-customers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-register-new-customers",
+  "title": "Register new customers by creating a Customer Card",
+  "blob": "139a74e2f076b8ad2158d06ef7acd189bfc6f172",
+  "summary": "Register new customers by creating customer cards with required information, set up customer templates for efficiency, manage credit limits to control risk, and assign salespeople to ship-to addresses for accurate sales tracking.",
+  "systems": [
+    "sales",
+    "crm"
+  ],
+  "topics": [
+    "customer registration",
+    "customer cards",
+    "customer templates",
+    "credit limits",
+    "salesperson assignment",
+    "ship-to addresses"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Customer Template"
+    },
+    {
+      "type": "page",
+      "name": "Ship-to Addresses List"
+    },
+    {
+      "type": "page",
+      "name": "Ship-to Address"
+    }
+  ],
+  "features": [
+    "Customer card creation",
+    "Customer templates",
+    "Credit limit management",
+    "Overdue balance warnings",
+    "Salesperson assignment by ship-to address",
+    "Dimension templates",
+    "Alternate shipping addresses"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00737,
+      "pages_in_call": 6
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-personalization-user.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-personalization-user",
+  "title": "Personalize your workspace",
+  "blob": "905d58d381d4b9bae0ec846415d497a8474f9d00",
+  "summary": "Personalize your workspace by moving, hiding, or showing fields, columns, actions, and parts on pages to suit your work preferences. Personalization applies across all devices and browsers for the logged-in user.",
+  "systems": [
+    "platform"
+  ],
+  "topics": [
+    "personalization",
+    "workspace customization",
+    "user interface",
+    "page layout",
+    "role center",
+    "fastabs"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Role Center"
+    }
+  ],
+  "features": [
+    "Move UI elements",
+    "Hide/show fields and columns",
+    "Freeze pane management",
+    "Quick Entry configuration",
+    "Action bar customization",
+    "FactBox resizing",
+    "View management",
+    "Bookmarking pages",
+    "Clear personalization options",
+    "Personalization mode"
+  ],
+  "versions": [
+    "Business Central 26.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00737,
+      "pages_in_call": 6
+    }
+  ]
+}

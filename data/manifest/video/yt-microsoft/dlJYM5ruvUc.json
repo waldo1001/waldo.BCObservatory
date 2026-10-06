@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=dlJYM5ruvUc",
   "published_at": "2026-04-01T12:00:43.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "summarized",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -25,10 +25,30 @@
       "words": 1191,
       "lang": "en-orig",
       "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:01:00.344Z",
+      "path": "data/extract/video/dlJYM5ruvUc.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 12,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.024564
+    },
+    "summarized": {
+      "at": "2026-10-06T18:01:08.692Z",
+      "path": "data/summary/video/dlJYM5ruvUc.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0143644
     }
   },
   "input_hash": null,
-  "attempts": 0,
+  "attempts": 1,
   "flags": [],
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
@@ -40,7 +60,7 @@
       "lang": "en-orig"
     }
   },
-  "last_error": null,
-  "retry_after": null,
-  "output_hash": "6b104bddfa98fe37454c3d69870e336d7341fb17430e3a5b8ceb92c86458ff08"
+  "last_error": "ENOENT: no such file or directory, open '/Users/bcobs/actions-runner/_work/waldo.BCObservatory/waldo.BCObservatory/data/extract/video/dlJYM5ruvUc.json'",
+  "retry_after": "2026-10-06T20:01:08.694Z",
+  "output_hash": "07e17e3746a2f03c72a1b610c9c682b57b178e5afa35e8907860a2d82385e400"
 }

@@ -1,0 +1,1413 @@
+{
+  "video_id": "m8-7-JKq4dc",
+  "item_id": "video/yt-microsoft/m8-7-JKq4dc",
+  "title": "Introducing: Quality Management (2026 release wave 1)",
+  "duration_s": 2763,
+  "systems": [
+    "manufacturing",
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "quality inspection",
+    "item tracking",
+    "non-compliant items",
+    "test results",
+    "automatic triggering",
+    "inspection blocking",
+    "quality documents",
+    "configuration",
+    "quality templates",
+    "sampling",
+    "evaluation sequence",
+    "table lookup"
+  ],
+  "chapters": [
+    {
+      "title": "Quality Management Extension Overview",
+      "t_start": 0,
+      "t_end": 103.3
+    },
+    {
+      "title": "Purchase Receipt and Automatic Inspection Creation",
+      "t_start": 103.3,
+      "t_end": 172.3
+    },
+    {
+      "title": "Performing Quality Tests and Inspection",
+      "t_start": 172.3,
+      "t_end": 336
+    },
+    {
+      "title": "Non-Compliant Items Handling and Transfer Order",
+      "t_start": 336,
+      "t_end": 414.4
+    },
+    {
+      "title": "Sales Blocking and Inspection Result Impact",
+      "t_start": 414.4,
+      "t_end": 475.4
+    },
+    {
+      "title": "Rechecking Items and Completing Sales Transaction",
+      "t_start": 475.4,
+      "t_end": 668.4
+    },
+    {
+      "title": "Quality Management Role Center and Demo Tools",
+      "t_start": 668.4,
+      "t_end": 733.3
+    },
+    {
+      "title": "Quality Management Setup and Inspection Results Configuration",
+      "t_start": 733.3,
+      "t_end": 923
+    },
+    {
+      "title": "Quality Tests and Test Parameters Overview",
+      "t_start": 923,
+      "t_end": 1091.5
+    },
+    {
+      "title": "Result Conditions and Evaluation Sequence",
+      "t_start": 1091.5,
+      "t_end": 1219.8
+    },
+    {
+      "title": "Boolean and Option Type Tests",
+      "t_start": 1219.8,
+      "t_end": 1407
+    },
+    {
+      "title": "Table Lookup Configuration and Performance",
+      "t_start": 1407,
+      "t_end": 1608.5
+    },
+    {
+      "title": "Quality Lookup Values and Test Types",
+      "t_start": 1608.5,
+      "t_end": 1781.4
+    },
+    {
+      "title": "Quality Templates and Sampling",
+      "t_start": 1781.4,
+      "t_end": 1880
+    },
+    {
+      "title": "Inspection Generation Rules and Automatic Creation",
+      "t_start": 1880,
+      "t_end": 2080.2
+    },
+    {
+      "title": "Quality Inspection Results and Management Setup",
+      "t_start": 2080.2,
+      "t_end": 2244
+    },
+    {
+      "title": "Failed and Passed Inspection Actions",
+      "t_start": 2244,
+      "t_end": 2395.4
+    },
+    {
+      "title": "Item Tracking, Quantity Selection, and Workflow Configuration",
+      "t_start": 2395.4,
+      "t_end": 2570.5
+    },
+    {
+      "title": "Quality Management Integration and Summary",
+      "t_start": 2570.5,
+      "t_end": 2763
+    }
+  ],
+  "features": [
+    {
+      "name": "Quality Management Extension",
+      "description": "A new extension that allows companies to install quality management capabilities to comply with regulatory requirements and industry standards. Enables automatic and manual quality inspections at various points in the business process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.4,
+      "t_end": 93.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "quality",
+        "extension",
+        "compliance",
+        "standards"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Automatic Quality Test Triggering",
+      "description": "Quality tests can be triggered automatically when specific events happen in the system, such as receiving goods or checking produced output. No manual intervention needed for these automated triggers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 34.1,
+      "t_end": 46.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "automatic triggering",
+        "tests",
+        "events"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Scheduled Quality Inspections",
+      "description": "Quality inspections can be scheduled to run on a recurring basis, such as periodic rechecking of goods to ensure quality has not degraded over time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 34.1,
+      "t_end": 46.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "scheduling",
+        "recurring",
+        "quality checks"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Manual Quality Test Triggering",
+      "description": "Users can manually trigger inspection when receiving input from external or internal sources indicating potential quality issues, allowing proactive quality stops and checks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 46.8,
+      "t_end": 66.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "manual triggering",
+        "quality issues",
+        "inspection"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Flexible Quality Configuration",
+      "description": "The quality management solution is highly configurable to accommodate different business practices and industry-specific quality processes that vary by organization, vendor, or product group.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 66.3,
+      "t_end": 93.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "configuration",
+        "flexibility",
+        "customization"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Automated Non-Compliant Item Handling",
+      "description": "Different options are available to automatically handle items discovered to be non-compliant as a result of quality checks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 82.6,
+      "t_end": 93.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "non-compliant items",
+        "automation",
+        "handling"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Quality Inspection on Purchase Receipt",
+      "description": "When goods are received as part of a purchase order, a quality inspection can be automatically created to verify the quality of the received items before they enter inventory.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 103.3,
+      "t_end": 172.3,
+      "is_demoed": true,
+      "caveats": [
+        "Inspection notifications are shown in the demo but may not be displayed to receipt posting users in real implementations"
+      ],
+      "tags": [
+        "purchase receipt",
+        "automatic inspection",
+        "receiving"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Quality Test Execution with Multiple Test Types",
+      "description": "Quality inspections support multiple test types that can be performed on items, with values entered in a test value column. Tests include structured options like pass/fail buttons and dropdown selections from predefined lists.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 172.3,
+      "t_end": 285.3,
+      "is_demoed": true,
+      "caveats": [
+        "Demo shows multiple UI patterns for test entry including assist-edit popups and dropdown lists"
+      ],
+      "tags": [
+        "test execution",
+        "test types",
+        "test values"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Test Result Descriptions and Guidance",
+      "description": "Quality tests can include past and failed descriptions that provide hints to inspectors about what values constitute passing versus failing results, with support for additional comments and notes on individual tests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 267.2,
+      "t_end": 301.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "test results",
+        "descriptions",
+        "guidance"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Inspection Result Determination",
+      "description": "A single failed test is sufficient to mark the entire inspection as failed. The overall inspection result is determined by evaluating all test results.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 301.5,
+      "t_end": 312,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "inspection result",
+        "failure determination"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Document Attachments in Inspections",
+      "description": "Users can attach images and other documents to quality inspections to visually document inspection findings and conditions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 312,
+      "t_end": 336,
+      "is_demoed": true,
+      "caveats": [
+        "Can take pictures directly from device or drag and drop pre-prepared images"
+      ],
+      "tags": [
+        "attachments",
+        "documentation",
+        "images"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Automatic Transfer Order for Non-Compliant Items",
+      "description": "When a quality inspection fails, the system automatically creates a transfer order to move the non-compliant items to a designated location, based on the sample size tested.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 336,
+      "t_end": 404.1,
+      "is_demoed": true,
+      "caveats": [
+        "Transfer quantity corresponds to sample size tested, not total received quantity"
+      ],
+      "tags": [
+        "transfer order",
+        "non-compliant items",
+        "automation"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Item Tracking Preservation in Quality Process",
+      "description": "Item tracking information such as lot numbers is preserved and passed correctly throughout the quality inspection and subsequent transfer order processes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 369.1,
+      "t_end": 404.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "item tracking",
+        "lot tracking",
+        "data preservation"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Sample Size Configuration in Quality Inspections",
+      "description": "Quality inspections support configurable sample sizes, allowing inspectors to test a subset of received items rather than the entire quantity received.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 369.1,
+      "t_end": 404.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sample size",
+        "configuration",
+        "testing"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Sales Blocking by Quality Inspection Failures",
+      "description": "Sales transactions are automatically blocked when items have a failed quality inspection result for the specific lot or item tracking, preventing shipment of non-compliant items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 414.4,
+      "t_end": 475.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales blocking",
+        "quality",
+        "non-compliant"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Quality Inspection Recreation and Rechecking",
+      "description": "Users can create additional quality inspections for the remaining untested quantity of items to recheck quality if initial samples failed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 475.4,
+      "t_end": 564,
+      "is_demoed": true,
+      "caveats": [
+        "Can be performed to test remaining quantity after initial sample inspection"
+      ],
+      "tags": [
+        "rechecking",
+        "additional inspection",
+        "remaining quantity"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Certificate of Analysis Document",
+      "description": "An external-facing quality document that shows what was tested, who performed the test, and the inspection results, which can be attached to documents and communicated externally.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 564,
+      "t_end": 608,
+      "is_demoed": true,
+      "caveats": [
+        "Layout is under revision and will be different in the actual release"
+      ],
+      "tags": [
+        "certificate",
+        "external document",
+        "quality report"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Non-Conformance Report",
+      "description": "A quality document that shows detailed information about each test performed, including who registered the test, date and time of execution, and individual test details for non-conforming items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 608,
+      "t_end": 644.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "non-conformance",
+        "report",
+        "documentation"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Quality Management Role Center",
+      "description": "A specialized role center for quality management users that includes demo tools with step-by-step guidance for setup, configuration, and product usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 693.5,
+      "t_end": 733.3,
+      "is_demoed": true,
+      "caveats": [
+        "Not expected to be used by default according to speaker"
+      ],
+      "tags": [
+        "role center",
+        "demo tools",
+        "setup guidance"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Quality Management Setup Data",
+      "description": "Setup data for quality management is installed automatically with the extension in an isolated manner without impact on other functionality. Demo data can optionally be installed through Contoso demo tool.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 733.3,
+      "t_end": 775,
+      "is_demoed": true,
+      "caveats": [
+        "Safe to install as data is isolated; number series are created automatically"
+      ],
+      "tags": [
+        "setup",
+        "demo data",
+        "configuration"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Inspection Results Configuration",
+      "description": "Configure possible outcomes for inspections with multiple states beyond pass/fail, including not started, in progress, failed, and passed. Organizations can customize states to capture nuances like passing with reservations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 785.2,
+      "t_end": 844,
+      "is_demoed": true,
+      "caveats": [
+        "Default provides only three states but can be extended"
+      ],
+      "tags": [
+        "inspection results",
+        "configuration",
+        "quality states"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Result Visibility Settings",
+      "description": "Control where inspection results are displayed through promoted or configuration-only settings. Promoted results appear in multiple places including inspection forms and printed documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 844,
+      "t_end": 865.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "result visibility",
+        "promoted",
+        "configuration"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Item Tracking Inspection Controls",
+      "description": "Block transactions based on inspection status of items with lot or item tracking information. Allows selective blocking by transaction type, such as preventing sales of items with failed inspections while allowing other transactions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 865.7,
+      "t_end": 923,
+      "is_demoed": true,
+      "caveats": [
+        "Blocking is configurable per transaction type",
+        "Users can set different rules for sales, consumption, and other transactions"
+      ],
+      "tags": [
+        "item tracking",
+        "lot tracking",
+        "transaction blocking",
+        "sales"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Quality Test Parameters",
+      "description": "Define quality test measurements for different product attributes such as temperature, size, and other parameters. Tests are configured as fields supporting multiple data types including decimals, integers, booleans, dates, options, and table lookups.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 923,
+      "t_end": 1042,
+      "is_demoed": true,
+      "caveats": [
+        "Multiple data types support different measurement scenarios"
+      ],
+      "tags": [
+        "quality tests",
+        "test parameters",
+        "measurements"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Allowable Values and Validation",
+      "description": "Define acceptable value ranges for test parameters to prevent invalid entries. The system rejects values outside specified ranges, such as preventing percentage values outside 0-100 range.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 978.3,
+      "t_end": 1042,
+      "is_demoed": true,
+      "caveats": [
+        "Values outside allowable ranges are rejected by the system"
+      ],
+      "tags": [
+        "allowable values",
+        "validation",
+        "value ranges"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Default Test Values",
+      "description": "Optionally specify default values for test parameters to reduce inspector effort. However, using default values prevents system from registering who performed the test and when.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1042,
+      "t_end": 1091.5,
+      "is_demoed": true,
+      "caveats": [
+        "Using defaults prevents audit trail of who performed the test",
+        "Lines will not be updated if inspectors do not modify default values"
+      ],
+      "tags": [
+        "default values",
+        "efficiency",
+        "audit trail"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Result Conditions and Pass-Fail Logic",
+      "description": "Specify conditions that determine whether test results pass or fail. Each test can have multiple conditions evaluated in sequence, with evaluation order determining the final result when multiple conditions apply.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1091.5,
+      "t_end": 1219.8,
+      "is_demoed": true,
+      "caveats": [
+        "When multiple conditions apply, evaluation sequence determines which takes precedence",
+        "Can be complex to configure properly to avoid conflicting conditions"
+      ],
+      "tags": [
+        "result conditions",
+        "pass-fail",
+        "evaluation logic"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Evaluation Sequence",
+      "description": "Control the priority order in which pass and fail conditions are evaluated. Higher evaluation sequence takes precedence when multiple conditions apply to the same test result.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1115.7,
+      "t_end": 1219.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires careful configuration to avoid unintended result determinations"
+      ],
+      "tags": [
+        "evaluation sequence",
+        "priority",
+        "condition logic"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Boolean Test Type",
+      "description": "Use Boolean field type for checklist-based quality tests where inspectors confirm yes or no for specific attributes. Provides clear pass and fail conditions with optional default values.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1253.2,
+      "t_end": 1301.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "boolean tests",
+        "checklist",
+        "inspection"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Option Type Tests",
+      "description": "Use option data type to provide a predefined list of allowed values for quality tests. Similar to AL development option fields, allowing selection from comma-separated values.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1301.1,
+      "t_end": 1407,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "option type",
+        "allowed values",
+        "selection"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Table Lookup for Test Values",
+      "description": "Configure quality tests to use table lookup allowing selection from any Business Central table data. Enables dynamic value selection with filtering capabilities and field selection configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1407,
+      "t_end": 1491.2,
+      "is_demoed": true,
+      "caveats": [
+        "Must specify which field to use for display rather than primary key",
+        "Requires careful setup to ensure appropriate data"
+      ],
+      "tags": [
+        "table lookup",
+        "dynamic values",
+        "field selection"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Lookup Filtering and Field Selection",
+      "description": "Apply filters to table lookups to restrict available values, and select which table field to display. Filters use standard Business Central filtering syntax to limit selections to relevant records.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1491.2,
+      "t_end": 1576.8,
+      "is_demoed": true,
+      "caveats": [
+        "Can produce very large result sets requiring performance management"
+      ],
+      "tags": [
+        "lookup filtering",
+        "field selection",
+        "value restriction"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Lookup Performance Limits",
+      "description": "Enforce lookup result limits to prevent performance degradation when browsing large datasets. The quality management setup controls maximum row count returned in lookups.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1552.2,
+      "t_end": 1608.5,
+      "is_demoed": true,
+      "caveats": [
+        "Result limit is configurable but may require adjustments based on scenario"
+      ],
+      "tags": [
+        "performance",
+        "lookup limits",
+        "setup"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Quality Lookup Values Table",
+      "description": "Built-in table storing predefined values for quality test lookups. Automatically populated when table lookup is configured, organized by lookup code and linked to specific quality tests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1608.5,
+      "t_end": 1781.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "lookup values",
+        "quality tests",
+        "configuration"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Quality Test Lookup Values",
+      "description": "Automatically linked lookup values for quality tests, populated through allowable values interface or manual entry into the quality test lookup values table.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1704.8,
+      "t_end": 1781.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "lookup",
+        "test configuration"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Quality Test Types",
+      "description": "Multiple test types supported including integer, decimal, date, text, option lookup, and boolean for different selection and measurement scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1758.9,
+      "t_end": 1781.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "test types",
+        "data types"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Quality Templates",
+      "description": "Collection of different quality tests organized into templates with support for sampling size definitions and separator labels for document printing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1781.4,
+      "t_end": 1880,
+      "is_demoed": true,
+      "caveats": [
+        "Separator entry type only works for document organization and does not perform validation"
+      ],
+      "tags": [
+        "templates",
+        "sampling",
+        "document printing"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Sampling Configuration",
+      "description": "Sampling size can be defined as fixed quantity or percent of quantity, with automatic rounding to integers only.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1835.3,
+      "t_end": 1880,
+      "is_demoed": true,
+      "caveats": [
+        "Only integers allowed for calculated sample quantities"
+      ],
+      "tags": [
+        "sampling",
+        "quantity"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Inspection Generation Rules",
+      "description": "Rules that define when quality templates are automatically used, supporting purchase and sales scenarios with configurable line-level conditions based on location, quantity, item tracking, and other field filters.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1880,
+      "t_end": 2004.2,
+      "is_demoed": true,
+      "caveats": [
+        "Item tracking code limitations affect certain quality result operations",
+        "Different triggers apply to different document types"
+      ],
+      "tags": [
+        "rules",
+        "automation",
+        "conditions",
+        "item tracking"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Automatic Inspection Creation",
+      "description": "Inspections can be created manually or automatically based on inspection generation rules tied to business events like purchase order received or sales return receipt.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2004.2,
+      "t_end": 2080.2,
+      "is_demoed": true,
+      "caveats": [
+        "Different events apply for different document types",
+        "Job queue option available for scheduled recurring inspections"
+      ],
+      "tags": [
+        "automation",
+        "events",
+        "triggers"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Quality Inspection Results Blocking",
+      "description": "Quality inspection results can block sales, purchases, and consumption operations, but only for items with item tracking code defined.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1955.4,
+      "t_end": 2080.2,
+      "is_demoed": true,
+      "caveats": [
+        "Blocking limitations only apply to items with item tracking code",
+        "Alternative blocking methods needed for items without tracking"
+      ],
+      "tags": [
+        "item tracking",
+        "blocking",
+        "inventory"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Quality Management Setup",
+      "description": "Quality management setup page with default values for inspection triggers and number series configuration. Preinstalled in new 2026 wave one environments, installable via app source for existing customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2133.2,
+      "t_end": 2244,
+      "is_demoed": true,
+      "caveats": [
+        "Preinstalled only for new environments in 2026 wave one",
+        "Existing customers must install from app source",
+        "Only number series is a shared table between installations"
+      ],
+      "tags": [
+        "setup",
+        "installation",
+        "configuration"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Inspection Actions for Non-Conforming Items",
+      "description": "Multiple actions available for failed or passed inspections including inventory movement via reclassification, transfer orders, negative adjustments, purchase returns, and item tracking changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2244,
+      "t_end": 2395.4,
+      "is_demoed": true,
+      "caveats": [
+        "Reopen and deletion actions limited to quality management administrators",
+        "Quantity selection options include full quantity, specified quantity, sample quantity or failed/pass quantity"
+      ],
+      "tags": [
+        "actions",
+        "inventory",
+        "permissions",
+        "non-conformance"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Item Tracking Change in Quality Management",
+      "description": "Users can change item tracking details such as lot number or expiration dates during quality inspection processes, allowing flexible tracking number management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2350.1,
+      "t_end": 2373.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "item tracking",
+        "quality inspection",
+        "lot numbers"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Quantity Selection Options in Quality Inspections",
+      "description": "Quality inspectors can specify which quantity to use when triggering adjustments: full quantity, a manually specified quantity, sample quantity, failed quantity, or pass quantity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2373.7,
+      "t_end": 2395.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "quantity management",
+        "inspection",
+        "quality control"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Sample Quantity Field in Quality Management",
+      "description": "A separate sample quantity field is available in quality management, currently hidden by default but accessible.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2386.2,
+      "t_end": 2395.4,
+      "is_demoed": true,
+      "caveats": [
+        "currently hidden"
+      ],
+      "tags": [
+        "sample quantity",
+        "field configuration"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Quality Inspection Workflow Events",
+      "description": "Four built-in quality inspection related workflow events are available: quality inspection created, changed, finished, and reopened. These events trigger automatic workflow actions based on configured conditions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2432.4,
+      "t_end": 2479.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "workflow events",
+        "automation",
+        "quality inspection"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Workflow Conditions for Quality Inspections",
+      "description": "Workflow rules can be configured with conditions such as finished status, specific items, or locations. Conditions determine when workflow responses execute based on inspection results.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2479.2,
+      "t_end": 2505.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "workflow conditions",
+        "rules configuration"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Tracking Number Blocking Workflow Response",
+      "description": "Workflow can automatically block tracking numbers when quality inspection starts and unblock them upon finishing based on inspection results.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2505.9,
+      "t_end": 2527.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "tracking numbers",
+        "workflow response",
+        "blocking"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Quality Inspection Action Workflows",
+      "description": "Built-in workflow actions for quality inspections include recreating inspection, finishing inspection, and reopening inspection based on configured conditions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2527.6,
+      "t_end": 2549.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "inspection actions",
+        "workflow automation"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Inventory Movement Workflow Responses",
+      "description": "Workflow can trigger various inventory movements as responses to quality inspection results including negative adjustment, internal put-away, purchase return, transfer order, and move inventory from inspection.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2549.8,
+      "t_end": 2570.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "inventory movements",
+        "workflow responses"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Quality Management API Integration",
+      "description": "Quality management events and responses are exposed through API, allowing integration with external tools like Power Automate while supporting internal workflow automation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2570.5,
+      "t_end": 2610.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "api",
+        "integration",
+        "power automate"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Built-in Quality Management Workflows",
+      "description": "Quality management includes built-in workflow automation for simple, non-approval scenarios that execute within the same transaction. These are simpler to configure than approval workflows and do not require external orchestration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2610.1,
+      "t_end": 2667.7,
+      "is_demoed": true,
+      "caveats": [
+        "best for simple activities not requiring human involvement",
+        "not suitable for approval/notification scenarios"
+      ],
+      "tags": [
+        "workflows",
+        "automation",
+        "transaction handling"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Quality Management Workflows",
+      "description": "Built-in standard workflows for quality management events without templates, designed as simple one-liner automations triggered by quality management related events.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2395.4,
+      "t_end": 2454.4,
+      "is_demoed": false,
+      "caveats": [
+        "Workflows do not have templates",
+        "Four quality management related events available for workflow triggers"
+      ],
+      "tags": [
+        "workflows",
+        "automation",
+        "events"
+      ],
+      "system": "manufacturing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Quality Management Role Center",
+      "t": 693.5
+    },
+    {
+      "type": "other",
+      "name": "Certificate of Analysis",
+      "t": 564
+    },
+    {
+      "type": "other",
+      "name": "Non-Conformance Report",
+      "t": 608
+    },
+    {
+      "type": "table",
+      "name": "Quality Lookup Test lookup values",
+      "t": 1654
+    },
+    {
+      "type": "table",
+      "name": "Country",
+      "t": 1431.3
+    },
+    {
+      "type": "table",
+      "name": "GL entries",
+      "t": 1544.7
+    },
+    {
+      "type": "table",
+      "name": "quality test lookup table",
+      "t": 1717.7
+    },
+    {
+      "type": "table",
+      "name": "quality management setup",
+      "t": 2133.2
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 6.4,
+      "text": "In this release, we are adding a new quality management extension. So, now you can install it and comply with the regulatory requirements and",
+      "why_it_matters": "Establishes that Quality Management is a new feature being released, with clear regulatory and standards compliance purpose.",
+      "check": "exact"
+    },
+    {
+      "t": 34.1,
+      "text": "you can trigger tests automatically when something happens in the system. You don't need to worry about it. You can schedule them to do",
+      "why_it_matters": "Key capability: automatic and recurring quality test triggering without manual intervention, reducing operational burden.",
+      "check": "exact"
+    },
+    {
+      "t": 82.6,
+      "text": "It's very easy to configure. And it might happen from time to time that as a result of the quality check you discover that",
+      "why_it_matters": "Highlights configurability and the core challenge the extension addresses: handling non-compliant items discovered through testing.",
+      "check": "exact"
+    },
+    {
+      "t": 301.5,
+      "text": "One failure is already enough to to mark the whole inspection as failed. So, you can see the result says fail.",
+      "why_it_matters": "Clarifies the inspection result logic: a single test failure causes the entire inspection to fail, protecting quality standards.",
+      "check": "exact"
+    },
+    {
+      "t": 447.8,
+      "text": "my transaction my sales transaction was blocked because there is inspection with a result fail for this specific lot of this item and we",
+      "why_it_matters": "Demonstrates the enforcement mechanism: failed inspections automatically block downstream transactions like sales shipments.",
+      "check": "exact"
+    },
+    {
+      "t": 733.3,
+      "text": "Set up data are installed automatically with extension, but it is very much isolated, so no impact on any other stuff or functionality of",
+      "why_it_matters": "Important implementation detail: setup is automatic and safe to install because it is isolated from existing functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 796.4,
+      "text": "By default, there are three different states, inspection not started or in progress and then failed or passed. But sometimes, the world is not",
+      "why_it_matters": "Shows default configuration flexibility: three standard states plus ability to add custom inspection result states for complex scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 796.4,
+      "text": "By default, there are three different states, inspection not started or in progress and then failed or passed.",
+      "why_it_matters": "Establishes the baseline configuration options for inspection result states in Quality Management.",
+      "check": "exact"
+    },
+    {
+      "t": 854.7,
+      "text": "result visibility. It says promoted or configuration only. So, promoted, it means it will be visible in many places. For example, in the inspection",
+      "why_it_matters": "Explains configuration control over where inspection results appear, affecting both user interface and document output.",
+      "check": "exact"
+    },
+    {
+      "t": 884.7,
+      "text": "there is an item with a lot 25 which has inspection in failed status",
+      "why_it_matters": "Demonstrates how the system enforces quality controls by blocking transactions based on inspection results.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1001.6,
+      "text": "We do not allow inspector to make a typo and enter, for example, 1,000. So, the system just do not accept does not accept",
+      "why_it_matters": "Shows system validation prevents invalid entries outside configured allowable value ranges.",
+      "check": "exact"
+    },
+    {
+      "t": 1063.2,
+      "text": "But because they do not change the value in the lines, system will not register who actually check this specific line.",
+      "why_it_matters": "Explains a critical tradeoff: default values improve efficiency but compromise audit trail tracking.",
+      "check": "exact"
+    },
+    {
+      "t": 1576.8,
+      "text": "There is a setup in the quality management setup where we have some setups which actually dictates the number of rows to fetch in",
+      "why_it_matters": "Explains how performance limits are controlled in table lookups through configurable setup parameters.",
+      "check": "exact"
+    },
+    {
+      "t": 1632,
+      "text": "As soon as you define decide to use table lookup, the table lookup configuration it gets automatically populated with a very specific table.",
+      "why_it_matters": "Shows automatic table creation to support table lookup configuration for quality tests.",
+      "check": "exact"
+    },
+    {
+      "t": 1770.1,
+      "text": "Now we define the test of different type integer or decimal or maybe date or maybe text or maybe something else. Option lookup and",
+      "why_it_matters": "Lists all supported quality test data types for comprehensive quality test scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 1835.3,
+      "text": "We have two types in addition to to not define uh sample size. We have two types, fixed quantity and percent of quantity.",
+      "why_it_matters": "Defines the three sampling options available: none, fixed, or percentage-based.",
+      "check": "exact"
+    },
+    {
+      "t": 1990.1,
+      "text": "They only work for items with item tracking. For items without tracking, you need to use a different ways to to block them and",
+      "why_it_matters": "Clarifies a key limitation: quality result blocking operations only function for tracked items.",
+      "check": "exact"
+    },
+    {
+      "t": 2143.9,
+      "text": "As I mentioned, once we install this extension because it will be preinstalled, but only for new environments. So, like if you create new",
+      "why_it_matters": "States that quality management is preinstalled in new 2026 wave one environments only.",
+      "check": "exact"
+    },
+    {
+      "t": 2204.8,
+      "text": "Everything else is super safe. So, unless you suspect that you will have a conflict with the quality inspection number series, you're very safe",
+      "why_it_matters": "Confirms that quality management installation is safe with minimal shared data beyond number series.",
+      "check": "exact"
+    },
+    {
+      "t": 2373.7,
+      "text": "You can define what quantity to use. You can use the full quantity, you can specify quantity which you can specify here. Or you",
+      "why_it_matters": "Demonstrates the flexibility in quality management to handle different quantity measurement scenarios during inspections.",
+      "check": "exact"
+    },
+    {
+      "t": 2432.4,
+      "text": "The standard built-in workflows. We do not have templates because these workflows are very simple, I would say. They are not that complex to",
+      "why_it_matters": "Explains the design decision to use simple built-in workflows without templates for quality management automation.",
+      "check": "exact"
+    },
+    {
+      "t": 2454.4,
+      "text": "When something happens, when event happened and there are four quality management related events.",
+      "why_it_matters": "Establishes the four key workflow events available for quality inspection automation.",
+      "check": "exact"
+    },
+    {
+      "t": 2581,
+      "text": "we do expose the similar events and the similar responses through API. So, if you prefer to use Power Automate, go ahead.",
+      "why_it_matters": "Indicates that quality management supports both internal workflows and external Power Automate integration through APIs.",
+      "check": "exact"
+    },
+    {
+      "t": 2597.5,
+      "text": "if you when you create inspection and you plan to block lot, there is no point to call the external engine and do orchestration",
+      "why_it_matters": "Explains the rationale for using built-in workflows instead of external automation for simple quality management tasks.",
+      "check": "exact"
+    },
+    {
+      "t": 2643.2,
+      "text": "It runs in the same transaction. So, if something goes wrong, it will be rolled back.",
+      "why_it_matters": "Highlights a key benefit of built-in workflows - atomic transaction handling ensures data consistency.",
+      "check": "exact"
+    },
+    {
+      "t": 2667.7,
+      "text": "It's actually very good for simple automation. If events and response are present. And for quality management, decent number of events and decent number",
+      "why_it_matters": "Summarizes why quality management workflows are well-suited to the built-in workflow engine architecture.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 575.6,
+      "kind": "subject-to-change",
+      "text": "We are in the progress of changing layout. So, when you will see this video, I would expect you to see a very different layout."
+    },
+    {
+      "t": 2143.9,
+      "kind": "preview",
+      "text": "Quality management will be preinstalled, but only for new environments in the 2026 wave one release."
+    },
+    {
+      "t": 2386.2,
+      "kind": "preview",
+      "text": "sample quantity which is right now hiding is also available"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 26,
+    "quotes_dropped": 2,
+    "evidence_verified": 0,
+    "evidence_unverified": 54
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.041033
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0586839
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030548
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022855
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.065889
+    }
+  ]
+}

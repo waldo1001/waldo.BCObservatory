@@ -1,0 +1,177 @@
+{
+  "video_id": "GlY_e-jH0V0",
+  "item_id": "video/yt-dynamicscorner/GlY_e-jH0V0",
+  "title": "Urgency without Direction is a problem with AI. Use it with purpose.",
+  "duration_s": 60,
+  "systems": [
+    "copilot"
+  ],
+  "topics": [
+    "copilot adoption",
+    "ai usage",
+    "feature overwhelm",
+    "learning strategies",
+    "prompts",
+    "skills",
+    "agents"
+  ],
+  "chapters": [
+    {
+      "title": "Using AI with purpose to solve real problems",
+      "t_start": 0,
+      "t_end": 13.8
+    },
+    {
+      "title": "Adoption challenges with rapid feature changes",
+      "t_start": 13.8,
+      "t_end": 26.9
+    },
+    {
+      "title": "Overwhelm with new Copilot features and agents",
+      "t_start": 26.9,
+      "t_end": 44.1
+    },
+    {
+      "title": "Starting simple with Copilot and iterating",
+      "t_start": 44.1,
+      "t_end": 60
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot instructions",
+      "description": "New Copilot instructions capabilities that came out, which speakers noted caused overwhelm and pressure to learn how to create them.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 26.9,
+      "t_end": 44.1,
+      "is_demoed": false,
+      "caveats": [
+        "can cause overwhelm for new users"
+      ],
+      "tags": [
+        "copilot",
+        "instructions",
+        "adoption"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot skills",
+      "description": "Skills capability within Copilot that was introduced alongside instructions and agents, initially creating confusion about usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 26.9,
+      "t_end": 44.1,
+      "is_demoed": false,
+      "caveats": [
+        "can cause overwhelm for new users"
+      ],
+      "tags": [
+        "copilot",
+        "skills",
+        "adoption"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot agents",
+      "description": "Agent capability within Copilot that was released alongside instructions and skills, contributing to adoption complexity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 26.9,
+      "t_end": 44.1,
+      "is_demoed": false,
+      "caveats": [
+        "can cause overwhelm for new users"
+      ],
+      "tags": [
+        "copilot",
+        "agents",
+        "adoption"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot prompt creation",
+      "description": "Ability to create custom prompts within Copilot for specific use cases, which users can learn progressively by starting simple.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 44.1,
+      "t_end": 57.5,
+      "is_demoed": false,
+      "caveats": [
+        "requires iterative learning approach"
+      ],
+      "tags": [
+        "copilot",
+        "prompts",
+        "skill-building"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Chris",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 0,
+      "text": "to help solve problems for customers and other people instead of feeling the pressure to use it, use it and apply it",
+      "why_it_matters": "Establishes the core principle that AI should be used with purpose to solve real problems, not just adopted for adoption's sake.",
+      "check": "exact"
+    },
+    {
+      "t": 13.8,
+      "text": "the rate of change is so fast that sometimes it's difficult to adopt it",
+      "why_it_matters": "Identifies a major barrier to Copilot and AI feature adoption - users struggle to keep up with the pace of new capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 26.9,
+      "text": "when these whole new Copilot instructions came out and skills and agents, I was a little overwhelmed",
+      "why_it_matters": "Shows that even knowledgeable users experience overwhelm when multiple new Copilot capabilities are released simultaneously.",
+      "check": "exact"
+    },
+    {
+      "t": 44.1,
+      "text": "i'll just create something very simple i had",
+      "why_it_matters": "Demonstrates that starting with simple use cases and having Copilot assist in learning is an effective adoption strategy.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 57.5,
+      "text": "And now I create these things all the time. I'm creating prompts",
+      "why_it_matters": "Shows how iterative, simple-first approach leads to ongoing confidence and capability building with Copilot.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014225000000000002
+    }
+  ]
+}

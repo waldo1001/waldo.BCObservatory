@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-how-invoice-sales.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-invoice-sales",
+  "title": "Invoice sales",
+  "blob": "a1e3746e4b5b8d5c0968b6753fbdcd288c779e9b",
+  "summary": "Sales invoicing is used to record agreements with customers to sell products with specified delivery and payment terms. Create sales invoices when customers decide to buy, post to create ledger entries, and email as PDF or register payments through various methods.",
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "sales invoices",
+    "sales orders",
+    "customer payments",
+    "payment registration",
+    "invoice discounts",
+    "recurring sales"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoice"
+    }
+  ],
+  "features": [
+    "Create sales invoices",
+    "Post and send documents",
+    "Payment method selection",
+    "Invoice discounts",
+    "Item types (Inventory, Service, Non-Inventory)",
+    "Recurring sales lines",
+    "Email as PDF",
+    "Payment reconciliation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00737,
+      "pages_in_call": 6
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-how-setup-email.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-setup-email",
+  "title": "Set up email in Business Central",
+  "blob": "9dad0f00e5312b8ca926fbee5246ac25a2bca13a",
+  "summary": "Setup guide for configuring email accounts in Business Central to send documents, reports, and notifications. Covers email connectors (Microsoft 365, Current User, SMTP), requirements, scenarios, sender addresses, and on-premises configuration.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "email setup",
+    "smtp connector",
+    "exchange online",
+    "document sending",
+    "scenarios",
+    "telemetry"
+  ],
+  "objects": [],
+  "features": [
+    "microsoft 365 connector",
+    "current user connector",
+    "smtp connector",
+    "email scenarios",
+    "view policies",
+    "rate limiting",
+    "substitute sender address",
+    "document sending profiles"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011256,
+      "pages_in_call": 2
+    }
+  ]
+}

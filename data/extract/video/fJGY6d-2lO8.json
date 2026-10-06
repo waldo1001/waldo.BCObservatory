@@ -1,0 +1,230 @@
+{
+  "video_id": "fJGY6d-2lO8",
+  "item_id": "video/yt-microsoft/fJGY6d-2lO8",
+  "title": "What's New: Enhanced Sales Analytics (2026 release wave 1)",
+  "duration_s": 593,
+  "systems": [
+    "sales",
+    "reporting",
+    "inventory"
+  ],
+  "topics": [
+    "customer retention",
+    "churn analysis",
+    "abc analysis",
+    "power bi",
+    "sales analytics",
+    "demo data",
+    "analysis views",
+    "excel reports",
+    "recurring customers"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Enhanced Sales Analytics",
+      "t_start": 0,
+      "t_end": 39.2
+    },
+    {
+      "title": "Customer Retention Overview and History Reports",
+      "t_start": 39.2,
+      "t_end": 107.2
+    },
+    {
+      "title": "ABC Analysis and Inventory Integration",
+      "t_start": 107.2,
+      "t_end": 187.6
+    },
+    {
+      "title": "Improved Sales Reports and Analysis Views",
+      "t_start": 187.6,
+      "t_end": 270
+    },
+    {
+      "title": "Enhanced Demo Data and Resources",
+      "t_start": 270,
+      "t_end": 307.9
+    },
+    {
+      "title": "Related Sessions and Conclusion",
+      "t_start": 307.9,
+      "t_end": 363.9
+    },
+    {
+      "title": "Business Central Resources and Community",
+      "t_start": 363.9,
+      "t_end": 593
+    }
+  ],
+  "features": [
+    {
+      "name": "Customer Retention Overview and History Reports",
+      "description": "Two new reports in the Power BI app for sales that allow you to see whether customers are recurring, churning, or returning, viewable by geography or customer. Includes historical representation showing new recurring customers over time, temporary lost customers, and real lost customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 55.2,
+      "t_end": 107.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "customer retention",
+        "churn",
+        "power bi",
+        "recurring customers"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "ABC Analysis Report",
+      "description": "A new report that allows you to divide your inventory of items into categories A, B, and C based on sales volume. Useful for sales analysis to identify top-selling items and can be used in both Power BI and Excel formats.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 131.2,
+      "t_end": 187.6,
+      "is_demoed": true,
+      "caveats": [
+        "Primarily an inventory feature but has sales analysis applications"
+      ],
+      "tags": [
+        "abc analysis",
+        "inventory",
+        "sales analysis",
+        "excel"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Pivot Table Subtotals for Sales Reports",
+      "description": "Five sales reports shipped in fall 2025 are being updated with pivot table subtotals. The initial version missed subtotals in the pivot tables, which is now being added as a simple enhancement.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 187.6,
+      "t_end": 230.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "pivot tables",
+        "subtotals",
+        "excel"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analysis Views Shipping with AL Apps",
+      "description": "New ability to ship analysis tabs or analysis views with AL apps or AL code. Out of the box analysis views are being added to the sales order list.",
+      "status": "ga",
+      "status_evidence_t": 230.5,
+      "status_evidence_quote": "in this release wave we are adding the ability to ship analysis tabs or analysis views with the with with AL apps",
+      "status_evidence_verified": true,
+      "t_start": 230.5,
+      "t_end": 257.3,
+      "is_demoed": false,
+      "caveats": [
+        "Three analysis views on sales order list coming in 28.x, not in the April release"
+      ],
+      "tags": [
+        "analysis views",
+        "al",
+        "sales order",
+        "out of box"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Enhanced Sales Demo Data",
+      "description": "Extended and enhanced demo data for sales that includes the number of open sales orders and back orders as well as data distribution to enable better data stories in sales demonstrations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 270,
+      "t_end": 291.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "demo data",
+        "sales orders",
+        "back orders"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer Retention Overview",
+      "t": 70.6
+    },
+    {
+      "type": "report",
+      "name": "ABC Analysis",
+      "t": 131.2
+    },
+    {
+      "type": "page",
+      "name": "Sales Order List",
+      "t": 247
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 6.1,
+      "text": "we want to still set focus on better analytics to to get better more profitability and more sales",
+      "why_it_matters": "States the core business motivation for investing in enhanced sales analytics in this release wave.",
+      "check": "exact"
+    },
+    {
+      "t": 24.6,
+      "text": "we focus on customer loyalty. Being able to analyze recurring and churn customers and just more easy built-in reporting",
+      "why_it_matters": "Defines the specific focus areas for this release - customer loyalty, churn analysis, and simplified reporting.",
+      "check": "exact"
+    },
+    {
+      "t": 70.6,
+      "text": "Two new reports that simply allows you to see whether your customers are recurring, whether they are churning",
+      "why_it_matters": "Describes the core capability of the new customer retention reports now available in Power BI.",
+      "check": "exact"
+    },
+    {
+      "t": 230.5,
+      "text": "in this release wave we are adding the ability to ship analysis tabs or analysis views with the with with AL apps",
+      "why_it_matters": "Announces a new capability for developers to include analysis views in AL app extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 257.3,
+      "text": "They are coming in 28.x so not in the April release, so but once once we get a few months out",
+      "why_it_matters": "Clarifies timing - analysis views on sales order list are not in April but will arrive a few months later.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 257.3,
+      "kind": "not-in-this-release",
+      "text": "They are coming in 28.x so not in the April release"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020238
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "video_id": "dlJYM5ruvUc",
+  "item_id": "video/yt-microsoft/dlJYM5ruvUc",
+  "summary": "New Business Central APIs in 2026 release wave 1 for documents (PDF export across sales, purchasing, inventory, assembly), permissions (permission sets, security groups, user permissions, access control) and approvals (workflows, approvers, approval entries). Useful for automation and auditing scenarios.",
+  "overview": "The video walks through new APIs in 2026 release wave 1 in three areas: documents, permissions and approvals. The document APIs currently only return PDFs for document types in sales, purchasing, inventory and assembly. The presenter says later versions might open up more.\n\nThe permission APIs show permission sets, where they come from and which apps introduce them, and how they link to security groups and users. The approval APIs cover workflows down to approval entries and posted approval entries, including who can approve what and up to which amount. The presenter points to the IT auditing session for more detail, and the video also covers documentation and community resources.",
+  "key_points": [
+    "Document APIs let you get PDFs for document types across sales, purchasing, inventory and assembly; currently only PDF retrieval, with more possibly in later versions.",
+    "Permission Sets API lists permission sets and lets you navigate to the users and security groups that use them; an expanded version shows which apps introduce each set.",
+    "Security Groups API links to permission sets and group members, showing who has permissions through a group.",
+    "User Permissions API shows permission sets assigned directly or inherited by users; an Access Control API exposes access control records.",
+    "Seven approval-related APIs run from workflows through workflow steps, response options and step arguments to approvers, approval user setup, and approval and posted approval entries.",
+    "Approvers API shows approver type and approval limit, so you can see who can approve what up to which amount.",
+    "Further detail on auditing use of these APIs is in the IT auditing session."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "3104f8d4fede207098369ac1fab1ad822f96aef88788c2f5347cca08903bbf89",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0143644
+  }
+}

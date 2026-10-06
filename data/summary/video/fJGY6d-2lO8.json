@@ -1,0 +1,28 @@
+{
+  "video_id": "fJGY6d-2lO8",
+  "item_id": "video/yt-microsoft/fJGY6d-2lO8",
+  "summary": "Business Central 2026 release wave 1 sales analytics: new Customer Retention Overview and history reports and an ABC Analysis report in Power BI/Excel, pivot table subtotals for five sales reports, analysis views shipped with AL apps, and richer sales demo data. Three sales order list analysis views come in 28.x, not April.",
+  "overview": "The video covers sales analytics improvements in the 2026 release wave 1. The focus is customer loyalty and built-in reporting. Two new Power BI reports show whether customers are recurring, churning or returning, by geography or by customer, with history over time. An ABC Analysis report divides items into categories A, B and C by sales volume. It is mainly an inventory feature with sales analysis uses.\n\nThe video also covers smaller changes. Five sales reports shipped in fall 2025 get pivot table subtotals. Analysis views can now ship with AL apps, and out-of-the-box analysis views are being added to the sales order list. Sales demo data is extended with open sales orders, back orders and better data distribution.",
+  "key_points": [
+    "Two new Power BI reports for sales show recurring, churning and returning customers, by geography or customer.",
+    "The retention history report shows new recurring customers over time, temporary lost customers and real lost customers.",
+    "ABC Analysis report classifies items into A, B and C by sales volume, and works in Power BI and Excel formats.",
+    "Five sales reports shipped in fall 2025 are being updated with pivot table subtotals that were missing at first.",
+    "Analysis views can now be shipped with AL apps or AL code.",
+    "Three analysis views on the Sales Order List are coming in 28.x, not in the April release.",
+    "Sales demo data now includes open sales orders and back orders, with better data distribution for demos."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "103dcfb5a19a812964f31e8510ec907b8c434ccc6081a9f6f6098213e1393d51",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0136084
+  }
+}

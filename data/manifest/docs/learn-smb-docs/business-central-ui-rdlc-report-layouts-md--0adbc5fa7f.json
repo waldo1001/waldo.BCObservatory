@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-rdlc-report-layouts",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e15b9886fa24fea54c35165471fe7a16d368afec",
       "words": 317,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T18:01:29.874Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00737
+    },
+    "summarized": {
+      "at": "2026-10-06T18:01:29.900Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:01:29.901Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:01:29.902Z",
+      "page": false
     }
   },
   "input_hash": "e15b9886fa24fea54c35165471fe7a16d368afec",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e15b9886fa24fea54c35165471fe7a16d368afec"
+  "output_hash": "7d2387483608c8259f3a4e3e15411fff353620b8a7357a32502d80804c62d8d0"
 }

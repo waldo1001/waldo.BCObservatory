@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-enter-criteria-filters.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-enter-criteria-filters",
+  "title": "Sort, search, and filter data in lists, reports, or XMLports",
+  "blob": "7a2fc9e5ee41cbf26c98673c5d5ccff874afb0b4",
+  "summary": "Sort, search, and filter data in lists, reports, or XMLports using sorting options, modern and legacy search methods, filter criteria with operators, and saved filter views for efficient data analysis.",
+  "systems": [
+    "platform"
+  ],
+  "topics": [
+    "sorting",
+    "searching",
+    "filtering",
+    "data analysis",
+    "filter criteria",
+    "list views",
+    "modern search",
+    "legacy search"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    }
+  ],
+  "features": [
+    "Sort ascending/descending",
+    "Search with text matching",
+    "Modern search with word matching",
+    "Legacy search with exact matching",
+    "Filter operators (>, <, =, <>, |, .., &, *, ?)",
+    "Filter tokens (%me, %user, %mycustomers, %myitems, %myvendors)",
+    "Saved filter views",
+    "Filter on option fields"
+  ],
+  "versions": [
+    "Business Central 2024 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00737,
+      "pages_in_call": 6
+    }
+  ]
+}

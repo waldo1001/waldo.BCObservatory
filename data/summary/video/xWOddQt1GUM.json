@@ -1,0 +1,27 @@
+{
+  "video_id": "xWOddQt1GUM",
+  "item_id": "video/yt-dynamicscorner/xWOddQt1GUM",
+  "summary": "Dynamics Corner episode 515 with a BC developer and MVP on how AI changes AL development: AI-generated code and tests, TDD, planning mode, context management, AL-Go CI/CD, MCP and tool choice. It also covers the 2026 wave one agent preview and open source tools.",
+  "overview": "The guest, a Business Central developer from Ukraine and recent Microsoft MVP, discusses how AI makes code cheaper to produce and shifts developer time toward architecture and understanding Business Central functionality. The episode opens with 2026 wave one items, including the agent preview and agent playground, and a troubleshooting MCP server for AL that is due in May. It then covers open source tools such as Data Editor and Parallel Task Worker.\n\nMost of the discussion is about working practice. It covers AI-generated tests and TDD for AL, planning mode before generating code, context and session management, and AL-Go for CI/CD with several developers. It also compares IDE agents and command-line agents, and advises trying MCP in practice. The Business Central MCP is not recommended for production, only for sandboxes or Docker environments.",
+  "key_points": [
+    "Agent building in sandboxes is in preview. Generating code from agents built visually is not yet automatic.",
+    "The troubleshooting MCP server for AL is due in May 2026. Business Central MCP is for sandboxes or Docker only, not production.",
+    "Generated code still has to be read and understood. Generating too much code without review causes quality problems.",
+    "Tests are now standard for AL. AI can generate and suggest tests, and TDD is recommended, but tests must be reviewed and must fail and pass correctly.",
+    "Start with planning mode: give the AI full context, name the relevant objects and say why they matter. Use separate sessions for different tasks.",
+    "AL-Go is a free CI/CD tool that runs in GitHub. GitHub runners may cost money depending on setup, and branch discipline is required.",
+    "Tool rankings change often. The BC bench from Microsoft counted only two agents, so evaluate tools yourself. Source control and code review matter more than which tool was used."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "decision maker"
+  ],
+  "extraction_hash": "1b9045d732dc63ebed0d32b4832446fe7344f270300c5870e8b47993e59b2c30",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0365884
+  }
+}
