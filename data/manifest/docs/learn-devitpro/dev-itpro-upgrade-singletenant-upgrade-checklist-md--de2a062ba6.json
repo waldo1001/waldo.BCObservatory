@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/singletenant-upgrade-checklist",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6298e890b7992d3fc5e9c5da09e97f514dfbd766",
       "words": 289,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:58.213Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002576
+    },
+    "summarized": {
+      "at": "2026-10-06T19:19:58.242Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:19:58.243Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:20:00.028Z",
+      "page": false
     }
   },
   "input_hash": "6298e890b7992d3fc5e9c5da09e97f514dfbd766",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6298e890b7992d3fc5e9c5da09e97f514dfbd766"
+  "output_hash": "48f841e610d16bad1e6cc96c0de559cf22986d300c94c01732efc2383a2acdd4"
 }

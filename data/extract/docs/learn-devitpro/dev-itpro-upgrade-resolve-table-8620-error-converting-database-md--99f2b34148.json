@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/resolve-table-8620-error-converting-database.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/resolve-table-8620-error-converting-database",
+  "title": "Resolving Table 8620 Compilation Error",
+  "blob": "80463259216b36303250559192299e9dedb78f56",
+  "summary": "Resolve the table 8620 Config. Tmpl. Selection Rules compilation error during Dynamics NAV 2018 to Business Central conversion by replacing EntitySetName with SourceTable in the page ID validation trigger.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "upgrade",
+    "compilation error",
+    "table 8620",
+    "configuration templates",
+    "conversion"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "8620 Config. Tmpl. Selection Rules"
+    }
+  ],
+  "features": [
+    "compilation error resolution",
+    "page metadata validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002576,
+      "pages_in_call": 8
+    }
+  ]
+}

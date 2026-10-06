@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/resolve-page-2500-error-converting-database.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/resolve-page-2500-error-converting-database",
+  "title": "Resolving Page 2500 Compilation Error",
+  "blob": "eb1183c04657e97eda6cc65b89ee074d02abf2a3",
+  "summary": "Resolve the page 2500 Page Management compilation error during Dynamics NAV 2018 to Business Central conversion by updating the GenerateDesignerPackageZipStream method call to include a version parameter.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "upgrade",
+    "compilation error",
+    "page 2500",
+    "page management",
+    "designer"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "2500 Page Management"
+    }
+  ],
+  "features": [
+    "compilation error resolution",
+    "designer package generation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002576,
+      "pages_in_call": 8
+    }
+  ]
+}

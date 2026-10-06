@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/resolve-page-9624-error-converting-database.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/resolve-page-9624-error-converting-database",
+  "title": "Resolving page 9624 compilation error on technical upgrade",
+  "blob": "27361054230d928ccb2f1d85dcd17af6b1a77a85",
+  "summary": "Resolve the page 9624 Finish Design List Part compilation error when converting Dynamics NAV 2018 to Business Central by replacing it with an empty page object, as this page is no longer used in Business Central.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "upgrade",
+    "compilation error",
+    "page 9624",
+    "deprecated page",
+    "conversion"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "9624 Finish Design List Part"
+    }
+  ],
+  "features": [
+    "compilation error resolution",
+    "deprecated object replacement"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002576,
+      "pages_in_call": 8
+    }
+  ]
+}

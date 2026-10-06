@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/resolve-cu-6400-error-converting-database",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "63b96815cbc3db7c4acafe5c8ce357c018f9aa25",
       "words": 56,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:58.205Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002576
+    },
+    "summarized": {
+      "at": "2026-10-06T19:19:58.219Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:19:58.220Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:19:58.223Z",
+      "page": false
     }
   },
   "input_hash": "63b96815cbc3db7c4acafe5c8ce357c018f9aa25",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "63b96815cbc3db7c4acafe5c8ce357c018f9aa25"
+  "output_hash": "5a4878bf40ee1a17e6540e25c34a9222a308ac7b979cbb95615660acfb488bb7"
 }

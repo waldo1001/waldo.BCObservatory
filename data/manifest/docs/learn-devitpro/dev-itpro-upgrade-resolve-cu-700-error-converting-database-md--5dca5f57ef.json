@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/resolve-cu-700-error-converting-database",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ef658b29998e625f572efecf36d68bc12eebe8fa",
       "words": 56,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:58.206Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002576
+    },
+    "summarized": {
+      "at": "2026-10-06T19:19:58.226Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:19:58.228Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:19:58.229Z",
+      "page": false
     }
   },
   "input_hash": "ef658b29998e625f572efecf36d68bc12eebe8fa",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ef658b29998e625f572efecf36d68bc12eebe8fa"
+  "output_hash": "daf6a3991ad12bbd86ec75d8b9e7dd486090fb529bde71c4ae916d58ef0cb707"
 }
