@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/power-pages-on-virtual-tables-overview",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0c12eb0055d7f9fe78b07e3062272d8996000d01",
       "words": 3215,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:48.535Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007028
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:48.558Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:48.558Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:48.559Z",
+      "page": false
     }
   },
   "input_hash": "0c12eb0055d7f9fe78b07e3062272d8996000d01",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0c12eb0055d7f9fe78b07e3062272d8996000d01"
+  "output_hash": "0745d26e5787ba155cdee1c12ad1f73d2e73b85881f8601cc013fbad98a11dee"
 }

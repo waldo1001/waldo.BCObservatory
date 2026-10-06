@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-hotfixing-appsource-app",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a203b04503e8f5ac3af02582a43334eae16b1a51",
       "words": 1722,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:37.711Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00341
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:37.753Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:37.754Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:37.755Z",
+      "page": false
     }
   },
   "input_hash": "a203b04503e8f5ac3af02582a43334eae16b1a51",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a203b04503e8f5ac3af02582a43334eae16b1a51"
+  "output_hash": "a11dad944eb1c79d290c2d62e17f91d7f9409ee9e753f700d2675cdd63066f33"
 }

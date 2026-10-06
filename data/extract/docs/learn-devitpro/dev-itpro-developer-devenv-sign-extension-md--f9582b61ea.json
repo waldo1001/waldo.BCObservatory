@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-sign-extension.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-sign-extension",
+  "title": "Sign an app package file",
+  "blob": "c6fb2009af492f82aa43311a602defedd6a4bcb4",
+  "summary": "Sign an app package file explains code signing for Business Central extensions using Azure Key Vault (for certificates issued after June 1, 2023) or PFX files, including certificate requirements, signing procedures with the dotnet sign tool, and self-signed certificate creation for local testing.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "code signing",
+    "certificate management",
+    "azure key vault",
+    "app package",
+    "authenticode",
+    "signtool"
+  ],
+  "objects": [],
+  "features": [
+    "Azure Key Vault signing",
+    "PFX file signing",
+    "Hardware Security Modules",
+    "self-signed certificates",
+    "time stamping",
+    "managed identity",
+    "service principal"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007028,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/get-started",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0310a5a6b5ba7cd441472cb5d61880ed28a3ad42",
       "words": 962,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:48.536Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004625
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:48.560Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:48.561Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:48.562Z",
+      "page": false
     }
   },
   "input_hash": "0310a5a6b5ba7cd441472cb5d61880ed28a3ad42",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0310a5a6b5ba7cd441472cb5d61880ed28a3ad42"
+  "output_hash": "63459385c6a0b519f6411e6eb7cce1a0fa383cc17d249693bc0b032889bbf4bd"
 }

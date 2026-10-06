@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-move-table-fields-between-extensions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-move-table-fields-between-extensions",
+  "title": "Moving tables and fields between extensions",
+  "blob": "a6c7c3b41cee82c5c4adc2583869dfe883e510f3",
+  "summary": "Moving tables and fields between extensions describes the controlled process for transferring ownership of tables and fields between extensions using MovedTo and MovedFrom properties, including staged moves to handle breaking changes and data migration starting from 2025 release wave 1.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "table ownership",
+    "field movement",
+    "breaking changes",
+    "extension refactoring",
+    "data migration",
+    "dependency management"
+  ],
+  "objects": [],
+  "features": [
+    "MovedTo property",
+    "MovedFrom property",
+    "ObsoleteState property",
+    "PropagateDependency setting",
+    "staged moves",
+    "synthetic relations"
+  ],
+  "versions": [
+    "2025 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007028,
+      "pages_in_call": 7
+    }
+  ]
+}

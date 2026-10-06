@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-move-table-fields-between-extensions",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a6c7c3b41cee82c5c4adc2583869dfe883e510f3",
       "words": 1563,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:48.529Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007028
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:48.541Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:48.542Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:48.544Z",
+      "page": false
     }
   },
   "input_hash": "a6c7c3b41cee82c5c4adc2583869dfe883e510f3",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a6c7c3b41cee82c5c4adc2583869dfe883e510f3"
+  "output_hash": "8ac592ddf2d280bde9beb67ce39af4fc1acf28665b63e07d7df8a8b6973cc9dd"
 }

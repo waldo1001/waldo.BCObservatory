@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-code-sign",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "34dc78fcbc76506bf1cf9cb0a564695634d11795",
       "words": 257,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:37.699Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00341
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:37.723Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:37.725Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:37.726Z",
+      "page": false
     }
   },
   "input_hash": "34dc78fcbc76506bf1cf9cb0a564695634d11795",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "34dc78fcbc76506bf1cf9cb0a564695634d11795"
+  "output_hash": "7a5a2f15f2b965786a3a8e3da4a1810e2b1fef878bfe3b8a6efb2e5a15715d77"
 }

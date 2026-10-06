@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-runtime-packages",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f79d6c4fa8310c689f79ffd58e02ed620b689c3c",
       "words": 536,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:37.708Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00341
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:37.740Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:37.744Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:37.746Z",
+      "page": false
     }
   },
   "input_hash": "f79d6c4fa8310c689f79ffd58e02ed620b689c3c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f79d6c4fa8310c689f79ffd58e02ed620b689c3c"
+  "output_hash": "d387e410cf06a7d46a8ccd6d9177b87181493a8867096c2b88350cb0b769b152"
 }

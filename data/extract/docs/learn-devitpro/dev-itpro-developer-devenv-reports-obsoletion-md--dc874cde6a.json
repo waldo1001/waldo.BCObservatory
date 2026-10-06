@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-reports-obsoletion.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-obsoletion",
+  "title": "Obsoleting reports",
+  "blob": "c2361a1c801b383fc7dac7d1405a03ae3d096982",
+  "summary": "Obsoleting reports provides guidance for deprecating reports in Marketplace apps and per-tenant extensions using ObsoleteReason, ObsoleteTag, and ObsoleteState properties, layout-level obsolescence (from 2025 release wave 1), and communicating deprecation through captions, search terms, and help content.",
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "report deprecation",
+    "layout obsoletion",
+    "tell-me search",
+    "request page",
+    "teaching tips",
+    "report telemetry"
+  ],
+  "objects": [],
+  "features": [
+    "ObsoleteReason property",
+    "ObsoleteTag property",
+    "ObsoleteState property",
+    "layout-level obsolescence",
+    "Caption property",
+    "AdditionalSearchTerms property",
+    "AboutTitle property",
+    "AboutText property"
+  ],
+  "versions": [
+    "2025 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007028,
+      "pages_in_call": 7
+    }
+  ]
+}

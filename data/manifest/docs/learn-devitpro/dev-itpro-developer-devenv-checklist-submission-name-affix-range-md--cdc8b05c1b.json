@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-name-affix-range",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "60da1164fb99361a11afc14f611003ddc7d0731a",
       "words": 365,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:37.703Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00341
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:37.731Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:37.732Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:37.734Z",
+      "page": false
     }
   },
   "input_hash": "60da1164fb99361a11afc14f611003ddc7d0731a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "60da1164fb99361a11afc14f611003ddc7d0731a"
+  "output_hash": "4857d4dce51322ea04ce8dd3726f8580357aabbf116d98501458fa5893be70a9"
 }

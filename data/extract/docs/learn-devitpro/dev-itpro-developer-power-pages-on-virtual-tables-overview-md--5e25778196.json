@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/power-pages-on-virtual-tables-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/power-pages-on-virtual-tables-overview",
+  "title": "Power Pages on virtual tables",
+  "blob": "0c12eb0055d7f9fe78b07e3062272d8996000d01",
+  "summary": "Power Pages on virtual tables (preview) enables unlicensed external users to access Business Central online data through Power Pages portals operating on Dataverse virtual tables, with support for anonymous and authenticated access, synthetic relations, and list/subgrid editing from 2023 release wave 2.",
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "virtual tables",
+    "dataverse",
+    "power pages",
+    "external users",
+    "b2b portals",
+    "data virtualization",
+    "authenticated access"
+  ],
+  "objects": [],
+  "features": [
+    "anonymous access",
+    "authenticated access",
+    "synthetic relations",
+    "lookup columns",
+    "basic forms",
+    "grid configuration",
+    "subgrid editing",
+    "Business Central Virtual Table app"
+  ],
+  "versions": [
+    "2023 release wave 2",
+    "version 23.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007028,
+      "pages_in_call": 7
+    }
+  ]
+}

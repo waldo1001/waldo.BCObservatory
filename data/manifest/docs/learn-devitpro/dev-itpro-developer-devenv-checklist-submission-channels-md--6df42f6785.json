@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-channels",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "546d67bd4a21214eb02d03e1fd4a9d6dea11544a",
       "words": 326,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:37.698Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00341
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:37.714Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:37.718Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:37.721Z",
+      "page": false
     }
   },
   "input_hash": "546d67bd4a21214eb02d03e1fd4a9d6dea11544a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "546d67bd4a21214eb02d03e1fd4a9d6dea11544a"
+  "output_hash": "c6a965a53ce7a8ba1bb509f36e7f988b861291139f21a8a3250a4f1b8aa8596c"
 }

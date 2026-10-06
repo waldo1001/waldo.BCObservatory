@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-security-settings-and-ip-protection.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-security-settings-and-ip-protection",
+  "title": "Resource exposure policy setting",
+  "blob": "5287dcf7d2ad04c64f73f458e1fdf57c9041bde3",
+  "summary": "Resource exposure policy setting describes IP protection for extensions through resourceExposurePolicy properties (allowDebugging, allowDownloadingSource, includeSourceInSymbolFile, applyToDevExtension) and dynamic policy override using Azure Key Vault for time-limited access to source code.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "ip protection",
+    "resource exposure",
+    "code signing",
+    "key vault",
+    "debugging",
+    "source code access"
+  ],
+  "objects": [],
+  "features": [
+    "resourceExposurePolicy setting",
+    "allowDebugging property",
+    "allowDownloadingSource property",
+    "includeSourceInSymbolFile property",
+    "applyToDevExtension property",
+    "NonDebuggable attribute",
+    "BC-ResourceExposurePolicy-Overrides secret",
+    "Go to Definition",
+    "Designer access"
+  ],
+  "versions": [
+    "2021 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007028,
+      "pages_in_call": 7
+    }
+  ]
+}

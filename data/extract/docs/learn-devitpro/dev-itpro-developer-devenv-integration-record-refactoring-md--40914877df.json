@@ -1,0 +1,74 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-integration-record-refactoring.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-integration-record-refactoring",
+  "title": "Integration Management Refactoring Guidance",
+  "blob": "4dbcb841673cd7031f12042e76e88ece7a2b697e",
+  "summary": "Integration Management Refactoring Guidance explains how to replace legacy integration records with system fields (SystemId, SystemCreatedAt, SystemCreatedBy, SystemModifiedAt, SystemModifiedBy, SystemRowVersion) in Business Central extensions, improving performance, reducing table sizes, and enabling better audit trails before the removal in 2023 release wave 1.",
+  "systems": [
+    "development",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "system fields",
+    "integration records",
+    "audit tracking",
+    "extension refactoring",
+    "performance optimization"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Integration Record"
+    },
+    {
+      "type": "table",
+      "name": "Integration Record Archive"
+    },
+    {
+      "type": "table",
+      "name": "Ext Txt ID Integration Record"
+    },
+    {
+      "type": "codeunit",
+      "name": "Integration Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "Integration Service"
+    },
+    {
+      "type": "codeunit",
+      "name": "Integration Management Setup"
+    },
+    {
+      "type": "codeunit",
+      "name": "GlobalTriggerManagement"
+    }
+  ],
+  "features": [
+    "SystemId field",
+    "SystemCreatedAt field",
+    "SystemCreatedBy field",
+    "SystemModifiedAt field",
+    "SystemModifiedBy field",
+    "SystemRowVersion field",
+    "change log",
+    "API pages with ODataKeyFields"
+  ],
+  "versions": [
+    "2023 release wave 1",
+    "version 22.0",
+    "version 15.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007028,
+      "pages_in_call": 7
+    }
+  ]
+}

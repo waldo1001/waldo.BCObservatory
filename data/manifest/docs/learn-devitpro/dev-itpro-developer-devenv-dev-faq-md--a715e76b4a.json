@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dev-faq",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "12ed2bb2cdf85cd89cbad1a68915edaabd49e308",
       "words": 470,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:37.710Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00341
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:37.748Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:37.750Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:37.752Z",
+      "page": false
     }
   },
   "input_hash": "12ed2bb2cdf85cd89cbad1a68915edaabd49e308",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "12ed2bb2cdf85cd89cbad1a68915edaabd49e308"
+  "output_hash": "bf615dadd710958d36a579686d03b488c1bc7ff1856ead6217972fae4da00ec1"
 }

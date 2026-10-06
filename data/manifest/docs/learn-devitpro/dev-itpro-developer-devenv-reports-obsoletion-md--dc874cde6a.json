@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-obsoletion",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c2361a1c801b383fc7dac7d1405a03ae3d096982",
       "words": 555,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:48.531Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007028
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:48.545Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:48.546Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:48.547Z",
+      "page": false
     }
   },
   "input_hash": "c2361a1c801b383fc7dac7d1405a03ae3d096982",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c2361a1c801b383fc7dac7d1405a03ae3d096982"
+  "output_hash": "3a9f0e9f2a8bb922c4567644e28e1d7466821ade4e3019eaa6cfec06ec94d82d"
 }

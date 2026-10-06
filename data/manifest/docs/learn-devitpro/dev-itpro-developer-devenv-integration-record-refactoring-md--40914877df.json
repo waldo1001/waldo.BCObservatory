@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-integration-record-refactoring",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4dbcb841673cd7031f12042e76e88ece7a2b697e",
       "words": 874,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:46.782Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.007028
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:48.538Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:48.539Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:48.540Z",
+      "page": false
     }
   },
   "input_hash": "4dbcb841673cd7031f12042e76e88ece7a2b697e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4dbcb841673cd7031f12042e76e88ece7a2b697e"
+  "output_hash": "6aa6252baa90b160777df662fe09424381314cb7a00bdccafb2ede9bc090d688"
 }

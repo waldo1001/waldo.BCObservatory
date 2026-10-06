@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-sandbox-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview",
+  "title": "Sandbox environments for Dynamics 365 Business Central development",
+  "blob": "501fa5d5b5a22032e92fe2be623d5446be6bed5b",
+  "summary": "Sandbox environments for Business Central development compares online sandboxes (managed by Microsoft) and container sandboxes (hosted on Azure VM or on-premises) for AL development, including capabilities, deployment options, and access to tools like Visual Studio Code, Designer, and C/SIDE.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "sandbox environments",
+    "development setup",
+    "container sandbox",
+    "online sandbox",
+    "visual studio code",
+    "designer"
+  ],
+  "objects": [],
+  "features": [
+    "Online Sandbox deployment",
+    "Container Sandbox deployment",
+    "production data upload",
+    "Designer functionality",
+    "debugging",
+    "database access",
+    "Marketplace extensions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007028,
+      "pages_in_call": 7
+    }
+  ]
+}

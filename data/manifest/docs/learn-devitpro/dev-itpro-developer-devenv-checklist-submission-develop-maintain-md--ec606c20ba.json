@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-develop-maintain",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "73625ad7f2881ed51fa68f4c02bf513f0241a5f3",
       "words": 137,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:37.701Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00341
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:37.728Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:37.729Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:37.730Z",
+      "page": false
     }
   },
   "input_hash": "73625ad7f2881ed51fa68f4c02bf513f0241a5f3",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "73625ad7f2881ed51fa68f4c02bf513f0241a5f3"
+  "output_hash": "6520910fa6c8c964f8efa1de70cf99e1aeb2ae928e131e30f9da6b6509e139c9"
 }
