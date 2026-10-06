@@ -1,0 +1,606 @@
+{
+  "video_id": "dD_2NEs3A40",
+  "item_id": "video/yt-microsoft/dD_2NEs3A40",
+  "title": "What's New: Project Management (2024 release wave 1)",
+  "duration_s": 1410,
+  "systems": [
+    "projects",
+    "assembly",
+    "warehouse"
+  ],
+  "topics": [
+    "terminology change",
+    "location code initialization",
+    "bom explosion",
+    "archive projects",
+    "assembly-to-order",
+    "quantity to assemble",
+    "assembly policy",
+    "warehouse picks",
+    "multi-customer invoicing",
+    "project task card",
+    "price updates",
+    "invoicing flexibility"
+  ],
+  "chapters": [
+    {
+      "title": "Projects terminology change and UX improvements",
+      "t_start": 0,
+      "t_end": 151.2
+    },
+    {
+      "title": "Project lines, location initialization, and BOM explosion",
+      "t_start": 151.2,
+      "t_end": 278
+    },
+    {
+      "title": "Project archiving and assembly-to-order overview",
+      "t_start": 278,
+      "t_end": 393.3
+    },
+    {
+      "title": "Assembly-to-order with quantity to assemble",
+      "t_start": 393.3,
+      "t_end": 547
+    },
+    {
+      "title": "Item ledger entries and advanced assembly scenarios",
+      "t_start": 547,
+      "t_end": 678.5
+    },
+    {
+      "title": "Warehouse handling and pick documents",
+      "t_start": 678.5,
+      "t_end": 789.1
+    },
+    {
+      "title": "Assembly posting and multiple customer invoicing",
+      "t_start": 789.1,
+      "t_end": 921.8
+    },
+    {
+      "title": "Multiple billing configuration and price updates",
+      "t_start": 921.8,
+      "t_end": 1027.4
+    },
+    {
+      "title": "Project task card and settings",
+      "t_start": 1027.4,
+      "t_end": 1129.5
+    },
+    {
+      "title": "Project invoicing and multi-project billing",
+      "t_start": 1129.5,
+      "t_end": 1319.6
+    },
+    {
+      "title": "Summary and additional features",
+      "t_start": 1319.6,
+      "t_end": 1410
+    }
+  ],
+  "features": [
+    {
+      "name": "Jobs renamed to Projects",
+      "description": "The term Jobs has been changed to Projects throughout the user interface. The system maintains backward compatibility in search terms so users can still search for Job and be directed to the new Project functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 63.9,
+      "t_end": 151.2,
+      "is_demoed": true,
+      "caveats": [
+        "Backward search compatibility maintained for existing users",
+        "Some localizations already use Project terminology"
+      ],
+      "tags": [
+        "terminology",
+        "ux",
+        "backward-compatibility"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Project details box visible by default",
+      "description": "A project details box is now visible by default on the project list and can be customized via personalization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 151.2,
+      "t_end": 165.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "personalization"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Power BI reports in Project list",
+      "description": "Power BI reports can be displayed directly in the project list page if available.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 165.8,
+      "t_end": 178.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reporting",
+        "power-bi"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Location code initialization in project task lines",
+      "description": "When creating new project task lines, the location code from the project is automatically initialized in the lines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 211.9,
+      "t_end": 234.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires location code to be set on the project"
+      ],
+      "tags": [
+        "warehouse",
+        "location",
+        "automation"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Budget and posting date copying in project lines",
+      "description": "Budget document number and posting dates are automatically copied from the previous line when adding new project task lines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 250.3,
+      "t_end": 264,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "automation",
+        "project-lines"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "BOM explosion in projects",
+      "description": "Project task lines can use BOM explosion to replace assembly items with their components, with quantities calculated correctly based on the original item quantity. Same functionality available in sales and recently added to transfer orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 268.7,
+      "t_end": 298.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "bom",
+        "assembly",
+        "automation"
+      ],
+      "system": "assembly"
+    },
+    {
+      "name": "Archive projects",
+      "description": "A new Archive Projects function allows creating archive versions of projects to track how they evolve over time. Archived versions can be restored.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 298.6,
+      "t_end": 366.9,
+      "is_demoed": true,
+      "caveats": [
+        "Some limitations on what can be restored are documented in release notes"
+      ],
+      "tags": [
+        "archiving",
+        "versioning"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Assembly-to-order in projects",
+      "description": "Projects support assembly-to-order scenario where huge, custom items can have sub-components delivered as assemblies. A quantity to assemble field works similar to sales orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 385.7,
+      "t_end": 454.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "assembly-to-order",
+        "engineering",
+        "custom-items"
+      ],
+      "system": "assembly"
+    },
+    {
+      "name": "Assembly policy setting in projects",
+      "description": "Project assembly lines respect the assembly policy setting (assemble-to-order or assemble-to-stock) from the item card, controlling whether quantity to assemble is populated and when assembly orders are created.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 434.6,
+      "t_end": 489.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "assembly-policy",
+        "assembly-to-stock",
+        "assembly-to-order"
+      ],
+      "system": "assembly"
+    },
+    {
+      "name": "Inventory and pick warehousing for assembly",
+      "description": "Projects support both inventory put-away and pick documents for assembly scenarios, depending on location configuration. Users can configure locations to use either inventory or picks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 614.4,
+      "t_end": 663.6,
+      "is_demoed": true,
+      "caveats": [
+        "Locations configured for picks have limitations on quantity options",
+        "Cannot always use non-original quantities with picks"
+      ],
+      "tags": [
+        "warehouse",
+        "picks",
+        "put-away",
+        "assembly"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Warehouse pick creation for assembly",
+      "description": "For assembly scenarios in warehouse locations, pick documents can be created to pick components needed for assembly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 663.6,
+      "t_end": 745.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "warehouse",
+        "picks",
+        "assembly"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Multiple Customer Billing",
+      "description": "New setting to configure billing per project task rather than just per project, allowing more granular billing to different participants. Cannot switch back from multiple to one customer once enabled.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 847.6,
+      "t_end": 952.6,
+      "is_demoed": true,
+      "caveats": [
+        "Cannot switch back from multiple to one customer once enabled",
+        "No synchronization from header to lines"
+      ],
+      "tags": [
+        "billing",
+        "project-task",
+        "multi-customer"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Price Updates for Different Billing Customers",
+      "description": "System automatically recalculates prices when the billing customer is changed for a project line.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 972.8,
+      "t_end": 1007.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pricing",
+        "billing",
+        "automation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Project Task Card",
+      "description": "New card interface attached to each project task showing details like sell-to customer, external document number, location code, billing customer, payment terms, method, and currency.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1027.4,
+      "t_end": 1129.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "project-task",
+        "card-interface",
+        "metadata"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Currency Handling in Project Invoicing",
+      "description": "Project invoicing considers currency specified per project task and converts prices accordingly, with currency defined per project.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1109.4,
+      "t_end": 1193,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "currency",
+        "invoicing",
+        "pricing"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Get Project Planning Lines Function",
+      "description": "Function to retrieve project planning lines from multiple projects into a single invoice, allowing bulk selection and addition of lines from different projects.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1236.1,
+      "t_end": 1309.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "invoicing",
+        "multi-project",
+        "project-planning"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Assemble to Projects",
+      "description": "Assembly functionality now works with projects similar to sales, providing flexibility for assembly-to-order scenarios in project context.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1339.9,
+      "t_end": 1360.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "assembly",
+        "project",
+        "assemble-to-order"
+      ],
+      "system": "assembly"
+    },
+    {
+      "name": "Service Area Improvements",
+      "description": "Improvements made to the service area functionality in this release wave.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1380.4,
+      "t_end": 1402.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "service",
+        "improvements"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Field Service Integration",
+      "description": "Field Service integration is now available for projects.",
+      "status": "ga",
+      "status_evidence_t": 1380.4,
+      "status_evidence_quote": "we also have a Field Service integration Now available As well",
+      "status_evidence_verified": true,
+      "t_start": 1380.4,
+      "t_end": 1402.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "field-service",
+        "integration"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Timesheet and Data Entry Improvements",
+      "description": "Group of improvements related to timesheet and data entry functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1380.4,
+      "t_end": 1402.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "timesheet",
+        "data-entry"
+      ],
+      "system": "projects"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Project Manager rolet Center",
+      "t": 83
+    },
+    {
+      "type": "page",
+      "name": "Project list",
+      "t": 151.2
+    },
+    {
+      "type": "page",
+      "name": "Project Card",
+      "t": 186.7
+    },
+    {
+      "type": "page",
+      "name": "Project setup",
+      "t": 888.9
+    },
+    {
+      "type": "page",
+      "name": "Project Task Card",
+      "t": 1047.5
+    },
+    {
+      "type": "other",
+      "name": "Get Project planning Lines",
+      "t": 1236.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Andre",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 52.4,
+      "text": "We are changing name From Jobs to Projects and for some localizations It's a noticeable change others Will not notice it",
+      "why_it_matters": "Explains the terminology shift and its impact varies by localization",
+      "check": "exact"
+    },
+    {
+      "t": 123.7,
+      "text": "Keep some backward capabilities at least in the Search terms Let's Go Here and search for Job",
+      "why_it_matters": "Shows backward compatibility maintained for existing users accustomed to Job terminology",
+      "check": "exact"
+    },
+    {
+      "t": 311.6,
+      "text": "new function Archive Projects which can Create Archive version for I will cck and Here can number have archived versions",
+      "why_it_matters": "Introduces archive capability for tracking project evolution and restoration",
+      "check": "exact"
+    },
+    {
+      "t": 385.7,
+      "text": "assembly Pro of used in the engineer to Order scenar When You Need to Build huge and is like Very Very Custom",
+      "why_it_matters": "Describes assembly-to-order usage in engineering scenarios with custom items",
+      "check": "exact"
+    },
+    {
+      "t": 434.6,
+      "text": "Because This specific item is configured to use assembly policy AS assemble to Order quantity to assemble gets populated immediately",
+      "why_it_matters": "Shows how assembly policy setting controls automatic population of quantity to assemble",
+      "check": "exact"
+    },
+    {
+      "t": 628.3,
+      "text": "for inventory I can also do different quantity and quantity to assemble But not forare PE for peak",
+      "why_it_matters": "Documents configuration differences between inventory and pick-based locations",
+      "check": "exact"
+    },
+    {
+      "t": 872.8,
+      "text": "to do it more granular so for example we want to do it per per task and in this case we have",
+      "why_it_matters": "Introduces multiple customer setting for more granular per-task invoicing",
+      "check": "fuzzy"
+    },
+    {
+      "t": 872.8,
+      "text": "we have a new setting multiple customer which you can also default in the Project setup",
+      "why_it_matters": "Introduces new granular billing capability allowing billing per project task instead of per project only.",
+      "check": "exact"
+    },
+    {
+      "t": 932.5,
+      "text": "I cannot Switch back for multiple to one customer and there is also no synchronization From the header to Lines",
+      "why_it_matters": "Important limitation: once multiple customer billing is enabled, it cannot be disabled, and manual synchronization is required.",
+      "check": "exact"
+    },
+    {
+      "t": 972.8,
+      "text": "Prices Get updated so Now Price is actually 222 Because Now we have a different billing customer",
+      "why_it_matters": "Shows automatic price recalculation when billing customer changes based on pricing rules.",
+      "check": "exact"
+    },
+    {
+      "t": 1027.4,
+      "text": "card which is Now attached to the each Pro TAS can butt View and edil cck and it op The Project Task Card",
+      "why_it_matters": "New Project Task Card provides detailed configuration and editing capabilities at the task level.",
+      "check": "snapped"
+    },
+    {
+      "t": 1289.5,
+      "text": "This combination to bu To and empty currency is More popular and used in More Demo Projects",
+      "why_it_matters": "Indicates the most common project invoicing pattern used in demonstrations and typical scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 1319.6,
+      "text": "you can use other functionality familiar by sales Area such As Select Items explode Bomb archiving orders",
+      "why_it_matters": "Projects now leverage existing sales functionality like item selection, BOM explosion, and archiving.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 366.9,
+      "kind": "other",
+      "text": "limitations of What We Can and cannot Restore in the documentation and the Release Notes"
+    },
+    {
+      "t": 648.4,
+      "kind": "other",
+      "text": "I can Here beware limitation If can always"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 13,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 19
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027032
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021476000000000002
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02464
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/instant-flows",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "23aa760ecde0bc93a4af66cc758eb94ee28f012e",
       "words": 2817,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:44:35.362Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004699
     }
   },
   "input_hash": "23aa760ecde0bc93a4af66cc758eb94ee28f012e",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "23aa760ecde0bc93a4af66cc758eb94ee28f012e"
+  "output_hash": "e668f75de71a7f7ebaab8aabde827b1025f782bcb6929850f3b1c5571f6993d9"
 }

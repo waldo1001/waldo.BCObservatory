@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/api-reference/v2.0/dynamics-rate-limits.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-rate-limits",
+  "title": "Working with API Limits in Dynamics 365 Business Central",
+  "blob": "f72b9e7f2fa07630acb339adb0eb727cce8bc906",
+  "summary": "API rate limits and throttling handling for Business Central web services, explaining HTTP 429 and 504 responses, retry strategies, and techniques to reduce API calls like webhooks, filtering, batching, and deep inserts.",
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "api rate limits",
+    "throttling",
+    "retry logic",
+    "odata",
+    "webhook",
+    "api performance"
+  ],
+  "objects": [],
+  "features": [
+    "rate limiting",
+    "HTTP 429 throttling",
+    "HTTP 504 timeout",
+    "exponential backoff",
+    "webhooks",
+    "odata batching",
+    "filtering",
+    "expand",
+    "deep inserts"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004076,
+      "pages_in_call": 8
+    }
+  ]
+}

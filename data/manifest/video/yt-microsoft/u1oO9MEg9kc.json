@@ -5,12 +5,39 @@
   "tier": "official",
   "title": "What's New: Financial Management - G/L Account Revaluations (2024 release wave 1)",
   "url": "https://www.youtube.com/watch?v=u1oO9MEg9kc",
-  "published_at": null,
+  "published_at": "2024-04-04T13:30:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:44:38.313Z",
+      "captions": "auto:en-orig",
+      "duration_s": 796
+    },
+    "captioned": {
+      "at": "2026-10-06T19:44:46.425Z",
+      "path": "data/captions/microsoft/u1oO9MEg9kc.vtt",
+      "vtt_sha256": "9be3e3528ea27262a8b43d587d60c8adeee5d0618ffd8cd88f56f37d57913ba6",
+      "segments": 46,
+      "words": 1931,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:45:13.422Z",
+      "path": "data/extract/video/u1oO9MEg9kc.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 7,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.024885
     }
   },
   "input_hash": null,
@@ -20,6 +47,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 428,
     "duration_s": 796,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b0eec6b99600b3fe04ff980d1c66fb325a053dacecc1d515753380b549222fe7"
 }

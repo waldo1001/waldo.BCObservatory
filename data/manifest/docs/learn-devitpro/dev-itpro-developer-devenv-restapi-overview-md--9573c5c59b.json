@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-restapi-overview",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "22102fc2dc373bc53f611882f3b5a40fcddf3d5f",
       "words": 308,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:44:35.359Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004699
+    },
+    "summarized": {
+      "at": "2026-10-06T19:44:35.366Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:44:35.367Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:44:35.368Z",
+      "page": false
     }
   },
   "input_hash": "22102fc2dc373bc53f611882f3b5a40fcddf3d5f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "22102fc2dc373bc53f611882f3b5a40fcddf3d5f"
+  "output_hash": "7dcd8b2a8d4a94a220c20e7b60d79f01f4b4743517d1d27a6b6bc8a5ddcf9e3c"
 }

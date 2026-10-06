@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/integration-infrastructure-overview",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "255095612b08c171da27fdc100e57548b26e14e1",
       "words": 379,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:44:35.360Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004699
     }
   },
   "input_hash": "255095612b08c171da27fdc100e57548b26e14e1",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "255095612b08c171da27fdc100e57548b26e14e1"
+  "output_hash": "f42d7a5907e0345c40f8b0767d921032855a4daa560255cddf908d3b184acc93"
 }

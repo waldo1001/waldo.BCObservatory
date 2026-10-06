@@ -1,0 +1,291 @@
+{
+  "video_id": "u1oO9MEg9kc",
+  "item_id": "video/yt-microsoft/u1oO9MEg9kc",
+  "title": "What's New: Financial Management - G/L Account Revaluations (2024 release wave 1)",
+  "duration_s": 796,
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "gl account revaluation",
+    "currency revaluation",
+    "exchange rate adjustments",
+    "monetary assets",
+    "unrealized gains and losses",
+    "multi-currency accounting",
+    "balance adjustments",
+    "feature management"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Feature Overview",
+      "t_start": 0,
+      "t_end": 81.9
+    },
+    {
+      "title": "Enabling GL Currency Revaluation and Setting Up Accounts",
+      "t_start": 81.9,
+      "t_end": 164.7
+    },
+    {
+      "title": "Single Currency Scenario - Euro Loan Adjustment",
+      "t_start": 164.7,
+      "t_end": 267.8
+    },
+    {
+      "title": "Review of Entries and Multiple Currency Setup",
+      "t_start": 267.8,
+      "t_end": 335.2
+    },
+    {
+      "title": "Configuring Multiple Currencies on GL Account",
+      "t_start": 335.2,
+      "t_end": 457.6
+    },
+    {
+      "title": "Multiple Currency Scenario - Canadian Dollar Adjustment",
+      "t_start": 457.6,
+      "t_end": 628.3
+    },
+    {
+      "title": "Comparing GL Revaluation with Standard Currency Adjustments",
+      "t_start": 628.3,
+      "t_end": 711
+    },
+    {
+      "title": "Key Differences and Recommendations",
+      "t_start": 711,
+      "t_end": 764.2
+    },
+    {
+      "title": "Conclusion and Feedback",
+      "t_start": 764.2,
+      "t_end": 796
+    }
+  ],
+  "features": [
+    {
+      "name": "Original Currency Code on GL Entry",
+      "description": "The ability to store and view the original currency code on GL entry records. This has been a top request for over 5 years with more than 500 votes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 32.4,
+      "t_end": 61.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "gl entry",
+        "currency",
+        "original currency code"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Control Posting of Currencies to GL",
+      "description": "Ability to control which currencies are allowed to be posted to a specific GL account, with options for single currency, multiple currencies, or any currency.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 61.6,
+      "t_end": 81.9,
+      "is_demoed": true,
+      "caveats": [
+        "Applies primarily to monetary assets, not typically to bank accounts, customer accounts, or vendor accounts"
+      ],
+      "tags": [
+        "currency control",
+        "posting rules",
+        "multi-currency"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "GL Account Revaluation",
+      "description": "A batch job that automatically creates adjustment entries to revalue balances in GL accounts based on currency exchange rate changes. Adjustments are made per balance per currency.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 61.6,
+      "t_end": 81.9,
+      "is_demoed": true,
+      "caveats": [
+        "Adjustments are per currency per balance, not per transaction",
+        "Different from standard currency exchange rate adjustments which work per customer/vendor",
+        "Should not be used for bank accounts, customer accounts, or vendor accounts as those have their own adjustment mechanisms"
+      ],
+      "tags": [
+        "revaluation",
+        "batch job",
+        "exchange rate",
+        "adjustment entries"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Enable Use of GL Currency Revaluation",
+      "description": "Feature management setting that enables the GL currency revaluation functionality on GL accounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 81.9,
+      "t_end": 92.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "feature management",
+        "setup",
+        "enable"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Multiple Currencies per GL Account",
+      "description": "Support for posting multiple different currencies to the same GL account. Users can configure allowed currencies through a related table Source currencies and specify blank, single currency, or multiple currencies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 314.8,
+      "t_end": 408.4,
+      "is_demoed": true,
+      "caveats": [
+        "For demo purposes only - recommendation is to use single currency per account",
+        "Must be configured per GL account"
+      ],
+      "tags": [
+        "multi-currency",
+        "currency control",
+        "source currencies"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Revaluation Account Configuration",
+      "description": "Ability to specify which GL account receives the revaluation adjustment entries, with options for unrealized or realized gains and losses accounts configured on the currency setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 408.4,
+      "t_end": 437.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "revaluation",
+        "gains and losses",
+        "account configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Enhanced Currency Exchange Rate Batch Job",
+      "description": "Batch job available in Currencies area that handles currency adjustments for customers, vendors, employees, and bank accounts. Can now adjust per entry instead of just per customer/vendor.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 649.9,
+      "t_end": 711,
+      "is_demoed": true,
+      "caveats": [
+        "This is a separate batch job from GL revaluation",
+        "Works per customer/vendor/employee/bank account, not per GL balance"
+      ],
+      "tags": [
+        "batch job",
+        "currency exchange",
+        "customer vendor",
+        "per entry"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Source currencies",
+      "t": 368.1
+    },
+    {
+      "type": "page",
+      "name": "chart of accounts",
+      "t": 92.3
+    },
+    {
+      "type": "other",
+      "name": "GL entry",
+      "t": 44.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Brian Nelson",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 44.5,
+      "text": "it has probably more than 500 votes and we've thought about it for a long time and in this release uh you will get",
+      "why_it_matters": "Confirms this is a generally available feature in this release, fulfilling a high-demand customer request from BC Ideas.",
+      "check": "exact"
+    },
+    {
+      "t": 61.6,
+      "text": "you will also be able to control the posting of currencies to G which currencies you want to allow posting for and then whether",
+      "why_it_matters": "Describes the core capabilities of GL currency control and per-account revaluation setup.",
+      "check": "exact"
+    },
+    {
+      "t": 81.9,
+      "text": "you need to turn it on in feature management it's called enable a use of GL currency revaluation",
+      "why_it_matters": "Specifies that the feature must be enabled through feature management before use.",
+      "check": "exact"
+    },
+    {
+      "t": 300.4,
+      "text": "we adjust the balance per currency it's not adjustment for each of the entries",
+      "why_it_matters": "Clarifies a key design difference between GL revaluation and other adjustment methods - it's per balance, not per transaction.",
+      "check": "exact"
+    },
+    {
+      "t": 649.9,
+      "text": "revaluation is done for bank accounts for customers and vendors so it the same goes with your account paybl and account receivables account uh",
+      "why_it_matters": "Establishes which accounts should not use GL revaluation and why - those have their own separate adjustment mechanisms.",
+      "check": "exact"
+    },
+    {
+      "t": 711,
+      "text": "for bank accounts we are still adjusting the uh the balance um you can now adjust per entry so it's not just per customer",
+      "why_it_matters": "Differentiates between standard currency adjustments (per entry capable) and GL revaluation (per balance only).",
+      "check": "exact"
+    },
+    {
+      "t": 731.6,
+      "text": "when you start using this new feature with GL revaluation you need to think about does that meet your reporting requirement if you need",
+      "why_it_matters": "Provides guidance on when to use GL revaluation versus other methods based on reporting requirements.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024885
+    }
+  ]
+}

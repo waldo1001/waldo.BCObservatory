@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v24",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "d75bc5d5c726d571db07bcdfd171a244aa6c85dc",
       "words": 560,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:44:47.722Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004076
     }
   },
   "input_hash": "d75bc5d5c726d571db07bcdfd171a244aa6c85dc",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d75bc5d5c726d571db07bcdfd171a244aa6c85dc"
+  "output_hash": "e35aef254a9fa8f2d6dff421720b2c946e450659b6cd7305dcd506a16b848a02"
 }

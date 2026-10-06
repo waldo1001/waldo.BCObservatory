@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/terms/lifecycle-policy-on-premises",
   "published_at": "2024-11-21T09:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "c816aa5b1ad1e39dbd06132b641f3a87869d61aa",
       "words": 406,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:44:35.365Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004699
     }
   },
   "input_hash": "c816aa5b1ad1e39dbd06132b641f3a87869d61aa",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c816aa5b1ad1e39dbd06132b641f3a87869d61aa"
+  "output_hash": "58f9f224835fc5fbe6324b5ee9e80c3ed6de2f9b1cec9d820c4c595b3590c319"
 }

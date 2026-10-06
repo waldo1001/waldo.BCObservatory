@@ -1,0 +1,27 @@
+{
+  "video_id": "dD_2NEs3A40",
+  "item_id": "video/yt-microsoft/dD_2NEs3A40",
+  "summary": "Project management changes in Business Central 2024 release wave 1: Jobs renamed to Projects, project archiving, BOM explosion and assembly-to-order in project lines, warehouse picks for assembly, multiple-customer billing per project task, the Project Task Card, and multi-project invoicing.",
+  "overview": "The video, published 2024-04-04 and 24 minutes long, walks through project management updates in the 2024 release wave 1. It starts with the Jobs-to-Projects rename and list page changes, then covers project task lines: location code initialization, copying of budget document number and posting date, and BOM explosion.\n\nIt then demos archiving projects and assembly-to-order in projects, including quantity to assemble, the item's assembly policy, and inventory versus pick handling. The second half covers billing: the multiple customer setting, price recalculation when the billing customer changes, the Project Task Card, currency handling, and the Get Project Planning Lines function for invoicing lines from several projects. Service area, Field Service integration and timesheet improvements are only listed in the closing summary.",
+  "key_points": [
+    "The term Jobs is now Projects in the UI. Searching for Job still leads to the Project functionality, and some localizations already used the Project term.",
+    "A project details box is visible by default on the project list and can be personalized. Power BI reports can also be shown in the list if available.",
+    "New project task lines take the location code from the project, and copy the budget document number and posting date from the previous line. BOM explosion replaces assembly items with components.",
+    "Archive Projects creates archived versions of a project that can be restored. Restore limitations are documented in the release notes.",
+    "Assembly-to-order in projects uses a quantity to assemble field and follows the item's assembly policy. With picks, quantity options are limited compared with inventory handling.",
+    "The Multiple Customer setting bills per project task and can be defaulted in Project setup. It cannot be switched back to one customer, and there is no synchronization from header to lines.",
+    "Changing the billing customer on a line recalculates the price. The Project Task Card shows billing customer, payment terms, payment method and currency, and Get Project Planning Lines pulls lines from several projects into one invoice."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "8f1308330321fd60073bd7892c4754c2a51f3d9510df2a1e0ff4b76a68b51d60",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.022256400000000003
+  }
+}

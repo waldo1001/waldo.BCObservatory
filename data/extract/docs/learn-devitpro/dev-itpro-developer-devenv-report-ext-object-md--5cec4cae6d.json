@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-report-ext-object.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-ext-object",
+  "title": "Report extension object",
+  "blob": "a325a146f61cf20af39cd93f8ad337328bd0d927",
+  "summary": "Report extension object documentation explaining how to extend existing reports by adding columns, data items, triggers, request page elements, and multiple report layouts in Business Central.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "report extension",
+    "extensible objects",
+    "report layouts",
+    "data items",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer - Top 10 List"
+    }
+  ],
+  "features": [
+    "report extension",
+    "extensible property",
+    "multiple report layouts",
+    "data item extension",
+    "trigger implementation",
+    "request page modification"
+  ],
+  "versions": [
+    "2022 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004076,
+      "pages_in_call": 8
+    }
+  ]
+}

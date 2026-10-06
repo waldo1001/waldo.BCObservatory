@@ -1,0 +1,301 @@
+{
+  "video_id": "gMyp9JkXf9g",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 16.7,
+      "end": 37.6,
+      "text": "hi and welcome to this session on what's new in Excel reports for finance and sales my name is Brian nilson I'm a program manager in business Central team with me I have Kenny yeah my name is Kenny pontop and I'm also a program manager in the business Central team and uh we have a exciting agenda for you today"
+    },
+    {
+      "t": 37.6,
+      "end": 57.6,
+      "text": "we've been uh looking forward to showing you the these new Excel reports that are coming in the Bas app and we'll show off uh some of the reports in the finance area and the sales area then U we'll also talk about upcoming reports that are coming in the next waves or next releases and then"
+    },
+    {
+      "t": 57.6,
+      "end": 78.1,
+      "text": "no business Central launch event without co-pilot so of course we'll demo some Excel co-pilot on business Central data but let's get started um first thing about reports is you need to discover where they are right so we have at least three ways for you to do that first of all on the accountant's"
+    },
+    {
+      "t": 78.1,
+      "end": 98.2,
+      "text": "um role Center under Excel report you can find these new they are marked with preview for now because we might have some design changes we want to do but they're fully functional should be um they would also appear on because they are on on the the role Center in the role Explorer or report Explorer so easiest"
+    },
+    {
+      "t": 98.2,
+      "end": 118.2,
+      "text": "thing I have is simply to search for preview um in the report Explorer and then they pop up here and then of course you can always use the tell me search and and they will also surface here but instead of seeing how to discover the reports maybe Brian we should take a look so what's"
+    },
+    {
+      "t": 118.2,
+      "end": 138.3,
+      "text": "new in finance what we have here yeah so for finance we have the trial balance based reports it's probably the first thing you want to uh to look at in Excel when you have a an Erp system um but if you if we take a look at at my system here where I"
+    },
+    {
+      "t": 138.3,
+      "end": 158.4,
+      "text": "have the reports you said the accountant role center it's actually also on the uh business manager role Center and of course you can find them in in tell me they are placed under reports for the business manager role Center we have all of them all in this release means we have eight of them the trial balances AG"
+    },
+    {
+      "t": 158.4,
+      "end": 178.6,
+      "text": "receivables age payables and the top list um in the accountant uh role Center uh we don't have the vendor uh reports anyway so let's take a a look at at the reports how they they look in Excel and for the trial balance based reports let's just look at"
+    },
+    {
+      "t": 178.6,
+      "end": 198.7,
+      "text": "the the trial balance when you select it you get the request page where you have a few filters um we Tred to make it as simple as possible so you won't see that many filters and parameters because you just want your data for a report and then you can refine it in Excel so in this case we'll just take the"
+    },
+    {
+      "t": 198.7,
+      "end": 219.4,
+      "text": "first three periods of data and then we download it and we can open it from our Explorer and continue in in Excel so let's look at at that in Excel you have some sheets in the Excel workbook the first one is obviously the trial balance that you would"
+    },
+    {
+      "t": 219.4,
+      "end": 239.8,
+      "text": "expect it is laid out as a report so that you can recognize that this is a trial balance you got your data that you uh selected in your request page you have some slicers for easy filtering if you want to uh dimensions and account categories are the ones that we put up as default you can put up more"
+    },
+    {
+      "t": 239.8,
+      "end": 259.9,
+      "text": "in some of the reports in this case it's local currency additional reporting currency two different reports they look very similar except at two different amount bases there will be Numbers demo data is a bit sparse but you'll find it here so you have a report that is laid out as something you could print so if you wanted a"
+    },
+    {
+      "t": 259.9,
+      "end": 280.6,
+      "text": "printed report or present it to somebody else instead of just a raw data you have a a template for it you can of course modify it you have the raw data and that means you can design your own reports you can use it to pivot table you can use it for charting you have the dimensions if you want to have some slices that make a lookup"
+    },
+    {
+      "t": 280.6,
+      "end": 300.8,
+      "text": "something like that but the base uh thing with with Excel report is you get your data but Excel has some limitations uh Excel cannot handle millions of rows so for the trial balance for the trial balance uh we have decided that the aggregation"
+    },
+    {
+      "t": 300.8,
+      "end": 321,
+      "text": "level is of course accounts the periods that you have selected so you don't have a daily uh total uh you just have for for the period but we have broken it down per Dimension values in this case where we have also included account categories there's a further uh breakdown there so you can have your slices and and do a bit of"
+    },
+    {
+      "t": 321,
+      "end": 341.4,
+      "text": "slicing and dicing on the data that you have selected there will be more reports where you have a a a finer grain of detail but you you will then have to limit what you extract to excel because we have an upper limit but we found out that when we're looking at data around at 100,000 rows is what"
+    },
+    {
+      "t": 341.4,
+      "end": 352.8,
+      "text": "is manageable uh performance- wise so aggregated data but it's still a lot more data than you have in a PDF"
+    },
+    {
+      "t": 352.8,
+      "end": 373,
+      "text": "report yeah the next set of reports so um next set is sales because not everyone is is a lot of Finance like you do Brian so maybe as a sales manager I want to contact some customers or maybe I want to see what they owe us uh with a accounts can you can we see some"
+    },
+    {
+      "t": 373,
+      "end": 393.1,
+      "text": "of what that could be used for for the sales manager yeah so uh where sales and and finance crosses borders is uh Ace account receivables uh we also included just for familiarity the customer top report and that is the a top list"
+    },
+    {
+      "t": 393.1,
+      "end": 404.7,
+      "text": "and because we are in Excel uh you can select it doesn't have to be top 10 it can be top 100 or just top three uh you can do a bit of more filtering and then download"
+    },
+    {
+      "t": 404.7,
+      "end": 424.7,
+      "text": "it the top report will then look like this it's a very simple report it is it is a very simple data set we thought that maybe you just wanted just to have a list of your your top customers sales or or balance-wise and we put in a chart that that's the most simple report"
+    },
+    {
+      "t": 424.7,
+      "end": 444.9,
+      "text": "you probably can get in um in business Central data a accountables is probably the together with payables the second most important set of reports you can have you can have an aging date uh end of March probably you want to do it by a due date the usual um period"
+    },
+    {
+      "t": 444.9,
+      "end": 465.2,
+      "text": "length and period count will take three periods and you can skip skip customers with hero balance you know that from the uh rdlc report and you can do a bit of filtering and you can download it again the first page the first tab in the spreadsheet is something that looks like um a printable report you can get"
+    },
+    {
+      "t": 465.2,
+      "end": 485.4,
+      "text": "you can move the slices a bit away you can move the the headers if you want a more condensed View and or if you have more periods you can extend it a bit but it's it looks printable and presentable we thought by period by local Curren C by the functional currency where you get the currency of the outstanding balance in our"
+    },
+    {
+      "t": 485.4,
+      "end": 502.8,
+      "text": "demo data there is only local currency but if there were more it would be a breakdown here we can have it due by currencies it's a different way of of looking at your data just to show that you now have data that you can slice and dice and present in a different way interactively"
+    },
+    {
+      "t": 502.8,
+      "end": 523,
+      "text": "again we have aggregated data uh in this report you don't get all of the detailed data you do get a detail per per customer per period uh and again you can see there's a breakdown in Dimensions um so if you want the finer grain of detail you will wait"
+    },
+    {
+      "t": 523,
+      "end": 543,
+      "text": "for some of the coming releases and I think Brian this also illustrates that the strength a couple of strengths for Excel reports like if you have a a traditional report that just give you one PDF first of all you cannot interact so the slicer part you can't do with PDF and getting the data set you can't"
+    },
+    {
+      "t": 543,
+      "end": 563.4,
+      "text": "do with PDF all the self-service for laying out the data you want is what Excel offers but also these different worksheets you actually have one report that covers three reports in a sense so ability on the same data set to to offer different views on data is where Excel really shines yeah"
+    },
+    {
+      "t": 563.4,
+      "end": 583.5,
+      "text": "yeah but Brian you also mentioned that we will have some on some upcoming uh reports so you mentioned eight is coming here in version 24 or in the release Wave 1 uh what else have you up your sleeve here so uh when we set out to do the Excel report we had a list of I think it was"
+    },
+    {
+      "t": 583.5,
+      "end": 603.5,
+      "text": "35 reports and then when you start looking at it some other Reports look similar so you include them in the list in this release in in in the first wave uh April wave we have released eight reports the trial balances and payables and receivables and the top reports we want to include uh more"
+    },
+    {
+      "t": 603.5,
+      "end": 623.8,
+      "text": "Finance reports the consolidation reports the uh closing trial balances uh we want to include more reports for customers and vendors the balance to dat reports where you will get the customer and vendor Ledger entries uh and if you filter so you have for example last year which hopefully"
+    },
+    {
+      "t": 623.8,
+      "end": 644,
+      "text": "it's not 100,000 for whatever segment you're interested in you have your customer and vendor detail Ledger entries sorry not the detail Ledger entries but The Ledger entries where you can create reports that have a finer granularity than the aceables and payables report and then we move on to uh other areas we focus on sales"
+    },
+    {
+      "t": 644,
+      "end": 664,
+      "text": "and finance and a bit of purchase first and then we extend to other areas the next other area is probably going to be fixed assets um where you have the asset list and you have depreciations you want to maybe um combine it what you have in in purchase and GL uh and"
+    },
+    {
+      "t": 664,
+      "end": 685,
+      "text": "then we move on to some of the other modules the jobs module manufacturing maybe service maybe we won't cover all of the reports because the intent is with Excel you'll get a a good overview of your business and then from there on there's probably better tools and ways to analyze data"
+    },
+    {
+      "t": 685,
+      "end": 705.1,
+      "text": "but there's a lot more reports coming for Excel over the coming releases both in minor releases and of course also in the next major cool thanks Brian that looks amazing um also I come from the platform so actually getting some reports into the base app is amazing to see hopefully this will also Inspire both you"
+    },
+    {
+      "t": 705.1,
+      "end": 720.7,
+      "text": "as a customer but also Partners to build your own new Excel reports and have this new uh new way of interacting with data in a broader scope all right co-pilot so"
+    },
+    {
+      "t": 720.7,
+      "end": 741.4,
+      "text": "um right now in preview as of April or March 2024 U there's also new things coming in Excel and since Excel reports are in Excel and we also have open in Excel that gives you data in Excel we thought wouldn't it be interesting to actually see what's coming so that once you have data in Excel"
+    },
+    {
+      "t": 741.4,
+      "end": 761.6,
+      "text": "you might do your further data analysis directly there and uh that's what co-pilot in Excel is all about first of all go deeper in data maybe ask questions with co-pilot or get U understand data better and also identify insights in data and specifically for insights the great thing about"
+    },
+    {
+      "t": 761.6,
+      "end": 780.4,
+      "text": "machine learning and AI is that sometimes it's better at looking at pattern in Greater data sets than we as people are and and that's actually a small demo that I think could be interesting to to have a co-pilot look at some data sets and identify some some patterns"
+    },
+    {
+      "t": 780.4,
+      "end": 800.5,
+      "text": "all right so Brian you didn't want to show us the accounts payable report but this this this report actually had some funny data to analyze so I picked that one but I'm not going to use the normal reports I'll actually just go directly into the data set and for co-pilots to have some data to work on it leasts meets a little bit more than just"
+    },
+    {
+      "t": 800.5,
+      "end": 820.6,
+      "text": "the five rows that maybe is is present in our demo data so what we did was we we pumped that vendor Hing data up bit so we now have 100,000 rows of data and let's see what co-pilot can help us out so I will just go up here in the ribbon and activate co-pilot for Excel this is in preview right"
+    },
+    {
+      "t": 820.6,
+      "end": 840.7,
+      "text": "now and uh let's see if we can find some interesting patterns in our data co-pilot will give us or give me some choices and I want to analyze I'll just pick analyze and copilot is very nice and say is it can analyze data and it's actually suggesting outlier so I'll just pick are there"
+    },
+    {
+      "t": 840.7,
+      "end": 861.1,
+      "text": "any outliers in my data and let's see what co-pilot come comes up with understanding your data great we're almost there all right so apparently there are some out outliers in the data set and uh I would like just to add this to a new worksheet so I can look"
+    },
+    {
+      "t": 861.1,
+      "end": 881.6,
+      "text": "more into it and maybe take this suggested visual that Excel added for this pivot and see that apparently there at least four dates in my data set that look not necessarily suspicious but these are for this particular vendor things I might want to go in and have a second look and that's also what we always do with co-pilot"
+    },
+    {
+      "t": 881.6,
+      "end": 900.1,
+      "text": "we have machine learning on AI to suggest something for a human being to go and control so I'm always in the loop I will go and check these for this vendor these dates to see if something is odd either we made a mistake they made a mistake or maybe it's totally fine transactions"
+    },
+    {
+      "t": 900.1,
+      "end": 920.2,
+      "text": "so instead of using the the report and slice and dice uh yourself to find something where you have a suspicion where there's something to look at you just let co-pilot do that work and you can spend more time on actually analyzing data rather than finding data to analyze so this is just statistics it might be perfectly fine"
+    },
+    {
+      "t": 920.2,
+      "end": 940.8,
+      "text": "it might but it seems that there's some variant that cannot be explained and that's what co-pilot in Excel shows us so to learn more about data analysis business intelligence reporting including things in Excel uh go to aka.ms slbc reporting This is the End user documentation"
+    },
+    {
+      "t": 940.8,
+      "end": 961,
+      "text": "for this interesting topic so Brian did we have some Goos for people to take home yes because there's a lot of new things to go and do uh there are new reports um look at them start analyzing your data uh and maybe also start using co-pilot to analyze your"
+    },
+    {
+      "t": 961,
+      "end": 981.4,
+      "text": "data and lastly now that you have a data set you can go and create your own report based on these data set and of course the data sets that come with the the future reports so start digging into it so Brian I noticed that you just uh skipped the report Explorer part which I think is a shame I know you think it's like not useful"
+    },
+    {
+      "t": 981.4,
+      "end": 1001.4,
+      "text": "but I actually know that a lot of users don't know that this thing exists for discoverability so maybe next time you go to business Central go open the report Ro Explorer and actually see if there are things there that you never knew existed and go explore more yeah yeah because it has all the reports rather than just the ones that you have in your role"
+    },
+    {
+      "t": 1001.4,
+      "end": 1021.6,
+      "text": "Center or the ones that you know exist it's it's a nice place to start finally uh relevant launch sessions to also watch if you want to dig more into the editing of layout maybe for developers is a bit tough but we do have session for how to do layouts Excel"
+    },
+    {
+      "t": 1021.6,
+      "end": 1041.8,
+      "text": "layouts that are translatable if you want to do these multilanguage uh reports so go check that out if you have a bit of Courage but can I ask do you need to be a developer you don't actually need to be a developer to do excel layouts that's true the only thing you need a developer for is to to create the data set that needs to"
+    },
+    {
+      "t": 1041.8,
+      "end": 1054.7,
+      "text": "happen in in a not if not if you're using hopefully the sooncoming 35 report you can you can create layouts on top of that right that's true yeah that's that's one of the benefits for fixel"
+    },
+    {
+      "t": 1054.7,
+      "end": 1074.8,
+      "text": "yeah as always some general resources for you uh in business Central so we have these AKA links we call them aka. msbc Yammer is where we discuss things with Partners BC all is for all the like just like Lord of the Rings this is the one AKA link to rule"
+    },
+    {
+      "t": 1074.8,
+      "end": 1095,
+      "text": "them all uh BC ideas is where you submit ideas for new features and then on social media X LinkedIn and so on we are of course present there so join the conversation there and finally for office hours both recordings and live BC office hours is your friend and with that Brian and I would like to say"
+    },
+    {
+      "t": 1095,
+      "end": 1099,
+      "text": "thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.71,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.72,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3038
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-rate-limits",
   "published_at": "2024-11-13T13:23:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "f72b9e7f2fa07630acb339adb0eb727cce8bc906",
       "words": 520,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:44:47.725Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004076
     }
   },
   "input_hash": "f72b9e7f2fa07630acb339adb0eb727cce8bc906",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f72b9e7f2fa07630acb339adb0eb727cce8bc906"
+  "output_hash": "97845b8d941d1f798e1271a730fa2ea01d355c8f4e1980e97462ec9cbc59ac8a"
 }

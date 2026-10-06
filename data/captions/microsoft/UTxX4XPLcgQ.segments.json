@@ -1,0 +1,241 @@
+{
+  "video_id": "UTxX4XPLcgQ",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 16.3,
+      "end": 27.3,
+      "text": "hi and welcome to this session on what's new in financial management on reminder automation my name is Brian Nelson I'm a program manager in the business Central"
+    },
+    {
+      "t": 27.3,
+      "end": 47.6,
+      "text": "team and in this session will focus on the improvements we've done to collection management which is a a key part of any Finance departments in this release we'll look at the new role Center we have done for account receivables administrators we'll look at the new automation for reminders"
+    },
+    {
+      "t": 47.6,
+      "end": 67.6,
+      "text": "and we'll look at how we've improved the setup of reminder terms so let's just jump right into it here I am in my new role Center uh it's called account receivables administrator and you can select that role Center and you'll get a role Center uh targeted"
+    },
+    {
+      "t": 67.6,
+      "end": 88.5,
+      "text": "for account receivables employees and users so the role Center has all the navigation that you need um to post the document to new documents in sales uh of course to the reminders and it has a a small group of reports that you often use in connection with account"
+    },
+    {
+      "t": 88.5,
+      "end": 108.5,
+      "text": "receivables and we also added some of the new Excel reports that might be uh useful to look into when you're doing collection management for example the account receivables report is one we've added some cues that you know from other role senders and then we added uh"
+    },
+    {
+      "t": 108.5,
+      "end": 128.6,
+      "text": "a set of cues for the reminder process um cues for knowing how many have been created how many have been issued but not paid yet how many have been issued but not sent yet and then we have the uh automation uh cues in this case I've set up three automations we'll get back to"
+    },
+    {
+      "t": 128.6,
+      "end": 148.8,
+      "text": "them in a second and we'll also be notified about uh failures in these automations so we can take action and then at the bottom of the page we have the list with overdue balances for customers and we have the overdue invoices so it's easier to to get access to them let's take a look at the automation that happens because"
+    },
+    {
+      "t": 148.8,
+      "end": 164.4,
+      "text": "ideally you should just be following Along on your kpis and see maybe what's happening uh in terms of reminders being here but the process it itself should be done uh with automation so in this"
+    },
+    {
+      "t": 164.4,
+      "end": 181,
+      "text": "company we have three automations uh you can combine them or you can split them up you'll you'll see that in in a second all of these in this demo is uh set up as manually executed"
+    },
+    {
+      "t": 181,
+      "end": 193.4,
+      "text": "automation um pieces but of course you can set it up so it it always runs automatically and you don't have to intervene at all in this"
+    },
+    {
+      "t": 193.4,
+      "end": 213.4,
+      "text": "case I have set up uh an automation for reminders I can set a a reminder terms filter that is the main filter when you're doing reminders in this case I I just set it for the existing two reminder terms I have and then you can set up some steps that Define how"
+    },
+    {
+      "t": 213.4,
+      "end": 233.4,
+      "text": "how are they created in this case there's only one step and it basically says create anything it's a create step and uh include only entries with overdue amounts so we will create a reminder it will only contain the overdue amounts it won't contain a section with"
+    },
+    {
+      "t": 233.4,
+      "end": 252.2,
+      "text": "the not yet due open uh invoices so that's a selection we done uh we have one more on issuing once you have created them you can go and validate them maybe you want approval for from somebody and the next step is issuing"
+    },
+    {
+      "t": 252.2,
+      "end": 272.6,
+      "text": "reminders for issuing there really isn't much to do you can set a filter again this issue reminder step that I've set up here automation I've set up will only take the ones that have a reminder terms filter with domestic so it will leave the the foreign uh remind us uh for"
+    },
+    {
+      "t": 272.6,
+      "end": 292.6,
+      "text": "another badge job or manual intervention the uh the the action step here also has a setup slightly different from the create because these are some of the options you can can take replacing posting date and uh text date or vat date and then again you can do a a a filter"
+    },
+    {
+      "t": 292.6,
+      "end": 312.8,
+      "text": "here the filter is really useful if you have a lot of reminders for different groups of of receivables in that you can set a filter and one of the filters that are very useful to do or to include is a reminder automation code and that means that I will only if I set a filter for"
+    },
+    {
+      "t": 312.8,
+      "end": 333.3,
+      "text": "this I would only pick up the reminders open reminders that were created with a specific reminder automation code so I can I can have multiple jobs generating uh reminders and I can have issue reminder jobs that pick groups of uh these reminders and then issue them"
+    },
+    {
+      "t": 333.3,
+      "end": 348.6,
+      "text": "so it can be it can be pretty flexible tailor we'll leave the filter for for this one and close it and then we have the last one once we have issued it we can choose it choose to send it and with"
+    },
+    {
+      "t": 348.6,
+      "end": 369,
+      "text": "send we can uh open up the step with send you can choose to send multiple times for the same level may be useful for for the first level you want to be nice and not bump them up in reminder levels and and get a little more professional in your address uh to them you can uh choose to show um interest"
+    },
+    {
+      "t": 369,
+      "end": 389.4,
+      "text": "and show amounts that are not due and whatnot you can lock the interaction and then um the best option is sent by email so it doesn't just get printed out and we've added a new Option so that you can attach invoices that are referenced in the reminder you can either have all of the um invoices"
+    },
+    {
+      "t": 389.4,
+      "end": 409.4,
+      "text": "like all of the open ones or only the ones that are overdue and then include them we'll see that in in a second it's pretty flexible in the in the setup you can combine them in one we could have done one automation here um and I should probably open this one again you can see there's a step called scheduling"
+    },
+    {
+      "t": 409.4,
+      "end": 429.7,
+      "text": "I didn't show it so this one is set up for manual because I want to to to show different steps uh for you but you can set it up to be weekly monthly or a custom schedule and you can even have it like by day and just whenever there's something to be processed there will be a bat job to process it"
+    },
+    {
+      "t": 429.7,
+      "end": 447.1,
+      "text": "we'll we'll just flip it back to manual so we are in control of it I have some customers and there's overdue balances so it's it's only fair that we do uh remind us so easiest way is to go"
+    },
+    {
+      "t": 447.1,
+      "end": 458.2,
+      "text": "here and here we have them so let's let's just start the first badge job in creating reminders it only takes a few seconds we can go in and take a"
+    },
+    {
+      "t": 458.2,
+      "end": 478.5,
+      "text": "look you can see it's already completed you can look at the log entries and you can drill further down to it and you can see that two reminders were created from this Automation and this could have happened uh automatically and we'll just go and check and see what was created"
+    },
+    {
+      "t": 478.5,
+      "end": 498.8,
+      "text": "so we have some reminder two of them created for two different customers School of Fine Art has the highest balance or amount there's a few invoices there and the next step in in the reminder process is um is issuing them now we have just created"
+    },
+    {
+      "t": 498.8,
+      "end": 518,
+      "text": "them so we'll go into the issue reminder again and then we'll start this batch job and again you can go in look at the log entries but we'll skip that part and we'll go directly to um to sending them and we'll start that badge job and again all of it can be done fully"
+    },
+    {
+      "t": 518,
+      "end": 538.4,
+      "text": "automatically and then we'll go in and look we could also go from The List log entries and we'll take a look four reminders were emailed and that is because we created two but as you saw in the cues on the RO cender I had already created two and they were not yet emailed"
+    },
+    {
+      "t": 538.4,
+      "end": 558.5,
+      "text": "so this batch job because they were run with the same automation it will pick them up and and then send them and that is all right let's go back and look at the emails here's an example of the first email I sent out we'll see how it's created later uh it has some text it it has a reference to a"
+    },
+    {
+      "t": 558.5,
+      "end": 573.8,
+      "text": "date uh and then it has the the normal content of the email and then it has the reminder as attachment in the second round the one the one we just did with scent um the"
+    },
+    {
+      "t": 573.8,
+      "end": 594,
+      "text": "first reminder was due in February I I was running one from March again so it picked it up a second time and that means that the text is a go is going to be a bit more uh strict short and professional asking for for prompt payment and we also included the"
+    },
+    {
+      "t": 594,
+      "end": 613.4,
+      "text": "open invoices in that email so that they can go and reference them and and see what invoices were due in the badge job but um the difference in these two emails is from a new capability to tailor the the emails per level in reminder terms so we'll take a look at that"
+    },
+    {
+      "t": 613.4,
+      "end": 633.8,
+      "text": "now so if you go to reminder terms you have the the standard list uh in this uh company we have two reminder terms one for domestic customers and one for foreign customers the domestic reminder terms has a new setup window window you can turn on the the new uh feature the new"
+    },
+    {
+      "t": 633.8,
+      "end": 653.8,
+      "text": "layout uh in feature management and you'll get to a a card page that has both the header but also the the levels for the header there really isn't uh that many options you could go and and tailor emails if you had nothing else set up I'll"
+    },
+    {
+      "t": 653.8,
+      "end": 666.3,
+      "text": "skip that part the interesting part is you're sending out reminders in at different levels there's a first reminder kindly asking the customer to to pay as soon as"
+    },
+    {
+      "t": 666.3,
+      "end": 687,
+      "text": "conveniently and then the second email where you remind them that they were reminded and please pay fast and then maybe a third reminder that tells them that now they have to pay or or the outstanding balance will be sent to a collection service or something like that so you have these levels"
+    },
+    {
+      "t": 687,
+      "end": 707.2,
+      "text": "and you can set it set them up individually uh with fees and uh with the due date calculation for the reminder itself but you can also click on the customer communication tab for each level and the first one for level one that you saw an email for is that"
+    },
+    {
+      "t": 707.2,
+      "end": 727.2,
+      "text": "the email is the reminder itself the attachment will have begin and ending text within it that these two text Fields you can use them to build up a a reminder report but the email that you sent out will have this text uh referencing a due date and um telling"
+    },
+    {
+      "t": 727.2,
+      "end": 747.4,
+      "text": "the customer if they already paid they can disregard this email so that's level one and we'll just close it for level two they already got one reminder so um we are telling them that the the payment was due and we would appreciate prompt payment and thank you for your business we don't ask"
+    },
+    {
+      "t": 747.4,
+      "end": 767.4,
+      "text": "them to disregard anything because they already had a reminder that they didn't react to and you can also include a subject line in the email so you can construct or or tailor the emails that you send out for the different reminder terms per level so it's it get more tailor to your business and the tone of voice"
+    },
+    {
+      "t": 767.4,
+      "end": 787.5,
+      "text": "and what you're asking for or what you're including so in that way you have a better setup for reminders and the levels for the emails that you send out you can uh choose to uh to send the attachment uh along you have automation to automate all of these steps once you have your setup and you decided how it should"
+    },
+    {
+      "t": 787.5,
+      "end": 807.5,
+      "text": "look like um and be set up in terms of calculations you can create automations that will take care of actually processing this so all there is for you in collection management is to sit back and keep an eye on the kpis because everything will be automated once you set it up in the coming releases we'll we'll"
+    },
+    {
+      "t": 807.5,
+      "end": 819.2,
+      "text": "do a few more improvements uh some better overviews and some more kpis so it's easier to manage collection management thank you for watching this"
+    },
+    {
+      "t": 819.2,
+      "end": 820,
+      "text": "session"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.269,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.279,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2126
+}

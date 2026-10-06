@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-restapi-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-restapi-overview",
+  "title": "HTTP, JSON, TextBuilder, and XML API overview",
+  "blob": "22102fc2dc373bc53f611882f3b5a40fcddf3d5f",
+  "summary": "HTTP, JSON, TextBuilder, and XML API overview documents the AL data types available for accessing external services, including HttpClient, JsonArray, JsonObject, and XML handling classes.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "http apis",
+    "json handling",
+    "xml processing",
+    "text building",
+    "external services"
+  ],
+  "objects": [],
+  "features": [
+    "HttpClient",
+    "HttpContent",
+    "HttpHeaders",
+    "JsonArray",
+    "JsonObject",
+    "JsonToken",
+    "TextBuilder",
+    "XML handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004699,
+      "pages_in_call": 8
+    }
+  ]
+}

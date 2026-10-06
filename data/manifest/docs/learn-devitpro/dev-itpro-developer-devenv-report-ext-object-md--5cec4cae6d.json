@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-ext-object",
   "published_at": "2024-11-15T11:56:55.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "a325a146f61cf20af39cd93f8ad337328bd0d927",
       "words": 544,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:44:47.724Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004076
     }
   },
   "input_hash": "a325a146f61cf20af39cd93f8ad337328bd0d927",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a325a146f61cf20af39cd93f8ad337328bd0d927"
+  "output_hash": "d62331afc5182db1e7dea6ed3a64b97accbea4b7e9ccf670fcf6d64635ecb833"
 }

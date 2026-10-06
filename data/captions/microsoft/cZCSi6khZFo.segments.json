@@ -1,0 +1,291 @@
+{
+  "video_id": "cZCSi6khZFo",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 16.6,
+      "end": 36.7,
+      "text": "Microsoft copilot is AI powered assistant that helps to spark creativity increase productivity and eliminate T tasks in this release we continue to add kilot capabilities to business Central and in this session we will learn about capability which helps to deal with one of"
+    },
+    {
+      "t": 36.7,
+      "end": 56.9,
+      "text": "the important area of the product sales documents imagine that you are new to the role and you need to create sales document like sales quote invoice or order and uh your company has a quite extensive catalog of products and you need you're not familiar to it yet in full details so searching"
+    },
+    {
+      "t": 56.9,
+      "end": 77.3,
+      "text": "for the spe for the right product might be a challenging task especially if the key details are not stored in the item directly but present in the product catalog or for example represented in the item attributes how would you do that search and filter"
+    },
+    {
+      "t": 77.3,
+      "end": 97.6,
+      "text": "another scenario uh is when you're dealing with a longterm customer and the approaching for the new business deal and they suggest to work with one of the recent successful deals like uh use it as a starting point the problem is that customer might not be very clear about uh what they're referring"
+    },
+    {
+      "t": 97.6,
+      "end": 117.6,
+      "text": "to is it like sales invoice or shipment or maybe it was quot and which exactly document they mentioned and what is the date I think copilot will be great help here let's see sales line suggestion with copilot in action so this sales line suggestion feature is available in multiple sales document including"
+    },
+    {
+      "t": 117.6,
+      "end": 135.4,
+      "text": "sales order uh sales scod and sales invoice for this particular uh demo let's see in the context of sales code imagine you have received an email from a customer uh inquiring about some items so what you will do you will go to sales"
+    },
+    {
+      "t": 135.4,
+      "end": 155.6,
+      "text": "codes create a new sales code assign the customer for which you want to create uh this quotation for and now you can see we have a new action called Suggest sales line and when you click this action this new prompt dialogue is uh open up which basically uh takes natural language"
+    },
+    {
+      "t": 155.6,
+      "end": 175.6,
+      "text": "as an input so you can enter in a way which you are most comfortable with and there are two main intents that are supported over here either you can list the items that you need with the quantities or you can refer any existing document that you want uh the lines to be copied from to assist you to get started uh we"
+    },
+    {
+      "t": 175.6,
+      "end": 196,
+      "text": "have something called prompt guides which can be used as a starting point of for entering whatever uh prompt that you want to enter so let's say for the document lookup we have like St starting point either you can say copy from any existing order number or you can say something like copy from last invoice similarly when you are listing"
+    },
+    {
+      "t": 196,
+      "end": 216.5,
+      "text": "uh the items you can just say add items and list all the items that you need uh with the quantities and you can refer the items with any information that you are already familiar with so let's start with copy from last inv as the first example and when I press generate the copar is smart enough to identify the intent"
+    },
+    {
+      "t": 216.5,
+      "end": 236.6,
+      "text": "and it suggests the invoice for this particular customer so for reference on the right hand side you can see the copilot found uh this particular uh posted sales and voice uh for this particular uh customer and copy all the lines from there now you can actually review these uh lines and uh change the description or the quantity if you like uh Delete any"
+    },
+    {
+      "t": 236.6,
+      "end": 252.5,
+      "text": "lines that you want and insert so maybe this was not the uh document or you were actually looking for so you can actually go back uh using this edit prompt and you can say something like copy from invoice"
+    },
+    {
+      "t": 252.5,
+      "end": 272.6,
+      "text": "3196 it's just a number that I remember on top of my head uh some invoice that I recall so you can see just by mentioning 3196 the co-pirate was smart enough to find a posted sales invoice with this U invoice number which is the 3196 was just a partial of this document number and"
+    },
+    {
+      "t": 272.6,
+      "end": 292.7,
+      "text": "then all the lines from that document were suggested for reference you can always open that document and see uh what was actually in the actual document uh that the lines were copied from the important thing over here is like uh you can search not only on the base of uh document number but you can also search based on external reference number or"
+    },
+    {
+      "t": 292.7,
+      "end": 313.5,
+      "text": "reference number or few other fields as well so that was the first uh intent that you can you like copy from any existing document so uh let's explore the second intent which is uh specifying the items that uh the customer actually need so what I can do is actually go back and say something like I need"
+    },
+    {
+      "t": 313.5,
+      "end": 333.2,
+      "text": "office desk and two blue office chairs and press generate the co-art would be smart enough now to say okay you are actually looking for items these are the particular items that you are looking for and suggest you lines based on"
+    },
+    {
+      "t": 333.2,
+      "end": 353.4,
+      "text": "that so here you can see uh we searched for uh office desk and uh two blue office chairs so the co-pilot suggested this aan desk and London chair as the suggestions for these items but the question arised like why did goir uh selected this desk or this particular chair for example for chair I look for"
+    },
+    {
+      "t": 353.4,
+      "end": 373.4,
+      "text": "blue office chair so if I go to the item itself the one that the copilot suggested and see the item card and I can actually see the category of this item was actually office chair and if I scroll down over here the attribute the blue is basically defined as an attribute for this item so when you search"
+    },
+    {
+      "t": 373.4,
+      "end": 393.6,
+      "text": "for a particular item we are not only looking at the description or the name of the item we are looking all the related uh fields and tables for an item including uh categories attributes uh translations and Etc since this result is AI generated so there a room uh that the result might not be what exactly you expected"
+    },
+    {
+      "t": 393.6,
+      "end": 413.6,
+      "text": "so to assist you to review these result we have something called UNC confidence that you can ask which is an extra information about how the co-pirate feel the results that were suggested match against your initial Cy so when I press uh lines and confidence and press generate it will give me"
+    },
+    {
+      "t": 413.6,
+      "end": 433.8,
+      "text": "two piece of extra information the confidence that the c-y feel this result match with your uh your initial prompt and also the search STS that were actually used to find these items so you can see for chairs we uh the search St that were used for office chairs and blue and in case there are synonyms for each item the coprite also search for"
+    },
+    {
+      "t": 433.8,
+      "end": 454.1,
+      "text": "those as well and now uh there's one more thing called uh the matching criteria based on how precise you want your search to be you you have multiple options that you can choose for imagine you have a request from customer who is not familiar with the items stored in your system so you can for that particular case you can either choose permissive"
+    },
+    {
+      "t": 454.1,
+      "end": 474.2,
+      "text": "or balance but if you know your uh system well enough then you can even go for precise as a matching so we will make sure all the keywords are uh existing for a particular items and they match exactly so now let's take this one step further imagine you have received an email from a customer uh which is like praising you for the few items"
+    },
+    {
+      "t": 474.2,
+      "end": 494.7,
+      "text": "that he uh actually bought which was the black office chair and a conference table and he basically asking details about two more uh items that he want to buy which is black office chair and blue office desk so what you can do as the user of this feature you can actually copy the entire email and paste it inside the prompt"
+    },
+    {
+      "t": 494.7,
+      "end": 515,
+      "text": "you can copy the email uh inside the prompt as it is and press generate so once I press generate the co-pilot is smart enough to identify First what was the user intent inside the email and which were the items that the user is only referring to and which were the items that the user is willing to buy so the co- parate only"
+    },
+    {
+      "t": 515,
+      "end": 535.1,
+      "text": "uh consider those items and try to search for those items inside our system I can review all the lines that were suggested the items I can see the confidence is high and I can see all the Search terms that uh the copy Ed to identify these items and then I can press insert so these lines will be inserted inside the sales code and now all I"
+    },
+    {
+      "t": 535.1,
+      "end": 555.3,
+      "text": "have to do is send this code to the customer back to you Andre to explain and some more insights about this feature very impressive uh that looks like future is here or almost here of course we know uh it's not magic it's technology and each technology probably requires some uh details to be"
+    },
+    {
+      "t": 555.3,
+      "end": 575.7,
+      "text": "discovered let's look into the into the details first of all when we we're exploring search of the product which fields and which tables system use so we know about item attributes and catalog already from the demo uh but also we can see item reference variant transaction"
+    },
+    {
+      "t": 575.7,
+      "end": 595.8,
+      "text": "translations and extended text lines are also taken into the account what is not taken into the account at this version is the marketing text or any attachments when we dealing with a search for the document we search for four documents we search for the existing sales quotes"
+    },
+    {
+      "t": 595.8,
+      "end": 608.7,
+      "text": "and orders or for the posted shipments and the posted invoices and we look for different fields which may contain the number either internal ones or external"
+    },
+    {
+      "t": 608.7,
+      "end": 620.6,
+      "text": "ones we also use document date as a as a main date and we also use it for uh to identify the last or for the"
+    },
+    {
+      "t": 620.6,
+      "end": 634.4,
+      "text": "Sorting all right so this is about data I would like to remind that this data is your data and uh it's not used it's not used to train any compilot"
+    },
+    {
+      "t": 634.4,
+      "end": 654.5,
+      "text": "capabilities and your data is very much protected by comprehensive Enterprise compliance and security controls all right and if you would't like to know more uh about responsible AI uh standards by Microsoft you can always find them in the"
+    },
+    {
+      "t": 654.5,
+      "end": 667.4,
+      "text": "Microsoft website search for responsible AI standards and you will see how to ensure fairness reliability and safety and inclusiveness and transparency and"
+    },
+    {
+      "t": 667.4,
+      "end": 688.2,
+      "text": "accountability all right about this specific capability of the co-pilot it will be available in the business Central online also known as a software as a service so the cloud version it will be available with the 2024 release Wave 1 which is starting in April starting from the US regions"
+    },
+    {
+      "t": 688.2,
+      "end": 709.2,
+      "text": "it will be available in in almost all regions except Canada and I will explain why because the this capability first available in the preview in the English and different type of English language Australian or New Zealand or or British ones but not in other languages"
+    },
+    {
+      "t": 709.2,
+      "end": 719.8,
+      "text": "and in Canada it's a legal requirement to release software in both languages in English and in French so that's why uh we cannot make it available in Canada yet"
+    },
+    {
+      "t": 719.8,
+      "end": 731.7,
+      "text": "also uh would like to highlight that this capability currently uh is at no additional cost if you have a business center license you can use co-pilot capabilities in the"
+    },
+    {
+      "t": 731.7,
+      "end": 751.8,
+      "text": "product what if you cannot find it uh starting point is please find the co-pilot ni capabilities page where you can see this uh sales line suggestion capability in the preview section together with the other features which are available and make sure that it is active it"
+    },
+    {
+      "t": 751.8,
+      "end": 770.9,
+      "text": "might happen that your business Central and or Azure open AI service are located in the different countries or privacy or compliance boundaries in this case your administrator needs to activate the cross region data transfer then your business Central can"
+    },
+    {
+      "t": 770.9,
+      "end": 791.1,
+      "text": "contact Azure open AI service and and and use co-pilot what are the limitations you better to be aware about so as I mentioned it is in English and it means that we test it and we know that it works in the English best other languages it might work you can you're free to try"
+    },
+    {
+      "t": 791.1,
+      "end": 811.4,
+      "text": "it but it's not guaranteed that it will give you a best result possible result might be worser comparing to English ones also it's very important on how your data looks like so if you use very cryptic or uh difficult to understand for human names and abbreviations"
+    },
+    {
+      "t": 811.4,
+      "end": 831.4,
+      "text": "in your product descriptions it will be also difficult for compilot to deal with them so you might need to invest some time into making sure that your product are represented correctly then copilot can can find them and understand what it is also if you happen to operate"
+    },
+    {
+      "t": 831.4,
+      "end": 851.6,
+      "text": "uh in Industry which and uh which results that your product catalog might be specified as one of the sensitive topics then you might not get any output at all now a little bit more about output uh produced by sales line suggestion"
+    },
+    {
+      "t": 851.6,
+      "end": 870.1,
+      "text": "you saw that this is represent a sales line or very similar to it and if you're familiar to business Central there are multiple columns in the real sales line uh table but at this point C pilot Works only uh with item number and Quant"
+    },
+    {
+      "t": 870.1,
+      "end": 890.6,
+      "text": "and it only deals with lines of type item so general ledger resources or comment lines will be ignored also uh system will not populate any other fields in the sales lines it will be either inherited from the from the header for example we can talk about location or shipment date"
+    },
+    {
+      "t": 890.6,
+      "end": 910.8,
+      "text": "but uh or from the item itself then system will use a standard price calculation mechanism to Define price discount and uh also uh unit of measure to use you might also try to combine or produce some uh some prompts and they might not be supported"
+    },
+    {
+      "t": 910.8,
+      "end": 929.8,
+      "text": "for example if you want to use both product search and document search that is not implemented so for example you cannot ask a compiler to return only specific group of product from the sales from the posted sales invoice you will receive all lines of type item"
+    },
+    {
+      "t": 929.8,
+      "end": 949.8,
+      "text": "you also cannot use a specific Customer because right now kilot will use customer defined in the document header when searching for the document also when you search for product you need to focus on the product characteristic product description Etc but you cannot do like relative ones for example give"
+    },
+    {
+      "t": 949.8,
+      "end": 962.8,
+      "text": "me best one or give me the one which fits to another or sold together or most sold that one will not will not return you any any good"
+    },
+    {
+      "t": 962.8,
+      "end": 982.8,
+      "text": "results uh also you cannot use prompt for to do adjustment of the line so like you cannot modify or decide that you want some products from specific locations so location will be inherited from the header or from the product itself depends on the setup"
+    },
+    {
+      "t": 982.8,
+      "end": 1000.7,
+      "text": "or you can specify that and give some discount again discount will be calculated automatically all right now you know uh about uh uh compilot capability which helps you to deal with sales lines and"
+    },
+    {
+      "t": 1000.7,
+      "end": 1012.8,
+      "text": "uh thank you for for listening also I would like to mention that we have other sessions with other compilot capabilities being available"
+    },
+    {
+      "t": 1012.8,
+      "end": 1024,
+      "text": "uh feel free to watch them as well and uh thank you for watching enjoy business Central"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.55,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.56,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2629
+}

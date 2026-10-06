@@ -1,0 +1,332 @@
+{
+  "video_id": "cZCSi6khZFo",
+  "item_id": "video/yt-microsoft/cZCSi6khZFo",
+  "title": "Introducing: Sales Lines Suggestions with Copilot ( 2024 release wave 1)",
+  "duration_s": 1024,
+  "systems": [
+    "copilot",
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "sales line suggestions",
+    "copilot",
+    "ai-powered search",
+    "item attributes",
+    "document lookup",
+    "natural language processing",
+    "confidence scoring",
+    "item matching",
+    "catalog search"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and problem scenarios",
+      "t_start": 0,
+      "t_end": 117.6
+    },
+    {
+      "title": "Copy from existing document demo",
+      "t_start": 117.6,
+      "t_end": 236.6
+    },
+    {
+      "title": "Document lookup with partial reference",
+      "t_start": 236.6,
+      "t_end": 313.5
+    },
+    {
+      "title": "Search by item description with confidence and matching criteria",
+      "t_start": 313.5,
+      "t_end": 454.1
+    },
+    {
+      "title": "Email parsing and multi-item extraction demo",
+      "t_start": 454.1,
+      "t_end": 535.1
+    },
+    {
+      "title": "Technical details: fields and tables searched",
+      "t_start": 535.1,
+      "t_end": 620.6
+    },
+    {
+      "title": "Data protection and responsible AI",
+      "t_start": 620.6,
+      "t_end": 688.2
+    },
+    {
+      "title": "Availability, regions, and language support",
+      "t_start": 688.2,
+      "t_end": 770.9
+    },
+    {
+      "title": "Limitations and constraints",
+      "t_start": 770.9,
+      "t_end": 962.8
+    },
+    {
+      "title": "Conclusion",
+      "t_start": 962.8,
+      "t_end": 1024
+    }
+  ],
+  "features": [
+    {
+      "name": "Sales Line Suggestion with Copilot",
+      "description": "An AI-powered feature that helps users create sales documents by suggesting sales lines based on natural language input. Users can either list items with quantities or refer to existing documents to copy lines from.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 97.6,
+      "t_end": 535.1,
+      "is_demoed": true,
+      "caveats": [
+        "Only available in English language variants (Australian, New Zealand, British English)",
+        "Not available in Canada due to legal requirement for bilingual release",
+        "Works only with item type lines, not general ledger, resources or comment lines",
+        "Only populates item number and quantity fields",
+        "Cannot combine product search and document search in same prompt",
+        "Cannot use relative criteria like best selling or most sold",
+        "Results depend heavily on quality of product data and descriptions"
+      ],
+      "tags": [
+        "sales documents",
+        "ai search",
+        "natural language",
+        "item suggestion",
+        "document copying"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Prompt Guides for Sales Line Suggestion",
+      "description": "Built-in starting points to assist users in formulating their prompts, such as copy from existing order number or copy from last invoice for document lookup, and add items with quantities for item listing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 175.6,
+      "t_end": 196,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "user guidance",
+        "prompt templates",
+        "copilot",
+        "sales lines"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Document Search via Partial Reference",
+      "description": "Ability to search for existing documents using partial document numbers, external reference numbers, or other reference fields to copy lines from in sales line suggestions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 252.5,
+      "t_end": 292.7,
+      "is_demoed": true,
+      "caveats": [
+        "Searches only existing sales quotes, orders, posted shipments and posted invoices"
+      ],
+      "tags": [
+        "document lookup",
+        "partial search",
+        "reference numbers"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Item Search via Attributes and Catalog",
+      "description": "Intelligent search mechanism that looks across item descriptions, names, categories, attributes, translations, variants, and extended text lines to match user requests for items in sales line suggestions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 313.5,
+      "t_end": 373.4,
+      "is_demoed": true,
+      "caveats": [
+        "Does not search marketing text or attachments",
+        "Quality depends on how product data is maintained"
+      ],
+      "tags": [
+        "item search",
+        "attributes",
+        "catalog",
+        "intelligent matching"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Search Confidence Reporting",
+      "description": "Extra information provided with sales line suggestions showing how well the copilot results match the initial prompt, helping users review and validate AI-generated suggestions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 393.6,
+      "t_end": 413.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "confidence scoring",
+        "result validation",
+        "user review"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Matching Criteria Selection",
+      "description": "Options for users to specify search precision level when looking for items: permissive, balance, or precise mode to control how strictly keywords must match.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 433.8,
+      "t_end": 454.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "matching criteria",
+        "search precision",
+        "flexible matching"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Email Content Parsing for Sales Lines",
+      "description": "Ability to copy and paste email content directly into the prompt, and copilot intelligently identifies user intent, distinguishes items being praised versus items to purchase, and extracts relevant items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 454.1,
+      "t_end": 535.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "email parsing",
+        "natural language",
+        "intent recognition"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sales Line Suggestion Action",
+      "description": "New action available on sales order, sales quote, and sales invoice documents that opens a prompt dialog for entering natural language requests to generate suggested sales lines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 135.4,
+      "t_end": 155.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "action",
+        "ui",
+        "document",
+        "sales"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "sales line",
+      "t": 851.6
+    },
+    {
+      "type": "table",
+      "name": "item",
+      "t": 353.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Andre",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 36.7,
+      "text": "imagine that you are new to the role and you need to create sales document like sales quote invoice or order and",
+      "why_it_matters": "Establishes the core problem scenario that the feature addresses - new users struggling with unfamiliar product catalogs",
+      "check": "fuzzy"
+    },
+    {
+      "t": 77.3,
+      "text": "when you're dealing with a longterm customer and the approaching for the new business deal and they suggest to work with one of the",
+      "why_it_matters": "Describes the second major use case where users need to reference previous documents without clear document identifiers",
+      "check": "exact"
+    },
+    {
+      "t": 667.4,
+      "text": "it will be available in the business Central online also known as a software as a service so the cloud version it will be",
+      "why_it_matters": "Clarifies that this is a generally available feature in 2024 release Wave 1 for Business Central cloud",
+      "check": "exact"
+    },
+    {
+      "t": 688.2,
+      "text": "in almost all regions except canada and i will explain why because the this capability first available in the preview",
+      "why_it_matters": "Important limitation on regional availability and language support that affects deployment planning",
+      "check": "fuzzy"
+    },
+    {
+      "t": 719.8,
+      "text": "is at no additional cost if you have a business center license you can use co pilot capabilities in the product",
+      "why_it_matters": "Clarifies pricing model - no additional cost beyond standard license for this copilot feature",
+      "check": "fuzzy"
+    },
+    {
+      "t": 770.9,
+      "text": "it is in English and it means that we test it and we know that it works in the English best other languages it",
+      "why_it_matters": "States language limitation clearly - only tested and guaranteed in English variants",
+      "check": "exact"
+    },
+    {
+      "t": 870.1,
+      "text": "and it only deals with lines of type item so general ledger resources or comment lines",
+      "why_it_matters": "Critical limitation on which sales line fields and types are populated by the feature",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 575.7,
+      "kind": "preview",
+      "text": "what is not taken into the account at this version is the marketing text or any attachments"
+    },
+    {
+      "t": 688.2,
+      "kind": "not-in-this-release",
+      "text": "it will be available in almost all regions except Canada because the capability is only available in English and Canada requires bilingual release"
+    },
+    {
+      "t": 770.9,
+      "kind": "preview",
+      "text": "it is in English and it means that we test it and we know that it works in the English best other languages it might work you can you're free to try it but it's not guaranteed"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029237
+    }
+  ]
+}

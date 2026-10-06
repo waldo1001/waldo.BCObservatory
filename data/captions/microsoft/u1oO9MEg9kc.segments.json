@@ -1,0 +1,251 @@
+{
+  "video_id": "u1oO9MEg9kc",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 17.1,
+      "end": 32.4,
+      "text": "hi and welcome to this session on what's new in financial management in this session we'll take a closer look at the GL account revaluation or currency code on GL if you want my name is Brian Nelson I'm a manager with the business Central"
+    },
+    {
+      "t": 32.4,
+      "end": 44.5,
+      "text": "team and for general ledger it has been a top request that we put original uh currency code uh on the"
+    },
+    {
+      "t": 44.5,
+      "end": 61.6,
+      "text": "entries uh it's been there for 5 years or more it has probably more than 500 votes and we've thought about it for a long time and in this release uh you will get original currency code on GL entry"
+    },
+    {
+      "t": 61.6,
+      "end": 81.9,
+      "text": "you will also be able to control the posting of currencies to G which currencies you want to allow posting for and then whether you want revaluation uh to happen on a specific GL account and of course we have added a batch job that will create adjustment entries to revalue a balance"
+    },
+    {
+      "t": 81.9,
+      "end": 92.3,
+      "text": "in G but let's take a a little closer look at the feature you need to turn it on in feature management it's called enable a use of GL currency"
+    },
+    {
+      "t": 92.3,
+      "end": 112.4,
+      "text": "revaluation so in my company we go to chart of accounts I've created a a subset in in this view you can see that I created a new account to keep track of a loan that I taken in Euros um and there are also some like I take the loan it goes into"
+    },
+    {
+      "t": 112.4,
+      "end": 132.7,
+      "text": "my bank account when I do the adjustments that you will see soon they need to go to uh realized gains and losses or on realized gains and losses uh in this case if it's a monetary asset that I keep track of so to register the loan we post some journal entries I've already created"
+    },
+    {
+      "t": 132.7,
+      "end": 152.8,
+      "text": "those so to register the transaction I have these two lines I get my loan in two parts um it I posted beginning of January I picked the currency rate uh currency code which is zero and I post it to my bank you can see that I get a small part"
+    },
+    {
+      "t": 152.8,
+      "end": 164.6,
+      "text": "10,000 that gets converted into 15,000 in local currency US dollar and I just post to the bank so let's just post"
+    },
+    {
+      "t": 164.7,
+      "end": 184.9,
+      "text": "this and we can go back to our chart of accounts and you can see that I have a liability of 150,000 in Us doll but I've taken the loan in Euros at the end of February for example when I I do uh want to create a financial statement the exchange rate has changed"
+    },
+    {
+      "t": 184.9,
+      "end": 205.1,
+      "text": "slightly and I want that to be reflected on in this liabilities account before I would have to keep track of it in a spreadsheet do some journal entries post them to to make these adjustments that was Compass some now we've given you a help in creating those entries in this"
+    },
+    {
+      "t": 205.1,
+      "end": 225.9,
+      "text": "case we will pick a journal so we can hold the adjustments end of February we'll just focus on this account uh we don't have to worry about uh currencies in this scenario we only posted one currency and we get um an adjustment so let's quickly take a look at that"
+    },
+    {
+      "t": 225.9,
+      "end": 232.4,
+      "text": "adjustment we have one adjustment I'll just show"
+    },
+    {
+      "t": 232.4,
+      "end": 243.9,
+      "text": "you currencies and we're picking at Euro we're picking the rates and in end of February the rate has gone from 15"
+    },
+    {
+      "t": 243.9,
+      "end": 257.4,
+      "text": "to4 so we are experiencing a a gain here because we owe less uh on this loan so we expect that to to to be reflected in this journal"
+    },
+    {
+      "t": 257.4,
+      "end": 267.8,
+      "text": "posting so um we're good it has the information and we'll just post it no need to make adjustments in this"
+    },
+    {
+      "t": 267.8,
+      "end": 288.1,
+      "text": "case and we can see did immediately when you post it the loan is now 140,000 reflecting the fact that the exchange rate has gone down a bit and the uh the adjustment has been posted just as I specified in the setup that it goes to unrealized gains and I can continue"
+    },
+    {
+      "t": 288.1,
+      "end": 300.4,
+      "text": "that if we look at the entries here you can see that this is the entry I made a a mistake so I had to uh reverse it but there's only one"
+    },
+    {
+      "t": 300.4,
+      "end": 314.8,
+      "text": "uh entry for adjustment because we adjust the balance per currency it's not adjustment for each of the entries so in the second scenario we'll we'll look at the setup"
+    },
+    {
+      "t": 314.8,
+      "end": 335.2,
+      "text": "and this will the setup will allow us to post to multiple currencies to the same GL account and you can still do revaluation um and we'll we'll just take a look at at what is the output of that and then we can dig into what are the differences between this and the normal curreny exchange rate adjustments"
+    },
+    {
+      "t": 335.2,
+      "end": 348,
+      "text": "but let's dig a little deeper into the scenario so we are back to the loan was posted in January adjusted in February on this account but uh if we go into the"
+    },
+    {
+      "t": 348,
+      "end": 368.1,
+      "text": "account you can see at the fast tab here that I have selected multiple currencies that means that I will allow multiple currency transactions to be posted to this account and that's of course for demo purposes uh I would probably recommend that you always pick same"
+    },
+    {
+      "t": 368.1,
+      "end": 388.3,
+      "text": "currency and then you pick uh a currency in in the currency code field if you have set it up to have multiple currencies you can go to the related table Source currencies and in there you can just specify which other or which multiple currencies will you allow"
+    },
+    {
+      "t": 388.3,
+      "end": 408.4,
+      "text": "in this case I also allow Canadian dollars I can also select that I will only allow u local currency so I don't get any transaction it's it's just an option that I that I have and I can select to have blank which means that any currency goes just standard business uh Central"
+    },
+    {
+      "t": 408.4,
+      "end": 423.3,
+      "text": "Behavior I can toggle this one this parameter and say tell the system that I want revaluation to happen for this GL account and when it happens I want the adjustment entries to post to the"
+    },
+    {
+      "t": 423.3,
+      "end": 437.5,
+      "text": "unrealized um gains and losses account that is set up on the currency but I want like they are both unrealized and realized gains and losses account in this case I picked the unrealized because it's a monetary asset that I'm"
+    },
+    {
+      "t": 437.5,
+      "end": 457.6,
+      "text": "tracking so that's the setup uh and basically all you need to to to know about um revaluation in this case we allowed multiple currencies so let's post multiple currencies so I've taken a new loan uh this time in Canadian"
+    },
+    {
+      "t": 457.6,
+      "end": 478.1,
+      "text": "dollars I post to the same account because I set it up to allow uh multiple currencies to be posted to it I pick Canadian dollars I have some amounts in this case I will also do it in a as a two-part uh transaction a small part and a little bigger part I post to my bank account the rate for"
+    },
+    {
+      "t": 478.1,
+      "end": 498.6,
+      "text": "Canadian dollars um they go in the opposite direction of Euros Euros was was going down so I I get gains Canadian dollars go a little up as you can see here they go from uh 100 to 80 to 100 to 85 and 90"
+    },
+    {
+      "t": 498.6,
+      "end": 517.7,
+      "text": "in March so they go in opposite direction so we are expecting gains to be posted to Euros or four Euros and losses to be posted for can Ian dollars but let's just post this uh transaction it's in January just so we have some nice"
+    },
+    {
+      "t": 517.7,
+      "end": 528.3,
+      "text": "numbers and we can go back to our chart of accounts and we look at this subset so now we"
+    },
+    {
+      "t": 528.3,
+      "end": 539.7,
+      "text": "posted uh a loan in Euro and a loan in Canadian dollars we adjusted the Euro loan but we didn't adjust the Canadian dollar loan"
+    },
+    {
+      "t": 539.7,
+      "end": 560.4,
+      "text": "it's still here um we have the loan here if I click here and search for the entries you can see that after I posted the gains and losses for the EUR loan I only posted the transaction so we need to make the the same adjustment for Canadian dollars"
+    },
+    {
+      "t": 560.4,
+      "end": 580.4,
+      "text": "to this account and same as before you just run the badge job you pick a journal and you pick the account you could pick uh Canadian dollars but since the balance for euros is already adjusted nothing will happen if you also include Canadian"
+    },
+    {
+      "t": 580.4,
+      "end": 601,
+      "text": "dollars so we'll just leave it blank and we'll get one line in our Journal so let's take a look at that so we have an adjustment it is just for the Canadian dollars and that's it went from 100 to 80 to 100 to 85 so we are we are"
+    },
+    {
+      "t": 601,
+      "end": 614,
+      "text": "we'll have a small loss of 5,000 uh for Canadian dollars here and we'll just post it and then we'll go back to child of"
+    },
+    {
+      "t": 614,
+      "end": 629.6,
+      "text": "accounts and you can see the adjustments has has been made uh and and it has been posted to the losses account so you can have multiple currencies we will post an adjustment for each of the currencies"
+    },
+    {
+      "t": 629.6,
+      "end": 649.9,
+      "text": "uh that are uh posted to in in a GL account and you'll be able to set it up per account you'll be able to control the currencies you'll be able to control if revaluation is going to happen and of course in this case we only selected this account it wouldn't make any sense to allow"
+    },
+    {
+      "t": 649.9,
+      "end": 670.2,
+      "text": "GL revaluation for bank accounts because revaluation is done for bank accounts for customers and vendors so it the same goes with your account paybl and account receivables account uh you don't do adjustments for those because you have the standard currency exchange rate batch job to do that uh balance the difference"
+    },
+    {
+      "t": 670.2,
+      "end": 690.6,
+      "text": "is important to understand uh we make one adjustment per currency for the the balance uh in in that GL account when you're running adjustments for customers and vendors you are doing it per customer and vendor and even with the new one the new"
+    },
+    {
+      "t": 690.6,
+      "end": 711,
+      "text": "um batch job that you can turn on in feature management let's just take a a brief look at that go to currencies and in here from here you can run the job this is a separate job that is done for customers vendors and now also employees and uh bank"
+    },
+    {
+      "t": 711,
+      "end": 731.6,
+      "text": "accounts but they will do it per customer and vendor for bank accounts we are still adjusting the uh the balance um you can now adjust per entry so it's not just per customer or per vendor but it's per each of these customer and vendor LED entries for the GL revaluation it is just an adjustment"
+    },
+    {
+      "t": 731.6,
+      "end": 752,
+      "text": "per Bal adjustment per balance per currency so it there's a there's a difference there so when you start using this new feature with GL revaluation you need to think about does that meet your reporting requirement if you need to keep track of very detailed adjustments to each transaction I would recommend"
+    },
+    {
+      "t": 752,
+      "end": 764.2,
+      "text": "that you use customers and vendors for that uh like a customer or a vendor account to do that if you just need to keep track of of the full balance you can use GL"
+    },
+    {
+      "t": 764.2,
+      "end": 784.6,
+      "text": "revaluation so with that uh I want you to thank you for watching this session if you have feedback uh go to BC ideas and submit ideas or vote for some of the existing ideas this new feature came from BC ideas we already had it in the backlog but the votes we got there which is more than 500 came from BC"
+    },
+    {
+      "t": 784.6,
+      "end": 796,
+      "text": "ERS uh and was the one that triggered us to uh to add it to this release thank you for joining the session"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 17.07,
+      "text": "[Music]"
+    },
+    {
+      "t": 17.08,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1931
+}
