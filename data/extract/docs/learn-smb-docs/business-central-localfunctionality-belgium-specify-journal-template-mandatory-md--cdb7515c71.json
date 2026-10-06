@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/specify-journal-template-mandatory.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/specify-journal-template-mandatory",
+  "title": "Make Journal Templates Mandatory [BE]",
+  "blob": "de17b30616e2934381c5aa69819d06bfdecf6ba5",
+  "summary": "Journal templates can be made mandatory in the Belgian version by enabling the Journal Template Name Mandatory field in General Ledger Setup, and default templates can be configured for sales and purchase documents.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "journal templates",
+    "belgium",
+    "general ledger",
+    "sales documents",
+    "purchase documents"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    }
+  ],
+  "features": [
+    "Journal Template Name Mandatory",
+    "Journal Templates FastTab"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003743,
+      "pages_in_call": 8
+    }
+  ]
+}

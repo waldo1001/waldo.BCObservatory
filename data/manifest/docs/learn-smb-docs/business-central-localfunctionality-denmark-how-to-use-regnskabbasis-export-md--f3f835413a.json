@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-use-regnskabbasis-export",
   "published_at": "2025-05-06T19:34:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3bc1dcbd9bdec625303ad2da2c336cd51bdc104d",
       "words": 342,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:00.735Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003743
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:00.749Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:00.749Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:00.750Z",
+      "page": false
     }
   },
   "input_hash": "3bc1dcbd9bdec625303ad2da2c336cd51bdc104d",
@@ -61,5 +80,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3bc1dcbd9bdec625303ad2da2c336cd51bdc104d"
+  "output_hash": "f4964ada9b7c1374095303619c614a10214f99e4fd0846b1e67a7518525dc366"
 }

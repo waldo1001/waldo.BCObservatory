@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-edocuments-nemhadel.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-edocuments-nemhadel",
+  "title": "Set up electronic invoicing with NemHandel",
+  "blob": "5f2284a2bd6c8043471f4de9eefd72b403c21b30",
+  "summary": "Electronic invoicing in Denmark can be configured with NemHandel using third-party certified access points by setting up E-Document Services with OIOUBL or Peppol BIS 3 document formats.",
+  "systems": [
+    "integration",
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "denmark",
+    "e-invoicing",
+    "nemhandel",
+    "oioubl",
+    "peppol",
+    "edocuments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "E-Document Services"
+    },
+    {
+      "type": "page",
+      "name": "Company Setup"
+    },
+    {
+      "type": "page",
+      "name": "Country/Region"
+    }
+  ],
+  "features": [
+    "OIOUBL format",
+    "Peppol BIS 3.0 format",
+    "Service Integration setup",
+    "External endpoints",
+    "GLN No. identifier",
+    "VAT Registration No. identifier",
+    "VAT Scheme"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003743,
+      "pages_in_call": 8
+    }
+  ]
+}

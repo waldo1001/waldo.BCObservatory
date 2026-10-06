@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-bookmarks",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ae4dac22e0679dfb62267cb7ab7627d75c671b22",
       "words": 919,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:00.779Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002502
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:02.504Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:02.505Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:02.506Z",
+      "page": false
     }
   },
   "input_hash": "ae4dac22e0679dfb62267cb7ab7627d75c671b22",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ae4dac22e0679dfb62267cb7ab7627d75c671b22"
+  "output_hash": "78f01ac3ffa8e9604d837bade7542c38a40e847d7f986e798c585204e2ac9e8c"
 }

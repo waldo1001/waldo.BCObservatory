@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-company-hub",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e4efbc48fe076bec1939617290738f176fb96292",
       "words": 164,
       "forms": 8
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:00.782Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002502
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:02.512Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:02.513Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:02.513Z",
+      "page": false
     }
   },
   "input_hash": "e4efbc48fe076bec1939617290738f176fb96292",
@@ -76,5 +95,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e4efbc48fe076bec1939617290738f176fb96292"
+  "output_hash": "15cf2a1bc67211275a22e22c3692c9873bccad9aaeaa0258f3f8af2e43c1f598"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-send-partial-shipments",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2a889896975d52f7643b716eece99994f0ffb69e",
       "words": 172,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:00.766Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002502
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:00.783Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:00.788Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:00.791Z",
+      "page": false
     }
   },
   "input_hash": "2a889896975d52f7643b716eece99994f0ffb69e",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2a889896975d52f7643b716eece99994f0ffb69e"
+  "output_hash": "7f917e0ff365235a30db864f7d11c48e597560e7a020190d07d6f613f96c184b"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-edocuments-nemhadel",
   "published_at": "2025-05-06T19:34:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5f2284a2bd6c8043471f4de9eefd72b403c21b30",
       "words": 515,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:00.734Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003743
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:00.747Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:00.747Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:00.747Z",
+      "page": false
     }
   },
   "input_hash": "5f2284a2bd6c8043471f4de9eefd72b403c21b30",
@@ -66,5 +85,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5f2284a2bd6c8043471f4de9eefd72b403c21b30"
+  "output_hash": "afb854db2cd29661b751c6753f57e9d6d0a21e489baddcfedd2442cff6638250"
 }

@@ -1,0 +1,63 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/UBB/welcome.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/welcome",
+  "title": "Overview of usage-based billing",
+  "blob": "d6843f510f7886f7ba8ca7b35ad56cdcf0f75789",
+  "summary": "Usage-based billing lets companies import and process subscription usage data from external vendors, calculate prices, and create contract invoices for subscription services billed monthly with usage-dependent fees.",
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "usage-based billing",
+    "subscription billing",
+    "usage data",
+    "contract invoices",
+    "recurring billing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Usage Data Supplier"
+    },
+    {
+      "type": "page",
+      "name": "Data Exchange Definitions"
+    },
+    {
+      "type": "page",
+      "name": "Usage Data Import"
+    },
+    {
+      "type": "page",
+      "name": "Recurring Billing"
+    },
+    {
+      "type": "page",
+      "name": "Customer Subscription Contract"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Subscription Contract"
+    }
+  ],
+  "features": [
+    "Import usage data",
+    "CSV file import",
+    "Daily billing",
+    "Billing proposals",
+    "Credit memos",
+    "Refunds"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002502,
+      "pages_in_call": 8
+    }
+  ]
+}

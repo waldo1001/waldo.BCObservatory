@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-nemhandel-register",
   "published_at": "2025-05-06T19:34:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f7392b007b3a7e8d4b452d9ec988fd16d9598798",
       "words": 434,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:00.734Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003743
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:00.748Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:00.748Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:00.749Z",
+      "page": false
     }
   },
   "input_hash": "f7392b007b3a7e8d4b452d9ec988fd16d9598798",
@@ -47,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f7392b007b3a7e8d4b452d9ec988fd16d9598798"
+  "output_hash": "48f6fa94230e994e545e77884401b6e1035bde2c6dc8fc3f763c774b79907ad5"
 }

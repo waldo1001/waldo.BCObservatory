@@ -1,0 +1,263 @@
+{
+  "video_id": "W3xWt6j4-Ms",
+  "item_id": "video/yt-microsoft/W3xWt6j4-Ms",
+  "title": "Comparing Financial Reporting Tools Between Dynamics GP and Dynamics Business Central (2024)",
+  "duration_s": 271,
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "account schedules",
+    "financial reporting",
+    "account categories",
+    "account subcategories",
+    "chart of accounts",
+    "gp migration",
+    "dimension filtering",
+    "excel export"
+  ],
+  "chapters": [
+    {
+      "title": "Financial reporting in GP and introduction to Business Central",
+      "t_start": 0,
+      "t_end": 38.2
+    },
+    {
+      "title": "Account schedules overview and built-in templates",
+      "t_start": 38.2,
+      "t_end": 64.9
+    },
+    {
+      "title": "Account categories and migration from GP",
+      "t_start": 64.9,
+      "t_end": 121
+    },
+    {
+      "title": "Creating and updating account categories",
+      "t_start": 121,
+      "t_end": 158
+    },
+    {
+      "title": "Account schedule structure, formulas and column layouts",
+      "t_start": 158,
+      "t_end": 212.2
+    },
+    {
+      "title": "Filtering by dimensions and drilling down into details",
+      "t_start": 212.2,
+      "t_end": 238.1
+    },
+    {
+      "title": "Exporting and importing account schedules",
+      "t_start": 238.1,
+      "t_end": 271
+    }
+  ],
+  "features": [
+    {
+      "name": "Account Schedules",
+      "description": "Financial reporting tool in Business Central that creates financial statements using account subcategories from general ledger accounts. Business Central comes with eight different account schedules out of the box.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 38.2,
+      "t_end": 91.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires account categories to be assigned to accounts for proper reporting",
+        "Accounts without assigned categories will not be included on account schedules"
+      ],
+      "tags": [
+        "account schedules",
+        "financial statements",
+        "dashboard charts"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Account Categories and Subcategories",
+      "description": "Organizational structure used to categorize general ledger accounts for financial reporting. When migrating from GP using the cloud migration tool, accounts and their assigned categories are moved to Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 64.9,
+      "t_end": 121,
+      "is_demoed": true,
+      "caveats": [
+        "Manual category creation needed for accounts not assigned during migration",
+        "Account schedules must be updated after category changes to reflect new accounts"
+      ],
+      "tags": [
+        "account categories",
+        "account subcategories",
+        "gp migration",
+        "chart of accounts"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Account Schedule Row Definitions and Formulas",
+      "description": "Each row in an account schedule is numbered to allow creation of formulas for summing multiple accounts or dividing values. Supports formatting options like bold, italics, and page breaks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 158,
+      "t_end": 178.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "row definitions",
+        "formulas",
+        "formatting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Account Schedule Column Layouts",
+      "description": "Allows selection of different column layouts and date ranges for account schedules. Amounts automatically update as different date ranges are selected.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 178.5,
+      "t_end": 212.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "column layouts",
+        "date ranges",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Dimension Filtering for Account Schedules",
+      "description": "Ability to filter account schedules by dimensions to view financial data for specific departments or entities. In the demo, filtering by sales department shows expenses only for that department.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 212.2,
+      "t_end": 223,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dimension filtering",
+        "financial analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Drill Down into Account Schedule Details",
+      "description": "Ability to drill down into each amount on an account schedule to see further details and underlying transactions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 223,
+      "t_end": 238.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "drill down",
+        "detail view",
+        "analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Account Schedule Export to Excel",
+      "description": "Ability to export account schedules to Excel for further analysis and sharing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 238.1,
+      "t_end": 253.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel export",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Account Schedule Import and Export Across Companies",
+      "description": "Ability to export account schedules from one company and import them into other companies for reuse.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 253.6,
+      "t_end": 271,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "import export",
+        "multi-company"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 38.2,
+      "text": "business Central comes with eight different account schedules out of the box",
+      "why_it_matters": "Establishes that Business Central provides built-in financial reporting templates without additional setup required.",
+      "check": "exact"
+    },
+    {
+      "t": 64.9,
+      "text": "if you use the cloud migration tool to migrate your data from GP to business Central then your accounts and the categories assigned will",
+      "why_it_matters": "Shows that data migration from GP to Business Central preserves account category assignments, simplifying the transition.",
+      "check": "exact"
+    },
+    {
+      "t": 91.4,
+      "text": "I can also see any accounts in my chart of accounts that are not currently assigned a category and therefore will not be included",
+      "why_it_matters": "Clarifies an important limitation that unassigned accounts are excluded from financial reports.",
+      "check": "exact"
+    },
+    {
+      "t": 158,
+      "text": "each row is numbered so that you can create formulas allowing you to sum up mult multiple accounts or multiple divide values",
+      "why_it_matters": "Describes the flexibility of account schedule row definitions for creating custom calculations.",
+      "check": "exact"
+    },
+    {
+      "t": 212.2,
+      "text": "you can also filter account schedules by dimensions in this example let's say we want to filter on our sales department",
+      "why_it_matters": "Shows that account schedules support dimensional analysis for segmented financial reporting.",
+      "check": "exact"
+    },
+    {
+      "t": 238.1,
+      "text": "each accounts schedule can also be exported to excel in addition if you create account schedules and want to use it in other companies",
+      "why_it_matters": "Demonstrates portability and reusability of account schedules across multiple companies and external tools.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01591
+    }
+  ]
+}

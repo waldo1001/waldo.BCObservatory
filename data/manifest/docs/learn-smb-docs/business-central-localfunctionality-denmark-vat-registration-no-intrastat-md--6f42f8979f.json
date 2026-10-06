@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/vat-registration-no-intrastat",
   "published_at": "2025-05-06T19:34:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9cbe0db488c6e846aa019774831d04bf1c4e3173",
       "words": 206,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:00.736Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003743
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:00.752Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:00.752Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:00.753Z",
+      "page": false
     }
   },
   "input_hash": "9cbe0db488c6e846aa019774831d04bf1c4e3173",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9cbe0db488c6e846aa019774831d04bf1c4e3173"
+  "output_hash": "d5a06f5332cb8ecd7c62aaaccb8d2fdc02ede00daf5407e2d7347700ca0d1f8a"
 }

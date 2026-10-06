@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-ceridian-payroll",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "28305a31c8cc05f45fe2914d5ca23c7950b116a6",
       "words": 113,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:00.781Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002502
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:02.509Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:02.510Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:02.511Z",
+      "page": false
     }
   },
   "input_hash": "28305a31c8cc05f45fe2914d5ca23c7950b116a6",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "28305a31c8cc05f45fe2914d5ca23c7950b116a6"
+  "output_hash": "c41b2dee3dae2309ba1a448af0a29e2c1c7bb58b6d6a18109b68df0761f2e86a"
 }

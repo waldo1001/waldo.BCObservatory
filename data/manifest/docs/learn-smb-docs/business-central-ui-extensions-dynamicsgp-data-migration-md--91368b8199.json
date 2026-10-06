@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-dynamicsgp-data-migration",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f46e39d5823a30b9559d239c376eef530440e738",
       "words": 98,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:00.782Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002502
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:02.514Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:02.515Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:02.516Z",
+      "page": false
     }
   },
   "input_hash": "f46e39d5823a30b9559d239c376eef530440e738",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f46e39d5823a30b9559d239c376eef530440e738"
+  "output_hash": "222f3265d4b1de9da3b3d5992928397d875175a0c6878bf4f86cfb95accbc61f"
 }

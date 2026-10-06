@@ -1,0 +1,27 @@
+{
+  "video_id": "5E6ikveL6N0",
+  "item_id": "video/yt-microsoft/5E6ikveL6N0",
+  "summary": "Posting accounts in Dynamics GP compared with posting groups in Business Central, for people moving from GP. Covers business, product, customer and inventory posting groups, posting setup, and posting preview of GL accounts.",
+  "overview": "The video explains how default posting accounts in Dynamics GP, set at class and record level, map to the posting group model in Business Central. It starts with GP, where default accounts reduce errors and inconsistencies and appear by default on transaction entry windows.\n\nIt then walks through Business Central. Business posting groups describe who you buy from and sell to. Product posting groups describe what you buy and sell. Posting setup combines the two to define GL accounts. The video also shows assigning groups to master data and using posting preview to see which accounts a transaction will use.",
+  "key_points": [
+    "In GP, default posting accounts can be set at class level and individual record level, and they default on transaction entry windows.",
+    "Business posting groups categorize who you buy from and sell to, for example by region, segment or industry.",
+    "Product posting groups categorize what you buy and sell, for example by product line or use case such as manufacturing, retail or services.",
+    "Posting setup combines a business posting group with a product posting group to define GL accounts such as sales and cost of goods sold.",
+    "Customer posting groups define accounts such as accounts receivable and discount accounts, and can organize customers by region, similar to GP classes.",
+    "Inventory posting groups define accounts by item classification and location, which supplies GL account defaults on sales and purchase transactions.",
+    "Posting preview shows the inventory, cost of goods sold, sales and accounts receivable accounts before you post."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "9e9a73f859a31dcdde27540594c35184607676b789334a391f56661f19933d02",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0136404
+  }
+}

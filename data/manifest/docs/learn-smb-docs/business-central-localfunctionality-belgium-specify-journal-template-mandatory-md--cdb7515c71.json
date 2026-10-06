@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/specify-journal-template-mandatory",
   "published_at": "2025-05-06T19:34:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "de17b30616e2934381c5aa69819d06bfdecf6ba5",
       "words": 318,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:00.732Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003743
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:00.742Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:00.743Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:00.744Z",
+      "page": false
     }
   },
   "input_hash": "de17b30616e2934381c5aa69819d06bfdecf6ba5",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "de17b30616e2934381c5aa69819d06bfdecf6ba5"
+  "output_hash": "d0228a4d97838d390ced9606ee0e88787761e21dcbc1ac6ffe67b000759bfd7d"
 }

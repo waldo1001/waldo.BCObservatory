@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-use-deferrals.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-use-deferrals",
+  "title": "Deferrals in Sales ledger and Purchase ledger reports",
+  "blob": "c89b58b72aa03c90b52da0b7665a9a3447c1f85d",
+  "summary": "Deferrals in Belgium's Sales and Purchase ledger reports can be excluded from view by setting source codes for deferral entries and using the Exclude Deferral Entries option on reports.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "deferrals",
+    "sales ledger",
+    "purchase ledger",
+    "belgium",
+    "source codes",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Source Code Setup"
+    },
+    {
+      "type": "page",
+      "name": "Sales ledger report"
+    },
+    {
+      "type": "page",
+      "name": "Purchase ledger report"
+    }
+  ],
+  "features": [
+    "Exclude Deferral Entries",
+    "Source Code Setup",
+    "General Deferral",
+    "Sales Deferral",
+    "Purchase Deferral"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003743,
+      "pages_in_call": 8
+    }
+  ]
+}

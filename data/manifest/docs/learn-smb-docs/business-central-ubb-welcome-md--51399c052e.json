@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/welcome",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d6843f510f7886f7ba8ca7b35ad56cdcf0f75789",
       "words": 613,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:00.777Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.002502
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:00.796Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:02.501Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:02.502Z",
+      "page": false
     }
   },
   "input_hash": "d6843f510f7886f7ba8ca7b35ad56cdcf0f75789",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d6843f510f7886f7ba8ca7b35ad56cdcf0f75789"
+  "output_hash": "eb3d1af8414c841e3b36c5b6628a4b825d4a3c0f5847df60b786227239517b87"
 }

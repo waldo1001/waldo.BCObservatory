@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-nemhandel-register.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-nemhandel-register",
+  "title": "Notification and registration for the NemHandelsregisteret in Denmark",
+  "blob": "f7392b007b3a7e8d4b452d9ec988fd16d9598798",
+  "summary": "Danish bookkeeping regulations require notification and registration functionality for NemHandelsregisteret, which appears when a company is not registered and can be initiated from Company Information using a valid CVR number.",
+  "systems": [
+    "finance",
+    "localization",
+    "administration"
+  ],
+  "topics": [
+    "denmark",
+    "nemhandelsregisteret",
+    "registration",
+    "cvr",
+    "notification"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Companies"
+    }
+  ],
+  "features": [
+    "NemHandelsregisteret registration",
+    "CVR number validation",
+    "Registration notification",
+    "Company status tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003743,
+      "pages_in_call": 8
+    }
+  ]
+}

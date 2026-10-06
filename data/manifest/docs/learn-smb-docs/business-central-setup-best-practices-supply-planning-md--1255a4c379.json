@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-supply-planning",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a1607b325c116941a235702504f69879d80e43dd",
       "words": 243,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:00.774Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002502
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:00.792Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:00.794Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:00.795Z",
+      "page": false
     }
   },
   "input_hash": "a1607b325c116941a235702504f69879d80e43dd",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a1607b325c116941a235702504f69879d80e43dd"
+  "output_hash": "0f660cad0d5cfe1e9f50eba66a4cfe0d051181f6ed80d7f290c28988951bd799"
 }

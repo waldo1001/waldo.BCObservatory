@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-extensions-ceridian-payroll.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-ceridian-payroll",
+  "title": "Importing Payroll or Salary Data Using the Ceridian Payroll Extension",
+  "blob": "28305a31c8cc05f45fe2914d5ca23c7950b116a6",
+  "summary": "The Ceridian Payroll Extension enables import of payroll transactions from Ceridian HR/Payroll (US) and Ceridian PowerPay (Canada) services into the General Journal for posting to the general ledger.",
+  "systems": [
+    "hr",
+    "finance"
+  ],
+  "topics": [
+    "payroll",
+    "ceridian",
+    "salary data",
+    "general journal",
+    "integration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journal"
+    }
+  ],
+  "features": [
+    "Ceridian HR/Payroll import",
+    "Ceridian PowerPay import",
+    "Account mapping",
+    "Payroll transaction posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002502,
+      "pages_in_call": 8
+    }
+  ]
+}

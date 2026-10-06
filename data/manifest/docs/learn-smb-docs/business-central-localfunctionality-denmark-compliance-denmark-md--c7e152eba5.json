@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/compliance-denmark",
   "published_at": "2025-05-06T19:34:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "18998b5bbc88125193dc2ada950961df9e510606",
       "words": 3308,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:00.733Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.003743
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:00.745Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:00.746Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:00.746Z",
+      "page": false
     }
   },
   "input_hash": "18998b5bbc88125193dc2ada950961df9e510606",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "18998b5bbc88125193dc2ada950961df9e510606"
+  "output_hash": "724a2a9c7f62858530c68d141db15858c8881954be2fd56e55e01bd762468c3e"
 }

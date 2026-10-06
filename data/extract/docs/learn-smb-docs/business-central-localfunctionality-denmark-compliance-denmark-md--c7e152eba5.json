@@ -1,0 +1,68 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/compliance-denmark.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/compliance-denmark",
+  "title": "Compliance with the bookkeeping act in Denmark",
+  "blob": "18998b5bbc88125193dc2ada950961df9e510606",
+  "summary": "Dynamics 365 Business Central is registered as a digital bookkeeping system in Denmark and complies with the Danish bookkeeping act by supporting transaction recording, audit trails, receipt storage, data preservation for five years, IT security standards, e-invoicing, and bank reconciliation.",
+  "systems": [
+    "finance",
+    "localization",
+    "administration"
+  ],
+  "topics": [
+    "denmark",
+    "compliance",
+    "bookkeeping",
+    "audit trail",
+    "e-invoicing",
+    "bank reconciliation",
+    "data retention"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "G/L Register"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Bank Reconciliation"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Statement List"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Standard Accounts"
+    }
+  ],
+  "features": [
+    "G/L Register",
+    "Audit trail",
+    "Electronic invoicing",
+    "Bank reconciliation",
+    "Chart of Accounts mapping",
+    "E-invoice formats (OIOUBL, Peppol BIS)",
+    "Data export",
+    "NemHandelsregisteret registration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003743,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-document-status",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1056bbe7d8a7e23f114b397bb05f966f9e07079c",
       "words": 484,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:00.780Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002502
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:02.507Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:02.507Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:02.508Z",
+      "page": false
     }
   },
   "input_hash": "1056bbe7d8a7e23f114b397bb05f966f9e07079c",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1056bbe7d8a7e23f114b397bb05f966f9e07079c"
+  "output_hash": "f3e6221e462516ba87cb07591246563cb47188a3a3a6a465994e5f5962656de7"
 }

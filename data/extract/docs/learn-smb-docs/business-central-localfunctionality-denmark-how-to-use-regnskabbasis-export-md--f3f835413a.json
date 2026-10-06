@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-use-regnskabbasis-export.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-use-regnskabbasis-export",
+  "title": "Export accounting data to Regnskab Basis in Denmark",
+  "blob": "3bc1dcbd9bdec625303ad2da2c336cd51bdc104d",
+  "summary": "Accounting data from Dynamics 365 Business Central can be exported as CSV files to Regnskab Basis according to Danish bookkeeping requirements using the RB Accounting File page and standard chart of accounts mapping.",
+  "systems": [
+    "finance",
+    "localization",
+    "reporting"
+  ],
+  "topics": [
+    "denmark",
+    "regnskab basis",
+    "csv export",
+    "accounting data",
+    "chart of accounts"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "RB Accounting File"
+    }
+  ],
+  "features": [
+    "CSV export",
+    "Mapping header selection",
+    "Income Statement Amount",
+    "Balance Sheet Amount",
+    "GL account mapping"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003743,
+      "pages_in_call": 8
+    }
+  ]
+}

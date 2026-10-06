@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/vat-registration-no-intrastat.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/vat-registration-no-intrastat",
+  "title": "VAT Registration No. for Intrastat [DK]",
+  "blob": "9cbe0db488c6e846aa019774831d04bf1c4e3173",
+  "summary": "VAT registration numbers for Intrastat reporting in Denmark can be configured to include country codes by setting the Customer VAT No. on File and Vendor VAT No. on File options in Intrastat Setup.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "denmark",
+    "intrastat",
+    "vat registration",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Intrastat Setup"
+    }
+  ],
+  "features": [
+    "Customer VAT No. on File",
+    "Vendor VAT No. on File",
+    "Country code concatenation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003743,
+      "pages_in_call": 8
+    }
+  ]
+}

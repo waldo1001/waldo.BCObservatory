@@ -1,0 +1,34 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-extensions-dynamicsgp-data-migration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-dynamicsgp-data-migration",
+  "title": "Migrate Data from Dynamics GP before 15.3",
+  "blob": "f46e39d5823a30b9559d239c376eef530440e738",
+  "summary": "The Dynamics GP Data Migration Extension (deprecated in 15.3 update) previously migrated data from Dynamics GP to Business Central. Users should now use the Cloud Migration wizard instead for more robust functionality.",
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "dynamics gp",
+    "data migration",
+    "cloud migration",
+    "deprecated"
+  ],
+  "objects": [],
+  "features": [
+    "Dynamics GP migration",
+    "Cloud Migration wizard"
+  ],
+  "versions": [
+    "15.3"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002502,
+      "pages_in_call": 8
+    }
+  ]
+}
