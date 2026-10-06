@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-send-reminders",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d1d8eb482c5fff6151a00321a1c66146cea80445",
       "words": 38,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:43.314Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002737
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:45.097Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:45.113Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:45.120Z",
+      "page": false
     }
   },
   "input_hash": "d1d8eb482c5fff6151a00321a1c66146cea80445",
@@ -73,5 +92,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d1d8eb482c5fff6151a00321a1c66146cea80445"
+  "output_hash": "da9ddad160a7855ac6e82dc934b69145b6d62fe8d390f796075f930a6c9c391e"
 }

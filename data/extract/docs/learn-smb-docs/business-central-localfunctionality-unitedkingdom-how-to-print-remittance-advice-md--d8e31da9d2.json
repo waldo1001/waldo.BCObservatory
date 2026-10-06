@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice",
+  "title": "Print Remittance Advice [GB]",
+  "blob": "44bfd1d37bef189430b2280d56a177042e62be1d",
+  "summary": "Print remittance advice in the British version before or after posting a payment journal to display vendor invoice numbers and help vendors perform reconciliations.",
+  "systems": [
+    "purchasing"
+  ],
+  "topics": [
+    "remittance advice",
+    "payment journals",
+    "united kingdom",
+    "vendor reconciliation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Journals"
+    },
+    {
+      "type": "report",
+      "name": "Remittance Advice - Journal"
+    }
+  ],
+  "features": [
+    "Print remittance advice",
+    "vendor invoice number display",
+    "pre-posting and post-posting printing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002834,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports",
+  "title": "Print VAT Audit Reports",
+  "blob": "fa73a730f4ce3d7d889fac310c578a00a4e28cbc",
+  "summary": "Print VAT Audit and VAT Entry Exception reports in the British version to export VAT data in CSV format for auditing, including customer, vendor, and VAT entry information.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "vat reporting",
+    "audit reports",
+    "csv export",
+    "united kingdom",
+    "tax compliance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Statements"
+    },
+    {
+      "type": "report",
+      "name": "VAT Audit"
+    },
+    {
+      "type": "report",
+      "name": "VAT Entry Exception"
+    }
+  ],
+  "features": [
+    "CSV export format",
+    "Export Customers",
+    "Export Open Payments",
+    "Export Late Invoicing",
+    "Export Vendors",
+    "Export VAT Entries",
+    "VAT Base Discount",
+    "Manual VAT Difference"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002834,
+      "pages_in_call": 7
+    }
+  ]
+}

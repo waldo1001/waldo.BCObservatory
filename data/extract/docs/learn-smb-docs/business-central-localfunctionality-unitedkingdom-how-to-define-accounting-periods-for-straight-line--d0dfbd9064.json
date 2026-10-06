@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets",
+  "title": "Straight-Line Depreciation of Fixed Assets in the UK",
+  "blob": "0621ec07b3496cac6980dea7e3eeace8afa341c5",
+  "summary": "Define up to 13 accounting periods in depreciation books to calculate straight-line depreciation of fixed assets daily and distribute across periods for British compliance, with options for 360, 365, or 366-day methods.",
+  "systems": [
+    "fixed-assets",
+    "finance"
+  ],
+  "topics": [
+    "depreciation",
+    "fixed assets",
+    "accounting periods",
+    "straight-line",
+    "united kingdom"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Depreciation Book Card"
+    },
+    {
+      "type": "report",
+      "name": "FA - Projected Value"
+    }
+  ],
+  "features": [
+    "13 accounting periods",
+    "daily depreciation calculation",
+    "360/365/366 day methods",
+    "Use Accounting Period toggle"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002834,
+      "pages_in_call": 7
+    }
+  ]
+}

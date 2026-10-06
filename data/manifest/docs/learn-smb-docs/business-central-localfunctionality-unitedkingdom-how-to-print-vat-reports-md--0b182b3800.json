@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-reports",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b5141e562c90005162ce5af6fa123fbfde79a779",
       "words": 532,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:30.047Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.002834
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:30.066Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:30.067Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:30.068Z",
+      "page": false
     }
   },
   "input_hash": "b5141e562c90005162ce5af6fa123fbfde79a779",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b5141e562c90005162ce5af6fa123fbfde79a779"
+  "output_hash": "67fdce32b78ded8e8ace9ccac987f38ddc17459f7497936f36af82f9e0277327"
 }

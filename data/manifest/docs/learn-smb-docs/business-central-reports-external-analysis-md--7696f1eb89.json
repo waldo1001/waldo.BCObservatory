@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports-external-analysis",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8cf8363caca4b724e668fd3bbd0f590065e84ad1",
       "words": 101,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:45.046Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002737
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:45.146Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:45.151Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:45.155Z",
+      "page": false
     }
   },
   "input_hash": "8cf8363caca4b724e668fd3bbd0f590065e84ad1",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8cf8363caca4b724e668fd3bbd0f590065e84ad1"
+  "output_hash": "4ade7c50667525d378a000a9df8cacc2161f54adff8ed61c45888b9bbd97d8cd"
 }

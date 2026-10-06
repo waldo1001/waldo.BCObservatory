@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/receivables-apply-payments-auto-reconcile-bank-accounts",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "355482ffe7808a3698ad8cbffc7f9deb0ab40205",
       "words": 521,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:43.313Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002737
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:45.092Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:45.094Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:45.095Z",
+      "page": false
     }
   },
   "input_hash": "355482ffe7808a3698ad8cbffc7f9deb0ab40205",
@@ -62,5 +81,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "355482ffe7808a3698ad8cbffc7f9deb0ab40205"
+  "output_hash": "80d187a80b88808cd8c0dd6930a9ad16343ab1937cbf928b04266a3468fba5bd"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-date-calculation-for-sales",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fe83ed17fd03db6885ff9cc3b2aff24f89ed1469",
       "words": 343,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:45.064Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002395
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:45.076Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:45.077Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:45.078Z",
+      "page": false
     }
   },
   "input_hash": "fe83ed17fd03db6885ff9cc3b2aff24f89ed1469",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fe83ed17fd03db6885ff9cc3b2aff24f89ed1469"
+  "output_hash": "21e3d12eef645e576f348cdabb92c7ab65ceaa52e4c1b274bbff5f1bf269bc10"
 }

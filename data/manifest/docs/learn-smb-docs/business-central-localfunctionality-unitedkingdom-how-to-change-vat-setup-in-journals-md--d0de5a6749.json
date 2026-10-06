@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "713ab8a22114cbb4c7907cbbbd131468853e58e3",
       "words": 152,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:30.041Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002834
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:30.049Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:30.050Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:30.051Z",
+      "page": false
     }
   },
   "input_hash": "713ab8a22114cbb4c7907cbbbd131468853e58e3",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "713ab8a22114cbb4c7907cbbbd131468853e58e3"
+  "output_hash": "cdfda847f20b69798940e948af0b63a1ed4c1a8c43f9c3d54ad726f34d77c82c"
 }

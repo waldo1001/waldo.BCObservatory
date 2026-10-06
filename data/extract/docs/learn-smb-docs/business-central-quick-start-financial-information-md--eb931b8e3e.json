@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/quick-start-financial-information.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/quick-start-financial-information",
+  "title": "Financial Information Quick Start",
+  "blob": "301860df47c344f95b2b0bf07a8113ba5bcb9281",
+  "summary": "Chart of accounts and bank account setup guide that helps users establish the foundational financial structure in Business Central for managing company finances, accounting practices, and banking transactions.",
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "chart of accounts",
+    "gl accounts",
+    "bank accounts",
+    "financial setup",
+    "posting groups"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "G/L Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts Overview"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Bank Accounts"
+    }
+  ],
+  "features": [
+    "chart of accounts",
+    "account categories",
+    "posting groups",
+    "bank account registration",
+    "account structure"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002737,
+      "pages_in_call": 8
+    }
+  ]
+}

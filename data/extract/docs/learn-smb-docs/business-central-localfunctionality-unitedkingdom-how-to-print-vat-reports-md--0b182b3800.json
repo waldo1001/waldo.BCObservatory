@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-reports",
+  "title": "Print VAT Reports [GB]",
+  "blob": "b5141e562c90005162ce5af6fa123fbfde79a779",
+  "summary": "Print Day Book and Unposted reports in the British version to display VAT entries, customer ledger entries, vendor ledger entries, and unposted sales or purchase documents.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "vat reporting",
+    "day books",
+    "unposted documents",
+    "united kingdom"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Day Book VAT Entry"
+    },
+    {
+      "type": "report",
+      "name": "Day Book Cust. Ledger Entry"
+    },
+    {
+      "type": "report",
+      "name": "Unposted Sales"
+    },
+    {
+      "type": "report",
+      "name": "Day Book Vendor Ledger Entry"
+    },
+    {
+      "type": "report",
+      "name": "Unposted Purchases"
+    }
+  ],
+  "features": [
+    "Show Amounts in Add. Reporting Currency",
+    "Print Cust. Ledger Details",
+    "Print G/L Entry Details",
+    "Show Amounts in LCY"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002834,
+      "pages_in_call": 7
+    }
+  ]
+}

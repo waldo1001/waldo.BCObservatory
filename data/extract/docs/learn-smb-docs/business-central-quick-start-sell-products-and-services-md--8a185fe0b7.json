@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/quick-start-sell-products-and-services.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/quick-start-sell-products-and-services",
+  "title": "Sales Quick Start",
+  "blob": "710a3291c566d1b4f1f88c270ec0d05f5d42a792",
+  "summary": "Sales setup and order management guide that demonstrates how to configure items and customers, then create sales orders and invoices for selling products and services.",
+  "systems": [
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "sales orders",
+    "sales invoices",
+    "customers",
+    "items",
+    "sales management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoices"
+    }
+  ],
+  "features": [
+    "customer setup",
+    "item setup",
+    "sales orders",
+    "sales invoices",
+    "partial shipments",
+    "discount management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002737,
+      "pages_in_call": 8
+    }
+  ]
+}

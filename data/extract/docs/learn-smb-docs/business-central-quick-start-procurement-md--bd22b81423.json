@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/quick-start-procurement.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/quick-start-procurement",
+  "title": "Procurement Quick Start",
+  "blob": "286a00ded8af0954b115be7cf8a8c88e5b2e53e0",
+  "summary": "Procurement setup and purchase order management guide that shows how to configure vendors and create purchase orders and invoices for managing business purchases.",
+  "systems": [
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "vendors",
+    "purchase orders",
+    "purchase invoices",
+    "procurement",
+    "purchasing process"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoices"
+    }
+  ],
+  "features": [
+    "vendor setup",
+    "purchase orders",
+    "purchase invoices",
+    "partial receipts",
+    "discount management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002737,
+      "pages_in_call": 8
+    }
+  ]
+}

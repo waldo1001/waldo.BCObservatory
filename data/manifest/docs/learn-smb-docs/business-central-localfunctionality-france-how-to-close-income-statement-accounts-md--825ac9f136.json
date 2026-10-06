@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-close-income-statement-accounts",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2f1ef5356e1e90592e6fe69fb5ce0a60ca6d3da7",
       "words": 168,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:45.075Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002395
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:45.183Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:45.184Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:45.185Z",
+      "page": false
     }
   },
   "input_hash": "2f1ef5356e1e90592e6fe69fb5ce0a60ca6d3da7",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2f1ef5356e1e90592e6fe69fb5ce0a60ca6d3da7"
+  "output_hash": "c3e9770124587704e5ea0566ec2240af361985e5ffac13642dd1298e22019c12"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "44bfd1d37bef189430b2280d56a177042e62be1d",
       "words": 152,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:30.045Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002834
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:30.059Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:30.060Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:30.061Z",
+      "page": false
     }
   },
   "input_hash": "44bfd1d37bef189430b2280d56a177042e62be1d",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "44bfd1d37bef189430b2280d56a177042e62be1d"
+  "output_hash": "ca17a3fa8cde442ee2b324909534f25fcd5ed5fa8a61177ab647e23a34cacb40"
 }

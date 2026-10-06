@@ -1,0 +1,103 @@
+{
+  "video_id": "XJ0JHHQ7GzA",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.4,
+      "end": 17.9,
+      "text": "In this video, we're going to take a look at posting setup in Dynamics SL and compare that to the experience of defining posting groups in Business Central. Setting up default posting accounts in SL helps simplify and reduce errors and inconsistencies when posting transactions."
+    },
+    {
+      "t": 17.9,
+      "end": 32.2,
+      "text": "Once the accounts are set up, they will default on transaction entry windows. In this example, we have defined accounts for default accounts in AP setup and AR setup, including invoicing and payment accounts."
+    },
+    {
+      "t": 32.2,
+      "end": 48,
+      "text": "If I go to one of the customers in SL, I can see that the customer is assigned to a specific class. And in that class, we have categorized those transactions posted from customers in this class to use different accounts."
+    },
+    {
+      "t": 48,
+      "end": 56.7,
+      "text": "In rare cases, you can define more granularly and enter in unique accounts for individual customers."
+    },
+    {
+      "t": 56.7,
+      "end": 68.4,
+      "text": "Similar logic can be applied to vendors and items. Now, let's look at Business Central and how we configure posting accounts and define defaults."
+    },
+    {
+      "t": 68.4,
+      "end": 80.7,
+      "text": "Business Central uses posting groups to tie customers, vendors, and items to GL accounts. There are several different types of posting groups in Business Central."
+    },
+    {
+      "t": 80.7,
+      "end": 91.6,
+      "text": "Business posting groups focus on who you are buying and selling to. Product posting groups focus on what you are buying and selling."
+    },
+    {
+      "t": 91.6,
+      "end": 106.6,
+      "text": "Let's take a closer look in the business posting groups. You can group master data like customers into regions, segments, industries, or however your business wants to categorize sales and purchases for reporting."
+    },
+    {
+      "t": 106.6,
+      "end": 118.4,
+      "text": "Product posting groups focus on what you sell or buy. You may distinguish on product lines or by use like manufacturing, retail, or services."
+    },
+    {
+      "t": 118.4,
+      "end": 127.4,
+      "text": "General posting setup is where you will put these two concepts together, combining the who with the what."
+    },
+    {
+      "t": 127.4,
+      "end": 141.8,
+      "text": "In this example, we are indicating who are enterprise customers with the what, which is equipment, and then we can define the sales, cost of goods sold account, and other relevant accounts."
+    },
+    {
+      "t": 141.8,
+      "end": 154.7,
+      "text": "Now, let's look at a customer and see where we can assign these posting groups. On my customer card, I can see I have assigned the enterprise general business posting group and the customer posting domestic."
+    },
+    {
+      "t": 154.7,
+      "end": 162,
+      "text": "The customer group is where you define your AR and discount accounts."
+    },
+    {
+      "t": 162,
+      "end": 175.6,
+      "text": "Now, let's create a sales invoice and see how the accounts all get defaulted into the transactions. Similar to the customer posting groups, all items also have an inventory posting group."
+    },
+    {
+      "t": 175.6,
+      "end": 183.9,
+      "text": "The inventory posting group is where you can define accounts based on item classification and location."
+    },
+    {
+      "t": 183.9,
+      "end": 195.5,
+      "text": "Finally, let's preview posting for the invoice so we can see the GL accounts that will be used when posting. You can see the inventory account is pulled from the inventory posting group."
+    },
+    {
+      "t": 195.5,
+      "end": 208,
+      "text": "We just saw the cost of goods sold and sales accounts are being pulled from the posting setup where we define the what from the product posting group and the who from the general business posting."
+    },
+    {
+      "t": 208,
+      "end": 220.8,
+      "text": "Finally, the accounts receivable account from my customer posting group. And that's a look at how posting groups can be set up in Business Central with similar posting outcomes as SL."
+    },
+    {
+      "t": 220.8,
+      "end": 227.2,
+      "text": "To learn more about Business Central, see the following resources."
+    }
+  ],
+  "markers": [],
+  "word_count": 520
+}

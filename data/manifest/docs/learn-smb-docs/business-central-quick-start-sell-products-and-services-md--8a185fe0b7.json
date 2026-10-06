@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/quick-start-sell-products-and-services",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "710a3291c566d1b4f1f88c270ec0d05f5d42a792",
       "words": 767,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:43.312Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002737
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:45.088Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:45.089Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:45.090Z",
+      "page": false
     }
   },
   "input_hash": "710a3291c566d1b4f1f88c270ec0d05f5d42a792",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "710a3291c566d1b4f1f88c270ec0d05f5d42a792"
+  "output_hash": "ad62100c89220be0bbbe79bd272160e17dad0e9320a9c54c2c3631b6612a05bb"
 }

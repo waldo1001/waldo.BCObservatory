@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals",
+  "title": "Change VAT Setup in Journals",
+  "blob": "713ab8a22114cbb4c7907cbbbd131468853e58e3",
+  "summary": "Change VAT setup in journals for the British version of Business Central by selecting a checkbox to copy VAT setup to journal lines, or clearing it when items have no VAT.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "vat setup",
+    "journals",
+    "united kingdom",
+    "localization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journals"
+    },
+    {
+      "type": "page",
+      "name": "General Journal Batches"
+    }
+  ],
+  "features": [
+    "Copy VAT Setup to Jnl. Lines",
+    "VAT information in journal lines"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002834,
+      "pages_in_call": 7
+    }
+  ]
+}

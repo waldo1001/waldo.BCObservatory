@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat",
+  "title": "Set Up Reverse Charges on VAT [UK]",
+  "blob": "1c0aa004e8bab2a0e623cdddd0b150b2f08b50e4",
+  "summary": "Set up reverse charge VAT in the British version to prevent carousel fraud on electronic goods and integrated circuit devices, using VAT business posting groups and item card settings.",
+  "systems": [
+    "finance",
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "reverse charge vat",
+    "carousel fraud",
+    "mtic",
+    "electronic goods",
+    "united kingdom"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Business Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchases & Payables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "report",
+      "name": "Reverse Charge Sales List"
+    }
+  ],
+  "features": [
+    "Reverse Charge VAT accounting",
+    "Reverse Charge Sales List report",
+    "Reverse Charge Applies field"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002834,
+      "pages_in_call": 7
+    }
+  ]
+}

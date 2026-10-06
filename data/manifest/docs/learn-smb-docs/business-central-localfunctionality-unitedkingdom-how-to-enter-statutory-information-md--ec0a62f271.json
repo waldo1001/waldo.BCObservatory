@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2a466dfbaa9b52856f23e201013fa9632dfc0e8c",
       "words": 168,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:30.043Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002834
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:30.055Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:30.056Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:30.057Z",
+      "page": false
     }
   },
   "input_hash": "2a466dfbaa9b52856f23e201013fa9632dfc0e8c",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2a466dfbaa9b52856f23e201013fa9632dfc0e8c"
+  "output_hash": "19e719be84485340a9cd00ccfbc14e2ceeb9c37faca90f20f8b3e34a12fb800c"
 }

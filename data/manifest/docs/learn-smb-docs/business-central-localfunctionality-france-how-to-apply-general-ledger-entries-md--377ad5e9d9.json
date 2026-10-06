@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-apply-general-ledger-entries",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c2687aebe154e6cea264810ee64d7ded025c2356",
       "words": 279,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:45.070Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002395
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:45.174Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:45.175Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:45.176Z",
+      "page": false
     }
   },
   "input_hash": "c2687aebe154e6cea264810ee64d7ded025c2356",
@@ -52,5 +71,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c2687aebe154e6cea264810ee64d7ded025c2356"
+  "output_hash": "1b4dbd387fb55299e9e8c116e28007991373fb010887f1a47c5053276077263d"
 }

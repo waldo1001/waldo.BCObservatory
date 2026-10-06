@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-calculate-accelerated-depreciation",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bf8f9809b55183be6c195c5a054fea492bc9022d",
       "words": 508,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:45.073Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002395
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:45.180Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:45.181Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:45.182Z",
+      "page": false
     }
   },
   "input_hash": "bf8f9809b55183be6c195c5a054fea492bc9022d",
@@ -52,5 +71,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bf8f9809b55183be6c195c5a054fea492bc9022d"
+  "output_hash": "2c75b9268e598f74499404ab74415b4b9e3c512577a9dee9f44d01e36174d2f6"
 }

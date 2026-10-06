@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information",
+  "title": "Enter Statutory Information [UK]",
+  "blob": "2a466dfbaa9b52856f23e201013fa9632dfc0e8c",
+  "summary": "Enter statutory information required by law in the British version on the Company Information page, including registration details, registered address, and contact information.",
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "statutory information",
+    "company information",
+    "united kingdom",
+    "compliance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    }
+  ],
+  "features": [
+    "Registration No.",
+    "Registered Name",
+    "Registered Address",
+    "Registered Address 2",
+    "Registered City",
+    "Registered County",
+    "Registered Post Code",
+    "Branch Number",
+    "Contact Name"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002834,
+      "pages_in_call": 7
+    }
+  ]
+}

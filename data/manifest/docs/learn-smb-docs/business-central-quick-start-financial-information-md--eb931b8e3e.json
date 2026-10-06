@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/quick-start-financial-information",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "301860df47c344f95b2b0bf07a8113ba5bcb9281",
       "words": 527,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:43.310Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.002737
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:45.049Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:45.049Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:45.050Z",
+      "page": false
     }
   },
   "input_hash": "301860df47c344f95b2b0bf07a8113ba5bcb9281",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "301860df47c344f95b2b0bf07a8113ba5bcb9281"
+  "output_hash": "3553f1498d6907f7e59a2064ab7ca8706c1a6d49b76a83d75e2f6034b7d286e6"
 }

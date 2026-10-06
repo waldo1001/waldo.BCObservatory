@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-archive-payment-slips",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "573d48880ce1f9062bdabe6843e5aa64e0b93eb2",
       "words": 232,
       "forms": 18
+    },
+    "extracted": {
+      "at": "2026-10-06T19:28:45.071Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002395
+    },
+    "summarized": {
+      "at": "2026-10-06T19:28:45.177Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:28:45.178Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:28:45.179Z",
+      "page": false
     }
   },
   "input_hash": "573d48880ce1f9062bdabe6843e5aa64e0b93eb2",
@@ -129,5 +148,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "573d48880ce1f9062bdabe6843e5aa64e0b93eb2"
+  "output_hash": "2ba8495646381458f291252576a2755ec67c3fe25dd14ab75315eff6d0c7ce0f"
 }

@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-date-calculation-for-sales.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-date-calculation-for-sales",
+  "title": "Delivery date calculation for sales",
+  "blob": "fe83ed17fd03db6885ff9cc3b2aff24f89ed1469",
+  "summary": "Delivery date calculation for sales orders determines when items must be available for picking based on requested delivery dates or calculates the earliest possible delivery date using shipping time and warehouse handling time formulas.",
+  "systems": [
+    "sales",
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "delivery date",
+    "sales order",
+    "shipment date",
+    "date calculation",
+    "warehouse handling"
+  ],
+  "objects": [],
+  "features": [
+    "requested delivery date",
+    "planned shipment date",
+    "outbound warehouse handling time",
+    "shipping time",
+    "earliest possible delivery date"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002395,
+      "pages_in_call": 8
+    }
+  ]
+}
