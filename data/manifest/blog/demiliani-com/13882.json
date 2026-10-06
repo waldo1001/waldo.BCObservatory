@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/06/18/dynamics-365-business-central-using-al-mcp-server-from-github-copilot-cli/",
   "published_at": "2026-06-18T13:01:41.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:55:15.350Z",
+      "path": "vault:posts/demiliani-com/13882.md",
+      "words": 387
+    },
+    "extracted": {
+      "at": "2026-10-06T21:55:23.158Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.005635
+    },
+    "summarized": {
+      "at": "2026-10-06T21:55:23.159Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:55:23.159Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:55:23.164Z",
+      "path": "content/posts/demiliani-com/13882.md"
     }
   },
   "input_hash": "2026-06-18T13:01:41.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1823ffee6dc53d93c460817a1c4c66750c4f9fba92da50fdef6a7a09594b3589"
 }

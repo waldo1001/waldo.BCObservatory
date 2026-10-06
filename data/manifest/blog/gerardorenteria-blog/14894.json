@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2026/06/21/%f0%9f%92%b8the-answer-is-the-expensive-part-controlling-output-tokens/",
   "published_at": "2026-06-21T12:26:21.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:55:04.779Z",
+      "path": "vault:posts/gerardorenteria-blog/14894.md",
+      "words": 3613
+    },
+    "extracted": {
+      "at": "2026-10-06T21:55:20.671Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.026101
+    },
+    "summarized": {
+      "at": "2026-10-06T21:55:20.672Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:55:20.673Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:55:20.677Z",
+      "path": "content/posts/gerardorenteria-blog/14894.md"
     }
   },
   "input_hash": "2026-06-21T12:26:29.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8c77d7ad3b226e812a519a871a941dc16471a3e7636752fcc555def88c15642e"
 }

@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/06/19/using-power-automate-for-business-central-sftp/",
   "published_at": "2026-06-19T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:55:06.014Z",
+      "path": "vault:posts/aardvarklabs-blog/3631.md",
+      "words": 1040
+    },
+    "extracted": {
+      "at": "2026-10-06T21:55:14.918Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.007395
+    },
+    "summarized": {
+      "at": "2026-10-06T21:55:14.920Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:55:14.920Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:55:14.924Z",
+      "path": "content/posts/aardvarklabs-blog/3631.md"
     }
   },
   "input_hash": "2026-07-14T12:55:17.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dcf75f742cafa4379e164a57d3fe75ff495b69d1867c133d133dc90fdf0248ce"
 }

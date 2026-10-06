@@ -1,0 +1,52 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-14-20-2026/",
+  "url": "https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-14-20-2026/",
+  "title": "Weekly Review: Business Central AL Development – June 14–20, 2026",
+  "source": "dvlprlife-com",
+  "published_at": "2026-06-22T13:00:00.000Z",
+  "words": 348,
+  "summary": "The AL MCP Server allows GitHub Copilot CLI to access AL development tools like symbol download, compilation, and diagnostics without VS Code, enabling agent-driven validation workflows. This post explains setup and practical CLI-based agent scenarios for automating AL development tasks.",
+  "key_points": [
+    "AL MCP Server exposes AL development tools to GitHub Copilot CLI through STDIO protocol",
+    "Setup requires installing the global .NET package microsoft.dynamics.businesscentral.development.tools and configuring the MCP server",
+    "Available tools include al_downloadsymbols, al_compile, al_getdiagnostics, and al_publish for automated workflows",
+    "CLI agents can refresh symbols, compile projects, inspect diagnostics, and run AppSourceCop checks without VS Code"
+  ],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "al language",
+    "cli agents",
+    "mcp server",
+    "github copilot",
+    "development tools",
+    "automation"
+  ],
+  "objects": [],
+  "features": [
+    "AL MCP Server",
+    "GitHub Copilot CLI integration",
+    "Symbol download",
+    "AL compilation",
+    "Diagnostics inspection",
+    "AppSourceCop checks"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004957,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The AL MCP Server and how it lets GitHub Copilot CLI call AL development tools without relying on VS Code.",
+      "why_it_matters": "Enables CLI-based AI agents to perform AL development tasks independently, expanding automation possibilities beyond traditional IDE workflows."
+    }
+  ]
+}

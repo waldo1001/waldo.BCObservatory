@@ -1,0 +1,115 @@
+{
+  "item_id": "blog/gerardorenteria-blog/14816",
+  "url": "https://gerardorenteria.blog/2026/06/11/world-cup-in-business-central-predictions-and-results-%e2%9a%bd%f0%9f%a5%85/",
+  "title": "World Cup in Business Central: predictions and results ⚽🥅",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-06-11T11:51:57.000Z",
+  "words": 1336,
+  "summary": "A World Cup prediction extension for Business Central that lets users share forecasts, track matches imported from a JSON source, register predictions, and compete on a leaderboard with automatic scoring based on exact scores or correct outcomes.",
+  "key_points": [
+    "Extension imports World Cup matches from public JSON sources and displays date, time, round, group, teams, stadium, and results",
+    "Users enter predictions for each match and earn points automatically: 3 for exact score, 1 for correct outcome",
+    "Leaderboard ranks users by total points and tracks exact hits and correct outcomes across all predictions",
+    "Role Center widget visualizes World Cup matches and results; setup page configures the external data source URL",
+    "Solution includes tables for matches and predictions, pages for calendar and forecasts, codeunits for import and scoring logic, and control add-in for visual display"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "extension",
+    "sample solution",
+    "user interface",
+    "data import",
+    "leaderboard",
+    "gamification"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "GDRGWCMatch"
+    },
+    {
+      "type": "page",
+      "name": "GDRGWCMatchList"
+    },
+    {
+      "type": "table",
+      "name": "GDRGWCPrediction"
+    },
+    {
+      "type": "page",
+      "name": "GDRGWCPredictionList"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGWCPredictionMgt"
+    },
+    {
+      "type": "table",
+      "name": "GDRGWCLeaderboard"
+    },
+    {
+      "type": "page",
+      "name": "GDRGWCLeaderboard"
+    },
+    {
+      "type": "table",
+      "name": "GDRGWCSetup"
+    },
+    {
+      "type": "page",
+      "name": "GDRGWCSetup"
+    },
+    {
+      "type": "codeunit",
+      "name": "GDRGWCImport"
+    },
+    {
+      "type": "page",
+      "name": "GDRGWorldCupScoresPart"
+    },
+    {
+      "type": "page",
+      "name": "GDRGRCWorldCup"
+    },
+    {
+      "type": "other",
+      "name": "GDRGWorldCupScoresViewer.ControlAddIn"
+    }
+  ],
+  "features": [
+    "Match import from external JSON",
+    "User predictions per match",
+    "Automatic point calculation",
+    "Leaderboard ranking",
+    "Match filtering and refresh",
+    "Role Center widget",
+    "External data source configuration",
+    "Competitive scoring system"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012879,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The extension setup allows the source URL to be configured.",
+      "why_it_matters": "Shows how the solution provides flexibility for connecting to different external data sources"
+    },
+    {
+      "text": "The scoring logic is simple: 3 points for an exact score prediction. 1 point for predicting the correct match outcome.",
+      "why_it_matters": "Explains the core gamification mechanism that motivates user engagement"
+    },
+    {
+      "text": "The leaderboard brings all predictions together into a general ranking that makes it easy to see who is leading.",
+      "why_it_matters": "Describes how the extension creates social competition and user engagement through visible rankings"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/gerardorenteria-blog/14894",
+  "url": "https://gerardorenteria.blog/2026/06/21/%f0%9f%92%b8the-answer-is-the-expensive-part-controlling-output-tokens/",
+  "title": "💸The answer is the expensive part: controlling output tokens",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-06-21T12:26:21.000Z",
+  "words": 3613,
+  "summary": "Output tokens cost 6× more than input tokens in large language models, making it essential to control what Copilot writes rather than just what you send. The post explains hidden reasoning tokens and provides practical habits and prompt instructions to reduce output costs when using Copilot for AL development and code changes.",
+  "key_points": [
+    "Output tokens are 6 times more expensive than input tokens because the model generates responses word-by-word, requiring multiple neural network passes",
+    "Reasoning tokens (used for planning and self-correction in advanced models) are billed as output even when invisible on screen",
+    "Surgical prompts requesting specific changes (e.g., modifying only a procedure instead of rewriting entire codeunits) can reduce costs by 19×",
+    "Agent mode costs scale nonlinearly with iterations; use Ask mode for understanding, Plan for decisions, and Agent only for execution",
+    "Permanent conciseness instructions and clear output format constraints (diff only, no prose, no alternatives) provide recurring high savings across all prompts"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "copilot optimization",
+    "token costs",
+    "output control",
+    "al development",
+    "prompt engineering",
+    "reasoning tokens",
+    "cost efficiency"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "PostSalesLine"
+    },
+    {
+      "type": "codeunit",
+      "name": "InsertCustomer"
+    }
+  ],
+  "features": [
+    "Agent mode",
+    "Ask mode",
+    "Plan mode",
+    "Reasoning effort calibration",
+    "Output format constraints",
+    "Conciseness instructions",
+    "Prompt engineering for cost reduction",
+    "Context management"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.026101,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Each token the model writes costs us about 6× what each token we send does.",
+      "why_it_matters": "This fundamental price difference means controlling output is more impactful than controlling input, changing the entire optimization strategy"
+    }
+  ]
+}

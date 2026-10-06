@@ -1,0 +1,72 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3631",
+  "url": "https://aardvarklabs.blog/2026/06/19/using-power-automate-for-business-central-sftp/",
+  "title": "Using Power Automate for Business Central SFTP",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-06-19T12:00:00.000Z",
+  "words": 1040,
+  "summary": "Using Power Automate for Business Central SFTP handles file uploads by creating a table with BLOB storage, an API page for integration, and a Power Automate flow that retrieves files from SFTP servers and stores them in Business Central for processing.",
+  "key_points": [
+    "Create a table with BLOB field to store file content and supporting pages for UI management",
+    "Build an API page with System ID and ODataKeyFields to enable Power Automate to interact with the table",
+    "Use Power Automate to retrieve SFTP files and post them to Business Central via the API in two steps: create record then upload file content",
+    "The approach also works in reverse to push Business Central documents to SFTP servers using Business Events",
+    "Downloaded files can be processed by existing delimited data parsers within Business Central"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "sftp",
+    "power automate",
+    "file handling",
+    "api",
+    "blob storage",
+    "automation",
+    "file import"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "ARD_PA_FTPPush"
+    },
+    {
+      "type": "page",
+      "name": "ARD_FTPPushAPI"
+    },
+    {
+      "type": "page",
+      "name": "ARD_FTPFiles"
+    },
+    {
+      "type": "page",
+      "name": "ARD_FTP File Card"
+    }
+  ],
+  "features": [
+    "Power Automate integration",
+    "SFTP file retrieval",
+    "BLOB file storage",
+    "Custom API pages",
+    "File processing automation",
+    "Business Event triggers"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007395,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "For this example, we are going to use Power Automate.",
+      "why_it_matters": "Establishes Power Automate as the external service for handling SFTP communication outside Business Central's AL code space"
+    }
+  ]
+}

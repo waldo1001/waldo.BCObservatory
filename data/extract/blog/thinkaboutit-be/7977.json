@@ -1,0 +1,86 @@
+{
+  "item_id": "blog/thinkaboutit-be/7977",
+  "url": "https://thinkaboutit.be/2026/06/quick-tip-whats-in-business-central-update-28-2/",
+  "title": "Quick Tip: What’s in Business Central Update 28.2",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-06-11T13:50:50.000Z",
+  "words": 825,
+  "summary": "Business Central Update 28.2 (June 2026) introduces meaningful feature enhancements alongside hotfixes, including improvements to the Sales Order Agent for multilingual support, Quality Management reports with Word layouts as default, financial features like withholding tax and self-billed invoices, new Reporting and Data Analysis APIs, country-specific capabilities for payments and electronic invoicing, and sustainability APIs for data exchange.",
+  "key_points": [
+    "Sales Order Agent now supports Belgium and Switzerland with optimized text search language settings for accurate multilingual item lookups, and filters out inline email attachments to reduce Copilot Credits consumption",
+    "Quality Management features reach general availability with Word layouts as the default for printable reports, ability to print directly from Quality Inspection cards, easier Report Selection page access, and integrated demo data installer",
+    "Financial management enhancements include withholding tax calculation for vendors as standard and self-billed invoices for buyer-issued supplier invoices, with accelerated depreciation methods in public preview",
+    "Three new API endpoints for auditing and reporting enable analysis of approval workflows and permissions, plus PDF document retrieval via API for integration scenarios",
+    "Cross-geography data movement for Copilot and agent requests may occur from 1 July 2026; customers should review and configure preferences on the Copilot & agent capabilities page before that date"
+  ],
+  "systems": [
+    "copilot",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "sales order agent",
+    "quality management",
+    "financial management",
+    "api",
+    "electronic documents",
+    "sustainability",
+    "localization",
+    "hotfixes"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Optimised Text Search Language Setup"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection – Quality Management"
+    },
+    {
+      "type": "page",
+      "name": "Quality Manager Role Center"
+    },
+    {
+      "type": "page",
+      "name": "Quality Inspection"
+    },
+    {
+      "type": "page",
+      "name": "Quality Inspections"
+    },
+    {
+      "type": "page",
+      "name": "Quality Management Setup"
+    },
+    {
+      "type": "page",
+      "name": "Copilot & agent capabilities"
+    }
+  ],
+  "features": [
+    "Sales Order Agent with multilingual support",
+    "Quality Management Word layouts",
+    "Withholding tax calculation",
+    "Self-billed invoices",
+    "Accelerated depreciation methods",
+    "Reporting and Data Analysis APIs",
+    "E-Document payments framework",
+    "Sustainability APIs"
+  ],
+  "versions": [
+    "2026 Release Wave 1",
+    "Update 28.2",
+    "28.0"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007548,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

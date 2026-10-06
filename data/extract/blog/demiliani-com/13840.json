@@ -1,0 +1,56 @@
+{
+  "item_id": "blog/demiliani-com/13840",
+  "url": "https://demiliani.com/2026/06/16/securely-accessing-an-azure-openai-model-from-an-azure-logic-apps-standard-ai-agent-using-a-private-endpoint/",
+  "title": "Securely accessing an Azure OpenAI model from an Azure Logic Apps Standard AI agent using a Private Endpoint.",
+  "source": "demiliani-com",
+  "published_at": "2026-06-16T07:56:52.000Z",
+  "words": 1897,
+  "summary": "Azure Logic Apps Standard can securely connect to Azure OpenAI through a private endpoint without public internet exposure. The post explains how to configure a virtual network with subnets, create a private endpoint for Azure OpenAI, disable public access, enable VNet integration on Logic Apps, and use managed identity authentication instead of API keys.",
+  "key_points": [
+    "Private endpoint creates a private network interface for Azure OpenAI accessible via a private IP within the VNet",
+    "Logic Apps Standard requires VNet integration with subnet delegation to route outbound traffic privately",
+    "System-assigned managed identity replaces API key authentication, following least privilege with Cognitive Services OpenAI User role",
+    "DNS resolution within VNet returns the private IP, while external traffic sees public IP which is disabled after setup",
+    "All traffic flows through Microsoft backbone network infrastructure, never reaching the public internet"
+  ],
+  "systems": [
+    "integration",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "azure openai",
+    "private endpoint",
+    "security",
+    "managed identity",
+    "logic apps",
+    "vnet integration",
+    "ai agents"
+  ],
+  "objects": [],
+  "features": [
+    "Agent Loop capability",
+    "Private Endpoint configuration",
+    "Virtual Network integration",
+    "System-assigned Managed Identity",
+    "Cognitive Services OpenAI User role",
+    "Private DNS Zone",
+    "VNet subnet delegation"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012418,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "All traffic flows privately. No data traverses the public internet.",
+      "why_it_matters": "Summarizes the security goal achieved by the architecture described"
+    }
+  ]
+}

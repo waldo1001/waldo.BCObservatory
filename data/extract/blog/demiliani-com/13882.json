@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/demiliani-com/13882",
+  "url": "https://demiliani.com/2026/06/18/dynamics-365-business-central-using-al-mcp-server-from-github-copilot-cli/",
+  "title": "Dynamics 365 Business Central: using AL MCP Server from GitHub Copilot CLI.",
+  "source": "demiliani-com",
+  "published_at": "2026-06-18T13:01:41.000Z",
+  "words": 387,
+  "summary": "The AL MCP Server exposes AL development tools through the Model Context Protocol, allowing CLI-based AI agents to perform AL operations like building, compiling, and publishing without Visual Studio Code. Install via dotnet tool and configure in GitHub Copilot CLI to automate AL development workflows in CI/CD pipelines and agent-driven scenarios.",
+  "key_points": [
+    "AL MCP Server runs as a standalone process that exposes AL development tools over the Model Context Protocol for any MCP-compatible AI agent",
+    "Install via dotnet tool command: dotnet tool install --global microsoft.dynamics.businesscentral.development.tools --prerelease",
+    "Configure in GitHub Copilot CLI by adding MCP server with name, selecting STDIO type, and entering command: al launchmcpserver",
+    "Enables automated workflows where agents call AL tools in sequence like al_downloadsymbols, al_compile, and al_getdiagnostics for CI/CD validation",
+    "Supports AppSource validation by running code analysis with AppSourceCop and filtering diagnostics by specific areas"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "copilot"
+  ],
+  "topics": [
+    "al tools",
+    "mcp protocol",
+    "github copilot",
+    "cli",
+    "automation",
+    "ci/cd",
+    "code compilation",
+    "agent workflows"
+  ],
+  "objects": [],
+  "features": [
+    "AL MCP Server",
+    "Model Context Protocol integration",
+    "Symbol download",
+    "Code compilation",
+    "Publishing extensions",
+    "Diagnostics",
+    "Code analysis",
+    "AppSource validation"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005635,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "It runs as a separate process and doesn't require Visual Studio Code.",
+      "why_it_matters": "Highlights the key advantage for CI/CD pipelines and headless automation scenarios"
+    }
+  ]
+}

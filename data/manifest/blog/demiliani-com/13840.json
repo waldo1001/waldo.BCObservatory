@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/06/16/securely-accessing-an-azure-openai-model-from-an-azure-logic-apps-standard-ai-agent-using-a-private-endpoint/",
   "published_at": "2026-06-16T07:56:52.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:55:21.141Z",
+      "path": "vault:posts/demiliani-com/13840.md",
+      "words": 1897
+    },
+    "extracted": {
+      "at": "2026-10-06T21:55:29.535Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.012418
+    },
+    "summarized": {
+      "at": "2026-10-06T21:55:29.537Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:55:29.537Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:55:29.541Z",
+      "path": "content/posts/demiliani-com/13840.md"
     }
   },
   "input_hash": "2026-06-16T07:56:52.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "51ee50433a90bb81edd6f54666d443bb7427f6d37b7c157494ba4e3d4a9a7b22"
 }

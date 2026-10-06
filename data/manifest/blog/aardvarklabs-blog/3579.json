@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/06/12/creating-a-low-cost-rfid-system-with-business-central-and-power-automate/",
   "published_at": "2026-06-12T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:55:29.988Z",
+      "path": "vault:posts/aardvarklabs-blog/3579.md",
+      "words": 2551
+    },
+    "extracted": {
+      "at": "2026-10-06T21:55:41.099Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.019768
+    },
+    "summarized": {
+      "at": "2026-10-06T21:55:41.100Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:55:41.101Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:55:41.105Z",
+      "path": "content/posts/aardvarklabs-blog/3579.md"
     }
   },
   "input_hash": "2026-06-03T01:16:36.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0344c6aa78772fafc12a90f8b1408cc70c24f7d326d1b8aa7ab5e25a48ac1192"
 }

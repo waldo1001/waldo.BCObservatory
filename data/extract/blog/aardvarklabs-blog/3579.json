@@ -1,0 +1,79 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3579",
+  "url": "https://aardvarklabs.blog/2026/06/12/creating-a-low-cost-rfid-system-with-business-central-and-power-automate/",
+  "title": "Creating a Low-Cost RFID System with Business Central and Power Automate",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-06-12T12:00:00.000Z",
+  "words": 2551,
+  "summary": "Building a low-cost RFID scan-in and scan-out system using an ESP32 microcontroller, PN532 RFID reader, Power Automate, and Business Central tables. The system captures location-based scans for resource tracking, automatically handles edge cases like forgotten scan-outs, and stores results in two related tables for monitoring.",
+  "key_points": [
+    "Hardware uses ESP32 DEVKIT V1 and PN532 RFID scanner with I2C wiring on a breadboard, configured via web portal to connect to Power Automate",
+    "Power Automate acts as middleware between the ESP32 and Business Central, receiving JSON scan data and forwarding it via API",
+    "Business Central processes scans through two tables: ARD_Scans stores raw data, ARD_ScanTracker handles scan-in/out logic with automatic edge-case handling",
+    "When a tag scans at a new location without scanning out from the previous location, the system auto-completes the previous scan-out and flags it for review",
+    "Scan data flows from hardware to Power Automate HTTP trigger, then to Business Central API page, with an OnInsert trigger automating the scan logic"
+  ],
+  "systems": [
+    "integration",
+    "warehouse",
+    "projects"
+  ],
+  "topics": [
+    "rfid",
+    "iot",
+    "esp32",
+    "power automate",
+    "api",
+    "resource tracking",
+    "hardware integration",
+    "scan-in/out"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "ARD_ScanTracker"
+    },
+    {
+      "type": "table",
+      "name": "ARD_Scans"
+    },
+    {
+      "type": "page",
+      "name": "ARD_ScanTracker"
+    },
+    {
+      "type": "page",
+      "name": "ARD_RawScans"
+    },
+    {
+      "type": "page",
+      "name": "ARD_ScanTrackerAPI"
+    }
+  ],
+  "features": [
+    "RFID scanning",
+    "IoT integration",
+    "Power Automate connectivity",
+    "Automatic scan-out logic",
+    "Edge-case handling",
+    "Local scan buffering",
+    "JSON API communication",
+    "Configuration portal"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.019768,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "From this design the possibilities really open up. We can associate the RFID Tags with resources and track labor, or machine use time.",
+      "why_it_matters": "Demonstrates extensibility potential for using the scan system beyond basic tracking, such as labor analytics and equipment utilization measurement"
+    }
+  ]
+}

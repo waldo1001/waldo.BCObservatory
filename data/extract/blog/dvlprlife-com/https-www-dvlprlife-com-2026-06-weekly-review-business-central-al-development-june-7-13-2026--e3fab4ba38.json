@@ -1,0 +1,77 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-7-13-2026/",
+  "url": "https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-7-13-2026/",
+  "title": "Weekly Review: Business Central AL Development – June 7–13, 2026",
+  "source": "dvlprlife-com",
+  "published_at": "2026-06-15T13:00:00.000Z",
+  "words": 840,
+  "summary": "A weekly roundup of Business Central AL development resources from June 7 - 13, 2026, covering agentic development patterns, AI assistant instructions for developers, AL performance optimization techniques, the new Item - ABC Analysis report in BC28, and a proof-of-concept RFID scanning system integrated via Power Automate.",
+  "key_points": [
+    "Coding agents work best within bounded domains with clear permissions, fast test loops, and agentic review checkpoints before changes escape the sandbox.",
+    "AL teams benefit from persistent assistant instructions that encode platform assumptions, naming conventions, test patterns, and documentation standards.",
+    "AL performance hot paths improve dramatically by batching stream I/O, using TextBuilder, replacing byte-level functions with lookup tables, and avoiding repeated codeunit calls.",
+    "BC28 includes a new Item - ABC Analysis report that classifies inventory into A, B, C categories by sales amount with configurable thresholds and Excel export options.",
+    "Low-cost RFID integration is feasible using an ESP32 reader, Power Automate HTTP trigger, and Business Central API pages for scan tracking."
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "inventory"
+  ],
+  "topics": [
+    "al development",
+    "coding agents",
+    "performance optimization",
+    "ai assistants",
+    "rfid integration",
+    "inventory analytics",
+    "power automate",
+    "bc28"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Item – ABC Analysis"
+    },
+    {
+      "type": "page",
+      "name": "ABC Analysis Setup"
+    },
+    {
+      "type": "api",
+      "name": "Business Central API page"
+    }
+  ],
+  "features": [
+    "Agentic coding with SAE self-driving levels",
+    "Claude instructions for Business Central context",
+    "AL performance profiling and optimization",
+    "Item–ABC Analysis inventory classification",
+    "RFID scan-in/scan-out workflow",
+    "Power Automate HTTP integration",
+    "ABC Analysis Power BI report"
+  ],
+  "versions": [
+    "BC28",
+    "2026 Release Wave 1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007324,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "autonomy works only inside a defined domain: bounded modules, fast tests, clear tool permissions, and agentic review loops",
+      "why_it_matters": "Defines how to safely apply AI agents to code generation without risking unmaintainable or insecure output."
+    },
+    {
+      "text": "hot loops pay heavily for boundary crossings: per-byte InStream.Read / OutStream.Write, repeated codeunit calls",
+      "why_it_matters": "Explains the root cause of AL performance bottlenecks and guides optimization priorities."
+    }
+  ]
+}
