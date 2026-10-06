@@ -1,0 +1,291 @@
+{
+  "video_id": "fdzTWZyT6mI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.7,
+      "end": 27.2,
+      "text": "welcome to this Buy Central lunch event related to 2024 release Wave 2 we will introduce you uh about multiple V8 number for customers and I will do it together with my colleague Arthur Vel let's see what we will talk about today we will make first short introduction"
+    },
+    {
+      "t": 27.2,
+      "end": 46.2,
+      "text": "and this introduction with a flowchart how system is going with the business process and then arto will show you full demo from setup and how it work in a practice with documents on the end we will close this session with a a small talk about architecture just to understand how it work in a background"
+    },
+    {
+      "t": 46.2,
+      "end": 66.5,
+      "text": "first uh why do we need this feature at all um this is very important this is a legal requirement when companies operate in different countries across the European Union uh they need to have different V number in each of count even if this is the same company and now this is not only for European Union it can be applicable in other countries"
+    },
+    {
+      "t": 66.5,
+      "end": 87,
+      "text": "as well but this is the the most common case in European union and now it can be applied not only to customers it can be applied for all entities for customers for our vendors for our company as well but uh we had to start from somewhere so we couldn't deliver everything in one hit it was uh"
+    },
+    {
+      "t": 87,
+      "end": 107,
+      "text": "big changes in V uh system so we decided to start with the customers and we decided to start with customers because based on our research it was the most painful uh part related with multiple vat numbers in a bus Central so what we did we just added alternative V number and"
+    },
+    {
+      "t": 107,
+      "end": 127.1,
+      "text": "additionally you can add business posting groups so how does it work uh first let's look in a setup and let's imagine perfect scenario you configure everything Advance what does it mean uh you have um alternative V registration table so you can pass to this table add all your customers and Define"
+    },
+    {
+      "t": 127.1,
+      "end": 147.2,
+      "text": "all uh countries they are working with uh you can configure one vat per country you cannot have more countries for the same customers because only one one customer can have only one V number in specific uh country and what you need to add there you need to you must add vat registration number and"
+    },
+    {
+      "t": 147.2,
+      "end": 167.4,
+      "text": "you can optionally add vat business posting group and General business posting group this is perfect scenario so you have everything configured in advance but this is not something what we can imagine it will work all the time this is much more realistic scenario we have customers we configure for some of them alternative uh V registration but not for all all cases"
+    },
+    {
+      "t": 167.4,
+      "end": 187.6,
+      "text": "and then you got a phone call your customer ordered something and said okay now I want to add new ship to address in different country and what you need to do you need to open ship to others for this customer busy Central once when you uh create this new ship to address you will probably have um different probably if you have different uh country"
+    },
+    {
+      "t": 187.6,
+      "end": 207.8,
+      "text": "code you need to configure but if not business as usual this is just additional ship to adds but if country uh code is different system will first check if I already have configur alternative V number for this country related with this ship to address if yes again nothing will be changed that's"
+    },
+    {
+      "t": 207.8,
+      "end": 228.4,
+      "text": "normal but if you didn't have in this moment you will be notified you will get small notification on your uh card where you will be notified that you need to create you should be actually uh create um uh you should create new alternative v um registration so you can decide if you want"
+    },
+    {
+      "t": 228.4,
+      "end": 248.5,
+      "text": "uh because maybe by your rules this is not necessary but if yes you just need to say yes to confirm and syst will open alternative V registration where you can again enter everything what I previously explain V registration number and posting groups now let's explain how it works in the practice when you work with documents we will start with sales documents we talking"
+    },
+    {
+      "t": 248.5,
+      "end": 268.6,
+      "text": "about customers and when I say sales documents I mean on sales invoice sales order um uh sales credit memo so all sales documents and now you have different ship to address you can choose an alternative uh shipping addresses different address or eventually if you do not record all these"
+    },
+    {
+      "t": 268.6,
+      "end": 288.8,
+      "text": "uh addresses you can choose custom address and type manually your uh ship to address for the sales document then what system will do system will again check if ship to address is in different country if no business is usual nothing will be changed existing V number and posting groups will be kept so"
+    },
+    {
+      "t": 288.8,
+      "end": 308.8,
+      "text": "nothing will be changed but if your shift to address never mind if this is from alternative or custom address is different system will use new new uh vat number from your configuration uh the same for posting groups if you have configured posting groups but if you didn't configure you will"
+    },
+    {
+      "t": 308.8,
+      "end": 328.8,
+      "text": "still get notification you do not have uh vat uh registration for this country so you can still create um new configuration for uh alternative V numbers there but now let's imagine you have everything configured you will be offered with a new uh V8 number and eventually posting groups and now you"
+    },
+    {
+      "t": 328.8,
+      "end": 348.8,
+      "text": "need to choose do want to accept or not in some because some reasons you do not want to accept so if no again business is usual nothing will be changed you can continue to work with document as a for many years ago but if you want to accept this change you just need to confirm and system will apply new uh V"
+    },
+    {
+      "t": 348.8,
+      "end": 368.8,
+      "text": "number to your document and eventually posting groups if you have uh configured there what does it mean uh you will get V business posting group General business posting group exists vat registration number as well but you will get vat country region code this is New Field and you will get all of them different based on your configuration"
+    },
+    {
+      "t": 368.8,
+      "end": 389.4,
+      "text": "and now what is additionally important uh V registration number and V country region code will be applied when you post in V entry so after that you can easily um filter your V entries and you can find uh which country you want to use for your V statements and returns"
+    },
+    {
+      "t": 389.4,
+      "end": 409.7,
+      "text": "uh just to see how it look like before we go with the demo uh this is how alternative customer V registration page exist and how it look like so once you are there you as I said you must enter V registration number and there is V uh number validation of course so if you in this example if you have"
+    },
+    {
+      "t": 409.7,
+      "end": 430,
+      "text": "Danish V number it must uh use uh validation for Denmark and optionally you can add generality posting group and V posting group that's it so now we will move to demo and Arthur will Jo will join us and show how it works thank you Alexander for introduction"
+    },
+    {
+      "t": 430,
+      "end": 445.7,
+      "text": "uh let me start with the setup in the business Central I'm in the customer cards and there are two ways to set up the alternative feature registration for the first one I'm going to open the ship to addresses from the customer card and I'm going to create a new ship to"
+    },
+    {
+      "t": 445.7,
+      "end": 465.8,
+      "text": "address uh as you can see the country region code is now taken from the C customer card uh I want to change this and when I do this uh you can notice the notification uh that ass says that the country of the address is different from the customer and there will be a suggestion to add an alternative customer uh VT registration"
+    },
+    {
+      "t": 465.8,
+      "end": 486,
+      "text": "uh I have two options here add and don't show if I click add um a new setup will be added it will be prepopulated with the customer number and VT count region number taken from the ship to add address so all I need to do is to follow up with the remaining fields for the VT registration number"
+    },
+    {
+      "t": 486,
+      "end": 506.2,
+      "text": "I want to intentionally uh specify the wrong V intention number to show you that the VT registration number format check is working as you can see it says that uh the format is not correct uh so I want to choose the right V registration number uh and I also want to specify the general and VT"
+    },
+    {
+      "t": 506.2,
+      "end": 523.4,
+      "text": "business group when I specify the general business group you you can see that VT business group is taken from the default VT business group on the general business one in the same way like it works for the customer uh and that is it for the setup from this ship to"
+    },
+    {
+      "t": 523.4,
+      "end": 543.8,
+      "text": "address uh now when I uh change the country region code to the other one for example um I'm going to see the very same the very same notification now the other way of doing this let me get back to the customer card next to the ship to address a section there is a new one that is called alternative F registration"
+    },
+    {
+      "t": 543.8,
+      "end": 563.8,
+      "text": "and the very same page will be open when we already have a setup now I want to make a setup for Belgium uh I'm going to add the V registration number and I want to intentionally keep those two Fields blank uh they're optional and it is fine to not uh to not specify them that is"
+    },
+    {
+      "t": 563.8,
+      "end": 583.8,
+      "text": "the second way of setting up the feature uh now let's create uh now let me get back to the sales orders I already created some for the sake of times uh for this customer and for this sales order I'm going to use the alternative Fe registration number multiple ways uh I'm going to scroll down to the shipping and"
+    },
+    {
+      "t": 583.8,
+      "end": 604.1,
+      "text": "baing and in the ship to field uh there is an option that's called alternative shipping address and when I choose this I have a list of ship to addresses uh I want to choose the one I've just created and when I do this uh I can see the confirmation dialog page uh and I need to explain this this confirmation doog page"
+    },
+    {
+      "t": 604.1,
+      "end": 624.2,
+      "text": "concept uh since the VT area is very sensitive one and it can affect posting uh we thought that is a good idea to show the users the confirmation doll page so they can understand all the consequences of uh choosing ship to ship to address field in this confirmation doll page user can see that"
+    },
+    {
+      "t": 624.2,
+      "end": 644.8,
+      "text": "by choosing this ship to address uh the value of the registration number will be changed from the document one which is gbn 1111 to the alternative one from the setup and then there are two options uh it is possible to confirm or to cancel and when I click okay if I want to confirm this"
+    },
+    {
+      "t": 644.8,
+      "end": 664.8,
+      "text": "uh we you can notice on the one top on top the invoice details tab you can notice that the VT VT country region code and VT registration number has changed so now we have uh and now I have Belgium and now I have the VT registration number from the setup uh as well you can"
+    },
+    {
+      "t": 664.8,
+      "end": 684.8,
+      "text": "also notice that all the VT related fields are now combined under one tab invoice details uh so you do no need to move uh through different uh tabs to find the right field that is the first option how you can do this through the ship to address uh let me get back to the default one and I want to pay"
+    },
+    {
+      "t": 684.8,
+      "end": 704.8,
+      "text": "your attention to the following message when we change back default ship to address the values are now taken from the customer card and this is message to notify the user that the values are taken from the customer cir when I click okay now you can see that in VT country region code and VT registration number we have the"
+    },
+    {
+      "t": 704.8,
+      "end": 724.9,
+      "text": "Valu from the customer card uh now the second way uh if I don't have the ship to address I can choose the custom address and below I have the counter region so what I can do here I can choose the country region uh code that will be associated with the alternative"
+    },
+    {
+      "t": 724.9,
+      "end": 745,
+      "text": "um VT registration setup now you can see the very same confirmation doll page here you have we have more Fields because except the V registration number we also specified General business group and VT business group um I also would like to highlight the option don't show again uh probably at some point user is going to decide"
+    },
+    {
+      "t": 745,
+      "end": 765.6,
+      "text": "that uh there is no need to show this confirmation dialog page and if they click don't show again and click okay uh whenever user going to make all the same changes there will be no information do page uh if I want to bring this uh page uh back I need to go to the my notification"
+    },
+    {
+      "t": 765.6,
+      "end": 785.6,
+      "text": "setup and in the very same way like it works for notification even though it's the page we need to search for the alternative and we can enable uh the confirm alternative customer VT Reg ation setup and now we have this page back again now when uh all the data is here"
+    },
+    {
+      "t": 785.6,
+      "end": 805.7,
+      "text": "you can post the sales order and all the values will end up in the VT entries uh and now when all the values are there you can start working on reporting and there are two more um two more things that we implemented like a side functionality to this one um the first"
+    },
+    {
+      "t": 805.7,
+      "end": 826.1,
+      "text": "one is in the VT return uh when you create your two turn and you click the suggest lines now there is a new field that is called cter region filter and you can specify one country multiple countries exclusion filter uh and this this uh filter will be applied to the country region code"
+    },
+    {
+      "t": 826.1,
+      "end": 846.1,
+      "text": "uh in the VT entries now the very same the very same field um is implemented into in the calculate and post VT settlement when I run this one and if I show more in the bottom you can see the same filter that is called country region filter and it works in the very same way it will"
+    },
+    {
+      "t": 846.1,
+      "end": 866.7,
+      "text": "be applied to the VT entries uh uh that will be filter for the report uh and that is it with the presentation in the business Central now I want to talk about the architecture review now for the architecture review um I have created this diagram it is a bit complex uh let me explain how you need to read it"
+    },
+    {
+      "t": 866.7,
+      "end": 886.8,
+      "text": "um from the very end of this diagram there is consumer this is our sales model uh and we invented the alternative feat registration on top of it for this Sal sales model we have the alternative fat registration feature uh that has three parts the first part uh that you can see on the left side of the diagram the"
+    },
+    {
+      "t": 886.8,
+      "end": 906.9,
+      "text": "ship to address the second one setup consistency and the third one is document the first one ship to address uh this is all the logic that we have on the ship to address page so when I created a new ship to address and you have seen the notification on this page this is controlled by this part of functionality"
+    },
+    {
+      "t": 906.9,
+      "end": 927.2,
+      "text": "and for this part part of functionality we have the interface that is called ship to alternate customer VT registration and there is the method uh that you can Implement in your own way that is called handle country change and ship to address so if you feel that uh you need another implementation other than the default one you can do that"
+    },
+    {
+      "t": 927.2,
+      "end": 937.5,
+      "text": "with this interface and with this method the second setup consistency it is um connected both to ship to address table and to the customer table"
+    },
+    {
+      "t": 937.5,
+      "end": 958.4,
+      "text": "um here the idea is that uh the setup needs to be consistent in the way that uh the alternative V customer V registration need to be only for countries other than than the customer one uh and here we also have the interface uh that is called alternative customer VT registration consist"
+    },
+    {
+      "t": 958.4,
+      "end": 978.6,
+      "text": "uh and it has two methods one for the customer uh to to check the ship address and other one to check the customer consistency uh if you feel that you need other implementation for this one uh you have the interface for that uh and the last one the most important I guess for the document"
+    },
+    {
+      "t": 978.6,
+      "end": 998.9,
+      "text": "uh this is everything that is happening in the sales header table here we have the interface alternative customer VT registration Doc and several methods when we initialize the record when they copy values from the customer uh on the ship to address change on the VT country region change on the build to customer change basically"
+    },
+    {
+      "t": 998.9,
+      "end": 1019.6,
+      "text": "all the scenarios that you can imagine uh in the sales document if you want to change this logic it is possible to do with this interface so as you can see um the whole feature is highly highly extensible um and if you want to change any part of it you can do that with your uh interface implementation"
+    },
+    {
+      "t": 1019.6,
+      "end": 1040,
+      "text": "okay thank you Arthur and we are on the end of our session uh as a call to action it will be try test D functionality this is available in a public preview and it will be available for 25.0 version so it will be immediately in our major and try"
+    },
+    {
+      "t": 1040,
+      "end": 1060.3,
+      "text": "uh we think that we improve a lot of things in in a V we start a few waves ago so we introduced few more uh functionalities about V8 previous you can find these videos on YouTube channel but this one is something new and we will continue with uh upgrading functionalities in V thank you for watching this"
+    },
+    {
+      "t": 1060.3,
+      "end": 1066,
+      "text": "session and please try it"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.04,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.67,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.68,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3029
+}

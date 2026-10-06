@@ -1,0 +1,26 @@
+{
+  "video_id": "hn92Al_x-s8",
+  "item_id": "video/yt-microsoft/hn92Al_x-s8",
+  "summary": "Reporting features for developers and consultants in Business Central 2024 release wave 2: report layout lifecycle actions (export schema, blank layouts, update layout), Excel named formulas, layout lifecycle telemetry, the OnSetFileName event, and planned deprecation of layout properties on Report.",
+  "overview": "This 11-minute video from the Business Central channel covers what is new in report layouts in 2024 release wave 2. It walks through new actions on the report layouts page: exporting the report schema as XML for mapping fields in Word, creating blank Word, Excel or RDLC layouts, and updating a layout with the latest report metadata.\n\nIt also shows named formulas that simplify Excel reports, lifecycle telemetry for layout changes, a new event for setting the file name of downloaded reports, and a VS Code data item snippet. The presenter says the Report.WordLayout, RdlcLayout and ExcelLayout properties will be deprecated.",
+  "key_points": [
+    "The report schema can be exported as an XML file and injected into a Word document so report fields can be mapped to layout elements.",
+    "A new action creates a blank layout in Word, Excel or RDLC format from the report object, so a layout can be built from scratch.",
+    "The update and export layout action refreshes an existing layout with the latest metadata, useful when a report extension adds fields to the dataset.",
+    "Named formulas in Excel reports reference aggregated metadata, so you can avoid writing complex XLOOKUP or VLOOKUP formulas.",
+    "Lifecycle telemetry tracks layout changes: default layout changes, property changes, export, replace and delete.",
+    "Subscribe to the OnSetFileName event to set the file name of downloaded reports.",
+    "Report.WordLayout, Report.RdlcLayout and Report.ExcelLayout are to be deprecated; move the layout to the rendering section of the report object."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "8d8642d41f8e6d6049fccc45418c02bf1b71cdc64bcb945a3e90e6b156f2e2c7",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0148464
+  }
+}
