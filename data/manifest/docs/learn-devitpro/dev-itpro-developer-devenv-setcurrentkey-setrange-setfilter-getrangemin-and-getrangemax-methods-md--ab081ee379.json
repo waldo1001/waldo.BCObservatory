@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-setcurrentkey-setrange-setfilter-getrangemin-and-getrangemax-methods",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3f2b092c478ff5441238a993480505533db0ded6",
       "words": 365,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:39.051Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006178
+    },
+    "summarized": {
+      "at": "2026-10-06T19:19:39.064Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:19:39.065Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:19:39.066Z",
+      "page": false
     }
   },
   "input_hash": "3f2b092c478ff5441238a993480505533db0ded6",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3f2b092c478ff5441238a993480505533db0ded6"
+  "output_hash": "12a696989a44a133f4e00021e5798ebd02c6208dfd2c425d34d5575c6af93737"
 }

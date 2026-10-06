@@ -1,0 +1,268 @@
+{
+  "video_id": "6SyNNeHQDUo",
+  "item_id": "video/yt-microsoft/6SyNNeHQDUo",
+  "title": "What's New: Co-Development Initiative (2024 release wave 2)",
+  "duration_s": 817,
+  "systems": [
+    "development",
+    "integration",
+    "copilot"
+  ],
+  "topics": [
+    "co-development",
+    "community contributions",
+    "github collaboration",
+    "copilot features",
+    "setup improvements",
+    "notifications",
+    "code review",
+    "partner engagement",
+    "platform extensibility"
+  ],
+  "chapters": [
+    {
+      "title": "What is Co-Development and Why Engage",
+      "t_start": 0,
+      "t_end": 195.3
+    },
+    {
+      "title": "2024 Wave 2 Records: 156 Community Contributions",
+      "t_start": 195.3,
+      "t_end": 300
+    },
+    {
+      "title": "Demo 1: Manual Setup Page Improvements",
+      "t_start": 300,
+      "t_end": 360.7
+    },
+    {
+      "title": "Demo 2: Duplicate External Documents Notification",
+      "t_start": 360.7,
+      "t_end": 420.9
+    },
+    {
+      "title": "Demo 3: Default Quantities for GL Accounts",
+      "t_start": 420.9,
+      "t_end": 488
+    },
+    {
+      "title": "Demo 4: Copilot-Assisted Number Series Setup",
+      "t_start": 488,
+      "t_end": 588.4
+    },
+    {
+      "title": "Demo 5: Phone Number for Custom Ship to Address",
+      "t_start": 588.4,
+      "t_end": 658.2
+    },
+    {
+      "title": "Contribution Hero Award and Recognition",
+      "t_start": 658.2,
+      "t_end": 768.1
+    },
+    {
+      "title": "Closing and Call to Action",
+      "t_start": 768.1,
+      "t_end": 817
+    }
+  ],
+  "features": [
+    {
+      "name": "Manual Setup Page Improvements",
+      "description": "The Manual Setup page has been reorganized and grouped to reduce visual clutter and improve usability. The page is now easier to browse and locate desired setup options.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 320.4,
+      "t_end": 360.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui improvement",
+        "usability",
+        "setup page"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Duplicate External Documents Notification",
+      "description": "A notification alerts users when they attempt to enter a sales invoice with an external document number that has already been entered previously.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 360.7,
+      "t_end": 420.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "notification",
+        "duplicate prevention",
+        "sales invoices"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Default Quantities for GL Accounts",
+      "description": "A new setting in sales setup allows users to specify default quantities for GL accounts. When selecting a GL account in a sales invoice, the default quantity is automatically filled in.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 420.9,
+      "t_end": 488,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "productivity",
+        "gl accounts",
+        "sales invoices"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Copilot-Assisted Number Series Setup",
+      "description": "Copilot can automatically generate and configure all required number series for a module, such as Purchase and Payables, significantly reducing manual setup time. Users can review and modify generated configurations before applying.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 488,
+      "t_end": 588.4,
+      "is_demoed": true,
+      "caveats": [
+        "respects Microsoft's responsible AI principles"
+      ],
+      "tags": [
+        "copilot",
+        "setup automation",
+        "number series"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Phone Number for Custom Ship to Address",
+      "description": "A new phone number field has been added to custom ship to addresses in sales orders to meet regulatory requirements in certain countries and enable contact with delivery destinations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 588.4,
+      "t_end": 658.2,
+      "is_demoed": true,
+      "caveats": [
+        "required 783 objects to be modified"
+      ],
+      "tags": [
+        "sales orders",
+        "shipping",
+        "regulatory compliance"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Manual Setup Page",
+      "t": 320.4
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoices",
+      "t": 380.8
+    },
+    {
+      "type": "page",
+      "name": "Sales Setup",
+      "t": 441.5
+    },
+    {
+      "type": "table",
+      "name": "GL Account",
+      "t": 453.2
+    },
+    {
+      "type": "page",
+      "name": "Purchase and Payable Setup",
+      "t": 488
+    },
+    {
+      "type": "table",
+      "name": "Number Series",
+      "t": 508.2
+    },
+    {
+      "type": "page",
+      "name": "Sales Orders",
+      "t": 605.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Yesper",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 21.3,
+      "text": "C-development is the business Central team's ambition to jointly develop the BC business application together with the partner community",
+      "why_it_matters": "This defines the core mission of the co-development initiative and the strategic partnership between Microsoft and the partner community.",
+      "check": "exact"
+    },
+    {
+      "t": 195.3,
+      "text": "2 we have shipped no less than 156 community contributions",
+      "why_it_matters": "This establishes a new record for community contributions shipped in a single release, demonstrating the scale and impact of the co-development program.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 240.9,
+      "text": "of these contributions have actually been added by just four community members",
+      "why_it_matters": "This shows that a small number of highly engaged contributors are driving the majority of community contributions to the platform.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 568.4,
+      "text": "what used to take you know forever to set up can now be done in the glimpse of an eye",
+      "why_it_matters": "This illustrates the productivity impact of copilot-assisted setup, transforming a time-consuming manual task into an automated process.",
+      "check": "exact"
+    },
+    {
+      "t": 625.8,
+      "text": "in order to add this one field 783 objects had to be modified",
+      "why_it_matters": "This demonstrates the technical complexity of adding even simple functionality to the base product and why community contributions to the platform are valuable.",
+      "check": "exact"
+    },
+    {
+      "t": 727.5,
+      "text": "hasn't been easy you know having to respect microsoft's responsible ai principles",
+      "why_it_matters": "This reveals the constraints and governance requirements for copilot features, emphasizing safety and ethical considerations.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 340.4,
+      "kind": "preview",
+      "text": "in the upcoming release this page now looks like this"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023246
+    }
+  ]
+}

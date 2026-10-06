@@ -1,0 +1,27 @@
+{
+  "video_id": "DnZJ2iOgIjI",
+  "item_id": "video/yt-microsoft/DnZJ2iOgIjI",
+  "summary": "Customer-managed encryption key and lockbox for Business Central (2024 release wave 2): how to link a Business Central environment to a Power Platform managed environment, set up Azure Key Vault and an enterprise policy, and what to expect for downtime, licensing, and copy/restore.",
+  "overview": "The video walks through encrypting Business Central and Power Platform environment databases with a key the customer manages in their own Azure Key Vault, instead of a Microsoft-managed key. It starts with linking a Business Central environment to a Power Platform environment in the Business Central admin center, since the encryption key and lockbox settings are inherited through that link.\n\nIt then covers the Azure side: a key vault with soft delete and purge protection, an RSA 2048 key, and an enterprise policy resource with the right role assignment. It closes with downtime during re-encryption, licensing requirements, separation of administrator duties, and how copy, restore, and export behave.",
+  "key_points": [
+    "A Business Central environment must be linked to a Power Platform managed environment to use a customer-managed key. There is no way to set it up without linking.",
+    "Linked environments must be in the same region and of the same type (production). Customer-managed key and lockbox settings are inherited through the link.",
+    "The Azure Key Vault needs soft delete and purge protection enabled, and must hold an RSA key of size 2048.",
+    "The enterprise policy resource must be in the same region as the environments. It needs the Key Vault Crypto Service Encryption User role, and applying it requires an environment administrator with the ENT role.",
+    "Expect some downtime on Business Central and Power Platform environments after the final setup step, while the databases are re-encrypted.",
+    "Unlinking the environments reverts Business Central to a Microsoft-managed encryption key. Copy and restore operations create new environments with Microsoft-managed encryption.",
+    "Specific Microsoft 365 and Power Platform licensing applies. Lockbox settings are administered in the Power Platform admin center. The video warns of internal malicious actors if one administrator controls all setup steps."
+  ],
+  "audience": [
+    "administrator",
+    "partner",
+    "decision maker"
+  ],
+  "extraction_hash": "5433abea2cb2ff261769fe23c90ef9f52e4877215822bcb729aeb3696f9676d1",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014842400000000002
+  }
+}

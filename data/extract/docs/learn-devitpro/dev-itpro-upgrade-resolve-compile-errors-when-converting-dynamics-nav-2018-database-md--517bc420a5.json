@@ -1,0 +1,80 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/resolve-compile-errors-when-converting-dynamics-nav-2018-Database.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/resolve-compile-errors-when-converting-dynamics-nav-2018-Database",
+  "title": "Compilation Errors When Converting Dynamics NAV 2018 Database",
+  "blob": "9be466a8813e0f86da73c1a236a7d40b725dd56b",
+  "summary": "Resolving compilation errors that occur when converting Dynamics NAV 2018 databases to Business Central versions with solutions for specific objects.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "compilation errors",
+    "database conversion",
+    "error resolution",
+    "crm integration"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Table 5330 CRM Connection Setup"
+    },
+    {
+      "type": "table",
+      "name": "Table 8620 Config. Tmpl. Selection Rules"
+    },
+    {
+      "type": "codeunit",
+      "name": "Codeunit 700 Page Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "Codeunit 5330 CRM Integration Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "Codeunit 9010 Azure AD User Management"
+    },
+    {
+      "type": "page",
+      "name": "Page 2500 Extension Management"
+    },
+    {
+      "type": "page",
+      "name": "Page 6400 Flow Selector"
+    },
+    {
+      "type": "page",
+      "name": "Page 6401 Flow Template Selector"
+    },
+    {
+      "type": "page",
+      "name": "Page 9624 Finish Design List Part"
+    },
+    {
+      "type": "table",
+      "name": "Table 1670 Option Lookup Buffer"
+    },
+    {
+      "type": "codeunit",
+      "name": "Codeunit 1751 Data Classification Eval. Data"
+    }
+  ],
+  "features": [
+    "type conversion errors",
+    "unknown variable errors",
+    "obsolete function errors",
+    "CRM integration issues"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006012,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Comparing-and-Merging-Application-Object-Source-Files",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "5a57eeb32e61b93f263e1f8a724615cd8af156a6",
       "words": 1444,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:46.672Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006012
     }
   },
   "input_hash": "5a57eeb32e61b93f263e1f8a724615cd8af156a6",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5a57eeb32e61b93f263e1f8a724615cd8af156a6"
+  "output_hash": "81d1a455f4eefa1a5953b9d4efc48791130441289488e0b614bec6ed8cbcb887"
 }

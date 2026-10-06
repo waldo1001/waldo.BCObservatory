@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-object",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "99607fde4520c019f3ff0c4f5770666118e0905c",
       "words": 457,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:39.049Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.006178
+    },
+    "summarized": {
+      "at": "2026-10-06T19:19:39.058Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:19:39.059Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:19:39.059Z",
+      "page": false
     }
   },
   "input_hash": "99607fde4520c019f3ff0c4f5770666118e0905c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "99607fde4520c019f3ff0c4f5770666118e0905c"
+  "output_hash": "49415581a27b0a80f5a1cc47c62c7c4be3163d79db3f0beb09433e63fecaccf7"
 }

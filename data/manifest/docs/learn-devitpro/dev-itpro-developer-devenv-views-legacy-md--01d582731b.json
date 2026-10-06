@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e90da443df6d1d02c488d8102e8fa777052e92aa",
       "words": 750,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:39.055Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006178
+    },
+    "summarized": {
+      "at": "2026-10-06T19:19:39.073Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:19:39.074Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:19:39.074Z",
+      "page": false
     }
   },
   "input_hash": "e90da443df6d1d02c488d8102e8fa777052e92aa",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e90da443df6d1d02c488d8102e8fa777052e92aa"
+  "output_hash": "06fb9afb0e4cda754bc5c56f0e3e80ce4dcd881e903d467fea90a3488b764e0d"
 }

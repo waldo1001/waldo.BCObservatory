@@ -1,0 +1,82 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/deprecated-tables.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-tables",
+  "title": "Deprecated Tables",
+  "blob": "15ab48da87b5d0ee61a73088cdfec96a0c3b83cd",
+  "summary": "List of deprecated tables in Business Central with mappings to new table names for code that needs to be rewritten in 2020 release wave 1 and later.",
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "deprecated tables",
+    "obsolete state",
+    "table migration",
+    "removed objects"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "NAV App"
+    },
+    {
+      "type": "table",
+      "name": "NAV App Object Metadata"
+    },
+    {
+      "type": "table",
+      "name": "NAV App Resource"
+    },
+    {
+      "type": "table",
+      "name": "NAV App Dependencies"
+    },
+    {
+      "type": "table",
+      "name": "NAV App Tenant App"
+    },
+    {
+      "type": "table",
+      "name": "Published Application"
+    },
+    {
+      "type": "table",
+      "name": "Application Object Metadata"
+    },
+    {
+      "type": "table",
+      "name": "Application Resource"
+    },
+    {
+      "type": "table",
+      "name": "Application Dependency"
+    },
+    {
+      "type": "table",
+      "name": "Installed Application"
+    },
+    {
+      "type": "table",
+      "name": "TempBLOB"
+    }
+  ],
+  "features": [
+    "ObsoleteState:Removed",
+    "ObsoleteState:Pending",
+    "table deprecation"
+  ],
+  "versions": [
+    "2020 release wave 1",
+    "2021 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006012,
+      "pages_in_call": 8
+    }
+  ]
+}

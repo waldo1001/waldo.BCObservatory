@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/Converting-a-Database.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Converting-a-Database",
+  "title": "Converting a Database to Dynamics 365 Business Central - Technical Upgrade",
+  "blob": "74ec9c71637f10f86a804e2c464b461f84c9e407",
+  "summary": "Convert databases from Dynamics NAV versions to the latest Business Central platform through technical upgrade process involving schema updates and report conversion.",
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "technical upgrade",
+    "database conversion",
+    "schema update",
+    "extension migration",
+    "multitenant"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Codeunit 1 Application Management"
+    },
+    {
+      "type": "table",
+      "name": "Server Instance"
+    },
+    {
+      "type": "table",
+      "name": "Debugger Breakpoint"
+    }
+  ],
+  "features": [
+    "database conversion",
+    "RDL format conversion",
+    "V1 to V2 extension migration",
+    "schema synchronization",
+    "license upload"
+  ],
+  "versions": [
+    "Spring 2019",
+    "Cumulative Update"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006012,
+      "pages_in_call": 8
+    }
+  ]
+}

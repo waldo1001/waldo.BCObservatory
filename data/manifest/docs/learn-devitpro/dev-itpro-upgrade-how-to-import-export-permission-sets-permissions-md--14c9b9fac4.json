@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/How-to--Import-Export-Permission-Sets-Permissions",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "08d9b3f3660cf7e08d3cb048dc21e21f37571a67",
       "words": 671,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:46.675Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.006012
     }
   },
   "input_hash": "08d9b3f3660cf7e08d3cb048dc21e21f37571a67",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "08d9b3f3660cf7e08d3cb048dc21e21f37571a67"
+  "output_hash": "0671e769c4ed93b8b99f5a1742c6320da3c49304cf75c0d031d7f1228917b940"
 }

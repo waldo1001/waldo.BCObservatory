@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/How-to--Import-Export-Permission-Sets-Permissions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/How-to--Import-Export-Permission-Sets-Permissions",
+  "title": "How to: Export and Import Permission Sets and Permissions",
+  "blob": "08d9b3f3660cf7e08d3cb048dc21e21f37571a67",
+  "summary": "Export and import permission sets and permissions as XML files using XMLports 9171 and 9172 during upgrades between Business Central versions.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "permissions",
+    "permission sets",
+    "xmlport",
+    "upgrade",
+    "import export"
+  ],
+  "objects": [
+    {
+      "type": "xmlport",
+      "name": "XMLport 9171 Import/Export Permission Sets"
+    },
+    {
+      "type": "xmlport",
+      "name": "XMLport 9172 Import/Export Permissions"
+    }
+  ],
+  "features": [
+    "permission export",
+    "permission import",
+    "system permission sets",
+    "user-defined permission sets",
+    "extension permission sets"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006012,
+      "pages_in_call": 8
+    }
+  ]
+}

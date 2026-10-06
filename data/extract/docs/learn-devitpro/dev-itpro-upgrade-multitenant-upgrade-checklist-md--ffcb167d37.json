@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/multitenant-upgrade-checklist.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/multitenant-upgrade-checklist",
+  "title": "Multitenant Technical Upgrade Quick Reference",
+  "blob": "275d3352a21d2cfc0a44d9f14f97809f59aaee1b",
+  "summary": "Quick reference checklist for multitenant full upgrade process in Business Central covering prerequisite tasks, application upgrade, tenant preparation, and post-upgrade steps.",
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "upgrade",
+    "multitenant",
+    "data upgrade",
+    "extension",
+    "checklist"
+  ],
+  "objects": [],
+  "features": [
+    "extension upgrade",
+    "permission import/export",
+    "encryption key management",
+    "license upload",
+    "tenant synchronization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006012,
+      "pages_in_call": 8
+    }
+  ]
+}

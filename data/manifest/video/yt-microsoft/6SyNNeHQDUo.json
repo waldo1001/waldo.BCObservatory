@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=6SyNNeHQDUo",
   "published_at": "2024-10-08T15:00:09.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -25,6 +25,19 @@
       "words": 2178,
       "lang": "en-orig",
       "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:49.643Z",
+      "path": "data/extract/video/6SyNNeHQDUo.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 5,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.023246
     }
   },
   "input_hash": null,
@@ -42,5 +55,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cc7225c0d5a451da62247b5a7323fd0e5ad693960b0baaf17d358230743cc2ce"
+  "output_hash": "c031e2275bbf995975f8761965820b723e9bb4ca971b940f6b46486a0bdfc898"
 }

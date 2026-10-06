@@ -1,0 +1,126 @@
+{
+  "video_id": "8t3WaWh7K9Y",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.6,
+      "end": 26.8,
+      "text": "hi my name is Stephan bow and for the next few minutes I'm going to take you through some of the changes that we've done to the open in vs code and GitHub projects from the last release you might remember that we have added the ability to explore fields and pages from vs code using the pH inspector you also"
+    },
+    {
+      "t": 26.8,
+      "end": 41.2,
+      "text": "might remember that in the help and support page you can now ATT ATT a debugger to this current session this is the foundation for the work we've done by connecting vs code and GitHub and extensions in business Central for this release"
+    },
+    {
+      "t": 41.2,
+      "end": 51.3,
+      "text": "so let's consider the scenario where I have a Rewards app I want to look at so I'll go here and look at the rewards app Let's see we have some rewards"
+    },
+    {
+      "t": 51.3,
+      "end": 71.5,
+      "text": "here I can see the list of rewards we have here and I can create a new one and I found this card page to be a bit annoying because there is a description field that is mandatory so I want to change this so I can go here to the help and support and to The Trusted page inspector there we go"
+    },
+    {
+      "t": 71.5,
+      "end": 91.6,
+      "text": "and from here I can insect this page to figure out where the different fields come from in this case I can see that the only extension that is in this page is the Loyalty Rewards demo so I'll need to look at this one if I go to the extension management page I can find the app let's see if we can find it"
+    },
+    {
+      "t": 91.6,
+      "end": 111.6,
+      "text": "it is here the app is right here but lo and behold I do not have access to the source so the resource protection policies for this app does not allow me to download a copy of the source from this app however if I go into the details of this app there's a new section below here called Source control details here I"
+    },
+    {
+      "t": 111.6,
+      "end": 127.1,
+      "text": "can see the GitHub repo where this comes from and I can see the commit ID that is associated with the build of this app so if if I have access to this GitHub repo I can now see the source from exactly the time where this app was"
+    },
+    {
+      "t": 127.1,
+      "end": 137.6,
+      "text": "built and with this new action on the extension management page you can now also open the source in vs code so I'm going to click that let's see what"
+    },
+    {
+      "t": 137.6,
+      "end": 158.1,
+      "text": "happens so the first thing that vs code is going to ask me is whether I want to open an existing repository or I want to clone it since I haven't done this before on my machine I'm going to clone it and it's going to Gest me a folder the folder here is the project folder I'm going to use that one and now it's going to start cloning the the repository"
+    },
+    {
+      "t": 158.1,
+      "end": 178.2,
+      "text": "from the information that was in the application that we saw in the extension management page the next thing that the vs code is going to ask me is if I want to open a specific Branch I could open the branch where um this specific uh version of the app comes from or I can create a new Branch if I want to make some changes here we know"
+    },
+    {
+      "t": 178.2,
+      "end": 192.7,
+      "text": "I'm going to make some changes so let's open a new Branch here the first thing I need to do is select the branch I want to create a branch off and in this case I'm going to start with the main branch and then I'm going to create a new branch called Stefan for my"
+    },
+    {
+      "t": 192.7,
+      "end": 212.8,
+      "text": "changes it's going to check out the code as we can see here all the code from this extension is here I can go back to the page inspector and do the explore page in vs code to get to that specific page or I can just find the the page here and do my changes for example here I would do"
+    },
+    {
+      "t": 212.8,
+      "end": 217.5,
+      "text": "mandatory maybe"
+    },
+    {
+      "t": 217.5,
+      "end": 237.6,
+      "text": "false so far so good I can go to my GitHub changes and I can add a good description commit that and publish the branch create a pull request and then feed it back into my source management system and then we can get the whole pipelines running and the thing deployed to production I can of course also test it out first"
+    },
+    {
+      "t": 237.6,
+      "end": 257.9,
+      "text": "if I want to do that just by pressing F5 and then I'll get it deployed to my sandbox and I can now see that my change is in effect so from the extension management page here you now have access to the source even though you cannot download it of course only if you have access to this skop repo so you don't need to change"
+    },
+    {
+      "t": 257.9,
+      "end": 278.2,
+      "text": "the resource protection policies if you already have access to the resource to the source code in giop algo for GitHub automatically populates this information in extensions that are built using Al go for GitHub so that means that there are other extensions out there that we can see and yes we have access to some we have access to a specific"
+    },
+    {
+      "t": 278.2,
+      "end": 298.4,
+      "text": "one called system application which is stored in the BC apps repo again here I can go to this app and see that is actually from the BC apps we can see down here in the hint and we can see a specific commit it also means that I can actually open the source nvs code here so let's try"
+    },
+    {
+      "t": 298.4,
+      "end": 319.1,
+      "text": "that this time around it's going to ask me again if I want to open the repository I want to clone a new version of the repository or here I want to reopen the repository this reopen is here because I actually have done this before so by doing this I don't need to clone it yet again I'll"
+    },
+    {
+      "t": 319.1,
+      "end": 335.2,
+      "text": "reopen and it's going to get me to the repo that I previously cloned and I can start looking into the code here maybe figure out why there's an error and then maybe also suggest changes by creating a new branch and doing a poll request to BC"
+    },
+    {
+      "t": 335.2,
+      "end": 355.2,
+      "text": "apps so while you now can see the the repo information in the extension management page you may or may not have access to that repo so you need to take care of that first you need to make sure that the the repo that you're cloning you have access to otherwise you'll get an error when cloning it you can go explore your extension management and find other applications"
+    },
+    {
+      "t": 355.2,
+      "end": 370,
+      "text": "that may have the source information set and if you have access to those repost you can go clone them and expect that sauce that is it for this feature I hope you enjoyed watching thank you very much"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.04,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.63,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.64,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1138
+}

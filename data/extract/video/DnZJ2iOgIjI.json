@@ -1,0 +1,226 @@
+{
+  "video_id": "DnZJ2iOgIjI",
+  "item_id": "video/yt-microsoft/DnZJ2iOgIjI",
+  "title": "What's New: Customer-Managed Encryption Key & Lockbox (2024 release wave 2)",
+  "duration_s": 310,
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "customer-managed encryption key",
+    "lockbox",
+    "security",
+    "power platform integration",
+    "azure key vault",
+    "environment linking",
+    "data encryption",
+    "enterprise policy"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview",
+      "t_start": 0,
+      "t_end": 26.8
+    },
+    {
+      "title": "Linking Business Central to Power Platform",
+      "t_start": 26.8,
+      "t_end": 68.1
+    },
+    {
+      "title": "Customer-managed encryption key setup",
+      "t_start": 68.1,
+      "t_end": 130.1
+    },
+    {
+      "title": "Azure configuration and permissions",
+      "t_start": 130.1,
+      "t_end": 171.3
+    },
+    {
+      "title": "Setup requirements and environment downtime",
+      "t_start": 171.3,
+      "t_end": 211.5
+    },
+    {
+      "title": "Licensing and security considerations",
+      "t_start": 211.5,
+      "t_end": 252
+    },
+    {
+      "title": "Copy, restore, and export operations",
+      "t_start": 252,
+      "t_end": 310
+    }
+  ],
+  "features": [
+    {
+      "name": "Customer-Managed Encryption Key",
+      "description": "A setting that allows administrators to encrypt Business Central and Power Platform environment databases with their own key managed in their own key vault rather than a Microsoft-managed key.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 68.1,
+      "t_end": 110,
+      "is_demoed": false,
+      "caveats": [
+        "Requires linked Power Platform managed environment",
+        "Requires specific licensing in Microsoft 365 and Power Platform",
+        "Some downtime occurs during encryption key re-encryption",
+        "Must remain linked to maintain encryption with customer key",
+        "Copy and restore operations create new environments with Microsoft-managed encryption"
+      ],
+      "tags": [
+        "encryption",
+        "security",
+        "azure",
+        "key vault"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Lockbox Settings",
+      "description": "Settings administered in the Power Platform admin center that help secure environments for advanced security and privacy needs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.8,
+      "t_end": 47.4,
+      "is_demoed": false,
+      "caveats": [
+        "Administered in Power Platform admin center",
+        "Requires linked Business Central environment to Power Platform environment"
+      ],
+      "tags": [
+        "security",
+        "privacy",
+        "settings"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Environment Linking",
+      "description": "The ability to link a Business Central environment to a Power Platform environment in the same region and type through the Business Central admin center.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 26.8,
+      "t_end": 68.1,
+      "is_demoed": false,
+      "caveats": [
+        "Environments must be in the same region",
+        "Environments must be of the same type (production)",
+        "Inherited settings include customer-managed encryption key and lockbox"
+      ],
+      "tags": [
+        "integration",
+        "linking",
+        "power platform"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Enterprise Policy Resource",
+      "description": "A resource in Azure that acts as the bridge between the encryption key and environment databases, enabling the key to be used for encryption.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 130.1,
+      "t_end": 150.5,
+      "is_demoed": false,
+      "caveats": [
+        "Must be in the same region as Power Platform and Business Central environments",
+        "Requires Key Vault Crypto Service Encryption User role assignment",
+        "Requires environment administrator with ENT role to apply"
+      ],
+      "tags": [
+        "azure",
+        "enterprise policy",
+        "encryption"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Key Vault Setup",
+      "description": "Configuration of an Azure Key Vault with soft delete and purge protection enabled, containing an RSA key of size 2048 for database encryption.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 110,
+      "t_end": 150.5,
+      "is_demoed": false,
+      "caveats": [
+        "Must enable soft delete and purge protection",
+        "RSA key must be 2048 bits",
+        "Protects against accidental key vault deletion"
+      ],
+      "tags": [
+        "azure",
+        "key vault",
+        "rsa"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 6.8,
+      "text": "these settings help you secure your environments if you have very advanced",
+      "why_it_matters": "Establishes the purpose and target audience for customer-managed encryption and lockbox - organizations with advanced security requirements.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 171.3,
+      "text": "after completing this last setup step there could be some downtime on your business center and Power Platform environments",
+      "why_it_matters": "Important operational consideration - customers should expect downtime during the encryption re-keying process.",
+      "check": "exact"
+    },
+    {
+      "t": 211.5,
+      "text": "if you unlink your environments the business Central environment will revert back to a Microsoft manage encryption key",
+      "why_it_matters": "Critical requirement - unlinking breaks customer-managed encryption, forcing reversion to Microsoft keys.",
+      "check": "snapped"
+    },
+    {
+      "t": 231.9,
+      "text": "there's a risk of internal malicious actors if a single administrator has access to all aspects of setting up",
+      "why_it_matters": "Security best practice - separation of duties required to mitigate insider threats during setup.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 191.3,
+      "kind": "other",
+      "text": "the linked Power Platform managed environment is required so there's no way to set this up for business Central environment without linking"
+    },
+    {
+      "t": 211.5,
+      "kind": "other",
+      "text": "there are specific licensing requirements in Microsoft 365 and Power Platform and these will apply to your business Central environments"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 3,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015182000000000001
+    }
+  ]
+}

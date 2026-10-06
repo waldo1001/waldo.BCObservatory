@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-system-defined-variables.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-system-defined-variables",
+  "title": "System-defined variables",
+  "blob": "d5cee49b927a24af5edb8886847ad5073cd391b4",
+  "summary": "System-defined variables like Rec, xRec, CurrPage, CurrReport, and RequestOptionsPage provide access to current records, pages, and reports during AL code execution.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "variables",
+    "record handling",
+    "page controls",
+    "reports",
+    "al programming"
+  ],
+  "objects": [],
+  "features": [
+    "Rec variable",
+    "xRec variable",
+    "CurrPage variable",
+    "CurrReport variable",
+    "RequestOptionsPage variable",
+    "CurrFieldNo variable"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006178,
+      "pages_in_call": 8
+    }
+  ]
+}

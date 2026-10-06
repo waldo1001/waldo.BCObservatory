@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/compare-update-application-object-source-files.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/compare-update-application-object-source-files",
+  "title": "Compare and update application object source files",
+  "blob": "9bce40900333ee16ff6a0304e9ff778fac70c419",
+  "summary": "Compare and update application object source files using PowerShell cmdlets to identify differences between versions and apply changes to target solutions during upgrades.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "merge",
+    "upgrade",
+    "application objects",
+    "powershell",
+    "delta files"
+  ],
+  "objects": [],
+  "features": [
+    "Compare-NAVApplicationObject",
+    "Update-NAVApplicationObject",
+    "Merge-NAVApplicationObject",
+    "DELTA files"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006012,
+      "pages_in_call": 8
+    }
+  ]
+}

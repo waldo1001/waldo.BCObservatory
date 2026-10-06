@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/compare-update-application-object-source-files",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9bce40900333ee16ff6a0304e9ff778fac70c419",
       "words": 598,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:46.671Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006012
+    },
+    "summarized": {
+      "at": "2026-10-06T19:19:46.679Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:19:46.680Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:19:46.681Z",
+      "page": false
     }
   },
   "input_hash": "9bce40900333ee16ff6a0304e9ff778fac70c419",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9bce40900333ee16ff6a0304e9ff778fac70c419"
+  "output_hash": "c4e3caf46dcfe8d8adf6879285944c86bfe635d6ed717db268b18a65fd747a20"
 }

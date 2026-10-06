@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/Comparing-and-Merging-Application-Object-Source-Files.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/Comparing-and-Merging-Application-Object-Source-Files",
+  "title": "Comparing and merging application object source files",
+  "blob": "5a57eeb32e61b93f263e1f8a724615cd8af156a6",
+  "summary": "Compare and merge application object source files using PowerShell cmdlets to integrate upgrades and cumulative updates with custom solutions.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "merge",
+    "upgrade",
+    "source files",
+    "application objects",
+    "conflict resolution"
+  ],
+  "objects": [],
+  "features": [
+    "Merge-NAVApplicationObject",
+    "Compare-NAVApplicationObject",
+    "Update-NAVApplicationObject",
+    "CaptionML",
+    "ControlID",
+    "documentation triggers"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006012,
+      "pages_in_call": 8
+    }
+  ]
+}

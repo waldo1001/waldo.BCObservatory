@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/merge-application-changes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/merge-application-changes",
+  "title": "Merge Application Changes",
+  "blob": "019dab488341ad2f228435ed9a14c39f23c36033",
+  "summary": "Merge application changes from updates to custom solutions using PowerShell cmdlets to compare versions and resolve conflicts during upgrades.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "merge",
+    "upgrade",
+    "powershell",
+    "conflict resolution",
+    "application objects"
+  ],
+  "objects": [],
+  "features": [
+    "Merge-NAVApplicationObject",
+    "Compare-NAVApplicationObject",
+    "Update-NAVApplicationObject",
+    "object properties",
+    "conflict files"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006012,
+      "pages_in_call": 8
+    }
+  ]
+}

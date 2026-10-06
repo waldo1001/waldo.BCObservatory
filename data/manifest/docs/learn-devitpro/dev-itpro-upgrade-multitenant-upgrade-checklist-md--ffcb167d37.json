@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/multitenant-upgrade-checklist",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "275d3352a21d2cfc0a44d9f14f97809f59aaee1b",
       "words": 245,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:46.677Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006012
     }
   },
   "input_hash": "275d3352a21d2cfc0a44d9f14f97809f59aaee1b",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "275d3352a21d2cfc0a44d9f14f97809f59aaee1b"
+  "output_hash": "7c9e89c752263aa916678274af7288a110e379d4917c98973275390e77e99a81"
 }

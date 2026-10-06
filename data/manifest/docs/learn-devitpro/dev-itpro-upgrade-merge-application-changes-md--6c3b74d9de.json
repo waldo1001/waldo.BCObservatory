@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/merge-application-changes",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "019dab488341ad2f228435ed9a14c39f23c36033",
       "words": 1095,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:46.676Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006012
     }
   },
   "input_hash": "019dab488341ad2f228435ed9a14c39f23c36033",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "019dab488341ad2f228435ed9a14c39f23c36033"
+  "output_hash": "7808a7c0fe7ccc06cc905a57c70d9a065cc972501fb58aafdb507c8e72cf3ff1"
 }

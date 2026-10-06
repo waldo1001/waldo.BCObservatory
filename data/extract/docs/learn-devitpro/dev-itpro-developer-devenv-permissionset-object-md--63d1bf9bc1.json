@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-permissionset-object.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-object",
+  "title": "Permission set object",
+  "blob": "99607fde4520c019f3ff0c4f5770666118e0905c",
+  "summary": "Permission set objects describe permissions on tables, codeunits, and other database objects that can be assigned to users or composed into functional permission sets.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "permissions",
+    "security",
+    "permission sets",
+    "access control",
+    "assignable permissions"
+  ],
+  "objects": [
+    {
+      "type": "permissionset",
+      "name": "Sales Person"
+    },
+    {
+      "type": "permissionset",
+      "name": "MyPermissionSet"
+    }
+  ],
+  "features": [
+    "Assignable property",
+    "Permissions property",
+    "IncludedPermissionSets property",
+    "ExcludedPermissionSets property",
+    "Permission set composition",
+    "Nonassignable permission sets"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006178,
+      "pages_in_call": 8
+    }
+  ]
+}

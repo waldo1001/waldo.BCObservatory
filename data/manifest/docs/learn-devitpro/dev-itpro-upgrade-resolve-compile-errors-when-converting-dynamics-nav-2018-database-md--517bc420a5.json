@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/resolve-compile-errors-when-converting-dynamics-nav-2018-Database",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "9be466a8813e0f86da73c1a236a7d40b725dd56b",
       "words": 422,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:46.678Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 11,
+      "cost_usd": 0.006012
     }
   },
   "input_hash": "9be466a8813e0f86da73c1a236a7d40b725dd56b",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9be466a8813e0f86da73c1a236a7d40b725dd56b"
+  "output_hash": "322a5094958ca5ad8bf263db4c1a681b49b1a6a767cdd2c1d53551f49efcc5a4"
 }

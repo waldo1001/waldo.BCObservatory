@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-txt2al-tool.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-txt2al-tool",
+  "title": "The Txt2Al Conversion Tool",
+  "blob": "3c787adfc5c43eab5139f48365c1a2336bf826b3",
+  "summary": "The Txt2Al conversion tool converts C/AL objects from Dynamics NAV version 14 to AL format for creating Business Central extensions, with parameters for object types and output configuration.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "conversion tool",
+    "migration",
+    "c/al to al",
+    "legacy code",
+    "extension development"
+  ],
+  "objects": [],
+  "features": [
+    "Object conversion",
+    "DELTA file generation",
+    ".NET add-in injection",
+    "Translation format configuration",
+    "File naming patterns",
+    "Data classification defaulting"
+  ],
+  "versions": [
+    "version 14"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006178,
+      "pages_in_call": 8
+    }
+  ]
+}

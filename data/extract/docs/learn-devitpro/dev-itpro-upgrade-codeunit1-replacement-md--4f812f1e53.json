@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/codeunit1-replacement.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/codeunit1-replacement",
+  "title": "Replacement for codeunit 1",
+  "blob": "d3ea7c1358de071721b8de1d76069206b012c88e",
+  "summary": "Codeunit 1 replacement provides system and management codeunits that replace the removed Application Management codeunit for technical upgrades from Dynamics NAV to Business Central.",
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "codeunit 1",
+    "upgrade",
+    "migration",
+    "application management",
+    "system codeunits"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "ApplicationManagement"
+    }
+  ],
+  "features": [
+    "Company open/close procedures",
+    "Printer selection",
+    "Application version reporting",
+    "Language management",
+    "Table trigger setup",
+    "Report customization",
+    "Debug support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006178,
+      "pages_in_call": 8
+    }
+  ]
+}
