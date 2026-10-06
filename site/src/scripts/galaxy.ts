@@ -21,6 +21,8 @@ type Level = 1 | 2 | 3;
 interface Lens { id: string; label: string; group: string; match: (n: Node) => boolean; lines?: boolean; reach?: Record<string, number> }
 type Rect = { x: number; y: number; w: number; h: number };
 
+import { dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold } from "./galaxy-labels";
+
 const FLY_MS = 1100;
 /** cubic-bezier(.65,0,.2,1) (tokens motion.cameraFly): solve x(m) = t by bisection, return y(m). */
 const ease = (t: number) => {
@@ -78,6 +80,8 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
   const today = new Date();
   const weekAgo = new Date(today.getTime() - 7 * 864e5).toISOString().slice(0, 10), now = today.toISOString().slice(0, 10);
   const lit = new Set(g.nodes.filter((n) => n.lit_at && n.lit_at.length === 10 && n.lit_at >= weekAgo && n.lit_at <= now).map((n) => n.id));
+  // caption order inside each system never changes between frames (D44)
+  const rank = ranksByGroup(g.nodes);
 
   // world bounds, field stars (seeded noise, not data: HANDOFF 7)
   const xs = g.systems.map((s) => s.x), ys = g.systems.map((s) => s.y);
@@ -142,7 +146,8 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
     return { s: s * 1.8, tx: focusStar!.x, ty: focusStar!.y, vx, vy };
   };
   let raf = 0;
-  const animating = () => !!anim || (!reduce.matches && (lit.size > 0 || (level === 3 && ego?.id === focusStar?.id)));
+  let labelsFading = false;
+  const animating = () => !!anim || labelsFading || (!reduce.matches && (lit.size > 0 || (level === 3 && ego?.id === focusStar?.id)));
   const loop = () => {
     cancelAnimationFrame(raf);
     raf = requestAnimationFrame((t) => {
@@ -155,7 +160,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
       if (animating()) loop();
     });
   };
-  const redraw = () => { if (!animating()) draw(); };
+  const redraw = () => { if (animating()) return; draw(); if (labelsFading) loop(); };
   const flyTo = (to: typeof cam, instant = false, done?: () => void) => {
     if (instant || reduce.matches) { Object.assign(cam, to); anim = null; draw(); done?.(); return; }
     anim = { from: { ...cam }, to, t0: performance.now(), done };
@@ -173,7 +178,11 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
 
   // drawing
   const ctx = canvas.getContext("2d")!;
-  const inScope = (n: Node) => level === 1 || n.group === focusSys?.id || (level === 3 && !!focusStar && (n === focusStar || !!adj.get(focusStar.id)?.includes(n.id)));
+  /** The system the reader zoomed into by hand at galaxy level (D44): edges and captions behave as at system level. */
+  let eff: Sys | null = null;
+  const visibleRect = () => ({ x0: 0, y0: 0, x1: W - (panelOpen && !narrow() ? 380 : 0), y1: H - (panelOpen && narrow() ? H * 0.55 : 0) });
+  const scopeSys = () => focusSys ?? eff;
+  const inScope = (n: Node) => (level === 1 && !eff) || n.group === scopeSys()?.id || (level === 3 && !!focusStar && (n === focusStar || !!adj.get(focusStar.id)?.includes(n.id)));
   const alpha = (n: Node) => {
     if (lens) return lensSet.has(n.id) ? 1 : 0.1;
     if (level === 1) return bright(n);
@@ -187,6 +196,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
 
   function draw(t = performance.now()) {
     if (!W) return;
+    eff = level === 1 && !lens ? dominantSystem(g.systems, cam, visibleRect(), sysScale) : null;
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     ctx.fillStyle = colors.bg; ctx.fillRect(0, 0, W, H);
     const c = toScreen((world.x0 + world.x1) / 2, (world.y0 + world.y1) / 2);
@@ -210,6 +220,15 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
       ctx.strokeStyle = colors.accent; ctx.globalAlpha = 0.55; ctx.setLineDash([4, 4]);
       for (const [a, b] of lensLines) { const p = toScreen(a.x, a.y), q = toScreen(b.x, b.y); ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke(); }
       ctx.setLineDash([]);
+    } else if (eff) {
+      // zoomed into a system by hand: its edges come up as the camera reaches the system's own zoom
+      ctx.strokeStyle = colors.edge; ctx.globalAlpha = 0.3 * smoothstep(0.8, 1, cam.s / sysScale(eff));
+      for (const e of g.edges) {
+        const a = byId.get(e.s), b = byId.get(e.t);
+        if (!a || !b || a.group !== eff.id || b.group !== eff.id) continue;
+        const p = toScreen(a.x, a.y), q = toScreen(b.x, b.y);
+        ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke();
+      }
     } else if (level >= 2) {
       for (const e of g.edges) {
         const a = byId.get(e.s), b = byId.get(e.t);
@@ -265,7 +284,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
       }
     }
     ctx.globalAlpha = 1;
-    drawStarLabels(shown, placeSystemLabels());
+    drawStarLabels(shown, placeSystemLabels(), t);
   }
 
   // system labels: DOM buttons under (or above) their cluster; a label that would overlap a bigger system's waits
@@ -299,31 +318,61 @@ export async function mountGalaxy(root: HTMLElement): Promise<void> {
     }
     return taken;
   }
-  // star labels on the canvas: the focused, hovered and marked star first, then lens matches, then the brightest
-  // stars in scope; zooming in raises the budget, so captions appear wherever there is room
-  function drawStarLabels(shown: { n: Node; p: { x: number; y: number }; d: number }[], taken: Rect[]) {
+  // star labels on the canvas (D44): each star's caption has a zoom threshold from its weight rank in its system and
+  // fades in over a zoom window, brightest first, placed only where there is room; the focused, hovered and marked
+  // stars always get theirs, lens matches next. A caption placed last frame keeps its slot (hysteresis).
+  let prevPlaced = new Set<string>();
+  const placedAt = new Map<string, number>();
+  const textWidth = new Map<string, number>();
+  function drawStarLabels(shown: { n: Node; p: { x: number; y: number }; d: number }[], taken: Rect[], now: number) {
     ctx.font = "600 12px 'Bricolage Grotesque Variable', system-ui, sans-serif";
     ctx.textBaseline = "middle";
-    const zoom = cam.s / fitScale();
-    let budget = level === 1 ? Math.round(Math.max(0, zoom - 1.5) * 14) : level === 2 ? 14 + Math.round(Math.max(0, cam.s / sysScale(focusSys!) - 1) * 20) : 22;
-    if (lens) budget = Math.max(budget, 30);
     const forced = (n: Node) => n === focusStar || n === hover || n === mark;
-    const pri = (n: Node) => (forced(n) ? 1e9 : 0) + (lens && lensSet.has(n.id) ? 1e6 : 0) + (inScope(n) ? 1e3 : 0) + n.weight;
-    // at star level only the star's own connections get captions: the rest of the system is context
     const near = level === 3 && focusStar ? new Set(adj.get(focusStar.id) ?? []) : null;
-    const wanted = (n: Node) => (lens ? lensSet.has(n.id) : near ? near.has(n.id) : inScope(n) || zoom > 4);
-    const cands = shown.filter((x) => forced(x.n) || wanted(x.n)).sort((a, b) => pri(b.n) - pri(a.n));
-    const right = W - (panelOpen && !narrow() ? 380 : 0), bottom = H - (panelOpen && narrow() ? H * 0.55 : 0);
-    for (const { n, p, d } of cands) {
-      if (!forced(n) && budget <= 0) break;
+    const scope = scopeSys();
+    const sysOf = (n: Node) => sysById.get(n.group);
+    /** Target alpha from zoom: 1 for forced stars, lens matches and the focused star's connections; else by rank. */
+    const target = (n: Node): number => {
+      if (forced(n)) return 1;
+      if (lens) return lensSet.has(n.id) ? 1 : 0;
+      if (near) return near.has(n.id) ? 1 : 0;
+      const sys = sysOf(n);
+      if (!sys) return 0;
+      const zs = cam.s / sysScale(sys), t = threshold(rank.get(n.id) ?? 99);
+      return labelAlpha(zs, scope && n.group !== scope.id ? 2 * t : t, reduce.matches);
+    };
+    const pri = (n: Node) => (forced(n) ? 1e9 : 0) + (lens && lensSet.has(n.id) ? 1e6 : 0) + (inScope(n) ? 1e3 : 0) + (prevPlaced.has(n.id) ? 500 : 0) + n.weight;
+    const cands = shown.map((x) => ({ ...x, a: target(x.n) })).filter((x) => x.a >= 0.03)
+      .sort((a, b) => pri(b.n) - pri(a.n));
+    const lensCap = lens ? 30 : Infinity, max = narrow() ? 30 : 60;
+    const v = visibleRect();
+    const placed = new Set<string>();
+    labelsFading = false;
+    let count = 0, lensCount = 0;
+    for (const { n, p, d, a } of cands) {
+      const isForced = forced(n);
+      if (!isForced && count >= max) break;
+      if (!isForced && lens && lensSet.has(n.id) && lensCount >= lensCap) continue;
       const text = n.label.length > 40 ? `${n.label.slice(0, 38)}…` : n.label;
-      const w = ctx.measureText(text).width + 10, r = { x: p.x + d / 2 + 6, y: p.y - 10, w, h: 20 };
-      if (r.x + w > right) r.x = p.x - d / 2 - 6 - w;
-      if (!forced(n) && (r.x < 0 || r.x + w > right || r.y < 0 || r.y + r.h > bottom || taken.some((o) => hit(r, o)))) continue;
-      taken.push(r); budget--;
-      ctx.globalAlpha = 0.82; ctx.fillStyle = colors.plate; ctx.beginPath(); ctx.roundRect(r.x, r.y, r.w, r.h, 3); ctx.fill();
-      ctx.globalAlpha = 1; ctx.fillStyle = colors.text; ctx.fillText(text, r.x + 5, r.y + 10);
+      let w = textWidth.get(n.id);
+      if (w === undefined) { w = ctx.measureText(text).width + 10; textWidth.set(n.id, w); }
+      const r = { x: p.x + d / 2 + 6, y: p.y - 10, w, h: 20 };
+      if (r.x + w > v.x1) r.x = p.x - d / 2 - 6 - w;
+      if (!isForced && (r.x < v.x0 || r.x + w > v.x1 || r.y < v.y0 || r.y + r.h > v.y1 || taken.some((o) => hit(r, o)))) continue;
+      taken.push(r); placed.add(n.id); count++;
+      if (lens && lensSet.has(n.id)) lensCount++;
+      // a caption that just found room fades in over 300 ms (not under reduced motion)
+      let alpha = a;
+      if (!reduce.matches && !isForced) {
+        const since = now - (placedAt.get(n.id) ?? (placedAt.set(n.id, now), now));
+        if (since < 300) { alpha *= since / 300; labelsFading = true; }
+      }
+      ctx.globalAlpha = 0.82 * alpha; ctx.fillStyle = colors.plate; ctx.beginPath(); ctx.roundRect(r.x, r.y, r.w, r.h, 3); ctx.fill();
+      ctx.globalAlpha = alpha; ctx.fillStyle = colors.text; ctx.fillText(text, r.x + 5, r.y + 10);
     }
+    for (const id of placedAt.keys()) if (!placed.has(id)) placedAt.delete(id);
+    prevPlaced = placed;
+    ctx.globalAlpha = 1;
   }
 
   // lens: the matching set and, for localizations and sources, constellation lines (nearest-neighbour tree)

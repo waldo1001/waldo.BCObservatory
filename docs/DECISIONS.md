@@ -229,3 +229,13 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   edges and source touches. Sample 2026-10-07: 48 items, 11 calls, $0.47 ($0.0097 per item), prompt v2 after v1
   linked GitHub Copilot posts to Business Central Copilot hubs and demo data to its domain. Both link passes now
   also run after a clean memory stop, not only after "done", so linking keeps pace during catch-up.
+- **D44 Galaxy captions follow zoom, search lights up the galaxy.** Captions (owner 2026-10-07): a star's caption
+  has a zoom threshold from its weight rank inside its system (`site/src/scripts/galaxy-labels.ts`,
+  `threshold(rank) = 0.2 * (1 + rank) ** 0.75` in system-relative zoom) and fades in over 1.3x of zoom plus 300 ms,
+  placed brightest first where there is room; a caption placed last frame keeps its slot. The large systems sit at
+  zs ~0.13 when the galaxy fits the viewport, so the first caption per cluster appears at ~1.6x galaxy zoom and five
+  are full at system zoom (HANDOFF 5). Wheel zoom never changes the level; a system that fills the view by hand
+  (`dominantSystem`, 0.8x its own zoom) gets its edges and in-scope captions without touching breadcrumb, hash or
+  panel. Reduced motion: a step at 1.15x, no fades. The site's TypeScript is now part of `npm run typecheck`
+  (`site/tsconfig.json`); the Astro build only transpiles. Why: the per-level label budget popped captions in late
+  and all at once, and nothing type-checked 1,000 lines of galaxy code.
