@@ -1,0 +1,148 @@
+{
+  "video_id": "y4yexz_hWPc",
+  "item_id": "video/yt-microsoft/y4yexz_hWPc",
+  "title": "#BCTalent in APAC: Bridging the Talent Gap Together",
+  "duration_s": 82,
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "talent acquisition",
+    "team scaling",
+    "consultant training",
+    "enablement strategy",
+    "partner programs",
+    "business central skills"
+  ],
+  "chapters": [
+    {
+      "title": "Scaling challenges and BC Talent availability",
+      "t_start": 0,
+      "t_end": 14.1
+    },
+    {
+      "title": "Early success with hired candidates",
+      "t_start": 14.1,
+      "t_end": 28.6
+    },
+    {
+      "title": "Program impact on team construction and onboarding",
+      "t_start": 28.6,
+      "t_end": 47.8
+    },
+    {
+      "title": "Long-term vision and strategic value",
+      "t_start": 47.8,
+      "t_end": 73.8
+    },
+    {
+      "title": "Call to action for partners",
+      "t_start": 73.8,
+      "t_end": 82
+    }
+  ],
+  "features": [
+    {
+      "name": "BC Talent program",
+      "description": "A program launched in Australia that helps Business Central partners recruit and train consultants with industry experience and Business Central skills. The program brings candidates up to speed quickly and supports both recruitment and reskilling efforts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.2,
+      "t_end": 73.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "talent",
+        "recruitment",
+        "training",
+        "partner program",
+        "apac"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "BC Talent program enablement strategy",
+      "description": "A strategic approach where the BC Talent program serves as a critical component of partner enablement strategies, addressing upskilling, reskilling, and recruitment needs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 58.2,
+      "t_end": 73.8,
+      "is_demoed": false,
+      "caveats": [
+        "Represents a future vision rather than current universal implementation"
+      ],
+      "tags": [
+        "enablement",
+        "strategy",
+        "partner programs",
+        "upskilling",
+        "reskilling"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Unknown speaker 1",
+      "confidence": "low"
+    },
+    {
+      "name": "Unknown speaker 2",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 6.2,
+      "text": "We're constantly competing for the same resources which made scaling our team almost impossible.",
+      "why_it_matters": "Identifies the core business problem the BC Talent program addresses - severe resource scarcity in the talent market.",
+      "check": "exact"
+    },
+    {
+      "t": 14.1,
+      "text": "When we first heard it was available in Australia, we had to jump on the opportunity.",
+      "why_it_matters": "Confirms the program is generally available in Australia, demonstrating market demand and partner enthusiasm.",
+      "check": "exact"
+    },
+    {
+      "t": 28.6,
+      "text": "This program is changing the way that we construct our business central teams.",
+      "why_it_matters": "Indicates significant impact on partner hiring and team structure strategies.",
+      "check": "exact"
+    },
+    {
+      "t": 36.6,
+      "text": "It enables us to get consultants that have industry experience and also are trained up in business central.",
+      "why_it_matters": "Describes the unique value proposition of finding experienced consultants with BC skills.",
+      "check": "exact"
+    },
+    {
+      "t": 58.2,
+      "text": "I see a future where the BC Talent program is a critical component of the enablement strategy of all business central partners.",
+      "why_it_matters": "Articulates the strategic vision for the program as a foundational partner capability.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009639
+    }
+  ]
+}

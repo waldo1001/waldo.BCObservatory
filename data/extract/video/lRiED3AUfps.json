@@ -1,0 +1,177 @@
+{
+  "video_id": "lRiED3AUfps",
+  "item_id": "video/yt-microsoft/lRiED3AUfps",
+  "title": "Getting Started with Business Central (2025)",
+  "duration_s": 85,
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "getting started",
+    "sample company",
+    "data migration",
+    "setup guide",
+    "company creation",
+    "importing data",
+    "excel import",
+    "customer data",
+    "vendor data",
+    "item data"
+  ],
+  "chapters": [
+    {
+      "title": "Welcome and Sample Company Overview",
+      "t_start": 0,
+      "t_end": 12.2
+    },
+    {
+      "title": "Sample Data and Historical Information",
+      "t_start": 12.2,
+      "t_end": 25.2
+    },
+    {
+      "title": "Creating Your Own Company",
+      "t_start": 25.2,
+      "t_end": 37
+    },
+    {
+      "title": "Setup Guides and Data Migration",
+      "t_start": 37,
+      "t_end": 51.2
+    },
+    {
+      "title": "Importing Data from External Sources",
+      "t_start": 51.2,
+      "t_end": 66.4
+    },
+    {
+      "title": "Settings and Conclusion",
+      "t_start": 66.4,
+      "t_end": 85
+    }
+  ],
+  "features": [
+    {
+      "name": "Sample Company Cronis",
+      "description": "A pre-configured sample company with customer, vendor, and item data transactions ready for posting, including historical data to simulate a real company environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1,
+      "t_end": 25.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sample data",
+        "getting started",
+        "demo company"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Setup Guide",
+      "description": "A guided wizard that helps users through setup steps that are unique to their business when creating a new company.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 25.2,
+      "t_end": 37,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "setup",
+        "guided wizard"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Data Migration Guide",
+      "description": "A feature that simplifies importing data such as customers, vendors, and items from other accounting systems and Excel files.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 51.2,
+      "t_end": 66.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "data migration",
+        "import",
+        "excel"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Teaching Tips Toggle",
+      "description": "A user setting that allows turning off teaching tips for experienced users who no longer need guided assistance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 66.4,
+      "t_end": 79.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "settings",
+        "user experience"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 1,
+      "text": "We provide a sample company named Cronis. We've set it up with everything you need to try things out.",
+      "why_it_matters": "Establishes the availability and purpose of the sample company for getting started with Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 12.2,
+      "text": "You get customer, vendor, and item data transactions ready for posting. You also get historical data so it feels like a real company.",
+      "why_it_matters": "Explains what sample data is included and why it matters for realistic learning and testing.",
+      "check": "exact"
+    },
+    {
+      "t": 25.2,
+      "text": "The setup guide helps you through the steps that are unique to your business.",
+      "why_it_matters": "Describes the guided setup process available for new companies.",
+      "check": "exact"
+    },
+    {
+      "t": 51.2,
+      "text": "The data migration guide makes it easy to import data such as customers, vendors, and items from other accounting systems.",
+      "why_it_matters": "Highlights the data migration capability for importing from existing systems.",
+      "check": "exact"
+    },
+    {
+      "t": 51.2,
+      "text": "You can import your company data from Excel files.",
+      "why_it_matters": "Indicates Excel is a supported import format for company data.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010493
+    }
+  ]
+}

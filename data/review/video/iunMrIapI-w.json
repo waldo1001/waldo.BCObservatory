@@ -1,0 +1,21 @@
+{
+  "video_id": "iunMrIapI-w",
+  "item_id": "video/yt-microsoft/iunMrIapI-w",
+  "flags": [
+    "empty-extraction"
+  ],
+  "verdict": "reject",
+  "issues": [
+    "The transcript has only the word 'Heat' three times, which is a typical auto-caption artifact for background music. There is no spoken content.",
+    "No Business Central content can be checked from the captions, so the page would rest only on the title and metadata.",
+    "The summary calls the video about 1 minute long, but it is 37 seconds."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025352
+  }
+}

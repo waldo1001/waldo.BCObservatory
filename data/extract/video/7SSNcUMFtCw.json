@@ -1,0 +1,566 @@
+{
+  "video_id": "7SSNcUMFtCw",
+  "item_id": "video/yt-microsoft/7SSNcUMFtCw",
+  "title": "What's New: Business Central AI Resources (2025 release wave 1)",
+  "duration_s": 1337,
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "ai resources",
+    "copilot",
+    "azure openai",
+    "content safety",
+    "data privacy",
+    "billing",
+    "developer tools",
+    "managed ai",
+    "model deployment",
+    "prompts",
+    "consumption-based pricing",
+    "responsible ai"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Business Central AI Resources",
+      "t_start": 0,
+      "t_end": 56.2
+    },
+    {
+      "title": "What are Business Central AI Resources and their benefits",
+      "t_start": 56.2,
+      "t_end": 206
+    },
+    {
+      "title": "Benefits of using BC AI Resources",
+      "t_start": 206,
+      "t_end": 314.3
+    },
+    {
+      "title": "Content safety and data privacy",
+      "t_start": 314.3,
+      "t_end": 443.1
+    },
+    {
+      "title": "Using BC AI Resources versus bring your own subscription",
+      "t_start": 443.1,
+      "t_end": 601.8
+    },
+    {
+      "title": "Development and deployment patterns",
+      "t_start": 601.8,
+      "t_end": 749.8
+    },
+    {
+      "title": "Model deprecation and frequently asked questions",
+      "t_start": 749.8,
+      "t_end": 867.5
+    },
+    {
+      "title": "Billing Challenges with Custom Azure OpenAI",
+      "t_start": 867.5,
+      "t_end": 1026.6
+    },
+    {
+      "title": "Business Central AI Resources Billing Model",
+      "t_start": 1026.6,
+      "t_end": 1051.8
+    },
+    {
+      "title": "Comparison: AI Resources vs Bring Your Own",
+      "t_start": 1051.8,
+      "t_end": 1172.7
+    },
+    {
+      "title": "Responsible AI and Billing Differences",
+      "t_start": 1172.7,
+      "t_end": 1264.2
+    },
+    {
+      "title": "Resources and Closing",
+      "t_start": 1264.2,
+      "t_end": 1337
+    }
+  ],
+  "features": [
+    {
+      "name": "Business Central AI Resources",
+      "description": "Microsoft managed Azure OpenAI resources that allow publishers to use large language models without independently procuring and managing Azure OpenAI subscriptions for customers. Consumption-based approach where customers are billed directly by Microsoft. Available in SaaS production environments only. Supports GPT-4o and GPT-4o mini models.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.2,
+      "t_end": 1245.5,
+      "is_demoed": false,
+      "caveats": [
+        "Partners still need to use their own subscription when prototyping, developing, testing and troubleshooting in non-production and non-SaaS environments",
+        "Consumption-based direct billing is being added in this release",
+        "Available in SaaS and production environments only",
+        "No embeddings support at time of recording",
+        "Billing details not finalized at recording time"
+      ],
+      "tags": [
+        "managed ai",
+        "azure openai",
+        "developer tools",
+        "ai resources",
+        "consumption-based billing",
+        "managed by microsoft",
+        "production ready"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Consumption-based billing for AI resource use",
+      "description": "Direct billing of customers for AI resource consumption across ISV solutions through the Business Central AI resources. Microsoft charges customers directly based on consumption. Customers can track usage, set limits, and receive a single invoice across all ISVs using Business Central AI Resources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 56.2,
+      "t_end": 1264.2,
+      "is_demoed": false,
+      "caveats": [
+        "Implementation details and rollout timeline not specified in first segment"
+      ],
+      "tags": [
+        "billing",
+        "consumption-based",
+        "ai resources",
+        "unified billing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Content safety with blocking policy",
+      "description": "Built-in content safety measures including blocking policy for calls to Azure OpenAI, with filters for hate, violence, sexual content, self-harm, jailbreak detection, and cross-prompt injection attack protection. Implemented as part of responsible AI measures along with system prompt additions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 314.3,
+      "t_end": 1214,
+      "is_demoed": false,
+      "caveats": [
+        "Better protection against prompt injection attacks is in the plans but not yet implemented",
+        "These policies may slightly change model behavior between on-premise and production environments"
+      ],
+      "tags": [
+        "content safety",
+        "security",
+        "data protection",
+        "responsible ai",
+        "content moderation",
+        "system prompts"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Set managed resource authorization function",
+      "description": "AL code function that allows developers to use Business Central AI resources by specifying Azure OpenAI account name, API key, and deployment name.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 489,
+      "t_end": 558.2,
+      "is_demoed": true,
+      "caveats": [
+        "Partners must still have an approved Azure OpenAI subscription for compliance verification, though resources are not consumed",
+        "Requires specifying a deployment name from available models"
+      ],
+      "tags": [
+        "al code",
+        "developer tools",
+        "api",
+        "ai resources"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Bring your own Azure OpenAI subscription",
+      "description": "Alternative approach allowing developers to use their own Azure OpenAI subscription instead of managed BC AI resources, primarily for development, testing, troubleshooting and special use cases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 83.5,
+      "t_end": 195.4,
+      "is_demoed": true,
+      "caveats": [
+        "Recommended only for development or special needs, not for production deployment",
+        "Use set authorization function instead of set managed resource authorization",
+        "Data source capabilities not supported when bringing your own Azure OpenAI subscription"
+      ],
+      "tags": [
+        "azure openai",
+        "developer tools",
+        "optional"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Conditional code pattern for development and production",
+      "description": "Code pattern that uses environment information to determine whether to use bring-your-own Azure OpenAI subscription during development or managed BC AI resources in production.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 601.8,
+      "t_end": 654.5,
+      "is_demoed": true,
+      "caveats": [
+        "Testing should be done in on-premise environment before deploying to SaaS production due to potentially different model behavior"
+      ],
+      "tags": [
+        "development",
+        "code pattern",
+        "environment-based logic"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Data residency control for AI calls",
+      "description": "Administrators can control whether AI calls cross geographical boundaries through the copilot and agent capabilities page in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 670.2,
+      "t_end": 702.4,
+      "is_demoed": false,
+      "caveats": [
+        "Only applicable when Azure OpenAI deployment is available in the same geography"
+      ],
+      "tags": [
+        "data residency",
+        "privacy",
+        "administration",
+        "ai resources"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "System prompts for AI safety",
+      "description": "Meta prompts appended to developer prompts as part of content safety measures when using the Business Central AI resources toolkit.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 702.4,
+      "t_end": 739,
+      "is_demoed": false,
+      "caveats": [
+        "May cause slight behavior differences between on-premise testing with own subscription and production deployment",
+        "Developers should test thoroughly in sandbox before customer deployment"
+      ],
+      "tags": [
+        "content safety",
+        "prompts",
+        "ai safety"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Model deprecation notifications via telemetry",
+      "description": "Developer telemetry signals notify developers when Azure OpenAI models are being deprecated, allowing time to migrate to new models.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 749.8,
+      "t_end": 788.1,
+      "is_demoed": false,
+      "caveats": [
+        "Model deprecation deadlines are stricter than AL deprecation deadlines",
+        "Failure to migrate before deprecation may result in automatic model change, potentially affecting feature behavior"
+      ],
+      "tags": [
+        "telemetry",
+        "model management",
+        "deprecation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Azure OpenAI Deployments code unit",
+      "description": "Code unit that contains available Azure OpenAI model deployments that developers can use when configuring managed resource authorization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 558.2,
+      "t_end": 575.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "code unit",
+        "model management",
+        "api"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Data source capabilities in AI Resources",
+      "description": "Data source capabilities from Azure OpenAI are currently not supported in Business Central AI Resources toolkit, nor when bringing your own Azure OpenAI subscription.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 812.6,
+      "t_end": 825,
+      "is_demoed": false,
+      "caveats": [
+        "Not available",
+        "No retrieval augmented generation support"
+      ],
+      "tags": [
+        "data sources",
+        "limitations",
+        "not supported"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Non-OpenAI models support",
+      "description": "Non-OpenAI models such as DeepSeek are not currently supported in the Business Central AI Resources toolkit because Microsoft only exposes capabilities it uses internally.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 840.1,
+      "t_end": 867.5,
+      "is_demoed": false,
+      "caveats": [
+        "Third-party models not supported"
+      ],
+      "tags": [
+        "model selection",
+        "limitations",
+        "deepseek"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI Resources model availability",
+      "description": "Production-ready models available are GPT-4o and GPT-4o mini. More models will likely be added in the future. Users will be notified through telemetry when new models arrive or old ones are deprecated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1111.2,
+      "t_end": 1123.8,
+      "is_demoed": false,
+      "caveats": [
+        "Limited to two models at recording time",
+        "Future model additions not specified"
+      ],
+      "tags": [
+        "gpt-4o",
+        "model selection",
+        "available models"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Embeddings support",
+      "description": "Embeddings are not supported at the time of recording in Business Central AI Resources, but semantic search capabilities similar to embeddings are planned for approximately half a year to a year in the future.",
+      "status": "announced",
+      "status_evidence_t": 1136.7,
+      "status_evidence_quote": "we do not support uh embeddings although we have plans in probably next release uh in a you know half a year to a",
+      "status_evidence_verified": true,
+      "t_start": 1136.7,
+      "t_end": 1154,
+      "is_demoed": false,
+      "caveats": [
+        "Not available now",
+        "Timeline is approximate"
+      ],
+      "tags": [
+        "semantic search",
+        "embeddings",
+        "future capability"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Azure AOI deployments",
+      "t": 558.2
+    },
+    {
+      "type": "codeunit",
+      "name": "environment information",
+      "t": 644.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Peter Bo",
+      "confidence": "high"
+    },
+    {
+      "name": "Enrico Chibitan",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 39.3,
+      "text": "in this release, we're moving BC or Business Central AI resources from private preview, that means by invitation only, uh to a public preview",
+      "why_it_matters": "Marks the transition from private preview to public preview, indicating wider availability of the feature.",
+      "check": "exact"
+    },
+    {
+      "t": 56.2,
+      "text": "we are adding consumptionbased uh direct billing of customers uh AI resource use as well",
+      "why_it_matters": "Announces a new billing model for AI resource consumption, a key benefit for ISVs managing multiple customers.",
+      "check": "exact"
+    },
+    {
+      "t": 95.1,
+      "text": "the business central ai resources will be the default and recommended approach but some publishers or customers might have special needs",
+      "why_it_matters": "Establishes the recommendation strategy while acknowledging flexibility for special cases.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 112.2,
+      "text": "partners still need to use their own subscription when they are prototyping, developing and testing and troubleshooting in non-production uh and nonsas environments for",
+      "why_it_matters": "Defines clear requirements for development versus production environments.",
+      "check": "exact"
+    },
+    {
+      "t": 430.3,
+      "text": "we're not using data to train models uh we're not using data for example um to like improve Microsoft services and such uh we",
+      "why_it_matters": "Directly addresses customer concerns about data usage and establishes explicit data handling policy.",
+      "check": "snapped"
+    },
+    {
+      "t": 523,
+      "text": "we still require you as a partner to have an active Azure OpenAI subscription and this is mostly to make sure that you are",
+      "why_it_matters": "Clarifies that subscription is required for compliance verification, not resource consumption.",
+      "check": "exact"
+    },
+    {
+      "t": 670.2,
+      "text": "whenever possible, yes. So we as Microsoft of course commit to data privacy. So your data will stay within geography if there is the",
+      "why_it_matters": "Addresses data residency concerns and Microsoft's commitment to data privacy.",
+      "check": "exact"
+    },
+    {
+      "t": 799.8,
+      "text": "different models might behave differently. So your feature might just not work as well with the new one",
+      "why_it_matters": "Warns developers about model deprecation risks and the importance of testing before upgrades.",
+      "check": "exact"
+    },
+    {
+      "t": 812.6,
+      "text": "that is currently not possible neither by using the ai resources from the toolkit nor by bringing your own azure",
+      "why_it_matters": "Clarifies a major limitation - data sources and retrieval augmented generation are not available in either Business Central AI Resources or custom Azure OpenAI configurations.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 852.5,
+      "text": "we only expose to your partners capabilities that we as Microsoft use. And that's because of course we want to keep them tested and",
+      "why_it_matters": "Explains the design decision to restrict AI models to tested Microsoft-internal capabilities only, providing quality assurance rationale.",
+      "check": "exact"
+    },
+    {
+      "t": 1026.6,
+      "text": "uh approach where the customers will build directly from microsoft",
+      "why_it_matters": "Core business model statement for AI Resources - consumption-based billing directly from Microsoft to customers.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1039.7,
+      "text": "However, the details of that uh is not ready at the time of this recording. Um but keep an eye out for details after",
+      "why_it_matters": "Acknowledges billing implementation details are incomplete, indicating ongoing work before general availability.",
+      "check": "exact"
+    },
+    {
+      "t": 1062.4,
+      "text": "when you use the business central AI resources Microsoft manages those resources but it also means that it's available in SAS only and production",
+      "why_it_matters": "Key deployment constraint - AI Resources limited to SaaS production, excluding development/testing scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 1136.7,
+      "text": "we do not support uh embeddings although we have plans in probably next release uh in a you know half a year to a",
+      "why_it_matters": "Clarifies missing embeddings capability and provides timeline for semantic search alternatives in future releases.",
+      "check": "exact"
+    },
+    {
+      "t": 1245.5,
+      "text": "customers will be able to track usage search, set limits, and get a single detail invoice across all of the ISVS that are using",
+      "why_it_matters": "Describes unified billing advantage for customers dealing with multiple ISVs, solving a major pain point.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 39.3,
+      "kind": "preview",
+      "text": "moving BC or Business Central AI resources from private preview, that means by invitation only, uh to a public preview available for all of you"
+    },
+    {
+      "t": 112.2,
+      "kind": "not-in-this-release",
+      "text": "partners still need to use their own subscription when they are prototyping, developing and testing and troubleshooting in non-production"
+    },
+    {
+      "t": 367.4,
+      "kind": "coming-later",
+      "text": "we have uh in the plans to have some even better protection"
+    },
+    {
+      "t": 812.6,
+      "kind": "not-in-this-release",
+      "text": "data source capabilities that Azure OpenAI exposes from our toolkit. That is currently not possible"
+    },
+    {
+      "t": 852.5,
+      "kind": "not-in-this-release",
+      "text": "we can expose non open AI models in our toolkit for example deepseek or other models that have come out recently. And the answer is we don't support that currently"
+    },
+    {
+      "t": 1039.7,
+      "kind": "subject-to-change",
+      "text": "the details of that uh is not ready at the time of this recording. Um but keep an eye out for details after launch to learn more about how the billing works."
+    },
+    {
+      "t": 1136.7,
+      "kind": "coming-later",
+      "text": "we have plans in probably next release uh in a you know half a year to a year's time frame to provide some semantic search capabilities"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 15,
+    "quotes_dropped": 1,
+    "evidence_verified": 1,
+    "evidence_unverified": 13
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.031739
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024080999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025103
+    }
+  ]
+}

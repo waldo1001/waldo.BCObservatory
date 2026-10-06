@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=iunMrIapI-w",
   "published_at": "2025-05-12T12:49:41.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -25,11 +25,39 @@
       "words": 3,
       "lang": "en-orig",
       "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:35:06.110Z",
+      "path": "data/extract/video/iunMrIapI-w.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 0,
+      "quotes": 0,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.004128
+    },
+    "summarized": {
+      "at": "2026-10-06T18:35:11.274Z",
+      "path": "data/summary/video/iunMrIapI-w.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.006650399999999999
+    },
+    "linked": {
+      "at": "2026-10-06T18:35:11.276Z",
+      "systems": [],
+      "topics": 0,
+      "objects_as_heard": 0
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": [],
+  "flags": [
+    "empty-extraction"
+  ],
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 218,
@@ -42,5 +70,7 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "812900823efb0ea67a5805adc91ef7a47d35d7561c3b006a5b3fbd2c6b9470c0"
+  "output_hash": "083444d6554e76b3a6d1e657f0863f13886a32a701276f1df36fe33fe033a1c9",
+  "skip": "review-rejected",
+  "skipped_at": "2026-10-06T18:35:16.587Z"
 }

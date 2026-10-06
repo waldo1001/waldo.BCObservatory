@@ -1,0 +1,28 @@
+{
+  "video_id": "7SSNcUMFtCw",
+  "item_id": "video/yt-microsoft/7SSNcUMFtCw",
+  "summary": "Business Central AI Resources in 2025 release wave 1: Microsoft-managed Azure OpenAI (GPT-4o, GPT-4o mini) for publishers in SaaS production, moving from private to public preview, with consumption-based direct billing being added. Covers content safety, data privacy, bring-your-own subscription, AL patterns and model deprecation.",
+  "overview": "The video explains Business Central AI Resources, Microsoft-managed Azure OpenAI resources that let publishers use large language models without procuring and managing Azure OpenAI subscriptions for each customer. In this release they move from private preview (invitation only) to public preview. Consumption-based direct billing of customers is being added, though billing details were not ready at recording time.\n\nIt then covers how developers use them. The set managed resource authorization function takes an account name, API key and deployment name. Bring-your-own subscription is meant for development, testing and special cases. A conditional code pattern switches between the two by environment. The video also covers content safety, data residency, model deprecation telemetry, and current limits such as no embeddings, no data sources and no non-OpenAI models.",
+  "key_points": [
+    "AI Resources are Microsoft-managed Azure OpenAI resources, available in SaaS production environments only, with GPT-4o and GPT-4o mini at recording time.",
+    "The release moves AI Resources from private preview (invitation only) to public preview and adds consumption-based direct billing; billing details were not final at recording.",
+    "Partners still use their own Azure OpenAI subscription for prototyping, development, testing and troubleshooting in non-production and non-SaaS environments, and must hold an active subscription for compliance verification even though its resources are not consumed.",
+    "Use the set managed resource authorization function (account name, API key, deployment name) for AI Resources; use the set authorization function for bring-your-own. Use the environment information codeunit to switch between them.",
+    "Content safety adds a blocking policy (hate, violence, sexual content, self-harm, jailbreak, cross-prompt injection) and system prompts, which can change model behavior slightly versus on-premises testing. Test in a sandbox before customer deployment.",
+    "Telemetry signals warn of model deprecation. Deadlines are stricter than AL deprecation, and an unmigrated feature may be moved to a new model and behave differently.",
+    "Not supported now: embeddings (semantic search planned in roughly half a year to a year), data source capabilities (no retrieval augmented generation), and non-OpenAI models such as DeepSeek."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "92c587939b8e4f8e0ec2d4ef956fc70c1c54a052c6e18ceddd887bf590b2e23b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0253664
+  }
+}

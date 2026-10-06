@@ -1,0 +1,27 @@
+{
+  "video_id": "wlVewBgq9-Q",
+  "item_id": "video/yt-microsoft/wlVewBgq9-Q",
+  "summary": "Creating a project in Business Central from the project manager role center: project card, tasks, planning lines with budget and billable data, posting groups, and copying tasks from an existing project with the create new project assisted setup guide. A 3-minute walkthrough published 2025-05-22.",
+  "overview": "The video shows how to set up a project in Business Central. It starts from the project list in the project manager role center, then creates a project card where the system assigns the project number and the user enters a description and customer. The user can assign a project manager, which controls visibility in that person's role center.\n\nIt then adds project tasks, and planning lines with resources and items. Cost and price come from the resource or item. The project details pane shows cost and invoicing totals. The video also covers project posting groups and how to create a new project by copying tasks from an existing one.",
+  "key_points": [
+    "The project number is assigned automatically by Business Central when a new project is created; the user enters a description and selects a customer.",
+    "The project manager assigned on the project controls whether it shows in that person's role center.",
+    "Project task numbers are typically part of a number sequence defined in setup, and the numbering can be customized.",
+    "Planning line type can be budget, billable, or both, depending on line cost and how the customer is billed.",
+    "Cost and price on planning lines come from the assigned resource or item.",
+    "Project posting groups can be chosen per project or set in the project setup window.",
+    "The create new project assisted setup guide can copy tasks from an existing project; leaving the task selection blank copies all tasks, and the apply fast tab can copy quantities and dimensions."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "befd23ddad6e45120942366ca46df68dbfe1891947841898b367b5a274ad66d3",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014050400000000001
+  }
+}

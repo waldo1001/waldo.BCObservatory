@@ -1,0 +1,248 @@
+{
+  "video_id": "6zj34hjbpGU",
+  "item_id": "video/yt-microsoft/6zj34hjbpGU",
+  "title": "How Business Central Integrates with Microsoft Excel (2025)",
+  "duration_s": 177,
+  "systems": [
+    "reporting",
+    "integration",
+    "sales"
+  ],
+  "topics": [
+    "excel integration",
+    "data export",
+    "pivot tables",
+    "data analysis",
+    "edit in excel",
+    "publish changes",
+    "excel addin",
+    "financial data"
+  ],
+  "chapters": [
+    {
+      "title": "Overview of Excel integration capabilities",
+      "t_start": 0,
+      "t_end": 31.4
+    },
+    {
+      "title": "Opening and accessing data in Excel",
+      "t_start": 31.4,
+      "t_end": 57.4
+    },
+    {
+      "title": "Creating pivot tables and charts for analysis",
+      "t_start": 57.4,
+      "t_end": 90.1
+    },
+    {
+      "title": "Updating records in Excel and the addin pane",
+      "t_start": 90.1,
+      "t_end": 124.2
+    },
+    {
+      "title": "Publishing changes back to Business Central",
+      "t_start": 124.2,
+      "t_end": 177
+    }
+  ],
+  "features": [
+    {
+      "name": "Export data to Excel",
+      "description": "Users can easily export data from Business Central list pages to Excel for analysis using Excel's data analysis tools.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.2,
+      "t_end": 16.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "data export",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Open or Edit in Excel option",
+      "description": "On list pages, users have options to either open data in Excel for viewing or edit in Excel for making changes. Both Excel for the web and Excel app for Windows are supported.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 31.4,
+      "t_end": 42.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "list pages",
+        "data access"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Pivot table creation",
+      "description": "Users can create pivot tables in Excel from Business Central data using Excel's insert tab with a simple drag and drop experience to analyze and visualize data like quarterly sales by customer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 57.4,
+      "t_end": 68.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pivot table",
+        "data analysis",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Pivot chart visualization",
+      "description": "Users can add pivot charts to their Excel reports to visualize Business Central data with a few clicks from the insert tab.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 78.6,
+      "t_end": 90.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pivot chart",
+        "visualization",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Data connection refresh",
+      "description": "Reports and charts created in Excel are connected to Business Central data and can be refreshed to ensure they always reflect up-to-date information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 90.1,
+      "t_end": 101.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "data connection",
+        "refresh",
+        "reporting"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Bulk update in Excel",
+      "description": "Users can update multiple records in Business Central by editing data in Excel and publishing the changes back, enabling efficient bulk updates that would be time-consuming if done individually.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 101.8,
+      "t_end": 136,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "bulk update",
+        "edit in excel",
+        "data modification"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Excel addin pane",
+      "description": "When opening data in edit mode, the Excel addin pane displays controls to refresh, filter, and publish data between Excel and Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 124.2,
+      "t_end": 136,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel addin",
+        "pane",
+        "controls"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer Ledger Entries",
+      "t": 16.7
+    },
+    {
+      "type": "page",
+      "name": "Customer List",
+      "t": 101.8
+    },
+    {
+      "type": "page",
+      "name": "Customer Card",
+      "t": 146.9
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.2,
+      "text": "Business Central makes analyzing and working with your financial data simple with integration to Microsoft Excel. You can easily export data from a list",
+      "why_it_matters": "Establishes the core value proposition - seamless Excel integration for data analysis is a key feature of Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 16.7,
+      "text": "You can also edit your data in Excel and then publish it back to Business Central",
+      "why_it_matters": "Demonstrates bidirectional data flow - not just export for analysis but also import for updates, enabling bulk editing workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 31.4,
+      "text": "On list pages, you have the option to either open or edit in Excel",
+      "why_it_matters": "Clarifies the two distinct interaction modes available to users on any list page, offering flexibility for different use cases.",
+      "check": "exact"
+    },
+    {
+      "t": 90.1,
+      "text": "Analyzing the data in Excel enables powerful reporting abilities, all of which can be refreshed through the data connection",
+      "why_it_matters": "Explains that Excel reports remain live-connected to Business Central, maintaining data currency without manual refresh workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 113.3,
+      "text": "This could take a while if you had to update the field one by one on each customer card. With edit in Excel, we",
+      "why_it_matters": "Illustrates the efficiency gain from bulk editing in Excel versus manual updates on individual records in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 124.2,
+      "text": "When Excel opens, the Excel addin pane displays. Here we can refresh, filter, and publish our data",
+      "why_it_matters": "Documents the user interface controls provided by the Excel addin for managing data synchronization between Excel and Business Central.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014864
+    }
+  ]
+}
