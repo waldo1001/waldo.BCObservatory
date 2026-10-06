@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Business Central Under the Hood episode 8: AI Small Language Models and Fine-tuning",
   "url": "https://www.youtube.com/watch?v=RfHVHa_Qiqk",
-  "published_at": null,
+  "published_at": "2025-02-18T16:09:42.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:57:00.889Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1875
+    },
+    "captioned": {
+      "at": "2026-10-06T18:57:09.505Z",
+      "path": "data/captions/microsoft/RfHVHa_Qiqk.vtt",
+      "vtt_sha256": "09368b29f48c5c828ebbee938dc795fe98a20f1919bee523d04e90c83403d1c9",
+      "segments": 93,
+      "words": 5628,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 295,
-    "duration_s": 1876,
-    "via": "reconcile"
-  }
+    "duration_s": 1875,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "09368b29f48c5c828ebbee938dc795fe98a20f1919bee523d04e90c83403d1c9"
 }

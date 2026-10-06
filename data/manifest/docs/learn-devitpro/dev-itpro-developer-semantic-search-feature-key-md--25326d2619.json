@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/semantic-search-feature-key",
   "published_at": "2025-11-14T13:47:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "426eac35d4f025f49ec4b178493cce8ed5841812",
       "words": 127,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:07.646Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008557
+    },
+    "summarized": {
+      "at": "2026-10-06T18:57:07.655Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:57:07.656Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:57:07.658Z",
+      "page": false
     }
   },
   "input_hash": "426eac35d4f025f49ec4b178493cce8ed5841812",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "426eac35d4f025f49ec4b178493cce8ed5841812"
+  "output_hash": "aea661f309806e6a781083c70044c79fd4bba2af11a20abdb8ff29a3aaefeb86"
 }

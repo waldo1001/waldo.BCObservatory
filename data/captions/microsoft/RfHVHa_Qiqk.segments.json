@@ -1,0 +1,473 @@
+{
+  "video_id": "RfHVHa_Qiqk",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 10.4,
+      "end": 30.6,
+      "text": "welcome to the eighth episode of under the hood so when we started this series the very first episode was about AI where back then we talked about a little bit about prompt engineering and um and and kind of scratched the surface and what what this llm was about uh and then we thought that was about time to do a another"
+    },
+    {
+      "t": 30.6,
+      "end": 50.7,
+      "text": "another episode on AI and and we'll look into some slightly different topics this time so with me today I have Claus hi Claus hello um class you've been working with um data science and and AI for for quite some years now so please you know tell us a little bit introduce yourself and tell us a little bit about yourself sure yeah so my"
+    },
+    {
+      "t": 50.7,
+      "end": 70.7,
+      "text": "name is Claus marus Hansen I work um as a principal engineer on business Central uh all things AI so I actually I was thinking about it um and looking back I started working on AI and machine learning in 2005 so it's 20 years ago so before LM was thing yeah before llm was"
+    },
+    {
+      "t": 70.7,
+      "end": 90.9,
+      "text": "a thing so so we were we were building sensors for cars to record uh road conditions and then we used machine learning models to uh detect whether the road was IC or not and then warn warn the driver predictions so so that was the uh traditional that was the tradition traditional machine Lear machine"
+    },
+    {
+      "t": 90.9,
+      "end": 110.9,
+      "text": "learning and and that's also what I did uh when I joined business Central back in the day so nav so I was part of building the first machine learning and AI features so the forecasting uh feature in business Central um classification the regression and the image analysis things so the the early AI it's fair to say you were"
+    },
+    {
+      "t": 110.9,
+      "end": 131,
+      "text": "the one who introduced AI in business Central yeah guilty yeah all right all right so you also worked on other products um other than which you're not business Central yes uh so after business Central I've worked on uh on powerbi uh for a longer period so this was back in the days before there was any AI in"
+    },
+    {
+      "t": 131,
+      "end": 151.4,
+      "text": "in powerbi so um some of the things we did was to uh do Automated machine learning so this idea that you come with you come with your business data um you want to predict something in your business data but you don't have necessarily have the skills or you don't have a data scientist to massage your data and do so we did"
+    },
+    {
+      "t": 151.4,
+      "end": 171.7,
+      "text": "automated that for for people um we also built some of the um well we built the first AI visuals as they're called in powerbi so if you ever use powerbi and use uh key influencers decomposition tree analysis sorry anomaly detection things like that that's"
+    },
+    {
+      "t": 171.7,
+      "end": 191.8,
+      "text": "something I built the at least the back end of so the idea is that you you know you put all your data on a report and then you can add these visuals for example key influencers you can you can tell okay what is the thing that most influences your sale in Germany or something like that so we do run these machine learning models in the background um or find"
+    },
+    {
+      "t": 191.8,
+      "end": 212.2,
+      "text": "an anomal in the list of find anom in your sales or in your I don't whatever you can do in powerbi um and these features are still available in powerbi yes they are still available and widely used and okay and then interestingly one of the last ones I built was um or we built was called smart narrative so this idea of you put a lot of stuff on your"
+    },
+    {
+      "t": 212.2,
+      "end": 232.5,
+      "text": "powerbi dashboard and now you want a textual explanation of what's there right so a summary uh and that's uh that sounds very much like large language model and generative AI but this was before generative AI so that was not using there was no gbt there was right around the time of gbt 3 so we had to build all this kind of by hand okay and that's"
+    },
+    {
+      "t": 232.5,
+      "end": 253,
+      "text": "one of the things that are much easier today with the LMS all right yeah Okay cool so um so we are going to talk today we're going to talk a little bit about small language models because everybody is a lot of people are familiar with large language models uh you know things like Chad GPT are built on large language model Microsoft co-pilot"
+    },
+    {
+      "t": 253,
+      "end": 273.4,
+      "text": "is built on large language models but there's also this thing called small language model so class what's the difference between large language models and small language models right yeah so so uh so it's in the size of of the models so that's that's the that's the thing and the size is measured in terms of parameters so parameters would be often"
+    },
+    {
+      "t": 273.4,
+      "end": 293.9,
+      "text": "most most parameters are weights of matrices that are used when these uh models predict right you give give some text it's trans transformed into some uh numbers and those numbers are run through a bunch of matrices and out you get some other numbers that are transformed into text and then these matrices have weights"
+    },
+    {
+      "t": 293.9,
+      "end": 314.1,
+      "text": "um and so if we go back to gpt3 um this is 4 years ago that that had 175 billion parameters and so open AI doesn't disclose the number of parameters on on the current current models but dpt4 was probably all of magnitude bigger"
+    },
+    {
+      "t": 314.1,
+      "end": 334.4,
+      "text": "right 10 times bigger 20 there's some estimates about yeah yeah and and the thing is so so uh so the even these 175 billion parameters that's a that's a pretty large number it requires a lot of memory and processing power to large language more large comes in the picture so it requires multiple gpus to run a model"
+    },
+    {
+      "t": 334.4,
+      "end": 355,
+      "text": "like that efficiently how many gpus would you run is required for running say GPT 4 yeah so so um I'm not sure if they disclose those numbers but I think it's it's probably around 8 DVS you need to run dpt4 um efficiently and each dpus has like I don't know 100"
+    },
+    {
+      "t": 355,
+      "end": 375,
+      "text": "hundreds of CPUs or or or processors on it yeah yeah and and and the GPU is very expensive right so we're talking thousands of dollars per month to to to have a dpu essentially so that's that's expensive right so then um I mean almost um yeah so what what can you do to get a smaller model"
+    },
+    {
+      "t": 375,
+      "end": 395.1,
+      "text": "that that's also performs right and and and what the the way that that these models have typically been scaled is you know you add train on more data you had more parameters and so on so one technique you could do was just okay have St at fewer parameters maybe use the same amount of data and so on but and that"
+    },
+    {
+      "t": 395.1,
+      "end": 415.2,
+      "text": "that that gives some smaller models that don't really perform as well as as say dpt3 and dt35 and so on so uh some of the things that have happened recently and Microsoft is kind of at the Forefront of that is you try to to to make models better by training on better data so uh large language"
+    },
+    {
+      "t": 415.2,
+      "end": 435.7,
+      "text": "models are typically train we don't really know but they're typically train all information on on the internet very large very large number yeah good and bad right so so the Insight that that Microsoft researchers had was that you could train on say textbooks um very high quality data and by doing that uh you could"
+    },
+    {
+      "t": 435.7,
+      "end": 455.9,
+      "text": "uh use much or you could create models that had many much fewer parameters but were equally or were as good as as models that were 10 times as big smaller model in terms of uh how many how many gpus they need to run on so probably cheaper as well yes so they're cheaper right so Microsoft"
+    },
+    {
+      "t": 455.9,
+      "end": 476.1,
+      "text": "for example introduced this or have we have done this series of five Phi models the first one was released a year and a half ago with 1 point something billion parameters and the most recent five4 was released um this December with I think 14 billion parameters and that uh outperforms it clearly outperforms"
+    },
+    {
+      "t": 476.1,
+      "end": 496.3,
+      "text": "something like gpt3 and is on par with gbt 4 many so for simple tasks like summarizing or asking simple questions maybe it's not as good as as reasoning as for example 401 is yeah so but for many simple task it's probably good enough right and things that uh"
+    },
+    {
+      "t": 496.3,
+      "end": 516.5,
+      "text": "things that have math in it it's specifically trained on programming program generation things like that it doesn't have a lot of knowledge about the world okay right so if you ask about you know uh what's the largest country in Europe it it might not be able to answer but gbg4 would have that knowledge okay okay but but then these 14"
+    },
+    {
+      "t": 516.5,
+      "end": 536.9,
+      "text": "billion that that's small enough that you can run it efficiently on a single GPU so it means that it's so you can even run it at home maybe on your you can you can definitely run at home it will be slow but you can you can run it on a a normal graphics card norp whereas the large model is practically impossible it is impossible to run it at home unless"
+    },
+    {
+      "t": 536.9,
+      "end": 557,
+      "text": "it's definitely impossible unless you have 8 GPU so yeah something like that yes all right yeah um so so um so one of the things uh we that we've been working on uh recently in business Central uh on small language model is fine-tuning yeah so uh what is fine tuning what is this about you know"
+    },
+    {
+      "t": 557,
+      "end": 577.1,
+      "text": "you might have heard uh people talking about it um so what what what what's about and why why do we do fine shoting and what can be used for and tell us a little bit about about it yeah so let me uh let me talk a bit about fine tuning um so looking at this um slide here or this picture here"
+    },
+    {
+      "t": 577.1,
+      "end": 597.2,
+      "text": "um to the to the right or to the left sorry uh is shown what you normally do to to train an llm so as I said you uh you take a whole bunch of training data books uh websites and so on here's Wikipedia for example and then you do what is called pre-training so you essentially train an LM to be able"
+    },
+    {
+      "t": 597.2,
+      "end": 617.3,
+      "text": "to give in some text use another um bunch of text um and before a model such as 54 or dt4 is released they they um open AI or Microsoft train the model to for example do chat right and that's not"
+    },
+    {
+      "t": 617.3,
+      "end": 637.3,
+      "text": "that's not pre-training that's called supervised fine-tuning okay so what you do is to to show or to train the model on a lot of examples of chats right to give it some chat input and some chat output some ation some conversations yeah and then you train the model so that is you you change the weights such that it becomes better at producing producing"
+    },
+    {
+      "t": 637.3,
+      "end": 657.4,
+      "text": "chats and then you have like an llm such as GT4 GT4 that's a very but that's a very heavy process yeah that's that's a super heavy process um but we can do the same as open AI does on this pre-trained LM and we can also do it in a"
+    },
+    {
+      "t": 657.4,
+      "end": 677.8,
+      "text": "more efficient way so there are techniques where you don't have to adjust all the weights of the llm to um kind of specialize the llm so what I'm what I'm showing here is this process of of fine-tuning so the idea is again you have you have you come with your own data so that that could be even data from business Central"
+    },
+    {
+      "t": 677.8,
+      "end": 697.8,
+      "text": "mhm ER you show the model examples of okay given this input here's what kind of output we we want uh and then you do find and you get another llm mhm a gbt 4un mini that is fine tuned and that you can use as the similar to the other mhm um"
+    },
+    {
+      "t": 697.8,
+      "end": 717.9,
+      "text": "llm um and um yeah and what can that be be used for right so one uh one thing that it can be used for is to make an llm better at very A specialized task so let's say that you wanted to uh classify invoices you got to business Central to"
+    },
+    {
+      "t": 717.9,
+      "end": 738.3,
+      "text": "a specific chart of account that you had right that's not something that gbg4 knows anything about probably so then you could give a lot of examples of invoices and you know postings to a given chart of account and then fine tune and you would have a model that would be very good at that so that that's one thing like specializing the llm"
+    },
+    {
+      "t": 738.3,
+      "end": 758.6,
+      "text": "to do certain tasks that it wasn't very good at beforehand but but just to be clear uh so uh if you if you want to do that it's because you mean maybe the first step is to try it out before fine tuning to figure out as you say you know you would do that only if you find out that the model is not doing a good job to start with yeah"
+    },
+    {
+      "t": 758.6,
+      "end": 778.7,
+      "text": "because that's kind of a fine tun still requires some skills it's kind of you know involved process right yeah absolutely so it's always the the case that you know first you start with a prompt then you try prompt engineering right if you forget about that you can see the first episode of this show right we'll put some links in the description and and and and if that's not"
+    },
+    {
+      "t": 778.7,
+      "end": 799,
+      "text": "satisfa then you can go fine tune mhm um so this specialization is is one um like scenario you might want to use fine tuning another one would be cost saving um so say that you have a feature where tbg4 works just fine right it's it's very good it gives you"
+    },
+    {
+      "t": 799,
+      "end": 819.2,
+      "text": "high accuracy does what you want but it's just too expensive then you might take a a smaller model say gbg4 mini MH and give it kind kind of the output from gbg4 and try to get the gbg4 mini to behave as gbg4 on on your scenario so that's also something that we are doing right now"
+    },
+    {
+      "t": 819.2,
+      "end": 839.2,
+      "text": "so is that what called Model distillation that's called Model distillation so you take a big model and uh which performs for your particular application well yes and you take the output of that and then you give it to a smaller model and train the small model to do the same thing and be good at that as well yeah so you can do it cheaper and faster exactly so sometimes"
+    },
+    {
+      "t": 839.2,
+      "end": 859.5,
+      "text": "talk about a teacher and a student okay so gbg4 would be the teacher okay it knows what to to do right and the gbg me would be the student all that learns from the from the teacher yeah okay so how um so how how how much uh money can can one save on doing that which you talk about Co cost saving"
+    },
+    {
+      "t": 859.5,
+      "end": 879.8,
+      "text": "yes yeah so so there is uh the difference between in pricing of dg4 for example in tpg4 mini is is a factor 10 15 so so potentially there's a large saving there yeah so fact 10 in your and if you if you do something like the even smaller model that there's even more to"
+    },
+    {
+      "t": 879.8,
+      "end": 900.4,
+      "text": "to save so actually you could even without F tuning if you find out that your feature or your prompt works well on small language model without fine tuning maybe it's even a good idea to try that out definitely yeah so do we support that in business Central can you use small language models yes so um so what you you can"
+    },
+    {
+      "t": 900.4,
+      "end": 920.6,
+      "text": "use for fine tuning is um as AI right so there is this uh we have this product called s AI Foundry mhm uh in which you um you can fine- tune openi models so gbt 4 o gbt 4 mini and so on um and once you fine tuned those you can uh you can deploy them also from"
+    },
+    {
+      "t": 920.6,
+      "end": 940.7,
+      "text": "AI Foundry and then you can consume them just like any other model AI model that you do in the AI toolkit in business Central yes but even if you don't want to fine tune but just want to use let's say you want to I don't know you do some simple summary or some you know stet forward thing that works well on on on on small language models even not fine"
+    },
+    {
+      "t": 940.7,
+      "end": 960.8,
+      "text": "tune you can also do that in business Central right yeah so you can deploy a smaller language model in a Foundry and I think you can also yeah use them in in AI toolkit yeah all right yeah all right so um so let's let's shift gear a little bit um and"
+    },
+    {
+      "t": 960.8,
+      "end": 981.4,
+      "text": "uh talk about testing right so how do how do you test this because you know testing is so traditional testing everybody knows we all know about that you know you you write some code you write some test code and and then you run it and then you know if it pass or failed uh but but language models uh small"
+    },
+    {
+      "t": 981.4,
+      "end": 1001.5,
+      "text": "or large are traditionally uh not not deterministic so meaning you know with the same prompt same data you might have variation in in the in the answers so how how do we so we we built some test framework uh you've been part of that effort as well on business Central can you tell us a little bit about that what's what what's the best practice here"
+    },
+    {
+      "t": 1001.5,
+      "end": 1019,
+      "text": "what what are we doing to test these features yeah yeah so absolutely yeah so the the the tricky part about Ai and yeah machine learning and so on is this non-determinism so um so what you typically do is you define some measure of goodness accuracy is an example"
+    },
+    {
+      "t": 1019,
+      "end": 1039.5,
+      "text": "that you measure um and then you keep track of that um okay so um for example for um the sales order agent that we are releasing now we have a measure of accuracy that is um you know given an email to the sales order agent do does it process the email correctly"
+    },
+    {
+      "t": 1039.5,
+      "end": 1059.5,
+      "text": "and create the right sales quote MH um if it does that good that that's good if it doesn't then that's a failure and then you essentially run a lot of these and calculate the total number of runs you did and the uh successes and then you have an accuracy so so we do that and then the yeah the the support we have for that"
+    },
+    {
+      "t": 1059.5,
+      "end": 1079,
+      "text": "is the AI test uh toolkit so these are you know uh normal Al tests that run uh in this AI test toolkit data driven tests where the input for the sales order agent say are emails and we run the agent and then we check"
+    },
+    {
+      "t": 1079,
+      "end": 1099,
+      "text": "with normal Al uh you know the proper sales quote is is the proper expected sales quote uh generated so now the the tricky part there is then to get data for this thing uh so where do we get the all these emails from and so on you need a large relatively large data set so for you need"
+    },
+    {
+      "t": 1099,
+      "end": 1119,
+      "text": "hundreds of tests for a for a feature like that um and there um we we are doing data Generation Um so that's another thing that these llms are very good at is to generate data so so um concretely what we have done in for the sales order agent is to you know create what we call seed"
+    },
+    {
+      "t": 1119,
+      "end": 1139.2,
+      "text": "data so examples of emails yeah from customers examples of items and so on and use that as input to uh gbg4 and generates new data so basically you have an email that we handcrafted right or and and some some some data and we ask the we give it to the N MSA generate"
+    },
+    {
+      "t": 1139.2,
+      "end": 1153.2,
+      "text": "some emails that resemble this one maybe with different combination of data things like that and I would say so the best practice is generally to do this in a this AI development in a data driven way so now start by"
+    },
+    {
+      "t": 1153.2,
+      "end": 1173.2,
+      "text": "establishing tests datadriven tests and make sure then that you drive accuracy to whatever acceptable number to to to a good number yeah so so we can we can test so if I understand correctly you so we can test whether so we get an email that's basically the input right you get an email from a from a customer right"
+    },
+    {
+      "t": 1173.2,
+      "end": 1193.6,
+      "text": "asking for a quote for example and then um then we can check as you say uh with with Al code that the proper code is created but in the Sal Auto agent um if you're not familiar with it it's a feature which is in preview uh you we actually generate we have the LM generating a reply to the customer like"
+    },
+    {
+      "t": 1193.6,
+      "end": 1213.6,
+      "text": "mail right and where we attach the the actual s code right so how do we verify that the email is actually you know uh correct that you know it's not just some uh you know giberish uh and that it actually really answer the the the customer properly yes that"
+    },
+    {
+      "t": 1213.6,
+      "end": 1229.7,
+      "text": "that's a good uh that's a good point so we we have two types of uh tests and both have to pass for a like guess a scenario to to work so one is these Al based assertions where you check that the sales Cod was generated correctly and then the other is uh"
+    },
+    {
+      "t": 1229.7,
+      "end": 1249.7,
+      "text": "checking an email in in the sales order agent case and and given that it's natural language the only really only way to do that is to get an llm to do it so we also have support in the AI test to kit for using an llm to to test features and we use so we use that to check okay did it write the correct"
+    },
+    {
+      "t": 1249.7,
+      "end": 1269.8,
+      "text": "thing was the yeah tone correct and and so on and so forth we also use the same strategy in in other feature so we have marketing text as an co-pilot feature the output of that is a marketing text so if we have to to do automated test on that we can't we can't do write those in Al again we have a prompt that we apply that scores the output"
+    },
+    {
+      "t": 1269.8,
+      "end": 1290,
+      "text": "with you know coherence fluency creativity we have a PR that says something like here's the email that you generated does it have the proper tone does it relate to the quotes things like that so we do these checks and ask the LM exactly uh and be like a yes or no answer yeah right so back a little bit back to"
+    },
+    {
+      "t": 1290,
+      "end": 1310.8,
+      "text": "I want to get back a little bit to um to fine tuning on small language model because now we're talking about the sales order agent and uh and recently uh you and I did a little bit of work around this and trying to uh to do some cogs optimization and model distillation um so can you talk a little bit about that"
+    },
+    {
+      "t": 1310.8,
+      "end": 1331.3,
+      "text": "yes because there was there was several parts in it there was both some you know some syic data generation some fine tuning some test uh and then I think you also have some uh results you can share yeah I have some preliminary results that are that are promising and I can I can share those yeah so so so when we talked about fine-tuning"
+    },
+    {
+      "t": 1331.3,
+      "end": 1351.4,
+      "text": "right we we said that you need training data you need some L data input output so so the question is where do you get that for fine-tuning something like the sales order agent how do you get good data um and so the the observation you can you I mean you can make it is that okay we we have test cases so we have hundreds of"
+    },
+    {
+      "t": 1351.4,
+      "end": 1371.5,
+      "text": "test cases that run mhm and if these test cases pass that's actually a good behavior of the agent so what we do is so we look at all our test runs uh we look at what the agent did in the test run did it behave properly if it did we use that for fine-tuning and um specifically the agent does"
+    },
+    {
+      "t": 1371.5,
+      "end": 1391.7,
+      "text": "it the agents do multiple things so for example it checks the email when it comes in it uh you know when the agent is running it operates uh business Central clicking and uh navigating out fields and and so on and there's some other things it does but the bulk of what it does is these"
+    },
+    {
+      "t": 1391.7,
+      "end": 1411.8,
+      "text": "execute task steps as we call them where it operates business Central so what we did is to take you know the input to all of these steps uh and the output for the cases where that Su where the test succeeded so now we have a data set so this execute task is actually quite crucial that's the one so as you say there there some cheing the"
+    },
+    {
+      "t": 1411.8,
+      "end": 1432.1,
+      "text": "email some preliminary things but but this is where actually we ask the LM so what to do next you where should I click where where where you click where which Fields you fill out and so that's a quite complex task which uh you know probably couldn't be done by anything else than an LM if it's not trained"
+    },
+    {
+      "t": 1432.1,
+      "end": 1453,
+      "text": "right agre yeah yeah it's the heart of the agent so so to speak right um or the brain could say okay yeah and now so I have some some some preliminary uh data here from from our experiment so um what what I'm showing to the to the left is you know we have the this data we generated"
+    },
+    {
+      "t": 1453,
+      "end": 1473.1,
+      "text": "we if we run GT4 again on that data MH does it does it say the same thing as the um as in the test run right so so let's say you have a step where um the agent filled in a value mhm so there's some input um we asked TC what what would you do now if it says fill in the value with the"
+    },
+    {
+      "t": 1473.1,
+      "end": 1493.3,
+      "text": "same fill in this field with the same values then it's correct right so so that's that's what what's shown here so for example uh um here on the left we ran through 10 emails and in approximately 85% of the cases gbgo did the right thing so that's 84% accuracy and that's that translates"
+    },
+    {
+      "t": 1493.3,
+      "end": 1513.6,
+      "text": "to you know um some accuracy when you run multiple steps but in this case okay so then what we did was to try to do the same thing on dpt4 Mini and that's really bad it's really bad at that um now you can see the difference between you can really see the difference between how proficient large language model are against small language model for certain"
+    },
+    {
+      "t": 1513.6,
+      "end": 1533.8,
+      "text": "relatively complex task exactly yeah so so in in the example here if we look at this um scenario to the left uh tt4 mini achieves around 30% accuracy so that's a quite a significant drop and so useless so yeah we couldn't so we couldn't use it we couldn't replace we could defin that step with a"
+    },
+    {
+      "t": 1533.8,
+      "end": 1553.8,
+      "text": "small language model no so so then what we did is to you know we took this uh set data set that we got from the test and then we fine-tuned dpt4 me and that's the thing here to the to the right uh that shows that if we do that we get more than 90% accuracy on on these execute task steps which is pretty good and in this case it's it's"
+    },
+    {
+      "t": 1553.8,
+      "end": 1573.9,
+      "text": "better than gy4 um and that that's really good yeah that that's good um that's but there's a butt right yeah so so these are preliminary uh results um so I think in order to fully you know bake this and and and ship it we we"
+    },
+    {
+      "t": 1573.9,
+      "end": 1594.1,
+      "text": "need to train this dt4 mini on more data than what we have in our our test so that's there's this thing called overfeeding right yeah yeah so so we do we don't we don't uh test on the same um you know we don't evalue on the same test cases that we uh train train you're not supposed to do that we don't do that here either"
+    },
+    {
+      "t": 1594.1,
+      "end": 1614.3,
+      "text": "but the thing is that that it's kind of it's the same you know customers and items and so on that so the data are the same the data the master data is the same so there's a risk that because we have these data so it's you know we have toys and and and so the toys have certain names and that's the items we have and the customers have certain names so there's a"
+    },
+    {
+      "t": 1614.3,
+      "end": 1634.3,
+      "text": "risk that when we have been training with this data then small the small language model that get fine tune is very good at recognizing these names and these item names meaning that if we put it out there to different customer with totally different data somebody somebody was selling I don't know coffee machines different customer names it might"
+    },
+    {
+      "t": 1634.3,
+      "end": 1654.8,
+      "text": "not perform as well yeah yeah so now back to data generation right so in order to fine tune a model that we could release we would need to generate more varied data emails items and then and so on and train on that but this is this is promising okay right and I yeah so that that's the kind of bad bad news but that the good thing is then um cost"
+    },
+    {
+      "t": 1654.8,
+      "end": 1675,
+      "text": "of this right so I I took that scenario that I just talked about I plotted in it here um showing that so gbgo uh achieved around 85 85% accuracy but it cost um around 22 cents to run these these 10 emails in this case whereas if you look at dpc4 mini"
+    },
+    {
+      "t": 1675,
+      "end": 1695,
+      "text": "it's super cheap like one cent but super that uh but uh dg4 mini then the fun version then hits kind of a sweet spot because it's it's a little bit more expensive than dg4 mini it's twice the cost for for running a fine tuned model but it's it has the same accuracy"
+    },
+    {
+      "t": 1695,
+      "end": 1715.2,
+      "text": "as dt4 it's 10 about 10 times cheaper than yeah and it's still um yeah fact 10 cheaper all right which is great cool so so um what advice would you give to our partners and developers around you know small language mods and fine tuning I is that something they should look into you know what can they do how do they get started"
+    },
+    {
+      "t": 1715.2,
+      "end": 1735.6,
+      "text": "with it yeah so as we talked about initially right the the first thing to do is always prom prompt engineering you know few shot prompting Chain of Thought and and all those things um but I I I think the tooling is is is quite good in a Foundry so um if there is a and"
+    },
+    {
+      "t": 1735.6,
+      "end": 1755.6,
+      "text": "especially model distillation is uh is relatively easy to do so if there is a feature uh that uses gg4 um that has high accuracy but is expensive yeah then that's that's and you have tests of course then then that's a all or or"
+    },
+    {
+      "t": 1755.6,
+      "end": 1775.7,
+      "text": "data of usage and and can say which are good uh predictions by GT4 then then certainly you could find you a GPT for me and have the the cost savings well you might you might want to try GPT for yeah small language before yes yes prompt engineering on GC on small language results that's the first step"
+    },
+    {
+      "t": 1775.7,
+      "end": 1796.2,
+      "text": "so that would be also savings to start with yeah so definitely looking at gbg4 mini is a is a good good idea or maybe the five Ms as well yeah 54 and so on it's also good and yeah then then there's all also because there are fewer parameters in the model it's also much faster mhm so if you have a scenario"
+    },
+    {
+      "t": 1796.2,
+      "end": 1816.4,
+      "text": "where you need speed MH then it's also Factor 10 or so faster so yeah so from from you you you send a prompt till you get the answer yes it's it's it's much faster all right right but but again is it fair to say that when you get if you get into fine tuning you you need to pay attentions to the data you're using that's the crucial"
+    },
+    {
+      "t": 1816.4,
+      "end": 1836.6,
+      "text": "part right and that's where the work is the fine tuning itself is maybe not is maybe well is as you said there's some good Tools in in AI but generating the good data set can be maybe yeah that's that's that's the challenge yeah I would say for the open AI models it's very simple to to find tune good tooling and uh yeah"
+    },
+    {
+      "t": 1836.6,
+      "end": 1856.6,
+      "text": "you you have to you know have good data you have to make sure that it's representative that it's accurate you have to make sure that you uh you know um don't train on the same data that you test on all those things that uh um that you have to avoid to to to know overfit so that it only"
+    },
+    {
+      "t": 1856.6,
+      "end": 1875,
+      "text": "works on on what you train it on yeah all right thank you class we talk about we could talk about this four hours that's you know it's a very exciting subject this we think it is um so we hope you enjoy this episode and thank you for watching thank you"
+    }
+  ],
+  "markers": [],
+  "word_count": 5628
+}

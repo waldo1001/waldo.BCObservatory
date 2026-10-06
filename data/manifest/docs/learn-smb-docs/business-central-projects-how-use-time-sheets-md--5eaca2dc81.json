@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-how-use-time-sheets",
   "published_at": "2025-11-07T15:02:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "09275e4cac2f3ddd670c6d43b74e987c942193c9",
       "words": 2582,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:07.653Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 13,
+      "cost_usd": 0.014074
+    },
+    "summarized": {
+      "at": "2026-10-06T18:57:07.677Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:57:07.678Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:57:07.679Z",
+      "page": false
     }
   },
   "input_hash": "09275e4cac2f3ddd670c6d43b74e987c942193c9",
@@ -57,5 +76,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "09275e4cac2f3ddd670c6d43b74e987c942193c9"
+  "output_hash": "ceb99b3cafb58e129c05b6b626b2d3b3692b75ebaa8e0b24f9bfea1bebfd480f"
 }

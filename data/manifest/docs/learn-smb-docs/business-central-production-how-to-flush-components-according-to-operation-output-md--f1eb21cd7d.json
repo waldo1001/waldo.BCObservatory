@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-flush-components-according-to-operation-output",
   "published_at": "2025-11-06T15:10:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b1caf3a95915d45844edf2015f118c9c61e9a825",
       "words": 1785,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:07.654Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.014074
+    },
+    "summarized": {
+      "at": "2026-10-06T18:57:07.680Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:57:09.388Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:57:09.390Z",
+      "page": false
     }
   },
   "input_hash": "b1caf3a95915d45844edf2015f118c9c61e9a825",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b1caf3a95915d45844edf2015f118c9c61e9a825"
+  "output_hash": "cc1332dd7f45f1429aebb5e8544da455774d1bb1b1812b013a8a99e6ce8dd099"
 }

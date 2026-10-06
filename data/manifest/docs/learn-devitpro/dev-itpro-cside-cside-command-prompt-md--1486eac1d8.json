@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/cside/cside-command-prompt",
   "published_at": "2025-11-10T11:52:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "33db165001d968421f209bf6ecca93e3bd48627a",
       "words": 4017,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:07.652Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008557
+    },
+    "summarized": {
+      "at": "2026-10-06T18:57:07.674Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:57:07.675Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:57:07.676Z",
+      "page": false
     }
   },
   "input_hash": "33db165001d968421f209bf6ecca93e3bd48627a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "33db165001d968421f209bf6ecca93e3bd48627a"
+  "output_hash": "1e8c408d5af76bc652787cda76c946cc5ca46d57f4a200ef27f52de8bcbac555"
 }

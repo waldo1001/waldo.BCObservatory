@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/automation-apis-using-s2s-authentication.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/automation-apis-using-s2s-authentication",
+  "title": "Using Service to Service Authentication",
+  "blob": "c80632ab2fa780549463d32c49c22a32d9fb0cda",
+  "summary": "Service-to-service (S2S) authentication enables unattended integrations to Business Central APIs using OAuth 2.0 client credentials flow for automation and external user access without user interaction.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "s2s authentication",
+    "oauth",
+    "api access",
+    "automation",
+    "security",
+    "entra id"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Microsoft Entra applications"
+    }
+  ],
+  "features": [
+    "OAuth 2.0 client credentials",
+    "automation APIs",
+    "API.ReadWrite.All permission",
+    "Automation.ReadWrite.All permission",
+    "Microsoft Entra registration",
+    "token management"
+  ],
+  "versions": [
+    "version 17.0",
+    "version 18.3",
+    "versions 18.11",
+    "version 19.5"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008557,
+      "pages_in_call": 6
+    }
+  ]
+}

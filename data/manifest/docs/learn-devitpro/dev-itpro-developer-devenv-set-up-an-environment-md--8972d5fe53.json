@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-set-up-an-environment",
   "published_at": "2025-11-10T15:25:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "452fd9cfcf61a7646484a4a01285126dd428ec11",
       "words": 618,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:07.650Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008557
+    },
+    "summarized": {
+      "at": "2026-10-06T18:57:07.667Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:57:07.668Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:57:07.669Z",
+      "page": false
     }
   },
   "input_hash": "452fd9cfcf61a7646484a4a01285126dd428ec11",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "452fd9cfcf61a7646484a4a01285126dd428ec11"
+  "output_hash": "35739172045d359ac2b13f93cef7b434479def5adf4fb9adcc9e1627fafbc931"
 }

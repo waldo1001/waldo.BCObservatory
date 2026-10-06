@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/charge-assignment-functionality.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/charge-assignment-functionality",
+  "title": "Charge assignment functionality",
+  "blob": "72c6306bd256b5ddb07745a210358dfa7ecfcdc6",
+  "summary": "Charge assignment functionality in Indian localization automatically distributes purchase order charges across line items using computation methods (fixed, percentage, quantity) and assignment methods (equally, by amount, weight, volume).",
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "charge assignment",
+    "india",
+    "purchase orders",
+    "automation",
+    "tax",
+    "gst"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Charge Groups"
+    },
+    {
+      "type": "page",
+      "name": "Charge Group Card"
+    }
+  ],
+  "features": [
+    "computation methods",
+    "assignment methods",
+    "third-party invoicing",
+    "invoice combination",
+    "charge group setup",
+    "GST integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008557,
+      "pages_in_call": 6
+    }
+  ]
+}

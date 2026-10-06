@@ -1,0 +1,64 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-to-flush-components-according-to-operation-output.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-flush-components-according-to-operation-output",
+  "title": "Flush components according to operation output",
+  "blob": "b1caf3a95915d45844edf2015f118c9c61e9a825",
+  "summary": "Component flushing automates the registration of consumption of components during production by posting consumption at different stages based on the flushing method selected. Use this page to understand and configure flushing strategies that improve inventory valuation, availability, and just-in-time production.",
+  "systems": [
+    "manufacturing",
+    "inventory",
+    "assembly"
+  ],
+  "topics": [
+    "component flushing",
+    "production consumption",
+    "flushing methods",
+    "inventory valuation",
+    "routing link codes",
+    "production orders"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Routings"
+    },
+    {
+      "type": "page",
+      "name": "Production BOM"
+    },
+    {
+      "type": "page",
+      "name": "Feature Management"
+    },
+    {
+      "type": "page",
+      "name": "Location Card"
+    }
+  ],
+  "features": [
+    "Forward flush entire order",
+    "Forward flushing by operation",
+    "Back flushing by operation",
+    "Back flushing entire order",
+    "Manual flushing",
+    "Pick + Forward flushing",
+    "Pick + Backward flushing",
+    "Pick + Manual flushing",
+    "Routing link codes"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014074,
+      "pages_in_call": 2
+    }
+  ]
+}

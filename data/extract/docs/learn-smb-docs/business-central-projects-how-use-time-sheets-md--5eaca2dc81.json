@@ -1,0 +1,96 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/projects-how-use-time-sheets.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/projects-how-use-time-sheets",
+  "title": "Use time sheets",
+  "blob": "09275e4cac2f3ddd670c6d43b74e987c942193c9",
+  "summary": "Time sheets track absence, time, and resources spent on projects to identify issues early and avoid delays or cost overruns. Use this page to create, fill, submit, approve, and post time sheet entries for resources and projects.",
+  "systems": [
+    "projects",
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "time sheets",
+    "resource tracking",
+    "project time",
+    "absence tracking",
+    "time approval",
+    "project planning"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Create Time Sheets"
+    },
+    {
+      "type": "page",
+      "name": "Time Sheets"
+    },
+    {
+      "type": "page",
+      "name": "Manager Time Sheets"
+    },
+    {
+      "type": "page",
+      "name": "Manager Time Sheet by Project"
+    },
+    {
+      "type": "page",
+      "name": "Time Sheet Line Resource Detail"
+    },
+    {
+      "type": "page",
+      "name": "Resource Journals"
+    },
+    {
+      "type": "page",
+      "name": "Project Journals"
+    },
+    {
+      "type": "page",
+      "name": "Resources"
+    },
+    {
+      "type": "page",
+      "name": "Resource Card"
+    },
+    {
+      "type": "page",
+      "name": "Work Types"
+    },
+    {
+      "type": "page",
+      "name": "Time Sheet Archives"
+    },
+    {
+      "type": "page",
+      "name": "Manager Time Sheet Archives"
+    },
+    {
+      "type": "page",
+      "name": "Resources Setup"
+    }
+  ],
+  "features": [
+    "Create time sheets",
+    "Copy project planning lines to time sheets",
+    "Register absence",
+    "Submit time sheet lines",
+    "Approve or reject time sheets",
+    "Post to resource journal",
+    "Post to project journal",
+    "Archive time sheets",
+    "New time sheet experience"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014074,
+      "pages_in_call": 2
+    }
+  ]
+}

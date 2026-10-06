@@ -1,0 +1,745 @@
+{
+  "video_id": "Yy5km7Ml0_0",
+  "item_id": "video/yt-microsoft/Yy5km7Ml0_0",
+  "title": "Business Central Under the Hood 9: The Engineering Systems Powering Business Central Development",
+  "duration_s": 1927,
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "build pipelines",
+    "source control",
+    "git migration",
+    "automated testing",
+    "build branches",
+    "test coverage",
+    "pull request validation",
+    "continuous integration",
+    "release strategy",
+    "infrastructure automation",
+    "security",
+    "supply chain attacks"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Engineering Systems Overview",
+      "t_start": 0,
+      "t_end": 111.1
+    },
+    {
+      "title": "Build Infrastructure and Repository Architecture",
+      "t_start": 111.1,
+      "t_end": 250.6
+    },
+    {
+      "title": "Source Control Migration from Source Depot to Git",
+      "t_start": 250.6,
+      "t_end": 390
+    },
+    {
+      "title": "Git Migration Challenges and Version Support",
+      "t_start": 390,
+      "t_end": 530.9
+    },
+    {
+      "title": "Build Branches and Release Strategy",
+      "t_start": 530.9,
+      "t_end": 672.6
+    },
+    {
+      "title": "Build Scale and Automated Testing",
+      "t_start": 672.6,
+      "t_end": 793.6
+    },
+    {
+      "title": "Testing Infrastructure and Automation at Scale",
+      "t_start": 793.6,
+      "t_end": 934.9
+    },
+    {
+      "title": "Security and Supply Chain Protection",
+      "t_start": 934.9,
+      "t_end": 1077
+    },
+    {
+      "title": "Component Governance and Certificate Management",
+      "t_start": 1077,
+      "t_end": 1158.2
+    },
+    {
+      "title": "Using Business Central as an Internal Platform",
+      "t_start": 1158.2,
+      "t_end": 1330
+    },
+    {
+      "title": "Test Tolerance and AL-GO Improvements",
+      "t_start": 1330,
+      "t_end": 1463.2
+    },
+    {
+      "title": "Developer Environment and Deployment Support",
+      "t_start": 1463.2,
+      "t_end": 1759.8
+    },
+    {
+      "title": "Engineering Systems Advice and Future Development Direction",
+      "t_start": 1759.8,
+      "t_end": 1927
+    }
+  ],
+  "features": [
+    {
+      "name": "Git Migration from Source Depot",
+      "description": "Business Central migrated from Microsoft's internal Source Depot (based on Perforce) to Git to adopt industry standards and improve developer experience with distributed version control.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 329.8,
+      "t_end": 470.5,
+      "is_demoed": false,
+      "caveats": [
+        "Binaries were problematic in Git and required special handling with symlinks",
+        "Complex history replay from Source Depot to Git was needed",
+        "Bridges were required to view pre-Git history"
+      ],
+      "tags": [
+        "source control",
+        "git",
+        "migration",
+        "infrastructure"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Automated Build Pipeline System",
+      "description": "The Engineering Systems team manages approximately 70 different build pipelines across 100 active repositories that build multiple times daily, with every code commit triggering a new build across all 30+ language versions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 131.2,
+      "t_end": 250.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires up to 3000 machines running daily",
+        "Complex coordination across multiple versions and languages"
+      ],
+      "tags": [
+        "build automation",
+        "pipelines",
+        "ci-cd",
+        "infrastructure"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Automated Test Infrastructure",
+      "description": "A large-scale test system that runs approximately 40 million test cases per day across different versions, localizations, and configurations to validate changes before deployment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 753.3,
+      "t_end": 874.7,
+      "is_demoed": true,
+      "caveats": [
+        "Test volume varies based on development phase",
+        "Requires complex infrastructure to scale"
+      ],
+      "tags": [
+        "testing",
+        "automation",
+        "test infrastructure",
+        "quality assurance",
+        "scale"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Turn-Based Test Selection for Pull Requests",
+      "description": "An intelligent PR validation system that uses code coverage data and build task dependency analysis to determine which tests should run based on the specific files changed in a pull request.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 834.6,
+      "t_end": 874.7,
+      "is_demoed": false,
+      "caveats": [
+        "Requires comprehensive code coverage collection and file system tracking",
+        "Relies on accurate code coverage collection"
+      ],
+      "tags": [
+        "pull request validation",
+        "test selection",
+        "automation",
+        "optimization",
+        "testing",
+        "ci-cd"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Multi-Branch Release Strategy",
+      "description": "Business Central maintains approximately 30 active branches for different versions with separate builds and release pipelines, including a master branch for next version development and release branches for shipped versions with backport capability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 530.9,
+      "t_end": 652.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires careful branch management and coordination",
+        "Backporting changes across branches adds complexity"
+      ],
+      "tags": [
+        "branching strategy",
+        "release management",
+        "versioning"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Security Baseline and Permission Management",
+      "description": "Continuous baseline management of security settings across repositories, ensuring no one has unnecessary permissions, requiring full-time employee sign-off on all code, two-person sign-off on release branches, and daily review of permission changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1037,
+      "t_end": 1077,
+      "is_demoed": false,
+      "caveats": [
+        "Requires manual review and approval processes"
+      ],
+      "tags": [
+        "security",
+        "permissions",
+        "code review"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Component Governance and Supply Chain Security",
+      "description": "Implementation of component governance tools to track all packages and dependencies used in builds, generating SBOMs to document what components are included and their sources, protecting against supply chain attacks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1097.2,
+      "t_end": 1118.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "security",
+        "supply chain",
+        "governance"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Automated Certificate Management and Rotation",
+      "description": "Certificates generated through Microsoft's onerent system, stored in key vaults with limited access, automatically rotated frequently, and can be rotated immediately if compromised.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1118.1,
+      "t_end": 1158.2,
+      "is_demoed": false,
+      "caveats": [
+        "Requires only specific identities to access certificates"
+      ],
+      "tags": [
+        "security",
+        "certificates",
+        "automation"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Business Central as Internal Platform for Build System UI",
+      "description": "A past initiative where Business Central's data-driven UI capabilities were leveraged to provide a front-end for the internal build system, allowing engineers to view builds, jobs, and log files without needing a custom-built UI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1189.2,
+      "t_end": 1289.8,
+      "is_demoed": false,
+      "caveats": [
+        "This approach is no longer in use",
+        "Required removing most ERP functionality"
+      ],
+      "tags": [
+        "dogfooding",
+        "ui",
+        "internal tools"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Project Test Tolerance",
+      "description": "A project to track test failures across multiple branches and builds, using heuristics to detect whether test failures are caused by the developer's changes or by other instabilities (like leap year bugs or month format changes), reducing false positives for developers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1330,
+      "t_end": 1403.2,
+      "is_demoed": false,
+      "caveats": [
+        "Relies on heuristics that may not catch all cases"
+      ],
+      "tags": [
+        "testing",
+        "automation",
+        "developer experience"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-GO Incremental Builds for GitHub",
+      "description": "An improvement to AL-GO for GitHub where if only one of many projects in a CI/CD pipeline is modified, only that project is rebuilt and outputs from previous builds are reused, significantly reducing build and deployment times.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1423,
+      "t_end": 1463.2,
+      "is_demoed": false,
+      "caveats": [
+        "Requires careful output caching and dependency tracking"
+      ],
+      "tags": [
+        "al-go",
+        "ci-cd",
+        "incremental builds"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Managed DevBox Environments for Developers",
+      "description": "Pre-configured development environments available via a web interface where developers can provision machines of various sizes (8, 16, or 32 CPUs) with all necessary tools pre-installed including SQL, compilers, Visual Studio Code, and SDKs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1523.7,
+      "t_end": 1578.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires appropriate infrastructure investment"
+      ],
+      "tags": [
+        "devbox",
+        "developer environment",
+        "provisioning"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Virus Scanner Exclusions for Development Folders",
+      "description": "Configuration of virus scanning exclusions on development machines for specific folders and processes to improve compilation and deployment speed, reducing deployment time from 15 minutes to 5 minutes while maintaining security through code review and testing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1598.7,
+      "t_end": 1679.5,
+      "is_demoed": false,
+      "caveats": [
+        "Virus scanning is still enabled",
+        "Exclusions apply only to development",
+        "All code still reviewed before production",
+        "Still very secure",
+        "Code does not ship without testing",
+        "Code is reviewed by multiple people before production"
+      ],
+      "tags": [
+        "virus scanning",
+        "development setup",
+        "performance optimization",
+        "security"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Shared Test Tenant for All Developers",
+      "description": "A fully deployed shared test tenant accessible to all developers with the latest bits from Master branch, allowing immediate access to test deployments without signup flow or environment setup delays.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1679.5,
+      "t_end": 1759.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires browser access",
+        "Simplified compared to previous signup flow"
+      ],
+      "tags": [
+        "shared testing",
+        "developer productivity",
+        "test environment",
+        "deployment"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Official Builds Deployment to Test Environment",
+      "description": "All official builds are deployed and developers can browse and select which builds to test, with automatic sign-in to Business Central for the selected build.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1719.7,
+      "t_end": 1759.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "build deployment",
+        "testing infrastructure",
+        "developer tools"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Private Branch Test Deployment Jobs",
+      "description": "Developers can submit test jobs for feature branches or private development work, with the deployed environment appearing in the shared environment without requiring signup, allowing immediate testing of latest code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1739.8,
+      "t_end": 1759.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "feature development",
+        "branch testing",
+        "deployment automation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go for GitHub",
+      "description": "Recommended solution for partners developing AL code, providing automated build, test, deployment, and version control capabilities out of the box, eliminating the need to build custom engineering systems.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1780.3,
+      "t_end": 1860.7,
+      "is_demoed": false,
+      "caveats": [
+        "Partners should evaluate already available systems before building custom solutions"
+      ],
+      "tags": [
+        "al-go",
+        "github",
+        "ci-cd",
+        "development framework"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Azure DevOps for Engineering Systems",
+      "description": "Recommended platform for partners building or managing engineering systems, with built-in version control, pull request review processes, and automation capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1780.3,
+      "t_end": 1820.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "azure devops",
+        "engineering systems",
+        "version control"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Automated Build and Test Infrastructure",
+      "description": "Essential infrastructure components including automated builds on regular basis, version control, pull request review processes, testing, and sandbox deployments, which are considered fundamental for modern development workflows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1820.4,
+      "t_end": 1860.7,
+      "is_demoed": false,
+      "caveats": [
+        "Requires significant infrastructure investment if building from scratch"
+      ],
+      "tags": [
+        "automation",
+        "ci-cd",
+        "testing",
+        "version control"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Application Team Migration to AL-Go GitHub",
+      "description": "Microsoft Business Central application team is gradually migrating internal application development from Azure DevOps to AL-Go with GitHub, moving towards dog-fooding the public solution and enabling open-source collaboration with partners.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1880.8,
+      "t_end": 1921.1,
+      "is_demoed": false,
+      "caveats": [
+        "Migration is gradual due to large legacy system",
+        "Still in progress"
+      ],
+      "tags": [
+        "al-go",
+        "github",
+        "migration",
+        "dog-fooding",
+        "internal development"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Developer Tools Team Repository",
+      "t": 171.5
+    },
+    {
+      "type": "other",
+      "name": "Application Developer Team Repository",
+      "t": 171.5
+    },
+    {
+      "type": "other",
+      "name": "Platform Runtime Repository",
+      "t": 191.7
+    },
+    {
+      "type": "other",
+      "name": "Engineering Systems Repository",
+      "t": 191.7
+    },
+    {
+      "type": "other",
+      "name": "Control Plane",
+      "t": 191.7
+    },
+    {
+      "type": "other",
+      "name": "AL-GO",
+      "t": 1423
+    },
+    {
+      "type": "other",
+      "name": "NST",
+      "t": 1618.9
+    },
+    {
+      "type": "other",
+      "name": "Master branch",
+      "t": 1699.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Vincent",
+      "confidence": "high"
+    },
+    {
+      "name": "Yonas",
+      "confidence": "high"
+    },
+    {
+      "name": "Freddy",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 131.2,
+      "text": "we have about a 100 repositories with code bases that we build on a regular basis",
+      "why_it_matters": "Establishes the scale of the build infrastructure managed by the Engineering Systems team across the Business Central product.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 309.7,
+      "text": "from the beginning right obviously so we had another internal uh internal product which has some similar capability than",
+      "why_it_matters": "Explains the motivation for migrating from Source Depot to Git as the standard version control system.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 410.2,
+      "text": "if you took a single copy of just the latest like versions of the code and binaries and stuff in Source Depot that would",
+      "why_it_matters": "Illustrates the scale and complexity of the legacy Source Depot system that needed migration to Git.",
+      "check": "exact"
+    },
+    {
+      "t": 591.8,
+      "text": "in the last 60 days we did that almost 800 times in master and in the 25x branch we did it almost 600 times",
+      "why_it_matters": "Demonstrates the extremely high frequency of production builds across multiple version branches.",
+      "check": "exact"
+    },
+    {
+      "t": 713,
+      "text": "we use a lot of compute Power Engineering system teams like we have up to 3,000 and machines running on a daily basis doing",
+      "why_it_matters": "Quantifies the massive computational infrastructure required to support continuous build and test operations.",
+      "check": "snapped"
+    },
+    {
+      "t": 773.5,
+      "text": "january 9 for instance we ran almost 80 million tests wow uh on that single day on the product",
+      "why_it_matters": "Shows the peak scale of automated testing capacity deployed on high-activity development days.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 793.6,
+      "text": "we run yeah I think on average yeah 40 million tests every day something like that",
+      "why_it_matters": "Establishes the massive scale of automated testing in the Business Central build system, demonstrating the engineering infrastructure required.",
+      "check": "exact"
+    },
+    {
+      "t": 834.6,
+      "text": "with the pr validation we do turn based test selection so depending on what you change in the product we run different tests and",
+      "why_it_matters": "Explains how PR validation is optimized to run only relevant tests rather than all half-million test cases, using code coverage and dependency tracking.",
+      "check": "exact"
+    },
+    {
+      "t": 854.6,
+      "text": "we collect code coverage for all of the test that runs in the product and then we also know all of the inputs and",
+      "why_it_matters": "Describes the comprehensive infrastructure for tracking dependencies and optimizing test selection in PR validation.",
+      "check": "exact"
+    },
+    {
+      "t": 955.9,
+      "text": "supply chain attack is on the rise so there are lots of examples where companies manage to compromise Engineering Systems Packaging Systems npm n",
+      "why_it_matters": "Articulates the security threat model that drives the engineering system's security practices, particularly supply chain attacks on build systems.",
+      "check": "exact"
+    },
+    {
+      "t": 1037,
+      "text": "no code gets into repository without at least one full-time employee signs off on it and if it's release branches at least two different",
+      "why_it_matters": "Describes the mandatory code review requirement and escalated approval process for release branches to prevent malicious code injection.",
+      "check": "exact"
+    },
+    {
+      "t": 1209.3,
+      "text": "we found out that BC is really good at datadriven UI presentation declarative data driven UI present so we essentially connected business Central on",
+      "why_it_matters": "Documents a past dogfooding effort using Business Central's UI capabilities for internal build system management, showing practical application of platform flexibility.",
+      "check": "exact"
+    },
+    {
+      "t": 1350.3,
+      "text": "if you run 80 million test cases every day if just a single of those are unstable then you get into some issues right",
+      "why_it_matters": "Explains the motivation for test tolerance, showing how test instability at massive scale requires sophisticated detection and filtering mechanisms.",
+      "check": "exact"
+    },
+    {
+      "t": 1423,
+      "text": "the team is working on that Freddy is is driving now is incremental bills so if you have a lot of projects that you're",
+      "why_it_matters": "Introduces incremental builds feature in AL-GO for GitHub that optimizes CI/CD performance by reusing build outputs for unchanged projects.",
+      "check": "exact"
+    },
+    {
+      "t": 1543.8,
+      "text": "you just go to a website and you you say Okay create Dev box you give it a name and you give a size",
+      "why_it_matters": "Describes the self-service DevBox provisioning model that reduces onboarding friction for developers while maintaining consistent environments.",
+      "check": "exact"
+    },
+    {
+      "t": 1598.7,
+      "text": "when compiling you know it was the our app it was really really slow to deploy right",
+      "why_it_matters": "Illustrates the performance bottleneck that was encountered in local development setups",
+      "check": "exact"
+    },
+    {
+      "t": 1638.9,
+      "text": "we add exclusions for the virus scanner for specific folders and types of and processes based on our experiences",
+      "why_it_matters": "Describes the solution implemented to address deployment performance issues caused by virus scanning overhead",
+      "check": "exact"
+    },
+    {
+      "t": 1638.9,
+      "text": "this is still very secure this is not we do V scanning of everything just because this is just a development environment",
+      "why_it_matters": "Clarifies that virus scanning exclusions do not compromise security because code is tested and reviewed before production",
+      "check": "snapped"
+    },
+    {
+      "t": 1699.7,
+      "text": "share test tenant they can access practically wide away with the latest bits from from",
+      "why_it_matters": "Announces a significant improvement to developer productivity through easy access to shared test environments",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1780.3,
+      "text": "i would piggy back on one that is already out there and something like aure devops",
+      "why_it_matters": "Provides strategic advice that partners should use existing solutions rather than building custom engineering systems from scratch",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1820.4,
+      "text": "I don't understand how you would how you would be able to work in today's landscape without having automated bills tests deployments that happens",
+      "why_it_matters": "Emphasizes that automated build, test, and deployment infrastructure is considered essential for modern software development",
+      "check": "exact"
+    },
+    {
+      "t": 1880.8,
+      "text": "we're gradually moving them out of our internal asro devop solution slowly it takes time we have a large Legacy system but eventually the",
+      "why_it_matters": "Indicates Microsoft's commitment to dogfooding AL-Go with GitHub for internal application team development",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 1289.8,
+      "kind": "not-in-this-release",
+      "text": "we don't use this anymore no unfortunately not no we don't"
+    },
+    {
+      "t": 1880.8,
+      "kind": "coming-later",
+      "text": "gradually moving them out of our internal asro devop solution slowly it takes time - migration still in progress"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 22,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 20
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024751
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029782
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023161099999999997
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.037726
+    }
+  ]
+}
