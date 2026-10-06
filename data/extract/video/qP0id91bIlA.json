@@ -1,0 +1,797 @@
+{
+  "video_id": "qP0id91bIlA",
+  "item_id": "video/yt-microsoft/qP0id91bIlA",
+  "title": "What's New: Designing Generative AI Experiences (2024 Release Wave 1)",
+  "duration_s": 2218,
+  "systems": [
+    "copilot",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "generative ai",
+    "copilot",
+    "prompt dialogue",
+    "unstructured input",
+    "structured data",
+    "human in the loop",
+    "ai outputs",
+    "user trust",
+    "mental models",
+    "responsible ai",
+    "risk management",
+    "preview and undo"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and balancing innovation with user experience",
+      "t_start": 0,
+      "t_end": 101.2
+    },
+    {
+      "title": "Understanding AI and Copilot in Microsoft context",
+      "t_start": 101.2,
+      "t_end": 223.2
+    },
+    {
+      "title": "Session agenda and AI inputs and outputs overview",
+      "t_start": 223.2,
+      "t_end": 283.6
+    },
+    {
+      "title": "Demo: suggest sales lines with unstructured and structured data",
+      "t_start": 283.6,
+      "t_end": 407.5
+    },
+    {
+      "title": "Prompt dialogue stages and output mode interactions",
+      "t_start": 407.5,
+      "t_end": 591.2
+    },
+    {
+      "title": "Demo: map e-document lines with structured data flow",
+      "t_start": 591.2,
+      "t_end": 721.6
+    },
+    {
+      "title": "High-level AI experience design and user trust concepts",
+      "t_start": 721.6,
+      "t_end": 881.2
+    },
+    {
+      "title": "Two AI value propositions - action and insight",
+      "t_start": 881.2,
+      "t_end": 1001.8
+    },
+    {
+      "title": "Managing AI risks and responsible AI principles",
+      "t_start": 1001.8,
+      "t_end": 1144.1
+    },
+    {
+      "title": "Preview and undo as core safeguards",
+      "t_start": 1144.1,
+      "t_end": 1256.9
+    },
+    {
+      "title": "Prompt dialogue page type and AL structures",
+      "t_start": 1256.9,
+      "t_end": 1435.2
+    },
+    {
+      "title": "Generation workflow, system actions, and prompt guidance",
+      "t_start": 1435.2,
+      "t_end": 1747.7
+    },
+    {
+      "title": "Copilot menu, floating overlay, and dialogue integration",
+      "t_start": 1747.7,
+      "t_end": 1970.1
+    },
+    {
+      "title": "Getting started, best practices, and session conclusion",
+      "t_start": 1970.1,
+      "t_end": 2218
+    }
+  ],
+  "features": [
+    {
+      "name": "Suggest sales lines with Copilot",
+      "description": "Feature that uses Copilot to generate sales order lines based on free text input describing requested items and quantities. Converts unstructured text input to structured output with item numbers and quantities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 283.6,
+      "t_end": 335.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires accurate free text input interpretation by Copilot"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "prompt dialogue",
+        "unstructured input"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Prompt dialogue interface",
+      "description": "Three-stage framework for Copilot features consisting of input mode, generating mode, and output mode. Can handle unstructured, semi-structured, or structured inputs and outputs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 407.5,
+      "t_end": 591.2,
+      "is_demoed": true,
+      "caveats": [
+        "Input mode can be optionally skipped if all needed data already exists",
+        "Unstructured data introduces more uncertainty in interpretation"
+      ],
+      "tags": [
+        "ui framework",
+        "ai",
+        "prompt dialogue",
+        "three stages"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Output mode regeneration and iteration",
+      "description": "Users can cycle through multiple AI-generated output versions using carousel functionality, regenerate outputs by retrying generation, discard outputs to start over, or accept outputs to apply them.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 571.1,
+      "t_end": 624.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "ai",
+        "iteration",
+        "user control"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Map e-document lines to purchase order",
+      "description": "Copilot feature that matches lines from e-documents to purchase order lines. Uses structured input data and skips the input mode since all necessary data is already available.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 641.1,
+      "t_end": 701.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires pre-matched e-document to purchase order"
+      ],
+      "tags": [
+        "ai",
+        "e-document",
+        "purchase order",
+        "structured data"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Marketing text generation with Copilot",
+      "description": "Feature to generate marketing text for items using structured input data including item name and attributes. Users can configure tone, format, and emphasis settings to control output variation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 468.9,
+      "t_end": 530.3,
+      "is_demoed": false,
+      "caveats": [
+        "Can optionally skip input mode if sufficient data is already available"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "structured data",
+        "tone format emphasis"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "AI human-in-the-loop interaction model",
+      "description": "Conceptual framework where Copilot works with the human user to solve tasks rather than taking control. The computer is positioned as a collaborator, not an autonomous agent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 121.7,
+      "t_end": 141.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ai design",
+        "human in the loop",
+        "copilot philosophy"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Building user trust in AI features",
+      "description": "Design approach focused on helping business users develop trust in AI by understanding AI limitations, advantages, and appropriate use cases. Users need mental models of what AI is good for.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 799.9,
+      "t_end": 840.4,
+      "is_demoed": false,
+      "caveats": [
+        "Most business users are not AI experts",
+        "Requires user education on AI capabilities and limitations"
+      ],
+      "tags": [
+        "ai design",
+        "trust",
+        "user experience",
+        "mental models"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Prompt dialogue page type",
+      "description": "A new page type developed for Business Central to encapsulate AI-related experiences. Contains prompt area, prompt options area, content area, and system actions for managing generative AI interactions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1256.9,
+      "t_end": 1435.2,
+      "is_demoed": true,
+      "caveats": [
+        "Partner extensibility for chat is not currently available",
+        "Prompt options must use only option fields",
+        "Prompt options should not be required"
+      ],
+      "tags": [
+        "prompt dialogue",
+        "page type",
+        "ai interaction",
+        "al development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI-generated content preview and discard",
+      "description": "Users can preview AI-generated suggestions and either keep or discard them without data persisting if discarded. The system must provide a way to completely undo what AI suggested.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1144.1,
+      "t_end": 1256.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires AL developers to ensure temporary tables are used for generated output",
+        "No side effects of generated output should occur"
+      ],
+      "tags": [
+        "responsible ai",
+        "undo",
+        "preview",
+        "risk management"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI confidence level marking",
+      "description": "When Business Central shows generated information or insights, it marks that information as AI-generated and attaches a confidence level when possible to inform users about the reliability of the information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1164.4,
+      "t_end": 1199,
+      "is_demoed": false,
+      "caveats": [
+        "Confidence levels attached only when possible"
+      ],
+      "tags": [
+        "confidence levels",
+        "transparency",
+        "ai marking"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Placeholder text and instruction hints",
+      "description": "Instructional text (ghost text or placeholder text) in the prompt area guides users about what kind of input is expected, helping them understand how to interact with the AI feature.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1653.4,
+      "t_end": 1687.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "user guidance",
+        "placeholder text",
+        "ux design"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Prompt options for output customization",
+      "description": "Optional fields in the prompt dialogue that allow users to adjust AI output parameters such as tone of voice or length. Must be optional fields and should not be required.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1475.7,
+      "t_end": 1526.2,
+      "is_demoed": false,
+      "caveats": [
+        "Only option fields are allowed in prompt options area",
+        "Prompt options should never be required",
+        "Users often don't notice options are available"
+      ],
+      "tags": [
+        "prompt options",
+        "customization",
+        "optional fields"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI line matching and generation",
+      "description": "AI can match and generate sales lines from e-documents and purchase orders based on context, without requiring user prompt input when context is already present in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 901.5,
+      "t_end": 941,
+      "is_demoed": true,
+      "caveats": [
+        "Matching follows well-defined rules",
+        "Benefit increases with more lines to fill"
+      ],
+      "tags": [
+        "sales order",
+        "line matching",
+        "automation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Generate system action",
+      "description": "The system action that runs when the user hits generate in the prompt dialogue to produce the AI-generated output.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1561.8,
+      "t_end": 1582.5,
+      "is_demoed": false,
+      "caveats": [
+        "Developer must provide AL code for this action",
+        "Must follow undo principle to allow user discard"
+      ],
+      "tags": [
+        "system actions",
+        "prompt dialogue",
+        "al code"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Cancel system action",
+      "description": "The system action called when the user decides to discard or keep the output from the prompt dialogue.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1561.8,
+      "t_end": 1603.3,
+      "is_demoed": false,
+      "caveats": [
+        "Developer must ensure undo/discard clears all traces of output"
+      ],
+      "tags": [
+        "system actions",
+        "prompt dialogue"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Undo principle for prompt dialogues",
+      "description": "Design principle requiring that users can discard AI-generated output and have all traces disappear, with generated data stored only in temporary tables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1603.3,
+      "t_end": 1653.4,
+      "is_demoed": false,
+      "caveats": [
+        "Generated output must only go to temporary tables",
+        "No side effects allowed on permanent data"
+      ],
+      "tags": [
+        "design principle",
+        "prompt dialogue",
+        "undo"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Prompt guide",
+      "description": "Feature represented by a Spellbook icon that gives users access to suggestions and templates for prompts, organized by category to help users formulate their own prompts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1687.6,
+      "t_end": 1747.7,
+      "is_demoed": true,
+      "caveats": [
+        "Intended to help non-technical users get started with prompting"
+      ],
+      "tags": [
+        "prompt guide",
+        "spellbook",
+        "templates",
+        "suggestions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot menu on list pages",
+      "description": "A menu available on all list pages that shows all copilot actions defined in that page, both from apps and system.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1768.4,
+      "t_end": 1813.8,
+      "is_demoed": true,
+      "caveats": [
+        "Floating overlay can be hidden by users who prefer action bar only"
+      ],
+      "tags": [
+        "copilot menu",
+        "list pages",
+        "actions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Floating copilot menu overlay",
+      "description": "An overlay element on list pages that provides one-click access to the topmost copilot action for maximum discoverability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1786.8,
+      "t_end": 1833.9,
+      "is_demoed": true,
+      "caveats": [
+        "Users can hide the floating menu if preferred",
+        "Only shows topmost action in floating position"
+      ],
+      "tags": [
+        "ux",
+        "discoverability",
+        "floating menu"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Analysis assist",
+      "description": "A system-defined prompt action available on all list pages that provides analysis assistance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1833.9,
+      "t_end": 1867.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "analysis assist",
+        "system action",
+        "list pages"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Dialogue prompt actions",
+      "description": "Prompt actions that can be placed in standard dialogues to provide copilot capability in the context of specific workflows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1905.7,
+      "t_end": 1936.4,
+      "is_demoed": true,
+      "caveats": [
+        "Example shown with marketing text feature"
+      ],
+      "tags": [
+        "dialogue",
+        "prompt actions",
+        "context-specific"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Subpage prompt actions",
+      "description": "Prompt actions that can be placed on subpages and cards, allowing copilot actions in document contexts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1936.4,
+      "t_end": 1970.1,
+      "is_demoed": true,
+      "caveats": [
+        "Entity pages and cards do not yet have copilot menu capability that lists have"
+      ],
+      "tags": [
+        "subpage",
+        "prompt actions",
+        "cards"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sparkle action icon",
+      "description": "Recommended icon representation for prompt actions that trigger AI features in the action bar.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1970.1,
+      "t_end": 1990.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ux",
+        "icon",
+        "action bar"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot and AI capabilities page",
+      "description": "An administrative page where users can check and enable copilot and AI capabilities in their Business Central environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2068.4,
+      "t_end": 2088.4,
+      "is_demoed": false,
+      "caveats": [
+        "Currently only supports English language",
+        "Available from version 24 (2024 Wave 1)"
+      ],
+      "tags": [
+        "setup",
+        "administration",
+        "features"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Order",
+      "t": 283.6
+    },
+    {
+      "type": "page",
+      "name": "Purchase Order",
+      "t": 641.1
+    },
+    {
+      "type": "page",
+      "name": "prompt dialog",
+      "t": 1435.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Yovinda",
+      "confidence": "high"
+    },
+    {
+      "name": "Soren Alexanderson",
+      "confidence": "medium"
+    },
+    {
+      "name": "Cern",
+      "confidence": "high"
+    },
+    {
+      "name": "Yakob",
+      "confidence": "high"
+    },
+    {
+      "name": "Soren",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 36.2,
+      "text": "AI is here to stay and it's bringing more transformation than most of us have seen in our lifetime",
+      "why_it_matters": "Establishes the significance of AI adoption and sets context for why design consistency matters in a transformative technology landscape",
+      "check": "exact"
+    },
+    {
+      "t": 121.7,
+      "text": "the computer is working with the human user to solve the task and that distinction that way of placing the AI in relation to",
+      "why_it_matters": "Defines the philosophical foundation of Copilot as a collaborative tool rather than autonomous AI, which drives the design approach throughout Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 407.5,
+      "text": "it has three stages it has the input mode it has the generating mode and it has the output mode",
+      "why_it_matters": "Describes the core structural framework of the prompt dialogue interface that designers use to build AI features in Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 448.8,
+      "text": "consider really if there's an opportunity to save a few clicks by using structure data if you have it",
+      "why_it_matters": "Provides design guidance on choosing structured versus unstructured input to balance user experience with AI accuracy",
+      "check": "snapped"
+    },
+    {
+      "t": 661.2,
+      "text": "we actually skip the input mode because we had all the input we needed no need to directag the user through an input stage",
+      "why_it_matters": "Demonstrates flexibility in the prompt dialogue framework where input mode is optional based on data availability",
+      "check": "exact"
+    },
+    {
+      "t": 799.9,
+      "text": "most business users are not AI experts it's not necessarily clear what AI um is best for at this point in time",
+      "why_it_matters": "Identifies a key user research finding that drives the need for clear design patterns and trust-building in AI features",
+      "check": "exact"
+    },
+    {
+      "t": 820,
+      "text": "building trust using AI uh requires that the users are comfortable with uh the limitations of AI",
+      "why_it_matters": "Establishes that user trust is foundational to successful AI integration in business systems.",
+      "check": "exact"
+    },
+    {
+      "t": 881.2,
+      "text": "faster or more efficient and a i can help gain insights uh get to knowledge",
+      "why_it_matters": "Defines the two core value propositions of AI in Business Central - action and insight.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1022.1,
+      "text": "instead of trying to rule out all um wrongdoings of AI we need to bracket it we need to control Ro we need to",
+      "why_it_matters": "Articulates the design philosophy that AI cannot be perfect, so safeguards and controls are necessary.",
+      "check": "exact"
+    },
+    {
+      "t": 1062.5,
+      "text": "no AI will be ever perfect because no model can interact with the physical world in a complete way so human needs to be",
+      "why_it_matters": "Justifies why humans must remain in control and validate AI suggestions.",
+      "check": "exact"
+    },
+    {
+      "t": 1144.1,
+      "text": "the system in this case business Central must always provide a preview or a way to completely undo what AI suggested",
+      "why_it_matters": "States the critical responsible AI principle that governs feature design.",
+      "check": "exact"
+    },
+    {
+      "t": 1414.9,
+      "text": "the promt dialogue is going to be with us from now and going forward and and it will complement the other page types we",
+      "why_it_matters": "Confirms the prompt dialogue as the primary vehicle for AI experiences going forward.",
+      "check": "exact"
+    },
+    {
+      "t": 1526.2,
+      "text": "it's a good practice never to require the user to choose the prompt options what can be required is the prompt but the prompt",
+      "why_it_matters": "Establishes best practices for AL developers designing prompt dialogues.",
+      "check": "exact"
+    },
+    {
+      "t": 1603.3,
+      "text": "it's very very important that when you are developing a new prom dialogue that you obey to this principle of uh undoing",
+      "why_it_matters": "This establishes the critical design requirement for prompt dialogues that undoes are essential for user confidence in AI features.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1639,
+      "text": "don't make any side effects of the generated output because that way you are uh not allowing the user to roll back",
+      "why_it_matters": "This clarifies the constraint that generated data must only go to temporary tables to preserve the undo principle.",
+      "check": "exact"
+    },
+    {
+      "t": 1728.6,
+      "text": "prompting is not going to feel natural to every user so this is an important way of giving them some templates to work from",
+      "why_it_matters": "This explains the rationale for including prompt guides and templates as a core feature for user adoption.",
+      "check": "exact"
+    },
+    {
+      "t": 1768.4,
+      "text": "we have actually placed it front and center of all list places so there is now a thing called the co-pilot menu that is",
+      "why_it_matters": "This announces the copilot menu as a standard UI component on all list pages for discovery and access.",
+      "check": "exact"
+    },
+    {
+      "t": 1887.5,
+      "text": "use that space wisely for an action that actually is supposed to be very prominent um so uh we are making good use of",
+      "why_it_matters": "This describes best practice guidance for developers choosing which action to feature in the floating copilot menu.",
+      "check": "snapped"
+    },
+    {
+      "t": 2028.1,
+      "text": "consider the best use of the prompt dialogue for every scenario meaning what type of input do you have what kind of output do",
+      "why_it_matters": "This outlines key design considerations developers must evaluate when implementing prompt dialogues.",
+      "check": "exact"
+    },
+    {
+      "t": 2088.4,
+      "text": "right now we only support English language so make sure that English is selected as your language and also this is from what we",
+      "why_it_matters": "This states current language limitations and version availability for copilot features.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 1277.2,
+      "kind": "not-in-this-release",
+      "text": "currently there is no uh partner extensibility for the chat in uh business Central"
+    },
+    {
+      "t": 1936.4,
+      "kind": "other",
+      "text": "we don't have any co-pilot menu on the entity page yet so cards and documents don't have that capability that lists have yet"
+    },
+    {
+      "t": 2088.4,
+      "kind": "other",
+      "text": "right now we only support English language so make sure that English is selected as your language"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 20,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 24
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024961999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024813
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02897
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.035156
+    }
+  ]
+}

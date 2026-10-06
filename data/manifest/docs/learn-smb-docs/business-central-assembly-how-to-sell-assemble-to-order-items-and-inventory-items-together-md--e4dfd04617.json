@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "766f68de397b51e0dd320aee6c90916e8676d502",
       "words": 421,
       "forms": 21
+    },
+    "extracted": {
+      "at": "2026-10-06T19:40:22.353Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003787
+    },
+    "summarized": {
+      "at": "2026-10-06T19:42:54.028Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:42:54.030Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:42:54.030Z",
+      "page": false
     }
   },
   "input_hash": "766f68de397b51e0dd320aee6c90916e8676d502",
@@ -144,5 +163,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "766f68de397b51e0dd320aee6c90916e8676d502"
+  "output_hash": "549f3b6c36cf3db5255a816d6decbaaa6eda0c172ba50a9d789752418df77eb1"
 }

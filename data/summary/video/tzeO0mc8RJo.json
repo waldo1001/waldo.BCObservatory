@@ -1,0 +1,27 @@
+{
+  "video_id": "tzeO0mc8RJo",
+  "item_id": "video/yt-microsoft/tzeO0mc8RJo",
+  "summary": "Business Central 2024 release wave 1 developer tools: object extensions in the same app, the AL tool, AL language additions, HTTP client cookies, debugger changes, the AppSource preview state, hotfix validation and the new Microsoft AppSource apps list page. Page scripting is named as a preview.",
+  "overview": "The session covers what changed for AL developers and AppSource publishers in 2024 release wave 1. Developer topics include extension objects in the same app as base objects (runtime 13 and above), a small AL tool for pipelines with three methods, tooltips on tables, secret text, a file upload action, Copilot prompting features, cookie support in the HTTP client, number sequence restart and range methods, and new obsolete states for moving objects between apps. The debugger was upgraded, and partners can now debug the system application.\n\nThe AppSource part describes the preview state, preview keys and audience, install via link, version rules, sandbox-only limits, telemetry and the changed hotfix validation. It also shows the new Microsoft AppSource apps list page, which replaces the deprecated embedded experience, and mentions page scripting as a preview.",
+  "key_points": [
+    "Extension objects (tables, pages, reports, enums, permission sets) can live in the same app as the base objects; enabled by default when targeting runtime 13, and AppSource cop checking is needed to prevent breaking changes.",
+    "The AL tool ships with the compiler and has three methods, including extracting app manifests, creating symbol packages and getting the latest supported AL runtime versions. .NET 4.8 was removed from the binaries to ease pipeline use.",
+    "New obsolete states (pending move, moved) with moved from / moved to properties simplify refactoring between extensions. They are limited to a select set of applications for now and are used for the number series module moved to business foundation.",
+    "The upgraded AL debugger cannot debug services running older Business Central versions; install an older AL extension version for those. System application breakpoints now work, but non-debuggable and secret text areas stay protected.",
+    "AppSource preview state: validated apps go to preview, installed in sandboxes only via a link with tenant ID, app ID and preview key. The preview version must be higher than the latest public version, and breaking changes between previews are allowed.",
+    "Hotfixes are now validated against the latest AppSource app version, so partners can backport features if there are no breaking changes. Preview support and this change were backported to 2023 release wave 2.",
+    "The embedded AppSource experience is deprecated; the Microsoft AppSource apps list page adds search, filter, analysis mode and Copilot queries. Only free or transact-plan apps install directly."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "administrator"
+  ],
+  "extraction_hash": "43ff93171d0691311373b6e9c3d80e154845c602cdddaafa03c191f54cbef5a4",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0312004
+  }
+}

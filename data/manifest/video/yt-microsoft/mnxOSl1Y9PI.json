@@ -5,12 +5,60 @@
   "tier": "official",
   "title": "What's New: Key Updates in our Learning Content (documentation) For Developers (2024 release wave 1)",
   "url": "https://www.youtube.com/watch?v=mnxOSl1Y9PI",
-  "published_at": null,
+  "published_at": "2024-04-04T13:30:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:42:02.255Z",
+      "captions": "auto:en-orig",
+      "duration_s": 785
+    },
+    "captioned": {
+      "at": "2026-10-06T19:42:09.750Z",
+      "path": "data/captions/microsoft/mnxOSl1Y9PI.vtt",
+      "vtt_sha256": "80993968b6b510db8c57f960fb4538231e2b35b1cadb53d6ce279a32ab0e1cb0",
+      "segments": 42,
+      "words": 1890,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:42:43.247Z",
+      "path": "data/extract/video/mnxOSl1Y9PI.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 11,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.030419
+    },
+    "summarized": {
+      "at": "2026-10-06T19:42:50.175Z",
+      "path": "data/summary/video/mnxOSl1Y9PI.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0161404
+    },
+    "linked": {
+      "at": "2026-10-06T19:42:50.177Z",
+      "systems": [
+        "development",
+        "reporting",
+        "platform"
+      ],
+      "topics": 11,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T19:42:50.188Z",
+      "path": "content/videos/mnxOSl1Y9PI.md"
     }
   },
   "input_hash": null,
@@ -20,6 +68,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 421,
     "duration_s": 785,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4963d6610a593f66a42ba6d7e86340a2cc2e2e5fb430b5d3dea93984b51178cd"
 }

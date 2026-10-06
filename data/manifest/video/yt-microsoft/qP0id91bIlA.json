@@ -5,12 +5,39 @@
   "tier": "official",
   "title": "What's New: Designing Generative AI Experiences (2024 Release Wave 1)",
   "url": "https://www.youtube.com/watch?v=qP0id91bIlA",
-  "published_at": null,
+  "published_at": "2024-04-04T13:30:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:40:24.938Z",
+      "captions": "auto:en-orig",
+      "duration_s": 2218
+    },
+    "captioned": {
+      "at": "2026-10-06T19:40:31.307Z",
+      "path": "data/captions/microsoft/qP0id91bIlA.vtt",
+      "vtt_sha256": "c0aa9624ebe706c105abfe4b616ac03147290df339ce8e1df697541adcb03ce0",
+      "segments": 118,
+      "words": 5828,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:42:50.037Z",
+      "path": "data/extract/video/qP0id91bIlA.json",
+      "prompt": "extract-video@1",
+      "windows": 3,
+      "features": 24,
+      "quotes": 20,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.113901
     }
   },
   "input_hash": null,
@@ -19,7 +46,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 419,
-    "duration_s": 2219,
-    "via": "reconcile"
-  }
+    "duration_s": 2218,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "04fb68f81957c23b28e79f44ba4827015a56b4dce5db9d11c9e52ccdb23ad43a"
 }

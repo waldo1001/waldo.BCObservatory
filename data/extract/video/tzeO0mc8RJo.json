@@ -1,0 +1,905 @@
+{
+  "video_id": "tzeO0mc8RJo",
+  "item_id": "video/yt-microsoft/tzeO0mc8RJo",
+  "title": "What's New: Developer Tools (2024 release wave 1)",
+  "duration_s": 2122,
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "object extensions",
+    "al language",
+    "al tool",
+    "pipelines",
+    "co-pilot",
+    "tooltips",
+    "secret text",
+    "file upload",
+    "number sequences",
+    "obsolete states",
+    "http client",
+    "cookies"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and session agenda",
+      "t_start": 0,
+      "t_end": 76.6
+    },
+    {
+      "title": "Object extensions in same application - overview",
+      "t_start": 76.6,
+      "t_end": 180.9
+    },
+    {
+      "title": "Object extensions - SQL optimization and supported types",
+      "t_start": 180.9,
+      "t_end": 315.5
+    },
+    {
+      "title": "Object extensions - demonstration and business foundation usage",
+      "t_start": 315.5,
+      "t_end": 483.8
+    },
+    {
+      "title": "AL tool - new utility for pipelines",
+      "t_start": 483.8,
+      "t_end": 598.1
+    },
+    {
+      "title": "AL language improvements - tooltips, secret text, and file upload actions",
+      "t_start": 598.1,
+      "t_end": 679.1
+    },
+    {
+      "title": "AL language - co-pilot and prompting features",
+      "t_start": 679.1,
+      "t_end": 791.8
+    },
+    {
+      "title": "HTTP client enhancements and AL language improvements",
+      "t_start": 791.8,
+      "t_end": 901.9
+    },
+    {
+      "title": "Debugger upgrades and system application debugging",
+      "t_start": 901.9,
+      "t_end": 1002.9
+    },
+    {
+      "title": "AppSource preview state introduction",
+      "t_start": 1002.9,
+      "t_end": 1100.1
+    },
+    {
+      "title": "Preview key management and installation process",
+      "t_start": 1100.1,
+      "t_end": 1221.3
+    },
+    {
+      "title": "Preview versioning rules and breaking changes",
+      "t_start": 1221.3,
+      "t_end": 1372.3
+    },
+    {
+      "title": "Sandbox restrictions and preview version updates",
+      "t_start": 1372.3,
+      "t_end": 1494.3
+    },
+    {
+      "title": "Telemetry, preview app documentation, and hot fixes",
+      "t_start": 1494.3,
+      "t_end": 1687.6
+    },
+    {
+      "title": "Embedded AppSource experience deprecation",
+      "t_start": 1687.6,
+      "t_end": 1765.1
+    },
+    {
+      "title": "New Microsoft AppSource apps list page",
+      "t_start": 1765.1,
+      "t_end": 1884.3
+    },
+    {
+      "title": "Demo of AppSource apps experience",
+      "t_start": 1884.3,
+      "t_end": 2000.5
+    },
+    {
+      "title": "Additional developer tools and resources",
+      "t_start": 2000.5,
+      "t_end": 2122
+    }
+  ],
+  "features": [
+    {
+      "name": "Object extensions in same application",
+      "description": "Ability to have extension objects (tables, pages, reports, enums, permission sets) in the same app as the base objects, allowing non-breaking refactoring and better separation of concerns within applications.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 76.6,
+      "t_end": 471,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to runtime 13 and above",
+        "Requires appsource cop checking to prevent breaking changes"
+      ],
+      "tags": [
+        "object extensions",
+        "refactoring",
+        "table extensions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL tool",
+      "description": "Small utility tool shipped with the compiler that provides helper functions for pipelines, including extracting app manifests, creating symbol packages, and getting latest supported AL runtime versions.",
+      "status": "ga",
+      "status_evidence_t": 483.8,
+      "status_evidence_quote": "it is shipping together with the V6 right next to your favorite compiler",
+      "status_evidence_verified": true,
+      "t_start": 483.8,
+      "t_end": 598.1,
+      "is_demoed": false,
+      "caveats": [
+        "Currently has only three methods",
+        "Small tool with limited functionality at launch",
+        "May add more functionality in the future"
+      ],
+      "tags": [
+        "pipelines",
+        "al tool",
+        "utility"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Tooltips on tables",
+      "description": "Ability to add tooltips to tables and reuse them across all pages, with code actions to move tooltips from pages into tables for centralized storage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 618.4,
+      "t_end": 638.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires code actions to be enabled"
+      ],
+      "tags": [
+        "tooltips",
+        "al language",
+        "tables"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Secret text type",
+      "description": "New support for secret text type to get and set values in isolated storage, requiring values to be retrieved using the same type to avoid errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 638.6,
+      "t_end": 659,
+      "is_demoed": false,
+      "caveats": [
+        "Values set with secret text must be retrieved with secret text"
+      ],
+      "tags": [
+        "secret text",
+        "isolated storage",
+        "al language"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "File upload action",
+      "description": "Specialized file upload action enabling quick functionality to upload one or more files, with support for dropping entire folders in the upload dialog.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 659,
+      "t_end": 679.1,
+      "is_demoed": false,
+      "caveats": [
+        "Works with reference types and lists for file upload and streams",
+        "Paves way for future support of other types"
+      ],
+      "tags": [
+        "file upload",
+        "actions",
+        "al language"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Prompt guides in co-pilot dialogues",
+      "description": "Addition of prompt guides to the action area of prompt dialogues, allowing users to specify scenarios for inspiring new prompt values and exploring co-pilot experiences.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 719.6,
+      "t_end": 738.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "prompt guides",
+        "al language"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Prompting action area for pages",
+      "description": "New prompting action area for list pages where developers can define co-pilot-related actions, with the first action shown on top of page content for quick access.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 751.7,
+      "t_end": 771.8,
+      "is_demoed": false,
+      "caveats": [
+        "Can organize actions in groups",
+        "Can turn off quick action overlay"
+      ],
+      "tags": [
+        "copilot",
+        "prompting actions",
+        "pages"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Instructional text on fields",
+      "description": "Ability to add instructional text on fields to hint users about required data when field is empty, supported on text-based fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 771.8,
+      "t_end": 791.8,
+      "is_demoed": false,
+      "caveats": [
+        "Supported on text-based fields only"
+      ],
+      "tags": [
+        "instructional text",
+        "fields",
+        "al language"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "HTTP client cookie support",
+      "description": "Enhanced support for working with cookies by allowing developers to set cookies on requests and read them from responses, with automatic reuse of response cookies for the lifetime of the HTTP client instance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 806.8,
+      "t_end": 824.6,
+      "is_demoed": false,
+      "caveats": [
+        "Useful for cookie-based sessions",
+        "Useful for services with cookie-based sessions"
+      ],
+      "tags": [
+        "cookies",
+        "http client",
+        "al language",
+        "http",
+        "external services"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Number sequence enhancements",
+      "description": "New restart method and range method for number sequences, enabling bulk operations with a single database call for better performance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 824.6,
+      "t_end": 840.1,
+      "is_demoed": false,
+      "caveats": [
+        "Enables bulk operations performance improvement"
+      ],
+      "tags": [
+        "number sequences",
+        "performance",
+        "bulk operations",
+        "number sequence"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL obsolete states for app moving and refactoring",
+      "description": "New obsolete states (pending move, moved) and properties (moved from, moved to) to simplify refactoring between extensions, removing need for data copy code. Currently in use with the number series module moved from base application to business foundation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 840.1,
+      "t_end": 881.7,
+      "is_demoed": true,
+      "caveats": [
+        "Currently limited to a select set of applications",
+        "Intends to open up for everyone in the future",
+        "Not considered a breaking change"
+      ],
+      "tags": [
+        "obsolete states",
+        "refactoring",
+        "extensions",
+        "app moving"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "App.json comments support",
+      "description": "Added ability to change language mode on app.json file to JSON with comments to add notes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 881.7,
+      "t_end": 901.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "app.json",
+        "comments",
+        "documentation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL language extension debugger upgrade",
+      "description": "Upgraded the debugger in the VS Code AL language extension with a requirement change: can no longer support debugging on services running older versions of Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 901.9,
+      "t_end": 922,
+      "is_demoed": false,
+      "caveats": [
+        "Must install older AL language extension version to debug older Business Central versions"
+      ],
+      "tags": [
+        "debugger",
+        "vs code",
+        "version compatibility"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "System application debugging",
+      "description": "Partners can now set breakpoints in system application code and debug the system application, with benefits for troubleshooting and open source contributions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 922,
+      "t_end": 1002.9,
+      "is_demoed": true,
+      "caveats": [
+        "Still respecting non debuggable and secure text that will limit debugging in protected areas"
+      ],
+      "tags": [
+        "debugging",
+        "system application",
+        "open source"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AppSource preview state",
+      "description": "New preview state in AppSource where submitted apps automatically go when passing validation, allowing publishers to share preview versions with specific customers via links for testing before public release.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1023,
+      "t_end": 1100.1,
+      "is_demoed": true,
+      "caveats": [
+        "Only supports sandbox environments for now",
+        "Cannot be installed in production",
+        "Backported to 2023 release wave 2"
+      ],
+      "tags": [
+        "appsource",
+        "preview",
+        "publishing"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "AppSource preview key and preview audience",
+      "description": "Partners can define a preview audience and preview key in Partner Center to identify preview versions; if not defined, the system generates one automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1120.2,
+      "t_end": 1160.5,
+      "is_demoed": true,
+      "caveats": [
+        "Preview key setup must be done before submission",
+        "Partner Center only shows last submission"
+      ],
+      "tags": [
+        "appsource",
+        "preview key",
+        "partner center"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "AppSource preview installation via link",
+      "description": "Customers and admins can install preview apps using a shared link containing tenant ID, app ID, and preview key; installation dialog indicates preview status.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1180.6,
+      "t_end": 1239,
+      "is_demoed": true,
+      "caveats": [
+        "Can only install via link today",
+        "Cannot log into AppSource Marketplace to install preview version",
+        "Production installation fails"
+      ],
+      "tags": [
+        "appsource",
+        "preview",
+        "installation"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Preview version higher than public version requirement",
+      "description": "Preview version must be higher than the latest publicly available version of the app for Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1239,
+      "t_end": 1259.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requirement for creating preview versions"
+      ],
+      "tags": [
+        "appsource",
+        "versioning",
+        "preview"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Multiple simultaneous preview versions",
+      "description": "Publishers can have multiple preview versions simultaneously with different versions and potentially different preview keys.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1292.2,
+      "t_end": 1331.8,
+      "is_demoed": false,
+      "caveats": [
+        "Partner Center only shows last submission"
+      ],
+      "tags": [
+        "appsource",
+        "preview",
+        "versioning"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Breaking changes allowed between preview versions",
+      "description": "Publishers are allowed to make breaking changes between preview versions, with force sync used during upgrades which may result in data loss.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1331.8,
+      "t_end": 1372.3,
+      "is_demoed": false,
+      "caveats": [
+        "Data loss possible between previews",
+        "Only for sandboxes"
+      ],
+      "tags": [
+        "appsource",
+        "preview",
+        "breaking changes"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Preview apps sandbox-only restriction",
+      "description": "Sandbox environments with preview apps cannot be copied to or restored to production environments; must replace with public version or uninstall preview app first.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1432.9,
+      "t_end": 1474.1,
+      "is_demoed": false,
+      "caveats": [
+        "Only supports sandboxes",
+        "Launched with sandbox only to manage risk"
+      ],
+      "tags": [
+        "appsource",
+        "preview",
+        "sandbox"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Preview version telemetry dimensions",
+      "description": "Telemetry now indicates whether extension was a preview extension, with extension availability and extension preview key provided dimensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1514.9,
+      "t_end": 1545.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "appsource",
+        "preview"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "AppSource app hot fix validation",
+      "description": "Changed validation so hot fixes are now validated against the latest AppSource app version instead of just the first version targeting next Business Central minor release, allowing more changes and feature backports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1565.3,
+      "t_end": 1687.6,
+      "is_demoed": false,
+      "caveats": [
+        "only applies when there are no breaking changes to the latest version",
+        "Backported to 2023 release wave 2"
+      ],
+      "tags": [
+        "appsource",
+        "hot fix",
+        "validation",
+        "partners"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Microsoft AppSource apps list page",
+      "description": "A new replacement for the deprecated embedded AppSource experience inside the Business Central web client. It provides stronger search and filter capabilities, displays app metadata, and allows users to browse and install apps directly in the client.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1765.1,
+      "t_end": 1884.3,
+      "is_demoed": true,
+      "caveats": [
+        "does not show app images to prioritize fast rendering",
+        "free apps or transact plan apps can be installed directly; other purchase models require going to AppSource website"
+      ],
+      "tags": [
+        "appsource",
+        "marketplace",
+        "list page",
+        "search",
+        "filter"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Analysis mode for AppSource apps list",
+      "description": "Enables users to group and analyze AppSource apps by various dimensions like publisher or rating, with support for natural language queries through Copilot to help users view extensions in analysis mode.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1939.9,
+      "t_end": 2000.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "analysis mode",
+        "grouping",
+        "copilot"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Page scripting tool",
+      "description": "A new tool that allows customers and consultants to record and play user acceptance tests directly in the Business Central web client, driving higher test coverage while reducing costs and increasing agility.",
+      "status": "preview",
+      "status_evidence_t": 2051.4,
+      "status_evidence_quote": "this is something that we release as a preview in 2024 release way 1",
+      "status_evidence_verified": true,
+      "t_start": 2031.2,
+      "t_end": 2051.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "page scripting",
+        "testing",
+        "uat",
+        "preview"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Developer documentation updates",
+      "description": "New and updated documentation content for developers covering data analytics, reporting, Word layouts, error handling, troubleshooting tools, telemetry, security, and extensibility.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2051.4,
+      "t_end": 2092.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "learning content",
+        "developer resources"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "number series line",
+      "t": 450.9
+    },
+    {
+      "type": "table",
+      "name": "number serious line obsolete",
+      "t": 450.9
+    },
+    {
+      "type": "other",
+      "name": "number series module",
+      "t": 840.1
+    },
+    {
+      "type": "page",
+      "name": "Microsoft appsource apps",
+      "t": 1884.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Peter",
+      "confidence": "high"
+    },
+    {
+      "name": "Espen",
+      "confidence": "high"
+    },
+    {
+      "name": "Stefan",
+      "confidence": "high"
+    },
+    {
+      "name": "Kurt",
+      "confidence": "medium"
+    },
+    {
+      "name": "Kenny",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 97.5,
+      "text": "it's all about the ability to have extension objects in the same app as the base objects",
+      "why_it_matters": "States the core feature being announced - a long-requested capability that changes how developers can structure their applications.",
+      "check": "exact"
+    },
+    {
+      "t": 254.4,
+      "text": "one app with both a table and multiple table extensions will still only create one table in SQL layer which means that there are",
+      "why_it_matters": "Explains the technical solution that makes this feature performant - addressing a previous blocker.",
+      "check": "snapped"
+    },
+    {
+      "t": 315.1,
+      "text": "it is enabled by default when targeting runtime 13 which is the current release",
+      "why_it_matters": "Clarifies the GA status and runtime requirement for the object extensions feature.",
+      "check": "exact"
+    },
+    {
+      "t": 483.8,
+      "text": "it is shipping together with the V6 right next to your favorite compiler but don't get too excited because it's it is a small",
+      "why_it_matters": "Announces the Al tool release but sets expectations about its current limited scope.",
+      "check": "exact"
+    },
+    {
+      "t": 618.4,
+      "text": "we now have the ability to add tool tips to tables and you can now reuse tool tips across all your pages",
+      "why_it_matters": "Explains a new AL language capability for managing tooltips more centrally.",
+      "check": "exact"
+    },
+    {
+      "t": 806.8,
+      "text": "you can now set cookies on requests and read them from responses and you can even automatically use the response cookies for the lifetime",
+      "why_it_matters": "Indicates new HTTP client capability for managing cookies in external service integrations.",
+      "check": "exact"
+    },
+    {
+      "t": 824.6,
+      "text": "the range method allows you now to get a whole range in a single database call enabling for much more performant bulk operations",
+      "why_it_matters": "Describes performance improvement in number sequence operations for bulk scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 860.2,
+      "text": "using this method we do not consider it a breaking change and if the consumer already have the move table in scope then",
+      "why_it_matters": "Clarifies that app moving is designed as non-breaking change for consumers.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 881.7,
+      "text": "the functionality is currently limited to a select set of applications but we intend to open up for everyone to use this in the",
+      "why_it_matters": "Establishes the current limitation of obsolete states feature and future roadmap.",
+      "check": "snapped"
+    },
+    {
+      "t": 901.9,
+      "text": "we have been upgrading the debugger in the vs code Al language extension this means we no longer can support debugging on Services running",
+      "why_it_matters": "Indicates a breaking change requirement for debugger version compatibility.",
+      "check": "exact"
+    },
+    {
+      "t": 941.1,
+      "text": "note though that we are still respecting the non debuggable and the secure text uh that will limit debugging in protected areas of the",
+      "why_it_matters": "Defines limitations on system application debugging access.",
+      "check": "exact"
+    },
+    {
+      "t": 1023,
+      "text": "we now support the appsource preview State uh which all submitted apps automatically go to when passing validation",
+      "why_it_matters": "Core status statement about AppSource preview feature launching.",
+      "check": "exact"
+    },
+    {
+      "t": 1239,
+      "text": "it's not possible to install a version of an app that is lower uh than the latest publicly uh available version of that app",
+      "why_it_matters": "Defines key versioning constraint for preview apps.",
+      "check": "snapped"
+    },
+    {
+      "t": 1626.3,
+      "text": "we now do validate against the latest appsource app version and that um has the benefit that it ensures compliance with the latest version",
+      "why_it_matters": "Explains validation change for hot fixes with compliance benefits.",
+      "check": "exact"
+    },
+    {
+      "t": 1626.3,
+      "text": "we changed the validation so that we now do validate against the latest appsource app version",
+      "why_it_matters": "Demonstrates a key improvement to hot fix validation that benefits partners by allowing validation against the latest version rather than just the first version of the next release.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1647.1,
+      "text": "Partners can Now backport features and include them in the hotfix version if there are no breaking changes to the latest version",
+      "why_it_matters": "Explains the concrete benefit of the new validation approach - partners gain capability to add features to hotfixes without breaking compliance.",
+      "check": "exact"
+    },
+    {
+      "t": 1745,
+      "text": "we have uh decided to replace the old embed experience with a new experience that we call uh Microsoft appsource apps and this is",
+      "why_it_matters": "Marks the launch of the replacement for the deprecated embedded AppSource experience with a new first-version product.",
+      "check": "exact"
+    },
+    {
+      "t": 1765.1,
+      "text": "this list provides a much stronger uh capability to search and filter than before",
+      "why_it_matters": "Highlights the main improvement of the new AppSource apps list page over the previous embedded experience.",
+      "check": "exact"
+    },
+    {
+      "t": 2031.2,
+      "text": "we have a super exciting a new tool called page scripting that allows customers and Consultants to easily uh record and play user acceptance",
+      "why_it_matters": "Introduces page scripting as a new capability for UAT, indicating a significant developer tooling enhancement.",
+      "check": "exact"
+    },
+    {
+      "t": 2051.4,
+      "text": "this is something that we release as a preview in 2024 release way 1",
+      "why_it_matters": "Establishes page scripting as a preview feature in the current 2024 release wave 1.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 561.4,
+      "kind": "other",
+      "text": "we have removed the net 4.8 from the binaries which made it hard to use in a um in Pipelines"
+    },
+    {
+      "t": 860.2,
+      "kind": "subject-to-change",
+      "text": "the functionality is currently limited to a select set of applications but we intend to open up for everyone to use this in the future"
+    },
+    {
+      "t": 881.7,
+      "kind": "subject-to-change",
+      "text": "The functionality is currently limited to a select set of applications but we intend to open up for everyone to use this in the future"
+    },
+    {
+      "t": 1083.3,
+      "kind": "subject-to-change",
+      "text": "we support sandbox environments um I think I made a said production just before to test it out but we actually only support uh production uh for now"
+    },
+    {
+      "t": 1100.1,
+      "kind": "preview",
+      "text": "the preview support is uh something that we actually uh shipped in the 203 release or 20 2023 release wave uh 2 uh minor um so we kind of you know backported it"
+    },
+    {
+      "t": 1724.7,
+      "kind": "not-in-this-release",
+      "text": "this embedded appsource experience has been deprecated by the appsource team from uh basically now April 2024"
+    },
+    {
+      "t": 2051.4,
+      "kind": "preview",
+      "text": "this is something that we release as a preview in 2024 release way 1"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 20,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 25
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.050129900000000005
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.034244
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020588000000000002
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.039345
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "video_id": "mnxOSl1Y9PI",
+  "item_id": "video/yt-microsoft/mnxOSl1Y9PI",
+  "title": "What's New: Key Updates in our Learning Content (documentation) For Developers (2024 release wave 1)",
+  "duration_s": 785,
+  "systems": [
+    "development",
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "documentation updates",
+    "al language",
+    "data analytics",
+    "reporting",
+    "error handling",
+    "troubleshooting",
+    "background processing",
+    "telemetry",
+    "security",
+    "extensibility",
+    "word layouts"
+  ],
+  "chapters": [
+    {
+      "title": "New Developer Documentation Overview and AKA Link",
+      "t_start": 0,
+      "t_end": 64.6
+    },
+    {
+      "title": "Documentation Structure: Getting Started and AL Programming",
+      "t_start": 64.6,
+      "t_end": 147.4
+    },
+    {
+      "title": "Data Analytics and Reporting for Developers",
+      "t_start": 147.4,
+      "t_end": 201.9
+    },
+    {
+      "title": "Reporting Documentation: Reports and Word Layouts",
+      "t_start": 201.9,
+      "t_end": 298.6
+    },
+    {
+      "title": "Error Handling and Troubleshooting Guides",
+      "t_start": 298.6,
+      "t_end": 397.8
+    },
+    {
+      "title": "Background Processing and Telemetry for Developers",
+      "t_start": 397.8,
+      "t_end": 481
+    },
+    {
+      "title": "Security and Extensibility Documentation",
+      "t_start": 481,
+      "t_end": 571.4
+    },
+    {
+      "title": "Contributing to Documentation and Getting Started",
+      "t_start": 571.4,
+      "t_end": 691.5
+    },
+    {
+      "title": "Related Sessions and Resources",
+      "t_start": 691.5,
+      "t_end": 785
+    }
+  ],
+  "features": [
+    {
+      "name": "New Developer Documentation Overview",
+      "description": "A new AKA link aka.ms/BC developer that centralizes developer documentation, including getting started, AL language programming, data analytics, reporting, error handling, troubleshooting, background processing, telemetry, security, and extensibility sections.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 16.4,
+      "t_end": 64.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "aka link",
+        "documentation",
+        "developer portal"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Data Analytics for Developers",
+      "description": "A new documentation section explaining different analytics artifacts available to developers including queries, data analysis on lists, Power BI reports, and Excel layouts to help customers think about analytics differently.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 147.4,
+      "t_end": 187.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "data analytics",
+        "queries",
+        "power bi",
+        "excel layouts"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Reporting Documentation Overhaul",
+      "description": "Comprehensive rewrite of reporting documentation covering everything needed for developing reports, with expanded coverage of report types and best practices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 201.9,
+      "t_end": 222,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reporting",
+        "documentation",
+        "developing reports"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Word Layouts Documentation",
+      "description": "New comprehensive documentation on word layouts for document reporting, covering how to design datasets that work well with word layouts, layout design, and transition from RDL to word layout world.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 244,
+      "t_end": 284.7,
+      "is_demoed": false,
+      "caveats": [
+        "Helps transition from RDL to word layouts particularly for document reports"
+      ],
+      "tags": [
+        "word layouts",
+        "document reporting",
+        "dataset design"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Error Handling Documentation",
+      "description": "New documentation section on error handling including reasoning about errors, failure modeling, robust coding practices, understanding error dialogs and stack traces, actionable errors, and meaningful error messages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 298.6,
+      "t_end": 355.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "error handling",
+        "robust coding",
+        "debugging"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Troubleshooting Guides and Tools",
+      "description": "New troubleshooting overview documentation providing indication of different troubleshooting tools available and troubleshooting guides (TSGs) in many different areas.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 355.3,
+      "t_end": 390.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "troubleshooting",
+        "tools",
+        "tsg guides"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Background Processing Documentation",
+      "description": "New overview documentation on running things in the background to improve perceived performance, covering session pages, background tasks, task scheduler, job queue, and other asynchronous processing methods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 397.8,
+      "t_end": 440.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "background processing",
+        "async",
+        "performance",
+        "job queue"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Telemetry for AL Developers",
+      "description": "Enhanced telemetry documentation for AL developers including new content on telemetry scope and visibility to the feature telemetry module in system application for free telemetry features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 440.2,
+      "t_end": 481,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "feature telemetry module",
+        "monitoring"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Security for Developers",
+      "description": "New documentation section on business central security for developers, covering how to reason about security in the development lifecycle and topics needed to deliver secure apps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 481,
+      "t_end": 514.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "security",
+        "secure apps",
+        "development lifecycle"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Extensibility Overview Documentation",
+      "description": "New extensibility overview documentation covering ways to extend in AL, extend through system application or base app changes, client extensions, Power BI extensions, and all ways to extend business central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 514.1,
+      "t_end": 571.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "extensibility",
+        "extensions",
+        "power bi",
+        "customization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Documentation Contribution Process",
+      "description": "Documentation and guidance on how developers can contribute to business central documentation through GitHub pull requests, with a contribute search in docs to get started.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 571.4,
+      "t_end": 611.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "github",
+        "community contribution"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 44.4,
+      "text": "the new AKA link aka.ms slbc developer takes you to this session section",
+      "why_it_matters": "Establishes the new centralized entry point for developer documentation in Business Central",
+      "check": "exact"
+    },
+    {
+      "t": 105.7,
+      "text": "programming in the AL language is a list of sections that describe how to do various things",
+      "why_it_matters": "Explains the documentation structure distinguishing practical how-to content from language constructs",
+      "check": "exact"
+    },
+    {
+      "t": 147.4,
+      "text": "analytics is no no longer just write a report and give it to the customer there are many different artifacts in analytics",
+      "why_it_matters": "Highlights the shift in how analytics is approached, expanding beyond simple reporting",
+      "check": "snapped"
+    },
+    {
+      "t": 244,
+      "text": "word layouts also got a huge over overhaul in documentation",
+      "why_it_matters": "Indicates significant new documentation coverage for word layout reporting",
+      "check": "exact"
+    },
+    {
+      "t": 298.6,
+      "text": "for stability is error handling and uh for error handling we also added a new section",
+      "why_it_matters": "Emphasizes error handling as critical for stability with new comprehensive documentation",
+      "check": "exact"
+    },
+    {
+      "t": 440.2,
+      "text": "Telemetry is not only for people in the basement is also a tool for you as a developer",
+      "why_it_matters": "Positions telemetry as an important developer tool, not just for operations",
+      "check": "exact"
+    },
+    {
+      "t": 481,
+      "text": "security is not only for the admin it's also for you as developer you need to think security into your app",
+      "why_it_matters": "Stresses developer responsibility for security in application development",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 11
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030418599999999997
+    }
+  ]
+}

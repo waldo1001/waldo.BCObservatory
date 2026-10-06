@@ -1,0 +1,411 @@
+{
+  "video_id": "j5ULVClJaKU",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 17.1,
+      "end": 37.2,
+      "text": "welcome to this session where uh we introduce a new way of interacting with your data with Microsoft co-pilot through chat uh and we'll talk a little bit about how this will be transformative for your uh business processes I'm Sam van lout I'm a software engineer at Microsoft and I'm joined here with my colleague Mike hi Mike thanks Sam my name is"
+    },
+    {
+      "t": 37.2,
+      "end": 57.5,
+      "text": "Mike borch cardana and I'm a product manager at Microsoft so uh we're excited to announce uh the ability to chat with Microsoft co-pilot within Dynamics 365 business Central uh will enter public preview in 2024 release Wave 1 uh so co-pilot is the the AI powered assistant that empowers people to express"
+    },
+    {
+      "t": 57.5,
+      "end": 77.7,
+      "text": "themselves in their own words uh to find records as well as enabling uh people to easily get answers to questions on how when or why to do um things within uh business Central so why have we gone ahead and integrated uh chat with business Central um we know that sometimes business apps can be uh quite"
+    },
+    {
+      "t": 77.7,
+      "end": 98,
+      "text": "hard to learn and uh chat opens up a whole new way to interact with your data uh making the business apps a lot more approachable and uh accessible to people um along uh with that uh business Central has a growing uh set of uh uh diverse customers um and chat is an opportunity for copat"
+    },
+    {
+      "t": 98,
+      "end": 118.6,
+      "text": "to assist with the kind of tasks uh that are common across users in every industry every role every region and it's really great that you know we can help here um and uh allow our partner Community to then focus on the industry specifics and uh finally as you know copilot is getting better over time uh We've no doubt that it will help workers"
+    },
+    {
+      "t": 118.6,
+      "end": 129,
+      "text": "uh achieve more and eliminate uh these tedious tasks and allow people to focus on what really matters which you know at the end of the day is uh running their"
+    },
+    {
+      "t": 129,
+      "end": 149.5,
+      "text": "business so for today's talk uh let's jump straight into what co-pilot can do for you uh we'll start with a co-pilot demo or we cover uh what chat is good for and show you some tips on how to get the most out of it then we'll we'll talk a little bit about the preview what does it actually mean um how do the how how does co-pilot answer questions"
+    },
+    {
+      "t": 149.5,
+      "end": 170.3,
+      "text": "and how can you administrate this new capability and finally we'll wrap up by sharing all the details you need to go and try it out yourself uh and uh you can go and play with chat so let's kick off the demo over to you Mac shall we do that Sam let's dive in let's take a look at what this looks like here I am in business Central"
+    },
+    {
+      "t": 170.3,
+      "end": 190.4,
+      "text": "and I can chat with co-pilot at any time no matter where I am inside the application and to start chat I will find the co-pilot icon in the app bar up top and the chat pane slides in and I have this welcoming message from co-pilot uh and you can see how this is seamlessly integrated into the business"
+    },
+    {
+      "t": 190.4,
+      "end": 210.4,
+      "text": "Central uh experience on the web client um and it sits alongside my data so it helps me it's always there alongside my my work um here the welcoming message also explains the kind of tasks that co-pilot can help with it can help find records from the database it can help explain Concepts and help"
+    },
+    {
+      "t": 210.4,
+      "end": 230.4,
+      "text": "me understand things in business Central but also guide me on how to complete those tasks how to complete those business processes now these are three nice examples here to get me started but I've actually got so many more here in the what we call the prompt guide um here are different examples which really just give me a sense of you know Inspire Me Maybe to how I could communicate"
+    },
+    {
+      "t": 230.4,
+      "end": 250.4,
+      "text": "and chat with co-pilot um different ways of writing my my questions my prompts uh covering these different abilities that it has um here I have for example let's pick this one is there a keyboard shortcut um and you can see how it it's actually like a template where I get to fill in the blanks so let's see what am I interested in is there"
+    },
+    {
+      "t": 250.4,
+      "end": 270.6,
+      "text": "a keyboard shortcut for accessing all actions on my page and now I've sent that first chat chat message to copilot copilot is digging up information from our business Central online documentation as well and will bring me an answer promptly that I can use so here you can see"
+    },
+    {
+      "t": 270.6,
+      "end": 291.1,
+      "text": "how co-pilot has given me an answer to my question and it suggest to use the ALT key to display keytips um which are the letters on the screen that appear right now and I can I can proceed with working with my action bar I'll use the letter G I'll use the letter D wow so I've just learned a new skill thanks to co-pilot here it's helped me figure that out"
+    },
+    {
+      "t": 291.1,
+      "end": 312.1,
+      "text": "now there's of course a lot more you can do with chatting with co-pilot here so think about all the different times during your workday where you get this Interruption somebody comes along and asks you a question that's got nothing to do with the task you're currently working on like setting up my general ledger and think about how distracting that is and co-pilot is here to help so do we have any"
+    },
+    {
+      "t": 312.1,
+      "end": 332.4,
+      "text": "chair in stock under 300 bucks so that's my question it's very unrelated to the task I'm doing right now in business Central but while co-pilot finds the answer I can continue working I can continue setting up my general ledger in this case which happen to be my task I can fully interact with the business Central client"
+    },
+    {
+      "t": 332.4,
+      "end": 353,
+      "text": "uh and all the different pages I can continue working while co-pilot does the hard work for me and you can see copilot has now come back with an answer it's returned three records and in fact these are presented in uh the kind of way that you're already familiar with as tiles where we have a thumbnail image of that record we have some of the important fields"
+    },
+    {
+      "t": 353,
+      "end": 370.7,
+      "text": "and you know this from the web client you've seen it on your mobile app you've seen it as you share records in teams as well and these are of course interactive as well so I can click on any one of these such as the London chair here and now to help my coworker who had this question I can simply share that to"
+    },
+    {
+      "t": 370.7,
+      "end": 377.6,
+      "text": "teams so this information that co-pilot retrieves is also"
+    },
+    {
+      "t": 377.6,
+      "end": 397.7,
+      "text": "interactive now you'll find that as you have conversations with co-pilot uh in that chat pane uh over time the conversation can get quite long uh you might also want to um sort of help pilot by indicating that you're starting a new topic of conversation so for here I can clear the chat pain and start a fresh all over again well okay"
+    },
+    {
+      "t": 397.7,
+      "end": 417.8,
+      "text": "let's now try a completely different question to co-pilot I'm going to ask for show me the latest invoices for Alpine now those of you who are familiar with u business Central's demo data will know that Alpine is in fact a customer Alpine Ski house but here notice how I formulated the"
+    },
+    {
+      "t": 417.8,
+      "end": 438,
+      "text": "question in a very loose manner I didn't spend specified a full customer name I didn't even specify if this was meant to be purchase or sales invoices um so even though we can formulate questions to co-pilot in this loose way co-pilot still figures it out and here it's come back in fact with three invoices from the posted sales invoice list for Alpine"
+    },
+    {
+      "t": 438,
+      "end": 458,
+      "text": "Ski House and again this is presented in the same way as tiles that you can interact with but you can also check um again what filters did copilot apply to actually come to that conclusion I'm in the posted sales invoices list I can see the filter it's applied here I can see the Sorting on due date that's been applied that's how it got to the an answer this"
+    },
+    {
+      "t": 458,
+      "end": 470.2,
+      "text": "helps me verify uh that it has used the right correct logic to get to an answer but because this is a conversation I can also ask follow-up questions to co-pilot for"
+    },
+    {
+      "t": 470.2,
+      "end": 490.3,
+      "text": "example which of these are unpaid now here I'm clearly referring to the invoices that already found in this list so when I'm asking about it being unpaid about it being um still open uh it is referring to you know the latest invoices that were found there it's a reference back to that but"
+    },
+    {
+      "t": 490.3,
+      "end": 510.4,
+      "text": "because copilot understands the history of my conversation it's able to help me with getting to an answer so again co-pilot can uh help me go back and forth in conversation here uh help me narrow down to find precisely the data the records that I'm looking for over to you Sam thanks Mike"
+    },
+    {
+      "t": 510.4,
+      "end": 530.9,
+      "text": "uh so as Mike just showed us uh co-pilot effectively has two capabilities uh one is to quickly find relevant records and uh the other is to look up uh business processes and clarifying that kind of thing uh so I I'll talk a little bit about uh each in in some more detail um so yeah co-pilot is great at quickly finding uh relevant"
+    },
+    {
+      "t": 530.9,
+      "end": 550.9,
+      "text": "records and in particularly these kind of onetime queries where it's not really worth having you know a page view saved for for your kind of answer uh so for example here you can see I'm uh looking up uh uh to show me the sales orders for a datum uh by the amount and um exactly I get these uh"
+    },
+    {
+      "t": 550.9,
+      "end": 571.1,
+      "text": "three records shown here and then I can navigate to the full page uh with the filters applied and then look at all the the relevant um sales orders so uh to get the most out of it it really helps to understand what copal is actually doing uh to find these records and essentially it looks up uh the relevant page uh for your ask"
+    },
+    {
+      "t": 571.1,
+      "end": 591.2,
+      "text": "and then tries to construct a filter on this page uh to answer the question and then looking at the records uh from that resulting set so keeping this in mind when you're formulating your questions for Coby um specifying the type of page that you know uh you want to look at helps um what kind of data you want to"
+    },
+    {
+      "t": 591.2,
+      "end": 611.4,
+      "text": "find at the page and kind any kind of sorting that you you are interested in are all good pieces of information to provide and then co-pilot always uh respond with a link to the page or an explanation of what kind of filtering was done to explain the the results uh in in the answer and just another thing to keep in mind is that while copal"
+    },
+    {
+      "t": 611.4,
+      "end": 625.1,
+      "text": "is in preview uh it's not aware of the the context of your current page so if you're talking about information you see on the current page it's good to include this information in your chat message as"
+    },
+    {
+      "t": 625.1,
+      "end": 645.1,
+      "text": "well um secondly again as Mike showed uh this is a conversation so you can always go ahead and ask clarifying questions um so for example here I asked what is the highest amount and sure I could have opened up the the sales holders page myself and changed the Sorting uh but I could have also just stayed in the chat Pane and"
+    },
+    {
+      "t": 645.1,
+      "end": 665.1,
+      "text": "uh yeah asked the question got the result and here I get a citation as well which will take me straight to the record then uh for the next capability uh co-pilot can search the official uh business Central uh document mentation to answer product related questions uh it's worth noting that it will"
+    },
+    {
+      "t": 665.1,
+      "end": 685.2,
+      "text": "go directly to the documentation and it doesn't perform like a general web search through Bing uh so you can be sure that the results that it gets back is always uh coming from the documentation so in this case again you can see uh I'm asking about some particular terminology and uh what we have found here is a documentation"
+    },
+    {
+      "t": 685.2,
+      "end": 700.1,
+      "text": "uh link that talks about the actual process um and um within that documentation page it talks about the inverse of my question um and so from that we can we can uh get an answer"
+    },
+    {
+      "t": 700.1,
+      "end": 720.3,
+      "text": "um which is good um and then the user can now go to the documentation page to read more or um you know uh you rather than reading all the documentation you can go and ask a follow-up question so for example how can I do that and then um uh the chat will respond with some steps uh if if they are provided within"
+    },
+    {
+      "t": 720.3,
+      "end": 733,
+      "text": "the documentation so this is a really nice like complement to any kind of onboarding or training process that you may have in place and really helps with uh learning how to use uh business"
+    },
+    {
+      "t": 733,
+      "end": 753.5,
+      "text": "Central uh so to reiterate kind of the results you get back all come from the business Central documentation they're all grounded on content in there so for example you might ask a question which isn't actually covered in the documentation and in this case rather than trying to fabricate some answer it will say that there's no information in the documentation on how to do this"
+    },
+    {
+      "t": 753.5,
+      "end": 773.8,
+      "text": "uh but here are some relevant uh pages in the documentation uh you can go and read up on uh to hopefully uh learn more about the the process you're asking um so yeah I hope this helps everyone uh writing more effective questions for co-pilot and I'll hand back to Mike who can uh maybe tell us a bit about the availability of the preview"
+    },
+    {
+      "t": 773.8,
+      "end": 793.9,
+      "text": "thanks Sam so because this is in preview there's a few key points we really want you to understand first of all co-pilot in business Central in general is available exclusively for business Central online which means you won't find it on business Central deployed to on premises or private Cloud um and this has been released for uh 2024 release Wave 1"
+    },
+    {
+      "t": 793.9,
+      "end": 814.7,
+      "text": "um that means you'll find it with major update 24.0 or later uh roll out starts with our us customers uh and then throughout the release wave over a number of weeks and months we'll make that available to other uh regions as as well with the exception of Canada where chat will not be available to Canadian customers"
+    },
+    {
+      "t": 814.7,
+      "end": 834.8,
+      "text": "uh due to compliance reasons um finally chat is available in English only while in preview uh and one of the common questions we also get about uh copilot which applies very much to chat as well is well how much does this cost uh is there a minimum number of seats required to use this the answer is very simple at this stage chat and"
+    },
+    {
+      "t": 834.8,
+      "end": 854.9,
+      "text": "in fact co-pilot in business Central in general is available with business Central licenses at no additional cost here's a few more points that are really good for you to understand so that you can plan your approach so first of all extensibility uh you cannot extend modify override or add new capabilities to"
+    },
+    {
+      "t": 854.9,
+      "end": 875.4,
+      "text": "chat um we certainly aspire to unlock this in the future but for now in preview um this is not possible so keep that in mind when you listen to our some of our other sessions where we talk about the developer tools for co-pilot and business Central those let you do other things with generative AI um chat itself is not"
+    },
+    {
+      "t": 875.4,
+      "end": 896.2,
+      "text": "extensible uh secondly um and this is where you know all hope is not lost uh basically chat can find records in your custom objects your tables and your list Pages uh so if you for example have added the the vehicles list page where you got a whole bunch of Records you'll still be able to uh get to that information as well using co-pilot"
+    },
+    {
+      "t": 896.2,
+      "end": 916.4,
+      "text": "um so whether that's a customization whether that's an add-on solution it just works there's no additional effort needed uh from our partner Community for their objects to also work with chat and because answers come from Microsoft's online documentation hosted on Microsoft learn uh this also means that if you"
+    },
+    {
+      "t": 916.4,
+      "end": 936.8,
+      "text": "ask questions about custom Fields custom processes in business Central anything very specific that you do in your company that may be captured in other knowledge sources co-pilot at at this stage will not be able to answer those kind of those kind of questions um it does draw from end user documentation from Microsoft the administrator"
+    },
+    {
+      "t": 936.8,
+      "end": 957.1,
+      "text": "documentation the developer docs as well but it also won't generate any code or display any Al code uh in the chat Paine um the last thing that's also good to know and that's a subtle point is uh that you know if if you've asked co-pilot to find some data it can only find data based on the filters and the fields that are available"
+    },
+    {
+      "t": 957.1,
+      "end": 977.6,
+      "text": "so if you ask for something that goes beyond that of course you will not be able to return uh any results all right well let's talk about trust next yeah thanks back so we designed this feature uh from the ground up uh with Microsoft's values and uh responsible AI standards"
+    },
+    {
+      "t": 977.6,
+      "end": 998.2,
+      "text": "um and what this really is is that your data is your data uh you know and a story um your data is not used to train the foundation AI models and your data is protected by the most comprehensive Enterprise compliance and security controls so what does that really mean it means that uh for example the queries you type in co-pilot chat"
+    },
+    {
+      "t": 998.2,
+      "end": 1018.6,
+      "text": "uh will uh respect the users permission uh sets that have been assigned you know they're not going to be able to ask questions uh for things that that the users don't have access to and finally uh you know copat is built on Microsoft's responsible AI standards of fairness reliability safety inclusiveness transparency and accountability"
+    },
+    {
+      "t": 1018.6,
+      "end": 1038.6,
+      "text": "um so you know these aren't just words we really take the time to go through each feature and design for harnessing AI safety from the ground up and we apply what we call the responsible AI practices um you know we know that the AI is sometimes incorrect so we've taken uh extra me measures to ensure"
+    },
+    {
+      "t": 1038.6,
+      "end": 1059.1,
+      "text": "that the answers copilot provides uh answer to a high degree of accuracy uh for example it will always provide a clear explanation of how the answer was found it will provide links and citations to its sources and finally we apply what we call grounding checks uh to avoid Fabrications"
+    },
+    {
+      "t": 1059.1,
+      "end": 1079.4,
+      "text": "from the model uh before presenting uh the answer in chat now if you're a partner who's eager to demo this to your customers or simply get Hands-On and try it yourself here's a few tips just for you uh so first of all um we always recommend for demos that you use CDX uh customer digital"
+    },
+    {
+      "t": 1079.4,
+      "end": 1099.8,
+      "text": "experiences um just go to aka.ms CDX uh sign in with your partner identity uh as a partner you already have access to this once you're in there you can quickly spin up a new tenant uh basically you get an admin and a whole set of test user uh credentials um and we suggest you always create a new browser"
+    },
+    {
+      "t": 1099.8,
+      "end": 1119.8,
+      "text": "profile you sign up for business Central in there using that admin account um and then you've got access to business Central uh and um since you know chat is being rolled out gradually to different uh geographies um it's probably easiest in the beginning uh to provision a US environment and that will"
+    },
+    {
+      "t": 1119.8,
+      "end": 1139.8,
+      "text": "give you chat and there's really no further configuration you need to go through you are ready to start using co-pilot in that situation but if you um if you're in there and you can't find co-pilot here's just a couple of small tips for you uh things that you can check so first go and check the co-pilot ni capabilities page this is a single"
+    },
+    {
+      "t": 1139.8,
+      "end": 1159.8,
+      "text": "and simple space that we've created for admins uh that gives transparency into these are the generative AI features available in this particular environment if you don't see chat in there uh it hasn't been made available yet uh to your particular environment um here make sure that uh you know chat is active uh and on some"
+    },
+    {
+      "t": 1159.8,
+      "end": 1180,
+      "text": "environments you will also see uh a switch um that you can turn on to give consent to uh con business Central contacting Azure open AI service that may be in a different region and what this means is that for some of our regions depending on where you're located depending on on that uh uh that environment um data"
+    },
+    {
+      "t": 1180,
+      "end": 1199.2,
+      "text": "may need to be sent to Azure openi service that is outside of your Geographic boundary and that is something admins need to consent to to use this um there's a few other things you can do um you know make sure that uh your language is set to English in my settings uh make sure you're on you've been updated to version 24"
+    },
+    {
+      "t": 1199.2,
+      "end": 1219.4,
+      "text": "um and essentially you know those are all the things that you need to do to check if you don't see co-pilot over there if you don't have chat with co-pilot just yet you may just need to wait a little bit longer until we roll it out uh to that region okay so um just a last Quick demo of the day so business Central is of course a very extremely rich and advanced business application there's"
+    },
+    {
+      "t": 1219.4,
+      "end": 1240.1,
+      "text": "many things to learn to master including uh how to use each specific field now co-pilot is your AI assistant to help you through that process as well to explain feels in business Central so I'd like to next show you this demo where we get help from co-pilot so let's imagine I'm still performing this task of reconfiguring"
+    },
+    {
+      "t": 1240.1,
+      "end": 1260.1,
+      "text": "my general ledgers and there's a couple of fields here I'm not quite sure what they represent there's allow posting from there's deferral posting U we've made it really easy with a single click to be able to get more information from co-pilot when the Tool tip just doesn't have enough now typically uh if I couldn't ask co-pilot right here what"
+    },
+    {
+      "t": 1260.1,
+      "end": 1280.5,
+      "text": "I do is I'd go and search Microsoft's documentation myself do a number of queries there to and Search terms to figure out what I'm looking for but here I simply ask co-pilot what is the allow posting from field what is that all about as you can see um you know by that one click uh it's added a chat message in there uh to co-pilot"
+    },
+    {
+      "t": 1280.5,
+      "end": 1293.4,
+      "text": "and co-pilot goes off and figures out the answer and again I can have follow-up questions to this as well so H uh how is this different to deferral"
+    },
+    {
+      "t": 1293.4,
+      "end": 1313.5,
+      "text": "posting so as I work in business Central uh I've got co-pilot as my assistant by my side helping me understand these Concepts and we've made it super easy with a single click just to be able to get to that and this is because uh business Central in general has tool tips on fields uh has documentation which documents the and explains"
+    },
+    {
+      "t": 1313.5,
+      "end": 1333.5,
+      "text": "you know business processes and pages but there isn't specific you know field level uh help documentation it's sort of spread out across different prices so here co-pilot helps bring it all in into one space where I don't even need to leave the application I can easily get to that information and work uh in business Central that's really cool Mike I think"
+    },
+    {
+      "t": 1333.5,
+      "end": 1354.1,
+      "text": "that's such a a seamless way of learning more about business Central and I really like that you can just go and ask follow-up questions uh in a conversational format uh once the the chat pane is open so now you should know how to get and try out copilot for yourself uh and we'd love to get your feedback and uh help us improve by liking or disliking"
+    },
+    {
+      "t": 1354.1,
+      "end": 1374.6,
+      "text": "the responses that you see in the chat Pane and this can me done the the thumbs up or the thumbs down uh the your feedback is very important to us because it helps give a signal on areas uh where we can improve and I'll reiterate you know that like we said earlier uh that we will not use the data for training the foundation model models so back to you m"
+    },
+    {
+      "t": 1374.6,
+      "end": 1394.6,
+      "text": "thanks Sam well I think we can wrap things up now so there's so much more C- in 2024 release wave 1 uh check out these recommended sessions where we cover how co-pilots help helps people use their own words to uh fill out sales lines quickly and effectively or to uh create analytical views of their data uh and get to"
+    },
+    {
+      "t": 1394.6,
+      "end": 1414.6,
+      "text": "insights a lot faster but also how co-pilot helps reduce the tedious tasks such as matching electronic uh documents with your purchase orders now if you're looking for uh more resources about co-pilot and about chat specifically for start if you haven't seen it we definitely recommend a two-minute video that you can show your customers as well about"
+    },
+    {
+      "t": 1414.6,
+      "end": 1434,
+      "text": "chat and roughly how it works uh if you need more detailed information uh we encourage Partners to uh engage with us on Viva engage for example have a discussion with the product team share your feedback and ideas there as well uh or dig into our documentation for even more answers and examples of how you can work with"
+    },
+    {
+      "t": 1434,
+      "end": 1454.5,
+      "text": "chat uh of course if you want to extend co-pilot as I said earlier uh uh you cannot extend chat today but you can also build other generative AI experiences in business Central check out our toolkit for that one and finally if you're new to business Central uh there's plenty more resources for you everything from connecting to the engineering team"
+    },
+    {
+      "t": 1454.5,
+      "end": 1474.5,
+      "text": "to uh contributing your ideas your code uh or simply learning new skills so we'll end here with a big thank you thank you not just for listening in but also for trying out chat with co-pilot and sharing your feedback your feedback is tremendously important for us to improve co-pilot over time uh"
+    },
+    {
+      "t": 1474.5,
+      "end": 1494.6,
+      "text": "we think the potential with AI is tremendous in transforming how our customers do business and interact with business applications but it's all about channeling that power towards uh how you our partners and our customers apply that AI put it to work every single day to help you be more productive uh so we're looking forward"
+    },
+    {
+      "t": 1494.6,
+      "end": 1507,
+      "text": "to your feedback your reactions your ideas as well uh send them our way we're eager to engage and on behalf of the team thanks a lot and thanks for joining"
+    },
+    {
+      "t": 1507,
+      "end": 1508,
+      "text": "us"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 17.07,
+      "text": "[Music]"
+    },
+    {
+      "t": 17.08,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 4521
+}

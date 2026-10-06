@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-export-audit-files",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d7700dbbbda754f82057236dc2e91c6b09a13f1b",
       "words": 1377,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T19:40:22.358Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003787
+    },
+    "summarized": {
+      "at": "2026-10-06T19:42:56.066Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:42:56.067Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:42:56.068Z",
+      "page": false
     }
   },
   "input_hash": "d7700dbbbda754f82057236dc2e91c6b09a13f1b",
@@ -74,5 +93,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d7700dbbbda754f82057236dc2e91c6b09a13f1b"
+  "output_hash": "235fb3754231765e5e3624b519f1ea77daac38a88402ad33614b1087d714ac8e"
 }

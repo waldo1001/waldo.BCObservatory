@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-dimension-set-entries-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-dimension-set-entries-overview",
+  "title": "Dimension Set Entries Overview",
+  "blob": "f9f12ff7a175e4eab81e28e7540bd67220c27b34",
+  "summary": "Dimension Set Entries Overview explains how dimension sets store unique combinations of dimension values and are referenced by dimension set ID. Use this to understand dimension storage and performance optimization in Business Central.",
+  "systems": [
+    "finance",
+    "platform"
+  ],
+  "topics": [
+    "dimension set entries",
+    "dimension set id",
+    "dimension values",
+    "database performance"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Dimension Set Entry"
+    },
+    {
+      "type": "codeunit",
+      "name": "Dimension Management"
+    }
+  ],
+  "features": [
+    "dimension set storage",
+    "dimension set ID assignment",
+    "performance improvement"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003787,
+      "pages_in_call": 8
+    }
+  ]
+}

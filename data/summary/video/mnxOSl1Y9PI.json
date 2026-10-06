@@ -1,0 +1,27 @@
+{
+  "video_id": "mnxOSl1Y9PI",
+  "item_id": "video/yt-microsoft/mnxOSl1Y9PI",
+  "summary": "Business Central developer documentation updates for 2024 release wave 1, reached through aka.ms/BC developer. New or reworked sections cover data analytics, reporting and word layouts, error handling, troubleshooting, background processing, telemetry, security, extensibility, and contributing to docs.",
+  "overview": "The video walks through the restructured developer documentation for Business Central, now centralized behind the aka.ms/BC developer link. It describes the layout of the getting started and AL programming sections, then goes through the areas that were added or rewritten in this wave.\n\nReporting and word layouts were reworked, including guidance on designing datasets for word layouts and moving from RDL. New material covers error handling, troubleshooting tools and guides, background processing, telemetry for AL developers, security for developers, and extensibility. The video ends with how to contribute to the docs through GitHub pull requests.",
+  "key_points": [
+    "aka.ms/BC developer is the entry link to the central developer documentation, with getting started and AL programming sections.",
+    "A new data analytics section explains the analytics artifacts available to developers: queries, data analysis on lists, Power BI reports, and Excel layouts.",
+    "Reporting documentation was rewritten, and word layouts have new documentation covering dataset design, layout design, and the move from RDL for document reports.",
+    "A new error handling section covers failure modeling, robust coding, error dialogs and stack traces, actionable errors, and meaningful error messages.",
+    "A troubleshooting overview lists the available tools and links to troubleshooting guides (TSGs) in many areas.",
+    "Background processing overview covers session pages, background tasks, task scheduler, and job queue to improve perceived performance.",
+    "Telemetry docs add content on telemetry scope and visibility, and on the feature telemetry module in the system application."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "6a8da5644fb8dd64e3176fb75735a3c50c8bb9b6445c2768e135af88330bb900",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0161404
+  }
+}

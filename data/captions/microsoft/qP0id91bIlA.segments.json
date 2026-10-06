@@ -1,0 +1,611 @@
+{
+  "video_id": "qP0id91bIlA",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 16.2,
+      "end": 36.2,
+      "text": "hi and welcome to this session about what's new in designing generative AI experiences for business Central I'm yo vinda I'm the design manager for business Central and I'm here today with my colleague s alexanderson thank you yob welcome to this session let's just Dive Right In first of all"
+    },
+    {
+      "t": 36.2,
+      "end": 46.7,
+      "text": "let's set the scene AI is here to stay and it's bringing more transformation than most of us have seen in our lifetime"
+    },
+    {
+      "t": 46.7,
+      "end": 60.2,
+      "text": "And in regards to designing business applications and software there's a balancing act because all these great opportunities and Innovation also means transformation it means change"
+    },
+    {
+      "t": 60.2,
+      "end": 80.3,
+      "text": "uh and disruption but on the human side we don't like that we like habits we like predictability and we have expectations for how features should work and we take comfort that they work today the same way as they did yesterday so that's what this session is all about how can we make those two"
+    },
+    {
+      "t": 80.3,
+      "end": 101.2,
+      "text": "ends meet how can you and we design features that bring Innovation that make you and your customers more productive but without disrupting thing so today we're going to talk about the design elements in ux framework for making these features consistent and seamless and intuitive and with that yakob"
+    },
+    {
+      "t": 101.2,
+      "end": 121.7,
+      "text": "can you tell us a bit more about AI in sort of a Microsoft context and what we mean when we say interact with software a new way I can thanks a lot son um so AI has been hard to miss in the technology landscape the last year uh and the Microsoft take on on AI"
+    },
+    {
+      "t": 121.7,
+      "end": 141.8,
+      "text": "is using the name co-pilot to describe the way that the human and the computer can work together uh when when AI is in play and the term copilot is meant to signify that the computer is not taking control the computer is working with the human"
+    },
+    {
+      "t": 141.8,
+      "end": 161.9,
+      "text": "user to solve the task and that distinction that way of placing the AI in relation to what the human does is key for how we are integrating AI into business Central as well so co-pilot is a uh term"
+    },
+    {
+      "t": 161.9,
+      "end": 182.1,
+      "text": "and it can be a bit hard in the beginning to really frame or Define what co-pilot is and that is partly because it can take many forms in how users are using a computer uh with AI going forward so in one way it's a conversation you've seen the chat"
+    },
+    {
+      "t": 182.1,
+      "end": 202.9,
+      "text": "interfaces in other situations it operates more like you would expect an AI assistant to do an agent and so on so we are using this uh story that you might know from uh Old Times where we have a group of people who are meeting an elephant and they are all blindfolded so they can't see what they are"
+    },
+    {
+      "t": 202.9,
+      "end": 223.2,
+      "text": "observing or what they are uh experiencing but and that for that reason they describe this new thing that they don't know in very many different ways but in reality it's the same elephant that they're touching so in this session we will try to get a little more concrete around what is this elephant if you will and how are users going to"
+    },
+    {
+      "t": 223.2,
+      "end": 243.5,
+      "text": "experience it in business Central and other Microsoft software so the agenda for the session here is um son will explain in a moment about AI inputs and outputs uh we will talk about about the concrete ways where the human and computer work"
+    },
+    {
+      "t": 243.5,
+      "end": 263.5,
+      "text": "together so solve the task and that's framed as a human in the loop uh way of doing things then we are going to be more practical we're going to look at the prompt dialogue in all its different facets which is an important uh part of the toolkit in business Central and lastly we will give you a lot of uh guidelines and links for where"
+    },
+    {
+      "t": 263.5,
+      "end": 283.6,
+      "text": "you can continue your um path into AI with business Central so over to you s inputs and outputs for AI let's talk about the AI inputs and outputs and to kick this off let's start with a small demo so here in this example I'm on a sales order and I want to suggest sales"
+    },
+    {
+      "t": 283.6,
+      "end": 301.1,
+      "text": "lines with co-pilot so hit the action suggest sales lines here I have a free text input so here here here I can describe anything I want so let me say I want uh the uh colia if I Columbia"
+    },
+    {
+      "t": 301.1,
+      "end": 315.4,
+      "text": "beans five pieces and now copile will generate an interpret my request and let's see if it could come up with what I expect it"
+    },
+    {
+      "t": 315.4,
+      "end": 335.5,
+      "text": "to so the this part you're see now is the second mode of the co-pilot The Prompt dialogue and now I see that co-pilot produced an output for me and it's exactly what I wanted in this case you'll notice that the output is structured it's structured into the fields that I"
+    },
+    {
+      "t": 335.5,
+      "end": 355.6,
+      "text": "want for example the quantity field and the item number in this case that's great this was just to show you one example where we started with unstructured data in terms of free text and ended with structure data in terms of uh data in controls with field value so let's talk about this with inputs so as we"
+    },
+    {
+      "t": 355.6,
+      "end": 376.2,
+      "text": "saw we had an example with unstructured input which is free text and this is also what you know from various chat experiences you can chat and and and write anything you like there's also the structured inputs which we'll get back to a demo of later where you have every input in terms of a field or multiple fields and some settings"
+    },
+    {
+      "t": 376.2,
+      "end": 386.7,
+      "text": "and then you have a mix of these two which is semi-structured you have some free text but you also have some options that you can select which helps give input to the underlying"
+    },
+    {
+      "t": 386.7,
+      "end": 407.5,
+      "text": "prompt now if we look at the outputs it's kind of the same thing you have outputs that are free text and that's not necessarily correlated with what type of inputs it was you can have structured input and unstructured output or vice versa and then you also have the structured output"
+    },
+    {
+      "t": 407.5,
+      "end": 428,
+      "text": "that we just saw in the demo before where you have controls and Fields that are filled with some values and you can have anything in between those two if we take a closer look at the prompt dialogue it has three stages it has the input mode it has the generating mode and it has the output mode and as we've"
+    },
+    {
+      "t": 428,
+      "end": 448.8,
+      "text": "said a couple of times now input can be structured semi-structured or unstructured and the same goes for the output mode and it's up to you to consider what fit what fits best for your scenario for the feature you want to build do I have structured data do I have unstructured data because with unstructured data"
+    },
+    {
+      "t": 448.8,
+      "end": 468.9,
+      "text": "there's also a bit more uncertainty as to whether co-pilot will interpret uh the input correctly because you could write anything so consider really if there's an opportunity to save a few clicks by using structure data if you have it now what we see here on screen now is an example of structured data"
+    },
+    {
+      "t": 468.9,
+      "end": 489.5,
+      "text": "for the marketing text feature we have most of the data here already you have the the the name of the item you have the item attributes all all of these things make up all the input that we need combined with the options below we can set the tone and format and emphasis which is enough for us to feed the prompt"
+    },
+    {
+      "t": 489.5,
+      "end": 510,
+      "text": "so what happens in in reality is that you can actually in this case even skip if you wanted to in some cases skip the input mode that's up to you to decide for each of of of your features now you have control over this input section um think of it as a place where you can add page parts and Design"
+    },
+    {
+      "t": 510,
+      "end": 530.3,
+      "text": "what kind of elements do we want to have here what is it that the user should be able to select from uh if not free text what kind of fields do they want to uh manipulate in order to feed the prompt with input then as we enter the generating mode this is really where um copilot does its magic and and and"
+    },
+    {
+      "t": 530.3,
+      "end": 550.7,
+      "text": "interprets The Prompt and tries to produce um uh a meaningful output then we enter the output mode and in this example here on screen this is unstructured data this is this is free text as the marketing text and on this screen you have the opportunity to to manipulate the output in various ways"
+    },
+    {
+      "t": 550.7,
+      "end": 571.1,
+      "text": "um again you you take control over this output space whether or not you want to show uh like the output as as unstructured data as here or if you want to to show it as structured with field values as we saw in the U demo with the sales line suggestions as before you have various options to to do things on this on this"
+    },
+    {
+      "t": 571.1,
+      "end": 591.2,
+      "text": "uh page one is to Carousel between the versions of output so if if you've iterated through this um the let's say the generation mode you have the option to to cycle through the outputs to select the one that you think was the best match for your"
+    },
+    {
+      "t": 591.2,
+      "end": 604.1,
+      "text": "scenario and you also have the option to uh go back to the input prompt by clicking the title of the page here that will take you back to the the input mode"
+    },
+    {
+      "t": 604.1,
+      "end": 624.2,
+      "text": "basically also here at the bottom of the output uh page you have the option to regenerate the AI output simply just retry and see what does it come up with if if you run it again you could of course also discard the output if you just want to you know go back to scratch so even before you start the feature this will close the"
+    },
+    {
+      "t": 624.2,
+      "end": 641.1,
+      "text": "prompt dialogue and of course you can accept you can um accept it if you find it use useful and here you have the option to decide what kind of options should be there for um uh applying different"
+    },
+    {
+      "t": 641.1,
+      "end": 661.2,
+      "text": "variations of of input so that you get a different output in this case of the marketing text feature you have tone and format and emphasis so with that let's just go and see another demo where we start with structured data and end also with structured data so here I'm on a purchase order and"
+    },
+    {
+      "t": 661.2,
+      "end": 681.3,
+      "text": "I have an opportunity now to use copilot to map the lines from the e doent that was matched to this purchase order with the lines from this purchase order so I hit the map eent action and what we see here is that we actually skip the input mode because we had all the input we needed no need to directag the user through an input stage so we could go directly to"
+    },
+    {
+      "t": 681.3,
+      "end": 701.4,
+      "text": "the generating mode and then after that directly to the output mode and you see here that based on the inputs we were able to create some structured outputs in this case we matched uh purchase order lines using co-pilot so this was just an example of we came from some structured input no need to involve"
+    },
+    {
+      "t": 701.4,
+      "end": 721.6,
+      "text": "the user in the input stage we skip that part go directly to generating and then to the output so it's a it's a good thing for you to consider your scenario do I have structured data or not do I need to involve the user is there anything that they can decide in that input process in terms of um things that will"
+    },
+    {
+      "t": 721.6,
+      "end": 741.7,
+      "text": "impact the output here it's much structured no need to involve the user after seeing these demos yakob can you take us through um the more general concepts with air experiences in in businesses and and uh and make us wiser on that thanks s great demos and as you uh mentioned we will take"
+    },
+    {
+      "t": 741.7,
+      "end": 761.8,
+      "text": "now a a more high level view on the AI experiences and how to design for them and if you want to die into the demos that s showed in more detail there are other sessions in the launch event here that you can uh click into but let let's zoom out a moment uh and talk about"
+    },
+    {
+      "t": 761.8,
+      "end": 781.9,
+      "text": "AI experiences because as as compelling these scenarios are it is a novel um type of experience and we have found in our research that it takes a little getting used to uh both for uh people uh working with this and designing for it"
+    },
+    {
+      "t": 781.9,
+      "end": 799.9,
+      "text": "so uh having what we call new mental models for AI is important and part of that is understanding what can AI do what is it good for and what uh uh is still sort of primarily uh the humans uh problem solving skills"
+    },
+    {
+      "t": 799.9,
+      "end": 820,
+      "text": "required and what we have found when we have interviewed uh business users is that of course there are experts in their domain of of business uh and they are very knowledgeable about what they do and and why um but most business users are not AI experts it's not necessarily clear what AI um is"
+    },
+    {
+      "t": 820,
+      "end": 840.4,
+      "text": "best for at this point in time and lastly building trust using AI uh requires that the users are comfortable with uh the limitations of AI and and really um diving into uh the AI advantages require that that uh trust"
+    },
+    {
+      "t": 840.4,
+      "end": 861,
+      "text": "to be in place so how can we support that trust and and that's something that we have spent a good deal of time on understanding how can AI be integrated so that it supports business users in a great way so I'm listing here some of the uh many tasks that AI can uh support users in and"
+    },
+    {
+      "t": 861,
+      "end": 881.2,
+      "text": "again following the news and the hype around AI um these are just at at lmse of what people have uh proposed as great ways to support users with AI simplify solving task get quicker insights understand relationships and so on so a very broad pallette of ways that"
+    },
+    {
+      "t": 881.2,
+      "end": 901.5,
+      "text": "AI can uh help the business users but we can also bucket these uh in a way and see well uh at the end of the day maybe this is about two things primarily AI can help taking action to do something more F faster or more efficient and a I can help gain insights uh"
+    },
+    {
+      "t": 901.5,
+      "end": 921.6,
+      "text": "get to knowledge around the the domain of business in ways that haven't been a possible before as easily so let's look at the action part here the user expresses a desire has an attention you saw CERN instead of manually filling in the sales line he just typed what items he wanted and AI"
+    },
+    {
+      "t": 921.6,
+      "end": 940.8,
+      "text": "was quickly able to pull those lines and create them into the uh uh to the sales orderer of course with one line uh the gain is maybe not so great but you can easily imagine uh scenarios where you want to fill in 20 or 25 lines anything that can speed up that process is is going to help"
+    },
+    {
+      "t": 940.8,
+      "end": 961.4,
+      "text": "greatly next up um getting Insight knowing when to do what uh knowing uh uh what you you need to know to be proactive in your business is also a great uh potential of AI now and and especially going forward so how does AI know what to suggest"
+    },
+    {
+      "t": 961.4,
+      "end": 981.5,
+      "text": "what to take action about and again a a glimpse into some of the data context that is available for an AI engine such as co-pilot uh are uh mentioned here so in business Central uh business Central knows what page is on the screen at"
+    },
+    {
+      "t": 981.5,
+      "end": 1001.8,
+      "text": "a given point in time so it knows what the user is looking at in business Central uh it knows what the user have been doing in business Central in terms terms of what orders has been touched created and so on co-pilot also has access to data uh and and it knows what the user is is job roles are typically and it knows how data is changing so what is trending"
+    },
+    {
+      "t": 1001.8,
+      "end": 1022.1,
+      "text": "so all these data sources are potentially input to co-pilot in terms of suggesting and helping the user uh be productive now we also need to talk about the situation where things can go wrong because there are as you've also I'm sure heard about is that AI is"
+    },
+    {
+      "t": 1022.1,
+      "end": 1042.2,
+      "text": "not necessarily making the right uh um guesses or predictions all the time so you can get uh ungrounded information from Ai and this is just a fact of how AI works now and probably also going forward so the wisdom here is that instead"
+    },
+    {
+      "t": 1042.2,
+      "end": 1062.5,
+      "text": "of trying to rule out all um wrongdoings of AI we need to bracket it we need to control Ro we need to understand and put up safeguards because AI will always be uh failing from time to time so the the the research here that I'm U quoting is that um"
+    },
+    {
+      "t": 1062.5,
+      "end": 1083,
+      "text": "no AI will be ever perfect because no model can interact with the physical world in a complete way so human needs to be in the loop as it Set uh to uh control and understand what AI is doing uh so we we can get the benefits without uh the risk"
+    },
+    {
+      "t": 1083,
+      "end": 1103.2,
+      "text": "so how do we do that well how to manage generative AI risks so there again back to uh the previous point there are two ways we need to manage risk there is what we can call detrimental actions um AI may suggest actions which are undesirable so"
+    },
+    {
+      "t": 1103.2,
+      "end": 1123.7,
+      "text": "taking a very simple example it could have picked the wrong item when C asked for um a certain item it could have found another item for him so that is obviously uh undesirable but with very little side effects however we need to deal with these situations there's also what we"
+    },
+    {
+      "t": 1123.7,
+      "end": 1144.1,
+      "text": "under one called the ungrounded reasoning meaning that the AI is suggesting an Insight that happens to be uh Incorrect and it can be incorrect for a number of different ways that we won't go into here but we will talk more about how how we deal with these situations in terms of actions the main"
+    },
+    {
+      "t": 1144.1,
+      "end": 1164.4,
+      "text": "point around uh dealing with action is that we need to provide users a way to either undo or preview what the AI is suggesting of an action so now we are talking about what we call the responsible AI principles and a very important principle is that the system"
+    },
+    {
+      "t": 1164.4,
+      "end": 1184.6,
+      "text": "in this case business Central must always provide a preview or a way to completely undo what AI suggested the second Mantra is that when a business Central is showing some generated information or inside we will always Mark that information and when possible"
+    },
+    {
+      "t": 1184.6,
+      "end": 1199,
+      "text": "attach a confidence level to the information so the user is informed that this piece of information is generated by Ai and secondly in situation where it's possible provide a confidence level for that piece of information"
+    },
+    {
+      "t": 1199,
+      "end": 1219,
+      "text": "so let's look at uh how this turns plays out in practice so you just saw cern's example with a sales order and what he did here was he had a s situation that was a document and he asked for some lines to be added and AI generated those lines and came with a preview of the"
+    },
+    {
+      "t": 1219,
+      "end": 1239.2,
+      "text": "suggested lines in what we call the prompt dialogue then that that we will talk more about in a minute the user can in this particular case choose to keep it and when the user keeps it those lines are added to the uh sales order so if the user had pressed the discard button then those lines"
+    },
+    {
+      "t": 1239.2,
+      "end": 1256.9,
+      "text": "would be discarded and the user would be back at the sales order without any lines added so in summary responsible AI means provider preview or undo uh and when the user decides to undo discard what the user"
+    },
+    {
+      "t": 1256.9,
+      "end": 1277.2,
+      "text": "generated so a lot of the interaction and experience around business Central revolves around the prompt dialogue so in this next section we will talk a bit about the prompt dialogue and how to design it and the features it has at the moment let me add that um in terms of co-pilot"
+    },
+    {
+      "t": 1277.2,
+      "end": 1297.2,
+      "text": "experiences I'm sure a lot of you might uh be looking for information about how to extend chat the co-pilot chat in business Central that is not part of this session and currently there is no uh partner extensibility for the chat in uh business Central what is uh the main vehicle for"
+    },
+    {
+      "t": 1297.2,
+      "end": 1317.2,
+      "text": "AI experiences in business Central at the moment is the promt dialogue so uh that is exactly what we will go through next so as son mentioned and in the demo around the eents and the matching of sales lines um s mentioned that the prompt input I mean the instruction to the generation step is actually"
+    },
+    {
+      "t": 1317.2,
+      "end": 1337.4,
+      "text": "optional and that means that very often the context for what AI is going to generate is already present in business Central in the case with matching lines those lines have already been added on the E document and on the purchase uh uh orders so it's all a matter of matching up the lines and since that should happen according"
+    },
+    {
+      "t": 1337.4,
+      "end": 1349.2,
+      "text": "to a fairly well- defined set of rules there's no need to let the user provide any prompt input for that particular operation we can just go straight to the generation step"
+    },
+    {
+      "t": 1349.2,
+      "end": 1369.4,
+      "text": "so the next step the generation steps is certainly a required step the generate step is where the large language model is contacted and it is coming back with some uh uh data that is then bound into business Central in a in a way that matching the scenario and the content output"
+    },
+    {
+      "t": 1369.4,
+      "end": 1380.6,
+      "text": "is shown to the user so in the content output stage that is where the user will review what has been generated and they will decide to either keep or discard that particular"
+    },
+    {
+      "t": 1380.6,
+      "end": 1394.7,
+      "text": "input if the user presses keep it of course we are moving data from the temporary table usually where it's stored to the actual table where that data um uh will be"
+    },
+    {
+      "t": 1394.7,
+      "end": 1414.9,
+      "text": "persisted so how does that look in at the AL level layer um this is not a developer or engineering session but we will just touch briefly on the AL structures because it's useful to know at the conceptual basis is what is a promt dialogue actually uh uh containing um and"
+    },
+    {
+      "t": 1414.9,
+      "end": 1435.2,
+      "text": "the promt dialogue is going to be with us from now and going forward and and it will complement the other page types we have in business Central such as standard dialogue confirmation dialogue cards and Page documents and so on so this is a new page type that has been developed for business Central exactly to"
+    },
+    {
+      "t": 1435.2,
+      "end": 1455.4,
+      "text": "uh encapsulate and and hold these experiences related to AI so the page type as it says here is prom diog prom dialog and what it has is a few sets of new areas so those of you who are uh knowing a will notice that the prompt area"
+    },
+    {
+      "t": 1455.4,
+      "end": 1475.7,
+      "text": "and the prompt options area are also new areas in a page the content area has been there uh all the time uh and it's also used with other page types so this is where concretely to s uh explanation the input is uh uh defined in the prompt part"
+    },
+    {
+      "t": 1475.7,
+      "end": 1496.2,
+      "text": "so it can be free text to the for the unstructured input it can be a um list or it can be an a control of some sort if if it's related to a structured input The Prompt option section is where you are putting fields that are"
+    },
+    {
+      "t": 1496.2,
+      "end": 1516.2,
+      "text": "you could say parameters to The Prompt so you could choose how for example the tone of voice uh or the length or some common ways of adjusting the output can go there as prompt options these will have to be option Fields so no no other data types than option"
+    },
+    {
+      "t": 1516.2,
+      "end": 1526.2,
+      "text": "fields are allowed in the prompt options let me say here that that the user"
+    },
+    {
+      "t": 1526.2,
+      "end": 1546.2,
+      "text": "um can use prompt options but it's a good practice never to require the user to choose the prompt options what can be required is the prompt but the prompt options should never be required and and we have found in our research that actually sometimes users don't even notice that there are options so it's a"
+    },
+    {
+      "t": 1546.2,
+      "end": 1561.8,
+      "text": "good practice not to assume that the user is going to tweak the options uh in a given case simply user could default so so it it doesn't matter too much if the user don't knows it it they can just go back and and maybe Discover it"
+    },
+    {
+      "t": 1561.8,
+      "end": 1582.5,
+      "text": "later next up in the prompt dialogue is the are the the system actions so most importantly the generate system action is the code that will be run when the user hits generate in the prom dialogue and maybe needless to say um the system action okay and and cancel"
+    },
+    {
+      "t": 1582.5,
+      "end": 1603.3,
+      "text": "will be called when the user either decides to uh discard or keep the output so for the AL developer they are responsible for providing the AL code that make uh these system actions actually provide the experience that the user is"
+    },
+    {
+      "t": 1603.3,
+      "end": 1619,
+      "text": "expecting and what are they expecting well it may be redundant but let me just state it again it's very very important that when you are developing a new prom dialogue that you obey to this principle of uh undoing"
+    },
+    {
+      "t": 1619,
+      "end": 1639,
+      "text": "uh so that the user can safely generate something in AI regret and hit discard and then all traces of that needs to go away so it's a good practice not to put any data from the generated output anywhere but in the temporary table supporting the prompt dialogue because that's really the only way"
+    },
+    {
+      "t": 1639,
+      "end": 1653.4,
+      "text": "that you can secure that the user can discard and things are gone so don't make any side effects of the generated output because that way you are uh not allowing the user to roll"
+    },
+    {
+      "t": 1653.4,
+      "end": 1674,
+      "text": "back continuing on the promp dialogue um the next uh thing you saw also in s's example was that there is a small instructional text that the user can that helps the user understand what kind of prompt is expected in this situation so in this particular case it was describe the lines you'd like to create and co-pilot will get you started"
+    },
+    {
+      "t": 1674,
+      "end": 1687.6,
+      "text": "that is what we call sometimes it's called the the ghost text or the placeholder text text whatever you call it uh its purpose is to give an instruction to the user about what they should type"
+    },
+    {
+      "t": 1687.6,
+      "end": 1707.7,
+      "text": "here next feature of the prompt dialogue is known as The Prompt guide there was an example in in a sence demo right away but you have probably seen the principles in in other Microsoft pro programs uh the icon here sometimes Al called called the Spellbook will allow the user to get access"
+    },
+    {
+      "t": 1707.7,
+      "end": 1728.6,
+      "text": "to some suggestions for what they can use of prompt so they simply pick from a menu maybe you group The prompts like these are related to copying these are related to um uh adding and so on and then for each group there will be relevant prompt um"
+    },
+    {
+      "t": 1728.6,
+      "end": 1747.7,
+      "text": "uh so the user can get a jump start on their own uh prompting and we have done that because prompting is not going to feel natural to every user so this is an important way of giving them some templates to work from when they formulate their own"
+    },
+    {
+      "t": 1747.7,
+      "end": 1768.4,
+      "text": "prompts all right now let's say you've built the promp dialoges and now you want to allow the user to trigger those prompt dialogues from your application so what I'll explain here are the few of the options that are now available to place prompt actions uh that will trigger prompt dialogues"
+    },
+    {
+      "t": 1768.4,
+      "end": 1786.8,
+      "text": "into the business Central UI so most prominently um we have actually placed it front and center of all list places so there is now a thing called the co-pilot menu that is available to prompt actions on every"
+    },
+    {
+      "t": 1786.8,
+      "end": 1800.4,
+      "text": "list it is even possible now to have a uh the cold P pilot menu be a uh element that is sort of overlaid on the page for maximum"
+    },
+    {
+      "t": 1800.4,
+      "end": 1813.8,
+      "text": "discoverability so this will let you put uh prompt actions in a very prominent place so that users can easily get started on invoking uh your great co-pilot"
+    },
+    {
+      "t": 1813.8,
+      "end": 1833.9,
+      "text": "actions when the menu is called up it will show all the co-pilot actions defined in that page and you will also notice that some of those prompt actions are defined by the app others are defined by the system so also explained in another uh launch session"
+    },
+    {
+      "t": 1833.9,
+      "end": 1854,
+      "text": "here are the analysis assists analysis assist is a prompt action that is defined by the system and also available on all list Pages the menu inside the page has the same choices as the action bar plus one as you can see here the lower"
+    },
+    {
+      "t": 1854,
+      "end": 1867.4,
+      "text": "one is called hide for those users who don't feel they want a floating co-pilot menu they can decide to hide that and then it is only available in the action"
+    },
+    {
+      "t": 1867.4,
+      "end": 1887.5,
+      "text": "bar the floating co-pilot menu is clever because it allows oneclick access to the most the topmost action of those in the page here so you can see how in this particular case reconcile gets a very very prominent positioning for uh that page and"
+    },
+    {
+      "t": 1887.5,
+      "end": 1905.7,
+      "text": "the use user is likely to uh discover that as the one of the first things when they get into the list so use that space wisely for an action that actually is supposed to be very prominent um so uh we are making good use of of that"
+    },
+    {
+      "t": 1905.7,
+      "end": 1926,
+      "text": "prominence next up uh in terms of prompt actions are the dialogue the standard dialogue also has a capability of providing a prompt action so that's a very a a brilliant way of having a co-pilot actions appearing in the context of a dialogue and you've probably"
+    },
+    {
+      "t": 1926,
+      "end": 1936.4,
+      "text": "seen in relation to the uh marketing text feature that that particular action is available when you are writing a marketing"
+    },
+    {
+      "t": 1936.4,
+      "end": 1956.5,
+      "text": "text we are getting to the uh few last slides around prom dialoges and actions um we don't have any co-pilot menu on the entity page yet so cards and documents don't have that capability that lists have yet um but the sub Pages"
+    },
+    {
+      "t": 1956.5,
+      "end": 1970.1,
+      "text": "have so you can put a co-pilot action into a sub page and that is exactly what we were using uh in the demo s showed where the suggest sales lines uh has been put"
+    },
+    {
+      "t": 1970.1,
+      "end": 1990.4,
+      "text": "and um in situations where you want the user to be able to discover the prompt actions you can either use the menu uh as uh with a with a co-pilot icon or you can use the existing action bar and place your actions there uh and we recommend this so-called Sparkle"
+    },
+    {
+      "t": 1990.4,
+      "end": 2010.4,
+      "text": "action to represent those actions that trigger some kind of AI all right over to you son about the prom dialogue thank you so much yob um this was really great insight about how to how to structure and how to use the prompt dialogue so call to action for"
+    },
+    {
+      "t": 2010.4,
+      "end": 2028.1,
+      "text": "you is now to get familiar with the prompt dialogue um spin up a trial of of business Central and and start playing around with it um also uh try out these features in in Al and and and and and and start building your your first AI features"
+    },
+    {
+      "t": 2028.1,
+      "end": 2048.3,
+      "text": "um but importantly as you've now seen throughout this session is consider the best use of the prompt dialogue for every scenario meaning what type of input do you have what kind of output do you expect to produce with it structured versus unstructured or in between so um one way to get started is to uh to grab"
+    },
+    {
+      "t": 2048.3,
+      "end": 2068.4,
+      "text": "a demo environment from what we call CDX which is the partner uh demo space where you can sign in with your partner account and and get a tenant um we suggest that you add a new profile in in in Microsoft Edge that allows you to to store the credentials for this demo environment so you have easy access to that and then sign up for a business Cal business"
+    },
+    {
+      "t": 2068.4,
+      "end": 2088.4,
+      "text": "Central trial um on that on that environment um if you can find co-pilot uh here are some things that you can check so first of all you can check the co-pilot and AI capabilities page you could simply just search for that in the tell me search um and um check that and make sure"
+    },
+    {
+      "t": 2088.4,
+      "end": 2108.8,
+      "text": "that the features are active here and there are some other things you see here that that that you can check uh for example right now we only support English language so make sure that English is selected as your language and also this is from what we call version 24 uh meaning 2024"
+    },
+    {
+      "t": 2108.8,
+      "end": 2128.9,
+      "text": "wave 1 there are some other great launch event sessions that you should check out that goes into more details with some of the demos we've just seen so for example these two demos with uh creating sales line suggestions with co-pilot and E invoice matching with co-pilot check those sessions out they go into much more details about how these features work and"
+    },
+    {
+      "t": 2128.9,
+      "end": 2148.9,
+      "text": "to which extent you can use them also um what yakob mentioned there's the AI powered analysis with co-pilot that's a great session as well well we will show you how to use the analysis mode and generate analysis tabs with with co-pilot by describing what you want to see and there's of course"
+    },
+    {
+      "t": 2148.9,
+      "end": 2163.1,
+      "text": "a more technical session that is extending co-pilot using a code that we'll go into more details with what yakob just showed in terms of how to how to structure your Al code and and um and make it uh Best in Class for creating Copa"
+    },
+    {
+      "t": 2163.1,
+      "end": 2183.9,
+      "text": "features there's also a lot of great content out there already so uh take a screenshot of this uh of this screen here I won't go through all of them but here you can get access to all the information both Technical and non-technical so that you can have discussions in your teams about what kind of co-pilot features do we want to build for our"
+    },
+    {
+      "t": 2183.9,
+      "end": 2196.8,
+      "text": "customers and to on top of that on the more General resources for business Central here's also a lot of great stuff for you uh if I should point to just one of these is the bottom one that says aka."
+    },
+    {
+      "t": 2196.8,
+      "end": 2216.5,
+      "text": "msbz all that basically links to all the rest so if you you know Rec you know internalize Just One Source from this it's it's it's that one so with that we would like to thank you for watching this business Central launch event session and hope to see you"
+    },
+    {
+      "t": 2216.5,
+      "end": 2218,
+      "text": "again"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.15,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.16,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 5828
+}

@@ -1,0 +1,643 @@
+{
+  "video_id": "z1H6nQCEIeY",
+  "item_id": "video/yt-microsoft/z1H6nQCEIeY",
+  "title": "Introducing: E-Invoice Matching with Copilot (2024 release wave 1)",
+  "duration_s": 1387,
+  "systems": [
+    "copilot",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "e-invoice matching",
+    "copilot",
+    "purchase orders",
+    "electronic documents",
+    "responsible ai",
+    "semantic matching",
+    "vendor invoices",
+    "document mapping",
+    "cost tolerance",
+    "pricing variance",
+    "manual matching",
+    "text similarity"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Responsible AI Principles",
+      "t_start": 0,
+      "t_end": 181.8
+    },
+    {
+      "title": "The Challenge: E-Invoice Matching Without Copilot",
+      "t_start": 181.8,
+      "t_end": 364
+    },
+    {
+      "title": "Solution: Manual Mapping Page and Copilot Acceleration",
+      "t_start": 364,
+      "t_end": 517.6
+    },
+    {
+      "title": "Matching Logic and Control Features",
+      "t_start": 517.6,
+      "t_end": 596.5
+    },
+    {
+      "title": "Process Flow and System Behavior",
+      "t_start": 596.5,
+      "t_end": 697.3
+    },
+    {
+      "title": "Live Demo: E-Invoice Matching Workflow Part 1",
+      "t_start": 697.3,
+      "t_end": 799
+    },
+    {
+      "title": "Auto-matching and Copilot Proposal Workflow",
+      "t_start": 799,
+      "t_end": 880.2
+    },
+    {
+      "title": "Demonstration of E-Invoice Matching on Purchase Orders",
+      "t_start": 880.2,
+      "t_end": 960.8
+    },
+    {
+      "title": "Cost Tolerance and Price Difference Settings",
+      "t_start": 960.8,
+      "t_end": 1017.8
+    },
+    {
+      "title": "Matching Indicators and Real-World Business Value",
+      "t_start": 1017.8,
+      "t_end": 1099
+    },
+    {
+      "title": "Testing and Enabling E-Invoice Matching in CDX Environment",
+      "t_start": 1099,
+      "t_end": 1181.1
+    },
+    {
+      "title": "Related Copilot Features and Release Scope",
+      "t_start": 1181.1,
+      "t_end": 1262.4
+    },
+    {
+      "title": "Resources, Community Engagement, Feedback and Closing Remarks",
+      "t_start": 1262.4,
+      "t_end": 1387
+    }
+  ],
+  "features": [
+    {
+      "name": "E-Invoice Matching with Copilot",
+      "description": "A Copilot feature that automatically matches lines between electronic invoices and purchase orders using semantic and text-based matching, supporting one-to-one, one-to-many, and many-to-one scenarios with text similarity threshold and LLM assistance.",
+      "status": "preview",
+      "status_evidence_t": 58.9,
+      "status_evidence_quote": "e invoice matching with co-pilot is in public preview that me this is still not General available",
+      "status_evidence_verified": true,
+      "t_start": 58.9,
+      "t_end": 880.2,
+      "is_demoed": true,
+      "caveats": [
+        "Available only in Business Central Online, not on-premises",
+        "Only in English languages officially supported",
+        "Not available in Canada due to regulatory issues",
+        "Rolling out starting with update 24.0",
+        "Requires copilot capability to be enabled",
+        "Manual review may be needed for out-of-range cost differences"
+      ],
+      "tags": [
+        "e-invoice",
+        "copilot",
+        "matching",
+        "electronic documents",
+        "purchase orders",
+        "automation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "E-Document Manual Mapping Page",
+      "description": "A new page that allows users to manually map lines between electronic documents and purchase orders, supporting one-to-one and one-to-many mappings before Copilot assistance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 364,
+      "t_end": 425.2,
+      "is_demoed": true,
+      "caveats": [
+        "Manual mapping can be time-consuming with many lines",
+        "Still effective for simple scenarios with few lines"
+      ],
+      "tags": [
+        "mapping",
+        "manual",
+        "e-document",
+        "user interface"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Automatic 80% Text Similarity Matching",
+      "description": "System automatically matches lines when description similarity is 80% or more without invoking the LLM, reducing unnecessary AI model calls.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 517.6,
+      "t_end": 537.9,
+      "is_demoed": true,
+      "caveats": [
+        "Only applies to text description similarity",
+        "Different descriptions may require Copilot intervention"
+      ],
+      "tags": [
+        "text matching",
+        "similarity",
+        "automation",
+        "efficiency"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Price Validation Control",
+      "description": "By default, matched prices must be 100% identical, but users can configure price tolerance settings for each item or scenario as needed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 558.2,
+      "t_end": 576.2,
+      "is_demoed": false,
+      "caveats": [
+        "Default strict price matching may require manual override for discounts",
+        "Setup required for price tolerance per item"
+      ],
+      "tags": [
+        "price validation",
+        "control",
+        "matching rules",
+        "configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Received Quantity Control",
+      "description": "System prevents matching more on an invoice than has been received to avoid billing errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 537.9,
+      "t_end": 558.2,
+      "is_demoed": false,
+      "caveats": [
+        "Control applies to prevent over-invoicing on received quantities"
+      ],
+      "tags": [
+        "quantity",
+        "control",
+        "validation",
+        "purchase orders"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Role Center Queue Indicators",
+      "description": "Extended Role Centers with additional cues showing purchase order matching status to help users easily identify orders that need manual mapping.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 576.2,
+      "t_end": 596.5,
+      "is_demoed": true,
+      "caveats": [
+        "Queue indicators only show status, do not perform matching"
+      ],
+      "tags": [
+        "role center",
+        "ui",
+        "queue",
+        "status"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Automatic Purchase Invoice Creation from E-Documents",
+      "description": "System automatically creates purchase invoices from electronic documents when vendor is configured for invoice-only workflow, using general ledger mapping and item references.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 596.5,
+      "t_end": 657.1,
+      "is_demoed": false,
+      "caveats": [
+        "Requires vendor to be configured for invoice-only processing",
+        "Limited to vendors without complex purchase order scenarios"
+      ],
+      "tags": [
+        "purchase invoice",
+        "automation",
+        "e-document",
+        "vendor configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Automatic Purchase Order Creation from E-Documents",
+      "description": "When vendor is configured for purchase order workflow and no active orders exist, system automatically creates a new purchase order from the electronic invoice.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 637.1,
+      "t_end": 657.1,
+      "is_demoed": false,
+      "caveats": [
+        "Only creates new orders when none exist for vendor",
+        "Matches against existing orders when available"
+      ],
+      "tags": [
+        "purchase order",
+        "automation",
+        "e-document",
+        "creation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Auto-population of Vendor and Document Details",
+      "description": "After matching e-invoice to purchase order and accepting Copilot proposal, the vendor invoice number and document date are automatically populated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 880.2,
+      "t_end": 900.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "automation",
+        "vendor-data",
+        "e-invoice"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Cost Tolerance Configuration",
+      "description": "Allows users to set an acceptable cost difference percentage in Purchase and Payables setup so Copilot can accept price variations instead of requiring exact matches.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 980.9,
+      "t_end": 1017.8,
+      "is_demoed": true,
+      "caveats": [
+        "Must be configured in Purchase and Payables setup"
+      ],
+      "tags": [
+        "cost-tolerance",
+        "pricing",
+        "configuration"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Matching Status Color Indicators",
+      "description": "Visual color coding shows the match quality between e-invoice and purchase order line prices: green for 100% match, yellow for within acceptable range, red for outside range.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1017.8,
+      "t_end": 1058,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "visual-indicators",
+        "matching-status",
+        "ui"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Discard and Manual Matching Fallback",
+      "description": "Users can discard a Copilot matching proposal and return to manual matching mode if they do not agree with the suggested matches.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 940.6,
+      "t_end": 980.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "manual-matching",
+        "fallback",
+        "user-control"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Drill-down View for Matching Details",
+      "description": "Users can expand individual matching proposals to see detailed line information including e-document description, purchase order description, and cost.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 940.6,
+      "t_end": 960.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "detail-view",
+        "transparency",
+        "ui"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Copilot for Sales Line Suggestion",
+      "description": "A separate Copilot feature that suggests sales order lines, available in the same release.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1181.1,
+      "t_end": 1201.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "sales-lines"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI-powered Analyze with Copilot",
+      "description": "A Copilot feature for analysis tasks, available in the same release.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1181.1,
+      "t_end": 1201.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "analysis",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Chat with Copilot",
+      "description": "A general chat interface with Copilot, available in the release.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1181.1,
+      "t_end": 1201.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "chat"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Extend Copilot using AL code",
+      "description": "Partners can extend Copilot functionality using AL code for partner-specific, industry-specific, or local scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1201.4,
+      "t_end": 1242.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "extensibility",
+        "al-development",
+        "copilot"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Manual Document Matching in E-Documents",
+      "description": "The release includes improvements to manual matching for e-documents, available when Copilot cannot be used or as an alternative workflow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1222,
+      "t_end": 1262.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "manual-matching",
+        "e-documents"
+      ],
+      "system": "purchasing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "E-Document Manual Matching",
+      "t": 384.2
+    },
+    {
+      "type": "page",
+      "name": "role center",
+      "t": 576.2
+    },
+    {
+      "type": "page",
+      "name": "auto match lines",
+      "t": 799
+    },
+    {
+      "type": "other",
+      "name": "Purchase and Payables setup",
+      "t": 980.9
+    },
+    {
+      "type": "page",
+      "name": "copilot capability",
+      "t": 1140.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "B abusada",
+      "confidence": "medium"
+    },
+    {
+      "name": "Alexander toic",
+      "confidence": "medium"
+    },
+    {
+      "name": "While",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 58.9,
+      "text": "e invoice matching with co-pilot is in public preview that me this is still not General available",
+      "why_it_matters": "Establishes that this feature is preview, not yet GA, which affects customer adoption and support expectations.",
+      "check": "exact"
+    },
+    {
+      "t": 58.9,
+      "text": "this is available only in the B Center online so no on Prem Solutions it is available in 2024 release way one uh roll",
+      "why_it_matters": "Defines deployment scope and release timeline for customers planning implementation.",
+      "check": "snapped"
+    },
+    {
+      "t": 109.2,
+      "text": "currently this is available uh with standard B Central license both essential premium without any additional cost",
+      "why_it_matters": "Clarifies pricing model - no additional licensing costs for this feature across license tiers.",
+      "check": "exact"
+    },
+    {
+      "t": 141.7,
+      "text": "your data are is your data uh as a customer you will control your data we will not take your data we will not",
+      "why_it_matters": "Addresses data privacy and AI ethics concerns central to Copilot adoption.",
+      "check": "exact"
+    },
+    {
+      "t": 457,
+      "text": "doing manually comparing with co-pilot it was more than 50 times slower slower than you are doing manually",
+      "why_it_matters": "Quantifies performance improvement - Copilot is 50x faster than manual matching, demonstrating significant efficiency gain.",
+      "check": "exact"
+    },
+    {
+      "t": 517.6,
+      "text": "every time if system can find similarity 80 or more per similarity description system will not ask GPT at all",
+      "why_it_matters": "Explains matching algorithm efficiency - describes optimization to reduce unnecessary LLM calls.",
+      "check": "exact"
+    },
+    {
+      "t": 558.2,
+      "text": "price by default must be 100% the same there is no differences but if if you want as a user you can make a",
+      "why_it_matters": "Defines default strict validation rule and flexibility - important for avoiding pricing errors but allows configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 819.8,
+      "text": "if that similarity is around 80% or more then we will automatically match it otherwise we will send it to co-pilot",
+      "why_it_matters": "Establishes the threshold logic for automatic text-based matching vs. semantic matching via Copilot",
+      "check": "exact"
+    },
+    {
+      "t": 839.8,
+      "text": "we also take into account the cost of each items um we also take into account the available quantity uh that need to be",
+      "why_it_matters": "Shows that matching considers multiple business factors beyond line description alone",
+      "check": "exact"
+    },
+    {
+      "t": 880.2,
+      "text": "we already picked the vendor in Voice number and we also updated the document date",
+      "why_it_matters": "Demonstrates automatic population of key vendor invoice metadata after successful matching",
+      "check": "exact"
+    },
+    {
+      "t": 1001,
+      "text": "if we set it to like I don't know 10% then co-pilot will accept anything within the 10% range from the original cost",
+      "why_it_matters": "Shows how users can configure cost tolerance to handle real-world price variations",
+      "check": "exact"
+    },
+    {
+      "t": 1038,
+      "text": "green then we have like 100 match if it's yellow then maybe it's still within the same price range",
+      "why_it_matters": "Explains the visual feedback mechanism for matching quality at a glance",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1140.2,
+      "text": "first check if copilot ni cap capability page if this is a environment switch on so you can use C pilot",
+      "why_it_matters": "Provides troubleshooting guidance for enabling Copilot functionality",
+      "check": "exact"
+    },
+    {
+      "t": 1160.3,
+      "text": "this feature is active because you will see there in a there are more co-pilots check if e document e invoice is matching is",
+      "why_it_matters": "Shows that e-invoice matching must be explicitly activated in the feature list",
+      "check": "exact"
+    },
+    {
+      "t": 1181.1,
+      "text": "this is enabl only from version 24 so that's it from our side",
+      "why_it_matters": "Establishes version requirement for the feature (version 24 and later)",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 58.9,
+      "kind": "preview",
+      "text": "e invoice matching with co-pilot is in public preview that me this is still not General available"
+    },
+    {
+      "t": 78.9,
+      "kind": "not-in-this-release",
+      "text": "it will be available in all regions globally except Canada because of some regulatory um issues"
+    },
+    {
+      "t": 88.9,
+      "kind": "subject-to-change",
+      "text": "currently this is available in all type of uh English languages it can be tried you can try using in other languages but officially this is uh something what we support we support officially English language"
+    },
+    {
+      "t": 1140.2,
+      "kind": "other",
+      "text": "first check if copilot ni cap capability page if this is a environment switch on so you can use C pilot"
+    },
+    {
+      "t": 1160.3,
+      "kind": "other",
+      "text": "this feature is active because you will see there in a there are more co-pilots check if e document e invoice is matching is active or not if this is not just activate"
+    },
+    {
+      "t": 1181.1,
+      "kind": "other",
+      "text": "this is enabl only from version 24"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 15,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 17
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027645000000000003
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028433
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0453734
+    }
+  ]
+}

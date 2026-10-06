@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-use-non-deductible-vat.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-non-deductible-vat",
+  "title": "Use non-deductible VAT",
+  "blob": "c90a829e9c4cfdf4acfae10202812bb73327b975",
+  "summary": "Use non-deductible VAT describes how to create purchase invoices and orders with non-deductible VAT and adjust VAT amounts before posting. Use this when handling VAT that cannot be deducted from tax obligations.",
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "non-deductible vat",
+    "vat setup",
+    "purchase invoice",
+    "purchase order",
+    "vat adjustment"
+  ],
+  "objects": [],
+  "features": [
+    "Non-Deductible VAT Base",
+    "Non-Deductible VAT Amount",
+    "Non-Deductible VAT %",
+    "VAT adjustment",
+    "VAT Setup page"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003787,
+      "pages_in_call": 8
+    }
+  ]
+}

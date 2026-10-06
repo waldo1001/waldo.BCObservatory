@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together",
+  "title": "Sell Assemble-to-Order Items and Inventory Items Together",
+  "blob": "766f68de397b51e0dd320aee6c90916e8676d502",
+  "summary": "Sell Assemble-to-Order Items and Inventory Items Together explains how to manage sales of assembly items that are set to assemble-to-stock but need partial assemble-to-order fulfillment. Use this when selling items with mixed assembly policies.",
+  "systems": [
+    "assembly",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "assemble-to-order",
+    "assemble-to-stock",
+    "sales order",
+    "assembly policy"
+  ],
+  "objects": [],
+  "features": [
+    "Assembly Policy field",
+    "Qty. to Assemble to Order field",
+    "Bin Code field",
+    "availability check"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003787,
+      "pages_in_call": 8
+    }
+  ]
+}

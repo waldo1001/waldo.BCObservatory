@@ -1,0 +1,668 @@
+{
+  "video_id": "tjHDcjwsOIE",
+  "item_id": "video/yt-microsoft/tjHDcjwsOIE",
+  "title": "What's New: Going Open Source with the New GitHub Repository for Business Central (2024 release w 2)",
+  "duration_s": 1220,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "github repository",
+    "open source",
+    "community contributions",
+    "al-go",
+    "pull requests",
+    "automation",
+    "system application",
+    "build pipeline",
+    "code review",
+    "testing",
+    "ci-cd",
+    "al"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and session overview",
+      "t_start": 0,
+      "t_end": 99.1
+    },
+    {
+      "title": "BC apps repository launch and statistics",
+      "t_start": 99.1,
+      "t_end": 180
+    },
+    {
+      "title": "Repository structure and features",
+      "t_start": 180,
+      "t_end": 261
+    },
+    {
+      "title": "Automation processes in BC apps",
+      "t_start": 261,
+      "t_end": 316.8
+    },
+    {
+      "title": "Contribution process: from idea to approval",
+      "t_start": 316.8,
+      "t_end": 437.1
+    },
+    {
+      "title": "Setting up development environment and creating pull requests",
+      "t_start": 437.1,
+      "t_end": 511.8
+    },
+    {
+      "title": "Pull request requirements and merge criteria",
+      "t_start": 511.8,
+      "t_end": 670
+    },
+    {
+      "title": "Pull request build phases and testing",
+      "t_start": 670,
+      "t_end": 791.3
+    },
+    {
+      "title": "Debugging and test failure analysis",
+      "t_start": 791.3,
+      "t_end": 995.1
+    },
+    {
+      "title": "Contribution checklist and getting help",
+      "t_start": 995.1,
+      "t_end": 1070.5
+    },
+    {
+      "title": "Key takeaways on open-source development",
+      "t_start": 1070.5,
+      "t_end": 1151.2
+    },
+    {
+      "title": "Resources and next steps",
+      "t_start": 1151.2,
+      "t_end": 1220
+    }
+  ],
+  "features": [
+    {
+      "name": "BC apps GitHub repository",
+      "description": "A GitHub repository hosting source code for Microsoft-developed applications including system application, business foundation, and developer tools like test runner and performance toolkit. Launched in November 2023.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 99.1,
+      "t_end": 159.6,
+      "is_demoed": false,
+      "caveats": [
+        "Only hosts Microsoft-developed applications, not for reporting product defects with customer impact"
+      ],
+      "tags": [
+        "github",
+        "open source",
+        "collaboration",
+        "community"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Community contribution to BC 240",
+      "description": "Community contributors made pull requests to version 240, with 27 community pull requests submitted and 21 merged into the release.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 99.1,
+      "t_end": 139.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "community",
+        "contributions",
+        "version 240"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL-Go for GitHub automation",
+      "description": "Microsoft's AL-Go product used as the backbone for DevOps to run builds and test applications in the BC apps repository.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 159.6,
+      "t_end": 180,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al-go",
+        "devops",
+        "automation",
+        "ci-cd"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "BC artifact version automation",
+      "description": "Automated pull requests that update the BC artifact version in AL-Go settings to ensure builds run against concrete BC artifact versions and development cycles are not broken.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 261,
+      "t_end": 296.8,
+      "is_demoed": false,
+      "caveats": [
+        "These are automated pull requests tagged with automation tag requiring no action from users"
+      ],
+      "tags": [
+        "automation",
+        "artifact version",
+        "ci-cd"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "App baselines version automation",
+      "description": "Automated updates to app baselines package version used for compiling apps and ensuring no new breaking changes are introduced.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 296.8,
+      "t_end": 316.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "automation",
+        "baselines",
+        "breaking changes"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Translation package version automation",
+      "description": "Automated updates to translation package versions to ensure translations and apps remain compatible.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 296.8,
+      "t_end": 316.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "automation",
+        "translations",
+        "compatibility"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GitHub issue templates for contributions",
+      "description": "Contribution process starts with creating an issue on GitHub using one of two templates: either to implement a BC idea or to fix a bug, which triggers collaboration and approval workflow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 377.3,
+      "t_end": 417.7,
+      "is_demoed": true,
+      "caveats": [
+        "Issues must demonstrate customer non-impact for bug reports"
+      ],
+      "tags": [
+        "contributions",
+        "workflow",
+        "github"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Pull request approval workflow",
+      "description": "Contributors receive an approved label on their GitHub issue before proceeding with development. After creating a fork and developing, contributors open a pull request which requires two approvals from Microsoft engineers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 417.7,
+      "t_end": 612.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires approval from Microsoft maintainers"
+      ],
+      "tags": [
+        "code review",
+        "approvals",
+        "workflow"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Docker-based development environment setup",
+      "description": "BC Container Helper and Docker-based setup documented for local development environments where developers can publish and test apps with scripts for configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 438,
+      "t_end": 471.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "development environment",
+        "docker",
+        "containers"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Linked work items check for pull requests",
+      "description": "Automated check requiring pull requests to link to approved GitHub issues. If no link or unapproved issue, an automated comment explains next steps; linking is resolved by writing hashtag and issue ID.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 612.2,
+      "t_end": 649.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "automation",
+        "work items",
+        "pull requests"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Microsoft internal work items tracking",
+      "description": "Automated check for internal Microsoft accounting to ensure release notes and other documentation are updated when changes are made, no action required from external contributors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 649.8,
+      "t_end": 670,
+      "is_demoed": true,
+      "caveats": [
+        "No action items for external contributors"
+      ],
+      "tags": [
+        "automation",
+        "internal tracking"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Pull request build with three compilation modes",
+      "description": "Build phase compiles system application, business foundation, and apps in three flavors: vanilla mode, with translations, and clean mode using preprocessor directives. All must compile for successful merge.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 670,
+      "t_end": 731.1,
+      "is_demoed": true,
+      "caveats": [
+        "Clean mode may fail independently while vanilla builds succeed"
+      ],
+      "tags": [
+        "build",
+        "compilation",
+        "testing"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Preprocessor directives for clean builds",
+      "description": "Clean build mode uses preprocessor directives like 'clean 23' to exclude specific code snippets from compilation in clean mode while including them in vanilla and translated builds.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 731.1,
+      "t_end": 751.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "preprocessor",
+        "clean mode",
+        "compilation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Pull request testing phase",
+      "description": "Second phase of pull request build tests system application and business foundation in both vanilla mode and clean mode, requiring all tests to pass for merge approval.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 751.2,
+      "t_end": 791.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "build",
+        "quality"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub PR debugging with file changes view",
+      "description": "Pull request files tab shows changes and GitHub reports compilation issues inline, allowing developers to identify and fix errors like missing required function arguments without leaving the browser.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 831.3,
+      "t_end": 871.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "debugging",
+        "compilation",
+        "github"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GitHub test failure summary and stack trace",
+      "description": "AL-Go provides a summary of all tests run, showing which ones failed, and displays stack traces to help developers debug test failures.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 921.1,
+      "t_end": 995.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "github",
+        "testing",
+        "ci-cd",
+        "al-go"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "BC apps repository contribution process",
+      "description": "Community contributions to BC apps require resolved comments, at least two approvers, linked issues, and passing build checks with no compilation or test failures.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 995.1,
+      "t_end": 1036.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "github",
+        "contribution",
+        "open-source",
+        "community"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub contribution help and support",
+      "description": "Contributors can ask for help in pull request comments if they encounter issues during the contribution process, and community members or Microsoft engineers will assist.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1036.2,
+      "t_end": 1056.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "github",
+        "contribution",
+        "support",
+        "community"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Bug reporting in the contribution process",
+      "description": "Contributors can report bugs in the contribution process using an issue template called 'report a bug in the contribution process' to help Microsoft smooth out the workflow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1070.5,
+      "t_end": 1090.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "github",
+        "contribution",
+        "bug-reporting",
+        "issue-template"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL development as Microsoft vision for Business Central",
+      "description": "AL development on GitHub represents Microsoft's vision for Business Central application development, enabling co-development with partners and the community.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1090.7,
+      "t_end": 1111.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "github",
+        "al",
+        "open-source",
+        "vision",
+        "community"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Equal contribution requirements for internal and external developers",
+      "description": "All contributors, whether internal Microsoft developers or external partners, must meet the same requirements for pull requests including number of reviewers and passing checks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1131.2,
+      "t_end": 1151.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "github",
+        "contribution",
+        "open-source",
+        "equality"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Business Foundation application on GitHub",
+      "description": "Business Foundation is highlighted as the first application developed on GitHub from the beginning, demonstrating Microsoft's commitment to open-source development.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1171.4,
+      "t_end": 1212.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "github",
+        "open-source",
+        "business-foundation"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "system application",
+      "t": 139.4
+    },
+    {
+      "type": "other",
+      "name": "business foundation",
+      "t": 159.6
+    },
+    {
+      "type": "other",
+      "name": "test runner",
+      "t": 159.6
+    },
+    {
+      "type": "other",
+      "name": "performance toolkit",
+      "t": 159.6
+    },
+    {
+      "type": "page",
+      "name": "is first login",
+      "t": 851.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Maria Jova",
+      "confidence": "high"
+    },
+    {
+      "name": "Alexander hrop",
+      "confidence": "medium"
+    },
+    {
+      "name": "Alex",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 99.1,
+      "text": "it was actually launched officially in November 2033 just before Direction s since then we have built version 240 in close in collaborations with",
+      "why_it_matters": "Establishes the official launch date and major version milestone reached through community collaboration",
+      "check": "exact"
+    },
+    {
+      "t": 119.3,
+      "text": "27 of these PO requests were actually made by the community and we're happy to announce that actually 21 made it with version 240",
+      "why_it_matters": "Shows concrete community contribution success with 21 out of 27 community PRs merged into production release",
+      "check": "exact"
+    },
+    {
+      "t": 139.4,
+      "text": "this repository only hosts the source code for applications developed by Microsoft such as system application business foundation and some of the developer tools",
+      "why_it_matters": "Clarifies scope of repository to prevent misuse for reporting customer-impacting defects",
+      "check": "exact"
+    },
+    {
+      "t": 159.6,
+      "text": "we use aoo for GitHub which is another product that Microsoft is developing as a backbone for devops",
+      "why_it_matters": "Identifies the core DevOps infrastructure enabling automated builds and testing",
+      "check": "exact"
+    },
+    {
+      "t": 261,
+      "text": "we have an automation that updates the BC artifact version in our aogo settings this is because our po request builds and cic builds",
+      "why_it_matters": "Explains automation strategy for maintaining consistent build environments",
+      "check": "exact"
+    },
+    {
+      "t": 594.8,
+      "text": "we require at least two approvals from maintainers of the BCS repository which essentially means two approvals from U engineers at Microsoft",
+      "why_it_matters": "Defines clear governance requirement for pull request approval before merge",
+      "check": "exact"
+    },
+    {
+      "t": 710.7,
+      "text": "we build those apps in three different flavors we build it in the vanilla mode which is just compiling the app as it is",
+      "why_it_matters": "Documents comprehensive build validation approach ensuring code works in multiple configurations",
+      "check": "exact"
+    },
+    {
+      "t": 751.2,
+      "text": "in the second phase we start testing and we we test the system application and the business Foundation both in the vanilla mode but",
+      "why_it_matters": "Defines testing requirements across multiple build configurations before approval",
+      "check": "exact"
+    },
+    {
+      "t": 851.3,
+      "text": "GitHub actually also reports uh what the compilation issues are so in this case it says here that I haven't given an argument that",
+      "why_it_matters": "Demonstrates that GitHub provides specific compilation error details directly in pull requests, helping developers identify and fix issues.",
+      "check": "exact"
+    },
+    {
+      "t": 955.9,
+      "text": "algo actually provides a nice summary of all the tests that we're running and which ones are failing",
+      "why_it_matters": "Shows that AL-Go CI/CD pipeline summarizes test results, making it easier for developers to identify failing tests.",
+      "check": "exact"
+    },
+    {
+      "t": 995.1,
+      "text": "you need that all Commons are resolved you need at least two approvers you need to link your polar to an issue and then",
+      "why_it_matters": "Specifies the exact requirements for merging a contribution to BC apps repository.",
+      "check": "exact"
+    },
+    {
+      "t": 1036.2,
+      "text": "just ask for help in your PO request create a comment in the pull request and a member of our team or someone in",
+      "why_it_matters": "Emphasizes that contributors are not alone and can request assistance during the contribution process.",
+      "check": "exact"
+    },
+    {
+      "t": 1131.2,
+      "text": "contribution is the same for everyone uh all the checks that Alex mentioned earlier they are the same for both internal developers and for",
+      "why_it_matters": "Emphasizes that Microsoft applies the same standards to internal and external contributors, demonstrating commitment to fair open-source practices.",
+      "check": "exact"
+    },
+    {
+      "t": 1191.7,
+      "text": "business Foundation was indeed the first applications application that uh was developed on GitHub from the beginning",
+      "why_it_matters": "Highlights Business Foundation as a model for GitHub-first application development in the BC platform.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 180,
+      "kind": "other",
+      "text": "this is not the place to report product defects with any customer impact there are like other channels to do that"
+    },
+    {
+      "t": 357.2,
+      "kind": "other",
+      "text": "ideally not something with customer impact because as Mar already mentioned that should something we should expedite"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 14,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 22
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.034102999999999994
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021734999999999997
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028728999999999998
+    }
+  ]
+}

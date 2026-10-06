@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-to-export-audit-files.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-export-audit-files",
+  "title": "Export data for auditing",
+  "blob": "d7700dbbbda754f82057236dc2e91c6b09a13f1b",
+  "summary": "Export data for auditing explains how to use the Audit Files Export extension to export GL and VAT entries in formats like SIE, FEC, and SAF-T. Use this to prepare audit-ready data exports with GL account mapping.",
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "audit",
+    "export",
+    "gl entries",
+    "vat entries",
+    "saf-t",
+    "data quality"
+  ],
+  "objects": [],
+  "features": [
+    "Audit File Export extension",
+    "audit file export format",
+    "GL account mapping",
+    "data quality checks",
+    "parallel processing",
+    "zip export"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003787,
+      "pages_in_call": 8
+    }
+  ]
+}

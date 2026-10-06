@@ -1,0 +1,231 @@
+{
+  "video_id": "mnxOSl1Y9PI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 16.4,
+      "end": 36.6,
+      "text": "welcome to this watch new it's actually watch old in a sense key updates in our learning documentation for developers in this session I'm going to show you new guidance documentation in a lot of places for Developers for Al developers going through things like data analytics"
+    },
+    {
+      "t": 36.6,
+      "end": 44.4,
+      "text": "reporting error handling and so on so action-packed agenda let's"
+    },
+    {
+      "t": 44.4,
+      "end": 64.6,
+      "text": "go the first thing is a new developer documentation overview with its own doc um AKA link so the new AKA link aka.ms slbc developer takes you to this session section in um in the administration and Dev"
+    },
+    {
+      "t": 64.6,
+      "end": 85.5,
+      "text": "it pro documentation I'll just quickly dive in there and then we'll just keep it to slides for the rest of this so that it's going to be not so long and hopefully less boring all right so here is the new AKA link and if I go there it takes me to the development part of documentation"
+    },
+    {
+      "t": 85.5,
+      "end": 105.7,
+      "text": "here um there are few things at least for you to understand why we organize it like this the first is that there is uh things on getting started about the development environment vs code and so on um and then there are two very similar sections here one is programming"
+    },
+    {
+      "t": 105.7,
+      "end": 126.5,
+      "text": "in the AL language and the other one is the AL programming language what's the difference here well programming in the AL language is a list of sections that describe how to do various things and many of these are related to the actual data types in Al not necessarily the language constructs"
+    },
+    {
+      "t": 126.5,
+      "end": 147.4,
+      "text": "the language constructs is what you find in the a programming language this is where we explain things like what's a method how to do for Loops or iterators variables and so on and then there's a new kit on the Block here uh data analytics and Reporting um and extensibility"
+    },
+    {
+      "t": 147.4,
+      "end": 167.5,
+      "text": "um so we'll show go a little bit into into these top level uh topics so the first topic new topic is data analytics for developers this section is about how to think about analytics for customers because analytics is no no longer just write a report and give it to the"
+    },
+    {
+      "t": 167.5,
+      "end": 187.6,
+      "text": "customer there are many different artifacts in analytics it could be a query it could be data analysis on a list or query it could be a powerbi report or an Excel layout layout AED report and so on so all these different ways to think about analytics is explained in this new part of"
+    },
+    {
+      "t": 187.6,
+      "end": 201.9,
+      "text": "docs uh why you would use one over the other and uh then with links to how to actually do each of them so go check that out if you if you work with with customer anal"
+    },
+    {
+      "t": 201.9,
+      "end": 222,
+      "text": "analytics the second topic is reporting in general reporting so we gave the reporting document a a huge right through hopefully everything that you that you need is covered under this developing report section everything you need from how"
+    },
+    {
+      "t": 222,
+      "end": 244,
+      "text": "to deal with reports basically anything we know that there is to reporting in general so um go check that out um at least know what's there so that uh because I think you would you would notice that a lot of the things back from Seaside days has evolved a lot over the"
+    },
+    {
+      "t": 244,
+      "end": 264.4,
+      "text": "years and in particular word layouts also got a huge over overhaul in documentation so there's a new uh new article on everything related to document reporting with word layouts anything on uh from how to design"
+    },
+    {
+      "t": 264.4,
+      "end": 284.7,
+      "text": "data sets that works well with word word layouts how to lay out different things actually all the questions you have had on how to do things with word should be here uh so go check this out if if word layout was kind of a mystery before I'm pretty sure that you would find a lot of new"
+    },
+    {
+      "t": 284.7,
+      "end": 298.6,
+      "text": "useful things and hopefully this will also help you transition from RDL uh into a word uh layout World in particular for uh for document"
+    },
+    {
+      "t": 298.6,
+      "end": 319,
+      "text": "reports a huge topic uh for stability is error handling and uh for error handling we also added a new section with everything you need to know when reasoning over errors and the first article here is exactly that reasoning about errors so think about"
+    },
+    {
+      "t": 319,
+      "end": 339.1,
+      "text": "how how to do failure modeling how to do robust coding a lot of the reference articles in in docs actually was changed with robust coding practice in mind so they have examples of how to use a particular method and code robust for it uh this also has part have things"
+    },
+    {
+      "t": 339.1,
+      "end": 355.3,
+      "text": "on understanding uh the error dialogue call Stacks or stack traces how to do actionable errors how to have error make error messages that are meaningful to the user and so"
+    },
+    {
+      "t": 355.3,
+      "end": 370.3,
+      "text": "on so if you could if you could not deflect an error situation with a good error message or error handling troubleshooting would be the next next thing to look into and uh there's a new"
+    },
+    {
+      "t": 370.3,
+      "end": 390.3,
+      "text": "troubleshooting uh overview part of of the documentation that both give you an indication or an idea of the different tools you have for troubleshooting as well as new content on what we call tsgs or troubleshooting guides in many different areas so go check the troubleshooting guides out and"
+    },
+    {
+      "t": 390.3,
+      "end": 397.8,
+      "text": "also the troubleshooting Tools in case you need to troubleshoot something for a"
+    },
+    {
+      "t": 397.8,
+      "end": 418,
+      "text": "customer when thinking about performance perceived performance is a key thing because it might be that you cannot make something go faster make the time shorter but maybe you can delegate that to run in the background and that's what we mean when we talk about as swing processing so there's a new overview"
+    },
+    {
+      "t": 418,
+      "end": 438.9,
+      "text": "here on the different ways to do it uh you can spin off a new session page page background tasks task scheduler job queue and so on what's the difference between these and with links to the documentation for them all of that is is here in this running things in the background"
+    },
+    {
+      "t": 440.2,
+      "end": 460.5,
+      "text": "section Telemetry is not only for people in the basement is also a tool for you as a developer and the section for Telemetry for for Al developers has also gotten some love so we added new content on describing what's the difference between this um scope"
+    },
+    {
+      "t": 460.5,
+      "end": 481,
+      "text": "of of telemetry give more um we added more uh visibility to the feature Telemetry module which is a way for you within the system application to get a lot of telemetry features for free so go check that out uh that might be new things that you didn't know about Telemetry for"
+    },
+    {
+      "t": 481,
+      "end": 501,
+      "text": "instrumenting your app security is not only for the admin it's also for you as developer you need to think security into your app as well so we added a new section for for how to handle security or business Central Security for a developers thinking about or"
+    },
+    {
+      "t": 501,
+      "end": 514.1,
+      "text": "reasoning about the way you think in Security in your development life cycle and then going through all the topics that we think is needed for you as developer to De to deliver"
+    },
+    {
+      "t": 514.1,
+      "end": 530.4,
+      "text": "secure apps for your customers so go check that out extensibility that's not only just like a report extension and so on we we thought that extensibility extensibility"
+    },
+    {
+      "t": 530.4,
+      "end": 550.7,
+      "text": "is is everything that is related to as a customer you don't care about how things were uh extended so therefore we added uh in the new extensibility overview ways to extend in Al but also think about extensibility as a way if you extend the app"
+    },
+    {
+      "t": 550.7,
+      "end": 571.4,
+      "text": "by uh making changes to the or suggest changes to the system foundational layer system app or or the the base app that's also a way to extend it's just a way to extend where everyone else gets your extension uh client extensions using powerbi to extend all of the the all the ways we think"
+    },
+    {
+      "t": 571.4,
+      "end": 591.6,
+      "text": "of of of how you can extend business Central for a customer is here in the extensibility overview finally um all of this docks would would not be here all these changes would not be there if you didn't tell us about them and you might have some expertise about"
+    },
+    {
+      "t": 591.6,
+      "end": 611.9,
+      "text": "a particular area where docks could be better why not simply do a pull request to that and the way best way I find uh to the way to get started is simply to search in in docs for contribute that takes you to the or find that that helps you find the contribute to the help article"
+    },
+    {
+      "t": 611.9,
+      "end": 631.9,
+      "text": "and this uh this takes you through how to work with GitHub how to do a pull requests and and contribute to the documentation so Goos for you as a developer U learn the new AKA link uh aka.ms BC developer and if you"
+    },
+    {
+      "t": 631.9,
+      "end": 652,
+      "text": "start something new go to docs to start your learning I'm pretty sure that it it has the introduction level content that you need and if in doubt also go to docs because we do a lot of work to make sure that whenever you have a question on how things work or maybe how things doesn't work if you think about"
+    },
+    {
+      "t": 652,
+      "end": 672,
+      "text": "robustness it it should be in docs so so so go to docs and see if if it's not already covered you can just search um in in the learn portal as an expert as I mentioned if there's something you know that isn't there consider do a PR to help others if all the experts in the world"
+    },
+    {
+      "t": 672,
+      "end": 691.5,
+      "text": "do that um we might have a docs that is uh just so rich that it it helps uh everyone and uh if there's something in docs completely missing where you don't have the courage to do a a doc PR let us know and uh then we know where to improve"
+    },
+    {
+      "t": 691.5,
+      "end": 712,
+      "text": "that's it other relevant launch event sessions if you are in this thinking about as as an a developer High chance that you also want to look at uh the the new what's new on uh invis Studio code and Al development uh there's a a sister a sister presentation to this for people working with Integrations"
+    },
+    {
+      "t": 712,
+      "end": 732.7,
+      "text": "a lot of key updates to the documentation on how business Central integrates to the world including uh web services if you are more into the AL runtime Parts there's a new what's new session on Al runtime and database what's new for web service functionality and also for reporting which in this"
+    },
+    {
+      "t": 732.7,
+      "end": 753.4,
+      "text": "semester we gave a lot of love to excel layouts as always AKA links to learn more if you have a question go to Yammer BC Yammer uh BC all is the AKA link to rule them all this is the one that takes you and shows you all the AKA links that exists for a for a developer or partner"
+    },
+    {
+      "t": 753.4,
+      "end": 773.5,
+      "text": "and BC ideas is of course where you suggest uh functionality changes uh to business Central there are a number of social media platform we are on X and on LinkedIn and uh there are office hours both live where you can attend and uh you can watch the recording so go check that out if you"
+    },
+    {
+      "t": 773.5,
+      "end": 783.8,
+      "text": "have something where you have an interest in in one of these recordings that's it thank you so much and have a great launch"
+    },
+    {
+      "t": 783.8,
+      "end": 785,
+      "text": "event"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.39,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.4,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1890
+}

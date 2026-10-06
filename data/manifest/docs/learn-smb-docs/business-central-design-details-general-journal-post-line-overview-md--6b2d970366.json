@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-general-journal-post-line-overview",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "76c5ca29c361fb589a6217338f55b6efef011c97",
       "words": 442,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:40:22.356Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003787
+    },
+    "summarized": {
+      "at": "2026-10-06T19:42:54.037Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:42:56.061Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:42:56.062Z",
+      "page": false
     }
   },
   "input_hash": "76c5ca29c361fb589a6217338f55b6efef011c97",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "76c5ca29c361fb589a6217338f55b6efef011c97"
+  "output_hash": "11c3bbcedec0c987e2011ae5228fe908c9229e55034f9139a30812e64d6454ac"
 }

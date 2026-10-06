@@ -1,0 +1,28 @@
+{
+  "video_id": "z1H6nQCEIeY",
+  "item_id": "video/yt-microsoft/z1H6nQCEIeY",
+  "summary": "E-Invoice Matching with Copilot in Business Central, in public preview in the 2024 release wave 1 (rolling out from update 24.0). It covers how Copilot matches e-invoice lines to purchase order lines, the manual mapping page, cost tolerance setup, and enablement steps. Online only, English officially, not available in Canada.",
+  "overview": "The video introduces E-Invoice Matching with Copilot, which matches lines of an electronic invoice to purchase order lines. It starts with the manual E-Document mapping page, then shows how Copilot speeds up the work for invoices with many lines. Lines whose descriptions are 80% or more similar are matched automatically without calling the language model. Other lines are sent to Copilot for a proposal. The matching also takes into account item cost and received quantity.\n\nThe demo shows accepting or discarding a Copilot proposal, drilling into match details, and the color indicators for price match. It also shows setting a cost tolerance in Purchase and Payables setup, and the Role Center cues for purchase orders that need matching. The presenters finish with how to enable the feature, covering the Copilot capability page, along with regional and language limits and related Copilot features in the same release.",
+  "key_points": [
+    "The feature is in public preview, not generally available. It is online only, officially supports English, is not available in Canada, and is enabled from version 24.",
+    "To use it, check that the Copilot capability page has the environment switched on and that the e-invoice matching capability is active.",
+    "Lines with description similarity of 80% or more are matched automatically without calling the LLM. Other lines go to Copilot.",
+    "Prices must match 100% by default. A cost tolerance percentage set in Purchase and Payables setup lets Copilot accept variations within that range, for example 10%.",
+    "Color indicators show price match: green for 100% match, yellow within the accepted range, red outside the range (may need manual review).",
+    "Matching cannot invoice more than the received quantity.",
+    "Users can discard a Copilot proposal and go back to manual matching. Accepting a proposal fills in the vendor invoice number and document date."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user",
+    "partner"
+  ],
+  "extraction_hash": "01173ef0ac997dde4091377c82e2b6098c0c926b99b5220ff65beb3a2fd9a1ce",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0237464
+  }
+}

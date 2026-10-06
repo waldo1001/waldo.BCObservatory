@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-non-deductible-vat",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c90a829e9c4cfdf4acfae10202812bb73327b975",
       "words": 629,
       "forms": 9
+    },
+    "extracted": {
+      "at": "2026-10-06T19:40:22.359Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003787
+    },
+    "summarized": {
+      "at": "2026-10-06T19:42:56.070Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:42:56.071Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:42:56.071Z",
+      "page": false
     }
   },
   "input_hash": "c90a829e9c4cfdf4acfae10202812bb73327b975",
@@ -86,5 +105,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c90a829e9c4cfdf4acfae10202812bb73327b975"
+  "output_hash": "afdaa93cccf8f8317ea135044b6f721e2e23b3e955fc66e903a7c217be5c486a"
 }

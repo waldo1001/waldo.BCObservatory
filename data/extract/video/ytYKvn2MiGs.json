@@ -1,0 +1,881 @@
+{
+  "video_id": "ytYKvn2MiGs",
+  "item_id": "video/yt-microsoft/ytYKvn2MiGs",
+  "title": "What's New: Extending Copilot Using AL Code (2024 Release Wave 1)",
+  "duration_s": 2169,
+  "systems": [
+    "copilot",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "prompt dialog",
+    "token counting",
+    "function calling",
+    "copilot actions",
+    "ai module",
+    "azure openai",
+    "llm",
+    "al development",
+    "copilot capabilities",
+    "prompt guides",
+    "model versioning",
+    "tool choice"
+  ],
+  "chapters": [
+    {
+      "title": "Developer Tools Recap and AI Module Overview",
+      "t_start": 0,
+      "t_end": 151.1
+    },
+    {
+      "title": "Prompt Dialog Enhancements",
+      "t_start": 151.1,
+      "t_end": 281.1
+    },
+    {
+      "title": "Copilot Actions and Implementation",
+      "t_start": 281.1,
+      "t_end": 341.4
+    },
+    {
+      "title": "Token Counting Fundamentals",
+      "t_start": 341.4,
+      "t_end": 456.3
+    },
+    {
+      "title": "Token Counting Methods and Implementation",
+      "t_start": 456.3,
+      "t_end": 553.9
+    },
+    {
+      "title": "Function Calling Concepts and Scenarios",
+      "t_start": 553.9,
+      "t_end": 664.3
+    },
+    {
+      "title": "Function Calling Technical Details",
+      "t_start": 664.3,
+      "t_end": 793.2
+    },
+    {
+      "title": "Function Calling Implementation in AL",
+      "t_start": 793.2,
+      "t_end": 974.8
+    },
+    {
+      "title": "Tool Choice Modes and Validation",
+      "t_start": 974.8,
+      "t_end": 1035.6
+    },
+    {
+      "title": "Keeping Current with Model Versions",
+      "t_start": 1035.6,
+      "t_end": 1154.9
+    },
+    {
+      "title": "Model Version Rollout Process and Managed AI Resources",
+      "t_start": 1154.9,
+      "t_end": 1370.3
+    },
+    {
+      "title": "AI Credit System and Resource Governance",
+      "t_start": 1370.3,
+      "t_end": 1573.5
+    },
+    {
+      "title": "Roadmap and Timeline for AI Resources",
+      "t_start": 1573.5,
+      "t_end": 1675.4
+    },
+    {
+      "title": "Developer Toolkit, Data Privacy and Resources",
+      "t_start": 1675.4,
+      "t_end": 2169
+    }
+  ],
+  "features": [
+    {
+      "name": "Instructional Text in Prompt Dialog",
+      "description": "New capability to provide concise instructions to help users in the prompt dialog by updating the instructional text property on fields in your prompt area. These instructions are displayed as instructional text to help users understand what input is expected.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 171.2,
+      "t_end": 212.2,
+      "is_demoed": true,
+      "caveats": [
+        "Not meant to be used as example prompts, this is general instruction"
+      ],
+      "tags": [
+        "prompt dialog",
+        "user guidance",
+        "instructions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Prompt Guides",
+      "description": "New feature that allows developers to provide prompt templates to help users understand the range of prompts they can create. Accessed through a book icon on the prompt dialog, prompts guides are implemented as a new area in actions on a prompt dialog page type.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 212.2,
+      "t_end": 266.2,
+      "is_demoed": true,
+      "caveats": [
+        "Can be grouped if more than one prompt guide exists"
+      ],
+      "tags": [
+        "prompt dialog",
+        "templates",
+        "prompt guides"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Actions on Lists and Dialogs",
+      "description": "New capability to display copilot actions on lists, list parts, worksheets and standard dialogs to draw attention and launch prompt dialogs. These actions are displayed at the bottom of the page and in the menu.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 281.1,
+      "t_end": 321.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot actions",
+        "ui",
+        "lists",
+        "dialogs"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Token Counting",
+      "description": "Functionality that allows developers to count the number of tokens that will be used by input before sending a request to Azure OpenAI. Tokens are the units the model uses instead of words.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 341.4,
+      "t_end": 456.3,
+      "is_demoed": true,
+      "caveats": [
+        "Only counts input tokens, not output",
+        "Does not currently include system meta prompt but that is coming"
+      ],
+      "tags": [
+        "token counting",
+        "cost estimation",
+        "azure openai",
+        "rate limiting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Token Counting Methods in AOI Token Code Unit",
+      "description": "New methods in the AOI token code unit for counting tokens per model: get GPT 3.5 token count, get GPT 4 token count, get other token count, and DG token count. These methods are version agnostic across model variants.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 456.8,
+      "t_end": 517.1,
+      "is_demoed": true,
+      "caveats": [
+        "Version agnostic across model variants like GPT-4 January vs June",
+        "Does not currently include system meta prompt"
+      ],
+      "tags": [
+        "token counting",
+        "codeunit",
+        "methods",
+        "azure openai"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Function Calling",
+      "description": "Feature that allows developers to describe functions to the assistant model and have it return the functions that should be called along with appropriate arguments. This extracts key information from natural language for use as function arguments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 553.9,
+      "t_end": 664.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "function calling",
+        "tools",
+        "azure openai",
+        "intent determination"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Function Calling in Copilot",
+      "description": "Capability to add tools and functions to chat messages that call get weather copilot functions and process responses from Azure OpenAI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 813.2,
+      "t_end": 934.4,
+      "is_demoed": true,
+      "caveats": [
+        "Functions should not be hardcoded as text but retrieved from isolated storage or Azure Key Vault",
+        "Descriptions are IP and must be protected"
+      ],
+      "tags": [
+        "function calling",
+        "copilot",
+        "al development"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Function Calling Tool Choice",
+      "description": "AL development feature that allows setting tool choice to instruct the model to always run a specific function. Provides control over which function the model will execute.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 853.9,
+      "t_end": 894,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "function calling",
+        "tool choice",
+        "model control"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Tool Choice Auto Mode",
+      "description": "Default tool choice setting where response can be either a function call or regular chat response, requiring error handling for cases where function is expected but not returned.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 974.8,
+      "t_end": 1015.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires error handling since response may not be a function call"
+      ],
+      "tags": [
+        "tool choice",
+        "function calling",
+        "error handling"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Tool Choice Specific Function Mode",
+      "description": "Mode where tool choice is set to a specific function name, guaranteeing the model will always call that function but requiring validation of arguments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1015.6,
+      "t_end": 1035.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires argument validation when user input is unrelated to the function"
+      ],
+      "tags": [
+        "tool choice",
+        "function calling",
+        "validation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Model Version Management",
+      "description": "System to keep two versions of each AI model available - latest (stable released) and preview (new upcoming) - allowing developers to test before production updates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1096.4,
+      "t_end": 1137.4,
+      "is_demoed": true,
+      "caveats": [
+        "Different model versions may perform differently requiring feature testing"
+      ],
+      "tags": [
+        "model versioning",
+        "copilot",
+        "testing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Version Agnostic Model Strings",
+      "description": "Implementation approach using version-agnostic strings like turbo-latest that map to specific Azure OpenAI versions, enabling smooth model version transitions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1116.8,
+      "t_end": 1154.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "model versioning",
+        "api design"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Managed and Shared AI Resources",
+      "description": "Service that provides managed AI infrastructure for first-party and third-party copilot features, eliminating the need for partners to bring their own Azure OpenAI accounts.",
+      "status": "preview",
+      "status_evidence_t": 1573.5,
+      "status_evidence_quote": "private preview will happen pretty soon after the business centrer launch event",
+      "status_evidence_verified": true,
+      "t_start": 1254.7,
+      "t_end": 1370.3,
+      "is_demoed": false,
+      "caveats": [
+        "Requires new responsible AI compliance process",
+        "Private preview starting April-May 2024",
+        "Public preview planned for 2025",
+        "General availability pending preview feedback"
+      ],
+      "tags": [
+        "managed resources",
+        "ai infrastructure",
+        "resource governance"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "AI Credit Resource Governance",
+      "description": "Single unified currency called AI credit that converts to various consumption units like GPT tokens or machine learning predictions, used to track and control AI resource usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1451.4,
+      "t_end": 1471.8,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet finalized",
+        "To be modeled through simulated enforcement in preview"
+      ],
+      "tags": [
+        "resource governance",
+        "ai credit",
+        "billing"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Operational Limits for Fair Use",
+      "description": "Resource governance mechanism using operational limits to ensure fair AI credit consumption among users, environments and customers by controlling consumption speed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1491.9,
+      "t_end": 1512.1,
+      "is_demoed": false,
+      "caveats": [
+        "Still being modeled and finalized through preview"
+      ],
+      "tags": [
+        "operational limits",
+        "resource governance",
+        "fair use"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "AI Quota Entitlements",
+      "description": "Quota system with base capacity and accrued capacity per user license, allowing customers to budget AI consumption and purchase incremental capacity for excess usage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1512.1,
+      "t_end": 1553.5,
+      "is_demoed": false,
+      "caveats": [
+        "To be modeled through simulated enforcement",
+        "Incremental capacity purchase model still being finalized"
+      ],
+      "tags": [
+        "quota entitlements",
+        "capacity",
+        "billing"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Capacity-based resource governance and pricing",
+      "description": "Modeling and finalizing capacity-based resource governance and pricing through simulated limit and quota enforcement for managed and shared AI resources.",
+      "status": "preview",
+      "status_evidence_t": 1573.5,
+      "status_evidence_quote": "capacity based resource governance and pricing will be modeled and finalized through simulated limit and quota enforcement in private or public preview",
+      "status_evidence_verified": true,
+      "t_start": 1573.5,
+      "t_end": 1634.2,
+      "is_demoed": false,
+      "caveats": [
+        "Private preview roadmap estimated for 24.0 in April or 24.1 in May",
+        "Public preview planned for 25x version",
+        "GA timeline still to be determined pending preview feedback"
+      ],
+      "tags": [
+        "ai governance",
+        "managed resources",
+        "quota enforcement"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Responsible AI process for non-OpenAI accounts",
+      "description": "New process to satisfy responsible AI requirements when not using your own OpenAI accounts, to be introduced in public preview.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1634.2,
+      "t_end": 1655,
+      "is_demoed": false,
+      "caveats": [
+        "Timeline: next release around 25x version"
+      ],
+      "tags": [
+        "responsible ai",
+        "compliance",
+        "managed resources"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Limit and quota publishing and enforcement",
+      "description": "Public preview will introduce proper limits to be published and enforced, with quotas published but not enforced initially. GA will enforce both limits and quotas.",
+      "status": "announced",
+      "status_evidence_t": 1634.2,
+      "status_evidence_quote": "in public preview we will also make sure that the proper limit will be published and enforced while the proper quota might also be",
+      "status_evidence_verified": true,
+      "t_start": 1634.2,
+      "t_end": 1675.4,
+      "is_demoed": false,
+      "caveats": [
+        "GA timeline: TBD depending on preview feedback"
+      ],
+      "tags": [
+        "quota management",
+        "governance"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Developer toolkit for Copilot in Business Central",
+      "description": "Toolkit providing AL code capabilities to extend Copilot, addressing developer questions on feature support, data access, and model selection.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1696.2,
+      "t_end": 1737.2,
+      "is_demoed": false,
+      "caveats": [
+        "Does not support all latest Azure OpenAI features",
+        "Only preview specifications not supported in toolkit"
+      ],
+      "tags": [
+        "copilot extension",
+        "al development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Azure OpenAI data access control",
+      "description": "Commitment that Azure OpenAI has no access to Business Central data, models do not learn from data, and users retain full control.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1797.5,
+      "t_end": 1817.6,
+      "is_demoed": false,
+      "caveats": [
+        "Data must fit within prompt size limits if passed to model",
+        "User permissions apply to copilot features"
+      ],
+      "tags": [
+        "data privacy",
+        "azure openai",
+        "security"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Data source capability for Azure OpenAI",
+      "description": "Optional capability to pass data to Azure OpenAI using data sources, available for partner feedback and prioritization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1870.6,
+      "t_end": 1890.7,
+      "is_demoed": false,
+      "caveats": [
+        "Implementation in AL toolkit not yet decided, awaiting partner input"
+      ],
+      "tags": [
+        "data handling",
+        "azure openai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "GPT-3.5 Turbo model recommendation",
+      "description": "Recommended to use GPT-3.5 Turbo when it meets scenario needs, as it is faster and cheaper, and covers most scenarios well.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1890.7,
+      "t_end": 1931.4,
+      "is_demoed": false,
+      "caveats": [
+        "GPT-4 or GPT-4 Turbo recommended for complex scenarios or high token consumption"
+      ],
+      "tags": [
+        "model selection",
+        "gpt models"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AL toolkit open source on GitHub",
+      "description": "The AL part of the copilot toolkit is open source and available in the aka.ms/bc-apps repository on GitHub, allowing community contributions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2027.5,
+      "t_end": 2068.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "open source",
+        "github",
+        "al development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Data privacy and AI model training",
+      "description": "Commitment that AI models are not trained on customer data and do not learn from it, with compliance reviews more strict than legal requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2047.6,
+      "t_end": 2088.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "data privacy",
+        "trust",
+        "compliance"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "AOI Token",
+      "t": 476.8
+    },
+    {
+      "type": "codeunit",
+      "name": "get weather co-pilot function",
+      "t": 813.2
+    },
+    {
+      "type": "other",
+      "name": "get weather co-pilot function",
+      "t": 813.2
+    },
+    {
+      "type": "other",
+      "name": "get current weather",
+      "t": 853.9
+    },
+    {
+      "type": "other",
+      "name": "Azure OpenAI data sources capability",
+      "t": 1757.3
+    },
+    {
+      "type": "other",
+      "name": "GPT 3.5 turbo model",
+      "t": 1890.7
+    },
+    {
+      "type": "other",
+      "name": "GPT 4 model",
+      "t": 1911.2
+    },
+    {
+      "type": "other",
+      "name": "GPT 4 Turbo model",
+      "t": 1911.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Derek Jew",
+      "confidence": "high"
+    },
+    {
+      "name": "Julia Sandy",
+      "confidence": "medium"
+    },
+    {
+      "name": "Enrio",
+      "confidence": "low"
+    },
+    {
+      "name": "Derek",
+      "confidence": "high"
+    },
+    {
+      "name": "Julia",
+      "confidence": "high"
+    },
+    {
+      "name": "Sandy",
+      "confidence": "medium"
+    },
+    {
+      "name": "Sarco",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 171.2,
+      "text": "now we can provide concise instructions to help users get started they will be displayed",
+      "why_it_matters": "Demonstrates new prompt dialog enhancement for guiding users on input expectations",
+      "check": "fuzzy"
+    },
+    {
+      "t": 341.4,
+      "text": "token accounting allows you to count the number of tokens that will be used by your input before sending a request to Azure open",
+      "why_it_matters": "Explains the purpose of token counting for cost estimation and rate limit planning",
+      "check": "exact"
+    },
+    {
+      "t": 416,
+      "text": "you would like to evaluate how many tokens are going to be used because then you can estimate what your potential cost is um",
+      "why_it_matters": "Clarifies the business value of token counting for cost management",
+      "check": "exact"
+    },
+    {
+      "t": 436.2,
+      "text": "a model has a limit to how many tokens there are uh that it can actually take in as input and now if you",
+      "why_it_matters": "Explains technical constraint that makes token counting essential for splitting large requests",
+      "check": "snapped"
+    },
+    {
+      "t": 476.8,
+      "text": "agnostic so whether you're using um gpt 4 uh january version or gpt 4 june version it does not matter",
+      "why_it_matters": "Important design decision showing token methods work across all model versions consistently",
+      "check": "fuzzy"
+    },
+    {
+      "t": 517.1,
+      "text": "the input is of type secret text and why is that uh and that the reason for that is because your input we consider",
+      "why_it_matters": "Security and IP protection design decision for handling sensitive function descriptions",
+      "check": "exact"
+    },
+    {
+      "t": 574,
+      "text": "it allows you to describe functions to the assistant model uh and have it return uh the functions that should be called along with",
+      "why_it_matters": "Core definition of function calling feature and its purpose in extracting structured data from natural language",
+      "check": "exact"
+    },
+    {
+      "t": 833.2,
+      "text": "you should always retrieve that from isolated storage or Azure key volt for example uh because your description as I had mentioned these we",
+      "why_it_matters": "Security best practice for protecting AI function descriptions which constitute intellectual property.",
+      "check": "exact"
+    },
+    {
+      "t": 995.6,
+      "text": "if you use it with functions the response can either be a function or it can be a regular chat response so you do",
+      "why_it_matters": "Clarifies that Auto mode requires defensive error handling since function calls are not guaranteed.",
+      "check": "exact"
+    },
+    {
+      "t": 1015.6,
+      "text": "if you set a specific Tool uh specific function it will guarantee that response will always call that function however if your user inputs",
+      "why_it_matters": "Establishes the trade-off between guaranteed function calls and the need for argument validation.",
+      "check": "exact"
+    },
+    {
+      "t": 1076.3,
+      "text": "we keep two versions of each model available latest and preview not that we don't really specify if the latest is the June model",
+      "why_it_matters": "Explains the dual-version strategy for managing model updates and production stability.",
+      "check": "snapped"
+    },
+    {
+      "t": 1289.5,
+      "text": "when it's time to bring this AI infused solution into production at scale especially when they are combining multiple copilot features built by different",
+      "why_it_matters": "Identifies the business problem driving the need for managed AI resources.",
+      "check": "exact"
+    },
+    {
+      "t": 1370.3,
+      "text": "partners and isv can simply focus on satisfying responsible AI requirement to access our shared resources building their calet features based on their intellectual",
+      "why_it_matters": "Core value proposition - partners no longer manage infrastructure but focus on compliance and feature development.",
+      "check": "exact"
+    },
+    {
+      "t": 1573.5,
+      "text": "capacity based resource governance and pricing will be modeled and finalized through simulated limit and quota enforcement in private or public preview",
+      "why_it_matters": "Establishes the roadmap for managed AI resource governance, indicating preview status and planned enforcement mechanisms.",
+      "check": "exact"
+    },
+    {
+      "t": 1613.8,
+      "text": "this 24x release so either 24.0 in April or 24.1 in May right next public preview we will introduce a new process to satisfy",
+      "why_it_matters": "Announces specific timeline for private preview and new responsible AI process for managed resources.",
+      "check": "snapped"
+    },
+    {
+      "t": 1613.8,
+      "text": "the ETA for priate review is pretty soon so this 24x release so either 24.0 in April or 24.1 in May",
+      "why_it_matters": "Provides specific timeline for private preview of managed AI resources in the 2024 release wave.",
+      "check": "exact"
+    },
+    {
+      "t": 1655,
+      "text": "General availability is when the proper limits and qu will be both published and enforced the ETA still to be determined or TBD depending",
+      "why_it_matters": "Establishes that GA timeline for managed AI resources is contingent on preview outcomes.",
+      "check": "exact"
+    },
+    {
+      "t": 1797.5,
+      "text": "which business Central data does Asia open AI have access to the answer is none our commitment is that your data is your data",
+      "why_it_matters": "Clarifies the fundamental data privacy commitment - Azure OpenAI has no access to Business Central data.",
+      "check": "exact"
+    },
+    {
+      "t": 1829.2,
+      "text": "what if I need to give my data to the model how can I use my data with aure open Ai and the answer",
+      "why_it_matters": "Explains the technical constraint that data passed to models must fit within prompt size limits.",
+      "check": "exact"
+    },
+    {
+      "t": 1890.7,
+      "text": "our recommendation is to use GPT 3.5 turbo whenever it fits your needs because it's faster first of all it's also cheaper for you",
+      "why_it_matters": "Provides model selection guidance, recommending the cheaper and faster option as default choice.",
+      "check": "exact"
+    },
+    {
+      "t": 2027.5,
+      "text": "the AL part of our toolkit is actually open source is part of our aka.ms /bc apps Repro in GitHub and you can contribute",
+      "why_it_matters": "Announces open source availability of the AL toolkit component, enabling community contributions.",
+      "check": "exact"
+    },
+    {
+      "t": 2047.6,
+      "text": "Microsoft cloud runs on trust AI is no exception your data is only yours it's your data the AI models are not trained on",
+      "why_it_matters": "Restates the core privacy guarantee that AI models are not trained on customer data.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 517.1,
+      "kind": "coming-later",
+      "text": "these methods do not include our um provided system meta prompt um but that will be coming"
+    },
+    {
+      "t": 1573.5,
+      "kind": "preview",
+      "text": "private preview will happen pretty soon after the business centrer launch event"
+    },
+    {
+      "t": 1593.8,
+      "kind": "preview",
+      "text": "the ETA for priate review is pretty soon so this 24x release so either 24.0 in April or 24.1 in May"
+    },
+    {
+      "t": 1613.8,
+      "kind": "coming-later",
+      "text": "the ETA for priate review is pretty soon so this 24x release so either 24.0 in April or 24.1 in May"
+    },
+    {
+      "t": 1634.2,
+      "kind": "preview",
+      "text": "public preview we will introduce a new process to satisfy responsible AI requirement"
+    },
+    {
+      "t": 1655,
+      "kind": "subject-to-change",
+      "text": "General availability ETA still to be determined or TBD depending on the preview feedbacks and result"
+    },
+    {
+      "t": 1655,
+      "kind": "coming-later",
+      "text": "the ETF for public preview will be the next release around 25th uh 25x version"
+    },
+    {
+      "t": 1757.3,
+      "kind": "preview",
+      "text": "some of these cap abilities are considered previous specifications on Asia and AI side and in the toolkit we will not support any preview specification um at all"
+    },
+    {
+      "t": 2112.8,
+      "kind": "preview",
+      "text": "these are not production ready code but they just to show you how you can interact with the toolkit"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 22,
+    "quotes_dropped": 0,
+    "evidence_verified": 3,
+    "evidence_unverified": 22
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026961
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029467
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028525000000000002
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.037212999999999996
+    }
+  ]
+}

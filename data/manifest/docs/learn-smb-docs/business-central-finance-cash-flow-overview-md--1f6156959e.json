@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-cash-flow-overview",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "645650b2e01cbfec97621bb1ecf13b35d5a6edc4",
       "words": 544,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:40:22.357Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003787
+    },
+    "summarized": {
+      "at": "2026-10-06T19:42:56.064Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:42:56.064Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:42:56.065Z",
+      "page": false
     }
   },
   "input_hash": "645650b2e01cbfec97621bb1ecf13b35d5a6edc4",
@@ -57,5 +76,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "645650b2e01cbfec97621bb1ecf13b35d5a6edc4"
+  "output_hash": "e86257020f8d1ecaa7b2efdc04d181df944f7b41d54e3ef70aaeeaa8c9267323"
 }

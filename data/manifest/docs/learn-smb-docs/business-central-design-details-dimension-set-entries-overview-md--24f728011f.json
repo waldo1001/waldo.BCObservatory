@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-dimension-set-entries-overview",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f9f12ff7a175e4eab81e28e7540bd67220c27b34",
       "words": 348,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:40:22.355Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003787
+    },
+    "summarized": {
+      "at": "2026-10-06T19:42:54.034Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:42:54.035Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:42:54.036Z",
+      "page": false
     }
   },
   "input_hash": "f9f12ff7a175e4eab81e28e7540bd67220c27b34",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f9f12ff7a175e4eab81e28e7540bd67220c27b34"
+  "output_hash": "a2e74e74c53068930301a9e84848d842240788b3dde27b7b71b05a1d852f31a2"
 }

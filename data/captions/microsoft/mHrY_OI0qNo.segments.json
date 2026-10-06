@@ -1,0 +1,391 @@
+{
+  "video_id": "mHrY_OI0qNo",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 17.3,
+      "end": 37.6,
+      "text": "hello and welcome to this session about Microsoft co-pilot in Dynamics 365 business Central co-pilot is the AI powered assistant for work that helps boost creativity it helps improve productivity and eliminates those tedious tasks so you can really focus on what matters for your business and now in 2024 release wave 1"
+    },
+    {
+      "t": 37.6,
+      "end": 57.8,
+      "text": "co-pilot also assists with analytical tasks uh my name is Mike borj Cardon I'm a product manager at Microsoft and today I'm joined by my colleagues Thomas and Kenny hello my name is Thomas Jensen I'm a software engineer on the business Central Development team and my name is Kenny paban I am also a product manager in the business Central"
+    },
+    {
+      "t": 57.8,
+      "end": 77.9,
+      "text": "product group and uh in very short video we're going to show you how co-pilot can help with uh specific analytical tasks for your organization uh we're going to share some practical tips so you can get the most out of this uh and also help you get started so you can get Hands-On and try this out um but let's just uh take a moment to"
+    },
+    {
+      "t": 77.9,
+      "end": 98,
+      "text": "understand U Kenny generally speaking how do our customers get to Data Insights today that's a great question Mike so we have this bi triangle that where we describe typical analytics needs in an organization and they really change with the way you work with the role you have if you are in the leadership you typically want aggregated"
+    },
+    {
+      "t": 98,
+      "end": 118.3,
+      "text": "data if you are typically in a middle management position this is why you have these ad hoc analysis tasks like your boss com in and ask how many teddy bears did we sell in Greece last year compared to something like that and you don't have a report for that right so that's why we built the data analysis tools on lists last year"
+    },
+    {
+      "t": 118.3,
+      "end": 139.1,
+      "text": "to help with this dat at analysis we also have normal reports um of course now um with data analysis or with ad hog analysis it's it's typical that it starts with data Savvy people like controllers they like to like group data Maybe th throw in a bunch of pivos"
+    },
+    {
+      "t": 139.1,
+      "end": 159.5,
+      "text": "and and and do that right but what we discovered was that's not it's not a task that is easy for everyone to do pivot tables so so that's why we thought could we make it easier for the the normal users to also do ad hoc analysis and that's why we're excited to announce the public preview"
+    },
+    {
+      "t": 159.5,
+      "end": 179.6,
+      "text": "of analysis assist um here co-pilot uh you know with this new capability helps uh reduce the time it takes to get to identifying Trends uh anomalies in your business data uh simply using the power of of your own words basically so for example you may be totaling up transactions uh in preparation for next year's"
+    },
+    {
+      "t": 179.6,
+      "end": 199.9,
+      "text": "budget budget you may be identifying gaps in uh your inventory uh so you can plan how to distribute things better you may be looking for specific sales or purchase transactions as well so by describing in a simple sentence how you want to structure your data uh you quickly get to insights instead of spending the time and effort on the clicks and keystrokes to"
+    },
+    {
+      "t": 199.9,
+      "end": 219.9,
+      "text": "actually lay out data in front of you on your screen in the uh analysis tabs uh and you can do this without ever leaving business Central without the need for for context switching uh across different apps and ultimately uh it makes these Advanced Analytical tools and capabilities in business Central uh a lot easier which means uh more people"
+    },
+    {
+      "t": 219.9,
+      "end": 239.9,
+      "text": "across the organization can uh make datadriven decisions themselves so how about we take a look at how this works Thomas would you like to give us a demo yes of course I will so let's switch to our our screen here and uh to show you the new functionality let's take a look at the the item list of course it's important to"
+    },
+    {
+      "t": 239.9,
+      "end": 260.1,
+      "text": "notice that this functionality does not only work on the item list it actually works on any list that already supports uh analyzing data but uh but let's try the the item list so what you'll notice here is there's a new co-pilot menu at the top and in that we have a analyze list action let's"
+    },
+    {
+      "t": 260.1,
+      "end": 280.3,
+      "text": "try that and then a window pops up where co-pilot will now ask us uh to put in some words on what kind of analysis we would actually like uh so let's try with something simple first let's just add a few columns to a our analysis for instance we want to show you the the"
+    },
+    {
+      "t": 280.3,
+      "end": 300.6,
+      "text": "the item description maybe we want some onand information about the items and let's add the the unit cost as well and then we click the generate and let's see what happens then things get sent off to the co-pilot it will do it magic"
+    },
+    {
+      "t": 300.6,
+      "end": 320.6,
+      "text": "and eventually it will come up with a new tab that gets inserted with the information we ask for so we ask for the description some onhand information which ends up being the the quantity on hand field and then the unit cost and what you can see here they actually also generated a title for the tab it inserted sort of based on the"
+    },
+    {
+      "t": 320.6,
+      "end": 341.3,
+      "text": "summary of of what we asked for and you can also see it has a dotted line uh that means that this tab has not been saved yet it's in draft mode and you can of course modify this even further and to do that we have uh moved the window at the bottom so we can actually better see uh what was"
+    },
+    {
+      "t": 341.3,
+      "end": 358,
+      "text": "uh generated for this analysis but it also allows us to add some further adjustments to this so for instance we could choose to uh so let's sort the this list by by the by the cost so let's say we want to"
+    },
+    {
+      "t": 358,
+      "end": 378.2,
+      "text": "short the unit cost cost and let's do it descending and then it will run again and it will add the Sorting now so we have the the biggest number at the top pretty easy of course you can also do this by hand but uh but it's if you don't"
+    },
+    {
+      "t": 378.2,
+      "end": 398.2,
+      "text": "really know where to click it's much easier just to to tell it what you want so now we have two iterations of this tab that was generated the first one with the three columns the second one where we also added sorting and you can see that in the dialogue here this says two of two uh and if you change your mind and you don't want the Sorting anyway you can just click"
+    },
+    {
+      "t": 398.2,
+      "end": 418.3,
+      "text": "the the back arrow go back to the first iteration if the more want to use that or you can go ahead and again to the to the second one so you can always skip back and forth between the different iterations uh of the analysis you have created uh to make it a little more advanced let's try to uh to take away some of the"
+    },
+    {
+      "t": 418.3,
+      "end": 434.6,
+      "text": "items so for instance we we only want to to show the the the items that have a replacement so let's say show only items with a"
+    },
+    {
+      "t": 434.6,
+      "end": 445.3,
+      "text": "replacement and oh that was actually misil the replacement anyway let's try to see whether C pilot can figure that out anyway it should be able to figure that"
+    },
+    {
+      "t": 445.3,
+      "end": 466,
+      "text": "out and you can actually see that now it added a filter to take a way the ones that don't have a replacement you can also see in the in the name it actually figured out even though I misspelled replacement it figured out the right word to put in there and if you want to take a look at what was actually generated or created for us we can go to the filter"
+    },
+    {
+      "t": 466,
+      "end": 486.2,
+      "text": "and see that even though we ask for replacement we can actually see there's no field or column called replacement but there's one called substitution so copilot figured out that replacement substitution that's sort of the same so let's add a filter to substitution exist and set it to yes and that's what we're seeing now"
+    },
+    {
+      "t": 486.2,
+      "end": 502,
+      "text": "so now we added columns we added sorting and we added some filtering and if we're happy with that we can just click the keyid if we don't like it we can discard it but for now let's choose to keep it because this was actually the way we want to analyze our"
+    },
+    {
+      "t": 502,
+      "end": 522.4,
+      "text": "data but of course there's more than that so let's try to create a new one uh and if you're not really sure how to start phrasing what you want there's a prompt guide here where you can actually see different suggestions we have so you can do grouping and pivoting and you can showing your Fields you can also do sorting"
+    },
+    {
+      "t": 522.4,
+      "end": 544.3,
+      "text": "and filtering and then at the end there's something where you can freeze your columns or you can rename the actual tab let's try to do one with with grouping so let's say we want to group by the vendor so we'll just tell it to group by the vendor and let's see what it gets generated from"
+    },
+    {
+      "t": 544.9,
+      "end": 559.8,
+      "text": "that so it actually found the the vendor number and then did a grouping on that it chose to also add the description sort of we can see which items um belongs to this vendor and then of course also the"
+    },
+    {
+      "t": 559.8,
+      "end": 579.3,
+      "text": "type and that's actually close to what we wanted U but maybe we weren't that happy with the with the group by vendor name so let me change that so let's tell it to to rename the tab so we can for instance call it the items prenter"
+    },
+    {
+      "t": 579.3,
+      "end": 592.2,
+      "text": "instead and then it will rename the tab for us as you can see we still have the dotted underline meaning that this tab has not been saved yet it's still in this draft mode where we can refine"
+    },
+    {
+      "t": 592.2,
+      "end": 612.4,
+      "text": "it and this is actually what I want or at least it's close to so I can choose to click the key bit uh but before doing that I actually want to get rid of the type because I actually only want the vendor number and the description so of course I could uh tell co-pilot to remove the type column another option is actually"
+    },
+    {
+      "t": 612.4,
+      "end": 632.5,
+      "text": "just to find the column out here and then just say we want to remove that what happens when I do this is that we will sort of commit the draft uh tab we have do the change you ask for and then take the dialogue away so let me try to click over here you will see that the tab type column went"
+    },
+    {
+      "t": 632.5,
+      "end": 652.5,
+      "text": "away the dialog closed and the tab is now fully safe because it has the solid line so this was sort of some of the details you can do with the with the co- pilet Thomas that's great um isn't it it it's actually fantastic I'm wondering is"
+    },
+    {
+      "t": 652.5,
+      "end": 673,
+      "text": "this are we sending a lot of data to like the customer data to to co-pilot to generate this that's a really really good Chris yes of course we don't send any of your data to co-pilot because that's not what's needed the only thing we actually send to co-pilot is the description of which columns are available on your list and based on that information copilot"
+    },
+    {
+      "t": 673,
+      "end": 693.1,
+      "text": "generates an analysis and then after that data gets filled into that nice so there's no uh no risk in leaking your data in any way so I really like it Thomas but it also feels like your demo is very mechanic like you show the features goodby yes so could you show like show us the money here like I want"
+    },
+    {
+      "t": 693.1,
+      "end": 713.1,
+      "text": "to know what my customers owe me can you do that for me can help me answer that question let for that so for inst maybe we could use the customer ler interviews for that let's go to that list uh and let create a new tab and you wanted something that show show me what my customers"
+    },
+    {
+      "t": 713.1,
+      "end": 722.2,
+      "text": "owe me show me what my let me try that what my customers"
+    },
+    {
+      "t": 722.9,
+      "end": 743.6,
+      "text": "that and that's interesting here because now we haven't specified which columns to do anything with no filtering or anything we just in a natural language sentence told copile what we wanted and uh now it comes back wow with an analysis with the costomer name the amount"
+    },
+    {
+      "t": 743.6,
+      "end": 763.6,
+      "text": "and the remaining amount fantastic it's almost what I want but it seems like this is for each invoice or maybe you can can we just group it by customer or yeah maybe we could we could at least take away the the amount column because you actually you only wanted the the the remaining"
+    },
+    {
+      "t": 763.6,
+      "end": 781,
+      "text": "amount so let's say remove amount column but what if we add some information on when these money I actually want to know when when the payments are due so maybe due month and year or yeah for instance and then show let's to show"
+    },
+    {
+      "t": 781,
+      "end": 787.3,
+      "text": "the due year perhaps and maybe the months as well"
+    },
+    {
+      "t": 788.8,
+      "end": 808.8,
+      "text": "yeah nice so it's almost what I want um except would be nice to I'm a pivot kind of guy I I want actually these as columns instead of um like real pivot columns do that let's ask whether we could get it as a pivot and maybe"
+    },
+    {
+      "t": 808.8,
+      "end": 821.4,
+      "text": "we should then move the the date to the top so we can actually Group by them that would be nice see so let's see what happens"
+    },
+    {
+      "t": 821.4,
+      "end": 841.7,
+      "text": "now this seems close what you wanted you got a pivo you got your dates at the top but got a lot of measures here can can we clean that up as well maybe there's a bit too many didn't want all of them okay uh so copilot was a bit creative and thought you actually wanted all of them so of course we can ask co-pilot to take them away again"
+    },
+    {
+      "t": 841.7,
+      "end": 858,
+      "text": "there's also another option we can maybe it's in this case it's it's easier just to do it manually so we can here just go and remove the one we actually do not want so you actually wanted the the remaining amount yeah so let's keep"
+    },
+    {
+      "t": 858,
+      "end": 861.3,
+      "text": "that"
+    },
+    {
+      "t": 861.3,
+      "end": 881.4,
+      "text": "and we now have that and maybe we should also size it a bit so you can actually that's nice to see so now you're pretty close to what you ask that's not even close Thomas this is exactly what I wanted and you know I kind of like the idea that co-pilot helped me get started with my analysis but in the end I was in control I"
+    },
+    {
+      "t": 881.4,
+      "end": 901.4,
+      "text": "kind of finish it up did my things and and kind of made that human human element and approved the analysis that's fantastic and I love how just a few words is all it took really to draft all of this uh content on screen now it's important to understand how this works as well um the data needed to answer these kind"
+    },
+    {
+      "t": 901.4,
+      "end": 921.5,
+      "text": "of questions happen to be on this list so I want you to understand that co-pilot at this stage in preview will only work with fields that are shown on the page on the list page itself um and if you ask for other fields that are not there or on the table uh co-pilot will not be able to bring them into that analysis tab uh similarly co-pilot will"
+    },
+    {
+      "t": 921.5,
+      "end": 941.8,
+      "text": "not stretch across different tables to join them together uh to bring data together that way uh so it's important to know this now uh co-pilot here and the ability to analyze that list is available on all virtually all list pages and I believe worksheets as well in business Central uh including your custom list so if you've created"
+    },
+    {
+      "t": 941.8,
+      "end": 961.8,
+      "text": "a custom list page with your own you know information in there such as the the list of vehicles for example as part of uh customizations on your environment or something that comes with an add-on solution as well uh this just works at no additional effort from your part in fact you know as long as the user has permission"
+    },
+    {
+      "t": 961.8,
+      "end": 982.7,
+      "text": "to analyze uh or the page allows analysis U you'll Now find co-pilot on that page uh a few more tips here to understand um you know how to use this and where to use this so first of all co-pilot in business Central is available exclusively for business Central online so that's where you'll find this new capability"
+    },
+    {
+      "t": 982.7,
+      "end": 1002.9,
+      "text": "um this has been released with 2024 release Wave 1 so you'll need to upgrade to version 24.0 or later later um it's also being rolled out for uh all environment localizations with the exception of Canada for regulatory reasons um it's also available in preview in English language only so you'll need to make sure"
+    },
+    {
+      "t": 1002.9,
+      "end": 1020.7,
+      "text": "that my settings indicate that your user is running with one of these languages on screen and finally one of the very common questions that we get how much does this cost uh well at this stage co-pilot is available uh with your business Central license at no additional cost"
+    },
+    {
+      "t": 1020.7,
+      "end": 1041.1,
+      "text": "cost um now we designed this feature really from from the ground up uh on Microsoft's values and responsible AI standards and in fact the Microsoft cloud runs on trust this is something we've we've always said from the very beginning of the cloud um and really our approach to AI here is is no different uh so our promise to our customers is that their data"
+    },
+    {
+      "t": 1041.1,
+      "end": 1061.2,
+      "text": "is their data we do not use that data to train the AI models to the benefit of others in this case and as Thomas mentioned men earlier uh we we're not sending all of that data over to Azure openai um now uh you're also protected at every step with you know the security privacy and compliance controls that you expect"
+    },
+    {
+      "t": 1061.2,
+      "end": 1081.2,
+      "text": "and admins are in control in this case as well um and uh you know we every co-pilot feature of Microsoft including this one is built very thoughtfully uh to make sure our customers are safe and their data remain safe so for example uh when you put co-pilot to work here it only has access to the the lists the fields and the"
+    },
+    {
+      "t": 1081.2,
+      "end": 1101.6,
+      "text": "data that um that you as a user have access to and really the only thing that's generated is that layout of information no new data is generated in this case um and uh all of those things help ensure that it's you know it's as accurate as possible in terms of what is what is generated in that analysis Tab and finally AI"
+    },
+    {
+      "t": 1101.6,
+      "end": 1112.6,
+      "text": "is sometimes Incorrect and that's why we always give our users the opportunity to review what co-pilot has generated before for committing it and fully saving it uh into business"
+    },
+    {
+      "t": 1112.6,
+      "end": 1132.8,
+      "text": "Central So you you're probably wondering um you know if you're a partner how do I try this out how do I get handson and how do I demo it to my customers uh well that's super simple for demos we always recommend CDX uh customer digital experiences so if you just go to aka.ms CDX you can sign in with your partner"
+    },
+    {
+      "t": 1132.8,
+      "end": 1153.2,
+      "text": "identity uh and then with just a few clicks you can get your own tenant your own environment a business Central if you sign up for a business Central uh free trial uh in that tenant um once you're there uh you are ready to experience analysis assist with co-pilot um if you don't see it in that environment there's a few things you can"
+    },
+    {
+      "t": 1153.2,
+      "end": 1173.9,
+      "text": "watch out for so first of all check the co-pilot and AI capabilities page we've created this single simple space for admins to go in and be able to find which exactly which co-pilot capabilities are in my environment um so we give that trans transparency but also control so you may need to check uh is this particular"
+    },
+    {
+      "t": 1173.9,
+      "end": 1194.5,
+      "text": "um feature uh is it active or it hasn't been deactivated in there that might be why you don't see it in the environment uh the other thing to watch out for here is that because Azure open AI service is only available in uh certain regions but not all some of our customers on some environments will need to opt in to"
+    },
+    {
+      "t": 1194.5,
+      "end": 1214.6,
+      "text": "um having data move outside of the geographic boundary uh which is a switch you see on the screen right here um and when you do that not just this feature but all the co-pilot capabilities should light up in that environment uh if you still don't see uh analysis assist in your environment there a few more things you can check make sure your language is set"
+    },
+    {
+      "t": 1214.6,
+      "end": 1229.5,
+      "text": "to English in my settings make sure you've upgraded to version 24 or later of course and check the permission set so there's a permission set which governs whether as a user you can or cannot generally analyze lists in business Central as well"
+    },
+    {
+      "t": 1229.5,
+      "end": 1249.5,
+      "text": "when you do get in there and have the opportunity to try it out uh please please please send us your feedback help us improve uh this experience and help us improve co-pilot um so you know you can use the like and dislike buttons in the actual uh dialogue itself um that feedback is really important to us it helps us"
+    },
+    {
+      "t": 1249.5,
+      "end": 1269.8,
+      "text": "continue evolving and improving co-pilot in general so we really appreciate if you take the time to to give us that feedback Okay so there's so much more co-pilot in this wave uh and in fact there's um a whole bunch of sessions we recommend that you go take a look at uh you know co-pilot is helping our users uh get more efficient"
+    },
+    {
+      "t": 1269.8,
+      "end": 1290.2,
+      "text": "with entering sales lines and their sales documents uh you can chat with co-pilot to find data in business Central but also learn new skills and ask about how to do things or explain Concepts uh and we're also helping with uh electronic invoice matching as well uh on top of that Kenny I believe we have also some really interesting sessions on analytics as well true"
+    },
+    {
+      "t": 1290.2,
+      "end": 1310.4,
+      "text": "so in in the the 2024 release wave one we have new Excel reports for finance and sales so there's a session for that and you know what we even added a little bit of excel co-pilot in there so if you want to have a a taste of that uh go check it out now to build these multilanguage Excel"
+    },
+    {
+      "t": 1310.4,
+      "end": 1330.6,
+      "text": "reports we also added new capabilities in the Excel layout feature so there's a a partner or a developer part of the that story as well in a session called Excel layouts for developers so go check that out as well fantastic and great to hear there's more Microsoft copilot showing up oh yeah and more of our videos there uh but if you want to learn more about co-pilot"
+    },
+    {
+      "t": 1330.6,
+      "end": 1351,
+      "text": "uh here's a couple of resources that you can follow um the partner pitch deck uh has some fantastic slides you can use with your customers and that's been updated to include AI as well so definitely go check it out and of course check out our documentation for more tips and examples and information about how analysis assist works in business Central for"
+    },
+    {
+      "t": 1351,
+      "end": 1364.9,
+      "text": "those of you who are completely new to business Central uh there's plenty of resources to help you get engaged uh you can follow us on social media you can you know engage directly with the product team as well uh and share your feedback and valuable"
+    },
+    {
+      "t": 1364.9,
+      "end": 1385.8,
+      "text": "ideas so I think we can wrap that up congratulations you've reached the end of this video uh we hope you found this informative um I'm really eager to hear your feedback and what you do with these new capabilities for co-pilot in business Central so on behalf of the team that worked on this um thank you uh and uh thanks for"
+    },
+    {
+      "t": 1385.8,
+      "end": 1387,
+      "text": "watching"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 17.269,
+      "text": "[Music]"
+    },
+    {
+      "t": 17.279,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 4036
+}

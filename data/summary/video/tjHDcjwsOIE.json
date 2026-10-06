@@ -1,0 +1,27 @@
+{
+  "video_id": "tjHDcjwsOIE",
+  "item_id": "video/yt-microsoft/tjHDcjwsOIE",
+  "summary": "The BC apps GitHub repository for Microsoft-developed Business Central apps, and how community members contribute to it: issue templates, approval, pull request checks, AL-Go builds and tests. It covers the 240 release, where 21 of 27 community pull requests were merged.",
+  "overview": "The session introduces the BC apps repository on GitHub, launched in November 2023. It hosts source code for Microsoft-developed apps such as the system application, business foundation, test runner and performance toolkit. For the 240 release, the community submitted 27 pull requests and 21 were merged.\n\nThe video then walks through the contribution flow: creating an issue from a template, getting an approved label, forking, developing in a Docker-based environment and opening a pull request. It shows the automated checks, the three-flavor build, the testing phase, and how to debug compile and test failures in GitHub using AL-Go output.",
+  "key_points": [
+    "The repository only hosts Microsoft-developed apps (system application, business foundation, some developer tools). It is not the place to report product defects with customer impact.",
+    "Contribution starts with a GitHub issue using one of two templates, implement a BC idea or fix a bug. Work begins after the issue gets an approved label.",
+    "A pull request needs resolved comments, at least two approvals from Microsoft engineers who maintain the repository, a linked approved issue, and passing build checks. Link an issue by writing # and the issue ID.",
+    "The pull request build compiles apps in three flavors: vanilla, with translations, and clean mode. Clean mode uses preprocessor directives such as 'clean 23', and it can fail while the vanilla build succeeds.",
+    "The second build phase runs tests on the system application and business foundation in vanilla and clean modes. All tests must pass.",
+    "AL-Go for GitHub runs the builds and tests. It gives a test summary and stack traces, and GitHub reports compilation errors inline in the pull request.",
+    "Automated pull requests update the BC artifact version, app baselines version and translation package version. They carry an automation tag and need no action from contributors."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "functional consultant"
+  ],
+  "extraction_hash": "60d26e22c0ab7658fc115a40ca5878691bd4afcb40389200eb2369608924fbc5",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0237864
+  }
+}

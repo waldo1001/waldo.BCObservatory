@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/bi-examples-custom-financial-reports",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6715b92dbca506f9c3b8b7094c842dc1e968cca1",
       "words": 1896,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:40:22.354Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003787
+    },
+    "summarized": {
+      "at": "2026-10-06T19:42:54.031Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:42:54.032Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:42:54.033Z",
+      "page": false
     }
   },
   "input_hash": "6715b92dbca506f9c3b8b7094c842dc1e968cca1",
@@ -58,5 +77,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6715b92dbca506f9c3b8b7094c842dc1e968cca1"
+  "output_hash": "509365c98d6d0636c02631d5e81ca0e2019af5ffdde597cf144b15d49fab7a45"
 }
