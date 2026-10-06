@@ -157,3 +157,11 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   items back; the code job yields to the event loop every 200 files. The per-item community guard (D25) trims each
   field that repeats 25+ caption words to 20 words + "..." instead of skipping the video; the 31 earlier `leak`
   skips get two more chances from their last completed stage (LLM calls are cached).
+- **D34 Blogs: post text to the vault, one Haiku pass, derived pages.** `fetched` stores the post body as text in
+  `vault/posts/<source>/` (WordPress REST content, else the page's article element; only with a vault checkout; one
+  fetch at a time). `extracted` is one Haiku pass, 4 posts per call: summary and key points in our words, systems,
+  topics, objects as named, features, versions, language, at most 3 quotes checked verbatim and under 25 words;
+  community fields that repeat 25+ words of the post are trimmed (D33). No Sonnet pass per post (PLAN had one): the
+  Haiku summary stands, as for Learn pages, halving the backfill cost. `published` writes
+  `content/posts/<source>/<key>.md` (`frontmatter.post`), `posts/llms.txt` and site routes. Opted-in full-text
+  sources are not trimmed but still show derived content only. Measured: ~$0.03 a post. Scrape-only sources wait.

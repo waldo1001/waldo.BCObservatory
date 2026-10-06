@@ -7,12 +7,18 @@
  * Docs: `fetched` reads page metadata from the git mirror (no quota); `extracted` summarizes non-reference pages in
  * Haiku batches; the rest only move the item along (no per-page pages, D01; hubs read the summaries, D12).
  * `reviewed` runs only for flagged videos (Opus, D07); unflagged ones go from `linked` straight to `published`.
+ * Blog (D34): `fetched` stores the post text in the vault (community raw text, D08), `extracted` is one Haiku pass,
+ * `published` writes content/posts/<source>/<key>.md; summarized/linked only move the item along.
  * Code (D27): `fetched` checks out the snapshot source of a BC major, `extracted` writes data/code/<major>/<cc>/;
  * only each major's `snapshot_source` is accepted, quota code_jobs.
  */
 import { captionedHandler, fetchedHandler } from "../caption/fetch.js";
 import { codeExtracted, codeFetched, sparseCheckout } from "../code/job.js";
 import { CACHE_DIR } from "../lib/paths.js";
+import { loadSources } from "../lib/config.js";
+import { postFetched } from "../fetch/post.js";
+import { postExtractedHandler } from "../extract/post.js";
+import { postPublished } from "../render/post.js";
 import { extractedHandler } from "../extract/video.js";
 import { gitPageFetched } from "../fetch/git-page.js";
 import { docsExtractedHandler, passThrough } from "../extract/docs.js";
@@ -23,8 +29,16 @@ import { summarizedHandler } from "../summarize/video.js";
 import type { StageHandlers } from "./execute.js";
 
 const codeDeps = { checkout: sparseCheckout, cacheDir: CACHE_DIR };
+const blogSources = loadSources().filter((s) => s.kind === "blog");
+const postFetch = new Map(blogSources.map((s) => [s.id, { rest: s.fetch?.rest, user_agent: s.fetch?.user_agent }]));
+const postInfo = new Map(blogSources.map((s) => [s.id, { name: s.name, author: s.author ?? null, full_text: s.full_text }]));
+const fullText = (id: string) => !!postInfo.get(id)?.full_text;
 
 export const STAGE_HANDLERS: StageHandlers = {
+  blog: {
+    fetched: postFetched(postFetch), extracted: postExtractedHandler(fullText), summarized: passThrough({ from: "extract-post" }),
+    linked: passThrough({}), published: postPublished(postInfo),
+  },
   code: { fetched: codeFetched(codeDeps), extracted: codeExtracted(codeDeps), linked: passThrough({}), published: passThrough({}) },
   roadmap: { fetched: passThrough({ from: "snapshot" }), linked: passThrough({}), published: featurePublished() },
   docs: {

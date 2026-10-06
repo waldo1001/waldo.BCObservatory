@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/frontmatter.post.json",
+  "title": "Frontmatter of a community post page (content/posts/<source>/<key>.md)",
+  "allOf": [
+    {
+      "$ref": "frontmatter.base.json"
+    }
+  ],
+  "type": "object",
+  "required": [
+    "post_id",
+    "source_id",
+    "url",
+    "published_at",
+    "author",
+    "full_text",
+    "quotes",
+    "code_objects_mentioned"
+  ],
+  "properties": {
+    "type": {
+      "const": "post"
+    },
+    "post_id": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "source_name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "published_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "author": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "full_text": {
+      "type": "boolean"
+    },
+    "words": {
+      "type": "integer"
+    },
+    "quotes": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "text"
+        ],
+        "properties": {
+          "text": {
+            "type": "string",
+            "maxLength": 240
+          },
+          "why_it_matters": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "code_objects_mentioned": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "systems": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "versions_mentioned": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

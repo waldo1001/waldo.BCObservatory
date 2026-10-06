@@ -25,4 +25,9 @@ const localizations = defineCollection({
   loader: glob({ pattern: "*.md", base: "../content/localizations", generateId: ({ entry }) => entry.replace(/\.md$/, "") }),
 });
 
-export const collections = { videos, topics, features, objects, localizations };
+const posts = defineCollection({
+  // ids are <source>/<post key>
+  loader: glob({ pattern: "**/*.md", base: "../content/posts", generateId: ({ entry }) => entry.replace(/\.md$/, "") }),
+});
+
+export const collections = { videos, topics, features, objects, localizations, posts };
