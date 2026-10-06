@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-reports",
   "published_at": "2026-04-07T14:30:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "593e90e88da5c6bfa123b2686b56ba208a3ef1f8",
       "words": 96,
       "forms": 46
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:02.786Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007361
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:02.834Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:02.835Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:02.836Z",
+      "page": false
     }
   },
   "input_hash": "593e90e88da5c6bfa123b2686b56ba208a3ef1f8",
@@ -268,5 +287,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "593e90e88da5c6bfa123b2686b56ba208a3ef1f8"
+  "output_hash": "6e4f802bf0b7cc50cb11d523b6657e63250814f3e3d5a5531f20692ee9b6f83e"
 }

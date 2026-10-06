@@ -1,0 +1,241 @@
+{
+  "video_id": "Qz-V7qvOY-8",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.2,
+      "end": 26.6,
+      "text": "welcome to busy Central lunch event 20125 release wave one in this session we will show the most of our new enhancements related to eents in this wave before we go to all these new features I want to remind you on our e doent solution Journey why I'm"
+    },
+    {
+      "t": 26.6,
+      "end": 46.6,
+      "text": "doing that because I want to remind you that we start with this project just two years ago only two years ago and when say two years we didn't deliver first release our idea is 2 years old our internal project kickoff uh happened May 2023 so in first wave wave two Tober"
+    },
+    {
+      "t": 46.6,
+      "end": 67.3,
+      "text": "2023 we just deliver some basic set of functionality we made localization for Denmark first connectors and just F yes in first uh interface for extending then we added more features we added uh we got first users and partners uh added some new localizations"
+    },
+    {
+      "t": 67.3,
+      "end": 87.4,
+      "text": "we added Co pilot then we continue with um attachments to P format with some new uh different formats and different uh connectors then slightly we move to New localization end of last year with Germany and Spanish localization and"
+    },
+    {
+      "t": 87.4,
+      "end": 107.6,
+      "text": "so on so on so now we are in 20 25 release way one you will see many new features so I will not read all of them in this moment and what is important you can expect much more to come in next miners we are expecting new eents apis some new document types so we are Contin to invest"
+    },
+    {
+      "t": 107.6,
+      "end": 128.1,
+      "text": "in uh this module so this is important for Microsoft and we will continue to invest based on your feedback and what we see as strategical moves so we already have backlog for next wave so you can expect much more more good new things in October so let's make an overview of what is new and you will see this is a full screen of all new"
+    },
+    {
+      "t": 128.1,
+      "end": 148.4,
+      "text": "features and I'm pretty sure now if I calculate that more than 50% are based on your feedback so this is important every time when you have feedback tell us and we will try to improve uh this module based on that so now we have possibility to delete incorrect e documents and avoid duplicates this this was important because in some cases"
+    },
+    {
+      "t": 148.4,
+      "end": 168.4,
+      "text": "you could uh repeat um um entering the same type of document so system will now if recognize this duplicate just remove automatically so now Additionally you can send e documents via service and email simultaneously so this is important very often even even if you have some service some connector you want to send"
+    },
+    {
+      "t": 168.4,
+      "end": 188.6,
+      "text": "to some specific person via email this document so now you can do it in a parallel then multiple incoming documents can be attached if you remember if you're working manually you could attach only one by one now you can set all of them 5 6 10 and attach automatically then the uh automated attachments into P format so now"
+    },
+    {
+      "t": 188.6,
+      "end": 208.8,
+      "text": "if you're working sales system will automatically take your uh invoice uh uh layout and attach to your documents and send this automatically when we receive system will automatically extract your PDF from um uh payal and you will see this uh PDF into f f box in electronic document so"
+    },
+    {
+      "t": 208.8,
+      "end": 229,
+      "text": "there are so many new things uh process documents in two steps uh preview incoming um uh electronic invoices uh export reminders Finance charart the PayPal files and fix unposted purchase document because what could happen you could have accidentally to delete uh purchase invoice already"
+    },
+    {
+      "t": 229,
+      "end": 249,
+      "text": "connected electronic invoice or purchase crit memo now you can just go back to electronic uh document and you can say uh recreate and system will automatically recreate purchase invoice and purch create member so many new interesting things new connectors uh new localizations new interface so many new things and"
+    },
+    {
+      "t": 249,
+      "end": 269.3,
+      "text": "I would like now to emphasize uh this one Asia docum intelligence f e documents and why I will move to this story shortly to explain why this is important what we had earlier electronic invoice so this is some XML format the most of these formats for XML type it doesn't mean"
+    },
+    {
+      "t": 269.3,
+      "end": 290,
+      "text": "they're NE to be XML but electronic documents some kind of machine readable format as electronic inv voice we got this as this is machine readable format we created our our electronic document in a busy Central if we had this format already set up so it was how system worked earlier and how it still work but what we added"
+    },
+    {
+      "t": 290,
+      "end": 310.2,
+      "text": "now you can get even PDF invoice and why this is important maybe you are in country where you have enforcement to use electronic invoices but you will still have vendors from some other countries and if this other countries it doesn't mean that they have enforcement to use electronic invoices and you can get PDF so our idea is to keep the same user"
+    },
+    {
+      "t": 310.2,
+      "end": 330.2,
+      "text": "experience so you do not need to switch from one functionality to another absolutely everything the same so now if you receive PDF invoice system will send to Asia document intelligence and what it is actually this is OCR service our Asia OCR service now embedded in a busy Central so syst will send to asure"
+    },
+    {
+      "t": 330.2,
+      "end": 350.5,
+      "text": "document intelligence when we get uh information back it will be again machine aable format from this moment when this is machine aable format there is no any difference if this original document was from PDF or from XML or some other format this is Mas format we will proceed electronic documents and proceed"
+    },
+    {
+      "t": 350.5,
+      "end": 370.6,
+      "text": "um uh further creating purchase invoices purchase create mem whatever you got so this is important now um I want to emphasize this is still work in progress we have this in the preview uh but this is something what will come very soon and we will have separate session about uh showing all these details related to PDF so in this session we will not"
+    },
+    {
+      "t": 370.6,
+      "end": 390.6,
+      "text": "show this part I just wanted to emphasize that this is now unique platform so whatever you are working if you're working only electronic invoices good if you're working only with PDFs good if you have combination everything good the same use experience so this is the main message you will have the same user experience and all features already existing for electronic invoicing for"
+    },
+    {
+      "t": 390.6,
+      "end": 410.6,
+      "text": "example co-pilot for matching with purchase order it can be used with PDF invoices as well and opposite everything what is created for PDF can be used for electronic invoices so this is the main message uh about that but now I will uh switch to my colleague Magnus and he will show the most attractive definitely we cannot show"
+    },
+    {
+      "t": 410.6,
+      "end": 431.3,
+      "text": "all these features and yes before we switch to Magnus some of these features will be available in April some of them will be available in May or June but this is the least of features what you can expect in April or very soon after that so Magnus please show us some of these exciting features thanks Alexander yeah so I picked out"
+    },
+    {
+      "t": 431.3,
+      "end": 444.7,
+      "text": "uh a handful of them to uh to demo today so we can see how they are in the product so let's start with the two-step processing so I will show you that on our e doent Services"
+    },
+    {
+      "t": 444.7,
+      "end": 464.9,
+      "text": "page we now have this new field called automatic processing and as Alexander said before this release this was always uh true we would always try uh and create a purchase invoice but again with feedback from the community from our users and our partners there was a request to actually"
+    },
+    {
+      "t": 464.9,
+      "end": 485.2,
+      "text": "being able to review uh the document before you you go ahead and create uh the the purchase invoice in BC so let us demonstrate that so I will go ahead and uh and set this to know for my service and then I will navigate to our e doents list page to demo"
+    },
+    {
+      "t": 485.2,
+      "end": 505.3,
+      "text": "uh importing a document and here you can see actually that uh for today's uh illustration purposes I have a e document that is uh in an error State uh and one of the the new things that we also can do is that we can now delete eents if they are wrong or if the received content is not what was agreed upon"
+    },
+    {
+      "t": 505.3,
+      "end": 525.3,
+      "text": "and so on so there is this option now so this one I actually want to get rid of so I will just go ahead and delete it click yes and we of course make sure that that when you delete that you actually want to delete it because you might not be able to retrieve it again especially if it's coming from an external service so but in this case I want to so I'll go"
+    },
+    {
+      "t": 525.3,
+      "end": 535.8,
+      "text": "ahead and click yes and then I will upload a new file here I will choose my demo"
+    },
+    {
+      "t": 535.8,
+      "end": 555.9,
+      "text": "XML and as you can see it opens up the E doent and and it has been what I guess we can consider partially processed we can inspect the preview lines here to see that okay there is a desk in this uh invoice uh it has there is only one of them and it has a certain price before we actually go ahead and create the purchase"
+    },
+    {
+      "t": 555.9,
+      "end": 571.1,
+      "text": "invoice you can go and see the lines again you can go under related view extracted data to to also inspect Header information that will eventually end up on the uh created purchase invoice in BC"
+    },
+    {
+      "t": 571.1,
+      "end": 591.1,
+      "text": "so this looks good to me I'll just do a final confirmation with the attachment that we now automatically attaches any embedded uh PDF in the XML so I can open up and see uh that this was provided with the E invoice and to me I'll zoom in a little bit here it looks okay so I am good to go ahead and actually"
+    },
+    {
+      "t": 591.1,
+      "end": 601.6,
+      "text": "process the document so I'll click reprocess document and now we have uh the the invoice here we can see that it was filled out and I will open it"
+    },
+    {
+      "t": 601.6,
+      "end": 612.9,
+      "text": "up and we now have a uh a created purchase invoice and this is how you can now do two-step processing uh when you have this field set to know in the E doent"
+    },
+    {
+      "t": 612.9,
+      "end": 625.7,
+      "text": "service then also just to illustrate the deletion for a more realistic scenario I will upload another file demo one"
+    },
+    {
+      "t": 625.7,
+      "end": 646.1,
+      "text": "here and again we have it in this uh in this uh draft after or in this in between before we have created the the purchase invoice in the system and I actually don't I don't agree with the with what it was it was not what uh we want to create an invoice with so I'll go ahead and I will just click the the delete um"
+    },
+    {
+      "t": 646.1,
+      "end": 666.2,
+      "text": "and again we'll make sure that you actually want to go ahead and do this and then you click yes and it will delete the document then I will actually switch to the sending side to demo another new addition namely uh embedding the invoice that you are sending"
+    },
+    {
+      "t": 666.2,
+      "end": 686.3,
+      "text": "in the XML when you're sending it off so that the receiver will get a a printed version and if they're using BC it will be in the fact box in their incoming e doent so let's see how that works so on my demo sending company here I will open up e doent Services because this also a configuration you will need to set"
+    },
+    {
+      "t": 686.3,
+      "end": 706.4,
+      "text": "so I'll open up my pagero connector and I will scroll down to the exporting Tab and here we can see we have a new parameter embed document PDF to export and I will actually enable this so now whenever I create a e doent when posting I will embed"
+    },
+    {
+      "t": 706.4,
+      "end": 726.4,
+      "text": "that PDF of that invoice inside the XML so let's try and do that so I'll go to One customer 1000 here I will create a new sales invoice and then I'll just quickly fill it out with uh one of desk here that is fine and I will"
+    },
+    {
+      "t": 726.4,
+      "end": 746.6,
+      "text": "just put a test reference in this one let's see it is fine release and post here and then I will open up the posted invise and as you've could you can just go to related e documents and then open up the related document to this posted sales invoice and now it gets a little bit"
+    },
+    {
+      "t": 746.6,
+      "end": 766.6,
+      "text": "uh gnly you have to go under the locks because we to inspect the XML so we can see that that the embedded PDF is actually there so I'll open up the locks in the new uh fact box here see that we have our exported lock from here we can export the file and I will just open it up quickly and zoom in a little bit and you can"
+    },
+    {
+      "t": 766.6,
+      "end": 780.5,
+      "text": "see here under in the purle standard this is what we have added that under attachments we now have that uh that is an embedded binary object that contains that invoice um that you posted"
+    },
+    {
+      "t": 780.5,
+      "end": 801.2,
+      "text": "and that's uh yeah that is a a brief look into some of the the things that we have shipped and uh yeah back to you Alexander thank you Magnus as I told in the beginning and there are so many new exciting features it will take much more time to go deep in all of them"
+    },
+    {
+      "t": 801.2,
+      "end": 821.3,
+      "text": "but please uh some other uh yes features are explaining some other sessions so I'm inviting you to watch another session because in this release in this busy cental launch event we will have six different sessions related to electronic uh documents so please watch one of them because we'll find many many exciting new features so now thank"
+    },
+    {
+      "t": 821.3,
+      "end": 825,
+      "text": "you for watching this video"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.23,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.24,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2307
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-automate-reminders",
   "published_at": "2026-04-07T14:30:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1a995deebde9902875a341756c98c777b73e0a0b",
       "words": 863,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:02.763Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.007361
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:02.826Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:02.827Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:02.828Z",
+      "page": false
     }
   },
   "input_hash": "1a995deebde9902875a341756c98c777b73e0a0b",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1a995deebde9902875a341756c98c777b73e0a0b"
+  "output_hash": "6278843e2460591dbcab9111a7490f72f43a3a300fed568354ccd6d6b0484110"
 }

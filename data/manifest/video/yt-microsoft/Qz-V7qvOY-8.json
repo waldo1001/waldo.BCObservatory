@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Enhancements in E-Documents (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=Qz-V7qvOY-8",
-  "published_at": null,
+  "published_at": "2025-04-01T15:00:37.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:43:05.564Z",
+      "captions": "auto:en-orig",
+      "duration_s": 825
+    },
+    "captioned": {
+      "at": "2026-10-06T18:43:15.753Z",
+      "path": "data/captions/microsoft/Qz-V7qvOY-8.vtt",
+      "vtt_sha256": "f513549183a3c2d08662bb9865aef2fe3a96a326c7306744e8c0354fe220f422",
+      "segments": 44,
+      "words": 2307,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 252,
     "duration_s": 825,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f513549183a3c2d08662bb9865aef2fe3a96a326c7306744e8c0354fe220f422"
 }

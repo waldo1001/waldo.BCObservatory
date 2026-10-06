@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-vat",
   "published_at": "2026-04-07T14:30:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6f383928efa537fe1777e8676f71dd4a909d8b62",
       "words": 4235,
       "forms": 11
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:02.787Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 14,
+      "cost_usd": 0.007361
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:02.837Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:02.839Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:02.840Z",
+      "page": false
     }
   },
   "input_hash": "6f383928efa537fe1777e8676f71dd4a909d8b62",
@@ -96,5 +115,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6f383928efa537fe1777e8676f71dd4a909d8b62"
+  "output_hash": "c41e1d64a2d40d7bf1825c0b5055d2dda560b49caee7f04358ac3b1b93b0eb06"
 }
