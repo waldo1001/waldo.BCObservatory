@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access",
   "published_at": "2026-04-23T09:00:42.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0bd2ec354efb5663e984bbb71f727d25a77c13e9",
       "words": 1756,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:17.226Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005757
+    },
+    "summarized": {
+      "at": "2026-10-06T18:42:17.812Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:42:17.813Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:42:17.814Z",
+      "page": false
     }
   },
   "input_hash": "0bd2ec354efb5663e984bbb71f727d25a77c13e9",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0bd2ec354efb5663e984bbb71f727d25a77c13e9"
+  "output_hash": "18d9bc9d5ea651538ee5d86ca5a6eebfd5dbe41d70d5b0739e27c4bcd600deca"
 }

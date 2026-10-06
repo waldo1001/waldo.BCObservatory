@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-setup-warehouse.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-setup-warehouse",
+  "title": "Configure warehouse processes",
+  "blob": "87a0106c911136b25c608f1c788bda5f1cd81b94",
+  "summary": "Configure warehouse processes and set up bin types, bins, put-away templates, and warehouse employees to define how items are handled in different warehouse locations.",
+  "systems": [
+    "warehouse",
+    "inventory",
+    "administration"
+  ],
+  "topics": [
+    "warehouse management",
+    "bin configuration",
+    "put-away",
+    "warehouse setup",
+    "locations"
+  ],
+  "objects": [],
+  "features": [
+    "bin types",
+    "bin contents",
+    "put-away templates",
+    "warehouse employees",
+    "directed put-away and pick",
+    "automatic breaking bulk",
+    "FEFO picking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00545,
+      "pages_in_call": 8
+    }
+  ]
+}

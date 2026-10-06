@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/projects-how-setup-jobs.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/projects-how-setup-jobs",
+  "title": "Set up projects, prices, and project posting groups",
+  "blob": "248b66911b3961b49dc1b6d485bd5e6d5e7b178e",
+  "summary": "Set up project prices for resources and items, project posting groups with G/L accounts, and project usage tracking to enable cost and revenue recognition.",
+  "systems": [
+    "projects",
+    "finance"
+  ],
+  "topics": [
+    "project setup",
+    "project pricing",
+    "posting groups",
+    "cost tracking",
+    "revenue recognition",
+    "wip calculation"
+  ],
+  "objects": [],
+  "features": [
+    "project setup configuration",
+    "resource pricing",
+    "item pricing",
+    "G/L account pricing",
+    "project posting groups",
+    "usage link tracking",
+    "multi-user posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00545,
+      "pages_in_call": 8
+    }
+  ]
+}

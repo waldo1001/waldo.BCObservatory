@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-pte-upload-validation-trace",
   "published_at": "2026-04-08T20:12:29.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f3703b40d77590eaac0a1c6f02324044e4a078e9",
       "words": 1043,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:17.234Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005757
+    },
+    "summarized": {
+      "at": "2026-10-06T18:42:17.834Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:42:17.835Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:42:17.837Z",
+      "page": false
     }
   },
   "input_hash": "f3703b40d77590eaac0a1c6f02324044e4a078e9",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f3703b40d77590eaac0a1c6f02324044e4a078e9"
+  "output_hash": "241b3509b70d1b794ddf0420ce8813bdbb345e36d969eb678289942d5a5cddd8"
 }

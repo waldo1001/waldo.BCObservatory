@@ -1,0 +1,280 @@
+{
+  "video_id": "YsmwHqxL1Zc",
+  "item_id": "video/yt-microsoft/YsmwHqxL1Zc",
+  "title": "Introducing: Payables Agent (2025 release wave 1)",
+  "duration_s": 360,
+  "systems": [
+    "copilot",
+    "purchasing",
+    "integration"
+  ],
+  "topics": [
+    "payables agent",
+    "e-documents",
+    "invoicing automation",
+    "optical character recognition",
+    "generative ai",
+    "human oversight",
+    "purchase order matching",
+    "three-way matching",
+    "invoice approval"
+  ],
+  "chapters": [
+    {
+      "title": "The accounts payable challenge and AI solution",
+      "t_start": 0,
+      "t_end": 66.7
+    },
+    {
+      "title": "Introducing the Payables Agent",
+      "t_start": 66.7,
+      "t_end": 122.5
+    },
+    {
+      "title": "Human oversight and configurable workflows",
+      "t_start": 122.5,
+      "t_end": 157.3
+    },
+    {
+      "title": "E-document connector for Microsoft 365",
+      "t_start": 157.3,
+      "t_end": 192.6
+    },
+    {
+      "title": "Inbound e-document list and purchase document draft pages",
+      "t_start": 192.6,
+      "t_end": 243.2
+    },
+    {
+      "title": "Building blocks and public preview timeline",
+      "t_start": 243.2,
+      "t_end": 276.4
+    },
+    {
+      "title": "Roadmap and future capabilities",
+      "t_start": 276.4,
+      "t_end": 360
+    }
+  ],
+  "features": [
+    {
+      "name": "Payables Agent",
+      "description": "An AI agent that streamlines the accounts payable process from receiving invoices through posting, applying accounting knowledge to handle the last mile of invoice processing that typically requires human intervention.",
+      "status": "preview",
+      "status_evidence_t": 276.4,
+      "status_evidence_quote": "we aim for this agent to be available for public preview somewhere in the second half of 2025",
+      "status_evidence_verified": true,
+      "t_start": 66.7,
+      "t_end": 351.2,
+      "is_demoed": false,
+      "caveats": [
+        "Designed for human oversight",
+        "Users can configure where humans enter the workflow",
+        "Purchase document draft page is in early stages and may be adjusted"
+      ],
+      "tags": [
+        "payables agent",
+        "generative ai",
+        "automation",
+        "invoice processing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "E-document connector for Microsoft 365",
+      "description": "A connector enabled through an e-document service that imports PDF attachments from Microsoft 365 mailbox, SharePoint, or OneDrive to source PDF invoices from various channels.",
+      "status": "preview",
+      "status_evidence_t": 276.4,
+      "status_evidence_quote": "we aim for this agent to be available for public preview somewhere in the second half of 2025",
+      "status_evidence_verified": true,
+      "t_start": 157.3,
+      "t_end": 192.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "e-documents",
+        "connectivity",
+        "microsoft 365",
+        "pdf import"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Inbound e-document list page",
+      "description": "A go-to page for every e-document received, whether from SharePoint, Outlook, or electronic invoicing channels. Supports PDFs and other incoming vendor invoices from e-invoicing channels.",
+      "status": "preview",
+      "status_evidence_t": 276.4,
+      "status_evidence_quote": "we aim for this agent to be available for public preview somewhere in the second half of 2025",
+      "status_evidence_verified": true,
+      "t_start": 192.6,
+      "t_end": 212.8,
+      "is_demoed": false,
+      "caveats": [
+        "Supports multiple input channels"
+      ],
+      "tags": [
+        "e-documents",
+        "user interface",
+        "invoice receipt"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Purchase document draft page",
+      "description": "A page where the agent suggests how to register invoices, whether to defer or split expenses across departments, and displays a PDF preview. Users or agents assess draft invoices and finalize them into real purchase invoice documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 223.1,
+      "t_end": 263.4,
+      "is_demoed": false,
+      "caveats": [
+        "In early stages with potential adjustments",
+        "Page may be adjusted as development continues"
+      ],
+      "tags": [
+        "draft invoices",
+        "accounting suggestions",
+        "user interface",
+        "pdf preview"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Intelligent accounting for invoice processing",
+      "description": "Built into the agent to capture accounting knowledge that typically resides in bookkeepers and accountants, enabling the system to create purchase invoices and learn from existing practices.",
+      "status": "preview",
+      "status_evidence_t": 276.4,
+      "status_evidence_quote": "we aim for this agent to be available for public preview somewhere in the second half of 2025",
+      "status_evidence_verified": true,
+      "t_start": 276.4,
+      "t_end": 316.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "generative ai",
+        "accounting knowledge",
+        "invoice creation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Three-way matching and purchase order mapping",
+      "description": "A roadmap capability that will enable invoices to be matched to purchase orders, allowing three-way matching between the invoice, purchase order, and receipt.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 296.4,
+      "t_end": 330.8,
+      "is_demoed": false,
+      "caveats": [
+        "Part of future roadmap beyond initial public preview"
+      ],
+      "tags": [
+        "purchase orders",
+        "matching",
+        "three-way matching"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Invoice approval workflow",
+      "description": "A planned capability to support invoice approval with easy access to view the original PDF document, enabling approval scenarios both within Business Central and outside of it.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 316.6,
+      "t_end": 351.2,
+      "is_demoed": false,
+      "caveats": [
+        "Future roadmap item"
+      ],
+      "tags": [
+        "approvals",
+        "workflow",
+        "external approval"
+      ],
+      "system": "purchasing"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 26.1,
+      "text": "even the combination of all of these Technologies still don't do that last mile of handling an invoice all the stuff that a human",
+      "why_it_matters": "Identifies the core problem that the Payables Agent is designed to solve - the final step in invoice processing that requires human judgment and accounting knowledge.",
+      "check": "exact"
+    },
+    {
+      "t": 66.7,
+      "text": "generative AI is able to unlock that last mile of accounting knowledge that is typically needed to process an invoice to completion",
+      "why_it_matters": "Explains why generative AI is the right technology for this use case and what value it brings to invoice automation.",
+      "check": "exact"
+    },
+    {
+      "t": 122.5,
+      "text": "even though this is an agent that ideally could be automated 100% it's designed for human oversight",
+      "why_it_matters": "Clarifies that despite automation potential, the Payables Agent is intentionally designed to maintain human oversight and control.",
+      "check": "exact"
+    },
+    {
+      "t": 243.2,
+      "text": "in early stages right now so this is where the bulk of our development is at the moment",
+      "why_it_matters": "Indicates the purchase document draft page is under active development and subject to change before release.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 276.4,
+      "text": "we aim for this agent to be available for public preview somewhere in the second half of 2025",
+      "why_it_matters": "Provides the specific timeline for when the Payables Agent will enter public preview.",
+      "check": "exact"
+    },
+    {
+      "t": 316.6,
+      "text": "we also definitely want to support purchase order matching so you get an invoice in and you map it to purchase orders and do",
+      "why_it_matters": "Outlines a key roadmap feature planned after the initial public preview release.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 243.2,
+      "kind": "preview",
+      "text": "this page is in early stages right now so this is where the bulk of our development is at the moment"
+    },
+    {
+      "t": 276.4,
+      "kind": "preview",
+      "text": "we aim for this agent to be available for public preview somewhere in the second half of 2025"
+    },
+    {
+      "t": 296.4,
+      "kind": "coming-later",
+      "text": "we also know it cannot stop there we need to have a good story for supporting other e doents like the E invoices"
+    },
+    {
+      "t": 316.6,
+      "kind": "coming-later",
+      "text": "we also definitely want to support purchase order matching so you get an invoice in and you map it to purchase orders and do that three-way matching"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 4,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017291
+    }
+  ]
+}

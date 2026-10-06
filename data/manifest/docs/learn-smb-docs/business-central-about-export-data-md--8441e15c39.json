@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/about-export-data",
   "published_at": "2026-04-19T09:45:37.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2fff24a6936737d19690e61236647c03872f1674",
       "words": 503,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:17.228Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 21,
+      "cost_usd": 0.005757
+    },
+    "summarized": {
+      "at": "2026-10-06T18:42:17.816Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:42:17.817Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:42:17.819Z",
+      "page": false
     }
   },
   "input_hash": "2fff24a6936737d19690e61236647c03872f1674",
@@ -48,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2fff24a6936737d19690e61236647c03872f1674"
+  "output_hash": "a28c988f3be196ad37dc3d471cb31bdaaa5165be846da572904a1e8eb4f40868"
 }

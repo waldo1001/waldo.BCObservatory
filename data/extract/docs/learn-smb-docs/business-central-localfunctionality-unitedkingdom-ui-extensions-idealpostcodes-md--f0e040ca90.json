@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/ui-extensions-idealpostcodes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/ui-extensions-idealpostcodes",
+  "title": "Ideal Postcodes extension [UK]",
+  "blob": "5dca4b69e85d0326c6d0ccc24c79655930285ccd",
+  "summary": "Ideal Postcodes extension for UK localization automatically fills address fields by looking up postcodes for customers, vendors, bank accounts, and employees.",
+  "systems": [
+    "localization",
+    "integration"
+  ],
+  "topics": [
+    "address lookup",
+    "postcodes",
+    "uk localization",
+    "customer data"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Address Selection"
+    }
+  ],
+  "features": [
+    "postcode lookup",
+    "address autofill",
+    "multi-country support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005757,
+      "pages_in_call": 8
+    }
+  ]
+}

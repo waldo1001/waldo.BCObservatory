@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-setup-units-of-measure",
   "published_at": "2026-04-08T13:28:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2815bca3f435de0700eca9f3e3c0f6d2f563f434",
       "words": 1355,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:17.807Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00545
+    },
+    "summarized": {
+      "at": "2026-10-06T18:42:19.527Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:42:19.528Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:42:19.529Z",
+      "page": false
     }
   },
   "input_hash": "2815bca3f435de0700eca9f3e3c0f6d2f563f434",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2815bca3f435de0700eca9f3e3c0f6d2f563f434"
+  "output_hash": "0bba47c7c39be7fd19dfdacc8a6d5bf9a6df626dd543083deb237c9be470550b"
 }

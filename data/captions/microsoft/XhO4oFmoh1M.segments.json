@@ -1,0 +1,426 @@
+{
+  "video_id": "XhO4oFmoh1M",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6,
+      "end": 26.4,
+      "text": "hello and welcome everyone to this business Central launch event for 2025 release wave 1 in this segment I would like to tell you about a very very interesting capability that we built in business Central called sales order agent it is in fact the very first agent born in business Central helping"
+    },
+    {
+      "t": 26.4,
+      "end": 46.6,
+      "text": "the sales team manage their operations with capturing quotes and converting these quotes into sales orders so you can imagine that any random sales team spending a lot of time scanning through the emails coming into their mailbox trying to understand whether this email is even relevant uh sales request"
+    },
+    {
+      "t": 46.6,
+      "end": 66.8,
+      "text": "or not and having understood that yes it is in fact a quote request they would typically go into business Central and start performing many interesting activities inside of the product trying to see whether they have the in ventory uh in place whether this is the right customer uh how to how and when the customer"
+    },
+    {
+      "t": 66.8,
+      "end": 87.2,
+      "text": "wishes to deliver uh the items all of these questions require time for salese doing these activities inside of business Central so with the sales order agent approach we Chang in this space to 100% automate this entire process end to end and yet"
+    },
+    {
+      "t": 87.2,
+      "end": 107.7,
+      "text": "keep the sales team in the loop so so that instead of humans and sales operators clicking around the product and trying to address the request for the quote it is an agent which is now helping the sales team do all of these things just from an email that they receive from the customer"
+    },
+    {
+      "t": 107.7,
+      "end": 127.9,
+      "text": "and instead of me just talking a lot about it let me show all of this through the product so here we are in business Central beautiful interface and the very first thing which I see and I may be biased in this particular situation is the salesorder agent tile in the upper right corner"
+    },
+    {
+      "t": 127.9,
+      "end": 148.1,
+      "text": "so this is where our agents the salort agent and many agents uh in the future will have their home and will have their presence it is staying there invisibly until activated so that's exactly what I'm going to do if I'm just going to hover over this uh Avatar of the cells or agent you see here's"
+    },
+    {
+      "t": 148.1,
+      "end": 168.1,
+      "text": "the the first uh p P that's uh that I can observe as an administrator setting up the sales or agent and we build it in a way that it's very easy to activate so one action throws into into my face when I as I look at it is activate action so here's the configuration"
+    },
+    {
+      "t": 168.1,
+      "end": 189.2,
+      "text": "dialogue for the sales or agent and right now it only has very very few options so in fact if I scroll to the right you see that's as much set up as you would need to do to make this feature work there's a couple of options for the administrators to configure uh the experience of the agent uh in different"
+    },
+    {
+      "t": 189.2,
+      "end": 209.2,
+      "text": "situations but generally what you need to do to get started is to define a mailbox account so let me go ahead and do that I will click on these three dots and then go through the setup wizard by the way uh please use Microsoft 365 account uh for the sales or agent and it has to be a shared mailbox uh which you can figure"
+    },
+    {
+      "t": 209.2,
+      "end": 225.2,
+      "text": "for this purpose I'm going to click next and I'm going to give a name to my uh email account that the agent is going to monitor for the incoming mail requests from customers so for example this one is going to be called Kronos"
+    },
+    {
+      "t": 225.2,
+      "end": 245.7,
+      "text": "sales and here's the email account which I configured so I'm going to click next this is all standard set up for configuration of emails and business Central there's nothing new in this particular setup experience so I'm just going to pick that account that I have just configured hit okay"
+    },
+    {
+      "t": 245.7,
+      "end": 265.8,
+      "text": "and now the email box is configured and the agent is running and all I need to do is hit update and the agent will now monitor that mailbox but before I do that I wanted to show another place on this experience you see the sales order agent is meant to help the sales team process these"
+    },
+    {
+      "t": 265.8,
+      "end": 285.9,
+      "text": "quote requests and here on this experience I I can add additional users to the agent and then these users which I add uh will be able to interact with the agent the users will be able to review the tasks uh processed by the agent uh reconfigure"
+    },
+    {
+      "t": 285.9,
+      "end": 306.2,
+      "text": "the agent if necessary and delegate tasks to it so this is where you can figure it uh in this environment I'm all by myself very very sad but in your sales team I'm pretty sure there will be many people into interacting with the cells or agent okay so all I need to do is just hit update and"
+    },
+    {
+      "t": 306.2,
+      "end": 326.4,
+      "text": "the agent gets activated so now you see the tile has changed and it no longer has the pose button on it and let's me just hover over and that's the first time you see the kpis the agent kpis being activated and obviously they all zeros at this point of time so the agent hasn't done any job no"
+    },
+    {
+      "t": 326.4,
+      "end": 346.4,
+      "text": "praise yet uh for the agent but let's let's see how it interacts with the very first requests for that I can navigate to the task pane otherwise this task pane as you can see resides in the co-pilot pane so the co-pilot is the view uh for the users into the"
+    },
+    {
+      "t": 346.4,
+      "end": 367.3,
+      "text": "world of Agents so this is where you will see the tasks coming in from the mailbox and the agent will start processing these tasks so by the way here's the easy shortcut to the um to the configuration experience if you need to go back and uh configure the agent uh add a few more configuration options"
+    },
+    {
+      "t": 367.3,
+      "end": 387.8,
+      "text": "all right so at this point of time it's configured there's nothing else I need to do but let's now step into the shoes of the customer of this company sending a request for a quote so for that I will navigate into the mailbox of the customer and here I have prepared a few emails for us to uh to play with and"
+    },
+    {
+      "t": 387.8,
+      "end": 408.3,
+      "text": "understand the capabilities of the agent so for example let me uh go ahead and send this email and while it is being delivered uh I can step back into business Central now technically right now what's happening in the background there is a business logic inside of business centrol which checks that mailbox"
+    },
+    {
+      "t": 408.3,
+      "end": 428.3,
+      "text": "periodically uh whether there's new emails uh available for for the agent to pick up and as soon as it discovers that yes there is a new email you see it is picking up the task and starting to process it so right now it fetches it from the from Outlook it tries to read the text it tries to understand what the text"
+    },
+    {
+      "t": 428.3,
+      "end": 448.6,
+      "text": "is about and it tries to see whether it's a relevant request whether it's a request it wants to proceed with or not so let's let's give it a few seconds to uh to complete all right in this particular case we were looking straight at the screen for maybe a few seconds given time to the agent to process that email"
+    },
+    {
+      "t": 448.6,
+      "end": 468.7,
+      "text": "in the real life though though you don't have to look at uh at this pain all the time so you can you can just close it and go your uh way in business Central do your job and do your tasks and the agent will call out to you when it requires your attention so in this case let's take a look at what's uh what's the agent"
+    },
+    {
+      "t": 468.7,
+      "end": 489.4,
+      "text": "received so here's a request from Yan and in this experience I can preview the email received by the agent so you you see I'm I'm here clicking drilling through into the step I can see the email message I can see when it is received who it is received from"
+    },
+    {
+      "t": 489.4,
+      "end": 509.8,
+      "text": "but the contact the person who sent this email is an unknown contact now it's important to mention that the sales or agent only works with registered contacts and customers inside of business Central at least at this point of time who knows what the future will the future will bring however we made it convenient for you to"
+    },
+    {
+      "t": 509.8,
+      "end": 530.4,
+      "text": "just in time create and register that contact in business Central and proceed with the flow here you also see hey there's there's a nice notification thrown to you uh that the contact with this email is not found good so now we can we can look through the text of the email uh just like you would in Outlook"
+    },
+    {
+      "t": 530.4,
+      "end": 550.5,
+      "text": "however you're just reviewing it here in in BC and let's see what exactly this customer is asking for so they're not just asking for specific furniture they asking for this furniture made of specific material uh for example hey I would like it to be in cotton and I would like it to be of a very specific color"
+    },
+    {
+      "t": 550.5,
+      "end": 570.6,
+      "text": "so this request may come in many different shapes and forms and the agent should be able to search through through this information very very reliably so I'm going to kick off the agents to uh to proceed with its task but in the meantime let me explain a few words about the search so what the agent can do it can search through"
+    },
+    {
+      "t": 570.6,
+      "end": 591.6,
+      "text": "the inventory in business Central and it Ed many many parameters and surrounding data of the items to find the correct ones so one obvious example would be using the just the title uh of of a of an item but the agent goes beyond that so it uses search"
+    },
+    {
+      "t": 591.6,
+      "end": 611.8,
+      "text": "uh to not only read through the data on the item table or card itself it also goes into to the related information it can it can search through extended texts it can search through translations it can search through item attributes so it will search through all and"
+    },
+    {
+      "t": 611.8,
+      "end": 632.3,
+      "text": "by the way item categories as well and category codes so it searches through multiple tables to understand if this is the right item that the the user is asking for or not so let's take a look and review this information here's something that the agent has already uh performed the search on and it comes back with the results"
+    },
+    {
+      "t": 632.3,
+      "end": 652.4,
+      "text": "look these are the ones that we uh we have in our stock so these are the the chairs which match your request and it adds a few more Dimensions to this reply so here's the items with a certain availability level so the users can see whether the items are available or not uh we also show the pricing"
+    },
+    {
+      "t": 652.4,
+      "end": 670.6,
+      "text": "point and the using unit of measure so how does the agent check for availability now this is an interesting uh experience that you may want to to to try and play with so the agent uses a page called item availability"
+    },
+    {
+      "t": 670.6,
+      "end": 690.7,
+      "text": "page which human users and human operators can definitely use as well so to understand whether items are available or not and we specifically designed this page to be very helpful to the agent so you can go ahead and apply certain filters for example I'm I'm searching for chairs so these"
+    },
+    {
+      "t": 690.7,
+      "end": 710.9,
+      "text": "are these are my chairs and I'm searching on a specific date filter and I'm searching for a specific customer and I'm searching for a specific location and this is the quantity that I'm looking for so for example 20 um the quantity of 20 of a specific item and here on this page we're"
+    },
+    {
+      "t": 710.9,
+      "end": 731,
+      "text": "listing some of the key parameters that you as a salesp person would want to have having the conversation with the customer and we combining these data points here here on this page uh the the unit price the discount uh all linked to these filters to calculate the availability and here you see a very simple flag whether"
+    },
+    {
+      "t": 731,
+      "end": 751.2,
+      "text": "the items following this configuration are available or not so this is this is the information that we are wrapping with the response of the agent here and uh the the human uh operator can review this outgoing email message um so it appears to be working fine and and they can confirm to"
+    },
+    {
+      "t": 751.2,
+      "end": 771.4,
+      "text": "proceed so I'm confirming this message and off it goes to Yan explaining which items are available or not imagine this situation done before the agent uh was introduced in business Central you would probably have to do quite a few steps to understand which items have been requested which items have been available not available"
+    },
+    {
+      "t": 771.4,
+      "end": 791.9,
+      "text": "and things of that nature so now look let's look at another scenario here's another task which uh the agent just processed this time it's an email coming from Helen so let's see what was done by the agent in this case I as an human operator I can still review what was requested"
+    },
+    {
+      "t": 791.9,
+      "end": 812,
+      "text": "and in this case Helen is asking for the very very long list of chairs again it would probably have taken me a long long time to understand uh whether we have these items available what are the prices what are the terms and conditions Helen is also asking for a specific delivery date so she she wants the items to be delivered early next month"
+    },
+    {
+      "t": 812,
+      "end": 832.8,
+      "text": "uh she wants to register her own purchased document number uh just to make it easier for her to find it in in her system so there's there's a lot going on in this email but the great thing about it is that I don't have to read this email the agent has already read this email and it did create a sales quote automatically and it updated that quote with"
+    },
+    {
+      "t": 832.8,
+      "end": 843.1,
+      "text": "uh details requested by Helen so the details are mentioned here uh in the user experience so can click on these fields and see"
+    },
+    {
+      "t": 843.1,
+      "end": 863.5,
+      "text": "exactly how these fields are populated and if you notice as well all of these items requested by Helen so they are added here to the sales quote with all of the requested quantities and all of the data pulled by the system so instead of creating this document manually the agent helped prepopulate"
+    },
+    {
+      "t": 863.5,
+      "end": 879,
+      "text": "and pre-create that quote so everything I need to do is generally review this outgoing email request so all of the quantities and items uh look good um and um I'm just going to confirm and send it to"
+    },
+    {
+      "t": 879,
+      "end": 893.7,
+      "text": "Helen so this is the process of agent helping the sales team processes process these requests and it can support scanning the inbound emails it can support checking the items"
+    },
+    {
+      "t": 893.7,
+      "end": 913.9,
+      "text": "availability uh it can also work uh on creating the actual sales quote iterating on the sales quote if Helen comes back and wants to change one or two lines uh on this sales quote the agent will find that quote and update the line and finally when Helen confirms that email message"
+    },
+    {
+      "t": 913.9,
+      "end": 933.9,
+      "text": "uh it will be converted from quote into an order a curious to see how it looks like from the customer perspective let me show you that part so let me navigate back into into the Inbox and show you how it looks like from the customer perspective so here's a conversation between Yen and the sales order"
+    },
+    {
+      "t": 933.9,
+      "end": 954,
+      "text": "agents conversing very naturally in natural language with Yen asking some questions hello uh do you have such and such items in your inventory the sales order agent is replying with all of the things that we've seen through the demo then Yan is uh making his choice of"
+    },
+    {
+      "t": 954,
+      "end": 974.8,
+      "text": "specific items having seen all of these inventory so he's asking for two Tokyo cheers uh the sales order agent prepares and sends the sales quote so I can open the attachment and and see it comes directly from business Central looks good and then what happens next is Yan says that's good so let's proceed with the order"
+    },
+    {
+      "t": 974.8,
+      "end": 994.8,
+      "text": "and that quote is converted to a sales order so now the sales order confirmation is received the order is captured uh Ian is happy because all of it has happened in the matter of uh some minutes rather than maybe days in worst case so this is the conversation seen from the customer"
+    },
+    {
+      "t": 994.8,
+      "end": 1014.8,
+      "text": "eyes all right but sometimes the agent does receive much more interesting uh emails so let me show you that example as well so let's look at this couple of emails in the first case uh let me just go ahead and click and open it you see that the agent tagged this inbound"
+    },
+    {
+      "t": 1014.8,
+      "end": 1035,
+      "text": "email with a warning text so it actually says that hey this incoming message appears not to be relevant to sales or agent so in fact I can just ignore this message stop the task and leave it there but I'm curious to see what it is so let me open it up and of course it's one of those tacky commercials that you sometimes get in"
+    },
+    {
+      "t": 1035,
+      "end": 1055.1,
+      "text": "your outlook mailbox once in a lifetime opportunity 100% legit no risk you can make $10,000 every week wouldn't you all love to receive such emails in your mailbox you probably would but it's not something business critical and therefore the agent is telling you hey this message is a"
+    },
+    {
+      "t": 1055.1,
+      "end": 1075.1,
+      "text": "promotional advertisement not related to what sales agent should be doing however if you choose to proceed you can because there there may be some cases where it's not so obvious that this is uh some promotional campaign but you can ask the agent to give it a"
+    },
+    {
+      "t": 1075.1,
+      "end": 1095.4,
+      "text": "try however there may be another situation where the the message is harmful so the message contains some content which can be disturbing and cannot be you know just taken lightly in this case you can see that we're making an effort of even hiding this message so the the content"
+    },
+    {
+      "t": 1095.4,
+      "end": 1115.6,
+      "text": "of the message is blocked and um not made visible to the user the user can still open it up and review uh I'm not going to do that right now but generally the system will not allow to for these messages to proceed in the system in uh in processing so if you could"
+    },
+    {
+      "t": 1115.6,
+      "end": 1136.7,
+      "text": "say that hey agent even though it's not relevant give it a try for the messages which are obviously harmful uh the agent will not allow processing such messages so that's another way uh that for for the agent to save time for you and not waste it on processing some advertisement or openly harmful"
+    },
+    {
+      "t": 1136.7,
+      "end": 1156.8,
+      "text": "emails one other thing which I want to to to show you is that after having worked with the agent for some time imagine that it it did help processing so many emails for your team and generally as you have seen me doing in this demo all the salese need to do is review the information"
+    },
+    {
+      "t": 1156.8,
+      "end": 1177,
+      "text": "generated by the agent and approve or decline the messages so that is that is the type of work that they would be doing reviewing the agent activities and all of the time saved can be used on much more fulfilling activities of actually calling the customers making the deals agreeing on"
+    },
+    {
+      "t": 1177,
+      "end": 1197.2,
+      "text": "some final details and polishing these orders before they they fulfilled so there's just so much time spent uh on these activities and you might be asking how much time is spent on these activities and for that we built this kpis dialogue which is right now already filled up with some data so we did receive several emails"
+    },
+    {
+      "t": 1197.2,
+      "end": 1217.9,
+      "text": "so you saved Time by not reading these emails you save time by not creating the document manually and some of the quotes were converted into the orders so this dialogue would give you just a hint of insight of what kind of effort the agent is saving you so you can spend that effort uh on some other"
+    },
+    {
+      "t": 1217.9,
+      "end": 1237.9,
+      "text": "tasks now one final piece of uh information which I wanted to share with you is just a little bit of insight into how the agent works under the hood I'm not going to go into deep technical details but generally if you think about it the agent has access to the entirety of business"
+    },
+    {
+      "t": 1237.9,
+      "end": 1250.6,
+      "text": "Central application and it accesses business Central through the user interface it is not analyzing pixels and dots on the screen it actually can connect to the actions"
+    },
+    {
+      "t": 1250.6,
+      "end": 1271.2,
+      "text": "controls uh data displayed on the UI to understand how perform the task to understand which steps to take and how to complete the given assignment now it has access to all of the richness of the metadata the names of the actions uh the names"
+    },
+    {
+      "t": 1271.2,
+      "end": 1289,
+      "text": "the captions of these actions uh all of it is fed into the uh into the engine of the agent behind the scenes and it reasons over these data and decides how to fulfill this this task and how to go about uh completing that assignment"
+    },
+    {
+      "t": 1289,
+      "end": 1309,
+      "text": "and you might think that hey this is very overwhelming because business Central has a lot of functionality I mean look at it let me just open this uh this view I love seeing it every time I look at it there's just so much capabilities built into business Central Erp application but we want to somehow limit what the"
+    },
+    {
+      "t": 1309,
+      "end": 1329.1,
+      "text": "agent can do and see so let me show you that if I go into the agent card you will notice that agents are designed based on the same Principle as the users so if I open the agent card it looks very very similar if not 100% the same to the layout of the user card so"
+    },
+    {
+      "t": 1329.1,
+      "end": 1349.5,
+      "text": "here you see the the general information about the agent the name and the description and display name here you see agent permission sets so this is the first level of control that administrators can use to provide limited scope of authorization to this agent so through these permissions which by the way come with the agent agent itself"
+    },
+    {
+      "t": 1349.5,
+      "end": 1369.6,
+      "text": "built by Microsoft so we did outline the exact permissions needed for the agent to fulfill its task in this permission sets so I can look it up and then see what is included with these permission sets so I can just scroll all the way down see what kind of tables and capabilities the agent has access to"
+    },
+    {
+      "t": 1369.6,
+      "end": 1389.7,
+      "text": "uh if I disable this agent so I need to disable this agent to be able to to modify these permissions I can go and modify them adjust uh make it more strict or make it you know more uh flexible so up to you as an administrator because no business Central is the same you probably need to a little bit tune"
+    },
+    {
+      "t": 1389.7,
+      "end": 1404.5,
+      "text": "these permissions uh you will also see some of the users which all of the users which were given access to the agent but one other interesting thing is that you will also see the profile used by the agent"
+    },
+    {
+      "t": 1404.5,
+      "end": 1421.6,
+      "text": "now instead of me explaining so what the profile does to the agent let me just go ahead and change the profile so as I would do for a typical user I would go into my settings and here I will find this sales order agent co-pilot"
+    },
+    {
+      "t": 1421.6,
+      "end": 1435,
+      "text": "profile and let me switch that apply it to myself and it will reload the business Central and let's see what happens on the"
+    },
+    {
+      "t": 1435,
+      "end": 1455,
+      "text": "screen so now if I go back to the Roll center we're looking at the business Central capabilities Through The Eyes of the agent so you see that this user experience is much lighter it has nothing which the sales or agent is not supposed to work with it has access to the list of it"
+    },
+    {
+      "t": 1455,
+      "end": 1475.2,
+      "text": "can see it can interact with the list of customers contacts sales quotes and sales orders and under the sales menu it can only go into the sales quotes we also refined what you can see on the sales quote card itself you see there's no fact boxes there's no irrelevant information we cleaned up this form to remove"
+    },
+    {
+      "t": 1475.2,
+      "end": 1493.9,
+      "text": "uh the things which are not 100% relevant to the role of the agent so this form is much lighter and it's made so through their changes to the profile so using profiles you can design the interaction surface of the agent"
+    },
+    {
+      "t": 1493.9,
+      "end": 1514.4,
+      "text": "and expose or hide certain controls from from its view this is a very powerful model and when you think about customizations that you may have in your system you you will you may definitely have a few extra fields or a few extra actions or maybe many actions and Fields"
+    },
+    {
+      "t": 1514.4,
+      "end": 1534.4,
+      "text": "available on the sales quote and sales order by adding these fields and actions to the sales order agent profile you make them available for the agent to interact with so the agent can discover these fields and try to set them up and configure and reconfigure this particular sales quote so"
+    },
+    {
+      "t": 1534.4,
+      "end": 1554.4,
+      "text": "that's a short Glimpse under the surface to see how administrators can control this experience they can do it in two ways by the uh by setting up permissions and by setting up the profiles that was the story of the sales order agent there's plenty of great documentation available for you to to study and we're"
+    },
+    {
+      "t": 1554.4,
+      "end": 1574.5,
+      "text": "really hoping that this is the beginning of a an amazing journey of many many agents helping you helping your customers and users be better at uh working with the product working with their clients working with their customers and generally enjoy life thank you"
+    },
+    {
+      "t": 1574.5,
+      "end": 1578,
+      "text": "so much"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.03,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.04,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 4301
+}

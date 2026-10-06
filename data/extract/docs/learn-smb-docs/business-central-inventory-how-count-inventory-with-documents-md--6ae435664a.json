@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-count-inventory-with-documents.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-count-inventory-with-documents",
+  "title": "Count and adjust inventory",
+  "blob": "c4dd1f80cf624c6c9afac1b7800a03621d8e57cf",
+  "summary": "Count and adjust inventory using physical inventory order and recording documents to organize complete inventory counting projects and track counted quantities by item, location, and bin.",
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "physical inventory",
+    "inventory counting",
+    "adjustment",
+    "item tracking",
+    "inventory documents"
+  ],
+  "objects": [],
+  "features": [
+    "physical inventory orders",
+    "inventory recordings",
+    "item tracking integration",
+    "duplicate line detection",
+    "inventory receipts",
+    "inventory shipments"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00545,
+      "pages_in_call": 8
+    }
+  ]
+}

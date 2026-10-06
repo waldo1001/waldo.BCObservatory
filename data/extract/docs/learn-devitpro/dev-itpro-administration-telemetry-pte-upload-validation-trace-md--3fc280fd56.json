@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-pte-upload-validation-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-pte-upload-validation-trace",
+  "title": "Analyzing Extension Upload Validation Telemetry",
+  "blob": "f3703b40d77590eaac0a1c6f02324044e4a078e9",
+  "summary": "Extension upload validation telemetry tracks per-tenant extension submissions, validations, and failures with detailed trace logs for monitoring extension compilation against environments.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "telemetry",
+    "extension validation",
+    "per-tenant extensions",
+    "monitoring",
+    "diagnostics"
+  ],
+  "objects": [],
+  "features": [
+    "PTE validation tracing",
+    "dependency checking",
+    "diagnostic reporting",
+    "compilation validation",
+    "failure analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005757,
+      "pages_in_call": 8
+    }
+  ]
+}

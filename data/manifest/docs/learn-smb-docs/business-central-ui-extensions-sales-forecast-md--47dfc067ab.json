@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-sales-forecast",
   "published_at": "2026-04-08T13:28:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1d1f15cde1846132dd68188bb6e430de862320f3",
       "words": 821,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:17.808Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00545
+    },
+    "summarized": {
+      "at": "2026-10-06T18:42:19.538Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:42:19.539Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:42:19.540Z",
+      "page": false
     }
   },
   "input_hash": "1d1f15cde1846132dd68188bb6e430de862320f3",
@@ -57,5 +76,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1d1f15cde1846132dd68188bb6e430de862320f3"
+  "output_hash": "2b901560ed8d522cb62f0c99c82c8f851eaf8b354b59aa88d01a3999796b047a"
 }

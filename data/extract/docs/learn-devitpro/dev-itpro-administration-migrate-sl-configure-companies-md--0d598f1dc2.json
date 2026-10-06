@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-sl-configure-companies.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-sl-configure-companies",
+  "title": "Configure Dynamics SL company migration",
+  "blob": "acb5865e182690c594b9b605d289a0a8da129609",
+  "summary": "Configuring Dynamics SL company migration sets global and per-company settings for data migration including module selection, dimensions, auto-posting, and historical snapshots.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "data migration",
+    "dynamics sl",
+    "company setup",
+    "module configuration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "SL Company Migration Configuration"
+    },
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    }
+  ],
+  "features": [
+    "module selection",
+    "dimension mapping",
+    "master data migration",
+    "auto-posting control",
+    "historical snapshots",
+    "1099 information",
+    "inactive records"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005757,
+      "pages_in_call": 8
+    }
+  ]
+}

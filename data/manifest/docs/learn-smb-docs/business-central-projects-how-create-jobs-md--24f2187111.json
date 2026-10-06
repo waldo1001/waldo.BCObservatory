@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/projects-how-create-jobs",
   "published_at": "2026-04-08T13:28:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b77211862a62af0cce7bb45dc9d47386f5794455",
       "words": 1497,
       "forms": 11
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:17.807Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00545
+    },
+    "summarized": {
+      "at": "2026-10-06T18:42:19.530Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:42:19.531Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:42:19.533Z",
+      "page": false
     }
   },
   "input_hash": "b77211862a62af0cce7bb45dc9d47386f5794455",
@@ -94,5 +113,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b77211862a62af0cce7bb45dc9d47386f5794455"
+  "output_hash": "744bf74ecb6953d0f996eb31809c9d7233f1112bfc6dcf54cfc595fc1f769c0c"
 }

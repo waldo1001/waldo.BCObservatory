@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-accounting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-accounting",
+  "title": "Accountant experiences in Business Central",
+  "blob": "110791bd5f579bd5c69a7251d42a8b1495350810",
+  "summary": "Accountant role center provides accountants access to financial pages, reports, and tools, with options to invite external accountants and manage work across multiple companies via the Company Hub.",
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "accounting",
+    "role center",
+    "external accountants",
+    "financial management",
+    "user management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Accountant Role Center"
+    },
+    {
+      "type": "page",
+      "name": "Company Hub"
+    },
+    {
+      "type": "page",
+      "name": "Users"
+    }
+  ],
+  "features": [
+    "Accountant Role Center",
+    "external accountant licensing",
+    "Company Hub",
+    "activity tiles",
+    "email invitations"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005757,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-count-inventory-with-documents",
   "published_at": "2026-04-08T13:28:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c4dd1f80cf624c6c9afac1b7800a03621d8e57cf",
       "words": 2687,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:17.806Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00545
+    },
+    "summarized": {
+      "at": "2026-10-06T18:42:19.523Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:42:19.525Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:42:19.526Z",
+      "page": false
     }
   },
   "input_hash": "c4dd1f80cf624c6c9afac1b7800a03621d8e57cf",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c4dd1f80cf624c6c9afac1b7800a03621d8e57cf"
+  "output_hash": "9d4fcd650b93c03da5fda771c415b7677c5e68d75d0e9a85ec5147e4e59e7998"
 }

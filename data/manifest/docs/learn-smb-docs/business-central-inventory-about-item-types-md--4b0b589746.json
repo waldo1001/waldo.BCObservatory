@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-about-item-types",
   "published_at": "2026-04-08T13:28:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "51367b3f2ec8912015bc86e8272c9e46f3dbbbaf",
       "words": 579,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:17.806Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00545
+    },
+    "summarized": {
+      "at": "2026-10-06T18:42:17.843Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:42:19.520Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:42:19.522Z",
+      "page": false
     }
   },
   "input_hash": "51367b3f2ec8912015bc86e8272c9e46f3dbbbaf",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "51367b3f2ec8912015bc86e8272c9e46f3dbbbaf"
+  "output_hash": "210bc7db042ab34b88f4f168c840afa83f9b0768b040aa3f979618e88d00d55a"
 }

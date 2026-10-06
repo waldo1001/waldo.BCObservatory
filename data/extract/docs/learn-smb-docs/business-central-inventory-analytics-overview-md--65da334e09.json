@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-analytics-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-analytics-overview",
+  "title": "Inventory analytics",
+  "blob": "b3f1412c7bae328ef2499be460804049d1f29947",
+  "summary": "Inventory analytics provides tools and features for analyzing inventory data through Power BI reports, financial reports, ad-hoc analysis, and built-in reports to help different roles monitor KPIs and trends.",
+  "systems": [
+    "inventory",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "inventory management",
+    "analytics",
+    "power bi",
+    "kpi monitoring",
+    "data analysis",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Item Ledger Entries"
+    }
+  ],
+  "features": [
+    "Power BI Inventory app",
+    "Power BI Inventory Valuation app",
+    "financial reporting",
+    "dimensions",
+    "ad-hoc analysis",
+    "built-in reports"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005757,
+      "pages_in_call": 8
+    }
+  ]
+}

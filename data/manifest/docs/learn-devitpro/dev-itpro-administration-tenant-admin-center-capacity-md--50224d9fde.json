@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity",
   "published_at": "2026-04-10T11:27:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e3684a9cabecee32b2a5f5189c1caea0c291d68d",
       "words": 774,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:17.229Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005757
+    },
+    "summarized": {
+      "at": "2026-10-06T18:42:17.820Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:42:17.821Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:42:17.822Z",
+      "page": false
     }
   },
   "input_hash": "e3684a9cabecee32b2a5f5189c1caea0c291d68d",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e3684a9cabecee32b2a5f5189c1caea0c291d68d"
+  "output_hash": "b8ccc06531797f796e28fc98d4da09fcb9b1e15cd226a07f802b327dcad40666"
 }

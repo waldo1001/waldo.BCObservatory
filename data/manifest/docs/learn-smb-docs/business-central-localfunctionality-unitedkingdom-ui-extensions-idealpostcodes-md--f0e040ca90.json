@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/ui-extensions-idealpostcodes",
   "published_at": "2026-04-09T11:29:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5dca4b69e85d0326c6d0ccc24c79655930285ccd",
       "words": 165,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:42:17.233Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005757
+    },
+    "summarized": {
+      "at": "2026-10-06T18:42:17.830Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:42:17.831Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:42:17.832Z",
+      "page": false
     }
   },
   "input_hash": "5dca4b69e85d0326c6d0ccc24c79655930285ccd",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5dca4b69e85d0326c6d0ccc24c79655930285ccd"
+  "output_hash": "4f1ea2400283394589d0a9e9a0081a02e84c80340fe146cf3586d81b28fcde98"
 }
