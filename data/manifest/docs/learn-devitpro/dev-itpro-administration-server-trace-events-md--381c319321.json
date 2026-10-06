@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/server-trace-events",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "67a0a9170e98198fd9d63acd148ac9bcd873111d",
       "words": 1437,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:32.924Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005018
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:32.949Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:32.950Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:32.951Z",
+      "page": false
     }
   },
   "input_hash": "67a0a9170e98198fd9d63acd148ac9bcd873111d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "67a0a9170e98198fd9d63acd148ac9bcd873111d"
+  "output_hash": "094edcb55395c8811472eba92196b5c718cf6791288a49f5379789ae1e58eccb"
 }

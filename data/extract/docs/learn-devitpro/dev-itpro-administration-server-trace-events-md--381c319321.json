@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/server-trace-events.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/server-trace-events",
+  "title": "Microsoft Dynamics 365 Business Central Server Trace Events",
+  "blob": "67a0a9170e98198fd9d63acd148ac9bcd873111d",
+  "summary": "Business Central server trace events track SQL statements, service calls, AL function execution, and telemetry data through Microsoft-DynamicsNAV-Server and Microsoft-DynamicsNAV-Common providers with hexadecimal keyword filters.",
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "trace events",
+    "telemetry",
+    "server monitoring",
+    "event tracing",
+    "al execution"
+  ],
+  "objects": [],
+  "features": [
+    "SQL trace events",
+    "service call tracing",
+    "AL function tracing",
+    "telemetry events",
+    "event filtering",
+    "session tracking",
+    "custom telemetry"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005018,
+      "pages_in_call": 8
+    }
+  ]
+}

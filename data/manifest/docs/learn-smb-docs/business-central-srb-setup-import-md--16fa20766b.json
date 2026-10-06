@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/setup/import",
   "published_at": "2025-07-11T11:45:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c64b96f39183cd684d3697c72e20f1881bfe6e46",
       "words": 2176,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:11.782Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 12,
+      "cost_usd": 0.003833
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:11.813Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:11.814Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:11.815Z",
+      "page": false
     }
   },
   "input_hash": "c64b96f39183cd684d3697c72e20f1881bfe6e46",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c64b96f39183cd684d3697c72e20f1881bfe6e46"
+  "output_hash": "cf66e450769333266cce05b32e7ec112ef344f62e882e2720d36304ca37fd928"
 }

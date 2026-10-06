@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/sales/credit-memo-cancellation",
   "published_at": "2025-07-11T11:45:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9895cf0d2d87176e45229d1d0611747f03cffbc9",
       "words": 440,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:11.779Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003833
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:11.801Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:11.802Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:11.803Z",
+      "page": false
     }
   },
   "input_hash": "9895cf0d2d87176e45229d1d0611747f03cffbc9",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9895cf0d2d87176e45229d1d0611747f03cffbc9"
+  "output_hash": "ec5543df2ff5d89c0dc3c442551253a9413646abe45fb866b4dcd07bb21e96c1"
 }

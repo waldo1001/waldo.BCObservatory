@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/sales/credit-memo-cancellation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/sales/credit-memo-cancellation",
+  "title": "Credit memos and cancellation",
+  "blob": "9895cf0d2d87176e45229d1d0611747f03cffbc9",
+  "summary": "Credit memos for subscription billing contracts, describing how to create corrective credit memos, delete unposted invoices, and handle billing line adjustments.",
+  "systems": [
+    "sales",
+    "service"
+  ],
+  "topics": [
+    "credit memos",
+    "contracts",
+    "invoices",
+    "billing",
+    "deferrals",
+    "cancellation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Recurring Billing"
+    }
+  ],
+  "features": [
+    "Create Corrective Credit Memo action",
+    "Credit memo creation",
+    "Billing line deletion",
+    "Deferral release",
+    "Unposted invoice deletion",
+    "Contract line editing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003833,
+      "pages_in_call": 8
+    }
+  ]
+}

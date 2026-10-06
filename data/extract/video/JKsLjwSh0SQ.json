@@ -1,0 +1,237 @@
+{
+  "video_id": "JKsLjwSh0SQ",
+  "item_id": "video/yt-microsoft/JKsLjwSh0SQ",
+  "title": "What's New in AL: Dependency Publishing (2024 release wave 2)",
+  "duration_s": 442,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "dependency publishing",
+    "al development",
+    "extension management",
+    "deployment lifecycle",
+    "breaking changes",
+    "vs code",
+    "lunch configuration"
+  ],
+  "chapters": [
+    {
+      "title": "The dependency management challenge",
+      "t_start": 0,
+      "t_end": 82.3
+    },
+    {
+      "title": "How VS Code handles deployment and failures",
+      "t_start": 82.3,
+      "t_end": 143
+    },
+    {
+      "title": "Demonstration setup and scenario",
+      "t_start": 143,
+      "t_end": 241.2
+    },
+    {
+      "title": "Dependency publishing failure and recovery",
+      "t_start": 241.2,
+      "t_end": 297.9
+    },
+    {
+      "title": "Dependency publishing options explained",
+      "t_start": 297.9,
+      "t_end": 370
+    },
+    {
+      "title": "Limitations and conclusion",
+      "t_start": 370,
+      "t_end": 442
+    }
+  ],
+  "features": [
+    {
+      "name": "Dependency Publishing",
+      "description": "A feature that automatically detects changes in dependent apps and recompiles direct dependencies during deployment. When publishing changes to an app with dependencies, the system attempts to reapply dependent extensions in the correct order.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 287.7,
+      "t_end": 325,
+      "is_demoed": true,
+      "caveats": [
+        "Does not support app downgrades due to potential destructive changes",
+        "Requires version compatibility - small changes without version bumps work best",
+        "May still fail if there are deep dependency chains not in the workspace"
+      ],
+      "tags": [
+        "deployment",
+        "extension management",
+        "breaking changes",
+        "al-go"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Dependency Publishing Options - Default",
+      "description": "The default setting recompiles all direct dependencies of a changed app regardless of whether they are in the current workspace. Failed deployments are restored to their original state.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 287.7,
+      "t_end": 312.2,
+      "is_demoed": true,
+      "caveats": [
+        "May fail if indirect dependencies have incompatible changes"
+      ],
+      "tags": [
+        "deployment",
+        "dependency resolution",
+        "automatic compilation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Dependency Publishing Options - Ignore",
+      "description": "The ignore option only recompiles the published app itself without checking dependencies. This can lead to runtime errors for all dependent extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 340.4,
+      "t_end": 356,
+      "is_demoed": false,
+      "caveats": [
+        "Causes runtime errors for dependent extensions",
+        "Not recommended for production scenarios"
+      ],
+      "tags": [
+        "deployment",
+        "risky option",
+        "dependency handling"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Dependency Publishing Options - Strict",
+      "description": "The strict option requires all dependencies of a changed app to be present in the workspace. It will fail immediately if any dependencies are missing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 356,
+      "t_end": 370,
+      "is_demoed": false,
+      "caveats": [
+        "Fails if any direct or indirect dependencies are not in the workspace",
+        "Requires including all dependent apps to succeed"
+      ],
+      "tags": [
+        "deployment",
+        "strict validation",
+        "dependency resolution"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Extension restore on failed deployment",
+      "description": "When a deployment fails during dependency publishing, the original extensions are automatically restored to their previous state, allowing developers to recover without manual intervention.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 277.5,
+      "t_end": 325,
+      "is_demoed": true,
+      "caveats": [
+        "Does not work if app version was changed as part of the deployment",
+        "Limited to restoring to compatible previous states"
+      ],
+      "tags": [
+        "error recovery",
+        "deployment reliability",
+        "extension management"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Extension management",
+      "t": 143
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Stefan Balslev",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 17.9,
+      "text": "To change out a dependency, you need to remove all the things that depend on it first.",
+      "why_it_matters": "Explains the core challenge that dependency publishing solves - the complex order of operations required when changing dependencies.",
+      "check": "exact"
+    },
+    {
+      "t": 130.5,
+      "text": "it can be quite hard sometimes to get back to the original state on the left side here in order for me to continue",
+      "why_it_matters": "Identifies the specific problem that prompted the development of dependency publishing features - recovery from failed deployments.",
+      "check": "exact"
+    },
+    {
+      "t": 297.9,
+      "text": "setting it to default here will recompile all the direct dependencies of the changed app whether or not they're in the workspace I'm working",
+      "why_it_matters": "Explains the key capability of the default dependency publishing option - automatic recompilation of all affected dependencies.",
+      "check": "exact"
+    },
+    {
+      "t": 325,
+      "text": "because we have improved the way we detect what is getting published and uninstalled and ready to be reapplied, we can now restore this",
+      "why_it_matters": "Describes the technical improvement that enables automatic restoration of extensions after failed deployments.",
+      "check": "exact"
+    },
+    {
+      "t": 380.9,
+      "text": "One of the core scenarios is is that we do not support in Business Central uh the downgrade of apps because they have destructive",
+      "why_it_matters": "Identifies a critical limitation of dependency publishing - apps cannot be downgraded due to potential data loss.",
+      "check": "exact"
+    },
+    {
+      "t": 406.8,
+      "text": "for a normal developer like me looking here and changing some small things, pressing every every F5 every now and then, this will be",
+      "why_it_matters": "Explains the practical benefit of dependency publishing for developers working on incremental changes.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 370,
+      "kind": "other",
+      "text": "We do not support in Business Central the downgrade of apps because they have destructive changes"
+    },
+    {
+      "t": 406.8,
+      "kind": "other",
+      "text": "If you change the version as part of a small change, then it does not work with the restore"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020430999999999998
+    }
+  ]
+}

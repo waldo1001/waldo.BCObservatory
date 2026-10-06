@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New in Sustainability (2024 release wave 2)",
   "url": "https://www.youtube.com/watch?v=NYG4pOtW-Xw",
-  "published_at": null,
+  "published_at": "2024-10-08T15:00:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:18:22.464Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1355
+    },
+    "captioned": {
+      "at": "2026-10-06T19:18:33.109Z",
+      "path": "data/captions/microsoft/NYG4pOtW-Xw.vtt",
+      "vtt_sha256": "f0b9763a70f108f6ccdc9f9cd8a2f67ce51a389c0fe1aef24910efb35e476e59",
+      "segments": 71,
+      "words": 3605,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 354,
-    "duration_s": 1356,
-    "via": "reconcile"
-  }
+    "duration_s": 1355,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f0b9763a70f108f6ccdc9f9cd8a2f67ce51a389c0fe1aef24910efb35e476e59"
 }

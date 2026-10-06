@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/sales/dealing-with-currencies",
   "published_at": "2025-07-11T11:45:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f26891add9c54a932e8ba2c34d8072b6b8bfa363",
       "words": 463,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:11.780Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003833
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:11.804Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:11.805Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:11.806Z",
+      "page": false
     }
   },
   "input_hash": "f26891add9c54a932e8ba2c34d8072b6b8bfa363",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f26891add9c54a932e8ba2c34d8072b6b8bfa363"
+  "output_hash": "4dba1bf89859b4f5194d7c61847319b6dd8e32d3221f13662798642c53988b06"
 }

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-server-events.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-server-events",
+  "title": "Monitoring Microsoft Dynamics 365 Business Central Server Events",
+  "blob": "72b88e27b95ef4e4bafa15b94e291509debbb037",
+  "summary": "Monitoring Business Central Server events uses Event Tracing for Windows to diagnose conditions and troubleshoot performance. Event channels collect and group events by type in Windows Event logs.",
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "event monitoring",
+    "event tracing",
+    "diagnostics",
+    "performance analysis",
+    "troubleshooting"
+  ],
+  "objects": [],
+  "features": [
+    "Event logging",
+    "Event channels",
+    "Event Tracing for Windows",
+    "Admin/Operational/Debug channels",
+    "Telemetry events",
+    "SQL statement tracking",
+    "AL function execution tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003101,
+      "pages_in_call": 8
+    }
+  ]
+}

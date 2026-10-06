@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/server-events.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/server-events",
+  "title": "Microsoft Dynamics 365 Business Central Server Events",
+  "blob": "dea0b5d97c22812d786b6988644d2b3f43118efa",
+  "summary": "Business Central server generates admin and operational events in Event Viewer that identify connection issues, service status, authentication events, and licensing violations across multiple task categories.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "server events",
+    "event viewer",
+    "error handling",
+    "monitoring",
+    "event logging"
+  ],
+  "objects": [],
+  "features": [
+    "SQL connection events",
+    "service startup/shutdown",
+    "tenant mounting",
+    "authentication events",
+    "certificate monitoring",
+    "task categorization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005018,
+      "pages_in_call": 8
+    }
+  ]
+}

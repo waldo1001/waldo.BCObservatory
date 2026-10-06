@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-use-performance-monitor-collect-event-trace-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-use-performance-monitor-collect-event-trace-data",
+  "title": "Use Performance Monitor to Collect Event Trace Data",
+  "blob": "db3f1d4dc0630eb6d5918a1e706a57e3a98fae9c",
+  "summary": "Windows Performance Monitor collects Business Central trace event data by creating and running Data Collector Sets. Configure trace buffers and keywords to capture specific server events.",
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "event tracing",
+    "performance monitor",
+    "data collector sets",
+    "trace events"
+  ],
+  "objects": [],
+  "features": [
+    "Data Collector Set creation",
+    "Event trace data collection",
+    "Trace buffer configuration",
+    "Keyword filtering",
+    "ETL file output",
+    "Trace provider selection"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003101,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-use-logman-collect-event-trace-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-use-logman-collect-event-trace-data",
+  "title": "Use Logman to Collect Event Trace Data",
+  "blob": "fa0731193485b756cb61a297f00da5a98780cbd6",
+  "summary": "Logman command-line tool collects Business Central event trace data from Microsoft-DynamicsNAV-Server and Microsoft-DynamicsNAV-Common providers. Store trace data in .etl files for analysis.",
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "event tracing",
+    "logman",
+    "command-line",
+    "telemetry",
+    "trace events"
+  ],
+  "objects": [],
+  "features": [
+    "Event trace data collection",
+    "Telemetry trace events",
+    "Server trace events",
+    "Trace session management",
+    "ETL file output"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003101,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents",
   "published_at": "2025-07-13T07:28:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b4a19d862774323c94208df18097b73c469572d9",
       "words": 559,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:11.773Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003833
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:11.783Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:11.785Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:11.786Z",
+      "page": false
     }
   },
   "input_hash": "b4a19d862774323c94208df18097b73c469572d9",
@@ -71,5 +90,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b4a19d862774323c94208df18097b73c469572d9"
+  "output_hash": "be59a223ee67490841fcd32d41b05b154f7d03367c0d9652f91df8c480039ab9"
 }

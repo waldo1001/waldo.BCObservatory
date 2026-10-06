@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/performance-counters",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1d2b748e9204dc219cb00c47d20fdbe8cddd179c",
       "words": 1902,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:32.921Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005018
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:32.943Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:32.944Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:32.945Z",
+      "page": false
     }
   },
   "input_hash": "1d2b748e9204dc219cb00c47d20fdbe8cddd179c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1d2b748e9204dc219cb00c47d20fdbe8cddd179c"
+  "output_hash": "8a2a50fb6e9066f024169d07adab12d14303fd32bd91a8735bffe5cba2d4a9a9"
 }

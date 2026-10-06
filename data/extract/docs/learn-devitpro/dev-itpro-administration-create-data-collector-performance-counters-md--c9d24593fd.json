@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/create-data-collector-performance-counters.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/create-data-collector-performance-counters",
+  "title": "Create Data Collector for Performance Counters",
+  "blob": "f86aa2439f7176780126c9c176bc175a8b59e1df",
+  "summary": "Performance Monitor data collector sets capture Business Central performance counters for analysis. Create data collector sets to monitor server instances and identify performance conditions.",
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "performance monitoring",
+    "data collector",
+    "performance counters",
+    "windows performance monitor"
+  ],
+  "objects": [],
+  "features": [
+    "Data Collector Set creation",
+    "Performance counter collection",
+    "Instance monitoring",
+    "Scheduled collection",
+    "Log file storage"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003101,
+      "pages_in_call": 8
+    }
+  ]
+}

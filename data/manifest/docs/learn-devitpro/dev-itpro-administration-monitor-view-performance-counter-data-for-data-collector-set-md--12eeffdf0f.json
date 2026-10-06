@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-view-performance-counter-data-for-data-collector-set",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0d0af309ba6061d5a3c1dc3227371268672bbcf2",
       "words": 192,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:31.122Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005018
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:32.933Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:32.934Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:32.936Z",
+      "page": false
     }
   },
   "input_hash": "0d0af309ba6061d5a3c1dc3227371268672bbcf2",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0d0af309ba6061d5a3c1dc3227371268672bbcf2"
+  "output_hash": "4e4933474b2775b31421b396749f03708bbaf65b28cac4eb967420e4c8aa230a"
 }

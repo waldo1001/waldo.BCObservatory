@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/UBB/masterdata/suppliers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/suppliers",
+  "title": "Usage data suppliers",
+  "blob": "da5d9eca1e32df71be970e923e44e248b658d960",
+  "summary": "Usage data suppliers for managing business partners who provide usage data in CSV format, with settings for customer creation, subscription creation, and data processing options.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "usage data",
+    "suppliers",
+    "import settings",
+    "data exchange",
+    "csv"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Usage Data Supplier"
+    },
+    {
+      "type": "page",
+      "name": "Generic Import Settings"
+    }
+  ],
+  "features": [
+    "Vendor Name field",
+    "Type field",
+    "Unit Price from Import checkbox",
+    "Vendor Invoice per field",
+    "Create Customers toggle",
+    "Create Subscriptions toggle",
+    "Process without Usage Data Blobs toggle",
+    "Additional Processing field"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003833,
+      "pages_in_call": 8
+    }
+  ]
+}

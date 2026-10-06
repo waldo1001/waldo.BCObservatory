@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/sales/dealing-with-currencies.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/sales/dealing-with-currencies",
+  "title": "Manage subscriptions in foreign currencies",
+  "blob": "f26891add9c54a932e8ba2c34d8072b6b8bfa363",
+  "summary": "Foreign currency management for subscription contracts, including currency code handling, amount conversion, and exchange rate updates for subscription lines.",
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "currencies",
+    "subscriptions",
+    "exchange rates",
+    "foreign currency",
+    "conversion"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Subscription"
+    },
+    {
+      "type": "page",
+      "name": "Customer Subscription Contract"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Subscription Contract"
+    }
+  ],
+  "features": [
+    "Currency Code field",
+    "Amount field",
+    "Update exchange rates action",
+    "Exchange rate conversion",
+    "Currency factor",
+    "Job queue scheduling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003833,
+      "pages_in_call": 8
+    }
+  ]
+}

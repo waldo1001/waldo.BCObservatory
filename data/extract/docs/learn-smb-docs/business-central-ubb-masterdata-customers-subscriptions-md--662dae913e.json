@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/UBB/masterdata/customers-subscriptions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/customers-subscriptions",
+  "title": "Usage-based billing customers and subscriptions",
+  "blob": "1a7b10e531483dc53ef10d713be1957e4be79faf",
+  "summary": "Usage data customers and subscriptions for usage-based billing, including master data setup for customers, suppliers, and subscription linking in Business Central.",
+  "systems": [
+    "integration",
+    "sales"
+  ],
+  "topics": [
+    "usage-based billing",
+    "customers",
+    "subscriptions",
+    "master data",
+    "supplier references"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Usage Data Customers"
+    },
+    {
+      "type": "page",
+      "name": "Usage Data Suppliers"
+    },
+    {
+      "type": "page",
+      "name": "Usage Data Supp. Subscriptions"
+    },
+    {
+      "type": "page",
+      "name": "Generic Import Settings"
+    }
+  ],
+  "features": [
+    "Create Customers toggle",
+    "Create Subscriptions toggle",
+    "Supplier No. field",
+    "Supplier Reference field",
+    "Customer linking",
+    "Usage data imports"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003833,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "video_id": "DpYJOkwKxTY",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.4,
+      "end": 19.4,
+      "text": "hi and welcome to this session on what's new in business Central pobi embedded reports and pobi Reporting my name is Brian Nelson I'm a program manager in the business Central"
+    },
+    {
+      "t": 19.4,
+      "end": 40.3,
+      "text": "team in this release uh in the next minor uh first you will see that we have new powerbi reports enabling uh reporting on your business Central data in powerbi with powerbi you will of course when you install apps you get apps in powerbi"
+    },
+    {
+      "t": 40.3,
+      "end": 60.6,
+      "text": "but we also embedded those reports in within business Central so that you can access them directly from within business Central it requires a bit of setup or configuration very little and there's learning content docs content describing how you set up of course but also each of the 76 reports"
+    },
+    {
+      "t": 60.6,
+      "end": 80.9,
+      "text": "that are in there in total describing what the report is about and how you would usually navigate filter and and use the reports and later on in one of the next miners uh we will provide more demo data so it's easier to demonstrate all the capabilities that powerbi is offering let's"
+    },
+    {
+      "t": 80.9,
+      "end": 101.2,
+      "text": "take a closer look before we look at the product the powerbi uh apps once you have installed them will be embedded uh within business Central meaning that you can access them uh through role centers or actions in the uh um role Explorer and get a one"
+    },
+    {
+      "t": 101.2,
+      "end": 121,
+      "text": "page per report uh from the app later on you'll be able to select specific visuals enrio and Blas has a separate um session on the powerbi embed that you can also watch if you want to do your own embedding from powerbi"
+    },
+    {
+      "t": 121,
+      "end": 141.7,
+      "text": "there's um a a piece of uh setup that you need to do you need to pick the right uh apps for the right set of reports uh and you do that from within BC for the finance report there is some setup for account category so you get all of your financial kpis right"
+    },
+    {
+      "t": 141.7,
+      "end": 162.3,
+      "text": "but it's it's straightforward and there's even a wizard to take you through it uh the first time you do it um here we have the account categories that you need for your financial kpis there are some defaults but if you're running your own chart of accounts or if you have even added your own account categories"
+    },
+    {
+      "t": 162.3,
+      "end": 182.7,
+      "text": "you might want to modify this you can access the new po reports through the role centers where we have added them to like we have added the relevant report for the relevant role centers um if you need to find specific ones or the first time where you just want to to browse through all of it you can access"
+    },
+    {
+      "t": 182.7,
+      "end": 203,
+      "text": "all 76 reports through the role Explorer either by searching powerbi or for the specific report when you open a report and hit the question mark to get help you will see that there is a mini help in the help pane it will give you a brief explanation of what the report"
+    },
+    {
+      "t": 203,
+      "end": 223.2,
+      "text": "is about and then in the release when we release we will take you through a separate page for each of the rep report describing what the report is about what data is behind it and what you can do with the filtering and what is supposed to show you uh with your data and then of course uh related"
+    },
+    {
+      "t": 223.2,
+      "end": 243.6,
+      "text": "or additional resources we will uh link you to the new uh analytics content that we have provided in docs but let's take a look at how this looks like uh in business Central so here I have business Central and uh I want to take a look at the new"
+    },
+    {
+      "t": 243.6,
+      "end": 254.1,
+      "text": "powerbi reports I can go to uh the role Explorer I can try and search for"
+    },
+    {
+      "t": 254.1,
+      "end": 270.1,
+      "text": "powerbi it will give me all the results and I can start scrolling down and pick one of them um it's a good place to start if you just want to browse through the different uh reports let's take the balance sheet"
+    },
+    {
+      "t": 270.1,
+      "end": 290.6,
+      "text": "it is one of the reports in the finance app and it's embedded here in BC connected to my data we'll get to the connection in a few seconds you can see I started my year in July it ends in June it has it all I can click on this one or right click it and say uh show next level which will expand"
+    },
+    {
+      "t": 290.6,
+      "end": 310.6,
+      "text": "the balance sheet and and uh show me more data if I need to dig into uh one of the items like finish good Goods for September I can right click it and drill through and in this case I would pick the balance sheet uh drill through because it comes from the balance sheet and I have my data here"
+    },
+    {
+      "t": 310.6,
+      "end": 330.6,
+      "text": "actually this balance sheet drill through um table is in a separate report you can also access it uh directly if you want or if you need to and of course you have some filtering if you need to do some filtering to either troubleshoot validate data or any other thing let's go"
+    },
+    {
+      "t": 330.6,
+      "end": 350.7,
+      "text": "back to to this one so I have my balance sheet here I found the report in the role Explorer uh if I really want to use it every day I probably want to bookmark it and then I will have it in my Ru Center where I can use personalization to move it around in my navigation or it might na pain let's close this"
+    },
+    {
+      "t": 350.7,
+      "end": 372.1,
+      "text": "one okay and you can see that I put in the financial overview which is a different report showing me kpis uh I can also in these reports in most of them I can uh either um expand it a bit or there are some of the reports where if it's meaningful I can drill through to the uh underlying"
+    },
+    {
+      "t": 372.1,
+      "end": 387.6,
+      "text": "data there are uh some filters that I can apply uh in this year when I'm looking at a financial overview I probably want to only look at the current year I'll scroll a bit down"
+    },
+    {
+      "t": 387.6,
+      "end": 403.2,
+      "text": "24 and then I will just see my data for the current year and of course it's powerbi it will remember my uh setting and let's take another look at one of the U sales"
+    },
+    {
+      "t": 403.2,
+      "end": 423.2,
+      "text": "overview the sales overview will give you uh kpis for for sales um some more details in some of them and again you have filtering over here so let's look at the setup that you will go through in order to set up these reports and we will"
+    },
+    {
+      "t": 423.2,
+      "end": 443.6,
+      "text": "uh either notify you um or uh if you see the blog post we will take you through uh to uh pobi appsource where you will install the apps just like any other apps in appsource in powerbi when you install apps they will just um the first uh thing you will be asked about is where in"
+    },
+    {
+      "t": 443.6,
+      "end": 460.8,
+      "text": "what workspace do you want to install it you can either add them to an existing workspace if you want want to or you can create a new one like I have done here business Central and then uh I will put all my apps in here currently the apps are per"
+    },
+    {
+      "t": 460.8,
+      "end": 480.9,
+      "text": "company uh so if I want to run powerbi on multiple um business Central companies I can either create a separate workspace for each of the companies or I could duplicate um or reinstall the app like I need to install the app once for each"
+    },
+    {
+      "t": 480.9,
+      "end": 501,
+      "text": "company that I have in the current implementation so I have my apps here they're in a business Central workspace so in business Central the first time you select um a powerbi report or if you actually go to the powerbi chart in um in the role Center where we have"
+    },
+    {
+      "t": 501,
+      "end": 521.4,
+      "text": "powerbi chart you will be um uh prompted with a wizard that takes you through the setup in this case we just say yes we want to go through it the first thing you will have to select is how or what calendar do you want to use then the regular calendar calendar or your"
+    },
+    {
+      "t": 521.4,
+      "end": 541.6,
+      "text": "fiscal calendar that is based off of your accounting periods or a weekly calendar maybe if you're on retailer or other and I just need to select it um I can select uh weekdays I can select um time zone and I can select we have defaulted to three years of"
+    },
+    {
+      "t": 541.6,
+      "end": 561.7,
+      "text": "data like for comparison year over-ear and maybe having some historical data for the uh the time series charts and Analysis but you can you can modify it if you want to you can also select the holidays uh if you have any uh reports that where that is"
+    },
+    {
+      "t": 561.7,
+      "end": 582.6,
+      "text": "relevant and the last page uh we asked you for uh input is and I filled it in because I've been there already but if you're starting from from a new company this would be blank and you would for each one of them each of the seven apps you would pick the workspace where you have put the app selected"
+    },
+    {
+      "t": 582.6,
+      "end": 594,
+      "text": "and then you would pick the relevant app and then um the pages will refer to the the reports uh in that"
+    },
+    {
+      "t": 594,
+      "end": 614.4,
+      "text": "app and the same you could go through invoice uh sorry inventory has uh two different app that it needs if you want them you don't have to fill in all of them at once you can just start with Finance or you can start with sale just to see how it goes if you want to and of course you can it's a assisted setup um"
+    },
+    {
+      "t": 614.4,
+      "end": 634.9,
+      "text": "or wizard so you can run it uh after you've you've closed it and maybe add more apps as you go um the wizard will pick up your environment some demo environment I have here and the company name and that will be inserted into the semantic model in"
+    },
+    {
+      "t": 634.9,
+      "end": 652.6,
+      "text": "pobi um so that it knows where to fetch the data if you need to uh and when you're copying stuff around in in powerbi or if if you're setting it up manually you can actually go to the semantic model in powerbi and then insert these"
+    },
+    {
+      "t": 652.6,
+      "end": 670.6,
+      "text": "parameters but it's much easier to do it through the connector so now I have set up um my powerbi apps uh I can find them in the RO Explorer um hopefully the the default will work for the financial"
+    },
+    {
+      "t": 670.6,
+      "end": 690.7,
+      "text": "reports but if I need to I can go into powerbi connector and I can either go through the connector because I can revisit my setup there um I can pick the general uh stuff and then I can pick the specific for each of"
+    },
+    {
+      "t": 690.7,
+      "end": 710.8,
+      "text": "the the apps I can select the apps and I can select some dates for for the data that will be retrieved for the finance report I need to set up some account categories or I need to do a prop mapping because as you saw with the powerbi sorry the financial overview uh report it produces some"
+    },
+    {
+      "t": 710.8,
+      "end": 731.1,
+      "text": "kpis those kpis are based on uh categories of your or categorization of your data and in order to have have that correct you need to set up a mapping so on the left hand side this is what pobi uh uses to calculate these uh different kpis"
+    },
+    {
+      "t": 731.1,
+      "end": 750.1,
+      "text": "quick Rao cach radio uh and so forth and you will just um you can either pick the default or you can go in let's say I remember I did this liquid asset maybe you have a category and you're just using"
+    },
+    {
+      "t": 750.1,
+      "end": 771.4,
+      "text": "maybe you're just using the cash category maybe you have multiple cash categories or maybe you have something that you would also consider liquid asset that you want to go into uh the kpis for that and you can just add it here so so these two elements picking the apps that you installed and setting up the account categories"
+    },
+    {
+      "t": 771.4,
+      "end": 783.5,
+      "text": "for uh the finance report is all you need to do to set it up and then you're ready to start using powerbi reporting embedded in business Central"
+    },
+    {
+      "t": 783.5,
+      "end": 804.3,
+      "text": "so once you get started with powerbi reporting you probably won't be able to stop but there will be more um in one of the coming releases minor releases hopefully the second one we will add demo data so that um when you run on your own business Central tenant or your own environment"
+    },
+    {
+      "t": 804.3,
+      "end": 824.5,
+      "text": "you'll be able to spin up a company add that demo data and then start using the reports where you will have a a rich set of financial data uh project data fixed assets data and then some of the other modules will will come later so that you can start um demonstrating exploring uh powerbi"
+    },
+    {
+      "t": 824.5,
+      "end": 839.3,
+      "text": "reporting without having to connect to your production environment so much better uh demo data for powerbi reporting we will extend the set of apps we have the seven apps we have with an app for subscription billing so that will"
+    },
+    {
+      "t": 839.3,
+      "end": 858,
+      "text": "powerbi will be embedded as reporting there too and we will also get one for sustainability we'll get one for fixed assets uh and then more of the other modules will come in later versions in this release because we're still making a few changes"
+    },
+    {
+      "t": 858,
+      "end": 869.6,
+      "text": "um to the uh apps we um we keep it to ourselves but from the next release which means uh release 26 which is April"
+    },
+    {
+      "t": 869.6,
+      "end": 890.2,
+      "text": "uh we will open source the report files like the the powerbi X PBX uh files that you will be able to access from GitHub that means that you can take the file and put a different color on it add more uh data if you want and if you have access to more data you can combine it with other sources"
+    },
+    {
+      "t": 890.2,
+      "end": 910.3,
+      "text": "you can create your own reports uh and you can completely uh rearrange it the way you want but you will have a starting point uh for each of these apps which maybe bring you uh fast forward to to to have your own powerbi reporting so with that go and explore in the next minor release"
+    },
+    {
+      "t": 910.3,
+      "end": 917,
+      "text": "when it's out there and thank you for watching this session"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.04,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.43,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.44,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2371
+}

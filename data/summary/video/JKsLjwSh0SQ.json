@@ -1,0 +1,27 @@
+{
+  "video_id": "JKsLjwSh0SQ",
+  "item_id": "video/yt-microsoft/JKsLjwSh0SQ",
+  "summary": "Dependency publishing in AL (2024 release wave 2): when a developer publishes a changed app from VS Code, direct dependencies are recompiled and reapplied in order. Covers the default, ignore and strict options, restore after a failed deployment, and the limits.",
+  "overview": "The video explains why replacing an app that other extensions depend on is hard: dependents must be removed first, and getting back to the original state after a failed deployment can be difficult. Dependency publishing detects changes in the app and recompiles its direct dependencies during deployment, then reapplies the dependent extensions in the right order.\n\nA demo shows a deployment failing and the original extensions being restored. The video then explains the three publishing options (default, ignore, strict) and the limitations, including that app downgrades are not supported and that changing the app version breaks the restore.",
+  "key_points": [
+    "Default option recompiles all direct dependencies of the changed app, whether or not they are in the current workspace.",
+    "Ignore option recompiles only the published app and does not check dependencies. It can cause runtime errors in dependent extensions and is not recommended for production.",
+    "Strict option requires all dependencies of the changed app to be in the workspace and fails if any direct or indirect dependency is missing.",
+    "If a deployment fails, the original extensions are restored to their previous state, so the developer can continue without manual cleanup.",
+    "Restore does not work if the app version was changed as part of the deployment. Small changes without version bumps work best.",
+    "Business Central does not support app downgrades because of possible destructive changes.",
+    "Deployment can still fail with deep dependency chains that are not in the workspace, or when indirect dependencies have incompatible changes."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "45e7a40717760dd68be69e113c5f74eb97dc0a105a8ae0329b5912bca5e82d49",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013596399999999998
+  }
+}

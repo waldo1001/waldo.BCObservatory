@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/disable-logging-events-windows-application-log.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/disable-logging-events-windows-application-log",
+  "title": "Disable Logging Events to the Windows Application Log",
+  "blob": "00e247e0daf48351272a78e12586b6a54dba30ed",
+  "summary": "Disable logging Business Central events to Windows Application Log while retaining data in Application and Services Logs. Use Administration Center Tool or modify CustomSettings.config file.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "event logging",
+    "windows application log",
+    "telemetry",
+    "configuration",
+    "monitoring"
+  ],
+  "objects": [],
+  "features": [
+    "Event logging configuration",
+    "EnableApplicationChannelLog setting",
+    "Windows Application Log disable",
+    "Server restart"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003101,
+      "pages_in_call": 8
+    }
+  ]
+}

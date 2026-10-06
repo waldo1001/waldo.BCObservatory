@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/UBB/masterdata/service-commitments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/service-commitments",
+  "title": "Subscription lines in usage billing",
+  "blob": "bb3c74d7efd1dfdeeff26aed225b4ae5d77cf4f1",
+  "summary": "Subscription package lines and usage-based billing fields in subscription billing, describing pricing options for usage quantity, fixed quantity, and unit cost surcharge.",
+  "systems": [
+    "sales",
+    "service"
+  ],
+  "topics": [
+    "subscription lines",
+    "usage-based billing",
+    "pricing",
+    "subscription packages",
+    "templates"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Subscription package line templates"
+    },
+    {
+      "type": "page",
+      "name": "Subscription packages"
+    }
+  ],
+  "features": [
+    "Usage Based Billing toggle",
+    "Usage Based Pricing field",
+    "Usage Quantity pricing",
+    "Fixed Quantity pricing",
+    "Unit Cost Surcharge",
+    "Pricing Unit Cost Surcharge % field"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003833,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/setup/import.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/setup/import",
+  "title": "Import subscription contracts and contract lines",
+  "blob": "c64b96f39183cd684d3697c72e20f1881bfe6e46",
+  "summary": "Import subscription contracts, subscriptions, and subscription lines using configuration packages with support for customer contracts, vendor contracts, and subscription data.",
+  "systems": [
+    "sales",
+    "service",
+    "administration"
+  ],
+  "topics": [
+    "import",
+    "subscriptions",
+    "contracts",
+    "configuration packages",
+    "data transfer"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Imported Customer Subscription Contracts"
+    },
+    {
+      "type": "page",
+      "name": "Imported Subscriptions"
+    },
+    {
+      "type": "page",
+      "name": "Imported Subscription Lines"
+    },
+    {
+      "type": "table",
+      "name": "Items"
+    },
+    {
+      "type": "table",
+      "name": "Subscription Package Line Templates"
+    },
+    {
+      "type": "table",
+      "name": "Subscription Packages"
+    },
+    {
+      "type": "table",
+      "name": "Subscription Package Lines"
+    },
+    {
+      "type": "table",
+      "name": "Item Subscription Packages"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Contracts"
+    },
+    {
+      "type": "table",
+      "name": "Imported Customer Subscription Contracts"
+    },
+    {
+      "type": "table",
+      "name": "Imported Subscriptions"
+    },
+    {
+      "type": "table",
+      "name": "Imported Subscription Lines"
+    }
+  ],
+  "features": [
+    "Create Customer Subscription Contracts action",
+    "Create Subscriptions action",
+    "Create Subscription Lines action",
+    "Contract No. field",
+    "Subscription No. field",
+    "Billing Rhythm field",
+    "Usage Based Billing field",
+    "Currency conversion"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003833,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/monitor-use-perfview-collect-event-trace-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-use-perfview-collect-event-trace-data",
+  "title": "Use PerfView to Collect Event Trace Data",
+  "blob": "19d59402ab8f0db5726ac66cce98f08f0087b718",
+  "summary": "Use PerfView to collect event trace data (.etl files) for Business Central server instances by configuring providers like Microsoft-DynamicsNAV-Server with specific keyword filters.",
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "event trace",
+    "perfview",
+    "monitoring",
+    "diagnostic tool",
+    "server events"
+  ],
+  "objects": [],
+  "features": [
+    "event trace data collection",
+    "provider configuration",
+    "keyword filtering",
+    "trace event types"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005018,
+      "pages_in_call": 8
+    }
+  ]
+}

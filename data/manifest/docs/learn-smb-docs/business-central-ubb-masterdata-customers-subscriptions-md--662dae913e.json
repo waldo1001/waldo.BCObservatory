@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/customers-subscriptions",
   "published_at": "2025-07-11T12:23:42.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1a7b10e531483dc53ef10d713be1957e4be79faf",
       "words": 647,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:11.775Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.003833
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:11.788Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:11.790Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:11.791Z",
+      "page": false
     }
   },
   "input_hash": "1a7b10e531483dc53ef10d713be1957e4be79faf",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1a7b10e531483dc53ef10d713be1957e4be79faf"
+  "output_hash": "b91feebf47720d644157668cc6eba84bac797909333ff7e94aaf96893e112de6"
 }

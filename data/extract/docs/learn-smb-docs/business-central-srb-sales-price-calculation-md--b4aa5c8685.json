@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/sales/price-calculation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/sales/price-calculation",
+  "title": "Sales price calculation",
+  "blob": "61fe77a64d3f0286ebea998a1ddcc07a7f43ff8e",
+  "summary": "Price determination for subscription lines based on calculation base amount and percentage, with options for item price, document price, or document price with discount.",
+  "systems": [
+    "sales",
+    "service"
+  ],
+  "topics": [
+    "pricing",
+    "subscription lines",
+    "price calculation",
+    "calculation base"
+  ],
+  "objects": [],
+  "features": [
+    "Calculation Base Amount field",
+    "Calculation Base % field",
+    "Price field",
+    "Item Price option",
+    "Document Price option",
+    "Document Price And Discount option"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003833,
+      "pages_in_call": 8
+    }
+  ]
+}
