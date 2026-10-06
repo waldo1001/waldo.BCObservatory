@@ -1,0 +1,14 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+const base = import.meta.env.BASE_URL;
+const all = await getCollection("objects");
+const counts = new Map<string, number>();
+for (const e of all) counts.set(e.data.object_type, (counts.get(e.data.object_type) ?? 0) + 1);
+---
+<Base title="AL objects · BC Observatory" description="Every W1 and first-party app object of Business Central, extracted from the code.">
+  <p class="eyebrow">AL objects</p>
+  <h1>{all.length} objects</h1>
+  <p class="lede">Extracted from the code (names, ids, signatures, properties; no code bodies): fields, keys, procedures, events, subscriptions, obsolete state, versions, countries that replace them and the Learn pages that name them. Agents: <a href={`${base}objects/llms.txt`}>llms.txt</a>.</p>
+  <ul>{[...counts].sort((a, b) => b[1] - a[1]).map(([t, n]) => <li><a href={`${base}objects/${t}/`}>{t}</a> <span class="meta">{n}</span></li>)}</ul>
+</Base>

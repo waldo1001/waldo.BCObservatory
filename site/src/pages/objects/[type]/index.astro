@@ -1,0 +1,18 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../../layouts/Base.astro";
+export async function getStaticPaths() {
+  const all = await getCollection("objects");
+  const types = [...new Set(all.map((e) => e.data.object_type as string))];
+  return types.map((type) => ({ params: { type }, props: { rows: all.filter((e) => e.data.object_type === type).sort((a, b) => (a.data.object_id ?? 0) - (b.data.object_id ?? 0) || a.data.name.localeCompare(b.data.name)) } }));
+}
+const { type } = Astro.params;
+const { rows } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<Base title={`${type} objects · BC Observatory`} description={`Every ${type} object of Business Central, from the code.`}>
+  <p class="eyebrow">AL objects · {type}</p>
+  <h1>{rows.length} {type} objects</h1>
+  <p class="lede">Agents: <a href={`${base}objects/${type}/llms.txt`}>llms.txt</a>.</p>
+  <ul>{rows.map((e) => <li><a href={`${base}objects/${e.id}/`}>{e.data.title}</a> <span class="meta">{e.data.app}{e.data.obsolete ? ` · obsolete ${e.data.obsolete.tag ?? ""}` : ""}</span></li>)}</ul>
+</Base>

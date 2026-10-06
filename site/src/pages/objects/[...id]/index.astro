@@ -1,0 +1,15 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../../layouts/Base.astro";
+import { siteLinks } from "../../../lib/links";
+export async function getStaticPaths() {
+  return (await getCollection("objects")).map((entry) => ({ params: { id: entry.id }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const html = siteLinks(entry.rendered?.html ?? "", base, `objects/${entry.id}`);
+---
+<Base title={`${entry.data.title} · BC Observatory`} description={entry.data.summary} markdown={`${base}objects/${entry.id}.md`}>
+  <p class="eyebrow">AL object · {entry.data.object_type} · {entry.data.app} · <a href={`${base}objects/${entry.id}.md`}>markdown</a></p>
+  <article set:html={html} />
+</Base>

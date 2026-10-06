@@ -129,3 +129,12 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   (`src/Apps/W1/*/app`, ~6,900 objects, 16 MB) are `data/code/<major>/apps`, outside W1 so version diffs compare like
   with like; they resolved 370 of 583 unmatched Learn ids. 2026-10-06: 1,144 pages, 4,888 links, 213 not found
   (country apps, removed objects), 42 obsolete but documented, 39 new pages/reports undocumented.
+- **D30 Object and localization pages are deterministic facts from the code.** `pipeline/render/object.ts` writes
+  `content/objects/<type>/<id>.md` for every W1 and first-party app object of the snapshot majors (16,425 pages,
+  76 MB) from the current release's snapshot (`narrative_order`), and `content/localizations/<cc>.md` per country
+  layer (22). Object pages: members, events, subscriptions, public procedures, life across majors, countries that
+  replace it, Learn pages naming it and their topic hubs, deprecations, source link at the exact commit.
+  `versions.introduced` is null for objects already in the oldest snapshot (they may be decades old). Country-only
+  objects get no page (ids repeat across countries); they are listed on their localization page. No LLM; Sonnet
+  narratives for BE/NL localization hubs come later. Site routes `/objects/`, `/objects/<type>/`, `/localizations/`;
+  the site builds 17,268 pages in ~20 s. The deprecation radar has no page of its own until the weekly digest (M4).

@@ -16,4 +16,13 @@ const features = defineCollection({
   loader: glob({ pattern: "*.md", base: "../content/features", generateId: ({ entry }) => entry.replace(/\.md$/, "") }),
 });
 
-export const collections = { videos, topics, features };
+const objects = defineCollection({
+  // ids are <type>/<id or name slug>: table/18, interface/i-x
+  loader: glob({ pattern: "**/*.md", base: "../content/objects", generateId: ({ entry }) => entry.replace(/\.md$/, "") }),
+});
+
+const localizations = defineCollection({
+  loader: glob({ pattern: "*.md", base: "../content/localizations", generateId: ({ entry }) => entry.replace(/\.md$/, "") }),
+});
+
+export const collections = { videos, topics, features, objects, localizations };

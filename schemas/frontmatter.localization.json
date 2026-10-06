@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/frontmatter.localization.json",
+  "title": "Frontmatter of a localization page (content/localizations/<cc>.md)",
+  "allOf": [
+    {
+      "$ref": "frontmatter.base.json"
+    }
+  ],
+  "type": "object",
+  "required": [
+    "country",
+    "version",
+    "w1_version",
+    "added_objects",
+    "replaced_objects",
+    "added_fields",
+    "added_events",
+    "learn_folder"
+  ],
+  "properties": {
+    "type": {
+      "const": "localization"
+    },
+    "country": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$"
+    },
+    "version": {
+      "type": "string"
+    },
+    "w1_version": {
+      "type": "string"
+    },
+    "added_objects": {
+      "type": "integer"
+    },
+    "replaced_objects": {
+      "type": "integer"
+    },
+    "removed_objects": {
+      "type": "integer"
+    },
+    "added_fields": {
+      "type": "integer"
+    },
+    "added_events": {
+      "type": "integer"
+    },
+    "learn_folder": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

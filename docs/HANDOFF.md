@@ -91,8 +91,10 @@ Deliberate deviations from PLAN, all small:
   (`pipeline/code/job.ts`, code items in the nightly, quota `code_jobs`), snapshots 28/29/30 W1 + overlays in
   `data/code/`, version and country diffs, timelines, deprecation radar (`pipeline/code/diff.ts`, nightly post-pass).
   Docs↔objects + drift report done (D29, `pipeline/code/docs-objects.ts`, first-party apps snapshot).
-  Next: object pages, localization hubs (BE, NL narratives first), deprecation radar page, site routes for them.
-- Running 2026-10-06 18:13: unlimited nightly on the Mini (run 37493958522), batch commits every 50 item stages.
+  Object pages (16,425) and localization pages (22) with site routes done (D30).
+  Next: Sonnet narratives for BE/NL localization hubs, deprecation radar in the weekly digest (M4), object family
+  narratives, Learn reference pages (methods, diagnostics) as object hubs.
+- 2026-10-06 19:20: unlimited nightly on the Mini (run 37502595502), concurrency 6, batch commits every 50 item stages.
 
 ## Execution notes (2026-10-06)
 

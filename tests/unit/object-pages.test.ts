@@ -1,0 +1,48 @@
+import { test } from "node:test";
+import assert from "node:assert/strict";
+import { mkdtempSync, readFileSync, existsSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
+import matter from "gray-matter";
+import { writeJson, writeText } from "../../pipeline/lib/fsx.js";
+import { extractSource, loadParser } from "../../pipeline/code/extract.js";
+import { writeSnapshot } from "../../pipeline/code/job.js";
+import { refreshCodeDerived } from "../../pipeline/code/diff.js";
+import { renderCodePages } from "../../pipeline/render/object.js";
+import { validateContent } from "../../pipeline/validate/content.js";
+
+const T28 = `table 18 Customer\n{\n    fields { field(1; "No."; Code[20]) { } }\n}\ncodeunit 99 Gone { }\n`;
+const T29 = `table 18 Customer\n{\n    fields { field(1; "No."; Code[20]) { } field(2; Email; Text[80]) { ObsoleteState = Pending; ObsoleteTag = '29.0'; } }\n    [IntegrationEvent(false, false)]\n    local procedure OnAfterX() begin end;\n    procedure GetName(): Text begin end;\n}\ntableextension 50 "Cust Ext" extends Customer { }\npage 21 "Customer Card" { SourceTable = Customer; }\n`;
+const BE = `table 18 Customer\n{\n    fields { field(1; "No."; Code[20]) { } field(2; Email; Text[80]) { ObsoleteState = Pending; ObsoleteTag = '29.0'; } field(11300; "Enterprise No."; Text[50]) { } }\n    [IntegrationEvent(false, false)]\n    local procedure OnAfterX() begin end;\n    procedure GetName(): Text begin end;\n}\ntable 11300 "BE Only" { }\n`;
+const man = (major: string, cc: string, commit: string) => ({ major, country: cc, layer: (cc === "w1" ? "base" : "overlay") as "base" | "overlay", source: "bcapps", repo: "https://github.com/microsoft/BCApps", branch: `releases/${major}.x`, commit, build: null, apps: ["Base Application"], files: 1, parse_errors: 0 });
+
+test("object and localization pages: valid frontmatter, cross-links that resolve, life across versions", async () => {
+  const root = mkdtempSync(join(tmpdir(), "bcobs-objpages-"));
+  const dataDir = join(root, "data"), contentDir = join(root, "content");
+  const p = await loadParser();
+  const ex = (src: string, version: string, cc = "w1") => extractSource(p, src, { version, country: cc, layer: cc === "w1" ? "base" : "overlay", app: "Base Application", file: "src/X.al" });
+  writeSnapshot(dataDir, ex(T28, "28"), man("28", "w1", "c28"));
+  writeSnapshot(dataDir, ex(T29, "29"), man("29", "w1", "c29"));
+  writeSnapshot(dataDir, ex(BE, "29", "be"), { ...man("29", "be", "c29"), absent: [] });
+  refreshCodeDerived(dataDir, ["28", "29"]);
+  writeJson(join(dataDir, "index/docs-objects.json"), { majors: ["28", "29"], commits: {}, docs: 1, links: 1, by_doc: {}, by_object: { "page/21": [{ id: "docs/learn/bc/customer.md", url: "https://learn/customer", title: "Customer card" }] } });
+  const r = renderCodePages(dataDir, contentDir, new Date("2026-10-07T00:00:00Z"));
+  assert.deepEqual([r.objects, r.localizations], [4, 1], "table 18, codeunit 99 (gone in 29), tableextension 50, page 21; BE");
+  const t = matter(readFileSync(join(contentDir, "objects/table/18.md"), "utf8"));
+  assert.deepEqual([t.data.present_in, t.data.changed_in, t.data.versions.introduced, t.data.countries, t.data.links.localizations], [["28", "29"], ["29"], null, ["be"], ["localization/be"]]);
+  assert.match(t.content, /\| 2 \| Email \| Text\[80\] \| obsolete Pending 29.0 \|/);
+  assert.match(t.content, /OnAfterX\(\)` \(integration\)/);
+  const gone = matter(readFileSync(join(contentDir, "objects/codeunit/99.md"), "utf8"));
+  assert.match(gone.data.summary, /gone after BC28/);
+  const ext = matter(readFileSync(join(contentDir, "objects/tableextension/50.md"), "utf8"));
+  assert.deepEqual([ext.data.versions.introduced, ext.data.links.objects], ["29", ["object/table/18"]]);
+  assert.deepEqual(matter(readFileSync(join(contentDir, "objects/page/21.md"), "utf8")).data.links.learn, ["https://learn/customer"]);
+  const be = matter(readFileSync(join(contentDir, "localizations/be.md"), "utf8"));
+  assert.deepEqual([be.data.country, be.data.added_objects, be.data.replaced_objects, be.data.added_fields], ["BE", 1, 1, 1]);
+  assert.ok(existsSync(join(contentDir, "objects/table/llms.txt")) && existsSync(join(contentDir, "localizations/llms.txt")));
+  assert.deepEqual(validateContent(contentDir).errors, []);
+  // a second render changes nothing; an object that leaves every snapshot loses its page
+  assert.equal(renderCodePages(dataDir, contentDir).written, 0);
+  writeText(join(contentDir, "objects/table/77.md"), "stale");
+  assert.equal(renderCodePages(dataDir, contentDir).removed, 1);
+});
