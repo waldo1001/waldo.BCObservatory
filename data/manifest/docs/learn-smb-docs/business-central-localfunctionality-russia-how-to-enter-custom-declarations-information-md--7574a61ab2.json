@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-enter-custom-declarations-information",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ca0d4d6b4df154e8891c562701dff98d30790646",
       "words": 773,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:56.748Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.003087
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:58.661Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:58.662Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:58.663Z",
+      "page": false
     }
   },
   "input_hash": "ca0d4d6b4df154e8891c562701dff98d30790646",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ca0d4d6b4df154e8891c562701dff98d30790646"
+  "output_hash": "923053b26928f6cc6498ed6d70e784e591cab5b033ffd53c615fb465e40693e2"
 }

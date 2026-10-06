@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-calculate-assessed-tax.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-calculate-assessed-tax",
+  "title": "Calculate assessed tax in Russia",
+  "blob": "81ab786b179dfef46510a8cf575dc42cd68bbb08",
+  "summary": "Calculating assessed tax for fixed assets uses configuration in Fixed Asset Setup, Tax Authorities, and fixed asset cards to compute property tax based on regional codes and tax allowances in Russian tax accounting.",
+  "systems": [
+    "fixed-assets",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "assessed tax",
+    "fixed assets",
+    "property tax",
+    "tax allowances",
+    "russia"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Assessed Tax Allowances"
+    },
+    {
+      "type": "table",
+      "name": "Assessed Tax Codes"
+    },
+    {
+      "type": "table",
+      "name": "OKATO Codes"
+    },
+    {
+      "type": "table",
+      "name": "Fixed Asset Setup"
+    },
+    {
+      "type": "table",
+      "name": "Calculate Assessed Tax"
+    }
+  ],
+  "features": [
+    "Assessed tax calculation",
+    "Tax authority configuration",
+    "OKATO code management",
+    "Property type classification",
+    "Tax allowance application"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003091,
+      "pages_in_call": 7
+    }
+  ]
+}

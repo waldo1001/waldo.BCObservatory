@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-define-an-account-schedule-extension",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4be0c2cd4f811d0d0e04246838e9519a020bfda4",
       "words": 165,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:56.747Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003087
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:58.658Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:58.659Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:58.660Z",
+      "page": false
     }
   },
   "input_hash": "4be0c2cd4f811d0d0e04246838e9519a020bfda4",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4be0c2cd4f811d0d0e04246838e9519a020bfda4"
+  "output_hash": "23ad36f719414593730691db95cdf3ae2601dc4e540e44f7b0672dde042adb46"
 }

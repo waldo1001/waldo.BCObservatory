@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-define-an-account-schedule-constant",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0179046369576eabb9b8833e866f13531aa17e98",
       "words": 129,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:56.746Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003087
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:58.655Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:58.656Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:58.657Z",
+      "page": false
     }
   },
   "input_hash": "0179046369576eabb9b8833e866f13531aa17e98",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0179046369576eabb9b8833e866f13531aa17e98"
+  "output_hash": "9f7cff335873130e3ae3a4738a1041c30d353fc1b3d1d9c5ebeaf7724fdcbbf0"
 }

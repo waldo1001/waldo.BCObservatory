@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Gratuitous-receipt-of-fixed-assets",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a912badcea3b18c7d716c2377b44a0d9512ac5fc",
       "words": 434,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:55.571Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003091
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:55.579Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:55.580Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:55.581Z",
+      "page": false
     }
   },
   "input_hash": "a912badcea3b18c7d716c2377b44a0d9512ac5fc",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a912badcea3b18c7d716c2377b44a0d9512ac5fc"
+  "output_hash": "2c7260e0fd2507290dbabd981d51f9d0110003fa59fe4a2f0ee6b8f417516449"
 }

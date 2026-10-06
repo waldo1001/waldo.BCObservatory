@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-account-for-the-cost-to-dispose-a-fixed-asset.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-account-for-the-cost-to-dispose-a-fixed-asset",
+  "title": "Account for the cost to dispose fixed asset in Russia",
+  "blob": "7b41f0aaefb2f7c3e6e831fc23da8067a943354f",
+  "summary": "Accounting for fixed asset disposal costs enables posting maintenance expenses for asset disposal through fixed asset journals and purchase documents, with results printed in FA Write-Off Act reports.",
+  "systems": [
+    "fixed-assets",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "fixed assets",
+    "disposal",
+    "maintenance costs",
+    "expense posting",
+    "russia"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Fixed Asset G/L Journal"
+    },
+    {
+      "type": "report",
+      "name": "FA Write-off Act"
+    },
+    {
+      "type": "table",
+      "name": "Fixed Asset Setup"
+    }
+  ],
+  "features": [
+    "Maintenance on disposal",
+    "Disposal expense posting",
+    "Maintenance code setup",
+    "FA Write-Off Act reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003091,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-post-red-storno-corrections.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-post-red-storno-corrections",
+  "title": "Posting Red Storno corrections in Russia",
+  "blob": "51a8186bf39af3174fa8586aae907369d8224e7f",
+  "summary": "Post red storno corrections in Russia to record corrective inventory entries, reversals of item documents, and periodic adjustments using opposite quantities and red storno flags.",
+  "systems": [
+    "inventory",
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "red storno",
+    "corrective posting",
+    "russia localization",
+    "inventory correction",
+    "item reversal"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Journal"
+    },
+    {
+      "type": "page",
+      "name": "Item Receipt"
+    },
+    {
+      "type": "page",
+      "name": "Item Shipment"
+    },
+    {
+      "type": "page",
+      "name": "Revaluation Journal"
+    },
+    {
+      "type": "page",
+      "name": "Item Reclass Journal"
+    }
+  ],
+  "features": [
+    "Red Storno flag",
+    "Entry Type",
+    "Negative Quantity",
+    "Applies-to Entry",
+    "Applies-from Entry",
+    "Correction checkbox",
+    "Copy Document action"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003087,
+      "pages_in_call": 7
+    }
+  ]
+}

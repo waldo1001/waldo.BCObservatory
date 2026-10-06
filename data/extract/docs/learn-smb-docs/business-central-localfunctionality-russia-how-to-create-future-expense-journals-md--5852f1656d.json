@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-create-future-expense-journals.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-future-expense-journals",
+  "title": "Creating future expense journals in Russia",
+  "blob": "081a33e89a6e0932a827149021a336cc8d1a5a1f",
+  "summary": "Future expense journals post monthly expenses to a special account that are later included as regular expenses with VAT deduction through the Future Expense Journal in Russian accounting.",
+  "systems": [
+    "finance",
+    "localization",
+    "fixed-assets"
+  ],
+  "topics": [
+    "future expenses",
+    "expense deferral",
+    "vat deduction",
+    "russia"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "VAT Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Future Expense Journal"
+    },
+    {
+      "type": "table",
+      "name": "General Journal Templates"
+    }
+  ],
+  "features": [
+    "Future expense posting",
+    "VAT settlement",
+    "Monthly expense deferral",
+    "Depreciation tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003091,
+      "pages_in_call": 7
+    }
+  ]
+}

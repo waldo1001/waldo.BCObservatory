@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-create-vat-ledgers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-vat-ledgers",
+  "title": "Creating VAT Ledgers in Russia",
+  "blob": "ca3a4a40a0c41d858b339d956def6e4b6b13851d",
+  "summary": "Create and manage VAT ledgers in Russia for different customer groups, prepayments, and company-wide reporting, with support for multiple ledger types and accounting periods.",
+  "systems": [
+    "finance",
+    "localization",
+    "reporting"
+  ],
+  "topics": [
+    "vat ledger",
+    "vat reporting",
+    "russia localization",
+    "sales ledger",
+    "tax reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Ledger List"
+    }
+  ],
+  "features": [
+    "VAT ledger type",
+    "Accounting period",
+    "Start Date",
+    "End Date",
+    "Create action",
+    "Card action"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003087,
+      "pages_in_call": 7
+    }
+  ]
+}

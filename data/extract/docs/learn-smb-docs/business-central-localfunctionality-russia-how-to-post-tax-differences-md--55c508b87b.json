@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-post-tax-differences.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-post-tax-differences",
+  "title": "Posting tax differences in Russia",
+  "blob": "b7958f7783c1e97627a9863fc8a6529ffbce5a1e",
+  "summary": "Post tax differences in Russia to record variations between book accounting and tax accounting using the Tax Difference Journal with fields for tax types, codes, jurisdictions, and year-to-date amounts.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "tax difference",
+    "tax accounting",
+    "russia localization",
+    "book accounting",
+    "tax reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Tax Difference Journals"
+    },
+    {
+      "type": "page",
+      "name": "Tax Diff. Ledger Entry"
+    }
+  ],
+  "features": [
+    "Tax Diff. Type",
+    "Tax Diff. Code",
+    "Source Type",
+    "Jurisdiction Code",
+    "Norm Code",
+    "Tax Factor",
+    "Tax Diff. Calc. Mode",
+    "Disposal Mode",
+    "YTD calculations"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003087,
+      "pages_in_call": 7
+    }
+  ]
+}

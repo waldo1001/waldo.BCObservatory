@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/Gratuitous-receipt-of-fixed-assets.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Gratuitous-receipt-of-fixed-assets",
+  "title": "Gratuitous receipts in Russia",
+  "blob": "a912badcea3b18c7d716c2377b44a0d9512ac5fc",
+  "summary": "Gratuitous receipt of fixed assets registers the posting of fixed assets received without acquisition cost through FA G/L Journals and FA Journals, including depreciation book configuration and tax ledger setup for Russian compliance.",
+  "systems": [
+    "fixed-assets",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "fixed assets",
+    "gratuitous receipt",
+    "depreciation",
+    "tax accounting",
+    "russia"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "FA G/L Journals"
+    },
+    {
+      "type": "table",
+      "name": "FA Journals"
+    }
+  ],
+  "features": [
+    "Gratuitous receipt posting",
+    "Depreciation book configuration",
+    "Tax ledger creation",
+    "Acquisition cost recording"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003091,
+      "pages_in_call": 7
+    }
+  ]
+}

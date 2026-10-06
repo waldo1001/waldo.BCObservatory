@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-a-credit-memo-for-a-fixed-asset-charge",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "09402838bf9d6d755c6fff37b134d5224bb134fd",
       "words": 126,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:55.574Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003091
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:56.763Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:56.765Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:56.766Z",
+      "page": false
     }
   },
   "input_hash": "09402838bf9d6d755c6fff37b134d5224bb134fd",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "09402838bf9d6d755c6fff37b134d5224bb134fd"
+  "output_hash": "7242509548401da4e12cd2e75d765c57505dbfc9fc1c32fe4003df02fd41a6e0"
 }

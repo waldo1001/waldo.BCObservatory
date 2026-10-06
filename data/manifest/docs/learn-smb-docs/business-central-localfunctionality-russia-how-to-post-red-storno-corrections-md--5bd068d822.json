@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-post-red-storno-corrections",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "51a8186bf39af3174fa8586aae907369d8224e7f",
       "words": 424,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:56.751Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.003087
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:58.665Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:58.665Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:58.666Z",
+      "page": false
     }
   },
   "input_hash": "51a8186bf39af3174fa8586aae907369d8224e7f",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "51a8186bf39af3174fa8586aae907369d8224e7f"
+  "output_hash": "ee35e0a01f70e5609c3c37d385cf58f0d9d8b6d1ddafd09153865f31c15f90ec"
 }

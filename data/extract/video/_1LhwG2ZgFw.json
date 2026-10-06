@@ -1,0 +1,319 @@
+{
+  "video_id": "_1LhwG2ZgFw",
+  "item_id": "video/yt-microsoft/_1LhwG2ZgFw",
+  "title": "What's New: Sales Lines Suggestions with Copilot (2024 release wave 1)",
+  "duration_s": 813,
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "topics": [
+    "sales line suggestions",
+    "copilot",
+    "keyword extraction",
+    "context understanding",
+    "product search",
+    "blanket orders",
+    "units of measure",
+    "csv import",
+    "file attachments",
+    "column mapping"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 63.8
+    },
+    {
+      "title": "Improved Product Search and Context Understanding",
+      "t_start": 63.8,
+      "t_end": 163.1
+    },
+    {
+      "title": "Search Performance and Blanket Order Support",
+      "t_start": 163.1,
+      "t_end": 228
+    },
+    {
+      "title": "Blanket Order Linking and Document-Specific Search",
+      "t_start": 228,
+      "t_end": 330.1
+    },
+    {
+      "title": "Units of Measure Support",
+      "t_start": 330.1,
+      "t_end": 426.5
+    },
+    {
+      "title": "File Support and CSV Processing Overview",
+      "t_start": 426.5,
+      "t_end": 513.1
+    },
+    {
+      "title": "CSV Upload and Column Mapping",
+      "t_start": 513.1,
+      "t_end": 675.2
+    },
+    {
+      "title": "CSV Parsing, Suggestions and Caching",
+      "t_start": 675.2,
+      "t_end": 766.8
+    },
+    {
+      "title": "Conclusion and Feedback",
+      "t_start": 766.8,
+      "t_end": 813
+    }
+  ],
+  "features": [
+    {
+      "name": "Improved keyword extraction for product search",
+      "description": "Copilot now better extracts keywords from natural language queries, recognizing compound words even without spaces between them. For example, 'guestchairs' is correctly understood as 'guest chairs'.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 63.8,
+      "t_end": 118.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "product search",
+        "keyword extraction",
+        "nlp"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Context understanding for product queries",
+      "description": "Copilot understands context in product queries, distinguishing between similar items based on modifiers like 'small', 'bigger', or 'commercial use' to suggest the appropriate product variant.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 118.6,
+      "t_end": 163.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "context understanding",
+        "semantic search"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "10x faster product search",
+      "description": "Product search performance has improved up to 10 times faster. For a database with 40,000 items, search time decreased from 60 seconds to approximately 6 seconds.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 163.1,
+      "t_end": 207.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "search optimization"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Blanket order search and linking",
+      "description": "Users can now search for items from blanket orders as source documents. The feature establishes a direct link to the blanket order line, preventing quantities from exceeding what is available in the blanket order.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 228,
+      "t_end": 318.9,
+      "is_demoed": true,
+      "caveats": [
+        "only prevents exceeding linked blanket order quantities"
+      ],
+      "tags": [
+        "blanket orders",
+        "document linking",
+        "quantity control"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Document-specific item search",
+      "description": "Users can narrow product search to specific documents by specifying a document number or ID, limiting search results to items already included in that document rather than the entire item list.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 318.9,
+      "t_end": 405.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "document search",
+        "filtering"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Units of measure support",
+      "description": "Sales line suggestions now support all configured units of measure for items, including pieces, bottles, kilos, pallets, bags, packs, and other custom units.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 405.9,
+      "t_end": 452.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "units of measure",
+        "item configuration"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "CSV file support for sales line suggestions",
+      "description": "Users can now upload CSV files to generate sales line suggestions with structured data. The feature analyzes the CSV, extracts column information including product, quantity, and unit of measure, and allows users to map columns before generating suggestions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 452.4,
+      "t_end": 513.1,
+      "is_demoed": true,
+      "caveats": [
+        "currently only supports CSV file type"
+      ],
+      "tags": [
+        "csv import",
+        "file upload",
+        "structured data"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "CSV column mapping and detection",
+      "description": "Copilot automatically detects CSV structure including column separator (tab, comma, etc.) and maps columns to product information, quantity, and unit of measure. Users can review and modify mappings before generating suggestions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 574.3,
+      "t_end": 675.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "csv mapping",
+        "column detection",
+        "user configuration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "CSV mapping caching",
+      "description": "When a user confirms CSV suggestions, the column mappings are cached and saved. If a similar CSV with the same header structure is uploaded in the future, the cached mapping is automatically applied, eliminating the need to re-analyze the CSV.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 726.2,
+      "t_end": 766.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "csv mapping",
+        "caching",
+        "performance"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Sales line suggestion feature",
+      "t": 63.8
+    },
+    {
+      "type": "other",
+      "name": "Fine product capability",
+      "t": 513.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexa D bransky",
+      "confidence": "medium"
+    },
+    {
+      "name": "jayen topa",
+      "confidence": "medium"
+    },
+    {
+      "name": "chatton",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 27.6,
+      "text": "designed to streamline the creation of sales quotes orders and invoices using natural language or structured data",
+      "why_it_matters": "Defines the core purpose of the sales line suggestions feature and its dual input modes.",
+      "check": "exact"
+    },
+    {
+      "t": 163.1,
+      "text": "product search now works up to 10 times faster for for example for a database with 40,000 items the search time has decreased from",
+      "why_it_matters": "Quantifies the performance improvement achieved in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 228,
+      "text": "it doesn't merely copy from the blanket order it establishes direct link to the blanket order line so you won't exceed quantity in the",
+      "why_it_matters": "Explains a key design decision to prevent over-allocation of blanket order quantities.",
+      "check": "exact"
+    },
+    {
+      "t": 472.6,
+      "text": "currently we support only CSV file type and in the future we hope we'll have support for other file types as but for now",
+      "why_it_matters": "Clarifies the current limitation and future roadmap for file format support.",
+      "check": "exact"
+    },
+    {
+      "t": 594.4,
+      "text": "the copilot detected that the file has a tap column separator and uh we also have a list of all the columns from the",
+      "why_it_matters": "Shows how Copilot automatically parses and presents CSV structure to users.",
+      "check": "exact"
+    },
+    {
+      "t": 746.4,
+      "text": "we save the or we cach the mapping against the column header sorry the CSV header uh value meaning in the future if a",
+      "why_it_matters": "Describes the caching mechanism that improves efficiency for repeated CSV uploads.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 472.6,
+      "kind": "coming-later",
+      "text": "in the future we hope we'll have support for other file types as but for now it's only CSV"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026476999999999997
+    }
+  ]
+}

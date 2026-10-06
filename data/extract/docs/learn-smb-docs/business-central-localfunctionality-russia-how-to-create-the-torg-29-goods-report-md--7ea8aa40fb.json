@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-create-the-torg-29-goods-report.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-the-torg-29-goods-report",
+  "title": "Creating the TORG-29 goods report in Russia",
+  "blob": "25aeb7b73a766ad5a61a67c353c7bc90dba47969",
+  "summary": "Create the TORG-29 goods report in Russia to document item receipts and shipments by location, with fields for responsible employees, dates, operation types, and customizable detailing levels for receipts and shipments.",
+  "systems": [
+    "inventory",
+    "localization",
+    "reporting"
+  ],
+  "topics": [
+    "torg-29 report",
+    "goods report",
+    "inventory reporting",
+    "russia localization",
+    "item documents"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Item Report TORG-29"
+    },
+    {
+      "type": "page",
+      "name": "Location Card"
+    }
+  ],
+  "features": [
+    "Location Code",
+    "Report No.",
+    "Responsible Employee",
+    "Report Acceptor",
+    "Report Date",
+    "Start Date",
+    "End Date",
+    "Operation Type",
+    "Receipt Detailing",
+    "Shipment Detailing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003087,
+      "pages_in_call": 7
+    }
+  ]
+}

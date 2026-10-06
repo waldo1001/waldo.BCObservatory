@@ -1,0 +1,72 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-enter-custom-declarations-information.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-enter-custom-declarations-information",
+  "title": "Entering custom declaration information in Russia",
+  "blob": "ca0d4d6b4df154e8891c562701dff98d30790646",
+  "summary": "Track customs declaration numbers for imported goods in Russia with format validation, item tracking codes, and package-specific tracking to meet regulatory requirements for invoices and goods transfers.",
+  "systems": [
+    "inventory",
+    "localization",
+    "sales"
+  ],
+  "topics": [
+    "customs declaration",
+    "item tracking",
+    "russia localization",
+    "import tracking",
+    "cd number format"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    },
+    {
+      "type": "page",
+      "name": "CD Number Format"
+    },
+    {
+      "type": "page",
+      "name": "Item Tracking Codes"
+    },
+    {
+      "type": "page",
+      "name": "Custom Declarations"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoice"
+    },
+    {
+      "type": "report",
+      "name": "Posted Factura-Invoice"
+    },
+    {
+      "type": "report",
+      "name": "Order Factura-Invoice"
+    }
+  ],
+  "features": [
+    "Check CD No. Format",
+    "Package Specific Tracking",
+    "CD Tracking Location Setup",
+    "Country of Origin Code",
+    "Temporary CD Number",
+    "Factura-Invoice printing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003087,
+      "pages_in_call": 7
+    }
+  ]
+}

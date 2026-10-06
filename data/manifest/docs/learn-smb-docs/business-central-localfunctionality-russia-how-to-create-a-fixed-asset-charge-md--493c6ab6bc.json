@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-create-a-fixed-asset-charge",
   "published_at": "2025-08-07T14:51:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "688db1be27f18dfadb851f69cdc00340827f445a",
       "words": 218,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:13:55.575Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003091
+    },
+    "summarized": {
+      "at": "2026-10-06T19:13:56.767Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:13:56.768Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:13:56.769Z",
+      "page": false
     }
   },
   "input_hash": "688db1be27f18dfadb851f69cdc00340827f445a",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "688db1be27f18dfadb851f69cdc00340827f445a"
+  "output_hash": "3d5deeaf67df2c2af53f49790d60aadf8b1c350280e05ae7eb167f84779395ae"
 }

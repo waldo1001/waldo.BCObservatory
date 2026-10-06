@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/how-to-define-an-account-schedule-extension.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-define-an-account-schedule-extension",
+  "title": "Defining financial report extensions in Russia",
+  "blob": "4be0c2cd4f811d0d0e04246838e9519a020bfda4",
+  "summary": "Define financial report extensions in Russia by selecting a custom totaling type and specifying an extension source table to filter and calculate new amounts for financial report lines.",
+  "systems": [
+    "finance",
+    "localization",
+    "reporting"
+  ],
+  "topics": [
+    "financial report",
+    "account schedule",
+    "extensions",
+    "russia localization",
+    "custom calculations"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Financial Report"
+    }
+  ],
+  "features": [
+    "Custom totaling type",
+    "Extension Source Table",
+    "Entry table filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003087,
+      "pages_in_call": 7
+    }
+  ]
+}
