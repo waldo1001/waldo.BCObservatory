@@ -1,0 +1,271 @@
+{
+  "video_id": "w0okH0v0VvY",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 16.4,
+      "end": 36.8,
+      "text": "my name is Alexa driansky and I'm a senior software engineer in the business Central team in Copenhagen today I'll talk about cost adjustment and a new capabilities business Central has to offer to keep the cost of inventory accurate and up to dat first"
+    },
+    {
+      "t": 36.8,
+      "end": 57,
+      "text": "I'll recall what the cost adjustment is for and name the main issues a customers are facing then we'll get familiar with the inventory cost adjustment tool and how to ensure uninterrupted adjustment of items production and assembly orders finally"
+    },
+    {
+      "t": 57,
+      "end": 77.2,
+      "text": "we'll look at what actions you I want to take in case something goes wrong so let's start the cost adjustment is a key functionality in the inventory valuation in the system so it's aimed at achieving three main goals"
+    },
+    {
+      "t": 77.2,
+      "end": 88.2,
+      "text": "first it transfers cost from inbound to outbound entries which means that the cost of such outbound entries such as sales"
+    },
+    {
+      "t": 88.2,
+      "end": 99,
+      "text": "consumption negative inventory to adjustment outbound transfers and purchase returns will only become accurate after the cost adjustment is run"
+    },
+    {
+      "t": 99,
+      "end": 116.3,
+      "text": "two it calculate the cost of production and assembly output as a sum of their components Plus for production capacity used for work and machine centers and three it distributes additional"
+    },
+    {
+      "t": 116.3,
+      "end": 129.4,
+      "text": "expenses such as item charges and revaluation down across outbound entries how and how often do you run the C"
+    },
+    {
+      "t": 129.4,
+      "end": 150.7,
+      "text": "adjustment the answer depends on the business needs and the loow of the system our goal is to find the right balance between performance and timeliness of Coast update business Central offers three no now four ways to run the cost adjustment"
+    },
+    {
+      "t": 150.7,
+      "end": 171.4,
+      "text": "I would suggest that you go live with automatic cost adjustment on posting each transaction then when the number of entries posted Each Day become significant switch to running C adjustment by schedule in non- business hours in special occasions"
+    },
+    {
+      "t": 171.4,
+      "end": 191.4,
+      "text": "like inventory counting or closing inventory period or revaluations there would be an additional need to run the the course adjustment and now when the course adjustment work becomes visible for you and you want to make sure that there going to be no surprises at"
+    },
+    {
+      "t": 191.4,
+      "end": 205,
+      "text": "important time we're offering a new way to run and manage C adjustment the inventory C adjustment tool speaking of issues what might actually go"
+    },
+    {
+      "t": 205,
+      "end": 225.4,
+      "text": "wrong based on our experience I would highlight the following tops first going live with no Coast adjustment schedule it may result that the cost adjustment is not running for say several months and it would take hours"
+    },
+    {
+      "t": 225.4,
+      "end": 238.7,
+      "text": "of cost adjustment work to get back to normal state two just one item failing to adjust rolls back the entire transaction so all other"
+    },
+    {
+      "t": 238.7,
+      "end": 251.8,
+      "text": "items remaining unadjusted and the cost is not accurate which is not good the functionality has never been comprehensive to"
+    },
+    {
+      "t": 251.8,
+      "end": 270.3,
+      "text": "users and addressing issues often required Partners help or filing a support ticket to Microsoft the performance of the cost adjustment has never been a strong s but the key Point here"
+    },
+    {
+      "t": 270.3,
+      "end": 282.5,
+      "text": "is it's usually one or just a couple of items to blame and it's important to find and isolate them and finally the cost"
+    },
+    {
+      "t": 282.5,
+      "end": 300.8,
+      "text": "adjustment expects consistent and correct data and high extensibility of our code made it possible to feed inconsistent data to cause adjustment and it may result in errors or bad performance"
+    },
+    {
+      "t": 300.8,
+      "end": 321.6,
+      "text": "to T respond to these challenges we are now presenting the inventory cost adjustment tool a new tool for monitoring the outcome and performance of cost adjustment to begin with go to inventory setup and choose one of two options in Coast adjustment login field errors only"
+    },
+    {
+      "t": 321.6,
+      "end": 341.7,
+      "text": "will log only those Coast adjustment run that fail and all will give you the full picture and now off we go for a demo the main page of the inventory cost adjustment tool is a list of items with their cting parameters you can shorten this list by"
+    },
+    {
+      "t": 341.7,
+      "end": 354,
+      "text": "using show high filters either focus on items that are not adjusted yet or on those that are excluded from the cost"
+    },
+    {
+      "t": 354,
+      "end": 374.7,
+      "text": "calculation run Coast adjustment action will run the procedure immediately mediately or later for one item items you select all items or specially set up item batches under item you'll find item entries with additional action to adjust"
+    },
+    {
+      "t": 374.7,
+      "end": 394.7,
+      "text": "entries that are applied to the entry you choose then we added two pages for this tables used internally for the cost adjustment and it is very important to track the information on these tables because they contain data about"
+    },
+    {
+      "t": 394.7,
+      "end": 412.9,
+      "text": "periods location variance production and assembly orders that have been or will be adjusted what lies under Lo per functions and Diagnostics we'll see in just a second let's start and adjust our"
+    },
+    {
+      "t": 412.9,
+      "end": 418.5,
+      "text": "items I run the course adjustment for all"
+    },
+    {
+      "t": 418.5,
+      "end": 422.5,
+      "text": "items"
+    },
+    {
+      "t": 423.1,
+      "end": 439.2,
+      "text": "so far so good so let's view the items that are not adjusted okay we just have three items not adjusted because there excluded from the cost"
+    },
+    {
+      "t": 439.2,
+      "end": 458.5,
+      "text": "calculation let's see the outcome and performance of this cost adjustment run we go to log per item and see the time it took took to complete the adjustment and the Cod difference it resulted in value entries will give me"
+    },
+    {
+      "t": 458.5,
+      "end": 478.5,
+      "text": "details I might want to go deeper and investigate the adjustment per item then I go to lock per item or I can just drill down to any items I'm interested in so here we are we see that the cost adjustment"
+    },
+    {
+      "t": 478.5,
+      "end": 493.6,
+      "text": "of this item resulted in this cost difference and I also can see the details now let's take a look at a second not so bright scenario in second scenario we run the cost adjustment"
+    },
+    {
+      "t": 493.6,
+      "end": 510,
+      "text": "again for all items and it fails you can see by using show ey filters that we have a lot of items not adjusted with a cost not accurate which is not good"
+    },
+    {
+      "t": 510,
+      "end": 530.4,
+      "text": "so what shall we do go to look per run and we get information about which exact item failed we will see the error message here and the error call St so now I have two options to continue"
+    },
+    {
+      "t": 530.4,
+      "end": 550.4,
+      "text": "I can either isolate this item by using exclude item from adjustment action or I may I asked myself a question what if there is more than just one item that failed how do I detect all items and make sure that all other"
+    },
+    {
+      "t": 550.4,
+      "end": 564.7,
+      "text": "items are adjusted and here comes item batches I will add all items in my list to the"
+    },
+    {
+      "t": 564.7,
+      "end": 585,
+      "text": "batch go to item batches and run the Cod adjustment for this batch please note that the cost adjustment for batches are running in separate sessions so each batch is executed separately in separate session this is done"
+    },
+    {
+      "t": 585,
+      "end": 605.3,
+      "text": "to properly handle a timeout periods here but on the other side you have to use refresh button to see the latest result okay looks like the job is finished let's close the patches and go to show hide filters to see what we have left you'll see"
+    },
+    {
+      "t": 605.3,
+      "end": 625.4,
+      "text": "that apart from those items that were excluded from cast calculation item batches identified two items that failed and how did item batches do it if we open item batches again we'll see that initially they were all items in one"
+    },
+    {
+      "t": 625.4,
+      "end": 645.6,
+      "text": "batch then one the cost adjustment ran into the problematic item it isolated this item and created a second batch for all other items the process is repeated as many times as you define in maxr try attempts so finally"
+    },
+    {
+      "t": 645.6,
+      "end": 659.8,
+      "text": "it ended successfully and found two items with issues now we can isolate them from the cuse adjustment until we find the root cause"
+    },
+    {
+      "t": 659.8,
+      "end": 672.9,
+      "text": "let's go one step back and see why we believe that continuous monitoring of course adjustment and quick reactions to issues is important for business we're trying to"
+    },
+    {
+      "t": 672.9,
+      "end": 684.3,
+      "text": "achieve two main goals first we want to minimize or even eliminate items with inaccurate"
+    },
+    {
+      "t": 684.3,
+      "end": 696.4,
+      "text": "cost then we're reducing the time between posting an entry and reflecting its cost in the general ledure having cost adjustment"
+    },
+    {
+      "t": 696.4,
+      "end": 717,
+      "text": "logged allows us to properly set the frequency of the cost adjustment to align with your business needs locate items that fail or that have high performance impact isolate them and ensure that all other items keep on being"
+    },
+    {
+      "t": 717,
+      "end": 727.7,
+      "text": "adjusted and promptly take corrective actions let's take a look at what diagnostic capabilities the new tool"
+    },
+    {
+      "t": 727.7,
+      "end": 748.3,
+      "text": "provides export and import item data you can export the item the problematic item with all its dependencies all related item tables to text file then you use a Sandbox environment to upload this information and focus on investigating"
+    },
+    {
+      "t": 748.3,
+      "end": 761.7,
+      "text": "this item or you Cann attach this text file to the support request or hand it over to the partner you're working"
+    },
+    {
+      "t": 761.7,
+      "end": 779.5,
+      "text": "with reset course is adjusted reset this toggle on items production and assembly orders so they will be taken over by the next Co adjustment run coting issues detection report will identifi"
+    },
+    {
+      "t": 779.5,
+      "end": 793.1,
+      "text": "data inconsistencies and most common problems with data that our customers have run into before delete item data is a purely sandbox"
+    },
+    {
+      "t": 793.1,
+      "end": 808,
+      "text": "action that prepares a clean environment where you can later upload the information from the first step and focus on investigating this item without being interfered by other"
+    },
+    {
+      "t": 808,
+      "end": 828.2,
+      "text": "items and and that's it that conclude the demo but begin the conversation so do you have a question or you want to come up with some ideas feel free to reach out to me on Yammer or on akms slpc ideas website"
+    },
+    {
+      "t": 828.2,
+      "end": 836,
+      "text": "thank you for today and let's make friends with Coast adjustment together"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.349,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.359,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1566
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade",
   "published_at": "2024-01-02T09:59:39.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e6299d6441dd5a0a7146dd85e2d9ebdbf4d8d517",
       "words": 527,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:45:48.581Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003111
+    },
+    "summarized": {
+      "at": "2026-10-06T19:45:48.583Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:45:48.584Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:45:48.585Z",
+      "page": false
     }
   },
   "input_hash": "e6299d6441dd5a0a7146dd85e2d9ebdbf4d8d517",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e6299d6441dd5a0a7146dd85e2d9ebdbf4d8d517"
+  "output_hash": "73827582b20876d42524c47f821d4189c6bd535d8b678380e41d8018882e3351"
 }

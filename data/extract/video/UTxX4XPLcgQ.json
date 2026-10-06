@@ -1,0 +1,315 @@
+{
+  "video_id": "UTxX4XPLcgQ",
+  "item_id": "video/yt-microsoft/UTxX4XPLcgQ",
+  "title": "What's New: Financial Management - Reminder Automation (2024 release wave 1)",
+  "duration_s": 820,
+  "systems": [
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "collection management",
+    "reminder automation",
+    "role center",
+    "customer communication",
+    "batch jobs",
+    "reminder terms",
+    "accounts receivable",
+    "email customization",
+    "overdue invoices",
+    "kpis"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview of Financial Management Improvements",
+      "t_start": 0,
+      "t_end": 47.6
+    },
+    {
+      "title": "New Account Receivables Administrator Role Center",
+      "t_start": 47.6,
+      "t_end": 128.6
+    },
+    {
+      "title": "Reminder Automation Overview and Configuration",
+      "t_start": 128.6,
+      "t_end": 193.4
+    },
+    {
+      "title": "Creating and Issuing Reminders with Automation",
+      "t_start": 193.4,
+      "t_end": 272.6
+    },
+    {
+      "title": "Filtering and Sending Reminders via Email",
+      "t_start": 272.6,
+      "t_end": 348.6
+    },
+    {
+      "title": "Automation Scheduling Options and Setup Demonstration",
+      "t_start": 348.6,
+      "t_end": 429.7
+    },
+    {
+      "title": "Running Batch Jobs for Reminder Processing",
+      "t_start": 429.7,
+      "t_end": 538.4
+    },
+    {
+      "title": "Email Examples and Level-Based Customization",
+      "t_start": 538.4,
+      "t_end": 613.4
+    },
+    {
+      "title": "Reminder Terms Configuration and Customer Communication Setup",
+      "t_start": 613.4,
+      "t_end": 767.4
+    },
+    {
+      "title": "Summary and Future Improvements",
+      "t_start": 767.4,
+      "t_end": 820
+    }
+  ],
+  "features": [
+    {
+      "name": "Account Receivables Administrator Role Center",
+      "description": "A new role center targeted for account receivables employees and users with navigation for posting documents in sales, reminders, reports, Excel reports, reminder process cues, automation cues, and lists of overdue balances and invoices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 47.6,
+      "t_end": 128.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "role center",
+        "navigation",
+        "cues",
+        "kpis"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Reminder Automation with Batch Jobs",
+      "description": "Automated process for creating, issuing, and sending reminders through batch jobs. Can be set up to run manually or automatically on a schedule (weekly, monthly, or custom). Includes multiple steps: create reminders, issue reminders, and send reminders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 148.8,
+      "t_end": 409.4,
+      "is_demoed": true,
+      "caveats": [
+        "Setup requires manual configuration",
+        "Can be combined into one automation or split into separate steps"
+      ],
+      "tags": [
+        "automation",
+        "batch jobs",
+        "reminders",
+        "scheduling"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Reminder Creation with Overdue Amount Filter",
+      "description": "Reminder creation step that uses a reminder terms filter and allows filtering to include only entries with overdue amounts, excluding not-yet-due open invoices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 193.4,
+      "t_end": 233.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reminder creation",
+        "filtering",
+        "overdue amounts"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Reminder Automation Code Filtering",
+      "description": "Ability to filter reminders by reminder automation code, allowing multiple jobs to generate reminders and separate issue reminder jobs to pick groups of reminders for processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 252.2,
+      "t_end": 333.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual setup of filters"
+      ],
+      "tags": [
+        "filtering",
+        "automation code",
+        "flexible processing"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Email Sending with Invoice Attachments",
+      "description": "Reminders can be sent by email with option to attach referenced invoices. Users can choose to include all open invoices or only overdue invoices in the email attachment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 348.6,
+      "t_end": 389.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "email",
+        "attachments",
+        "invoices",
+        "communication"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Automation Scheduling Options",
+      "description": "Batch jobs can be scheduled to run weekly, monthly, on a custom schedule, or by day whenever something needs processing. Jobs can also be set to run manually.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 389.4,
+      "t_end": 429.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "scheduling",
+        "batch jobs",
+        "automation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Reminder Terms Customer Communication Setup",
+      "description": "New card page for reminder terms with ability to customize customer communication per reminder level, including email text, subject lines, and attachment options. Each level can have different messaging and tone.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 613.4,
+      "t_end": 767.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires feature to be turned on in feature management"
+      ],
+      "tags": [
+        "reminder terms",
+        "customer communication",
+        "customization",
+        "email personalization"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Level-Based Email Customization",
+      "description": "Each reminder level can have different email text, subject lines, and attachment options. Level one can include disregard text if customer has paid, while level two and beyond do not include this since customer has already been reminded.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 653.8,
+      "t_end": 767.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "email customization",
+        "reminder levels",
+        "tone of voice"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Account Receivables Administrator Role Center",
+      "t": 47.6
+    },
+    {
+      "type": "table",
+      "name": "Reminder Terms",
+      "t": 613.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Brian Nelson",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 27.3,
+      "text": "in this release we'll look at the new role Center we have done for account receivables administrators we'll look at the new automation for",
+      "why_it_matters": "Establishes the two main topics of the video - new role center and reminder automation",
+      "check": "exact"
+    },
+    {
+      "t": 213.4,
+      "text": "include only entries with overdue amounts so we will create a reminder it will only contain the overdue amounts",
+      "why_it_matters": "Explains a key design decision to filter reminders to only include overdue amounts, not future invoices",
+      "check": "exact"
+    },
+    {
+      "t": 292.6,
+      "text": "one of the filters that are very useful to do or to include is a reminder automation code and that means that I will",
+      "why_it_matters": "Demonstrates the flexibility of the automation system to handle multiple parallel processes",
+      "check": "exact"
+    },
+    {
+      "t": 369,
+      "text": "the best option is sent by email so it doesn't just get printed out and we've added a new Option so that you can",
+      "why_it_matters": "Highlights the new capability to attach invoices to email reminders, improving customer experience",
+      "check": "exact"
+    },
+    {
+      "t": 409.4,
+      "text": "you can set it up to be weekly monthly or a custom schedule and you can even have it like by day and just",
+      "why_it_matters": "Shows flexible scheduling options for automation, supporting various business processes",
+      "check": "exact"
+    },
+    {
+      "t": 687,
+      "text": "you can set it set them up individually uh with fees and uh with the due date calculation for the reminder itself but you",
+      "why_it_matters": "Describes the new feature management option for tailoring customer communication per reminder level",
+      "check": "exact"
+    },
+    {
+      "t": 767.4,
+      "text": "once you have your setup and you decided how it should look like um and be set up in terms of calculations you can",
+      "why_it_matters": "Summarizes the overall design: setup once, then automate everything so administrators only monitor KPIs",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 787.5,
+      "kind": "coming-later",
+      "text": "in the coming releases we'll we'll do a few more improvements uh some better overviews and some more kpis"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026244999999999997
+    }
+  ]
+}

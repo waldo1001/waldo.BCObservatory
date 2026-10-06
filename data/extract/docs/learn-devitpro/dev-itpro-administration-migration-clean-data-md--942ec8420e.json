@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-clean-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-clean-data",
+  "title": "Clean data",
+  "blob": "b2c29dadb2871c1980f0b2e5ca3645997c314aab",
+  "summary": "Clean data in Business Central on-premises database before cloud migration by removing corrupted code fields with invalid characters, fixing corrupt company names, and compressing or archiving outdated data to ensure smooth migration.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "data cleaning",
+    "cloud migration",
+    "code data type",
+    "corrupted fields",
+    "company names"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    },
+    {
+      "type": "page",
+      "name": "Data Archive"
+    }
+  ],
+  "features": [
+    "sanitize code fields",
+    "fix corrupted company names",
+    "compress data",
+    "archive data",
+    "Invoke-NAVSanitizeField cmdlet"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003111,
+      "pages_in_call": 2
+    }
+  ]
+}

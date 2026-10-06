@@ -1,0 +1,193 @@
+{
+  "video_id": "T63y0F_38SI",
+  "item_id": "video/yt-microsoft/T63y0F_38SI",
+  "title": "Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)",
+  "duration_s": 485,
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "power automate",
+    "copilot",
+    "flow creation",
+    "natural language",
+    "power platform integration",
+    "automation",
+    "low-code development",
+    "ai-assisted workflow"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Power Platform Overview",
+      "t_start": 0,
+      "t_end": 81
+    },
+    {
+      "title": "Business Central and Power Automate Integration",
+      "t_start": 81,
+      "t_end": 161.8
+    },
+    {
+      "title": "Feature Overview: Creating Flows with Copilot",
+      "t_start": 161.8,
+      "t_end": 242.1
+    },
+    {
+      "title": "Live Demo of Copilot Flow Creation",
+      "t_start": 242.1,
+      "t_end": 360.3
+    },
+    {
+      "title": "Feature Status and Availability",
+      "t_start": 360.3,
+      "t_end": 401.6
+    },
+    {
+      "title": "Related Resources and Closing",
+      "t_start": 401.6,
+      "t_end": 485
+    }
+  ],
+  "features": [
+    {
+      "name": "Create Power Automate Flows with Copilot",
+      "description": "Allows users to build Power Automate flows directly inside Business Central using natural language descriptions. Users describe what they want to automate, copilot suggests flow steps, and users fill in necessary parameters to complete the automation.",
+      "status": "preview",
+      "status_evidence_t": 381.1,
+      "status_evidence_quote": "this feature is coming as preview later in this wave",
+      "status_evidence_verified": true,
+      "t_start": 181.8,
+      "t_end": 360.3,
+      "is_demoed": true,
+      "caveats": [
+        "Initially available only for Business Central set as English language",
+        "Initially available only for Power Automate environments based in USA",
+        "Availability in other regions will be added later"
+      ],
+      "tags": [
+        "power automate",
+        "copilot",
+        "flow creation",
+        "natural language",
+        "automation",
+        "low-code"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Power Automate Templates for Business Central",
+      "description": "Power Platform provides more than 70 templates for Business Central that cover various scenarios, allowing users to create flows without starting from scratch.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 121.6,
+      "t_end": 141.8,
+      "is_demoed": false,
+      "caveats": [
+        "Templates cover some scenarios but not everything"
+      ],
+      "tags": [
+        "templates",
+        "power automate",
+        "business central"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Power Platform AI Features",
+      "description": "Power Platform has been infused with AI capabilities since 2019 with multiple AI-related features integrated across the platform.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 60.4,
+      "t_end": 81,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ai",
+        "power platform"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Baj Koto",
+      "confidence": "medium"
+    },
+    {
+      "name": "Monica",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 121.6,
+      "text": "we have more than 70 templates for business Central so we have a lot but still it is not enough",
+      "why_it_matters": "Establishes the gap that the new copilot feature addresses - existing templates are plentiful but incomplete",
+      "check": "exact"
+    },
+    {
+      "t": 161.8,
+      "text": "this new feature is allowing you to add a new flow using just natural language",
+      "why_it_matters": "Describes the core design principle of the new feature - users interact via natural language rather than visual flow builders",
+      "check": "exact"
+    },
+    {
+      "t": 202,
+      "text": "the user starts by describing what what is that what they want to automate",
+      "why_it_matters": "Explains the first step of the three-step copilot flow creation process",
+      "check": "exact"
+    },
+    {
+      "t": 222,
+      "text": "power automate suggest the flow steps that are needed to create this automation",
+      "why_it_matters": "Describes how copilot generates the technical implementation from user intent",
+      "check": "exact"
+    },
+    {
+      "t": 381.1,
+      "text": "this feature is coming as preview later in this wave",
+      "why_it_matters": "Establishes the preview status of the feature",
+      "check": "exact"
+    },
+    {
+      "t": 381.1,
+      "text": "initially available for business Central uh set as English as a language and for power automate environments that are based in USA",
+      "why_it_matters": "Specifies the initial regional and language constraints on feature availability",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 381.1,
+      "kind": "preview",
+      "text": "this feature is coming as preview later in this wave"
+    },
+    {
+      "t": 381.1,
+      "kind": "coming-later",
+      "text": "later on of course this will change we will be adding this feature making it available uh in other regions as well"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017061
+    }
+  ]
+}

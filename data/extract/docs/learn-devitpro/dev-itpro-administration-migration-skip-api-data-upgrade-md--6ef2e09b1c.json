@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-skip-api-data-upgrade.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade",
+  "title": "Skip API data upgrade in cloud migration",
+  "blob": "e6299d6441dd5a0a7146dd85e2d9ebdbf4d8d517",
+  "summary": "Skip API data upgrade in cloud migration to reduce long-running upgrade times by disabling the API upgrade during cloud migration and running it after going live. Use Cloud Migration Management in Business Central online or SQL queries on-premises to disable per company.",
+  "systems": [
+    "integration",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "cloud migration",
+    "api upgrade",
+    "data upgrade",
+    "online environment",
+    "on-premises"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    },
+    {
+      "type": "page",
+      "name": "API upgrade overview"
+    },
+    {
+      "type": "page",
+      "name": "API Data Upgrade List"
+    }
+  ],
+  "features": [
+    "skip API data upgrade",
+    "disable API data upgrade",
+    "per-company basis",
+    "cloud migration setup"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003111,
+      "pages_in_call": 2
+    }
+  ]
+}

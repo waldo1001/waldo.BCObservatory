@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-clean-data",
   "published_at": "2023-08-07T10:40:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b2c29dadb2871c1980f0b2e5ca3645997c314aab",
       "words": 594,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:45:48.582Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003111
+    },
+    "summarized": {
+      "at": "2026-10-06T19:45:48.586Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:45:48.586Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:45:48.587Z",
+      "page": false
     }
   },
   "input_hash": "b2c29dadb2871c1980f0b2e5ca3645997c314aab",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b2c29dadb2871c1980f0b2e5ca3645997c314aab"
+  "output_hash": "d670878353d83e030f64685a97b35941d1cbbf905ecb6b4b55a1658c944c5db4"
 }

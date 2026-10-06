@@ -1,0 +1,27 @@
+{
+  "video_id": "UTxX4XPLcgQ",
+  "item_id": "video/yt-microsoft/UTxX4XPLcgQ",
+  "summary": "Reminder automation in Business Central (2024 release wave 1): batch jobs that create, issue and send reminders on a schedule, plus a new Account Receivables Administrator role center and per-level customer communication in reminder terms. Demoed in a 14-minute walkthrough.",
+  "overview": "The video covers the Financial Management improvements in 2024 release wave 1. It starts with the new Account Receivables Administrator role center, which has navigation for posting sales documents, reminders and reports, cues for the reminder process and automation, and lists of overdue balances and invoices.\n\nIt then shows reminder automation. Reminders are created, issued and sent through batch jobs, either as one automation or as separate steps, and run manually or on a schedule. The video also shows the reminder terms card, where email text, subject lines and attachments are set per reminder level. It ends with a note that more overviews and KPIs are planned for coming releases.",
+  "key_points": [
+    "Reminder automation has three steps: create reminders, issue reminders, send reminders. They can be combined into one automation or split into separate jobs.",
+    "Jobs can run manually or be scheduled weekly, monthly, on a custom schedule, or by day whenever something needs processing. Setup is manual.",
+    "The create step can filter by reminder terms and include only entries with overdue amounts, so not-yet-due open invoices are left out.",
+    "A reminder automation code filter lets several jobs create reminders and separate issue jobs pick up specific groups. The filters must be set up manually.",
+    "Reminders can be sent by email with the referenced invoices attached, either all open invoices or only overdue ones.",
+    "The new reminder terms card sets customer communication per level (email text, subject, attachments). It requires the feature to be turned on in feature management.",
+    "Level one can include text to disregard the reminder if the customer has paid. Level two and later do not, since the customer was already reminded."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "287f95bcb5b13459e4282a1328804e837156c35b8c0a2a938bb342294baf6cab",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0163384
+  }
+}
