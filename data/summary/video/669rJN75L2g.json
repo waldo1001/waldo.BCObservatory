@@ -1,0 +1,26 @@
+{
+  "video_id": "669rJN75L2g",
+  "item_id": "video/yt-microsoft/669rJN75L2g",
+  "summary": "Tenant discovery endpoint for the Business Central admin center API, introduced in 2025 release wave 1. It returns the tenants an authenticating app can manage, so partners no longer need to keep their own tenant list. A Logic App demo shows it used to automate app updates.",
+  "overview": "The video explains a gap in admin center API automation. S2S app authentication already existed, but there was no way to get a list of tenants the app has access to. Partners managing environments in many customer tenants had to maintain that list themselves. In this release wave, the tenant discovery endpoint addresses this.\n\nThe demo uses a Logic App that starts by calling the manageable tenants API, so it begins with the list of tenants it can manage. It then checks for app updates and installs them, with conditional logic controlling when updates are installed. The video closes with use cases for partners with more advanced automation across customer environments.",
+  "key_points": [
+    "The tenant discovery endpoint gives a list of tenants to which an app has access.",
+    "Before it, partners managing many customer tenants had to keep their own list of tenants somewhere the app could read.",
+    "The manageable tenants API returns the tenants that can be managed by the authenticating app.",
+    "It extends the earlier S2S app authentication for the admin center API.",
+    "The demo is a Logic App that starts from the manageable tenants API list and automates checking for and installing app updates.",
+    "Automated update installation needs conditional logic to control when updates are installed."
+  ],
+  "audience": [
+    "partner",
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "7d9445a4406ce36771f5863168bae88a141f0ffc71c840809ce803274de49be7",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0111644
+  }
+}

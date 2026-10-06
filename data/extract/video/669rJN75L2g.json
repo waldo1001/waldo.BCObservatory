@@ -1,0 +1,186 @@
+{
+  "video_id": "669rJN75L2g",
+  "item_id": "video/yt-microsoft/669rJN75L2g",
+  "title": "Introducing: Tenant Discovery Endpoint (2025 release wave 1)",
+  "duration_s": 170,
+  "systems": [
+    "administration",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "tenant discovery endpoint",
+    "admin center api",
+    "manageable tenants",
+    "s2s authentication",
+    "partner automation",
+    "logic app",
+    "app updates",
+    "multi-tenant management"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Tenant Discovery Endpoint",
+      "t_start": 0,
+      "t_end": 51.4
+    },
+    {
+      "title": "Demo Setup and Logic App Overview",
+      "t_start": 51.4,
+      "t_end": 84.6
+    },
+    {
+      "title": "Manageable Tenants API in Action",
+      "t_start": 84.6,
+      "t_end": 136.3
+    },
+    {
+      "title": "Use Cases and Conclusion",
+      "t_start": 136.3,
+      "t_end": 170
+    }
+  ],
+  "features": [
+    {
+      "name": "Tenant Discovery Endpoint",
+      "description": "An API endpoint that provides a list of tenants to which an app has access, enabling partners to discover and manage customer environments across different tenants.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.8,
+      "t_end": 136.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "api",
+        "admin",
+        "multi-tenant",
+        "discovery"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Manageable Tenants API",
+      "description": "An API that returns a list of tenants that can be managed by an authenticating app, used in the tenant discovery workflow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 84.6,
+      "t_end": 136.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "api",
+        "tenant-list",
+        "admin"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "S2S App Authentication for Admin Center API",
+      "description": "Service-to-service app authentication mechanism for the admin center API that was built previously and extended with the tenant discovery endpoint.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.8,
+      "t_end": 21.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "authentication",
+        "s2s",
+        "admin-api"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Automated App Update Installation",
+      "description": "The ability to automatically check for and install app updates across customer environments using the tenant discovery endpoint with conditional logic.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 62.2,
+      "t_end": 136.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires setting up conditional logic to control when updates should be installed"
+      ],
+      "tags": [
+        "automation",
+        "app-updates",
+        "updates"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Logic App",
+      "t": 62.2
+    },
+    {
+      "type": "api",
+      "name": "manageable tenants endpoint",
+      "t": 84.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Unknown Presenter",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 21.8,
+      "text": "one thing that was still missing was a discovery endpoint that would give you a list of tenants uh to which that app has",
+      "why_it_matters": "Explains the key problem the new feature solves - partners previously had no way to programmatically discover which tenants their apps could access",
+      "check": "exact"
+    },
+    {
+      "t": 37.6,
+      "text": "if your partner managing environments in many different customer tenants, you'd have to keep a list of those tenants somewhere that that app could",
+      "why_it_matters": "Describes the previous workaround burden, showing why automated discovery was needed",
+      "check": "exact"
+    },
+    {
+      "t": 51.4,
+      "text": "in this release wave, we fixed it with an API endpoint that we call the tenant discovery endpoint",
+      "why_it_matters": "Confirms the feature is released in this wave and names the specific endpoint",
+      "check": "exact"
+    },
+    {
+      "t": 84.6,
+      "text": "calling the manageable tenants API which would mean that this logic app would start with a list of tenants that can be managed by",
+      "why_it_matters": "Details how the API works in practice with service-to-service authentication",
+      "check": "exact"
+    },
+    {
+      "t": 149.9,
+      "text": "we have many partners for which this will be a more powerful enabler that have more advanced automation across their customer environments",
+      "why_it_matters": "Indicates the intended use case for partners managing multiple customer environments",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011564999999999999
+    }
+  ]
+}

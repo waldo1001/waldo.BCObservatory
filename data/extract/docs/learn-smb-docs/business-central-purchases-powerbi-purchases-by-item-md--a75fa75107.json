@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-purchases-by-item.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-item",
+  "title": "Purchases by Item (Power BI Report)",
+  "blob": "5320af27820999ae1b3b2f37f88125b28a028b1c",
+  "summary": "Purchases by Item Power BI report provides overview of item purchases including amounts, quantities, and costs by item or item category. Use it to monitor purchasing activities, optimize processes, identify discrepancies, and reduce costs.",
+  "systems": [
+    "purchasing",
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "purchasing analytics",
+    "item analysis",
+    "cost tracking",
+    "quantity monitoring"
+  ],
+  "objects": [],
+  "features": [
+    "Purchase (LCY)",
+    "Purchase Quantity",
+    "% GT Purchase (LCY)",
+    "% GT Purchase Quantity",
+    "No. of Posted Purchase Invoices"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002483,
+      "pages_in_call": 8
+    }
+  ]
+}

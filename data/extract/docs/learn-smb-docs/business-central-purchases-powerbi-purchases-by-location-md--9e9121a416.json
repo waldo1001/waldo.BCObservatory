@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-purchases-by-location.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-location",
+  "title": "Purchases by Location (Power BI Report)",
+  "blob": "ec07cde70c445edbe6b81e37ee2fb7a6bd53c95c",
+  "summary": "Purchases by Location Power BI report provides overview of purchasing activities for each warehouse location including item categories and spending. Use it to analyze location-level purchasing trends and prevent stock-outs.",
+  "systems": [
+    "purchasing",
+    "warehouse",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "purchasing analytics",
+    "location analysis",
+    "warehouse inventory",
+    "category trends"
+  ],
+  "objects": [],
+  "features": [
+    "Purchase (LCY)",
+    "Purchase Quantity",
+    "% GT Purchase (LCY)",
+    "% GT Purchase Quantity"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002483,
+      "pages_in_call": 8
+    }
+  ]
+}

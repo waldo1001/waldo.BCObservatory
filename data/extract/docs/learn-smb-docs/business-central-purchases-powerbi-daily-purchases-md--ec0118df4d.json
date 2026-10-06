@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-daily-purchases.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-daily-purchases",
+  "title": "Daily Purchases (Power BI Report)",
+  "blob": "b132f221b39ed691fbc4d20a2f21ae02f2bd0575",
+  "summary": "Daily Purchases is a Power BI report that provides a comprehensive overview of daily purchase activities, trends, and patterns across different time periods.",
+  "systems": [
+    "purchasing",
+    "reporting"
+  ],
+  "topics": [
+    "daily purchases",
+    "purchase trends",
+    "purchasing schedule",
+    "power bi",
+    "kpis"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Purchase Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Invoice Lines"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Credit Lines"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    }
+  ],
+  "features": [
+    "Purchase LCY KPI",
+    "Purchase Quantity KPI",
+    "daily volume analysis",
+    "purchasing patterns",
+    "budget tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00312,
+      "pages_in_call": 8
+    }
+  ]
+}

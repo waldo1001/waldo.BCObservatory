@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchases-by-location",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ec07cde70c445edbe6b81e37ee2fb7a6bd53c95c",
       "words": 270,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:52:07.730Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002483
+    },
+    "summarized": {
+      "at": "2026-10-06T18:52:07.752Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:52:07.753Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:52:07.754Z",
+      "page": false
     }
   },
   "input_hash": "ec07cde70c445edbe6b81e37ee2fb7a6bd53c95c",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ec07cde70c445edbe6b81e37ee2fb7a6bd53c95c"
+  "output_hash": "5a5c2d38ec8b5b61196b6aeab850c99bbdfc123f71857b9e92969f723d72dc4c"
 }

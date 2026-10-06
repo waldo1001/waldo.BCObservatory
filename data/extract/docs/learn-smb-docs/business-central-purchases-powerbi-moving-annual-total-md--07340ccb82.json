@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-moving-annual-total.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-moving-annual-total",
+  "title": "Moving Annual Total (MAT) (Power BI Report)",
+  "blob": "d3ada2f586487d3d0b595846a43c2dbfbe3e6a93",
+  "summary": "Moving Annual Total (MAT) Power BI report calculates total purchases over the last 12 months using rolling calculations. Use it to monitor purchase performance trends and identify periods of high costs for strategic budget optimization.",
+  "systems": [
+    "purchasing",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "purchasing analytics",
+    "rolling calculations",
+    "annual totals",
+    "trend analysis"
+  ],
+  "objects": [],
+  "features": [
+    "Moving Annual Total (MAT)",
+    "Previous Year Moving Annual Total (PYMAT)",
+    "Moving Annual Total Growth",
+    "Moving Annual Total Growth %",
+    "Purchase (LCY)"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002483,
+      "pages_in_call": 8
+    }
+  ]
+}

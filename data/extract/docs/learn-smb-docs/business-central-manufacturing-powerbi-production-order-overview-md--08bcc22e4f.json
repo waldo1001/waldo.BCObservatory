@@ -1,0 +1,63 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-production-order-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-production-order-overview",
+  "title": "Production Order Overview",
+  "blob": "4a7f2111e2f2dac4e58cc1fa78ee9410625adac5",
+  "summary": "Production Order Overview is a Power BI report that summarizes production order activities, completion rates, and cost breakdowns for current production orders.",
+  "systems": [
+    "manufacturing",
+    "reporting"
+  ],
+  "topics": [
+    "production orders",
+    "completion rates",
+    "cost analysis",
+    "power bi",
+    "kpis"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Production Order Line"
+    },
+    {
+      "type": "table",
+      "name": "Capacity Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Inventory Adjustment Entry Order Line"
+    },
+    {
+      "type": "table",
+      "name": "Production Order"
+    }
+  ],
+  "features": [
+    "Number of Production Orders by Status",
+    "Completion Ratios by Source No",
+    "Total Actual Cost Breakdown",
+    "Current Production Orders table",
+    "Finished % KPI",
+    "Actual Total Cost KPI"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00312,
+      "pages_in_call": 8
+    }
+  ]
+}

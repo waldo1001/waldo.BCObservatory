@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-moving-averages",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b33bd212bc6cf2e53c7cb99f495f48811a8b4e1e",
       "words": 287,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:52:07.724Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002483
+    },
+    "summarized": {
+      "at": "2026-10-06T18:52:07.734Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:52:07.735Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:52:07.736Z",
+      "page": false
     }
   },
   "input_hash": "b33bd212bc6cf2e53c7cb99f495f48811a8b4e1e",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b33bd212bc6cf2e53c7cb99f495f48811a8b4e1e"
+  "output_hash": "75eee4c58244c8c085203d5c08d3e1dc1bfe2ab1aa0ca4df861e41304b56a6ba"
 }

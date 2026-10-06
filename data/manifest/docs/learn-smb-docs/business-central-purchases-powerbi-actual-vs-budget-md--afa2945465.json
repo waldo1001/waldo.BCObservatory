@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4f5bd7ef4bed28bed3aadc1134095499cf642074",
       "words": 377,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:52:08.827Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.00312
+    },
+    "summarized": {
+      "at": "2026-10-06T18:52:10.592Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:52:10.593Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:52:10.594Z",
+      "page": false
     }
   },
   "input_hash": "4f5bd7ef4bed28bed3aadc1134095499cf642074",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4f5bd7ef4bed28bed3aadc1134095499cf642074"
+  "output_hash": "3d25f2a95dec8815f5481af0087af331d6dba86854c2b9fe658af0252c544edd"
 }

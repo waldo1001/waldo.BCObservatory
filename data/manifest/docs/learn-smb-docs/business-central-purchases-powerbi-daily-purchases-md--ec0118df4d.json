@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-daily-purchases",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b132f221b39ed691fbc4d20a2f21ae02f2bd0575",
       "words": 276,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:52:08.828Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.00312
+    },
+    "summarized": {
+      "at": "2026-10-06T18:52:10.595Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:52:10.595Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:52:10.596Z",
+      "page": false
     }
   },
   "input_hash": "b132f221b39ed691fbc4d20a2f21ae02f2bd0575",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b132f221b39ed691fbc4d20a2f21ae02f2bd0575"
+  "output_hash": "9b7cde107e377b1d4a3351e1b9e71c0721e3d75d064c8a0dcdfdcc853b2a8a4c"
 }

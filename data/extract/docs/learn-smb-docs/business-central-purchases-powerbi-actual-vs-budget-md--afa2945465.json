@@ -1,0 +1,63 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-actual-vs-budget.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-actual-vs-budget",
+  "title": "Actual vs. Budget (Power BI Report)",
+  "blob": "4f5bd7ef4bed28bed3aadc1134095499cf642074",
+  "summary": "Actual vs. Budget is a Power BI report that compares actual purchase amounts and quantities against budget figures to analyze purchasing performance and variance.",
+  "systems": [
+    "purchasing",
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "budget analysis",
+    "purchase performance",
+    "variance tracking",
+    "power bi",
+    "kpis"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Item Category"
+    },
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Invoice Lines"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Credit Lines"
+    },
+    {
+      "type": "table",
+      "name": "Item Budget Entry"
+    }
+  ],
+  "features": [
+    "Budget Amount Variance",
+    "Purchase LCY KPI",
+    "Budget Amount Variance %",
+    "item category analysis",
+    "purchasing trends"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00312,
+      "pages_in_call": 8
+    }
+  ]
+}

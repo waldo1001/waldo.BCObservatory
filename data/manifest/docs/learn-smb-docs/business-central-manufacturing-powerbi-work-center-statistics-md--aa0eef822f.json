@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-work-center-statistics",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "da4c076f2c4d7a9aca59de2a2bb14cfdc7263aef",
       "words": 537,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:52:08.825Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.00312
+    },
+    "summarized": {
+      "at": "2026-10-06T18:52:10.583Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:52:10.584Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:52:10.585Z",
+      "page": false
     }
   },
   "input_hash": "da4c076f2c4d7a9aca59de2a2bb14cfdc7263aef",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "da4c076f2c4d7a9aca59de2a2bb14cfdc7263aef"
+  "output_hash": "6520bd7250eb56eb1139994a98c344551f3aa27d7da67add77f22625424678af"
 }

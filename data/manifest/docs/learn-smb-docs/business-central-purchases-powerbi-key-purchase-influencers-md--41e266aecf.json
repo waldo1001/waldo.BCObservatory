@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-key-purchase-influencers",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "43c3638826f304be83c117081d7953ff7b051eeb",
       "words": 399,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:52:08.829Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.00312
+    },
+    "summarized": {
+      "at": "2026-10-06T18:52:10.597Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:52:10.598Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:52:10.599Z",
+      "page": false
     }
   },
   "input_hash": "43c3638826f304be83c117081d7953ff7b051eeb",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "43c3638826f304be83c117081d7953ff7b051eeb"
+  "output_hash": "76411bc2ef32e0b0c28ce23acc97b78b7f393d4854172d4ccc755799b6411f0f"
 }

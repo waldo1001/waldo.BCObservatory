@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/projects-powerbi-project-timeline.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/projects-powerbi-project-timeline",
+  "title": "Project Timeline (Power BI report)",
+  "blob": "63e19e464a4f6651a3f0573d0d496d12275e9d69",
+  "summary": "Project Timeline is a Power BI report that monitors project task durations, dates, and critical paths to ensure timely project delivery.",
+  "systems": [
+    "projects",
+    "reporting"
+  ],
+  "topics": [
+    "project timeline",
+    "task management",
+    "project scheduling",
+    "power bi",
+    "kpis"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Job"
+    },
+    {
+      "type": "table",
+      "name": "Job Task"
+    }
+  ],
+  "features": [
+    "Project Task Starting Date KPI",
+    "Project Task Ending Date KPI",
+    "task duration analysis",
+    "critical path identification"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00312,
+      "pages_in_call": 8
+    }
+  ]
+}

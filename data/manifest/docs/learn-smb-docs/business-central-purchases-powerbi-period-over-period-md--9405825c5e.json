@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-period-over-period",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f9f0a6d52fe93660ab5a7a9e43be506563c2229e",
       "words": 275,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:52:07.725Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002483
+    },
+    "summarized": {
+      "at": "2026-10-06T18:52:07.737Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:52:07.738Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:52:07.739Z",
+      "page": false
     }
   },
   "input_hash": "f9f0a6d52fe93660ab5a7a9e43be506563c2229e",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f9f0a6d52fe93660ab5a7a9e43be506563c2229e"
+  "output_hash": "1f46e72c48d16fa23f01e0f42c245650ba785cd541629fb2e7bd42f0b9702002"
 }

@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-purchase-quote-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-purchase-quote-overview",
+  "title": "Purchase Quote Overview (Power BI Report)",
+  "blob": "9d7cafa297cf14d04437c6f42a50790e58e7500b",
+  "summary": "Purchase Quote Overview Power BI report provides detailed information on purchase quote activities including number of quotes, quantities, and amounts over time by vendor and purchaser. Use it to track pending purchases and predict profit impacts.",
+  "systems": [
+    "purchasing",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "purchasing analytics",
+    "quote tracking",
+    "vendor analysis",
+    "profit forecasting"
+  ],
+  "objects": [],
+  "features": [
+    "No. of Purchase Quotes",
+    "Purchase Quote Purchase (LCY)",
+    "Purchase Quote Quantity"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002483,
+      "pages_in_call": 8
+    }
+  ]
+}

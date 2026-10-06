@@ -1,0 +1,138 @@
+{
+  "video_id": "8IOEXgk7q5I",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 4.9,
+      "end": 18.5,
+      "text": "hello everyone my name is Alexa driansky I'm a senior software engineer with the business Central team in Denmark today I walk you through the latest improvements in Coast adjustment for this"
+    },
+    {
+      "t": 18.5,
+      "end": 35.6,
+      "text": "release Co adjustment is a crucial step for ensuring accurate inventory valuation in the system and we've been working a lot to making it more performant reliable and TR transparent to users in this session I'll cover four key"
+    },
+    {
+      "t": 35.6,
+      "end": 47.1,
+      "text": "enhancements iterative adjustment for better control over a large volume of transactions forced adjustment to correct issues when needed a self"
+    },
+    {
+      "t": 47.1,
+      "end": 67.3,
+      "text": "diagnostics that makes the cost adjustment more proactive in identifying inefficiencies and highlighting them and the course adjustment traces for those who are interested in internals how the cost adjustment is doing behind the scene and to analyze and troubleshoot the adjustment"
+    },
+    {
+      "t": 67.3,
+      "end": 87.4,
+      "text": "process let's dive in into each of these features Coast adjustment for high uh volume items for items with large amount of transaction can be challenging and the cost adjustment might might not finish in one run to make it possible to complete the adjustment we now allow"
+    },
+    {
+      "t": 87.4,
+      "end": 99,
+      "text": "adjustment on a period by period basis on a inventory cost adjustment page which is a starting point for every cost adjustment investigation select an"
+    },
+    {
+      "t": 99,
+      "end": 111.8,
+      "text": "item go to Coast adjustment entry points select the date until which you want to complete the adjustment and run the adjust cost until valuation"
+    },
+    {
+      "t": 111.8,
+      "end": 132.3,
+      "text": "date okay the same way you can adjust specific production and assembly orders with uh going to production orders to adjust here and select the order or orders then you need to adjust and choose adjust course for selected orders"
+    },
+    {
+      "t": 132.3,
+      "end": 137.9,
+      "text": "we've also introduced item by item"
+    },
+    {
+      "t": 137.9,
+      "end": 156.5,
+      "text": "commit which helps to reduce lock times and to prevent full reruns if one of the items fail to run the C adjustment with this mode use the report start the report adjust go item entries with item by item adjustment toggle"
+    },
+    {
+      "t": 156.5,
+      "end": 176.5,
+      "text": "on sometimes especially on Old or highly customized environments you might spot an item which is Market is adjusted but some of its entries carry incorrect inaccurate cost to force a rerun of course adjustment for such entries you can use these two actions"
+    },
+    {
+      "t": 176.5,
+      "end": 193.4,
+      "text": "on the item Ledger entries page use an action mark for adjustment for inbound entry so the linked outbound entries will also be recalculated and then on a new item application entries page you can reset outbound entries"
+    },
+    {
+      "t": 193.4,
+      "end": 204.2,
+      "text": "updated with a name sake action to reprocess outbow entries to ensure that we be reconsidered in the next"
+    },
+    {
+      "t": 204.2,
+      "end": 225.1,
+      "text": "adjustment to help you detect and uh resolve inefficiencies business Central now scans your setup and the coast adjustment data when you open the inventory Coast adjustment tool you will see a notification that the system has detected potential issues in data or settings that may affect the C"
+    },
+    {
+      "t": 225.1,
+      "end": 245.5,
+      "text": "adjustment the action messages page lists the warnings for the following inefficiencies when the cost adjustment is not running automatically and not scheduled for manual or regular run if the settings are not optimal for the best performance when inventory"
+    },
+    {
+      "t": 245.5,
+      "end": 257.2,
+      "text": "periods are not in use and we strongly recommend that everybody uses inventory period many production assembly orders are not adjusted many periods require"
+    },
+    {
+      "t": 257.2,
+      "end": 267.6,
+      "text": "adjusted and loan processing times for individual items or items that are excluded from cast adjustment"
+    },
+    {
+      "t": 267.6,
+      "end": 288,
+      "text": "exists and specific data the discrepancies the Diagnostics happens automatically but you can manually run a scan any time using run checks action if you need a break if you need to pause you can snooze it Diagnostics up to 30 days but you cannot disable"
+    },
+    {
+      "t": 288,
+      "end": 308.1,
+      "text": "it completely Co adjustment can sometimes take longer time than expected and the reasons for that aren't always obvious the cost adjustment Tracer tool will help you analyze what's going on behind the scene on the inventory course adjustment tool you need to create a select a batch set a timeout time"
+    },
+    {
+      "t": 308.1,
+      "end": 328.2,
+      "text": "up to 12 hours and run the course adjustment with Trace toggle on while the course adjustment is in process it records events processed entries and the information about these entries such as items location variance production assembly orders and the cost differences"
+    },
+    {
+      "t": 328.2,
+      "end": 346.7,
+      "text": "calculated by the cost adjustment once complete successfully or unsuccessfully the log will be saved to database and you can find this log under the trace log action and we strongly recommend that you use that you switch to analys this View mode"
+    },
+    {
+      "t": 346.7,
+      "end": 366.7,
+      "text": "because the log can be too large to analyze it line by line manually if I have problems with these two items I can select them use add bch here so so add these two items to the batch open the item batches we see two items that I've selected"
+    },
+    {
+      "t": 366.7,
+      "end": 386.9,
+      "text": "I click the trace toggle here and run the course adjustment for these two items the course adjustment is complete and I can look at the trace log this is was recorded for these two items we introduced the inventory course adjustment tool a year ago"
+    },
+    {
+      "t": 386.9,
+      "end": 404.7,
+      "text": "and since then we have continued improving its perform performance and features and these new enhancements iterative adjustments forced adjustment self diagnostics and tracing will help you gain more control improve efficiency and troubleshoot issues"
+    },
+    {
+      "t": 404.7,
+      "end": 424,
+      "text": "faster to stay updated on our progress and new capabilities or provid us feedback check out the resources listed on that slide thank you and let's keep the cost accurate and up to date together"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 900
+}

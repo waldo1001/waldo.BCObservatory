@@ -1,0 +1,63 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchases-powerbi-key-purchase-influencers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchases-powerbi-key-purchase-influencers",
+  "title": "Key Purchase Influencers (Power BI Report)",
+  "blob": "43c3638826f304be83c117081d7953ff7b051eeb",
+  "summary": "Key Purchase Influencers is a Power BI report that uses AI to identify key factors and trends driving purchase performance and purchasing metrics.",
+  "systems": [
+    "purchasing",
+    "reporting"
+  ],
+  "topics": [
+    "purchase drivers",
+    "ai analysis",
+    "influencers",
+    "purchasing trends",
+    "power bi",
+    "kpis"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Invoice Line"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Credit Line"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Line"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Salesperson/Purchaser"
+    }
+  ],
+  "features": [
+    "Key Influencers visual",
+    "Top Segments tab",
+    "Purchase LCY KPI",
+    "Purchase Quantity KPI",
+    "AI-driven analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00312,
+      "pages_in_call": 8
+    }
+  ]
+}
