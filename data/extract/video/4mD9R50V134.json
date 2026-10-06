@@ -1,0 +1,287 @@
+{
+  "video_id": "4mD9R50V134",
+  "item_id": "video/yt-microsoft/4mD9R50V134",
+  "title": "What's New: Smarter Pipelines (2025 release wave 2)",
+  "duration_s": 848,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "pipelines",
+    "directory.app.props.json",
+    "centralized settings",
+    "dotnet tools",
+    "al command line",
+    "app.json management",
+    "multi-project repos",
+    "build automation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview of pipeline challenges",
+      "t_start": 0,
+      "t_end": 47
+    },
+    {
+      "title": "The problem: managing versions across 200+ app.json files",
+      "t_start": 47,
+      "t_end": 108
+    },
+    {
+      "title": "Solution: directory.app.props.json file structure",
+      "t_start": 108,
+      "t_end": 204.2
+    },
+    {
+      "title": "Live demo: using props files with multiple projects",
+      "t_start": 204.2,
+      "t_end": 383
+    },
+    {
+      "title": "How props files work with ALC and Visual Studio Code",
+      "t_start": 383,
+      "t_end": 540.6
+    },
+    {
+      "title": "Summary of directory.app.props.json feature",
+      "t_start": 540.6,
+      "t_end": 599
+    },
+    {
+      "title": "Introducing dotnet tool installation for command line tools",
+      "t_start": 599,
+      "t_end": 684.5
+    },
+    {
+      "title": "Live demo: using AL command line tool across platforms",
+      "t_start": 684.5,
+      "t_end": 809.1
+    },
+    {
+      "title": "Conclusion and future plans",
+      "t_start": 809.1,
+      "t_end": 848
+    }
+  ],
+  "features": [
+    {
+      "name": "directory.app.props.json file",
+      "description": "A new file format inspired by MS build props file that centralizes application settings across multiple AL projects. It contains a variables section for declaring reusable values and a properties section that map to app.json properties.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 108,
+      "t_end": 540.6,
+      "is_demoed": true,
+      "caveats": [
+        "Properties are expanded during package creation, not at load time for VS Code editing",
+        "Changes to props file require VS Code reload to take effect in editor",
+        "Only specific properties currently supported, with possibility of adding more"
+      ],
+      "tags": [
+        "centralization",
+        "configuration",
+        "multi-project",
+        "app.json"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL command line tool via dotnet tools",
+      "description": "A new way to install and access AL command line tools using the dotnet tool package mechanism. Provides a simpler, cross-platform method for getting access to command line tools in pipelines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 599,
+      "t_end": 809.1,
+      "is_demoed": true,
+      "caveats": [
+        "Currently requires pre-release version",
+        "Only one alias can be added via dotnet tools, so AL alias points to AL tool with all toolchain commands",
+        "Naming convention may change before release (uppercase ALT may be lowercased)"
+      ],
+      "tags": [
+        "command-line",
+        "dotnet-tools",
+        "cross-platform",
+        "installation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Variable substitution in app.json",
+      "description": "Allows using placeholder syntax like $(version) in app.json files which are replaced with values from directory.app.props.json during build time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 314.2,
+      "t_end": 383,
+      "is_demoed": true,
+      "caveats": [
+        "Placeholders require values from props file; missing values cause build errors"
+      ],
+      "tags": [
+        "variables",
+        "substitution",
+        "configuration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Property override in individual projects",
+      "description": "Individual app.json files can override properties from directory.app.props.json by including them locally, allowing project-specific customization while still leveraging centralized defaults.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 342.5,
+      "t_end": 373,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "configuration",
+        "customization",
+        "per-project"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL tool with subcommands",
+      "description": "The AL command line tool now supports multiple subcommands accessed via 'al compile', 'al help', 'al get-application-manifest' and similar, consolidating multiple tools under a single AL tool entrypoint.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 699.4,
+      "t_end": 809.1,
+      "is_demoed": true,
+      "caveats": [
+        "Currently pre-release"
+      ],
+      "tags": [
+        "command-line",
+        "tooling",
+        "subcommands"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go integration planned",
+      "description": "Future plans to integrate the directory.app.props.json and dotnet tools features into AL-Go for GitHub, providing this functionality to users of that automation framework.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 831.2,
+      "t_end": 843.8,
+      "is_demoed": false,
+      "caveats": [
+        "Timeline is unspecified ('soon or in the future')"
+      ],
+      "tags": [
+        "al-go",
+        "github",
+        "automation"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "directory.app.props.json",
+      "t": 108
+    },
+    {
+      "type": "other",
+      "name": "app.json",
+      "t": 66
+    },
+    {
+      "type": "other",
+      "name": "ALC",
+      "t": 421.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Espos Kustavson",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 17.1,
+      "text": "Managing pipelines for a larger repo with many AL projects can be a pain which is something we have now addressed with this couple",
+      "why_it_matters": "Establishes the core problem statement that motivates both features presented",
+      "check": "exact"
+    },
+    {
+      "t": 66,
+      "text": "In this repo, there is more than 200 app.json files. And whenever we create a new major, a new minor at doing a build,",
+      "why_it_matters": "Quantifies the scale of the problem that directory.app.props.json solves",
+      "check": "exact"
+    },
+    {
+      "t": 108,
+      "text": "We came up with a new file inspired by the MS build props file. We have now created a file called directory.app.props.json.",
+      "why_it_matters": "Introduces the first major feature and its design inspiration",
+      "check": "exact"
+    },
+    {
+      "t": 557.8,
+      "text": "Properties are expanded during package creation, which means that in the generated packages, there are no difference. They are the same no matter whether",
+      "why_it_matters": "Clarifies the implementation approach - props file changes are compile-time substitutions, not runtime",
+      "check": "exact"
+    },
+    {
+      "t": 621.8,
+      "text": "we decided to piggyback on a feature called net tools which is the net installation that provides you the ability to download tools packages",
+      "why_it_matters": "Explains the technical approach for distributing AL command line tools via standard dotnet mechanisms",
+      "check": "exact"
+    },
+    {
+      "t": 661,
+      "text": "for now you need the pre-release we plan to release it so you will get a released version today it's pre-release",
+      "why_it_matters": "States the status of the dotnet tools feature as pre-release with plans for GA release",
+      "check": "exact"
+    },
+    {
+      "t": 684.5,
+      "text": "The caveat with the net tools packages is that you can only add one alias. So we have decided that the AL alias points",
+      "why_it_matters": "Explains a design constraint and how the team resolved it by consolidating toolchain under AL command",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 661,
+      "kind": "preview",
+      "text": "for now you need the pre-release we plan to release it so you will get a released version today it's pre-release"
+    },
+    {
+      "t": 831.2,
+      "kind": "coming-later",
+      "text": "We of course plan to uptake this also in algo for GitHub. So if you are using that already, you will get get this functionality soon or in the future at least."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025807
+    }
+  ]
+}

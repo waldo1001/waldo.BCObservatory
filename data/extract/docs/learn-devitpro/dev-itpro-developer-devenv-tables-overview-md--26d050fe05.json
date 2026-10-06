@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-tables-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-tables-overview",
+  "title": "Tables overview",
+  "blob": "d8ce72c7c86c7e8d2953693958ff739a6cbc12c5",
+  "summary": "Tables are the fundamental database objects in Business Central that store and manipulate data, consisting of table data and table description with fields, keys, properties, and triggers.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "tables",
+    "database objects",
+    "data storage",
+    "field design",
+    "keys"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Table object"
+    },
+    {
+      "type": "table",
+      "name": "Table extension object"
+    }
+  ],
+  "features": [
+    "Table properties",
+    "Field properties",
+    "Table triggers",
+    "Table keys",
+    "TableRelation property"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005051,
+      "pages_in_call": 8
+    }
+  ]
+}

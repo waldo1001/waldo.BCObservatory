@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-creating-flowfields-and-flowfilters.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-flowfields-and-flowfilters",
+  "title": "Creating FlowFields and FlowFilters",
+  "blob": "82b9d83d0b9f902d98a2470bb99377e86d3cd6fc",
+  "summary": "FlowFields and FlowFilters are virtual fields that perform calculations and display results dynamically based on calculation formulas using the CalcFormula property without storing data physically.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "flowfields",
+    "flowfilters",
+    "virtual fields",
+    "calculations",
+    "field types"
+  ],
+  "objects": [],
+  "features": [
+    "FlowField type",
+    "FlowFilter type",
+    "FieldClass property",
+    "CalcFormula property",
+    "Field calculations"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005051,
+      "pages_in_call": 8
+    }
+  ]
+}

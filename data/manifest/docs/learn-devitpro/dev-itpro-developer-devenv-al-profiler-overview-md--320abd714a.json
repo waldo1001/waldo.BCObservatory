@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-profiler-overview",
   "published_at": "2026-06-02T11:42:35.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bafdd84fa676a1b092b1ea72132d17062b71b562",
       "words": 2057,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:23:30.378Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005051
+    },
+    "summarized": {
+      "at": "2026-10-06T18:23:30.387Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:23:30.387Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:23:30.388Z",
+      "page": false
     }
   },
   "input_hash": "bafdd84fa676a1b092b1ea72132d17062b71b562",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bafdd84fa676a1b092b1ea72132d17062b71b562"
+  "output_hash": "69556e80f7c35c9befec6d47967d9fec2d88592f0579d61b6d644d67da94eda4"
 }

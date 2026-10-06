@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-al-profiler-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-profiler-overview",
+  "title": "AL Profiler overview",
+  "blob": "bafdd84fa676a1b092b1ea72132d17062b71b562",
+  "summary": "AL Profiler analyzes performance hot spots in Business Central extensions by recording code execution details in instrumentation or sampling modes, helping developers validate optimizations and isolate slow processes.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "profiling",
+    "performance",
+    "al development",
+    "debugging",
+    "optimization"
+  ],
+  "objects": [],
+  "features": [
+    "Instrumentation profiling",
+    "Sampling profiling",
+    "SQL call tracking",
+    "Call stack views",
+    "CodeLens integration",
+    "In-client profiling"
+  ],
+  "versions": [
+    "2025 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005051,
+      "pages_in_call": 8
+    }
+  ]
+}

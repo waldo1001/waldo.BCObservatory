@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-app-identity",
   "published_at": "2026-06-02T11:41:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "578f2ef4b65c215527f41adfc2dda8fca01378fb",
       "words": 532,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:23:30.381Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005051
+    },
+    "summarized": {
+      "at": "2026-10-06T18:23:30.396Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:23:30.397Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:23:30.397Z",
+      "page": false
     }
   },
   "input_hash": "578f2ef4b65c215527f41adfc2dda8fca01378fb",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "578f2ef4b65c215527f41adfc2dda8fca01378fb"
+  "output_hash": "16775856a210dfaeab1b71c153b08983cf6a1e4435803d995e727860999f2abc"
 }

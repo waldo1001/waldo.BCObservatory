@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=CkGTSItdTbs",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:23:46.351Z",
+      "path": "data/extract/video/CkGTSItdTbs.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 3,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.012171
+    },
+    "summarized": {
+      "at": "2026-10-06T18:23:52.830Z",
+      "path": "data/summary/video/CkGTSItdTbs.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0120164
+    },
+    "linked": {
+      "at": "2026-10-06T18:23:52.831Z",
+      "systems": [
+        "fixed-assets",
+        "purchasing",
+        "finance"
+      ],
+      "topics": 8,
+      "objects_as_heard": 2
+    },
+    "published": {
+      "at": "2026-10-06T18:23:52.844Z",
+      "path": "content/videos/CkGTSItdTbs.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2025-10-01 - BCLE - What's New： Create Multiple Fixed Assets (2025 release wave 2) [CkGTSItdTbs].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "236eb0db14b1485c8453ef0adcb7411b848735d64a5a65ed7e211a84c5d7443b"
 }

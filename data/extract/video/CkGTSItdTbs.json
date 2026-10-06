@@ -1,0 +1,191 @@
+{
+  "video_id": "CkGTSItdTbs",
+  "item_id": "video/yt-microsoft/CkGTSItdTbs",
+  "title": "What's New: Create Multiple Fixed Assets (2025 release wave 2)",
+  "duration_s": 273,
+  "systems": [
+    "fixed-assets",
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "bulk asset creation",
+    "multiple fixed assets",
+    "automation",
+    "purchase order",
+    "asset numbering",
+    "fixed asset depreciation",
+    "localization",
+    "inventory management"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and localization background",
+      "t_start": 0,
+      "t_end": 31.1
+    },
+    {
+      "title": "Business value and automation benefits",
+      "t_start": 31.1,
+      "t_end": 58
+    },
+    {
+      "title": "Demo setup - creating first fixed asset and purchase order",
+      "t_start": 58,
+      "t_end": 107.9
+    },
+    {
+      "title": "Adding number of fixed assets cards field",
+      "t_start": 107.9,
+      "t_end": 158
+    },
+    {
+      "title": "Posting and verifying created assets",
+      "t_start": 158,
+      "t_end": 204.4
+    },
+    {
+      "title": "Summary and workflow overview",
+      "t_start": 204.4,
+      "t_end": 232.5
+    },
+    {
+      "title": "Call to action and closing remarks",
+      "t_start": 232.5,
+      "t_end": 273
+    }
+  ],
+  "features": [
+    {
+      "name": "Create multiple fixed assets from purchase order",
+      "description": "Ability to purchase multiple identical fixed assets at once by specifying quantity and number of fixed asset cards, which automatically creates individual asset records with sequential numbering.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.9,
+      "t_end": 204.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires adding 'number of fixed assets cards' field via page personalization before posting",
+        "Quantity and number of fixed assets cards must be equal for automatic creation"
+      ],
+      "tags": [
+        "bulk operations",
+        "automation",
+        "fixed assets",
+        "purchase order",
+        "asset creation"
+      ],
+      "system": "fixed-assets"
+    },
+    {
+      "name": "Fixed asset global availability",
+      "description": "The multiple fixed assets creation feature is now globally available to all databases instead of being limited to Italian localization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 17.8,
+      "t_end": 31.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "localization",
+        "availability",
+        "global"
+      ],
+      "system": "fixed-assets"
+    },
+    {
+      "name": "Automatic asset numbering with number series",
+      "description": "System automatically generates sequential fixed asset numbers using configured number series when creating multiple assets, incrementing by 10 (e.g., 100, 110, 120, 130).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 183.4,
+      "t_end": 204.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "numbering",
+        "automation",
+        "configuration"
+      ],
+      "system": "fixed-assets"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Fixed Assets Ledger Entry",
+      "t": 183.4
+    },
+    {
+      "type": "table",
+      "name": "Fixed Assets",
+      "t": 204.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander Totovich",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 17.8,
+      "text": "previously this feature was part of Italian localization and now this is available to all databases and no localization globally",
+      "why_it_matters": "Establishes that this capability has moved from regional localization to global availability, indicating significant scope expansion.",
+      "check": "exact"
+    },
+    {
+      "t": 31.1,
+      "text": "this is really important so you can automate asset creation never mind how many of them",
+      "why_it_matters": "Highlights the core value proposition of unlimited bulk asset creation automation regardless of quantity.",
+      "check": "exact"
+    },
+    {
+      "t": 68.6,
+      "text": "Imagine you want to purchase 25 smartphones. So all of them are expensive. So they are fixed assets.",
+      "why_it_matters": "Sets up the practical use case and demonstrates the scenario the feature addresses.",
+      "check": "exact"
+    },
+    {
+      "t": 121.9,
+      "text": "I will enter 25 pieces as a quantity. But now if you click post nothing will happen.",
+      "why_it_matters": "Explains that quantity alone is insufficient - additional configuration is needed for the automation to work.",
+      "check": "exact"
+    },
+    {
+      "t": 144.6,
+      "text": "you need to add new uh field. This is number of fixed assets cards. Add this field into lines",
+      "why_it_matters": "Documents the specific field name and location required for enabling bulk asset creation.",
+      "check": "exact"
+    },
+    {
+      "t": 193.9,
+      "text": "system automatically in the background created 25 fixed assets. Just open this entry and you will find all entries for all of them.",
+      "why_it_matters": "Demonstrates the automation outcome where one purchase line creates 25 separate asset records automatically.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012171000000000001
+    }
+  ]
+}

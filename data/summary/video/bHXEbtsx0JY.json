@@ -1,0 +1,27 @@
+{
+  "video_id": "bHXEbtsx0JY",
+  "item_id": "video/yt-microsoft/bHXEbtsx0JY",
+  "summary": "Sustainability Copilot in Business Central (2025 release wave 2): a new Calculate CO2 action in the Sustainability Journal uses Copilot to find emission factors from uploaded Excel files or public sources and calculate emissions, even with incomplete data. Demoed with the Emission Source Setup page.",
+  "overview": "The video covers the business value of Sustainability Copilot and how it works. Copilot looks for emission factors first in Excel files uploaded to the system, then falls back to public sources. It then calculates emissions from basic inputs such as liters of fuel or kilometers traveled.\n\nDemos show the Emission Source Setup page, where Excel files are uploaded per company, and the Sustainability Journal, where CO2 is calculated. They also show how to open the calculation explanation, keep emission factors for reuse, and manage uploaded files. Starting and ending dates in the Excel files allow different factor versions for different periods.",
+  "key_points": [
+    "The Sustainability Journal has a new action that uses Copilot to calculate CO2 emissions.",
+    "Copilot looks for emission factors in uploaded Excel files first, then in public sources if none are found locally.",
+    "At least basic input data is required, such as liters of fuel or kilometers traveled. Emission factors do not have to be complete.",
+    "The Emission Source Setup page lets you upload several Excel files per company, for example per country, machine or data source.",
+    "Keep Excel files limited to relevant data. Files with thousands of lines may cause problems for calculation.",
+    "Starting and ending dates in the Excel file allow factor versions per period. Leave them empty if a factor is not period-specific. The system keeps the audit history of versions.",
+    "Drill into a Copilot result to see the formula, intermediate values and final result for verification. You can also keep a suggested emission factor for future calculations."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "3a3d9ddb074ba72a36bf70f619b1a38601b752ffc09f4c01386a9e973b0e3fa9",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0145104
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-data-transfer.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-data-transfer",
+  "title": "Transferring data between tables using DataTransfer",
+  "blob": "a4fe674ed3d8060c9a7c8520e3bf8dad8a47d42c",
+  "summary": "DataTransfer is an AL data type for bulk transferring data between SQL-based tables during upgrade and install operations, providing significant performance improvements over row-by-row record API operations.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "data transfer",
+    "upgrade codeunits",
+    "bulk operations",
+    "performance",
+    "sql tables"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Upgrade codeunit"
+    },
+    {
+      "type": "codeunit",
+      "name": "Install codeunit"
+    }
+  ],
+  "features": [
+    "CopyRows operation",
+    "CopyFields operation",
+    "SetTables",
+    "AddFieldValue",
+    "AddConstantValue",
+    "AddJoin",
+    "AddSourceFilter"
+  ],
+  "versions": [
+    "2022 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005051,
+      "pages_in_call": 8
+    }
+  ]
+}

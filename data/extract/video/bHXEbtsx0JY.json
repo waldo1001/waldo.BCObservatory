@@ -1,0 +1,280 @@
+{
+  "video_id": "bHXEbtsx0JY",
+  "item_id": "video/yt-microsoft/bHXEbtsx0JY",
+  "title": "What's New: Sustainability Copilot (2025 release wave 2)",
+  "duration_s": 539,
+  "systems": [
+    "sustainability",
+    "copilot",
+    "reporting"
+  ],
+  "topics": [
+    "emissions calculation",
+    "copilot",
+    "sustainability journal",
+    "emission factors",
+    "excel upload",
+    "llm",
+    "co2",
+    "auditing",
+    "verification"
+  ],
+  "chapters": [
+    {
+      "title": "Business values and key benefits of Sustainability Copilot",
+      "t_start": 0,
+      "t_end": 69.5
+    },
+    {
+      "title": "How Copilot works: workflow and emission factor lookup",
+      "t_start": 69.5,
+      "t_end": 142
+    },
+    {
+      "title": "Preparing and managing emission factor sources",
+      "t_start": 142,
+      "t_end": 261.3
+    },
+    {
+      "title": "Demo: calculating CO2 in sustainability journal",
+      "t_start": 261.3,
+      "t_end": 404.5
+    },
+    {
+      "title": "Demo: keeping results and managing uploaded files",
+      "t_start": 404.5,
+      "t_end": 472
+    },
+    {
+      "title": "Summary and additional resources",
+      "t_start": 472,
+      "t_end": 539
+    }
+  ],
+  "features": [
+    {
+      "name": "Calculate CO2 in Sustainability Journal",
+      "description": "New action in sustainability journal that uses copilot to calculate emissions automatically. Copilot identifies emission factors from uploaded Excel files or public sources and performs calculations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 261.3,
+      "t_end": 381.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires at least basic input data such as liters of fuel or kilometers traveled",
+        "Excel files should be cleaned to contain only relevant data, not thousands of lines"
+      ],
+      "tags": [
+        "copilot",
+        "emissions",
+        "calculation",
+        "sustainability journal"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Emission Factor Lookup from Multiple Sources",
+      "description": "Copilot attempts to find emission factors first from uploaded Excel files in the system, then falls back to public sources if not found locally.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 103.8,
+      "t_end": 129,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "emission factors",
+        "lookup",
+        "llm",
+        "sources"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Emission Source Setup Page",
+      "description": "New page where users can upload Excel files containing emission factors. Supports multiple files per company for different countries, machines, or data sources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 142,
+      "t_end": 192.9,
+      "is_demoed": true,
+      "caveats": [
+        "Excel files should contain only necessary information",
+        "Large files with thousands of lines may cause performance issues"
+      ],
+      "tags": [
+        "emission factors",
+        "upload",
+        "excel",
+        "setup"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Date-based Emission Factor Versioning",
+      "description": "Users can specify starting and ending dates for emission factors in Excel files, allowing different factor versions for different periods. System maintains full audit history of all versions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 225.4,
+      "t_end": 250.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "emission factors",
+        "versioning",
+        "auditing",
+        "dates"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Calculation Explanation Details",
+      "description": "Users can drill down into copilot-suggested results to view the full calculation breakdown, including formula, intermediate values, and final emission results for verification.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 334.7,
+      "t_end": 393.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "verification",
+        "calculation",
+        "transparency",
+        "audit"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Keep Emission Factor Results",
+      "description": "Users can choose to save specific emission factors from copilot suggestions to the system for reuse in future calculations, reducing need for copilot lookups.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 404.5,
+      "t_end": 434.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "emission factors",
+        "save",
+        "reuse",
+        "efficiency"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Calculate Emissions Without Complete Data",
+      "description": "Core capability allowing users to calculate emissions even when emission factors are not available, as long as basic data like fuel consumption or distance is provided.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 18.8,
+      "t_end": 46,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "emissions",
+        "incomplete data",
+        "flexibility"
+      ],
+      "system": "sustainability"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Emission Source Setup",
+      "t": 142
+    },
+    {
+      "type": "page",
+      "name": "Sustainability Journal",
+      "t": 261.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Arthur",
+      "confidence": "high"
+    },
+    {
+      "name": "Tensel",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 18.8,
+      "text": "you can use you can calculate emissions even if you do not have all completed data.",
+      "why_it_matters": "This is a core value proposition - users can start measuring emissions immediately without waiting for complete emission factor data.",
+      "check": "exact"
+    },
+    {
+      "t": 113.9,
+      "text": "llm will try to find emission factor in updated in uploaded file in a system",
+      "why_it_matters": "Defines the emission factor lookup strategy: local files first, then public sources, providing flexibility in data sourcing.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 205.4,
+      "text": "keep only information you really need because if Excel file has thousands thousands of lines probably it will be a problem for calculating.",
+      "why_it_matters": "Establishes a specific limitation and best practice for Excel file preparation to avoid performance issues.",
+      "check": "exact"
+    },
+    {
+      "t": 225.4,
+      "text": "if your emission factors are not related for some specific periods, you will just uh make uh empty fields starting and ending date.",
+      "why_it_matters": "Documents how to handle period-specific emission factors and maintain audit history over time.",
+      "check": "exact"
+    },
+    {
+      "t": 297.2,
+      "text": "two out of three lines uh have been sent to copilot and we got actually the results.",
+      "why_it_matters": "Shows that copilot is smart about when to use lookups - skipping lines that already have emission factors.",
+      "check": "exact"
+    },
+    {
+      "t": 351.6,
+      "text": "instead of the total emission here the final result that is uh required for sustainability journal below we can see the calculation explanation and",
+      "why_it_matters": "Emphasizes transparency and auditability through detailed calculation breakdowns for verification.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 5.5,
+      "kind": "other",
+      "text": "2025 release wave 2"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022257
+    }
+  ]
+}

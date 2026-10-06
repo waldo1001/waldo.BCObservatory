@@ -1,0 +1,255 @@
+{
+  "video_id": "6lUli23t3fU",
+  "item_id": "video/yt-microsoft/6lUli23t3fU",
+  "title": "What's New: Power BI for Projects and Inventory (2025 release wave 2)",
+  "duration_s": 652,
+  "systems": [
+    "reporting",
+    "inventory",
+    "projects"
+  ],
+  "topics": [
+    "power bi",
+    "forecasting",
+    "machine learning",
+    "inventory planning",
+    "project profitability",
+    "open source",
+    "seasonality",
+    "reporting analytics"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Power BI Updates",
+      "t_start": 0,
+      "t_end": 94.2
+    },
+    {
+      "title": "Inventory Forecasting Report Demo",
+      "t_start": 94.2,
+      "t_end": 254.3
+    },
+    {
+      "title": "Advanced Forecasting Parameters and Seasonality",
+      "t_start": 254.3,
+      "t_end": 363.7
+    },
+    {
+      "title": "Project Profitability and Sales by Type",
+      "t_start": 363.7,
+      "t_end": 442.8
+    },
+    {
+      "title": "Project Sales Analysis by Customer",
+      "t_start": 442.8,
+      "t_end": 499.8
+    },
+    {
+      "title": "Resources and Community Links",
+      "t_start": 499.8,
+      "t_end": 652
+    }
+  ],
+  "features": [
+    {
+      "name": "Inventory Forecasting Report",
+      "description": "New Power BI report that uses machine learning statistical models to forecast inventory needs based on past performance. Includes upper and lower bounds, trend lines, and filtering options by location, item, or item ledger entry type.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 17.8,
+      "t_end": 254.3,
+      "is_demoed": true,
+      "caveats": [
+        "Forecasting is statistical machine learning, not generative AI",
+        "Results depend on quality of historical data",
+        "Requires proper parameter tuning for business type"
+      ],
+      "tags": [
+        "forecasting",
+        "machine learning",
+        "inventory planning",
+        "power bi"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Seasonality Control in Forecasting",
+      "description": "Customizable seasonality settings in the forecast visual menu that allows users to adjust for one, two, or three seasonal patterns depending on business type, such as Christmas decorations or other cyclical sales patterns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 281.8,
+      "t_end": 363.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual configuration for each business type",
+        "Users must understand their business seasonality patterns"
+      ],
+      "tags": [
+        "seasonality",
+        "forecasting parameters",
+        "customization"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Project Power BI App Open Source",
+      "description": "The Project Power BI application is now open source and ready for customizations. Users can tailor it to business needs, track progress more effectively, and surface insights for on-time and on-budget delivery.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 63.7,
+      "t_end": 94.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "open source",
+        "customization",
+        "projects"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Project Profitability Analysis",
+      "description": "Enhanced Project Power BI reports with focused metrics on project profitability. New visual showing billable to invoice percentage and profitability measures by sales type and customer to track project profitability effectively.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 77.1,
+      "t_end": 499.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "profitability",
+        "project analytics",
+        "billing"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Project Invoice Sales by Type",
+      "description": "Power BI report showing project invoiced sales broken down by type, including resources, items, and GL accounts that can be sold through projects. Displays billable to invoice percentage and profitability measures by sales type.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 377.2,
+      "t_end": 442.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "project reporting",
+        "sales types",
+        "profitability"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Project Invoice Sales by Customer",
+      "description": "Updated Power BI report for analyzing project invoiced sales by customer with billable to invoice percentage and profitability metrics. Allows filtering by customer to analyze profitability per customer from the project side.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 442.8,
+      "t_end": 499.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "project reporting",
+        "customer analysis",
+        "profitability"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Project and Inventory Analytics Landing Pages",
+      "description": "Dedicated landing pages for analytics resources: aka.ms/bcinventory analytics for inventory analysis and aka.ms/bc project analytics for project analysis. These pages provide scenarios, personas, Power BI reports, and other resources.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 499.8,
+      "t_end": 555.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "landing pages",
+        "analytics resources"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Inventory Forecasting",
+      "t": 94.2
+    },
+    {
+      "type": "other",
+      "name": "Project Invoice Sales by Type",
+      "t": 397.3
+    },
+    {
+      "type": "other",
+      "name": "Project Invoice Sales by Customer",
+      "t": 472.6
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 17.8,
+      "text": "The main news is that you can now forecast your inventory needs based on past performance.",
+      "why_it_matters": "This describes the core new capability for inventory management in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 63.7,
+      "text": "And if you use the project module, uh do check the updated PowerBI app as well. This is uh now open source and um",
+      "why_it_matters": "Announces that the Project Power BI app is now open source, enabling customer customization.",
+      "check": "exact"
+    },
+    {
+      "t": 77.1,
+      "text": "one thing we added to the actual reports there is a little bit more focus on profitability of your projects.",
+      "why_it_matters": "Highlights the new focus on project profitability as a key enhancement in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 281.8,
+      "text": "the way you can control the like the window look ahead window upper bounds and seasonality is um simply to go and modify this",
+      "why_it_matters": "Describes how users customize forecasting behavior through Power BI visual settings.",
+      "check": "exact"
+    },
+    {
+      "t": 333.5,
+      "text": "the seasonality here can be uh like uh one or two or three seasons depending on if you are if you sell Christmas decorations",
+      "why_it_matters": "Explains the customizable seasonality parameter that users must configure based on their business type.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023321
+    }
+  ]
+}

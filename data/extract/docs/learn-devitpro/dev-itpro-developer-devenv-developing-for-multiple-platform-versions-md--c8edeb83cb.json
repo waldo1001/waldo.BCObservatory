@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-developing-for-multiple-platform-versions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-developing-for-multiple-platform-versions",
+  "title": "Develop for multiple platform versions",
+  "blob": "1e3457b121d40283603281096d0ee2997ef06bf3",
+  "summary": "Setting the runtime property in app.json defines the platform version an AL extension targets, determining which features are available and ensuring version compatibility during publishing.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "extension development",
+    "platform versions",
+    "runtime configuration",
+    "compatibility"
+  ],
+  "objects": [],
+  "features": [
+    "Runtime version setting",
+    "Version compatibility",
+    "Feature availability"
+  ],
+  "versions": [
+    "2018"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005051,
+      "pages_in_call": 8
+    }
+  ]
+}

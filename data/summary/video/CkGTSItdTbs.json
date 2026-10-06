@@ -1,0 +1,26 @@
+{
+  "video_id": "CkGTSItdTbs",
+  "item_id": "video/yt-microsoft/CkGTSItdTbs",
+  "summary": "Creating multiple fixed assets from one purchase order line in Business Central (2025 release wave 2). The demo buys 25 smartphones and posts to create 25 fixed asset cards with sequential numbers. The feature was previously part of Italian localization and is now available to all databases.",
+  "overview": "The video explains that creating multiple fixed assets at once was previously part of the Italian localization and is now available in all databases, with no localization needed. It shows how this automates asset creation however many identical assets are bought.\n\nIn the demo, a first fixed asset is created and a purchase order is entered for 25 smartphones. Posting alone does nothing until the 'number of fixed assets cards' field is added to the purchase lines through personalization and set to match the quantity. After posting, 25 fixed assets are created in the background, numbered from a number series in steps of 10, and can be checked through the Fixed Assets Ledger Entry table.",
+  "key_points": [
+    "The multiple fixed assets feature was previously part of Italian localization and is now available to all databases, with no localization needed.",
+    "Demo scenario: a purchase order for 25 smartphones, treated as fixed assets because they are expensive.",
+    "Entering the quantity and posting is not enough. Nothing happens until the 'number of fixed assets cards' field is added to the purchase lines.",
+    "The field is added through page personalization, and its value must equal the quantity for the assets to be created automatically.",
+    "Asset numbers come from the configured number series and increment by 10 in the demo (100, 110, 120, 130).",
+    "After posting, the system creates the 25 fixed assets in the background. Opening the ledger entry shows the entries for all of them."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "39934a999310943b3472cc9122bf6617e4ed4d25e7ec555a1dff1d7da4090a09",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0120164
+  }
+}

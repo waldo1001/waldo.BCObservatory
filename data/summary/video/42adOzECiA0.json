@@ -1,0 +1,27 @@
+{
+  "video_id": "42adOzECiA0",
+  "item_id": "video/yt-microsoft/42adOzECiA0",
+  "summary": "Upgrading a sandbox to the preview version (27.0) of the 2025 release wave 2 in the Business Central admin center. It covers copying production data into a sandbox, selecting the preview target version, scheduling the update, and how failed updates and the end of the preview period are handled.",
+  "overview": "The video shows how to copy production data into a sandbox environment and upgrade that sandbox to a preview version of the next Business Central release. The demo starts in the admin center with a sandbox on version 26.4. The presenter modifies the target version, selects preview version 27.0, and schedules the update date. Links to a learn more page and the preview terms appear under the target version selection.\n\nThe video also explains how the preview period works. Failed updates are rescheduled automatically every seven days. After the preview ends, environments are scheduled to update to the next official version, and the preview version no longer shows in the admin center. The presenter warns that preview functionality may change and that the sandbox is not for live operations.",
+  "key_points": [
+    "A copy of production data can be put in a sandbox, and that sandbox can then be upgraded to the preview version of the next release.",
+    "In the admin center, modify the target version of the sandbox (shown on 26.4 in the demo) and select preview version 27.0.",
+    "You choose the date on which the update to the preview version runs.",
+    "The target version selection shows links to the learn more page and the preview terms.",
+    "During the preview period, failed updates are rescheduled automatically every seven days.",
+    "After the preview period, the environment is scheduled to update to the next official version. The preview version is no longer visible in the admin center, and the sandbox is cleaned up with the normal grace period.",
+    "Do not use the preview sandbox for live operations. Functionality may change, and no email notifications are sent for preview updates."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "020090ace8987d50f7e9822310def89ca612afb5bd0e6f5b93444f7591de2c40",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013760399999999999
+  }
+}

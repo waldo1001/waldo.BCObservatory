@@ -1,0 +1,28 @@
+{
+  "video_id": "6lUli23t3fU",
+  "item_id": "video/yt-microsoft/6lUli23t3fU",
+  "summary": "Power BI updates for Business Central inventory and projects in 2025 release wave 2: a new Inventory Forecasting report using statistical machine learning with seasonality settings, and an open source Project Power BI app with more focus on project profitability, shown with demos of sales by type and by customer.",
+  "overview": "The video covers what is new in Power BI reporting for inventory and projects. The main addition is an Inventory Forecasting report that forecasts inventory needs from past performance using statistical machine learning models. It shows upper and lower bounds and trend lines, and can be filtered by location, item, or item ledger entry type. The demo shows how to change the look-ahead window, upper bounds and seasonality in the forecast visual menu.\n\nFor projects, the Project Power BI app is now open source and can be customized. The reports put more focus on project profitability, with billable to invoice percentage and profitability measures. The video demos Project Invoice Sales by Type and Project Invoice Sales by Customer, and points to the aka.ms landing pages for inventory and project analytics.",
+  "key_points": [
+    "The Inventory Forecasting report forecasts inventory needs from past performance using statistical machine learning models, not generative AI.",
+    "The forecast shows upper and lower bounds and trend lines, and can be filtered by location, item, or item ledger entry type.",
+    "Look-ahead window, upper bounds and seasonality are changed in the forecast visual menu; seasonality can be set to one, two or three seasons depending on the business.",
+    "Forecast quality depends on historical data and on tuning parameters to the business type.",
+    "The Project Power BI app is now open source and ready for customization.",
+    "Project reports add billable to invoice percentage and profitability measures, broken down by sales type (resources, items, GL accounts) and by customer.",
+    "Landing pages for scenarios, personas and reports: aka.ms/bcinventoryanalytics and aka.ms/bcprojectanalytics."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "bd3a3445dde05485afd88c71d3ef97dc592e13851b67d07883ed4c238205fda5",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.015276399999999999
+  }
+}

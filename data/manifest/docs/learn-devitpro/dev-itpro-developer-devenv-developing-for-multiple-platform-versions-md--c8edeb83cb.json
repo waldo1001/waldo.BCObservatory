@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-developing-for-multiple-platform-versions",
   "published_at": "2026-06-02T11:42:35.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1e3457b121d40283603281096d0ee2997ef06bf3",
       "words": 377,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:23:30.379Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005051
+    },
+    "summarized": {
+      "at": "2026-10-06T18:23:30.390Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:23:30.391Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:23:30.392Z",
+      "page": false
     }
   },
   "input_hash": "1e3457b121d40283603281096d0ee2997ef06bf3",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1e3457b121d40283603281096d0ee2997ef06bf3"
+  "output_hash": "3ed289ac05ef31170c1972000773dd1852fdcf65c2b2277c4de60e74f516cf66"
 }

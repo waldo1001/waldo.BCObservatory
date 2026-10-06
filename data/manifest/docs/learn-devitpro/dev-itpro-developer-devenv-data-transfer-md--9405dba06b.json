@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-data-transfer",
   "published_at": "2026-06-02T11:41:47.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a4fe674ed3d8060c9a7c8520e3bf8dad8a47d42c",
       "words": 1144,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:23:30.385Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.005051
+    },
+    "summarized": {
+      "at": "2026-10-06T18:23:30.406Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:23:30.407Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:23:30.408Z",
+      "page": false
     }
   },
   "input_hash": "a4fe674ed3d8060c9a7c8520e3bf8dad8a47d42c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a4fe674ed3d8060c9a7c8520e3bf8dad8a47d42c"
+  "output_hash": "61f28b21ce9bdc8e7fe83b623901e9b603cf6bee8009f6959b899ef06baaca7a"
 }

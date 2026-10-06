@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-actions-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-actions-overview",
+  "title": "Actions overview",
+  "blob": "ef56aeebd9b2289bb83c3bd19156f11f636043ce",
+  "summary": "Actions overview describes how to create and organize page actions in Business Central menus including Actions, New Document, Navigate, and Report areas, plus promoted actions and Power Automate flow integration.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "page actions",
+    "action bar",
+    "user interface",
+    "workflow",
+    "power automate"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Role Center"
+    },
+    {
+      "type": "page",
+      "name": "Card page"
+    },
+    {
+      "type": "page",
+      "name": "List page"
+    }
+  ],
+  "features": [
+    "Action areas",
+    "Action menus",
+    "Promoted actions",
+    "Power Automate flows",
+    "Action grouping",
+    "Custom actions"
+  ],
+  "versions": [
+    "2022 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005051,
+      "pages_in_call": 8
+    }
+  ]
+}

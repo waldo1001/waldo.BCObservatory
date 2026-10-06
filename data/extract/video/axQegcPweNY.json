@@ -1,0 +1,331 @@
+{
+  "video_id": "axQegcPweNY",
+  "item_id": "video/yt-microsoft/axQegcPweNY",
+  "title": "What's New: Draft Page for Electronic Invoices (2025 release wave 2)",
+  "duration_s": 599,
+  "systems": [
+    "purchasing",
+    "integration",
+    "localization"
+  ],
+  "topics": [
+    "e-documents",
+    "electronic invoices",
+    "draft page",
+    "purchase invoicing",
+    "document processing",
+    "ai matching",
+    "vendor setup",
+    "item references"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview",
+      "t_start": 0,
+      "t_end": 28.6
+    },
+    {
+      "title": "Business value and key benefits",
+      "t_start": 28.6,
+      "t_end": 92.4
+    },
+    {
+      "title": "Workflow comparison: old vs new draft page approach",
+      "t_start": 92.4,
+      "t_end": 183.4
+    },
+    {
+      "title": "Configuration and demo setup",
+      "t_start": 183.4,
+      "t_end": 234.6
+    },
+    {
+      "title": "Old workflow limitations",
+      "t_start": 234.6,
+      "t_end": 289.4
+    },
+    {
+      "title": "New draft page features and matching capabilities",
+      "t_start": 289.4,
+      "t_end": 465.1
+    },
+    {
+      "title": "AI fallback and finalization workflow",
+      "t_start": 465.1,
+      "t_end": 539.8
+    },
+    {
+      "title": "Status, preview information and resources",
+      "t_start": 539.8,
+      "t_end": 599
+    }
+  ],
+  "features": [
+    {
+      "name": "Draft page for electronic invoices",
+      "description": "New draft page functionality for electronic invoice processing that allows users to review, refine, and edit incoming documents before posting, with support for editing quantities, prices, units of measure, and vendor information.",
+      "status": "preview",
+      "status_evidence_t": 539.8,
+      "status_evidence_quote": "This functionality will be in a public preview.",
+      "status_evidence_verified": true,
+      "t_start": 6,
+      "t_end": 539.8,
+      "is_demoed": true,
+      "caveats": [
+        "Only one setup can be used at a time - cannot use both old and new draft page features simultaneously",
+        "Will not be available in October 2025, coming in a later minor release",
+        "Users should test in sandbox before production use"
+      ],
+      "tags": [
+        "e-documents",
+        "electronic-invoices",
+        "draft-page",
+        "purchase-invoicing",
+        "document-processing"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Item reference mapping",
+      "description": "Automatic matching of invoice lines to items using configured item references, with visual indicators showing how the mapping was completed and ability to navigate to the source item reference configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 344.4,
+      "t_end": 389.4,
+      "is_demoed": true,
+      "caveats": [
+        "Depends on proper item reference setup configuration"
+      ],
+      "tags": [
+        "item-references",
+        "mapping",
+        "automatic-matching"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Text to account mapping",
+      "description": "Configuration option for mapping text descriptions from invoices to general ledger accounts, used as one of the matching strategies before AI fallback.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 389.4,
+      "t_end": 403.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "text-mapping",
+        "account-mapping",
+        "gl-accounts"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Historical line matching",
+      "description": "When invoice lines cannot be matched using item references or text mapping, the system looks at previously posted invoices from the same vendor to find similar lines and use their account mapping.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 403.8,
+      "t_end": 465.1,
+      "is_demoed": true,
+      "caveats": [
+        "Only works if historical purchase invoices exist for the vendor"
+      ],
+      "tags": [
+        "historical-matching",
+        "vendor-history",
+        "account-matching"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "AI fallback for account identification",
+      "description": "When item references, text mapping, and historical matching fail, AI is used as a fallback to identify and suggest appropriate general ledger accounts for invoice lines, with explanations of the suggestion.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 465.1,
+      "t_end": 489.8,
+      "is_demoed": true,
+      "caveats": [
+        "Uses AI which may not always be accurate and requires user review",
+        "Currently in preview status"
+      ],
+      "tags": [
+        "ai",
+        "account-suggestion",
+        "copilot"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Editable invoice lines in draft",
+      "description": "All invoice lines in the draft page are fully editable, allowing users to change quantities, prices, units of measure, descriptions, type and number fields before posting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 333.3,
+      "t_end": 344.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "editing",
+        "line-items",
+        "invoice-lines"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Vendor correction in draft",
+      "description": "Users can edit and change the vendor on an invoice line in the draft page if the system fails to automatically identify the correct vendor based on VAT number or name and address matching.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 309,
+      "t_end": 333.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vendor-correction",
+        "vendor-lookup",
+        "header-editing"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "E-document service version 2",
+      "description": "New version of e-document service configuration that supports the draft page workflow for electronic invoice processing with version-based setup selection.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 210.2,
+      "t_end": 234.6,
+      "is_demoed": true,
+      "caveats": [
+        "Cannot be used simultaneously with version 1 processing"
+      ],
+      "tags": [
+        "e-documents",
+        "service-configuration",
+        "version-2"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "draft document",
+      "t": 289.4
+    },
+    {
+      "type": "page",
+      "name": "e documents",
+      "t": 195.8
+    },
+    {
+      "type": "page",
+      "name": "item reference",
+      "t": 373
+    },
+    {
+      "type": "page",
+      "name": "posted purchase invoice",
+      "t": 443.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander Toto",
+      "confidence": "high"
+    },
+    {
+      "name": "Magnus",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 39.6,
+      "text": "invoice accuracy a lot because you can now review refine your incoming document before posting",
+      "why_it_matters": "States the primary business value of the draft page feature - ability to review and correct invoices before they are posted to the system.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 71.2,
+      "text": "this draft page is very similar what is used by payable agent and of course it will enhance",
+      "why_it_matters": "Explains the design alignment with payable agent and emphasizes enhanced financial control and compliance capabilities.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 171,
+      "text": "You cannot use in this moment both of these features. So this is on you. Please start with the sandbox look what is the",
+      "why_it_matters": "Critical caveat - users must choose between old and new workflows and are advised to test in sandbox first.",
+      "check": "exact"
+    },
+    {
+      "t": 428.7,
+      "text": "Whenever we are on this draft page and we process these lines we will look at previously posted invoices to see if we can",
+      "why_it_matters": "Describes the historical matching strategy used to identify accounts when standard mappings are not available.",
+      "check": "exact"
+    },
+    {
+      "t": 489.8,
+      "text": "We now get a explanation from the AI saying exactly why is it that it thinks that delivery cost should be classified for freight",
+      "why_it_matters": "Shows that AI suggestions include explanations, providing transparency and allowing users to validate the system's reasoning.",
+      "check": "exact"
+    },
+    {
+      "t": 539.8,
+      "text": "This functionality will be in a public preview. This is important and it will come in one of next minor. So it will not",
+      "why_it_matters": "Clarifies the release status - public preview not in October 2025 but in a later minor release.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 539.8,
+      "kind": "preview",
+      "text": "This functionality will be in a public preview."
+    },
+    {
+      "t": 551.6,
+      "kind": "coming-later",
+      "text": "It will not be in October. So it will come after that in one of minors."
+    },
+    {
+      "t": 551.6,
+      "kind": "preview",
+      "text": "You can track on a release plan exact information and it will be in the public preview."
+    },
+    {
+      "t": 563.5,
+      "kind": "preview",
+      "text": "Please for the beginning try this in the sandbox."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025892
+    }
+  ]
+}

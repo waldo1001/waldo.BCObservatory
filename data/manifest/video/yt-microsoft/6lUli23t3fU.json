@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=6lUli23t3fU",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:23:25.863Z",
+      "path": "data/extract/video/6lUli23t3fU.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 7,
+      "quotes": 5,
+      "quotes_dropped": 1,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.023321
+    },
+    "summarized": {
+      "at": "2026-10-06T18:23:32.650Z",
+      "path": "data/summary/video/6lUli23t3fU.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.015276399999999999
+    },
+    "linked": {
+      "at": "2026-10-06T18:23:32.653Z",
+      "systems": [
+        "reporting",
+        "inventory",
+        "projects"
+      ],
+      "topics": 8,
+      "objects_as_heard": 3
+    },
+    "published": {
+      "at": "2026-10-06T18:23:32.665Z",
+      "path": "content/videos/6lUli23t3fU.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2025-10-01 - BCLE - What's New： Power BI for Projects and Inventory (2025 release wave 2) [6lUli23t3fU].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "9377fb178c2e8a2e8b6a8518054f70f69f3918ebb97d4c77eb16f0b8e918e505"
 }
