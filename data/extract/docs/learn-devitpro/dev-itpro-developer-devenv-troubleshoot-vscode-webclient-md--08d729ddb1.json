@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-troubleshoot-vscode-webclient.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-troubleshoot-vscode-webclient",
+  "title": "Troubleshoot in Visual Studio Code directly from the web client",
+  "blob": "e4b0820ce30e2c9aa91c68e9127cd37448a25c87",
+  "summary": "Troubleshoot Business Central directly from the web client by opening Visual Studio Code for debugging, inspecting variables, setting breakpoints, and viewing source code for production and sandbox environments.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "debugging",
+    "visual studio code",
+    "web client",
+    "troubleshooting",
+    "page inspection"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Page Inspection"
+    },
+    {
+      "type": "page",
+      "name": "Help and Support"
+    },
+    {
+      "type": "page",
+      "name": "Extension Management"
+    }
+  ],
+  "features": [
+    "Page Inspector",
+    "snapshot debugging",
+    "launch configuration generation",
+    "extension dependencies",
+    "resource exposure profile"
+  ],
+  "versions": [
+    "2023 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003878,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-troubleshoot-vscode-webclient",
   "published_at": "2025-03-31T08:15:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e4b0820ce30e2c9aa91c68e9127cd37448a25c87",
       "words": 1520,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:26.998Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003878
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:28.795Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:28.796Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:28.798Z",
+      "page": false
     }
   },
   "input_hash": "e4b0820ce30e2c9aa91c68e9127cd37448a25c87",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e4b0820ce30e2c9aa91c68e9127cd37448a25c87"
+  "output_hash": "0fb8dd99ab8017b9de39eae61a9a3607b043bb7138995a682ae0bd9f40349877"
 }

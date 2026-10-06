@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/finance-sales-invoice-specifics",
   "published_at": "2025-04-22T15:09:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2db509a56cf275060bd182da9c334aa1b76c8d8c",
       "words": 229,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:26.994Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003878
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:27.007Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:27.009Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:27.011Z",
+      "page": false
     }
   },
   "input_hash": "2db509a56cf275060bd182da9c334aa1b76c8d8c",
@@ -62,5 +81,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2db509a56cf275060bd182da9c334aa1b76c8d8c"
+  "output_hash": "41ce4392a08f2f7ddf073d4ee166860ceed88b28303878cf56a7bb18824709e0"
 }

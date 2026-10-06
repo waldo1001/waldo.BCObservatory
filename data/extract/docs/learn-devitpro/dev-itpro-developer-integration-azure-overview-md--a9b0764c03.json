@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/integration-azure-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/integration-azure-overview",
+  "title": "Integrating with Azure services",
+  "blob": "6b2061d8e9cee2c32380ce999eb38eaa03e875aa",
+  "summary": "Business Central integrates with multiple Azure services including Application Insights, Blob Storage, File Services, Functions, Key Vault, Virtual Networks, and Azure OpenAI Service for extended capabilities.",
+  "systems": [
+    "integration",
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "azure",
+    "azure services",
+    "application insights",
+    "blob storage",
+    "key vault",
+    "azure functions",
+    "openai"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Azure Function"
+    }
+  ],
+  "features": [
+    "Application Insights telemetry",
+    "Azure Blob Services API",
+    "Azure File Services API",
+    "Azure Functions integration",
+    "Azure Key Vault",
+    "Azure Virtual Network",
+    "Azure OpenAI Service",
+    "copilot integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003878,
+      "pages_in_call": 8
+    }
+  ]
+}

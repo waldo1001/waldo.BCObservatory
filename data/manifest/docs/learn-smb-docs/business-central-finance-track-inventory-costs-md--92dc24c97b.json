@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-track-inventory-costs",
   "published_at": "2025-04-09T17:48:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e6087b0f19306bbb4c47ee35fc98c9e201a0d401",
       "words": 1807,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:26.997Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.003878
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:28.791Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:28.792Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:28.793Z",
+      "page": false
     }
   },
   "input_hash": "e6087b0f19306bbb4c47ee35fc98c9e201a0d401",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e6087b0f19306bbb4c47ee35fc98c9e201a0d401"
+  "output_hash": "264972199c150d2712b9a6ca751fe6d1920654de772f1a9efd6293c5575d5d89"
 }

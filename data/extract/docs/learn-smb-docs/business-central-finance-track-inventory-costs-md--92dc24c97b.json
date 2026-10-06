@@ -1,0 +1,72 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-track-inventory-costs.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-track-inventory-costs",
+  "title": "Track item cost adjustments",
+  "blob": "e6087b0f19306bbb4c47ee35fc98c9e201a0d401",
+  "summary": "Track and manage item cost adjustments with logging, batching, and troubleshooting options to keep inventory costs accurate and identify problematic items efficiently.",
+  "systems": [
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "cost adjustment",
+    "logging",
+    "batching",
+    "troubleshooting",
+    "general ledger"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Cost Adjustment"
+    },
+    {
+      "type": "page",
+      "name": "Cost Adjustment - Item Batches"
+    },
+    {
+      "type": "page",
+      "name": "Avg. Cost Adjmt. Entry Point"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Adjmt. Entry (Order)"
+    },
+    {
+      "type": "page",
+      "name": "Item Application Entries"
+    },
+    {
+      "type": "report",
+      "name": "Adjust Cost - Item Entries"
+    },
+    {
+      "type": "page",
+      "name": "Cost Adjmt. Action Messages"
+    }
+  ],
+  "features": [
+    "Cost Adjustment Logging",
+    "item batches",
+    "cost adjustment tracer",
+    "automatic posting",
+    "diagnostics",
+    "iterative adjustments",
+    "production and assembly orders"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003878,
+      "pages_in_call": 8
+    }
+  ]
+}

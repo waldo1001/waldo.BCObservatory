@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/oioubl-electronic-invoicing-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/oioubl-electronic-invoicing-overview",
+  "title": "OIOUBL Electronic Invoicing Overview | Microsoft Docs",
+  "blob": "1e417af9f017249821db286ff35cc491665eaea1",
+  "summary": "OIOUBL electronic invoicing allows Danish companies to send sales invoices, credit memos, finance charge memos, and reminders to the public sector in the required OIOUBL format based on UBL 2.0 standard.",
+  "systems": [
+    "localization",
+    "sales",
+    "integration"
+  ],
+  "topics": [
+    "oioubl",
+    "electronic invoicing",
+    "denmark",
+    "ubl",
+    "xml",
+    "ean numbers"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    }
+  ],
+  "features": [
+    "OIOUBL profiles",
+    "EAN location numbers",
+    "account codes",
+    "electronic document generation",
+    "XML export"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003878,
+      "pages_in_call": 8
+    }
+  ]
+}

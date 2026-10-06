@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/oioubl-electronic-invoicing-overview",
   "published_at": "2025-04-25T08:06:35.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1e417af9f017249821db286ff35cc491665eaea1",
       "words": 358,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:26.992Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003878
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:27.003Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:27.004Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:27.006Z",
+      "page": false
     }
   },
   "input_hash": "1e417af9f017249821db286ff35cc491665eaea1",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1e417af9f017249821db286ff35cc491665eaea1"
+  "output_hash": "34b591ca365ada85e34232514a1c9db25b18547803518745221c7c3a19ef6c84"
 }
