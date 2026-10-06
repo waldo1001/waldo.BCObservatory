@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-post-and-print-all-transactions-for-a-period",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ee03cd3c2a46aefee7359a1434a151d3bf7cebc7",
       "words": 313,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:44.119Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002268
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:45.383Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:45.385Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:45.386Z",
+      "page": false
     }
   },
   "input_hash": "ee03cd3c2a46aefee7359a1434a151d3bf7cebc7",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ee03cd3c2a46aefee7359a1434a151d3bf7cebc7"
+  "output_hash": "08e4fc17e505b86e49881bea5beb2d264b8cf87f1f757cc8dfad498e97007868"
 }

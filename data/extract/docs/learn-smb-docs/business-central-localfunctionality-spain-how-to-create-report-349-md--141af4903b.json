@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-create-report-349.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-create-report-349",
+  "title": "Create Report 349 [ES]",
+  "blob": "c64a9c29d225a2d51e1140d6673fd5bbe78259f4",
+  "summary": "Report 349 is a periodic Spanish tax declaration of intra-EU trade submitted electronically or on CD-ROM, with features to handle credit memo corrections and adjust delivery operation codes.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "report 349",
+    "eu trade",
+    "spain",
+    "tax declaration",
+    "credit memos"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Make 349 Declaration"
+    },
+    {
+      "type": "page",
+      "name": "Customer/Vendor Warnings 349"
+    }
+  ],
+  "features": [
+    "349 Declaration",
+    "Telematic submission",
+    "CD-ROM support",
+    "Delivery operation codes",
+    "Credit memo corrections"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002453,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format",
+  "title": "How to Export VAT Statements in Text Format",
+  "blob": "7c596fb4cb3146b770271b8be0abbb36622c3121",
+  "summary": "VAT statements can be exported in text format for electronic submission to Spanish tax authorities from VAT Statements using the Generate txt file action with filtering options.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "vat statements",
+    "text format export",
+    "spain",
+    "tax submission"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Telematic VAT Declaration"
+    }
+  ],
+  "features": [
+    "VAT statement export",
+    "Text file format",
+    "Open/closed entries filter",
+    "Additional currency display",
+    "Telematic submission"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002453,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "video_id": "z4Ri5SAqUcc",
+  "item_id": "video/yt-microsoft/z4Ri5SAqUcc",
+  "summary": "Comparison of paying vendors in Dynamics GP and Business Central, using payment journals and Suggest Vendor Payments. Shows saved defaults, last payment date, payment discounts, summarize per vendor, and vendor priority to limit a payment run when cash is constrained.",
+  "overview": "The video compares the vendor payment process in Dynamics GP, where payments are made through payment batches, with Business Central, where payment journals are created and vendors to pay are suggested from criteria the user defines.\n\nThe demo covers the suggest vendor payments criteria, such as the last payment date and available payment discounts, and reusing previously saved defaults. It then shows how vendor priority, set on the vendor card, lets a payment run pay high-priority vendors first when an amount limit applies. The example run comes to about $440,000 and is limited to a smaller amount using priority.",
+  "key_points": [
+    "Business Central payment journals play the role GP payment batches played, with vendors suggested from criteria you define.",
+    "Suggest Vendor Payments lets you select previously saved defaults, so criteria are not re-entered each time.",
+    "The last payment date criterion pays invoices due on or before that date, and available payment discounts can be included.",
+    "The summarize per vendor option consolidates multiple invoices into one payment per vendor instead of one payment per invoice.",
+    "Vendor priority is set under the Payments area on the vendor card; a lower number means a higher priority.",
+    "To limit a run to an amount of cash (the demo uses 20,000), select the option to use vendor priority and enter the amount; high-priority vendors are paid first.",
+    "Vendor priority requires configuration on individual vendor cards."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "68abdfc7a8e0ab9ba1f6eeb14fcf6692d2c19c7f47356405e69b27f72077d609",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0127184
+  }
+}

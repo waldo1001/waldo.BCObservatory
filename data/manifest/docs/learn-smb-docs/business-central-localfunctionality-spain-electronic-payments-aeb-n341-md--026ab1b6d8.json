@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/electronic-payments-aeb-n341",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9788cdbbea807f8c972a54bf1a2de08522bddd31",
       "words": 225,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:45.364Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002453
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:45.371Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:45.372Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:45.373Z",
+      "page": false
     }
   },
   "input_hash": "9788cdbbea807f8c972a54bf1a2de08522bddd31",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9788cdbbea807f8c972a54bf1a2de08522bddd31"
+  "output_hash": "1b17f4440895d32bfaae77115d65a95d1aa5fefea0972949f968434a8eafef25"
 }

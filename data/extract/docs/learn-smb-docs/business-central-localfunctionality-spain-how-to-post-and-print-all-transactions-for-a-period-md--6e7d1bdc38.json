@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-post-and-print-all-transactions-for-a-period.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-post-and-print-all-transactions-for-a-period",
+  "title": "How to Post and Print All Transactions for a Period",
+  "blob": "ee03cd3c2a46aefee7359a1434a151d3bf7cebc7",
+  "summary": "Post journal transactions with sequential numbering and print transaction registers for fiscal year reporting to tax authorities. Use this when submitting business transactions in required sequential order.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "transaction posting",
+    "sequential numbering",
+    "tax reporting",
+    "spain"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journal"
+    },
+    {
+      "type": "page",
+      "name": "G/L Registers"
+    }
+  ],
+  "features": [
+    "Transaction numbering",
+    "Period Transaction No.",
+    "Set Period Transaction No. action",
+    "Journal posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002268,
+      "pages_in_call": 7
+    }
+  ]
+}

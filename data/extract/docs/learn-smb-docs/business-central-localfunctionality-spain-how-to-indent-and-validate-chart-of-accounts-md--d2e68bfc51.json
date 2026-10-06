@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts",
+  "title": "How to Indent and Validate Chart of Accounts",
+  "blob": "f7cc6ea197806fd2e474b9122774738af6b1c257",
+  "summary": "Indent and validate the chart of accounts structure to organize GL accounts hierarchically and verify accuracy. Use this when setting up or maintaining the chart of accounts structure.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "chart of accounts",
+    "account structure",
+    "validation",
+    "spain",
+    "portugal"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "G/L Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    }
+  ],
+  "features": [
+    "Indent Chart of Accounts",
+    "Chart of Accounts validation",
+    "Account type selection",
+    "Income statement balance account"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002268,
+      "pages_in_call": 7
+    }
+  ]
+}

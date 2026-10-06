@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-print-account-book-reports",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cc05880bcc5f4a7ce279af79d985a3415365f884",
       "words": 401,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:44.120Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002268
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:45.387Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:45.388Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:45.389Z",
+      "page": false
     }
   },
   "input_hash": "cc05880bcc5f4a7ce279af79d985a3415365f884",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cc05880bcc5f4a7ce279af79d985a3415365f884"
+  "output_hash": "2d7c341e850a165fc88932d7f000c54e08d68282eace26d8cfbbca1404401046"
 }

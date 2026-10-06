@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-create-report-349",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c64a9c29d225a2d51e1140d6673fd5bbe78259f4",
       "words": 790,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:45.368Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002453
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:47.131Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:47.132Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:47.133Z",
+      "page": false
     }
   },
   "input_hash": "c64a9c29d225a2d51e1140d6673fd5bbe78259f4",
@@ -47,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c64a9c29d225a2d51e1140d6673fd5bbe78259f4"
+  "output_hash": "07ec0b9572a9a631ca93f9d96e049fd1b8d11bb9cf453c1bca8ecae5099c0d86"
 }

@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format",
+  "title": "How to export VAT statements in XML format",
+  "blob": "3f8009f71976d708625c3cfc12d069c94c163515",
+  "summary": "Export VAT statements in XML format for electronic submission to Spanish tax authorities. Use this when you need to generate and submit VAT declarations in the required XML format.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat statements",
+    "xml export",
+    "tax compliance",
+    "spain"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Statement"
+    },
+    {
+      "type": "page",
+      "name": "XML VAT Declaration"
+    },
+    {
+      "type": "page",
+      "name": "XML Transference Format"
+    }
+  ],
+  "features": [
+    "Generate XML file",
+    "VAT entries filtering",
+    "Additional currency reporting",
+    "Date filter options"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002268,
+      "pages_in_call": 7
+    }
+  ]
+}

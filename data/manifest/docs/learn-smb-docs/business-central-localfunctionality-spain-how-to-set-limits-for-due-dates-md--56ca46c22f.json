@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-limits-for-due-dates",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ebd4d920dc1c2975b387329fa6cfa15baae75bcd",
       "words": 300,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:44.122Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002268
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:45.390Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:45.391Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:45.392Z",
+      "page": false
     }
   },
   "input_hash": "ebd4d920dc1c2975b387329fa6cfa15baae75bcd",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ebd4d920dc1c2975b387329fa6cfa15baae75bcd"
+  "output_hash": "25469966adece4d4f0767cbc24b0eb033d6174ea85cd73985dc7ee5fa528a035"
 }

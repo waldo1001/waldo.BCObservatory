@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/electronic-payments-aeb-n341.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/electronic-payments-aeb-n341",
+  "title": "Electronic payments – AEB N34.1 - [ES]",
+  "blob": "9788cdbbea807f8c972a54bf1a2de08522bddd31",
+  "summary": "Electronic payments functionality allows Spanish vendors to be paid using AEB N34.1 standard file format exported from payment journals or Cartera functionality instead of paper checks.",
+  "systems": [
+    "purchasing",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "electronic payments",
+    "vendor payments",
+    "aeb n34.1",
+    "spain",
+    "bank setup"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Export Electronic Payments"
+    },
+    {
+      "type": "report",
+      "name": "PO - Export N34.1"
+    }
+  ],
+  "features": [
+    "Electronic payment exports",
+    "AEB N34.1 file format",
+    "Cartera payment orders",
+    "Bank account setup"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002453,
+      "pages_in_call": 7
+    }
+  ]
+}

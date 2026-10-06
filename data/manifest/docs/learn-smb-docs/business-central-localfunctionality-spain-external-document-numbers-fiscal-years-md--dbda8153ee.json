@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/external-document-numbers-fiscal-years",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "46c70f301dc0499467e0e1ea7897f517c1a9bd35",
       "words": 105,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:45.366Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002453
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:45.397Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:45.398Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:45.399Z",
+      "page": false
     }
   },
   "input_hash": "46c70f301dc0499467e0e1ea7897f517c1a9bd35",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "46c70f301dc0499467e0e1ea7897f517c1a9bd35"
+  "output_hash": "56b2d65695aad970aadbb6e8f701ddcc659e34e177f8da873d9c4e3d8fe10f26"
 }

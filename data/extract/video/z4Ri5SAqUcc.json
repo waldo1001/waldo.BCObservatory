@@ -1,0 +1,220 @@
+{
+  "video_id": "z4Ri5SAqUcc",
+  "item_id": "video/yt-microsoft/z4Ri5SAqUcc",
+  "title": "Comparing the Pay Vendor Process in Dynamics GP with Dynamics 365 Business Central (2024)",
+  "duration_s": 219,
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "vendor payments",
+    "payment journals",
+    "payment batch",
+    "vendor priority",
+    "cash flow",
+    "payment discounts",
+    "suggest vendor payments"
+  ],
+  "chapters": [
+    {
+      "title": "Paying Vendors in Dynamics GP",
+      "t_start": 0,
+      "t_end": 44.6
+    },
+    {
+      "title": "Creating Payment Journals in Business Central",
+      "t_start": 44.6,
+      "t_end": 105.6
+    },
+    {
+      "title": "Managing Cash Flow with Payment Amounts",
+      "t_start": 105.6,
+      "t_end": 140.5
+    },
+    {
+      "title": "Understanding Vendor Priority Settings",
+      "t_start": 140.5,
+      "t_end": 174.8
+    },
+    {
+      "title": "Using Vendor Priority to Optimize Payment Runs",
+      "t_start": 174.8,
+      "t_end": 219
+    }
+  ],
+  "features": [
+    {
+      "name": "Payment Journals",
+      "description": "Business Central allows you to easily create payment journals and suggest vendors to pay based on criteria you've defined, similar to GP payment batches.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 44.6,
+      "t_end": 105.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "payment",
+        "journals",
+        "vendor",
+        "purchasing"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Suggest Vendor Payments",
+      "description": "Functionality to automatically suggest vendor payments based on defined criteria such as due date and available discounts, allowing users to select previously saved defaults.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 65.7,
+      "t_end": 105.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "suggest",
+        "vendor",
+        "payments",
+        "automation"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Vendor Priority",
+      "description": "Functionality that allows users to set priority levels on vendors, ensuring payment runs prioritize high-priority vendors first when cash flow is constrained. Lower numbers indicate higher priority.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 140.5,
+      "t_end": 219,
+      "is_demoed": true,
+      "caveats": [
+        "Vendor priority requires configuration on individual vendor cards"
+      ],
+      "tags": [
+        "vendor",
+        "priority",
+        "cash flow",
+        "payments"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Payment Discount Application",
+      "description": "Business Central can automatically include available payment discounts when suggesting vendor payments based on configured criteria.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 85.7,
+      "t_end": 105.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "discounts",
+        "payments",
+        "vendor"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Summarize Per Vendor Option",
+      "description": "Option to consolidate multiple invoices into a single payment per vendor instead of creating one payment per invoice.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 174.8,
+      "t_end": 198,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "payment",
+        "consolidation",
+        "vendor"
+      ],
+      "system": "purchasing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "payment option ID",
+      "t": 12.5
+    },
+    {
+      "type": "other",
+      "name": "payment batch",
+      "t": 12.5
+    },
+    {
+      "type": "other",
+      "name": "payment journals",
+      "t": 44.6
+    },
+    {
+      "type": "other",
+      "name": "vendor card",
+      "t": 140.5
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 44.6,
+      "text": "Business Central allows you to easily create payment journals and suggest the vendors to pay based on criteria you've defined",
+      "why_it_matters": "States the core capability of payment automation in Business Central compared to GP.",
+      "check": "exact"
+    },
+    {
+      "t": 65.7,
+      "text": "I can select previously saved defaults that I don't need to re-enter information each time I create vendor payments",
+      "why_it_matters": "Explains how Business Central improves efficiency by allowing reusable payment defaults.",
+      "check": "exact"
+    },
+    {
+      "t": 65.7,
+      "text": "the last payment date is how I can indicate that we want to pay invoices due on or before that date and we've also",
+      "why_it_matters": "Describes the filtering and discount functionality available in payment suggestion.",
+      "check": "exact"
+    },
+    {
+      "t": 120,
+      "text": "this payment run will come to about $440,000 by using the vendor priority functionality in business Central the suggest payments will ensure that we're",
+      "why_it_matters": "Demonstrates how vendor priority controls cash flow when liquidity is constrained.",
+      "check": "exact"
+    },
+    {
+      "t": 144.9,
+      "text": "in the vendor card I can go under the payments area and see the priority the lower the number the higher the priority",
+      "why_it_matters": "Explains the vendor priority numbering convention used in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 174.8,
+      "text": "I'm now going to select the option to use vendor priority I'm also going to type in that we want to pay 20,000 towards",
+      "why_it_matters": "Shows how to combine vendor priority with payment amount limits for cash flow control.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013093
+    }
+  ]
+}

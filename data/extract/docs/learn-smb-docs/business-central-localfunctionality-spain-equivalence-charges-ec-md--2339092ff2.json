@@ -1,0 +1,65 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Spain/equivalence-charges-ec-.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/equivalence-charges-ec-",
+  "title": "Equivalence Charges (EC) [ES]",
+  "blob": "5d1b582122fc530af1b5c2603363c89a14f36f21",
+  "summary": "Equivalence Charges (EC) is a Spanish tax for retail sales tracked separately from VAT in purchase and sales lines, combined for display and stored separately at posting in VAT Entry table.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "equivalence charges",
+    "ec tax",
+    "vat",
+    "spain",
+    "retail sales"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Purchase Line"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line Archive"
+    },
+    {
+      "type": "table",
+      "name": "Purchase Line Archive"
+    },
+    {
+      "type": "table",
+      "name": "VAT Entry"
+    },
+    {
+      "type": "report",
+      "name": "Sales Invoice Book"
+    },
+    {
+      "type": "report",
+      "name": "Purchases Invoice Book"
+    }
+  ],
+  "features": [
+    "EC percentage field",
+    "VAT + EC combined display",
+    "Separate tax tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002453,
+      "pages_in_call": 7
+    }
+  ]
+}

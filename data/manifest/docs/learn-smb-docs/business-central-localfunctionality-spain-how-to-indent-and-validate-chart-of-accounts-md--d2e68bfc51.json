@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f7cc6ea197806fd2e474b9122774738af6b1c257",
       "words": 271,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:44.117Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002268
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:45.377Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:45.378Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:45.379Z",
+      "page": false
     }
   },
   "input_hash": "f7cc6ea197806fd2e474b9122774738af6b1c257",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f7cc6ea197806fd2e474b9122774738af6b1c257"
+  "output_hash": "d0920e2e12f0b0ac61ef96a56e5d8c2ac0c77a67ec2cf0278977d0dc43ddfd63"
 }

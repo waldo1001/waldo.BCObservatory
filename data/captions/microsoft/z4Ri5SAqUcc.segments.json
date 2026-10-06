@@ -1,0 +1,73 @@
+{
+  "video_id": "z4Ri5SAqUcc",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 1.3,
+      "end": 12.5,
+      "text": "in this video we're going to look at how to pay vendors in Dynamics GP and compare that to the experience of paying vendors in Dynamics 365 business"
+    },
+    {
+      "t": 12.5,
+      "end": 32.8,
+      "text": "Central in my GP system I've created a batch using my default payment option ID that looks for outstanding invoices that are due at the end of the month and any available discounts since I've already created my payment batch I can select the edit payment batch button and then view all the vendors and in voices that have been selected to pay"
+    },
+    {
+      "t": 32.8,
+      "end": 44.6,
+      "text": "here is where I can make any changes and choose to not pay a certain vendor or certain invoices now let's see how we can pay vendors in business"
+    },
+    {
+      "t": 44.6,
+      "end": 65.7,
+      "text": "Central Business Central allows you to easily create payment journals and suggest the vendors to pay based on criteria you've defined similar to GP let's take a closer look to create vendor payments I'll click on the search icon and type payment journals based on the search results I can then select payment"
+    },
+    {
+      "t": 65.7,
+      "end": 85.7,
+      "text": "journal in my payment journals I can select my general batch under prepare I'll select suggest vendor payments similar to my payment option ID in GP I can select previously saved defaults that I don't need to re-enter information each time I create vendor payments the last payment"
+    },
+    {
+      "t": 85.7,
+      "end": 105.2,
+      "text": "date is how I can indicate that we want to pay invoices due on or before that date and we've also indicated to include any available payment discounts now let's click okay and have business Central suggest the list of payments based on the criteria we've"
+    },
+    {
+      "t": 105.6,
+      "end": 120,
+      "text": "entered in this list you can see the system has created several payments for my vendors I currently have the system set up to create one payment per invoice however in a moment we'll look at how we can change that setting"
+    },
+    {
+      "t": 120,
+      "end": 140.5,
+      "text": "here I can see the amounts of the payments and the invoices they're applied to now let's say we're a bit cash strapped this month and it looks like this payment run will come to about $440,000 by using the vendor priority functionality in business Central the suggest payments will ensure that we're paying our high priority vendors first to see the vendor priority"
+    },
+    {
+      "t": 140.5,
+      "end": 144.9,
+      "text": "let's open up a vendor"
+    },
+    {
+      "t": 144.9,
+      "end": 157.6,
+      "text": "card in the vendor card I can go under the payments area and see the priority the lower the number the higher the priority we see worldwide importers is set to a priority"
+    },
+    {
+      "t": 157.6,
+      "end": 171.9,
+      "text": "one now let's go back and run a payment again paying only our high priority vendors first I'm going to select all my payments so that I can delete them and then regenerate"
+    },
+    {
+      "t": 174.8,
+      "end": 198,
+      "text": "them back under the suggest vendor payments I'm now going to select the option to use vendor priority I'm also going to type in that we want to pay 20,000 towards our vendor invoices for the month we will then choose to summarize per vendor or create one in one payment per"
+    },
+    {
+      "t": 198,
+      "end": 218.2,
+      "text": "vendor now you can see the system has reduced the number of payments to only our Priority One vendors through the use of vendor priority and suggest payments business Central has helped streamline pay your most strategic vendors and giving you better control of your cash flow"
+    }
+  ],
+  "markers": [],
+  "word_count": 543
+}

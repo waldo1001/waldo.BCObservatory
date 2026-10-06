@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-pay-vendors-by-using-electronic-payments",
   "published_at": "2025-06-03T18:06:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cefa1f362eed65c032e5982545b55539ba1a89aa",
       "words": 226,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:23:44.118Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002268
+    },
+    "summarized": {
+      "at": "2026-10-06T19:23:45.380Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:23:45.381Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:23:45.382Z",
+      "page": false
     }
   },
   "input_hash": "cefa1f362eed65c032e5982545b55539ba1a89aa",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cefa1f362eed65c032e5982545b55539ba1a89aa"
+  "output_hash": "4fc21a068ca62fd0312ac23523b7ce6550ae41e8c07887e615431b417825e03f"
 }
