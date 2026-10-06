@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/embed-app-qualifications-onboarding",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9fd7e728d18f939b3f09d032da5331d83d20126d",
       "words": 259,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:40:01.133Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005443
+    },
+    "summarized": {
+      "at": "2026-10-06T19:40:01.255Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:40:01.256Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:40:01.257Z",
+      "page": false
     }
   },
   "input_hash": "9fd7e728d18f939b3f09d032da5331d83d20126d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9fd7e728d18f939b3f09d032da5331d83d20126d"
+  "output_hash": "e796dceaf5ecb295438893770321f4985be503364bbe585f1518882b2f636bc8"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/cside/cside-compiling-objects",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e387926b990a20163a4957e31dffa7fd2eaeb347",
       "words": 323,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:41.313Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005214
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:41.334Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:41.335Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:41.336Z",
+      "page": false
     }
   },
   "input_hash": "e387926b990a20163a4957e31dffa7fd2eaeb347",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e387926b990a20163a4957e31dffa7fd2eaeb347"
+  "output_hash": "2fdcfb6a125c7b9b200071448589c05e78eb7ef23b071ec386071e350c37476d"
 }

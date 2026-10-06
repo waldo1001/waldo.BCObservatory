@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/deployment/provision-server-account.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/provision-server-account",
+  "title": "Provisioning the Dynamics 365 Business Central Server Service Account",
+  "blob": "e9dc47d40994d942f8155d4fbb84bf54964ea8dd",
+  "summary": "Provisioning the Business Central Server service account involves creating a domain user account with specific SQL Server roles and database privileges at server and database levels to enable proper authentication and access control.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "service account",
+    "provisioning",
+    "sql server",
+    "authentication",
+    "privileges"
+  ],
+  "objects": [],
+  "features": [
+    "domain user account",
+    "Network Service account",
+    "SPN registration",
+    "dbcreator role",
+    "db_datareader role",
+    "db_datawriter role",
+    "db_ddladmin role",
+    "change tracking permission"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005443,
+      "pages_in_call": 8
+    }
+  ]
+}

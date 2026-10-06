@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/plan-for-deployment",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2f090cdcd96f90dd83939a8ae506d5dd61418d42",
       "words": 473,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:40:01.137Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005443
+    },
+    "summarized": {
+      "at": "2026-10-06T19:40:01.265Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:40:01.267Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:40:01.269Z",
+      "page": false
     }
   },
   "input_hash": "2f090cdcd96f90dd83939a8ae506d5dd61418d42",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2f090cdcd96f90dd83939a8ae506d5dd61418d42"
+  "output_hash": "34ab08b1bdbd5a2776cea4c5e2f81137a472c598c8aad6fc27a011952482a559"
 }

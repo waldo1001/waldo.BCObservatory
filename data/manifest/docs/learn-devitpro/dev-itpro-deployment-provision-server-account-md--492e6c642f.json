@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/provision-server-account",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e9dc47d40994d942f8155d4fbb84bf54964ea8dd",
       "words": 2207,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:40:01.138Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005443
+    },
+    "summarized": {
+      "at": "2026-10-06T19:40:01.282Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:40:01.287Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:40:01.289Z",
+      "page": false
     }
   },
   "input_hash": "e9dc47d40994d942f8155d4fbb84bf54964ea8dd",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e9dc47d40994d942f8155d4fbb84bf54964ea8dd"
+  "output_hash": "8f27df4f5b8f48e6f054c0179af831f1b0bffca4b1ea093878becddbcca4be8b"
 }

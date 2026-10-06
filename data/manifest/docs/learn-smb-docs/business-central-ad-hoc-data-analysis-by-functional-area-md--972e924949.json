@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-data-analysis-by-functional-area",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "99ebd11bc2c3a1d3f3d07248fe740da6d6d2bc98",
       "words": 37,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:59.285Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003231
+    },
+    "summarized": {
+      "at": "2026-10-06T19:40:01.162Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:40:01.163Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:40:01.165Z",
+      "page": false
     }
   },
   "input_hash": "99ebd11bc2c3a1d3f3d07248fe740da6d6d2bc98",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "99ebd11bc2c3a1d3f3d07248fe740da6d6d2bc98"
+  "output_hash": "c77d4d7df9533a5953b10cd72a16135b70e786cd848b22a725b33806e98b88a9"
 }

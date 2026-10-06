@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/deployment/Merging-an-Application-Database-with-a-Tenant-Database.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/Merging-an-Application-Database-with-a-Tenant-Database",
+  "title": "Migrating to Single-Tenancy From Multitenancy",
+  "blob": "fa28b166a934ed1e561703c4b315c07a588061a1",
+  "summary": "Migrating from multitenant to single-tenant deployment involves merging application and tenant databases using PowerShell cmdlets to consolidate data, reconfigure server instances, and update client endpoints.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "migration",
+    "single-tenant",
+    "multitenant",
+    "database merge",
+    "powershell"
+  ],
+  "objects": [],
+  "features": [
+    "database merge",
+    "single-tenant deployment",
+    "application tables",
+    "server instance configuration",
+    "client endpoint configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005443,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/cside/cside-lock-unlock-objects",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f7dd0d8b7832ec76d1f527f4bb691437b9c20997",
       "words": 643,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:41.317Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005214
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:41.342Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:41.343Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:41.344Z",
+      "page": false
     }
   },
   "input_hash": "f7dd0d8b7832ec76d1f527f4bb691437b9c20997",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f7dd0d8b7832ec76d1f527f4bb691437b9c20997"
+  "output_hash": "5b357941e454e1cb7b11003e0cf13459cf22140bc60ddc207e8608cd3cc8f1c5"
 }

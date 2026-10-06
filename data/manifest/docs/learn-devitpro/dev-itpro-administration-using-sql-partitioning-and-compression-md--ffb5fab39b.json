@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/using-sql-partitioning-and-compression",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "82bbf38a299fba75c15fccb287365ef3427b0a66",
       "words": 1519,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:41.311Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005214
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:41.328Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:41.329Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:41.330Z",
+      "page": false
     }
   },
   "input_hash": "82bbf38a299fba75c15fccb287365ef3427b0a66",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "82bbf38a299fba75c15fccb287365ef3427b0a66"
+  "output_hash": "99909c9a2605a973877e9d64f4cf8955d6fe8c02fb3aba6421592f54c6f52a5d"
 }

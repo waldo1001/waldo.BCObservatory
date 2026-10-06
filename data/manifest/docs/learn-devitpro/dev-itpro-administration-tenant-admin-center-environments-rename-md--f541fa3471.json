@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-rename",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "989007ed865fd2e129352cc9a91f8bff7e41fe8b",
       "words": 820,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:41.309Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005214
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:41.318Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:41.319Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:41.320Z",
+      "page": false
     }
   },
   "input_hash": "989007ed865fd2e129352cc9a91f8bff7e41fe8b",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "989007ed865fd2e129352cc9a91f8bff7e41fe8b"
+  "output_hash": "47706f1b95c82a13a7a2e559bb1eded3b91e3759646e84eefeeec75025a7ea51"
 }

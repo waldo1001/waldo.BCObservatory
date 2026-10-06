@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/deployment/plan-for-deployment.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/plan-for-deployment",
+  "title": "Plan for Deployment",
+  "blob": "2f090cdcd96f90dd83939a8ae506d5dd61418d42",
+  "summary": "Planning Business Central deployment requires decisions on network topology, single-tenant versus multitenant architecture, user authentication method, service account configuration, and connection security.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "deployment planning",
+    "topology",
+    "architecture",
+    "authentication",
+    "security"
+  ],
+  "objects": [],
+  "features": [
+    "network topology",
+    "single-tenant deployment",
+    "multitenant deployment",
+    "user authentication",
+    "service account",
+    "SSL configuration",
+    "security certificates"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005443,
+      "pages_in_call": 8
+    }
+  ]
+}

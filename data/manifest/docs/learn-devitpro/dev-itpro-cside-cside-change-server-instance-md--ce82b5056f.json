@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/cside/cside-change-server-instance",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b2a52d8e02f5188b0f79e181531ba5861948c77f",
       "words": 207,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:41.312Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005214
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:41.331Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:41.332Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:41.333Z",
+      "page": false
     }
   },
   "input_hash": "b2a52d8e02f5188b0f79e181531ba5861948c77f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b2a52d8e02f5188b0f79e181531ba5861948c77f"
+  "output_hash": "57cd26261495d3995e35d962f75cccb5213bf958163a8eac752f83c0bcffae80"
 }

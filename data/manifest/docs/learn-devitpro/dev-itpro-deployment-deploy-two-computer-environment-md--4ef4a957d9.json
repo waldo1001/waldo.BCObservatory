@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/deploy-two-computer-environment",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "789f11a0502549b4d3cad548c5c7170d3517aab4",
       "words": 1176,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:40:01.129Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005443
+    },
+    "summarized": {
+      "at": "2026-10-06T19:40:01.142Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:40:01.151Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:40:01.153Z",
+      "page": false
     }
   },
   "input_hash": "789f11a0502549b4d3cad548c5c7170d3517aab4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "789f11a0502549b4d3cad548c5c7170d3517aab4"
+  "output_hash": "d287a47ae48ca976656984fb6d7f9d9556d6fb4ff800959b746240ecfb520542"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/Merging-an-Application-Database-with-a-Tenant-Database",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fa28b166a934ed1e561703c4b315c07a588061a1",
       "words": 797,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:40:01.134Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005443
+    },
+    "summarized": {
+      "at": "2026-10-06T19:40:01.259Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:40:01.260Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:40:01.261Z",
+      "page": false
     }
   },
   "input_hash": "fa28b166a934ed1e561703c4b315c07a588061a1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fa28b166a934ed1e561703c4b315c07a588061a1"
+  "output_hash": "64ed53236adae9c611241bf86329313021cccf35f0c07d770fa444bebb8951c9"
 }

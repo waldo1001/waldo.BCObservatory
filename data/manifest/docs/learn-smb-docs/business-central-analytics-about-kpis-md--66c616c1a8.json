@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/analytics-about-kpis",
   "published_at": "2025-05-02T07:40:20.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "aab86063064bb049ca88ca37e042d25a1dc4cf47",
       "words": 1102,
       "forms": 70
+    },
+    "extracted": {
+      "at": "2026-10-06T19:40:01.106Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003231
+    },
+    "summarized": {
+      "at": "2026-10-06T19:40:01.245Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:40:01.247Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:40:01.249Z",
+      "page": false
     }
   },
   "input_hash": "aab86063064bb049ca88ca37e042d25a1dc4cf47",
@@ -388,5 +407,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "aab86063064bb049ca88ca37e042d25a1dc4cf47"
+  "output_hash": "dba288a326a3e6247716737bfb62e98ec8456a118d34f0659c22f7f70472287b"
 }

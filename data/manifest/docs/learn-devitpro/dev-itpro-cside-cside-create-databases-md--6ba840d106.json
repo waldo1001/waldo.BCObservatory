@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/cside/cside-create-databases",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "eeb063a7aa7b05f34b46f50e9e1e453cc911b5fd",
       "words": 2220,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:41.314Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005214
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:41.337Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:41.338Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:41.339Z",
+      "page": false
     }
   },
   "input_hash": "eeb063a7aa7b05f34b46f50e9e1e453cc911b5fd",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eeb063a7aa7b05f34b46f50e9e1e453cc911b5fd"
+  "output_hash": "70cd08dffcdef5943fb417d933367c628417da6d6ef50137ce6567714e20c721"
 }

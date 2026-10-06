@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/deployment/devenv-create-databases.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/devenv-create-databases",
+  "title": "Creating and altering Business Central databases",
+  "blob": "826003d8b61db0b3cd22d0bb1d72a63250ec9236",
+  "summary": "Creating Business Central databases covers application and tenant database setup for single-tenant and multitenant deployments using PowerShell cmdlets, database configuration, and post-creation steps to publish extensions and add companies.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "database creation",
+    "deployment",
+    "multitenant",
+    "single-tenant",
+    "application database"
+  ],
+  "objects": [],
+  "features": [
+    "application database",
+    "tenant database",
+    "database collation",
+    "New-NAVApplicationDatabase cmdlet",
+    "Mount-NAVTenant cmdlet",
+    "Sync-NAVTenant cmdlet",
+    "extension publishing",
+    "permission sets"
+  ],
+  "versions": [
+    "2021 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005443,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "video_id": "tzeO0mc8RJo",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 16.6,
+      "end": 31.4,
+      "text": "hello and welcome to this launch session I'm Peter with me I have Stefan and Espen and we're going to talk about what's new in developer Tools in 2024 release way 1"
+    },
+    {
+      "t": 31.4,
+      "end": 51.6,
+      "text": "let's have a look at the session agenda to begin with Espen will talk about the ability to have object extensions in the same application as the base object and he will also talk about a small tool we call al2 with some helper functions uh that you can use in pipelines then stepan will talk"
+    },
+    {
+      "t": 51.6,
+      "end": 72,
+      "text": "about improvements to the a language uh including developer support for co-art functionality in the application and then I will take over talking about uh appsource preview uh appsource uh hot fix changes as well as the new inclined appsource gallery that that replaces"
+    },
+    {
+      "t": 72,
+      "end": 76.6,
+      "text": "the embedded appsource"
+    },
+    {
+      "t": 76.6,
+      "end": 97.5,
+      "text": "Marketplace so first let's hear Espen talk about the ability to have object extensions in the same app as the base objects thank you Peter my name is Espen as you probably know and I'm going to talking about and it's actually a a longtime requested feature that we have now finally implemented"
+    },
+    {
+      "t": 97.5,
+      "end": 108.6,
+      "text": "it's all about the ability to have extension objects in the same app as the base objects and you can have multiple extension objects in the same"
+    },
+    {
+      "t": 108.6,
+      "end": 125,
+      "text": "app this is an Ask we have had for many years and the idea behind it is that it will allow you to start do non-breaking refactoring within an app splitting objects into modules per"
+    },
+    {
+      "t": 125,
+      "end": 145.4,
+      "text": "functionality and also prepare for moving objects into separate apps later on it is enabling a better design and separation of concern within the app and as I said it has been a long time ask and you may want to know why didn't we do this"
+    },
+    {
+      "t": 145.4,
+      "end": 160.8,
+      "text": "before and one of the answer is the simple one is that we have been busy with all the functionality but actually there's a little more to it we would have liked to do this a long time ago but we had a big"
+    },
+    {
+      "t": 160.8,
+      "end": 180.9,
+      "text": "roadblock and it's all about how we from the beginning represented tables and table extensions in the SQL layer as you can see here if I have a base app and my app containing a base object which is my table and I created two EXT attention"
+    },
+    {
+      "t": 180.9,
+      "end": 193.2,
+      "text": "to that one and they will have to be previously in separate apps when they were deployed in the SQL Server we would end up having three tables which will all be joined"
+    },
+    {
+      "t": 193.2,
+      "end": 213.2,
+      "text": "together and that join is expensive and we were afraid to ship a feature that would allow you to shoot yourself in both feeds at the same time very efficiently uh and thereby kill performance so we didn't want to add it"
+    },
+    {
+      "t": 213.2,
+      "end": 234.1,
+      "text": "uh at that point then something new happened in the last release because we actually improved on the SQL layout of tables in general by having only one table for companion table which reduces the joints to one but in the last release we actually"
+    },
+    {
+      "t": 234.1,
+      "end": 254.4,
+      "text": "were focusing on this feature and could not add the feature that I'm presenting here to today because if you collapse all your your table and the extensions object into the same what we are now doing in that scenario is that we actually also collapse it at the SQL"
+    },
+    {
+      "t": 254.4,
+      "end": 274.7,
+      "text": "layer so one app with both a table and multiple table extensions will still only create one table in SQL layer which means that there are no joints and the trick we're doing here is that we are collapsing the metadata for for the table so we only generate one table in the server"
+    },
+    {
+      "t": 274.7,
+      "end": 294.8,
+      "text": "so there's no cost here of course if you then in another app add a um another table extension it will end up in the companion table and you will have a single joint so we have sort of been waiting for getting that idea and optimizing the um"
+    },
+    {
+      "t": 294.8,
+      "end": 315.1,
+      "text": "the the existing uh SQL implementation of table exensions so what do we support here because we have many extension objects and actually we support all of them so enums Pages reports permission sets and tables can have base and extension objects in the same"
+    },
+    {
+      "t": 315.1,
+      "end": 335.5,
+      "text": "app or you can have multiple extensions in the same and we support the combinations one table a table extensions one page two page extensions all the combinations it is enabled by default when targeting runtime 13 which is the current release"
+    },
+    {
+      "t": 335.5,
+      "end": 355.7,
+      "text": "so let's jump to a demo actually what I have here is a small app purely for demo purposes but I this is version two of the app and in version one I only had one table one page and one enum but I'm using appsource cup"
+    },
+    {
+      "t": 355.7,
+      "end": 375.8,
+      "text": "for this because we still want to make sure that you are not Crea creating braking Extensions by splitting it so we had to take care of that so if we look at the table here and if I comment out this field you can see here at the bottom I"
+    },
+    {
+      "t": 375.8,
+      "end": 394.5,
+      "text": "already get a nice message from Absol cot saying the field with name name and id2 was found in the previous version but it's not found in this version and here below I have a small table extension within the same"
+    },
+    {
+      "t": 394.5,
+      "end": 414.8,
+      "text": "app containing the name field so if I simply command that back in it actually fixes my error because now the surface of this app showing a table with a table extension with a field called primary key or PK and name"
+    },
+    {
+      "t": 414.8,
+      "end": 434.9,
+      "text": "now exist and I'm not breaking anyone Downstream the same example here with a page this case it's an action I can remove the action I immediately get told that it is missing but since I'm doing a small refactoring I can put it back in here"
+    },
+    {
+      "t": 434.9,
+      "end": 450.9,
+      "text": "in the page extension as you can see it works and we are actually already uptaking that ourself in this this is actually from our business Foundation app where we have the number series"
+    },
+    {
+      "t": 450.9,
+      "end": 471,
+      "text": "line and there's actually also a number serious line obsolete which is they have isolated the old obsolet field in the table extension and you can see there one is actually extending the other and all of that is shipping"
+    },
+    {
+      "t": 471,
+      "end": 483.8,
+      "text": "now so we are using this to refactor and improve our own Bas app this case business Foundation but we are going to use this as well"
+    },
+    {
+      "t": 483.8,
+      "end": 503.8,
+      "text": "so you ask for it now you got it next topic this a small tool it's called Al tool lack of imagination and it is shipping together with the V6 right next to your favorite compiler but don't get too excited"
+    },
+    {
+      "t": 503.8,
+      "end": 523,
+      "text": "because it's it is a small tool and right now it only have three different methods or argument you can call it with if we don't count the help and the version it can extract the med the package manifest from an app file simply getting out app."
+    },
+    {
+      "t": 523,
+      "end": 543.2,
+      "text": "Json um and it prints it to the console so you can pipe it in wherever you want and use it in a pipeline you can create a Syle package basically a package with only symbols from an existing app file and and you can get the latest supported Al runtime"
+    },
+    {
+      "t": 543.2,
+      "end": 561.4,
+      "text": "version from a platform version this is built to support our own pipelines and also BC container helpers we the reason why we needed this now is actually because we have removed the net"
+    },
+    {
+      "t": 561.4,
+      "end": 582.3,
+      "text": "4.8 from the binaries which made it hard to use in a um in Pipelines so we created this small tool and right now it has these three uh kinds of functionality we may add more in the future if we need it because now we have a good place to"
+    },
+    {
+      "t": 582.3,
+      "end": 598.1,
+      "text": "add small things like this um and yeah we you can use it we use it and you will have it in the BC container Helper but now you know so"
+    },
+    {
+      "t": 598.1,
+      "end": 618.4,
+      "text": "don't oh or think it it's just a small tune and Stefan will now present the next series of new functionality in the a language over to you Stefan thank you Espen and yes let's talk about the language and the changes we've made here let's start"
+    },
+    {
+      "t": 618.4,
+      "end": 638.6,
+      "text": "with tool tips on tables we now have the ability to add tool tips to tables and you can now reuse tool tips across all your pages if they are on the tables and if you have uh code actions enabled you can also use the new code action to move tool tips from pages into tables for isolated"
+    },
+    {
+      "t": 638.6,
+      "end": 659,
+      "text": "storage we add a support for secret text this means you can now use the secret text type to get and set values in isolated storage it's important to notice here that if you set a value using secret text then it must be retrieved using secret text otherwise you'll get an error for actions you can now add a specialized file upload"
+    },
+    {
+      "t": 659,
+      "end": 679.1,
+      "text": "action which enables you to quickly add functionality to upload one or more files and for multiple files the upload file dialogue now supports dropping an entire folder the trigger for this action uh specifies a new uh type called filed upload with this type you can"
+    },
+    {
+      "t": 679.1,
+      "end": 699.6,
+      "text": "get the file name and you can get the the stream for reading the file content with the work we've done here we've been working on reference types and lists for now it works with file upload and in and outst streams but it paves the way for future support of other"
+    },
+    {
+      "t": 699.6,
+      "end": 719.6,
+      "text": "types in version 23 we released the prompt dialog page type for Designing co-pilot experiences it has specific areas for creating prompts for the produced outcome and for tweaking with adding additional options it also includes system actions that you can Implement for attaching"
+    },
+    {
+      "t": 719.6,
+      "end": 738.6,
+      "text": "additional data to The Prompt for generating regenerating and controlling the co-pilot experience this gives you a recognizable co-pilot dialogue with all the options that you need but now we've added prompt guides to the action area of prompt"
+    },
+    {
+      "t": 738.6,
+      "end": 751.7,
+      "text": "dialogues in these actions you can specify scenarios that the user can use to be inspired to create uh new prompt values to get data from the system or just be inspired to try out new"
+    },
+    {
+      "t": 751.7,
+      "end": 771.8,
+      "text": "things for other Pages like lists we now have a prompting action area in this area you can Define new actions that are related to co-pilot experiences the first visible action in the prompting area will be shown on the page on top of all the content for quick access as with"
+    },
+    {
+      "t": 771.8,
+      "end": 791.8,
+      "text": "other action areas you can organize your actions in groups you can also find the list of co-pilots prompting ctions in the action bar and here you can also turn off the quick action overlay on pages you can also now use instructional text on fields this gives you the ability to hint at the user"
+    },
+    {
+      "t": 791.8,
+      "end": 806.8,
+      "text": "what data needs to be in the field if there's no value in it yet it is supported on text based Fields if you're working with external Services we now made it easier for you to work with"
+    },
+    {
+      "t": 806.8,
+      "end": 824.6,
+      "text": "cookies with the cookie type you can now set cookies on requests and read them from responses and you can even automatically use the response cookies for the lifetime of the HTP client instance this is very useful for connecting to services with cookie based"
+    },
+    {
+      "t": 824.6,
+      "end": 840.1,
+      "text": "sessions number sequence has been enhanced with a restart method and a range method the range method allows you now to get a whole range in a single database call enabling for much more performant bulk operations"
+    },
+    {
+      "t": 840.1,
+      "end": 860.2,
+      "text": "we've added new obsolete States pending move and moved and two new properties moved from and moved to this is part of our efforts to make refactoring between extensions easier you can find examples of this in the number series module it was moved from the base application to the business Foundation"
+    },
+    {
+      "t": 860.2,
+      "end": 881.7,
+      "text": "application moving is imported on tables and Fields And by using this we can remove the need for data copy in code using this method we do not consider it a breaking change and if the consumer already have the move table in scope then an uptake is not needed it will simply work"
+    },
+    {
+      "t": 881.7,
+      "end": 901.9,
+      "text": "seamlessly the functionality is currently limited to a select set of applications but we intend to open up for everyone to use this in the future we recognized a need for the app Json to contain comments so now you can change the language mode on your app Json file to Jason with comments and add"
+    },
+    {
+      "t": 901.9,
+      "end": 922,
+      "text": "your own notes I'll end here with an important update we have been upgrading the debugger in the vs code Al language extension this means we no longer can support debugging on Services running older versions of business Central if you need to debug an older version you must install"
+    },
+    {
+      "t": 922,
+      "end": 941.1,
+      "text": "an older version of the a language extension you can do this from vs code or from the PC images talking about debugging Peter you also have an important update yes thank you Stefan so another feature that Partners have been asking for for a long time has been the ability to debug this system"
+    },
+    {
+      "t": 941.1,
+      "end": 961.8,
+      "text": "application and so have you also missed that well now you finally can so just set break points uh in code and in in the system application code or steep into it and debug the system application uh note though that we are still respecting the non debuggable and the secure text"
+    },
+    {
+      "t": 961.8,
+      "end": 982.4,
+      "text": "uh that will limit debugging in protected areas of the system application so the major benefits uh of this is that when you are developing and troubleshooting your own applications that call into the system app you can now debug into the system uh app as well also if you and I hope you are"
+    },
+    {
+      "t": 982.4,
+      "end": 1002.9,
+      "text": "contributing um via open source uh to the system application you can now actually debug those contributions yourself uh in Cloud so that's sort of empowering your work there now the reason for not enabling this sooner uh has been that it required multiple platform features including the Recently"
+    },
+    {
+      "t": 1002.9,
+      "end": 1023,
+      "text": "Added secure text that Stefan just uh talked about uh if you want to know more about the secure text I mean you could see that but you could also uh uh watch the launch recording from the last release so let's switch gear to the first uh of a couple of appsource improvements and we'll start out with appsource"
+    },
+    {
+      "t": 1023,
+      "end": 1043.1,
+      "text": "preview so we now support the appsource preview State uh which all submitted apps automatically go to when passing validation so that means that as a publisher you can release uh your app directly uh you know to public uh visibility in the appsource marketplace"
+    },
+    {
+      "t": 1043.1,
+      "end": 1063.3,
+      "text": "as usual but now you can also keep it in preview and actually uh create and share a link to that preview app which you can uh either use yourself or you can send it to selected customers uh for instance for um allowing them to install it as maybe a fast hot fix uh"
+    },
+    {
+      "t": 1063.3,
+      "end": 1083.3,
+      "text": "validation or a limited go live among a few uh customers uh to to verify that everything works before you scale out I mean you can even use this to test yourself in a in a in your own uh production or sandbox environments in cloud and this allows you to ensure that your app is ready for"
+    },
+    {
+      "t": 1083.3,
+      "end": 1100.1,
+      "text": "prime time before releasing it to all of your customers now as I mentioned uh customers administrators you know Consultants behaving as delegated admins can install the preview versions and we support sandbox"
+    },
+    {
+      "t": 1100.1,
+      "end": 1120.2,
+      "text": "environments um I think I made a said production just before to test it out but we actually only support uh production uh for now uh also uh the preview support is uh something that we actually uh shipped in the 203 release or 20 2023 release wave uh 2"
+    },
+    {
+      "t": 1120.2,
+      "end": 1140.4,
+      "text": "uh minor um so we kind of you know backported it uh in that now to identify a preview version partner Center operates with a concepts of a a preview audience and a a height key which we actually call a preview"
+    },
+    {
+      "t": 1140.4,
+      "end": 1160.5,
+      "text": "key because that we think fits better with with the feature and you might actually also in a partner Center documentation or appsource documentation see uh the word flight key being used for this now in partner Center on your app in this case we have the Bing apps um sample in partner Center uh you can"
+    },
+    {
+      "t": 1160.5,
+      "end": 1180.6,
+      "text": "under the preview audience Define yourself a preview key but if you don't do that one will uh be generated by the system system right so that that's that's basically always going to be a a preview key but probably you want to have something that is humanly readable now then to allow customers to"
+    },
+    {
+      "t": 1180.6,
+      "end": 1201,
+      "text": "install or you know admins to install your preview version you then need to share a link with them uh and that link needs to contain the tenant ID for the customer environment the app ID and then the preview key and so you can see here an example uh I highlighted the"
+    },
+    {
+      "t": 1201,
+      "end": 1221.3,
+      "text": "the three parameters I just mentioned but um note that you can only install via this link today there is actually in the partner uh Center a link but you cannot use that to install at this point and you also cannot log into app Source Marketplace and install a preview version not until it becomes public now installing"
+    },
+    {
+      "t": 1221.3,
+      "end": 1239,
+      "text": "uh with this link is kind of business as usual except that in the install dialogue we will tell now user that this is a preview version that they are installing also if you're trying to install this in a production environment that will fail"
+    },
+    {
+      "t": 1239,
+      "end": 1259.4,
+      "text": "today so there's a couple of things uh that are good to know for appsource Publishers so first off um it's not possible to install a version of an app that is lower uh than the latest publicly uh available version of that app for business Central um so so if if you launch"
+    },
+    {
+      "t": 1259.4,
+      "end": 1280.1,
+      "text": "a preview or if you want to create a preview version you need to have a higher version than the last public version um also as I mentioned before if you want to use uh a preview you have to set a preview key uh as part of the marketplace submission process"
+    },
+    {
+      "t": 1280.1,
+      "end": 1292.2,
+      "text": "and you have to send it be set it before you submit you can't submit and then go in and add the preview key for the same version of the app and expect it to work have to do it as part of the submit uh"
+    },
+    {
+      "t": 1292.2,
+      "end": 1312.4,
+      "text": "process also we do support having simultaneously simultaneous previews uh with different versions and potentially different preview Keys uh that will be supported so you could uh basically you know send different links to different customers or maybe they're not sort of on the same Cadence with"
+    },
+    {
+      "t": 1312.4,
+      "end": 1331.8,
+      "text": "this but um partner Center itself will only show the the last submission right and if you at some point take one of those preview versions and move into public then that is the one that will be shown but the the links will still uh"
+    },
+    {
+      "t": 1331.8,
+      "end": 1351.9,
+      "text": "work um yeah then we understand that as part of the preview process and this is one of the the big benefits of the preview process also is that you probably want to react to the feedback that you are getting from your customers uh so you are actually allowed to make breaking changes between"
+    },
+    {
+      "t": 1351.9,
+      "end": 1372.3,
+      "text": "preview versions um and actually what happens is that we are always using Force sync when we are uh upgrading uh previews from one version uh to another that of course means that there could be data loss between previews but U they're right now supposed to run on sandboxes"
+    },
+    {
+      "t": 1372.3,
+      "end": 1392.6,
+      "text": "and for sort of testing out this functionality so that that ought to be okay of course your apps still need to when you go to public they need to be uh compliant with the sort of previous version and going forward as well then if you have a dependencies for your preview apps uh maybe even to uh to preview um"
+    },
+    {
+      "t": 1392.6,
+      "end": 1412.7,
+      "text": "libraries then you have to include those uh as required and also it's important to mention that the preview feature is really only for um you know creating these pre-releases and verifying that the quality is good enough they are not in intended for creating specific customer apps one"
+    },
+    {
+      "t": 1412.7,
+      "end": 1432.9,
+      "text": "of customer apps where you you know give a specific customer link and they have their own app or for a general sort of trial version that people can use so that's important to keep in mind also for administrators uh installing these apps um as I mentioned we only support sandboxes at this point"
+    },
+    {
+      "t": 1432.9,
+      "end": 1453.9,
+      "text": "so technically we actually also support production but we launch with sandbox only to manage risk and to get feedback and honestly I think also the core scenario is really for testing out and likely you want to test this out in a sandbox a customer would like to test out the new functionality in sandboxes to not incur any production"
+    },
+    {
+      "t": 1453.9,
+      "end": 1474.1,
+      "text": "disturbances this also implies that um sandbox uh sandbox environments that have a preview version installed they cannot be copied to or restored to production environments right and so if you want to do that you need to either replace that preview version with a later"
+    },
+    {
+      "t": 1474.1,
+      "end": 1494.3,
+      "text": "or newer public version or you have to uninstall the preview app right then uh preview versions uh can be updated to a higher uh preview version and to do that you use the uh link that I mentioned before or you can update them to a public version once that comes out right and you do that in the admin"
+    },
+    {
+      "t": 1494.3,
+      "end": 1514.9,
+      "text": "Center or you can even use the link there as well but without the the the preview key uh when uh your environment is updated uh your preview versions will be updated to any newer public version based on your preferences uh for major and minor objects basically just"
+    },
+    {
+      "t": 1514.9,
+      "end": 1535.2,
+      "text": "business as usual in this and then whenever operations are done on extensions we have Telemetry and in that Telemetry we actually now indicate whether the uh extension uh was a preview extension or not so we have extension availability and extension preview key"
+    },
+    {
+      "t": 1535.2,
+      "end": 1545.2,
+      "text": "provided dimensions in a couple of the Telemetry signals that allows you to go in and understand or monitor uh what has been"
+    },
+    {
+      "t": 1545.2,
+      "end": 1565.3,
+      "text": "installed if you want to know more about uh this uh functionality we have I put in here a link to the fact uh we also have docs in the administration for managing uh this there is a small video covering it and we also have the release note so now over to uh another feature uh appsource"
+    },
+    {
+      "t": 1565.3,
+      "end": 1585.6,
+      "text": "app hot fixes so in uh 2023 release wave 1 we added the ability to hot fix appsource apps that Target older versions of business Central that used to be a problem because we saw a lot of Partners not being able to adopt uh or release appsource apps for a new business center"
+    },
+    {
+      "t": 1585.6,
+      "end": 1606.1,
+      "text": "release because that will prohibit them from um from hot fixing existing customers but we sold that a couple of releases ago um and then to ensure that customers could actually be upgraded from that hot fix version to the latest um or next version available in appsource we validated the hotfix version"
+    },
+    {
+      "t": 1606.1,
+      "end": 1626.3,
+      "text": "against this next version but only the first version of that app targetting you know the next uh business Central minor minor minor minor release and we re received a lot of feedback uh from uh Partners on ideas that they would like to validate against the latest version"
+    },
+    {
+      "t": 1626.3,
+      "end": 1647.1,
+      "text": "instead and so um in 2023 release Wave 2 we sort of backported it to that H we changed the validation so that we now do validate against the latest appsource app version and that um has the benefit that it ensures compliance with the latest version"
+    },
+    {
+      "t": 1647.1,
+      "end": 1667.1,
+      "text": "of that app at the time of hot fix that previous version that also allows Partners to perform more changes uh in their hot fix version right so for example a common scenario is that Partners can Now backport features and include them in the hotfix version if there are no breaking changes to the latest version right they"
+    },
+    {
+      "t": 1667.1,
+      "end": 1687.6,
+      "text": "couldn't do that before because uh if they wanted to both add this to the latest version and to the hot fix and the validation of the hot fix was to the first version without that additional you know functionality we would say that the hot fix was introducing something not in the later version and that would break"
+    },
+    {
+      "t": 1687.6,
+      "end": 1704,
+      "text": "validation if you want to know more about this it sounds complicated maybe but uh I put in a link to uh to the docs on that let's talk about seeing and installing appsource apps directly inside of the business Central uh web"
+    },
+    {
+      "t": 1704,
+      "end": 1724.7,
+      "text": "client uh so in addition to the primary uh appsource Marketplace site online business Central has for many releases had an embedded appsource experience inside of the client and you could use that uh to browse um all of the apps uh available for business Central in a fairly rudimentary"
+    },
+    {
+      "t": 1724.7,
+      "end": 1745,
+      "text": "way and you could open up a card uh for that app read more about it see marketing material etc etc however uh this embedded appsource experience has been deprecated by the appsource team from uh basically now April 2024 and it's been replaced with um"
+    },
+    {
+      "t": 1745,
+      "end": 1765.1,
+      "text": "with apis that allows customer experiences for surfacing appsource app Marketplace content within the hosting application and given its widespread use uh in business Central by partners and customers to browse and install apps we have uh decided to replace the old"
+    },
+    {
+      "t": 1765.1,
+      "end": 1785.4,
+      "text": "embed experience with a new experience that we call uh Microsoft appsource apps and this is the experience uh in its first version uh so uh first and most importantly this list provides a much stronger uh capability to search and filter than before"
+    },
+    {
+      "t": 1785.4,
+      "end": 1805.4,
+      "text": "you I mean if you just saw that list just a few slides before I can show it here again this is not a great search experience right and but here you can search uh filter Etc and you can use it it in a way uh basically as a standard list page right view sort filter we also show both"
+    },
+    {
+      "t": 1805.4,
+      "end": 1825.8,
+      "text": "the name the publisher name the install State popularity rating number ratings and last modified date so you can actually filter down to this also uh we give you the ability to jump uh to the Online appsource Marketplace in a browser uh or even jumping uh to"
+    },
+    {
+      "t": 1825.8,
+      "end": 1844.2,
+      "text": "that specific app that you highlighted in the list in the Online appsource Marketplace and there Al there's also an edit user settings that allows you to switch uh your Regional language to influence what is being showed or filtered in this list to match uh those"
+    },
+    {
+      "t": 1844.2,
+      "end": 1864.2,
+      "text": "settings of course you can select uh one of the apps in this case uh we are looking at the Shopify connector and just as before we show a cart where you can see additional information and Link Etc we are not showing images at least not at this point though because that's a you know fairly heavy process to to get through the"
+    },
+    {
+      "t": 1864.2,
+      "end": 1884.3,
+      "text": "API and we want this to render as fast as possible you can still install from this card uh if the app is free or have a transact plan you of course still need to purchase on appsource and for other cases like contact me you need to go to appsource and install there for"
+    },
+    {
+      "t": 1884.3,
+      "end": 1901.6,
+      "text": "now let's uh have a small demo of this experience experience okay so here we are in the web client and so let's uh go and just uh search for uh our appsource page right so we have the Microsoft appsource apps"
+    },
+    {
+      "t": 1901.6,
+      "end": 1919.6,
+      "text": "page and it lists all of the apps and you can see that the list is quite extensive right we can scroll through uh we can of course filter uh let's see you know what apps are coming out of Microsoft for example if I can spell"
+    },
+    {
+      "t": 1919.6,
+      "end": 1939.9,
+      "text": "it so here we see all of the apps uh from Microsoft H you know we can scroll through them uh we can uh sort them by uh by last modified date maybe we probably want to have the descending one to see the newest on top of course we can sort it by name we saw before"
+    },
+    {
+      "t": 1939.9,
+      "end": 1960,
+      "text": "that we opened the Shopify connector so just as before we can uh read the uh details on this we can jump and show it uh in appsource if we want to see the full experience in there and there's another thing that you can do you know this can be a long list so want I"
+    },
+    {
+      "t": 1960,
+      "end": 1980.3,
+      "text": "take the advantage of the analysis mode and so uh inside of the analysis mode uh you can for example uh group all the apps uh by the publisher for instance here I fill it to Microsoft maybe that's not so interesting but if you have a lot of of different Publishers uh"
+    },
+    {
+      "t": 1980.3,
+      "end": 2000.5,
+      "text": "or you know rating or things like that you can actually uh group according to that and yes I showed uh how you can filter and slice extensions in the analysis mode H you can actually even uh you know use the uh the new co-pilot uh experience for the uh analysis mode to just in natural language"
+    },
+    {
+      "t": 2000.5,
+      "end": 2011.2,
+      "text": "uh ask it to help how you uh want to view um in the analysis mode your extensions maybe not the most advanced scenario but it is supported"
+    },
+    {
+      "t": 2011.2,
+      "end": 2031.2,
+      "text": "okay there's actually a little bit more here right a few things first of all um last year we launched the ability to sell your apps through appsource Marketplace and you can join me and Kurt to learn more about that we have a a session what's new selling your business Central apps using"
+    },
+    {
+      "t": 2031.2,
+      "end": 2051.4,
+      "text": "the Microsoft commercial Marketplace also we have a super exciting a new tool called page scripting that allows customers and Consultants to easily uh record and play user acceptance tests directly in the business Central web client driving higher"
+    },
+    {
+      "t": 2051.4,
+      "end": 2072.1,
+      "text": "test cost driving higher test coverage increase agility while reducing costs uh this is something that we release as a preview in 2024 release way 1 and you can uh join me in a session going deep into this uh the in preview use acceptance testing with the new page scripting"
+    },
+    {
+      "t": 2072.1,
+      "end": 2092.3,
+      "text": "tool and finally we have a lot of updated um documentation content for Developers for data analytics reporting word uh layouts in special error handling uh troubleshooting tools and guides uh you know acing processing Telemetry security extensibility"
+    },
+    {
+      "t": 2092.3,
+      "end": 2103.2,
+      "text": "and how you can help adding to the documentation and so Kenny will host a session just on this the what's new key updates in learning content for"
+    },
+    {
+      "t": 2103.2,
+      "end": 2120.9,
+      "text": "developers so as usual you have a a lot of different uh channels or resources where you can give us feedback or ask questions um you can submit ideas as well that's all for now thank"
+    },
+    {
+      "t": 2120.9,
+      "end": 2122,
+      "text": "you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.55,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.56,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 5252
+}

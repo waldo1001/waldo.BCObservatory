@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/deployment/deploy-two-computer-environment.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/deploy-two-computer-environment",
+  "title": "Installing Business Central in a Two Computer Environment",
+  "blob": "789f11a0502549b4d3cad548c5c7170d3517aab4",
+  "summary": "Two-computer deployment of Business Central separates SQL Server database components from web server and application server components on different machines, with pre-installation, installation, and post-installation configuration tasks.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "deployment",
+    "topology",
+    "network configuration",
+    "installation",
+    "iis"
+  ],
+  "objects": [],
+  "features": [
+    "Internet Information Services",
+    "client services port",
+    "SOAP web services",
+    "OData web services",
+    "SSL configuration",
+    "user authentication",
+    "delegation",
+    "web server instances"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005443,
+      "pages_in_call": 8
+    }
+  ]
+}

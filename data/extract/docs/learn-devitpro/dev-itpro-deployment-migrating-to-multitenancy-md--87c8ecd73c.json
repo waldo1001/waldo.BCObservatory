@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/deployment/Migrating-to-Multitenancy.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/Migrating-to-Multitenancy",
+  "title": "Migrating to multitenancy",
+  "blob": "663a635e4f92683e614ac90b60da4ce4afab230e",
+  "summary": "Migrating to multitenant architecture separates application tables into a dedicated database while keeping business data in separate tenant databases, enabling centralized application maintenance and isolated tenant management.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "migration",
+    "multitenant",
+    "deployment architecture",
+    "application database",
+    "tenant management"
+  ],
+  "objects": [],
+  "features": [
+    "application database",
+    "tenant databases",
+    "application-wide tables",
+    "centralized maintenance",
+    "permission sets",
+    "user groups"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005443,
+      "pages_in_call": 8
+    }
+  ]
+}

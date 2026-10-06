@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/cside/cside-import-objects",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "402fd271eb515846800dcfc2e105ca650711a8b1",
       "words": 584,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:41.315Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005214
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:41.340Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:41.340Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:41.341Z",
+      "page": false
     }
   },
   "input_hash": "402fd271eb515846800dcfc2e105ca650711a8b1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "402fd271eb515846800dcfc2e105ca650711a8b1"
+  "output_hash": "af8f1f899668024114c05066d748d4b2fe17bbbf129f0be9dd80caa0877afeea"
 }
