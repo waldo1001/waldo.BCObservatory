@@ -1,0 +1,34 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-enter-external-document-numbers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-enter-external-document-numbers",
+  "title": "Enter external document numbers",
+  "blob": "dd55cf1648c7d293e0ff2073f88e533e8dfb543f",
+  "summary": "Enter external document numbers from customers and vendors on sales and purchase orders, invoices, and credit memos to search for posted lines later. The system accepts but doesn't validate for uniqueness.",
+  "systems": [
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "external document numbers",
+    "sales orders",
+    "purchase documents",
+    "invoices",
+    "credit memos"
+  ],
+  "objects": [],
+  "features": [
+    "external document number entry",
+    "document search capability"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003554,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-to-create-workflows.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-create-workflows",
+  "title": "Create approval workflows to connect tasks",
+  "blob": "4e4acc1d6a14f07152dcfaa6cb0e3f06cb2dbe5a",
+  "summary": "Create approval workflows by defining workflow steps with events, conditions, and responses to automate business processes and connect tasks across different users.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "approval workflow",
+    "workflow events",
+    "workflow responses",
+    "business process automation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Workflow"
+    },
+    {
+      "type": "page",
+      "name": "Workflow Events"
+    },
+    {
+      "type": "page",
+      "name": "Event Conditions"
+    },
+    {
+      "type": "page",
+      "name": "Workflow Responses"
+    }
+  ],
+  "features": [
+    "Event Trigger Configuration",
+    "Condition Filtering",
+    "Approval Request",
+    "Notification",
+    "Journal Line Creation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004358,
+      "pages_in_call": 8
+    }
+  ]
+}

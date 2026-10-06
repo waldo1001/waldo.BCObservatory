@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-to-archive-documents.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
+  "title": "Archive sales, purchase, project, and service documents",
+  "blob": "1051a6a6ab62be08710f4d8dca6e340cd7281ceb",
+  "summary": "Archive and restore sales, purchase, project, and service documents to maintain document history and automate retention management using retention policies.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "projects"
+  ],
+  "topics": [
+    "document archiving",
+    "retention policy",
+    "document restoration",
+    "version control"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Archived Sales Orders"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    }
+  ],
+  "features": [
+    "Archive Documents",
+    "Restore Documents",
+    "Automatic Archiving",
+    "Retention Policy",
+    "Version Control"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004358,
+      "pages_in_call": 8
+    }
+  ]
+}

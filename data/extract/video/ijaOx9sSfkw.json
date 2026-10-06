@@ -1,0 +1,128 @@
+{
+  "video_id": "ijaOx9sSfkw",
+  "item_id": "video/yt-microsoft/ijaOx9sSfkw",
+  "title": "What's Cooking in Business Central: Wanna Filter on Totals in Analysis Mode?",
+  "duration_s": 83,
+  "systems": [
+    "reporting"
+  ],
+  "topics": [
+    "analysis mode",
+    "data analysis",
+    "filtering",
+    "totals",
+    "aggregated columns"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to the filtering trick",
+      "t_start": 0,
+      "t_end": 23.5
+    },
+    {
+      "title": "Demo setup - accounts receivable report",
+      "t_start": 23.5,
+      "t_end": 43.6
+    },
+    {
+      "title": "Filtering totals demo",
+      "t_start": 43.6,
+      "t_end": 64.4
+    },
+    {
+      "title": "Saving filtered analysis definition",
+      "t_start": 64.4,
+      "t_end": 83
+    }
+  ],
+  "features": [
+    {
+      "name": "Filter totals in Analysis Mode",
+      "description": "Ability to filter on aggregated or totaled columns in the data analysis feature, similar to filtering in normal reports. Users can apply conditions like 'greater than zero' to remove unwanted rows based on their summed amounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.3,
+      "t_end": 64.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "analysis mode",
+        "filtering",
+        "totals",
+        "data analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Save filtered analysis definition",
+      "description": "Users can save their filtered analysis setup, including the totals filters they have applied, as part of their data analysis definition for reuse.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 64.4,
+      "t_end": 83,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "analysis mode",
+        "data analysis",
+        "filtering",
+        "save"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.3,
+      "text": "you can use in the data analysis feature in business Central you probably already know that you can filter your Fields here",
+      "why_it_matters": "Establishes the context of the data analysis feature and introduces the filtering capability.",
+      "check": "exact"
+    },
+    {
+      "t": 23.5,
+      "text": "did you know that you can also filter your totals just like in normal reports in business Central",
+      "why_it_matters": "Highlights the key capability being demonstrated - filtering on totals, a feature parity with standard reports.",
+      "check": "exact"
+    },
+    {
+      "t": 43.6,
+      "text": "i want to remove all the zero amounts so what i do here is simply on the on this aggregated or totaled",
+      "why_it_matters": "Explains the use case and the practical application of filtering totals to clean up analysis views.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 64.4,
+      "text": "I can filter here and I can say greater than zero there you go and voila now you have filtered on totals",
+      "why_it_matters": "Demonstrates the actual filtering action and confirms successful application of the feature.",
+      "check": "exact"
+    },
+    {
+      "t": 64.4,
+      "text": "you can then save this as part of your data analysis definition",
+      "why_it_matters": "Shows that filtered analysis setups can be persisted for future use and reuse.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00864
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-setup-digital-vouchers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-setup-digital-vouchers",
+  "title": "Set up digital vouchers",
+  "blob": "6917b6e87173bf3e82dad8c47b9e0a2b688b81d9",
+  "summary": "Set up digital vouchers to require document attachments for specific transactions during posting, enabling source-driven auditing and compliance with regional financial regulations.",
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "digital vouchers",
+    "document attachment",
+    "audit trail",
+    "compliance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Digital Voucher Setup"
+    },
+    {
+      "type": "page",
+      "name": "Digital Voucher Entry Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Entries"
+    }
+  ],
+  "features": [
+    "Mandatory Attachment",
+    "Automatic Voucher Generation",
+    "Entry Type Enforcement",
+    "Source Code Configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004358,
+      "pages_in_call": 8
+    }
+  ]
+}

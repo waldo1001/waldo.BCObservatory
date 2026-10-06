@@ -1,0 +1,70 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service",
+  "title": "Field mapping for exporting bank payment files | Microsoft Docs",
+  "blob": "ce617eaa9ba2e4125c9fdd2b3367edb8472aa25c",
+  "summary": "Documents field mapping from Business Central to external bank payment files when exporting using AMC Banking 365 Fundamentals extension. Maps data from bank accounts, general journal lines, customers, and vendors.",
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "bank payments",
+    "data export",
+    "amc banking",
+    "field mapping",
+    "payment processing"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Bank Account"
+    },
+    {
+      "type": "table",
+      "name": "General Journal Line"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    },
+    {
+      "type": "table",
+      "name": "Customer Bank Account"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Bank Account"
+    },
+    {
+      "type": "table",
+      "name": "Customer Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Ledger Entry"
+    }
+  ],
+  "features": [
+    "payment file export",
+    "bank data conversion",
+    "IBAN mapping",
+    "SWIFT code mapping",
+    "AMC Banking 365 Fundamentals extension"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003554,
+      "pages_in_call": 8
+    }
+  ]
+}

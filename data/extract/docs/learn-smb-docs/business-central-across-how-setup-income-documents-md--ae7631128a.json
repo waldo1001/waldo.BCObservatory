@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-setup-income-documents.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-setup-income-documents",
+  "title": "Set Up incoming documents",
+  "blob": "a2bdd7f7fc46e5847ad1332f0a50c95fa8f811f9",
+  "summary": "Configure incoming documents functionality including journal template settings, approval workflows, and OCR service integration for processing external documents.",
+  "systems": [
+    "integration",
+    "administration",
+    "purchasing"
+  ],
+  "topics": [
+    "incoming documents",
+    "ocr",
+    "approval workflow",
+    "setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Incoming Documents Setup"
+    },
+    {
+      "type": "page",
+      "name": "Approval User Setup"
+    },
+    {
+      "type": "page",
+      "name": "OCR Service Setup"
+    }
+  ],
+  "features": [
+    "Incoming Documents Setup",
+    "Approval Workflow",
+    "OCR Service",
+    "Journal Template Configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004358,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-to-assign-base-calendars.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-assign-base-calendars",
+  "title": "Set up base calendars",
+  "blob": "9eb2717a5192b87949b0fdc98567a30b6ac0d38a",
+  "summary": "Set up base calendars for the company and business partners to control working and non-working days for date calculations in orders and production planning.",
+  "systems": [
+    "inventory",
+    "purchasing",
+    "manufacturing"
+  ],
+  "topics": [
+    "base calendar",
+    "working days",
+    "date calculation",
+    "lead time"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Base Calendar"
+    },
+    {
+      "type": "page",
+      "name": "Base Calendar Changes"
+    },
+    {
+      "type": "page",
+      "name": "Locations"
+    },
+    {
+      "type": "page",
+      "name": "Customized Calendar Entries"
+    }
+  ],
+  "features": [
+    "Base Calendar Setup",
+    "Recurring Non-Working Days",
+    "Customized Calendar",
+    "Lead Time Calculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004358,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-connect-disconnect-income-document-records.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-connect-disconnect-income-document-records",
+  "title": "Create incoming document records from docs",
+  "blob": "fbf2d9449e7c07f039a48d56735b9cd0ddb49a00",
+  "summary": "Create incoming document records from external documents and entries by attaching files to purchase invoices, vendor ledger entries, and posted documents. Supports connecting existing records or creating new ones with attachments.",
+  "systems": [
+    "purchasing",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "incoming documents",
+    "document attachment",
+    "purchase invoices",
+    "vendor entries",
+    "document linking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Posted Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Incoming Documents"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Entries"
+    }
+  ],
+  "features": [
+    "incoming document records",
+    "file attachment",
+    "document connection",
+    "posted document linking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003554,
+      "pages_in_call": 8
+    }
+  ]
+}

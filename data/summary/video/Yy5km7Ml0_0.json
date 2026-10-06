@@ -1,0 +1,28 @@
+{
+  "video_id": "Yy5km7Ml0_0",
+  "item_id": "video/yt-microsoft/Yy5km7Ml0_0",
+  "summary": "Business Central engineering systems at Microsoft: about 100 repositories, ~70 build pipelines, ~30 active branches, and roughly 40 million tests per day. Covers the Source Depot to Git migration, turn-based PR test selection, supply chain security, and advice for partners (AL-Go for GitHub, Azure DevOps).",
+  "overview": "Part 9 of the Under the Hood series describes how the Business Central Engineering Systems team builds, tests and releases the product. It covers build infrastructure and repositories, the move from Source Depot (based on Perforce) to Git, the branch and release strategy, and the scale of builds and automated testing, with up to 3,000 machines running daily.\n\nThe talk also covers security (permission baselines, sign-off rules, component governance, SBOMs, certificate rotation), the past use of Business Central as a UI for the internal build system, the Test Tolerance project, incremental builds in AL-Go for GitHub, developer environments (DevBox, virus scanner exclusions, a shared test tenant), and advice for partners on engineering systems.",
+  "key_points": [
+    "Scale: about 100 repositories, about 70 build pipelines, about 30 active branches, and up to 3,000 machines per day; every commit triggers builds across 30+ languages.",
+    "Testing runs about 40 million tests per day on average. One day, January 9, reached almost 80 million.",
+    "PR validation uses turn-based test selection. Code coverage data and file inputs of build tasks decide which tests run for the changed files.",
+    "Git migration from Source Depot needed history replay, special handling of binaries with symlinks, and bridges to view pre-Git history.",
+    "Security: a full-time employee must sign off all code, two people for release branches, permission changes are reviewed daily, and component governance generates SBOMs. Certificates are kept in key vaults and rotated automatically.",
+    "Test Tolerance uses heuristics to tell whether a failing test comes from the developer's change or from other instability. AL-Go for GitHub is getting incremental builds that rebuild only the modified project.",
+    "For partners: use an existing solution such as AL-Go for GitHub or Azure DevOps rather than building custom engineering systems. The internal application team is gradually migrating from Azure DevOps to AL-Go with GitHub, and the migration is still in progress."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "partner",
+    "decision maker"
+  ],
+  "extraction_hash": "78ac2a38c1717f436511183da0377abebff1eb8a4e8be61727b2b99813a2a390",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0275544
+  }
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7a2c426d387d01b6198c3033c2708fc50a09f0e7",
       "words": 270,
       "forms": 8
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:26.659Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003554
+    },
+    "summarized": {
+      "at": "2026-10-06T18:57:26.667Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:57:26.668Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:57:26.668Z",
+      "page": false
     }
   },
   "input_hash": "7a2c426d387d01b6198c3033c2708fc50a09f0e7",
@@ -86,5 +105,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7a2c426d387d01b6198c3033c2708fc50a09f0e7"
+  "output_hash": "906b1c3a075f0e99c9c3e8ae0d7bb808c6443e6ed4437dd41e107b8eab12614b"
 }

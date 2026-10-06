@@ -1,0 +1,87 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-flow-troubleshoot.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-flow-troubleshoot",
+  "title": "Troubleshoot your automated workflows",
+  "blob": "d514301e03e906af5a7f4d5c370f9fb1b1be26d8",
+  "summary": "Troubleshoot Power Automate automated workflows in Business Central, addressing issues like flow not triggering on all records, response size limits, and missing entity errors. Provides solutions and required web service publishing configuration.",
+  "systems": [
+    "integration",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "power automate",
+    "workflows",
+    "troubleshooting",
+    "flow errors",
+    "web services"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "WorkflowWebhookSubscription"
+    },
+    {
+      "type": "page",
+      "name": "workflowCustomers"
+    },
+    {
+      "type": "page",
+      "name": "workflowGenJournalBatches"
+    },
+    {
+      "type": "page",
+      "name": "workflowGenJournalLines"
+    },
+    {
+      "type": "page",
+      "name": "workflowItems"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Document Line Entity"
+    },
+    {
+      "type": "page",
+      "name": "workflowPurchaseDocuments"
+    },
+    {
+      "type": "page",
+      "name": "Sales Document Line Entity"
+    },
+    {
+      "type": "page",
+      "name": "workflowSalesDocuments"
+    },
+    {
+      "type": "page",
+      "name": "workflowVendors"
+    },
+    {
+      "type": "page",
+      "name": "workflowWebhookSubscriptions"
+    },
+    {
+      "type": "page",
+      "name": "Web Services"
+    }
+  ],
+  "features": [
+    "power automate integration",
+    "workflow automation",
+    "approval workflows",
+    "webhook notifications",
+    "web service publishing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003554,
+      "pages_in_call": 8
+    }
+  ]
+}

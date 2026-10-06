@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-archive-documents",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1051a6a6ab62be08710f4d8dca6e340cd7281ceb",
       "words": 661,
       "forms": 18
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:32.080Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.004358
+    },
+    "summarized": {
+      "at": "2026-10-06T18:57:33.892Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:57:33.893Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:57:33.894Z",
+      "page": false
     }
   },
   "input_hash": "1051a6a6ab62be08710f4d8dca6e340cd7281ceb",
@@ -126,5 +145,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1051a6a6ab62be08710f4d8dca6e340cd7281ceb"
+  "output_hash": "2aa01c53dc53ae59bf99c983929efcedc3c9d5d3d6d40d8a2ff728d7522cf657"
 }

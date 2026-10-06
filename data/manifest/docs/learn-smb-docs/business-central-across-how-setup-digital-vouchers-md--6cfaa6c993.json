@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-setup-digital-vouchers",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6917b6e87173bf3e82dad8c47b9e0a2b688b81d9",
       "words": 944,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:32.078Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.004358
+    },
+    "summarized": {
+      "at": "2026-10-06T18:57:33.887Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:57:33.887Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:57:33.888Z",
+      "page": false
     }
   },
   "input_hash": "6917b6e87173bf3e82dad8c47b9e0a2b688b81d9",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6917b6e87173bf3e82dad8c47b9e0a2b688b81d9"
+  "output_hash": "b3dfcb2faf50e3a1035863858299f42daf64af913bd675bc7c0bd13aa8f2ae49"
 }

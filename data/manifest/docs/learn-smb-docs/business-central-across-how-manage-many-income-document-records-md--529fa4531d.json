@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-manage-many-income-document-records",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "86f19324165b772ebd3a89cb3edb396464d8fc13",
       "words": 374,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:32.076Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004358
+    },
+    "summarized": {
+      "at": "2026-10-06T18:57:32.084Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:57:32.085Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:57:32.086Z",
+      "page": false
     }
   },
   "input_hash": "86f19324165b772ebd3a89cb3edb396464d8fc13",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "86f19324165b772ebd3a89cb3edb396464d8fc13"
+  "output_hash": "05d169968d2f59b602efa9bce046b7f4463e2cbd102513b6119c5d803b94c33d"
 }

@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-find-posted-documents-without-income-document-records.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-find-posted-documents-without-income-document-records",
+  "title": "Find posted documents without incoming documents",
+  "blob": "a7b61771e95ae81ac3c4e0fae229b37251b3737a",
+  "summary": "Find posted purchase and sales documents without incoming document records using the Chart of Accounts or General Ledger Entries pages, then link to existing incoming records or create new ones with attachments.",
+  "systems": [
+    "purchasing",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "posted documents",
+    "incoming documents",
+    "document search",
+    "general ledger",
+    "document linking"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Posted Documents without Incoming Document"
+    },
+    {
+      "type": "page",
+      "name": "Incoming Documents"
+    }
+  ],
+  "features": [
+    "document search",
+    "posting date filtering",
+    "document linking",
+    "batch connection"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003554,
+      "pages_in_call": 8
+    }
+  ]
+}

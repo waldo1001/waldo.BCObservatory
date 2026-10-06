@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-create-income-document-records.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-create-income-document-records",
+  "title": "Create incoming document records",
+  "blob": "ba9a3b0b7642fe6314ccf08b119b0f5022bbc849",
+  "summary": "Create incoming document records manually, from photos using tablet/phone clients, or from files to manage expense receipts and convert incoming documents to purchase invoices or journal lines. Includes approval workflow for document processing.",
+  "systems": [
+    "purchasing",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "incoming documents",
+    "ocr",
+    "document creation",
+    "photo capture",
+    "expense receipts"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Incoming Documents"
+    }
+  ],
+  "features": [
+    "manual record creation",
+    "camera photo capture",
+    "file attachment",
+    "OCR processing",
+    "approval workflow",
+    "document conversion"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003554,
+      "pages_in_call": 8
+    }
+  ]
+}

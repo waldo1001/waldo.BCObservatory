@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-how-manage-many-income-document-records.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-manage-many-income-document-records",
+  "title": "Define Which incoming docs to see",
+  "blob": "86f19324165b772ebd3a89cb3edb396464d8fc13",
+  "summary": "Manage incoming document records by marking processed documents to reduce the view clutter on the Incoming Documents page, and restore them when needed.",
+  "systems": [
+    "integration",
+    "purchasing"
+  ],
+  "topics": [
+    "incoming documents",
+    "document management",
+    "processing workflow"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Incoming Documents"
+    },
+    {
+      "type": "page",
+      "name": "Incoming Document Card"
+    }
+  ],
+  "features": [
+    "Mark as Processed",
+    "Show All",
+    "Set to Unprocessed",
+    "Manage Document View"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004358,
+      "pages_in_call": 8
+    }
+  ]
+}

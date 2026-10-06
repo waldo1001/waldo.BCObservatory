@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-find-posted-documents-without-income-document-records",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a7b61771e95ae81ac3c4e0fae229b37251b3737a",
       "words": 365,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:26.665Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.003554
+    },
+    "summarized": {
+      "at": "2026-10-06T18:57:32.115Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:57:33.881Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:57:33.883Z",
+      "page": false
     }
   },
   "input_hash": "a7b61771e95ae81ac3c4e0fae229b37251b3737a",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a7b61771e95ae81ac3c4e0fae229b37251b3737a"
+  "output_hash": "581697509b086fb15139b4467a8df90ede4d5c95ffc5615a24f7372948d07b81"
 }

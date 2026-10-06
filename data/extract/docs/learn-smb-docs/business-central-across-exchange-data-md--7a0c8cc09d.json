@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-exchange-data.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-exchange-data",
+  "title": "Exchanging data",
+  "blob": "b183a0c662adce14f9776a652199e5e417a3be49",
+  "summary": "Exchange data between Business Central and external files for business tasks like sending electronic documents and importing/exporting bank files. Requires setup of the data exchange framework and related areas before processing.",
+  "systems": [
+    "integration",
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "data exchange",
+    "electronic documents",
+    "bank files",
+    "ocr",
+    "sepa"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journal"
+    },
+    {
+      "type": "page",
+      "name": "Bank Acc. Reconciliation"
+    },
+    {
+      "type": "page",
+      "name": "Payment Journal"
+    },
+    {
+      "type": "page",
+      "name": "Currencies"
+    }
+  ],
+  "features": [
+    "electronic document exchange",
+    "OCR processing",
+    "bank file import/export",
+    "SEPA credit transfer",
+    "SEPA direct debit",
+    "currency exchange rates",
+    "Intrastat reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003554,
+      "pages_in_call": 8
+    }
+  ]
+}

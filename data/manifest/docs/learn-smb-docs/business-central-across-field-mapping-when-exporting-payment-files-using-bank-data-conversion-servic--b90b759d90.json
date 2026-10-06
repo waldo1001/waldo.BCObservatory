@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ce617eaa9ba2e4125c9fdd2b3367edb8472aa25c",
       "words": 911,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:26.662Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.003554
+    },
+    "summarized": {
+      "at": "2026-10-06T18:57:32.096Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:57:32.097Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:57:32.098Z",
+      "page": false
     }
   },
   "input_hash": "ce617eaa9ba2e4125c9fdd2b3367edb8472aa25c",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ce617eaa9ba2e4125c9fdd2b3367edb8472aa25c"
+  "output_hash": "288f6926905a99daea235bfabca227388cab2243bc07e2b10743052ec9cbab2b"
 }

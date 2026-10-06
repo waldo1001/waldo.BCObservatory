@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-assign-base-calendars",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9eb2717a5192b87949b0fdc98567a30b6ac0d38a",
       "words": 1252,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T18:57:32.081Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.004358
+    },
+    "summarized": {
+      "at": "2026-10-06T18:57:33.896Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:57:33.897Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:57:33.897Z",
+      "page": false
     }
   },
   "input_hash": "9eb2717a5192b87949b0fdc98567a30b6ac0d38a",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9eb2717a5192b87949b0fdc98567a30b6ac0d38a"
+  "output_hash": "0dedfc9cf7811e220fdabb4055e6d04bd4d6a53a7342494f7c0f29fef50154f6"
 }

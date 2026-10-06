@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-edit-posted-document.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-edit-posted-document",
+  "title": "Edit posted sales and purchase documents",
+  "blob": "7a2c426d387d01b6198c3033c2708fc50a09f0e7",
+  "summary": "Edit posted sales and purchase documents to update fields like package tracking numbers and payment references. Functionality covers Posted Sales Shipments, Posted Purchase Invoices, Posted Return Shipments, and Posted Return Receipts across supported markets, with additional document types in specific regions.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "integration"
+  ],
+  "topics": [
+    "document editing",
+    "posted documents",
+    "sales shipments",
+    "purchase invoices",
+    "tracking numbers"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Posted Sales Shipment - Update"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Shipments"
+    },
+    {
+      "type": "page",
+      "name": "Posted Purchase Invoices"
+    }
+  ],
+  "features": [
+    "edit posted documents",
+    "package tracking updates",
+    "payment reference updates",
+    "multi-market support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003554,
+      "pages_in_call": 8
+    }
+  ]
+}
