@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/gerardorenteria-blog/14231",
+  "url": "https://gerardorenteria.blog/2026/03/13/%e2%9a%a1-compacting-conversation-small-message-big-impact-on-your-session-%f0%9f%94%84/",
+  "title": "⚡ “Compacting conversation…” small message, big impact on your session 🔄",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-03-13T16:54:22.000Z",
+  "words": 706,
+  "summary": "VSCode automatically compacts agent conversation history when the context window approaches its limit to maintain session continuity. You can manually control compaction with the /compact command or start a fresh session, balancing between preserving context and maintaining response quality.",
+  "key_points": [
+    "Context windows are finite and fill up faster with agentic tool usage than simple chat",
+    "VSCode compacts conversation automatically when limits are reached, or you can trigger it manually with /compact",
+    "Manual /compact with instructions lets you guide what information gets prioritized in the summary",
+    "Quality may decline as context limit nears; alternatives include manual compaction or starting a new session"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "agent sessions",
+    "context management",
+    "vscode",
+    "prompt engineering",
+    "agentic tools"
+  ],
+  "objects": [],
+  "features": [
+    "automatic context compaction",
+    "manual /compact command",
+    "context window indicator",
+    "session continuity",
+    "model-dependent window sizing"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Quality may decline as limit nears",
+      "why_it_matters": "Warns users that context compaction causes quality degradation, making it important to manage proactively"
+    },
+    {
+      "text": "The context window is finite. As your session grows with messages, tool results, and instructions, the available space fills up.",
+      "why_it_matters": "Explains the fundamental constraint driving automatic compaction behavior in agent sessions"
+    },
+    {
+      "text": "Manual control exists: /compact with optional instructions, so you guide what gets prioritized.",
+      "why_it_matters": "Shows users can control compaction strategy rather than relying on automatic behavior alone"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

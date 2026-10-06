@@ -1,0 +1,89 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2724",
+  "url": "https://aardvarklabs.blog/2026/03/13/exploring-model-context-protocol-mcp-for-business-automation-in-business-central/",
+  "title": "Exploring Model Context Protocol (MCP) for Business Automation in Business Central",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-03-13T12:00:00.000Z",
+  "words": 1113,
+  "summary": "Model Context Protocol (MCP) servers enable AI agents to interact with Business Central data and perform actions like querying, creating, and modifying records. The post explains MCP concepts, demonstrates setting up an MCP server for the sales quote process, configuring it in Copilot Studio, and highlights security considerations such as limiting data exposure through custom APIs.",
+  "key_points": [
+    "MCP is the evolution of Common Data Model that standardizes actions, data, and reasoning surfaces for AI agents to communicate with business systems",
+    "MCP servers require a defined goal and scope with configurable access controls for read, create, modify, delete, and bound actions on specific objects",
+    "Agents can be created in Copilot Studio using MCP servers as tools, enabling conversational interaction to perform tasks like creating sales quotes",
+    "Security is critical - exposing APIs through MCP makes them available to external sources, so custom APIs should be created to limit sensitive data exposure",
+    "MCP server configuration shows visible agent task logs that reveal how the agent discovers and uses available operations and schemas"
+  ],
+  "systems": [
+    "copilot",
+    "integration",
+    "sales"
+  ],
+  "topics": [
+    "mcp server",
+    "ai agents",
+    "copilot studio",
+    "data integration",
+    "security",
+    "api configuration",
+    "business automation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Model Context Protocol (MCP) Server Configuration"
+    },
+    {
+      "type": "api",
+      "name": "Business Central 2.0 API"
+    },
+    {
+      "type": "table",
+      "name": "Items"
+    },
+    {
+      "type": "table",
+      "name": "Customers"
+    },
+    {
+      "type": "table",
+      "name": "Sales Quotes"
+    },
+    {
+      "type": "table",
+      "name": "Sales Quote Lines"
+    }
+  ],
+  "features": [
+    "Model Context Protocol server",
+    "MCP server configuration",
+    "Copilot Studio integration",
+    "Custom API creation",
+    "Agent task logging",
+    "Bound actions",
+    "Data access controls"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "MCP standardizes actions, data, and reasoning surfaces for agents.",
+      "why_it_matters": "Explains how MCP extends beyond CDM to enable AI agents to interact with business systems in a standardized way"
+    },
+    {
+      "text": "If you expose it to the MCP server it is available to the world!",
+      "why_it_matters": "Highlights the critical security implication that exposed APIs become accessible externally, requiring careful configuration"
+    },
+    {
+      "text": "By creating a purpose build API we can choose the field and functions available and limit the risk of unintended data exposure.",
+      "why_it_matters": "Provides the security solution of using custom APIs instead of standard APIs to control what data agents can access"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "item_id": "blog/thinkaboutit-be/7660",
+  "url": "https://thinkaboutit.be/2026/03/where-github-copilot-actually-saves-time-in-al-projects/",
+  "title": "Where GitHub Copilot Actually Saves Time in AL Projects",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-03-12T10:15:21.000Z",
+  "words": 2134,
+  "summary": "GitHub Copilot saves time in AL development through deliberate use of Chat, Agent, Ask, and Edit modes for specific tasks. Agent mode generates boilerplate and test scaffolding efficiently, Chat mode helps explore unfamiliar APIs, Ask mode explains existing code, and Edit mode refactors with precision, though all generated code requires developer review before acceptance.",
+  "key_points": [
+    "Agent mode efficiently generates AL boilerplate code and test scaffolding when given clear intent descriptions",
+    "Chat mode provides quick working examples for exploring unfamiliar APIs like HttpClient and JSON handling",
+    "Ask mode helps developers understand existing code by identifying responsibilities, table interactions, and design characteristics",
+    "Edit mode enables precise, reviewable refactoring by extracting logic into separate procedures",
+    "Generated code is structurally correct but occasionally contains syntax errors requiring developer verification before acceptance"
+  ],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "github copilot",
+    "al development",
+    "code generation",
+    "productivity",
+    "vs code",
+    "testing"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Sales Posting Helper"
+    },
+    {
+      "type": "codeunit",
+      "name": "Rest Api Helper"
+    },
+    {
+      "type": "codeunit",
+      "name": "Sales Posting Helper Test"
+    }
+  ],
+  "features": [
+    "Copilot Agent mode for code generation",
+    "Copilot Chat mode for API exploration",
+    "Copilot Ask mode for code explanation",
+    "Copilot Edit mode for refactoring",
+    "HttpClient for REST API calls",
+    "Test scaffolding generation",
+    "AL test libraries"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The key is using the right mode for the right task.",
+      "why_it_matters": "Copilot productivity depends on matching its mode to the specific development task, not treating it as a generic autocomplete tool"
+    },
+    {
+      "text": "The quality of what Agent produces is directly proportional to the clarity of the intent you give it.",
+      "why_it_matters": "Clear problem definition before requesting code generation is essential for obtaining production-ready output"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
+}

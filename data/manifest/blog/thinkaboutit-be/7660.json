@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/03/where-github-copilot-actually-saves-time-in-al-projects/",
   "published_at": "2026-03-12T10:15:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T23:41:45.314Z",
+      "path": "vault:posts/thinkaboutit-be/7660.md",
+      "words": 2134
+    },
+    "extracted": {
+      "at": "2026-10-06T23:41:45.330Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": null
+    },
+    "summarized": {
+      "at": "2026-10-06T23:41:45.331Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T23:41:49.027Z"
+    },
+    "published": {
+      "at": "2026-10-06T23:41:49.032Z",
+      "path": "content/posts/thinkaboutit-be/7660.md"
     }
   },
   "input_hash": "2026-03-12T10:15:21.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "94128fe024f36e5332c4f985b5e3dfd2e56dfa6ed48280cdcfb81078dbef566c"
 }
