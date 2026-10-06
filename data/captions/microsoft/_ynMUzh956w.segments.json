@@ -1,0 +1,648 @@
+{
+  "video_id": "_ynMUzh956w",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 17.4,
+      "end": 30.3,
+      "text": "Hello and welcome to our Business Central Launch Event for uh 2024 release wave one. Uh we will talk about new brand new feature sustainability inside the Business Central."
+    },
+    {
+      "t": 30.3,
+      "end": 40.4,
+      "text": "And before we start, let's first introduce ourselves. So, my colleague Yes. Hello, my name is Volodymyr Synchuk and I work as software engineer."
+    },
+    {
+      "t": 40.4,
+      "end": 52.2,
+      "text": "I worked on this sustainability project. Yeah, thank you, Volodymyr. And my name is Aleksandar Totovic. I'm product manager responsible for this functionality. Let's shortly explain what is our agenda for today."
+    },
+    {
+      "t": 52.2,
+      "end": 67.4,
+      "text": "Uh first, we will explain why we started with this feature at all, then our strategy and architecture about it. After that, I will show some basic foundational part and then Volodymyr will continue with full end-to-end demo."
+    },
+    {
+      "t": 67.4,
+      "end": 78.8,
+      "text": "Okay. Um Why we started with this feature? Why we need this feature at all? And before I start, I want to uh start with sustainability drivers."
+    },
+    {
+      "t": 78.8,
+      "end": 88.8,
+      "text": "Okay, first of all, um we want to be as greener as possible. And probably all of us we want to leave better planet for our children."
+    },
+    {
+      "t": 88.8,
+      "end": 100.8,
+      "text": "But there are other business drivers for going in into sustainability um except only the social. So, let's start with first."
+    },
+    {
+      "t": 100.8,
+      "end": 113.8,
+      "text": "Very often, we have customers who want to to work only with if not totally green, but as greener as possible companies. Then further, we have very often investors"
+    },
+    {
+      "t": 113.8,
+      "end": 130.2,
+      "text": "and they are thinking very often that they do not want to invest for a future if company is not sustainable and enough. Then very often now we have new generation and employees can choose company if based on their sustainability investment,"
+    },
+    {
+      "t": 130.2,
+      "end": 141.9,
+      "text": "not only on our profits. And the last, but not the least, are regular regulations. And now when we talk about regulation, we can split these four pillars or four drivers."
+    },
+    {
+      "t": 141.9,
+      "end": 153.7,
+      "text": "First three, they are, let's say, voluntary. Um if we have this kind of customers, investors, employees, we need to take take care about that. But if not, yes, we can still"
+    },
+    {
+      "t": 153.7,
+      "end": 164.6,
+      "text": "uh wait few years to start to be more sustainable. But on the other side, if I have regulation and regulation are enforcing us to be more sustainable and to report it, this is not the question."
+    },
+    {
+      "t": 164.6,
+      "end": 179.6,
+      "text": "We must go there. So, let's look what we have about regulations across the world. I will not explain everything. I cannot go in into every country, but just the most uh regulation we are most familiar with."
+    },
+    {
+      "t": 179.6,
+      "end": 192.6,
+      "text": "First, I will start with European Union and in European Union we have now CSRD Act. Uh if we start for 2024, it is starting with 2024 reporting in this year for the biggest companies."
+    },
+    {
+      "t": 192.6,
+      "end": 203.8,
+      "text": "Then we have we still don't have we will have because date is still not published in UK. Something similar we have in US and Canada."
+    },
+    {
+      "t": 203.8,
+      "end": 216.8,
+      "text": "Dates are still not actually for Canada we have date, but in the United States this is still not published when it will start, but very often companies, especially bigger companies, thinking on investors, they are starting to record emissions."
+    },
+    {
+      "t": 216.8,
+      "end": 229.3,
+      "text": "Then further, we have India. Uh we have in Australia, New Zealand and I said I don't want to limit only on these few countries, so there are much more regulations across the world."
+    },
+    {
+      "t": 229.3,
+      "end": 247.8,
+      "text": "And some of these countries are countries where Microsoft has official localization, Microsoft based localization. In some others, we have partner based localization. But we wanted to make something already enough for even for partner based localization, so they can continue easily to build their own localization on top of that."
+    },
+    {
+      "t": 247.8,
+      "end": 259.4,
+      "text": "Now, um let's focus what is, let's say, the primary focus for Microsoft because the most of Microsoft localizations are in the European Union."
+    },
+    {
+      "t": 259.4,
+      "end": 274,
+      "text": "And now I will briefly focus on what is the most important for these countries to comply as there is a new regulation behind the door. Um we have already mentioned CSRD new act."
+    },
+    {
+      "t": 274,
+      "end": 288.9,
+      "text": "Uh this is related with European um requirements for for the most of companies. Uh this is non-financial public disclosure and this is connected with ESG or environmental, social and governance."
+    },
+    {
+      "t": 288.9,
+      "end": 299.5,
+      "text": "So, uh which companies will be affected? Right now, with current situation, that means before new enforcement, approximately 11,700"
+    },
+    {
+      "t": 299.5,
+      "end": 313,
+      "text": "companies, a little bit more than that, are affected with this regulation. But with new regulation starting from the next year, more than 50,000 companies in across the European Union will be affected with CSRD rules."
+    },
+    {
+      "t": 313,
+      "end": 324.7,
+      "text": "So, this is really important because there are huge number of Business Central customers and they will need uh to report uh sustainability for CSRD."
+    },
+    {
+      "t": 324.7,
+      "end": 339.2,
+      "text": "Now, before I continue, I just want to explain shortly difference between sustainability functionality embedded inside the Business Central. This is for SMBs. And on the other side, Microsoft Cloud for sustainability or sustainability manager."
+    },
+    {
+      "t": 339.2,
+      "end": 350.5,
+      "text": "Um What is the main difference? Microsoft Cloud for sustainability or sustainability manager is intended for bigger enterprises. This is great uh solution, a really great, amazing one."
+    },
+    {
+      "t": 350.5,
+      "end": 360.6,
+      "text": "But on the other side, let's say, 80% of our customers are in SMB, small and mid-size size. And for them, it will be too complicated"
+    },
+    {
+      "t": 360.6,
+      "end": 374.9,
+      "text": "to work in a different environment, very often different environment, um too complex to track all these things. So, we decided to build something relatively easy for tracking in a well-known user interface, that means inside the Business Central."
+    },
+    {
+      "t": 374.9,
+      "end": 385.3,
+      "text": "And it will be uh it will be it is planned for SMBs. Now, um let's look in a time frame and companies in the scope."
+    },
+    {
+      "t": 385.3,
+      "end": 396.7,
+      "text": "Uh first, um some information about CSRD existed before this year. And they started to track this earlier. This is not something we started to track this year."
+    },
+    {
+      "t": 396.7,
+      "end": 408.6,
+      "text": "And um why we decided to deliver now? Because all these changes are starting with this year. Um you can see for 2025th,"
+    },
+    {
+      "t": 408.6,
+      "end": 421.1,
+      "text": "but this is for reporting, but it will be applicable for this year. This is for the biggest companies listed on um uh listed on stock markets. So, we can still say this is definitely this is not our focus."
+    },
+    {
+      "t": 421.1,
+      "end": 434.6,
+      "text": "Business Central is not a solution for this size of companies. But what is our focus? Main focus is something what is coming in 2027 for reporting, but that means we must tracking for 2026."
+    },
+    {
+      "t": 434.6,
+      "end": 445.4,
+      "text": "And in the in the middle you will see 2026 for reporting, but that means you need to start to track this uh information from next year."
+    },
+    {
+      "t": 445.4,
+      "end": 459.7,
+      "text": "What is about? This is for, let's say, a little bit bigger, larger companies with more than 250 employees. So, um this is still not maybe our main focus, but we have a lot of companies there in this segment."
+    },
+    {
+      "t": 459.7,
+      "end": 469.7,
+      "text": "So, we wanted to deliver some minimum viable product until then. So, these bigger companies who are using Business Central, they can start track their"
+    },
+    {
+      "t": 469.7,
+      "end": 485.2,
+      "text": "uh sustainable uh emissions and to track them and to record them. But our main focus is to deliver in next four waves what is really mandatory to have for our um especially smaller companies with more than 10 employees."
+    },
+    {
+      "t": 485.2,
+      "end": 497.1,
+      "text": "So, you can see if this is more than 10 employees, uh the most of our customers will be affected um with this regulation. So, they must track their changes from 2026,"
+    },
+    {
+      "t": 497.1,
+      "end": 510.3,
+      "text": "beginning of 2026. Now, when we talk about Business Central sustainability, let's see what we can track and what we can track. Actually, how far uh sustainability journey can go."
+    },
+    {
+      "t": 510.3,
+      "end": 521.5,
+      "text": "In total sustainability journal, we will start with recording, reporting, but reducing, removing, and replacing. This is full sustainability journal uh journal journey."
+    },
+    {
+      "t": 521.5,
+      "end": 535.8,
+      "text": "But um Business Central cannot deliver everything. So, we are focused in our first waves to record and report. It doesn't mean maybe we will not extend in some moment to maybe to even reducing with some ideas,"
+    },
+    {
+      "t": 535.8,
+      "end": 552.8,
+      "text": "with some recommendations, maybe. But now we are focused on recording reporting. Now, let's look in our strategy and architecture. Uh before we go technically, I want to explain our strategy scope for this first wave."
+    },
+    {
+      "t": 552.8,
+      "end": 566.4,
+      "text": "In this first wave, uh we will focus on greenhouse gas emissions and we will support three emissions with the biggest impact. Carbon footprint, uh but also methane and nitrogen dioxide."
+    },
+    {
+      "t": 566.4,
+      "end": 580.4,
+      "text": "Uh we will Okay, we will not be limited only to them. This is what we have right now in this scope. It can be extendable by you as a partners. It can be extendable potentially in the future by ourself, but this is what we are supporting right now."
+    },
+    {
+      "t": 580.4,
+      "end": 591,
+      "text": "But when we talk about scopes in greenhouse gas emissions, there are three scopes. And first scope is actually um what company reporting."
+    },
+    {
+      "t": 591,
+      "end": 601.2,
+      "text": "This is about internal company transport, some company pollution and so on in company uh facilities."
+    },
+    {
+      "t": 601.2,
+      "end": 615.6,
+      "text": "Then we have scope two and scope two is indirect. So, comparing with previous one who is direct, this time this is indirect scope and it comes from upstream and this is mostly connected with power plants, streams,"
+    },
+    {
+      "t": 615.6,
+      "end": 628,
+      "text": "some similar voices you will get from your vendors. But then there is the biggest scope, scope three, indirect scope three and this is reserved for upstream and downstream activities."
+    },
+    {
+      "t": 628,
+      "end": 639.2,
+      "text": "You will see there is purchase goods, sell good, transport, business travels, many, many different types of sustainability topics you need to track."
+    },
+    {
+      "t": 639.2,
+      "end": 651.2,
+      "text": "Now, let's look in a process flow. Um as I said, this functionality is multi-wave investment. That means we didn't finish that we didn't make everything in this wave."
+    },
+    {
+      "t": 651.2,
+      "end": 661.7,
+      "text": "This is multi-wave investment and the idea is to have minimum of value product before we start the following year. So, this minimum value product will be finished with the next wave."
+    },
+    {
+      "t": 661.7,
+      "end": 674.8,
+      "text": "So, let's see what we have in this release. In this release we deliver foundational part for sustainability, so everything will go much easier further because this is the most important. If you do not have proper foundation, we cannot continue"
+    },
+    {
+      "t": 674.8,
+      "end": 684.9,
+      "text": "uh with further development. First, what we have for tracking data, we have sustainability journal and we have both of types. We have recurring"
+    },
+    {
+      "t": 684.9,
+      "end": 699.6,
+      "text": "journal and we have journal, so if you uh have recurring um emissions, you can easily use recurring journal. Of course, there are journal batch, journal template, everything based on a standard we are using for other journals inside the Business Central."
+    },
+    {
+      "t": 699.6,
+      "end": 709.8,
+      "text": "Then uh we have some um some category, sub category, but connected with a chart of sustainability account. You can see the name."
+    },
+    {
+      "t": 709.8,
+      "end": 722.7,
+      "text": "This is still chart of account, but we just added chart of sustainability account. The same structure, but just different things. We don't measure um some financial impact, but we measure our emission impact."
+    },
+    {
+      "t": 722.7,
+      "end": 739.8,
+      "text": "Um we have these connected categories and subcategories. I will explain a little bit more later um for which they are intended and we have different calculation to calculate calculations and formulas, so we can easily calculate our emission if you do not know exactly amount of emission."
+    },
+    {
+      "t": 739.8,
+      "end": 752.7,
+      "text": "And then, yes, all of them they will go to sustainability journal lines and once we have them, we can use standard posting procedure. Everything will finish in sustainability ledger entries from where we can report."
+    },
+    {
+      "t": 752.7,
+      "end": 768.2,
+      "text": "Right now we have some standard reports there, but in the future we will add some uh regulatory reports as well. What we will have more on the top of that, it will come probably in next one or two minors,"
+    },
+    {
+      "t": 768.2,
+      "end": 779.8,
+      "text": "we will enable all these entities through APIs. So, this is important, so we do not want to limit uh partners or customers to use only what is inside the Business Central."
+    },
+    {
+      "t": 779.8,
+      "end": 796.8,
+      "text": "Yes, we have I think really good foundation. We will extend it with more functionality. Our ISVs will add probably much more on the top of that, especially about industry specifics, but if you have some external source or external solution and you want to connect with Business Central,"
+    },
+    {
+      "t": 796.8,
+      "end": 814.9,
+      "text": "it will be really easy to connect through APIs. So, you can continue your development inside the Business Central or outside of Business Central. About foundational parts, what we have inside, I will just briefly explain because Vladimir explained much more in details through demo."
+    },
+    {
+      "t": 814.9,
+      "end": 825.6,
+      "text": "First, where I will start. I will start with Contoso demo tool. Why I start with demo tool? Because we added sustainability module in demo tool."
+    },
+    {
+      "t": 825.6,
+      "end": 841.3,
+      "text": "I think we think this is a great beginning how to use it because sustainability functionality in general is pretty new for all of us, for us in Microsoft, but for you as a partner and customer, this is pretty new topic and very often you cannot show all these details,"
+    },
+    {
+      "t": 841.3,
+      "end": 857.9,
+      "text": "you cannot understand, maybe we cannot understand sometimes and because of that we we decide to make good sustainability demo data module, so you can immediately start, especially if you want to present to your potential customers, so everywhere you can easily start with that and you can show everything what is inside."
+    },
+    {
+      "t": 857.9,
+      "end": 871.9,
+      "text": "You will have chart of sustainability accounts, but I just need to emphasize this is not some regulation based. This is just demo. Just for demo purpose. You can use this for tracking, but you can short it if you if you want,"
+    },
+    {
+      "t": 871.9,
+      "end": 886,
+      "text": "if you don't need all these details, but you can even use 10 times more data there if you need. So, this is just our vision for demo demo demo purpose. Then you will have already configured categories and subcategories there."
+    },
+    {
+      "t": 886,
+      "end": 896.8,
+      "text": "Um you will have already sustainability journals with already populated lines, so you can easily understand how to use it and you will have already"
+    },
+    {
+      "t": 896.8,
+      "end": 907.6,
+      "text": "posted sustainability ledger entries, so you can immediately start to start from reporting. You can run report, you can show what is inside, so I think we have this great great demo data."
+    },
+    {
+      "t": 907.6,
+      "end": 918.2,
+      "text": "Then, let's start from the beginning. We have sustainability setup. In sustainability setup you can configure different unit of measure for different sustainability needs. Um"
+    },
+    {
+      "t": 918.2,
+      "end": 938.2,
+      "text": "For example, you can you will have two unit of measure, one for regular tracking data, but tomorrow when you you still have enforcement reporting, maybe it it will come in three years, depends from country to country and right now you do not know if you need to report in tons or kilograms and you just started to to track and you"
+    },
+    {
+      "t": 938.2,
+      "end": 948.4,
+      "text": "you are tracking in kilograms and maybe regulation will be that you must report in tons. You can just choose different unit of measure for reporting and you will have factor, so you can easily translate there."
+    },
+    {
+      "t": 948.4,
+      "end": 962.3,
+      "text": "You can find some rounding, decimal places, mandatory usage, for example, you can use mandatory country or region or responsibility center if you want to track if your company is in different countries, if you want to report based on different facilities,"
+    },
+    {
+      "t": 962.3,
+      "end": 972.5,
+      "text": "then further you can block or enable some functionalities. My colleague Vladimir will explain this in demo, so I will not go so deep in details."
+    },
+    {
+      "t": 972.5,
+      "end": 982.8,
+      "text": "If you look in a chart of sustainability accounts on the first sight, you will see that it look as a standard chart of account. This is just for sustainability needs."
+    },
+    {
+      "t": 982.8,
+      "end": 1001,
+      "text": "You can track different emission types and what we have there, we have for each of accounts we have category where you can determine which kind of scope you want to track with this account, then which kind of emissions you want to track there because you are not a force to track all three emissions."
+    },
+    {
+      "t": 1001,
+      "end": 1015.9,
+      "text": "You can choose based on this on every account you want to track, you can you can decide if you want to track only, for example, a carbon footprint or you want to track all of them. Then even further you can add type of calculation because if you do not know right emission amount,"
+    },
+    {
+      "t": 1015.9,
+      "end": 1030.5,
+      "text": "you can use different calculation, so it will be much easier for calculate what you need to report. And sustainability subcategories, you can add emission factors based on emission you want to track in categories."
+    },
+    {
+      "t": 1030.5,
+      "end": 1042.3,
+      "text": "In journals, as I said, this is relatively easy. This is standard journal just for sustainability purpose. You can track you can record all your emissions."
+    },
+    {
+      "t": 1042.3,
+      "end": 1056.9,
+      "text": "You can post. You have different type of entry data. I mentioned a few times uh if you know your emission, uh you can choose manually amount, manually input amount and you can enter your emissions manually."
+    },
+    {
+      "t": 1056.9,
+      "end": 1070.5,
+      "text": "If you do not know, you can, for example, you know your car, your distance or fuel consumed and formula will calculate automatically based on emission factors. Um yes, we have batch per scope."
+    },
+    {
+      "t": 1070.5,
+      "end": 1081.4,
+      "text": "You can uh you can configure batch to be per per scope, but you can use as a common and we have some good tool for checking if you have a potential issue, but Vladimir will explain more in details."
+    },
+    {
+      "t": 1081.4,
+      "end": 1097,
+      "text": "About reporting and this is the last I will show you as introduction. Uh this time, yes, we deliver three reports. You will see total emissions, emission per facility, emission by category, but what we can say about them,"
+    },
+    {
+      "t": 1097,
+      "end": 1110,
+      "text": "you will see extra layout here on the screen. All these three reports are first made to be by Excel layout and layouts, default layouts are Excel layouts."
+    },
+    {
+      "t": 1110,
+      "end": 1120.3,
+      "text": "RDC exist, but Excel layout will be by default. So, we are looking in Excel layouts much more serious and we want to start, especially if you want to"
+    },
+    {
+      "t": 1120.3,
+      "end": 1131.8,
+      "text": "not to make document, if you just want to to check some statistic, some entries, this is much better for you for using. And as I mentioned, regulatory reports are still not here."
+    },
+    {
+      "t": 1131.8,
+      "end": 1145.4,
+      "text": "This is something what will come in the future. So, now, um Vladimir, you can continue with your great end-to-end demo, so people will see everything how it's looking in a practice."
+    },
+    {
+      "t": 1145.4,
+      "end": 1157.9,
+      "text": "Thank you, Alexander. Uh yes, let's start by generating some demo data and as Alexander said, it is uh part of our Contoso demo data module."
+    },
+    {
+      "t": 1157.9,
+      "end": 1169.2,
+      "text": "So, let's go here and choose sustainability model. As for all other models, we can generate just a setup data or generate it all like setup data and transactions."
+    },
+    {
+      "t": 1169.2,
+      "end": 1181,
+      "text": "So, let's generate it all. And then, yes, we want to post some journal lines to get some entries to explore uh our features. So, yes, now we have demo tool"
+    },
+    {
+      "t": 1181,
+      "end": 1195.6,
+      "text": "executed. Uh let's jump to sustainability setup. Here, we set up basic settings like unit of measure, decimal places, some validation parameters,"
+    },
+    {
+      "t": 1195.6,
+      "end": 1209.3,
+      "text": "some error handling, and some reporting, rounding, and other parameters. From here, we can also set up our account categories that we will have a look a bit later."
+    },
+    {
+      "t": 1209.3,
+      "end": 1220.1,
+      "text": "And subcategories. Also, in the same way as in other areas, we can set up a journal template and journal batches."
+    },
+    {
+      "t": 1220.1,
+      "end": 1238.2,
+      "text": "Both like normal and recurring journal templates. Now, let's have a look at chart of sustainability accounts. It has the similar structure as chart of general ledger accounts with totaling and heading and posting accounts."
+    },
+    {
+      "t": 1238.2,
+      "end": 1249.6,
+      "text": "And also, it has, of course, some default flow filters, date dimensions,"
+    },
+    {
+      "t": 1249.6,
+      "end": 1260,
+      "text": "responsibility center, so you can use it in two filter the totals. And yes, each posting account"
+    },
+    {
+      "t": 1260,
+      "end": 1271.4,
+      "text": "contains some basic data, some balances, and some set up data. Where set up data is category. Let's just have a look at category."
+    },
+    {
+      "t": 1271.4,
+      "end": 1291.2,
+      "text": "So, here we define our scope. We define calculation foundation. And then we define which emission do we want to report. So, this information will be used in sustainability journal to calculate your emission based on whatever foundation you have."
+    },
+    {
+      "t": 1291.2,
+      "end": 1303.1,
+      "text": "This formula is extendable, so if you have other needs, you can extend it. On a subcategory, we define our emission factors."
+    },
+    {
+      "t": 1303.1,
+      "end": 1312.3,
+      "text": "Those are also used in calculation in journal. Now, let's have a look at journal."
+    },
+    {
+      "t": 1312.3,
+      "end": 1324.1,
+      "text": "Our journal is done in the same way as other standard BC journals. Batch, lines, background error check that shows you"
+    },
+    {
+      "t": 1324.1,
+      "end": 1334.6,
+      "text": "the lines with errors. So, now yes, and also some set up information that you can see here. So, now let's try to post."
+    },
+    {
+      "t": 1334.6,
+      "end": 1347.3,
+      "text": "We get an error. Right, let's try to correct it. I know it's this line. So, our emission section is empty. So, let's see what this line is about."
+    },
+    {
+      "t": 1347.3,
+      "end": 1357.5,
+      "text": "So, this account is emission scope one. Calculation foundation distance, and we see that it is CO2 and CH4 that has to be reported."
+    },
+    {
+      "t": 1357.5,
+      "end": 1369.6,
+      "text": "Let's just enter some mileage in here. And our emission is already calculated here. So, we can post this line. But we can see that next line is missing unit of measure."
+    },
+    {
+      "t": 1369.6,
+      "end": 1383.1,
+      "text": "This is purchase services, so let's add our And then we also see the error that it also needs some emission to be specified."
+    },
+    {
+      "t": 1383.1,
+      "end": 1395,
+      "text": "Since this line has manual input check mark, we can go ahead and enter our emission directly into the line."
+    },
+    {
+      "t": 1395,
+      "end": 1408,
+      "text": "Now we post. And yes, now we got this information in sustainability ledger entries. Same way as in GL functionality."
+    },
+    {
+      "t": 1408,
+      "end": 1419.5,
+      "text": "The last thing to show is our reports, which are available from chart of sustainability accounts. We have three."
+    },
+    {
+      "t": 1419.5,
+      "end": 1429.6,
+      "text": "As Alexander said, we decided to go with Excel layout. Our DC layout is still there. You can use this one, but our default now is Excel."
+    },
+    {
+      "t": 1429.6,
+      "end": 1434.9,
+      "text": "So, let's just run this one."
+    },
+    {
+      "t": 1438.8,
+      "end": 1446.5,
+      "text": "And open file. Yes, some security warnings."
+    },
+    {
+      "t": 1446.6,
+      "end": 1458.2,
+      "text": "And now you see we have a nice pivots and charts. So, this one, for example, shows you permission per scope. You can play around with it."
+    },
+    {
+      "t": 1458.2,
+      "end": 1473.6,
+      "text": "This one has some slices, so you just yeah, can filter to whatever you need. And this one contains some nice charts with total emission split."
+    },
+    {
+      "t": 1473.6,
+      "end": 1486,
+      "text": "Yes, we have three reports that you can play around. And yeah, I guess that's it for this demonstration."
+    },
+    {
+      "t": 1486,
+      "end": 1500.2,
+      "text": "Alexander, you want to take it over? Yeah, thank you, Vladimir. Um Before we close this session, I just want to wrap up what we have here. That means first, we deliver the as the first foundational part."
+    },
+    {
+      "t": 1500.2,
+      "end": 1511,
+      "text": "Our functionality is still not everything what we will deliver. So, this is multi-wave investment. Then, what we deliver right now? We deliver sustainability chart of account, nice functionality."
+    },
+    {
+      "t": 1511,
+      "end": 1523.5,
+      "text": "We have sustainability journal, and using different categories, emission formulas, and so on, so on, you can easily use manually data you have, or you can use this format to calculate your emissions."
+    },
+    {
+      "t": 1523.5,
+      "end": 1535.1,
+      "text": "Once when you post all this information, it will finish in a ledger entry, sustainability ledger entry, and you can use great reports in Excel layouts."
+    },
+    {
+      "t": 1535.1,
+      "end": 1550,
+      "text": "Even you can easily extend, add additional charts if you need. So, we think this is the right direction for reporting. And you all can expect very soon APIs, so you can easily connect with this solution from any outside solution."
+    },
+    {
+      "t": 1550,
+      "end": 1561.8,
+      "text": "Now, before we close this session, I would like to invite you to come to our Yammer group, AKMSBC Yammer,"
+    },
+    {
+      "t": 1561.8,
+      "end": 1574.7,
+      "text": "to have open communication with everything, not only about sustainability. Yes, we have sustainability channel in this in our Yammer, but we can talk about everything. Join our additional conversation on Twitter, actually on X."
+    },
+    {
+      "t": 1574.7,
+      "end": 1584.8,
+      "text": "Some other social networks. But what I will definitely suggest, if you see something is missing, definitely, as I said, this is foundation, so probably some things are missing."
+    },
+    {
+      "t": 1584.8,
+      "end": 1597.6,
+      "text": "And we have our backlog, but we are counting on your feedback. We want to hear from you what you want to get more in sustainability. Not limited to sustainability, but please about sustainability, go to AKMSBC"
+    },
+    {
+      "t": 1597.6,
+      "end": 1611.2,
+      "text": "Ideas, and just send us idea. We will evaluate all of them. We will discuss on Yammer about these ideas, and we will make future scope together. What we think is missing in the system, and what you think is missing."
+    },
+    {
+      "t": 1611.2,
+      "end": 1626.3,
+      "text": "Again, I will ask you to join on a monthly office hours. So, every month we have interesting topics, and if you cannot remember all of them, just try not to forget this one at the bottom,"
+    },
+    {
+      "t": 1626.3,
+      "end": 1638.4,
+      "text": "AKA AKMSBC All. So, you can find all resources there. So, you can easily find all these nice URL for getting more information, more resources."
+    },
+    {
+      "t": 1638.4,
+      "end": 1649.7,
+      "text": "Okay. Now, on the end, I can just say thank you, and I hope we will see in live on Q&A session."
+    }
+  ],
+  "markers": [],
+  "word_count": 4021
+}

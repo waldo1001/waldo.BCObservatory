@@ -1,0 +1,333 @@
+{
+  "video_id": "kAwI0EGSyls",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 15.2,
+      "end": 35.9,
+      "text": "hello my name is Roman uh in this session I'll be covering the new features and enhancements we're launching with business Central 2024 wave 1 in the areas of administration and governance these features will make your life easier when administrating business Central environments in the cloud as well as enable new"
+    },
+    {
+      "t": 35.9,
+      "end": 56.3,
+      "text": "scenarios I have a jam-packed agenda with me today I'll start with a feature that we have shipped already in February which is the ability to transfer environments from one ENT tenant to another then I'll talk about a small but important enhancement to the ability to recover"
+    },
+    {
+      "t": 56.3,
+      "end": 67.5,
+      "text": "deleted environments we're introducing a new role called the Dynamics 365 business Central administrator as well as we will ship"
+    },
+    {
+      "t": 67.5,
+      "end": 87.5,
+      "text": "new environment level partner access controls for business Central then I'll cover briefly the new upsource app previews and I will get to linking business Central environments to Power Platform environments which will"
+    },
+    {
+      "t": 87.5,
+      "end": 108.5,
+      "text": "bring me to the next section in governance because that will allow us to enable customer lockbox and customer manage encryption keys and then I'll wrap up with the new auditing capabilities that we are going to ship soon in perview so let's get right into it"
+    },
+    {
+      "t": 108.5,
+      "end": 129.1,
+      "text": "this has been one of the most highly anticipated features actually transferring environments from one ENT tenant to another and this is useful for example when consolidating tenants in a merger an acquisition scenario or when for example preparing environments"
+    },
+    {
+      "t": 129.1,
+      "end": 149.2,
+      "text": "for demo purposes and then transferring them to a customer tenant and since we made this capability available as a a self-service functionality in the admin Center at the beginning of February we have already seen a few hundred environment transfers so this is really cool let me show you how it"
+    },
+    {
+      "t": 149.2,
+      "end": 169.4,
+      "text": "works so I'm here in the admin Center and we wanted to make this as easy as possible we added this new button here on top environment transfers and from here you'll be able to transfer environments out from this tenant to another you will re"
+    },
+    {
+      "t": 169.4,
+      "end": 189.8,
+      "text": "be able to receive environments and you will see if there's any pending outgoing transfers so to transfer an environment out of this tenant into another very simple you can select the environment to transfer specify the destination ENT attendant"
+    },
+    {
+      "t": 189.8,
+      "end": 205.4,
+      "text": "ID and you can select the date and time when the transfer should happen for example I can pick here on Friday in the evening 6:00 p.m."
+    },
+    {
+      "t": 205.4,
+      "end": 217.7,
+      "text": "6:30 so I'm not going to do that transfer now but I'll show you how it on the other side so to receive an environment you specify the source"
+    },
+    {
+      "t": 217.7,
+      "end": 237.8,
+      "text": "tenant uh pasted here and then you will see the list of environments you can accept there's a few things I would like to point out with these features some things good to know so very important transfers can only be executed by internal administrators this is for security reasons and we want to be sure"
+    },
+    {
+      "t": 237.8,
+      "end": 257.8,
+      "text": "that the user that is doing this operation is authorized to do so the requests that are sent from The Source tenant to the destination tenant have to be accepted on the destination tenant within 8 hours and we do this to avoid any hanging uh requests"
+    },
+    {
+      "t": 257.8,
+      "end": 270.7,
+      "text": "there often you may want to plan for these environment transfers in advance so we allow you to schedule these transfers up to 14 days in the future"
+    },
+    {
+      "t": 270.7,
+      "end": 290.8,
+      "text": "and then very important after the transfer there are some management tasks that you need to do specifically when it comes to the users so this is a different tenant and you have to recreate the users in the destination tenant and also make sure to reassign any permissions to these users again"
+    },
+    {
+      "t": 290.8,
+      "end": 311.1,
+      "text": "so that it will work in the same way in the new tenant as before of course the destination tenant must have a paid business Central license as well and also available environment quot and we do show the operations both in the source tenant and the destination"
+    },
+    {
+      "t": 311.1,
+      "end": 331.2,
+      "text": "tenant in the operations log in the admin Center and you will also see these transfer operations in the environment Telemetry I mentioned it already before a small and important Improvement when it comes to recovering deleted environments so since we launched this feature we have avoided"
+    },
+    {
+      "t": 331.2,
+      "end": 341.9,
+      "text": "hundreds of potentially painful accidents and support requests and recently we have improved it and doubled the recovery"
+    },
+    {
+      "t": 341.9,
+      "end": 362.4,
+      "text": "period from 7 to 14 days to give some extra time some more flexibility in case things go wrong and important to know also here is that this doesn't change the total backup time that we have for your data we still keep 28 days of backup for all data"
+    },
+    {
+      "t": 362.4,
+      "end": 374.8,
+      "text": "the Dynamics 365 business Central administrator is a new role that we have recently introduced for users to administer and manage business Central environments"
+    },
+    {
+      "t": 374.8,
+      "end": 395,
+      "text": "essentially it's all the permissions that are needed to access a business Central environment to manage it perform Administration operations um access the admin Center life cycle operations extension updates and so on and very important it does not give access"
+    },
+    {
+      "t": 395,
+      "end": 399.9,
+      "text": "to any other Dynamics 365"
+    },
+    {
+      "t": 399.9,
+      "end": 415.1,
+      "text": "products also here a few things good to know um the global administrator and Dynamics 365 administrator roles that we have been using for now will still remain"
+    },
+    {
+      "t": 415.1,
+      "end": 435.6,
+      "text": "supported but we will remove access to help Des administrators in the future and then if you need additional roles or permissions do request those additional roles for example for Power Platform service support administrator"
+    },
+    {
+      "t": 435.6,
+      "end": 455.8,
+      "text": "or message center reader and the different permissions and roles that you may need on top of of the business Central administrator role it's quite common for larger implementations and multi-site implementations to have different partners working for the same customer for example an Italian"
+    },
+    {
+      "t": 455.8,
+      "end": 469.5,
+      "text": "partner working with an Italian environment and then a partner in the US taking care of the US environment for that same International customer and to keep those separate we are going to introduce"
+    },
+    {
+      "t": 469.5,
+      "end": 484,
+      "text": "environment access and administration on Partner level so that in the example above the Italian partner would only be able to administer and see the Italian environment and the US partner would only be able to do that for the US"
+    },
+    {
+      "t": 484,
+      "end": 497,
+      "text": "environment there's a couple of things that I would like to point out here so this functionality will restrict both the access to the environment and it will also"
+    },
+    {
+      "t": 497,
+      "end": 517.7,
+      "text": "restrict the ability to view modify and delete the environment so it would not show up if you don't have that access to the environment it also means that the access is is going to be restricted both for delegated users and also the entra apps when using"
+    },
+    {
+      "t": 517.7,
+      "end": 537.8,
+      "text": "service authentication and multiple partners can be assigned per environment the publisher of an appsource app may run a preview for a future version of an already public app or a new app preview versions can then be installed"
+    },
+    {
+      "t": 537.8,
+      "end": 556,
+      "text": "using a special URL including the preview key parameter that is provided by the app publisher in a sandbox environment this preview key can be set or generated when uploading the apps on Partner"
+    },
+    {
+      "t": 556,
+      "end": 576.3,
+      "text": "Center when you have the preview key you can install the app using this special URL so it's business Central dynamics.com you need to pass the tenant ID and then filter on the app ID and pass the preview key and that will install the preview app in"
+    },
+    {
+      "t": 576.3,
+      "end": 588.9,
+      "text": "the environment there's a few things also I would like to share here that are good to know so preview apps can only be installed on Sandbox"
+    },
+    {
+      "t": 588.9,
+      "end": 601.5,
+      "text": "environments if you have a Sandbox environment with a preview version often up installed that environment cannot be copied or restored to a production environment"
+    },
+    {
+      "t": 601.5,
+      "end": 622,
+      "text": "previews can be updated to a higher preview version or a public version and then to install a new preview version use the same install link with the preview key or if you want to install a new public version you can do that from the admin"
+    },
+    {
+      "t": 622,
+      "end": 642.2,
+      "text": "Center and depending on how the environment is configured when it comes to automatic app updates the installed preview apps will also automatically be updated to higher public versions with the minor or major release of business"
+    },
+    {
+      "t": 642.2,
+      "end": 662.3,
+      "text": "Central and also the installation of preview apps can be traced in Telemetry and that brings me to my next topic the linking of business Central environments to Power Platform environments and that will allow us to inherit selected data governance setting from the Power Platform and apply them to"
+    },
+    {
+      "t": 662.3,
+      "end": 677.8,
+      "text": "business Central environments on the other hand it will also provide a default Target environment for integration features from business Central into Power Platform and data"
+    },
+    {
+      "t": 677.8,
+      "end": 698.7,
+      "text": "verse so there's a couple of things also good to know so the linking of environments is one to one one business Central environment to one Power Platform environment and it can also be reverted so unlinking is possible and unlinking then disables the settings that are inherited from the Power Platform"
+    },
+    {
+      "t": 698.7,
+      "end": 717.1,
+      "text": "environment but it would not remove any Integrations that are deployed to the Power Platform environment the environment type and the Azure Geo must match so sandbox to sandbox production to production and it needs to be in the same Azure"
+    },
+    {
+      "t": 717.1,
+      "end": 731.3,
+      "text": "GE some selected environment operations are blocked while that link exists for example the environment cannot be deleted so to be able to delete it you need to unlink and then you can"
+    },
+    {
+      "t": 731.3,
+      "end": 753.2,
+      "text": "proceed if you copy or restore an environment that has a link it will not inherit that link from The Source because it's a one-on-one linking relationship and then all operations from the Power Platform for environment side are"
+    },
+    {
+      "t": 753.2,
+      "end": 773.5,
+      "text": "blocked finally small comment when linking an environment it will trigger a restart of the business Central environment so once we have established the link between the Power Platform environment and the business Central environment it will bring me to the next section the governance part of it because"
+    },
+    {
+      "t": 773.5,
+      "end": 787.6,
+      "text": "that enables two Enterprise policies that we now can also apply to business Central environments so the first one is customer lockbox so most"
+    },
+    {
+      "t": 787.6,
+      "end": 799.1,
+      "text": "operations support troubleshooting that is performed by Microsoft does not require any access to customer data in some rare"
+    },
+    {
+      "t": 799.1,
+      "end": 817.3,
+      "text": "occasions when we do need to access customer data for example in response to a support request customer lockbox is a way is an interface face for customers to review and approve or reject any accesses to their customer"
+    },
+    {
+      "t": 817.3,
+      "end": 829,
+      "text": "data the lockbox policy is enabled from the Power Platform admin Center by global administrators and Power Platform"
+    },
+    {
+      "t": 829,
+      "end": 849.6,
+      "text": "administrators and then when Microsoft attempts to access customer data in business Central the customer will receive a lockbox request for review and then they need to approve it uh before Microsoft can access customer data"
+    },
+    {
+      "t": 849.6,
+      "end": 860,
+      "text": "also here a couple of things that are important to know the lockbox policy is only enforced for environments that are activated for managed"
+    },
+    {
+      "t": 860,
+      "end": 880.1,
+      "text": "environments it can be administered by global administrators and Power Platform administrators and there are some certain Microsoft 365 and Power Platform licensing requirements as well to enable this and then once a lockbox request has been"
+    },
+    {
+      "t": 880.1,
+      "end": 899.7,
+      "text": "approved it is valid always for 8 hours and then it will expire later in this wave we will be shipping the support for customer managed encryption Keys all customer data that is stored in business Central is encrypted addressed with a strong Microsoft managed encryption key"
+    },
+    {
+      "t": 899.7,
+      "end": 910.8,
+      "text": "by default so Microsoft stores and manages the database encryption key for all your data so that you don't have"
+    },
+    {
+      "t": 910.8,
+      "end": 930,
+      "text": "to however we will provide the ability to use a customer managed encryption key also referred to as cmk for your added data protection control where you can then self-manage the encryption key that is associated with your business Central environment"
+    },
+    {
+      "t": 930,
+      "end": 950.8,
+      "text": "so this is a heads up that this will be coming later in this wave and for more details about the timeline I'd like to refer you to the release plan there's a few things also here good to know the steps are essentially those three to set it up first you create the encryption key in your key Vault you create an Enterprise policy"
+    },
+    {
+      "t": 950.8,
+      "end": 971.9,
+      "text": "and granted access to that key Vault and then in the Power Platform admin Center you apply this Enterprise policy to an environment and in this way you can manage the encryption of your"
+    },
+    {
+      "t": 971.9,
+      "end": 992.2,
+      "text": "environments it requires also a linked Power Platform managed environment therefore there are similar Microsoft 365 and Power Platform licensing requirements and it can be administered by global admin administrators Dynamics 365 administrators"
+    },
+    {
+      "t": 992.2,
+      "end": 1010.7,
+      "text": "and Power Platform administrators and that will bring me to my last topic for today auditing and purview so the primary purpose and reason here is to be able to respond to for example security events forensic"
+    },
+    {
+      "t": 1010.7,
+      "end": 1023.3,
+      "text": "investigation and compliance obligations having that unified audit log in Microsoft prview in this initial release we will"
+    },
+    {
+      "t": 1023.3,
+      "end": 1043.4,
+      "text": "deliver the capability to audit create update and delete events in business Central that require administrator privileges for example these are the environment Administration operations that you would do from the tenant admin Center or extension configuration"
+    },
+    {
+      "t": 1043.4,
+      "end": 1055.1,
+      "text": "installing updating or removing an extension in the environment for example user administr and other in product Administration operations as"
+    },
+    {
+      "t": 1055.1,
+      "end": 1075.5,
+      "text": "well by default uh there's an 180 days log retention in perview and it can be extended up to 10 years with additional add-on licenses and then to see the audit logs you can either run manual reports in the pview portal use Powershell or the"
+    },
+    {
+      "t": 1075.5,
+      "end": 1095.6,
+      "text": "management activity API to also automate and any events uh or or processing that that you may want to do Microsoft purview is included with the Microsoft 365 license types we have a bunch of resources available if you want to learn more for example join us on Yammer or Viva engage we have an"
+    },
+    {
+      "t": 1095.6,
+      "end": 1112,
+      "text": "active group there and we'll be very happy to answer your questions and help out or join us for the live Q&A on April 9 and 10 for any other questions you may have thank you that's"
+    },
+    {
+      "t": 1112,
+      "end": 1113,
+      "text": "it"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2346
+}

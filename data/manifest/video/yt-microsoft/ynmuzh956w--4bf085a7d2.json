@@ -5,12 +5,60 @@
   "tier": "official",
   "title": "Introducing: Sustainability in Business Central (2024 release wave 1)",
   "url": "https://www.youtube.com/watch?v=_ynMUzh956w",
-  "published_at": null,
+  "published_at": "2024-04-04T13:30:22.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:46:00.104Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1650
+    },
+    "captioned": {
+      "at": "2026-10-06T19:46:05.723Z",
+      "path": "data/captions/microsoft/_ynMUzh956w.vtt",
+      "vtt_sha256": "2deadbbb5f4a4125bba2b2803ffa54a83f3577fc1309df1b4f7193554972e716",
+      "segments": 128,
+      "words": 4021,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:47:38.215Z",
+      "path": "data/extract/video/_ynMUzh956w.json",
+      "prompt": "extract-video@1",
+      "windows": 2,
+      "features": 10,
+      "quotes": 14,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.081698
+    },
+    "summarized": {
+      "at": "2026-10-06T19:47:45.346Z",
+      "path": "data/summary/video/_ynMUzh956w.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0220744
+    },
+    "linked": {
+      "at": "2026-10-06T19:47:45.347Z",
+      "systems": [
+        "sustainability",
+        "reporting",
+        "finance"
+      ],
+      "topics": 12,
+      "objects_as_heard": 10
+    },
+    "published": {
+      "at": "2026-10-06T19:47:45.366Z",
+      "path": "content/videos/_ynMUzh956w.md"
     }
   },
   "input_hash": null,
@@ -19,7 +67,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 433,
-    "duration_s": 1651,
-    "via": "reconcile"
-  }
+    "duration_s": 1650,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "75b2088fcea71b5fadbfd9d763a29809f095c2520e197f00691d5b04ac4bbf46"
 }

@@ -1,0 +1,28 @@
+{
+  "video_id": "kAwI0EGSyls",
+  "item_id": "video/yt-microsoft/kAwI0EGSyls",
+  "summary": "Business Central 2024 release wave 1 governance and administration changes: environment transfer between Entra tenants, 14-day deleted environment recovery, a Business Central administrator role, environment-level partner access, preview apps, Power Platform linking, customer lockbox, customer managed keys (announced) and Purview auditing.",
+  "overview": "The video, published 2024-04-04, covers the governance and administration updates in 2024 release wave 1. It starts with tenant-level topics: transferring environments between Microsoft Entra tenants, a longer recovery period for deleted environments, a dedicated administrator role, and partner access limited to specific environments.\n\nIt then covers AppSource preview apps in sandboxes, linking Business Central environments to Power Platform managed environments, and the data governance features that build on that link: customer lockbox, customer managed encryption keys, and auditing in Microsoft Purview. Environment transfer and preview app installation are demoed.",
+  "key_points": [
+    "Environment transfer between Entra tenants is self-service in the admin center. Only internal administrators can run it, the destination tenant ID is specified, and transfers can be scheduled up to 14 days ahead. Requests must be accepted within 8 hours.",
+    "After a transfer, users must be recreated and permissions reassigned in the destination tenant. That tenant needs a paid license and available quota.",
+    "The recovery period for deleted environments doubled from 7 to 14 days. Total backup retention stays at 28 days.",
+    "The new Dynamics 365 Business Central administrator role covers environment lifecycle, extension management and admin center access, but not other Dynamics 365 products. Help desk admin access will be removed.",
+    "Partner access can be restricted to specific environments. It applies to delegated users and service authentication apps.",
+    "Power Platform linking is one-to-one and can be reverted. Environment type and Azure geo must match, linking restarts the environment, and a linked environment cannot be deleted. Copied or restored environments do not inherit the link.",
+    "Customer lockbox is enforced only for managed environments. Approved Microsoft access expires after 8 hours. Customer managed encryption keys were announced for later in the wave and need a linked managed environment."
+  ],
+  "audience": [
+    "administrator",
+    "partner",
+    "decision maker",
+    "functional consultant"
+  ],
+  "extraction_hash": "3022ead72346b71c483331b5772f5f76239d545701e3fb869612ed363207de19",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0211304
+  }
+}

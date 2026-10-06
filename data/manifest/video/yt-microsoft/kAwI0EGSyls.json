@@ -5,12 +5,60 @@
   "tier": "official",
   "title": "What's new: Governance & Administration (2024 release wave 1)",
   "url": "https://www.youtube.com/watch?v=kAwI0EGSyls",
-  "published_at": null,
+  "published_at": "2024-04-04T13:30:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:46:15.054Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1113
+    },
+    "captioned": {
+      "at": "2026-10-06T19:46:22.905Z",
+      "path": "data/captions/microsoft/kAwI0EGSyls.vtt",
+      "vtt_sha256": "50a3a771ea75af27aee675dc5ad9555dd4f118e6355b1aeee18c7af5c8e37d40",
+      "segments": 64,
+      "words": 2346,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:46:58.779Z",
+      "path": "data/extract/video/kAwI0EGSyls.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 9,
+      "quotes": 8,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.030311
+    },
+    "summarized": {
+      "at": "2026-10-06T19:47:06.092Z",
+      "path": "data/summary/video/kAwI0EGSyls.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0211304
+    },
+    "linked": {
+      "at": "2026-10-06T19:47:06.093Z",
+      "systems": [
+        "administration",
+        "platform",
+        "development"
+      ],
+      "topics": 12,
+      "objects_as_heard": 2
+    },
+    "published": {
+      "at": "2026-10-06T19:47:06.110Z",
+      "path": "content/videos/kAwI0EGSyls.md"
     }
   },
   "input_hash": null,
@@ -19,7 +67,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 434,
-    "duration_s": 1114,
-    "via": "reconcile"
-  }
+    "duration_s": 1113,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8a27962b5a7eb53d878a656cbb0dcaf83cce46599018b55e55f70489f9fede93"
 }

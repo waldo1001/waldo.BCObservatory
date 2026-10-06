@@ -1,0 +1,658 @@
+{
+  "video_id": "hcu7T3qLdDA",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 17.5,
+      "end": 37.6,
+      "text": "hello and welcome to our busy Central lunch event about uh 2024 release wave 1 this time we want to present one local uh functionality fun set of functionalities and it will be related what is new uh about Danish bookkeeping act we already deliver"
+    },
+    {
+      "t": 37.6,
+      "end": 57.6,
+      "text": "U the same uh topic previous wave but previous wave was before final um development from our side the final decision from uh DBA so we wanted to update what is really new what is the most important so this is mostly about updated features and the most important"
+    },
+    {
+      "t": 57.6,
+      "end": 77.8,
+      "text": "you need to take care uh my name is to I'm product manager and I was responsible from about this set of functionality and together with me is ell soft engineer who made a lot of great functionality related with Danish bookkeeping act so agenda will not be complicated we will pass through introduction and scope some"
+    },
+    {
+      "t": 77.8,
+      "end": 92.1,
+      "text": "timeline when we started how we started what we deliver and when and we will go straightforward to new features why and how Okay um new new Danish bookkeeping act has has been announced"
+    },
+    {
+      "t": 92.1,
+      "end": 112.1,
+      "text": "2022 um what is important business Central is certified in Denmark by DBA in first phase in the first set from January 1st 2024 so we are fully certified you can find on this link full list of all certified Solutions uh when they are certified who is certified who is not so we are"
+    },
+    {
+      "t": 112.1,
+      "end": 129.2,
+      "text": "certified but let's explain what is certify uh Microsoft certify as a standard solution that means uh as is because we cannot predict what can be extended so by DBA this is registered as standard solution and only as a cloud"
+    },
+    {
+      "t": 129.2,
+      "end": 149.6,
+      "text": "option um we will talk what is not a standard solution not standard solution is um if you change some Behavior required by the DBA doesn't mean that every customization will be uh outside of standard solution but everything what is related with bookkeeping with the keeping uh data for 5 years for example"
+    },
+    {
+      "t": 149.6,
+      "end": 169.6,
+      "text": "it will not be standard solution uh anymore so uh you are responsible for your customizations um you need to to see if this customizations uh customizations have an impact on a standard solution and to make decision uh and to check the DBA eventually if you need to certify your solution as this is highly customized or this"
+    },
+    {
+      "t": 169.6,
+      "end": 190,
+      "text": "is still uh available as a standard Solution by based by Microsoft if you're an isv and if your isv solution has any impact on this area what I mentioned yeah you definitely need to certify your solution you can certify your isv name to together a busy Central and that's okay and um when you start to certify"
+    },
+    {
+      "t": 190,
+      "end": 210.2,
+      "text": "you can ask from DBA documentation Microsoft uh use so you can reuse some of these documentation not everything but more than 90% of documentation are available publicly so you can reuse it um and if you're using on print solution we didn't certify on print solution currently this is not possible because of some um physical limitation"
+    },
+    {
+      "t": 210.2,
+      "end": 230.8,
+      "text": "so you must certify your on Prem Solution by yourself it doesn't mean that all these features will not be available in on Prem the most of them that means almost everything what we will show today I will mention what is not available in on Prem solution you can reuse in your own PR solution so this is let's say already for certification"
+    },
+    {
+      "t": 230.8,
+      "end": 250.8,
+      "text": "but you need to finish few things and to certify by yourself when we started we were really dedicated to provide full compliance to all our customers uh we wanted to provide uh in a first available way we wanted to have you secured that we are on a right PA and we want to have certified solution for you"
+    },
+    {
+      "t": 250.8,
+      "end": 270.8,
+      "text": "we communicated everywhere on a BC we even had our promising on our Doc Page for Denmark local environment so we did it and we were focused and we mentioned from the beginning that we were focused on Cloud solution we started immediately design and redesign uh as soon as we go as we got information"
+    },
+    {
+      "t": 270.8,
+      "end": 291,
+      "text": "what we need to do final information sometimes we had just better instruction and we didn't want to start with something we need to change lately even we had to do with in in a few cases but what we try to do more uh everything what we could see if we can be applicable in more countries or maybe in the future"
+    },
+    {
+      "t": 291,
+      "end": 302.4,
+      "text": "uh can be applicable more countries we deliver this as a W1 Bas app or as a global apps only what is really local be kept as a local features"
+    },
+    {
+      "t": 302.4,
+      "end": 322.6,
+      "text": "and um we require you know all these features finished we certified and now what we will continue we will continue process of improvements so some things maybe are not perfect so now we are listening your feedback but keep in mind that all your feedback um we first need to filter it because we are"
+    },
+    {
+      "t": 322.6,
+      "end": 339.2,
+      "text": "enforced by the law we must be compliant by the law and if there is some space we can make more um better options and better user experience for you in uh borders of this law we will do it"
+    },
+    {
+      "t": 339.2,
+      "end": 359.2,
+      "text": "so uh new Danish bookkeeping act as said announced in 2022 uh Microsoft and um decided to go uh together with common collaboration of busy Central and finance operation team Finance team so both of teams started to research all necessary information together so we didn't"
+    },
+    {
+      "t": 359.2,
+      "end": 379.4,
+      "text": "want to to go separately and then to make different ideas so ideas and S Solutions can be different because different architecture or to different solutions but everything what we could do we try to do with some uh common decisions then somewhere in the beginning of um 2023 we created our business"
+    },
+    {
+      "t": 379.4,
+      "end": 399.4,
+      "text": "Central backlog what we will do and immediately after making this backlog we created spec specific uh channel on Yammer for Danish bookkeeping act so we started to communicate communicate with partners and uh soon after that we created our first virtual machine uh and published on"
+    },
+    {
+      "t": 399.4,
+      "end": 420.4,
+      "text": "Yammer it was if I'm not wrong now I'm trying to recall it was about sft so you could start with early testing this is and this was our idea and this is and it will be in the future to be as more transparent as possible every time when it is possible uh then on a previous launch event they said we presented this topic then on the Rea we had a"
+    },
+    {
+      "t": 420.4,
+      "end": 440.9,
+      "text": "um communication with many of Danish Partners there to explain what is there and then we finish pre-registration uh Pro Finish we submitted uh our documentation for pre-registrations it was open so we wanted to be the first and we had let's say approximately 90% of finished job we submitted to uh to uh"
+    },
+    {
+      "t": 440.9,
+      "end": 458.6,
+      "text": "pre-registration process so we wanted to get early feedback from DBA to see what we need to change some final registration documentation submitted after few changes in a me me time and yes officially B Central uh was certifi on the January from January 1st this year"
+    },
+    {
+      "t": 458.6,
+      "end": 478.7,
+      "text": "now uh few days actually month after that yes from February 1st uh we updated our terms of use for uh Denmark so now we have we are abolutely compliance we didn't activate the skipping 5 years before we updated our documentation so now we are absolutely compliant and we are starting"
+    },
+    {
+      "t": 478.7,
+      "end": 498.8,
+      "text": "after more more than 300 engineering days in Investments on building all these features now we are starting with a new phase Improvement based on feedback so we will first wait to collect some feedbacks to see what we can do and all this information and all this requirements we we are getting from you every day or let's say every week uh we will"
+    },
+    {
+      "t": 498.8,
+      "end": 510.9,
+      "text": "collect and we will first discuss with DBA because we must check with them if we can apply L these ideas and when we get positive answer from DBA we will improve this functionality for sure"
+    },
+    {
+      "t": 510.9,
+      "end": 531.4,
+      "text": "what we have uh as a functionality just high level we have export to sft uh we have public standard chart of account and V chart of account we can now upload CSP file um uh with accounting data to Reg basis uh e submission of V registration notification with name handle um um"
+    },
+    {
+      "t": 531.4,
+      "end": 551.6,
+      "text": "yes name handle registered and electronic invoicing uh then mandatory digital vouchers as attachments and keeping your data for 5 years the data compliance so now let's go step by step first I will shortly explain about sft and then Arthur will show you uh more details you will see"
+    },
+    {
+      "t": 551.6,
+      "end": 571.7,
+      "text": "sft is in title but there are much more features sft is app but in this app uh F yeah first this app was built on the top of AIT file export standard global app this is something what we deliver from uh uh broad market and now on top of that we are just using different formats for different countries sft is enabl in"
+    },
+    {
+      "t": 571.7,
+      "end": 592.1,
+      "text": "Denmark and this feature is pre-installed of course in in your environments your localizations what is there inside inside this app you can find public start standard chart of account public standard V chart of account standard audit file export and this is based on DK format actually this is Standard Export but a few Fields"
+    },
+    {
+      "t": 592.1,
+      "end": 612.2,
+      "text": "um added and uh we have import as a file to keep the history so you can export this is full functionality for export but uh we were required to have opportunity to offer you to import sft so you can import SF file and keep this as a history and U using the same audit file"
+    },
+    {
+      "t": 612.2,
+      "end": 632.4,
+      "text": "export app we added export bookkeeping data to regas basis as a CSV file because this is really great based on performances you can export in your active session you can export later if you have millions of Entry so this is really good app I'm talk about OD file export and we reuse for for any type of export every time when we can so"
+    },
+    {
+      "t": 632.4,
+      "end": 652.4,
+      "text": "now I will give a screen to Arthur to show you public start standard chart of account sft and regasa basis expert to CSV Arthur the sft feature is available uh from the feature management so once you enable the feature in one company it will be enabled for all the other companies um"
+    },
+    {
+      "t": 652.4,
+      "end": 672.5,
+      "text": "so if you want to set this feature up for other companies you can type in Search sft and you can open the sft setup guide uh on the first step of this guide uh there will be explained what the feature going to do and on the next one you can uh choose the standard"
+    },
+    {
+      "t": 672.5,
+      "end": 692.5,
+      "text": "account type uh that will be for digit standard account when you choose this one and go next the next step step will be to identify the uh reporting period for the uh sft you can choose uh from the accounting period table let"
+    },
+    {
+      "t": 692.5,
+      "end": 712.5,
+      "text": "me choose 2026 and once I select this uh you can notice the starting and ending date are populated and the accounting period type is accounting period you can also see that there is an action that is called create CH chart of accounts so if you don't have the chart accounts uh uh in"
+    },
+    {
+      "t": 712.5,
+      "end": 732.7,
+      "text": "your uh installation you can create it based on the standard uh chart of accounts uh next I want to do the mapping between my chart of accounts because I do have it and the standard standard chart of accounts uh there is an action that could help me to do this it's called much match chart of"
+    },
+    {
+      "t": 732.7,
+      "end": 752.8,
+      "text": "accounts and let me show you how does it work so if I click this one and if I confirm I can see that 57 of 18600 accounts automatically matched and how I can check this I can click open the setup page and I can notice that some of those accounts"
+    },
+    {
+      "t": 752.8,
+      "end": 773.3,
+      "text": "been matched and those are exact those are exactly identical accounts so for example you can see uh this one and this one they are matched uh where you can find the standard accounts are exactly this so on this uh sub page you can notice on the left side g account number this is your"
+    },
+    {
+      "t": 773.3,
+      "end": 793.3,
+      "text": "chart of accounts uh accounts and on the right side you can notice a standard accounts number and if I look up to this one you can see the list of all the public standard accounts uh that you need to use and the rule for the saf you need to do the mapping for all the charts of"
+    },
+    {
+      "t": 793.3,
+      "end": 813.5,
+      "text": "for all the accounts in your chart uh for the testing purpose I want to do this in the header in the header I have the field standard account number I want to choose a single account here and update for all accounts of course this is something that that you don't want to do you want to specify a"
+    },
+    {
+      "t": 813.5,
+      "end": 824.5,
+      "text": "very specific standard account per each of your accounts but for the sake of presentation I want to do this uh and then I can see that all DL accounts"
+    },
+    {
+      "t": 824.5,
+      "end": 835.4,
+      "text": "mapped The Next Step will be the mapping of the VT posting setup uh for every single VT posting setup I can specify the"
+    },
+    {
+      "t": 835.4,
+      "end": 848.4,
+      "text": "uh VT code either sales VT reporting or the purchase VT reporting code depends on what you choose and I can look up to this one and here I can find all the VT reporting"
+    },
+    {
+      "t": 848.4,
+      "end": 868.5,
+      "text": "codes uh but that's optional you don't need to do this uh the next one will be export dation Dimensions to the saf you can notice that we automatically set the specific analysis type code for every single Dimension and you can notice that there is an option that is called SF expert so if you don't want to expert a certain Dimension you"
+    },
+    {
+      "t": 868.5,
+      "end": 888.6,
+      "text": "can uh remove the check from this field and the last one uh will be to specify the employee so the information from that employee will be part of the sft file let me choose the employee and the setup is completed uh and that step the next one"
+    },
+    {
+      "t": 888.6,
+      "end": 900.8,
+      "text": "will be the generation of the SF file um itself for that I want to open the audit File Expert documents and I want to create a new document"
+    },
+    {
+      "t": 900.8,
+      "end": 921,
+      "text": "uh and then the header I need to choose the sft file format I want to choose my GL account mapping for this period 2026 as you can see the dates are prepopulated and you can notice uh a wide range of different options I'm not going to cover all of them unless uh the one on the processing"
+    },
+    {
+      "t": 921,
+      "end": 941,
+      "text": "TP the option is called parallel processing and that will help you to schedule the generation of thef file to this for example hours because as you can imagine this is audit file uh we're going to export all the general energy entries for single year so that will take a lot of time with this option you can schedule this"
+    },
+    {
+      "t": 941,
+      "end": 960.2,
+      "text": "to the appropriate uh time uh I want to do this because I don't have a lot of data so I will unle this one and I want to start the generation of the safy file I want to click Start action uh confirm that okay I want to start the new generation right now"
+    },
+    {
+      "t": 960.2,
+      "end": 980.2,
+      "text": "uh and then when the duration is completed let me check let me show you what we have right now on the line sub form we have three types of data we have Master data we have general ledger entries for January this is the only months when I have posted data and the source documents uh and let's see how it"
+    },
+    {
+      "t": 980.2,
+      "end": 1001.1,
+      "text": "reflects on the uh files itself I want to click download files and I will have a single Z archive uh let me download this one and inside of this archive file let me show you uh we have exactly"
+    },
+    {
+      "t": 1001.1,
+      "end": 1021.4,
+      "text": "three files the first one master data the second one general ledger entries and the third one source documents exactly what you see on the lines sub page that is it with the saf file generation and the other important part of the SF app uh in scope of this app we also provide you the generation of the file the"
+    },
+    {
+      "t": 1021.4,
+      "end": 1042,
+      "text": "scope uh raincap basis for that you need to search for RB un counting file you need to choose the mapping header absolutely the same like in the saf file uh you will have the dates right here starting ending dates and here you have two options for calculation"
+    },
+    {
+      "t": 1042,
+      "end": 1062.9,
+      "text": "of the balance both for income statement and for the balance account you can choose either net change or the balance at date for this one and for this one as well and of course we uh provide you some default values and then you need to click click generate file and the file will be generated"
+    },
+    {
+      "t": 1062.9,
+      "end": 1083,
+      "text": "uh let's quickly check what we have in this file and this file that is Syle CSV file when we have the data about every single account the name of account uh and the balance depends on your setup and that includes my demo back to you Alexander thank you Arthur for"
+    },
+    {
+      "t": 1083,
+      "end": 1103.3,
+      "text": "your demo and now let's move to the next topic next topic is V is submission so now you must electronically submit your v in Denmark and that means the bookkeeping system standard bookkeeping system must support reporting of v v Danish tax Authority V API uh busy Central now supports"
+    },
+    {
+      "t": 1103.3,
+      "end": 1123.5,
+      "text": "V submission through tax API to scut uh this app is already finished it does not require customer certificate this is important because Microsoft has built in uh inside and yeah it was uh in one moment they said some we didn't have clear requirements and we first created uh new functionality where you"
+    },
+    {
+      "t": 1123.5,
+      "end": 1144.1,
+      "text": "can where you had to use your own certificate but on the end uh this requirement was uh let's say make more clear to use proper expressions and we were en forced to use Microsoft certificate for all our Cloud customers so we updated we made some changes there so currently documentation maybe is not um fully"
+    },
+    {
+      "t": 1144.1,
+      "end": 1164.1,
+      "text": "uh uh changed it will be updated in the next few days so uh what you have there you have this feature pre-installed by default cloud and on Prem but certificate Microsoft certificate is preinstalled only the Cloud solution for on print solution you must use your own certificate so you need to ask from Scot and to use the certificate certificate"
+    },
+    {
+      "t": 1164.1,
+      "end": 1178.7,
+      "text": "for on print solutions next one is n handle notification and registration uh this is something what um yeah we had a lot of discussion with many partners with enforc notification but this is by the law so"
+    },
+    {
+      "t": 1178.7,
+      "end": 1199,
+      "text": "um when you create a company you will get uh notification if your company to get you need to popul CVR number and if you do not have CV number or if your uh CV number is not register Vietnam handle you will get this maybe annoying notification but this is something what is must and you will get there you can"
+    },
+    {
+      "t": 1199,
+      "end": 1219.2,
+      "text": "uh switch off uh this notification in sandbox environment but you cannot do it in production in production you do not have actually this is not a blocker you just need to to see it and if you want to uh for you to disappear this notification you must go to name Handler register you will have instruction in this notification"
+    },
+    {
+      "t": 1219.2,
+      "end": 1239.4,
+      "text": "go there register your company from that moment this notification will disappear API will automatically check from the moment when you register there this notification will not exist anymore this u n hand registration is not only for this notification it will be necessary for your invoicing in the future so this is not blocker uh technically this is not a blocker"
+    },
+    {
+      "t": 1239.4,
+      "end": 1259.4,
+      "text": "maybe just a no notification but you must have this registration with handle if you want to work with some other features so next I just mentioned invoicing based we created invoicing this is based on global e document framework we enable both formats obl and pep so you can choose choose whatever you"
+    },
+    {
+      "t": 1259.4,
+      "end": 1279.7,
+      "text": "want when you open a document service and you create new service you can choose service for ubl or pay or you can create both of services and decide for based on your uh customer vendors which service you want to use uh this is support for delivering receiving invoices so you can use sales process but you can all"
+    },
+    {
+      "t": 1279.7,
+      "end": 1298.8,
+      "text": "also use in receiving invoices from your vendor so it works in both the directions it works with the messages uh approving rejecting statuses you can find in logs about every e document so this is uh everything actually what is required by the law and probably much more"
+    },
+    {
+      "t": 1298.8,
+      "end": 1319,
+      "text": "currently uh we have full document exchange as I said messaging in this moment we have enable only one uh service but we are we are looking to enable more services by default and we are open for other apps so we had this one as a more the most proactive who work for the beginning"
+    },
+    {
+      "t": 1319,
+      "end": 1339.2,
+      "text": "but we want to enable as soon as possible more services by default inside the bus Central um uh yes and yeah what I wanted to mention important we do not provide direct connection with n handle for direct connection with n handle Danish authorities required to have n handle certified service so Microsoft is not in a business"
+    },
+    {
+      "t": 1339.2,
+      "end": 1359.7,
+      "text": "of uh invoicing and we do not have uh certified service so this is the reason why you need to use some of certifi access points this is not possible to directly connect with name handle if you're not uh certified service so you must use some of existing default we have uh in our app or some other"
+    },
+    {
+      "t": 1359.7,
+      "end": 1379.9,
+      "text": "app and next topic and this topic we'll have a demo as well so I will not talk so much mandatory digital vouchers this feature is enabled as a global feature uh globally this is voluntary so you can say voluntary voluntary for administrators and partners so you can choose if you want use or do not"
+    },
+    {
+      "t": 1379.9,
+      "end": 1400.2,
+      "text": "but if you decide to use this feature will enforce users to attach some mandatory digital vouchers or attachments whatever we call this to uh some specific uh documents in sales purchase general journal s Journal purchase journals combination with different Source codes so for example you can use general journal if you choose"
+    },
+    {
+      "t": 1400.2,
+      "end": 1420.4,
+      "text": "Source codes for payroll so you will be enforced only if you have pay source code on general journal for other General journals it will not be enforced so you can set up as you one but in Denmark it will be by default currently this is still voluntary until July 1st from July 1st it will be enforced so from that moment you will be enforced to use mandatory digital"
+    },
+    {
+      "t": 1420.4,
+      "end": 1440.6,
+      "text": "vouchers in sales and purchase documents for other types of documents you can choose if you want but for these two types of documents you will be enforced for purchase you must update you must attach manually uh purchase a document but for sales we have automatically creation generation actually document when you post sales invoice syst will automatically"
+    },
+    {
+      "t": 1440.6,
+      "end": 1451.1,
+      "text": "create and attach you can attach manual if you want but we have this automation we try to automate as more as possible so"
+    },
+    {
+      "t": 1451.1,
+      "end": 1471.3,
+      "text": "um this this feature as I said is start July 1st and now I would like not to talk more about that I think it would be much better to see through demo so Arthur please take your stage and show us mandatory digital vouchers the digital voucher feature is available from the assistant setup uh when I click setup digital"
+    },
+    {
+      "t": 1471.3,
+      "end": 1491.4,
+      "text": "voucher feature the digital voucher guide will be open the first step is an explanation about the feature the next one is the page where I can open the important and uh um the the important part of this setup it's called the digital voucher entry setup and this is exactly what Alexander shown on"
+    },
+    {
+      "t": 1491.4,
+      "end": 1512.1,
+      "text": "his slide so here we have the setup for the sales documents we have the attachment it means that for every single Sal documents there should be a digital voucher attached uh but we have the options generate automatically and it means that if you do not uh attach the document manual it will be automatically generated and I will present this scenario"
+    },
+    {
+      "t": 1512.1,
+      "end": 1532.5,
+      "text": "and the second one is purchase document here we have the same check type attachments but we do not offer generation of automatically and the important part is the enforcement enforcement means that you won't be able to change the check type so right now I can change from attachment to no check but from the 1 of July um won be able to do"
+    },
+    {
+      "t": 1532.5,
+      "end": 1552.6,
+      "text": "this uh then for the journal the important part of the setup is called the source code um so for example when I set up for the sales Journal I can specify all the source codes connected to the journal when I click Source codes I can see that the source code for this one is the sales Journal it means that when I post something from"
+    },
+    {
+      "t": 1552.6,
+      "end": 1574.1,
+      "text": "the journal uh system will verify that we have the source code sales journal and this setup will be applied for this kind of of journals let me show you the scenario I will complete the setup and I will show this scenario with the purchase invoice"
+    },
+    {
+      "t": 1574.1,
+      "end": 1580.2,
+      "text": "first I want to create the new purchase"
+    },
+    {
+      "t": 1582.1,
+      "end": 1590.7,
+      "text": "invoice specify the vendor invoice number and then add something to the lines"
+    },
+    {
+      "t": 1590.7,
+      "end": 1610.7,
+      "text": "and at this point I don't want to attach anything I want to check how the system behave if I don't have any attachment and I want to post the invoice and I will see there message that it's not possible to post without attaching the digital voucher so let me attach the digital voucher uh I can do this from"
+    },
+    {
+      "t": 1610.7,
+      "end": 1628.6,
+      "text": "the incoming document files F box on the right side I click incoming document files and then the action is called attach file file I want to choose my PDF from the vendor and then I want to try to post"
+    },
+    {
+      "t": 1629.3,
+      "end": 1649.3,
+      "text": "again the document is posted and let's see so we have the incoming document file right here and the most important part is that we have the same incoming document file for all uh the associated entries for example if I go to general ledger entry uh"
+    },
+    {
+      "t": 1649.3,
+      "end": 1660.8,
+      "text": "I can also find the incoming document file for every single G entry now let me show you the scenario with the sales"
+    },
+    {
+      "t": 1660.8,
+      "end": 1680.9,
+      "text": "invoice with the sales invoice I'm going to do the very same steps so I want to create a symbol sales invoice and I don't want to um attach any digital voucher and that will be a little bit different from the purchase invoice where I got the error uh for"
+    },
+    {
+      "t": 1680.9,
+      "end": 1694.7,
+      "text": "the sales document uh in according to the setup the document will be generated automatically so when I click I want to post invoice I can see that the invoice is"
+    },
+    {
+      "t": 1694.7,
+      "end": 1714.8,
+      "text": "posted and in the posted document and also in the all the associated entries I can see that there is incoming document file attached let me download the file and show you how does it look and this is the the regular invoice uh in the business Central so this is generated automatically and attached to the"
+    },
+    {
+      "t": 1714.8,
+      "end": 1735,
+      "text": "posted sales invoice as the digital voucher and that concludes my demo back to you Alexander okay thank you Arthur for great demo before I continue I just want to emphasize one more thing we didn't mention um uh about that once when you post document with attachment you cannot remove this attachment after that"
+    },
+    {
+      "t": 1735,
+      "end": 1755.2,
+      "text": "you cannot update but you can add additional attachment so this is not a problem if you have something else you forgot to add maybe you had two three 10 different uh documents you can attach them even if document is posted but you cannot REM remove original one or update original one okay let's continue maybe to the most"
+    },
+    {
+      "t": 1755.2,
+      "end": 1775.5,
+      "text": "complicated and yeah uh the most weird situation about storage of the faction and voucher for 5 years this is first this first slid is about requirements from DBA that means that we must be as a service provider as a and now just not forget everything what I'm talking right now it is applicable"
+    },
+    {
+      "t": 1775.5,
+      "end": 1795.6,
+      "text": "only for cloud this does not exist in a on Prem solution for this is a problem we cannot certify on Prem solution you need to find you need to read the DB requirements and to make some solution for you um storage transactions uh must exist for all the cor transaction and receipts or vouchers for minimum"
+    },
+    {
+      "t": 1795.6,
+      "end": 1815.6,
+      "text": "for minimum for five years after the end of financial years these uh transaction and receipts must be stored this way that company who made them they cannot change uh back day delete whatever so they are secure absolutely from any additional interaction all transaction and vouchers must be"
+    },
+    {
+      "t": 1815.6,
+      "end": 1835.8,
+      "text": "stored regardless of any termination of your contract with Microsoft so even if you stop to pay subscription we must continue keep this data even if customer go to bankruptcy forcey solution whatever must keep from the last uh fiscal year minimum for five years this data and all encrypted"
+    },
+    {
+      "t": 1835.8,
+      "end": 1855.8,
+      "text": "booking data must be decrypted into a structure and machine readable format so this is a this is this was a big challenge this were the big challenges with looking all these requirements and we try to find the best solution for that not to make over complicated for implementation so right now"
+    },
+    {
+      "t": 1855.8,
+      "end": 1869.5,
+      "text": "you do not need to do anything from your side what we are doing busy Central export require data on a daily basis to secure Asia Bob uh blob storage we will um export transaction data and digital"
+    },
+    {
+      "t": 1869.5,
+      "end": 1889.6,
+      "text": "vouchers uh you cannot find this data you do not have any access we do not have access to this data uh they cannot be changed back data or deleted by any user uh everything what is more than 5 years old I say five plus years five plus years after last fiscal year just to be clear about that it it will be"
+    },
+    {
+      "t": 1889.6,
+      "end": 1909.6,
+      "text": "automatically removed from our storage so we will not keep this data forever forever only the last five years after your uh end of your fiscal year so we have automated process for removing because we want to behave uh related with gdpr instructions and we can keep only what is uh requ maximum what is required by"
+    },
+    {
+      "t": 1909.6,
+      "end": 1929.6,
+      "text": "the Low by the low it is required 5 years and we are doing only this and this is updated in our terms of use uh to start this uh updating you must have your CVR number in compan information without that we cannot export um your data"
+    },
+    {
+      "t": 1929.6,
+      "end": 1949.6,
+      "text": "but on the other side we had to prevent non-exporting data because this is required by the laow we must export your data we must keep your data so we blocked all General lged transactions if you didn't enter your CVR number so you must enter your CVR number in company information if you want to use this company for transactions"
+    },
+    {
+      "t": 1949.6,
+      "end": 1969.7,
+      "text": "so you can create a company you can create for example as a master data company no problem you will not be enforced to use c number if you don't have transactions but if you want to have transactions you must enter your CV number and C number is not essential only for that this is essential for sft for invoicing uh evat for many"
+    },
+    {
+      "t": 1969.7,
+      "end": 1990,
+      "text": "other things and just to be clear CVR number in Denmark is a registered number in company information let me say CV number we think on register number in company information and let's be more transparent we want to be absolutely transparent with you so this is set of table what we will export you can see"
+    },
+    {
+      "t": 1990,
+      "end": 2000.8,
+      "text": "in this second sentence actually this is set of table but not all fields we are exporting only minimal set of fields required by the law actually required by theba"
+    },
+    {
+      "t": 2000.8,
+      "end": 2021,
+      "text": "so you will see uh transaction data GL entry customer Ledger entry tell customer vendor and so on so on you can you can see on this um purple box then in a light blue if I'm not wrong with the colors you can see documents sales invoice header sales invoice line credit memo header lines purchase invoice purchase credit"
+    },
+    {
+      "t": 2021,
+      "end": 2041.2,
+      "text": "memo header reminders that all documents related with some transactions will be here even post general journal lines then in the right side you have some additional information Master data actually currency currey ex change rates uh general ledger account customer rendor bank account fix ass set depreciation book it fixes ass set depreciation"
+    },
+    {
+      "t": 2041.2,
+      "end": 2061.5,
+      "text": "book because all of this information are required so um theba can control if something is wrong in uh uh other transactions we cannot use this data we do not have access there as you do not have and only if uh official uh DBA"
+    },
+    {
+      "t": 2061.5,
+      "end": 2081.6,
+      "text": "requirements comes to us to DBA or prosecutor someone who has uh uh this power to ask this data from Microsoft Microsoft will deliver them as protected so this is not something what we will do uh intentionally for any other purpose we are keeping this only for this situation so if we are enforced by the law but some agency from"
+    },
+    {
+      "t": 2081.6,
+      "end": 2098.4,
+      "text": "Denmark with this power we will deliver this data to them only one way and as there were many misunderstanding about CIA number I wanted to WRA up a bit more about CA number what is about when you are blocked when you are not"
+    },
+    {
+      "t": 2098.4,
+      "end": 2118.4,
+      "text": "um Pro probably this is everything is uh too complicated so I just wanted to Dr up this again okay we have company information and we are talking only a production environment in sandbox environment you can use without any problem and I didn't mention uh as I said in uh sandbox environment you can um uh turn off this"
+    },
+    {
+      "t": 2118.4,
+      "end": 2138.4,
+      "text": "notification for example from the moment you enter CV number you cannot remove the CV number in production company this is important but if you copy production comp to new one CVR number will not be copied so everything will be copied except CVR number in company information so you can easily create copy of your company and you will not be blocked so"
+    },
+    {
+      "t": 2138.4,
+      "end": 2158.5,
+      "text": "only your production company for the moment entering CV number it will be blocked so if you want and you cannot delease this company anymore this is related for production environment and company with a CVR number now if you want to test don't do this in production environment use sandbox environment because you don't have any problem"
+    },
+    {
+      "t": 2158.5,
+      "end": 2179.6,
+      "text": "to test to make any test in a sandbox environment in production you cannot because this is required by the law now we have CVR number there what if I didn't populate CVR number company information you will see notification that you are not register with name handle this is not blocker this is just annoying"
+    },
+    {
+      "t": 2179.6,
+      "end": 2199.6,
+      "text": "notification then um user cannot post to general ledger this is not because of name handle notification this is because you are enforced to have CVA number so we can export data for keeping for five years so without CVR number you will get a no notification but you"
+    },
+    {
+      "t": 2199.6,
+      "end": 2220,
+      "text": "do not this is not now mandatory to be registered with name handle you will be blocked because you didn't enter CVA number now when you enter CVA number but you are still not register with name handle notification will disappear that's okay you will not have this notification anymore but and uh sorry I just said"
+    },
+    {
+      "t": 2220,
+      "end": 2240,
+      "text": "wrong thing this notification will see ex this because you are not register vam handle but you will be unblocked so you can continue uh posting without any problem but you are not registered and you will still have this notification and now if you have CVR number and you are registered with them handle you of course you will not be blocked because you already have"
+    },
+    {
+      "t": 2240,
+      "end": 2260.4,
+      "text": "CVR number but notification will disappear notification for n registration it will disappear because now you have CV number and you register with name handle no problem production company as I mentioned in the beginning cannot be deleted and again just to emphasize if you copy this company"
+    },
+    {
+      "t": 2260.4,
+      "end": 2271.8,
+      "text": "to the production environment as new company CVR number will not be copied so this new copied uh company can be deleted until you enter new CVR"
+    },
+    {
+      "t": 2271.8,
+      "end": 2291.8,
+      "text": "number that's it about uh what is updated because this is mostly not what is new what is updated I want to share with you these two links a compliance explanation this is on our uh learning page you can find uh article by article from um DBA and how we comply with all of them and you can"
+    },
+    {
+      "t": 2291.8,
+      "end": 2304.9,
+      "text": "find on new every specific terms here on the second link so you can find uh everything about Leal perspective and then we have officially a registered number VBA fob 46"
+    },
+    {
+      "t": 2304.9,
+      "end": 2325.1,
+      "text": "7715 and you can find these documents in this compliance explanation on our docs page as well um yes I want to encourage you to watch all sessions but these two sessions will be important for you because now you will be en forced to use e documents so uh I I definitely I think it' be good idea"
+    },
+    {
+      "t": 2325.1,
+      "end": 2345.6,
+      "text": "to look what is new in E documents I didn't talk too much about e documents in this session because we have independent session about e documents and we have one really great automation great example of using co-pilot so you can watch introducing e invoicing matching with co-pilot this is in purchase process so you can automate matching your purchase order with incoming"
+    },
+    {
+      "t": 2345.6,
+      "end": 2365.7,
+      "text": "electronic documents um please use some of these resources bcam we are open there for communication just to remind you we had all the time open Denny bookkeeping EG channel for direct communication about that and we are trying to be transparent of all other functionality what where we are doing so you can directly communicate with produ group"
+    },
+    {
+      "t": 2365.7,
+      "end": 2385.9,
+      "text": "AK msbc uh Yammer we can communicate on on Twitter or X join our BC office hours and all your ideas please submit to BC ideas this is the best way how you can uh get more people who think the same as you who will vote for this idea and this is the the best sign we need to improve something"
+    },
+    {
+      "t": 2385.9,
+      "end": 2406.3,
+      "text": "in a busy Central or to add maybe some missing feature if you cannot remember all of these things uh use akm Ms BC all so all these links can find there and one important because this is local feature use AK msbc alerts every time when you see the some new upcoming regulatory"
+    },
+    {
+      "t": 2406.3,
+      "end": 2426.4,
+      "text": "requirements uh will show in your country let us know in advance because we cannot track all of them be trying but sometimes maybe some of important uh new regulatory things will miss and let us know even if you have 10 times the same requirement this is much better than not to get this regulatory requirement at all"
+    },
+    {
+      "t": 2426.4,
+      "end": 2443.2,
+      "text": "and uh join us on Q&A session both Arthur and I will be there so we will try to probably to clarify maybe this is still something is not clear enough so we will try to clarify to answer on your questions please join us there and thank you for watching the"
+    },
+    {
+      "t": 2443.2,
+      "end": 2444,
+      "text": "session"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 6714
+}

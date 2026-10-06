@@ -1,0 +1,203 @@
+{
+  "video_id": "HI7VcPzR2OE",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 14.9,
+      "end": 28.3,
+      "text": "hi and welcome to this session on what's new in financial management it's an overview session of the features and improvements we've done to financial management in business Central in this uh"
+    },
+    {
+      "t": 28.3,
+      "end": 48.4,
+      "text": "2024 wave one Rel my name is Brian nson I'm a program manager with the business Central team and I'll take you through the features we made quite a few improvements some of these improvements uh have their own videos we have done GL revaluation or currency code on"
+    },
+    {
+      "t": 48.4,
+      "end": 65.5,
+      "text": "G general ledger entries uh We've added some Excel reports more to come we've done uh improvements to consolidation and we have focused on collection management where we have created a new role Center and improved the reminder process all of these"
+    },
+    {
+      "t": 65.5,
+      "end": 80.5,
+      "text": "capabilities have their own video so I won't go into much detail here and then we have uh allowing zero lines in recurring journals with the fix method nice little Improvement"
+    },
+    {
+      "t": 80.5,
+      "end": 100.7,
+      "text": "and we have also enabled currency posting to employee lers that we introduced a few releases ago so let's just take take a a brief look at each of these features so you know where to find them and and what they will do for you but for the top ones uh go and find the"
+    },
+    {
+      "t": 100.7,
+      "end": 121.2,
+      "text": "video that digs a little deeper into these topics so GL revaluation has been the top idea on the BC idea site for a long time in the GL account card you will now be able to specify when you're posting a journal or a doc ment"
+    },
+    {
+      "t": 121.2,
+      "end": 141.4,
+      "text": "um with currency whether you will accept for this DL account that currencies are posted with the same currency which you will then specify maybe you just want um transactions in one currency it could be that you will only allow local currency and you don't want any currency transactions to it it's also"
+    },
+    {
+      "t": 141.4,
+      "end": 162.1,
+      "text": "an option uh you may want multiple currencies uh or in this case uh I'm I'm about to select blank here you will allow any currency you will also be able to set a small toggle whether you want revaluation to happen for for this account and you can also decide whether"
+    },
+    {
+      "t": 162.1,
+      "end": 182.4,
+      "text": "that adjustment or reevaluation entry will go to unrealized or realized uh adjustment accounts so if you decide that you will accept multiple currencies um there's a small uh Associated table with the GL account where you can specify which accounts oh sorry"
+    },
+    {
+      "t": 182.4,
+      "end": 202.6,
+      "text": "which currencies are allowed when you post currency transactions and finally once you've done it there is a badge job in the CH of accounts where you can execute um an adjustment badge job that will then create adjustment entries that you can post and because it's a journal with some entries"
+    },
+    {
+      "t": 202.6,
+      "end": 223.4,
+      "text": "you can go in and and adjust them and validate them before you post we have added uh a set of excel reports in this uh major release that comes out here in April there are eight new reports they are uh suffixed with a preview tag because we expect"
+    },
+    {
+      "t": 223.4,
+      "end": 240.5,
+      "text": "to make changes to them and small improvements um in this first release there are eight uh I know that we are working on the next 12 uh reports and the complete list is somewhere between 25 and 30 depending on"
+    },
+    {
+      "t": 240.5,
+      "end": 261.1,
+      "text": "on how you see it uh the new reports like the the ones that are in here now are trial balances like your on general ledger and we have some AIDS receivables AIDS payables and a top list for customers and vendors one of the reports uh could look like this this is the8"
+    },
+    {
+      "t": 261.1,
+      "end": 280.7,
+      "text": "receivables Excel reports uh can manage a lot of data but there are still some restriction and limitations so we have uh in in the first batch of reports focused on the reports that still makes a lot of sense uh looking at in Excel even though they're"
+    },
+    {
+      "t": 280.7,
+      "end": 300.8,
+      "text": "aggregated um most of these reports will have one or multiple uh report Pages we call them that like in this case there's a report where you have eight receivables by period in local currency in the functional currency um and sometimes one or or two EXT pivots on"
+    },
+    {
+      "t": 300.8,
+      "end": 320.9,
+      "text": "on data if it makes uh sense in in the in the given report the underlying data is in um a separate table so that if you want to create your own reports you can just refer to this and start creating your own uh report maybe you want it by period maybe you want it to to break it down by"
+    },
+    {
+      "t": 320.9,
+      "end": 332,
+      "text": "customer group or something else uh you can do that because the underlying data is there compared to a normal report from business Central but it is still aggregated data"
+    },
+    {
+      "t": 332,
+      "end": 352.1,
+      "text": "and if you want to uh to dig deeper you will have to wait to one of the minor releases where some of the reports will contain more detailed uh data uh you will have general ledger entries in the detailed trial balance uh the accounts receivables I know um you will probably want to"
+    },
+    {
+      "t": 352.1,
+      "end": 372.4,
+      "text": "look at at customer L entries they will come with the customer balance to date report uh and similarly for for other reports so you'll get your details but remember it is it is Excel it's not a full copy of the database um so there are use cases where this is more relevant to"
+    },
+    {
+      "t": 372.4,
+      "end": 392.4,
+      "text": "use another Improvement is the uh consolidation feature we have helped the user manage uh currencies when you're doing consolidations we have enabled the user to while they're in the process of doing consolation to look up the currency exchange rate and if they're trying to recover from a mistake they can also"
+    },
+    {
+      "t": 392.4,
+      "end": 407.9,
+      "text": "look up previous runs and and pick rates from there um that is an important aspect of of recovery from or rerunning previous periods in consolation and you'll be able to get a better overview of currencies while you're doing"
+    },
+    {
+      "t": 407.9,
+      "end": 428.2,
+      "text": "consolidation another theme in this release for finance is collection management or account receivables um the process of sending out payment request uh applying payments uh to outstanding invoices and keep tracking of your account receivables is um something that consumes a lot of resources"
+    },
+    {
+      "t": 428.2,
+      "end": 443.1,
+      "text": "and time in the finance department so we decided to focus a little more on on this in this release and the coming releases you'll see some more um to make it um a better process and for the user to get better"
+    },
+    {
+      "t": 443.1,
+      "end": 463.2,
+      "text": "overviews so we started with a new role center for the account receivables administrator that gives you the navigation to the places you want to go to and the task you want to execute while you're doing accountables uh the role Center has some cues so you can keep track of what's going on in your business what are the outstanding invoices the balance"
+    },
+    {
+      "t": 463.2,
+      "end": 480.4,
+      "text": "and so forth we've also improved the reminder um or sending out uh reminders process uh We've improved how you set up the terms especially around tailoring uh the email"
+    },
+    {
+      "t": 480.4,
+      "end": 500.5,
+      "text": "text um when you're sending out reminders because maybe you want to tailor them to uh to the first email that you sent out versus the last email you sent out to ask for for payments uh but that is all good you get better overview you get a better uh setup but we also decided that"
+    },
+    {
+      "t": 500.5,
+      "end": 521.4,
+      "text": "maybe it's time that we also help you with the the full process so we added automation for reminders and that will help you create issue and sending out reminders so you basically don't have to do anything other than setting it up and follow along and of course from time to time pick up the phone and talk to customers"
+    },
+    {
+      "t": 521.4,
+      "end": 533.5,
+      "text": "but it has its separate video where where we go deeper in in this feature we've also added the ability to keep zero lines in general journal General recurring"
+    },
+    {
+      "t": 533.5,
+      "end": 553.3,
+      "text": "journals journals in in general we don't like to post zero to Jour ledger so so we block you and and throw up a warning asking you to get either add uh an amount or get rid of the line that is causing the error this is all good when you're posting journals but in recurring"
+    },
+    {
+      "t": 553.3,
+      "end": 573.5,
+      "text": "journals uh where you maybe posting acrs that are the same from from period to period you want to keep the line because you want to go and modify each of them uh in each one and here I'm referring to when you're using the fixed uh method like where you set the amount it could be payroll"
+    },
+    {
+      "t": 573.5,
+      "end": 593.5,
+      "text": "it could be acels it could be something else Revenue recognition and you have a set of lines that you want to keep track of sometimes the amount for a given period is zero uh and normally it would cause an error but now when you post we will just keep the line it will it won't be posted as a zero line it will"
+    },
+    {
+      "t": 593.5,
+      "end": 613.9,
+      "text": "it will just be ignored just as when you're doing the balance methods and lastly but not least um we introduced um employee ledgers um a few years back uh at that time we focused uh on"
+    },
+    {
+      "t": 613.9,
+      "end": 634.2,
+      "text": "local currency because we thought if you have employees you will reimburse them in local currency so you when you type in something you may want to converted to local currency and but but you still only need the local currency amount but a lot of feedback has been uh sent our way"
+    },
+    {
+      "t": 634.2,
+      "end": 654.8,
+      "text": "asking us to enable to post to with currencies in employee ledes just just as you would for customers and vendors and also to keep track of it and also to adjust balances if that's the case so we now allow you to not only select currency for employees"
+    },
+    {
+      "t": 654.8,
+      "end": 674.8,
+      "text": "but you will also see it uh in the general ler so you can uh look it up for example if you want to validate something take a look at uh these new Eight Features we have in financial management or take a look at the videos for some of them where we dig a little deeper in how they work and where you uh start the"
+    },
+    {
+      "t": 674.8,
+      "end": 695.6,
+      "text": "the different features if you have uh ideas go to for example BC ideas create a new idea or vote for for any of the existing ones and provide us with some input for improving or maybe new features uh we go through each one of them uh for example the GL revaluation or currency code on"
+    },
+    {
+      "t": 695.6,
+      "end": 711.6,
+      "text": "GL uh is from BC ideas the uh currency code uh with employee ledgers is also from from ideas so we do listen so do go in and give us feedback thank you for joining this"
+    },
+    {
+      "t": 711.6,
+      "end": 713,
+      "text": "session"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1803
+}

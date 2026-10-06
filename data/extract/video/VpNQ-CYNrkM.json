@@ -1,0 +1,397 @@
+{
+  "video_id": "VpNQ-CYNrkM",
+  "item_id": "video/yt-microsoft/VpNQ-CYNrkM",
+  "title": "What's New: Web Services in Business Central (2024 release wave 1)",
+  "duration_s": 839,
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "cookies support",
+    "http client",
+    "odata",
+    "api performance",
+    "web service queue",
+    "soap deprecation",
+    "delta links removal",
+    "api schema version"
+  ],
+  "chapters": [
+    {
+      "title": "HTTP Client Cookies Support",
+      "t_start": 0,
+      "t_end": 220.3
+    },
+    {
+      "title": "OData Improvements and API Performance",
+      "t_start": 220.3,
+      "t_end": 296.5
+    },
+    {
+      "title": "OData vs SOAP Strategy",
+      "t_start": 296.5,
+      "t_end": 334
+    },
+    {
+      "title": "Web Service Request Queue Per User",
+      "t_start": 334,
+      "t_end": 556.7
+    },
+    {
+      "title": "Documentation and Server Optimization",
+      "t_start": 556.7,
+      "t_end": 624.6
+    },
+    {
+      "title": "Breaking Changes and Deprecations",
+      "t_start": 624.6,
+      "t_end": 742.2
+    },
+    {
+      "title": "Call to Action and Related Sessions",
+      "t_start": 742.2,
+      "t_end": 839
+    }
+  ],
+  "features": [
+    {
+      "name": "Cookie Support in HTTP Client",
+      "description": "New cookie data type and full support for cookies in HTTP client including caching. Allows developers to use cookies in third-party applications and HTTP requests. Includes new methods like use response cookies, get cookie names, get cookie, and set cookie on request and response message data types.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 30.5,
+      "t_end": 156.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "cookies",
+        "http client",
+        "data type",
+        "al methods"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Direct Support for PATCH Method",
+      "description": "Native support for the PATCH HTTP method in the HTTP client data type. Not yet shipped but expected in a minor release after this wave.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 168.7,
+      "t_end": 207.5,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in a minor release, not in this wave"
+      ],
+      "tags": [
+        "http client",
+        "patch method",
+        "upcoming"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "OData in Operator Support",
+      "description": "Support for the in operator in OData queries as shorter notation instead of multiple equals conditions. Allows filtering with a list of values.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 244.9,
+      "t_end": 256.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "odata",
+        "query operator",
+        "filtering"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "OData Performance Optimization",
+      "description": "Performance improvements for OData by reducing the number of calls and changing the find logic. Uses find first for one row, find for two to 50 rows, and find set for more than 50 rows based on the top operator or max page size.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 256.9,
+      "t_end": 277.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "odata",
+        "performance",
+        "optimization",
+        "find logic"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Per-User Web Service Request Queue",
+      "description": "Changed from a global queue of five requests per tenant to a queue per user. Each user can execute up to three requests immediately without queueing. Provides higher throughput and prevents one user from starving other users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 344,
+      "t_end": 428.9,
+      "is_demoed": false,
+      "caveats": [
+        "Still subject to global service protection limit with HTTP 429 responses possible",
+        "Global limit is applied with round robin when reached"
+      ],
+      "tags": [
+        "web service queue",
+        "throughput",
+        "user session",
+        "concurrency"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Session Resource Optimization",
+      "description": "Server-level refactoring to optimize how sessions are handled, allowing them to use significantly fewer resources. This internal optimization enables support for more concurrent requests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 542.4,
+      "t_end": 556.7,
+      "is_demoed": false,
+      "caveats": [
+        "Internal optimization, not visible as new AL methods or APIs"
+      ],
+      "tags": [
+        "session handling",
+        "resource optimization",
+        "server refactoring"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Web Services Documentation Expansion",
+      "description": "Significant expansion of documentation for incoming and outgoing web services. New content on troubleshooting web service errors and performance, HTTP client documentation, and guidance on using external APIs and Azure modules.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 589.6,
+      "t_end": 624.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "troubleshooting",
+        "web services",
+        "http client"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Delta Links Removal",
+      "description": "Delta links with APIs have been removed in this wave. Setting OData track changes in the HTTP header has no effect. This removal was announced a couple of years prior.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 637,
+      "t_end": 650.8,
+      "is_demoed": false,
+      "caveats": [
+        "Previously announced deprecation"
+      ],
+      "tags": [
+        "delta links",
+        "breaking change",
+        "odata",
+        "removal"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "API Schema Version 2.0 Default",
+      "description": "API schema version now defaults to 2.0 in this wave. Older versions can still be used by setting the API version in the HTTP header.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 650.8,
+      "t_end": 664.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "api schema",
+        "version management",
+        "http header"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "API Version 1 Deprecation",
+      "description": "Upcoming breaking change where API version 1 will be removed in version 26 or later. Developers can explicitly set V1 for now but should plan migration to newer versions.",
+      "status": "announced",
+      "status_evidence_t": 664.5,
+      "status_evidence_quote": "In a later version, version 26 or later, API version 1 will be removed.",
+      "status_evidence_verified": true,
+      "t_start": 664.5,
+      "t_end": 678.2,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in version 26 or later"
+      ],
+      "tags": [
+        "api version",
+        "deprecation",
+        "breaking change",
+        "upcoming"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "SOAP Web Services Removal on Microsoft Pages",
+      "description": "SOAP web services on pages owned by Microsoft publisher will be removed in a later release. Developers will no longer be able to open SOAP web services on Microsoft pages through the web services page.",
+      "status": "announced",
+      "status_evidence_t": 690.7,
+      "status_evidence_quote": "SOAP web services on pages in the Microsoft owned by Microsoft publisher that will be removed in a later release.",
+      "status_evidence_verified": true,
+      "t_start": 678.2,
+      "t_end": 703.6,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in a later release",
+        "Only applies to Microsoft-owned pages"
+      ],
+      "tags": [
+        "soap",
+        "breaking change",
+        "deprecation",
+        "microsoft pages"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "cookie data type",
+      "t": 65
+    },
+    {
+      "type": "other",
+      "name": "HTTP response message data type",
+      "t": 103.4
+    },
+    {
+      "type": "other",
+      "name": "HTTP request message data type",
+      "t": 115.3
+    },
+    {
+      "type": "other",
+      "name": "use response cookies method",
+      "t": 77
+    },
+    {
+      "type": "other",
+      "name": "use request cookies method",
+      "t": 156.3
+    },
+    {
+      "type": "other",
+      "name": "web services page",
+      "t": 690.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kenny Pontoppidan",
+      "confidence": "high"
+    },
+    {
+      "name": "Jens Møller Pedersen",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 30.5,
+      "text": "In this wave, we added support for cookies in HTTP client.",
+      "why_it_matters": "Confirms that cookie support is a new feature in the 2024 release wave 1, moving from no support to full support.",
+      "check": "exact"
+    },
+    {
+      "t": 65,
+      "text": "We have a new cookie data type, new AL methods to handle cookies, and also a way to reuse cookies in in later responses",
+      "why_it_matters": "Describes the comprehensive nature of the cookie support implementation including data types, methods, and caching mechanism.",
+      "check": "exact"
+    },
+    {
+      "t": 168.7,
+      "text": "We didn't make it for this release, but we expect to ship it in a minor release, which is direct support for patch.",
+      "why_it_matters": "Clarifies the timeline and status of PATCH method support, indicating it is coming soon but not in this wave.",
+      "check": "exact"
+    },
+    {
+      "t": 358.5,
+      "text": "Now, you have a queue per user. So, if a user has three requests, they will be executed immediately.",
+      "why_it_matters": "Explains the architectural change from global queue to per-user queue, improving concurrent request handling.",
+      "check": "exact"
+    },
+    {
+      "t": 542.4,
+      "text": "We have optimized the way we have handle sessions, so that we use a lot less resources just to keep a session alive, which",
+      "why_it_matters": "Reveals significant server-level optimization work that enables the increased web service request capacity.",
+      "check": "exact"
+    },
+    {
+      "t": 637,
+      "text": "Delta links with APIs is now removed. That was announced a couple of years back, which means if you set the OData track a",
+      "why_it_matters": "Confirms the removal of delta links feature and explains the impact on OData track changes HTTP header.",
+      "check": "exact"
+    },
+    {
+      "t": 664.5,
+      "text": "In a later version, version 26 or later, API version 1 will be removed.",
+      "why_it_matters": "Specifies the timeline for removing API version 1, giving developers notice to migrate to newer versions.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 168.7,
+      "kind": "coming-later",
+      "text": "Direct support for patch in HTTP client expected in a minor release after this wave"
+    },
+    {
+      "t": 664.5,
+      "kind": "coming-later",
+      "text": "API version 1 will be removed in version 26 or later"
+    },
+    {
+      "t": 678.2,
+      "kind": "coming-later",
+      "text": "SOAP web services on Microsoft pages will be removed in a later release"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.03047
+    }
+  ]
+}

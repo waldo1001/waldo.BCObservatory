@@ -1,0 +1,1036 @@
+{
+  "video_id": "kAFdLxb2ghc",
+  "item_id": "video/yt-microsoft/kAFdLxb2ghc",
+  "title": "What's New: E-Documents (2024 release wave 1)",
+  "duration_s": 2183,
+  "systems": [
+    "integration",
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "e-documents",
+    "electronic invoicing",
+    "purchase order matching",
+    "paypal b3 format",
+    "peppol format",
+    "data exchange",
+    "localization",
+    "workflow automation",
+    "audit logs",
+    "copilot",
+    "extensibility",
+    "vendor matching"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and module overview",
+      "t_start": 0,
+      "t_end": 90.8
+    },
+    {
+      "title": "E-documents architecture and apps structure",
+      "t_start": 90.8,
+      "t_end": 171.9
+    },
+    {
+      "title": "Framework for localization and extensibility",
+      "t_start": 171.9,
+      "t_end": 244.9
+    },
+    {
+      "title": "Messaging model and document exchange flow",
+      "t_start": 244.9,
+      "t_end": 362.2
+    },
+    {
+      "title": "PayPal B3 format support",
+      "t_start": 362.2,
+      "t_end": 438.3
+    },
+    {
+      "title": "Third-party access point integration and authentication",
+      "t_start": 438.3,
+      "t_end": 519.2
+    },
+    {
+      "title": "Localization roadmap",
+      "t_start": 519.2,
+      "t_end": 611.6
+    },
+    {
+      "title": "Purchase order matching for incoming e-documents",
+      "t_start": 611.6,
+      "t_end": 753.2
+    },
+    {
+      "title": "Demo data and testing setup",
+      "t_start": 753.2,
+      "t_end": 891.6
+    },
+    {
+      "title": "Data Exchange Definition Setup",
+      "t_start": 891.6,
+      "t_end": 1034
+    },
+    {
+      "title": "Sales Process and Invoice Posting",
+      "t_start": 1034,
+      "t_end": 1127.5
+    },
+    {
+      "title": "E-Document Workflow and Audit Logs",
+      "t_start": 1127.5,
+      "t_end": 1248.8
+    },
+    {
+      "title": "Purchase Process and Matching Interface",
+      "t_start": 1248.8,
+      "t_end": 1495.9
+    },
+    {
+      "title": "Manual Matching Workflow and Purchase Order Updates",
+      "t_start": 1495.9,
+      "t_end": 1608.8
+    },
+    {
+      "title": "Framework Extensibility, Closing and Communication",
+      "t_start": 1608.8,
+      "t_end": 2183
+    }
+  ],
+  "features": [
+    {
+      "name": "E-documents core app",
+      "description": "A new dedicated application for e-documents functionality, separate from the base app to maintain compatibility with existing partner-based localizations in non-Microsoft supported countries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 70.8,
+      "t_end": 111.2,
+      "is_demoed": false,
+      "caveats": [
+        "Some e-documents functionality remains in base app to avoid breaking changes",
+        "Aims for more than 80% of common features"
+      ],
+      "tags": [
+        "e-documents",
+        "architecture",
+        "app-separation"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Third-party access point integration app",
+      "description": "An app for connecting with third-party access points and service providers, including authentication model, communication model, and messaging model for external e-document services.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 438.3,
+      "t_end": 478.7,
+      "is_demoed": false,
+      "caveats": [
+        "Currently supporting only one access point",
+        "Planning to add more access points in future"
+      ],
+      "tags": [
+        "access-points",
+        "integration",
+        "third-party"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "PayPal B3 format support",
+      "description": "Support for PayPal B3 format, the most used format globally, delivered both as pure code implementation and as data exchange definition with field mapping capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 362.4,
+      "t_end": 438.3,
+      "is_demoed": false,
+      "caveats": [
+        "Requires developers to build custom formats if not using PayPal B3 or data exchange definitions"
+      ],
+      "tags": [
+        "paypal",
+        "format",
+        "data-exchange"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Data exchange definition for e-documents",
+      "description": "A feature allowing users to map incoming and outgoing documents with specific data exchange definitions instead of using code, providing a faster alternative to code-based format implementation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 418,
+      "t_end": 1034,
+      "is_demoed": true,
+      "caveats": [
+        "Must configure supported document types on the service",
+        "Requires document sending profile selection on customer"
+      ],
+      "tags": [
+        "data-exchange",
+        "mapping",
+        "configuration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Danish localization with PayPal and OBL",
+      "description": "Localization for Denmark supporting both PayPal B3 and OBL formats, fully compliant with Danish requirements and regulations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 519.2,
+      "t_end": 539.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "localization",
+        "denmark",
+        "obl"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Belgian localization with PayPal",
+      "description": "Localization for Belgium delivering PayPal format support, fully compliant with Belgian requirements and regulations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 539.7,
+      "t_end": 559.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "localization",
+        "belgium"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Purchase order matching for incoming e-documents",
+      "description": "Functionality to automatically match incoming electronic purchase documents with existing purchase orders in the system, or to automatically create new purchase orders if none exist. Supports one-to-one, one-to-many, and many-to-one matching.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 652,
+      "t_end": 753.2,
+      "is_demoed": true,
+      "caveats": [
+        "Manual matching available as fallback if Copilot cannot be used"
+      ],
+      "tags": [
+        "purchase-order",
+        "matching",
+        "automation"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Copilot-assisted purchase order matching",
+      "description": "AI-powered matching capability for incoming e-documents to purchase orders, built on top of the purchase order matching framework.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 733.1,
+      "t_end": 753.2,
+      "is_demoed": false,
+      "caveats": [
+        "Manual matching available as alternative when Copilot cannot be used"
+      ],
+      "tags": [
+        "copilot",
+        "matching",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "E-documents demo data module",
+      "description": "A new Contoso demo module providing pre-configured items, setup, and sample data for both sales and purchase processes to test e-documents functionality without manual file creation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 753.2,
+      "t_end": 911.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Commerce module and Warehouse module to be enabled first"
+      ],
+      "tags": [
+        "demo-data",
+        "contoso",
+        "setup"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "E-Document Framework",
+      "description": "A new framework enabling electronic document handling for both sales and purchase processes with built-in workflow automation and audit capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 793.4,
+      "t_end": 891.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Warehouse module and Comma module to be enabled first",
+        "No service integration included in demo"
+      ],
+      "tags": [
+        "framework",
+        "setup",
+        "workflow"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Peppol Format E-Document Service",
+      "description": "E-document service supporting the Peppol format with two solution types: code solution based on existing XMLports and a data exchange solution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 911.9,
+      "t_end": 973.1,
+      "is_demoed": true,
+      "caveats": [
+        "Code solution based on pre-existing XMLports",
+        "Data exchange solution is separate approach"
+      ],
+      "tags": [
+        "peppol",
+        "format",
+        "data-exchange"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "E-Document Workflow Automation",
+      "description": "Background workflow that automatically executes when a supported document type is posted, exports the document in selected format, and logs all actions for audit purposes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1127.5,
+      "t_end": 1228.7,
+      "is_demoed": true,
+      "caveats": [
+        "Runs in background jobs",
+        "Would send documents if service integration is configured",
+        "User does not interact with workflow directly"
+      ],
+      "tags": [
+        "workflow",
+        "automation",
+        "background-jobs"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "E-Document Audit Logs",
+      "description": "Lock-based audit trail that records every step of e-document processing from export to potential sending, allowing users to track and inspect document status and modifications.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1187.9,
+      "t_end": 1248.8,
+      "is_demoed": true,
+      "caveats": [
+        "Users must navigate to e-document details to view audit trail",
+        "Service logs only shown if service integration is configured"
+      ],
+      "tags": [
+        "audit",
+        "logging",
+        "tracking"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Purchase Order Matching",
+      "description": "Feature that automatically links incoming e-documents to existing purchase orders and displays matched purchase orders on the role center for manual or assisted matching of document lines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1266.8,
+      "t_end": 1338.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual matching of lines",
+        "Copilot assistance available in separate feature"
+      ],
+      "tags": [
+        "matching",
+        "purchase-order",
+        "automation"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "E-Document Line Matching Interface",
+      "description": "Bank reconciliation-style interface for matching e-document imported lines to purchase order lines with visual indicators, quantity tracking, and detailed match inspection capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1338.3,
+      "t_end": 1495.9,
+      "is_demoed": true,
+      "caveats": [
+        "Supports multi-select and many-to-one or one-to-many matching",
+        "Cost differences are allowed with notification",
+        "Matching quantity must equal document quantity"
+      ],
+      "tags": [
+        "matching",
+        "interface",
+        "ui"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "E-Document Cost Variance Handling",
+      "description": "System allows matching e-document lines to purchase order lines even when costs differ, with notifications to ensure user awareness of the variance before applying to purchase order.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1495.9,
+      "t_end": 1536.1,
+      "is_demoed": true,
+      "caveats": [
+        "User must manually accept cost variance",
+        "Purchase order will be updated with received cost if accepted"
+      ],
+      "tags": [
+        "cost",
+        "variance",
+        "matching"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Purchase Order Update with E-Document Data",
+      "description": "Matched e-document lines automatically update purchase order with correct cost, discount, quantity to invoice, vendor invoice number, and document date from the e-document.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1548.2,
+      "t_end": 1608.8,
+      "is_demoed": true,
+      "caveats": [
+        "Updates are applied after manual matching approval",
+        "Final invoice posting still requires user action"
+      ],
+      "tags": [
+        "purchase-order",
+        "update",
+        "automation"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Sales Invoice E-Document Export",
+      "description": "Ability to post sales invoices and automatically export them as e-documents in configured format through the workflow framework with reference number support.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1054.2,
+      "t_end": 1127.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires document sending profile with e-documents enabled on customer",
+        "Peppol format requires reference number field"
+      ],
+      "tags": [
+        "sales",
+        "export",
+        "invoice"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "E-Document File Export and Download",
+      "description": "Users can download exported e-document files to inspect format and content when file size is recorded in the system.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1208,
+      "t_end": 1248.8,
+      "is_demoed": true,
+      "caveats": [
+        "Only available when file size is present"
+      ],
+      "tags": [
+        "export",
+        "download",
+        "inspection"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Copilot-Assisted E-Document Matching",
+      "description": "Copilot feature that can automatically match e-document lines to purchase order lines with a single click, particularly helpful for non-exact item matches.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1338.3,
+      "t_end": 1379.2,
+      "is_demoed": false,
+      "caveats": [
+        "Not enabled in demo environment",
+        "Documented in separate session called e invoicing with copilot",
+        "Feature is separate from core e-documents matching"
+      ],
+      "tags": [
+        "copilot",
+        "matching",
+        "ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "E-document vendor invoice matching",
+      "description": "Automatic matching of incoming vendor documents to purchase order lines with cost and discount updates, vendor invoice number and date population.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1568.7,
+      "t_end": 1629,
+      "is_demoed": true,
+      "caveats": [
+        "Can be used with manual invoicing as well"
+      ],
+      "tags": [
+        "purchase",
+        "matching",
+        "automation",
+        "vendor invoice"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "E-documents framework extensibility",
+      "description": "Framework allowing partners to extend e-documents functionality with additional features, localization support, and custom connections to service providers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1649.3,
+      "t_end": 1730,
+      "is_demoed": false,
+      "caveats": [
+        "Partner-based localization recommended over previous approaches"
+      ],
+      "tags": [
+        "extensibility",
+        "framework",
+        "partners",
+        "localization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Document format interface",
+      "description": "Interface for creating and receiving electronic documents, defining how data is read from Business Central and translated back.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1730,
+      "t_end": 1770,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "interface",
+        "export",
+        "import",
+        "framework"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Integration interface for messaging",
+      "description": "Interface for sending and receiving messages to integrate with external service providers and e-invoicing systems.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1730,
+      "t_end": 1770,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "interface",
+        "integration",
+        "messaging",
+        "providers"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "E-document helper code units",
+      "description": "Set of helper code units provided in the framework to assist with e-document processing and extension development.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1750,
+      "t_end": 1770,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "helper",
+        "codeunits",
+        "framework",
+        "development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Copilot support for e-document extensions",
+      "description": "E-document extensions built on the framework automatically gain native co-pilot feature support without additional implementation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1770,
+      "t_end": 1790.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "extension",
+        "automation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Field mapping for export and import",
+      "description": "Capability to translate values during export or import of e-documents before converting between Business Central and electronic document formats.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1850.7,
+      "t_end": 1870.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mapping",
+        "export",
+        "import",
+        "configuration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Background job processing for e-documents",
+      "description": "E-document processing runs in background jobs to avoid interrupting users working with invoices and documents day-to-day.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1870.8,
+      "t_end": 1882.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "background",
+        "processing",
+        "automation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "E-document audit trail",
+      "description": "Complete audit trail recording what happens with each e-document allowing visibility into current state and historical changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1882.4,
+      "t_end": 1902.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "audit",
+        "trail",
+        "logging"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "E-document retention policies",
+      "description": "Configurable retention policies to control how long e-document data is stored before cleanup to manage database size.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1882.4,
+      "t_end": 1902.4,
+      "is_demoed": false,
+      "caveats": [
+        "Large tables may impact performance without retention policies"
+      ],
+      "tags": [
+        "retention",
+        "cleanup",
+        "configuration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "E-document error handling framework",
+      "description": "Framework catches runtime errors in AL code and presents them to users through error logging via helper code units.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1902.4,
+      "t_end": 1922.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "error handling",
+        "framework",
+        "development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "E-document dashboard and status cards",
+      "description": "Dashboard with quick cards showing current status of e-documents and highlighting items requiring user action.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1942.7,
+      "t_end": 1962.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dashboard",
+        "status",
+        "visualization"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Contoso Demo Tool",
+      "t": 853.7
+    },
+    {
+      "type": "other",
+      "name": "E-Document Services",
+      "t": 911.9
+    },
+    {
+      "type": "other",
+      "name": "Data Exchange Definition",
+      "t": 932.6
+    },
+    {
+      "type": "other",
+      "name": "Sales Invoice Export",
+      "t": 973.1
+    },
+    {
+      "type": "other",
+      "name": "E-Document P Invoice Import",
+      "t": 993.3
+    },
+    {
+      "type": "other",
+      "name": "Supported Document Types",
+      "t": 1013.5
+    },
+    {
+      "type": "other",
+      "name": "Document Sending Profile",
+      "t": 1074.2
+    },
+    {
+      "type": "other",
+      "name": "E-Documents",
+      "t": 1167.7
+    },
+    {
+      "type": "other",
+      "name": "E-Document Matching Page",
+      "t": 1379.2
+    },
+    {
+      "type": "other",
+      "name": "Precision Grind Home",
+      "t": 1435.5
+    },
+    {
+      "type": "other",
+      "name": "Smart Grind Home",
+      "t": 1568.7
+    },
+    {
+      "type": "interface",
+      "name": "document format interface",
+      "t": 1730
+    },
+    {
+      "type": "interface",
+      "name": "integration interface",
+      "t": 1730
+    },
+    {
+      "type": "codeunit",
+      "name": "e document helper code units",
+      "t": 1750
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Manos",
+      "confidence": "high"
+    },
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Magnus",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 70.8,
+      "text": "we deliver e doent core app but if you can see this light blue in a Bas app yes some part of e doents",
+      "why_it_matters": "Explains the architectural decision to separate e-documents into a dedicated app while keeping some functionality in the base app to avoid breaking existing partner localizations.",
+      "check": "exact"
+    },
+    {
+      "t": 131.3,
+      "text": "in general we are looking to have more than 80% of all features you will need in documents",
+      "why_it_matters": "Sets expectation for feature completeness in the core e-documents app, indicating what percentage of common functionality is included.",
+      "check": "exact"
+    },
+    {
+      "t": 362.2,
+      "text": "we deliver P format support why because of your feedback when we created first framework we didn't support any format",
+      "why_it_matters": "Demonstrates how customer feedback directly influenced the decision to add PayPal B3 format support in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 519.2,
+      "text": "we deliver localization for Denmark both formas obl and P so you can choose both of them um in Danish um uh environment",
+      "why_it_matters": "Confirms delivery status and format options for the Danish localization at the time of this release.",
+      "check": "exact"
+    },
+    {
+      "t": 539.7,
+      "text": "we are planning additional localizations I cannot say exactly when uh it depends of enforcement from country to country",
+      "why_it_matters": "Provides status on future localization roadmap and explains dependency on country-specific regulatory enforcement timelines.",
+      "check": "exact"
+    },
+    {
+      "t": 631.9,
+      "text": "when it comes to purchase process it becomes uh much more complicated and what we can see more and more countries enforcing uh electronic",
+      "why_it_matters": "Identifies the purchase process as the main complexity driver and regulatory pressure that led to the purchase order matching feature.",
+      "check": "snapped"
+    },
+    {
+      "t": 692.5,
+      "text": "now with the new new release you can match without any problem actually what you can do if there is um no purchase order",
+      "why_it_matters": "Describes the new capability to automatically create purchase orders from incoming e-documents, addressing a major gap from the previous release.",
+      "check": "exact"
+    },
+    {
+      "t": 813.6,
+      "text": "before enable you need to have because there dependency you need to uh first enable comma module and Warehouse module after that you need",
+      "why_it_matters": "Establishes the required module dependencies for e-documents to function, affecting implementation sequence.",
+      "check": "exact"
+    },
+    {
+      "t": 911.9,
+      "text": "the document format that we are actually providing in the framework is the",
+      "why_it_matters": "Specifies the supported document format standard for the e-documents framework.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 973.1,
+      "text": "this is one of the formats that we provide for you out of the box for free",
+      "why_it_matters": "Indicates that sales invoice export and purchase invoice import formats are pre-built and included.",
+      "check": "exact"
+    },
+    {
+      "t": 1147.6,
+      "text": "for this service we will pick it up and run this workflow",
+      "why_it_matters": "Explains the automatic workflow trigger mechanism for e-document export on document posting.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1208,
+      "text": "be locked so that you can easily audit what is going on with a e",
+      "why_it_matters": "Describes the audit trail mechanism using locks to track e-document processing steps.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1307,
+      "text": "that there is a link to one of your existing purchase orders and we automatically link it",
+      "why_it_matters": "Shows the automatic matching capability between incoming e-documents and existing purchase orders.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1395.3,
+      "text": "if you have seen bank reconciliation matching before this is built around the same concept",
+      "why_it_matters": "Establishes the familiar UX pattern for e-document line matching interface.",
+      "check": "exact"
+    },
+    {
+      "t": 1515.9,
+      "text": "we do allow you for you to do a matching where the cost is not",
+      "why_it_matters": "Explains the flexibility in matching rules and cost variance handling.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1629,
+      "text": "system will automatically collect all this information from incoming document to uh do vendor document number they update all lines",
+      "why_it_matters": "Demonstrates the level of automation achieved by e-documents in vendor invoice matching without manual intervention.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1649.3,
+      "text": "this is not even blocker so now you can use everything as a standard is used earlier in busy Central together with e documents",
+      "why_it_matters": "Clarifies that e-documents work alongside existing Business Central functionality without blocking standard processes.",
+      "check": "exact"
+    },
+    {
+      "t": 1669.3,
+      "text": "we want to encourage you to extend this function ality maybe some additional features even we will continue to invest",
+      "why_it_matters": "States the platform's commitment to ongoing investment while inviting partner extensions of e-documents capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 1750,
+      "text": "there are some set of e doent hel helper code units so you can find a lot of interesting information a lot of important",
+      "why_it_matters": "Indicates the framework provides helper utilities for developers building e-document extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 1770,
+      "text": "if you build your own extension on top you get the co-pilot feature as well natively it will work",
+      "why_it_matters": "Shows that co-pilot integration is automatically available in custom e-document extensions without additional coding.",
+      "check": "exact"
+    },
+    {
+      "t": 1850.7,
+      "text": "everything is running in background job so it's not disturbing it's not requiring anything from from those people that are are invoicing",
+      "why_it_matters": "Explains that e-document processing happens asynchronously to minimize user disruption.",
+      "check": "snapped"
+    },
+    {
+      "t": 1882.4,
+      "text": "we lock everything and again this is because that you can all audit what is happening with the E document so there is a",
+      "why_it_matters": "Clarifies that locking mechanisms enable complete audit trails for compliance and transparency.",
+      "check": "exact"
+    },
+    {
+      "t": 1962.8,
+      "text": "the things I just mentioned they are here in in blue then we have our two interfaces both for import export that's one interface",
+      "why_it_matters": "Describes the core components partners must implement to build e-document extensions using the framework.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 458.6,
+      "kind": "coming-later",
+      "text": "currently we are supporting only one access point but we are planning to add more access points there"
+    },
+    {
+      "t": 559.7,
+      "kind": "coming-later",
+      "text": "we are planning additional localizations I cannot say exactly when uh it depends of enforcement from country to country but minimum what we are planning in next two week um we have uh planed German localization Spanish localization and Australian New Zealand localization"
+    },
+    {
+      "t": 591.2,
+      "kind": "coming-later",
+      "text": "we already have um from previous um uh times we have some Legacy e documents in voice hisory documents in Italy and Mexico so we are planning in following period to upgrade Italian and Mexican functionality"
+    },
+    {
+      "t": 1034,
+      "kind": "other",
+      "text": "today we don't have a a service integration you can see it's set to no integration normally when you have a a service in a production environment you would have set up some kind of uh service"
+    },
+    {
+      "t": 1358.4,
+      "kind": "preview",
+      "text": "if you're interested in the new copilot stuff we're doing I think personally it's very cool I would definitely recommend you to watch another session we have called e invoicing with co-pilot"
+    },
+    {
+      "t": 2043.7,
+      "kind": "coming-later",
+      "text": "introducing to e invoicing matching with co-pilot great session uh this part about matching what magot is playing but this time with copilot fully automated"
+    },
+    {
+      "t": 2064.6,
+      "kind": "subject-to-change",
+      "text": "we updated um uh new session with Danish bookkeeping Act features because there are some new things in the meantime happened from uh previous pre previous uh wave"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 23,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 32
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02834
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.034296
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028442
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.05221900000000001
+    }
+  ]
+}

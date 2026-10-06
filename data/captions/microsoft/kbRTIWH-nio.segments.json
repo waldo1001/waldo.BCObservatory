@@ -1,0 +1,556 @@
+{
+  "video_id": "kbRTIWH-nio",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 16.7,
+      "end": 36.9,
+      "text": "all right welcome to the session with the title what's new introducing the business foundation and the number series module my name is yesper Schulz V and I'm an architect on the business Central team most of my time I spent driving the GitHub codevelopment um story forward but I'm also very engaged in the componentization of the"
+    },
+    {
+      "t": 36.9,
+      "end": 57.5,
+      "text": "business application which is what we're going to talk about here today and to help me with that I've brought Andreas thank you yeah um Andreas I've worked on business Central for the past 10 years been working both on application and in client right now I'm focusing on system application and"
+    },
+    {
+      "t": 57.5,
+      "end": 77.6,
+      "text": "business Foundation that we're going to talk about today all right so let's jump into it what are we going to talk about today I'm going to be spending a few minutes introducing the business Foundation why do we need it and how did we create it and then Andreas is going to tell you a little bit more about the first module that we have in the business Foundation which"
+    },
+    {
+      "t": 77.6,
+      "end": 97.6,
+      "text": "is the number series module why did we pick that module which user experience improvements did we make what are the changes to the API and how do you need to uptake those changes is the main topic that that andr is going to cover and then we're going to wrap up with a very short call to action and call it a day so let's start with a small story and"
+    },
+    {
+      "t": 97.6,
+      "end": 110.8,
+      "text": "for that we need to go all the way back to the beginning well not all the way back to the big bang no dinosaurs is also a little bit too far back here we go some of you will remember this good old Dynamics"
+    },
+    {
+      "t": 110.8,
+      "end": 121.3,
+      "text": "nav if you go 7 years back in time uh you would find something like this there's a monolith application which has grown organically over the past 25"
+    },
+    {
+      "t": 121.3,
+      "end": 144.7,
+      "text": "years local versions were all built as modifications to our W1 the so-called worldwide version and before you could implement the solution at a partner sorry at a customer side you would add verticalization customer modifications and so on so no two implementations of Dynamics would be"
+    },
+    {
+      "t": 144.7,
+      "end": 164.8,
+      "text": "identical so the beginning of the story that I want to tell today starts with introduction of extend iions or as we call them today apps so the introduction of apps started a paradigm shift where we went from uh the good old code customization model to the new extensibility"
+    },
+    {
+      "t": 164.8,
+      "end": 184.8,
+      "text": "model and Microsoft as part of that formulated a goal that we all need to get rid of the customizations in favor of apps of different sies and shape uh shapes and sizes and you were asked to convert your code into repeatable apps going either to appsource or uh into pte"
+    },
+    {
+      "t": 184.8,
+      "end": 205,
+      "text": "per tenent extensions I guess you're all following along so far so that idea was launched and you know everything was Bliss everything is great you know woohoo moving forward well maybe that is idealizing the facts a little bit here because with the transition out of customizations and into apps"
+    },
+    {
+      "t": 205,
+      "end": 225.9,
+      "text": "new challenges arose and if you've ever built an app which you probably have you'll recognize some of these challenges I hope so maybe you want to build an app uh but you don't really have access to the right places where you can hook into the base product it might be missing some interfaces or an event or even some public procedures"
+    },
+    {
+      "t": 225.9,
+      "end": 246,
+      "text": "so if you've ever been to an Al app extensions the repository where you can log extensibility requests you'll know exactly what I mean and then one thing is you know that you don't have the right places to hook into but also the features that were built for code customization model aren't necessarily built with a extensibility"
+    },
+    {
+      "t": 246,
+      "end": 266.4,
+      "text": "in mind so the feature is not really designed to be extended it's a challenge too that we Face also we still have many subvariants to cater for I guess the most common uh subvariant is localizations that you're all aware of so just because you built an extension that works great in the North American version doesn't necessarily"
+    },
+    {
+      "t": 266.4,
+      "end": 277.6,
+      "text": "mean that it works fantastic with the German version as well so that's a challenge that we run into as well and then there is the undocumented apis"
+    },
+    {
+      "t": 277.6,
+      "end": 298.6,
+      "text": "so even if you find the place you know where you want to hook into um there is no real documentation there's nothing for you to read you know how does this system behave exactly at this point in the in the code so what you in in reality need to do is you need to read the code to understand um how it's working which can be extremely time"
+    },
+    {
+      "t": 298.6,
+      "end": 318.6,
+      "text": "consuming and sometimes also because it's not very clear where you need to hook into you might tap into uh hooking into implementation details and those are very very hard to spot and the problem is when you do that then you know the chances are the product will change and your extension is going to break so all of these were"
+    },
+    {
+      "t": 318.6,
+      "end": 339,
+      "text": "challenges that came with us formulating the goal of moving to an extensibility model um to address these changes um the business Central team decided to re-engineer uh the application from the bottom up so we wanted to break the monolith so to speak and reimagine the application as a collection of smaller"
+    },
+    {
+      "t": 339,
+      "end": 355.6,
+      "text": "functionally coherent modules and that's how the system application was born which has been around for a couple of years now um which in reality just is a collection of small modules small apps combined into this new logical"
+    },
+    {
+      "t": 355.6,
+      "end": 372.7,
+      "text": "layer so now I'm mentioning modules let's remind ourselves what's a module because that is also what we're using for uh the business foundation in essence um module is just a set of objects the difference to other sets of objects though is that these need to be functionally"
+    },
+    {
+      "t": 372.7,
+      "end": 393.2,
+      "text": "coherent modules separate concerns and that's the first property really of a of a module it's coherence so how do we separate concerns and ensure coherence we split the functionality into an app of its own so bottom line a module is an extension so why are we not calling it extension well it's because we're at the bottom layer and we're not really extending"
+    },
+    {
+      "t": 393.2,
+      "end": 413.2,
+      "text": "anything here so we came up with a name module but think of it just as an app but there are a few more properties to it than just that um one of the key differences is that a module encapsulates complexity by using the access modifiers we keep the implementation details hidden away"
+    },
+    {
+      "t": 413.2,
+      "end": 426.4,
+      "text": "you cannot access these um so but that gives us the freedom to change the internal implementation at will without risking breaking you uh as it was the case"
+    },
+    {
+      "t": 426.4,
+      "end": 446.5,
+      "text": "before then how do you access those internal you know workings well we provide you with a facade which is a stable API that is not going to change it has nice XML code documentation so that you now no longer need to read the inner workings or understand the inner workings of a module you simply need to understand the documentation on"
+    },
+    {
+      "t": 446.5,
+      "end": 466.9,
+      "text": "the facade and you'll be able to consume this module which is a much much better place to be than where we came from so summing up the advantages of a module they separate concerns they are functionally coherent uh they have stable well documented apis exposed through facades they encapsulate complexity"
+    },
+    {
+      "t": 466.9,
+      "end": 477.7,
+      "text": "and hide implementation details they have a smaller attack surface which makes them easier for us to secure they are faster to compile which is a very very nice side"
+    },
+    {
+      "t": 477.7,
+      "end": 497.9,
+      "text": "effect and also very important particularly to me is that their size and clear purpose allows for more focused uh um discussions and hence also make them more suitable for an contribution model which is very much what we're looking at they're also easier to Performance Monitor and test and at some point"
+    },
+    {
+      "t": 497.9,
+      "end": 518.5,
+      "text": "they also will allow for individual versioning and effective upgrading we're not there yet but at least they are prepared for that so also I don't lately there's been a lot of talk about solid so I figured I mentioned some of the points here uh solid are the first five principles of object oriented design um so a module out of the box"
+    },
+    {
+      "t": 518.5,
+      "end": 538.6,
+      "text": "uh supports single responsibility principle meaning it has you know only this one responsibility it has the open close principle meaning um that it's open for extension but it's closed for modifications um you don't necessarily need to implement the interfaces if you don't want to and so on and so forth so it's a good step in the"
+    },
+    {
+      "t": 538.6,
+      "end": 550.2,
+      "text": "right direction gos into the object oriented world so now that the system application was was introduced everything is bliss again right now we're there everything's"
+    },
+    {
+      "t": 550.2,
+      "end": 560.7,
+      "text": "great again I'm afraid that that's not entirely the truth because the introduction of the system application brought its own set of challenges with"
+    },
+    {
+      "t": 560.7,
+      "end": 581.2,
+      "text": "it so first of all um even though the new layer was architecturally superior to the old monolith um the process of ripping out capabilities unfortunately left a lot of dependent apps broken um so breaking changes were everywhere when we first introduced uh the system application"
+    },
+    {
+      "t": 581.2,
+      "end": 601.6,
+      "text": "and it quickly became apparent that we cannot keep working like this especially not if we want to get into the more should we say business focused processes such as number series because we would just be breaking everyone and impose a huge amount of work with every release that we would make where we would build these modules so we needed to come up with some"
+    },
+    {
+      "t": 601.6,
+      "end": 622,
+      "text": "solutions um and two of these you should know if not let's quickly repeat them the first one is that in the beginning an app took a dependency directly on the base application and directly on the system application and that means if something moved from the base app to the syst application you would have to update your apps it's a breaking change"
+    },
+    {
+      "t": 622,
+      "end": 642,
+      "text": "we hence introduced application redirection which means that all of our logical layers come underbrella an umbrella called application which you find in the app Json and if you take a dependency on the application its entirety now uh things can move between all the apps that are under"
+    },
+    {
+      "t": 642,
+      "end": 662,
+      "text": "this application umbrella so that was the first thing we needed to do now unfortunately as you will also see later when Andreas is talking about the API changes that we decided to make for a very good reason sometimes we do need to make changes and we do need to you know go away from something old to get to a better place um but of course"
+    },
+    {
+      "t": 662,
+      "end": 682.6,
+      "text": "that needs to be announced so when we move some things out of the base application into a different logical layer and we want the old implementation to go away uh then we of course needed to have an uh some way of of conveying that information so we introduced the deprecation scheme where we're going to tell inversion this and this and that this is going away and this is"
+    },
+    {
+      "t": 682.6,
+      "end": 703.4,
+      "text": "coming um this you should also be know by now we've been doing that for a couple of releases is now but um you know ideally we do not want to deprecate because deprecation Al always also inflicts work on on you the partners um so it should be the last resort"
+    },
+    {
+      "t": 703.4,
+      "end": 715.8,
+      "text": "um and you know having things under this application umbrella as I mentioned was the first step because now you can move just about all objects between apps but there was one object that you couldn't move and those were"
+    },
+    {
+      "t": 715.8,
+      "end": 735.8,
+      "text": "tables so table when they had to be moved needed to run up upgrade code and the old table need to be deprecated and so on so forth with 2024 wave 1 um that's a thing of the past at least in this version Microsoft is able to move tables between apps without being breaken so all the apps depending on uh the"
+    },
+    {
+      "t": 735.8,
+      "end": 746.4,
+      "text": "table object will be blissfully unaware that the table has moved logical layer and that was a prerequisite for us to be able to"
+    },
+    {
+      "t": 746.4,
+      "end": 767.5,
+      "text": "um well move ahead in our componentization efforts so um given those capabilities we're now ready to tackle the more should we say embedded modules um and that's why we felt we're ready to introduce the business Foundation which squeezes neatly in between the base application and the system"
+    },
+    {
+      "t": 767.5,
+      "end": 788.2,
+      "text": "application very quickly it is a horizontal Erp related functionality which is used by all on none of the application domains so it's all these General Erp Concepts that you will find there Builders modules as we talked about there will not be localizations um if we need localizations we're going to make"
+    },
+    {
+      "t": 788.2,
+      "end": 808.3,
+      "text": "extensions um it's developed with zero depth we're developing it the way that we want uh the system architecture to be and all the tables are going to be moved in non-breaking way so what's the business Foundation then well as an example you know we could say address management currency management Dimension management which a"
+    },
+    {
+      "t": 808.3,
+      "end": 828.3,
+      "text": "very interesting one so it has all these management things um given time but we need to start somewhere and uh for that we chose to start with number series management and there are some good reasons for that which Andreas is going to cover uh in a minute I just want to make one final you know important"
+    },
+    {
+      "t": 828.3,
+      "end": 848.7,
+      "text": "statement here and that is that uh everything that you see here today was developed as true open source it's the first module that we developed as true open source uh and that means that if you go to uh GitHub you'll be able to find introducing the new business Foundation layer and you can see you know we had like uh"
+    },
+    {
+      "t": 848.7,
+      "end": 868.8,
+      "text": "246 conversations uh with the community about you know how how should this be developed or or like changes that are needed um and I think we ended up with like 250 commits yes um so you can go here and you can read all the Gory details look into all the code reviewing process that Andreas went through before deciding"
+    },
+    {
+      "t": 868.8,
+      "end": 888.9,
+      "text": "that now this is ready for release and we think we've covered our basis and everyone should be happy with this um so that's a great change and we hope to be of course seeing much more uh of that that way of co-developing our features in the future well that was it for me uh so Andreas why don't you tell us a little about why we"
+    },
+    {
+      "t": 888.9,
+      "end": 909.1,
+      "text": "chose number series yes thank you so let's talk about why we chose number series well number Series has a high uptake around the product so that means it's useful both for us and for you as partners it's also not too big or too"
+    },
+    {
+      "t": 909.1,
+      "end": 929.1,
+      "text": "small so we want something that we can actually move but that also brings business value uh to it and it has a great opportunity for improvement because it's been patched around quite a lot so here we have a lot of things we can really improve furthermore there are also"
+    },
+    {
+      "t": 929.1,
+      "end": 949.4,
+      "text": "tables that we are going to move and that this way we get to verify that we can move tables which in the end will benefit you uh as partners who can now go ahead and in the future will be able to move your tables as well now"
+    },
+    {
+      "t": 949.4,
+      "end": 970.1,
+      "text": "let's take a look at how does this actually look inside of business Central so you're probably all familiar with business Central and in here I can and go to the number series page when I'm here you'll see there's a few new options um in here we both have an"
+    },
+    {
+      "t": 970.1,
+      "end": 990.5,
+      "text": "open lines fact box as well as a relationship fact box which allows you to very quickly see what are the open lines for your different number series and what relationships have you set up so you don't have to drill in for every single one in order to find these as well as we've also promoted"
+    },
+    {
+      "t": 990.5,
+      "end": 1010.6,
+      "text": "these action so it's very easy to access on top of that we've also add this ability to see expiring number series what we mean by that is these are number series that don't have any open lines or are in warning State what I mean by warning state is you know on the number"
+    },
+    {
+      "t": 1010.6,
+      "end": 1030.9,
+      "text": "series lines we have this warning number if the last number used is within that warning number then we also going to show that so in other words these are lines these are number series that you want to take action on before they run out or you can't use the"
+    },
+    {
+      "t": 1030.9,
+      "end": 1050.9,
+      "text": "product properly furthermore we've also been working on improving our error messages so we've actually in the new API that we've introduced all the error messages are now actionable error messages so to show you an example of that I can go to the customer number series and let's"
+    },
+    {
+      "t": 1050.9,
+      "end": 1071,
+      "text": "say we close this number Series so I'm just going to copy the last number used here to the ending number which means now I can no longer create any customers so if I go now to my customer list and I say create a new customer you will see I get the error"
+    },
+    {
+      "t": 1071,
+      "end": 1091.2,
+      "text": "you cannot assign any new numbers from the number series cost now because I have permissions to set up number series I'm presented with an actionable error message that allows me to go into the number series lines see those and I can fix that in here so now I"
+    },
+    {
+      "t": 1091.2,
+      "end": 1111.4,
+      "text": "click open num series lines I'm presented with the number series for customer and I can see oh this one ended so maybe I want to update the ending number or more likely that you want to provide another number series line in here so"
+    },
+    {
+      "t": 1111.4,
+      "end": 1131.8,
+      "text": "in this case let's say we started from C 100 uh yeah and let's now go back into the customers create a new customer and everything works I can create my customer call Andreas leave and without"
+    },
+    {
+      "t": 1131.8,
+      "end": 1151.9,
+      "text": "leaving the customer list I was able to actually go and fix this right away uh without having to first go number series find the correct number series go to lines fix that and then go all the way back so this is one of the very nice fixes and as I mentioned we've actually updated all our"
+    },
+    {
+      "t": 1151.9,
+      "end": 1172,
+      "text": "error messages in the new API to use these actionable error messages so you can go and fix it right away so I've been talking a lot about the new API so how does that actually look so let's take a look over in in vsod code and take a look at the code"
+    },
+    {
+      "t": 1172,
+      "end": 1192.1,
+      "text": "itself before we actually dive too much into the code I want to quickly talk about why did we actually decide to rewrite this to create a new API and if we take a look at the old implementation we will see here in number series management is the"
+    },
+    {
+      "t": 1192.1,
+      "end": 1212.1,
+      "text": "one that used we have a lot of functions and it's not always obvious what function you want to use for instance for getting the next number which is the most used functionality of number series that's its purpose uh we have the function get next number get next number three"
+    },
+    {
+      "t": 1212.1,
+      "end": 1232.4,
+      "text": "to get next number we have get next number one we have get next number two try get next number get next number after run and yeah so basically there's a lot of functionality for just getting the next number and as a new person what should I actually be using"
+    },
+    {
+      "t": 1232.4,
+      "end": 1252.4,
+      "text": "and how does these do these work furthermore if you look at du get next number we have this parameter modify series and that what this does is you can provide this with fults which means you actually just want to see what is the next number without updating the number"
+    },
+    {
+      "t": 1252.4,
+      "end": 1273,
+      "text": "series however you can also use it to batch your changes so that's another reason to set the this to Falls to get a bunch of numbers and then save all of those in one go so this does multiple things and there's several things to be aware of that I'm not going to go into details about here but it's uh"
+    },
+    {
+      "t": 1273,
+      "end": 1293,
+      "text": "quite uh you have to really be careful of what you're doing here and I assume none of this was documented before right I mean you would have to guess which one or read the code to understand which one of these five or six options you have to choose yeah it's not very clear what what you want to do exactly so now instead we have split this"
+    },
+    {
+      "t": 1293,
+      "end": 1313.2,
+      "text": "into two code units that we want to use so we have the number series and number series batch code units that this has been split into mainly you want to use the number Series code unit this code unit is your main goto it contains get next number get Peak next number get last"
+    },
+    {
+      "t": 1313.2,
+      "end": 1333.3,
+      "text": "number used and it updates the DAT space right away whenever you get a number and it just works out of the box and as you can see I already mentioned pnx number so we no longer have this modifi parameter for get next number if you want to check what the next number is you simply call pick next number and we're not going to"
+    },
+    {
+      "t": 1333.3,
+      "end": 1353.1,
+      "text": "update anything in the background or keep any state about that furthermore there's a bunch of helper functions as you can see here for instance you can check whether two number Ser are related or you can look up the related number Series so uh let the user pick a related number"
+    },
+    {
+      "t": 1353.1,
+      "end": 1373.2,
+      "text": "series now we also have the batch code unet as I mentioned batch is what you want to use whenever you get whenever you want to get a lot of different numbers in very quickly after each other the batch is going to keep the state in memory whenever you get numbers and only save at"
+    },
+    {
+      "t": 1373.2,
+      "end": 1393.4,
+      "text": "the very end when you call Save State it has the exact same functions as the number service cun so you can get next number Peck next number get less number used um and of course it's going to be all based on this number you can get numbers from different number series from different dates you can"
+    },
+    {
+      "t": 1393.4,
+      "end": 1413.8,
+      "text": "run out of one line and run into the next line and it's going to have handle all of that for you and just at the very end call Save State and we'll save all of these back to disk and this is the most performant so when you need performance for getting numbers this is the go-to"
+    },
+    {
+      "t": 1413.8,
+      "end": 1434.1,
+      "text": "code unit finally we have this function simulate get next number that previously was hardcoded in a lot of different places basically you have a number this was usually on journals that you want to for the next line you want to increment the document"
+    },
+    {
+      "t": 1434.1,
+      "end": 1454.2,
+      "text": "number by one but you didn't want to actually increment the number series itself you just want to say hey based on this was the previous number please give me the next number and that's exactly what this does you provided a number service as well as a usch date and what should it assume"
+    },
+    {
+      "t": 1454.2,
+      "end": 1471.9,
+      "text": "the last number was and then it's going to give you the next number without updating anything in the number series itself so this is quite useful and I'll show you some example of where you actually want to start using this as"
+    },
+    {
+      "t": 1471.9,
+      "end": 1491.9,
+      "text": "well now this is basically how you would use number series but what if you have your own implementation like let's say you want to override some how something work or you want to um basically you want to control how we get numbers in that"
+    },
+    {
+      "t": 1491.9,
+      "end": 1512.4,
+      "text": "case we have this enum called number series implementation which specifies what are all the implementations for number series and in here you can add your own implementation as well as provide the implementation details so use this interface"
+    },
+    {
+      "t": 1512.4,
+      "end": 1532.5,
+      "text": "here and then it will show up in business Central so this interface is very easy to use actually we have three main functions which are pick next number get next number and get last number used very clear what they do and finally we have whether your"
+    },
+    {
+      "t": 1532.5,
+      "end": 1553.1,
+      "text": "implementation is likely to produce gaps and this is because some business scenarios are not allowed to produce gaps so we need to know that so we can show this to the user now once you have added that you can actually go back into business Central and your implementation"
+    },
+    {
+      "t": 1553.1,
+      "end": 1573.5,
+      "text": "is going to show up here in the implementation column you can now switch to your implementation instead and start using that that's it for the implementation now I've talked a lot about how the new API looks right so you're probably wondering how about"
+    },
+    {
+      "t": 1573.5,
+      "end": 1593.7,
+      "text": "do I need to upake this right away is the previous stuff gone is it still going to work how long does it work for and so on so first of all there are no breaking changes in this we are using the normal Absolution process as for every other feature"
+    },
+    {
+      "t": 1593.7,
+      "end": 1613.8,
+      "text": "in business Central that you're hopefully familiar with that means the old Legacy code has been obsoleted with version 24 and will be removed with version 27 so that means until then the old functionality is still going to remain functional and work exactly the way it"
+    },
+    {
+      "t": 1613.8,
+      "end": 1634.3,
+      "text": "is of course we have already converted all the Microsoft code to use the new API now how do we actually use this new API so let's take a look into how you would actually start using that first of all we have in case you"
+    },
+    {
+      "t": 1634.3,
+      "end": 1654.6,
+      "text": "have this delayed insert so you get that next number but you actually don't want to modify it yet because here we are just checking whether the next number is equal to your document number and in that case well then we want to save it here you can simply use batch you say just get next number and"
+    },
+    {
+      "t": 1654.6,
+      "end": 1669.2,
+      "text": "if that is the document number you want you can modify uh you can save this state of course you could also use Pig next number if it's not important to update the number series"
+    },
+    {
+      "t": 1669.2,
+      "end": 1689.2,
+      "text": "afterwards furthermore we've also made some things much much simpler so some of you might be familiar with our batch posting in here we have this number series management which is an array of 100 uh yeah number series managements and we use all of"
+    },
+    {
+      "t": 1689.2,
+      "end": 1709.3,
+      "text": "these in order to Cache the number series and not fetch them multiple times from the database and get performance out of that however this is not this quite convoluted it's not very simple to do in other places and basically it doesn't look too nice and we"
+    },
+    {
+      "t": 1709.3,
+      "end": 1729.7,
+      "text": "have a limitation of 100 number series now you're probably not going to run out of that but why have a limitation in the first place with the new API all you need to do is create a number series Batch get the next number and save State at the end as I mentioned before it's going to handle if you change number series"
+    },
+    {
+      "t": 1729.7,
+      "end": 1740.3,
+      "text": "if you run out of one line and run into the next line change dates and all of that is going to have handled automatically"
+    },
+    {
+      "t": 1740.3,
+      "end": 1760.3,
+      "text": "next we have some examples where we are now more explicit so for instance or actually the init series function has been completely removed because it's not super clear what is going on in this case this for the bank account where we actually want to first set up the number series and then get the"
+    },
+    {
+      "t": 1760.3,
+      "end": 1780.8,
+      "text": "next number what is actually happening which is much more readable down here in the new code is we are actually checking whether the GL bank account number series is related to the number series of the previous record if it is well then we want to continue"
+    },
+    {
+      "t": 1780.8,
+      "end": 1801,
+      "text": "using that number series otherwise we want to fall back to the bank account number series setup in the GL setup and then afterwards just get the next number as usual so this is a bit a few more lines but now you can see what is actually happening and for"
+    },
+    {
+      "t": 1801,
+      "end": 1821.2,
+      "text": "new developers this is easier to uh read and understand finally we have this simulate next number as I mentioned in a lot of places we have this functionality this is taken from the general journal batch as you can probably see where we have the last document number and now"
+    },
+    {
+      "t": 1821.2,
+      "end": 1842.2,
+      "text": "we want to create a new line so we want to figure out what should the next number be in here we call into number series management to figure out what line to use then we check whether that increments by more than one if it does we call back into number series management and ask it to increment the number by this amount"
+    },
+    {
+      "t": 1842.2,
+      "end": 1862.2,
+      "text": "otherwise we just do an ink string and if the number series doesn't exist we again uh just increment by one this again is going to be much simpler you can simply call simulate get next number given that the previous number was this document number number and this number series please increment it"
+    },
+    {
+      "t": 1862.2,
+      "end": 1882.3,
+      "text": "and you will get the new number without having to do all of these hacks and yeah I want to just quickly highlight you'll see here on GitHub we have this refactoring to use the new number series module and this one provides examples of how to uptake the new code and we would love"
+    },
+    {
+      "t": 1882.3,
+      "end": 1902.3,
+      "text": "to help if there's any other things that we need of examples please uh reach out and we can update this document and make it much simpler for you guys to uptake this new uh number series module and that's it for me back over to you Yesa thank"
+    },
+    {
+      "t": 1902.3,
+      "end": 1922.3,
+      "text": "you very much Andreas for this very detailed Deep dive into the world of number series um so we only have a few minutes left here so quick call to action very important one though please start uptaking these changes now don't wait until we actually remove the old number series Legacy API because do get next number series and try get next number"
+    },
+    {
+      "t": 1922.3,
+      "end": 1935.9,
+      "text": "they are going away because they make no sense so get on the Forefront you know make the refactorings and as Andrea said we are always eager to help you know just let us know if we forgot anything and we'll be there to assist"
+    },
+    {
+      "t": 1935.9,
+      "end": 1957.3,
+      "text": "you and if we might have forgotten something in the API because you did not know that this was codeveloped on GitHub you know the code is still out there on GitHub you can just go there and you can add to the API you can suggest changes and so on and so forth let us know what is missing and uh we can work together on making this the best number series module that we possibly"
+    },
+    {
+      "t": 1957.3,
+      "end": 1977.3,
+      "text": "can now we talked about code development but there's one code that we didn't really mention co-pilot so where's that well we didn't get around to do the co-pilot support quite yet um but our MVP Demitri catson picked up on that and said like hey now we have this new awesome module I would"
+    },
+    {
+      "t": 1977.3,
+      "end": 1997.3,
+      "text": "like to contribute and make a uh co-pilot support for this one so he is actively working on that if you go to the bcfs repository into issue 659 you can see the entire discussion going on and very very soon theit is going to post this first pull request and you can tag along on how co-pilot is"
+    },
+    {
+      "t": 1997.3,
+      "end": 2008.8,
+      "text": "implemented uh for this brand new module so if you want to learn something here's your opportunity and then also of course componentization of our base application is going to continue"
+    },
+    {
+      "t": 2008.8,
+      "end": 2026.2,
+      "text": "um we have not really landed yet on which are the next modules we also need to focus on co-pilot to a large degree um but we are going to continue um so keep your eyes open for new pull requests on GitHub because of course it's going to be developed out"
+    },
+    {
+      "t": 2026.2,
+      "end": 2042,
+      "text": "there and that was it from us um thank you very much for sticking with us and learning about number series and the business foundation and I really hope to see you on GitHub um so see you there thank you see"
+    },
+    {
+      "t": 2042,
+      "end": 2043,
+      "text": "you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.71,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.72,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 5508
+}

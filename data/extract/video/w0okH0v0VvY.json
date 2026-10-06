@@ -1,0 +1,370 @@
+{
+  "video_id": "w0okH0v0VvY",
+  "item_id": "video/yt-microsoft/w0okH0v0VvY",
+  "title": "What's New: Cost Adjustment (2024 release wave 1)",
+  "duration_s": 836,
+  "systems": [
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "cost adjustment",
+    "inventory valuation",
+    "cost monitoring",
+    "item batches",
+    "performance diagnostics",
+    "data inconsistency",
+    "production orders",
+    "assembly orders"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Cost Adjustment Overview",
+      "t_start": 0,
+      "t_end": 57
+    },
+    {
+      "title": "Cost Adjustment Goals and Frequency",
+      "t_start": 57,
+      "t_end": 129.4
+    },
+    {
+      "title": "Methods to Run Cost Adjustment",
+      "t_start": 129.4,
+      "t_end": 205
+    },
+    {
+      "title": "Common Issues and Challenges",
+      "t_start": 205,
+      "t_end": 300.8
+    },
+    {
+      "title": "Inventory Cost Adjustment Tool Introduction",
+      "t_start": 300.8,
+      "t_end": 354
+    },
+    {
+      "title": "Demo - Successful Cost Adjustment Run",
+      "t_start": 354,
+      "t_end": 478.5
+    },
+    {
+      "title": "Demo - Handling Failed Adjustments with Item Batches",
+      "t_start": 478.5,
+      "t_end": 605.3
+    },
+    {
+      "title": "Benefits of Continuous Monitoring",
+      "t_start": 605.3,
+      "t_end": 717
+    },
+    {
+      "title": "Diagnostic Capabilities and Conclusion",
+      "t_start": 717,
+      "t_end": 836
+    }
+  ],
+  "features": [
+    {
+      "name": "Inventory Cost Adjustment Tool",
+      "description": "A new tool for monitoring the outcome and performance of cost adjustment runs, featuring logging options, filtering capabilities, and the ability to track adjustment status across items, production orders, and assembly orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 300.8,
+      "t_end": 828.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires consistent and correct data input to function properly",
+        "Item batches run in separate sessions requiring manual refresh to see latest results"
+      ],
+      "tags": [
+        "cost adjustment",
+        "monitoring",
+        "performance",
+        "inventory"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Cost Adjustment Logging Options",
+      "description": "Two logging modes available in the Inventory Setup: 'Errors only' to log only failed cost adjustment runs, or 'All' to provide full picture of all adjustment runs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 300.8,
+      "t_end": 321.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "logging",
+        "setup",
+        "monitoring"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Item Batches for Cost Adjustment",
+      "description": "Automated feature that divides items into separate batches for cost adjustment processing, isolating problematic items and rerunning adjustments on remaining items up to a configurable maximum retry attempts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 550.4,
+      "t_end": 645.6,
+      "is_demoed": true,
+      "caveats": [
+        "Item batches run in separate sessions requiring refresh to see results",
+        "Depends on configurable max retry attempts setting"
+      ],
+      "tags": [
+        "item batches",
+        "automation",
+        "error handling",
+        "performance"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Cost Adjustment Log Per Item",
+      "description": "Page showing time taken to complete adjustment and cost difference resulted for each item, with ability to drill down to item-level details.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 439.2,
+      "t_end": 458.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "logging",
+        "performance metrics",
+        "item tracking"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Cost Adjustment Log Per Run",
+      "description": "Page showing information about which exact item failed during a cost adjustment run, including error message and error call stack for troubleshooting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 510,
+      "t_end": 530.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "logging",
+        "error tracking",
+        "diagnostics"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Exclude Item from Adjustment",
+      "description": "Action to isolate problematic items from cost adjustment runs until the root cause is found and resolved.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 530.4,
+      "t_end": 550.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "error handling",
+        "isolation",
+        "troubleshooting"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Export Item Data",
+      "description": "Diagnostic capability to export problematic items with all dependencies and related item tables to a text file for investigation in sandbox environments or to attach to support requests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 727.7,
+      "t_end": 748.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "diagnostics",
+        "export",
+        "troubleshooting"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Reset Cost Adjusted Toggle",
+      "description": "Diagnostic action to reset the 'cost adjusted' toggle on items, production orders, and assembly orders so they will be included in the next cost adjustment run.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 761.7,
+      "t_end": 779.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "diagnostics",
+        "reset",
+        "troubleshooting"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Costing Issues Detection Report",
+      "description": "Diagnostic report that identifies data inconsistencies and common problems with data that customers have run into before.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 761.7,
+      "t_end": 779.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "diagnostics",
+        "data quality",
+        "reporting"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Delete Item Data",
+      "description": "Sandbox-only diagnostic action that prepares a clean environment for investigating problematic items without interference from other items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 793.1,
+      "t_end": 808,
+      "is_demoed": false,
+      "caveats": [
+        "Only available in sandbox environments"
+      ],
+      "tags": [
+        "diagnostics",
+        "sandbox",
+        "data cleanup"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Cost Adjustment Methods",
+      "description": "Business Central offers four ways to run cost adjustment: automatic on posting each transaction, by schedule in non-business hours, on special occasions like inventory counting or period closing, and via the new Inventory Cost Adjustment Tool.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 129.4,
+      "t_end": 171.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "cost adjustment",
+        "scheduling",
+        "methods"
+      ],
+      "system": "inventory"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Cost Adjustment Tool",
+      "t": 321.6
+    },
+    {
+      "type": "page",
+      "name": "Log Per Item",
+      "t": 439.2
+    },
+    {
+      "type": "page",
+      "name": "Log Per Run",
+      "t": 510
+    },
+    {
+      "type": "page",
+      "name": "Item Batches",
+      "t": 605.3
+    },
+    {
+      "type": "report",
+      "name": "Costing Issues Detection Report",
+      "t": 761.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexa driansky",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 77.2,
+      "text": "it transfers cost from inbound to outbound entries which means that the cost of such outbound entries such as sales consumption negative inventory to",
+      "why_it_matters": "Explains the core purpose of cost adjustment in inventory valuation and when costs become accurate in the system.",
+      "check": "exact"
+    },
+    {
+      "t": 129.4,
+      "text": "business Central offers three no now four ways to run the cost adjustment",
+      "why_it_matters": "Indicates the new inventory cost adjustment tool adds a fourth method to run cost adjustment, showing the expansion of capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 150.7,
+      "text": "I would suggest that you go live with automatic cost adjustment on posting each transaction then when the number of entries posted each day",
+      "why_it_matters": "Provides guidance on best practices for cost adjustment frequency based on business scale and performance needs.",
+      "check": "exact"
+    },
+    {
+      "t": 225.4,
+      "text": "just one item failing to adjust rolls back the entire transaction so all other items remaining unadjusted and the cost is not accurate which",
+      "why_it_matters": "Identifies a critical issue that the new inventory cost adjustment tool addresses - preventing one item failure from blocking all others.",
+      "check": "exact"
+    },
+    {
+      "t": 270.3,
+      "text": "the cost adjustment expects consistent and correct data and high extensibility of our code made it possible to feed inconsistent data to cause adjustment",
+      "why_it_matters": "Explains data quality challenges that led to the development of the new diagnostic capabilities in the tool.",
+      "check": "exact"
+    },
+    {
+      "t": 300.8,
+      "text": "respond to these challenges we are now presenting the inventory cost adjustment tool a new tool for monitoring the outcome and performance of",
+      "why_it_matters": "Introduces the main feature of the 2024 release wave 1 - the new Inventory Cost Adjustment Tool.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 605.3,
+      "text": "initially they were all items in one batch then one the cost adjustment ran into the problematic item it isolated this item and created",
+      "why_it_matters": "Explains how item batches automatically handle failure isolation and retry logic to ensure most items complete adjustment successfully.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 11
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027618999999999998
+    }
+  ]
+}

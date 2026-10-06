@@ -1,0 +1,28 @@
+{
+  "video_id": "_ynMUzh956w",
+  "item_id": "video/yt-microsoft/_ynMUzh956w",
+  "summary": "Sustainability in Business Central (2024 release wave 1) covers the foundational module for recording and reporting greenhouse gas emissions: setup, chart of sustainability accounts, journals, ledger entries, three standard reports and demo data. Regulatory reports and APIs are not part of this wave.",
+  "overview": "The video explains why sustainability reporting matters for Business Central customers, with a focus on the EU CSRD regulation and the SMB segment. It separates the embedded Business Central functionality, aimed at SMBs, from Microsoft Cloud for Sustainability.\n\nIt then walks through the first-wave foundation: the sustainability setup page, a chart of sustainability accounts, sustainability journals with manual or formula-based emission entry, posted ledger entries, and three standard Excel-based reports. It also shows the sustainability demo data module in the Contoso demo tool. The speaker describes this as a multi-wave investment, with regulatory reports and APIs planned for later.",
+  "key_points": [
+    "First wave focuses on recording and reporting emissions; reducing, removing and replacing are not covered in this wave.",
+    "Tracks three emission types: carbon footprint, methane and nitrogen dioxide. The scope is extensible by partners and potentially Microsoft later.",
+    "The chart of sustainability accounts sets the scope, emission type and calculation type per account, and supports heading, posting and totaling accounts.",
+    "Sustainability journals accept manual amounts or calculations (distance, fuel and similar) using emission factors defined in subcategories. Posting creates sustainability ledger entries, which feed the reports.",
+    "Setup page options include unit of measure, rounding, decimal places, mandatory country/region, and optional responsibility center tracking.",
+    "Three standard reports: Total emissions, Emission per facility, Emission by category. Excel layout is the default, RDC layout is still available.",
+    "Regulatory-specific reports are not included yet. APIs are announced for the next one or two minor releases."
+  ],
+  "audience": [
+    "functional consultant",
+    "partner",
+    "decision maker",
+    "administrator"
+  ],
+  "extraction_hash": "274ec7815c56dd03e1fdda26c69c3be9a19d4374dce6426569629e7eaafcf11c",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0220744
+  }
+}

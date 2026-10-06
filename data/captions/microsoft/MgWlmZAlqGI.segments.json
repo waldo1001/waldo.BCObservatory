@@ -1,0 +1,211 @@
+{
+  "video_id": "MgWlmZAlqGI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 15.4,
+      "end": 35.5,
+      "text": "so hello and welcome to what's new in entering and approving time sheets my name is Ian ktic and I'm a product manager in business Central team uh today I will take you through a very short agenda of the improvements that we've made in time sheets area is basically evolves around how to get more and how to be more"
+    },
+    {
+      "t": 35.5,
+      "end": 56,
+      "text": "productive while entering a time sheet whether you're a technician or a team member and how uh business Central is actually helping uh managers be more productive in approving time sheets so the first section of uh of this presentation is about getting productive while entering time sheets so"
+    },
+    {
+      "t": 56,
+      "end": 76.2,
+      "text": "the first thing that you want to do when you work with the time sheets you want to spend as less time as possible trying to figure out what is the current time sheet that I want to do so the self-service part which is part of almost all of our Ro centers now has a new tile it also has a new action that takes you directly to a current time"
+    },
+    {
+      "t": 76.2,
+      "end": 96.9,
+      "text": "sheet that is based on the work date that is set in the product what you can see there's a new tile uh with the name new time sheets which contains all the time sheets where you don't have any lines enter that you haven't started working on yet to avoid errors and easily spot"
+    },
+    {
+      "t": 96.9,
+      "end": 117.2,
+      "text": "uh missing values we've actually made uh submit and reopen uh actions context aware so that you don't get in in the situations where the errors are thrown where they shouldn't be the status column on the time sheet lines right now has a conditional formatting it's going to be red and italic if there is some required"
+    },
+    {
+      "t": 117.2,
+      "end": 137.3,
+      "text": "data that is missing to be entered before the time sheet can be submitted to save you further effort and time while entering time sheets what you will see is there's a set of columns in the time sheet lines like project project task cause of absence chargeable and so on these are all the columns that are still and were available as part of"
+    },
+    {
+      "t": 137.3,
+      "end": 157.4,
+      "text": "the activity details but there's a small caveat to them these columns are now basically dependent on your company's setup so in case you haven't set up causes of absence or you're not working with projects these columns are not going to be shown thus removing the Clutter from the time sheet line uh showing"
+    },
+    {
+      "t": 157.4,
+      "end": 176.1,
+      "text": "columns based on on the setup has following benefits it it makes the time sheet much easier to read much easier to understand and it actually reduces uh reduces time while entering time sheets because you can you can use keyboard shortcuts to easily copy values from the previous"
+    },
+    {
+      "t": 176.1,
+      "end": 196.3,
+      "text": "lines to make time sheet uh entry even more efficient we've also added extended uh capabilities of copying time sheet lines from your previous uh time sheets it's not only the last one that you've entered but we've now provided you with an options to choose from uh either open or submit a time sheets"
+    },
+    {
+      "t": 196.3,
+      "end": 216.4,
+      "text": "and to pick the lines that you want to uh that you want to copy to your current uh time sheet another thing to note is in all of the places where you will see uh time sheet lines we have added a time sheet line details fact box which actually allows you to go and peek into the data and the comments"
+    },
+    {
+      "t": 216.4,
+      "end": 236.5,
+      "text": "uh that are related to a details of either resource or the project or the tasks that you have been uh adding to the time sheet lines there's one tip in here so for example if you pick the first line in the in the time sheet in the time sheet lines page uh the business Central will"
+    },
+    {
+      "t": 236.5,
+      "end": 256.6,
+      "text": "ask you whether you want to copy the full time sheet or you just want to pick you just want to copy the selected one the default being only the selected one and now let's switch to the demo so in this demo I will play a role of a Terry who might be a technician a project team member uh filling in one of his"
+    },
+    {
+      "t": 256.6,
+      "end": 276.7,
+      "text": "chores filling in the time sheets so what I want to show you today is how we actually help Terry enter the time sheets as I mentioned before uh with a new time sheet experience Terry actually gets this new tile that takes him directly to his current time sheet"
+    },
+    {
+      "t": 276.7,
+      "end": 297,
+      "text": "he are the two here is the new tile that actually lists all the all the time sheets that don't have lines that have been prepared by his manager and here are the time sheets that he has in progress so let's take him to the current time sheet what you can see in here are the reopen and submit buttons now being disabled because there are no lines"
+    },
+    {
+      "t": 297,
+      "end": 317,
+      "text": "that Terry has entered the status field of the lines is uh also uh conditionally formatted indicating that there is something that needs to be entered in order for Terry to proceed what Terry will do in here is we will just uh we will just go and utilize one of these cool new features of copying"
+    },
+    {
+      "t": 317,
+      "end": 337.1,
+      "text": "the time sheets from the previous one and in here you can see that he can pick whether he wants to see all of his pre all of his time sheets only open ones are the ones that have already been submitted so he will go and copy these two time sheets and what you can do in here is uh for example if if if he wants to add an"
+    },
+    {
+      "t": 337.1,
+      "end": 357.9,
+      "text": "extra line This is now uh much easier because he can use f8 keyboard shortcut to Simply copy the the the details from the previous line uh and enter them another cool thing to note in here is if there is some comment"
+    },
+    {
+      "t": 357.9,
+      "end": 378,
+      "text": "since he has copied the lines together with with comments these things are also going to be shown in the time sheet details U fact box and you can also see that uh there are some additional information about the selected project and selected task uh that exists in here and now that uh all of the details have been entered"
+    },
+    {
+      "t": 378,
+      "end": 397.4,
+      "text": "you can actually see that a submit button has now been enabled in this way sort of avoiding an error to happen unless there are all the details that are needed for the time sheet to be submitted and thus lowering the time that is needed for the time sheet to be"
+    },
+    {
+      "t": 397.9,
+      "end": 418,
+      "text": "entered and to summarize the demo what you saw in here are the new tiles that were introduced to uh enable easier entry of the time sheet and focus on them uh you also saw how uh easy it was uh for for Terry to uh copy the time sheets uh from previous ones and you also s"
+    },
+    {
+      "t": 418,
+      "end": 437.3,
+      "text": "saw these context senses submit and reopen uh buttons that help Terry uh submit time sheets without encountering any uh errors the next section of the uh of this session is about more focused on the manager and on approving uh time"
+    },
+    {
+      "t": 437.3,
+      "end": 457.6,
+      "text": "sheets so one of the things that we've noticed while looking at our Telemetry is there's a lot of a lot of Errors where uh that get produced by the empty lines in in the time sheets and for that purpose what we've decided to introduce was a time submission policy in some cases"
+    },
+    {
+      "t": 457.6,
+      "end": 477.9,
+      "text": "it is perfectly okay to have uh to have an empty line in some cases it's not so in order to keep the backwards uh compatibility we've introduced a an extra setup where you can actually say U where you can actually choose whether the empty lines uh are uh"
+    },
+    {
+      "t": 477.9,
+      "end": 497.9,
+      "text": "simply skipped and not subm or you want to uh you want to keep the existing Behavior where the system will stop and warn you if there are empty lines uh before you submit the time sheets uh project managers now have way way more detail in their uh manager time"
+    },
+    {
+      "t": 497.9,
+      "end": 518,
+      "text": "sheet by jobs or by projects available while approving uh time sheets you can now see a resource number and the resource name you can actually bring through the personalization window if you want to uh to add it to manager time sheets by projects uh you will also see that uh some of the projects have worked that is"
+    },
+    {
+      "t": 518,
+      "end": 538.9,
+      "text": "executed in Saturdays and Sundays so these columns have also been added we've also added a total column per line so you can actually that summarizes all the all the work that has been done for a specific uh projects and on top of that we've also brought in this uh time sheet line details that you already saw me present in the in the previous demo"
+    },
+    {
+      "t": 538.9,
+      "end": 554.5,
+      "text": "but also so uh for the project manager we also surface the comments that might have been in might have been entered in the time sheet header as well as the comments that are uh related to uh uh time sheet lines there's also another thing"
+    },
+    {
+      "t": 554.5,
+      "end": 574.6,
+      "text": "um another Improvement that has been done uh while approving or rejecting time sheets uh we have actually changed the default when you when you approve a selected set of time sheets the the the default uh the default setting of approval is only for the selected time sheets that sort of"
+    },
+    {
+      "t": 574.6,
+      "end": 584.8,
+      "text": "avoids we got feedback that that that sort of insures that less mistakes are are made and there is less turnaround in the time sheets when they are getting"
+    },
+    {
+      "t": 584.8,
+      "end": 605.3,
+      "text": "approved and the best way to to show it is actually to see it in action so in this demo I'm playing the role of terce manager and uh he as a manager when looking at the period uh sees a set of time sheets that up ing uh his approval what you can see in the time sheet window at a glance"
+    },
+    {
+      "t": 605.3,
+      "end": 625.5,
+      "text": "Teri manager has way more details based on which he can decide whether a time sheet needs to be approved or not so for example you can see the resource number you can see Saturday and Sunday you can see the status the total quantity for specific line and he can also see the time sheet comments that might have been related or"
+    },
+    {
+      "t": 625.5,
+      "end": 645.6,
+      "text": "added on a on a on a fulltime sheet together with uh uh specific uh time sheet line comments and additional details that are related to a project or task that a specific time sheet relates to uh another thing that you will notice you can also open the time sheet card from here to to"
+    },
+    {
+      "t": 645.6,
+      "end": 665.8,
+      "text": "go and if you want to do sort of a one by one uh look at the time sheets but if you do want to approve them in bulk you can always uh you can always uh select them uh from here and say go and let's approve those things and in this demo uh you've seen"
+    },
+    {
+      "t": 665.8,
+      "end": 686.2,
+      "text": "um the new improvements that we brought to manager time sheets uh for projects you see extra uh information that managers now have uh to help with uh approving time sheets and we also saw some of the extra fields that uh they can add through personalization uh to make"
+    },
+    {
+      "t": 686.2,
+      "end": 706.3,
+      "text": "uh to get even more insight and to get uh fast in approving uh time sheets and that sort of brings us to the end of this session uh there are two other relevant sessions uh if you want to learn more and that are very related to the uh time sheet management uh these are the sessions"
+    },
+    {
+      "t": 706.3,
+      "end": 721.8,
+      "text": "on what's new in service management and what's new in project management both of these modules actually use time sheets to record a time that was executed either servicing a product or executing uh on a um execu in a project"
+    },
+    {
+      "t": 721.8,
+      "end": 743.5,
+      "text": "and if you do want to learn more if you want to connect with us uh have some questions or simply want to join the conversation and influence what and how business Central evolves in this area please use these links uh to do so and with that uh I want to thank you for your time and your"
+    },
+    {
+      "t": 743.5,
+      "end": 745,
+      "text": "attention"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 15.35,
+      "text": "[Music]"
+    },
+    {
+      "t": 15.36,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2066
+}

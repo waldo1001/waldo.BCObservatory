@@ -1,0 +1,328 @@
+{
+  "video_id": "VpNQ-CYNrkM",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 15.7,
+      "end": 30.5,
+      "text": "Welcome to this what's new in web services in Business Central 2024 release wave one. My name is Kenny Pontoppidan. And I'm Jens Møller Pedersen. And together we work on the Business Central server where we will talk about"
+    },
+    {
+      "t": 30.5,
+      "end": 41.4,
+      "text": "web service stack. Let's get started. In this wave, we added support for cookies in HTTP client. I'm already getting hungry."
+    },
+    {
+      "t": 41.4,
+      "end": 53,
+      "text": "Yes. Uh so, there's a new data type and full support of of cookies including caching so to make it faster. That basically allows you as developer"
+    },
+    {
+      "t": 53,
+      "end": 65,
+      "text": "to to use cookies in third-party applications in your HTTP requests uh on block in one of the scenarios that you asked for in the server."
+    },
+    {
+      "t": 65,
+      "end": 77,
+      "text": "So, we have a new cookie data type, new AL methods to handle cookies, and also a way to reuse cookies in in later responses"
+    },
+    {
+      "t": 77,
+      "end": 92,
+      "text": "with what we call I think cookie caching. Yes. So, HTTP client has a new method called use response cookies. And if you set that to true, the server will attach automatically"
+    },
+    {
+      "t": 92,
+      "end": 103.4,
+      "text": "cookies in subsequent responses. We have a new cookie data type where you can set set cookies and and use them, expiry date, and so on."
+    },
+    {
+      "t": 103.4,
+      "end": 115.3,
+      "text": "And and then there are new methods on on other data types related to HTTP client. So, you can get cookie names from the response message data type."
+    },
+    {
+      "t": 115.3,
+      "end": 129.6,
+      "text": "You can get a cookie once you know its name from also from the HTTP response message data type. And similarly, not on the response message, but on the request request message data type,"
+    },
+    {
+      "t": 129.6,
+      "end": 143.4,
+      "text": "similar methods get cookie names and get cookie. So, you can use these methods there. As well as on the request message, you can set the cookie either by name or value."
+    },
+    {
+      "t": 143.4,
+      "end": 156.3,
+      "text": "Or if you already have a cookie object, you can also set it there. You can remove cookies. And basically that that allows you to work with cookies."
+    },
+    {
+      "t": 156.3,
+      "end": 168.7,
+      "text": "Yeah, and if you use the use request cookies, then basically what you receive last will then get added to the request that you send next. What you receive in a response gets sent with the next one."
+    },
+    {
+      "t": 168.7,
+      "end": 182.8,
+      "text": "Yeah. And that actually happens as the last thing. All right, we also want to have a little teaser. We didn't make it for this release, but we expect to ship it in a minor release, which is direct support for patch."
+    },
+    {
+      "t": 182.8,
+      "end": 197.3,
+      "text": "In the HTTP client data type. And this was actually part of this huge work we did on HTTP client documentation. So, we lifted the documentation for HTTP client related things to outgoing web service calls."
+    },
+    {
+      "t": 197.3,
+      "end": 207.5,
+      "text": "Including also documented how how you can use patch with with other methods. But that might not be needed soon because there will be native support."
+    },
+    {
+      "t": 207.5,
+      "end": 220.3,
+      "text": "But if you work with calling external services from HTTP client, including maybe writing wrappers for Azure modules or other APIs, then then go check out the new documentation."
+    },
+    {
+      "t": 220.3,
+      "end": 232.8,
+      "text": "There's a lot of new things there also related to robustness on on your code. So, make sure that you know what's available once you start going down this path."
+    },
+    {
+      "t": 232.8,
+      "end": 244.9,
+      "text": "All Now we've talked about you calling out from Business Central using HTTP client, but let's also talk about the changes that are happening if you're calling into it through OData."
+    },
+    {
+      "t": 244.9,
+      "end": 256.9,
+      "text": "We've added support for the in operator, which is much shorter notation rather than having the equals this or equals that, etc."
+    },
+    {
+      "t": 256.9,
+      "end": 277.7,
+      "text": "So now you can just use customer number in and then have a list of values. We've also improved the performance of OData by reducing the number of calls, basically changing a bit the logic from what happens normally within AL because you seldomly"
+    },
+    {
+      "t": 277.7,
+      "end": 296.5,
+      "text": "stop a find call when using OData. Normally you want everything. So now we're using find first for one row, find for two to 50 rows, and then find set if you are requesting more than 50 rows either through the top operator or implicitly through the max page size."
+    },
+    {
+      "t": 296.5,
+      "end": 308.7,
+      "text": "So Jens, I've noticed a pattern here. We I mean, we do these every 6 months, these sessions. And we always talk about improving the OData stack, improving API rest stack, but we never talk about soap."
+    },
+    {
+      "t": 308.7,
+      "end": 319.8,
+      "text": "No, that's because that's not where we invest. We're investing in OData. Soap is used in a number of legacy integration scenarios."
+    },
+    {
+      "t": 319.8,
+      "end": 334,
+      "text": "Um but it is clear that it is the OData API that that we are investing in. So that also means, hint hint, that you should move your integrations away from soap into a more modern world."
+    },
+    {
+      "t": 334,
+      "end": 344,
+      "text": "Yes. Now another place where you see where we favor OData over soap is how we deal with the number of incoming web service requests."
+    },
+    {
+      "t": 344,
+      "end": 358.5,
+      "text": "We have changed that significantly in this release. In previous versions, basically, you had five requests per tenant, and then if you had more than five concurrent requests, they would be queued up."
+    },
+    {
+      "t": 358.5,
+      "end": 370,
+      "text": "Now, you have a queue per user. So, if a user has three requests, they will be executed immediately."
+    },
+    {
+      "t": 370,
+      "end": 387.9,
+      "text": "They will not be queued up because each user has their own queue, which gives higher throughput for environments. At least it allows us to start a lot more sessions, and you don't risk that one user is starving all your other users on this tenant,"
+    },
+    {
+      "t": 387.9,
+      "end": 402,
+      "text": "so that they cannot do their web service requests. Ed, I have the best I I story like for that. Yeah. So, imagine you're you have that person in finance updating"
+    },
+    {
+      "t": 402,
+      "end": 417.3,
+      "text": "Power BI reports, and suddenly down on the warehouse, people can't scan, use the scanners. Yes. That's kind of what we're solving with this. So, so Lone from finance will now be able to update her Power BI reports,"
+    },
+    {
+      "t": 417.3,
+      "end": 428.9,
+      "text": "and John and the others in the warehouse will be able to to still click through, and and pack things, and have them shipped. Yeah, and it also means now that"
+    },
+    {
+      "t": 428.9,
+      "end": 439,
+      "text": "if you have more users, you effectively also have more parallel web service requests, which you didn't have to the same degree before."
+    },
+    {
+      "t": 439,
+      "end": 449.2,
+      "text": "So, we are tracking them per user at any given period in near real time. Um now, there is still a service protection limit."
+    },
+    {
+      "t": 449.2,
+      "end": 464.8,
+      "text": "It is possible to just flood the system, in which case we're still limiting it to protect it. That's the queuing mechanism that you have per user, etc. So, you can still get uh too many request responses, the HTTP 429."
+    },
+    {
+      "t": 464.8,
+      "end": 478.8,
+      "text": "Uh Uh that is still possible. But, let's take a look at how if we look at it graphically, then before, basically, the number of users, if you went to an environment, you would have three users in the first one, they were limited to five,"
+    },
+    {
+      "t": 478.8,
+      "end": 489.2,
+      "text": "and you had the same limit regardless of the number of users. Whereas now, you basically have a number of parallel streams allowing you into each environment,"
+    },
+    {
+      "t": 489.2,
+      "end": 503.2,
+      "text": "but there is still a global limit. Now, we have never seen that global limit be reached in production, because we have rolled this out now. It is now active in the majority,"
+    },
+    {
+      "t": 503.2,
+      "end": 517.8,
+      "text": "I think. Oh, I don't know the exact percentage, but we're rolling it out right now. So, it is in effect in most parts of the world. And if you happen to reach the global limit, then we're doing a round robin of users,"
+    },
+    {
+      "t": 517.8,
+      "end": 530.6,
+      "text": "meaning that it'll be a new user who gets the next spot when the global limit is reached. But, in general, you shouldn't see this happening. We'll be scaling out if the system is under pressure, etc."
+    },
+    {
+      "t": 530.6,
+      "end": 542.4,
+      "text": "But, even in that case, you'll still see throughput. So, speaking of scaling, yes, we also did some secret work on the server that we're not talking too much about. But, maybe a little bit, you can tell us a little bit about it?"
+    },
+    {
+      "t": 542.4,
+      "end": 556.7,
+      "text": "Yeah, because you might wonder what has happened. Why can we suddenly open up for a lot more requests? And we have optimized the way we have handle sessions, so that we use a lot less resources just to keep a session alive,"
+    },
+    {
+      "t": 556.7,
+      "end": 567.3,
+      "text": "which is pretty large refactoring of the um of the server. But, it allows us to do things like this. Cool."
+    },
+    {
+      "t": 567.3,
+      "end": 578.5,
+      "text": "So, if you meet us at us at conferences, um buy us a cup of tea, and maybe we can talk more about certain internals. Yeah, because it's not really something that you can see."
+    },
+    {
+      "t": 578.5,
+      "end": 589.6,
+      "text": "It's not a new AL method, etc. It's just how we deal with all of the requests and sessions internally. All right."
+    },
+    {
+      "t": 589.6,
+      "end": 604.4,
+      "text": "So, part of this release was also a lot of work done on documentation for incoming outgoing web services. You saw the the work done on HP client, but similarly"
+    },
+    {
+      "t": 604.4,
+      "end": 614.4,
+      "text": "a lot of new content on how to troubleshoot web service errors and how to troubleshoot web service performance is now available in in the documentation."
+    },
+    {
+      "t": 614.4,
+      "end": 624.6,
+      "text": "The easiest is probably just to use the search mechanism in docs to find these articles. I'm I'm pretty sure you will find them find them useful."
+    },
+    {
+      "t": 624.6,
+      "end": 637,
+      "text": "Finally, we have some breaking changes that are happening in this in this wave and some that are coming in upcoming releases in version 26 and later."
+    },
+    {
+      "t": 637,
+      "end": 650.8,
+      "text": "So, the first is that delta links with APIs is now removed. That was announced a couple of years back, which means if you set the OData track a changes in the HP header, it has no effect."
+    },
+    {
+      "t": 650.8,
+      "end": 664.5,
+      "text": "So, the code dealing with this has been removed. Similarly, API schema version now defaults to 2.0 also in this wave. You can still revert to older versions of the API schema."
+    },
+    {
+      "t": 664.5,
+      "end": 678.2,
+      "text": "We just need to set that in in the HTTP header. And then upcoming changes, this is just a warning that in a later version, version 26 or later, API version 1 will be removed."
+    },
+    {
+      "t": 678.2,
+      "end": 690.7,
+      "text": "Yeah, so you can set it to explicitly use V1 for now, but it'll only save you a year or so. Yeah. We also have an upcoming change on SOAP web services, specifically"
+    },
+    {
+      "t": 690.7,
+      "end": 703.6,
+      "text": "web service SOAP web services on pages in the Microsoft owned by Microsoft publisher that will be removed in a later release so that you cannot in the web services page"
+    },
+    {
+      "t": 703.6,
+      "end": 718.8,
+      "text": "open up a soap web service on on Microsoft pages. All right, and with that there are some there is a call to action. First of all, if you're building integrations with other products, go take a look at the documentation."
+    },
+    {
+      "t": 718.8,
+      "end": 730.3,
+      "text": "If you're starting something new, there is a lot of new material in there that's going to help you. And if you're in doubt about how something works, go check even if you've checked before because"
+    },
+    {
+      "t": 730.3,
+      "end": 742.2,
+      "text": "a lot has been added there. And of course, if you need cookies Who doesn't? Yeah. Then it is now supported in AL."
+    },
+    {
+      "t": 742.2,
+      "end": 755.6,
+      "text": "That's it. Before you leave a few relevant launch event sessions that you might want to look into look into. Since this is web services as as Jens Jens Jens mentions, there's a lot of new documentation on integrations."
+    },
+    {
+      "t": 755.6,
+      "end": 767.9,
+      "text": "So a new session on that. Also, in case you are in AL developer, there's a similar session for key updates in in learning content for you."
+    },
+    {
+      "t": 767.9,
+      "end": 784.8,
+      "text": "And if you're into this server database thingy that we have going And who's not? Who's not? I mean, we are. The first two sessions here, what's new in AL runtime and database, second one or what's new in reporting with Excel layouts is in in kind of that."
+    },
+    {
+      "t": 784.8,
+      "end": 797.6,
+      "text": "And if you are developer, there's no way around it. Of course, you want to watch what's new in Visual Studio Code and AL development. Finally AKA links, in case you don't know them."
+    },
+    {
+      "t": 797.6,
+      "end": 810.6,
+      "text": "So the first one, BC Yammer, is where we discuss things that are not maybe something we want to take to the public social media. Um, all is the the one aka link to rule them all."
+    },
+    {
+      "t": 810.6,
+      "end": 821.4,
+      "text": "BC ideas is where we discuss future feature requests for for future versions of Business Central. Social media on X and LinkedIn, we are there."
+    },
+    {
+      "t": 821.4,
+      "end": 832.8,
+      "text": "And last, BC office hours is where you can either go and get to in in live office hours or watch recordings of existing ones."
+    },
+    {
+      "t": 832.8,
+      "end": 839,
+      "text": "And with that, Jens and I says, thank you."
+    }
+  ],
+  "markers": [],
+  "word_count": 2050
+}

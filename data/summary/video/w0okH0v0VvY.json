@@ -1,0 +1,27 @@
+{
+  "video_id": "w0okH0v0VvY",
+  "item_id": "video/yt-microsoft/w0okH0v0VvY",
+  "summary": "Inventory Cost Adjustment Tool in Business Central (2024 release wave 1): monitoring cost adjustment runs, logging options, item batches that isolate failing items, per-item and per-run logs, and diagnostic actions. Covers the four ways to run cost adjustment and common causes of failed runs.",
+  "overview": "The video explains what cost adjustment does: it transfers cost from inbound to outbound entries, so outbound entries such as sales and consumption carry the correct cost. It lists four ways to run it: automatically on posting each transaction, by schedule outside business hours, on special occasions such as inventory counting or period closing, and through the new Inventory Cost Adjustment Tool. It also describes common problems, including one failing item rolling back the whole transaction and data inconsistencies that the adjustment cannot handle.\n\nTwo demos follow. The first shows a successful run in the tool. The second shows a failed adjustment, where item batches isolate the problem item and rerun the rest. The video then covers the diagnostic actions: export item data, reset the cost adjusted toggle, the Costing Issues Detection Report, and delete item data (sandbox only).",
+  "key_points": [
+    "Four ways to run cost adjustment: automatic on each posting, scheduled in non-business hours, on special occasions (inventory counting, period closing), and via the Inventory Cost Adjustment Tool.",
+    "Without batching, one item failing to adjust rolls back the entire transaction, so the other items stay unadjusted and costs are inaccurate.",
+    "Logging is set in Inventory Setup: 'Errors only' logs failed runs, 'All' logs every run.",
+    "Item batches split items, isolate the problem item and rerun the rest, up to a configurable maximum number of retry attempts. Batches run in separate sessions, so refresh the page to see the latest results.",
+    "Log Per Item shows time taken and cost difference per item; Log Per Run shows which item failed, with the error message and call stack.",
+    "The Exclude Item from Adjustment action isolates a problem item until its root cause is fixed.",
+    "Diagnostics: export item data with dependencies to a text file (for a sandbox or a support request), reset the cost adjusted toggle, run the Costing Issues Detection Report, and delete item data (sandbox only)."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer"
+  ],
+  "extraction_hash": "4672243cdd8b95f7aa1c90760703551333b174a9c48a30aa74a3a30706db9d37",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0184384
+  }
+}

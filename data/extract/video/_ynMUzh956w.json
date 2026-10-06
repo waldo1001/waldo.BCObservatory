@@ -1,0 +1,519 @@
+{
+  "video_id": "_ynMUzh956w",
+  "item_id": "video/yt-microsoft/_ynMUzh956w",
+  "title": "Introducing: Sustainability in Business Central (2024 release wave 1)",
+  "duration_s": 1650,
+  "systems": [
+    "sustainability",
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "sustainability",
+    "emissions tracking",
+    "csrd compliance",
+    "esg reporting",
+    "greenhouse gas",
+    "carbon footprint",
+    "regulatory requirements",
+    "demo data",
+    "chart of accounts",
+    "sustainability journals",
+    "emission factors",
+    "scope tracking"
+  ],
+  "chapters": [
+    {
+      "title": "Sustainability drivers and business motivation",
+      "t_start": 0,
+      "t_end": 130.2
+    },
+    {
+      "title": "Regulatory landscape and global compliance",
+      "t_start": 130.2,
+      "t_end": 247.8
+    },
+    {
+      "title": "CSRD regulations and target customer segments",
+      "t_start": 247.8,
+      "t_end": 374.9
+    },
+    {
+      "title": "Implementation timeline and affected companies",
+      "t_start": 374.9,
+      "t_end": 497.1
+    },
+    {
+      "title": "Sustainability tracking scope and emissions types",
+      "t_start": 497.1,
+      "t_end": 580.4
+    },
+    {
+      "title": "Greenhouse gas emission scopes overview",
+      "t_start": 580.4,
+      "t_end": 639.2
+    },
+    {
+      "title": "Foundation components and architecture",
+      "t_start": 639.2,
+      "t_end": 752.7
+    },
+    {
+      "title": "Demo data module and foundational features",
+      "t_start": 752.7,
+      "t_end": 896.8
+    },
+    {
+      "title": "Sustainability Setup Configuration",
+      "t_start": 896.8,
+      "t_end": 972.5
+    },
+    {
+      "title": "Chart of Accounts, Journals, and Reporting",
+      "t_start": 972.5,
+      "t_end": 1145.4
+    },
+    {
+      "title": "Demo Data Generation and Setup",
+      "t_start": 1145.4,
+      "t_end": 1312.3
+    },
+    {
+      "title": "Journal Posting and Ledger Entries",
+      "t_start": 1312.3,
+      "t_end": 1429.6
+    },
+    {
+      "title": "Report Viewing, Analysis, and Wrap-up",
+      "t_start": 1429.6,
+      "t_end": 1650
+    }
+  ],
+  "features": [
+    {
+      "name": "Sustainability journal",
+      "description": "Recording and tracking greenhouse gas emissions data within Business Central. Includes both recurring and standard journal types with journal batches and templates following standard Business Central patterns. Users can record emissions either manually by entering amounts directly or using calculation formulas based on distance, fuel consumption, or other factors with emission factor calculations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 674.8,
+      "t_end": 1070.5,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to recording and reporting scope, not reduction or removal recommendations in this wave",
+        "Different batch configuration options available",
+        "Includes background error checking for validation"
+      ],
+      "tags": [
+        "emissions tracking",
+        "foundational",
+        "journal",
+        "data entry",
+        "calculation formulas"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Chart of sustainability accounts",
+      "description": "A structured framework for categorizing emissions similar to chart of accounts but measuring emission impact rather than financial impact. Sustainability-specific chart of accounts with category determination for scope tracking, emission type selection, and calculation type configuration. Includes support for totaling, heading and posting accounts similar to general ledger structure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 699.8,
+      "t_end": 1030.5,
+      "is_demoed": true,
+      "caveats": [
+        "Demo data structure is not regulation-based, intended for demonstration purposes",
+        "Not regulated by specific standards",
+        "Users can customize emission types tracked per account"
+      ],
+      "tags": [
+        "chart of accounts",
+        "emissions categorization",
+        "foundational",
+        "scope tracking",
+        "emission types"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Emissions calculation formulas",
+      "description": "Built-in calculation methods and formulas to compute emissions amounts when exact emission quantities are not known, enabling flexible emissions tracking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 722.7,
+      "t_end": 739.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "calculations",
+        "emissions",
+        "foundational"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Sustainability ledger entries",
+      "description": "Posted emissions records created through standard posting procedures from sustainability journal lines, serving as the data source for sustainability reporting. Posted sustainability ledger entries that store all recorded emissions after posting from sustainability journal, functioning similarly to general ledger entries and serving as the basis for reporting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 739.8,
+      "t_end": 1150,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ledger entries",
+        "reporting",
+        "foundational",
+        "ledger",
+        "posted entries",
+        "data storage"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Standard sustainability reports",
+      "description": "Out-of-the-box reporting functionality for sustainability data from ledger entries. Three reports available: total emissions, emission per facility, and emission by category. All reports use Excel layout as default with optional RDC layout support, featuring pivot tables, charts, and filtering capabilities for analysis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 752.7,
+      "t_end": 1429.6,
+      "is_demoed": true,
+      "caveats": [
+        "Regulatory-specific reports to come in future waves",
+        "Regulatory reports not yet included",
+        "Excel layout is default, RDC layout still available but not primary"
+      ],
+      "tags": [
+        "reporting",
+        "standard reports",
+        "excel layouts",
+        "analysis",
+        "charts"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Sustainability APIs",
+      "description": "API endpoints enabling external systems and solutions to connect with Business Central sustainability functionality, allowing partners and customers to extend functionality beyond the built-in interface.",
+      "status": "announced",
+      "status_evidence_t": 752.7,
+      "status_evidence_quote": "it will come probably in next one or two minors, we will enable all these entities through APIs",
+      "status_evidence_verified": true,
+      "t_start": 768.2,
+      "t_end": 1550,
+      "is_demoed": false,
+      "caveats": [
+        "Planned for next one or two minor releases",
+        "Not yet available",
+        "Coming soon"
+      ],
+      "tags": [
+        "api",
+        "integration",
+        "future",
+        "external connectivity"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Sustainability demo data module",
+      "description": "Pre-configured demo module in Contoso demo tool including chart of sustainability accounts, categories, subcategories, populated sustainability journals, and posted ledger entries for training and customer demonstrations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 814.9,
+      "t_end": 896.8,
+      "is_demoed": true,
+      "caveats": [
+        "Demo structure is not regulation-based",
+        "Demo chart of accounts can be shortened or expanded as needed",
+        "Users can customize the chart of accounts as needed"
+      ],
+      "tags": [
+        "demo data",
+        "contoso",
+        "foundational",
+        "configuration"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Carbon footprint, methane, and nitrogen dioxide tracking",
+      "description": "Support for tracking the three emissions types with the biggest impact in the first wave: carbon footprint, methane, and nitrogen dioxide. The scope is extensible by partners and potentially Microsoft in future releases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 552.8,
+      "t_end": 580.4,
+      "is_demoed": false,
+      "caveats": [
+        "Limited to three types in this wave but extensible",
+        "Not limited only to these three types going forward"
+      ],
+      "tags": [
+        "emissions types",
+        "greenhouse gas",
+        "carbon footprint"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Sustainability setup page",
+      "description": "Configuration page for sustainability module where users can configure unit of measure for different sustainability needs, rounding, decimal places, mandatory usage fields including country/region and responsibility center tracking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 907.6,
+      "t_end": 962.3,
+      "is_demoed": true,
+      "caveats": [
+        "Can support flexible unit of measure for different reporting requirements",
+        "Optional responsibility center tracking"
+      ],
+      "tags": [
+        "setup",
+        "configuration",
+        "unit of measure"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Emission factor configuration in subcategories",
+      "description": "Ability to define emission factors in sustainability subcategories that are used in calculations within the sustainability journal for automatic emission computation based on configured factors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1001,
+      "t_end": 1030.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "emission factors",
+        "subcategories",
+        "calculation"
+      ],
+      "system": "sustainability"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "sustainability journal",
+      "t": 674.8
+    },
+    {
+      "type": "other",
+      "name": "chart of sustainability account",
+      "t": 699.8
+    },
+    {
+      "type": "other",
+      "name": "sustainability ledger entries",
+      "t": 739.8
+    },
+    {
+      "type": "page",
+      "name": "Sustainability setup",
+      "t": 907.6
+    },
+    {
+      "type": "table",
+      "name": "Chart of sustainability accounts",
+      "t": 972.5
+    },
+    {
+      "type": "page",
+      "name": "Sustainability journal",
+      "t": 1030.5
+    },
+    {
+      "type": "table",
+      "name": "Sustainability ledger entries",
+      "t": 1395
+    },
+    {
+      "type": "report",
+      "name": "Total emissions",
+      "t": 1081.4
+    },
+    {
+      "type": "report",
+      "name": "Emission per facility",
+      "t": 1081.4
+    },
+    {
+      "type": "report",
+      "name": "Emission by category",
+      "t": 1081.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Volodymyr Synchuk",
+      "confidence": "high"
+    },
+    {
+      "name": "Aleksandar Totovic",
+      "confidence": "high"
+    },
+    {
+      "name": "Alexander",
+      "confidence": "medium"
+    },
+    {
+      "name": "Vladimir",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 179.6,
+      "text": "in European Union we have now CSRD Act. Uh if we start for 2024, it is starting with 2024 reporting in this year for",
+      "why_it_matters": "Establishes the regulatory driver for the sustainability feature and the timeline for CSRD compliance starting in 2024",
+      "check": "exact"
+    },
+    {
+      "t": 288.9,
+      "text": "approximately 11,700 companies, a little bit more than that, are affected with this regulation. But with new regulation starting from the next year, more",
+      "why_it_matters": "Quantifies the scope of CSRD impact showing massive expansion from ~11,700 to 50,000+ companies, demonstrating market need for this feature",
+      "check": "exact"
+    },
+    {
+      "t": 324.7,
+      "text": "difference between sustainability functionality embedded inside the business central this is for smbs and on the other side microsoft cloud for sustainability or",
+      "why_it_matters": "Clarifies the positioning of this feature as distinct from Sustainability Manager, targeting SMB customers in Business Central",
+      "check": "fuzzy"
+    },
+    {
+      "t": 350.5,
+      "text": "80% of our customers are in SMB, small and mid-size size. And for them, it will be too complicated to work in a different",
+      "why_it_matters": "States the key customer segment justification for embedding sustainability in Business Central rather than a separate tool",
+      "check": "exact"
+    },
+    {
+      "t": 485.2,
+      "text": "they must track their changes from 2026, beginning of 2026. Now, when we talk about Business Central sustainability, let's see what we can track",
+      "why_it_matters": "Establishes 2026 as the critical implementation timeline for affected companies to begin emissions tracking",
+      "check": "exact"
+    },
+    {
+      "t": 510.3,
+      "text": "In total sustainability journal, we will start with recording, reporting, but reducing, removing, and replacing. This is full sustainability journal uh journal journey",
+      "why_it_matters": "Defines the phased rollout scope with recording and reporting in wave one, future expansion to reducing, removing, and replacing",
+      "check": "exact"
+    },
+    {
+      "t": 661.7,
+      "text": "In this release we deliver foundational part for sustainability, so everything will go much easier further because this is the most important. If you",
+      "why_it_matters": "Emphasizes that this first wave focuses on foundational architecture necessary for all future sustainability capabilities",
+      "check": "exact"
+    },
+    {
+      "t": 825.6,
+      "text": "sustainability functionality in general is pretty new for all of us, for us in Microsoft, but for you as a partner and customer, this",
+      "why_it_matters": "Establishes that sustainability is a new area across Microsoft and the market, explaining why comprehensive demo data was prioritized.",
+      "check": "exact"
+    },
+    {
+      "t": 918.2,
+      "text": "maybe it it will come in three years, depends from country to country and right now you do not know if you need to",
+      "why_it_matters": "Demonstrates the need for flexible unit of measure support to handle uncertain future regulatory requirements across different countries.",
+      "check": "exact"
+    },
+    {
+      "t": 982.8,
+      "text": "you can determine which kind of scope you want to track with this account, then which kind of emissions you want to track there",
+      "why_it_matters": "Shows that users have flexibility to track only relevant emission types per account rather than all scopes being mandatory.",
+      "check": "exact"
+    },
+    {
+      "t": 1110,
+      "text": "RDC exist, but Excel layout will be by default. So, we are looking in Excel layouts much more serious",
+      "why_it_matters": "Indicates the strategic shift to Excel layouts as the primary reporting method while maintaining backward compatibility with RDC.",
+      "check": "exact"
+    },
+    {
+      "t": 1120.3,
+      "text": "regulatory reports are still not here. This is something what will come in the future.",
+      "why_it_matters": "Clearly states that regulatory reporting capabilities are not included in this release and are planned for future waves.",
+      "check": "exact"
+    },
+    {
+      "t": 1500.2,
+      "text": "Our functionality is still not everything what we will deliver. So, this is multi-wave investment.",
+      "why_it_matters": "Confirms this is a foundational release with more features planned in future waves, setting expectations for ongoing development.",
+      "check": "exact"
+    },
+    {
+      "t": 1535.1,
+      "text": "you all can expect very soon APIs, so you can easily connect with this solution from any outside solution",
+      "why_it_matters": "Announces upcoming API support that will enable external system integration with the sustainability module.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 521.5,
+      "kind": "preview",
+      "text": "we are focused in our first waves to record and report. It doesn't mean maybe we will not extend in some moment to maybe to even reducing with some ideas, with some recommendations, maybe"
+    },
+    {
+      "t": 752.7,
+      "kind": "coming-later",
+      "text": "we will add some uh regulatory reports as well. What we will have more on the top of that, it will come probably in next one or two minors, we will enable all these entities through APIs"
+    },
+    {
+      "t": 857.9,
+      "kind": "other",
+      "text": "this is not some regulation based. This is just demo. Just for demo purpose."
+    },
+    {
+      "t": 1120.3,
+      "kind": "not-in-this-release",
+      "text": "regulatory reports are still not here. This is something what will come in the future."
+    },
+    {
+      "t": 1500.2,
+      "kind": "other",
+      "text": "Our functionality is still not everything what we will deliver. So, this is multi-wave investment."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 14,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 9
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028193999999999997
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028058999999999997
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025445000000000002
+    }
+  ]
+}

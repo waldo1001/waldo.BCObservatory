@@ -1,0 +1,384 @@
+{
+  "video_id": "kAwI0EGSyls",
+  "item_id": "video/yt-microsoft/kAwI0EGSyls",
+  "title": "What's new: Governance & Administration (2024 release wave 1)",
+  "duration_s": 1113,
+  "systems": [
+    "administration",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "environment transfer",
+    "tenant consolidation",
+    "deleted environment recovery",
+    "administrator role",
+    "partner access controls",
+    "preview apps",
+    "power platform integration",
+    "data governance",
+    "customer lockbox",
+    "encryption keys",
+    "auditing",
+    "purview"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and agenda overview",
+      "t_start": 0,
+      "t_end": 108.5
+    },
+    {
+      "title": "Environment transfer between tenants",
+      "t_start": 108.5,
+      "t_end": 311.1
+    },
+    {
+      "title": "Deleted environment recovery period expansion",
+      "t_start": 311.1,
+      "t_end": 362.4
+    },
+    {
+      "title": "Dynamics 365 Business Central administrator role",
+      "t_start": 362.4,
+      "t_end": 435.6
+    },
+    {
+      "title": "Environment-level partner access controls",
+      "t_start": 435.6,
+      "t_end": 517.7
+    },
+    {
+      "title": "AppSource preview apps functionality",
+      "t_start": 517.7,
+      "t_end": 642.2
+    },
+    {
+      "title": "Linking Business Central to Power Platform environments",
+      "t_start": 642.2,
+      "t_end": 773.5
+    },
+    {
+      "title": "Customer lockbox and governance policies",
+      "t_start": 773.5,
+      "t_end": 930
+    },
+    {
+      "title": "Customer managed encryption keys",
+      "t_start": 930,
+      "t_end": 992.2
+    },
+    {
+      "title": "Auditing and Microsoft Purview integration",
+      "t_start": 992.2,
+      "t_end": 1113
+    }
+  ],
+  "features": [
+    {
+      "name": "Environment transfer between tenants",
+      "description": "Self-service capability to transfer Business Central environments from one Microsoft Entra tenant to another, useful for tenant consolidation, mergers, acquisitions, and demo environment handovers. Users can specify destination tenant ID and schedule transfers up to 14 days in advance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 108.5,
+      "t_end": 311.1,
+      "is_demoed": true,
+      "caveats": [
+        "Only internal administrators can execute transfers",
+        "Requests must be accepted within 8 hours",
+        "Users must be recreated in destination tenant",
+        "Permissions must be reassigned",
+        "Destination tenant must have paid license and available quota"
+      ],
+      "tags": [
+        "environment management",
+        "tenant administration",
+        "security",
+        "scheduling"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Deleted environment recovery period extension",
+      "description": "Recovery period for deleted Business Central environments doubled from 7 to 14 days, providing additional time and flexibility to recover from accidental deletions. Total backup retention remains 28 days.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 311.1,
+      "t_end": 362.4,
+      "is_demoed": false,
+      "caveats": [
+        "Total backup time remains 28 days"
+      ],
+      "tags": [
+        "disaster recovery",
+        "environment management",
+        "data protection"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Dynamics 365 Business Central administrator role",
+      "description": "New dedicated role providing all permissions needed to administer and manage Business Central environments including lifecycle operations, extension management, and admin center access. Does not provide access to other Dynamics 365 products.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 362.4,
+      "t_end": 435.6,
+      "is_demoed": false,
+      "caveats": [
+        "Global administrator and Dynamics 365 administrator roles will remain supported but help desk admin access will be removed",
+        "Additional roles may be needed for Power Platform support"
+      ],
+      "tags": [
+        "security",
+        "access control",
+        "roles",
+        "permissions"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Environment-level partner access controls",
+      "description": "Enables restriction of partner access and administration rights to specific environments, allowing multiple partners to work for the same customer on different geographical environments without access to environments outside their scope. Access restriction applies to delegated users and service authentication apps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 435.6,
+      "t_end": 517.7,
+      "is_demoed": false,
+      "caveats": [
+        "Restricts both access and ability to view, modify, and delete environments",
+        "Applies to delegated users and service authentication apps"
+      ],
+      "tags": [
+        "partner management",
+        "access control",
+        "multi-tenant",
+        "security"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "AppSource preview app installations",
+      "description": "Allows app publishers to provide preview versions of AppSource apps for installation in sandbox environments using a special URL with preview key parameter. Preview apps can be updated to higher preview versions or public versions.",
+      "status": "preview",
+      "status_evidence_t": 517.7,
+      "status_evidence_quote": "the publisher of an appsource app may run a preview for a future version of an already public app or a new app preview",
+      "status_evidence_verified": true,
+      "t_start": 517.7,
+      "t_end": 642.2,
+      "is_demoed": true,
+      "caveats": [
+        "Preview apps can only be installed on sandbox environments",
+        "Sandbox with preview apps cannot be copied or restored to production",
+        "Preview apps are automatically updated with Business Central releases depending on environment configuration"
+      ],
+      "tags": [
+        "app management",
+        "preview",
+        "sandbox",
+        "installation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Business Central and Power Platform environment linking",
+      "description": "Links Business Central environments to Power Platform managed environments in a one-to-one relationship to inherit selected data governance settings and provide default target for integrations. Linking can be reverted; unlinking disables inherited settings but preserves deployed integrations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 642.2,
+      "t_end": 773.5,
+      "is_demoed": false,
+      "caveats": [
+        "Environment type and Azure geo must match",
+        "Environment cannot be deleted while linked",
+        "Copied or restored environments do not inherit the link",
+        "Linking triggers environment restart"
+      ],
+      "tags": [
+        "integration",
+        "data governance",
+        "power platform",
+        "environment management"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Customer lockbox for Business Central",
+      "description": "Enterprise policy enabling customers to review, approve, or reject Microsoft access to customer data in Business Central for support and troubleshooting operations. Enabled from Power Platform admin center and generates lockbox requests for customer approval.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 773.5,
+      "t_end": 880.1,
+      "is_demoed": false,
+      "caveats": [
+        "Only enforced for managed environments",
+        "Requires Microsoft 365 and Power Platform licensing",
+        "Approved access is valid for 8 hours before expiring"
+      ],
+      "tags": [
+        "data governance",
+        "security",
+        "compliance",
+        "customer control"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Customer managed encryption keys",
+      "description": "Allows customers to manage their own encryption keys for Business Central data instead of using Microsoft-managed keys. Requires creating encryption key in Azure Key Vault, creating enterprise policy, and applying it via Power Platform admin center.",
+      "status": "announced",
+      "status_evidence_t": 930,
+      "status_evidence_quote": "this is a heads up that this will be coming later in this wave",
+      "status_evidence_verified": true,
+      "t_start": 930,
+      "t_end": 992.2,
+      "is_demoed": false,
+      "caveats": [
+        "Requires linked Power Platform managed environment",
+        "Requires Microsoft 365 and Power Platform licensing",
+        "Can only be administered by global administrators, Dynamics 365 administrators, and Power Platform administrators"
+      ],
+      "tags": [
+        "encryption",
+        "data protection",
+        "security",
+        "customer control"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Auditing in Microsoft Purview",
+      "description": "Unified audit log capability in Microsoft Purview to track create, update, and delete events requiring administrator privileges in Business Central. Includes environment administration operations, extension configuration changes, and user administration. Default 180-day retention, extendable to 10 years with licenses.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 992.2,
+      "t_end": 1112,
+      "is_demoed": false,
+      "caveats": [
+        "Initial release covers only administrator privilege operations",
+        "Default 180-day retention",
+        "Included with Microsoft 365 license"
+      ],
+      "tags": [
+        "auditing",
+        "compliance",
+        "security",
+        "purview"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "environment Telemetry",
+      "t": 311.1
+    },
+    {
+      "type": "other",
+      "name": "operations log",
+      "t": 311.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Roman",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 129.1,
+      "text": "since we made this capability available as a a self-service functionality in the admin Center at the beginning of February we have already seen",
+      "why_it_matters": "Demonstrates that environment transfer is already generally available and has achieved rapid adoption with hundreds of transfers already executed.",
+      "check": "exact"
+    },
+    {
+      "t": 217.7,
+      "text": "very important transfers can only be executed by internal administrators this is for security reasons",
+      "why_it_matters": "Clarifies the security constraint that limits environment transfers to internal administrators to ensure authorization.",
+      "check": "snapped"
+    },
+    {
+      "t": 257.8,
+      "text": "we allow you to schedule these transfers up to 14 days in the future",
+      "why_it_matters": "Specifies the maximum advance scheduling window for environment transfers.",
+      "check": "exact"
+    },
+    {
+      "t": 331.2,
+      "text": "recently we have improved it and doubled the recovery period from 7 to 14 days",
+      "why_it_matters": "Announces the change in deleted environment recovery window, providing customers with more time to recover from accidental deletions.",
+      "check": "exact"
+    },
+    {
+      "t": 677.8,
+      "text": "the linking of environments is one to one one business Central environment to one Power Platform environment and it can also be reverted",
+      "why_it_matters": "Defines the one-to-one linking constraint and clarifies that linking is reversible.",
+      "check": "exact"
+    },
+    {
+      "t": 849.6,
+      "text": "the lockbox policy is only enforced for environments that are activated for managed environments",
+      "why_it_matters": "Specifies the prerequisite that customer lockbox only applies to managed environments.",
+      "check": "exact"
+    },
+    {
+      "t": 930,
+      "text": "this is a heads up that this will be coming later in this wave",
+      "why_it_matters": "Announces that customer managed encryption keys feature is not yet available but planned for later in the wave.",
+      "check": "exact"
+    },
+    {
+      "t": 1055.1,
+      "text": "by default uh there's an 180 days log retention in perview and it can be extended up to 10 years with additional add-on licenses",
+      "why_it_matters": "Specifies the audit log retention periods and licensing implications.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 87.5,
+      "kind": "preview",
+      "text": "new auditing capabilities that we are going to ship soon in perview"
+    },
+    {
+      "t": 930,
+      "kind": "coming-later",
+      "text": "customer managed encryption Keys all customer data that is stored in business Central is encrypted addressed with a strong Microsoft managed encryption key by default so Microsoft stores and manages the database encryption key for all your data so that you don't have to however we will provide the ability to use a customer managed encryption key also referred to as cmk for your added data protection control where you can then self-manage the encryption key that is associated with your business Central environment so this is a heads up that this will be coming later in this wave"
+    },
+    {
+      "t": 1023.3,
+      "kind": "preview",
+      "text": "in this initial release we will deliver the capability to audit create update and delete events in business Central that require administrator privileges"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030310999999999998
+    }
+  ]
+}

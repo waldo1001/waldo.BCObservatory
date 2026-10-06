@@ -1,0 +1,27 @@
+{
+  "video_id": "VpNQ-CYNrkM",
+  "item_id": "video/yt-microsoft/VpNQ-CYNrkM",
+  "summary": "Web services changes in Business Central 2024 release wave 1: cookie support in the HTTP client, OData in operator and find-logic performance work, a per-user web service request queue, and breaking changes (delta links removed, API schema 2.0 default, API v1 and SOAP on Microsoft pages to be removed later).",
+  "overview": "The session covers what changed for incoming and outgoing web services in 2024 release wave 1. Developers get a new cookie data type and AL methods for cookies in the HTTP client. OData gains the in operator and a changed find logic for better performance. The web service request queue moves from a global queue to one per user.\n\nThe video also covers expanded web services documentation, an internal session optimization that uses fewer resources, and breaking changes. Delta links are removed, API schema version 2.0 is now the default, and API version 1 and SOAP web services on Microsoft pages are announced for removal in later releases.",
+  "key_points": [
+    "The HTTP client has a new cookie data type and methods to use response cookies, get cookie names, get a cookie, and set a cookie on request and response message data types.",
+    "Direct PATCH support in the HTTP client was not in this wave. It is expected in a minor release afterwards.",
+    "OData supports the in operator as shorter notation for several equals conditions. OData uses find first for one row, find for 2 to 50 rows, and find set for more than 50 rows.",
+    "The web service queue changed from a global queue of five requests per tenant to a queue per user. Each user can run up to three requests immediately.",
+    "The global service protection limit still applies, so HTTP 429 responses are possible. When the limit is reached it is applied round robin.",
+    "Delta links with APIs are removed, so setting OData track changes in the HTTP header has no effect. API schema version now defaults to 2.0, and older versions can be set in the HTTP header.",
+    "API version 1 will be removed in version 26 or later. SOAP web services on Microsoft-owned pages will be removed in a later release, so plan migration to OData and newer API versions."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "b06185a0f03237323b409a8b8bd6f7426ea5033156373d57f83f6fdc11dc31fb",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0176204
+  }
+}
