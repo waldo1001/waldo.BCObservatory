@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-let-system-suggest-values.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-let-system-suggest-values",
+  "title": "Let Business Central suggest values",
+  "blob": "cf9b77f155149a5e51c016ee71934ff8f5584ef4",
+  "summary": "Configure Business Central to suggest and autofill field values using Copilot and automatic balancing features. Use this to streamline data entry in journals and payment registration.",
+  "systems": [
+    "finance",
+    "sales",
+    "copilot"
+  ],
+  "topics": [
+    "copilot",
+    "autofill",
+    "field suggestions",
+    "general journals",
+    "payment registration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journal Batches"
+    },
+    {
+      "type": "page",
+      "name": "Register Customer Payments"
+    },
+    {
+      "type": "page",
+      "name": "Payment Registration Setup"
+    }
+  ],
+  "features": [
+    "autofill fields with Copilot",
+    "suggest balancing amount",
+    "automatically fill date received"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003606,
+      "pages_in_call": 8
+    }
+  ]
+}

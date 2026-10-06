@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-run-batch-jobs",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "be3109bec2958ec56b681853e5f3e3626dc047c0",
       "words": 226,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:11:13.780Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003606
+    },
+    "summarized": {
+      "at": "2026-10-06T19:11:13.788Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:11:13.789Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:11:13.790Z",
+      "page": false
     }
   },
   "input_hash": "be3109bec2958ec56b681853e5f3e3626dc047c0",
@@ -54,5 +73,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "be3109bec2958ec56b681853e5f3e3626dc047c0"
+  "output_hash": "284d1776188e08536d94d9d2c7d15091c02dfce415712b161d64908c8ba86a77"
 }

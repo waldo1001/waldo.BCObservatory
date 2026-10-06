@@ -1,0 +1,232 @@
+{
+  "video_id": "lk1YJKOmHyI",
+  "item_id": "video/yt-microsoft/lk1YJKOmHyI",
+  "title": "What's New: Auditing In Purview (2024 release wave 2)",
+  "duration_s": 213,
+  "systems": [
+    "administration",
+    "reporting"
+  ],
+  "topics": [
+    "auditing",
+    "purview",
+    "compliance",
+    "forensic investigations",
+    "event search",
+    "data retention",
+    "powershell",
+    "management activity api"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to auditing in Purview",
+      "t_start": 0,
+      "t_end": 46.3
+    },
+    {
+      "title": "Purview portal demo and event search",
+      "t_start": 46.3,
+      "t_end": 128
+    },
+    {
+      "title": "Event categories and default enablement",
+      "t_start": 128,
+      "t_end": 168.5
+    },
+    {
+      "title": "Data retention and advanced access methods",
+      "t_start": 168.5,
+      "t_end": 213
+    }
+  ],
+  "features": [
+    {
+      "name": "Auditing Business Central events in Purview",
+      "description": "An auditing solution that allows audit administrators to see operations executed by users across all Microsoft services including Business Central in a single portal. Helps with responding to security events and forensic investigations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.2,
+      "t_end": 128,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "auditing",
+        "compliance",
+        "security",
+        "multi-service"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Purview portal event filtering and search",
+      "description": "Interface that allows filtering and searching for specific events across your tenant by record type, activity category, keyword search, user filter, and date range.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 46.3,
+      "t_end": 128,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "search",
+        "filtering",
+        "portal",
+        "events"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Environment Administration event auditing",
+      "description": "Auditing category that includes everything you would do in the admin Center for Business Central environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 128,
+      "t_end": 148.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "environment",
+        "admin center",
+        "auditing"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Report Administration event auditing",
+      "description": "Auditing category that includes any changes made to reporting in a Business Central environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 128,
+      "t_end": 148.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reporting",
+        "auditing"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Default Purview enablement with Microsoft 365",
+      "description": "Auditing is included and enabled by default with most Microsoft 365 plans, requiring no additional setup to start auditing Business Central events.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 148.2,
+      "t_end": 168.5,
+      "is_demoed": false,
+      "caveats": [
+        "requires compatible Microsoft 365 plan"
+      ],
+      "tags": [
+        "enablement",
+        "microsoft 365",
+        "default"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Purview data retention with extension options",
+      "description": "Purview retains audit logs for 180 days by default, but you can extend this up to 10 years by purchasing add-on licenses or with specific Microsoft 365 plans.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 168.5,
+      "t_end": 188.5,
+      "is_demoed": false,
+      "caveats": [
+        "extended retention requires additional licenses or specific plans"
+      ],
+      "tags": [
+        "data retention",
+        "compliance",
+        "licensing"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "PowerShell and Management Activity API access",
+      "description": "Advanced methods to access Purview events for Business Central, allowing automation beyond the portal interface through PowerShell or the management activity API.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 188.5,
+      "t_end": 204.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "powershell",
+        "api",
+        "automation",
+        "advanced"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 6.2,
+      "text": "pview is an auditing solution that allows audit administrators to see operations executed by users across all Microsoft services including business Central in a",
+      "why_it_matters": "Defines the core value proposition of Purview for Business Central auditing.",
+      "check": "exact"
+    },
+    {
+      "t": 26.3,
+      "text": "this can help responding to security events in case you want to see what a user did for example after an account is compromised",
+      "why_it_matters": "Illustrates practical use case for compliance and security incident response.",
+      "check": "exact"
+    },
+    {
+      "t": 148.2,
+      "text": "auditing is included and enabled by default with most Microsoft 365 plans meaning that if you have one of the included Microsoft 365 plans",
+      "why_it_matters": "Confirms that Purview auditing is automatically available, reducing setup burden.",
+      "check": "exact"
+    },
+    {
+      "t": 168.5,
+      "text": "pview retains the locks for 180 days but by purchasing add-on licenses or with specific Microsoft 365 plans you can extend this up to",
+      "why_it_matters": "Specifies retention periods and licensing options for compliance requirements.",
+      "check": "exact"
+    },
+    {
+      "t": 168.5,
+      "text": "the easiest way to get to pview events is in the pview portal where you can run manual reports",
+      "why_it_matters": "Describes multiple access methods with varying complexity levels.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 188.5,
+      "kind": "coming-later",
+      "text": "this is only the beginning of auditing business Central events in prview and we'd really like to hear your ideas on what else you would want to see"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014394
+    }
+  ]
+}

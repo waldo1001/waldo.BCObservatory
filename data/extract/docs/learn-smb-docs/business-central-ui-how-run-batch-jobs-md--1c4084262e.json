@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-how-run-batch-jobs.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-run-batch-jobs",
+  "title": "Run Batch Jobs and XMLports",
+  "blob": "be3109bec2958ec56b681853e5f3e3626dc047c0",
+  "summary": "Run batch jobs to process data in batches and update information automatically. Use this to understand how to execute batch jobs like exchange rate adjustment, periodic accounting activities, and calculation tasks.",
+  "systems": [
+    "finance",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "batch jobs",
+    "data processing",
+    "job queues",
+    "scheduling",
+    "accounting",
+    "reports"
+  ],
+  "objects": [],
+  "features": [
+    "adjust exchange rates",
+    "periodic accounting",
+    "calculation of finance charges",
+    "exchange rate adjustment",
+    "calculation of unit prices"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003606,
+      "pages_in_call": 8
+    }
+  ]
+}

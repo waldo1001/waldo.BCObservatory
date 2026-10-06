@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "62f9c26543bf75b51728d2d1afb4aba7feb6c5e0",
       "words": 1297,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:11:13.785Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003606
+    },
+    "summarized": {
+      "at": "2026-10-06T19:11:13.802Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:11:13.803Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:11:13.804Z",
+      "page": false
     }
   },
   "input_hash": "62f9c26543bf75b51728d2d1afb4aba7feb6c5e0",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "62f9c26543bf75b51728d2d1afb4aba7feb6c5e0"
+  "output_hash": "7964bda7bbac8b17c822c0b16a268fe6006a7cfbad4363e96e9a3e8740a34d80"
 }

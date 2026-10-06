@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-how-use-allocation-keys-general-journals.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-use-allocation-keys-general-journals",
+  "title": "Use Allocation Keys in General Journals",
+  "blob": "87472a655b6d035d2ba85ca85e70912ca4815eb4",
+  "summary": "Set up allocation keys in recurring general journals to split journal entries across multiple accounts by quantity, percentage, or amount. Use this to distribute transactions during posting.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "general journals",
+    "allocation keys",
+    "posting",
+    "account distribution",
+    "recurring journals"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Recurring General Journal"
+    },
+    {
+      "type": "page",
+      "name": "General Journal Batches"
+    }
+  ],
+  "features": [
+    "allocation by percentage",
+    "allocation by quantity",
+    "allocation by amount",
+    "global dimensions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003606,
+      "pages_in_call": 8
+    }
+  ]
+}

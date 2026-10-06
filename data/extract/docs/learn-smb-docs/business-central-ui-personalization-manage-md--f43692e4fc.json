@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-personalization-manage.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-personalization-manage",
+  "title": "Customizing Pages for Roles",
+  "blob": "cae832921173dad88881a156041d7c3a60244b53",
+  "summary": "Customize page layouts for profiles and roles to control which fields and actions are available to users. Administrators can add fields from source tables, lock editing, and manage customizations.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "page customization",
+    "profiles",
+    "roles",
+    "personalization",
+    "field management",
+    "page layouts"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Profiles (Roles)"
+    },
+    {
+      "type": "page",
+      "name": "Customized Pages"
+    }
+  ],
+  "features": [
+    "add fields to page",
+    "lock editing",
+    "unlock editing",
+    "manage customized pages",
+    "clear customizations",
+    "field visibility"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003606,
+      "pages_in_call": 8
+    }
+  ]
+}

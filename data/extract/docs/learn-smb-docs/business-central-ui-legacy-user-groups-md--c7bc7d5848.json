@@ -1,0 +1,62 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-legacy-user-groups.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-legacy-user-groups",
+  "title": "Manage permissions through user groups (legacy)",
+  "blob": "97781718de14150ae0881d600a9c4bc3c9c5a781",
+  "summary": "Manage permissions through user groups, a legacy approach being replaced by security groups in version 25. Create, copy, and assign permission sets to user groups for role-based access control.",
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "user groups",
+    "permissions",
+    "permission sets",
+    "security",
+    "legacy",
+    "access control"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "User Groups"
+    },
+    {
+      "type": "page",
+      "name": "User Group Members"
+    },
+    {
+      "type": "page",
+      "name": "Users"
+    },
+    {
+      "type": "page",
+      "name": "Permission Set by User Group"
+    },
+    {
+      "type": "page",
+      "name": "License Configuration"
+    }
+  ],
+  "features": [
+    "user group management",
+    "permission set assignment",
+    "user group copying",
+    "security groups conversion",
+    "license configurations"
+  ],
+  "versions": [
+    "2024 release wave 2",
+    "version 25",
+    "2023 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003606,
+      "pages_in_call": 8
+    }
+  ]
+}

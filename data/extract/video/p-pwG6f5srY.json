@@ -1,0 +1,585 @@
+{
+  "video_id": "p-pwG6f5srY",
+  "item_id": "video/yt-microsoft/p-pwG6f5srY",
+  "title": "What's New: Shopify Connector (2024 release wave 2)",
+  "duration_s": 1468,
+  "systems": [
+    "integration",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "shopify connector",
+    "custom fields",
+    "meta fields",
+    "product synchronization",
+    "translations",
+    "localization",
+    "pricing",
+    "variants",
+    "b2b catalogs",
+    "api versions",
+    "return processing",
+    "shipping charges"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Shopify Connector Overview",
+      "t_start": 0,
+      "t_end": 80.5
+    },
+    {
+      "title": "Custom Fields Feature and Meta Fields Support",
+      "t_start": 80.5,
+      "t_end": 167.7
+    },
+    {
+      "title": "Product Synchronization and Meta Fields Implementation",
+      "t_start": 167.7,
+      "t_end": 238.9
+    },
+    {
+      "title": "Translation Synchronization and Multi-Language Support",
+      "t_start": 238.9,
+      "t_end": 337.5
+    },
+    {
+      "title": "Product Variants and SKU Mapping",
+      "t_start": 337.5,
+      "t_end": 459.6
+    },
+    {
+      "title": "Pricing Configuration and B2B Catalogs",
+      "t_start": 459.6,
+      "t_end": 604.6
+    },
+    {
+      "title": "Customer-Specific Pricing and Code Development Project",
+      "t_start": 604.6,
+      "t_end": 743.2
+    },
+    {
+      "title": "API Updates and Variant Limits",
+      "t_start": 743.2,
+      "t_end": 919.9
+    },
+    {
+      "title": "Enhanced Shipping Charges with Item Charges",
+      "t_start": 919.9,
+      "t_end": 1002.6
+    },
+    {
+      "title": "Posted Sales Invoice Synchronization to Shopify",
+      "t_start": 1002.6,
+      "t_end": 1095.1
+    },
+    {
+      "title": "Invoice Display and Currency Handling in Shopify",
+      "t_start": 1095.1,
+      "t_end": 1190.4
+    },
+    {
+      "title": "Payment Reconciliation for Multiple Payment Types",
+      "t_start": 1190.4,
+      "t_end": 1346.7
+    },
+    {
+      "title": "Gift Card Payment Reconciliation and Documentation",
+      "t_start": 1346.7,
+      "t_end": 1468
+    }
+  ],
+  "features": [
+    {
+      "name": "Custom Fields and Meta Fields Support",
+      "description": "The Shopify connector now supports synchronization of custom fields (meta fields) defined in Shopify. Merchants can define custom fields on products or variants in Shopify admin, and the connector imports them into Business Central. Merchants can write custom extensions to map these meta fields to Business Central entities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 100.8,
+      "t_end": 230,
+      "is_demoed": true,
+      "caveats": [
+        "Connector only imports meta fields; mappings require custom extensions"
+      ],
+      "tags": [
+        "custom fields",
+        "meta fields",
+        "product data",
+        "synchronization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Translation Synchronization",
+      "description": "New capability to synchronize product translations across multiple languages from Business Central to Shopify. Merchants can select which languages to sync with, and item descriptions, extended text, and attributes are translated when products are added to Shopify.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 238.9,
+      "t_end": 337.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "translations",
+        "localization",
+        "multi-language",
+        "product synchronization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Add Items as Shopify Variants",
+      "description": "New action that allows merchants to push Business Central items to Shopify as variants of existing products. This enables combining multiple Business Central items as variants under a single Shopify product, with synchronized availability and prices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 378,
+      "t_end": 459.6,
+      "is_demoed": true,
+      "caveats": [
+        "Title control on Shopify API side is limited; full control not yet available"
+      ],
+      "tags": [
+        "variants",
+        "product mapping",
+        "sku",
+        "synchronization"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Customer-Specific Pricing via Catalogs",
+      "description": "Enhancement to B2B pricing that allows linking specific Business Central customers to Shopify B2B catalogs. This enables customer-specific prices and discounts in Shopify, matching Business Central's advanced pricing capabilities for individual customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 499.7,
+      "t_end": 604.6,
+      "is_demoed": true,
+      "caveats": [
+        "Field requires personalization to make visible"
+      ],
+      "tags": [
+        "b2b",
+        "pricing",
+        "catalogs",
+        "customer groups",
+        "discounts"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Community Code Contribution to Connector",
+      "description": "A merchant and partner proactively contributed code to add customer-specific pricing functionality to the Shopify connector via GitHub. Microsoft integrated this code into the standard product, creating a win-win situation where the merchant no longer maintains separate code and Microsoft gains functionality for all connector users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 681.8,
+      "t_end": 743.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "community contribution",
+        "development",
+        "github",
+        "partnership"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Shopify API Version Update to 2024-07",
+      "description": "The Shopify connector now uses Shopify API version 2024-07 released in July, supported for one year. Microsoft updates the API version with each major release to align with Shopify quarterly releases and reduce breaking changes in minor updates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 757.6,
+      "t_end": 879.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "api",
+        "shopify",
+        "version update",
+        "compatibility"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Support for Up to 2000 Product Variants",
+      "description": "The connector now supports Shopify's lifting of variant restrictions, allowing up to 2000 variants per product. This change aligns with Shopify's latest capability rollout and the connector is already prepared for this increased limit.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 819.1,
+      "t_end": 839.2,
+      "is_demoed": false,
+      "caveats": [
+        "Currently testable only in development stores with latest Shopify version"
+      ],
+      "tags": [
+        "variants",
+        "limits",
+        "shopify compatibility",
+        "product management"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Weight Unit Setting for Product Variants",
+      "description": "New setting in the item synchronization tab to specify and synchronize weight units for product variants. Shopify API 2024-07 now requires weight units to be sent when syncing product weights, and Business Central automatically synchronizes this from Shopify or allows manual override.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 859.4,
+      "t_end": 879.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "weight unit",
+        "product data",
+        "item synchronization",
+        "shopify api"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Return Location Priority Setting",
+      "description": "New field in return and refund processing that allows choosing between default return location and original order location for Shopify refunds. The original order location option attempts to use the return location from the Shopify refund order.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 879.7,
+      "t_end": 919.9,
+      "is_demoed": true,
+      "caveats": [
+        "Falls back to default return location if original cannot be found"
+      ],
+      "tags": [
+        "returns",
+        "refunds",
+        "location",
+        "order processing"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Item Charge Mapping for Shipping Charges",
+      "description": "Enhanced shipment method mapping now supports item charges in addition to GL accounts for shipping charges. Users can map shipping charges to specific item charges like freight items, which are then distributed across sales lines.",
+      "status": "ga",
+      "status_evidence_t": 919.9,
+      "status_evidence_quote": "if you go to your shipment method mapping now uh instead of just one uh shipping charges type which is the GL account you",
+      "status_evidence_verified": true,
+      "t_start": 919.9,
+      "t_end": 1002.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "shipping charges",
+        "item charges",
+        "shipment method"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Posted Sales Invoice Synchronization",
+      "description": "New capability to synchronize posted sales invoices to Shopify. Requires enabling posted invoice sync in order synchronization and processing tab, and configuring payment terms mapping. Synced invoices show paid or pending payment status.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1002.6,
+      "t_end": 1095.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires payment terms mapping configuration",
+        "Items created as custom products on Shopify to provide specific tax information"
+      ],
+      "tags": [
+        "posted invoices",
+        "synchronization",
+        "shopify integration"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Currency Handling in Synced Invoices",
+      "description": "Original currency from posted sales invoices is transferred to Shopify when syncing. Invoices display in their original currency on the Shopify customer portal.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1115.1,
+      "t_end": 1156.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "currency",
+        "invoice synchronization"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Shopify Payment Integration for Invoices",
+      "description": "Synced invoices on Shopify customer portal include a pay now button, allowing customers to pay directly using credit card information. Payment information is recorded in Shopify, making Shopify act as a payment integration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1156.1,
+      "t_end": 1190.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "payment integration",
+        "shopify portal"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Multi-Payment Reconciliation Capability",
+      "description": "New capability to reconcile payments with posted invoices when orders use multiple payment methods, such as gift cards and credit cards, or partial refunds. Addresses customer reconciliation difficulties.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1190.4,
+      "t_end": 1230.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "payment reconciliation",
+        "multiple payment methods",
+        "gift cards"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Suggest Shopify Payments Journal Action",
+      "description": "New action in cash receipt journals under prepare tab called suggest Shopify payments. Allows users to select a payment gateway and pulling transactions from that gateway into journal lines. Automatically handles refunds as negative amounts and creates credit memos.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1271,
+      "t_end": 1346.7,
+      "is_demoed": true,
+      "caveats": [
+        "Only shows with active enabled shop"
+      ],
+      "tags": [
+        "payment reconciliation",
+        "cash receipt",
+        "shopify transactions"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Gift Card Payment Reconciliation",
+      "description": "Dedicated reconciliation for gift card payments through Shopify transaction page. Users can select gift card transactions and use suggest Shopify gift action to quickly reconcile gift card amounts. Works with batch tracking using transaction IDs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1346.7,
+      "t_end": 1418.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "gift card",
+        "payment reconciliation",
+        "shopify transactions"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Shopify Shop Card",
+      "t": 238.9
+    },
+    {
+      "type": "other",
+      "name": "Meta Fields action",
+      "t": 167.7
+    },
+    {
+      "type": "other",
+      "name": "Languages action",
+      "t": 238.9
+    },
+    {
+      "type": "table",
+      "name": "Item",
+      "t": 259.2
+    },
+    {
+      "type": "other",
+      "name": "Item Substitution",
+      "t": 218.6
+    },
+    {
+      "type": "other",
+      "name": "Shopify Product List",
+      "t": 398.9
+    },
+    {
+      "type": "other",
+      "name": "Weight Unit setting",
+      "t": 859.4
+    },
+    {
+      "type": "other",
+      "name": "Return Location Priority field",
+      "t": 879.7
+    },
+    {
+      "type": "other",
+      "name": "Shopify transaction page",
+      "t": 1376.8
+    },
+    {
+      "type": "other",
+      "name": "cash receipt journals",
+      "t": 1291
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Andre",
+      "confidence": "high"
+    },
+    {
+      "name": "Unidentified speaker",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 47.3,
+      "text": "the sales cycle is about 2 weeks in average but it can be as short as 8 days",
+      "why_it_matters": "Demonstrates the quick sales cycles in Shopify merchant transition to Business Central, showing the market urgency and business value proposition.",
+      "check": "exact"
+    },
+    {
+      "t": 60.1,
+      "text": "we are again focusing on the making connector better investing into product information management on one side and Order handling on another side which",
+      "why_it_matters": "Clarifies Microsoft's strategic priorities for the Shopify connector, identifying product management and order handling as the core 80% of functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 167.7,
+      "text": "connector right now uh only Imports them but uh we left it to you to write uh your custom extensions to actually do mappings",
+      "why_it_matters": "Defines the scope of meta fields support, establishing that while import is automatic, merchants must create custom extensions for their specific data mappings.",
+      "check": "exact"
+    },
+    {
+      "t": 701.9,
+      "text": "Merchant and the partner who was helping them with implementation they submitted this code to the GitHub where we have our extension code is",
+      "why_it_matters": "Explains how community contributions are integrated into the connector, highlighting the collaborative development model with merchants and partners.",
+      "check": "exact"
+    },
+    {
+      "t": 778.3,
+      "text": "every quarter there is a new version and it version will stay current for one year to make sure that we aligned with Shopify",
+      "why_it_matters": "Establishes the API versioning strategy showing Microsoft's commitment to staying aligned with Shopify's quarterly release cycle.",
+      "check": "exact"
+    },
+    {
+      "t": 819.1,
+      "text": "now you can have up to 2,000 of variant under one product and our connector already works with it",
+      "why_it_matters": "Highlights a significant Shopify capability enhancement and confirms the connector's readiness for this limit increase.",
+      "check": "exact"
+    },
+    {
+      "t": 819.1,
+      "text": "slowly rolling out already it's the are lifting restrictions on number of variants you can have so now you",
+      "why_it_matters": "Indicates Shopify's major product capability change and confirms the connector already supports this new 2,000 variant limit.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 859.4,
+      "text": "weight unit when we send the weight of a variant of a or a product uh",
+      "why_it_matters": "Explains mandatory Shopify API requirement and the new weight unit setting introduced to meet this requirement.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 919.9,
+      "text": "instead of just one uh shipping charges type which is the GL account you can do item or item charge",
+      "why_it_matters": "Demonstrates the expanded shipping charge mapping options beyond GL accounts, now supporting item charges.",
+      "check": "exact"
+    },
+    {
+      "t": 1002.6,
+      "text": "with this release uh you can also uh synchronize postal sales invoices to Shopify",
+      "why_it_matters": "Announces a major new feature enabling posted invoice synchronization to Shopify customer portals.",
+      "check": "exact"
+    },
+    {
+      "t": 1115.1,
+      "text": "most of items or basically everything is created not as real item or variant but as something which is called custom product available on",
+      "why_it_matters": "Explains the design decision to use custom products instead of variants when syncing invoices, driven by Shopify's tax information requirements.",
+      "check": "exact"
+    },
+    {
+      "t": 1210.7,
+      "text": "in this release we are adding a new extra capability which should help you to more easily reconcile payments with the posted invoices",
+      "why_it_matters": "Announces new multi-payment reconciliation capability addressing customer feedback on difficult reconciliation scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 1291,
+      "text": "under uh prepare tab you'll see a new action called suest Shopify payments this will only show if you have an active uh enabled",
+      "why_it_matters": "Documents the new suggest Shopify payments action in cash receipt journals with the condition it requires an active shop.",
+      "check": "exact"
+    },
+    {
+      "t": 1438.4,
+      "text": "notice that majority of this changes are coming from you because we are addressing feedback uh received via different channels either via support or",
+      "why_it_matters": "Emphasizes that the features are driven by customer feedback, indicating customer-centric development approach.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 839.2,
+      "kind": "preview",
+      "text": "you can test it if you have a development store which uses the latest Shopify version"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 14,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 15
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029434
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027944000000000004
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032881
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-use-allocation-keys-general-journals",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "87472a655b6d035d2ba85ca85e70912ca4815eb4",
       "words": 352,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:11:13.781Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003606
+    },
+    "summarized": {
+      "at": "2026-10-06T19:11:13.791Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:11:13.792Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:11:13.793Z",
+      "page": false
     }
   },
   "input_hash": "87472a655b6d035d2ba85ca85e70912ca4815eb4",
@@ -48,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "87472a655b6d035d2ba85ca85e70912ca4815eb4"
+  "output_hash": "f2357723e03e48305ca18debfd529016ef189fd452009bfa5f9b0799b6eda6c7"
 }

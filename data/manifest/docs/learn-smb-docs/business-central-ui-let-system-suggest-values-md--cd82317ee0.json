@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-let-system-suggest-values",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cf9b77f155149a5e51c016ee71934ff8f5584ef4",
       "words": 422,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:11:13.784Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003606
+    },
+    "summarized": {
+      "at": "2026-10-06T19:11:13.801Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:11:13.801Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:11:13.802Z",
+      "page": false
     }
   },
   "input_hash": "cf9b77f155149a5e51c016ee71934ff8f5584ef4",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cf9b77f155149a5e51c016ee71934ff8f5584ef4"
+  "output_hash": "8f4721355002c795f641a6050233bfb094a367108e36fa061ea3ba3724065632"
 }

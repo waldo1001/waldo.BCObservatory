@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-specify-printer-selection-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports",
+  "title": "Specify a Default Printer",
+  "blob": "81c3dcb60ca5fec4404465c051ff7d7f99ee8e03",
+  "summary": "Specify default printers for all print jobs or for specific reports. Configure printer selections at user or global level for cloud printers and PDF output.",
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "printer management",
+    "printer selection",
+    "default printer",
+    "cloud printing",
+    "print jobs"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Printer Management"
+    },
+    {
+      "type": "page",
+      "name": "Printer Selections"
+    }
+  ],
+  "features": [
+    "default printer for all jobs",
+    "default printer for reports",
+    "cloud printer support",
+    "universal print",
+    "email printers",
+    "print job sizing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003606,
+      "pages_in_call": 8
+    }
+  ]
+}

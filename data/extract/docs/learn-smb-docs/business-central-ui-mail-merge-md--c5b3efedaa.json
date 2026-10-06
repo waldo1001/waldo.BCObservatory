@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-mail-merge.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge",
+  "title": "Using Word templates for bulk communications",
+  "blob": "62f9c26543bf75b51728d2d1afb4aba7feb6c5e0",
+  "summary": "Use Word templates for bulk communications with customers, vendors, and contacts. Create personalized documents by merging data from Business Central entities into templates.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "crm"
+  ],
+  "topics": [
+    "word templates",
+    "mail merge",
+    "bulk communication",
+    "email",
+    "document generation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Word Templates"
+    }
+  ],
+  "features": [
+    "merge fields",
+    "entity data sources",
+    "related and unrelated entities",
+    "field selection",
+    "email integration",
+    "template upload"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003606,
+      "pages_in_call": 8
+    }
+  ]
+}

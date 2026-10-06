@@ -1,0 +1,27 @@
+{
+  "video_id": "lk1YJKOmHyI",
+  "item_id": "video/yt-microsoft/lk1YJKOmHyI",
+  "summary": "Auditing Business Central events in Microsoft Purview (2024 release wave 2): the Purview portal shows user operations across Microsoft services, including Business Central, with event search, 180-day default retention (extendable to 10 years with licenses), and PowerShell or API access.",
+  "overview": "The video introduces auditing of Business Central events in Purview. Audit administrators can see operations run by users across all Microsoft services, including Business Central, in a single portal. This supports responding to security events, such as checking what a user did after an account was compromised, and forensic investigations.\n\nThe demo covers the Purview portal, where events can be filtered and searched by record type, activity category, keyword, user and date range. It describes the Environment Administration and Report Administration event categories, default enablement with most Microsoft 365 plans, and data retention. It also mentions PowerShell and the management activity API for access beyond the portal. The presenters say this is only the beginning and ask for ideas on what else to add.",
+  "key_points": [
+    "Purview lets audit administrators see user operations across Microsoft services, including Business Central, in one portal.",
+    "Portal event search can filter by record type, activity category, keyword, user and date range.",
+    "Environment Administration events cover everything done in the Business Central admin center for environments.",
+    "Report Administration events cover changes made to reporting in a Business Central environment.",
+    "Auditing is included and enabled by default with most Microsoft 365 plans, so a compatible plan is needed.",
+    "Purview keeps audit logs 180 days by default; up to 10 years needs add-on licenses or specific Microsoft 365 plans.",
+    "Events can also be accessed through PowerShell or the management activity API for automation."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "decision maker"
+  ],
+  "extraction_hash": "a2b11c6f5d59c9f804a4199a72fa14b27f7e842fc6457ca26e17ceadfb5900fb",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013170399999999999
+  }
+}

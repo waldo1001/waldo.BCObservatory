@@ -1,0 +1,441 @@
+{
+  "video_id": "jJxBswIy_Xw",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.5,
+      "end": 24.8,
+      "text": "hi and welcome to this what's new session on subscription billing my name is Brian Nelson I'm a program manager within the business Central Development team and I'll take you through the new feature for subscription billing or subscription and recurring"
+    },
+    {
+      "t": 24.8,
+      "end": 45,
+      "text": "billing we have added a new module um for subscription and for subscription handling for recurring invoicing um it has a set of new Concepts that it'll probably take a while to uh to get used to uh a slightly different process"
+    },
+    {
+      "t": 45,
+      "end": 65,
+      "text": "because it is uh a different thing there's a concept of contracts which you would normally expect when you have uh a subscription you have a contract for what it is that you will get recurring invoices for you have service commitments uh which specify the thing that you will be"
+    },
+    {
+      "t": 65,
+      "end": 85.2,
+      "text": "invoiced for like it can be um tickets minutes usage of something uh or just a a service that is provided to you on a recurring basis there are some objects behind it with prices and costs um and maybe some other linked"
+    },
+    {
+      "t": 85.2,
+      "end": 105.4,
+      "text": "uh Service uh commitments you can generate uh billing proposals uh or schedules uh once you have a contract once you have a setup uh you can get the system to generate um either the next uh invoice or the next set of invoices or you can do the"
+    },
+    {
+      "t": 105.4,
+      "end": 120.8,
+      "text": "next invoice for an extended period if you need to it's very flexible in in what you can do there you can also um do use a space building which means that you will get the quantities and maybe also the prices"
+    },
+    {
+      "t": 120.8,
+      "end": 141.2,
+      "text": "uh that you invoice from an external system imported into these contracts and then start your recurring billing process later on we will automate these processes so that you just need to set them up and it will run um once you post an invoice for a recurring uh or for a"
+    },
+    {
+      "t": 141.2,
+      "end": 161.4,
+      "text": "subscription it may be for a service that extends 12 months like if it's an annual fee for a service that you provide right but you in your accounting system you only recognize the the revenue for the individual periods so there is a deferrals um"
+    },
+    {
+      "t": 161.4,
+      "end": 181,
+      "text": "system for these contracts that set up the deferrals in advance when you post uh a new invoice and then you can decide to release the individual periods the ferals and then post the revenue to G or expense if it's on the vendor side"
+    },
+    {
+      "t": 181,
+      "end": 201.1,
+      "text": "you can manage prices you can do updates to contracts we will see that in the demo you can do renewals uh you can even automate some of it um and later on in the minor release I think it's 25.2 we will have a popi app which means we will have embedded reporting for the subscription billing"
+    },
+    {
+      "t": 201.1,
+      "end": 218.1,
+      "text": "module and we will also provide some Excel reports so you can get your data out and do a quick analysis or maybe even create your own reports uh based on that there's a lot more to learn because it's a a new module there are some new terms and and new ways of doing"
+    },
+    {
+      "t": 218.1,
+      "end": 238.3,
+      "text": "things um but we will see some of that in the coming demos so the first demo is uh a customer that comes in and want your Hardware that is sold with maintenance two different flavors of Maintenance and then we will uh create the"
+    },
+    {
+      "t": 238.3,
+      "end": 250.1,
+      "text": "contract and create the billing proposal and we'll see the first invo and then we'll look at the deferrals so we see it how it's done end to end in a very straightforward"
+    },
+    {
+      "t": 250.1,
+      "end": 271.3,
+      "text": "scenario and then later on we can extend the contract with some more services that we can then build going forward but let's start with um a sales order we'll create a new one we'll create it for tail spin"
+    },
+    {
+      "t": 271.3,
+      "end": 291.3,
+      "text": "and um just to keep it relatively simple we um do it for June all good and then we have to pick an item and in this case we have a a hardware item here the hardware it comes with maintenance and"
+    },
+    {
+      "t": 291.3,
+      "end": 311.5,
+      "text": "we have two kinds of Maintenance that we have set up for this Hardware you can either select the internal ones uh whether that's the premium or standard ones it's debatable but there's also one that is done by an external vendor um slightly different prices but you get to select in the sales process"
+    },
+    {
+      "t": 311.5,
+      "end": 323.8,
+      "text": "or the customer gets to select uh in this case where you only have a vendor there's only a customer side like selling side like we're doing the support so we'll pick that"
+    },
+    {
+      "t": 323.8,
+      "end": 344.6,
+      "text": "one and we need a quantity of one we have a th000 in total but we also sold maintenance and that's not reflected anywhere and that is because it's a service commitment that we will build on a recurring basis we have maintenance"
+    },
+    {
+      "t": 344.6,
+      "end": 359.8,
+      "text": "uh the price is 1,000 there are some calculation types in this case we've chosen the item price you could also choose the item price including discounts and in this case the item price is 1,000"
+    },
+    {
+      "t": 359.8,
+      "end": 380.6,
+      "text": "mainten is is 20% of that so that's 200 and it's done you can see here the billing uh base period is 12 months so it's annual and the billing rhythm is also uh annual which makes uh sense of course so an annual fee"
+    },
+    {
+      "t": 380.6,
+      "end": 400.7,
+      "text": "you could say for maintenance service so we have the order but we still don't have a contract we still don't have these recurring invoices so they need to sort of come into play and they will come into play when you start uh releasing the order uh either by shipping or releasing or also when you uh ship an invoice and"
+    },
+    {
+      "t": 400.7,
+      "end": 413.4,
+      "text": "in our case there are no extra services or anything we can just go ahead and ship an invoice but before we do that let's take a look at the order confirmation that we could send to the"
+    },
+    {
+      "t": 413.4,
+      "end": 423.6,
+      "text": "customer there is a separate uh word layout or designated word word layout for or subscription billing because it has to have extra"
+    },
+    {
+      "t": 423.6,
+      "end": 443.6,
+      "text": "information we'll pick that and do preview and as you can see it looks like a normal uh sales order and it has a a unit price 1,000 and then it has a service price uh that is a recurring service and that is what we will see going forward so for"
+    },
+    {
+      "t": 443.6,
+      "end": 450.4,
+      "text": "this one we can just say Post shipping invoice"
+    },
+    {
+      "t": 450.5,
+      "end": 469.4,
+      "text": "and we say no like the invoice is there for for Hardware so now we've invoice the order they have um gotten an invoice for the hardware but now we need to in the coming months we need to uh invoice for the maintenance"
+    },
+    {
+      "t": 469.4,
+      "end": 489.4,
+      "text": "service we would normally go into uh recurring billing we would set the date um it started in June so we would expect to see something here uh but there's nothing there's other customers because the service commitment that we have has not been assigned to a contract"
+    },
+    {
+      "t": 489.4,
+      "end": 509.8,
+      "text": "yet uh we have tailpin toys here uh but it hasn't been assigned to a contract so you can either pick an existing one if there is one or if it's a completely new uh customer you would probably go in and U Pick them and say uh here's a contract"
+    },
+    {
+      "t": 509.8,
+      "end": 525.5,
+      "text": "and okay with that and then you assign the selected services to the contract and it will disappear so now we have a contract for tailes spin toys and then we could go into recurring billing clear this"
+    },
+    {
+      "t": 525.5,
+      "end": 545.5,
+      "text": "proposal the first building template is a filter for which contracts Do you want to build and periods and so forth but for now we'll just focus on on June we we don't set an end date because we want whatever is next for these customers so we create a billing proposal and we can see that tailes"
+    },
+    {
+      "t": 545.5,
+      "end": 564.4,
+      "text": "spin toys is in the list with a period from June to end of May next year because it was an annual maintenance contract so um let's focus on that and we can then uh create documents we are on this line we can create"
+    },
+    {
+      "t": 564.4,
+      "end": 584.5,
+      "text": "document and um we can put in for these documents and we can decide to either have them here or we can post them directly we can uh do an invoice or a document per contract per the uh sell to customer or the bill to customer so there's flexibility in"
+    },
+    {
+      "t": 584.5,
+      "end": 602.2,
+      "text": "in what you uh generate out of this for now we'll just uh do it per contract so let's do that we'll also create the the rest of uh these contracts that were out there on this date which is fine um we'll go to the sales"
+    },
+    {
+      "t": 602.2,
+      "end": 623,
+      "text": "invoices and we have tailes spin toys here we would expect to see posting date end of June and there's a description Hardware it's the maintenance part the it's for the full period it cost uh 200 which is 20% of the cost before you post"
+    },
+    {
+      "t": 623,
+      "end": 643.1,
+      "text": "um maybe you want to see where does this uh invoice end up because it is an annual invoice and you can do posting preview and first you can see there are two entries in deal we'll look at them first and you can see that we post the receivables the customer part they got an invoice and then we post directly to deferrals"
+    },
+    {
+      "t": 643.1,
+      "end": 663.2,
+      "text": "because it's not obvious that you want to recognize any or all of it or maybe part of it um right away but we have set up customer contract deferrals and we have 12 we started at the beginning of a period so there's no partial periods um and"
+    },
+    {
+      "t": 663.2,
+      "end": 684.2,
+      "text": "they're here and um they're ready to be released is a field whether they are released or not whether they have been moved to to GL or not and they they split out the 200 for the maintenance for the annual maintenance in in 12 periods so they they will be generated"
+    },
+    {
+      "t": 684.2,
+      "end": 696.7,
+      "text": "here and enough posting then we'll post the invoice and um we could go to um the posted"
+    },
+    {
+      "t": 696.7,
+      "end": 716.8,
+      "text": "invoice then we could say find entries it would of course be the same as we saw in in preview we could uh look up the deferrals a better way of uh looking at The Furs rather than checking some dates is to look at how they are split out in future month and we are missing"
+    },
+    {
+      "t": 716.8,
+      "end": 737,
+      "text": "a year here posting date month I'll pick the year because we didn't start in January in this year we will only defer in in June and going forward up until May next year so here we have next year and you have entries there but that is the deferral entries nothing has"
+    },
+    {
+      "t": 737,
+      "end": 757.2,
+      "text": "been posted to GL yet so now we have posted the invoice with the annual subscription and we have the deferral entries in order to get the deferral entries from the deferral account that I posted now to the revenue account we need to release the deferrals and that is done through a batch"
+    },
+    {
+      "t": 757.2,
+      "end": 777.8,
+      "text": "job so we go to contract deferral release it's a bad job and we will do it for um we could do it only for June and it would be fine but we could also say assuming that our accounting periods are open uh say that we do it for"
+    },
+    {
+      "t": 777.8,
+      "end": 793.4,
+      "text": "uh August and then we would have June July and August uh released for deferrals so we put it in and we have it and then we could go back to our deferrals entries customer"
+    },
+    {
+      "t": 793.4,
+      "end": 813.8,
+      "text": "contract uh deferrals and if we filter on only this contract that we looked at before and we say filter to this value before we look at the pivot we you can see that for this contract for those that are"
+    },
+    {
+      "t": 813.8,
+      "end": 827.6,
+      "text": "released uh we can actually spread it out here we can see that the ones that are released are in June July and August and the rest is for the remaining uh period of the invoice"
+    },
+    {
+      "t": 827.6,
+      "end": 847.8,
+      "text": "including um May next year has not been uh released so we can control what we release uh or what part of the reeven you we recognize in in DL based on these contracts so we have started with an order we have invoiced the uh customer"
+    },
+    {
+      "t": 847.8,
+      "end": 868,
+      "text": "for the hardware we have uh created a service commitment the commitment to provide maintenance service we have taken that commitment and put it into a contract we have created a billing proposal uh for uh the next uh invoicing period which happened to be in June"
+    },
+    {
+      "t": 868,
+      "end": 888.1,
+      "text": "but the invoice that came out of that was for full year because the maintenance is an annual subscription after that um when you post the invoice because it's an annual uh subscription uh deferral entries are created and you can then release them uh in a"
+    },
+    {
+      "t": 888.1,
+      "end": 908.4,
+      "text": "batch job where you control what to release and and when so that's all good you have a a sales process and you can can do recurring billing sometimes the customer will come in and want something more or maybe you're not selling Hardware but just some services so of course you can start from a"
+    },
+    {
+      "t": 908.4,
+      "end": 925.9,
+      "text": "contract it can either be from um a completely new contract or maybe the customer uh in this case tailes spin toys they just want uh an addition to their contract and you cannot just add lines but you can extend a"
+    },
+    {
+      "t": 925.9,
+      "end": 946,
+      "text": "contract because you cannot just add any random uh line to a contract you can only add uh service commitments like things that we can uh do recurring billing for so in this case we extend this contract and in this case they don't need more um"
+    },
+    {
+      "t": 946,
+      "end": 960.3,
+      "text": "ticketed support um but maybe they want premium support and um it cost U they just want one of that it cost 108"
+    },
+    {
+      "t": 960.3,
+      "end": 972.4,
+      "text": "and they want it to start let's say um in September and then we can see what uh happens here but now that you've done"
+    },
+    {
+      "t": 972.4,
+      "end": 992.9,
+      "text": "that um you can extend the uh contract and you have a new line added to the contract it can also be from a completely blank contract for a new customer uh it's more often the case that there are modifications to an existing um product if it was the case that there was a standard support included"
+    },
+    {
+      "t": 992.9,
+      "end": 1013,
+      "text": "you can put an end dat to the to any of these services so that you can add more and stop some of the uh existing uh items so now we have um a new service commitment on this contract so now we can go to recurring billing we could pick uh end of November as the next billing date let's"
+    },
+    {
+      "t": 1013,
+      "end": 1033.2,
+      "text": "say we skipped September and October for a reason we want a billing proposal for end of nov M so there are some existing lines here and they are already tied to uh to existing documents we can see that over here so we cannot easily delete them we'll leave them but we'll create a billing proposal where we expect tailspin to"
+    },
+    {
+      "t": 1033.2,
+      "end": 1050.1,
+      "text": "show up and they're here the new service with the support premium support starts in um in September and runs until billing to date uh end of November and then we could say we create"
+    },
+    {
+      "t": 1050.1,
+      "end": 1065.8,
+      "text": "documents and create documents and we could uh create it let's just create two documents because some of them are already uh existing let's go and see invoice Tail"
+    },
+    {
+      "t": 1065.8,
+      "end": 1086.2,
+      "text": "Spin and we now have uh an invoice for premium support for September October and November like three times 180 so there are different ways of starting the process but the end result is of course always an invoice with the feral entries"
+    },
+    {
+      "t": 1086.2,
+      "end": 1106.2,
+      "text": "uh that will also be the case here because it's an extended period and revenue recognition um so it's very flexible uh what you can do and what you can set up uh in this in this release um you will have to do with the analysis mode and the list but in"
+    },
+    {
+      "t": 1106.2,
+      "end": 1127,
+      "text": "the 25.2 minor we will provide Excel reports so you can get your data out and do analysis and you'll also uh see the powerbi embed app that will be provided uh so you will have embedded reporting for subscription billing in business Central sometimes when you do subscription billing"
+    },
+    {
+      "t": 1127,
+      "end": 1147,
+      "text": "or recurring invoicing the data for the individual invoices are based uh off of some external data um usually what the End customer assumes it could be support ticket support minutes uh articles read um how much electricity"
+    },
+    {
+      "t": 1147,
+      "end": 1165.8,
+      "text": "that they have consumed um different uh kinds of consumption and of course you need to feed that data into the individual invoices for the recurring billing and this is what usage based billing can do for you let's look at the product and see how it's"
+    },
+    {
+      "t": 1165.8,
+      "end": 1185.9,
+      "text": "done so when you've done your setup with the data supplier with the item references you're ready to import some data and you can search for it or you can uh bookmark it like I did so we have us this data import here it's a simple process uh you want to do a new"
+    },
+    {
+      "t": 1185.9,
+      "end": 1206.2,
+      "text": "import you need to um edit the record so we point to A supplier of data then you import the file that you have so now we get the file in you can see here to the right that we have one file in you can then either um step by step"
+    },
+    {
+      "t": 1206.2,
+      "end": 1226.4,
+      "text": "go through the process of creating the imported line process them uh create the billing data and then process the billing data you can also delete it again if there was a mistake but this is a good way of of going through it uh when you are doing troubleshooting uh if it's just a normal process and you've done it before"
+    },
+    {
+      "t": 1226.4,
+      "end": 1241.1,
+      "text": "you will just go and process data and everything is okay here in this case I have one line uh is for February I could put a note on that"
+    },
+    {
+      "t": 1241.1,
+      "end": 1261.8,
+      "text": "um tickets February 24 part one for example then I can uh go back to recurring bilding and create new proposals uh it will take the data that it has here for that subscription and create uh a new invoice I can also create all the invoices"
+    },
+    {
+      "t": 1261.8,
+      "end": 1281,
+      "text": "if I want that uh directly by creating customer invoices there's also a button or action for uh vendor invoices now that I know that there's just one invoice uh I can just go and do it here I know it's for"
+    },
+    {
+      "t": 1281,
+      "end": 1301.2,
+      "text": "February and we'll just keep it unposted so we can go and take a look at it it is created and then we just take a look at it it's here this one so we got it um eight tickets they used up in support and we're going to charge them in this invoice for February"
+    },
+    {
+      "t": 1301.2,
+      "end": 1319.2,
+      "text": "the period is down here so it's all very easy once you've set it up to get data in if you have data and they come from an exter external system and you haven't set up the contract for the customer the process is almost the same you create a new import"
+    },
+    {
+      "t": 1319.2,
+      "end": 1335.2,
+      "text": "and we'll just edit it pick the supplier and we'll import the uh a new file actually I know that we will be looking at tickets for January 24 part"
+    },
+    {
+      "t": 1335.2,
+      "end": 1356,
+      "text": "three then I can import a file and once it imported I can process it but because I process data without having having a contract already uh the system will give me an error and I can just click on that error"
+    },
+    {
+      "t": 1356,
+      "end": 1371.5,
+      "text": "it will say there's no um subscription ID for the uh for the service commitment it has identified the service commitment but um it doesn't know in what contract to put it so we'll extend the"
+    },
+    {
+      "t": 1371.5,
+      "end": 1385.4,
+      "text": "contract we don't need the vendor part of it we need a customer we only have we actually we want a new contract for this one we want"
+    },
+    {
+      "t": 1385.4,
+      "end": 1405.5,
+      "text": "Lucan and we're good to go so now we we created a contract that we can put it in we'll pick that and the system has picked up that it's still ticketed support um the provision start that's the beginning date in this file is 1st of"
+    },
+    {
+      "t": 1405.5,
+      "end": 1418.1,
+      "text": "January and uh like the example uh before it has a quantity already in the file so we'll pick that um in order to extend a new contract you need to perform extensions"
+    },
+    {
+      "t": 1418.1,
+      "end": 1437,
+      "text": "first it's fast and then you can close it you can go back and then you can process data once more and you're good to go and we could create a customer invoice in this case it was for"
+    },
+    {
+      "t": 1437,
+      "end": 1457,
+      "text": "January we'll keep it open so we can take a look at it and from here you can actually go directly and uh see the customer contracts you can also navigate to open uh invoices but you can see the invoices here directly"
+    },
+    {
+      "t": 1457,
+      "end": 1478.6,
+      "text": "it's for Lucan and we would expect to see a quantity of six in here so whether you have uh the contracts already or you need to do a mapping it's a straightforward uh process with little setup uh needed in terms of getting started and um importing usage"
+    },
+    {
+      "t": 1478.6,
+      "end": 1499.9,
+      "text": "data so a brief demonstration of some of the capabilities there's a lot more and there's a lot more flexibility there's a lot more variance and variations that can be supported um it's a new module there are some new terminology uh but it supports uh recurring billing for uh"
+    },
+    {
+      "t": 1499.9,
+      "end": 1520.1,
+      "text": "Services you can start from an order and so you have a sales order process or you can start directly with uh contracts if that's your your business you can also use uses data and import it and then do recurring billing on that there's a deferral part so that you recognize"
+    },
+    {
+      "t": 1520.1,
+      "end": 1540.2,
+      "text": "Revenue um the way that you want it will split up the um uh invoices in deferrals and and you can put them or take them into GL uh in the way that you prefer there are reports coming in Excel and powerbi so go and take a test drive of the new module"
+    },
+    {
+      "t": 1540.2,
+      "end": 1544,
+      "text": "thanks for watching this session"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.04,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.47,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.48,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3731
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-view-test-reports-posting",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6e3d4316840b8d0fe1a1c6c8eb371dbdd7d39eda",
       "words": 143,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:11:13.782Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003606
+    },
+    "summarized": {
+      "at": "2026-10-06T19:11:13.795Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:11:13.796Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:11:13.797Z",
+      "page": false
     }
   },
   "input_hash": "6e3d4316840b8d0fe1a1c6c8eb371dbdd7d39eda",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6e3d4316840b8d0fe1a1c6c8eb371dbdd7d39eda"
+  "output_hash": "13cfb948d339003b39846cefecb86d911366bc942e1e5ebb96f22830f07560ff"
 }
