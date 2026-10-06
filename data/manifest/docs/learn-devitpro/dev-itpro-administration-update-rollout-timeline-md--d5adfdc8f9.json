@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "464df73459ebb11ec0c11b046865c857cbd0b8a8",
       "words": 1997,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:17.905Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004763
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:17.930Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:17.945Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:17.953Z",
+      "page": false
     }
   },
   "input_hash": "464df73459ebb11ec0c11b046865c857cbd0b8a8",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "464df73459ebb11ec0c11b046865c857cbd0b8a8"
+  "output_hash": "433630a11494a4fd57f2ee5c71608a9bb2dea2584d65762a03b8a9142d7b5f7d"
 }

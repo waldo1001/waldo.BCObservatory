@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-update-trace",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7f22208631103e3d8274d742e48410409f2ce58a",
       "words": 906,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:16.202Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005577
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:16.212Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:16.213Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:16.214Z",
+      "page": false
     }
   },
   "input_hash": "7f22208631103e3d8274d742e48410409f2ce58a",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7f22208631103e3d8274d742e48410409f2ce58a"
+  "output_hash": "e4bb6bc9ceb2147bc35443cd85022364b0ae5722c577658a9ab093af9aec7524"
 }

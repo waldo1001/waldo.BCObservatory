@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-checklist",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "072686eb18d96b8ec0ab8fc27536f0a884fd8e0e",
       "words": 1533,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:10.363Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.005588
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:10.379Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:10.379Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:10.380Z",
+      "page": false
     }
   },
   "input_hash": "072686eb18d96b8ec0ab8fc27536f0a884fd8e0e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "072686eb18d96b8ec0ab8fc27536f0a884fd8e0e"
+  "output_hash": "0f06b23d479fced4fc1f1fc4a14fe2df932ddeafb136a9f06866e8b1d39a05cc"
 }

@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-extension-update-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-update-trace",
+  "title": "Extension Update Trace Telemetry | Microsoft Docs",
+  "blob": "7f22208631103e3d8274d742e48410409f2ce58a",
+  "summary": "Extension update trace telemetry monitors upgrade failures and upgrade tag usage in extension codeunits, capturing exception messages, stack traces, and upgrade tag calls to help troubleshoot data upgrade issues.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "telemetry",
+    "extensions",
+    "upgrade",
+    "tracing",
+    "diagnostics",
+    "exceptions"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Upgrade Tag"
+    }
+  ],
+  "features": [
+    "upgrade code failures",
+    "upgrade tag usage",
+    "HasUpgradeTag",
+    "SetUpgradeTag",
+    "exception tracking",
+    "AL stack trace"
+  ],
+  "versions": [
+    "2020 release wave 1",
+    "version 16.2",
+    "2021 release wave 1",
+    "version 18.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005577,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-developers",
   "published_at": "2026-02-20T12:46:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "210a280abb8dae7fd9b3fb50e2820e618d0add67",
       "words": 769,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:10.358Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005588
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:10.368Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:10.369Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:10.370Z",
+      "page": false
     }
   },
   "input_hash": "210a280abb8dae7fd9b3fb50e2820e618d0add67",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "210a280abb8dae7fd9b3fb50e2820e618d0add67"
+  "output_hash": "e7a3801b275a780ba5aaa55f4d15f749500d75d636a277176ca4a16694b95e74"
 }

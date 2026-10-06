@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-copy",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bcc69559f0793de6fae6dbe2529663b5e7a78ea8",
       "words": 350,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:16.206Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005577
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:17.881Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:17.882Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:17.884Z",
+      "page": false
     }
   },
   "input_hash": "bcc69559f0793de6fae6dbe2529663b5e7a78ea8",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bcc69559f0793de6fae6dbe2529663b5e7a78ea8"
+  "output_hash": "a8dbe669bc6789f8cff61686ac3d1111b078615c0c8f521caa3876fa1c46bd00"
 }

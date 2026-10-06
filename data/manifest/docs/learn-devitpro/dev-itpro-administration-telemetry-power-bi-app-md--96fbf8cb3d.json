@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b101349c7505d521644d79083eafd060b61603aa",
       "words": 3265,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:16.204Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005577
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:17.876Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:17.877Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:17.878Z",
+      "page": false
     }
   },
   "input_hash": "b101349c7505d521644d79083eafd060b61603aa",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b101349c7505d521644d79083eafd060b61603aa"
+  "output_hash": "1941914f8e0441af9ed7c7696c85dd55ff14a64fbfb46be6aa9ca63c4cefd791"
 }

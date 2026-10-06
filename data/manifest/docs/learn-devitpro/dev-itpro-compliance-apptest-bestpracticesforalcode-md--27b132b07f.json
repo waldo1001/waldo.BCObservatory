@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-bestpracticesforalcode",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6c1f37de59a9c5ac932bef6e6c903b6d5b92d869",
       "words": 1014,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:17.907Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004763
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:17.970Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:17.971Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:17.972Z",
+      "page": false
     }
   },
   "input_hash": "6c1f37de59a9c5ac932bef6e6c903b6d5b92d869",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6c1f37de59a9c5ac932bef6e6c903b6d5b92d869"
+  "output_hash": "d85b5ce9ba2387ccc526eba17c0a0d0a12547b4ed33cab1c1488ad197d4f2aff"
 }

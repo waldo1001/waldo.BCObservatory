@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-signupcontext",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f713a88808ac0a180919e13dd4592e8e29989e8c",
       "words": 1547,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:10.366Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.005588
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:10.384Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:10.384Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:10.385Z",
+      "page": false
     }
   },
   "input_hash": "f713a88808ac0a180919e13dd4592e8e29989e8c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f713a88808ac0a180919e13dd4592e8e29989e8c"
+  "output_hash": "2cb523768824dc85c5ca06d87e4feb24e70bb97893b014f0138834bda95a2127"
 }

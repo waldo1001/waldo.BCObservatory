@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/appmanagement/app-management-overview",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ae3a9e89c7ae8b6107a554def66e77fcc617aef7",
       "words": 418,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:10.359Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005588
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:10.371Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:10.372Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:10.373Z",
+      "page": false
     }
   },
   "input_hash": "ae3a9e89c7ae8b6107a554def66e77fcc617aef7",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ae3a9e89c7ae8b6107a554def66e77fcc617aef7"
+  "output_hash": "943ee5a3f052f3430032941cc485ee3d7d37571c18869ef748cbc7f2e81e2556"
 }

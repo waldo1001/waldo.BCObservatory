@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/appsource",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d16eedf0f468d004e436dacd27dd2d3bd8a193cd",
       "words": 232,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:10.361Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005588
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:10.374Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:10.374Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:10.375Z",
+      "page": false
     }
   },
   "input_hash": "d16eedf0f468d004e436dacd27dd2d3bd8a193cd",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d16eedf0f468d004e436dacd27dd2d3bd8a193cd"
+  "output_hash": "4e3a1c1d8689b39768926888bcf799824fe9e7c851a0d65d975d22037eb25878"
 }

@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/recommend-apps.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/recommend-apps",
+  "title": "Recommend Apps",
+  "blob": "aa6eef4f277046127f36756b4f04bc8cadaafb03",
+  "summary": "The Recommended Apps extension allows Microsoft partners to curate personalized lists of marketplace apps for each customer or business type using tables, pages, and codeunit methods to build and manage app collections.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "marketplace apps",
+    "extensions",
+    "app curation",
+    "per-tenant extensions",
+    "onboarding"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Recommended Apps List"
+    },
+    {
+      "type": "page",
+      "name": "Recommended App Card"
+    },
+    {
+      "type": "table",
+      "name": "Recommended Apps"
+    },
+    {
+      "type": "codeunit",
+      "name": "Recommended Apps"
+    }
+  ],
+  "features": [
+    "InsertApp",
+    "GetApp",
+    "UpdateApp",
+    "RefreshImage",
+    "DeleteApp",
+    "DeleteAllApps",
+    "GetAppURL"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005577,
+      "pages_in_call": 8
+    }
+  ]
+}

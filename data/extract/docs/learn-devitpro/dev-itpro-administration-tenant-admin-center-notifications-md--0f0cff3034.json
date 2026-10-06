@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-notifications.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-notifications",
+  "title": "Manage Tenant-Specific Notifications",
+  "blob": "a601574ef6d6680d4ec3b69bd77025df5f8d3982",
+  "summary": "Manage tenant-specific notifications for administrative events in Business Central online, such as major updates, environment changes, and extension compatibility issues. Use when setting up notification recipients and configuring communication channels like email, Message Center, and Application Insights telemetry.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "notifications",
+    "tenant administration",
+    "email recipients",
+    "environment lifecycle",
+    "telemetry"
+  ],
+  "objects": [],
+  "features": [
+    "email notifications",
+    "Microsoft 365 Message Center",
+    "Application Insights telemetry",
+    "Azure Logic Apps automation",
+    "Power Automate integration",
+    "Service Health Dashboard"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004763,
+      "pages_in_call": 8
+    }
+  ]
+}

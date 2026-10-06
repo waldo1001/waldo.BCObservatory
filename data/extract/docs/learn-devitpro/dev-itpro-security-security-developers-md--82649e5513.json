@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/security/security-developers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-developers",
+  "title": "Business Central security for AL developers",
+  "blob": "210a280abb8dae7fd9b3fb50e2820e618d0add67",
+  "summary": "Guidance on security best practices for AL developers building Business Central apps, covering authentication, authorization, auditing, encryption, and secrets management.",
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "security",
+    "al development",
+    "authentication",
+    "authorization",
+    "auditing",
+    "encryption",
+    "data protection"
+  ],
+  "objects": [],
+  "features": [
+    "security development lifecycle",
+    "layered security model",
+    "user session authentication",
+    "web service authentication",
+    "entitlements",
+    "permission sets",
+    "data security",
+    "permission telemetry",
+    "data encryption",
+    "isolated storage",
+    "secret text data type",
+    "azure key vault"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005588,
+      "pages_in_call": 7
+    }
+  ]
+}

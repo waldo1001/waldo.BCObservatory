@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/setup-app-key-vault.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault",
+  "title": "Set up app key vaults for Business Central online",
+  "blob": "c1dd5c3eccbd3283bffb3ce522750ad49b28c74d",
+  "summary": "App key vaults for Business Central online enable marketplace apps to securely access secrets from Azure key vaults by provisioning the ISV key vault reader application and granting appropriate permissions.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "key vault",
+    "azure",
+    "security",
+    "secrets",
+    "marketplace apps",
+    "entra",
+    "authentication"
+  ],
+  "objects": [],
+  "features": [
+    "Azure key vault secrets",
+    "Microsoft Entra service principal",
+    "secret permissions",
+    "AllowedBusinessCentralAppIds",
+    "ISV key vault reader"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005577,
+      "pages_in_call": 8
+    }
+  ]
+}

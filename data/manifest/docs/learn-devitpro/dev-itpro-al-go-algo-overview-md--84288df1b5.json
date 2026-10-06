@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/al-go/algo-overview",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8ac0bf984757a3839b7723c12478d8c7b833d2bb",
       "words": 288,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:17.905Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004763
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:17.961Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:17.962Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:17.968Z",
+      "page": false
     }
   },
   "input_hash": "8ac0bf984757a3839b7723c12478d8c7b833d2bb",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8ac0bf984757a3839b7723c12478d8c7b833d2bb"
+  "output_hash": "f310401a1a2a006b2cd97ef1d3b76cf1849c98727e93efff2c28e2dfcd5137da"
 }

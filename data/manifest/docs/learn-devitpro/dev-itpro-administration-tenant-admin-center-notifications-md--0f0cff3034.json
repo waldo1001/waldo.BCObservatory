@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-notifications",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a601574ef6d6680d4ec3b69bd77025df5f8d3982",
       "words": 1736,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:17.903Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004763
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:17.914Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:17.916Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:17.928Z",
+      "page": false
     }
   },
   "input_hash": "a601574ef6d6680d4ec3b69bd77025df5f8d3982",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a601574ef6d6680d4ec3b69bd77025df5f8d3982"
+  "output_hash": "4b61f8fbec15ce147e5cb8fb3ced1794bfe6a976f30d178024cd3d6628bef0db"
 }

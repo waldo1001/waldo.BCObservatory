@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/compliance/connectivity-apps-requirements",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2dab5c16329fbba634eed59b309d7da36478dfa0",
       "words": 936,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:17.908Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004763
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:17.973Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:17.976Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:17.977Z",
+      "page": false
     }
   },
   "input_hash": "2dab5c16329fbba634eed59b309d7da36478dfa0",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2dab5c16329fbba634eed59b309d7da36478dfa0"
+  "output_hash": "df2f77834755f6d016c2742e76415eb20fb31bad820de9da7f7abda21a76210c"
 }

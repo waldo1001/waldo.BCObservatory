@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview",
+  "title": "Monitoring and Analyzing Telemetry",
+  "blob": "6281096014f0669bcee7f855d732d3a1e8b79758",
+  "summary": "Monitoring and analyzing telemetry overview explains how to enable telemetry at environment and app levels, view data with Power BI, analyze with KQL, and set up alerts on Business Central operations.",
+  "systems": [
+    "reporting",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "telemetry",
+    "monitoring",
+    "analysis",
+    "application insights",
+    "power bi",
+    "kql",
+    "alerts"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Feature Telemetry"
+    }
+  ],
+  "features": [
+    "environment-level telemetry",
+    "app-level telemetry",
+    "Power BI analysis",
+    "KQL queries",
+    "alert setup",
+    "custom telemetry",
+    "LogMessage method"
+  ],
+  "versions": [
+    "2020 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005577,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-overview",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6281096014f0669bcee7f855d732d3a1e8b79758",
       "words": 630,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:16.204Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005577
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:17.874Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:17.875Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:17.875Z",
+      "page": false
     }
   },
   "input_hash": "6281096014f0669bcee7f855d732d3a1e8b79758",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6281096014f0669bcee7f855d732d3a1e8b79758"
+  "output_hash": "fcc4a5eef0983cc78245d2e6349233dea911c9c24bfa097d355f757257c1021e"
 }

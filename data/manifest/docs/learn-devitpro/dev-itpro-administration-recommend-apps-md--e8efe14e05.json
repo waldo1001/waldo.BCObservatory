@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/recommend-apps",
   "published_at": "2026-02-20T12:07:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "aa6eef4f277046127f36756b4f04bc8cadaafb03",
       "words": 462,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T18:48:16.201Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.005577
+    },
+    "summarized": {
+      "at": "2026-10-06T18:48:16.207Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:48:16.208Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:48:16.208Z",
+      "page": false
     }
   },
   "input_hash": "aa6eef4f277046127f36756b4f04bc8cadaafb03",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "aa6eef4f277046127f36756b4f04bc8cadaafb03"
+  "output_hash": "c5f0df331b5c1659a44e84ef7ef70d2368fa94799bdd6452a3524a42dacedace"
 }

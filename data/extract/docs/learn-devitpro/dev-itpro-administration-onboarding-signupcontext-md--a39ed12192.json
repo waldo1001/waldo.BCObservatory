@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/onboarding-signupcontext.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-signupcontext",
+  "title": "Create customer-centric onboarding experiences with the SignupContext parameter.",
+  "blob": "f713a88808ac0a180919e13dd4592e8e29989e8c",
+  "summary": "Using SignupContext parameter to create customer-centric trial experiences that tailor Business Central onboarding based on prospect information from partner websites.",
+  "systems": [
+    "integration",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "onboarding",
+    "signup context",
+    "trial provisioning",
+    "customer experience",
+    "evaluation"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Signup Context"
+    },
+    {
+      "type": "table",
+      "name": "Signup Context Values"
+    }
+  ],
+  "features": [
+    "signupcontext parameter",
+    "unmanaged trials",
+    "trial provisioning",
+    "eula acceptance",
+    "signup context enum",
+    "checklist customization",
+    "prospect profiling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005588,
+      "pages_in_call": 7
+    }
+  ]
+}

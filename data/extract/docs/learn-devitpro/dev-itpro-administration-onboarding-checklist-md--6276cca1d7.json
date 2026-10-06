@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/onboarding-checklist.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-checklist",
+  "title": "Get Users Started with the Checklist",
+  "blob": "072686eb18d96b8ec0ab8fc27536f0a884fd8e0e",
+  "summary": "Building onboarding checklists for Business Central users with setup guidance, assisted setup wizards, and learning resources to help users get started with the application.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "onboarding",
+    "checklist",
+    "guided experience",
+    "setup wizards",
+    "user experience"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Checklist Item"
+    },
+    {
+      "type": "table",
+      "name": "Checklist Item Role"
+    },
+    {
+      "type": "table",
+      "name": "Checklist Item User"
+    },
+    {
+      "type": "table",
+      "name": "Guided Experience Item"
+    }
+  ],
+  "features": [
+    "checklist",
+    "guided experience items",
+    "assisted setup",
+    "manual setup",
+    "tour",
+    "spotlight tour",
+    "video",
+    "application feature",
+    "assisted setup group",
+    "page tours"
+  ],
+  "versions": [
+    "2021 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005588,
+      "pages_in_call": 7
+    }
+  ]
+}
