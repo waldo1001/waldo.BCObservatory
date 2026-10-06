@@ -24,11 +24,18 @@ test("quota keys follow the stage", () => {
 });
 
 test("newest first within a pillar, quota caps, round-robin across pillars", () => {
-  const docs = [item("docs", "2026-01-01T00:00:00Z"), item("docs", "2026-09-01T00:00:00Z"), item("docs", "2026-05-01T00:00:00Z"), item("docs", null)];
+  const f = { state: "fetched" as const }; // next stage = extraction, which costs quota
+  const docs = [item("docs", "2026-01-01T00:00:00Z", f), item("docs", "2026-09-01T00:00:00Z", f), item("docs", "2026-05-01T00:00:00Z", f), item("docs", null, f)];
   const blogs = [item("blog", "2026-08-01T00:00:00Z"), item("blog", "2026-10-01T00:00:00Z")];
   const plan = planQueue([...docs, ...blogs], { docs: 2, posts: 5 }, noSources, now);
   assert.deepEqual(plan.work.map((w) => w.id), [docs[1].id, blogs[1].id, docs[2].id, blogs[0].id]);
   assert.deepEqual(plan.quota_use.docs, { selected: 2, available: 4, limit: 2 });
+});
+
+test("reading git pages from the mirror is quota-free; video captions are not", () => {
+  const plan = planQueue([item("docs", "2026-01-01T00:00:00Z"), item("guidelines", "2026-01-01T00:00:00Z")], { docs: 0, guidelines: 0 }, noSources, now);
+  assert.deepEqual(plan.work.map((w) => [w.stage, w.quota]), [["fetched", null], ["fetched", null]]);
+  assert.equal(quotaFor("video", "fetched"), "captions");
 });
 
 test("future retry_after and terminal items are left out; deterministic stages ignore quotas", () => {

@@ -35,7 +35,7 @@ export interface StageResult {
   patch?: Partial<Pick<ManifestItem, "published_at" | "title" | "language" | "review">> & { meta?: Record<string, unknown> };
 }
 export interface StageContext {
-  now: () => Date; manifest: Manifest; dataDir: string; contentDir: string;
+  now: () => Date; manifest: Manifest; dataDir: string; contentDir: string; mirrorsDir: string;
   sources: Map<string, Pick<SourceDef, "id" | "name" | "tier" | "url">>;
 }
 export type StageFn = (item: ManifestItem, ctx: StageContext) => Promise<StageResult>;
@@ -76,6 +76,7 @@ export interface ExecuteOptions {
   manifest: Manifest;
   dataDir: string;
   contentDir: string;
+  mirrorsDir?: string;
   sources: StageContext["sources"];
   handlers: StageHandlers;
   started: Date;
@@ -146,7 +147,7 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
       touched = true;
       const key = `${item.pillar}:${stage}`;
       try {
-        const res: StageResult = await handler(item, { now: o.clock, manifest: o.manifest, dataDir: o.dataDir, contentDir: o.contentDir, sources: o.sources });
+        const res: StageResult = await handler(item, { now: o.clock, manifest: o.manifest, dataDir: o.dataDir, contentDir: o.contentDir, mirrorsDir: o.mirrorsDir ?? "", sources: o.sources });
         r.stages_run[key] = (r.stages_run[key] ?? 0) + 1;
         if (res.skip) {
           item = skip(item, res.skip);

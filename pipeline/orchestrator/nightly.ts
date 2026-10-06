@@ -26,7 +26,8 @@ import { llmStats, setSpendLimit } from "../lib/llm.js";
 import { logger } from "../lib/log.js";
 import { Manifest, skip, type Pillar } from "../lib/manifest.js";
 import { CACHE_DIR, DATA_DIR, ROOT } from "../lib/paths.js";
-import { planQueue } from "../lib/queue.js";
+import { planQueue, type PlannedWork } from "../lib/queue.js";
+import { mirrorFor, prefetchBlobs } from "../fetch/git-page.js";
 import { validateOrThrow } from "../lib/schema.js";
 import { knownHosts, runIngest } from "../ingest/index.js";
 import type { IngestContext, VersionsConfig } from "../ingest/types.js";
@@ -153,8 +154,10 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
       const item = manifest.get(s.id);
       if (item) manifest.save(skip(item, s.reason));
     }
+    const mirrorsDir = resolve(opts.cacheDir, "git-mirrors");
+    await prefetchPlanned(plan.work, manifest, mirrorsDir);
     const execution = await executePlan({
-      work: plan.work, quotas, budget: cfg, manifest, dataDir: opts.dataDir, contentDir: contentDirOf(opts),
+      work: plan.work, quotas, budget: cfg, manifest, dataDir: opts.dataDir, contentDir: contentDirOf(opts), mirrorsDir,
       sources: new Map(deps.sources.map((s) => [s.id, s])), handlers,
       started, clock: deps.clock ?? (() => new Date()), readUsage: opts.guard ? deps.readUsage : undefined,
     });
@@ -189,6 +192,24 @@ async function finish(report: RunReport, opts: NightlyOptions): Promise<RunRepor
     await commitAndPush(opts.repoDir, `content: nightly ${report.date} (${label})`, opts.push, report);
   }
   return report;
+}
+
+/** Batch-fetch the blobs of git pages planned for `fetched`, one mirror at a time; failures fall back to lazy fetch. */
+async function prefetchPlanned(work: PlannedWork[], manifest: Manifest, mirrorsDir: string): Promise<void> {
+  const bySource = new Map<string, string[]>();
+  for (const w of work) {
+    if (w.stage !== "fetched" || (w.pillar !== "docs" && w.pillar !== "guidelines")) continue;
+    const it = manifest.get(w.id);
+    if (it?.input_hash) bySource.set(it.source, [...(bySource.get(it.source) ?? []), it.input_hash]);
+  }
+  for (const [source, oids] of bySource) {
+    try {
+      const n = await prefetchBlobs(mirrorFor(mirrorsDir, { source }), oids);
+      log.info(`prefetched ${n} of ${oids.length} blobs for ${source}`);
+    } catch (e) {
+      log.warn(`prefetch ${source} failed, pages fetch lazily: ${(e as Error).message}`);
+    }
+  }
 }
 
 export function capQuotas(quotas: Record<string, number>, cap?: number): Record<string, number> {

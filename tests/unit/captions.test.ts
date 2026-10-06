@@ -17,7 +17,7 @@ const item = (over: Partial<ManifestItem> = {}): ManifestItem => ({
   published_at: null, state: "discovered", stages: { discovered: { at: "2026-10-06T00:00:00Z" } }, attempts: 0, ...over,
 });
 const run = (h: ReturnType<typeof fetchedHandler>) => (h as { run: StageFn }).run;
-const ctx = (dataDir: string) => ({ dataDir, now: () => new Date(), manifest: null as any, contentDir: "", sources: new Map() });
+const ctx = (dataDir: string) => ({ dataDir, now: () => new Date(), manifest: null as any, contentDir: "", mirrorsDir: "", sources: new Map() });
 
 beforeEach(() => { resetYtdlp(); process.env.BCOBS_YTDLP_SLEEP_MS = "0"; });
 

@@ -24,6 +24,8 @@ const PILLAR_QUOTA: Record<Pillar, string | null> = {
 /** Which quota an item's next unit of work consumes; null = always runs (deterministic and cheap). */
 export function quotaFor(pillar: Pillar, stage: Stage): string | null {
   if (stage === "linked" || stage === "published") return null;
+  // reading a page from a local git mirror is deterministic and cheap
+  if (stage === "fetched" && (pillar === "docs" || pillar === "guidelines")) return null;
   if (stage === "reviewed") return "opus_reviews";
   if (pillar === "video" && (stage === "fetched" || stage === "captioned")) return "captions";
   return PILLAR_QUOTA[pillar];
