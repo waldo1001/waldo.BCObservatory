@@ -1,0 +1,228 @@
+{
+  "video_id": "SHOAw9GehdI",
+  "item_id": "video/yt-microsoft/SHOAw9GehdI",
+  "title": "What's New: Data Analysis (2025 release wave 2)",
+  "duration_s": 689,
+  "systems": [
+    "reporting",
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "data analysis",
+    "analysis mode",
+    "copilot",
+    "analysis assist",
+    "pivot",
+    "date hierarchy",
+    "ad hoc analysis",
+    "server-side loading",
+    "productivity improvements"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Data Analysis and Analysis Mode",
+      "t_start": 0,
+      "t_end": 87.7
+    },
+    {
+      "title": "Copilot Demo - Adding Fields from Related Tables",
+      "t_start": 87.7,
+      "t_end": 211.2
+    },
+    {
+      "title": "Server-Side Loading and Field Limitations",
+      "t_start": 211.2,
+      "t_end": 272.8
+    },
+    {
+      "title": "Pivoting on Date Hierarchy in Server-Side Mode",
+      "t_start": 272.8,
+      "t_end": 340.8
+    },
+    {
+      "title": "Productivity Improvements and Right-Click Menu",
+      "t_start": 340.8,
+      "t_end": 426
+    },
+    {
+      "title": "Summary of Three New Features",
+      "t_start": 426,
+      "t_end": 474.2
+    },
+    {
+      "title": "Learning Resources and Documentation",
+      "t_start": 474.2,
+      "t_end": 564.6
+    },
+    {
+      "title": "Community Resources and Closing",
+      "t_start": 564.6,
+      "t_end": 689
+    }
+  ],
+  "features": [
+    {
+      "name": "Analysis Assist Copilot",
+      "description": "Copilot experience for natural language data analysis that can traverse the data model to add fields from related tables and join data sources together.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 38.1,
+      "t_end": 211.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "ai",
+        "natural language",
+        "data analysis"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Add Columns from Related Tables",
+      "description": "Feature allowing copilot to add fields from tables related to the current analysis, enabling joins across the data model to bring in additional columns like location name.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 211.2,
+      "t_end": 232.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "related tables",
+        "data model",
+        "join"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Server-Side Data Loading",
+      "description": "When adding data from other tables or analyzing large data sets or query objects, data analysis switches from client-side to server-side loading for on-demand data retrieval.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 232.6,
+      "t_end": 272.8,
+      "is_demoed": true,
+      "caveats": [
+        "Flow fields cannot be calculated on the server side"
+      ],
+      "tags": [
+        "performance",
+        "server-side",
+        "client-side"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Pivot on Date Hierarchy in Server-Side Mode",
+      "description": "New capability to pivot on date hierarchy fields (year, quarter, month) when in server-side mode, which was previously unsupported in this mode.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 272.8,
+      "t_end": 340.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pivot",
+        "date hierarchy",
+        "server-side"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Right-Click Menu for Data Analysis",
+      "description": "Productivity improvements with right-click context menu options including add to labels, group/ungroup from row groups, and scroll into view action to navigate fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 340.8,
+      "t_end": 426,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "productivity",
+        "ui",
+        "context menu"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Data Analysis Feature",
+      "description": "Ad hoc analysis tool available on list pages and queries allowing users to pivot and group data without building formal reports, used by over 70% of Business Central customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 16.1,
+      "t_end": 74.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "analysis mode",
+        "pivot",
+        "grouping",
+        "ad hoc"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 16.1,
+      "text": "more than 70% of all Business Central customers use data analysis, also known as analysis mode",
+      "why_it_matters": "Establishes the broad adoption and customer reliance on this feature, justifying investment in improvements.",
+      "check": "exact"
+    },
+    {
+      "t": 38.1,
+      "text": "we even added a great co-pilot experience a couple of releases back so that you can also use natural language",
+      "why_it_matters": "Confirms copilot support for natural language queries was added in a previous release, with new enhancements now.",
+      "check": "exact"
+    },
+    {
+      "t": 211.2,
+      "text": "we have now ability for analysis assist to also add fields from tables that are related to what you're using here",
+      "why_it_matters": "Key new capability enabling cross-table joins through copilot intelligence without manual configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 260.9,
+      "text": "there are few things we you can't do such as flow fields things that are calculated",
+      "why_it_matters": "Documents important constraints of server-side mode relevant for users working with complex calculated fields.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 272.8,
+      "text": "One of the things you could not do in serverside mode until this release is pivoting on date hierarchy",
+      "why_it_matters": "Removes a specific limitation that previously prevented date hierarchy pivoting in server-side mode.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021097
+    }
+  ]
+}

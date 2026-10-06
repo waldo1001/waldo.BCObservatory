@@ -1,0 +1,27 @@
+{
+  "video_id": "Sc8eGyMkBTA",
+  "item_id": "video/yt-microsoft/Sc8eGyMkBTA",
+  "summary": "Sustainability value chain automation in Business Central projects (2025 release wave 2): emissions posted through project journals and purchase invoices with project numbers, sustainability fast tabs on items and resources, and emissions in project statistics. Works only with carbon equivalent, not other gases.",
+  "overview": "The video extends value chain automation, introduced for embedded carbon footprint in a previous wave, to projects. Emissions can be posted from project journals or from purchase invoices that carry a project number, which supports end-to-end scope three coverage.\n\nThe demo covers the sustainability configuration, posting a project journal, and reviewing results in project statistics. Value chain tracking is switched on with one field in the procurement fast tab of Sustainability Setup. The presenter notes that it works only with carbon equivalent, not with all gases.",
+  "key_points": [
+    "Value chain tracking is enabled with a single field in the procurement fast tab of the Sustainability Setup page; emissions are then calculated and tracked automatically.",
+    "Emissions can be posted through a project journal or a purchase invoice that has a project number.",
+    "Posting a purchase invoice for a project generates two lines: a purchase line and a negative adjustment entry that goes into sustainability value entries.",
+    "Items have a sustainability fast tab for a standard account number and a default CO2 emissions number, and the system calculates total CO2.",
+    "Resources have a sustainability fast tab for adding accounts and default CO2 emission numbers.",
+    "Project statistics show emissions calculations and the effect of project activity on carbon footprint.",
+    "The feature works only with carbon equivalent, not with other gases."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "a9e7eb523636f3727a160f14a9d02c8f11b14782e3a37b9c06c18e1f22dc0032",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0131784
+  }
+}

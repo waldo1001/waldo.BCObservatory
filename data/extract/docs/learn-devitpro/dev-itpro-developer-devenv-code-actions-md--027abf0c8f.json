@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-code-actions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-actions",
+  "title": "AL code actions",
+  "blob": "012467e70ce546964041396749404e569d443a80",
+  "summary": "AL code actions provide corrective suggestions in Visual Studio Code to fix errors and warnings in AL code with configurable scope levels (instance, document, project, or workspace).",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "code actions",
+    "al code",
+    "visual studio code",
+    "error fixing",
+    "refactoring"
+  ],
+  "objects": [],
+  "features": [
+    "multiple if to case",
+    "spell check",
+    "interface implementer",
+    "make method local",
+    "use parenthesis for method call",
+    "fix explicit with statements",
+    "fix implicit with statements",
+    "fix old report layout"
+  ],
+  "versions": [
+    "2022 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004719,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-app",
   "published_at": "2026-05-27T10:12:37.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5b1ec25f9a56bdfd619b70240b2adc957183a597",
       "words": 655,
       "forms": 13
+    },
+    "extracted": {
+      "at": "2026-10-06T18:27:24.251Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004719
+    },
+    "summarized": {
+      "at": "2026-10-06T18:27:24.261Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:27:24.262Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:27:24.263Z",
+      "page": false
     }
   },
   "input_hash": "5b1ec25f9a56bdfd619b70240b2adc957183a597",
@@ -103,5 +122,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5b1ec25f9a56bdfd619b70240b2adc957183a597"
+  "output_hash": "1014a4430d9576b277b7c012a5f256c6d88aa71f7a896f5b6b6f80cf1f2413a0"
 }

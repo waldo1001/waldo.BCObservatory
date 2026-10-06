@@ -1,0 +1,27 @@
+{
+  "video_id": "SH4Ffukj3P4",
+  "item_id": "video/yt-microsoft/SH4Ffukj3P4",
+  "summary": "Copilot autofill in Business Central (2025 release wave 2, in preview) can search the web with Microsoft Bing to fill contact details such as addresses, phone numbers, email and homepage when creating records like vendors. The video demos info tips, the Keep All button and enabling Bing search.",
+  "overview": "The video shows Copilot autofill extended to search the web on the user's behalf. In the demo, a vendor is created, Copilot searches Microsoft Bing for the company name, and it proposes contact details. Users can open info tips to see how each suggestion was derived, including which web search result was used and a link to the grounding source.\n\nIt also covers accepting all suggestions with Keep All, after which Business Central validates each field. Autofill can also suggest values from internal Business Central data, such as recently used or most common responsibility centers. An administrator enables Bing search on the Copilot and agent capabilities page. The features are in preview, and language quality has been assessed only for English.",
+  "key_points": [
+    "Web search autofill in Copilot uses Microsoft Bing to fill address, phone, email and homepage fields; it is in preview.",
+    "Info tips show how Copilot derived each suggestion, including the web search result used, with a link to the grounding data source.",
+    "Keep All accepts all suggestions in one click; Business Central then validates each field.",
+    "Administrators enable Bing search on the Copilot and agent capabilities page.",
+    "Autofill can also suggest internal values, such as recently used or most common responsibility centers.",
+    "Shortcuts: Alt+I invokes autofill and Alt+Up toggles between info tips.",
+    "Language quality has been assessed only for English; more languages are planned later in the wave, and not all fields may support web search."
+  ],
+  "audience": [
+    "end user",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "3d31a4b104c1b21c31bdedb5170d375264379b1b773e560efec97c222cf8a73f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013974399999999998
+  }
+}

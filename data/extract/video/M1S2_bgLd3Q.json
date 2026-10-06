@@ -1,0 +1,574 @@
+{
+  "video_id": "M1S2_bgLd3Q",
+  "item_id": "video/yt-microsoft/M1S2_bgLd3Q",
+  "title": "What's New: Server and Database (2025 release wave 2)",
+  "duration_s": 1326,
+  "systems": [
+    "platform",
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "al runtime",
+    "sequential guids",
+    "lock timeout",
+    "truncate method",
+    "flow field optimization",
+    "analysis mode",
+    "semantic search",
+    "metadata embeddings",
+    "advanced tell me",
+    "document reporting",
+    "pdf accessibility",
+    "sql profiling"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and business value",
+      "t_start": 0,
+      "t_end": 65.2
+    },
+    {
+      "title": "New AL methods: sequential GUIDs, lock timeout, truncate",
+      "t_start": 65.2,
+      "t_end": 179.4
+    },
+    {
+      "title": "Truncate method details and limitations",
+      "t_start": 179.4,
+      "t_end": 349
+    },
+    {
+      "title": "Database optimizations: flow fields and analysis mode",
+      "t_start": 349,
+      "t_end": 457.3
+    },
+    {
+      "title": "Semantic search in metadata: overview and feature toggles",
+      "t_start": 457.3,
+      "t_end": 568.7
+    },
+    {
+      "title": "Semantic search: embeddings, maintenance, and search behavior",
+      "t_start": 568.7,
+      "t_end": 707.8
+    },
+    {
+      "title": "Advanced search with natural language and reporting tooltips",
+      "t_start": 707.8,
+      "t_end": 846.4
+    },
+    {
+      "title": "Reporting platform: tooltips on report columns and Word addin",
+      "t_start": 846.4,
+      "t_end": 947
+    },
+    {
+      "title": "PDF accessibility and archival formats",
+      "t_start": 947,
+      "t_end": 1034.7
+    },
+    {
+      "title": "Troubleshooting tools: SQL profiling and error details",
+      "t_start": 1034.7,
+      "t_end": 1088.7
+    },
+    {
+      "title": "Feature availability: cloud vs on-premises",
+      "t_start": 1088.7,
+      "t_end": 1181.5
+    },
+    {
+      "title": "Closing resources and community channels",
+      "t_start": 1181.5,
+      "t_end": 1326
+    }
+  ],
+  "features": [
+    {
+      "name": "Sequential GUID AL method",
+      "description": "New AL method to create sequential GUIDs for better database indexing performance, addressing the performance limitations of standard GUIDs when used as primary keys or indexed fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 77.1,
+      "t_end": 119.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al methods",
+        "performance",
+        "guids",
+        "indexing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Lock timeout duration AL method",
+      "description": "New AL method to set custom lock timeouts instead of just on/off, allowing more resilient handling of scenarios that need longer wait times for locks but not infinite wait.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 132.2,
+      "t_end": 163.8,
+      "is_demoed": false,
+      "caveats": [
+        "Still constrained by command timeout which comes later"
+      ],
+      "tags": [
+        "al methods",
+        "locking",
+        "resilience"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Truncate AL method",
+      "description": "New AL method for deleting large amounts of data much faster than traditional delete, using SQL truncate which only locks page IDs in transaction log instead of individual rows. Supports filtering and preserves auto-increment values.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 179.4,
+      "t_end": 349,
+      "is_demoed": false,
+      "caveats": [
+        "Returns false if table is not SQL table, if it is system table, if inside try function, if security filters are active, if table has media fields, if too many rows marked, if filters on flow fields, if subscribers to before/delete or after/delete exist",
+        "Should not be used if not deleting vast majority of table"
+      ],
+      "tags": [
+        "al methods",
+        "delete performance",
+        "data management"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Optimized flow field calculations",
+      "description": "Database optimization that consolidates multiple outer apply operations into a single outer apply for flow fields that sum over other tables, significantly improving performance when displaying many calculated fields in list pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 349,
+      "t_end": 397.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "flow fields",
+        "performance",
+        "database optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Server-side pivot on date hierarchy in analysis mode",
+      "description": "Analysis mode now supports pivot operations on date hierarchy fields when in server-side mode (over 100,000 rows or with joined tables), allowing pivoting on year, quarter, and month hierarchies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 397.7,
+      "t_end": 457.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "analysis mode",
+        "pivot",
+        "date hierarchy",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Semantic similarity search on metadata",
+      "description": "New capability to find pages, reports, and queries by semantic meaning rather than keyword matching, calculating semantic vectors for metadata elements and comparing similarity. Used in Copilot chat, role explorer search, tell me, and analysis view field discovery.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 484.7,
+      "t_end": 568.7,
+      "is_demoed": true,
+      "caveats": [
+        "Results can change as algorithm is adjusted based on production measurements",
+        "Searches degree of similarity, not binary similar/not-similar",
+        "Cloud-only feature, not available on-premises"
+      ],
+      "tags": [
+        "semantic search",
+        "metadata",
+        "ai",
+        "embeddings",
+        "natural language"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Advanced tell me feature toggle",
+      "description": "Feature management toggle that enables advanced tell me search with semantic similarity on metadata, adding an advanced tab to the tell me search interface that requires pressing enter to initiate search.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 534.7,
+      "t_end": 596.2,
+      "is_demoed": true,
+      "caveats": [
+        "Must press enter to start search",
+        "Searches work across all languages"
+      ],
+      "tags": [
+        "tell me",
+        "semantic search",
+        "feature toggle"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Preview semantic similarity search toggle",
+      "description": "Feature management toggle for semantic similarity search used in Copilot chat and analysis view assist, enabling semantic vector comparisons for finding related pages and fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 534.7,
+      "t_end": 568.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "semantic search",
+        "copilot",
+        "analysis view",
+        "feature toggle"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Semantic embedding maintenance",
+      "description": "Automatic maintenance of semantic vector embeddings for metadata across all app sources when semantic search features are enabled. Embeddings are regenerated when metadata changes (captions, about text) or when embedding model changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 568.7,
+      "t_end": 612,
+      "is_demoed": false,
+      "caveats": [
+        "Applies to base app and all objects from AppSource and PTE apps"
+      ],
+      "tags": [
+        "embeddings",
+        "semantic search",
+        "maintenance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Tooltips on report data item fields",
+      "description": "Report columns can now have tooltips that inherit from table field definitions, or can be overridden at the report level. Tooltips appear in the Word addin data picker.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 846.4,
+      "t_end": 947,
+      "is_demoed": true,
+      "caveats": [
+        "Tooltips best placed on tables, not pages, for reusability"
+      ],
+      "tags": [
+        "reporting",
+        "tooltips",
+        "inheritance",
+        "word addin",
+        "document reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Word addin data picker",
+      "description": "New feature in the Word addin that allows picking data with visual tooltips from report fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 905.8,
+      "t_end": 926.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "word addin",
+        "data picker",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "PDF/UA accessible PDFs",
+      "description": "Save will default to PDF/UA format for accessible PDFs readable by screen readers. Document layouts in Word will be transformed to create accessible PDFs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 965.5,
+      "t_end": 1002.1,
+      "is_demoed": false,
+      "caveats": [
+        "Screen reader support for PDFs is being phased in gradually"
+      ],
+      "tags": [
+        "pdf",
+        "accessibility",
+        "ua",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "PDF/A archival format support",
+      "description": "Support for PDF/A archival format that is suitable for long-term document storage. German localization uses PDF/A3 with embedding of files of different mime types.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 965.5,
+      "t_end": 1022.2,
+      "is_demoed": false,
+      "caveats": [
+        "German localization specific implementation shown"
+      ],
+      "tags": [
+        "pdf",
+        "archival",
+        "compliance",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "SQL call information in performance profiles",
+      "description": "Performance profiles now show SQL call information via sampling. Short SQL calls may not appear in the profile.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1047.8,
+      "t_end": 1076.5,
+      "is_demoed": false,
+      "caveats": [
+        "Uses sampling so very short calls may not show up",
+        "Works the same as normal AL code profiling"
+      ],
+      "tags": [
+        "performance",
+        "profiling",
+        "sql",
+        "troubleshooting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "App version in error details",
+      "description": "App version is now included when copying error details, making bug reports more useful.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1076.5,
+      "t_end": 1088.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "error reporting",
+        "troubleshooting",
+        "debugging"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Semantic search on-premises limitation",
+      "description": "Semantic search is cloud-only and not available on-premises because it requires maintaining embedding vectors and SQL Server 2025 which is only available in Azure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1103.5,
+      "t_end": 1152.1,
+      "is_demoed": false,
+      "caveats": [
+        "Cloud-only due to embedding vector maintenance",
+        "Requires SQL Server 2025",
+        "On-premises backups exclude embedding vectors"
+      ],
+      "tags": [
+        "semantic search",
+        "cloud-only",
+        "on-premises limitation"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "GL account",
+      "t": 373.5
+    },
+    {
+      "type": "table",
+      "name": "GL entry",
+      "t": 373.5
+    },
+    {
+      "type": "other",
+      "name": "Word addin",
+      "t": 905.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kenny Pontop",
+      "confidence": "high"
+    },
+    {
+      "name": "Yens",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 38.2,
+      "text": "it helps being able to run some of the business logic the partners have written in a performant matter",
+      "why_it_matters": "Establishes the core value proposition of the server - enabling performant execution of partner-written business logic",
+      "check": "exact"
+    },
+    {
+      "t": 91.6,
+      "text": "GUID is great but GUID is horrible for indexing. So that's why we stole the code from SQL server to be able to do",
+      "why_it_matters": "Explains the motivation for the new sequential GUID method and its origin from SQL Server",
+      "check": "exact"
+    },
+    {
+      "t": 179.4,
+      "text": "Truncate is a SQL method that is much faster than delete. It's not instantaneous. It is actually transactional.",
+      "why_it_matters": "Clarifies that truncate is a production-ready transactional operation despite being significantly faster than delete",
+      "check": "exact"
+    },
+    {
+      "t": 194.1,
+      "text": "the difference between trunk truncate and delete is truncate will just lock in the transa transaction log the page ids and not the full",
+      "why_it_matters": "Explains the technical reason why truncate is faster - locking strategy",
+      "check": "exact"
+    },
+    {
+      "t": 470.7,
+      "text": "not only a lot, it's actually almost like um a little over 70% of all customers use analysis mode on a monthly basis",
+      "why_it_matters": "Demonstrates that analysis mode has achieved significant adoption, with over 70% monthly customer usage",
+      "check": "exact"
+    },
+    {
+      "t": 502.7,
+      "text": "we take the input, we calculate a semantic vector, and then we compare to the semantic vectors for each of the metadata elements",
+      "why_it_matters": "Describes the core mechanism of the new semantic search capability across the platform",
+      "check": "exact"
+    },
+    {
+      "t": 681.2,
+      "text": "you need to press enter to start the search because word words can change meaning dramatically when you add an extra letter",
+      "why_it_matters": "Explains a design decision requiring explicit search initiation to handle semantic ambiguity in typed text",
+      "check": "exact"
+    },
+    {
+      "t": 817.3,
+      "text": "in general the as Yens mentioned there is a full session on uh the new advanced search",
+      "why_it_matters": "Indicates semantic search is a key feature with dedicated session content",
+      "check": "exact"
+    },
+    {
+      "t": 831.6,
+      "text": "also do expect that results can change. We will adjust the algorithm for how we treat similarity based on measurements of what works best",
+      "why_it_matters": "Indicates semantic search algorithm will be refined based on production telemetry",
+      "check": "exact"
+    },
+    {
+      "t": 846.4,
+      "text": "We will adjust the algorithm for how we treat similarity based on measurements of what works best in production",
+      "why_it_matters": "Indicates that semantic search results are subject to change as algorithms are optimized based on production data",
+      "check": "exact"
+    },
+    {
+      "t": 985,
+      "text": "So save will default now save in PDFUA. Eventually we'll also have um document layouts in word in a certain way that once they",
+      "why_it_matters": "Defines PDF/UA as the new default for accessibility compliance",
+      "check": "exact"
+    },
+    {
+      "t": 1103.5,
+      "text": "all the functionality we talk about apply both to on premises and the cloud that does not apply to the semantic search",
+      "why_it_matters": "Explicitly states semantic search is cloud-only, not on-premises",
+      "check": "exact"
+    },
+    {
+      "t": 1114.9,
+      "text": "we are maintaining the embedding vectors etc. um we do not have support for that in the on-remise world",
+      "why_it_matters": "Explains technical reason for cloud-only limitation of semantic search",
+      "check": "exact"
+    },
+    {
+      "t": 1136.5,
+      "text": "SQL Server 2025, which is available for us in Azure SQL and for you in Azure SQL, but it's not available yet uh for",
+      "why_it_matters": "Clarifies SQL Server 2025 availability gap is reason for on-premises exclusion",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 547.8,
+      "kind": "preview",
+      "text": "preview semantic similarity search and application metadata"
+    },
+    {
+      "t": 831.6,
+      "kind": "subject-to-change",
+      "text": "do expect that results can change. We will adjust the algorithm for how we treat similarity based on measurements of what works best in production"
+    },
+    {
+      "t": 846.4,
+      "kind": "subject-to-change",
+      "text": "do expect that results can change. We will adjust the algorithm for how we treat similarity based on measurements of what works best in production."
+    },
+    {
+      "t": 1103.5,
+      "kind": "not-in-this-release",
+      "text": "all the functionality we talk about apply both to on premises and the cloud that does not apply to the semantic search"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 14,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 16
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030119999999999997
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023483999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030751
+    }
+  ]
+}

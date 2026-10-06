@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-kpis",
   "published_at": "2026-05-27T08:40:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4118299c826b15281b438891c9803d4ecbb6634f",
       "words": 2319,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:27:24.253Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004719
+    },
+    "summarized": {
+      "at": "2026-10-06T18:27:24.268Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:27:24.269Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:27:24.270Z",
+      "page": false
     }
   },
   "input_hash": "4118299c826b15281b438891c9803d4ecbb6634f",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4118299c826b15281b438891c9803d4ecbb6634f"
+  "output_hash": "c3850da501fbdaf64b6639ff18a3875dba62089da8e9912735df1b43671cecb9"
 }

@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/service/service-contract-flow.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-contract-flow",
+  "title": "Walkthrough of service contracts for service items",
+  "blob": "ec3c3f277397d6f0f63209d4cf0499e42cbc47a7",
+  "summary": "Service contract walkthrough demonstrates creating service items, contracts, service orders, resource allocation, time entries, and posting for regular maintenance service workflows.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "service contracts",
+    "service items",
+    "resource allocation",
+    "service orders",
+    "walkthrough"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Contracts"
+    },
+    {
+      "type": "page",
+      "name": "Service Orders"
+    },
+    {
+      "type": "page",
+      "name": "Dispatch Board"
+    },
+    {
+      "type": "page",
+      "name": "Service Invoices"
+    }
+  ],
+  "features": [
+    "service item creation",
+    "contract templates",
+    "service invoicing",
+    "resource allocation",
+    "time entry",
+    "service order posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004719,
+      "pages_in_call": 8
+    }
+  ]
+}

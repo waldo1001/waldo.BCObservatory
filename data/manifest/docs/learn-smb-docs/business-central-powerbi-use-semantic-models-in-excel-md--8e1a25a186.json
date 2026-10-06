@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/powerbi-use-semantic-models-in-excel",
   "published_at": "2026-05-24T02:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f3436488566afb89458835ff197bedcf8a088a45",
       "words": 1108,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:27:24.254Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004719
+    },
+    "summarized": {
+      "at": "2026-10-06T18:27:24.274Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:27:24.275Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:27:24.276Z",
+      "page": false
     }
   },
   "input_hash": "f3436488566afb89458835ff197bedcf8a088a45",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f3436488566afb89458835ff197bedcf8a088a45"
+  "output_hash": "73bf7f9ad53ba6f59ef6febf13e9c1e4be4e17b3608b1aae2b53fb247ca6d826"
 }

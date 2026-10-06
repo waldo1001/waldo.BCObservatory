@@ -1,0 +1,261 @@
+{
+  "video_id": "SH4Ffukj3P4",
+  "item_id": "video/yt-microsoft/SH4Ffukj3P4",
+  "title": "What's New: Autofill Contact Details with Copilot (2025 release wave 2)",
+  "duration_s": 321,
+  "systems": [
+    "copilot",
+    "crm",
+    "purchasing"
+  ],
+  "topics": [
+    "autofill",
+    "copilot",
+    "bing search",
+    "contact details",
+    "data entry",
+    "vendor creation",
+    "web search",
+    "transparency",
+    "keyboard shortcuts",
+    "custom pages"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Copilot Autofill",
+      "t_start": 0,
+      "t_end": 60.2
+    },
+    {
+      "title": "Demo - Creating a Vendor and Searching for Details",
+      "t_start": 60.2,
+      "t_end": 113
+    },
+    {
+      "title": "Verification and Transparency with Info Tips",
+      "t_start": 113,
+      "t_end": 168.7
+    },
+    {
+      "title": "Additional Autofill Capabilities Beyond Web Search",
+      "t_start": 168.7,
+      "t_end": 206.8
+    },
+    {
+      "title": "Enabling Bing Search and Availability",
+      "t_start": 206.8,
+      "t_end": 250.8
+    },
+    {
+      "title": "Tips and Best Practices for Using Autofill",
+      "t_start": 250.8,
+      "t_end": 293
+    },
+    {
+      "title": "Conclusion and Call to Action",
+      "t_start": 293,
+      "t_end": 321
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot Autofill with Web Search for Contact Details",
+      "description": "Copilot can search the web using Microsoft Bing to automatically fill out contact details such as addresses, phone numbers, email, and homepage fields when creating vendors or other records.",
+      "status": "preview",
+      "status_evidence_t": 222,
+      "status_evidence_quote": "go try out the public preview view of C-Pilot's autofill feature",
+      "status_evidence_verified": true,
+      "t_start": 31.3,
+      "t_end": 156.3,
+      "is_demoed": true,
+      "caveats": [
+        "Language quality has only been assessed for English",
+        "Support for additional languages is coming later in the wave",
+        "Not all fields may support web search"
+      ],
+      "tags": [
+        "autofill",
+        "web search",
+        "bing",
+        "contact details",
+        "vendor"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Info Tips for Transparency",
+      "description": "Users can click info tips to see how Copilot derived each suggestion, including which web search result was used, and can follow a link to the grounding data source.",
+      "status": "preview",
+      "status_evidence_t": 222,
+      "status_evidence_quote": "go try out the public preview view of C-Pilot's autofill feature",
+      "status_evidence_verified": true,
+      "t_start": 113,
+      "t_end": 131.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "transparency",
+        "grounding data",
+        "info tips"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Keep All Button",
+      "description": "A single-click button that allows users to accept all Copilot suggestions at once, after which Business Central validates each field to maintain data integrity.",
+      "status": "preview",
+      "status_evidence_t": 222,
+      "status_evidence_quote": "go try out the public preview view of C-Pilot's autofill feature",
+      "status_evidence_verified": true,
+      "t_start": 156.3,
+      "t_end": 168.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "autofill",
+        "validation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Autofill Beyond Web Search",
+      "description": "Copilot can provide suggestions not just from web search, but also from internal Business Central data such as recently used responsibility centers or the most common responsibility center in use.",
+      "status": "preview",
+      "status_evidence_t": 222,
+      "status_evidence_quote": "go try out the public preview view of C-Pilot's autofill feature",
+      "status_evidence_verified": true,
+      "t_start": 182,
+      "t_end": 195.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "autofill",
+        "responsibility center",
+        "suggestions"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Enable Bing Search in Copilot and Agent Capabilities",
+      "description": "Administrators can enable Bing search through the Copilot and agent capabilities page to allow Copilot to enhance its autofill results with web search data for contact details.",
+      "status": "preview",
+      "status_evidence_t": 222,
+      "status_evidence_quote": "go try out the public preview view of C-Pilot's autofill feature",
+      "status_evidence_verified": true,
+      "t_start": 206.8,
+      "t_end": 222,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "admin",
+        "bing search",
+        "settings",
+        "copilot capabilities"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Autofill Keyboard Shortcuts",
+      "description": "Users can invoke Copilot autofill using Alt+I shortcut and toggle between info tips using Alt+Up to see where Copilot sourced the suggestions.",
+      "status": "preview",
+      "status_evidence_t": 222,
+      "status_evidence_quote": "go try out the public preview view of C-Pilot's autofill feature",
+      "status_evidence_verified": true,
+      "t_start": 262.4,
+      "t_end": 279.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "keyboard shortcuts",
+        "alt+i",
+        "alt+up",
+        "accessibility"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Copilot and agent capabilities page",
+      "t": 195.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Mike",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 31.3,
+      "text": "And now in this wave, it also searches the web on your behalf to help you fill out contact details such as addresses or",
+      "why_it_matters": "Defines the core new capability being introduced in wave 2 - web search integration for contact details.",
+      "check": "exact"
+    },
+    {
+      "t": 86.6,
+      "text": "Copilot is now searching the web on my behalf searching for adventure works and it's using Microsoft Bing search to find that information",
+      "why_it_matters": "Clarifies that Bing is the search provider powering the autofill feature.",
+      "check": "exact"
+    },
+    {
+      "t": 113,
+      "text": "I can use the info tip to see that Copilot used a web search and the city is specified in the retail store address",
+      "why_it_matters": "Shows how users can verify the source of each suggestion through info tips for transparency.",
+      "check": "exact"
+    },
+    {
+      "t": 168.7,
+      "text": "The moment you do that, Business Center will validate each of those fields to maintain the integrity of your data.",
+      "why_it_matters": "Explains the data validation process that occurs after accepting autofill suggestions.",
+      "check": "exact"
+    },
+    {
+      "t": 222,
+      "text": "go try out the public preview view of C-Pilot's autofill feature uh on your favorite pages",
+      "why_it_matters": "Explicitly states the feature is in public preview.",
+      "check": "exact"
+    },
+    {
+      "t": 236.5,
+      "text": "autofill is available in all Business Central countries in all languages and on all types of environments",
+      "why_it_matters": "Defines the broad availability scope of the preview feature across geographies and deployment types.",
+      "check": "exact"
+    },
+    {
+      "t": 236.5,
+      "text": "we've assessed the quality of language in English and we're looking forward to adding support for many more languages later on in this wave",
+      "why_it_matters": "Clarifies that language quality is currently limited to English with future expansion planned.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 222,
+      "kind": "preview",
+      "text": "go try out the public preview view of C-Pilot's autofill feature"
+    },
+    {
+      "t": 236.5,
+      "kind": "coming-later",
+      "text": "we're looking forward to adding support for many more languages later on in this wave"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 6,
+    "evidence_unverified": 0
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02058
+    }
+  ]
+}

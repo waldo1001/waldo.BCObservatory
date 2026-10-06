@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-723.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-723",
+  "title": "Item - ABC Analysis (report)",
+  "blob": "e60c705ae2b6df98d3a84cc5c6437da83159689d",
+  "summary": "Item - ABC Analysis report classifies inventory items into A, B, C categories based on sales contribution to help prioritize stock management and supply chain decisions.",
+  "systems": [
+    "inventory"
+  ],
+  "topics": [
+    "abc analysis",
+    "inventory classification",
+    "stock management",
+    "sales analysis",
+    "report"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Item - ABC Analysis"
+    }
+  ],
+  "features": [
+    "category thresholds",
+    "excel layout",
+    "multiple worksheets",
+    "configurable percentages",
+    "zero sales filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004719,
+      "pages_in_call": 8
+    }
+  ]
+}

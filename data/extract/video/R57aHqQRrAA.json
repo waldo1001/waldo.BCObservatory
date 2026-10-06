@@ -1,0 +1,469 @@
+{
+  "video_id": "R57aHqQRrAA",
+  "item_id": "video/yt-microsoft/R57aHqQRrAA",
+  "title": "What's New: Enhanced Power BI for Purchasing (2025 release wave 2)",
+  "duration_s": 1210,
+  "systems": [
+    "purchasing",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "supply chain risk",
+    "vendor analysis",
+    "pareto analysis",
+    "purchase analytics",
+    "forecasting",
+    "quality analysis",
+    "single supplier risk",
+    "machine learning",
+    "statistical models",
+    "seasonality"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Power BI Purchasing App Overview",
+      "t_start": 0,
+      "t_end": 116.5
+    },
+    {
+      "title": "Purchase Quantity by Location and Quality Risk Analysis",
+      "t_start": 116.5,
+      "t_end": 186.6
+    },
+    {
+      "title": "Purchases by Item Category and Trends",
+      "t_start": 186.6,
+      "t_end": 250.7
+    },
+    {
+      "title": "Pareto Analysis and Vendor Geographic Risk",
+      "t_start": 250.7,
+      "t_end": 336.2
+    },
+    {
+      "title": "Purchaser and Warehouse Location Risk Analysis",
+      "t_start": 336.2,
+      "t_end": 465.8
+    },
+    {
+      "title": "Purchase Returns Overview and Quality Exposure",
+      "t_start": 465.8,
+      "t_end": 589.7
+    },
+    {
+      "title": "Purchase Quote Overview and Key Purchase Influencers",
+      "t_start": 589.7,
+      "t_end": 735.3
+    },
+    {
+      "title": "Vendor Quality Analysis and Purchase Forecasting",
+      "t_start": 735.3,
+      "t_end": 883.3
+    },
+    {
+      "title": "Purchase Forecasting Details and Key Takeaways",
+      "t_start": 883.3,
+      "t_end": 1009.8
+    },
+    {
+      "title": "Landing Page, Documentation and Community Resources",
+      "t_start": 1009.8,
+      "t_end": 1210
+    }
+  ],
+  "features": [
+    {
+      "name": "Updated Power BI app for purchasing",
+      "description": "Enhanced Power BI application for purchasing analytics to help procurement managers forecast future procurement needs, analyze supplier quality, and dive into supply chain risk.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 55.4,
+      "t_end": 105,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "purchasing",
+        "analytics"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Open source Power BI app code",
+      "description": "All code for the Power BI app for purchasing is being open sourced.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 105,
+      "t_end": 116.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "open source",
+        "power bi"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Purchase quantity by location visual",
+      "description": "Updated visual showing purchase quantity across different warehouses including posted purchase invoices and return orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 127.8,
+      "t_end": 168.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "purchases",
+        "location",
+        "warehouse"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Purchases by item report",
+      "description": "Updated report with two new visuals showing purchase flow by fiscal year and item category, and financial versus quantity exposure by item category.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 186.6,
+      "t_end": 250.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "purchases",
+        "item",
+        "financial exposure"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Pareto analysis for vendors",
+      "description": "Vendor analysis showing what percentage of purchase value is supplied by top vendors, allowing visibility into supplier concentration risk.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 260.7,
+      "t_end": 322.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pareto",
+        "vendor",
+        "risk"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Vendor geographic location mapping",
+      "description": "World map visual showing vendor locations to identify geographic supply chain risk and concentration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 322.4,
+      "t_end": 336.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vendor",
+        "geography",
+        "risk"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Purchases by purchaser report",
+      "description": "New report showing purchase quantity and amount by procurement officer to identify concentration risk and potential single purchaser vulnerabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 347.3,
+      "t_end": 408.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "purchaser",
+        "risk",
+        "procurement"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Purchases by warehouse location analysis",
+      "description": "Analysis showing risk exposure to different warehouses and identifying potential bottlenecks in operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 422.7,
+      "t_end": 465.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "warehouse",
+        "location",
+        "bottleneck"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Purchase returns overview report",
+      "description": "New report showing purchase returns by reason code including damages, defects, and warranty to identify quality and financial risk.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 478.2,
+      "t_end": 589.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "returns",
+        "quality",
+        "risk"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Purchase quote overview report",
+      "description": "New report providing overview of purchase quotes to identify potential fraud risk or abnormal quoting behavior by purchasers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 589.7,
+      "t_end": 639,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "quote",
+        "fraud",
+        "risk"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Key purchase influencers report",
+      "description": "AI-driven report showing statistical analysis of factors influencing purchase documents and segmentation patterns, available for different document types.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 639,
+      "t_end": 735.3,
+      "is_demoed": true,
+      "caveats": [
+        "Demonstrated with sample data that may not be representative"
+      ],
+      "tags": [
+        "ai",
+        "influencers",
+        "analytics"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Vendor quality analysis report",
+      "description": "New report identifying single supplier risk across items and item categories, showing vendor concentration and financial exposure for each product.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 735.3,
+      "t_end": 819,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vendor quality",
+        "single supplier risk"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Purchase forecasting with machine learning",
+      "description": "AI-based forecasting capability using statistical models on historical transaction data to predict future purchase amounts. Includes configurable seasonality settings and upper/lower bounds, allowing users to adjust parameters based on business needs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 837.5,
+      "t_end": 948,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual adjustment based on business seasonality",
+        "Predictions are based on historical transaction windows",
+        "Report parameters must be edited to customize for specific needs"
+      ],
+      "tags": [
+        "forecasting",
+        "machine learning",
+        "statistical model",
+        "seasonality",
+        "power bi",
+        "ai"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Vendor concentration risk visualization",
+      "description": "Power BI visualization showing vendor risk exposure, identifying single-vendor dependencies and supply chain vulnerabilities. Highlights items at risk if a particular vendor cannot deliver.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 791,
+      "t_end": 837.5,
+      "is_demoed": true,
+      "caveats": [
+        "Manual action required based on insights",
+        "Helps identify risk but does not eliminate it"
+      ],
+      "tags": [
+        "vendor risk",
+        "supply chain",
+        "visualization",
+        "purchasing analytics"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Enhanced purchasing app with new Power BI pages",
+      "description": "Updated purchasing app featuring four new report pages and four updated pages in the Power BI analytics. Provides multiple personas and scenarios for procurement risk management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 995.4,
+      "t_end": 1009.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires installation or update of the app"
+      ],
+      "tags": [
+        "power bi",
+        "purchasing app",
+        "release wave 2",
+        "analytics"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 16.2,
+      "text": "31% of customers stated that supply chain disruptions have impacted their business",
+      "why_it_matters": "Establishes the business problem that the Power BI purchasing enhancements address - supply chain risk is a major concern for SMB customers.",
+      "check": "exact"
+    },
+    {
+      "t": 55.4,
+      "text": "with the updated PowerBI app for purchasing, we are trying to help you as a procurement manager to uh forecast future uh procurement needs",
+      "why_it_matters": "States the primary goal of the Power BI app update in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 105,
+      "text": "we are also open sourcing the everything uh all the code for the PowerBI app for purchasing",
+      "why_it_matters": "Significant feature announcement about making the Power BI code open source for customers.",
+      "check": "exact"
+    },
+    {
+      "t": 275,
+      "text": "80% of the value I buy across all vendors is supplied by vendor 1, two and three. that means that my like risk exposure",
+      "why_it_matters": "Demonstrates the Pareto analysis capability and explains why vendor concentration matters for supply chain risk.",
+      "check": "exact"
+    },
+    {
+      "t": 377.3,
+      "text": "Maybe there's a single purchaser risk in this company because we have some people working in procurement and then we have Jim",
+      "why_it_matters": "Explains a new risk dimension the Power BI app helps identify - concentration of purchasing decisions with single individuals.",
+      "check": "exact"
+    },
+    {
+      "t": 745.3,
+      "text": "This is one of my also one of my favorite new reports in the release. Uh here you have the single supplier risk on",
+      "why_it_matters": "Highlights the vendor quality analysis report as a key new feature for identifying single-source supplier dependencies.",
+      "check": "exact"
+    },
+    {
+      "t": 801.5,
+      "text": "Those with only one vendors mean that you are like you have to make sure that that particular one vendor can supply or can",
+      "why_it_matters": "Explains the core risk scenario the purchasing analytics addresses - single-vendor dependency creates business vulnerability",
+      "check": "exact"
+    },
+    {
+      "t": 883.3,
+      "text": "The forecasting here is a classical data mining or machine learning. It is AI but it is old school AI. It's a statistical model",
+      "why_it_matters": "Clarifies the type of AI used in the forecasting feature - statistical models rather than modern deep learning approaches.",
+      "check": "exact"
+    },
+    {
+      "t": 883.3,
+      "text": "The forecasting here is a classical data mining or machine learning. It is AI but it is old school AI.",
+      "why_it_matters": "Clarifies the forecasting method as statistical modeling rather than modern neural network AI, setting proper expectations",
+      "check": "exact"
+    },
+    {
+      "t": 900.3,
+      "text": "We have chosen I think 3 months of the future to be predicted. We have chosen to show up or lower bounds.",
+      "why_it_matters": "Specifies the forecasting horizon and output format, key configuration details for users",
+      "check": "exact"
+    },
+    {
+      "t": 927.8,
+      "text": "You can change those seasonality settings and everything related to the forecast visual here by editing the the report and and kind of change",
+      "why_it_matters": "Describes how users customize forecasting parameters to match their business patterns",
+      "check": "exact"
+    },
+    {
+      "t": 995.4,
+      "text": "We have four new report pages, four updated pages in the purchasing app. Purchasing app was the one thing that got the most love",
+      "why_it_matters": "Quantifies the scale of enhancements to purchasing analytics in this release",
+      "check": "exact"
+    },
+    {
+      "t": 1024.2,
+      "text": "There's a PowerBI um landing page for purchasing analytics and that landing page you can reach to from aka.ms/bc purchasing analytics.",
+      "why_it_matters": "Provides resource location for detailed documentation and scenarios",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 13,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 15
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028994
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016784
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021737
+    }
+  ]
+}
