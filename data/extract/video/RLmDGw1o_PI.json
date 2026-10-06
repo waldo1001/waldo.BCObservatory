@@ -1,0 +1,327 @@
+{
+  "video_id": "RLmDGw1o_PI",
+  "item_id": "video/yt-microsoft/RLmDGw1o_PI",
+  "title": "What’s New: Financial Reporting (for Report Authors) (2025 release wave 1)",
+  "duration_s": 424,
+  "systems": [
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "financial reporting",
+    "report definitions",
+    "row definitions",
+    "column definitions",
+    "excel layouts",
+    "internal descriptions",
+    "where used",
+    "month-to-date",
+    "negative amount format"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to new features",
+      "t_start": 0,
+      "t_end": 20.2
+    },
+    {
+      "title": "Accessing and opening financial reporting",
+      "t_start": 20.2,
+      "t_end": 61.5
+    },
+    {
+      "title": "Report definition editing - titles, descriptions, and formats",
+      "t_start": 61.5,
+      "t_end": 141.1
+    },
+    {
+      "title": "Copy, export and import of report definitions",
+      "t_start": 141.1,
+      "t_end": 171.2
+    },
+    {
+      "title": "Row definitions and the where used action",
+      "t_start": 171.2,
+      "t_end": 256.2
+    },
+    {
+      "title": "Row definition options and documentation",
+      "t_start": 256.2,
+      "t_end": 336.1
+    },
+    {
+      "title": "Column definitions and month-to-date feature",
+      "t_start": 336.1,
+      "t_end": 424
+    }
+  ],
+  "features": [
+    {
+      "name": "Internal description for report definitions",
+      "description": "Report definitions now have an internal description field where authors can document their report definition for future reference.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 31.8,
+      "t_end": 102.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "internal description",
+        "documentation",
+        "report definitions"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Intro and closing paragraphs for reports",
+      "description": "Authors can now add introductory and closing paragraphs to reports that will display when users run the report.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 61.5,
+      "t_end": 89.8,
+      "is_demoed": true,
+      "caveats": [
+        "Demonstrated in user video"
+      ],
+      "tags": [
+        "paragraphs",
+        "text content",
+        "report layout"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Negative amount format option",
+      "description": "Authors can choose how negative amounts are displayed in reports - either as parentheses or with a minus sign.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 102.4,
+      "t_end": 113.8,
+      "is_demoed": true,
+      "caveats": [
+        "Changes reflected in PDF version"
+      ],
+      "tags": [
+        "formatting",
+        "negative amounts",
+        "display options"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel layouts for financial reports",
+      "description": "Support for defining and exporting Excel layouts for financial reports, with ability to set a default layout for users to consume.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 113.8,
+      "t_end": 127.8,
+      "is_demoed": false,
+      "caveats": [
+        "Demonstrated in user video"
+      ],
+      "tags": [
+        "excel",
+        "export",
+        "layout"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Copy, export and import report definitions",
+      "description": "Ability to copy report definitions and use export/import functionality to manage report definitions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 141.1,
+      "t_end": 171.2,
+      "is_demoed": true,
+      "caveats": [
+        "Feature from last wave"
+      ],
+      "tags": [
+        "copy",
+        "export",
+        "import",
+        "management"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Internal description for row definitions",
+      "description": "Row definitions can now be documented with an internal description field.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 183.3,
+      "t_end": 198.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "internal description",
+        "documentation",
+        "row definitions"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Where used action for row and column definitions",
+      "description": "A new where used action that shows which reports use a particular row or column definition, helping authors understand the impact of changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 198.7,
+      "t_end": 241.7,
+      "is_demoed": true,
+      "caveats": [
+        "Available in both list and edit mode"
+      ],
+      "tags": [
+        "where used",
+        "impact analysis",
+        "definitions"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Double underline option for rows",
+      "description": "The double underline formatting option for rows is now visible and available for use in row definitions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 256.2,
+      "t_end": 272.3,
+      "is_demoed": true,
+      "caveats": [
+        "This feature existed previously but was hidden"
+      ],
+      "tags": [
+        "formatting",
+        "row options",
+        "display"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Enhanced documentation for row definitions",
+      "description": "New comprehensive documentation page for financial reporting row definitions covering formulas, formatting, empty lines, and conditional formatting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 301,
+      "t_end": 336.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "row definitions",
+        "help"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Month-to-date column type",
+      "description": "New column type option that allows authors to calculate and display month-to-date values in addition to the existing year-to-date functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 375,
+      "t_end": 389.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "column type",
+        "month-to-date",
+        "calculations"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Documentation for column definitions",
+      "description": "Help and documentation for working with column definitions in financial reporting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 389.1,
+      "t_end": 403.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "column definitions",
+        "help"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.8,
+      "text": "Welcome to what's new and financial reporting for authors in uh the 2025 release wave one for Business Central.",
+      "why_it_matters": "Establishes the scope and version context for all features discussed in the video.",
+      "check": "exact"
+    },
+    {
+      "t": 74.6,
+      "text": "You can edit the introductory and closing paragraphs.",
+      "why_it_matters": "Explains a new capability for report authors to add contextual text content to reports.",
+      "check": "exact"
+    },
+    {
+      "t": 113.8,
+      "text": "there's also a new thing where we have support for Excel layouts.",
+      "why_it_matters": "Introduces a major new feature for Excel export and layout management in financial reports.",
+      "check": "exact"
+    },
+    {
+      "t": 198.7,
+      "text": "there's also uh something um a new thing here a new action called where used.",
+      "why_it_matters": "Describes a critical impact analysis tool that helps authors understand how changes affect multiple reports.",
+      "check": "exact"
+    },
+    {
+      "t": 256.2,
+      "text": "the double underline option is now not hidden anymore.",
+      "why_it_matters": "Indicates that a previously available feature is now visible and accessible to report authors.",
+      "check": "exact"
+    },
+    {
+      "t": 375,
+      "text": "you have been able to do year-to- date for many years but now as a new thing in this wave we also added the",
+      "why_it_matters": "Highlights a new column type calculation option extending the existing year-to-date functionality.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 11
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022816
+    }
+  ]
+}

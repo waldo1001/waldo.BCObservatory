@@ -1,0 +1,68 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-unmodified-application-to-v28.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v28",
+  "title": "Upgrade to Business Central 2026 release wave 1 (version 28)",
+  "blob": "0f7e235df7e45301fea60e0b1484f52d8bd4b673",
+  "summary": "Upgrade to Business Central 2026 release wave 1 (version 28) provides step-by-step instructions for upgrading unmodified applications from versions 25, 26, or 27 to version 28, including database conversion, extension publishing, and data migration.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "upgrade",
+    "migration",
+    "version 28",
+    "deployment",
+    "database conversion",
+    "extensions",
+    "permissions"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "System Application extension"
+    },
+    {
+      "type": "other",
+      "name": "Business Foundation extension"
+    },
+    {
+      "type": "other",
+      "name": "Base Application extension"
+    },
+    {
+      "type": "other",
+      "name": "Microsoft_Application.app"
+    },
+    {
+      "type": "other",
+      "name": "_Exclude_ReportLayouts extension"
+    }
+  ],
+  "features": [
+    "application database conversion",
+    "extension publishing and installation",
+    "tenant synchronization",
+    "data upgrade execution",
+    "permission sets migration",
+    "encryption key management",
+    "task scheduler configuration",
+    "license import"
+  ],
+  "versions": [
+    "2024 release wave 2 version 25",
+    "2025 release wave 1 version 26",
+    "2025 release wave 2 version 27",
+    "2026 release wave 1 version 28"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01569,
+      "pages_in_call": 2
+    }
+  ]
+}

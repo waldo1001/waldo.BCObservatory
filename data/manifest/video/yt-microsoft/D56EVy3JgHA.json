@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Enhanced Purchase Order Matching with Copilot (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=D56EVy3JgHA",
-  "published_at": null,
+  "published_at": "2025-04-01T15:00:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:47:55.329Z",
+      "captions": "auto:en-orig",
+      "duration_s": 755
+    },
+    "captioned": {
+      "at": "2026-10-06T18:48:04.724Z",
+      "path": "data/captions/microsoft/D56EVy3JgHA.vtt",
+      "vtt_sha256": "9e1eac643756b928a562fc1825bde71986b624e2b379bf4a2408d1297bd10982",
+      "segments": 52,
+      "words": 1878,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 267,
     "duration_s": 755,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9e1eac643756b928a562fc1825bde71986b624e2b379bf4a2408d1297bd10982"
 }

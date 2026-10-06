@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/security/security-scenarios-guide.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-scenarios-guide",
+  "title": "Security scenarios Guide by Persona",
+  "blob": "0092ed40e5dfb37be0cacfb4dc48530550ab260f",
+  "summary": "Security scenarios guide provides persona-based security recommendations for partners, administrators, developers, and auditors on topics like privileged access management, API security, multifactor authentication, separation of duties, and data access monitoring.",
+  "systems": [
+    "administration",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "security",
+    "access control",
+    "authentication",
+    "authorization",
+    "api security",
+    "audit",
+    "compliance"
+  ],
+  "objects": [],
+  "features": [
+    "Privileged Identity Management",
+    "GDAP group-based access control",
+    "Federated Identity Credentials",
+    "Certificate-based authentication",
+    "Azure Key Vault",
+    "Conditional Access policies",
+    "Approval Workflows",
+    "Change log monitoring"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006307,
+      "pages_in_call": 6
+    }
+  ]
+}

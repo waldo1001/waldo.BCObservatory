@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v28",
   "published_at": "2026-02-22T10:55:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0f7e235df7e45301fea60e0b1484f52d8bd4b673",
       "words": 2238,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:55.665Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.01569
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:55.687Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:55.688Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:55.689Z",
+      "page": false
     }
   },
   "input_hash": "0f7e235df7e45301fea60e0b1484f52d8bd4b673",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0f7e235df7e45301fea60e0b1484f52d8bd4b673"
+  "output_hash": "4a7cefec8af40ba4586b3b040f43183ca2274be97b06ac5b4f9a1fecdf6857aa"
 }

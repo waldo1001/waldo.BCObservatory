@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-scenarios-guide",
   "published_at": "2026-02-26T10:02:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0092ed40e5dfb37be0cacfb4dc48530550ab260f",
       "words": 3718,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:55.659Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006307
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:55.669Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:55.670Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:55.671Z",
+      "page": false
     }
   },
   "input_hash": "0092ed40e5dfb37be0cacfb4dc48530550ab260f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0092ed40e5dfb37be0cacfb4dc48530550ab260f"
+  "output_hash": "7e8d5c5f48e7cda1dc3f92f541e4599f39a3f412fdb470820f9b8e5e4c16b3e3"
 }

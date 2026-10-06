@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bi-troubleshoot-financial-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bi-troubleshoot-financial-reports",
+  "title": "Troubleshoot Financial Reporting",
+  "blob": "f3ff51c5eb8c0a534075a5b2602812cb2fa23ae3",
+  "summary": "Troubleshooting Financial Reporting explains how to balance financial reports to the general ledger, test reports against trial balance reports and G/L entries, add validation figures, and understand when to use net change versus balance at date in column definitions.",
+  "systems": [
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "financial reporting",
+    "troubleshooting",
+    "general ledger",
+    "trial balance",
+    "account schedule",
+    "validation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Entries"
+    }
+  ],
+  "features": [
+    "Financial reporting balancing",
+    "Trial Balance reports",
+    "Data analysis on G/L entries",
+    "Validation figures",
+    "Net change vs balance at date",
+    "Column definitions",
+    "Row definitions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006307,
+      "pages_in_call": 6
+    }
+  ]
+}

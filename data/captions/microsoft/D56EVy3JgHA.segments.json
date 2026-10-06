@@ -1,0 +1,281 @@
+{
+  "video_id": "D56EVy3JgHA",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 7.4,
+      "end": 19,
+      "text": "Welcome to Business Central launch event 2025 release wave 1. In this session, we will show you some new enhancements related to e document matching copilot."
+    },
+    {
+      "t": 19,
+      "end": 29.8,
+      "text": "So let's first see what is new in e document matching copilot. uh one of the first thing what is really new and this is based on your feedback."
+    },
+    {
+      "t": 29.8,
+      "end": 41.8,
+      "text": "Now we support all different types of uh entries. So earlier we supported only general ledger accounts and items but now you can handle with resources with uh item charge with everything."
+    },
+    {
+      "t": 41.8,
+      "end": 62.2,
+      "text": "Second is that we now we can include extra lines into a purchase order automatically from inbound invoice. Just imagine we had uh some lines in our purchase order but then we got electronic invoice with one additional line for example transport cost and we couldn't resolve this earlier."
+    },
+    {
+      "t": 62.2,
+      "end": 79.1,
+      "text": "Now you can automatically add this line to purchase order from uh matching page and third one is and has auto matching capabilities into copilot prompts adding uh not only 80% of similarity but adding item references as well."
+    },
+    {
+      "t": 79.1,
+      "end": 99.1,
+      "text": "So let's see first process flow how it work earlier. We had some purchase order as I mentioned with for example two items and then we got incoming document with two items for now just look these two items and we had maybe different uh expression different descriptions"
+    },
+    {
+      "t": 99.1,
+      "end": 111.5,
+      "text": "but when we run a matching page and copilot everything was matched perfect case and we could post our electronic invoice in purchase order without any problem."
+    },
+    {
+      "t": 111.5,
+      "end": 126.2,
+      "text": "But what if we have this one additional line? So we have additional expense on this electronic voice and we didn't plan for that. We cannot complain to our vendor because this is obviously why we got this additional line."
+    },
+    {
+      "t": 126.2,
+      "end": 137.2,
+      "text": "And now what we could earlier we could go earlier back to purchase order to create manually but it was a problem automatically from matching page it was not possible."
+    },
+    {
+      "t": 137.2,
+      "end": 150.2,
+      "text": "So when you wanted to uh confirm to post it was not possible because you had this one additional expense and you couldn't proceed because you had to post completely invoice not partially invoice."
+    },
+    {
+      "t": 150.2,
+      "end": 162.6,
+      "text": "So it was a problem and what we did now now we added additional option adding um line automatically from incoming document from electronic incoming document."
+    },
+    {
+      "t": 162.6,
+      "end": 182.6,
+      "text": "So now you can mark and you can choose what type of line you want to get because maybe this line can be GL account, maybe it can be item charge, resource, whatever you want. This is just unplanned line and you can decide what you want to create in a in a uh purchase order and after that you can continue with matching and uh"
+    },
+    {
+      "t": 182.6,
+      "end": 197.3,
+      "text": "uh proceeding for posting document. You can also decide to save this for the future uh usage. if we talk about items and GL accounts because we do not have item references or GL mapping for other options."
+    },
+    {
+      "t": 197.3,
+      "end": 214.5,
+      "text": "So this is what we did in this process flow. So now we enabled adding new lines and plus adding different types not only items and GL account. And as I mentioned third one is that previously we work for auto matching not running LLM matching."
+    },
+    {
+      "t": 214.5,
+      "end": 235.4,
+      "text": "We previously work only if we had 80% of string similarity but now we added item references. So if we already have item reference existing it reference system will treat this as an auto matching and will not run LLM for uh dispatching and plus now you have on your prompt you have an option to mark"
+    },
+    {
+      "t": 235.4,
+      "end": 248.6,
+      "text": "every every time when LLM finds some similarity some match you can mark the system will automatically create item reference for future usage. So this is in general what we improved in uh matching copilot for purchase order."
+    },
+    {
+      "t": 248.6,
+      "end": 259.4,
+      "text": "Now I will give a word and my colleague Andre so he can show you in a demo how it works. Yeah, thank you. So let's see this in action."
+    },
+    {
+      "t": 259.4,
+      "end": 270,
+      "text": "Now um here I have a new business central tenant that I have set up and uh in here I can go to my e documents."
+    },
+    {
+      "t": 270,
+      "end": 281.3,
+      "text": "I already have an e document imported e document number one that we can take a look at. So let me try and open the matching page for this e document."
+    },
+    {
+      "t": 281.3,
+      "end": 294.4,
+      "text": "And on the left hand side you can here see the invoice that we have received. And on the right hand side we see the purchase order. Now if I just try and do an automatic matching here."
+    },
+    {
+      "t": 294.4,
+      "end": 308.6,
+      "text": "So if I click here you see nothing actually happens. The reason is that we haven't set up any item references for any of these items and the strings doesn't match with an 80% accuracy."
+    },
+    {
+      "t": 308.6,
+      "end": 321.9,
+      "text": "So we can't be certain that these will should actually be matched. Instead what we can do is use copilot. This is existing functionality where we can click uh this match with copilot."
+    },
+    {
+      "t": 321.9,
+      "end": 342.1,
+      "text": "copilot is called and very quickly responds back with uh which lines it uh thinks should be matched. now existing functionality and as you can see here it was able to match everything except uh one line uh and that's because and I'll get back to"
+    },
+    {
+      "t": 342.1,
+      "end": 362.1,
+      "text": "that in a moment but we have a uh transfer cost as well which we haven't put into our purchase order which is going to be uh where we look at how can we actually create this quickly um as well but before we get to that we see copile has matched our five lines"
+    },
+    {
+      "t": 362.1,
+      "end": 374.1,
+      "text": "with the three lines we had in our purchase order. And we can simply now click uh keep this. But we have a new field called learn matching rule."
+    },
+    {
+      "t": 374.1,
+      "end": 393.8,
+      "text": "This uh field allows you to actually have Business Central learn this matching rule such that it knows for instance if I click uh learn matching rule for the espresso roast beans and Mexican mocka beans it will learn to match that with the item on this line."
+    },
+    {
+      "t": 393.8,
+      "end": 405,
+      "text": "uh that means we are making an item reference in the background and in the future we can automatically match this and we don't need to call copilot every single time for this one."
+    },
+    {
+      "t": 405,
+      "end": 425,
+      "text": "So now let me click keep this and you can see first of all copilot has matched all the lines which is great uh except for this transport uh service which we'll get back to but also just to show you what we was actually created behind the scenes because we now selected"
+    },
+    {
+      "t": 425,
+      "end": 440.8,
+      "text": "to create uh to learn this matching rule. If we go to the item and go to item references, you'll see there are now two item references for our vendor when two"
+    },
+    {
+      "t": 440.8,
+      "end": 454.9,
+      "text": "20,000 and it's uh yeah these two item references the unit of measures and we can even see that this was autogenerated from um the E document number one."
+    },
+    {
+      "t": 454.9,
+      "end": 471.4,
+      "text": "So we can backtrack. Why was this actually created? Now let's get back into the matching page. So now that we have this item reference, it actually means that we can now automatically match this."
+    },
+    {
+      "t": 471.4,
+      "end": 486.2,
+      "text": "So if I click auto match, it means we're going to remove all the matching copile did and only use automatic matching. And in this case, we can now see we actually able to match these two lines up because I create this rule."
+    },
+    {
+      "t": 486.2,
+      "end": 496.8,
+      "text": "And from now on, these will automatically be matched up against these lines in the future. So you no longer need to call copilot for"
+    },
+    {
+      "t": 496.8,
+      "end": 508.8,
+      "text": "that. So that's um this will greatly speed up uh the matching that you're doing and make it more reliable."
+    },
+    {
+      "t": 508.8,
+      "end": 523,
+      "text": "Now furthermore, uh we also have this um new line that I talked about this transport service. Well, as you can see, we don't have this in the purchase order."
+    },
+    {
+      "t": 523,
+      "end": 536.9,
+      "text": "There could be multiple reasons for this. Maybe we forgot about it. Maybe um it's on purpose or some other reason. But either way, we now need to actually create this in our purchase order."
+    },
+    {
+      "t": 536.9,
+      "end": 552.6,
+      "text": "And to do that originally, you would have to go to document purchase order, then go to lines, create a new line. Uh then you would create a a charge item or whatever it is and fill in."
+    },
+    {
+      "t": 552.6,
+      "end": 564.1,
+      "text": "You have to remember what are the amounts and all of that. Fill that in here. Then you go back and realize, hey, actually charge items doesn't show up and you need to figure out how to work around that."
+    },
+    {
+      "t": 564.1,
+      "end": 576.5,
+      "text": "Now we actually support uh all these other types and furthermore so all of these types will show up not just items and GL"
+    },
+    {
+      "t": 576.5,
+      "end": 590.2,
+      "text": "accounts. So you can do that but I want to show an even easier way we have now to do that. Basically on the imported lines you can now click the three dots and we have this create purchase order line."
+    },
+    {
+      "t": 590.2,
+      "end": 610.2,
+      "text": "This is a simple simplified way to quickly create a purchase order line from this invoice line. When you click that, you'll see this new page which uh automatically populates the units of unit of measures and the cost for this such that you don't"
+    },
+    {
+      "t": 610.2,
+      "end": 621.8,
+      "text": "get those incorrect and make sure that this matches up. If you want something more uh complex, you can always go back to the invoice itself and uh create it however you like."
+    },
+    {
+      "t": 621.8,
+      "end": 632.9,
+      "text": "Now let's create this charge item. And this might be a freight item. And we can actually change even the quantity. You can see right now it's 500."
+    },
+    {
+      "t": 632.9,
+      "end": 645,
+      "text": "If I change this to two, we'll change the unit of measure such that we can match this after uh afterwards."
+    },
+    {
+      "t": 645,
+      "end": 656.9,
+      "text": "Finally, we also have this learn matching rule. Now, this only works for GL accounts and items. So, GL accounts, we use the text to account mapping if you're familiar with that."
+    },
+    {
+      "t": 656.9,
+      "end": 667,
+      "text": "And item references we use the for items we use item references. So, for other the other types, this not going to do anything."
+    },
+    {
+      "t": 667,
+      "end": 682.6,
+      "text": "It's also explained in there and we'll uh let you know if you try and we can't do it. Then let's click okay. And automatically you can see a new charge item has been created in the purchase order."
+    },
+    {
+      "t": 682.6,
+      "end": 696.8,
+      "text": "I can even open up the purchase order. And you can see in here in the purchase order that we now have the new charge item. Now let's go back to the matching page."
+    },
+    {
+      "t": 696.8,
+      "end": 713.2,
+      "text": "And now we can actually go ahead and match these up. So I can say for instance match all manually. Now these two lines are matched. And you can go ahead proceed and actually uh post your invoice."
+    },
+    {
+      "t": 713.2,
+      "end": 723.5,
+      "text": "So that's it for me and back to you Alexander. Thank you. So now you can see that we have some new things here improvements."
+    },
+    {
+      "t": 723.5,
+      "end": 740,
+      "text": "It doesn't mean that this is everything. Uh this is what we try to to improve based on your feedback on your usage of this copilot. Idea is to continue improvements in next waves before we finally enable this as a general aability."
+    },
+    {
+      "t": 740,
+      "end": 755,
+      "text": "So currently this is still a public preview because we want to improve in a few more places and please if you know any idea what should be done here let us know. So thank you for watching this video."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 7.43,
+      "text": "[Music]"
+    },
+    {
+      "t": 7.44,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1878
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-page-view-trace",
   "published_at": "2026-02-23T08:50:28.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5e88faf446607d6b5022a475579dd04d2c2b80b4",
       "words": 1052,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:47:55.664Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.01569
+    },
+    "summarized": {
+      "at": "2026-10-06T18:47:55.684Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:47:55.685Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:47:55.686Z",
+      "page": false
     }
   },
   "input_hash": "5e88faf446607d6b5022a475579dd04d2c2b80b4",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5e88faf446607d6b5022a475579dd04d2c2b80b4"
+  "output_hash": "5f8906dea7d6c2f4548f1d156a7bf5fa09f53c126f2164a360edf060e12037cd"
 }

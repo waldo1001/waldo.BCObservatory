@@ -1,0 +1,27 @@
+{
+  "video_id": "RLmDGw1o_PI",
+  "item_id": "video/yt-microsoft/RLmDGw1o_PI",
+  "summary": "Financial reporting changes for report authors in Business Central 2025 release wave 1: internal descriptions, intro and closing paragraphs, negative amount format, Excel layouts, where used action, visible double underline, month-to-date columns, and new row and column definition documentation.",
+  "overview": "The video walks report authors through what changed in financial reporting in the 2025 release wave 1. It covers report definition editing (internal description, intro and closing paragraphs, negative amount format), Excel layouts, and copy, export and import of report definitions, which the video notes came from the last wave.\n\nIt then covers row definitions (internal description, where used action, double underline option, new documentation page) and column definitions (month-to-date column type alongside year-to-date, and documentation).",
+  "key_points": [
+    "Report definitions have an internal description field for documenting the definition for future reference.",
+    "Authors can edit intro and closing paragraphs that show when users run the report.",
+    "Negative amounts can be shown with parentheses or a minus sign; the change is reflected in the PDF version.",
+    "Excel layouts can be defined and exported for financial reports, with a default layout set for users.",
+    "The where used action shows which reports use a row or column definition, and is available in list and edit mode.",
+    "The double underline option for rows existed before but was hidden; it is now visible.",
+    "A month-to-date column type is added next to the existing year-to-date option."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "580d4932e304187ed3da281879808e330bd3edc8ef4c9a2113a14647df3f428f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013794399999999998
+  }
+}
