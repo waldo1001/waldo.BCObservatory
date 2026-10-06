@@ -1,0 +1,328 @@
+{
+  "video_id": "mZNfMPpxovE",
+  "item_id": "video/yt-microsoft/mZNfMPpxovE",
+  "title": "Historical Snapshot (2024)",
+  "duration_s": 355,
+  "systems": [
+    "integration",
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "gp migration",
+    "historical snapshot",
+    "transactional data",
+    "gp cloud migration tool",
+    "data import",
+    "extension tables",
+    "list pages"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to GP Snapshot Feature",
+      "t_start": 0,
+      "t_end": 36.2
+    },
+    {
+      "title": "Configuring Historical Snapshot Settings",
+      "t_start": 36.2,
+      "t_end": 77.8
+    },
+    {
+      "title": "Running Migration and Monitoring Progress",
+      "t_start": 77.8,
+      "t_end": 116.4
+    },
+    {
+      "title": "Viewing GL Detail Snapshot Data",
+      "t_start": 116.4,
+      "t_end": 176.7
+    },
+    {
+      "title": "Viewing Customer Transaction Details",
+      "t_start": 176.7,
+      "t_end": 232
+    },
+    {
+      "title": "Customer and Vendor Receivables and Payables",
+      "t_start": 232,
+      "t_end": 292.4
+    },
+    {
+      "title": "Inventory and Item Snapshot Data",
+      "t_start": 292.4,
+      "t_end": 355
+    }
+  ],
+  "features": [
+    {
+      "name": "GP Snapshot feature",
+      "description": "Capability to bring over transactional information from GP into Business Central in extension tables, allowing historical data to be viewed in list pages within Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.2,
+      "t_end": 20.5,
+      "is_demoed": true,
+      "caveats": [
+        "Data is stored in extension tables",
+        "Must be configured through cloud migration wizard"
+      ],
+      "tags": [
+        "gp migration",
+        "transactional data",
+        "cloud migration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "GP Company Migration Configuration page",
+      "description": "Configuration interface accessed through the cloud migration wizard or cloud migration management page where users can select module transactions and set the date range for historical snapshot data migration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 20.5,
+      "t_end": 77.8,
+      "is_demoed": true,
+      "caveats": [
+        "Must complete configuration before migration begins"
+      ],
+      "tags": [
+        "configuration",
+        "gp migration",
+        "setup"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Historical Snapshot module selection",
+      "description": "Feature allowing users to select specific module transactions to migrate and configure how far back the transactional data should be brought over, with flexibility to set different date ranges than the GL summary.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 36.2,
+      "t_end": 77.8,
+      "is_demoed": true,
+      "caveats": [
+        "Default year is based on GL summary setting but can be customized"
+      ],
+      "tags": [
+        "historical snapshot",
+        "module selection",
+        "date range"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Automatic snapshot processing",
+      "description": "The GP snapshot runs automatically once the cloud migration is complete, with progress that can be monitored through tiles in the cloud migration management page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 77.8,
+      "t_end": 96.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "automatic processing",
+        "migration monitoring"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "GP Detail Snapshot for GL accounts",
+      "description": "Navigable option under chart of accounts showing GL detail information migrated from GP 20,000 and 30,000 tables, with data organized by account number or displayed as all detail transactions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 116.4,
+      "t_end": 176.7,
+      "is_demoed": true,
+      "caveats": [
+        "Data comes from GP 20,000 and 30,000 tables"
+      ],
+      "tags": [
+        "gl detail",
+        "account snapshot",
+        "historical data"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "GL snapshot data export and filtering",
+      "description": "Ability to export GL snapshot data to Excel, filter on specific values, and search for journal entry numbers with automatic page filtering and drill-through capability to subledger transactions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 156.6,
+      "t_end": 176.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "export",
+        "filtering",
+        "search"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Customer GP Detail Snapshot",
+      "description": "Option available on the customer list showing receivables and sales order processing transactions with ability to filter by specific customer and drill back to see transaction details including payments applied.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 211.4,
+      "t_end": 252,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "customer snapshot",
+        "receivables",
+        "sales orders"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Vendor GP Detail Snapshot",
+      "description": "Snapshot option for vendors showing payables information and purchase receiving transactions with the ability to view all vendors or filter by specific vendor selection.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 272.3,
+      "t_end": 292.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vendor snapshot",
+        "payables",
+        "purchase"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Item GP Detail Snapshot",
+      "description": "Snapshot information for inventory transactions brought over from GP, accessible under the items navigation without tile filtering options.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 312.4,
+      "t_end": 333,
+      "is_demoed": true,
+      "caveats": [
+        "No tiles available for item list navigation"
+      ],
+      "tags": [
+        "inventory snapshot",
+        "items"
+      ],
+      "system": "inventory"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "GP Company Migration Configuration page",
+      "t": 20.5
+    },
+    {
+      "type": "page",
+      "name": "Cloud Migration Management page",
+      "t": 77.8
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts",
+      "t": 116.4
+    },
+    {
+      "type": "page",
+      "name": "GP Detail Snapshot",
+      "t": 116.4
+    },
+    {
+      "type": "page",
+      "name": "Customer list",
+      "t": 211.4
+    },
+    {
+      "type": "table",
+      "name": "GP 20,000 table",
+      "t": 136.6
+    },
+    {
+      "type": "table",
+      "name": "GP 30,000 table",
+      "t": 136.6
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.2,
+      "text": "the GP snapshot allows you to bring over transactional information from GP into business Central in extension tables",
+      "why_it_matters": "Explains the core capability and data storage mechanism of the GP snapshot feature",
+      "check": "exact"
+    },
+    {
+      "t": 36.2,
+      "text": "you can indicate what module transactions you would like migrated to business Central once you select the module transactions you can indicate how far",
+      "why_it_matters": "Describes the configurability of module selection and historical date range for snapshot data",
+      "check": "exact"
+    },
+    {
+      "t": 56.5,
+      "text": "you may want to bring over the last 3 years of GL summary inform information but maybe you want to go back seven years",
+      "why_it_matters": "Illustrates the flexibility to set different historical periods for GL summary versus snapshot data",
+      "check": "exact"
+    },
+    {
+      "t": 77.8,
+      "text": "The GP snapshot will run automatically once the migration is complete you can monitor the progress of the snapshot by looking at the tiles",
+      "why_it_matters": "Confirms automatic execution of snapshot and provides visibility mechanism through cloud migration management interface",
+      "check": "exact"
+    },
+    {
+      "t": 136.6,
+      "text": "this information comes from the GP 20,000 and 30,000 tables so that is the detailed tables in GP for both your open and history",
+      "why_it_matters": "Specifies the source tables in GP system that provide the detailed transactional data for snapshots",
+      "check": "exact"
+    },
+    {
+      "t": 156.6,
+      "text": "like any list page in business Central you can export this information out to excel you can also filter on it and search for",
+      "why_it_matters": "Shows that snapshot data integrates with standard Business Central list page capabilities for analysis and export",
+      "check": "exact"
+    },
+    {
+      "t": 176.7,
+      "text": "if the transaction came from a subledger you can drill back on that journal entry number to see that subledger transactions",
+      "why_it_matters": "Demonstrates drill-through capability to trace transactions back to their subledger sources",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019155
+    }
+  ]
+}
