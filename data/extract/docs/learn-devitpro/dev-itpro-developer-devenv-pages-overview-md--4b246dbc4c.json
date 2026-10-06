@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-pages-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-pages-overview",
+  "title": "Pages overview",
+  "blob": "469f50e8e9738a210a9e46cb9f17485db16d1dcb",
+  "summary": "Pages overview documents how to create and structure AL page objects in Business Central, including page types, layouts, actions, and best practices for user assistance.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "page objects",
+    "al development",
+    "page types",
+    "user interface",
+    "page design",
+    "actions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Reward Card"
+    }
+  ],
+  "features": [
+    "Page types (Card, List, Document, RoleCenter, etc.)",
+    "Page layout and areas",
+    "Page actions and ribbon",
+    "Context-sensitive Help",
+    "Tooltips on page fields",
+    "Instructional text",
+    "FactBox areas"
+  ],
+  "versions": [
+    "2024 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004041,
+      "pages_in_call": 8
+    }
+  ]
+}

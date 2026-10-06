@@ -1,0 +1,202 @@
+{
+  "video_id": "gAzmWJg9Z5g",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 17.3,
+      "end": 31.2,
+      "text": "welcome to this what's new it's actually what's old key updates in our learning content for system Architects and integration developers wow that's a long title but it's also a long agenda"
+    },
+    {
+      "t": 31.2,
+      "end": 51.6,
+      "text": "we uh in this video I will show you some new guidance or documentation around Integrations to and from business Central uh we'll go through an overview and then we'll dive into M Microsoft 365 or office apps Power Platform Dynamics products and dataverse end up with integrating to Asher"
+    },
+    {
+      "t": 51.6,
+      "end": 71.7,
+      "text": "infrastructure services and a little bit on web services because that's act the foundation for all of these Integrations okay let's let's dive into the integration overview this piece of documentation or guidance is here for you to understand how Integrations work not necessarily why"
+    },
+    {
+      "t": 71.7,
+      "end": 81.8,
+      "text": "you would make such an integration uh because this part of the of the documentation is for you as an architect or developer to"
+    },
+    {
+      "t": 81.8,
+      "end": 102.1,
+      "text": "understand first of all what's possible and also how to troubleshoot this should you encounter any issues with any of these Integrations the diagram you see here is business Central in the middle on the on the bottom of that we have three classes of services and products what we call foundational"
+    },
+    {
+      "t": 102.1,
+      "end": 122.2,
+      "text": "Services we have Asher we have foundational services such as as Microsoft inra and Dynamics uh products and data verse in the middle you see these two Integrations to and from business uh sorry um two and from mic roft uh 365 or"
+    },
+    {
+      "t": 122.2,
+      "end": 142.2,
+      "text": "office apps and Power Platform and both of these you can think of ways to augment the outof thee boox functionality in business Central with with more so with all of these Services you can simply do more with business Central and and uh and these augmented products and then on top of the diagram you see things or"
+    },
+    {
+      "t": 142.2,
+      "end": 162.8,
+      "text": "apps that built on top of of business Central connect apps is where you integrate to apis Microsoft apps think of this as out of the box supplied apps uh to do integration to Shopify and Banking and others and then the full Suite of Microsoft app Source apps um where you can install those"
+    },
+    {
+      "t": 162.8,
+      "end": 183.1,
+      "text": "and integrate to anything you like the integration overview I'll just show you a snippet of that um with all the different things I show you here there's also um both the actual page but also the on the table of content to your to to to the left"
+    },
+    {
+      "t": 183.1,
+      "end": 201.5,
+      "text": "in the page also a way to navigate to that content and uh expand each of these uh topics so let's dive in there's a new landing page called aka.ms slbc integration let's take a look and uh see how how it"
+    },
+    {
+      "t": 201.5,
+      "end": 222.2,
+      "text": "looks all right so using the new AKA link I go to docs and here you can see uh the new integration overview each of the topics you see in the in the diagram has their has it its own uh section here so for instance if I click here in this article integrating"
+    },
+    {
+      "t": 222.2,
+      "end": 242.6,
+      "text": "to office apps and M Microsoft 365 I get an overview of a quick overview of what is possible including a link here if I want to dive further in and that's the kind of the structure of the overall integration overview it gives you a snippet information and you can dive into more"
+    },
+    {
+      "t": 242.6,
+      "end": 263,
+      "text": "details so let's quickly dive into integrating to Microsoft 365 or office apps here you see a diagram with different arrows to and from business Central that also indicates um whether information is going to and from business Central from these apps and going into the"
+    },
+    {
+      "t": 263,
+      "end": 277.8,
+      "text": "overview article you can see that we have integration to excel words Outlook and so on uh both in integr into into the overview article and you can you can dive further"
+    },
+    {
+      "t": 277.8,
+      "end": 297.8,
+      "text": "in if we talk about the other augment class of services Power Platform most of these integrate with uh with rest apis using the Power Platform connector um and uh that is is is covered in depth both in the new"
+    },
+    {
+      "t": 297.8,
+      "end": 310.2,
+      "text": "article overview article on power platform integration and also linking to all the different detailed documentation for each of the Power Platform"
+    },
+    {
+      "t": 310.2,
+      "end": 331.1,
+      "text": "products integrating with Dynamics products uh and data verse can happen both through the connector and also through different various different data integration methods and therefore uh it comes with an overview article that explain the four different type of integration"
+    },
+    {
+      "t": 331.1,
+      "end": 349.9,
+      "text": "data synchronization data Vis virtualization change events and uh and the new business events so go there and and check it out um if you want to integrate with dataverse and also some of the Dynamics Products that come with the dataverse"
+    },
+    {
+      "t": 349.9,
+      "end": 370.1,
+      "text": "integration business Central allows you to integrate with a V variety of as Services most of these um is through the HP client data type in Al and then there are various system modules that encapsulate the aure apis so to make it easier"
+    },
+    {
+      "t": 370.1,
+      "end": 390.2,
+      "text": "to connect to these Services um so there are many different types of Integrations application insights is actually built in so this is telemetry but we have aser blop Services file Services aser functions and a few more in there so in case you need to integrate to an AER service it might"
+    },
+    {
+      "t": 390.2,
+      "end": 404.8,
+      "text": "be that there's already support for that in a system application module infrastructure services or foundational services this is where you see things like Microsoft entra for authentication"
+    },
+    {
+      "t": 404.8,
+      "end": 424.9,
+      "text": "authorization where you have Universal print and upcoming also Microsoft purview for audit uh purposes or audit functionality so all of these also come with the its own article and uh and documentation so go check that out there are probably a few"
+    },
+    {
+      "t": 424.9,
+      "end": 445.2,
+      "text": "things within AER no sorry with within Microsoft intra that could be of interest this is for instance where you can restrict I mean did you know that you can restrict network access to and from business Central using um a security service taxs that also is part of of U"
+    },
+    {
+      "t": 445.2,
+      "end": 465.8,
+      "text": "um of this and then finally we update the web service documentation uh with a new overview of that so my business Central supports three different ways to integrate to web services rest apis which is what you should use and then o data and soap"
+    },
+    {
+      "t": 465.8,
+      "end": 485.8,
+      "text": "uh these Legacy ways to um enable web services through pages queries and or code units and this also has a fairly decent update in documentation uh both for security for troubleshooting performance errors and so on so go check that out or"
+    },
+    {
+      "t": 485.8,
+      "end": 498.6,
+      "text": "at least familiar familiar familiarize yourself with the new content so in case you would need to troubleshoot anything uh you know what's"
+    },
+    {
+      "t": 498.6,
+      "end": 509.7,
+      "text": "there so that's it there are some Goos uh of course memorize the new AKA link BC integration uh basically"
+    },
+    {
+      "t": 509.7,
+      "end": 529.8,
+      "text": "whenever you start something new try to go to docs and start your learning uh we try to put everything there so that you don't have to go and look in on the internet on uh on some obscure uh blocks maybe this is already covered in the official documentation and when it doubt about how something"
+    },
+    {
+      "t": 529.8,
+      "end": 550,
+      "text": "works or how we can troot I encourage you to go to docs I think you might be uh you you might see that it it's it's probably already explained there what whatever issue you have and if you if you're an expert on something and you know this is not in docs then do a a pull request"
+    },
+    {
+      "t": 550,
+      "end": 563.3,
+      "text": "and help others um um by by making the the documentation better and of course if there's something completely missing uh let us know and we'll work on adding that"
+    },
+    {
+      "t": 563.3,
+      "end": 583.8,
+      "text": "content other sessions that might be of relevant for you for developers um if in case you're into Integrations maybe you're you're also into web services so there's a session for what's new in web services and similarly for integration there's actually a full um session on what's new updates in documentation"
+    },
+    {
+      "t": 583.8,
+      "end": 604.2,
+      "text": "for for core Al developers so if you consider yourself uh a core Al developer go check that session out as well other relevant sessions here in the ble for Integrations uh could be new uh the new way to integrate to field service there's a session on that"
+    },
+    {
+      "t": 604.2,
+      "end": 623,
+      "text": "um new stuff on Power Platform a session on that and uh the news uh the watch news session on integrating with data verse so go check that out as well as always we have resources uh different AKA links so for for questions on"
+    },
+    {
+      "t": 623,
+      "end": 643.6,
+      "text": "uh discussions BC yamama is your friend BC all is the AK link that TR try to uh give you all the AKA links so one link to rule them all uh BC ideas if you have ideas for improvements in the product or features um we have various social media so"
+    },
+    {
+      "t": 643.6,
+      "end": 663.8,
+      "text": "on X there's a hashtag for BC uh Ms Dynamics then d d 365 BC we are we active on Twitter and sorry on on LinkedIn and uh of course we have office hours B office hours where you can both participate and"
+    },
+    {
+      "t": 663.8,
+      "end": 673.8,
+      "text": "also you can see previous recordings that's it thank you for watching and have a great launch"
+    },
+    {
+      "t": 673.8,
+      "end": 675,
+      "text": "event"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 17.31,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1539
+}

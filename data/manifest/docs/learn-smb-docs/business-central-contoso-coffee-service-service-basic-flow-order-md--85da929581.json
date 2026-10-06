@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-basic-flow-order",
   "published_at": "2025-02-18T11:22:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b18b63354125dee6617c54ef837358a1834ab59a",
       "words": 615,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:43.699Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.004041
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:43.715Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:43.716Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:43.717Z",
+      "page": false
     }
   },
   "input_hash": "b18b63354125dee6617c54ef837358a1834ab59a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b18b63354125dee6617c54ef837358a1834ab59a"
+  "output_hash": "bb4ed46e2056879122b0709e1d26103f1e162c682fae5cd10b716a812966e990"
 }

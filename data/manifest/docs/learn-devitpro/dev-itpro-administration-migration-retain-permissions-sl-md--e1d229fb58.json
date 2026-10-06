@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-retain-permissions-SL",
   "published_at": "2025-02-08T02:55:35.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5ffb13cebf7fc0f43289ff57e4fe3033075d4258",
       "words": 251,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:43.701Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004041
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:45.478Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:45.479Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:45.480Z",
+      "page": false
     }
   },
   "input_hash": "5ffb13cebf7fc0f43289ff57e4fe3033075d4258",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5ffb13cebf7fc0f43289ff57e4fe3033075d4258"
+  "output_hash": "21530b253d0c5f110ce9243ec9348b55e20d22c8f23da8bf7ba9ea9b6c827385"
 }

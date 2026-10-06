@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-analyze-excel",
   "published_at": "2025-03-13T07:33:06.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f7b3d1e586b602af791313b4bfa5c4a914a011d5",
       "words": 621,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:43.695Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004041
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:43.702Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:43.703Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:43.704Z",
+      "page": false
     }
   },
   "input_hash": "f7b3d1e586b602af791313b4bfa5c4a914a011d5",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f7b3d1e586b602af791313b4bfa5c4a914a011d5"
+  "output_hash": "a9495b0b09a4e1cfa7c3510843d8381be17cb79c5d94b36e41f822b563bda0fa"
 }

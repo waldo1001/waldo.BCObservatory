@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-retain-permissions-SL.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-retain-permissions-SL",
+  "title": "Retain permissions during Dynamics SL cloud migration",
+  "blob": "5ffb13cebf7fc0f43289ff57e4fe3033075d4258",
+  "summary": "Retain permissions during Dynamics SL cloud migration explains how to keep users' original permission sets instead of replacing them with the Intelligent Cloud permission set during migration.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "cloud migration",
+    "dynamics sl",
+    "user permissions",
+    "permission sets"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    },
+    {
+      "type": "codeunit",
+      "name": "Hybrid Deployment"
+    }
+  ],
+  "features": [
+    "Permission retention during migration",
+    "Intelligent Cloud permission set",
+    "Cloud Migration Management configuration",
+    "Custom extension setup"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004041,
+      "pages_in_call": 8
+    }
+  ]
+}

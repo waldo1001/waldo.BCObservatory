@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-digital-vouchers-dk.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-digital-vouchers-dk",
+  "title": "Set up digital vouchers in Denmark",
+  "blob": "498ab9e60357343c2c8d5d556507e9ee21059b54",
+  "summary": "Set up digital vouchers in Denmark describes how to configure mandatory digital voucher attachments for financial transactions to meet Danish bookkeeping requirements and improve audit trails.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "digital vouchers",
+    "denmark",
+    "audit trail",
+    "document attachment",
+    "compliance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Digital Voucher Entry Setup"
+    },
+    {
+      "type": "page",
+      "name": "Digital Voucher Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Incoming Document"
+    }
+  ],
+  "features": [
+    "Digital voucher enforcement",
+    "Source codes setup",
+    "Automatic voucher generation",
+    "Attachment or note requirements",
+    "Purchase and sales document vouchers",
+    "General journal vouchers"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004041,
+      "pages_in_call": 8
+    }
+  ]
+}

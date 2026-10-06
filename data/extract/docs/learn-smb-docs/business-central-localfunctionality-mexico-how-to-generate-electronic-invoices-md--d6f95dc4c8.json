@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-generate-electronic-invoices",
+  "title": "Generate electronic invoices [MX]",
+  "blob": "d503c00f7d13ff731d0ced95138669cfd873d166",
+  "summary": "Generate electronic invoices in Mexico describes how to create and send CFDI-compliant electronic invoices for sales and service documents, including digital stamps and foreign trade complements.",
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "electronic invoices",
+    "mexico",
+    "cfdi",
+    "invoice generation",
+    "digital stamp",
+    "foreign trade"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Posted Sales Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Customer Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Units of Measure"
+    },
+    {
+      "type": "page",
+      "name": "Sales Invoices"
+    }
+  ],
+  "features": [
+    "Electronic invoice generation",
+    "CFDI digital stamp",
+    "XML export",
+    "Comercio Exterior Complement",
+    "Foreign trade invoice setup",
+    "Payment stamping"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004041,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-digital-vouchers-dk",
   "published_at": "2025-03-04T17:24:04.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "498ab9e60357343c2c8d5d556507e9ee21059b54",
       "words": 996,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:43.697Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.004041
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:43.708Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:43.709Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:43.710Z",
+      "page": false
     }
   },
   "input_hash": "498ab9e60357343c2c8d5d556507e9ee21059b54",
@@ -59,5 +78,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "498ab9e60357343c2c8d5d556507e9ee21059b54"
+  "output_hash": "c18756525b348feede7b4e8706960f3e333e981cbe3f87ccac747cef7ce7ba00"
 }

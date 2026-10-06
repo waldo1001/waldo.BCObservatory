@@ -1,0 +1,267 @@
+{
+  "video_id": "gHcgL469x_E",
+  "item_id": "video/yt-microsoft/gHcgL469x_E",
+  "title": "What's New: Financial Management - Consolidation Improvements (2024 release wave 1)",
+  "duration_s": 572,
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "consolidation",
+    "currency exchange rates",
+    "consolidation status",
+    "balance sheet revaluation",
+    "mistake recovery",
+    "multi-subsidiary consolidation",
+    "currency factors"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and consolidation improvements overview",
+      "t_start": 0,
+      "t_end": 93.9
+    },
+    {
+      "title": "Consolidation status list and setup demonstration",
+      "t_start": 93.9,
+      "t_end": 160.4
+    },
+    {
+      "title": "Currency exchange rate configuration and consolidation run",
+      "t_start": 160.4,
+      "t_end": 238.6
+    },
+    {
+      "title": "Results review and recovery scenario introduction",
+      "t_start": 238.6,
+      "t_end": 323
+    },
+    {
+      "title": "Balance sheet revaluation and mistake recovery process",
+      "t_start": 323,
+      "t_end": 412
+    },
+    {
+      "title": "Selecting and reusing previous exchange rates",
+      "t_start": 412,
+      "t_end": 495.3
+    },
+    {
+      "title": "Results and future improvements",
+      "t_start": 495.3,
+      "t_end": 572
+    }
+  ],
+  "features": [
+    {
+      "name": "Consolidation status list",
+      "description": "A list showing the history of consolidation runs that have already been performed, allowing users to see which periods and companies were consolidated and any errors that occurred.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 49.7,
+      "t_end": 160.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "consolidation",
+        "status tracking",
+        "history"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Exchange rate lookup and modification during consolidation",
+      "description": "Users can look up and modify currency exchange rates while in the process of executing consolidation, allowing them to adjust rates to fit the current consolidation process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 49.7,
+      "t_end": 227.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "currency exchange rates",
+        "consolidation",
+        "exchange rate management"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Last closing rate lookup",
+      "description": "Users can look up the last closing rate from previous consolidation runs while performing consolidation, which helps with recovery and revaluation of balance sheet items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 67,
+      "t_end": 340.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "closing rate",
+        "consolidation",
+        "balance sheet revaluation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Consolidation validation",
+      "description": "Validation checks have been introduced to prevent users from accidentally making mistakes during consolidation, such as running consolidation for a period that has already been consolidated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 80.7,
+      "t_end": 412,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "validation",
+        "consolidation",
+        "error prevention"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Previous consolidation exchange rate selection",
+      "description": "When recovering from mistakes, users can select and reuse the exact exchange rates that were used in previous consolidation runs, either all of them or selectively.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 412,
+      "t_end": 516.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires knowing which previous run to select from; only shows exchange rates actually used in that period"
+      ],
+      "tags": [
+        "consolidation recovery",
+        "exchange rates",
+        "mistake recovery"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Closing and average currency factors configuration",
+      "description": "Users can configure different currency factors during consolidation - closing currency factor for balance sheet items and average currency factor for income statement items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 171.4,
+      "t_end": 215.3,
+      "is_demoed": true,
+      "caveats": [
+        "Last closing currency factor is automatically set by the last run"
+      ],
+      "tags": [
+        "currency factors",
+        "consolidation",
+        "exchange rates"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "consolidation company",
+      "t": 93.9
+    },
+    {
+      "type": "page",
+      "name": "consolidation status",
+      "t": 121.6
+    },
+    {
+      "type": "table",
+      "name": "business unit card",
+      "t": 183.9
+    },
+    {
+      "type": "page",
+      "name": "financial report",
+      "t": 238.6
+    },
+    {
+      "type": "page",
+      "name": "exchange rates",
+      "t": 215.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Brian Nielsen",
+      "confidence": "high"
+    },
+    {
+      "name": "Joshua",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 49.7,
+      "text": "while you're in the process of uh executing consolidation, you will be able to look up currency exchange rate and maybe modify them.",
+      "why_it_matters": "This quote explains a key new capability that allows users to adjust exchange rates during consolidation without exiting the process, making currency management more flexible.",
+      "check": "exact"
+    },
+    {
+      "t": 121.6,
+      "text": "we have now this consolidation runs status and we have we can see now that we have run this twice before.",
+      "why_it_matters": "This demonstrates the new consolidation status list feature that provides visibility into previous consolidation runs, a core improvement for managing consolidations.",
+      "check": "exact"
+    },
+    {
+      "t": 280.6,
+      "text": "we put in some validation, so you don't accidentally uh start running a consolidation for something you have already done consolidation for.",
+      "why_it_matters": "This describes an important safeguard feature that prevents accidental re-consolidation of the same periods, reducing user errors.",
+      "check": "exact"
+    },
+    {
+      "t": 323,
+      "text": "when you're doing consolidation on balance sheet items, you need to revalue the balance from the previous period.",
+      "why_it_matters": "This explains a key technical challenge in consolidation that the new features address - the need to properly handle balance sheet revaluation across multiple runs.",
+      "check": "exact"
+    },
+    {
+      "t": 428.6,
+      "text": "you can select from previous consolidations the currency exchange rates that you have used.",
+      "why_it_matters": "This quote highlights the recovery feature that allows users to reuse exact exchange rates from previous runs when redoing consolidations, simplifying mistake recovery.",
+      "check": "exact"
+    },
+    {
+      "t": 534.2,
+      "text": "We will make a few more improvements over the next one or two releases to make it an even smoother process, giving you more",
+      "why_it_matters": "This indicates that the consolidation improvements are ongoing and future enhancements are planned for the next one or two releases.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 534.2,
+      "kind": "coming-later",
+      "text": "We will make a few more improvements over the next one or two releases to make it an even smoother process, giving you more overview."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022149
+    }
+  ]
+}

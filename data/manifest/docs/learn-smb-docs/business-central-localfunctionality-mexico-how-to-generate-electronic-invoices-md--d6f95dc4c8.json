@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Mexico/how-to-generate-electronic-invoices",
   "published_at": "2025-03-03T13:09:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d503c00f7d13ff731d0ced95138669cfd873d166",
       "words": 858,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:43.698Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.004041
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:43.711Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:43.712Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:43.714Z",
+      "page": false
     }
   },
   "input_hash": "d503c00f7d13ff731d0ced95138669cfd873d166",
@@ -50,5 +69,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d503c00f7d13ff731d0ced95138669cfd873d166"
+  "output_hash": "20a364270c80e1bb0b83fe3ebbbaa7f6d612544b9bf7926ae03a84a9c47ef0f5"
 }

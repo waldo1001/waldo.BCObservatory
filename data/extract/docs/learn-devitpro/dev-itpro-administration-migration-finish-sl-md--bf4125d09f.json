@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-finish-sl.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish-sl",
+  "title": "Complete cloud migration for Dynamics SL",
+  "blob": "d82eb8f9fb1f8cacf4fcac4e7d70cf104b889264",
+  "summary": "Complete cloud migration for Dynamics SL explains the final phase of cloud migration including disabling cloud migration and setting up users and permissions in Business Central online.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "cloud migration",
+    "dynamics sl",
+    "user permissions",
+    "migration completion"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Setup"
+    },
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    },
+    {
+      "type": "page",
+      "name": "Cloud Ready Checklist"
+    },
+    {
+      "type": "page",
+      "name": "Post Migration Checklist"
+    }
+  ],
+  "features": [
+    "Disable cloud migration",
+    "User account setup",
+    "Permission assignment",
+    "Microsoft 365 integration",
+    "Self-hosted Integration Runtime",
+    "Post migration checklist"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004041,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-manage-sl.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-manage-sl",
+  "title": "Managing Dynamics SL cloud migration",
+  "blob": "76c8a7d0cd45cec98850db6710ac6b1a5bd7ad78",
+  "summary": "Managing Dynamics SL cloud migration describes using the Cloud Migration Management page and cloud migration API to set up, run, and track data migration from Dynamics SL to Business Central online.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "cloud migration",
+    "dynamics sl",
+    "migration management",
+    "data replication",
+    "migration api"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    },
+    {
+      "type": "page",
+      "name": "Migration Table Mapping"
+    }
+  ],
+  "features": [
+    "Cloud Migration Management page",
+    "Migration Log tracking",
+    "Run data replication",
+    "Data upgrade execution",
+    "Custom table management",
+    "Migration status refresh"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004041,
+      "pages_in_call": 8
+    }
+  ]
+}

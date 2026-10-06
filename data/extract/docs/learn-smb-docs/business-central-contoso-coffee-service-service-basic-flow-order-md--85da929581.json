@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/contoso-coffee/service/service-basic-flow-order.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/contoso-coffee/service/service-basic-flow-order",
+  "title": "Walkthrough of service orders for service items",
+  "blob": "b18b63354125dee6617c54ef837358a1834ab59a",
+  "summary": "Walkthrough of service orders for service items demonstrates creating service orders, managing loaner items, registering repair work, and posting service invoices in the Contoso Coffee scenario.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "service orders",
+    "service repair",
+    "loaner items",
+    "service invoicing",
+    "troubleshooting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Orders"
+    },
+    {
+      "type": "page",
+      "name": "Service Tasks"
+    },
+    {
+      "type": "page",
+      "name": "Loaners"
+    },
+    {
+      "type": "page",
+      "name": "Posted Service Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Service Document Log"
+    }
+  ],
+  "features": [
+    "Service order creation",
+    "Loaner item management",
+    "Item worksheet",
+    "Repair status tracking",
+    "Service invoicing",
+    "Service ledger entries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004041,
+      "pages_in_call": 8
+    }
+  ]
+}

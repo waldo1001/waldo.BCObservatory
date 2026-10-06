@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish-sl",
   "published_at": "2025-02-08T02:55:35.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d82eb8f9fb1f8cacf4fcac4e7d70cf104b889264",
       "words": 346,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:43:43.700Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.004041
+    },
+    "summarized": {
+      "at": "2026-10-06T19:43:43.718Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:43:43.718Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:43:43.719Z",
+      "page": false
     }
   },
   "input_hash": "d82eb8f9fb1f8cacf4fcac4e7d70cf104b889264",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d82eb8f9fb1f8cacf4fcac4e7d70cf104b889264"
+  "output_hash": "16870fad22ff965a959a5bc5c6be481844e3f4c72a8a07566d2a71c6677978f4"
 }

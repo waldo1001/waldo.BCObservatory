@@ -1,0 +1,27 @@
+{
+  "video_id": "gHcgL469x_E",
+  "item_id": "video/yt-microsoft/gHcgL469x_E",
+  "summary": "Consolidation improvements in Business Central 2024 release wave 1: a consolidation status list, exchange rate lookup and editing during a run, validation against re-consolidating a period, and reuse of rates from earlier runs to recover from mistakes and revalue balance sheet items.",
+  "overview": "The video demonstrates changes to consolidation in Financial Management for 2024 release wave 1. It starts with the consolidation status list, which shows earlier consolidation runs, then goes through setting up currency exchange rates and running a consolidation across companies.\n\nIt then covers a recovery scenario. Balance sheet items need the previous period's balance revalued, so users can look up the last closing rate and select exchange rates from previous consolidation runs, all of them or only some. The presenter says a few more improvements are planned over the next one or two releases.",
+  "key_points": [
+    "A consolidation status list shows the history of consolidation runs, including which periods and companies were consolidated and any errors.",
+    "Exchange rates can be looked up and modified while a consolidation is being run.",
+    "Validation stops users from starting a consolidation for a period that has already been consolidated.",
+    "Balance sheet consolidation requires revaluing the balance from the previous period; the last closing rate can be looked up from earlier runs to support this.",
+    "When recovering from mistakes, users can select exchange rates from a previous consolidation run and reuse all or some of them. Only rates actually used in that period are shown, and you need to know which run to pick.",
+    "Closing currency factor applies to balance sheet items and average currency factor to income statement items. The last closing factor is set automatically by the last run.",
+    "The presenter says more improvements will come over the next one or two releases."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "9fc3f95afb7820870966e5d0fefdc960976fa0a3dd8b52eae4910b7da9f332c1",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013668399999999999
+  }
+}
