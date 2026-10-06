@@ -1,0 +1,28 @@
+{
+  "video_id": "XhO4oFmoh1M",
+  "item_id": "video/yt-microsoft/XhO4oFmoh1M",
+  "summary": "Sales Order Agent in Business Central (2025 release wave 1): setup with a shared mailbox, processing customer emails into sales quotes, item search and availability checks, safety filtering, KPIs, and admin control through permission sets and profiles.",
+  "overview": "The video introduces the Sales Order Agent, an AI agent that monitors a mailbox, reads customer emails, searches items, checks availability and pre-creates sales quotes in Business Central. It walks through activation and mailbox configuration, the agent task pane, and a customer-side email conversation in natural language.\n\nIt also covers filtering of irrelevant or harmful emails, the KPI dashboard, and the technical design. The agent works through the Business Central user interface, and administrators control it with permission sets and profiles.",
+  "key_points": [
+    "The agent only works with registered contacts and customers in Business Central. For an unknown sender, it prompts the user to create and register the contact before continuing.",
+    "Activation needs a Microsoft 365 shared mailbox for the agent to monitor. Configuration options are currently minimal, and users must be added to the agent to interact with it.",
+    "Item search covers the item table, extended texts, translations, item attributes and item categories. It is limited to items and attributes already configured.",
+    "The agent uses the Item Availability page with filters for item, date, customer, location and quantity. It pre-creates a sales quote, and a human reviews and confirms it before it goes to the customer.",
+    "Promotional emails get a relevance warning that the user can override. Harmful messages are blocked and not shown for processing.",
+    "Permission sets come pre-built by Microsoft and can be tightened or loosened. The agent must be disabled before permissions can be changed.",
+    "Profiles set which controls, fields and actions the agent sees. Custom fields and actions must be added to the agent profile for the agent to use them."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker",
+    "developer"
+  ],
+  "extraction_hash": "402652611b961ae4214b8c627ecee162ec8c2e3fea84903736bf7f6f68bbf1c4",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0215604
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-post-sales.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-post-sales",
+  "title": "Posting sales documents",
+  "blob": "e9a6880fa5267ae232e1b06b8df8ceaa27b5313b",
+  "summary": "Details the posting process for sales documents including shipments and invoices, and explains ledger entry creation. Use this when finalizing sales transactions and managing posted documents.",
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "sales posting",
+    "ledger entries",
+    "shipments",
+    "invoices",
+    "batch posting"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "Cust. Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Sales Shipment Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Header"
+    },
+    {
+      "type": "page",
+      "name": "Cust. Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "G/L Entries"
+    },
+    {
+      "type": "page",
+      "name": "Item Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Shipments"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Posted Return Receipt"
+    },
+    {
+      "type": "page",
+      "name": "Posted Return Receipts"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Shipment"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    }
+  ],
+  "features": [
+    "post action",
+    "post and new",
+    "post and send",
+    "preview posting",
+    "post batch",
+    "test report",
+    "ledger entry editing",
+    "email sending",
+    "posted document management",
+    "attachment storage"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004703,
+      "pages_in_call": 8
+    }
+  ]
+}

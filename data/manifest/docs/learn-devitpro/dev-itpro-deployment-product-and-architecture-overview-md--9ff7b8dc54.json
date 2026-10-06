@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/product-and-architecture-overview",
   "published_at": "2026-03-23T13:20:42.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "87c97febaa42c2c2c512bdd3aaebfff6f77104bf",
       "words": 667,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:56.206Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00627
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:58.026Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:58.026Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:58.027Z",
+      "page": false
     }
   },
   "input_hash": "87c97febaa42c2c2c512bdd3aaebfff6f77104bf",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "87c97febaa42c2c2c512bdd3aaebfff6f77104bf"
+  "output_hash": "c17f62775c91c23ac747bc81e3135acb894f5ddcfc1a1520905168b2c3b539bc"
 }

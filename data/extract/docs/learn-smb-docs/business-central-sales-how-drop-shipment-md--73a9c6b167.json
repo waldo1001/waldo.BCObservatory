@@ -1,0 +1,64 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-how-drop-shipment.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-drop-shipment",
+  "title": "Make drop shipments",
+  "blob": "41d411c65e97dc81488a912186d91aba73c2791b",
+  "summary": "Explains how to set up and process drop shipments where vendors ship directly to customers from sales orders. Use this for direct vendor-to-customer delivery workflows.",
+  "systems": [
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "drop shipments",
+    "direct shipment",
+    "vendor orders",
+    "sales orders",
+    "purchase orders"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Order"
+    },
+    {
+      "type": "page",
+      "name": "Create Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "Sales List"
+    },
+    {
+      "type": "page",
+      "name": "Requisition Worksheets"
+    },
+    {
+      "type": "page",
+      "name": "Planning Worksheets"
+    },
+    {
+      "type": "page",
+      "name": "Order Planning"
+    }
+  ],
+  "features": [
+    "drop shipment sales orders",
+    "drop shipment purchase orders",
+    "vendor selection",
+    "purchase order creation",
+    "order planning integration",
+    "posted drop shipment reversal",
+    "shipment posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004703,
+      "pages_in_call": 8
+    }
+  ]
+}

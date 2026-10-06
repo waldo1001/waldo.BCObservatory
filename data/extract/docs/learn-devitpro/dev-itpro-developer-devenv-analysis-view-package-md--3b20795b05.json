@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-analysis-view-package.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-analysis-view-package",
+  "title": "Export and package analysis views",
+  "blob": "d690705d6cc85912a9cf83c6449e0316aa252bfd",
+  "summary": "Shows how to export analysis view definitions from the client and package them in AL extensions for distribution. Use this to create custom data analysis layouts and include them in apps.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "analysis views",
+    "extensions",
+    "al development",
+    "data layout",
+    "json export"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "page"
+    },
+    {
+      "type": "page",
+      "name": "pageextension"
+    },
+    {
+      "type": "page",
+      "name": "pagecustomization"
+    }
+  ],
+  "features": [
+    "analysis mode",
+    "view export",
+    "json definition",
+    "analysisviews construct",
+    "DefinitionFile property",
+    "locked analysis views",
+    "page customizations for profiles"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004703,
+      "pages_in_call": 8
+    }
+  ]
+}

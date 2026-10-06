@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-accounts-in-the-general-ledger",
   "published_at": "2026-03-27T12:07:59.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3758d16e48e0b51174c31e395cdf616dd1796816",
       "words": 976,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:56.201Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.00627
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:58.009Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:58.010Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:58.010Z",
+      "page": false
     }
   },
   "input_hash": "3758d16e48e0b51174c31e395cdf616dd1796816",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3758d16e48e0b51174c31e395cdf616dd1796816"
+  "output_hash": "7ec3aaa3cf1d69d52ce6161ef3c9cb373051a7a052e12f38057a2206b5810513"
 }

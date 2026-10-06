@@ -1,0 +1,203 @@
+{
+  "video_id": "MaMwHvimNTY",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.6,
+      "end": 16.9,
+      "text": "Welcome to Business Central launch event 2025 release day one. In this session, we will show you new functionality related to sustainability, water and waste management."
+    },
+    {
+      "t": 16.9,
+      "end": 29.4,
+      "text": "Okay, let's remind you what was our primary focus in first two waves. It was related to emissions and specifically to these three different emissions carbon, metan oxide."
+    },
+    {
+      "t": 29.4,
+      "end": 42.2,
+      "text": "And we added in previous wave carbo equivalent as a new model for expression different uh calculations. But now with this wave we extend the functionality to water and waste management."
+    },
+    {
+      "t": 42.2,
+      "end": 52.9,
+      "text": "We did it before because it was required by CSRD and some other rules. So we want to cover all requirements related to uh environmental reporting."
+    },
+    {
+      "t": 52.9,
+      "end": 70.3,
+      "text": "So from this way you can use water and waste management as well. Okay, let's see what we have there. First, when you set up your account, your new uh account for water, you can go to sustainability category and choose what you want to track,"
+    },
+    {
+      "t": 70.3,
+      "end": 90.4,
+      "text": "water intensity or discharge into water. So, you can set up for one category both of them or only one or another. Now based on what you set it up on uh your category you need to make some you need you can make additional configuration your subcategory to use different formulas."
+    },
+    {
+      "t": 90.4,
+      "end": 105.8,
+      "text": "So if you're using water intensity in category you can set up water intensity factor. This is similar as you had emission factors for different gas emissions. And if you want to track discharge into water you can set up discharge into water factor."
+    },
+    {
+      "t": 105.8,
+      "end": 119.2,
+      "text": "So you can use custom formulas with these two different factors. Okay. What else we have related to water? Related with water, we have new option related to responsibility centers."
+    },
+    {
+      "t": 119.2,
+      "end": 134.6,
+      "text": "So we extend a little bit responsibility centers as we can treat responsibility centers as facility. This is not mandatory. So you can post uh all uh records related to water without setting up uh responsibility center."
+    },
+    {
+      "t": 134.6,
+      "end": 149.6,
+      "text": "But in some requirements you need to report u what you discharge what your water intensity was uh related and comparing with your total capacity in your facility."
+    },
+    {
+      "t": 149.6,
+      "end": 164.2,
+      "text": "So if you want to report this way you need to set up responsibility center. What you can do there you can find the sustainability fast tab water capacity dimension and this is free textual uh field."
+    },
+    {
+      "t": 164.2,
+      "end": 175.2,
+      "text": "You can enter volume area depends what is uh your capacity dimension you want to use and then based on this you need to configure capacity unit and capacity quantity."
+    },
+    {
+      "t": 175.2,
+      "end": 190.3,
+      "text": "In capacity unit you need to use standard unit of measure and then in uh capacity quantity you need to put what is your total capacity related to this facility or in our case responsibility center business center."
+    },
+    {
+      "t": 190.3,
+      "end": 203.2,
+      "text": "Okay. Now let's switch to waste management. In a v scope you can use again category and in you need to choose water way scope because this is common scope."
+    },
+    {
+      "t": 203.2,
+      "end": 216.5,
+      "text": "You have three different uh scope one, scope two, scope three, autoscope emissions and plus now we have water and waste scope. You need to choose this one and then you can uh enable waste intensity."
+    },
+    {
+      "t": 216.5,
+      "end": 227.4,
+      "text": "If you enable waste intensity your category in subcategory you can enter your waste intensity factor. If you want to track if you have factors and choose custom formula."
+    },
+    {
+      "t": 227.4,
+      "end": 237.8,
+      "text": "So if you do not have factors both for waste and water you can enter your total uh intensity in your journal and that's absolutely okay. But this is additional option."
+    },
+    {
+      "t": 237.8,
+      "end": 249.8,
+      "text": "So you can use embedded formula in the journal. Now let's see some additional things related to uh water and waste uh features when you want to post into journal."
+    },
+    {
+      "t": 249.8,
+      "end": 266.7,
+      "text": "So you will enter your uh amounts but you need to choose your waterbased intensity type. So if you are posting water you can choose withdrawn, discharge, consume, recycled and if you want to uh post waste you can choose between generated,"
+    },
+    {
+      "t": 266.7,
+      "end": 278.6,
+      "text": "disposed, recovered. So you need you must choose one of these integrity types. So we will have record related to some of these types in your sustainability ledger entry."
+    },
+    {
+      "t": 278.6,
+      "end": 293.5,
+      "text": "Then further if you are choosing water except this water intensity type you need to choose water type and you can choose between surface water, sea water, groundwater, third party water, produce water."
+    },
+    {
+      "t": 293.5,
+      "end": 314,
+      "text": "What do I want to uh to emphasize both of these uh options are enums so you can extend if you have additional option to track okay let's look how it look like in a practice first I will open chart of sustainability account so business as usual you already use chart of sustainability account for your emissions"
+    },
+    {
+      "t": 314,
+      "end": 334.2,
+      "text": "now you have just new accounts for water and for waste as you can see on my screen now if you want to set up first as I already mentioned we will move to category and I will open water category for example and then you will see what you can or need to set up because this is not mandatory actually"
+    },
+    {
+      "t": 334.2,
+      "end": 353.5,
+      "text": "what is mandatory you need to choose uh as a emission scope water and waste and then you will choose if you want to track water intensity or discharge into water and you can choose custom formula on my screen I didn't choose formal so this is what I want to show you if you do not want to use formulas,"
+    },
+    {
+      "t": 353.5,
+      "end": 370.9,
+      "text": "you can leave this empty. If you want to use formulas, you need to choose custom formula. Only custom formula is related to both water and waste management. And you can add custom value uh actually unit of measure you want to track with your uh water and waste formulas."
+    },
+    {
+      "t": 370.9,
+      "end": 383.8,
+      "text": "Then that's it. Uh related to categories, you just need to set up what you want to track what you will enforce users to enter into journal line. And then we can look into subcategory."
+    },
+    {
+      "t": 383.8,
+      "end": 396.1,
+      "text": "And now when we open subcategory again as I said you can enter because what you can enter water and waste intensity factor and discharge into water factor."
+    },
+    {
+      "t": 396.1,
+      "end": 413.8,
+      "text": "So again this is an option this is not must. So if you have factors you can enter this factor and then you can use formulas. So if you didn't have any factor you can easily go into uh total uh total values and enter your total values you know you want to post."
+    },
+    {
+      "t": 413.8,
+      "end": 427.8,
+      "text": "So again this is an optional. Okay let's close and um let's switch to our journals. When you prepare your journal I have one example of different uh options related to water and based in this journal."
+    },
+    {
+      "t": 427.8,
+      "end": 438.5,
+      "text": "What do you need to have? You need to have values before posting in water minimum. Yeah, not in all of them. I I made this combination."
+    },
+    {
+      "t": 438.5,
+      "end": 452.2,
+      "text": "So depends if you are uh based on your category what you decided you want to track. So if you want to track only water intensity, you must have value in water intensity. If you decided to post discharge into water, you must have value there."
+    },
+    {
+      "t": 452.2,
+      "end": 472.4,
+      "text": "And the same if you decided to track waste, you need to have value into waste intensity. So you need to have these values and then what is done with the water and waste you need to choose I already mentioned water and waste intensity type again this is annual field so you can choose what you want to track there and if this is water"
+    },
+    {
+      "t": 472.4,
+      "end": 492.6,
+      "text": "related you need to add additional water type ground surface sea water and other types of water and that's it this is what you need to enter is a sustainability journal after that you just need to post this journal and that's it all these values will finish in your sustainability ledger entry the same way as you are doing with your emissions."
+    },
+    {
+      "t": 492.6,
+      "end": 512.8,
+      "text": "What is difference with emissions? You can track emissions with sustainability journal with general journal from this wave and purchase document but water and waste intensity you can track only through sustainability journal in this moment what I wanted to show you additional because you will have probably some forecast related to water and"
+    },
+    {
+      "t": 512.8,
+      "end": 525.8,
+      "text": "waste. So if you have sustainability goals, if you're using sustainability goals, now we added sustainability goals, water and waste um intensity as a targets as as a baseline."
+    },
+    {
+      "t": 525.8,
+      "end": 538.1,
+      "text": "So you can track against baseline and you can track against um uh targets. Targets are free values. So this is just your forecast. Baseline is uh based on your previous period you want to track."
+    },
+    {
+      "t": 538.1,
+      "end": 558.1,
+      "text": "So everything is absolutely the same as we had uh for emissions in uh scorecards and goals only two additional options there. So thank you for watching this session and I will invite you to watch another sustainability related sessions because for this wave we have eight different session related to"
+    },
+    {
+      "t": 558.1,
+      "end": 562,
+      "text": "sustainability. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1473
+}

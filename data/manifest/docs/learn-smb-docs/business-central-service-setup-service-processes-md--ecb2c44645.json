@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-setup-service-processes",
   "published_at": "2026-03-27T15:31:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "937409902f5bd98910de21ba3a94862bca50ab32",
       "words": 799,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:51.907Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.004703
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:57.992Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:57.993Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:57.994Z",
+      "page": false
     }
   },
   "input_hash": "937409902f5bd98910de21ba3a94862bca50ab32",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "937409902f5bd98910de21ba3a94862bca50ab32"
+  "output_hash": "f702d300d0e0754615e395cf881085fc9121d94862e5be1d7023123930e9a5b2"
 }

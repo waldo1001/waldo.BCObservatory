@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-accounts-in-the-general-ledger.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-accounts-in-the-general-ledger",
+  "title": "Design details accounts in the general ledger",
+  "blob": "3758d16e48e0b51174c31e395cdf616dd1796816",
+  "summary": "Design details for general ledger accounts explain how inventory and capacity ledger entries reconcile with GL accounts, including posting setups for purchases, sales, production, and assembly operations with specific variance and cost tracking.",
+  "systems": [
+    "finance",
+    "inventory",
+    "manufacturing"
+  ],
+  "topics": [
+    "general ledger",
+    "accounts",
+    "posting",
+    "inventory costing",
+    "reconciliation",
+    "variances",
+    "capacity ledger"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Posting Setup"
+    }
+  ],
+  "features": [
+    "value entry posting",
+    "interim accounts",
+    "variance accounts",
+    "cost posting",
+    "work in process",
+    "assembly costs",
+    "capacity ledger entries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00627,
+      "pages_in_call": 8
+    }
+  ]
+}

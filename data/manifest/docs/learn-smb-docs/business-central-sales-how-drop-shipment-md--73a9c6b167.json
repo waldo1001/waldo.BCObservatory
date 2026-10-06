@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-drop-shipment",
   "published_at": "2026-03-27T12:54:31.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "41d411c65e97dc81488a912186d91aba73c2791b",
       "words": 906,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:51.913Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.004703
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:58.006Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:58.007Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:58.008Z",
+      "page": false
     }
   },
   "input_hash": "41d411c65e97dc81488a912186d91aba73c2791b",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "41d411c65e97dc81488a912186d91aba73c2791b"
+  "output_hash": "97b592adfe73e491bde2acafd8385f87b0044861677b60bb6dd4d87ec089c0b2"
 }

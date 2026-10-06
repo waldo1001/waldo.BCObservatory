@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-how-make-offers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-how-make-offers",
+  "title": "Make sales quotes",
+  "blob": "3ae0aa12565959476cb1b9f42bb8dea43d989101",
+  "summary": "Explains how to create and manage sales quotes, including converting them to sales orders or invoices. Use this when making offers to customers and prospects.",
+  "systems": [
+    "sales"
+  ],
+  "topics": [
+    "sales quotes",
+    "offers",
+    "sales orders",
+    "contact management",
+    "discounts"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Quotes"
+    }
+  ],
+  "features": [
+    "quote creation",
+    "quote to order conversion",
+    "quote to invoice conversion",
+    "contact quotes",
+    "customer templates",
+    "email sending",
+    "invoice discounts",
+    "quote validity calculation",
+    "sales order agent"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004703,
+      "pages_in_call": 8
+    }
+  ]
+}

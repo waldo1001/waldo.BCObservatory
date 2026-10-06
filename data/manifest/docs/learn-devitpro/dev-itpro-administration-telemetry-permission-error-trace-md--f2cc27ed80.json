@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-error-trace",
   "published_at": "2026-03-25T12:36:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a66c7da4f5f70839b98e59a8f92703268c61b252",
       "words": 369,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:56.204Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00627
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:58.017Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:58.018Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:58.019Z",
+      "page": false
     }
   },
   "input_hash": "a66c7da4f5f70839b98e59a8f92703268c61b252",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a66c7da4f5f70839b98e59a8f92703268c61b252"
+  "output_hash": "c840591ed7f3eacd1c2e747aed9bae090432fb2a3a60b77915ff1797739ee529"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/install-using-setup",
   "published_at": "2026-03-25T07:58:06.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7a4209e4aedb824a48d78034637d96e9c4dfabe9",
       "words": 1555,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:56.205Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00627
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:58.020Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:58.021Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:58.022Z",
+      "page": false
     }
   },
   "input_hash": "7a4209e4aedb824a48d78034637d96e9c4dfabe9",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7a4209e4aedb824a48d78034637d96e9c4dfabe9"
+  "output_hash": "8a28f762593e6eaeab21396b4a663ed9be297f1f705acf0a19193ef7c84ccb05"
 }

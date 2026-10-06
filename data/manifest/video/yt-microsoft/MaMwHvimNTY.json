@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Water and Waste Management (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=MaMwHvimNTY",
-  "published_at": null,
+  "published_at": "2025-04-01T15:00:35.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:43:41.686Z",
+      "captions": "auto:en-orig",
+      "duration_s": 562
+    },
+    "captioned": {
+      "at": "2026-10-06T18:43:47.263Z",
+      "path": "data/captions/microsoft/MaMwHvimNTY.vtt",
+      "vtt_sha256": "e9ff92cbd2b398ea7867e2fce19ab1b697221c6d2b230bd765ea77f73895d38c",
+      "segments": 38,
+      "words": 1473,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 254,
-    "duration_s": 563,
-    "via": "reconcile"
-  }
+    "duration_s": 562,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e9ff92cbd2b398ea7867e2fce19ab1b697221c6d2b230bd765ea77f73895d38c"
 }

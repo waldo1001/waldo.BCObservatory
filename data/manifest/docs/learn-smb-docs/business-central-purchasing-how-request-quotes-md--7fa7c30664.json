@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-request-quotes",
   "published_at": "2026-03-27T13:55:43.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "55922400175858498b17cebfe5fc5f66664e5256",
       "words": 396,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:51.909Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004703
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:57.997Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:57.997Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:57.998Z",
+      "page": false
     }
   },
   "input_hash": "55922400175858498b17cebfe5fc5f66664e5256",
@@ -58,5 +77,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "55922400175858498b17cebfe5fc5f66664e5256"
+  "output_hash": "131e643cbab04b9d12cf3798fd5b7874f74f09baac329117a7ffde042811995c"
 }

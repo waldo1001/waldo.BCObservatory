@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-post-sales",
   "published_at": "2026-03-27T13:33:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e9a6880fa5267ae232e1b06b8df8ceaa27b5313b",
       "words": 643,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:51.912Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 14,
+      "cost_usd": 0.004703
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:58.003Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:58.004Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:58.004Z",
+      "page": false
     }
   },
   "input_hash": "e9a6880fa5267ae232e1b06b8df8ceaa27b5313b",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e9a6880fa5267ae232e1b06b8df8ceaa27b5313b"
+  "output_hash": "e5a2401c5cb37adb7ab94e8e1df428fc16f8bdad1140842496ed0679cfc4a016"
 }

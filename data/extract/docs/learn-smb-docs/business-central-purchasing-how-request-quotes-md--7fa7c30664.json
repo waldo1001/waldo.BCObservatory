@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchasing-how-request-quotes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-request-quotes",
+  "title": "Create a purchase quote to request an offer",
+  "blob": "55922400175858498b17cebfe5fc5f66664e5256",
+  "summary": "Describes the process for creating purchase quotes and converting them to purchase orders. Use this when requesting vendor offers and managing preliminary purchase agreements.",
+  "systems": [
+    "purchasing"
+  ],
+  "topics": [
+    "purchase quotes",
+    "vendor offers",
+    "purchase orders",
+    "contact management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Quotes"
+    }
+  ],
+  "features": [
+    "quote to order conversion",
+    "vendor templates",
+    "automatic vendor creation",
+    "quote management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004703,
+      "pages_in_call": 8
+    }
+  ]
+}

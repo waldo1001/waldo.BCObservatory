@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-analysis-view-package",
   "published_at": "2026-03-27T14:08:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d690705d6cc85912a9cf83c6449e0316aa252bfd",
       "words": 739,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:51.908Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.004703
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:57.994Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:57.995Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:57.996Z",
+      "page": false
     }
   },
   "input_hash": "d690705d6cc85912a9cf83c6449e0316aa252bfd",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d690705d6cc85912a9cf83c6449e0316aa252bfd"
+  "output_hash": "fb20f93e45d28df69d013f5a9d2764b4d85c9c8d795239f67970cd19fc665eaf"
 }

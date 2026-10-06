@@ -1,0 +1,88 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-how-to-create-service-orders.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-create-service-orders",
+  "title": "How to create service orders",
+  "blob": "9b8d1245eadbdd1d62641fdd85fdecc0fbce50ac",
+  "summary": "Describes how to create, manage, and post service orders including converting contracts and quotes to orders. Use this when setting up service workflows and managing customer service requests.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "service orders",
+    "service items",
+    "quotes",
+    "contracts",
+    "posting",
+    "customer service"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Order"
+    },
+    {
+      "type": "page",
+      "name": "Service Management Setup"
+    },
+    {
+      "type": "page",
+      "name": "Create Contract Service Orders"
+    },
+    {
+      "type": "page",
+      "name": "Service Contract Quotes"
+    },
+    {
+      "type": "page",
+      "name": "Dispatch Board"
+    },
+    {
+      "type": "page",
+      "name": "Demand Overview"
+    },
+    {
+      "type": "page",
+      "name": "Service Lines"
+    },
+    {
+      "type": "page",
+      "name": "Reservation"
+    },
+    {
+      "type": "page",
+      "name": "Standard Serv. Item Gr. Codes"
+    },
+    {
+      "type": "page",
+      "name": "Posted Service Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Posted Service Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Delete Invoiced Service Orders"
+    }
+  ],
+  "features": [
+    "standard service codes",
+    "item availability checking",
+    "item reservation",
+    "service quotes conversion",
+    "contract service orders",
+    "service line comments",
+    "invoiced orders deletion"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004703,
+      "pages_in_call": 8
+    }
+  ]
+}

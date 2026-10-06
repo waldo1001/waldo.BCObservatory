@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-error-method-trace",
   "published_at": "2026-03-25T12:36:57.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "98802b8ce52de5ae6753f7c959a20475cfe48b4f",
       "words": 518,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:56.203Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00627
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:58.014Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:58.015Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:58.015Z",
+      "page": false
     }
   },
   "input_hash": "98802b8ce52de5ae6753f7c959a20475cfe48b4f",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "98802b8ce52de5ae6753f7c959a20475cfe48b4f"
+  "output_hash": "fe3b2a331713b480b31dcc73d9718ebbb0ae30b706e1977d43b4d1ae1a1ccb01"
 }

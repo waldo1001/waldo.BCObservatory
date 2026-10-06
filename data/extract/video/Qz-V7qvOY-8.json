@@ -1,0 +1,393 @@
+{
+  "video_id": "Qz-V7qvOY-8",
+  "item_id": "video/yt-microsoft/Qz-V7qvOY-8",
+  "title": "What's New: Enhancements in E-Documents (2025 release wave 1)",
+  "duration_s": 825,
+  "systems": [
+    "localization",
+    "integration",
+    "purchasing"
+  ],
+  "topics": [
+    "e-documents",
+    "azure document intelligence",
+    "pdf processing",
+    "ocr",
+    "two-step processing",
+    "duplicate detection",
+    "automated attachments",
+    "deletion functionality",
+    "e-document services"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and E-Documents Journey Overview",
+      "t_start": 0,
+      "t_end": 107.6
+    },
+    {
+      "title": "New Features in 2025 Wave 1 Overview",
+      "t_start": 107.6,
+      "t_end": 249
+    },
+    {
+      "title": "Azure Document Intelligence and PDF Processing",
+      "t_start": 249,
+      "t_end": 410.6
+    },
+    {
+      "title": "Two-Step Processing Demo Introduction",
+      "t_start": 410.6,
+      "t_end": 485.2
+    },
+    {
+      "title": "Demo: Deleting E-Documents and Two-Step Processing",
+      "t_start": 485.2,
+      "t_end": 605
+    },
+    {
+      "title": "Demo: Document Deletion Use Case",
+      "t_start": 605,
+      "t_end": 666.2
+    },
+    {
+      "title": "Demo: Embedding PDF in XML Export",
+      "t_start": 666.2,
+      "t_end": 780.5
+    },
+    {
+      "title": "Closing and Call to Action",
+      "t_start": 780.5,
+      "t_end": 825
+    }
+  ],
+  "features": [
+    {
+      "name": "Delete incorrect E-documents",
+      "description": "Users can now delete incorrect e-documents to avoid duplicates. The system can automatically recognize and remove duplicate documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 128.1,
+      "t_end": 148.4,
+      "is_demoed": true,
+      "caveats": [
+        "Deleted documents may not be retrievable if coming from external service"
+      ],
+      "tags": [
+        "deletion",
+        "duplicate prevention",
+        "data quality"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Send E-documents via service and email simultaneously",
+      "description": "Users can now send e-documents through a service connector and also via email to specific persons in parallel.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 148.4,
+      "t_end": 168.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "document delivery",
+        "communication",
+        "multi-channel"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Multiple incoming document attachments",
+      "description": "Multiple incoming documents can now be attached at once, rather than one by one. Users can set and attach 5, 6, 10 or more documents automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 168.4,
+      "t_end": 188.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "attachments",
+        "bulk processing",
+        "efficiency"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Automated PDF attachments in E-documents",
+      "description": "When sending sales invoices, the system automatically attaches the invoice PDF to the e-document. When receiving, PDFs are automatically extracted and displayed in the fact box.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 188.6,
+      "t_end": 208.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pdf",
+        "attachments",
+        "automation"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Two-step processing of e-documents",
+      "description": "Users can preview incoming electronic invoices before the system creates a purchase invoice, allowing for review and validation before processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 208.8,
+      "t_end": 230,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "processing",
+        "preview",
+        "workflow"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Preview incoming e-documents",
+      "description": "Users can inspect preview lines and extracted data of incoming electronic invoices before creating purchase invoices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 535.8,
+      "t_end": 555.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "preview",
+        "inspection",
+        "validation"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Extract PDF from e-documents",
+      "description": "When receiving e-documents, the system automatically extracts PDF files from payloads and displays them in the fact box of the electronic document.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 188.6,
+      "t_end": 208.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pdf extraction",
+        "automation",
+        "document handling"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Export reminders and Finance chart",
+      "description": "New functionality to export reminders and Finance chart information related to e-documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 208.8,
+      "t_end": 229,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "export",
+        "reminders",
+        "finance"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Fix unposted purchase documents",
+      "description": "Users can recreate purchase invoices and credit memos that were accidentally deleted but still have associated electronic invoices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 208.8,
+      "t_end": 229,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "recovery",
+        "document recreation",
+        "error handling"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Azure Document Intelligence for PDF processing",
+      "description": "OCR service embedded in Business Central that processes PDF invoices into machine-readable format. Allows businesses to handle both electronic and PDF invoices with the same user experience.",
+      "status": "preview",
+      "status_evidence_t": 350.5,
+      "status_evidence_quote": "this is still work in progress we have this in the preview uh but this is something what will come very soon",
+      "status_evidence_verified": true,
+      "t_start": 249,
+      "t_end": 390.6,
+      "is_demoed": false,
+      "caveats": [
+        "Work in progress",
+        "Separate session will provide more details"
+      ],
+      "tags": [
+        "ocr",
+        "pdf",
+        "azure",
+        "document intelligence",
+        "ai"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Embed PDF in e-document XML export",
+      "description": "When sending e-documents, the system can embed the invoice PDF inside the XML. Receivers using Business Central will see the printed version in the fact box.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 666.2,
+      "t_end": 780.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pdf embedding",
+        "xml export",
+        "document distribution"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Duplicate document automatic removal",
+      "description": "System automatically recognizes and removes duplicate e-documents when the same type is entered multiple times.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 128.1,
+      "t_end": 148.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "duplicate detection",
+        "automation",
+        "data quality"
+      ],
+      "system": "localization"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "E Document Services",
+      "t": 431.3
+    },
+    {
+      "type": "page",
+      "name": "E-documents list page",
+      "t": 464.9
+    },
+    {
+      "type": "page",
+      "name": "Pagero connector",
+      "t": 686.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Magnus",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 26.6,
+      "text": "we start with this project just two years ago only two years ago and when say two years we didn't deliver first release our",
+      "why_it_matters": "Establishes the timeline and maturity of the e-documents solution, showing rapid development from a two-year-old project",
+      "check": "exact"
+    },
+    {
+      "t": 87.4,
+      "text": "you can expect much more to come in next miners we are expecting new eents apis some new document types so we are Contin",
+      "why_it_matters": "Signals future roadmap with new APIs and document types coming, indicating continued investment in the e-documents platform",
+      "check": "exact"
+    },
+    {
+      "t": 128.1,
+      "text": "more than 50% are based on your feedback so this is important every time when you have feedback tell us and we will try",
+      "why_it_matters": "Over 50% of new features are customer-driven, demonstrating customer-centric product development approach",
+      "check": "exact"
+    },
+    {
+      "t": 310.2,
+      "text": "this is OCR service our Asia OCR service now embedded in a busy Central",
+      "why_it_matters": "Announces the integration of Azure OCR service directly into Business Central for PDF document processing",
+      "check": "exact"
+    },
+    {
+      "t": 350.5,
+      "text": "this is still work in progress we have this in the preview uh but this is something what will come very soon",
+      "why_it_matters": "Clarifies that Azure Document Intelligence PDF processing is still in preview but coming soon",
+      "check": "exact"
+    },
+    {
+      "t": 370.6,
+      "text": "this is the main message you will have the same user experience and all features already existing for electronic invoicing",
+      "why_it_matters": "Emphasizes unified user experience across both electronic and PDF invoices with feature parity",
+      "check": "fuzzy"
+    },
+    {
+      "t": 444.7,
+      "text": "with feedback from the community from our users and our partners there was a request to actually being able to review uh the document",
+      "why_it_matters": "Demonstrates how customer feedback drove the implementation of two-step processing workflow",
+      "check": "exact"
+    },
+    {
+      "t": 801.2,
+      "text": "in this release in this busy cental launch event we will have six different sessions related to electronic uh documents",
+      "why_it_matters": "Indicates the scale of e-documents enhancements with six dedicated sessions across the launch event",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 350.5,
+      "kind": "preview",
+      "text": "this is still work in progress we have this in the preview"
+    },
+    {
+      "t": 410.6,
+      "kind": "coming-later",
+      "text": "some of these features will be available in April some of them will be available in May or June"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 11
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029655
+    }
+  ]
+}

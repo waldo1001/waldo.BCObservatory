@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-setup-service-processes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-setup-service-processes",
+  "title": "Set up service management processes",
+  "blob": "937409902f5bd98910de21ba3a94862bca50ab32",
+  "summary": "Explains how to configure service management setup including mandatory fields, response times, warranties, contracts, and posting policies. Use this to establish service processes and user permissions.",
+  "systems": [
+    "service",
+    "administration"
+  ],
+  "topics": [
+    "service setup",
+    "configuration",
+    "posting policies",
+    "document routing",
+    "mandatory fields"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Management Setup"
+    },
+    {
+      "type": "page",
+      "name": "User Setup"
+    },
+    {
+      "type": "page",
+      "name": "Document Layouts"
+    },
+    {
+      "type": "page",
+      "name": "Report Selection"
+    }
+  ],
+  "features": [
+    "service invoice posting policies",
+    "mandatory fields configuration",
+    "document routing by contact",
+    "one service item per order restriction",
+    "response time defaults",
+    "warranty settings",
+    "contract settings"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004703,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/api-reference/v2.0/transition-to-api-v2.0.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/transition-to-api-v2.0",
+  "title": "Transitioning from API v1.0 to API v2.0",
+  "blob": "5038dd0b1633013fda5b2cb1d3d87249f0987052",
+  "summary": "Transitioning from API v1.0 to API v2.0 involves changes to schema versioning, key fields (all now use GUID SystemId), nested objects (converted to first-level or navigation properties), relationship multiplicities, and enum types for better API performance and integration capabilities.",
+  "systems": [
+    "integration"
+  ],
+  "topics": [
+    "api",
+    "v2.0",
+    "migration",
+    "odata",
+    "schema",
+    "keys",
+    "enums",
+    "navigation properties"
+  ],
+  "objects": [],
+  "features": [
+    "schema version 2.0",
+    "SystemId primary keys",
+    "nested object replacement",
+    "first-level properties",
+    "navigation properties",
+    "multiplicity ZeroOrOne",
+    "enum strongly typing"
+  ],
+  "versions": [
+    "API v2.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00627,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-to-create-service-orders",
   "published_at": "2026-03-27T15:31:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9b8d1245eadbdd1d62641fdd85fdecc0fbce50ac",
       "words": 1222,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:51.906Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 12,
+      "cost_usd": 0.004703
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:57.990Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:57.991Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:57.991Z",
+      "page": false
     }
   },
   "input_hash": "9b8d1245eadbdd1d62641fdd85fdecc0fbce50ac",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9b8d1245eadbdd1d62641fdd85fdecc0fbce50ac"
+  "output_hash": "6ccedf5cb5253b2bc2272e291c277eada23e33535fc9d6480ebd24a9bb2052e9"
 }

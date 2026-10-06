@@ -1,0 +1,230 @@
+{
+  "video_id": "RdYLc7ebNJ8",
+  "item_id": "video/yt-microsoft/RdYLc7ebNJ8",
+  "title": "What’s New: Financial Reporting (for Report Users) (2025 release wave 1)",
+  "duration_s": 484,
+  "systems": [
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "financial reporting",
+    "user interface",
+    "negative number formatting",
+    "pdf export",
+    "portrait mode",
+    "excel layouts",
+    "display title",
+    "internal description"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to financial reporting updates",
+      "t_start": 0,
+      "t_end": 30.2
+    },
+    {
+      "title": "Slimmer user interface and internal descriptions",
+      "t_start": 30.2,
+      "t_end": 74.6
+    },
+    {
+      "title": "Display title and report layout improvements",
+      "t_start": 74.6,
+      "t_end": 134.3
+    },
+    {
+      "title": "Negative number formatting options",
+      "t_start": 134.3,
+      "t_end": 173.6
+    },
+    {
+      "title": "Portrait mode for PDF export",
+      "t_start": 173.6,
+      "t_end": 209.8
+    },
+    {
+      "title": "Excel layouts feature",
+      "t_start": 209.8,
+      "t_end": 484
+    }
+  ],
+  "features": [
+    {
+      "name": "Internal description for audit purposes",
+      "description": "Financial reports now display an internal description field separate from the display title, used for audit purposes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 45.4,
+      "t_end": 58.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "audit",
+        "report metadata"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Slimmer user interface",
+      "description": "The financial reporting interface has been streamlined with a more compact title display and improved screen space utilization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 74.6,
+      "t_end": 116,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "layout"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Negative amount format option",
+      "description": "Users can now choose accounting format for displaying negative numbers using parentheses instead of minus signs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 145.5,
+      "t_end": 173.6,
+      "is_demoed": true,
+      "caveats": [
+        "applies to view, export, and PDF output"
+      ],
+      "tags": [
+        "formatting",
+        "negative numbers",
+        "accounting"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Portrait mode for PDF export",
+      "description": "PDF exports of financial reports can now be generated in portrait mode in addition to the traditional landscape mode.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 187.9,
+      "t_end": 209.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pdf",
+        "export",
+        "layout"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel layouts",
+      "description": "Users can now create and manage custom Excel layouts for financial reports, allowing templates to be saved and reused. Layouts can be set as default for direct export without re-uploading.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 220.2,
+      "t_end": 476.2,
+      "is_demoed": true,
+      "caveats": [
+        "requires manual Excel formatting",
+        "data tab must be hidden separately"
+      ],
+      "tags": [
+        "excel",
+        "export",
+        "templates",
+        "layouts"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Default Excel layout",
+      "description": "Financial report users can designate one Excel layout as the default, which will be automatically used when exporting to Excel without requiring re-upload.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 434.6,
+      "t_end": 458.3,
+      "is_demoed": true,
+      "caveats": [
+        "must be set manually on the report"
+      ],
+      "tags": [
+        "excel",
+        "layouts",
+        "export"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "income statement",
+      "t": 45.4
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 6.2,
+      "text": "Welcome to the 2025 release wave 1. What's new in financial reporting?",
+      "why_it_matters": "Establishes this is 2025 wave 1 content specifically about financial reporting features.",
+      "check": "exact"
+    },
+    {
+      "t": 19.1,
+      "text": "slimmer user interface, accounting format for negative numbers, portrait mode for PDF, and finally uh Excel layouts",
+      "why_it_matters": "Lists the four main features being introduced in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 45.4,
+      "text": "This is the thing we use for audit purposes. And the prior uh version had a description here.",
+      "why_it_matters": "Distinguishes the internal description field from the display title, explaining its audit purpose.",
+      "check": "exact"
+    },
+    {
+      "t": 187.9,
+      "text": "This um PDF is in portrait sorry in landscape mode. It's been like that forever in in this feature. As a new thing, we",
+      "why_it_matters": "Confirms portrait mode for PDF is new in this wave, contrasting with previous landscape-only behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 220.2,
+      "text": "There's a new thing here in this wave. We added something we call Excel layouts.",
+      "why_it_matters": "Introduces the new Excel layouts feature as the most significant capability in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 434.6,
+      "text": "I might want to pick one of these as my default layout. So that's what this default Excel layout is for.",
+      "why_it_matters": "Explains the default layout mechanism allows users to streamline repeated exports without re-uploading.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0200059
+    }
+  ]
+}
