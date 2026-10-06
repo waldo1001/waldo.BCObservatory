@@ -1,0 +1,305 @@
+{
+  "video_id": "Afv-r-eDt90",
+  "item_id": "video/yt-microsoft/Afv-r-eDt90",
+  "title": "What's New: Enhanced Analysis Mode (2026 release wave 1)",
+  "duration_s": 835,
+  "systems": [
+    "reporting",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "analysis mode",
+    "analysis views",
+    "al extensions",
+    "page extensions",
+    "profile customization",
+    "json export",
+    "tooltips",
+    "read-only views",
+    "analytics"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Investment Rationale",
+      "t_start": 0,
+      "t_end": 88.8
+    },
+    {
+      "title": "Live Demo: Packaging Analysis Views in AL Apps",
+      "t_start": 88.8,
+      "t_end": 330.2
+    },
+    {
+      "title": "Deployed Environment and View Management",
+      "t_start": 330.2,
+      "t_end": 440.7
+    },
+    {
+      "title": "Analysis Views in Business Central Application",
+      "t_start": 440.7,
+      "t_end": 510.4
+    },
+    {
+      "title": "Resources and Documentation",
+      "t_start": 510.4,
+      "t_end": 582
+    },
+    {
+      "title": "Partner Resources and Communities",
+      "t_start": 582,
+      "t_end": 738.2
+    },
+    {
+      "title": "YouTube Channel and Content Organization",
+      "t_start": 738.2,
+      "t_end": 835
+    }
+  ],
+  "features": [
+    {
+      "name": "Support for analysis views in AL",
+      "description": "Developers can now package analysis views from Business Central into AL apps by exporting analysis views as JSON files and including them in page extensions or source pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 88.8,
+      "t_end": 330.2,
+      "is_demoed": true,
+      "caveats": [
+        "views exported from apps are read-only and locked",
+        "users can duplicate views to create editable copies"
+      ],
+      "tags": [
+        "al-development",
+        "page-extension",
+        "json",
+        "packaging"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Analysis view descriptions and tooltips",
+      "description": "Users and developers can now add descriptions to analysis views which display as tooltips. Descriptions can be set through the rename action in analysis mode and override JSON settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 161.7,
+      "t_end": 262.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "tooltips",
+        "user-interface",
+        "metadata"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analysis views in page extensions",
+      "description": "New AL syntax allows developers to define analysis views directly within page extensions using the definition file property to point to exported JSON files.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 241.1,
+      "t_end": 315.7,
+      "is_demoed": true,
+      "caveats": [
+        "can be used with page customizations and profile extensions for role-based view availability"
+      ],
+      "tags": [
+        "page-extension",
+        "al-syntax",
+        "definition-file"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Analysis views in page customizations and profiles",
+      "description": "Analysis views can be added to page customizations and assigned to specific profiles, allowing role-based availability of views for users with specific roles.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 278.7,
+      "t_end": 303.8,
+      "is_demoed": true,
+      "caveats": [
+        "views are profile-specific when assigned through customizations"
+      ],
+      "tags": [
+        "profile-extension",
+        "role-based",
+        "customization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Read-only shipped analysis views",
+      "description": "Analysis views packaged within apps are displayed as read-only with a locked icon to indicate they cannot be edited, though users can duplicate them to create editable copies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 347.6,
+      "t_end": 382,
+      "is_demoed": true,
+      "caveats": [
+        "users can duplicate views to edit copies",
+        "filter pane is removed for read-only views"
+      ],
+      "tags": [
+        "locked-views",
+        "permissions",
+        "read-only"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analysis view personalization",
+      "description": "Users can hide analysis views they do not find useful through personalization mode, allowing them to customize which views appear in their interface.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 400.4,
+      "t_end": 430,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "personalization",
+        "user-interface",
+        "hide-views"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Built-in analysis views across Business Central application areas",
+      "description": "Analysis views are being added to multiple Business Central application areas including sales orders, change log entries, user lists, GL register, fixed asset ledgers, and item ledger entries.",
+      "status": "announced",
+      "status_evidence_t": 470.9,
+      "status_evidence_quote": "These are coming in 28.x. So, for sales we aim to have analysis views on sales orders",
+      "status_evidence_verified": true,
+      "t_start": 455.1,
+      "t_end": 497.8,
+      "is_demoed": false,
+      "caveats": [
+        "coming in version 28.x",
+        "planned for sales, finance, inventory, and purchasing areas"
+      ],
+      "tags": [
+        "built-in",
+        "sales",
+        "finance",
+        "inventory",
+        "purchasing",
+        "roadmap"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "customer ledger entries",
+      "t": 131.8
+    },
+    {
+      "type": "page",
+      "name": "change log entries",
+      "t": 486
+    },
+    {
+      "type": "page",
+      "name": "user lists",
+      "t": 486
+    },
+    {
+      "type": "page",
+      "name": "GL register",
+      "t": 486
+    },
+    {
+      "type": "page",
+      "name": "fixed asset ledgers",
+      "t": 486
+    },
+    {
+      "type": "page",
+      "name": "item ledger entries",
+      "t": 486
+    },
+    {
+      "type": "page",
+      "name": "sales orders",
+      "t": 470.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kenny Pontepedra",
+      "confidence": "high"
+    },
+    {
+      "name": "Blanca",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 32.2,
+      "text": "it's the most used analysis feature in Business Central ever. Almost every single customer have users who use analysis mode",
+      "why_it_matters": "Explains the strategic importance of investing in analysis mode enhancement based on widespread adoption.",
+      "check": "exact"
+    },
+    {
+      "t": 62.7,
+      "text": "you can ship analysis views from your AL apps, but also as a user you can describe your AL your your views and they",
+      "why_it_matters": "Describes the core capability of this release - bundling analysis views in apps and adding descriptions as tooltips.",
+      "check": "exact"
+    },
+    {
+      "t": 88.8,
+      "text": "Basically, it should be as simple as 1 2 3. One, you go to a Business Central, set up your analysis view directly. Two,",
+      "why_it_matters": "Outlines the simple three-step process for developers to package analysis views in AL applications.",
+      "check": "exact"
+    },
+    {
+      "t": 358.7,
+      "text": "You can see this is an a view that comes from my app because it has this locked icon. So, this basically means that",
+      "why_it_matters": "Demonstrates that packaged views are protected as read-only to maintain data integrity and design intent.",
+      "check": "exact"
+    },
+    {
+      "t": 470.9,
+      "text": "These are coming in 28.x. So, for sales we aim to have analysis views on sales orders on for security related pages on the",
+      "why_it_matters": "Provides timeline (28.x) and specific list of application areas receiving built-in analysis views.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 470.9,
+      "kind": "coming-later",
+      "text": "These are coming in 28.x"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0417612
+    }
+  ]
+}

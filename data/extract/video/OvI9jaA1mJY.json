@@ -1,0 +1,326 @@
+{
+  "video_id": "OvI9jaA1mJY",
+  "item_id": "video/yt-microsoft/OvI9jaA1mJY",
+  "title": "What's New: Payables Agent (2026 release wave 1)",
+  "duration_s": 224,
+  "systems": [
+    "copilot",
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "payables agent",
+    "invoice matching",
+    "purchase order lines",
+    "e-documents",
+    "copilot credits",
+    "cost calculation",
+    "agent discovery",
+    "feedback"
+  ],
+  "chapters": [
+    {
+      "title": "Invoice and Purchase Order Line Matching",
+      "t_start": 0,
+      "t_end": 46.6
+    },
+    {
+      "title": "Inbound E-Documents and Email Processing",
+      "t_start": 46.6,
+      "t_end": 74.8
+    },
+    {
+      "title": "Pricing and Cost Calculation",
+      "t_start": 74.8,
+      "t_end": 110.8
+    },
+    {
+      "title": "Agent Discovery and Accessibility",
+      "t_start": 110.8,
+      "t_end": 142.5
+    },
+    {
+      "title": "Global Availability and Feedback",
+      "t_start": 142.5,
+      "t_end": 224
+    }
+  ],
+  "features": [
+    {
+      "name": "One-to-one invoice and purchase order line matching",
+      "description": "The Payables agent now supports one-to-one matching between invoice lines and purchase order lines using AI to interpret line descriptions and find the best match among open purchase orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 19.2,
+      "t_end": 34.7,
+      "is_demoed": false,
+      "caveats": [
+        "Receipt must still be done manually for now"
+      ],
+      "tags": [
+        "invoice matching",
+        "purchase orders",
+        "ai"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Receipt quantity validation in matching",
+      "description": "When a match is found between invoice and purchase order lines, the agent checks if the received quantity is sufficient for invoicing and highlights a warning if it's not.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 34.7,
+      "t_end": 46.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "validation",
+        "quantity",
+        "warnings"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Inbound e-documents list enhancements",
+      "description": "The inbound e-documents list now includes more information to support finance teams and provides an option to navigate to the agent tasks for the specific invoice.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 46.6,
+      "t_end": 64,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "e-documents",
+        "draft invoices",
+        "navigation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Email processing visibility",
+      "description": "Finance teams working in the same mailbox as the agent can now see which emails have been processed to avoid the risk of duplicate work.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 64,
+      "t_end": 74.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "email processing",
+        "mailbox",
+        "duplicate prevention"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Payables Agent free trial and credit-based pricing",
+      "description": "The agent is free to try up to a certain number of invoices. After that, users pay based on volume using Copilot credits at 50 credits for the invoice document plus 5 credits per invoice line.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 74.8,
+      "t_end": 100.6,
+      "is_demoed": false,
+      "caveats": [
+        "Free trial limited to a certain number of invoices"
+      ],
+      "tags": [
+        "pricing",
+        "copilot credits",
+        "cost calculation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Analysis Assist for cost projection",
+      "description": "Users can use analysis assist on the posted purchase invoice lines page to find the invoice volume and average number of purchase invoice lines to calculate the projected cost of using the agent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 100.6,
+      "t_end": 110.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "analysis assist",
+        "cost projection",
+        "planning"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent discovery improvements",
+      "description": "The Payables agent is now easier to discover via the agent configuration page and is surfaced in familiar places like the purchase invoice page and purchase invoice list.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 110.8,
+      "t_end": 130.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "discovery",
+        "usability",
+        "configuration"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Single invoice processing without setup",
+      "description": "Accounts payable users can now try out the agent for free and process a single invoice they upload without needing to set up a shared mailbox or fully activate the agent first.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 130.2,
+      "t_end": 142.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "free trial",
+        "single invoice",
+        "no setup required"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Global availability and multi-language support",
+      "description": "The Payables agent is now available in all countries and regions where Business Central is available and is supported in all languages Microsoft provides as part of its localizations.",
+      "status": "ga",
+      "status_evidence_t": 142.5,
+      "status_evidence_quote": "the Payables agent is now available in all the countries and regions where Business Central is available and is supported in all the languages",
+      "status_evidence_verified": true,
+      "t_start": 142.5,
+      "t_end": 156.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "global availability",
+        "localization",
+        "multi-language"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "In-document feedback submission",
+      "description": "Users can submit feedback on the Payables agent directly from the purchase document draft page using the provide feedback action, which includes context about the current invoice.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 162.4,
+      "t_end": 176.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "feedback",
+        "user experience",
+        "contextual"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "inbound e-documents list",
+      "t": 46.6
+    },
+    {
+      "type": "page",
+      "name": "agent configuration page",
+      "t": 110.8
+    },
+    {
+      "type": "page",
+      "name": "purchase invoice page",
+      "t": 110.8
+    },
+    {
+      "type": "page",
+      "name": "purchase invoice list",
+      "t": 110.8
+    },
+    {
+      "type": "page",
+      "name": "posted purchase invoice lines page",
+      "t": 100.6
+    },
+    {
+      "type": "page",
+      "name": "purchase document draft page",
+      "t": 162.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Soren",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 19.2,
+      "text": "The Payables agent now supports one-to-one matching between invoice lines and purchase order lines.",
+      "why_it_matters": "This is a key new capability that automates a fundamental accounts payable process using AI.",
+      "check": "exact"
+    },
+    {
+      "t": 34.7,
+      "text": "Receipt must still be done manually for now.",
+      "why_it_matters": "Important caveat showing what the agent does not yet automate in the matching process.",
+      "check": "exact"
+    },
+    {
+      "t": 85.9,
+      "text": "50 credits for the invoice document plus five credits per invoice line. So, a five-line invoice costs 75 credits.",
+      "why_it_matters": "Establishes the specific pricing model for Copilot credit consumption by the agent.",
+      "check": "exact"
+    },
+    {
+      "t": 142.5,
+      "text": "the Payables agent is now available in all the countries and regions where Business Central is available and is supported in all the languages",
+      "why_it_matters": "Defines the global scope and localization support for this release, indicating full GA status.",
+      "check": "exact"
+    },
+    {
+      "t": 187.2,
+      "text": "Notice that some of these features may not necessarily be part of the major release, but will be available in an upcoming minor release.",
+      "why_it_matters": "Clarifies that not all announced features are in the major 2026 wave 1 release.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 187.2,
+      "kind": "coming-later",
+      "text": "some of these features may not necessarily be part of the major release, but will be available in an upcoming minor release"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.018886999999999998
+    }
+  ]
+}

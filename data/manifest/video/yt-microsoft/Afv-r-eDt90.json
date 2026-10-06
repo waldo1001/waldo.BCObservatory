@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=Afv-r-eDt90",
   "published_at": "2026-04-01T12:01:21.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -25,6 +25,40 @@
       "words": 2023,
       "lang": "en-orig",
       "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T17:04:46.625Z",
+      "path": "data/extract/video/Afv-r-eDt90.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 7,
+      "quotes": 5,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.041761
+    },
+    "summarized": {
+      "at": "2026-10-06T17:04:52.861Z",
+      "path": "data/summary/video/Afv-r-eDt90.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0142864
+    },
+    "linked": {
+      "at": "2026-10-06T17:04:52.862Z",
+      "systems": [
+        "reporting",
+        "sales",
+        "finance"
+      ],
+      "topics": 9,
+      "objects_as_heard": 7
+    },
+    "published": {
+      "at": "2026-10-06T17:04:52.878Z",
+      "path": "content/videos/Afv-r-eDt90.md"
     }
   },
   "input_hash": null,
@@ -42,5 +76,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "01fbf89828e366a306240e43e54132d2b180b8893c0e9f717eb68dfc56a42c0b"
+  "output_hash": "366e7d502783fa444627854536617b9f68e9fc6ad98c81c3d4bdb6b5a4554cf6"
 }

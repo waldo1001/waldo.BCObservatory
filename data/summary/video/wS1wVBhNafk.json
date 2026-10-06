@@ -1,0 +1,27 @@
+{
+  "video_id": "wS1wVBhNafk",
+  "item_id": "video/yt-saurav/wS1wVBhNafk",
+  "summary": "Business Central version 29 (2026 wave 2) adds two productivity features: recent searches shown in Tell Me, and recently used records shown first in lookup fields. Both are demoed. The video is evidence for how they behave, their caveats and the personalization involved.",
+  "overview": "The video covers two version 29 (2026 wave 2) features aimed at helping users find information faster and repeat fewer actions in daily work. The first shows a user's recent searches when Tell Me is opened, without typing anything. The second puts recently used records at the top of lookup fields for customers, vendors, items, GL accounts and other master records.\n\nBoth features are demoed. The presenter explains that the lookup feature is platform level, works with custom entities, and needs no code to enable. It uses user signals that Business Central already collects, so results are personalized per user.",
+  "key_points": [
+    "In version 29, opening Tell Me shows the user's recent searches automatically, before any typing.",
+    "Recent searches in Tell Me are limited to pages and reports the user has permission to access.",
+    "The recent searches list grows as the user explores more pages and reports.",
+    "Lookup fields show recently used records first, for customers, vendors, items, GL accounts and other master records.",
+    "The lookup feature works across all lookup types, including custom entities, and no code is needed to enable it.",
+    "Recent records are personalized per user from signals Business Central already collects; the recent section is blank on first use.",
+    "In a lookup, users can still switch to the search menu or pick from the full list."
+  ],
+  "audience": [
+    "end user",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "98b71159ff6896fd02b74e4dd28a4c57606084e1fbff86a20a44cdddd0a69667",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0111484
+  }
+}

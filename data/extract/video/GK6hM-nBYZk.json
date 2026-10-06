@@ -1,0 +1,264 @@
+{
+  "video_id": "GK6hM-nBYZk",
+  "item_id": "video/yt-microsoft/GK6hM-nBYZk",
+  "title": "What's New: Business Central Integration with Microsoft Copilot Studio (2026 release wave 1)",
+  "duration_s": 555,
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "copilot studio",
+    "agent building",
+    "mcp server",
+    "power automate",
+    "business central connector",
+    "microsoft 365 copilot",
+    "licensing",
+    "power platform"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Copilot Studio and Agent Building",
+      "t_start": 0,
+      "t_end": 92
+    },
+    {
+      "title": "Agent Architecture and Components",
+      "t_start": 92,
+      "t_end": 177.3
+    },
+    {
+      "title": "MCP Server Technology and Business Central Integration",
+      "t_start": 177.3,
+      "t_end": 218.5
+    },
+    {
+      "title": "Demo: Building a Laptop Agent in Copilot Studio",
+      "t_start": 218.5,
+      "t_end": 310
+    },
+    {
+      "title": "Agent Tools and Channel Publishing",
+      "t_start": 310,
+      "t_end": 372.6
+    },
+    {
+      "title": "Demo: Laptop Agent in Microsoft 365 Copilot Chat",
+      "t_start": 372.6,
+      "t_end": 468.2
+    },
+    {
+      "title": "Licensing and Resources",
+      "t_start": 468.2,
+      "t_end": 555
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot Studio Agent Building",
+      "description": "Maker experience for creating agents without coding that can be deployed across multiple channels including Teams, Microsoft 365 Copilot, WhatsApp, and Facebook Messenger.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 7,
+      "t_end": 117.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Copilot credits for usage"
+      ],
+      "tags": [
+        "copilot studio",
+        "agent building",
+        "multi-channel",
+        "no-code"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP Server for Business Central",
+      "description": "New technology allowing agents to operate on Business Central data more easily, added to Business Central in a previous wave as preview and facilitating agent communication with Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 162.9,
+      "t_end": 203.6,
+      "is_demoed": true,
+      "caveats": [
+        "New technology",
+        "Previously added as preview"
+      ],
+      "tags": [
+        "mcp server",
+        "business central integration",
+        "api access"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Business Central Power Platform Connector",
+      "description": "Special connector for Business Central that enables agents to talk to Business Central APIs with extra functionality for agent interaction.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 147.7,
+      "t_end": 162.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "connector",
+        "power platform",
+        "api",
+        "business central"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Copilot Studio Agent Knowledge Sources",
+      "description": "Agents can be configured with natural language instructions, business documentation, web knowledge sources, and multiple tool types including flows and MCP servers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 233.4,
+      "t_end": 294.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "knowledge sources",
+        "instructions",
+        "documentation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Studio Multi-Tool Support",
+      "description": "Agents can use different tool types including connector tools, custom prompts, Power Automate flows, and MCP protocol to interact with Business Central and other services.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 310,
+      "t_end": 349.1,
+      "is_demoed": true,
+      "caveats": [
+        "Agent decides which tool to use based on request"
+      ],
+      "tags": [
+        "tools",
+        "flows",
+        "connectors",
+        "mcp"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Publishing Agents to Multiple Channels",
+      "description": "Agents built in Copilot Studio can be published to Teams, Microsoft 365 Copilot chat, WhatsApp, Facebook Messenger, email, and text messaging.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 106.3,
+      "t_end": 117.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "publishing",
+        "channels",
+        "teams",
+        "microsoft 365 copilot"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Studio Licensing Model",
+      "description": "Copilot Studio uses Copilot credits as currency for agent usage, separate from general Power Platform usage rights included in Business Central license. Credits are shared across all agents in Power Platform.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 468.2,
+      "t_end": 504.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "licensing",
+        "copilot credits",
+        "pricing"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Błażej Kotełko",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 22.1,
+      "text": "Copilot Studio is perfect for building agents without actually coding experience.",
+      "why_it_matters": "Establishes that Copilot Studio is accessible to non-developers and democratizes agent building.",
+      "check": "exact"
+    },
+    {
+      "t": 106.3,
+      "text": "Copilot Studio agent is actually published to a specific channel. And we will be talking about publishing to Teams and Microsoft 365 Copilot chat.",
+      "why_it_matters": "Explains multi-channel publishing capability and scope of current discussion.",
+      "check": "exact"
+    },
+    {
+      "t": 147.7,
+      "text": "It is connected to Business Central through a Power Platform connector. We have a special connector for Business Central.",
+      "why_it_matters": "Confirms dedicated connector infrastructure for Business Central integration with agents.",
+      "check": "exact"
+    },
+    {
+      "t": 177.3,
+      "text": "we added to Business Central in a previous wave as preview",
+      "why_it_matters": "Indicates MCP server was previously added as preview, setting expectations for current status.",
+      "check": "exact"
+    },
+    {
+      "t": 468.2,
+      "text": "Copilot Studio is licensed slightly differently than the rest of Power Platform. Power Platform usage rights are included in Business Central license. Copilot Studio",
+      "why_it_matters": "Explains the distinct licensing model for Copilot Studio compared to other Power Platform products.",
+      "check": "exact"
+    },
+    {
+      "t": 491.4,
+      "text": "Copilot credits. And that is common um value or currency for all agents across Power Platform in Business Central.",
+      "why_it_matters": "Clarifies that Copilot credits serve as unified currency across Power Platform and Business Central agents.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 177.3,
+      "kind": "preview",
+      "text": "we added to Business Central in a previous wave as preview"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022303
+    }
+  ]
+}

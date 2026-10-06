@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/demo-environment",
   "published_at": "2026-06-29T09:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "7102b567b99b9a4c6891b5ac3b8dc69a1fa1c9f9",
       "words": 143,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T17:05:38.277Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00703
     }
   },
   "input_hash": "7102b567b99b9a4c6891b5ac3b8dc69a1fa1c9f9",
@@ -51,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7102b567b99b9a4c6891b5ac3b8dc69a1fa1c9f9"
+  "output_hash": "294f5457bedac179a7a03d7b8e3b8e273b52d0a616bcdea35d45d65950e273df"
 }

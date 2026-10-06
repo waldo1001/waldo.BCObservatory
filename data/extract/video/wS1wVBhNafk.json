@@ -1,0 +1,153 @@
+{
+  "video_id": "wS1wVBhNafk",
+  "item_id": "video/yt-saurav/wS1wVBhNafk",
+  "title": "Business Central 2026 Wave 2 (v29): 2 Productivity Features You’ll Use Daily",
+  "duration_s": 889,
+  "systems": [
+    "sales",
+    "purchasing",
+    "platform"
+  ],
+  "topics": [
+    "tell me search",
+    "recently searched",
+    "lookup fields",
+    "recently used records",
+    "productivity",
+    "user personalization",
+    "platform features",
+    "transaction processing"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 83.4
+    },
+    {
+      "title": "Recently Searched in Tell Me - Feature Overview",
+      "t_start": 83.4,
+      "t_end": 217
+    },
+    {
+      "title": "Recently Searched in Tell Me - Demo and Benefits",
+      "t_start": 217,
+      "t_end": 382.1
+    },
+    {
+      "title": "Recently Used Records in Lookups - Feature Overview",
+      "t_start": 382.1,
+      "t_end": 450.9
+    },
+    {
+      "title": "Recently Used Records in Lookups - Demo",
+      "t_start": 450.9,
+      "t_end": 650.6
+    },
+    {
+      "title": "Platform Capabilities and Business Benefits",
+      "t_start": 650.6,
+      "t_end": 792.7
+    },
+    {
+      "title": "Summary and Call to Action",
+      "t_start": 792.7,
+      "t_end": 889
+    }
+  ],
+  "features": [
+    {
+      "name": "Recently Searched in Tell Me",
+      "description": "In version 29, users can see a list of recent searches they have performed in the Tell Me feature, automatically displayed without needing to type. This helps users quickly access frequently searched pages, reports, and actions they regularly use.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 83.4,
+      "t_end": 372.1,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to pages and reports the user has permission to access",
+        "List grows as user explores different pages and reports"
+      ],
+      "tags": [
+        "tell me",
+        "search",
+        "recently searched",
+        "navigation",
+        "productivity"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Recently Used Records in Lookups",
+      "description": "A platform-level feature that displays recently used records first when users access lookup fields for customers, vendors, items, GL accounts, and other master records. The system analyzes user signals and surfaces the most relevant records first, personalized for each user.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 382.1,
+      "t_end": 729.4,
+      "is_demoed": true,
+      "caveats": [
+        "Works across all lookup types including custom entities",
+        "Users can switch to search menu or select from full list",
+        "For first time use, recent section will be blank",
+        "Personalized per user based on their usage patterns"
+      ],
+      "tags": [
+        "lookups",
+        "recently used",
+        "master records",
+        "personalization",
+        "platform feature",
+        "productivity"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 58.4,
+      "text": "This feature focus on helping users to find information faster and reducing repetitive actions during daily work.",
+      "why_it_matters": "Establishes the core purpose of the two productivity features being discussed in the video.",
+      "check": "exact"
+    },
+    {
+      "t": 217,
+      "text": "Going forward in version 29, when a user opens the tell me, user will be able to see searches that he have recently performed.",
+      "why_it_matters": "Announces the availability status and functionality of the recently searched feature in version 29.",
+      "check": "exact"
+    },
+    {
+      "t": 461,
+      "text": "The platform analyzes users signal that are already being collected by Business Central and surfaces the most relevant record first.",
+      "why_it_matters": "Explains the intelligent mechanism behind the recently used records feature and how personalization works.",
+      "check": "exact"
+    },
+    {
+      "t": 663.3,
+      "text": "It work across all your look ups because it's a platform level feature. There's no code written behind the scene to enable the recent",
+      "why_it_matters": "Clarifies that the feature is platform-wide and applies to custom entities, not limited to standard lookups.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019419000000000002
+    }
+  ]
+}

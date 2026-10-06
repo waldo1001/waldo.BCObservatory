@@ -1,0 +1,28 @@
+{
+  "video_id": "GK6hM-nBYZk",
+  "item_id": "video/yt-microsoft/GK6hM-nBYZk",
+  "summary": "Business Central integration with Microsoft Copilot Studio (2026 release wave 1): building a no-code agent that reaches Business Central through the Power Platform connector or the MCP server, publishing it to Teams and Microsoft 365 Copilot chat, and how Copilot credits apply to licensing.",
+  "overview": "The video explains how Copilot Studio is used to build agents without coding and how those agents connect to Business Central. It covers agent architecture, the Business Central Power Platform connector, and MCP server technology, which was added to Business Central in a previous wave as preview.\n\nA demo builds a laptop agent in Copilot Studio and then uses it in Microsoft 365 Copilot Chat. The video also covers agent tools, knowledge sources, publishing channels, and licensing based on Copilot credits.",
+  "key_points": [
+    "Copilot Studio is used to build agents without coding; agents are configured with natural language instructions, business documentation, and web knowledge sources.",
+    "Agents can use several tool types: connector tools, custom prompts, Power Automate flows, and MCP. The agent decides which tool to use based on the request.",
+    "Business Central has a special Power Platform connector that lets agents call Business Central APIs, with extra functionality for agent interaction.",
+    "The MCP server lets agents work with Business Central data more easily; it was added in a previous wave as preview.",
+    "An agent is published to a channel. The video covers Teams and Microsoft 365 Copilot chat, and also lists WhatsApp, Facebook Messenger, email, and text messaging.",
+    "Copilot Studio is licensed differently from the rest of Power Platform: Power Platform usage rights are included in the Business Central license, but Copilot Studio usage needs Copilot credits.",
+    "Copilot credits are shared across all agents in Power Platform."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "9f51f1a16fd46db9d7d67b5da564604387504dc5c083035eefbda8a71d76ebd3",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0147044
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/marketing-setup-contacts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-setup-contacts",
+  "title": "Set up information for contacts",
+  "blob": "205d690c051023ad55e718d72ecb17460ba2917c",
+  "summary": "Set up master data for contacts including industry groups, mailing groups, job responsibilities, organizational levels, and business relations to organize and segment customers and prospects.",
+  "systems": [
+    "crm",
+    "sales"
+  ],
+  "topics": [
+    "contacts",
+    "setup",
+    "industry groups",
+    "mailing groups",
+    "segmentation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Contact Card"
+    },
+    {
+      "type": "page",
+      "name": "Contact Industry Groups"
+    },
+    {
+      "type": "page",
+      "name": "Contact Mailing Groups"
+    },
+    {
+      "type": "page",
+      "name": "Contact Alt. Address List"
+    },
+    {
+      "type": "page",
+      "name": "Contact Alternative Address"
+    },
+    {
+      "type": "page",
+      "name": "Contact Job Responsibilities"
+    },
+    {
+      "type": "page",
+      "name": "Contact Business Relations"
+    },
+    {
+      "type": "page",
+      "name": "Contact Web Sources"
+    },
+    {
+      "type": "page",
+      "name": "Marketing Setup"
+    },
+    {
+      "type": "page",
+      "name": "Duplicate Contacts"
+    }
+  ],
+  "features": [
+    "Industry groups assignment",
+    "Mailing groups assignment",
+    "Alternate address definition",
+    "Job responsibilities",
+    "Organizational levels",
+    "Web sources",
+    "Business relations",
+    "Inheritance settings",
+    "Duplicate detection"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00703,
+      "pages_in_call": 8
+    }
+  ]
+}

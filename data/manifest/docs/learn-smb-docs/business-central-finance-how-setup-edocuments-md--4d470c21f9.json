@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-edocuments",
   "published_at": "2026-06-27T02:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "bec43eb64e037d8d6d6c3ad29da2636a0a915b7d",
       "words": 2808,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T17:05:38.282Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.00703
     }
   },
   "input_hash": "bec43eb64e037d8d6d6c3ad29da2636a0a915b7d",
@@ -61,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bec43eb64e037d8d6d6c3ad29da2636a0a915b7d"
+  "output_hash": "82a8a0259ebcf983dac50f0a1b1f8d20bdd817692727310fb6148ef309de0f44"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-setup-contacts",
   "published_at": "2026-06-27T02:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "205d690c051023ad55e718d72ecb17460ba2917c",
       "words": 1693,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:05:38.283Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 10,
+      "cost_usd": 0.00703
     }
   },
   "input_hash": "205d690c051023ad55e718d72ecb17460ba2917c",
@@ -38,5 +45,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "205d690c051023ad55e718d72ecb17460ba2917c"
+  "output_hash": "1a4d3f843d5df4748caf8ca8db292806007f5e47d94a572b743c919016690a69"
 }

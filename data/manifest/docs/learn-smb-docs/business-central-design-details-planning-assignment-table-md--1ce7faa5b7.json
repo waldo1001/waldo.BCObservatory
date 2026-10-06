@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-planning-assignment-table",
   "published_at": "2026-06-27T02:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "65222b85e02319a30e192f1e71193b7d484be8f9",
       "words": 533,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:05:38.280Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00703
     }
   },
   "input_hash": "65222b85e02319a30e192f1e71193b7d484be8f9",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "65222b85e02319a30e192f1e71193b7d484be8f9"
+  "output_hash": "492b1da47863ae51b3d80044943f8e6b34cb9be74cdbfbc07ab901ce62bb3d5b"
 }

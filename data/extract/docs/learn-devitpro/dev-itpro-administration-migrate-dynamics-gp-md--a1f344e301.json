@@ -1,0 +1,91 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-dynamics-gp.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp",
+  "title": "Migrate Dynamics GP data to the cloud",
+  "blob": "e7d544bd83bf02032b738f43c7f7576a07d323d4",
+  "summary": "Migrate Dynamics GP data to Business Central online including fiscal periods, chart of accounts, master records, inventory, checkbooks, and historical snapshots using cloud migration tools.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "data migration",
+    "dynamics gp",
+    "cloud migration",
+    "master records",
+    "fiscal periods"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "GP Company Migration Configuration"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "table",
+      "name": "Hist. G/L Account"
+    },
+    {
+      "type": "table",
+      "name": "Hist. Gen. Journal Line"
+    },
+    {
+      "type": "table",
+      "name": "Hist. Payables Document"
+    },
+    {
+      "type": "table",
+      "name": "Hist. Receivables Document"
+    },
+    {
+      "type": "table",
+      "name": "Hist. Sales Trx. Header"
+    },
+    {
+      "type": "table",
+      "name": "Hist. Sales Trx. Line"
+    },
+    {
+      "type": "table",
+      "name": "Hist. Purchase Recv. Header"
+    },
+    {
+      "type": "table",
+      "name": "Hist. Purchase Recv. Line"
+    },
+    {
+      "type": "table",
+      "name": "Hist. Inventory Trx. Header"
+    },
+    {
+      "type": "table",
+      "name": "Hist. Inventory Trx. Line"
+    }
+  ],
+  "features": [
+    "Fiscal periods to accounting periods",
+    "Chart of accounts migration",
+    "Dimensions mapping",
+    "Customer and vendor records",
+    "Inventory migration",
+    "Checkbook transaction migration",
+    "Recurring sales lines generation",
+    "Recurring purchase lines generation",
+    "1099 vendor information"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00703,
+      "pages_in_call": 8
+    }
+  ]
+}

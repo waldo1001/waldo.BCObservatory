@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-planning-assignment-table.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-planning-assignment-table",
+  "title": "Design details - Planning assignment table",
+  "blob": "65222b85e02319a30e192f1e71193b7d484be8f9",
+  "summary": "Understand how the Planning Assignment table monitors demand and supply events to identify items requiring recalculation in the manufacturing planning system.",
+  "systems": [
+    "manufacturing",
+    "platform"
+  ],
+  "topics": [
+    "planning assignment",
+    "demand",
+    "supply",
+    "mrp",
+    "mps",
+    "performance"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Planning Assignment"
+    }
+  ],
+  "features": [
+    "Demand monitoring",
+    "Supply monitoring",
+    "MPS calculation",
+    "MRP calculation",
+    "Planning reason tracking",
+    "Order tracking",
+    "Action messaging"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00703,
+      "pages_in_call": 8
+    }
+  ]
+}

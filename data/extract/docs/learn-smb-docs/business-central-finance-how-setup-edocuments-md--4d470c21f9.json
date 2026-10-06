@@ -1,0 +1,77 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-setup-edocuments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-setup-edocuments",
+  "title": "Set Up E-documents",
+  "blob": "bec43eb64e037d8d6d6c3ad29da2636a0a915b7d",
+  "summary": "Configure e-document services, workflows, and document sending profiles to enable electronic invoice transmission with support for clearance models and various document formats.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "e-documents",
+    "e-invoicing",
+    "clearance model",
+    "workflows",
+    "peppol"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "E-Document Services"
+    },
+    {
+      "type": "page",
+      "name": "E-Documents Services Setup"
+    },
+    {
+      "type": "page",
+      "name": "Document Sending Profiles"
+    },
+    {
+      "type": "page",
+      "name": "E-Document Service Supported Source Document Types"
+    },
+    {
+      "type": "page",
+      "name": "Workflows"
+    },
+    {
+      "type": "page",
+      "name": "Workflow Templates"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Contoso Demo Tool"
+    }
+  ],
+  "features": [
+    "PEPPOL BIS 3.0 format",
+    "Clearance model setup",
+    "Data Exchange format",
+    "Automatic import",
+    "Automatic processing",
+    "Service integration",
+    "Workflow configuration",
+    "Email attachments",
+    "Retention policies"
+  ],
+  "versions": [
+    "24.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00703,
+      "pages_in_call": 8
+    }
+  ]
+}

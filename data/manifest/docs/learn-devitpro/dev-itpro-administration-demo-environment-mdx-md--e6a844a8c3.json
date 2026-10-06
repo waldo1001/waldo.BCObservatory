@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/demo-environment-mdx",
   "published_at": "2026-06-29T09:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8251f6ec5ac37aab419041db99bc70d6a1a12ddf",
       "words": 672,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:05:38.275Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00703
+    },
+    "summarized": {
+      "at": "2026-10-06T17:05:38.284Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:05:38.285Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:05:38.286Z",
+      "page": false
     }
   },
   "input_hash": "8251f6ec5ac37aab419041db99bc70d6a1a12ddf",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8251f6ec5ac37aab419041db99bc70d6a1a12ddf"
+  "output_hash": "291f5d26f36fc5d127ca3a596e0bc7adeab1e16d45b732818977a8574d170cc3"
 }

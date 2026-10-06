@@ -7,16 +7,40 @@
   "url": "https://www.youtube.com/watch?v=IDYhxt-8ImI",
   "published_at": "2026-06-30T10:19:55.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T17:08:23.132Z",
+      "captions": "auto:en-orig",
+      "duration_s": 3669
+    },
+    "captioned": {
+      "at": "2026-10-06T17:08:31.533Z",
+      "path": "vault:captions/community/yt-areopa/IDYhxt-8ImI.vtt",
+      "vtt_sha256": "0b8fb743c4563b601109426b85859b2b9140a6433ec00ca24a3cff66851e5cd6",
+      "segments": 260,
+      "words": 10636,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UCWL0RbbT6ILzzCd6Ix7t0AQ"
-  }
+    "channel_id": "UCWL0RbbT6ILzzCd6Ix7t0AQ",
+    "duration_s": 3669,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0b8fb743c4563b601109426b85859b2b9140a6433ec00ca24a3cff66851e5cd6",
+  "skip": "leak",
+  "skipped_at": "2026-10-06T17:12:18.251Z"
 }

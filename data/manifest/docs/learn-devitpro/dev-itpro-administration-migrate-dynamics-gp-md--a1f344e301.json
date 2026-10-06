@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp",
   "published_at": "2026-06-29T08:06:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "e7d544bd83bf02032b738f43c7f7576a07d323d4",
       "words": 2120,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T17:05:38.279Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 12,
+      "cost_usd": 0.00703
     }
   },
   "input_hash": "e7d544bd83bf02032b738f43c7f7576a07d323d4",
@@ -46,5 +53,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e7d544bd83bf02032b738f43c7f7576a07d323d4"
+  "output_hash": "bb1bb859eaef4ed71c097e621ce0dfb2405cb3c1490cd8c3d4c2848a22459541"
 }
