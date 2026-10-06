@@ -1,0 +1,117 @@
+{
+  "video_id": "WjFx9yYf1js",
+  "item_id": "video/yt-dynamicscorner/WjFx9yYf1js",
+  "title": "Vibe Coding Risks in Business Central. #businesscentral #bc #podcast",
+  "duration_s": 49,
+  "systems": [
+    "development",
+    "finance"
+  ],
+  "topics": [
+    "coding risks",
+    "extensions",
+    "personal tools",
+    "risk surface",
+    "posting routines",
+    "business central development"
+  ],
+  "chapters": [
+    {
+      "title": "Personal Tools vs Business Tools",
+      "t_start": 0,
+      "t_end": 12.8
+    },
+    {
+      "title": "Risk Surface and Personal Responsibility",
+      "t_start": 12.8,
+      "t_end": 23.6
+    },
+    {
+      "title": "Enterprise Extension Risks",
+      "t_start": 23.6,
+      "t_end": 39.3
+    },
+    {
+      "title": "Critical Business Processes",
+      "t_start": 39.3,
+      "t_end": 49
+    }
+  ],
+  "features": [
+    {
+      "name": "Extension Development Risk Management",
+      "description": "Discussion of how risk surfaces differ between personal tools and business extensions used by multiple employees, particularly when touching critical posting routines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0,
+      "t_end": 39.3,
+      "is_demoed": false,
+      "caveats": [
+        "Video does not complete the thought about posting routines"
+      ],
+      "tags": [
+        "risk management",
+        "extension development",
+        "business processes"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Unknown Speaker",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 0,
+      "text": "do number of tools for my personal use, and making myself more productive with working my day-to-day business. Um but ...",
+      "why_it_matters": "Establishes the distinction between personal tools and enterprise solutions, setting up the risk discussion.",
+      "check": "exact"
+    },
+    {
+      "t": 12.8,
+      "text": "so that's a a limited surface that I'm risk surface I'm exposing myself to.",
+      "why_it_matters": "Defines the concept of risk surface, the key metric for evaluating the impact of code changes.",
+      "check": "exact"
+    },
+    {
+      "t": 23.6,
+      "text": "if I write code a an extension that's used in my business with maybe 200 employees, the the risk surface is a different one.",
+      "why_it_matters": "Quantifies the scale difference when extensions are deployed to multiple users, dramatically increasing risk impact.",
+      "check": "exact"
+    },
+    {
+      "t": 23.6,
+      "text": "if it's just like some fancy report, okay, maybe not that critical.",
+      "why_it_matters": "Acknowledges that not all extensions have equal risk, with reports being lower risk than core business processes.",
+      "check": "exact"
+    },
+    {
+      "t": 39.3,
+      "text": "if it's uh like touching posting routines or stuff, then maybe you want to be sure that it's not breaking",
+      "why_it_matters": "Identifies posting routines as critical processes where code quality and testing are essential in Business Central.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 0
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007844
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-count-adjust-reclassify.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-count-adjust-reclassify",
+  "title": "Count, adjust, and reclassify inventory",
+  "blob": "03fcd33df3cf41a38690fad4ac2b55fb89445680",
+  "summary": "This page describes how to perform physical inventory counts, adjust quantities, and reclassify items using journals. It covers cycle counting, expected inventory calculation, and synchronizing warehouse entries with item ledger.",
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "physical inventory",
+    "cycle counting",
+    "inventory adjustment",
+    "item reclassification"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Phys. Inventory Journal"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Physical Inventory Journal"
+    },
+    {
+      "type": "page",
+      "name": "Physical Inventory Order"
+    },
+    {
+      "type": "page",
+      "name": "Physical Inventory Recording"
+    },
+    {
+      "type": "page",
+      "name": "Item Journals"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Item Journal"
+    }
+  ],
+  "features": [
+    "physical inventory count",
+    "cycle counting periods",
+    "inventory adjustments",
+    "bin management",
+    "adjustment bins"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007077,
+      "pages_in_call": 7
+    }
+  ]
+}

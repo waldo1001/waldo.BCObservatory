@@ -7,16 +7,72 @@
   "url": "https://www.youtube.com/watch?v=WjFx9yYf1js",
   "published_at": "2026-05-08T05:57:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T17:56:21.845Z",
+      "captions": "auto:en-orig",
+      "duration_s": 49
+    },
+    "captioned": {
+      "at": "2026-10-06T17:56:26.501Z",
+      "path": "vault:captions/community/yt-dynamicscorner/WjFx9yYf1js.vtt",
+      "vtt_sha256": "60308e683072a1f07d95df862285247925926c766a86d496a93418cd639813db",
+      "segments": 4,
+      "words": 142,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T17:56:36.739Z",
+      "path": "data/extract/video/WjFx9yYf1js.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "trimmed_for_policy": 1,
+      "features": 1,
+      "quotes": 5,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.007844
+    },
+    "summarized": {
+      "at": "2026-10-06T17:56:42.652Z",
+      "path": "data/summary/video/WjFx9yYf1js.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0086384
+    },
+    "linked": {
+      "at": "2026-10-06T17:56:42.653Z",
+      "systems": [
+        "development",
+        "finance"
+      ],
+      "topics": 6,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T17:56:42.660Z",
+      "path": "content/videos/WjFx9yYf1js.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
   "flags": [],
   "meta": {
-    "channel_id": "UCiC0ZMYcrfBCUIicN1DwbJQ"
-  }
+    "channel_id": "UCiC0ZMYcrfBCUIicN1DwbJQ",
+    "duration_s": 49,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4d96a36e01b67f44a73906b1be61df253ee1a1397b5117dac99f0fb5f1c6facd"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-record-purchases",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d71004fd60fc71a66de869c247e71c63551f1aed",
       "words": 2227,
       "forms": 11
+    },
+    "extracted": {
+      "at": "2026-10-06T17:56:44.289Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.007077
+    },
+    "summarized": {
+      "at": "2026-10-06T17:56:44.311Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:56:44.312Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:56:44.313Z",
+      "page": false
     }
   },
   "input_hash": "d71004fd60fc71a66de869c247e71c63551f1aed",
@@ -96,5 +115,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d71004fd60fc71a66de869c247e71c63551f1aed"
+  "output_hash": "e37548a0487505350dc9ce039dd5af572fcd54dca189f2f2b61aa95503f6ac51"
 }

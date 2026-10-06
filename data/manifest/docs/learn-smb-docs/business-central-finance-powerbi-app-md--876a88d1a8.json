@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-app",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c2bfe2b795475a0246c90097be5e1d62e6031643",
       "words": 896,
       "forms": 16
+    },
+    "extracted": {
+      "at": "2026-10-06T17:56:44.284Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007077
+    },
+    "summarized": {
+      "at": "2026-10-06T17:56:44.293Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:56:44.293Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:56:44.294Z",
+      "page": false
     }
   },
   "input_hash": "c2bfe2b795475a0246c90097be5e1d62e6031643",
@@ -118,5 +137,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c2bfe2b795475a0246c90097be5e1d62e6031643"
+  "output_hash": "2fde0ba8c413822fbaa79f0bb833a447b84c8ae954308e9aaef84f79a2b14fca"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-item-tracking",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0fc62394ff7ece4c9619fe2791d0f05401c558ef",
       "words": 3601,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:56:44.288Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.007077
+    },
+    "summarized": {
+      "at": "2026-10-06T17:56:44.308Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:56:44.309Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:56:44.309Z",
+      "page": false
     }
   },
   "input_hash": "0fc62394ff7ece4c9619fe2791d0f05401c558ef",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0fc62394ff7ece4c9619fe2791d0f05401c558ef"
+  "output_hash": "a66a8c08c8215277d475835c483d505b3ca34e4ed2d405683a70d91734bbe4aa"
 }

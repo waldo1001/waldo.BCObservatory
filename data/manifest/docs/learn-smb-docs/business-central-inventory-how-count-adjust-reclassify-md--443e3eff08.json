@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-count-adjust-reclassify",
   "published_at": "2026-06-17T13:31:30.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "03fcd33df3cf41a38690fad4ac2b55fb89445680",
       "words": 2436,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:56:44.287Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.007077
+    },
+    "summarized": {
+      "at": "2026-10-06T17:56:44.305Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:56:44.306Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:56:44.307Z",
+      "page": false
     }
   },
   "input_hash": "03fcd33df3cf41a38690fad4ac2b55fb89445680",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "03fcd33df3cf41a38690fad4ac2b55fb89445680"
+  "output_hash": "eddeed14d6b95ec54fb11d368d10e71776ca39efc86b535224c58d03fec1abc6"
 }

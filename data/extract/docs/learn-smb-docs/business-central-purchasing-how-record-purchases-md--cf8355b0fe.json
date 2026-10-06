@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/purchasing-how-record-purchases.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/purchasing-how-record-purchases",
+  "title": "Record purchases with purchase invoices",
+  "blob": "d71004fd60fc71a66de869c247e71c63551f1aed",
+  "summary": "This page describes how to create and post purchase invoices and orders to record purchases, update inventory, and track accounts payable. It covers receiving items, handling over-receipts, and managing posted documents.",
+  "systems": [
+    "purchasing",
+    "inventory"
+  ],
+  "topics": [
+    "purchase invoices",
+    "purchase orders",
+    "receiving",
+    "vendors",
+    "payables"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "Posted Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Over-Receipt Codes"
+    }
+  ],
+  "features": [
+    "purchase invoice posting",
+    "purchase order receipt",
+    "over-receipt handling",
+    "vendor invoice discounts",
+    "external document numbers",
+    "batch posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007077,
+      "pages_in_call": 7
+    }
+  ]
+}

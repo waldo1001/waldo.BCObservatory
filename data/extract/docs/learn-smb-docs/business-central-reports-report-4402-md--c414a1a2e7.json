@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-4402.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-4402",
+  "title": "Aged Accounts Receivable (Excel report)",
+  "blob": "d13425ddfebe1fa60d2c8c14500a7b099aaaf0dc",
+  "summary": "The Aged Accounts Receivable Excel report aggregates customer ledger entries into aging buckets by due date and global dimensions, providing four worksheets for analyzing receivables in local and foreign currencies.",
+  "systems": [
+    "finance",
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "accounts receivable",
+    "aging analysis",
+    "excel reporting",
+    "customer ledger",
+    "collections",
+    "credit analysis"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Aged Accounts Receivable Excel"
+    }
+  ],
+  "features": [
+    "Aged as of parameter",
+    "Period length parameter",
+    "Global dimension summarization",
+    "Local currency (LCY) analysis",
+    "Foreign currency (FCY) analysis",
+    "Currency filtering",
+    "Year-Quarter-Month-Day hierarchy",
+    "Interactive filters and slicers"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003912,
+      "pages_in_call": 1
+    }
+  ]
+}

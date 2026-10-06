@@ -1,0 +1,25 @@
+{
+  "video_id": "WjFx9yYf1js",
+  "item_id": "video/yt-dynamicscorner/WjFx9yYf1js",
+  "summary": "Vibe coding risk in Business Central development: a short Dynamics Corner podcast clip contrasting personal productivity tools with extensions used by many employees, and why code touching posting routines needs more care than a simple report.",
+  "overview": "A short clip from the Dynamics Corner podcast on risks of vibe coding in Business Central. The speaker describes building tools for personal use to be more productive, and says this exposes only a limited risk surface to themselves.\n\nThe speaker then contrasts this with writing an extension used in a business with about 200 employees, where the risk surface is different. A fancy report is not very critical, but code touching posting routines should be checked so it does not break anything. The clip ends before the thought on posting routines is finished.",
+  "key_points": [
+    "Personal tools built for your own productivity expose a limited risk surface, mainly to yourself.",
+    "An extension used across a business, for example with 200 employees, has a different and larger risk surface.",
+    "A report is described as not very critical if it goes wrong.",
+    "Code that touches posting routines needs assurance that it does not break anything.",
+    "The clip is about one minute long and the posting routines point is left unfinished."
+  ],
+  "audience": [
+    "developer",
+    "decision maker",
+    "administrator"
+  ],
+  "extraction_hash": "69db67b71c559aa2e58f4a2bcee91bc9ba3fa79b7c806e6f8a2ac87ee18731d2",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0086384
+  }
+}

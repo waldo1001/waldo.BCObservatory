@@ -1,0 +1,74 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-how-work-item-tracking.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-work-item-tracking",
+  "title": "Track items with serial, lot, and package numbers",
+  "blob": "0fc62394ff7ece4c9619fe2791d0f05401c558ef",
+  "summary": "This page explains how to track items using serial numbers, lot numbers, and package numbers throughout purchase, sales, and transfer transactions. It covers assignment, selection, availability tracking, and reclassification of item tracking numbers.",
+  "systems": [
+    "inventory",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "item tracking",
+    "serial numbers",
+    "lot numbers",
+    "package numbers",
+    "traceability"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Tracking Lines"
+    },
+    {
+      "type": "page",
+      "name": "Serial No. List"
+    },
+    {
+      "type": "page",
+      "name": "Lot No. List"
+    },
+    {
+      "type": "page",
+      "name": "Item Tracking - Select Entries"
+    },
+    {
+      "type": "page",
+      "name": "Item Reclassification Journals"
+    },
+    {
+      "type": "page",
+      "name": "Serial No. Information Card"
+    },
+    {
+      "type": "page",
+      "name": "Lot No. Information List"
+    },
+    {
+      "type": "page",
+      "name": "Serial No. Information List"
+    }
+  ],
+  "features": [
+    "serial number tracking",
+    "lot number tracking",
+    "package number tracking",
+    "expiration dates",
+    "warranty dates",
+    "item tracing",
+    "availability checking",
+    "barcode scanning"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007077,
+      "pages_in_call": 7
+    }
+  ]
+}

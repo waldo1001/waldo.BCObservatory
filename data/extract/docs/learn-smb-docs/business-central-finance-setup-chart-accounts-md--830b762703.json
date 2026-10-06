@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-setup-chart-accounts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-chart-accounts",
+  "title": "Set up or change the chart of accounts",
+  "blob": "90038048f096e67a40609f15fa681a72f3129dd9",
+  "summary": "This page explains how to set up and modify the chart of accounts in Business Central, including adding accounts, managing account types, deleting accounts with proper controls, and using an indentation function.",
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "chart of accounts",
+    "general ledger",
+    "account setup",
+    "g/l accounts"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "G/L Account Card"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    }
+  ],
+  "features": [
+    "account types",
+    "totaling field",
+    "extended texts",
+    "account deletion controls",
+    "indent function"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007077,
+      "pages_in_call": 7
+    }
+  ]
+}

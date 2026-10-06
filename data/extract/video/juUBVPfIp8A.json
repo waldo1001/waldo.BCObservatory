@@ -1,0 +1,493 @@
+{
+  "video_id": "juUBVPfIp8A",
+  "item_id": "video/yt-microsoft/juUBVPfIp8A",
+  "title": "What's New: AI Development Toolkit (2026 release wave 1)",
+  "duration_s": 1206,
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "ai development toolkit",
+    "bc ai resources",
+    "agents",
+    "azure open ai",
+    "content filtering",
+    "prompt injection",
+    "xpi detection",
+    "evaluations",
+    "multi-language support",
+    "copilot credits",
+    "agent evaluation",
+    "test context"
+  ],
+  "chapters": [
+    {
+      "title": "AI Development Toolkit Overview",
+      "t_start": 0,
+      "t_end": 85.1
+    },
+    {
+      "title": "Learning Resources",
+      "t_start": 85.1,
+      "t_end": 125.3
+    },
+    {
+      "title": "BC AI Resources and Authentication",
+      "t_start": 125.3,
+      "t_end": 269.4
+    },
+    {
+      "title": "Content Filtering Policies",
+      "t_start": 269.4,
+      "t_end": 435.7
+    },
+    {
+      "title": "Prompt Injection Protection",
+      "t_start": 435.7,
+      "t_end": 546.6
+    },
+    {
+      "title": "AI Evaluations Overview",
+      "t_start": 546.6,
+      "t_end": 656.2
+    },
+    {
+      "title": "Evaluation Suite Configurations",
+      "t_start": 656.2,
+      "t_end": 787.5
+    },
+    {
+      "title": "Multi-Language Support and Copilot Credit Insights",
+      "t_start": 787.5,
+      "t_end": 922
+    },
+    {
+      "title": "Agent Evaluation Support",
+      "t_start": 922,
+      "t_end": 1021.5
+    },
+    {
+      "title": "Summary of AI Development Toolkit updates",
+      "t_start": 1021.5,
+      "t_end": 1130.9
+    },
+    {
+      "title": "Resources and Community Engagement",
+      "t_start": 1130.9,
+      "t_end": 1206
+    }
+  ],
+  "features": [
+    {
+      "name": "AI Development Toolkit renamed",
+      "description": "The development toolkit for extending copilot is now called the AI Development Toolkit to reflect its expanded capabilities beyond just using Azure Open AI, including designing and coding agents in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.6,
+      "t_end": 44,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "naming",
+        "toolkit",
+        "rebranding"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent development and design",
+      "description": "The toolkit now supports designing and coding agents in Business Central. This capability has been in public preview since February with nearly 1,500 agents built by the community.",
+      "status": "preview",
+      "status_evidence_t": 55.4,
+      "status_evidence_quote": "The latter has actually been in public preview since the beginning of February.",
+      "status_evidence_verified": true,
+      "t_start": 44,
+      "t_end": 67.4,
+      "is_demoed": false,
+      "caveats": [
+        "Preview since February 2026",
+        "Community has built almost 1,500 agents"
+      ],
+      "tags": [
+        "agents",
+        "preview",
+        "community"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "BC AI Resources authentication simplified",
+      "description": "The requirement to authenticate BC AI Resources using your own partner subscription has been removed. The set managed resource authorization method now has a new signature that omits passing subscription details.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 168.5,
+      "t_end": 234.1,
+      "is_demoed": false,
+      "caveats": [
+        "Old method is obsoleted but still available for backward compatibility"
+      ],
+      "tags": [
+        "bc ai resources",
+        "authentication",
+        "managed resources"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Content filtering policies",
+      "description": "Support for content filtering policies in Azure Open AI with granular control. Supports low and medium harmful content filtering levels, with low as the default. High setting not supported in managed resources but available with own Azure Open AI subscription.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 269.4,
+      "t_end": 397.1,
+      "is_demoed": true,
+      "caveats": [
+        "Only low and medium filtering supported in managed resources",
+        "High setting requires approval from Azure Open AI and own subscription",
+        "Low is default and allows least harmful content"
+      ],
+      "tags": [
+        "content filtering",
+        "azure open ai",
+        "policies",
+        "guardrails"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Azure Open AI policy parameters codeunit",
+      "description": "New codeunit for managing Azure Open AI policy parameters including content filtering settings. Allows developers to set filtering levels when calling LLM APIs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 412,
+      "t_end": 435.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "codeunit",
+        "azure open ai",
+        "policies"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Prompt injection protection",
+      "description": "Support for Azure AI content prompt shields to protect against prompt injection attacks. Uses detection tags and XPI detection settings to block malicious attempts to inject instructions through external data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 435.7,
+      "t_end": 546.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires calling detecting tags for untrusted prompts",
+        "XPI detection must be enabled separately"
+      ],
+      "tags": [
+        "prompt shields",
+        "prompt injection",
+        "xpi detection",
+        "security"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI evaluation tool renamed to evaluation",
+      "description": "The AI test tool is now referred to as AI development toolkit evaluation to reflect it is part of the broader toolkit. Provides data-driven AI evaluations for Copilot and agent development.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 546.6,
+      "t_end": 629,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "evaluations",
+        "testing",
+        "naming"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Evaluation suite configurations",
+      "description": "New feature to define and manage evaluation suite configurations with standardized parameters: capability, test type, and execution frequency (daily, weekly, manual). Configurations are extensible and can be used in APIs and pipelines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 656.2,
+      "t_end": 719.6,
+      "is_demoed": true,
+      "caveats": [
+        "Configuration does not automatically run evaluations, requires manual uptake in pipelines",
+        "Frequency enum is extensible"
+      ],
+      "tags": [
+        "evaluations",
+        "configurations",
+        "automation",
+        "pipelines"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Multi-language evaluation support",
+      "description": "Built-in language support for evaluations allowing developers to test Copilot and agent features globally. Test inputs are now categorized by languages, allowing developers to specify language and name in data sets and run evaluations across multiple languages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 753.2,
+      "t_end": 864.4,
+      "is_demoed": true,
+      "caveats": [
+        "Data set names must be common across languages for tool recognition",
+        "Requires specifying name and language in data sets"
+      ],
+      "tags": [
+        "multi-language",
+        "evaluations",
+        "globalization",
+        "test data"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Copilot credit insights in evaluations",
+      "description": "Developers can now see Copilot credit consumption for evaluations broken down per run, per line, and per data set entry. Credits used are visible directly in the evaluation results and log entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 864.4,
+      "t_end": 914.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot credits",
+        "insights",
+        "consumption",
+        "evaluations",
+        "monitoring"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent evaluation support",
+      "description": "Developers can build and validate AI agents in Business Central by selecting agents to run in evaluations, inspecting agent tasks per run, line, and data set entry. Developers can inspect which tasks were created during agent runs, visible at run, line, and individual data entry levels.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 922,
+      "t_end": 1009.3,
+      "is_demoed": true,
+      "caveats": [
+        "Early stages",
+        "Agent library coming soon"
+      ],
+      "tags": [
+        "agents",
+        "evaluations",
+        "validation",
+        "ai agents",
+        "task inspection"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent library",
+      "description": "Upcoming capability to provide additional agent evaluation options for testing agents in the AI Development Toolkit.",
+      "status": "announced",
+      "status_evidence_t": 947.3,
+      "status_evidence_quote": "very soon we'll have an agent library coming giving you even more capabilities to test agents",
+      "status_evidence_verified": true,
+      "t_start": 947.3,
+      "t_end": 957.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "agents",
+        "agent library",
+        "roadmap"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Azure Open AI policy parameters",
+      "t": 423.2
+    },
+    {
+      "type": "codeunit",
+      "name": "agent test test context code unit",
+      "t": 997.1
+    },
+    {
+      "type": "other",
+      "name": "test context",
+      "t": 1009.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Peter",
+      "confidence": "high"
+    },
+    {
+      "name": "Steen",
+      "confidence": "high"
+    },
+    {
+      "name": "Steve",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 24.4,
+      "text": "the toolkit now does not just support the ability to use azure open ai to use llms from al code",
+      "why_it_matters": "Explains the scope expansion of the toolkit from LLM usage to full agent development capabilities.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 55.4,
+      "text": "The latter has actually been in public preview since the beginning of February. We've already seen almost 1,500 agents being built by the community",
+      "why_it_matters": "Documents the preview status and adoption level of the agent development feature.",
+      "check": "exact"
+    },
+    {
+      "t": 209.8,
+      "text": "we have now removed that requirement. So, when you authenticate or authorize in code using the set managed resource authorization we now have a",
+      "why_it_matters": "Indicates a breaking change to the API that simplifies authentication for BC AI Resources.",
+      "check": "exact"
+    },
+    {
+      "t": 338.4,
+      "text": "We have added support for only low and medium content filtering policies. Where low is the default and actually the the setup that will",
+      "why_it_matters": "Clarifies the supported content filtering levels and explains the default safe setting.",
+      "check": "exact"
+    },
+    {
+      "t": 371.9,
+      "text": "We do not support the high setting, basically passing the most harmful content. That is something that you can have if you're using your",
+      "why_it_matters": "Documents an explicit limitation of managed resources regarding content filtering.",
+      "check": "exact"
+    },
+    {
+      "t": 576.5,
+      "text": "the first thing you'll probably notice is the terminology change from evaluation or from tests to evaluations. And this is also represented throughout the",
+      "why_it_matters": "Announces the naming change from tests to evaluations across the toolkit.",
+      "check": "exact"
+    },
+    {
+      "t": 707.5,
+      "text": "you can set the run frequency to daily or weekly or manual. And this is an extensible enum, so you can extend with your",
+      "why_it_matters": "Describes the extensibility of the frequency configuration enum.",
+      "check": "exact"
+    },
+    {
+      "t": 800.1,
+      "text": "you can now see that they are categorized by languages",
+      "why_it_matters": "Demonstrates that multi-language test organization is now implemented in the evaluation suite.",
+      "check": "exact"
+    },
+    {
+      "t": 874.7,
+      "text": "Copilot credit insights to help you understand AI consumptions for evaluations",
+      "why_it_matters": "Establishes the new capability for monitoring and tracking AI token usage costs during evaluations.",
+      "check": "exact"
+    },
+    {
+      "t": 922,
+      "text": "This is still in the early stages, but now you can build and validate AI agents in BC",
+      "why_it_matters": "Clarifies that agent evaluation support is in early preview stage, setting expectations for maturity level.",
+      "check": "exact"
+    },
+    {
+      "t": 947.3,
+      "text": "very soon we'll have an agent library coming giving you even more capabilities to test agents",
+      "why_it_matters": "Signals roadmap item for enhanced agent testing features not yet available.",
+      "check": "exact"
+    },
+    {
+      "t": 1059.8,
+      "text": "we now have changed the name of what was before the development tools for extending Copilot Business Central or just a Copilot tool kit",
+      "why_it_matters": "Documents the rebranding of the toolkit to reflect its broader AI capabilities beyond Copilot extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 1074.5,
+      "text": "you no longer have to pass the your partner as your OpenAI subscription when you are using the built-in AI resources",
+      "why_it_matters": "Key operational change reducing deployment friction by eliminating external OpenAI subscription requirement.",
+      "check": "exact"
+    },
+    {
+      "t": 1088.2,
+      "text": "flexibility you have for setting the Azure OpenAI policies specifically for content filtering on harmful content as well as um the X P I",
+      "why_it_matters": "Identifies security hardening capabilities for AI feature deployment and content moderation.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 55.4,
+      "kind": "preview",
+      "text": "The agent development capability has been in public preview since the beginning of February."
+    },
+    {
+      "t": 922,
+      "kind": "preview",
+      "text": "agent evaluation support is still in the early stages"
+    },
+    {
+      "t": 947.3,
+      "kind": "coming-later",
+      "text": "agent library coming giving you even more capabilities to test agents"
+    },
+    {
+      "t": 1032,
+      "kind": "preview",
+      "text": "agents that we just introduced in public preview"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 14,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 10
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0136565
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021535
+    }
+  ]
+}

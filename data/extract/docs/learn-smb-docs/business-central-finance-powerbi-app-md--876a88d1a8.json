@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-powerbi-app.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-app",
+  "title": "Finance Power BI app",
+  "blob": "c2bfe2b795475a0246c90097be5e1d62e6031643",
+  "summary": "The Finance Power BI app provides embedded Power BI reports for analyzing finance data without leaving Business Central. It offers interactive dashboards with KPIs for executives, detailed reports for managers, and operational reports for finance staff.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "financial analytics",
+    "kpi",
+    "dashboards",
+    "reports"
+  ],
+  "objects": [],
+  "features": [
+    "Financial Overview report",
+    "Profitability report",
+    "Budget Comparison report",
+    "Aged Receivables report",
+    "G/L account categories",
+    "embedded Power BI reports"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007077,
+      "pages_in_call": 7
+    }
+  ]
+}
