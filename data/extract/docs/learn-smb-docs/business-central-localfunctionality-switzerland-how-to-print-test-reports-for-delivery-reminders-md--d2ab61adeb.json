@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders",
+  "title": "Print test reports for delivery reminders [CH]",
+  "blob": "017ffeadf4bf674892f0b1c1b0b0b054315005b8",
+  "summary": "Delivery Reminder - Test report for the Swiss version allows reviewing and modifying delivery reminders before issuing them. Use this to preview delivery reminder documents.",
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "delivery reminders",
+    "swiss",
+    "test reports",
+    "purchasing"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Delivery Reminder - Test"
+    }
+  ],
+  "features": [
+    "test report printing",
+    "delivery reminder preview",
+    "selective filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002137,
+      "pages_in_call": 8
+    }
+  ]
+}

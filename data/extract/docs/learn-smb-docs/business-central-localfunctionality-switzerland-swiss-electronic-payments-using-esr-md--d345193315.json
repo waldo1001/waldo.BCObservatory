@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-esr.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-esr",
+  "title": "Swiss Electronic Payments Using ESR [CH]",
+  "blob": "9d7c5729c6eded2800be7c6ede9f8592882a9524",
+  "summary": "ESR (Einzahlungsschein mit Referenznummer) electronic payment method for Swiss invoices in CHF and EUR with automatic payment application and bank file import capabilities. Use this for Swiss electronic payment processing.",
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "esr",
+    "swiss electronic payments",
+    "payment processing"
+  ],
+  "objects": [],
+  "features": [
+    "ESR payment slips",
+    "unique reference numbers",
+    "automatic payment application",
+    "bank file download",
+    "ESR file import",
+    "invoice form adjustment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002137,
+      "pages_in_call": 8
+    }
+  ]
+}

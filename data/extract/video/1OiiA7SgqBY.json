@@ -1,0 +1,143 @@
+{
+  "video_id": "1OiiA7SgqBY",
+  "item_id": "video/yt-microsoft/1OiiA7SgqBY",
+  "title": "#BCTalent Stories: SOCITAS",
+  "duration_s": 107,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "talent recruitment",
+    "team growth",
+    "business central capabilities",
+    "api integration",
+    "partner program",
+    "career development",
+    "skill development"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Career Motivation",
+      "t_start": 0,
+      "t_end": 23.2
+    },
+    {
+      "title": "Talent Recruitment Journey and Business Central Capabilities",
+      "t_start": 23.2,
+      "t_end": 43.3
+    },
+    {
+      "title": "Team Growth and Hiring Success",
+      "t_start": 43.3,
+      "t_end": 63.5
+    },
+    {
+      "title": "Program Recommendation and Vision",
+      "t_start": 63.5,
+      "t_end": 107
+    }
+  ],
+  "features": [
+    {
+      "name": "API and AI Model Integration",
+      "description": "The ability to use APIs with AI models to improve business processes within Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 43.3,
+      "t_end": 53,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "api",
+        "ai",
+        "integration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Business Central Performance and Features",
+      "description": "Business Central is described as much faster and more feature-rich compared to other ERP solutions with extensive possibilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 43.3,
+      "t_end": 53,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "capabilities"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "First speaker (SOCITAS team member)",
+      "confidence": "low"
+    },
+    {
+      "name": "Second speaker (SOCITAS partner/consultant)",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 3,
+      "text": "I've always had a passion of helping people and this is why I'm really glad that I'm able to help people optimizing their processes",
+      "why_it_matters": "Establishes the core motivation for joining the talent program - a desire to help others and optimize business processes.",
+      "check": "exact"
+    },
+    {
+      "t": 23.2,
+      "text": "finding and attracting new people the journey has been amazing really I think we started in the late of Summer last year and needed",
+      "why_it_matters": "Demonstrates the speed and effectiveness of the talent recruitment program, achieving results in just two weeks.",
+      "check": "exact"
+    },
+    {
+      "t": 23.2,
+      "text": "in business Central you have endless possibilities you could use an API with an AI model to improve business processes",
+      "why_it_matters": "Highlights key technical capabilities of Business Central including API integration and AI model support.",
+      "check": "snapped"
+    },
+    {
+      "t": 43.3,
+      "text": "it's much more fastpac than other VP solution it's the entire team of the business Central they really helped us to find people",
+      "why_it_matters": "Compares Business Central favorably to competitor solutions and credits the team's support in talent recruitment.",
+      "check": "exact"
+    },
+    {
+      "t": 63.5,
+      "text": "we ended up hiring six new talents three consultants and three new developers smooth sailing along the way really a pleasant journey",
+      "why_it_matters": "Quantifies the success of the recruitment effort - six new team members with no significant obstacles.",
+      "check": "exact"
+    },
+    {
+      "t": 83.6,
+      "text": "as a Microsoft partner I would say it's an absolutely no-brainer to join the program as they can find you great talents and bring",
+      "why_it_matters": "Provides strong endorsement from a partner perspective on the value of the talent program.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009341
+    }
+  ]
+}

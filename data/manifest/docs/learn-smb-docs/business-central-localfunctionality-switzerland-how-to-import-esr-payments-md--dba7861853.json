@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-esr-payments",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5946475bc5f270a1953c570f4540423945abff1c",
       "words": 222,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:55.090Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002246
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:55.100Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:55.102Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:56.892Z",
+      "page": false
     }
   },
   "input_hash": "5946475bc5f270a1953c570f4540423945abff1c",
@@ -52,5 +71,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5946475bc5f270a1953c570f4540423945abff1c"
+  "output_hash": "7ca7fa286b56a683dc41c25ce15d513b909c0d20bc49a47af12c11bbe2112af2"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-electronic-payments-using-esr",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9d7c5729c6eded2800be7c6ede9f8592882a9524",
       "words": 241,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:54.445Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002137
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:54.483Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:54.484Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:54.485Z",
+      "page": false
     }
   },
   "input_hash": "9d7c5729c6eded2800be7c6ede9f8592882a9524",
@@ -54,5 +73,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9d7c5729c6eded2800be7c6ede9f8592882a9524"
+  "output_hash": "a3ece678b474341a9ba15bfa1aedaf7065ba084cac918e0a9e84fc07e835eabb"
 }

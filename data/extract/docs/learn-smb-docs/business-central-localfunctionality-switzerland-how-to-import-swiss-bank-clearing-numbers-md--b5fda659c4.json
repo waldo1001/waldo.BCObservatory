@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-import-swiss-bank-clearing-numbers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-swiss-bank-clearing-numbers",
+  "title": "Import Swiss Bank Clearing Numbers [CH]",
+  "blob": "1308ae88c14c726fd1c1b4e59592b2f86b021744",
+  "summary": "Import Swiss bank clearing numbers from SIX Interbank Clearing files to update the Bank Directory table and define bank branch numbers for customers and vendors in the Swiss version.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "bank clearing numbers",
+    "swiss banks",
+    "bank directory",
+    "switzerland",
+    "payment setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Bank Directory"
+    },
+    {
+      "type": "table",
+      "name": "Customer Bank Account"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Bank Account"
+    }
+  ],
+  "features": [
+    "Import Bank Directory action",
+    "Automatically Update Clearing Numbers",
+    "bank branch number definition"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002246,
+      "pages_in_call": 8
+    }
+  ]
+}

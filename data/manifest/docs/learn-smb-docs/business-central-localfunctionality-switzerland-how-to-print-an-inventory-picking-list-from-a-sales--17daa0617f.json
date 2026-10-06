@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d98448e8a0f419b39ed7a402eb187b3a23b398a6",
       "words": 159,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:55.096Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002246
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:56.905Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:56.906Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:56.908Z",
+      "page": false
     }
   },
   "input_hash": "d98448e8a0f419b39ed7a402eb187b3a23b398a6",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d98448e8a0f419b39ed7a402eb187b3a23b398a6"
+  "output_hash": "05dccdf377a42a4fa0dd60602d1493e8094584f4ca224f333574f62e9c64b2e8"
 }

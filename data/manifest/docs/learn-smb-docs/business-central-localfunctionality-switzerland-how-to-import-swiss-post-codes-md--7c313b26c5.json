@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-swiss-post-codes",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4337e23cec30b0f9a105677b27698947a5408bf1",
       "words": 279,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:55.093Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002246
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:56.897Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:56.898Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:56.898Z",
+      "page": false
     }
   },
   "input_hash": "4337e23cec30b0f9a105677b27698947a5408bf1",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4337e23cec30b0f9a105677b27698947a5408bf1"
+  "output_hash": "c83c468d0128c79d3b7ff89bbae5cfbd7d7e2e2927004bd9a423b0991d5193be"
 }

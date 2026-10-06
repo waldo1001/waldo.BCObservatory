@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals",
+  "title": "View temporary balances in GL journals [CH]",
+  "blob": "c36769188667143ed6101366e51efc5ea2606830",
+  "summary": "View temporary balances in general ledger journals for the Swiss version shows how posting would affect account balances including foreign currency amounts. Use this to analyze entries before posting.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "general ledger",
+    "swiss",
+    "temporary balances",
+    "account analysis"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journals"
+    },
+    {
+      "type": "page",
+      "name": "View – G/L Account temp. Balance"
+    },
+    {
+      "type": "table",
+      "name": "Gen. Journal Line"
+    }
+  ],
+  "features": [
+    "temporary balance viewing",
+    "foreign currency support",
+    "posting impact analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002137,
+      "pages_in_call": 8
+    }
+  ]
+}

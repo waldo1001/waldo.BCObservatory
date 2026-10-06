@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-process-an-lsv-collection.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-process-an-lsv-collection",
+  "title": "Process an LSV collection [CH]",
+  "blob": "bb4c784a81d76968626179bacca196054906432f",
+  "summary": "LSV Journal process for creating and processing LSV+ (Lastschrift Verfahren) collection payments from Swiss customers. Use this to register payments, create LSV files, and print collection orders.",
+  "systems": [
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "lsv collection",
+    "swiss electronic payments",
+    "customer payments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "LSV Journal List"
+    },
+    {
+      "type": "page",
+      "name": "LSV Journal"
+    },
+    {
+      "type": "table",
+      "name": "LSV Journal"
+    },
+    {
+      "type": "table",
+      "name": "LSV Journal Line"
+    }
+  ],
+  "features": [
+    "LSV journal creation",
+    "LSV suggest collection batch job",
+    "payment registration",
+    "LSV file creation",
+    "collection order printing",
+    "discount marking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002137,
+      "pages_in_call": 8
+    }
+  ]
+}

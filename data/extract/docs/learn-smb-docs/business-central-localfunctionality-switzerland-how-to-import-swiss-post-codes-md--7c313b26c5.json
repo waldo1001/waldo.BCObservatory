@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-swiss-post-codes",
+  "title": "How to import Swiss post codes [CH]",
+  "blob": "4337e23cec30b0f9a105677b27698947a5408bf1",
+  "summary": "Import the latest Swiss post code file from Swiss Post to update the Post Code table and define post codes for customers and vendors in the Swiss version.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "post codes",
+    "switzerland",
+    "address management",
+    "postal codes"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Post Codes"
+    },
+    {
+      "type": "table",
+      "name": "Post Code"
+    }
+  ],
+  "features": [
+    "Import Post Codes action",
+    "automatic city and country population"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002246,
+      "pages_in_call": 8
+    }
+  ]
+}

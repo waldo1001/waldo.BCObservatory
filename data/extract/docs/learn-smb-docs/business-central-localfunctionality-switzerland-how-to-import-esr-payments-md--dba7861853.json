@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-import-esr-payments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-import-esr-payments",
+  "title": "Import ESR Payments [CH]",
+  "blob": "5946475bc5f270a1953c570f4540423945abff1c",
+  "summary": "Import ESR (Einzahlungsschein mit Referenznummer) payments from bank files into cash receipt journals for automatic matching with invoices using unique ESR reference numbers in the Swiss version.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "esr payments",
+    "cash receipt",
+    "electronic payments",
+    "switzerland",
+    "payment import"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cash Receipt Journals"
+    },
+    {
+      "type": "table",
+      "name": "ESR Setup"
+    }
+  ],
+  "features": [
+    "Read ESR File action",
+    "automatic payment application",
+    "ESR reference matching"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002246,
+      "pages_in_call": 8
+    }
+  ]
+}

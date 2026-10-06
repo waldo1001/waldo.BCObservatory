@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Mike Morton on the Business Central talent gap",
   "url": "https://www.youtube.com/watch?v=xk3JFul0HfM",
-  "published_at": null,
+  "published_at": "2024-08-08T09:57:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:27:44.776Z",
+      "captions": "auto:en-orig",
+      "duration_s": 101
+    },
+    "captioned": {
+      "at": "2026-10-06T19:27:54.282Z",
+      "path": "data/captions/microsoft/xk3JFul0HfM.vtt",
+      "vtt_sha256": "13e5c08fca384b52d5e3bafb111bb771ebcfa370bfb034d072e9521a34f79cca",
+      "segments": 6,
+      "words": 286,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 380,
-    "duration_s": 102,
-    "via": "reconcile"
-  }
+    "duration_s": 101,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "13e5c08fca384b52d5e3bafb111bb771ebcfa370bfb034d072e9521a34f79cca"
 }

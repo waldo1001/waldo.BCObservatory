@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order",
+  "title": "Print an Inventory Picking List from a Sales Order in Switzerland",
+  "blob": "d98448e8a0f419b39ed7a402eb187b3a23b398a6",
+  "summary": "Print inventory picking lists directly from sales orders showing bin codes, location codes, serial numbers, and quantities for items with shipping quantity greater than zero in the Swiss version.",
+  "systems": [
+    "warehouse",
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "picking list",
+    "sales orders",
+    "inventory",
+    "switzerland"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Orders"
+    }
+  ],
+  "features": [
+    "Picking List action",
+    "bin code display",
+    "serial number tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002246,
+      "pages_in_call": 8
+    }
+  ]
+}

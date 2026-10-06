@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-post-lsv-payments",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "384e417c4b84c962b323586d7071a3b703dee21e",
       "words": 252,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:55.095Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002246
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:56.902Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:56.903Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:56.904Z",
+      "page": false
     }
   },
   "input_hash": "384e417c4b84c962b323586d7071a3b703dee21e",
@@ -65,5 +84,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "384e417c4b84c962b323586d7071a3b703dee21e"
+  "output_hash": "9f2d185b7158546622d5ec6263665bc95829b69b0d95cf7c79098c9fd07779f2"
 }

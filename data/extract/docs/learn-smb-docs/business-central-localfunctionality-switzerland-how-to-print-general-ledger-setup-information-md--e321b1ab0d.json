@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information",
+  "title": "Print General Ledger Setup Information [CH]",
+  "blob": "5ca7ed9907881f4fa39d50868725842d2a026bb1",
+  "summary": "Run the G/L Setup Information report to display and verify master data for general ledger setup, posting groups, VAT setup, and number series compliance in the Swiss version.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "general ledger setup",
+    "posting groups",
+    "vat setup",
+    "switzerland",
+    "gdpdu compliance"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "G/L Setup Information"
+    }
+  ],
+  "features": [
+    "G/L Setup display",
+    "Posting Groups report",
+    "Posting Matrix report",
+    "VAT Setup report",
+    "Check Number Series",
+    "GDPdU compliance"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002246,
+      "pages_in_call": 8
+    }
+  ]
+}

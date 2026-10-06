@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-issue-delivery-reminders",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "472de4eb3eaf43c5a5a0cd7129d4bf732ee9ee07",
       "words": 27,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:55.094Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002246
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:56.899Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:56.900Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:56.901Z",
+      "page": false
     }
   },
   "input_hash": "472de4eb3eaf43c5a5a0cd7129d4bf732ee9ee07",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "472de4eb3eaf43c5a5a0cd7129d4bf732ee9ee07"
+  "output_hash": "61b793ef8f49ddf62b8ba56ffe05506b35170d032cdd49986031e40a23c7b397"
 }
