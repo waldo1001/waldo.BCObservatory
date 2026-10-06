@@ -165,3 +165,12 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   Haiku summary stands, as for Learn pages, halving the backfill cost. `published` writes
   `content/posts/<source>/<key>.md` (`frontmatter.post`), `posts/llms.txt` and site routes. Opted-in full-text
   sources are not trimmed but still show derived content only. Measured: ~$0.03 a post. Scrape-only sources wait.
+- **D35 MCP server reads the published site; the index is page metadata, not a serialised search index.** The
+  pipeline writes `data/index/pages-<n>.json` (path, type, title, summary, tier, system, real dates, tags, a few type
+  facts) + `index-manifest.json` with sha256 per shard; the site serves them and the W1 version diffs. `packages/mcp`
+  (`bc-observatory`, MCP SDK 1.32, zod 4) caches shards by hash, builds MiniSearch in memory (~0.3 s for 17k pages)
+  and reads pages through their markdown twins; `BC_OBSERVATORY_LOCAL` reads a checkout instead. Tools: search, ls,
+  cat, get_object, diff_object, localization, whats_new, blog_footprint, feedback (prefilled issue URL, no auth).
+  `plugin/` (MCP + skills bc-lookup, bc-whats-new, bc-localization) and `.claude-plugin/marketplace.json`. The root
+  package is renamed `@bc-observatory/repo` so the MCP package can be `bc-observatory`. Publishing to npm waits for
+  the owner's Trusted Publishing setup (PLAN gate 7).

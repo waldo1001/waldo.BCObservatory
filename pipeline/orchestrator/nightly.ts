@@ -45,6 +45,7 @@ import { PIPELINE_VERSION } from "../version.js";
 import { STAGE_HANDLERS } from "./stages.js";
 import { renderVideoIndex, rerenderVideoPages } from "../render/video.js";
 import { renderPostIndex } from "../render/post.js";
+import { renderSearchIndex } from "../render/search.js";
 import { renderTopics } from "../render/topic.js";
 import { renderFeatureIndex, rerenderFeaturePages } from "../render/feature.js";
 import { linkRoadmap, type LinkRun } from "../link/roadmap.js";
@@ -240,6 +241,7 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
       concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
       reviewQuota: report.execution.stop_reason === "done" ? Math.max(0, (quotas.opus_reviews ?? 0) - (execution.quota_charged.opus_reviews ?? 0)) : 0,
     });
+    try { renderSearchIndex(contentDirOf(opts), opts.dataDir); } catch (e) { errors.push(`search index: ${(e as Error).message.slice(0, 200)}`); }
     errors.push(...execution.errors);
     report.plan = {
       quotas, work: plan.work.length, executed: execution.items_touched, skips: plan.skips.length, quota_use: plan.quota_use,

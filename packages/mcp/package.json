@@ -1,0 +1,39 @@
+{
+  "name": "bc-observatory",
+  "version": "0.1.0",
+  "description": "MCP server for BC Observatory: an agent-first, cross-referenced knowledge base of Microsoft Dynamics 365 Business Central (Learn, code, roadmap, videos, community blogs).",
+  "type": "module",
+  "bin": {
+    "bc-observatory": "dist/server.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldo1001/waldo.BCObservatory.git",
+    "directory": "packages/mcp"
+  },
+  "homepage": "https://waldo1001.github.io/waldo.BCObservatory/",
+  "keywords": [
+    "mcp",
+    "business-central",
+    "dynamics-365",
+    "al",
+    "model-context-protocol"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && chmod +x dist/server.js",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "minisearch": "^7.2.0",
+    "zod": "^4.6.5"
+  }
+}

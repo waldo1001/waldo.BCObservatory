@@ -1,5 +1,5 @@
 {
-  "name": "bc-observatory",
+  "name": "@bc-observatory/repo",
   "version": "0.1.0",
   "private": true,
   "description": "BC Observatory: an agent-first, cross-referenced knowledge base of Microsoft Dynamics 365 Business Central, woven from docs, code, guidelines, videos and blogs.",
@@ -13,7 +13,7 @@
     "validate:sources": "tsx pipeline/validate/sources-cli.ts",
     "validate:content": "tsx pipeline/validate/content-cli.ts",
     "check:leak": "tsx pipeline/validate/leak-cli.ts",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "tsc --noEmit && tsc -p packages/mcp/tsconfig.json --noEmit",
     "test": "tsx --test tests/**/*.test.ts",
     "site:dev": "npm --workspace site run dev",
     "site:build": "npm --workspace site run build",
