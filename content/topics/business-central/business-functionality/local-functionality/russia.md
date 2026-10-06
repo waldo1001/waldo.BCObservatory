@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T15:41:44.868Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3088ae031847d24ced499212d5125471e1b7a34a4dd2c0963676e2e9556db395
@@ -317,6 +317,6 @@ Path: [Business functionality](../../business-functionality.md) > [Local functio
 
 - [Bank management in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/bank-management): Bank management features for Russia, including bank directories, budget classifications, and document processing.
 - [Bill of Lading [RU]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/bill-of-lading): Enhancements for Bill of Lading documents in the Russian version of Business Central.
-- [Russia local functionality](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/russia-local-functionality): The following articles describe the local functionality in the Russian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
+- [Russia local functionality](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/russia-local-functionality): The following articles describe the local functionality in the Russian version of Business Central.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

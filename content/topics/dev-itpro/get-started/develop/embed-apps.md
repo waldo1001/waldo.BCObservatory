@@ -11,7 +11,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T15:41:44.868Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d5a350c51243fce5014e7ad7c451d8d438d9d53e09cac00520b37a8b905464cf
@@ -139,6 +139,6 @@ Path: [Get started](../../get-started.md) > [Develop](../develop.md) > Embed app
 
 - [Embed app overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/embed-app-overview): Provides an overview of Embed App in Business Central
 - [Embed App Qualification and Onboarding of partners](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/embed-app-qualifications-onboarding): Learn about the qualification and onboarding of partners to the Embed App program.
-- [Using Application Family in Embed App](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/embed-app-using-application-family): Learn how to use the application family in [!INCLUDE[embed app](../developer/includes/embedapp.md)].
+- [Using Application Family in Embed App](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/embed-app-using-application-family): Learn how to use the application family in embed app.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

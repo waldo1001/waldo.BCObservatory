@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T15:41:44.868Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: cabc1ebdad2c28f7b5ef90efdc3c8a47b37b5a1a25e07cc25351374635a73e45
@@ -80,6 +80,6 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 
 - [Report data type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/report-data-type): Is used to display, print, or process information from a database.
 - [Report Property Reference in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-report-properties): Find AL property references for report objects, data items, columns, layouts, and request pages in Dynamics 365 Business Central.
-- [Report, Report fields, and Report extension properties](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-report-property-overview): This article lists properties that apply to the [report object](../devenv-report-object.md), report fields, and [report extension object](../devenv-report-ext-object.md).
+- [Report, Report fields, and Report extension properties](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-report-property-overview): This article lists properties that apply to the [report object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object), report fields, and [report extension object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-ext-object).
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.
