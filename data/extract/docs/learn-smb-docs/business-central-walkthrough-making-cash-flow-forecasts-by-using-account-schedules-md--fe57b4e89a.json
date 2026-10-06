@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-making-cash-flow-forecasts-by-using-account-schedules",
+  "title": "Make cash flow forecasts using financial reports",
+  "blob": "f3d516095d79bbcf53f29370b1e457caa2c0ff56",
+  "summary": "Walkthrough for creating cash flow forecasts using financial reports with row and column definitions. Use this to set up cash flow forecasting reports with receipt and disbursement analysis.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "cash flow",
+    "forecasting",
+    "financial reporting",
+    "analysis"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Financial Reports"
+    },
+    {
+      "type": "page",
+      "name": "Row Definition"
+    }
+  ],
+  "features": [
+    "row definitions",
+    "column definitions",
+    "cash flow accounts",
+    "forecast formulas",
+    "printing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00441,
+      "pages_in_call": 8
+    }
+  ]
+}

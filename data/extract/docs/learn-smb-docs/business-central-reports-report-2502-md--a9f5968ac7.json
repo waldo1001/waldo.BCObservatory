@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-2502.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-2502",
+  "title": "Day Book Vendor Ledger Entry (report)",
+  "blob": "dad6e9228253f2dd78f93dda3f317917f899bff3",
+  "summary": "Day Book Vendor Ledger Entry report showing chronological vendor transactions grouped by posting date. Use this for periodic vendor review, audit documentation, and accounts payable activity verification.",
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "reporting",
+    "vendor ledger",
+    "audit trail",
+    "accounts payable"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Day Book Vendor Ledger Entry"
+    }
+  ],
+  "features": [
+    "chronological listing",
+    "posting date grouping",
+    "ledger entry details",
+    "discount tracking",
+    "tax reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00441,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "video_id": "QGIr_XPp8lk",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.8,
+      "end": 27.3,
+      "text": "Welcome to this business central launch event and this session about extending e documents with new interfaces. Today I will uh talk to you about the technical updates for building integrations with the e document framework that are released in uh 2025 wave 1 also known as version 26."
+    },
+    {
+      "t": 27.3,
+      "end": 43.1,
+      "text": "This session is especially relevant to you if uh you want to build a connector and haven't done that yet with the e document framework but also especially if you have built a connector maybe even released it already then this session is really good to watch."
+    },
+    {
+      "t": 43.1,
+      "end": 56.3,
+      "text": "I also want to recommend watching our previous BCLE sessions on what's new in E documents that is for release 2024 wave 1 and wave two because those sessions are more in depth."
+    },
+    {
+      "t": 56.3,
+      "end": 72.6,
+      "text": "Uh they both cover the highle aspects but also the technical bits in greater detail than what we will do in today's session. Today's session I will be uh going mainly into the updates and what you need to be aware of with the new releases of these interfaces."
+    },
+    {
+      "t": 72.6,
+      "end": 85.8,
+      "text": "So without further ado, let's dive into it. So the framework before this release had uh one integration interface that you would need uh to uh implement when you build a connector."
+    },
+    {
+      "t": 85.8,
+      "end": 96.1,
+      "text": "So this interface had two main functions for sending and receiving e documents and for approval and cancellation actions for send e"
+    },
+    {
+      "t": 96.1,
+      "end": 110.5,
+      "text": "documents. But why are we doing these changes? Well, there were some challenges in the existing model that we first released. First of all, we didn't have any uh proper error handling when doing the receiving logic in the framework."
+    },
+    {
+      "t": 110.5,
+      "end": 122.5,
+      "text": "And that will mean that if you for instance were trying to reach a service that is currently unavailable, we wouldn't uh be able to handle the framework logic properly."
+    },
+    {
+      "t": 122.5,
+      "end": 139.6,
+      "text": "Then we also had some incomplete integration design that we wanted uh to improve. Currently in the old version it was patched with some isandled events that we we uh yeah we we dis like this approach and we wanted to to get rid of uh for the e document framework."
+    },
+    {
+      "t": 139.6,
+      "end": 153.5,
+      "text": "And then of course also from feedback uh that were partners that we uh talked with that that told us that there are lack of support for more advanced uh connector scenarios and they would like to see those improvements"
+    },
+    {
+      "t": 153.5,
+      "end": 171.1,
+      "text": "uh for their connectors. So from uh the last few months where we've done a lot of partner collaboration with the new connectors we're shipping and the feedback through uh Yammer and other sources, we decided that okay this wave is a good good time to to re-engineer this part of the framework."
+    },
+    {
+      "t": 171.1,
+      "end": 183,
+      "text": "So question what is it actually that we we need to solve? Well, first of all, we would like to protect against if an integration service is down, right? We want to remain in control in the framework in the process."
+    },
+    {
+      "t": 183,
+      "end": 200.5,
+      "text": "We want to remain in control there and not uh put the e document in a state uh that is unexpected. And we also want to make sure that if some somehow there are some broken logic in the connector, then we also want to take into account of keeping the state in the in the framework."
+    },
+    {
+      "t": 200.5,
+      "end": 219.1,
+      "text": "Um then of course we want to improve the design and quality of these interfaces now that we're changing them specifically decrease the work that is needed by an implementtor making it more simple and then improving the capabilities that these interfaces gives gives connectors out of the box."
+    },
+    {
+      "t": 219.1,
+      "end": 239.1,
+      "text": "Yeah. And then of course uh we also want to get rid of these uh patches of is handled events that we had to add in uh such that we also get get rid of these uh problems with uh cross implementation where if one bad connector gets installed that doesn't handle these events properly it affects all the connectors and so on."
+    },
+    {
+      "t": 239.1,
+      "end": 259.1,
+      "text": "So the solution or the answer to that is essentially what is new in in this release because we are providing now five new interfaces and don't worry it's uh it is not meant to scare you that there are five because four of them uh the first four is what is the equivalent to the old e document integration in terms"
+    },
+    {
+      "t": 259.1,
+      "end": 273.5,
+      "text": "of uh capabilities they just improved and then they're separated to make each interface more simple to work with and also separate the concerns in the when building the application making it simpler for the"
+    },
+    {
+      "t": 273.5,
+      "end": 288.4,
+      "text": "developer. So this is an improved API design with simplified logic both in the framework but also in in the connectors. And then we added this I document action interface as a way of standardizing document actions."
+    },
+    {
+      "t": 288.4,
+      "end": 303.5,
+      "text": "And what do I mean by that? Well, some connectors might want to do specific calls to their service, do specific actions. Um and we want to give you that opportunity without having to deal with state management in the e document framework."
+    },
+    {
+      "t": 303.5,
+      "end": 317.5,
+      "text": "So we provide this interface where you can implement a custom action just focus on the logic for sending to your service and passing the response and then we will deal with updating the document and all the state"
+    },
+    {
+      "t": 317.5,
+      "end": 332.4,
+      "text": "accordingly. This is of course already updated in our uh current connectors. Aggerero and Avalara is updated and the new ones logic and signup that we're shipping in in this release have also been using these new interfaces."
+    },
+    {
+      "t": 332.4,
+      "end": 349.9,
+      "text": "So that we've already had them through partners that have worked with them and gotten feedback which is really good. So let's dive into a little bit in a little bit more detail how this looks so you really get an understanding of the difference between version 25 and version 26."
+    },
+    {
+      "t": 349.9,
+      "end": 361.6,
+      "text": "So in version 25 we had the e document integration interface that your code unit would implement. In the new version for sending specifically you implement the I document"
+    },
+    {
+      "t": 361.6,
+      "end": 381.7,
+      "text": "sender and the I document sender has the same parameters as before with the exception of the send context code unit that is now provided as the third parameter and this one is just a wrapper for the HTTP response and request information as well as any data that you"
+    },
+    {
+      "t": 381.7,
+      "end": 394.3,
+      "text": "want to send. And as we can see here in the example from Avalara I have with me today. We are reading out the templ from the send context that is provided by the framework in my uh implementation."
+    },
+    {
+      "t": 394.3,
+      "end": 405,
+      "text": "Then I'm sending it off to Avalara getting back the response and storing that document ID that they assigned me. Then we have sending with asynchronous responses."
+    },
+    {
+      "t": 405,
+      "end": 425.2,
+      "text": "Beforehand in the old version again in the the E document integration interface this was a a parameter a sync um now instead we've changed it to be a new interface that you can optionally implement it's called I document response handler and if you implement this one for your solution then you will be using a"
+    },
+    {
+      "t": 425.2,
+      "end": 438.7,
+      "text": "synchronous uh communication and what specifically do I mean with asynchronous in this case just to remind you it is when you send a a document to a service and then they are going to process that document verify that the contents are okay."
+    },
+    {
+      "t": 438.7,
+      "end": 451.9,
+      "text": "Then you said send another request to ask basically verify what I send is it okay and as you can see here it is the get response method that you will be implementing."
+    },
+    {
+      "t": 451.9,
+      "end": 466,
+      "text": "It has the same parameters as the send and uh the the example for my hour is quite straightforward. I just create a request. I send it off and then I I exit the the boolean true or false."
+    },
+    {
+      "t": 466,
+      "end": 485.4,
+      "text": "True if it is actually processed by the server and it's okay or false if they're still uh continuing to process or throwing an error in case that that the server comes back and says that there is an error in the document you sent such that we can handle that in the framework accordingly."
+    },
+    {
+      "t": 485.4,
+      "end": 497.7,
+      "text": "So sending is very similar to what it was before. We have bigger changes in receiving. Still they're quite simple to to migrate, but these is these changes are uh bigger."
+    },
+    {
+      "t": 497.7,
+      "end": 518.1,
+      "text": "So in version 25, we had the receive document and get document count in batch as functions in the interface. And then we had to throw in this is handled event called on after insert imported document for you to go fetch the XML from from the server and attach it to the the E document."
+    },
+    {
+      "t": 518.1,
+      "end": 530.9,
+      "text": "And this was not exactly what we wanted or it was something that was the first version at least and now in the in the new version we have this only handled by by the interface."
+    },
+    {
+      "t": 530.9,
+      "end": 545.1,
+      "text": "So we have two functions that you will implement in the eye document receiver. One of them is called receive documents and the other one is called download document and there is no need for for is handled events"
+    },
+    {
+      "t": 545.1,
+      "end": 556.3,
+      "text": "here to see how it looks. Let's start with the receive documents. So in I document receiver you get the service that you want to receive for then a templ."
+    },
+    {
+      "t": 556.3,
+      "end": 566.3,
+      "text": "So that is a list that you need to fill out with the documents that you get from the service that you are to receive. And these will contain metadata about the documents."
+    },
+    {
+      "t": 566.3,
+      "end": 577.8,
+      "text": "And then a receive context the variable which is the same as before HTTP response and request. And the the data templ is stored in this uh uh receive context."
+    },
+    {
+      "t": 577.8,
+      "end": 592.4,
+      "text": "And as you can see from the Avalara example here, we are getting a response with new documents and then we're iterating over them and we are inserting uh the metadata for each one of them into this"
+    },
+    {
+      "t": 592.4,
+      "end": 611.8,
+      "text": "templ then ensure to create new e documents for each of these metadata objects and that looks like this. So the download document procedure will be called for each one of these and it will have the single templ with the document metadata related to this specific e document."
+    },
+    {
+      "t": 611.8,
+      "end": 622.4,
+      "text": "And the task as you can see here in the example is then to take that metadata and go fetch the actual contents of the E document. So that is the XML. That is what we're doing here."
+    },
+    {
+      "t": 622.4,
+      "end": 633.9,
+      "text": "And we're then storing that in the templ. And that is passed back to the framework. And voila, then you have a e document inside business"
+    },
+    {
+      "t": 633.9,
+      "end": 644.2,
+      "text": "central. Then we have added a new uh new feature or a new or enriched the capabilities of the interfaces with I received document"
+    },
+    {
+      "t": 644.2,
+      "end": 654.9,
+      "text": "marker. This one is to acknowledge that you received something. Some services allow you to send a request saying I received this document so don't send it to me again. essentially"
+    },
+    {
+      "t": 654.9,
+      "end": 675,
+      "text": "uh and this is if you again implement this interface it's optional then you have the ability to to turn that on in your connector and tell the service that you had received a document so essentially your code unit can choose to implement it or not depending on your use case so the"
+    },
+    {
+      "t": 675,
+      "end": 687.7,
+      "text": "key benefits of this is of course the improved API design and this separation of concerns where we have smaller pieces of interfaces is that each deal with different uh smaller problems."
+    },
+    {
+      "t": 687.7,
+      "end": 701.6,
+      "text": "It is a it simplifies the logic both in the connectors but also for us in the framework. It is also safe because now we actually catch errors when HTTP communication fails on the receiving side."
+    },
+    {
+      "t": 701.6,
+      "end": 722,
+      "text": "So then we can continue the the receiving process um as we intended to do. It is all explicit implementation. there are no event uh subscribers essentially allowing for for multiple connectors to being installed without this worry of one connector doing a a bad job of its implementation"
+    },
+    {
+      "t": 722,
+      "end": 735.8,
+      "text": "and affecting the rest. We've seen that and that is feedback we've gotten. Um so it's good to see that this improvement will get rid of it. Yeah. And then also with some of the new interfaces, you can build more advanced connectors."
+    },
+    {
+      "t": 735.8,
+      "end": 749.6,
+      "text": "And then the the final thing, the standardized document actions. Again, focus on writing the logic for sending the request and passing it back and let the framework handle all the state updates."
+    },
+    {
+      "t": 749.6,
+      "end": 761.2,
+      "text": "You just give it the necessary information and our uh framework will will then take care of that and make sure that it's the same user experience across connectors. So what are the next steps for you?"
+    },
+    {
+      "t": 761.2,
+      "end": 773.2,
+      "text": "Right? So now we have these new interfaces. They're available from this release. The old interfaces are deprecated and will be removed in three waves. So that is 2026 wave"
+    },
+    {
+      "t": 773.2,
+      "end": 783.3,
+      "text": "2. Migration to the new ones is simple luckily and uh you can follow the new and improved documentation we've made available on Microsoft learn."
+    },
+    {
+      "t": 783.3,
+      "end": 803.4,
+      "text": "Just follow the link here in the um you can find it on Microsoft learn. It's called extending uh the e documents functionality. Another advice I think you should take with you is also to use the existing connectors to help you build your own because now we have four examples and more"
+    },
+    {
+      "t": 803.4,
+      "end": 818.3,
+      "text": "to come. They are all available on AL app extensions and you can find them under e document connectors and then they will be folder based for each of them. And here you can go and take inspiration and see how different connectors uh does it."
+    },
+    {
+      "t": 818.3,
+      "end": 827,
+      "text": "And that is essentially everything for me in this session about the new and improved interfaces. Thank you for watching."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2253
+}

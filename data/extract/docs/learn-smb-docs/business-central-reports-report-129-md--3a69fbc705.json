@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-129.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-129",
+  "title": "Customer - Trial Balance (report)",
+  "blob": "b53da3a63c720aed961979d9fe1d28b2f4081f17",
+  "summary": "The Customer - Trial Balance report shows balance details for selected customers including beginning balance, period transactions, and ending balance. Use it to verify customer balances, analyze payment behavior, reconcile with general ledger, and manage collection efforts.",
+  "systems": [
+    "sales",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "customer balance",
+    "trial balance",
+    "accounts receivable",
+    "transaction analysis",
+    "payment behavior"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer - Trial Balance"
+    },
+    {
+      "type": "report",
+      "name": "Customer Detail Trial Balance"
+    }
+  ],
+  "features": [
+    "balance details",
+    "date range filtering",
+    "currency options",
+    "transaction history",
+    "collection prioritization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002247,
+      "pages_in_call": 8
+    }
+  ]
+}

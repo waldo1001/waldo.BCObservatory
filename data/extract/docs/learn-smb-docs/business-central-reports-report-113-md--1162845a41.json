@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-113.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-113",
+  "title": "Customer/Item Sales (report)",
+  "blob": "7e476f9b1bb83029977b723d0f052273caff9376",
+  "summary": "The Customer/Item Sales report shows total items sold to customers in a period grouped by customer, with invoiced quantities, amounts, discounts, and profit including item charges. Use it to identify best-selling items, analyze sales trends, and compare discount versus sales volume relationships.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "sales analysis",
+    "customer sales",
+    "item sales",
+    "discount analysis",
+    "trend analysis"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer/Item Sales"
+    }
+  ],
+  "features": [
+    "customer grouping",
+    "value entry summation",
+    "discount analysis",
+    "profit margin calculation",
+    "item charges inclusion"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002247,
+      "pages_in_call": 8
+    }
+  ]
+}

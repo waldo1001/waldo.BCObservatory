@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-integrate-financial-reports-with-excel",
   "published_at": "2026-03-09T09:02:54.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a6bf5983b0d03ae61052809934798d90dd3d5324",
       "words": 1367,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:46:55.868Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00441
+    },
+    "summarized": {
+      "at": "2026-10-06T18:46:57.698Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:46:57.699Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:46:57.700Z",
+      "page": false
     }
   },
   "input_hash": "a6bf5983b0d03ae61052809934798d90dd3d5324",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a6bf5983b0d03ae61052809934798d90dd3d5324"
+  "output_hash": "cb46ee061fb6ffb1d2748be76195e3b9f39bbaedff7ae10d98e597637c4414a4"
 }

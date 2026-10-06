@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-2501.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-2501",
+  "title": "Day Book Customer Ledger Entry (report)",
+  "blob": "a4608e5487726c55a219b08fdd35d20c85f9ebd1",
+  "summary": "Day Book Customer Ledger Entry report showing chronological listings of customer transactions grouped by posting date. Use this for daily reconciliation, audit trail reviews, and transaction verification with associated general ledger entry details.",
+  "systems": [
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "reporting",
+    "customer ledger",
+    "audit trail",
+    "reconciliation"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Day Book Customer Ledger Entry"
+    }
+  ],
+  "features": [
+    "chronological listing",
+    "posting date grouping",
+    "ledger entry details",
+    "discount tracking",
+    "tax reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00441,
+      "pages_in_call": 8
+    }
+  ]
+}

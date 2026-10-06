@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules",
   "published_at": "2026-03-08T08:41:46.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "065eed71ec98f480fe7be4a6a733d9fe1c7e7c0d",
       "words": 293,
       "forms": 11
+    },
+    "extracted": {
+      "at": "2026-10-06T18:46:55.869Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.00441
+    },
+    "summarized": {
+      "at": "2026-10-06T18:46:57.705Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:46:57.706Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:46:57.708Z",
+      "page": false
     }
   },
   "input_hash": "065eed71ec98f480fe7be4a6a733d9fe1c7e7c0d",
@@ -91,5 +110,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "065eed71ec98f480fe7be4a6a733d9fe1c7e7c0d"
+  "output_hash": "106a98e8cb193a00bfd7534ca95c9dece61d49509e9199e1a5efdc4a9361a235"
 }

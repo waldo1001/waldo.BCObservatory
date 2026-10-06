@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-708.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-708",
+  "title": "Inventory Order Details (report)",
+  "blob": "b8408c023db85a1e1c25d67a65f7f8dfb97e1c07",
+  "summary": "The Inventory Order Details report shows each sales order with line-level breakdown including order number, customer, shipment date, quantities, and unit price with unfulfilled shipments and discounts. Use it to track order status, spot shipment issues, and prioritize orders.",
+  "systems": [
+    "sales",
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "sales orders",
+    "order tracking",
+    "shipment status",
+    "order fulfillment",
+    "back orders"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Inventory Order Details"
+    }
+  ],
+  "features": [
+    "order line breakdown",
+    "shipment date tracking",
+    "quantity analysis",
+    "back order identification",
+    "discount application"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002247,
+      "pages_in_call": 8
+    }
+  ]
+}

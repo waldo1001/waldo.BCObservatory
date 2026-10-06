@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Extending E-Documents with New Interface (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=QGIr_XPp8lk",
-  "published_at": null,
+  "published_at": "2025-04-01T15:00:29.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T18:46:39.881Z",
+      "captions": "auto:en-orig",
+      "duration_s": 827
+    },
+    "captioned": {
+      "at": "2026-10-06T18:46:45.324Z",
+      "path": "data/captions/microsoft/QGIr_XPp8lk.vtt",
+      "vtt_sha256": "bba58f3bacd064d116ee968d02194f35308947242e4d1e850b4c4f9113cf6922",
+      "segments": 56,
+      "words": 2253,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 264,
     "duration_s": 827,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bba58f3bacd064d116ee968d02194f35308947242e4d1e850b4c4f9113cf6922"
 }

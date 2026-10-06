@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-718.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-718",
+  "title": "Inventory Sales Back Orders (report)",
+  "blob": "caaa90cd28fea6e62f1a2701645135b64236f9b9",
+  "summary": "The Inventory Sales Back Orders report shows sales lines where outstanding quantity cannot be fulfilled by the shipment date, grouped by item with customer details and back-order quantities. Use it to keep customers informed, prioritize delayed orders, and identify fulfillment issues.",
+  "systems": [
+    "sales",
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "back orders",
+    "order fulfillment",
+    "shipment delays",
+    "customer communication",
+    "order prioritization"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Inventory Sales Back Orders"
+    }
+  ],
+  "features": [
+    "back order identification",
+    "customer grouping",
+    "shipment date comparison",
+    "order quantity tracking",
+    "delay analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002247,
+      "pages_in_call": 8
+    }
+  ]
+}

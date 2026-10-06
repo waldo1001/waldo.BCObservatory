@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-813.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-813",
+  "title": "Inventory Picking List (report)",
+  "blob": "a2356fc9c8fbe7ebbbf0148e2a80645bf3155433",
+  "summary": "The Inventory Picking List report shows sales orders containing a particular item with customer name, location, bin code, shipment date, and quantity to ship. Use it to streamline picking processes, assign warehouse tasks, and optimize order fulfillment.",
+  "systems": [
+    "sales",
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "picking operations",
+    "warehouse management",
+    "order fulfillment",
+    "inventory location",
+    "shipment"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Inventory Picking List"
+    }
+  ],
+  "features": [
+    "item picking",
+    "location tracking",
+    "bin code display",
+    "quantity aggregation",
+    "warehouse assignment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002247,
+      "pages_in_call": 8
+    }
+  ]
+}

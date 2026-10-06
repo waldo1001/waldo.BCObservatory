@@ -1,0 +1,217 @@
+{
+  "video_id": "RU3D3RMAvVI",
+  "item_id": "video/yt-microsoft/RU3D3RMAvVI",
+  "title": "What's New: Power BI Embedding (For Developers) (2025 release wave 1)",
+  "duration_s": 496,
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "power bi embedding",
+    "user control host",
+    "page type",
+    "control addin",
+    "ui improvements",
+    "developer experience",
+    "al development"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 45.8
+    },
+    {
+      "title": "Power BI Embed UI Improvements",
+      "t_start": 45.8,
+      "t_end": 134.6
+    },
+    {
+      "title": "Demo: Power BI Report Comparison",
+      "t_start": 134.6,
+      "t_end": 222
+    },
+    {
+      "title": "User Control Host Page Type Overview",
+      "t_start": 222,
+      "t_end": 280
+    },
+    {
+      "title": "Developer Demo: Migrating to User Control Host",
+      "t_start": 280,
+      "t_end": 417.9
+    },
+    {
+      "title": "Live Demo and Conclusion",
+      "t_start": 417.9,
+      "t_end": 496
+    }
+  ],
+  "features": [
+    {
+      "name": "Improved Power BI Embed User Interface",
+      "description": "Enhanced visual presentation of Power BI reports embedded in Business Central with cleaner UI, better margins, and optimized spacing that removes unnecessary buttons.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 45.8,
+      "t_end": 186.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "ui",
+        "embedding",
+        "reports"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "User Control Host Page Type",
+      "description": "New AL page type designed specifically for hosting user controls and control addins. Removes unnecessary properties and triggers that don't apply to control addin contexts, providing a simpler development experience with optimized UI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 222,
+      "t_end": 280,
+      "is_demoed": true,
+      "caveats": [
+        "Actions are not currently supported in user control host pages",
+        "Source table property is not supported",
+        "Insertion, modification, and deletion properties do not apply"
+      ],
+      "tags": [
+        "page type",
+        "control addin",
+        "al",
+        "user control"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Simplified Property Model for User Control Host",
+      "description": "User control host page type removes unsupported properties such as source table, insertion allowed, modification allowed, deletion allowed, and event triggers like on after get record that are not applicable to control addin scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 356.2,
+      "t_end": 395,
+      "is_demoed": true,
+      "caveats": [
+        "Actions not yet supported but may be considered for future"
+      ],
+      "tags": [
+        "page type",
+        "al",
+        "properties",
+        "control addin"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Power BI Report Reflow and Responsive Design",
+      "description": "Control addins using the new user control host page type dynamically reflow and resize to take necessary space within the Business Central page, with improved handling of margins and spacing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 157.7,
+      "t_end": 186.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "responsive design",
+        "control addin",
+        "power bi",
+        "ui"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Finance Report",
+      "t": 98.1
+    },
+    {
+      "type": "page",
+      "name": "User Control Host Demo",
+      "t": 429.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Niko Chimitan",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 64.8,
+      "text": "we had a lot around 70 to 80 new reports included in Business Central um in the last few waves.",
+      "why_it_matters": "Shows the scale of Power BI integration in Business Central - dozens of new reports are benefiting from these embedding improvements.",
+      "check": "exact"
+    },
+    {
+      "t": 111.1,
+      "text": "the report is going to look nice in a couple of seconds when it loads. But the UI around it is just a bit",
+      "why_it_matters": "Identifies the specific problems with the old approach that the new improvements address - unnecessary UI elements cluttering the report experience.",
+      "check": "exact"
+    },
+    {
+      "t": 233.4,
+      "text": "a lot of the things and a lot of the controls for example and triggers that don't really apply to a control adin have",
+      "why_it_matters": "Explains the design philosophy behind the user control host page type - removing irrelevant properties simplifies development.",
+      "check": "exact"
+    },
+    {
+      "t": 260.5,
+      "text": "We have more improvements planned for this page type which means um stay tuned and be sure that um you will get more goodness",
+      "why_it_matters": "Indicates that the user control host page type is planned to receive additional enhancements in future releases.",
+      "check": "exact"
+    },
+    {
+      "t": 380.4,
+      "text": "actions are not supported in a user control host. That's because the whole space of the page is taken by the user control itself",
+      "why_it_matters": "Clarifies a key limitation of the current release and the rationale behind it.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 134.6,
+      "kind": "preview",
+      "text": "Business Central in the preview version 26"
+    },
+    {
+      "t": 260.5,
+      "kind": "coming-later",
+      "text": "We have more improvements planned for this page type"
+    },
+    {
+      "t": 380.4,
+      "kind": "subject-to-change",
+      "text": "actions are not supported in a user control host. That's because the whole space of the page is taken by the user control itself rather than by the actions. But of course if you think we should support them in the future"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019974
+    }
+  ]
+}

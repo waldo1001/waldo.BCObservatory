@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-108.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-108",
+  "title": "Customer - Order Detail (report)",
+  "blob": "7285ffe4f924160eb05c499e0fc673848f68af98",
+  "summary": "The Customer - Order Detail report shows each sales order with line-level breakdown by customer including unfulfilled shipments, discounts, and outstanding amounts with back-order quantities. Use it to analyze order backlog, track customer orders, and forecast sales volumes.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "sales orders",
+    "customer orders",
+    "order analysis",
+    "back orders",
+    "outstanding amounts"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Customer - Order Detail"
+    }
+  ],
+  "features": [
+    "customer grouping",
+    "order line breakdown",
+    "shipment date tracking",
+    "discount analysis",
+    "outstanding amount tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002247,
+      "pages_in_call": 8
+    }
+  ]
+}

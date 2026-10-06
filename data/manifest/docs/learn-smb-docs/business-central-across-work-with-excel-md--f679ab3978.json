@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-work-with-excel",
   "published_at": "2026-03-08T08:54:28.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b3555110dc0539e92ef7e45906b7e5b2ea78984a",
       "words": 1250,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:46:55.868Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00441
+    },
+    "summarized": {
+      "at": "2026-10-06T18:46:57.702Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:46:57.703Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:46:57.704Z",
+      "page": false
     }
   },
   "input_hash": "b3555110dc0539e92ef7e45906b7e5b2ea78984a",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b3555110dc0539e92ef7e45906b7e5b2ea78984a"
+  "output_hash": "a5df976e56228d4fcd037bb7c7beb9c776bb6faacdb1fe3eead6699196de3038"
 }

@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=RU3D3RMAvVI",
   "published_at": "2025-04-01T15:00:29.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -25,6 +25,19 @@
       "words": 1598,
       "lang": "en-orig",
       "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:46:54.932Z",
+      "path": "data/extract/video/RU3D3RMAvVI.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 4,
+      "quotes": 5,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.019974
     }
   },
   "input_hash": null,
@@ -42,5 +55,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c28d884b38a7adf4f6c935817b520f7b98fa98b13c8b09f24ad9e19c9151191c"
+  "output_hash": "54826142b52d468dd02fc8fe81c1dfcf7f5cb376d2188a0acbac9e4aadbe333b"
 }

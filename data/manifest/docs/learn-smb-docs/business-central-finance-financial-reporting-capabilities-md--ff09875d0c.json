@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-financial-reporting-capabilities",
   "published_at": "2026-03-08T08:41:46.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e912367f9ee118cd96b5792351828eb8de7de7e4",
       "words": 412,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T18:46:55.870Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00441
+    },
+    "summarized": {
+      "at": "2026-10-06T18:46:57.709Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:46:57.709Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:46:57.710Z",
+      "page": false
     }
   },
   "input_hash": "e912367f9ee118cd96b5792351828eb8de7de7e4",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e912367f9ee118cd96b5792351828eb8de7de7e4"
+  "output_hash": "0ba8583fbcc56644ca4752a8e589893afaa62c043689a73739614c51afb1d6fe"
 }

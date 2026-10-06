@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/learn-accounting-bookkeeping-guide",
   "published_at": "2026-03-09T11:32:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a1d5c99b03b262f537e157150f56d3cab57c54ea",
       "words": 1694,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T18:46:55.864Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00441
+    },
+    "summarized": {
+      "at": "2026-10-06T18:46:55.872Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:46:55.873Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:46:55.874Z",
+      "page": false
     }
   },
   "input_hash": "a1d5c99b03b262f537e157150f56d3cab57c54ea",
@@ -54,5 +73,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a1d5c99b03b262f537e157150f56d3cab57c54ea"
+  "output_hash": "3d1c9d6821f7e07de480a8215ff0e4deaf353691dc63ef956e45ead6f6639787"
 }
