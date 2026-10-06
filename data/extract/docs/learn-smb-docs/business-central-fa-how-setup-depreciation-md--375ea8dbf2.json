@@ -1,0 +1,64 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/fa-how-setup-depreciation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-depreciation",
+  "title": "Set Up FA Depreciation",
+  "blob": "7fc343e7f24547ad24ec5587444921abb1090fa1",
+  "summary": "Set up fixed asset depreciation by creating depreciation books with different methods, assigning books to assets, configuring posting types, and establishing default templates for depreciation calculations.",
+  "systems": [
+    "fixed-assets",
+    "finance"
+  ],
+  "topics": [
+    "depreciation setup",
+    "depreciation methods",
+    "depreciation books",
+    "posting types",
+    "calendar configuration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Fixed Asset Card"
+    },
+    {
+      "type": "page",
+      "name": "Depreciation Books List"
+    },
+    {
+      "type": "page",
+      "name": "Depreciation Book Card"
+    },
+    {
+      "type": "page",
+      "name": "FA Posting Type Setup"
+    },
+    {
+      "type": "report",
+      "name": "Create FA Depreciation Books"
+    },
+    {
+      "type": "report",
+      "name": "Calculate Depreciation"
+    }
+  ],
+  "features": [
+    "depreciation methods",
+    "straight-line depreciation",
+    "declining-balance depreciation",
+    "manual depreciation",
+    "user-defined depreciation",
+    "rounding in periodic depreciation",
+    "365-day fiscal year"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004691,
+      "pages_in_call": 7
+    }
+  ]
+}

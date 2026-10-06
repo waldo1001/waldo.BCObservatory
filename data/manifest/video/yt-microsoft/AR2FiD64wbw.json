@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Shopify Connector (2024 release wave 2) in 2 minutes",
   "url": "https://www.youtube.com/watch?v=AR2FiD64wbw",
-  "published_at": null,
+  "published_at": "2024-12-17T12:49:31.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:01:52.480Z",
+      "captions": "auto:en-orig",
+      "duration_s": 130
+    },
+    "captioned": {
+      "at": "2026-10-06T19:02:00.528Z",
+      "path": "data/captions/microsoft/AR2FiD64wbw.vtt",
+      "vtt_sha256": "d7d0f0452beb092abbf3f5e16f2f22a0f8a8c123120a0b23d079ff656980a28e",
+      "segments": 7,
+      "words": 341,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 308,
-    "duration_s": 131,
-    "via": "reconcile"
-  }
+    "duration_s": 130,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d7d0f0452beb092abbf3f5e16f2f22a0f8a8c123120a0b23d079ff656980a28e"
 }

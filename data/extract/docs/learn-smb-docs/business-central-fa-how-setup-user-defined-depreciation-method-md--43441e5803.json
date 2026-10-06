@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/fa-how-setup-user-defined-depreciation-method.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-user-defined-depreciation-method",
+  "title": "Set Up FA User-Defined Depreciation Method",
+  "blob": "11491f2819f4deaff88c5b3a6b52bd812d272c04",
+  "summary": "Set up and assign user-defined depreciation methods using depreciation tables with custom percentages per period, supporting depreciation based on units, sum of digits, or accelerated methods.",
+  "systems": [
+    "fixed-assets",
+    "finance"
+  ],
+  "topics": [
+    "user-defined depreciation",
+    "depreciation tables",
+    "accelerated depreciation",
+    "sum of digits",
+    "unit-based depreciation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Fixed Assets"
+    },
+    {
+      "type": "page",
+      "name": "FA Depreciation Books"
+    },
+    {
+      "type": "page",
+      "name": "Depreciation Tables"
+    },
+    {
+      "type": "page",
+      "name": "Depreciation Table List"
+    },
+    {
+      "type": "page",
+      "name": "Depreciation Table Card"
+    }
+  ],
+  "features": [
+    "user-defined depreciation method",
+    "depreciation tables",
+    "custom depreciation percentages",
+    "sum of digits method",
+    "unit-based depreciation",
+    "depreciation starting date"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004691,
+      "pages_in_call": 7
+    }
+  ]
+}

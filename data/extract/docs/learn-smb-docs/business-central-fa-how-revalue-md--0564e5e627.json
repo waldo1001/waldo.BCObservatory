@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/fa-how-revalue.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-revalue",
+  "title": "Revalue Fixed Assets",
+  "blob": "327e3ea2783656c22255ec08233ed415738c77a4",
+  "summary": "Revalue fixed assets through appreciation, write-down, and indexation adjustments using FA G/L Journal or batch jobs to adjust asset values due to price changes or market conditions.",
+  "systems": [
+    "fixed-assets",
+    "finance"
+  ],
+  "topics": [
+    "revaluation",
+    "appreciation",
+    "write-down",
+    "indexation",
+    "asset valuation",
+    "depreciation adjustment"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "FA G/L Journals"
+    },
+    {
+      "type": "page",
+      "name": "FA Posting Group Card"
+    },
+    {
+      "type": "page",
+      "name": "Depreciation Book"
+    },
+    {
+      "type": "page",
+      "name": "FA Journal Setup"
+    },
+    {
+      "type": "report",
+      "name": "Index Fixed Assets"
+    }
+  ],
+  "features": [
+    "appreciation posting",
+    "write-down posting",
+    "indexation",
+    "revaluation",
+    "FA posting type",
+    "balancing accounts"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004691,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/fa-how-setup-general.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-general",
+  "title": "Set Up General Fixed Assets (FA) Information",
+  "blob": "27187cbe746f1d0a8f2683e76d48e2b3b4d9bb05",
+  "summary": "Set up general fixed assets infrastructure including default G/L accounts, posting groups, journal templates, asset classification hierarchy, locations, allocation keys, and initial asset registration procedures.",
+  "systems": [
+    "fixed-assets",
+    "finance"
+  ],
+  "topics": [
+    "setup",
+    "posting groups",
+    "journal templates",
+    "asset classes",
+    "asset locations",
+    "allocation keys",
+    "general ledger integration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Fixed Assets Setup"
+    },
+    {
+      "type": "page",
+      "name": "FA Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "FA Posting Group Card"
+    },
+    {
+      "type": "page",
+      "name": "FA Journal Templates"
+    },
+    {
+      "type": "page",
+      "name": "FA Classes"
+    },
+    {
+      "type": "page",
+      "name": "FA Subclasses"
+    },
+    {
+      "type": "page",
+      "name": "FA locations"
+    },
+    {
+      "type": "page",
+      "name": "FA Allocations"
+    },
+    {
+      "type": "page",
+      "name": "FA Journal Batches"
+    },
+    {
+      "type": "page",
+      "name": "FA Reclass. Journal"
+    },
+    {
+      "type": "page",
+      "name": "FA Reclass. Journal Templates"
+    },
+    {
+      "type": "page",
+      "name": "FA Reclass. Journal Batches"
+    }
+  ],
+  "features": [
+    "posting groups",
+    "journal templates",
+    "asset classification",
+    "asset subclasses",
+    "asset locations",
+    "allocation keys",
+    "journal batches",
+    "reclassification journals",
+    "GL integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004691,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-setup",
   "published_at": "2025-10-10T07:35:03.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "f6465b2dcb0be57c6768df44bb8c7e49f9f34e32",
       "words": 366,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:02:03.601Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004691
     }
   },
   "input_hash": "f6465b2dcb0be57c6768df44bb8c7e49f9f34e32",
@@ -45,5 +52,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f6465b2dcb0be57c6768df44bb8c7e49f9f34e32"
+  "output_hash": "39e4fa24e608c4e61dbaa129d1640ebb8d2f0611710344554fa8c8fdfe1f85ee"
 }

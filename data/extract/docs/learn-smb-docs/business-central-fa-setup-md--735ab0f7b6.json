@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/fa-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/fa-setup",
+  "title": "Set up fixed assets",
+  "blob": "f6465b2dcb0be57c6768df44bb8c7e49f9f34e32",
+  "summary": "Overview of fixed assets setup requirements including depreciation configuration, G/L account mappings, optional insurance and maintenance setup, and user-defined depreciation methods.",
+  "systems": [
+    "fixed-assets",
+    "finance"
+  ],
+  "topics": [
+    "setup overview",
+    "depreciation",
+    "posting",
+    "insurance",
+    "maintenance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Depreciation Book Card"
+    }
+  ],
+  "features": [
+    "depreciation setup",
+    "GL integration",
+    "insurance setup",
+    "maintenance setup",
+    "user-defined depreciation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004691,
+      "pages_in_call": 7
+    }
+  ]
+}

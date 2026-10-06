@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/fa-how-setup-insurance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-insurance",
+  "title": "Set Up FA Insurance",
+  "blob": "234ee21d437192c7756993590163e6266391e631",
+  "summary": "Set up fixed asset insurance including general insurance information, insurance types and cards, insurance journal templates and batches to manage policies and track insurance costs.",
+  "systems": [
+    "fixed-assets",
+    "finance"
+  ],
+  "topics": [
+    "insurance setup",
+    "insurance types",
+    "insurance cards",
+    "insurance journals",
+    "policy management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "FA Setups"
+    },
+    {
+      "type": "page",
+      "name": "Insurance Types"
+    },
+    {
+      "type": "page",
+      "name": "Insurance"
+    },
+    {
+      "type": "page",
+      "name": "Insurance Journal Templates"
+    },
+    {
+      "type": "page",
+      "name": "Insurance Journal Batches"
+    }
+  ],
+  "features": [
+    "insurance types",
+    "insurance cards",
+    "insurance journal templates",
+    "insurance journal batches",
+    "policy information",
+    "insurance coverage"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004691,
+      "pages_in_call": 7
+    }
+  ]
+}
