@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-revenue-by-item",
   "published_at": "2026-05-12T08:21:37.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2711394fbb1777a849015f9d26b8b5684844b22a",
       "words": 275,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:35:49.956Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003784
+    },
+    "summarized": {
+      "at": "2026-10-06T18:35:49.963Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:35:49.964Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:35:49.965Z",
+      "page": false
     }
   },
   "input_hash": "2711394fbb1777a849015f9d26b8b5684844b22a",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2711394fbb1777a849015f9d26b8b5684844b22a"
+  "output_hash": "6f260a12bf9cff669e9b2467e46a74f5be9db58d2cb7ca47f4bad07b9daca4ef"
 }

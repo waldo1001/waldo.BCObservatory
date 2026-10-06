@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-revenue-development",
   "published_at": "2026-05-12T08:21:37.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "553ee9c998a653c7ef1c743d31a1a68798564c78",
       "words": 310,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:35:49.958Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.003784
+    },
+    "summarized": {
+      "at": "2026-10-06T18:35:49.970Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:35:49.971Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:35:49.972Z",
+      "page": false
     }
   },
   "input_hash": "553ee9c998a653c7ef1c743d31a1a68798564c78",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "553ee9c998a653c7ef1c743d31a1a68798564c78"
+  "output_hash": "a8cd883d87680e108dad54f50ff58ddf293ec24da31f05f6f1b481adabff76c5"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-revenue-year-over-year",
   "published_at": "2026-05-12T08:21:37.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cde96613d932e6c8e68fe922371ce46f65bd9d0c",
       "words": 182,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:35:49.959Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003784
+    },
+    "summarized": {
+      "at": "2026-10-06T18:35:49.973Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:35:49.974Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:35:49.975Z",
+      "page": false
     }
   },
   "input_hash": "cde96613d932e6c8e68fe922371ce46f65bd9d0c",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cde96613d932e6c8e68fe922371ce46f65bd9d0c"
+  "output_hash": "517ed9f33d3f618262b89319e6725a40ce0d32bfe52a263c237686c5134271a6"
 }

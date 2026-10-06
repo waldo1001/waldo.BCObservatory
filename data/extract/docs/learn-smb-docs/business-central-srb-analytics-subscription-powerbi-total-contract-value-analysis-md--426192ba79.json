@@ -1,0 +1,67 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/analytics/subscription-powerbi-total-contract-value-analysis.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-total-contract-value-analysis",
+  "title": "Total Contract Value Analysis (Power BI Report)",
+  "blob": "7d4e053caff159970171295c5b128688ada182e4",
+  "summary": "Total Contract Value Analysis Power BI report provides detailed breakdown of total contract value by dimensions like customer, item, and contract terms using interactive decomposition analysis.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "subscription billing",
+    "contract value",
+    "decomposition analysis",
+    "contract analytics"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Salesperson/Purchaser"
+    },
+    {
+      "type": "table",
+      "name": "Subscription"
+    },
+    {
+      "type": "table",
+      "name": "Customer Subscription Contract"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Subscription Contract"
+    },
+    {
+      "type": "table",
+      "name": "Subscription Contract Analysis Entries"
+    }
+  ],
+  "features": [
+    "Total Contract Value (TCV) breakdown",
+    "Decomposition tree analysis",
+    "Multi-dimensional filtering",
+    "Contract type analysis",
+    "Billing rhythm breakdown",
+    "Customer-level drill-down"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003784,
+      "pages_in_call": 8
+    }
+  ]
+}

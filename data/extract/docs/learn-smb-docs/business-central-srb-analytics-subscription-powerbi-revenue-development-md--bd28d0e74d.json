@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/analytics/subscription-powerbi-revenue-development.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-revenue-development",
+  "title": "Revenue Development (Power BI Report)",
+  "blob": "553ee9c998a653c7ef1c743d31a1a68798564c78",
+  "summary": "Revenue Development Power BI report breaks down monthly recurring revenue changes into new subscriptions, upgrades, downgrades, and churn to identify growth drivers and areas for intervention.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "subscription billing",
+    "revenue growth",
+    "churn analysis",
+    "contract changes"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Subscription Contract Analysis Entries"
+    },
+    {
+      "type": "table",
+      "name": "Customer Subscription Contract"
+    }
+  ],
+  "features": [
+    "Change in Monthly Recurring Revenue",
+    "Recurring Revenue Churn",
+    "Recurring Revenue Downgrade",
+    "Recurring Revenue New",
+    "Recurring Revenue Upgrade",
+    "Usage-based billing changes",
+    "Revenue trend analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003784,
+      "pages_in_call": 8
+    }
+  ]
+}

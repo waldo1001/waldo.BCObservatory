@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/analytics/subscription-powerbi-revenue-by-salesperson.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-revenue-by-salesperson",
+  "title": "Revenue by Salesperson (Power BI Report)",
+  "blob": "df4b99bac9fac0d02f2a2f98c00d1d6937cfc164",
+  "summary": "Revenue by Salesperson Power BI report tracks monthly recurring revenue and profitability by individual salesperson, enabling sales managers to monitor performance and identify churn trends.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "subscription billing",
+    "sales performance",
+    "recurring revenue",
+    "churn analysis"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Subscription Contract Analysis Entries"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Subscription"
+    },
+    {
+      "type": "table",
+      "name": "Salesperson/Purchaser"
+    }
+  ],
+  "features": [
+    "Monthly Recurring Revenue (MRR)",
+    "Monthly Recurring Cost",
+    "Net Recurring Profit",
+    "Recurring Revenue Churn",
+    "Salesperson performance tracking",
+    "Portfolio analysis by salesperson"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003784,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/analytics/subscription-powerbi-revenue-by-item.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-revenue-by-item",
+  "title": "Revenue by Item (Power BI Report)",
+  "blob": "2711394fbb1777a849015f9d26b8b5684844b22a",
+  "summary": "Revenue by Item Power BI report provides monthly recurring revenue, cost, and net profit metrics by product and item category to help sales teams prioritize profitable subscription offerings.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "subscription billing",
+    "recurring revenue",
+    "item profitability",
+    "sales analytics"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Subscription Contract Analysis Entries"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    }
+  ],
+  "features": [
+    "Monthly Recurring Revenue (MRR)",
+    "Monthly Recurring Cost",
+    "Net Monthly Recurring Profit",
+    "Item-level profitability analysis",
+    "Item category performance comparison"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003784,
+      "pages_in_call": 8
+    }
+  ]
+}

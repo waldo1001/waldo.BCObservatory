@@ -1,0 +1,70 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/analytics/subscription-powerbi-subscription-kpis.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-subscription-kpis",
+  "title": "Subscription Billing KPIs and measures (Power BI)",
+  "blob": "6ec818287fdeba3d630d1da52bdc16886722899e",
+  "summary": "Subscription Billing KPIs reference details all key performance indicators in the Power BI semantic model including recurring revenue, cost, profit, churn, forecasts, and contract value metrics.",
+  "systems": [
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "subscription billing",
+    "kpis",
+    "measures",
+    "recurring revenue",
+    "churn",
+    "forecasting"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer Contract Line"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Contract Line"
+    },
+    {
+      "type": "table",
+      "name": "Customer Contract Changes"
+    },
+    {
+      "type": "table",
+      "name": "Customer Deferrals"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Contract Deferrals"
+    },
+    {
+      "type": "table",
+      "name": "Customer Billing Forecast"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Billing Forecast"
+    }
+  ],
+  "features": [
+    "Monthly Recurring Revenue (MRR)",
+    "Monthly Recurring Cost (MRC)",
+    "Net Profit metrics",
+    "Active Customer count",
+    "Churn and upgrade tracking",
+    "Total Contract Value (TCV)",
+    "Deferral management",
+    "Billing forecasts"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003784,
+      "pages_in_call": 8
+    }
+  ]
+}

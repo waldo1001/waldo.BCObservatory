@@ -1,0 +1,28 @@
+{
+  "video_id": "wPEZ3U5j4zw",
+  "item_id": "video/yt-microsoft/wPEZ3U5j4zw",
+  "summary": "Flexible update management in Business Central, generally available with 2025 release wave 1 and available globally. Covers the five-month update period, grace and enforced update periods, skipping minor updates, target version selection in the admin center, and new API endpoints.",
+  "overview": "The video explains how flexible update management changes the way administrators schedule environment updates. It was in public preview throughout 2024 wave 2 and is generally available with 2025 release wave 1. It is now available globally, where before it applied only to Microsoft localized environments. The stated aims are to meet the needs of update adverse customers and to reduce partner workload.\n\nIt walks through the major update cycle: a five calendar month update period with a fixed end date, a one month grace period with weekly update attempts, and an enforced update period in which incompatible apps are uninstalled. It then covers skipping minor updates, targeting a version, and the new API endpoints. A demo in the admin center shows the update settings panel and target version selection, including unreleased versions. The video ends with best practices.",
+  "key_points": [
+    "Major updates have a five calendar month update period with a fixed end date. Updates arriving in April end in August, and updates in October end in February.",
+    "After the update period, a one month grace period starts. Microsoft attempts the update every week, and a failed attempt is rescheduled seven days after the original date.",
+    "If the update still fails, the environment enters an enforced update period. Incompatible apps are uninstalled but their data is kept, and it is available if a compatible version is installed later.",
+    "Administrators can choose a target version and skip intermediate versions, for example going from 25.3 directly to 26.3. Scheduling a later version before a minor update ships skips that minor update.",
+    "In the schedule environment update flyout, a specific date can be chosen for released versions. For unreleased versions no date can be chosen. Microsoft schedules the update within 14 days of release, and the tenant administrator can reschedule it afterwards.",
+    "During update periods, new environments can be created on any supported version. For example, in the April-August 2025 period for version 26, either version 25 or 26 can be used.",
+    "New API endpoints support the new flexibility. The legacy environment update API still works but does not support the new features."
+  ],
+  "audience": [
+    "administrator",
+    "partner",
+    "functional consultant",
+    "developer"
+  ],
+  "extraction_hash": "5550435ea86ec9af079f734cf7f119d33f6ee7b89a41f33e3b18f0196f66ebbb",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0179524
+  }
+}

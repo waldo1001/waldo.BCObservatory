@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-total-contract-value-analysis",
   "published_at": "2026-05-12T08:21:37.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7d4e053caff159970171295c5b128688ada182e4",
       "words": 273,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:35:49.961Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.003784
+    },
+    "summarized": {
+      "at": "2026-10-06T18:35:49.980Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:35:49.981Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:35:49.982Z",
+      "page": false
     }
   },
   "input_hash": "7d4e053caff159970171295c5b128688ada182e4",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7d4e053caff159970171295c5b128688ada182e4"
+  "output_hash": "d7f5edb8914e6fe313410909d2b1cccecbf8996953fbf3cae758b2b66b1e1b7e"
 }

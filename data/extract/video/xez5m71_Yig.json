@@ -1,0 +1,166 @@
+{
+  "video_id": "xez5m71_Yig",
+  "item_id": "video/yt-microsoft/xez5m71_Yig",
+  "title": "#BCTalent in North America: Bridging the Talent Gap Together",
+  "duration_s": 111,
+  "systems": [
+    "hr",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "talent acquisition",
+    "training programs",
+    "coaching",
+    "partner engagement",
+    "retention",
+    "diversity",
+    "onboarding",
+    "skill development"
+  ],
+  "chapters": [
+    {
+      "title": "The Talent Challenge",
+      "t_start": 0,
+      "t_end": 10.6
+    },
+    {
+      "title": "The Training Problem",
+      "t_start": 10.6,
+      "t_end": 23.4
+    },
+    {
+      "title": "BC Talent Solutions and Results",
+      "t_start": 23.4,
+      "t_end": 46.6
+    },
+    {
+      "title": "Key Metrics and Impact",
+      "t_start": 46.6,
+      "t_end": 87.1
+    },
+    {
+      "title": "Call to Action",
+      "t_start": 87.1,
+      "t_end": 111
+    }
+  ],
+  "features": [
+    {
+      "name": "BC Talent Program",
+      "description": "A full-force skilling and coaching machine that trains consultants with industry experience through product training, professional skills, and one-to-one coaching sessions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 23.4,
+      "t_end": 87.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "training",
+        "coaching",
+        "onboarding",
+        "partner engagement"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Partner Engagement and Skilling",
+      "description": "Program enabling 233 partner engagements globally with 74 in North America, reducing time from onboarding to billable work to 10 weeks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 46.6,
+      "t_end": 87.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "partner engagement",
+        "onboarding",
+        "time-to-value"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Talent Retention and Diversity",
+      "description": "BC Talent program achieving 93 percent retention rate and 41 percent of new hires are women, building a more diverse ecosystem.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 67,
+      "t_end": 87.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "retention",
+        "diversity",
+        "women in tech"
+      ],
+      "system": "hr"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Kurt",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 0.2,
+      "text": "In the current war for talent, finding people is the hardest part.",
+      "why_it_matters": "Establishes the core challenge the video addresses - talent acquisition in competitive market.",
+      "check": "exact"
+    },
+    {
+      "t": 10.6,
+      "text": "Getting them in front of your customers and actually driving your business forward, that's the real game.",
+      "why_it_matters": "Reframes the real challenge beyond hiring to ensuring new talent delivers business value quickly.",
+      "check": "exact"
+    },
+    {
+      "t": 46.6,
+      "text": "VC talent is a full force skilling and coaching machine and the results they speak loud and clear.",
+      "why_it_matters": "Introduces the BC Talent program and emphasizes it is operational with measurable results.",
+      "check": "exact"
+    },
+    {
+      "t": 67,
+      "text": "10 weeks from onboarding to billable work so you keep moving forward no slowdown.",
+      "why_it_matters": "Quantifies the speed-to-value metric, demonstrating rapid time from hire to productive work.",
+      "check": "exact"
+    },
+    {
+      "t": 67,
+      "text": "93% retention rate because when talent is trained and coached right they stay.",
+      "why_it_matters": "Shows the program's effectiveness in retaining skilled employees through proper training and coaching.",
+      "check": "exact"
+    },
+    {
+      "t": 87.1,
+      "text": "We're not just filling jobs. We're building a more diverse, innovative future for Business Central.",
+      "why_it_matters": "Articulates the program's broader mission beyond hiring to creating diversity and innovation.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010309
+    }
+  ]
+}

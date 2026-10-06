@@ -1,0 +1,287 @@
+{
+  "video_id": "yXz3ZlSioWQ",
+  "item_id": "video/yt-microsoft/yXz3ZlSioWQ",
+  "title": "Introducing: Discover and Explore Reports (2025 release wave 1)",
+  "duration_s": 489,
+  "systems": [
+    "reporting",
+    "administration",
+    "finance"
+  ],
+  "topics": [
+    "report explorer",
+    "report discovery",
+    "teaching tips",
+    "microsoft learn",
+    "aka links",
+    "help pane",
+    "request page",
+    "departmental roles"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Report Discovery Methods",
+      "t_start": 0,
+      "t_end": 27.7
+    },
+    {
+      "title": "Getting to the Report Explorer",
+      "t_start": 27.7,
+      "t_end": 71.8
+    },
+    {
+      "title": "Report Explorer Overview and Departmental Roles",
+      "t_start": 71.8,
+      "t_end": 132.3
+    },
+    {
+      "title": "New Information Icons and Window Opening Feature",
+      "t_start": 132.3,
+      "t_end": 231.6
+    },
+    {
+      "title": "Discovering Reports via Microsoft Learn Documentation",
+      "t_start": 231.6,
+      "t_end": 282.4
+    },
+    {
+      "title": "AKA Links and Report Documentation Tables",
+      "t_start": 282.4,
+      "t_end": 381.4
+    },
+    {
+      "title": "Teaching Tips and Help Pane Integration",
+      "t_start": 381.4,
+      "t_end": 441.9
+    },
+    {
+      "title": "Summary: Integrated Report Discovery Across Channels",
+      "t_start": 441.9,
+      "t_end": 489
+    }
+  ],
+  "features": [
+    {
+      "name": "Report Explorer",
+      "description": "New centralized hub for discovering and exploring reports in Business Central. Accessible through Tell Me search, the role center symbol, or the all reports link on role centers. Shows reports organized by topics and departmental roles with expandable categories.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 7.4,
+      "t_end": 112.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "report exploration",
+        "discovery",
+        "user interface"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Information Icons on Report Links",
+      "description": "Hovering over report links in the Report Explorer displays information icons that show the full report title and description without opening the report. Based on whether a teaching tip is defined on the report object.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 132.3,
+      "t_end": 231.6,
+      "is_demoed": true,
+      "caveats": [
+        "Only appears if a teaching tip is defined on the report object"
+      ],
+      "tags": [
+        "inline help",
+        "report metadata",
+        "tooltips"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Open Report in New Window",
+      "description": "Reports from the Report Explorer can be opened in new windows, allowing users to keep the explorer open while exploring multiple reports simultaneously.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 171,
+      "t_end": 211.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "new window",
+        "multi-report exploration",
+        "workflow"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "AKA Links for Report Documentation",
+      "description": "Special links in Microsoft Learn documentation (starting with aka.ms) provide quick access to Business Central analytics and reports overview, organized by functional area with links to open reports directly in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 248.7,
+      "t_end": 340.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "microsoft learn",
+        "discovery"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report Overview Table in Microsoft Learn",
+      "description": "Complete overview of reports in Business Central organized by functional area in a table format that includes scenario descriptions, direct links to open reports, and individual report articles with use cases for different personas.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 282.4,
+      "t_end": 381.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "report catalog",
+        "functional areas"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Teaching Tips on Report Request Pages",
+      "description": "Clicking the report title or caption on a request page opens a teaching tip with report description and guidance. Teaching tips can be accessed even if disabled by default, and they appear in the help pane if defined on the report object.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 401.5,
+      "t_end": 462,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "inline help",
+        "request page",
+        "contextual help"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Help Pane Integration with Documentation Links",
+      "description": "The help pane displays teaching tip text for reports if defined on the object and provides links to navigate directly to the corresponding report documentation in Microsoft Learn.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 421.7,
+      "t_end": 482.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "help pane",
+        "documentation",
+        "navigation"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Fixed Asset Posting Group Net Change",
+      "t": 231.6
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset Register",
+      "t": 231.6
+    },
+    {
+      "type": "report",
+      "name": "Customer Top 10 List Excel",
+      "t": 381.4
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset Book Value",
+      "t": 401.5
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 7.4,
+      "text": "let's discover and explore reports in business Central 2025 release wave 1 in this video I'm going to show you three different ways you",
+      "why_it_matters": "States the video's purpose of demonstrating three methods for discovering and exploring reports in the new wave 1 release.",
+      "check": "exact"
+    },
+    {
+      "t": 71.8,
+      "text": "these are meant to be showcasing functionality for different roles in an organization",
+      "why_it_matters": "Explains the purpose of departmental role centers in the Report Explorer organization.",
+      "check": "exact"
+    },
+    {
+      "t": 112.1,
+      "text": "if we then choose the ellipses here and expand all of these this is your overview of all the reporting capabilities that exist within",
+      "why_it_matters": "Identifies that the expanded reporting capabilities overview is a new feature in wave one.",
+      "check": "exact"
+    },
+    {
+      "t": 171,
+      "text": "a new thing here in the in the business Central as in in wave one is that this opens up in a new window",
+      "why_it_matters": "Highlights a key wave 1 feature allowing multiple reports to be explored simultaneously without closing the explorer.",
+      "check": "exact"
+    },
+    {
+      "t": 211.2,
+      "text": "the difference like why would this have one and this one would not that's just a matter of whether there's a teaching tiip defined",
+      "why_it_matters": "Clarifies that information icon availability depends on whether teaching tips are defined on report objects.",
+      "check": "exact"
+    },
+    {
+      "t": 248.7,
+      "text": "the the easiest way I find the report documentation is through an AKA link let me show you what that is",
+      "why_it_matters": "Introduces AKA links as the primary method for finding report documentation on Microsoft Learn.",
+      "check": "snapped"
+    },
+    {
+      "t": 462,
+      "text": "that's how how the exploration and discoverability of reports come hand in hand both in the business Central role Explorer in the request page",
+      "why_it_matters": "Summarizes how report discovery is integrated across multiple channels in Business Central and external documentation.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 112.1,
+      "kind": "preview",
+      "text": "as a new thing here in wave one"
+    },
+    {
+      "t": 171,
+      "kind": "preview",
+      "text": "a new thing here in the in the business Central as in in wave one is that this opens up in a new window"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022427999999999997
+    }
+  ]
+}

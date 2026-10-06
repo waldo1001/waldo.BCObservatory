@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/analytics/subscription-powerbi-vendor-deferrals.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-vendor-deferrals",
+  "title": "Vendor Deferrals (Power BI Report)",
+  "blob": "918d360694334ea1972b466c74c9927e30162e0c",
+  "summary": "Vendor Deferrals Power BI report tracks prepaid vendor expenses recognized over time, enabling financial managers and accountants to forecast expense recognition and reconcile deferral accounts.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "subscription billing",
+    "deferrals",
+    "expense recognition",
+    "accounting"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Vendor Subscription Contract Deferrals"
+    }
+  ],
+  "features": [
+    "Vendor Deferrals tracking",
+    "Deferred vs. Released expense visualization",
+    "Expense recognition schedules",
+    "Period-end reconciliation",
+    "Balance sheet management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003784,
+      "pages_in_call": 8
+    }
+  ]
+}

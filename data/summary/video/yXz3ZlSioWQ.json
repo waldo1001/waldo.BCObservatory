@@ -1,0 +1,27 @@
+{
+  "video_id": "yXz3ZlSioWQ",
+  "item_id": "video/yt-microsoft/yXz3ZlSioWQ",
+  "summary": "Report discovery in Business Central 2025 release wave 1: the Report Explorer, Microsoft Learn report documentation reached through aka.ms links, and teaching tips on request pages and in the help pane. Shows how these link together for finding and understanding reports.",
+  "overview": "The video shows three ways to discover and explore reports in Business Central 2025 release wave 1. The first is the Report Explorer, which lists reports by topic and departmental role. It can be reached through Tell Me, the role center symbol, or the all reports link on role centers.\nThe second is Microsoft Learn, where aka.ms links lead to a report overview table by functional area, with scenario descriptions, links that open reports in Business Central, and articles per report. The third is teaching tips on report request pages and in the help pane, which link back to the documentation. The video also shows information icons on report links and opening reports in a new window.",
+  "key_points": [
+    "Open the Report Explorer through Tell Me search, the role center symbol, or the all reports link on role centers.",
+    "The Report Explorer groups reports by topic and departmental role; expanding all categories gives an overview of the reporting capabilities.",
+    "Hovering over a report link shows an information icon with the full title and description, but only if a teaching tip is defined on the report object.",
+    "In wave 1, reports opened from the Report Explorer can open in a new window, so the explorer stays open while you look at several reports.",
+    "Aka.ms links lead to a Microsoft Learn overview table of reports by functional area, with scenarios, links to open reports, and per-report articles for different personas.",
+    "On a request page, clicking the report title or caption opens its teaching tip, even if teaching tips are disabled by default.",
+    "The help pane shows the teaching tip text when one is defined on the report object and links to the matching Microsoft Learn documentation."
+  ],
+  "audience": [
+    "end user",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "8078bee5d9a70f077dbbdeb2b0c8729237bf6213e4ce020ddbc27cfdb8ddd324",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0151244
+  }
+}

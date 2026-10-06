@@ -1,0 +1,359 @@
+{
+  "video_id": "wPEZ3U5j4zw",
+  "item_id": "video/yt-microsoft/wPEZ3U5j4zw",
+  "title": "What's New: Flexible Update Management (2025 release wave 1)",
+  "duration_s": 694,
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "flexible update management",
+    "environment updates",
+    "version targeting",
+    "admin center",
+    "major updates",
+    "minor updates",
+    "preview period",
+    "grace period",
+    "enforced updates",
+    "api changes"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview of flexible update management",
+      "t_start": 0,
+      "t_end": 46.7
+    },
+    {
+      "title": "Benefits for partners and workload distribution",
+      "t_start": 46.7,
+      "t_end": 62
+    },
+    {
+      "title": "Major update cycles and preview period",
+      "t_start": 62,
+      "t_end": 100.4
+    },
+    {
+      "title": "Grace period and enforced update period",
+      "t_start": 100.4,
+      "t_end": 141.2
+    },
+    {
+      "title": "Minor updates and version targeting capabilities",
+      "t_start": 141.2,
+      "t_end": 215.5
+    },
+    {
+      "title": "2025 update calendar and global availability",
+      "t_start": 215.5,
+      "t_end": 293.2
+    },
+    {
+      "title": "Admin center features and API changes",
+      "t_start": 293.2,
+      "t_end": 353.7
+    },
+    {
+      "title": "Admin center demo - update settings and target version selection",
+      "t_start": 353.7,
+      "t_end": 517
+    },
+    {
+      "title": "Demo continued - unreleased version targeting",
+      "t_start": 517,
+      "t_end": 623.3
+    },
+    {
+      "title": "Best practices for flexible update management",
+      "t_start": 623.3,
+      "t_end": 694
+    }
+  ],
+  "features": [
+    {
+      "name": "Flexible update management - General availability",
+      "description": "Administrators can now schedule environment updates with more flexibility. This feature was in public preview throughout 2024 Wave 2 and reaches General availability with the 2025 Wave 1 release. It helps meet requirements of update adverse customers and reduces partner workload.",
+      "status": "ga",
+      "status_evidence_t": 6.5,
+      "status_evidence_quote": "now with 2025 Wave 1 we're very excited for it to reach General availability",
+      "status_evidence_verified": true,
+      "t_start": 6.5,
+      "t_end": 26.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "update management",
+        "admin center",
+        "generally available"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Five-month update period with fixed end date",
+      "description": "Major updates now have a five calendar month update period with a fixed end date. Updates coming in April have an update period ending August, and updates in October end in February.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 62,
+      "t_end": 100.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "major updates",
+        "scheduling"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Weekly update attempts during grace period",
+      "description": "After the update period ends, a one month grace period begins where Microsoft attempts the update every week. If it fails, it will be rescheduled seven days after the original date.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 100.4,
+      "t_end": 120.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "grace period",
+        "weekly attempts"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Enforced update with app uninstallation",
+      "description": "If an environment fails to update during the grace period, it moves to an enforced update period where incompatible apps are uninstalled to force the update. App data is preserved if a compatible version is later installed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 120.8,
+      "t_end": 141.2,
+      "is_demoed": false,
+      "caveats": [
+        "Apps are uninstalled but data is preserved",
+        "Data is available if compatible version is installed later"
+      ],
+      "tags": [
+        "enforced update",
+        "app uninstallation"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Skip minor updates capability",
+      "description": "Administrators can now choose to skip minor updates by scheduling an update to a later version before a minor update comes out. Minor updates continue to ship every month except April and October.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 160.5,
+      "t_end": 200.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "minor updates",
+        "skipping"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Target version selection for updates",
+      "description": "Administrators can select a target version for an update, allowing them to skip intermediate versions. For example, updating from version 25.3 directly to 26.3 and skipping any versions in between.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 200.9,
+      "t_end": 215.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "version targeting",
+        "admin center"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Create environments on any supported version",
+      "description": "During update periods, administrators can create new environments on any supported version. For example, during the April-August 2025 update period for version 26, environments can be created on either version 25 or 26.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 215.5,
+      "t_end": 233.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "environment creation",
+        "version support"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Global availability for flexible update management",
+      "description": "Flexible update management is now available globally starting with 2025 release wave 1. Previously it was only available for Microsoft localized environments, now also available for non-Microsoft localized environment localizations.",
+      "status": "ga",
+      "status_evidence_t": 293.2,
+      "status_evidence_quote": "the past few months this is only applied to Microsoft localized environments starting with 2025 release wave 1 um this is now available globally",
+      "status_evidence_verified": true,
+      "t_start": 293.2,
+      "t_end": 313.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "global availability",
+        "localizations"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Admin center update settings panel",
+      "description": "The admin center now shows an updated settings panel displaying current version, latest available version, next target version, next update date, and the latest date to update before the grace period starts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 353.7,
+      "t_end": 435.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "admin center",
+        "user interface"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Target version selection in admin center UI",
+      "description": "In the schedule environment update flyout, administrators can pick any available released target version or unreleased versions up to a specified version. For released versions, a specific update date can be selected.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 455.6,
+      "t_end": 496.5,
+      "is_demoed": true,
+      "caveats": [
+        "Unreleased versions cannot have a specific date selected at scheduling time"
+      ],
+      "tags": [
+        "admin center",
+        "version targeting"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Automatic scheduling upon release for unreleased versions",
+      "description": "When targeting an unreleased version, Microsoft internally schedules the update within 14 days of release. Tenant administrators can still reschedule the update to any other date after it becomes available.",
+      "status": "ga",
+      "status_evidence_t": 537,
+      "status_evidence_quote": "the update will automatically be scheduled after within 14 days um since the since this specific version is released",
+      "status_evidence_verified": true,
+      "t_start": 537,
+      "t_end": 578,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "release scheduling",
+        "rescheduling"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "New API endpoints for flexible update management",
+      "description": "New API endpoints are introduced to support the new flexibility in environment update scheduling. The legacy API for managing environment updates will continue to work but does not support the new flexibility.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 313.4,
+      "t_end": 333.5,
+      "is_demoed": false,
+      "caveats": [
+        "Legacy API does not support new flexibility features"
+      ],
+      "tags": [
+        "api",
+        "automation"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Y",
+      "confidence": "low"
+    },
+    {
+      "name": "Ricardo",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 6.5,
+      "text": "now with 2025 Wave 1 we're very excited for it to reach General availability",
+      "why_it_matters": "Confirms the feature has moved from public preview to generally available status with this release.",
+      "check": "exact"
+    },
+    {
+      "t": 82.7,
+      "text": "with flexible update management this update period is always five calendar months with a fixed end date",
+      "why_it_matters": "Establishes the key design decision that update periods have a fixed five-month duration with predictable end dates.",
+      "check": "exact"
+    },
+    {
+      "t": 100.4,
+      "text": "this is a one month period um during which we will attempt the update uh every week",
+      "why_it_matters": "Clarifies the grace period behavior and the weekly retry mechanism for failed updates.",
+      "check": "exact"
+    },
+    {
+      "t": 141.2,
+      "text": "we will uninstall the app but we will not delete the data so if you later on install compatible version of this app the",
+      "why_it_matters": "Important caveat about enforced updates - uninstalled apps retain their data for later reinstallation.",
+      "check": "exact"
+    },
+    {
+      "t": 200.9,
+      "text": "you can select a Target version for an update so if you're on let's say version 25.3 today you can choose to update uh",
+      "why_it_matters": "Demonstrates the new capability to skip intermediate versions during updates.",
+      "check": "exact"
+    },
+    {
+      "t": 293.2,
+      "text": "the past few months this is only applied to Microsoft localized environments starting with 2025 release wave 1 um this is now available globally",
+      "why_it_matters": "Expands the feature's availability from Microsoft-localized environments only to global support.",
+      "check": "exact"
+    },
+    {
+      "t": 537,
+      "text": "the update will automatically be scheduled after within 14 days um since the since this specific version is released",
+      "why_it_matters": "Explains the automatic scheduling behavior for unreleased versions - Microsoft handles scheduling within 14 days of release.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 3,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028461
+    }
+  ]
+}

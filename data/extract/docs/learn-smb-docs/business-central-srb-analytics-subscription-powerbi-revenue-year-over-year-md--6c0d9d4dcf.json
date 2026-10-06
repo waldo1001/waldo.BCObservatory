@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/analytics/subscription-powerbi-revenue-year-over-year.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-revenue-year-over-year",
+  "title": "Revenue Year-Over-Year (Power BI Report)",
+  "blob": "cde96613d932e6c8e68fe922371ce46f65bd9d0c",
+  "summary": "Revenue Year-Over-Year Power BI report compares monthly recurring revenue across periods and prior-year equivalents, including churn trends to track growth and retention.",
+  "systems": [
+    "sales",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "subscription billing",
+    "year-over-year analysis",
+    "recurring revenue",
+    "churn tracking"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Subscription Contract Analysis Entries"
+    }
+  ],
+  "features": [
+    "Monthly Recurring Revenue (MRR)",
+    "Prior-year revenue comparison",
+    "Revenue delta vs. previous year",
+    "Monthly Recurring Revenue Churn",
+    "Period-over-period analysis"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003784,
+      "pages_in_call": 8
+    }
+  ]
+}

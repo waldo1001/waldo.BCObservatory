@@ -1,0 +1,27 @@
+{
+  "video_id": "LDRziYUdlAg",
+  "item_id": "video/yt-microsoft/LDRziYUdlAg",
+  "summary": "AL-Go for GitHub April 2025 office hour: v7.0 release with the page scripting visualizer (in preview), runtime package generation plans, BC Container Helper retirement (versions before 6.1 break after May 1st), new AL-Go modules, and the move to GitHub Discussions.",
+  "overview": "The April office hour covers AL-Go v7.0, which includes deploying to a sandbox from a pull request (previously in preview). It also shows the page scripting visualizer, which is in preview and displays failing, passing and skipped tests and the run time in CI/CD runs. Build modes and preprocessor symbols let one source build for different targets, and runtime package generation with Nougat integration is targeted for completion before October 1st.\n\nThe team announced that BC Container Helper versions before 6.1 will have major functions broken after May 1st because of security work, and that the tool is slated for retirement in two to three years. DevOps functionality will move into AL-Go, and a slim PowerShell module for local development is planned. The session also covers GitHub Discussions with voting, branching and pull request practices, and Azure DevOps support.",
+  "key_points": [
+    "AL-Go v7.0 shipped with deploy to sandbox from a pull request, which was previously in preview.",
+    "The page scripting visualizer is in preview. It shows failing, passing and skipped tests and the overall run time in CI/CD runs. Only the visualizing part is new.",
+    "BC Container Helper versions before 6.1 may not work after May 1st because of security work. Repositories using AL-Go for GitHub are not affected.",
+    "BC Container Helper is slated for retirement in two to three years. Expect functionality gaps, because it will not be moved as is.",
+    "A slim local-development PowerShell module of roughly five to ten commands is planned for the PowerShell gallery. Details are not final.",
+    "Build modes and preprocessor symbols let one source produce app and on-prem variants. The runtime package and Nougat work depends on a compiler from the modern dev team, with a goal of before October 1st.",
+    "AL-Go is moving from GitHub Issues to Discussions. The most voted ideas move to the backlog, with no guarantee of implementation."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "6824877a575d6f8ee5dd7e648cda78bfea07d768ea3efae6e61682962f38b608",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0229024
+  }
+}

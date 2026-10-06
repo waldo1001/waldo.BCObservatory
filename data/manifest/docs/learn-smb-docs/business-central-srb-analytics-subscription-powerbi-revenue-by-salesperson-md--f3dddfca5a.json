@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-revenue-by-salesperson",
   "published_at": "2026-05-12T08:21:37.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "df4b99bac9fac0d02f2a2f98c00d1d6937cfc164",
       "words": 267,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:35:49.957Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.003784
+    },
+    "summarized": {
+      "at": "2026-10-06T18:35:49.966Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:35:49.967Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:35:49.969Z",
+      "page": false
     }
   },
   "input_hash": "df4b99bac9fac0d02f2a2f98c00d1d6937cfc164",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "df4b99bac9fac0d02f2a2f98c00d1d6937cfc164"
+  "output_hash": "5b920310ec26c9469f505c612be56b9f4fb44759e90cedbc3d3a8a865d7722dc"
 }

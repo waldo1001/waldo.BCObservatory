@@ -1,0 +1,858 @@
+{
+  "video_id": "vDGrVHQHLA0",
+  "item_id": "video/yt-microsoft/vDGrVHQHLA0",
+  "title": "AL-Go for Github May Office Hour",
+  "duration_s": 2978,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al-go",
+    "github workflows",
+    "input validation",
+    "schema validation",
+    "pull request",
+    "warnings",
+    "container helper",
+    "version updates",
+    "deprecation",
+    "page scripting",
+    "cicd",
+    "release notes"
+  ],
+  "chapters": [
+    {
+      "title": "Input Validation and Create Release Enhancements",
+      "t_start": 0,
+      "t_end": 101.4
+    },
+    {
+      "title": "AL-Go Settings Schema and Validation",
+      "t_start": 101.4,
+      "t_end": 190.2
+    },
+    {
+      "title": "Failing Pull Requests on New Warnings",
+      "t_start": 190.2,
+      "t_end": 247.5
+    },
+    {
+      "title": "Announcements: Container Helper and Version Updates",
+      "t_start": 247.5,
+      "t_end": 326.2
+    },
+    {
+      "title": "Freddy's Departure and Team Transition",
+      "t_start": 326.2,
+      "t_end": 470.4
+    },
+    {
+      "title": "Team Composition and Pull Request Warning Settings",
+      "t_start": 470.4,
+      "t_end": 549.5
+    },
+    {
+      "title": "BC Container Helper Deprecation and Future Plans",
+      "t_start": 549.5,
+      "t_end": 668.4
+    },
+    {
+      "title": "AL-Go Future Investment and Building Artifacts",
+      "t_start": 668.4,
+      "t_end": 788.5
+    },
+    {
+      "title": "Page Scripting and Community Events",
+      "t_start": 788.5,
+      "t_end": 896.5
+    },
+    {
+      "title": "AL-Go Onboarding, Community Engagement, and Artifact Storage",
+      "t_start": 896.5,
+      "t_end": 1048.1
+    },
+    {
+      "title": "Warning Thresholds and Azure DevOps Integration",
+      "t_start": 1048.1,
+      "t_end": 1195.2
+    },
+    {
+      "title": "Migration Strategy Between Azure DevOps and GitHub",
+      "t_start": 1195.2,
+      "t_end": 1347.3
+    },
+    {
+      "title": "Data-Driven Testing, Copilot Code Review, and Runtime Packages",
+      "t_start": 1347.3,
+      "t_end": 1571.8
+    },
+    {
+      "title": "Auto Translation and Incremental Builds Discussion",
+      "t_start": 1571.8,
+      "t_end": 1703.6
+    },
+    {
+      "title": "Feature Requests and GitHub Discussions for Backlog",
+      "t_start": 1703.6,
+      "t_end": 1894.7
+    },
+    {
+      "title": "GitHub Organization and Enterprise Licensing Structure",
+      "t_start": 1894.7,
+      "t_end": 1959.8
+    },
+    {
+      "title": "AL-Go Documentation Gaps and Enterprise Licensing Questions",
+      "t_start": 1959.8,
+      "t_end": 2042.2
+    },
+    {
+      "title": "Artifact URL Changes and BC Container Helper Deprecation",
+      "t_start": 2042.2,
+      "t_end": 2227.6
+    },
+    {
+      "title": "AL-Go Independence and Security Updates",
+      "t_start": 2227.6,
+      "t_end": 2358.9
+    },
+    {
+      "title": "Translation Feature Request and Resource Allocation",
+      "t_start": 2358.9,
+      "t_end": 2560.5
+    },
+    {
+      "title": "Commitment to Community and Freddy's Future Plans",
+      "t_start": 2560.5,
+      "t_end": 2676
+    },
+    {
+      "title": "Management Transition and Team Structure",
+      "t_start": 2676,
+      "t_end": 2758
+    },
+    {
+      "title": "Closing Remarks and Logistics",
+      "t_start": 2758,
+      "t_end": 2978
+    }
+  ],
+  "features": [
+    {
+      "name": "Input Validation for Workflows",
+      "description": "Enhanced input validation in AL-Go workflows, specifically for create release and increment version number workflows. The system now fails early if invalid parameters are provided instead of failing at the end of execution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 60,
+      "t_end": 101.4,
+      "is_demoed": false,
+      "caveats": [
+        "Currently only for create release and increment version number workflows",
+        "More workflows will be improved over time"
+      ],
+      "tags": [
+        "input validation",
+        "workflows",
+        "error handling"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go Settings Schema Property",
+      "description": "A schema property added to the AL-Go file that provides VS Code suggestions when editing settings and validates settings against the schema to ensure correct syntax and setup.",
+      "status": "preview",
+      "status_evidence_t": 118.1,
+      "status_evidence_quote": "If you're on preview, you might already see it. Otherwise, you'll have to wait for the 7.2",
+      "status_evidence_verified": true,
+      "t_start": 118.1,
+      "t_end": 178.7,
+      "is_demoed": false,
+      "caveats": [
+        "Currently in preview",
+        "Will be in version 7.2"
+      ],
+      "tags": [
+        "schema",
+        "settings",
+        "validation",
+        "intellisense"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Fail Pull Requests on New Warnings",
+      "description": "A feature that automatically fails pull requests if they introduce new code warnings, forcing developers to fix warnings before merging. Looks at new warnings only so users with existing codebases do not have to fix all warnings.",
+      "status": "preview",
+      "status_evidence_t": 247.5,
+      "status_evidence_quote": "Right now it's in preview. Uh I don't know if we have any. We'll ship 7.2 soon",
+      "status_evidence_verified": true,
+      "t_start": 190.2,
+      "t_end": 247.5,
+      "is_demoed": false,
+      "caveats": [
+        "Currently in preview",
+        "Can be switched on or off with settings",
+        "Does not change CI/CD error behavior",
+        "No configurable threshold settings available"
+      ],
+      "tags": [
+        "pull request",
+        "warnings",
+        "quality gates",
+        "feature fail",
+        "code quality"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "BC Container Helper Deprecation Notice",
+      "description": "BC Container Helper versions earlier than 6.1 no longer work. Container Helper is scheduled to be deprecated in about two years, with functionality being replaced by new modules.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 266.1,
+      "t_end": 326.2,
+      "is_demoed": false,
+      "caveats": [
+        "AL-Go repositories are not affected",
+        "Affects users spinning up local containers",
+        "BC Container Helper deprecation timeline not specified"
+      ],
+      "tags": [
+        "container",
+        "deprecation",
+        "local development",
+        "devops pipelines"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go Version Support Update",
+      "description": "Announcement that AL-Go system file versions 5.0 and lower will stop working. Version 5.0 is approximately one year old.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 303.6,
+      "t_end": 326.2,
+      "is_demoed": false,
+      "caveats": [
+        "Version 5.0 is about one year old",
+        "Users should update system files regularly"
+      ],
+      "tags": [
+        "version support",
+        "maintenance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Page Scripting Tests on SaaS Environments",
+      "description": "Page scripting feature in SaaS is being worked on. Currently unable to run page scripting tests on SaaS environments due to 2FA or MFA requirements, but this is being addressed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 775.7,
+      "t_end": 896.5,
+      "is_demoed": false,
+      "caveats": [
+        "Currently blocked by 2FA/MFA requirements",
+        "Timeline uncertain"
+      ],
+      "tags": [
+        "page scripting",
+        "saas",
+        "testing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Azure DevOps and GitHub Integration",
+      "description": "Azure Boards integration allows referencing work items from GitHub and creates automatic links between Azure DevOps and GitHub. Microsoft uses this approach internally alongside AL-Go.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1154.3,
+      "t_end": 1212.4,
+      "is_demoed": false,
+      "caveats": [
+        "Not a painless experience",
+        "Custom automation may be needed beyond standard integration"
+      ],
+      "tags": [
+        "azure devops",
+        "github",
+        "integration",
+        "work items"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Data-Driven Testing Support",
+      "description": "AL-Go currently has no support for data-driven testing. The new AI test toolkit exists but integration with AL-Go has not been implemented yet.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1372.3,
+      "t_end": 1422.2,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet implemented in AL-Go",
+        "Requires investigation for best approach"
+      ],
+      "tags": [
+        "data-driven testing",
+        "testing",
+        "ai test toolkit"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GitHub Copilot Code Review for AL",
+      "description": "GitHub Copilot has a code review feature but is not yet effective for AL language. Improvement needed to make Copilot capable of actual code reviews and formatting for AL.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1461.7,
+      "t_end": 1519.6,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet effective for AL language",
+        "Needs work on code review and formatting capabilities"
+      ],
+      "tags": [
+        "copilot",
+        "code review",
+        "al language"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Building Runtime Packages in AL-Go",
+      "description": "Building runtime packages is not supported by AL-Go and remains on the backlog for future implementation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1553.5,
+      "t_end": 1571.8,
+      "is_demoed": false,
+      "caveats": [
+        "Not currently supported",
+        "On backlog for future work"
+      ],
+      "tags": [
+        "runtime packages",
+        "backlog"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Auto Translation Feature",
+      "description": "Translation functionality for AL-Go pipelines. Community has requested this feature multiple times. Status remains unclear with no recent progress or timeline.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1600.3,
+      "t_end": 1844.4,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet prioritized",
+        "No timeline provided",
+        "No recent updates"
+      ],
+      "tags": [
+        "translations",
+        "feature request",
+        "backlog",
+        "localization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Incremental Builds Feature",
+      "description": "Feature related to incremental compilation in AL-Go builds that was suggested at a round table discussion at Directions. The biggest feature outcome from that round table discussion.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1664.5,
+      "t_end": 1686,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "incremental builds",
+        "compilation",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub Discussions Ideas Tab",
+      "description": "Feature using GitHub Discussions to gather and evaluate new feature ideas for AL-Go backlog. Users can vote or upvote ideas to indicate priority and impact.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1844.4,
+      "t_end": 1894.7,
+      "is_demoed": false,
+      "caveats": [
+        "Recently changed workflow"
+      ],
+      "tags": [
+        "github",
+        "feature evaluation",
+        "community feedback"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Artifact URL Migration to Front Door",
+      "description": "AL-Go is migrating artifact URLs from direct storage account access to going through a front door. Old URLs like bc-artifacts.blob.storage.net will no longer work; new URLs will use bc-artifacts slash with different structure. This is part of a Microsoft security push.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2073.6,
+      "t_end": 2166.3,
+      "is_demoed": false,
+      "caveats": [
+        "URLs are changing",
+        "End of June deadline for migration",
+        "BC Container Helper would previously auto-translate URLs"
+      ],
+      "tags": [
+        "artifact urls",
+        "security",
+        "migration",
+        "devops"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go Independence from BC Container Helper",
+      "description": "AL-Go is working toward becoming fully independent of BC Container Helper. Currently AL-Go still has dependencies on BC Container Helper and needs to extract needed functionality before BC Container Helper is deprecated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2176.8,
+      "t_end": 2227.6,
+      "is_demoed": false,
+      "caveats": [
+        "Still significant work remaining",
+        "No specific timeline given"
+      ],
+      "tags": [
+        "bc container helper",
+        "deprecation",
+        "devops pipelines"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go GitHub Project Ongoing Support",
+      "description": "Microsoft team will continue working on AL-Go with consistent resource allocation despite staffing changes. Sebastian has been added to the team to maintain project momentum.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2470.1,
+      "t_end": 2560.5,
+      "is_demoed": false,
+      "caveats": [
+        "Resource allocation details not publicly disclosed"
+      ],
+      "tags": [
+        "al-go",
+        "devops",
+        "community support"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Engineering Systems Team Oversight",
+      "description": "AL-Go project falls under the engineering systems team. Yonas is the Microsoft manager with responsibility for the project, supported by team members Maria and others.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2714.1,
+      "t_end": 2758,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al-go",
+        "team structure",
+        "management"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "create release workflow",
+      "t": 72
+    },
+    {
+      "type": "other",
+      "name": "increment version number workflow",
+      "t": 86.5
+    },
+    {
+      "type": "other",
+      "name": "AL-Go file",
+      "t": 130.7
+    },
+    {
+      "type": "other",
+      "name": "AL-Go settings file",
+      "t": 130.7
+    },
+    {
+      "type": "other",
+      "name": "Azure Boards",
+      "t": 1179.8
+    },
+    {
+      "type": "other",
+      "name": "AI test toolkit",
+      "t": 1405.7
+    },
+    {
+      "type": "other",
+      "name": "pre-commit",
+      "t": 1509.4
+    },
+    {
+      "type": "other",
+      "name": "code cut",
+      "t": 1519.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Maria",
+      "confidence": "high"
+    },
+    {
+      "name": "Yonas",
+      "confidence": "high"
+    },
+    {
+      "name": "Freddy",
+      "confidence": "high"
+    },
+    {
+      "name": "Sebastian",
+      "confidence": "high"
+    },
+    {
+      "name": "Jonas",
+      "confidence": "high"
+    },
+    {
+      "name": "Jose Madreal K",
+      "confidence": "medium"
+    },
+    {
+      "name": "Roberto Corella",
+      "confidence": "medium"
+    },
+    {
+      "name": "Ryan",
+      "confidence": "high"
+    },
+    {
+      "name": "Christian",
+      "confidence": "medium"
+    },
+    {
+      "name": "Dimmitri",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 60,
+      "text": "we've enhanced that in the in the latest preview. Um, so now what we saw was that when you ran the create release workflow,",
+      "why_it_matters": "Demonstrates the problem that input validation was designed to solve - workflows failing late in execution after wasting time.",
+      "check": "exact"
+    },
+    {
+      "t": 130.7,
+      "text": "at the top of your ALGO file, you get this schema property. And the schema property will do two things for you. First of",
+      "why_it_matters": "Shows the new developer experience improvement with schema-driven VS Code intellisense for AL-Go settings.",
+      "check": "exact"
+    },
+    {
+      "t": 217.6,
+      "text": "So, this new feature failing pull requests on your warnings. Um, so it won't change the behavior of your CI/CD workflows. Uh, that'll still",
+      "why_it_matters": "Clarifies that the new feature is additive and doesn't break existing CI/CD behavior while enforcing code quality.",
+      "check": "exact"
+    },
+    {
+      "t": 266.1,
+      "text": "PC container helper versions earlier than se 6.1 uh, basically don't really work anymore. Um, algo repositories are not affected",
+      "why_it_matters": "Provides specific version guidance for container helper updates and clarifies scope of impact.",
+      "check": "exact"
+    },
+    {
+      "t": 303.6,
+      "text": "please make sure you regularly update your run update algo system files uh because some of the earlier versions of a go will soon",
+      "why_it_matters": "Critical maintenance guidance about version support cutoffs for AL-Go system files.",
+      "check": "exact"
+    },
+    {
+      "t": 373.1,
+      "text": "I am no longer with Microsoft or I'm still here uh at least for for for some time being. Um but I'm like no",
+      "why_it_matters": "Announces Freddy's departure from Microsoft while promising continued support during transition period.",
+      "check": "exact"
+    },
+    {
+      "t": 549.5,
+      "text": "so busy container upper is not deprecated yet. It's deprecated in about two years time I believe is scheduled. um and and it is",
+      "why_it_matters": "Provides timeline and context for container helper deprecation with commitment to provide replacement functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 788.5,
+      "text": "We're not running we are unable to run page scripting tests on SAS environments due to the to the 2FA or MFA requirement of",
+      "why_it_matters": "Explains current limitation with page scripting on SaaS and confirms active work to resolve it.",
+      "check": "exact"
+    },
+    {
+      "t": 788.5,
+      "text": "We're not running we are unable to run page scripting tests on SAS environments due to the to the 2FA or MFA requirement",
+      "why_it_matters": "Identifies a concrete limitation blocking page scripting tests from running in SAS environments and explains the root cause.",
+      "check": "exact"
+    },
+    {
+      "t": 1069.2,
+      "text": "this feature essentially looks at new warnings only. So if you have a codebase that already has a bunch of warnings and you want",
+      "why_it_matters": "Clarifies the specific design goal of the feature fail on new warnings capability and its use case.",
+      "check": "exact"
+    },
+    {
+      "t": 1086.3,
+      "text": "there are other ways to control breaking and failing on warnings, but not um threshold that is configurable in terms of the number of",
+      "why_it_matters": "Establishes that threshold configuration is not available as a feature, despite user requests.",
+      "check": "exact"
+    },
+    {
+      "t": 1179.8,
+      "text": "Azure boards integration being one of them. Uh so you can reference work items from GitHub and it creates automatically creates a link",
+      "why_it_matters": "Describes the integration mechanism available for connecting Azure DevOps and GitHub work items.",
+      "check": "exact"
+    },
+    {
+      "t": 1304.9,
+      "text": "If you look at the teams I don't think there's any doubt that GitHub receives the most love and attention from development teams. A",
+      "why_it_matters": "Indicates GitHub is the preferred platform with more active feature development compared to Azure DevOps.",
+      "check": "exact"
+    },
+    {
+      "t": 1422.2,
+      "text": "we haven't built support for that into a go yet. That's something that needs to be investigated and and how we can do that",
+      "why_it_matters": "Confirms data-driven testing support is not yet implemented in AL-Go and requires further investigation.",
+      "check": "exact"
+    },
+    {
+      "t": 1487.2,
+      "text": "guess there is a co pilot uh code review but it's not very good at al yet",
+      "why_it_matters": "Acknowledges GitHub Copilot code review exists but is not yet effective for the AL language.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1600.3,
+      "text": "On the ELGO project board, there are some cards about auto translation. Is there any news on that? I don't believe so.",
+      "why_it_matters": "Indicates auto translation is a known feature request but has not been worked on yet.",
+      "check": "exact"
+    },
+    {
+      "t": 1664.5,
+      "text": "the biggest feature that came out of that round table was the incremental builds feature",
+      "why_it_matters": "Identifies incremental builds as a major delivered feature with community origin.",
+      "check": "exact"
+    },
+    {
+      "t": 1664.5,
+      "text": "the biggest feature that came out of that round table was the incremental builds feature 23 that was in that was that round table",
+      "why_it_matters": "Confirms that incremental builds feature is a released capability that came from community feedback.",
+      "check": "exact"
+    },
+    {
+      "t": 1844.4,
+      "text": "Seems like it this this is maybe a good opportunity to also promote a little bit the discussions we have on GitHub where we",
+      "why_it_matters": "Announces the GitHub Discussions ideas tab as the primary mechanism for collecting feature requests.",
+      "check": "exact"
+    },
+    {
+      "t": 2104.6,
+      "text": "those URLs would be something like bc artifacts.blo.s storage.net or something like that. Uh and those will not work in the future.",
+      "why_it_matters": "Explicitly states that old artifact URLs will no longer work, requiring migration.",
+      "check": "snapped"
+    },
+    {
+      "t": 2143.1,
+      "text": "at the end of June we'll we'll stop you know the ability to access the storage accounts directly and so by that time all",
+      "why_it_matters": "Specifies the June end deadline for completing artifact URL migration from direct storage to front door.",
+      "check": "exact"
+    },
+    {
+      "t": 2193.7,
+      "text": "It is definitely not. we have a still have a bunch of work left to make a go independent of container helper",
+      "why_it_matters": "Clarifies that AL-Go is not yet independent from BC Container Helper and significant work remains.",
+      "check": "exact"
+    },
+    {
+      "t": 2248.6,
+      "text": "the modifications in ALGO will probably I mean you probably won't notice them in a lot of cases things will just happen and suddenly",
+      "why_it_matters": "Describes the expected outcome that users will not notice AL-Go infrastructure changes as it becomes independent of BC Container Helper.",
+      "check": "exact"
+    },
+    {
+      "t": 2507.5,
+      "text": "we just got another person working on Algo as well, Sebastian. And, uh, yeah, even though Freddy is leaving, we will be continuing to",
+      "why_it_matters": "Confirms team expansion and sustained commitment to AL-Go project despite leadership departure.",
+      "check": "exact"
+    },
+    {
+      "t": 2540.4,
+      "text": "there is a statement from uh Dimmitri from Microsoft uh basically also stating that we're not defunding our efforts into the go",
+      "why_it_matters": "Official Microsoft statement affirming no reduction in AL-Go funding or support.",
+      "check": "exact"
+    },
+    {
+      "t": 2638.6,
+      "text": "I'm going to start my own business and figure out how I can I can manage life, work, and whatever experiences I want to",
+      "why_it_matters": "Freddy's departure is a voluntary career transition, not an organizational issue.",
+      "check": "exact"
+    },
+    {
+      "t": 2714.1,
+      "text": "Elgo will fall under and I mean has fallen under the engineering systems team which is the team I work on Maria work on",
+      "why_it_matters": "Clarifies governance structure and identifies Yonas as the Microsoft manager responsible for AL-Go.",
+      "check": "exact"
+    },
+    {
+      "t": 2742.6,
+      "text": "it's been under it's been under our team for a couple of years, but Fred has still been the one coming up with a",
+      "why_it_matters": "Indicates transition from individual leadership to team-based development model.",
+      "check": "exact"
+    },
+    {
+      "t": 2845.1,
+      "text": "you can always reach us on in the discussion tab on ALGO. There's also a questions uh tab",
+      "why_it_matters": "Provides ongoing community support channels outside of scheduled office hours.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 118.1,
+      "kind": "preview",
+      "text": "If you're on preview, you might already see it. Otherwise, you'll have to wait for the 7.2"
+    },
+    {
+      "t": 247.5,
+      "kind": "preview",
+      "text": "Right now it's in preview. Uh I don't know if we have any. We'll ship 7.2 soon."
+    },
+    {
+      "t": 549.5,
+      "kind": "coming-later",
+      "text": "It's deprecated in about two years time I believe is scheduled. um and and it is being replaced by a new module."
+    },
+    {
+      "t": 788.5,
+      "kind": "coming-later",
+      "text": "We're unable to run page scripting tests on SAS environments due to the 2FA or MFA requirement but it is being worked on. Whether it's going to be next month or months after that, I don't know. But soon as possible."
+    },
+    {
+      "t": 803.3,
+      "kind": "coming-later",
+      "text": "Whether it's going to be next month or months after that, I don't know. But soon as possible."
+    },
+    {
+      "t": 1422.2,
+      "kind": "not-in-this-release",
+      "text": "we haven't built support for that into a go yet. That's something that needs to be investigated"
+    },
+    {
+      "t": 1487.2,
+      "kind": "preview",
+      "text": "there is a co-pilot uh code review, but it's not very good at AL yet"
+    },
+    {
+      "t": 1558.4,
+      "kind": "not-in-this-release",
+      "text": "never never got to that it's part of the backlog"
+    },
+    {
+      "t": 1703.6,
+      "kind": "coming-later",
+      "text": "sadly not something we've uh had the time to to work on"
+    },
+    {
+      "t": 1990.1,
+      "kind": "coming-later",
+      "text": "We have empty pages that says coming soon"
+    },
+    {
+      "t": 2193.7,
+      "kind": "coming-later",
+      "text": "we have a still have a bunch of work left to make a go independent of container helper"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 29,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 15
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028987
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02787
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021585
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016346
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.037156999999999996
+    }
+  ]
+}

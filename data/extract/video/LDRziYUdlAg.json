@@ -1,0 +1,651 @@
+{
+  "video_id": "LDRziYUdlAg",
+  "item_id": "video/yt-microsoft/LDRziYUdlAg",
+  "title": "AL-Go for Github April Office Hour",
+  "duration_s": 2079,
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "al-go",
+    "page scripting visualizer",
+    "runtime package generation",
+    "bc container helper",
+    "nougat packages",
+    "code signing",
+    "build modes",
+    "local dev",
+    "container parameters",
+    "preprocessing directives",
+    "al-go modules",
+    "devops"
+  ],
+  "chapters": [
+    {
+      "title": "AL-Go v7.0 release and page scripting visualizer",
+      "t_start": 0,
+      "t_end": 116.6
+    },
+    {
+      "title": "Front package integration and runtime package generation roadmap",
+      "t_start": 116.6,
+      "t_end": 217
+    },
+    {
+      "title": "BC container helper parameters and local dev configuration",
+      "t_start": 217,
+      "t_end": 354.5
+    },
+    {
+      "title": "BC container settings transfer and workarounds",
+      "t_start": 354.5,
+      "t_end": 456.3
+    },
+    {
+      "title": "BC27 code signing and runtime packages for on-prem apps",
+      "t_start": 456.3,
+      "t_end": 611.4
+    },
+    {
+      "title": "BC container helper retirement and announcement visibility",
+      "t_start": 611.4,
+      "t_end": 770.6
+    },
+    {
+      "title": "PowerShell gallery successor and container functionality gaps",
+      "t_start": 770.6,
+      "t_end": 932.7
+    },
+    {
+      "title": "AL-Go modules and local development focus",
+      "t_start": 932.7,
+      "t_end": 1006.8
+    },
+    {
+      "title": "BC Container Helper retirement strategy",
+      "t_start": 1006.8,
+      "t_end": 1169.7
+    },
+    {
+      "title": "AL-Go GitHub discussions and community",
+      "t_start": 1169.7,
+      "t_end": 1282.3
+    },
+    {
+      "title": "Issues, discussions, project management and community voting",
+      "t_start": 1282.3,
+      "t_end": 1502.8
+    },
+    {
+      "title": "Branch strategies and pull request workflow practices",
+      "t_start": 1502.8,
+      "t_end": 1720
+    },
+    {
+      "title": "Azure DevOps support, Copilot assistance and office hours wrap-up",
+      "t_start": 1720,
+      "t_end": 2079
+    }
+  ],
+  "features": [
+    {
+      "name": "Page scripting visualizer",
+      "description": "A new feature that visualizes test results in CI/CD runs, showing failing, passing, and skipped tests along with overall run time.",
+      "status": "preview",
+      "status_evidence_t": 26.9,
+      "status_evidence_quote": "uh in preview. Right now",
+      "status_evidence_verified": true,
+      "t_start": 11.4,
+      "t_end": 79,
+      "is_demoed": true,
+      "caveats": [
+        "Only visualizing part is new, base scripting already existed"
+      ],
+      "tags": [
+        "testing",
+        "ci-cd",
+        "visualization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Deploy to sandbox from pull request",
+      "description": "Support for deploying to sandbox environments from a pull request, which was previously in preview and is now included in v7.0.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 11.4,
+      "t_end": 26.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "deployment",
+        "sandbox",
+        "pull request"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Runtime package generation and integration",
+      "description": "Feature to generate runtime packages and integrate them with Nougat, allowing apps to be built for different targets. Expected to be finalized before October 1st.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 151.2,
+      "t_end": 217,
+      "is_demoed": false,
+      "caveats": [
+        "Depends on modern dev team compiler",
+        "May be optimized later to save runner time"
+      ],
+      "tags": [
+        "runtime packages",
+        "nougat",
+        "generation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Build modes with preprocessor symbols",
+      "description": "Latest AL-Go edition allows building apps for different targets using build modes and preprocessor symbols, enabling single source for multiple app source and on-prem variants.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 571.7,
+      "t_end": 592.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "build modes",
+        "preprocessor",
+        "app source",
+        "on-prem"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "BC container helper v6.1 breaking changes",
+      "description": "BC container helper versions before 6.1 will have broken major functionalities after May 1st due to security-related work.",
+      "status": "announced",
+      "status_evidence_t": 91,
+      "status_evidence_quote": "all BC container helper versions before version 6.1 might not work after May 1st. At least like major functionalities will be broken",
+      "status_evidence_verified": true,
+      "t_start": 91,
+      "t_end": 116.6,
+      "is_demoed": false,
+      "caveats": [
+        "Does not affect repositories using AL-Go for GitHub"
+      ],
+      "tags": [
+        "container helper",
+        "breaking change",
+        "security"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "BC Container Helper retirement",
+      "description": "BC Container Helper is slated for retirement in the next two to three years and will be replaced by a PowerShell gallery successor with new AL-Go modules for DevOps tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 797.6,
+      "t_end": 932.7,
+      "is_demoed": false,
+      "caveats": [
+        "Some functionality gaps expected",
+        "UseTraffic option support uncertain",
+        "Migration timeline is two to three years"
+      ],
+      "tags": [
+        "bc container helper",
+        "deprecation",
+        "devops",
+        "retirement"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go PowerShell module for local development",
+      "description": "A new slim PowerShell module will be created for local development tasks like spinning up containers, replacing parts of BC Container Helper. This will be published in the PowerShell gallery and contain approximately five to ten commands.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 932.7,
+      "t_end": 1006.8,
+      "is_demoed": false,
+      "caveats": [
+        "Exact command count not yet determined",
+        "Partner input still being gathered",
+        "Details not finalized"
+      ],
+      "tags": [
+        "powershell module",
+        "local development",
+        "al-go",
+        "containers"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go modules within AL-Go shipping",
+      "description": "DevOps-related modules and functionality will be shipped directly within AL-Go rather than on the PowerShell gallery, consolidating tooling for CI/CD tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 932.7,
+      "t_end": 975.2,
+      "is_demoed": false,
+      "caveats": [
+        "Architecture and module boundaries still being defined"
+      ],
+      "tags": [
+        "al-go",
+        "devops",
+        "modules",
+        "shipping"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub Discussions for AL-Go",
+      "description": "AL-Go is moving from GitHub Issues to GitHub Discussions for community engagement, allowing users to ask questions, suggest ideas, and vote on features. This provides a better forum for community discussions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1169.7,
+      "t_end": 1323.1,
+      "is_demoed": false,
+      "caveats": [
+        "Recently launched",
+        "Still building community participation"
+      ],
+      "tags": [
+        "github discussions",
+        "community",
+        "engagement",
+        "voting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Community-driven feature voting",
+      "description": "Users can vote on ideas in AL-Go Discussions, and the most voted ideas will be prioritized for implementation and moved from discussions to the project backlog.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1353.8,
+      "t_end": 1405.7,
+      "is_demoed": false,
+      "caveats": [
+        "No guaranteed implementation",
+        "Voting-based prioritization, not promise-based"
+      ],
+      "tags": [
+        "community voting",
+        "features",
+        "prioritization",
+        "discussions"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "NG Get integration",
+      "description": "NG Get integration is mentioned as something the team is working on based on community voting and ideas.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1376.8,
+      "t_end": 1405.7,
+      "is_demoed": false,
+      "caveats": [
+        "In development",
+        "Community voting driving priority"
+      ],
+      "tags": [
+        "ng get",
+        "feature request",
+        "development"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Code coverage support",
+      "description": "Code coverage functionality is being considered as a potential feature for AL-Go based on community interest.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1395.2,
+      "t_end": 1419.1,
+      "is_demoed": false,
+      "caveats": [
+        "Uncertain timeline",
+        "Dependent on community voting and team capacity"
+      ],
+      "tags": [
+        "code coverage",
+        "testing",
+        "feature request"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go documentation on branching",
+      "description": "AL-Go has suggestions and documentation related to branching strategies for development workflows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1560.4,
+      "t_end": 1575.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al-go",
+        "branching",
+        "documentation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub branch update requirement for pull requests",
+      "description": "GitHub feature that allows requiring branches to be up to date before merging. When enabled, an update branch action appears on pull requests that pulls the target branch into the PR branch automatically, with conflicts resolved in the UI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1861.8,
+      "t_end": 1881.9,
+      "is_demoed": false,
+      "caveats": [
+        "Feature not available in Azure DevOps"
+      ],
+      "tags": [
+        "github",
+        "pull requests",
+        "branch management"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Azure DevOps repository support in AL-Go",
+      "description": "AL-Go supports some repositories in Azure DevOps, though certain features like branch update requirements for pull requests are not available.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1906.2,
+      "t_end": 1926.4,
+      "is_demoed": false,
+      "caveats": [
+        "Some GitHub features not available in Azure DevOps",
+        "No branch update requirement feature found"
+      ],
+      "tags": [
+        "al-go",
+        "azure devops",
+        "repository support"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "newb container",
+      "t": 285.5
+    },
+    {
+      "type": "other",
+      "name": "local dev",
+      "t": 235.8
+    },
+    {
+      "type": "other",
+      "name": "runo pipeline",
+      "t": 319
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Freddy",
+      "confidence": "high"
+    },
+    {
+      "name": "Sebastian Shu",
+      "confidence": "high"
+    },
+    {
+      "name": "Florian",
+      "confidence": "high"
+    },
+    {
+      "name": "Maria",
+      "confidence": "high"
+    },
+    {
+      "name": "Jose Martinez",
+      "confidence": "high"
+    },
+    {
+      "name": "Alex",
+      "confidence": "high"
+    },
+    {
+      "name": "Florian Roka",
+      "confidence": "medium"
+    },
+    {
+      "name": "Eric Van",
+      "confidence": "low"
+    },
+    {
+      "name": "Steve Christristianos",
+      "confidence": "low"
+    },
+    {
+      "name": "Spassin",
+      "confidence": "low"
+    },
+    {
+      "name": "Sebastian",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 11.4,
+      "text": "we did ship version 7.0 and that included the support for deploying to sandbox environments from a pool request that was previously in preview",
+      "why_it_matters": "Marks the GA release of sandbox deployment from pull requests, a key AL-Go feature",
+      "check": "exact"
+    },
+    {
+      "t": 91,
+      "text": "all BC container helper versions before version 6.1 might not work after May 1st. At least like major functionalities will be broken",
+      "why_it_matters": "Critical deadline for users to upgrade BC container helper due to security changes",
+      "check": "exact"
+    },
+    {
+      "t": 151.2,
+      "text": "it is one of the two big topics that that we're going to work on I'm going to work on at least in this",
+      "why_it_matters": "Signals runtime package generation is a major priority for upcoming AL-Go development",
+      "check": "exact"
+    },
+    {
+      "t": 186.2,
+      "text": "The the issue that we've been waiting for was the modern dev team to create a compiler that could generate runtime packages without us",
+      "why_it_matters": "Explains the technical dependency blocking runtime package generation implementation",
+      "check": "exact"
+    },
+    {
+      "t": 217,
+      "text": "october 1st is the best date but it's probably going to be before that",
+      "why_it_matters": "Sets timeline expectation for runtime package generation feature completion",
+      "check": "fuzzy"
+    },
+    {
+      "t": 571.7,
+      "text": "the latest edition in the last version where you can now do build modes and you can do pre processor symbols in",
+      "why_it_matters": "Demonstrates how preprocessor symbols enable multi-target app builds with AL-Go",
+      "check": "fuzzy"
+    },
+    {
+      "t": 797.6,
+      "text": "busy container helper slated for retirement in the next two three years",
+      "why_it_matters": "Establishes the timeline and status of BC Container Helper deprecation - a major change to the development toolchain.",
+      "check": "exact"
+    },
+    {
+      "t": 851,
+      "text": "there's definitely going to be some gaps in the functionality. We're not going to just take new BC container and move it as is",
+      "why_it_matters": "Sets expectations that the BC container helper successor will not have feature parity",
+      "check": "exact"
+    },
+    {
+      "t": 851,
+      "text": "there's definitely going to be some gaps in the functionality. We're not going to just take new BC container and move it as is.",
+      "why_it_matters": "Acknowledges that the replacement will have functionality gaps, setting expectations for migration complexity.",
+      "check": "exact"
+    },
+    {
+      "t": 932.7,
+      "text": "the idea on the container helper deprecation is really that we'll take all the things that we need for DevOps and put those into",
+      "why_it_matters": "Clarifies the strategy: AL-Go will consolidate DevOps functionality rather than relying on external container helper tools.",
+      "check": "exact"
+    },
+    {
+      "t": 1101.3,
+      "text": "the announcement of the retiring of basic container helper doesn't mean that there's not going to be uh some um some other solution.",
+      "why_it_matters": "Provides reassurance that deprecation does not mean abandonment - alternative solutions are planned.",
+      "check": "exact"
+    },
+    {
+      "t": 1262.2,
+      "text": "last month we announced that we're going to start using discussions. The um GitHub feature has GitHub has this feature called discussions where you",
+      "why_it_matters": "Marks the shift from Issues to Discussions as the primary community engagement mechanism for AL-Go.",
+      "check": "exact"
+    },
+    {
+      "t": 1366.2,
+      "text": "in certain periods we're going to get the top most voted ideas. We don't have like a set count but something that we're going",
+      "why_it_matters": "Explains how community voting directly drives AL-Go feature prioritization and development backlog.",
+      "check": "exact"
+    },
+    {
+      "t": 1395.2,
+      "text": "stuff like the NG get thing is definitely something we're working on.",
+      "why_it_matters": "Confirms NG Get is in active development as a response to community interest.",
+      "check": "exact"
+    },
+    {
+      "t": 1587.3,
+      "text": "like if it works for you that's fine I mean it's branching strategies like change all the time.",
+      "why_it_matters": "Establishes that there is no single correct branching strategy and flexibility is acceptable based on team needs.",
+      "check": "exact"
+    },
+    {
+      "t": 1597.6,
+      "text": "if you feel that that way you manage to ship a stable code and you manage to kind of quickly revert if something uh",
+      "why_it_matters": "Defines the criteria for a successful branching strategy: stable code shipping and quick reversion capability.",
+      "check": "exact"
+    },
+    {
+      "t": 1680.7,
+      "text": "one of the things I like to do and I actually learned that from Maria is to open a pull request early because that",
+      "why_it_matters": "Describes a best practice of early pull request opening to facilitate easier integration of main branch changes.",
+      "check": "exact"
+    },
+    {
+      "t": 1861.8,
+      "text": "on GitHub, I think what also Freddy was referring to a little bit ago. Um you can set up this way. You can kind",
+      "why_it_matters": "Explains GitHub's branch update requirement feature that prevents merging stale branches.",
+      "check": "exact"
+    },
+    {
+      "t": 1893.3,
+      "text": "azure devops alex do you know anything that uh but maybe i'm wrong",
+      "why_it_matters": "Confirms that Azure DevOps lacks GitHub's branch update requirement feature for pull requests.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2050.7,
+      "text": "we're looking forward to next month where the office hour will be a morning one. I think that's what we agreed on.",
+      "why_it_matters": "Announces scheduling change for future AL-Go office hours moving to morning time slot.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 26.9,
+      "kind": "preview",
+      "text": "page scripting visualizer uh in preview. Right now"
+    },
+    {
+      "t": 91,
+      "kind": "subject-to-change",
+      "text": "all BC container helper versions before version 6.1 might not work after May 1st due to security related work"
+    },
+    {
+      "t": 165.8,
+      "kind": "coming-later",
+      "text": "entire Nougat story should be finalized before October 1st is the goal"
+    },
+    {
+      "t": 797.6,
+      "kind": "coming-later",
+      "text": "BC container helper slated for retirement in the next two three years"
+    },
+    {
+      "t": 1395.2,
+      "kind": "preview",
+      "text": "code coverage is also something that that we we I hope we'll be be able to do"
+    },
+    {
+      "t": 2050.7,
+      "kind": "coming-later",
+      "text": "next month where the office hour will be a morning one"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 20,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 13
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024019
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026826
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017681
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030788000000000003
+    }
+  ]
+}
