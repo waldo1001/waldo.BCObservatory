@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-how-categorize-items",
   "published_at": "2025-08-21T10:53:19.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 2,
       "cost_usd": 0.003942
+    },
+    "summarized": {
+      "at": "2026-10-06T19:07:49.037Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:07:49.038Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:07:49.039Z",
+      "page": false
     }
   },
   "input_hash": "c5c3a1318bb6f4e23187a326e8d372d02f6fb7bb",

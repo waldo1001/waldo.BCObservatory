@@ -1,0 +1,504 @@
+{
+  "video_id": "6Zb7VAvLVm4",
+  "item_id": "video/yt-microsoft/6Zb7VAvLVm4",
+  "title": "What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)",
+  "duration_s": 946,
+  "systems": [
+    "integration",
+    "reporting",
+    "copilot"
+  ],
+  "topics": [
+    "power platform",
+    "power automate",
+    "power bi",
+    "copilot studio",
+    "connectors",
+    "reporting",
+    "generative ai",
+    "embedding",
+    "data integration",
+    "dataverse"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Power Platform Overview",
+      "t_start": 0,
+      "t_end": 69.3
+    },
+    {
+      "title": "Power Automate Improvements",
+      "t_start": 69.3,
+      "t_end": 151
+    },
+    {
+      "title": "Job Queue Features and Copilot Support",
+      "t_start": 151,
+      "t_end": 228
+    },
+    {
+      "title": "Copilot Studio Integration Overview",
+      "t_start": 228,
+      "t_end": 300.6
+    },
+    {
+      "title": "Copilot Studio Demo - Inventory Helper",
+      "t_start": 300.6,
+      "t_end": 541.8
+    },
+    {
+      "title": "Power BI New Content and Reports",
+      "t_start": 541.8,
+      "t_end": 604
+    },
+    {
+      "title": "Power BI Embed Experience Demo",
+      "t_start": 604,
+      "t_end": 720.4
+    },
+    {
+      "title": "Power BI AL Code and Developer Experience",
+      "t_start": 720.4,
+      "t_end": 801.4
+    },
+    {
+      "title": "Power BI Multilanguage Support and Connector Improvements",
+      "t_start": 801.4,
+      "t_end": 946
+    }
+  ],
+  "features": [
+    {
+      "name": "Linked Environment Support",
+      "description": "Power Automate now honors linked environments defined in tenant admin Center, with an assisted setup page to configure or change the linked environment for Business Central integration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 89.4,
+      "t_end": 109.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power automate",
+        "environments",
+        "setup"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Find One Record Action",
+      "description": "A new Power Automate action that allows pinpointing a specific record in Business Central using friendly search criteria.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 109.8,
+      "t_end": 130.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power automate",
+        "connector",
+        "actions"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Find Records Action",
+      "description": "An action in Power Automate that allows finding a selection of records and iterating on them within a flow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 130.3,
+      "t_end": 151,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power automate",
+        "connector",
+        "actions"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Job Queue Business Event and Templates",
+      "description": "A new business event and set of Power Automate templates will be available allowing users to be notified when something is wrong with job queues.",
+      "status": "announced",
+      "status_evidence_t": 171,
+      "status_evidence_quote": "we have added a new um business event and a set of power automate templates that will be available for you later",
+      "status_evidence_verified": true,
+      "t_start": 151,
+      "t_end": 187.3,
+      "is_demoed": false,
+      "caveats": [
+        "templates available later"
+      ],
+      "tags": [
+        "power automate",
+        "job queue",
+        "notifications"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Power Automate New Designer Support",
+      "description": "Power Automate now comes with a new designer that allows using copilot within Power Automate to build flows, now fully enabled for Business Central with support for our triggers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 187.3,
+      "t_end": 207.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power automate",
+        "copilot",
+        "designer"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot-Assisted Flow Building in Business Central",
+      "description": "A feature allowing users to build flows using copilot inside Business Central, complementing the Power Automate capability, currently not ready.",
+      "status": "announced",
+      "status_evidence_t": 228,
+      "status_evidence_quote": "it will be also possible within business Central it's just this feature is still not ready will be coming later this wave",
+      "status_evidence_verified": true,
+      "t_start": 207.6,
+      "t_end": 240.1,
+      "is_demoed": false,
+      "caveats": [
+        "not ready",
+        "coming later in this wave"
+      ],
+      "tags": [
+        "copilot",
+        "flow building",
+        "upcoming"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Studio Connector for Business Central",
+      "description": "Integration between Business Central and Copilot Studio enabling data access, actions, and plugins from Business Central to be available in Copilot Studio for building custom copilot experiences and chatbots.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 240.1,
+      "t_end": 300.6,
+      "is_demoed": true,
+      "caveats": [
+        "still being enhanced"
+      ],
+      "tags": [
+        "copilot studio",
+        "connector",
+        "chatbots",
+        "generative ai"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Studio Generative AI Mode",
+      "description": "A new mode in Copilot Studio that uses generative AI to determine copilot behavior based on English descriptions, eliminating the need to manually define each topic and flow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 300.6,
+      "t_end": 541.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot studio",
+        "generative ai",
+        "chatbot"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Power BI New Content Apps",
+      "description": "New apps in preview containing more than 60 different report pages covering the most used areas inside Business Central, available out-of-the-box since the first minor update.",
+      "status": "preview",
+      "status_evidence_t": 583.8,
+      "status_evidence_quote": "since the first minor update you will actually have access to some new apps in preview which contain a lot more than 60 actually",
+      "status_evidence_verified": true,
+      "t_start": 541.8,
+      "t_end": 604,
+      "is_demoed": true,
+      "caveats": [
+        "preview status",
+        "available from first minor update onwards"
+      ],
+      "tags": [
+        "power bi",
+        "reporting",
+        "content apps"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI Embedded Reports with Full Capabilities",
+      "description": "Enhanced embed experience for Power BI reports in Business Central allowing developers to embed reports with rich context including filter panes, bookmarks, and multiple report pages with full filtering and drilling capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 604,
+      "t_end": 679.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "embedding",
+        "developer experience"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI Report Page Bookmarking",
+      "description": "Simplified bookmarking of Power BI report pages within Business Central, making it easier to return to specific pages from the home bar.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 679.9,
+      "t_end": 700.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "bookmarking",
+        "usability"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI Report Page Search",
+      "description": "Power BI report pages are now searchable within Business Central, allowing users to find pages through the search functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 700.2,
+      "t_end": 720.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "search",
+        "discoverability"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI Multilanguage Support",
+      "description": "Multilanguage experience for Power BI reports allowing developers to specify language preferences when embedding reports, with translations baked at platform level within the Power BI report itself.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 720.4,
+      "t_end": 866,
+      "is_demoed": true,
+      "caveats": [
+        "not all labels translated yet",
+        "still working on complete translations"
+      ],
+      "tags": [
+        "power bi",
+        "multilanguage",
+        "localization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI Add-in in System Application",
+      "description": "The Power BI add-in is now included in the system application, allowing apps to make direct use of it without requiring separate setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 801.4,
+      "t_end": 833.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "system application",
+        "integration"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI Code Generator",
+      "description": "A code generator available in the BCGh repo or online that takes an Excel file and generates AL pages for embedding Power BI reports, simplifying extension maintenance for ISVs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 833.9,
+      "t_end": 854,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "code generator",
+        "developer tools"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Power BI Connector Refresh Options",
+      "description": "New options added to the Power BI connector allowing report creators to customize connection refresh behavior and specify custom timeouts for OData queries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 886,
+      "t_end": 927.3,
+      "is_demoed": false,
+      "caveats": [
+        "defaults already set to recommended values"
+      ],
+      "tags": [
+        "power bi",
+        "connector",
+        "configuration"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "find one record",
+      "t": 109.8
+    },
+    {
+      "type": "other",
+      "name": "find records",
+      "t": 130.3
+    },
+    {
+      "type": "other",
+      "name": "BC inventory helper",
+      "t": 321.4
+    },
+    {
+      "type": "other",
+      "name": "return inventory level",
+      "t": 372.1
+    },
+    {
+      "type": "other",
+      "name": "PowerBI add-in",
+      "t": 821.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "BU Koto",
+      "confidence": "medium"
+    },
+    {
+      "name": "Ero Chiman",
+      "confidence": "medium"
+    },
+    {
+      "name": "Enrio",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 69.3,
+      "text": "starting with power automate improvements in our integration with power automate in this wave we start with a very basic thing which is the",
+      "why_it_matters": "Establishes linked environment support as a new foundational feature in this wave for Power Automate integration with Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 171,
+      "text": "we have added a new um business event and a set of power automate templates that will be available for you later allowing you",
+      "why_it_matters": "Shows upcoming templates for job queue notifications and indicates some features are coming later, not immediately available.",
+      "check": "exact"
+    },
+    {
+      "t": 187.3,
+      "text": "power automate right now comes with a new designer H which allows you to use copilot within power automate and build your flows with",
+      "why_it_matters": "Documents that copilot support in Power Automate is now fully enabled for Business Central, representing a significant integration milestone.",
+      "check": "exact"
+    },
+    {
+      "t": 228,
+      "text": "it will be also possible within business Central it's just this feature is still not ready will be coming later this wave",
+      "why_it_matters": "Explicitly states that copilot-assisted flow building within Business Central is not ready and coming later in the same wave.",
+      "check": "exact"
+    },
+    {
+      "t": 583.8,
+      "text": "since the first minor update you will actually have access to some new apps in preview which contain a lot more than 60 actually",
+      "why_it_matters": "Quantifies new Power BI content (60+ report pages) and clarifies these are in preview status available from first minor update.",
+      "check": "exact"
+    },
+    {
+      "t": 659.8,
+      "text": "since this release you have some additional capabilities here so you can see that uh you can choose as a developer to embed the",
+      "why_it_matters": "Confirms expanded Power BI embed capabilities for developers in this release with rich context options.",
+      "check": "exact"
+    },
+    {
+      "t": 821.7,
+      "text": "the powerbi addin is now in the system application which means you can just make use of it uh directly from your",
+      "why_it_matters": "Announces that Power BI add-in inclusion in system application changes how developers can integrate it into their apps.",
+      "check": "exact"
+    },
+    {
+      "t": 907.3,
+      "text": "we have added some new options so that you as a report Creator can have more flexibility when it comes to uh the way",
+      "why_it_matters": "Documents new connector options with good defaults, giving creators flexibility for customization when needed.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 171,
+      "kind": "coming-later",
+      "text": "a set of power automate templates that will be available for you later"
+    },
+    {
+      "t": 228,
+      "kind": "coming-later",
+      "text": "this feature is still not ready will be coming later this wave"
+    },
+    {
+      "t": 583.8,
+      "kind": "preview",
+      "text": "new apps in preview which contain a lot more than 60 actually different report pages"
+    },
+    {
+      "t": 741.3,
+      "kind": "subject-to-change",
+      "text": "not all of the labels are translated we are still working on this so that's why it's upcoming for a minor release"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 3,
+    "evidence_unverified": 13
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.036834
+    }
+  ]
+}

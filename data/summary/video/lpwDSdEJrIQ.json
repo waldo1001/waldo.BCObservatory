@@ -1,0 +1,27 @@
+{
+  "video_id": "lpwDSdEJrIQ",
+  "item_id": "video/yt-microsoft/lpwDSdEJrIQ",
+  "summary": "AL code performance in Business Central, centred on reducing database calls. Covers query telemetry (750 ms logging threshold), flow fields, SetLoadFields, caching, indexing, page search, locking, and diagnostic tools such as the Performance Toolkit and the in-client profiler.",
+  "overview": "Episode 5 of Business Central Under the Hood explains why database calls dominate AL execution time. A line of AL code that does not touch the database takes about a microsecond, while a SQL call takes at best about a millisecond and often seconds. The speakers cover how to find slow queries, how to cut the number of queries, and how caching works at the company session level.\n\nThe second half covers indexing, why page search can cause full table scans, and how locking affects concurrency in sales order posting. It also describes work on number sequences, concurrent warehouse entry posting in the BC25 October release, planned SQL full text indexing for page search, and tools for diagnosis: Application Insights, the database locks page, the missing indexes page, and the in-client profiler, which is demoed.",
+  "key_points": [
+    "Database statements cost far more than non-database AL statements, so reduce the number of SQL calls first; avoid nested loops that look something up for each record.",
+    "Microsoft logs queries longer than 750 milliseconds via telemetry; partners can use Application Insights to monitor their own customers.",
+    "Use flow fields so SQL does sums and lookups, and use SetLoadFields to load only the fields you need instead of whole records.",
+    "Data cached at company session level is shared by all users of that company; the first users in the morning pay the cost of filling the cache.",
+    "Page search covers all visible columns except numbers and booleans, which can lead to full table scans. SQL full text indexing is planned, hoped for BC25.",
+    "For locking, do the expensive work first and the update at the end. Read isolation helps concurrency but needs developer uptake.",
+    "The in-client profiler lets you record an action and download a profile to open in Visual Studio Code; the speakers say it is underused. The Performance Toolkit compares timings and SQL statement counts between code versions."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "administrator"
+  ],
+  "extraction_hash": "11b87f053880bc4640a52d78143074ef4b2021049a5276ac5a18f5d1eef9f788",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0234804
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "video_id": "6Zb7VAvLVm4",
+  "item_id": "video/yt-microsoft/6Zb7VAvLVm4",
+  "summary": "Business Central 2024 release wave 2 integration with Power Platform: Power Automate (linked environments, Find One Record and Find Records actions, job queue event, new designer), Copilot Studio connector with a demo, and Power BI (preview apps with 60+ report pages, embedding, multilanguage, connector options).",
+  "overview": "The video, published 2024-10-09 and 16 minutes long, walks through what changed in Business Central's integration with Power Platform in 2024 release wave 2. It starts with Power Automate, then covers the Copilot Studio integration with an Inventory Helper demo, and finishes with Power BI.\n\nOn Power Automate, linked environments from the tenant admin center are now honored and there are new record-finding actions. A job queue business event is announced, with templates coming later. On Power BI, new apps in preview have more than 60 report pages. The embed experience, bookmarking, search, multilanguage support, the system application add-in, a code generator and connector refresh options are also covered.",
+  "key_points": [
+    "Power Automate honors the linked environment defined in the tenant admin center. An assisted setup page lets you configure or change the linked environment for Business Central.",
+    "New Power Automate actions: Find One Record pinpoints a record using friendly search criteria. Find Records returns a selection that a flow can iterate over.",
+    "A job queue business event is announced, and Power Automate templates for job queue problems will be available later. Copilot-assisted flow building inside Business Central is not ready and is coming later in this wave.",
+    "The new Power Automate designer, which includes copilot, is now enabled for Business Central triggers.",
+    "The Copilot Studio connector exposes Business Central data, actions and plugins. Its generative AI mode was demoed with an Inventory Helper, and the connector is still being enhanced.",
+    "Power BI apps in preview have more than 60 report pages and are available from the first minor update onward. Embedded reports support filter panes, bookmarks and multiple pages, and report pages are searchable and bookmarkable.",
+    "The Power BI add-in is now in the system application. A code generator turns an Excel file into AL pages for embedding reports. Multilanguage labels are not all translated yet. The connector has new refresh and OData timeout options with recommended defaults."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "3c82eb6d4aae96ad38282ccdee77f0a59b4b1b40ff2d54567aa10de6ecd72c4a",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.020452400000000003
+  }
+}

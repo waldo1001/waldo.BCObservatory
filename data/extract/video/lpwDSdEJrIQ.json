@@ -1,0 +1,665 @@
+{
+  "video_id": "lpwDSdEJrIQ",
+  "item_id": "video/yt-microsoft/lpwDSdEJrIQ",
+  "title": "Business Central Under the Hood episode 5: How To Make Your AL Code Super Fast",
+  "duration_s": 2262,
+  "systems": [
+    "development",
+    "platform",
+    "sales"
+  ],
+  "topics": [
+    "al code performance",
+    "database optimization",
+    "sql queries",
+    "indexing",
+    "caching",
+    "flow fields",
+    "set load fields",
+    "telemetry",
+    "performance testing",
+    "data retrieval",
+    "page search",
+    "full table scan"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and performance fundamentals",
+      "t_start": 0,
+      "t_end": 72.7
+    },
+    {
+      "title": "Measuring code execution speed and database impact",
+      "t_start": 72.7,
+      "t_end": 154.8
+    },
+    {
+      "title": "Database as the bottleneck and performance testing",
+      "t_start": 154.8,
+      "t_end": 216.1
+    },
+    {
+      "title": "Long-running queries and query categorization",
+      "t_start": 216.1,
+      "t_end": 295.5
+    },
+    {
+      "title": "Detecting and optimizing queries through telemetry",
+      "t_start": 295.5,
+      "t_end": 373.8
+    },
+    {
+      "title": "Minimizing queries and avoiding nested loops",
+      "t_start": 373.8,
+      "t_end": 501.4
+    },
+    {
+      "title": "Flow fields and set load fields optimization",
+      "t_start": 501.4,
+      "t_end": 615.2
+    },
+    {
+      "title": "Performance testing tools and SQL code generation",
+      "t_start": 615.2,
+      "t_end": 749.6
+    },
+    {
+      "title": "Caching strategy, session hydration, and four levels of data retrieval",
+      "t_start": 749.6,
+      "t_end": 990
+    },
+    {
+      "title": "Page search and full table scans",
+      "t_start": 990,
+      "t_end": 1134.7
+    },
+    {
+      "title": "Locking fundamentals and data consistency",
+      "t_start": 1134.7,
+      "t_end": 1236
+    },
+    {
+      "title": "Semaphore locking in sales order posting",
+      "t_start": 1236,
+      "t_end": 1397
+    },
+    {
+      "title": "Parallel execution, concurrent operations, and diagnostics tools",
+      "t_start": 1397,
+      "t_end": 2262
+    }
+  ],
+  "features": [
+    {
+      "name": "Performance Toolkit",
+      "description": "A tool that helps measure and compare database calls between code versions. It shows both timings and the number of SQL statements, accessible to partners for free.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 174.9,
+      "t_end": 195.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance measurement",
+        "database calls",
+        "testing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Telemetry monitoring for long-running queries",
+      "description": "Microsoft uses telemetry to detect queries longer than 750 milliseconds across customers and log them for analysis. Partners can use Application Insights to monitor their own customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 295.5,
+      "t_end": 336.8,
+      "is_demoed": false,
+      "caveats": [
+        "750 millisecond threshold for logging"
+      ],
+      "tags": [
+        "telemetry",
+        "diagnostics",
+        "query monitoring"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Flow fields",
+      "description": "An optimization technique to let SQL perform calculations and aggregations instead of AL code. Can sum underlying entries or provide lookups like customer names without fetching entire records.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 501.4,
+      "t_end": 541.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "optimization",
+        "sql aggregation",
+        "performance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Set load fields function",
+      "description": "Function to specify only needed fields when retrieving records, avoiding loading entire records with extensions. For example, loading only a currency code instead of the full customer record.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 574.6,
+      "t_end": 594.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "optimization",
+        "field selection",
+        "performance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL to SQL code generation",
+      "description": "AL statements are transformed into SQL queries at runtime. The NST checks its cache first before issuing SQL statements, providing in-memory operation when data is cached.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 677.4,
+      "t_end": 737.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "code generation",
+        "caching",
+        "sql translation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Session caching strategy",
+      "description": "Data cached at the company session level is shared across all users logging into that company. First users on Monday morning experience slower initial loads as they hydrate the cache for everyone.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 769.9,
+      "t_end": 824.5,
+      "is_demoed": false,
+      "caveats": [
+        "affects early morning users"
+      ],
+      "tags": [
+        "caching",
+        "performance",
+        "session management"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Index seek optimization",
+      "description": "Using indexes to efficiently locate records. When a field is indexed and at the beginning of the index, SQL can perform an exact seek rather than scanning the entire index.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 845.2,
+      "t_end": 881.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "indexing",
+        "optimization",
+        "sql performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Read isolation feature",
+      "description": "Allows developers to read records without locking, only reading committed or uncommitted data as specified, even when called from within a locking scope.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1574.5,
+      "t_end": 1614.8,
+      "is_demoed": false,
+      "caveats": [
+        "may not be a game changer but helps with concurrency",
+        "requires developer uptake and partner adoption",
+        "Not considered a game changer but improves system concurrency"
+      ],
+      "tags": [
+        "locking",
+        "concurrency",
+        "performance",
+        "developer-feature",
+        "read isolation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Database locks page",
+      "description": "Shows who is currently holding locks in the system and what is being locked.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1513.2,
+      "t_end": 1533.8,
+      "is_demoed": false,
+      "caveats": [
+        "only useful when locks are actively held",
+        "partner may not have access to customer systems",
+        "Requires access to the system",
+        "Only useful when locks are actively occurring",
+        "Locks disappear after they release"
+      ],
+      "tags": [
+        "diagnostics",
+        "locking",
+        "troubleshooting",
+        "database locks"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Missing indexes page",
+      "description": "Shows SQL suggestions for missing indexes that could improve performance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1513.2,
+      "t_end": 1533.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "diagnostics",
+        "indexing",
+        "performance",
+        "missing indexes",
+        "sql monitoring"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "In-client profiler",
+      "description": "Allows users to record an action and get a profile showing where time is spent. Can download profile file and open in Visual Studio Code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1513.2,
+      "t_end": 1554.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "diagnostics",
+        "profiling",
+        "performance",
+        "developer-tools"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Application Insights",
+      "description": "Analytics tool for diagnosing performance issues and customer cases and for monitoring long-running queries and lock behavior.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1513.2,
+      "t_end": 1554.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "diagnostics",
+        "analytics",
+        "performance",
+        "telemetry"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Cross-System Index Recommendations Dashboard",
+      "description": "Microsoft collects index recommendation data from all SQL servers across all customer systems and combines it into a dashboard showing which indexes are missing most frequently.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1749.8,
+      "t_end": 1784.7,
+      "is_demoed": false,
+      "caveats": [
+        "Optimizes for average or 80% of usage patterns"
+      ],
+      "tags": [
+        "indexes",
+        "telemetry",
+        "cross-system analytics"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Inline Performance Profiler",
+      "description": "Tool that allows downloading profile files openable in Visual Studio Code to analyze function execution times and identify performance bottlenecks down to the function level.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1794.9,
+      "t_end": 1895.6,
+      "is_demoed": true,
+      "caveats": [
+        "Low usage despite availability",
+        "May require feature activation"
+      ],
+      "tags": [
+        "performance profiler",
+        "profiling",
+        "code analysis"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Number Sequences for Entry Number Generation",
+      "description": "Replaces table locking patterns with non-locking number sequence generation for entry numbers, allowing concurrent transaction posting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2002.3,
+      "t_end": 2072.7,
+      "is_demoed": false,
+      "caveats": [
+        "First step only",
+        "May not be suitable for GL due to country legislations",
+        "Entry order may not be sequential"
+      ],
+      "tags": [
+        "number sequences",
+        "locking",
+        "concurrent posting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Concurrent Warehouse Entry Posting",
+      "description": "BC25 October release includes implementation allowing separate concurrent posting to warehouse entries, enabling warehouse workers to perform operations while office staff work simultaneously.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2052.5,
+      "t_end": 2085.4,
+      "is_demoed": false,
+      "caveats": [
+        "First step toward fully concurrent sales order posting",
+        "Open source implementation available"
+      ],
+      "tags": [
+        "warehouse entries",
+        "concurrent posting",
+        "warehouse",
+        "locking"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "SQL Full Text Indexing for Page Search",
+      "description": "Planned improvement using SQL Server full text indexing to make searching in customer lists, item lists, and dropdown selection very fast.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2145.8,
+      "t_end": 2166,
+      "is_demoed": false,
+      "caveats": [
+        "Short-term initiative",
+        "Expected in BC25"
+      ],
+      "tags": [
+        "full text indexing",
+        "page search",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Concurrency and Parallelization for Bulk Operations",
+      "description": "Long-term initiative to enable parallel processing of large posting operations like posting 50,000 sales orders or creating 50,000 items using multiple threads.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2186.1,
+      "t_end": 2226.3,
+      "is_demoed": false,
+      "caveats": [
+        "Long-term roadmap item",
+        "Warehouse improvements are first step"
+      ],
+      "tags": [
+        "parallelization",
+        "concurrency",
+        "bulk operations"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "database locks page",
+      "t": 1533.8
+    },
+    {
+      "type": "page",
+      "name": "missing indexes page",
+      "t": 1533.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Vincent Nicholas",
+      "confidence": "high"
+    },
+    {
+      "name": "B Nutsen",
+      "confidence": "medium"
+    },
+    {
+      "name": "Christian",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 92.7,
+      "text": "executing a line of Al code or a statement that doesn't look up in the database takes approximately a microc seconds that means a",
+      "why_it_matters": "Establishes the baseline performance of AL code execution without database access, showing AL itself is extremely fast.",
+      "check": "exact"
+    },
+    {
+      "t": 112.8,
+      "text": "SQL calls and at best they are one millisecond uh often it's seconds I mean full seconds but even a millisecond is thousand times",
+      "why_it_matters": "Demonstrates that database calls are three orders of magnitude slower than in-memory AL code, making database optimization critical.",
+      "check": "exact"
+    },
+    {
+      "t": 134,
+      "text": "the ratio between database statements and non database statements is approxim approximately 10 to one if you combine these numbers it means that basically",
+      "why_it_matters": "Quantifies that 99 percent of execution time is spent waiting on the database, making database optimization the dominant performance concern.",
+      "check": "exact"
+    },
+    {
+      "t": 236.2,
+      "text": "when it's longer than 750 milliseconds then we Define it is long enough to be interesting for us to log and then we log",
+      "why_it_matters": "Defines the operational threshold Microsoft uses to flag problematic queries for internal monitoring and optimization efforts.",
+      "check": "exact"
+    },
+    {
+      "t": 373.8,
+      "text": "nested Loops you know you loop our all customers and for each customer you do something something look something up or if it's posting",
+      "why_it_matters": "Illustrates a common performance anti-pattern where nested loops generate multiple database round trips that should be consolidated.",
+      "check": "exact"
+    },
+    {
+      "t": 541.5,
+      "text": "SQL itself is blistering fast that's what SQL is it's very good at doing this kind of operations I mean the biggest companies in",
+      "why_it_matters": "Reinforces the design principle that SQL should handle aggregation and calculation rather than AL code, given SQL's optimization capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 769.9,
+      "text": "the first time you would be the record setad of records that would be maybe a little bit slow it will at least take",
+      "why_it_matters": "Explains the caching mechanism where first retrieval incurs a database hit but subsequent requests benefit from in-memory caching.",
+      "check": "snapped"
+    },
+    {
+      "t": 810.5,
+      "text": "Monday you should start at 10 before like everybody has has actually hydrated the cash",
+      "why_it_matters": "Practical advice showing how company-level caching affects performance for early users versus others who have populated the cache.",
+      "check": "exact"
+    },
+    {
+      "t": 845.2,
+      "text": "primary key lookup that's like the get you know get this entry with this pair of shoes that you get by way the almost",
+      "why_it_matters": "Explains the fastest data retrieval method and establishes a baseline for performance comparisons.",
+      "check": "exact"
+    },
+    {
+      "t": 914,
+      "text": "we can't have an index for each field yeah because index are also a little bit expensive right they are expensive both in maintenance",
+      "why_it_matters": "Design trade-off explaining why indexes cannot be created for every field despite performance benefits.",
+      "check": "exact"
+    },
+    {
+      "t": 1021.7,
+      "text": "the Page search actually searches on all visible columns okay except for numbers and booleans and stuff like that",
+      "why_it_matters": "Explains why page search is slow - it performs full table scans across multiple columns without using indexes.",
+      "check": "exact"
+    },
+    {
+      "t": 1154.8,
+      "text": "locking is a good thing as such it's a good feature that sequel as invented why why it doesn't sound good like why would",
+      "why_it_matters": "Clarifies that locking is a necessary mechanism for data consistency, not a performance problem per se.",
+      "check": "exact"
+    },
+    {
+      "t": 1256.6,
+      "text": "good pattern is to do all the expensive stuff first mhm and then at the very end do a quick update update",
+      "why_it_matters": "Best practice for minimizing lock duration - complete calculations before acquiring locks.",
+      "check": "snapped"
+    },
+    {
+      "t": 1377.8,
+      "text": "we're saying now we we are alone in this big room nobody else can come in here everybody we close the door nobody this",
+      "why_it_matters": "Describes semaphore locking mechanism that blocks all other posting operations during order posting, creating bottlenecks.",
+      "check": "exact"
+    },
+    {
+      "t": 1397,
+      "text": "90% of the time is you know what we call the po actual posting where we lock everybody else out and this may not",
+      "why_it_matters": "Quantifies the problem - spending minimal time on calculations but 90% on posting with global locks, creating serialization bottlenecks.",
+      "check": "exact"
+    },
+    {
+      "t": 1594.5,
+      "text": "we introduced already a while ago yeah it's it was in 202 maybe",
+      "why_it_matters": "Establishes that read isolation feature is already generally available, not newly announced.",
+      "check": "exact"
+    },
+    {
+      "t": 1655.4,
+      "text": "you know the customer calls complains um but I don't I may not have access to this system",
+      "why_it_matters": "Highlights practical limitation: database locks page requires system access and is only useful when locks are actively occurring.",
+      "check": "exact"
+    },
+    {
+      "t": 1794.9,
+      "text": "we have the incline performance profiler which is a gem uh that I think many people are not looking enough at",
+      "why_it_matters": "Identifies inline performance profiler as underutilized despite its value for code-level performance analysis.",
+      "check": "exact"
+    },
+    {
+      "t": 1855.6,
+      "text": "it takes like 16 seconds I think says here on have to get each row so that's a very long it's that's extremely long",
+      "why_it_matters": "Demonstrates concrete example of profiler showing 16-second report execution time to illustrate performance issues.",
+      "check": "exact"
+    },
+    {
+      "t": 2052.5,
+      "text": "for bc25 in October release we actually have done this for warehouse entries",
+      "why_it_matters": "Confirms concurrent warehouse entry posting is delivered in BC25 October release, not future roadmap.",
+      "check": "exact"
+    },
+    {
+      "t": 2145.8,
+      "text": "very on a very short time frame we uh we are going to try to solve the issue of Page search by introducing the",
+      "why_it_matters": "Announces planned SQL full text indexing feature on short-term roadmap to improve page search performance.",
+      "check": "exact"
+    },
+    {
+      "t": 2166,
+      "text": "on a longer Horizon we think the concurrence and parall ation is the big thing to do",
+      "why_it_matters": "States long-term strategic direction toward parallelization to enable bulk operation performance improvements.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 1594.5,
+      "kind": "subject-to-change",
+      "text": "read isolation feature maybe not a game changer but at least it will help with concurrency"
+    },
+    {
+      "t": 2145.8,
+      "kind": "coming-later",
+      "text": "very on a very short time frame we uh we are going to try to solve the issue of Page search by introducing the SQL s full text indexing meaning that hopefully from pc25"
+    },
+    {
+      "t": 2186.1,
+      "kind": "coming-later",
+      "text": "on a longer Horizon we think the concurrence and parall ation is the big thing to do"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 22,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 18
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025652
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023423
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027679000000000002
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027493
+    }
+  ]
+}

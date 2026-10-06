@@ -1,0 +1,196 @@
+{
+  "video_id": "rWZcmEwwVHg",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 7.4,
+      "end": 27.5,
+      "text": "welcome my name is baj Kota I'm a PM working for Microsoft and today we will talk about improvements in user experience in business Central 2024 Wave 2 we have some exciting new changes for you to see so let's get started and we'll talk about"
+    },
+    {
+      "t": 27.5,
+      "end": 47.7,
+      "text": "access Keys first this feat Fe allows you to access actions and features of business Central using keyboard shortcuts this feature was available or is already available in business Central uh since 2023 but only in English and with this wave we are bringing"
+    },
+    {
+      "t": 47.7,
+      "end": 68.2,
+      "text": "this feature to additional languages the feature is available when you press ALT key a small keytips show up on screen uh indicating which key comp comination you have to press in order to reach to that feature and then when we are developing this feature for additional"
+    },
+    {
+      "t": 68.2,
+      "end": 88.2,
+      "text": "languages we are trying to be consistent we are trying to keep some special uh key combin combinations and system actions uh using the same uh the same Keys the same key strokes you can read more about that at the following link but also please remember that access"
+    },
+    {
+      "t": 88.2,
+      "end": 108.5,
+      "text": "Keys is not the only feature available for you to be productive in business Central because we also have other keyboard shortcuts system keyboard shortcuts various application keyboard shortcuts and so on and so forth so please have a look at our documentation talking about using business Central with keyboard we have interesting changes"
+    },
+    {
+      "t": 108.5,
+      "end": 128.5,
+      "text": "related to search and that is search in data search and lists uh and search even in the filter pane in this wave we introduce multiple changes behind the scenes you will have other sessions in this event talking about uh server changes related to"
+    },
+    {
+      "t": 128.5,
+      "end": 148.6,
+      "text": "a search optimization uh but essentially we introducing a search that is based on a full text search technology rather than marching characters this allows for the search to be much faster and more flexible for the users let's see that in a"
+    },
+    {
+      "t": 148.6,
+      "end": 168.3,
+      "text": "demo when I in business Central and I go to a list which is enabled for that modernized search let's go to items I can see in my search box right now two different options the modern search and the Legacy search if I would choose the Legacy search and try"
+    },
+    {
+      "t": 168.3,
+      "end": 182.9,
+      "text": "London chair that item is not found because there is no exact match this Legacy search was based on specific matching of the search term or"
+    },
+    {
+      "t": 182.9,
+      "end": 203.1,
+      "text": "characters when I switched to the modern search this item was found because we were able to match individual words not only that this search experience is much faster and because it is based on a special full text index based on columns that are indicated"
+    },
+    {
+      "t": 203.1,
+      "end": 214.4,
+      "text": "with this little icon as a developer you can also control which columns are optimized for this new search"
+    },
+    {
+      "t": 214.4,
+      "end": 234.8,
+      "text": "experience and you can also extend business Central H and add that specific parameter to um to our tables I encourage you to tune in to other recordings in this collection where my colleagues are talking about this technology from the developers"
+    },
+    {
+      "t": 234.8,
+      "end": 255,
+      "text": "perspective this feature is coming in waves uh it will be delivered starting from October and it will show up for multiple tables in business Central starting from the main data like items and customers and sales orders and then uh being available also for other tables"
+    },
+    {
+      "t": 255,
+      "end": 275.2,
+      "text": "later on during this wave let's talk about additional features and we'll talk about resizing column first we have this feature in the product already but it was always based on personalization and personalization is not always enabled you can disable personalization for a given"
+    },
+    {
+      "t": 275.2,
+      "end": 295.2,
+      "text": "role and also there are some pages in The Product Where personalization is not possible and then uh resizing columns uh was not enabled in this wave you will see that the experience to resize columns is much faster"
+    },
+    {
+      "t": 295.2,
+      "end": 316,
+      "text": "it is stored locally in your browser but it is still based on personalization when needed uh that way it is um available for pages that were not U enabled before like for instance co-pilot prompt dialogue Pages where you have results from your co-pilot"
+    },
+    {
+      "t": 316,
+      "end": 330.6,
+      "text": "and now you can resize columns and and manipulate that much easier and then of course if your personalization is enabled your choices will be stored within your profile as before"
+    },
+    {
+      "t": 330.6,
+      "end": 350.7,
+      "text": "we have also added a new parameter to the web client where you can control the layout of the page and that way you can force the business Central web client to open is in specific layout and most notably you can open in analysis mode so you can create links and share"
+    },
+    {
+      "t": 350.7,
+      "end": 371,
+      "text": "analysis mode um between users and that way open the analysis mod directly directly using uh a single link and of course that also supports other modes so you can open a standard list a tiles or or even tall tiles this feature is coming"
+    },
+    {
+      "t": 371,
+      "end": 391,
+      "text": "in 25.1 so you will expect that uh release a little bit uh later than than just uh at the beginning of October all right let's talk about attachments and uploading files over to you Ian so thank you BL so drag and drop uh functionality to"
+    },
+    {
+      "t": 391,
+      "end": 411.1,
+      "text": "attach multiple files in business Central uh makes it easier to manage files or even folders as you will see this feature benefits users who work with multiple files and adds value to organizations by enhancing data organization accessibility while making users uh more productive so what better"
+    },
+    {
+      "t": 411.1,
+      "end": 431.1,
+      "text": "way to to see that but to see it in action so let's switch to the demo let me start by showing you the first place where you can actually manage multiple files all of you are well aware of a purchase order and the purchase documents usually have some incoming files Associated to them right now being a"
+    },
+    {
+      "t": 431.1,
+      "end": 451.2,
+      "text": "uh purchasing agent I can see I received a invoice and my company also requires me to provide some additional sort of proof of work before U re receiving uh services or sending that purchase order uh for for further invoicing what"
+    },
+    {
+      "t": 451.2,
+      "end": 471.3,
+      "text": "I can do today and this is a new action that we've added you can add uh supporting documents and an interesting thing uh you can see right now it says drop files means it can handle now multiple files so I can pick like two or three files and simply drag them uh in here"
+    },
+    {
+      "t": 471.3,
+      "end": 491.4,
+      "text": "they got uploaded and you can see that in the list what's even more cool about this thing is you can actually today you can actually drop a whole folder uh in an upload uh in in a new upload files dialog so this is one place where you can actually handle where users can"
+    },
+    {
+      "t": 491.4,
+      "end": 511.6,
+      "text": "handle uh multiple file uploads another thing where the most of our users are using this is also document attachments as you can see on top in here we have this Legacy attachment uh fact box and this is a new uh attachments U fact box that can now handle uh multiple files you have the well-known"
+    },
+    {
+      "t": 511.6,
+      "end": 531.7,
+      "text": "and the same actions that existed in the uh Legacy attachments so you can simply click upload files again uh drag or drop or select multiple files in there and you can actually execute the the well-known actions like opening the file in one drive or actually looking at the list of the attached documents as you"
+    },
+    {
+      "t": 531.7,
+      "end": 552,
+      "text": "were uh you were used to doing that before and the third place where you can actually um see all of that is in the email uh send email dialogue so I'll go to the vendor and I'll set send email and now if you scroll down and if you want to add uh multiple"
+    },
+    {
+      "t": 552,
+      "end": 572.2,
+      "text": "attachments again you can simply uh drag or drop uh multiple files or you can select them manually and that's it so what you saw in this demo was a new document attachments uh component and as you saw it can be accessed from multiple places"
+    },
+    {
+      "t": 572.2,
+      "end": 592.3,
+      "text": "from incoming documents from document attachments from email dialogue these are basically the places where more than 90% of uh business Central users actually uses uh to upload uh files the files can now be uploaded either one by one or you can select multiple or you can even pick uh the folders you get"
+    },
+    {
+      "t": 592.3,
+      "end": 612.6,
+      "text": "a quick and easy overview of the files and of course um you you can do all of that with the way uh way last clicks and don't forget uh one other thing that Legacy document attachments part of the factbox is now getting obsoleted so it's perfectly fine to go to a personalization"
+    },
+    {
+      "t": 612.6,
+      "end": 632.7,
+      "text": "settings and once your users get used to the the new document attachments you can hide uh the old one and that's that's not all of course uh handling multiple file uploads comes also with a support uh for uh Al developers you now have"
+    },
+    {
+      "t": 632.7,
+      "end": 652.7,
+      "text": "two new properties on action that you can Define that an action is going to handle multiple file uploads you can Define allowed file extensions and there is a also a trigger that can handle the upload of U upload of those files that users have selected if you want to learn"
+    },
+    {
+      "t": 652.7,
+      "end": 672.7,
+      "text": "more about that make sure to check out uh 2024 release way 1 uh video on what's new in uh developer tools these properties were explained already uh in there and that's it all right thank you Ian that was great and this is all in"
+    },
+    {
+      "t": 672.7,
+      "end": 677,
+      "text": "this recording thank you very much"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.04,
+      "text": "[Music]"
+    },
+    {
+      "t": 7.349,
+      "text": "[Music]"
+    },
+    {
+      "t": 7.359,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1598
+}

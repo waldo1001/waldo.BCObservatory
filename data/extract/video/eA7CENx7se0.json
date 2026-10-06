@@ -1,0 +1,468 @@
+{
+  "video_id": "eA7CENx7se0",
+  "item_id": "video/yt-microsoft/eA7CENx7se0",
+  "title": "What's New: Testing Copilot in Business Central (2024 release wave 2)",
+  "duration_s": 1588,
+  "systems": [
+    "copilot",
+    "development",
+    "sales"
+  ],
+  "topics": [
+    "copilot testing",
+    "large language models",
+    "data-driven testing",
+    "test toolkit",
+    "prompt engineering",
+    "responsible ai",
+    "test automation",
+    "sales line suggestion",
+    "ai test context",
+    "external evaluation",
+    "azure ai studio",
+    "multi-turn testing"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Copilot Testing",
+      "t_start": 0,
+      "t_end": 26.7
+    },
+    {
+      "title": "Challenges in Testing Large Language Models",
+      "t_start": 26.7,
+      "t_end": 157.5
+    },
+    {
+      "title": "Test Case Creation and Azure AI Studio",
+      "t_start": 157.5,
+      "t_end": 290
+    },
+    {
+      "title": "Types of Tests and Data-Driven Testing",
+      "t_start": 290,
+      "t_end": 443.2
+    },
+    {
+      "title": "Introducing the Copilot Test Toolkit",
+      "t_start": 443.2,
+      "t_end": 533.4
+    },
+    {
+      "title": "Copilot Test Toolkit Interface and Components",
+      "t_start": 533.4,
+      "t_end": 670.2
+    },
+    {
+      "title": "Test Suite Actions, Data Set Format, and Architecture",
+      "t_start": 670.2,
+      "t_end": 851.7
+    },
+    {
+      "title": "From Manual Tests to Data-Driven Testing with AI Test Context",
+      "t_start": 851.7,
+      "t_end": 1046.2
+    },
+    {
+      "title": "Running Tests and Evaluating Results in Business Central",
+      "t_start": 1046.2,
+      "t_end": 1144.4
+    },
+    {
+      "title": "External Evaluation with Azure AI Studio",
+      "t_start": 1144.4,
+      "t_end": 1300
+    },
+    {
+      "title": "Multi-Turn Testing for Conversational Scenarios",
+      "t_start": 1300,
+      "t_end": 1412.6
+    },
+    {
+      "title": "Best Practices and Future Roadmap",
+      "t_start": 1412.6,
+      "t_end": 1588
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot Test Toolkit",
+      "description": "An AL extension that allows partners to test Copilot features efficiently, including managing test suites, data sets, and data-driven testing. It can be installed in a sandbox environment and is available in the BC apps repo. Supports creating test suites with input data sets, executing test procedures, logging results, and downloading test outputs for external evaluation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 506,
+      "t_end": 1542.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires AL developer knowledge",
+        "Must be installed in sandbox environment",
+        "Mocking is used in demos which prevents actual token consumption",
+        "Not all features can be easily evaluated within Business Central",
+        "Azure AI Studio evaluation requires separate billing"
+      ],
+      "tags": [
+        "copilot",
+        "testing",
+        "toolkit",
+        "al extension",
+        "data-driven",
+        "ai evaluation",
+        "automation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sales Line Suggestion Feature",
+      "description": "An AI feature that allows users to input text and generates suggested sales lines to add to orders. Tested using the toolkit with data-driven testing approach.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 851.7,
+      "t_end": 1107.4,
+      "is_demoed": true,
+      "caveats": [
+        "Test suite ran 28 tests with 27 passing and 1 failing",
+        "Failures require manual fixes before rerunning"
+      ],
+      "tags": [
+        "sales",
+        "copilot",
+        "feature",
+        "suggestion",
+        "ai feature",
+        "sales order",
+        "suggestion engine",
+        "testing"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Data-Driven Testing for Copilot",
+      "description": "A testing approach where the same test runs repeatedly against different input values, enabling better coverage of language model sensitivity and response variations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 415.3,
+      "t_end": 482.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "data-driven",
+        "copilot",
+        "large language models"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Accuracy Testing for Copilot",
+      "description": "Unit-level tests for atomic parts of LLM round trips, including absolute tests and grounding tests to verify explicit values and correct data are returned.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 303.4,
+      "t_end": 356,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "accuracy",
+        "unit tests",
+        "copilot"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Quality Testing for Copilot",
+      "description": "End-to-end and integration tests to handle user interaction scenarios, red teaming, harms testing, bias and toxicity detection in Copilot features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 356,
+      "t_end": 402.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "quality",
+        "responsible ai",
+        "copilot"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI Test Context Code Unit",
+      "description": "A code unit used in test procedures to retrieve input values from data sets such as question, answer, context, ground truth, and expected data. Also supports setting test output for external evaluation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 968.9,
+      "t_end": 1031.3,
+      "is_demoed": true,
+      "caveats": [
+        "Different features may require different sets of input fields"
+      ],
+      "tags": [
+        "code unit",
+        "test context",
+        "data access"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "External Evaluation with Azure AI Studio",
+      "description": "Integration with Azure AI Studio for evaluating AI features that are difficult to test in Business Central, such as marketing text quality and safety. Supports built-in evaluators and custom evaluator creation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1144.4,
+      "t_end": 1360.2,
+      "is_demoed": true,
+      "caveats": [
+        "Subject to separate billing",
+        "Different evaluation metrics require different input sets"
+      ],
+      "tags": [
+        "evaluation",
+        "azure",
+        "external testing",
+        "ai assessment"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Marketing Text Feature",
+      "description": "An AI feature that generates marketing text for items based on input facts, format, and tone settings. Requires external evaluation through Azure AI Studio due to difficulty in programmatic evaluation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1200.8,
+      "t_end": 1298.4,
+      "is_demoed": true,
+      "caveats": [
+        "Test output needs to be configured with context and question for external evaluation"
+      ],
+      "tags": [
+        "ai feature",
+        "marketing",
+        "text generation"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Multi-Turn Testing Support",
+      "description": "Support for testing conversational scenarios with multiple inputs and outputs per test case. Enables testing of features where previous conversation context matters, such as chat scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1374.6,
+      "t_end": 1449.1,
+      "is_demoed": true,
+      "caveats": [
+        "More complex than single-turn testing",
+        "Requires sequential API calls through next_turn"
+      ],
+      "tags": [
+        "multi-turn",
+        "conversation",
+        "sequential testing"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Test Suite Import and Export",
+      "description": "Ability to import and export test suite configurations as XML files, enabling easier sharing and version control of test definitions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1519.5,
+      "t_end": 1542.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "automation",
+        "file handling",
+        "configuration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "API Pages for Test Toolkit",
+      "description": "API pages available in the test toolkit that allow programmatic access without needing to use the UI interface, part of the roadmap toward full test automation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1519.5,
+      "t_end": 1542.6,
+      "is_demoed": false,
+      "caveats": [
+        "Full automation still being developed"
+      ],
+      "tags": [
+        "api",
+        "automation"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "AAT test context",
+      "t": 805.4
+    },
+    {
+      "type": "codeunit",
+      "name": "AI test context",
+      "t": 805.4
+    },
+    {
+      "type": "codeunit",
+      "name": "AI test",
+      "t": 951.4
+    },
+    {
+      "type": "page",
+      "name": "AI test suites",
+      "t": 1068.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Peter Borring",
+      "confidence": "high"
+    },
+    {
+      "name": "Julia Møller",
+      "confidence": "high"
+    },
+    {
+      "name": "Steen Klitgård",
+      "confidence": "high"
+    },
+    {
+      "name": "Julian",
+      "confidence": "high"
+    },
+    {
+      "name": "Peter",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 57.4,
+      "text": "there are some new considerations in the world of large language models and co-pilot features that require attention due to the high degree of",
+      "why_it_matters": "Explains why traditional testing approaches are insufficient for Copilot features and LLMs",
+      "check": "exact"
+    },
+    {
+      "t": 457.3,
+      "text": "large language models are sensitive to input variations and we want to cover how well the prompt generalizes and adapts to various contexts",
+      "why_it_matters": "Justifies why extensive test coverage is needed for LLM-based features",
+      "check": "exact"
+    },
+    {
+      "t": 506,
+      "text": "in this release, we are introducing the Copilot Test Toolkit in preview that allows you to test Copilot features in an efficient way",
+      "why_it_matters": "Announces the main feature being discussed and establishes its preview status",
+      "check": "exact"
+    },
+    {
+      "t": 520.2,
+      "text": "It's an AL extension that can be installed in a sandbox environment, and you can find the source for this in our BC apps",
+      "why_it_matters": "Clarifies that the toolkit is developer-focused, installable, and open-source",
+      "check": "exact"
+    },
+    {
+      "t": 794.4,
+      "text": "Each test procedure will be executed as many times as you have the entries in the data set.",
+      "why_it_matters": "Explains how data-driven testing scales automatically based on dataset size, eliminating need for multiple manual test procedures.",
+      "check": "exact"
+    },
+    {
+      "t": 940.7,
+      "text": "the question and the expected data, these are specific values supported by the tool, but you can format this however you want in your",
+      "why_it_matters": "Shows the flexibility of the toolkit - it has conventions but allows customization for different feature requirements.",
+      "check": "exact"
+    },
+    {
+      "t": 1107.4,
+      "text": "for this specific one, we are mocking the response, so there's no tokens consumed, but you would be able to see how many tokens",
+      "why_it_matters": "Indicates token tracking capability for production use, demonstrating cost monitoring for AI features.",
+      "check": "exact"
+    },
+    {
+      "t": 1155.6,
+      "text": "our choice for external evaluation is Azure AI Studio. In Azure AI Studio, you can assess and compare AI application performance using built-in evaluators",
+      "why_it_matters": "Establishes Azure AI Studio as the recommended platform for complex feature evaluation beyond Business Central's capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 1397,
+      "text": "In multi-turn, you might have multiple inputs and outputs per test case. This is complex conversational scenarios.",
+      "why_it_matters": "Clarifies that the toolkit supports advanced conversational testing scenarios where context from previous turns matters.",
+      "check": "exact"
+    },
+    {
+      "t": 1481,
+      "text": "Ensure that your data sets have a substantial number of entries. As mentioned before, even slight variability in prompts can impact how your feature",
+      "why_it_matters": "Provides a best practice emphasizing that comprehensive test coverage is needed due to AI model sensitivity.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 506,
+      "kind": "preview",
+      "text": "we are introducing the Copilot Test Toolkit in preview"
+    },
+    {
+      "t": 1178.9,
+      "kind": "subject-to-change",
+      "text": "It's subject to separate billing, but you can learn more about that at aka.ms/azureaistudio."
+    },
+    {
+      "t": 1542.6,
+      "kind": "coming-later",
+      "text": "We aim to improve the tool to enable the test automation and make it even smoother for you to test your Copilot features with less effort."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 10,
+    "quotes_dropped": 2,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022670000000000003
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028381999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024466
+    }
+  ]
+}

@@ -1,0 +1,843 @@
+{
+  "video_id": "weDf53bJOL4",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.3,
+      "end": 21.9,
+      "text": "Hi and welcome to Business Central Launch Event 2024 Wave 2. And this video is about what's new in AL Go for GitHub. My name is Freddy Christiansen. I'm the technical evangelist and responsible for the AL Go for GitHub product."
+    },
+    {
+      "t": 21.9,
+      "end": 33.4,
+      "text": "Uh I'm also responsible for Docker BC Container Helper and other products that you might be using. Uh and I'm going to talk slightly about those as well during this presentation."
+    },
+    {
+      "t": 33.4,
+      "end": 45.6,
+      "text": "So, let's have a look at what's new. I'm going to talk about security enhancement. Security is important. Uh if not the most important thing, then it's up there."
+    },
+    {
+      "t": 45.6,
+      "end": 57.8,
+      "text": "I mean, if it's not secure, what's the purpose, right? I'm going to talk about NuGet NuGet support in AL Go for GitHub. Performance tests has been in preview for some time."
+    },
+    {
+      "t": 57.8,
+      "end": 68.8,
+      "text": "I'm going to talk about samples, BC Container Helper, and a little bit about future investments that we're working on and what we're going to to add to that one."
+    },
+    {
+      "t": 68.8,
+      "end": 84.4,
+      "text": "First of all, security enhancements in AL Go for GitHub. So, a few things that we did in order to enhance security not only for our own repository, but also for the customers and partners using AL Go for GitHub"
+    },
+    {
+      "t": 84.4,
+      "end": 97.2,
+      "text": "is to always reference GitHub actions using a commit uh sha really, right? Um and this this is for all non-AL Go actions."
+    },
+    {
+      "t": 97.2,
+      "end": 114.6,
+      "text": "It's more secure than using a tag or a branch. Uh the Dependabot can update this for us when there's new versions in that. And we will be running a full test suite on AL Go for GitHub whenever there's a change in in a new version of these GitHub actions."
+    },
+    {
+      "t": 114.6,
+      "end": 127.1,
+      "text": "I'm going to show you briefly what what this entails. If we look at the one of the workflows that are included in AL Go for GitHub, the CICD YAML file, typically you wouldn't have to to look into this one."
+    },
+    {
+      "t": 127.1,
+      "end": 137.3,
+      "text": "Then, if we are using an action like the checkout action, this is now no longer actions/checkout@v4.1 or anything like that."
+    },
+    {
+      "t": 137.3,
+      "end": 151.9,
+      "text": "This is the actual SHA of the action we're using. Now, you might see that when we're using an AL Go for GitHub action, we are still using version 5.3. The reason for that really is that this gives us the ability to to hotfix these actions,"
+    },
+    {
+      "t": 151.9,
+      "end": 170.9,
+      "text": "and we are in 100% control over the AL Go actions. But, whenever we use actions that are not in 100% control of us, we will be using the SHA, meaning that no change to the checkout action will ever harm any of our users or customers or partners."
+    },
+    {
+      "t": 170.9,
+      "end": 181.2,
+      "text": "Um, if we are using the preview version of AL Go for GitHub, we are actually doing exactly the same. Now, that was wrong."
+    },
+    {
+      "t": 181.2,
+      "end": 200.7,
+      "text": "We'll just go to the um the GitHub workflow for CICD here, and looking at the preview version, also the Microsoft AL Go action will be to a specific SHA, meaning that when we release another preview version of AL Go for GitHub,"
+    },
+    {
+      "t": 200.7,
+      "end": 214,
+      "text": "you will have to run update AL Go system files in order to get the advantage of that. We will always use the version that you're running on to minimize disruption really of people using AL Go for GitHub."
+    },
+    {
+      "t": 214,
+      "end": 227,
+      "text": "Another thing we did, we added pre-commit to ensure consistency of files. That's uh markdown files and other files that are checked using pre-commit to ensure that uh general file housekeeping really is in order."
+    },
+    {
+      "t": 227,
+      "end": 244.4,
+      "text": "And then last but not least, federated credentials and managed identities. Um No more secrets. We basically have removed the the the most of the reasons for having secrets in AL for GitHub."
+    },
+    {
+      "t": 244.4,
+      "end": 260.6,
+      "text": "And I'm going to talk a little about how that actually works. If we look in the bad old days, not the good old days, the bad old days, like if we had something where we had a repository maybe on GitHub maybe GitHub didn't exist in the bad old days, but anyway, if you had a repository and you wanted to"
+    },
+    {
+      "t": 260.6,
+      "end": 272.8,
+      "text": "authenticate to some resources that could be a key vault, some resources or Business Central, that be it. You read you needed like secrets for username and a password and these username and password"
+    },
+    {
+      "t": 272.8,
+      "end": 285,
+      "text": "really be used in order to authenticate to whatever resources you were trying to authenticate to. The problem with this is that if these secrets were exposed, then"
+    },
+    {
+      "t": 285,
+      "end": 299.7,
+      "text": "everything was exposed, right? Like your life was exposed if you used your own username and password. Now, there were other ways of of of doing this and you could create a specific user only for this and but in reality,"
+    },
+    {
+      "t": 299.7,
+      "end": 309.9,
+      "text": "a lot of people used this as a real-time user and and this is obviously insecure. There are various variations of this where you use"
+    },
+    {
+      "t": 309.9,
+      "end": 326.8,
+      "text": "salted hashes hashes and instead of the password to increase security and actually our own NAV / Business Central web service key also was an example of these things and it increases security but but not by much."
+    },
+    {
+      "t": 326.8,
+      "end": 338.1,
+      "text": "Like you will still have one user that is exposed if the secrets are ever exposed. Then OAuth came, OAuth to the rescue."
+    },
+    {
+      "t": 338.1,
+      "end": 348.7,
+      "text": "Now, GitHub repository uh the same repository, the same resources that we want to authenticate to. What you needed now was an intra-app registration."
+    },
+    {
+      "t": 348.7,
+      "end": 359.3,
+      "text": "And that intra-app registration would really be like the the the user that would need access to something. Now, the intra-app is not a real user."
+    },
+    {
+      "t": 359.3,
+      "end": 373.6,
+      "text": "It's just a registration of um like a a proxy of an app that needed to access these resources. And for that, you'd need a tenant ID in which the intra-app is, a client ID, and a client secret."
+    },
+    {
+      "t": 373.6,
+      "end": 388.2,
+      "text": "It isn't much more uh secure than username password because if the client ID and the client secret and the tenant ID was exposed, then you actually might um might be able to yeah,"
+    },
+    {
+      "t": 388.2,
+      "end": 398.2,
+      "text": "to access the resources anyway. The way it works is that you have an authentication service. You you send your client ID, client secret to that one, and you get an access token back."
+    },
+    {
+      "t": 398.2,
+      "end": 410.2,
+      "text": "Now, the access to there's also in the OAuth protocol, there's a reply-to, so you can only get the access token to these uh specific"
+    },
+    {
+      "t": 410.2,
+      "end": 422.3,
+      "text": "when you're running the the workflow in specific areas, but still it is possible to circumvent that in in different ways. Now, having that access token, you now get access to to the resources."
+    },
+    {
+      "t": 422.3,
+      "end": 434.8,
+      "text": "And uh if the access token is exposed, then you would the the the the villain would actually get access to the resource for the validity of the access token."
+    },
+    {
+      "t": 434.8,
+      "end": 445.4,
+      "text": "If the client ID and the client secret are exposed, then you might be able to get access to all resources accessible by the intra-app registration."
+    },
+    {
+      "t": 445.4,
+      "end": 458.6,
+      "text": "The problem with that this approach is really that a lot of people reused intra-app registrations for a lot of things. So, the intra-app registration ended up having access to a lot of things that it didn't actually need."
+    },
+    {
+      "t": 458.6,
+      "end": 469,
+      "text": "So, um again, yes, more secure than the username password, but but really also something that attackers could benefit from."
+    },
+    {
+      "t": 469,
+      "end": 479.3,
+      "text": "Variations of this would be to have a client secret a certificate instead for client secret. That increases security, but but still"
+    },
+    {
+      "t": 479.3,
+      "end": 490.9,
+      "text": "there's there's a problem here. Now, you could of course here like rotate the client secret every month or the the certificate every month and that definitely increases security"
+    },
+    {
+      "t": 490.9,
+      "end": 501.2,
+      "text": "quite a bit in this one. But really the way you want to do security like this is to instead of that use federated credentials."
+    },
+    {
+      "t": 501.2,
+      "end": 511.6,
+      "text": "Now, federated credentials is where you don't need any secrets at all. The how it works is that you have these resources and on the resources"
+    },
+    {
+      "t": 511.6,
+      "end": 524.6,
+      "text": "you can define who are allowed to access this. Now, you have an authentication provider like GitHub an authentic- authentication service like the OAuth service I talked about earlier."
+    },
+    {
+      "t": 524.6,
+      "end": 539.2,
+      "text": "Um, and then GitHub has the ability to ask the authentication provider, \"Who am I?\" And the authentication provider will return with an ID token specifying repository, branch, and event."
+    },
+    {
+      "t": 539.2,
+      "end": 550.4,
+      "text": "Now, you can compare this with uh, user getting a driver's license, right? If I have a driver's license, everybody will be able to look at that driver's license and say, \"Okay, there's a picture here."
+    },
+    {
+      "t": 550.4,
+      "end": 562.4,
+      "text": "This is Freddy and this is his name. This is his age.\" Stuff like that. The authentication provider is the Danish state for my driver's license because I'm from Denmark. And people will trust that, right?"
+    },
+    {
+      "t": 562.4,
+      "end": 577.1,
+      "text": "So, if we can find an authorization provider that can authorize or can can tell me tell like the world who I am uh, using this ID token, then that is deemed secure."
+    },
+    {
+      "t": 577.1,
+      "end": 593.8,
+      "text": "On the resources, I can define which repo branch event has access to that resource either through an enter app and with a managed identity or directly on the resource in the Azure portal."
+    },
+    {
+      "t": 593.8,
+      "end": 607.7,
+      "text": "With that ID token, I still need a client ID and a tenant ID, resource ID, and I'll call the authentication service in order to get an access token. And again, I'll have an access token and be able to access all of these resources."
+    },
+    {
+      "t": 607.7,
+      "end": 618,
+      "text": "The tenant ID and the client ID are not really secrets. Uh we'll still store them in the secrets uh template because yeah, that's just how it was."
+    },
+    {
+      "t": 618,
+      "end": 628,
+      "text": "Um but if the access token is exposed, then you will have access to the resource it for the validity of the access token, which typically is an hour."
+    },
+    {
+      "t": 628,
+      "end": 638.3,
+      "text": "Um that can be bad enough, but typically we don't see access token being exposed per se. There are no secrets, there are no certificates to rotate."
+    },
+    {
+      "t": 638.3,
+      "end": 651.9,
+      "text": "If somebody needs to do this, that be they they would need to create an ID token that that tells the world that this guy, like they forge your off of uh fortify"
+    },
+    {
+      "t": 651.9,
+      "end": 662.1,
+      "text": "my passport or my driver's license or whatever, that would make them able to to to do stuff like this. Um so this is the most secure way."
+    },
+    {
+      "t": 662.1,
+      "end": 672.2,
+      "text": "Let's have a demo of how this actually looks. And have a look at my Bing Maps app source"
+    },
+    {
+      "t": 672.2,
+      "end": 682.2,
+      "text": "program here or I'll actually have a look at my built bars, which is my uh federated credential here. So my"
+    },
+    {
+      "t": 682.2,
+      "end": 693.6,
+      "text": "my built bars here is a managed identity. This managed identity is set up with access to my key vault, and the key vault has my certificate for signing and stuff like that."
+    },
+    {
+      "t": 693.6,
+      "end": 707.2,
+      "text": "And in this managed identity, I've specified on the federated credentials that this BC samples Bing Maps dot app source uh the main branch only uh has access to"
+    },
+    {
+      "t": 707.2,
+      "end": 721.2,
+      "text": "uh get a GitHub issue token to impersonate the application. So, having set that up as a managed identity, I can set up the assignments for"
+    },
+    {
+      "t": 721.2,
+      "end": 732,
+      "text": "this Build Wise managed identity within my Azure Key Vault to have access to be a certificate user, meaning it can"
+    },
+    {
+      "t": 732,
+      "end": 746,
+      "text": "uh get the certificate, it can sign the app, and it can read secrets. So, these are the three roles that my managed identity need to have in order for that to then um be used."
+    },
+    {
+      "t": 746,
+      "end": 759.4,
+      "text": "And looking at the Business Central or the Bing Maps dot app source action here. Looking at the latest, I actually don't know if that's too far ago, 2 weeks ago should be fine."
+    },
+    {
+      "t": 759.4,
+      "end": 774.5,
+      "text": "Looking that and looking in build. We should be able to see under sign here that it queries the federated federated token and connects using client ID and federated token."
+    },
+    {
+      "t": 774.5,
+      "end": 784.8,
+      "text": "And thus uh uses federated credentials for this one. Another thing that is new in AL Go for GitHub is NuGet support."
+    },
+    {
+      "t": 784.8,
+      "end": 796.3,
+      "text": "Now, NuGet support is something that we've been working on for a long time. Um and in this release, we have"
+    },
+    {
+      "t": 796.3,
+      "end": 810.4,
+      "text": "symbols for all app source apps available on a public NuGet feed. Uh AL Go for GitHub supports trusting NuGet feeds, so you can trust either private NuGet feeds or public NuGet feeds."
+    },
+    {
+      "t": 810.4,
+      "end": 825.3,
+      "text": "Uh if you're trusting a public NuGet feed, you can register prefixes and fingerprints to like ensure that you're not getting packages that you don't really trust. And and normally you should not trust nuget.org unless"
+    },
+    {
+      "t": 825.3,
+      "end": 839.5,
+      "text": "uh you have you're trusting like registered prefixes or fingerprints. Deliver to GitHub packages has been as a proof of concept prototype in AL Go for quite some time uh and and that still works as earlier."
+    },
+    {
+      "t": 839.5,
+      "end": 853.2,
+      "text": "The deliver to NuGet has changed the implementation now. We're using the same mechanism as GitHub packages. Earlier, the NuGet implementation was like collecting apps and dependencies into one NuGet package."
+    },
+    {
+      "t": 853.2,
+      "end": 864.2,
+      "text": "Uh the the agreed upon NuGet format for for Business Central apps does not include multiple apps in one package."
+    },
+    {
+      "t": 864.2,
+      "end": 883.4,
+      "text": "Instead, every single app has one package and then you have like the full list of dependencies in NuGet packages as well. Um I had a session TechDays with Kamil where we talked about the format in in detail, and I recommend that you look at that if you want to see the details of how these NuGet packages"
+    },
+    {
+      "t": 883.4,
+      "end": 896.9,
+      "text": "should work. Now, as future investments, we will also be able to publish runtime packages to NuGet, either private or public, so that you can share your NuGet feed with other partners or customers."
+    },
+    {
+      "t": 896.9,
+      "end": 915.2,
+      "text": "If it's public, obviously they'll be able to see everything. If it's private, you can select the partners that you want to to um to share your packages with. And we're also working on having all first-party apps, meaning all Microsoft apps, available in NuGet packages as well as the app source symbols."
+    },
+    {
+      "t": 915.2,
+      "end": 926.6,
+      "text": "Now, let's have a look at how this actually works. So, let's go back to my browser here and have a look at our AppSource symbols feed. Now,"
+    },
+    {
+      "t": 926.6,
+      "end": 939.4,
+      "text": "there are many apps in AppSource and this NuGet feed actually contains them all. So, I can scroll down for quite some while and still be at A or"
+    },
+    {
+      "t": 939.4,
+      "end": 952,
+      "text": "So, let me just sort by this and search for Abakion Legal and take one of these apps. So, this is an app by Abakion. It has two versions"
+    },
+    {
+      "t": 952,
+      "end": 962.8,
+      "text": "24.0 and 24 .1. I can go to this version and I can download the the symbols if I want to. If I download the symbols, it will look like this."
+    },
+    {
+      "t": 962.8,
+      "end": 973.5,
+      "text": "There'll be a NuGet package and there'll be a new spec and an app file. Looking in the new spec file, it will look like this. So,"
+    },
+    {
+      "t": 973.5,
+      "end": 986,
+      "text": "maybe scroll in a little bit. Zoom in a little bit and you'll see an ID. That is the the format of the ID is is publisher, name, and app ID."
+    },
+    {
+      "t": 986,
+      "end": 998.5,
+      "text": "And there's the version of the app and then title, authors, and description. There are no dependencies in the symbols file because the symbols really don't need to resolve the entire dependency tree."
+    },
+    {
+      "t": 998.5,
+      "end": 1011,
+      "text": "Only the full apps will have that requirement. So, for that we we will have when we create the full app packages on NuGet, we'll have the entire dependency tree as well."
+    },
+    {
+      "t": 1011,
+      "end": 1017.7,
+      "text": "Let's have a look at how this actually works if we look inside"
+    },
+    {
+      "t": 1017.7,
+      "end": 1030.5,
+      "text": "Business Central. I have a small PTE here. In that PTE, I did in my PTE take a dependency on the app that we just talked about, the Abakion Legal app here."
+    },
+    {
+      "t": 1030.5,
+      "end": 1042.3,
+      "text": "And that's the app ID and the name and the publisher is Abakion. And if I try to build this without having access to these things, I will get an error like this."
+    },
+    {
+      "t": 1042.3,
+      "end": 1053.4,
+      "text": "Now, scrolling down and finding this one, a package with publisher Abakion and Abakion Legal DK and a version compatible with 24.0 could not be found in the package cache folders."
+    },
+    {
+      "t": 1053.4,
+      "end": 1070.6,
+      "text": "Now, obviously, it needs to find the dependencies from somewhere. In the old days, or before this release, the typical way of doing that would be to use the install apps functionality, meaning you'd have to get a package from Abakion,"
+    },
+    {
+      "t": 1070.6,
+      "end": 1082,
+      "text": "download that, and like check in all the symbols or the runtime package inside your repository, much like this dependency here. We have the Abakion app in a zip file there."
+    },
+    {
+      "t": 1082,
+      "end": 1092.2,
+      "text": "And then in AL Go settings, we'd specify install apps and dependency/star.zip, take all the files that are there and install that."
+    },
+    {
+      "t": 1092.2,
+      "end": 1102.4,
+      "text": "Now, that is what we want to get away from. Instead of that, what we can do now is to add a trusted NuGet server. Now,"
+    },
+    {
+      "t": 1102.4,
+      "end": 1113.5,
+      "text": "if I change here, this one, trusted NuGet feeds, and the NuGet feed here is Dynamics SMB blah blah blah blah blah, AppSource symbols NuGet version 3."
+    },
+    {
+      "t": 1113.5,
+      "end": 1127.8,
+      "text": "Now, you you will not need to know this URL because this URL will be built into AL Go for GitHub. We will by default trust all Microsoft trusted NuGet feeds,"
+    },
+    {
+      "t": 1127.8,
+      "end": 1142.2,
+      "text": "this one and the feeds that uh that will have our first-party apps, the Microsoft provided apps, on will automatically be trusted. But if you have a partner or you uh that that has a NuGet feed,"
+    },
+    {
+      "t": 1142.2,
+      "end": 1153.3,
+      "text": "then you can trust that NuGet feed just by adding a trusted NuGet feeds inside uh AL Go for GitHub. Now, looking at checks, we'll see that now it actually builds."
+    },
+    {
+      "t": 1153.3,
+      "end": 1166.4,
+      "text": "And if we look at the build for this one, we should be able to see that installing app dependencies will actually now"
+    },
+    {
+      "t": 1166.4,
+      "end": 1179.5,
+      "text": "go and see missing app dependency. This is the app ID for the Abakian app. It looks for NuGet packages for that, searches the NuGet feed, and finds the package, downloads that, and builds the package."
+    },
+    {
+      "t": 1179.5,
+      "end": 1190.6,
+      "text": "Um looking at a few other ways that you actually can do. I talked about fingerprints and and and and prefixes."
+    },
+    {
+      "t": 1190.6,
+      "end": 1200.7,
+      "text": "When you do like trusted NuGet feeds, you can specify a public URL if that's what you trust. You can specify URL and an auth token secret."
+    },
+    {
+      "t": 1200.7,
+      "end": 1213.2,
+      "text": "The auth token secret should specify a secret that gives you an access token to that URL. Uh this piece does not yet uh support federated credentials."
+    },
+    {
+      "t": 1213.2,
+      "end": 1231.2,
+      "text": "And then you can also say I want to have this URL with this registered prefix. These patterns of packages are supported. Or this URL and then a fingerprint, meaning that only if the package is signed with a certificate with that fingerprint,"
+    },
+    {
+      "t": 1231.2,
+      "end": 1249.9,
+      "text": "uh I will trust the package and download it to my machine. Let's have a look at the GitHub packages and the NuGet packages. If we look at one of the CI/CD workflows here, we will see that this one actually delivers to both GitHub packages and to NuGet."
+    },
+    {
+      "t": 1249.9,
+      "end": 1261.2,
+      "text": "And if I go to code, we'll see that now this is the old format of GitHub packages. There's a small change to the name, Freddy K Freddy W1,"
+    },
+    {
+      "t": 1261.2,
+      "end": 1271.7,
+      "text": "which is the app name, and then the app ID instead of AL Go and then the app ID. So, if you're using GitHub packages already, you will see that the name actually changes."
+    },
+    {
+      "t": 1271.7,
+      "end": 1284.1,
+      "text": "We will still be able to find it because we only use the app ID for resolving and then the version number. So, if we look at this package, we'll see that some versions are here like from"
+    },
+    {
+      "t": 1284.1,
+      "end": 1295.1,
+      "text": "1.0.43 to 1.0.660. And then we can look at the other package and see that now from 60 and upwards"
+    },
+    {
+      "t": 1295.1,
+      "end": 1307.1,
+      "text": "here. So, if we're looking at 1.0.70 from that app ID, we will find it here, else we'll find it in the other way."
+    },
+    {
+      "t": 1307.1,
+      "end": 1326.5,
+      "text": "And this is the NuGet feed that I added a NuGet context to. So, we can see that this 3 hours ago the common and the licensing and the miscellaneous and the W1 was actually published here in a new version exactly like we saw in the GitHub packages."
+    },
+    {
+      "t": 1326.5,
+      "end": 1337.4,
+      "text": "Enough with NuGet pack NuGet support. Another new thing in the latest version of Algo for GitHub is a performance test."
+    },
+    {
+      "t": 1337.4,
+      "end": 1348.5,
+      "text": "We actually were able to run performance test earlier as well. We just did not have the UI to show whether the performance test was good or good or bad."
+    },
+    {
+      "t": 1348.5,
+      "end": 1365.3,
+      "text": "You'd have to like download the performance test results and compare it manually with whatever baseline you wanted to use there. The latest version of Algo for GitHub, you will now have the ability to run performance test either in CI/CD or in scheduled test runs."
+    },
+    {
+      "t": 1365.3,
+      "end": 1386.1,
+      "text": "Uh very much based on the settings where you want to run it. You can set a baseline and then the test results will be compared to that baseline. You can see whether it regresses with a certain number of percentages and you can set some thresholds on whether you you will allow a the the the the regression to"
+    },
+    {
+      "t": 1386.1,
+      "end": 1398.5,
+      "text": "to be 5% 10% 15% before you issue an error or a warning. Now, how does that look? Um let's again go and look at the demo here."
+    },
+    {
+      "t": 1398.5,
+      "end": 1408.6,
+      "text": "For BCBT test results, this is my repository that has a performance test. It has an app, a test, and a performance test here built in."
+    },
+    {
+      "t": 1408.6,
+      "end": 1419.2,
+      "text": "In the root of of this project, I'll have a baseline and a threshold. Uh the baseline can really be like a test result from a prior run."
+    },
+    {
+      "t": 1419.2,
+      "end": 1437.6,
+      "text": "You can just copy that, or you can manually obviously modify it if you if you want to do that. Uh but you can just copy the result of a prior run to the baseline and say, \"This is my baseline.\" You can also see that the BCBT thresholds here will will state that uh if they regress with more than 15%,"
+    },
+    {
+      "t": 1437.6,
+      "end": 1448.4,
+      "text": "I will give a warning. If the duration recurs with that, if uh it regresses with more than 30%, I'll I'll issue an error. Now, it's also counting the SQL statements."
+    },
+    {
+      "t": 1448.4,
+      "end": 1460.6,
+      "text": "And if the SQL statements are above 10% higher than before, I'll issue a warning. And if the SQL statements are more than 20% higher than before, I'll fail the build."
+    },
+    {
+      "t": 1460.6,
+      "end": 1470,
+      "text": "Let's have a look at the latest build here and see if uh anything here."
+    },
+    {
+      "t": 1470,
+      "end": 1481.5,
+      "text": "This one should actually be fine. If we look at the various things down here, we'll see that your the duration is six, and the baseline was 6.5."
+    },
+    {
+      "t": 1481.5,
+      "end": 1492.6,
+      "text": "Here, that regresses uh 16% in the duration. Um we should be able to also scroll to the right, right? It's here."
+    },
+    {
+      "t": 1492.6,
+      "end": 1506.2,
+      "text": "Um and then up, minus 13% and so on and so forth. The SQL statements uh base and the SQL statements this time is actually the same all the way along."
+    },
+    {
+      "t": 1506.2,
+      "end": 1518.8,
+      "text": "We can have a look at how it looks if we have warnings. Then having a look at a prior run here and we'll see that here we'll actually have some that"
+    },
+    {
+      "t": 1518.8,
+      "end": 1533.3,
+      "text": "requests uh more 17% and the SQL statements are the same. The reason why we really count the SQL statements is that uh very frequently that is the primary"
+    },
+    {
+      "t": 1533.3,
+      "end": 1547.5,
+      "text": "reason for things to to regress in performance. If you've done some created some code or whatever that accesses the SQL Server database more than earlier, then that is one of the primary reasons for for regressions"
+    },
+    {
+      "t": 1547.5,
+      "end": 1558.9,
+      "text": "uh in that. Another thing that's not like entirely new, but something that we've been been working on for for quite some time is the BC samples"
+    },
+    {
+      "t": 1558.9,
+      "end": 1569.1,
+      "text": "uh GitHub tag. Now, it's not really AL Go for GitHub only, but let's have a look at the"
+    },
+    {
+      "t": 1569.1,
+      "end": 1576.7,
+      "text": "uh the tag here now. What I can do here is I can say aka.ms/bcsamples."
+    },
+    {
+      "t": 1577.9,
+      "end": 1588.1,
+      "text": "And it will show me all repositories on GitHub that has the tag BC samples. And right now, this is only Microsoft"
+    },
+    {
+      "t": 1588.1,
+      "end": 1600.5,
+      "text": "repositories, but if you have a sample repository that you would like people to see, um then you can also just give it a tag BC samples and then this it will end up in this list."
+    },
+    {
+      "t": 1600.5,
+      "end": 1616.1,
+      "text": "The current number of of repositories here are six and we'll have like all the repositories that were created to showcase the the Power Platform integration to AL Go for GitHub, the BC samples take order, the BC samples onboarding,"
+    },
+    {
+      "t": 1616.1,
+      "end": 1630.4,
+      "text": "and the warehouse helper. Oh, the onboarding is actually not a Power Platform one. The warehouse helper and the coffee MR, they are all with Power Platform. The onboarding one is one that really showcases how onboarding is easier done."
+    },
+    {
+      "t": 1630.4,
+      "end": 1641.2,
+      "text": "And then we have two of the samples with Bing Maps as a PTE and Bing Maps as an AppSource. And you can obviously navigate to any of these three repositories and have a look at"
+    },
+    {
+      "t": 1641.2,
+      "end": 1655.7,
+      "text": "what it contains. Typically, if we have a look at one of these like takes the warehouse helper. If you want to like have a look at this, try it out, you can you can press the fork button here, create a local fork of that."
+    },
+    {
+      "t": 1655.7,
+      "end": 1672.2,
+      "text": "You will get everything. You'll get the entire AL Go for GitHub setup, and you'll be able to actually build this together with the Power Platform app and the Business Central app and set it up to automatically deploy to your Power Platform environment and your environment."
+    },
+    {
+      "t": 1672.2,
+      "end": 1687.2,
+      "text": "So, you'll get something that you can start developing from if you think that this is a good starting point for your app, feel free to fork that and there's absolutely no copyright on the code or on the repository itself."
+    },
+    {
+      "t": 1687.2,
+      "end": 1697.7,
+      "text": "So, feel free to to use these samples, and feel free to go into your GitHub repository really in the about section here and add a topic."
+    },
+    {
+      "t": 1697.7,
+      "end": 1709.4,
+      "text": "It's not a tag, it's a topic. Sorry about that. Add a topic called BC samples and you'll be able to be listed in the list of BC samples there. Now,"
+    },
+    {
+      "t": 1709.4,
+      "end": 1720.8,
+      "text": "I also want to talk about container helper. Container helper is a PowerShell module that most of you might be using or probably are using."
+    },
+    {
+      "t": 1720.8,
+      "end": 1731.8,
+      "text": "Right now, 2.25 million downloads, approximately 3,000 downloads every single day. And why talk about Container Helper in this forum?"
+    },
+    {
+      "t": 1731.8,
+      "end": 1745.9,
+      "text": "Because AL Go will move away from using Container Helper. What does that even mean? So, BC Container Helper today is just a huge pile of cool cool functionality, really, that helps partners do a lot of things."
+    },
+    {
+      "t": 1745.9,
+      "end": 1757.7,
+      "text": "And it can help you like do CAL code to AL code to transformation. It can help you spin up containers with NAV 2015. It can help you like do all kinds of things."
+    },
+    {
+      "t": 1757.7,
+      "end": 1768,
+      "text": "What we decided was to leave it like that. Like, BC Container Helper will not like go away. It will not be removed from GitHub or from PowerShell Gallery."
+    },
+    {
+      "t": 1768,
+      "end": 1782.8,
+      "text": "But for people who using it for old time stuff, it will remain as is. We will, however, take all DevOps relevant features and implement that in either other PowerShell module and in GitHub Actions."
+    },
+    {
+      "t": 1782.8,
+      "end": 1791.4,
+      "text": "And then will AL Go for GitHub will stop using BC Container Helper. Um"
+    },
+    {
+      "t": 1791.4,
+      "end": 1801.4,
+      "text": "If you're using a managed DevOps solution, if you're using AL Go for GitHub, you might not even notice this change. Um if you are using a self-made DevOps solution,"
+    },
+    {
+      "t": 1801.4,
+      "end": 1814.4,
+      "text": "you will have work to do. The commands in a new PowerShell module will not be compatible with the commands from BC Container Helper. Uh and at some point in time,"
+    },
+    {
+      "t": 1814.4,
+      "end": 1825.4,
+      "text": "BC Container Helper will no longer be supported and will stop working. Now, it's not going to happen day one when we go away from using BC Container Helper in AL Go for GitHub."
+    },
+    {
+      "t": 1825.4,
+      "end": 1836.7,
+      "text": "But eventually, like, there'll be a PowerShell 8 or there'll be a .NET 9 or there'll be stuff happening where it's going to become too hard to maintain BC Container Helper."
+    },
+    {
+      "t": 1836.7,
+      "end": 1851.9,
+      "text": "If you have projects that are using old versions of NAV and Business Central and they're running in in pipelines and stuff like that. BC in container album might be able to run those projects for a long time in the future because no new"
+    },
+    {
+      "t": 1851.9,
+      "end": 1862.3,
+      "text": "uh requirements really are added to those things. If you're running like projects that needs to go on AppSource or PTEs that needs to be installed in"
+    },
+    {
+      "t": 1862.3,
+      "end": 1873.8,
+      "text": "online environments, I urge you to go and switch to a managed DevOps solution um because there these changes will be made for you."
+    },
+    {
+      "t": 1873.8,
+      "end": 1890.7,
+      "text": "They'll be handled for you. You'll always be able to run like when there's new version of Business Central, there'll be a a new version of either the Azure DevOps tasks and ALOps or the GitHub actions in in AL Go for GitHub or the DevOps or GitHub actions that are used in in Cosmo Alpaca."
+    },
+    {
+      "t": 1890.7,
+      "end": 1905.1,
+      "text": "These three are the solutions that we currently uh look at as managed DevOps solutions. If you're not using a managed DevOps solution, if you're using something you've coded yourself, you will be spending a lot of time maintaining and"
+    },
+    {
+      "t": 1905.1,
+      "end": 1921.8,
+      "text": "uh developing these pipelines yourself and and that is we think you can use your spend your time wiser. We think you can spend your time on actually providing customer value instead of doing pipelines and workflows."
+    },
+    {
+      "t": 1921.8,
+      "end": 1939.1,
+      "text": "Last but not least, let have a look at uh some future investments that are what are we looking at into the future in AL Go? The picture here is really I asked ChatGPT to create an image that resembles uh Back to the Future with AL Go for GitHub and uh and and this is what I got."
+    },
+    {
+      "t": 1939.1,
+      "end": 1950.2,
+      "text": "I actually think it's a nice photo. So uh it's not really DeLorean, but um yeah. So future investments. What I say now, there's no timeline, there's no promises."
+    },
+    {
+      "t": 1950.2,
+      "end": 1966.2,
+      "text": "It might I actually some of them I'm pretty sure they'll be there, but I'm no timeline. But let's see. The page scripting tests, like uh recently just a week ago, the BC replay and NPM package was actually released to the public."
+    },
+    {
+      "t": 1966.2,
+      "end": 1979.4,
+      "text": "And that means that we can in AL Go for GitHub start also executing or running the page scripting tests as part of our pipelines. We are not ready with that today, so I actually think AL Ops beat us to it."
+    },
+    {
+      "t": 1979.4,
+      "end": 1993.1,
+      "text": "But, that's absolutely fine. We'll also provide the ability to run page scripted tests directly in your CI/CD or in your test current test next minor and test next major workflows."
+    },
+    {
+      "t": 1993.1,
+      "end": 2004.9,
+      "text": "We're working on like there are partners who need more than what comes out of the box in AL Go, so we're working on indirect tape templates and customization capabilities, and we're not really sure where to land this one."
+    },
+    {
+      "t": 2004.9,
+      "end": 2016.4,
+      "text": "Some say that that that Git functionality is sufficient. Some say that we need to be able to customize by adding custom scripts or custom steps and custom jobs."
+    },
+    {
+      "t": 2016.4,
+      "end": 2030.4,
+      "text": "We'll land this and create documentation on how to use these things. So, that we'll like clearly document how partners can and how much they can customize and still still keep current with the latest version of AL Go."
+    },
+    {
+      "t": 2030.4,
+      "end": 2044.5,
+      "text": "We don't want people to to just like take AL Go as is and then run out of a out of a different line because it actually makes them run something they made themselves just with AL Go as a starting point."
+    },
+    {
+      "t": 2044.5,
+      "end": 2056.7,
+      "text": "And whenever we finish the investments of of of removing the need for BC container helper, they'll be like stuck there with an old version of AL Go for GitHub, and we don't want that."
+    },
+    {
+      "t": 2056.7,
+      "end": 2069.5,
+      "text": "We also will add mechanisms to generate and publish runtime packages to NuGet. We've talked about this for quite some time. Now we have the symbols of app source apps. That was actually the first step on this journey."
+    },
+    {
+      "t": 2069.5,
+      "end": 2080.9,
+      "text": "With these symbols, we'll be able to with the with the small addition to the to the AL compiler. They might the team might not think it's small, but let's see."
+    },
+    {
+      "t": 2080.9,
+      "end": 2094.2,
+      "text": "We hope that the AL compiler will be able to generate a runtime package just by having the symbols of the dependencies. That means that we could generate runtime packages for any app that only has app source dependencies"
+    },
+    {
+      "t": 2094.2,
+      "end": 2106.8,
+      "text": "or local dependencies without having to create a service tier for every single version we need to generate runtime packages off and publish all apps or the entire dependency tree of the apps."
+    },
+    {
+      "t": 2106.8,
+      "end": 2117.6,
+      "text": "We can we can do with the symbols. This will immensely help partners share runtime packages privately or publicly with each other."
+    },
+    {
+      "t": 2117.6,
+      "end": 2129,
+      "text": "We'll add some more documentation, more how-to videos, and an updated roadmap so that this will make life easier for partners and customers using AL Go for GitHub."
+    },
+    {
+      "t": 2129,
+      "end": 2142,
+      "text": "And again, we'll make AL Go for GitHub independent of BC Container Helper over the next 2 to 3 years. That's it for this one. Thanks for listening."
+    }
+  ],
+  "markers": [],
+  "word_count": 5435
+}
