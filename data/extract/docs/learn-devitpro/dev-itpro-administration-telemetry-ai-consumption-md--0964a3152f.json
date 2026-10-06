@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-ai-consumption.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-ai-consumption",
+  "title": "Analyzing AI Consumption Trace Telemetry",
+  "blob": "1010b161eed0438932cde87b2c862beeeb62c95b",
+  "summary": "AI consumption trace telemetry tracks Copilot Credits consumed by consumption-based billing features through event RT0055, recording actions, agents, and consumption data for monitoring and analyzing copilot usage.",
+  "systems": [
+    "copilot",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "telemetry",
+    "ai consumption",
+    "copilot credits",
+    "billing",
+    "monitoring",
+    "trace"
+  ],
+  "objects": [],
+  "features": [
+    "AI consumption tracking",
+    "Copilot Credits recording",
+    "consumption-based billing",
+    "telemetry analysis",
+    "KQL queries"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005543,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-items-for-directed-put-away-and-pick",
   "published_at": "2026-06-23T02:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1637a7f734f303bedbf638a90702194424cbce78",
       "words": 700,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:43:42.397Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.005543
+    },
+    "summarized": {
+      "at": "2026-10-06T17:44:15.161Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:44:15.162Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:44:15.194Z",
+      "page": false
     }
   },
   "input_hash": "1637a7f734f303bedbf638a90702194424cbce78",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1637a7f734f303bedbf638a90702194424cbce78"
+  "output_hash": "b9f17c9b1167b72a65e77965bcbab2d030834d9b99d02b7df193334e8d2ebd6d"
 }

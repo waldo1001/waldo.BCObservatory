@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-managing-projects-with-jobs",
   "published_at": "2026-06-24T03:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1fd6c62f50327fa081d79779815987bf3764738b",
       "words": 3580,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:43:42.374Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 9,
+      "cost_usd": 0.005543
+    },
+    "summarized": {
+      "at": "2026-10-06T17:44:14.928Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:44:14.933Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:44:14.973Z",
+      "page": false
     }
   },
   "input_hash": "1fd6c62f50327fa081d79779815987bf3764738b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1fd6c62f50327fa081d79779815987bf3764738b"
+  "output_hash": "1913ca4244d4de2a0940036d2dfa786ccc8e4ebb672c1e4c770f0c1a1eb549d9"
 }

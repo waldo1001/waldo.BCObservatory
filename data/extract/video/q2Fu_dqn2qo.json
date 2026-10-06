@@ -1,0 +1,248 @@
+{
+  "video_id": "q2Fu_dqn2qo",
+  "item_id": "video/yt-microsoft/q2Fu_dqn2qo",
+  "title": "What's New: Enhanced Demo Data (2026 release wave 1)",
+  "duration_s": 467,
+  "systems": [
+    "reporting",
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "demo data",
+    "fixed assets",
+    "sales order",
+    "purchasing",
+    "subscription billing",
+    "power bi",
+    "analysis mode",
+    "financial reporting",
+    "demo tool"
+  ],
+  "chapters": [
+    {
+      "title": "Enhanced Demo Data Overview",
+      "t_start": 0,
+      "t_end": 39.8
+    },
+    {
+      "title": "Fixed Assets Demo Data",
+      "t_start": 39.8,
+      "t_end": 69
+    },
+    {
+      "title": "Sales and Purchasing Demo Data Enhancements",
+      "t_start": 69,
+      "t_end": 137.8
+    },
+    {
+      "title": "Subscription Billing and Analysis Mode",
+      "t_start": 137.8,
+      "t_end": 174.9
+    },
+    {
+      "title": "Demo Tools and Related Analytics Sessions",
+      "t_start": 174.9,
+      "t_end": 216.6
+    },
+    {
+      "title": "Resources and Community Links",
+      "t_start": 216.6,
+      "t_end": 467
+    }
+  ],
+  "features": [
+    {
+      "name": "Fixed Assets Transaction Demo Data",
+      "description": "Added transaction data for acquisitions and depreciations in fixed assets. This enables demos of fixed asset reports, analysis mode on fixed asset ledgers, and FA registers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 52.3,
+      "t_end": 69,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "fixed assets",
+        "transaction data",
+        "demo data"
+      ],
+      "system": "fixed-assets"
+    },
+    {
+      "name": "Sales Demo Data Enhancements",
+      "description": "Added more document demo data with variation spread across sales people, added discounts, and 11 additional open sales orders plus 9 more back orders to improve Power BI app demonstrations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 69,
+      "t_end": 125.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales order",
+        "demo data",
+        "power bi",
+        "discounts"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Purchasing Demo Data Enhancements",
+      "description": "Added purchasing department dimension and purchase return order demo data, along with variation in documents to improve Power BI app demonstrations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 84.3,
+      "t_end": 125.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "purchasing",
+        "purchase order",
+        "demo data"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Finance General Ledger Improvement",
+      "description": "Finance general ledger benefits from demo data enhancements in sales and purchasing as documents post through, improving the overall demo experience in finance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 96.6,
+      "t_end": 107.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "finance",
+        "general ledger",
+        "demo data"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Subscription Billing Demo Data",
+      "description": "Added master data and transactions for subscription billing including more customer contracts, vendor contracts, and billing lines. Lights up analysis mode in the client and Power BI app.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 137.8,
+      "t_end": 148.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "subscription billing",
+        "demo data",
+        "power bi",
+        "analysis mode"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Analysis Mode on Lists",
+      "description": "Demonstrates using lists in analysis mode within Business Central as an alternative to Power BI apps for viewing reports and data visualization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 160.3,
+      "t_end": 174.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "analysis mode",
+        "reporting",
+        "lists"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Demo Data Control Tool",
+      "description": "A tool under analytics that can be installed to access enhanced demo data across fixed assets, sales, purchasing, and subscription billing. Can be extended to other scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 39.8,
+      "t_end": 190.4,
+      "is_demoed": false,
+      "caveats": [
+        "can be extended to other scenarios"
+      ],
+      "tags": [
+        "demo data",
+        "demo tool",
+        "administration"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 6.3,
+      "text": "there's only one value of this, of course, it's just when you do your demos that all reports and Power BI just showcase a",
+      "why_it_matters": "Explains the core purpose of enhanced demo data - to enable compelling demonstrations with reports and Power BI showing meaningful business scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 26.5,
+      "text": "we are have added demo data across fixed assets, sales, purchasing, and subscription billing",
+      "why_it_matters": "Identifies the four main areas where demo data enhancements have been made in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 52.3,
+      "text": "For fixed assets, we added transaction data for acquisitions and depreciations. And when we have that, you can now demo all the reports",
+      "why_it_matters": "Describes the specific type of demo data added for fixed assets and what becomes possible for demonstration.",
+      "check": "exact"
+    },
+    {
+      "t": 84.3,
+      "text": "we added more document demo data but we also spread it or made more variation in the in the",
+      "why_it_matters": "Explains the strategy for sales and purchasing demo data - not just quantity but variety across different scenarios.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 96.6,
+      "text": "when you post documents having this demo data, there's an added benefit that also in finance things are coming in the finance in the",
+      "why_it_matters": "Highlights how demo data improvements cascade through the system, improving finance demos as a side effect.",
+      "check": "exact"
+    },
+    {
+      "t": 125.6,
+      "text": "For open sales orders, we added 11 more. So for back orders, also nine more",
+      "why_it_matters": "Provides specific counts of new demo data records added, showing concrete improvements to demo scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 137.8,
+      "text": "With subscription billing, we added both master data and transactions and that lights up all the analysis mode",
+      "why_it_matters": "States what demo data enhancements were made for subscription billing and what functionality they enable.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020605
+    }
+  ]
+}

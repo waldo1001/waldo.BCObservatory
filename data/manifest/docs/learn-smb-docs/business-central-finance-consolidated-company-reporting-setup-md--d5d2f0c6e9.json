@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-consolidated-company-reporting-setup",
   "published_at": "2026-06-23T02:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "87f6b7f19577e805f0e89ec45911255ea04d494a",
       "words": 1978,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T17:43:42.395Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.005543
+    },
+    "summarized": {
+      "at": "2026-10-06T17:44:15.132Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:44:15.134Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:44:15.136Z",
+      "page": false
     }
   },
   "input_hash": "87f6b7f19577e805f0e89ec45911255ea04d494a",
@@ -75,5 +94,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "87f6b7f19577e805f0e89ec45911255ea04d494a"
+  "output_hash": "8143d31c405214956398bfa79b272a6a9ed3c57fb9d95137f659822b449177ea"
 }

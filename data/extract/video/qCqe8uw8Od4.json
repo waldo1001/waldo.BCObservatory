@@ -1,0 +1,313 @@
+{
+  "video_id": "qCqe8uw8Od4",
+  "item_id": "video/yt-microsoft/qCqe8uw8Od4",
+  "title": "What's New: Enhanced Inventory Analytics (2026 release wave 1)",
+  "duration_s": 788,
+  "systems": [
+    "inventory",
+    "reporting",
+    "warehouse"
+  ],
+  "topics": [
+    "abc analysis",
+    "inventory analytics",
+    "power bi reports",
+    "excel layouts",
+    "modernization",
+    "analysis mode",
+    "legacy reports deprecation",
+    "supply chain risk",
+    "inventory posting groups",
+    "analysis tabs"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Enhanced Inventory Analytics",
+      "t_start": 0,
+      "t_end": 90.3
+    },
+    {
+      "title": "ABC Analysis Feature",
+      "t_start": 90.3,
+      "t_end": 262.6
+    },
+    {
+      "title": "Modernizing Inventory Reports",
+      "t_start": 262.6,
+      "t_end": 399.4
+    },
+    {
+      "title": "Subtotals and Analysis Views",
+      "t_start": 399.4,
+      "t_end": 477.3
+    },
+    {
+      "title": "Resources and Related Topics",
+      "t_start": 477.3,
+      "t_end": 538.4
+    },
+    {
+      "title": "General Business Central Resources",
+      "t_start": 538.4,
+      "t_end": 788
+    }
+  ],
+  "features": [
+    {
+      "name": "ABC Analysis in Power BI",
+      "description": "New Power BI app for inventory with ABC analysis capability allowing users to slice and dice based on ABC classes to categorize inventory items as A, B, or C based on sales percentage thresholds.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 90.3,
+      "t_end": 165.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "abc analysis",
+        "power bi",
+        "inventory management"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "ABC Analysis Excel Layout",
+      "description": "New Excel layout for ABC analysis report with printable worksheet and analysis worksheet designed for slice and dice with slices on ABC class type and inventory posting groups.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 165.8,
+      "t_end": 239.1,
+      "is_demoed": true,
+      "caveats": [
+        "Originally only in German and Swiss versions, now delocalised to all regions"
+      ],
+      "tags": [
+        "abc analysis",
+        "excel layout",
+        "delocalization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "ABC Analysis Setup Page",
+      "description": "New page in the application where users define ABC threshold percentages that must sum to 100 percent, used for both Power BI and Excel reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 239.1,
+      "t_end": 251.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "abc analysis",
+        "setup",
+        "configuration"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Item Age Composition Report",
+      "description": "New report showing item age composition by both quantity and value in a single report, replacing legacy reports that showed either quantity or value separately.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 314.6,
+      "t_end": 349.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "item age",
+        "composition",
+        "modernization"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Excel and Word Layout Modernization",
+      "description": "Eight reports updated with Excel and Word layouts to replace legacy IDE layouts, allowing users to change layouts using Word add-in or Excel analysis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 360.3,
+      "t_end": 379.4,
+      "is_demoed": true,
+      "caveats": [
+        "Eight reports updated; four legacy reports will be deprecated"
+      ],
+      "tags": [
+        "excel layout",
+        "word layout",
+        "modernization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Legacy Inventory Report Deprecation",
+      "description": "Four legacy inventory reports are being deprecated and will be removed from the product over the next three release waves.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 379.4,
+      "t_end": 399.4,
+      "is_demoed": false,
+      "caveats": [
+        "Four reports to be removed over three release waves"
+      ],
+      "tags": [
+        "deprecation",
+        "legacy reports"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Inventory Report Subtotals",
+      "description": "Subtotals functionality being added to all new inventory reports in version 28.x to make analysis easier in the analysis worksheet.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 413.9,
+      "t_end": 447.8,
+      "is_demoed": false,
+      "caveats": [
+        "Version 28.0 does not have subtotals; subtotals coming in 28.x",
+        "Not available at GA in 28.0"
+      ],
+      "tags": [
+        "subtotals",
+        "analysis",
+        "version 28.x"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Analysis Views for Item Ledger Entries",
+      "description": "New ability to supply analysis views with application in AL, with four pre-built analysis views for item ledger entries that users can customize or hide.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 447.8,
+      "t_end": 477.3,
+      "is_demoed": false,
+      "caveats": [
+        "Four pre-built analysis views provided that can be hidden via personal customization"
+      ],
+      "tags": [
+        "analysis views",
+        "al development",
+        "item ledger entries"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Inventory Analytics Help and Discoverability",
+      "description": "Legacy inventory reports are now discoverable in advanced tell me, help pane, copilot chat, and Microsoft Learn documentation for better visibility.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 273.7,
+      "t_end": 301.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "discoverability",
+        "help",
+        "documentation"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "ABC Analysis Setup",
+      "t": 239.1
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entries",
+      "t": 459.1
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 16.6,
+      "text": "inventory analytics is actually one of the key investment areas in the analytics analytics content for this release wave",
+      "why_it_matters": "Establishes inventory analytics as a major focus area for 2026 release wave 1",
+      "check": "exact"
+    },
+    {
+      "t": 51.6,
+      "text": "Everything you could do back 6 12 months ago with legacy reports in IDE you can now do either with Power BI with Excel",
+      "why_it_matters": "Shows the modernization strategy maintains feature parity while providing modern reporting options",
+      "check": "exact"
+    },
+    {
+      "t": 112,
+      "text": "you are categorizing your inventory in three A B and C types. You define what's the percentage of your sales that should be class",
+      "why_it_matters": "Explains the core ABC analysis methodology and the constraint that percentages must total 100",
+      "check": "exact"
+    },
+    {
+      "t": 165.8,
+      "text": "in the German and Swiss version of Business Central it actually had ABC analysis already whereas other localizations did not",
+      "why_it_matters": "Explains why ABC analysis was delocalised from specific regions to general release",
+      "check": "exact"
+    },
+    {
+      "t": 399.4,
+      "text": "this is coming in 21 28.x",
+      "why_it_matters": "Clarifies that some features are arriving after the initial 28.0 GA release in version 28.x",
+      "check": "exact"
+    },
+    {
+      "t": 413.9,
+      "text": "in 28.0 versions the inventory reports do not have subsections or subtotals",
+      "why_it_matters": "Documents a known limitation in the GA release that will be addressed in 28.x",
+      "check": "exact"
+    },
+    {
+      "t": 459.1,
+      "text": "for item ledger entries in version 28.x we will add these four new um pre-built analysis views so that when you open that in",
+      "why_it_matters": "Describes the pre-built analysis views feature that reduces setup work for users",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 399.4,
+      "kind": "not-in-this-release",
+      "text": "inventory reports do not have subsections or subtotals in 28.0"
+    },
+    {
+      "t": 434.2,
+      "kind": "coming-later",
+      "text": "for version 28 hopefully .1 we are adding subtotals to all the new reports"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0267067
+    }
+  ]
+}

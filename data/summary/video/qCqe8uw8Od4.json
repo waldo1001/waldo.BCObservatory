@@ -1,0 +1,28 @@
+{
+  "video_id": "qCqe8uw8Od4",
+  "item_id": "video/yt-microsoft/qCqe8uw8Od4",
+  "summary": "Enhanced inventory analytics in Business Central 2026 release wave 1: ABC analysis in Power BI and Excel, an Item Age Composition report, eight reports moved to Excel and Word layouts, four legacy reports to be deprecated, and subtotals and analysis views planned for 28.x.",
+  "overview": "The video presents inventory analytics as a key investment area for the release wave. It demos ABC analysis in a new Power BI app and in an Excel layout, both driven by a new ABC Analysis Setup page where threshold percentages must sum to 100 percent. The Excel layout was originally only in the German and Swiss versions and is now available in all regions.\n\nIt also covers modernizing inventory reports. Eight reports get Excel and Word layouts to replace legacy layouts, and a new Item Age Composition report shows quantity and value together. Four legacy reports will be removed over the next three release waves. Subtotals are not in 28.0 and are planned for 28.x, along with four pre-built analysis views for item ledger entries.",
+  "key_points": [
+    "ABC analysis classifies items as A, B or C by sales percentage thresholds, defined on the ABC Analysis Setup page; the percentages must sum to 100 percent.",
+    "The same setup serves both the Power BI app and the Excel layout for ABC analysis.",
+    "The ABC Excel layout has a printable worksheet and an analysis worksheet sliced by ABC class and inventory posting groups; it was previously only in German and Swiss versions and is now delocalised to all regions.",
+    "Eight reports get Excel and Word layouts replacing legacy layouts; four legacy inventory reports will be removed over the next three release waves.",
+    "The new Item Age Composition report shows item age by quantity and value in one report.",
+    "Inventory reports in 28.0 have no subtotals; subtotals for all new reports are planned for 28.x.",
+    "Four pre-built analysis views for item ledger entries are planned for 28.x and can be customized or hidden through personalization."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner",
+    "decision maker"
+  ],
+  "extraction_hash": "5da14a9a8fb37f13e3efe0e5b4164623e0c3ee64d7e44a8fce3bfd17b175afb8",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0169584
+  }
+}

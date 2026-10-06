@@ -1,0 +1,395 @@
+{
+  "video_id": "oL8OlbEoUnQ",
+  "item_id": "video/yt-microsoft/oL8OlbEoUnQ",
+  "title": "What's New: E-Documents (2026 release wave 1)",
+  "duration_s": 772,
+  "systems": [
+    "localization",
+    "purchasing",
+    "integration"
+  ],
+  "topics": [
+    "e-documents",
+    "peppol",
+    "first-party app",
+    "intercompany",
+    "purchase invoices",
+    "localization",
+    "extensibility",
+    "e-invoicing",
+    "denmark oioubl",
+    "france"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and PEPPOL app redesign",
+      "t_start": 0,
+      "t_end": 47.4
+    },
+    {
+      "title": "Linking inbound e-documents to purchase invoices",
+      "t_start": 47.4,
+      "t_end": 127.7
+    },
+    {
+      "title": "Localization features and enhancements",
+      "t_start": 127.7,
+      "t_end": 231.2
+    },
+    {
+      "title": "PEPPOL app architecture and extensibility",
+      "t_start": 231.2,
+      "t_end": 426.2
+    },
+    {
+      "title": "PEPPOL setup and migration path",
+      "t_start": 426.2,
+      "t_end": 515.1
+    },
+    {
+      "title": "Demonstration of linking inbound e-documents",
+      "t_start": 515.1,
+      "t_end": 722
+    },
+    {
+      "title": "Conclusion and resources",
+      "t_start": 722,
+      "t_end": 772
+    }
+  ],
+  "features": [
+    {
+      "name": "PEPPOL moved to first-party app",
+      "description": "PEPPOL format has been redesigned and moved from the base app to a new first-party app, providing better control, scalability, and easier customizations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 24.2,
+      "t_end": 34.4,
+      "is_demoed": true,
+      "caveats": [
+        "Electronic document formats from base app will be phased out"
+      ],
+      "tags": [
+        "peppol",
+        "first-party app",
+        "restructuring"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Link inbound e-documents to purchase invoices",
+      "description": "Ability to link inbound e-documents to already-created purchase invoices, particularly useful for intercompany scenarios where a purchase invoice may be created by intercompany process but the same invoice arrives through the e-document connector.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 47.4,
+      "t_end": 116.9,
+      "is_demoed": true,
+      "caveats": [
+        "Currently only allowed for intercompany vendors",
+        "Vendor amounts must match the received invoice total"
+      ],
+      "tags": [
+        "linking",
+        "intercompany",
+        "purchase invoices"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Default e-document type on vendor templates",
+      "description": "Ability to set default e-document type on vendor templates, allowing configuration of whether the default option is purchase invoice or purchase order.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 139.7,
+      "t_end": 152.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "vendor templates",
+        "configuration"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Service participant linked to company information",
+      "description": "Service participant can now be linked to company information in addition to customer vendors, enabling better compliance with local regulations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 153.8,
+      "t_end": 167.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "service participant",
+        "company information"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Payment with e-documents",
+      "description": "Payment functionality enabled with e-documents, primarily required in French localization but enabled in the framework for other localizations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 168.4,
+      "t_end": 180.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "payment",
+        "french localization"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Verify tool in Spain",
+      "description": "E-documents verification tool enabled for Spain in public preview. The preview status is because enforcement is not yet mandatory, allowing users to test and provide feedback.",
+      "status": "preview",
+      "status_evidence_t": 181.2,
+      "status_evidence_quote": "this is a public preview but this is completed",
+      "status_evidence_verified": true,
+      "t_start": 181.2,
+      "t_end": 197.8,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet enforced"
+      ],
+      "tags": [
+        "spain",
+        "verification"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "E-invoicing in Denmark with carbon footprint",
+      "description": "E-invoicing in Denmark using OIOUBL format now integrated with carbon footprint capability, allowing financial and carbon footprint details to be sent together with automatic population of carbon footprint information in purchase invoices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 198.3,
+      "t_end": 218.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "denmark",
+        "oioubl",
+        "carbon footprint"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "French electronic invoicing",
+      "description": "Work in progress on French electronic invoicing functionality. Details are available in the release plan.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 219.1,
+      "t_end": 230.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "france",
+        "in progress"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "PEPPOL 3.0 format enum and extensibility",
+      "description": "PEPPOL 3.0 format exposed with 10 interfaces divided into different parts of the format, allowing developers to extend specific parts without changing the entire format.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 302,
+      "t_end": 341.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "peppol",
+        "extensibility",
+        "interfaces",
+        "development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "PEPPOL validation interface",
+      "description": "PEPPOL validation interface available for custom validation logic, allowing developers to add custom fields validation before creating PEPPOL format.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 366.4,
+      "t_end": 391.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "peppol",
+        "validation",
+        "extensibility"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "PEPPOL 3.0 setup page",
+      "description": "New PEPPOL 3.0 setup page in Business Central allowing users to select specific enum values and configure PEPPOL implementation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 437.7,
+      "t_end": 452.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "peppol",
+        "setup",
+        "configuration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Electronic document formats phasing out",
+      "description": "Electronic document formats functionality is being phased out from the base app as e-documents capabilities now provide the same functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 483.4,
+      "t_end": 498.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "migration",
+        "electronic document formats",
+        "deprecation"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "PEPPOL 3.0 setup",
+      "t": 437.7
+    },
+    {
+      "type": "page",
+      "name": "inbound e-document",
+      "t": 548.7
+    },
+    {
+      "type": "enum",
+      "name": "PEPPOL 3.0 format",
+      "t": 302
+    },
+    {
+      "type": "interface",
+      "name": "PEPPOL validation interface",
+      "t": 378.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander Totovic",
+      "confidence": "high"
+    },
+    {
+      "name": "Magnus",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 34.4,
+      "text": "PEPPOL is now first party app. This is much easier for more control, more scalability, easier for localizations",
+      "why_it_matters": "Explains the architectural decision to move PEPPOL out of the base app, improving maintainability and customization capability.",
+      "check": "exact"
+    },
+    {
+      "t": 47.4,
+      "text": "One new functionality really important link inbound e-documents to purchase invoice and this is extremely important",
+      "why_it_matters": "Introduces a critical new capability for handling duplicate invoices in intercompany scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 61.2,
+      "text": "in a background system will create intercompany purchase invoice in the company B. So now we have created invoice in company B but we",
+      "why_it_matters": "Describes the specific problem the linking feature solves - duplicate invoices from intercompany and e-document processes.",
+      "check": "exact"
+    },
+    {
+      "t": 181.2,
+      "text": "We enabled verify tool in Spain. Now this is a public preview but this is completed. This is a public preview only because this",
+      "why_it_matters": "Clarifies the preview status rationale - the feature is complete but not yet mandatory, allowing testing period.",
+      "check": "exact"
+    },
+    {
+      "t": 302,
+      "text": "PEPPOL app app exposes 10 interfaces which is quite some but they're divided into the different parts of the format",
+      "why_it_matters": "Details the extensibility design of the new PEPPOL app architecture.",
+      "check": "exact"
+    },
+    {
+      "t": 483.4,
+      "text": "we're going to the plan is to obsolete the code and remove it from base app so it only lives in the first party",
+      "why_it_matters": "Announces the deprecation path for electronic document formats as e-documents replaces this functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 559.5,
+      "text": "the specific thing about this feature is that it it's currently only allowed for intercompany vendors",
+      "why_it_matters": "Establishes a key constraint on the new linking functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 618.2,
+      "text": "the amount corresponds to the total on the invoice. So, let me actually just show you that",
+      "why_it_matters": "Describes a validation rule that ensures only matching invoices can be linked.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 181.2,
+      "kind": "preview",
+      "text": "this is a public preview but this is completed. This is a public preview only because this is not enforced to be used yet"
+    },
+    {
+      "t": 219.1,
+      "kind": "coming-later",
+      "text": "work in progress French electronic invoicing. This is something what we are working on"
+    },
+    {
+      "t": 483.4,
+      "kind": "subject-to-change",
+      "text": "we're going to the plan is to obsolete the code and remove it from base app so it only lives in the first party app and at some point later on"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 11
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029823999999999996
+    }
+  ]
+}

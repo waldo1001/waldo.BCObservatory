@@ -1,0 +1,27 @@
+{
+  "video_id": "q2Fu_dqn2qo",
+  "item_id": "video/yt-microsoft/q2Fu_dqn2qo",
+  "summary": "Enhanced demo data in Business Central (2026 release wave 1) covers fixed assets, sales, purchasing and subscription billing. It adds transactions and variation so reports, analysis mode and Power BI apps show more realistic data. A demo data tool under analytics provides access to it.",
+  "overview": "The video describes the demo data additions in 2026 release wave 1. Fixed assets get acquisition and depreciation transactions, so fixed asset reports, analysis mode on fixed asset ledgers and FA registers can be demoed. Sales and purchasing get more documents with variation across sales people, discounts, a purchasing department dimension and purchase return orders.\n\nSubscription billing gets master data and transactions, which fills analysis mode in the client and the Power BI app. The video also shows lists in analysis mode as an alternative to Power BI apps, and mentions a demo data tool under analytics that can be installed and extended to other scenarios.",
+  "key_points": [
+    "Fixed assets demo data now includes acquisition and depreciation transactions, enabling fixed asset reports, analysis mode on fixed asset ledgers and FA registers.",
+    "Sales demo data adds 11 more open sales orders and 9 more back orders, plus discounts and variation across sales people, for Power BI app demos.",
+    "Purchasing demo data adds a purchasing department dimension and purchase return orders.",
+    "Posting the new sales and purchasing documents also improves the general ledger data in finance.",
+    "Subscription billing demo data adds customer contracts, vendor contracts and billing lines, which populate analysis mode and the Power BI app.",
+    "A demo data tool under analytics can be installed to get this data and can be extended to other scenarios.",
+    "Analysis mode on lists is shown as an alternative to Power BI apps for viewing data."
+  ],
+  "audience": [
+    "functional consultant",
+    "partner",
+    "administrator"
+  ],
+  "extraction_hash": "c1d73b6b122ce2c75108fb1f3d2f16ee40843ec932f0a4bf47713234d955feee",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014102400000000001
+  }
+}

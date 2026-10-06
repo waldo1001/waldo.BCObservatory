@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/preview-environments",
   "published_at": "2026-06-23T07:40:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d01c10e597f1ab25ddd86595cdf26180fce4cddd",
       "words": 1067,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T17:43:42.393Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005543
+    },
+    "summarized": {
+      "at": "2026-10-06T17:44:15.088Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:44:15.097Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:44:15.126Z",
+      "page": false
     }
   },
   "input_hash": "d01c10e597f1ab25ddd86595cdf26180fce4cddd",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d01c10e597f1ab25ddd86595cdf26180fce4cddd"
+  "output_hash": "d97db823a07dc87c49eb38b320181ba136a11ad1d398baf3520215d85b23db73"
 }

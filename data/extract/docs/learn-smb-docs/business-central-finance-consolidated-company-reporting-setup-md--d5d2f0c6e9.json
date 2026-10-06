@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-consolidated-company-reporting-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-consolidated-company-reporting-setup",
+  "title": "Set up company consolidation",
+  "blob": "87f6b7f19577e805f0e89ec45911255ea04d494a",
+  "summary": "Company consolidation setup enables consolidating general ledger entries from multiple subsidiaries or business units into a consolidated company using either simple assisted setup or advanced manual configuration with account mapping and currency exchange rates.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "consolidation",
+    "business unit",
+    "subsidiary",
+    "general ledger",
+    "currency translation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Business Units"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Setup Business Unit Currencies"
+    },
+    {
+      "type": "report",
+      "name": "Run Consolidation"
+    }
+  ],
+  "features": [
+    "company consolidation",
+    "business unit setup",
+    "account mapping",
+    "exchange rates",
+    "currency translation",
+    "dimension consolidation",
+    "partial ownership"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005543,
+      "pages_in_call": 8
+    }
+  ]
+}

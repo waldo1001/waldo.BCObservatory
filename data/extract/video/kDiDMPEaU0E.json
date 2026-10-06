@@ -1,0 +1,318 @@
+{
+  "video_id": "kDiDMPEaU0E",
+  "item_id": "video/yt-microsoft/kDiDMPEaU0E",
+  "title": "What's New: Matching Purchase Invoices to Order and Receipt Lines (2026 release wave 1)",
+  "duration_s": 669,
+  "systems": [
+    "purchasing",
+    "warehouse"
+  ],
+  "topics": [
+    "purchase order matching",
+    "purchase invoice",
+    "receipt lines",
+    "order lines",
+    "auto-posting",
+    "item tracking",
+    "directed put-away and pick",
+    "partial receipt",
+    "invoice matching"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and problem statement",
+      "t_start": 0,
+      "t_end": 100.3
+    },
+    {
+      "title": "Scenario 1: matching invoice to multiple order lines",
+      "t_start": 100.3,
+      "t_end": 225.4
+    },
+    {
+      "title": "Matching with receipt lines and posting invoice",
+      "t_start": 225.4,
+      "t_end": 335.8
+    },
+    {
+      "title": "Scenario 2: auto-posting receipts with invoices",
+      "t_start": 335.8,
+      "t_end": 472.9
+    },
+    {
+      "title": "Advanced scenario: item tracking and directed put-away pick",
+      "t_start": 472.9,
+      "t_end": 649.8
+    },
+    {
+      "title": "Summary and conclusion",
+      "t_start": 649.8,
+      "t_end": 669
+    }
+  ],
+  "features": [
+    {
+      "name": "Match invoice line to multiple order lines",
+      "description": "Ability to match a single invoice line to one or multiple non-received order lines, supporting scenarios where one invoice covers multiple order lines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 64.7,
+      "t_end": 85.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "invoice matching",
+        "order lines",
+        "multiple orders"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Match invoice to partial receipt lines",
+      "description": "Capability to match invoice lines to many partial receipt lines, with ability to invoice receipts partially.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 74.8,
+      "t_end": 85.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "receipt lines",
+        "partial invoicing",
+        "matching"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Auto-post order receipt when posting invoice",
+      "description": "Automatic posting of order receipts when posting a matched invoice, available through a received on invoice flag on purchase orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 85.8,
+      "t_end": 100.3,
+      "is_demoed": true,
+      "caveats": [
+        "Applies to simple purchase orders without complex receipt handling"
+      ],
+      "tags": [
+        "auto-posting",
+        "invoice posting",
+        "receipt posting"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Get order lines action",
+      "description": "New action to retrieve and display all available order lines for matching to invoice lines, automatically creating one invoice line per order line.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 135.5,
+      "t_end": 155.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "user interface",
+        "order lines",
+        "action"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Matched order line user interface",
+      "description": "New UI for managing order line matching on purchase invoices, allowing selection and matching of multiple order lines and viewing of receipts in tree structure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 166.7,
+      "t_end": 267.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "user interface",
+        "matching",
+        "tree structure"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Received on invoice flag",
+      "description": "Flag that can be set on purchase orders to mark them as received on invoice, enabling automatic receipt posting when the invoice is posted.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 373.8,
+      "t_end": 409.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "auto-posting",
+        "order flag",
+        "invoice"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Item tracking support in invoice matching",
+      "description": "Support for matching invoices to orders with item tracking, including serial item tracking with visibility to serial numbers and receipt shipment numbers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 472.9,
+      "t_end": 599,
+      "is_demoed": true,
+      "caveats": [
+        "Workflow differs with directed put-away and pick locations; matching must occur before setting quantities"
+      ],
+      "tags": [
+        "item tracking",
+        "serial numbers",
+        "tracking"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Directed put-away and pick integration",
+      "description": "Invoice matching functionality works with locations using directed put-away and pick, requiring match to be set before quantity can be entered.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 521.5,
+      "t_end": 576.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires matching before setting quantity",
+        "Different workflow compared to non-directed put-away locations"
+      ],
+      "tags": [
+        "warehouse",
+        "directed put-away",
+        "pick"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Item tracking entries action",
+      "description": "Action showing which serial numbers are being invoiced from receipt, with receipt shipment number field indicating which receipt the serial numbers belong to.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 588.9,
+      "t_end": 611.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "item tracking",
+        "serial numbers",
+        "user interface"
+      ],
+      "system": "warehouse"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "matched order line user interface",
+      "t": 166.7
+    },
+    {
+      "type": "other",
+      "name": "get order lines",
+      "t": 135.5
+    },
+    {
+      "type": "other",
+      "name": "received on invoice flag",
+      "t": 373.8
+    },
+    {
+      "type": "other",
+      "name": "item tracking entries",
+      "t": 588.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Volodymyr Synchuk",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 22.4,
+      "text": "when vendor invoice arrives before goods are received or when one invoice covers multiple receipts or even multiple order lines",
+      "why_it_matters": "Describes real-world scenarios that the new functionality addresses, showing the business problems being solved.",
+      "check": "exact"
+    },
+    {
+      "t": 51.8,
+      "text": "current get receipt line experience will only allow you to match one invoice line to one receipt line, which is also a limitation",
+      "why_it_matters": "Explains the limitation of existing functionality that the new feature overcomes, establishing the improvement.",
+      "check": "exact"
+    },
+    {
+      "t": 74.8,
+      "text": "you will be able to match invoice line to one or multiple non-received order lines as well as to many partial receipt lines",
+      "why_it_matters": "Core value proposition of the new feature, showing the expanded matching capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 85.8,
+      "text": "you will also be able to auto post order receipt when posting matching invoice",
+      "why_it_matters": "Key efficiency feature that automates receipt posting workflow together with invoice posting.",
+      "check": "exact"
+    },
+    {
+      "t": 267.3,
+      "text": "We have invoice line on top and then we have order line and receipt lines in a tree structure",
+      "why_it_matters": "Describes the UI hierarchy showing how the matching information is organized and visualized.",
+      "check": "exact"
+    },
+    {
+      "t": 409.8,
+      "text": "both orders are here and this received on invoice flag is set, meaning that whenever I post this invoice, receipt will be automatically posted",
+      "why_it_matters": "Explains how the received on invoice flag enables auto-posting behavior in the workflow.",
+      "check": "exact"
+    },
+    {
+      "t": 521.5,
+      "text": "since we have a directed put away and pick location, the process is slightly different",
+      "why_it_matters": "Indicates that the feature has different behavior depending on the warehouse location type.",
+      "check": "exact"
+    },
+    {
+      "t": 649.8,
+      "text": "with this new capability, you are able to cover much more real-world scenarios and you can be in a better control of your invoicing",
+      "why_it_matters": "Summarizes the business benefit and scope of the new functionality.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023697999999999997
+    }
+  ]
+}

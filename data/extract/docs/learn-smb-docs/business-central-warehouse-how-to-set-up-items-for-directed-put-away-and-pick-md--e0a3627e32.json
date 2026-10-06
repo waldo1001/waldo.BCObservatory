@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-how-to-set-up-items-for-directed-put-away-and-pick",
+  "title": "Set Up Directed Put-away and Pick",
+  "blob": "1637a7f734f303bedbf638a90702194424cbce78",
+  "summary": "Directed put-away and pick setup configures warehouse locations for efficient item handling by defining items with detailed dimensions, setting up zones and bins, and enabling advanced warehouse management functionality.",
+  "systems": [
+    "warehouse"
+  ],
+  "topics": [
+    "warehouse management",
+    "directed put-away",
+    "pick",
+    "bin setup",
+    "zone configuration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Items"
+    },
+    {
+      "type": "page",
+      "name": "Locations"
+    },
+    {
+      "type": "page",
+      "name": "Zones"
+    },
+    {
+      "type": "page",
+      "name": "Bin Contents"
+    },
+    {
+      "type": "page",
+      "name": "Item Units of Measure"
+    }
+  ],
+  "features": [
+    "directed put-away and pick",
+    "bin types",
+    "warehouse class codes",
+    "zone setup",
+    "item dimensions",
+    "bin configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005543,
+      "pages_in_call": 8
+    }
+  ]
+}

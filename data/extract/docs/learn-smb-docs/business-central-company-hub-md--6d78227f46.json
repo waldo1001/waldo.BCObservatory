@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/company-hub.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/company-hub",
+  "title": "Manage work across multiple companies in the company hub",
+  "blob": "8651e67568756bdfb509e04bec2962330be2c0b6",
+  "summary": "Company Hub is a landing page for users managing work across multiple Business Central companies and environments, providing financial overview, assigned task management, and multi-company access within a single interface.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "company hub",
+    "role center",
+    "multi-company",
+    "user tasks",
+    "kpi"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Hub"
+    },
+    {
+      "type": "page",
+      "name": "My User Tasks"
+    }
+  ],
+  "features": [
+    "company dashboard",
+    "KPI tracking",
+    "task assignment",
+    "multi-company overview",
+    "user permissions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005543,
+      "pages_in_call": 8
+    }
+  ]
+}

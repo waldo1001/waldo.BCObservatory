@@ -1,0 +1,78 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/walkthrough-managing-projects-with-jobs.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-managing-projects-with-jobs",
+  "title": "Walkthrough - Managing projects",
+  "blob": "1fd6c62f50327fa081d79779815987bf3764738b",
+  "summary": "Project management walkthrough covers setting up projects, handling fixed pricing, copying projects, and managing payment by installments using the Jobs feature for tracking resource usage, costs, and customer invoicing.",
+  "systems": [
+    "projects"
+  ],
+  "topics": [
+    "project management",
+    "jobs",
+    "invoicing",
+    "resources",
+    "planning",
+    "installments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Project Card"
+    },
+    {
+      "type": "page",
+      "name": "Project Resource Prices"
+    },
+    {
+      "type": "page",
+      "name": "Project Item Prices"
+    },
+    {
+      "type": "page",
+      "name": "Project G/L Account Prices"
+    },
+    {
+      "type": "page",
+      "name": "Project Task Lines"
+    },
+    {
+      "type": "page",
+      "name": "Project Planning Lines"
+    },
+    {
+      "type": "page",
+      "name": "Project Journals"
+    },
+    {
+      "type": "page",
+      "name": "Project Statistics"
+    },
+    {
+      "type": "report",
+      "name": "Project Calc. Remaining Usage"
+    }
+  ],
+  "features": [
+    "project setup",
+    "fixed pricing",
+    "cost tracking",
+    "project copying",
+    "payment installments",
+    "resource planning",
+    "item allocation",
+    "travel costs",
+    "invoicing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005543,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=EyAhM6x_FVw",
   "published_at": "2026-05-20T13:00:06.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,15 @@
       "at": "2026-10-06T17:43:17.349Z",
       "captions": "auto:en-orig",
       "duration_s": 3585
+    },
+    "captioned": {
+      "at": "2026-10-06T17:43:24.784Z",
+      "path": "vault:captions/community/yt-dynamicscorner/EyAhM6x_FVw.vtt",
+      "vtt_sha256": "c3ff9ace541fc581fd415df1f9fa9652d9878e90f4cd7197b29c27a8c895e984",
+      "segments": 260,
+      "words": 10087,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -30,5 +39,6 @@
     }
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "c3ff9ace541fc581fd415df1f9fa9652d9878e90f4cd7197b29c27a8c895e984"
 }

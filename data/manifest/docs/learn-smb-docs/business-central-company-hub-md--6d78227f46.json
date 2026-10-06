@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/company-hub",
   "published_at": "2026-06-24T02:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8651e67568756bdfb509e04bec2962330be2c0b6",
       "words": 1009,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T17:43:42.391Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.005543
+    },
+    "summarized": {
+      "at": "2026-10-06T17:44:15.024Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T17:44:15.041Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T17:44:15.043Z",
+      "page": false
     }
   },
   "input_hash": "8651e67568756bdfb509e04bec2962330be2c0b6",
@@ -60,5 +79,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8651e67568756bdfb509e04bec2962330be2c0b6"
+  "output_hash": "4f800a27d14120dfcc5afd994bda6070f486d27a86fb4064196eaadc65dab7ab"
 }
