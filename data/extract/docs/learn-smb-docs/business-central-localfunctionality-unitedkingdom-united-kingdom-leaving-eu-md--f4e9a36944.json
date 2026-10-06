@@ -1,0 +1,73 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/UnitedKingdom/united-kingdom-leaving-eu.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/united-kingdom-leaving-eu",
+  "title": "Brexit Impact on Business Central [GB]",
+  "blob": "e4e879783a6b893b601f5c0cb8c9d025467e7f1e",
+  "summary": "Brexit impact guidance for UK Business Central users covers EORI numbers, supplementary VAT registration, Northern Ireland trade considerations, Intrastat reporting, and VAT implications for goods movement.",
+  "systems": [
+    "localization",
+    "integration",
+    "finance"
+  ],
+  "topics": [
+    "brexit",
+    "united kingdom",
+    "trade",
+    "eori",
+    "vat",
+    "intrastat",
+    "northern ireland",
+    "customs"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Customer"
+    },
+    {
+      "type": "page",
+      "name": "Vendor"
+    },
+    {
+      "type": "page",
+      "name": "Countries/Regions"
+    },
+    {
+      "type": "page",
+      "name": "Locations"
+    },
+    {
+      "type": "page",
+      "name": "Intrastat Journal"
+    },
+    {
+      "type": "page",
+      "name": "Intrastat Journal Lines"
+    }
+  ],
+  "features": [
+    "EORI Number",
+    "Supplementary VAT Registration",
+    "Northern Ireland Support",
+    "Intrastat Reporting",
+    "Location Code",
+    "Trade Borders"
+  ],
+  "versions": [
+    "January 2021"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003525,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-powerbi-bin-contents.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-bin-contents",
+  "title": "Bin Contents (Power BI report)",
+  "blob": "e44d10fa6edb3b5986f7af74c625b7a9601074ed",
+  "summary": "Bin Contents Power BI report breaks down inventory levels by bin to help warehouse and inventory managers identify stock volumes and plan procurement or production.",
+  "systems": [
+    "inventory",
+    "warehouse",
+    "reporting"
+  ],
+  "topics": [
+    "power bi",
+    "inventory",
+    "bin management",
+    "warehouse",
+    "stock levels"
+  ],
+  "objects": [],
+  "features": [
+    "Bin-by-bin inventory breakdown",
+    "Available quantity tracking",
+    "Pick quantity metrics",
+    "Put-away quantity",
+    "Warehouse activity monitoring",
+    "Adjustment quantities"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002575,
+      "pages_in_call": 8
+    }
+  ]
+}

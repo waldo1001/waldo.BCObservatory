@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-access-with-m365-license-flow",
   "published_at": "2025-05-06T19:35:02.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "09f1aa7591a6481b86e43f5fdee775662da2dd0f",
       "words": 291,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:12.200Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003525
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:13.942Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:13.943Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:13.945Z",
+      "page": false
     }
   },
   "input_hash": "09f1aa7591a6481b86e43f5fdee775662da2dd0f",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "09f1aa7591a6481b86e43f5fdee775662da2dd0f"
+  "output_hash": "f2b483d7c80f231b7183891bc54a5dea126f5fcef9a6499b54552c63f09a4b4e"
 }

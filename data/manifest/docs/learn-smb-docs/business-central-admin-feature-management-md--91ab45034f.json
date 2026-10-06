@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-feature-management",
   "published_at": "2025-05-06T19:35:06.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b21d9f12a83f6cc5296480cb7c722a0602094156",
       "words": 119,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:12.199Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003525
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:13.940Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:13.941Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:13.941Z",
+      "page": false
     }
   },
   "input_hash": "b21d9f12a83f6cc5296480cb7c722a0602094156",
@@ -49,5 +68,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b21d9f12a83f6cc5296480cb7c722a0602094156"
+  "output_hash": "91e4756f0aa88de5c01b8ba35bba5725eb3c491436de875169864d0bb7e9b3e5"
 }

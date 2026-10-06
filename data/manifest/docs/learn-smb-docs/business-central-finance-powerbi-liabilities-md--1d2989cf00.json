@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-liabilities",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "604fb49f2aa631e61b80ee940ea44e223f16bcf2",
       "words": 327,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:11.974Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002575
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:12.227Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:12.228Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:12.229Z",
+      "page": false
     }
   },
   "input_hash": "604fb49f2aa631e61b80ee940ea44e223f16bcf2",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "604fb49f2aa631e61b80ee940ea44e223f16bcf2"
+  "output_hash": "fc7b756c9455a75ada0c82ea0fde82d067cfdc6b972a153d66799ff98660fbc6"
 }

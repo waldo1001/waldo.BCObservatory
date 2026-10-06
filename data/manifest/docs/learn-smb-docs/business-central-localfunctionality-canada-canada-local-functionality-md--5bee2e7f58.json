@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/canada-local-functionality",
   "published_at": "2025-05-06T19:35:15.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "55aa3e292de74e80edc047a372a97de9f1adf5ca",
       "words": 123,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:12.184Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003525
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:12.204Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:12.207Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:12.208Z",
+      "page": false
     }
   },
   "input_hash": "55aa3e292de74e80edc047a372a97de9f1adf5ca",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "55aa3e292de74e80edc047a372a97de9f1adf5ca"
+  "output_hash": "67e8eb1cb7f4593390bd5b12a96d52501f64a35c3681f73e7e309fe5a64102fe"
 }

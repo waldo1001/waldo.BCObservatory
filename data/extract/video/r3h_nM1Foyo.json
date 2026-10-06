@@ -1,0 +1,185 @@
+{
+  "video_id": "r3h_nM1Foyo",
+  "item_id": "video/yt-microsoft/r3h_nM1Foyo",
+  "title": "Comparing Payables Transaction Entry With Dynamics GP to Dynamics 365 Business Central (2024)",
+  "duration_s": 174,
+  "systems": [
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "payables",
+    "purchase journal",
+    "purchase invoice",
+    "accounts payable",
+    "vendor",
+    "gl account",
+    "expense tracking",
+    "migration"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and GP Payables Transaction",
+      "t_start": 0,
+      "t_end": 14.6
+    },
+    {
+      "title": "Creating AP Invoice in Dynamics GP",
+      "t_start": 14.6,
+      "t_end": 30.8
+    },
+    {
+      "title": "Overview of Business Central Purchase Options",
+      "t_start": 30.8,
+      "t_end": 52.6
+    },
+    {
+      "title": "Creating Purchase Journal Entry",
+      "t_start": 52.6,
+      "t_end": 84.3
+    },
+    {
+      "title": "Creating Purchase Invoice - Setup",
+      "t_start": 84.3,
+      "t_end": 128
+    },
+    {
+      "title": "Adding Line Items to Purchase Invoice",
+      "t_start": 128,
+      "t_end": 174
+    }
+  ],
+  "features": [
+    {
+      "name": "Purchase Journal for Payables",
+      "description": "Feature that allows registration of expenses for items not tracked in inventory, with ability to select GL accounts and preview GL posting before posting the transaction.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 30.8,
+      "t_end": 84.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "purchase journal",
+        "payables",
+        "expense tracking"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Purchase Invoice for Multi-type Transactions",
+      "description": "Feature enabling creation of purchase invoices that can accommodate multiple line types including inventory items, non-inventoried items, fixed assets, and freight expenses with GL account selection.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 93.6,
+      "t_end": 153.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "purchase invoice",
+        "payables",
+        "multi-type transactions"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "GL Posting Preview",
+      "description": "Ability to see a preview of GL accounts the transaction will be posted to before posting, similar to the distributions button in Dynamics GP.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 72.1,
+      "t_end": 84.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "posting",
+        "gl preview"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Vendor Information Auto-population",
+      "description": "When selecting a vendor on a purchase invoice, vendor information defaults in automatically from the vendor record.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 112.6,
+      "t_end": 128,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vendor",
+        "auto-population"
+      ],
+      "system": "purchasing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "purchase journal",
+      "t": 52.6
+    },
+    {
+      "type": "other",
+      "name": "purchase invoices",
+      "t": 93.6
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.5,
+      "text": "In this video, we're going to look at creating a payables transaction in Dynamics GP and compare that to the experience of entering the",
+      "why_it_matters": "Establishes the video's purpose - a direct comparison of payables transaction entry workflows between the two systems.",
+      "check": "exact"
+    },
+    {
+      "t": 30.8,
+      "text": "In Business Central, you can use the purchase journal or purchase invoices to register the cost of purchases and track accounts payable.",
+      "why_it_matters": "Identifies the two primary methods for payables entry in Business Central, establishing the scope of features being compared.",
+      "check": "exact"
+    },
+    {
+      "t": 42,
+      "text": "Purchase journals can be used to register expenses for things you may not track in inventory, while purchase invoices can be used to track",
+      "why_it_matters": "Clarifies the functional differences between the two approaches, showing when each is appropriate.",
+      "check": "exact"
+    },
+    {
+      "t": 72.1,
+      "text": "Before posting my transaction, I can see a preview of the GL accounts the transaction will be posted to.",
+      "why_it_matters": "Demonstrates a specific feature parity with GP's distributions functionality, helping users transition between systems.",
+      "check": "exact"
+    },
+    {
+      "t": 153.7,
+      "text": "Through the use of purchase journals and purchase invoices, Business Central provides additional flexibility when capturing your business expenses.",
+      "why_it_matters": "Highlights the key differentiator - Business Central's flexibility in expense capture compared to GP.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011851
+    }
+  ]
+}

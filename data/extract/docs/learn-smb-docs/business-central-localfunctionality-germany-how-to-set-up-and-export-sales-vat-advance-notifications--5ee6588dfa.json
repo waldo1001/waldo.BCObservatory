@@ -1,0 +1,67 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-set-up-and-export-sales-vat-advance-notifications.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-and-export-sales-vat-advance-notifications",
+  "title": "Set up and export sales VAT advance notifications",
+  "blob": "2c14363cf0efb07e1c25fe5f2aa7aab5092619dd",
+  "summary": "Set up and export sales VAT advance notifications as XML files to German tax authorities through the ELSTER online portal, requiring company registration, VAT statement configuration, and the ELSTER VAT Localization extension.",
+  "systems": [
+    "localization",
+    "finance"
+  ],
+  "topics": [
+    "germany",
+    "vat",
+    "tax reporting",
+    "elster",
+    "advance notification",
+    "xml"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Electronic VAT Decl. Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Statement"
+    },
+    {
+      "type": "page",
+      "name": "VAT Statement Names"
+    },
+    {
+      "type": "page",
+      "name": "Sales Vat Advanced Notification List"
+    },
+    {
+      "type": "page",
+      "name": "Sales VAT Adv. Notif. Card"
+    }
+  ],
+  "features": [
+    "Sales VAT Advance Notification",
+    "ELSTER Integration",
+    "XML File Generation",
+    "VAT Statement",
+    "Test Notification",
+    "Company Registration",
+    "Tax Office Information"
+  ],
+  "versions": [
+    "version 19.3"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003525,
+      "pages_in_call": 8
+    }
+  ]
+}

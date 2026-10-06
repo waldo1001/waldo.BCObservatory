@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-liquidity",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c8c30e2e56ac6024936c464e64b86ae7c99cf463",
       "words": 295,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:11.975Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002575
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:12.231Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:12.232Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:12.233Z",
+      "page": false
     }
   },
   "input_hash": "c8c30e2e56ac6024936c464e64b86ae7c99cf463",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c8c30e2e56ac6024936c464e64b86ae7c99cf463"
+  "output_hash": "3ceaccbe768ff8e477e3b6100c1730dd8de8c95c4b7ac4aee4d3289d65872632"
 }

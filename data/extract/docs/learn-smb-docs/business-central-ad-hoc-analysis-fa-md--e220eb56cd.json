@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-fa.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-fa",
+  "title": "Ad-hoc analysis of fixed assets data",
+  "blob": "27aa924893f139abced2ed74dec4abe2c3b6121b",
+  "summary": "Ad-hoc analysis of fixed assets data uses the Data Analysis feature to analyze FA ledger entries and GL entries interactively without running reports, supporting scenarios like asset value tracking and depreciation analysis.",
+  "systems": [
+    "fixed-assets",
+    "reporting"
+  ],
+  "topics": [
+    "data analysis",
+    "fixed assets",
+    "analytics",
+    "ledger entries",
+    "depreciation",
+    "ad-hoc reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "FA Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Entries"
+    },
+    {
+      "type": "query",
+      "name": "Fixed Assets Ad-hoc Analysis"
+    }
+  ],
+  "features": [
+    "Data Analysis Mode",
+    "Fixed Asset Valuation",
+    "Depreciation Tracking",
+    "Pivot Mode",
+    "Column Management",
+    "Ad-hoc Reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003525,
+      "pages_in_call": 8
+    }
+  ]
+}

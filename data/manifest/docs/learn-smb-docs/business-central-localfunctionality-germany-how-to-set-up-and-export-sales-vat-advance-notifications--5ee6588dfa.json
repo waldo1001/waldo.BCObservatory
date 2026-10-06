@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-and-export-sales-vat-advance-notifications",
   "published_at": "2025-05-06T19:35:15.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2c14363cf0efb07e1c25fe5f2aa7aab5092619dd",
       "words": 793,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:12.187Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.003525
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:12.242Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:12.243Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:12.244Z",
+      "page": false
     }
   },
   "input_hash": "2c14363cf0efb07e1c25fe5f2aa7aab5092619dd",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2c14363cf0efb07e1c25fe5f2aa7aab5092619dd"
+  "output_hash": "70bb2a97d10ea1695ec5d0373a1caeffb2f937231472defd5ed71566c77ae4b4"
 }

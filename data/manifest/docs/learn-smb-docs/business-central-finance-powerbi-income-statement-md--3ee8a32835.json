@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-powerbi-income-statement",
   "published_at": "2025-05-06T19:34:58.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6a04f206e6cc659b88415bbaf04e554b95c9a3b8",
       "words": 275,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:11.973Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002575
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:12.222Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:12.224Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:12.225Z",
+      "page": false
     }
   },
   "input_hash": "6a04f206e6cc659b88415bbaf04e554b95c9a3b8",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6a04f206e6cc659b88415bbaf04e554b95c9a3b8"
+  "output_hash": "29eab8edbc3357cc8fc492f110e0bc782dfb49095b2b413b9a0f6cd274782e3f"
 }

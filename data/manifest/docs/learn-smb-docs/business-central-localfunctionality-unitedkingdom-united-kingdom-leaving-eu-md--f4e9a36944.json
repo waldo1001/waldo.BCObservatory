@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/united-kingdom-leaving-eu",
   "published_at": "2025-05-06T19:35:15.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e4e879783a6b893b601f5c0cb8c9d025467e7f1e",
       "words": 901,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:26:12.196Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.003525
+    },
+    "summarized": {
+      "at": "2026-10-06T19:26:13.933Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:26:13.935Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:26:13.936Z",
+      "page": false
     }
   },
   "input_hash": "e4e879783a6b893b601f5c0cb8c9d025467e7f1e",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e4e879783a6b893b601f5c0cb8c9d025467e7f1e"
+  "output_hash": "db437b88d158943ca50b20d94ac5079b0dc9d5911957e1c493ca9c8df46881b3"
 }
