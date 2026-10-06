@@ -15,11 +15,11 @@ if [[ "$have" == "$ver" ]]; then ok "claude $ver already installed"; else
 fi
 
 existing() { [[ -f "$ENV_FILE" ]] && grep -E "^$1=" "$ENV_FILE" | head -1 | cut -d= -f2- || true; }
-read -r -s -p "CLAUDE_CODE_OAUTH_TOKEN (claude setup-token; Enter keeps current): " tok || tok=""; echo
+read -r -s -p "CLAUDE_CODE_OAUTH_TOKEN (claude setup-token; Enter keeps current): " tok || true; echo
 [[ -n "$tok" ]] || tok="$(existing CLAUDE_CODE_OAUTH_TOKEN)"
 [[ -n "$tok" && "$tok" != *[[:space:]]* ]] || die "no valid CLAUDE_CODE_OAUTH_TOKEN"
 # Enter, Ctrl-D or an empty paste all mean "skip" for this optional token
-read -r -s -p "BCOBS_USAGE_OAUTH_TOKEN (optional, scope user:profile; Enter keeps current or leaves unset): " usage || usage=""; echo
+read -r -s -p "BCOBS_USAGE_OAUTH_TOKEN (optional, scope user:profile; Enter keeps current or leaves unset): " usage || true; echo
 [[ -n "$usage" ]] || usage="$(existing BCOBS_USAGE_OAUTH_TOKEN)"
 
 umask 077
