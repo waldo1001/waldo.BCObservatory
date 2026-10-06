@@ -1,7 +1,7 @@
 {
   "inputs": [
     "d7c9c667c671da2cda3a0738b18ed99ca4181765",
-    "eb822e0ddf035a26fde1dfe28247a631f6b292e9",
+    "47f793605ac3a868a203d9068a7b4a054269878a",
     "1",
     "1"
   ],
@@ -15,13 +15,13 @@
   "to": {
     "version": "30",
     "country": "w1",
-    "commit": "eb822e0ddf035a26fde1dfe28247a631f6b292e9"
+    "commit": "47f793605ac3a868a203d9068a7b4a054269878a"
   },
   "summary": {
-    "objects": 172,
+    "objects": 174,
     "by_change": {
       "changed": {
-        "codeunit": 80,
+        "codeunit": 82,
         "enum": 2,
         "interface": 1,
         "page": 17,
@@ -44,7 +44,7 @@
     },
     "fields_added": 18,
     "events_added": 18,
-    "procedures_added": 87,
+    "procedures_added": 88,
     "objects_obsoleted": 0
   },
   "objects": [
@@ -6252,6 +6252,27 @@
                 ]
               }
             ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "codeunit/1597",
+      "name": "Email Upgrade",
+      "change": "changed",
+      "procedures": [
+        {
+          "id": "getemailinboxaddedtoallowedlistupgradetag()",
+          "name": "GetEmailInboxAddedToAllowedListUpgradeTag",
+          "change": "added",
+          "to": {
+            "scope": "internal",
+            "params": [],
+            "returns": "Code[250]",
+            "event": null,
+            "obsolete": null,
+            "subscribes_to": null,
+            "attributes": []
           }
         }
       ]
@@ -13595,6 +13616,18 @@
       "key": "codeunit/7769",
       "name": "AOAI Deployments Impl",
       "change": "changed"
+    },
+    {
+      "key": "codeunit/8903",
+      "name": "Email Record Reference Impl.",
+      "change": "changed",
+      "properties": [
+        {
+          "name": "Permissions",
+          "from": "tabledata \"Sent Email\" = r, tabledata \"Email Outbox\" = r",
+          "to": "tabledata \"Sent Email\" = r, tabledata \"Email Outbox\" = r, tabledata \"Email Inbox\" = r"
+        }
+      ]
     },
     {
       "key": "codeunit/9033",
