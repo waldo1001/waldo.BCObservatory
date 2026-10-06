@@ -1,0 +1,53 @@
+---
+/**
+ * Country diff (HANDOFF 4, owner question 5): most country changes are additions, so each changed W1 object lists what
+ * the layer adds, changes or removes in one column instead of a W1 / country side-by-side. From the code job's country
+ * diff (data/code/diffs/country/<major>-<cc>.json, D31).
+ */
+import { existsSync, readFileSync } from "node:fs";
+import { resolve } from "node:path";
+interface Props { country: string; version: string; base: string }
+const { country, version, base } = Astro.props;
+const path = resolve(process.cwd(), "..", "data", "code", "diffs", "country", `${version}-${country.toLowerCase()}.json`);
+const diff = existsSync(path) ? JSON.parse(readFileSync(path, "utf8")) : null;
+const params = (p: any[] = []) => p.map((x) => `${x.var ? "var " : ""}${x.name}: ${x.type}`).join("; ");
+const sig = (kind: string, m: any) => {
+  const d = m.to ?? m.from ?? {};
+  if (kind === "fields") return `field(${m.id}; "${m.name}"; ${d.type ?? ""})`;
+  if (kind === "keys") return `key(${m.name}; ${(d.fields ?? []).map((f: string) => `"${f}"`).join(", ")})`;
+  return `${d.scope === "local" ? "local " : ""}${kind === "events" ? "event " : "procedure "}${m.name}(${params(d.params)})${d.returns ? `: ${d.returns}` : ""}`;
+};
+const SIGN: Record<string, string> = { added: "+", changed: "Δ", removed: "−" };
+const objects = (diff?.objects ?? []).filter((o: any) => o.change === "replaced").map((o: any) => {
+  const rows = (["fields", "keys", "events", "procedures"] as const).flatMap((k) => (o[k] ?? []).map((m: any) => ({ kind: k, change: m.change as string, text: sig(k, m) })));
+  rows.sort((a: any, b: any) => ["added", "changed", "removed"].indexOf(a.change) - ["added", "changed", "removed"].indexOf(b.change));
+  const n = (c: string) => rows.filter((r: any) => r.change === c).length;
+  return { key: o.key as string, name: o.name as string, rows, summary: [n("added") && `+${n("added")}`, n("changed") && `${n("changed")} changed`, n("removed") && `${n("removed")} removed`].filter(Boolean).join(", ") || "body changes only" };
+}).sort((a: any, b: any) => b.rows.length - a.rows.length || a.key.localeCompare(b.key));
+---
+{objects.length > 0 && (
+  <section aria-labelledby="country-diff">
+    <h2 class="section-title" id="country-diff">What {country.toUpperCase()} changes in W1 <small>{objects.length} objects, BC{version}</small></h2>
+    <div class="cdiff">
+      {objects.map((o: any, i: number) => (
+        <details open={i === 0}>
+          <summary><a href={`${base}objects/${o.key}/`}>{o.key} "{o.name}"</a> <span class="mono-meta">{o.summary}</span></summary>
+          {o.rows.length > 0 && <ul>{o.rows.map((r: any) => <li class={r.change}><span class="sign" aria-label={r.change}>{SIGN[r.change]}</span><code>{r.text}</code></li>)}</ul>}
+        </details>
+      ))}
+    </div>
+  </section>
+)}
+<style>
+  .cdiff { display: grid; gap: 6px; }
+  .cdiff details { border: 1px solid var(--line); border-radius: var(--r-card); background: var(--surface); }
+  .cdiff summary { cursor: pointer; padding: 10px 12px; display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; min-height: 40px; }
+  .cdiff summary .mono-meta { margin-left: auto; }
+  .cdiff ul { list-style: none; margin: 0; padding: 0 0 8px; border-top: 1px solid var(--line); }
+  .cdiff li { display: flex; gap: 10px; padding: 4px 12px; font-size: 13px; overflow-x: auto; }
+  .cdiff li code { white-space: pre-wrap; overflow-wrap: anywhere; }
+  .cdiff .sign { font-family: var(--font-mono); width: 1ch; flex: none; }
+  .cdiff .added { background: var(--diff-added-bg); color: var(--diff-added-text); }
+  .cdiff .changed { color: var(--status-preview); }
+  .cdiff .removed { background: var(--diff-removed-bg); color: var(--diff-removed-text); }
+</style>

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import List from "../../layouts/List.astro";
+import Badges from "../../components/Badges.astro";
 const base = import.meta.env.BASE_URL;
 const videos = (await getCollection("videos")).sort((a, b) => String(b.data.published_at ?? "").localeCompare(String(a.data.published_at ?? "")));
 ---
@@ -12,7 +13,7 @@ const videos = (await getCollection("videos")).sort((a, b) => String(b.data.publ
     {videos.map((v) => (
       <li>
         <a href={`${base}videos/${v.id}/`}>{v.data.title}</a>
-        {v.data.review?.state !== "reviewed" && <span class="badge">{v.data.review?.state ?? "unreviewed"}</span>}
+        <span class="row-meta"><Badges tier={v.data.tier} review={v.data.review?.state} /></span>
         <div class="meta">{v.data.source_name} · {String(v.data.published_at ?? "").slice(0, 10)}</div>
         <div>{v.data.summary}</div>
       </li>

@@ -2,15 +2,20 @@
 import { getCollection } from "astro:content";
 import Page from "../../../layouts/Page.astro";
 import EvidenceList from "../../../components/EvidenceList.astro";
+import VersionTimeline from "../../../components/VersionTimeline.astro";
 import { siteLinks } from "../../../lib/links";
 import { trimBody } from "../../../lib/page";
+import { markMembers, objectHistory } from "../../../lib/versions";
 export async function getStaticPaths() {
   return (await getCollection("objects")).map((entry) => ({ params: { id: entry.id }, props: { entry } }));
 }
 const { entry } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const fm = entry.data;
-const html = trimBody(siteLinks(entry.rendered?.html ?? "", base, `objects/${entry.id}`));
+const history = objectHistory(entry.id);
+// the timeline component replaces the markdown's short "Across versions" list
+const html = markMembers(trimBody(siteLinks(entry.rendered?.html ?? "", base, `objects/${entry.id}`)), history)
+  .replace(/<h2 id="across-versions">[\s\S]*?(?=<h2|$)/, "");
 const c = fm.counts ?? {};
 const stats = [
   ...(c.fields ? [{ n: c.fields, label: "fields", href: "#fields" }] : []),
@@ -24,6 +29,7 @@ const src = (fm.evidence ?? []).find((e: any) => e.kind === "code");
   crumbs={[{ label: "AL objects", href: `${base}objects/` }, { label: `${fm.object_type}s`, href: `${base}objects/${fm.object_type}/` }]}
   ns={[fm.app, fm.namespace].filter(Boolean).join(" · ")} summary={null} stats={stats}
   context={src ? { label: "Source on GitHub", href: src.url } : undefined}>
+  <VersionTimeline presentIn={fm.present_in ?? []} changedIn={fm.changed_in ?? []} history={history} obsolete={fm.obsolete} />
   <div class="prose" set:html={html} />
   <EvidenceList evidence={fm.evidence ?? []} noun="sources" />
 </Page>

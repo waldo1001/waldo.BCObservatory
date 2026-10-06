@@ -1,0 +1,38 @@
+---
+/** Flight path (HANDOFF 4): a source's latest items oldest first, each stop with its date, title, systems and topics. */
+import { systemLabel } from "../lib/page";
+interface Stop { date: string | null; title: string; href: string; systems: string[]; tags: string[] }
+interface Props { stops: Stop[]; limit?: number }
+const { stops: all, limit = 40 } = Astro.props;
+const stops = all.slice(-limit); // the latest stops, still oldest first
+---
+{stops.length > 0 && (
+  <section aria-labelledby="flight-path">
+    <h2 class="section-title" id="flight-path">Flight path <small>{stops.length < all.length ? `latest ${stops.length} of ${all.length} stops` : `${stops.length} stops`}, oldest first</small></h2>
+    <ol class="flight">
+      {stops.map((s) => (
+        <li>
+          <span class="stop" aria-hidden="true"></span>
+          {s.date && <span class="mono-meta">{s.date}</span>}
+          <a class="row-title" href={s.href}>{s.title}</a>
+          {(s.systems.length > 0 || s.tags.length > 0) && (
+            <span class="row-meta">
+              {s.systems.map((id) => <span class="chip-sys" style={`--dot: var(--sys-${id})`}>{systemLabel(id)}</span>)}
+              {s.tags.slice(0, 4).map((t) => <span class="tag">{t}</span>)}
+            </span>
+          )}
+        </li>
+      ))}
+      <li class="next"><span class="stop" aria-hidden="true"></span><span class="mono-meta">next stop</span></li>
+    </ol>
+  </section>
+)}
+<style>
+  .flight { list-style: none; margin: 0; padding: 0 0 0 22px; position: relative; }
+  .flight li { position: relative; display: grid; gap: 2px; padding: 0 0 18px; }
+  .flight li::before { content: ""; position: absolute; left: -16px; top: 12px; bottom: -6px; border-left: 1px dashed var(--line-strong); }
+  .flight li.next::before { display: none; }
+  .stop { position: absolute; left: -21px; top: 4px; width: 11px; height: 11px; border-radius: 50%; background: var(--accent-dot); box-shadow: 0 0 10px var(--accent-dot); }
+  .next .stop { background: transparent; border: 1px dashed var(--line-strong); box-shadow: none; }
+  .row-meta { display: flex; flex-wrap: wrap; gap: 6px 10px; margin-top: 2px; }
+</style>
