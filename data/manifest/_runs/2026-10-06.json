@@ -1,7 +1,7 @@
 {
   "date": "2026-10-06",
-  "started_at": "2026-10-06T11:15:53.411Z",
-  "finished_at": "2026-10-06T11:16:24.826Z",
+  "started_at": "2026-10-06T11:20:07.619Z",
+  "finished_at": "2026-10-06T11:20:21.229Z",
   "status": "ok",
   "pipeline": "0.1.0",
   "runner": {
@@ -26,378 +26,378 @@
         "kind": "docs-git",
         "ok": true,
         "counts": {
-          "new": 2157,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 2157,
           "removed": 0
         },
         "note": "2157 pages at bf5ffffa9b02",
-        "duration_ms": 21925
+        "duration_ms": 11015
       },
       {
         "id": "learn-devitpro",
         "kind": "docs-git",
         "ok": true,
         "counts": {
-          "new": 5893,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 5893,
           "removed": 0
         },
         "note": "5893 pages at f928288ee840",
-        "duration_ms": 30070
+        "duration_ms": 10284
       },
       {
         "id": "m365-roadmap",
         "kind": "roadmap-api",
         "ok": true,
         "counts": {
-          "new": 80,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 80,
           "removed": 0
         },
-        "note": "80 Business Central items of 1889; snapshot written (+80 -0 ~0)",
-        "duration_ms": 3159
+        "note": "80 Business Central items of 1889; snapshot unchanged",
+        "duration_ms": 849
       },
       {
         "id": "bcquality",
         "kind": "guidelines-git",
         "ok": true,
         "counts": {
-          "new": 431,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 431,
           "removed": 0
         },
         "note": "431 pages at 02e7ab15b040",
-        "duration_ms": 2590
+        "duration_ms": 1074
       },
       {
         "id": "alguidelines",
         "kind": "guidelines-git",
         "ok": true,
         "counts": {
-          "new": 232,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 232,
           "removed": 0
         },
         "note": "232 pages at 53923c5010f2",
-        "duration_ms": 2043
+        "duration_ms": 775
       },
       {
         "id": "bcapps",
         "kind": "code-git",
         "ok": true,
         "counts": {
-          "new": 3,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 3,
           "removed": 0
         },
         "note": "3/3 branches",
-        "duration_ms": 1019
+        "duration_ms": 827
       },
       {
         "id": "sandbox-history",
         "kind": "code-git",
         "ok": true,
         "counts": {
-          "new": 3,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 3,
           "removed": 0
         },
         "note": "3/3 branches",
-        "duration_ms": 666
+        "duration_ms": 629
       },
       {
         "id": "onprem-history",
         "kind": "code-git",
         "ok": true,
         "counts": {
-          "new": 2,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 2,
           "removed": 0
         },
         "note": "2/2 branches",
-        "duration_ms": 668
+        "duration_ms": 635
       },
       {
         "id": "yt-microsoft",
         "kind": "youtube",
         "ok": true,
         "counts": {
-          "new": 15,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 15,
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 240
+        "duration_ms": 217
       },
       {
         "id": "yt-hougaard",
         "kind": "youtube",
         "ok": true,
         "counts": {
-          "new": 15,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 15,
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 138
+        "duration_ms": 37
       },
       {
         "id": "yt-saurav",
         "kind": "youtube",
         "ok": true,
         "counts": {
-          "new": 15,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
-          "removed": 0
-        },
-        "note": "15 feed entries",
-        "duration_ms": 130
-      },
-      {
-        "id": "yt-areopa",
-        "kind": "youtube",
-        "ok": true,
-        "counts": {
-          "new": 15,
-          "changed": 0,
-          "updated": 0,
-          "unchanged": 0,
-          "removed": 0
-        },
-        "note": "15 feed entries",
-        "duration_ms": 156
-      },
-      {
-        "id": "yt-mibuso",
-        "kind": "youtube",
-        "ok": true,
-        "counts": {
-          "new": 15,
-          "changed": 0,
-          "updated": 0,
-          "unchanged": 0,
-          "removed": 0
-        },
-        "note": "15 feed entries",
-        "duration_ms": 360
-      },
-      {
-        "id": "yt-stefanmaron",
-        "kind": "youtube",
-        "ok": true,
-        "counts": {
-          "new": 15,
-          "changed": 0,
-          "updated": 0,
-          "unchanged": 0,
-          "removed": 0
-        },
-        "note": "15 feed entries",
-        "duration_ms": 343
-      },
-      {
-        "id": "yt-bcmusings",
-        "kind": "youtube",
-        "ok": true,
-        "counts": {
-          "new": 15,
-          "changed": 0,
-          "updated": 0,
-          "unchanged": 0,
+          "unchanged": 15,
           "removed": 0
         },
         "note": "15 feed entries",
         "duration_ms": 114
       },
       {
+        "id": "yt-areopa",
+        "kind": "youtube",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 15,
+          "removed": 0
+        },
+        "note": "15 feed entries",
+        "duration_ms": 102
+      },
+      {
+        "id": "yt-mibuso",
+        "kind": "youtube",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 15,
+          "removed": 0
+        },
+        "note": "15 feed entries",
+        "duration_ms": 102
+      },
+      {
+        "id": "yt-stefanmaron",
+        "kind": "youtube",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 15,
+          "removed": 0
+        },
+        "note": "15 feed entries",
+        "duration_ms": 93
+      },
+      {
+        "id": "yt-bcmusings",
+        "kind": "youtube",
+        "ok": true,
+        "counts": {
+          "new": 0,
+          "changed": 0,
+          "updated": 0,
+          "unchanged": 15,
+          "removed": 0
+        },
+        "note": "15 feed entries",
+        "duration_ms": 223
+      },
+      {
         "id": "yt-dynamicscorner",
         "kind": "youtube",
         "ok": true,
         "counts": {
-          "new": 15,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 15,
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 136
+        "duration_ms": 134
       },
       {
         "id": "waldo-be",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 17,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 17,
           "removed": 0
         },
         "note": "17 posts via WordPress REST",
-        "duration_ms": 362
+        "duration_ms": 334
       },
       {
         "id": "stefanmaron-com",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 28,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 28,
           "removed": 0
         },
         "note": "28 posts via feed",
-        "duration_ms": 400
+        "duration_ms": 413
       },
       {
         "id": "kauffmann-nl",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 3,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 3,
           "removed": 0
         },
         "note": "3 posts via WordPress REST",
-        "duration_ms": 932
+        "duration_ms": 766
       },
       {
         "id": "demiliani-com",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 89,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 89,
           "removed": 0
         },
         "note": "89 posts via WordPress REST",
-        "duration_ms": 541
+        "duration_ms": 752
       },
       {
         "id": "freddysblog",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 10,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 10,
           "removed": 0
         },
         "note": "10 posts via feed",
-        "duration_ms": 294
+        "duration_ms": 131
       },
       {
         "id": "jpearson-blog",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 8,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 8,
           "removed": 0
         },
         "note": "8 posts via WordPress REST",
-        "duration_ms": 359
+        "duration_ms": 299
       },
       {
         "id": "katson-com",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 5,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 5,
           "removed": 0
         },
         "note": "5 posts via feed",
-        "duration_ms": 1037
+        "duration_ms": 1535
       },
       {
         "id": "sauravdhyani-com",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 25,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 25,
           "removed": 0
         },
         "note": "25 posts via feed",
-        "duration_ms": 447
+        "duration_ms": 315
       },
       {
         "id": "gerardorenteria-blog",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 79,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 79,
           "removed": 0
         },
         "note": "79 posts via WordPress REST",
-        "duration_ms": 625
+        "duration_ms": 506
       },
       {
         "id": "bertverbeek-nl",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 13,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 13,
           "removed": 0
         },
         "note": "13 posts via WordPress REST",
-        "duration_ms": 1102
+        "duration_ms": 963
       },
       {
         "id": "kine-cz",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 3,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 3,
           "removed": 0
         },
         "note": "3 posts via feed",
-        "duration_ms": 343
+        "duration_ms": 125
       },
       {
         "id": "keytogoodcode-com",
@@ -419,140 +419,140 @@
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 10,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 10,
           "removed": 0
         },
         "note": "10 posts via WordPress REST",
-        "duration_ms": 1328
+        "duration_ms": 844
       },
       {
         "id": "mohana-blog",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 25,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 25,
           "removed": 0
         },
         "note": "25 posts via feed",
-        "duration_ms": 884
+        "duration_ms": 550
       },
       {
         "id": "duiliotacconi-com",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 20,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 20,
           "removed": 0
         },
         "note": "20 posts via WordPress REST",
-        "duration_ms": 509
+        "duration_ms": 371
       },
       {
         "id": "thinkaboutit-be",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 61,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 61,
           "removed": 0
         },
         "note": "61 posts via WordPress REST",
-        "duration_ms": 402
+        "duration_ms": 285
       },
       {
         "id": "thatnavguy-com",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 72,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 72,
           "removed": 0
         },
         "note": "72 posts via feed",
-        "duration_ms": 571
+        "duration_ms": 254
       },
       {
         "id": "dvlprlife-com",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 20,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 20,
           "removed": 0
         },
         "note": "20 posts via feed",
-        "duration_ms": 316
+        "duration_ms": 431
       },
       {
         "id": "tine-staric-net",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 7,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 7,
           "removed": 0
         },
         "note": "7 posts via feed",
-        "duration_ms": 490
+        "duration_ms": 143
       },
       {
         "id": "aardvarklabs-blog",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 81,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 81,
           "removed": 0
         },
         "note": "81 posts via WordPress REST",
-        "duration_ms": 566
+        "duration_ms": 445
       },
       {
         "id": "vondervoort-be",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 6,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 6,
           "removed": 0
         },
         "note": "6 posts via WordPress REST",
-        "duration_ms": 1127
+        "duration_ms": 3391
       },
       {
         "id": "thedynamicsexplorer-com",
         "kind": "blog",
         "ok": true,
         "counts": {
-          "new": 19,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 19,
           "removed": 0
         },
         "note": "19 posts via WordPress REST",
-        "duration_ms": 414
+        "duration_ms": 3016
       },
       {
         "id": "vld-bc-com",
@@ -637,17 +637,17 @@
           }
         ],
         "note": "50 digest entries, 9 unregistered hosts",
-        "duration_ms": 1150
+        "duration_ms": 1972
       }
     ],
     "totals": {
       "sources": 40,
       "failed": 0,
       "deferred": 2,
-      "new": 9522,
+      "new": 0,
       "changed": 0,
       "updated": 0,
-      "unchanged": 0,
+      "unchanged": 9522,
       "removed": 0
     }
   },
@@ -665,7 +665,7 @@
     },
     "work": 181,
     "executed": 0,
-    "skips": 9,
+    "skips": 0,
     "quota_use": {
       "posts": {
         "selected": 20,
@@ -707,6 +707,6 @@
     "by_model": {},
     "cost_usd": 0
   },
-  "items_changed": 9522,
+  "items_changed": 0,
   "errors": []
 }
