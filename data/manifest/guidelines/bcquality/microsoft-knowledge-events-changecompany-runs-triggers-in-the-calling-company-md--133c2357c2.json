@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "changecompany runs triggers in the calling company",
+  "title": "ChangeCompany leaves triggers and trigger-event subscribers running in the calling company",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/changecompany-runs-triggers-in-the-calling-company.md",
   "published_at": "2026-10-02T09:35:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:09:50.012Z",
+      "blob": "783fe81b5ca8180ba105263956a7bfa50cd64cc8",
+      "words": 733,
+      "forms": 0
     }
   },
   "input_hash": "783fe81b5ca8180ba105263956a7bfa50cd64cc8",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/events/changecompany-runs-triggers-in-the-calling-company.md"
-  }
+    "path": "microsoft/knowledge/events/changecompany-runs-triggers-in-the-calling-company.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 733
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "783fe81b5ca8180ba105263956a7bfa50cd64cc8"
 }

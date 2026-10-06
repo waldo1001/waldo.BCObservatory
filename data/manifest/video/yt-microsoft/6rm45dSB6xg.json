@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Expense Agent: Feedback (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=6rm45dSB6xg",
-  "published_at": null,
+  "published_at": "2026-08-07T13:00:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:12:48.899Z",
+      "captions": "auto:en-orig",
+      "duration_s": 131
+    },
+    "captioned": {
+      "at": "2026-10-06T13:12:57.025Z",
+      "path": "data/captions/microsoft/6rm45dSB6xg.vtt",
+      "vtt_sha256": "8bb41156517289dd789c851d17db824f7b1e8812f7f47ba92196a647c76248ff",
+      "segments": 10,
+      "words": 358,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 51,
     "duration_s": 131,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8bb41156517289dd789c851d17db824f7b1e8812f7f47ba92196a647c76248ff"
 }

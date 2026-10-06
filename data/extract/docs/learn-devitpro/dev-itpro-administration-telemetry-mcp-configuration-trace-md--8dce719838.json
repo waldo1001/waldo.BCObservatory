@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-configuration-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-mcp-configuration-trace",
+  "title": "Analyze MCP configuration telemetry",
+  "blob": "46eedd0411be5e1df19a33c15e5848e607fc8c9e",
+  "summary": "MCP configuration telemetry tracks creation, modification, deletion and default designation of Model Context Protocol server configurations for AI agent integrations. Provides audit and troubleshooting data for MCP environment changes.",
+  "systems": [
+    "copilot",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "mcp",
+    "model context protocol",
+    "ai agents",
+    "configuration audit",
+    "telemetry"
+  ],
+  "objects": [],
+  "features": [
+    "MCP configuration creation tracking",
+    "MCP configuration modification tracking",
+    "MCP configuration deletion tracking",
+    "Default configuration designation",
+    "Dynamic tool mode",
+    "Discover read-only objects",
+    "Unblock edit tools"
+  ],
+  "versions": [
+    "2026 release wave 1",
+    "version 28.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015821,
+      "pages_in_call": 2
+    }
+  ]
+}

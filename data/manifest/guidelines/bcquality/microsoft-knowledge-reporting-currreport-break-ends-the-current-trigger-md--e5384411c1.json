@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "currreport break ends the current trigger",
+  "title": "CurrReport.Break ends the current trigger",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/reporting/currreport-break-ends-the-current-trigger.md",
   "published_at": "2026-09-15T08:38:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:33:35.076Z",
+      "blob": "ec22ea4862a29aac27f34aacaa8c2bfd8652a812",
+      "words": 161,
+      "forms": 0
     }
   },
   "input_hash": "ec22ea4862a29aac27f34aacaa8c2bfd8652a812",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/reporting/currreport-break-ends-the-current-trigger.md"
-  }
+    "path": "microsoft/knowledge/reporting/currreport-break-ends-the-current-trigger.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 161
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ec22ea4862a29aac27f34aacaa8c2bfd8652a812"
 }

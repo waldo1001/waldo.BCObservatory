@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-multiroot-workspaces",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d94c27ac13dc818198c70da2faf4a8b92d17a994",
       "words": 415,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:33:35.059Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.015934
+    },
+    "summarized": {
+      "at": "2026-10-06T13:33:35.110Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:33:35.110Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:33:35.110Z",
+      "page": false
     }
   },
   "input_hash": "d94c27ac13dc818198c70da2faf4a8b92d17a994",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d94c27ac13dc818198c70da2faf4a8b92d17a994"
+  "output_hash": "84eeb78f9a3c5e2bf8493412245151c0a2d98487cd60f0229417d25fba50f328"
 }

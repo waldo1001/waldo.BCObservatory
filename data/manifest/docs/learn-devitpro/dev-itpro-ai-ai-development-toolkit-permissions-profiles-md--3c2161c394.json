@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-permissions-profiles",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "10072c29efd15d7c349444dd41884cd5886cf167",
       "words": 753,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:20:57.251Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.006455
+    },
+    "summarized": {
+      "at": "2026-10-06T13:20:57.255Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:20:57.255Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:20:57.256Z",
+      "page": false
     }
   },
   "input_hash": "10072c29efd15d7c349444dd41884cd5886cf167",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "10072c29efd15d7c349444dd41884cd5886cf167"
+  "output_hash": "c3d5083dd9ae7dfa450a0d187531f954835e52a1a9aa87c6b817a3e44892d4a8"
 }

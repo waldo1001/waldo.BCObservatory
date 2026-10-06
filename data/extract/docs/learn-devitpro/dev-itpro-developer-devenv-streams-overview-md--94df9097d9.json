@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-streams-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-streams-overview",
+  "title": "Using streams in Business Central",
+  "blob": "546f65385f9699dfa3bf6de59d6382538d408489",
+  "summary": "Streams in AL provide abstraction for reading and writing sequences of bytes from data sources like files, HTTP requests, and database blobs. InStream reads data, OutStream writes data, and streams improve memory and performance efficiency when handling large data.",
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "streams",
+    "instream",
+    "outstream",
+    "data transfer",
+    "file handling",
+    "memory efficiency"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Temp Blob"
+    },
+    {
+      "type": "codeunit",
+      "name": "Base64 Convert"
+    }
+  ],
+  "features": [
+    "InStream data type",
+    "OutStream data type",
+    "stream reading",
+    "stream writing",
+    "stream seeking",
+    "CopyStream method",
+    "text encoding support",
+    "file preview (File.ViewFromStream)",
+    "Media and MediaSet streaming",
+    "JSON document streaming",
+    "XML document streaming",
+    "Excel buffer streaming"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012738,
+      "pages_in_call": 3
+    }
+  ]
+}

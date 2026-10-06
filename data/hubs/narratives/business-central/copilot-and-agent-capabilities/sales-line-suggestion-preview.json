@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/business-central/copilot-and-agent-capabilities/sales-line-suggestion-preview",
+  "input_hash": "62b41ce2a7e6aeedb9223bc107ec39e79f7fe805fa3349310b324e1db501a625",
+  "summary": "Sales line suggestions with Copilot (preview) covers how Copilot helps users add lines to sales quotes, orders, and invoices from natural language prompts. It answers questions about finding products, finding documents by reference, matching criteria, confidence scoring, and AI limitations and responsible use.",
+  "overview": "Sales line suggestions with Copilot is a preview feature that speeds up creating sales documents. Users describe what they need in natural language or structured input, and Copilot suggests items to add to sales quotes, orders, and invoices by matching keywords across product data.\n\nThe section has two pages. \"Sales line suggestions with Copilot\" explains the capabilities: finding products, finding documents by reference, three matching criteria (permissive, balanced, precise), and confidence scoring. \"FAQ for suggest sales lines with Copilot\" covers the other side: AI limitations, how the feature is evaluated, responsible use guidance, and how to send feedback.\n\nStart with the main page to understand what the feature does and how matching behaves. Then read the FAQ before rolling it out to users, since it describes limits and the expected use of a preview feature.",
+  "key_points": [
+    "Copilot suggests items to add to sales quotes, orders, and invoices from natural language prompts.",
+    "Find products capability searches product data by keyword matching, including across multiple tables, and handles synonyms and typos.",
+    "Find documents by reference locates a reference document for use in the sales document.",
+    "Find products from attachments lets Copilot analyze attachments to identify products.",
+    "Three matching criteria exist: permissive, balanced, and precise.",
+    "Confidence scoring is part of how suggestions are rated.",
+    "The feature is in preview; the FAQ covers AI limitations, evaluation methods, responsible use, and feedback options."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-06T13:40:44.675Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.037249
+  }
+}

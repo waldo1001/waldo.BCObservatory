@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-mobile-app",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "94283511e2907d0ba5ba8cf1b24c4b958f6daee0",
       "words": 1980,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T12:53:07.917Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007348
+    },
+    "summarized": {
+      "at": "2026-10-06T12:53:40.738Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T12:53:40.738Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T12:53:40.738Z",
+      "page": false
     }
   },
   "input_hash": "94283511e2907d0ba5ba8cf1b24c4b958f6daee0",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "94283511e2907d0ba5ba8cf1b24c4b958f6daee0"
+  "output_hash": "035c3ee24d5e8f23df22d70f4dc65f856bc61e1ff7d8e966109f17d186519c2b"
 }

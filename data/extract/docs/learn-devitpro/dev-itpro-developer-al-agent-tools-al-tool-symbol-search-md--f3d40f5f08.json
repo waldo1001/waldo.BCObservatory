@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-symbol-search.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-symbol-search",
+  "title": "Search AL symbols - al_symbolsearch",
+  "blob": "2a1e3fc7697b48c17466b03ab992aa47831ca1eb",
+  "summary": "The al_symbolsearch tool searches AL symbols (objects and members) across the active project, dependencies, or a connected Business Central environment to discover APIs, audit usage, and explore the symbol space.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "symbol search",
+    "al tools",
+    "environment search",
+    "symbol discovery",
+    "api exploration"
+  ],
+  "objects": [],
+  "features": [
+    "workspace search",
+    "environment search",
+    "partial name matching",
+    "member filtering",
+    "accessibility filtering",
+    "obsolete state filtering",
+    "scope limits"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006307,
+      "pages_in_call": 7
+    }
+  ]
+}

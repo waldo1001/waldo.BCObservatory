@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-marketing-text",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3343bf03e60acc022ec4b47cd3fb142ae04b7d94",
       "words": 1045,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:07:09.754Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.010538
+    },
+    "summarized": {
+      "at": "2026-10-06T13:07:09.759Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:07:09.759Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:07:09.759Z",
+      "page": false
     }
   },
   "input_hash": "3343bf03e60acc022ec4b47cd3fb142ae04b7d94",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3343bf03e60acc022ec4b47cd3fb142ae04b7d94"
+  "output_hash": "50c3b600f9e8d47169bf67da330b8b9ceb205a052911d73ff4a806440445b6b0"
 }

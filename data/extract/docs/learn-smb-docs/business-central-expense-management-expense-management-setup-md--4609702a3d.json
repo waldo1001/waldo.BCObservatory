@@ -1,0 +1,77 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-setup",
+  "title": "Set Up Expense Management in Business Central",
+  "blob": "5722c61bca0ce27ca91c220af244e52aad9e9408",
+  "summary": "Set up expense management configuration including general settings, approval workflows, posting groups, payment methods, VAT reclaim, number series, and notification preferences for employee expense processing.",
+  "systems": [
+    "finance",
+    "hr",
+    "administration"
+  ],
+  "topics": [
+    "expense management setup",
+    "posting groups",
+    "approval workflow",
+    "vat reclaim",
+    "payment methods",
+    "configuration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Expense Management Setup"
+    },
+    {
+      "type": "page",
+      "name": "Configure Expense Agent"
+    },
+    {
+      "type": "page",
+      "name": "Expense Payment Methods"
+    },
+    {
+      "type": "page",
+      "name": "Employee Posting Group"
+    },
+    {
+      "type": "page",
+      "name": "Expense Posting Group"
+    },
+    {
+      "type": "page",
+      "name": "Expense Categories"
+    },
+    {
+      "type": "page",
+      "name": "Expense VAT Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Expense Approval Setup"
+    }
+  ],
+  "features": [
+    "assisted setup",
+    "expense agent configuration",
+    "AI policy evaluation",
+    "approval workflow",
+    "posting group assignment",
+    "payment method setup",
+    "VAT reclaim setup",
+    "number series assignment",
+    "notification preferences",
+    "default settings"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009673,
+      "pages_in_call": 4
+    }
+  ]
+}

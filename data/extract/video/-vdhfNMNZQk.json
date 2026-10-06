@@ -1,0 +1,341 @@
+{
+  "video_id": "-vdhfNMNZQk",
+  "item_id": "video/yt-microsoft/-vdhfNMNZQk",
+  "title": "Introducing: Composite Document Layouts (2026 release wave 2)",
+  "duration_s": 739,
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "composite layouts",
+    "document reporting",
+    "themes",
+    "header-footer layouts",
+    "branding",
+    "reusability",
+    "feature management",
+    "layout status",
+    "word templates",
+    "body layouts"
+  ],
+  "chapters": [
+    {
+      "title": "What are composite layouts",
+      "t_start": 0,
+      "t_end": 47.9
+    },
+    {
+      "title": "How composite layouts work - body, theme, and header-footer",
+      "t_start": 47.9,
+      "t_end": 113.2
+    },
+    {
+      "title": "Visual example - inventory order details",
+      "t_start": 113.2,
+      "t_end": 190.5
+    },
+    {
+      "title": "Setting themes and headers - layered defaults",
+      "t_start": 190.5,
+      "t_end": 297.6
+    },
+    {
+      "title": "Creating custom themes and layouts",
+      "t_start": 297.6,
+      "t_end": 377.5
+    },
+    {
+      "title": "Shipped themes and layouts - what comes with 20.9",
+      "t_start": 377.5,
+      "t_end": 451.9
+    },
+    {
+      "title": "Live demo - customer statement with multiple themes and headers",
+      "t_start": 451.9,
+      "t_end": 575.7
+    },
+    {
+      "title": "Rollout strategy - feature management and layout status",
+      "t_start": 575.7,
+      "t_end": 692.9
+    },
+    {
+      "title": "Summary and resources",
+      "t_start": 692.9,
+      "t_end": 739
+    }
+  ],
+  "features": [
+    {
+      "name": "Composite layouts for documents",
+      "description": "Split report layouts into reusable components - body layout for structure, themes for branding colors and fonts, and header-footer layouts for document headers and footers. Themes and headers-footers can be applied at runtime across different reports.",
+      "status": "ga",
+      "status_evidence_t": 377.5,
+      "status_evidence_quote": "the product group we aim to ship in version 20 9 and 20 1 and send 20 9 1 um three themes approximately",
+      "status_evidence_verified": true,
+      "t_start": 6.7,
+      "t_end": 100.4,
+      "is_demoed": true,
+      "caveats": [
+        "no changes to default states for shipped layouts in version 2026",
+        "feature can be toggled off via feature management"
+      ],
+      "tags": [
+        "document reporting",
+        "branding",
+        "reusability",
+        "runtime composition"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Body layout",
+      "description": "Structural report layout without styling - defines the raw structure and data presentation of what the report shows, separate from visual branding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 61.4,
+      "t_end": 113.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "body layout",
+        "structure",
+        "unstyled"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Theme application",
+      "description": "Apply themes to body layouts at runtime to add colors, fonts, and visual styling. Multiple themes can be applied to the same body layout to show different branding.",
+      "status": "ga",
+      "status_evidence_t": 377.5,
+      "status_evidence_quote": "we aim to ship in version 20.9 and 20.1 and send 20.9.1 um three themes",
+      "status_evidence_verified": true,
+      "t_start": 87.4,
+      "t_end": 137.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "themes",
+        "branding",
+        "runtime",
+        "visual styling"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Header-footer layout application",
+      "description": "Apply header-footer layouts to body layouts at runtime. Can be set at global, company, report, or specific layout level. Header-footer layouts are divided into external and internal variants.",
+      "status": "ga",
+      "status_evidence_t": 377.5,
+      "status_evidence_quote": "we aim to ship in version 20.9 and 20.1 and send 20.9.1 um three themes, approximately eight um header footer layouts",
+      "status_evidence_verified": true,
+      "t_start": 87.4,
+      "t_end": 270,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "header-footer",
+        "external reports",
+        "internal reports",
+        "runtime"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Layered layout defaults",
+      "description": "Set default themes and header-footer layouts at global level for all reports, at company level to override global, at report level to override company, or at specific layout level to override report settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 243,
+      "t_end": 297.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "defaults",
+        "hierarchy",
+        "branding",
+        "organizational"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Custom theme and header-footer layouts",
+      "description": "Create custom themes and header-footer layouts through the UI on the managed theme and header and footer layouts page, or from AL code by specifying rendering type word with subtype theme or header footer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 297.6,
+      "t_end": 377.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "custom branding",
+        "al code",
+        "managed page",
+        "dot-x files"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Managed theme and header-footer layouts page",
+      "description": "UI page where users can create new themes or header-footer layouts by name and description, create blank layouts or upload existing ones.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 313.2,
+      "t_end": 337.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "managed page",
+        "ui",
+        "custom layouts"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Shipped themes",
+      "description": "Four themes ship with version 20.9: calm (green, relaxing), default, playful (colors and pink gradient), and standard theme.",
+      "status": "ga",
+      "status_evidence_t": 377.5,
+      "status_evidence_quote": "we aim to ship in version 20.9 and 20.1 and send 20.9.1 um three themes",
+      "status_evidence_verified": true,
+      "t_start": 415.4,
+      "t_end": 427.8,
+      "is_demoed": true,
+      "caveats": [
+        "documentation mentions three themes but demo shows four: calm, default, playful, standard"
+      ],
+      "tags": [
+        "themes",
+        "shipped",
+        "branding"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Feature management for composite layouts",
+      "description": "Enable or disable the new document experience via feature management. Can gradually roll out on different environments and for different layouts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 575.7,
+      "t_end": 647.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "feature management",
+        "rollout",
+        "gradual adoption"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Layout status control",
+      "description": "Set layout status to retired or draft to hide layouts from users. Even Microsoft-shipped layouts can have their status changed so they do not appear on request pages.",
+      "status": "ga",
+      "status_evidence_t": 658.6,
+      "status_evidence_quote": "we have the ability for you to set the state status of even the the layouts we ship to to either retired or draft.",
+      "status_evidence_verified": true,
+      "t_start": 647.4,
+      "t_end": 692.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "layout status",
+        "retired",
+        "draft",
+        "visibility control"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "managed theme and header and footer layouts page",
+      "t": 326.3
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 34.4,
+      "text": "we allow you now to reuse branding like report themes, colors, fonts and so on across your document reports",
+      "why_it_matters": "Defines the core value proposition of composite layouts - reusability of branding across multiple documents.",
+      "check": "exact"
+    },
+    {
+      "t": 61.4,
+      "text": "the idea with composite layouts is that that we split kind of the old layout would be everything all in once in one file.",
+      "why_it_matters": "Explains the architectural shift from monolithic to componentized layout design.",
+      "check": "exact"
+    },
+    {
+      "t": 100.4,
+      "text": "applying here means it happens at runtime. So, you can actually have the same report um you can run it in different ways.",
+      "why_it_matters": "Clarifies that themes and header-footers apply at runtime, enabling multiple rendering options for one report body.",
+      "check": "exact"
+    },
+    {
+      "t": 377.5,
+      "text": "the product group we aim to ship in version 20 9 and 20 1 and send 20 9 1 um three themes approximately",
+      "why_it_matters": "Specifies the quantity of shipped components and version numbers for initial release.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 575.7,
+      "text": "we are not changing any default states or states for for any of the layouts we ship in in in in here in version",
+      "why_it_matters": "Assures no breaking changes to existing reports when upgrading to the new feature.",
+      "check": "exact"
+    },
+    {
+      "t": 619.8,
+      "text": "can use feature management as the first link and on feature management there's a way to enable or turn off this new what",
+      "why_it_matters": "Provides the control mechanism for gradual rollout of composite layouts across the organization.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 658.6,
+      "text": "we have the ability for you to set the state status of even the the layouts we ship to to either retired or draft.",
+      "why_it_matters": "Shows fine-grained control over layout visibility even for Microsoft-shipped layouts.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 647.4,
+      "kind": "other",
+      "text": "layout status control is a different video - look at description for link"
+    },
+    {
+      "t": 707.3,
+      "kind": "other",
+      "text": "developer documentation available at AKA.ms/BCdeveloper with composite layouts guidance"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 5,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.037722
+    }
+  ]
+}

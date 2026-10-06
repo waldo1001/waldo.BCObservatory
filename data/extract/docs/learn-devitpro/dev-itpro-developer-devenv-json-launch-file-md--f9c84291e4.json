@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-json-launch-file.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-json-launch-file",
+  "title": "Launch JSON file",
+  "blob": "1dbe8aad1426c48481c49d8b906a997d1781b27f",
+  "summary": "The launch.json file configures Visual Studio Code debugging and deployment for Business Central extensions, supporting on-premises and cloud sandbox environments with options for publishing, attaching, and snapshot debugging.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "launch.json",
+    "debugging",
+    "visual studio code",
+    "extension deployment",
+    "snapshot debugging",
+    "attach debugging"
+  ],
+  "objects": [],
+  "features": [
+    "publish to local server",
+    "publish to cloud sandbox",
+    "attach to client",
+    "attach to agent session",
+    "snapshot debugging",
+    "breakOnError",
+    "breakOnRecordWrite",
+    "SQL information debugger",
+    "long-running SQL statements"
+  ],
+  "versions": [
+    "2022 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.03398,
+      "pages_in_call": 1
+    }
+  ]
+}

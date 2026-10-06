@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-interface-method-lifecycle.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interface-method-lifecycle",
+  "title": "Interface method lifecycle",
+  "blob": "095f8010c63dd97f0c4fd6c327a15ea356260383",
+  "summary": "Interface method lifecycle defines how to safely add, transition, and remove interface methods in published extensions using Default, RequiredPending, and Obsolete states to maintain backward compatibility.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "interfaces",
+    "interface methods",
+    "compatibility",
+    "lifecycle",
+    "appsourcecop rules",
+    "publishing"
+  ],
+  "objects": [],
+  "features": [
+    "Required methods",
+    "Default methods",
+    "RequiredPending attribute",
+    "Obsolete lifecycle",
+    "Runtime identifier",
+    "AppSourceCop rules",
+    "Code fixes"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010996,
+      "pages_in_call": 3
+    }
+  ]
+}

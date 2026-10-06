@@ -1,0 +1,131 @@
+{
+  "video_id": "zei-IszvYNU",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.1,
+      "end": 24.2,
+      "text": ">> Welcome to yet another video on things we did to make the MCP server for Business Central even better. In this video, I will show you how you can use all the APIs that Microsoft provides for Business Central in your agents built on MCP server."
+    },
+    {
+      "t": 24.2,
+      "end": 39,
+      "text": "What this means is that the surface of Business Central is just much larger now. You can use MCP server not only for the core APIs in V2 that was kind of how it was until April 2026,"
+    },
+    {
+      "t": 39,
+      "end": 52.5,
+      "text": "but now everything like subscription billing or e-invoicing, automation APIs, everything that has an API is now enabled for MCP server and therefore for your agents."
+    },
+    {
+      "t": 52.5,
+      "end": 63.4,
+      "text": "So, just to recap, in the April release of 2026 wave one, things highlighted in italic is what we shipped there and now we are adding these two new things."
+    },
+    {
+      "t": 63.4,
+      "end": 75.1,
+      "text": "This video is about supporting all the Microsoft APIs. There's another video for supporting API queries and I think you should watch both of these to kind of get"
+    },
+    {
+      "t": 75.1,
+      "end": 82.6,
+      "text": "your agents the full power of what we're releasing in 28.2."
+    },
+    {
+      "t": 82.6,
+      "end": 96.6,
+      "text": "Yeah, so as I mentioned, all Microsoft published APIs are available in MCP server. Let's Let me just quickly show you how you set that up in the MCP server configuration."
+    },
+    {
+      "t": 96.6,
+      "end": 110.1,
+      "text": "So, as you probably know, there are multiple ways to add APIs to an MCP server configuration. You can either go and add them one by one or just use the action add tools by API group."
+    },
+    {
+      "t": 110.1,
+      "end": 125.3,
+      "text": "Let me just do that. And if I type in Microsoft or just {dot} {dot} {dot}, let's see what now happens. You see I get all the API groups, not only the the version two one."
+    },
+    {
+      "t": 125.3,
+      "end": 136.5,
+      "text": "So, here you can see analytics, automation APIs, e-document, intercompany, um everything that we have an API group for is now available."
+    },
+    {
+      "t": 136.5,
+      "end": 151.4,
+      "text": "So, if I choose okay here and just choose automation APIs, here I just added all the automation APIs. And of course, I can make them something else than read only if they support"
+    },
+    {
+      "t": 151.4,
+      "end": 171.2,
+      "text": "that if they are not read only by default. So, that's it. Now, to get to understand which APIs are available, the standard documentation for this in our developer documentation is has this landing page aka.ms/bcintegration."
+    },
+    {
+      "t": 171.2,
+      "end": 181.4,
+      "text": "And if you then dive in that part of our Microsoft Learn under APIs, you you see all the APIs"
+    },
+    {
+      "t": 181.4,
+      "end": 201,
+      "text": "um documented there, so you can learn more about them. You might even want to have your agents use some of this documentation as knowledge to understand more what these APIs are capable of."
+    },
+    {
+      "t": 201.2,
+      "end": 216.7,
+      "text": "That's it. If you want to know more about everything related to MCP server for Business Central, we have a playlist for that. That playlist you find under our YouTube channel aka.ms/bcyoutube."
+    },
+    {
+      "t": 216.7,
+      "end": 227.5,
+      "text": "Find Go navigate to the playlist, and then here the playlist getting started with MCP server. This video is there."
+    },
+    {
+      "t": 227.5,
+      "end": 237.8,
+      "text": "The other video on The queries is there, and and the old videos for the from the previous releases are there as well."
+    },
+    {
+      "t": 237.8,
+      "end": 250.8,
+      "text": "If you want to dive more into MCP server and haven't done any of this before, there is also a landing page for that for Microsoft Learn. It is aka.ms/bcmcp."
+    },
+    {
+      "t": 250.8,
+      "end": 265.4,
+      "text": "And hopefully that together with the new APIs will enable you to identify much more of the ERP workloads for your environment or for your customers if you are a partner."
+    },
+    {
+      "t": 265.4,
+      "end": 278.6,
+      "text": "And that's it. Before you dive into actually like making agents left and right, make sure you that you watch the other video for API queries in MCP server."
+    },
+    {
+      "t": 278.6,
+      "end": 288.7,
+      "text": "The link is in the description for this video or just go to the playlist on everything related to MCP. That's it. Have a great day."
+    },
+    {
+      "t": 288.7,
+      "end": 292.9,
+      "text": "Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 3.274,
+      "text": "[music]"
+    },
+    {
+      "t": 5.11,
+      "text": "[music]"
+    },
+    {
+      "t": 5.12,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 624
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-open-in-excel-trace",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "331a591f319696cf931eabb9eb7722ff7a9de504",
       "words": 207,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:31:56.689Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.017326
+    },
+    "summarized": {
+      "at": "2026-10-06T13:31:56.691Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:31:56.691Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:31:56.692Z",
+      "page": false
     }
   },
   "input_hash": "331a591f319696cf931eabb9eb7722ff7a9de504",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "331a591f319696cf931eabb9eb7722ff7a9de504"
+  "output_hash": "76a1963bd6388d680477c9d8b09deb79c066f4ac9b24c9ae56328894bcbd0708"
 }

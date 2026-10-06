@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/summarize-with-copilot",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "59aed589e68b6c05c03e605434ed49e5b220ddd6",
       "words": 833,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:13:35.861Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008241
+    },
+    "summarized": {
+      "at": "2026-10-06T13:14:34.613Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:14:34.613Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:14:34.613Z",
+      "page": false
     }
   },
   "input_hash": "59aed589e68b6c05c03e605434ed49e5b220ddd6",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "59aed589e68b6c05c03e605434ed49e5b220ddd6"
+  "output_hash": "f245fa9f1e1ff52d4051f4d7e6c951e6a0af65b13ff4af3f9d8bccc24be0b367"
 }

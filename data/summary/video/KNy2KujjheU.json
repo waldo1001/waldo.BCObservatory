@@ -1,0 +1,27 @@
+{
+  "video_id": "KNy2KujjheU",
+  "item_id": "video/yt-microsoft/KNy2KujjheU",
+  "summary": "Database export enhancements in the 2026 release wave 2: export failure rate is under 1%, exports now appear on the admin center operations page as environment operations, the export history page is retiring, and the admin center API export history endpoint is deprecated (works on API 2.29 and earlier).",
+  "overview": "The video covers two changes to database export in Business Central administration: reliability and visibility. A database export gives the whole environment database as a bacpac-style backup file in the customer's own Azure storage account. Microsoft states that fewer than 1% of exports fail today, with many weeks having no failures, because common failures across the export pipeline were removed so large environments can be exported reliably.\n\nExports are now environment operations. They show on the admin center operations page next to renames, updates and copies, with progress, status, start and end time, who triggered the export, and the error message on failure. The video demos the export button and flyout and the operations page tracking. The database export history page is retiring, and the export history endpoint in the admin center API is deprecated, so automations should move to the environment operations API.",
+  "key_points": [
+    "Fewer than 1% of database exports fail today, and many weeks have no failures.",
+    "Reliability work removed common failures across the export pipeline, so large environments can be exported reliably.",
+    "Exports now appear on the admin center operations page alongside renames, updates and copies.",
+    "The operations page shows progress, status, start and end time, who triggered the export, and the error message if it fails.",
+    "The dedicated database export history page is retiring; its information, plus more, is on the operations page.",
+    "The admin center API export history endpoint is deprecated: it works on API versions 2.29 and earlier and is not carried forward to newer versions.",
+    "Automations that use the export history endpoint should migrate to the environment operations API."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "4aee6134330c19bb6e82ffec0b2b0682b9dc7e0866daf2ae6d2c56fa8f44bd1b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0398504
+  }
+}

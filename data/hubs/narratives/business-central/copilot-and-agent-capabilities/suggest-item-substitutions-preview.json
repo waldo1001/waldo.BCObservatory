@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/business-central/copilot-and-agent-capabilities/suggest-item-substitutions-preview",
+  "input_hash": "224b9c95cc69c82805c8e0cc3785f0bafbdb2b3c4a9b952da8a208218d70a8b5",
+  "summary": "Suggest item substitutions with Copilot (preview) covers an AI capability that finds similar or interchangeable items and assigns them as substitutes. It answers how to use the feature, how results are scored and edited, and what its capabilities, limits and responsible-use practices are.",
+  "overview": "This area describes a Copilot capability that helps identify similar or interchangeable products, with the aim of reducing duplicates and streamlining product portfolio management. Copilot analyzes item numbers, descriptions, barcodes and attributes across multiple tables to propose substitutes.\n\nThere are two pages. \"Suggest substitute items with Copilot\" is the how-to: it covers the suggestion workflow, the score ratings and the actions available on the results. \"FAQ for suggest item substitutions with Copilot\" explains what the feature can and cannot do and how to use it responsibly. Start with the how-to page to use the feature, then read the FAQ to understand its limits and best practices.",
+  "key_points": [
+    "The feature is in preview and suggests similar or interchangeable items to reduce duplicates and simplify product portfolio management.",
+    "Copilot analyzes item numbers, descriptions, barcodes and attributes across multiple tables.",
+    "The FAQ describes the techniques used: similarity search with embeddings, and keyword and synonym extraction.",
+    "Suggestions carry score ratings of High, Medium or Low.",
+    "You can adjust the prompt to refine the suggestions.",
+    "Use Insert all to assign the suggested substitutes, or Delete Line to remove individual suggestions.",
+    "The FAQ page covers capabilities, limitations and best practices for responsible use."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-06T13:41:11.099Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.036785
+  }
+}

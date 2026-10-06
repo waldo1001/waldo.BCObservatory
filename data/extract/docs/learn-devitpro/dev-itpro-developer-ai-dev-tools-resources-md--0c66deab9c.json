@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/ai-dev-tools-resources.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-dev-tools-resources",
+  "title": "Use developer tools for Copilot in Business Central AI resources",
+  "blob": "e9aa6e15f0bbb4bc4067a767534c954afe23a1d8",
+  "summary": "Business Central AI resources enable partners to use Azure OpenAI models (GPT-4.1, GPT-4.1-mini) for Copilot extensions via Microsoft-managed infrastructure, with consumption-based billing and optional bring-your-own subscription support for custom scenarios.",
+  "systems": [
+    "copilot",
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "azure openai",
+    "copilot extension",
+    "ai models",
+    "billing",
+    "subscription management",
+    "lmm integration",
+    "responsible ai",
+    "developer tools"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "AOAI Operation Response"
+    },
+    {
+      "type": "codeunit",
+      "name": "AzureOpenAI"
+    },
+    {
+      "type": "enum",
+      "name": "AOAI Model Type"
+    }
+  ],
+  "features": [
+    "Microsoft-managed Azure OpenAI resources",
+    "GPT-4.1 and GPT-4.1-mini models",
+    "Consumption-based customer billing",
+    "SetManagedResourceAuthorization method",
+    "SetAuthorization method for custom subscriptions",
+    "Error handling with AOAI Operation Response",
+    "Data residency compliance",
+    "Content filtering and safeguard prompts"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022069,
+      "pages_in_call": 1
+    }
+  ]
+}

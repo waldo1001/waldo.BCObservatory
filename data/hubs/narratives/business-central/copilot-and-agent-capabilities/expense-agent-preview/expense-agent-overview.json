@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
+  "input_hash": "9019bae00c0b9df2455cf3f6ce528d4622f70f098abb27139fddbe544bc51de1",
+  "summary": "Expense Agent (preview) in Business Central is an AI-powered agent that automates the expense lifecycle. This section answers questions about what it does, how it processes emails and receipts, and how it checks expenses against rules and policies.",
+  "overview": "Expense Agent is an AI-powered agent that handles the expense lifecycle in Business Central. It takes in receipts from the web app, mobile app or email, extracts data, categorizes and itemizes expenses, creates expense reports, and prepares them for approval and posting. It also covers per diem, mileage tracking and calculation, and approval workflows.\n\nThe four pages in this section build on each other. The two overview pages give the general picture of capabilities. \"How the Expense Agent Processes Emails\" explains the mailbox-driven flow: monitoring a configured mailbox, detecting receipts and credit card statements, creating expenses, grouping them by reporting period, and sending confirmations and reminders. \"Understand Policy Compliance in Expense Agent\" explains how expenses are checked.\n\nStart with the overview page for scope, then read the email page if receipts arrive by mail, and the policy compliance page if you need to understand flags on expenses or configure policy evaluation.",
+  "key_points": [
+    "Receipts can come in through the web app, mobile app or email, and the agent extracts data, categorizes, subcategorizes and itemizes them.",
+    "Supported expense types include per diem calculation and mileage tracking and calculation.",
+    "The agent creates expense reports and prepares them for approval and posting in Business Central.",
+    "Email processing monitors a configured mailbox and detects receipts and credit card statements.",
+    "Created expenses are grouped into reports by reporting period, and the agent sends confirmation emails and open report reminders to expense users.",
+    "Policy compliance separates deterministic Business Central rules from AI-evaluated natural-language policies.",
+    "Expenses are flagged with compliance indicators for rule violations or potential policy issues.",
+    "Policy evaluation has its own configuration and includes privacy protection."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-06T13:38:52.501Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.039455000000000004
+  }
+}

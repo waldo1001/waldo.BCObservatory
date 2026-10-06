@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-store-document-attachments-externally.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-store-document-attachments-externally",
+  "title": "External file storage for document attachments",
+  "blob": "824e6940a0dc21925508cca736faa70665bf6b7a",
+  "summary": "Store document attachments in external cloud storage like Azure Blob Storage, Azure File Share, or SharePoint to reduce database capacity usage and improve performance. Set up file accounts, enable the scenario, and manage attachment lifecycle with features for deletion synchronization and file migration.",
+  "systems": [
+    "administration",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "document attachments",
+    "external storage",
+    "azure",
+    "sharepoint",
+    "file management",
+    "capacity",
+    "storage accounts"
+  ],
+  "objects": [],
+  "features": [
+    "External File Storage framework",
+    "Azure Blob Storage support",
+    "Azure File Share support",
+    "SharePoint integration",
+    "Storage Sync action",
+    "External Storage Browser",
+    "Migrate Files action",
+    "Delete External File on Attachment Delete toggle"
+  ],
+  "versions": [
+    "Business Central 28.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016837,
+      "pages_in_call": 2
+    }
+  ]
+}

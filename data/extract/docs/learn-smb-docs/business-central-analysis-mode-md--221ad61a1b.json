@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/analysis-mode.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/analysis-mode",
+  "title": "Analyze list page and query data using data analysis",
+  "blob": "eed5a379211b01dd22bea01544ac2e2305c59ee6",
+  "summary": "Analyze list page and query data interactively using the data analysis feature with columns, filters, grouping, pivot mode, and multiple analysis views without running reports. Add fields from related tables, create date hierarchies, and bookmark analysis views to your Role Center.",
+  "systems": [
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "data analysis",
+    "analysis mode",
+    "pivot tables",
+    "list pages",
+    "queries",
+    "filtering",
+    "data visualization"
+  ],
+  "objects": [],
+  "features": [
+    "Analysis mode toggle",
+    "Columns pane",
+    "Analysis Filters pane",
+    "Row groups",
+    "Pivot mode",
+    "Date hierarchies",
+    "Summary statistics",
+    "Related table fields",
+    "Analysis view bookmarking",
+    "Data export to Excel",
+    "Link sharing"
+  ],
+  "versions": [
+    "2026 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016837,
+      "pages_in_call": 2
+    }
+  ]
+}

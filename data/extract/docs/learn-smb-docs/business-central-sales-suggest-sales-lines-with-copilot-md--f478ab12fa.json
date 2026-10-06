@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-suggest-sales-lines-with-copilot.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-suggest-sales-lines-with-copilot",
+  "title": "Sales line suggestions with Copilot",
+  "blob": "db383c4daae07314f3b79c50c3a2c0916fa36251",
+  "summary": "Sales Line Suggestions with Copilot helps users create sales documents faster by suggesting items to add to sales quotes, orders, and invoices using natural language prompts and keyword matching across product data.",
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "topics": [
+    "sales lines",
+    "copilot suggestions",
+    "item search",
+    "natural language",
+    "keyword matching",
+    "document references"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Order"
+    },
+    {
+      "type": "page",
+      "name": "Suggested sales lines"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Item Reference"
+    },
+    {
+      "type": "table",
+      "name": "Item Attributes"
+    }
+  ],
+  "features": [
+    "Find products capability",
+    "Find documents by reference capability",
+    "Permissive matching criteria",
+    "Balanced matching criteria",
+    "Precise matching criteria",
+    "Confidence scoring",
+    "Multi-language support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014314,
+      "pages_in_call": 2
+    }
+  ]
+}

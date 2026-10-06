@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "al build output must not pollute project root",
+  "title": "Write AL Build Artifacts to an Intentional Output Location",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/al-build-output-must-not-pollute-project-root.md",
   "published_at": "2026-09-29T10:48:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:29:04.662Z",
+      "blob": "4e5a57a70150839b1652b951296482fa3f123258",
+      "words": 196,
+      "forms": 0
     }
   },
   "input_hash": "4e5a57a70150839b1652b951296482fa3f123258",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/style/al-build-output-must-not-pollute-project-root.md"
-  }
+    "path": "microsoft/knowledge/style/al-build-output-must-not-pollute-project-root.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 196
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4e5a57a70150839b1652b951296482fa3f123258"
 }

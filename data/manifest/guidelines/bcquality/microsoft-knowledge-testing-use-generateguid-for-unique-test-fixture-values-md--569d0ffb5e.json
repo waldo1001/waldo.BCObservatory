@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "use generateguid for unique test fixture values",
+  "title": "Generate unique test fixture values with LibraryUtility helpers, not hardcoded literals",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/use-generateguid-for-unique-test-fixture-values.md",
   "published_at": "2026-09-29T10:49:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:28:30.354Z",
+      "blob": "e06f738396d6a6cab84771b40ef78d43b143a523",
+      "words": 519,
+      "forms": 0
     }
   },
   "input_hash": "e06f738396d6a6cab84771b40ef78d43b143a523",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/testing/use-generateguid-for-unique-test-fixture-values.md"
-  }
+    "path": "microsoft/knowledge/testing/use-generateguid-for-unique-test-fixture-values.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 519
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e06f738396d6a6cab84771b40ef78d43b143a523"
 }

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-interfaces-in-al.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al",
+  "title": "Interfaces in AL",
+  "blob": "641569b7fde0042bb1c6f43e12674867e0fa3825",
+  "summary": "Interfaces in AL define syntactical contracts that codeunits can implement to support polymorphic programming, with support for default method implementations, extension, and optional transition to required methods.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "interfaces",
+    "codeunits",
+    "polymorphism",
+    "enums",
+    "default methods",
+    "interface extension"
+  ],
+  "objects": [],
+  "features": [
+    "Interface declaration",
+    "implements keyword",
+    "Go to Implementations",
+    "Default interface methods",
+    "RequiredPending attribute",
+    "Interface extension",
+    "Dictionary of interfaces",
+    "List of interfaces"
+  ],
+  "versions": [
+    "2023 release wave 1",
+    "2026 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010996,
+      "pages_in_call": 3
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-page-scripting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-scripting",
+  "title": "Use the page scripting tool for acceptance testing",
+  "blob": "3dd32c7433f0f9e9df21fb01119848b794f66745",
+  "summary": "Use the page scripting tool for acceptance testing explains how to record and replay user interactions with the Business Central web client to automate user acceptance testing, validate UI behavior, and run tests in pipelines using the bc-replay script player.",
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "acceptance testing",
+    "page scripting",
+    "ui automation",
+    "test automation",
+    "validation",
+    "playback",
+    "recording"
+  ],
+  "objects": [],
+  "features": [
+    "page scripting tool",
+    "recording and playback",
+    "validation steps",
+    "conditional steps",
+    "wait steps",
+    "parameter support",
+    "script inclusion",
+    "clipboard operations",
+    "session info access",
+    "multiple row selection",
+    "bc-replay script player",
+    "pipeline integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016369,
+      "pages_in_call": 2
+    }
+  ]
+}

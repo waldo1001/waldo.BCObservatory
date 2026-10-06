@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "set defaultimplementation on enum",
+  "title": "Set DefaultImplementation on an enum so an unmapped value still resolves to an interface",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/interfaces/set-defaultimplementation-on-enum.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.298Z",
+      "blob": "a5c3bb6a5ecf8218960550b1a059b516045a1a02",
+      "words": 230,
+      "forms": 0
     }
   },
   "input_hash": "a5c3bb6a5ecf8218960550b1a059b516045a1a02",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/interfaces/set-defaultimplementation-on-enum.md"
-  }
+    "path": "microsoft/knowledge/interfaces/set-defaultimplementation-on-enum.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 230
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a5c3bb6a5ecf8218960550b1a059b516045a1a02"
 }

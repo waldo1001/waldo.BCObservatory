@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/suggest-item-substitutions-copilot",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b0eb6e2bdab9f3611e722877265661c222735b06",
       "words": 497,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T13:13:35.861Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008252
+    },
+    "summarized": {
+      "at": "2026-10-06T13:14:01.165Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:14:01.165Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:14:01.165Z",
+      "page": false
     }
   },
   "input_hash": "b0eb6e2bdab9f3611e722877265661c222735b06",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b0eb6e2bdab9f3611e722877265661c222735b06"
+  "output_hash": "c569576ad9b77f84d9ca9d4414384a894a11b5534fe78ea24aeb68c3c4a6aa27"
 }

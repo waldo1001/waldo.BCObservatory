@@ -2,7 +2,7 @@
 id: topic/business-central/copilot-and-agent-capabilities/sales-order-agent
 type: topic
 title: Sales Order Agent
-summary: "Learn section Copilot and agent capabilities > Sales Order Agent: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Sales Order Agent is an AI agent in Business Central that captures sales orders from customer emails: it identifies customers and items, checks availability, prepares quotes and converts them to orders. These pages answer questions about what it does, how to set it up, how to use it day to day, and common FAQs."
 tier: official
 language: en
 system: sales
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T13:43:32.763Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 354c50c5de326213df353f995d94321405bc0bc35a97d695b331ce76bdc35896
+  prompts:
+    hub-topic: 1
+  input_hash: 34dc56b6c2c43084e758deff34bb6defacc2c7ceaeadb0a5ae9f7cd38f4a27c9
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/faqs-sales-order-taker-agent
@@ -75,14 +76,33 @@ bc_forms:
   - 4400
   - 4410
 member_hash: 354c50c5de326213df353f995d94321405bc0bc35a97d695b331ce76bdc35896
-narrative: none
+narrative: generated
 ---
 
 # Sales Order Agent
 
-> Learn section Copilot and agent capabilities > Sales Order Agent: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Sales Order Agent is an AI agent in Business Central that captures sales orders from customer emails: it identifies customers and items, checks availability, prepares quotes and converts them to orders. These pages answer questions about what it does, how to set it up, how to use it day to day, and common FAQs.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Sales Order Agent · tier official · system sales · no narrative yet
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Sales Order Agent · tier official · system sales · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+Sales Order Agent automates sales order capture. It monitors a mailbox, analyzes incoming emails and attachments, identifies the contact and customer, matches items, checks inventory availability, and creates sales quotes and orders. When details are missing it continues the conversation with the customer by email over multiple turns.
+
+The section has four pages and no subtopics. The overview explains the capabilities, including item search, availability checking and capable-to-promise calculation. The setup page covers activating the agent, mailbox monitoring, document creation rules and user access. The process page describes the daily workflow, where users review emails, confirm quotes, check availability and help when the agent is blocked. The FAQ covers configuration, task execution, the email dispatcher, access and permissions, transparency and change control, and customer identification.
+
+Start with the overview to understand the scope, then follow the setup page to activate and configure the agent. Use the process page when you are working with agent tasks, and the FAQ for specific questions on permissions, control and customer identification.
+
+## Key points
+
+- The agent monitors a mailbox, categorizes emails and analyzes attachments to find sales requests.
+- It identifies contacts and customers automatically and searches and matches items from the email content.
+- It checks inventory availability and supports capable-to-promise calculation.
+- When information is missing, it holds multi-turn email conversations with the customer and generates email drafts.
+- It creates sales quotes, and can convert them to sales orders based on the document creation rules set up for it.
+- Users stay in control: they review emails, confirm quotes and step in when the agent needs unblocking, with a task timeline to track what happened.
+- Setup covers activation, mailbox monitoring, quote creation and confirmation rules, sales order conversion, customer contact matching and user access management.
+- The FAQ covers the email dispatcher, access and permissions, and transparency and change control.
 
 ## Learn pages
 

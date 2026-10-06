@@ -1,0 +1,142 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/preview-feature-details.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/preview-feature-details",
+  "title": "Feature details in update 29.0 public preview for 2026 release wave 2",
+  "blob": "d4b3c9264c7bd4cd0a3307669dd24d082e34dbe4",
+  "summary": "Detailed feature documentation for Business Central 2026 release wave 2 preview, covering Dataverse field mapping, Copilot chat, Payables Agent improvements, agent task management, development tools, e-documents EDI support, and Shopify ecommerce enhancements. Use this to understand and implement new capabilities in wave 2.",
+  "systems": [
+    "integration",
+    "copilot",
+    "purchasing"
+  ],
+  "topics": [
+    "dataverse integration",
+    "copilot chat",
+    "payables agent",
+    "agent tasks",
+    "al development",
+    "e-documents",
+    "edi",
+    "shopify",
+    "page scripting",
+    "test frameworks"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Integration Table Mappings"
+    },
+    {
+      "type": "page",
+      "name": "PO Lines"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Shop Card"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Order"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Log"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Activities"
+    },
+    {
+      "type": "page",
+      "name": "Companies"
+    },
+    {
+      "type": "page",
+      "name": "Shopify Variants"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Item List"
+    },
+    {
+      "type": "page",
+      "name": "Mileage Rate Setup"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    },
+    {
+      "type": "page",
+      "name": "Transfer Routes"
+    },
+    {
+      "type": "page",
+      "name": "Transfer Order"
+    },
+    {
+      "type": "page",
+      "name": "Work Center Card"
+    },
+    {
+      "type": "page",
+      "name": "Machine Center Card"
+    },
+    {
+      "type": "page",
+      "name": "Planning Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Sustainability Setup"
+    },
+    {
+      "type": "page",
+      "name": "Sustainability Ledger Entries"
+    }
+  ],
+  "features": [
+    "Dataverse field mapping",
+    "Microsoft Copilot chat experience",
+    "Payables Agent purchase order matching",
+    "Receipt on Invoice setting",
+    "Agent permissions management",
+    "Agent task pane",
+    "Agent-generated content review",
+    "MCP Server data queries",
+    "Record creator/modifier avatars",
+    "ModuleInfo application links",
+    "Action tooltip inheritance",
+    "Index on/off in AL code"
+  ],
+  "versions": [
+    "2026 release wave 2",
+    "update 29.0"
+  ],
+  "parts": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017295,
+      "pages_in_call": 2
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032248,
+      "pages_in_call": 1
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016061,
+      "pages_in_call": 2
+    }
+  ]
+}

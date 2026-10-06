@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-submit-report.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-submit-report",
+  "title": "Create and Submit Expense Reports",
+  "blob": "53f9a3e1ec03e3512dd8ab2b4dc4a4a82cae8eb5",
+  "summary": "Create, populate, and submit expense reports by adding expense lines, reviewing rule violations, linking travel requests, and preparing reports for approval and posting.",
+  "systems": [
+    "finance",
+    "hr"
+  ],
+  "topics": [
+    "expense management",
+    "expense reports",
+    "approval workflow",
+    "travel requests",
+    "rule compliance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Expense Reports"
+    },
+    {
+      "type": "page",
+      "name": "Expense Report"
+    }
+  ],
+  "features": [
+    "create expense reports",
+    "add expense lines",
+    "get expense line",
+    "rule violation review",
+    "travel request linking",
+    "release report",
+    "submit for approval",
+    "itemizations",
+    "participants",
+    "per diem lines",
+    "mileage entry",
+    "anti-corruption attestation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009673,
+      "pages_in_call": 4
+    }
+  ]
+}

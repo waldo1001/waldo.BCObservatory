@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "stop when runrequestpage returns empty parameters",
+  "title": "Stop when RunRequestPage returns empty parameters",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/reporting/stop-when-runrequestpage-returns-empty-parameters.md",
   "published_at": "2026-09-15T08:38:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:34:13.898Z",
+      "blob": "0cc0e71afeb2127f0b26daf29f2fb998fe6abada",
+      "words": 105,
+      "forms": 0
     }
   },
   "input_hash": "0cc0e71afeb2127f0b26daf29f2fb998fe6abada",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/reporting/stop-when-runrequestpage-returns-empty-parameters.md"
-  }
+    "path": "microsoft/knowledge/reporting/stop-when-runrequestpage-returns-empty-parameters.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 105
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0cc0e71afeb2127f0b26daf29f2fb998fe6abada"
 }

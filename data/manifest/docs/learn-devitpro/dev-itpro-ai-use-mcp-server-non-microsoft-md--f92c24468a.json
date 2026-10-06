@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/use-mcp-server-non-microsoft",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3dae377aa468baf45bb2d3af9c69db2e6fcdfb53",
       "words": 1243,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:23:23.551Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008502
+    },
+    "summarized": {
+      "at": "2026-10-06T13:24:18.839Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:24:18.839Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:24:18.839Z",
+      "page": false
     }
   },
   "input_hash": "3dae377aa468baf45bb2d3af9c69db2e6fcdfb53",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3dae377aa468baf45bb2d3af9c69db2e6fcdfb53"
+  "output_hash": "a3d4a74408b79ac82c78c1de1e84f2e5865c00ddca9dd6b22d37c0d35398c385"
 }

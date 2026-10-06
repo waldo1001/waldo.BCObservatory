@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/shopify-tax-matching-application-card.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/shopify-tax-matching-application-card",
+  "title": "Application card for Shopify Tax Matching",
+  "blob": "b4290a1be970775f6beebf1834433ca44365fdae",
+  "summary": "Application card for Shopify Tax Matching describes an AI-powered feature in Business Central US that maps tax information from Shopify orders to structured tax setup by suggesting Tax Jurisdictions based on tax line titles, rates, and limited location data.",
+  "systems": [
+    "integration",
+    "sales",
+    "copilot"
+  ],
+  "topics": [
+    "shopify connector",
+    "tax matching",
+    "generative ai",
+    "responsible ai",
+    "tax jurisdictions",
+    "tax areas",
+    "ai transparency"
+  ],
+  "objects": [],
+  "features": [
+    "Tax Jurisdiction matching",
+    "Validated suggestions",
+    "Tax setup assistance",
+    "Rate-conflict detection",
+    "Review and approval",
+    "Configurable human review",
+    "Data minimization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008252,
+      "pages_in_call": 4
+    }
+  ]
+}

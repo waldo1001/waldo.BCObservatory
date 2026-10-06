@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "assign codeunit to interface for testability",
+  "title": "Assign a codeunit to an interface variable for injectable, testable dependencies",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/interfaces/assign-codeunit-to-interface-for-testability.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.277Z",
+      "blob": "8d3e7cea61d21d73d08a9fe6893abe7b75b7b843",
+      "words": 281,
+      "forms": 0
     }
   },
   "input_hash": "8d3e7cea61d21d73d08a9fe6893abe7b75b7b843",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/interfaces/assign-codeunit-to-interface-for-testability.md"
-  }
+    "path": "microsoft/knowledge/interfaces/assign-codeunit-to-interface-for-testability.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 281
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8d3e7cea61d21d73d08a9fe6893abe7b75b7b843"
 }

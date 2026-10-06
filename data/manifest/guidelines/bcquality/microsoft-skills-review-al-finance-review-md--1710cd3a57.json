@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "al finance review",
+  "title": "AL Finance review",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-finance-review.md",
   "published_at": "2026-09-21T08:20:41.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:31:56.709Z",
+      "blob": "06090b126004c5e976c76a800b6ae8acec0119a3",
+      "words": 928,
+      "forms": 0
     }
   },
   "input_hash": "06090b126004c5e976c76a800b6ae8acec0119a3",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/skills/review/al-finance-review.md"
-  }
+    "path": "microsoft/skills/review/al-finance-review.md",
+    "description": "Reviews financial journal posting, ledger corrections, applications, VAT handling, and posting-linked dimensions against BCQuality Finance guidance.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 928
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "06090b126004c5e976c76a800b6ae8acec0119a3"
 }

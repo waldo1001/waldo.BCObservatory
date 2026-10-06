@@ -1,0 +1,138 @@
+{
+  "video_id": "54uIhzZq3Os",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.3,
+      "end": 13.8,
+      "text": "Welcome to this expense agent series where we are going to look behind the scenes what happens in BC when somebody makes expenses in the web app."
+    },
+    {
+      "t": 13.8,
+      "end": 28,
+      "text": "Our product designer Lena, uh she's going to visit a customer in relation to a project we are having. And um of course she's going to make some expenses in that regard."
+    },
+    {
+      "t": 28,
+      "end": 38.6,
+      "text": "And we're going to see a bit about how data is flowing through our system automatically. So one thing that Lena cannot"
+    },
+    {
+      "t": 38.6,
+      "end": 52.2,
+      "text": "do herself is uh specify dimensions, but we'll look at how we use the default dimensions to track through the system. And we we start with um Lena herself."
+    },
+    {
+      "t": 52.2,
+      "end": 63.5,
+      "text": "Uh she is employed in the product department because she is a product designer. She is also a sales person."
+    },
+    {
+      "t": 63.5,
+      "end": 75.5,
+      "text": "Um so she has these two dimensions connect to her. And then at some point she has rented a car and she submits the expense for it."
+    },
+    {
+      "t": 75.5,
+      "end": 90.9,
+      "text": "Um and where you could see that is if you look at then the dimensions that automatically are attached to that expense, uh you get it from >> [snorts] >> what Lena had, department prod and sales person Lena."
+    },
+    {
+      "t": 90.9,
+      "end": 102.2,
+      "text": "And then the accountant can choose to add or move um dimensions. So in this case the accountant has added a business group."
+    },
+    {
+      "t": 102.2,
+      "end": 114.3,
+      "text": "And at some point Lena is done, so she turns the expense into an expense report and obviously normally she would have more, some hotel or whatever. For this case we'll just look at this one liner."
+    },
+    {
+      "t": 114.3,
+      "end": 125.2,
+      "text": "So this is a project, so because it was a project meeting, so she can click on um um show billable information about this expense she had."
+    },
+    {
+      "t": 125.2,
+      "end": 136.1,
+      "text": "And there she can assign the uh expense to a customer. She can even specify which account in our system it should go to, the expense."
+    },
+    {
+      "t": 136.1,
+      "end": 147.4,
+      "text": "And she can specify a project uh and project task number that this is linked to. And all of these"
+    },
+    {
+      "t": 147.4,
+      "end": 162.6,
+      "text": "sources, if you will, uh combine to a new set of dimensions. So, we retrieve dimensions from all of these uh inputs. So, once this um expense report looks correct,"
+    },
+    {
+      "t": 162.6,
+      "end": 172.9,
+      "text": "we can start posting um the uh report, and we can then look at what entries are created from this report."
+    },
+    {
+      "t": 172.9,
+      "end": 186.1,
+      "text": "The expense is approved and posted. We end up with a posted expense report, obviously. And if you look at which entries have been created,"
+    },
+    {
+      "t": 186.1,
+      "end": 199.6,
+      "text": "you can see that uh we are obviously have the expense report itself, but there's also project ledger entry, as you can see in the bottom. And there's also a ledger entry for the employee,"
+    },
+    {
+      "t": 199.6,
+      "end": 211.4,
+      "text": "because now we owe Lena this money. So, let's take a look at how do we pay out the money to the employee, the money that we owe her?"
+    },
+    {
+      "t": 211.4,
+      "end": 223,
+      "text": "Well, first of we can go in uh on her employee card and actually see, yes, this is the expense she had, $401."
+    },
+    {
+      "t": 223.7,
+      "end": 236.9,
+      "text": "And then there's a function called pay employee that you can press, which opens up um all the entries we owe her, in this case only one."
+    },
+    {
+      "t": 236.9,
+      "end": 250.3,
+      "text": "And from there we can create a payment which just opens the normal payment journal. And as you can see that we now have an account type that's called employee."
+    },
+    {
+      "t": 250.3,
+      "end": 260.9,
+      "text": "Previously, it would have been only a vendor, but now we can also pay out to employees. Finally, let's also see how"
+    },
+    {
+      "t": 260.9,
+      "end": 273.2,
+      "text": "Lina's expense affects the project. If we look at the project she she specified, you can see that under billable cost"
+    },
+    {
+      "t": 273.2,
+      "end": 283.5,
+      "text": "under that spec thing she attended a meeting for, the money is also registered there. And if you look at it,"
+    },
+    {
+      "t": 283.5,
+      "end": 302.8,
+      "text": "you can see that it's posted as other travel expenses. So, in this video we saw how data flows from Lina's submission of an expense and all the way through uh employee ledger entries and out to the resulting project."
+    },
+    {
+      "t": 302.8,
+      "end": 307,
+      "text": "Thanks for watching."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 656
+}

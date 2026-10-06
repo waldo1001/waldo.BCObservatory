@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "changecompany in loop drops caches",
+  "title": "Do not call ChangeCompany inside a per-row loop",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/changecompany-in-loop-drops-caches.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.364Z",
+      "blob": "5946e42ce8694867016089821ed1a438c3c88dd7",
+      "words": 161,
+      "forms": 0
     }
   },
   "input_hash": "5946e42ce8694867016089821ed1a438c3c88dd7",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/changecompany-in-loop-drops-caches.md"
-  }
+    "path": "microsoft/knowledge/performance/changecompany-in-loop-drops-caches.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 161
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5946e42ce8694867016089821ed1a438c3c88dd7"
 }

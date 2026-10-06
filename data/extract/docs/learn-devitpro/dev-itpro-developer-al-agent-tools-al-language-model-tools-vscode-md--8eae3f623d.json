@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-language-model-tools-vscode.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-language-model-tools-vscode",
+  "title": "AL Language Model Tools for Visual Studio Code",
+  "blob": "175358240c573933005796e7f2e74953d66ae829",
+  "summary": "AL Language Model tools for Visual Studio Code enable AI agents in GitHub Copilot to perform core AL development tasks like building, publishing, debugging, and symbol search directly from chat.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "ai agent tools",
+    "copilot",
+    "language model",
+    "al development",
+    "visual studio code"
+  ],
+  "objects": [],
+  "features": [
+    "al_build",
+    "al_publish",
+    "al_downloadsymbols",
+    "al_symbolsearch",
+    "al_getdiagnostics",
+    "al_getnextobjectid",
+    "al_debug",
+    "al_setbreakpoint",
+    "al_snapshotdebugging"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005955,
+      "pages_in_call": 7
+    }
+  ]
+}

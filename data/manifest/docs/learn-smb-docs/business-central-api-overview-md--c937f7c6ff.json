@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/api-overview",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a1e5e547232dc1c38ca32d1d9fd1d97096906869",
       "words": 359,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T13:37:07.417Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00828
+    },
+    "summarized": {
+      "at": "2026-10-06T13:37:07.420Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:37:07.420Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:37:07.421Z",
+      "page": false
     }
   },
   "input_hash": "a1e5e547232dc1c38ca32d1d9fd1d97096906869",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a1e5e547232dc1c38ca32d1d9fd1d97096906869"
+  "output_hash": "109014d677a98eb5dfc69c9c376b38653a5710ec3fc1eb4f0e28b790b7b3f4b1"
 }

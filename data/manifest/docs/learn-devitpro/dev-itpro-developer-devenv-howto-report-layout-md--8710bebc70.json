@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-report-layout",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0c72b615a7f21e72fc7ec659ed5e9b39ee33af9d",
       "words": 3078,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:33:35.058Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.016295
+    },
+    "summarized": {
+      "at": "2026-10-06T13:33:35.068Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:33:35.068Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:33:35.069Z",
+      "page": false
     }
   },
   "input_hash": "0c72b615a7f21e72fc7ec659ed5e9b39ee33af9d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0c72b615a7f21e72fc7ec659ed5e9b39ee33af9d"
+  "output_hash": "ce8e5476735b8a9a130fb40105f98a301a934ffa50605d4cc0bcdeb4b2f9ca93"
 }

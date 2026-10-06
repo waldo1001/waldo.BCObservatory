@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-configuration",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cc86fb7a1ad09b41dc518f1777523d96c175fa93",
       "words": 635,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:16:13.635Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.018752
+    },
+    "summarized": {
+      "at": "2026-10-06T13:16:30.955Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:16:30.955Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:16:30.955Z",
+      "page": false
     }
   },
   "input_hash": "cc86fb7a1ad09b41dc518f1777523d96c175fa93",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cc86fb7a1ad09b41dc518f1777523d96c175fa93"
+  "output_hash": "f05ad6c3ce8a4c0cbcdbad4dd903a006c284d59a37bd6ff7b5eb1232f1dfce09"
 }

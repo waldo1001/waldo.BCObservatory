@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrading-cumulative-update-v29.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v29",
+  "title": "Install a Business Central 2026 release wave 2 (version 29) Update",
+  "blob": "4867c6dbe1624b97cd69a424830f061d16ea514f",
+  "summary": "Install Business Central 2026 release wave 2 (version 29) updates on-premises by converting databases to the new platform, publishing new extension versions, and synchronizing tenants. Use for platform-only or application upgrades on single-tenant and multitenant deployments.",
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "upgrade",
+    "installation",
+    "platform conversion",
+    "extensions",
+    "multitenant",
+    "database synchronization"
+  ],
+  "objects": [],
+  "features": [
+    "Platform upgrade",
+    "Application upgrade",
+    "Extension publishing",
+    "Database conversion",
+    "Tenant mounting",
+    "Data upgrade",
+    "License import"
+  ],
+  "versions": [
+    "2026 release wave 2",
+    "version 29",
+    "Business Central v29"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011482,
+      "pages_in_call": 3
+    }
+  ]
+}

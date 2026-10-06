@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-outbound-warehouse-flow.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-outbound-warehouse-flow",
+  "title": "Outbound warehouse process overview",
+  "blob": "be8b0796bded132dc0e303f777815b0740c7be9b",
+  "summary": "Outbound warehouse processes cover picking and shipping items from warehouses for sales orders, transfer orders, purchase returns, and service orders, with four methods ranging from basic order-by-order to advanced pick-and-shipment separation.",
+  "systems": [
+    "warehouse",
+    "inventory",
+    "sales"
+  ],
+  "topics": [
+    "outbound warehouse",
+    "picking",
+    "shipping",
+    "warehouse activity",
+    "inventory pick",
+    "warehouse pick",
+    "warehouse shipment"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Pick"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Shipment"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Pick"
+    },
+    {
+      "type": "page",
+      "name": "Pick Worksheet"
+    }
+  ],
+  "features": [
+    "Outbound picking",
+    "Outbound shipping",
+    "Warehouse pick registration",
+    "Inventory pick posting",
+    "Warehouse shipment posting",
+    "Bin management",
+    "Source document release"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00828,
+      "pages_in_call": 4
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "eadb1bfee6768c9dc96d559d4905f0607268854b",
       "words": 1315,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:33:35.058Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.010996
+    },
+    "summarized": {
+      "at": "2026-10-06T13:33:35.076Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:33:35.076Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:33:35.077Z",
+      "page": false
     }
   },
   "input_hash": "eadb1bfee6768c9dc96d559d4905f0607268854b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eadb1bfee6768c9dc96d559d4905f0607268854b"
+  "output_hash": "6ae62ff3a070112c99e7acbbfa33c8614af905ec439ab10b0984791d250d0512"
 }

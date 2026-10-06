@@ -1,0 +1,27 @@
+{
+  "video_id": "-vdhfNMNZQk",
+  "item_id": "video/yt-microsoft/-vdhfNMNZQk",
+  "summary": "Composite document layouts in Business Central (2026 release wave 2): report layouts split into a body layout, themes and header-footer layouts that are applied at runtime. Covers layered defaults, custom themes, shipped themes in 20.9, and rollout through feature management and layout status.",
+  "overview": "The video explains composite layouts. The old report layout, which held everything in one file, is split into a body layout for structure, a theme for colors and fonts, and a header-footer layout for document headers and footers. Themes and header-footers are applied at runtime, so the same report can be run with different branding and be reused across reports.\n\nIt shows defaults set at global, company, report and specific layout level, and creating custom themes and header-footer layouts in the UI or from AL. It ends with a live customer statement demo using several themes and headers, and a rollout approach based on feature management and layout status.",
+  "key_points": [
+    "A composite layout has three parts: body layout (structure), theme (colors, fonts, branding) and header-footer layout (external and internal variants).",
+    "Themes and header-footer layouts are applied at runtime, so one report can be run with different themes and headers.",
+    "Defaults are layered: global for all reports, company overrides global, report overrides company, and a specific layout overrides report.",
+    "Custom themes and header-footer layouts can be created on the managed theme and header and footer layouts page (blank or uploaded), or from AL with rendering type word and subtype theme or header footer.",
+    "Version 20.9 ships four themes in the demo: calm, default, playful and standard. The documentation mentions three.",
+    "Rollout: the new document experience can be turned on or off in feature management. Default states of shipped layouts are not changed in version 2026.",
+    "Setting a layout to retired or draft hides it from request pages, including layouts shipped by Microsoft. Developer guidance is at AKA.ms/BCdeveloper."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "4588ab763f887e707bb7a0ae8d9757915f6720919d8b83baf0a315e075bc52c8",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0434684
+  }
+}

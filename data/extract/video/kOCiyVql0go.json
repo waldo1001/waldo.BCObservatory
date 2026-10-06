@@ -1,0 +1,288 @@
+{
+  "video_id": "kOCiyVql0go",
+  "item_id": "video/yt-microsoft/kOCiyVql0go",
+  "title": "Introducing: Business Central Integration with Microsoft Fabric (2026 release wave 2)",
+  "duration_s": 602,
+  "systems": [
+    "reporting",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "fabric mirroring",
+    "datalake",
+    "onelake",
+    "power bi apps",
+    "multi-company reporting",
+    "sql endpoint",
+    "synchronization",
+    "monitoring",
+    "permissions"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Business Central Fabric mirroring",
+      "t_start": 0,
+      "t_end": 82.5
+    },
+    {
+      "title": "Setup steps 1-2: Configure mirroring database and connect Business Central",
+      "t_start": 82.5,
+      "t_end": 177.5
+    },
+    {
+      "title": "Setup step 3: Specify tables, companies, and start synchronization",
+      "t_start": 177.5,
+      "t_end": 265.9
+    },
+    {
+      "title": "How data appears in OneLake and SQL endpoint",
+      "t_start": 265.9,
+      "t_end": 315.6
+    },
+    {
+      "title": "Power BI apps for Fabric with single and multi-company versions",
+      "t_start": 315.6,
+      "t_end": 427.3
+    },
+    {
+      "title": "Monitoring the integration from Business Central and APIs",
+      "t_start": 427.3,
+      "t_end": 512.8
+    },
+    {
+      "title": "Monitoring from Fabric and permission sets",
+      "t_start": 512.8,
+      "t_end": 564.7
+    },
+    {
+      "title": "Resources and closing",
+      "t_start": 564.7,
+      "t_end": 602
+    }
+  ],
+  "features": [
+    {
+      "name": "Business Central Fabric mirroring",
+      "description": "Live synchronization of Business Central data to Microsoft Fabric's OneLake foundation, enabling data to be queried through SQL endpoints and used in Power BI apps.",
+      "status": "preview",
+      "status_evidence_t": 19.8,
+      "status_evidence_quote": "this is coming in public preview in version 29.x, likely 9 29.1",
+      "status_evidence_verified": true,
+      "t_start": 7,
+      "t_end": 72.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "fabric",
+        "mirroring",
+        "onelake",
+        "integration",
+        "data synchronization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Microsoft Fabric integration app",
+      "description": "New app in Business Central for setting up and managing Fabric integration, including connection setup, table and company selection, and synchronization configuration.",
+      "status": "preview",
+      "status_evidence_t": 19.8,
+      "status_evidence_quote": "this is coming in public preview in version 29.x, likely 9 29.1",
+      "status_evidence_verified": true,
+      "t_start": 132.5,
+      "t_end": 244.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual connection string setup from Fabric",
+        "Configuration packages can be used for ISV solutions"
+      ],
+      "tags": [
+        "fabric",
+        "integration",
+        "app",
+        "setup",
+        "configuration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Mirror database in OneLake",
+      "description": "Tables from Business Central are synchronized and created as Delta Parquet files in Fabric's open mirroring database, abstracted as SQL tables through a SQL endpoint.",
+      "status": "preview",
+      "status_evidence_t": 19.8,
+      "status_evidence_quote": "this is coming in public preview in version 29.x, likely 9 29.1",
+      "status_evidence_verified": true,
+      "t_start": 265.9,
+      "t_end": 315.6,
+      "is_demoed": true,
+      "caveats": [
+        "Tables are Delta Parquet files, not native SQL tables",
+        "Abstraction provided through SQL endpoint"
+      ],
+      "tags": [
+        "fabric",
+        "datalake",
+        "onelake",
+        "delta parquet",
+        "sql endpoint"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Multi-company Power BI apps",
+      "description": "Power BI apps converted to work on Fabric backend with support for both single-company and multi-company versions, allowing filtering and reporting across multiple companies.",
+      "status": "announced",
+      "status_evidence_t": 333.3,
+      "status_evidence_quote": "In two versions, they will be available uh soon either as code samples or on AppSource",
+      "status_evidence_verified": true,
+      "t_start": 315.6,
+      "t_end": 427.3,
+      "is_demoed": true,
+      "caveats": [
+        "Single-company versions similar to embedded apps",
+        "Nine Power BI apps being delivered"
+      ],
+      "tags": [
+        "power bi",
+        "reporting",
+        "multi-company",
+        "fabric",
+        "apps"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Synchronization overview and details logs",
+      "description": "Two types of logs written in Business Central for monitoring synchronization: overview and details views, available in client, via APIs, and in Fabric for administrative monitoring.",
+      "status": "preview",
+      "status_evidence_t": 19.8,
+      "status_evidence_quote": "this is coming in public preview in version 29.x, likely 9 29.1",
+      "status_evidence_verified": true,
+      "t_start": 427.3,
+      "t_end": 512.8,
+      "is_demoed": true,
+      "caveats": [
+        "Includes list views for errors and data",
+        "Details page can be used in analysis mode for custom reports"
+      ],
+      "tags": [
+        "monitoring",
+        "logs",
+        "synchronization",
+        "administration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Fabric integration APIs",
+      "description": "Six new APIs available in Business Central for setup and monitoring of Fabric integration, accessible through the API overview page.",
+      "status": "preview",
+      "status_evidence_t": 19.8,
+      "status_evidence_quote": "this is coming in public preview in version 29.x, likely 9 29.1",
+      "status_evidence_verified": true,
+      "t_start": 499.4,
+      "t_end": 528.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "api",
+        "integration",
+        "fabric",
+        "monitoring"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Fabric integration permission sets",
+      "description": "Permission sets restrict who can set up and manage Fabric integration in Business Central, with separate permissions for activation, administration, and read-only configuration access.",
+      "status": "preview",
+      "status_evidence_t": 19.8,
+      "status_evidence_quote": "this is coming in public preview in version 29.x, likely 9 29.1",
+      "status_evidence_verified": true,
+      "t_start": 539,
+      "t_end": 564.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "permissions",
+        "security",
+        "administration",
+        "fabric"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 19.8,
+      "text": "this is coming in public preview in version 29.x, likely 9 29.1",
+      "why_it_matters": "Establishes the exact release timeline and version for the Fabric mirroring feature.",
+      "check": "exact"
+    },
+    {
+      "t": 48.4,
+      "text": "OneLake is the foundation for all data in Fabric, and this is where you now have the ability to get Business Central data synchronized",
+      "why_it_matters": "Clarifies that OneLake is the target destination and synchronization is live, not batch.",
+      "check": "exact"
+    },
+    {
+      "t": 82.5,
+      "text": "We try to make this as simple as 1 2 3. One, set up a mirroring database in Fabric. Two, connect to Business Central.",
+      "why_it_matters": "Describes the three-step setup process and emphasizes simplicity of the implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 286.6,
+      "text": "They're actually not SQL tables, they're Delta Parquet files, but uh that abstraction has been like uh that has been abstracted away in the",
+      "why_it_matters": "Explains the underlying data format and how it is abstracted for SQL query compatibility.",
+      "check": "exact"
+    },
+    {
+      "t": 315.6,
+      "text": "we converted them as well to to work on the Fabric backend. In two versions, they will be available uh soon either as code",
+      "why_it_matters": "Indicates that Power BI apps are being ported to Fabric and will be delivered in multiple versions.",
+      "check": "exact"
+    },
+    {
+      "t": 402.6,
+      "text": "Almost the same as a single company excepts that you now have a filter on where you can filter as it I want to",
+      "why_it_matters": "Shows how multi-company Power BI apps maintain familiar UI while adding cross-company filtering capability.",
+      "check": "exact"
+    },
+    {
+      "t": 427.3,
+      "text": "We lock or we write two types of logs in Business Central for for this export or synchronization. An overview and details",
+      "why_it_matters": "Specifies the two-level logging approach for monitoring the synchronization process.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 19.8,
+      "kind": "preview",
+      "text": "coming in public preview in version 29.x, likely 9 29.1"
+    },
+    {
+      "t": 333.3,
+      "kind": "coming-later",
+      "text": "In two versions, they will be available uh soon either as code samples or on AppSource"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 7,
+    "evidence_unverified": 0
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.033276
+    }
+  ]
+}

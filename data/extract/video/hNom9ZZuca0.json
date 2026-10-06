@@ -1,0 +1,358 @@
+{
+  "video_id": "hNom9ZZuca0",
+  "item_id": "video/yt-microsoft/hNom9ZZuca0",
+  "title": "What's new: Testability Enhancements (2026 release wave 2)",
+  "duration_s": 604,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "data-driven testing",
+    "test handlers",
+    "test context",
+    "test setup and teardown",
+    "al testing framework",
+    "test explorer",
+    "resource files",
+    "telemetry",
+    "token consumption",
+    "test skipping"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Agenda",
+      "t_start": 0,
+      "t_end": 32.4
+    },
+    {
+      "title": "Data-driven Testing Overview",
+      "t_start": 32.4,
+      "t_end": 73.8
+    },
+    {
+      "title": "Data-driven Testing Demo in VS Code",
+      "t_start": 73.8,
+      "t_end": 143.4
+    },
+    {
+      "title": "Data Source Implementation and Test Context",
+      "t_start": 143.4,
+      "t_end": 222.8
+    },
+    {
+      "title": "Data-driven Testing in AL Tooling",
+      "t_start": 222.8,
+      "t_end": 261.5
+    },
+    {
+      "title": "Test Handlers Concept and Granularity Levels",
+      "t_start": 261.5,
+      "t_end": 312
+    },
+    {
+      "title": "Opt-in vs Default Test Handlers",
+      "t_start": 312,
+      "t_end": 373.8
+    },
+    {
+      "title": "Test Handler Registration and Interface Implementation",
+      "t_start": 373.8,
+      "t_end": 463.6
+    },
+    {
+      "title": "Test Handler Properties and Patterns",
+      "t_start": 463.6,
+      "t_end": 545
+    },
+    {
+      "title": "Use Cases and Conclusion",
+      "t_start": 545,
+      "t_end": 604
+    }
+  ],
+  "features": [
+    {
+      "name": "Data-driven Testing in AL",
+      "description": "A new testing capability allowing a single test method to run with multiple data sets. Enables flexible test expansion by adding data points rather than duplicating test methods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 32.4,
+      "t_end": 222.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "data-driven testing",
+        "test automation",
+        "multiple datasets"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test Data Source Interface",
+      "description": "An interface for implementing custom data sources for data-driven tests. Supports reading from resource files, AL tables, or web services. Returns a strongly-typed test context.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 155.3,
+      "t_end": 208,
+      "is_demoed": true,
+      "caveats": [
+        "Custom implementations can read from resource files, AL tables, or web services"
+      ],
+      "tags": [
+        "test data",
+        "interface",
+        "resource files",
+        "web service"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Data-driven Testing in Visual Studio Code",
+      "description": "Integration of data-driven testing with VS Code test explorer, allowing selective test case execution, debugging, and all standard test explorer features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 89.8,
+      "t_end": 117.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vs code",
+        "test explorer",
+        "debugging",
+        "selective execution"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Data-driven Testing in AL Tooling and MCP",
+      "description": "Support for running data-driven tests via AL tool and AL MCP connection, in addition to VS Code. AI test toolkit currently uses old capabilities and migration is planned.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 222.8,
+      "t_end": 236.9,
+      "is_demoed": false,
+      "caveats": [
+        "AI test toolkit not yet migrated to new capabilities; cannot run from VS Code yet"
+      ],
+      "tags": [
+        "al tooling",
+        "mcp",
+        "test runners"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Test Handlers",
+      "description": "A mechanism for providing test setup and teardown functionality at multiple granularity levels: before/after test codeunit, before/after test procedure, and before/after individual datadriven tests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 261.5,
+      "t_end": 363.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "test setup",
+        "test teardown",
+        "setup",
+        "lifecycle"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Opt-in Test Handlers",
+      "description": "Test handlers that must be explicitly declared by the test codeunit via the test handlers property. Allow granular control over which test handlers apply to specific test codeunits.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 326.3,
+      "t_end": 344.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "opt-in",
+        "registration",
+        "explicit declaration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Default Test Handlers",
+      "description": "Global test handlers that run on every single test automatically without requiring explicit declaration. Useful for telemetry, verifying Microsoft features, and setting up common test infrastructure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 326.3,
+      "t_end": 363.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "default",
+        "global",
+        "telemetry",
+        "automatic execution"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "ITestHandler Interface",
+      "description": "Interface with hooks for before/after logic at codeunit, procedure, and test case levels. All methods have default implementations, allowing selective override.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 425.2,
+      "t_end": 446.5,
+      "is_demoed": true,
+      "caveats": [
+        "Default implementations allow selective override of only needed methods"
+      ],
+      "tags": [
+        "interface",
+        "hooks",
+        "default implementations"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test Handlers Property",
+      "description": "A property on test codeunits allowing registration of test handlers via comma-separated list. Supports self-implementing pattern where the test codeunit itself implements ITestHandler.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 463.6,
+      "t_end": 492.7,
+      "is_demoed": true,
+      "caveats": [
+        "Separate from test toolkit events driven by AL test runners"
+      ],
+      "tags": [
+        "property",
+        "registration",
+        "comma-separated list"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test Case Skipping via Test Handlers",
+      "description": "Ability to conditionally skip test cases using test handlers. Useful for managing resource consumption such as token usage limits and AI credits.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 526.2,
+      "t_end": 565.1,
+      "is_demoed": false,
+      "caveats": [
+        "Requires monitoring and conditional logic implementation"
+      ],
+      "tags": [
+        "test skipping",
+        "token management",
+        "resource consumption"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "interface",
+      "name": "ITestHandler",
+      "t": 425.2
+    },
+    {
+      "type": "interface",
+      "name": "ITestContext",
+      "t": 181.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Thomas",
+      "confidence": "high"
+    },
+    {
+      "name": "Thaddius",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 32.4,
+      "text": "finally we have introduced it into ALE and this allows you for having just a single test point but with testing it with multiple",
+      "why_it_matters": "Establishes that data-driven testing is now generally available in AL, a core feature for this release.",
+      "check": "exact"
+    },
+    {
+      "t": 63,
+      "text": "this is so critical that we can broaden our test um scope to such an extent that we gain the trust uh and confidence",
+      "why_it_matters": "Explains the strategic importance of data-driven testing for increasing test coverage in AI-enabled features.",
+      "check": "exact"
+    },
+    {
+      "t": 208,
+      "text": "So all of this is gives you the the flexibility of implementing just the data source that you uh want and need. So right",
+      "why_it_matters": "Describes the flexibility and extensibility of the data source implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 261.5,
+      "text": "test handlers are a way for us to provide test setup and tear down functionality in ALE",
+      "why_it_matters": "Defines test handlers as a core new testing capability brought back after moving to platform test runners.",
+      "check": "exact"
+    },
+    {
+      "t": 326.3,
+      "text": "we also have these default test handlers uh or I like to think of them as global test handlers because they run on every",
+      "why_it_matters": "Distinguishes default test handlers from opt-in handlers and clarifies their automatic execution model.",
+      "check": "exact"
+    },
+    {
+      "t": 446.5,
+      "text": "a lot of these have well all of these have default implementations. This means that you know if you if you're writing a test",
+      "why_it_matters": "Shows the pragmatic design decision to support selective interface implementation, reducing boilerplate.",
+      "check": "exact"
+    },
+    {
+      "t": 545,
+      "text": "one common use case nowadays for us internally is we use it for managing token consumption. So you might want to say hey u",
+      "why_it_matters": "Provides a concrete use case for test handler skipping in the era of AI-driven features with resource constraints.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 236.9,
+      "kind": "coming-later",
+      "text": "AI test toolkit is not yet using these new capabilities which means that you are not able to run these from Visual Studio Code. Um but that's just a matter of time. we are planning on migrating them to this new system."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.037932999999999995
+    }
+  ]
+}

@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "do not publish events inside loops",
+  "title": "Do not publish events inside loops",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/do-not-publish-events-inside-loops.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.214Z",
+      "blob": "ecebd19ae15b16ce4d04af4e9a112264f11ad911",
+      "words": 205,
+      "forms": 0
     }
   },
   "input_hash": "ecebd19ae15b16ce4d04af4e9a112264f11ad911",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/events/do-not-publish-events-inside-loops.md"
-  }
+    "path": "microsoft/knowledge/events/do-not-publish-events-inside-loops.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 205
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ecebd19ae15b16ce4d04af4e9a112264f11ad911"
 }

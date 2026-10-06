@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-overview",
+  "title": "Designing and coding agents (preview)",
+  "blob": "1b5ae22bab0a91f8f8ca6af16c94c650e4571d6d",
+  "summary": "Design and code agents using the Business Central AI development toolkit to prototype AI-powered features, validate use cases, and experiment with prompts in sandbox environments before building production solutions.",
+  "systems": [
+    "copilot",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "agent design",
+    "agent lifecycle",
+    "prototyping",
+    "permissions and profiles",
+    "sandbox environment",
+    "instruction keywords",
+    "agent tasks",
+    "ai integration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Agents (preview)"
+    }
+  ],
+  "features": [
+    "Agent lifecycle (create, configure, activate, iterate, graduate, cleanup)",
+    "Custom Agent capability",
+    "Instructions and tasks configuration",
+    "Permissions and profile management",
+    "Sandbox-only environment support",
+    "Least privilege permission model",
+    "Custom UI profiles for agents",
+    "Single list per page interaction",
+    "English language support"
+  ],
+  "versions": [
+    "preview",
+    "27.2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01016,
+      "pages_in_call": 3
+    }
+  ]
+}

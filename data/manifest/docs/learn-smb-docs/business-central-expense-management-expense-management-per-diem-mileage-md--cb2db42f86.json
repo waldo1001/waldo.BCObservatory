@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-per-diem-mileage",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "459a847e7d74a9e5ad1fc6ec2dc236692c26713d",
       "words": 1288,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T13:37:45.027Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.009673
+    },
+    "summarized": {
+      "at": "2026-10-06T13:37:45.029Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:37:45.030Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:37:45.030Z",
+      "page": false
     }
   },
   "input_hash": "459a847e7d74a9e5ad1fc6ec2dc236692c26713d",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "459a847e7d74a9e5ad1fc6ec2dc236692c26713d"
+  "output_hash": "6ebd03d99dbb55dbbe064ddf8ebb943ec58854cb268dfd764f618d022d9417aa"
 }

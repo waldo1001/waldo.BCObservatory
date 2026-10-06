@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-unmodified-application-to-v29.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v29",
+  "title": "Upgrade to Business Central 2026 release wave 2 (version 29)",
+  "blob": "8e7375b7f64b879a196469a7873f8803ba956e5b",
+  "summary": "Step-by-step guide to upgrade Business Central from version 25, 26, 27, or 28 to version 29 (2026 release wave 2), covering database conversion, extension publishing, tenant synchronization, data upgrade, and post-upgrade configuration.",
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "upgrade",
+    "version 29",
+    "database conversion",
+    "extension publishing",
+    "tenant synchronization",
+    "data upgrade",
+    "powershell"
+  ],
+  "objects": [],
+  "features": [
+    "Application database conversion",
+    "Extension publishing and synchronization",
+    "Tenant mounting and synchronization",
+    "Data upgrade execution",
+    "Permission set migration",
+    "License import",
+    "Task scheduler configuration",
+    "Encryption management"
+  ],
+  "versions": [
+    "2026 release wave 2",
+    "version 29",
+    "version 28",
+    "version 27",
+    "version 26",
+    "version 25"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027574,
+      "pages_in_call": 1
+    }
+  ]
+}

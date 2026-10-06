@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Manufacturing Foundations Capacities (2026)",
   "url": "https://www.youtube.com/watch?v=zt9_HEmPKNg",
-  "published_at": null,
+  "published_at": "2026-09-08T11:44:53.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:09:27.517Z",
+      "captions": "auto:en-orig",
+      "duration_s": 355
+    },
+    "captioned": {
+      "at": "2026-10-06T13:09:36.184Z",
+      "path": "data/captions/microsoft/zt9_HEmPKNg.vtt",
+      "vtt_sha256": "d7b5c29dee74ea5c0ac704ed7bd412e07c89bad38fbc8b8c7c383999f5a9373e",
+      "segments": 30,
+      "words": 864,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 40,
-    "duration_s": 356,
-    "via": "reconcile"
-  }
+    "duration_s": 355,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d7b5c29dee74ea5c0ac704ed7bd412e07c89bad38fbc8b8c7c383999f5a9373e"
 }

@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "preserve onafter execution when ishandled skips the body",
+  "title": "Preserve OnAfter execution when IsHandled skips the body",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/preserve-onafter-execution-when-ishandled-skips-the-body.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.251Z",
+      "blob": "10b7fd14930d1482f526011a6516e87ef4bcfc43",
+      "words": 220,
+      "forms": 0
     }
   },
   "input_hash": "10b7fd14930d1482f526011a6516e87ef4bcfc43",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/events/preserve-onafter-execution-when-ishandled-skips-the-body.md"
-  }
+    "path": "microsoft/knowledge/events/preserve-onafter-execution-when-ishandled-skips-the-body.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 220
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "10b7fd14930d1482f526011a6516e87ef4bcfc43"
 }

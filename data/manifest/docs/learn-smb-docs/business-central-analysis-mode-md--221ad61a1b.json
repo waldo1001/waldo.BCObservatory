@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/analysis-mode",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "eed5a379211b01dd22bea01544ac2e2305c59ee6",
       "words": 3631,
       "forms": 24
+    },
+    "extracted": {
+      "at": "2026-10-06T13:36:41.450Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.016837
+    },
+    "summarized": {
+      "at": "2026-10-06T13:36:41.500Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:36:41.500Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:36:41.501Z",
+      "page": false
     }
   },
   "input_hash": "eed5a379211b01dd22bea01544ac2e2305c59ee6",
@@ -156,5 +175,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eed5a379211b01dd22bea01544ac2e2305c59ee6"
+  "output_hash": "7a483e9f0a230e9a7bb464806d0c2af09b717fc1a6d267d687e963e310a68853"
 }

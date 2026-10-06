@@ -2,7 +2,7 @@
 id: topic/business-central/copilot-and-agent-capabilities/map-e-documents-preview
 type: topic
 title: Map E-Documents (preview)
-summary: "Learn section Copilot and agent capabilities > Map E-Documents (preview): 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Map E-Documents (preview) covers the deprecated Copilot feature E-documents Matching Assistance, which matches incoming e-invoice lines to purchase order lines. It answers what the feature did, how matching works, and that the Payables Agent replaces it.
 tier: official
 language: en
 system: copilot
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T13:43:32.763Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: a2c0173841accde9f24a48310dde1fe9baf16fd7761a9151b557dfb48baba957
+  prompts:
+    hub-topic: 1
+  input_hash: 9d23815b94a6987559e72db33bf42c11bf3df6ffb5e843c562d3de9ae19e713a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/faqs-map-edocuments
@@ -57,14 +58,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: a2c0173841accde9f24a48310dde1fe9baf16fd7761a9151b557dfb48baba957
-narrative: none
+narrative: generated
 ---
 
 # Map E-Documents (preview)
 
-> Learn section Copilot and agent capabilities > Map E-Documents (preview): 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Map E-Documents (preview) covers the deprecated Copilot feature E-documents Matching Assistance, which matches incoming e-invoice lines to purchase order lines. It answers what the feature did, how matching works, and that the Payables Agent replaces it.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Map E-Documents (preview) · tier official · system copilot · no narrative yet
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Map E-Documents (preview) · tier official · system copilot · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section describes E-documents Matching Assistance, a preview Copilot feature that links lines of incoming electronic invoices to purchase order lines. Copilot analyzes descriptions, units of measure, quantities, and amounts to propose matches. The section is marked deprecated in favor of the Payables Agent.
+
+There are two pages. One is the how-to page on mapping e-documents to purchase order lines with Copilot, covering line mapping, automatic matching, price analysis, and quantity checking. The other is an FAQ about mapping e-documents with purchase orders, which explains how the AI-powered matching works and how it relates to manual line matching.
+
+Start with the how-to page to understand the workflow, then read the FAQ for the matching criteria. Because both pages state the feature is deprecated, check the Payables Agent for new work on vendor invoice matching and purchase order updates.
+
+## Key points
+
+- E-documents Matching Assistance uses Copilot to match incoming e-invoice lines with purchase order lines.
+- Matching looks at descriptions, units of measure, quantities, and amounts.
+- The feature is in preview and is deprecated.
+- The Payables Agent replaces it for automating vendor invoice matching and purchase order updates.
+- Related capabilities named in the pages: Map E-Document Lines with Copilot and Match Purchase Order with Copilot.
+- The how-to page covers automatic matching, price analysis, and quantity checking.
+- Manual purchase order line matching remains an alternative to the AI-powered matching.
 
 ## Learn pages
 

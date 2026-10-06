@@ -1,0 +1,637 @@
+{
+  "video_id": "aNRzlbxVPWE",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 4.2,
+      "end": 15.4,
+      "text": "Now, we are going to show you how you can write the test yourself and how you can structure your AL tests for the agent demos."
+    },
+    {
+      "t": 15.4,
+      "end": 26,
+      "text": "And to begin, we are going to start with the mapping the agent task flow. So, let's map what agent is doing when it is completing a task."
+    },
+    {
+      "t": 26,
+      "end": 41.8,
+      "text": "The first step is that a message is going to arrive, which may or may not include attachments. And this is usually the starting point of the task. Your agent might be triggered through a job you or an action that the user invokes,"
+    },
+    {
+      "t": 41.8,
+      "end": 59.5,
+      "text": "but it is going to end up in a task with a message and potential of you attachments. Then the next thing is that the agent is going to log in and is going to perform certain steps and actions, and this is always going to end up with one of the following."
+    },
+    {
+      "t": 59.5,
+      "end": 69.7,
+      "text": "It is either going to create a message for you to review. It is going to ask you to review the specific records that it has created."
+    },
+    {
+      "t": 69.7,
+      "end": 84.5,
+      "text": "Or it is going to be stuck and it is going to ask for the user intervention for the user to actually unblock the agent. And if the task was a single turn, it's going to end here."
+    },
+    {
+      "t": 84.5,
+      "end": 97.3,
+      "text": "If it is a multi-turn conversation or a task, then we are going to give it a new message, and this essentially starts a new loop."
+    },
+    {
+      "t": 97.3,
+      "end": 109.6,
+      "text": "Now, since we know that ERP is quite busy and there is a lot of users and code that is changing the data, data might be changed between the messages."
+    },
+    {
+      "t": 109.6,
+      "end": 120.5,
+      "text": "So, there can be a day passing or even maybe multiple days. Users and AL code might change the data without the agent knowing."
+    },
+    {
+      "t": 120.5,
+      "end": 136.3,
+      "text": "So, this is one of the metrics that we also need to take into the consideration when we are writing a genetic test. Mainly, the question is will agent be able to pick up these changes and do the right thing?"
+    },
+    {
+      "t": 136.3,
+      "end": 149.3,
+      "text": "So, for the big question is how do we test this flow? And in order to test this flow, we are going to write the evils. And evil is going to follow this flow exactly."
+    },
+    {
+      "t": 149.3,
+      "end": 165.5,
+      "text": "But, we will need few additional steps. One step that we need to add is to verify the outputs when the turn is done. So, here you want to check if it ended with message or the user intervention or a review request."
+    },
+    {
+      "t": 165.5,
+      "end": 176.7,
+      "text": "So, you need to tell to the test what you expect the agent to end the turn with. And you also have the ability to verify the data that it created."
+    },
+    {
+      "t": 176.7,
+      "end": 196.2,
+      "text": "So, if it is supposed to create an invoices or update customers or create any other data, you can verify this programmatically now. Then, you can also change the data from AL programmatically and you can instrument the messages which are coming."
+    },
+    {
+      "t": 196.2,
+      "end": 207.4,
+      "text": "But, additional thing that you will need to do in most of the cases is to do a suit setup. And in suit setup, you're going to create the data for the agent to use."
+    },
+    {
+      "t": 207.4,
+      "end": 223.9,
+      "text": "And the reason why this is is important is because either you're missing these records in the demo data. And the second reason why doing your own suit setup is important is the fact that agent knows our demo data from internet."
+    },
+    {
+      "t": 223.9,
+      "end": 234.1,
+      "text": "So, in our testing, we discovered that it wasn't searching for the customer 10,000. It knew that the customer 10,000 is the Canon group."
+    },
+    {
+      "t": 234.1,
+      "end": 252.8,
+      "text": "It also knew all of our item numbers and similar data. So, the thing that we are recommending to be certain that it is not a knowledge that is coming from the training of the model is to create your own master records."
+    },
+    {
+      "t": 252.8,
+      "end": 270,
+      "text": "All right. In order to automate this flow, we are going to be using AL tests. So, we will be writing code in AL, but our main component is actually going to be animal data sets, because the test that we are going to write"
+    },
+    {
+      "t": 270,
+      "end": 281.6,
+      "text": "are going to be actual data-driven tests specified in YAML. The next component is library agent, which is going to help you to automate every step."
+    },
+    {
+      "t": 281.6,
+      "end": 297,
+      "text": "If you look at this picture, everything that is colored light blue, you're able to automate through data sets and library agent. The dark blue part, where the agent is acting, is going to be running as a separate session,"
+    },
+    {
+      "t": 297,
+      "end": 309.4,
+      "text": "and over this one you will not have control. Maybe you can control it a little bit through some specific AL code and event subscribers,"
+    },
+    {
+      "t": 309.4,
+      "end": 324.1,
+      "text": "but it runs as a separate session, and you cannot influence the agent directly. When we were building the framework, one of the main things that we wanted to do is to make it fully customizable."
+    },
+    {
+      "t": 324.1,
+      "end": 335,
+      "text": "So, we were aiming to provide you with small building blocks, and keep in mind that you can arrange it as you like. I will show you which parts we have built to be extensible"
+    },
+    {
+      "t": 335,
+      "end": 347.5,
+      "text": "and customizable out of the box, but basically, you do not need to use our framework. You have the atomic functions, so you can arrange it as you like."
+    },
+    {
+      "t": 347.5,
+      "end": 358.4,
+      "text": "All right. So, let's look at this main component, which is the data-driven tests, which are driving the test execution. And for this"
+    },
+    {
+      "t": 358.4,
+      "end": 377.3,
+      "text": "example today, we are going to show you how you can automate the sales return process. The process is that the email comes with the attachments, the customer is complaining, and we expect that the agent should create a credit memo."
+    },
+    {
+      "t": 377.3,
+      "end": 389.8,
+      "text": "So, to look at the YAML file on the left, you can see that on the top you're using the suit setup, and here you would be referencing the suit setup by using the code."
+    },
+    {
+      "t": 389.8,
+      "end": 400.2,
+      "text": "And this is the input test input code. If you specify it like this, we're going to read this file automatically and provide it to the test."
+    },
+    {
+      "t": 400.2,
+      "end": 411.4,
+      "text": "And then you are able to do the suit setup. The next part that you can see underneath it is the test definition, and in the test definition,"
+    },
+    {
+      "t": 411.4,
+      "end": 428.8,
+      "text": "you provide the name, description, and turns. The turns you can specify as you like. We have built many predefined sections already, which are mapping to the steps that the agent is able to do."
+    },
+    {
+      "t": 428.8,
+      "end": 439,
+      "text": "If you need a single turn test, you still use the multi-turns syntax, you simply we just define a single turn."
+    },
+    {
+      "t": 439,
+      "end": 455.4,
+      "text": "Now, the thing that we would really highlight is that it is very good for you to use our own section, and add to your structures to our own sections within them by using the predefined extensibility points."
+    },
+    {
+      "t": 455.4,
+      "end": 467.3,
+      "text": "You can also add your own sections if needed. However, we would strongly recommend that you follow the structure that we have been talking here."
+    },
+    {
+      "t": 467.3,
+      "end": 478.8,
+      "text": "So, one of the main predefined sections that we have here, which is the first one, is called turn setup. And here you are able to create the data before the agent is acting."
+    },
+    {
+      "t": 478.8,
+      "end": 491.8,
+      "text": "So, you can create the data that is existing before you give the task to the agent. Or you can simulate this thing that something has happened and then you're expecting the agent to pick it up and continue."
+    },
+    {
+      "t": 491.8,
+      "end": 503.4,
+      "text": "In this example, you can see how we are creating and posting the sales invoice that the customer is complaining about. So, we are able to continue with the return process."
+    },
+    {
+      "t": 503.4,
+      "end": 516.6,
+      "text": "And this part is going to be fully done in AL. The predefined sections are on the top. And things that I have highlighted here is the free format."
+    },
+    {
+      "t": 516.6,
+      "end": 529.4,
+      "text": "We have defined it like this for our own test. And for your own tests, you can define it as you like because you will be accessing this data through the by using the AL code."
+    },
+    {
+      "t": 529.4,
+      "end": 539.7,
+      "text": "Thus, you can name the properties as you like. Then the next section is here, the message arriving. And you can"
+    },
+    {
+      "t": 539.7,
+      "end": 551,
+      "text": "instruct the agent to do the task by using query. Within the query, you can fill all of the things that are needed for the task."
+    },
+    {
+      "t": 551,
+      "end": 562.8,
+      "text": "So, you can define from who the message is, title, the message body. And also the very interesting and cool part is that you can attach the files."
+    },
+    {
+      "t": 562.8,
+      "end": 578,
+      "text": "In the first example, you can see that you can use resources and point to the resource that we should attach to the message when you give it to the agent. So, it is possible to attach images and different things for the agent to process."
+    },
+    {
+      "t": 578,
+      "end": 592.6,
+      "text": "But also on right underneath it, you can run the AL code, which is going to print a report. We will save it into the stream and automatically convert it into attachment."
+    },
+    {
+      "t": 592.6,
+      "end": 610.8,
+      "text": "And in order to use this one, you need to name your own action type. And then everything under the action data is free format. You can define it as you like because you will be using it in AL code to generate this report."
+    },
+    {
+      "t": 610.8,
+      "end": 625.1,
+      "text": "This dynamic structure is quite useful because the dates are changing. Also, some of the unit prices and something else might change. So, this is giving you a lot of flexibility to generate the attachments."
+    },
+    {
+      "t": 625.1,
+      "end": 637.6,
+      "text": "Then when you give the task to the agent, it's going to run. And then we are going to move to verify the output. And in order to verify the output, there is a section which is called expected data."
+    },
+    {
+      "t": 637.6,
+      "end": 648.3,
+      "text": "Here you can say that it is the intervention request. It's possible to specify which type of the intervention request it is, mapping to the three possible outcomes."
+    },
+    {
+      "t": 648.3,
+      "end": 664.5,
+      "text": "And you can also specify the codes of suggested actions that you expect the agent to provide. Unfortunately, currently it's not possible to check on the message if the message of the intervention request as as you expecting it."
+    },
+    {
+      "t": 664.5,
+      "end": 669.1,
+      "text": "But we are planning that."
+    },
+    {
+      "t": 669.1,
+      "end": 683.1,
+      "text": "The rest of the payload of the expected data is a free format again, and you can structure it as you like. And here you can use it to verify if in this example, you for example, the credit memo is created"
+    },
+    {
+      "t": 683.1,
+      "end": 694,
+      "text": "with all of the lines and unit price and all of the other fields that you would like to check programmatically if the agent gets created correctly."
+    },
+    {
+      "t": 694,
+      "end": 708,
+      "text": "And then to start the next turn, if you want to have a multi-turn test, so here we would say to the agent is that it is approved. And please post the credit memo because the agent should not proceed with posting"
+    },
+    {
+      "t": 708,
+      "end": 722.2,
+      "text": "before user approves. It's quite simple. You follow the same syntax as we did on the first turn. In this example, we do not have the setup data, so we didn't change anything between the steps."
+    },
+    {
+      "t": 722.2,
+      "end": 738,
+      "text": "But you could have added it. We are moving straight into the query. And instead of the message, we are providing the user intervention. So it is possible to even mock the user interventions providing the steps to the agent what the agent should do."
+    },
+    {
+      "t": 738,
+      "end": 748.3,
+      "text": "And then agent is going to start running. And then on the next step, we are going to verify the expected data. Does the posted invoice exist"
+    },
+    {
+      "t": 748.3,
+      "end": 752.3,
+      "text": "with the following date?"
+    },
+    {
+      "t": 752.3,
+      "end": 763.5,
+      "text": "Yes. And also this part of the body of the expected data is a pre-format. You can specify it as you like and you would implement the validation yourself."
+    },
+    {
+      "t": 763.5,
+      "end": 773.9,
+      "text": "So in short, the YAML files are allowing you flexibility. And you are able to use these YAML files to automate every step of the agent flow."
+    },
+    {
+      "t": 773.9,
+      "end": 784.7,
+      "text": "And as I said, our strong recommendation to use to follow the main structure to make have test name, description, and turn syntax that you have seen."
+    },
+    {
+      "t": 784.7,
+      "end": 804.7,
+      "text": "And our also recommendation to use to reuse our sections. You can add your sections as you have seen. But let us know if you need more because there might be concepts that we are missing that we can add to the tool and make the tool better for everyone."
+    },
+    {
+      "t": 804.7,
+      "end": 816.2,
+      "text": "So now, before we proceed, there is an additional cool thing that we have added to the data driven testing and that's placeholders, which is making it even more powerful."
+    },
+    {
+      "t": 816.2,
+      "end": 827.7,
+      "text": "So, for the placeholders, the problem that it is solving is that you have some text that you need to change dynamically. Uh Business Central is using dates a lot."
+    },
+    {
+      "t": 827.7,
+      "end": 840.9,
+      "text": "And a lot of business logic is actually tied to the work date. If I would implement this XML file with the message and the hardcoded date like this, which is mapping today,"
+    },
+    {
+      "t": 840.9,
+      "end": 853.8,
+      "text": "the problem is that in the tests, I would need to change this one quite often. And the solution that we did is that now you can replace the dates with placeholders like this."
+    },
+    {
+      "t": 853.8,
+      "end": 863.8,
+      "text": "And this is going to calculate dynamically the work date based on the current work date and the formula that you provide here."
+    },
+    {
+      "t": 863.8,
+      "end": 877.9,
+      "text": "So, now in the test, if you are trying to get the input for the message when you call it, when we call today, the platform is automatically going to calculate the work date and return you today."
+    },
+    {
+      "t": 877.9,
+      "end": 892.6,
+      "text": "And then, let's say that next month you're running it, it is going to automatically replace these dates for you. So, you can get the files that are quite easy to support."
+    },
+    {
+      "t": 892.6,
+      "end": 903,
+      "text": "Besides the date formulas, we're also supporting date time formulas and you can provide them like this. We have the ability to add even more."
+    },
+    {
+      "t": 903,
+      "end": 917.1,
+      "text": "So, if you need something, let us know and we can see to extend the tool to provide more placeholders. And the everything is documented here under the official documentation."
+    },
+    {
+      "t": 917.1,
+      "end": 929.9,
+      "text": "So, if you go on to the agent testing topic, you'll find the data sets. The thing that I would like to really highlight is that this is not specific for agent testing."
+    },
+    {
+      "t": 929.9,
+      "end": 938.7,
+      "text": "You can also use it for data-driven tests outside of the in tests."
+    },
+    {
+      "t": 938.7,
+      "end": 952.3,
+      "text": "All right. So, you have seen how we can write the data-driven test by using YAMLs. The then then the next step is writing the AL test and using the library agent to automate every step."
+    },
+    {
+      "t": 952.3,
+      "end": 966.8,
+      "text": "So, let's see how we can use these data sets. The test structure is going to be more or less similar for every test. The first step is to initialize as we usually initialize in the tests."
+    },
+    {
+      "t": 966.8,
+      "end": 985,
+      "text": "And this one is actually mapping to the suit setup. If you look at how the code looks like, within the test itself, the first section that you will see in the example is this one where we are trying to get the agent from the test suit."
+    },
+    {
+      "t": 985,
+      "end": 1001.4,
+      "text": "This one is actually allowing your test to use the picker that Quintin has shown you in the demo. So, you can test You can run the same tests on different agents, change their instructions, maybe change the model, and see how that the test perform."
+    },
+    {
+      "t": 1001.4,
+      "end": 1012.4,
+      "text": "And you achieve this by adding these three lines to your test. Then the next step is to set up the data per suit."
+    },
+    {
+      "t": 1012.4,
+      "end": 1023.9,
+      "text": "And here you're going to And the last step is basically to clean up after every run. And the good idea is to clean up after every test."
+    },
+    {
+      "t": 1023.9,
+      "end": 1034.1,
+      "text": "And we would recommend you to read more. In this example, we are clearing up all of the sales credit memos and unposted sales invoices."
+    },
+    {
+      "t": 1034.1,
+      "end": 1043.5,
+      "text": "So, be assured that the data that we are giving to the agent is as we would like it to be."
+    },
+    {
+      "t": 1043.5,
+      "end": 1054.9,
+      "text": "To set up this huge setup to provide this huge setup to the test, you're going to start by using the dedicated keyword and check if the huge setup was done."
+    },
+    {
+      "t": 1054.9,
+      "end": 1065.7,
+      "text": "And then you can get the content of the file by using get eval suit setup data input, which is also a built-in keyword."
+    },
+    {
+      "t": 1065.7,
+      "end": 1078.8,
+      "text": "If you remember the sections that I was describing, so this huge setup that we have defined here, the platform code is automatically going to find this input, which is looking something like this."
+    },
+    {
+      "t": 1078.8,
+      "end": 1095.4,
+      "text": "And you can see it's a large file, so we have moved it to a separate file. And here we are basically creating customers. And then a little bit underneath, we are creating items because we want to have different customers and different items."
+    },
+    {
+      "t": 1095.4,
+      "end": 1108.2,
+      "text": "Important thing to highlight is that we have not defined all of the fields, but only the fields that are interesting for the test and interesting for the agent to test on."
+    },
+    {
+      "t": 1108.2,
+      "end": 1120.4,
+      "text": "So, we are going to default the other fields like posting groups units of measure automatically by using test libraries."
+    },
+    {
+      "t": 1120.4,
+      "end": 1136.8,
+      "text": "Then, once you got to the content, you are going to need you you'll need to write real code to do the setup. So, here we are using a test library and programmatically through AL, we are creating customers, items, and posted sales invoices."
+    },
+    {
+      "t": 1136.8,
+      "end": 1149.1,
+      "text": "The code is looking something like this. And here you can see that we are using a library to create a customer, which is our standard test library that we would use in the other tests."
+    },
+    {
+      "t": 1149.1,
+      "end": 1166.2,
+      "text": "And then on all of these properties, we are reading them from the YAML and automatically replacing them. If you follow this kind of the structure, you're going to get a lot of stability because libraries are there to shield you from the product changes."
+    },
+    {
+      "t": 1166.2,
+      "end": 1172.7,
+      "text": "And we would recommend to you to set only the fields that are necessary."
+    },
+    {
+      "t": 1172.7,
+      "end": 1183,
+      "text": "In the end, you're going to set the suit as completed and then when the next run is happening, you're not going to spend time running this code again."
+    },
+    {
+      "t": 1183,
+      "end": 1195.1,
+      "text": "So, it is going to run once per test suite run. Or you can even make it to run across the different suits and across the different code units."
+    },
+    {
+      "t": 1195.1,
+      "end": 1208.9,
+      "text": "Because you control when this code is executed by using the old code. Meaning, you do not necessarily need to use this pattern. You can code it as you like."
+    },
+    {
+      "t": 1208.9,
+      "end": 1219.7,
+      "text": "So, that was all about the suit setup. The next step is the turn setup and this one is quite similar to the suit setup."
+    },
+    {
+      "t": 1219.7,
+      "end": 1236.3,
+      "text": "It's following the same things. So, you would still use the libraries to create the data and then you're going to use the YAML file to change the interesting parts of the data itself."
+    },
+    {
+      "t": 1236.3,
+      "end": 1246.5,
+      "text": "Um the difference between the two is that this one is going to read from a different part of the YAML. So, this one is connected to the turn."
+    },
+    {
+      "t": 1246.5,
+      "end": 1254.8,
+      "text": "And then when each turn is happening, you can do the different setup options."
+    },
+    {
+      "t": 1254.8,
+      "end": 1265,
+      "text": "Then the next part is when the message arrives and to to mock this entire part, you can use this building keyword which is called run turn and wait."
+    },
+    {
+      "t": 1265,
+      "end": 1279.5,
+      "text": "And essentially, this helper method is helping you to provide both the input message and the user intervention to the agent. >> [snorts] >> So, the helper method is going to read this query that you have seen in the input file."
+    },
+    {
+      "t": 1279.5,
+      "end": 1291.9,
+      "text": "It is going to parse all of the properties that you have, import the attachments, and even call your code to insert the files, and you can run it automatically"
+    },
+    {
+      "t": 1291.9,
+      "end": 1313.1,
+      "text": "and don't think about it. Also, if you're providing the user intervention, we are automatically going to read it from the input. We will see that you want to do the intervention request, and we are going to call the appropriate method to unblock the agent and to continue the task."
+    },
+    {
+      "t": 1313.1,
+      "end": 1323.4,
+      "text": "Once this one is done, you're going to validate if the turn is successful. And this is being done by writing the code."
+    },
+    {
+      "t": 1323.4,
+      "end": 1334.2,
+      "text": "There is a built-in keyword, which is called get expected data, which is going to read the YAML file and give you the expected data."
+    },
+    {
+      "t": 1334.2,
+      "end": 1346.4,
+      "text": "If you remember, this section is looking like this. So, here now in the AL test, you can use all of these properties and assert if it is correct."
+    },
+    {
+      "t": 1346.4,
+      "end": 1357.9,
+      "text": "The thing that I would really like to highlight here is that you're not using the asserts to check the data. We are actually using the text field, which is called error reason."
+    },
+    {
+      "t": 1357.9,
+      "end": 1373.5,
+      "text": "And the idea is that you check and you find everything that is wrong, and you add it to the error reason, and then you return true if it is validated successfully, or false if you have actually find any kind of issues,"
+    },
+    {
+      "t": 1373.5,
+      "end": 1379.2,
+      "text": "and you want to stop the test."
+    },
+    {
+      "t": 1379.2,
+      "end": 1390.2,
+      "text": "All right. And the last thing is that you need to finalize the turn. You can use this by using the building keyword which is called finalize turn."
+    },
+    {
+      "t": 1390.2,
+      "end": 1401.9,
+      "text": "This is a wrapper which is going to store the result and save a lot of data about the task and the output to the history and log."
+    },
+    {
+      "t": 1401.9,
+      "end": 1419.4,
+      "text": "And it also checks if there is the next turn defined. And then you can proceed with the next turn or not. The one of the reasons why you should use this one is because if you use this method that I have just shown you to save the results,"
+    },
+    {
+      "t": 1419.4,
+      "end": 1431.8,
+      "text": "you in the UI you can invoke the log entries. And here in the error text, you're going to automatically get why did it fail in the fact box."
+    },
+    {
+      "t": 1431.8,
+      "end": 1443.4,
+      "text": "In the demo that Quentin did, this fact box was not visible. We have added it recently. So, this fact box can give you a quick input why the failed."
+    },
+    {
+      "t": 1443.4,
+      "end": 1454.2,
+      "text": "And it is also providing you a quick way to navigate to this to the steps. And the second thing that you can do here is that you can download it."
+    },
+    {
+      "t": 1454.2,
+      "end": 1470.6,
+      "text": "And then if you download it, you're going to get a large file which is containing the serialized output about tasks, steps, inputs, expected data, error message that you logged, and any other outputs that you find relevant for logging."
+    },
+    {
+      "t": 1470.6,
+      "end": 1483.2,
+      "text": "These files are built in so you can upload them to the Azure AI foundry and run the LLM judges on them so you can get some analysis if you use this kind of approach."
+    },
+    {
+      "t": 1483.2,
+      "end": 1497.7,
+      "text": "And the thing that we are also using it, which is quite useful, is to use the agents to analyze what happened to the test and improve the tests and the instructions by using these logs."
+    },
+    {
+      "t": 1497.7,
+      "end": 1510,
+      "text": "All right. And the last topic is how you can customize this. So, you have seen how we have wrapped it and the main flow that you can use to build the tests."
+    },
+    {
+      "t": 1510,
+      "end": 1524.5,
+      "text": "But, you are able to customize and arrange the tests as you like. So, if you would like to build different tests or if you would like to use a different approach to testing, you can do this."
+    },
+    {
+      "t": 1524.5,
+      "end": 1536.6,
+      "text": "For this, we have added the library agent. It has 27 public methods which will allow you to automate every single interaction that you can do with the agent."
+    },
+    {
+      "t": 1536.6,
+      "end": 1549.3,
+      "text": ">> [snorts] >> It is supporting asynchronous operations. So, every task that is asynchronous, it has and wait in the name. So, it is ending with and wait."
+    },
+    {
+      "t": 1549.3,
+      "end": 1562.7,
+      "text": "Platform is automatically going to wait for the specific operation to end. One of the methods that I would like to highlight is that is very useful is wait for the task to complete."
+    },
+    {
+      "t": 1562.7,
+      "end": 1575.7,
+      "text": "And this one is quite good if you are going to invoke the agent through the action or AL code. So, you would like to programmatically invoke the action as you would like. You can fetch the task that it was created."
+    },
+    {
+      "t": 1575.7,
+      "end": 1587.6,
+      "text": "And then, for example, you can wait for the task to complete. So, I would recommend to you check out this library. We believe that the methods are well documented"
+    },
+    {
+      "t": 1587.6,
+      "end": 1597.8,
+      "text": "and let us know if you have any questions or if you find any methods that are missing."
+    }
+  ],
+  "markers": [
+    {
+      "t": 394.314,
+      "text": "[snorts]"
+    },
+    {
+      "t": 1209.143,
+      "text": "[snorts]"
+    }
+  ],
+  "word_count": 3982
+}

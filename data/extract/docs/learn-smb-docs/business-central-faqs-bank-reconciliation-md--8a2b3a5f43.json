@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/faqs-bank-reconciliation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-bank-reconciliation",
+  "title": "FAQ for bank account reconciliation assist with Copilot (preview)",
+  "blob": "e4e87f4040c7201cf0126e604fe5e1093839252f",
+  "summary": "Bank reconciliation assist uses Copilot to reduce manual effort in matching bank transactions with ledger entries and suggesting appropriate G/L accounts for posting unmatched transactions.",
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "topics": [
+    "bank-reconciliation",
+    "copilot",
+    "ai-assisted",
+    "ledger-matching",
+    "responsible-ai"
+  ],
+  "objects": [],
+  "features": [
+    "transaction matching",
+    "G/L account suggestions",
+    "bank statement import",
+    "ledger entry matching"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009138,
+      "pages_in_call": 3
+    }
+  ]
+}

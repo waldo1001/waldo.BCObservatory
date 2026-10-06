@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/copilot-agents-region-language-availability",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0c9bbdcdf561524f3421aa5d65bea14cd614bda8",
       "words": 1244,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:37:07.418Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00828
+    },
+    "summarized": {
+      "at": "2026-10-06T13:37:07.429Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:37:07.429Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:37:07.429Z",
+      "page": false
     }
   },
   "input_hash": "0c9bbdcdf561524f3421aa5d65bea14cd614bda8",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0c9bbdcdf561524f3421aa5d65bea14cd614bda8"
+  "output_hash": "4d31c2f3546df23d082e62e2e63e350def5c81cc9ebc0e7c5752d8b4141b89c8"
 }

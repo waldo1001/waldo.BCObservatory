@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "validate table relation false suppresses rename propagation",
+  "title": "`ValidateTableRelation = false` suppresses rename propagation, not just input validation",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.129Z",
+      "blob": "0131edbf332a83cc3dfaaac5f8173692b0bd172f",
+      "words": 383,
+      "forms": 0
     }
   },
   "input_hash": "0131edbf332a83cc3dfaaac5f8173692b0bd172f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.md"
-  }
+    "path": "microsoft/knowledge/data-modeling/validate-table-relation-false-suppresses-rename-propagation.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 383
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0131edbf332a83cc3dfaaac5f8173692b0bd172f"
 }

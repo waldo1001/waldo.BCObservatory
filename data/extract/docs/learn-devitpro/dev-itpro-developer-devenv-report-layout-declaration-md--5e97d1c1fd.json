@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-report-layout-declaration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-layout-declaration",
+  "title": "Define Report Layouts in AL for Business Central",
+  "blob": "c0910f712ec1d2f672f9d79fab1a317d02947318",
+  "summary": "Report layouts in AL are declared using the rendering section with multiple named layouts (RDLC, Word, Excel, or Custom types), or legacy layout properties. Word layouts support composite rendering with separate header, footer, and theme parts.",
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "report layouts",
+    "rendering section",
+    "word layouts",
+    "rdlc",
+    "composite layouts"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Report Object"
+    },
+    {
+      "type": "report",
+      "name": "Report Extension Object"
+    }
+  ],
+  "features": [
+    "rendering section",
+    "layout declaration",
+    "multiple named layouts",
+    "Word layout subtypes (Default, Body, HeaderFooter, Theme)",
+    "RDLC layouts",
+    "Excel layouts",
+    "Custom layouts",
+    "DefaultRenderingLayout property",
+    "DefaultHeaderFooterPart property",
+    "DefaultThemePart property",
+    "MIME type support for custom layouts",
+    "portable layout file paths"
+  ],
+  "versions": [
+    "2024 release wave 1",
+    "runtime 18.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012738,
+      "pages_in_call": 3
+    }
+  ]
+}

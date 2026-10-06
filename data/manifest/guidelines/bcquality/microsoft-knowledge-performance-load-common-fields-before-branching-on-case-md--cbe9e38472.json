@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "load common fields before branching on case",
+  "title": "Load common fields before branching on case",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/load-common-fields-before-branching-on-case.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.431Z",
+      "blob": "6a48663dfb035022d7cf0cfe55587640d6369d21",
+      "words": 167,
+      "forms": 0
     }
   },
   "input_hash": "6a48663dfb035022d7cf0cfe55587640d6369d21",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/load-common-fields-before-branching-on-case.md"
-  }
+    "path": "microsoft/knowledge/performance/load-common-fields-before-branching-on-case.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 167
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6a48663dfb035022d7cf0cfe55587640d6369d21"
 }

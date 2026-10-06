@@ -1,0 +1,303 @@
+{
+  "video_id": "IAacWsvav1E",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.2,
+      "end": 22.3,
+      "text": ">> Welcome to this 2026 release wave one launch edition of Business Central. This session is super cool and I'm very excited because I've been waiting for us to present this ever since I started in Microsoft 10 years ago."
+    },
+    {
+      "t": 22.3,
+      "end": 37.9,
+      "text": "It's about enhanced index management. My name is Kenny Pontoppidan. I work on the product team and with me I have Mass. My name is Mass Gram. I'm one of the engineers in the server team and I was one of the people who made this feature and happy to show this off."
+    },
+    {
+      "t": 37.9,
+      "end": 58.4,
+      "text": "Awesome. Let's uh just talk a little bit about why we did this. So, there are at least three things that are relevant here. First is that you can now analyze your data performance and based on that you can make it faster um and maybe also save something on your storage."
+    },
+    {
+      "t": 58.4,
+      "end": 69.7,
+      "text": "We just have two demos, but they are really important things. First is that you can use the table data information management page to go and see your index structure."
+    },
+    {
+      "t": 69.7,
+      "end": 82.6,
+      "text": "Based on that you can then turn indexes on and off. So, let's let's start with a demo on uh how this new page what it does, what you can use it for."
+    },
+    {
+      "t": 82.6,
+      "end": 98,
+      "text": "So, Mass take that away. Thank you, Kenny. So, we're starting off on a page that many of you already know. It's the table information page where you can see size, storage usage on a per company, per table basis."
+    },
+    {
+      "t": 98,
+      "end": 115.5,
+      "text": "However, we have introduced something new. Now, you'll be able to drill down using this little feature here. And there you can now see information again on a per table, per company, but you can now see per index information."
+    },
+    {
+      "t": 115.5,
+      "end": 128.4,
+      "text": "So, we can for example go and take a look at the index size for each index where we were previously only able to see it on a aggregated view on the entire table."
+    },
+    {
+      "t": 128.4,
+      "end": 143.8,
+      "text": "We can also see more advanced information about how the index is being used in the product. This will allow very advanced administrators or developers to make decisions about indexes their disabling or creation."
+    },
+    {
+      "t": 143.8,
+      "end": 158.8,
+      "text": "And what about the index details down there? What what does that show? So, >> See more or Yeah, of course. So, if you scroll down a little bit here, you will be able to see which fields are in the index and which fields are included in the index."
+    },
+    {
+      "t": 158.8,
+      "end": 179,
+      "text": "Oh, nice. Two different things here, included fields in the index. Very technical details there. So, for someone who's tuning using indexes, this is super important because it allows them directly without going to the source code to to to see whether this index is covering or not based on what type"
+    },
+    {
+      "t": 179,
+      "end": 194.1,
+      "text": "of query. Super cool. Let's let's go to the other feature, which is turning things on and off. Back in the days where Business Central was called Dynamics NAV, uh there was a tool called C/SIDE for developing"
+    },
+    {
+      "t": 194.1,
+      "end": 209,
+      "text": "and interacting with Business Central. And in that tool C/SIDE, it it was possible simply to turn indexes on and off. Now, we have moved from C/SIDE to the AL language and other experiences"
+    },
+    {
+      "t": 209,
+      "end": 219.5,
+      "text": "and along the way, I can think of 3 years ago, we introduced the way the ability in AL to be able to turn indexes on and off"
+    },
+    {
+      "t": 219.5,
+      "end": 236.1,
+      "text": "um in in in the base app and in your own code. However, um the full kind of C/SIDE experience is coming now where you can now turn indexes on and off directly in the client."
+    },
+    {
+      "t": 236.1,
+      "end": 250.2,
+      "text": "Let's see a demo of that, Mass. >> Yeah. Thank you, Kenny. So, we stay on the same page where we see the indexes and we're able to interact with them. Now, some indexes you can turn off and on, while some you cannot."
+    },
+    {
+      "t": 250.2,
+      "end": 263.1,
+      "text": "If we start here with the system ID, it is defined as being unique. It would be a semantically different experience if you turned it off. So, we do disallow certain, but some of them you can turn on or turn off."
+    },
+    {
+      "t": 263.1,
+      "end": 278.5,
+      "text": "So, if you for example take here key 11, we can now see there's a bit more interesting fields down here. Let's take a look what happens when we turn the index off. Surprisingly, not a lot in the UI, but behind the scenes in SQL, the index will now be turned off."
+    },
+    {
+      "t": 278.5,
+      "end": 290.1,
+      "text": "You can also see that there's no longer any seek scans, lookups, updates information because the index simply does not exist in SQL anymore. Why do we want to do that?"
+    },
+    {
+      "t": 290.1,
+      "end": 300.4,
+      "text": "Well, it of course saves some storage on the database, but it is also cheaper to now update the table cuz we no longer have to alter that one."
+    },
+    {
+      "t": 300.4,
+      "end": 316,
+      "text": "But we cannot of course just turn it off. We can also turn it on. So, let's take another example index here. We have key four. Key four is an index that at least in this version of the product is created as disabled."
+    },
+    {
+      "t": 316,
+      "end": 333.6,
+      "text": "So, enabled equals false. Those indices you have normally not been able to turn on, but you can now turn them on here. We say here they will be in queued and turned on in the subsequent maintenance window overnight depending on local time."
+    },
+    {
+      "t": 333.6,
+      "end": 344.1,
+      "text": "I have a local version of it and in Docker running locally or on prem, that will happen immediately, but in SaaS over the next maintenance window."
+    },
+    {
+      "t": 344.1,
+      "end": 354.4,
+      "text": "What this will enable is a feature we have heard from many and that is you can now per company make indices that will be useful for certain companies."
+    },
+    {
+      "t": 354.4,
+      "end": 368.4,
+      "text": "They might only enable some functionality in some part in some companies. And other companies might not want to have the cost, extra storage, extra time when you update them."
+    },
+    {
+      "t": 368.4,
+      "end": 382.4,
+      "text": "So, only for some of companies you now turn this index on. Awesome. Thanks a lot for that, Mass. And I have I think this is a great feature because uh also because when we develop the base app,"
+    },
+    {
+      "t": 382.4,
+      "end": 393.5,
+      "text": "we are trying to guess the types of indexes that would make sense, but we don't necessarily know the data distribution for any company out there."
+    },
+    {
+      "t": 393.5,
+      "end": 414.5,
+      "text": "So, the only thing we can do in the base app is making it wrong for most customers. With this, we can also ship and you can do that in your apps. You can ship indexes that could be useful, but you could also ship some that are by default turned off and and based on the usage of the system,"
+    },
+    {
+      "t": 414.5,
+      "end": 424.8,
+      "text": "the administrator can can then turn things on. So, good stuff. As everything related to life cycle, we have telemetry and"
+    },
+    {
+      "t": 424.8,
+      "end": 438,
+      "text": "the telemetry we have when you enable or turn indexes on and off from AL have had life cycle events for years. Now, we have the runtime capability, so we have a new events for that."
+    },
+    {
+      "t": 438,
+      "end": 454.1,
+      "text": "LC 63 and 64. And um all of that is of course documented here on the ak.ms/bctelemetry. So, you can if you want to monitor that uh telemetry signal and build some reporting on that,"
+    },
+    {
+      "t": 454.1,
+      "end": 471.9,
+      "text": "uh it's it's all the the schema is is documented there. All right, let's it's time to wrap up and uh we have like a summary slides here on on everything we talked about, but Mass, is there kind of one thing you want to highlight from this?"
+    },
+    {
+      "t": 471.9,
+      "end": 482.9,
+      "text": "Yeah, so I want to highlight what I think is a new ability that we haven't had since C/SIDE and that is the ability to create an index with enabled false"
+    },
+    {
+      "t": 482.9,
+      "end": 497.4,
+      "text": "and then activate that selectively for some companies. This is something that you could do back in the C/SIDE time. I imagine this will really enable some functional areas to be sped up by certain indexes."
+    },
+    {
+      "t": 497.4,
+      "end": 518,
+      "text": "A lot of indexes are created now and they are actually meant for maybe one functionality, but not everyone uses that one functionality. So, I think this is a great ability and this is where I imagine we will see some more indexes that are defined for just that thing without having that huge storage impact and time impact when"
+    },
+    {
+      "t": 518,
+      "end": 530.3,
+      "text": "inserting in modifying data in SQL. Awesome. If you want to learn more, your friend is ak.ms/bcdeveloper. That takes you to the developer documentation."
+    },
+    {
+      "t": 530.3,
+      "end": 544.9,
+      "text": "And here you you simply go to the documentation for keys or for indexes um whether there would be dedicated articles or or in in this article is to be decided."
+    },
+    {
+      "t": 544.9,
+      "end": 556,
+      "text": "Uh we don't know that at the recording, but this is where you find all of what you need to know. If this is your thing, you might have other"
+    },
+    {
+      "t": 556,
+      "end": 568.2,
+      "text": "sessions that could be for you. So, there's one especially the server and database related related session that goes into other things around the runtime."
+    },
+    {
+      "t": 568.2,
+      "end": 580.8,
+      "text": "Go check that out. There will be a link in the description for it. And with that, you can stay on the video and if you don't know the general Business Central resources, for now, Mass and I are done."
+    },
+    {
+      "t": 580.8,
+      "end": 595.6,
+      "text": "Thank you so much for what what watching and have a great launch edition. Bye. Bye. We have compiled a number of general resources that we believe are key both for partners,"
+    },
+    {
+      "t": 595.6,
+      "end": 608,
+      "text": "but also Business Central customers. Most Some of these are partner, some of them are also for customers. So, the first one is called aka.ms/bcall."
+    },
+    {
+      "t": 608,
+      "end": 621.2,
+      "text": "This is a partner resource for that contains lists of every other aka link that is needed for you to understand anything about both the business Central product, but also processes around it."
+    },
+    {
+      "t": 621.2,
+      "end": 631.6,
+      "text": "We call these aka links because they're called aka.ms and then for forward slash something. And with business Central links we all always prefix with BC and then something."
+    },
+    {
+      "t": 631.6,
+      "end": 644.5,
+      "text": "The next one is our partner network social media for for business Central partners Viva Viva Engage. So, aka.ms/bcvivaengage"
+    },
+    {
+      "t": 644.5,
+      "end": 656.1,
+      "text": "is where you go and interact with other partners. It's not open for customers. So, this is where you can ask questions, interact with the product group, interact with with with each other"
+    },
+    {
+      "t": 656.1,
+      "end": 674,
+      "text": "in a in a closed network. Second link The third link is for both partners and customers we are called office hours. So, office hours is something we do once or twice a month from the product group engaging with the community about new features or things we want to discuss."
+    },
+    {
+      "t": 674,
+      "end": 684.5,
+      "text": "aka.ms/bcofficehours is the is the place where you go to find out about upcoming events. These are recorded."
+    },
+    {
+      "t": 684.5,
+      "end": 694.8,
+      "text": "I believe the recordings are available only to partners, but the live events are available to customers as well. Fourth link is YouTube our YouTube channel."
+    },
+    {
+      "t": 694.8,
+      "end": 708.2,
+      "text": "I'll talk about that in the next slide and LinkedIn in the next slide. And then finally for for Microsoft partners the BC's aka.ms/bcpartnerportal"
+    },
+    {
+      "t": 708.2,
+      "end": 719.8,
+      "text": "is where you get a lot of the resources as a partner such as compete decks, pitch decks and a lot of other resources."
+    },
+    {
+      "t": 719.8,
+      "end": 734.9,
+      "text": "For LinkedIn, this is our product group's LinkedIn profile. We have 30k or more followers. So, both partners and customers. This is the place where we from the product group put in news and small bits of information"
+    },
+    {
+      "t": 734.9,
+      "end": 745.5,
+      "text": "outside the {quote} {unquote} official channel. So, follow us on LinkedIn to learn what's happening right now in in this in the around the product."
+    },
+    {
+      "t": 745.5,
+      "end": 759.4,
+      "text": "Um, and then also on our YouTube channel where this is why you're probably watching this aka.ms/bcyoutube. We put in not only these launch editions twice a year, but also"
+    },
+    {
+      "t": 759.4,
+      "end": 777.2,
+      "text": "co-pilot and AI video shorts, tips and tricks, technical deep dives, under the hood. We even have this what's cooking where we put little nuggets of of videos out for new features that are even coming in the YouTube channel before"
+    },
+    {
+      "t": 777.2,
+      "end": 792,
+      "text": "they're coming in the release notes. So, watch and maybe bookmark us on YouTube. And also notice all the playlists. So, the content is also organized in areas, not only all the videos."
+    },
+    {
+      "t": 792,
+      "end": 803.2,
+      "text": "So, if you have an area that has special interest such as analytics, you can find a an a playlist and kind of see all the content related to that."
+    },
+    {
+      "t": 803.2,
+      "end": 816,
+      "text": "And that's it. That is truly it. We won't There would be no more. So, thank you for watching all the way to the end. And again, have a great day. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 2054
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-download-symbols",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "942b9874e3eacb87a3f7d073565bc0443e24f708",
       "words": 605,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:28:01.506Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005955
+    },
+    "summarized": {
+      "at": "2026-10-06T13:28:01.554Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:28:01.554Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:28:01.555Z",
+      "page": false
     }
   },
   "input_hash": "942b9874e3eacb87a3f7d073565bc0443e24f708",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "942b9874e3eacb87a3f7d073565bc0443e24f708"
+  "output_hash": "8483dafbda47fcc1eb1e380107bbb7af46f97e9f54720e7bc8f485c8f13b8499"
 }

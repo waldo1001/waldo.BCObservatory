@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-setup",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5722c61bca0ce27ca91c220af244e52aad9e9408",
       "words": 2296,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T13:37:45.028Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.009673
+    },
+    "summarized": {
+      "at": "2026-10-06T13:37:45.046Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:37:45.047Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:37:45.047Z",
+      "page": false
     }
   },
   "input_hash": "5722c61bca0ce27ca91c220af244e52aad9e9408",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5722c61bca0ce27ca91c220af244e52aad9e9408"
+  "output_hash": "37a6fb0f7790945e90a68a2cce5f6195d2ccdb4bcd5d41e924b617276fe863f6"
 }

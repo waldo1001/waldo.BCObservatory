@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-streams-overview",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "546f65385f9699dfa3bf6de59d6382538d408489",
       "words": 1134,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:34:13.889Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.012738
+    },
+    "summarized": {
+      "at": "2026-10-06T13:34:13.914Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:34:13.914Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:34:13.915Z",
+      "page": false
     }
   },
   "input_hash": "546f65385f9699dfa3bf6de59d6382538d408489",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "546f65385f9699dfa3bf6de59d6382538d408489"
+  "output_hash": "851ab0a667cb2ddcb9bbca275d4e10e0019b4a3de19124cba82c9ec7743f93bb"
 }

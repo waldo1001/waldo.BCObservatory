@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "reverse transactions by transaction number",
+  "title": "Pass the transaction number, not a ledger-entry number, to ReverseTransaction",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/finance/reverse-transactions-by-transaction-number.md",
   "published_at": "2026-09-21T08:20:41.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:31:27.904Z",
+      "blob": "296d9023460c765242cf828a5c0d08c9f94a0e67",
+      "words": 263,
+      "forms": 0
     }
   },
   "input_hash": "296d9023460c765242cf828a5c0d08c9f94a0e67",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/finance/reverse-transactions-by-transaction-number.md"
-  }
+    "path": "microsoft/knowledge/finance/reverse-transactions-by-transaction-number.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 263
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "296d9023460c765242cf828a5c0d08c9f94a0e67"
 }

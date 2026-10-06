@@ -1,0 +1,763 @@
+{
+  "video_id": "QdWPlIV3Avk",
+  "item_id": "video/yt-microsoft/QdWPlIV3Avk",
+  "title": "What's new in SCM: Subcontracting (2026 release wave 2)",
+  "duration_s": 1631,
+  "systems": [
+    "manufacturing",
+    "warehouse",
+    "purchasing"
+  ],
+  "topics": [
+    "subcontracting",
+    "bill of materials",
+    "component supply method",
+    "transfer orders",
+    "vendor location",
+    "warehouse handling",
+    "production orders",
+    "routing",
+    "work in progress items",
+    "purchase orders",
+    "item charges",
+    "pricing rules"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview of subcontracting updates",
+      "t_start": 0,
+      "t_end": 126.5
+    },
+    {
+      "title": "How to install the Subcontracting extension",
+      "t_start": 126.5,
+      "t_end": 186.8
+    },
+    {
+      "title": "Subcontracting assisted setup and navigation",
+      "t_start": 186.8,
+      "t_end": 224.2
+    },
+    {
+      "title": "Component supply method in bill of materials",
+      "t_start": 224.2,
+      "t_end": 357.6
+    },
+    {
+      "title": "Production order and component logistics",
+      "t_start": 357.6,
+      "t_end": 458.2
+    },
+    {
+      "title": "Routing and subcontracting details",
+      "t_start": 458.2,
+      "t_end": 516.5
+    },
+    {
+      "title": "Subcontracting purchase order creation and structure",
+      "t_start": 516.5,
+      "t_end": 648.4
+    },
+    {
+      "title": "Subcontracting comments and attachments",
+      "t_start": 648.4,
+      "t_end": 801.3
+    },
+    {
+      "title": "Work in progress items and transfer order creation",
+      "t_start": 801.3,
+      "t_end": 994
+    },
+    {
+      "title": "Item charges allocation and costing",
+      "t_start": 994,
+      "t_end": 1103.9
+    },
+    {
+      "title": "Pricing mechanism and rules",
+      "t_start": 1103.9,
+      "t_end": 1305.5
+    },
+    {
+      "title": "Warehouse handling with directed put-away",
+      "t_start": 1305.5,
+      "t_end": 1493.9
+    },
+    {
+      "title": "Basic warehouse location with put-away and serial number handling",
+      "t_start": 1493.9,
+      "t_end": 1631
+    }
+  ],
+  "features": [
+    {
+      "name": "Subcontracting extension",
+      "description": "A new extension for Business Central that manages subcontracting operations including logistics of raw materials, work in progress items, and integration with warehouse handling processes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 8.2,
+      "t_end": 126.5,
+      "is_demoed": true,
+      "caveats": [
+        "silently released in minor update three without pre-installation",
+        "previously available on App Store but not forced"
+      ],
+      "tags": [
+        "subcontracting",
+        "extension",
+        "installation",
+        "new functionality"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Component supply method",
+      "description": "A new field in bill of materials lines that allows specifying how components will be supplied to the subcontractor: transfer from warehouse, consignment at vendor, or vendor supplied.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 224.2,
+      "t_end": 357.6,
+      "is_demoed": true,
+      "caveats": [
+        "requires configuration in bill of materials before production order creation"
+      ],
+      "tags": [
+        "bill of materials",
+        "component supply",
+        "logistics",
+        "vendor location"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Vendor location tracking",
+      "description": "New field on vendor card to track components held at vendor location during subcontracting operations. Components remain owned by the company but are physically at vendor location.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 411.8,
+      "t_end": 458.2,
+      "is_demoed": true,
+      "caveats": [
+        "applies only to consignment-at-vendor supply method"
+      ],
+      "tags": [
+        "vendor location",
+        "component tracking",
+        "inventory"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Warehouse integration for subcontracting",
+      "description": "Subcontracting operations now benefit from the same powerful warehouse handling processes available for standard wholesale and manufacturing operations, eliminating need for different handling.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 90.2,
+      "t_end": 102.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "warehouse",
+        "integration",
+        "subcontracting",
+        "transfer orders"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Subcontracting routing link and operations",
+      "description": "Production routing lines can be marked as subcontracting operations with links to components. A new fact box shows subcontracting details and connected components for each routing line.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 458.2,
+      "t_end": 516.5,
+      "is_demoed": true,
+      "caveats": [
+        "requires routing link code configuration"
+      ],
+      "tags": [
+        "routing",
+        "operations",
+        "subcontracting link",
+        "fact box"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Create subcontracting order from routing",
+      "description": "Ability to create a subcontracting purchase order directly from the production order routing line, without using the legacy subcontracting worksheet.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 506.1,
+      "t_end": 516.5,
+      "is_demoed": true,
+      "caveats": [
+        "legacy subcontracting worksheet still available for bulk operations"
+      ],
+      "tags": [
+        "subcontracting",
+        "purchase order",
+        "workflow",
+        "routing"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Subcontracting purchase order structure",
+      "description": "Purchase order created from subcontracting includes component lines, work operation lines, description lines, and instruction comment lines with automatic population from production order and routing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 516.5,
+      "t_end": 648.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "purchase order",
+        "subcontracting",
+        "components",
+        "operations",
+        "instructions"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Create production order info line setting",
+      "description": "Manufacturing setup toggle that automatically inserts a comment line in subcontracting purchase order with the production order line description and finished good name.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 605.7,
+      "t_end": 634.6,
+      "is_demoed": true,
+      "caveats": [
+        "controlled by toggle in manufacturing setup"
+      ],
+      "tags": [
+        "manufacturing setup",
+        "subcontracting settings",
+        "comment lines"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Subcontracting component transfer lead time",
+      "description": "Manufacturing setup field that specifies the lead time for transferring components to the subcontractor, used in planning calculations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 634.6,
+      "t_end": 648.4,
+      "is_demoed": false,
+      "caveats": [
+        "explained as being used in later demonstration"
+      ],
+      "tags": [
+        "lead time",
+        "manufacturing setup",
+        "planning"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Subcontracting comments and instructions",
+      "description": "Comment lines in subcontracting purchase order contain instructions for the subcontractor about what to do, including assembly instructions, inspection requirements, and attachment documentation references.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 648.4,
+      "t_end": 726,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "instructions",
+        "subcontracting",
+        "comments",
+        "documentation"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Line attachments for subcontracting instructions",
+      "description": "Subcontracting purchase order lines can have attachments per line with instructions that flow from production routing. Toggles control whether attachments flow to production order and purchase order.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 672.7,
+      "t_end": 801.3,
+      "is_demoed": true,
+      "caveats": [
+        "attachments are per-line and attached to purchase order line, not document header"
+      ],
+      "tags": [
+        "attachments",
+        "documentation",
+        "subcontracting",
+        "instructions"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Subcontracting details fact box",
+      "description": "New fact box in purchase order showing connected production order, transfer orders, and production routing information for easy navigation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 726,
+      "t_end": 743.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "fact box",
+        "navigation",
+        "subcontracting details"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Subcontracting comment in routing",
+      "description": "Production routing lines have a subcontracting comment field that contains instructions for the subcontractor, inherited from standard tasks and copied to purchase order.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 756.8,
+      "t_end": 779.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "routing",
+        "comments",
+        "subcontracting",
+        "instructions"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Work in progress item in routing",
+      "description": "Routing operation can specify a work in progress item that represents a semi-finished state between raw materials and final product, transferred to subcontractor instead of raw materials.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 812.4,
+      "t_end": 853.8,
+      "is_demoed": true,
+      "caveats": [
+        "useful for multi-stage subcontracting"
+      ],
+      "tags": [
+        "work in progress",
+        "routing",
+        "subcontracting",
+        "transfer"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Transfer order to subcontractor",
+      "description": "Create transfer orders from main location to subcontractor location with separate lines for component transfer and work-in-progress item movement.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 853.8,
+      "t_end": 923.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "transfer orders",
+        "logistics",
+        "subcontracting"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Work-in-progress ledger entries",
+      "description": "Registers work-in-progress items in a new ledger entry type when transfer posting occurs, tracking WIP quantity at subcontractor and enabling calculation of return quantities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 905,
+      "t_end": 969.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "work-in-progress",
+        "ledger entries",
+        "costing"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Item charge assignment to purchase receipts",
+      "description": "Allocate item charges from invoices to specific purchase receipt lines, including the ability to select production orders connected to receipts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1038.5,
+      "t_end": 1090.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires purchase receipt to exist before allocation"
+      ],
+      "tags": [
+        "item charges",
+        "purchase",
+        "costing"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Standard task codes for subcontracting",
+      "description": "Standard task codes are now included in Dynamics 365 to allow vendors to easily demonstrate different pricing based on task type.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1210.1,
+      "t_end": 1234.6,
+      "is_demoed": false,
+      "caveats": [
+        "Not used in the current demo"
+      ],
+      "tags": [
+        "pricing",
+        "subcontracting",
+        "task codes"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Closest-match pricing for subcontracting",
+      "description": "Subcontracting pricing uses closest quantity match rather than selecting the smallest price; system matches the order quantity to the nearest defined price bracket.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1210.1,
+      "t_end": 1305.5,
+      "is_demoed": true,
+      "caveats": [
+        "Different from standard purchase pricing logic"
+      ],
+      "tags": [
+        "pricing",
+        "subcontracting",
+        "vendor pricing"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Minimum amount rule for subcontracting",
+      "description": "Vendors can specify minimum order amounts per line; when order quantity is below minimum, the system divides minimum amount by quantity to calculate effective unit price.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1305.5,
+      "t_end": 1379.2,
+      "is_demoed": true,
+      "caveats": [
+        "May result in higher per-unit prices for small quantities"
+      ],
+      "tags": [
+        "pricing",
+        "subcontracting",
+        "vendor terms"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Warehouse receipt for subcontracting operations",
+      "description": "When warehouse handling is enabled, create warehouse receipts instead of direct purchase receipts; supports item tracking assignment including serial numbers during receipt.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1403.1,
+      "t_end": 1451.9,
+      "is_demoed": true,
+      "caveats": [
+        "Only generates put-away if it is the last operation; otherwise registers production fact only"
+      ],
+      "tags": [
+        "warehouse handling",
+        "warehouse receipt",
+        "item tracking"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Inventory put-away for basic warehouse locations",
+      "description": "For basic warehouse locations requiring put-away and pick (no warehouse receipts/shipments), create inventory put-away directly from subcontracting orders with support for serial number assignment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1493.9,
+      "t_end": 1569.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "warehouse handling",
+        "inventory put-away",
+        "item tracking"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Serial number assignment across multiple levels",
+      "description": "Define serial numbers at production order level (copied to purchase order) or in purchase document itself (populated to inventory put-away); flexible definition point depending on process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1547.8,
+      "t_end": 1580.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "serial numbers",
+        "item tracking",
+        "subcontracting"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Multiple receiving methods for subcontracting",
+      "description": "Subcontracting supports normal purchase document, warehouse receipt, or inventory put-away as receiving methods, with serial number support across all approaches.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1569.6,
+      "t_end": 1593.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "warehouse handling",
+        "purchase",
+        "receiving"
+      ],
+      "system": "manufacturing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Bill of Material",
+      "t": 224.2
+    },
+    {
+      "type": "page",
+      "name": "Production Order",
+      "t": 357.6
+    },
+    {
+      "type": "page",
+      "name": "Production Routing",
+      "t": 458.2
+    },
+    {
+      "type": "page",
+      "name": "Purchase Order",
+      "t": 521.7
+    },
+    {
+      "type": "page",
+      "name": "Manufacturing Setup",
+      "t": 605.7
+    },
+    {
+      "type": "page",
+      "name": "Transfer Order",
+      "t": 878.7
+    },
+    {
+      "type": "table",
+      "name": "Work in Progress Ledger Entry",
+      "t": 923.8
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry",
+      "t": 1050.8
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoice",
+      "t": 1011.5
+    },
+    {
+      "type": "page",
+      "name": "Subcontracting Order",
+      "t": 1403.1
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Receipt",
+      "t": 1414.7
+    },
+    {
+      "type": "table",
+      "name": "Capacity Ledger Entry",
+      "t": 1480.3
+    },
+    {
+      "type": "page",
+      "name": "Inventory Put Away",
+      "t": 1532.4
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 8.2,
+      "text": "we are silently released it in minor update three, but in this time we did not pre-install it on new environments",
+      "why_it_matters": "Indicates the extension was released quietly without forcing adoption, gathered feedback, and is now being reintroduced at a different level",
+      "check": "exact"
+    },
+    {
+      "t": 37.5,
+      "text": "original subcontracting which was present in Business Central for many years was maybe a little bit limited",
+      "why_it_matters": "Establishes that the new version significantly enhances legacy subcontracting capabilities with recently added components",
+      "check": "exact"
+    },
+    {
+      "t": 102.3,
+      "text": "subcontracting operations can benefit from the same warehouse uh processes. So, no need to handle them differently.",
+      "why_it_matters": "Core value proposition - subcontracting now integrates with standard warehouse handling instead of requiring separate processes",
+      "check": "exact"
+    },
+    {
+      "t": 237.6,
+      "text": "Component supply method. So, what I'm trying to do here, I decided to use these three components in my subcontracting operation",
+      "why_it_matters": "Introduces the key new field allowing three different component supply strategies for subcontracting",
+      "check": "exact"
+    },
+    {
+      "t": 447,
+      "text": "on vendor card, we have a new field where we will track components which are on vendor location. They still ours",
+      "why_it_matters": "Explains new vendor card field for tracking consignment components physically at vendor but owned by company",
+      "check": "exact"
+    },
+    {
+      "t": 521.7,
+      "text": "Purchase order subcontracting purchase order is created and I can actually open it and check it",
+      "why_it_matters": "Demonstrates simplified workflow of creating subcontracting purchase order directly from routing instead of using legacy worksheet",
+      "check": "exact"
+    },
+    {
+      "t": 605.7,
+      "text": "create production order info line, which is on. And this one instruct system once subcontracting order is created to additionally insert comment line",
+      "why_it_matters": "Explains manufacturing setup control that automatically includes production order context in subcontracting purchase orders",
+      "check": "exact"
+    },
+    {
+      "t": 812.4,
+      "text": "if subcontracting is like the second one, then we are probably giving to subcontractor not only raw materials. We're giving them something not finished.",
+      "why_it_matters": "Clarifies support for multi-stage subcontracting where work in progress items are transferred instead of raw materials",
+      "check": "exact"
+    },
+    {
+      "t": 923.8,
+      "text": "So, once I will post it, the first line will indeed create item ledger entries. The second one, no. No, it will be registered",
+      "why_it_matters": "Introduces the work-in-progress ledger entry feature that tracks WIP quantities transferred to subcontractors.",
+      "check": "exact"
+    },
+    {
+      "t": 1268,
+      "text": "In subcontracting we give closest match price. So, even if you are buying 200, it sounds you should not buy 200.",
+      "why_it_matters": "Explains the fundamental difference between subcontracting pricing (closest match) versus standard purchase pricing (lowest price).",
+      "check": "exact"
+    },
+    {
+      "t": 1316,
+      "text": "Because our vendor subcontractor wants minimum amount per deal. So, like whatever you order, not less than 100 per line.",
+      "why_it_matters": "Demonstrates the minimum amount rule that affects pricing calculation when orders are below the vendor's threshold.",
+      "check": "exact"
+    },
+    {
+      "t": 1340.4,
+      "text": "So, system does it differently. If it's less than 100, put amount as 100 divided by quantity and this is your price.",
+      "why_it_matters": "Explains the calculation logic for minimum amount rules: dividing minimum by quantity to derive effective unit price.",
+      "check": "exact"
+    },
+    {
+      "t": 1414.7,
+      "text": "So, instead, what can I do? Create warehouse receipt, as expected.",
+      "why_it_matters": "Shows that warehouse receipt is required when warehouse handling is enabled for subcontracting operations.",
+      "check": "exact"
+    },
+    {
+      "t": 1558.3,
+      "text": "i can define it in the production order and then they will be copied to uh purchase order",
+      "why_it_matters": "Describes the flexible serial number assignment workflow across multiple document types in subcontracting processes.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1580.7,
+      "text": "You can use any receiving method you like, either normal purchase document, warehouse receipt, or inventory put away.",
+      "why_it_matters": "Confirms that subcontracting supports multiple receiving approaches depending on warehouse configuration.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 8.2,
+      "kind": "preview",
+      "text": "we are silently released it in minor update three, but in this time we did not pre-install it on new environments, neither on upgraded ones"
+    },
+    {
+      "t": 24.3,
+      "kind": "subject-to-change",
+      "text": "available on App Store, available for installation, but not forced. We gathered feedback and now we are kind of reintroducing it in a different level"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 15,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 24
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.045663999999999996
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.038298
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.049999
+    }
+  ]
+}

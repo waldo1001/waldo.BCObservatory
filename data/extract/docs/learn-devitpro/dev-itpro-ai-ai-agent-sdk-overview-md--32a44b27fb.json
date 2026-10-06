@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-overview",
+  "title": "Coding agents in AL (preview)",
+  "blob": "585ef17872f48e48db5c3aa57028c765d3d3d48c",
+  "summary": "Build custom AI agents in AL using core interfaces (IAgentFactory, IAgentMetadata, IAgentTaskExecution) and manage agent tasks programmatically. Includes quick-start template and guidance for setup pages, task lifecycle, attachments, and cross-agent operations.",
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "agent development",
+    "agent sdk",
+    "agent interfaces",
+    "task management",
+    "agent setup",
+    "agent configuration",
+    "best practices"
+  ],
+  "objects": [
+    {
+      "type": "interface",
+      "name": "IAgentFactory"
+    },
+    {
+      "type": "interface",
+      "name": "IAgentMetadata"
+    },
+    {
+      "type": "interface",
+      "name": "IAgentTaskExecution"
+    }
+  ],
+  "features": [
+    "quick-start template",
+    "core interfaces",
+    "setup and configuration",
+    "agent task builder api",
+    "attachments",
+    "task lifecycle",
+    "agent sessions",
+    "cross-agent operations",
+    "instructions"
+  ],
+  "versions": [
+    "version 27.4",
+    "version 28.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011645,
+      "pages_in_call": 3
+    }
+  ]
+}

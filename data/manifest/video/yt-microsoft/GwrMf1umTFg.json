@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=GwrMf1umTFg",
   "published_at": "2026-10-01T13:04:01.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T12:56:35.162Z",
+      "path": "data/extract/video/GwrMf1umTFg.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 7,
+      "quotes": 8,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.034999
+    },
+    "summarized": {
+      "at": "2026-10-06T12:56:43.536Z",
+      "path": "data/summary/video/GwrMf1umTFg.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0419064
+    },
+    "linked": {
+      "at": "2026-10-06T12:56:43.536Z",
+      "systems": [
+        "copilot",
+        "projects",
+        "finance"
+      ],
+      "topics": 8,
+      "objects_as_heard": 4
+    },
+    "published": {
+      "at": "2026-10-06T12:56:43.539Z",
+      "path": "content/videos/GwrMf1umTFg.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2026-10-01 - BCLE - What's new in Expense Agent： Project Handling (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "97795ae038e820e2e170dbd40e4901c1f219aed056cea9887f1e00e445f10009"
 }

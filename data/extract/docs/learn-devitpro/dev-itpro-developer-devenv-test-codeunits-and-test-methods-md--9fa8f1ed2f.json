@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-test-codeunits-and-test-methods.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-test-codeunits-and-test-methods",
+  "title": "Test Codeunits and Test Methods in AL",
+  "blob": "a4863eb77aebb591cb00ce6c15e7edf34a002f50",
+  "summary": "Test codeunits and test methods in AL let you create automated tests for Business Central code. Use test attributes, handler methods, and lifecycle callbacks to structure tests with proper isolation and reporting.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "testing",
+    "al development",
+    "test codeunits",
+    "test methods",
+    "test isolation",
+    "handler methods"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Test Codeunit"
+    },
+    {
+      "type": "interface",
+      "name": "ITestHandler"
+    },
+    {
+      "type": "interface",
+      "name": "ITestContext"
+    },
+    {
+      "type": "interface",
+      "name": "ITestDataSource"
+    }
+  ],
+  "features": [
+    "Test methods",
+    "Handler methods",
+    "TransactionModel attribute",
+    "TestIsolation property",
+    "TestHandlers property",
+    "TestDataSource attribute",
+    "data-driven tests",
+    "test lifecycle callbacks"
+  ],
+  "versions": [
+    "runtime 16",
+    "runtime 18"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007447,
+      "pages_in_call": 5
+    }
+  ]
+}

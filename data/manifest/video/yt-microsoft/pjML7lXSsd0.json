@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Introducing: Expense Management (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=pjML7lXSsd0",
-  "published_at": null,
+  "published_at": "2026-04-27T14:39:13.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:18:50.784Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1997
+    },
+    "captioned": {
+      "at": "2026-10-06T13:19:00.633Z",
+      "path": "data/captions/microsoft/pjML7lXSsd0.vtt",
+      "vtt_sha256": "bc379e99b4f4d39f9929ba48bae34664f516a4bbe66f03ee469ae406e963168c",
+      "segments": 158,
+      "words": 5068,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 70,
     "duration_s": 1997,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bc379e99b4f4d39f9929ba48bae34664f516a4bbe66f03ee469ae406e963168c"
 }

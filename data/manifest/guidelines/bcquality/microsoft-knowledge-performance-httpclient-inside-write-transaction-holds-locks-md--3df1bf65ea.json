@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "httpclient inside write transaction holds locks",
+  "title": "Do not call HttpClient inside an open write transaction",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/httpclient-inside-write-transaction-holds-locks.md",
   "published_at": "2026-09-14T10:44:30.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:34:46.177Z",
+      "blob": "88d0ff79347e94a221797c181f31aff37aa1a115",
+      "words": 292,
+      "forms": 0
     }
   },
   "input_hash": "88d0ff79347e94a221797c181f31aff37aa1a115",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/httpclient-inside-write-transaction-holds-locks.md"
-  }
+    "path": "microsoft/knowledge/performance/httpclient-inside-write-transaction-holds-locks.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 292
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "88d0ff79347e94a221797c181f31aff37aa1a115"
 }

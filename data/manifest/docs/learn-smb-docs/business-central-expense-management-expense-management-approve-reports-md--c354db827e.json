@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-approve-reports",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d6f9bc5374dbcbc1828b2d5d56ab25b1c0264ea2",
       "words": 506,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T13:37:07.418Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.00828
+    },
+    "summarized": {
+      "at": "2026-10-06T13:37:07.445Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:37:07.445Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:37:07.445Z",
+      "page": false
     }
   },
   "input_hash": "d6f9bc5374dbcbc1828b2d5d56ab25b1c0264ea2",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d6f9bc5374dbcbc1828b2d5d56ab25b1c0264ea2"
+  "output_hash": "1a919377d62aae2137766e647bbcc29a9e7745bbf608ab812481583dff5d6d81"
 }

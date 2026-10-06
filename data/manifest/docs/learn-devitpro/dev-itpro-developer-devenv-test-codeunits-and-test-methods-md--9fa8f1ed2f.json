@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-test-codeunits-and-test-methods",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a4863eb77aebb591cb00ce6c15e7edf34a002f50",
       "words": 1098,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:34:46.165Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.007447
+    },
+    "summarized": {
+      "at": "2026-10-06T13:34:46.169Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:34:46.169Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:34:46.169Z",
+      "page": false
     }
   },
   "input_hash": "a4863eb77aebb591cb00ce6c15e7edf34a002f50",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a4863eb77aebb591cb00ce6c15e7edf34a002f50"
+  "output_hash": "4fa83ab537eb9aa7ef63d3c5a23e0bace3207d368ad310d7d572448e8d4c0abd"
 }

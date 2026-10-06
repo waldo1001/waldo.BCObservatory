@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "keep custom dimension schema stable",
+  "title": "Treat custom dimension keys as a stable telemetry schema",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/telemetry/keep-custom-dimension-schema-stable.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.815Z",
+      "blob": "9291219cc673cb37d179f8cabce2e50df126dd6d",
+      "words": 172,
+      "forms": 0
     }
   },
   "input_hash": "9291219cc673cb37d179f8cabce2e50df126dd6d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/telemetry/keep-custom-dimension-schema-stable.md"
-  }
+    "path": "microsoft/knowledge/telemetry/keep-custom-dimension-schema-stable.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 172
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9291219cc673cb37d179f8cabce2e50df126dd6d"
 }

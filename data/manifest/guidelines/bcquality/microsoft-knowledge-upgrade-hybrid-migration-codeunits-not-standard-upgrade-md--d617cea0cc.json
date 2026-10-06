@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "hybrid migration codeunits not standard upgrade",
+  "title": "Hybrid migration codeunits are not standard upgrade codeunits",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/hybrid-migration-codeunits-not-standard-upgrade.md",
   "published_at": "2026-05-21T07:53:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:46.337Z",
+      "blob": "2d047ac0ad95b836365d8c8caf092539c049487a",
+      "words": 204,
+      "forms": 0
     }
   },
   "input_hash": "2d047ac0ad95b836365d8c8caf092539c049487a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/upgrade/hybrid-migration-codeunits-not-standard-upgrade.md"
-  }
+    "path": "microsoft/knowledge/upgrade/hybrid-migration-codeunits-not-standard-upgrade.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 204
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2d047ac0ad95b836365d8c8caf092539c049487a"
 }

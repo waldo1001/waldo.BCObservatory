@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/business-central/copilot-and-agent-capabilities/summarize-preview",
+  "input_hash": "dfdb2b77453dc32bd5eb653d73a30254f470ddf76b982a94b27a0d2819b03d6f",
+  "summary": "Summarize (preview) covers Copilot's summarize capability in Business Central, which turns records such as customers, items and sales orders into bullet-point insights in the FactBox pane. It answers how to use and control summaries, how responsible AI applies, and how to troubleshoot Expense Agent issues.",
+  "overview": "Summarize is a Copilot capability that generates a short, bullet-point summary of a record, for example a customer, item or sales order. The summary appears in a summary part in the FactBox pane. It draws on fields, FactBoxes and related pages, and only on data the user has permission to access.\n\nThe section has three pages. \"Summarize a record with Copilot\" is the practical starting point: it explains where the summary shows up and what you can do with it. \"Responsible AI FAQ for summarize (preview)\" explains the purpose of the feature, how it highlights key insights and urgent information, and how feedback and harmful content filtering work. A third page, \"Troubleshoot Expense Agent Issues\", covers a different feature and lists common Expense Agent problems and how to resolve them.\n\nStart with the how-to page to use the feature. Read the FAQ if you need to understand data handling, permissions or the preview status.",
+  "key_points": [
+    "Copilot summarizes records such as customers, items and sales orders into bullet-point insights.",
+    "The summary is shown in a summary part in the FactBox pane.",
+    "Summaries use fields, FactBoxes and related pages, limited to data the user has permission to access.",
+    "Users can expand the summary, use Show more for additional insights, regenerate it, and copy it.",
+    "Summaries include hyperlinked references, and users can give feedback on them.",
+    "Harmful content filtering applies, and the feature is in preview.",
+    "The Expense Agent troubleshooting page covers sign-in failures, receipt upload problems, AI detection errors, policy violations, network errors, AI quota limits and posting failures."
+  ],
+  "members_used": 3,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-06T13:41:31.128Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0481316
+  }
+}

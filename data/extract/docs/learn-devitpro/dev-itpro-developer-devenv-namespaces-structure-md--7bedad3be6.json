@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-namespaces-structure.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-namespaces-structure",
+  "title": "Adopting namespaces in AL",
+  "blob": "30956659a3792ee96f36324a2af5b28bbc81ba51",
+  "summary": "Adopting namespaces in AL describes tools and best practices for progressively organizing AL code into logical groups using namespaces, including automated code actions, PowerShell scripts for bulk addition, and support for fully qualified names introduced in Business Central 2026 release wave 1.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "namespaces",
+    "code organization",
+    "code actions",
+    "al development",
+    "fully qualified names",
+    "using statements"
+  ],
+  "objects": [],
+  "features": [
+    "automated namespace addition",
+    "namespace template resolution",
+    "sibling file analysis",
+    "PowerShell bulk namespace script",
+    "using statement sorting",
+    "fully qualified object references",
+    "runtime namespace properties"
+  ],
+  "versions": [
+    "2026 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016369,
+      "pages_in_call": 2
+    }
+  ]
+}

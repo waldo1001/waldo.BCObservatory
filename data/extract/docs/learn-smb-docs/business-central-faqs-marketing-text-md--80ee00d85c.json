@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/faqs-marketing-text.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-marketing-text",
+  "title": "FAQ for marketing text suggestions",
+  "blob": "3343bf03e60acc022ec4b47cd3fb142ae04b7d94",
+  "summary": "Marketing Text Suggestions uses Copilot to generate engaging product descriptions for items in Business Central based on item attributes, category, and writing preferences. Use this feature to accelerate time-to-market, unlock creativity, and improve consistency of marketing material for product lines.",
+  "systems": [
+    "sales",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "marketing text",
+    "copilot",
+    "item descriptions",
+    "ai-generated content",
+    "writing assistance",
+    "product copy"
+  ],
+  "objects": [],
+  "features": [
+    "Marketing Text Suggestions",
+    "Tone of Voice",
+    "Emphasis of Quality",
+    "Text Format and Length",
+    "Item Attributes",
+    "Item Categories",
+    "User Feedback (Thumbs Up/Down)",
+    "Content Review and Edit"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010538,
+      "pages_in_call": 3
+    }
+  ]
+}

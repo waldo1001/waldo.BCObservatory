@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/shopify/shopify-tax-matching.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-tax-matching",
+  "title": "Set up and use Shopify Tax Matching",
+  "blob": "25537669872f3ed27100defd247ee9820062e871",
+  "summary": "Set up and use Shopify Tax Matching explains how to enable and configure AI-assisted tax matching for individual Shopify shops, review suggested Tax Jurisdictions, approve matches, and manage rate conflicts in Business Central US.",
+  "systems": [
+    "integration",
+    "sales",
+    "copilot"
+  ],
+  "topics": [
+    "shopify connector",
+    "tax matching setup",
+    "tax review workflow",
+    "permissions",
+    "tax jurisdictions"
+  ],
+  "objects": [],
+  "features": [
+    "Tax Matching Agent Enabled",
+    "Auto Create Tax Jurisdictions",
+    "Auto Create Tax Areas",
+    "Tax Area Naming Pattern",
+    "Tax Match Review Mode",
+    "Undo Approval"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008252,
+      "pages_in_call": 4
+    }
+  ]
+}

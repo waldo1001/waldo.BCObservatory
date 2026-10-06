@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/ai-test-copilot-datasets.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-datasets",
+  "title": "Datasets",
+  "blob": "35042d6e77bd8e2585e2fa471287ffd6ff6473b3",
+  "summary": "Datasets provide test input and expected output pairs in JSONL or YAML format for AI and agent test automation. Use them to create data-driven scenarios for evaluating Copilot prompt features and multi-turn agent behavior with intervention handling.",
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "datasets",
+    "ai testing",
+    "test automation",
+    "yaml",
+    "jsonl",
+    "agent tests",
+    "data-driven testing"
+  ],
+  "objects": [],
+  "features": [
+    "JSONL datasets",
+    "YAML datasets",
+    "suite-level setup",
+    "per-turn setup",
+    "intervention handling",
+    "date placeholders",
+    "multilingual support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009206,
+      "pages_in_call": 4
+    }
+  ]
+}

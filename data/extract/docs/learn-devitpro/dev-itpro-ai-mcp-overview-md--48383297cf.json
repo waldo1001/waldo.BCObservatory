@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/mcp-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/mcp-overview",
+  "title": "Business Central MCP Server Overview and Setup",
+  "blob": "53b78a895bf5f382f82fb6f66c91b62912fabc91",
+  "summary": "The Business Central MCP Server implements the Model Context Protocol, enabling AI clients like Copilot Studio and GitHub Copilot to access and interact with Business Central data and business logic through a standardized, secure interface.",
+  "systems": [
+    "integration",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "mcp server",
+    "model context protocol",
+    "ai integration",
+    "api access",
+    "authentication",
+    "copilot studio",
+    "vs code",
+    "agents"
+  ],
+  "objects": [],
+  "features": [
+    "API Tools",
+    "Dynamic Tool Mode",
+    "Data Query Tools",
+    "view and manage records",
+    "execute business processes",
+    "query data",
+    "answer natural language queries",
+    "OAuth 2.0 authentication with PKCE"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017141,
+      "pages_in_call": 1
+    }
+  ]
+}

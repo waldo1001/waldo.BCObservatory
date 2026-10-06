@@ -1,0 +1,268 @@
+{
+  "video_id": "B-pxLlb-UN0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 7.3,
+      "end": 17.5,
+      "text": "It's difficult to believe, but it's more than three years since we partnered with Shopify and start to include Shopify connector into the business central as a first party extension."
+    },
+    {
+      "t": 17.5,
+      "end": 29.8,
+      "text": "Since then, every release we enhanced and improved and added something to the connector to make sure that this collaboration with integration is smooth and powerful. This release is not different."
+    },
+    {
+      "t": 29.8,
+      "end": 41.4,
+      "text": "We again added more functionality added to the two major areas. Product information management yeah what we are selling and the document processing how we sell it."
+    },
+    {
+      "t": 41.4,
+      "end": 56.5,
+      "text": "But let's take a look in the details. So in this slide you can see the list of enhancements in the product information uh area. But now I will walk you on slides uh what actually has changed"
+    },
+    {
+      "t": 56.5,
+      "end": 72.6,
+      "text": "this how item variant looks today. So now we support images and we support item attributes and these images are also moved to the Shopify or imported from Shopify depends on how you configure it synchronization"
+    },
+    {
+      "t": 72.6,
+      "end": 87.2,
+      "text": "and the item attributes they're not here for decoration purposes they actually also used in Shopify uh as a definition of options. Yes, now you can define which attributes will be sent to Shopify as option."
+    },
+    {
+      "t": 87.2,
+      "end": 97.5,
+      "text": "You can see in this beer chair we can have multiple attributes but some of them will be transferred to the Shopify as soon as I push information from business center."
+    },
+    {
+      "t": 97.5,
+      "end": 110.2,
+      "text": "You can see color and you can see material descriptions and you can see images. That's very cool. On the left side of the Shopify admin you can see the collections."
+    },
+    {
+      "t": 110.2,
+      "end": 125.9,
+      "text": "Yeah, Shopify also have the collections in the in their product and there are two type of collections custom where you as a administrator needs to need to populate and select items to be included into this collection or automatic."
+    },
+    {
+      "t": 125.9,
+      "end": 138.1,
+      "text": "So manual I say not with business central. So we can import custom collections into the business central and decides when we export item from business central to Shopify,"
+    },
+    {
+      "t": 138.1,
+      "end": 149,
+      "text": "do we include it into the collection or not or maybe multiple collections. And with filter page, you can provide requirements which items will be included in which collection."
+    },
+    {
+      "t": 149,
+      "end": 159.1,
+      "text": "For example, I have a collections for chairs and collection for tables and I use item category code to distinguish which one to use when exporting items."
+    },
+    {
+      "t": 159.1,
+      "end": 173,
+      "text": "Look for more information or for live demo in the different video. Next one. What if you manage your items in Shopify? Or maybe you just want to start with a business central and migrating from a different different product."
+    },
+    {
+      "t": 173,
+      "end": 183.3,
+      "text": "You can get items from Shopify with images and descriptions and then when item is created in business central with title,"
+    },
+    {
+      "t": 183.3,
+      "end": 198,
+      "text": "price, cost and now with marketing text as a description. If you're very much creative in the marketing text and use very interesting HTML layout, some you might not be able to pass it through but in general"
+    },
+    {
+      "t": 198,
+      "end": 210.6,
+      "text": "it's just there. Another topic to discuss is Shopify constantly enhancing the product as well. For example, they added as a small thing as a new type of meta field."
+    },
+    {
+      "t": 210.6,
+      "end": 221.3,
+      "text": "So you can connect add link in the meta field of type article which is in reality is a blog post. So now you have the same in business central."
+    },
+    {
+      "t": 221.3,
+      "end": 234.5,
+      "text": "So the same type of meta fields is also supported and you can import it and do something in business central or export. So for this one we provided uh accessibility in our APIs."
+    },
+    {
+      "t": 234.5,
+      "end": 243.7,
+      "text": "So to make sure that you can actually when exporting items you can also initialize and update meta fields as well."
+    },
+    {
+      "t": 243.7,
+      "end": 262.2,
+      "text": "The next change is interesting. Uh do you know this setting so that actually you are in control when you update product information maybe pushing it from shop from business center to Shopify and when you update prices you can you can have these two processes completely isolated"
+    },
+    {
+      "t": 262.2,
+      "end": 282.2,
+      "text": "for the good reason probably the the unit cost now is a part of the price synchronization. So it's very common because merchants very commonly used average uh unit cost and they would like to see the real cost information in the uh in the Shopify admin as well."
+    },
+    {
+      "t": 282.2,
+      "end": 294.2,
+      "text": "So with a regular pricing even if price has not changed the new unit cost will be sended to Shopify and updated in the product or variant card there."
+    },
+    {
+      "t": 294.2,
+      "end": 314.2,
+      "text": "All right. What do we see here? We see the list of variants and of course we see the cost as I mentioned before uh will be updated on regular basis but what we do not see here and probably is a minor you do not see here tax code the certified do not support this field anymore so because we update the new API we"
+    },
+    {
+      "t": 314.2,
+      "end": 328.3,
+      "text": "need to remove it as well but I don't think we have any impact on the business logic on our side but double check with other extensions you have on Shopify site if they use this field somehow and uh need to find replacement."
+    },
+    {
+      "t": 328.3,
+      "end": 339.8,
+      "text": "That was uh about product information management. Multiple changes, all interesting ones, all useful ones. Now to next topic, documents, document processing."
+    },
+    {
+      "t": 339.8,
+      "end": 349.8,
+      "text": "The main theme here will be presentment currency in sales documents. What is a presentment currency? If you use Shopify, you know this is a currency used as a checkout time."
+    },
+    {
+      "t": 349.8,
+      "end": 369.2,
+      "text": "But it's not the only change. We have other enhancement in the product and let's like uh let's take a look at them. Let's start with the presentment currency. In the Shopify shop uh cart, we have a new setting under order processing fast which instructs business central how you deal with the currency."
+    },
+    {
+      "t": 369.2,
+      "end": 383,
+      "text": "Remember in the previous series and uh we added support for markets and market catalogs where you can actually define different prices for different items if they sold in the different countries."
+    },
+    {
+      "t": 383,
+      "end": 396,
+      "text": "But it's not it. You can also define the currency. So customer in other country when they doing check out they can pay in the local currency. That's convenient for for them. They happy to pay in local currency."
+    },
+    {
+      "t": 396,
+      "end": 409.6,
+      "text": "That's good for your business as well. And Shopify does the conversion automatically. It manage the presentment currency. It manages the uh store currency and all of these numbers are imported in business central."
+    },
+    {
+      "t": 409.6,
+      "end": 428.4,
+      "text": "Till today uh till the current version the created sales document sales order or sales invoice will be always using the store currency the default one but now you can decide and uh for upgraded stores you will need to uh change this setting uh manually"
+    },
+    {
+      "t": 428.4,
+      "end": 441.2,
+      "text": "and then all created documents will have proper currency. So in in this case you can see the Shopify order imported and you can see that it has two currencies."
+    },
+    {
+      "t": 441.2,
+      "end": 456.3,
+      "text": "The local one uh the one used in the transaction with the customer apparently is Danish crowns but also the original amount or amount in the store currency which is US dollars."
+    },
+    {
+      "t": 456.3,
+      "end": 466.6,
+      "text": "So created document will be created accordingly. All right. Next one, fulfillment. Of course, it's not enough to import stuff."
+    },
+    {
+      "t": 466.6,
+      "end": 482.7,
+      "text": "We also want to fulfill register fulfillment information business central and send it back. Uh for troubleshooting purposes, we added uh a new action so we can actually get additional information about which information is received together with the fulfillment."
+    },
+    {
+      "t": 482.7,
+      "end": 493.7,
+      "text": "That was probably the last document where we forgot to add a troubleshooting mechanism. But honestly, it's not that uh that uh"
+    },
+    {
+      "t": 493.7,
+      "end": 499.6,
+      "text": "often required. But something else has changed."
+    },
+    {
+      "t": 499.6,
+      "end": 514,
+      "text": "Do you know these notes? If you reading the documentation about Shopify connector and if you check the article about order processing and fulfillment, you can notice these couple of notes describing the limitation about fulfillment."
+    },
+    {
+      "t": 514,
+      "end": 528,
+      "text": "And I'm proud to say that we are removing them because they're not applicable anymore. So now uh you can increase quantity. You can use buy X get Y discount processes which with the same items."
+    },
+    {
+      "t": 528,
+      "end": 538.8,
+      "text": "You can use assemblies which are using the oh packet bundles in Shopify terminology which use the same item together with the normal item sold directly."
+    },
+    {
+      "t": 538.8,
+      "end": 549.3,
+      "text": "All of them now works and uh I'm super happy about that with a not noticeable change but it's"
+    },
+    {
+      "t": 549.3,
+      "end": 563,
+      "text": "great improvement from uh from quality perspective and uh again giving you flexibility on how to use the connector. All right. And you can ask me what are you showing here?"
+    },
+    {
+      "t": 563,
+      "end": 578.4,
+      "text": "It's available field. The situation is not all changes are driven by us. Sometimes they driven by Shopify and again we are uptaking the new API again and Shopify decided to use the new field for return uh information."
+    },
+    {
+      "t": 578.4,
+      "end": 588.6,
+      "text": "We do import it but now it's stored in the different field. Just be aware that some changes happened. We decided to use a new field for this information. All right."
+    },
+    {
+      "t": 588.6,
+      "end": 602.5,
+      "text": "I mentioned updates of the version. Exactly. In January they release a new version which will be valid till end of the very December 2026. So it makes total sense to upgrade in the April"
+    },
+    {
+      "t": 602.5,
+      "end": 615.4,
+      "text": "to make sure that smooth operations till till end of the year. All of these changes are not actually visible to you but uh it I think it's a is it's a good for you to know uh what exactly changed."
+    },
+    {
+      "t": 615.4,
+      "end": 627.2,
+      "text": "So there are some changes in how inventory availability is processed. There are different APIs or parameter in these APIs are used. Bulk operations which we use for price synchronization"
+    },
+    {
+      "t": 627.2,
+      "end": 638.8,
+      "text": "and uh now product variant supports uh 2,000 variants. So there are some uh some enhancements in this area as well."
+    },
+    {
+      "t": 638.8,
+      "end": 651.4,
+      "text": "So if you have a huge items uh items with a lot of variants makes sense to test. They are now supported. All right. You can always find just a reminder"
+    },
+    {
+      "t": 651.4,
+      "end": 663.1,
+      "text": "uh information about current version and when it is expired in the Shopify shop cart. Thank you for watching. Uh there are two more videos about the topic."
+    },
+    {
+      "t": 663.1,
+      "end": 674.4,
+      "text": "You will find the links in the descriptions about product information management and presentment currencies. You can also reach out to us and our resources not only YouTube but also link it in."
+    },
+    {
+      "t": 674.4,
+      "end": 685,
+      "text": "And now Viva engage which is a tool for collaboration with partner community. Thank you."
+    }
+  ],
+  "markers": [],
+  "word_count": 1696
+}

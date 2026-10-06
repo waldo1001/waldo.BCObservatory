@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/copilot-agents-region-language-availability.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/copilot-agents-region-language-availability",
+  "title": "Copilot and agents country/region availability and supported languages",
+  "blob": "0c9bbdcdf561524f3421aa5d65bea14cd614bda8",
+  "summary": "Copilot and agent features in Business Central availability varies by country/region version, data location, and language; the page lists which features are supported in which countries and languages, explaining factors like Azure infrastructure, compliance, and language model quality that affect rollout.",
+  "systems": [
+    "copilot",
+    "administration",
+    "localization"
+  ],
+  "topics": [
+    "copilot availability",
+    "language support",
+    "country/region support",
+    "ai features",
+    "geographic deployment",
+    "compliance",
+    "azure infrastructure"
+  ],
+  "objects": [],
+  "features": [
+    "Analysis assist",
+    "Autofill fields",
+    "Bank account reconciliation assist",
+    "Expense Agent",
+    "Marketing text suggestions",
+    "Microsoft Copilot",
+    "Payables Agent",
+    "Sales line suggestions",
+    "Sales Order Agent",
+    "Suggest item substitutions",
+    "Suggest number series",
+    "Summarize records"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00828,
+      "pages_in_call": 4
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-compile",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8376d83775e2a1b9f4d1b5f0a2475c675162d791",
       "words": 359,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:28:01.505Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005955
+    },
+    "summarized": {
+      "at": "2026-10-06T13:28:01.540Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:28:01.541Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:28:01.541Z",
+      "page": false
     }
   },
   "input_hash": "8376d83775e2a1b9f4d1b5f0a2475c675162d791",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8376d83775e2a1b9f4d1b5f0a2475c675162d791"
+  "output_hash": "63aa6d01507915794a87c6ac1c75a1a04d75de5ad04f9105d8c2f0d7c7c47c6c"
 }

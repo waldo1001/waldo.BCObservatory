@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-app-resources.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-resources",
+  "title": "Adding and Accessing Resources in Business Central extensions",
+  "blob": "0faca83d4aaee0b049cdaca7d083bf04ebb80821",
+  "summary": "Package and access resources in Business Central extensions using resourceFolders and publicResourceFolders in app.json. Extensions can access private resources locally or expose public resources for other extensions to read.",
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "extension resources",
+    "resource management",
+    "resource sharing",
+    "public resources",
+    "app.json"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "NavApp.GetResource"
+    },
+    {
+      "type": "other",
+      "name": "NavApp.GetResourceAsText"
+    },
+    {
+      "type": "other",
+      "name": "NavApp.GetResourceAsJson"
+    },
+    {
+      "type": "other",
+      "name": "NavApp.ListResources"
+    },
+    {
+      "type": "other",
+      "name": "NavApp.ListAppsWithPublicResources"
+    }
+  ],
+  "features": [
+    "resourceFolders",
+    "publicResourceFolders",
+    "resource access methods",
+    "resource limits (16 MB file, 128 MB folder, 256 files)",
+    "resource discovery"
+  ],
+  "versions": [
+    "runtime version 18.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006766,
+      "pages_in_call": 6
+    }
+  ]
+}

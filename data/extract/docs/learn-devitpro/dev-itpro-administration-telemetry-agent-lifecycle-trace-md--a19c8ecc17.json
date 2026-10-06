@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-agent-lifecycle-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-agent-lifecycle-trace",
+  "title": "Analyze Agent Lifecycle Telemetry",
+  "blob": "588aefaafb409f57657f350e1664980c7490774f",
+  "summary": "Agent lifecycle telemetry tracks AI agent creation, configuration changes, and task creation in Business Central 2026 release wave 1. Monitor agent setup, model assignments, and usage patterns.",
+  "systems": [
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "agent telemetry",
+    "lifecycle events",
+    "configuration changes",
+    "agent tasks",
+    "model tracking",
+    "application insights"
+  ],
+  "objects": [],
+  "features": [
+    "Agent created (LC0067)",
+    "Agent configuration changed (LC0066)",
+    "Agent task created (LC0068)",
+    "agentDisplayName",
+    "modelId",
+    "modelAvailability",
+    "state",
+    "instructionsHash",
+    "changedFields"
+  ],
+  "versions": [
+    "2026 release wave 1",
+    "version 28.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010059,
+      "pages_in_call": 4
+    }
+  ]
+}

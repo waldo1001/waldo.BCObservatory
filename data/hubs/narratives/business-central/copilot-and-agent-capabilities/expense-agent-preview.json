@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+  "input_hash": "e5e336b20899becf715639279927cbd92e34760fe6918eb22711f67ce62b0024",
+  "summary": "Expense Agent (preview) in Business Central is an AI agent that automates expense handling. This section covers admin setup, uploading receipts and creating mileage expenses, reviewing and editing expenses, building and submitting reports, approver actions, and the mobile app.",
+  "overview": "Expense Agent (preview) automates the expense lifecycle in Business Central. It processes emails and receipts and checks expenses against rules and policies. The overview subtopic (4 pages) explains what the agent does and how it evaluates expenses, so start there for concepts.\n\nThe other pages follow the process in order. Administrators use \"Set Up Expense Agent in Business Central\" to configure submission channels, approval workflows, accounting defaults, policy compliance rules and communication settings. Users then upload receipts or create mileage expenses, review and edit the extracted details, group expenses into reports and submit them. Approvers approve reports or send them back with feedback. A separate page covers the mobile app for iOS and Android.\n\nAdministrators should begin with the setup page. End users can go straight to the upload page and then to the review and report pages. Approvers need only the approve or send back page.",
+  "key_points": [
+    "Setup is done by administrators through assisted setup. It covers the email submission channel, web app submission, approval workflows, policy evaluation, receipt handling, accounting defaults and communication settings.",
+    "Receipts can be uploaded through the web app, email or mobile app. The agent uses AI to extract merchant, amount, date and category, and assigns expenses to draft reports.",
+    "When expenses are captured, currency conversion is automatic and VAT reclaim is identified. VAT is also shown when reviewing expenses.",
+    "Mileage expenses are created by specifying trip start and end points. Distance is calculated automatically.",
+    "Users can edit merchant, amount, date, category and payment method, delete expenses, and resolve AI-flagged issues before submission.",
+    "Users can name reports, add receipts, move expenses between reports and optionally check policies before submitting reports for approval.",
+    "Approvers can approve reports, review compliance warnings and policy flags (policy flags are advisory notices), or send reports back to requesters with feedback.",
+    "The mobile app (preview, iOS and Android) offers camera scanning with edge detection, multi-page capture, photo and file upload, mileage expenses, report submission, offline viewing and automatic sync."
+  ],
+  "members_used": 6,
+  "subtopics_used": 1,
+  "prompt_version": 1,
+  "at": "2026-10-06T13:40:02.086Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.042341
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-06T13:43:32.762Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 7 says approvers treat compliance warnings as advisory notices. The approve page summary only calls policy flags advisory. Compliance warnings are listed as a review feature, not as advisory. I corrected the wording.",
+      "Minor: key point 3 presents automatic currency conversion as general. The upload page links it to receipt and mileage handling. It is supported by the feature list, so I kept it but tied it to that page's context.",
+      "Everything else in the summary, the overview and the other key points matches the page and subtopic summaries."
+    ],
+    "input_hash": "e5e336b20899becf715639279927cbd92e34760fe6918eb22711f67ce62b0024",
+    "cost_usd": 0.1000952
+  }
+}

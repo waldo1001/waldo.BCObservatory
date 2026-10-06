@@ -1,0 +1,79 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/server-instance-settings.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/server-instance-settings",
+  "title": "Business Central Server instance settings",
+  "blob": "323703d3976042cde69c844b11dc6e863e1a1e58",
+  "summary": "Business Central Server instance settings provides a complete reference for configuration settings to manage server instance topology, database connections, service defaults, sign-in security, certificates, encryption, and Microsoft Entra integration. Business Central Server instance settings control file access, code execution, data sharing, HTTP client behavior, database writes, file operations, client endpoints, web services (SOAP, OData, API), API subscriptions, throttling, administration services, extension deployment, and debugging.",
+  "systems": [
+    "administration",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "server configuration",
+    "authentication",
+    "security certificates",
+    "encryption",
+    "azure keyvault",
+    "multitenant deployment",
+    "session management",
+    "security settings",
+    "web services",
+    "api management"
+  ],
+  "objects": [],
+  "features": [
+    "ClientBuildRestriction",
+    "Multitenant deployment",
+    "Database configuration",
+    "ClientServicesCredentialType",
+    "Security certificates",
+    "Azure Key Vault integration",
+    "Session retention",
+    "Microsoft Entra authentication",
+    "Client services and web client access",
+    "SOAP web services configuration",
+    "OData and API services endpoints",
+    "API subscriptions and notifications"
+  ],
+  "versions": [
+    "Version 21",
+    "Version 22",
+    "Version 25.11",
+    "Version 26.5",
+    "Version 27.4",
+    "version 20",
+    "version 21",
+    "version 22",
+    "version 25.0",
+    "version 26"
+  ],
+  "parts": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.035844,
+      "pages_in_call": 1
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.034748,
+      "pages_in_call": 1
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032922,
+      "pages_in_call": 1
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010059,
+      "pages_in_call": 4
+    }
+  ]
+}

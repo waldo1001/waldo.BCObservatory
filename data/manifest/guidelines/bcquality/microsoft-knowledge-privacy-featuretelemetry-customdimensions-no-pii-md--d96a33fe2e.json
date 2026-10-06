@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "featuretelemetry customdimensions no pii",
+  "title": "`FeatureTelemetry` `CustomDimensions` follow the same privacy rules as `Session.LogMessage`",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/featuretelemetry-customdimensions-no-pii.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.530Z",
+      "blob": "f34804b6b607ff33346395a390b7f5f2232b5c27",
+      "words": 183,
+      "forms": 0
     }
   },
   "input_hash": "f34804b6b607ff33346395a390b7f5f2232b5c27",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/privacy/featuretelemetry-customdimensions-no-pii.md"
-  }
+    "path": "microsoft/knowledge/privacy/featuretelemetry-customdimensions-no-pii.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 183
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f34804b6b607ff33346395a390b7f5f2232b5c27"
 }

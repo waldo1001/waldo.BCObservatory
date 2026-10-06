@@ -1,0 +1,290 @@
+{
+  "video_id": "4TE8uwIi91k",
+  "item_id": "video/yt-microsoft/4TE8uwIi91k",
+  "title": "What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)",
+  "duration_s": 397,
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "topics": [
+    "expense agent",
+    "mobile app",
+    "receipt scanning",
+    "mileage tracking",
+    "offline mode",
+    "expense approval",
+    "auto capture",
+    "bulk upload"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Expense Agent mobile app capabilities",
+      "t_start": 0,
+      "t_end": 40.6
+    },
+    {
+      "title": "Receipt scanning with auto capture and bulk upload",
+      "t_start": 40.6,
+      "t_end": 104.6
+    },
+    {
+      "title": "Uploading receipts from gallery via share functionality",
+      "t_start": 104.6,
+      "t_end": 133.6
+    },
+    {
+      "title": "Mileage expense creation on mobile",
+      "t_start": 133.6,
+      "t_end": 204.3
+    },
+    {
+      "title": "Offline mode for receipt handling and categorization",
+      "t_start": 204.3,
+      "t_end": 270.9
+    },
+    {
+      "title": "Submission and approval workflow in mobile app",
+      "t_start": 270.9,
+      "t_end": 329
+    },
+    {
+      "title": "Summary of mobile app feature parity with web app",
+      "t_start": 329,
+      "t_end": 359.9
+    },
+    {
+      "title": "Availability and preview status of the mobile app",
+      "t_start": 359.9,
+      "t_end": 397
+    }
+  ],
+  "features": [
+    {
+      "name": "Receipt scanning with auto capture",
+      "description": "Native capability to automatically capture receipts directly from the phone camera in the Expense Agent mobile app.",
+      "status": "preview",
+      "status_evidence_t": 359.9,
+      "status_evidence_quote": "it's still in preview",
+      "status_evidence_verified": true,
+      "t_start": 51.1,
+      "t_end": 66.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "receipt scanning",
+        "auto capture",
+        "mobile"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Bulk receipt upload",
+      "description": "Ability to upload multiple receipts at the same time from the mobile app before processing.",
+      "status": "preview",
+      "status_evidence_t": 359.9,
+      "status_evidence_quote": "it's still in preview",
+      "status_evidence_verified": true,
+      "t_start": 66.4,
+      "t_end": 95.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "receipt upload",
+        "bulk operations",
+        "mobile"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Gallery share functionality for receipts",
+      "description": "Integration with operating system share functionality to send photos from gallery directly to the Expense Agent mobile app for processing.",
+      "status": "preview",
+      "status_evidence_t": 359.9,
+      "status_evidence_quote": "it's still in preview",
+      "status_evidence_verified": true,
+      "t_start": 104.6,
+      "t_end": 120.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "receipt upload",
+        "share integration",
+        "mobile"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Mileage expense creation on mobile",
+      "description": "Create mileage expenses directly from the phone with route selection, vehicle type, distance calculation, and automatic per diem rate calculation.",
+      "status": "preview",
+      "status_evidence_t": 359.9,
+      "status_evidence_quote": "it's still in preview",
+      "status_evidence_verified": true,
+      "t_start": 133.6,
+      "t_end": 204.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mileage",
+        "expense creation",
+        "mobile"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Offline mode for receipt handling",
+      "description": "Add receipts and expenses to the app while offline without immediate processing; expenses are queued and processed once connection is restored.",
+      "status": "preview",
+      "status_evidence_t": 359.9,
+      "status_evidence_quote": "it's still in preview",
+      "status_evidence_verified": true,
+      "t_start": 233.1,
+      "t_end": 258.5,
+      "is_demoed": true,
+      "caveats": [
+        "No local processing; processing happens after reconnection"
+      ],
+      "tags": [
+        "offline mode",
+        "queue",
+        "mobile"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Expense submission on mobile",
+      "description": "Submit expense reports from the mobile app to approvers, with the same workflow as the web app.",
+      "status": "preview",
+      "status_evidence_t": 359.9,
+      "status_evidence_quote": "it's still in preview",
+      "status_evidence_verified": true,
+      "t_start": 270.9,
+      "t_end": 298.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "submission",
+        "workflow",
+        "mobile"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Expense approval on mobile",
+      "description": "Review, check compliance issues, override flags, and approve expense reports directly from the mobile app.",
+      "status": "preview",
+      "status_evidence_t": 359.9,
+      "status_evidence_quote": "it's still in preview",
+      "status_evidence_verified": true,
+      "t_start": 298.1,
+      "t_end": 329,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "approval",
+        "compliance",
+        "workflow",
+        "mobile"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Expense categorization and agent processing",
+      "description": "Automatic recognition and categorization of uploaded expenses and receipts into expense reports by the Expense Agent.",
+      "status": "preview",
+      "status_evidence_t": 359.9,
+      "status_evidence_quote": "it's still in preview",
+      "status_evidence_verified": true,
+      "t_start": 204.3,
+      "t_end": 233.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "expense categorization",
+        "agent",
+        "processing"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 6.4,
+      "text": "You can scan one or multiple receipts directly from the app, or you can also upload receipts that you have already in your um",
+      "why_it_matters": "Establishes core mobile app capability for receipt capture and upload.",
+      "check": "exact"
+    },
+    {
+      "t": 51.1,
+      "text": "we're using here a native capability, which is called auto capture from the operating system.",
+      "why_it_matters": "Explains the technical approach using OS-level auto capture for receipt recognition.",
+      "check": "exact"
+    },
+    {
+      "t": 120.6,
+      "text": "you can see that Expensify agent is now going to pop up here in the list. And you can just choose Expensify agent",
+      "why_it_matters": "Shows integration with OS share sheet for seamless receipt submission from gallery.",
+      "check": "exact"
+    },
+    {
+      "t": 233.1,
+      "text": "we have a feature which is also offline mode. So, let's say that all of these that I'm doing um I'm actually doing it,",
+      "why_it_matters": "Introduces offline functionality as a key feature for field use.",
+      "check": "exact"
+    },
+    {
+      "t": 247.8,
+      "text": "Notice we don't process them immediately, we process them the moment your connection comes back.",
+      "why_it_matters": "Clarifies offline mode limitation - no local processing, queuing only.",
+      "check": "exact"
+    },
+    {
+      "t": 329,
+      "text": "from the mobile app, you have the same powerful um agent experience and the same powerful options that you have from the web application",
+      "why_it_matters": "Confirms feature parity between mobile and web app experience.",
+      "check": "exact"
+    },
+    {
+      "t": 359.9,
+      "text": "you can try it out right now. But be mindful because it's still in preview.",
+      "why_it_matters": "Announces preview availability and status.",
+      "check": "exact"
+    },
+    {
+      "t": 381.3,
+      "text": "Please remember that the app is still in beta, which means you will get to accept some beta conditions and beta program before you",
+      "why_it_matters": "Details beta program requirements for access.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 359.9,
+      "kind": "preview",
+      "text": "it's still in preview"
+    },
+    {
+      "t": 381.3,
+      "kind": "preview",
+      "text": "the app is still in beta, which means you will get to accept some beta conditions and beta program"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 8,
+    "evidence_unverified": 0
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.031996
+    }
+  ]
+}

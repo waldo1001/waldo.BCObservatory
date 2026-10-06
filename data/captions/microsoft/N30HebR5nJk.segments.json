@@ -1,0 +1,174 @@
+{
+  "video_id": "N30HebR5nJk",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.5,
+      "end": 10.8,
+      "text": "Welcome back to the manufacturing Foundation series. So far we have seen production design, production orders, and flushing methods. Now let's follow the cost story."
+    },
+    {
+      "t": 10.8,
+      "end": 21.7,
+      "text": "Let's open the item card for our airpod coffee maker. In Business Central cost control starts before we open the order. It starts on the item card."
+    },
+    {
+      "t": 21.7,
+      "end": 35.9,
+      "text": "Remember when creating the production bomb and routing that we assigned them to our product? Item card also helps define how we account for the cost of our production. We can see that the airpod coffee maker uses FIFO costing method."
+    },
+    {
+      "t": 35.9,
+      "end": 46.4,
+      "text": "Business Central allows to select multiple costing methods, FIFO costing, LIFO costing, specific, weighted average, or standard cost."
+    },
+    {
+      "t": 46.4,
+      "end": 61.8,
+      "text": "Standard cost is used to define theoretical cost and account for production variances. But where do the other costs come from? Depending on the replenishment method defined, we will account for the purchase price or the actual production cost."
+    },
+    {
+      "t": 61.8,
+      "end": 75.7,
+      "text": "We can also specify where and how our cost should be posted to our general ledger for in a smooth accounting practice and an analysis. If we want to know where does a product cost come from, we can click on cost shares."
+    },
+    {
+      "t": 75.7,
+      "end": 86,
+      "text": "This is the first important point. Item cost is not one number. It is a roll up. Materials come from the production bomb. Capacity comes from routing operations."
+    },
+    {
+      "t": 86,
+      "end": 99.6,
+      "text": "Overhead and scrap can be added as the cost rolls up. When we scroll to the cost columns, Business Central separates material cost, capacity cost, manufacturing overhead, scrap, and total cost."
+    },
+    {
+      "t": 99.6,
+      "end": 110.6,
+      "text": "That separation matters because later the finished order will show us which driver moved. On the right side, we can also see the total cost for each of the components."
+    },
+    {
+      "t": 110.6,
+      "end": 125,
+      "text": "The same information can be easier to explain in a report. BOM cost share distribution gives us a cost analysis view for this item. The chart show the shape of the cost. The table shows how the components and operations contribute to the total."
+    },
+    {
+      "t": 125,
+      "end": 135.8,
+      "text": "At the top, we can see the cost of each component and where it comes from. Components, capacity, overheads. This is useful when the audience is not in the item card every day."
+    },
+    {
+      "t": 135.8,
+      "end": 145.8,
+      "text": "Finance and operations can both see the same cost story. Which part is material, which part is capacity, and where overhead belong. S."
+    },
+    {
+      "t": 145.8,
+      "end": 157.2,
+      "text": "The BOM explains component cost. The routing explains capacity. Now we open work center 100, assembly department, because this is where capacity rates are registered."
+    },
+    {
+      "t": 157.2,
+      "end": 170.2,
+      "text": "Notice we have direct unit cost, indirect cost percentage, and overhead rate, which accounts for the total unit cost. This work center is calculated by time in minutes."
+    },
+    {
+      "t": 170.2,
+      "end": 182.4,
+      "text": "That means posted time becomes capacity cost. If the rate is wrong, the order cost will be wrong. If the time posted is higher than planned, capacity cost will move, too."
+    },
+    {
+      "t": 182.4,
+      "end": 194.4,
+      "text": "Let's see how all of this is reflected on a finished order. This order produced 10 units of the Airpod. Statistics gives us the comparison for this specific production order."
+    },
+    {
+      "t": 194.4,
+      "end": 205.7,
+      "text": "As we saw previously, Airpod doesn't use standard cost, but FIFO. Material cost was expected at 12,296, and capacity is accounted for 324,"
+    },
+    {
+      "t": 205.7,
+      "end": 213.4,
+      "text": "plus the 10% overhead. The expected cost was 1,652.75."
+    },
+    {
+      "t": 213.5,
+      "end": 224.2,
+      "text": "As some of the flushing methods were manual, we can see the material cost was higher, and production spent more time. All of this drove the total cost 2,259.5"
+    },
+    {
+      "t": 224.2,
+      "end": 242.2,
+      "text": "for this order of 10 Airpod coffee makers. Capacity need is listed at the end with the minutes required for production. The product design, the production BOM, capacities and routings come together with the flushing methods and allow an accurate costing of every production order."
+    },
+    {
+      "t": 242.2,
+      "end": 251,
+      "text": "And the best? Everything is already registered on your general ledger. Thanks for watching. We'll see you next time."
+    }
+  ],
+  "markers": [
+    {
+      "t": 27.51,
+      "text": "[music]"
+    },
+    {
+      "t": 32.095,
+      "text": "[music]"
+    },
+    {
+      "t": 36.7,
+      "text": "[music]"
+    },
+    {
+      "t": 92.355,
+      "text": "[music]"
+    },
+    {
+      "t": 163.751,
+      "text": "[music]"
+    },
+    {
+      "t": 192.572,
+      "text": "[music]"
+    },
+    {
+      "t": 201.742,
+      "text": "[music]"
+    },
+    {
+      "t": 203.19,
+      "text": "[music]"
+    },
+    {
+      "t": 203.2,
+      "text": "[music]"
+    },
+    {
+      "t": 218.772,
+      "text": "[music]"
+    },
+    {
+      "t": 220.19,
+      "text": "[music]"
+    },
+    {
+      "t": 220.2,
+      "text": "[music]"
+    },
+    {
+      "t": 224.012,
+      "text": "[music]"
+    },
+    {
+      "t": 233.182,
+      "text": "[music]"
+    },
+    {
+      "t": 238.422,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 621
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-working-with-media-on-records",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c4dbc68e0cb3192a4f8195c59f2255a2c90dc98d",
       "words": 1671,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:34:46.167Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.017669
+    },
+    "summarized": {
+      "at": "2026-10-06T13:34:46.209Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:34:46.209Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:34:46.210Z",
+      "page": false
     }
   },
   "input_hash": "c4dbc68e0cb3192a4f8195c59f2255a2c90dc98d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c4dbc68e0cb3192a4f8195c59f2255a2c90dc98d"
+  "output_hash": "a35365b4434ceadde5086c229908513ecfe015a9d7164717edf4354121874bdf"
 }

@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=i0gBrA1tx50",
   "published_at": "2026-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,39 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T13:05:45.836Z",
+      "path": "data/extract/video/i0gBrA1tx50.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 7,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.031412
+    },
+    "summarized": {
+      "at": "2026-10-06T13:05:54.402Z",
+      "path": "data/summary/video/i0gBrA1tx50.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0413264
+    },
+    "linked": {
+      "at": "2026-10-06T13:05:54.402Z",
+      "systems": [
+        "development",
+        "platform"
+      ],
+      "topics": 9,
+      "objects_as_heard": 1
+    },
+    "published": {
+      "at": "2026-10-06T13:05:54.403Z",
+      "path": "content/videos/i0gBrA1tx50.md"
     }
   },
   "input_hash": null,
@@ -35,5 +68,6 @@
     "seed_file": "2026-10-01 - BCLE - What’s new： ALGraph (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "7b6d4594cf3ca7df28c338de6dce10cd8a11db837c6070cd65aba4e8666ed477"
 }

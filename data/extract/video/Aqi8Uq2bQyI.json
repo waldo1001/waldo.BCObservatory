@@ -1,0 +1,216 @@
+{
+  "video_id": "Aqi8Uq2bQyI",
+  "item_id": "video/yt-microsoft/Aqi8Uq2bQyI",
+  "title": "What's new in Page Scripting  (2026 release wave 2)",
+  "duration_s": 169,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "page scripting",
+    "user acceptance testing",
+    "test recording",
+    "localization",
+    "accessibility",
+    "grid selection",
+    "message validation",
+    "automation agents"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to page scripting tool",
+      "t_start": 0,
+      "t_end": 44.3
+    },
+    {
+      "title": "Existing resources and sessions",
+      "t_start": 44.3,
+      "t_end": 60.4
+    },
+    {
+      "title": "General availability and localization",
+      "t_start": 60.4,
+      "t_end": 85.4
+    },
+    {
+      "title": "Finishing and polishing the tool",
+      "t_start": 85.4,
+      "t_end": 111.7
+    },
+    {
+      "title": "New capabilities - multiple selection and validation",
+      "t_start": 111.7,
+      "t_end": 133.5
+    },
+    {
+      "title": "Summary and agent integration",
+      "t_start": 133.5,
+      "t_end": 169
+    }
+  ],
+  "features": [
+    {
+      "name": "Page scripting tool",
+      "description": "A tool that allows customers and consultants to record and replay user actions directly in the web client for testing and user acceptance testing purposes.",
+      "status": "ga",
+      "status_evidence_t": 60.4,
+      "status_evidence_quote": "in this release, we are now moving the page scripting from preview into making it generally available",
+      "status_evidence_verified": true,
+      "t_start": 20.4,
+      "t_end": 161.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "recording",
+        "replay",
+        "testing",
+        "web client"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Page scripting localization",
+      "description": "Full localization of page scripting tool with all user-facing strings translated including steps, error messages, and tooltips.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 73.3,
+      "t_end": 85.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "localization",
+        "translation",
+        "production-ready"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Multiple selection in grids",
+      "description": "Support for recording the selection of multiple rows in a list to enable bulk action recording and replay.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 111.7,
+      "t_end": 122.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "grid",
+        "selection",
+        "bulk actions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Message and error dialogue validation",
+      "description": "Ability to validate the text shown in messages or error dialogues during recordings, turning recordings into real assertions rather than just sequences of clicks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 122.7,
+      "t_end": 133.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "validation",
+        "assertion",
+        "error handling"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent-generated page scripts",
+      "description": "Agents can be used to generate page scripting scripts and run them automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 149.4,
+      "t_end": 161.6,
+      "is_demoed": false,
+      "caveats": [
+        "generative capability",
+        "agent-based approach"
+      ],
+      "tags": [
+        "agents",
+        "automation",
+        "generation"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 20.4,
+      "text": "the page scripting tool allows customers and consultants to record and replay user actions directly in the web client",
+      "why_it_matters": "Defines the core purpose and user base of the page scripting tool.",
+      "check": "exact"
+    },
+    {
+      "t": 31.9,
+      "text": "empowering customers and consultants to create tests in a more agile, quicker, and cost-effective way",
+      "why_it_matters": "Explains the business value proposition - enabling non-developers to create tests faster and cheaper.",
+      "check": "exact"
+    },
+    {
+      "t": 60.4,
+      "text": "in this release, we are now moving the page scripting from preview into making it generally available",
+      "why_it_matters": "Announces the status change from preview to general availability.",
+      "check": "exact"
+    },
+    {
+      "t": 73.3,
+      "text": "it's now fully localized. Every user-facing string is translated, all steps, error messages, tooltips",
+      "why_it_matters": "Specifies the localization scope as a prerequisite for general availability.",
+      "check": "exact"
+    },
+    {
+      "t": 111.7,
+      "text": "we have support for multiple selection in grids, so that you can record selecting several rows in a list and run bulk actions",
+      "why_it_matters": "Describes a new capability for recording grid selections and bulk operations.",
+      "check": "exact"
+    },
+    {
+      "t": 122.7,
+      "text": "you can now validate the text shown in a message or in an error dialogue to actually assess when that happens",
+      "why_it_matters": "Introduces the validation feature that elevates recordings from clicks to assertions.",
+      "check": "exact"
+    },
+    {
+      "t": 133.5,
+      "text": "that turns the recording into actually a real assertion, not just a sequence of clicks",
+      "why_it_matters": "Clarifies that message validation creates proper test assertions.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 60.4,
+      "kind": "preview",
+      "text": "we launched it in in preview back then"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.038434199999999995
+    }
+  ]
+}

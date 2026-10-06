@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "api enum values are a contract by name not ordinal",
+  "title": "Under OData schema version 2.0 an API enum field is a contract by member name; under 1.0 it is the caption",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/api-enum-values-are-a-contract-by-name-not-ordinal.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:46.059Z",
+      "blob": "66fe36ecb2d144ebe5e43d314966915fe38ba85d",
+      "words": 641,
+      "forms": 0
     }
   },
   "input_hash": "66fe36ecb2d144ebe5e43d314966915fe38ba85d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/web-services/api-enum-values-are-a-contract-by-name-not-ordinal.md"
-  }
+    "path": "microsoft/knowledge/web-services/api-enum-values-are-a-contract-by-name-not-ordinal.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 641
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "66fe36ecb2d144ebe5e43d314966915fe38ba85d"
 }

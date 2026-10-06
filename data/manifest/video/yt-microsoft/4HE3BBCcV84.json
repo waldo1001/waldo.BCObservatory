@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "MCP Server and API Queries (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=4HE3BBCcV84",
-  "published_at": null,
+  "published_at": "2026-07-07T14:00:18.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:14:44.704Z",
+      "captions": "auto:en-orig",
+      "duration_s": 340
+    },
+    "captioned": {
+      "at": "2026-10-06T13:14:49.457Z",
+      "path": "data/captions/microsoft/4HE3BBCcV84.vtt",
+      "vtt_sha256": "1b6ce04256d29fd1069f2022435fbcfd2dc451e2a979b4768bf0f8dca426233f",
+      "segments": 25,
+      "words": 749,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 57,
-    "duration_s": 341,
-    "via": "reconcile"
-  }
+    "duration_s": 340,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1b6ce04256d29fd1069f2022435fbcfd2dc451e2a979b4768bf0f8dca426233f"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go",
   "published_at": "2026-10-01T14:26:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3ce4dc729b7600edde0a936128ca24175178a2c3",
       "words": 1407,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:31:27.840Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.015515
+    },
+    "summarized": {
+      "at": "2026-10-06T13:31:27.844Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:31:27.844Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:31:27.844Z",
+      "page": false
     }
   },
   "input_hash": "3ce4dc729b7600edde0a936128ca24175178a2c3",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3ce4dc729b7600edde0a936128ca24175178a2c3"
+  "output_hash": "d22bb22dcc2933ecfacfed7d099604145609d62008145955faa8152a56a94ce8"
 }

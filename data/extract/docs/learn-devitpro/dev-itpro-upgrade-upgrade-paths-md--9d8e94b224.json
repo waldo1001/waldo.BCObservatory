@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-paths.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-paths",
+  "title": "Supported upgrade paths to Business Central on-premises",
+  "blob": "72925d0e6e8b6241462725fa87a3168bc7f99321",
+  "summary": "Comprehensive upgrade paths matrix showing supported source versions and routes to reach Business Central releases v29 (2026 wave 2) through v14 (Spring 2019), with direct and indirect paths. Notes that v14-to-latest direct upgrade not supported from v26 onwards; v14 requires routing through v25.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "upgrade",
+    "upgrade path",
+    "version compatibility",
+    "c/al to al conversion"
+  ],
+  "objects": [],
+  "features": [
+    "direct upgrade",
+    "indirect upgrade",
+    "C/AL to AL conversion",
+    "intermediate versions"
+  ],
+  "versions": [
+    "version 14",
+    "version 15",
+    "version 16",
+    "version 17",
+    "version 18",
+    "version 19",
+    "version 20",
+    "version 21",
+    "version 22",
+    "version 23"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009239,
+      "pages_in_call": 4
+    }
+  ]
+}

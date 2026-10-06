@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "expose only committed data from api reads",
+  "title": "Read only committed data from APIs that must not expose in-flight writes",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/expose-only-committed-data-from-api-reads.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:46.069Z",
+      "blob": "4337b41655b76755c526edd7e737b42dc47a7d3a",
+      "words": 284,
+      "forms": 0
     }
   },
   "input_hash": "4337b41655b76755c526edd7e737b42dc47a7d3a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/web-services/expose-only-committed-data-from-api-reads.md"
-  }
+    "path": "microsoft/knowledge/web-services/expose-only-committed-data-from-api-reads.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 284
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4337b41655b76755c526edd7e737b42dc47a7d3a"
 }

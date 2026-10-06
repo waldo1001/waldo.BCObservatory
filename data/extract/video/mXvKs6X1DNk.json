@@ -1,0 +1,362 @@
+{
+  "video_id": "mXvKs6X1DNk",
+  "item_id": "video/yt-microsoft/mXvKs6X1DNk",
+  "title": "What's new: Cross-environment Master Data Management (2026 release wave 2)",
+  "duration_s": 569,
+  "systems": [
+    "integration",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "master data management",
+    "cross-environment synchronization",
+    "multi-tenant",
+    "entra id",
+    "oauth 2.0",
+    "data replication",
+    "permissions",
+    "subsidiary data",
+    "environment boundaries"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and customer problem",
+      "t_start": 0,
+      "t_end": 55.4
+    },
+    {
+      "title": "Solution overview and architecture",
+      "t_start": 55.4,
+      "t_end": 120.7
+    },
+    {
+      "title": "Security, permissions and data flow",
+      "t_start": 120.7,
+      "t_end": 187.2
+    },
+    {
+      "title": "Setup and configuration details",
+      "t_start": 187.2,
+      "t_end": 237.4
+    },
+    {
+      "title": "Demo - subsidiary setup and wizard",
+      "t_start": 237.4,
+      "t_end": 302.4
+    },
+    {
+      "title": "Demo - app registration and permissions",
+      "t_start": 302.4,
+      "t_end": 391.1
+    },
+    {
+      "title": "Demo - initial synchronization",
+      "t_start": 391.1,
+      "t_end": 457.4
+    },
+    {
+      "title": "Demo - change propagation and monitoring",
+      "t_start": 457.4,
+      "t_end": 569
+    }
+  ],
+  "features": [
+    {
+      "name": "Cross-environment Master Data Synchronization",
+      "description": "Subsidiaries in the same tenant but different environments can pull master data from headquarters using a built-in solution with no middleware or custom code required.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 55.4,
+      "t_end": 120.7,
+      "is_demoed": true,
+      "caveats": [
+        "Picture size limited to 512 KB each",
+        "HQ must grant read permissions for each table",
+        "Only changes are synchronized, not full data every time"
+      ],
+      "tags": [
+        "master data",
+        "synchronization",
+        "multi-environment",
+        "subsidiaries"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Entra ID-based Authorization",
+      "description": "Access across environments is secured through Microsoft Entra ID with app registration and admin consent workflow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 105.2,
+      "t_end": 149.8,
+      "is_demoed": true,
+      "caveats": [
+        "App must be registered in the same tenant",
+        "Admin consent required in source environment"
+      ],
+      "tags": [
+        "security",
+        "entra id",
+        "oauth",
+        "authentication"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Read-only HQ Data Source",
+      "description": "Headquarters company remains the read-only main source of data, controlling what data subsidiaries can access through permission sets.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 92,
+      "t_end": 149.8,
+      "is_demoed": true,
+      "caveats": [
+        "HQ admin approval required for each subsidiary access",
+        "Read permissions must be configured per table"
+      ],
+      "tags": [
+        "permissions",
+        "data governance",
+        "read-only"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Delta Synchronization with Web Services",
+      "description": "Only changes (deltas) are synchronized between environments using data services and web service technology, not full dataset transfers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 120.7,
+      "t_end": 134.7,
+      "is_demoed": false,
+      "caveats": [
+        "Automatic scheduling of synchronization jobs required"
+      ],
+      "tags": [
+        "delta sync",
+        "web service",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Secure Credential Storage",
+      "description": "OAuth credentials for cross-environment access are stored securely in a wizard-based setup and cannot be read by users at any time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 187.2,
+      "t_end": 215.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "security",
+        "credentials",
+        "setup"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Flexible App Registration Strategy",
+      "description": "Customers can choose to register one app shared across multiple subsidiaries or register a separate app per subsidiary based on audit requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 215.1,
+      "t_end": 237.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "app registration",
+        "configuration",
+        "audit"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Cross-environment Setup Wizard",
+      "description": "Simplified wizard interface guides subsidiaries through entering headquarters environment name, company name, and OAuth credentials.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 287.4,
+      "t_end": 346.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "setup",
+        "wizard",
+        "configuration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Picture and Attachment Propagation",
+      "description": "Pictures and attachments travel along with synchronized master data records across environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 163.1,
+      "t_end": 174.4,
+      "is_demoed": false,
+      "caveats": [
+        "Maximum file size: 512 KB per picture"
+      ],
+      "tags": [
+        "attachments",
+        "media",
+        "limitations"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Default Tables and Custom Permission Sets",
+      "description": "A predefined set of default master data tables are synchronized by default; additional tables require creating custom permission sets with read permissions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 391.1,
+      "t_end": 410,
+      "is_demoed": true,
+      "caveats": [
+        "Custom tables require admin to create new permission sets"
+      ],
+      "tags": [
+        "tables",
+        "permissions",
+        "configuration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Automatic Synchronization Status Monitoring",
+      "description": "Synchronization log shows modification status and changes; logs can be viewed per table through the same UI as single-environment synchronization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 530.2,
+      "t_end": 558.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "monitoring",
+        "logging",
+        "status"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer",
+      "t": 479.6
+    },
+    {
+      "type": "table",
+      "name": "Vendor",
+      "t": 479.6
+    },
+    {
+      "type": "table",
+      "name": "Business Relation",
+      "t": 446.2
+    },
+    {
+      "type": "table",
+      "name": "Dimension",
+      "t": 446.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Ksenia",
+      "confidence": "high"
+    },
+    {
+      "name": "George",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 55.4,
+      "text": "Now, it will be possible for subsidiaries in the same tenant, but different environments to pull data from the HQ company. And it is",
+      "why_it_matters": "Defines the core capability: cross-environment master data pull with built-in architecture requiring no custom development.",
+      "check": "exact"
+    },
+    {
+      "t": 105.2,
+      "text": "HQ still the read-only and the main source uh of the data. Uh we can see the data will cross the environment boundary and",
+      "why_it_matters": "Establishes the security model and data governance: HQ as read-only source, Entra ID authentication, cross-environment boundary support.",
+      "check": "exact"
+    },
+    {
+      "t": 120.7,
+      "text": "all subsidiaries can pull the data, and they're not every time getting all the things, but only the changes. Behind it is a technology",
+      "why_it_matters": "Explains the synchronization efficiency mechanism: delta-only transfers using data services and web service technology.",
+      "check": "exact"
+    },
+    {
+      "t": 149.8,
+      "text": "when you're adding tables, HQ need to give the read permissions. Uh so, the subsidiary will have an access to them.",
+      "why_it_matters": "Documents the permission model: HQ controls table access at the source through explicit read permission grants.",
+      "check": "exact"
+    },
+    {
+      "t": 163.1,
+      "text": "pictures and attachments will travel along with the record. The only, for now, limitation there, pictures, uh should be up to 512 KB each,",
+      "why_it_matters": "Identifies a functional limitation: media propagation is supported but capped at 512 KB per image.",
+      "check": "exact"
+    },
+    {
+      "t": 391.1,
+      "text": "it includes read permissions for all the default tables. As Xenia mentioned, if you add more tables than the default ones, then you need",
+      "why_it_matters": "Clarifies customization required: additional tables beyond defaults require custom permission set creation.",
+      "check": "exact"
+    },
+    {
+      "t": 542.6,
+      "text": "if I refresh, I can see it got the new value that was changed in the source. So, the rescheduling of synchronization jobs and",
+      "why_it_matters": "Confirms automatic change propagation capability and demonstrates that same UI/mechanics apply as single-environment sync.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 163.1,
+      "kind": "subject-to-change",
+      "text": "pictures, uh should be up to 512 KB each, no more. So, as you already understand, all the environments should be in the same tenant"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 10
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.036171999999999996
+    }
+  ]
+}

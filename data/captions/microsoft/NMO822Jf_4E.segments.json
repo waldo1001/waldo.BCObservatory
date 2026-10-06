@@ -1,0 +1,123 @@
+{
+  "video_id": "NMO822Jf_4E",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 7.1,
+      "end": 20.7,
+      "text": ">> In the previous release, we added capability to synchronize prices for catalogs which are associated with markets. Yes, markets which are representing different regions, and you might want to actually define different"
+    },
+    {
+      "t": 20.7,
+      "end": 35.6,
+      "text": "tax and price and localization rules per market. So, price is very important. And one more, it's all for often very important to allow user or buyer in the local market to buy in local currency."
+    },
+    {
+      "t": 35.6,
+      "end": 56.2,
+      "text": "So, I have couple of orders here where customer the same customer get the same item but delivered to the different different locations. So, in one case it was US dollars and in other case we are in Denmark uh this customer paid in Danish crowns because the items will be delivered into Denmark."
+    },
+    {
+      "t": 56.2,
+      "end": 73.2,
+      "text": "So, we the the currency demonstrated or presented to customer is the presentment currency. Currency used at the checkout time. In the Business Central, we used to import both of them but create sales documents only in the store currency,"
+    },
+    {
+      "t": 73.2,
+      "end": 88.8,
+      "text": "the default currency configured in the Shopify admin not anymore. Switching to Business Central and opening Shopify shop card and scroll a little bit down a little bit more,"
+    },
+    {
+      "t": 88.8,
+      "end": 100.5,
+      "text": "order processing. If you do not see the field, try to click show more. The currency handling, the new field. It has two options, shop currency, the default one, to make sure that there are no sudden changes."
+    },
+    {
+      "t": 100.5,
+      "end": 111.9,
+      "text": "As soon as you upgrade, it will continue to create orders the same way it used to do that. But you can always switch to presentment currency. And actually you can do that at any point of time."
+    },
+    {
+      "t": 111.9,
+      "end": 120.4,
+      "text": "Then, let's navigate to orders and synchronize orders from Shopify."
+    },
+    {
+      "t": 120.4,
+      "end": 130.8,
+      "text": "All right, we received three orders. Two of them we already explored. And let's create sales document for them."
+    },
+    {
+      "t": 131.1,
+      "end": 142.1,
+      "text": "All right, what do we see here? We see the store currency and the presentment currency, which are blank, means local currency. So, these ones are used in the local currency."
+    },
+    {
+      "t": 142.1,
+      "end": 152.8,
+      "text": "But the next one, the next order let's navigate to it and create sales document. You can see that amounts are different."
+    },
+    {
+      "t": 152.8,
+      "end": 167.1,
+      "text": "This is what we uh amount in the in the store currency, and this is presentment currency. Because we configured uh orders to be created in presentment currency you can see the new field here, processed currency,"
+    },
+    {
+      "t": 167.1,
+      "end": 179,
+      "text": "which is populated as soon as you process document. So, now the created document is created in the in the presentment currency, in Danish crowns."
+    },
+    {
+      "t": 179,
+      "end": 189.5,
+      "text": "So, if I will navigate to my sales order you can see Danish crowns all all over the place, including the currency code."
+    },
+    {
+      "t": 189.5,
+      "end": 200.9,
+      "text": "All right. What if I want to change something? I cannot change this presentment currency, it's not editable, but I can always"
+    },
+    {
+      "t": 200.9,
+      "end": 210.6,
+      "text": "unlink processed document correct? Open the store"
+    },
+    {
+      "t": 210.6,
+      "end": 221.4,
+      "text": "switch to shop currency for example, or vice versa return back to the order and create sales document again."
+    },
+    {
+      "t": 221.4,
+      "end": 235.6,
+      "text": "So, now when system was connector creates new sales document it use setting from the Shopify shop card. So, now we have the second one and you can see that amounts are in the"
+    },
+    {
+      "t": 235.6,
+      "end": 252.5,
+      "text": "store currency or local currency in my case, 450 in both in both scenarios. So, as you can see, it's very easy to uh manipulate the data and experiment which works for you and try if you want to activate the new capability or not."
+    },
+    {
+      "t": 252.5,
+      "end": 267.1,
+      "text": "You can always reactivate switch it back and recreate orders if necessary. So, you can see that creation orders in the presentment currency it's a safe and a logical"
+    },
+    {
+      "t": 267.1,
+      "end": 285.8,
+      "text": "step after defining currencies in the catalogs linked to the markets. So, two features work seamlessly together and uh you are very welcome to try and provide a feedback to us using one of the channels like Viva Engage or LinkedIn."
+    },
+    {
+      "t": 285.8,
+      "end": 293,
+      "text": "You can find more videos on our YouTube channel. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 643
+}

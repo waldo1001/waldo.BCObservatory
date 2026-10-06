@@ -1,0 +1,200 @@
+{
+  "video_id": "KNy2KujjheU",
+  "item_id": "video/yt-microsoft/KNy2KujjheU",
+  "title": "What's new: Database Export Enhancements (2026 release wave 2)",
+  "duration_s": 231,
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "database export",
+    "admin center",
+    "operations page",
+    "reliability",
+    "visibility",
+    "environment operations",
+    "api deprecation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and context",
+      "t_start": 0,
+      "t_end": 33.2
+    },
+    {
+      "title": "What database export is and two headlines",
+      "t_start": 33.2,
+      "t_end": 57.8
+    },
+    {
+      "title": "Reliability improvements",
+      "t_start": 57.8,
+      "t_end": 94.6
+    },
+    {
+      "title": "Visibility: exports as environment operations",
+      "t_start": 94.6,
+      "t_end": 126.5
+    },
+    {
+      "title": "Demo: export button and flyout",
+      "t_start": 126.5,
+      "t_end": 166.8
+    },
+    {
+      "title": "Demo: operations page tracking",
+      "t_start": 166.8,
+      "t_end": 183.1
+    },
+    {
+      "title": "Breaking changes and migration guidance",
+      "t_start": 183.1,
+      "t_end": 231
+    }
+  ],
+  "features": [
+    {
+      "name": "Database export reliability improvements",
+      "description": "Database exports now have fewer than 1% failure rate, with many weeks seeing no failures at all. Reliability improvements were achieved by eliminating common failures across the export pipeline, allowing large environments to be exported reliably.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 57.8,
+      "t_end": 94.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reliability",
+        "exports",
+        "failure rates"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Exports on operations page",
+      "description": "Database exports are now displayed on the admin center operations page alongside other environment operations like renames, updates, and copies. Users can track progress, see status, start and end time, who triggered it, and error messages if it fails.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 94.6,
+      "t_end": 126.5,
+      "is_demoed": true,
+      "caveats": [
+        "Database export history page is retiring"
+      ],
+      "tags": [
+        "visibility",
+        "operations page",
+        "admin center"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Database export history page retirement",
+      "description": "The dedicated database export history page is being retired. All information previously shown there, plus additional data, will now appear on the operations page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 183.1,
+      "t_end": 195.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "retirement",
+        "operations page",
+        "breaking change"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Admin center API export history endpoint deprecation",
+      "description": "The export history endpoint in the admin center API is deprecated. It continues to work on API versions 2.29 and earlier but is not carried forward to newer versions. Automations should migrate to the environment operations API.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 195.5,
+      "t_end": 220.2,
+      "is_demoed": false,
+      "caveats": [
+        "Only works on API versions 2.29 and earlier"
+      ],
+      "tags": [
+        "api",
+        "deprecation",
+        "migration"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Ehor Hanzuk",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 33.2,
+      "text": "A database export gives you the whole environment database as a backpack file in your own Azure storage account.",
+      "why_it_matters": "Defines what database export is and its primary use case for users unfamiliar with the feature.",
+      "check": "exact"
+    },
+    {
+      "t": 45.3,
+      "text": "Fewer than 1% of exports are failing today.",
+      "why_it_matters": "Quantifies the reliability improvement delivered in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 57.8,
+      "text": "Every expert turns up on the operations page right right next to your other environment operations such as renames, updates, and copies.",
+      "why_it_matters": "Announces the key visibility improvement: exports are now integrated into the operations page.",
+      "check": "exact"
+    },
+    {
+      "t": 104.6,
+      "text": "From this release, an export is an environment operation like any other.",
+      "why_it_matters": "States the status of the feature change moving exports from a separate page to standard operations.",
+      "check": "exact"
+    },
+    {
+      "t": 183.1,
+      "text": "the database expert history page is retiring.",
+      "why_it_matters": "Announces a breaking change affecting users who depend on the dedicated history page.",
+      "check": "exact"
+    },
+    {
+      "t": 195.5,
+      "text": "the expert history endpoint is deprecated. It keeps working on API versions 2.29 and earlier, but it is not carried forward to newer versions.",
+      "why_it_matters": "Provides specific API version guidance for customers automating against the admin center API.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 195.5,
+      "kind": "subject-to-change",
+      "text": "expert history endpoint is deprecated. It keeps working on API versions 2.29 and earlier, but it is not carried forward to newer versions."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026259
+    }
+  ]
+}

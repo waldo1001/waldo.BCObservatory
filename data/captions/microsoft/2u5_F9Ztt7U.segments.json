@@ -1,0 +1,388 @@
+{
+  "video_id": "2u5_F9Ztt7U",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.6,
+      "end": 17.1,
+      "text": ">> Welcome to the 2026 release wave one launch edition of Business Central. In this session, we're talking about what's new in server and database."
+    },
+    {
+      "t": 17.1,
+      "end": 27.1,
+      "text": "My name is Kenny Pontopidan and with me I have Jens Miller Peterson. And we take care of the AL runtime."
+    },
+    {
+      "t": 27.1,
+      "end": 37.6,
+      "text": "The main investments in this release wave are three things. Make it faster, more effective document layouts, and hardening or security."
+    },
+    {
+      "t": 37.6,
+      "end": 48.6,
+      "text": "And this distributes over highlights such as enhanced MCP server, better memory protection in the AL runtime, index management,"
+    },
+    {
+      "t": 48.6,
+      "end": 60.7,
+      "text": "analysis mode support in AL, document reporting, and and security. And whenever you see these small icons with a little teacher, that's actually because we have breakout sessions where you can learn more."
+    },
+    {
+      "t": 60.7,
+      "end": 72.6,
+      "text": "So in this sessions, it's more like an overview session at least for these topics. Yes, so the first topic here is the enhancements that we have built to the MCP server."
+    },
+    {
+      "t": 72.6,
+      "end": 88.5,
+      "text": "In autumn, we presented the MCP server for Business Central. And since then, we've been working on making it even better, more accurate, etc. I want to highlight the MCP protocol compliance, which means you can use other MCP clients,"
+    },
+    {
+      "t": 88.5,
+      "end": 100.6,
+      "text": "and also the one hitting there as number five, the file support using resources, allows you to now take out data from Business Central and do for instance statistical analysis"
+    },
+    {
+      "t": 100.6,
+      "end": 112.4,
+      "text": "on it. But I recommend that you go watch the session on MCP server where all of these topics will be covered in detail."
+    },
+    {
+      "t": 112.4,
+      "end": 129.1,
+      "text": "Now, another thing we have spent quite a bit of time on in this release is to improve how the server uses memory. We have lowered the memory footprint per tenant, and more importantly actually, we have optimized the base 64"
+    },
+    {
+      "t": 129.1,
+      "end": 144.7,
+      "text": "handling. We realized that one of the common causes of varying performance was basically memory pressure, and a lot of the memory pressure comes actually from AL code doing things requiring a lot of memory."
+    },
+    {
+      "t": 144.7,
+      "end": 155.3,
+      "text": "So what we have introduced in this release, and the work is ongoing, is we've created a new platform code unit for dealing with base 64 conversion."
+    },
+    {
+      "t": 155.3,
+      "end": 171.4,
+      "text": "Because for OData returns, they are converted into strings using base 64 convert. So there is a new platform code unit, and then we have modified the existing code units to make use of this new platform code unit,"
+    },
+    {
+      "t": 171.4,
+      "end": 183.5,
+      "text": "and also introduced a method which allows you to put the result of this into a stream, also reducing the memory pressure from this operation."
+    },
+    {
+      "t": 183.5,
+      "end": 193.9,
+      "text": "The new platform code unit has a significantly lower memory footprint than the older implementation. What this means to you"
+    },
+    {
+      "t": 193.9,
+      "end": 208.4,
+      "text": "is actually very simple. You don't need to change any code. What you'll see is fewer out of memory exceptions, but also AL errors where we have caught the excessive memory usage."
+    },
+    {
+      "t": 208.4,
+      "end": 219.1,
+      "text": "So you basically need to react to those and put limits in. We cannot generate arbitrarily large base 64 strings."
+    },
+    {
+      "t": 219.1,
+      "end": 230.8,
+      "text": "If you try to do something on a 15 GB document, you will now see these new errors. So overall, you see an improved performance,"
+    },
+    {
+      "t": 230.8,
+      "end": 242.6,
+      "text": "and particularly if you make use of the new stream overloads. And I probably also, if your friends are using this, the performance of the your environments will go up Yes."
+    },
+    {
+      "t": 242.6,
+      "end": 254.9,
+      "text": ">> because memory pressure hurts everyone, not only your sessions. >> It's not only your session. This is putting pressure on the whole system."
+    },
+    {
+      "t": 254.9,
+      "end": 267.9,
+      "text": "Now, we're not done with the memory work. You should expect us to do more on this. We will add telemetry also for partners on large JSON documents, large XML documents, etc."
+    },
+    {
+      "t": 267.9,
+      "end": 281.9,
+      "text": "And at some point, we are also going to put in limits on the sizes of objects. In addition to that, we keep working on optimizing our memory usage to give you a more responsive system."
+    },
+    {
+      "t": 281.9,
+      "end": 297.3,
+      "text": "Now, another new thing we've added is the ability to get more insights into your index usage. Now we're talking more over to the database size, not not the memory usage,"
+    },
+    {
+      "t": 297.3,
+      "end": 311.8,
+      "text": "but how much space and you use for indexes in the database, and also whether these indices are used. This is also covered in a special session, but I want to highlight that with this new capability,"
+    },
+    {
+      "t": 311.8,
+      "end": 323.9,
+      "text": "we also add the ability for you to remove indices that is not needed for this particular environment. You can turn"
+    },
+    {
+      "t": 323.9,
+      "end": 335.5,
+      "text": "a metadata defined index off. You can also turn it back on. And we also have these auto-tune indexes, we call them when we have detected an index would help."
+    },
+    {
+      "t": 335.5,
+      "end": 347.7,
+      "text": "You can also remove those if you want to reclaim the size that these are using. Plus, having a lot of indexes can make write operations smaller, not smaller, but slower."
+    },
+    {
+      "t": 347.7,
+      "end": 359.8,
+      "text": "Yeah. Again, watch the specific session on this topic. And another feature that resides in the database is analysis mode or analysis mode views."
+    },
+    {
+      "t": 359.8,
+      "end": 372.5,
+      "text": "Analysis mode is a hugely popular feature with with Business Central users. And in this release wave, we allow AL developers to include analysis view definitions in their apps."
+    },
+    {
+      "t": 372.5,
+      "end": 388.5,
+      "text": "So this is covered in detail in the in a breakout session, so check that in the description. But basically, it's the the flow is that as as a developer, you use the client to define your analysis view."
+    },
+    {
+      "t": 388.5,
+      "end": 403.5,
+      "text": "You export it to JSON. You put that into your app with some extra metadata, and now this is available whenever users open this particular page."
+    },
+    {
+      "t": 404.3,
+      "end": 418.4,
+      "text": "Okay, let's shift gears towards reporting, more like document reporting. Um in this release wave, we are starting to modernize document reporting more than we have done in the previous releases,"
+    },
+    {
+      "t": 418.4,
+      "end": 436,
+      "text": "or we're continuing that investment, may maybe I should say that. Um a couple of things. First of all, we are updating the Word add-in for document reports with better UI, with search in the data picker, and with an an easy way to define tables."
+    },
+    {
+      "t": 436,
+      "end": 449.4,
+      "text": "So there's a breakout session for that. Go check out that after this session if you're interested in in document reporting. In this space, we also made it possible"
+    },
+    {
+      "t": 449.4,
+      "end": 464.4,
+      "text": "or introduced a way to control life cycle of layout, not only document layout, any layout in the system. Over the last probably three years, we have added abilities for Excel layouts and investing in Word layouts."
+    },
+    {
+      "t": 464.4,
+      "end": 484.7,
+      "text": "Both of these features are meant for end users to create their own layouts, upload them to Business Central. So for that process, we realized that some organizations would like to have a little bit control over when this is one of these layouts ready to use and when it is still in draft."
+    },
+    {
+      "t": 484.7,
+      "end": 497.4,
+      "text": "So you can see this new status on report layouts that goes from a draft into pending approval to approved and even retired. So go check the document reporting breakout session to learn more."
+    },
+    {
+      "t": 497.4,
+      "end": 508.7,
+      "text": "So no more just changing the layout and see the havoc it causes when you send that to customers. Yeah, that's kind of the general idea of it, yes."
+    },
+    {
+      "t": 508.7,
+      "end": 527.4,
+      "text": "Yes, and now to everybody's favorite topic, security. So there's been we have hardened the URI validation in the HTTP client, so that we now limit more [clears throat] outgoing calls from your AL code."
+    },
+    {
+      "t": 527.4,
+      "end": 540.3,
+      "text": "This is not something you can opt out of in hosted environments, but for on-premises, you can, because you might be calling specific services that you are hosting on your own network."
+    },
+    {
+      "t": 540.3,
+      "end": 553.6,
+      "text": "Because in general, what this will do is it'll stop you from calling internal port numbers, etc. But in on-premises, we have created two server settings."
+    },
+    {
+      "t": 553.6,
+      "end": 565.8,
+      "text": "One for enabling disabling this functionality, and then a more fine-grained control where you can actually specify the allowed addresses that you would still want to call."
+    },
+    {
+      "t": 565.8,
+      "end": 577.9,
+      "text": "So if you're running on-premises, you might want to check this out. This has been backported to 26, version 26 and 27, which is wave 1 2025 and wave 2 2025,"
+    },
+    {
+      "t": 577.9,
+      "end": 593.2,
+      "text": "and it is in effect in the service. Now, another security improvement we have made is that we have made it possible to use intra security groups for for auth in an on-premise scenario as well."
+    },
+    {
+      "t": 593.2,
+      "end": 610.9,
+      "text": "By enabling the service setting enable intra groups on prem. It will now fetch enter ID security groups on login for this user and that means you can now give the users permission based on security groups."
+    },
+    {
+      "t": 610.9,
+      "end": 623.8,
+      "text": "And speaking of permissions, then we have also added um more ability to analyze permissions. There is a new page for analyzing it which gives you a permission overview."
+    },
+    {
+      "t": 623.8,
+      "end": 639,
+      "text": "Again, we have a breakout session going into more details on this topic. Now, we've also updated our security guide in the documentation where we have gathered the learnings from our internal secure future initiative."
+    },
+    {
+      "t": 639,
+      "end": 659.3,
+      "text": "We have gathered the feedback that we've gotten at conferences and generally just updated it with how we have made the system more secure. I want to highlight the security scenarios guide that has been added where you can look at how it affects you and"
+    },
+    {
+      "t": 659.3,
+      "end": 673.9,
+      "text": "your environment. So, go check out the BC the security section in the documentation. And you thought we were done, but there's just sneaked in one little bonus which is new telemetry."
+    },
+    {
+      "t": 673.9,
+      "end": 694,
+      "text": "We have um added telemetry for B MCP configuration changes, for MCP usage, but also in the client telemetry you can now see the users hardware and network speed in the page view telemetry as well as uh we we have financial reporting usage and life cycle that was added in the last release"
+    },
+    {
+      "t": 694,
+      "end": 710.2,
+      "text": "wave. So, if you use telemetry to monitor environments, there's some new things that you can use there. And who doesn't use telemetry? Exactly, everyone does. Um and of course everything with telemetry is uh documented under aka.ms/bctelemetry."
+    },
+    {
+      "t": 710.2,
+      "end": 717.3,
+      "text": "So, go check out the new signals if you want to uh monitor those."
+    },
+    {
+      "t": 717.3,
+      "end": 731.8,
+      "text": "We're almost at an end. Uh for learning more, uh these are the these are the the main uh parts of of uh the Microsoft learn. BC developer is taking you to the developer things like index management and analysis mode."
+    },
+    {
+      "t": 731.8,
+      "end": 742.6,
+      "text": "Security as as Jens mentioned was uh is the security guide and telemetry is the telemetry documentation."
+    },
+    {
+      "t": 743.6,
+      "end": 758.2,
+      "text": "If you like this kind of content, these sessions, there are related sessions both the breakouts we have been talking about in this um and others, they are available down here in um"
+    },
+    {
+      "t": 758.2,
+      "end": 768.7,
+      "text": "in the the description for the for the video. Uh some of them are also highlighted in the end of this video to to learn more, just click directly on them."
+    },
+    {
+      "t": 768.7,
+      "end": 779.7,
+      "text": "And that's all that Jens and I had for you in this session. Yeah, it's easy to make it short when we just put everything else in breakout sessions. Well, that's what managers do, we delegate."
+    },
+    {
+      "t": 779.7,
+      "end": 792.3,
+      "text": "So, um thanks a lot for watching. Uh in the end of this video we are with introducing general resources. If you don't know don't know know those, stay tuned, but Jens and I are done for now, so."
+    },
+    {
+      "t": 792.3,
+      "end": 804.5,
+      "text": "Thank you. Thank you. We have compiled a number of general resources that we believe are key both for partners, but also Business Central customers."
+    },
+    {
+      "t": 804.5,
+      "end": 824.9,
+      "text": "Most Some of these are partner, some of them are also for customers. So, the first one is called aka.ms/bcall. This is a partner resource for that contains lists of every other aka link that is needed for you to understand anything about both the Business Central product,"
+    },
+    {
+      "t": 824.9,
+      "end": 837.6,
+      "text": "but also processes around it. We call these aka links because they're called aka.ms and then for for something. And with Business Central links we all always prefix with BC and then something."
+    },
+    {
+      "t": 837.6,
+      "end": 850.6,
+      "text": "The next one is our partner network social media for for Business Central partners, Viva Viva Engage. So, aka.ms/bcvivaengage"
+    },
+    {
+      "t": 850.6,
+      "end": 864.5,
+      "text": "is where you go and interact with other partners. It's not open for customers, so this is where you can ask uh questions, interact with the product group, interact with with with each other um in a in a closed network."
+    },
+    {
+      "t": 864.5,
+      "end": 880.1,
+      "text": "Secondly, the third link is for both partners and customers we call office hours. So, office hours is something we do once or twice a month from the product group engaging with the community about new features or things we want to discuss."
+    },
+    {
+      "t": 880.1,
+      "end": 890.6,
+      "text": "aka.ms/bcofficehours is the is the the place where you go to find out about upcoming events. These are recorded."
+    },
+    {
+      "t": 890.6,
+      "end": 901,
+      "text": "I believe the recordings are available only to partners, but the live events are available to customers as well. Fourth link is YouTube, our YouTube channel."
+    },
+    {
+      "t": 901,
+      "end": 914.3,
+      "text": "I'll talk about that in the next slide and LinkedIn in the next slide. And then finally for for Microsoft partners, the BC's aka.ms/bcpartnerportal"
+    },
+    {
+      "t": 914.3,
+      "end": 925.9,
+      "text": "is where you get a lot of the resources as a partner such as compete decks, pitch decks and a lot of other resources."
+    },
+    {
+      "t": 925.9,
+      "end": 941,
+      "text": "For LinkedIn, this is our product group's LinkedIn profile. We have 30K or more followers, so both partners and customers. This is the place where we from the product group put in news and small bits of information"
+    },
+    {
+      "t": 941,
+      "end": 951.6,
+      "text": "outside the {quote} official channel. So, follow us on LinkedIn to learn what's happening right now in in this in the around the product."
+    },
+    {
+      "t": 951.6,
+      "end": 965.5,
+      "text": "Um and then uh also on our YouTube channel where this is where you're probably watching this, aka.ms/bcyoutube. We put in not only these launch editions twice a year, but also"
+    },
+    {
+      "t": 965.5,
+      "end": 983.1,
+      "text": "copilot and AI video shorts, tips and tricks, technical deep dives, under the hood. Uh we even have this what's cooking where we put little nuggets of of videos out for new features that are even coming in on the YouTube channel before"
+    },
+    {
+      "t": 983.1,
+      "end": 998,
+      "text": "uh they're coming in the release notes. So, watch and maybe uh bookmark us on YouTube and also notice all the playlists. So, that all the content is also organized in areas, not only all the videos."
+    },
+    {
+      "t": 998,
+      "end": 1009.3,
+      "text": "So, if you have an area that has special interest such as analytics, um you can find an a playlist and kind of see all the content related to that."
+    },
+    {
+      "t": 1009.3,
+      "end": 1022,
+      "text": "And that's it. That is truly it. We won't there will be no more, so thank you for watching all the way to the end and again have a great day. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 2367
+}

@@ -1,0 +1,422 @@
+{
+  "video_id": "sqjb_gsXqM8",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.5,
+      "end": 16.5,
+      "text": ">> Hello and welcome. This time I don't have a laptop and we're going to talk about supply chain management. What is supply chain chain management in Business Central?"
+    },
+    {
+      "t": 16.5,
+      "end": 30.7,
+      "text": "It used to be different from the rest of the world. Actually, it's what we used to say internally, not finance. Yeah. So, we have a range of features and tools from procurement to production to distribution logistics,"
+    },
+    {
+      "t": 30.7,
+      "end": 44.9,
+      "text": "everything we call supply chain management. And in this release we did a lot of things in this area. Let's go through them in this long screenshot only video just to get an idea of what is here,"
+    },
+    {
+      "t": 44.9,
+      "end": 56.5,
+      "text": "what was added or changed in the Business Central. We will start with the bigger features and move to the different stuff. And we have a secret guest in the very end."
+    },
+    {
+      "t": 56.5,
+      "end": 76.5,
+      "text": "Stay tuned. All right. The big big elephant is a quality management new extension available which will automate your quality management processes and ensure that you are industry and legally compliant and your customers are happy because you always ship the goods which are in the good"
+    },
+    {
+      "t": 76.5,
+      "end": 89.8,
+      "text": "quality and you should because you check them when you received or produce them. Very flexible. Very interesting. We have a special role at center with all the different steps etc."
+    },
+    {
+      "t": 89.8,
+      "end": 102.6,
+      "text": "You can always look at the separate video. The link will be here or here. And you will learn more how to use and how to get populated with quality inspection."
+    },
+    {
+      "t": 102.6,
+      "end": 114.2,
+      "text": "That's a one big thing. Definitely explore new model. Another one group of enhancements are all related into the drop shipment process."
+    },
+    {
+      "t": 114.2,
+      "end": 127.8,
+      "text": "Yeah. Sometimes you sell something which you do not have on on your inventory because it is on your vendor inventory and that's what you want to them to transfer and ship ship directly to your customer."
+    },
+    {
+      "t": 127.8,
+      "end": 139.6,
+      "text": "So, what happened? Now there are more ways to create purchase documents for drop shipment sales documents."
+    },
+    {
+      "t": 139.6,
+      "end": 151.4,
+      "text": "Another enhancement is a order of operation. Originally Business Central was a bit restrictive about what you can post first and what you post then. Now it's becoming more flexible."
+    },
+    {
+      "t": 151.4,
+      "end": 162.2,
+      "text": "And last but not least, undo because mistakes happens. Can you fix them? With drop shipments, you can also do that nowadays. There is a separate video about it."
+    },
+    {
+      "t": 162.2,
+      "end": 182.2,
+      "text": "Go and check. So, couple of screenshots just to get you started or interested. From the sales document we can use the standard create purchase order action which normally creates purchase documents for items with a normal buy and sell flow but also supports drop shipment scenarios and you can"
+    },
+    {
+      "t": 182.2,
+      "end": 196.2,
+      "text": "see the new toggle drop shipment which indicates that all these lines are created for drop shipment. And once this purchase document created, you can just go and post it as receipt and invoice."
+    },
+    {
+      "t": 196.2,
+      "end": 206.4,
+      "text": "Do not wait when in customer facing invoice is posted. There are more and you will see in the corresponding video."
+    },
+    {
+      "t": 206.4,
+      "end": 217.8,
+      "text": "Including the undo scenario. Yeah, it's very difficult to illustrate that this undo is related to drop shipment but trust me, it is. Moving to the next topic."
+    },
+    {
+      "t": 217.8,
+      "end": 230.8,
+      "text": "Purchase order matching. Another great feature added in this release. You can always ask how it is related to supply chain. Yeah, because we're dealing with orders nowadays and receipts which is my part."
+    },
+    {
+      "t": 230.8,
+      "end": 242.6,
+      "text": "All right. So, we receive invoice before order was received. What do we do? Put it and maybe forget about it until it will be received?"
+    },
+    {
+      "t": 242.6,
+      "end": 253.1,
+      "text": "No, not really. We can already start do the process in the system. So, you just create purchase invoice, link to the purchase order and wait. Or not."
+    },
+    {
+      "t": 253.1,
+      "end": 263.4,
+      "text": "It depends. Another interesting scenario is that if you receive invoice with one line and you have multiple purchase orders and receipts, you can link all of them together. Very convenient."
+    },
+    {
+      "t": 263.4,
+      "end": 274.3,
+      "text": "The last but not least, again, you link invoice to order which is not received but you can just hit post and the purchase order also will be marked as received."
+    },
+    {
+      "t": 274.3,
+      "end": 284.4,
+      "text": "Of course, there is a setting for this one for this on specific documents because not all documents allow these scenarios but check video."
+    },
+    {
+      "t": 284.4,
+      "end": 299,
+      "text": "Uh we have a separate one. That's a very good one. So, the full illustration all of the examples, one invoice line linked to multiple purchase orders and uh order receipts even if receipt line is not here."
+    },
+    {
+      "t": 299,
+      "end": 305.6,
+      "text": "The last example you can see. All right."
+    },
+    {
+      "t": 305.6,
+      "end": 317.3,
+      "text": "You can ask like why get receipt lines are here? Because if you're not ready to start to use purchase order lines but you heavily rely on the get receipt lines processes"
+    },
+    {
+      "t": 317.3,
+      "end": 329.6,
+      "text": "you can use filters nowadays. So, filters are in the vendor order, vendor shipment, vendor item number fields now supported. Filter and benefit from it."
+    },
+    {
+      "t": 329.6,
+      "end": 342.5,
+      "text": "Uh also the same enhancement is done for get shipment and service shipment lines but of course there are less number of fields you interested in. Probably your reference is a one of them."
+    },
+    {
+      "t": 342.5,
+      "end": 354.8,
+      "text": "Next topic, document management. Different enhancements related to different documents and how we manage them. I think we it's better to illustrate them with a with a screenshots."
+    },
+    {
+      "t": 354.8,
+      "end": 368.6,
+      "text": "And we start in the middle with the sending. So, now you can send the document, the posted sales shipment and sales credit posted sales return as well. And if you have not configured emails, you can always add them to attachment."
+    },
+    {
+      "t": 368.6,
+      "end": 382.6,
+      "text": "So, attachment effect box is also new thing here. Another case is about purchase documents, purchase quote to be more precise and you can see you now can create purchase quote without vendor."
+    },
+    {
+      "t": 382.6,
+      "end": 393.1,
+      "text": "You still do need contact and you will create vendor as soon as this quote is converted to order but before that"
+    },
+    {
+      "t": 393.1,
+      "end": 406.5,
+      "text": "you can have multiple quotes maybe because you have a one demand and a three different candidates. No reason to create them as vendors up front. They will be converted automatically very similar as it happens with the sales quotes."
+    },
+    {
+      "t": 406.5,
+      "end": 417.7,
+      "text": "You need the template. Uh vendor template otherwise vendor will not be created. All right. So, it's another different way to use purchase quotes."
+    },
+    {
+      "t": 417.7,
+      "end": 429.6,
+      "text": "Uh last one you probably know this setup if you use service management. So, sometimes you create order only per one item. Yeah, so even if your service contract includes multiple elements."
+    },
+    {
+      "t": 429.6,
+      "end": 445.6,
+      "text": "So, now this toggle once activated it's also respected by batch job which allows you to create to multiple orders simultaneously. So, the system will create order by order for each service item in the service contract."
+    },
+    {
+      "t": 445.6,
+      "end": 456.2,
+      "text": "All right. Next group of enhancements approvals. Yep. Very long"
+    },
+    {
+      "t": 456.2,
+      "end": 467.5,
+      "text": "highly voted product suggestions to actually support approvals in the item journals and uh requisition worksheets. There is a full list of documents is is listed."
+    },
+    {
+      "t": 467.5,
+      "end": 480.5,
+      "text": "How do you start? You go to workflow templates, select template and basically that's it. Now you can use it in the for example, planning worksheet or output journal"
+    },
+    {
+      "t": 480.5,
+      "end": 494.9,
+      "text": "and the like. So, there are new actions which allows you to send it to for approval. Cancel, see the status. It works very much the same as in with the journal lines with the journals, financial journals."
+    },
+    {
+      "t": 494.9,
+      "end": 508.5,
+      "text": "General journals, the right term. Uh and but we only focus on batches, not lines. Performance reason because we have too many lines. So, let's let's let's make sure that we limit the batches."
+    },
+    {
+      "t": 508.5,
+      "end": 519.2,
+      "text": "Also supported in the with the via Power Automate. You can always use it the as well. Product information management. Interesting."
+    },
+    {
+      "t": 519.2,
+      "end": 531,
+      "text": "Now our items are got some extra enhancements. You can watch more about it in the Shopify videos because it also very much used in the"
+    },
+    {
+      "t": 531,
+      "end": 547.9,
+      "text": "Shopify connectivity but you can always use it in the with the standard Business Central as well. So, one of enhancement is item statistics which has some numbers in the different categories for different periods."
+    },
+    {
+      "t": 547.9,
+      "end": 559.6,
+      "text": "With drill down to an explanation. Why would we use them? Uh if the numbers are interesting, the copilot summarization will promote them and you can see them in the summary."
+    },
+    {
+      "t": 559.6,
+      "end": 570.1,
+      "text": "But now go deeper from item to item variant and it looks like item because it has pictures now and it has item attributes."
+    },
+    {
+      "t": 570.1,
+      "end": 585.6,
+      "text": "So, yes, item variant now has pictures and attributes and they are used by Shopify connector as well. Next one. Group of enhancements related in real supply chain manufacturing scenarios."
+    },
+    {
+      "t": 585.6,
+      "end": 601.3,
+      "text": "And description two in production bomb and routings. It feels like we just again made one field visible in the UI. No, we added field. Description two was missing in the production bomb and routing and in all the consequent tables,"
+    },
+    {
+      "t": 601.3,
+      "end": 614.8,
+      "text": "for example, planning or production orders, production order component. So, now description two is really there, copied from item or work center or machine center and follows"
+    },
+    {
+      "t": 614.8,
+      "end": 625.7,
+      "text": "follows the the path. So, field here for real. Feel free to use it. Uh bomb and routing. What next?"
+    },
+    {
+      "t": 625.7,
+      "end": 644.4,
+      "text": "I'm closing my routing. Uh Look familiar. We added with a warning in previous releases to help the user to understand that they're missing something because it's a so common when people spend time editing a bomb on a routing and for just forget to check the status to change it."
+    },
+    {
+      "t": 644.4,
+      "end": 657.4,
+      "text": "Now it really it's a it reminds them, but not everybody needs it because maybe people do edit, but don't need to change status. So, it's now up to individual user to decide if they want to see it or not."
+    },
+    {
+      "t": 657.4,
+      "end": 668,
+      "text": "There is a setting in the my notifications which you can decide do you want to be warned or not. All right."
+    },
+    {
+      "t": 668,
+      "end": 679.8,
+      "text": "Next one with a reference to the past. Again, yeah, you can do item tracking on journals, on manufacturing journals as well. And we added an Excel as well."
+    },
+    {
+      "t": 679.8,
+      "end": 694.8,
+      "text": "So, you activate item tracking online toggle in the journal batch including output one. And now when you calculate when you dealing with production output, you can populate serial numbers right there, right on the lines."
+    },
+    {
+      "t": 694.8,
+      "end": 710.2,
+      "text": "Easy. But if you use a explode routing action, you could not benefit from this from this behavior. Now you can. If item which you happen to produce is uh requires serial number tracking,"
+    },
+    {
+      "t": 710.2,
+      "end": 720.6,
+      "text": "serial number trackings, then system will automatically split the the last output operation into multiple journal lines ensuring that quantity is one for each."
+    },
+    {
+      "t": 720.6,
+      "end": 733.6,
+      "text": "Now it's super easy for you to just go and assign each individual serial number uh here. And notice, we have a request approval action also also here."
+    },
+    {
+      "t": 733.6,
+      "end": 750.6,
+      "text": "All right, it's a reference to the previous one. The last one is a bit interesting. I will ask you a question. Why do we have line in the inventory posting setup with empty location and VIP work in progress account defined?"
+    },
+    {
+      "t": 750.6,
+      "end": 761.5,
+      "text": "Except the cases when we do demos and we are lazy and do not specifically specify location. The answer is uh even if you always use locations,"
+    },
+    {
+      "t": 761.5,
+      "end": 771.9,
+      "text": "the capacity, the output, and uh the the capacity and overheads of the capacity, the run time basically and setup time,"
+    },
+    {
+      "t": 771.9,
+      "end": 788.1,
+      "text": "they are posted and WIP account, WIP account for empty location always. That's why I have to configure them the same way for my specific location where my consumption of components will be posted to and"
+    },
+    {
+      "t": 788.1,
+      "end": 800.8,
+      "text": "blank location for output or for for capacity because once I will finish my production order and calculate the goods, the WIP account needs to be emptied."
+    },
+    {
+      "t": 800.8,
+      "end": 814.8,
+      "text": "And otherwise it will be disbalanced. So, what we did? Now we do not need the empty location because even when we post uh capacity entries, we know we post them for specific production"
+    },
+    {
+      "t": 814.8,
+      "end": 825.3,
+      "text": "uh order line where location is known. Yeah, so we know location. We can use it. So, it means we can use inventory posting setup."
+    },
+    {
+      "t": 825.3,
+      "end": 839.2,
+      "text": "So, now you don't need to maintain this strange line or more or more interestingly, for each location, you can now use different work in progress account and accumulate the cost"
+    },
+    {
+      "t": 839.2,
+      "end": 850.9,
+      "text": "in different accounts and then uh we will transfer it to the output all correctly without any leftovers in the in the work in progress account. That's a difficult one, but"
+    },
+    {
+      "t": 850.9,
+      "end": 861.4,
+      "text": "try to experiment and you will see. Okay, we talk about manufacturing. Why? Because we're preparing for something big again, subcontracting."
+    },
+    {
+      "t": 861.4,
+      "end": 874,
+      "text": "It's not something you can see on April 1st or 2nd because it will be uh become available later in the season, but we do something in the manufacturing subcontracting already."
+    },
+    {
+      "t": 874,
+      "end": 885.5,
+      "text": "So, what is it? You can see production order routing, we got a new fact box with a subcontracting details. And we also got number of new actions."
+    },
+    {
+      "t": 885.5,
+      "end": 898.9,
+      "text": "In addition to quality management, we also got the create subcontracting document which is purchase order instructing us to buy some services or actually ask to delegate someone"
+    },
+    {
+      "t": 898.9,
+      "end": 909.6,
+      "text": "uh work to someone to produce is this this item. But again, before we do that, maybe they need some items. Oh, yeah."
+    },
+    {
+      "t": 909.6,
+      "end": 929.4,
+      "text": "Then we can transfer it. We can create transfer order directly from the purchase order for subcontracting. All right, now all items which are linked via routing link with a specific subcontracting operations will be gathered and packaged packaged in the transfer order and now we can ship it."
+    },
+    {
+      "t": 929.4,
+      "end": 948.7,
+      "text": "Let's assume we did that and now it's time to receive. And this time we are receiving via warehouse receipt. Mhm, that's unexpected, but it's great. We can use the advanced warehouse capabilities like warehouse receipts uh for for operations."
+    },
+    {
+      "t": 950,
+      "end": 966.1,
+      "text": "But that's not it. Once we received it and plan to do the invoicing, we can also uh we can also allocate item charges for this one in case this specific vendor or maybe some other vendor has extra uh cost with it,"
+    },
+    {
+      "t": 966.1,
+      "end": 980.8,
+      "text": "insurance, transfer, etc. which we would like to allocate to this operation. So, we have a special actions available, get subcontracting lines. And we can allocate it and it will be included into the cost of produced items."
+    },
+    {
+      "t": 980.8,
+      "end": 993.7,
+      "text": "Cost. Yeah. So, each operation can also have a different price tag. So, the same item produced on different vendors or different quantities will have a different price."
+    },
+    {
+      "t": 993.7,
+      "end": 1007.9,
+      "text": "Uh processing price. Meaning the the costing will be more accurate as well. But you need to wait for it and more details will follow as soon as we are close to the release."
+    },
+    {
+      "t": 1007.9,
+      "end": 1022.8,
+      "text": "Thank you for watching. That was a long list of enhancements and definitely short one, but you can find different videos which are explaining more complicated details in the descriptions pointing to the relevant videos as well."
+    },
+    {
+      "t": 1022.8,
+      "end": 1032.9,
+      "text": "Plus, you can always find in the description additional information, for example, release note where we can also add some details and links to the documentations."
+    },
+    {
+      "t": 1032.9,
+      "end": 1043.5,
+      "text": "If you have any questions, you can always reach to us. You know where to find us. It's LinkedIn and it is now Viva Engage plus regular office hours."
+    },
+    {
+      "t": 1043.5,
+      "end": 1049,
+      "text": "Looking forward to talk to you. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    },
+    {
+      "t": 222.702,
+      "text": "[snorts]"
+    }
+  ],
+  "word_count": 2477
+}

@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "showmandatory on code required page fields",
+  "title": "Mark code-required page fields with ShowMandatory",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/showmandatory-on-code-required-page-fields.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.931Z",
+      "blob": "eeffc0781d58a641a6c76b5d399699533d814f81",
+      "words": 494,
+      "forms": 0
     }
   },
   "input_hash": "eeffc0781d58a641a6c76b5d399699533d814f81",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/ui/showmandatory-on-code-required-page-fields.md"
-  }
+    "path": "microsoft/knowledge/ui/showmandatory-on-code-required-page-fields.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 494
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "eeffc0781d58a641a6c76b5d399699533d814f81"
 }

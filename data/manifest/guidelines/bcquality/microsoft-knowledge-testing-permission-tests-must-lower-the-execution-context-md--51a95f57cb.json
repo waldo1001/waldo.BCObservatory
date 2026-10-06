@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "permission tests must lower the execution context",
+  "title": "Permission tests must actually lower the execution context",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/permission-tests-must-lower-the-execution-context.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.838Z",
+      "blob": "1722578ed0eb4aa4bcd887b7b8cea45a252ee484",
+      "words": 391,
+      "forms": 0
     }
   },
   "input_hash": "1722578ed0eb4aa4bcd887b7b8cea45a252ee484",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/testing/permission-tests-must-lower-the-execution-context.md"
-  }
+    "path": "microsoft/knowledge/testing/permission-tests-must-lower-the-execution-context.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 391
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1722578ed0eb4aa4bcd887b7b8cea45a252ee484"
 }

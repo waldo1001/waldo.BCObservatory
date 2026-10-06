@@ -1,0 +1,26 @@
+{
+  "video_id": "D_Lur52IrIg",
+  "item_id": "video/yt-microsoft/D_Lur52IrIg",
+  "summary": "What's new in AL and Tools for 2026 release wave 2: AL MCP environment symbol search and next object ID tool, project-aware AL language server over LSP, interface default implementations, public resource folders, big integer migration, namespaced translations, IsDirty, data-driven tests, test handlers, static call graph analysis, and MCP proxies for profiling and snapshots.",
+  "overview": "The session walks through a late-fee extension scenario to show how AI agents and new AL features work together. It starts with AL MCP and the AL language server (LSP, no longer tied to Visual Studio Code), then covers discovering existing code, searching symbols in a connected environment, and getting the next free object ID.\n\nIt then covers language and compiler changes: default implementations on interfaces, public resource folders, integer to big integer field migration with AppSource COP warnings, table extension keys and SQL indexes mixing base and extension fields, and namespaced translation IDs. The last part covers tooltip inheritance, audit name system fields, Record.IsDirty(), data-driven tests, test handlers, static call graph analysis, and agent-driven profiling and snapshot capture. The presenters say full sessions on some of these topics are coming and will be linked in the description.",
+  "key_points": [
+    "AL symbol search has a new 'source' parameter. Set it to 'environment' to search the connected server without downloading symbols or adding dependencies. It returns the owning app for each object.",
+    "The new get-next-object-ID MCP tool reads the ID ranges in app.json and suggests the next free ID, so it depends on a correct app.json.",
+    "Interfaces can have default method implementations, so existing implementers keep compiling. New methods get a RequiredPending attribute that signals a breaking change in a future major version.",
+    "Public resource folders make resources available to other apps without a dependency. Access to private resources by app ID returns an error, and consumers must handle missing resources.",
+    "Changing a field from integer to big integer causes implicit conversion warnings. AppSource COP flags the change against the previous version, and dependent apps can overflow at runtime if they keep integer types.",
+    "Translations now support namespace-based keys. Namespacing existing objects requires regenerating the XLF files.",
+    "Static call graph analysis needs an offline extraction step first. It lists callers of a method and the public entry points to review, and it complements the live-project LSP."
+  ],
+  "audience": [
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "ed3448c814b82aa497e75259ce97ba8433f205ded29bee32834403c10d00dec8",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0566224
+  }
+}

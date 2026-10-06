@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=QdWPlIV3Avk",
   "published_at": "2026-10-01T13:03:30.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T13:01:02.753Z",
+      "path": "data/extract/video/QdWPlIV3Avk.json",
+      "prompt": "extract-video@1",
+      "windows": 2,
+      "features": 24,
+      "quotes": 15,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.133961
+    },
+    "summarized": {
+      "at": "2026-10-06T13:01:12.427Z",
+      "path": "data/summary/video/QdWPlIV3Avk.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0546424
+    },
+    "linked": {
+      "at": "2026-10-06T13:01:12.428Z",
+      "systems": [
+        "manufacturing",
+        "warehouse",
+        "purchasing"
+      ],
+      "topics": 12,
+      "objects_as_heard": 13
+    },
+    "published": {
+      "at": "2026-10-06T13:01:12.431Z",
+      "path": "content/videos/QdWPlIV3Avk.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2026-10-01 - BCLE - What's new in SCM： Subcontracting (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "4b149e91e1d8e119bbb1909cb02c4ec0870386df5e74c04505980ca36283a253"
 }

@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/ai-extend-copilot-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-extend-copilot-overview",
+  "title": "What is considered an extension to Copilot?",
+  "blob": "0e8395318ace85d8d8110f46b59ff1d0f19f7eed",
+  "summary": "What is considered an extension to Copilot explains the essential characteristics of Copilot in Business Central: it must be LLM-based, respond to natural language to help users accomplish tasks, and manage generative AI risks through human-in-the-loop patterns like previews and feedback.",
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "copilot",
+    "llm",
+    "generative ai",
+    "human-in-the-loop",
+    "natural language",
+    "ai risks"
+  ],
+  "objects": [],
+  "features": [
+    "LLM-based interaction",
+    "natural language processing",
+    "human-in-the-loop pattern",
+    "preview of AI-generated results",
+    "confidence level indication",
+    "undo and discard capability",
+    "user feedback on results"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011061,
+      "pages_in_call": 4
+    }
+  ]
+}

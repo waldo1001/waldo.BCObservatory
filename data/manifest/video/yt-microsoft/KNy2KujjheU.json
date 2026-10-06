@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=KNy2KujjheU",
   "published_at": "2026-10-01T13:03:43.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -25,6 +25,38 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T12:57:23.262Z",
+      "path": "data/extract/video/KNy2KujjheU.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 4,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.026259
+    },
+    "summarized": {
+      "at": "2026-10-06T12:57:31.720Z",
+      "path": "data/summary/video/KNy2KujjheU.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0398504
+    },
+    "linked": {
+      "at": "2026-10-06T12:57:31.720Z",
+      "systems": [
+        "administration"
+      ],
+      "topics": 7,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T12:57:31.722Z",
+      "path": "content/videos/KNy2KujjheU.md"
     }
   },
   "input_hash": null,
@@ -35,5 +67,6 @@
     "seed_file": "2026-10-01 - BCLE - What's new： Database Export Enhancements (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "0061ed6007a311d69357bf796043fdd0f2bb84e128f7e0fac6943b4c00a66c3d"
 }

@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-page-type-promptdialog.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-type-promptdialog",
+  "title": "The PromptDialog Page Type",
+  "blob": "c531b291f31e72ce348c961c01a28dadd1277b6a",
+  "summary": "The PromptDialog page type enables developers to integrate generative AI capabilities into Business Central with Copilot experience, providing structured input/output areas, prompt guides, and system actions for AI-driven features.",
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "promptdialog page type",
+    "copilot",
+    "generative ai",
+    "page design",
+    "prompt dialogs",
+    "system actions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Copilot Job Proposal"
+    }
+  ],
+  "features": [
+    "PromptDialog page type",
+    "Prompt area",
+    "Content area",
+    "PromptOptions area",
+    "SystemActions area",
+    "PromptGuide area",
+    "PromptMode property",
+    "IsPreview property"
+  ],
+  "versions": [
+    "runtime 12.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014344,
+      "pages_in_call": 2
+    }
+  ]
+}

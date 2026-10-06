@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-choosing-runtime.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-choosing-runtime",
+  "title": "Choose runtime version in AL",
+  "blob": "e4db963e8cbddcf692deb1fa009d3a17bbbd0e50",
+  "summary": "Choose the runtime version in AL by setting it in app.json (e.g., \"runtime\": \"18.0\"). Extensions can publish to servers with equal or later runtime versions than specified.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "runtime version",
+    "app.json",
+    "version compatibility",
+    "version selection"
+  ],
+  "objects": [],
+  "features": [
+    "runtime version specification",
+    "backward compatibility",
+    "version targeting"
+  ],
+  "versions": [
+    "16.0",
+    "17.0",
+    "18.0",
+    "2025 release wave 2",
+    "2026 release wave 1",
+    "2026 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006766,
+      "pages_in_call": 6
+    }
+  ]
+}

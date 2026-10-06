@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "ignored tryfunction return disables try semantics",
+  "title": "Consume a TryFunction return value to enable try semantics",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/error-handling/ignored-tryfunction-return-disables-try-semantics.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.161Z",
+      "blob": "902528bc48d67b994a30e7e0746ea206b3d2828c",
+      "words": 140,
+      "forms": 0
     }
   },
   "input_hash": "902528bc48d67b994a30e7e0746ea206b3d2828c",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/error-handling/ignored-tryfunction-return-disables-try-semantics.md"
-  }
+    "path": "microsoft/knowledge/error-handling/ignored-tryfunction-return-disables-try-semantics.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 140
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "902528bc48d67b994a30e7e0746ea206b3d2828c"
 }

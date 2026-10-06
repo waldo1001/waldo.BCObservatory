@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-table-keys.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-keys",
+  "title": "Table keys",
+  "blob": "ca1e0c13243938263ffe48875bd22fc4a7d34063",
+  "summary": "Table keys in AL define primary and secondary keys to organize records and create indexes. Primary keys uniquely identify records, secondary keys create indexes. Keys can be unique, clustered, or include additional fields for better query performance.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "table keys",
+    "indexes",
+    "primary keys",
+    "secondary keys",
+    "database performance",
+    "sql server"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer"
+    }
+  ],
+  "features": [
+    "primary keys",
+    "secondary keys",
+    "unique keys",
+    "clustered indexes",
+    "non-clustered indexes",
+    "included fields (IncludedFields)",
+    "columnstore indexes",
+    "key sorting and ordering",
+    "AutoSplitKey property",
+    "Enabled property",
+    "Unique property",
+    "Clustered property"
+  ],
+  "versions": [
+    "2020 release wave 2",
+    "2021 release wave 1",
+    "2026 release wave 2 (runtime 18.0)",
+    "version 18"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012738,
+      "pages_in_call": 3
+    }
+  ]
+}

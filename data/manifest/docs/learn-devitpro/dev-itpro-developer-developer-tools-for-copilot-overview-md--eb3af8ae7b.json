@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/developer-tools-for-copilot-overview",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "73fe8fb9edc7fddc0252544933ced315f0b2614c",
       "words": 452,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:29:04.532Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006991
+    },
+    "summarized": {
+      "at": "2026-10-06T13:29:04.552Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:29:04.553Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:29:04.553Z",
+      "page": false
     }
   },
   "input_hash": "73fe8fb9edc7fddc0252544933ced315f0b2614c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "73fe8fb9edc7fddc0252544933ced315f0b2614c"
+  "output_hash": "4e5eeed25fd5786d6f7ca6f12819a4a3092bf1daca3967ce66d04a33f8b86e03"
 }

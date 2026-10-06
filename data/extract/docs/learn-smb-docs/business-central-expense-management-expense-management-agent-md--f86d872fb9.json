@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-agent.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-agent",
+  "title": "How the Expense Agent Processes Emails",
+  "blob": "d182c0e7266656fe5ab7cfe462a26b467f7beaba",
+  "summary": "Expense Agent monitors a configured email mailbox to process expense-related emails, extract key details, create expense records automatically, group them into reports, and send confirmation emails and reminders to expense users.",
+  "systems": [
+    "copilot",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "email processing",
+    "expense automation",
+    "agent",
+    "receipt confirmation",
+    "reminders",
+    "notifications",
+    "access control"
+  ],
+  "objects": [],
+  "features": [
+    "Email mailbox monitoring",
+    "Receipt and credit card statement detection",
+    "Automatic expense creation",
+    "Expense grouping by reporting period",
+    "Confirmation email sending",
+    "Open report reminders",
+    "Configurable reminder frequency",
+    "Agent access control"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009249,
+      "pages_in_call": 3
+    }
+  ]
+}

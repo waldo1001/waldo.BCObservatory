@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-travel-requisitions",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bea118b05fb152a15f1bc7986afcbc4d5072a260",
       "words": 1013,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T13:37:45.028Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.010103
+    },
+    "summarized": {
+      "at": "2026-10-06T13:37:45.062Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:37:45.062Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:37:45.062Z",
+      "page": false
     }
   },
   "input_hash": "bea118b05fb152a15f1bc7986afcbc4d5072a260",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bea118b05fb152a15f1bc7986afcbc4d5072a260"
+  "output_hash": "0efbcdb47b7744e0c17621d296e48a7d5048745e602d363206460652e03ad35a"
 }

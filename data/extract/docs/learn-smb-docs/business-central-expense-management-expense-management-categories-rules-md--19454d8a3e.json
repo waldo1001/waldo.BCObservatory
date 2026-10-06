@@ -1,0 +1,71 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-categories-rules.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-categories-rules",
+  "title": "Set Up Expense Categories, Rules, and Policies",
+  "blob": "722cda37ee596fd182d31fcee2ee5a917f4d0cf3",
+  "summary": "Set up expense categories, subcategories, groups, locations, rules, and policies to classify and validate business expenses with AI-assisted policy evaluation.",
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "topics": [
+    "expense management",
+    "categories",
+    "rules",
+    "policies",
+    "vat reclaim",
+    "withholding tax"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Expense Categories"
+    },
+    {
+      "type": "table",
+      "name": "Expense Subcategories"
+    },
+    {
+      "type": "table",
+      "name": "Expense Groups"
+    },
+    {
+      "type": "table",
+      "name": "Expense Locations"
+    },
+    {
+      "type": "table",
+      "name": "Expense Management Rules"
+    },
+    {
+      "type": "page",
+      "name": "Expense Rule Card"
+    },
+    {
+      "type": "page",
+      "name": "Expense Policies"
+    }
+  ],
+  "features": [
+    "Expense categories with posting groups",
+    "Expense subcategories for itemization",
+    "Expense groups for reporting",
+    "Expense locations for per diem rates",
+    "Merchant requirements and restrictions",
+    "Expense rules with conditions and amounts",
+    "Natural-language expense policies",
+    "Withholding tax configuration",
+    "VAT reclaim with default percentages"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009347,
+      "pages_in_call": 4
+    }
+  ]
+}

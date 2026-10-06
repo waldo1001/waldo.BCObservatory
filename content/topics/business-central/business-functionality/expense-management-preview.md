@@ -2,19 +2,20 @@
 id: topic/business-central/business-functionality/expense-management-preview
 type: topic
 title: Expense management (preview)
-summary: "Learn section Business functionality > Expense management (preview): 24 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn."
+summary: "Expense management (preview) in Business Central: setup, the expense lifecycle (expenses, travel requests, reports, approval, VAT reclaim, posting), the Expense Agent AI agent, and troubleshooting. It answers what to configure, how to process expenses, and how to fix Expense Agent problems."
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-06T13:42:51.403Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T13:43:32.763Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: f0085119afc405ebd69166284b4f29e83f38c720af663dbe7c06327d191a26a3
+  prompts:
+    hub-topic: 1
+  input_hash: f414fd6437397aace06126c9d4f48ffbe4883ff2a56759fefd89171f00e781aa
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-approve-reports
@@ -267,14 +268,33 @@ bc_forms:
   - 7136
   - 7137
 member_hash: f0085119afc405ebd69166284b4f29e83f38c720af663dbe7c06327d191a26a3
-narrative: none
+narrative: generated
 ---
 
 # Expense management (preview)
 
-> Learn section Business functionality > Expense management (preview): 24 Microsoft Learn pages in 4 subtopics. Index of what Learn documents here, linked to Learn.
+> Expense management (preview) in Business Central: setup, the expense lifecycle (expenses, travel requests, reports, approval, VAT reclaim, posting), the Expense Agent AI agent, and troubleshooting. It answers what to configure, how to process expenses, and how to fix Expense Agent problems.
 
-Path: [Business functionality](../business-functionality.md) > Expense management (preview) · tier official · system none · no narrative yet
+Path: [Business functionality](../business-functionality.md) > Expense management (preview) · tier official · system none · narrative reviewed by Opus
+
+## Overview
+
+Expense management (preview) lets employees handle expenses through expense reports, with or without Expense Agent. The overview page explains the report status workflow, approval workflows, travel requests, VAT calculation and reclaim, rule and policy checks, and refundable and reimbursable categorization.
+
+The subtopics split by task. "Set up expense management" covers what an administrator configures first. "Work with expenses in Business Central" follows the lifecycle from entry to posting in the general ledger. "Understand Expense Agent" explains what the AI agent does and its responsible AI limits. "Work with Expense Agent" gives the step-by-step workflow for requesters and approvers.
+
+Start with the overview page, then the setup section before users submit anything. Use the troubleshooting page when Expense Agent fails on sign-in, receipt upload, AI detection, policy violations, network errors, AI quota or posting.
+
+## Key points
+
+- Expense reports can be managed with or without Expense Agent, and move through a defined status workflow with approval workflows.
+- Setup covers Expense Agent, general settings, categories, rules and policies, expense users and teams, mileage rates, and per diem and mileage allowances.
+- The lifecycle covers creating expenses, travel requests, expense reports, approval, VAT reclaim review, and posting to the general ledger.
+- Travel requests support planning and comparison, and expenses are categorized as refundable and reimbursable.
+- Expense Agent automates the lifecycle from receipt intake to draft expense reports, including processing emails and checking policy compliance.
+- Requesters and approvers can upload receipts, create mileage expenses, review and edit expenses, submit reports, approve or send back, and use the mobile app.
+- The troubleshooting page covers sign-in failures, receipt upload problems, AI detection errors, policy violations, network errors, AI quota limits, and posting failures.
+- The whole area is marked as preview.
 
 ## Subtopics
 

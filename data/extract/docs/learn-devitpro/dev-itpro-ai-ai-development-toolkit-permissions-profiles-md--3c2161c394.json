@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-permissions-profiles.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-permissions-profiles",
+  "title": "Set up agent permissions and profiles (preview)",
+  "blob": "10072c29efd15d7c349444dd41884cd5886cf167",
+  "summary": "Set up agent permissions via permission sets and profiles using page customization properties to control UI visibility and actions. Agents operate with permissions that are the intersection of the user's and agent's permissions, ensuring agents never exceed the scheduling user's privileges.",
+  "systems": [
+    "copilot",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "agent permissions",
+    "permission sets",
+    "profile customization",
+    "least privilege",
+    "ui controls",
+    "page customization"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Agent Card"
+    }
+  ],
+  "features": [
+    "permission intersection",
+    "effective permissions",
+    "profile assignment",
+    "page customization flags",
+    "ClearActions",
+    "ClearLayout",
+    "ClearViews",
+    "DeleteAllowed",
+    "InsertAllowed"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006455,
+      "pages_in_call": 5
+    }
+  ]
+}

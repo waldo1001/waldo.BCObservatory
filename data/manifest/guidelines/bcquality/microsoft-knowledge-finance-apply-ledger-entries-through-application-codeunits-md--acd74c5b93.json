@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "apply ledger entries through application codeunits",
+  "title": "Apply and unapply entries through the application workflow, not status flags",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/finance/apply-ledger-entries-through-application-codeunits.md",
   "published_at": "2026-09-21T08:20:41.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:31:27.853Z",
+      "blob": "11f78cd72ff1319f5c34420488fd597dbb13e0c2",
+      "words": 273,
+      "forms": 0
     }
   },
   "input_hash": "11f78cd72ff1319f5c34420488fd597dbb13e0c2",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/finance/apply-ledger-entries-through-application-codeunits.md"
-  }
+    "path": "microsoft/knowledge/finance/apply-ledger-entries-through-application-codeunits.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 273
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "11f78cd72ff1319f5c34420488fd597dbb13e0c2"
 }

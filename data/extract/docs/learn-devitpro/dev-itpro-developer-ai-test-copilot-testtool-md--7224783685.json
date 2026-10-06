@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/ai-test-copilot-testtool.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-testtool",
+  "title": "Evaluation",
+  "blob": "d1c80eff63659e4e347a039e35c854d55e658076",
+  "summary": "Evaluation (formerly AI Test Toolkit) is a data-driven test automation framework for validating Copilot features and agents in Business Central. Use it to organize test suites, run evaluations across languages, track Copilot credit consumption, and manage evaluation-specific credit limits.",
+  "systems": [
+    "copilot",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "evaluation framework",
+    "ai testing",
+    "test automation",
+    "agent testing",
+    "credit consumption",
+    "multilingual testing"
+  ],
+  "objects": [],
+  "features": [
+    "data-driven test automation",
+    "multilingual evaluation",
+    "suite-level metadata",
+    "Copilot credit tracking",
+    "environment credit limits",
+    "company credit limits",
+    "agent test support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009206,
+      "pages_in_call": 4
+    }
+  ]
+}

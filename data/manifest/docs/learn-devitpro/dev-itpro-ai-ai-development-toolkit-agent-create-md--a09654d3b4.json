@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-agent-create",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7128c463989c842c1a2bff7824d693940cbe680e",
       "words": 1085,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:16:13.637Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.0104
+    },
+    "summarized": {
+      "at": "2026-10-06T13:17:34.606Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:17:34.607Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:17:34.607Z",
+      "page": false
     }
   },
   "input_hash": "7128c463989c842c1a2bff7824d693940cbe680e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7128c463989c842c1a2bff7824d693940cbe680e"
+  "output_hash": "5c534475478a2d1f83bccb1ca81e4768e9e64dcc7c89c8e0085ce973d3cb70ba"
 }

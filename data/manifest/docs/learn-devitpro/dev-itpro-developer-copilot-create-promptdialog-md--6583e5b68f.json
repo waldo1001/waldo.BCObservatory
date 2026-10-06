@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-create-promptdialog",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "119a43dcb5d6b04cddcf13981681b654e1037c74",
       "words": 419,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:28:30.322Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.006307
+    },
+    "summarized": {
+      "at": "2026-10-06T13:28:30.361Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:28:30.361Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:28:30.362Z",
+      "page": false
     }
   },
   "input_hash": "119a43dcb5d6b04cddcf13981681b654e1037c74",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "119a43dcb5d6b04cddcf13981681b654e1037c74"
+  "output_hash": "df5c19d6cb49d14cf3d5dfd43b1f0cf4c60a9a548074bb5686e3370f4669a646"
 }

@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=Sh3ySQSTw-o",
   "published_at": "2026-10-01T13:03:24.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T13:02:08.886Z",
+      "path": "data/extract/video/Sh3ySQSTw-o.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 12,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.039263
+    },
+    "summarized": {
+      "at": "2026-10-06T13:02:18.529Z",
+      "path": "data/summary/video/Sh3ySQSTw-o.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0448584
+    },
+    "linked": {
+      "at": "2026-10-06T13:02:18.530Z",
+      "systems": [
+        "platform",
+        "development",
+        "administration"
+      ],
+      "topics": 12,
+      "objects_as_heard": 2
+    },
+    "published": {
+      "at": "2026-10-06T13:02:18.531Z",
+      "path": "content/videos/Sh3ySQSTw-o.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2026-10-01 - BCLE - What's new： Server and Database (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "1eed3d6860cf910a1b9dd1b93b30755f622629675a3a91bd70692f1a66b1bec8"
 }

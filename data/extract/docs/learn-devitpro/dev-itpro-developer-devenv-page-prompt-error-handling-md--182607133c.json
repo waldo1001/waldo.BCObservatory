@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-page-prompt-error-handling.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-prompt-error-handling",
+  "title": "Error handling in prompt dialogs",
+  "blob": "0378c03c0906bc694e35f10ad24672d025e324bd",
+  "summary": "Error handling patterns for PromptDialog pages, allowing errors and messages from Dialog.Error(), Dialog.Message(), and ErrorInfo to display inline within the prompt dialog instead of in separate popup dialogs.",
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "error handling",
+    "prompt dialog",
+    "error messages",
+    "message display",
+    "inline errors"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "PromptDialog"
+    }
+  ],
+  "features": [
+    "inline error display",
+    "multiple messages",
+    "error suppression",
+    "ErrorInfo type",
+    "message truncation"
+  ],
+  "versions": [
+    "2024 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006991,
+      "pages_in_call": 5
+    }
+  ]
+}

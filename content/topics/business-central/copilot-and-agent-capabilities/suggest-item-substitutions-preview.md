@@ -2,7 +2,7 @@
 id: topic/business-central/copilot-and-agent-capabilities/suggest-item-substitutions-preview
 type: topic
 title: Suggest item substitutions (preview)
-summary: "Learn section Copilot and agent capabilities > Suggest item substitutions (preview): 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Suggest item substitutions with Copilot (preview) covers an AI capability that finds similar or interchangeable items and assigns them as substitutes. It answers how to use the feature, how results are scored and edited, and what its capabilities, limits and responsible-use practices are.
 tier: official
 language: en
 system: inventory
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T13:43:32.763Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 8856a82342e458e25801ee163784ecc52082111e6ad5eecfdeeb315501d09a67
+  prompts:
+    hub-topic: 1
+  input_hash: 224b9c95cc69c82805c8e0cc3785f0bafbdb2b3c4a9b952da8a208218d70a8b5
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/faq-suggest-item-substitutions-with-copilot
@@ -60,14 +61,30 @@ bc_forms:
   - 31
   - 5716
 member_hash: 8856a82342e458e25801ee163784ecc52082111e6ad5eecfdeeb315501d09a67
-narrative: none
+narrative: generated
 ---
 
 # Suggest item substitutions (preview)
 
-> Learn section Copilot and agent capabilities > Suggest item substitutions (preview): 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Suggest item substitutions with Copilot (preview) covers an AI capability that finds similar or interchangeable items and assigns them as substitutes. It answers how to use the feature, how results are scored and edited, and what its capabilities, limits and responsible-use practices are.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Suggest item substitutions (preview) · tier official · system inventory · no narrative yet
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Suggest item substitutions (preview) · tier official · system inventory · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This area describes a Copilot capability that helps identify similar or interchangeable products, with the aim of reducing duplicates and streamlining product portfolio management. Copilot analyzes item numbers, descriptions, barcodes and attributes across multiple tables to propose substitutes.
+
+There are two pages. "Suggest substitute items with Copilot" is the how-to: it covers the suggestion workflow, the score ratings and the actions available on the results. "FAQ for suggest item substitutions with Copilot" explains what the feature can and cannot do and how to use it responsibly. Start with the how-to page to use the feature, then read the FAQ to understand its limits and best practices.
+
+## Key points
+
+- The feature is in preview and suggests similar or interchangeable items to reduce duplicates and simplify product portfolio management.
+- Copilot analyzes item numbers, descriptions, barcodes and attributes across multiple tables.
+- The FAQ describes the techniques used: similarity search with embeddings, and keyword and synonym extraction.
+- Suggestions carry score ratings of High, Medium or Low.
+- You can adjust the prompt to refine the suggestions.
+- Use Insert all to assign the suggested substitutes, or Delete Line to remove individual suggestions.
+- The FAQ page covers capabilities, limitations and best practices for responsible use.
 
 ## Learn pages
 

@@ -1,0 +1,67 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/deprecated-features-platform.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-platform",
+  "title": "Deprecated features in the client, server, database",
+  "blob": "700bce6e5b7879c508caaf566080b30c8024278f",
+  "summary": "Platform deprecation timeline documenting features removed or replaced across Business Central versions from 2021 to 2027, including OData/SOAP endpoints, PowerShell 5.0, permission sets, and authentication methods. Deprecated platform features including ADAL/Azure AD Graph (replaced by MSAL/Microsoft Graph), Windows Client (removed in favor of web/desktop/mobile apps), user personalizations/profile configurations (replaced by new AL tooling), Excel COM add-in (removed with Windows Client), and printing programmatically (tied to Windows Client).",
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "deprecated features",
+    "platform changes",
+    "upgrade path",
+    "breaking changes",
+    "api endpoints",
+    "authentication",
+    "powershell",
+    "permissions",
+    "deprecation",
+    "client"
+  ],
+  "objects": [],
+  "features": [
+    "OData endpoints on Microsoft pages",
+    "SOAP endpoints on UI pages",
+    "PowerShell 5.0 administration modules",
+    "Web Service Access Keys (Basic Auth)",
+    "Data-defined permission sets",
+    "Delta links with APIs",
+    "PTE upload via Extension Management",
+    "Write access to app database tables",
+    "MSAL and Microsoft Graph API",
+    "Microsoft Entra Authentication",
+    "web client",
+    "mobile apps"
+  ],
+  "versions": [
+    "2027 release wave 1",
+    "2026 release wave 2",
+    "2026 release wave 1",
+    "2025 release wave 1",
+    "2024 release wave 2",
+    "2024 release wave 1",
+    "2023 release wave 2",
+    "2023 release wave 1",
+    "2022 release wave 2",
+    "2022 release wave 1"
+  ],
+  "parts": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.036175,
+      "pages_in_call": 1
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009239,
+      "pages_in_call": 4
+    }
+  ]
+}

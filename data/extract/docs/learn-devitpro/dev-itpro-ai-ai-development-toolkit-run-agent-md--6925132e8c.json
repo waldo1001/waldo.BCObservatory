@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-run-agent.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-run-agent",
+  "title": "Run an agent (preview)",
+  "blob": "9812e04db647bb6ea313fae31cd9cba65fa319c8",
+  "summary": "Run agents by defining tasks that represent specific work units with associated instructions. Trigger tasks manually via Agent Tasks page or programmatically through the Tasks AL API integrated with UI actions and business events.",
+  "systems": [
+    "copilot",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "task execution",
+    "agent tasks",
+    "task triggering",
+    "task queue",
+    "instructions",
+    "continuous improvement"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Agent Tasks"
+    }
+  ],
+  "features": [
+    "task definition",
+    "manual task triggering",
+    "Tasks AL API integration",
+    "task queue",
+    "task messages",
+    "task monitoring",
+    "task lifecycle"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006455,
+      "pages_in_call": 5
+    }
+  ]
+}

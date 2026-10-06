@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Introducing: Expense Agent in Business Central (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=egE6UdOfar0",
-  "published_at": null,
+  "published_at": "2026-04-27T14:39:20.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:18:34.510Z",
+      "captions": "auto:en-orig",
+      "duration_s": 973
+    },
+    "captioned": {
+      "at": "2026-10-06T13:18:41.849Z",
+      "path": "data/captions/microsoft/egE6UdOfar0.vtt",
+      "vtt_sha256": "93b2b9ff78de10875daa68b09775723cc7a502a05ed3d0b5258f575cc0c2a0ce",
+      "segments": 74,
+      "words": 2705,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 69,
     "duration_s": 973,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "93b2b9ff78de10875daa68b09775723cc7a502a05ed3d0b5258f575cc0c2a0ce"
 }

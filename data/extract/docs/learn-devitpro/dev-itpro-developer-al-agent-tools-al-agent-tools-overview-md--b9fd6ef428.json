@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-agent-tools-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-agent-tools-overview",
+  "title": "AI Agent Tools for AL Development",
+  "blob": "f2aaa2b81ac9ebf5082e263d2307338af5f3d28d",
+  "summary": "AI agent tools enable GitHub Copilot and Model Context Protocol agents to perform Business Central AL development tasks like building, publishing, searching symbols, and debugging without leaving the editor.",
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "ai agents",
+    "al development",
+    "agent tools",
+    "model context protocol",
+    "mcp server",
+    "lsp server",
+    "vs code integration"
+  ],
+  "objects": [],
+  "features": [
+    "al_build",
+    "al_compile",
+    "al_publish",
+    "al_downloadsymbols",
+    "al_symbolsearch",
+    "al_getdiagnostics",
+    "al_getnextobjectid",
+    "al_debug",
+    "al_auth_login",
+    "al_auth_logout",
+    "AL LSP server",
+    "VS Code Language Model Tools"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009206,
+      "pages_in_call": 4
+    }
+  ]
+}

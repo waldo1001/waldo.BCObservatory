@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "isolatedstorage setencrypted for sensitive values",
+  "title": "Prefer IsolatedStorage.SetEncrypted over Set for sensitive values",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/isolatedstorage-setencrypted-for-sensitive-values.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.643Z",
+      "blob": "6f221291543ff4761d80411cb208ef661742f7e3",
+      "words": 185,
+      "forms": 0
     }
   },
   "input_hash": "6f221291543ff4761d80411cb208ef661742f7e3",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/security/isolatedstorage-setencrypted-for-sensitive-values.md"
-  }
+    "path": "microsoft/knowledge/security/isolatedstorage-setencrypted-for-sensitive-values.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 185
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6f221291543ff4761d80411cb208ef661742f7e3"
 }

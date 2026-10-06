@@ -1,0 +1,260 @@
+{
+  "video_id": "TSLXzbeyE7Y",
+  "item_id": "video/yt-microsoft/TSLXzbeyE7Y",
+  "title": "What's new: Explore the new Microsoft Copilot Chat in Business Central (2026 release wave 2)",
+  "duration_s": 311,
+  "systems": [
+    "copilot",
+    "sales",
+    "finance"
+  ],
+  "topics": [
+    "copilot chat",
+    "sales tax setup",
+    "sales data analysis",
+    "customer insights",
+    "calendar integration",
+    "sales brief",
+    "underperforming items",
+    "recommendations engine"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Copilot Chat in Business Central",
+      "t_start": 0,
+      "t_end": 29.8
+    },
+    {
+      "title": "Sales tax setup scenario with Copilot",
+      "t_start": 29.8,
+      "t_end": 105.6
+    },
+    {
+      "title": "Analyzing sales data to find underperforming items",
+      "t_start": 105.6,
+      "t_end": 154.6
+    },
+    {
+      "title": "Copilot recommendations for improving sales",
+      "t_start": 154.6,
+      "t_end": 191.8
+    },
+    {
+      "title": "Preparing for customer meeting with calendar integration",
+      "t_start": 191.8,
+      "t_end": 228.4
+    },
+    {
+      "title": "Sales brief and customer information gathering",
+      "t_start": 228.4,
+      "t_end": 284.2
+    },
+    {
+      "title": "Using Copilot for directions and travel assistance",
+      "t_start": 284.2,
+      "t_end": 297.2
+    },
+    {
+      "title": "Closing remarks",
+      "t_start": 297.2,
+      "t_end": 311
+    }
+  ],
+  "features": [
+    {
+      "name": "Microsoft Copilot Chat in Business Central",
+      "description": "Microsoft Copilot built directly into Business Central, providing AI-powered chat assistance for various business scenarios and data analysis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6,
+      "t_end": 105.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "ai assistant",
+        "built-in"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sales tax configuration assistance",
+      "description": "Copilot pulls data from the internet and provides guidance for setting up sales tax for different states, such as Oregon, accounting for state-specific tax rates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 42.9,
+      "t_end": 105.6,
+      "is_demoed": true,
+      "caveats": [
+        "requires internet connectivity to pull external data"
+      ],
+      "tags": [
+        "sales tax",
+        "configuration",
+        "external data"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Sales data analysis with Copilot",
+      "description": "Copilot analyzes Business Central sales data to identify items that sold the least in the last 3 months, providing data-driven insights for inventory and sales management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 117.8,
+      "t_end": 141.7,
+      "is_demoed": true,
+      "caveats": [
+        "reasoning over data may take longer to process"
+      ],
+      "tags": [
+        "sales analysis",
+        "inventory insights",
+        "performance metrics"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Copilot recommendations for sales improvement",
+      "description": "Copilot provides actionable suggestions to improve sales of underperforming items, such as bundling items, promoting color variants, and cross-selling strategies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 154.6,
+      "t_end": 180.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "recommendations",
+        "sales strategy",
+        "bundling"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Calendar integration for meeting preparation",
+      "description": "Copilot accesses the user's calendar to identify customer meetings and help prepare for them with Business Central data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 205.3,
+      "t_end": 228.4,
+      "is_demoed": true,
+      "caveats": [
+        "requires calendar access permissions"
+      ],
+      "tags": [
+        "calendar integration",
+        "meeting preparation",
+        "customer data"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sales brief generation",
+      "description": "Copilot generates a comprehensive sales brief for customer meetings, including sales figures, sales momentum, account risk assessment, and recommended talking points.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 228.4,
+      "t_end": 253.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales brief",
+        "customer intelligence",
+        "talking points"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "General knowledge and directions assistance",
+      "description": "Copilot provides general knowledge assistance beyond Business Central, including directions and travel guidance, helping users with logistics outside of core business data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 267.4,
+      "t_end": 284.2,
+      "is_demoed": true,
+      "caveats": [
+        "functionality extends beyond Business Central scope"
+      ],
+      "tags": [
+        "general knowledge",
+        "directions",
+        "travel assistance"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Unknown presenter",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 18,
+      "text": "Business Central has new Copilot chat, uh Microsoft Copilot built directly in Business Central.",
+      "why_it_matters": "Establishes that Copilot is now a built-in feature of Business Central, not an external add-on.",
+      "check": "exact"
+    },
+    {
+      "t": 56.9,
+      "text": "Copilot pulls data from the internet and from various other sources and provides all the answers I need.",
+      "why_it_matters": "Demonstrates that Copilot combines internal Business Central data with external internet sources for comprehensive answers.",
+      "check": "exact"
+    },
+    {
+      "t": 117.8,
+      "text": "We are looking for items that sold uh the least in the last 3 months.",
+      "why_it_matters": "Shows Copilot's ability to perform time-bound sales analysis on Business Central data.",
+      "check": "exact"
+    },
+    {
+      "t": 130.8,
+      "text": "Copilot provided me the answers true to my question. Specifically, probably the Rome guest chair uh and maybe Sydney swivel chair.",
+      "why_it_matters": "Demonstrates Copilot's ability to identify specific underperforming products from Business Central inventory.",
+      "check": "exact"
+    },
+    {
+      "t": 205.3,
+      "text": "Copilot is now accessing my uh calendar and finding a meeting with my customer.",
+      "why_it_matters": "Shows integration with external calendar systems to enable context-aware customer meeting preparation.",
+      "check": "exact"
+    },
+    {
+      "t": 239.2,
+      "text": "Copilot prepared a sales brief with some additional sales figures and information I need for the meeting.",
+      "why_it_matters": "Illustrates Copilot's ability to synthesize Business Central data into actionable sales intelligence for customer interactions.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029296
+    }
+  ]
+}

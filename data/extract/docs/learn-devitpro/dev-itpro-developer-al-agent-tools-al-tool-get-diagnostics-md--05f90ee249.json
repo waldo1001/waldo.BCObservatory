@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-get-diagnostics.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-get-diagnostics",
+  "title": "Get AL diagnostics - al_getdiagnostics",
+  "blob": "8663001b6a16c79d66284982c41880c8ff57ac88",
+  "summary": "The al_getdiagnostics tool retrieves AL compilation diagnostics including errors, warnings, info, and hints from the AL Language Server or compiler output, with filtering by scope, severity, source area, file, or folder.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "diagnostics",
+    "compilation",
+    "errors",
+    "al language server",
+    "code quality",
+    "analyzer",
+    "visual studio code",
+    "al mcp"
+  ],
+  "objects": [],
+  "features": [
+    "diagnostic filtering by scope",
+    "diagnostic filtering by severity",
+    "diagnostic filtering by source area",
+    "diagnostic filtering by file",
+    "diagnostic filtering by folder",
+    "related information context",
+    "result limits",
+    "workspace scope",
+    "project scope",
+    "file scope"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017588,
+      "pages_in_call": 1
+    }
+  ]
+}

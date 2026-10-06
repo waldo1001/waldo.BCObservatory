@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-chat-with-copilot",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5ccd4c44e56779bdf9fb40e80f292cb7a4469838",
       "words": 1296,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:01:37.573Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.009138
+    },
+    "summarized": {
+      "at": "2026-10-06T13:05:54.404Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:05:54.404Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:05:54.404Z",
+      "page": false
     }
   },
   "input_hash": "5ccd4c44e56779bdf9fb40e80f292cb7a4469838",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5ccd4c44e56779bdf9fb40e80f292cb7a4469838"
+  "output_hash": "08597e62550aec2d9b81eb7bde2b32173c3dfe0a05e57482352c78f9e2832a02"
 }

@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "custom document dispatch must not bypass report selections",
+  "title": "Custom document dispatch must not bypass Report Selections",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/custom-document-dispatch-must-not-bypass-report-selections.md",
   "published_at": "2026-09-30T11:22:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:12:22.026Z",
+      "blob": "f6b15f99b911bded45fc52c706a85020d6a4e61e",
+      "words": 406,
+      "forms": 0
     }
   },
   "input_hash": "f6b15f99b911bded45fc52c706a85020d6a4e61e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/data-modeling/custom-document-dispatch-must-not-bypass-report-selections.md"
-  }
+    "path": "microsoft/knowledge/data-modeling/custom-document-dispatch-must-not-bypass-report-selections.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 406
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f6b15f99b911bded45fc52c706a85020d6a4e61e"
 }

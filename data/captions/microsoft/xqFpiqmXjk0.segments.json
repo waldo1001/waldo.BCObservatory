@@ -1,0 +1,167 @@
+{
+  "video_id": "xqFpiqmXjk0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0,
+      "end": 13,
+      "text": "Welcome back to the manufacturing foundation series. So far, we've designed the production bomb, the routing, and the capacity setup. Let's see how everything comes together with the production orders."
+    },
+    {
+      "t": 13,
+      "end": 26.5,
+      "text": "We are no longer modeling the production. We are asking whether we can safely release this order to production. That is the role of production orders. Each status is a different level of commitment."
+    },
+    {
+      "t": 26.5,
+      "end": 38.8,
+      "text": "Simulated production orders are a safe sandbox. Planned production orders are production suggestions. When they are approved, they move to the firm planned production orders."
+    },
+    {
+      "t": 38.8,
+      "end": 49.6,
+      "text": "Released production orders are shop floor execution ready. Finished orders close the work and prepares it for cost analysis. Let's see how they work."
+    },
+    {
+      "t": 49.6,
+      "end": 64.1,
+      "text": "Imagine we are considering producing 10 units of our Airpod coffee maker, and we will need them by August 1st. As we saw before, when we refresh our order, Business Central uses the master data we built earlier to define what we will need."
+    },
+    {
+      "t": 64.1,
+      "end": 80.4,
+      "text": "The production BOM becomes the component demand. The routing becomes operations. The calendar and capacity setup becomes scheduled start and finish time. The order now carries the material, time, and cost expectations for this exact production run."
+    },
+    {
+      "t": 80.4,
+      "end": 89.4,
+      "text": "If we go to the components function, we can see which component this production order needs and how many of each."
+    },
+    {
+      "t": 89.4,
+      "end": 101.4,
+      "text": "If instead we want to know when the production would be scheduled, we can go to routing. Each operation shows the start and finish date time, its operational times, and the routing link code."
+    },
+    {
+      "t": 101.4,
+      "end": 118.5,
+      "text": "As we are still considering whether this order will enter production, we could also check statistics where the expected costs and capacity needs are displayed. Let's accept this production order by moving it to firm planned production order and open it again."
+    },
+    {
+      "t": 118.5,
+      "end": 134.1,
+      "text": "We already accepted the production times, but before we release, we need one practical answer. Do we have the parts to build it? Once it's firm plans, we can explore the item availability by bomb level, which will give us that release date."
+    },
+    {
+      "t": 134.1,
+      "end": 149.7,
+      "text": "Business Central shows if we have enough units to produce the required order and which component is creating the bottleneck. For each component, we can see how many do we need to make the parent item, how many we have available, and how many of the parent items we can produce."
+    },
+    {
+      "t": 149.7,
+      "end": 161,
+      "text": "We are not sending work to the floor and hoping the warehouse can catch up later. Everything looks great. We have enough availability for this order. Let's release this production order."
+    },
+    {
+      "t": 161,
+      "end": 177.4,
+      "text": "Now that we changed the status to released, the same order moves into shop floor execution. For released production orders, we can explore the production journal. The production journal is the document that combines the components of the production BOM and the routings."
+    },
+    {
+      "t": 177.4,
+      "end": 188.2,
+      "text": "If we take a look at the production journal, we can see the list of items that will be consumed during production. Remember that we added routing link when we were creating the production BOM?"
+    },
+    {
+      "t": 188.2,
+      "end": 200.4,
+      "text": "That allows us to see where each component is consumed during production. All components that constitute the coffee machine body are consumed during operation number 10, body assembly."
+    },
+    {
+      "t": 200.4,
+      "end": 214.8,
+      "text": "Imagine we broke two glass carafes during production. Instead of consuming quantity, we should input 12 units. The operator reviews the consumption quantity and adjusts any deviation in components and its operational times."
+    },
+    {
+      "t": 214.8,
+      "end": 227.3,
+      "text": "This allows to account for the actual production. Once the operator has reviewed the production journal, he posts the production journal to effectively consume the components and account for the capacities usage."
+    },
+    {
+      "t": 227.3,
+      "end": 244.2,
+      "text": "When production orders are used correctly, the production journal turns a floor activity into accurate inventory, capacity, and cost postings. The production journal has been posted, and we can now see that we have 10 units finished and none remaining to produce."
+    },
+    {
+      "t": 244.2,
+      "end": 256.1,
+      "text": "Last step. We already produced our product, and we can change the order to finished. The production work is closed, and the order is ready for cost follow-up. That is the value of production orders."
+    },
+    {
+      "t": 256.1,
+      "end": 267.8,
+      "text": "They give planners and supervisors a controlled life cycle. Prepare the order, check whether it can be built, release it to the floor, record what happened, and close it for analysis."
+    },
+    {
+      "t": 267.8,
+      "end": 282,
+      "text": "Each production order allows you to monitor the costing associated. But, that will come at a later video. Next time, we will dig deeper into the flushing methods, the backbone of costing in manufacturing."
+    },
+    {
+      "t": 282,
+      "end": 285,
+      "text": "See you next time."
+    }
+  ],
+  "markers": [
+    {
+      "t": 41.265,
+      "text": "[music]"
+    },
+    {
+      "t": 97.596,
+      "text": "[music]"
+    },
+    {
+      "t": 102.181,
+      "text": "[music]"
+    },
+    {
+      "t": 150.651,
+      "text": "[music]"
+    },
+    {
+      "t": 158.511,
+      "text": "[music]"
+    },
+    {
+      "t": 165.061,
+      "text": "[music]"
+    },
+    {
+      "t": 180.14,
+      "text": "[music]"
+    },
+    {
+      "t": 189.952,
+      "text": "[music]"
+    },
+    {
+      "t": 197.82,
+      "text": "[music]"
+    },
+    {
+      "t": 234.492,
+      "text": "[music]"
+    },
+    {
+      "t": 257.417,
+      "text": "[music]"
+    },
+    {
+      "t": 270.518,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 733
+}

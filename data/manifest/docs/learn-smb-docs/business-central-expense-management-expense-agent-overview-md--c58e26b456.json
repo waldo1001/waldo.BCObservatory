@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-overview",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8f99e0c2e0a24a552c16f14e6a7d9d0a79466264",
       "words": 645,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T12:53:07.917Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007348
+    },
+    "summarized": {
+      "at": "2026-10-06T12:56:04.680Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T12:56:04.681Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T12:56:04.681Z",
+      "page": false
     }
   },
   "input_hash": "8f99e0c2e0a24a552c16f14e6a7d9d0a79466264",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8f99e0c2e0a24a552c16f14e6a7d9d0a79466264"
+  "output_hash": "85b5c7cb8968912965169f0264fbd4eb3cae52d9fa06008d7b0f61acb620b9c0"
 }

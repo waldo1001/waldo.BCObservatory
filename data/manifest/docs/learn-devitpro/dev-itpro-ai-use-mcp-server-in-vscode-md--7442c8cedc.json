@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/use-mcp-server-in-vscode",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "57805345745ca9e1df0517f972afa50d5b4e0c5c",
       "words": 798,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:23:23.551Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008502
+    },
+    "summarized": {
+      "at": "2026-10-06T13:24:01.205Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:24:01.205Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:24:01.205Z",
+      "page": false
     }
   },
   "input_hash": "57805345745ca9e1df0517f972afa50d5b4e0c5c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "57805345745ca9e1df0517f972afa50d5b4e0c5c"
+  "output_hash": "5e761768f5012dc49c25b271120af090368ae70e73a5f457c65bdc7f3b72160d"
 }

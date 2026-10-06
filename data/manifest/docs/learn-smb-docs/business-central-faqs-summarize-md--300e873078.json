@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-summarize",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4cdbf2cd39abb8d7e0dfd3e89a851e72e3bdd0ed",
       "words": 742,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:07:09.756Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.010023
+    },
+    "summarized": {
+      "at": "2026-10-06T13:09:23.120Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:09:23.120Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:09:23.121Z",
+      "page": false
     }
   },
   "input_hash": "4cdbf2cd39abb8d7e0dfd3e89a851e72e3bdd0ed",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4cdbf2cd39abb8d7e0dfd3e89a851e72e3bdd0ed"
+  "output_hash": "9461e4f5b799083bad30af8b3e5b3ae8632662e68e5c1c4ee04eb19d32bf4853"
 }

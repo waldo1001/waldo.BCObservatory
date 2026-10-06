@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Execution & Control Cost Control (2026)",
   "url": "https://www.youtube.com/watch?v=N30HebR5nJk",
-  "published_at": null,
+  "published_at": "2026-09-08T11:44:43.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:10:08.565Z",
+      "captions": "auto:en-orig",
+      "duration_s": 251
+    },
+    "captioned": {
+      "at": "2026-10-06T13:10:16.801Z",
+      "path": "data/captions/microsoft/N30HebR5nJk.vtt",
+      "vtt_sha256": "b7058f3d1503e4d617845b0888ca51515757a43a7f315f03ad08334a29f54ef5",
+      "segments": 21,
+      "words": 621,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 43,
     "duration_s": 251,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b7058f3d1503e4d617845b0888ca51515757a43a7f315f03ad08334a29f54ef5"
 }

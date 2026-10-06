@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "obsolete table fields instead of deleting them",
+  "title": "Obsolete published table fields instead of deleting, renaming, or renumbering them",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/breaking-changes/obsolete-table-fields-instead-of-deleting-them.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.068Z",
+      "blob": "bf62facff62aea5fe9aa3e32cb8f35c35811c212",
+      "words": 271,
+      "forms": 0
     }
   },
   "input_hash": "bf62facff62aea5fe9aa3e32cb8f35c35811c212",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/breaking-changes/obsolete-table-fields-instead-of-deleting-them.md"
-  }
+    "path": "microsoft/knowledge/breaking-changes/obsolete-table-fields-instead-of-deleting-them.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 271
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bf62facff62aea5fe9aa3e32cb8f35c35811c212"
 }

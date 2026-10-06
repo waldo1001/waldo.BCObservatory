@@ -1,0 +1,93 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-order-agent.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent",
+  "title": "Sales Order Agent overview",
+  "blob": "27cca88380835cce1075af4321c8966b8607aea2",
+  "summary": "Sales Order Agent is an AI-powered agent that automates sales order capture by monitoring emails, identifying customers and products, checking inventory, and creating sales quotes and orders with multiturn conversations when details are missing.",
+  "systems": [
+    "sales",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "email automation",
+    "sales quotes",
+    "order processing",
+    "inventory checking",
+    "customer identification",
+    "ai agent",
+    "capable-to-promise",
+    "contact matching"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Order Agent configuration"
+    },
+    {
+      "type": "page",
+      "name": "Order Promising Setup"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Item Variant"
+    },
+    {
+      "type": "table",
+      "name": "Item Reference"
+    },
+    {
+      "type": "table",
+      "name": "Item Attributes"
+    },
+    {
+      "type": "table",
+      "name": "Item Category"
+    },
+    {
+      "type": "table",
+      "name": "Item Translation"
+    },
+    {
+      "type": "table",
+      "name": "Item Identifier"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    },
+    {
+      "type": "page",
+      "name": "Item Card"
+    }
+  ],
+  "features": [
+    "Email monitoring and analysis",
+    "Multi-turn email conversations",
+    "Contact and customer identification",
+    "Item search and matching",
+    "Inventory availability checking",
+    "Capable-to-promise calculation",
+    "Sales quote creation",
+    "Sales order conversion",
+    "PDF document generation",
+    "Email attachment processing",
+    "Role-based permissions and profiles",
+    "Copilot Credits billing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014314,
+      "pages_in_call": 2
+    }
+  ]
+}

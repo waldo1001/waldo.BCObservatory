@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-mileage-rate-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-mileage-rate-setup",
+  "title": "Set Up Mileage Rates for Expense Management",
+  "blob": "761e0daada721e5066801793dda481e4b15b8d52",
+  "summary": "Define mileage reimbursement rates by vehicle type, currency, and effective dates for automatic calculation of mileage expenses.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "mileage rates",
+    "vehicle types",
+    "expense management",
+    "reimbursement"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Mileage Rate Setup"
+    },
+    {
+      "type": "page",
+      "name": "Vehicle Types"
+    }
+  ],
+  "features": [
+    "Vehicle type setup",
+    "Effective-dated mileage rates",
+    "Currency-specific rates",
+    "Fallback to standard rate",
+    "Round-trip distance doubling",
+    "Automatic rate selection by date and vehicle"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009347,
+      "pages_in_call": 4
+    }
+  ]
+}

@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: AI Development Toolkit (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=juUBVPfIp8A",
-  "published_at": null,
+  "published_at": "2026-04-01T12:00:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:27:12.014Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1206
+    },
+    "captioned": {
+      "at": "2026-10-06T13:27:21.173Z",
+      "path": "data/captions/microsoft/juUBVPfIp8A.vtt",
+      "vtt_sha256": "6c88e65a6944fed0490b135e4d0f49a9f5bbb13c5194d149a0f77b7377f6dd75",
+      "segments": 91,
+      "words": 2948,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 98,
-    "duration_s": 1207,
-    "via": "reconcile"
-  }
+    "duration_s": 1206,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6c88e65a6944fed0490b135e4d0f49a9f5bbb13c5194d149a0f77b7377f6dd75"
 }

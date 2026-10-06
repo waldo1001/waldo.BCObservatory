@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-json-files.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-json-files",
+  "title": "JSON Files for AL Extension Projects",
+  "blob": "59355b80a733b7ccbe5e2828264ec93cb26a6412",
+  "summary": "The app.json manifest file defines extension metadata, dependencies, versioning, object ID ranges, and runtime configuration for AL projects. Use this to understand and configure your extension's build, identity, publication requirements, and API access.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "app.json",
+    "manifest",
+    "configuration",
+    "extension identity",
+    "dependencies",
+    "object ranges",
+    "runtime version",
+    "marketplace"
+  ],
+  "objects": [],
+  "features": [
+    "app manifest settings",
+    "id range configuration",
+    "runtime version targeting",
+    "dependency management",
+    "translation file generation",
+    "marketplace submission",
+    "resource exposure policy",
+    "key vault integration"
+  ],
+  "versions": [
+    "2024 release wave 1",
+    "2024 release wave 2",
+    "2025 release wave 1",
+    "2025 release wave 2",
+    "2026 release wave 1",
+    "2026 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023169,
+      "pages_in_call": 1
+    }
+  ]
+}

@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "initialize document defaults in initrecord",
+  "title": "Initialize document defaults in `InitRecord` after assigning the number",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/initialize-document-defaults-in-initrecord.md",
   "published_at": "2026-09-21T08:15:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:32:30.841Z",
+      "blob": "e83a6d3484773e962734d34dc3a7afc0b308f8bf",
+      "words": 153,
+      "forms": 0
     }
   },
   "input_hash": "e83a6d3484773e962734d34dc3a7afc0b308f8bf",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/data-modeling/initialize-document-defaults-in-initrecord.md"
-  }
+    "path": "microsoft/knowledge/data-modeling/initialize-document-defaults-in-initrecord.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 153
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e83a6d3484773e962734d34dc3a7afc0b308f8bf"
 }

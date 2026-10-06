@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "webhook eligibility and validationtoken renewal",
+  "title": "Verify webhook eligibility and complete every validationToken handshake",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/webhook-eligibility-and-validationtoken-renewal.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:46.102Z",
+      "blob": "2aad620dac40908d6f4c44bc265dc5240ff4257d",
+      "words": 236,
+      "forms": 0
     }
   },
   "input_hash": "2aad620dac40908d6f4c44bc265dc5240ff4257d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/web-services/webhook-eligibility-and-validationtoken-renewal.md"
-  }
+    "path": "microsoft/knowledge/web-services/webhook-eligibility-and-validationtoken-renewal.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 236
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2aad620dac40908d6f4c44bc265dc5240ff4257d"
 }

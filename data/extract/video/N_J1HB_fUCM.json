@@ -1,0 +1,480 @@
+{
+  "video_id": "N_J1HB_fUCM",
+  "item_id": "video/yt-microsoft/N_J1HB_fUCM",
+  "title": "What's new in Finance: Overview (2026 release wave 2)",
+  "duration_s": 571,
+  "systems": [
+    "finance",
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "excise taxes",
+    "self-billing",
+    "withholding taxes",
+    "cross environment master data",
+    "peppol",
+    "bonded locations",
+    "ad valorem",
+    "localization",
+    "e-invoicing"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview",
+      "t_start": 0,
+      "t_end": 43
+    },
+    {
+      "title": "Excise taxes improvements - multiple per item",
+      "t_start": 43,
+      "t_end": 104.2
+    },
+    {
+      "title": "Excise taxes - bonded locations and transfer entries",
+      "t_start": 104.2,
+      "t_end": 166.2
+    },
+    {
+      "title": "Excise taxes - ad valorem and hybrid calculation models",
+      "t_start": 166.2,
+      "t_end": 258.4
+    },
+    {
+      "title": "Self-billing improvements and PEPPOL format",
+      "t_start": 258.4,
+      "t_end": 315.1
+    },
+    {
+      "title": "Cross environment master data management",
+      "t_start": 315.1,
+      "t_end": 375.6
+    },
+    {
+      "title": "Withholding taxes for employees",
+      "t_start": 375.6,
+      "t_end": 449.6
+    },
+    {
+      "title": "Localization updates",
+      "t_start": 449.6,
+      "t_end": 571
+    }
+  ],
+  "features": [
+    {
+      "name": "Multiple excise taxes per item",
+      "description": "Users can now add multiple excise taxes to a single item instead of just one. The system includes a new excise taxes page accessible from the item card's Related menu, allowing any number of excise taxes per item.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 54.8,
+      "t_end": 104.2,
+      "is_demoed": false,
+      "caveats": [
+        "Automatic upgrade from previous excise tax configuration required"
+      ],
+      "tags": [
+        "excise",
+        "item",
+        "tax compliance"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Bonded location support for excise taxes",
+      "description": "New feature allowing locations to be marked as bonded locations where excise duties are not calculated on inbound receipt but only when goods are released from the bonded location.",
+      "status": "announced",
+      "status_evidence_t": 104.2,
+      "status_evidence_quote": "This is something what is coming in November minor, two new features.",
+      "status_evidence_verified": true,
+      "t_start": 104.2,
+      "t_end": 139.9,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in November",
+        "Requires bonded location setup"
+      ],
+      "tags": [
+        "excise",
+        "location",
+        "tax compliance"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Transfer entry type for excise permissions",
+      "description": "New entry type added to excise permissions to support transfer scenarios in addition to existing sales, purchase, and manufacturing entry types.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 166.2,
+      "t_end": 178.5,
+      "is_demoed": false,
+      "caveats": [
+        "Part of November release"
+      ],
+      "tags": [
+        "excise",
+        "transfer",
+        "permissions"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Ad valorem excise tax calculation",
+      "description": "New ad valorem calculation model for excise taxes where duties are calculated as a percentage of taxable amount rather than per volume, quantity, or weight.",
+      "status": "announced",
+      "status_evidence_t": 214.8,
+      "status_evidence_quote": "So now you will have new model ad valorem, where you have formula here with excise will be calculated using percent on a taxable",
+      "status_evidence_verified": true,
+      "t_start": 189.1,
+      "t_end": 242.6,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in November",
+        "Rare use case"
+      ],
+      "tags": [
+        "excise",
+        "tax calculation",
+        "valuation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Hybrid excise tax calculation model",
+      "description": "Combined calculation model for excise taxes that applies both specific and ad valorem components, allowing fees based on weight plus a percentage of taxable amount.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 229.3,
+      "t_end": 258.4,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in November",
+        "Complex calculation model for rare scenarios"
+      ],
+      "tags": [
+        "excise",
+        "tax calculation",
+        "hybrid"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Self-billing vendor-specific number series",
+      "description": "Enhancement allowing selection of specific number series for each vendor using self-billing, with fallback to payable purchase setup if none is selected.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 258.4,
+      "t_end": 292.3,
+      "is_demoed": false,
+      "caveats": [
+        "Optional feature"
+      ],
+      "tags": [
+        "self-billing",
+        "vendor",
+        "numbering"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Self-billing PEPPOL format support",
+      "description": "Self-billing invoices now support PEPPOL format and are integrated into the e-documents framework alongside standard invoicing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 292.3,
+      "t_end": 315.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "self-billing",
+        "peppol",
+        "e-documents"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Cross environment master data management",
+      "description": "Functionality enabling management of master data across multiple environments, particularly useful for companies with multiple localizations requiring separate environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 315.1,
+      "t_end": 375.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires setup in each environment"
+      ],
+      "tags": [
+        "master data",
+        "cross-environment",
+        "localization"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Withholding tax for employees",
+      "description": "New capability to calculate and apply withholding taxes for employees with options for gross or net calculation, different thresholds per period and category, and multiple calculation models.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 375.6,
+      "t_end": 449.6,
+      "is_demoed": false,
+      "caveats": [
+        "Can be used in expense agent or general journal",
+        "More functionality planned for withholding taxes"
+      ],
+      "tags": [
+        "withholding tax",
+        "employee",
+        "compliance"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Verwaltungs-BPjecto (Very FAct 2) in Spain GA",
+      "description": "Spanish e-invoicing requirement now generally available, with documentation available and standalone installation via AppSource for those who uninstall the feature.",
+      "status": "ga",
+      "status_evidence_t": 475.9,
+      "status_evidence_quote": "Very fact two enablement in Spain is now in GA",
+      "status_evidence_verified": true,
+      "t_start": 462.2,
+      "t_end": 486.2,
+      "is_demoed": false,
+      "caveats": [
+        "Mandatory from beginning of next year"
+      ],
+      "tags": [
+        "localization",
+        "spain",
+        "e-invoicing"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Invoicing for France GA",
+      "description": "French e-invoicing functionality now generally available.",
+      "status": "ga",
+      "status_evidence_t": 497.8,
+      "status_evidence_quote": "we introduce invoicing for France. It will be in GA as well",
+      "status_evidence_verified": true,
+      "t_start": 497.8,
+      "t_end": 511.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "localization",
+        "france",
+        "e-invoicing"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Payment terms expansion for Australia and Great Britain",
+      "description": "Enhanced payment terms rules for Australia and Great Britain localizations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 497.8,
+      "t_end": 511.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "localization",
+        "payment terms"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Intrastat reporting for Germany",
+      "description": "New structured intrastat reporting in Germany based on updated intrastat core rules.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 511.6,
+      "t_end": 523.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "localization",
+        "germany",
+        "intrastat"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Fully structured address for QR invoicing in Switzerland",
+      "description": "QR invoicing in Switzerland now supports fully structured address format.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 511.6,
+      "t_end": 523.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "localization",
+        "switzerland",
+        "qr-invoicing"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "EU BP audit file export for Germany",
+      "description": "Ability to export EU BP files using audit file export functionality, specific to German localization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 523.2,
+      "t_end": 540.6,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in November or December"
+      ],
+      "tags": [
+        "localization",
+        "germany",
+        "audit",
+        "eu-bp"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "SFT enablement for Austria and Iceland",
+      "description": "Standard SFT functionality now enabled for Austria and Iceland localizations starting in December.",
+      "status": "announced",
+      "status_evidence_t": 540.6,
+      "status_evidence_quote": "we will enable SFT in Austria and Iceland starting from December. It will be standard functionality",
+      "status_evidence_verified": true,
+      "t_start": 540.6,
+      "t_end": 551.9,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in December"
+      ],
+      "tags": [
+        "localization",
+        "austria",
+        "iceland",
+        "sft"
+      ],
+      "system": "localization"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Unknown presenter",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 54.8,
+      "text": "in previous version on the left side you could add only one excise per item. And it was a problem.",
+      "why_it_matters": "Documents the limitation that prompted the multiple excise taxes per item feature.",
+      "check": "exact"
+    },
+    {
+      "t": 92.5,
+      "text": "if you already started to use excise taxes in the previous wave, system will automatically upgrade existing configuration to this new table and new",
+      "why_it_matters": "Clarifies the automatic migration path for existing excise tax data, eliminating manual work.",
+      "check": "exact"
+    },
+    {
+      "t": 201,
+      "text": "it is calculated per uh amount. So you need to calculate uh percent of amount to get uh excise.",
+      "why_it_matters": "Defines the ad valorem tax calculation method that handles percentage-based duties on amount.",
+      "check": "exact"
+    },
+    {
+      "t": 276.8,
+      "text": "now you have an option, if you have multiple vendors for self-billing, you can select specific number series for each of them",
+      "why_it_matters": "Highlights the new vendor-specific self-billing number series capability.",
+      "check": "exact"
+    },
+    {
+      "t": 361.1,
+      "text": "Especially when you have an example multiple localizations, so you must have multiple environment if you have multiple localizations. So, now you can enable",
+      "why_it_matters": "Explains the use case and benefit of cross-environment master data management for multi-localization scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 417.6,
+      "text": "when you select employees as a business posting group, then you will have different calculations. You can choose gross or net calculation",
+      "why_it_matters": "Documents the flexible withholding tax calculation options for employees.",
+      "check": "exact"
+    },
+    {
+      "t": 475.9,
+      "text": "Very fact two enablement in Spain is now in GA. So, you can use very fact two.",
+      "why_it_matters": "Confirms Spanish e-invoicing requirement is now generally available and ready for production use.",
+      "check": "exact"
+    },
+    {
+      "t": 523.2,
+      "text": "in November, December, we will deliver two more features. One is really important for Germany. This is about EU BP.",
+      "why_it_matters": "Signals upcoming localization features with specific delivery timeline.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 104.2,
+      "kind": "coming-later",
+      "text": "This is something what is coming in November minor, two new features."
+    },
+    {
+      "t": 315.1,
+      "kind": "preview",
+      "text": "only an overview, cross environment master data management, I will not go deep. As I said, we have deep dive session about that"
+    },
+    {
+      "t": 475.9,
+      "kind": "preview",
+      "text": "Because it will be mandatory from the beginning of next year."
+    },
+    {
+      "t": 540.6,
+      "kind": "coming-later",
+      "text": "in November, December, we will deliver two more features"
+    },
+    {
+      "t": 551.9,
+      "kind": "subject-to-change",
+      "text": "this is maybe not everything what we deliver in finance"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 5,
+    "evidence_unverified": 11
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.042058
+    }
+  ]
+}

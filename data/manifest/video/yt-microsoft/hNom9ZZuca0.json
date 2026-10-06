@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=hNom9ZZuca0",
   "published_at": "2026-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,39 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T13:05:10.211Z",
+      "path": "data/extract/video/hNom9ZZuca0.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 10,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.037933
+    },
+    "summarized": {
+      "at": "2026-10-06T13:05:19.543Z",
+      "path": "data/summary/video/hNom9ZZuca0.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.045010400000000006
+    },
+    "linked": {
+      "at": "2026-10-06T13:05:19.544Z",
+      "systems": [
+        "development",
+        "platform"
+      ],
+      "topics": 10,
+      "objects_as_heard": 2
+    },
+    "published": {
+      "at": "2026-10-06T13:05:19.545Z",
+      "path": "content/videos/hNom9ZZuca0.md"
     }
   },
   "input_hash": null,
@@ -35,5 +68,6 @@
     "seed_file": "2026-10-01 - BCLE - What's new： Testability Enhancements (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "2b45f982605f93dd978a55c5c7ced4c6d8290caba5a850fda941825b06da984a"
 }

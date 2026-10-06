@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-table-object.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object",
+  "title": "Table object",
+  "blob": "7ef1fabb5248679f8563e1516982fb52feb9362e",
+  "summary": "Table object defines the core structure and syntax for storing data in Business Central, including fields, keys, triggers, and metadata with limitations and extensibility rules.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "table structure",
+    "field definition",
+    "table keys",
+    "default values",
+    "field validation",
+    "table extensibility",
+    "system fields",
+    "text search"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Address"
+    }
+  ],
+  "features": [
+    "InitValue property",
+    "OnValidate trigger",
+    "OptimizeForTextSearch property",
+    "Tooltips on fields",
+    "Extensible property",
+    "Integer to BigInteger migration",
+    "table limits"
+  ],
+  "versions": [
+    "2024 release wave 1",
+    "2024 release wave 2",
+    "2026 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01272,
+      "pages_in_call": 3
+    }
+  ]
+}

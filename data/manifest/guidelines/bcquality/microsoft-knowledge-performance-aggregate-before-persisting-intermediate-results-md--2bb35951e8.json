@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "aggregate before persisting intermediate results",
+  "title": "Aggregate source rows before persisting completed results",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/aggregate-before-persisting-intermediate-results.md",
   "published_at": "2026-09-29T15:21:28.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:16:13.647Z",
+      "blob": "bdff7ca465e66db9d1433dddf221f218017a46f0",
+      "words": 265,
+      "forms": 0
     }
   },
   "input_hash": "bdff7ca465e66db9d1433dddf221f218017a46f0",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/aggregate-before-persisting-intermediate-results.md"
-  }
+    "path": "microsoft/knowledge/performance/aggregate-before-persisting-intermediate-results.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 265
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bdff7ca465e66db9d1433dddf221f218017a46f0"
 }

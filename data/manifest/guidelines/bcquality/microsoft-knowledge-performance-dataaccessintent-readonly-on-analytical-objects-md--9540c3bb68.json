@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "dataaccessintent readonly on analytical objects",
+  "title": "Set DataAccessIntent ReadOnly on analytical objects",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.385Z",
+      "blob": "943242d8653804454d7b59c2552c702afb8c0a6b",
+      "words": 206,
+      "forms": 0
     }
   },
   "input_hash": "943242d8653804454d7b59c2552c702afb8c0a6b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.md"
-  }
+    "path": "microsoft/knowledge/performance/dataaccessintent-readonly-on-analytical-objects.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 206
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "943242d8653804454d7b59c2552c702afb8c0a6b"
 }

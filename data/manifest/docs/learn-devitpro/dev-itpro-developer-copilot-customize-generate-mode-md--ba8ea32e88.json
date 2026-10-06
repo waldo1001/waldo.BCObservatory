@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-customize-generate-mode",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cd6753f82e51c2a7d6ca75a9309197611c7fef05",
       "words": 334,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:28:30.322Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006307
+    },
+    "summarized": {
+      "at": "2026-10-06T13:28:30.368Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:28:30.368Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:28:30.369Z",
+      "page": false
     }
   },
   "input_hash": "cd6753f82e51c2a7d6ca75a9309197611c7fef05",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cd6753f82e51c2a7d6ca75a9309197611c7fef05"
+  "output_hash": "1e67d288ba6bc6b2d03a44edadd3653fdf368187361ef908b0aa7ac5646ae4c6"
 }

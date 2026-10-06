@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "fieldcaption not fieldname in user messages",
+  "title": "Use FieldCaption/TableCaption (not FieldName/TableName) in user-facing text",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/fieldcaption-not-fieldname-in-user-messages.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.762Z",
+      "blob": "6a71f4c8705ba60f7ad5e885c6c04a063b881f73",
+      "words": 184,
+      "forms": 0
     }
   },
   "input_hash": "6a71f4c8705ba60f7ad5e885c6c04a063b881f73",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/style/fieldcaption-not-fieldname-in-user-messages.md"
-  }
+    "path": "microsoft/knowledge/style/fieldcaption-not-fieldname-in-user-messages.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 184
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6a71f4c8705ba60f7ad5e885c6c04a063b881f73"
 }

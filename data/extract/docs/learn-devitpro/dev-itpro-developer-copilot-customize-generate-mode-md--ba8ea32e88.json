@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/copilot-customize-generate-mode.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-customize-generate-mode",
+  "title": "Customize generate mode caption in Copilot",
+  "blob": "cd6753f82e51c2a7d6ca75a9309197611c7fef05",
+  "summary": "The generate mode caption of a PromptDialog page can be customized using Dialog.Open() or Dialog.Update() methods to provide users with specific feedback about Copilot's progress and actions.",
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "prompt dialog",
+    "generate mode",
+    "copilot ui",
+    "user feedback",
+    "dialog methods"
+  ],
+  "objects": [],
+  "features": [
+    "generate mode caption",
+    "Dialog.Open()",
+    "Dialog.Update()",
+    "progress feedback",
+    "multi-step copilot"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006307,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "privacy notice consent for external data transfer",
+  "title": "Check the custom Privacy Notice before external data transfer",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/privacy-notice-consent-for-external-data-transfer.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.556Z",
+      "blob": "8c3898d2359bc7666886d521d1cdf3c1ee34e368",
+      "words": 147,
+      "forms": 0
     }
   },
   "input_hash": "8c3898d2359bc7666886d521d1cdf3c1ee34e368",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/privacy/privacy-notice-consent-for-external-data-transfer.md"
-  }
+    "path": "microsoft/knowledge/privacy/privacy-notice-consent-for-external-data-transfer.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 147
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8c3898d2359bc7666886d521d1cdf3c1ee34e368"
 }

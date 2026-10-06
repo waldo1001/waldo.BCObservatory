@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-sales-validation",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "94f94acae3f344e066b52269837c4492e5e07199",
       "words": 763,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:20:57.253Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.006455
+    },
+    "summarized": {
+      "at": "2026-10-06T13:21:35.453Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:21:35.453Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:21:35.453Z",
+      "page": false
     }
   },
   "input_hash": "94f94acae3f344e066b52269837c4492e5e07199",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "94f94acae3f344e066b52269837c4492e5e07199"
+  "output_hash": "36ba92dbe48315cd37acc6da64166518b4a464dc7da0b2d60d585b3dd2a8de2e"
 }

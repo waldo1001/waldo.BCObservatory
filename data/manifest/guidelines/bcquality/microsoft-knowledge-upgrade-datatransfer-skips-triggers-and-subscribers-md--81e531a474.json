@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "datatransfer skips triggers and subscribers",
+  "title": "`DataTransfer` does not fire validation triggers or event subscribers",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/datatransfer-skips-triggers-and-subscribers.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.973Z",
+      "blob": "33173dacf64d6eb0310ee67728ad449cb18c4401",
+      "words": 239,
+      "forms": 0
     }
   },
   "input_hash": "33173dacf64d6eb0310ee67728ad449cb18c4401",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/upgrade/datatransfer-skips-triggers-and-subscribers.md"
-  }
+    "path": "microsoft/knowledge/upgrade/datatransfer-skips-triggers-and-subscribers.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 239
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "33173dacf64d6eb0310ee67728ad449cb18c4401"
 }

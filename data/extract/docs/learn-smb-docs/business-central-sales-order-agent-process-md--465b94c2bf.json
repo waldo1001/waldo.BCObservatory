@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-order-agent-process.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-process",
+  "title": "Process sales quotes and orders with Sales Order Agent",
+  "blob": "a5a38b2ff1658bd61423b7853689df94ecdc39b5",
+  "summary": "Sales Order Agent automates converting customer emails about product inquiries into sales quotes and orders, with user intervention at key steps like reviewing emails, confirming quotes, checking availability, and assisting when the agent needs unblocking.",
+  "systems": [
+    "sales",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "sales order agent",
+    "email automation",
+    "sales quotes",
+    "sales orders",
+    "task management",
+    "customer communication"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Tasks"
+    }
+  ],
+  "features": [
+    "Email monitoring and categorization",
+    "Automatic customer identification",
+    "Sales quote generation",
+    "Task timeline tracking",
+    "Review and confirmation workflow",
+    "Email draft generation",
+    "Performance KPI summary",
+    "Task stop and resume capabilities"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01234,
+      "pages_in_call": 2
+    }
+  ]
+}

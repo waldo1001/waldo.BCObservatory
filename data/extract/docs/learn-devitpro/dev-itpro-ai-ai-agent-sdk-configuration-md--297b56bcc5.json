@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-configuration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-configuration",
+  "title": "Configure agents programmatically (preview)",
+  "blob": "cc86fb7a1ad09b41dc518f1777523d96c175fa93",
+  "summary": "Describes how to configure agent instances programmatically using the Agent codeunit, including lifecycle management, permissions, instructions, and identity settings. Use this when building custom agent setup workflows or creating agents through automation outside the UI.",
+  "systems": [
+    "copilot",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "agent configuration",
+    "agent sdk",
+    "programmatic setup",
+    "agent permissions",
+    "agent instructions",
+    "agent lifecycle"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Agent"
+    },
+    {
+      "type": "interface",
+      "name": "IAgentArchiving"
+    },
+    {
+      "type": "table",
+      "name": "Access Control Buffer"
+    },
+    {
+      "type": "table",
+      "name": "Agent Access Control"
+    }
+  ],
+  "features": [
+    "Agent.Archive",
+    "Agent.IsArchived",
+    "Agent.SetInstructions",
+    "Agent.SetDisplayName",
+    "Agent.SetProfile",
+    "Agent.UpdateLocalizationSettings",
+    "Agent.UpdateAccessControl",
+    "Agent.Activate",
+    "Agent.Deactivate",
+    "Agent.Create"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.018752,
+      "pages_in_call": 2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-develop-connect-apps.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps",
+  "title": "Get started developing Connect apps for Dynamics 365 Business Central",
+  "blob": "1741051e20f3b2fdc233fa03e3a7fece546f6ba1",
+  "summary": "Get started developing Connect apps that use REST APIs to integrate Business Central with external services. Covers authentication setup (Microsoft Entra ID and basic auth), API exploration with Insomnia, and making API calls.",
+  "systems": [
+    "integration",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "rest api",
+    "connect apps",
+    "authentication",
+    "oauth",
+    "entra id",
+    "basic auth",
+    "insomnia"
+  ],
+  "objects": [],
+  "features": [
+    "Microsoft Entra ID authentication",
+    "Basic authentication",
+    "OAuth 2.0",
+    "Web service access key",
+    "Insomnia REST client",
+    "API endpoints",
+    "Common API endpoint"
+  ],
+  "versions": [
+    "2022 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019299,
+      "pages_in_call": 2
+    }
+  ]
+}

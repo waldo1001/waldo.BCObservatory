@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=4TE8uwIi91k",
   "published_at": "2026-10-01T13:04:13.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -25,6 +25,39 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T12:52:30.825Z",
+      "path": "data/extract/video/4TE8uwIi91k.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 8,
+      "quotes": 8,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.031996
+    },
+    "summarized": {
+      "at": "2026-10-06T12:52:38.968Z",
+      "path": "data/summary/video/4TE8uwIi91k.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0427466
+    },
+    "linked": {
+      "at": "2026-10-06T12:52:38.969Z",
+      "systems": [
+        "finance",
+        "copilot"
+      ],
+      "topics": 8,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T12:52:38.986Z",
+      "path": "content/videos/4TE8uwIi91k.md"
     }
   },
   "input_hash": null,
@@ -35,5 +68,6 @@
     "seed_file": "2026-10-01 - BCLE - What's new in Expense Agent： Mobile App ( Preview) (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "0640d9f1017016de32fd25ddf138a7adb4829b962fc6efc86128294108cac39c"
 }

@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "get default access controls least privilege",
+  "title": "Default agent permission sets must exist in AL and stay least privilege",
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/agents/get-default-access-controls-least-privilege.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:36:41.472Z",
+      "blob": "c82f71af95ff7a37fc71487f34e12e17a3135288",
+      "words": 180,
+      "forms": 0
     }
   },
   "input_hash": "c82f71af95ff7a37fc71487f34e12e17a3135288",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "community/knowledge/agents/get-default-access-controls-least-privilege.md"
-  }
+    "path": "community/knowledge/agents/get-default-access-controls-least-privilege.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 180
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c82f71af95ff7a37fc71487f34e12e17a3135288"
 }

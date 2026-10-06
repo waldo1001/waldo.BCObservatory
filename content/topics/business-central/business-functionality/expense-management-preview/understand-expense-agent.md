@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/expense-management-preview/understand-expense-agent
 type: topic
 title: Understand Expense Agent
-summary: "Learn section Business functionality > Expense management (preview) > Understand Expense Agent: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Expense Agent in Business Central (preview) is an AI agent that automates the expense lifecycle, from receipt intake to draft expense reports. This section answers questions about what it does, how it processes emails, how policy compliance is checked, and its responsible AI limits.
 tier: official
 language: en
 system: copilot
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T13:43:32.763Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 375de4a315699a34de1f7ac5a6fc1bce17c465ddc78f1155b698a1e75923fd09
+  prompts:
+    hub-topic: 1
+  input_hash: 57f7edb44c6c54e272d33394eee6a594e1b5042cfd4f2499101d7d6c6e8605e9
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent
@@ -77,14 +78,33 @@ bc_forms:
   - 4410
   - 6996
 member_hash: 375de4a315699a34de1f7ac5a6fc1bce17c465ddc78f1155b698a1e75923fd09
-narrative: none
+narrative: generated
 ---
 
 # Understand Expense Agent
 
-> Learn section Business functionality > Expense management (preview) > Understand Expense Agent: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Expense Agent in Business Central (preview) is an AI agent that automates the expense lifecycle, from receipt intake to draft expense reports. This section answers questions about what it does, how it processes emails, how policy compliance is checked, and its responsible AI limits.
 
-Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Understand Expense Agent · tier official · system copilot · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Understand Expense Agent · tier official · system copilot · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+Expense Agent is an AI-powered agent that takes receipts from the web app, mobile app, or email, extracts the data, categorizes and itemizes expenses, creates expense reports, and prepares them for approval and posting in Business Central. It also supports per diem and mileage calculation.
+
+The four pages cover different angles. The overview describes the full lifecycle and features. The email page explains how the agent monitors a configured mailbox, detects receipts and credit card statements, creates expenses, groups them by reporting period, and sends confirmations and reminders. The policy compliance page explains how deterministic Business Central rules differ from AI-evaluated natural-language policies. The Responsible AI FAQ covers capabilities, limitations, safety, and feedback.
+
+Start with the overview to get the scope, then read the email page if intake is by mailbox, and the policy compliance page if you need to know how violations are flagged. Read the Responsible AI FAQ to understand that drafts are reviewed by a human before posting.
+
+## Key points
+
+- Expense Agent handles receipt intake from web app, mobile app, or email, then extraction, categorization, itemization, and expense report creation.
+- It supports per diem calculation and mileage tracking and calculation.
+- Email processing: the agent monitors a configured mailbox, detects receipts and credit card statements, and creates expenses automatically.
+- Expenses are grouped into reports by reporting period; the agent sends confirmation emails and open report reminders.
+- Policy compliance separates deterministic Business Central rule checks from AI-assisted evaluation of natural-language policies.
+- Compliance indicators flag expenses with rule violations or potential policy issues; policy evaluation is configurable and includes privacy protection.
+- The agent produces draft reports for human review before posting; the feature is in preview.
+- The Responsible AI FAQ describes capabilities, limitations, safety features, and feedback mechanisms.
 
 ## Learn pages
 

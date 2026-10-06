@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/copilot-design-content-mode.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-design-content-mode",
+  "title": "Design content mode of prompt dialog page",
+  "blob": "a6b99e09f9cb9d1fed465a774f5aac4351cc7d5a",
+  "summary": "Design the content mode of a PromptDialog page to display AI-generated output and enable users to review, regenerate, save, or discard proposals.",
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "copilot ui",
+    "promptdialog",
+    "content mode",
+    "ai-generated output",
+    "proposal history"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "PromptDialog"
+    }
+  ],
+  "features": [
+    "content area",
+    "save and discard actions",
+    "regenerate action",
+    "caption customization",
+    "proposal history carousel",
+    "version history"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020835,
+      "pages_in_call": 1
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 id: topic/business-central/copilot-and-agent-capabilities/analysis-assist
 type: topic
 title: Analysis assist
-summary: "Learn section Copilot and agent capabilities > Analysis assist: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Analysis assist is a Copilot preview feature in Business Central that turns natural language instructions into analysis views on list pages. The section answers what it does, how to ask Copilot for analysis tabs with rows, columns, filters and aggregations, and common questions about it.
 tier: official
 language: en
 system: copilot
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T13:43:32.763Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 54ec8d5ebfec23dd9757f32242aec520f3344a900b5d6c807bd8c6428e7c9e31
+  prompts:
+    hub-topic: 1
+  input_hash: 8874fae5caf36e9d227b93060c88cf4a65397098fec85f54a19b970eb5c9f3b4
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/analysis-assist
@@ -81,14 +82,32 @@ bc_forms:
   - 9310
   - 9311
 member_hash: 54ec8d5ebfec23dd9757f32242aec520f3344a900b5d6c807bd8c6428e7c9e31
-narrative: none
+narrative: generated
 ---
 
 # Analysis assist
 
-> Learn section Copilot and agent capabilities > Analysis assist: 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Analysis assist is a Copilot preview feature in Business Central that turns natural language instructions into analysis views on list pages. The section answers what it does, how to ask Copilot for analysis tabs with rows, columns, filters and aggregations, and common questions about it.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Analysis assist · tier official · system copilot · no narrative yet
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Analysis assist · tier official · system copilot · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+Analysis assist uses Copilot to simplify data analysis on list pages. Instead of building an analysis view by hand, a user describes what they want in natural language, and Copilot suggests a layout in analysis mode. This helps people organize and summarize data without technical skills. Both pages describe the feature as a preview.
+
+The section has two pages and no subtopics. "Analyze data in lists with Copilot (preview)" explains the capability: asking Copilot to create analysis tabs with rows, columns, filters and aggregations, including fields from related tables. "FAQs for analysis assist (preview)" covers general questions about how the feature works and how Copilot responses are produced.
+
+Start with the analyze data in lists page to understand what you can ask for, then read the FAQs for background on how analysis assist behaves.
+
+## Key points
+
+- Analysis assist is a Copilot feature, marked as preview in both pages.
+- It works on list pages and builds on Business Central's data analysis mode.
+- Users give natural language instructions and Copilot suggests a layout.
+- Copilot can generate analysis tabs with rows, columns, filters and aggregations.
+- Suggested layouts can include fields from related tables.
+- The goal is to let users organize and summarize data without technical skills.
+- The section has two pages: a how-to for analyzing lists and an FAQ.
 
 ## Learn pages
 

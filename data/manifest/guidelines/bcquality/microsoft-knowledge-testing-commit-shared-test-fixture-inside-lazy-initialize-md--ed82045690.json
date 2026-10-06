@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "commit shared test fixture inside lazy initialize",
+  "title": "Commit shared fixture data created inside a lazy Initialize(), or later tests lose it",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/commit-shared-test-fixture-inside-lazy-initialize.md",
   "published_at": "2026-09-29T15:13:06.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:21:35.459Z",
+      "blob": "7ec16dff274bd04bcad5c467d8dc5039190f8bce",
+      "words": 762,
+      "forms": 0
     }
   },
   "input_hash": "7ec16dff274bd04bcad5c467d8dc5039190f8bce",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/testing/commit-shared-test-fixture-inside-lazy-initialize.md"
-  }
+    "path": "microsoft/knowledge/testing/commit-shared-test-fixture-inside-lazy-initialize.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 762
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7ec16dff274bd04bcad5c467d8dc5039190f8bce"
 }

@@ -1,0 +1,74 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-tasks.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-tasks",
+  "title": "Managing agent tasks programmatically (preview)",
+  "blob": "6b7fda5c0b7df2b6f6eb1fc88291255610a33901",
+  "summary": "Creating and managing agent tasks programmatically through AL code, including creating tasks from page actions, business events, and email triggers, adding attachments, and controlling task lifecycle.",
+  "systems": [
+    "copilot",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "agent tasks",
+    "al code",
+    "integration patterns",
+    "task management",
+    "attachments",
+    "email triggers",
+    "approval workflows"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Agent Task Builder"
+    },
+    {
+      "type": "codeunit",
+      "name": "Agent Task Message Builder"
+    },
+    {
+      "type": "codeunit",
+      "name": "Agent Task"
+    },
+    {
+      "type": "codeunit",
+      "name": "Agent Session"
+    },
+    {
+      "type": "table",
+      "name": "Agent Task"
+    },
+    {
+      "type": "enum",
+      "name": "Agent Metadata Provider"
+    },
+    {
+      "type": "interface",
+      "name": "IAgentTaskExecution"
+    }
+  ],
+  "features": [
+    "task creation from actions",
+    "business event integration",
+    "email simulation",
+    "attachment handling",
+    "message tracking",
+    "external ID tracking",
+    "task status management",
+    "approval skipping"
+  ],
+  "versions": [
+    "28.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0104,
+      "pages_in_call": 3
+    }
+  ]
+}

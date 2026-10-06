@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/copilot-design-prompt-mode.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-design-prompt-mode",
+  "title": "Design the prompt mode of prompt dialog page",
+  "blob": "cce2f0630852bbe8894519074b1beda670715795",
+  "summary": "Design the prompt mode UI for PromptDialog pages where users provide input to Copilot. Configure the prompt area with fields, add placeholder text with InstructionalText, create prompt guides for predefined prompts, and implement generate and file attachment actions.",
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "prompt dialog",
+    "copilot ui",
+    "prompt mode",
+    "user experience",
+    "instructional text",
+    "prompt guides",
+    "system actions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "PromptDialog"
+    }
+  ],
+  "features": [
+    "prompt area",
+    "placeholder text",
+    "prompt guides",
+    "generate action",
+    "file attachment",
+    "preference options"
+  ],
+  "versions": [
+    "2024 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006991,
+      "pages_in_call": 5
+    }
+  ]
+}

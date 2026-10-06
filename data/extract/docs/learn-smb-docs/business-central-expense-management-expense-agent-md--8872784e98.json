@@ -1,0 +1,71 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-agent.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent",
+  "title": "Expense Agent overview for Business Central",
+  "blob": "6a97a00d68b78ef0d75814d89111e5d216712275",
+  "summary": "Expense Agent is an AI-powered agent that automates the complete expense lifecycle: receipt intake from web app, mobile app, or email; data extraction; categorization and itemization; expense report creation; and preparation for approval and posting in Business Central.",
+  "systems": [
+    "copilot",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "expense automation",
+    "receipt processing",
+    "ai agent",
+    "categorization",
+    "itemization",
+    "per diem",
+    "mileage",
+    "approval workflow"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Expense"
+    },
+    {
+      "type": "table",
+      "name": "Expense Report"
+    },
+    {
+      "type": "table",
+      "name": "Expense Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Employee Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Detailed Employee Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Project Ledger Entry"
+    }
+  ],
+  "features": [
+    "Automated receipt intake",
+    "AI data extraction",
+    "Expense categorization and subcategorization",
+    "Itemization support",
+    "Per diem calculation",
+    "Mileage tracking and calculation",
+    "Participant management",
+    "Policy evaluation",
+    "Automated workflow",
+    "Posting and reimbursement"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009249,
+      "pages_in_call": 3
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/business-central/business-functionality/expense-management-preview/work-with-expenses-in-business-central",
+  "input_hash": "2eb697dda51c98749a9a6312bf334e91ac1360ababe5bb7236de5afaa504374e",
+  "summary": "Expense management (preview) in Business Central covers the full expense lifecycle: creating expenses, travel requests, expense reports, approval, VAT reclaim review, and posting. It answers how-to questions about each step from entry to the general ledger.",
+  "overview": "This section walks through the expense process in order. Employees create individual expenses with category, date, receipt, itemizations, participants, mileage or per diem details. They then collect those expenses on an expense report, review rule violations, optionally link a travel request, and release the report for approval.\n\nTravel requests record planned travel and costs for review before expenses are incurred, and can be linked to an expense report so planned and actual spending can be compared. Managers and accountants then approve the report against policy and VAT reclaim rules, with separate workflows for approval and VAT verification. Finally, approved reports are posted to the general ledger.\n\nStart with the page on creating and managing expenses if you are an employee, or with the review and approval page if you are a manager or accountant. The posting page is the place for accounting questions about the resulting ledger entries.",
+  "key_points": [
+    "Expenses have a card with category and date, receipt attachment and preview, itemizations with subcategories, and participants for business meals.",
+    "Mileage expenses use vehicle types, and per diem is calculated by location.",
+    "Expense reports are created, filled with expense lines, checked for rule violations, optionally linked to a travel request, and released for approval.",
+    "Travel requests record planned travel and costs, track status, include travel policy acknowledgment and international travel, and are described for version 29.",
+    "Travel requests can be linked to expense reports to compare planned and actual spending.",
+    "Approvers review policy compliance, rule violations, receipts and report statistics; VAT reclaim review and VAT specification approval are separate workflows.",
+    "Posting previews entries first and requires verifying VAT reclaim status.",
+    "Posted results include expense ledger entries, employee ledger entries (reimbursement), general ledger entries and project ledger entries."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-06T13:39:23.598Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.039653
+  }
+}

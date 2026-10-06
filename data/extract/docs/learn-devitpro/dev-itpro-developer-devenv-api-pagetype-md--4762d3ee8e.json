@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-api-pagetype.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api-pagetype",
+  "title": "API page type",
+  "blob": "ea39877c9d36c7470f109b31c736009561b0d70d",
+  "summary": "API page type creates versioned, webhook-supported OData v4 REST web services for reliable integration services with support for create, read, update, and delete operations.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "api page",
+    "web service",
+    "odata",
+    "rest",
+    "custom api",
+    "integration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "API page type"
+    }
+  ],
+  "features": [
+    "API pages",
+    "OData v4",
+    "webhook support",
+    "CRUD operations",
+    "versioning",
+    "InsertAllowed",
+    "ModifyAllowed",
+    "DeleteAllowed"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008967,
+      "pages_in_call": 3
+    }
+  ]
+}

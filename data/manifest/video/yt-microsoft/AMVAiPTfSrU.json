@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "How 3 Partners are Building Powerful Agents for Business Central",
   "url": "https://www.youtube.com/watch?v=AMVAiPTfSrU",
-  "published_at": null,
+  "published_at": "2026-05-27T14:16:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:16:39.364Z",
+      "captions": "auto:en-orig",
+      "duration_s": 171
+    },
+    "captioned": {
+      "at": "2026-10-06T13:16:48.317Z",
+      "path": "data/captions/microsoft/AMVAiPTfSrU.vtt",
+      "vtt_sha256": "5cbd4e7c4466abb58cbba336fbbde287ec244c39d0145a48acd1a77a63e4bf02",
+      "segments": 12,
+      "words": 394,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 63,
     "duration_s": 171,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5cbd4e7c4466abb58cbba336fbbde287ec244c39d0145a48acd1a77a63e4bf02"
 }

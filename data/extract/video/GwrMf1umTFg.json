@@ -1,0 +1,303 @@
+{
+  "video_id": "GwrMf1umTFg",
+  "item_id": "video/yt-microsoft/GwrMf1umTFg",
+  "title": "What's new in Expense Agent: Project Handling (2026 release wave 2)",
+  "duration_s": 409,
+  "systems": [
+    "copilot",
+    "projects",
+    "finance"
+  ],
+  "topics": [
+    "expense agent",
+    "project tracking",
+    "project assignment",
+    "resource assignment",
+    "project visibility",
+    "web app",
+    "project ledger entries",
+    "employee resources"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview of Expense Agent project features",
+      "t_start": 0,
+      "t_end": 22.7
+    },
+    {
+      "title": "Project ledger entries in first release",
+      "t_start": 22.7,
+      "t_end": 37.4
+    },
+    {
+      "title": "Project tracking setup and visibility options",
+      "t_start": 37.4,
+      "t_end": 93.1
+    },
+    {
+      "title": "Configuration requirements - resources and employee assignments",
+      "t_start": 93.1,
+      "t_end": 166.6
+    },
+    {
+      "title": "Demo setup in Business Central",
+      "t_start": 166.6,
+      "t_end": 210.6
+    },
+    {
+      "title": "Web app expense creation and project assignment",
+      "t_start": 210.6,
+      "t_end": 286.4
+    },
+    {
+      "title": "Business Central posting and project details review",
+      "t_start": 286.4,
+      "t_end": 339.6
+    },
+    {
+      "title": "Assigned resources configuration and project visibility",
+      "t_start": 339.6,
+      "t_end": 385.6
+    },
+    {
+      "title": "Summary and conclusion",
+      "t_start": 385.6,
+      "t_end": 409
+    }
+  ],
+  "features": [
+    {
+      "name": "Project tracking in Expense Agent web app",
+      "description": "New capability to assign projects to expenses in the web app. Users can enable project tracking through Expense Agent setup and choose between all projects or assigned projects visibility.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 37.4,
+      "t_end": 93.1,
+      "is_demoed": true,
+      "caveats": [
+        "requires project tracking to be enabled in setup",
+        "two visibility options must be chosen",
+        "requires resource creation for employees"
+      ],
+      "tags": [
+        "project-tracking",
+        "setup",
+        "visibility"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Project visibility options - all projects vs assigned projects",
+      "description": "When enabling project tracking, users can choose to show all projects to all users, or only assigned projects to limit visibility for hundreds of projects or confidential projects.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 53.1,
+      "t_end": 78,
+      "is_demoed": true,
+      "caveats": [
+        "choosing assigned projects requires additional configuration",
+        "all projects shows everything to all users"
+      ],
+      "tags": [
+        "visibility",
+        "configuration",
+        "project-filtering"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Project resource assignment on project card",
+      "description": "New assigned resources section on the project card allows administrators to select which resources (employees) can see and work with specific projects in the web app.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 106.5,
+      "t_end": 116.8,
+      "is_demoed": true,
+      "caveats": [
+        "requires resources to be created for employees first",
+        "can be configured per project or per task"
+      ],
+      "tags": [
+        "resource-assignment",
+        "project-card",
+        "configuration"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Project task level resource assignment",
+      "description": "Users can assign resources to specific project task lines, allowing employees to see only the tasks they are assigned to rather than all tasks in a project.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 127,
+      "t_end": 142.1,
+      "is_demoed": true,
+      "caveats": [
+        "more granular configuration than project-level assignment"
+      ],
+      "tags": [
+        "task-assignment",
+        "granular-control"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Resource creation and employee linking prerequisites",
+      "description": "To use project assignment features, administrators must create resources for employees and link them on the employee card by selecting a resource number.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 154.6,
+      "t_end": 166.6,
+      "is_demoed": true,
+      "caveats": [
+        "both steps are mandatory prerequisites",
+        "resource number must be selected on employee card"
+      ],
+      "tags": [
+        "prerequisites",
+        "resource-setup",
+        "employee-linking"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Active projects and posting tasks filter",
+      "description": "When viewing projects in the web app, only active projects are shown, and only project tasks that are enabled for posting (excluding beginning and end of period tasks) are available for selection.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 265.6,
+      "t_end": 275.9,
+      "is_demoed": true,
+      "caveats": [
+        "filtering is automatic based on project status",
+        "beginning and end of period tasks are filtered out"
+      ],
+      "tags": [
+        "project-filtering",
+        "posting-tasks"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Project ledger entry creation on expense posting",
+      "description": "When an expense report with a project assignment is posted, project ledger entries are automatically created in Business Central with the project and project task details.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 22.7,
+      "t_end": 327.2,
+      "is_demoed": true,
+      "caveats": [
+        "only created when expense is posted",
+        "requires project and task assignment on expense"
+      ],
+      "tags": [
+        "posting",
+        "project-ledger"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Expense Agent setup",
+      "t": 189.8
+    },
+    {
+      "type": "page",
+      "name": "project card",
+      "t": 106.5
+    },
+    {
+      "type": "page",
+      "name": "employee card",
+      "t": 154.6
+    },
+    {
+      "type": "table",
+      "name": "project ledger entries",
+      "t": 22.7
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 22.7,
+      "text": "once when you post expense report, we will get created project ledger entries as well.",
+      "why_it_matters": "Establishes that project ledger entries are automatically created when expense reports are posted, a core feature of the integration.",
+      "check": "exact"
+    },
+    {
+      "t": 37.4,
+      "text": "you wanted to use projects in a web app. So, we enabled this option.",
+      "why_it_matters": "Confirms that using projects in the Expense Agent web app is a new capability added in this release based on customer feedback.",
+      "check": "exact"
+    },
+    {
+      "t": 53.1,
+      "text": "when you enable project tracking, you have two options. You can choose all projects or assigned projects.",
+      "why_it_matters": "Defines the two visibility modes available for project filtering in the web app.",
+      "check": "exact"
+    },
+    {
+      "t": 63.8,
+      "text": "it can happen that you have hundreds of projects and it will not be easy to find the right one you want to use",
+      "why_it_matters": "Explains the motivation for having an assigned projects option - practical scalability when managing large numbers of projects.",
+      "check": "exact"
+    },
+    {
+      "t": 106.5,
+      "text": "you will find assigned resources. In assigned resources, you can select resources you want to uh assign to these projects",
+      "why_it_matters": "Describes the new assigned resources section on the project card that enables administrator control over who can see which projects.",
+      "check": "exact"
+    },
+    {
+      "t": 154.6,
+      "text": "First, you need to create a resource for your uh employees. They need to have created resource.",
+      "why_it_matters": "Identifies a mandatory prerequisite - resources must exist before employees can be assigned to projects.",
+      "check": "exact"
+    },
+    {
+      "t": 252.9,
+      "text": "I'm assigned only to one project. So, I can choose this one",
+      "why_it_matters": "Demonstrates that in the web app, users see only projects they are assigned to when using the assigned projects visibility option.",
+      "check": "exact"
+    },
+    {
+      "t": 316.1,
+      "text": "In a show billable information, you can find project I assign and project task. So, everything is here.",
+      "why_it_matters": "Shows that project and project task details are visible in the billable information section of the expense posting preview.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0349989
+    }
+  ]
+}

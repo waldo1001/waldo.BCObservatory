@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/faqs-summarize.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-summarize",
+  "title": "Responsible AI FAQ for summarize (preview)",
+  "blob": "4cdbf2cd39abb8d7e0dfd3e89a851e72e3bdd0ed",
+  "summary": "Responsible AI FAQ explaining Copilot's summarize feature, which generates AI-powered summaries of records in Business Central to highlight key insights and urgent information while respecting user data permissions.",
+  "systems": [
+    "copilot",
+    "reporting"
+  ],
+  "topics": [
+    "responsible ai",
+    "copilot",
+    "summarize",
+    "data permissions",
+    "ai limitations",
+    "content safety"
+  ],
+  "objects": [],
+  "features": [
+    "Summarize records with Copilot",
+    "Fact box summaries",
+    "Show more for additional insights",
+    "Hyperlinked references",
+    "User feedback on summaries",
+    "Harmful content filtering"
+  ],
+  "versions": [
+    "preview"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010023,
+      "pages_in_call": 3
+    }
+  ]
+}

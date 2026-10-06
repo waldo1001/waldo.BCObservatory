@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/suggest-item-substitutions-copilot.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/suggest-item-substitutions-copilot",
+  "title": "Suggest substitute items with Copilot",
+  "blob": "b0eb6e2bdab9f3611e722877265661c222735b06",
+  "summary": "Suggest substitute items with Copilot describes how to use an AI capability to find and assign similar items as substitutes by having Copilot analyze item numbers, descriptions, barcodes, and attributes across multiple tables.",
+  "systems": [
+    "inventory",
+    "sales",
+    "copilot"
+  ],
+  "topics": [
+    "item substitution",
+    "copilot",
+    "product information",
+    "item attributes",
+    "large language model",
+    "search"
+  ],
+  "objects": [],
+  "features": [
+    "Item substitution suggestions",
+    "Embedded search",
+    "Score ratings (High/Medium/Low)",
+    "Prompt adjustment",
+    "Insert all",
+    "Delete Line"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008252,
+      "pages_in_call": 4
+    }
+  ]
+}

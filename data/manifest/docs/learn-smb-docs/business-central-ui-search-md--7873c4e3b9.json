@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-search",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "04db680c3f09521cf4f6055e1004806305b6d42c",
       "words": 1203,
       "forms": 16
+    },
+    "extracted": {
+      "at": "2026-10-06T13:13:35.862Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008241
+    },
+    "summarized": {
+      "at": "2026-10-06T13:15:03.669Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:15:03.670Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:15:03.670Z",
+      "page": false
     }
   },
   "input_hash": "04db680c3f09521cf4f6055e1004806305b6d42c",
@@ -120,5 +139,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "04db680c3f09521cf4f6055e1004806305b6d42c"
+  "output_hash": "2836a8092e26715dbae5d687822a5146bdd65945e78bae06a18f95d3fa553f43"
 }

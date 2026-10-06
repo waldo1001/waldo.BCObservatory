@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/copilot-create-promptdialog.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-create-promptdialog",
+  "title": "Create prompt dialog page for Copilot feature",
+  "blob": "119a43dcb5d6b04cddcf13981681b654e1037c74",
+  "summary": "Creating a PromptDialog page type is the first step to build Copilot UI experiences, with properties to configure caption, extensibility, prompt mode, and preview status.",
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "prompt dialog",
+    "copilot ui",
+    "page type",
+    "copilot development"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "My Prompt Dialog"
+    }
+  ],
+  "features": [
+    "PromptDialog page type",
+    "Extensible property",
+    "PromptMode property",
+    "IsPreview property",
+    "display modes"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006307,
+      "pages_in_call": 7
+    }
+  ]
+}

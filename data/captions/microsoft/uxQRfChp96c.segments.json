@@ -1,0 +1,478 @@
+{
+  "video_id": "uxQRfChp96c",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.5,
+      "end": 17.1,
+      "text": ">> Welcome to 2026 release wave one of Business Central launch edition. This video is about all the things we did for financial reporting."
+    },
+    {
+      "t": 17.1,
+      "end": 29.4,
+      "text": "So why did we invest in this? Well, if we allow controllers and the finance department to have to work better with financial reporting, we are actually helping every single customer Business Central."
+    },
+    {
+      "t": 29.4,
+      "end": 46.6,
+      "text": "Every single customer Business Central use the finance module and a lot of them use financial reporting. So it's better overviews, faster setups, smart smarter workflows of of using financial reporting and just boosted productivity,"
+    },
+    {
+      "t": 46.6,
+      "end": 59.4,
+      "text": "also something we call quality of life. So let's dive into it. The highlights of financial reporting falls into three types of personas."
+    },
+    {
+      "t": 59.4,
+      "end": 76.9,
+      "text": "Okay, first of all, a new tile view for everyone, but then categories, life cycle status and company specific defaults are for the financial reporting authors. The next two, dimension perspective and scheduling, are for the financial reporting consumers or users that actually use the report,"
+    },
+    {
+      "t": 76.9,
+      "end": 90.8,
+      "text": "run the report. And finally, for the administrators or the controllers, internal control, we have a new audit log where you can see who actually use the system, who use the financial reporting"
+    },
+    {
+      "t": 90.8,
+      "end": 104.8,
+      "text": "and for what. Okay, so for everyone, we have added [clears throat] a new tile view to to the financial reporting instead of the line lists, we are adding these tiles."
+    },
+    {
+      "t": 104.8,
+      "end": 117.4,
+      "text": "And the way to to do this is simply to navigate from list here on this boxes here into tiles and that would open up this kind of report view."
+    },
+    {
+      "t": 117.4,
+      "end": 131.5,
+      "text": "For each of these reports, if data is present, you can see a category, you can see the name, you can see the code, you can see the status of the report, last time you ran it and you can see"
+    },
+    {
+      "t": 131.5,
+      "end": 148.8,
+      "text": "an internal description. Now, if if no description is is there, then it will just be blank. If you never ran the report, there will be no data and so on. But hopefully this is a different way of looking at your financial report than just a list of definitions."
+    },
+    {
+      "t": 148.8,
+      "end": 163.6,
+      "text": "You can also with this add, of course, add um views, so you can add list list views on this. So you can kind of slice and dice all the types of reports for different purposes or different"
+    },
+    {
+      "t": 163.6,
+      "end": 177.8,
+      "text": "processes and I'll show you more about that both for the categories and for the >> [clears throat] >> and for the status. All right, so for the authors, we have categories, life cycle status and these company specific defaults."
+    },
+    {
+      "t": 177.8,
+      "end": 193.4,
+      "text": "Let's look at first on report categories. So here on if you look at the tile, you can see a category up here, balance sheet. Um and that thing there is actually a way for you to um"
+    },
+    {
+      "t": 193.4,
+      "end": 204,
+      "text": "just make a nicer navigation of all reports. You can see here on the menu for a given report, you can edit the category both from the list, of course, also from the report card."
+    },
+    {
+      "t": 204,
+      "end": 216.3,
+      "text": "And the types of categories are where we ship, I think, 10 different types of categories from assets and liabilities all the way down to profitability and revenue analysis."
+    },
+    {
+      "t": 216.3,
+      "end": 228.3,
+      "text": "If these categories don't kind of fit what you believe is the way you would like to categorize, you can just edit, you can add your own so that you make the categories"
+    },
+    {
+      "t": 228.3,
+      "end": 243,
+      "text": "fit your finance department. Now, so that's mainly for navigation. Life cycle status, here you can see one of the reports, this one is in state active."
+    },
+    {
+      "t": 243,
+      "end": 257.5,
+      "text": "But it actually allows you also as as an author to set, here you can see the status on the report card, active, draft or retired. So a way for you to communicate whether a report is ready to use or whether you're still working on it."
+    },
+    {
+      "t": 257.5,
+      "end": 270.4,
+      "text": "And also if some of the reports are not like used anymore, you can mark it as retired. These are just the states that we introduced. You don't have to use ours, you can you can make your own."
+    },
+    {
+      "t": 270.4,
+      "end": 286.9,
+      "text": "And the most important thing here is that you can define whether a report's in a given state and this is actually not only reports, it's all types of definitions, so both row definitions, column definitions and report definitions have a state or status."
+    },
+    {
+      "t": 286.9,
+      "end": 305.9,
+      "text": "And the blocked state here is also indicating that like if this definition is ready to use or not. So for our sample here, we say the active state is the only one that is not blocked, both draft and retired state of definitions are considered blocked."
+    },
+    {
+      "t": 305.9,
+      "end": 322.8,
+      "text": "So how does this show? Well, first of all, here is a draft a report that is in state draft. If I go here, um you can see that there's a notification that this has status a blocked status because the draft status is blocked."
+    },
+    {
+      "t": 322.8,
+      "end": 340.3,
+      "text": "Um and also notice that this particular report definition is using a row definition in a blocked state because the act cat row definition apparently is in in some state, so we also show you that here both with a different"
+    },
+    {
+      "t": 340.3,
+      "end": 347.9,
+      "text": "font family, with a different color and and with some notification."
+    },
+    {
+      "t": 347.9,
+      "end": 362.2,
+      "text": "Um and in here, the account category, that row definition, you can also see that this particular report row definition has a blocked status of retired and you can set that state as I mentioned both on the report definition,"
+    },
+    {
+      "t": 362.2,
+      "end": 372.2,
+      "text": "on the row definition and on the column definition. Okay. Final small thing for the, I don't know, small, but I actually don't think it's small."
+    },
+    {
+      "t": 372.2,
+      "end": 382.3,
+      "text": "For the report authors is ability to set these four properties, view by, negative number format, company logo position and status."
+    },
+    {
+      "t": 382.3,
+      "end": 395.5,
+      "text": "You can set that in one place as a default and you do that here on the general ledger setup on these four types here. What this means is that if I want minus sign"
+    },
+    {
+      "t": 395.5,
+      "end": 413,
+      "text": "or parentheses on all my financial reports as the as kind of the way I want to format my negative numbers, I set it here. And when I go into the actual report definition, you can you can then see that my negative amount format is just default."
+    },
+    {
+      "t": 413,
+      "end": 428.9,
+      "text": "It inherits from the global setting on the company. If you do it like this, then you control the negative if all your report definition use the default here, then you control that property across your financial reporting."
+    },
+    {
+      "t": 428.9,
+      "end": 442.4,
+      "text": "But you can, of course, override it on the specific report. So that's both for the negative amount format, for the view by. View by is typically something where you want to probably view by by month."
+    },
+    {
+      "t": 442.4,
+      "end": 461.6,
+      "text": "So instead of setting in every single default report, maybe you just say the default is monthly and then you default on on here. And for logos, maybe you want some of your reports always to have your logo in the middle part of the header and maybe some of them shouldn't have any logo,"
+    },
+    {
+      "t": 461.6,
+      "end": 471.8,
+      "text": "whatever. Then same thing apply, you can set the logo position with default. All right, that's it for the, author."
+    },
+    {
+      "t": 471.8,
+      "end": 485.1,
+      "text": "Then for the report consumers, we have these two new features, dimension perspectives and scheduling. Dimension perspectives um is something where you can see here on this particular"
+    },
+    {
+      "t": 485.1,
+      "end": 496.8,
+      "text": "report or actually on the not necessarily report, but you can set perspectives, define dimension perspective once and then you can use them across things. What is this dimension perspective?"
+    },
+    {
+      "t": 496.8,
+      "end": 508.3,
+      "text": "Let's take a look. Um So in on a financial report, it has always been possible to kind of set filters on the dimension and then run the report."
+    },
+    {
+      "t": 508.3,
+      "end": 520.7,
+      "text": "But what if you want to to run a financial report across all values of a dimension? For instance, maybe you want to have a report for each department in the department dimension."
+    },
+    {
+      "t": 520.7,
+      "end": 531.3,
+      "text": "In this old world, like until now, you would need to run the report for each of them, right? And then like go in here, set the filter, run the report, set the filter, run the report."
+    },
+    {
+      "t": 531.3,
+      "end": 543.2,
+      "text": "Maybe there's a better way. This is what dimension perspectives is meant to do. For this example here, I have already defined a perspective called department."
+    },
+    {
+      "t": 543.2,
+      "end": 558.6,
+      "text": "I'm setting that here on the report. When I then run the report here, I'm just starting with the print option. You can also, as you see here, uh perspective is shown on the request page, so you can always override the default"
+    },
+    {
+      "t": 558.6,
+      "end": 574.2,
+      "text": "that is set on on the report when when you run it. Um But then when you run this, uh you get a PDF and if you look at the page numbers of the PDF here, you have 15 pages, but over here when you look at the page,"
+    },
+    {
+      "t": 574.2,
+      "end": 587.9,
+      "text": "it's page one of three. So how come there's 15 pages in the report PDF when there's three pages in the report? Well, that's because here we have our balance sheets for Kronos,"
+    },
+    {
+      "t": 587.9,
+      "end": 599.1,
+      "text": "but then if we zoom out and look at the first six pages or nine pages, you can see that kind of look page one, two, three and then it's the same structure, one, two, three, one, two, three."
+    },
+    {
+      "t": 599.1,
+      "end": 618.1,
+      "text": "So let's zoom into second row here. And here the heading changed from if we look at the the first heading it was the balance sheet but now it's changing to administration because administration is the first value in the department dimension."
+    },
+    {
+      "t": 618.1,
+      "end": 630.8,
+      "text": "Basically we get the report run by each value of the this dimension and then merged together in one PDF. This also works for the Excel outputs."
+    },
+    {
+      "t": 630.8,
+      "end": 647.4,
+      "text": "So here is when I run the same report and to to Excel. And if we just zoom in here on the worksheets, the balance sheet is the global num these are the no global numbers and here we have one um"
+    },
+    {
+      "t": 647.4,
+      "end": 663.7,
+      "text": "one worksheet for each value of the dimension administration, production, purchasing, and sales. Uh so when I go to the next one now I get the same financial report but filtered to the administration dimension."
+    },
+    {
+      "t": 663.7,
+      "end": 674.6,
+      "text": "If you open the financial report dimension perspectives list here I have defined three different perspectives. I showed you how to use the department dimension."
+    },
+    {
+      "t": 674.6,
+      "end": 688,
+      "text": "It's it's a a simple perspective. You can also have more complicated what we call custom perspectives. If I go to one here I call some department"
+    },
+    {
+      "t": 688,
+      "end": 702.1,
+      "text": "here it's a custom perspective and I'm only including two of the five values of that dimension. So I'm picking only a few of the cost of the department values and then that's my perspective."
+    },
+    {
+      "t": 702.1,
+      "end": 713.4,
+      "text": "But you can even do things across different dimensions. So here you see department code, customer group code, all the different dimensions"
+    },
+    {
+      "t": 713.4,
+      "end": 725.3,
+      "text": "on the x-axis. And then you simply define a header and the combination of values. In this case I'm doing perspective in where I I cross"
+    },
+    {
+      "t": 725.3,
+      "end": 745,
+      "text": "join the two admin and sales by customer group large, medium, small. So in this in this example I would have six different like invocations of the report filtered to these combinations of dimension values across different dimensions."
+    },
+    {
+      "t": 745,
+      "end": 763.6,
+      "text": "So that's perspectives dimension perspectives. The second thing for report users is that you can now schedule reports. So if I go for a given report here and open the schedules for that report um I can now um"
+    },
+    {
+      "t": 763.6,
+      "end": 776.4,
+      "text": "define a number of schedules for that report. In this example I've chosen to create a weekly schedule with a weekly balance that's just a my description of the schedule."
+    },
+    {
+      "t": 776.4,
+      "end": 789.2,
+      "text": "I've chosen to export to Excel and PDF. I want both this when I run the report both these artifacts to go to my report inbox in Business Central but also get them by email."
+    },
+    {
+      "t": 789.2,
+      "end": 802.8,
+      "text": "Um I can set the recurrence formula here weekly. I can even set recipients so I can I can send this to me, Eddie uh Mike and Lucas."
+    },
+    {
+      "t": 802.8,
+      "end": 813.9,
+      "text": "In this case here I've just said my team or this group of people should get this schedule of the reports. With custom filters you can control"
+    },
+    {
+      "t": 813.9,
+      "end": 833.8,
+      "text": "uh the the request page values for this particular invocation. So in case you have special way like you I want a a weekly schedule of some setup of this and sent to these people and different schedule of these values for different schedule you can do that."
+    },
+    {
+      "t": 833.8,
+      "end": 854.2,
+      "text": "Uh and then finally you can from here see the the schedule logs so you can see whatever was run here. So the weekly schedule was run uh here on which report and even up here you can you can navigate to your report inbox or to the sent emails and get further information of the actual"
+    },
+    {
+      "t": 854.2,
+      "end": 866,
+      "text": "artifacts that were sent. All right. That concludes what was done for the author then now finally for the administrator and I'm happy that you're still here."
+    },
+    {
+      "t": 866,
+      "end": 886.2,
+      "text": "It I know it's a long video. Um but I'll be quick. The audit log is let's go back to the tile here. Um and you can get the audit log either in context of a report so the audit log for this report or all audit logs across all reports and uh let's just go in and see"
+    },
+    {
+      "t": 886.2,
+      "end": 899.3,
+      "text": "that here is the audit log for all reports and um and here you can then see kind of who ran what when um which format uh which reports"
+    },
+    {
+      "t": 899.3,
+      "end": 915.4,
+      "text": "and and when it was run. We also created filters on this page so you can you can um easily dive into all logs last 30 days and year to date and of course you can create your own filters."
+    },
+    {
+      "t": 915.4,
+      "end": 925.7,
+      "text": "And you can take this into analysis mode and and do mini reports on the audit log who ran what when um again and then you can find"
+    },
+    {
+      "t": 925.7,
+      "end": 942.8,
+      "text": "kind of get that reporting on your usage of financial reporting and the same goes this all of these artifacts will be inherited if you just look at the audit log in a filter to a to one specific report."
+    },
+    {
+      "t": 942.8,
+      "end": 953.2,
+      "text": "That's it. Almost there. If you want to learn more about this and other things related to financial analytics aka.ms/bcfinanceanalytics"
+    },
+    {
+      "t": 953.2,
+      "end": 966.6,
+      "text": "is the overview page for for this and I'm just zooming in here on um specifically on the documentation we have for financial reporting where"
+    },
+    {
+      "t": 966.6,
+      "end": 976.8,
+      "text": "we have a lot of articles that you might know not know of with tips and tricks within financial reporting feature. For instance the troubleshooting"
+    },
+    {
+      "t": 976.8,
+      "end": 996.9,
+      "text": "section here with a lot of advice. If it's too much maybe you can use the summarize feature in Microsoft Learn and simply get a summary of each and maybe it would for a starting point summarize all these and see a summary and then see if there's something in the summary that would be of interest then you can dive into"
+    },
+    {
+      "t": 996.9,
+      "end": 1007.2,
+      "text": "the content. Um related to this if you're interested in this topic you probably want to watch this video as well."
+    },
+    {
+      "t": 1007.2,
+      "end": 1020.2,
+      "text": "So we have a session on enhanced finance analytics. There's a link to that video down here in the description. So you should definitely go and watch that if you're interested in financial reporting."
+    },
+    {
+      "t": 1020.2,
+      "end": 1036.8,
+      "text": "And in general if you're interested in analytics not only in finance but also in sales and other areas these are related sessions for this release wave from sales down to subscription billing and even analysis mode and Power BI Excel."
+    },
+    {
+      "t": 1036.8,
+      "end": 1047.2,
+      "text": "So all of those links are here as well for you to enjoy. That's it. Stay tuned for a little bit longer."
+    },
+    {
+      "t": 1047.2,
+      "end": 1057.4,
+      "text": "If you do not know these general Business Central resources stay on the video for three more minutes. If not then um we are done."
+    },
+    {
+      "t": 1057.4,
+      "end": 1067.5,
+      "text": "Thank you so much for watching. Thanks for being part of the launch edition. I'm looking forward to hearing your feedback on all the things we did for financial reporting."
+    },
+    {
+      "t": 1067.5,
+      "end": 1080.9,
+      "text": "Have a great day. Thank you. We have compiled a number of general resources that we believe are key both for partners but also Business Central customers."
+    },
+    {
+      "t": 1080.9,
+      "end": 1101.3,
+      "text": "Most Some of these are partner some of them are also for customers. So the first one is called aka.ms/bcall. This is a partner resource for that contains lists of every other aka link that is needed for you to understand anything about both the Business Central product"
+    },
+    {
+      "t": 1101.3,
+      "end": 1113.8,
+      "text": "but also processes around it. We call these aka links because they are called aka.ms and then for forward slash something. And with Business Central links we all always prefix with BC and then something."
+    },
+    {
+      "t": 1113.8,
+      "end": 1126.9,
+      "text": "The next one is our partner network social media for for Business Central partners Viva Viva Engage. So aka.ms/bcvivaengage"
+    },
+    {
+      "t": 1126.9,
+      "end": 1140.7,
+      "text": "is where you go and interact with other partners. It's not open for customers. So this is where you can ask questions, interact with the product group, interact with with with each other in a in a closed network."
+    },
+    {
+      "t": 1140.7,
+      "end": 1156.5,
+      "text": "Second link a third link is for both partners and customers. We are called office hours. So office hours is something we do once or twice a month from the product group engaging with the community about new features or things we want to discuss."
+    },
+    {
+      "t": 1156.5,
+      "end": 1166.9,
+      "text": "aka.ms/bcofficehours is the is the place where you go to find out about upcoming events. These are recorded."
+    },
+    {
+      "t": 1166.9,
+      "end": 1177.3,
+      "text": "I believe the recordings are available only to partners but the live events are available to customers as well. Fourth link is YouTube our YouTube channel."
+    },
+    {
+      "t": 1177.3,
+      "end": 1190.6,
+      "text": "I'll talk about that in the next slide and LinkedIn in the next slide and then finally for for Microsoft partners the BC's aka.ms/bcpartnerportal"
+    },
+    {
+      "t": 1190.6,
+      "end": 1202.3,
+      "text": "is where you get a lot of the resources as a partner such as compete decks, pitch decks, and a lot of other resources."
+    },
+    {
+      "t": 1202.3,
+      "end": 1217.3,
+      "text": "For LinkedIn, this is our product group's LinkedIn profile. We have 30K or more followers, so both partners and customers. This is the place where we from the product group put in news and small bits of information"
+    },
+    {
+      "t": 1217.3,
+      "end": 1228,
+      "text": "outside the {quote} official channel. So, follow us on LinkedIn to learn what's happening right now in in this around the product."
+    },
+    {
+      "t": 1228,
+      "end": 1241.8,
+      "text": "And then also on our YouTube channel, where this is where you're probably watching this aka.ms/bc YouTube. We put in not only these launch editions twice a year, but also"
+    },
+    {
+      "t": 1241.8,
+      "end": 1261.8,
+      "text": "Co-pilot and AI video shorts, tips and tricks, technical deep dives, under the hood. We even have this what's cooking where we put little nuggets of of videos out for new features that are even coming in on the YouTube channel before they're coming in the release notes."
+    },
+    {
+      "t": 1261.8,
+      "end": 1274.4,
+      "text": "So, watch and maybe bookmark us on YouTube. And also notice all the playlists, so the content is also organized in areas, not only all the videos."
+    },
+    {
+      "t": 1274.4,
+      "end": 1285.7,
+      "text": "So, if you have an area that has special interest such as analytics, you can find them. A playlist and kind of see all the content related to that."
+    },
+    {
+      "t": 1285.7,
+      "end": 1299,
+      "text": "And that's it. That is truly it. We won't There will be no more. So, thank you for watching all the way to the end. And again, have a great day. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 3170
+}

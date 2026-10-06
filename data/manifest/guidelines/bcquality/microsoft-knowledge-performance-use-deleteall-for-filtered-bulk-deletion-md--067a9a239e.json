@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "use deleteall for filtered bulk deletion",
+  "title": "Use DeleteAll for filtered bulk deletion",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/use-deleteall-for-filtered-bulk-deletion.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.496Z",
+      "blob": "8c847b46aa4e3b70de11df585739caf8a4ff5b93",
+      "words": 194,
+      "forms": 0
     }
   },
   "input_hash": "8c847b46aa4e3b70de11df585739caf8a4ff5b93",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/use-deleteall-for-filtered-bulk-deletion.md"
-  }
+    "path": "microsoft/knowledge/performance/use-deleteall-for-filtered-bulk-deletion.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 194
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8c847b46aa4e3b70de11df585739caf8a4ff5b93"
 }

@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "updatepropagation both refreshes main page",
+  "title": "Use `UpdatePropagation = Both` when line edits must refresh the main page",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/updatepropagation-both-refreshes-main-page.md",
   "published_at": "2026-09-21T08:15:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:32:55.338Z",
+      "blob": "3ce676b5fc6a6ec347e270a14a66f8a22f057f04",
+      "words": 142,
+      "forms": 0
     }
   },
   "input_hash": "3ce676b5fc6a6ec347e270a14a66f8a22f057f04",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/ui/updatepropagation-both-refreshes-main-page.md"
-  }
+    "path": "microsoft/knowledge/ui/updatepropagation-both-refreshes-main-page.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 142
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3ce676b5fc6a6ec347e270a14a66f8a22f057f04"
 }

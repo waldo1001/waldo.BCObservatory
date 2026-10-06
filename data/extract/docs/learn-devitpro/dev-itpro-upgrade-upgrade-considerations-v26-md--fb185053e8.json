@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-considerations-v26.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-considerations-v26",
+  "title": "Considerations before upgrading to Business Central version 26 and later",
+  "blob": "017c025fcfd80c65dd0d081b9a96fd1f69fc9b23",
+  "summary": "Pre-upgrade guidance for Business Central v26-v29 covering deprecated/redesigned functionality, deleted objects (v24 and earlier), schema changes in Subscription Billing extension (v25 to v26+), performance impacts of installed extensions, and deployment changes in v23 (port 7085, SPN delegation). Recommends transitioning to AL-based permissions.",
+  "systems": [
+    "administration",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "upgrade",
+    "deprecation",
+    "deleted objects",
+    "schema changes",
+    "permissions",
+    "performance",
+    "deployment"
+  ],
+  "objects": [],
+  "features": [
+    "AL-based permissions",
+    "force sync for schema migration",
+    "extension management",
+    "server port configuration",
+    "delegation configuration"
+  ],
+  "versions": [
+    "version 26",
+    "version 27",
+    "version 28",
+    "version 29",
+    "2025 release 1",
+    "2025 release 2",
+    "2026 release 1",
+    "2026 release 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009239,
+      "pages_in_call": 4
+    }
+  ]
+}

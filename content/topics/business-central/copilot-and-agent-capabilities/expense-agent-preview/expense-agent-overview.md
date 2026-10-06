@@ -2,7 +2,7 @@
 id: topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview
 type: topic
 title: Expense Agent overview
-summary: "Learn section Copilot and agent capabilities > Expense Agent (preview) > Expense Agent overview: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Expense Agent (preview) in Business Central is an AI-powered agent that automates the expense lifecycle. This section answers questions about what it does, how it processes emails and receipts, and how it checks expenses against rules and policies.
 tier: official
 language: en
 system: copilot
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T13:43:32.763Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 966c4af38a343699ebc42d6d6e1e4374c11762b58288ed16e325de1a05a76b87
+  prompts:
+    hub-topic: 1
+  input_hash: 9019bae00c0b9df2455cf3f6ce528d4622f70f098abb27139fddbe544bc51de1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent
@@ -77,14 +78,33 @@ bc_forms:
   - 4410
   - 6996
 member_hash: 966c4af38a343699ebc42d6d6e1e4374c11762b58288ed16e325de1a05a76b87
-narrative: none
+narrative: generated
 ---
 
 # Expense Agent overview
 
-> Learn section Copilot and agent capabilities > Expense Agent (preview) > Expense Agent overview: 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Expense Agent (preview) in Business Central is an AI-powered agent that automates the expense lifecycle. This section answers questions about what it does, how it processes emails and receipts, and how it checks expenses against rules and policies.
 
-Path: [Copilot and agent capabilities](../../copilot-and-agent-capabilities.md) > [Expense Agent (preview)](../expense-agent-preview.md) > Expense Agent overview · tier official · system copilot · no narrative yet
+Path: [Copilot and agent capabilities](../../copilot-and-agent-capabilities.md) > [Expense Agent (preview)](../expense-agent-preview.md) > Expense Agent overview · tier official · system copilot · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+Expense Agent is an AI-powered agent that handles the expense lifecycle in Business Central. It takes in receipts from the web app, mobile app or email, extracts data, categorizes and itemizes expenses, creates expense reports, and prepares them for approval and posting. It also covers per diem, mileage tracking and calculation, and approval workflows.
+
+The four pages in this section build on each other. The two overview pages give the general picture of capabilities. "How the Expense Agent Processes Emails" explains the mailbox-driven flow: monitoring a configured mailbox, detecting receipts and credit card statements, creating expenses, grouping them by reporting period, and sending confirmations and reminders. "Understand Policy Compliance in Expense Agent" explains how expenses are checked.
+
+Start with the overview page for scope, then read the email page if receipts arrive by mail, and the policy compliance page if you need to understand flags on expenses or configure policy evaluation.
+
+## Key points
+
+- Receipts can come in through the web app, mobile app or email, and the agent extracts data, categorizes, subcategorizes and itemizes them.
+- Supported expense types include per diem calculation and mileage tracking and calculation.
+- The agent creates expense reports and prepares them for approval and posting in Business Central.
+- Email processing monitors a configured mailbox and detects receipts and credit card statements.
+- Created expenses are grouped into reports by reporting period, and the agent sends confirmation emails and open report reminders to expense users.
+- Policy compliance separates deterministic Business Central rules from AI-evaluated natural-language policies.
+- Expenses are flagged with compliance indicators for rule violations or potential policy issues.
+- Policy evaluation has its own configuration and includes privacy protection.
 
 ## Learn pages
 

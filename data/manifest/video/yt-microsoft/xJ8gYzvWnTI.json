@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Business Central User Experience and Productivity (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=xJ8gYzvWnTI",
-  "published_at": null,
+  "published_at": "2026-04-01T12:01:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:24:39.952Z",
+      "captions": "auto:en-orig",
+      "duration_s": 400
+    },
+    "captioned": {
+      "at": "2026-10-06T13:24:47.258Z",
+      "path": "data/captions/microsoft/xJ8gYzvWnTI.vtt",
+      "vtt_sha256": "b0287920373a1218baabd7636950654f1ce25392d64dca93eaa168d0d663f130",
+      "segments": 27,
+      "words": 986,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 90,
-    "duration_s": 401,
-    "via": "reconcile"
-  }
+    "duration_s": 400,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b0287920373a1218baabd7636950654f1ce25392d64dca93eaa168d0d663f130"
 }

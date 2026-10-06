@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-testtool",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d1c80eff63659e4e347a039e35c854d55e658076",
       "words": 1211,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:25:57.095Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.009206
+    },
+    "summarized": {
+      "at": "2026-10-06T13:27:04.484Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:27:04.484Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:27:04.484Z",
+      "page": false
     }
   },
   "input_hash": "d1c80eff63659e4e347a039e35c854d55e658076",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d1c80eff63659e4e347a039e35c854d55e658076"
+  "output_hash": "4e48a2c93ce1cc7e35e0d04c3213f8ee123a1b5b5f60739f6ec75ad5c737f489"
 }

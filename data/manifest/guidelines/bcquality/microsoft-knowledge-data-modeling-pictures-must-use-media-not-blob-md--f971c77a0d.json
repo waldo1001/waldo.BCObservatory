@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "pictures must use media not blob",
+  "title": "Pictures must be stored in a Media/MediaSet field, not BLOB",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/pictures-must-use-media-not-blob.md",
   "published_at": "2026-09-29T15:12:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:23:37.019Z",
+      "blob": "1767a0df83e1db1ab771775b227a3edc04f1edba",
+      "words": 283,
+      "forms": 0
     }
   },
   "input_hash": "1767a0df83e1db1ab771775b227a3edc04f1edba",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/data-modeling/pictures-must-use-media-not-blob.md"
-  }
+    "path": "microsoft/knowledge/data-modeling/pictures-must-use-media-not-blob.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 283
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1767a0df83e1db1ab771775b227a3edc04f1edba"
 }

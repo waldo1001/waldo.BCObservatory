@@ -1,0 +1,26 @@
+{
+  "video_id": "i0gBrA1tx50",
+  "item_id": "video/yt-microsoft/i0gBrA1tx50",
+  "summary": "AL Graph, a tool in the AL tools package that builds call graphs of AL code, is shown in a 2026 release wave 2 video. It covers querying callers, exporting to DGML and SARIF, and auditing the non-debuggable to debuggable boundary for security.",
+  "overview": "The video introduces AL Graph, a tool in the AL tools package that constructs call graphs. These graphs show caller-callee relationships, external integration points and dependencies, and can be used for code auditing and security analysis.\n\nThe demo builds a meta model of an app once, stores it as JSON and queries it repeatedly. It then runs two audits: finding all callers of the HTTP client and tracing call paths that reach HTTP requests, and finding callees of non-debuggable methods to see where debugging could expose secrets. Query syntax is documented on MS Learn.",
+  "key_points": [
+    "AL Graph builds call graphs to show caller-callee relationships, external integration points, dependencies and possible security issues.",
+    "The meta model is built once with the 'extract whole' method, stored as JSON and then queried many times.",
+    "The query language can build complex queries, such as callers of an object, methods that interact with tables, or paths from your own sensitive objects. Syntax is documented on MS Learn.",
+    "Query results can be exported as DGML for human analysis of call relationships, or as SARIF, which is flat and meant to be easy for agents to consume.",
+    "An HTTP client caller query lists all callers and the call paths that can reach HTTP requests, which helps audit external integrations.",
+    "The non-debuggable to debuggable boundary audit finds callees of non-debuggable methods. A breakpoint in a debuggable method reached from non-debuggable code can leak secrets."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "77168d9bd0c68b6f99078ce09b052f47e8feb5a02c1a71ac2210dfd466bdcd5c",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0413264
+  }
+}

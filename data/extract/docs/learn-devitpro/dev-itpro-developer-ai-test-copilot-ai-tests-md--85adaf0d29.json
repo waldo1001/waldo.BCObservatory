@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/ai-test-copilot-ai-tests.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-ai-tests",
+  "title": "Write AI tests",
+  "blob": "9c121f1054c5a83cf0c2f850b2bf18eaff286d15",
+  "summary": "Write AI tests explains how to create AI tests in AL that evaluate the accuracy and reliability of Copilot features by running predefined scenarios from datasets and comparing outputs against expected results.",
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "ai test",
+    "copilot test",
+    "dataset",
+    "test validation",
+    "external evaluation",
+    "copilot capability"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "AIT Test Context"
+    },
+    {
+      "type": "codeunit",
+      "name": "Agent Test Context"
+    },
+    {
+      "type": "codeunit",
+      "name": "Test Output Json"
+    }
+  ],
+  "features": [
+    "AI test definition",
+    "dataset access",
+    "internal evaluation",
+    "external evaluation",
+    "test output export",
+    "agent identity access"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011061,
+      "pages_in_call": 4
+    }
+  ]
+}

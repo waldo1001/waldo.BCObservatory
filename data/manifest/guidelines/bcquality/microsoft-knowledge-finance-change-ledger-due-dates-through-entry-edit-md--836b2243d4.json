@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "change ledger due dates through entry edit",
+  "title": "Change posted customer/vendor due dates through the entry-edit workflow",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/finance/change-ledger-due-dates-through-entry-edit.md",
   "published_at": "2026-09-21T08:20:41.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:31:27.861Z",
+      "blob": "aca7b769b0c15386ee872e101bec10ae174ed79b",
+      "words": 236,
+      "forms": 0
     }
   },
   "input_hash": "aca7b769b0c15386ee872e101bec10ae174ed79b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/finance/change-ledger-due-dates-through-entry-edit.md"
-  }
+    "path": "microsoft/knowledge/finance/change-ledger-due-dates-through-entry-edit.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 236
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "aca7b769b0c15386ee872e101bec10ae174ed79b"
 }

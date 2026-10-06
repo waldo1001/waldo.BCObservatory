@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/faqs-payables-agent.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-payables-agent",
+  "title": "Payables Agent Frequently Asked Questions",
+  "blob": "3974b4fd83d03596ac8138d036f76deba67a2b42",
+  "summary": "Payables Agent is an autonomous AI-powered agent that automates vendor invoice processing by monitoring email inboxes for PDF invoices, extracting data, matching vendors, classifying accounts, and creating draft purchase invoices for review. Use this to reduce manual data entry and accelerate accounts payable workflows while maintaining human oversight.",
+  "systems": [
+    "purchasing",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "payables agent",
+    "vendor invoices",
+    "purchase invoices",
+    "document processing",
+    "ai automation",
+    "accounts payable",
+    "draft creation"
+  ],
+  "objects": [],
+  "features": [
+    "Email Processing",
+    "Document Extraction",
+    "Vendor Identification",
+    "Account Classification",
+    "Purchase Order Matching",
+    "Vendor Creation",
+    "Draft Creation",
+    "Human Oversight",
+    "Agent Identity",
+    "User Permissions and Controls",
+    "Feedback Mechanism"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010538,
+      "pages_in_call": 3
+    }
+  ]
+}

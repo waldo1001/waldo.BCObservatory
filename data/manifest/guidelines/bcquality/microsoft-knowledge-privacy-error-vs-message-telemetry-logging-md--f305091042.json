@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "error vs message telemetry logging",
+  "title": "Error dialogs emit Error method trace telemetry",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/privacy/error-vs-message-telemetry-logging.md",
   "published_at": "2026-07-14T09:25:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:46.237Z",
+      "blob": "2654dff5c92eeefbfddb3ca5675a32d960c5f109",
+      "words": 140,
+      "forms": 0
     }
   },
   "input_hash": "2654dff5c92eeefbfddb3ca5675a32d960c5f109",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/privacy/error-vs-message-telemetry-logging.md"
-  }
+    "path": "microsoft/knowledge/privacy/error-vs-message-telemetry-logging.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 140
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2654dff5c92eeefbfddb3ca5675a32d960c5f109"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-users-teams",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "53490f184b5045ba1117be02a115404513bfda22",
       "words": 522,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T13:37:45.028Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.010103
+    },
+    "summarized": {
+      "at": "2026-10-06T13:37:45.069Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:37:45.069Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:37:45.069Z",
+      "page": false
     }
   },
   "input_hash": "53490f184b5045ba1117be02a115404513bfda22",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "53490f184b5045ba1117be02a115404513bfda22"
+  "output_hash": "fe85bc8b2d1b2b6abe8e9c7c734c89bcf468a909f9cd4ee326e8fcb24ac28ff8"
 }

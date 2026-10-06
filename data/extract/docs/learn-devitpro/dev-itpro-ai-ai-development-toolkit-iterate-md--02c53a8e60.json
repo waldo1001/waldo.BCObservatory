@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-iterate.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-iterate",
+  "title": "Iterate and manage an agent (preview)",
+  "blob": "65a1765afc8d5d2b791b98de40941cab93ce4f7c",
+  "summary": "Iterate and manage agents by understanding their decision-making, using the Agent Task Log for troubleshooting, and maintaining instruction version history to refine behavior based on observed performance.",
+  "systems": [
+    "copilot",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "agent iteration",
+    "agent troubleshooting",
+    "agent task log",
+    "instruction versions",
+    "ui customization",
+    "decision points",
+    "content violations"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Agent Tasks"
+    },
+    {
+      "type": "page",
+      "name": "Agent Task Log"
+    },
+    {
+      "type": "page",
+      "name": "Agents (preview)"
+    }
+  ],
+  "features": [
+    "Agent Task Log for activity tracking",
+    "Log entry details with decision context",
+    "Page accessibility view for agent perception",
+    "Instruction version history and rollback",
+    "Content violation error handling",
+    "Instruction comparison between versions",
+    "Agent profile and page description customization"
+  ],
+  "versions": [
+    "preview"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01016,
+      "pages_in_call": 3
+    }
+  ]
+}

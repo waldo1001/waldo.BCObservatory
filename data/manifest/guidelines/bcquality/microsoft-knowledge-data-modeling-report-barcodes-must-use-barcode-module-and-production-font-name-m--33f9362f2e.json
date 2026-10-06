@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "report barcodes must use barcode module and production font name",
+  "title": "Generate report barcodes through the Barcode module, with the production font name",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/report-barcodes-must-use-barcode-module-and-production-font-name.md",
   "published_at": "2026-09-30T11:22:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:14:16.923Z",
+      "blob": "e85d7e1dffc3ed49ba344dfcb145e181dcf19068",
+      "words": 612,
+      "forms": 0
     }
   },
   "input_hash": "e85d7e1dffc3ed49ba344dfcb145e181dcf19068",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/data-modeling/report-barcodes-must-use-barcode-module-and-production-font-name.md"
-  }
+    "path": "microsoft/knowledge/data-modeling/report-barcodes-must-use-barcode-module-and-production-font-name.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 612
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e85d7e1dffc3ed49ba344dfcb145e181dcf19068"
 }

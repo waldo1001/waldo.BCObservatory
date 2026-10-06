@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-approve-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-approve-reports",
+  "title": "Review and Approve Expense Reports",
+  "blob": "d6f9bc5374dbcbc1828b2d5d56ab25b1c0264ea2",
+  "summary": "Managers and accountants review and approve submitted expense reports against policy compliance and VAT reclaim rules before posting, with separate workflows for approval and VAT verification.",
+  "systems": [
+    "hr",
+    "finance"
+  ],
+  "topics": [
+    "expense management",
+    "approval workflow",
+    "vat reclaim",
+    "expense reports",
+    "policy compliance",
+    "manager review"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Manager Expense Reports"
+    },
+    {
+      "type": "page",
+      "name": "Accountant Expense Reports"
+    }
+  ],
+  "features": [
+    "Expense report approval",
+    "Rule violation detection",
+    "VAT reclaim review",
+    "VAT specification approval",
+    "Receipt attachment access",
+    "Expense report statistics",
+    "Approval workflow",
+    "Report rejection with comments"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00828,
+      "pages_in_call": 4
+    }
+  ]
+}

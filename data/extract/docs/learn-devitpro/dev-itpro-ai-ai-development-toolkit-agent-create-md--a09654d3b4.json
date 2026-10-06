@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-agent-create.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-agent-create",
+  "title": "Create and activate an agent (preview)",
+  "blob": "7128c463989c842c1a2bff7824d693940cbe680e",
+  "summary": "Creating and activating agents through the AI development toolkit, including configuring agent identity, instructions, profiles, permissions, and testing within a sandbox environment.",
+  "systems": [
+    "copilot",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "agent creation",
+    "agent configuration",
+    "permissions",
+    "profiles",
+    "instructions",
+    "agent activation",
+    "sandbox testing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Agents (preview)"
+    },
+    {
+      "type": "page",
+      "name": "Copilot & agent capabilities"
+    },
+    {
+      "type": "page",
+      "name": "Agent task playground"
+    }
+  ],
+  "features": [
+    "agent design wizard",
+    "custom profiles",
+    "permission management",
+    "instruction editor",
+    "agent state management",
+    "task playground",
+    "sales validation template",
+    "billing setup"
+  ],
+  "versions": [
+    "27.2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0104,
+      "pages_in_call": 3
+    }
+  ]
+}

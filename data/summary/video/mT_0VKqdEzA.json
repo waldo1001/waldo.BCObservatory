@@ -1,0 +1,27 @@
+{
+  "video_id": "mT_0VKqdEzA",
+  "item_id": "video/yt-microsoft/mT_0VKqdEzA",
+  "summary": "Withholding tax for employee expenses in the Expense Agent (2026 release wave 2): extends vendor withholding tax to employees, with posting groups, thresholds, gross/net calculation and invoice or payment timing. Demoed with a mileage expense, preview posting, employee card and expense category setup.",
+  "overview": "The video explains that withholding tax is tax deducted at source from vendor or employee payments. The existing withholding tax posting setup, introduced for vendors in an earlier wave, is extended so it also applies to employee expenses. The presenter walks through the setup and then demos it.\n\nThe demo creates a mileage expense and shows the withholding tax entries in preview posting next to the GL entries and employee ledger entries. It then covers the Withholding Posting Setup, the threshold calculation methods, the Employee Card and Expense Category configuration, and how to use multiple tax groups for multi-tier taxes. The presenter says a separate session covers the broader finance withholding tax features.",
+  "key_points": [
+    "Withholding tax setup that existed for vendors is extended to employees, so employee expense payments can have tax deducted.",
+    "Withholding Posting Setup needs both a withholding tax business posting group and a product posting group. Configuration must match local tax authority rules.",
+    "The Employee Card gets a required withholding tax business posting group, an optional tax exemption flag, and optional certificate fields that depend on the jurisdiction.",
+    "The calculation base can be gross, net or gross up, and a compound method is available. The choice depends on local rules.",
+    "Thresholds can be per record, per category, per period or total period. Periods can be month, quarter, year or fiscal period, depending on how the jurisdiction treats employee withholding liability.",
+    "Tax can be calculated at invoice time (when the expense report is posted) or at payment time (the withholding stays unrealized until the employee is paid).",
+    "An expense category can use single mode for one tax tier or tax group mode for several product posting groups, such as state, federal and local. Tax group mode also needs a component order for compound calculations."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "58edc9e9cbb983b24ca3a9611c40d29a07c42a866a54fe78c9d5d450bd9f3b6a",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0463004
+  }
+}

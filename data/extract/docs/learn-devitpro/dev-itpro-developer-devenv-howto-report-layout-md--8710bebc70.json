@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-howto-report-layout.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-howto-report-layout",
+  "title": "Creating a Word layout report",
+  "blob": "0c72b615a7f21e72fc7ec659ed5e9b39ee33af9d",
+  "summary": "Create Word layout reports for Business Central by defining a report dataset and designing the layout in Word using the Business Central add-in with XML mapping, system dataitems for metadata, and Word merge functionality.",
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "word layouts",
+    "reports",
+    "dataset design",
+    "xml mapping",
+    "report rendering",
+    "mail merge"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "MyWordReport"
+    },
+    {
+      "type": "report",
+      "name": "Standard Sales - Invoice"
+    }
+  ],
+  "features": [
+    "Word layout creation",
+    "Custom XML part",
+    "XML Mapping Pane",
+    "ReportMetadata dataitem",
+    "ReportRequest dataitem",
+    "WordMergeDataItem property",
+    "Report labels and captions",
+    "Report schema export",
+    "Layout update and export"
+  ],
+  "versions": [
+    "2024 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016295,
+      "pages_in_call": 2
+    }
+  ]
+}

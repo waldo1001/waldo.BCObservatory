@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-get-next-object-id",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e79a39f1b5c30c143596fc4653d6d3dfedc78944",
       "words": 784,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:28:30.319Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006307
+    },
+    "summarized": {
+      "at": "2026-10-06T13:28:30.323Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:28:30.323Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:28:30.324Z",
+      "page": false
     }
   },
   "input_hash": "e79a39f1b5c30c143596fc4653d6d3dfedc78944",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e79a39f1b5c30c143596fc4653d6d3dfedc78944"
+  "output_hash": "ea1814438a3e77c82727a4cf23ea1e7ec429c3d582df3b632b88209f2abd4366"
 }

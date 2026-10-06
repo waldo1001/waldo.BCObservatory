@@ -2,7 +2,7 @@
 id: topic/dev-itpro/responsible-ai
 type: topic
 title: Responsible AI
-summary: "Learn section Responsible AI: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Responsible AI in Business Central is a set of transparency notes for three AI areas: developer tools for Copilot, Machine Learning APIs, and Semantic Metadata Search. It answers questions about how each capability works, what it can and cannot do, intended uses, and responsible AI practices for partners."
 tier: official
 language: en
 system: copilot
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T13:43:32.763Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 88cdf0656fd99d4e1396a8de5a1204ced1bee609ac5f9f7802ff622102fce563
+  prompts:
+    hub-topic: 1
+  input_hash: 1d33aa1ee9f407c0cb981e7f27195c1e8d6eb356cb2e15113b76235575d0d896
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-dev-tools-for-copilot
@@ -63,14 +64,32 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 88cdf0656fd99d4e1396a8de5a1204ced1bee609ac5f9f7802ff622102fce563
-narrative: none
+narrative: generated
 ---
 
 # Responsible AI
 
-> Learn section Responsible AI: 3 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Responsible AI in Business Central is a set of transparency notes for three AI areas: developer tools for Copilot, Machine Learning APIs, and Semantic Metadata Search. It answers questions about how each capability works, what it can and cannot do, intended uses, and responsible AI practices for partners.
 
-Path: Responsible AI · tier official · system copilot · no narrative yet
+Path: Responsible AI · tier official · system copilot · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section holds three transparency notes. Each one explains how an AI capability in Business Central works, what it is meant for, where its limits are, and which responsible AI practices apply.
+
+The first note covers developer tools for Copilot. It describes how partners build and deploy generative AI features in extensions with Azure OpenAI Service APIs and in-app UI components. The second covers the Machine Learning APIs, including the Forecasting and Prediction models, for partners building ML features. The third covers Semantic Metadata Search, which matches user queries to application metadata by meaning instead of exact keywords.
+
+The pages are independent, so start with the one that matches your scenario. Partners building generative AI extensions should read the developer tools note. Partners building forecasting or prediction features should read the Machine Learning APIs note. Anyone who wants to know how Tell me and the report explorer find results should read the Semantic Metadata Search note.
+
+## Key points
+
+- Developer tools note: partners build generative AI features in BC extensions using Azure OpenAI Service APIs and in-app UI components.
+- Developer tools include APIs for text completion and chat completion, embeddings, a prompt dialog UI, feature governance, a feedback loop, and an admin screen for managing AI features.
+- Machine Learning APIs note covers the Forecasting Model and Prediction Model, Azure Machine Learning resources, the Responsible AI Standard, and AI safety guardrails.
+- The ML note explains capabilities, limitations, and intended use cases for partners building ML features.
+- Semantic Metadata Search matches queries to metadata entities by semantic similarity, with synonym and abbreviation handling.
+- Semantic Metadata Search is integrated with Tell me and the report explorer.
+- Semantic Metadata Search is limited to application objects, not business data, and its results depend on the quality of the metadata.
 
 ## Learn pages
 

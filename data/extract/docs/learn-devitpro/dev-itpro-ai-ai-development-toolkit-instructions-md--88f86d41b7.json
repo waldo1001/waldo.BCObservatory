@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-instructions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-instructions",
+  "title": "Write effective instructions for an agent (preview)",
+  "blob": "c50ffda9abee558429e2a6690e2bf7dd11398fb6",
+  "summary": "Write effective instructions for an agent by using an iterative AI-assisted workflow that structures responsibilities, guidelines, and task instructions based on business logic and proven community patterns.",
+  "systems": [
+    "copilot",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "agent instructions",
+    "instruction framework",
+    "ai-assisted refinement",
+    "responsibilities and guidelines",
+    "instruction keywords",
+    "user intervention",
+    "memory management",
+    "error handling"
+  ],
+  "objects": [],
+  "features": [
+    "Instruction framework (responsibilities, guidelines, instructions)",
+    "AI-assisted instruction refinement",
+    "Community-driven best practices",
+    "Page-specific instructions with conditional logic",
+    "User intervention and review guidance",
+    "Memory and state management",
+    "Error handling and validation patterns",
+    "Version control and instruction history"
+  ],
+  "versions": [
+    "preview"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01016,
+      "pages_in_call": 3
+    }
+  ]
+}

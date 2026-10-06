@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/transparency-note-semantic-metadata-search.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-semantic-metadata-search",
+  "title": "Transparency Note Semantic Metadata Search in Business Central",
+  "blob": "ff85019ee26c524445ce6037b079c1c379edf690",
+  "summary": "Transparency Note on Semantic Metadata Search explains how this AI-powered search capability matches user queries to metadata entities using semantic similarity rather than exact keywords, with limitations based on metadata quality and scope limited to application objects, not business data.",
+  "systems": [
+    "copilot",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "semantic search",
+    "metadata",
+    "ai transparency",
+    "search",
+    "navigation",
+    "discoverability"
+  ],
+  "objects": [],
+  "features": [
+    "semantic similarity matching",
+    "synonym handling",
+    "abbreviation handling",
+    "integration with tell me",
+    "integration with report explorer"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008502,
+      "pages_in_call": 5
+    }
+  ]
+}

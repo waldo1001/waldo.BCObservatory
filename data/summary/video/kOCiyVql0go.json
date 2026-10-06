@@ -1,0 +1,28 @@
+{
+  "video_id": "kOCiyVql0go",
+  "item_id": "video/yt-microsoft/kOCiyVql0go",
+  "summary": "Business Central Fabric mirroring, shown as coming in public preview in version 29.x (likely 29.1): live sync of BC tables to OneLake as Delta Parquet, queried via a SQL endpoint. Covers the three-step setup, Power BI apps on Fabric, sync logs, six APIs and permission sets.",
+  "overview": "The video introduces Business Central integration with Microsoft Fabric through mirroring. Business Central data is synchronized to OneLake, the foundation for data in Fabric. Tables arrive as Delta Parquet files in an open mirroring database and are exposed as SQL tables through a SQL endpoint. Setup is described as three steps: set up a mirroring database in Fabric, connect Business Central to it, then choose tables and companies and start synchronization.\n\nIt also covers Power BI apps converted to run on the Fabric backend, with single-company and multi-company versions, and how to monitor the integration. Monitoring uses two logs (overview and details) in the Business Central client, through APIs, and in Fabric. The video ends with the permission sets that control who can set up and manage the integration. The speaker says the feature is coming in public preview in version 29.x, likely 29.1.",
+  "key_points": [
+    "Fabric mirroring is stated as coming in public preview in version 29.x, likely 29.1.",
+    "Setup is described as three steps: create a mirroring database in Fabric, connect Business Central to it, then specify tables and companies and start synchronization.",
+    "The Microsoft Fabric integration app needs a connection string set up manually from Fabric. Configuration packages can be used for ISV solutions.",
+    "Synced tables are Delta Parquet files in the open mirroring database in OneLake, not native SQL tables. The SQL endpoint abstracts them as SQL tables.",
+    "Nine Power BI apps are being delivered on the Fabric backend, in single-company and multi-company versions. The multi-company version adds a company filter. They are expected soon as code samples or on AppSource.",
+    "Synchronization writes an overview log and a details log in Business Central. They are available in the client, through APIs and in Fabric. The details page can be used in analysis mode for custom reports.",
+    "Six new APIs cover setup and monitoring of the Fabric integration. Permission sets separate activation, administration and read-only configuration access."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "1741fd97ad1b9d9e5034ec3922d47cd8fd0423f79bd6e34e6057cc20932c65af",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0444744
+  }
+}

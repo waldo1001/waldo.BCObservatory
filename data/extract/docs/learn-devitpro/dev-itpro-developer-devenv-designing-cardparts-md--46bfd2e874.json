@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-designing-cardparts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-cardparts",
+  "title": "CardPart Pages in Business Central",
+  "blob": "56126f4fb95be4f0df4533f0f81a38822e2075f0",
+  "summary": "Create CardPart pages to embed in other pages and display data using fields, cue tiles, images, or control add-ins. Use SubPageLink to filter card part data based on the hosting page context.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "cardpart pages",
+    "page parts",
+    "page design",
+    "factbox",
+    "user interface"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "CardPart"
+    }
+  ],
+  "features": [
+    "CardPart page type",
+    "cue groups",
+    "field controls",
+    "usercontrol (control add-ins)",
+    "SubPageLink filtering",
+    "FactBox support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006766,
+      "pages_in_call": 6
+    }
+  ]
+}

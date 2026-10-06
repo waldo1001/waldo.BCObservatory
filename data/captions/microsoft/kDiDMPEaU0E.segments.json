@@ -1,0 +1,291 @@
+{
+  "video_id": "kDiDMPEaU0E",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.6,
+      "end": 22.4,
+      "text": ">> Hello everyone and welcome to this session. My name is Volodymyr Synchuk and I'm a software developer with application team. Today I'm going to show you a new purchase order matching capability that we introduce with this release."
+    },
+    {
+      "t": 22.4,
+      "end": 36.8,
+      "text": "If you work with purchase orders and purchase invoices, you might have seen situation where in when vendor invoice arrives before goods are received or when one invoice covers multiple"
+    },
+    {
+      "t": 36.8,
+      "end": 51.8,
+      "text": "receipts or even multiple order lines. Current functionality assumes that posted receipts exist which is not always the case for real world scenarios."
+    },
+    {
+      "t": 51.8,
+      "end": 64.7,
+      "text": "And even if receipt exist current get receipt line experience will only allow you to match one invoice line to one receipt line, which is also a limitation."
+    },
+    {
+      "t": 64.7,
+      "end": 74.8,
+      "text": "You might also seen situation where you have a simple purchase orders that you just want to receive when you invoice arrive. With this new functionality,"
+    },
+    {
+      "t": 74.8,
+      "end": 85.8,
+      "text": "you will be able to match invoice line to one or multiple non-received order lines as well as to many"
+    },
+    {
+      "t": 85.8,
+      "end": 100.3,
+      "text": "partial receipt lines and you will also be able to auto post order receipt when posting matching invoice. So now let's see how it all works and let's start with the scenario"
+    },
+    {
+      "t": 100.3,
+      "end": 113.5,
+      "text": "where we match one invoice line to multiple non-posted order lines and then we post receipt and then we post matched invoice."
+    },
+    {
+      "t": 113.5,
+      "end": 122.4,
+      "text": "So here I have two orders for the same vendor, same item."
+    },
+    {
+      "t": 123.2,
+      "end": 135.5,
+      "text": "And I want to invoice both of them with one incoming invoice. So I create a new invoice document. And from here I have"
+    },
+    {
+      "t": 135.5,
+      "end": 155.8,
+      "text": "I have two ways of matching it to the order lines. I can use a new get order lines action that will show me all available order lines and here I can choose in this case uh it will create one invoice line per one"
+    },
+    {
+      "t": 155.8,
+      "end": 166.7,
+      "text": "order line, which is not what we want for for this example, so I'm just go and create the line manually."
+    },
+    {
+      "t": 166.7,
+      "end": 181.6,
+      "text": "Now line is there and I go to new matched order line user interface. What I can do here I can do several stuff, but let's start with a get in order lines themselves."
+    },
+    {
+      "t": 181.6,
+      "end": 195.3,
+      "text": "So those are open order lines. I'll select both and I match them here. I got indicator that we got some order matched for this invoice."
+    },
+    {
+      "t": 195.3,
+      "end": 206.7,
+      "text": "So what I'm going to do now, I'm going to go back to orders and post received. To make it a little bit more interesting"
+    },
+    {
+      "t": 206.7,
+      "end": 221.4,
+      "text": "I'm going to post a full receipt of the first one and I'm going to post two partial receipts for the second one."
+    },
+    {
+      "t": 225.4,
+      "end": 232.2,
+      "text": "Now let's go back to the invoice and see what we got here."
+    },
+    {
+      "t": 232.2,
+      "end": 243.8,
+      "text": "So now the order the invoice is only matched to order lines. If I try to post it now, there will be an error that it has to be"
+    },
+    {
+      "t": 243.8,
+      "end": 256.2,
+      "text": "matched at least one receipt line. So what I can do here, I can get receipt lines for this specific order or I can just reuse get order lines"
+    },
+    {
+      "t": 256.2,
+      "end": 267.3,
+      "text": "and then it will automatically add all existing posted receipts. So now we have >> [snorts] >> the entire picture here."
+    },
+    {
+      "t": 267.3,
+      "end": 279.2,
+      "text": "We have invoice line on top and then we have order line and receipt lines in a tree structure. You can also see that uh"
+    },
+    {
+      "t": 279.2,
+      "end": 293.7,
+      "text": "quantity to invoice is editable, meaning that you can invoice receipt partially. But for the purpose of this demo, let's let's just invoice them completely."
+    },
+    {
+      "t": 293.7,
+      "end": 299.6,
+      "text": "So I'm going to go and post the invoice."
+    },
+    {
+      "t": 299.6,
+      "end": 310.2,
+      "text": "Yes, I want to open posted invoice. And now I have a history of all the matching, so I can keep it. Yeah."
+    },
+    {
+      "t": 310.2,
+      "end": 321.8,
+      "text": "And analyze. And then if I just jump to for example receipt, I can see that quantity invoice is same as quantity received"
+    },
+    {
+      "t": 321.8,
+      "end": 335.8,
+      "text": "and same for the order. You can see that it is fully received and fully invoiced. And by the way, I can also see all my invoices from from the lookup."
+    },
+    {
+      "t": 335.8,
+      "end": 351.1,
+      "text": "That was first scenario, which will probably be the most common use. And as for the second scenario, let's let's explore how we can auto post receipts together with invoices."
+    },
+    {
+      "t": 351.1,
+      "end": 362.1,
+      "text": "For the second scenario, let's see how our auto receive functionality works. So I have two orders"
+    },
+    {
+      "t": 362.1,
+      "end": 373.8,
+      "text": "which are simple ones and I don't want to do anything complex with the receipt, so I just want to receive these orders as soon as invoice arrives."
+    },
+    {
+      "t": 373.8,
+      "end": 384.5,
+      "text": "What I can do here, I can mark these orders as received on invoice. I'm going to do it for both."
+    },
+    {
+      "t": 386.8,
+      "end": 397.2,
+      "text": "And now I will match invoice to these two orders. This time I want to use this"
+    },
+    {
+      "t": 397.2,
+      "end": 409.8,
+      "text": "get order lines, so I'll pick the first one. Line is there and I just add a second line here"
+    },
+    {
+      "t": 409.8,
+      "end": 423.9,
+      "text": "through matched order lines UI. So uh you can see that both orders are here and this received on invoice flag is set, meaning that whenever I post this invoice,"
+    },
+    {
+      "t": 423.9,
+      "end": 434.4,
+      "text": "receipt will be automatically posted. Let's just do something fun and let's try to"
+    },
+    {
+      "t": 434.4,
+      "end": 442.4,
+      "text": "do a partial invoice and receive."
+    },
+    {
+      "t": 442.8,
+      "end": 447.5,
+      "text": "Now I post the invoice."
+    },
+    {
+      "t": 447.5,
+      "end": 458.7,
+      "text": "Open matched order lines view and I can see uh that receipt are also posted together with the invoice."
+    },
+    {
+      "t": 458.7,
+      "end": 472.9,
+      "text": "I can go to the order and see that I got quantity received and quantity invoiced. All right, that was auto posting scenario that you can use with simple orders."
+    },
+    {
+      "t": 472.9,
+      "end": 488.1,
+      "text": "And now let's do something more complex. Let's try to use order matching with item which is tracked and where we use directed put away and pick location."
+    },
+    {
+      "t": 488.1,
+      "end": 500.8,
+      "text": "Let's use the item that has item tracking, serial item tracking. And let's take a vendor that uses directed put away and pick location."
+    },
+    {
+      "t": 500.8,
+      "end": 515.4,
+      "text": "So I got those two orders. Location is white, which is directed put away and pick. And then item is serialized, so we got some serial numbers."
+    },
+    {
+      "t": 515.4,
+      "end": 520.9,
+      "text": "Same goes for the second order."
+    },
+    {
+      "t": 521.5,
+      "end": 534.5,
+      "text": "Now let's see if we can match invoice towards that. And here since we have a directed put away and pick location, the process is slightly different."
+    },
+    {
+      "t": 534.5,
+      "end": 548.1,
+      "text": ">> [snorts] >> I can still use get order lines in the same way as before, so I just choose the line. But if I want to add line manually I will need to"
+    },
+    {
+      "t": 548.1,
+      "end": 564.2,
+      "text": "match it before I uh set up the quantity. So I'm going to add VMS location and if I try to put quantity now, I will get an error that it is not allowed."
+    },
+    {
+      "t": 564.2,
+      "end": 576.4,
+      "text": "So what I need to do, I need to >> [snorts] >> match it first. So I'm going to go and choose both order lines."
+    },
+    {
+      "t": 576.4,
+      "end": 588.9,
+      "text": ">> Yes, and I already posted receipt for this demo, so you see the whole structure is here. And now I can set my quantity without any errors."
+    },
+    {
+      "t": 588.9,
+      "end": 599,
+      "text": "You also might notice that we have item tracking entries action here meaning that"
+    },
+    {
+      "t": 599,
+      "end": 611.2,
+      "text": "I can see which >> [snorts] >> serial numbers I am uh invoicing from here. >> And here I also see a new uh field, receipt shipment number,"
+    },
+    {
+      "t": 611.2,
+      "end": 623,
+      "text": "showing me uh to which receipt uh these serial numbers are belong to. >> [snorts] >> I can also"
+    },
+    {
+      "t": 623,
+      "end": 634.5,
+      "text": "see all the tracking information in a in a in a normal way. Yep. So, let me post the invoice."
+    },
+    {
+      "t": 634.5,
+      "end": 648.9,
+      "text": "And done. Mhm. I'm go here and opening the order. And you see order is completely received and invoiced."
+    },
+    {
+      "t": 649.8,
+      "end": 662.2,
+      "text": "So, to wrap it up, uh with this new capability, you are able to cover much more real-world scenarios and you can be in a better control of your invoicing and receiving."
+    },
+    {
+      "t": 662.2,
+      "end": 669,
+      "text": "Check description for more information and thank you for watching."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    },
+    {
+      "t": 548.241,
+      "text": "[snorts]"
+    },
+    {
+      "t": 594.746,
+      "text": "[snorts]"
+    }
+  ],
+  "word_count": 1270
+}

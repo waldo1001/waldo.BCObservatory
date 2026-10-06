@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "al breaking changes review",
+  "title": "AL breaking changes review",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-breaking-changes-review.md",
   "published_at": "2026-09-29T10:48:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:30:12.779Z",
+      "blob": "5e2f3aa992e51a9d7ab88745029d92dec6f40376",
+      "words": 1416,
+      "forms": 0
     }
   },
   "input_hash": "5e2f3aa992e51a9d7ab88745029d92dec6f40376",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/skills/review/al-breaking-changes-review.md"
-  }
+    "path": "microsoft/skills/review/al-breaking-changes-review.md",
+    "description": "Reviews AL source changes against breaking-changes guidance from BCQuality.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1416
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5e2f3aa992e51a9d7ab88745029d92dec6f40376"
 }

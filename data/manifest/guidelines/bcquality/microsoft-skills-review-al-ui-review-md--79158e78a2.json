@@ -3,21 +3,37 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "al ui review",
+  "title": "AL UI and accessibility review",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-ui-review.md",
-  "published_at": "2026-10-02T07:53:14.000Z",
+  "published_at": "2026-10-06T11:30:59.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:56:04.687Z",
+      "blob": "bd53a2cf9e2cb364c0131f0d860203693200b082",
+      "words": 1805,
+      "forms": 0
     }
   },
-  "input_hash": "e5f237f1c68d4e63e597a0bb03f7915900cb9411",
+  "input_hash": "bd53a2cf9e2cb364c0131f0d860203693200b082",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/skills/review/al-ui-review.md"
-  }
+    "path": "microsoft/skills/review/al-ui-review.md",
+    "description": "Reviews AL page and control add-in UI files, and AL code that sends or recalls notifications, against UI text, caption, tooltip, notification, and accessibility guidance from BCQuality.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1805
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bd53a2cf9e2cb364c0131f0d860203693200b082"
 }

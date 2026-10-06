@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "agent setup page is configuration dialog",
+  "title": "Agent setup pages use ConfigurationDialog and the Agent Setup Part",
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/agents/agent-setup-page-is-configuration-dialog.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:35:35.764Z",
+      "blob": "083a83bccbddfa13aea4bc7da560c08c9dcf22c8",
+      "words": 141,
+      "forms": 0
     }
   },
   "input_hash": "083a83bccbddfa13aea4bc7da560c08c9dcf22c8",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "community/knowledge/agents/agent-setup-page-is-configuration-dialog.md"
-  }
+    "path": "community/knowledge/agents/agent-setup-page-is-configuration-dialog.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 141
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "083a83bccbddfa13aea4bc7da560c08c9dcf22c8"
 }

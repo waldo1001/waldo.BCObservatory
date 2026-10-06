@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Business Central Under the Hood episode 15: BC-Bench: How we evaluate AI on AL tasks",
   "url": "https://www.youtube.com/watch?v=Hdp4KbbGpQA",
-  "published_at": null,
+  "published_at": "2026-05-07T14:00:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:17:43.883Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1918
+    },
+    "captioned": {
+      "at": "2026-10-06T13:18:00.928Z",
+      "path": "data/captions/microsoft/Hdp4KbbGpQA.vtt",
+      "vtt_sha256": "d9f9d81075f3ea4386dd696cd8054ff966293ad74a60ff990fcc7171134e9f10",
+      "segments": 138,
+      "words": 5349,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 67,
-    "duration_s": 1919,
-    "via": "reconcile"
-  }
+    "duration_s": 1918,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d9f9d81075f3ea4386dd696cd8054ff966293ad74a60ff990fcc7171134e9f10"
 }

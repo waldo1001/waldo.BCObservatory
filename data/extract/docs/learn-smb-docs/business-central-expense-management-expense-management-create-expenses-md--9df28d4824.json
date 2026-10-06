@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-create-expenses.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-create-expenses",
+  "title": "Create and Manage Expenses in Business Central",
+  "blob": "f2b6c1b383af83f5c650b139e522a5ad680cdf63",
+  "summary": "Create and manage individual expenses with itemizations, participants, mileage, per diem details, and reimbursement settings before adding them to expense reports.",
+  "systems": [
+    "finance",
+    "projects"
+  ],
+  "topics": [
+    "expense management",
+    "itemization",
+    "mileage",
+    "per diem",
+    "reimbursement",
+    "billing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Expense"
+    },
+    {
+      "type": "page",
+      "name": "Expense Itemizations"
+    }
+  ],
+  "features": [
+    "Expense card with category and date",
+    "Receipt attachment and preview",
+    "Itemizations with subcategories",
+    "Participants for business meals",
+    "Mileage expenses with vehicle types",
+    "Per diem calculations by location",
+    "Refundable and reimbursable amounts",
+    "Project and task assignment",
+    "Dimension assignment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009347,
+      "pages_in_call": 4
+    }
+  ]
+}

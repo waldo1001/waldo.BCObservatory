@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/create-agent-in-copilot-studio",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1045e9a1f69a2b311f828eded4134e1af171bdad",
       "words": 1848,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:20:57.254Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.016413
+    },
+    "summarized": {
+      "at": "2026-10-06T13:22:19.143Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:22:19.143Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:22:19.143Z",
+      "page": false
     }
   },
   "input_hash": "1045e9a1f69a2b311f828eded4134e1af171bdad",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1045e9a1f69a2b311f828eded4134e1af171bdad"
+  "output_hash": "f0f80721008a015a01ee901d34cde93da1285bf49cd2cd2daad56f70e69cb9c1"
 }

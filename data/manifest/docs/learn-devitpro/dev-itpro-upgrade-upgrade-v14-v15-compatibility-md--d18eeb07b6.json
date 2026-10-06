@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-v14-v15-compatibility",
   "published_at": "2026-10-01T20:34:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c7bf2f55049432bb66a7d48543cea0f26277a32c",
       "words": 1787,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:30:12.726Z",
+      "prompt": "extract-docs@1",
+      "parts": 2,
+      "objects": 0,
+      "cost_usd": 0.058627
+    },
+    "summarized": {
+      "at": "2026-10-06T13:30:12.766Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:30:12.767Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:30:12.767Z",
+      "page": false
     }
   },
   "input_hash": "c7bf2f55049432bb66a7d48543cea0f26277a32c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c7bf2f55049432bb66a7d48543cea0f26277a32c"
+  "output_hash": "cf1e7a0434f857d41b0d2f299d70f6e15e5761f84c8a6f911d4c9f54330a6af1"
 }

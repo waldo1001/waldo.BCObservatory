@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-cardparts",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "56126f4fb95be4f0df4533f0f81a38822e2075f0",
       "words": 311,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:32:55.328Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.006766
+    },
+    "summarized": {
+      "at": "2026-10-06T13:32:55.371Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:32:55.371Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:32:55.371Z",
+      "page": false
     }
   },
   "input_hash": "56126f4fb95be4f0df4533f0f81a38822e2075f0",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "56126f4fb95be4f0df4533f0f81a38822e2075f0"
+  "output_hash": "537138c259ab4ec3b076601936c6219f48efe76cfede32ba12e292c8212bc974"
 }

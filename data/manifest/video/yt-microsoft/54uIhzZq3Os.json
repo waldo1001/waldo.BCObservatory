@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Expense Agent: Finance Controlling (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=54uIhzZq3Os",
-  "published_at": null,
+  "published_at": "2026-08-07T13:00:06.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:13:37.922Z",
+      "captions": "auto:en-orig",
+      "duration_s": 307
+    },
+    "captioned": {
+      "at": "2026-10-06T13:13:45.435Z",
+      "path": "data/captions/microsoft/54uIhzZq3Os.vtt",
+      "vtt_sha256": "c2e27773501320b728dcbbfb8c5716b0df49ff476021a09f5834ae007a34d58f",
+      "segments": 25,
+      "words": 656,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 53,
-    "duration_s": 308,
-    "via": "reconcile"
-  }
+    "duration_s": 307,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c2e27773501320b728dcbbfb8c5716b0df49ff476021a09f5834ae007a34d58f"
 }

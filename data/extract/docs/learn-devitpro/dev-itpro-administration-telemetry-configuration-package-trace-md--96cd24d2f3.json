@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-configuration-package-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-configuration-package-trace",
+  "title": "Analyze Configuration Package Telemetry",
+  "blob": "548b18242d4c6beb76476cc75409748c1cff2024",
+  "summary": "Configuration package telemetry logs export, import, apply, and delete operations on configuration packages in Business Central 2020 release wave 2 and later. Track RapidStart operations with execution times and record counts.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "configuration packages",
+    "rapidstart",
+    "telemetry",
+    "import export",
+    "data migration",
+    "application insights"
+  ],
+  "objects": [],
+  "features": [
+    "Configuration package export (AL0000E3F, AL0000E3G)",
+    "Configuration package import (AL0000E3H, AL0000E3I)",
+    "Configuration package apply (AL0000E3N, AL0000E3O)",
+    "Configuration package delete (AL0000E3P)",
+    "alExecutionTimeInMs",
+    "alRecordCount",
+    "alFieldCount",
+    "alErrorCount"
+  ],
+  "versions": [
+    "2020 release wave 2",
+    "version 17.2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010059,
+      "pages_in_call": 4
+    }
+  ]
+}

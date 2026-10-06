@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/mcp-overview",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "53b78a895bf5f382f82fb6f66c91b62912fabc91",
       "words": 796,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:20:57.254Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.017141
+    },
+    "summarized": {
+      "at": "2026-10-06T13:22:33.026Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:22:33.027Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:22:33.027Z",
+      "page": false
     }
   },
   "input_hash": "53b78a895bf5f382f82fb6f66c91b62912fabc91",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "53b78a895bf5f382f82fb6f66c91b62912fabc91"
+  "output_hash": "fd0920f58259aa8c36859c06f7155a8e265d662f77aa01b7742fefa1dd18127a"
 }

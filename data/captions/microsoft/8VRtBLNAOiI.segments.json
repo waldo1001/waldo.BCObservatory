@@ -1,0 +1,206 @@
+{
+  "video_id": "8VRtBLNAOiI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 7,
+      "end": 18.8,
+      "text": ">> Welcome to Business Central Launch Edition 2026 Wave 1. Uh, my name is Alexander Totovic and I will start with this session introduction in self-billing invoices."
+    },
+    {
+      "t": 18.8,
+      "end": 29.6,
+      "text": "Let's see what it's about. Uh, first I want to explain what exactly self-billing is because there are different interpretation uh what is about."
+    },
+    {
+      "t": 29.6,
+      "end": 41.9,
+      "text": "So, what is self-billing in a case of this new functionality? So, this is a process where the customer, instead of the vendor, create the invoice for goods or service received."
+    },
+    {
+      "t": 41.9,
+      "end": 55.6,
+      "text": "So, that means customer will issue invoice on behalf of his own vendor. That means customers must have some specific agreement with vendor, but if everything works fine, a customer now can do it directly in a Business Central."
+    },
+    {
+      "t": 55.6,
+      "end": 67.4,
+      "text": "In practice, how does it work? First, user, as a customer, need to create purchase order and to send this purchase order to his vendor. Then, vendor will deliver goods,"
+    },
+    {
+      "t": 67.4,
+      "end": 80.7,
+      "text": "services, whatever is uh subject of this uh transfer. After that, goods will be received into the warehouse and from this purchase order, customer will automatically create a self-billing."
+    },
+    {
+      "t": 80.7,
+      "end": 95.9,
+      "text": "And after that, it will be sent to the vendor and paid on the end. So, this is shortly the process what is about self-billing. So, the main business values we will reduce operational workload and faster processing."
+    },
+    {
+      "t": 95.9,
+      "end": 115.4,
+      "text": "So, earlier, you could do partially, but you had to do a lot of uh steps manually and plus, we will improve completely accuracy and compliance because earlier, you minimum need to you need to have some specific customization how to prepare specific uh invoice sales invoice connected on a purchase order."
+    },
+    {
+      "t": 115.4,
+      "end": 127.2,
+      "text": "You needed some configuration there. So, now everything is >> [snorts] >> uh enabled by default, so you can easily start and use it. >> [gasps] >> Setup is not so complicated."
+    },
+    {
+      "t": 127.2,
+      "end": 144.6,
+      "text": "In general, you will find on a uh invoicing fast tab on a vendor card, self-billing agreement uh boolean field. You just need to enable it. So, from the moment when you enable it, you will automatically create self-billing invoices from purchase order or purchase invoice for this vendor."
+    },
+    {
+      "t": 144.6,
+      "end": 159.6,
+      "text": "So, you do not need to expect this invoice from your vendor. So, only this one setup field. >> [snorts] >> What else is necessary? You need to go to purchase and payable setup and to create posted self-billing invoice number series."
+    },
+    {
+      "t": 159.6,
+      "end": 174.1,
+      "text": "Uh this number series will be used as external document number because now you need to create your vendor uh sales invoice on behalf of them and that means you need to have some uh a number of series for that."
+    },
+    {
+      "t": 174.1,
+      "end": 186.2,
+      "text": "After that, when you configure everything, you just need to start with your purchase invoice or purchase order, whatever you decide regardless, and your vendor invoice number will be populated automatically based on this number series."
+    },
+    {
+      "t": 186.2,
+      "end": 203,
+      "text": "You don't need to enter uh this external document number. One thing before that, before you start, you need to choose uh specific uh report. So, you need to go to report selection, purchase, and to select self-billing invoice type."
+    },
+    {
+      "t": 203,
+      "end": 213.7,
+      "text": "Now, I will show you how you can do it in a demo. I already mentioned you need to open vendor card. I already configured this one vendor 50,000."
+    },
+    {
+      "t": 213.7,
+      "end": 227.3,
+      "text": "So, if you look here invoicing, self-billing agreement is a new field and I already marked it. So, that means from this moment, I don't need to create manually sales invoices from this customer."
+    },
+    {
+      "t": 227.3,
+      "end": 238.8,
+      "text": "Okay. Um what else I need to do? I need to go to purchase and payable setup."
+    },
+    {
+      "t": 239.1,
+      "end": 252.4,
+      "text": "And to create posted sales billing invoices number series. And the last report selection"
+    },
+    {
+      "t": 252.4,
+      "end": 265.2,
+      "text": "for purchase and you will find the last new option self-billing invoice. You have new report 413 self-billing invoice and this is what system will use."
+    },
+    {
+      "t": 265.2,
+      "end": 279,
+      "text": "So, now when I start with a purchase invoice, for example, and create new one, if I use this vendor,"
+    },
+    {
+      "t": 279,
+      "end": 292.6,
+      "text": "you will see vendor invoice number is disabled because this vendor is already planned to be used as a uh for self-billing invoicing. So, now only what I need to do is to select one of"
+    },
+    {
+      "t": 292.6,
+      "end": 296.8,
+      "text": "items to close this."
+    },
+    {
+      "t": 296.8,
+      "end": 304.2,
+      "text": "Okay, I will purchase one"
+    },
+    {
+      "t": 304.2,
+      "end": 310.3,
+      "text": "chair and post it."
+    },
+    {
+      "t": 310.5,
+      "end": 318.3,
+      "text": "Okay. Now, when I open posted document,"
+    },
+    {
+      "t": 318.8,
+      "end": 334.2,
+      "text": "I can use print send and you will see I have now a report layout by default self-billing invoice. If I open and preview it, you will see even this is from purchase invoice,"
+    },
+    {
+      "t": 334.2,
+      "end": 344.6,
+      "text": "you have now printout you can use as your inbound invoice from your vendor. So, this is named as a self-billing invoice."
+    },
+    {
+      "t": 344.6,
+      "end": 356.2,
+      "text": "So, you have your regular number uh series for your uh posted purchase invoices. So, you have here now your vendor information. Now, you are a customer."
+    },
+    {
+      "t": 356.2,
+      "end": 367.2,
+      "text": "All other details are here. So, everything what you purchased, everything is fine. So, all important information are filled in the same as any sales invoice will be exposed here."
+    },
+    {
+      "t": 367.2,
+      "end": 377.7,
+      "text": "So, you can print it, you can use it without any problem. Even if this is in a background, this is posted purchase invoice, it will be showed as a sales invoice."
+    },
+    {
+      "t": 377.7,
+      "end": 388.1,
+      "text": "The same situation is if you choose a purchase order. I will not post, I will just create new one just to show how it works."
+    },
+    {
+      "t": 388.1,
+      "end": 399.3,
+      "text": "Okay, you will see vendor invoice number is now disabled. And again, you can just choose one of options and you can post. Result will be absolutely the same."
+    },
+    {
+      "t": 399.3,
+      "end": 410.2,
+      "text": "So, this is about how system is worked. In general, this is not complicated, but it will help a lot, especially if you have big distributors and uh you want to have self-billing invoice."
+    },
+    {
+      "t": 410.2,
+      "end": 427.6,
+      "text": "Earlier, you needed some customization, so now it can go much easier. What I want to emphasize in this moment. Currently, we deliver this functionality, so this is uh available from uh 26 release wave 1, but we do not have covered electronic invoicing basing on self-billing invoice."
+    },
+    {
+      "t": 427.6,
+      "end": 447.3,
+      "text": "So, this is something what we plan to deliver uh next release because first we want to get the feedback how it works. So, if everything is okay for you, if uh there is no any issue how it works, we will deliver electronic invoicing based on this functionality in next release."
+    },
+    {
+      "t": 447.3,
+      "end": 459.5,
+      "text": "So, now before I close this session, I just want to emphasize all these links, important links you can follow, you can track uh LinkedIn as well and our YouTube channel."
+    },
+    {
+      "t": 459.5,
+      "end": 471,
+      "text": "So, please go there and you can find a lot of interesting content. So, now thank you for joining this session in Business Central Launch Edition."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    },
+    {
+      "t": 85.805,
+      "text": "[snorts]"
+    },
+    {
+      "t": 395.624,
+      "text": "[snorts]"
+    }
+  ],
+  "word_count": 1097
+}

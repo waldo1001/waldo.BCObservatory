@@ -1,0 +1,69 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-develop-custom-api.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api",
+  "title": "Developing a custom API",
+  "blob": "9e3fb2a2f3d9fc6e424d5ed6600ce3f1e23fbc2c",
+  "summary": "Develop custom API pages in AL to expose table data through REST endpoints. Walkthrough covers creating API pages with proper configuration (APIVersion, APIPublisher, APIGroup), managing relationships using parts and navigation properties, and transitioning from deprecated ODataEDMType complex types.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "custom api",
+    "api pages",
+    "odata",
+    "navigation properties",
+    "complex types",
+    "relationships",
+    "deep insert"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Car Brand"
+    },
+    {
+      "type": "table",
+      "name": "Car Model"
+    },
+    {
+      "type": "page",
+      "name": "API Car Model"
+    },
+    {
+      "type": "page",
+      "name": "API Car Brand"
+    },
+    {
+      "type": "enum",
+      "name": "Fuel Type"
+    }
+  ],
+  "features": [
+    "API page type",
+    "ODataKeyFields",
+    "SystemId",
+    "EntityCaption",
+    "EntitySetCaption",
+    "EntityName",
+    "EntitySetName",
+    "APIVersion",
+    "APIPublisher",
+    "APIGroup",
+    "SubPageLink",
+    "Multiplicity"
+  ],
+  "versions": [
+    "API v2.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019299,
+      "pages_in_call": 2
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-agent-visibility.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-agent-visibility",
+  "title": "Understand agent visibility (preview)",
+  "blob": "e20fc12959321b8fcff14268e3555ad32c8024e7",
+  "summary": "Controlling agent visibility in the role center based on application installation, Copilot capability status, agent permissions, user permissions, and archiving state for both activated and not-yet-activated agents.",
+  "systems": [
+    "copilot",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "agent visibility",
+    "permissions",
+    "role center",
+    "agent archiving",
+    "access controls",
+    "agent administrators",
+    "instance creation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Copilot & agent capabilities"
+    },
+    {
+      "type": "page",
+      "name": "Agents"
+    },
+    {
+      "type": "page",
+      "name": "Agent Configuration Rights"
+    },
+    {
+      "type": "interface",
+      "name": "IAgentArchiving"
+    },
+    {
+      "type": "interface",
+      "name": "IAgentFactory"
+    }
+  ],
+  "features": [
+    "agent avatar visibility",
+    "activated agents",
+    "not-yet-activated agents",
+    "extension agents",
+    "agent archiving",
+    "user permissions",
+    "agent administrators",
+    "access controls",
+    "instance creation control"
+  ],
+  "versions": [
+    "28.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0104,
+      "pages_in_call": 3
+    }
+  ]
+}

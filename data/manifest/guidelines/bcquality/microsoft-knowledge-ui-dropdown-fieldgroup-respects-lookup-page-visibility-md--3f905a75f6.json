@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "dropdown fieldgroup respects lookup page visibility",
+  "title": "A `DropDown` field remains hidden when its lookup-page control is hidden",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/dropdown-fieldgroup-respects-lookup-page-visibility.md",
   "published_at": "2026-09-21T08:15:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:32:30.862Z",
+      "blob": "afa2c34d0fc4caac566e1c15b8145e0beb1b7e47",
+      "words": 146,
+      "forms": 0
     }
   },
   "input_hash": "afa2c34d0fc4caac566e1c15b8145e0beb1b7e47",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/ui/dropdown-fieldgroup-respects-lookup-page-visibility.md"
-  }
+    "path": "microsoft/knowledge/ui/dropdown-fieldgroup-respects-lookup-page-visibility.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 146
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "afa2c34d0fc4caac566e1c15b8145e0beb1b7e47"
 }

@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-working-with-media-on-records.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-working-with-media-on-records",
+  "title": "Working With Media on Records",
+  "blob": "c4dbc68e0cb3192a4f8195c59f2255a2c90dc98d",
+  "summary": "Media and MediaSet data types enable storing images and documents in system tables for display on records, pages, reports, and tile layouts with better performance and caching than BLOB fields.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "media handling",
+    "data types",
+    "record storage",
+    "performance",
+    "image management",
+    "blob alternatives"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Tenant Media"
+    },
+    {
+      "type": "table",
+      "name": "Tenant Media Set"
+    }
+  ],
+  "features": [
+    "Media data type",
+    "MediaSet data type",
+    "MIME type support",
+    "Media indexing",
+    "Media sharing between tables",
+    "RDLC report media integration",
+    "Automatic deletion of unused media"
+  ],
+  "versions": [
+    "2021 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017669,
+      "pages_in_call": 2
+    }
+  ]
+}

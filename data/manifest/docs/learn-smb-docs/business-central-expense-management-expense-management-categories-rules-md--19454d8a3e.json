@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-categories-rules",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "722cda37ee596fd182d31fcee2ee5a917f4d0cf3",
       "words": 2146,
       "forms": 11
+    },
+    "extracted": {
+      "at": "2026-10-06T13:37:07.419Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.009347
+    },
+    "summarized": {
+      "at": "2026-10-06T13:37:07.452Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:37:07.452Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:37:07.452Z",
+      "page": false
     }
   },
   "input_hash": "722cda37ee596fd182d31fcee2ee5a917f4d0cf3",
@@ -91,5 +110,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "722cda37ee596fd182d31fcee2ee5a917f4d0cf3"
+  "output_hash": "311ad61ebef00b3f0b9eb857acb126594b52991b0e2ed0b14514348d8373e4c9"
 }

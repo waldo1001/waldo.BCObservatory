@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "al web services review",
+  "title": "AL web services review",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-web-services-review.md",
   "published_at": "2026-09-29T15:12:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:28:01.517Z",
+      "blob": "6d7d71a0a9fed6d6fb401dda6f79d9018da633f7",
+      "words": 1768,
+      "forms": 0
     }
   },
   "input_hash": "6d7d71a0a9fed6d6fb401dda6f79d9018da633f7",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/skills/review/al-web-services-review.md"
-  }
+    "path": "microsoft/skills/review/al-web-services-review.md",
+    "description": "Reviews AL API surfaces, outbound HTTP integrations, and webhook handlers against web-services guidance from BCQuality.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1768
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6d7d71a0a9fed6d6fb401dda6f79d9018da633f7"
 }

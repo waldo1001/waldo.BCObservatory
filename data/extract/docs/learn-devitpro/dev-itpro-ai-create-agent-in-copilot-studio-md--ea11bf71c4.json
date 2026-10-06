@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/create-agent-in-copilot-studio.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/create-agent-in-copilot-studio",
+  "title": "Create Agents in Copilot Studio that Connect to Business Central",
+  "blob": "1045e9a1f69a2b311f828eded4134e1af171bdad",
+  "summary": "Create agents in Copilot Studio that connect to Business Central using the Business Central connector or MCP server to read and write records, call APIs, and automate business tasks. Configure connector actions or MCP server connections with appropriate Business Central permissions.",
+  "systems": [
+    "copilot",
+    "integration",
+    "sales"
+  ],
+  "topics": [
+    "copilot studio",
+    "agents",
+    "business central connector",
+    "mcp server",
+    "ai integration",
+    "low-code automation"
+  ],
+  "objects": [],
+  "features": [
+    "Business Central connector",
+    "MCP server integration",
+    "Agent tools configuration",
+    "Record operations (find, create, update, delete)",
+    "API actions",
+    "Dynamic tool discovery",
+    "Agent testing",
+    "Agent publishing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016413,
+      "pages_in_call": 2
+    }
+  ]
+}

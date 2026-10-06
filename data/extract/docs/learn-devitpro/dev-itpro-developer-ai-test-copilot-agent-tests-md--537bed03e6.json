@@ -1,0 +1,67 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/ai-test-copilot-agent-tests.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-agent-tests",
+  "title": "Write agent tests",
+  "blob": "9df580a7f77448cb8d3ba11a3dce1b27c83fdd51",
+  "summary": "Write agent tests describes how to create end-to-end agent tests using the AI Test Suite and Library - Agent codeunit to verify that Business Central agents receive input, decide correctly, interact with the system, and complete or pause appropriately.",
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "agent test",
+    "ai test suite",
+    "library - agent",
+    "test automation",
+    "datasets",
+    "intervention handling",
+    "task lifecycle"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Library - Agent"
+    },
+    {
+      "type": "codeunit",
+      "name": "AIT Test Context"
+    },
+    {
+      "type": "codeunit",
+      "name": "Agent Task Builder"
+    },
+    {
+      "type": "codeunit",
+      "name": "Agent Task Message Builder"
+    },
+    {
+      "type": "codeunit",
+      "name": "Test Input Json"
+    },
+    {
+      "type": "table",
+      "name": "Agent Task"
+    }
+  ],
+  "features": [
+    "agent test definition",
+    "data-driven testing",
+    "turn loop execution",
+    "intervention declarations",
+    "suite-level setup",
+    "manual task management",
+    "task lifecycle control",
+    "intervention request validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011061,
+      "pages_in_call": 4
+    }
+  ]
+}

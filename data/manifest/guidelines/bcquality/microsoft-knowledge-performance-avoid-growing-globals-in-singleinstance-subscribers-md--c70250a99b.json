@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "avoid growing globals in singleinstance subscribers",
+  "title": "Avoid growing globals in SingleInstance subscribers",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/avoid-growing-globals-in-singleinstance-subscribers.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.333Z",
+      "blob": "82a3bb775c2e6cdea5a80838753e4a663cecd375",
+      "words": 201,
+      "forms": 0
     }
   },
   "input_hash": "82a3bb775c2e6cdea5a80838753e4a663cecd375",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/avoid-growing-globals-in-singleinstance-subscribers.md"
-  }
+    "path": "microsoft/knowledge/performance/avoid-growing-globals-in-singleinstance-subscribers.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 201
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "82a3bb775c2e6cdea5a80838753e4a663cecd375"
 }

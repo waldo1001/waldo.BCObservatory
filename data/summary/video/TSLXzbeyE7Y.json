@@ -1,0 +1,28 @@
+{
+  "video_id": "TSLXzbeyE7Y",
+  "item_id": "video/yt-microsoft/TSLXzbeyE7Y",
+  "summary": "Microsoft Copilot Chat built into Business Central (2026 release wave 2), shown in a 5-minute demo: sales tax setup, finding underperforming items, sales improvement suggestions, calendar-based meeting prep with a sales brief, and general directions help.",
+  "overview": "The video introduces the new Microsoft Copilot Chat built directly into Business Central and walks through a set of scenarios in one session. Release status of the feature is not stated.\n\nThe demo covers setting up sales tax for a state such as Oregon using data pulled from the internet, and analyzing Business Central sales data for items that sold the least in the last 3 months. It then shows Copilot suggesting how to improve sales of those items. Next, Copilot reads the user's calendar, finds a customer meeting, and produces a sales brief. The video ends with Copilot giving directions, which goes beyond Business Central data.",
+  "key_points": [
+    "Copilot Chat is built directly into Business Central and handles several business scenarios in one chat.",
+    "Sales tax setup: Copilot pulls data from the internet to guide state-specific setup, for example Oregon. This needs internet connectivity.",
+    "Sales analysis: Copilot finds items that sold the least in the last 3 months. Reasoning over data can take longer to process.",
+    "Improvement suggestions for weak items include bundling items, promoting color variants, and cross-selling.",
+    "Meeting prep: Copilot accesses the user's calendar to find a customer meeting, which requires calendar access permissions.",
+    "The generated sales brief includes sales figures, sales momentum, account risk assessment, and recommended talking points.",
+    "Copilot also answers general knowledge questions such as directions and travel, outside Business Central scope."
+  ],
+  "audience": [
+    "end user",
+    "functional consultant",
+    "decision maker",
+    "administrator"
+  ],
+  "extraction_hash": "36b7c76ab275aaac0efb7cf23f55146049828a7557348a7d0acefb9c83a00c0e",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0415484
+  }
+}

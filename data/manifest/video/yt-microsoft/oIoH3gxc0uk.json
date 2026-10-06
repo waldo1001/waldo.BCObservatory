@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Execution & Control Flushing Methods (2026)",
   "url": "https://www.youtube.com/watch?v=oIoH3gxc0uk",
-  "published_at": null,
+  "published_at": "2026-09-08T11:44:47.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:09:57.033Z",
+      "captions": "auto:en-orig",
+      "duration_s": 276
+    },
+    "captioned": {
+      "at": "2026-10-06T13:10:02.824Z",
+      "path": "data/captions/microsoft/oIoH3gxc0uk.vtt",
+      "vtt_sha256": "11c4c57124b247ac6f518017451b63648e4378eba2d8349a5e8c540b16a2c25b",
+      "segments": 23,
+      "words": 677,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 42,
-    "duration_s": 277,
-    "via": "reconcile"
-  }
+    "duration_s": 276,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "11c4c57124b247ac6f518017451b63648e4378eba2d8349a5e8c540b16a2c25b"
 }

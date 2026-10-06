@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/payables-agent.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/payables-agent",
+  "title": "Payables Agent Overview in Business Central",
+  "blob": "e872579bccdc5dccd142390d5e17dc7701a8437c",
+  "summary": "Payables Agent automates end-to-end vendor invoice processing by monitoring email, extracting invoice data with OCR, identifying vendors, proposing line matches to purchase orders, and creating invoice drafts for supervisor review. Use this to understand the agent's workflow and capabilities.",
+  "systems": [
+    "purchasing",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "payables agent",
+    "vendor invoices",
+    "invoice processing",
+    "purchase orders",
+    "ocr extraction",
+    "email monitoring",
+    "draft approval"
+  ],
+  "objects": [],
+  "features": [
+    "Email monitoring and dispatcher",
+    "PDF extraction with Azure Document Intelligence",
+    "Vendor identification and creation",
+    "Purchase order line matching",
+    "Invoice draft creation",
+    "Supervisor review workflow",
+    "Background task processing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011398,
+      "pages_in_call": 3
+    }
+  ]
+}

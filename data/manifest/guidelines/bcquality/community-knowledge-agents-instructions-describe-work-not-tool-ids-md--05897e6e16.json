@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "instructions describe work not tool ids",
+  "title": "Instructions describe outcomes, not page action or tool names",
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/agents/instructions-describe-work-not-tool-ids.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:36:41.493Z",
+      "blob": "1487364f7dad218224e1a31de16f97665c5d2af5",
+      "words": 135,
+      "forms": 0
     }
   },
   "input_hash": "1487364f7dad218224e1a31de16f97665c5d2af5",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "community/knowledge/agents/instructions-describe-work-not-tool-ids.md"
-  }
+    "path": "community/knowledge/agents/instructions-describe-work-not-tool-ids.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 135
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1487364f7dad218224e1a31de16f97665c5d2af5"
 }

@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/business-central/copilot-and-agent-capabilities/sales-order-agent",
+  "input_hash": "34dc56b6c2c43084e758deff34bb6defacc2c7ceaeadb0a5ae9f7cd38f4a27c9",
+  "summary": "Sales Order Agent is an AI agent in Business Central that captures sales orders from customer emails: it identifies customers and items, checks availability, prepares quotes and converts them to orders. These pages answer questions about what it does, how to set it up, how to use it day to day, and common FAQs.",
+  "overview": "Sales Order Agent automates sales order capture. It monitors a mailbox, analyzes incoming emails and attachments, identifies the contact and customer, matches items, checks inventory availability, and creates sales quotes and orders. When details are missing it continues the conversation with the customer by email over multiple turns.\n\nThe section has four pages and no subtopics. The overview explains the capabilities, including item search, availability checking and capable-to-promise calculation. The setup page covers activating the agent, mailbox monitoring, document creation rules and user access. The process page describes the daily workflow, where users review emails, confirm quotes, check availability and help when the agent is blocked. The FAQ covers configuration, task execution, the email dispatcher, access and permissions, transparency and change control, and customer identification.\n\nStart with the overview to understand the scope, then follow the setup page to activate and configure the agent. Use the process page when you are working with agent tasks, and the FAQ for specific questions on permissions, control and customer identification.",
+  "key_points": [
+    "The agent monitors a mailbox, categorizes emails and analyzes attachments to find sales requests.",
+    "It identifies contacts and customers automatically and searches and matches items from the email content.",
+    "It checks inventory availability and supports capable-to-promise calculation.",
+    "When information is missing, it holds multi-turn email conversations with the customer and generates email drafts.",
+    "It creates sales quotes, and can convert them to sales orders based on the document creation rules set up for it.",
+    "Users stay in control: they review emails, confirm quotes and step in when the agent needs unblocking, with a task timeline to track what happened.",
+    "Setup covers activation, mailbox monitoring, quote creation and confirmation rules, sales order conversion, customer contact matching and user access management.",
+    "The FAQ covers the email dispatcher, access and permissions, and transparency and change control."
+  ],
+  "members_used": 4,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-06T13:40:54.138Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.04002700000000001
+  }
+}

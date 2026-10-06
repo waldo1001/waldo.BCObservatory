@@ -1,0 +1,208 @@
+{
+  "video_id": "Rvgt_VXFr1I",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6,
+      "end": 17.4,
+      "text": ">> Hello. My name is Thomas and I'm joined here today with my colleague Thaddeus. We are part of the team that works on the set of developer tools and we'll be showing you the latest set of testing capabilities"
+    },
+    {
+      "t": 17.4,
+      "end": 35.6,
+      "text": "added in this release. In this release, we have added the ability to run tests in Visual Studio Code. You'll be able to see all of your tests in the testing explorer and see which one have failed and passed and get a great overview of what you have in there."
+    },
+    {
+      "t": 35.6,
+      "end": 49.4,
+      "text": "Part of this is a set of run profiles. There is the profile for publishing and running your tests. That means that you will publish your package and run the tests all in one operation."
+    },
+    {
+      "t": 49.4,
+      "end": 61.4,
+      "text": "Or you can decide just to run your tests. Next up, you can debug all of your tests and lastly, you can decide to run your test and collect code coverage information."
+    },
+    {
+      "t": 61.4,
+      "end": 78.2,
+      "text": "All of this is done without any specific application added to your system, but only using the parts part of the platform. But let's show you how it's done in the product."
+    },
+    {
+      "t": 78.9,
+      "end": 91.8,
+      "text": "In here, we have a workspace with two projects. I have my core set of functionality and I have a project with all of my tests. With the new release, we now have the testing panel over here."
+    },
+    {
+      "t": 91.8,
+      "end": 102,
+      "text": "This will show me all of my tests first grouped by my project, then by code units, and lastly, it will show all of the tests in here."
+    },
+    {
+      "t": 102,
+      "end": 114.8,
+      "text": "At the top, we will see the run profiles. Up here, we have the publish and run. We have the ability to debug our tests and to run the test with code coverage information."
+    },
+    {
+      "t": 114.8,
+      "end": 128.4,
+      "text": "Let's try and run the test with code coverage information. >> [snorts] >> So, I'll take and select my project and I'll run with code coverage information. And you can see in just a few seconds, we have a set of results here."
+    },
+    {
+      "t": 128.4,
+      "end": 139.9,
+      "text": "Some of them have passed, some of them have failed. So, let's dig into this. Since I ran all my tests with code coverage information, it will give me this new code lens element."
+    },
+    {
+      "t": 139.9,
+      "end": 155.4,
+      "text": "It tells me that I have four tests that have executed this procedure and one of them has passed. If I click on the code lens element, it will now run the associated set of tests."
+    },
+    {
+      "t": 155.4,
+      "end": 166.2,
+      "text": "I can see down here in the test results that I have three tests that have failed and one has passed. >> [snorts] >> But now, let's figure out what's the what has gone wrong here."
+    },
+    {
+      "t": 166.2,
+      "end": 182.1,
+      "text": "I'll hand it over to my colleague to figure out what's wrong. Thank you, Thomas. So, now as we have seen, we have a whole bunch of tests failing. And traditionally, how we would figure out what's failing and try to fix it is that we would debug this test."
+    },
+    {
+      "t": 182.1,
+      "end": 196.4,
+      "text": "And if you use the AL test tool, like the old way of running tests in the client, you'll know that actually debugging AL tests can be a big pain. Like you have to sort of like attach your debugger to it, find the right session, and then execute the test."
+    },
+    {
+      "t": 196.4,
+      "end": 208,
+      "text": "Um but now, from VS Code, it's like really, really easy to set up a run and debug. So, there's a couple of different ways you can do this. The first way is from the test explorer itself."
+    },
+    {
+      "t": 208,
+      "end": 219.2,
+      "text": "You have this little thing here that you can say debug test. Uh you can also go to a specific test and in the sidebar, you have this icon. You can right click debug test."
+    },
+    {
+      "t": 219.2,
+      "end": 232.8,
+      "text": "But for me personally, my favorite way of running tests, especially when they're failing, is to run it from the test results here because you have this nice little thing here that says, \"Hey, debug failed test.\" So, let's do that."
+    },
+    {
+      "t": 232.8,
+      "end": 243.6,
+      "text": "And what this will do is that it will actually set up the debugging session for you and it will run the test and then from that point onwards, it should be the same as any other debug session."
+    },
+    {
+      "t": 243.6,
+      "end": 254.8,
+      "text": "So, as you can see, it's actually attached. We're already in debug mode. And from this point on, it's the same as every other debug session. You can step over, you can step in, you can step out."
+    },
+    {
+      "t": 254.8,
+      "end": 266.5,
+      "text": "You can see the value of variables. It's the same as any other debugging session. Um so, I could use this to figure out why the test is failing."
+    },
+    {
+      "t": 266.5,
+      "end": 277.6,
+      "text": "Um but you know, I'm a bit lazy and I don't want to. But I have a really, really good new coworker called Copilot who's excellent at fixing failing tests."
+    },
+    {
+      "t": 277.6,
+      "end": 289.8,
+      "text": "So, the good thing about having integrated with the VS Code tools is that we get the ability for agents to run tests out of the box. Uh to set this up, you'll need to"
+    },
+    {
+      "t": 289.8,
+      "end": 301.8,
+      "text": "make sure that the run test tool is enabled over here. Um and you can see that it's actually done that already. It's actually run the test. It's found that eight um seven of these are failing."
+    },
+    {
+      "t": 301.8,
+      "end": 315.9,
+      "text": "It's going to try to fix it. So, while this is going on, I'm going to talk a bit more about how all of this is implemented behind the scenes. Now, the test running framework in the platform uses the configuration in your launch.json."
+    },
+    {
+      "t": 315.9,
+      "end": 326.4,
+      "text": "So, this means if you're targeting multiple sandbox instances or if you have multiple on-prem instances, you can target different servers with your launch.json."
+    },
+    {
+      "t": 326.4,
+      "end": 337,
+      "text": "This also means if you have different companies that you use to manage your test data, you can select which company the test runs under using the startup company property in the launch.json."
+    },
+    {
+      "t": 337,
+      "end": 352.1,
+      "text": "The big one for you to be aware of is that we are not using AL test runners. This means that we currently do not have any support for running AI or data-driven test suites. And if you do have test code units that rely on functionality that's provided by a test runner,"
+    },
+    {
+      "t": 352.1,
+      "end": 366.3,
+      "text": "especially for setup and teardown events, uh these may not work. Finally, when it comes to test isolation. So, traditionally, test isolation is provided by the test runner, but because we don't have a test runner here,"
+    },
+    {
+      "t": 366.3,
+      "end": 378.1,
+      "text": "we actually configure this dynamically based on the required test isolation property that's set on the test code unit. And if you do not have this set, it will default to code unit level isolation."
+    },
+    {
+      "t": 378.1,
+      "end": 391.3,
+      "text": "And for those of you who are using a third-party tool for running AL tests already and you find that this conflicts with your existing workflow, you can disable the test integration in VS Code using the AL disable test running setting."
+    },
+    {
+      "t": 391.3,
+      "end": 404.5,
+      "text": "So, let's go back to VS Code to see how our agent is going. Oh, it's good. So, you can see that it's actually found the bug. It's actually fixed it here and it's done a second test run to validate that its fix was correct."
+    },
+    {
+      "t": 404.5,
+      "end": 420.4,
+      "text": "And in general, with agentic development, I find this to be very powerful. The giving the agent the ability to run and validate its own AL test own AL code using tests um significantly improves the accuracy of the agentic development."
+    },
+    {
+      "t": 420.4,
+      "end": 430.4,
+      "text": "Uh before I go, I do have a few last things that I want to tell you. Um the first one is that we have a bunch of other videos on BCAL that you should definitely check out."
+    },
+    {
+      "t": 430.4,
+      "end": 442.5,
+      "text": "The first one is we have the what's new in AL. Um and this is a session that covers all the other improvements we've done in the VS Code extension for AL. So, we've It's not just test running that we've improved."
+    },
+    {
+      "t": 442.5,
+      "end": 453.7,
+      "text": "We've added a whole bunch of other features, including some other agentic tools that your agent can use as well. The other one you should definitely check out is we have a session on AI test."
+    },
+    {
+      "t": 453.7,
+      "end": 466,
+      "text": "So, if you're interested into seeing how we in Microsoft test our AI features or how you can leverage that for your own testing or even if you're just interested in data-driven testing, um check out that session as well."
+    },
+    {
+      "t": 466,
+      "end": 482.2,
+      "text": "And finally, uh we will have a bit on the AL MCP. And this is a tool for those of you who are not using VS Code, but have moved on to other agentic tools such as GitHub Copilot key or Cloud Code or maybe you're running this in a pipeline and you're not using VS Code,"
+    },
+    {
+      "t": 482.2,
+      "end": 493,
+      "text": "but you still want to access all of these additional tools so that your agents are more effective. Well, check out that session on how your agents can also get access to these tools there."
+    },
+    {
+      "t": 493,
+      "end": 507,
+      "text": "And last but not least, I want to say thank you to all of you. I hope you all have greater productivity using these tools and I will see you next time. Thank you very much."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 1501
+}

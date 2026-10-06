@@ -1,0 +1,288 @@
+{
+  "video_id": "oL8OlbEoUnQ",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.8,
+      "end": 24.2,
+      "text": ">> Welcome to a busy central launch edition 2026 release wave one and welcome to this session what's new in e-documents. My name is Alexander Totovic. I'm product manager and today I will together with my colleague Magnus show all these nice news in this area."
+    },
+    {
+      "t": 24.2,
+      "end": 34.4,
+      "text": "So first we'll go technically. I will explain what is new. Uh this is important be made redesign of PEPPOL format."
+    },
+    {
+      "t": 34.4,
+      "end": 47.4,
+      "text": "So now we extended this from base app and PEPPOL is now first party app. This is much easier for more control, more scalability, easier for localizations and other customizations."
+    },
+    {
+      "t": 47.4,
+      "end": 61.2,
+      "text": "So this is only technically. But what else about functionalities? One new functionality really important link inbound e-documents to purchase invoice and this is extremely important when you have the such a problem."
+    },
+    {
+      "t": 61.2,
+      "end": 81.2,
+      "text": "You have intercompany configured. Imagine it and now both of companies have obligation to report through e-documents to some network. So first company A will prepare sales invoice and send to the PEPPOL provider for example and in the same time in"
+    },
+    {
+      "t": 81.2,
+      "end": 95,
+      "text": "a background system will create intercompany purchase invoice in the company B. So now we have created invoice in company B but we will receive through PEPPOL network another electronic invoice and we cannot connect them."
+    },
+    {
+      "t": 95,
+      "end": 105.6,
+      "text": "So this is a problem. At this time we couldn't do it. We could use we can receive only to collector but we couldn't connect. So it was a problem."
+    },
+    {
+      "t": 105.6,
+      "end": 116.9,
+      "text": "And solution is that now you can easily link already created purchase invoice so created by an intercompany or differently you have purchase invoice create already created in the system."
+    },
+    {
+      "t": 116.9,
+      "end": 127.7,
+      "text": "You can link with a received e-invoice through some of course there are some rules about amounts and so on but you will see this in a demo."
+    },
+    {
+      "t": 127.7,
+      "end": 139.7,
+      "text": "What else? Um We have let's say set of smaller features in localization. So I will just show you what is the most important and you will see all these small things in the demos."
+    },
+    {
+      "t": 139.7,
+      "end": 153.8,
+      "text": "First now we have default e-documents type on the vendor templates. You know that you can choose if default option is purchase invoice or purchase order. Now you can prepare on vendor templates and it will be applied to all vendors created from this template."
+    },
+    {
+      "t": 153.8,
+      "end": 168.4,
+      "text": "We also have service participant linked to company information. Earlier we had service participant only to customer vendors but now you have company information. So we can be much easier and much more compliant with some local regulations."
+    },
+    {
+      "t": 168.4,
+      "end": 181.2,
+      "text": "We enabled payment with e-documents. This is mostly required in French localization but this is as a functionality enabled in a framework and we deliver and we work a lot of localizations."
+    },
+    {
+      "t": 181.2,
+      "end": 198.3,
+      "text": "We enabled verify tool in Spain. Now this is a public preview but this is completed. This is a public preview only because this is not enforced to be used yet and we have some period where you can test and if you have some feedback you will send to us so we can eventually improve."
+    },
+    {
+      "t": 198.3,
+      "end": 219.1,
+      "text": "Uh additional we enabled e-invoicing in Denmark OIOUBL format to work together with carbon footprint. So now when you send financial details through electronic invoicing you can send a carbon footprint as well and you can read both of them and automatically populate all carbon footprint information in your purchase invoice."
+    },
+    {
+      "t": 219.1,
+      "end": 231.2,
+      "text": "And work in progress French electronic invoicing. This is something what we are working on. You can find much more details in our release plan but it will be already in on a time."
+    },
+    {
+      "t": 231.2,
+      "end": 243.6,
+      "text": "Okay now Magnus you can show all these demos. Thanks Alexander. So let's see the new PEPPOL app that we have shipped as a first party app instead of having it in base app."
+    },
+    {
+      "t": 243.6,
+      "end": 259,
+      "text": "Before we dive into Business Central I thought I would actually for the developers out there just show BC apps our repository where we have all the code. Um specifically so you can understand how you should extend and use this new app."
+    },
+    {
+      "t": 259,
+      "end": 275.9,
+      "text": "So here on my screen I have opened up our BC apps repository and you can see now that under apps W1 we have this new folder called PEPPOL where we have both the app and the tests related to to the W1 PEPPOL application."
+    },
+    {
+      "t": 275.9,
+      "end": 290.6,
+      "text": "And specifically for you you might find it interesting to go and see the extensibility examples and I thought I would open those up so we can just take a brief look cuz it explains how you should as a developer or as a consultant"
+    },
+    {
+      "t": 290.6,
+      "end": 302,
+      "text": "uh extend or utilize the extensibility in the app to build your own version or build that for your requirements in your country."
+    },
+    {
+      "t": 302,
+      "end": 320.6,
+      "text": "So here we can see if we just take a a brief look that the PEPPOL app app exposes 10 interfaces which is quite some but they're divided into the different parts of the format and here you can see that we now have the PEPPOL 3.0 format enum that you then can"
+    },
+    {
+      "t": 320.6,
+      "end": 331.1,
+      "text": "use and and extend and there will be an example here as you can see. So you just take a dependency on the app. Then there is an explanation of all the different formats"
+    },
+    {
+      "t": 331.1,
+      "end": 341.6,
+      "text": "document information for instance or line information so on and so forth. Each form each interface is a is a specific part of the format as I said."
+    },
+    {
+      "t": 341.6,
+      "end": 352.6,
+      "text": "So you don't have to change everything in the format. You can pick out specific parts of it that you need adjust it. So let's take a look."
+    },
+    {
+      "t": 352.6,
+      "end": 366.4,
+      "text": "For instance here we can have in our application if we're building one we can do an enum extension and then we can just provide a new value just as you know it uh how you extend uh enums and here you can then provide specific implementations."
+    },
+    {
+      "t": 366.4,
+      "end": 378.8,
+      "text": "For instance I have my own validation because I have custom fields in in in my app source app that I want to validate before actually creating a PEPPOL format."
+    },
+    {
+      "t": 378.8,
+      "end": 392.3,
+      "text": "Um and as you can see just PEPPOL validation interface has all these procedures that you would then have to go and and implement and there even is an example of you know my PEPPOL validation."
+    },
+    {
+      "t": 392.3,
+      "end": 412.9,
+      "text": "And here you can see that we for instance said that there is some custom logic that you could add here just as a sample for you to understand. So this hopefully should make it very straightforward for you to to go out and and maybe have to adjust and this is a change that's different from you know the let's say old way of extending through"
+    },
+    {
+      "t": 412.9,
+      "end": 426.2,
+      "text": "events because this allows you to have multiple different um types of PEPPOL let's say because you can have you know multiple apps that actually extend the enum and then select which one you need."
+    },
+    {
+      "t": 426.2,
+      "end": 437.7,
+      "text": "So this is more how we build extensibility nowadays and this is a good example for you to also go and learn from. So if I just jump into BC"
+    },
+    {
+      "t": 437.7,
+      "end": 452.5,
+      "text": "and now if you search and tell me for PEPPOL you'll see that there now is a PEPPOL 3.0 setup that you can actually open just a small page where you can then select the specific enum value that you"
+    },
+    {
+      "t": 452.5,
+      "end": 463.1,
+      "text": "have added with your custom code. And you can see that it defaults to sales and service and this is exactly the same as it used to be in base app."
+    },
+    {
+      "t": 463.1,
+      "end": 483.4,
+      "text": "It's just moved essentially. And just as an example some of you might have been using this electronic document formats um which were an ability to you know when you post a sales invoice you could then create a actual physical file using the the base app implementation of PEPPOL."
+    },
+    {
+      "t": 483.4,
+      "end": 498.3,
+      "text": "Now there there is additional entries which is for the first party app and this is because that we're going to the plan is to obsolete the code and remove it from base app so it only lives in the first party app and at some point later on"
+    },
+    {
+      "t": 498.3,
+      "end": 515.1,
+      "text": "this electronic document formats are also being phased out because now you know you can set the same thing up with with e-documents. So of course the first party app will also be uptaken um by e-documents."
+    },
+    {
+      "t": 515.1,
+      "end": 534,
+      "text": "All right. Let's look at the next thing which is the ability to link inbound e-documents to existing purchase invoices. And this is ability we've added specifically for the new draft page in the documents because in certain scenarios when you're using intercompany you could have already received a"
+    },
+    {
+      "t": 534,
+      "end": 548.7,
+      "text": "purchase invoice through intercompany and at the same time also get an invoice through your connector and now you have essentially duplicate right? So we'll see how instead of you know creating a new purchase invoice you can just link to the existing one."
+    },
+    {
+      "t": 548.7,
+      "end": 559.5,
+      "text": "And to show this I will open up the inbound e-document page. And here you can see I have a an example that we will open."
+    },
+    {
+      "t": 559.5,
+      "end": 572.6,
+      "text": "And right now there is actually no vendor selected so I'll go ahead and just choose one. And the specific thing about this feature is that it it's currently only allowed for intercompany vendors."
+    },
+    {
+      "t": 572.6,
+      "end": 593.1,
+      "text": "So once this is done vendor 10000 is not an intercompany and if you then go to actions where this new ability is this link to existing document if we click that you'll see that the IC partner code must be set in in vendor 10000 and it's not because it's not an intercompany vendor so you're not allowed to do that"
+    },
+    {
+      "t": 593.1,
+      "end": 606.1,
+      "text": "and that is by design. So to fix that let's actually change to a vendor that is an intercompany vendor. And we will use Cronus uh IC 1020"
+    },
+    {
+      "t": 606.1,
+      "end": 618.2,
+      "text": "as one of our demo data vendors here. And now, if I go to the same action again, because this is actually the document that you receive through the connector is matched to a vendor that is set up with intercompany,"
+    },
+    {
+      "t": 618.2,
+      "end": 634.2,
+      "text": "you now have the ability to link to existing document. And here you can see that it actually shows the list. The important thing here is that, of course, it only filters down invoices that is specific to the vendor, but also that the amount"
+    },
+    {
+      "t": 634.2,
+      "end": 645.5,
+      "text": "corresponds to the total on the invoice. So, let me actually just show you that. So, if you go to purchase invoices,"
+    },
+    {
+      "t": 645.9,
+      "end": 656.1,
+      "text": "you can see that this specific invoice is here, and we can open it up. And on the document including that, this number"
+    },
+    {
+      "t": 656.1,
+      "end": 670.5,
+      "text": "176.43 has to match what was received through the connector, otherwise we won't allow you to to link them. So, if for instance, I just put a one in front here, and then we go back,"
+    },
+    {
+      "t": 670.5,
+      "end": 682,
+      "text": "and we again click this process link to existing document, it is no longer showing up, and that is by design. So, just be aware that, you know, the totals have to match, which makes a lot of sense."
+    },
+    {
+      "t": 682,
+      "end": 695,
+      "text": "So, just quickly jumping back and forth here to just undo what I just did. Yes, setting back the document amount just to 176.43,"
+    },
+    {
+      "t": 695,
+      "end": 707.3,
+      "text": "and we just go back. We can now actually choose the the document, so let's try that. If we click okay, and you are asked if you want to link, we'll say yes."
+    },
+    {
+      "t": 707.3,
+      "end": 722,
+      "text": "And now you can see that we actually go to the to the invoice, because the process of the incoming document is actually done. It is processed, and if we go back just to to actually show you that, you can see here that the draft is now processed."
+    },
+    {
+      "t": 722,
+      "end": 734.8,
+      "text": "It is linked to this specific document, and you don't have to, you know, it won't create a new one. And that's it for for being able to link to existing purchase documents."
+    },
+    {
+      "t": 734.8,
+      "end": 748,
+      "text": "All right, and that is how you can link an inbound e-document to an existing purchase invoice. You can see a lot of interesting links you can follow, you can find important information there, or you can subscribe on LinkedIn."
+    },
+    {
+      "t": 748,
+      "end": 762.6,
+      "text": "Please do it to be updated with all new, nice, interesting information coming directly from Microsoft, and of course, YouTube channel where you can find all these BC LE videos from this release, from previous releases, and some other recordings as well."
+    },
+    {
+      "t": 762.6,
+      "end": 772,
+      "text": "So, thank you for watching this video, and I hope you will not be disappointed with all new features in e-documents."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 2063
+}

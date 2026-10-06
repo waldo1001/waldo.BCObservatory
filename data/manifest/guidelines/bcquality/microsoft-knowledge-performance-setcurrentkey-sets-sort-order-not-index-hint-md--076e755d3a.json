@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "setcurrentkey sets sort order not index hint",
+  "title": "SetCurrentKey is not a SQL index hint for record reads",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/setcurrentkey-sets-sort-order-not-index-hint.md",
   "published_at": "2026-09-29T15:21:28.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:19:30.218Z",
+      "blob": "ea99299924917bc3e303126dd1a61fb035e6339a",
+      "words": 441,
+      "forms": 0
     }
   },
   "input_hash": "ea99299924917bc3e303126dd1a61fb035e6339a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/setcurrentkey-sets-sort-order-not-index-hint.md"
-  }
+    "path": "microsoft/knowledge/performance/setcurrentkey-sets-sort-order-not-index-hint.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 441
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ea99299924917bc3e303126dd1a61fb035e6339a"
 }

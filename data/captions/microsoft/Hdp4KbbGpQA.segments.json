@@ -1,0 +1,703 @@
+{
+  "video_id": "Hdp4KbbGpQA",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 11.2,
+      "end": 27.4,
+      "text": ">> Welcome to this new episode of under hood. So today we are going to talk about something a little bit different. We are not actually going to talk about the product by itself, but something that is still about AI."
+    },
+    {
+      "t": 27.4,
+      "end": 41.1,
+      "text": "We're talking we're going to talk about benchmarking. And today with me I have Håkon. Hello. Hi. >> How are you? Um I'm doing great. So >> [clears throat] >> the subject of of this podcast today is BC Bench."
+    },
+    {
+      "t": 41.1,
+      "end": 59.2,
+      "text": "Yes. So Håkon, tell us a little bit what is BC Bench? BC Bench is a offline evaluation framework that measures how coding agents performs on real world engineering tasks in Business Central or AL programming language."
+    },
+    {
+      "t": 59.2,
+      "end": 70.6,
+      "text": "Um it is very heavily inspired by Sweep Bench. Mhm. Uh that's a paper published about 2 years ago that measures different AI models capability"
+    },
+    {
+      "t": 70.6,
+      "end": 90.3,
+      "text": "on real world Python tasks. We adopted their methodology for well Business Central and AL to help us answer questions like um if a model perform better than others in AL tasks or if we can provide custom instructions"
+    },
+    {
+      "t": 90.3,
+      "end": 109,
+      "text": "or different tooling to improve the coding agents performance on real world tasks we face day-to-day. All right, we'll get much more in into the detail of this, but just so um uh so people understand this this is not a something we implemented in the product,"
+    },
+    {
+      "t": 109,
+      "end": 119.7,
+      "text": "right? This is not a feature. No. Uh this is about measuring um how good the deep the energetic experience is when you do AL development."
+    },
+    {
+      "t": 119.7,
+      "end": 130.2,
+      "text": "Exactly. >> Right? So it's it's actually a tool to figure out um what models can do for helping AL developers. Is that correct?"
+    },
+    {
+      "t": 130.2,
+      "end": 147.1,
+      "text": "Exactly. Imagine we get a bug report for a feature we developed and instead of uh we fix the bug ourselves, we ask the agent coding agent to implement the fix for us and this is the scenario we're evaluating here."
+    },
+    {
+      "t": 147.1,
+      "end": 166.8,
+      "text": "It's not something that's part of the product but more for developers in the Visual Studio Code environment. So we started we started looking at this because we realized that there's a lot of people obviously today that are using agent and and and and models and and Copilot and GitHub Copilot to write AL code,"
+    },
+    {
+      "t": 166.8,
+      "end": 178.8,
+      "text": "right? >> Yes. Uh and we have a if you recall we we we we had a video not too long ago with Stefan where we show uh how you could do vibe coding in in AL."
+    },
+    {
+      "t": 178.8,
+      "end": 195.1,
+      "text": "And so in you know looking at realizing that there's actually a lot of people vibe coding also in AL, we we started thinking okay maybe we should try to do something to improve these these this experience for our developers."
+    },
+    {
+      "t": 195.1,
+      "end": 210.6,
+      "text": "And that's where BC Bench come in. So we'll we'll get into some of the details and more into what you know what's behind all this, but before um you mentioned that before you do that you mentioned that BC Bench was largely inspired by Sweep Bench."
+    },
+    {
+      "t": 210.6,
+      "end": 224.9,
+      "text": "So maybe we can start by you know explaining a little bit what is Sweep Bench. Uh Um Sweep Bench is a a benchmark framework that's very similar, but their focus is on evaluating"
+    },
+    {
+      "t": 224.9,
+      "end": 235.6,
+      "text": "models capabilities for Python repositories. So the methodology is what we followed here. >> It's an open source Yes. thing, right? It's not something that Microsoft does."
+    },
+    {
+      "t": 235.6,
+      "end": 248.7,
+      "text": "It's it's an open source project, right? >> Yes. It is used by the big model providers like Anthropic, OpenAI and Google and that's why we choose this specific framework to follow."
+    },
+    {
+      "t": 248.7,
+      "end": 264.9,
+      "text": "Mhm. So it's a it's a very popular benchmark that as you mentioned you know the big you know model company are using and and the results are actually public and you can see you know what model is doing best in Sweep Bench,"
+    },
+    {
+      "t": 264.9,
+      "end": 279.6,
+      "text": "right? >> Yes. Uh so so tell us a little bit about the the methodology then. Yes. Um I think it's a very smart method they developed. So what they did is they go to GitHub and find some popular Python repositories."
+    },
+    {
+      "t": 279.6,
+      "end": 293.4,
+      "text": "Uh they find previous pull requests done by human engineers that fix an issue. Mhm. Um and introduce some tests union tests to verify their fix."
+    },
+    {
+      "t": 293.4,
+      "end": 306.3,
+      "text": "Uh the um gave the exact same issue and the same code base to a coding agent instead and asked the coding agent to generate a fix. And how do we know if the fix is correct or not?"
+    },
+    {
+      "t": 306.3,
+      "end": 317.9,
+      "text": "We run the original union test introduced by humans to verify if the fix is correct and if the test pass, then we count that uh fix is correct."
+    },
+    {
+      "t": 317.9,
+      "end": 328.2,
+      "text": "If not, then it's a failure attempt. Uh and and yeah that's the methodology we followed exactly for BC Bench here as well."
+    },
+    {
+      "t": 328.2,
+      "end": 344.6,
+      "text": "So you saw that so you you saw that Sweep Bench methodology and that inspired you in creating something from its equivalent for AL. Exactly. Can you could you reuse some of the code from from from Sweep Bench some of the things that is in the in in in this open source project?"
+    },
+    {
+      "t": 344.6,
+      "end": 354.9,
+      "text": "Um as a matter of fact we did. So there is a few differences here. Sweep Bench is focused on Python code repositories and we are AL. Mhm."
+    },
+    {
+      "t": 354.9,
+      "end": 367.4,
+      "text": "And we use uh Azure DevOps internally. So our code base is hosted a bit differently, but we also have this BC Apps repository on GitHub publicly available."
+    },
+    {
+      "t": 367.4,
+      "end": 381.7,
+      "text": "So there we managed to reuse some of the code from Sweep Bench to to crawl the code base and find the pull requests that we need for our data set. Uh but yeah we have to adopt something for the uh ADO and how to run tests."
+    },
+    {
+      "t": 381.7,
+      "end": 399.2,
+      "text": "We have to have our own scripts. We're actually using AL Go and BC Container Helper to help us run tests and get the result. So that was most of the work you had to do to create BC Bench was to uh adapt and and make and and do the things that you just mentioned."
+    },
+    {
+      "t": 399.2,
+      "end": 411.4,
+      "text": "Exactly. Yeah, we have to Yeah, the whole program language is different. So um uh the infrastructure side of the work is to uh figure out how to run tests reliably in a pipeline"
+    },
+    {
+      "t": 411.4,
+      "end": 424.2,
+      "text": "and also about the goals. We want is to make this public to well everyone. Uh so we have to build the whole pipeline on github.com directly."
+    },
+    {
+      "t": 424.2,
+      "end": 435.5,
+      "text": "So one day hopefully we'll make it public. So okay so so what what tell tell us a little bit more about the methodology for AL then."
+    },
+    {
+      "t": 435.5,
+      "end": 450.4,
+      "text": "You know it's it's not it's not exactly the same then for Sweep Bench. It's inspired for it, but tell us a little bit what what we do for AL. Yeah. Um So majority of the part is the same where we we go to our internal repository."
+    },
+    {
+      "t": 450.4,
+      "end": 463.8,
+      "text": "We find the bug reports. Obviously this time will be on Azure DevOps. Uh and then we collect them into a problem statement what we call here in each task that"
+    },
+    {
+      "t": 463.8,
+      "end": 484.3,
+      "text": "uh is what we will send to the coding agent to implement and then we store a what is called a base commit to represent the state of the code base to make sure the coding agent has the exact same context as the human engineer who solved it in the first place."
+    },
+    {
+      "t": 484.3,
+      "end": 497.4,
+      "text": "So basically we if I understand correctly we kind of go back in time Exactly. to the the point where the code base was at the particular moment where the bug was detected."
+    },
+    {
+      "t": 497.4,
+      "end": 509.5,
+      "text": "And by the way we focus mostly on bugs, right? Whereas Sweep Bench is all sorts of issues, right? It's not only bugs, is it? I think they also primarily focus on bugs. >> Okay. So so so that's in that matter that's kind of the same."
+    },
+    {
+      "t": 509.5,
+      "end": 520.8,
+      "text": "Yes. So we we find a bug back in time and we kind of recreate we use a time machine and >> [laughter] >> recreate the the environment as it was at at at at that at that particular time."
+    },
+    {
+      "t": 520.8,
+      "end": 531.3,
+      "text": "So like the human as you mentioned like you mentioned it, right? Yes. And that's what we gave to the to the agent and asked the agent to to solve that bug, right?"
+    },
+    {
+      "t": 531.3,
+      "end": 541.8,
+      "text": ">> Yes. So now instead of the human, we ask the agent now you solve it. Yeah. And then we look at the result, right? So that's how that's how we created our data set. Uh yes."
+    },
+    {
+      "t": 541.8,
+      "end": 553.2,
+      "text": "Or or tested or whatever you call it. >> Yes. Yes. That's how we we collected the through looking through all the internal engineers working in our repository. We have"
+    },
+    {
+      "t": 553.2,
+      "end": 564.7,
+      "text": "good data set there. So how many do we have right now? How many do we have in our data set? Uh last time I checked is 66 tasks in the data set. Well obviously the number is growing every day."
+    },
+    {
+      "t": 564.7,
+      "end": 577.1,
+      "text": "We're looking through the repository every single day. Um [clears throat] so maybe more now, but yeah. Why why can't we just pick any bug because we have plenty of bugs. We have more than 66 I'm sure I'm sure you know."
+    },
+    {
+      "t": 577.1,
+      "end": 588.2,
+      "text": ">> [laughter] >> So why why not take you know just the last 100 bugs or something like that or 200 bugs? That's a good question. So when we collect the data set we have a few criterias on what can we collect."
+    },
+    {
+      "t": 588.2,
+      "end": 599.6,
+      "text": "Uh one of the criteria is it's a pull request must be resolving exactly one bug. So so we know this PR is fixing this specific issue."
+    },
+    {
+      "t": 599.6,
+      "end": 610.1,
+      "text": "So we don't confuse the agent with too many things. Another criteria is that the bug must have all the context"
+    },
+    {
+      "t": 610.1,
+      "end": 624.5,
+      "text": "it needed to solve to be solved. >> Mhm. Because in many scenarios we found the engineers kind of have everything in their head. They don't write it down. So it's a bit unfair to ask coding agent to solve without the full picture."
+    },
+    {
+      "t": 624.5,
+      "end": 635.3,
+      "text": "So there might be some bugs where there's very little description of what the bug is, but people just know that it's a bug. >> Exactly. >> So it's not it's not and the agent doesn't know."
+    },
+    {
+      "t": 635.3,
+      "end": 650.4,
+      "text": "Exactly. We have found many scenarios where there is just one line in the bug that it doesn't really reflect what the bug actually >> it fair to say that since that agents are not quite capable of doing the same work as human yet?"
+    },
+    {
+      "t": 650.4,
+      "end": 662.9,
+      "text": "Yes, I think so because I think the current workflow we have lots of context are in well, human interactions and Teams chat and things like that."
+    },
+    {
+      "t": 662.9,
+      "end": 680,
+      "text": ">> [clears throat] >> But we still able to find so that we we focus on the bugs and that's why it's a little bit difficult to it takes some time let's say to to create this data set where we have to go through our our code base and and our our history of bug fixing and find the good bugs that fulfill the criteria you mentioned,"
+    },
+    {
+      "t": 680,
+      "end": 693.2,
+      "text": "right? >> Exactly. And there's a lot more criteria here for example one important case here is the fix the test must not have dependency on the fix."
+    },
+    {
+      "t": 693.2,
+      "end": 708.5,
+      "text": "So that's actually one thing happens very often when we say we make a fix that throw a error in the code base and then the fix the test will be to verify the error is correctly thrown with the correct error message."
+    },
+    {
+      "t": 708.5,
+      "end": 727,
+      "text": "So in this case test have a dependency on the fix meaning the error message has to be exact match. Then it's a bit unfair to ask the agent to create a fix as well because any change in the error message will produce a a fake false positive."
+    },
+    {
+      "t": 727,
+      "end": 745.5,
+      "text": "Yeah. Okay. So so what what what can we benchmark with with BC bench? Now we have these 66 or so bugs and we run that through through the agent through the agent and basically what it does is it goes through each of them and try to fix the bugs."
+    },
+    {
+      "t": 745.5,
+      "end": 758.8,
+      "text": "Yes. >> And then we get like a scoring for these and so what what can we what can what type of benchmark can we run? Yes, we can measure differences between different models."
+    },
+    {
+      "t": 758.8,
+      "end": 776,
+      "text": "See if model A is better than model B. And if we control the if we fix the model then we can run different benchmarks on if we provide one MCP server if that increase the performance of the coding agent or we can And that tooling,"
+    },
+    {
+      "t": 776,
+      "end": 796.3,
+      "text": "you know, give some more tools to the basically in essence give more tools to the agent with for the same model we fix the model as you mentioned I would say okay you run on you know, GPT something and then then you say okay now you have no tools for example or try to fix that bug or you have"
+    },
+    {
+      "t": 796.3,
+      "end": 813.2,
+      "text": "this set of tools and try to feed that bug again same bug, right? So what can what kind of tools are we talking about here? So we are currently focusing on tool that built by our developer experience team that's called AL2 MCP server."
+    },
+    {
+      "t": 813.2,
+      "end": 830.7,
+      "text": "The idea here is to bring all the tools we build in VS code extension the AL language extension and provide the same set of two or a subset of the tools to the coding agent through the MCP server like compile"
+    },
+    {
+      "t": 830.7,
+      "end": 841.3,
+      "text": "finding symbols and maybe running tests and things like that. So we want to know if the coding agents actually perform better with those new set of tools."
+    },
+    {
+      "t": 841.3,
+      "end": 852,
+      "text": "So that's that's kind of one of the biggest motivation for for this effort and having BC bench because we'll know that we we we are going to invest into"
+    },
+    {
+      "t": 852,
+      "end": 864.5,
+      "text": "adding more tools to to the Visual Studio code experience but it's very difficult if without a benchmark to figure out whether you know, is this actually going to help the agents?"
+    },
+    {
+      "t": 864.5,
+      "end": 881.6,
+      "text": "Now we actually can put numbers on it and put metric on it, right? We can say if we add this tool we can see what the effect of it is, right? So do do we have any can we say already today that you know, when adding some of the tools we we we help the agent and we got better results?"
+    },
+    {
+      "t": 881.6,
+      "end": 892.8,
+      "text": "Well, the the short answer is not conclusively. We we run them we actually did a rigorous analysis on on this AL2 MCP server."
+    },
+    {
+      "t": 892.8,
+      "end": 903.3,
+      "text": "We run multiple times and try to measure if the accuracy improved. We did see an increase on the average accuracy or what we call resolution rate."
+    },
+    {
+      "t": 903.3,
+      "end": 913.7,
+      "text": "But there is a overlap on the confidence interval. So we cannot [clears throat] claim that the the tools we're building made it better."
+    },
+    {
+      "t": 913.7,
+      "end": 931.6,
+      "text": "But I think this is a very significant result as well because it highlights the purpose of BC bench. We want to be able to do an experiment and iterate on the design of the tooling and see the number keeps getting better."
+    },
+    {
+      "t": 931.6,
+      "end": 943.1,
+      "text": "And actually that's exactly what we did with the new result we got. We provided some feedback to the developer experience team and now we have a new version of AL2 MCP server."
+    },
+    {
+      "t": 943.1,
+      "end": 954.5,
+      "text": "So hopefully we can see a better result there. So basically what you're saying in other words that before we didn't know we can maybe try a few examples but it's not very scientific."
+    },
+    {
+      "t": 954.5,
+      "end": 968.6,
+      "text": "Now we actually know for sure because we have a very scientific way to measure the effect of these tools with which basically a statistical method, right? When we run these things several times and and look at the variance and things like that."
+    },
+    {
+      "t": 968.6,
+      "end": 987.6,
+      "text": "So we can actually say with a you know, good confidence whether that helps or not, right? Exactly. So that's that's that's great because that that that they all also prioritize. If we figure out this tool doesn't make any difference then we don't need to support it anymore and then we can focus our effort on some other improvement for for the SDK experience,"
+    },
+    {
+      "t": 987.6,
+      "end": 1004.2,
+      "text": "right? Exactly. I think there's many ideas to provide various tools to the agent and then with this well, experimentation we can figure out which tools are you actually useful for the coding agent and which tools we don't need to spend time on."
+    },
+    {
+      "t": 1004.2,
+      "end": 1014.2,
+      "text": "Okay, that's great. So what what other things can we vary when we run the base? So you mentioned we can try different models different tooling"
+    },
+    {
+      "t": 1014.2,
+      "end": 1025.4,
+      "text": "what what else can we can we can we vary in the benchmark runs? We can also vary the what we call agent harness. So we can try different coding agents."
+    },
+    {
+      "t": 1025.4,
+      "end": 1040.6,
+      "text": "At the moment we have two coding agents. The first one is what we call a mini BC agent. That's inspired by the same author of sweep bench to build a mini sweep agent."
+    },
+    {
+      "t": 1040.6,
+      "end": 1052.5,
+      "text": "With very very minimum agent scaffold with 100 Python 100 lines of Python code. And we build another 100 lines of Python code on top and produced"
+    },
+    {
+      "t": 1052.5,
+      "end": 1062.9,
+      "text": "a mini BC agent that have access to only PowerShell and nothing else and calling endpoint Microsoft foundry."
+    },
+    {
+      "t": 1062.9,
+      "end": 1076.4,
+      "text": "So that's one agent. We have another agent that's GitHub copilot that we use day-to-day. So we can compare between those two agent if the GitHub copilot agent actually makes things better."
+    },
+    {
+      "t": 1076.4,
+      "end": 1091.8,
+      "text": "We have >> be clear that's not the same agent that you're using in Visual Studio code, is it? No, it is a well, it's similar to GitHub copilot in Visual Studio code but designed for to be running in terminal and in pipeline environment."
+    },
+    {
+      "t": 1091.8,
+      "end": 1108.7,
+      "text": "Yeah, so we can vary different coding agents. We can also vary in different custom instructions. So we can provide explanation on what AL is, what syntax looks like and try if that makes coding agent perform better."
+    },
+    {
+      "t": 1108.7,
+      "end": 1121,
+      "text": "We can also do the latest addition is the skills are a new thing addition to GitHub copilot. So we can try if providing skills.md"
+    },
+    {
+      "t": 1121,
+      "end": 1138.2,
+      "text": "will improve the coding agent's performance. Just to just to be clear we actually need so it's not we don't when we do the the benchmarking and ask the the models of the AI to solve these bugs it's we we do need a kind of an agent,"
+    },
+    {
+      "t": 1138.2,
+      "end": 1151.8,
+      "text": "right? It's not enough to have just the model because you need to have something that say okay, here is here are the instructions, here's what you need to do, here is what you take, you know, is what the things you're allowed to do for as you mentioned you can write PowerShell."
+    },
+    {
+      "t": 1151.8,
+      "end": 1166.2,
+      "text": "So this is actually kind of a small agent, right? So it's not enough to to just have the model. You want you want the the benchmark to perform a certain task so you need to have you know, an orchestration of a small orchestration."
+    },
+    {
+      "t": 1166.2,
+      "end": 1176.5,
+      "text": "It's not it's a small agent but it's still a an agent of some kind, right? And so what you mentioning before is that the two agent that we can we can basically plug in the benchmark."
+    },
+    {
+      "t": 1176.5,
+      "end": 1191.6,
+      "text": "So we can run with one and one and one with the other and kind of compare what what effect it has, right? Yes. All right, so now that we that we can have all these measurement Um,"
+    },
+    {
+      "t": 1191.6,
+      "end": 1202.1,
+      "text": "can you tell us a little bit about what what we are going to do with it? What's the next, you know, what's the next development of PC agent?"
+    },
+    {
+      "t": 1202.1,
+      "end": 1214.4,
+      "text": "Well, how are we how are we going to further improve it? Um, for the PC bench framework, we have some [clears throat] planned improvements on bringing more categories to PC bench."
+    },
+    {
+      "t": 1214.4,
+      "end": 1226.1,
+      "text": "Uh, so currently we are focusing on bug fixing this scenario. Um, hopefully we have much more work as a software engineer. We want to bring test generation."
+    },
+    {
+      "t": 1226.1,
+      "end": 1240.8,
+      "text": "Um, so giving a a bug report, we want to ask the coding agent to generate a test that reproduce the bug. Uh, we also want to build a a category called code review."
+    },
+    {
+      "t": 1240.8,
+      "end": 1260.7,
+      "text": "So now, with the help of coding agent, we are producing more and more pull requests. So we need some help to review those pull requests as well. Um, for the coding agent part, I think there will be improvements from developer experience team to bring additional toolings."
+    },
+    {
+      "t": 1260.7,
+      "end": 1273.2,
+      "text": "I think the next on the list is to run tests uh, through the MCP server to ask to allow coding agent to iterate on the code it generated by the agent itself."
+    },
+    {
+      "t": 1273.2,
+      "end": 1286.2,
+      "text": "They would be typically they would so what we expect the agent to do is they they would try to do a fix and then they would be able as opposed of today today they they do they kind of working in a blind if you compare to a software engineer, right?"
+    },
+    {
+      "t": 1286.2,
+      "end": 1301.2,
+      "text": "Yes. They the agents, I mean they they try to produce a fix and and they they don't they can't actually run the fix against the tests, right? Whereas if we gave the agent the ability to to run to run the fix against the test,"
+    },
+    {
+      "t": 1301.2,
+      "end": 1312.4,
+      "text": "you know, we hope that that it would be most likely better at at solving because that's how human work, right? They they you you would you know, that's how a developer would work."
+    },
+    {
+      "t": 1312.4,
+      "end": 1326.3,
+      "text": "You would try to write a fix, run the test and then if the test fails, you would go back and try to to adjust the you know, the fix to to make the test pass and our our expectation that agent would be would be doing exactly that, right?"
+    },
+    {
+      "t": 1326.3,
+      "end": 1338,
+      "text": "And be and and and hence getting better at at solving coding task, right? Exactly. So I think that's a very fair hypothesis to make and that's why we have PC bench too."
+    },
+    {
+      "t": 1338,
+      "end": 1358.3,
+      "text": "After we produce this tool to run tests, then we can use PC bench to verify the result to see if our assumptions are correct or not. So what we would what we would expect we would see with that for example, in that in that very particular example is with that the ability to run test we would get say resolution of say a 40% or something"
+    },
+    {
+      "t": 1358.3,
+      "end": 1372.4,
+      "text": "and and then so the agent would be meaning the agent would be able to resolve 40% of the bugs, but then if we gave the ability to to the agent to run test, we would expect that this number would increase to you know,"
+    },
+    {
+      "t": 1372.4,
+      "end": 1385.8,
+      "text": "50 60 maybe more who knows, we'll see. Exactly. But if it doesn't, that means that the agent doesn't need to run test, which I would be surprised with the result, but but you know, we we'll see, you know, we'll see."
+    },
+    {
+      "t": 1385.8,
+      "end": 1398.8,
+      "text": "But that will also probably give a very good indication that if we allow if we if we implement that ability to run tests in the Visual Studio Code experience, right?"
+    },
+    {
+      "t": 1398.8,
+      "end": 1419,
+      "text": "That all developers will get a much better agentic coding vibe slash vibe coding experience because the agent will do the same most likely. It will go and you know, the GitHub Copilot agent in in VS Code will go and also run the tests you have in your in your environment and hopefully do a much better job at performing various"
+    },
+    {
+      "t": 1419,
+      "end": 1433.8,
+      "text": "uh software engineering task. Yes, I think that's one of the assumption we made in PC bench is that if a agent with a certain setup perform well in PC bench then it means with a similar setup in Visual Studio Code,"
+    },
+    {
+      "t": 1433.8,
+      "end": 1444.3,
+      "text": "the experience will be the similar produce similar result. Yeah. So by the way, we we didn't mention that, but what does what does SWE bench stand for?"
+    },
+    {
+      "t": 1444.3,
+      "end": 1461.8,
+      "text": "Uh, that's SWE bench. I think that's short for a software engineer. Yeah. And yeah, I think that's yeah, what big model providers use that to measure their models' capability on software engineering tasks in So that's yeah,"
+    },
+    {
+      "t": 1461.8,
+      "end": 1474.4,
+      "text": "that's the the ground the ground concept the basic idea, right? And so this is natural that so we started with bugs and then you mentioned before that we are going to evolve"
+    },
+    {
+      "t": 1474.4,
+      "end": 1486.8,
+      "text": "PC bench to to have more you know, more tasks like tasks like you mentioned adding tests for example, which is also a software engineer task."
+    },
+    {
+      "t": 1486.8,
+      "end": 1498.8,
+      "text": "So the idea is to have more and more software engineering tasks added to the bench and and measure and in that sense we can measure the ability of"
+    },
+    {
+      "t": 1498.8,
+      "end": 1509.2,
+      "text": "agents who to do perform software engineering task Yes. and help programmers and developers to to to to have a better agentic coding experience, right?"
+    },
+    {
+      "t": 1509.2,
+      "end": 1520,
+      "text": "Yes. So we yeah, the test generation, code review, we also have code refactoring on the agenda and potentially feature addition."
+    },
+    {
+      "t": 1520,
+      "end": 1531,
+      "text": "So instead of fixing a bug, we ask the agent to implement a full feature instead and that would be exciting to see what would the result be. So that's pretty ambitious."
+    },
+    {
+      "t": 1531,
+      "end": 1545,
+      "text": "Yeah, very much because I think the challenge would be how to evaluate if the a feature is correct or not. >> Yeah, how do Yeah, it's pretty hard because there might be so one thing is a bug is you know,"
+    },
+    {
+      "t": 1545,
+      "end": 1559.1,
+      "text": "a bug is and that's that's why we started there because a bug is really straightforward. We have a test that fails, you know, after the test pass. If you have a full feature um, it can be a little bit difficult to evaluate with a for example,"
+    },
+    {
+      "t": 1559.1,
+      "end": 1579.5,
+      "text": "you know, we might have um, uh, let's say the the the the agent choose to to create pages, you know, and then the pages, you know, they might not look like they should be looking like or you know, there might be things that it's a little bit hard for the for the agent to verify that kind of thing or do we plan on adding also the ability to to do that?"
+    },
+    {
+      "t": 1579.5,
+      "end": 1593.9,
+      "text": "Oh. I think that's a bit uh, probably in the future. We haven't really thought about that yet. Yeah. But that's but that's not unrealistic. Maybe there is a future where you know, you can you have agent they they can actually run code,"
+    },
+    {
+      "t": 1593.9,
+      "end": 1607.2,
+      "text": "but they can also look at the pages. I mean our our agent runtime which we you know, talk about in some other videos actually is doing that looking at pages at PC pages in a certain way."
+    },
+    {
+      "t": 1607.2,
+      "end": 1619.1,
+      "text": "So you could imagine that maybe we could do something like that, but that's more in the future. We are we are a little bit you know, speculating and but why not? Who knows? That could be a good idea actually."
+    },
+    {
+      "t": 1619.1,
+      "end": 1636,
+      "text": "So so we we did run against various models. So what are the results? Which models are performing the best as of today? Yes. So we we found that Cloud Opus 45 is the best model we have access"
+    },
+    {
+      "t": 1636,
+      "end": 1649.1,
+      "text": "so far and it outperforms than any other models we have access to through GitHub Copilot and that's kind of not too big a surprise here because"
+    },
+    {
+      "t": 1649.1,
+      "end": 1665.5,
+      "text": "there is similar results people are seeing on SWE bench on Python tasks. Uh, but So what we see actually if I recall correctly, if we look at the ranking of the models in SWE bench, like which model are performing the best like there's like a ranking."
+    },
+    {
+      "t": 1665.5,
+      "end": 1675.5,
+      "text": "We'll put a we'll put the link in the in the comments, you can look it up yourself. Um, the the ranking we see for for PC bench is more or less the same, isn't it?"
+    },
+    {
+      "t": 1675.5,
+      "end": 1686,
+      "text": "Yes. Yes. And that's So that's that's comforting. What it means, but it wasn't it wasn't a given from the start, right? No. But what it means is that"
+    },
+    {
+      "t": 1686,
+      "end": 1697.6,
+      "text": "these models are you know, the way they they can handle Python, but they're just as good with AL. Yes. Um, But would you know that before you before PC bench, we didn't know that."
+    },
+    {
+      "t": 1697.6,
+      "end": 1710.6,
+      "text": "Now we can see there is you know, there is more or less you know, equivalence between you know, handling writing code in Python and writing code in AL, which you know, we we actually have been wondering a little bit about that for a while because"
+    },
+    {
+      "t": 1710.6,
+      "end": 1723.1,
+      "text": "there's a lot of you know, everybody knows that LLMs and models they they train you know, on looking at what's on the internet. And obviously there is a lot of Python code on internet, a lot more Python code than than AL code."
+    },
+    {
+      "t": 1723.1,
+      "end": 1736.3,
+      "text": "There's not that much AL code out there, right? So you know, it's not it's not given that they would be as good as writing AL than they are writing Python because they've seen a lot more they've seen a lot more Python than they've seen AL."
+    },
+    {
+      "t": 1736.3,
+      "end": 1748,
+      "text": "But it seems that you know, it seems that actually they are you know, just as good as Python and they are at AL. So that's that's good that's comforting. That's good that's a good news in in in in a sense, right?"
+    },
+    {
+      "t": 1748,
+      "end": 1761.9,
+      "text": "We yeah, we didn't know the result. We we kind of make the assumption, but we never know. We actually looked up the data on GitHub. Mhm. There are more than 2 million public Python repositories out there too."
+    },
+    {
+      "t": 1761.9,
+      "end": 1774.2,
+      "text": "That's a that's a lot. Repositories. Yes, repositories. Which is might contain millions of line of code potentially, right? And there are 300 something AL public repositories out there."
+    },
+    {
+      "t": 1774.2,
+      "end": 1788.6,
+      "text": "So there is a very big difference. >> Huge difference, yeah. Yeah. So but it's good to know that the results kind of correlates between those two. Yeah. So we we right now we are running all these benchmarking internally."
+    },
+    {
+      "t": 1788.6,
+      "end": 1799.3,
+      "text": "Um mid can So what you know what uh what about our partners and developers? Is that you know is that something that they could benefit of? Uh you know BC Bench is that something they could use?"
+    },
+    {
+      "t": 1799.3,
+      "end": 1814.6,
+      "text": "Yeah, definitely. Um I think there are kind of two sides uh to that question. Uh the first part is we aim to make BC Bench public. Um well, first of all a bench benchmark is not uh useful unless people can reproduce the result."
+    },
+    {
+      "t": 1814.6,
+      "end": 1831.6,
+      "text": ">> Mhm. So we aim to make it public so everyone our partner community can reproduce the result. And also they can everyone can run their own instructions or their own toolings to verify if they actually works uh through BC Bench."
+    },
+    {
+      "t": 1831.6,
+      "end": 1846.8,
+      "text": "Uh what we see is there is many efforts from our partner community uh building great MCP servers and the best practices and things like that. Um now with BC Bench they can verify if it helps in solving what bugs in AL."
+    },
+    {
+      "t": 1846.8,
+      "end": 1861.1,
+      "text": "Mhm. So they could take our own benchmark BC Bench and they could um you know take the their own MCP server if they have if they have done some things around this and see if that you know helps in any way uh in the in the agent coding experience,"
+    },
+    {
+      "t": 1861.1,
+      "end": 1873.4,
+      "text": "right? Yeah, that would be great. It would be cool. >> Would they be able to run these on their own code as well? That brings me to the second part. Yes. So um a BC Bench uh is a evaluation harness."
+    },
+    {
+      "t": 1873.4,
+      "end": 1893.5,
+      "text": "Uh what um we want to do is that we will want to create a partner data set. Mhm. Where partners can simply plug in this own uh their own code base in in the data set and replace all our Microsoft data to make sure that whatever coding agency is performing in Microsoft code"
+    },
+    {
+      "t": 1893.5,
+      "end": 1904.8,
+      "text": "base is similar to what partners are experiencing on their code base as well. So yes, that's part of the plan as well. All right. So yeah, something to look forward to."
+    },
+    {
+      "t": 1904.8,
+      "end": 1918,
+      "text": "Uh be able to play around with our BC Bench. Thank you Erhard. That was That was very cool and thank you for for for joining this this this video and thank you for watching."
+    }
+  ],
+  "markers": [
+    {
+      "t": 6.55,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 5349
+}

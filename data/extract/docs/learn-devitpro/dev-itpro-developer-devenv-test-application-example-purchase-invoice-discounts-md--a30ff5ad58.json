@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-test-application-example-purchase-invoice-discounts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-test-application-example-purchase-invoice-discounts",
+  "title": "Application Testing Example to Test Purchase Invoice Discounts",
+  "blob": "fde3fc583ccb2f9a206c2a44bb75ee7a4a017f7f",
+  "summary": "Application testing example demonstrates how to write test codeunits and test methods for purchase invoice discount calculations using test libraries and helper methods.",
+  "systems": [
+    "development",
+    "purchasing"
+  ],
+  "topics": [
+    "test codeunit",
+    "test method",
+    "test libraries",
+    "helper method",
+    "invoice discount",
+    "purchase documents"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Purch.-Calc.Discount"
+    },
+    {
+      "type": "codeunit",
+      "name": "ERM Vendor Discount"
+    }
+  ],
+  "features": [
+    "test codeunits",
+    "test methods",
+    "Library - Random",
+    "Library - Purchase",
+    "Assert codeunit",
+    "GIVEN-WHEN-THEN notation",
+    "helper methods"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01272,
+      "pages_in_call": 3
+    }
+  ]
+}

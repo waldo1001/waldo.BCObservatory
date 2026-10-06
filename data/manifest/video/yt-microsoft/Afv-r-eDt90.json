@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Enhanced Analysis Mode (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=Afv-r-eDt90",
-  "published_at": null,
+  "published_at": "2026-04-01T12:01:21.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:23:24.802Z",
+      "captions": "auto:en-orig",
+      "duration_s": 835
+    },
+    "captioned": {
+      "at": "2026-10-06T13:23:37.013Z",
+      "path": "data/captions/microsoft/Afv-r-eDt90.vtt",
+      "vtt_sha256": "01fbf89828e366a306240e43e54132d2b180b8893c0e9f717eb68dfc56a42c0b",
+      "segments": 63,
+      "words": 2023,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 85,
     "duration_s": 835,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "01fbf89828e366a306240e43e54132d2b180b8893c0e9f717eb68dfc56a42c0b"
 }

@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Running Tests from Visual Studio Code (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=Rvgt_VXFr1I",
-  "published_at": null,
+  "published_at": "2026-04-01T12:01:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:21:28.708Z",
+      "captions": "auto:en-orig",
+      "duration_s": 507
+    },
+    "captioned": {
+      "at": "2026-10-06T13:21:35.453Z",
+      "path": "data/captions/microsoft/Rvgt_VXFr1I.vtt",
+      "vtt_sha256": "44808af1c11a0ce7026aea88f32aed42729e9edfd3ff8b811841a5f68b604120",
+      "segments": 39,
+      "words": 1501,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 79,
-    "duration_s": 508,
-    "via": "reconcile"
-  }
+    "duration_s": 507,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "44808af1c11a0ce7026aea88f32aed42729e9edfd3ff8b811841a5f68b604120"
 }

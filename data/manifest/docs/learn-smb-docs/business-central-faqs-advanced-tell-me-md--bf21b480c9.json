@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-advanced-tell-me",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f9f4f48a06f10c573f81d05d1dece3d5bb084aac",
       "words": 658,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:01:37.572Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007053
+    },
+    "summarized": {
+      "at": "2026-10-06T13:04:10.862Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:04:10.862Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:04:10.862Z",
+      "page": false
     }
   },
   "input_hash": "f9f4f48a06f10c573f81d05d1dece3d5bb084aac",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f9f4f48a06f10c573f81d05d1dece3d5bb084aac"
+  "output_hash": "f0326b6170368db3ab69f4995363afd3baffbed8a23bd758b6b69afb2ed42137"
 }

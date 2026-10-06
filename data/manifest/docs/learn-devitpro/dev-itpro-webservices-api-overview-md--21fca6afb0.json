@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/api-overview",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d99c34d5787ac73f674027d360a4ec26488a43e5",
       "words": 303,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:35:35.738Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.011482
+    },
+    "summarized": {
+      "at": "2026-10-06T13:35:35.784Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:35:35.784Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:35:35.784Z",
+      "page": false
     }
   },
   "input_hash": "d99c34d5787ac73f674027d360a4ec26488a43e5",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d99c34d5787ac73f674027d360a4ec26488a43e5"
+  "output_hash": "007bab9802a1707f56b61b9e4442ad3547cbfc2449ce2dae837809ef901e0ba2"
 }

@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-auth.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-auth",
+  "title": "Authentication tools - al_auth_login and al_auth_logout",
+  "blob": "481822913e3645a05923a42cffe64d2b6ac04c0b",
+  "summary": "The al_auth_login and al_auth_logout tools manage authentication for the AL MCP Server when connecting to Business Central cloud environments using Microsoft Entra ID sign-in.",
+  "systems": [
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "authentication",
+    "mcp server",
+    "microsoft entra id",
+    "cloud environment",
+    "token management"
+  ],
+  "objects": [],
+  "features": [
+    "al_auth_login",
+    "al_auth_logout",
+    "browser-based sign-in",
+    "token caching",
+    "msal"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005955,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "api page key fields must be editable on insert",
+  "title": "Keep Consumer-Provided Key Fields Editable on API Pages",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/api-page-key-fields-must-be-editable-on-insert.md",
   "published_at": "2026-09-29T10:48:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:30:12.766Z",
+      "blob": "84887c19825815a34ca2464f6b134bb3eb4127cf",
+      "words": 163,
+      "forms": 0
     }
   },
   "input_hash": "84887c19825815a34ca2464f6b134bb3eb4127cf",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/web-services/api-page-key-fields-must-be-editable-on-insert.md"
-  }
+    "path": "microsoft/knowledge/web-services/api-page-key-fields-must-be-editable-on-insert.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 163
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "84887c19825815a34ca2464f6b134bb3eb4127cf"
 }

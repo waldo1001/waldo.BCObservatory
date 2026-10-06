@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "namespace must be verified from source",
+  "title": "Resolve a namespace from the referenced object's source or symbols, never by guessing",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/namespace-must-be-verified-from-source.md",
   "published_at": "2026-09-29T10:48:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:30:12.747Z",
+      "blob": "52e8bbc17a81634af22c25b6db7d47eed9eb6442",
+      "words": 243,
+      "forms": 0
     }
   },
   "input_hash": "52e8bbc17a81634af22c25b6db7d47eed9eb6442",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/style/namespace-must-be-verified-from-source.md"
-  }
+    "path": "microsoft/knowledge/style/namespace-must-be-verified-from-source.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 243
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "52e8bbc17a81634af22c25b6db7d47eed9eb6442"
 }

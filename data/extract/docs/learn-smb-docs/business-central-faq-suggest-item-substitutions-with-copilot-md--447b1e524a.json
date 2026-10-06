@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/faq-suggest-item-substitutions-with-copilot.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/faq-suggest-item-substitutions-with-copilot",
+  "title": "FAQ for suggest item substitutions with Copilot",
+  "blob": "c3dfac4bd6420b14816693f004482830cc25e7cf",
+  "summary": "Suggest item substitutions with Copilot helps identify similar or interchangeable products to reduce duplicates and streamline product portfolio management. Use this page to understand the substitution feature's capabilities, limitations, and best practices for responsible use.",
+  "systems": [
+    "inventory",
+    "copilot"
+  ],
+  "topics": [
+    "item management",
+    "product substitution",
+    "similar items",
+    "duplication prevention",
+    "ai suggestions"
+  ],
+  "objects": [],
+  "features": [
+    "Item substitution suggestions",
+    "Similarity search using embeddings",
+    "Keyword and synonym extraction",
+    "Multi-table product search"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007053,
+      "pages_in_call": 5
+    }
+  ]
+}

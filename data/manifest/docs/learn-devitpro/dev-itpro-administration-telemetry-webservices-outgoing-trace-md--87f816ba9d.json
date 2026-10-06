@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-outgoing-trace",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7eb20be20427c97acac06bcdb5a6a213b20fc77c",
       "words": 702,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:31:56.689Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00749
+    },
+    "summarized": {
+      "at": "2026-10-06T13:31:56.717Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:31:56.718Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:31:56.718Z",
+      "page": false
     }
   },
   "input_hash": "7eb20be20427c97acac06bcdb5a6a213b20fc77c",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7eb20be20427c97acac06bcdb5a6a213b20fc77c"
+  "output_hash": "3dcb00ac01f11f213267fb183ea6752d4f4b4aea53e66250bc9fadbbb3bb8cbc"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a4bea2b2fa7a6976141ded45c52cb2ed38c508e1",
       "words": 228,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:31:56.690Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00749
+    },
+    "summarized": {
+      "at": "2026-10-06T13:31:56.733Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:31:56.733Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:31:56.733Z",
+      "page": false
     }
   },
   "input_hash": "a4bea2b2fa7a6976141ded45c52cb2ed38c508e1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a4bea2b2fa7a6976141ded45c52cb2ed38c508e1"
+  "output_hash": "6df37165637cce23e8c640b46f3db706bbb84993b3632ba0817a61526bc0a2c6"
 }

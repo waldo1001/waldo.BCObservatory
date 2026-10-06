@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/administration-shell.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-shell",
+  "title": "Business Central Administration Shell",
+  "blob": "3d7445355ff52d241d6e2e47fd1ab8b88e3f3d63",
+  "summary": "Administration Shell provides PowerShell cmdlets for managing Business Central on-premises deployments including server instances, databases, users, and extensions.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "powershell",
+    "administration",
+    "on-premises",
+    "server configuration",
+    "extension management"
+  ],
+  "objects": [],
+  "features": [
+    "Server instance configuration",
+    "Web server instance configuration",
+    "Extension publishing and installation",
+    "User management",
+    "Database configuration",
+    "PowerShell 7 support"
+  ],
+  "versions": [
+    "2026 release wave 1",
+    "version 28"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015515,
+      "pages_in_call": 2
+    }
+  ]
+}

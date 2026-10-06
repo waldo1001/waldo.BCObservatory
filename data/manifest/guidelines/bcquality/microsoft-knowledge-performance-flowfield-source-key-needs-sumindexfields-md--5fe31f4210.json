@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "flowfield source key needs sumindexfields",
+  "title": "A FlowField needs a source-table key that covers its CalcFormula",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/flowfield-source-key-needs-sumindexfields.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.411Z",
+      "blob": "fdedc4264c2832c311e1908fe789acdab6aea303",
+      "words": 246,
+      "forms": 0
     }
   },
   "input_hash": "fdedc4264c2832c311e1908fe789acdab6aea303",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/flowfield-source-key-needs-sumindexfields.md"
-  }
+    "path": "microsoft/knowledge/performance/flowfield-source-key-needs-sumindexfields.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 246
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fdedc4264c2832c311e1908fe789acdab6aea303"
 }

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/use-mcp-server-in-vscode.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/use-mcp-server-in-vscode",
+  "title": "Connect to Business Central MCP Server with Visual Studio Code",
+  "blob": "57805345745ca9e1df0517f972afa50d5b4e0c5c",
+  "summary": "Connect to Business Central MCP Server from Visual Studio Code explains how to configure the Business Central Model Context Protocol server in VS Code to enable developers to interact with Business Central data through GitHub Copilot using natural language.",
+  "systems": [
+    "integration",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "mcp server",
+    "visual studio code",
+    "github copilot",
+    "business central data",
+    "natural language"
+  ],
+  "objects": [],
+  "features": [
+    "MCP server configuration",
+    "user-level configuration",
+    "workspace-level configuration",
+    "headerless connections",
+    "agent mode",
+    "dynamic tool mode"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008502,
+      "pages_in_call": 5
+    }
+  ]
+}

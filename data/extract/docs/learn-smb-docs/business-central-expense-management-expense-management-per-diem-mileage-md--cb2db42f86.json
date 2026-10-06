@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-per-diem-mileage.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-per-diem-mileage",
+  "title": "Set Up Per Diem and Mileage Allowances",
+  "blob": "459a847e7d74a9e5ad1fc6ec2dc236692c26713d",
+  "summary": "Configure per diem and mileage allowances for travel expense reimbursement, including location-based rates, calculation methods for full and partial days, meal reductions, and vehicle-specific rates.",
+  "systems": [
+    "hr",
+    "finance"
+  ],
+  "topics": [
+    "expense management",
+    "per diem",
+    "mileage allowances",
+    "travel reimbursement",
+    "expense rules",
+    "allowance configuration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Expense Agent Setup"
+    },
+    {
+      "type": "page",
+      "name": "Expense Locations"
+    },
+    {
+      "type": "page",
+      "name": "Expense Management Rules"
+    }
+  ],
+  "features": [
+    "per diem calculation methods",
+    "full calendar day per diem",
+    "24-hour rolling period per diem",
+    "overnight stay per diem",
+    "partial day rules",
+    "meal reduction percentages",
+    "mileage rates by vehicle type",
+    "round trip distance calculation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009673,
+      "pages_in_call": 4
+    }
+  ]
+}

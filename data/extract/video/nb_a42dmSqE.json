@@ -1,0 +1,329 @@
+{
+  "video_id": "nb_a42dmSqE",
+  "item_id": "video/yt-microsoft/nb_a42dmSqE",
+  "title": "What's new in SCM: Migrate Italian Subcontracting (2026 release wave 2)",
+  "duration_s": 674,
+  "systems": [
+    "manufacturing",
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "subcontracting",
+    "migration",
+    "italian localization",
+    "work in progress",
+    "legacy functionality",
+    "application areas",
+    "purchase orders",
+    "transfer orders",
+    "vendors"
+  ],
+  "chapters": [
+    {
+      "title": "Overview of Italian subcontracting and migration need",
+      "t_start": 0,
+      "t_end": 44.3
+    },
+    {
+      "title": "How legacy and new subcontracting differ",
+      "t_start": 44.3,
+      "t_end": 91.8
+    },
+    {
+      "title": "Finding the legacy subcontracting toggle and starting migration",
+      "t_start": 91.8,
+      "t_end": 139.7
+    },
+    {
+      "title": "Pre-migration checks and fixing open documents",
+      "t_start": 139.7,
+      "t_end": 242.6
+    },
+    {
+      "title": "Installing the new subcontracting app",
+      "t_start": 242.6,
+      "t_end": 340.6
+    },
+    {
+      "title": "Running migration and timing the transition",
+      "t_start": 340.6,
+      "t_end": 428.2
+    },
+    {
+      "title": "After migration - application areas and removed pages",
+      "t_start": 428.2,
+      "t_end": 510.1
+    },
+    {
+      "title": "Finding migrated documents and data in new app",
+      "t_start": 510.1,
+      "t_end": 570.6
+    },
+    {
+      "title": "Migration improvements and requirements",
+      "t_start": 570.6,
+      "t_end": 639.2
+    },
+    {
+      "title": "Summary and recommendations",
+      "t_start": 639.2,
+      "t_end": 674
+    }
+  ],
+  "features": [
+    {
+      "name": "New global subcontracting app",
+      "description": "Replaces the legacy Italian subcontracting functionality with a globally available subcontracting app that includes advanced capabilities for handling raw materials, work in progress items, and pricing management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 17.4,
+      "t_end": 105,
+      "is_demoed": true,
+      "caveats": [
+        "Requires migration from legacy Italian subcontracting",
+        "Significant implementation differences in work in progress handling"
+      ],
+      "tags": [
+        "global feature",
+        "replaces legacy",
+        "subcontracting capabilities"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Italian subcontracting migration app",
+      "description": "Dedicated migration app that transfers data from legacy Italian subcontracting to the new global subcontracting app, handling vendors, purchase orders, transfer orders, and pricing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 128.3,
+      "t_end": 639.2,
+      "is_demoed": true,
+      "caveats": [
+        "Migration was initially blocked in production for feedback",
+        "Only available through tenant installation, not AppSource",
+        "Requires preparation of open work in progress documents"
+      ],
+      "tags": [
+        "migration",
+        "data transfer",
+        "italian localization",
+        "tenant-only"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "Legacy subcontracting pre-check",
+      "description": "Validates the current state before migration by checking for open transfer orders with work in progress items and purchase orders with work in progress items that must be resolved first.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 139.7,
+      "t_end": 242.6,
+      "is_demoed": true,
+      "caveats": [
+        "Pre-check can be skipped but will run anyway during migration"
+      ],
+      "tags": [
+        "pre-migration validation",
+        "data quality"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Work in progress item migration handling",
+      "description": "Key difference between legacy and new subcontracting - requires closing or removing all open transfer orders and purchase orders containing work in progress items before migration can proceed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 54.5,
+      "t_end": 242.6,
+      "is_demoed": true,
+      "caveats": [
+        "Mandatory pre-migration preparation step",
+        "Customers can choose to post, delete, or cancel documents"
+      ],
+      "tags": [
+        "data cleanup",
+        "pre-migration",
+        "work in progress"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Subcontracting application area toggle",
+      "description": "Controls visibility of legacy subcontracting fields and pages versus new subcontracting functionality. When legacy subcontracting is disabled, the system switches the application area setting to activate new subcontracting and hide legacy fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 91.8,
+      "t_end": 510.1,
+      "is_demoed": true,
+      "caveats": [
+        "Cannot be activated without migration if legacy data exists",
+        "Toggle is guarded by system logic"
+      ],
+      "tags": [
+        "application areas",
+        "field visibility",
+        "ui configuration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Subcontracting purchase and transfer order views",
+      "description": "After migration, legacy subcontracting dedicated pages are removed. Purchase and transfer orders are consolidated into standard lists with filter views for subcontracting orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 497.7,
+      "t_end": 535.3,
+      "is_demoed": true,
+      "caveats": [
+        "Dedicated legacy pages no longer available",
+        "Requires use of views to filter subcontracting-specific documents"
+      ],
+      "tags": [
+        "consolidated ui",
+        "views and filters",
+        "document management"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Vendor subcontracting field migration",
+      "description": "Vendor-level fields including subcontractor indicator and subcontracting location code are migrated from legacy Italian subcontracting to the new app.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 268.6,
+      "t_end": 570.6,
+      "is_demoed": true,
+      "caveats": [
+        "Field values are migrated but stored in new tables"
+      ],
+      "tags": [
+        "vendor data",
+        "data migration",
+        "field mapping"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Subcontracting prices migration",
+      "description": "Pricing information defined for subcontractors in the legacy system is migrated to the new subcontracting app pricing tables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 268.6,
+      "t_end": 570.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "pricing",
+        "data migration",
+        "cost management"
+      ],
+      "system": "purchasing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Manufacturing Setup",
+      "t": 79.1
+    },
+    {
+      "type": "other",
+      "name": "Subcontracting Transfer",
+      "t": 170.1
+    },
+    {
+      "type": "other",
+      "name": "Subcontracting Orders",
+      "t": 214.2
+    },
+    {
+      "type": "other",
+      "name": "Vendors",
+      "t": 254
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 32,
+      "text": "With new subcontracting app available globally and in Italy, we are discontinuing the existing Italian functionality and replacing it with a subcontracting app.",
+      "why_it_matters": "Signals the GA status and global scope of the new app as a replacement for legacy Italian functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 54.5,
+      "text": "new subcontracting app includes a lot of features which available in Italy and more. There is one significant difference in implementation.",
+      "why_it_matters": "Identifies that the new app adds capabilities beyond legacy Italian subcontracting but has one major implementation difference requiring migration.",
+      "check": "exact"
+    },
+    {
+      "t": 154.2,
+      "text": "we have a differences on how work in progress items are implemented. That's why we are asking you to make sure that there is",
+      "why_it_matters": "Specifies the critical pre-migration requirement: all open work in progress items must be resolved before migration can proceed.",
+      "check": "exact"
+    },
+    {
+      "t": 352.3,
+      "text": "If you do not have open documents, prices, vendors, etc. So basically if you're not using the legacy subcontracting at all, we based on",
+      "why_it_matters": "Explains that migration is optional if legacy subcontracting data is not present, reducing friction for customers with clean data.",
+      "check": "exact"
+    },
+    {
+      "t": 472.8,
+      "text": "it is also uh guarded, and it controls if you have data or not. If you have data in your legacy subcontracting system, system",
+      "why_it_matters": "Describes the business logic preventing unsafe transitions - the toggle is locked if legacy data exists to ensure data consistency.",
+      "check": "exact"
+    },
+    {
+      "t": 611.5,
+      "text": "Italian subcontracting migration up is not listed on AppSource. It's only available to install from the tenant itself.",
+      "why_it_matters": "Clarifies deployment constraints: the migration app is tenant-only and must be triggered from Manufacturing Setup.",
+      "check": "exact"
+    },
+    {
+      "t": 639.2,
+      "text": "What gets migrated? Vendor, purchase headers, lines, transfers, components, routing, and subcontracting prices.",
+      "why_it_matters": "Lists the complete scope of data transferred during migration, helping customers understand what will move to the new app.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 570.6,
+      "kind": "other",
+      "text": "Previously, when we just released it, we make sure that migration is not possible to run in the production environment. So, we want to get some feedback."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.037034
+    }
+  ]
+}

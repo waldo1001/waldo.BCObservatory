@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/map-edocuments-with-copilot.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/map-edocuments-with-copilot",
+  "title": "Map e-documents to purchase order lines with Copilot",
+  "blob": "59e8d778350506974e1fce1b183b963cd9dbd2d7",
+  "summary": "Deprecated Copilot feature for matching e-invoice lines to purchase order lines; now replaced by the Payables Agent for automating vendor invoice matching and purchase order updates.",
+  "systems": [
+    "purchasing",
+    "integration",
+    "copilot"
+  ],
+  "topics": [
+    "e-documents",
+    "copilot",
+    "purchase orders",
+    "invoice matching",
+    "payables agent",
+    "deprecated"
+  ],
+  "objects": [],
+  "features": [
+    "E-Document Matching Assistance",
+    "E-document to purchase order linking",
+    "Line mapping with Copilot",
+    "Automatic matching",
+    "Price analysis",
+    "Quantity checking",
+    "Payables Agent replacement"
+  ],
+  "versions": [
+    "preview"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010023,
+      "pages_in_call": 3
+    }
+  ]
+}

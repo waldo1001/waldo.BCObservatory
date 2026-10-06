@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-al-tool.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-tool",
+  "title": "ALTool Command-Line Reference for AL Development",
+  "blob": "150b2e5fafb3676285b5c04c8c70a0a648cc7b35",
+  "summary": "ALTool is a command-line tool for compiling and packaging AL extensions for Business Central, with integration into CI/CD pipelines and support for workspace management, testing, call graph analysis, and LSP/MCP servers. ALTool command-line reference for performance profiling and snapshot debugging MCP proxies that connect AI agents to running Business Central environments for profiling slow sessions and capturing debugging snapshots.",
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "altool",
+    "compilation",
+    "ci/cd pipelines",
+    "al extensions",
+    "command-line",
+    "testing",
+    "workspace management",
+    "call graph",
+    "mcp server",
+    "profiling"
+  ],
+  "objects": [],
+  "features": [
+    "Compilation",
+    "CI/CD integration",
+    "Workspace commands",
+    "Test execution",
+    "Call graph analysis",
+    "Symbol-only package detection",
+    "AL LSP server",
+    "ALMCP server",
+    "Performance profiling MCP proxy",
+    "Snapshot debugging MCP proxy",
+    "launchprofilingmcpproxy",
+    "launchsnapshotmcpproxy"
+  ],
+  "versions": [
+    "2026 release wave 2"
+  ],
+  "parts": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032417,
+      "pages_in_call": 1
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008967,
+      "pages_in_call": 3
+    }
+  ]
+}

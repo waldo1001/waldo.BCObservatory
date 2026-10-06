@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/summarize-with-copilot.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/summarize-with-copilot",
+  "title": "Summarize a record with Copilot",
+  "blob": "59aed589e68b6c05c03e605434ed49e5b220ddd6",
+  "summary": "Copilot summarizes records like customers, items, and sales orders into bullet-point insights in the FactBox pane, using data from fields, FactBoxes, and related pages that you have permission to access.",
+  "systems": [
+    "copilot",
+    "sales",
+    "administration"
+  ],
+  "topics": [
+    "copilot",
+    "summarization",
+    "factbox",
+    "record summaries",
+    "ai-generated content"
+  ],
+  "objects": [],
+  "features": [
+    "Summarize capability",
+    "Summary part in FactBox",
+    "Expand summary",
+    "Show more button",
+    "Regenerate summary",
+    "Copy summary",
+    "Show or hide summary"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008241,
+      "pages_in_call": 4
+    }
+  ]
+}

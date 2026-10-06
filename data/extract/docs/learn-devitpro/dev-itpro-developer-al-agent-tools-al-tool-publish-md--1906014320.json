@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-publish.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-publish",
+  "title": "Publish AL extension to Business Central - al_publish",
+  "blob": "79fec2ae6162fb134060a0d13e4257cf2acd61ae",
+  "summary": "The al_publish tool deploys an AL extension to Business Central environments (cloud or on-premises) with support for full publish, incremental RAD publish, dependency trees, and skip-build modes.",
+  "systems": [
+    "development",
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "publishing",
+    "deployment",
+    "al tools",
+    "rad development",
+    "authentication"
+  ],
+  "objects": [],
+  "features": [
+    "full publish",
+    "incremental publish",
+    "RAD delta compilation",
+    "dependency tree",
+    "schema updates",
+    "skip build",
+    "browser authentication",
+    "on-premises support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006307,
+      "pages_in_call": 7
+    }
+  ]
+}

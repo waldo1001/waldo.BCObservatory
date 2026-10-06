@@ -1,0 +1,28 @@
+{
+  "video_id": "N_J1HB_fUCM",
+  "item_id": "video/yt-microsoft/N_J1HB_fUCM",
+  "summary": "Overview of Finance changes in Business Central 2026 release wave 2: multiple excise taxes per item, bonded locations, ad valorem and hybrid excise calculation, self-billing with PEPPOL, cross environment master data, employee withholding tax, and localization updates. Spain Verifactu-style e-invoicing and France invoicing are stated as generally available.",
+  "overview": "This 10-minute overview covers Finance and localization changes in the 2026 release wave 2. Most of the time goes to excise taxes: several excise taxes can now be set on one item, and further features for bonded locations, a transfer entry type, ad valorem and hybrid calculation are coming in the November minor update.\n\nThe video also covers self-billing (vendor-specific number series and PEPPOL format in the e-documents framework), cross environment master data management, withholding tax for employees, and a list of localization updates for Spain, France, Australia, Great Britain, Germany, Switzerland, Austria and Iceland. The presenter says it is not a complete list of Finance changes, and that deep-dive sessions exist for some topics.",
+  "key_points": [
+    "Multiple excise taxes per item: a new excise taxes page opens from the item card's Related menu. Earlier versions allowed only one excise per item.",
+    "Existing excise tax configuration from the previous wave is upgraded automatically to the new table.",
+    "Coming in November: bonded locations (excise is calculated on release from the location, not on inbound receipt), a Transfer entry type in excise permissions, ad valorem calculation (percent of taxable amount) and a hybrid model combining specific and ad valorem parts.",
+    "Self-billing: a number series can be selected per vendor, with fallback to the payables setup if none is selected. Self-billing invoices support PEPPOL format and the e-documents framework.",
+    "Withholding tax for employees: choose employees as business posting group to get gross or net calculation, with thresholds per period and category. It can be used in the expense agent or the general journal.",
+    "Cross environment master data management needs setup in each environment. It is useful for companies with several localizations, each in its own environment.",
+    "Localization: Spain e-invoicing (mandatory from the beginning of next year) and France invoicing are generally available. Germany gets structured Intrastat and an EU audit file export (November or December). SFT is enabled for Austria and Iceland in December."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker",
+    "partner"
+  ],
+  "extraction_hash": "3eca1ea2e8d35b5af82f617f10021a42ea71cf3a493e195aa931079e72471f34",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0478824
+  }
+}

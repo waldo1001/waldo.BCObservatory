@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-work-with-translation-files.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-work-with-translation-files",
+  "title": "Work with XLIFF Translation Files",
+  "blob": "f7d16577e07d4cd4f674bc89ac687ecf198fd2d2",
+  "summary": "Working with XLIFF translation files enables multi-language support for Business Central extensions. Generate translation files, add translations, and use namespace-aware IDs to translate UI elements and labels.",
+  "systems": [
+    "development",
+    "localization"
+  ],
+  "topics": [
+    "translations",
+    "xliff",
+    "localization",
+    "labels",
+    "multi-language support"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "TextConst data type"
+    }
+  ],
+  "features": [
+    "TranslationFile feature",
+    "GenerateCaptions",
+    "GenerateLockedTranslations",
+    "TranslationsWithNamespaces",
+    "label syntax",
+    "namespace-aware translation IDs"
+  ],
+  "versions": [
+    "runtime 18"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007447,
+      "pages_in_call": 5
+    }
+  ]
+}

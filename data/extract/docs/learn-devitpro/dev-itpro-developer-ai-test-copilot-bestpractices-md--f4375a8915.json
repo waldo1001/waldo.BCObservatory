@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/ai-test-copilot-bestpractices.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot-bestpractices",
+  "title": "Best Practices for Testing the Copilot Capability in AL",
+  "blob": "c13a7fada6574dbbac1bfc2d00388efcfcc189c3",
+  "summary": "Best practices for testing the Copilot Capability outlines testing strategies for LLM-based features including handling non-determinism, measuring accuracy at scale, validating safety and tone, testing cross-language compatibility, and tracking model version changes.",
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "testing",
+    "best practices",
+    "llm",
+    "non-determinism",
+    "accuracy",
+    "safety",
+    "tone",
+    "localization",
+    "regression testing"
+  ],
+  "objects": [],
+  "features": [
+    "scale automation with Evaluation",
+    "realistic test case design",
+    "safety and tone validation",
+    "bias and stereotype testing",
+    "cross-language compatibility",
+    "model version regression testing",
+    "CI/CD integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011061,
+      "pages_in_call": 4
+    }
+  ]
+}

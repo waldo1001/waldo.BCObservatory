@@ -1,0 +1,255 @@
+{
+  "video_id": "i0gBrA1tx50",
+  "item_id": "video/yt-microsoft/i0gBrA1tx50",
+  "title": "What’s new: ALGraph (2026 release wave 2)",
+  "duration_s": 391,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al graph",
+    "call graphs",
+    "code auditing",
+    "security analysis",
+    "debuggable boundaries",
+    "query language",
+    "dgml format",
+    "sarif format",
+    "dependencies"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to AL Graph",
+      "t_start": 0,
+      "t_end": 45.5
+    },
+    {
+      "title": "Use cases: code auditing and security",
+      "t_start": 45.5,
+      "t_end": 84.6
+    },
+    {
+      "title": "Query language and export formats",
+      "t_start": 84.6,
+      "t_end": 139.9
+    },
+    {
+      "title": "Building the meta model",
+      "t_start": 139.9,
+      "t_end": 184.3
+    },
+    {
+      "title": "Querying HTTP client callers",
+      "t_start": 184.3,
+      "t_end": 253.4
+    },
+    {
+      "title": "Auditing non-debuggable to debuggable boundaries",
+      "t_start": 253.4,
+      "t_end": 348.4
+    },
+    {
+      "title": "Security implications and closing",
+      "t_start": 348.4,
+      "t_end": 391
+    }
+  ],
+  "features": [
+    {
+      "name": "AL Graph",
+      "description": "A new tool in the AL tools package that constructs call graphs to analyze code structure, identify caller-callee relationships, external integration points, dependencies, and security vulnerabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.9,
+      "t_end": 45.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "call graphs",
+        "code analysis",
+        "auditing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Graph query language",
+      "description": "A rich query language that allows users to construct complex queries to find callers of specific objects, methods that interact with tables, and trace security boundaries. Queries are documented on MS Learn.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 98.5,
+      "t_end": 128.1,
+      "is_demoed": true,
+      "caveats": [
+        "Users should consult MS Learn documentation for query syntax"
+      ],
+      "tags": [
+        "queries",
+        "syntax",
+        "documentation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Graph DGML export",
+      "description": "Export format for AL Graph queries that produces graph representations suitable for human analysis of call relationships.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 116.1,
+      "t_end": 128.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "export format",
+        "visualization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Graph SARIF export",
+      "description": "Export format for AL Graph queries in SARIF format, designed to be flat and easily consumable by agents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 116.1,
+      "t_end": 128.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "export format",
+        "agent-friendly"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Graph meta model extraction",
+      "description": "One-time process to build a meta model representation of caller-callee relationships in an app using the 'extract whole' method. The meta model is stored as JSON and queried multiple times.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 139.9,
+      "t_end": 184.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "meta model",
+        "extraction",
+        "json"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "HTTP client caller auditing",
+      "description": "AL Graph query capability to identify all callers to HTTP client and trace the call paths that can reach HTTP requests, useful for auditing external integration points.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 184.3,
+      "t_end": 253.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "http requests",
+        "callers",
+        "integration points"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Non-debuggable to debuggable boundary audit",
+      "description": "AL Graph capability to find all callees of non-debuggable methods and identify where secrets could be inadvertently exposed by debugging in debuggable code reached from non-debuggable methods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 253.4,
+      "t_end": 348.4,
+      "is_demoed": true,
+      "caveats": [
+        "This is a security concern where breakpoints in debuggable methods reached from non-debuggable code can leak information"
+      ],
+      "tags": [
+        "debuggable boundaries",
+        "security",
+        "secrets"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "HTTP client",
+      "t": 206.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Thaddeus",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 30.9,
+      "text": "it is a tool that is focused around constructing call graphs. Um, so if you've ever wanted to know, like, you know, the structure",
+      "why_it_matters": "Defines the core purpose of AL Graph as a code structure analysis tool for understanding dependencies and call relationships",
+      "check": "exact"
+    },
+    {
+      "t": 58.7,
+      "text": "It basically allows you to do auditing of your code base. So, for example, if you've ever wanted to know where in your code",
+      "why_it_matters": "Demonstrates how AL Graph enables security and integration auditing by tracing call paths to external services",
+      "check": "exact"
+    },
+    {
+      "t": 70.1,
+      "text": "if you want to do security auditing, one big one um, that we're quite focused on is the non-debuggable to debuggable boundary. Um, because,",
+      "why_it_matters": "Identifies the key security vulnerability that AL Graph helps detect - secret exposure through debuggable code called from non-debuggable methods",
+      "check": "exact"
+    },
+    {
+      "t": 98.5,
+      "text": "you can actually uh, construct fairly complex queries. So, if you have your own sensitive objects, for example, you can say, Okay, give me",
+      "why_it_matters": "Shows the flexibility and power of AL Graph's query language for custom security analysis",
+      "check": "exact"
+    },
+    {
+      "t": 150.9,
+      "text": "this is a one-time thing. It's basically building the representation of the different uh caller-callee relationships in your app.",
+      "why_it_matters": "Clarifies that the meta model build step only needs to happen once before running multiple queries",
+      "check": "exact"
+    },
+    {
+      "t": 264.5,
+      "text": "this query language that all the different operations you can do this is all well documented on our um MS Learn website.",
+      "why_it_matters": "Points users to MS Learn as the source of query language documentation",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.031411999999999995
+    }
+  ]
+}

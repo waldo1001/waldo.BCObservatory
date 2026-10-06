@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/item-marketing-text",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ecda9f2719202c66575e2317ec3abd7133a65f76",
       "words": 1510,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T13:07:09.756Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.010023
+    },
+    "summarized": {
+      "at": "2026-10-06T13:09:36.185Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:09:36.185Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:09:36.186Z",
+      "page": false
     }
   },
   "input_hash": "ecda9f2719202c66575e2317ec3abd7133a65f76",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ecda9f2719202c66575e2317ec3abd7133a65f76"
+  "output_hash": "949f85323d73ad4d858f1602575bba8e3f1ae87eebb82756fb1490815e190258"
 }

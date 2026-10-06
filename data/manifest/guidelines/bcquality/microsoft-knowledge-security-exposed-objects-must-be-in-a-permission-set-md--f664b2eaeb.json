@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "exposed objects must be in a permission set",
+  "title": "Every exposed object must belong to a permission set",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/exposed-objects-must-be-in-a-permission-set.md",
   "published_at": "2026-09-29T15:12:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:24:33.962Z",
+      "blob": "fd933d737744199901426a89dddf4d411573699c",
+      "words": 436,
+      "forms": 0
     }
   },
   "input_hash": "fd933d737744199901426a89dddf4d411573699c",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/security/exposed-objects-must-be-in-a-permission-set.md"
-  }
+    "path": "microsoft/knowledge/security/exposed-objects-must-be-in-a-permission-set.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 436
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fd933d737744199901426a89dddf4d411573699c"
 }

@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "do not change shipped event attribute flags",
+  "title": "Do not change shipped event attribute flags",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/do-not-change-shipped-event-attribute-flags.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.209Z",
+      "blob": "f613f3ad65d4f1d58a5370222aea6f874ee53a38",
+      "words": 182,
+      "forms": 0
     }
   },
   "input_hash": "f613f3ad65d4f1d58a5370222aea6f874ee53a38",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/events/do-not-change-shipped-event-attribute-flags.md"
-  }
+    "path": "microsoft/knowledge/events/do-not-change-shipped-event-attribute-flags.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 182
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f613f3ad65d4f1d58a5370222aea6f874ee53a38"
 }

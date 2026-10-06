@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=HixajKEd-A4",
   "published_at": "2026-10-01T13:03:49.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T12:56:58.324Z",
+      "path": "data/extract/video/HixajKEd-A4.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 4,
+      "quotes": 5,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.025656
+    },
+    "summarized": {
+      "at": "2026-10-06T12:57:07.046Z",
+      "path": "data/summary/video/HixajKEd-A4.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.039642399999999994
+    },
+    "linked": {
+      "at": "2026-10-06T12:57:07.046Z",
+      "systems": [
+        "administration",
+        "development",
+        "platform"
+      ],
+      "topics": 7,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T12:57:07.048Z",
+      "path": "content/videos/HixajKEd-A4.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2026-10-01 - BCLE - What's new： Match Production Database Configuration (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "3f94620e7168409f0b6f5579718988795945bda225ad6087ec82c5100f3cb375"
 }

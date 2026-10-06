@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "guard interface casts with is",
+  "title": "Guard optional interface casts with `is`",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/interfaces/guard-interface-casts-with-is.md",
   "published_at": "2026-09-21T08:15:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:32:30.856Z",
+      "blob": "ad9c38e2f8c8746438243912949ddbaf917a189b",
+      "words": 139,
+      "forms": 0
     }
   },
   "input_hash": "ad9c38e2f8c8746438243912949ddbaf917a189b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/interfaces/guard-interface-casts-with-is.md"
-  }
+    "path": "microsoft/knowledge/interfaces/guard-interface-casts-with-is.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 139
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ad9c38e2f8c8746438243912949ddbaf917a189b"
 }

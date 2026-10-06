@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-build-capability-in-al",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0fd23d13fe7cdcfb3c2e6c6b4d882ce509623155",
       "words": 1788,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:23:23.551Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 10,
+      "cost_usd": 0.008502
+    },
+    "summarized": {
+      "at": "2026-10-06T13:24:33.955Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:24:33.955Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:24:33.955Z",
+      "page": false
     }
   },
   "input_hash": "0fd23d13fe7cdcfb3c2e6c6b4d882ce509623155",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0fd23d13fe7cdcfb3c2e6c6b4d882ce509623155"
+  "output_hash": "37e20046ad1b261725ae46c1937663ad531560638c76b378d3d40452b55cb01a"
 }

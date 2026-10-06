@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-webservices-outgoing-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-outgoing-trace",
+  "title": "Outgoing Web Service Request Trace",
+  "blob": "7eb20be20427c97acac06bcdb5a6a213b20fc77c",
+  "summary": "Outgoing web service request telemetry captures data about HTTP calls made by extensions using ALHttpClient, including execution time, status codes, and failures. Use it to monitor external service performance and dependencies.",
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "telemetry",
+    "http requests",
+    "web services",
+    "performance monitoring",
+    "external dependencies",
+    "diagnostics"
+  ],
+  "objects": [],
+  "features": [
+    "HTTP status codes",
+    "Execution time tracking",
+    "Request headers",
+    "Timeout monitoring",
+    "Authentication method logging",
+    "Stack traces"
+  ],
+  "versions": [
+    "version 20.1",
+    "version 21.3",
+    "version 29.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00749,
+      "pages_in_call": 5
+    }
+  ]
+}

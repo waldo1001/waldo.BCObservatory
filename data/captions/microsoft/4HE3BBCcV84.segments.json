@@ -1,0 +1,138 @@
+{
+  "video_id": "4HE3BBCcV84",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.5,
+      "end": 21.8,
+      "text": ">> Hello and welcome to this video on new things we added for MCP server in Business Central. We have two new things. One is support for API queries, that's this video, and then we have opened up for all Microsoft's APIs,"
+    },
+    {
+      "t": 21.8,
+      "end": 36.7,
+      "text": "that's in the other video. I hope you will watch both of them. Now, to give some context of the business value of of API queries in MCP server, um think about the investment we did in Power BI."
+    },
+    {
+      "t": 36.7,
+      "end": 47.9,
+      "text": "We added Power BI apps for most functional areas in Business Central, and the foundation, the data foundation for these reports or apps uh API queries."
+    },
+    {
+      "t": 47.9,
+      "end": 59.7,
+      "text": "Those API queries are now also available for your external agents. So, if you want to include things like aggregations or analytics,"
+    },
+    {
+      "t": 59.7,
+      "end": 69.8,
+      "text": "these APIs were designed for just that and have also great documentation for your agent to know how to use them."
+    },
+    {
+      "t": 69.8,
+      "end": 82.6,
+      "text": "In the release wave one for Business Central here in 2026, uh highlighted in italic, you can see what we already shipped in April, and we now have in in version 22"
+    },
+    {
+      "t": 82.6,
+      "end": 97.1,
+      "text": "28.2 two new things, support for API API queries, this video, and support for all APIs, the next video. Let's dive in to see how you enable API queries."
+    },
+    {
+      "t": 97.1,
+      "end": 110,
+      "text": "As I mentioned, API queries are the foundation for our Power BI apps, and this is now available in Business Central uh MCP server. Let me show you how that works."
+    },
+    {
+      "t": 110,
+      "end": 127.5,
+      "text": "I have um here a MCP server configuration, and if I go down here under object type and choose query, when I then choose the dot dot dot ellipsis for object ID,"
+    },
+    {
+      "t": 127.5,
+      "end": 139.6,
+      "text": "you can see we now open up for all those great APIs. I just scroll down to the ones on Power BI here. So, GL account category, anything related to finance,"
+    },
+    {
+      "t": 139.6,
+      "end": 153.7,
+      "text": "anything related to inventory and so on. These are all grouped under the API group analytics. And even though they show version 0.5 and version 1 is just for backwards compatibility,"
+    },
+    {
+      "t": 153.7,
+      "end": 172.6,
+      "text": "we will choose the the the highest number of the API. And that's really what there is to it inside the MCP server. Like the cool part is now for you to go and utilize this to make your agents much better and for analytics."
+    },
+    {
+      "t": 172.6,
+      "end": 183.8,
+      "text": "And to help you with that, our documentation for the APIs are here. This short URL, aka.ms/bcintegration."
+    },
+    {
+      "t": 183.8,
+      "end": 196.8,
+      "text": "And if you zoom down under APIs, down here, you can see the analytics API reference has kind of for all these APIs, they are documented there."
+    },
+    {
+      "t": 196.8,
+      "end": 211.1,
+      "text": "That's nice, but we even took it further and documented where in our Power BI apps are these APIs used. So, here you can see the section Power BI apps and the analytics APIs."
+    },
+    {
+      "t": 211.1,
+      "end": 225.5,
+      "text": "You can actually see the semantic models that we have documented for Power BI are sure those documentation articles show exactly how these APIs are used and the types of calculations"
+    },
+    {
+      "t": 225.5,
+      "end": 245.6,
+      "text": "we do in Power BI to make all the KPIs. So, you can probably even use that reference as instructions or knowledge to your agents. Maybe you want to point to that in Co-pilot Studio to give your agent better understanding of types of KPIs and how"
+    },
+    {
+      "t": 245.6,
+      "end": 261.3,
+      "text": "they are calculated. And then we also in this article added for each of the APIs that we now open up for. Like what is it what type of an analysis would it be useful whether it's manufacturing,"
+    },
+    {
+      "t": 261.3,
+      "end": 272.2,
+      "text": "whether it's sales, finance or even combinations or both some of these APIs are used in multiple areas."
+    },
+    {
+      "t": 272.2,
+      "end": 283.6,
+      "text": "That's it. If you want to know more about our investments in MCP server, there's a full playlist for this. So you find that under"
+    },
+    {
+      "t": 283.6,
+      "end": 293.7,
+      "text": "Then you go to playlist and find the getting started with MCP server. That's where you find this video and all the other videos we made for MCP server."
+    },
+    {
+      "t": 293.7,
+      "end": 312.2,
+      "text": "If you want to know more in general about MCP server, our documentation also has this aka link aka.ms/bc mcp and this is where you find all the documentation on how configurations work and and that."
+    },
+    {
+      "t": 312.2,
+      "end": 326.4,
+      "text": "Now before you go to docs or MS learn and learn everything, make sure that you just spend the 5 minutes watching the other video for opening up for all APIs and then go party on everything in MCP server."
+    },
+    {
+      "t": 326.4,
+      "end": 336.4,
+      "text": "You find that video linked here and also in the playlist for everything for MCP server. That's all for now. Have a great day."
+    },
+    {
+      "t": 336.4,
+      "end": 340,
+      "text": "Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 3.274,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 749
+}

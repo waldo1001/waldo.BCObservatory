@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-device-date-is-causing-connection-Issues",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "37895a46a1dd03b499566280efafe0aa4442d62f",
       "words": 67,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:34:46.166Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007447
+    },
+    "summarized": {
+      "at": "2026-10-06T13:34:46.178Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:34:46.178Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:34:46.178Z",
+      "page": false
     }
   },
   "input_hash": "37895a46a1dd03b499566280efafe0aa4442d62f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "37895a46a1dd03b499566280efafe0aa4442d62f"
+  "output_hash": "aa718dad3d332fa29d25e003443f19ef07455cb4011a3efb585e893b599adc71"
 }

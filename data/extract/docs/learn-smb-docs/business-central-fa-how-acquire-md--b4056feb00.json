@@ -1,0 +1,82 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/fa-how-acquire.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-acquire",
+  "title": "Acquire fixed assets",
+  "blob": "a1b937a95c333dbd7297122339dd64bf7220ff32",
+  "summary": "Fixed assets are acquired by recording acquisition costs through purchase orders, journals, or assisted acquisition workflows, with support for bulk creation, component hierarchies, and salvage values.",
+  "systems": [
+    "finance",
+    "fixed-assets",
+    "purchasing"
+  ],
+  "topics": [
+    "fixed assets",
+    "acquisition",
+    "purchase orders",
+    "depreciation books",
+    "asset components",
+    "sustainability"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Fixed Asset Card"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Assets"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset G/L Journal"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset G/L Journals"
+    },
+    {
+      "type": "page",
+      "name": "Assisted Fixed Asset Acquisition"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "FA Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "FA Error Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset Setup"
+    },
+    {
+      "type": "page",
+      "name": "Main Asset Components"
+    }
+  ],
+  "features": [
+    "asset acquisition",
+    "edit in excel",
+    "multiple asset creation",
+    "component list setup",
+    "salvage value posting",
+    "acquisition cost recording",
+    "emissions tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010103,
+      "pages_in_call": 4
+    }
+  ]
+}

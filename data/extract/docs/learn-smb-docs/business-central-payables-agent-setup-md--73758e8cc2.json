@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/payables-agent-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/payables-agent-setup",
+  "title": "Set Up Payables Agent in Business Central",
+  "blob": "1b0461f412459b1de497dc181edc3ea5b359ba68",
+  "summary": "Set up the Payables Agent by configuring email monitoring, document processing, permissions, and activation through an assisted setup guide. Use this to automate vendor invoice processing from PDF attachments.",
+  "systems": [
+    "purchasing",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "payables agent",
+    "vendor invoices",
+    "email monitoring",
+    "purchase documents",
+    "permissions",
+    "copilot credits"
+  ],
+  "objects": [],
+  "features": [
+    "Email account setup and monitoring",
+    "Purchase document draft creation",
+    "Trial mode (50 free invoices)",
+    "Known senders management",
+    "Copilot credit consumption tracking",
+    "User access control",
+    "Language and regional settings"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011398,
+      "pages_in_call": 3
+    }
+  ]
+}

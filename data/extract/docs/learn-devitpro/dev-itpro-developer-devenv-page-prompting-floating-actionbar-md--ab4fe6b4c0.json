@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-page-prompting-floating-actionbar.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-prompting-floating-actionbar",
+  "title": "Prompting using a floating action bar",
+  "blob": "615a5c0d9c1c3ce67e2b16e29e81ae5a0113fc1a",
+  "summary": "Create prompt actions in the UI to launch Copilot features from List, Card, Document, ListPart, StandardDialog, ListPlus, and Worksheet pages. Prompt actions appear in prominent locations and open PromptDialog pages when selected.",
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "prompt action",
+    "floating action bar",
+    "prompting area",
+    "copilot launch",
+    "page types",
+    "visibility"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "PromptDialog"
+    }
+  ],
+  "features": [
+    "prompt actions",
+    "floating action bar",
+    "Sparkle image",
+    "RunObject property",
+    "SaaS detection",
+    "capability registration"
+  ],
+  "versions": [
+    "2024 release wave 1",
+    "runtime 13",
+    "runtime 14"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006991,
+      "pages_in_call": 5
+    }
+  ]
+}

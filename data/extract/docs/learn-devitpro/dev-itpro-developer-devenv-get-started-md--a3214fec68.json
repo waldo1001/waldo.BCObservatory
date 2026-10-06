@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-get-started.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-get-started",
+  "title": "Get started with AL",
+  "blob": "93315d1693a609379767204fe818d953e30a68c3",
+  "summary": "Get started with AL development by setting up a sandbox environment, installing Visual Studio Code and the AL Language extension, creating your first AL project with the AL:Go! command, and deploying extensions to Business Central.",
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "al language",
+    "visual studio code",
+    "setup",
+    "sandbox",
+    "extension development",
+    "deployment",
+    "json files"
+  ],
+  "objects": [],
+  "features": [
+    "AL:Go! command",
+    "AL Language extension",
+    "sandbox environment setup",
+    "launch.json configuration",
+    "app.json settings",
+    "Copilot project templates",
+    "HelloWorld sample",
+    "RAD publishing",
+    ".NET runtime acquisition"
+  ],
+  "versions": [
+    "2026 release wave 2",
+    "runtime 15.0",
+    "runtime 16.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016295,
+      "pages_in_call": 2
+    }
+  ]
+}

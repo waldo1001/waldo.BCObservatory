@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=N_J1HB_fUCM",
   "published_at": "2026-10-01T13:03:34.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T12:58:52.816Z",
+      "path": "data/extract/video/N_J1HB_fUCM.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 16,
+      "quotes": 8,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.042058
+    },
+    "summarized": {
+      "at": "2026-10-06T12:59:04.035Z",
+      "path": "data/summary/video/N_J1HB_fUCM.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0478824
+    },
+    "linked": {
+      "at": "2026-10-06T12:59:04.036Z",
+      "systems": [
+        "finance",
+        "purchasing",
+        "localization"
+      ],
+      "topics": 9,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T12:59:04.039Z",
+      "path": "content/videos/N_J1HB_fUCM.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2026-10-01 - BCLE - What's new in Finance： Overview (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "4b37af70cdd14bcd6fc74a97ff14baff0452251885e711d62d58cd6fedc74aa5"
 }

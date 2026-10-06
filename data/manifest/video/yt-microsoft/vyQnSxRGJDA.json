@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Expense Agent: Per Diem Allowances (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=vyQnSxRGJDA",
-  "published_at": null,
+  "published_at": "2026-08-07T13:00:14.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:12:31.774Z",
+      "captions": "auto:en-orig",
+      "duration_s": 364
+    },
+    "captioned": {
+      "at": "2026-10-06T13:12:47.008Z",
+      "path": "data/captions/microsoft/vyQnSxRGJDA.vtt",
+      "vtt_sha256": "19d47aa1a796d8e8ad28d39690d692f003d7746e47a849b9c3e5979c95bf9966",
+      "segments": 26,
+      "words": 1014,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 50,
     "duration_s": 364,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "19d47aa1a796d8e8ad28d39690d692f003d7746e47a849b9c3e5979c95bf9966"
 }

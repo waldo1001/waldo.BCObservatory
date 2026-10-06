@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-multiroot-workspaces.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-multiroot-workspaces",
+  "title": "Work with multiple AL project folders within one workspace",
+  "blob": "d94c27ac13dc818198c70da2faf4a8b92d17a994",
+  "summary": "Multi-root workspaces in Visual Studio Code enable grouping multiple AL project folders into one workspace, with per-project configuration for package cache and code analysis settings.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "multi-root workspaces",
+    "al projects",
+    "vscode configuration",
+    "package cache",
+    "code analysis"
+  ],
+  "objects": [],
+  "features": [
+    "Multi-root workspace support",
+    "al.packageCachePath setting",
+    "al.enableCodeAnalysis setting",
+    "AL0720 inherent permissions diagnostic",
+    "Folder-level settings configuration",
+    "Workspace file (code-workspace) creation"
+  ],
+  "versions": [
+    "runtime version 18.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015934,
+      "pages_in_call": 1
+    }
+  ]
+}

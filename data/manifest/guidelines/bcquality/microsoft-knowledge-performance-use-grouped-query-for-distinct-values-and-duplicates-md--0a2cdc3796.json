@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "use grouped query for distinct values and duplicates",
+  "title": "Use a grouped query for distinct values and duplicate detection",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/use-grouped-query-for-distinct-values-and-duplicates.md",
   "published_at": "2026-10-05T12:59:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:04:10.869Z",
+      "blob": "6e206ea9affed8ed01b1f3da6803449e3cf66fd7",
+      "words": 553,
+      "forms": 0
     }
   },
   "input_hash": "6e206ea9affed8ed01b1f3da6803449e3cf66fd7",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/use-grouped-query-for-distinct-values-and-duplicates.md"
-  }
+    "path": "microsoft/knowledge/performance/use-grouped-query-for-distinct-values-and-duplicates.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 553
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6e206ea9affed8ed01b1f3da6803449e3cf66fd7"
 }

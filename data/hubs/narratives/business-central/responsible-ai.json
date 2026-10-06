@@ -1,0 +1,38 @@
+{
+  "hub_id": "topic/business-central/responsible-ai",
+  "input_hash": "bb4b443253d54fb03dc64daedb01813fecebed487e918b53fe01a811b56cd293",
+  "summary": "Responsible AI in Business Central covers the FAQs and application cards for Copilot features and agents. It answers what each AI feature does, its limitations, safety and permission behavior, human review, and how to give feedback.",
+  "overview": "This section holds one page per AI capability in Business Central, plus an index page, \"Responsible AI FAQs for Dynamics 365 Business Central\", that lists them. Each page describes what the feature does, how it is meant to be used, its limits, and how users can review results and send feedback. There are no subtopics.\n\nThe pages fall into groups. Copilot assistance: the Copilot application card, summarize, analysis assist, Advanced Tell Me, bank account reconciliation assist, suggest number series, suggest sales lines, suggest item substitutions, marketing text suggestions, and Shopify Tax Matching. Agents: Sales Order Agent, Payables Agent and Expense Agent. One page, e-document mapping with purchase orders, covers a feature that is deprecated in favor of the Payables Agent.\n\nStart with the index page to find the feature you need. Read the Copilot application card for the general picture of permissions and grounded answers. Then open the page for the specific feature. Several features are marked preview, so check that label before relying on them.",
+  "key_points": [
+    "The Copilot application card explains that Copilot answers questions about Business Central data using application context, retrieves information only within user permissions, and gives references.",
+    "Payables Agent monitors email inboxes for PDF invoices, extracts data, matches vendors, classifies accounts, and creates draft purchase invoices for human review.",
+    "Sales Order Agent handles sales orders from customer emails: quote preparation, item availability checks, customer communication, and conversion to orders. Its page covers access, permissions, transparency and change control.",
+    "Expense Agent (preview) captures receipts, extracts and categorizes expenses, and creates draft reports for human review before posting.",
+    "Shopify Tax Matching is for Business Central US. It suggests Tax Jurisdictions from Shopify tax line titles, rates and limited location data, detects rate conflicts, and supports configurable human review.",
+    "E-documents Matching Assistance (mapping e-documents with purchase orders) is deprecated in favor of the Payables Agent.",
+    "Features marked preview: bank account reconciliation assist, suggest number series, suggest sales lines, analysis assist, summarize, and Expense Agent.",
+    "Other Copilot features covered: marketing text suggestions for item descriptions, item substitution suggestions using embeddings, and Advanced Tell Me semantic search for pages, reports and queries."
+  ],
+  "members_used": 15,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-06T13:42:17.285Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.050257
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-06T13:43:18.363Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview puts Shopify Tax Matching under 'Copilot assistance'. Its source summary calls it an AI-powered feature and never says Copilot. The grouping is reasonable but not stated in the source.",
+      "The overview says each page covers how users review results and send feedback. Feedback is explicitly mentioned only for some pages (Advanced Tell Me, summarize, suggest sales lines, Expense Agent), so this is a slight generalization.",
+      "Key points leave out the Payables Agent's purchase order matching and vendor creation. These are optional details, not errors."
+    ],
+    "input_hash": "bb4b443253d54fb03dc64daedb01813fecebed487e918b53fe01a811b56cd293",
+    "cost_usd": 0.10740720000000001
+  }
+}

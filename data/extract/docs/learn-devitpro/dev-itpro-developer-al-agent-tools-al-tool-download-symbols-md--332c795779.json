@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-download-symbols.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-download-symbols",
+  "title": "Download AL symbol packages - al_downloadsymbols",
+  "blob": "942b9874e3eacb87a3f7d073565bc0443e24f708",
+  "summary": "The al_downloadsymbols tool downloads dependent symbol packages needed for AL compilation, supporting both connected Business Central servers and offline global sources.",
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "symbols",
+    "dependencies",
+    "compilation",
+    "appsource",
+    "nuget feeds"
+  ],
+  "objects": [],
+  "features": [
+    "al_downloadsymbols",
+    "global sources",
+    "symbol packages",
+    "authentication caching",
+    "force re-download",
+    "version enforcement"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005955,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Enhanced Index Management (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=IAacWsvav1E",
-  "published_at": null,
+  "published_at": "2026-04-08T10:01:34.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:21:13.054Z",
+      "captions": "auto:en-orig",
+      "duration_s": 816
+    },
+    "captioned": {
+      "at": "2026-10-06T13:21:19.032Z",
+      "path": "data/captions/microsoft/IAacWsvav1E.vtt",
+      "vtt_sha256": "bfb19e0eaadeff9f9676cb1aa1f6678bad4fa2d7b9efb1e57be368efecb3e773",
+      "segments": 58,
+      "words": 2054,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 78,
-    "duration_s": 817,
-    "via": "reconcile"
-  }
+    "duration_s": 816,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bfb19e0eaadeff9f9676cb1aa1f6678bad4fa2d7b9efb1e57be368efecb3e773"
 }

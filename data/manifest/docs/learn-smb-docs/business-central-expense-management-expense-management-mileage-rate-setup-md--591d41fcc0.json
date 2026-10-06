@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-mileage-rate-setup",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "761e0daada721e5066801793dda481e4b15b8d52",
       "words": 625,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T13:37:07.419Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.009347
+    },
+    "summarized": {
+      "at": "2026-10-06T13:37:07.467Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:37:07.467Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:37:07.467Z",
+      "page": false
     }
   },
   "input_hash": "761e0daada721e5066801793dda481e4b15b8d52",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "761e0daada721e5066801793dda481e4b15b8d52"
+  "output_hash": "587927a2f771a9cd12468861de5ecc416c4b3daf87d1e8215405406eabd7a90b"
 }

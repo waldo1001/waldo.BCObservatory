@@ -1,0 +1,90 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/ai-build-capability-in-al.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-build-capability-in-al",
+  "title": "Build the Copilot capability in AL",
+  "blob": "0fd23d13fe7cdcfb3c2e6c6b4d882ce509623155",
+  "summary": "Build the Copilot capability in AL explains how to add AI capabilities to Business Central extensions using the System.AI module with Azure OpenAI Service, covering capability registration, authorization storage, parameter configuration, metaprompt definition, and response generation.",
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "ai module",
+    "azure openai",
+    "copilot capability",
+    "chat completion",
+    "metaprompt",
+    "al development",
+    "billing type"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Copilot Capability"
+    },
+    {
+      "type": "enum",
+      "name": "Copilot Availability"
+    },
+    {
+      "type": "enum",
+      "name": "Copilot Capability"
+    },
+    {
+      "type": "codeunit",
+      "name": "Azure OpenAI"
+    },
+    {
+      "type": "codeunit",
+      "name": "AOAI Operation Response"
+    },
+    {
+      "type": "enum",
+      "name": "AOAI Model Type"
+    },
+    {
+      "type": "codeunit",
+      "name": "AOAI Chat Messages"
+    },
+    {
+      "type": "codeunit",
+      "name": "AOAI Text Completion Params"
+    },
+    {
+      "type": "codeunit",
+      "name": "AOAI Chat Completion Params"
+    },
+    {
+      "type": "enum",
+      "name": "AOAI Chat Roles"
+    }
+  ],
+  "features": [
+    "capability registration",
+    "authorization storage in IsolatedStorage",
+    "chat completion",
+    "text completion",
+    "embeddings",
+    "token limits",
+    "temperature parameter",
+    "metaprompt",
+    "guard rails",
+    "telemetry",
+    "billing type",
+    "Microsoft Billed option"
+  ],
+  "versions": [
+    "2025 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008502,
+      "pages_in_call": 5
+    }
+  ]
+}

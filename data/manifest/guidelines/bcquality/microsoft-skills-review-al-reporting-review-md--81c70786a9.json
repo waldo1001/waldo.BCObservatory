@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "al reporting review",
+  "title": "AL reporting review",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-reporting-review.md",
   "published_at": "2026-09-15T08:38:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:34:13.907Z",
+      "blob": "52f8f537b76942543f38992f8c4888cdef83c786",
+      "words": 583,
+      "forms": 0
     }
   },
   "input_hash": "52f8f537b76942543f38992f8c4888cdef83c786",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/skills/review/al-reporting-review.md"
-  }
+    "path": "microsoft/skills/review/al-reporting-review.md",
+    "description": "Reviews AL Report and ReportExtension code against BCQuality reporting guidance.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 583
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "52f8f537b76942543f38992f8c4888cdef83c786"
 }

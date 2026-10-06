@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "stored derived fields must not be exposed directly",
+  "title": "Recalculate Stored Derived Fields Before Exposing Them on API Pages",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/stored-derived-fields-must-not-be-exposed-directly.md",
   "published_at": "2026-09-29T10:48:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:30:12.772Z",
+      "blob": "2d02f938602e979add77ba18ed449077b1951a35",
+      "words": 205,
+      "forms": 0
     }
   },
   "input_hash": "2d02f938602e979add77ba18ed449077b1951a35",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/web-services/stored-derived-fields-must-not-be-exposed-directly.md"
-  }
+    "path": "microsoft/knowledge/web-services/stored-derived-fields-must-not-be-exposed-directly.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 205
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2d02f938602e979add77ba18ed449077b1951a35"
 }

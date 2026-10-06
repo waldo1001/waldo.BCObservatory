@@ -1,0 +1,386 @@
+{
+  "video_id": "Sh3ySQSTw-o",
+  "item_id": "video/yt-microsoft/Sh3ySQSTw-o",
+  "title": "What's new: Server and Database (2026 release wave 2)",
+  "duration_s": 831,
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "al runtime",
+    ".net 10",
+    "excel streaming",
+    "recent records",
+    "table extensions",
+    "database optimization",
+    "zero-join",
+    "index management",
+    "system fields",
+    "analysis mode",
+    "permissions",
+    "telemetry"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "t_start": 0,
+      "t_end": 33
+    },
+    {
+      "title": "AL runtime: .NET 10, Excel streaming, recent records virtual table",
+      "t_start": 33,
+      "t_end": 106.5
+    },
+    {
+      "title": "Database optimization: table extensions data model history",
+      "t_start": 106.5,
+      "t_end": 172.3
+    },
+    {
+      "title": "Zero-join table extension benefits and performance",
+      "t_start": 172.3,
+      "t_end": 227
+    },
+    {
+      "title": "Index management: discoverability improvements and Tell me integration",
+      "t_start": 227,
+      "t_end": 353.8
+    },
+    {
+      "title": "Index management: runtime enablement and cross-table indexes",
+      "t_start": 353.8,
+      "t_end": 424.6
+    },
+    {
+      "title": "System fields in analysis mode and profiles",
+      "t_start": 424.6,
+      "t_end": 536.1
+    },
+    {
+      "title": "MCP server and reporting features",
+      "t_start": 536.1,
+      "t_end": 605.8
+    },
+    {
+      "title": "Security: permissions overview navigation and telemetry for Excel exports",
+      "t_start": 605.8,
+      "t_end": 760.8
+    },
+    {
+      "title": "Resources and closing",
+      "t_start": 760.8,
+      "t_end": 831
+    }
+  ],
+  "features": [
+    {
+      "name": ".NET 10 runtime",
+      "description": "The AL runtime now runs on .NET 10, the latest version of .NET, bringing all the improvements of that platform.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 33,
+      "t_end": 46.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        ".net",
+        "runtime",
+        "platform"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Streaming-based Excel import",
+      "description": "Streaming implementation for opening Excel files that reduces memory usage and prevents out-of-memory exceptions when loading large Excel files.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 46.2,
+      "t_end": 70,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "memory",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Recent records virtual table",
+      "description": "A new virtual table exposed to AL that allows querying and deletion of recent records that appear in the UI when opening pages, providing a read-only view of recently accessed records.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 70,
+      "t_end": 106.5,
+      "is_demoed": false,
+      "caveats": [
+        "read-only except for deletion"
+      ],
+      "tags": [
+        "virtual table",
+        "recent records",
+        "al"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Optimized table extensions data model - zero-join",
+      "description": "Table extension fields are now stored back on the base table instead of separate tables, eliminating all joins when reading base and extension fields together.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 117.8,
+      "t_end": 195.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "table extensions",
+        "database",
+        "performance",
+        "optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Table extension performance gains",
+      "description": "Operations including read, delete, update, insert and modify are up to 30 percent faster due to eliminating joins, with potential to speed up page loading times in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 172.3,
+      "t_end": 227,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "benchmark",
+        "database operations"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Index management improvements",
+      "description": "Enhanced index management with multiple discoverability improvements including Tell me integration with semantic search support, a new manage indexes button, and a reorganized index management page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 227,
+      "t_end": 353.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "index management",
+        "tell me",
+        "discoverability",
+        "semantic search"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Runtime-controlled index enablement",
+      "description": "Indexes can now be defined with enabled equal false and controlled at runtime using set.logic logic to enable or disable keys based on feature usage or other conditions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 353.8,
+      "t_end": 424.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "index",
+        "runtime",
+        "enablement",
+        "al"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Cross-table indexes",
+      "description": "Indexes can now span both base table and extension fields, a capability that was previously requested multiple times and is now enabled by the consolidated table structure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 397,
+      "t_end": 424.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "index",
+        "table extensions",
+        "database design"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "System fields in analysis mode",
+      "description": "System fields like created by, created on, last modified by, last modified on and system ID are now visible in analysis mode data pickers and column pickers for creating audit-like reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 447.1,
+      "t_end": 536.1,
+      "is_demoed": true,
+      "caveats": [
+        "system fields were previously added ten release waves ago"
+      ],
+      "tags": [
+        "system fields",
+        "analysis mode",
+        "audit",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "System fields in profiles",
+      "description": "System fields including modified by and modified at can now be included in profiles when designing profile layouts via the page designer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 536.1,
+      "t_end": 546.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "system fields",
+        "profiles",
+        "personalization"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Permissions overview navigation",
+      "description": "Context-aware navigation to the permissions overview page from permission sets list, permission set cards, and table information pages to show where permissions are used.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 605.8,
+      "t_end": 685.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "permissions",
+        "navigation",
+        "security"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Telemetry for Excel export audit",
+      "description": "New telemetry tag RT 0056 tracks who opens data in Excel, enabling audit answers to who did what when for fraud prevention scenarios like disgruntled employees exporting customer or vendor lists.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 705.4,
+      "t_end": 760.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "audit",
+        "excel",
+        "security"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "recent records virtual table",
+      "t": 90.3
+    },
+    {
+      "type": "table",
+      "name": "GL Entry",
+      "t": 295.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kenny Pabidan",
+      "confidence": "high"
+    },
+    {
+      "name": "Mascot",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 33,
+      "text": "with this version the NST now runs on .NET 10, the latest and greatest in the net",
+      "why_it_matters": "Confirms the AL runtime upgrade to .NET 10, establishing the version target for the release.",
+      "check": "exact"
+    },
+    {
+      "t": 59.3,
+      "text": "now we're using a streaming based implementation for open Excel way more way less memory usage when you want to open up big uh",
+      "why_it_matters": "Describes a solution to out-of-memory exceptions that came from customer feedback, showing practical performance improvement.",
+      "check": "exact"
+    },
+    {
+      "t": 172.3,
+      "text": "fields back on the base table there will be no more joints",
+      "why_it_matters": "Announces completion of the table extension optimization story, eliminating joins entirely for base and extension field reads.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 195.6,
+      "text": "will be up to uh 30% faster. You can see uh the different um numbers here from our benchmark",
+      "why_it_matters": "Quantifies the performance benefit from zero-join implementation with benchmark data.",
+      "check": "exact"
+    },
+    {
+      "t": 282.6,
+      "text": "you can both find in normal tellme by searching indexes or you can use the advanced one via semantic search and you will now",
+      "why_it_matters": "Highlights semantic search capability in Tell me for index management, improving discoverability.",
+      "check": "exact"
+    },
+    {
+      "t": 413.4,
+      "text": "we can now add an index that spans both the base table and your extension fields",
+      "why_it_matters": "Introduces a previously-requested capability enabled by the consolidated table structure.",
+      "check": "exact"
+    },
+    {
+      "t": 725.7,
+      "text": "we have had an ask for adding telemetry on who did open in Excel. the like the the best fraud example I can come",
+      "why_it_matters": "Explains the business need for new telemetry, showing practical audit and fraud-prevention use case.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 12
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.039263000000000006
+    }
+  ]
+}

@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "validate user configurable urls",
+  "title": "Validate URLs that come from table fields before calling them",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/validate-user-configurable-urls.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.698Z",
+      "blob": "8f79b0474b02b7d9e4908fe0539768d5e7eda530",
+      "words": 265,
+      "forms": 0
     }
   },
   "input_hash": "8f79b0474b02b7d9e4908fe0539768d5e7eda530",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/security/validate-user-configurable-urls.md"
-  }
+    "path": "microsoft/knowledge/security/validate-user-configurable-urls.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 265
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8f79b0474b02b7d9e4908fe0539768d5e7eda530"
 }

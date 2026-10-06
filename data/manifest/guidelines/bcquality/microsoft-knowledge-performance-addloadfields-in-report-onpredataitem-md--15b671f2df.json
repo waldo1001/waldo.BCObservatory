@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "addloadfields in report onpredataitem",
+  "title": "Add trigger-only report fields in OnPreDataItem",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/addloadfields-in-report-onpredataitem.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.302Z",
+      "blob": "b72fc416767d2fb91dbfe4d210dca9345d95d471",
+      "words": 147,
+      "forms": 0
     }
   },
   "input_hash": "b72fc416767d2fb91dbfe4d210dca9345d95d471",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/addloadfields-in-report-onpredataitem.md"
-  }
+    "path": "microsoft/knowledge/performance/addloadfields-in-report-onpredataitem.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 147
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b72fc416767d2fb91dbfe4d210dca9345d95d471"
 }

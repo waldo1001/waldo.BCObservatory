@@ -2,7 +2,7 @@
 id: topic/business-central/business-functionality/expense-management-preview/work-with-expenses-in-business-central
 type: topic
 title: Work with expenses in Business Central
-summary: "Learn section Business functionality > Expense management (preview) > Work with expenses in Business Central: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Expense management (preview) in Business Central covers the full expense lifecycle: creating expenses, travel requests, expense reports, approval, VAT reclaim review, and posting. It answers how-to questions about each step from entry to the general ledger."
 tier: official
 language: en
 review:
@@ -11,10 +11,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T13:43:32.763Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 69807bf9369c27e230c618df2a097c0fbd89b5917a7da32eceb2fa99d3b02b39
+  prompts:
+    hub-topic: 1
+  input_hash: 2eb697dda51c98749a9a6312bf334e91ac1360ababe5bb7236de5afaa504374e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-create-expenses
@@ -118,14 +119,33 @@ bc_forms:
   - 7136
   - 7137
 member_hash: 69807bf9369c27e230c618df2a097c0fbd89b5917a7da32eceb2fa99d3b02b39
-narrative: none
+narrative: generated
 ---
 
 # Work with expenses in Business Central
 
-> Learn section Business functionality > Expense management (preview) > Work with expenses in Business Central: 6 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Expense management (preview) in Business Central covers the full expense lifecycle: creating expenses, travel requests, expense reports, approval, VAT reclaim review, and posting. It answers how-to questions about each step from entry to the general ledger.
 
-Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Work with expenses in Business Central · tier official · system none · no narrative yet
+Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Work with expenses in Business Central · tier official · system none · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+This section walks through the expense process in order. Employees create individual expenses with category, date, receipt, itemizations, participants, mileage or per diem details. They then collect those expenses on an expense report, review rule violations, optionally link a travel request, and release the report for approval.
+
+Travel requests record planned travel and costs for review before expenses are incurred, and can be linked to an expense report so planned and actual spending can be compared. Managers and accountants then approve the report against policy and VAT reclaim rules, with separate workflows for approval and VAT verification. Finally, approved reports are posted to the general ledger.
+
+Start with the page on creating and managing expenses if you are an employee, or with the review and approval page if you are a manager or accountant. The posting page is the place for accounting questions about the resulting ledger entries.
+
+## Key points
+
+- Expenses have a card with category and date, receipt attachment and preview, itemizations with subcategories, and participants for business meals.
+- Mileage expenses use vehicle types, and per diem is calculated by location.
+- Expense reports are created, filled with expense lines, checked for rule violations, optionally linked to a travel request, and released for approval.
+- Travel requests record planned travel and costs, track status, include travel policy acknowledgment and international travel, and are described for version 29.
+- Travel requests can be linked to expense reports to compare planned and actual spending.
+- Approvers review policy compliance, rule violations, receipts and report statistics; VAT reclaim review and VAT specification approval are separate workflows.
+- Posting previews entries first and requires verifying VAT reclaim status.
+- Posted results include expense ledger entries, employee ledger entries (reimbursement), general ledger entries and project ledger entries.
 
 ## Learn pages
 

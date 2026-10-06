@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/microsoft-copilot-in-business-central-application-card",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "16d890357052c885742bb47bf8a973f7cc99a933",
       "words": 2638,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:07:09.758Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.014668
+    },
+    "summarized": {
+      "at": "2026-10-06T13:10:02.825Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:10:02.825Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:10:02.825Z",
+      "page": false
     }
   },
   "input_hash": "16d890357052c885742bb47bf8a973f7cc99a933",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "16d890357052c885742bb47bf8a973f7cc99a933"
+  "output_hash": "0a9ade34f4a8a51bb1bf0df5d8c2881eef9f676ca652984ef0e13268c05a7bc8"
 }

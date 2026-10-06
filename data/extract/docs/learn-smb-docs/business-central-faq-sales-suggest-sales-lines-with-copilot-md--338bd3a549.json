@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/faq-sales-suggest-sales-lines-with-copilot.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/faq-sales-suggest-sales-lines-with-copilot",
+  "title": "FAQ for suggest sales lines with Copilot",
+  "blob": "4262e3f38d58a5523f01084b32c9f5c6249e3da0",
+  "summary": "Sales line suggestions with Copilot assists users in creating sales document lines using natural language or structured input to find products, locate reference documents, and analyze attachments. Use this page for AI limitations, evaluation methods, responsible use guidance, and feedback options for this preview feature.",
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "topics": [
+    "sales documents",
+    "line suggestions",
+    "product search",
+    "document reference",
+    "ai-powered assistance",
+    "attachment analysis"
+  ],
+  "objects": [],
+  "features": [
+    "Find products capability",
+    "Find document by reference",
+    "Find products from attachments",
+    "Natural language search",
+    "Multi-table product search",
+    "Synonym and typo correction",
+    "Quality ranking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007053,
+      "pages_in_call": 5
+    }
+  ]
+}

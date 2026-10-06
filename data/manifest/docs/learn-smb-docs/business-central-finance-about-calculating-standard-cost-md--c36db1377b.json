@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-about-calculating-standard-cost",
   "published_at": "2026-10-02T13:52:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bbe8b6cd5f7d7d00bc3c0f530bebfed348442f6a",
       "words": 4252,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T13:29:04.534Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.028949
+    },
+    "summarized": {
+      "at": "2026-10-06T13:29:04.687Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:29:04.688Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:29:04.688Z",
+      "page": false
     }
   },
   "input_hash": "bbe8b6cd5f7d7d00bc3c0f530bebfed348442f6a",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bbe8b6cd5f7d7d00bc3c0f530bebfed348442f6a"
+  "output_hash": "607948b4e3954589b385d250318024d9e2d96be0feccf021b487b74d03e7fde5"
 }

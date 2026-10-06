@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "preserve buffered inserts by separating target reads",
+  "title": "Keep eligible inserts together instead of re-reading their target",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/preserve-buffered-inserts-by-separating-target-reads.md",
   "published_at": "2026-09-29T15:21:28.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:18:33.364Z",
+      "blob": "7459ee438de6e1723a9994e2e3fb8d8b93fe5cfe",
+      "words": 247,
+      "forms": 0
     }
   },
   "input_hash": "7459ee438de6e1723a9994e2e3fb8d8b93fe5cfe",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/preserve-buffered-inserts-by-separating-target-reads.md"
-  }
+    "path": "microsoft/knowledge/performance/preserve-buffered-inserts-by-separating-target-reads.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 247
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7459ee438de6e1723a9994e2e3fb8d8b93fe5cfe"
 }

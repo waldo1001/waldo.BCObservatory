@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "delete master data with trigger",
+  "title": "Delete master and reference data with `Delete(true)` so the owning table's `OnDelete` decides",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/delete-master-data-with-trigger.md",
   "published_at": "2026-10-05T12:46:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:05:19.554Z",
+      "blob": "6e3467ce8ca686329335ff986d8493872f7b314c",
+      "words": 528,
+      "forms": 0
     }
   },
   "input_hash": "6e3467ce8ca686329335ff986d8493872f7b314c",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/data-modeling/delete-master-data-with-trigger.md"
-  }
+    "path": "microsoft/knowledge/data-modeling/delete-master-data-with-trigger.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 528
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6e3467ce8ca686329335ff986d8493872f7b314c"
 }

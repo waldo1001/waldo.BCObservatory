@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/supervise-agent-tasks",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8cb0ce163250740d6e03e4153c8f4f59a44a4f2b",
       "words": 2018,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T13:13:35.862Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008241
+    },
+    "summarized": {
+      "at": "2026-10-06T13:14:49.458Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:14:49.458Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:14:49.458Z",
+      "page": false
     }
   },
   "input_hash": "8cb0ce163250740d6e03e4153c8f4f59a44a4f2b",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8cb0ce163250740d6e03e4153c8f4f59a44a4f2b"
+  "output_hash": "41810c4519496415ef703e069f625ffef1b7e8b7b8adc8e5dded55b41ef9c095"
 }

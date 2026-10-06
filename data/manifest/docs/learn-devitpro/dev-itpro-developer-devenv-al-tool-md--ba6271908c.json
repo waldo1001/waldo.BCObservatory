@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-tool",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "150b2e5fafb3676285b5c04c8c70a0a648cc7b35",
       "words": 5762,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:32:30.797Z",
+      "prompt": "extract-docs@1",
+      "parts": 2,
+      "objects": 0,
+      "cost_usd": 0.041384
+    },
+    "summarized": {
+      "at": "2026-10-06T13:32:30.841Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:32:30.842Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:32:30.842Z",
+      "page": false
     }
   },
   "input_hash": "150b2e5fafb3676285b5c04c8c70a0a648cc7b35",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "150b2e5fafb3676285b5c04c8c70a0a648cc7b35"
+  "output_hash": "0978b56107052259f945f9dd3efebebe5a8de29d09f791563ba11807bbe942cd"
 }

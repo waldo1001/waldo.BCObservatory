@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/use-mcp-server-non-microsoft.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/use-mcp-server-non-microsoft",
+  "title": "Connect Business Central MCP Server to non-Microsoft hosts",
+  "blob": "3dae377aa468baf45bb2d3af9c69db2e6fcdfb53",
+  "summary": "Connect Business Central MCP Server to non-Microsoft hosts describes how to connect MCP hosts like GitHub Copilot CLI, Claude, and ChatGPT to the Business Central MCP server using Microsoft Entra ID app registration and manual client configuration.",
+  "systems": [
+    "integration",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "mcp server",
+    "github copilot cli",
+    "claude",
+    "chatgpt",
+    "entra id",
+    "oauth",
+    "api configuration"
+  ],
+  "objects": [],
+  "features": [
+    "Entra ID app registration",
+    "redirect URI configuration",
+    "delegated permissions",
+    "dynamic tool mode",
+    "headerless connections",
+    "tool discovery"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.008502,
+      "pages_in_call": 5
+    }
+  ]
+}

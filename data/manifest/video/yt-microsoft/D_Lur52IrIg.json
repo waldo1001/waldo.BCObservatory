@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=D_Lur52IrIg",
   "published_at": "2026-10-01T13:04:04.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T12:55:54.234Z",
+      "path": "data/extract/video/D_Lur52IrIg.json",
+      "prompt": "extract-video@1",
+      "windows": 3,
+      "features": 20,
+      "quotes": 22,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.094542
+    },
+    "summarized": {
+      "at": "2026-10-06T12:56:04.677Z",
+      "path": "data/summary/video/D_Lur52IrIg.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0566224
+    },
+    "linked": {
+      "at": "2026-10-06T12:56:04.677Z",
+      "systems": [
+        "development",
+        "platform",
+        "integration"
+      ],
+      "topics": 12,
+      "objects_as_heard": 8
+    },
+    "published": {
+      "at": "2026-10-06T12:56:04.680Z",
+      "path": "content/videos/D_Lur52IrIg.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2026-10-01 - BCLE - What's new in AL and Tools (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "7245eb6955d6bedc205563a5d38cf8f3162ceb3d24c751773f2bea91c60d7203"
 }

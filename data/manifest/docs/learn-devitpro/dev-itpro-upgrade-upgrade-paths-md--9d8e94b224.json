@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-paths",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "72925d0e6e8b6241462725fa87a3168bc7f99321",
       "words": 911,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:35:35.737Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.009239
+    },
+    "summarized": {
+      "at": "2026-10-06T13:35:35.758Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:35:35.759Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:35:35.759Z",
+      "page": false
     }
   },
   "input_hash": "72925d0e6e8b6241462725fa87a3168bc7f99321",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "72925d0e6e8b6241462725fa87a3168bc7f99321"
+  "output_hash": "c684f8a4d5f96dc90321a27aff72655deed9dca85adc655ad3306dae426cb3f9"
 }

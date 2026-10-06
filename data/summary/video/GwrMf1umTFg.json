@@ -1,0 +1,26 @@
+{
+  "video_id": "GwrMf1umTFg",
+  "item_id": "video/yt-microsoft/GwrMf1umTFg",
+  "summary": "Expense Agent project handling in the 2026 release wave 2: how to enable project tracking in Expense Agent setup, choose all or assigned project visibility, assign resources on the project card or task lines, and get project ledger entries when an expense report is posted.",
+  "overview": "The video covers new project features for the Expense Agent web app. Project ledger entries were already part of the first release. The new part is that users can assign a project and project task to an expense in the web app, and administrators control which projects each user sees.\n\nThe demo goes through the setup in Business Central: enabling project tracking in Expense Agent setup, choosing between all projects and assigned projects, creating resources for employees and linking them on the employee card, and assigning resources on the project card. It then creates an expense in the web app, posts the expense report, and shows the resulting project ledger entries with project and project task.",
+  "key_points": [
+    "Enable project tracking in Expense Agent setup to use projects in the web app.",
+    "Two visibility options: all projects (everything visible to all users) or assigned projects (limits visibility, useful with hundreds of projects or confidential projects).",
+    "Assigned projects needs prerequisites: create a resource for each employee, then select the resource number on the employee card.",
+    "The project card has a new Assigned resources section where you choose which resources can use that project.",
+    "Resources can also be assigned at project task line level, so an employee sees only their own tasks instead of all tasks in the project.",
+    "The web app shows only active projects and only tasks enabled for posting; beginning and end of period tasks are filtered out.",
+    "Posting an expense report with project and task assigned creates project ledger entries in Business Central."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "727a109a2f17f352ec769b23b29901c867597fff11d3a3980f342e932ab1cc5e",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0419064
+  }
+}

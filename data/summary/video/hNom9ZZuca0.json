@@ -1,0 +1,25 @@
+{
+  "video_id": "hNom9ZZuca0",
+  "item_id": "video/yt-microsoft/hNom9ZZuca0",
+  "summary": "AL testability enhancements from the 2026 release wave 2 video: data-driven testing (one test method run against multiple data sets through a test data source interface and test context) and test handlers (ITestHandler) for setup, teardown and skipping at codeunit, procedure and test-case level.",
+  "overview": "The video covers two additions to the AL testing framework. Data-driven testing lets a single test method run with several data sets, so coverage grows by adding data points instead of duplicating test methods. A custom data source implements an interface and returns a strongly-typed test context. The source can read from resource files, AL tables or web services. The feature is demoed in the VS Code test explorer, where individual test cases can be run and debugged.\n\nTest handlers provide setup and teardown at several levels. They come in two kinds: opt-in handlers, declared on a test codeunit through a test handlers property, and default (global) handlers that run on every test. The video also describes using handlers to skip test cases, for example to manage token consumption and AI credits.",
+  "key_points": [
+    "Data-driven testing runs one test method against multiple data sets, so you add data points instead of copying test methods.",
+    "A custom test data source implements an interface and returns a strongly-typed test context. It can read from resource files, AL tables or web services.",
+    "Data-driven tests work with the VS Code test explorer, including selective test case execution and debugging. They can also run through the AL tool and the AL MCP connection.",
+    "The AI test toolkit does not use the new capabilities yet, so its tests cannot be run from VS Code. Migration is planned.",
+    "ITestHandler has hooks before and after the test codeunit, the test procedure and each data-driven test case. All methods have default implementations, so you override only the ones you need.",
+    "Opt-in handlers are registered on a test codeunit with the test handlers property, as a comma-separated list. A test codeunit can implement ITestHandler itself.",
+    "Default test handlers run on every test without being declared. Named uses are telemetry, verifying Microsoft features and common test setup."
+  ],
+  "audience": [
+    "developer"
+  ],
+  "extraction_hash": "69f8d2c4c20297c8377c6cb3ed54ed1dee42d33953732a3518f0f737a7ba9f40",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.045010400000000006
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/ai-test-copilot.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-test-copilot",
+  "title": "Test the Copilot Capability in AL",
+  "blob": "bae58915e94dd81b3d2aa535739c7e2f503fbc98",
+  "summary": "Testing Copilot features ensures accuracy, consistency, and safety of AI-generated outputs. This overview covers Evaluation framework capabilities for validating prompt-based features and agents, with guidance on datasets, test writing, and best practices.",
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "copilot testing",
+    "ai quality assurance",
+    "test strategy",
+    "llm validation",
+    "test reliability"
+  ],
+  "objects": [],
+  "features": [
+    "accuracy validation",
+    "safety testing",
+    "consistency testing",
+    "AI TEST TOOLKIT permission set"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009206,
+      "pages_in_call": 4
+    }
+  ]
+}

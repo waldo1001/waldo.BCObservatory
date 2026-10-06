@@ -1,0 +1,27 @@
+{
+  "video_id": "5OZ0g5IgC8Q",
+  "item_id": "video/yt-microsoft/5OZ0g5IgC8Q",
+  "summary": "Shopify Tax Matching in the Business Central Shopify connector, an AI capability for US sales tax that matches or creates tax jurisdictions, tax areas and tax details from Shopify orders. The video is a 2026 release wave 2 preview session with a demo of review, settings, refunds and rate mismatch handling.",
+  "overview": "The session explains the US sales tax problem: a tax area is made of several tax jurisdictions, each with its own rate. The Shopify connector imports tax information from Shopify, but Business Central still recalculates taxes locally because it needs the right details when posting. The new tax matching capability uses AI to analyze the tax data on a Shopify order and find or create the matching tax jurisdictions, tax areas and tax details.\n\nThe demo covers importing an order and seeing the AI-assigned tax area, the tax match review window, the TaxMatch settings, automatic document creation for a second order, refunds, and a tax rate mismatch between Shopify and Business Central. The capability is only available in the US, ships as a small Shopify extension and is not published on the marketplace.",
+  "key_points": [
+    "Tax matching is only available in the US. It ships as a small Shopify extension that is not published on the marketplace, and it is described as a preview.",
+    "TaxMatch is installed automatically for new installations. On upgrades it detects US localization and prompts for installation. It must still be activated in the Shopify shop card settings.",
+    "Settings cover activation, permission to create tax jurisdictions and tax areas, an optional prefix for auto-created items, and review frequency (Always, Never or Low Confidence Only). Review defaults to Always.",
+    "Creating missing items can be turned off, so tax setup is done manually or imported from another source. A prefix is optional but recommended to tell auto-created items apart.",
+    "Review can be skipped for high-confidence orders. It is always required when a jurisdiction is missing or a rate mismatch is detected, whatever the settings are.",
+    "If a tax rate differs between Shopify and Business Central, no document is created until the user approves the Business Central rate or overrides it with the Shopify rate. An override applies by document date, so it affects all orders on that date.",
+    "A new setting uses the Shopify order number as the sales order number in Business Central. A Shopify refund creates a sales return document with the same tax parameters as the original sales order."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "6f45f4a586de15f89ac9ec2bb7fa8cf0897b3d00d50b9cda9e6794cca50c6060",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0466064
+  }
+}

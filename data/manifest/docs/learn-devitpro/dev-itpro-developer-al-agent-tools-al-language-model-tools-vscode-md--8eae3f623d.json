@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-language-model-tools-vscode",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "175358240c573933005796e7f2e74953d66ae829",
       "words": 636,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:28:01.504Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005955
+    },
+    "summarized": {
+      "at": "2026-10-06T13:28:01.506Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:28:01.507Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:28:01.507Z",
+      "page": false
     }
   },
   "input_hash": "175358240c573933005796e7f2e74953d66ae829",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "175358240c573933005796e7f2e74953d66ae829"
+  "output_hash": "14bc24d6605a0be8bcea61b7586cc8f964c7a94d353d7b28e3daa2d551307a72"
 }

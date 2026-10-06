@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/faq-sales-suggest-sales-lines-with-copilot",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4262e3f38d58a5523f01084b32c9f5c6249e3da0",
       "words": 1471,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:01:37.571Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007053
+    },
+    "summarized": {
+      "at": "2026-10-06T13:02:18.531Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:02:18.532Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:02:18.532Z",
+      "page": false
     }
   },
   "input_hash": "4262e3f38d58a5523f01084b32c9f5c6249e3da0",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4262e3f38d58a5523f01084b32c9f5c6249e3da0"
+  "output_hash": "1d5e3518f9484d448ff88104d8f18f81e1cc9ab2d91a647ea5269ba50caa9e0b"
 }

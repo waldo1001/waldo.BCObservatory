@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "test one when per test",
+  "title": "Keep exactly one WHEN per test, with narrow exceptions for flow and defect-then-fix tests",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/test-one-when-per-test.md",
   "published_at": "2026-09-29T15:12:51.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:26:04.198Z",
+      "blob": "69c3b37f4355d6bf681d3738cf8713e283645883",
+      "words": 415,
+      "forms": 0
     }
   },
   "input_hash": "69c3b37f4355d6bf681d3738cf8713e283645883",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/testing/test-one-when-per-test.md"
-  }
+    "path": "microsoft/knowledge/testing/test-one-when-per-test.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 415
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "69c3b37f4355d6bf681d3738cf8713e283645883"
 }

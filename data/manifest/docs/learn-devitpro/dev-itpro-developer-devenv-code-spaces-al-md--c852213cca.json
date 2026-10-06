@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-spaces-al",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6aaba9886d7bba495025eaf330d5a1b2f2bb7689",
       "words": 1793,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:32:55.327Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006766
+    },
+    "summarized": {
+      "at": "2026-10-06T13:32:55.355Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:32:55.355Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:32:55.355Z",
+      "page": false
     }
   },
   "input_hash": "6aaba9886d7bba495025eaf330d5a1b2f2bb7689",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6aaba9886d7bba495025eaf330d5a1b2f2bb7689"
+  "output_hash": "3238c25e971a93e06a4f24f626b566d86208d61ac5b28c1e8108f7c85ff48f7a"
 }

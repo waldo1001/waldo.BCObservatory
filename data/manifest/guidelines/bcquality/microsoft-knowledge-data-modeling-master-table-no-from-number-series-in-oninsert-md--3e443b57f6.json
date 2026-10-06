@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "master table no from number series in oninsert",
+  "title": "A master table's `No.` primary key comes from a number series in `OnInsert`",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/master-table-no-from-number-series-in-oninsert.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.082Z",
+      "blob": "69476ff66ff1b3a3e92036a6792e72d63a809d28",
+      "words": 236,
+      "forms": 0
     }
   },
   "input_hash": "69476ff66ff1b3a3e92036a6792e72d63a809d28",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/data-modeling/master-table-no-from-number-series-in-oninsert.md"
-  }
+    "path": "microsoft/knowledge/data-modeling/master-table-no-from-number-series-in-oninsert.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 236
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "69476ff66ff1b3a3e92036a6792e72d63a809d28"
 }

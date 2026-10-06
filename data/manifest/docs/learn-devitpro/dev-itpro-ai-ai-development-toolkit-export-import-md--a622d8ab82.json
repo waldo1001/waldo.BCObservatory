@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-export-import",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3af475a92e8545c98ef0b6f08082bd48b1e483de",
       "words": 313,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:18:33.353Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006829
+    },
+    "summarized": {
+      "at": "2026-10-06T13:19:00.633Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:19:00.633Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:19:00.633Z",
+      "page": false
     }
   },
   "input_hash": "3af475a92e8545c98ef0b6f08082bd48b1e483de",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3af475a92e8545c98ef0b6f08082bd48b1e483de"
+  "output_hash": "ce26d0f0bc252fd4de4935e1ac120b86ed3020a466b0e32b79a0fc103f9b1122"
 }

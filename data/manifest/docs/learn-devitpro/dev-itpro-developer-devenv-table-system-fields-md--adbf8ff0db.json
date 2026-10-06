@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-system-fields",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "254097ff724926196e526e005ef7d568b4d3faf3",
       "words": 1402,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:34:13.889Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.01272
+    },
+    "summarized": {
+      "at": "2026-10-06T13:34:13.938Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:34:13.938Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:34:13.938Z",
+      "page": false
     }
   },
   "input_hash": "254097ff724926196e526e005ef7d568b4d3faf3",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "254097ff724926196e526e005ef7d568b4d3faf3"
+  "output_hash": "3ad81252c81332a0a1bb8dea6f3b65673262480baf868af3f8ad6f60d340ca4f"
 }

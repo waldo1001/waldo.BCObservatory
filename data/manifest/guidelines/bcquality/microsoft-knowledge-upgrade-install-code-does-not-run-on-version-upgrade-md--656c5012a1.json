@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "install code does not run on version upgrade",
+  "title": "Install code does not run during a version upgrade",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/install-code-does-not-run-on-version-upgrade.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:46.005Z",
+      "blob": "52c39891c1161bd6960e9b9b23c76505dd30def1",
+      "words": 119,
+      "forms": 0
     }
   },
   "input_hash": "52c39891c1161bd6960e9b9b23c76505dd30def1",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/upgrade/install-code-does-not-run-on-version-upgrade.md"
-  }
+    "path": "microsoft/knowledge/upgrade/install-code-does-not-run-on-version-upgrade.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 119
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "52c39891c1161bd6960e9b9b23c76505dd30def1"
 }

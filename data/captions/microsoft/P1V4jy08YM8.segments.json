@@ -1,0 +1,143 @@
+{
+  "video_id": "P1V4jy08YM8",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.4,
+      "end": 16.3,
+      "text": "Welcome to the Expense Agent setup video. Today, I will show you how to configure the Expense Agent in Business Central. I'm at the role center right now, and you can see the avatar shows up with Expense Agent,"
+    },
+    {
+      "t": 16.3,
+      "end": 32.2,
+      "text": "just like other agents in Business Central. I can go ahead and hover over the avatar and activate it. It opens a configuration wizard, where it gives me options to configure how the Expense Agent will behave,"
+    },
+    {
+      "t": 32.2,
+      "end": 38.8,
+      "text": "and also configuring the default setup for the expense module itself."
+    },
+    {
+      "t": 38.8,
+      "end": 49.2,
+      "text": "To begin with, we have access and submission, where we can control how the expenses can be submitted by the external expense users."
+    },
+    {
+      "t": 49.2,
+      "end": 63.8,
+      "text": "We have a web app link, and then we have also an option to send emails with the receipt. I can configure the account right here, where I choose the M365 email account."
+    },
+    {
+      "t": 63.8,
+      "end": 75.2,
+      "text": "It's It's usually a shared mailbox, and then I can define who can access the Expense Agent via the web app or the email account."
+    },
+    {
+      "t": 75.2,
+      "end": 93.1,
+      "text": "If I go to submit expenses, here I can see nine users are already registered, and I have the option to add all my employees or existing employees to the expense user list, or I can also import expense user from M365 graph."
+    },
+    {
+      "t": 93.1,
+      "end": 106.5,
+      "text": "I have already configured myself as an expense user, so I'll go back, and I can see nine registered users. Then, we have option to configure default approver. This is the person who can approve everyone's expenses."
+    },
+    {
+      "t": 106.5,
+      "end": 118.7,
+      "text": "We have added this option to make it easier for the Expense Agent admin to add one approver, but they can do more granular approver setup in a different page."
+    },
+    {
+      "t": 118.7,
+      "end": 132.2,
+      "text": "Going to the next page in the wizard, we have some accounting defaults. Here, as an admin, I can choose whether I need to insert the number series. I can also preview them even before inserting them."
+    },
+    {
+      "t": 132.2,
+      "end": 142.6,
+      "text": "It also shows in status where if my number series already exists, so I I don't have to insert them or even if I insert them, nothing will happen. It will just skip them."
+    },
+    {
+      "t": 142.6,
+      "end": 155.8,
+      "text": "For example, in the payment methods, I can see it is recommending bank as a payment method with reimbursement type company paid. If I like it, I can choose to keep it."
+    },
+    {
+      "t": 155.8,
+      "end": 172.4,
+      "text": "Similarly, for posting group, we have default posting group suggestions. And for categories, we have something similar where I can see if there are any new categories which are being suggested."
+    },
+    {
+      "t": 172.4,
+      "end": 188.1,
+      "text": "And I can decide to either keep it or not keep it. And even if I keep it, it will just skip over the records. Moving on, we have management defaults which are defining some expense locations and management rules."
+    },
+    {
+      "t": 188.1,
+      "end": 201.9,
+      "text": "And all of them have preview built in where you can see what data or what records will be inserted in the system. And system is smart enough to auto select these when it detects there are no data in the system."
+    },
+    {
+      "t": 201.9,
+      "end": 218,
+      "text": "If there is nothing in the system, it will auto enable the defaults, but you can of course disable it. Going to the next page, we get into rules and controls. This is where I can select whether I want to enforce the management rules whichever we just created."
+    },
+    {
+      "t": 218,
+      "end": 232.3,
+      "text": "And there are additional properties like whether I want to display an anti-corruption attestation. Or do I want the expense user to always add a receipt number in when they submit an expense or a merchant name?"
+    },
+    {
+      "t": 232.3,
+      "end": 247,
+      "text": "For communication, we can specify an email account which will be used to send notification to the end user. I can see it is blank right now. But this means I need to just go back and set up my email account."
+    },
+    {
+      "t": 247,
+      "end": 257.5,
+      "text": "And once I've configured it, it should auto-populate the outbox email as well to the default one. Now I see the send email has been set to an email which I want."
+    },
+    {
+      "t": 257.5,
+      "end": 268.6,
+      "text": "I can also change it to an outbox or no-reply email account and then I can decide how do I want to notify the end user. There are different options for notifications."
+    },
+    {
+      "t": 268.6,
+      "end": 284.6,
+      "text": "And do I also want to notify for approval updates? I can also control that. On the next page, we have mileage expenses. Here we can configure how the mileage expenses are calculated based on rate per unit and the unit of measure right now."
+    },
+    {
+      "t": 284.6,
+      "end": 304.8,
+      "text": "We have also added project tracking where you can allow expense user to track an expense against a specific project. In the visibility, you can control whether you want to show the expense user all the projects or just the assigned projects which they are associated with."
+    },
+    {
+      "t": 304.8,
+      "end": 321,
+      "text": "Finally, we have per diem expenses where you can define the per diem calculation rules. There are different options. Of course, you can then go into finer details about specifying different rules and how the reductions are applied."
+    },
+    {
+      "t": 321,
+      "end": 334.4,
+      "text": "Once you're satisfied with the setup, what you can do is you can just go to activate and update the setup. Once the agent has been activated, you can go to the expense users list."
+    },
+    {
+      "t": 334.4,
+      "end": 351.1,
+      "text": "You can select all the users who you want to send a welcome email. This welcome email consists of all the details they need to use the expense web app portal or where to send the expense receipts in an email to."
+    },
+    {
+      "t": 351.1,
+      "end": 358,
+      "text": "That's how you configure expense agent. Thank you for watching."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.654,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 903
+}

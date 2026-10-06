@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "check only triggers do not migrate data",
+  "title": "Upgrade check triggers do not migrate data",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/check-only-triggers-do-not-migrate-data.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.962Z",
+      "blob": "8770f93710816552149c2efdbfab71456c992853",
+      "words": 116,
+      "forms": 0
     }
   },
   "input_hash": "8770f93710816552149c2efdbfab71456c992853",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/upgrade/check-only-triggers-do-not-migrate-data.md"
-  }
+    "path": "microsoft/knowledge/upgrade/check-only-triggers-do-not-migrate-data.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 116
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8770f93710816552149c2efdbfab71456c992853"
 }

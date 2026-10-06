@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "label locked for non translatable",
+  "title": "Set `Locked = true` on Labels that must not be translated",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/label-locked-for-non-translatable.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.773Z",
+      "blob": "888d22bf5fa3693eb640006c9198fccecf7ab749",
+      "words": 188,
+      "forms": 0
     }
   },
   "input_hash": "888d22bf5fa3693eb640006c9198fccecf7ab749",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/style/label-locked-for-non-translatable.md"
-  }
+    "path": "microsoft/knowledge/style/label-locked-for-non-translatable.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 188
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "888d22bf5fa3693eb640006c9198fccecf7ab749"
 }

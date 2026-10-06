@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "page background tasks",
+  "title": "Offload Slow Read-Only Page Calculations To Background Tasks",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/page-background-tasks.md",
   "published_at": "2026-07-15T08:55:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:46.193Z",
+      "blob": "c4cccb8dca03a0389e5ccbdc31637e28ed1187fd",
+      "words": 314,
+      "forms": 0
     }
   },
   "input_hash": "c4cccb8dca03a0389e5ccbdc31637e28ed1187fd",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/ui/page-background-tasks.md"
-  }
+    "path": "microsoft/knowledge/ui/page-background-tasks.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 314
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c4cccb8dca03a0389e5ccbdc31637e28ed1187fd"
 }

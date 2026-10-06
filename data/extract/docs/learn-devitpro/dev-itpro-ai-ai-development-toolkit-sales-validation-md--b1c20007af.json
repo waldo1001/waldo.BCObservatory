@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-sales-validation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-sales-validation",
+  "title": "Create a Sales Validation Agent",
+  "blob": "94f94acae3f344e066b52269837c4492e5e07199",
+  "summary": "The Sales Validation Agent is a preconfigured agent that automates validation of sales orders by checking inventory availability and order criteria. Create it from the Create agent wizard and customize instructions to validate orders before processing.",
+  "systems": [
+    "sales",
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "sales order validation",
+    "inventory checking",
+    "shipping dates",
+    "order processing",
+    "validation agent",
+    "preconfigured agent"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Sales Validation Agent"
+    },
+    {
+      "type": "other",
+      "name": "Item Card"
+    },
+    {
+      "type": "other",
+      "name": "Sales Orders"
+    }
+  ],
+  "features": [
+    "inventory availability checking",
+    "sales order validation",
+    "shipping date validation",
+    "partial shipment support",
+    "complete shipment validation",
+    "agent customization",
+    "create agent wizard"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006455,
+      "pages_in_call": 5
+    }
+  ]
+}

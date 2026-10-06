@@ -2,20 +2,21 @@
 id: topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview
 type: topic
 title: Designing and coding agents (preview)
-summary: "Learn section Integration with AI > Designing and coding agents (preview): 23 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Designing and coding agents (preview) covers how partners build, configure, run and manage custom agents in Business Central sandboxes with the AI development toolkit. It answers questions on instructions, permissions, profiles, tasks, attachments, visibility, export/import, the Tasks AL API and troubleshooting.
 tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-06T13:43:05.019Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T13:43:32.763Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 2363f50364b2a6e5ec17552aa75d99987877fc7bce7ed791a7189963ccc729d0
+  prompts:
+    hub-topic: 1
+  input_hash: bdccf242eeee764ba67931315467ea8329e1c4b2ac60144a754d4ff73849ff69
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-models
@@ -219,14 +220,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 2363f50364b2a6e5ec17552aa75d99987877fc7bce7ed791a7189963ccc729d0
-narrative: none
+narrative: generated
 ---
 
 # Designing and coding agents (preview)
 
-> Learn section Integration with AI > Designing and coding agents (preview): 23 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Designing and coding agents (preview) covers how partners build, configure, run and manage custom agents in Business Central sandboxes with the AI development toolkit. It answers questions on instructions, permissions, profiles, tasks, attachments, visibility, export/import, the Tasks AL API and troubleshooting.
 
-Path: [Integration with AI](../integration-with-ai.md) > Designing and coding agents (preview) · tier official · system copilot · no narrative yet
+Path: [Integration with AI](../integration-with-ai.md) > Designing and coding agents (preview) · tier official · system copilot · narrative reviewed by Opus
+
+## Overview
+
+This section is for partners who prototype AI agents in Business Central. It follows the agent lifecycle: create and configure an agent, set permissions and profiles, write instructions, run tasks, then iterate, export and graduate the work. The toolkit is sandbox-only and the pages are marked preview.
+
+Start with the main overview page and "Create and activate an agent", which cover the design wizard, identity, instructions, profiles, permissions and the task playground. Then read "Write effective instructions", "Instruction keywords" and "Best practices for designing an agent" to shape behavior. "Set up agent permissions and profiles" and "Understand agent visibility" explain what an agent can do and who can see it.
+
+For operation and code, "Run an agent" explains tasks, "Iterate and manage an agent" covers the Agent Task Log and instruction history, and "Integrate with the Tasks AL API" covers AL integration. The "Coding agents in AL" subtopic (8 pages) goes deeper on writing agents in code. The FAQ, the attachment limits page, the Sales Validation Agent example and the Transparency Note round out the section.
+
+## Key points
+
+- The lifecycle is create, configure, activate, iterate, graduate and cleanup. The toolkit works only in sandbox environments, and the pages mention version 27.2.
+- Agents run with the intersection of the user's and the agent's permissions. They never exceed the scheduling user's privileges, and least privilege is recommended.
+- Profiles and page customization properties such as ClearActions and ClearLayout control what an agent sees and can do in the UI.
+- Instructions follow a framework of responsibilities, guidelines and instructions. Keywords include ask for assistance, request review, reply, write email, memorize, set field, use lookup and invoke action.
+- Tasks can be triggered manually from the Agent Tasks page or through the Tasks AL API. The API offers GetCustomAgents and IsAgentSession to detect agent sessions.
+- Attachments support PDF, PNG and JPG files, with file size limits and a 10-page PDF limit. Custom document processing can use Azure AI Document Intelligence.
+- The Agent Task Log shows decision context, and instruction version history supports comparison and rollback.
+- Agent configurations can be exported and imported as XML between sandboxes. This covers identity, instructions, permissions and profile.
 
 ## Subtopics
 

@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-agent-sdk-setup-page.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-agent-sdk-setup-page",
+  "title": "Create agent setup pages (preview)",
+  "blob": "3cb3c37fd787f39b40463bbbf27a83804a781ef1",
+  "summary": "Create configuration dialog pages for agent setup using the ConfigurationDialog page type with Agent Setup Part and custom configuration fields. Implement reversible changes, persist agent configuration, and manage custom properties.",
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "setup pages",
+    "configuration dialog",
+    "agent setup",
+    "ui configuration",
+    "reversible changes",
+    "agent initialization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Agent Setup Part"
+    },
+    {
+      "type": "table",
+      "name": "Agent Setup Buffer"
+    },
+    {
+      "type": "codeunit",
+      "name": "Agent Setup"
+    },
+    {
+      "type": "codeunit",
+      "name": "Agent"
+    }
+  ],
+  "features": [
+    "configuration dialog page type",
+    "agent setup part",
+    "custom configuration fields",
+    "reversible changes",
+    "change tracking",
+    "setup record initialization",
+    "custom properties",
+    "language and region settings",
+    "profile lookup",
+    "agent lookup"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011645,
+      "pages_in_call": 3
+    }
+  ]
+}

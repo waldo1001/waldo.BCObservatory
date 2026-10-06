@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Server and Database (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=2u5_F9Ztt7U",
-  "published_at": null,
+  "published_at": "2026-04-08T10:05:39.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:20:04.324Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1022
+    },
+    "captioned": {
+      "at": "2026-10-06T13:20:13.147Z",
+      "path": "data/captions/microsoft/2u5_F9Ztt7U.vtt",
+      "vtt_sha256": "7c6f03706c5a3d6d6f4111b9302215723aa09acd41fdcbde00dcdf17cf7b0236",
+      "segments": 75,
+      "words": 2367,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 75,
-    "duration_s": 1023,
-    "via": "reconcile"
-  }
+    "duration_s": 1022,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7c6f03706c5a3d6d6f4111b9302215723aa09acd41fdcbde00dcdf17cf7b0236"
 }

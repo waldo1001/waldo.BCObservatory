@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-tasks-api.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-tasks-api",
+  "title": "Integrate with the Tasks AL API (preview)",
+  "blob": "4d930307ac5355b86d7be5ea215aeb0196ed2020",
+  "summary": "The Tasks AL API allows retrieving agent information and writing AL code to detect custom agent sessions and execute agent-specific logic. Use the Custom Agent codeunit to get agent details and Agent Session to detect when code runs in an agent context.",
+  "systems": [
+    "development",
+    "integration",
+    "copilot"
+  ],
+  "topics": [
+    "tasks api",
+    "custom agents",
+    "agent sessions",
+    "al code",
+    "agent detection",
+    "agent metadata"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Custom Agent"
+    },
+    {
+      "type": "other",
+      "name": "Custom Agent Info"
+    },
+    {
+      "type": "other",
+      "name": "Agent Session"
+    },
+    {
+      "type": "enum",
+      "name": "Agent Metadata Provider"
+    }
+  ],
+  "features": [
+    "GetCustomAgents",
+    "IsAgentSession",
+    "agent information retrieval",
+    "custom agent sessions",
+    "agent-specific code execution",
+    "metadata provider"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006455,
+      "pages_in_call": 5
+    }
+  ]
+}

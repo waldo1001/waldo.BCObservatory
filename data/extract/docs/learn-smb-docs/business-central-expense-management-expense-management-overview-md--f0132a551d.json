@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-overview",
+  "title": "Expense Management Overview in Business Central",
+  "blob": "02e2f2b9839ce1663a9fb9b5cd06205e34e75fc6",
+  "summary": "Manage employee expenses through expense reports with or without Expense Agent, including approval workflows, travel requests, VAT reclaim, and posting to general ledger.",
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "topics": [
+    "expense management",
+    "expense reports",
+    "approval workflow",
+    "travel requests",
+    "vat",
+    "posting"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Expense Reports"
+    },
+    {
+      "type": "table",
+      "name": "Travel Requests"
+    }
+  ],
+  "features": [
+    "Expense report status workflow",
+    "Approval workflows for reports",
+    "Travel request planning and comparison",
+    "VAT calculation and reclaim",
+    "Rule and policy compliance checking",
+    "Refundable and reimbursable categorization",
+    "Per diem and mileage allowances",
+    "Payment processing tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009347,
+      "pages_in_call": 4
+    }
+  ]
+}

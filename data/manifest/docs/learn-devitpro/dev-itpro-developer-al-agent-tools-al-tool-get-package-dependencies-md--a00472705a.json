@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-get-package-dependencies",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b355c42475421b9c61b3c8af0430f61a865822d4",
       "words": 274,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:28:30.321Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006307
+    },
+    "summarized": {
+      "at": "2026-10-06T13:28:30.333Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:28:30.333Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:28:30.333Z",
+      "page": false
     }
   },
   "input_hash": "b355c42475421b9c61b3c8af0430f61a865822d4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b355c42475421b9c61b3c8af0430f61a865822d4"
+  "output_hash": "e65c5d92480f9a70a3f63cf3ca7dc940fcb2694d7c78f69993782df9f7511b07"
 }

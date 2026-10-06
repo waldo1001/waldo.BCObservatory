@@ -1,0 +1,198 @@
+{
+  "video_id": "6vHJQggN4F4",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.6,
+      "end": 21.2,
+      "text": "Hello and welcome. In this video, we explore Shopify connector enhancements in product information area. And we will start by looking at the item list and scroll down to the very special item, which I'm going to"
+    },
+    {
+      "t": 21.2,
+      "end": 25,
+      "text": "add to Shopify."
+    },
+    {
+      "t": 25,
+      "end": 39.7,
+      "text": "Do you want to explore the my Shopify? Of course we do. Exactly the purpose. And this is the item with image, which looks by the way differently. Uh description, price, and color and material description is something new."
+    },
+    {
+      "t": 39.7,
+      "end": 50.6,
+      "text": "Can I choose one? The different one? Let's pick gray. Color has changed. Green. Exactly. Brown. Aha."
+    },
+    {
+      "t": 50.6,
+      "end": 61.4,
+      "text": "Now I finally see the image which we used for item itself. But it says that fabric, the material, is not available. Probably the brown one is the using the color."
+    },
+    {
+      "t": 61.4,
+      "end": 76,
+      "text": "Interesting. How did we do that? Let's go back to Business Central. This is our item with the image which we exported, but if you go to the related item variants, you can see that this item has four variants."
+    },
+    {
+      "t": 76,
+      "end": 88.8,
+      "text": "And each variant has image. So, yeah, this image is now exported to Shopify as well. But moreover, it also has item attributes. We can see that color is beige and material description is fabric."
+    },
+    {
+      "t": 88.8,
+      "end": 99.3,
+      "text": "There are other attributes, but they are up or uh noticeably not involved into in in the export. They only added as a description."
+    },
+    {
+      "t": 99.3,
+      "end": 109.4,
+      "text": "But these ones are used. How's that? If we will search for item attributes, the setup page, you can see the new column."
+    },
+    {
+      "t": 109.4,
+      "end": 120.9,
+      "text": "It's only visible if you have Shopify uh connector installed with uh uh some stores connected. You need to enable connector. Then you can see different options."
+    },
+    {
+      "t": 120.9,
+      "end": 137,
+      "text": "And you can see that you can export some of the attributes as option in the Shopify. So apparently this specific item or variant has two of these attributes defined and now when they export them as a product in in in Shopify,"
+    },
+    {
+      "t": 137,
+      "end": 151,
+      "text": "they are also used to define the items. All right, that's interesting. But here is more. If you go back to the online store, we can see the idea that there are something"
+    },
+    {
+      "t": 151,
+      "end": 162,
+      "text": "with the catalogs. And we have a collection. For example, we have comfort sitting collection where we gathered all chairs. What about dining table collection? Nothing."
+    },
+    {
+      "t": 162,
+      "end": 174.4,
+      "text": "So our chairs were added automatically to the collection. That's another feature which we would like to explore. Let's go back to Business Central. From the item list, we will navigate to Shopify"
+    },
+    {
+      "t": 174.4,
+      "end": 186.1,
+      "text": "shop card and explore it from there. Shopify shops. My Shopify card and here we got an extra setting."
+    },
+    {
+      "t": 186.1,
+      "end": 203.8,
+      "text": "Custom product collections. As you already know in many other places, you can start by importing collections from the Shopify and then you can decide which collection you want to assign to items as soon as they exported to Shopify from Business Central."
+    },
+    {
+      "t": 203.8,
+      "end": 216.4,
+      "text": "You can select many but probably you want a little bit more specific. For example, sitting collection, I'm only added if item is in category chair."
+    },
+    {
+      "t": 216.4,
+      "end": 228.4,
+      "text": "And the table collection is for items in the category, you guess, table. That particular can be useful in a case when you need to perform something which is called tax override."
+    },
+    {
+      "t": 228.4,
+      "end": 242,
+      "text": "Yeah, sometimes some items use not normal tax rate but the reduced one. And to help Shopify to understand that, they you can add item to specific collection, which is configured as a tax override."
+    },
+    {
+      "t": 242,
+      "end": 254.2,
+      "text": "You can always learn more in the documentation. It's very con- convenient feature. All right. Let's go to the list of products."
+    },
+    {
+      "t": 254.2,
+      "end": 263.5,
+      "text": "Where we have our Tokyo chair with different options, and let's try to add another item."
+    },
+    {
+      "t": 266,
+      "end": 276.7,
+      "text": "Now, I'm adding a fan desk. It's item without variants. Let's see how it was added to the Shopify. And we will start by exploring what dining table collection."
+    },
+    {
+      "t": 276.7,
+      "end": 280.8,
+      "text": "So, table is there."
+    },
+    {
+      "t": 280.8,
+      "end": 293,
+      "text": "We can open the cart. We can see that variants. Yes, because uh this table also have a option color and uh and sitting capacity. But, it's only selection of one."
+    },
+    {
+      "t": 293,
+      "end": 303.8,
+      "text": "Why? Again, because this table this item in Business Central has no variants. But, what we have? We have a different items. Let's add them as variants."
+    },
+    {
+      "t": 303.8,
+      "end": 320.8,
+      "text": "So, what's happening? Sometimes, even if in e-commerce portal Shopify, you prefer to have a list to be items with variants and options, in the Business Central, you may decide to have a flat list when each variant is actually individual item."
+    },
+    {
+      "t": 320.8,
+      "end": 332,
+      "text": "Fair enough, there are some reasons to do that. One of them it's maybe using assembly bill of material, which can be only connected to the parent item, and not to variant."
+    },
+    {
+      "t": 332,
+      "end": 346.6,
+      "text": "There are also couple of more fields in the in the item item list, which is not available to variants. So, we can we can utilize function which is called add item as a Shopify variant, and add couple of more items."
+    },
+    {
+      "t": 346.6,
+      "end": 360.4,
+      "text": "Same table but different sitting capacity. Let's click okay. And they were added. Back to Shopify. So, the same item, same column, but now we can see more seats."
+    },
+    {
+      "t": 360.4,
+      "end": 373.4,
+      "text": "And if I select different seats, you can notice that price is changing as well. So, apparently the number of seats and number and price is very much related. Yes, because we defined price per different item as well."
+    },
+    {
+      "t": 373.4,
+      "end": 385.4,
+      "text": "All right. What about if you want to actually import items from Shopify to Business Central? That's a different scenario, but again, it's super flexible, depends on your"
+    },
+    {
+      "t": 385.4,
+      "end": 401.7,
+      "text": "situation and the setup and the moment in the implementation, you can use one or another approach. So, let's switch back to Business Central. In the Business Central Shopify shop card, and we decided to synchronize from Shopify and allow creation of the items."
+    },
+    {
+      "t": 401.7,
+      "end": 412.2,
+      "text": "Let's go to the list of products and choose synchronization sync products. And the next action we will do we synchronize product images."
+    },
+    {
+      "t": 412.2,
+      "end": 422.4,
+      "text": "And now in the created item, which was created based on information from Shopify, you can see image that's expected."
+    },
+    {
+      "t": 422.4,
+      "end": 434.4,
+      "text": "Uh cost information, price price information, all expected, but something new. Now we got the marketing text as well. Because we have a toggle about marketing text, now you can get it from Shopify as well."
+    },
+    {
+      "t": 434.4,
+      "end": 447.2,
+      "text": "So, if you launch uh start with Business Central and connect it to Shopify, you which which you already have a rich product information, you can always start by uploading catalog from"
+    },
+    {
+      "t": 447.2,
+      "end": 458.6,
+      "text": "from Shopify. All right, that was a quick walk through through the enhancement in product information management area in the Shopify connector. Uh let's stay in touch."
+    },
+    {
+      "t": 458.6,
+      "end": 470.5,
+      "text": "Please reach out to us via LinkedIn and Viva Engage. You can also find more videos in the on our YouTube channel. Thank you."
+    }
+  ],
+  "markers": [],
+  "word_count": 1113
+}

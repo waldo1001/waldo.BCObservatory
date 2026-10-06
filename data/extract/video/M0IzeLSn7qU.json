@@ -1,0 +1,365 @@
+{
+  "video_id": "M0IzeLSn7qU",
+  "item_id": "video/yt-microsoft/M0IzeLSn7qU",
+  "title": "What's new in Expense Agent: Improved Approval Process (2026 release wave 2)",
+  "duration_s": 647,
+  "systems": [
+    "copilot",
+    "finance",
+    "hr"
+  ],
+  "topics": [
+    "expense agent",
+    "approval process",
+    "audit trail",
+    "ai policies",
+    "approval limits",
+    "delegated approvers"
+  ],
+  "chapters": [
+    {
+      "title": "Overview of new approval features",
+      "t_start": 0,
+      "t_end": 53.7
+    },
+    {
+      "title": "AI-driven approval policies",
+      "t_start": 53.7,
+      "t_end": 167
+    },
+    {
+      "title": "Employee use of AI compliance checks",
+      "t_start": 167,
+      "t_end": 204
+    },
+    {
+      "title": "Approval history and audit trail in web app",
+      "t_start": 204,
+      "t_end": 329.9
+    },
+    {
+      "title": "Approval history in Business Central",
+      "t_start": 329.9,
+      "t_end": 405.4
+    },
+    {
+      "title": "Interim approvers (November release)",
+      "t_start": 405.4,
+      "t_end": 468.3
+    },
+    {
+      "title": "Better messaging and approval limits",
+      "t_start": 468.3,
+      "t_end": 543.5
+    },
+    {
+      "title": "Alternate and delegated approvers",
+      "t_start": 543.5,
+      "t_end": 622.6
+    },
+    {
+      "title": "Travel request approval and closing",
+      "t_start": 622.6,
+      "t_end": 647
+    }
+  ],
+  "features": [
+    {
+      "name": "AI-driven approval policies",
+      "description": "Admin can enable AI-driven approval policies in setup to flag expenses for review. Policies are configured per expense category, and AI is used selectively only where needed, such as for flight tickets and hotel stays. Approvers see flags before final approval but are not blocked from approving flagged items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 53.7,
+      "t_end": 156.2,
+      "is_demoed": true,
+      "caveats": [
+        "Uses additional AI tokens when enabled",
+        "Requires expense policies configured per category",
+        "Itemization of expenses recommended for best results"
+      ],
+      "tags": [
+        "ai",
+        "compliance",
+        "approval",
+        "configurable"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Enhanced approval history and audit trail",
+      "description": "Detailed tracking of all changes to expense reports including creation, submission, rejection, resubmission, and posting. History shows timestamps, user names, justifications, and amount changes, available in both web app and Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 204,
+      "t_end": 405.4,
+      "is_demoed": true,
+      "caveats": [
+        "In web app, history exposed to all users regardless of BC user status",
+        "In Business Central, requires BC user or accountant with rights to view",
+        "Separate tracking for web app actions versus Business Central posting"
+      ],
+      "tags": [
+        "audit",
+        "history",
+        "tracking",
+        "transparency"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Employee manual compliance checks",
+      "description": "Employees can manually run AI compliance checks on their own expense reports before submission to see in advance if expenses are compliant, without automatic execution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 167,
+      "t_end": 204,
+      "is_demoed": false,
+      "caveats": [
+        "Manual execution only, not automatic",
+        "Requires employee to initiate the check"
+      ],
+      "tags": [
+        "ai",
+        "compliance",
+        "employee",
+        "manual"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Interim approvers",
+      "description": "Support for multiple approval levels where an interim approver can review expense reports for compliance before final approval by manager. Interim approver must approve before the final approver can act.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 405.4,
+      "t_end": 468.3,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in November release (29.1)",
+        "Optional feature for complex approval scenarios"
+      ],
+      "tags": [
+        "approval",
+        "workflow",
+        "compliance",
+        "upcoming"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Better approval messaging",
+      "description": "Improved visual messaging during approval process with different icons and colors for approval and rejection actions to make workflow easier.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 468.3,
+      "t_end": 492,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in November 29.1 release"
+      ],
+      "tags": [
+        "ux",
+        "approval",
+        "messaging"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Approval limits",
+      "description": "Approvers can be configured with maximum approval amounts (e.g., $2,000) or unlimited approval. Supports two-level hierarchy with one specific amount level and one unlimited level for escalation.",
+      "status": "announced",
+      "status_evidence_t": 502.2,
+      "status_evidence_quote": "from uh November uh minor, you will be able to set up approver with a uh with a maximum approval amount, for example, $2,000",
+      "status_evidence_verified": true,
+      "t_start": 492,
+      "t_end": 543.5,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in November release",
+        "Cannot have multiple threshold levels (e.g., cannot set 1000, 2000, 5000)",
+        "Supports only two levels: one specific amount and one unlimited"
+      ],
+      "tags": [
+        "approval",
+        "limits",
+        "authorization",
+        "financial-controls"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Ad hoc alternate approvers",
+      "description": "Approvers on leave can delegate all pending expense reports to colleagues who are set up as approvers on an immediate basis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 543.5,
+      "t_end": 586.4,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in November release",
+        "Delegate can only be used if they are set up as approvers",
+        "Applies only to already-sent expense reports awaiting approval"
+      ],
+      "tags": [
+        "delegation",
+        "approval",
+        "workflow",
+        "absence"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Planned alternate approvers",
+      "description": "Approvers can designate alternate approvers for specific date ranges (e.g., vacation periods). System automatically redirects all expense reports to the alternate approver during that period.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 586.4,
+      "t_end": 611.5,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in November release",
+        "Requires advance planning with specific start and end dates"
+      ],
+      "tags": [
+        "delegation",
+        "approval",
+        "vacation",
+        "planning"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Travel request approval",
+      "description": "New approval capability for travel requests as separate from expense approval, with dedicated session available.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 622.6,
+      "t_end": 636,
+      "is_demoed": false,
+      "caveats": [
+        "Separate session available for details",
+        "Status unclear if this is for 2026 Wave 2 or later wave"
+      ],
+      "tags": [
+        "approval",
+        "travel",
+        "hr"
+      ],
+      "system": "hr"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 53.7,
+      "text": "Admin can enable AI-driven approval policies in setup. So, this is only if you enable because it can make some additional spending of your",
+      "why_it_matters": "Establishes that AI-driven policies are opt-in to control AI token consumption",
+      "check": "exact"
+    },
+    {
+      "t": 89.2,
+      "text": "if you have expense report with I don't know, for example, 12 lines, AI will you will be used only for these lines where",
+      "why_it_matters": "Clarifies that AI processing is selective per category, not blanket application",
+      "check": "exact"
+    },
+    {
+      "t": 156.2,
+      "text": "It will not block approvers. So, you can even uh approve even if this uh expense is flagged, but this is something what will",
+      "why_it_matters": "Key design decision: AI flags are advisory, not blocking, giving approvers final discretion",
+      "check": "exact"
+    },
+    {
+      "t": 241.9,
+      "text": "And then it was rejected 5 days after that because approver, in this case, I am the same a person who rejected, but this",
+      "why_it_matters": "Demonstrates rich audit trail with rejection justifications tracked in system",
+      "check": "exact"
+    },
+    {
+      "t": 529.2,
+      "text": "you cannot have multiple levels, so you cannot have one uh for 1,000, 2,000, 5,000, so you will have one uh with a specific",
+      "why_it_matters": "Defines approval limits constraint: only two-level hierarchy supported, not unlimited tiers",
+      "check": "exact"
+    },
+    {
+      "t": 570.6,
+      "text": "I can delegate and I can use alternate approvers only if they are set up as approvers, so if they are not approvers, they",
+      "why_it_matters": "Establishes security boundary: delegation only to users already configured as approvers",
+      "check": "exact"
+    },
+    {
+      "t": 600.3,
+      "text": "I can make plan alternate approver from for example, from October 1st until the end of October, I will choose who will approve instead",
+      "why_it_matters": "Shows how planned delegation works with date ranges and automatic redirection",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 27.6,
+      "kind": "other",
+      "text": "we will have separate session about this process completely so you can go deep dive there"
+    },
+    {
+      "t": 415.6,
+      "kind": "coming-later",
+      "text": "from next minor from November in some situations, you need more approvers"
+    },
+    {
+      "t": 468.3,
+      "kind": "coming-later",
+      "text": "coming from uh November 29.1. Better messaging during approval process"
+    },
+    {
+      "t": 502.2,
+      "kind": "coming-later",
+      "text": "from uh November uh minor, you will be able to set up approver with a uh with a maximum approval amount"
+    },
+    {
+      "t": 543.5,
+      "kind": "coming-later",
+      "text": "this is again based on feedback, and we will have two options"
+    },
+    {
+      "t": 622.6,
+      "kind": "coming-later",
+      "text": "We have separate session about travel request, so you can go there and see what is about"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.039024
+    }
+  ]
+}

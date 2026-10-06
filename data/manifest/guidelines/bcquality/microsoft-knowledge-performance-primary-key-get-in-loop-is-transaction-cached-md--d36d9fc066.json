@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "primary key get in loop is transaction cached",
+  "title": "A primary-key Get() in a per-row helper is not an N+1 to cache manually",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/primary-key-get-in-loop-is-transaction-cached.md",
   "published_at": "2026-09-29T15:21:28.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:18:41.856Z",
+      "blob": "3594a057be4248be308e60faa9345ee009d92a5e",
+      "words": 272,
+      "forms": 0
     }
   },
   "input_hash": "3594a057be4248be308e60faa9345ee009d92a5e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/primary-key-get-in-loop-is-transaction-cached.md"
-  }
+    "path": "microsoft/knowledge/performance/primary-key-get-in-loop-is-transaction-cached.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 272
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3594a057be4248be308e60faa9345ee009d92a5e"
 }

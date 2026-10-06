@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "skip setloadfields on write and transferfields",
+  "title": "Skip SetLoadFields on write and copy paths",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/skip-setloadfields-on-write-and-transferfields.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.485Z",
+      "blob": "41a0ad8c7eb0e522a2fc20a6eba631f2d0c13bb1",
+      "words": 197,
+      "forms": 0
     }
   },
   "input_hash": "41a0ad8c7eb0e522a2fc20a6eba631f2d0c13bb1",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/skip-setloadfields-on-write-and-transferfields.md"
-  }
+    "path": "microsoft/knowledge/performance/skip-setloadfields-on-write-and-transferfields.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 197
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "41a0ad8c7eb0e522a2fc20a6eba631f2d0c13bb1"
 }

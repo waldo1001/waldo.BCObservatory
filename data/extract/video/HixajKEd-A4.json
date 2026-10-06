@@ -1,0 +1,197 @@
+{
+  "video_id": "HixajKEd-A4",
+  "item_id": "video/yt-microsoft/HixajKEd-A4",
+  "title": "What's new: Match Production Database Configuration (2026 release wave 2)",
+  "duration_s": 153,
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "sandbox configuration",
+    "production database matching",
+    "admin center",
+    "environment management",
+    "database configuration",
+    "performance testing",
+    "cloud migration"
+  ],
+  "chapters": [
+    {
+      "title": "Feature overview and use cases",
+      "t_start": 0,
+      "t_end": 43
+    },
+    {
+      "title": "Accessing the match production configuration button",
+      "t_start": 43,
+      "t_end": 56.8
+    },
+    {
+      "title": "Flyout explanation and operation tracking",
+      "t_start": 56.8,
+      "t_end": 89.1
+    },
+    {
+      "title": "Important considerations",
+      "t_start": 89.1,
+      "t_end": 103.8
+    },
+    {
+      "title": "Limits, reversion, APIs, and licensing",
+      "t_start": 103.8,
+      "t_end": 133.7
+    },
+    {
+      "title": "Conclusion",
+      "t_start": 133.7,
+      "t_end": 153
+    }
+  ],
+  "features": [
+    {
+      "name": "Match Production Configuration",
+      "description": "A feature that allows administrators to temporarily match the configuration of a sandbox database to that of a typical production database, enabling developers to evaluate how processes would run in a production environment.",
+      "status": "ga",
+      "status_evidence_t": 7.1,
+      "status_evidence_quote": "A new feature we're shipping in 2026 release wave two.",
+      "status_evidence_verified": true,
+      "t_start": 7.1,
+      "t_end": 23.4,
+      "is_demoed": false,
+      "caveats": [
+        "Limited to three occurrences per tenant per calendar month",
+        "Each occurrence lasts for 72 hours only",
+        "Environment automatically reverts to typical sandbox configuration after 72 hours",
+        "Only available on tenants with paid license type",
+        "Disconnects all connected users when activated"
+      ],
+      "tags": [
+        "sandbox",
+        "production database",
+        "configuration matching",
+        "admin center"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Match Production Configuration Button",
+      "description": "A new button in the admin center for sandbox environments labeled match production configuration that initiates the configuration matching process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 43,
+      "t_end": 56.8,
+      "is_demoed": true,
+      "caveats": [
+        "Appears only in sandbox environment admin center"
+      ],
+      "tags": [
+        "ui",
+        "admin center",
+        "button",
+        "sandbox"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Operation Tracking for Configuration Matching",
+      "description": "Administrators can track the match production configuration operation in the admin center like any other operation, with operation details showing who initiated it, when it started, and when the environment is expected to revert to regular sandbox configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 69.1,
+      "t_end": 89.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "operation tracking",
+        "admin center",
+        "monitoring"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Admin Center APIs for Configuration Matching",
+      "description": "The match production configuration operation is supported through admin center APIs, allowing developers to automate the configuration matching as part of their development processes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 119.3,
+      "t_end": 133.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "api",
+        "automation",
+        "admin center"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 7.1,
+      "text": "A new feature we're shipping in 2026 release wave two. With this feature administrators will be able to temporarily match the configuration of a",
+      "why_it_matters": "Establishes the feature status as generally available (shipping) and its core purpose of enabling sandbox-to-production configuration matching.",
+      "check": "exact"
+    },
+    {
+      "t": 23.4,
+      "text": "developers and administrators using the performance tool get developing apps or running cloud migration projects can mimic the configuration of a production database in",
+      "why_it_matters": "Clarifies the primary use cases for the feature - performance testing, app development, and cloud migration projects.",
+      "check": "exact"
+    },
+    {
+      "t": 103.8,
+      "text": "this operation is limited to three occurrences per tenant per calendar month for 72 hours at a time",
+      "why_it_matters": "Defines critical usage limits and quotas for the feature.",
+      "check": "exact"
+    },
+    {
+      "t": 103.8,
+      "text": "Once those 72 hours end your sandbox environment automatically moves back to a typical sandbox configuration during the first environment update window",
+      "why_it_matters": "Specifies the automatic reversion behavior that prevents long-term sandbox configuration changes.",
+      "check": "exact"
+    },
+    {
+      "t": 133.7,
+      "text": "this is only available on tenants that have a paid license type, including partners that are using the partner sandbox license",
+      "why_it_matters": "Clarifies licensing requirements for accessing this feature.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 56.8,
+      "kind": "other",
+      "text": "enabling this action will restart the environment meaning that any users that are connected to the environment at the time you do this will be disconnected"
+    },
+    {
+      "t": 69.1,
+      "kind": "other",
+      "text": "your environment will automatically revert back to a typical sandbox configuration after 72 hours"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025655999999999998
+    }
+  ]
+}

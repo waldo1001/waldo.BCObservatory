@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "setfilter overwrites query columnfilter",
+  "title": "SetFilter and SetRange overwrite Query ColumnFilter",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/query/setfilter-overwrites-query-columnfilter.md",
   "published_at": "2026-09-15T10:51:15.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:32:55.385Z",
+      "blob": "9f9dd7ad9ec54c6299aad0b068df2df7ce1f9bd9",
+      "words": 138,
+      "forms": 0
     }
   },
   "input_hash": "9f9dd7ad9ec54c6299aad0b068df2df7ce1f9bd9",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/query/setfilter-overwrites-query-columnfilter.md"
-  }
+    "path": "microsoft/knowledge/query/setfilter-overwrites-query-columnfilter.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 138
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9f9dd7ad9ec54c6299aad0b068df2df7ce1f9bd9"
 }

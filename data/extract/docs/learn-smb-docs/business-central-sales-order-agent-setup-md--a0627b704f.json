@@ -1,0 +1,76 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-order-agent-setup.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-setup",
+  "title": "Set up Sales Order Agent",
+  "blob": "24fc664d169f35f9961c1b7a45dc06e1be0722ee",
+  "summary": "Set up and configure the Sales Order Agent to automate processing of sales orders from customer email requests, including mailbox monitoring, document creation rules, and user access management.",
+  "systems": [
+    "sales",
+    "copilot",
+    "administration"
+  ],
+  "topics": [
+    "sales order agent",
+    "email automation",
+    "agent configuration",
+    "copilot capabilities",
+    "sales automation",
+    "mailbox monitoring",
+    "quote processing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Configure the Copilot agent"
+    },
+    {
+      "type": "page",
+      "name": "Create Task"
+    },
+    {
+      "type": "page",
+      "name": "Configure Sales Order Agent"
+    },
+    {
+      "type": "page",
+      "name": "Agent Tasks"
+    },
+    {
+      "type": "page",
+      "name": "Agent Task Log"
+    },
+    {
+      "type": "page",
+      "name": "Agents"
+    },
+    {
+      "type": "page",
+      "name": "Select users that can manage or interact with the Agent"
+    }
+  ],
+  "features": [
+    "Sales Order Agent activation",
+    "Email mailbox monitoring",
+    "Sales quote creation and confirmation",
+    "Sales order conversion",
+    "Customer contact matching",
+    "Attachment analysis",
+    "Daily email limits",
+    "Custom email signatures",
+    "User access management",
+    "Agent permission sets",
+    "Copilot Credit management",
+    "Agent language and region settings"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029111,
+      "pages_in_call": 1
+    }
+  ]
+}

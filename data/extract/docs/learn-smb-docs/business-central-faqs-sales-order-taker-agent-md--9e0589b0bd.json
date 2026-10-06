@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/faqs-sales-order-taker-agent.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-sales-order-taker-agent",
+  "title": "FAQ for Sales Order Agent",
+  "blob": "519193a9a2d749db3dcfa98b444f7d8326a313cf",
+  "summary": "Sales Order Agent is an integrated AI agent that automates end-to-end sales order capturing from customer email requests, including quote preparation, item availability checks, customer communication, and order conversion. Use this to streamline the sales process and reduce manual order entry.",
+  "systems": [
+    "sales",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "sales order agent",
+    "sales quotes",
+    "order capturing",
+    "customer email",
+    "ai automation",
+    "quote management",
+    "sales process"
+  ],
+  "objects": [],
+  "features": [
+    "Agent Configuration",
+    "Task Execution and Interaction",
+    "Email Dispatcher",
+    "Access and Permissions",
+    "Transparency and Change Control",
+    "Customer Identification",
+    "Item Discovery",
+    "Inventory Checking",
+    "Quote Management",
+    "Order Conversion",
+    "User Intervention",
+    "Timeline View"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010538,
+      "pages_in_call": 3
+    }
+  ]
+}

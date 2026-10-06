@@ -1,0 +1,24 @@
+{
+  "hub_id": "topic/business-central/copilot-and-agent-capabilities/analysis-assist",
+  "input_hash": "8874fae5caf36e9d227b93060c88cf4a65397098fec85f54a19b970eb5c9f3b4",
+  "summary": "Analysis assist is a Copilot preview feature in Business Central that turns natural language instructions into analysis views on list pages. The section answers what it does, how to ask Copilot for analysis tabs with rows, columns, filters and aggregations, and common questions about it.",
+  "overview": "Analysis assist uses Copilot to simplify data analysis on list pages. Instead of building an analysis view by hand, a user describes what they want in natural language, and Copilot suggests a layout in analysis mode. This helps people organize and summarize data without technical skills. Both pages describe the feature as a preview.\n\nThe section has two pages and no subtopics. \"Analyze data in lists with Copilot (preview)\" explains the capability: asking Copilot to create analysis tabs with rows, columns, filters and aggregations, including fields from related tables. \"FAQs for analysis assist (preview)\" covers general questions about how the feature works and how Copilot responses are produced.\n\nStart with the analyze data in lists page to understand what you can ask for, then read the FAQs for background on how analysis assist behaves.",
+  "key_points": [
+    "Analysis assist is a Copilot feature, marked as preview in both pages.",
+    "It works on list pages and builds on Business Central's data analysis mode.",
+    "Users give natural language instructions and Copilot suggests a layout.",
+    "Copilot can generate analysis tabs with rows, columns, filters and aggregations.",
+    "Suggested layouts can include fields from related tables.",
+    "The goal is to let users organize and summarize data without technical skills.",
+    "The section has two pages: a how-to for analyzing lists and an FAQ."
+  ],
+  "members_used": 2,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-06T13:39:40.360Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.036487
+  }
+}

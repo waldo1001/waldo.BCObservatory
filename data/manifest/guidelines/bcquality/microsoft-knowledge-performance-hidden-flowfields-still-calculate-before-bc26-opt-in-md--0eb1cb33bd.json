@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "hidden flowfields still calculate before bc26 opt in",
+  "title": "Hidden page FlowFields still calculate unless visible-only calculation is enabled",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/hidden-flowfields-still-calculate-before-bc26-opt-in.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.426Z",
+      "blob": "7db17d34bb4f46f94ea7b84691c85cb8b26d4192",
+      "words": 206,
+      "forms": 0
     }
   },
   "input_hash": "7db17d34bb4f46f94ea7b84691c85cb8b26d4192",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/hidden-flowfields-still-calculate-before-bc26-opt-in.md"
-  }
+    "path": "microsoft/knowledge/performance/hidden-flowfields-still-calculate-before-bc26-opt-in.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 206
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7db17d34bb4f46f94ea7b84691c85cb8b26d4192"
 }

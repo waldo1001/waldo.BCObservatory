@@ -1,0 +1,68 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/performance/performance-developer.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer",
+  "title": "Performance Articles for AL Developers",
+  "blob": "95f1f6eb4511fb4871a2a72a6d85d1f44428c7c3",
+  "summary": "Performance guidance for AL developers covering efficient page design, web services, reports, AL coding patterns, data access optimization, and testing strategies to tune Business Central applications.",
+  "systems": [
+    "development",
+    "platform",
+    "reporting"
+  ],
+  "topics": [
+    "performance tuning",
+    "al patterns",
+    "efficient coding",
+    "data access",
+    "page optimization",
+    "web services",
+    "sql optimization"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "TextBuilder data type"
+    },
+    {
+      "type": "other",
+      "name": "Dictionary data type"
+    },
+    {
+      "type": "other",
+      "name": "List data type"
+    },
+    {
+      "type": "other",
+      "name": "SessionInformation data type"
+    }
+  ],
+  "features": [
+    "Page background tasks",
+    "Edit-in-Excel performance",
+    "Query object optimization",
+    "Partial records",
+    "Table extension impact analysis",
+    "Event subscription performance",
+    "SIFT indexes",
+    "Read Scale-Out",
+    "Database locking strategies",
+    "Performance telemetry",
+    "Number sequences",
+    "FlowField optimization"
+  ],
+  "versions": [
+    "2021 release wave 2",
+    "2023 release wave 1",
+    "2023 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017669,
+      "pages_in_call": 2
+    }
+  ]
+}

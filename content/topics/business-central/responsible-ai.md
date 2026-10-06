@@ -2,20 +2,21 @@
 id: topic/business-central/responsible-ai
 type: topic
 title: Responsible AI
-summary: "Learn section Responsible AI: 16 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Responsible AI in Business Central covers the FAQs and application cards for Copilot features and agents. It answers what each AI feature does, its limitations, safety and permission behavior, human review, and how to give feedback.
 tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-06T13:43:18.363Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T13:43:32.763Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: f2775e8972cfc70743070e264192dc1ce538505db6e68fedc8c2bce0d391ad5d
+  prompts:
+    hub-topic: 1
+  input_hash: bb4b443253d54fb03dc64daedb01813fecebed487e918b53fe01a811b56cd293
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/microsoft-copilot-in-business-central-application-card
@@ -167,14 +168,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: f2775e8972cfc70743070e264192dc1ce538505db6e68fedc8c2bce0d391ad5d
-narrative: none
+narrative: generated
 ---
 
 # Responsible AI
 
-> Learn section Responsible AI: 16 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Responsible AI in Business Central covers the FAQs and application cards for Copilot features and agents. It answers what each AI feature does, its limitations, safety and permission behavior, human review, and how to give feedback.
 
-Path: Responsible AI · tier official · system copilot · no narrative yet
+Path: Responsible AI · tier official · system copilot · narrative reviewed by Opus
+
+## Overview
+
+This section holds one page per AI capability in Business Central, plus an index page, "Responsible AI FAQs for Dynamics 365 Business Central", that lists them. Each page describes what the feature does, how it is meant to be used, its limits, and how users can review results and send feedback. There are no subtopics.
+
+The pages fall into groups. Copilot assistance: the Copilot application card, summarize, analysis assist, Advanced Tell Me, bank account reconciliation assist, suggest number series, suggest sales lines, suggest item substitutions, marketing text suggestions, and Shopify Tax Matching. Agents: Sales Order Agent, Payables Agent and Expense Agent. One page, e-document mapping with purchase orders, covers a feature that is deprecated in favor of the Payables Agent.
+
+Start with the index page to find the feature you need. Read the Copilot application card for the general picture of permissions and grounded answers. Then open the page for the specific feature. Several features are marked preview, so check that label before relying on them.
+
+## Key points
+
+- The Copilot application card explains that Copilot answers questions about Business Central data using application context, retrieves information only within user permissions, and gives references.
+- Payables Agent monitors email inboxes for PDF invoices, extracts data, matches vendors, classifies accounts, and creates draft purchase invoices for human review.
+- Sales Order Agent handles sales orders from customer emails: quote preparation, item availability checks, customer communication, and conversion to orders. Its page covers access, permissions, transparency and change control.
+- Expense Agent (preview) captures receipts, extracts and categorizes expenses, and creates draft reports for human review before posting.
+- Shopify Tax Matching is for Business Central US. It suggests Tax Jurisdictions from Shopify tax line titles, rates and limited location data, detects rate conflicts, and supports configurable human review.
+- E-documents Matching Assistance (mapping e-documents with purchase orders) is deprecated in favor of the Payables Agent.
+- Features marked preview: bank account reconciliation assist, suggest number series, suggest sales lines, analysis assist, summarize, and Expense Agent.
+- Other Copilot features covered: marketing text suggestions for item descriptions, item substitution suggestions using embeddings, and Advanced Tell Me semantic search for pages, reports and queries.
 
 ## Learn pages
 

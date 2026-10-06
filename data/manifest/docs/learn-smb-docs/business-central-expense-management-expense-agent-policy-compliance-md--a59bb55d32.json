@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-policy-compliance",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ea162174a73c9933d638d1da3b34f6f344080046",
       "words": 810,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T12:53:07.918Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007348
+    },
+    "summarized": {
+      "at": "2026-10-06T12:56:43.540Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T12:56:43.540Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T12:56:43.540Z",
+      "page": false
     }
   },
   "input_hash": "ea162174a73c9933d638d1da3b34f6f344080046",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ea162174a73c9933d638d1da3b34f6f344080046"
+  "output_hash": "84918df0089139a6ecf398bc08ccd6f456f1b535da71b5425403fd8ebc207e9c"
 }

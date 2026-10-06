@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/faqs-map-edocuments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-map-edocuments",
+  "title": "FAQ for mapping e-documents with purchase orders",
+  "blob": "3eb07b73f264eb274866f78c017e2b7a4b2fc874",
+  "summary": "E-documents Matching Assistance uses Copilot to match incoming electronic invoices with purchase orders by analyzing descriptions, units of measure, quantities, and amounts. This feature is deprecated in favor of the Payables Agent.",
+  "systems": [
+    "purchasing",
+    "integration",
+    "copilot"
+  ],
+  "topics": [
+    "e-documents",
+    "copilot",
+    "invoice matching",
+    "purchase orders",
+    "accounts payable",
+    "edocument mapping"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Order Mapping"
+    }
+  ],
+  "features": [
+    "E-documents Matching Assistance",
+    "Map E-Document Lines with Copilot",
+    "Match Purchase Order with Copilot",
+    "Payables Agent",
+    "Manual purchase order line matching",
+    "AI-powered invoice matching"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017337,
+      "pages_in_call": 2
+    }
+  ]
+}

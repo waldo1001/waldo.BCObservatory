@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-page-promptguide.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-promptguide",
+  "title": "Prompting Using a Prompt Guide",
+  "blob": "70b02f81028d5cf0c13282e40e2e7d770f0ba0c4",
+  "summary": "Implement prompt guides on PromptDialog pages to provide users with predefined prompt texts they can select and customize. Guides help users understand phrasing options and discover different ways to interact with Copilot.",
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "prompt guide",
+    "prompt dialog",
+    "predefined prompts",
+    "user guidance",
+    "prompt actions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "PromptDialog"
+    }
+  ],
+  "features": [
+    "prompt guide area",
+    "predefined prompts",
+    "grouped prompts",
+    "placeholder brackets",
+    "computed values"
+  ],
+  "versions": [
+    "2024 release wave 1",
+    "runtime 13"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006991,
+      "pages_in_call": 5
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1bc60749e249617d2150907d9306a4d0f0b83673",
       "words": 1388,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T12:53:07.918Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.009249
+    },
+    "summarized": {
+      "at": "2026-10-06T12:57:31.722Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T12:57:31.723Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T12:57:31.723Z",
+      "page": false
     }
   },
   "input_hash": "1bc60749e249617d2150907d9306a4d0f0b83673",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1bc60749e249617d2150907d9306a4d0f0b83673"
+  "output_hash": "4a191684aa5db4d35caa169434f2994e826ecae7b65662107922230a0192e490"
 }

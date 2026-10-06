@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-open-in-excel-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-open-in-excel-trace",
+  "title": "Analyze Open in Excel telemetry",
+  "blob": "331a591f319696cf931eabb9eb7722ff7a9de504",
+  "summary": "Open in Excel telemetry tracks when users export data from Business Central to Excel using the Open in Excel action, recording page details, user IDs, and extension information.",
+  "systems": [
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "telemetry",
+    "excel",
+    "export",
+    "monitoring",
+    "application insights"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Open in Excel"
+    }
+  ],
+  "features": [
+    "Open in Excel action",
+    "telemetry data collection",
+    "Application Insights",
+    "RT0056 event ID",
+    "export tracking"
+  ],
+  "versions": [
+    "2026 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017326,
+      "pages_in_call": 2
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/expense-management/faqs-expense-agent.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/faqs-expense-agent",
+  "title": "Responsible AI FAQ for Expense Agent (preview)",
+  "blob": "5ca5336c4a73b71bfa4be94cfe5d8998cc753ae3",
+  "summary": "Expense Agent is an AI-powered system that automates employee expense management by capturing receipts, extracting data, categorizing expenses, and generating draft reports for human review before posting. Use this page to understand the agent's capabilities, limitations, safety features, and feedback mechanisms.",
+  "systems": [
+    "copilot",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "expense management",
+    "ai-powered automation",
+    "receipt processing",
+    "data extraction",
+    "categorization",
+    "draft reports",
+    "responsible ai"
+  ],
+  "objects": [],
+  "features": [
+    "Receipt processing",
+    "Data extraction and itemization",
+    "Expense categorization",
+    "Expense grouping and report creation",
+    "Rule validation",
+    "Pending report notifications",
+    "User review interface",
+    "Workflow orchestration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007053,
+      "pages_in_call": 5
+    }
+  ]
+}

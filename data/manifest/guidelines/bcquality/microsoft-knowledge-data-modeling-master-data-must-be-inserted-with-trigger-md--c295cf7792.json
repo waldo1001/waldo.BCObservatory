@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "master data must be inserted with trigger",
+  "title": "Create master records with `Insert(true)` unless the caller does the trigger's work itself",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/master-data-must-be-inserted-with-trigger.md",
   "published_at": "2026-10-05T12:46:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:05:54.411Z",
+      "blob": "2e2c3a107af0bf46ad1f3d6f6651d668f151d665",
+      "words": 464,
+      "forms": 0
     }
   },
   "input_hash": "2e2c3a107af0bf46ad1f3d6f6651d668f151d665",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/data-modeling/master-data-must-be-inserted-with-trigger.md"
-  }
+    "path": "microsoft/knowledge/data-modeling/master-data-must-be-inserted-with-trigger.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 464
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2e2c3a107af0bf46ad1f3d6f6651d668f151d665"
 }

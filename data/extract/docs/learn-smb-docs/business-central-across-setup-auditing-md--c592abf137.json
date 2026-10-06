@@ -1,0 +1,88 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/across-setup-auditing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/across-setup-auditing",
+  "title": "Audit changes to your setup",
+  "blob": "27b7a03196b37aa9e103cf418d95b4b0b9105b26",
+  "summary": "Change Log feature captures setup changes by table, with automatic tracking of financial report changes starting in 2026 release wave 2, email notifications for sensitive fields, and data analysis capabilities.",
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "audit",
+    "change log",
+    "setup changes",
+    "financial reporting",
+    "security"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Report Definition"
+    },
+    {
+      "type": "table",
+      "name": "Row Definition"
+    },
+    {
+      "type": "table",
+      "name": "Column Definition"
+    },
+    {
+      "type": "table",
+      "name": "G/L Account"
+    },
+    {
+      "type": "table",
+      "name": "G/L Account Category"
+    },
+    {
+      "type": "table",
+      "name": "Payment Method"
+    },
+    {
+      "type": "table",
+      "name": "Payment Terms"
+    },
+    {
+      "type": "table",
+      "name": "Gen. Product Posting Group"
+    },
+    {
+      "type": "table",
+      "name": "Customer Posting Group"
+    },
+    {
+      "type": "table",
+      "name": "Inventory Posting Group"
+    },
+    {
+      "type": "table",
+      "name": "FA Posting Group"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Posting Group"
+    }
+  ],
+  "features": [
+    "automatic financial report tracking",
+    "change log monitoring",
+    "email notifications for sensitive fields",
+    "data analysis",
+    "setup audit trail"
+  ],
+  "versions": [
+    "2026 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011521,
+      "pages_in_call": 3
+    }
+  ]
+}

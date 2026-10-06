@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "insert only transfer may rely on caller cleanup",
+  "title": "An insert-only transfer routine may rely on cleanup its caller already performed",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/insert-only-transfer-may-rely-on-caller-cleanup.md",
   "published_at": "2026-09-02T09:25:19.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:46.118Z",
+      "blob": "be1b7842c15d94f3f3ee556f11445d1d9c91f31f",
+      "words": 316,
+      "forms": 0
     }
   },
   "input_hash": "be1b7842c15d94f3f3ee556f11445d1d9c91f31f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/data-modeling/insert-only-transfer-may-rely-on-caller-cleanup.md"
-  }
+    "path": "microsoft/knowledge/data-modeling/insert-only-transfer-may-rely-on-caller-cleanup.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 316
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "be1b7842c15d94f3f3ee556f11445d1d9c91f31f"
 }

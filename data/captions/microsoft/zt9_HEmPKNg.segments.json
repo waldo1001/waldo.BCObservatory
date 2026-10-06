@@ -1,0 +1,259 @@
+{
+  "video_id": "zt9_HEmPKNg",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 1.3,
+      "end": 12.2,
+      "text": "Welcome back to Manufacturing Foundations. In this episode, we'll explore capacities, the operational backbone that powers the planning defined by your BOMs and routings."
+    },
+    {
+      "t": 12.2,
+      "end": 27.2,
+      "text": "On Business Central, by clicking into capacities, you can access work centers, machine centers, and related setup pages that drives production scheduling. Today, we'll explore work centers, machine centers, work shifts, and shop calendar."
+    },
+    {
+      "t": 27.2,
+      "end": 41.4,
+      "text": "Work shifts are the smallest building blocks. Contoso has two shifts, code one for the first shift, and code two for the second shift. These are reusable labels that you assign to working days in a shop calendar."
+    },
+    {
+      "t": 41.4,
+      "end": 56.5,
+      "text": "Shop calendars combine shifts with working days to define when your shop floor operates. Contoso Coffee has two calendars. If we explore one shift and open working days, we can see five rows, Monday through Friday."
+    },
+    {
+      "t": 56.5,
+      "end": 69.4,
+      "text": "Each assigned to work shift one, from 8:00 a.m. to 4:00 p.m. That's five 8-hour days per week. For the two shifts calendar, every weekday has two rows, shift one and shift two."
+    },
+    {
+      "t": 69.4,
+      "end": 81.7,
+      "text": "This doubles available time per day. A work center using two shifts can schedule 16 hours per day instead of eight. You can also define holidays on a shop calendar."
+    },
+    {
+      "t": 81.7,
+      "end": 93.6,
+      "text": "Here you see dates when the shop floor does not operate. For this shift, we can see bank holidays and a maintenance week on last week of June. Work centers are the core capacity resources."
+    },
+    {
+      "t": 93.6,
+      "end": 105.4,
+      "text": "If we open the assembly department, the work center group code is one, production department. Work center groups represent the higher organizational rank for reporting and cost aggregation."
+    },
+    {
+      "t": 105.4,
+      "end": 116.7,
+      "text": "Contoso Coffee uses group one for the production department and group five for subcontractors. Every work center belongs to exactly one group and are useful for costing."
+    },
+    {
+      "t": 116.7,
+      "end": 127.2,
+      "text": "On the posting tab, we can see operational fields such as direct unit cost, indirect cost percentage, and overhead rate. Adding everything to the unit cost field."
+    },
+    {
+      "t": 127.2,
+      "end": 139,
+      "text": "On the scheduling tab, we can define the unit of measure, capacity, efficiency, and the shop calendar the work center follows. The assembly department uses one shift."
+    },
+    {
+      "t": 139,
+      "end": 150.3,
+      "text": "If we check the painting department instead, they use the shop calendar two shifts, allowing them to schedule 16 hours per weekday instead of eight. Machine centers sit below work centers."
+    },
+    {
+      "t": 150.3,
+      "end": 162,
+      "text": "They represent individual machines or stations and are always part of a work center. The machine center flushing manual is part of the work center number 100, >> [music] >> the assembly department."
+    },
+    {
+      "t": 162,
+      "end": 179.1,
+      "text": "Machine centers inherit their calendar from the parent, but each has its own capacity, efficiency fields, and routing setups. If we go back to work centers for a moment and we activate consolidated calendar, the work center's capacity won't be defined by the work center card,"
+    },
+    {
+      "t": 179.1,
+      "end": 194.2,
+      "text": "but compute the sum of its machine centers. Everything you've set up comes together when you calculate the calendar. If we go back to the work center list, we can see which work centers use each shop calendar."
+    },
+    {
+      "t": 194.2,
+      "end": 208.6,
+      "text": "For one shift, we had one maintenance week beginning of July and affects work centers 100, 200, and 500. We can now calculate the work center calendar and explore the calendar matrix."
+    },
+    {
+      "t": 208.6,
+      "end": 216.4,
+      "text": "The work center calendar matrix shows capacity values based on the shop calendar defined."
+    },
+    {
+      "t": 216.4,
+      "end": 228.4,
+      "text": "Let's look at the weekly values. Remember we had a maintenance week end of June? For week 27, work centers 100, 200, and 500 show no capacity, matching the maintenance week."
+    },
+    {
+      "t": 228.4,
+      "end": 238.7,
+      "text": "But let's explore a bit more the calendar matrix. Our weekly capacity the work center 200 is 2,400 minutes of effective capacity."
+    },
+    {
+      "t": 238.7,
+      "end": 249.8,
+      "text": "If we open our packing department, we can see it has capacity of one and a 100% efficiency. Let's say we add another packing table and we decrease the efficiency to an 80%."
+    },
+    {
+      "t": 249.8,
+      "end": 264.4,
+      "text": "If we want to apply those changes, we need to calculate the work center calendar to be reflected on the calendar matrix. Let's see how that is changed from the 2,400 effective minutes we had previously."
+    },
+    {
+      "t": 264.4,
+      "end": 274.8,
+      "text": "Each working day has now a total capacity of 960 minutes, but effectively only 768 minutes per day, which adds to the total of 3,840"
+    },
+    {
+      "t": 274.8,
+      "end": 282.3,
+      "text": "minutes weekly. Time to see the capacity model in action."
+    },
+    {
+      "t": 282.3,
+      "end": 289.8,
+      "text": "We will create a new production order for 50 units of our airpot coffee maker."
+    },
+    {
+      "t": 290.4,
+      "end": 295.3,
+      "text": "Let's say we need it for June 19th."
+    },
+    {
+      "t": 295.3,
+      "end": 306,
+      "text": "Once we click refresh production order, the system calculates when production must start and finish. Production will take around four business days to finish from 15th to the 18th."
+    },
+    {
+      "t": 306,
+      "end": 319.3,
+      "text": "But, what happens if we schedule it for July 7th instead? This time production takes from June 24th to July 6th, taking 13 natural days instead of the previously four business days."
+    },
+    {
+      "t": 319.3,
+      "end": 334.1,
+      "text": "If we inspect airpot's routing, all operations go through our work centers 100 and 200, which will be closed for the maintenance weekend of June. Business Central uses calendar entries for scheduling your production against your capacities."
+    },
+    {
+      "t": 334.1,
+      "end": 350.5,
+      "text": ">> [music] >> You've now seen how Business Central's capacity model works from the bottom up. Work shifts and shop calendars assemble production times, work centers and machine centers carry capacity and efficiency settings, and calendar entries turn all of this into available production time."
+    },
+    {
+      "t": 350.5,
+      "end": 355,
+      "text": "Thanks for watching and see you next time."
+    }
+  ],
+  "markers": [
+    {
+      "t": 14.41,
+      "text": "[music]"
+    },
+    {
+      "t": 38.645,
+      "text": "[music]"
+    },
+    {
+      "t": 112.661,
+      "text": "[music]"
+    },
+    {
+      "t": 117.246,
+      "text": "[music]"
+    },
+    {
+      "t": 144.756,
+      "text": "[music]"
+    },
+    {
+      "t": 176.196,
+      "text": "[music]"
+    },
+    {
+      "t": 176.91,
+      "text": "[music]"
+    },
+    {
+      "t": 176.92,
+      "text": "[music]"
+    },
+    {
+      "t": 189.297,
+      "text": "[music]"
+    },
+    {
+      "t": 197.82,
+      "text": "[music]"
+    },
+    {
+      "t": 203.052,
+      "text": "[music]"
+    },
+    {
+      "t": 222.047,
+      "text": "[music]"
+    },
+    {
+      "t": 233.837,
+      "text": "[music]"
+    },
+    {
+      "t": 245.627,
+      "text": "[music]"
+    },
+    {
+      "t": 250.867,
+      "text": "[music]"
+    },
+    {
+      "t": 251.39,
+      "text": "[music]"
+    },
+    {
+      "t": 251.4,
+      "text": "[music]"
+    },
+    {
+      "t": 258.072,
+      "text": "[music]"
+    },
+    {
+      "t": 265.932,
+      "text": "[music]"
+    },
+    {
+      "t": 278.378,
+      "text": "[music]"
+    },
+    {
+      "t": 322.263,
+      "text": "[music]"
+    },
+    {
+      "t": 329.468,
+      "text": "[music]"
+    },
+    {
+      "t": 339.293,
+      "text": "[music]"
+    },
+    {
+      "t": 343.878,
+      "text": "[music]"
+    },
+    {
+      "t": 351.083,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 864
+}

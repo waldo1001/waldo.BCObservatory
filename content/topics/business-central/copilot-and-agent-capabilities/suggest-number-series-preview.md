@@ -2,7 +2,7 @@
 id: topic/business-central/copilot-and-agent-capabilities/suggest-number-series-preview
 type: topic
 title: Suggest number series (preview)
-summary: "Learn section Copilot and agent capabilities > Suggest number series (preview): 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Suggest number series with Copilot (preview) covers using AI to create and modify number series for entities and feature areas from natural language or structured input. It answers questions about how to generate and review suggestions, what the feature can do, and its limits and responsible use.
 tier: official
 language: en
 system: copilot
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T13:43:32.763Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 5209a36ffb5835d68f0d892e242b0f4236c4efa517acfbec5528bd4c583b70ee
+  prompts:
+    hub-topic: 1
+  input_hash: 24d6a18b467339b09203b4f143b01345e8020ad52981061734339f0561a7b93c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/faq-suggest-number-series-with-copilot
@@ -57,14 +58,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 5209a36ffb5835d68f0d892e242b0f4236c4efa517acfbec5528bd4c583b70ee
-narrative: none
+narrative: generated
 ---
 
 # Suggest number series (preview)
 
-> Learn section Copilot and agent capabilities > Suggest number series (preview): 2 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Suggest number series with Copilot (preview) covers using AI to create and modify number series for entities and feature areas from natural language or structured input. It answers questions about how to generate and review suggestions, what the feature can do, and its limits and responsible use.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Suggest number series (preview) · tier official · system copilot · no narrative yet
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Suggest number series (preview) · tier official · system copilot · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+Suggest number series with Copilot is a preview feature that helps administrators set up number series. Instead of configuring each series by hand, the administrator describes what is needed in natural language or with structured input, and Copilot generates or updates number series. The aim is to cut setup time and reduce errors.
+
+The section has two pages. "Suggest number series with Copilot (preview)" is the how-to: it explains generating series, the Prompt Guide, the No. Series Generations view, the Keep it action, and how setup pages get updated. "FAQ for Suggest Number Series with Copilot" covers capabilities, limitations and responsible use expectations.
+
+Start with the how-to page to learn the workflow, then read the FAQ to understand what the feature can and cannot do before using it on a live setup.
+
+## Key points
+
+- Creates new number series and modifies existing ones using natural language input.
+- Can prepare number series for a fiscal year.
+- Supports structured input as well as free text, with a Prompt Guide to help write requests.
+- Supports multiple entities and feature areas in one request.
+- Generated suggestions are shown in the No. Series Generations view.
+- The Keep it action accepts a suggestion and applies it.
+- Setup pages are updated with the accepted number series.
+- The feature is in preview; the FAQ describes limitations and responsible use.
 
 ## Learn pages
 

@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "admin and migration pages tolerate lower perf",
+  "title": "Admin and migration pages tolerate lower performance discipline",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/admin-and-migration-pages-tolerate-lower-perf.md",
   "published_at": "2026-05-21T07:53:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:46.248Z",
+      "blob": "3e40ef3f747576901cd7d939a0f141cea84d56b8",
+      "words": 207,
+      "forms": 0
     }
   },
   "input_hash": "3e40ef3f747576901cd7d939a0f141cea84d56b8",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/admin-and-migration-pages-tolerate-lower-perf.md"
-  }
+    "path": "microsoft/knowledge/performance/admin-and-migration-pages-tolerate-lower-perf.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 207
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3e40ef3f747576901cd7d939a0f141cea84d56b8"
 }

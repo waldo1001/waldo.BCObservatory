@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/microsoft-copilot-in-business-central-application-card.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/microsoft-copilot-in-business-central-application-card",
+  "title": "Application Card for Microsoft Copilot in Business Central",
+  "blob": "16d890357052c885742bb47bf8a973f7cc99a933",
+  "summary": "Application Card for Microsoft Copilot in Business Central describes how Copilot integrates with Business Central to answer natural-language questions about business data using application context, permissions, and grounded responses. Use this to understand Copilot's capabilities, limitations, safety components, and responsible AI deployment practices.",
+  "systems": [
+    "copilot",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "copilot",
+    "responsible ai",
+    "grounding",
+    "permissions",
+    "citations",
+    "safety"
+  ],
+  "objects": [],
+  "features": [
+    "Ask questions about Business Central data",
+    "Use Business Central application context",
+    "Retrieve information within user permissions",
+    "Provide references to Business Central information",
+    "Combine Business Central with Microsoft Copilot capabilities",
+    "Permission enforcement",
+    "Human oversight for business information"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014668,
+      "pages_in_call": 2
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "95f1f6eb4511fb4871a2a72a6d85d1f44428c7c3",
       "words": 3594,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:34:46.168Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.017669
+    },
+    "summarized": {
+      "at": "2026-10-06T13:34:46.215Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:34:46.216Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:34:46.216Z",
+      "page": false
     }
   },
   "input_hash": "95f1f6eb4511fb4871a2a72a6d85d1f44428c7c3",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "95f1f6eb4511fb4871a2a72a6d85d1f44428c7c3"
+  "output_hash": "5636e1d8c16b8c13f85becee1373cd802ffde5456ef89f3040cfb783ca56c56b"
 }

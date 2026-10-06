@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Expense Agent: Project Expenses (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=NI6WYze-JSU",
-  "published_at": null,
+  "published_at": "2026-08-07T13:00:28.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:11:57.751Z",
+      "captions": "auto:en-orig",
+      "duration_s": 175
+    },
+    "captioned": {
+      "at": "2026-10-06T13:12:05.244Z",
+      "path": "data/captions/microsoft/NI6WYze-JSU.vtt",
+      "vtt_sha256": "c4531eabad4bd7d32ea248f2dd30d3c7e6ad3a47f0677be7b91836fc0d19b552",
+      "segments": 13,
+      "words": 510,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 48,
     "duration_s": 175,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c4531eabad4bd7d32ea248f2dd30d3c7e6ad3a47f0677be7b91836fc0d19b552"
 }

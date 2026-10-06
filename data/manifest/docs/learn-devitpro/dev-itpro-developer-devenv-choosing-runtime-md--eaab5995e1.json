@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-choosing-runtime",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e4db963e8cbddcf692deb1fa009d3a17bbbd0e50",
       "words": 521,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:32:55.327Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006766
+    },
+    "summarized": {
+      "at": "2026-10-06T13:32:55.346Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:32:55.347Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:32:55.347Z",
+      "page": false
     }
   },
   "input_hash": "e4db963e8cbddcf692deb1fa009d3a17bbbd0e50",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e4db963e8cbddcf692deb1fa009d3a17bbbd0e50"
+  "output_hash": "a722ee85caff3d74b4e2f23f0209a4d7304081d58fa4b025f772ee5aedbc28bd"
 }

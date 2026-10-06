@@ -1,0 +1,364 @@
+{
+  "video_id": "mT_0VKqdEzA",
+  "item_id": "video/yt-microsoft/mT_0VKqdEzA",
+  "title": "What's new in Expense Agent: Calculate WHT for Expenses (2026 release wave 2)",
+  "duration_s": 723,
+  "systems": [
+    "finance",
+    "hr"
+  ],
+  "topics": [
+    "withholding tax",
+    "expense management",
+    "tax posting groups",
+    "threshold configuration",
+    "employee taxation",
+    "expense agent",
+    "compliance",
+    "gl entries"
+  ],
+  "chapters": [
+    {
+      "title": "Withholding Tax Fundamentals and Compliance",
+      "t_start": 0,
+      "t_end": 104.1
+    },
+    {
+      "title": "Withholding Tax Posting Setup",
+      "t_start": 104.1,
+      "t_end": 143.9
+    },
+    {
+      "title": "Setup Configuration: Business and Product Posting Groups",
+      "t_start": 143.9,
+      "t_end": 212
+    },
+    {
+      "title": "Calculation Models and Thresholds",
+      "t_start": 212,
+      "t_end": 269
+    },
+    {
+      "title": "Demo: Creating a Mileage Expense",
+      "t_start": 269,
+      "t_end": 352.2
+    },
+    {
+      "title": "Demo: Withholding Tax Entries Preview",
+      "t_start": 352.2,
+      "t_end": 442.1
+    },
+    {
+      "title": "Demo: Withholding Posting Setup Details",
+      "t_start": 442.1,
+      "t_end": 547.4
+    },
+    {
+      "title": "Demo: Threshold Calculation Methods",
+      "t_start": 547.4,
+      "t_end": 611
+    },
+    {
+      "title": "Demo: Employee Card and Expense Category Setup",
+      "t_start": 611,
+      "t_end": 676.5
+    },
+    {
+      "title": "Multiple Tax Groups and Configuration",
+      "t_start": 676.5,
+      "t_end": 723
+    }
+  ],
+  "features": [
+    {
+      "name": "Withholding Tax for Employee Expenses",
+      "description": "Extended withholding tax capability from vendors to employees in expense management. Deducts taxes from employee payments based on configured thresholds, posting groups, and calculation methods to ensure tax compliance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.8,
+      "t_end": 212,
+      "is_demoed": true,
+      "caveats": [
+        "Calculation complexity varies by jurisdiction - simple or compound methods available",
+        "Threshold applicability depends on country-specific rules",
+        "Multiple tax posting groups per category supported for multi-tier tax scenarios",
+        "Separate session available for broader finance withholding tax features"
+      ],
+      "tags": [
+        "withholding tax",
+        "employee expenses",
+        "tax posting",
+        "compliance"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Withholding Posting Setup for Employees",
+      "description": "UI setup section for withholding tax configuration including business posting groups, product posting groups, thresholds, calculation base (gross/net/gross up), and threshold type settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 104.1,
+      "t_end": 212,
+      "is_demoed": true,
+      "caveats": [
+        "Requires both business and product posting group assignment",
+        "Configuration must align with local tax authority rules"
+      ],
+      "tags": [
+        "setup",
+        "posting groups",
+        "tax configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Multiple Withholding Tax Groups per Category",
+      "description": "Support for assigning multiple product posting groups to a single expense category to handle multi-tier taxation scenarios (e.g., state, federal, and local taxes simultaneously).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 164.3,
+      "t_end": 212,
+      "is_demoed": true,
+      "caveats": [
+        "Complexity increases with multiple tax tiers",
+        "Requires careful setup to match local authority requirements"
+      ],
+      "tags": [
+        "multiple taxes",
+        "tax groups",
+        "multi-tier taxation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Gross and Net Withholding Tax Calculation",
+      "description": "Configurable calculation base allowing gross calculation (tax deducted from payment amount), net calculation (tax added on top), or gross-up calculation methods depending on local requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 212,
+      "t_end": 255.8,
+      "is_demoed": true,
+      "caveats": [
+        "Selection depends on local tax authority rules",
+        "Compound calculation method available for multiple tax scenarios"
+      ],
+      "tags": [
+        "calculation base",
+        "gross",
+        "net",
+        "tax calculation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Configurable Withholding Tax Thresholds",
+      "description": "Flexible threshold configuration supporting per-record, per-category, per-period, and total-period thresholds. Allows definition of dollar amounts above which withholding taxes apply.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 212,
+      "t_end": 269,
+      "is_demoed": true,
+      "caveats": [
+        "Threshold type selection depends on employee withholding liability model in each jurisdiction",
+        "Period tracking options: month, quarter, year, or fiscal period"
+      ],
+      "tags": [
+        "thresholds",
+        "configuration",
+        "tax liability"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Withholding Tax Entries in Preview Posting",
+      "description": "Withholding tax entries automatically appear in the preview posting view showing GL entries, employee ledger entries, and withholding tax entries with base amount and calculated tax percentage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 352.2,
+      "t_end": 442.1,
+      "is_demoed": true,
+      "caveats": [
+        "Entries generated based on setup and threshold configuration",
+        "Shows both base amount and withholding percentage"
+      ],
+      "tags": [
+        "preview posting",
+        "entries",
+        "gl entries",
+        "employee ledger"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Withholding Tax Calculation Timing (Invoice vs Payment)",
+      "description": "Choice between calculating withholding tax at invoice time (when expense report is posted) or at payment time (when employee is paid), allowing unrealized withholding tax tracking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 442.1,
+      "t_end": 547.4,
+      "is_demoed": true,
+      "caveats": [
+        "Invoice timing posts at expense report posting",
+        "Payment timing leaves withholding unrealized until employee payment"
+      ],
+      "tags": [
+        "calculation timing",
+        "invoice",
+        "payment",
+        "posting"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Employee Card Withholding Tax Fields",
+      "description": "New fields on employee card for withholding tax business posting group assignment and tax exemption flag. Optional fields for certificates and tax-related documentation per jurisdiction.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 611,
+      "t_end": 676.5,
+      "is_demoed": true,
+      "caveats": [
+        "Business posting group is required for withholding tax setup",
+        "Tax exemption flag available but optional",
+        "Certificate fields optional and jurisdiction-dependent"
+      ],
+      "tags": [
+        "employee card",
+        "setup",
+        "tax exemption"
+      ],
+      "system": "hr"
+    },
+    {
+      "name": "Expense Category Withholding Tax Configuration",
+      "description": "Expense category setup with withholding tax group assignment. Supports single group or tax group mode for defining multiple product posting groups and component calculation order.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 646.4,
+      "t_end": 723,
+      "is_demoed": true,
+      "caveats": [
+        "Single mode for simple one-tier tax scenarios",
+        "Tax group mode required for multi-tier taxation",
+        "Component order configuration needed for compound calculations"
+      ],
+      "tags": [
+        "expense category",
+        "tax groups",
+        "setup"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Withholding Posting Setup",
+      "t": 457
+    },
+    {
+      "type": "other",
+      "name": "Withholding Tax Business Posting Group",
+      "t": 457
+    },
+    {
+      "type": "other",
+      "name": "Withholding Tax Product Posting Group",
+      "t": 457
+    },
+    {
+      "type": "other",
+      "name": "Withholding Group Code",
+      "t": 665.5
+    },
+    {
+      "type": "other",
+      "name": "Employee Card",
+      "t": 611
+    },
+    {
+      "type": "other",
+      "name": "Expense Category",
+      "t": 646.4
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 28.8,
+      "text": "withholding tax is tax deducted from a so source from vendor or employee payments.",
+      "why_it_matters": "Defines withholding tax as the core concept: tax deducted at payment source, now extended to employees.",
+      "check": "exact"
+    },
+    {
+      "t": 120.8,
+      "text": "This is existing tax posting setup because we already had this earlier for um vendors from previous wave. Now we extended bit holding tax",
+      "why_it_matters": "Confirms withholding tax for employees is generally available (GA), building on prior vendor functionality.",
+      "check": "exact"
+    },
+    {
+      "t": 184.5,
+      "text": "in some situations you are supposed to pay multiple two or three for example state federal tax for some payments.",
+      "why_it_matters": "Explains multi-tier tax support: multiple product posting groups per category for complex jurisdictions.",
+      "check": "exact"
+    },
+    {
+      "t": 224.6,
+      "text": "It depends what you want because some situation you want to pay thousand dollars for some uh allowance and you need to pay um",
+      "why_it_matters": "Illustrates gross vs net calculation choice and its impact on withholding tax computation.",
+      "check": "exact"
+    },
+    {
+      "t": 457,
+      "text": "if I look into withholding posting setup, you will see I will go to edit list that I have withholding tax posting business posting",
+      "why_it_matters": "Shows setup structure: business posting groups assigned to employees, product posting groups assigned to expense categories.",
+      "check": "exact"
+    },
+    {
+      "t": 474.6,
+      "text": "So now I can choose when to be calculated based on invoice. So this is a moment when I post expense report. So if",
+      "why_it_matters": "Demonstrates calculation timing flexibility: invoice (at posting) vs payment (at employee payment) options.",
+      "check": "exact"
+    },
+    {
+      "t": 559.1,
+      "text": "it can be per document but much more in especially related to employees uh withholdings this is category per period or total imperial.",
+      "why_it_matters": "Clarifies threshold applicability models vary by jurisdiction, with category-per-period most common for employee withholding.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.039379
+    }
+  ]
+}

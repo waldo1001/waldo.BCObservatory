@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f265f7412925901adb573c1f0c27e6385d34ce2c",
       "words": 1042,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:28:30.322Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006307
+    },
+    "summarized": {
+      "at": "2026-10-06T13:28:30.354Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:28:30.355Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:28:30.355Z",
+      "page": false
     }
   },
   "input_hash": "f265f7412925901adb573c1f0c27e6385d34ce2c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f265f7412925901adb573c1f0c27e6385d34ce2c"
+  "output_hash": "f43bd18a47a0ba141656c667d4ef6b00bfe2c9d2f3400beb6a27ae59f2ddb727"
 }

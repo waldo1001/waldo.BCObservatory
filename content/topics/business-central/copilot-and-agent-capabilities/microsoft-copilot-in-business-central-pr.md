@@ -2,7 +2,7 @@
 id: topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr
 type: topic
 title: Microsoft Copilot in Business Central (preview)
-summary: "Learn section Copilot and agent capabilities > Microsoft Copilot in Business Central (preview): 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: Microsoft Copilot in Business Central (preview) is the read-only Copilot experience that answers natural-language questions about company data. It covers usage, what data it can reach, licensing and admin controls in the FAQ, and the Application Card on capabilities, limits and responsible AI.
 tier: official
 language: en
 system: copilot
@@ -12,10 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T13:43:32.763Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 2062629c7a6a6ebd37a1793d9251eb5c396f63abc802c925e789a385ca6b189a
+  prompts:
+    hub-topic: 1
+  input_hash: c2b83b5812076261660ba0b3fd6e66db86140d9a4cad86fe38cdbbc5625fbc25
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/microsoft-copilot-in-business-central-application-card
@@ -73,14 +74,33 @@ coverage:
   guideline: 0
 bc_forms: []
 member_hash: 2062629c7a6a6ebd37a1793d9251eb5c396f63abc802c925e789a385ca6b189a
-narrative: none
+narrative: generated
 ---
 
 # Microsoft Copilot in Business Central (preview)
 
-> Learn section Copilot and agent capabilities > Microsoft Copilot in Business Central (preview): 4 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Microsoft Copilot in Business Central (preview) is the read-only Copilot experience that answers natural-language questions about company data. It covers usage, what data it can reach, licensing and admin controls in the FAQ, and the Application Card on capabilities, limits and responsible AI.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Microsoft Copilot in Business Central (preview) · tier official · system copilot · no narrative yet
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Microsoft Copilot in Business Central (preview) · tier official · system copilot · **unreviewed** (machine-generated narrative)
+
+## Overview
+
+Microsoft Copilot in Business Central (preview) lets users ask questions about their company data in natural language. It works within the user's permissions and has read-only access. Starting in version 29 it replaces Chat with Copilot and supports agents.
+
+The section has four pages. "Use Microsoft Copilot in Business Central (preview)" is the starting point for everyday use. "Work with Business Central data in Microsoft Copilot" explains what Copilot can do with your data. The FAQ covers licensing, data access, region and language support, admin controls and troubleshooting. The Application Card covers capabilities, limitations, safety components and responsible AI practices.
+
+Start with the usage page, then read the data page for concrete scenarios. Use the FAQ for admin and licensing questions, and the Application Card for governance and responsible AI questions.
+
+## Key points
+
+- Copilot has read-only access to Business Central data, limited to what the user has permission to view; permissions are enforced.
+- Available starting in version 29 with agent integration; it replaces Chat with Copilot (the FAQ also mentions version 28).
+- Users can ask natural-language questions, find records, analyze business data, and get task guidance.
+- It can explain pages and fields and give help on installed apps.
+- It can combine Business Central data with web data or work content; Work IQ integration brings in Microsoft 365 data.
+- Responses include references and citation-based navigation, and users have feedback controls.
+- The FAQ covers chat capability control, admin access controls, region and language support, licensing and troubleshooting.
+- The Application Card describes capabilities, limitations, safety components and responsible AI deployment practices.
 
 ## Learn pages
 

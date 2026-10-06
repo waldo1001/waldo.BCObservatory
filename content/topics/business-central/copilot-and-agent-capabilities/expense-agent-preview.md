@@ -2,20 +2,21 @@
 id: topic/business-central/copilot-and-agent-capabilities/expense-agent-preview
 type: topic
 title: Expense Agent (preview)
-summary: "Learn section Copilot and agent capabilities > Expense Agent (preview): 10 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn."
+summary: Expense Agent (preview) in Business Central is an AI agent that automates expense handling. This section covers admin setup, uploading receipts and creating mileage expenses, reviewing and editing expenses, building and submitting reports, approver actions, and the mobile app.
 tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-06T13:43:32.762Z"
   flags: []
 generated:
-  at: "2026-10-06T12:32:03.649Z"
+  at: "2026-10-06T13:43:32.763Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: 1dbc15dfea2bd0a06c575b5fb202e1a9dd1391e5f077d8d4dcf023dc6f4c7b69
+  prompts:
+    hub-topic: 1
+  input_hash: e5e336b20899becf715639279927cbd92e34760fe6918eb22711f67ce62b0024
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-approve-reports
@@ -122,14 +123,33 @@ bc_forms:
   - 4410
   - 6996
 member_hash: 1dbc15dfea2bd0a06c575b5fb202e1a9dd1391e5f077d8d4dcf023dc6f4c7b69
-narrative: none
+narrative: generated
 ---
 
 # Expense Agent (preview)
 
-> Learn section Copilot and agent capabilities > Expense Agent (preview): 10 Microsoft Learn pages in 1 subtopics. Index of what Learn documents here, linked to Learn.
+> Expense Agent (preview) in Business Central is an AI agent that automates expense handling. This section covers admin setup, uploading receipts and creating mileage expenses, reviewing and editing expenses, building and submitting reports, approver actions, and the mobile app.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Expense Agent (preview) · tier official · system copilot · no narrative yet
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Expense Agent (preview) · tier official · system copilot · narrative reviewed by Opus
+
+## Overview
+
+Expense Agent (preview) automates the expense lifecycle in Business Central. It processes emails and receipts and checks expenses against rules and policies. The overview subtopic (4 pages) explains what the agent does and how it evaluates expenses, so start there for concepts.
+
+The other pages follow the process in order. Administrators use "Set Up Expense Agent in Business Central" to configure submission channels, approval workflows, accounting defaults, policy compliance rules and communication settings. Users then upload receipts or create mileage expenses, review and edit the extracted details, group expenses into reports and submit them. Approvers approve reports or send them back with feedback. A separate page covers the mobile app for iOS and Android.
+
+Administrators should begin with the setup page. End users can go straight to the upload page and then to the review and report pages. Approvers need only the approve or send back page.
+
+## Key points
+
+- Setup is done by administrators through assisted setup. It covers the email submission channel, web app submission, approval workflows, policy evaluation, receipt handling, accounting defaults and communication settings.
+- Receipts can be uploaded through the web app, email or mobile app. The agent uses AI to extract merchant, amount, date and category, and assigns expenses to draft reports.
+- When expenses are captured, currency conversion is automatic and VAT reclaim is identified. VAT is also shown when reviewing expenses.
+- Mileage expenses are created by specifying trip start and end points. Distance is calculated automatically.
+- Users can edit merchant, amount, date, category and payment method, delete expenses, and resolve AI-flagged issues before submission.
+- Users can name reports, add receipts, move expenses between reports and optionally check policies before submitting reports for approval.
+- Approvers can approve reports, review compliance warnings and policy flags (policy flags are advisory notices), or send reports back to requesters with feedback.
+- The mobile app (preview, iOS and Android) offers camera scanning with edge detection, multi-page capture, photo and file upload, mileage expenses, report submission, offline viewing and automatic sync.
 
 ## Subtopics
 

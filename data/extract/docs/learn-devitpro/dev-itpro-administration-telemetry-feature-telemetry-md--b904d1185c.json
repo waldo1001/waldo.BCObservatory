@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-feature-telemetry.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-feature-telemetry",
+  "title": "Feature telemetry",
+  "blob": "b30281d6242a128e0a881c6dd0c33cccd7fe2192",
+  "summary": "Feature telemetry with the Telemetry AL module lets you monitor app health, feature uptake and usage with advanced filtering through common telemetry dimensions. Use FeatureTelemetry codeunit to log usage, errors, or uptake state changes (Discovered, Set up, Used, Undiscovered).",
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "telemetry",
+    "feature tracking",
+    "uptake monitoring",
+    "error logging",
+    "usage analytics"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Telemetry Logger"
+    },
+    {
+      "type": "codeunit",
+      "name": "Telemetry Loggers"
+    },
+    {
+      "type": "codeunit",
+      "name": "Sample Telemetry Logger"
+    },
+    {
+      "type": "codeunit",
+      "name": "Feature Telemetry"
+    }
+  ],
+  "features": [
+    "LogUsage",
+    "LogError",
+    "LogUptake",
+    "Telemetry Logger interface",
+    "Feature comparison across metrics",
+    "Custom dimensions",
+    "Error call stack tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015821,
+      "pages_in_call": 2
+    }
+  ]
+}

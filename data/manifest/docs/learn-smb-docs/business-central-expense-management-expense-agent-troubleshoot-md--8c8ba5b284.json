@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-troubleshoot",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "052560ac1b4398ba7962b78afc61d63716468291",
       "words": 850,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T12:53:07.918Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007348
+    },
+    "summarized": {
+      "at": "2026-10-06T12:57:07.049Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T12:57:07.049Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T12:57:07.049Z",
+      "page": false
     }
   },
   "input_hash": "052560ac1b4398ba7962b78afc61d63716468291",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "052560ac1b4398ba7962b78afc61d63716468291"
+  "output_hash": "51255dadb378bcacce7098338b65c41abe079ffbf57282e1bf14e751bfb8a5c1"
 }

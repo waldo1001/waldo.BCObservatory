@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/suggest-number-series-copilot",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "677df64c8c89b33e0b608e1ea41dd04ca7f09178",
       "words": 670,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:13:35.861Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008252
+    },
+    "summarized": {
+      "at": "2026-10-06T13:14:16.916Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:14:16.916Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:14:16.916Z",
+      "page": false
     }
   },
   "input_hash": "677df64c8c89b33e0b608e1ea41dd04ca7f09178",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "677df64c8c89b33e0b608e1ea41dd04ca7f09178"
+  "output_hash": "0bd858b53166abab5b258df458736ab51c15a191d9c7da4d926a82790cc13f10"
 }

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/faqs-chat-with-copilot.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-chat-with-copilot",
+  "title": "Responsible AI FAQ for Chat with Copilot (preview)",
+  "blob": "5ccd4c44e56779bdf9fb40e80f292cb7a4469838",
+  "summary": "Chat with Copilot is a legacy feature (versions up to 28) that provides AI-powered answers about Business Central and business data through natural language questions; replaced by Microsoft Copilot in Business Central from version 29.0.",
+  "systems": [
+    "copilot"
+  ],
+  "topics": [
+    "chat-copilot",
+    "ai-assistant",
+    "natural-language",
+    "business-data-search",
+    "responsible-ai"
+  ],
+  "objects": [],
+  "features": [
+    "explain and guide",
+    "business data search",
+    "documentation search",
+    "page discovery",
+    "record lookup"
+  ],
+  "versions": [
+    "version 28",
+    "version 29.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009138,
+      "pages_in_call": 3
+    }
+  ]
+}

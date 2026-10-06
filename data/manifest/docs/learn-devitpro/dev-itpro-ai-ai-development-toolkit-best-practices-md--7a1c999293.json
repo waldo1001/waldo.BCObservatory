@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-best-practices",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a271cf1c0ac7141e93244a207057a82b87f1ae75",
       "words": 1196,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:18:33.353Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006829
+    },
+    "summarized": {
+      "at": "2026-10-06T13:18:41.849Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:18:41.849Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:18:41.850Z",
+      "page": false
     }
   },
   "input_hash": "a271cf1c0ac7141e93244a207057a82b87f1ae75",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a271cf1c0ac7141e93244a207057a82b87f1ae75"
+  "output_hash": "d0aaee30982a74233e82a0ed1a57f643b5e02f707c1636b7faf0438ada6b2a69"
 }

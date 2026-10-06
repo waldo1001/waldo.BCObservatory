@@ -1,0 +1,27 @@
+{
+  "video_id": "Sh3ySQSTw-o",
+  "item_id": "video/yt-microsoft/Sh3ySQSTw-o",
+  "summary": "Server and database changes in the 2026 release wave 2: AL runtime on .NET 10, streaming Excel import, a recent records virtual table, zero-join table extensions (up to 30 percent faster), index management changes, system fields in analysis mode and profiles, permissions overview navigation, and telemetry RT 0056 for Excel exports.",
+  "overview": "This 14-minute video from the Business Central team covers the server and database area of the 2026 release wave 2. It starts with the AL runtime: the NST now runs on .NET 10, Excel files are opened with a streaming implementation that uses less memory, and a new virtual table exposes recent records to AL.\n\nThe main part covers the table extension data model. Extension fields are stored back on the base table, so reads of base and extension fields together need no joins. The video then covers index management (discoverability, runtime enablement, cross-table indexes), system fields in analysis mode and profiles, permissions overview navigation, and telemetry for Excel exports.",
+  "key_points": [
+    "The NST runs on .NET 10, so the AL runtime gets the improvements of that platform.",
+    "Opening Excel files uses a streaming implementation, which lowers memory usage and avoids out-of-memory errors on large files.",
+    "A recent records virtual table is exposed to AL. It lets you query and delete the recent records shown in the UI when pages open, and is otherwise read-only.",
+    "Table extension fields are stored back on the base table, which removes all joins between base and extension fields. Read, delete, update, insert and modify are up to 30 percent faster in the shown benchmark.",
+    "Indexes can be defined with enabled equal false and switched on or off at runtime, for example based on feature usage. Indexes can also span base table and extension fields.",
+    "Index management is easier to find: Tell me search (including semantic search), a manage indexes button, and a reorganized index management page.",
+    "System fields (created by/on, last modified by/on, system ID) show in analysis mode pickers, and modified by/at can be added to profiles. Telemetry tag RT 0056 records who opens data in Excel, and the permissions overview can be reached from permission sets and table information pages."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "25f4f7b849c26a98b8073b3615fab6f012baad6bfd9911d236dfaa07c0b02678",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0448584
+  }
+}

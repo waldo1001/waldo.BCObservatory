@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "pages must not contain business logic",
+  "title": "Keep business logic out of page objects",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/pages-must-not-contain-business-logic.md",
   "published_at": "2026-09-29T15:29:36.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:15:03.676Z",
+      "blob": "ed5a4cb1a0b43f5c404b8a391fee5eef30493f58",
+      "words": 330,
+      "forms": 0
     }
   },
   "input_hash": "ed5a4cb1a0b43f5c404b8a391fee5eef30493f58",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/style/pages-must-not-contain-business-logic.md"
-  }
+    "path": "microsoft/knowledge/style/pages-must-not-contain-business-logic.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 330
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ed5a4cb1a0b43f5c404b8a391fee5eef30493f58"
 }

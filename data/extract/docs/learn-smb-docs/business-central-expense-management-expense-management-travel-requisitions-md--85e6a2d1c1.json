@@ -1,0 +1,63 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-travel-requisitions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-travel-requisitions",
+  "title": "Manage Travel Requests in Business Central",
+  "blob": "bea118b05fb152a15f1bc7986afcbc4d5072a260",
+  "summary": "Travel requests record planned travel details and costs for organizational review and approval before employees incur expenses, with linking to expense reports for spending comparison.",
+  "systems": [
+    "administration",
+    "finance"
+  ],
+  "topics": [
+    "travel requests",
+    "expense management",
+    "approval workflow",
+    "travel policy",
+    "per diem",
+    "employee expenses"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Travel Requests"
+    },
+    {
+      "type": "page",
+      "name": "Travel Request"
+    },
+    {
+      "type": "page",
+      "name": "Expense Users"
+    },
+    {
+      "type": "page",
+      "name": "Expense Approval Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    }
+  ],
+  "features": [
+    "travel request creation",
+    "status tracking",
+    "travel policy acknowledgment",
+    "international travel",
+    "expense report linking",
+    "spending comparison",
+    "traveler management"
+  ],
+  "versions": [
+    "version 29"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010103,
+      "pages_in_call": 4
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-work-with-translation-files",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f7d16577e07d4cd4f674bc89ac687ecf198fd2d2",
       "words": 1289,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:34:46.167Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.007447
+    },
+    "summarized": {
+      "at": "2026-10-06T13:34:46.202Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:34:46.202Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:34:46.202Z",
+      "page": false
     }
   },
   "input_hash": "f7d16577e07d4cd4f674bc89ac687ecf198fd2d2",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f7d16577e07d4cd4f674bc89ac687ecf198fd2d2"
+  "output_hash": "a7b9589995630d2e239ff40881d82c3e642f03168f1fe86363a1494e8bfe97ac"
 }

@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-mcp-server.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-mcp-server",
+  "title": "AL MCP Server",
+  "blob": "59cb23e1fe323a753c618da6f39f897a3439ef84",
+  "summary": "The AL MCP Server exposes AL development tools via the Model Context Protocol, enabling any MCP-compatible AI agent to build, publish, compile, and search symbols without requiring Visual Studio Code.",
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "mcp server",
+    "model context protocol",
+    "al development",
+    "ci/cd",
+    "agent tools"
+  ],
+  "objects": [],
+  "features": [
+    "al_build",
+    "al_compile",
+    "al_publish",
+    "al_downloadsymbols",
+    "al_symbolsearch",
+    "al_getdiagnostics",
+    "al_getnextobjectid",
+    "al_getpackagedependencies",
+    "al_addproject",
+    "al_auth_login",
+    "al_auth_logout"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005955,
+      "pages_in_call": 7
+    }
+  ]
+}

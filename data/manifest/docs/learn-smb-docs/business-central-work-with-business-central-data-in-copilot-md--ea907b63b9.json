@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/work-with-business-central-data-in-copilot",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "682d1689f5b75c4614268bfecd791ebdca87664b",
       "words": 849,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:13:35.862Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008241
+    },
+    "summarized": {
+      "at": "2026-10-06T13:15:19.495Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:15:19.495Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:15:19.496Z",
+      "page": false
     }
   },
   "input_hash": "682d1689f5b75c4614268bfecd791ebdca87664b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "682d1689f5b75c4614268bfecd791ebdca87664b"
+  "output_hash": "355219c748fb1a184c8138115782e08df4ae99b57f65c9a8b9cc325f46ac7c39"
 }

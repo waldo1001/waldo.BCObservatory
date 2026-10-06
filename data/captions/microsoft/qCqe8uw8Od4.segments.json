@@ -1,0 +1,293 @@
+{
+  "video_id": "qCqe8uw8Od4",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.4,
+      "end": 16.6,
+      "text": ">> Welcome to the 2026 release wave one version of Business Central in launch edition. This session is about enhanced inventory analytics."
+    },
+    {
+      "t": 16.6,
+      "end": 37.9,
+      "text": "And inventory analytics is actually one of the key investment areas in the analytics analytics content for this release wave. We wanted to focus on supply chain risk for the most sold items and also helping you to get a lot easier building reporting for your inventory."
+    },
+    {
+      "t": 37.9,
+      "end": 51.6,
+      "text": "So just like we did for back in the days like last semester for sales the year semester before for manufacturing we have completed the model what we call the modernized modernization"
+    },
+    {
+      "t": 51.6,
+      "end": 68,
+      "text": "of inventory analytics. Everything you could do back 6 12 months ago with legacy reports in IDE you can now do either with Power BI with Excel layouts or with Word layouts or with data analysis."
+    },
+    {
+      "t": 68,
+      "end": 79.6,
+      "text": "We are also deprecating a few legacy reports and moving the layouts from IDE into a a more modern world of of new layout types."
+    },
+    {
+      "t": 79.6,
+      "end": 90.3,
+      "text": "So highlights are new reports in Power BI and Excel for ABC analysis then all the way down to added analysis tabs in the application for inventory."
+    },
+    {
+      "t": 90.3,
+      "end": 101.4,
+      "text": "So let's dive into it. ABC analysis is a way to analyze your inventory together with sales."
+    },
+    {
+      "t": 101.4,
+      "end": 112,
+      "text": "So it is a way to think about which items should always be on stock and which items are not selling"
+    },
+    {
+      "t": 112,
+      "end": 132,
+      "text": "so much so so that you are categorizing your inventory in three A B and C types. You define what's the percentage of your sales that should be class A B and C they just need to sum to a 100 and then based on that you can then do an an analysis and"
+    },
+    {
+      "t": 132,
+      "end": 146.8,
+      "text": "see kind of for your class A items they probably must always go on stock because this is where you sell the most whereas class C maybe you can live with things are out of stock and and not completely"
+    },
+    {
+      "t": 146.8,
+      "end": 165.8,
+      "text": "always in inventory. So you kind of divert your resources for supply chain to the things that matter the most. The analysis comes in two flavor flavors in the Power BI app for inventory you now have an inventory also ABC analysis"
+    },
+    {
+      "t": 165.8,
+      "end": 185.9,
+      "text": "where you see it that way you can slice and dice based on your ABC classes. Um but we also discovered that during this that in the German and Swiss version of Business Central it actually had ABC analysis already whereas other localizations did not."
+    },
+    {
+      "t": 185.9,
+      "end": 201.2,
+      "text": "So we chose to delocalize that report move it into the W1 and give it to everyone and then put an an Excel layout on it. So here is the new ABC analysis Excel version of of the report or the layout."
+    },
+    {
+      "t": 201.2,
+      "end": 219,
+      "text": "It always as we always do with Excel layout we add a printable version of printable worksheet and that's the one you see here. This report or layout comes with a middle report that just a basic structure of cumulative"
+    },
+    {
+      "t": 219,
+      "end": 239.1,
+      "text": "values for for the different classes and then and worksheet that is designed for slice and dice with slices on the type of the class of A B and C as well as the inventory posting groups and here you can then kind of dive further into into your inventory based"
+    },
+    {
+      "t": 239.1,
+      "end": 251.2,
+      "text": "on on the ABC class or revenue. There's a new page in the application ABC analysis setup. This is where you define your thresholds they must match to a 100."
+    },
+    {
+      "t": 251.2,
+      "end": 262.6,
+      "text": "The same thresholds are used both in Power BI and in the Excel report. All right. So that's that's one thing but we also"
+    },
+    {
+      "t": 262.6,
+      "end": 273.7,
+      "text": "looked at modernizing the building reports for for inventory and when we say modernize we mean that we want to put layouts"
+    },
+    {
+      "t": 273.7,
+      "end": 290.3,
+      "text": "from legacy IDE into Excel so that users can change the layout. We have also improved the help in client and articles in Microsoft Learn. So all of these classic reports that have been in Business Central for many years even back to the days of NAV"
+    },
+    {
+      "t": 290.3,
+      "end": 301.2,
+      "text": "they are now discoverable in all the discoverability tools in client like advanced tell me in in client in the help pane in co-pilot chat"
+    },
+    {
+      "t": 301.2,
+      "end": 314.6,
+      "text": "as well as in Microsoft Learn and Microsoft Learn we know that all co-pilots of the world also read all the documentation. Um So for for this modernization we added two new reports."
+    },
+    {
+      "t": 314.6,
+      "end": 327.6,
+      "text": "You I showed you the ABC analysis. There's also a new report item age composition by quantity and value instead of the old reports that were either quantity or value."
+    },
+    {
+      "t": 327.6,
+      "end": 337.7,
+      "text": "So here you can see that um new report and if we zoom in on the here on the browser tabs sorry the the worksheets"
+    },
+    {
+      "t": 337.7,
+      "end": 349.2,
+      "text": "you can see that there's a printable version both for the value and the quantity and there's just one analysis worksheet where both of these measures are being shown."
+    },
+    {
+      "t": 349.2,
+      "end": 360.3,
+      "text": "So here you can see that analysis where you both have the value and the quantity for each of these buckets in the report."
+    },
+    {
+      "t": 360.3,
+      "end": 379.4,
+      "text": "Um that's that and then for existing report you can see I'll just show you a few examples. Here's the inventory vendor purchase report with the legacy layout and here is the one that gets both a Word layout so you can change that using the Word add-in but it also gets an Excel layout for analysis."
+    },
+    {
+      "t": 379.4,
+      "end": 399.4,
+      "text": "So that's that's the what we mean by modernizing a report. So we updated these eight seven eight reports you can see here to on the left and then we are deprecating four the the four reports will will be removed from the product over the next three release"
+    },
+    {
+      "t": 399.4,
+      "end": 413.9,
+      "text": "waves I believe it is. All of this is available in 28.0. Um And then we got some feedback on this on the inventory reports that actually this is coming in 21 28.x."
+    },
+    {
+      "t": 413.9,
+      "end": 434.2,
+      "text": "So in 28.0 versions the inventory reports do not have subsections or subtotals. Um as you can see well we then discovered after we kind of uh we put a line in the sand when when we are not updating um the base app for version 28.0."
+    },
+    {
+      "t": 434.2,
+      "end": 447.8,
+      "text": "So for version 28 hopefully .1 we are adding subtotals to all the new reports so that even so they they also like are easier to to analyze in in the analysis"
+    },
+    {
+      "t": 447.8,
+      "end": 459.1,
+      "text": "worksheet. Then in this release wave we are adding the ability to supply analysis views with an application in AL."
+    },
+    {
+      "t": 459.1,
+      "end": 477.3,
+      "text": "So we're also doing that for the base app and just for item ledger entries in version 28.x we will add these four new um pre-built analysis views so that when you open that in analysis analysis mode you don't have to create them from scratch they will just be there."
+    },
+    {
+      "t": 477.3,
+      "end": 490.5,
+      "text": "If you don't like them you can just use personal customization to hide them. If you want to learn more about inventory analytics this is the link aka.ms/bcinventoryanalytics"
+    },
+    {
+      "t": 490.5,
+      "end": 501.2,
+      "text": "and it takes you to that landing page within the inventory documentation where you can learn much more about Power BI um"
+    },
+    {
+      "t": 501.2,
+      "end": 513.4,
+      "text": "out of the box inventory reports as well as ad hoc analysis with analysis mode and also these newly shipped analysis tabs."
+    },
+    {
+      "t": 513.4,
+      "end": 526,
+      "text": "If you like this topic you might also like other analytical topics such as enhanced sales analytics all the way down to enhanced analysis mode or demo data for analytics."
+    },
+    {
+      "t": 526,
+      "end": 538.4,
+      "text": "All these related sessions you can find links to back down here in the description. Um so I hope that you watch not only this one but also some of the related sessions if not all."
+    },
+    {
+      "t": 538.4,
+      "end": 548.5,
+      "text": "If you already know the general Business Central resources if you don't then just stay on the video and learn about it. If you already know this topic"
+    },
+    {
+      "t": 548.5,
+      "end": 560.6,
+      "text": "then this is the end of the video. Um there's no more to say about inventory analytics for now and I wish you a great day and a great launch edition. Bye."
+    },
+    {
+      "t": 560.6,
+      "end": 574,
+      "text": "We have compiled a number of general resources that we believe are key both for partners but also Business Central customers. Most some of these are partner some of them are also for customers."
+    },
+    {
+      "t": 574,
+      "end": 592.6,
+      "text": "So the first one is called aka.ms/bcall. This is a partner resource for that contains lists of every other aka link that is needed for you to understand anything about both the Business Central product but also processes around it."
+    },
+    {
+      "t": 592.6,
+      "end": 603,
+      "text": "We call these aka links because they are called aka.ms and then for forward slash something and with Business Central links we all always prefix with BC and then something."
+    },
+    {
+      "t": 603,
+      "end": 615.9,
+      "text": "The next one is our partner network social media for for Business Central partners Viva Viva Engage. So aka.ms/BCVivaEngage"
+    },
+    {
+      "t": 615.9,
+      "end": 629.8,
+      "text": "is where you go and interact with other partners. It's not open for customers. So this is where you can ask questions interact with the product group interact which is you with with each other in a in a closed network."
+    },
+    {
+      "t": 629.8,
+      "end": 645.4,
+      "text": "Second link a third link is for both partners and customers we are called office hours. So office hours is something we do once or twice a month from the product group engaging with the community about new features or things we want to discuss."
+    },
+    {
+      "t": 645.4,
+      "end": 655.9,
+      "text": "aka.ms/BCOfficeHours is the is the place where you go to find out about upcoming events. These are all recorded."
+    },
+    {
+      "t": 655.9,
+      "end": 666.2,
+      "text": "I believe the recordings are available only to partners but the live events are available to customers as well. Fourth link is YouTube our YouTube channel."
+    },
+    {
+      "t": 666.2,
+      "end": 679.6,
+      "text": "I'll talk about that in the next slide and LinkedIn in the next slide and then finally for for Microsoft partners the BCs aka.ms/BCPartnerPortal"
+    },
+    {
+      "t": 679.6,
+      "end": 691.2,
+      "text": "is where you get a lot of the resources as a partner such as compete decks pitch decks and a lot of other resources."
+    },
+    {
+      "t": 691.2,
+      "end": 706.3,
+      "text": "For LinkedIn this is our product groups LinkedIn profile. We have 30k or more followers so both partners and customers. This is the place where we from the product group put in news and small bits of information"
+    },
+    {
+      "t": 706.3,
+      "end": 716.9,
+      "text": "outside the quote unquote official channel. So follow us on LinkedIn to learn what's happening right now in in this in the around the product."
+    },
+    {
+      "t": 716.9,
+      "end": 730.8,
+      "text": "And then also on our YouTube channel where this is where you're probably watching this aka.ms/BCYouTube. We put in not only these launch editions twice a year but also"
+    },
+    {
+      "t": 730.8,
+      "end": 748.5,
+      "text": "co-pilot and AI video shorts tips and tricks technical deep dives under the hood. We even have this what's cooking where we put little nuggets of of videos out for new features that are even coming in on the YouTube channel before"
+    },
+    {
+      "t": 748.5,
+      "end": 763.4,
+      "text": "they're coming in the release notes. So watch and maybe bookmark us on YouTube and also notice all the playlists. So the content is also organized in areas not only all the videos."
+    },
+    {
+      "t": 763.4,
+      "end": 774.7,
+      "text": "So if you have an area that has special interest such as analytics you can find an a playlist and kind of see all the content related to that."
+    },
+    {
+      "t": 774.7,
+      "end": 788,
+      "text": "And that's it. That is truly it. We won't there would be no more. So thank you for watching all the way to the end. And again have a great day. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 1848
+}

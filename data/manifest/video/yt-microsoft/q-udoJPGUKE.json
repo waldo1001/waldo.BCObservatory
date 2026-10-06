@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Introducing: Web App for Expense Agent (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=q-udoJPGUKE",
-  "published_at": null,
+  "published_at": "2026-04-27T14:39:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:18:02.368Z",
+      "captions": "auto:en-orig",
+      "duration_s": 613
+    },
+    "captioned": {
+      "at": "2026-10-06T13:18:10.572Z",
+      "path": "data/captions/microsoft/q-udoJPGUKE.vtt",
+      "vtt_sha256": "7d1db79f3a1f24ad2d7def55a5abae46eaa310dbc171eb406f3807864573e1e5",
+      "segments": 46,
+      "words": 1724,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 68,
-    "duration_s": 614,
-    "via": "reconcile"
-  }
+    "duration_s": 613,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7d1db79f3a1f24ad2d7def55a5abae46eaa310dbc171eb406f3807864573e1e5"
 }

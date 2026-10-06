@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent-item-availability",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "84dafb3931811ca967f135d5bb298c20d3cd37a4",
       "words": 1114,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T13:11:10.467Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.01234
+    },
+    "summarized": {
+      "at": "2026-10-06T13:11:50.972Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:11:50.972Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:11:50.972Z",
+      "page": false
     }
   },
   "input_hash": "84dafb3931811ca967f135d5bb298c20d3cd37a4",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "84dafb3931811ca967f135d5bb298c20d3cd37a4"
+  "output_hash": "b7e0d57ae361f850d4767c2c8c2d1f4a5312c4751eb04e5c033dc3d04c28675e"
 }

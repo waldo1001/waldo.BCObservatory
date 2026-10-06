@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=-vdhfNMNZQk",
   "published_at": "2026-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,39 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T13:03:20.224Z",
+      "path": "data/extract/video/-vdhfNMNZQk.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 10,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.037722
+    },
+    "summarized": {
+      "at": "2026-10-06T13:03:29.051Z",
+      "path": "data/summary/video/-vdhfNMNZQk.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0434684
+    },
+    "linked": {
+      "at": "2026-10-06T13:03:29.051Z",
+      "systems": [
+        "reporting",
+        "development"
+      ],
+      "topics": 10,
+      "objects_as_heard": 1
+    },
+    "published": {
+      "at": "2026-10-06T13:03:29.054Z",
+      "path": "content/videos/-vdhfNMNZQk.md"
     }
   },
   "input_hash": null,
@@ -35,5 +68,6 @@
     "seed_file": "2026-10-01 - BCLE - Introducing： Composite Document Layouts (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "933abb597f0cb83ca3d0a7380752b2bda9d25033173c6e7a720d4c97d7f72d71"
 }

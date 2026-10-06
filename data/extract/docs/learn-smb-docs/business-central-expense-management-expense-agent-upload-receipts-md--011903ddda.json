@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-agent-upload-receipts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-agent-upload-receipts",
+  "title": "Upload Receipts and Create Mileage Expenses",
+  "blob": "1bc60749e249617d2150907d9306a4d0f0b83673",
+  "summary": "Upload receipts to Expense Agent via web app, email, or mobile app; the agent extracts merchant, amount, date, and category using AI, then assigns expenses to draft reports. Create mileage expenses by specifying trip start and end points, with automatic distance calculation and currency conversion.",
+  "systems": [
+    "copilot",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "receipt upload",
+    "expense extraction",
+    "mileage expenses",
+    "ai processing",
+    "currency conversion",
+    "vat reclaim",
+    "draft reports"
+  ],
+  "objects": [],
+  "features": [
+    "Receipt upload via web app and email",
+    "AI-powered data extraction",
+    "Automatic currency conversion",
+    "Mileage expense creation",
+    "VAT reclaim identification",
+    "Mobile app support",
+    "Draft report assignment",
+    "Real-time processing status"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009249,
+      "pages_in_call": 3
+    }
+  ]
+}

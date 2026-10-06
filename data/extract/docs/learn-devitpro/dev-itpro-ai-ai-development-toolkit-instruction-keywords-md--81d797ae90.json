@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-instruction-keywords.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-instruction-keywords",
+  "title": "Instruction keywords for an agent (preview)",
+  "blob": "7a4d627e8c16fd2a5762534de958fd39bcb2f351",
+  "summary": "Instruction keywords for agent provides keywords and phrases to guide agent behavior, including ask for assistance, request review, reply, write email, memorize, set field, use lookup, and invoke action.",
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "instructions",
+    "keywords",
+    "agent behavior",
+    "history",
+    "actions"
+  ],
+  "objects": [],
+  "features": [
+    "ask for assistance",
+    "request review",
+    "reply",
+    "write email",
+    "memorize values",
+    "set field",
+    "use lookup",
+    "invoke action",
+    "agent history"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006829,
+      "pages_in_call": 5
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "video_id": "Afv-r-eDt90",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.5,
+      "end": 16.8,
+      "text": "All right, welcome to Business Central 2026 release wave one launch edition. This session is about enhanced analysis mode. My name is Kenny Pontepedra."
+    },
+    {
+      "t": 16.8,
+      "end": 32.2,
+      "text": "I am super proud to have Blanca with me here as co-speaker. Yes, thank you, Kenny. So, I'm Blanca and I'm a software engineer for the developer experience team. Awesome. And Blanca is going to show you and awesome demo a a few in a few minutes."
+    },
+    {
+      "t": 32.2,
+      "end": 42.4,
+      "text": "So, why are we investing in analysis mode? Because it's the most used analysis feature in Business Central ever. Almost"
+    },
+    {
+      "t": 42.4,
+      "end": 62.7,
+      "text": "every single customer have users who use analysis mode and so, we want to make it just smarter to deploy apps that also use analysis mode and just have built-in insights to just make the the application feel like it has built-in more built-in capabilities"
+    },
+    {
+      "t": 62.7,
+      "end": 76.6,
+      "text": "for analytics. So, the highlights of this is you can ship analysis views from your AL apps, but also as a user you can describe your AL your your views and they will show up as tool tips."
+    },
+    {
+      "t": 76.6,
+      "end": 88.8,
+      "text": "Um and then we are adding using these capabilities to also add analysis tabs or in a few select places in the Business Central application."
+    },
+    {
+      "t": 88.8,
+      "end": 103.8,
+      "text": "So, the first part support for analysis views in Excel. Sorry, in AL. Um Basically, it should be as simple as 1 2 3. One, you go to a Business Central, set up your analysis view directly."
+    },
+    {
+      "t": 103.8,
+      "end": 114.6,
+      "text": "Two, you export that into a JSON file and three you put that into your app, plug on some AL demo data or sorry metadata"
+    },
+    {
+      "t": 114.6,
+      "end": 131.8,
+      "text": "and that's it. So, why don't you have why don't we have Blanca show this uh with a live demo. Blanca, over to you. So, let's get now some hands in so we can show you how this feature is used so you can also package your own analysis views within your own extensions."
+    },
+    {
+      "t": 131.8,
+      "end": 144.8,
+      "text": "So, the first thing I have here my Business Central and then I'm going to open the customer ledger entries list page and you can see here I'm already in analysis mode."
+    },
+    {
+      "t": 144.8,
+      "end": 161.7,
+      "text": "Here you can see different views and more specifically here I have created the one that I want to export. Um and this is a view that just has some overview information about the different volumes sales volumes for customers."
+    },
+    {
+      "t": 161.7,
+      "end": 175.4,
+      "text": "One thing that you have also that I have also added here is the tool tip. So, here I have provided a description of these views so that when users get it they have more context about this view."
+    },
+    {
+      "t": 175.4,
+      "end": 189.7,
+      "text": "And this is the new feature that we have added this release. To set it can just go to rename and then here you will get a description box where you can just set that description and then save it."
+    },
+    {
+      "t": 189.7,
+      "end": 200.3,
+      "text": "So now this is the my view is ready and I want to package this one in my app. So, to do so I can just go to share"
+    },
+    {
+      "t": 200.3,
+      "end": 212.8,
+      "text": "and I will find this new action export definition. And this one over here will have downloaded a JSON file."
+    },
+    {
+      "t": 212.8,
+      "end": 228.2,
+      "text": "This is the definition for my analysis view. Here I have all the information for my analysis view. So, I have the name, I have the tool tip, I have the columns, all filters or groupings that I have done in my view are here."
+    },
+    {
+      "t": 228.2,
+      "end": 241.1,
+      "text": "Okay. So, to include this in my app I already have my project ready here and then I just need to put it as part of my project."
+    },
+    {
+      "t": 241.1,
+      "end": 252.4,
+      "text": "And then here in this case I'm just creating a page extension for my customer ledger entries. And here we have added some new syntax for these pages."
+    },
+    {
+      "t": 252.4,
+      "end": 262.5,
+      "text": "So, now you can define analysis views and this is where I can define my new analysis view and the important part is the definition file property."
+    },
+    {
+      "t": 262.5,
+      "end": 278.7,
+      "text": "Here I will point the path to the file that I have just downloaded. And then I can also set some additional properties such as the caption or the tool tip or also the visibility which will override the settings in the JSON file."
+    },
+    {
+      "t": 278.7,
+      "end": 293.3,
+      "text": "Um and another interesting scenario is that you can also use this for page customizations. So, let's say for example I have some analysis views that I want just for those users who have a specific role."
+    },
+    {
+      "t": 293.3,
+      "end": 303.8,
+      "text": "So, in this case I have created some analysis views for the accountant. So, for this I can create a page customization and then I can just create a profile"
+    },
+    {
+      "t": 303.8,
+      "end": 315.7,
+      "text": "or profile extension and here I can assign this customization to the accountant profile. This way this views are only available for this profile."
+    },
+    {
+      "t": 315.7,
+      "end": 330.2,
+      "text": "And then just for completeness this is also available for source pages of course. So, if you have some list pages and you want to add analysis views then you also have a section where you can do so."
+    },
+    {
+      "t": 330.2,
+      "end": 345.6,
+      "text": "So, that was basically it. It's very straightforward. So, now we can just go ahead and publish this extension to a new environment so you can see how these are um available in that new environment."
+    },
+    {
+      "t": 347.6,
+      "end": 358.7,
+      "text": "Yes. So, this is my new environment. You can see I'm in the customer ledger entries list page and I have my view that comes from my app."
+    },
+    {
+      "t": 358.7,
+      "end": 369.3,
+      "text": "You can see this is an a view that comes from my app because it has this locked icon. So, this basically means that I cannot really edit this view."
+    },
+    {
+      "t": 369.3,
+      "end": 382,
+      "text": "You can see the filter pane is gone. You cannot really sort or anything so this view is just read only. But if you want to do some data analysis on top of this view then you can always go ahead"
+    },
+    {
+      "t": 382,
+      "end": 393.1,
+      "text": "duplicate that one and then this is yours to edit as you want. And then we can also check out the profile"
+    },
+    {
+      "t": 393.1,
+      "end": 399.4,
+      "text": "role the accountant role, sorry."
+    },
+    {
+      "t": 400.4,
+      "end": 417,
+      "text": "And then you will be able to see that I also have those analysis views that I have defined for this specific profile. Um another thing is that maybe users when they have these apps installed they have many analysis views."
+    },
+    {
+      "t": 417,
+      "end": 428.3,
+      "text": "Maybe they decide some of the views are not really that useful um so they can always go into personalization mode."
+    },
+    {
+      "t": 430,
+      "end": 440.7,
+      "text": "And then you can they can click here and they can choose to hide that one. So, then when they are done with it it will no longer show up. Blanca, thank you so much for that."
+    },
+    {
+      "t": 440.7,
+      "end": 455.1,
+      "text": "Both the great demo, but also you are actually the one who brought all of these features to life. So, I think all of our 50,000 customers and many many thousand partners are going to thank you for all the good things you do in this space."
+    },
+    {
+      "t": 455.1,
+      "end": 470.9,
+      "text": "So super cool. So, to conclude this session just wanted to show that we also using this new these new capabilities in the Business Central application adding analysis views to a few areas sales,"
+    },
+    {
+      "t": 470.9,
+      "end": 486,
+      "text": "auditing finance, inventory and purchasing. These are coming in 28.x. So, for sales we aim to have analysis views on sales orders on for security related pages"
+    },
+    {
+      "t": 486,
+      "end": 497.8,
+      "text": "on the change log entries and on the user lists on finance on the GL register and fixed asset ledgers and on inventory on the item ledger entries."
+    },
+    {
+      "t": 497.8,
+      "end": 510.4,
+      "text": "On purchasing also on the item ledger entries. So, hopefully this will kind of light up analysis mode in the application even for completely new users."
+    },
+    {
+      "t": 510.4,
+      "end": 527.9,
+      "text": "If you want to learn more there are kind of two areas here. One is the developer focus. If you go to aka.ms/bcdeveloper and and go here in side the documentation for pages and then packaging analysis views."
+    },
+    {
+      "t": 527.9,
+      "end": 539,
+      "text": "That's the new documentation for all the new AL features. If you wanted look at this from the business side of a functional side aka.ms/bcanalytics"
+    },
+    {
+      "t": 539,
+      "end": 549.2,
+      "text": "well is the landing page where you can then navigate down to analyze with analysis mode as well as ad hoc analysis by functional area."
+    },
+    {
+      "t": 549.2,
+      "end": 559.6,
+      "text": "Those two is is showcasing analysis mode for the users and also with examples more examples that what we are shipping now with Business Central out of the box."
+    },
+    {
+      "t": 559.6,
+      "end": 570.4,
+      "text": "If you like this content you might also like a lot of other related sessions in this launch edition down here in the description you can find links to all of these."
+    },
+    {
+      "t": 570.4,
+      "end": 582,
+      "text": "Anything from sales analytics, inventory, finance finance national reporting, subscription billing analytics, also Power BI, Excel and and demo data."
+    },
+    {
+      "t": 582,
+      "end": 593.6,
+      "text": "So, with that myself me myself and Blanca uh want to say thank you so much for watching our launch edition video on analysis mode."
+    },
+    {
+      "t": 593.6,
+      "end": 605.1,
+      "text": "We hope you like it because we are not going to redo it. So, uh stay tuned. Thank you. And uh we have some more information on general resources if you don't know those."
+    },
+    {
+      "t": 605.1,
+      "end": 616.8,
+      "text": "Thank you. We have compiled a number of general resources that we believe are key both for partners but also uh Business Central customers."
+    },
+    {
+      "t": 616.8,
+      "end": 637.2,
+      "text": "Most Some of these are partner, some of them are also for customers. So, the first one is called aka.ms/bcall. This is a partner resource for that contains lists of every other aka link that is needed for you to understand anything about both the Business Central product"
+    },
+    {
+      "t": 637.2,
+      "end": 649.9,
+      "text": "but also processes around it. We call these aka links because they're called aka.ms and then for forward slash something. And with Business Central links, we all always prefix with BC and then something."
+    },
+    {
+      "t": 649.9,
+      "end": 662.8,
+      "text": "The next one is uh our uh partner network uh social media for for Business Central partners, Viva Viva Engage. So, aka.ms/bcvivaengage"
+    },
+    {
+      "t": 662.8,
+      "end": 676.8,
+      "text": "is where you go and interact with other partners. It's not open for customers. So, this is where you can ask uh questions, interact with the product group, interact with with with each other uh in a in a closed network."
+    },
+    {
+      "t": 676.8,
+      "end": 692.4,
+      "text": "Second link A third link is for both partners and customers. We are called office hours. So, office hours is something we do once or twice a month from the product group engaging with the community about new features or things we want to discuss."
+    },
+    {
+      "t": 692.4,
+      "end": 702.8,
+      "text": "aka.ms/bcofficehours is the is the uh place where you go to find out about upcoming events. These are recorded."
+    },
+    {
+      "t": 702.8,
+      "end": 713.2,
+      "text": "I believe the recordings are available only to partners, but the live events are available to customers as well. Fourth link is YouTube our YouTube channel."
+    },
+    {
+      "t": 713.2,
+      "end": 726.5,
+      "text": "I'll talk about that in the next slide and LinkedIn in the next slide. Uh and then finally uh for for Microsoft partners, uh the BC's uh aka.ms/bcpartnerportal"
+    },
+    {
+      "t": 726.5,
+      "end": 738.2,
+      "text": "is where you get um a a lot of the resources as a partner such as compete decks, uh pitch decks, and a lot of other resources."
+    },
+    {
+      "t": 738.2,
+      "end": 753.2,
+      "text": "For LinkedIn, this is our product group's uh LinkedIn profile. We have 30K or more followers. So, both partners and customers. This is the place where we from the product group put in news and small bits of information"
+    },
+    {
+      "t": 753.2,
+      "end": 763.8,
+      "text": "outside the {quote} official channel. So, follow us on on LinkedIn to learn what's happening right now um in in this in the around the product."
+    },
+    {
+      "t": 763.8,
+      "end": 780.9,
+      "text": "Um and then uh also on our YouTube channel where this is where you're probably watching this aka.ms/bcyoutube. We put in not only these launch editions twice a year but also Copilot and AI video shorts,"
+    },
+    {
+      "t": 780.9,
+      "end": 795.4,
+      "text": "tips and tricks, technical deep dives, under the hood. Uh we even have this what's cooking where we put little nuggets of of videos out for new features that are even coming in on the YouTube channel before"
+    },
+    {
+      "t": 795.4,
+      "end": 810.3,
+      "text": "uh they're coming in the release notes. So, watch uh and maybe uh bookmark us on YouTube. And also notice all the playlists. So, uh the content is also organized in areas, not only all the videos."
+    },
+    {
+      "t": 810.3,
+      "end": 821.6,
+      "text": "So, if you have an area that's has special interest such as analytics, um you can find an a playlist and kind of see all the content related to that."
+    },
+    {
+      "t": 821.6,
+      "end": 835,
+      "text": "And that's it. That is truly it. We won't uh there will be no more. So, thank you for watching all the way to the end. And uh again, have a great day. Thank you."
+    }
+  ],
+  "markers": [],
+  "word_count": 2023
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/preview-feature-details",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d4b3c9264c7bd4cd0a3307669dd24d082e34dbe4",
       "words": 10084,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:36:41.448Z",
+      "prompt": "extract-docs@1",
+      "parts": 3,
+      "objects": 19,
+      "cost_usd": 0.065604
+    },
+    "summarized": {
+      "at": "2026-10-06T13:36:41.459Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:36:41.459Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:36:41.459Z",
+      "page": false
     }
   },
   "input_hash": "d4b3c9264c7bd4cd0a3307669dd24d082e34dbe4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d4b3c9264c7bd4cd0a3307669dd24d082e34dbe4"
+  "output_hash": "4f8f9a08591bc1bba864cf7ac0120c7ed8af36fdc3c1f8035f05a7b9fb1d246b"
 }

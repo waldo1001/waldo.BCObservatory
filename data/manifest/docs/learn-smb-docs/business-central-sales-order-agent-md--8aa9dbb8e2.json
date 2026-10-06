@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-order-agent",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "27cca88380835cce1075af4321c8966b8607aea2",
       "words": 2744,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T13:11:10.468Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 11,
+      "cost_usd": 0.014314
+    },
+    "summarized": {
+      "at": "2026-10-06T13:12:47.008Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:12:47.008Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:12:47.009Z",
+      "page": false
     }
   },
   "input_hash": "27cca88380835cce1075af4321c8966b8607aea2",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "27cca88380835cce1075af4321c8966b8607aea2"
+  "output_hash": "33c002ecd6258da8fcc5ab373f60ab524325c5f5e0a2bf5bc2d1749369f792f9"
 }

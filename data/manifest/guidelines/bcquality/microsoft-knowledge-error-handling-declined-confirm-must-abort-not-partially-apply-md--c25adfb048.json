@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "declined confirm must abort not partially apply",
+  "title": "A declined `Confirm` in `OnValidate` must abort or revert, not skip a required side effect",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/error-handling/declined-confirm-must-abort-not-partially-apply.md",
   "published_at": "2026-10-05T12:46:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:07:09.768Z",
+      "blob": "54efeb288219457d8a8fb38e2849d4cd20af8d0f",
+      "words": 610,
+      "forms": 0
     }
   },
   "input_hash": "54efeb288219457d8a8fb38e2849d4cd20af8d0f",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/error-handling/declined-confirm-must-abort-not-partially-apply.md"
-  }
+    "path": "microsoft/knowledge/error-handling/declined-confirm-must-abort-not-partially-apply.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 610
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "54efeb288219457d8a8fb38e2849d4cd20af8d0f"
 }

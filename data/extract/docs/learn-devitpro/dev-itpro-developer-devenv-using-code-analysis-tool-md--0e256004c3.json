@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-using-code-analysis-tool.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-code-analysis-tool",
+  "title": "Using the code analysis tool",
+  "blob": "f5cdfdd8842c90fb752054ce8b3c695da8eae3fd",
+  "summary": "The code analysis tool in Visual Studio Code runs static analysis on AL code to identify issues and violations. Enable analyzers like CodeCop, AppSourceCop, PerTenantExtensionCop, and UICop to enforce coding guidelines and best practices.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "code analysis",
+    "static analysis",
+    "visual studio code",
+    "al coding guidelines",
+    "analyzers"
+  ],
+  "objects": [],
+  "features": [
+    "CodeCop",
+    "AppSourceCop",
+    "PerTenantExtensionCop",
+    "UICop",
+    "code analysis performance"
+  ],
+  "versions": [
+    "2026 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007447,
+      "pages_in_call": 5
+    }
+  ]
+}

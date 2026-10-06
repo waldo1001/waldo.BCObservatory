@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/map-edocuments-with-copilot",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "59e8d778350506974e1fce1b183b963cd9dbd2d7",
       "words": 1341,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:07:09.757Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.010023
+    },
+    "summarized": {
+      "at": "2026-10-06T13:09:49.999Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:09:49.999Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:09:49.999Z",
+      "page": false
     }
   },
   "input_hash": "59e8d778350506974e1fce1b183b963cd9dbd2d7",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "59e8d778350506974e1fce1b183b963cd9dbd2d7"
+  "output_hash": "841d0f6fc4d861fbe0822a0de68f3d68c36ff0cc1297df7d4ad2c93a710a511b"
 }

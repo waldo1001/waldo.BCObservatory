@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "group show caption false outside grid is not a violation",
+  "title": "Group ShowCaption = false outside grid/fixed is a layout choice",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/group-show-caption-false-outside-grid-is-not-a-violation.md",
   "published_at": "2026-05-21T07:53:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:46.322Z",
+      "blob": "fba4bfda8230c9d8970b7b5c5ee58160a0525566",
+      "words": 117,
+      "forms": 0
     }
   },
   "input_hash": "fba4bfda8230c9d8970b7b5c5ee58160a0525566",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/ui/group-show-caption-false-outside-grid-is-not-a-violation.md"
-  }
+    "path": "microsoft/knowledge/ui/group-show-caption-false-outside-grid-is-not-a-violation.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 117
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fba4bfda8230c9d8970b7b5c5ee58160a0525566"
 }

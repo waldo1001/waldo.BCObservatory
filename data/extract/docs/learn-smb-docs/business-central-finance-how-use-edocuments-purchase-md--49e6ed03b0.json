@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-use-edocuments-purchase.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-use-edocuments-purchase",
+  "title": "Use E-Documents in the purchase process",
+  "blob": "994569b43fb73e2e9f537c9631bc477e2f04e2fc",
+  "summary": "Use electronic documents in purchasing workflows including purchase invoices, orders, and credit memos, with guidance on setup, matching, error handling, and linking to existing documents.",
+  "systems": [
+    "purchasing",
+    "finance",
+    "integration"
+  ],
+  "topics": [
+    "e-documents",
+    "purchase invoices",
+    "purchase orders",
+    "electronic invoicing",
+    "vendor setup",
+    "document matching",
+    "error handling"
+  ],
+  "objects": [],
+  "features": [
+    "E-document receiving and processing",
+    "Automatic document matching",
+    "Vendor configuration for e-documents",
+    "Purchase order matching with Copilot",
+    "Text-to-account mapping",
+    "Item reference mapping",
+    "E-document linking to existing documents",
+    "Batch import of e-documents"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012185,
+      "pages_in_call": 3
+    }
+  ]
+}

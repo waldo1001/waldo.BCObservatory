@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-users-teams.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-users-teams",
+  "title": "Set Up Expense Users and Teams",
+  "blob": "53490f184b5045ba1117be02a115404513bfda22",
+  "summary": "Expense users are created by linking employees to the system and assigning posting groups, with optional team organization and approver configuration for managing expense workflows.",
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "expense users",
+    "expense teams",
+    "approvers",
+    "employee setup",
+    "posting groups",
+    "entra id import"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Expense Users"
+    },
+    {
+      "type": "page",
+      "name": "Expense User"
+    },
+    {
+      "type": "page",
+      "name": "Expense Teams"
+    },
+    {
+      "type": "page",
+      "name": "Expense Approval Setup"
+    },
+    {
+      "type": "page",
+      "name": "User Card"
+    }
+  ],
+  "features": [
+    "expense user creation",
+    "employee linking",
+    "posting group assignment",
+    "team assignment",
+    "team manager role",
+    "microsoft entra id import",
+    "approver setup",
+    "approval relationships"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010103,
+      "pages_in_call": 4
+    }
+  ]
+}

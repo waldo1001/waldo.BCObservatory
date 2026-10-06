@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-resources",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0faca83d4aaee0b049cdaca7d083bf04ebb80821",
       "words": 1182,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:32:55.327Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.006766
+    },
+    "summarized": {
+      "at": "2026-10-06T13:32:55.339Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:32:55.339Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:32:55.339Z",
+      "page": false
     }
   },
   "input_hash": "0faca83d4aaee0b049cdaca7d083bf04ebb80821",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0faca83d4aaee0b049cdaca7d083bf04ebb80821"
+  "output_hash": "a129251450e1db657be0b5803b77ab0b7f99105fe2f3ecbcbfbb285fe797e317"
 }

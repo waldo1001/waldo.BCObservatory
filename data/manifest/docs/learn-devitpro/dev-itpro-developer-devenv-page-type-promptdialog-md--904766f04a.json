@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-type-promptdialog",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c531b291f31e72ce348c961c01a28dadd1277b6a",
       "words": 1205,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:29:04.533Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.014344
+    },
+    "summarized": {
+      "at": "2026-10-06T13:29:04.641Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:29:04.641Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:29:04.642Z",
+      "page": false
     }
   },
   "input_hash": "c531b291f31e72ce348c961c01a28dadd1277b6a",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c531b291f31e72ce348c961c01a28dadd1277b6a"
+  "output_hash": "187228b8f73ec161837b60def4f3b7fc0d568d565949a0b2d3bbe583548f157e"
 }

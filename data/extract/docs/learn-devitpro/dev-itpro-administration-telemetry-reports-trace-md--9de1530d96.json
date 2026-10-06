@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-reports-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace",
+  "title": "Report Generation Telemetry",
+  "blob": "06aa50695ebf1d718e6a37799050044fe995f957",
+  "summary": "Report generation telemetry analyzes successful, failed, and canceled report runs, tracking dataset generation time, rendering time, SQL execution, and output formats for performance monitoring.",
+  "systems": [
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "telemetry",
+    "report",
+    "performance",
+    "monitoring",
+    "application insights"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Report"
+    }
+  ],
+  "features": [
+    "successful report generation",
+    "failed report generation",
+    "report cancellation",
+    "document format tracking",
+    "layout type tracking",
+    "serverExecutionTime",
+    "totalTime",
+    "report timeout configuration",
+    "max rows configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017326,
+      "pages_in_call": 2
+    }
+  ]
+}

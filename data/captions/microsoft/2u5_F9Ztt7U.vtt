@@ -1,0 +1,3160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.964 --> 00:00:06.590 align:start position:0%
+ 
+[music]
+
+00:00:06.590 --> 00:00:06.600 align:start position:0%
+ 
+ 
+
+00:00:06.600 --> 00:00:09.950 align:start position:0%
+ 
+&gt;&gt; Welcome<00:00:07.280><c> to</c><00:00:07.480><c> the</c><00:00:07.600><c> 2026</c><00:00:08.720><c> release</c><00:00:09.120><c> wave</c><00:00:09.560><c> one</c>
+
+00:00:09.950 --> 00:00:09.960 align:start position:0%
+&gt;&gt; Welcome to the 2026 release wave one
+ 
+
+00:00:09.960 --> 00:00:12.270 align:start position:0%
+&gt;&gt; Welcome to the 2026 release wave one
+launch<00:00:10.280><c> edition</c><00:00:10.720><c> of</c><00:00:10.840><c> Business</c><00:00:11.160><c> Central.</c>
+
+00:00:12.270 --> 00:00:12.280 align:start position:0%
+launch edition of Business Central.
+ 
+
+00:00:12.280 --> 00:00:14.990 align:start position:0%
+launch edition of Business Central.
+In<00:00:12.480><c> this</c><00:00:12.800><c> session,</c><00:00:13.760><c> we're</c><00:00:13.880><c> talking</c><00:00:14.240><c> about</c>
+
+00:00:14.990 --> 00:00:15.000 align:start position:0%
+In this session, we're talking about
+ 
+
+00:00:15.000 --> 00:00:17.230 align:start position:0%
+In this session, we're talking about
+what's<00:00:15.280><c> new</c><00:00:15.600><c> in</c><00:00:15.760><c> server</c><00:00:16.080><c> and</c><00:00:16.200><c> database.</c><00:00:17.080><c> My</c>
+
+00:00:17.230 --> 00:00:17.240 align:start position:0%
+what's new in server and database. My
+ 
+
+00:00:17.240 --> 00:00:19.350 align:start position:0%
+what's new in server and database. My
+name<00:00:17.440><c> is</c><00:00:17.560><c> Kenny</c><00:00:17.800><c> Pontopidan</c><00:00:18.720><c> and</c><00:00:18.920><c> with</c><00:00:19.120><c> me</c><00:00:19.280><c> I</c>
+
+00:00:19.350 --> 00:00:19.360 align:start position:0%
+name is Kenny Pontopidan and with me I
+ 
+
+00:00:19.360 --> 00:00:21.750 align:start position:0%
+name is Kenny Pontopidan and with me I
+have<00:00:20.120><c> Jens</c><00:00:20.520><c> Miller</c><00:00:20.720><c> Peterson.</c>
+
+00:00:21.750 --> 00:00:21.760 align:start position:0%
+have Jens Miller Peterson.
+ 
+
+00:00:21.760 --> 00:00:27.070 align:start position:0%
+have Jens Miller Peterson.
+And<00:00:22.080><c> we</c><00:00:22.720><c> take</c><00:00:22.960><c> care</c><00:00:23.520><c> of</c><00:00:23.760><c> the</c><00:00:23.920><c> AL</c><00:00:24.160><c> runtime.</c>
+
+00:00:27.070 --> 00:00:27.080 align:start position:0%
+ 
+ 
+
+00:00:27.080 --> 00:00:28.710 align:start position:0%
+ 
+The<00:00:27.200><c> main</c><00:00:27.480><c> investments</c><00:00:28.040><c> in</c><00:00:28.160><c> this</c><00:00:28.360><c> release</c>
+
+00:00:28.710 --> 00:00:28.720 align:start position:0%
+The main investments in this release
+ 
+
+00:00:28.720 --> 00:00:32.030 align:start position:0%
+The main investments in this release
+wave<00:00:29.400><c> are</c><00:00:29.640><c> three</c><00:00:29.960><c> things.</c><00:00:30.880><c> Make</c><00:00:31.080><c> it</c><00:00:31.200><c> faster,</c>
+
+00:00:32.030 --> 00:00:32.040 align:start position:0%
+wave are three things. Make it faster,
+ 
+
+00:00:32.040 --> 00:00:35.230 align:start position:0%
+wave are three things. Make it faster,
+more<00:00:32.279><c> effective</c><00:00:32.840><c> document</c><00:00:33.280><c> layouts,</c><00:00:34.480><c> and</c>
+
+00:00:35.230 --> 00:00:35.240 align:start position:0%
+more effective document layouts, and
+ 
+
+00:00:35.240 --> 00:00:37.590 align:start position:0%
+more effective document layouts, and
+hardening<00:00:35.760><c> or</c><00:00:35.880><c> security.</c>
+
+00:00:37.590 --> 00:00:37.600 align:start position:0%
+hardening or security.
+ 
+
+00:00:37.600 --> 00:00:40.910 align:start position:0%
+hardening or security.
+And<00:00:38.440><c> this</c><00:00:38.720><c> distributes</c><00:00:39.400><c> over</c><00:00:40.280><c> highlights</c>
+
+00:00:40.910 --> 00:00:40.920 align:start position:0%
+And this distributes over highlights
+ 
+
+00:00:40.920 --> 00:00:43.750 align:start position:0%
+And this distributes over highlights
+such<00:00:41.200><c> as</c><00:00:41.600><c> enhanced</c><00:00:42.040><c> MCP</c><00:00:42.480><c> server,</c>
+
+00:00:43.750 --> 00:00:43.760 align:start position:0%
+such as enhanced MCP server,
+ 
+
+00:00:43.760 --> 00:00:45.750 align:start position:0%
+such as enhanced MCP server,
+better<00:00:44.480><c> memory</c><00:00:44.840><c> protection</c><00:00:45.360><c> in</c><00:00:45.440><c> the</c><00:00:45.560><c> AL</c>
+
+00:00:45.750 --> 00:00:45.760 align:start position:0%
+better memory protection in the AL
+ 
+
+00:00:45.760 --> 00:00:49.550 align:start position:0%
+better memory protection in the AL
+runtime,<00:00:46.960><c> index</c><00:00:47.320><c> management,</c><00:00:48.640><c> analysis</c><00:00:49.200><c> mode</c>
+
+00:00:49.550 --> 00:00:49.560 align:start position:0%
+runtime, index management, analysis mode
+ 
+
+00:00:49.560 --> 00:00:52.750 align:start position:0%
+runtime, index management, analysis mode
+support<00:00:50.000><c> in</c><00:00:50.200><c> AL,</c><00:00:50.680><c> document</c><00:00:51.080><c> reporting,</c><00:00:52.160><c> and</c>
+
+00:00:52.750 --> 00:00:52.760 align:start position:0%
+support in AL, document reporting, and
+ 
+
+00:00:52.760 --> 00:00:55.150 align:start position:0%
+support in AL, document reporting, and
+and<00:00:52.960><c> security.</c><00:00:53.920><c> And</c><00:00:54.160><c> whenever</c><00:00:54.480><c> you</c><00:00:54.640><c> see</c><00:00:54.840><c> these</c>
+
+00:00:55.150 --> 00:00:55.160 align:start position:0%
+and security. And whenever you see these
+ 
+
+00:00:55.160 --> 00:00:56.950 align:start position:0%
+and security. And whenever you see these
+small<00:00:55.600><c> icons</c><00:00:56.080><c> with</c><00:00:56.240><c> a</c><00:00:56.280><c> little</c><00:00:56.560><c> teacher,</c>
+
+00:00:56.950 --> 00:00:56.960 align:start position:0%
+small icons with a little teacher,
+ 
+
+00:00:56.960 --> 00:00:58.910 align:start position:0%
+small icons with a little teacher,
+that's<00:00:57.200><c> actually</c><00:00:57.560><c> because</c><00:00:57.960><c> we</c><00:00:58.160><c> have</c><00:00:58.440><c> breakout</c>
+
+00:00:58.910 --> 00:00:58.920 align:start position:0%
+that's actually because we have breakout
+ 
+
+00:00:58.920 --> 00:01:01.070 align:start position:0%
+that's actually because we have breakout
+sessions<00:00:59.400><c> where</c><00:00:59.520><c> you</c><00:00:59.560><c> can</c><00:00:59.720><c> learn</c><00:01:00.000><c> more.</c><00:01:00.680><c> So</c><00:01:00.920><c> in</c>
+
+00:01:01.070 --> 00:01:01.080 align:start position:0%
+sessions where you can learn more. So in
+ 
+
+00:01:01.080 --> 00:01:03.630 align:start position:0%
+sessions where you can learn more. So in
+this<00:01:01.640><c> sessions,</c><00:01:02.200><c> it's</c><00:01:02.360><c> more</c><00:01:02.800><c> like</c><00:01:03.440><c> an</c>
+
+00:01:03.630 --> 00:01:03.640 align:start position:0%
+this sessions, it's more like an
+ 
+
+00:01:03.640 --> 00:01:05.470 align:start position:0%
+this sessions, it's more like an
+overview<00:01:04.040><c> session</c><00:01:04.519><c> at</c><00:01:04.680><c> least</c><00:01:04.920><c> for</c><00:01:05.040><c> these</c>
+
+00:01:05.470 --> 00:01:05.480 align:start position:0%
+overview session at least for these
+ 
+
+00:01:05.480 --> 00:01:06.590 align:start position:0%
+overview session at least for these
+topics.
+
+00:01:06.590 --> 00:01:06.600 align:start position:0%
+topics.
+ 
+
+00:01:06.600 --> 00:01:08.590 align:start position:0%
+topics.
+Yes,<00:01:06.800><c> so</c><00:01:06.960><c> the</c><00:01:07.080><c> first</c><00:01:07.360><c> topic</c><00:01:07.720><c> here</c><00:01:08.080><c> is</c><00:01:08.480><c> the</c>
+
+00:01:08.590 --> 00:01:08.600 align:start position:0%
+Yes, so the first topic here is the
+ 
+
+00:01:08.600 --> 00:01:10.550 align:start position:0%
+Yes, so the first topic here is the
+enhancements<00:01:09.240><c> that</c><00:01:09.400><c> we</c><00:01:09.600><c> have</c><00:01:09.840><c> built</c><00:01:10.320><c> to</c><00:01:10.440><c> the</c>
+
+00:01:10.550 --> 00:01:10.560 align:start position:0%
+enhancements that we have built to the
+ 
+
+00:01:10.560 --> 00:01:12.590 align:start position:0%
+enhancements that we have built to the
+MCP<00:01:11.040><c> server.</c>
+
+00:01:12.590 --> 00:01:12.600 align:start position:0%
+MCP server.
+ 
+
+00:01:12.600 --> 00:01:15.510 align:start position:0%
+MCP server.
+In<00:01:13.000><c> autumn,</c><00:01:13.640><c> we</c><00:01:13.800><c> presented</c><00:01:14.360><c> the</c><00:01:14.440><c> MCP</c><00:01:14.920><c> server</c>
+
+00:01:15.510 --> 00:01:15.520 align:start position:0%
+In autumn, we presented the MCP server
+ 
+
+00:01:15.520 --> 00:01:17.430 align:start position:0%
+In autumn, we presented the MCP server
+for<00:01:15.720><c> Business</c><00:01:16.120><c> Central.</c><00:01:16.800><c> And</c><00:01:16.960><c> since</c><00:01:17.200><c> then,</c>
+
+00:01:17.430 --> 00:01:17.440 align:start position:0%
+for Business Central. And since then,
+ 
+
+00:01:17.440 --> 00:01:19.550 align:start position:0%
+for Business Central. And since then,
+we've<00:01:17.640><c> been</c><00:01:17.880><c> working</c><00:01:18.320><c> on</c><00:01:18.520><c> making</c><00:01:18.880><c> it</c><00:01:19.120><c> even</c>
+
+00:01:19.550 --> 00:01:19.560 align:start position:0%
+we've been working on making it even
+ 
+
+00:01:19.560 --> 00:01:22.510 align:start position:0%
+we've been working on making it even
+better,<00:01:20.280><c> more</c><00:01:20.600><c> accurate,</c><00:01:21.040><c> etc.</c><00:01:22.080><c> I</c><00:01:22.160><c> want</c><00:01:22.400><c> to</c>
+
+00:01:22.510 --> 00:01:22.520 align:start position:0%
+better, more accurate, etc. I want to
+ 
+
+00:01:22.520 --> 00:01:25.550 align:start position:0%
+better, more accurate, etc. I want to
+highlight<00:01:23.560><c> the</c><00:01:24.120><c> MCP</c><00:01:24.600><c> protocol</c><00:01:25.040><c> compliance,</c>
+
+00:01:25.550 --> 00:01:25.560 align:start position:0%
+highlight the MCP protocol compliance,
+ 
+
+00:01:25.560 --> 00:01:27.350 align:start position:0%
+highlight the MCP protocol compliance,
+which<00:01:25.760><c> means</c><00:01:26.000><c> you</c><00:01:26.080><c> can</c><00:01:26.240><c> use</c><00:01:26.560><c> other</c><00:01:26.880><c> MCP</c>
+
+00:01:27.350 --> 00:01:27.360 align:start position:0%
+which means you can use other MCP
+ 
+
+00:01:27.360 --> 00:01:30.550 align:start position:0%
+which means you can use other MCP
+clients,<00:01:28.520><c> and</c><00:01:28.800><c> also</c><00:01:29.440><c> the</c><00:01:29.600><c> one</c><00:01:29.920><c> hitting</c><00:01:30.360><c> there</c>
+
+00:01:30.550 --> 00:01:30.560 align:start position:0%
+clients, and also the one hitting there
+ 
+
+00:01:30.560 --> 00:01:32.670 align:start position:0%
+clients, and also the one hitting there
+as<00:01:30.640><c> number</c><00:01:30.880><c> five,</c><00:01:31.320><c> the</c><00:01:31.440><c> file</c><00:01:31.840><c> support</c><00:01:32.320><c> using</c>
+
+00:01:32.670 --> 00:01:32.680 align:start position:0%
+as number five, the file support using
+ 
+
+00:01:32.680 --> 00:01:35.550 align:start position:0%
+as number five, the file support using
+resources,<00:01:33.680><c> allows</c><00:01:34.160><c> you</c><00:01:34.320><c> to</c><00:01:34.560><c> now</c><00:01:34.960><c> take</c><00:01:35.320><c> out</c>
+
+00:01:35.550 --> 00:01:35.560 align:start position:0%
+resources, allows you to now take out
+ 
+
+00:01:35.560 --> 00:01:38.310 align:start position:0%
+resources, allows you to now take out
+data<00:01:35.920><c> from</c><00:01:36.320><c> Business</c><00:01:36.720><c> Central</c><00:01:37.560><c> and</c><00:01:37.840><c> do</c><00:01:38.080><c> for</c>
+
+00:01:38.310 --> 00:01:38.320 align:start position:0%
+data from Business Central and do for
+ 
+
+00:01:38.320 --> 00:01:41.990 align:start position:0%
+data from Business Central and do for
+instance<00:01:38.680><c> statistical</c><00:01:39.360><c> analysis</c><00:01:40.560><c> on</c><00:01:40.800><c> it.</c>
+
+00:01:41.990 --> 00:01:42.000 align:start position:0%
+instance statistical analysis on it.
+ 
+
+00:01:42.000 --> 00:01:44.430 align:start position:0%
+instance statistical analysis on it.
+But<00:01:42.200><c> I</c><00:01:42.280><c> recommend</c><00:01:43.080><c> that</c><00:01:43.360><c> you</c><00:01:43.480><c> go</c><00:01:43.760><c> watch</c><00:01:44.320><c> the</c>
+
+00:01:44.430 --> 00:01:44.440 align:start position:0%
+But I recommend that you go watch the
+ 
+
+00:01:44.440 --> 00:01:47.270 align:start position:0%
+But I recommend that you go watch the
+session<00:01:45.080><c> on</c><00:01:45.360><c> MCP</c><00:01:45.800><c> server</c><00:01:46.200><c> where</c><00:01:46.520><c> all</c><00:01:46.880><c> of</c><00:01:47.000><c> these</c>
+
+00:01:47.270 --> 00:01:47.280 align:start position:0%
+session on MCP server where all of these
+ 
+
+00:01:47.280 --> 00:01:52.350 align:start position:0%
+session on MCP server where all of these
+topics<00:01:47.720><c> will</c><00:01:47.840><c> be</c><00:01:48.000><c> covered</c><00:01:48.360><c> in</c><00:01:48.440><c> detail.</c>
+
+00:01:52.350 --> 00:01:52.360 align:start position:0%
+ 
+ 
+
+00:01:52.360 --> 00:01:54.870 align:start position:0%
+ 
+Now,<00:01:52.680><c> another</c><00:01:53.040><c> thing</c><00:01:53.360><c> we</c><00:01:53.480><c> have</c><00:01:54.080><c> spent</c><00:01:54.560><c> quite</c><00:01:54.840><c> a</c>
+
+00:01:54.870 --> 00:01:54.880 align:start position:0%
+Now, another thing we have spent quite a
+ 
+
+00:01:54.880 --> 00:01:57.310 align:start position:0%
+Now, another thing we have spent quite a
+bit<00:01:55.040><c> of</c><00:01:55.160><c> time</c><00:01:55.400><c> on</c><00:01:55.520><c> in</c><00:01:55.600><c> this</c><00:01:55.800><c> release</c><00:01:56.520><c> is</c><00:01:57.080><c> to</c>
+
+00:01:57.310 --> 00:01:57.320 align:start position:0%
+bit of time on in this release is to
+ 
+
+00:01:57.320 --> 00:02:01.070 align:start position:0%
+bit of time on in this release is to
+improve<00:01:58.360><c> how</c><00:01:58.840><c> the</c><00:01:59.000><c> server</c><00:01:59.480><c> uses</c><00:02:00.040><c> memory.</c><00:02:00.920><c> We</c>
+
+00:02:01.070 --> 00:02:01.080 align:start position:0%
+improve how the server uses memory. We
+ 
+
+00:02:01.080 --> 00:02:03.150 align:start position:0%
+improve how the server uses memory. We
+have<00:02:01.360><c> lowered</c><00:02:01.840><c> the</c><00:02:01.960><c> memory</c><00:02:02.320><c> footprint</c><00:02:02.960><c> per</c>
+
+00:02:03.150 --> 00:02:03.160 align:start position:0%
+have lowered the memory footprint per
+ 
+
+00:02:03.160 --> 00:02:06.110 align:start position:0%
+have lowered the memory footprint per
+tenant,<00:02:04.280><c> and</c><00:02:04.800><c> more</c><00:02:05.040><c> importantly</c><00:02:05.720><c> actually,</c>
+
+00:02:06.110 --> 00:02:06.120 align:start position:0%
+tenant, and more importantly actually,
+ 
+
+00:02:06.120 --> 00:02:10.029 align:start position:0%
+tenant, and more importantly actually,
+we<00:02:06.360><c> have</c><00:02:06.640><c> optimized</c><00:02:07.360><c> the</c><00:02:07.480><c> base</c><00:02:07.800><c> 64</c><00:02:09.119><c> handling.</c>
+
+00:02:10.029 --> 00:02:10.039 align:start position:0%
+we have optimized the base 64 handling.
+ 
+
+00:02:10.039 --> 00:02:12.830 align:start position:0%
+we have optimized the base 64 handling.
+We<00:02:10.280><c> realized</c><00:02:11.160><c> that</c><00:02:11.640><c> one</c><00:02:11.880><c> of</c><00:02:12.000><c> the</c><00:02:12.400><c> common</c>
+
+00:02:12.830 --> 00:02:12.840 align:start position:0%
+We realized that one of the common
+ 
+
+00:02:12.840 --> 00:02:15.990 align:start position:0%
+We realized that one of the common
+causes<00:02:13.760><c> of</c><00:02:14.280><c> varying</c><00:02:14.840><c> performance</c><00:02:15.840><c> was</c>
+
+00:02:15.990 --> 00:02:16.000 align:start position:0%
+causes of varying performance was
+ 
+
+00:02:16.000 --> 00:02:17.950 align:start position:0%
+causes of varying performance was
+basically<00:02:16.480><c> memory</c><00:02:16.880><c> pressure,</c><00:02:17.440><c> and</c><00:02:17.600><c> a</c><00:02:17.640><c> lot</c><00:02:17.880><c> of</c>
+
+00:02:17.950 --> 00:02:17.960 align:start position:0%
+basically memory pressure, and a lot of
+ 
+
+00:02:17.960 --> 00:02:20.310 align:start position:0%
+basically memory pressure, and a lot of
+the<00:02:18.080><c> memory</c><00:02:18.400><c> pressure</c><00:02:18.840><c> comes</c><00:02:19.400><c> actually</c><00:02:19.800><c> from</c>
+
+00:02:20.310 --> 00:02:20.320 align:start position:0%
+the memory pressure comes actually from
+ 
+
+00:02:20.320 --> 00:02:24.030 align:start position:0%
+the memory pressure comes actually from
+AL<00:02:20.760><c> code</c><00:02:21.800><c> doing</c><00:02:22.160><c> things</c><00:02:22.560><c> requiring</c><00:02:23.520><c> a</c><00:02:23.640><c> lot</c><00:02:23.920><c> of</c>
+
+00:02:24.030 --> 00:02:24.040 align:start position:0%
+AL code doing things requiring a lot of
+ 
+
+00:02:24.040 --> 00:02:26.190 align:start position:0%
+AL code doing things requiring a lot of
+memory.<00:02:24.680><c> So</c><00:02:24.880><c> what</c><00:02:25.080><c> we</c><00:02:25.200><c> have</c><00:02:25.360><c> introduced</c><00:02:26.040><c> in</c>
+
+00:02:26.190 --> 00:02:26.200 align:start position:0%
+memory. So what we have introduced in
+ 
+
+00:02:26.200 --> 00:02:28.270 align:start position:0%
+memory. So what we have introduced in
+this<00:02:26.400><c> release,</c><00:02:27.040><c> and</c><00:02:27.240><c> the</c><00:02:27.320><c> work</c><00:02:27.560><c> is</c><00:02:27.680><c> ongoing,</c>
+
+00:02:28.270 --> 00:02:28.280 align:start position:0%
+this release, and the work is ongoing,
+ 
+
+00:02:28.280 --> 00:02:30.470 align:start position:0%
+this release, and the work is ongoing,
+is<00:02:28.520><c> we've</c><00:02:28.720><c> created</c><00:02:29.360><c> a</c><00:02:29.400><c> new</c><00:02:29.680><c> platform</c><00:02:30.200><c> code</c>
+
+00:02:30.470 --> 00:02:30.480 align:start position:0%
+is we've created a new platform code
+ 
+
+00:02:30.480 --> 00:02:32.670 align:start position:0%
+is we've created a new platform code
+unit<00:02:31.240><c> for</c>
+
+00:02:32.670 --> 00:02:32.680 align:start position:0%
+unit for
+ 
+
+00:02:32.680 --> 00:02:36.030 align:start position:0%
+unit for
+dealing<00:02:33.080><c> with</c><00:02:33.320><c> base</c><00:02:33.600><c> 64</c><00:02:34.240><c> conversion.</c><00:02:35.280><c> Because</c>
+
+00:02:36.030 --> 00:02:36.040 align:start position:0%
+dealing with base 64 conversion. Because
+ 
+
+00:02:36.040 --> 00:02:38.110 align:start position:0%
+dealing with base 64 conversion. Because
+for<00:02:36.400><c> OData</c><00:02:36.840><c> returns,</c>
+
+00:02:38.110 --> 00:02:38.120 align:start position:0%
+for OData returns,
+ 
+
+00:02:38.120 --> 00:02:40.110 align:start position:0%
+for OData returns,
+they<00:02:38.440><c> are</c><00:02:38.680><c> converted</c><00:02:39.240><c> into</c><00:02:39.480><c> strings</c><00:02:39.800><c> using</c>
+
+00:02:40.110 --> 00:02:40.120 align:start position:0%
+they are converted into strings using
+ 
+
+00:02:40.120 --> 00:02:42.190 align:start position:0%
+they are converted into strings using
+base<00:02:40.440><c> 64</c><00:02:40.920><c> convert.</c><00:02:41.400><c> So</c><00:02:41.560><c> there</c><00:02:41.680><c> is</c><00:02:41.800><c> a</c><00:02:41.880><c> new</c>
+
+00:02:42.190 --> 00:02:42.200 align:start position:0%
+base 64 convert. So there is a new
+ 
+
+00:02:42.200 --> 00:02:44.790 align:start position:0%
+base 64 convert. So there is a new
+platform<00:02:42.680><c> code</c><00:02:43.000><c> unit,</c><00:02:43.720><c> and</c><00:02:43.920><c> then</c><00:02:44.360><c> we</c><00:02:44.560><c> have</c>
+
+00:02:44.790 --> 00:02:44.800 align:start position:0%
+platform code unit, and then we have
+ 
+
+00:02:44.800 --> 00:02:48.390 align:start position:0%
+platform code unit, and then we have
+modified<00:02:45.720><c> the</c><00:02:45.880><c> existing</c><00:02:46.920><c> code</c><00:02:47.240><c> units</c><00:02:47.640><c> to</c><00:02:47.840><c> make</c>
+
+00:02:48.390 --> 00:02:48.400 align:start position:0%
+modified the existing code units to make
+ 
+
+00:02:48.400 --> 00:02:51.790 align:start position:0%
+modified the existing code units to make
+use<00:02:49.120><c> of</c><00:02:49.320><c> this</c><00:02:49.560><c> new</c><00:02:49.800><c> platform</c><00:02:50.360><c> code</c><00:02:50.640><c> unit,</c><00:02:51.400><c> and</c>
+
+00:02:51.790 --> 00:02:51.800 align:start position:0%
+use of this new platform code unit, and
+ 
+
+00:02:51.800 --> 00:02:54.590 align:start position:0%
+use of this new platform code unit, and
+also<00:02:52.400><c> introduced</c><00:02:53.040><c> a</c><00:02:53.120><c> method</c><00:02:53.680><c> which</c><00:02:54.000><c> allows</c>
+
+00:02:54.590 --> 00:02:54.600 align:start position:0%
+also introduced a method which allows
+ 
+
+00:02:54.600 --> 00:02:57.510 align:start position:0%
+also introduced a method which allows
+you<00:02:54.880><c> to</c><00:02:55.760><c> put</c><00:02:56.080><c> the</c><00:02:56.200><c> result</c><00:02:56.720><c> of</c><00:02:56.840><c> this</c><00:02:57.120><c> into</c><00:02:57.440><c> a</c>
+
+00:02:57.510 --> 00:02:57.520 align:start position:0%
+you to put the result of this into a
+ 
+
+00:02:57.520 --> 00:03:01.070 align:start position:0%
+you to put the result of this into a
+stream,<00:02:58.600><c> also</c><00:02:59.160><c> reducing</c><00:03:00.000><c> the</c><00:03:00.160><c> memory</c>
+
+00:03:01.070 --> 00:03:01.080 align:start position:0%
+stream, also reducing the memory
+ 
+
+00:03:01.080 --> 00:03:03.510 align:start position:0%
+stream, also reducing the memory
+pressure<00:03:01.880><c> from</c><00:03:02.160><c> this</c><00:03:02.320><c> operation.</c>
+
+00:03:03.510 --> 00:03:03.520 align:start position:0%
+pressure from this operation.
+ 
+
+00:03:03.520 --> 00:03:05.630 align:start position:0%
+pressure from this operation.
+The<00:03:03.840><c> new</c><00:03:04.200><c> platform</c><00:03:04.680><c> code</c><00:03:04.960><c> unit</c><00:03:05.320><c> has</c><00:03:05.560><c> a</c>
+
+00:03:05.630 --> 00:03:05.640 align:start position:0%
+The new platform code unit has a
+ 
+
+00:03:05.640 --> 00:03:08.510 align:start position:0%
+The new platform code unit has a
+significantly<00:03:06.560><c> lower</c><00:03:07.400><c> memory</c><00:03:07.840><c> footprint</c>
+
+00:03:08.510 --> 00:03:08.520 align:start position:0%
+significantly lower memory footprint
+ 
+
+00:03:08.520 --> 00:03:11.790 align:start position:0%
+significantly lower memory footprint
+than<00:03:09.000><c> the</c><00:03:09.480><c> older</c><00:03:10.000><c> implementation.</c>
+
+00:03:11.790 --> 00:03:11.800 align:start position:0%
+than the older implementation.
+ 
+
+00:03:11.800 --> 00:03:13.910 align:start position:0%
+than the older implementation.
+What<00:03:12.040><c> this</c><00:03:12.240><c> means</c><00:03:12.520><c> to</c><00:03:12.680><c> you</c>
+
+00:03:13.910 --> 00:03:13.920 align:start position:0%
+What this means to you
+ 
+
+00:03:13.920 --> 00:03:15.510 align:start position:0%
+What this means to you
+is
+
+00:03:15.510 --> 00:03:15.520 align:start position:0%
+is
+ 
+
+00:03:15.520 --> 00:03:17.310 align:start position:0%
+is
+actually<00:03:15.880><c> very</c><00:03:16.120><c> simple.</c><00:03:16.600><c> You</c><00:03:16.680><c> don't</c><00:03:16.920><c> need</c><00:03:17.200><c> to</c>
+
+00:03:17.310 --> 00:03:17.320 align:start position:0%
+actually very simple. You don't need to
+ 
+
+00:03:17.320 --> 00:03:19.790 align:start position:0%
+actually very simple. You don't need to
+change<00:03:17.680><c> any</c><00:03:17.920><c> code.</c><00:03:18.800><c> What</c><00:03:19.000><c> you'll</c><00:03:19.200><c> see</c><00:03:19.560><c> is</c>
+
+00:03:19.790 --> 00:03:19.800 align:start position:0%
+change any code. What you'll see is
+ 
+
+00:03:19.800 --> 00:03:23.270 align:start position:0%
+change any code. What you'll see is
+fewer<00:03:20.480><c> out</c><00:03:20.680><c> of</c><00:03:20.760><c> memory</c><00:03:21.080><c> exceptions,</c><00:03:21.600><c> but</c><00:03:21.920><c> also</c>
+
+00:03:23.270 --> 00:03:23.280 align:start position:0%
+fewer out of memory exceptions, but also
+ 
+
+00:03:23.280 --> 00:03:25.470 align:start position:0%
+fewer out of memory exceptions, but also
+AL<00:03:23.800><c> errors</c><00:03:24.200><c> where</c><00:03:24.400><c> we</c><00:03:24.560><c> have</c><00:03:24.800><c> caught</c><00:03:25.360><c> the</c>
+
+00:03:25.470 --> 00:03:25.480 align:start position:0%
+AL errors where we have caught the
+ 
+
+00:03:25.480 --> 00:03:28.350 align:start position:0%
+AL errors where we have caught the
+excessive<00:03:26.600><c> memory</c><00:03:27.200><c> usage.</c>
+
+00:03:28.350 --> 00:03:28.360 align:start position:0%
+excessive memory usage.
+ 
+
+00:03:28.360 --> 00:03:31.350 align:start position:0%
+excessive memory usage.
+So<00:03:28.840><c> you</c><00:03:29.080><c> basically</c><00:03:29.520><c> need</c><00:03:29.840><c> to</c><00:03:30.000><c> react</c><00:03:30.440><c> to</c><00:03:30.560><c> those</c>
+
+00:03:31.350 --> 00:03:31.360 align:start position:0%
+So you basically need to react to those
+ 
+
+00:03:31.360 --> 00:03:33.510 align:start position:0%
+So you basically need to react to those
+and<00:03:31.800><c> put</c><00:03:32.120><c> limits</c><00:03:32.560><c> in.</c>
+
+00:03:33.510 --> 00:03:33.520 align:start position:0%
+and put limits in.
+ 
+
+00:03:33.520 --> 00:03:37.550 align:start position:0%
+and put limits in.
+We<00:03:33.760><c> cannot</c><00:03:34.760><c> generate</c><00:03:35.560><c> arbitrarily</c><00:03:36.800><c> large</c>
+
+00:03:37.550 --> 00:03:37.560 align:start position:0%
+We cannot generate arbitrarily large
+ 
+
+00:03:37.560 --> 00:03:40.230 align:start position:0%
+We cannot generate arbitrarily large
+base<00:03:37.920><c> 64</c><00:03:38.480><c> strings.</c><00:03:39.080><c> If</c><00:03:39.280><c> you</c><00:03:39.440><c> try</c><00:03:39.840><c> to</c><00:03:40.000><c> do</c>
+
+00:03:40.230 --> 00:03:40.240 align:start position:0%
+base 64 strings. If you try to do
+ 
+
+00:03:40.240 --> 00:03:43.870 align:start position:0%
+base 64 strings. If you try to do
+something<00:03:40.760><c> on</c><00:03:40.960><c> a</c><00:03:41.080><c> 15</c><00:03:41.640><c> GB</c><00:03:42.640><c> document,</c><00:03:43.520><c> you</c><00:03:43.680><c> will</c>
+
+00:03:43.870 --> 00:03:43.880 align:start position:0%
+something on a 15 GB document, you will
+ 
+
+00:03:43.880 --> 00:03:47.150 align:start position:0%
+something on a 15 GB document, you will
+now<00:03:44.160><c> see</c><00:03:44.440><c> these</c><00:03:45.000><c> new</c><00:03:45.280><c> errors.</c><00:03:46.040><c> So</c><00:03:46.280><c> overall,</c>
+
+00:03:47.150 --> 00:03:47.160 align:start position:0%
+now see these new errors. So overall,
+ 
+
+00:03:47.160 --> 00:03:48.510 align:start position:0%
+now see these new errors. So overall,
+you<00:03:47.360><c> see</c>
+
+00:03:48.510 --> 00:03:48.520 align:start position:0%
+you see
+ 
+
+00:03:48.520 --> 00:03:50.750 align:start position:0%
+you see
+an<00:03:48.720><c> improved</c><00:03:49.240><c> performance,</c>
+
+00:03:50.750 --> 00:03:50.760 align:start position:0%
+an improved performance,
+ 
+
+00:03:50.760 --> 00:03:52.710 align:start position:0%
+an improved performance,
+and<00:03:50.960><c> particularly</c><00:03:51.560><c> if</c><00:03:51.800><c> you</c><00:03:51.920><c> make</c><00:03:52.240><c> use</c><00:03:52.520><c> of</c><00:03:52.600><c> the</c>
+
+00:03:52.710 --> 00:03:52.720 align:start position:0%
+and particularly if you make use of the
+ 
+
+00:03:52.720 --> 00:03:54.790 align:start position:0%
+and particularly if you make use of the
+new<00:03:52.920><c> stream</c><00:03:53.280><c> overloads.</c>
+
+00:03:54.790 --> 00:03:54.800 align:start position:0%
+new stream overloads.
+ 
+
+00:03:54.800 --> 00:03:58.150 align:start position:0%
+new stream overloads.
+And<00:03:55.520><c> I</c><00:03:56.120><c> probably</c><00:03:56.520><c> also,</c><00:03:57.120><c> if</c><00:03:57.360><c> your</c><00:03:57.520><c> friends</c><00:03:58.000><c> are</c>
+
+00:03:58.150 --> 00:03:58.160 align:start position:0%
+And I probably also, if your friends are
+ 
+
+00:03:58.160 --> 00:04:00.550 align:start position:0%
+And I probably also, if your friends are
+using<00:03:58.560><c> this,</c><00:03:59.120><c> the</c><00:03:59.240><c> performance</c><00:03:59.800><c> of</c><00:03:59.960><c> the</c><00:04:00.080><c> your</c>
+
+00:04:00.550 --> 00:04:00.560 align:start position:0%
+using this, the performance of the your
+ 
+
+00:04:00.560 --> 00:04:02.630 align:start position:0%
+using this, the performance of the your
+environments<00:04:01.320><c> will</c><00:04:01.520><c> go</c><00:04:01.760><c> up</c><00:04:02.400><c> Yes.</c>
+
+00:04:02.630 --> 00:04:02.640 align:start position:0%
+environments will go up Yes.
+ 
+
+00:04:02.640 --> 00:04:05.150 align:start position:0%
+environments will go up Yes.
+&gt;&gt; because<00:04:03.120><c> memory</c><00:04:03.560><c> pressure</c><00:04:04.160><c> hurts</c><00:04:04.600><c> everyone,</c>
+
+00:04:05.150 --> 00:04:05.160 align:start position:0%
+&gt;&gt; because memory pressure hurts everyone,
+ 
+
+00:04:05.160 --> 00:04:07.390 align:start position:0%
+&gt;&gt; because memory pressure hurts everyone,
+not<00:04:05.440><c> only</c><00:04:06.240><c> your</c>
+
+00:04:07.390 --> 00:04:07.400 align:start position:0%
+not only your
+ 
+
+00:04:07.400 --> 00:04:07.990 align:start position:0%
+not only your
+sessions.
+
+00:04:07.990 --> 00:04:08.000 align:start position:0%
+sessions.
+ 
+
+00:04:08.000 --> 00:04:09.870 align:start position:0%
+sessions.
+&gt;&gt; It's<00:04:08.040><c> not</c><00:04:08.240><c> only</c><00:04:08.520><c> your</c><00:04:08.760><c> session.</c><00:04:09.200><c> This</c><00:04:09.560><c> is</c>
+
+00:04:09.870 --> 00:04:09.880 align:start position:0%
+&gt;&gt; It's not only your session. This is
+ 
+
+00:04:09.880 --> 00:04:14.870 align:start position:0%
+&gt;&gt; It's not only your session. This is
+putting<00:04:10.200><c> pressure</c><00:04:10.760><c> on</c><00:04:11.120><c> the</c><00:04:11.200><c> whole</c><00:04:11.440><c> system.</c>
+
+00:04:14.870 --> 00:04:14.880 align:start position:0%
+ 
+ 
+
+00:04:14.880 --> 00:04:17.229 align:start position:0%
+ 
+Now,<00:04:15.280><c> we're</c><00:04:15.480><c> not</c><00:04:15.760><c> done</c><00:04:16.359><c> with</c><00:04:16.760><c> the</c><00:04:16.880><c> memory</c>
+
+00:04:17.229 --> 00:04:17.239 align:start position:0%
+Now, we're not done with the memory
+ 
+
+00:04:17.239 --> 00:04:20.310 align:start position:0%
+Now, we're not done with the memory
+work.<00:04:18.160><c> You</c><00:04:18.400><c> should</c><00:04:18.600><c> expect</c><00:04:19.000><c> us</c><00:04:19.120><c> to</c><00:04:19.320><c> do</c><00:04:19.959><c> more</c><00:04:20.200><c> on</c>
+
+00:04:20.310 --> 00:04:20.320 align:start position:0%
+work. You should expect us to do more on
+ 
+
+00:04:20.320 --> 00:04:22.990 align:start position:0%
+work. You should expect us to do more on
+this.<00:04:20.720><c> We</c><00:04:20.959><c> will</c><00:04:21.280><c> add</c><00:04:21.600><c> telemetry</c>
+
+00:04:22.990 --> 00:04:23.000 align:start position:0%
+this. We will add telemetry
+ 
+
+00:04:23.000 --> 00:04:24.990 align:start position:0%
+this. We will add telemetry
+also<00:04:23.280><c> for</c><00:04:23.480><c> partners</c><00:04:24.040><c> on</c><00:04:24.240><c> large</c><00:04:24.560><c> JSON</c>
+
+00:04:24.990 --> 00:04:25.000 align:start position:0%
+also for partners on large JSON
+ 
+
+00:04:25.000 --> 00:04:28.190 align:start position:0%
+also for partners on large JSON
+documents,<00:04:25.680><c> large</c><00:04:26.040><c> XML</c><00:04:26.440><c> documents,</c><00:04:26.920><c> etc.</c><00:04:27.880><c> And</c>
+
+00:04:28.190 --> 00:04:28.200 align:start position:0%
+documents, large XML documents, etc. And
+ 
+
+00:04:28.200 --> 00:04:31.230 align:start position:0%
+documents, large XML documents, etc. And
+at<00:04:28.320><c> some</c><00:04:28.560><c> point,</c><00:04:29.000><c> we</c><00:04:29.240><c> are</c><00:04:29.480><c> also</c><00:04:30.040><c> going</c><00:04:30.600><c> to</c><00:04:30.840><c> put</c>
+
+00:04:31.230 --> 00:04:31.240 align:start position:0%
+at some point, we are also going to put
+ 
+
+00:04:31.240 --> 00:04:34.590 align:start position:0%
+at some point, we are also going to put
+in<00:04:31.520><c> limits</c><00:04:32.080><c> on</c><00:04:32.360><c> the</c><00:04:32.480><c> sizes</c><00:04:33.400><c> of</c><00:04:33.560><c> objects.</c><00:04:34.440><c> In</c>
+
+00:04:34.590 --> 00:04:34.600 align:start position:0%
+in limits on the sizes of objects. In
+ 
+
+00:04:34.600 --> 00:04:36.910 align:start position:0%
+in limits on the sizes of objects. In
+addition<00:04:34.960><c> to</c><00:04:35.080><c> that,</c><00:04:35.560><c> we</c><00:04:35.720><c> keep</c><00:04:36.080><c> working</c><00:04:36.640><c> on</c>
+
+00:04:36.910 --> 00:04:36.920 align:start position:0%
+addition to that, we keep working on
+ 
+
+00:04:36.920 --> 00:04:39.110 align:start position:0%
+addition to that, we keep working on
+optimizing<00:04:37.520><c> our</c><00:04:37.640><c> memory</c><00:04:37.960><c> usage</c>
+
+00:04:39.110 --> 00:04:39.120 align:start position:0%
+optimizing our memory usage
+ 
+
+00:04:39.120 --> 00:04:41.870 align:start position:0%
+optimizing our memory usage
+to<00:04:39.360><c> give</c><00:04:39.760><c> you</c><00:04:40.160><c> a</c><00:04:40.240><c> more</c><00:04:40.480><c> responsive</c><00:04:40.960><c> system.</c>
+
+00:04:41.870 --> 00:04:41.880 align:start position:0%
+to give you a more responsive system.
+ 
+
+00:04:41.880 --> 00:04:45.470 align:start position:0%
+to give you a more responsive system.
+Now,<00:04:42.200><c> another</c><00:04:43.080><c> new</c><00:04:43.560><c> thing</c><00:04:43.840><c> we've</c><00:04:44.160><c> added</c><00:04:44.960><c> is</c>
+
+00:04:45.470 --> 00:04:45.480 align:start position:0%
+Now, another new thing we've added is
+ 
+
+00:04:45.480 --> 00:04:49.550 align:start position:0%
+Now, another new thing we've added is
+the<00:04:45.760><c> ability</c><00:04:46.680><c> to</c><00:04:46.880><c> get</c><00:04:47.200><c> more</c><00:04:47.720><c> insights</c><00:04:48.840><c> into</c>
+
+00:04:49.550 --> 00:04:49.560 align:start position:0%
+the ability to get more insights into
+ 
+
+00:04:49.560 --> 00:04:52.270 align:start position:0%
+the ability to get more insights into
+your<00:04:49.840><c> index</c><00:04:50.320><c> usage.</c><00:04:51.000><c> Now</c><00:04:51.360><c> we're</c><00:04:51.520><c> talking</c><00:04:52.000><c> more</c>
+
+00:04:52.270 --> 00:04:52.280 align:start position:0%
+your index usage. Now we're talking more
+ 
+
+00:04:52.280 --> 00:04:55.910 align:start position:0%
+your index usage. Now we're talking more
+over<00:04:52.520><c> to</c><00:04:52.640><c> the</c><00:04:52.760><c> database</c><00:04:53.360><c> size,</c><00:04:54.120><c> not</c><00:04:54.960><c> not</c><00:04:55.440><c> the</c>
+
+00:04:55.910 --> 00:04:55.920 align:start position:0%
+over to the database size, not not the
+ 
+
+00:04:55.920 --> 00:05:00.190 align:start position:0%
+over to the database size, not not the
+memory<00:04:56.440><c> usage,</c><00:04:57.280><c> but</c><00:04:57.520><c> how</c><00:04:57.760><c> much</c><00:04:58.160><c> space</c><00:04:59.080><c> and</c><00:05:00.000><c> you</c>
+
+00:05:00.190 --> 00:05:00.200 align:start position:0%
+memory usage, but how much space and you
+ 
+
+00:05:00.200 --> 00:05:02.470 align:start position:0%
+memory usage, but how much space and you
+use<00:05:00.520><c> for</c><00:05:00.720><c> indexes</c><00:05:01.320><c> in</c><00:05:01.520><c> the</c><00:05:01.600><c> database,</c><00:05:02.280><c> and</c>
+
+00:05:02.470 --> 00:05:02.480 align:start position:0%
+use for indexes in the database, and
+ 
+
+00:05:02.480 --> 00:05:05.670 align:start position:0%
+use for indexes in the database, and
+also<00:05:02.880><c> whether</c><00:05:03.160><c> these</c><00:05:03.560><c> indices</c><00:05:04.240><c> are</c><00:05:04.400><c> used.</c>
+
+00:05:05.670 --> 00:05:05.680 align:start position:0%
+also whether these indices are used.
+ 
+
+00:05:05.680 --> 00:05:07.750 align:start position:0%
+also whether these indices are used.
+This<00:05:05.880><c> is</c><00:05:06.160><c> also</c><00:05:06.600><c> covered</c><00:05:07.120><c> in</c><00:05:07.280><c> a</c><00:05:07.360><c> special</c>
+
+00:05:07.750 --> 00:05:07.760 align:start position:0%
+This is also covered in a special
+ 
+
+00:05:07.760 --> 00:05:10.150 align:start position:0%
+This is also covered in a special
+session,<00:05:08.440><c> but</c><00:05:08.640><c> I</c><00:05:08.720><c> want</c><00:05:09.000><c> to</c><00:05:09.160><c> highlight</c><00:05:09.920><c> that</c>
+
+00:05:10.150 --> 00:05:10.160 align:start position:0%
+session, but I want to highlight that
+ 
+
+00:05:10.160 --> 00:05:13.270 align:start position:0%
+session, but I want to highlight that
+with<00:05:10.400><c> this</c><00:05:10.600><c> new</c><00:05:10.800><c> capability,</c><00:05:11.840><c> we</c><00:05:12.120><c> also</c><00:05:12.760><c> add</c>
+
+00:05:13.270 --> 00:05:13.280 align:start position:0%
+with this new capability, we also add
+ 
+
+00:05:13.280 --> 00:05:17.510 align:start position:0%
+with this new capability, we also add
+the<00:05:13.480><c> ability</c><00:05:14.120><c> for</c><00:05:14.360><c> you</c><00:05:15.160><c> to</c><00:05:15.880><c> remove</c><00:05:16.800><c> indices</c>
+
+00:05:17.510 --> 00:05:17.520 align:start position:0%
+the ability for you to remove indices
+ 
+
+00:05:17.520 --> 00:05:20.670 align:start position:0%
+the ability for you to remove indices
+that<00:05:17.760><c> is</c><00:05:17.960><c> not</c><00:05:18.480><c> needed</c><00:05:19.080><c> for</c><00:05:19.240><c> this</c><00:05:19.560><c> particular</c>
+
+00:05:20.670 --> 00:05:20.680 align:start position:0%
+that is not needed for this particular
+ 
+
+00:05:20.680 --> 00:05:23.870 align:start position:0%
+that is not needed for this particular
+environment.<00:05:21.560><c> You</c><00:05:21.800><c> can</c><00:05:22.080><c> turn</c>
+
+00:05:23.870 --> 00:05:23.880 align:start position:0%
+environment. You can turn
+ 
+
+00:05:23.880 --> 00:05:26.990 align:start position:0%
+environment. You can turn
+a<00:05:24.320><c> metadata</c><00:05:24.920><c> defined</c><00:05:25.400><c> index</c><00:05:26.040><c> off.</c><00:05:26.720><c> You</c><00:05:26.840><c> can</c>
+
+00:05:26.990 --> 00:05:27.000 align:start position:0%
+a metadata defined index off. You can
+ 
+
+00:05:27.000 --> 00:05:30.350 align:start position:0%
+a metadata defined index off. You can
+also<00:05:27.280><c> turn</c><00:05:27.560><c> it</c><00:05:27.720><c> back</c><00:05:28.080><c> on.</c><00:05:28.880><c> And</c><00:05:29.360><c> we</c><00:05:29.600><c> also</c><00:05:30.000><c> have</c>
+
+00:05:30.350 --> 00:05:30.360 align:start position:0%
+also turn it back on. And we also have
+ 
+
+00:05:30.360 --> 00:05:32.710 align:start position:0%
+also turn it back on. And we also have
+these<00:05:30.760><c> auto-tune</c><00:05:31.320><c> indexes,</c><00:05:31.920><c> we</c><00:05:32.040><c> call</c><00:05:32.360><c> them</c>
+
+00:05:32.710 --> 00:05:32.720 align:start position:0%
+these auto-tune indexes, we call them
+ 
+
+00:05:32.720 --> 00:05:35.030 align:start position:0%
+these auto-tune indexes, we call them
+when<00:05:33.640><c> we</c><00:05:33.880><c> have</c><00:05:34.000><c> detected</c><00:05:34.480><c> an</c><00:05:34.600><c> index</c><00:05:34.920><c> would</c>
+
+00:05:35.030 --> 00:05:35.040 align:start position:0%
+when we have detected an index would
+ 
+
+00:05:35.040 --> 00:05:38.190 align:start position:0%
+when we have detected an index would
+help.<00:05:35.480><c> You</c><00:05:35.640><c> can</c><00:05:35.880><c> also</c><00:05:36.240><c> remove</c><00:05:36.640><c> those</c><00:05:37.480><c> if</c><00:05:37.920><c> you</c>
+
+00:05:38.190 --> 00:05:38.200 align:start position:0%
+help. You can also remove those if you
+ 
+
+00:05:38.200 --> 00:05:40.670 align:start position:0%
+help. You can also remove those if you
+want<00:05:38.640><c> to</c><00:05:38.840><c> reclaim</c><00:05:39.680><c> the</c><00:05:39.800><c> size</c><00:05:40.160><c> that</c><00:05:40.320><c> these</c><00:05:40.560><c> are</c>
+
+00:05:40.670 --> 00:05:40.680 align:start position:0%
+want to reclaim the size that these are
+ 
+
+00:05:40.680 --> 00:05:44.030 align:start position:0%
+want to reclaim the size that these are
+using.<00:05:41.560><c> Plus,</c><00:05:41.960><c> having</c><00:05:42.360><c> a</c><00:05:42.440><c> lot</c><00:05:42.800><c> of</c><00:05:42.920><c> indexes</c><00:05:43.640><c> can</c>
+
+00:05:44.030 --> 00:05:44.040 align:start position:0%
+using. Plus, having a lot of indexes can
+ 
+
+00:05:44.040 --> 00:05:45.910 align:start position:0%
+using. Plus, having a lot of indexes can
+make<00:05:44.280><c> write</c><00:05:44.560><c> operations</c><00:05:45.160><c> smaller,</c><00:05:45.720><c> not</c>
+
+00:05:45.910 --> 00:05:45.920 align:start position:0%
+make write operations smaller, not
+ 
+
+00:05:45.920 --> 00:05:48.750 align:start position:0%
+make write operations smaller, not
+smaller,<00:05:46.760><c> but</c><00:05:47.080><c> slower.</c><00:05:47.720><c> Yeah.</c>
+
+00:05:48.750 --> 00:05:48.760 align:start position:0%
+smaller, but slower. Yeah.
+ 
+
+00:05:48.760 --> 00:05:49.870 align:start position:0%
+smaller, but slower. Yeah.
+Again,
+
+00:05:49.870 --> 00:05:49.880 align:start position:0%
+Again,
+ 
+
+00:05:49.880 --> 00:05:51.510 align:start position:0%
+Again,
+watch<00:05:50.200><c> the</c><00:05:50.320><c> specific</c><00:05:50.800><c> session</c><00:05:51.280><c> on</c><00:05:51.400><c> this</c>
+
+00:05:51.510 --> 00:05:51.520 align:start position:0%
+watch the specific session on this
+ 
+
+00:05:51.520 --> 00:05:52.470 align:start position:0%
+watch the specific session on this
+topic.
+
+00:05:52.470 --> 00:05:52.480 align:start position:0%
+topic.
+ 
+
+00:05:52.480 --> 00:05:54.510 align:start position:0%
+topic.
+And<00:05:52.920><c> another</c><00:05:53.280><c> feature</c><00:05:53.600><c> that</c><00:05:53.840><c> resides</c><00:05:54.360><c> in</c><00:05:54.440><c> the</c>
+
+00:05:54.510 --> 00:05:54.520 align:start position:0%
+And another feature that resides in the
+ 
+
+00:05:54.520 --> 00:05:56.830 align:start position:0%
+And another feature that resides in the
+database<00:05:55.560><c> is</c>
+
+00:05:56.830 --> 00:05:56.840 align:start position:0%
+database is
+ 
+
+00:05:56.840 --> 00:05:59.830 align:start position:0%
+database is
+analysis<00:05:57.360><c> mode</c><00:05:57.920><c> or</c><00:05:58.000><c> analysis</c><00:05:58.400><c> mode</c><00:05:58.680><c> views.</c>
+
+00:05:59.830 --> 00:05:59.840 align:start position:0%
+analysis mode or analysis mode views.
+ 
+
+00:05:59.840 --> 00:06:01.990 align:start position:0%
+analysis mode or analysis mode views.
+Analysis<00:06:00.240><c> mode</c><00:06:00.560><c> is</c><00:06:00.800><c> a</c><00:06:00.880><c> hugely</c><00:06:01.520><c> popular</c>
+
+00:06:01.990 --> 00:06:02.000 align:start position:0%
+Analysis mode is a hugely popular
+ 
+
+00:06:02.000 --> 00:06:03.750 align:start position:0%
+Analysis mode is a hugely popular
+feature<00:06:02.480><c> with</c><00:06:02.880><c> with</c><00:06:03.040><c> Business</c><00:06:03.360><c> Central</c>
+
+00:06:03.750 --> 00:06:03.760 align:start position:0%
+feature with with Business Central
+ 
+
+00:06:03.760 --> 00:06:06.390 align:start position:0%
+feature with with Business Central
+users.<00:06:04.520><c> And</c><00:06:04.720><c> in</c><00:06:04.840><c> this</c><00:06:05.080><c> release</c><00:06:05.480><c> wave,</c><00:06:06.240><c> we</c>
+
+00:06:06.390 --> 00:06:06.400 align:start position:0%
+users. And in this release wave, we
+ 
+
+00:06:06.400 --> 00:06:09.190 align:start position:0%
+users. And in this release wave, we
+allow<00:06:07.000><c> AL</c><00:06:07.280><c> developers</c><00:06:07.880><c> to</c><00:06:08.040><c> include</c><00:06:08.640><c> analysis</c>
+
+00:06:09.190 --> 00:06:09.200 align:start position:0%
+allow AL developers to include analysis
+ 
+
+00:06:09.200 --> 00:06:12.470 align:start position:0%
+allow AL developers to include analysis
+view<00:06:09.480><c> definitions</c><00:06:10.400><c> in</c><00:06:10.840><c> their</c><00:06:11.320><c> apps.</c>
+
+00:06:12.470 --> 00:06:12.480 align:start position:0%
+view definitions in their apps.
+ 
+
+00:06:12.480 --> 00:06:15.750 align:start position:0%
+view definitions in their apps.
+So<00:06:13.280><c> this</c><00:06:13.680><c> is</c><00:06:14.000><c> covered</c><00:06:14.440><c> in</c><00:06:14.560><c> detail</c><00:06:15.200><c> in</c><00:06:15.360><c> the</c><00:06:15.560><c> in</c><00:06:15.680><c> a</c>
+
+00:06:15.750 --> 00:06:15.760 align:start position:0%
+So this is covered in detail in the in a
+ 
+
+00:06:15.760 --> 00:06:18.470 align:start position:0%
+So this is covered in detail in the in a
+breakout<00:06:16.200><c> session,</c><00:06:16.680><c> so</c><00:06:17.120><c> check</c><00:06:17.400><c> that</c>
+
+00:06:18.470 --> 00:06:18.480 align:start position:0%
+breakout session, so check that
+ 
+
+00:06:18.480 --> 00:06:20.470 align:start position:0%
+breakout session, so check that
+in<00:06:18.600><c> the</c><00:06:18.680><c> description.</c>
+
+00:06:20.470 --> 00:06:20.480 align:start position:0%
+in the description.
+ 
+
+00:06:20.480 --> 00:06:23.590 align:start position:0%
+in the description.
+But<00:06:20.640><c> basically,</c><00:06:21.320><c> it's</c><00:06:22.080><c> the</c><00:06:22.360><c> the</c><00:06:22.480><c> flow</c><00:06:22.800><c> is</c><00:06:23.080><c> that</c>
+
+00:06:23.590 --> 00:06:23.600 align:start position:0%
+But basically, it's the the flow is that
+ 
+
+00:06:23.600 --> 00:06:26.350 align:start position:0%
+But basically, it's the the flow is that
+as<00:06:24.080><c> as</c><00:06:24.320><c> a</c><00:06:24.400><c> developer,</c><00:06:24.920><c> you</c><00:06:25.120><c> use</c><00:06:25.440><c> the</c><00:06:25.520><c> client</c><00:06:26.200><c> to</c>
+
+00:06:26.350 --> 00:06:26.360 align:start position:0%
+as as a developer, you use the client to
+ 
+
+00:06:26.360 --> 00:06:29.630 align:start position:0%
+as as a developer, you use the client to
+define<00:06:26.840><c> your</c><00:06:27.000><c> analysis</c><00:06:27.600><c> view.</c><00:06:28.480><c> You</c><00:06:29.000><c> export</c><00:06:29.520><c> it</c>
+
+00:06:29.630 --> 00:06:29.640 align:start position:0%
+define your analysis view. You export it
+ 
+
+00:06:29.640 --> 00:06:32.270 align:start position:0%
+define your analysis view. You export it
+to<00:06:29.760><c> JSON.</c><00:06:30.520><c> You</c><00:06:30.640><c> put</c><00:06:30.880><c> that</c><00:06:31.120><c> into</c><00:06:31.440><c> your</c><00:06:31.680><c> app</c><00:06:32.040><c> with</c>
+
+00:06:32.270 --> 00:06:32.280 align:start position:0%
+to JSON. You put that into your app with
+ 
+
+00:06:32.280 --> 00:06:34.710 align:start position:0%
+to JSON. You put that into your app with
+some<00:06:32.480><c> extra</c><00:06:32.760><c> metadata,</c><00:06:33.800><c> and</c><00:06:34.000><c> now</c><00:06:34.320><c> this</c><00:06:34.560><c> is</c>
+
+00:06:34.710 --> 00:06:34.720 align:start position:0%
+some extra metadata, and now this is
+ 
+
+00:06:34.720 --> 00:06:36.870 align:start position:0%
+some extra metadata, and now this is
+available
+
+00:06:36.870 --> 00:06:36.880 align:start position:0%
+available
+ 
+
+00:06:36.880 --> 00:06:39.470 align:start position:0%
+available
+whenever<00:06:37.800><c> users</c><00:06:38.360><c> open</c><00:06:38.800><c> this</c><00:06:39.040><c> particular</c>
+
+00:06:39.470 --> 00:06:39.480 align:start position:0%
+whenever users open this particular
+ 
+
+00:06:39.480 --> 00:06:44.270 align:start position:0%
+whenever users open this particular
+page.
+
+00:06:44.270 --> 00:06:44.280 align:start position:0%
+ 
+ 
+
+00:06:44.280 --> 00:06:46.190 align:start position:0%
+ 
+Okay,<00:06:44.560><c> let's</c><00:06:44.840><c> shift</c><00:06:45.160><c> gears</c><00:06:45.560><c> towards</c>
+
+00:06:46.190 --> 00:06:46.200 align:start position:0%
+Okay, let's shift gears towards
+ 
+
+00:06:46.200 --> 00:06:49.190 align:start position:0%
+Okay, let's shift gears towards
+reporting,<00:06:46.920><c> more</c><00:06:47.400><c> like</c><00:06:47.640><c> document</c><00:06:48.080><c> reporting.</c>
+
+00:06:49.190 --> 00:06:49.200 align:start position:0%
+reporting, more like document reporting.
+ 
+
+00:06:49.200 --> 00:06:50.230 align:start position:0%
+reporting, more like document reporting.
+Um
+
+00:06:50.230 --> 00:06:50.240 align:start position:0%
+Um
+ 
+
+00:06:50.240 --> 00:06:53.270 align:start position:0%
+Um
+in<00:06:50.360><c> this</c><00:06:50.560><c> release</c><00:06:50.920><c> wave,</c><00:06:51.680><c> we</c><00:06:51.960><c> are</c><00:06:52.120><c> starting</c><00:06:52.800><c> to</c>
+
+00:06:53.270 --> 00:06:53.280 align:start position:0%
+in this release wave, we are starting to
+ 
+
+00:06:53.280 --> 00:06:56.390 align:start position:0%
+in this release wave, we are starting to
+modernize<00:06:54.080><c> document</c><00:06:54.560><c> reporting</c><00:06:55.600><c> more</c><00:06:55.920><c> than</c>
+
+00:06:56.390 --> 00:06:56.400 align:start position:0%
+modernize document reporting more than
+ 
+
+00:06:56.400 --> 00:06:58.350 align:start position:0%
+modernize document reporting more than
+we<00:06:56.520><c> have</c><00:06:56.760><c> done</c><00:06:57.200><c> in</c><00:06:57.320><c> the</c><00:06:57.400><c> previous</c><00:06:57.760><c> releases,</c>
+
+00:06:58.350 --> 00:06:58.360 align:start position:0%
+we have done in the previous releases,
+ 
+
+00:06:58.360 --> 00:07:00.390 align:start position:0%
+we have done in the previous releases,
+or<00:06:58.600><c> we're</c><00:06:58.720><c> continuing</c><00:06:59.360><c> that</c><00:06:59.560><c> investment,</c><00:07:00.240><c> may</c>
+
+00:07:00.390 --> 00:07:00.400 align:start position:0%
+or we're continuing that investment, may
+ 
+
+00:07:00.400 --> 00:07:03.190 align:start position:0%
+or we're continuing that investment, may
+maybe<00:07:00.680><c> I</c><00:07:00.720><c> should</c><00:07:00.880><c> say</c><00:07:01.000><c> that.</c><00:07:01.960><c> Um</c><00:07:02.680><c> a</c><00:07:02.760><c> couple</c><00:07:03.080><c> of</c>
+
+00:07:03.190 --> 00:07:03.200 align:start position:0%
+maybe I should say that. Um a couple of
+ 
+
+00:07:03.200 --> 00:07:05.870 align:start position:0%
+maybe I should say that. Um a couple of
+things.<00:07:03.680><c> First</c><00:07:03.960><c> of</c><00:07:04.080><c> all,</c><00:07:04.280><c> we</c><00:07:04.440><c> are</c><00:07:04.640><c> updating</c>
+
+00:07:05.870 --> 00:07:05.880 align:start position:0%
+things. First of all, we are updating
+ 
+
+00:07:05.880 --> 00:07:08.030 align:start position:0%
+things. First of all, we are updating
+the<00:07:06.000><c> Word</c><00:07:06.320><c> add-in</c><00:07:06.800><c> for</c><00:07:06.960><c> document</c><00:07:07.440><c> reports</c>
+
+00:07:08.030 --> 00:07:08.040 align:start position:0%
+the Word add-in for document reports
+ 
+
+00:07:08.040 --> 00:07:10.830 align:start position:0%
+the Word add-in for document reports
+with<00:07:08.600><c> better</c><00:07:08.880><c> UI,</c><00:07:09.760><c> with</c><00:07:10.000><c> search</c><00:07:10.400><c> in</c><00:07:10.480><c> the</c><00:07:10.560><c> data</c>
+
+00:07:10.830 --> 00:07:10.840 align:start position:0%
+with better UI, with search in the data
+ 
+
+00:07:10.840 --> 00:07:14.430 align:start position:0%
+with better UI, with search in the data
+picker,<00:07:11.640><c> and</c><00:07:11.960><c> with</c><00:07:12.400><c> an</c><00:07:12.760><c> an</c><00:07:13.000><c> easy</c><00:07:13.320><c> way</c><00:07:13.640><c> to</c>
+
+00:07:14.430 --> 00:07:14.440 align:start position:0%
+picker, and with an an easy way to
+ 
+
+00:07:14.440 --> 00:07:17.350 align:start position:0%
+picker, and with an an easy way to
+define<00:07:14.920><c> tables.</c><00:07:16.000><c> So</c><00:07:16.640><c> there's</c><00:07:16.880><c> a</c><00:07:16.960><c> breakout</c>
+
+00:07:17.350 --> 00:07:17.360 align:start position:0%
+define tables. So there's a breakout
+ 
+
+00:07:17.360 --> 00:07:19.790 align:start position:0%
+define tables. So there's a breakout
+session<00:07:17.680><c> for</c><00:07:17.800><c> that.</c><00:07:18.160><c> Go</c><00:07:18.480><c> check</c><00:07:19.120><c> out</c><00:07:19.440><c> that</c>
+
+00:07:19.790 --> 00:07:19.800 align:start position:0%
+session for that. Go check out that
+ 
+
+00:07:19.800 --> 00:07:22.190 align:start position:0%
+session for that. Go check out that
+after<00:07:20.080><c> this</c><00:07:20.320><c> session</c><00:07:20.800><c> if</c><00:07:21.000><c> you're</c><00:07:21.240><c> interested</c>
+
+00:07:22.190 --> 00:07:22.200 align:start position:0%
+after this session if you're interested
+ 
+
+00:07:22.200 --> 00:07:25.110 align:start position:0%
+after this session if you're interested
+in<00:07:22.560><c> in</c><00:07:22.720><c> document</c><00:07:23.120><c> reporting.</c>
+
+00:07:25.110 --> 00:07:25.120 align:start position:0%
+in in document reporting.
+ 
+
+00:07:25.120 --> 00:07:29.430 align:start position:0%
+in in document reporting.
+In<00:07:25.280><c> this</c><00:07:26.040><c> space,</c><00:07:26.760><c> we</c><00:07:26.960><c> also</c><00:07:27.680><c> made</c><00:07:27.960><c> it</c><00:07:28.080><c> possible</c>
+
+00:07:29.430 --> 00:07:29.440 align:start position:0%
+In this space, we also made it possible
+ 
+
+00:07:29.440 --> 00:07:32.110 align:start position:0%
+In this space, we also made it possible
+or<00:07:30.040><c> introduced</c><00:07:30.640><c> a</c><00:07:30.720><c> way</c><00:07:31.000><c> to</c><00:07:31.280><c> control</c><00:07:31.800><c> life</c>
+
+00:07:32.110 --> 00:07:32.120 align:start position:0%
+or introduced a way to control life
+ 
+
+00:07:32.120 --> 00:07:34.190 align:start position:0%
+or introduced a way to control life
+cycle<00:07:32.600><c> of</c><00:07:32.840><c> layout,</c><00:07:33.320><c> not</c><00:07:33.560><c> only</c><00:07:33.720><c> document</c>
+
+00:07:34.190 --> 00:07:34.200 align:start position:0%
+cycle of layout, not only document
+ 
+
+00:07:34.200 --> 00:07:36.590 align:start position:0%
+cycle of layout, not only document
+layout,<00:07:34.680><c> any</c><00:07:34.920><c> layout</c><00:07:35.320><c> in</c><00:07:35.440><c> the</c><00:07:35.520><c> system.</c>
+
+00:07:36.590 --> 00:07:36.600 align:start position:0%
+layout, any layout in the system.
+ 
+
+00:07:36.600 --> 00:07:39.350 align:start position:0%
+layout, any layout in the system.
+Over<00:07:36.800><c> the</c><00:07:36.920><c> last</c><00:07:37.560><c> probably</c><00:07:38.000><c> three</c><00:07:38.320><c> years,</c><00:07:39.160><c> we</c>
+
+00:07:39.350 --> 00:07:39.360 align:start position:0%
+Over the last probably three years, we
+ 
+
+00:07:39.360 --> 00:07:42.430 align:start position:0%
+Over the last probably three years, we
+have<00:07:39.640><c> added</c><00:07:40.520><c> abilities</c><00:07:41.120><c> for</c><00:07:41.360><c> Excel</c><00:07:41.800><c> layouts</c>
+
+00:07:42.430 --> 00:07:42.440 align:start position:0%
+have added abilities for Excel layouts
+ 
+
+00:07:42.440 --> 00:07:44.870 align:start position:0%
+have added abilities for Excel layouts
+and<00:07:42.680><c> investing</c><00:07:43.160><c> in</c><00:07:43.320><c> Word</c><00:07:43.560><c> layouts.</c><00:07:44.440><c> Both</c><00:07:44.720><c> of</c>
+
+00:07:44.870 --> 00:07:44.880 align:start position:0%
+and investing in Word layouts. Both of
+ 
+
+00:07:44.880 --> 00:07:48.350 align:start position:0%
+and investing in Word layouts. Both of
+these<00:07:45.360><c> features</c><00:07:46.160><c> are</c><00:07:46.360><c> meant</c><00:07:46.720><c> for</c><00:07:47.280><c> end</c><00:07:47.560><c> users</c>
+
+00:07:48.350 --> 00:07:48.360 align:start position:0%
+these features are meant for end users
+ 
+
+00:07:48.360 --> 00:07:51.350 align:start position:0%
+these features are meant for end users
+to<00:07:49.120><c> create</c><00:07:49.520><c> their</c><00:07:49.680><c> own</c><00:07:49.880><c> layouts,</c><00:07:50.800><c> upload</c><00:07:51.240><c> them</c>
+
+00:07:51.350 --> 00:07:51.360 align:start position:0%
+to create their own layouts, upload them
+ 
+
+00:07:51.360 --> 00:07:54.310 align:start position:0%
+to create their own layouts, upload them
+to<00:07:51.480><c> Business</c><00:07:51.800><c> Central.</c><00:07:52.840><c> So</c><00:07:53.760><c> for</c><00:07:53.960><c> that</c>
+
+00:07:54.310 --> 00:07:54.320 align:start position:0%
+to Business Central. So for that
+ 
+
+00:07:54.320 --> 00:07:56.430 align:start position:0%
+to Business Central. So for that
+process,<00:07:55.120><c> we</c><00:07:55.280><c> realized</c><00:07:55.920><c> that</c><00:07:56.160><c> some</c>
+
+00:07:56.430 --> 00:07:56.440 align:start position:0%
+process, we realized that some
+ 
+
+00:07:56.440 --> 00:07:57.910 align:start position:0%
+process, we realized that some
+organizations<00:07:57.240><c> would</c><00:07:57.400><c> like</c><00:07:57.600><c> to</c><00:07:57.720><c> have</c><00:07:57.880><c> a</c>
+
+00:07:57.910 --> 00:07:57.920 align:start position:0%
+organizations would like to have a
+ 
+
+00:07:57.920 --> 00:08:00.710 align:start position:0%
+organizations would like to have a
+little<00:07:58.120><c> bit</c><00:07:58.320><c> control</c><00:07:58.920><c> over</c><00:07:59.640><c> when</c><00:07:59.960><c> this</c><00:08:00.120><c> is</c><00:08:00.680><c> one</c>
+
+00:08:00.710 --> 00:08:00.720 align:start position:0%
+little bit control over when this is one
+ 
+
+00:08:00.720 --> 00:08:02.950 align:start position:0%
+little bit control over when this is one
+of<00:08:00.760><c> these</c><00:08:01.000><c> layouts</c><00:08:01.840><c> ready</c><00:08:02.160><c> to</c><00:08:02.320><c> use</c><00:08:02.640><c> and</c><00:08:02.800><c> when</c>
+
+00:08:02.950 --> 00:08:02.960 align:start position:0%
+of these layouts ready to use and when
+ 
+
+00:08:02.960 --> 00:08:05.470 align:start position:0%
+of these layouts ready to use and when
+it<00:08:03.120><c> is</c><00:08:03.400><c> still</c><00:08:03.720><c> in</c><00:08:03.800><c> draft.</c><00:08:04.720><c> So</c><00:08:05.040><c> you</c><00:08:05.160><c> can</c><00:08:05.280><c> see</c>
+
+00:08:05.470 --> 00:08:05.480 align:start position:0%
+it is still in draft. So you can see
+ 
+
+00:08:05.480 --> 00:08:07.950 align:start position:0%
+it is still in draft. So you can see
+this<00:08:05.680><c> new</c><00:08:05.840><c> status</c><00:08:06.280><c> on</c><00:08:06.440><c> report</c><00:08:06.800><c> layouts</c><00:08:07.760><c> that</c>
+
+00:08:07.950 --> 00:08:07.960 align:start position:0%
+this new status on report layouts that
+ 
+
+00:08:07.960 --> 00:08:11.430 align:start position:0%
+this new status on report layouts that
+goes<00:08:08.360><c> from</c><00:08:08.840><c> a</c><00:08:08.880><c> draft</c><00:08:09.880><c> into</c><00:08:10.160><c> pending</c><00:08:10.560><c> approval</c>
+
+00:08:11.430 --> 00:08:11.440 align:start position:0%
+goes from a draft into pending approval
+ 
+
+00:08:11.440 --> 00:08:13.710 align:start position:0%
+goes from a draft into pending approval
+to<00:08:11.600><c> approved</c><00:08:12.080><c> and</c><00:08:12.240><c> even</c><00:08:12.520><c> retired.</c><00:08:13.400><c> So</c><00:08:13.560><c> go</c>
+
+00:08:13.710 --> 00:08:13.720 align:start position:0%
+to approved and even retired. So go
+ 
+
+00:08:13.720 --> 00:08:16.270 align:start position:0%
+to approved and even retired. So go
+check<00:08:14.040><c> the</c><00:08:14.440><c> document</c><00:08:14.880><c> reporting</c><00:08:15.920><c> breakout</c>
+
+00:08:16.270 --> 00:08:16.280 align:start position:0%
+check the document reporting breakout
+ 
+
+00:08:16.280 --> 00:08:18.470 align:start position:0%
+check the document reporting breakout
+session<00:08:16.600><c> to</c><00:08:16.760><c> learn</c><00:08:16.960><c> more.</c><00:08:17.440><c> So</c><00:08:17.600><c> no</c><00:08:17.880><c> more</c><00:08:18.200><c> just</c>
+
+00:08:18.470 --> 00:08:18.480 align:start position:0%
+session to learn more. So no more just
+ 
+
+00:08:18.480 --> 00:08:20.830 align:start position:0%
+session to learn more. So no more just
+changing<00:08:18.960><c> the</c><00:08:19.120><c> layout</c><00:08:19.640><c> and</c><00:08:19.800><c> see</c><00:08:20.080><c> the</c><00:08:20.280><c> havoc</c><00:08:20.680><c> it</c>
+
+00:08:20.830 --> 00:08:20.840 align:start position:0%
+changing the layout and see the havoc it
+ 
+
+00:08:20.840 --> 00:08:23.990 align:start position:0%
+changing the layout and see the havoc it
+causes<00:08:21.320><c> when</c><00:08:21.680><c> you</c><00:08:21.840><c> send</c><00:08:22.120><c> that</c><00:08:22.360><c> to</c><00:08:22.480><c> customers.</c>
+
+00:08:23.990 --> 00:08:24.000 align:start position:0%
+causes when you send that to customers.
+ 
+
+00:08:24.000 --> 00:08:25.750 align:start position:0%
+causes when you send that to customers.
+Yeah,<00:08:24.200><c> that's</c><00:08:24.520><c> kind</c><00:08:24.720><c> of</c><00:08:24.800><c> the</c><00:08:24.920><c> general</c><00:08:25.280><c> idea</c><00:08:25.640><c> of</c>
+
+00:08:25.750 --> 00:08:25.760 align:start position:0%
+Yeah, that's kind of the general idea of
+ 
+
+00:08:25.760 --> 00:08:28.670 align:start position:0%
+Yeah, that's kind of the general idea of
+it,<00:08:25.880><c> yes.</c>
+
+00:08:28.670 --> 00:08:28.680 align:start position:0%
+ 
+ 
+
+00:08:28.680 --> 00:08:30.510 align:start position:0%
+ 
+Yes,<00:08:29.040><c> and</c><00:08:29.160><c> now</c><00:08:29.400><c> to</c><00:08:29.600><c> everybody's</c><00:08:30.120><c> favorite</c>
+
+00:08:30.510 --> 00:08:30.520 align:start position:0%
+Yes, and now to everybody's favorite
+ 
+
+00:08:30.520 --> 00:08:31.750 align:start position:0%
+Yes, and now to everybody's favorite
+topic,
+
+00:08:31.750 --> 00:08:31.760 align:start position:0%
+topic,
+ 
+
+00:08:31.760 --> 00:08:33.230 align:start position:0%
+topic,
+security.
+
+00:08:33.230 --> 00:08:33.240 align:start position:0%
+security.
+ 
+
+00:08:33.240 --> 00:08:36.310 align:start position:0%
+security.
+So<00:08:33.560><c> there's</c><00:08:33.840><c> been</c><00:08:34.159><c> we</c><00:08:34.360><c> have</c><00:08:34.599><c> hardened</c><00:08:35.320><c> the</c><00:08:35.560><c> URI</c>
+
+00:08:36.310 --> 00:08:36.320 align:start position:0%
+So there's been we have hardened the URI
+ 
+
+00:08:36.320 --> 00:08:39.950 align:start position:0%
+So there's been we have hardened the URI
+validation<00:08:37.280><c> in</c><00:08:37.640><c> the</c><00:08:37.760><c> HTTP</c><00:08:38.400><c> client,</c><00:08:39.280><c> so</c><00:08:39.680><c> that</c>
+
+00:08:39.950 --> 00:08:39.960 align:start position:0%
+validation in the HTTP client, so that
+ 
+
+00:08:39.960 --> 00:08:42.709 align:start position:0%
+validation in the HTTP client, so that
+we<00:08:40.120><c> now</c><00:08:41.240><c> limit</c><00:08:41.960><c> more</c><00:08:42.040><c> [clears throat]</c>
+
+00:08:42.709 --> 00:08:42.719 align:start position:0%
+we now limit more [clears throat]
+ 
+
+00:08:42.719 --> 00:08:47.350 align:start position:0%
+we now limit more [clears throat]
+outgoing<00:08:43.320><c> calls</c><00:08:44.120><c> from</c><00:08:44.920><c> your</c><00:08:45.280><c> AL</c><00:08:45.640><c> code.</c>
+
+00:08:47.350 --> 00:08:47.360 align:start position:0%
+outgoing calls from your AL code.
+ 
+
+00:08:47.360 --> 00:08:49.350 align:start position:0%
+outgoing calls from your AL code.
+This<00:08:47.560><c> is</c><00:08:47.680><c> not</c><00:08:47.880><c> something</c><00:08:48.320><c> you</c><00:08:48.440><c> can</c><00:08:48.640><c> opt</c><00:08:48.880><c> out</c><00:08:49.080><c> of</c>
+
+00:08:49.350 --> 00:08:49.360 align:start position:0%
+This is not something you can opt out of
+ 
+
+00:08:49.360 --> 00:08:51.990 align:start position:0%
+This is not something you can opt out of
+in<00:08:50.160><c> hosted</c><00:08:50.560><c> environments,</c><00:08:51.600><c> but</c><00:08:51.800><c> for</c>
+
+00:08:51.990 --> 00:08:52.000 align:start position:0%
+in hosted environments, but for
+ 
+
+00:08:52.000 --> 00:08:54.710 align:start position:0%
+in hosted environments, but for
+on-premises,<00:08:53.240><c> you</c><00:08:53.400><c> can,</c><00:08:53.720><c> because</c><00:08:54.080><c> you</c><00:08:54.280><c> might</c>
+
+00:08:54.710 --> 00:08:54.720 align:start position:0%
+on-premises, you can, because you might
+ 
+
+00:08:54.720 --> 00:08:58.070 align:start position:0%
+on-premises, you can, because you might
+be<00:08:54.920><c> calling</c><00:08:56.080><c> specific</c><00:08:57.160><c> services</c><00:08:57.800><c> that</c><00:08:58.000><c> you</c>
+
+00:08:58.070 --> 00:08:58.080 align:start position:0%
+be calling specific services that you
+ 
+
+00:08:58.080 --> 00:09:00.550 align:start position:0%
+be calling specific services that you
+are<00:08:58.200><c> hosting</c><00:08:58.600><c> on</c><00:08:58.760><c> your</c><00:08:59.000><c> own</c><00:08:59.360><c> network.</c><00:09:00.280><c> Because</c>
+
+00:09:00.550 --> 00:09:00.560 align:start position:0%
+are hosting on your own network. Because
+ 
+
+00:09:00.560 --> 00:09:03.430 align:start position:0%
+are hosting on your own network. Because
+in<00:09:00.680><c> general,</c><00:09:01.080><c> what</c><00:09:01.240><c> this</c><00:09:01.480><c> will</c><00:09:01.720><c> do</c><00:09:02.200><c> is</c><00:09:03.160><c> it'll</c>
+
+00:09:03.430 --> 00:09:03.440 align:start position:0%
+in general, what this will do is it'll
+ 
+
+00:09:03.440 --> 00:09:07.190 align:start position:0%
+in general, what this will do is it'll
+stop<00:09:03.920><c> you</c><00:09:04.240><c> from</c><00:09:04.760><c> calling</c><00:09:05.680><c> internal</c>
+
+00:09:07.190 --> 00:09:07.200 align:start position:0%
+stop you from calling internal
+ 
+
+00:09:07.200 --> 00:09:10.030 align:start position:0%
+stop you from calling internal
+port<00:09:07.520><c> numbers,</c><00:09:08.080><c> etc.</c><00:09:08.960><c> But</c><00:09:09.120><c> in</c><00:09:09.280><c> on-premises,</c>
+
+00:09:10.030 --> 00:09:10.040 align:start position:0%
+port numbers, etc. But in on-premises,
+ 
+
+00:09:10.040 --> 00:09:13.630 align:start position:0%
+port numbers, etc. But in on-premises,
+we<00:09:10.280><c> have</c><00:09:10.520><c> created</c><00:09:11.600><c> two</c><00:09:11.920><c> server</c><00:09:12.240><c> settings.</c>
+
+00:09:13.630 --> 00:09:13.640 align:start position:0%
+we have created two server settings.
+ 
+
+00:09:13.640 --> 00:09:16.150 align:start position:0%
+we have created two server settings.
+One<00:09:14.080><c> for</c><00:09:14.720><c> enabling</c><00:09:15.320><c> disabling</c><00:09:15.960><c> this</c>
+
+00:09:16.150 --> 00:09:16.160 align:start position:0%
+One for enabling disabling this
+ 
+
+00:09:16.160 --> 00:09:18.150 align:start position:0%
+One for enabling disabling this
+functionality,<00:09:17.360><c> and</c><00:09:17.560><c> then</c><00:09:17.840><c> a</c><00:09:17.920><c> more</c>
+
+00:09:18.150 --> 00:09:18.160 align:start position:0%
+functionality, and then a more
+ 
+
+00:09:18.160 --> 00:09:19.790 align:start position:0%
+functionality, and then a more
+fine-grained<00:09:18.800><c> control</c><00:09:19.320><c> where</c><00:09:19.520><c> you</c><00:09:19.640><c> can</c>
+
+00:09:19.790 --> 00:09:19.800 align:start position:0%
+fine-grained control where you can
+ 
+
+00:09:19.800 --> 00:09:22.110 align:start position:0%
+fine-grained control where you can
+actually<00:09:20.120><c> specify</c><00:09:20.840><c> the</c><00:09:21.040><c> allowed</c><00:09:21.520><c> addresses</c>
+
+00:09:22.110 --> 00:09:22.120 align:start position:0%
+actually specify the allowed addresses
+ 
+
+00:09:22.120 --> 00:09:25.750 align:start position:0%
+actually specify the allowed addresses
+that<00:09:22.360><c> you</c><00:09:22.480><c> would</c><00:09:22.640><c> still</c><00:09:23.280><c> want</c><00:09:24.040><c> to</c><00:09:24.200><c> call.</c>
+
+00:09:25.750 --> 00:09:25.760 align:start position:0%
+that you would still want to call.
+ 
+
+00:09:25.760 --> 00:09:27.990 align:start position:0%
+that you would still want to call.
+So<00:09:26.120><c> if</c><00:09:26.320><c> you're</c><00:09:26.480><c> running</c><00:09:26.800><c> on-premises,</c><00:09:27.840><c> you</c>
+
+00:09:27.990 --> 00:09:28.000 align:start position:0%
+So if you're running on-premises, you
+ 
+
+00:09:28.000 --> 00:09:29.750 align:start position:0%
+So if you're running on-premises, you
+might<00:09:28.240><c> want</c><00:09:28.440><c> to</c><00:09:28.520><c> check</c><00:09:28.760><c> this</c><00:09:28.960><c> out.</c><00:09:29.280><c> This</c><00:09:29.520><c> has</c>
+
+00:09:29.750 --> 00:09:29.760 align:start position:0%
+might want to check this out. This has
+ 
+
+00:09:29.760 --> 00:09:32.390 align:start position:0%
+might want to check this out. This has
+been<00:09:29.960><c> backported</c><00:09:30.640><c> to</c><00:09:30.760><c> 26,</c><00:09:31.560><c> version</c><00:09:31.840><c> 26</c><00:09:32.320><c> and</c>
+
+00:09:32.390 --> 00:09:32.400 align:start position:0%
+been backported to 26, version 26 and
+ 
+
+00:09:32.400 --> 00:09:36.550 align:start position:0%
+been backported to 26, version 26 and
+27,<00:09:33.120><c> which</c><00:09:33.520><c> is</c><00:09:33.960><c> wave</c><00:09:34.280><c> 1</c><00:09:34.520><c> 2025</c><00:09:35.600><c> and</c><00:09:35.760><c> wave</c><00:09:35.920><c> 2</c>
+
+00:09:36.550 --> 00:09:36.560 align:start position:0%
+27, which is wave 1 2025 and wave 2
+ 
+
+00:09:36.560 --> 00:09:39.470 align:start position:0%
+27, which is wave 1 2025 and wave 2
+2025,<00:09:37.880><c> and</c><00:09:38.200><c> it</c><00:09:38.320><c> is</c><00:09:38.480><c> in</c><00:09:38.600><c> effect</c><00:09:39.160><c> in</c><00:09:39.360><c> the</c>
+
+00:09:39.470 --> 00:09:39.480 align:start position:0%
+2025, and it is in effect in the
+ 
+
+00:09:39.480 --> 00:09:41.270 align:start position:0%
+2025, and it is in effect in the
+service.
+
+00:09:41.270 --> 00:09:41.280 align:start position:0%
+service.
+ 
+
+00:09:41.280 --> 00:09:43.230 align:start position:0%
+service.
+Now,<00:09:41.520><c> another</c><00:09:42.120><c> security</c><00:09:42.600><c> improvement</c><00:09:43.120><c> we</c>
+
+00:09:43.230 --> 00:09:43.240 align:start position:0%
+Now, another security improvement we
+ 
+
+00:09:43.240 --> 00:09:45.110 align:start position:0%
+Now, another security improvement we
+have<00:09:43.400><c> made</c><00:09:43.920><c> is</c><00:09:44.320><c> that</c><00:09:44.440><c> we</c><00:09:44.560><c> have</c><00:09:44.720><c> made</c><00:09:45.000><c> it</c>
+
+00:09:45.110 --> 00:09:45.120 align:start position:0%
+have made is that we have made it
+ 
+
+00:09:45.120 --> 00:09:47.870 align:start position:0%
+have made is that we have made it
+possible<00:09:45.720><c> to</c><00:09:45.880><c> use</c><00:09:46.440><c> intra</c><00:09:46.760><c> security</c><00:09:47.400><c> groups</c>
+
+00:09:47.870 --> 00:09:47.880 align:start position:0%
+possible to use intra security groups
+ 
+
+00:09:47.880 --> 00:09:51.750 align:start position:0%
+possible to use intra security groups
+for<00:09:48.480><c> for</c><00:09:48.800><c> auth</c><00:09:49.480><c> in</c><00:09:49.960><c> an</c><00:09:50.120><c> on-premise</c><00:09:51.120><c> scenario</c>
+
+00:09:51.750 --> 00:09:51.760 align:start position:0%
+for for auth in an on-premise scenario
+ 
+
+00:09:51.760 --> 00:09:53.230 align:start position:0%
+for for auth in an on-premise scenario
+as<00:09:51.920><c> well.</c>
+
+00:09:53.230 --> 00:09:53.240 align:start position:0%
+as well.
+ 
+
+00:09:53.240 --> 00:09:55.910 align:start position:0%
+as well.
+By<00:09:53.840><c> enabling</c><00:09:54.360><c> the</c><00:09:54.480><c> service</c><00:09:54.840><c> setting</c><00:09:55.440><c> enable</c>
+
+00:09:55.910 --> 00:09:55.920 align:start position:0%
+By enabling the service setting enable
+ 
+
+00:09:55.920 --> 00:09:58.430 align:start position:0%
+By enabling the service setting enable
+intra<00:09:56.240><c> groups</c><00:09:56.760><c> on</c><00:09:57.240><c> prem.</c>
+
+00:09:58.430 --> 00:09:58.440 align:start position:0%
+intra groups on prem.
+ 
+
+00:09:58.440 --> 00:10:00.830 align:start position:0%
+intra groups on prem.
+It<00:09:58.840><c> will</c><00:09:59.040><c> now</c><00:09:59.400><c> fetch</c><00:09:59.760><c> enter</c><00:10:00.080><c> ID</c><00:10:00.320><c> security</c>
+
+00:10:00.830 --> 00:10:00.840 align:start position:0%
+It will now fetch enter ID security
+ 
+
+00:10:00.840 --> 00:10:02.470 align:start position:0%
+It will now fetch enter ID security
+groups
+
+00:10:02.470 --> 00:10:02.480 align:start position:0%
+groups
+ 
+
+00:10:02.480 --> 00:10:05.270 align:start position:0%
+groups
+on<00:10:02.760><c> login</c><00:10:03.440><c> for</c><00:10:03.640><c> this</c><00:10:03.840><c> user</c><00:10:04.640><c> and</c><00:10:04.800><c> that</c><00:10:05.000><c> means</c>
+
+00:10:05.270 --> 00:10:05.280 align:start position:0%
+on login for this user and that means
+ 
+
+00:10:05.280 --> 00:10:06.630 align:start position:0%
+on login for this user and that means
+you<00:10:05.400><c> can</c><00:10:05.600><c> now</c>
+
+00:10:06.630 --> 00:10:06.640 align:start position:0%
+you can now
+ 
+
+00:10:06.640 --> 00:10:09.150 align:start position:0%
+you can now
+give<00:10:07.000><c> the</c><00:10:07.120><c> users</c><00:10:07.480><c> permission</c><00:10:08.120><c> based</c><00:10:08.640><c> on</c>
+
+00:10:09.150 --> 00:10:09.160 align:start position:0%
+give the users permission based on
+ 
+
+00:10:09.160 --> 00:10:10.870 align:start position:0%
+give the users permission based on
+security<00:10:09.600><c> groups.</c>
+
+00:10:10.870 --> 00:10:10.880 align:start position:0%
+security groups.
+ 
+
+00:10:10.880 --> 00:10:13.790 align:start position:0%
+security groups.
+And<00:10:11.040><c> speaking</c><00:10:11.840><c> of</c><00:10:12.160><c> permissions,</c><00:10:13.000><c> then</c><00:10:13.640><c> we</c>
+
+00:10:13.790 --> 00:10:13.800 align:start position:0%
+And speaking of permissions, then we
+ 
+
+00:10:13.800 --> 00:10:16.070 align:start position:0%
+And speaking of permissions, then we
+have<00:10:14.080><c> also</c><00:10:14.680><c> added</c>
+
+00:10:16.070 --> 00:10:16.080 align:start position:0%
+have also added
+ 
+
+00:10:16.080 --> 00:10:18.910 align:start position:0%
+have also added
+um<00:10:16.480><c> more</c><00:10:16.840><c> ability</c><00:10:17.560><c> to</c><00:10:17.760><c> analyze</c><00:10:18.400><c> permissions.</c>
+
+00:10:18.910 --> 00:10:18.920 align:start position:0%
+um more ability to analyze permissions.
+ 
+
+00:10:18.920 --> 00:10:20.910 align:start position:0%
+um more ability to analyze permissions.
+There<00:10:19.080><c> is</c><00:10:19.200><c> a</c><00:10:19.240><c> new</c><00:10:19.520><c> page</c><00:10:19.840><c> for</c><00:10:20.040><c> analyzing</c><00:10:20.720><c> it</c>
+
+00:10:20.910 --> 00:10:20.920 align:start position:0%
+There is a new page for analyzing it
+ 
+
+00:10:20.920 --> 00:10:23.790 align:start position:0%
+There is a new page for analyzing it
+which<00:10:21.160><c> gives</c><00:10:21.480><c> you</c><00:10:21.720><c> a</c><00:10:21.960><c> permission</c><00:10:22.480><c> overview.</c>
+
+00:10:23.790 --> 00:10:23.800 align:start position:0%
+which gives you a permission overview.
+ 
+
+00:10:23.800 --> 00:10:26.030 align:start position:0%
+which gives you a permission overview.
+Again,<00:10:24.280><c> we</c><00:10:24.400><c> have</c><00:10:24.600><c> a</c><00:10:24.640><c> breakout</c><00:10:25.160><c> session</c><00:10:25.640><c> going</c>
+
+00:10:26.030 --> 00:10:26.040 align:start position:0%
+Again, we have a breakout session going
+ 
+
+00:10:26.040 --> 00:10:29.270 align:start position:0%
+Again, we have a breakout session going
+into<00:10:26.400><c> more</c><00:10:26.560><c> details</c><00:10:27.320><c> on</c><00:10:27.720><c> this</c><00:10:27.920><c> topic.</c>
+
+00:10:29.270 --> 00:10:29.280 align:start position:0%
+into more details on this topic.
+ 
+
+00:10:29.280 --> 00:10:31.870 align:start position:0%
+into more details on this topic.
+Now,<00:10:29.480><c> we've</c><00:10:29.760><c> also</c><00:10:30.280><c> updated</c><00:10:31.040><c> our</c><00:10:31.320><c> security</c>
+
+00:10:31.870 --> 00:10:31.880 align:start position:0%
+Now, we've also updated our security
+ 
+
+00:10:31.880 --> 00:10:34.310 align:start position:0%
+Now, we've also updated our security
+guide<00:10:32.320><c> in</c><00:10:32.480><c> the</c><00:10:32.560><c> documentation</c><00:10:33.600><c> where</c><00:10:33.880><c> we</c><00:10:34.080><c> have</c>
+
+00:10:34.310 --> 00:10:34.320 align:start position:0%
+guide in the documentation where we have
+ 
+
+00:10:34.320 --> 00:10:37.030 align:start position:0%
+guide in the documentation where we have
+gathered<00:10:34.800><c> the</c><00:10:34.920><c> learnings</c><00:10:35.560><c> from</c><00:10:36.320><c> our</c><00:10:36.520><c> internal</c>
+
+00:10:37.030 --> 00:10:37.040 align:start position:0%
+gathered the learnings from our internal
+ 
+
+00:10:37.040 --> 00:10:39.470 align:start position:0%
+gathered the learnings from our internal
+secure<00:10:37.480><c> future</c><00:10:37.880><c> initiative.</c><00:10:39.000><c> We</c><00:10:39.200><c> have</c>
+
+00:10:39.470 --> 00:10:39.480 align:start position:0%
+secure future initiative. We have
+ 
+
+00:10:39.480 --> 00:10:41.870 align:start position:0%
+secure future initiative. We have
+gathered<00:10:40.040><c> the</c><00:10:40.160><c> feedback</c><00:10:41.120><c> that</c><00:10:41.320><c> we've</c><00:10:41.520><c> gotten</c>
+
+00:10:41.870 --> 00:10:41.880 align:start position:0%
+gathered the feedback that we've gotten
+ 
+
+00:10:41.880 --> 00:10:43.990 align:start position:0%
+gathered the feedback that we've gotten
+at<00:10:42.000><c> conferences</c><00:10:43.120><c> and</c><00:10:43.280><c> generally</c><00:10:43.760><c> just</c>
+
+00:10:43.990 --> 00:10:44.000 align:start position:0%
+at conferences and generally just
+ 
+
+00:10:44.000 --> 00:10:46.430 align:start position:0%
+at conferences and generally just
+updated<00:10:44.480><c> it</c><00:10:44.560><c> with</c><00:10:44.760><c> how</c><00:10:44.960><c> we</c><00:10:45.120><c> have</c><00:10:45.840><c> made</c><00:10:46.360><c> the</c>
+
+00:10:46.430 --> 00:10:46.440 align:start position:0%
+updated it with how we have made the
+ 
+
+00:10:46.440 --> 00:10:48.550 align:start position:0%
+updated it with how we have made the
+system<00:10:46.920><c> more</c><00:10:47.200><c> secure.</c>
+
+00:10:48.550 --> 00:10:48.560 align:start position:0%
+system more secure.
+ 
+
+00:10:48.560 --> 00:10:51.270 align:start position:0%
+system more secure.
+I<00:10:48.680><c> want</c><00:10:49.000><c> to</c><00:10:49.160><c> highlight</c><00:10:50.240><c> the</c><00:10:50.680><c> security</c>
+
+00:10:51.270 --> 00:10:51.280 align:start position:0%
+I want to highlight the security
+ 
+
+00:10:51.280 --> 00:10:53.710 align:start position:0%
+I want to highlight the security
+scenarios<00:10:52.000><c> guide</c><00:10:52.560><c> that</c><00:10:52.720><c> has</c><00:10:52.880><c> been</c><00:10:53.200><c> added</c>
+
+00:10:53.710 --> 00:10:53.720 align:start position:0%
+scenarios guide that has been added
+ 
+
+00:10:53.720 --> 00:10:58.430 align:start position:0%
+scenarios guide that has been added
+where<00:10:54.040><c> you</c><00:10:54.400><c> can</c><00:10:55.320><c> look</c><00:10:55.640><c> at</c><00:10:55.920><c> how</c><00:10:56.600><c> it</c><00:10:56.760><c> affects</c><00:10:57.400><c> you</c>
+
+00:10:58.430 --> 00:10:58.440 align:start position:0%
+where you can look at how it affects you
+ 
+
+00:10:58.440 --> 00:11:02.790 align:start position:0%
+where you can look at how it affects you
+and<00:10:59.320><c> your</c><00:10:59.640><c> environment.</c><00:11:01.000><c> So,</c><00:11:01.200><c> go</c><00:11:01.480><c> check</c><00:11:01.880><c> out</c>
+
+00:11:02.790 --> 00:11:02.800 align:start position:0%
+and your environment. So, go check out
+ 
+
+00:11:02.800 --> 00:11:04.070 align:start position:0%
+and your environment. So, go check out
+the<00:11:03.080><c> BC</c>
+
+00:11:04.070 --> 00:11:04.080 align:start position:0%
+the BC
+ 
+
+00:11:04.080 --> 00:11:05.710 align:start position:0%
+the BC
+the<00:11:04.240><c> security</c><00:11:04.880><c> section</c><00:11:05.440><c> in</c><00:11:05.640><c> the</c>
+
+00:11:05.710 --> 00:11:05.720 align:start position:0%
+the security section in the
+ 
+
+00:11:05.720 --> 00:11:07.710 align:start position:0%
+the security section in the
+documentation.
+
+00:11:07.710 --> 00:11:07.720 align:start position:0%
+documentation.
+ 
+
+00:11:07.720 --> 00:11:09.550 align:start position:0%
+documentation.
+And<00:11:07.880><c> you</c><00:11:08.000><c> thought</c><00:11:08.400><c> we</c><00:11:08.560><c> were</c><00:11:08.680><c> done,</c><00:11:09.360><c> but</c>
+
+00:11:09.550 --> 00:11:09.560 align:start position:0%
+And you thought we were done, but
+ 
+
+00:11:09.560 --> 00:11:12.110 align:start position:0%
+And you thought we were done, but
+there's<00:11:09.800><c> just</c><00:11:10.080><c> sneaked</c><00:11:10.440><c> in</c><00:11:10.600><c> one</c><00:11:10.839><c> little</c><00:11:11.120><c> bonus</c>
+
+00:11:12.110 --> 00:11:12.120 align:start position:0%
+there's just sneaked in one little bonus
+ 
+
+00:11:12.120 --> 00:11:13.910 align:start position:0%
+there's just sneaked in one little bonus
+which<00:11:12.320><c> is</c><00:11:12.480><c> new</c><00:11:12.640><c> telemetry.</c>
+
+00:11:13.910 --> 00:11:13.920 align:start position:0%
+which is new telemetry.
+ 
+
+00:11:13.920 --> 00:11:17.470 align:start position:0%
+which is new telemetry.
+We<00:11:14.120><c> have</c><00:11:14.640><c> um</c><00:11:15.520><c> added</c><00:11:15.839><c> telemetry</c><00:11:16.280><c> for</c><00:11:16.600><c> B</c><00:11:17.000><c> MCP</c>
+
+00:11:17.470 --> 00:11:17.480 align:start position:0%
+We have um added telemetry for B MCP
+ 
+
+00:11:17.480 --> 00:11:20.510 align:start position:0%
+We have um added telemetry for B MCP
+configuration<00:11:18.120><c> changes,</c><00:11:18.680><c> for</c><00:11:18.920><c> MCP</c><00:11:19.400><c> usage,</c>
+
+00:11:20.510 --> 00:11:20.520 align:start position:0%
+configuration changes, for MCP usage,
+ 
+
+00:11:20.520 --> 00:11:22.350 align:start position:0%
+configuration changes, for MCP usage,
+but<00:11:20.680><c> also</c><00:11:21.080><c> in</c><00:11:21.160><c> the</c><00:11:21.240><c> client</c><00:11:21.640><c> telemetry</c><00:11:22.080><c> you</c><00:11:22.200><c> can</c>
+
+00:11:22.350 --> 00:11:22.360 align:start position:0%
+but also in the client telemetry you can
+ 
+
+00:11:22.360 --> 00:11:25.470 align:start position:0%
+but also in the client telemetry you can
+now<00:11:22.560><c> see</c><00:11:23.080><c> the</c><00:11:23.240><c> users</c><00:11:24.080><c> hardware</c><00:11:24.800><c> and</c><00:11:25.040><c> network</c>
+
+00:11:25.470 --> 00:11:25.480 align:start position:0%
+now see the users hardware and network
+ 
+
+00:11:25.480 --> 00:11:28.510 align:start position:0%
+now see the users hardware and network
+speed<00:11:26.360><c> in</c><00:11:26.520><c> the</c><00:11:26.600><c> page</c><00:11:26.920><c> view</c><00:11:27.280><c> telemetry</c><00:11:28.040><c> as</c><00:11:28.240><c> well</c>
+
+00:11:28.510 --> 00:11:28.520 align:start position:0%
+speed in the page view telemetry as well
+ 
+
+00:11:28.520 --> 00:11:30.990 align:start position:0%
+speed in the page view telemetry as well
+as<00:11:29.160><c> uh</c><00:11:29.240><c> we</c><00:11:29.640><c> we</c><00:11:29.800><c> have</c><00:11:30.160><c> financial</c><00:11:30.560><c> reporting</c>
+
+00:11:30.990 --> 00:11:31.000 align:start position:0%
+as uh we we have financial reporting
+ 
+
+00:11:31.000 --> 00:11:33.190 align:start position:0%
+as uh we we have financial reporting
+usage<00:11:31.360><c> and</c><00:11:31.520><c> life</c><00:11:31.720><c> cycle</c><00:11:32.040><c> that</c><00:11:32.200><c> was</c><00:11:32.760><c> added</c><00:11:33.080><c> in</c>
+
+00:11:33.190 --> 00:11:33.200 align:start position:0%
+usage and life cycle that was added in
+ 
+
+00:11:33.200 --> 00:11:35.270 align:start position:0%
+usage and life cycle that was added in
+the<00:11:33.320><c> last</c><00:11:33.680><c> release</c><00:11:33.960><c> wave.</c><00:11:34.600><c> So,</c><00:11:34.760><c> if</c><00:11:34.920><c> you</c><00:11:35.040><c> use</c>
+
+00:11:35.270 --> 00:11:35.280 align:start position:0%
+the last release wave. So, if you use
+ 
+
+00:11:35.280 --> 00:11:37.630 align:start position:0%
+the last release wave. So, if you use
+telemetry<00:11:35.880><c> to</c><00:11:36.040><c> monitor</c><00:11:36.520><c> environments,</c>
+
+00:11:37.630 --> 00:11:37.640 align:start position:0%
+telemetry to monitor environments,
+ 
+
+00:11:37.640 --> 00:11:39.670 align:start position:0%
+telemetry to monitor environments,
+there's<00:11:37.839><c> some</c><00:11:38.000><c> new</c><00:11:38.240><c> things</c><00:11:38.600><c> that</c><00:11:38.839><c> you</c><00:11:38.960><c> can</c><00:11:39.360><c> use</c>
+
+00:11:39.670 --> 00:11:39.680 align:start position:0%
+there's some new things that you can use
+ 
+
+00:11:39.680 --> 00:11:41.550 align:start position:0%
+there's some new things that you can use
+there.<00:11:40.240><c> And</c><00:11:40.400><c> who</c><00:11:40.560><c> doesn't</c><00:11:40.880><c> use</c><00:11:41.080><c> telemetry?</c>
+
+00:11:41.550 --> 00:11:41.560 align:start position:0%
+there. And who doesn't use telemetry?
+ 
+
+00:11:41.560 --> 00:11:44.190 align:start position:0%
+there. And who doesn't use telemetry?
+Exactly,<00:11:42.080><c> everyone</c><00:11:42.480><c> does.</c><00:11:43.360><c> Um</c>
+
+00:11:44.190 --> 00:11:44.200 align:start position:0%
+Exactly, everyone does. Um
+ 
+
+00:11:44.200 --> 00:11:46.150 align:start position:0%
+Exactly, everyone does. Um
+and<00:11:44.480><c> of</c><00:11:44.680><c> course</c><00:11:45.000><c> everything</c><00:11:45.480><c> with</c><00:11:45.640><c> telemetry</c>
+
+00:11:46.150 --> 00:11:46.160 align:start position:0%
+and of course everything with telemetry
+ 
+
+00:11:46.160 --> 00:11:47.950 align:start position:0%
+and of course everything with telemetry
+is<00:11:46.640><c> uh</c><00:11:47.080><c> documented</c><00:11:47.640><c> under</c>
+
+00:11:47.950 --> 00:11:47.960 align:start position:0%
+is uh documented under
+ 
+
+00:11:47.960 --> 00:11:50.230 align:start position:0%
+is uh documented under
+aka.ms/bctelemetry.
+
+00:11:50.230 --> 00:11:50.240 align:start position:0%
+aka.ms/bctelemetry.
+ 
+
+00:11:50.240 --> 00:11:52.590 align:start position:0%
+aka.ms/bctelemetry.
+So,<00:11:50.400><c> go</c><00:11:50.560><c> check</c><00:11:50.880><c> out</c><00:11:51.040><c> the</c><00:11:51.160><c> new</c><00:11:51.360><c> signals</c><00:11:52.320><c> if</c><00:11:52.480><c> you</c>
+
+00:11:52.590 --> 00:11:52.600 align:start position:0%
+So, go check out the new signals if you
+ 
+
+00:11:52.600 --> 00:11:57.270 align:start position:0%
+So, go check out the new signals if you
+want<00:11:52.920><c> to</c><00:11:53.600><c> uh</c><00:11:53.680><c> monitor</c><00:11:54.200><c> those.</c>
+
+00:11:57.270 --> 00:11:57.280 align:start position:0%
+ 
+ 
+
+00:11:57.280 --> 00:11:59.270 align:start position:0%
+ 
+We're<00:11:57.520><c> almost</c><00:11:57.839><c> at</c><00:11:57.960><c> an</c><00:11:58.080><c> end.</c><00:11:58.720><c> Uh</c>
+
+00:11:59.270 --> 00:11:59.280 align:start position:0%
+We're almost at an end. Uh
+ 
+
+00:11:59.280 --> 00:12:01.670 align:start position:0%
+We're almost at an end. Uh
+for<00:11:59.480><c> learning</c><00:11:59.880><c> more,</c><00:12:00.560><c> uh</c><00:12:00.640><c> these</c><00:12:00.920><c> are</c><00:12:01.040><c> the</c>
+
+00:12:01.670 --> 00:12:01.680 align:start position:0%
+for learning more, uh these are the
+ 
+
+00:12:01.680 --> 00:12:05.230 align:start position:0%
+for learning more, uh these are the
+these<00:12:01.960><c> are</c><00:12:02.080><c> the</c><00:12:02.360><c> the</c><00:12:02.480><c> main</c><00:12:03.440><c> uh</c><00:12:03.600><c> parts</c><00:12:04.000><c> of</c><00:12:04.360><c> of</c><00:12:05.160><c> uh</c>
+
+00:12:05.230 --> 00:12:05.240 align:start position:0%
+these are the the main uh parts of of uh
+ 
+
+00:12:05.240 --> 00:12:07.670 align:start position:0%
+these are the the main uh parts of of uh
+the<00:12:05.400><c> Microsoft</c><00:12:05.880><c> learn.</c><00:12:06.640><c> BC</c><00:12:06.960><c> developer</c><00:12:07.520><c> is</c>
+
+00:12:07.670 --> 00:12:07.680 align:start position:0%
+the Microsoft learn. BC developer is
+ 
+
+00:12:07.680 --> 00:12:09.430 align:start position:0%
+the Microsoft learn. BC developer is
+taking<00:12:08.000><c> you</c><00:12:08.160><c> to</c><00:12:08.320><c> the</c><00:12:08.400><c> developer</c><00:12:08.839><c> things</c><00:12:09.200><c> like</c>
+
+00:12:09.430 --> 00:12:09.440 align:start position:0%
+taking you to the developer things like
+ 
+
+00:12:09.440 --> 00:12:11.750 align:start position:0%
+taking you to the developer things like
+index<00:12:09.720><c> management</c><00:12:10.400><c> and</c><00:12:10.640><c> analysis</c><00:12:11.160><c> mode.</c>
+
+00:12:11.750 --> 00:12:11.760 align:start position:0%
+index management and analysis mode.
+ 
+
+00:12:11.760 --> 00:12:15.790 align:start position:0%
+index management and analysis mode.
+Security<00:12:12.560><c> as</c><00:12:13.120><c> as</c><00:12:13.320><c> Jens</c><00:12:13.680><c> mentioned</c><00:12:14.280><c> was</c><00:12:15.240><c> uh</c>
+
+00:12:15.790 --> 00:12:15.800 align:start position:0%
+Security as as Jens mentioned was uh
+ 
+
+00:12:15.800 --> 00:12:18.070 align:start position:0%
+Security as as Jens mentioned was uh
+is<00:12:15.920><c> the</c><00:12:16.040><c> security</c><00:12:16.640><c> guide</c><00:12:16.920><c> and</c><00:12:17.040><c> telemetry</c><00:12:17.600><c> is</c>
+
+00:12:18.070 --> 00:12:18.080 align:start position:0%
+is the security guide and telemetry is
+ 
+
+00:12:18.080 --> 00:12:23.550 align:start position:0%
+is the security guide and telemetry is
+the<00:12:18.200><c> telemetry</c><00:12:18.640><c> documentation.</c>
+
+00:12:23.550 --> 00:12:23.560 align:start position:0%
+ 
+ 
+
+00:12:23.560 --> 00:12:26.470 align:start position:0%
+ 
+If<00:12:23.760><c> you</c><00:12:23.920><c> like</c><00:12:24.280><c> this</c><00:12:25.040><c> kind</c><00:12:25.360><c> of</c><00:12:25.720><c> content,</c><00:12:26.240><c> these</c>
+
+00:12:26.470 --> 00:12:26.480 align:start position:0%
+If you like this kind of content, these
+ 
+
+00:12:26.480 --> 00:12:28.510 align:start position:0%
+If you like this kind of content, these
+sessions,<00:12:27.080><c> there</c><00:12:27.360><c> are</c><00:12:27.600><c> related</c><00:12:28.040><c> sessions</c>
+
+00:12:28.510 --> 00:12:28.520 align:start position:0%
+sessions, there are related sessions
+ 
+
+00:12:28.520 --> 00:12:30.510 align:start position:0%
+sessions, there are related sessions
+both<00:12:28.760><c> the</c><00:12:28.880><c> breakouts</c><00:12:29.480><c> we</c><00:12:29.600><c> have</c><00:12:29.760><c> been</c><00:12:30.160><c> talking</c>
+
+00:12:30.510 --> 00:12:30.520 align:start position:0%
+both the breakouts we have been talking
+ 
+
+00:12:30.520 --> 00:12:31.790 align:start position:0%
+both the breakouts we have been talking
+about<00:12:30.839><c> in</c><00:12:30.960><c> this</c>
+
+00:12:31.790 --> 00:12:31.800 align:start position:0%
+about in this
+ 
+
+00:12:31.800 --> 00:12:33.470 align:start position:0%
+about in this
+um<00:12:32.280><c> and</c><00:12:32.480><c> others,</c>
+
+00:12:33.470 --> 00:12:33.480 align:start position:0%
+um and others,
+ 
+
+00:12:33.480 --> 00:12:38.230 align:start position:0%
+um and others,
+they<00:12:34.000><c> are</c><00:12:34.480><c> available</c><00:12:35.280><c> down</c><00:12:35.600><c> here</c><00:12:35.960><c> in</c><00:12:36.839><c> um</c>
+
+00:12:38.230 --> 00:12:38.240 align:start position:0%
+they are available down here in um
+ 
+
+00:12:38.240 --> 00:12:40.710 align:start position:0%
+they are available down here in um
+in<00:12:38.480><c> the</c><00:12:38.839><c> the</c><00:12:39.360><c> description</c><00:12:39.920><c> for</c><00:12:40.160><c> the</c><00:12:40.480><c> for</c><00:12:40.640><c> the</c>
+
+00:12:40.710 --> 00:12:40.720 align:start position:0%
+in the the description for the for the
+ 
+
+00:12:40.720 --> 00:12:43.110 align:start position:0%
+in the the description for the for the
+video.<00:12:41.720><c> Uh</c><00:12:41.800><c> some</c><00:12:42.040><c> of</c><00:12:42.120><c> them</c><00:12:42.480><c> are</c><00:12:42.560><c> also</c>
+
+00:12:43.110 --> 00:12:43.120 align:start position:0%
+video. Uh some of them are also
+ 
+
+00:12:43.120 --> 00:12:45.030 align:start position:0%
+video. Uh some of them are also
+highlighted<00:12:43.680><c> in</c><00:12:43.760><c> the</c><00:12:43.880><c> end</c><00:12:44.000><c> of</c><00:12:44.120><c> this</c><00:12:44.280><c> video</c><00:12:44.680><c> to</c>
+
+00:12:45.030 --> 00:12:45.040 align:start position:0%
+highlighted in the end of this video to
+ 
+
+00:12:45.040 --> 00:12:47.270 align:start position:0%
+highlighted in the end of this video to
+to<00:12:45.280><c> learn</c><00:12:45.560><c> more,</c><00:12:46.120><c> just</c><00:12:46.400><c> click</c><00:12:46.680><c> directly</c><00:12:47.120><c> on</c>
+
+00:12:47.270 --> 00:12:47.280 align:start position:0%
+to learn more, just click directly on
+ 
+
+00:12:47.280 --> 00:12:48.710 align:start position:0%
+to learn more, just click directly on
+them.
+
+00:12:48.710 --> 00:12:48.720 align:start position:0%
+them.
+ 
+
+00:12:48.720 --> 00:12:51.790 align:start position:0%
+them.
+And<00:12:48.920><c> that's</c><00:12:49.760><c> all</c><00:12:50.240><c> that</c><00:12:50.520><c> Jens</c><00:12:50.760><c> and</c><00:12:50.920><c> I</c><00:12:51.080><c> had</c><00:12:51.520><c> for</c>
+
+00:12:51.790 --> 00:12:51.800 align:start position:0%
+And that's all that Jens and I had for
+ 
+
+00:12:51.800 --> 00:12:53.790 align:start position:0%
+And that's all that Jens and I had for
+you<00:12:52.040><c> in</c><00:12:52.200><c> this</c><00:12:52.400><c> session.</c><00:12:53.120><c> Yeah,</c><00:12:53.240><c> it's</c><00:12:53.440><c> easy</c><00:12:53.680><c> to</c>
+
+00:12:53.790 --> 00:12:53.800 align:start position:0%
+you in this session. Yeah, it's easy to
+ 
+
+00:12:53.800 --> 00:12:55.310 align:start position:0%
+you in this session. Yeah, it's easy to
+make<00:12:54.000><c> it</c><00:12:54.120><c> short</c><00:12:54.520><c> when</c><00:12:54.720><c> we</c><00:12:54.839><c> just</c><00:12:55.080><c> put</c>
+
+00:12:55.310 --> 00:12:55.320 align:start position:0%
+make it short when we just put
+ 
+
+00:12:55.320 --> 00:12:57.390 align:start position:0%
+make it short when we just put
+everything<00:12:55.800><c> else</c><00:12:56.120><c> in</c><00:12:56.360><c> breakout</c><00:12:56.800><c> sessions.</c>
+
+00:12:57.390 --> 00:12:57.400 align:start position:0%
+everything else in breakout sessions.
+ 
+
+00:12:57.400 --> 00:12:58.670 align:start position:0%
+everything else in breakout sessions.
+Well,<00:12:57.480><c> that's</c><00:12:57.680><c> what</c><00:12:57.839><c> managers</c><00:12:58.280><c> do,</c><00:12:58.520><c> we</c>
+
+00:12:58.670 --> 00:12:58.680 align:start position:0%
+Well, that's what managers do, we
+ 
+
+00:12:58.680 --> 00:13:00.790 align:start position:0%
+Well, that's what managers do, we
+delegate.<00:12:59.680><c> So,</c><00:13:00.240><c> um</c>
+
+00:13:00.790 --> 00:13:00.800 align:start position:0%
+delegate. So, um
+ 
+
+00:13:00.800 --> 00:13:02.510 align:start position:0%
+delegate. So, um
+thanks<00:13:01.040><c> a</c><00:13:01.120><c> lot</c><00:13:01.280><c> for</c><00:13:01.400><c> watching.</c>
+
+00:13:02.510 --> 00:13:02.520 align:start position:0%
+thanks a lot for watching.
+ 
+
+00:13:02.520 --> 00:13:04.310 align:start position:0%
+thanks a lot for watching.
+Uh<00:13:02.600><c> in</c><00:13:02.720><c> the</c><00:13:02.800><c> end</c><00:13:02.920><c> of</c><00:13:03.000><c> this</c><00:13:03.200><c> video</c><00:13:03.600><c> we</c><00:13:03.760><c> are</c><00:13:04.120><c> with</c>
+
+00:13:04.310 --> 00:13:04.320 align:start position:0%
+Uh in the end of this video we are with
+ 
+
+00:13:04.320 --> 00:13:06.390 align:start position:0%
+Uh in the end of this video we are with
+introducing<00:13:05.240><c> general</c><00:13:05.600><c> resources.</c><00:13:06.200><c> If</c><00:13:06.320><c> you</c>
+
+00:13:06.390 --> 00:13:06.400 align:start position:0%
+introducing general resources. If you
+ 
+
+00:13:06.400 --> 00:13:08.910 align:start position:0%
+introducing general resources. If you
+don't<00:13:06.600><c> know</c><00:13:07.320><c> don't</c><00:13:07.560><c> know</c><00:13:07.880><c> know</c><00:13:08.080><c> those,</c><00:13:08.680><c> stay</c>
+
+00:13:08.910 --> 00:13:08.920 align:start position:0%
+don't know don't know know those, stay
+ 
+
+00:13:08.920 --> 00:13:11.470 align:start position:0%
+don't know don't know know those, stay
+tuned,<00:13:09.720><c> but</c><00:13:10.080><c> Jens</c><00:13:10.360><c> and</c><00:13:10.480><c> I</c><00:13:10.839><c> are</c><00:13:10.920><c> done</c><00:13:11.160><c> for</c><00:13:11.280><c> now,</c>
+
+00:13:11.470 --> 00:13:11.480 align:start position:0%
+tuned, but Jens and I are done for now,
+ 
+
+00:13:11.480 --> 00:13:15.310 align:start position:0%
+tuned, but Jens and I are done for now,
+so.<00:13:12.280><c> Thank</c><00:13:12.480><c> you.</c><00:13:12.680><c> Thank</c><00:13:12.839><c> you.</c>
+
+00:13:15.310 --> 00:13:15.320 align:start position:0%
+ 
+ 
+
+00:13:15.320 --> 00:13:17.670 align:start position:0%
+ 
+We<00:13:15.480><c> have</c><00:13:15.680><c> compiled</c><00:13:16.640><c> a</c><00:13:16.680><c> number</c><00:13:17.120><c> of</c><00:13:17.320><c> general</c>
+
+00:13:17.670 --> 00:13:17.680 align:start position:0%
+We have compiled a number of general
+ 
+
+00:13:17.680 --> 00:13:20.310 align:start position:0%
+We have compiled a number of general
+resources<00:13:18.440><c> that</c><00:13:18.680><c> we</c><00:13:18.800><c> believe</c><00:13:19.440><c> are</c><00:13:19.600><c> key</c><00:13:19.960><c> both</c>
+
+00:13:20.310 --> 00:13:20.320 align:start position:0%
+resources that we believe are key both
+ 
+
+00:13:20.320 --> 00:13:23.510 align:start position:0%
+resources that we believe are key both
+for<00:13:21.000><c> partners,</c><00:13:21.640><c> but</c><00:13:21.839><c> also</c><00:13:22.760><c> Business</c><00:13:23.120><c> Central</c>
+
+00:13:23.510 --> 00:13:23.520 align:start position:0%
+for partners, but also Business Central
+ 
+
+00:13:23.520 --> 00:13:25.870 align:start position:0%
+for partners, but also Business Central
+customers.<00:13:24.520><c> Most</c><00:13:25.400><c> Some</c><00:13:25.560><c> of</c><00:13:25.640><c> these</c><00:13:25.800><c> are</c>
+
+00:13:25.870 --> 00:13:25.880 align:start position:0%
+customers. Most Some of these are
+ 
+
+00:13:25.880 --> 00:13:27.590 align:start position:0%
+customers. Most Some of these are
+partner,<00:13:26.280><c> some</c><00:13:26.560><c> of</c><00:13:26.680><c> them</c><00:13:26.960><c> are</c><00:13:27.080><c> also</c><00:13:27.440><c> for</c>
+
+00:13:27.590 --> 00:13:27.600 align:start position:0%
+partner, some of them are also for
+ 
+
+00:13:27.600 --> 00:13:31.310 align:start position:0%
+partner, some of them are also for
+customers.<00:13:28.640><c> So,</c><00:13:29.360><c> the</c><00:13:29.440><c> first</c><00:13:29.720><c> one</c><00:13:30.120><c> is</c>
+
+00:13:31.310 --> 00:13:31.320 align:start position:0%
+customers. So, the first one is
+ 
+
+00:13:31.320 --> 00:13:34.070 align:start position:0%
+customers. So, the first one is
+called<00:13:31.800><c> aka.ms/bcall.</c>
+
+00:13:34.070 --> 00:13:34.080 align:start position:0%
+called aka.ms/bcall.
+ 
+
+00:13:34.080 --> 00:13:36.430 align:start position:0%
+called aka.ms/bcall.
+This<00:13:34.320><c> is</c><00:13:34.440><c> a</c><00:13:34.520><c> partner</c><00:13:34.920><c> resource</c><00:13:35.560><c> for</c><00:13:36.200><c> that</c>
+
+00:13:36.430 --> 00:13:36.440 align:start position:0%
+This is a partner resource for that
+ 
+
+00:13:36.440 --> 00:13:39.910 align:start position:0%
+This is a partner resource for that
+contains<00:13:37.280><c> lists</c><00:13:37.800><c> of</c><00:13:38.160><c> every</c><00:13:38.520><c> other</c><00:13:39.000><c> aka</c><00:13:39.520><c> link</c>
+
+00:13:39.910 --> 00:13:39.920 align:start position:0%
+contains lists of every other aka link
+ 
+
+00:13:39.920 --> 00:13:42.430 align:start position:0%
+contains lists of every other aka link
+that<00:13:40.120><c> is</c><00:13:40.320><c> needed</c><00:13:40.760><c> for</c><00:13:40.920><c> you</c><00:13:41.160><c> to</c><00:13:41.800><c> understand</c>
+
+00:13:42.430 --> 00:13:42.440 align:start position:0%
+that is needed for you to understand
+ 
+
+00:13:42.440 --> 00:13:44.110 align:start position:0%
+that is needed for you to understand
+anything<00:13:42.839><c> about</c><00:13:43.240><c> both</c><00:13:43.480><c> the</c><00:13:43.560><c> Business</c><00:13:43.880><c> Central</c>
+
+00:13:44.110 --> 00:13:44.120 align:start position:0%
+anything about both the Business Central
+ 
+
+00:13:44.120 --> 00:13:47.270 align:start position:0%
+anything about both the Business Central
+product,<00:13:44.880><c> but</c><00:13:45.040><c> also</c><00:13:45.280><c> processes</c><00:13:45.880><c> around</c><00:13:46.280><c> it.</c>
+
+00:13:47.270 --> 00:13:47.280 align:start position:0%
+product, but also processes around it.
+ 
+
+00:13:47.280 --> 00:13:49.110 align:start position:0%
+product, but also processes around it.
+We<00:13:47.400><c> call</c><00:13:47.680><c> these</c><00:13:47.960><c> aka</c><00:13:48.400><c> links</c><00:13:48.680><c> because</c><00:13:48.960><c> they're</c>
+
+00:13:49.110 --> 00:13:49.120 align:start position:0%
+We call these aka links because they're
+ 
+
+00:13:49.120 --> 00:13:51.590 align:start position:0%
+We call these aka links because they're
+called<00:13:49.400><c> aka.ms</c><00:13:50.520><c> and</c><00:13:50.680><c> then</c><00:13:50.800><c> for</c><00:13:51.040><c> for</c>
+
+00:13:51.590 --> 00:13:51.600 align:start position:0%
+called aka.ms and then for for
+ 
+
+00:13:51.600 --> 00:13:53.510 align:start position:0%
+called aka.ms and then for for
+something.<00:13:52.480><c> And</c><00:13:52.640><c> with</c><00:13:52.800><c> Business</c><00:13:53.120><c> Central</c>
+
+00:13:53.510 --> 00:13:53.520 align:start position:0%
+something. And with Business Central
+ 
+
+00:13:53.520 --> 00:13:56.070 align:start position:0%
+something. And with Business Central
+links<00:13:53.800><c> we</c><00:13:53.920><c> all</c><00:13:54.200><c> always</c><00:13:54.640><c> prefix</c><00:13:55.240><c> with</c><00:13:55.480><c> BC</c><00:13:55.920><c> and</c>
+
+00:13:56.070 --> 00:13:56.080 align:start position:0%
+links we all always prefix with BC and
+ 
+
+00:13:56.080 --> 00:13:57.630 align:start position:0%
+links we all always prefix with BC and
+then<00:13:56.240><c> something.</c>
+
+00:13:57.630 --> 00:13:57.640 align:start position:0%
+then something.
+ 
+
+00:13:57.640 --> 00:14:02.630 align:start position:0%
+then something.
+The<00:13:57.720><c> next</c><00:13:58.000><c> one</c><00:13:58.720><c> is</c><00:13:59.640><c> our</c><00:14:00.600><c> partner</c><00:14:01.360><c> network</c>
+
+00:14:02.630 --> 00:14:02.640 align:start position:0%
+The next one is our partner network
+ 
+
+00:14:02.640 --> 00:14:04.590 align:start position:0%
+The next one is our partner network
+social<00:14:03.080><c> media</c><00:14:03.520><c> for</c><00:14:03.880><c> for</c><00:14:04.040><c> Business</c><00:14:04.320><c> Central</c>
+
+00:14:04.590 --> 00:14:04.600 align:start position:0%
+social media for for Business Central
+ 
+
+00:14:04.600 --> 00:14:07.470 align:start position:0%
+social media for for Business Central
+partners,<00:14:05.080><c> Viva</c><00:14:05.480><c> Viva</c><00:14:05.800><c> Engage.</c><00:14:06.880><c> So,</c>
+
+00:14:07.470 --> 00:14:07.480 align:start position:0%
+partners, Viva Viva Engage. So,
+ 
+
+00:14:07.480 --> 00:14:10.550 align:start position:0%
+partners, Viva Viva Engage. So,
+aka.ms/bcvivaengage
+
+00:14:10.550 --> 00:14:10.560 align:start position:0%
+ 
+ 
+
+00:14:10.560 --> 00:14:13.430 align:start position:0%
+ 
+is<00:14:10.720><c> where</c><00:14:11.079><c> you</c><00:14:11.280><c> go</c><00:14:11.800><c> and</c><00:14:12.600><c> interact</c><00:14:13.079><c> with</c><00:14:13.240><c> other</c>
+
+00:14:13.430 --> 00:14:13.440 align:start position:0%
+is where you go and interact with other
+ 
+
+00:14:13.440 --> 00:14:15.670 align:start position:0%
+is where you go and interact with other
+partners.<00:14:13.920><c> It's</c><00:14:14.120><c> not</c><00:14:14.560><c> open</c><00:14:14.880><c> for</c><00:14:15.000><c> customers,</c>
+
+00:14:15.670 --> 00:14:15.680 align:start position:0%
+partners. It's not open for customers,
+ 
+
+00:14:15.680 --> 00:14:17.150 align:start position:0%
+partners. It's not open for customers,
+so<00:14:15.800><c> this</c><00:14:16.000><c> is</c><00:14:16.079><c> where</c><00:14:16.240><c> you</c><00:14:16.320><c> can</c><00:14:16.520><c> ask</c><00:14:17.079><c> uh</c>
+
+00:14:17.150 --> 00:14:17.160 align:start position:0%
+so this is where you can ask uh
+ 
+
+00:14:17.160 --> 00:14:18.750 align:start position:0%
+so this is where you can ask uh
+questions,<00:14:17.640><c> interact</c><00:14:18.200><c> with</c><00:14:18.320><c> the</c><00:14:18.400><c> product</c>
+
+00:14:18.750 --> 00:14:18.760 align:start position:0%
+questions, interact with the product
+ 
+
+00:14:18.760 --> 00:14:21.030 align:start position:0%
+questions, interact with the product
+group,<00:14:19.360><c> interact</c><00:14:19.839><c> with</c><00:14:20.440><c> with</c><00:14:20.680><c> with</c><00:14:20.839><c> each</c>
+
+00:14:21.030 --> 00:14:21.040 align:start position:0%
+group, interact with with with each
+ 
+
+00:14:21.040 --> 00:14:22.030 align:start position:0%
+group, interact with with with each
+other
+
+00:14:22.030 --> 00:14:22.040 align:start position:0%
+other
+ 
+
+00:14:22.040 --> 00:14:24.510 align:start position:0%
+other
+um<00:14:22.200><c> in</c><00:14:22.360><c> a</c><00:14:22.480><c> in</c><00:14:22.600><c> a</c><00:14:22.680><c> closed</c><00:14:23.040><c> network.</c>
+
+00:14:24.510 --> 00:14:24.520 align:start position:0%
+um in a in a closed network.
+ 
+
+00:14:24.520 --> 00:14:26.829 align:start position:0%
+um in a in a closed network.
+Secondly,<00:14:25.120><c> the</c><00:14:25.240><c> third</c><00:14:25.560><c> link</c><00:14:25.880><c> is</c><00:14:26.280><c> for</c><00:14:26.520><c> both</c>
+
+00:14:26.829 --> 00:14:26.839 align:start position:0%
+Secondly, the third link is for both
+ 
+
+00:14:26.839 --> 00:14:28.790 align:start position:0%
+Secondly, the third link is for both
+partners<00:14:27.280><c> and</c><00:14:27.400><c> customers</c><00:14:27.920><c> we</c><00:14:28.040><c> call</c><00:14:28.400><c> office</c>
+
+00:14:28.790 --> 00:14:28.800 align:start position:0%
+partners and customers we call office
+ 
+
+00:14:28.800 --> 00:14:31.030 align:start position:0%
+partners and customers we call office
+hours.<00:14:29.400><c> So,</c><00:14:29.680><c> office</c><00:14:30.000><c> hours</c><00:14:30.400><c> is</c><00:14:30.520><c> something</c><00:14:30.920><c> we</c>
+
+00:14:31.030 --> 00:14:31.040 align:start position:0%
+hours. So, office hours is something we
+ 
+
+00:14:31.040 --> 00:14:33.710 align:start position:0%
+hours. So, office hours is something we
+do<00:14:31.920><c> once</c><00:14:32.200><c> or</c><00:14:32.280><c> twice</c><00:14:32.720><c> a</c><00:14:32.760><c> month</c><00:14:33.320><c> from</c><00:14:33.600><c> the</c>
+
+00:14:33.710 --> 00:14:33.720 align:start position:0%
+do once or twice a month from the
+ 
+
+00:14:33.720 --> 00:14:35.790 align:start position:0%
+do once or twice a month from the
+product<00:14:34.079><c> group</c><00:14:34.520><c> engaging</c><00:14:35.240><c> with</c><00:14:35.720><c> the</c>
+
+00:14:35.790 --> 00:14:35.800 align:start position:0%
+product group engaging with the
+ 
+
+00:14:35.800 --> 00:14:38.710 align:start position:0%
+product group engaging with the
+community<00:14:36.760><c> about</c><00:14:37.400><c> new</c><00:14:37.600><c> features</c><00:14:38.280><c> or</c><00:14:38.400><c> things</c>
+
+00:14:38.710 --> 00:14:38.720 align:start position:0%
+community about new features or things
+ 
+
+00:14:38.720 --> 00:14:42.829 align:start position:0%
+community about new features or things
+we<00:14:38.839><c> want</c><00:14:39.040><c> to</c><00:14:39.160><c> discuss.</c><00:14:40.120><c> aka.ms/bcofficehours</c>
+
+00:14:42.829 --> 00:14:42.839 align:start position:0%
+we want to discuss. aka.ms/bcofficehours
+ 
+
+00:14:42.839 --> 00:14:46.470 align:start position:0%
+we want to discuss. aka.ms/bcofficehours
+is<00:14:43.160><c> the</c><00:14:43.800><c> is</c><00:14:44.040><c> the</c><00:14:44.720><c> the</c><00:14:44.760><c> place</c><00:14:45.160><c> where</c><00:14:45.360><c> you</c><00:14:46.040><c> go</c><00:14:46.280><c> to</c>
+
+00:14:46.470 --> 00:14:46.480 align:start position:0%
+is the is the the place where you go to
+ 
+
+00:14:46.480 --> 00:14:49.310 align:start position:0%
+is the is the the place where you go to
+find<00:14:46.800><c> out</c><00:14:47.079><c> about</c><00:14:47.560><c> upcoming</c><00:14:48.200><c> events.</c>
+
+00:14:49.310 --> 00:14:49.320 align:start position:0%
+find out about upcoming events.
+ 
+
+00:14:49.320 --> 00:14:51.430 align:start position:0%
+find out about upcoming events.
+These<00:14:49.560><c> are</c><00:14:49.720><c> recorded.</c><00:14:50.560><c> I</c><00:14:50.760><c> believe</c><00:14:51.320><c> the</c>
+
+00:14:51.430 --> 00:14:51.440 align:start position:0%
+These are recorded. I believe the
+ 
+
+00:14:51.440 --> 00:14:53.230 align:start position:0%
+These are recorded. I believe the
+recordings<00:14:52.160><c> are</c><00:14:52.320><c> available</c><00:14:52.880><c> only</c><00:14:53.120><c> to</c>
+
+00:14:53.230 --> 00:14:53.240 align:start position:0%
+recordings are available only to
+ 
+
+00:14:53.240 --> 00:14:55.390 align:start position:0%
+recordings are available only to
+partners,<00:14:53.839><c> but</c><00:14:54.160><c> the</c><00:14:54.360><c> live</c><00:14:54.720><c> events</c><00:14:55.240><c> are</c>
+
+00:14:55.390 --> 00:14:55.400 align:start position:0%
+partners, but the live events are
+ 
+
+00:14:55.400 --> 00:14:58.110 align:start position:0%
+partners, but the live events are
+available<00:14:55.880><c> to</c><00:14:56.040><c> customers</c><00:14:56.560><c> as</c><00:14:56.720><c> well.</c>
+
+00:14:58.110 --> 00:14:58.120 align:start position:0%
+available to customers as well.
+ 
+
+00:14:58.120 --> 00:15:00.550 align:start position:0%
+available to customers as well.
+Fourth<00:14:58.600><c> link</c><00:14:58.959><c> is</c><00:14:59.480><c> YouTube,</c><00:15:00.000><c> our</c><00:15:00.200><c> YouTube</c>
+
+00:15:00.550 --> 00:15:00.560 align:start position:0%
+Fourth link is YouTube, our YouTube
+ 
+
+00:15:00.560 --> 00:15:02.710 align:start position:0%
+Fourth link is YouTube, our YouTube
+channel.<00:15:00.959><c> I'll</c><00:15:01.079><c> talk</c><00:15:01.320><c> about</c><00:15:01.600><c> that</c>
+
+00:15:02.710 --> 00:15:02.720 align:start position:0%
+channel. I'll talk about that
+ 
+
+00:15:02.720 --> 00:15:04.590 align:start position:0%
+channel. I'll talk about that
+in<00:15:02.959><c> the</c><00:15:03.079><c> next</c><00:15:03.320><c> slide</c><00:15:03.720><c> and</c><00:15:03.920><c> LinkedIn</c><00:15:04.400><c> in</c><00:15:04.520><c> the</c>
+
+00:15:04.590 --> 00:15:04.600 align:start position:0%
+in the next slide and LinkedIn in the
+ 
+
+00:15:04.600 --> 00:15:06.030 align:start position:0%
+in the next slide and LinkedIn in the
+next<00:15:04.839><c> slide.</c>
+
+00:15:06.030 --> 00:15:06.040 align:start position:0%
+next slide.
+ 
+
+00:15:06.040 --> 00:15:08.310 align:start position:0%
+next slide.
+And<00:15:06.200><c> then</c><00:15:06.400><c> finally</c><00:15:07.440><c> for</c><00:15:07.680><c> for</c><00:15:07.880><c> Microsoft</c>
+
+00:15:08.310 --> 00:15:08.320 align:start position:0%
+And then finally for for Microsoft
+ 
+
+00:15:08.320 --> 00:15:10.750 align:start position:0%
+And then finally for for Microsoft
+partners,<00:15:09.440><c> the</c><00:15:09.680><c> BC's</c>
+
+00:15:10.750 --> 00:15:10.760 align:start position:0%
+partners, the BC's
+ 
+
+00:15:10.760 --> 00:15:14.270 align:start position:0%
+partners, the BC's
+aka.ms/bcpartnerportal
+
+00:15:14.270 --> 00:15:14.280 align:start position:0%
+ 
+ 
+
+00:15:14.280 --> 00:15:16.710 align:start position:0%
+ 
+is<00:15:14.560><c> where</c><00:15:14.920><c> you</c><00:15:15.440><c> get</c>
+
+00:15:16.710 --> 00:15:16.720 align:start position:0%
+is where you get
+ 
+
+00:15:16.720 --> 00:15:19.630 align:start position:0%
+is where you get
+a<00:15:16.839><c> lot</c><00:15:17.120><c> of</c><00:15:17.280><c> the</c><00:15:17.800><c> resources</c><00:15:18.600><c> as</c><00:15:18.760><c> a</c><00:15:18.839><c> partner</c><00:15:19.320><c> such</c>
+
+00:15:19.630 --> 00:15:19.640 align:start position:0%
+a lot of the resources as a partner such
+ 
+
+00:15:19.640 --> 00:15:21.350 align:start position:0%
+a lot of the resources as a partner such
+as<00:15:19.800><c> compete</c><00:15:20.280><c> decks,</c>
+
+00:15:21.350 --> 00:15:21.360 align:start position:0%
+as compete decks,
+ 
+
+00:15:21.360 --> 00:15:23.190 align:start position:0%
+as compete decks,
+pitch<00:15:21.680><c> decks</c><00:15:22.120><c> and</c><00:15:22.400><c> a</c><00:15:22.520><c> lot</c><00:15:22.839><c> of</c><00:15:23.000><c> other</c>
+
+00:15:23.190 --> 00:15:23.200 align:start position:0%
+pitch decks and a lot of other
+ 
+
+00:15:23.200 --> 00:15:25.910 align:start position:0%
+pitch decks and a lot of other
+resources.
+
+00:15:25.910 --> 00:15:25.920 align:start position:0%
+resources.
+ 
+
+00:15:25.920 --> 00:15:27.550 align:start position:0%
+resources.
+For<00:15:26.079><c> LinkedIn,</c><00:15:26.600><c> this</c><00:15:26.800><c> is</c><00:15:26.959><c> our</c><00:15:27.200><c> product</c>
+
+00:15:27.550 --> 00:15:27.560 align:start position:0%
+For LinkedIn, this is our product
+ 
+
+00:15:27.560 --> 00:15:31.270 align:start position:0%
+For LinkedIn, this is our product
+group's<00:15:28.360><c> LinkedIn</c><00:15:28.880><c> profile.</c><00:15:29.800><c> We</c><00:15:30.000><c> have</c><00:15:30.560><c> 30K</c><00:15:31.200><c> or</c>
+
+00:15:31.270 --> 00:15:31.280 align:start position:0%
+group's LinkedIn profile. We have 30K or
+ 
+
+00:15:31.280 --> 00:15:33.470 align:start position:0%
+group's LinkedIn profile. We have 30K or
+more<00:15:31.600><c> followers,</c><00:15:32.320><c> so</c><00:15:32.560><c> both</c><00:15:32.880><c> partners</c><00:15:33.320><c> and</c>
+
+00:15:33.470 --> 00:15:33.480 align:start position:0%
+more followers, so both partners and
+ 
+
+00:15:33.480 --> 00:15:36.069 align:start position:0%
+more followers, so both partners and
+customers.<00:15:34.480><c> This</c><00:15:34.720><c> is</c><00:15:34.839><c> the</c><00:15:35.000><c> place</c><00:15:35.520><c> where</c><00:15:35.839><c> we</c>
+
+00:15:36.069 --> 00:15:36.079 align:start position:0%
+customers. This is the place where we
+ 
+
+00:15:36.079 --> 00:15:38.510 align:start position:0%
+customers. This is the place where we
+from<00:15:36.280><c> the</c><00:15:36.400><c> product</c><00:15:36.720><c> group</c><00:15:37.440><c> put</c><00:15:37.640><c> in</c><00:15:37.839><c> news</c><00:15:38.360><c> and</c>
+
+00:15:38.510 --> 00:15:38.520 align:start position:0%
+from the product group put in news and
+ 
+
+00:15:38.520 --> 00:15:42.270 align:start position:0%
+from the product group put in news and
+small<00:15:39.160><c> bits</c><00:15:39.480><c> of</c><00:15:39.640><c> information</c><00:15:40.959><c> outside</c><00:15:41.480><c> the</c>
+
+00:15:42.270 --> 00:15:42.280 align:start position:0%
+small bits of information outside the
+ 
+
+00:15:42.280 --> 00:15:44.670 align:start position:0%
+small bits of information outside the
+{quote}<00:15:42.520><c> official</c><00:15:43.400><c> channel.</c><00:15:43.800><c> So,</c><00:15:44.120><c> follow</c><00:15:44.520><c> us</c>
+
+00:15:44.670 --> 00:15:44.680 align:start position:0%
+{quote} official channel. So, follow us
+ 
+
+00:15:44.680 --> 00:15:47.150 align:start position:0%
+{quote} official channel. So, follow us
+on<00:15:45.040><c> LinkedIn</c><00:15:45.880><c> to</c><00:15:46.079><c> learn</c><00:15:46.440><c> what's</c><00:15:46.680><c> happening</c>
+
+00:15:47.150 --> 00:15:47.160 align:start position:0%
+on LinkedIn to learn what's happening
+ 
+
+00:15:47.160 --> 00:15:48.590 align:start position:0%
+on LinkedIn to learn what's happening
+right<00:15:47.440><c> now</c>
+
+00:15:48.590 --> 00:15:48.600 align:start position:0%
+right now
+ 
+
+00:15:48.600 --> 00:15:51.590 align:start position:0%
+right now
+in<00:15:48.839><c> in</c><00:15:49.000><c> this</c><00:15:49.360><c> in</c><00:15:49.520><c> the</c><00:15:49.880><c> around</c><00:15:50.280><c> the</c><00:15:50.360><c> product.</c>
+
+00:15:51.590 --> 00:15:51.600 align:start position:0%
+in in this in the around the product.
+ 
+
+00:15:51.600 --> 00:15:53.470 align:start position:0%
+in in this in the around the product.
+Um<00:15:52.160><c> and</c><00:15:52.360><c> then</c>
+
+00:15:53.470 --> 00:15:53.480 align:start position:0%
+Um and then
+ 
+
+00:15:53.480 --> 00:15:55.829 align:start position:0%
+Um and then
+uh<00:15:53.760><c> also</c><00:15:54.360><c> on</c><00:15:54.760><c> our</c><00:15:54.920><c> YouTube</c><00:15:55.240><c> channel</c><00:15:55.600><c> where</c>
+
+00:15:55.829 --> 00:15:55.839 align:start position:0%
+uh also on our YouTube channel where
+ 
+
+00:15:55.839 --> 00:15:57.510 align:start position:0%
+uh also on our YouTube channel where
+this<00:15:56.040><c> is</c><00:15:56.160><c> where</c><00:15:56.360><c> you're</c><00:15:56.600><c> probably</c><00:15:57.079><c> watching</c>
+
+00:15:57.510 --> 00:15:57.520 align:start position:0%
+this is where you're probably watching
+ 
+
+00:15:57.520 --> 00:16:00.590 align:start position:0%
+this is where you're probably watching
+this,<00:15:57.800><c> aka.ms/bcyoutube.</c>
+
+00:16:00.590 --> 00:16:00.600 align:start position:0%
+this, aka.ms/bcyoutube.
+ 
+
+00:16:00.600 --> 00:16:03.270 align:start position:0%
+this, aka.ms/bcyoutube.
+We<00:16:00.720><c> put</c><00:16:01.000><c> in</c><00:16:01.240><c> not</c><00:16:01.480><c> only</c><00:16:01.720><c> these</c><00:16:02.040><c> launch</c><00:16:02.360><c> editions</c>
+
+00:16:03.270 --> 00:16:03.280 align:start position:0%
+We put in not only these launch editions
+ 
+
+00:16:03.280 --> 00:16:05.470 align:start position:0%
+We put in not only these launch editions
+twice<00:16:03.600><c> a</c><00:16:03.680><c> year,</c><00:16:04.040><c> but</c><00:16:04.240><c> also</c>
+
+00:16:05.470 --> 00:16:05.480 align:start position:0%
+twice a year, but also
+ 
+
+00:16:05.480 --> 00:16:09.110 align:start position:0%
+twice a year, but also
+copilot<00:16:06.040><c> and</c><00:16:06.360><c> AI</c><00:16:07.200><c> video</c><00:16:07.720><c> shorts,</c><00:16:08.680><c> tips</c><00:16:09.000><c> and</c>
+
+00:16:09.110 --> 00:16:09.120 align:start position:0%
+copilot and AI video shorts, tips and
+ 
+
+00:16:09.120 --> 00:16:11.990 align:start position:0%
+copilot and AI video shorts, tips and
+tricks,<00:16:09.720><c> technical</c><00:16:10.280><c> deep</c><00:16:10.560><c> dives,</c><00:16:11.600><c> under</c><00:16:11.880><c> the</c>
+
+00:16:11.990 --> 00:16:12.000 align:start position:0%
+tricks, technical deep dives, under the
+ 
+
+00:16:12.000 --> 00:16:13.190 align:start position:0%
+tricks, technical deep dives, under the
+hood.
+
+00:16:13.190 --> 00:16:13.200 align:start position:0%
+hood.
+ 
+
+00:16:13.200 --> 00:16:15.150 align:start position:0%
+hood.
+Uh<00:16:13.280><c> we</c><00:16:13.440><c> even</c><00:16:13.640><c> have</c><00:16:13.880><c> this</c><00:16:14.400><c> what's</c><00:16:14.720><c> cooking</c>
+
+00:16:15.150 --> 00:16:15.160 align:start position:0%
+Uh we even have this what's cooking
+ 
+
+00:16:15.160 --> 00:16:18.230 align:start position:0%
+Uh we even have this what's cooking
+where<00:16:15.400><c> we</c><00:16:15.520><c> put</c><00:16:15.880><c> little</c><00:16:16.240><c> nuggets</c><00:16:16.800><c> of</c><00:16:17.480><c> of</c><00:16:17.720><c> videos</c>
+
+00:16:18.230 --> 00:16:18.240 align:start position:0%
+where we put little nuggets of of videos
+ 
+
+00:16:18.240 --> 00:16:19.949 align:start position:0%
+where we put little nuggets of of videos
+out<00:16:18.480><c> for</c><00:16:18.600><c> new</c><00:16:18.800><c> features</c><00:16:19.280><c> that</c><00:16:19.440><c> are</c><00:16:19.520><c> even</c>
+
+00:16:19.949 --> 00:16:19.959 align:start position:0%
+out for new features that are even
+ 
+
+00:16:19.959 --> 00:16:23.110 align:start position:0%
+out for new features that are even
+coming<00:16:20.480><c> in</c><00:16:20.839><c> on</c><00:16:21.000><c> the</c><00:16:21.120><c> YouTube</c><00:16:21.480><c> channel</c><00:16:21.839><c> before</c>
+
+00:16:23.110 --> 00:16:23.120 align:start position:0%
+coming in on the YouTube channel before
+ 
+
+00:16:23.120 --> 00:16:25.390 align:start position:0%
+coming in on the YouTube channel before
+uh<00:16:23.200><c> they're</c><00:16:23.440><c> coming</c><00:16:24.120><c> in</c><00:16:24.240><c> the</c><00:16:24.320><c> release</c><00:16:24.720><c> notes.</c>
+
+00:16:25.390 --> 00:16:25.400 align:start position:0%
+uh they're coming in the release notes.
+ 
+
+00:16:25.400 --> 00:16:27.190 align:start position:0%
+uh they're coming in the release notes.
+So,<00:16:26.160><c> watch</c>
+
+00:16:27.190 --> 00:16:27.200 align:start position:0%
+So, watch
+ 
+
+00:16:27.200 --> 00:16:30.750 align:start position:0%
+So, watch
+and<00:16:27.400><c> maybe</c><00:16:28.320><c> uh</c><00:16:28.400><c> bookmark</c><00:16:28.920><c> us</c><00:16:29.320><c> on</c><00:16:29.720><c> YouTube</c><00:16:30.640><c> and</c>
+
+00:16:30.750 --> 00:16:30.760 align:start position:0%
+and maybe uh bookmark us on YouTube and
+ 
+
+00:16:30.760 --> 00:16:33.270 align:start position:0%
+and maybe uh bookmark us on YouTube and
+also<00:16:31.000><c> notice</c><00:16:31.440><c> all</c><00:16:31.560><c> the</c><00:16:31.680><c> playlists.</c><00:16:32.520><c> So,</c><00:16:32.959><c> that</c>
+
+00:16:33.270 --> 00:16:33.280 align:start position:0%
+also notice all the playlists. So, that
+ 
+
+00:16:33.280 --> 00:16:35.630 align:start position:0%
+also notice all the playlists. So, that
+all<00:16:33.440><c> the</c><00:16:33.560><c> content</c><00:16:34.040><c> is</c><00:16:34.240><c> also</c><00:16:34.640><c> organized</c><00:16:35.360><c> in</c>
+
+00:16:35.630 --> 00:16:35.640 align:start position:0%
+all the content is also organized in
+ 
+
+00:16:35.640 --> 00:16:38.350 align:start position:0%
+all the content is also organized in
+areas,<00:16:36.079><c> not</c><00:16:36.280><c> only</c><00:16:36.880><c> all</c><00:16:37.000><c> the</c><00:16:37.079><c> videos.</c><00:16:38.040><c> So,</c><00:16:38.200><c> if</c>
+
+00:16:38.350 --> 00:16:38.360 align:start position:0%
+areas, not only all the videos. So, if
+ 
+
+00:16:38.360 --> 00:16:40.470 align:start position:0%
+areas, not only all the videos. So, if
+you<00:16:38.440><c> have</c><00:16:38.640><c> an</c><00:16:38.800><c> area</c><00:16:39.160><c> that</c><00:16:39.560><c> has</c><00:16:40.079><c> special</c>
+
+00:16:40.470 --> 00:16:40.480 align:start position:0%
+you have an area that has special
+ 
+
+00:16:40.480 --> 00:16:42.870 align:start position:0%
+you have an area that has special
+interest<00:16:40.959><c> such</c><00:16:41.320><c> as</c><00:16:41.640><c> analytics,</c>
+
+00:16:42.870 --> 00:16:42.880 align:start position:0%
+interest such as analytics,
+ 
+
+00:16:42.880 --> 00:16:44.990 align:start position:0%
+interest such as analytics,
+um<00:16:43.160><c> you</c><00:16:43.280><c> can</c><00:16:43.520><c> find</c><00:16:43.920><c> an</c>
+
+00:16:44.990 --> 00:16:45.000 align:start position:0%
+um you can find an
+ 
+
+00:16:45.000 --> 00:16:46.470 align:start position:0%
+um you can find an
+a<00:16:45.079><c> playlist</c><00:16:45.600><c> and</c><00:16:45.760><c> kind</c><00:16:45.920><c> of</c><00:16:46.040><c> see</c><00:16:46.200><c> all</c><00:16:46.360><c> the</c>
+
+00:16:46.470 --> 00:16:46.480 align:start position:0%
+a playlist and kind of see all the
+ 
+
+00:16:46.480 --> 00:16:49.310 align:start position:0%
+a playlist and kind of see all the
+content<00:16:47.400><c> related</c><00:16:47.800><c> to</c><00:16:47.880><c> that.</c>
+
+00:16:49.310 --> 00:16:49.320 align:start position:0%
+content related to that.
+ 
+
+00:16:49.320 --> 00:16:51.870 align:start position:0%
+content related to that.
+And<00:16:49.440><c> that's</c><00:16:49.680><c> it.</c><00:16:50.120><c> That</c><00:16:50.320><c> is</c><00:16:50.520><c> truly</c><00:16:51.000><c> it.</c><00:16:51.720><c> We</c>
+
+00:16:51.870 --> 00:16:51.880 align:start position:0%
+And that's it. That is truly it. We
+ 
+
+00:16:51.880 --> 00:16:52.829 align:start position:0%
+And that's it. That is truly it. We
+won't
+
+00:16:52.829 --> 00:16:52.839 align:start position:0%
+won't
+ 
+
+00:16:52.839 --> 00:16:54.790 align:start position:0%
+won't
+there<00:16:52.959><c> will</c><00:16:53.079><c> be</c><00:16:53.200><c> no</c><00:16:53.480><c> more,</c><00:16:53.839><c> so</c><00:16:54.160><c> thank</c><00:16:54.440><c> you</c><00:16:54.640><c> for</c>
+
+00:16:54.790 --> 00:16:54.800 align:start position:0%
+there will be no more, so thank you for
+ 
+
+00:16:54.800 --> 00:16:57.470 align:start position:0%
+there will be no more, so thank you for
+watching<00:16:55.480><c> all</c><00:16:55.640><c> the</c><00:16:55.760><c> way</c><00:16:55.920><c> to</c><00:16:56.079><c> the</c><00:16:56.200><c> end</c><00:16:57.040><c> and</c>
+
+00:16:57.470 --> 00:16:57.480 align:start position:0%
+watching all the way to the end and
+ 
+
+00:16:57.480 --> 00:17:00.959 align:start position:0%
+watching all the way to the end and
+again<00:16:57.760><c> have</c><00:16:57.920><c> a</c><00:16:57.959><c> great</c><00:16:58.160><c> day.</c><00:16:58.600><c> Thank</c><00:16:58.800><c> you.</c>
+

@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-attachments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-attachments",
+  "title": "Attachment capabilities and limitations (preview)",
+  "blob": "279bca08123924a902ac6693d11d5a5db504d68d",
+  "summary": "Attachment capabilities and limitations for agent tasks covers file types (PDF, PNG, JPG), file size limits, 10-page PDF limits, and custom document processing with Azure AI Document Intelligence and codeunits like Agent Task Builder and Agent Task Message Builder.",
+  "systems": [
+    "copilot",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "attachments",
+    "document processing",
+    "pdf limits",
+    "file types",
+    "custom analyzers",
+    "agent tasks"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Agent Task Builder"
+    },
+    {
+      "type": "codeunit",
+      "name": "Agent Task Message Builder"
+    },
+    {
+      "type": "codeunit",
+      "name": "Temp Blob"
+    },
+    {
+      "type": "codeunit",
+      "name": "Azure AI Doc Intelligence"
+    }
+  ],
+  "features": [
+    "PDF document processing",
+    "image file attachments",
+    "10-page PDF limit",
+    "custom document analyzers",
+    "file size validation",
+    "document splitting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006829,
+      "pages_in_call": 5
+    }
+  ]
+}

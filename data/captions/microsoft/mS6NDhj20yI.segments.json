@@ -1,0 +1,418 @@
+{
+  "video_id": "mS6NDhj20yI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.3,
+      "end": 20.2,
+      "text": ">> Welcome to 2026 release wave one, the launch edition of Business Central where in this session we're going to talk about enhanced document reporting. My name is Kenny Pontevedra and with me I'm very proud to present Mirko."
+    },
+    {
+      "t": 20.2,
+      "end": 33.2,
+      "text": "Hi, I'm Mirko. I'm part of the engineering team and today I will show you some of the nice improvements we made to the word add-in. Cool. Before we do that, let's just talk about the value of these investments."
+    },
+    {
+      "t": 33.2,
+      "end": 45,
+      "text": "So, at least I could spot four. The more effective ways to design your document reports. You're going to see a lot more of that in this space for the next few years, so stay tuned."
+    },
+    {
+      "t": 45,
+      "end": 59,
+      "text": "Little spoiler alert. More effective document layout management in general, easier support for multi-language companies and finally opening up with APIs for different document types."
+    },
+    {
+      "t": 59,
+      "end": 69.2,
+      "text": "And so we're going to take you through this from an updated word add-in all the way down to APIs. And the first is our updated word add-in."
+    },
+    {
+      "t": 69.2,
+      "end": 79.8,
+      "text": "So, the reason we wanted to invest in this is simply to have the user experience just much better on the data picker and things related to designs."
+    },
+    {
+      "t": 79.8,
+      "end": 97.9,
+      "text": "Why? Because with word the intention is that it's not going to be all developers who create layouts for documents. It's more moving towards um an office worker that use word to do that and that means we need to put the design experience"
+    },
+    {
+      "t": 97.9,
+      "end": 115.2,
+      "text": "in the hands of users. We also need to invest much more into the usability of things. Sorry developers, but that's the way it is. So, to demo the three new things, enhanced UX for the data picker, search in the data picker and a preview feature of a table builder,"
+    },
+    {
+      "t": 115.2,
+      "end": 128.4,
+      "text": "let's see this in action. Mirko, over to you. All right, thank you Kenny. So, since last time we released a data picker, we collected tons of valuable feedback from partners and customers."
+    },
+    {
+      "t": 128.4,
+      "end": 138.4,
+      "text": "So, let me show you how we use this feedback to improve the user experience. Right here, we have a simple customer"
+    },
+    {
+      "t": 138.4,
+      "end": 152.7,
+      "text": "order summary layout which you can download from Business Central. And as you can see on the right side, we have the new version of the data picker. At first look, we can see that we now have the our loved BC theme."
+    },
+    {
+      "t": 152.7,
+      "end": 163.1,
+      "text": "But more importantly, it is now easier to navigate through all the data items. It is easier to see the nested levels. And"
+    },
+    {
+      "t": 163.1,
+      "end": 176.5,
+      "text": "if we are in the document, we can now insert a data item by simply double clicking on it. And even more nicely, if we are inside a table like in this case, whenever we insert a data item,"
+    },
+    {
+      "t": 176.5,
+      "end": 191.8,
+      "text": "the cursor automatically moves to the next cell, making the whole experience smoother and faster. We also have a new icons here both for inserting and a new show metadata action."
+    },
+    {
+      "t": 191.8,
+      "end": 204.3,
+      "text": "And when we click on it, this opens up a pop-up which summarizes all the meaningful information for the specific data item. And finally, we have a new filter section here."
+    },
+    {
+      "t": 204.3,
+      "end": 217.3,
+      "text": "So, if we are dealing with a very long data set like this case, we can now filter by simply typing in the search bar. So, let's say for example I'm looking for something related to date."
+    },
+    {
+      "t": 217.3,
+      "end": 230.3,
+      "text": "All I need to do is to type and then here I will have all the related fields that are matching my query across all the different levels and labels, report information and so on."
+    },
+    {
+      "t": 230.3,
+      "end": 243.5,
+      "text": "And if you are one of those that loves dark mode, now we got you covered. And there you go. You can now enjoy the dark mode in the data picker."
+    },
+    {
+      "t": 243.5,
+      "end": 259.8,
+      "text": "All these new features will be available in both the preview version and the release version of the word add-in. But we have something more because we want to make the experience easier for everybody and that's why in preview we are releasing a new action."
+    },
+    {
+      "t": 259.8,
+      "end": 272.1,
+      "text": "Here we are introducing this insert table action in the data control section. And let me show you what it does. When we click on this action,"
+    },
+    {
+      "t": 272.1,
+      "end": 287.2,
+      "text": "it opens up a new dialogue and this dialogue helps us to build and populate a new table in one place. So, we have a first section here data source where I can select what part of the data set I want to work with."
+    },
+    {
+      "t": 287.2,
+      "end": 297.3,
+      "text": "Let's say sales line. Here we can choose how many columns we want for the table. Let's say that we want three columns or four."
+    },
+    {
+      "t": 297.3,
+      "end": 310.9,
+      "text": "We can delete them. We can decide to include the header row or we can remove it. And we can also toggle this auto select headline which I will show you in a second."
+    },
+    {
+      "t": 310.9,
+      "end": 322.9,
+      "text": "Now, I can select which data items I want to show in my table. Let's say name customer. And in this case, I can select a headline or more conveniently,"
+    },
+    {
+      "t": 322.9,
+      "end": 334.4,
+      "text": "I can toggle on auto select and that work will be done for me. So, now let's go ahead. Let's choose another couple of fields."
+    },
+    {
+      "t": 334.4,
+      "end": 348.6,
+      "text": "We can also change the order after the fact. And as last thing, I also want to add a footer which is outside of the repeater where I'm going to show the customer bill."
+    },
+    {
+      "t": 348.6,
+      "end": 355.3,
+      "text": "And now all I need to do is to click click on create table."
+    },
+    {
+      "t": 355.3,
+      "end": 366,
+      "text": "And as you can see, I now have a new table with all the columns, the header, the repeater and the data items that I inserted. Was that it, Mirko?"
+    },
+    {
+      "t": 366,
+      "end": 380.9,
+      "text": "Like was that the were that the only things we did? Uh yes, for the word add-in for now. Wow. I mean, I think this is amazing. I think this going to help a lot in your design processes for word layouts and we're not done yet,"
+    },
+    {
+      "t": 380.9,
+      "end": 401.5,
+      "text": "so stay tuned in this space. There will be much more. Let's switch gears a little bit towards something that is related to all types of layouts. For the last probably three years in Business Central users were able to upload their own Excel or Word even RDL layouts if they want to"
+    },
+    {
+      "t": 401.5,
+      "end": 418.3,
+      "text": "through the report layouts page. And this is great. However, all layouts uploaded by users are available on the report request page to be able to chosen and maybe some of these layouts are in the like a draft state."
+    },
+    {
+      "t": 418.3,
+      "end": 429.2,
+      "text": "So, in this release wave we are adding the ability with a like a life cycle going from a draft, pending approval, approved and even retired"
+    },
+    {
+      "t": 429.2,
+      "end": 441.4,
+      "text": "state. So, how does that look? Um here you can see the new if I just go to the layout status, you can see different states. No I don't know that and I'll say that later."
+    },
+    {
+      "t": 441.4,
+      "end": 458.7,
+      "text": "This is only for the user-defined ones, not for the ones deployed by apps yet. But um um if I go to the chart of accounts for this example, um I actually when I from the chart of account request page go to report layouts,"
+    },
+    {
+      "t": 458.7,
+      "end": 469.6,
+      "text": "I'm as a user, as a consumer of these layouts, I'm only presented with the ones that are in approved state, not the ones that are draft, retired or under approval."
+    },
+    {
+      "t": 469.6,
+      "end": 485.9,
+      "text": "So, this is a way for you to control as a layout administrator which of the layouts are available to users. Um the way you set the states is simply pick one or more layouts here in the list,"
+    },
+    {
+      "t": 485.9,
+      "end": 497.3,
+      "text": "go to layout status and set the the the state you want to take these into. And note that this for now only work for user-defined layouts."
+    },
+    {
+      "t": 497.3,
+      "end": 511.4,
+      "text": "Uh we want to make that also for apps, but that will not be in the list in this release wave. Another feature within document reporting is that in the application we have support for language,"
+    },
+    {
+      "t": 511.4,
+      "end": 525.3,
+      "text": "which means you can set a language like a document language on a particular customer to control the language of their invoices. However, if you don't set that, but you're still in a company level"
+    },
+    {
+      "t": 525.3,
+      "end": 545.4,
+      "text": "in in a company that deals with multiple nationalities and multiple nationalities of customers, so both the people using Business Central and the ones we are sending invoices to, we now have a new way to uh to to have set a company level default language for document reports even though they have not the language"
+    },
+    {
+      "t": 545.4,
+      "end": 560.8,
+      "text": "have not been set on the customer card. So, here on company information, you simply just decide what should be the default language if something haven't been set on the on the lower level on the customer card."
+    },
+    {
+      "t": 560.8,
+      "end": 574.2,
+      "text": "Because here's just a demo of how the experience was prior to Business Central 2026 wave one. Here is a user who's using the client in English"
+    },
+    {
+      "t": 574.2,
+      "end": 585.4,
+      "text": "and on the customer card nothing has been set on language code. So, when they send a new sales order, it is sent in English, which is fine, except"
+    },
+    {
+      "t": 585.4,
+      "end": 598,
+      "text": "you get a new employee that is using Business Central in French. And if if this language has not been set, whenever that user is sending"
+    },
+    {
+      "t": 598,
+      "end": 611.7,
+      "text": "a document or an an invoice, the customer will get it in the user's language that was using Business Central, which is like weird, right? That I'm I'm working I'm a customer in Denmark and I get a French invoice."
+    },
+    {
+      "t": 611.7,
+      "end": 625.9,
+      "text": "Like that would be confusing. So, um instead by setting this default company language code, and let's just set it to in this case American English,"
+    },
+    {
+      "t": 625.9,
+      "end": 644.9,
+      "text": "then even though the user is using Business Central in French, the and even though the customer card have not specified English, the company-level default dictates English and therefore the customer gets the invoice in English."
+    },
+    {
+      "t": 644.9,
+      "end": 664.1,
+      "text": "Another thing we did was and this is part of a larger refactoring of all reports in Business Central. So, if you follow the AL code for Business Central, you you will see a lot of refactoring happening over the next year, but we we refactored most if not all tool tips on page level down to tables,"
+    },
+    {
+      "t": 664.1,
+      "end": 674.2,
+      "text": "and that will eventually light up in the report Word add-in as tool tips there. So, this is just the first of these refactorings that you will see."
+    },
+    {
+      "t": 674.2,
+      "end": 688.2,
+      "text": "As part of this, we also modernized the report selection pages in the application. This is coming in 28.x. So, we added teaching tips and just aligned all the caption names and categories. So, for instance, if you go to tell me or advanced tell me,"
+    },
+    {
+      "t": 688.2,
+      "end": 698.7,
+      "text": "you will now have all these selection pages look the same, have the all of them the same category, and have nice teaching tips that show here on advanced tell me."
+    },
+    {
+      "t": 698.7,
+      "end": 711.4,
+      "text": "And and also if you open the help pane on any of these pages. Like here, you can see the report selection for page for sales now have a teaching tip."
+    },
+    {
+      "t": 711.4,
+      "end": 731.2,
+      "text": "And the teaching tips are being used both in the report explorer. It's used by Copilot chat and advanced tell me. Finally, in this space, we added not one, not two, but 36 new APIs for document types so that you can now use APIs"
+    },
+    {
+      "t": 731.2,
+      "end": 746.9,
+      "text": "to to in to to interact with Business Central from Copilot Studio or other others to automations and get not only the five ones we had before, which was sales invoice,"
+    },
+    {
+      "t": 746.9,
+      "end": 760.2,
+      "text": "sales quote, and what have you, but but now all types of documents are covered with APIs. There's a breakout session for that, so go check that out um if you want to see more about APIs."
+    },
+    {
+      "t": 760.2,
+      "end": 770.6,
+      "text": "Um yeah, so sales document types will now have all these blankets, sales order all the way to archive blank order we'll have these APIs."
+    },
+    {
+      "t": 770.6,
+      "end": 788.3,
+      "text": "Same thing in the purchasing purchasing area from purchase quotes all the way down to purchase archived blanket orders. In inventory, even more from inventory orders all the way to posted direct transfer, you can interact with APIs as well as in assembly,"
+    },
+    {
+      "t": 788.3,
+      "end": 799.7,
+      "text": "assembly orders, and posted assembly orders. If you want to learn more about this topic of document reporting, if you go to aka.ms/BCdeveloper"
+    },
+    {
+      "t": 799.7,
+      "end": 811.1,
+      "text": "and navigate down to reporting section, this is where everything related to Word add-in and all of these things that you have seen is is documented there."
+    },
+    {
+      "t": 811.1,
+      "end": 818.2,
+      "text": "If you want to learn more about the API page API side of things, aka.ms/BCintegration"
+    },
+    {
+      "t": 818.2,
+      "end": 825.4,
+      "text": "takes you to the integration overview including all the documentation for the new APIs."
+    },
+    {
+      "t": 825.4,
+      "end": 841,
+      "text": "And if you like this content, you might also like some of these related sessions, watch new in server database, Power BI, and this API session. So, you can find the links to these in the description of the video."
+    },
+    {
+      "t": 841,
+      "end": 852.1,
+      "text": "And that's it for now. After we say hello or goodbye, if you don't know the general resources of Business Central, stay tuned in the video. For now, Mirko and I are done."
+    },
+    {
+      "t": 852.1,
+      "end": 862.5,
+      "text": "We hope all the things that we have done in the space of document reporting and wish you a great day. Bye. >> Bye."
+    },
+    {
+      "t": 862.5,
+      "end": 875.9,
+      "text": "We have compiled a number of general resources that we believe are key both for partners, but also Business Central customers. Most Some of these are partner, some of them are also for customers."
+    },
+    {
+      "t": 875.9,
+      "end": 892.1,
+      "text": "So, the first one is called aka.ms/BCall. This is a partner resource for that contains lists of every other AKA link that is needed for you to understand anything about both the Business Central product,"
+    },
+    {
+      "t": 892.1,
+      "end": 904.8,
+      "text": "but also processes around it. We call these AKA links because they're called aka.ms and then for forward slash something. And with Business Central links, we all always prefix with BC and then something."
+    },
+    {
+      "t": 904.8,
+      "end": 917.8,
+      "text": "The next one is our partner network social media for for Business Central partners, Viva Viva Engage. So, aka.ms/BCVivaEngage"
+    },
+    {
+      "t": 917.8,
+      "end": 931.7,
+      "text": "is where you go and interact with other partners. It's not open for customers. So, this is where you can ask questions, interact with the product group, interact with with each other in a in a closed network."
+    },
+    {
+      "t": 931.7,
+      "end": 947.3,
+      "text": "Second link a third link is for both partners and customers. We are called office hours. So, office hours is something we do once or twice a month from the product group engaging with the community about new features or things we want to discuss."
+    },
+    {
+      "t": 947.3,
+      "end": 957.8,
+      "text": "aka.ms/BCOfficeHours is the is the place where you go to find out about upcoming events. These are recorded."
+    },
+    {
+      "t": 957.8,
+      "end": 968.2,
+      "text": "I believe the recordings are available only to partners, but the live events are available to customers as well. Fourth link is YouTube, our YouTube channel."
+    },
+    {
+      "t": 968.2,
+      "end": 981.4,
+      "text": "I'll talk about that in the next slide and LinkedIn in the next slide. And then finally for for Microsoft partners, the BC's aka.ms/BCPartnerPortal"
+    },
+    {
+      "t": 981.4,
+      "end": 993.1,
+      "text": "is where you get a lot of the resources as a partner such as compete decks, pitch decks, and a lot of other resources."
+    },
+    {
+      "t": 993.1,
+      "end": 1008.2,
+      "text": "For LinkedIn, this is our product group's LinkedIn profile. We have 30K or more followers. So, both partners and customers, this is the place where we from the product group put in news and small bits of information"
+    },
+    {
+      "t": 1008.2,
+      "end": 1018.8,
+      "text": "outside the quote unquote official channel. So, follow us on LinkedIn to learn what's happening right now in in this in the around the product."
+    },
+    {
+      "t": 1018.8,
+      "end": 1032.6,
+      "text": "Um and then also on our YouTube channel, this is where you're probably watching this, aka.ms/BCYouTube. We put in not only these launch editions twice a year, but also"
+    },
+    {
+      "t": 1032.6,
+      "end": 1050.4,
+      "text": "Copilot and AI video shorts, tips and tricks, technical deep dives, under the hood. We even have this what's cooking where we put little nuggets of of videos out for new features that are even coming in on the YouTube channel before"
+    },
+    {
+      "t": 1050.4,
+      "end": 1065.3,
+      "text": "they're coming in the release notes. So, watch and maybe bookmark us on YouTube. And also notice all the playlists. So, the content is also organized in areas, not only all the videos."
+    },
+    {
+      "t": 1065.3,
+      "end": 1076.6,
+      "text": "So, if you have an area that has special interest such as analytics, you can find an a playlist and kind of see all the content related to that."
+    },
+    {
+      "t": 1076.6,
+      "end": 1090,
+      "text": "And that's it. That is truly it. We won't There will be no more. So, thank you for watching all the way to the end. And again, have a great day. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 2696
+}

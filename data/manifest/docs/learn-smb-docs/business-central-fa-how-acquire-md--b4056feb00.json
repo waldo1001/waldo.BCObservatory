@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-acquire",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a1b937a95c333dbd7297122339dd64bf7220ff32",
       "words": 2005,
       "forms": 6
+    },
+    "extracted": {
+      "at": "2026-10-06T13:37:45.029Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 10,
+      "cost_usd": 0.010103
+    },
+    "summarized": {
+      "at": "2026-10-06T13:37:45.075Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:37:45.076Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:37:45.076Z",
+      "page": false
     }
   },
   "input_hash": "a1b937a95c333dbd7297122339dd64bf7220ff32",
@@ -68,5 +87,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a1b937a95c333dbd7297122339dd64bf7220ff32"
+  "output_hash": "e3bac346d8e9f2d61b81928c9d0e5830b0f7f87725c60fbec28b8c44e567e7a5"
 }

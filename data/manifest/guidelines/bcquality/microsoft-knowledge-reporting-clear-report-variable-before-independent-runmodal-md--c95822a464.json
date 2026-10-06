@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "clear report variable before independent runmodal",
+  "title": "Clear a Report variable before an independent RunModal execution",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/reporting/clear-report-variable-before-independent-runmodal.md",
   "published_at": "2026-09-15T08:38:32.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:33:35.068Z",
+      "blob": "b82c1fbfdab1ab5f42359871ad883873721f246a",
+      "words": 138,
+      "forms": 0
     }
   },
   "input_hash": "b82c1fbfdab1ab5f42359871ad883873721f246a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/reporting/clear-report-variable-before-independent-runmodal.md"
-  }
+    "path": "microsoft/knowledge/reporting/clear-report-variable-before-independent-runmodal.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 138
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b82c1fbfdab1ab5f42359871ad883873721f246a"
 }

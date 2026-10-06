@@ -1,0 +1,27 @@
+{
+  "video_id": "M0IzeLSn7qU",
+  "item_id": "video/yt-microsoft/M0IzeLSn7qU",
+  "summary": "Expense Agent approval improvements in the 2026 release wave 2: AI-driven approval policies, approval history and audit trail, manual employee compliance checks, and approval features listed for the November 29.1 release (interim approvers, approval limits, alternate and delegated approvers). Includes caveats on AI token use and approval-limit levels.",
+  "overview": "The session walks through changes to the approval process in Expense Agent. An admin can turn on AI-driven approval policies in setup, configured per expense category, so AI runs only on lines that need it, such as flight tickets and hotel stays. Approvers see the flags but can still approve flagged items. Employees can also run the AI compliance check manually before submitting. Approval history and an audit trail are shown in the web app and in Business Central.\n\nThe second half covers features described as coming in the November release (29.1): interim approvers, better approval messaging, approval limits, and ad hoc and planned alternate approvers. Travel request approval is mentioned briefly, with a separate session referred to for details.",
+  "key_points": [
+    "AI-driven approval policies are enabled by an admin in setup and use additional AI tokens. They need expense policies configured per category, and itemizing expenses is recommended for best results.",
+    "AI flags do not block approvers: a flagged expense can still be approved.",
+    "Employees can run the AI compliance check manually on their own expense report before submitting. It does not run automatically.",
+    "Approval history records creation, submission, rejection, resubmission and posting, with timestamps, user names, justifications and amount changes. In the web app it is visible to all users regardless of BC user status. In Business Central it needs a BC user or accountant with rights to view it.",
+    "Approval limits (announced for the November release) support only two levels: one specific maximum amount (for example $2,000) and one unlimited level. Several thresholds such as 1,000, 2,000 and 5,000 are not possible.",
+    "Interim approvers (November 29.1) must approve before the final approver can act. Better approval messaging with different icons and colors is also listed for 29.1.",
+    "Ad hoc delegation moves already-sent reports awaiting approval to a colleague. Planned alternate approvers redirect reports for a set date range. In both cases the delegate must already be set up as an approver."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "53592855b553447d0fb22b32fa05821042723eb78b4d3e5ea9043d597b73a6e8",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.046150399999999994
+  }
+}

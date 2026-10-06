@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "datatransfer for bulk init",
+  "title": "Use `DataTransfer` for bulk updates on large tables",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/datatransfer-for-bulk-init.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.967Z",
+      "blob": "830dbdb000881e5c9efb28a45932afcaf3b03737",
+      "words": 213,
+      "forms": 0
     }
   },
   "input_hash": "830dbdb000881e5c9efb28a45932afcaf3b03737",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/upgrade/datatransfer-for-bulk-init.md"
-  }
+    "path": "microsoft/knowledge/upgrade/datatransfer-for-bulk-init.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 213
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "830dbdb000881e5c9efb28a45932afcaf3b03737"
 }

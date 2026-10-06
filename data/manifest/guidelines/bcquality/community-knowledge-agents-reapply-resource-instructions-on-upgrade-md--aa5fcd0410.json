@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "reapply resource instructions on upgrade",
+  "title": "Reapply resource instructions to existing agent instances on upgrade",
   "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/agents/reapply-resource-instructions-on-upgrade.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:36:41.500Z",
+      "blob": "db95258ff720a92cea48b1883b7ba7dcbeceaf6b",
+      "words": 122,
+      "forms": 0
     }
   },
   "input_hash": "db95258ff720a92cea48b1883b7ba7dcbeceaf6b",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "community/knowledge/agents/reapply-resource-instructions-on-upgrade.md"
-  }
+    "path": "community/knowledge/agents/reapply-resource-instructions-on-upgrade.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 122
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "db95258ff720a92cea48b1883b7ba7dcbeceaf6b"
 }

@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "prefer actionref syntax for promoted actions",
+  "title": "Promote Actions With The Modern `actionref` Syntax, Never The Legacy `Promoted` Properties",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/prefer-actionref-syntax-for-promoted-actions.md",
   "published_at": "2026-07-14T12:20:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:46.209Z",
+      "blob": "b0e66f07425a5a5a71cd1bd5acc4cacee7047fc7",
+      "words": 266,
+      "forms": 0
     }
   },
   "input_hash": "b0e66f07425a5a5a71cd1bd5acc4cacee7047fc7",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/ui/prefer-actionref-syntax-for-promoted-actions.md"
-  }
+    "path": "microsoft/knowledge/ui/prefer-actionref-syntax-for-promoted-actions.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 266
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b0e66f07425a5a5a71cd1bd5acc4cacee7047fc7"
 }

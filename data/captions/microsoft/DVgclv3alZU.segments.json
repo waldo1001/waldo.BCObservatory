@@ -1,0 +1,353 @@
+{
+  "video_id": "DVgclv3alZU",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.7,
+      "end": 17.4,
+      "text": ">> 2026 release wave one business central launch edition. This session is what's new in enhanced Power BI and Excel with Business Central. My name is Kenny Pontoppidan."
+    },
+    {
+      "t": 17.4,
+      "end": 32,
+      "text": "I am very happy to have a guest speaker with me, Joshua. Do you want to introduce yourself? >> Uh so, I'm Joshua. Um yeah, I work here with Kenny and I'm excited to show you what we have built and worked on for this release and to hear what you think."
+    },
+    {
+      "t": 32,
+      "end": 44.3,
+      "text": "So. Cool. So, the investments in this area for this wave is about three things. Better or easier ways to demo Power BI embedded in Business Central."
+    },
+    {
+      "t": 44.3,
+      "end": 59.7,
+      "text": "Also, maximizing the use both for the Power BI together with Excel but also Excel uh in general for users. And for the Power BI apps, we have updated things related to sales, uh subscription billing,"
+    },
+    {
+      "t": 59.7,
+      "end": 63.4,
+      "text": "and inventory."
+    },
+    {
+      "t": 63.4,
+      "end": 81.6,
+      "text": "So, the highlights are as follows. We are going to start with five clicks to demo, then moving on to using Excel as a client for Power BI, using agentic Excel together with Business Central, some um some better guidance on how to set up calendars for your Power BI apps,"
+    },
+    {
+      "t": 81.6,
+      "end": 91.6,
+      "text": "and then just uh showcasing or telling you about the new Power BI apps. Those have all uh breakout sessions."
+    },
+    {
+      "t": 91.6,
+      "end": 105.8,
+      "text": "So, five clicks to Power BI demo. We want it to be so easy for partners if you want to go uh to a prospective customer and demo the embedded Power BI reports."
+    },
+    {
+      "t": 105.8,
+      "end": 122.8,
+      "text": "Um this only for now works for demo companies. Later, we hope to it make this same setup experience easy in production environments. But instead of me talking about slides and what have you, why don't we have uh Joshua to show how cool this is."
+    },
+    {
+      "t": 122.8,
+      "end": 132.8,
+      "text": "So, Joshua, over to you. Okay. So, here we have a evaluation company that hasn't configured any of the Power BI reports that we offer."
+    },
+    {
+      "t": 132.8,
+      "end": 145.3,
+      "text": "So, now the experience will be to go to the Power BI deployments page where you can see all of the reports that we ship out of the box uh in Business Central."
+    },
+    {
+      "t": 145.3,
+      "end": 156.5,
+      "text": "And here we can select as many as we want or the ones that we are interested in. We can deploy them and this will kick in the process of"
+    },
+    {
+      "t": 156.5,
+      "end": 167.3,
+      "text": "uh going to Power BI, update, and update with the right version uh that of the report that corresponds to your version of of Business Central. So, yeah."
+    },
+    {
+      "t": 167.3,
+      "end": 177.5,
+      "text": "You can refresh and here we are following the process of how each is yeah. getting installed."
+    },
+    {
+      "t": 177.5,
+      "end": 194.6,
+      "text": "So, you can also have an overview of the steps that have been completed along the way. And if you don't want to directly install it and want to see what you want what you will get, you can download the PBIX and you can inspect it for yourself."
+    },
+    {
+      "t": 194.6,
+      "end": 205.5,
+      "text": "Okay. So, now all of them have finished. And if we go back to our role center and see any of our reports for finance,"
+    },
+    {
+      "t": 205.5,
+      "end": 218.2,
+      "text": "example, the financial overview, then it will be opening with the report that was just uploaded, configured against your company. So, hopefully that will make it much more easy to demo and"
+    },
+    {
+      "t": 218.2,
+      "end": 228.9,
+      "text": "once we get to it, also to deploy and maintain uh the Power BI uh apps on your uh customer's environments."
+    },
+    {
+      "t": 228.9,
+      "end": 240.6,
+      "text": "So, Joshua, you say, as I understand it, so by doing this, I can deploy my Power BI apps to my personal workspace in Power BI. And does it also set up refresh?"
+    },
+    {
+      "t": 240.6,
+      "end": 250.8,
+      "text": "Is Is that part of it? >> is not currently part of it, uh but that is something we are uh that you would have to configure in your workspace. So, we can show that."
+    },
+    {
+      "t": 250.8,
+      "end": 261.6,
+      "text": ">> Also, when you say it has been set up in uh it means we haven't we have pushed to Power BI and we have configured inside Business Central where this is residing."
+    },
+    {
+      "t": 261.6,
+      "end": 277.4,
+      "text": "Yes, we have configured the parameters and the first refresh has been scheduled, but if you want to have it recurringly scheduled, you will have to do it at least for this release in uh So, for example, I can show it here uh in my workspace."
+    },
+    {
+      "t": 277.4,
+      "end": 297.4,
+      "text": "These are the ones that just got uploaded. So, you can either refresh now or schedule a refresh as you would do before. >> Very nice. Thanks a lot, Joshua. I I really hope that these five clicks will make the the demos of embedded Power BI just part of any um any pre-sales demo with for Business"
+    },
+    {
+      "t": 297.4,
+      "end": 311.9,
+      "text": "Central. Okay, let's shift gears to uh using Excel together with Power BI. And um for many years, actually more than 20 years, with the introduction of analysis services for SQL Server,"
+    },
+    {
+      "t": 311.9,
+      "end": 324.3,
+      "text": "analysis services um had Excel as the main client to do pivot tables and analyze your OLAP cubes. And analysis services later on became Power BI."
+    },
+    {
+      "t": 324.3,
+      "end": 336,
+      "text": "So, we thought it would be valuable to showcase here and in the documentation how you can use Excel to do pivoting on your Power BI semantic models."
+    },
+    {
+      "t": 336,
+      "end": 349.8,
+      "text": "The first thing you need to do in Excel is to set up a connection to your uh Power BI semantic models. You do that in get data from fabric and then connect to your Power BI apps or your Power BI semantic model."
+    },
+    {
+      "t": 349.8,
+      "end": 363.1,
+      "text": "From there, you then go to insert and insert a pivot table, and then uh from there you can pick the semantic model as the data source for the pivot table."
+    },
+    {
+      "t": 363.1,
+      "end": 375.8,
+      "text": "And in this example here, we have an inventory report based on the inventory app model. And then you can slice and dice that inventory data"
+    },
+    {
+      "t": 375.8,
+      "end": 391.1,
+      "text": "the way you want to create your own reports instead of or maybe as supplement to the Power BI apps where it's a visual representation. This is probably more like a data slice and dice analysis, but the the model is the same,"
+    },
+    {
+      "t": 391.1,
+      "end": 398.3,
+      "text": "the data is the same. It's just using Excel as the client."
+    },
+    {
+      "t": 398.4,
+      "end": 413.8,
+      "text": "And speaking of Excel, there's another application that's quite new in the world of Excel uh called agentic Excel capabilities. And this works very well together with edit and or open in Excel um scenarios,"
+    },
+    {
+      "t": 413.8,
+      "end": 425.4,
+      "text": "even probably even uh analyzing financial report uh Excel outputs or any of the reports that have an Excel layout as the output."
+    },
+    {
+      "t": 425.4,
+      "end": 436.8,
+      "text": "Um we put some different scenarios described in our documentation. There's going to There's a link here in the video for it. You can also see the navigation there."
+    },
+    {
+      "t": 436.8,
+      "end": 454,
+      "text": "And with with these scenarios, these are just examples, you can have an agent inside Excel that reason over your data. If you use open open in Excel or financial reporting Excel or uh a report with an Excel layout,"
+    },
+    {
+      "t": 454,
+      "end": 466.9,
+      "text": "it's all kind of um analyzing the data that's there. With edit in Excel, you can have agentic Excel be a powerful way to update data and then you can push that back to Business Central."
+    },
+    {
+      "t": 466.9,
+      "end": 486.1,
+      "text": "So, these are just more AI capabilities together with Business Central that agentic Excel opens up for. Another enhancement we did to Microsoft Learn is to to help you configure the types of calendars you want to use for your Power BI apps."
+    },
+    {
+      "t": 486.1,
+      "end": 498.9,
+      "text": "Um our apps actually come with quite advanced time intelligence. So, there are many different ways you can configure your calendars and we probably hit that a bit a little bit in the setup pages."
+    },
+    {
+      "t": 498.9,
+      "end": 511.5,
+      "text": "So, now it's all in the Business Central documentation how to set up different fiscal calendars or week-based calendars, and that will be reflected in your Power BI apps, so you can report"
+    },
+    {
+      "t": 511.5,
+      "end": 517.7,
+      "text": "on the way your calendar works."
+    },
+    {
+      "t": 517.9,
+      "end": 528.4,
+      "text": "And then uh we have as I mentioned in the beginning, we have updated the Power BI apps specifically for subscription billing, sales, and inventory."
+    },
+    {
+      "t": 528.4,
+      "end": 545.6,
+      "text": "Uh the the little teacher icon to the top right means that there there are breakout sessions uh actually for all three areas. You can see the links in the description and probably we'll have links in the end of this video to to go learn more."
+    },
+    {
+      "t": 545.6,
+      "end": 559.2,
+      "text": "Um Yeah, so the the customer retention is a way to look at customer loyalty. Uh we also added for inventory ABC analysis, so you can do those type of"
+    },
+    {
+      "t": 559.2,
+      "end": 571.9,
+      "text": "uh item sales analysis um to to find out like highly valuable uh items that you must have on inventory. And then for subscription billing, we did a full overview"
+    },
+    {
+      "t": 571.9,
+      "end": 588,
+      "text": "uh not overview, a full makeover of the visuals so that they align together with the other all the other apps. So, if you want to learn more about the things we discussed today, uh your friend in Microsoft Learn is aka.ms/bc"
+    },
+    {
+      "t": 588,
+      "end": 599.1,
+      "text": "analytics. That takes you to the overview page of anything related to this topic and you find the new pages on the date calendar um things around"
+    },
+    {
+      "t": 599.1,
+      "end": 610.8,
+      "text": "a gigantic Excel in the Excel section and of course the updates will be to the different Power BI apps will be in their own sections under inventory, subscription, billing, and sales."
+    },
+    {
+      "t": 610.8,
+      "end": 625.7,
+      "text": "If you like the content here, you probably also like other analytic sessions. So, there are many different related sessions to to to this both in the space of analytical content, so sales, inventory, finance, finance financial reporting,"
+    },
+    {
+      "t": 625.7,
+      "end": 638.1,
+      "text": "subscription billing, but also maybe related enhanced analysis mode and and demo data. So, any of these topics might be of interest. Check out the links below"
+    },
+    {
+      "t": 638.1,
+      "end": 644.3,
+      "text": "to to learn or to get more into these breakout sessions."
+    },
+    {
+      "t": 644.3,
+      "end": 659,
+      "text": "And with that, I think we are done. Joshua and I, I want to thank Joshua for coming in and show you the great demo. And we hope that you will have a great Business Central launch edition."
+    },
+    {
+      "t": 659,
+      "end": 671.5,
+      "text": "Yeah. Thank you. We have compiled a number of general resources that we believe are key both for partners, but also Business Central customers."
+    },
+    {
+      "t": 671.5,
+      "end": 691.8,
+      "text": "Most Some of these are partner, some of them are also for customers. So, the first one is called aka.ms/bcall. This is a partner resource for that contains lists of every other aka link that is needed for you to understand anything about both the Business Central product,"
+    },
+    {
+      "t": 691.8,
+      "end": 704.6,
+      "text": "but also processes around it. We call these aka links because they are called aka.ms and then for for something. And with Business Central links, we all always prefix with BC and then something."
+    },
+    {
+      "t": 704.6,
+      "end": 717.5,
+      "text": "The next one is our partner network social media for for Business Central partners Viva Viva Engage. So, aka.ms/bcvivaengage"
+    },
+    {
+      "t": 717.5,
+      "end": 731.5,
+      "text": "is where you go and interact with other partners. It's not open for customers. So, this is where you can ask the questions, interact with the product group, interact with with with each other in a in a closed network."
+    },
+    {
+      "t": 731.5,
+      "end": 747.1,
+      "text": "Second link a third link is for both partners and customers. We are called office hours. So, office hours is something we do once or twice a month from the product group engaging with the community about new features or things we want to discuss."
+    },
+    {
+      "t": 747.1,
+      "end": 757.5,
+      "text": "aka.ms/bcofficehours is the is the place where you go to find out about upcoming events. These are recorded."
+    },
+    {
+      "t": 757.5,
+      "end": 767.9,
+      "text": "I believe the recordings are available only to partners, but the live events are available to customers as well. Fourth link is YouTube our YouTube channel."
+    },
+    {
+      "t": 767.9,
+      "end": 781.2,
+      "text": "I'll talk about that in the next slide and LinkedIn in the next slide. And then finally for for Microsoft partners, the BCs aka.ms/bcpartnerportal"
+    },
+    {
+      "t": 781.2,
+      "end": 792.9,
+      "text": "is where you get a lot of the resources as a partner such as compete decks, pitch decks, and a lot of other resources."
+    },
+    {
+      "t": 792.9,
+      "end": 807.9,
+      "text": "For LinkedIn, this is our product group's LinkedIn profile. We have 30k or more followers. So, both partners and customers. This is the place where we from the product group put in news and small bits of information"
+    },
+    {
+      "t": 807.9,
+      "end": 818.6,
+      "text": "outside the quote unquote official channel. So, follow us on LinkedIn to learn what's happening right now in in this in the around the product."
+    },
+    {
+      "t": 818.6,
+      "end": 832.4,
+      "text": "And then also on our YouTube channel where this is where you're probably watching this aka.ms/bcyoutube. We put in not only these launch editions twice a year, but also"
+    },
+    {
+      "t": 832.4,
+      "end": 850.2,
+      "text": "co-pilot and AI videos, shorts, tips and tricks, technical deep dives, under the hood. We even have this what's cooking where we put little nuggets of of videos out for new features that are even coming in on the YouTube channel before"
+    },
+    {
+      "t": 850.2,
+      "end": 865,
+      "text": "they're coming in the release notes. So, watch and maybe bookmark us on YouTube and also notice all the playlists. So, that all the content is also organized in areas, not only all the videos."
+    },
+    {
+      "t": 865,
+      "end": 876.3,
+      "text": "So, if you have an area that's has special interest such as analytics, you can find an a playlist and kind of see all the content related to that."
+    },
+    {
+      "t": 876.3,
+      "end": 889,
+      "text": "And that's it. That is truly it. We won't There will be no more. So, thank you for watching all the way to the end. And again, have a great day. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 2163
+}

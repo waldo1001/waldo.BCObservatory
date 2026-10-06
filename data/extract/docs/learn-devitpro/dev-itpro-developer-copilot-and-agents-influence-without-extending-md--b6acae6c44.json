@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/copilot-and-agents-influence-without-extending.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-and-agents-influence-without-extending",
+  "title": "Influence Copilot and agents without extending them",
+  "blob": "f265f7412925901adb573c1f0c27e6385d34ce2c",
+  "summary": "This article explains how Copilot and agents can work with custom code and content from AL extensions without requiring direct extensibility, including capabilities like Analyze list, Autofill, Chat, Summarize, and Sales Order Agent.",
+  "systems": [
+    "copilot",
+    "sales",
+    "administration"
+  ],
+  "topics": [
+    "copilot extensibility",
+    "agent capabilities",
+    "generative ai",
+    "field customization",
+    "profile customization"
+  ],
+  "objects": [],
+  "features": [
+    "analyze list",
+    "autofill",
+    "chat",
+    "summarize",
+    "sales order agent",
+    "bank reconciliation",
+    "no. series suggestions",
+    "sales lines suggestions"
+  ],
+  "versions": [
+    "2025 wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006307,
+      "pages_in_call": 7
+    }
+  ]
+}

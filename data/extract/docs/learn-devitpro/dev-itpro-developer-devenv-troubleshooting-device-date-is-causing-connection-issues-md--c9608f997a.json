@@ -1,0 +1,33 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-troubleshooting-device-date-is-causing-connection-Issues.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-device-date-is-causing-connection-Issues",
+  "title": "Troubleshooting Device Date Causing Connectivity Issues",
+  "blob": "37895a46a1dd03b499566280efafe0aa4442d62f",
+  "summary": "The Business Central mobile app requires device date validation for HTTPS certificate verification. Ensure your device has the correct date set to resolve connectivity issues.",
+  "systems": [
+    "platform"
+  ],
+  "topics": [
+    "mobile app",
+    "troubleshooting",
+    "https",
+    "certificates",
+    "connectivity"
+  ],
+  "objects": [],
+  "features": [
+    "HTTPS validation",
+    "certificate validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007447,
+      "pages_in_call": 5
+    }
+  ]
+}

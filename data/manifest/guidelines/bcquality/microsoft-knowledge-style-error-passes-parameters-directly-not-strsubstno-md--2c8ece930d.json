@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "error passes parameters directly not strsubstno",
+  "title": "Pass parameters directly to `Error()`, do not wrap with `StrSubstNo`",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/error-passes-parameters-directly-not-strsubstno.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.757Z",
+      "blob": "0276192953ff2dd967e6761eb48d1499abd9c58e",
+      "words": 209,
+      "forms": 0
     }
   },
   "input_hash": "0276192953ff2dd967e6761eb48d1499abd9c58e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/style/error-passes-parameters-directly-not-strsubstno.md"
-  }
+    "path": "microsoft/knowledge/style/error-passes-parameters-directly-not-strsubstno.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 209
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0276192953ff2dd967e6761eb48d1499abd9c58e"
 }

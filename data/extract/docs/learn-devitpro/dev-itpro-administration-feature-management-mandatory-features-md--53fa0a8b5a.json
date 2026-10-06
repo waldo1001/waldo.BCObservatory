@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/feature-management-mandatory-features.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management-mandatory-features",
+  "title": "Optional Features Now Mandatory",
+  "blob": "6eb7ebb8192dc24c158dbaa1806c7944f3eaf640",
+  "summary": "Lists optional features becoming mandatory in Business Central across 2023-2026 release waves, with dates when they can no longer be disabled. Use this to track which feature management keys will disappear and plan upgrades accordingly.",
+  "systems": [
+    "administration",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "feature management",
+    "mandatory features",
+    "release waves",
+    "version upgrades",
+    "optional features"
+  ],
+  "objects": [],
+  "features": [
+    "Feature Management page",
+    "Manual flushing method without pick",
+    "VAT Settlements per Activity Code (Italy)",
+    "Financial reports with default values",
+    "Reminder terms communication texts",
+    "SOAP web services disable",
+    "Sensitive data masking",
+    "Accelerated Depreciation",
+    "Advanced Tell Me search",
+    "Semantic similarity search"
+  ],
+  "versions": [
+    "2023 release wave 1",
+    "2023 release wave 2",
+    "2024 release wave 1",
+    "2024 release wave 2",
+    "2025 release wave 1",
+    "2025 release wave 2",
+    "2026 release wave 1",
+    "2026 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.018752,
+      "pages_in_call": 2
+    }
+  ]
+}

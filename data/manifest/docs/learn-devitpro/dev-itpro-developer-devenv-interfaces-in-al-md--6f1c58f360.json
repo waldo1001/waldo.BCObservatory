@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "641569b7fde0042bb1c6f43e12674867e0fa3825",
       "words": 1315,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:33:35.058Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.010996
+    },
+    "summarized": {
+      "at": "2026-10-06T13:33:35.091Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:33:35.091Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:33:35.091Z",
+      "page": false
     }
   },
   "input_hash": "641569b7fde0042bb1c6f43e12674867e0fa3825",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "641569b7fde0042bb1c6f43e12674867e0fa3825"
+  "output_hash": "6e0d43703c68612a419512a59f7264ada0d80e3fd0fa3933207822e495da32e7"
 }

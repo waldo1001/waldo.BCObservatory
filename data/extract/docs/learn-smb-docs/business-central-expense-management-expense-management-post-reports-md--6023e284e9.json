@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/expense-management/expense-management-post-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/expense-management/expense-management-post-reports",
+  "title": "Post Expense Reports in Business Central",
+  "blob": "8484b0866b49eb445a670dae2be7eb23fff8cb99",
+  "summary": "Post approved expense reports to the general ledger by verifying VAT reclaim status, previewing posting entries, and reviewing posted results including employee reimbursement and project allocations.",
+  "systems": [
+    "finance",
+    "hr"
+  ],
+  "topics": [
+    "expense management",
+    "posting",
+    "general ledger",
+    "vat reclaim",
+    "reimbursement",
+    "expense ledger"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Expense Report"
+    },
+    {
+      "type": "page",
+      "name": "Posted Expense Reports"
+    },
+    {
+      "type": "page",
+      "name": "Expense Ledger Entries"
+    }
+  ],
+  "features": [
+    "preview posting",
+    "VAT reclaim verification",
+    "expense ledger entries",
+    "employee ledger entries",
+    "general ledger posting",
+    "project ledger entries",
+    "sales invoice generation",
+    "posted to G/L links"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.009673,
+      "pages_in_call": 4
+    }
+  ]
+}

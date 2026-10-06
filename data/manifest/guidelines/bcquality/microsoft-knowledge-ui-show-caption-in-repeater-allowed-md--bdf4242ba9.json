@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "show caption in repeater allowed",
+  "title": "ShowCaption inside a repeater is harmless",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/show-caption-in-repeater-allowed.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.920Z",
+      "blob": "f81762f2a7309f0e314d1e31fe0aa9e058a1fa90",
+      "words": 115,
+      "forms": 0
     }
   },
   "input_hash": "f81762f2a7309f0e314d1e31fe0aa9e058a1fa90",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/ui/show-caption-in-repeater-allowed.md"
-  }
+    "path": "microsoft/knowledge/ui/show-caption-in-repeater-allowed.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 115
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f81762f2a7309f0e314d1e31fe0aa9e058a1fa90"
 }

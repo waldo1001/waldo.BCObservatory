@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "file name object type pattern",
+  "title": "Name AL source files `<ObjectName>.<ObjectType>.al`",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/file-name-object-type-pattern.md",
   "published_at": "2026-05-21T07:53:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:46.281Z",
+      "blob": "dd8e0f1a8f07630f8dd7768547178b04eec7ba5e",
+      "words": 172,
+      "forms": 0
     }
   },
   "input_hash": "dd8e0f1a8f07630f8dd7768547178b04eec7ba5e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/style/file-name-object-type-pattern.md"
-  }
+    "path": "microsoft/knowledge/style/file-name-object-type-pattern.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 172
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dd8e0f1a8f07630f8dd7768547178b04eec7ba5e"
 }

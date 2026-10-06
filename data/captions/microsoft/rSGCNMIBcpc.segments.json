@@ -1,0 +1,173 @@
+{
+  "video_id": "rSGCNMIBcpc",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.7,
+      "end": 16,
+      "text": "Hello everyone, and welcome to Expense Agent series. I will now show you a little bit about our approval process in the Expense Agent. So, um I am now in my Business Central environment, and as you can see, I have already the Expense Agent turned on."
+    },
+    {
+      "t": 16,
+      "end": 28.8,
+      "text": "So, the first step is when you turn on the Expense Agent, or also later on if you want to change your settings, you can go in and you can choose a default approver. So, this is going to be the person that is able to approve the expenses for everyone in your company by default."
+    },
+    {
+      "t": 28.8,
+      "end": 42.5,
+      "text": "You can still change person by person. I'm going to show that to you in a second. And this is also not mandatory. So, in case your company doesn't really have a default approver, you don't need to set that up. Um however, in my case, Alexander is my default approver, as I showed."
+    },
+    {
+      "t": 42.5,
+      "end": 53.6,
+      "text": "But, if I go into expense users, now I pinned it to my role center, but you can also just search for the page. You can see that uh for everyone in my company, it's Alexander who is the approver, except for me."
+    },
+    {
+      "t": 53.6,
+      "end": 65.3,
+      "text": "I am Enrico, so here my approver is Monica. And you can change that, of course, from the card page for the expense user. As you can see here to the right, you can pick a different expense um user to be an approver."
+    },
+    {
+      "t": 65.3,
+      "end": 81.8,
+      "text": "Notice that there is a flag here called \"Can Approve\". That's what controls which users can be approvals for others. So, um make sure that the users I mean, the system is going to basically make sure that the person you choose as an approver is also someone that can actually approve in the system."
+    },
+    {
+      "t": 81.8,
+      "end": 96.4,
+      "text": "Let's now move to the Expense Agent web app UI. So, here, as you can see, we are logged in with my user. And I have a couple of expenses that I have uh uploaded and the system processed and um assigned and got ready."
+    },
+    {
+      "t": 96.4,
+      "end": 110.4,
+      "text": "So, let's for example pick the first one. I can check, of course, that the agent did everything correctly. In my case, let's say I checked already um the attachments and that all the information is correct."
+    },
+    {
+      "t": 110.4,
+      "end": 124.6,
+      "text": "So, now I can just click submit. So, now what the system will do is it will to out from Business Central who is my approver, and the it will send my approver an email if I have configured an email address inside Business Central."
+    },
+    {
+      "t": 124.6,
+      "end": 139.9,
+      "text": "So, in this case, as you saw earlier, my approver is Monica. So, Monica is going to get an email, and I will be in CC to that email saying that she needs to approve some expense reports. So, let's go now and change the view, and let's see how Monica sees the world."
+    },
+    {
+      "t": 139.9,
+      "end": 150.8,
+      "text": "So, now we are in Monica's email box, and as you can see, we just got a new email, which notifies Monica that she has an expense report that needs her review."
+    },
+    {
+      "t": 150.8,
+      "end": 162.9,
+      "text": "So, now Monica can click on the link. She can have a look at the high-level description of the expense report, but she can also click on review report down here."
+    },
+    {
+      "t": 162.9,
+      "end": 178.1,
+      "text": "And that will open the web app view, specifically zoomed in to the report, of course, that she needs to act on. So, Monica can now have a look, and for example, open the expenses, and check that everything looks fine."
+    },
+    {
+      "t": 178.1,
+      "end": 194.1,
+      "text": "So, she can, of course, zoom into the the receipts that were attached to the report, and then jump from one to the other, make sure everything looks okay. And then, when Monica is happy, she can approve or send back the receipt depending on um yeah,"
+    },
+    {
+      "t": 194.1,
+      "end": 210.4,
+      "text": "if there's something that needs to be changed. In this case, let's say, for example, that my company has a policy where when there is a partner visit, the expense needs to contain the the partner name, for example, in the um in the report description."
+    },
+    {
+      "t": 210.4,
+      "end": 216.4,
+      "text": "So, please include um"
+    },
+    {
+      "t": 217.8,
+      "end": 231.9,
+      "text": "Please include partner name in report description. So, now Monica can, for example, in this case, send this one back to me, and I will be able to correct whatever Monica has left as a comment, and then decide to um yeah, submit it again when it's ready."
+    },
+    {
+      "t": 231.9,
+      "end": 246.8,
+      "text": "I have also here as Monica, I have a second expense report that was submitted to me and that I haven't approved. So that let's say that instead, just to make a different example, I have a look at this and this looks all good."
+    },
+    {
+      "t": 246.8,
+      "end": 263.2,
+      "text": "And let's say that I have no comment on this, then I can of course just approve. And when I approve something then that will be marked as approved in Business Central and the process can continue with posting, with reimbursement and everything else that needs to be done after the approval process."
+    },
+    {
+      "t": 263.2,
+      "end": 275.7,
+      "text": "I would like to mention that to set a person as an approver, so in this case Monica, you the approver needs to have a Business Central license and be a user in Business Central. Notice that this is not a requirement for me to submit expenses."
+    },
+    {
+      "t": 275.7,
+      "end": 287.1,
+      "text": "So I could submit even if I was not a user in Business Central. Whereas Monica, to be able to approve, needs to be in the system in Business Central as a user, as a licensed user to be specific."
+    },
+    {
+      "t": 287.1,
+      "end": 302.4,
+      "text": "Let's now switch back to my view. So this is the Expense Agent web app as I see it. And as you can see here we have the the report that Monica sent back with the comments that Monica left, please include partner name."
+    },
+    {
+      "t": 302.4,
+      "end": 313.8,
+      "text": "So I can just basically review again this expense report and I can change the title. For example, I can say Contoso Partner Conference."
+    },
+    {
+      "t": 313.8,
+      "end": 328.5,
+      "text": "I can save my changes and now I can submit it again for Monica to review. Also, small teaser here. Notice that you might say that your companies have policies written down to have this fixed."
+    },
+    {
+      "t": 328.5,
+      "end": 340.7,
+      "text": "There might be something coming soon about policies, so stay tuned for new Expense Agent changes. As you can see I've been a little bit lazy, so I have actually an old expense from November 2025 that I have not submitted."
+    },
+    {
+      "t": 340.7,
+      "end": 354.2,
+      "text": "Well, Expense Agent gives you the option as an administrator that sets up the agent to set up reminders for users that have not submitted their reports. So, let's switch back to Business Central for a second."
+    },
+    {
+      "t": 354.2,
+      "end": 361.6,
+      "text": "And if I go back to the expense agent setup,"
+    },
+    {
+      "t": 361.6,
+      "end": 372.5,
+      "text": "you can see this option to notify users about unsubmitted reports. So, when you set up the agent or also later if you want to change this option, you can choose a frequency to remind users to submit their reports."
+    },
+    {
+      "t": 372.5,
+      "end": 388.3,
+      "text": "And this is going to send them an email with the notification frequency that you pick. And the email you receive is going to look like this. So, this is an example I have from a few days ago um where I had some open expense reports that were ready to submit and I've left there um uncompleted."
+    },
+    {
+      "t": 388.3,
+      "end": 407,
+      "text": "And as you can see, the agent reminds me that I should probably act on these expenses soon. One last thing I want to mention is that um as you can see, our current approval setup is a little bit um basic as in like you can set up, of course, uh approver for everyone in your company and then you can change it for the single users um if you need to."
+    },
+    {
+      "t": 407,
+      "end": 418.1,
+      "text": "And um we know that this is just like the basic needs for you, but um just as a small teaser, we have some more improvements coming for the approvals in uh expense agent."
+    },
+    {
+      "t": 418.1,
+      "end": 427.5,
+      "text": "So, stay tuned and um for the next wave of improvements for the expense agent. Thank you for watching."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.309,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 1330
+}

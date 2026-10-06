@@ -1,0 +1,172 @@
+{
+  "video_id": "oIoH3gxc0uk",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.5,
+      "end": 10.9,
+      "text": "Welcome back to the Manufacturing Foundation series by Business Central. Today, we'll explore how to gain control on production through the flushing methods."
+    },
+    {
+      "t": 10.9,
+      "end": 21.3,
+      "text": "In the last episode, we posted production manually through the production journal. That gives the operator control, but not every component needs the same level of manual attention."
+    },
+    {
+      "t": 21.3,
+      "end": 33.3,
+      "text": "Let's create one production order for Contoso's auto drip coffee maker >> [music] >> and explore how flushing methods work in Business Central. A flushing method defines when the system posts production activity automatically."
+    },
+    {
+      "t": 33.3,
+      "end": 44.2,
+      "text": "Material consumption for component lines and output or capacity activity for routing operations. The important idea is that flushing is not just an item level concept."
+    },
+    {
+      "t": 44.2,
+      "end": 55.1,
+      "text": "On a production order, each component line can carry its own posting rule. If we go into its components, as we did on previous episodes, we can see the entire list."
+    },
+    {
+      "t": 55.1,
+      "end": 73.7,
+      "text": "Some components use forward flushing, some use backward flushing, and a few more use pick plus manual. Forward is for predictable components. Once the order is released, Business Central can consume them automatically, so the operator does not need to handle each line in the journal."
+    },
+    {
+      "t": 73.7,
+      "end": 86.5,
+      "text": "Backward is also automatic, but it waits for proof that the work happened. Consumption is posted later when output is recorded or when the order is finished. Manual is for components where confirmation matters."
+    },
+    {
+      "t": 86.5,
+      "end": 102,
+      "text": ">> [music] >> The operator reviews the line and posts the actual consumption, which is useful when quantities can vary or the business wants tighter control. Additionally, Business Central adds pick plus to every flushing method to add the warehouse step."
+    },
+    {
+      "t": 102,
+      "end": 114.8,
+      "text": "It does not replace forward, manual, or backward. It only adds picking before that selected rule applies. That is the main point. The order is not choosing one flushing method for everything."
+    },
+    {
+      "t": 114.8,
+      "end": 125.8,
+      "text": "It is mixing policies by component. Now, look at the routing link code. Two components are linked to code 100, control panel display and button."
+    },
+    {
+      "t": 125.8,
+      "end": 142.4,
+      "text": "When we open the production order routing for the same order, operation 10, body assembly, also has routing link code 100. That matching code is what ties component consumption to a specific operation instead of treating the whole order as one timing event."
+    },
+    {
+      "t": 142.4,
+      "end": 155.5,
+      "text": "So flushing is doing two jobs here. The flushing method says whether posting is manual, forward, or backward. The routing link code says which operation is the timing anchor for linked components."
+    },
+    {
+      "t": 155.5,
+      "end": 165.5,
+      "text": "This is how Business Central can support more realistic shop floor behavior. Electrical parts can follow the body assembly step, while other materials follow a different rule."
+    },
+    {
+      "t": 165.5,
+      "end": 178.8,
+      "text": "Here is the practical way to read this page. If a routing link code is blank, the timing applies to the order more generally. If a routing link code is filled in, the component is tied to that matching routing operation."
+    },
+    {
+      "t": 178.8,
+      "end": 193.1,
+      "text": "Let's explore what happened when we released our production order. Components with forward flushing already consumed the expected quantity. Backwards and manual flushing methods still have the required amount as remaining quantity."
+    },
+    {
+      "t": 193.1,
+      "end": 205,
+      "text": "Meanwhile, control panel display did already consume as it has the routing link code 100 for the body assembly. The value is flexibility without losing control."
+    },
+    {
+      "t": 205,
+      "end": 216.2,
+      "text": "A manufacturer does not need one posting rule for the entire order. Predictable components can be automated. Components that need warehouse handling can stay pick controlled."
+    },
+    {
+      "t": 216.2,
+      "end": 226.2,
+      "text": "High value, variable, or exception prone components can remain manual. And routing linked components can follow the operation where they are actually used."
+    },
+    {
+      "t": 226.2,
+      "end": 239.5,
+      "text": "On this case, we are increasing the adjustable rubber foot from 40 to 42. Every manual post and every automatic flush still creates ledger activity."
+    },
+    {
+      "t": 239.5,
+      "end": 246.9,
+      "text": "Now that we posted the production for the manual processes, let's finish this production order."
+    },
+    {
+      "t": 246.9,
+      "end": 258.3,
+      "text": "We already got the 10 units finished and we can explore what the final production cost was. The actual cost is slightly higher than the expected due to the rubber foot, but don't worry."
+    },
+    {
+      "t": 258.3,
+      "end": 268.6,
+      "text": "We will explore costing on the following episode. In the next video, we open that cost side and see how production activity becomes financial insight."
+    },
+    {
+      "t": 268.6,
+      "end": 274,
+      "text": "Thanks for watching and see you next time."
+    }
+  ],
+  "markers": [
+    {
+      "t": 3.274,
+      "text": "[music]"
+    },
+    {
+      "t": 91.7,
+      "text": "[music]"
+    },
+    {
+      "t": 146.066,
+      "text": "[music]"
+    },
+    {
+      "t": 150.651,
+      "text": "[music]"
+    },
+    {
+      "t": 166.371,
+      "text": "[music]"
+    },
+    {
+      "t": 184.057,
+      "text": "[music]"
+    },
+    {
+      "t": 188.642,
+      "text": "[music]"
+    },
+    {
+      "t": 195.847,
+      "text": "[music]"
+    },
+    {
+      "t": 205.672,
+      "text": "[music]"
+    },
+    {
+      "t": 226.632,
+      "text": "[music]"
+    },
+    {
+      "t": 242.352,
+      "text": "[music]"
+    },
+    {
+      "t": 263.967,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 677
+}

@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Introducing: Approvals for the Expense Agent (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=qZALauRY_So",
-  "published_at": null,
+  "published_at": "2026-04-27T14:39:08.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:19:08.783Z",
+      "captions": "auto:en-orig",
+      "duration_s": 682
+    },
+    "captioned": {
+      "at": "2026-10-06T13:19:16.395Z",
+      "path": "data/captions/microsoft/qZALauRY_So.vtt",
+      "vtt_sha256": "68ede68dff91b7d8fb3f0993be5d24fbb0d9f3a67d229bd8e864cf70ae732013",
+      "segments": 50,
+      "words": 1904,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 71,
-    "duration_s": 683,
-    "via": "reconcile"
-  }
+    "duration_s": 682,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "68ede68dff91b7d8fb3f0993be5d24fbb0d9f3a67d229bd8e864cf70ae732013"
 }

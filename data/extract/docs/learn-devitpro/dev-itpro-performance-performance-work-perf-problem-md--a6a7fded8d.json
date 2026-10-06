@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/performance/performance-work-perf-problem.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-work-perf-problem",
+  "title": "How to work with a performance problem",
+  "blob": "b2be1e917d610d0f1d0facc70c549c03a0ba6215",
+  "summary": "Troubleshooting performance issues in Business Central through a process of measuring, locating bottlenecks, and eliminating them. Guide to available diagnostic tools including performance profilers, telemetry, database analysis, and AL profiler.",
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "performance profiling",
+    "troubleshooting",
+    "diagnostics",
+    "telemetry",
+    "baseline measurement",
+    "bottleneck detection",
+    "database optimization"
+  ],
+  "objects": [],
+  "features": [
+    "Scheduled performance profiler",
+    "In-client Performance Profiler",
+    "AL Profiler",
+    "Telemetry with Azure Application Insights",
+    "Database Missing Indexes",
+    "Database Wait Statistics",
+    "Verbose telemetry",
+    "Performance Toolkit extension"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020509,
+      "pages_in_call": 1
+    }
+  ]
+}

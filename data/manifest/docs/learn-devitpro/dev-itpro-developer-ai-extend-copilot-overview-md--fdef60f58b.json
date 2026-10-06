@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-extend-copilot-overview",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0e8395318ace85d8d8110f46b59ff1d0f19f7eed",
       "words": 390,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:25:57.093Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.011061
+    },
+    "summarized": {
+      "at": "2026-10-06T13:25:57.097Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:25:57.097Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:25:57.098Z",
+      "page": false
     }
   },
   "input_hash": "0e8395318ace85d8d8110f46b59ff1d0f19f7eed",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0e8395318ace85d8d8110f46b59ff1d0f19f7eed"
+  "output_hash": "175ee69a11c01b662142ba0b23b3d289e4f138dd44c635903dfe54483c8a05fa"
 }

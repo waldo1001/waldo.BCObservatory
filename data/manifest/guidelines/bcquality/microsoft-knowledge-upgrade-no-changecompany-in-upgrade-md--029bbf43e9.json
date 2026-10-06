@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "no changecompany in upgrade",
+  "title": "Upgrade code must not use ChangeCompany",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/no-changecompany-in-upgrade.md",
   "published_at": "2026-10-02T09:35:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:10:02.832Z",
+      "blob": "3295bbad423d6607b7b2fe9cbe147793a267f2cd",
+      "words": 610,
+      "forms": 0
     }
   },
   "input_hash": "3295bbad423d6607b7b2fe9cbe147793a267f2cd",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/upgrade/no-changecompany-in-upgrade.md"
-  }
+    "path": "microsoft/knowledge/upgrade/no-changecompany-in-upgrade.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 610
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3295bbad423d6607b7b2fe9cbe147793a267f2cd"
 }

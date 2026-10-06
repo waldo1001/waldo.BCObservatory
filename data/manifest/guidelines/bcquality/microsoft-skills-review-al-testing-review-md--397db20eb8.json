@@ -3,21 +3,37 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "al testing review",
+  "title": "AL testing review",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-testing-review.md",
-  "published_at": "2026-09-29T15:13:06.000Z",
+  "published_at": "2026-10-06T11:30:37.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:58:18.026Z",
+      "blob": "7e05c7004bcdddf4deaf907153bd18231955aa20",
+      "words": 2450,
+      "forms": 0
     }
   },
-  "input_hash": "c42fe853bde6f9e09ea29e1f8099680437cb4aad",
+  "input_hash": "7e05c7004bcdddf4deaf907153bd18231955aa20",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/skills/review/al-testing-review.md"
-  }
+    "path": "microsoft/skills/review/al-testing-review.md",
+    "description": "Performs an AL testing review against guidance from BCQuality.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 2450
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7e05c7004bcdddf4deaf907153bd18231955aa20"
 }

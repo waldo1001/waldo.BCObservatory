@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "al error handling review",
+  "title": "AL error handling review",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-error-handling-review.md",
   "published_at": "2026-10-05T12:46:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:07:56.804Z",
+      "blob": "2af0cf423273143040ff892fe38f667e4c27e58d",
+      "words": 1733,
+      "forms": 0
     }
   },
   "input_hash": "2af0cf423273143040ff892fe38f667e4c27e58d",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/skills/review/al-error-handling-review.md"
-  }
+    "path": "microsoft/skills/review/al-error-handling-review.md",
+    "description": "Reviews AL source changes against error-handling guidance from BCQuality.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 1733
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2af0cf423273143040ff892fe38f667e4c27e58d"
 }

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-table-index-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-table-index-trace",
+  "title": "Analyze table index trace telemetry",
+  "blob": "70a0622912586590f634376e08be414a4dbc3310",
+  "summary": "Table index trace telemetry monitors when extensions add, modify, or remove indexes on base tables. Use it to track index lifecycle events and diagnose performance issues from index changes during synchronization.",
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "telemetry",
+    "indexes",
+    "table keys",
+    "performance",
+    "extension synchronization",
+    "diagnostics"
+  ],
+  "objects": [],
+  "features": [
+    "Index enabled events",
+    "Index disabled events",
+    "Runtime index management",
+    "Column count limits",
+    "MaintainSIFTIndex property",
+    "MaintainSQLIndex property"
+  ],
+  "versions": [
+    "2021 release wave 1 version 18.0",
+    "2026 release wave 1 version 28.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00749,
+      "pages_in_call": 5
+    }
+  ]
+}

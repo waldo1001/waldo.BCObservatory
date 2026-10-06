@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Shopify Connector - Overview (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=B-pxLlb-UN0",
-  "published_at": null,
+  "published_at": "2026-04-01T12:01:17.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:24:24.051Z",
+      "captions": "auto:en-orig",
+      "duration_s": 685
+    },
+    "captioned": {
+      "at": "2026-10-06T13:24:33.954Z",
+      "path": "data/captions/microsoft/B-pxLlb-UN0.vtt",
+      "vtt_sha256": "0c40ffcf9daff1c152ac415bf9c8320b8cf5cbe05027d50eceb0376d2a3491da",
+      "segments": 52,
+      "words": 1696,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 89,
-    "duration_s": 686,
-    "via": "reconcile"
-  }
+    "duration_s": 685,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0c40ffcf9daff1c152ac415bf9c8320b8cf5cbe05027d50eceb0376d2a3491da"
 }

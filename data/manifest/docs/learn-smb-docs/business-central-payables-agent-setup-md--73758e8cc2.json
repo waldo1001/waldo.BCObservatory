@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/payables-agent-setup",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1b0461f412459b1de497dc181edc3ea5b359ba68",
       "words": 3080,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T13:11:10.466Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.011398
+    },
+    "summarized": {
+      "at": "2026-10-06T13:11:10.468Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:11:10.469Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:11:10.469Z",
+      "page": false
     }
   },
   "input_hash": "1b0461f412459b1de497dc181edc3ea5b359ba68",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1b0461f412459b1de497dc181edc3ea5b359ba68"
+  "output_hash": "acb8a2a5456c5d456343f73e26450c34d3ad4ca7cbc97e340a5edd6704d62a13"
 }

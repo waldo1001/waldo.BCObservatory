@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-ai-development-toolkit",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8ad80698f134ace50ad5a06597622e702a24652b",
       "words": 2737,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:23:23.550Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.015662
+    },
+    "summarized": {
+      "at": "2026-10-06T13:23:23.552Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:23:23.553Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:23:23.553Z",
+      "page": false
     }
   },
   "input_hash": "8ad80698f134ace50ad5a06597622e702a24652b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8ad80698f134ace50ad5a06597622e702a24652b"
+  "output_hash": "63b64881f68d96fff498bd450dde86e4e220c657dbe8d194cd0cd7277e86c84d"
 }

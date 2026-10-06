@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/transparency-note-dev-tools-for-copilot.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/transparency-note-dev-tools-for-copilot",
+  "title": "Transparency Note Developer Tools for Copilot in Business Central",
+  "blob": "dad6fff55cee5b2e2fc65ac441790865b71f4a9d",
+  "summary": "Transparency note on developer tools for Copilot in Business Central, which enable partners to build and deploy generative AI capabilities into BC extensions using Azure OpenAI Service APIs and in-app UI components.",
+  "systems": [
+    "copilot",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "generative ai",
+    "responsible ai",
+    "developer tools",
+    "azure openai",
+    "transparency",
+    "copilot features",
+    "business central extensions"
+  ],
+  "objects": [],
+  "features": [
+    "APIs for text completion and chat completion",
+    "prompt dialog UI",
+    "feature governance",
+    "feedback loop",
+    "embeddings",
+    "admin screen for managing AI features",
+    "metaprompt guard rails"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015662,
+      "pages_in_call": 2
+    }
+  ]
+}

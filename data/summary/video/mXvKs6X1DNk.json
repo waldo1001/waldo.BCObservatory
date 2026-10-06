@@ -1,0 +1,28 @@
+{
+  "video_id": "mXvKs6X1DNk",
+  "item_id": "video/yt-microsoft/mXvKs6X1DNk",
+  "summary": "Cross-environment master data synchronization in Business Central lets subsidiaries in the same tenant but different environments pull master data from a headquarters company. It covers the Entra ID app registration, read permissions per table, the setup wizard, delta sync, and a demo. Feature status is not stated.",
+  "overview": "The video covers the 2026 release wave 2 capability for synchronizing master data across environments. Subsidiaries in the same tenant but in different environments can pull data from the headquarters (HQ) company with a built-in solution, without middleware or custom code. HQ stays the read-only main source and controls what subsidiaries can read through permission sets.\n\nIt walks through the architecture, security and data flow, and the setup. The demo shows subsidiary setup with the wizard, app registration and permissions, the initial synchronization, and how a change in the source propagates and is monitored in the synchronization log.",
+  "key_points": [
+    "All environments must be in the same tenant. The app registration is made in that tenant, and admin consent is required in the source environment.",
+    "Access is secured with Microsoft Entra ID and OAuth 2.0. You can register one app shared by several subsidiaries or one app per subsidiary, depending on audit requirements.",
+    "The subsidiary wizard asks for the HQ environment name, the company name and the OAuth credentials. The credentials are stored securely and users cannot read them.",
+    "HQ is read-only. HQ must approve each subsidiary and grant read permissions per table. A default set of master data tables is covered by the default permission set.",
+    "Tables beyond the default ones, including custom tables, need a new permission set with read permissions created by an admin.",
+    "Only changes (deltas) are synchronized, using data services and web service technology. Synchronization jobs must be scheduled automatically.",
+    "Pictures and attachments travel with the records, limited to 512 KB per picture. The video marks this limit as subject to change. The synchronization log can be viewed per table in the same UI as single-environment synchronization."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "partner",
+    "developer"
+  ],
+  "extraction_hash": "8fcbdbab47bcce22d3503dfc1971c4a59c62a29defcee5d86c886f5b5a63c7c0",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.044258399999999996
+  }
+}

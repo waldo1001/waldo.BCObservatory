@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Drop Shipments (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=DJ3LPRxn27g",
-  "published_at": null,
+  "published_at": "2026-04-01T12:01:27.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:21:59.979Z",
+      "captions": "auto:en-orig",
+      "duration_s": 619
+    },
+    "captioned": {
+      "at": "2026-10-06T13:22:09.379Z",
+      "path": "data/captions/microsoft/DJ3LPRxn27g.vtt",
+      "vtt_sha256": "25e36fd7ec4ca2a1511cfa56ed092917682552e1e7c7e529c6c273d627510507",
+      "segments": 48,
+      "words": 1315,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 81,
-    "duration_s": 620,
-    "via": "reconcile"
-  }
+    "duration_s": 619,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "25e36fd7ec4ca2a1511cfa56ed092917682552e1e7c7e529c6c273d627510507"
 }

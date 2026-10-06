@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-overview",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1b5ae22bab0a91f8f8ca6af16c94c650e4571d6d",
       "words": 981,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:18:33.355Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.01016
+    },
+    "summarized": {
+      "at": "2026-10-06T13:20:13.147Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:20:13.148Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:20:13.148Z",
+      "page": false
     }
   },
   "input_hash": "1b5ae22bab0a91f8f8ca6af16c94c650e4571d6d",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1b5ae22bab0a91f8f8ca6af16c94c650e4571d6d"
+  "output_hash": "66ebe71629952cdf92adcb19768d7e94d71042d619a4e460ad73712ea0d37a21"
 }

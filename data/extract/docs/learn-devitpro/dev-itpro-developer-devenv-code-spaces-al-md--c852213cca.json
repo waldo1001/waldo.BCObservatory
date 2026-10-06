@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-code-spaces-al.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-spaces-al",
+  "title": "Use GitHub Codespaces for AL development",
+  "blob": "6aaba9886d7bba495025eaf330d5a1b2f2bb7689",
+  "summary": "Use GitHub Codespaces for cloud-hosted AL development in Business Central. Configure a devcontainer.json file to define the development environment with tools, extensions, and settings for fast onboarding and consistent team development.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "github codespaces",
+    "devcontainer",
+    "development environment",
+    "al development",
+    "cloud development"
+  ],
+  "objects": [],
+  "features": [
+    "cloud-hosted development",
+    "devcontainer.json configuration",
+    "vs code extensions",
+    "code analyzers (CodeCop, UICop)",
+    "environment variables",
+    "port forwarding",
+    "mcp server support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006766,
+      "pages_in_call": 6
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "video_id": "XGEDwzIZQj4",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 7.4,
+      "end": 21.4,
+      "text": ">> Hi everyone, and welcome to this Business Central Launch Edition session on BC Bench. My name is Joost. I'm the product owner for BC Bench, and today I'm here with my colleague. I'm Horan, software engineer on the BC Bench project."
+    },
+    {
+      "t": 21.4,
+      "end": 40.8,
+      "text": "Yep. As more and more development in Business Central AL is done by agents or assisted by agents, there's a need to to find out which model which MCP servers, which instructions, and which agent harness, as well as the tooling and skills given to these agents is the best combination to get the best results in your coding projects."
+    },
+    {
+      "t": 40.8,
+      "end": 53.4,
+      "text": "To find out which combination is the best, we've developed a benchmarking tool that lets us test all these combinations as an agent solves coding problems in Business Central. For this, we're introducing BC Bench."
+    },
+    {
+      "t": 53.4,
+      "end": 68.1,
+      "text": "This is a reproducible evaluation framework for AI coding agents working on real-world AL development tasks inspired by SweetBench. So, by using BC Bench, we can measure the performance of different AI models on real AI issues from our own backlog,"
+    },
+    {
+      "t": 68.1,
+      "end": 81.6,
+      "text": "quantify the impact of any changes we make. So, if we're changing the MCP server or changing the LLM model used by the agents, we'll be able to measure if if that change leads to an improvement in results or or a degradation in results."
+    },
+    {
+      "t": 81.6,
+      "end": 94.3,
+      "text": "On top of that, as we're, you know, making progress with with new models and new MCP servers and new instructions, we're also able to track our progress towards 100% performance of these agents, meaning it gets all the problems right."
+    },
+    {
+      "t": 94.3,
+      "end": 105.7,
+      "text": "And then, finally, we can use the BC Bench to rapidly iterate on agent configurations. So, we can experiment with different setups and quickly find out if they're better or worse than what we tried before."
+    },
+    {
+      "t": 105.7,
+      "end": 116.2,
+      "text": "BC Bench is inspired by SweetBench in that it takes real-world boxes and benchmarks as it tries to fix these boxes. SweetBench is widely used by the AI research community."
+    },
+    {
+      "t": 116.2,
+      "end": 127.9,
+      "text": "It's widely recognized as the benchmarking tool to see how good different LLM models and agent harnesses are at solving coding problems. And over the last year or so, it has demonstrated measurably"
+    },
+    {
+      "t": 127.9,
+      "end": 141.4,
+      "text": "that models have improved in solving these coding problems. Now, with BC Bench, we've adapted this idea to AL and Business Central. So, we can figure out how good these models are at fixing bugs in Business Central specifically."
+    },
+    {
+      "t": 141.4,
+      "end": 153.1,
+      "text": "So, why does Business Central need its own benchmark next to SweetBench? The reality here is that general coding benchmarks like SweetBench do not reflect the realities that a Business Central developer faces every day."
+    },
+    {
+      "t": 153.1,
+      "end": 166.7,
+      "text": "Business Central has a smaller ecosystem than other coding languages, and there's a lot of domain-specific tooling and knowledge that only applies to Business Central and wouldn't be reflected in the benchmarking results you would get from a tool like SweetBench."
+    },
+    {
+      "t": 166.7,
+      "end": 181.2,
+      "text": "This is demonstrated by just the size of open-source GitHub repositories. You can see that in Python, there are more than 2 million repositories that are open-source that a benchmark can take issues from, can take results from, and ultimately learn from."
+    },
+    {
+      "t": 181.2,
+      "end": 194.4,
+      "text": "Whereas in AL, we only have 330 as of the time of this recording. So, the the data set here with the the AL ecosystem and the domain-specific knowledge is simply a lot smaller and more specific."
+    },
+    {
+      "t": 194.4,
+      "end": 210,
+      "text": "So, how does BC Bench work when it comes to to bug fixing? In our normal development flow that we've had for years, and we have a long history of within the Business Central team, we have many bug reports that a human BC developer would take up and then deliver a fix for."
+    },
+    {
+      "t": 210,
+      "end": 224.6,
+      "text": "This fix consists of a functional fix as well as a unit test to make sure that this issue is actually fixed in future developments as well. Now, what we do to develop BC Bench is we take these same bug reports,"
+    },
+    {
+      "t": 224.6,
+      "end": 240.9,
+      "text": "now have these bug reports given the same inputs as the human BC developer would have had, to the coding agent and have the coding agent generate a fix. Then, the coding agent also verifies that fix using the unit test that has previously been developed by the BC developer."
+    },
+    {
+      "t": 240.9,
+      "end": 254.8,
+      "text": "And using that unit test, we can now see whether the results that the coding agent delivered passed or failed. The data set is is quite simple. So, we've taken real Business Central bugs from our own backlog that we've collected over the years,"
+    },
+    {
+      "t": 254.8,
+      "end": 270,
+      "text": "and we've put them or we've collected them into um into the benchmarking data set. So, you can see the description of the of the bug in this case, the title, the repo steps are going into the problem statements for the agent."
+    },
+    {
+      "t": 270,
+      "end": 286.6,
+      "text": "The unit test that was developed by the by the developer when this bug was fixed is also included in the benchmark BC Bench data set so that the agent can see what test needs to pass to evaluate whether it has a successful result as it runs the benchmark."
+    },
+    {
+      "t": 286.6,
+      "end": 297,
+      "text": "And then, finally, the fix itself is in the benchmarking data set as well. Next, Horan will show how it actually works. Now, you can do this yourself. Yes."
+    },
+    {
+      "t": 297,
+      "end": 308.5,
+      "text": "So, to get started with BC Bench, it is very simple. You you can just go to that link in the slide and access our GitHub repository."
+    },
+    {
+      "t": 308.5,
+      "end": 327.2,
+      "text": "You will see all the source code and the links from there. But if you were to experiment with BC Bench to explore with your own tools and the custom instructions used to mention before, you will have to have a GitHub account and a subscription to one of the agent harnesses we have,"
+    },
+    {
+      "t": 327.2,
+      "end": 339.6,
+      "text": "GitHub Copilot or Cloud Code. And now, let me show you some demos of how that works. I'll walk you through you some results we have"
+    },
+    {
+      "t": 339.6,
+      "end": 353.7,
+      "text": "in BC Bench. Now, if you click on this link, you will be able to go to the GitHub repository we have. Uh And if we will not go into the source code today because, well,"
+    },
+    {
+      "t": 353.7,
+      "end": 364.7,
+      "text": "that's too much details. But if you click the link here, it will brings you to the GitHub page where we have the result of BC Bench."
+    },
+    {
+      "t": 364.7,
+      "end": 376.6,
+      "text": "And on the landing page here is some short descriptions we used have just bring you through. And we will just directly jump into some of the results we have."
+    },
+    {
+      "t": 376.6,
+      "end": 388.1,
+      "text": "So, here is the leaderboard or the result for the back fixing category we have following the methodology used explained before."
+    },
+    {
+      "t": 388.1,
+      "end": 403.5,
+      "text": "And there is lots of information to unpack in this table. I will walk you through them one by one. So, on the first column, we have the agent agent harness or agent loops, what you call it."
+    },
+    {
+      "t": 403.5,
+      "end": 422.2,
+      "text": "We currently support Cloud Code and GitHub Copilot in BC Bench. On the second column, we have different models we currently run in BC Bench with some Cloud models from Anthropic and some GPT models from OpenAI."
+    },
+    {
+      "t": 422.2,
+      "end": 436.4,
+      "text": "The next two columns are more interesting. They are the result or what we call accuracy resolution rate. So, all the numbers you see here are aggregated across five runs."
+    },
+    {
+      "t": 436.4,
+      "end": 447,
+      "text": "So, that's something to keep in mind. And now, let's zoom in to this mean resolution rate with 95% confidence interval."
+    },
+    {
+      "t": 447,
+      "end": 459.3,
+      "text": "So, how would you interpret this number is So, on the let's focus on the first row here. So, this specific setup managed to achieve 68.5%"
+    },
+    {
+      "t": 459.3,
+      "end": 470.8,
+      "text": "resolution rate on average, meaning on average of five runs, it resolved 68% of the all the tasks in our data set."
+    },
+    {
+      "t": 470.8,
+      "end": 491,
+      "text": "And afterwards, you you get a range. So, that's the 95% confidence interval. Just think of it as margin of error. We decided to calculate this number because we noticed while developing BC Bench that there are lots of fluctuations on the accuracy"
+    },
+    {
+      "t": 491,
+      "end": 501.8,
+      "text": "between runs. And that's is to be expected because AI models or language models are non-deterministic."
+    },
+    {
+      "t": 501.8,
+      "end": 513.8,
+      "text": "So, we aggregate across five runs to capture this variance. And to compare between different setups, let's take the first two rows here."
+    },
+    {
+      "t": 513.8,
+      "end": 527.8,
+      "text": "You will be able to see that there is overlap on the confidence interval, meaning the 65% on the lower range is lower than the 67% on the higher range."
+    },
+    {
+      "t": 527.8,
+      "end": 543.8,
+      "text": "So, we cannot confidently say which one of the setup is better because, well, it could be a fluke because of those five runs. However, we can, if we compare it with the Opus 45 on the row number four,"
+    },
+    {
+      "t": 543.8,
+      "end": 562.5,
+      "text": "you you can see that even the highest range on the confidence interval is lower than the previous ones, meaning we have 95% confidence the Opus 46 is a improvement over Opus 45."
+    },
+    {
+      "t": 562.5,
+      "end": 579.4,
+      "text": "Now, move on to the next column we call pass at five. Think of this matrix of consistency. So, if you take the first row's result as example, meaning 949.5%"
+    },
+    {
+      "t": 579.4,
+      "end": 594.2,
+      "text": "of the task has been consistently resolved across all five runs. And that's another interesting matrix we decided to calculate, showing how reliable the coding agent can be"
+    },
+    {
+      "t": 594.2,
+      "end": 598.4,
+      "text": "to resolve certain tasks."
+    },
+    {
+      "t": 598.4,
+      "end": 609.6,
+      "text": "And then, the next column is the average time. So, that is the measure of how long does it take for this setup to resolve all the tasks on average."
+    },
+    {
+      "t": 609.6,
+      "end": 624.4,
+      "text": "Um we we decided to report this matrix as well because we noticed uh it influenced some engineers' decision on which setup to choose because some setup uh simply works faster than the others."
+    },
+    {
+      "t": 624.4,
+      "end": 639.3,
+      "text": "Then there is a loop for the engineers to work on. Uh before I go to the last column, I just want to mention that uh if you compare the top to the bottom where we did a run with the"
+    },
+    {
+      "t": 639.3,
+      "end": 653.8,
+      "text": "GPT-4 1. So, by the time you are watching this video, you will be exactly a year before uh GPT-4 1 model was released. Uh and you can see how much uh the models have improved"
+    },
+    {
+      "t": 653.8,
+      "end": 665,
+      "text": "uh over course of 12 months. So, if you look at the pass at at five metrics, uh it increased tenfold uh just in 10 month 12 months."
+    },
+    {
+      "t": 665,
+      "end": 681.2,
+      "text": "So, that's very impressive uh road we have come. Um Now, let's get back to the last column of the version. So, we introduced the version column because we realized uh there are constant updates to the well,"
+    },
+    {
+      "t": 681.2,
+      "end": 696.4,
+      "text": "the BenchPC bench itself uh and then the agent harnesses. For example, GitHub Copilot has a multiple release a week. Uh we don't want to update all the results you are seeing here every after every update."
+    },
+    {
+      "t": 696.4,
+      "end": 708.4,
+      "text": "Uh that's simply too expensive. So, we use the version to capture the differences between runs. Uh the differences, for example, can be Let me just open that."
+    },
+    {
+      "t": 708.4,
+      "end": 722,
+      "text": "Uh so, in version version 0.2.2, you can see we have to update the version of the agent harnesses to include the latest models uh so we can evaluate on them."
+    },
+    {
+      "t": 722,
+      "end": 736.6,
+      "text": "Another way to to experiment with BenchPC bench is to contribute to the data set with your solution-specific challenges. So, the data set we are releasing here is all drawn from Microsoft"
+    },
+    {
+      "t": 736.6,
+      "end": 750.8,
+      "text": "uh repositories, meaning you will not be representative for your solution for your code base. Uh one way to do that is to contribute to the data set with your solution-specific challenges."
+    },
+    {
+      "t": 750.8,
+      "end": 764.7,
+      "text": "Or alternatively, fork the repository. It's MIT-licensed and public. Uh replace the data set with yours. So, you can write in private uh GitHub repository and see the results yourself."
+    },
+    {
+      "t": 764.7,
+      "end": 775.4,
+      "text": "Thanks, Haroun. That concludes our Business Central launch edition session on the BC bench tool. Uh Haroun, myself, and other engineers working on this tool look forward to connecting with you on Viva Engage."
+    },
+    {
+      "t": 775.4,
+      "end": 784.8,
+      "text": "Uh so, please join, share your scenarios, feedback, and ideas for BC bench there. Thank you. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 1960
+}

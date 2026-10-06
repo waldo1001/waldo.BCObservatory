@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "show caption false allowed on non editable fields",
+  "title": "ShowCaption = false on non-editable fields",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/show-caption-false-allowed-on-non-editable-fields.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.911Z",
+      "blob": "2b830bc3559ae0b26699c93907cb66b35e52de63",
+      "words": 138,
+      "forms": 0
     }
   },
   "input_hash": "2b830bc3559ae0b26699c93907cb66b35e52de63",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/ui/show-caption-false-allowed-on-non-editable-fields.md"
-  }
+    "path": "microsoft/knowledge/ui/show-caption-false-allowed-on-non-editable-fields.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 138
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2b830bc3559ae0b26699c93907cb66b35e52de63"
 }

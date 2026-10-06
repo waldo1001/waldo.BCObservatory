@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "dateformula evaluate needs language independent literals",
+  "title": "Parse DateFormula constants with language-independent input",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.md",
   "published_at": "2026-09-21T08:16:07.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:32:30.833Z",
+      "blob": "91fcfe51e74b83322ee9eefe7597ff9634863af6",
+      "words": 348,
+      "forms": 0
     }
   },
   "input_hash": "91fcfe51e74b83322ee9eefe7597ff9634863af6",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.md"
-  }
+    "path": "microsoft/knowledge/style/dateformula-evaluate-needs-language-independent-literals.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 348
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "91fcfe51e74b83322ee9eefe7597ff9634863af6"
 }

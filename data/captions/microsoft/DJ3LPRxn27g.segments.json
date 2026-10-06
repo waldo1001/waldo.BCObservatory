@@ -1,0 +1,253 @@
+{
+  "video_id": "DJ3LPRxn27g",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 7,
+      "end": 19,
+      "text": ">> Hello and welcome to the drop shipment session. You can think that the drop shipment is a very popular term in the e-commerce scenarios where you sell something to customers which is not in your warehouse."
+    },
+    {
+      "t": 19,
+      "end": 32.2,
+      "text": "Maybe you even do not have warehouse. You do not store the good. Why? Because they are in your vendor warehouse or maybe they will be produced and vendor will be sending them directly to your customer and then you will handle the invoicing."
+    },
+    {
+      "t": 32.2,
+      "end": 44.6,
+      "text": "Business Central support this scenario like for a long long long time, but with this release we allow you extra level of capabilities. For example, you can have now more options"
+    },
+    {
+      "t": 44.6,
+      "end": 60.7,
+      "text": "on how you create purchase documents for your drop shipment sales documents. You also more relaxed in the way how you perform the operations in the relation to the sequence of the operations and it also become more forget forgettable forgiving forgiving in the relation of mistakes."
+    },
+    {
+      "t": 60.7,
+      "end": 76,
+      "text": "What if you make something wrong? You can now fix your error easier. But let's go into the details. Old the version of the Business Central instruct you to use following sequence of operations."
+    },
+    {
+      "t": 76,
+      "end": 90,
+      "text": "First you post receipt or shipment doesn't matter they actually posted together automatically they binded doesn't matter where you start from, but then you must to post sales invoice and send it to customer."
+    },
+    {
+      "t": 90,
+      "end": 100.2,
+      "text": "Only then you are allowed to process purchase invoice from your vendor either by updating purchase order or using get receipt lines."
+    },
+    {
+      "t": 100.2,
+      "end": 112.5,
+      "text": "A bit restrictive I would say. Why you cannot process document which you receive from the vendor immediately? Very good question. In the version which we are releasing in the 2026"
+    },
+    {
+      "t": 112.5,
+      "end": 132.6,
+      "text": "wave one we added more flexibility. So now most scenarios are unlocked. Again, you starting the same way you post receipt maybe shipment like together doesn't matter, but then you can decide if you want to post sales or invoice first or you want to post sales purchase"
+    },
+    {
+      "t": 132.6,
+      "end": 152.2,
+      "text": "invoice first either directly in the purchase order or indirectly via get receipt lines. Interesting part you can also when you processing purchase order you can post it as receipt and invoice immediately and shipment will be also updated."
+    },
+    {
+      "t": 152.2,
+      "end": 167.8,
+      "text": "And a couple of more scenarios uh added because we also have a functionality which is called order get order lines. You can use get order lines as a more elaborate replacement for get get receipt lines."
+    },
+    {
+      "t": 167.8,
+      "end": 180,
+      "text": "For example, if you have invoice connected to multiple uh orders or receipts or another one if you activated receipt on invoice"
+    },
+    {
+      "t": 180,
+      "end": 195.4,
+      "text": "in your purchase document created from the drop shipment you can post receipt and invoice directly uh of order via get receipt lines get order lines and then post invoice and send it to your customers."
+    },
+    {
+      "t": 195.4,
+      "end": 206,
+      "text": "But we'll definitely need to look at all of them, but before couple of more slides then we can do the one demo. Purchase order creation."
+    },
+    {
+      "t": 206,
+      "end": 221.1,
+      "text": "Original scenarios you can create uh purchase documents either using requisition worksheet where we have a get sales order action under drop shipment group and then you can get all outstanding purchase documents or one by one"
+    },
+    {
+      "t": 221.1,
+      "end": 233,
+      "text": "in from the purchase order directly. You start by creating purchase order and then you get sales orders. In this version in this release we have extra options for you."
+    },
+    {
+      "t": 233,
+      "end": 246.7,
+      "text": "So now you can do it from the sales order page, from order planning page or from the planning worksheet. Now to the demo. I prepared the sales document for you which includes number of lines."
+    },
+    {
+      "t": 246.7,
+      "end": 261.8,
+      "text": "All of them are marked as a drop shipment. But before we do anything in this document, let me jump to the order planning page and show you that uh"
+    },
+    {
+      "t": 261.8,
+      "end": 273.5,
+      "text": "we can calculate it for sales demand and you can see the lines here. So now drop shipment lines are respected by order planning."
+    },
+    {
+      "t": 274.3,
+      "end": 286.1,
+      "text": "Planning worksheet also has a new group called drop shipment where you can select get order lines to do to get actually the same. It's very similar to what we see in the requisition worksheet today."
+    },
+    {
+      "t": 286.1,
+      "end": 299.6,
+      "text": "Oh and by the way, not use the request approval action. But we do it differently this time. We return back to the sales document and we do it differently. We go to actions functions create purchase document create purchase order."
+    },
+    {
+      "t": 299.6,
+      "end": 310.5,
+      "text": "And here you are. We system calculated which lines to be ordered and you can see the indicator that all of them are related to drop shipment."
+    },
+    {
+      "t": 310.5,
+      "end": 325.5,
+      "text": "All of them are from different vendors which is not the really common scenarios in the in the e-commerce, but now all three where purchase documents are created let's experiment with all of them and try slightly different things."
+    },
+    {
+      "t": 325.5,
+      "end": 337.2,
+      "text": "Let's open the first one. Populate the vendor invoice number and just hit post. Receipt and invoice all together."
+    },
+    {
+      "t": 339.5,
+      "end": 349.9,
+      "text": "Purchase order has disappeared it posted. Remember the sales invoice is sales order is still only shipped and it was shipped by by posting this document."
+    },
+    {
+      "t": 349.9,
+      "end": 363.9,
+      "text": "Do you want to explore purchase document? Not right now. What about two others? We will do a different versions with them as well. So here"
+    },
+    {
+      "t": 364.7,
+      "end": 378.6,
+      "text": "we will scroll down. We do nothing. We only create this document then we scroll down to invoice details and activate the new toggle receipt on invoice. You might learn more about this one in the order"
+    },
+    {
+      "t": 378.6,
+      "end": 385.2,
+      "text": "uh matching video. And then we create"
+    },
+    {
+      "t": 385.2,
+      "end": 389.5,
+      "text": "purchase invoice."
+    },
+    {
+      "t": 391.4,
+      "end": 407.9,
+      "text": "New purchase invoice for our vendor. Let's populate the vendor invoice number and use line functions new get order lines."
+    },
+    {
+      "t": 408,
+      "end": 416.9,
+      "text": "I have so many, but I'm more interested in this last ones. They are my drop shipment related."
+    },
+    {
+      "t": 417.3,
+      "end": 431.7,
+      "text": "And if I will open related information matched order lines you can see there is order, but no shipment. Okay? Can I post it?"
+    },
+    {
+      "t": 436.6,
+      "end": 446.4,
+      "text": "Yes, I can. The invoice was posted, but if you will go back to the purchase order we will see something."
+    },
+    {
+      "t": 446.9,
+      "end": 457.3,
+      "text": "Where is our purchase? Let's return to our purchase order this one and we can scroll to the to the right"
+    },
+    {
+      "t": 457.3,
+      "end": 472.1,
+      "text": "and we can see our quantity received and invoiced. I didn't do anything with this purchase document. It was processed automatically. So together with a payable agents and automation that sounds as a interesting scenario."
+    },
+    {
+      "t": 472.1,
+      "end": 483.6,
+      "text": "The last one the last one to experiment let's just post it as receipt the very classical scenario."
+    },
+    {
+      "t": 483.6,
+      "end": 497.8,
+      "text": "And now it's time to return to the sales to the sales order. So sales order all of these items which we know are sourced by three different vendors all of them are"
+    },
+    {
+      "t": 497.8,
+      "end": 508.7,
+      "text": "shipped. Nothing is invoiced. So that's back to our enhancement about the order of operations. So you can do the purchase part independently of the sales part."
+    },
+    {
+      "t": 508.7,
+      "end": 519,
+      "text": "So depends on your company process you can do it differently. But now let's navigate to the to the shipments."
+    },
+    {
+      "t": 519,
+      "end": 529,
+      "text": "Find the last one because it's the only one which is not invoiced on purchase side and we use the undo shipment to cancel the the transaction."
+    },
+    {
+      "t": 529,
+      "end": 540,
+      "text": "And now the item is completely returned to the vendor and ready for the additional process. Let's go back."
+    },
+    {
+      "t": 540,
+      "end": 544.7,
+      "text": "Find the purchase document."
+    },
+    {
+      "t": 553.8,
+      "end": 558.8,
+      "text": "Update vendor invoice number."
+    },
+    {
+      "t": 559.3,
+      "end": 568,
+      "text": "Check that I selected the right one quantity to received and posted again receive an invoice."
+    },
+    {
+      "t": 570.3,
+      "end": 580.9,
+      "text": "Nice and smooth. Again with the sequence of operations errors and planning parameters and and the different approach to create documents."
+    },
+    {
+      "t": 580.9,
+      "end": 596.8,
+      "text": "With this short collection of demos you can see the new enhancements in the uh drop shipment functional which allows you to vary different sequence of operations benefit from different method of creation of purchase documents and of course,"
+    },
+    {
+      "t": 596.8,
+      "end": 607.8,
+      "text": "use a very convenient undo shipment functionality in the drop shipment scenarios as well. Thank you for watching, and let's stay connected."
+    },
+    {
+      "t": 607.8,
+      "end": 618.6,
+      "text": "You can find additional videos in the description, plus you can always reach out to us via LinkedIn or via Engage."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 1315
+}

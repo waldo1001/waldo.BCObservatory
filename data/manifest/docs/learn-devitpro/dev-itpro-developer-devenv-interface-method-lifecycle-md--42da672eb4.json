@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interface-method-lifecycle",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "095f8010c63dd97f0c4fd6c327a15ea356260383",
       "words": 684,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:33:35.058Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.010996
+    },
+    "summarized": {
+      "at": "2026-10-06T13:33:35.083Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:33:35.083Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:33:35.084Z",
+      "page": false
     }
   },
   "input_hash": "095f8010c63dd97f0c4fd6c327a15ea356260383",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "095f8010c63dd97f0c4fd6c327a15ea356260383"
+  "output_hash": "be66ea2e90c75004921d55b7d2e1d577f448e77c0e2e036e0c69ef2463eb642d"
 }

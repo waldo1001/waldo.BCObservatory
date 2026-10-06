@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-design-prompt-mode",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cce2f0630852bbe8894519074b1beda670715795",
       "words": 1178,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:29:04.531Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.006991
+    },
+    "summarized": {
+      "at": "2026-10-06T13:29:04.535Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:29:04.535Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:29:04.535Z",
+      "page": false
     }
   },
   "input_hash": "cce2f0630852bbe8894519074b1beda670715795",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cce2f0630852bbe8894519074b1beda670715795"
+  "output_hash": "a5bbf972392f29597e0c6ee7a22e60041bad99442aae59fbb1e24b9309477d75"
 }

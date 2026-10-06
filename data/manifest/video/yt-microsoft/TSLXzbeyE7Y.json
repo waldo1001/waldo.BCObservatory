@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=TSLXzbeyE7Y",
   "published_at": "2026-10-01T13:03:20.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T13:02:37.063Z",
+      "path": "data/extract/video/TSLXzbeyE7Y.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 7,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.029296
+    },
+    "summarized": {
+      "at": "2026-10-06T13:02:45.586Z",
+      "path": "data/summary/video/TSLXzbeyE7Y.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0415484
+    },
+    "linked": {
+      "at": "2026-10-06T13:02:45.586Z",
+      "systems": [
+        "copilot",
+        "sales",
+        "finance"
+      ],
+      "topics": 8,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T13:02:45.589Z",
+      "path": "content/videos/TSLXzbeyE7Y.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2026-10-01 - BCLE - What's new： Explore the new Microsoft Copilot Chat in Business Central (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "0dc2e908aafef1689054d113dcfe6a7d59508b4706058928f6865f245b7ed1ee"
 }

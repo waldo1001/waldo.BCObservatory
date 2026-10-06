@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-test-application-example-purchase-invoice-discounts",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fde3fc583ccb2f9a206c2a44bb75ee7a4a017f7f",
       "words": 606,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:34:13.890Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.01272
+    },
+    "summarized": {
+      "at": "2026-10-06T13:34:13.946Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:34:13.946Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:34:13.946Z",
+      "page": false
     }
   },
   "input_hash": "fde3fc583ccb2f9a206c2a44bb75ee7a4a017f7f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fde3fc583ccb2f9a206c2a44bb75ee7a4a017f7f"
+  "output_hash": "e726ac246b12b3e8a6088dbcee0dd1362c208abdcd91d40250783608355c988e"
 }

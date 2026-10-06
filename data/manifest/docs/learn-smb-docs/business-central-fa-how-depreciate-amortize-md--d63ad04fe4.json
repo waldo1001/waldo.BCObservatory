@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-depreciate-amortize",
   "published_at": "2026-10-01T12:49:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b8acb818cabca31159a4c265411b3e5c13fa211f",
       "words": 1251,
       "forms": 10
+    },
+    "extracted": {
+      "at": "2026-10-06T13:37:45.029Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 10,
+      "cost_usd": 0.010103
+    },
+    "summarized": {
+      "at": "2026-10-06T13:37:45.083Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:37:45.083Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:37:45.083Z",
+      "page": false
     }
   },
   "input_hash": "b8acb818cabca31159a4c265411b3e5c13fa211f",
@@ -90,5 +109,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b8acb818cabca31159a4c265411b3e5c13fa211f"
+  "output_hash": "e22662c82acbfd3c8df2ec7bde7fe16b893d76d179e7d48ea6a8b876a2fd85da"
 }

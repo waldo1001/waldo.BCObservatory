@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-faq.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-faq",
+  "title": "Frequently asked questions (preview)",
+  "blob": "47fdc8c613be0e436d9ed3c4cf74eb21186c4f7f",
+  "summary": "Frequently asked questions about agent design covers email integration, code location, job queue scheduling, multilingual instructions, size limits, tool selection, filtering, and feedback mechanisms.",
+  "systems": [
+    "copilot",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "faq",
+    "email integration",
+    "scheduling",
+    "job queue",
+    "instructions",
+    "multilingual",
+    "filtering"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Daily Agent Task Scheduler"
+    },
+    {
+      "type": "codeunit",
+      "name": "Agent Task Builder"
+    }
+  ],
+  "features": [
+    "email integration",
+    "job queue scheduling",
+    "multilingual support",
+    "instruction size",
+    "page filtering",
+    "agent capabilities",
+    "feedback mechanism"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006829,
+      "pages_in_call": 5
+    }
+  ]
+}

@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "item ledger entry document no follows last shipping no",
+  "title": "After Ship-and-Invoice posting, Item Ledger Entry carries the shipment document number",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/item-ledger-entry-document-no-follows-last-shipping-no.md",
   "published_at": "2026-09-29T10:49:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:28:30.347Z",
+      "blob": "3b5d93998553637713ad0219570e1cf9cf3b3fd9",
+      "words": 176,
+      "forms": 0
     }
   },
   "input_hash": "3b5d93998553637713ad0219570e1cf9cf3b3fd9",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/data-modeling/item-ledger-entry-document-no-follows-last-shipping-no.md"
-  }
+    "path": "microsoft/knowledge/data-modeling/item-ledger-entry-document-no-follows-last-shipping-no.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 176
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3b5d93998553637713ad0219570e1cf9cf3b3fd9"
 }

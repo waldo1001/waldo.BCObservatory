@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "calcsums instead of calcfields in loop",
+  "title": "Use CalcSums for stored-field totals, not as a shortcut for FlowFields",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/calcsums-instead-of-calcfields-in-loop.md",
   "published_at": "2026-09-29T15:21:28.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:17:10.750Z",
+      "blob": "fff5e252f0a9c173a3d0f2d9146b7ab5243b577e",
+      "words": 259,
+      "forms": 0
     }
   },
   "input_hash": "fff5e252f0a9c173a3d0f2d9146b7ab5243b577e",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/calcsums-instead-of-calcfields-in-loop.md"
-  }
+    "path": "microsoft/knowledge/performance/calcsums-instead-of-calcfields-in-loop.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 259
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fff5e252f0a9c173a3d0f2d9146b7ab5243b577e"
 }

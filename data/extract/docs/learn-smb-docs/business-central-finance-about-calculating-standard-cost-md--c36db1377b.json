@@ -1,0 +1,75 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-about-calculating-standard-cost.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-about-calculating-standard-cost",
+  "title": "About calculating standard cost",
+  "blob": "bbe8b6cd5f7d7d00bc3c0f530bebfed348442f6a",
+  "summary": "Standard cost calculation for manufacturing items covers material, capacity, subcontracting, and overhead costs. Use this to set up, populate, and update standard costs for purchased, assembled, and produced items.",
+  "systems": [
+    "finance",
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "standard cost",
+    "cost calculation",
+    "manufacturing overhead",
+    "bill of materials",
+    "cost elements",
+    "inventory valuation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "Standard Cost Worksheet"
+    },
+    {
+      "type": "page",
+      "name": "Manufacturing Setup"
+    },
+    {
+      "type": "page",
+      "name": "Revaluation Journal"
+    },
+    {
+      "type": "page",
+      "name": "BOM Cost Shares"
+    },
+    {
+      "type": "page",
+      "name": "General Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Stockkeeping Unit Card"
+    }
+  ],
+  "features": [
+    "standard cost setup",
+    "material cost calculation",
+    "capacity cost calculation",
+    "subcontractor cost",
+    "manufacturing overhead",
+    "noninventory item costs",
+    "cost rolled-up calculation",
+    "Calc. Production Std. Cost",
+    "Suggest Item Standard Cost",
+    "Suggest Work/Mach Ctr Std Cost",
+    "Roll Up Standard Cost",
+    "Implement Standard Cost Change"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028949,
+      "pages_in_call": 1
+    }
+  ]
+}

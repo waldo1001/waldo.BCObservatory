@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Manufacturing Foundations Production Orders (2026)",
   "url": "https://www.youtube.com/watch?v=xqFpiqmXjk0",
-  "published_at": null,
+  "published_at": "2026-09-08T11:44:50.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:09:41.164Z",
+      "captions": "auto:en-orig",
+      "duration_s": 285
+    },
+    "captioned": {
+      "at": "2026-10-06T13:09:49.998Z",
+      "path": "data/captions/microsoft/xqFpiqmXjk0.vtt",
+      "vtt_sha256": "e59a396337b435f990678f298ce7ff46e5d1a0b2a91622a747045dccce194eb6",
+      "segments": 22,
+      "words": 733,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 41,
-    "duration_s": 286,
-    "via": "reconcile"
-  }
+    "duration_s": 285,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e59a396337b435f990678f298ce7ff46e5d1a0b2a91622a747045dccce194eb6"
 }

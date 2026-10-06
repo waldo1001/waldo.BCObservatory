@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v29",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4867c6dbe1624b97cd69a424830f061d16ea514f",
       "words": 2809,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:35:35.737Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.011482
+    },
+    "summarized": {
+      "at": "2026-10-06T13:35:35.771Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:35:35.771Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:35:35.771Z",
+      "page": false
     }
   },
   "input_hash": "4867c6dbe1624b97cd69a424830f061d16ea514f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4867c6dbe1624b97cd69a424830f061d16ea514f"
+  "output_hash": "ec7c624cef355bf16cc04cef7f3f937b1f5b9fc18ccd36764c6434c38cce79c8"
 }

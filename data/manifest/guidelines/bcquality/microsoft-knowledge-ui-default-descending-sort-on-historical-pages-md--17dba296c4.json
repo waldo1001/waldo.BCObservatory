@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "default descending sort on historical pages",
+  "title": "Default descending sort on historical pages",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/default-descending-sort-on-historical-pages.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.875Z",
+      "blob": "a3607c3694733fd84319af6d659959cf54a3d1bf",
+      "words": 140,
+      "forms": 0
     }
   },
   "input_hash": "a3607c3694733fd84319af6d659959cf54a3d1bf",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/ui/default-descending-sort-on-historical-pages.md"
-  }
+    "path": "microsoft/knowledge/ui/default-descending-sort-on-historical-pages.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 140
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a3607c3694733fd84319af6d659959cf54a3d1bf"
 }

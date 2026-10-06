@@ -1,0 +1,26 @@
+{
+  "video_id": "Aqi8Uq2bQyI",
+  "item_id": "video/yt-microsoft/Aqi8Uq2bQyI",
+  "summary": "Page scripting in Business Central (2026 release wave 2): the tool for recording and replaying user actions in the web client moves from preview to generally available. The video covers full localization, multi-row selection in grids, validation of message and error text, and agent-generated scripts.",
+  "overview": "This short video covers what changed in the page scripting tool in 2026 release wave 2. The tool lets customers and consultants record and replay user actions directly in the web client, for testing and user acceptance testing. It was launched in preview earlier and is now generally available.\n\nThe release adds full localization (steps, error messages and tooltips), recording of multiple row selection in grids for bulk actions, and validation of the text shown in messages or error dialogues. The video closes by mentioning that agents can be used to generate page scripts and run them automatically.",
+  "key_points": [
+    "Page scripting moves from preview to generally available in 2026 release wave 2.",
+    "The tool records and replays user actions in the web client, aimed at customers and consultants for testing and user acceptance testing.",
+    "All user-facing strings are now translated, including steps, error messages and tooltips.",
+    "Multiple selection in grids can be recorded, so you can select several rows in a list and run bulk actions (demoed).",
+    "You can validate the text of a message or error dialogue during a recording, so the recording acts as a real assertion and not only a sequence of clicks (demoed).",
+    "Agents can be used to generate page scripts and run them automatically; this was mentioned as a generative, agent-based approach."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "e77178279647febf65c55e4f9f9f5662358f6fe0e5954e2dfd1d93c919da92d2",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0390124
+  }
+}

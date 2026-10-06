@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "job queue handlers must propagate failures",
+  "title": "Job queue handlers must propagate execution failures",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/job-queue-handlers-must-propagate-failures.md",
   "published_at": "2026-09-15T07:32:40.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:34:13.937Z",
+      "blob": "361fc7d4f523b786e32e5cf6d58a713ca2393093",
+      "words": 191,
+      "forms": 0
     }
   },
   "input_hash": "361fc7d4f523b786e32e5cf6d58a713ca2393093",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/job-queue-handlers-must-propagate-failures.md"
-  }
+    "path": "microsoft/knowledge/performance/job-queue-handlers-must-propagate-failures.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 191
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "361fc7d4f523b786e32e5cf6d58a713ca2393093"
 }

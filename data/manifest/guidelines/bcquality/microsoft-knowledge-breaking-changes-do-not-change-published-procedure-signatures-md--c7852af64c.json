@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "do not change published procedure signatures",
+  "title": "Do not change the signature of a published procedure",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/breaking-changes/do-not-change-published-procedure-signatures.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.046Z",
+      "blob": "5fa0ae5599de51419be36e269de200e0c752fc12",
+      "words": 457,
+      "forms": 0
     }
   },
   "input_hash": "5fa0ae5599de51419be36e269de200e0c752fc12",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/breaking-changes/do-not-change-published-procedure-signatures.md"
-  }
+    "path": "microsoft/knowledge/breaking-changes/do-not-change-published-procedure-signatures.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 457
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5fa0ae5599de51419be36e269de200e0c752fc12"
 }

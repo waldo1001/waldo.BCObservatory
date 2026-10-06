@@ -1,0 +1,103 @@
+{
+  "video_id": "Fz8NLByllRc",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.4,
+      "end": 16.1,
+      "text": "In this video, we are going to talk about the expense agent and namely going to talk about the new feature that we added, which is to create mileage expenses. So, in this case, if you have a uh employees who are traveling through I don't know, for a conference uh with their personal car,"
+    },
+    {
+      "t": 16.1,
+      "end": 28.5,
+      "text": "they can actually submit their expense using the mileage feature in expense agent. So, in order to do that, I'm just going to go to uh the web application. I'm going to click on create mileage expense."
+    },
+    {
+      "t": 28.5,
+      "end": 43.4,
+      "text": "As soon as I do that, you can actually see that the map is going to load and then I am able to choose uh a starting point and an ending point. For that, I'm going to choose in this case uh Microsoft"
+    },
+    {
+      "t": 43.4,
+      "end": 48.6,
+      "text": "soft Denmark."
+    },
+    {
+      "t": 48.7,
+      "end": 60.9,
+      "text": "When I leave here, and then I am going to travel, for example, in Flensburg, Germany. Yes, I'm going to choose the first one."
+    },
+    {
+      "t": 60.9,
+      "end": 72.4,
+      "text": "And then you can actually see that now I as user can choose up to three different routes uh and yeah, choose the one that uh I drove uh through."
+    },
+    {
+      "t": 72.4,
+      "end": 83.2,
+      "text": "And of course, I can expand this. I can choose one of the three different routes. Let's say that I actually went on all the bridges. And then I'm going to choose this one."
+    },
+    {
+      "t": 83.2,
+      "end": 93.2,
+      "text": "Then we automatically um calculate based on what your admin set uh the rates of the the miles. So, we automatically automatically calculate that."
+    },
+    {
+      "t": 93.2,
+      "end": 107,
+      "text": "Then of course, if you did uh a round trip, you can toggle this button, which basically is just going to double whatever the distance and the amount was for the trip. You can choose the date and you can provide a description."
+    },
+    {
+      "t": 107,
+      "end": 117.6,
+      "text": "The payment means is cash by default. And of course, the categorization is mileage. So, I'm just going to go ahead and create this expense. It's as easy uh as you see."
+    },
+    {
+      "t": 117.6,
+      "end": 127.8,
+      "text": "Just going to create it. And yeah, the expense agent is going to process it and then it's going to try to add it to an existing report, try to match it and so on."
+    },
+    {
+      "t": 127.8,
+      "end": 144.1,
+      "text": "And now let's go on the Business Central admin site to see how we can actually configure this mileage expense. I'm in my Business Central tenant and as you already are used to to the avatars of the agents,"
+    },
+    {
+      "t": 144.1,
+      "end": 158.1,
+      "text": "I'm going to go through the expense agent avatar. I'm going to click on the settings button. Then I'm going to go through the mileage expenses slide and you can actually calculate the rate per unit."
+    },
+    {
+      "t": 158.1,
+      "end": 169.2,
+      "text": "You can set it to one. Let's say that in this case I don't know I want to 0.50. And of course you can also yeah, the select the default unit of distance."
+    },
+    {
+      "t": 169.2,
+      "end": 181.9,
+      "text": "In this case it's miles, but of course we also allow kilometers. So I'm just going to switch to that and I'm going to update it. In addition to that, as you have seen, I was able to select multiple routes."
+    },
+    {
+      "t": 181.9,
+      "end": 195,
+      "text": "And this is done by going to the expense agent setup. So I searched for the page, I went to the expense agent setup page and there's a configuration on the allowance tab which says only shortest route."
+    },
+    {
+      "t": 195,
+      "end": 214.8,
+      "text": "In this case it's toggled off which means that I as a user can choose multiple routes actually to for traveling. But if I was to enable this toggle, then the expense agent would would always pick the shortest route to between the starting point and the destination."
+    },
+    {
+      "t": 214.8,
+      "end": 226,
+      "text": "I hope you enjoyed this video. This is the mileage feature in the expense agent application and thank you for watching."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.654,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 615
+}

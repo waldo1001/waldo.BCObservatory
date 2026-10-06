@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/shopify/shopify-tax-matching",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "25537669872f3ed27100defd247ee9820062e871",
       "words": 746,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:13:35.860Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.008252
+    },
+    "summarized": {
+      "at": "2026-10-06T13:13:45.436Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:13:45.436Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:13:45.436Z",
+      "page": false
     }
   },
   "input_hash": "25537669872f3ed27100defd247ee9820062e871",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "25537669872f3ed27100defd247ee9820062e871"
+  "output_hash": "9bffe67241710094408c18aa49169a19492f37a03f7f8eeb316f4ef9785084bf"
 }

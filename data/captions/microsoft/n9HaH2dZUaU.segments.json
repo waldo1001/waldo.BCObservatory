@@ -1,0 +1,407 @@
+{
+  "video_id": "n9HaH2dZUaU",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.8,
+      "end": 17.2,
+      "text": ">> Hi everyone and welcome to this Business Central launch edition session on Cloud for Sovereignty. My name is Joost. I'm the product owner for some of the functionality that makes up Cloud for Sovereignty that will be presenting today."
+    },
+    {
+      "t": 17.2,
+      "end": 33.2,
+      "text": "And I'm joined today by my colleague Hey, I'm Christina. I'm responsible for release management and compliance in Business Central. And today we're going to talk about some of the things that you can do on your side and what Microsoft does for protecting your data."
+    },
+    {
+      "t": 33.2,
+      "end": 48,
+      "text": "First, I want to make sure that we are all aligned on the terminology on sovereign clouds. So, we have the Cloud for Sovereignty which is about controlling and securing your data in the public cloud."
+    },
+    {
+      "t": 48,
+      "end": 60.7,
+      "text": "And then we have on the other hand the sovereign private cloud and the national partner clouds. And I think it's important to understand where Business Central is. We are of course in the public cloud."
+    },
+    {
+      "t": 60.7,
+      "end": 78.8,
+      "text": "Today, the agenda is going to be me talking about the European digital commitments that we have in Microsoft. And then we're going to drill into some of the capabilities and functionalities that are already available for you in Business Central and how to set up the protection of your data."
+    },
+    {
+      "t": 78.8,
+      "end": 94.1,
+      "text": "Before we get into the technical part, I want to anchor Microsoft's five digital commitments which handles expand the AI and cloud ecosystem across Europe and how we uphold digital resilience even in crisis"
+    },
+    {
+      "t": 94.1,
+      "end": 114.1,
+      "text": "and how we make sure to protect European data and defend the cybersecurity threats for in Europe. These commitments are not just commitments. It's also how we drive all our work and engineering capabilities and compliance in Microsoft and especially for Business Central."
+    },
+    {
+      "t": 114.1,
+      "end": 135,
+      "text": "So, let's start looking into these five commitments. The first commitment is about scale and choices in Europe cloud footprints. Last year in Europe, Microsoft uh shared a commitment that we want to increase our capacity on data centers with 40% across 16 uh countries in Europe."
+    },
+    {
+      "t": 135,
+      "end": 147.4,
+      "text": "We also engaging with third-party actors um such as Capgemini in and Orange and also in Germany with SAP and Atos systems."
+    },
+    {
+      "t": 147.4,
+      "end": 161.9,
+      "text": "This intent is uh so to combine Microsoft technologies and local ownership, governance, and operational control and ensuring that Europe has capacity choices and um a local participation."
+    },
+    {
+      "t": 161.9,
+      "end": 174.3,
+      "text": "Capacity is one thing, but resilience is about what happens under pressure. That's where the second commitment comes in. This commitment focuses on operational and legal resilience in Europe."
+    },
+    {
+      "t": 174.3,
+      "end": 188.7,
+      "text": "Microsoft will provide cloud services through entities in Europe and those will be operating under European laws. Microsoft has also established a digital resilience commitment in all countries"
+    },
+    {
+      "t": 188.7,
+      "end": 206.9,
+      "text": "with um governments and European Commission, which means that this is a legal binding part of the contracts that Microsoft uh goes into securing uh continuity of cloud services even during geopolitical"
+    },
+    {
+      "t": 206.9,
+      "end": 221.7,
+      "text": "volatility. And we want to emphasize also that Microsoft has uh also stipulated that they will go to court if there is any um disputes on these matters."
+    },
+    {
+      "t": 221.7,
+      "end": 237.4,
+      "text": "Resilience and trust also depend on where the data lives and how it's handled. The next commitment is about the EU data boundary project that Microsoft has been working on for some quite some time and we completed last year."
+    },
+    {
+      "t": 237.4,
+      "end": 253.6,
+      "text": "This means that there are multiple options for securing and encrypting your data and keep it it safe in Europe. A notable point is that Microsoft has made a promise to compensate customers if their data is disclosed"
+    },
+    {
+      "t": 253.6,
+      "end": 263.6,
+      "text": "within a violation of EU law. Privacy and security go a hand in hand and we also make sure that have a fourth commitment"
+    },
+    {
+      "t": 263.6,
+      "end": 279.6,
+      "text": "on how to handle cybersecurity in Europe. We have a strong track record of helping defend critical data and technology. Cybersecurity in Europe is important for us and Microsoft has established a council"
+    },
+    {
+      "t": 279.6,
+      "end": 299.2,
+      "text": "which are driving a some of the cybersecurity regulations such as Zora, NIS 2, and CRA. It's important to emphasize that security and trust is key factors for Microsoft and is embedded in all the work we do across the whole organization."
+    },
+    {
+      "t": 299.2,
+      "end": 315.1,
+      "text": "Finally, once you have capacity, resilience, privacy, and security, the fifth commitment is about growth. We want to make sure that we boost economic competitiveness in Europe and give access to data centers,"
+    },
+    {
+      "t": 315.1,
+      "end": 331.8,
+      "text": "AI skill training, public previews, and on board on partnerships. We have a strong open source model in AI development and we make sure that if you choose to transfer to another cloud provider, it can happen smooth and without any fee."
+    },
+    {
+      "t": 331.8,
+      "end": 346,
+      "text": "It is important for Microsoft that European startups can take advantage of the knowledge and the technology that Microsoft has. This was some details on Microsoft's five digital commitments."
+    },
+    {
+      "t": 346,
+      "end": 356.7,
+      "text": "Um this is also available in our documentation where you can read more about this in details. Let's go into more details on how you can protect yourself in Business Central."
+    },
+    {
+      "t": 356.7,
+      "end": 368.5,
+      "text": "Over to you, Joost. Yes, thank you, Christina. So, the Cloud for Sovereignty makes up four separate functional areas that help customers protect their environments and their their data."
+    },
+    {
+      "t": 368.5,
+      "end": 378.8,
+      "text": "Um, the first area I will cover today is uh, access controls. So, access controls are about enforcing layered access to meet uh, a customer's sovereignty and privacy needs."
+    },
+    {
+      "t": 378.8,
+      "end": 390.4,
+      "text": "Uh, for Business Central, this makes up three separate categories. First, there's the role-based access control to manage uh, who can access an environment and what level of access should they get once they're in that environment."
+    },
+    {
+      "t": 390.4,
+      "end": 404.5,
+      "text": "Next, there's the privileged identity management, which allows customers to grant uh, elevated access on a temporary and reviewed basis. Finally, for partners accessing customers' environments, there's the granular delegated admin permissions, otherwise known as GDAP,"
+    },
+    {
+      "t": 404.5,
+      "end": 415.7,
+      "text": "um, that customers can use to grant partners access to those environments and give them the right level of access. Firstly, there's the role-based access control in Dynamics Business Central."
+    },
+    {
+      "t": 415.7,
+      "end": 427.8,
+      "text": "So, this determines um, what access regular users entering Business Central environments have and what they can do within those environments. Um, the first level at which role-based access control is set is at the environment level."
+    },
+    {
+      "t": 427.8,
+      "end": 442.4,
+      "text": "So, customers can use security groups to uh, grant or restrict users access to individual environments within a tenant. Uh, so it's possible to say this subset of users should only have access to this particular environment."
+    },
+    {
+      "t": 442.4,
+      "end": 459.1,
+      "text": "Next, there's users and groups in Entra ID um, to manage the level of uh, entitlement that users should get within an environment. So, um, for example, you could have a finance users group in your Microsoft Entra and this group gives uh,"
+    },
+    {
+      "t": 459.1,
+      "end": 478,
+      "text": "users that work within the finance department access they need within Business Central uh, to manage those finances. Um what's important to call here out here is that if you have groups that grant elevated permissions within Business Central, you can use privileged identity management to make sure that this access is temporary and uh reviewed."
+    },
+    {
+      "t": 478,
+      "end": 490.6,
+      "text": "The next level of R back in Business Central is entitlements. So, of course, a user needs a license to uh authenticate to Business Central. And that license determines what modules in Business Central are available to that user."
+    },
+    {
+      "t": 490.6,
+      "end": 503,
+      "text": "So, for example, a user with Essentials license cannot use uh functionality that's only included with a Premium license. And then finally, at the the finest grain of group access uh is the permission set."
+    },
+    {
+      "t": 503,
+      "end": 514.6,
+      "text": "So, you can uh define permission sets in Business Central and assign those to an Entra group to make sure that users only get the uh permissions inside an environment that they need to complete their tasks."
+    },
+    {
+      "t": 514.6,
+      "end": 531.5,
+      "text": "Next, there's privileged identity management for Dynamics 365 Business Central. This uh functionality from Entra lets Business Central customers temporarily uh grant customers or users within a customer tenant access to, for example, an Entra role or security group."
+    },
+    {
+      "t": 531.5,
+      "end": 549.1,
+      "text": "Um so, for example, when it comes to assigning an Entra role, um you can make sure that that users that need to access the admin center with the Dynamics 365 Business Central administrator role only can do so temporarily and once approved by uh someone who reviews these uh role assignments."
+    },
+    {
+      "t": 549.1,
+      "end": 559.7,
+      "text": "Secondly, you can also control security group memberships, so that's uh for example, groups that grant access to an environment or groups that grant uh elevated permissions within an environment"
+    },
+    {
+      "t": 559.7,
+      "end": 576.2,
+      "text": "um are bound to groups that users only have temporary access to whenever they need that level of access. And then finally, um there's the conditional access functionality in Entra, and this allows customers to set conditions to sign in to Business Central."
+    },
+    {
+      "t": 576.2,
+      "end": 592.1,
+      "text": "So, for example, a customer can determine that a user should only be allowed to sign in from a particular IP address or only if they've authenticated using 2FA. To create a conditional access policy for your Business Central environments, you go into Entra, create a new conditional access policy,"
+    },
+    {
+      "t": 592.1,
+      "end": 603.4,
+      "text": "and make sure you select Dynamics 365 Business Central as target resource for your access policy. Finally, um most of our customers work with partners to administer and manage their environments."
+    },
+    {
+      "t": 603.4,
+      "end": 621.6,
+      "text": "And the system we use for partners to access customer tenants and environments is called granular delegated admin permissions, otherwise known as GDAP. Um this lets customers approve any um Entra role assignments that partners need to access customer environments."
+    },
+    {
+      "t": 621.6,
+      "end": 632.2,
+      "text": "Uh for Business Central, we recommend using the Dynamics 365 Business Central administrator role as the least privileged role that allows for access to Business Central environments in a tenant."
+    },
+    {
+      "t": 632.2,
+      "end": 648.5,
+      "text": "The next functional area for cloud for sovereignty is security controls. This is the uh measures we implement on our end to make sure that customer data stays secure and isolated. So, firstly, it's important to note that every Business Central environment is its own dedicated isolated SQL database."
+    },
+    {
+      "t": 648.5,
+      "end": 663.9,
+      "text": "So, there's no commingling of data, and these environments are completely isolated from each other. Uh of course, these environments are encrypted. Um so, by default, they're encrypted at rest by key um that Microsoft owns,"
+    },
+    {
+      "t": 663.9,
+      "end": 680,
+      "text": "but customers can choose to use their own key. Uh this is called customer-managed encryption key. Um using your own encryption key lets customers rotate security keys on the month if there's uh compliance security reasons on their end,"
+    },
+    {
+      "t": 680,
+      "end": 690.4,
+      "text": "uh but more importantly, it also enables the customer to revoke Microsoft's access to this key, uh which immediately makes their data in the Business Central database on the sovereign wall by Microsoft."
+    },
+    {
+      "t": 690.4,
+      "end": 707.2,
+      "text": "Uh finally, there's also something customers can do to um secure their integrations between Business Central environments and other services. For this, we have the Dynamics 365 Business Central service tag that represents a group of IP addresses from which traffic uh of a Business Central environment may come."
+    },
+    {
+      "t": 707.2,
+      "end": 719,
+      "text": "So, by using the service tag in your firewall, you make sure that your integrations don't accept any traffic from sources that are not Business Central. The third functional area for Cloud for Sovereignty is called Sovereignty Controls."
+    },
+    {
+      "t": 719,
+      "end": 731.8,
+      "text": "For that, I'll hand over back to Christina. Yes, thank you. Let's dig into some of the details here. When you create a Business Central environment, you select the environment localization."
+    },
+    {
+      "t": 731.8,
+      "end": 750.1,
+      "text": "And as you know, Business Central runs on Azure infrastructure. The localization determines the Azure geo where your database resides. You can choose, of course, to create an environment with any localization, regardless of where your tenant's home geo is."
+    },
+    {
+      "t": 750.1,
+      "end": 767.6,
+      "text": "You should think of the infrastructure in three layers. So, first, the geography is the legal boundary. Region is where the service is running, and the availability zone is about how Azure is protecting against local failures."
+    },
+    {
+      "t": 767.6,
+      "end": 779.1,
+      "text": "Let's look at an overview here. So, this is a snapshot from our documentation, so you can find this table anywhere. Here is an example of uh a snapshot of some of the countries."
+    },
+    {
+      "t": 779.1,
+      "end": 790.3,
+      "text": "So, uh you can get an overview of uh the country and uh where um that country is uh residing in a region, an Azure region."
+    },
+    {
+      "t": 790.3,
+      "end": 804.1,
+      "text": "So, for example, here you can see that Andorra, Albania, and Austria are in the European Azure geography, whereas Argentina is in Brazil, and uh Angola is in South Africa."
+    },
+    {
+      "t": 804.1,
+      "end": 819.4,
+      "text": "So, digging into uh this, it is important to understand the differentiation between Azure region and geography. An Azure region has a physical location where the actual data center is, what geographical area it covers,"
+    },
+    {
+      "t": 819.4,
+      "end": 830.3,
+      "text": "and then the paired region for backup and failover. In this table, you can see how a region is paired with a backup and failover region."
+    },
+    {
+      "t": 830.3,
+      "end": 841.1,
+      "text": "This will cover automatic backups, built-in redundancy, and high availability that protects your data and keeps it accessible during and after any disruptive events."
+    },
+    {
+      "t": 841.1,
+      "end": 855.8,
+      "text": "Let's look into an example. Here is an overview of Europe where the light blue rectangle is the geo, the dark blue square is the region, one in Netherlands and one in Ireland,"
+    },
+    {
+      "t": 855.8,
+      "end": 867.1,
+      "text": "and the towers in the dark blue square are the availability zones. Here you can see you have your data in availability zone one,"
+    },
+    {
+      "t": 867.1,
+      "end": 881.8,
+      "text": "and there is a copy of it in availability zone two, and we automatically create also a backup in North Europe, Ireland, that can be used in the event of any major incidents."
+    },
+    {
+      "t": 881.8,
+      "end": 896,
+      "text": "This way your data in Business Central is automatically protected within the Azure infrastructure. Next, let's have a look at the final functional area of cloud for sovereignty, the transparency controls."
+    },
+    {
+      "t": 896,
+      "end": 906.8,
+      "text": "Transparency controls are there to make sure that customers have visibility and a record of who's accessed their data, who's changed their data, and who's changed the settings in their environment."
+    },
+    {
+      "t": 906.8,
+      "end": 920.1,
+      "text": "Um this is made up of several features. First of all, there is features that allow customers to audit and monitor their activity. Um this happens through preview, uh but also functionality built into Business Central environments like change logs and field monitoring."
+    },
+    {
+      "t": 920.1,
+      "end": 931.2,
+      "text": "Um the second area of transparency controls here is uh scenarios where Microsoft engineers need to access your environment, for example, to to help mitigate a support request."
+    },
+    {
+      "t": 931.2,
+      "end": 942,
+      "text": "Uh, this is managed through through just-in-time access controls on our ends, but also the customer can be part of the approval flow here using customer lockbox. The first transparency control feature here is Purview."
+    },
+    {
+      "t": 942,
+      "end": 957.7,
+      "text": "Purview is a Microsoft-wide service that allows customers to audit activity on their Business Central services and environments. Uh, for Business Central, this means that any activity executed inside an environment or in the admin center that requires admin privileges is auditable,"
+    },
+    {
+      "t": 957.7,
+      "end": 968.6,
+      "text": "um, in Purview outside of your Business Central context. Um, customers can use this to uh, respond to security events, run forensic investigations, and meet their own compliance requirements."
+    },
+    {
+      "t": 968.6,
+      "end": 982.9,
+      "text": "The final transparency controls that we offer as part of Cloud for Sovereignty are for scenarios where Microsoft engineers need to access a customer's database. Um, by default, no Microsoft employee has any access to a customer data,"
+    },
+    {
+      "t": 982.9,
+      "end": 997.3,
+      "text": "but in some specific cases, uh, in response to a support request, there could be a need for an engineer to access a customer database to investigate or mitigate an issue uh, that's reported as a support request."
+    },
+    {
+      "t": 997.3,
+      "end": 1008.9,
+      "text": "Should an engineer determine that they need access to a customer database uh, to mitigate or investigate a support request, um, they can request this access internally using just-in-time access controls."
+    },
+    {
+      "t": 1008.9,
+      "end": 1021.4,
+      "text": "This means that the engineer needs to justify why this access is needed, um, after which it's reviewed internally, and if approved, uh, the access is only authorized for a limited time, and any engineering activity"
+    },
+    {
+      "t": 1021.4,
+      "end": 1039.4,
+      "text": "within the environment is logged so that it can be audited later on. Um, should a customer wish to be part of this approval flow, we offer a feature called customer lockbox. So, with customer lockbox, whenever a Microsoft engineer determines they need access to customer data to mitigate or investigate a support request."
+    },
+    {
+      "t": 1039.4,
+      "end": 1051.8,
+      "text": "They first get their approvals internally. Once within Microsoft, we've determined that this request is justified and the customer does need access to investigate or mitigate, um then this request is escalated to a customer admin."
+    },
+    {
+      "t": 1051.8,
+      "end": 1067.2,
+      "text": "Meaning that the customer admin can also uh approve or reject that request. And only if the customer admin approves, will the uh Microsoft engineer get temporary access to this data to uh resolve the support issue."
+    },
+    {
+      "t": 1067.2,
+      "end": 1084.3,
+      "text": "Um that makes up the four functional areas of uh Business Central Cloud for sovereignty. Um this is just a high-level overview. We have elaborate documentation including links out to all of the information you need to actually set up these features and how to use them on aka.ms/bcsovereignty."
+    },
+    {
+      "t": 1084.3,
+      "end": 1094.9,
+      "text": "And that concludes our Business Central launch edition session on Cloud for sovereignty. Christina, myself, and others that work on these features are eager to hear what you think of these features. Uh share your thoughts, feedback, ideas."
+    },
+    {
+      "t": 1094.9,
+      "end": 1109,
+      "text": "Let us know if you have specific customers that have specific needs that that's are not delivered by this. And uh we'll engage with you on on Viva Engage. Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    },
+    {
+      "t": 1057.182,
+      "text": "[snorts]"
+    }
+  ],
+  "word_count": 2816
+}

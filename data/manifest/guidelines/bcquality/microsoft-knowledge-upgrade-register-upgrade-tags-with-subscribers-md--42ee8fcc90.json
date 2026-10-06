@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "register upgrade tags with subscribers",
+  "title": "Register upgrade tags that must be seeded for new companies",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/register-upgrade-tags-with-subscribers.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:46.032Z",
+      "blob": "0bba7c275daa5df09ce4d52da32db0ef1b674b63",
+      "words": 235,
+      "forms": 0
     }
   },
   "input_hash": "0bba7c275daa5df09ce4d52da32db0ef1b674b63",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/upgrade/register-upgrade-tags-with-subscribers.md"
-  }
+    "path": "microsoft/knowledge/upgrade/register-upgrade-tags-with-subscribers.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 235
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0bba7c275daa5df09ce4d52da32db0ef1b674b63"
 }

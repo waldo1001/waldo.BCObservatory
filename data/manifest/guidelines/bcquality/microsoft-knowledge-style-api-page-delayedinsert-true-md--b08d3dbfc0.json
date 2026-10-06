@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "api page delayedinsert true",
+  "title": "Set `DelayedInsert = true` on API pages",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/style/api-page-delayedinsert-true.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.721Z",
+      "blob": "abe3fd623584109665258fb7491768a24dcec465",
+      "words": 208,
+      "forms": 0
     }
   },
   "input_hash": "abe3fd623584109665258fb7491768a24dcec465",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/style/api-page-delayedinsert-true.md"
-  }
+    "path": "microsoft/knowledge/style/api-page-delayedinsert-true.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 208
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "abe3fd623584109665258fb7491768a24dcec465"
 }

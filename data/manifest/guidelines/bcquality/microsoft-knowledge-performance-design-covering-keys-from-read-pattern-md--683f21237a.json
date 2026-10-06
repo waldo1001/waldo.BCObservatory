@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "design covering keys from read pattern",
+  "title": "Design a read-pattern key and verify whether it covers the query",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/design-covering-keys-from-read-pattern.md",
   "published_at": "2026-09-29T15:21:28.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:17:18.668Z",
+      "blob": "0650086c6b0920625f394101d0c101431804385a",
+      "words": 383,
+      "forms": 0
     }
   },
   "input_hash": "0650086c6b0920625f394101d0c101431804385a",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/performance/design-covering-keys-from-read-pattern.md"
-  }
+    "path": "microsoft/knowledge/performance/design-covering-keys-from-read-pattern.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 383
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0650086c6b0920625f394101d0c101431804385a"
 }

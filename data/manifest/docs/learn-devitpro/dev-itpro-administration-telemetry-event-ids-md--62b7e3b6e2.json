@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-event-ids",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ffaa5e90b0b1c770e4ab704adf16169c279f6178",
       "words": 214,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:31:27.842Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.010059
+    },
+    "summarized": {
+      "at": "2026-10-06T13:31:27.884Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:31:27.884Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:31:27.884Z",
+      "page": false
     }
   },
   "input_hash": "ffaa5e90b0b1c770e4ab704adf16169c279f6178",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ffaa5e90b0b1c770e4ab704adf16169c279f6178"
+  "output_hash": "b499338f257b9f9770b8ce817fae63a6369e71919866fb671018fefcf258e325"
 }

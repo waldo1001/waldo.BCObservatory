@@ -1,0 +1,143 @@
+{
+  "video_id": "vyQnSxRGJDA",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.3,
+      "end": 12.6,
+      "text": "Welcome to this expense agent uh video series. In this video, we'll try to explain much more about perdm, how you can calculate and how you can expose your PDM allowances in expense agent."
+    },
+    {
+      "t": 12.6,
+      "end": 27.1,
+      "text": "So, uh perdm can be really complicated calculation because it depends from country to country different rules how you can calculate and so on. So, we try to make uh almost all possible combination in a setup."
+    },
+    {
+      "t": 27.1,
+      "end": 42.2,
+      "text": "you will have uh driven uh set of vizard configuration vizard to make this easier. But if you want to adjust with much more details to be 100% compliant with your country rules, you can go to express agent setup and adjust all configuration there."
+    },
+    {
+      "t": 42.2,
+      "end": 62.2,
+      "text": "So you will find that we have three different perdm calculation. You have 24 hours rolling period. So this is from uh 6:00 a.m. until the next 6 a.m. and so on. So this is how system is calculating or if you have only full calendar day and first and last day will be calculated based on some percent then if you have over date and then for partial uh"
+    },
+    {
+      "t": 62.2,
+      "end": 76.4,
+      "text": "day rules if you are not whole day on a trip you have flat percentage of full rate or based on eligible hours. So you can see so many uh combinations and then all these calculation can be based on a minimum hours for full perdm,"
+    },
+    {
+      "t": 76.4,
+      "end": 89.2,
+      "text": "minimum hours for partial perdm, percentage or partial perdm and even more after that if you had for example breakfast, lunch or dinner and u you have uh by company policy some reduction."
+    },
+    {
+      "t": 89.2,
+      "end": 100.3,
+      "text": "So if you had this in a conference so you had a lunch in a conference you can just mark that you had a lunch this day and system will automatically use for configure percent uh for this one day."
+    },
+    {
+      "t": 100.3,
+      "end": 110.4,
+      "text": "So you can see this is complex but we try to simplify as more as possible and now you will see how it works really simple in a new web app. Yeah."
+    },
+    {
+      "t": 110.4,
+      "end": 121.7,
+      "text": "So I'm in the expense agent web application and I have already added a paird report and I'm just going to go to the expense. I'm going to open it and I'm just going to try to zoom in."
+    },
+    {
+      "t": 121.7,
+      "end": 135.3,
+      "text": "I'm able to see this expense that I just added for my colleague here actually Alexander Totovich. U the agent detects a perdm trip when um an expense is provided as an itinerary."
+    },
+    {
+      "t": 135.3,
+      "end": 145.4,
+      "text": "You can actually see here in this case the itinerary is from the 29th of September flying from Belgrade via via Frankfurt to London."
+    },
+    {
+      "t": 145.4,
+      "end": 157.8,
+      "text": "And of course, so of course we also have the trip back on the 2nd of October. The agent detects that this is an itinerary expense and it's going to categorize this as uh a pair DM expense."
+    },
+    {
+      "t": 157.8,
+      "end": 178.2,
+      "text": "So if I go back then you can actually see that it detected the merchant which is air pass the total amount the date for the pdm expense of course the business description the the expense description the payment means and the categorization of course is perdm and if I go to the travel tab"
+    },
+    {
+      "t": 178.2,
+      "end": 189,
+      "text": "you can actually see that the agent seamlessly detected the location of this expense in this case it's UK other because this is what I set up in business central."
+    },
+    {
+      "t": 189,
+      "end": 202.2,
+      "text": "So it detected actually that I traveled to London and that's where I spent most of the days from Serbia and then went back. It also detected the start time of this um expense but also the end time of this period."
+    },
+    {
+      "t": 202.2,
+      "end": 217.8,
+      "text": "And as my also my colleague mentioned here uh in the previous slide, we talked about these meal reductions that your users can actually pick based on yeah the different meals of the day that they received at the conference for example."
+    },
+    {
+      "t": 217.8,
+      "end": 237.1,
+      "text": "So I can actually go into an edit mode and let's say that I flew to London for a conference and now I'm just doing my expenses and of course I want to make sure that all the data is uh correct and on Monday the 30th of September breakfast,"
+    },
+    {
+      "t": 237.1,
+      "end": 251.9,
+      "text": "lunch and dinner was provided. I'm just going to save the changes and as soon as uh the changes are saved then you can actually see that the total amount of the expense which was initially 232"
+    },
+    {
+      "t": 251.9,
+      "end": 262.8,
+      "text": "uh pounds was actually decreased to 187 and 0.92 because of the meals reduction. Uh so that's that's pretty much how it works."
+    },
+    {
+      "t": 262.8,
+      "end": 275.4,
+      "text": "Uh now let's see what you can actually do on the admin side of uh Business Central. As an admin, I can actually go to the expense agent avatar here on the right side of the screen."
+    },
+    {
+      "t": 275.4,
+      "end": 289.2,
+      "text": "I can actually click on the settings button and then I will navigate to the perdm details tab. So we have this tab now in the expense agent wizard called perdm expenses and you can actually set up this calculation."
+    },
+    {
+      "t": 289.2,
+      "end": 306.2,
+      "text": "So my per day calculation is based on a full calendar day and then you can actually uh you know um set up your flat rate or like your your rate and also the meals reduction that I was talking about and this can be set up here and in this case it was set up to 15%."
+    },
+    {
+      "t": 306.2,
+      "end": 318.3,
+      "text": "So basically whenever you um whatever you set here the percentage then it's going to be deducted for the from the total perdm allowance per uh per trip."
+    },
+    {
+      "t": 318.3,
+      "end": 329.1,
+      "text": "This is pretty much it about uh the admin section in the expense agent in the business central admin section. Thank you. Thank you Cladio."
+    },
+    {
+      "t": 329.1,
+      "end": 350.2,
+      "text": "So as you can see uh we completely simplify a really complicated area PDM. So you can really easy as submitter you can really easy just upload your itinary system will calculate everything based on starting ending date uh destinations uh starting actually uh address and destination everything done automatically."
+    },
+    {
+      "t": 350.2,
+      "end": 363,
+      "text": "So this is definitely really simplified. So we hope you will use this uh functionality in the B central and thank you for watching this video."
+    }
+  ],
+  "markers": [
+    {
+      "t": 292.133,
+      "text": "[snorts]"
+    }
+  ],
+  "word_count": 1014
+}

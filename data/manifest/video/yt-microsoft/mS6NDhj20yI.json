@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Enhanced Document Reporting (2026 release wave 1)",
   "url": "https://www.youtube.com/watch?v=mS6NDhj20yI",
-  "published_at": null,
+  "published_at": "2026-04-08T10:03:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:20:58.695Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1090
+    },
+    "captioned": {
+      "at": "2026-10-06T13:21:06.369Z",
+      "path": "data/captions/microsoft/mS6NDhj20yI.vtt",
+      "vtt_sha256": "b1f148cdc5b403332c06fd8ff24674738ab88eb8c9157b81a734b28430d57363",
+      "segments": 81,
+      "words": 2696,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 77,
     "duration_s": 1090,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b1f148cdc5b403332c06fd8ff24674738ab88eb8c9157b81a734b28430d57363"
 }

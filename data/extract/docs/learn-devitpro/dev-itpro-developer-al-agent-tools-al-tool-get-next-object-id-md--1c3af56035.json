@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-tool-get-next-object-id.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-get-next-object-id",
+  "title": "Get next object ID - al_getnextobjectid",
+  "blob": "e79a39f1b5c30c143596fc4653d6d3dfedc78944",
+  "summary": "The al_getnextobjectid tool allocates the next available AL object ID for a given type (table, page, codeunit, report, etc.) in the active project, preventing ID collisions when scaffolding new objects.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "object ids",
+    "al development",
+    "scaffolding",
+    "al tools"
+  ],
+  "objects": [],
+  "features": [
+    "ID allocation",
+    "collision prevention",
+    "range support",
+    "project scoping",
+    "multi-project workspaces"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006307,
+      "pages_in_call": 7
+    }
+  ]
+}

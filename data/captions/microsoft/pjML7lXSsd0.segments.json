@@ -1,0 +1,807 @@
+{
+  "video_id": "pjML7lXSsd0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.2,
+      "end": 19.4,
+      "text": ">> Welcome to Business Central launch edition 2026 release wave one and welcome to the session introduction to expense management. My name is Isaac Sattelmeier and I'm product manager in a Business Central."
+    },
+    {
+      "t": 19.4,
+      "end": 29.4,
+      "text": "So, >> [sighs] >> expense management and why did we start with expense management? This is long time functional gap in a Business Central. So, what you could do earlier?"
+    },
+    {
+      "t": 29.4,
+      "end": 44.2,
+      "text": "You could either choose one of ISV solutions or use very limited capabilities. By very limited capabilities, I mean you could use general employee journals and eventually purchase invoices in some cases if if this is related to invoice."
+    },
+    {
+      "t": 44.2,
+      "end": 57,
+      "text": "But in general, it was not about expense agent. This is not about expense management minimum. So, what we decided? We decided to build new functionality but created as a AI-driven."
+    },
+    {
+      "t": 57,
+      "end": 70.9,
+      "text": "So, we didn't just wanted to create new new feature. We wanted to create new feature but completely AI-driven. So, what we succeed? Our recommendation, use expense management as a expense agent."
+    },
+    {
+      "t": 70.9,
+      "end": 87.4,
+      "text": "So, use with the agent. And every agent will provide much much more functionalities and much more automations. But even if you decide not to use agent, maybe you are currently in a region where agent is not enabled or you have some another reason,"
+    },
+    {
+      "t": 87.4,
+      "end": 98.2,
+      "text": "you can use some basic functionalities in expense management without using agent. But again, our high recommendation is to use agent because you will get away more functionalities."
+    },
+    {
+      "t": 98.2,
+      "end": 112.2,
+      "text": "When you look into expense management capabilities without agent and you compare with a recording where we had a agent, this is way smaller. But you still have options to collect expenses, to itemize,"
+    },
+    {
+      "t": 112.2,
+      "end": 125.2,
+      "text": "reconcile, expense report create, approve reimbursement and post reimbursement. So, you have all these workflows. Workflow is configured and enabled but with the less functionalities."
+    },
+    {
+      "t": 125.2,
+      "end": 139,
+      "text": "So, in a case of expense management without agent, you will not have expenses. You can start to collect expenses directly creating expense report. So, you need to start with expense report and then you can handle with expenses there."
+    },
+    {
+      "t": 139,
+      "end": 152.1,
+      "text": "You can add itemization, of course, if you you can add guest if you have some entertainment event or something like that. So, these features will be covered but you cannot start earlier than expense report."
+    },
+    {
+      "t": 152.1,
+      "end": 164,
+      "text": "So, you need to start with expense report and then to add another features. So, some automations we have there with the attachments, with the extraction, OCR, they are not covered."
+    },
+    {
+      "t": 164,
+      "end": 175,
+      "text": "So, in the most of cases, you can prepare expense report, you can add your expenses directly in expense report lines, you can check against some rule of validations, approve it and post it."
+    },
+    {
+      "t": 175,
+      "end": 187.2,
+      "text": "So, this is what you can get if you do not use agent. So, first I want to compare overview high-level architecture with the agent and with no agent."
+    },
+    {
+      "t": 187.2,
+      "end": 198.4,
+      "text": "So, when agent work on behalf of employee, what do you have? You have expense user and user can be part of teams. We have expense teams."
+    },
+    {
+      "t": 198.4,
+      "end": 210.7,
+      "text": "So, in teams you will know who is manager. So, easier for approval setup. But the main person is expense user. Expense user will create expense"
+    },
+    {
+      "t": 210.7,
+      "end": 221.3,
+      "text": "based on LLM and auto categorization. But then we will continue to receive another directions"
+    },
+    {
+      "t": 221.3,
+      "end": 234.8,
+      "text": "information from another directions. Currently, this is not in public preview but we will have connection with the credit card provider. So, you can collect information from from credit cards and reconcile with existing expenses."
+    },
+    {
+      "t": 234.8,
+      "end": 246.2,
+      "text": "When we have everything approved everything will be added into automatically into expense report. It will pass through approval process and you will get posted expense reports and all other applicable entries."
+    },
+    {
+      "t": 246.2,
+      "end": 257.7,
+      "text": "And of course, we have a lot of setup rules, posting groups, locations and so on and so on. So, to support all these changes. If you look into approval, you will see small"
+    },
+    {
+      "t": 257.7,
+      "end": 267.9,
+      "text": "piece of paper there as a document policies. So, we have additional model if you're using with agents. We have human language explaining policies."
+    },
+    {
+      "t": 267.9,
+      "end": 278,
+      "text": "So, agent can check if everything what you apply there is fit with your company policies. So, this is something what exists only in agent."
+    },
+    {
+      "t": 278,
+      "end": 292.7,
+      "text": "So, now if you look what is in a basic high-level architecture with no agent, you can see okay, we have expense users but you can create only expense report and finish regular approval process and post expense report."
+    },
+    {
+      "t": 292.7,
+      "end": 304.2,
+      "text": "This is what we have. Okay, we have setup rules, posting groups and so on. So, you have these basic things straightforward approval. Approval already exists in a Business Central and you must be Business Central user."
+    },
+    {
+      "t": 304.2,
+      "end": 314.8,
+      "text": "So, you cannot handle if you're not Business Central user. So, this is a base difference. So, what we have inside the Business Central? I mentioned a few time rules."
+    },
+    {
+      "t": 314.8,
+      "end": 327.4,
+      "text": "You can use if again with no agent. With agent, we have policies, we have much more complexity about rules. But here in a Business Central without agent, you have only rules."
+    },
+    {
+      "t": 327.4,
+      "end": 341.2,
+      "text": "So, this is about straightforward information about amounts. You can say what is the maximum, minimum amount. Some threshold where this is where this required justification or it will not allow to spend more than some amount and so on."
+    },
+    {
+      "t": 341.2,
+      "end": 353.1,
+      "text": "This is it require absolute accuracy. It can be used for per diem, for example, rules as a daily rate. So, you have this minimum, maximum and other options but you have daily rate option."
+    },
+    {
+      "t": 353.1,
+      "end": 367.9,
+      "text": "So, you can use this for configuration of per diem. And if we talk about per diem, what you need to have for per diem calculation per diem setup, sorry. You need to have a created country region code and then in a set set up expense location,"
+    },
+    {
+      "t": 367.9,
+      "end": 378.6,
+      "text": "you need to configure city and province. What does it mean? You can have one per diem amount per country. So, all good. You just need to configure country region code and configure"
+    },
+    {
+      "t": 378.6,
+      "end": 391.9,
+      "text": "what will be amount for this expense location. But why we do not use a regular location? You can have different amounts for per diem based on different places where you're traveling."
+    },
+    {
+      "t": 391.9,
+      "end": 409.2,
+      "text": "For example, you can have in UK for London much higher per diem for other parts of UK smaller amounts. So, you can involve city, you can involve province, you can decide how you want to split and how you want to different your per diem amounts."
+    },
+    {
+      "t": 409.2,
+      "end": 426,
+      "text": "Once when you have configure expense locations, you will create a rule. In this rule, you need to decide this is per diem add expense location and the currency code because you can have different currency codes related to per diem in different countries."
+    },
+    {
+      "t": 426,
+      "end": 436.6,
+      "text": "And then in rule conditions, you need to enter daily rate and in a value, you will enter per diem amount. So, if you are traveling to the United States and"
+    },
+    {
+      "t": 436.6,
+      "end": 451,
+      "text": "for all all states and all cities there, you need to configure expense location USA and in a configure configuration rules, you need to enter this location, per diem option, currency code US dollars,"
+    },
+    {
+      "t": 451,
+      "end": 464.8,
+      "text": "daily rate as an option and for example, $100 as amount and it will work automatically in the background. So, what else you need to set up to start using"
+    },
+    {
+      "t": 464.8,
+      "end": 479.1,
+      "text": "expense management in the Business Central? You need to start with expense agent setup. Expense agent setup even if you do not want to use agent, this is the name of page where you will have and find primary setup for many different options."
+    },
+    {
+      "t": 479.1,
+      "end": 496.6,
+      "text": "I will show you in a demo. Then you have expense payment methods where you will choose what will be reimbursement type. That means if you paid as a cash by employee paid or with private credit card or you paid with a company card or a company paid through bank account."
+    },
+    {
+      "t": 496.6,
+      "end": 510,
+      "text": "So, in the first option, if employee paid with his own money, this is reimbursable because this employee needs to get money back from a company. In other option, they are allowed to have credit card company credit card or bank account paid."
+    },
+    {
+      "t": 510,
+      "end": 528.7,
+      "text": "But in this case, it will be expensed but not reimbursed because company will already cover these amounts. So, you have expense locations, expense management rules and then for each of expense, you need to prepare expense categories and to make a setup if these categories require itemization,"
+    },
+    {
+      "t": 528.7,
+      "end": 538.8,
+      "text": "participants, per diem, mileage and so on. And eventually add subcategories where this is needed and expense groups."
+    },
+    {
+      "t": 538.8,
+      "end": 551.8,
+      "text": "For posting you you will use two different posting groups. Expense posting groups for lines. So, how you will post expense and employee posting groups for header."
+    },
+    {
+      "t": 551.8,
+      "end": 568,
+      "text": "So, this is what we have right now in a setup and Before I continue, I want just to with the demo, I just wanted to explain I mentioned reimbursable reimbursable amount is if employee will get money back or not."
+    },
+    {
+      "t": 568,
+      "end": 583.6,
+      "text": "But there is another option if this is a refundable. So, refundable versus reimbursable. First, we need to cover So, any expense if compliant based on company rules is refundable expense."
+    },
+    {
+      "t": 583.6,
+      "end": 595.1,
+      "text": "Default value on expense category subcategory will be for example, refundable and it will be provided directly to any expense or expense report lines. But you can modify."
+    },
+    {
+      "t": 595.1,
+      "end": 605.1,
+      "text": "And even if you have non-refundable uh, type, you can in some specific situation, if you have permissions, you can change to, uh, refundable. So,"
+    },
+    {
+      "t": 605.1,
+      "end": 620.1,
+      "text": "uh, important is that non-refundable expenses will not be posted to the general, uh, ledger. This is not refundable. But why do we have it? It can happen that, uh, you will use company card and spend some amount on some,"
+    },
+    {
+      "t": 620.1,
+      "end": 636.9,
+      "text": "uh, expense what is not, uh, refundable. This is not allowed by company policy, but you already spent it. So, you must post this information and that means that actually you need to require this money back from employee because employee spent amount not allowed by the company."
+    },
+    {
+      "t": 636.9,
+      "end": 650.2,
+      "text": "Or, uh, we will get, uh, receipt and on receipts you will have four lines, three lines are refundable, one line is not refundable. So, uh, employee will be will be reimbursed only partially."
+    },
+    {
+      "t": 650.2,
+      "end": 661.1,
+      "text": "So, this is important to have refundable non-refundable because you you can have different combinations there. And plus, sometimes employee doesn't know if this is refundable or not."
+    },
+    {
+      "t": 661.1,
+      "end": 672,
+      "text": "They will scan receipt, create expense, they don't know, and later it can be, uh, signalized that this expense is not refundable, so you will not get money, you will not be paid for this, uh, expense."
+    },
+    {
+      "t": 672,
+      "end": 682.6,
+      "text": "So, there are a lot of reasons why we need to have, even if not refundable, why we not why we need to have this in the system. But now, if this is refundable, we have reimbursable and this is what I mentioned."
+    },
+    {
+      "t": 682.6,
+      "end": 694,
+      "text": "If employee paid his own money, he will or she will, they will get this money back. If they spend, uh, money from company card or bank account, this is refundable but not reimbursable."
+    },
+    {
+      "t": 694,
+      "end": 704.6,
+      "text": "You still need to register this expense report, so you will have properly, uh, posted expense account. So, this is important to understand. Okay."
+    },
+    {
+      "t": 704.6,
+      "end": 716.2,
+      "text": "Now, let's look into demo. I will start with a, uh, first expense agent setup."
+    },
+    {
+      "t": 716.2,
+      "end": 729.5,
+      "text": "As I said, this is the first place what you need to set up. Okay. This is the place where you can enable agent and, uh, as I said, this is not now about agent, I will show, uh, everything outside of agent."
+    },
+    {
+      "t": 729.5,
+      "end": 740.7,
+      "text": "So, you can choose a many of options. I will not show all of them, but some of important. For example, if you have different currencies, exchange, uh, rate for expenses can be expense date or posting date."
+    },
+    {
+      "t": 740.7,
+      "end": 753,
+      "text": "Or if, uh, prepayment, uh, is allowed or not. >> [snorts] >> So, when to create, uh, expense reports. And you can find about rounding, some other options here."
+    },
+    {
+      "t": 753,
+      "end": 764.6,
+      "text": "When receipt number is mandatory because you will register receipt, but if receipt number is mandatory or not. If you say yes, you cannot create expense without, uh, receipt."
+    },
+    {
+      "t": 764.6,
+      "end": 776,
+      "text": "Or merchant, uh, name is mandatory or not. So, again, this is on you, you can say this is mandatory or not. It depends how, uh, you want to set up."
+    },
+    {
+      "t": 776,
+      "end": 791,
+      "text": "Then, you have these rules in the system. And number series, of course. Now, this allowance, this is much more com- it can be much more complicated. Even not not about, uh, how many fields we have, but, uh, what is an impact."
+    },
+    {
+      "t": 791,
+      "end": 804.9,
+      "text": "You have standard rate of mileage. This is if when you are using your private, uh, car for company purpose, for business purpose, you you will get reimbursed for this, uh, amount multiplied with, uh, kilometers or miles you used."
+    },
+    {
+      "t": 804.9,
+      "end": 819.9,
+      "text": "Then, we have per diem calculation. How we will use per diem calculation? Different rules, different authorities, different countries, different, uh, per diem calculations. So, you have none because in some countries you do not calculate per diem because you will reimburse,"
+    },
+    {
+      "t": 819.9,
+      "end": 830.8,
+      "text": "for example, employee for meals for for what they, uh, really can, uh, uh, provide as a receipt, but you can choose option full calendar day. And what does it mean?"
+    },
+    {
+      "t": 830.8,
+      "end": 844.6,
+      "text": "Only if you spend full day from the first minute until the last minute of the day, you will be reimbursed. Or overnight stay, that means only if you spend night, uh, regardless if you spend 23 hours,"
+    },
+    {
+      "t": 844.6,
+      "end": 854.6,
+      "text": "uh, from 1:00 a.m. until the midnight, if you but not stay overnight, you will not be reimbursed. Or, the probably the most popular 24 rolling period. What does it mean?"
+    },
+    {
+      "t": 854.6,
+      "end": 865.7,
+      "text": "From the moment when I started my, uh, trip, every 24 hours I will have one full per per diem calculated. But what else? Uh, minimum hours for per diem."
+    },
+    {
+      "t": 865.7,
+      "end": 875.9,
+      "text": "We can say, \"Okay, yes for 24, but what if I have 17 or 19 hours? Is this per diem or not?\" So, you can configure here what is minimum amount for full per diem."
+    },
+    {
+      "t": 875.9,
+      "end": 891.6,
+      "text": "So, if you spend less, in this case than 12 hours, you will not be reimbursed. But if you spend 14 hours, it will be treated as a full per diem. And then, plus on top of that, you have sometimes you didn't spend 12 hours, but you have you are eligible for partially,"
+    },
+    {
+      "t": 891.6,
+      "end": 902.9,
+      "text": "uh, to get, uh, per diem. So, now you have partial day rules. Again, you have flat percentage of, uh, full rate or based on eligible hours."
+    },
+    {
+      "t": 902.9,
+      "end": 913.1,
+      "text": "If you choose based on eligible hours, you need to say minimum amount of hours. So, what does it mean? Uh, 12 or more hours you will get full per diem."
+    },
+    {
+      "t": 913.1,
+      "end": 925.2,
+      "text": "Between 8 and 12, you will get partial per diem. Less than 8 hours, you will not be reimbursed. And now, what is this partially per diem? You can configure what is the percent, 60%."
+    },
+    {
+      "t": 925.2,
+      "end": 941.8,
+      "text": "And now, we have some reduction. Okay, you will be reimbursed for your per diem, but company, uh, maybe will uh, will, uh, decrease this amount if you already have, uh, receipt for lunch or for dinner because if you already have included in the hotel stay,"
+    },
+    {
+      "t": 941.8,
+      "end": 953.2,
+      "text": "you will not go you will not get full reimbursement. So, now, for example, I have zero reduction for breakfast, but I I have 30% for lunch and 20% for dinner."
+    },
+    {
+      "t": 953.2,
+      "end": 967,
+      "text": "So, there are a lot of another, uh, options for setting up. I will not show, as I said, all of them. What else is important? Expense users. You need to have expense user created for all your uh, users in the system."
+    },
+    {
+      "t": 967,
+      "end": 977.8,
+      "text": "Uh, additional they need to be connected with employees because we need to collect employee posting group for all these employees. Then, what else we have?"
+    },
+    {
+      "t": 977.8,
+      "end": 988.4,
+      "text": "We have expense categories. This is what I mentioned. We have airline ticket, car, courier, entertainment, so on. For example, if I open hotel, it require itemization."
+    },
+    {
+      "t": 988.4,
+      "end": 1002.4,
+      "text": "What does it mean? You need to provide all details about your hotel stay. So, this is not enough to have only one, uh, amount, one line. You need to provide, uh, how many days you spend there, uh, to itemize each line, breakfast,"
+    },
+    {
+      "t": 1002.4,
+      "end": 1013,
+      "text": "uh, room service, whatever you spend in the hotel stay. You can change to none if you do not need it, but you can keep itemizing. You can use participants."
+    },
+    {
+      "t": 1013,
+      "end": 1032,
+      "text": "So, for example, if you have business lunch, business dinner, you are supposed to provide a list of names, uh, together with you. So, you need to provide participants. Then, per diem, this is a signal for system that this expense category should calculate per diem based on rules I just explained."
+    },
+    {
+      "t": 1032,
+      "end": 1042.8,
+      "text": "And mileage for calculation. Then, for almost all of them you will have this refundable. What else is important? You have posting groups. I will explain more about posting groups."
+    },
+    {
+      "t": 1042.8,
+      "end": 1054.7,
+      "text": "And attachment enforcement. You can say, \"I don't need attachment.\" Or you can provide warning or error if there is no attachment. I keep here right now with the warnings."
+    },
+    {
+      "t": 1054.7,
+      "end": 1066.6,
+      "text": "Then, default payment method. This is what I mentioned. Uh, you can see, uh, I have here credit card, but you can have cash or some other options."
+    },
+    {
+      "t": 1066.6,
+      "end": 1079.6,
+      "text": "Uh, sorry, I wanted full list. So, you have company reimbursement type, credit card, and employee. So, you can configure uh, different expense payment methods here."
+    },
+    {
+      "t": 1079.6,
+      "end": 1090.7,
+      "text": "Uh, all these payment methods are only default methods when you start to work with expenses. And expense group, this is not mandatory, but it will be a much easier to,"
+    },
+    {
+      "t": 1090.7,
+      "end": 1101,
+      "text": "uh, later when you want to analyze all your details in expense, uh, entries to find groups to get better information. Now, let's look into subcategories."
+    },
+    {
+      "t": 1101,
+      "end": 1112,
+      "text": "Subcategories are not necessary, but if you are require itemization, you must have subcategories. And, uh, that that means that you will have itemization based on these subcategories."
+    },
+    {
+      "t": 1112,
+      "end": 1127.6,
+      "text": "Some of these, uh, expense, uh, subcategories can require, for example, different description. I want if you use hotel parking, I want to override this default description with, uh, all these details why you use the parking."
+    },
+    {
+      "t": 1127.6,
+      "end": 1145.5,
+      "text": "Or, you can set up if they are refundable or not. For example, hotel incident is not refundable. Room service or mini bar are not both of them are not refundable. So, you can configure, uh, when you have itemization and subcategories much more into details that one receipt can be partially,"
+    },
+    {
+      "t": 1145.5,
+      "end": 1159.8,
+      "text": "uh, refundable partially not. And I said I need to explain you expense posting groups. We have expense posting groups, we have prepayment, we have refundable debit amount, and rounding,"
+    },
+    {
+      "t": 1159.8,
+      "end": 1168.6,
+      "text": "uh, amounts as well. So, you can configure posting groups and you can use employee posting groups"
+    },
+    {
+      "t": 1168.6,
+      "end": 1180.9,
+      "text": "for header postings. So, you have additional options here. Uh, expense report payable account, expense report prepayment account, so you can configure how system will post all details from the header."
+    },
+    {
+      "t": 1180.9,
+      "end": 1190,
+      "text": "So, this is basic, uh, setup. Uh, I said we have a few more things, expense location."
+    },
+    {
+      "t": 1190,
+      "end": 1202.8,
+      "text": "So, you have different examples here, So, I will open UK other. So, that means everything in the UK except London. You have different expense location card if this is London."
+    },
+    {
+      "t": 1202.8,
+      "end": 1213.6,
+      "text": "So, now you can if this is one post number code you can use a London for here but London you can find a lot of different."
+    },
+    {
+      "t": 1213.6,
+      "end": 1227.8,
+      "text": "So, you can use as a city or you can enter here as a state or province London area. So, this is on you. You can make all these different combinations but once you have set up all these expense locations, what is important"
+    },
+    {
+      "t": 1227.8,
+      "end": 1239.6,
+      "text": "you need to configure expense management rules. And then you will find for example here for UK other per diems category expense location UK other"
+    },
+    {
+      "t": 1239.6,
+      "end": 1255.9,
+      "text": "GBP as a currency code and daily rate 115. When I move to sorry, another direction to UK London, I have everything the same per diem but this time UK London GBP daily rate 140."
+    },
+    {
+      "t": 1255.9,
+      "end": 1266.2,
+      "text": "So, you can configure your daily rate based on what you want to use. And for example, you can configure entertainment event"
+    },
+    {
+      "t": 1266.2,
+      "end": 1278.6,
+      "text": "that you are for example allowed to spend more than 500 but only if you at least have justification provided. But 1,000 is maximum amount so you cannot spend more than 1,000."
+    },
+    {
+      "t": 1278.6,
+      "end": 1292,
+      "text": "So, you have many different rules you can use here as well. So, now I will show you expenses. Even if I mentioned expenses are not possible to be used if you are using Business Central outside of agent."
+    },
+    {
+      "t": 1292,
+      "end": 1306.5,
+      "text": "But why I want to show you? Because when you are using agent you can handle in a Business Central as well. So, you will sometimes open this environments if you have Business Central license so you need to have team member license to open it."
+    },
+    {
+      "t": 1306.5,
+      "end": 1318,
+      "text": "But that means if you have something in expense table, you have activated expense agent. So, you cannot create new one but you can modify."
+    },
+    {
+      "t": 1318,
+      "end": 1328.6,
+      "text": "As for example, I have already two expense reports submitted. One released um uh expense what is about airline ticket."
+    },
+    {
+      "t": 1328.6,
+      "end": 1343.2,
+      "text": "So, I have all this information here. And then I will look what I have opened. So, this is already created from let's say by uh assuming already created by expense agent but you can modify this in the Business Central."
+    },
+    {
+      "t": 1343.2,
+      "end": 1354.2,
+      "text": "So, I have um description. I do not have uh merchant name. I will say Contoso hotel."
+    },
+    {
+      "t": 1354.2,
+      "end": 1365.3,
+      "text": "And um Okay, attachment are missing in expense. That means if you remember I set it up to have warning. So, I have warning. I do not have violation."
+    },
+    {
+      "t": 1365.3,
+      "end": 1379.6,
+      "text": "This is not error but I supposed to use. And now I want to show you here a few more features. First if this is a refundable and pay by card, you will see reimbursed amount is zero because you already pay by company card."
+    },
+    {
+      "t": 1379.6,
+      "end": 1391.1,
+      "text": "But if you change to cash, you will see that this amount 1,000 you are supposed to be paid 1,000 as well. So, that that's that's fine."
+    },
+    {
+      "t": 1391.1,
+      "end": 1401.5,
+      "text": "Then if this is not refundable you can just switch this and it will be excluded from"
+    },
+    {
+      "t": 1401.5,
+      "end": 1411.6,
+      "text": "this calculation. So, there these few options. But what else we can do? We can connect this expense"
+    },
+    {
+      "t": 1411.6,
+      "end": 1421.8,
+      "text": "to specific project. So, I can easily add okay, this is project and this is project task number. So, I can easily connect and it will be automatically"
+    },
+    {
+      "t": 1421.8,
+      "end": 1434.9,
+      "text": "added into project ledger entry. Or maybe this is billable to your customer. So, you may this expense on behalf of your company but you can invoice to your customer."
+    },
+    {
+      "t": 1434.9,
+      "end": 1447.4,
+      "text": "So, you can mark billable and then you can choose your customer you want to to create receipt to create invoice. So, system will automatically when you post expense report create sales invoice to this customer as well."
+    },
+    {
+      "t": 1447.4,
+      "end": 1458.5,
+      "text": "So, there are a lot of other options. I will remove right now all of them. Of course, dimensions are here and I will release. So, I will switch to another."
+    },
+    {
+      "t": 1458.5,
+      "end": 1470.4,
+      "text": "I have mileage here just to show example. I have starting point, ending point and some number of kilometers or miles regardless and system will automatically calculate"
+    },
+    {
+      "t": 1470.4,
+      "end": 1481.1,
+      "text": "if you remember 1.2 multiply 120. This is 144. So, that's fine. It will be amount will be reimbursed."
+    },
+    {
+      "t": 1481.1,
+      "end": 1493,
+      "text": "Okay, release. What else I have? Moral event. So, now okay, I pay by card and what I want to add, I want to add participant."
+    },
+    {
+      "t": 1493,
+      "end": 1508.8,
+      "text": "This is what I mentioned. I need to have guests and guests can be employee or can be external employee. I have some external employee. I will not point all details. So, I have employee from my employee table and I can add external employees with all these details."
+    },
+    {
+      "t": 1508.8,
+      "end": 1519.7,
+      "text": "So, once then I have all my participant, all good. I can just add dimensions because I didn't have a default and I can release."
+    },
+    {
+      "t": 1519.7,
+      "end": 1534,
+      "text": "And now what else I have per diem. This is now interesting because I have for example, you can see in GBP 575 per diem."
+    },
+    {
+      "t": 1534,
+      "end": 1547.4,
+      "text": "And how system calculate is starting date and time, ending date time. So, system recalculated what is exact amount and this is in pounds. But because this is in US dollar database, this is Cronus USA."
+    },
+    {
+      "t": 1547.4,
+      "end": 1558.2,
+      "text": "System automatically recalculated to US dollars so you will be reimbursed in US dollars and this is 371.34 based on currency system in the in the system."
+    },
+    {
+      "t": 1558.2,
+      "end": 1570.7,
+      "text": "So, we have all this information inside. What else we can do? If you have per diem, you can see we have interactive this action. It depends on"
+    },
+    {
+      "t": 1570.7,
+      "end": 1582,
+      "text": "expense category setup. So, if this is for example hotel, it will require itemization. If this is entertainment event, it will require participant. As this is per diem, it will require additional per diem information."
+    },
+    {
+      "t": 1582,
+      "end": 1592.4,
+      "text": "So, now you can see based on this starting date and time system calculated for each of day full per diem. And now I can say for this"
+    },
+    {
+      "t": 1592.4,
+      "end": 1610.1,
+      "text": "second day I had dinner so you can see reduced and for this day I had lunch. So, adding where you had a dinner lunch, system will recalculate and then you will see that different amount, reversal amount and different recalculated to US dollars."
+    },
+    {
+      "t": 1610.1,
+      "end": 1626,
+      "text": "Okay, I can say release this as well. And okay, I finished with all expenses. So, this is this is something you can work only if you are using agent and you want to open expenses from Business Central."
+    },
+    {
+      "t": 1626,
+      "end": 1639.4,
+      "text": "But if you do not use expense agent you can start with expense reports. Now I will create expense report for all these existing expenses."
+    },
+    {
+      "t": 1639.4,
+      "end": 1651.5,
+      "text": "If you are using agent, it will be done automatically but you can still do it manually. Get expense lines very similar process you have with get receipt lines when you have purchase process for example."
+    },
+    {
+      "t": 1651.5,
+      "end": 1665.9,
+      "text": "Just mark all of them and you will get all of them transfer into system. All of them recalculated. If you look show more, you will find all this information what is about and even there total amount,"
+    },
+    {
+      "t": 1665.9,
+      "end": 1677.6,
+      "text": "total reimbursable amount, some reduction and so on so on. Now, this is important. Total amount is total amount for expensing but"
+    },
+    {
+      "t": 1677.6,
+      "end": 1694.5,
+      "text": "the biggest part let's say 3,000 if I'm not wrong will be paid by credit card so you will not be reimbursed. And you can see here credit card employee paid, employee paid, credit card employee paid. So, you will be reimbursed only for amount you didn't you didn't use company card."
+    },
+    {
+      "t": 1694.5,
+      "end": 1707.4,
+      "text": "Okay, now I can release. But this is important to see that you have this rule violations. So, you cannot post because of rule violations. Why you do not get some warning like that?"
+    },
+    {
+      "t": 1707.4,
+      "end": 1718.4,
+      "text": "Because we are using same rule violations connected with a web app and other sources of access when you are working with agent. So, do you want to post?"
+    },
+    {
+      "t": 1718.4,
+      "end": 1730.1,
+      "text": "Yes, I want. Expense report is posted. I will open posted document so you can see posted document. You can find entries."
+    },
+    {
+      "t": 1730.1,
+      "end": 1741.4,
+      "text": "You can see general entry, expense ledger entry. So, you have expense ledger entry. You have employee ledger entry. So, everything good."
+    },
+    {
+      "t": 1741.4,
+      "end": 1753,
+      "text": "And now I will show you purely Business Central without agent. So if I'm Business Central user only, do not have any agent, this is how I can start."
+    },
+    {
+      "t": 1753,
+      "end": 1762.3,
+      "text": "I can start with the expense report. So, I can create one new line."
+    },
+    {
+      "t": 1764.1,
+      "end": 1772.4,
+      "text": "And I can choose currency code."
+    },
+    {
+      "t": 1772.8,
+      "end": 1783.6,
+      "text": "Amount will be for example Danish crowns, let's say 5,000 amounts. So, when you calculate it to local currency in dollars, this is 540"
+    },
+    {
+      "t": 1783.6,
+      "end": 1795.4,
+      "text": "484. Then I can use for example car. What does it mean car usage, fuel, maintenance? I have for example, $89."
+    },
+    {
+      "t": 1795.4,
+      "end": 1806.1,
+      "text": "So, I have additional hotel. Let's say this is in euro. And if this is"
+    },
+    {
+      "t": 1806.1,
+      "end": 1817.4,
+      "text": "1,000 50. Uh 1 1,250. So, in this case, you will see previous See, I didn't have itemization for other lines."
+    },
+    {
+      "t": 1817.4,
+      "end": 1831.3,
+      "text": "But for this line, it will require itemization. That means I cannot post because I You can see itemization require and itemization must uh total zero must be equal to to uh completely expense amount."
+    },
+    {
+      "t": 1831.3,
+      "end": 1842.2,
+      "text": "So, I need to itemize. I will not go into all the details, but I will just show how it works. So, I will start I will just add one line for"
+    },
+    {
+      "t": 1842.2,
+      "end": 1850.5,
+      "text": "Imagine that 1,000 one day and breakfast is extremely expensive."
+    },
+    {
+      "t": 1852.2,
+      "end": 1863.3,
+      "text": "250. So, all good. It works. So, now we do not have this uh rule violation. We can add another options."
+    },
+    {
+      "t": 1863.3,
+      "end": 1874.1,
+      "text": "Gift, so on. Uh ground transportation, meals and so calculate parking, morale event. Again, if I add morale event, I need to say, \"Okay, this is $800.\""
+    },
+    {
+      "t": 1874.1,
+      "end": 1886.5,
+      "text": "$800. But now I You can see I have dynamically added participant. So, now I need to add all my participant I had here."
+    },
+    {
+      "t": 1886.5,
+      "end": 1897.7,
+      "text": "As this is morale event, all of them are internal. So, now I do not break any violation. Okay, you can post regularly this receipt."
+    },
+    {
+      "t": 1897.7,
+      "end": 1910.7,
+      "text": "You can approve and post uh absolutely the same as the previous one. So, there is nothing new, nothing specifical. Only what is difference and this is what I wanted to explain you between agent and um non-agent scenario."
+    },
+    {
+      "t": 1910.7,
+      "end": 1921.8,
+      "text": "With agent, you can start with expenses, but even when you have created expense report, you can manually add expense report lines. But when you start with expense report and add"
+    },
+    {
+      "t": 1921.8,
+      "end": 1934.9,
+      "text": "uh lines there directly, this is only one way how you can do if you do not use agent. So, this is only one way. And after that, you can post regular regularly, you can approve, there is no any issue about it."
+    },
+    {
+      "t": 1934.9,
+      "end": 1953.1,
+      "text": "So, let's close this session. Um I would like to invite you to watch another sessions related to the expense agent expense management from introduction to expense agent, web app for uh for expense agent to web TC5 with chat with the expense agent,"
+    },
+    {
+      "t": 1953.1,
+      "end": 1968,
+      "text": "new approvals to expense agent, and this one, expense management. So, all of them together will probably give much more light how it can work. And on the end, don't forget to use some of these links to get more information,"
+    },
+    {
+      "t": 1968,
+      "end": 1982.8,
+      "text": "documentation, more communication, especially now we have BC Viva Engage enabled again. So, please use some of these links. Of course, subscribe on our LinkedIn page, go to our YouTube channel to watch DC"
+    },
+    {
+      "t": 1982.8,
+      "end": 1996.9,
+      "text": "um BC LE recording from this release or for previous release together with some other recordings. So, that will be everything for today. Thank you for watching this video."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    },
+    {
+      "t": 685.792,
+      "text": "[snorts]"
+    }
+  ],
+  "word_count": 5068
+}

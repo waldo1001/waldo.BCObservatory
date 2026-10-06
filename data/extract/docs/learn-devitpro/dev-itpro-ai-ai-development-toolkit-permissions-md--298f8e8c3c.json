@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/ai/ai-development-toolkit-permissions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-permissions",
+  "title": "Agent permissions (preview)",
+  "blob": "86b055a3bfdad2ded555739fb4a072720e675fc9",
+  "summary": "Configure agent access controls to govern what data and pages agents can access via permission sets, and define which users can edit agent configuration. Agents use permission intersection with scheduling users and can be assigned per-company permissions.",
+  "systems": [
+    "copilot",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "access controls",
+    "permission sets",
+    "agent administration",
+    "per-company permissions",
+    "agent configuration",
+    "permission intersection"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Agent Access Control"
+    },
+    {
+      "type": "other",
+      "name": "Access Control Buffer"
+    }
+  ],
+  "features": [
+    "access controls",
+    "agent access controls",
+    "permission intersection",
+    "per-company access",
+    "agent administrators",
+    "AGENT - ADMIN permission set",
+    "D365 Agent permission set",
+    "Agent Configuration Rights",
+    "extension agent creation"
+  ],
+  "versions": [
+    "version 28.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006455,
+      "pages_in_call": 5
+    }
+  ]
+}

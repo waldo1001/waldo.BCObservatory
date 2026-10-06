@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "permission set avoid wildcard grants",
+  "title": "Avoid wildcard grants in permission sets",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/permission-set-avoid-wildcard-grants.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.654Z",
+      "blob": "200fe0156eecaff578e58531fb4620e304628b56",
+      "words": 192,
+      "forms": 0
     }
   },
   "input_hash": "200fe0156eecaff578e58531fb4620e304628b56",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/security/permission-set-avoid-wildcard-grants.md"
-  }
+    "path": "microsoft/knowledge/security/permission-set-avoid-wildcard-grants.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 192
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "200fe0156eecaff578e58531fb4620e304628b56"
 }

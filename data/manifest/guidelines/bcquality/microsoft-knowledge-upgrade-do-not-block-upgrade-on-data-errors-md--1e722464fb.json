@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "do not block upgrade on data errors",
+  "title": "Log telemetry; do not raise errors that block the upgrade",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/do-not-block-upgrade-on-data-errors.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.979Z",
+      "blob": "868b61e07f621d78f554ee603b398823c85dd9ad",
+      "words": 183,
+      "forms": 0
     }
   },
   "input_hash": "868b61e07f621d78f554ee603b398823c85dd9ad",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/upgrade/do-not-block-upgrade-on-data-errors.md"
-  }
+    "path": "microsoft/knowledge/upgrade/do-not-block-upgrade-on-data-errors.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 183
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "868b61e07f621d78f554ee603b398823c85dd9ad"
 }

@@ -1,0 +1,81 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/fa-how-depreciate-amortize.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-depreciate-amortize",
+  "title": "Depreciate or amortize FA",
+  "blob": "b8acb818cabca31159a4c265411b3e5c13fa211f",
+  "summary": "Fixed assets are depreciated automatically or manually through batch jobs and journals, with allocation across departments and support for multiple depreciation books and ending book values.",
+  "systems": [
+    "finance",
+    "fixed-assets"
+  ],
+  "topics": [
+    "depreciation",
+    "amortization",
+    "fixed assets",
+    "allocation",
+    "depreciation books",
+    "indexation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Fixed Asset G/L Journal"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset Card"
+    },
+    {
+      "type": "page",
+      "name": "FA Depreciation Books"
+    },
+    {
+      "type": "page",
+      "name": "Depreciation Books"
+    },
+    {
+      "type": "page",
+      "name": "FA Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset Journal"
+    },
+    {
+      "type": "codeunit",
+      "name": "Calculate Depreciation"
+    },
+    {
+      "type": "codeunit",
+      "name": "Cancel FA Ledger Entries"
+    },
+    {
+      "type": "codeunit",
+      "name": "Index Fixed Assets"
+    },
+    {
+      "type": "codeunit",
+      "name": "Copy Depreciation Book"
+    }
+  ],
+  "features": [
+    "automatic depreciation calculation",
+    "manual depreciation posting",
+    "department allocation",
+    "duplication lists",
+    "multiple depreciation books",
+    "ending book value management",
+    "indexation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010103,
+      "pages_in_call": 4
+    }
+  ]
+}

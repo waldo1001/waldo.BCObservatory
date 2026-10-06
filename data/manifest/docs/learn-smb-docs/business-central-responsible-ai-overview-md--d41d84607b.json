@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/responsible-ai-overview",
   "published_at": "2026-10-05T08:46:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9176c6460570b380a88d88118e358ac9311579c3",
       "words": 86,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:11:10.467Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.011398
+    },
+    "summarized": {
+      "at": "2026-10-06T13:11:33.915Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:11:33.915Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:11:33.915Z",
+      "page": false
     }
   },
   "input_hash": "9176c6460570b380a88d88118e358ac9311579c3",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9176c6460570b380a88d88118e358ac9311579c3"
+  "output_hash": "95b5e39ba24981377d093c90fb8058605aaa2cb66de1626cb74e443cbce9c5d1"
 }

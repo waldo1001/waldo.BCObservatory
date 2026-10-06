@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "use testpage visible enabled to verify field ui state",
+  "title": "Verify field visibility and enabled state with TestPage.Visible()/.Enabled()",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/testing/use-testpage-visible-enabled-to-verify-field-ui-state.md",
   "published_at": "2026-09-29T10:49:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:28:30.368Z",
+      "blob": "ff6bd869dddf89305b76ed4e73be58510925fad2",
+      "words": 154,
+      "forms": 0
     }
   },
   "input_hash": "ff6bd869dddf89305b76ed4e73be58510925fad2",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/testing/use-testpage-visible-enabled-to-verify-field-ui-state.md"
-  }
+    "path": "microsoft/knowledge/testing/use-testpage-visible-enabled-to-verify-field-ui-state.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 154
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ff6bd869dddf89305b76ed4e73be58510925fad2"
 }

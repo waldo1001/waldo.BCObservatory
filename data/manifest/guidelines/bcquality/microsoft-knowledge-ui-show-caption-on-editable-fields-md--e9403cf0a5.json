@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "show caption on editable fields",
+  "title": "ShowCaption on editable fields",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/show-caption-on-editable-fields.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.926Z",
+      "blob": "604ace04c49db61a720ac0e8663b4eaad288bfed",
+      "words": 176,
+      "forms": 0
     }
   },
   "input_hash": "604ace04c49db61a720ac0e8663b4eaad288bfed",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/ui/show-caption-on-editable-fields.md"
-  }
+    "path": "microsoft/knowledge/ui/show-caption-on-editable-fields.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 176
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "604ace04c49db61a720ac0e8663b4eaad288bfed"
 }

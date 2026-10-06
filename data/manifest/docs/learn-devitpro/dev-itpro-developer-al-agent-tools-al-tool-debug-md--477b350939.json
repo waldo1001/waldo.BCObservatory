@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-debug",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8a1ffef76dd9200b9a1f36f857c2eacc4ebdf6f4",
       "words": 532,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:28:01.505Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005955
+    },
+    "summarized": {
+      "at": "2026-10-06T13:28:01.547Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:28:01.547Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:28:01.547Z",
+      "page": false
     }
   },
   "input_hash": "8a1ffef76dd9200b9a1f36f857c2eacc4ebdf6f4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8a1ffef76dd9200b9a1f36f857c2eacc4ebdf6f4"
+  "output_hash": "2ae36c3bcdc678423c2126e24e31f1dfef2eb49f8ce85268ba3f49b3f21b0d24"
 }

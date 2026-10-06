@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-get-diagnostics",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8663001b6a16c79d66284982c41880c8ff57ac88",
       "words": 577,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:28:01.506Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.017588
+    },
+    "summarized": {
+      "at": "2026-10-06T13:28:01.561Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:28:01.561Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:28:01.561Z",
+      "page": false
     }
   },
   "input_hash": "8663001b6a16c79d66284982c41880c8ff57ac88",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8663001b6a16c79d66284982c41880c8ff57ac88"
+  "output_hash": "e295dac175703f8e09b2f53905b7ba5a00aa483e41780e7c2f8348af8cd80258"
 }

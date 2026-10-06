@@ -1,0 +1,772 @@
+{
+  "video_id": "D_Lur52IrIg",
+  "item_id": "video/yt-microsoft/D_Lur52IrIg",
+  "title": "What's new in AL and Tools (2026 release wave 2)",
+  "duration_s": 2091,
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "al mcp",
+    "language server protocol",
+    "symbol search",
+    "interface design",
+    "default implementation",
+    "public resources",
+    "field type migration",
+    "big integer",
+    "object ids",
+    "extension patterns",
+    "audit fields",
+    "dirty state"
+  ],
+  "chapters": [
+    {
+      "title": "Building blocks: AL MCP and AL language server",
+      "t_start": 0,
+      "t_end": 86.8
+    },
+    {
+      "title": "Discovery phase: understanding existing code with AI agents",
+      "t_start": 86.8,
+      "t_end": 151.3
+    },
+    {
+      "title": "Environment-aware symbol search via AL MCP",
+      "t_start": 151.3,
+      "t_end": 246.6
+    },
+    {
+      "title": "Getting next available object IDs and planning changes",
+      "t_start": 246.6,
+      "t_end": 348.2
+    },
+    {
+      "title": "Using LSP to understand fee calculation flow",
+      "t_start": 348.2,
+      "t_end": 409
+    },
+    {
+      "title": "Interface default implementations for backward-compatible extension",
+      "t_start": 409,
+      "t_end": 564.3
+    },
+    {
+      "title": "Sharing resources, big integers, table extensions, and namespaces",
+      "t_start": 564.3,
+      "t_end": 649
+    },
+    {
+      "title": "Public resource folders without dependencies",
+      "t_start": 649,
+      "t_end": 803.8
+    },
+    {
+      "title": "Integer to big integer field migration and AppSource COP warnings",
+      "t_start": 803.8,
+      "t_end": 887.5
+    },
+    {
+      "title": "Extending tables with SQL-friendly indexes",
+      "t_start": 887.5,
+      "t_end": 977.7
+    },
+    {
+      "title": "Namespaced translations to prevent collisions",
+      "t_start": 977.7,
+      "t_end": 1057.5
+    },
+    {
+      "title": "Intent-making language features: tooltips and audit fields",
+      "t_start": 1057.5,
+      "t_end": 1150.3
+    },
+    {
+      "title": "System audit fields, record dirty-state detection, and data-driven testing",
+      "t_start": 1150.3,
+      "t_end": 1409.1
+    },
+    {
+      "title": "Test handlers and static call graph analysis",
+      "t_start": 1409.1,
+      "t_end": 1677.1
+    },
+    {
+      "title": "Production debugging with agents and MCP proxies",
+      "t_start": 1677.1,
+      "t_end": 2091
+    }
+  ],
+  "features": [
+    {
+      "name": "AL MCP (AL Management Control Platform)",
+      "description": "AI agents can now search the connected environment to discover which app owns each object, its version, and can spin up workspaces on demand to find available object IDs in custom ranges.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 43.4,
+      "t_end": 138.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires MCP configuration in copilot",
+        "Only searches remote environment, not workspace before connected"
+      ],
+      "tags": [
+        "ai-agents",
+        "discovery",
+        "environment-aware"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "AL language server with project awareness",
+      "description": "New project-aware language intelligence delivered over Language Server Protocol (LSP), no longer tied to Visual Studio Code, enabling code intelligence in any editor that supports LSP.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 74.2,
+      "t_end": 86.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires LSP configuration in development environment"
+      ],
+      "tags": [
+        "language-server",
+        "editor-agnostic",
+        "project-aware"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Symbol search with environment source parameter",
+      "description": "AL symbol search now accepts a new 'source' parameter that can be set to 'environment', allowing search of symbols in the connected remote server without downloading symbols or creating dependencies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 220.2,
+      "t_end": 288,
+      "is_demoed": true,
+      "caveats": [
+        "Only works with connected environment",
+        "Must have environment access"
+      ],
+      "tags": [
+        "symbol-search",
+        "environment",
+        "discovery"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Get next object ID tool in AL MCP",
+      "description": "New MCP tool that examines app.json to determine what object ID ranges are defined and available, suggesting the next free ID based on current project state.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 302.7,
+      "t_end": 328.2,
+      "is_demoed": true,
+      "caveats": [
+        "Depends on correct app.json configuration",
+        "Only suggests next available within defined ranges"
+      ],
+      "tags": [
+        "object-management",
+        "automation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Interface default implementations",
+      "description": "Interfaces can now have default method implementations, allowing extension of interfaces with new methods without breaking existing consumer implementations. New methods get RequiredPending attribute to signal future mandatory implementation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 458.1,
+      "t_end": 564.3,
+      "is_demoed": true,
+      "caveats": [
+        "RequiredPending attribute signals breaking change in future major version"
+      ],
+      "tags": [
+        "interface",
+        "backward-compatibility",
+        "extension",
+        "design-pattern"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Public resource folders",
+      "description": "Partners can now mark resource folders as public, making them accessible to other apps without a dependency on the providing app, while private resources remain internal.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 587.9,
+      "t_end": 803.8,
+      "is_demoed": true,
+      "caveats": [
+        "Attempting to access private resources by app ID returns error",
+        "Breaking if provider stops shipping resource",
+        "Consuming apps must handle errors for missing resources"
+      ],
+      "tags": [
+        "resources",
+        "public-api",
+        "cross-app",
+        "sharing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Big integer field type migration",
+      "description": "Fields can be changed from integer to big integer type to handle sequences that exceed 32-bit integer limits. Requires careful migration with explicit conversion handling and attention to type conversions and potential overflow in dependent code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 820.2,
+      "t_end": 919.7,
+      "is_demoed": true,
+      "caveats": [
+        "Implicit conversion warnings when big integer values are assigned to integer fields",
+        "Risk of runtime overflow if dependent apps have not migrated their types",
+        "AppSource COP comparison against previous version shows compatibility breaks",
+        "AppSource COP reports implicit conversions as warnings",
+        "Integer overflow possible at runtime in dependent code",
+        "Requires careful review of all usages of the field"
+      ],
+      "tags": [
+        "field-types",
+        "migration",
+        "data-size",
+        "big integer",
+        "ledger",
+        "overflow"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Table extension key improvements",
+      "description": "Table extensions can now be merged into base tables at compile time, allowing keys to span both base and extension fields in a single key.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 606.8,
+      "t_end": 636.2,
+      "is_demoed": false,
+      "caveats": [
+        "Fundamental change in how table extensions compile"
+      ],
+      "tags": [
+        "table-extensions",
+        "keys",
+        "data-structure"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Namespace support in translation IDs",
+      "description": "Translation files now support fully qualified namespace-based keys instead of hash-based keys derived from object names, eliminating collision risks when multiple objects share the same name in different namespaces.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 636.2,
+      "t_end": 1057.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires XL-file regeneration when namespacing existing objects"
+      ],
+      "tags": [
+        "translation",
+        "localization",
+        "namespaces",
+        "collision",
+        "xliff"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Mixed extension and base field SQL indexes",
+      "description": "Ability to create SQL indexes that combine base table fields with extension fields for improved query performance when filtering or sorting by extension columns alongside base fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 939.2,
+      "t_end": 977.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires explicit SQL configuration during extension development"
+      ],
+      "tags": [
+        "extension",
+        "index",
+        "performance",
+        "sql"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Action tooltip inheritance from page",
+      "description": "Actions can now inherit their tooltip from the page's ToolTip property instead of requiring a separate ToolTipML field, reducing duplication and simplifying maintenance across multiple actions using the same page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1072.1,
+      "t_end": 1150.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "action",
+        "tooltip",
+        "page",
+        "ui"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Audit name fields as system fields",
+      "description": "Created By, Created By Full Name, Modified By, and Modified By Full Name are now available as customizable system fields on records, alongside the existing grwits fields, providing readable audit identity without custom implementations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1150.3,
+      "t_end": 1202.7,
+      "is_demoed": true,
+      "caveats": [
+        "Previously only rendered in the client; now customizable"
+      ],
+      "tags": [
+        "audit",
+        "system field",
+        "created by",
+        "modified by"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Record.IsDirty() method",
+      "description": "New method on record and record ref types to test whether a record has unsaved changes, replacing manual field-by-field comparison and enabling conditional save logic.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1202.7,
+      "t_end": 1232.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "record",
+        "dirty",
+        "unsaved",
+        "validation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Data-driven testing framework",
+      "description": "New test source pattern allowing a single test method to iterate over reusable data rows covering multiple scenarios (overdue, not overdue, rounding, etc.) without code duplication, returning structured JSON with pass/fail/skip counts and proper exit codes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1232.6,
+      "t_end": 1392.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires test data source enum and test case initialization"
+      ],
+      "tags": [
+        "test",
+        "data-driven",
+        "scenario",
+        "json"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test handler interface for lifecycle hooks",
+      "description": "Test handler enum pattern providing hooks at test codeunit and individual test procedure level: OnBeforeTestCodeunitRun, OnAfterTestCodeunitRun, OnBeforeTestProcedureRun, OnAfterTestProcedureRun, OnBeforeTestCaseRun, OnAfterTestCaseRun, with default implementations and per-codeunit overrides.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1409.1,
+      "t_end": 1547.4,
+      "is_demoed": true,
+      "caveats": [
+        "Supports both codeunit-specific and global default test handler implementations"
+      ],
+      "tags": [
+        "test handler",
+        "lifecycle",
+        "hook",
+        "framework"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Static call graph analysis",
+      "description": "New agentic tool in AL.NET that performs offline static analysis to extract and query call chains across an extension and its dependencies, identifying all callers of a method and public entry points that should be reviewed when internal code changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1547.4,
+      "t_end": 1677.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires advance extraction step that compiles specified apps and builds dependency tree",
+        "Complementary to LSP which analyzes live project state; this tool works offline on extracted data",
+        "Output can be compared between versions to detect new or removed callers",
+        "Requires offline extraction of information beforehand",
+        "Can be cumbersome to set up initially"
+      ],
+      "tags": [
+        "call graph",
+        "static analysis",
+        "al.net tool",
+        "dependencies",
+        "extension",
+        "query"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Agent-assisted production investigation",
+      "description": "Coding agents can now capture performance profiles and snapshot recordings themselves through dedicated MCP tools without requiring an active debugging session, helping to investigate issues that only appear in specific customer environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1827.7,
+      "t_end": 1875.1,
+      "is_demoed": false,
+      "caveats": [
+        "Developer must judge the evidence and determine meaning",
+        "Requires agent framework to use"
+      ],
+      "tags": [
+        "agents",
+        "profiling",
+        "snapshot",
+        "production",
+        "mcp"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Launch profiling MCP proxy",
+      "description": "New MCP proxy command in the al.net tool that allows agents to start and monitor profiling with parameters like environment, speed, and monitoring capabilities, automating the profiling workflow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1875.1,
+      "t_end": 1964.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires agent framework to invoke",
+        "Developer must evaluate results"
+      ],
+      "tags": [
+        "profiling",
+        "mcp",
+        "agents",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Launch snapshot MCP proxy",
+      "description": "MCP proxy tool that enables agents to capture snapshot recordings on a specific environment and tenant, allowing agents to gather information about user interactions and identify bottlenecks or errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1964.9,
+      "t_end": 2070.9,
+      "is_demoed": true,
+      "caveats": [
+        "Fewer parameters than profiling tool",
+        "Server-side operation only"
+      ],
+      "tags": [
+        "snapshot",
+        "mcp",
+        "agents",
+        "debugging",
+        "environment"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Isolated storage explicit read isolation level",
+      "description": "Read isolation is now an explicit option when reading from isolated storage, allowing developers to specify read committed with an update lock isolation level rather than leaving it implied.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1072.1,
+      "t_end": 1111.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "isolated storage",
+        "read isolation",
+        "transaction"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "interface",
+      "name": "Calculate Fee",
+      "t": 469
+    },
+    {
+      "type": "table",
+      "name": "Customer Ledger Entry",
+      "t": 220.2
+    },
+    {
+      "type": "other",
+      "name": "late fee entries",
+      "t": 1162.9
+    },
+    {
+      "type": "other",
+      "name": "fee sequence",
+      "t": 950.4
+    },
+    {
+      "type": "enum",
+      "name": "test handler",
+      "t": 1441
+    },
+    {
+      "type": "other",
+      "name": "late fee logger",
+      "t": 1429.1
+    },
+    {
+      "type": "codeunit",
+      "name": "Late Fee Management Apply Fee",
+      "t": 1709.8
+    },
+    {
+      "type": "page",
+      "name": "Late Fee Entries",
+      "t": 1731.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Peter",
+      "confidence": "high"
+    },
+    {
+      "name": "Stefan",
+      "confidence": "high"
+    },
+    {
+      "name": "Stephan",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 43.4,
+      "text": "We have the ALMCP that we launched uh in the last release and that gives AI agents real tools to work with your AL",
+      "why_it_matters": "Establishes that AL MCP is a recent launch enabling AI/agent automation on AL codebases.",
+      "check": "exact"
+    },
+    {
+      "t": 122.6,
+      "text": "In this wave, an agent can search the connected environment and get back not just the object but the app that owns it uh",
+      "why_it_matters": "Shows concrete improvement: agents now get dependency metadata to avoid wrong duplicate IDs and integration mistakes.",
+      "check": "exact"
+    },
+    {
+      "t": 276.1,
+      "text": "It's called source. And here you can now choose environment.",
+      "why_it_matters": "Documents the new symbol search capability that shifts from local to remote environment searching.",
+      "check": "exact"
+    },
+    {
+      "t": 469,
+      "text": "Um, we also now have something new in this release which is the default implementation of this interface.",
+      "why_it_matters": "Key design feature enabling backward-compatible interface evolution without breaking downstream consumers.",
+      "check": "exact"
+    },
+    {
+      "t": 479.8,
+      "text": "So now you don't have to implement a method in an interface if there is a default implementation. This is critical for allowing you",
+      "why_it_matters": "Explains why default implementations solve the versioning problem partners face when extending interfaces.",
+      "check": "exact"
+    },
+    {
+      "t": 665.6,
+      "text": "But now we have the ability to specify the public resource folders. This means that resources in these folders are available to anyone outside",
+      "why_it_matters": "Public resources enable content sharing across app boundaries, reducing code duplication in partner ecosystems.",
+      "check": "exact"
+    },
+    {
+      "t": 833.4,
+      "text": "So we made it possible for you to switch to big integer by changing the type.",
+      "why_it_matters": "Addresses a real production pain point where sequence numbers exceed 32-bit integer limits.",
+      "check": "exact"
+    },
+    {
+      "t": 833.4,
+      "text": "we made it possible for you to switch to big integer by changing the type",
+      "why_it_matters": "Establishes that big integer support is GA and solves the ledger entry overflow problem for large customers.",
+      "check": "exact"
+    },
+    {
+      "t": 901.1,
+      "text": "to a big integer and we have to be mindful that this will or can cause overflow at runtime",
+      "why_it_matters": "Highlights the migration risk: dependent apps must also upgrade their types to avoid runtime overflow.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 950.4,
+      "text": "we can now mix our base uh field with our extension field and get a nice index that is uh very useful",
+      "why_it_matters": "Documents new SQL indexing capability that improves query performance for extensions without parallel implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 1025.8,
+      "text": "Now we've also added namespaces to our translations",
+      "why_it_matters": "Confirms that namespaced translation keys are now available, solving collision issues in multi-namespace scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 1256,
+      "text": "we're actually adding datadriven tests so that one test method can run many scenarios",
+      "why_it_matters": "Defines the data-driven testing pattern that eliminates test duplication and enables command-line execution with structured exit codes.",
+      "check": "exact"
+    },
+    {
+      "t": 1461.3,
+      "text": "There are several things that you can do in the test handler. If we go and look at the interface, we can see on",
+      "why_it_matters": "Enumerates the lifecycle hooks available in the test handler interface for test setup and reporting.",
+      "check": "exact"
+    },
+    {
+      "t": 1573.1,
+      "text": "we have added a static call graph analysis. And that means that our tool will build a graph across the extension and its dependencies",
+      "why_it_matters": "Introduces the static call graph tool for identifying all public entry points when internal methods change, enabling safer refactoring.",
+      "check": "exact"
+    },
+    {
+      "t": 1573.1,
+      "text": "If we change this internal fee calculation, who can call it and which public entry points should we review?",
+      "why_it_matters": "Introduces the core problem that static call graph analysis solves - understanding dependencies and exposure points.",
+      "check": "exact"
+    },
+    {
+      "t": 1587,
+      "text": "Our tool will build a graph across the extension and its dependencies. And then you or your coding agent can query this.",
+      "why_it_matters": "States that both humans and agents can use the graph tool, emphasizing agentic capability as a design goal.",
+      "check": "exact"
+    },
+    {
+      "t": 1654.6,
+      "text": "Counter to the LSP which is actually looking at the project as it is now. This is a static thing that we can do",
+      "why_it_matters": "Explains the key difference between static call graph analysis and language service protocol - offline vs. real-time.",
+      "check": "exact"
+    },
+    {
+      "t": 1752.7,
+      "text": "This is important because we have methods in our code that we want to protect that we want to somehow understand what the call",
+      "why_it_matters": "Clarifies the business value - method protection, secret handling, and ensuring complete coverage in testing.",
+      "check": "exact"
+    },
+    {
+      "t": 1848.2,
+      "text": "coding agents can now capture the performance profiles and the snapshot recordings themselves through dedicated mcp",
+      "why_it_matters": "Announces a major shift toward autonomous agent-driven diagnostics in production without manual debugging setup.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1889.1,
+      "text": "Our focus has been on the agentic experience, right? Having agents do this work for us and come up with suggestions on how to",
+      "why_it_matters": "Restates the release's strategic focus on making agents more capable at development and debugging tasks.",
+      "check": "exact"
+    },
+    {
+      "t": 2007.1,
+      "text": "why are these called proxies this is because the actual work all happens on the server there's no snapshot or",
+      "why_it_matters": "Clarifies the architecture - proxies are client interfaces to server-side operations, not local profiling.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2049.6,
+      "text": "we started with an app we wanted to extend another list of tools we found",
+      "why_it_matters": "Summarizes the full development lifecycle covered in the session - extension, tools, context, migration, testing, and support.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 1587,
+      "kind": "coming-later",
+      "text": "we're going to have a full session on this. And we'll add the link in the description."
+    },
+    {
+      "t": 1771.8,
+      "kind": "coming-later",
+      "text": "Take a look at the video that Peter mentioned because there's a lot more to this graph tool than I can cover here."
+    },
+    {
+      "t": 1875.1,
+      "kind": "coming-later",
+      "text": "we will have a recorded session on this to go through details in the capabilities and again we will link this in the description"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 22,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 20
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0167264
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0187388
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015437699999999999
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.043639
+    }
+  ]
+}

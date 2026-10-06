@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-using-code-analysis-tool",
   "published_at": "2026-10-01T12:54:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f5cdfdd8842c90fb752054ce8b3c695da8eae3fd",
       "words": 640,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:34:46.167Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007447
+    },
+    "summarized": {
+      "at": "2026-10-06T13:34:46.195Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:34:46.195Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:34:46.195Z",
+      "page": false
     }
   },
   "input_hash": "f5cdfdd8842c90fb752054ce8b3c695da8eae3fd",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f5cdfdd8842c90fb752054ce8b3c695da8eae3fd"
+  "output_hash": "10a9e94df6d329c6e767969db2ec1749607fc495ebf02d85e2c8d4cdbfd60c1d"
 }

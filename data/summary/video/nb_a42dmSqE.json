@@ -1,0 +1,27 @@
+{
+  "video_id": "nb_a42dmSqE",
+  "item_id": "video/yt-microsoft/nb_a42dmSqE",
+  "summary": "Migrating Italian subcontracting to the new global subcontracting app in Business Central (2026 release wave 2): pre-checks for open work in progress documents, installing the migration app, running the migration, and what changes afterwards. Covers what gets migrated and how application areas and pages change.",
+  "overview": "The video explains that the legacy Italian subcontracting functionality is being discontinued and replaced by a subcontracting app available globally and in Italy. The new app includes the features available in Italy and more, but handles work in progress items differently, so open documents must be prepared before migrating.\n\nIt walks through finding the legacy subcontracting toggle, running the pre-check, fixing open transfer and purchase orders, installing the Italian subcontracting migration app, and running the migration. It then shows what changes afterwards: the application area switches, legacy pages are removed, and subcontracting documents are found through views on standard lists.",
+  "key_points": [
+    "Work in progress handling is the main difference between legacy and new subcontracting. Open transfer orders and purchase orders containing work in progress items must be posted, deleted or cancelled before migration.",
+    "The pre-check looks for open transfer orders and purchase orders with work in progress items. It can be skipped, but it runs anyway during migration.",
+    "The Italian subcontracting migration app is not on AppSource. It can only be installed from the tenant itself.",
+    "Migration was initially blocked in production so Microsoft could collect feedback.",
+    "Migrated data: vendors, purchase headers and lines, transfers, components, routing, and subcontracting prices. Vendor fields such as the subcontractor indicator and subcontracting location code move to new tables.",
+    "Turning off legacy subcontracting switches the application area to the new subcontracting and hides legacy fields. The toggle is guarded: it cannot be activated without migration if legacy data exists.",
+    "After migration the dedicated legacy pages are removed. Subcontracting purchase and transfer orders are found through views on the standard lists."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer"
+  ],
+  "extraction_hash": "500ecf80ee336dd089bdf7eb863ad08c9af835a22342b437e0686ecc40f9097e",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.044608400000000006
+  }
+}

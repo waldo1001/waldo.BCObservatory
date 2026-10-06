@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "group labeled first child exception",
+  "title": "Group-labeled first child exception",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/ui/group-labeled-first-child-exception.md",
   "published_at": "2026-09-09T15:31:03.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:45.885Z",
+      "blob": "1acdb3656818c410748679fe3f8aa92cd4b264f0",
+      "words": 163,
+      "forms": 0
     }
   },
   "input_hash": "1acdb3656818c410748679fe3f8aa92cd4b264f0",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/ui/group-labeled-first-child-exception.md"
-  }
+    "path": "microsoft/knowledge/ui/group-labeled-first-child-exception.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 163
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1acdb3656818c410748679fe3f8aa92cd4b264f0"
 }

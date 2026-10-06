@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-build",
   "published_at": "2026-10-05T08:45:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e6af4db3145a1d088865b8f8a9a15403d84ffc71",
       "words": 497,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T13:28:01.505Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005955
+    },
+    "summarized": {
+      "at": "2026-10-06T13:28:01.533Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T13:28:01.534Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T13:28:01.534Z",
+      "page": false
     }
   },
   "input_hash": "e6af4db3145a1d088865b8f8a9a15403d84ffc71",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e6af4db3145a1d088865b8f8a9a15403d84ffc71"
+  "output_hash": "3634a4c7a1874725c8fcc0b88e2ec7dbfba31fb1531cf609d5fd94751e068666"
 }

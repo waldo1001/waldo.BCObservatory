@@ -3,14 +3,20 @@
   "pillar": "guidelines",
   "source": "bcquality",
   "tier": "official",
-  "title": "unreleased schema change needs no upgrade path",
+  "title": "Unreleased schema changes need no upgrade or migration path",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/upgrade/unreleased-schema-change-needs-no-upgrade-path.md",
   "published_at": "2026-07-17T12:17:04.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T13:37:46.187Z",
+      "blob": "248943fe9a981500b125229b0925ef5f6325438c",
+      "words": 207,
+      "forms": 0
     }
   },
   "input_hash": "248943fe9a981500b125229b0925ef5f6325438c",
@@ -18,6 +24,16 @@
   "flags": [],
   "meta": {
     "repo": "microsoft/BCQuality",
-    "path": "microsoft/knowledge/upgrade/unreleased-schema-change-needs-no-upgrade-path.md"
-  }
+    "path": "microsoft/knowledge/upgrade/unreleased-schema-change-needs-no-upgrade-path.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 207
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "248943fe9a981500b125229b0925ef5f6325438c"
 }
