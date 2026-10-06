@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-differences",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "77dcf6c8550b3ae0827c5465e313e1b2d69d5a17",
       "words": 663,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:20.383Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003232
+    },
+    "summarized": {
+      "at": "2026-10-06T19:19:20.392Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:19:20.393Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:19:20.394Z",
+      "page": false
     }
   },
   "input_hash": "77dcf6c8550b3ae0827c5465e313e1b2d69d5a17",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "77dcf6c8550b3ae0827c5465e313e1b2d69d5a17"
+  "output_hash": "e46adf4b973d486ee3d3ad6d184737020a859ae5132973d894ddf158b64891ef"
 }

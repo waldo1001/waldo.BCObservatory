@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-events-in-al.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al",
+  "title": "Events in Microsoft Dynamics 365 Business Central",
+  "blob": "b6bf377a0893216190892d31972a46b4a4a3b872",
+  "summary": "Events in AL enable customized functionality to react to specific actions or behaviors without modifying original application code, supporting business events, integration events, internal events, global events, and trigger events for application extensibility.",
+  "systems": [
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "events",
+    "extensions",
+    "publishers",
+    "subscribers",
+    "business logic",
+    "integration"
+  ],
+  "objects": [],
+  "features": [
+    "BusinessEvent attribute",
+    "IntegrationEvent attribute",
+    "InternalEvent attribute",
+    "Global events",
+    "Trigger events",
+    "Event publishers",
+    "Event subscribers",
+    "External business events"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003232,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-essential-al-methods",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6d33b2242c4ebc312e6a38816531f5b0f6d2378b",
       "words": 147,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:20.384Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003232
+    },
+    "summarized": {
+      "at": "2026-10-06T19:19:20.397Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:19:20.398Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:19:20.399Z",
+      "page": false
     }
   },
   "input_hash": "6d33b2242c4ebc312e6a38816531f5b0f6d2378b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6d33b2242c4ebc312e6a38816531f5b0f6d2378b"
+  "output_hash": "5a38633faa9cf1603b002ed5fc0eaa859064cc534e45f984ab8296abed96e1d0"
 }

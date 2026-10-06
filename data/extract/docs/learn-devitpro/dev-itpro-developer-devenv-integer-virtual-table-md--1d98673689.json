@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-integer-virtual-table.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-integer-virtual-table",
+  "title": "Integer virtual table",
+  "blob": "010d0dfbe714f57850df5ffad43faaeb1b66bd6f",
+  "summary": "The Integer virtual table (ID 2000000026) contains integers in the range -1,000,000,000 to 1,000,000,000 and can be filtered to obtain subsets of numbers for controlling loops in reports.",
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "virtual tables",
+    "integer ranges",
+    "looping",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Integer"
+    }
+  ],
+  "features": [
+    "Integer field",
+    "Range filtering",
+    "Loop control"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003232,
+      "pages_in_call": 8
+    }
+  ]
+}

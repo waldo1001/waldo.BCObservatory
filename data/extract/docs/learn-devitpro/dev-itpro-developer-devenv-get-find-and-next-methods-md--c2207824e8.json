@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-get-find-and-next-methods.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-get-find-and-next-methods",
+  "title": "Get, Find, and Next methods",
+  "blob": "186796f66af1fa18c40061250f5d95a40d0836e4",
+  "summary": "Reference for Get, Find, GetBySystemId, and Next methods used to search and retrieve records in AL, including syntax, usage patterns, and differences between methods for key-based and filter-based record retrieval.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "record retrieval",
+    "search methods",
+    "al methods",
+    "filtering"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    }
+  ],
+  "features": [
+    "Get method",
+    "Find method",
+    "FindFirst method",
+    "FindLast method",
+    "GetBySystemId method",
+    "Next method",
+    "Partial records",
+    "Primary key search"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003232,
+      "pages_in_call": 8
+    }
+  ]
+}

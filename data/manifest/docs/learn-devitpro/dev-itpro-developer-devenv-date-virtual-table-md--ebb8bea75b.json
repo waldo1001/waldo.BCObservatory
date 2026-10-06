@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-date-virtual-table",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e3b0ab1da8e878ae76d8ca0225f0a90a903e0793",
       "words": 189,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:20.382Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003232
+    },
+    "summarized": {
+      "at": "2026-10-06T19:19:20.389Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:19:20.390Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:19:20.391Z",
+      "page": false
     }
   },
   "input_hash": "e3b0ab1da8e878ae76d8ca0225f0a90a903e0793",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e3b0ab1da8e878ae76d8ca0225f0a90a903e0793"
+  "output_hash": "48c500610ac603efc870a9ac408a190e876a2fb70959d57d1836d51ff595ceb4"
 }

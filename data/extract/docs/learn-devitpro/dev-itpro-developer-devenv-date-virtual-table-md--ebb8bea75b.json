@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-date-virtual-table.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-date-virtual-table",
+  "title": "Date virtual table",
+  "blob": "e3b0ab1da8e878ae76d8ca0225f0a90a903e0793",
+  "summary": "The Date virtual table (ID 2000000007) provides easy access to days, weeks, months, quarters, and years with fields for period type, start date, end date, period number, and period name. Use it to filter and obtain date ranges for pages and reports.",
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "virtual tables",
+    "date filtering",
+    "period ranges",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Date"
+    }
+  ],
+  "features": [
+    "Period Type field",
+    "Period Start field",
+    "Period End field",
+    "Period No. field",
+    "Period Name field",
+    "Date filtering",
+    "Closing dates"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003232,
+      "pages_in_call": 8
+    }
+  ]
+}

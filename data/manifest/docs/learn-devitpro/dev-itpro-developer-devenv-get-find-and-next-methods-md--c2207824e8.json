@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-get-find-and-next-methods",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "186796f66af1fa18c40061250f5d95a40d0836e4",
       "words": 601,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:20.386Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003232
+    },
+    "summarized": {
+      "at": "2026-10-06T19:19:20.404Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:19:20.405Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:19:20.405Z",
+      "page": false
     }
   },
   "input_hash": "186796f66af1fa18c40061250f5d95a40d0836e4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "186796f66af1fa18c40061250f5d95a40d0836e4"
+  "output_hash": "04e06d2dafc836886ada2a0940d0f19043da3aaa01763d340442452046a734ab"
 }

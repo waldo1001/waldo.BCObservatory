@@ -1,0 +1,26 @@
+{
+  "video_id": "ItuCEHpaI1E",
+  "item_id": "video/yt-microsoft/ItuCEHpaI1E",
+  "summary": "Auto-applying configuration templates in the Business Central integration with Dataverse (2024 release wave 2): rule-based filters and evaluation priorities set in integration table mappings choose which template applies to synchronized records, in both directions. Includes a demo creating a customer from Dataverse.",
+  "overview": "The video explains how, in 2024 release wave 2, configuration templates can be applied conditionally to data synchronized between Dataverse and Business Central. Instead of extending the integration solution, you configure the rules in the integration table mappings.\n\nA drill-down from the integration table mapping opens new Configuration Template Setup pages. There you define filters a record must meet for a template to apply, and a priority that sets the evaluation order. The demo creates a customer from Dataverse and checks which template was applied, using a default template tied to a country code value. The video also covers that the feature works in both directions.",
+  "key_points": [
+    "Templates are applied conditionally to data synchronized between Dataverse and Business Central, based on rules, without extending integration solutions.",
+    "Setup is done in the Integration Table Mappings, by drilling down to the Configuration Template Setup page.",
+    "Filters define the conditions a record must satisfy for a template to be applied, for example a country code value.",
+    "A priority field sets the order in which template filters are evaluated when a new record is created; the conditions are checked one by one.",
+    "Both table configuration templates and integration table configuration templates are supported.",
+    "Integration table configuration templates apply when a Business Central record is created in Dataverse, so the feature works bidirectionally."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer"
+  ],
+  "extraction_hash": "67318f70b5b0ab00feb355fe8ef9c15051f5c889f82f20b3b6a059077cfb7d2f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0123044
+  }
+}

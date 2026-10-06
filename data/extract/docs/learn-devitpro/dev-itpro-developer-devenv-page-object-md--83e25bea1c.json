@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-page-object.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object",
+  "title": "Page object",
+  "blob": "b603cc6de5d5ae0c52a14e1b9156ce062d8334be",
+  "summary": "Page objects are the primary user-facing elements in Business Central, displaying and organizing visual data across devices. Pages consist of metadata, layout sections for visual parts, and actions, and can be extended or customized through extension objects.",
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "page objects",
+    "page types",
+    "layout",
+    "actions",
+    "extensions",
+    "ui design"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "SimpleCustomerCard"
+    }
+  ],
+  "features": [
+    "Page types",
+    "SourceTable property",
+    "Layout sections",
+    "Actions",
+    "Views",
+    "Field tooltips",
+    "Page extensions",
+    "Page customization",
+    "Extensible property"
+  ],
+  "versions": [
+    "2024 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003232,
+      "pages_in_call": 8
+    }
+  ]
+}

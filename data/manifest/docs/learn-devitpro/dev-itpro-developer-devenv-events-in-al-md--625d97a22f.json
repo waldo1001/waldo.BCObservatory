@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b6bf377a0893216190892d31972a46b4a4a3b872",
       "words": 816,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:19:20.385Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003232
+    },
+    "summarized": {
+      "at": "2026-10-06T19:19:20.401Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:19:20.402Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:19:20.403Z",
+      "page": false
     }
   },
   "input_hash": "b6bf377a0893216190892d31972a46b4a4a3b872",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b6bf377a0893216190892d31972a46b4a4a3b872"
+  "output_hash": "81345421fbb89d0849e5d1a150a1b0aa793b3d707c185071ce7048833141408d"
 }
