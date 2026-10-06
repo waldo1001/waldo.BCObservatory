@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz",
   "published_at": "2026-03-30T15:10:54.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bc3de8437b556262d87211f19dd182695b5affc2",
       "words": 242,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:24.748Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003389
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:25.594Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:25.594Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:25.595Z",
+      "page": false
     }
   },
   "input_hash": "bc3de8437b556262d87211f19dd182695b5affc2",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bc3de8437b556262d87211f19dd182695b5affc2"
+  "output_hash": "7d11cd6146769982d1458b11af48caa85114f5992a34e02b5e163fa93fe42c18"
 }

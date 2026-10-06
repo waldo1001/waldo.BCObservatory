@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-inventory",
   "published_at": "2026-04-01T11:11:54.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ab593add5d9e7c851a5644fa5852058fe29621f2",
       "words": 1618,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:32.571Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.01479
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:34.347Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:34.348Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:34.349Z",
+      "page": false
     }
   },
   "input_hash": "ab593add5d9e7c851a5644fa5852058fe29621f2",
@@ -66,5 +85,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ab593add5d9e7c851a5644fa5852058fe29621f2"
+  "output_hash": "f637595599de132b0b2eb44c06ebfacbfff3d4a01d44913fb23d982bda9b9e38"
 }

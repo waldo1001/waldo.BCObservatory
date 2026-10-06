@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/ui-work-general-journals",
   "published_at": "2026-04-07T13:01:43.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "91c51394bf717b708be869a26ea373ca24fbce2b",
       "words": 3294,
       "forms": 39
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:32.569Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.007865
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:34.338Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:34.339Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:34.340Z",
+      "page": false
     }
   },
   "input_hash": "91c51394bf717b708be869a26ea373ca24fbce2b",
@@ -237,5 +256,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "91c51394bf717b708be869a26ea373ca24fbce2b"
+  "output_hash": "dbcf8cfc9458b0ca99c82336a51e73bdb07d46602cd0c6135446d3d2dbe7882c"
 }

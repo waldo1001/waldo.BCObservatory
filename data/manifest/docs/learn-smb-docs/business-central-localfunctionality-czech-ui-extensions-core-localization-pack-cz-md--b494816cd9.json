@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz",
   "published_at": "2026-03-30T15:10:54.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ee88e093a68bbc930f899ce01842985cbbc99346",
       "words": 276,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:24.749Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003389
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:25.596Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:25.597Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:25.598Z",
+      "page": false
     }
   },
   "input_hash": "ee88e093a68bbc930f899ce01842985cbbc99346",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ee88e093a68bbc930f899ce01842985cbbc99346"
+  "output_hash": "bf03b8caca41a055fdbd6a523b3a6b5a98efb5bbfe1d3932c66071a9be1f455a"
 }

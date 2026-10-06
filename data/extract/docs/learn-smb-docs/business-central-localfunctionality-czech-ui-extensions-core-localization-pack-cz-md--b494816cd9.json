@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz",
+  "title": "Core localization pack for Czech",
+  "blob": "ee88e093a68bbc930f899ce01842985cbbc99346",
+  "summary": "Core localization pack for Czech extension adds compliance features for Czech accounting and tax legislation including corrections posting, VAT handling, multi-circuit accounting, and inventory management.",
+  "systems": [
+    "localization",
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "czech",
+    "localization",
+    "compliance",
+    "vat",
+    "accounting"
+  ],
+  "objects": [],
+  "features": [
+    "Corrections Posting",
+    "Statutory Company Information",
+    "Internal Financial Documents",
+    "Financial Report Feature",
+    "VAT Date",
+    "VAT Statement",
+    "Exchange Rate Adjustment",
+    "Inventory G/L Reconciliation",
+    "Physical Inventory",
+    "Extended User Control"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003389,
+      "pages_in_call": 8
+    }
+  ]
+}

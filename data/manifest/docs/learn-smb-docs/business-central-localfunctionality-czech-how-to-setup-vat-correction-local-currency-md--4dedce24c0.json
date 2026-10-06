@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency",
   "published_at": "2026-03-30T15:10:54.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e0dc059ad2cb187c9d93c69a8a06e91c223d5b37",
       "words": 252,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:24.746Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003389
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:25.587Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:25.588Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:25.589Z",
+      "page": false
     }
   },
   "input_hash": "e0dc059ad2cb187c9d93c69a8a06e91c223d5b37",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e0dc059ad2cb187c9d93c69a8a06e91c223d5b37"
+  "output_hash": "75b55dec23e2dde813e079842b8669f0cd2069da2a1f8ac98cdba3c65dcd02be"
 }

@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-setup-vat-date.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-vat-date",
+  "title": "Czech local functionality - Setup VAT date",
+  "blob": "4bd85bbf951d27e915b19c8eb6226b14da79155e",
+  "summary": "VAT date feature in Czech version separates VAT date from posting date for VAT reporting, supports VAT periods distinct from accounting periods, and allows changing original document VAT dates on posted entries.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "czech",
+    "vat",
+    "localization",
+    "posting",
+    "compliance"
+  ],
+  "objects": [],
+  "features": [
+    "VAT date configuration",
+    "VAT period management",
+    "VAT posting date range control",
+    "Original VAT date modification",
+    "VAT settlement filtering",
+    "VAT entry updates"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003389,
+      "pages_in_call": 8
+    }
+  ]
+}

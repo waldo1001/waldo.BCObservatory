@@ -1,0 +1,211 @@
+{
+  "video_id": "RdYLc7ebNJ8",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.2,
+      "end": 19.1,
+      "text": "Welcome to the 2025 release wave 1. What's new in financial reporting? This part is for users of reports. We're going to talk about four things that you get."
+    },
+    {
+      "t": 19.1,
+      "end": 30.2,
+      "text": "Uh slimmer user interface, accounting format for negative numbers, portrait mode for PDF, and finally uh Excel layouts. So let's dive into it."
+    },
+    {
+      "t": 30.2,
+      "end": 45.4,
+      "text": "In Business Central, you get to financial reporting from your RO center in many ways. I just use the financial reporting link here. And uh you notice a few things on this page compared to previous editions."
+    },
+    {
+      "t": 45.4,
+      "end": 58.1,
+      "text": "First is there's now an internal description. You can see here the income statement has uh an internal description. This is the thing we use for audit purposes. And the prior uh version had a description here."
+    },
+    {
+      "t": 58.1,
+      "end": 74.6,
+      "text": "This is now called display title because the display title is the one used when viewing the report and when exporting to PDF. Let's dive into the income statement here and just go to the view mode of the report."
+    },
+    {
+      "t": 74.6,
+      "end": 87.4,
+      "text": "The first thing you notice is that um this title is now a little bit slimmer or better. Um it has the the display title of the report that was before shown here."
+    },
+    {
+      "t": 87.4,
+      "end": 100.2,
+      "text": "So that gives a little bit more space on your screen. If I hide all the options, um you note that there is an introductory and a closing paragraph shown here."
+    },
+    {
+      "t": 100.2,
+      "end": 116,
+      "text": "This is the report author that has put in a text like this is a preliminary edition of the statement. And uh for closing paragraph, it's something about the Joe's honest auditing is is uh auditing this."
+    },
+    {
+      "t": 116,
+      "end": 134.3,
+      "text": "So that's something new uh but not something you really set as a user. It's just the report author who defines this. If you want to have this even more slim, you can use personalization to hide the row number because this is just coming from the row definition and maybe we don't really care about that."
+    },
+    {
+      "t": 134.3,
+      "end": 145.5,
+      "text": "So this is I think as slim as we can get to the report when you are in view mode. Now the agenda mentioned something about account for accounting formats for negative numbers."
+    },
+    {
+      "t": 145.5,
+      "end": 162.7,
+      "text": "So here we just use a minus sign. But if you show all options, you can see a new option here, negative amount format. If I choose instead of minus sign parenthesis, you can see that this is then showing minus negative numbers using that notation."
+    },
+    {
+      "t": 162.7,
+      "end": 173.6,
+      "text": "And this is not only when you view the report. If we choose export to Excel or print and print it to um PDF, let's just uh preview the report here."
+    },
+    {
+      "t": 173.6,
+      "end": 187.9,
+      "text": "You notice that that accounting format is being set right there. So you can see the the parentheses here and also you can see this intro and closing paragraphs on the page."
+    },
+    {
+      "t": 187.9,
+      "end": 199.8,
+      "text": "This um PDF is in portrait sorry in landscape mode. It's been like that forever in in this feature. As a new thing, we also added portrait"
+    },
+    {
+      "t": 199.8,
+      "end": 209.8,
+      "text": "um mode. If your report is more geared towards that towards that, you can get your report uh showing up like that."
+    },
+    {
+      "t": 209.8,
+      "end": 220.2,
+      "text": "All right. Now, we are here in export to Excel. Um these two actions are the the old way of doing uh Excel templates."
+    },
+    {
+      "t": 220.2,
+      "end": 233.7,
+      "text": "So, this is where you get a template. This is where you upload it and update it with data. There's a new thing here in this wave. We added something we call Excel layouts. So you notice a new action here, open using layout."
+    },
+    {
+      "t": 233.7,
+      "end": 243.8,
+      "text": "And there's also a new thing here called default Excel layouts. Now, how do we set an Excel layout on a financial report?"
+    },
+    {
+      "t": 243.8,
+      "end": 258.4,
+      "text": "Well, you go to definitions and choose this new action here, Excel layouts. And um this allows me simply to say maybe I would want to say my fiscal fiscal year 25 as my code."
+    },
+    {
+      "t": 258.4,
+      "end": 270.8,
+      "text": "And this is my fiscal uh 2025 Excel template or Excel report for the"
+    },
+    {
+      "t": 270.8,
+      "end": 282,
+      "text": "income statement. I can also choose which file name I want. Maybe I want fiscal 25 income"
+    },
+    {
+      "t": 282,
+      "end": 292.9,
+      "text": "statement. Okay. So, um now I'm ready to export this to Excel and uh this will just give me a template. You can see the file name is matching this."
+    },
+    {
+      "t": 292.9,
+      "end": 305.5,
+      "text": "Open this Excel file here. This is just um the data. So, typically I would hide this uh and do my actual report in a different worksheet."
+    },
+    {
+      "t": 305.5,
+      "end": 316.1,
+      "text": "So, let me uh just show you real quick. Income statement. I'll maybe put this as a title with u a larger font."
+    },
+    {
+      "t": 316.1,
+      "end": 328.4,
+      "text": "And then I want to refer to this part or this part of the report. So, let me just do that. So, uh let's equal"
+    },
+    {
+      "t": 328.4,
+      "end": 339,
+      "text": "um this part here. And then I want to drag this down here. And drag it all the way down here. Let me just give this a little bit more space."
+    },
+    {
+      "t": 339,
+      "end": 349.8,
+      "text": "And finally, maybe I want to do some formatting here, here, um, and maybe my income here."
+    },
+    {
+      "t": 349.8,
+      "end": 359.9,
+      "text": "Uh, I want probably also want to format my zeros. There are multiple ways you can do that. Either with conditional formatting or simply remove the zeros from the worksheet."
+    },
+    {
+      "t": 359.9,
+      "end": 371.4,
+      "text": "But this is not an Excel video. This is about financial reporting. I'm sure you can do that. Finally, I want to just put the income statement here as my worksheet name."
+    },
+    {
+      "t": 371.4,
+      "end": 384.3,
+      "text": "And I want to hide my data tab here. I don't need to show this. So, this is this is our Excel layout. I'll save this for now and go back to Business Central."
+    },
+    {
+      "t": 384.3,
+      "end": 396.6,
+      "text": "So, back on my financial report Excel layout page, I will uh import my Excel workbook here and just open this."
+    },
+    {
+      "t": 396.6,
+      "end": 407.7,
+      "text": "And now it's imported into Business Central. I can have multiple of these. So maybe I could also have a fiscal year 26. That would be a new"
+    },
+    {
+      "t": 407.7,
+      "end": 422.5,
+      "text": "version. And uh give that another file name. And I could upload that as well. So I can have as many of these as I want. And I can simply run my Excel layout um from directly from here."
+    },
+    {
+      "t": 422.5,
+      "end": 434.6,
+      "text": "So in in in in case I want to do the first one here and choose export and run, I can do that. And then I will run the report now with the recent data."
+    },
+    {
+      "t": 434.6,
+      "end": 445.3,
+      "text": "But in business center, sorry, sorry, back in uh on financial reporting page, I might want to pick one of these as my default layout. So that's what this default Excel layout is for."
+    },
+    {
+      "t": 445.3,
+      "end": 458.3,
+      "text": "And I'll just choose my fiscal year 25 layout here. And when I do that or when I have done that, my open in Excel using layout will choose the default layout."
+    },
+    {
+      "t": 458.3,
+      "end": 476.2,
+      "text": "So now I can simply run my my report here directly from the page. where I don't have to upload it again. I can just have my Excel layout um present in business central and I can share this between the users of the report."
+    },
+    {
+      "t": 476.2,
+      "end": 484,
+      "text": "That's uh that's it for for the user part of financial reporting changes."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.23,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.24,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1168
+}

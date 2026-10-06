@@ -1,0 +1,540 @@
+{
+  "video_id": "XhO4oFmoh1M",
+  "item_id": "video/yt-microsoft/XhO4oFmoh1M",
+  "title": "Introducing: Sales Order Agent (2025 release wave 1)",
+  "duration_s": 1578,
+  "systems": [
+    "sales",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "sales order agent",
+    "ai agents",
+    "email automation",
+    "quote processing",
+    "item search",
+    "availability checking",
+    "sales quote generation",
+    "agent configuration",
+    "agent permissions",
+    "profile configuration",
+    "natural language",
+    "kpi metrics"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Sales Order Agent",
+      "t_start": 0,
+      "t_end": 107.7
+    },
+    {
+      "title": "Accessing and Activating the Sales Order Agent",
+      "t_start": 107.7,
+      "t_end": 168.1
+    },
+    {
+      "title": "Configuration Setup and Mailbox Configuration",
+      "t_start": 168.1,
+      "t_end": 306.2
+    },
+    {
+      "title": "Agent Interface and Task Pane Navigation",
+      "t_start": 306.2,
+      "t_end": 387.8
+    },
+    {
+      "title": "Processing Incoming Email Requests",
+      "t_start": 387.8,
+      "t_end": 550.5
+    },
+    {
+      "title": "Item Search and Availability Checking",
+      "t_start": 550.5,
+      "t_end": 652.4
+    },
+    {
+      "title": "Item Availability Page and Response Generation",
+      "t_start": 652.4,
+      "t_end": 751.2
+    },
+    {
+      "title": "Sales Quote Creation and Processing Multiple Requests",
+      "t_start": 751.2,
+      "t_end": 913.9
+    },
+    {
+      "title": "Customer Perspective: Agent Conversation Flow",
+      "t_start": 913.9,
+      "t_end": 994.8
+    },
+    {
+      "title": "Safety and Relevance Filtering",
+      "t_start": 994.8,
+      "t_end": 1115.6
+    },
+    {
+      "title": "Time Savings and KPI Dashboard",
+      "t_start": 1115.6,
+      "t_end": 1217.9
+    },
+    {
+      "title": "Agent Architecture and Technical Design",
+      "t_start": 1217.9,
+      "t_end": 1389.7
+    },
+    {
+      "title": "Permission Sets and Profile Configuration",
+      "t_start": 1389.7,
+      "t_end": 1534.4
+    },
+    {
+      "title": "Conclusion and Next Steps",
+      "t_start": 1534.4,
+      "t_end": 1578
+    }
+  ],
+  "features": [
+    {
+      "name": "Sales Order Agent",
+      "description": "An AI agent that automates the process of managing sales team operations by capturing quotes and converting them into sales orders directly from customer emails without manual intervention.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6,
+      "t_end": 913.9,
+      "is_demoed": true,
+      "caveats": [
+        "Only works with registered contacts and customers in Business Central",
+        "Requires Microsoft 365 shared mailbox account for monitoring incoming emails",
+        "Requires users to be added to the agent to interact with it"
+      ],
+      "tags": [
+        "ai",
+        "automation",
+        "sales",
+        "email",
+        "agent"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sales Order Agent Configuration",
+      "description": "An activation dialog that allows administrators to configure the sales order agent with minimal setup, including defining a mailbox account to monitor for incoming customer requests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 148.1,
+      "t_end": 306.2,
+      "is_demoed": true,
+      "caveats": [
+        "Mailbox must be a Microsoft 365 shared mailbox",
+        "Minimal configuration options currently available"
+      ],
+      "tags": [
+        "configuration",
+        "setup",
+        "admin",
+        "mailbox"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Task Pane",
+      "description": "A view accessible from the Copilot pane where users can see tasks coming in from the monitored mailbox and the agent can start processing incoming customer quote requests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 326.4,
+      "t_end": 387.8,
+      "is_demoed": true,
+      "caveats": [
+        "Users do not need to keep the task pane open as the agent will notify when attention is required"
+      ],
+      "tags": [
+        "ui",
+        "copilot",
+        "tasks",
+        "interface"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Item Availability Page",
+      "description": "A page used by the sales order agent to check inventory availability by applying filters for item, date, customer, location and quantity to determine if requested items are in stock.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 652.4,
+      "t_end": 731,
+      "is_demoed": true,
+      "caveats": [
+        "Page includes unit price, discount and other parameters to calculate availability",
+        "Requires specific filters for accurate availability checking"
+      ],
+      "tags": [
+        "inventory",
+        "availability",
+        "item",
+        "search"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Item Search Across Multiple Tables",
+      "description": "The agent searches inventory across multiple data sources including the item table, extended texts, translations, item attributes, and item categories to find the correct items matching customer requests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 550.5,
+      "t_end": 611.8,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to items and attributes already configured in the system"
+      ],
+      "tags": [
+        "search",
+        "item",
+        "extended-text",
+        "attributes"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Automatic Sales Quote Creation",
+      "description": "The agent automatically creates sales quotes based on customer email requests, populating quote details including items, quantities, delivery dates, and customer purchase document numbers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 751.2,
+      "t_end": 913.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires human review and confirmation before sending quote to customer",
+        "Agent can iterate on quotes if customer requests changes"
+      ],
+      "tags": [
+        "sales-quote",
+        "automation",
+        "email"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Agent KPIs Dashboard",
+      "description": "A dashboard showing key performance indicators for the sales order agent including tasks processed, email volume, time savings, and conversion rates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 306.2,
+      "t_end": 1217.9,
+      "is_demoed": true,
+      "caveats": [
+        "KPIs show zero values until agent begins processing tasks"
+      ],
+      "tags": [
+        "kpi",
+        "analytics",
+        "monitoring",
+        "productivity"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Contact Registration During Processing",
+      "description": "The agent can notify users when an incoming email is from an unknown contact and provides a convenient just-in-time experience to create and register that contact in Business Central before proceeding with the quote request.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 468.7,
+      "t_end": 550.5,
+      "is_demoed": true,
+      "caveats": [
+        "Only works with registered contacts and customers currently",
+        "Requires manual contact creation for unknown senders"
+      ],
+      "tags": [
+        "contacts",
+        "customer",
+        "registration"
+      ],
+      "system": "crm"
+    },
+    {
+      "name": "Sales Order Agent Email Processing",
+      "description": "The agent automatically reads inbound emails, scans for items, checks availability, and pre-creates sales quotes with quantities and details requested by customers without manual data entry.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 791.9,
+      "t_end": 913.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "email automation",
+        "quote generation",
+        "inventory integration"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Sales Order Agent Natural Language Conversation",
+      "description": "The agent converses with customers in natural language through email, responding to inventory questions, preparing sales quotes based on customer requests, and converting quotes to orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 913.9,
+      "t_end": 994.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "natural language",
+        "customer interaction",
+        "quote to order"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Agent Email Safety and Relevance Filtering",
+      "description": "The agent filters inbound emails and tags those that are not relevant to sales (promotional ads) with warnings, and blocks harmful content messages from processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 994.8,
+      "t_end": 1115.6,
+      "is_demoed": true,
+      "caveats": [
+        "User can override non-relevant email filtering if desired",
+        "Harmful messages are blocked and not made visible to process"
+      ],
+      "tags": [
+        "safety",
+        "filtering",
+        "content blocking",
+        "spam detection"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent Permission Sets",
+      "description": "Administrators control agent authorization scope through permission sets that outline the exact permissions needed for the agent to fulfill its task, with ability to modify, make stricter, or more flexible.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1309,
+      "t_end": 1389.7,
+      "is_demoed": true,
+      "caveats": [
+        "Permission sets come pre-built by Microsoft but can be tuned by administrators",
+        "Agent must be disabled to modify permissions"
+      ],
+      "tags": [
+        "permissions",
+        "security",
+        "administration",
+        "authorization"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Agent Profile Configuration",
+      "description": "Administrators can assign profiles to agents to control their interaction surface, exposing or hiding controls, fields, and actions. Custom fields and actions can be added to the agent profile to make them discoverable and usable by the agent.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1389.7,
+      "t_end": 1534.4,
+      "is_demoed": true,
+      "caveats": [
+        "Customizations must be added to the agent profile to be available to the agent"
+      ],
+      "tags": [
+        "profile",
+        "ui customization",
+        "field configuration",
+        "administration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Agent UI Access Model",
+      "description": "The agent accesses Business Central through the user interface, connecting to actions, controls, and data displayed on the UI using metadata about action names and captions to reason about task completion.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1217.9,
+      "t_end": 1289,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "architecture",
+        "ui interaction",
+        "metadata",
+        "agent design"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "item availability",
+      "t": 652.4
+    },
+    {
+      "type": "page",
+      "name": "Agent Card",
+      "t": 1309
+    },
+    {
+      "type": "page",
+      "name": "User Card",
+      "t": 1309
+    },
+    {
+      "type": "page",
+      "name": "Sales Quote",
+      "t": 1455
+    },
+    {
+      "type": "page",
+      "name": "Sales Order",
+      "t": 1514.4
+    },
+    {
+      "type": "page",
+      "name": "Roll Center",
+      "t": 1435
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Yen",
+      "confidence": "high"
+    },
+    {
+      "name": "Helen",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 66.8,
+      "text": "with the sales order agent approach we Chang in this space to 100% automate this entire process end to end and yet keep the",
+      "why_it_matters": "Defines the core promise of the sales order agent - full automation while maintaining human oversight and control",
+      "check": "exact"
+    },
+    {
+      "t": 87.2,
+      "text": "instead of humans and sales operators clicking around the product and trying to address the request for the quote it is an agent which",
+      "why_it_matters": "Shows how the agent shifts work from manual data entry and navigation to automated processing",
+      "check": "exact"
+    },
+    {
+      "t": 189.2,
+      "text": "please use Microsoft 365 account uh for the sales or agent and it has to be a shared mailbox uh which you can figure",
+      "why_it_matters": "Documents the specific technical requirement for mailbox configuration that is mandatory for the feature",
+      "check": "exact"
+    },
+    {
+      "t": 489.4,
+      "text": "the sales or agent only works with registered contacts and customers inside of business Central at least at this point of time",
+      "why_it_matters": "Establishes a clear limitation of the current version - the agent requires pre-registered customers",
+      "check": "exact"
+    },
+    {
+      "t": 570.6,
+      "text": "it uses search uh to not only read through the data on the item table or card itself it also goes into to the",
+      "why_it_matters": "Explains the depth of item matching capability across multiple data sources",
+      "check": "exact"
+    },
+    {
+      "t": 812,
+      "text": "the agent has already read this email and it did create a sales quote automatically and it updated that quote with uh details requested",
+      "why_it_matters": "Demonstrates the core capability of automatically creating and populating sales quotes from email content",
+      "check": "exact"
+    },
+    {
+      "t": 843.1,
+      "text": "instead of creating this document manually the agent helped prepopulate and pre-create that quote",
+      "why_it_matters": "Demonstrates the core value of the agent - automatic document creation based on email requests, eliminating manual data entry.",
+      "check": "exact"
+    },
+    {
+      "t": 933.9,
+      "text": "conversing very naturally in natural language with Yen asking some questions hello uh do you have such and such items",
+      "why_it_matters": "Shows the agent's capability to engage customers directly in natural language conversations about inventory and orders.",
+      "check": "exact"
+    },
+    {
+      "t": 994.8,
+      "text": "the agent tagged this inbound email with a warning text so it actually says that hey this incoming message appears not to be relevant",
+      "why_it_matters": "Illustrates built-in safety filtering that protects against spam and irrelevant content without human review.",
+      "check": "exact"
+    },
+    {
+      "t": 1237.9,
+      "text": "it is not analyzing pixels and dots on the screen it actually can connect to the actions controls uh data displayed on the UI",
+      "why_it_matters": "Explains the technical architecture showing agents work through UI metadata rather than pixel analysis, enabling intelligent interaction.",
+      "check": "exact"
+    },
+    {
+      "t": 1309,
+      "text": "agents are designed based on the same Principle as the users",
+      "why_it_matters": "Establishes that agent design mirrors user design principles, making administration familiar to existing Business Central users.",
+      "check": "snapped"
+    },
+    {
+      "t": 1475.2,
+      "text": "using profiles you can design the interaction surface of the agent and expose or hide certain controls from from its view",
+      "why_it_matters": "Shows how administrators control agent capabilities through existing profile mechanisms, providing granular control over agent behavior.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 489.4,
+      "kind": "subject-to-change",
+      "text": "the sales or agent only works with registered contacts and customers inside of business Central at least at this point of time who knows what the future will"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 12,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 14
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026772999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023856
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023548
+    }
+  ]
+}

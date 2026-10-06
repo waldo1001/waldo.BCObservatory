@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-return-periods",
   "published_at": "2026-03-31T12:04:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7a2bca2102a9d8130678ae646194647f92280728",
       "words": 148,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:32.572Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.01479
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:34.350Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:34.351Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:34.352Z",
+      "page": false
     }
   },
   "input_hash": "7a2bca2102a9d8130678ae646194647f92280728",
@@ -48,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7a2bca2102a9d8130678ae646194647f92280728"
+  "output_hash": "f649af7d06a65e75a2b76b659f6e1966b566f6810e6c24cf0d575144cbf00fa1"
 }

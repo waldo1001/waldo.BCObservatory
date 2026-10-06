@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-vat-date",
   "published_at": "2026-03-30T15:10:54.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4bd85bbf951d27e915b19c8eb6226b14da79155e",
       "words": 364,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:24.747Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003389
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:25.590Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:25.591Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:25.593Z",
+      "page": false
     }
   },
   "input_hash": "4bd85bbf951d27e915b19c8eb6226b14da79155e",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4bd85bbf951d27e915b19c8eb6226b14da79155e"
+  "output_hash": "ae381f2ffae31d185a5061121b6a9a070ddf59a9715e9c87c80ceb929c159242"
 }

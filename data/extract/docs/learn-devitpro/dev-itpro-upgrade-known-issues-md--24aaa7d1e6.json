@@ -1,0 +1,71 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/known-issues.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/known-issues",
+  "title": "Some Known Issues in Business Central On-premises",
+  "blob": "294bc246e4912951cbaa876d15e34caa23b01c8e",
+  "summary": "Known issues in Business Central on-premises covering installation, upgrade, and operations including PowerShell module failures, evaluation company creation problems, web server installation issues, extension sync errors, and authentication problems across various versions.",
+  "systems": [
+    "administration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "upgrade",
+    "known issues",
+    "on-premises",
+    "installation",
+    "troubleshooting",
+    "powershell",
+    "extensions"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Contract Renewal Line"
+    },
+    {
+      "type": "table",
+      "name": "Price Update Template"
+    },
+    {
+      "type": "table",
+      "name": "Service Contract Setup"
+    },
+    {
+      "type": "table",
+      "name": "E-Document"
+    }
+  ],
+  "features": [
+    "PowerShell admin shell",
+    "Evaluation company creation",
+    "Web server components",
+    "Extension synchronization",
+    "NavUserPassword authentication",
+    "Permission sets",
+    "Table migration",
+    "Control add-ins"
+  ],
+  "versions": [
+    "28.0",
+    "27.3",
+    "26.2",
+    "26.0",
+    "25.3",
+    "25.2",
+    "24.1",
+    "24.0",
+    "23.3",
+    "23"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01479,
+      "pages_in_call": 3
+    }
+  ]
+}

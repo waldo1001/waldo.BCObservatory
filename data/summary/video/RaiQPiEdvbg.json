@@ -1,0 +1,27 @@
+{
+  "video_id": "RaiQPiEdvbg",
+  "item_id": "video/yt-microsoft/RaiQPiEdvbg",
+  "summary": "Posting sustainability emissions through the Business Central general journal (2025 release wave 1): which document types are allowed, which emissions are supported, and the limits compared with the sustainability journal and purchase documents. Includes a live demo and validation errors.",
+  "overview": "The video covers a sustainability feature in the 2025 release wave 1. Sustainability ledger entries could previously be created from the sustainability journal and from purchase documents. They can now also be created from the general journal, with emissions values posted alongside the regular financial amount.\n\nThe presenter explains the requirements and limits, then demonstrates posting in the general journal and shows the validation errors. The video also compares the three posting routes: the sustainability journal supports water and waste data and formulas, while the general journal and purchase documents do not.",
+  "key_points": [
+    "Sustainability ledger entries can now be created from the general journal, in addition to the sustainability journal and purchase documents.",
+    "General journal lines with sustainability accounts must use document type invoice, credit memo, or blank. Payment is not allowed.",
+    "A financial amount is required on the line. Emissions cannot be posted on their own without a ledger amount.",
+    "Three greenhouse gas values can be posted: carbon dioxide, methane, and nitrogen dioxide, entered as totals.",
+    "Formulas for calculating emissions are not available in the general journal or purchase documents. Only the sustainability journal supports them.",
+    "Water and waste data can be posted only through the sustainability journal, not the general journal.",
+    "GL accounts can have a default sustainability account, which can be changed on the journal line."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "32c15e2580a3f5219a1dfc9ca970fe063001bc38cff8947e7348bd28e1f0f5e8",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0139344
+  }
+}

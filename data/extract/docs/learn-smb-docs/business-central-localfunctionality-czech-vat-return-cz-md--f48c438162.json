@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/vat-return-cz.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-return-cz",
+  "title": "VAT returns in the Czech version",
+  "blob": "31624ca0734d240413ba14c88db67d86658805c8",
+  "summary": "VAT returns in Czech version generates and submits VAT returns to Moje daně portal based on VAT statement settings, supporting standard, corrective, and supplementary return types with XML generation.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "czech",
+    "vat",
+    "localization",
+    "reporting",
+    "compliance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Returns"
+    },
+    {
+      "type": "page",
+      "name": "VAT Statement"
+    },
+    {
+      "type": "page",
+      "name": "VAT Return Periods"
+    }
+  ],
+  "features": [
+    "VAT return generation",
+    "Mailbox number assignment",
+    "Return type selection",
+    "XML generation",
+    "VAT report submission",
+    "Multi-currency VAT reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003389,
+      "pages_in_call": 8
+    }
+  ]
+}

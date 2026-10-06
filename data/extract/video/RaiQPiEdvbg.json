@@ -1,0 +1,264 @@
+{
+  "video_id": "RaiQPiEdvbg",
+  "item_id": "video/yt-microsoft/RaiQPiEdvbg",
+  "title": "What's New: Post Emissions with the General Journal (2025 release wave 1)",
+  "duration_s": 411,
+  "systems": [
+    "sustainability",
+    "finance"
+  ],
+  "topics": [
+    "emissions posting",
+    "general journal",
+    "greenhouse gas",
+    "sustainability accounts",
+    "water and waste",
+    "sustainability ledger entries",
+    "purchase documents",
+    "sustainability journal"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and session overview",
+      "t_start": 0,
+      "t_end": 28.2
+    },
+    {
+      "title": "Evolution of sustainability functionality",
+      "t_start": 28.2,
+      "t_end": 64.3
+    },
+    {
+      "title": "New general journal posting capabilities",
+      "t_start": 64.3,
+      "t_end": 148.4
+    },
+    {
+      "title": "Requirements and limitations for general journal emissions",
+      "t_start": 148.4,
+      "t_end": 237.3
+    },
+    {
+      "title": "Live demonstration of general journal emissions posting",
+      "t_start": 237.3,
+      "t_end": 330.6
+    },
+    {
+      "title": "Error handling and validation rules",
+      "t_start": 330.6,
+      "t_end": 376.3
+    },
+    {
+      "title": "Closing remarks and future roadmap",
+      "t_start": 376.3,
+      "t_end": 411
+    }
+  ],
+  "features": [
+    {
+      "name": "Post emissions through general journal",
+      "description": "Users can now post sustainability emissions values directly through general journal entries, alongside regular financial amounts. Previously emissions could only be posted through sustainability journal or purchase documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.8,
+      "t_end": 89.4,
+      "is_demoed": true,
+      "caveats": [
+        "Only supported with document types: invoice, credit memo, or blank",
+        "Cannot be used with payment document types",
+        "Financial amount must be present - cannot post only emissions without ledger amount",
+        "Cannot use formulas for emission calculation in general journal",
+        "Only greenhouse gas emissions supported, not water and waste"
+      ],
+      "tags": [
+        "general journal",
+        "emissions posting",
+        "sustainability accounts"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Greenhouse gas emissions selection in general journal",
+      "description": "Users can select and post three types of greenhouse gas emissions in general journal: carbon dioxide, methane, and nitrogen dioxide as total values.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 194.2,
+      "t_end": 224,
+      "is_demoed": true,
+      "caveats": [
+        "Only greenhouse gas emissions supported in general journal, not water and waste",
+        "Posted as total values only, not calculated via formulas"
+      ],
+      "tags": [
+        "emissions types",
+        "greenhouse gas",
+        "carbon dioxide",
+        "methane"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Sustainability account selection with defaults",
+      "description": "GL accounts can have default sustainability accounts configured. When posting in general journal, users can select sustainability accounts and modify them if needed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 260.6,
+      "t_end": 278.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sustainability accounts",
+        "gl account",
+        "defaults"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Validation for sustainability posting in general journal",
+      "description": "System validates that journal lines can only have sustainability accounts when using allowed document types (invoice, credit memo, blank). Payment lines cannot post emissions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 330.6,
+      "t_end": 350.2,
+      "is_demoed": true,
+      "caveats": [
+        "Payment document type is explicitly not allowed"
+      ],
+      "tags": [
+        "validation",
+        "error handling",
+        "document types"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Water and waste management in sustainability journal",
+      "description": "Sustainability journal supports posting water and waste management data in addition to greenhouse gas emissions, a capability not available in general journal or purchase documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 98.1,
+      "t_end": 118.3,
+      "is_demoed": false,
+      "caveats": [
+        "Only available in sustainability journal, not in general journal or purchase documents"
+      ],
+      "tags": [
+        "water management",
+        "waste management",
+        "sustainability journal"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Emission formulas in sustainability journal",
+      "description": "Sustainability journal allows using embedded formulas to calculate total emissions from different sources, providing more flexibility than direct value posting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 118.3,
+      "t_end": 129.1,
+      "is_demoed": false,
+      "caveats": [
+        "Not available in general journal or purchase documents"
+      ],
+      "tags": [
+        "formulas",
+        "calculation",
+        "sustainability journal"
+      ],
+      "system": "sustainability"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sustainability Ledger Entry",
+      "t": 316.2
+    },
+    {
+      "type": "page",
+      "name": "General Journal",
+      "t": 249.8
+    },
+    {
+      "type": "page",
+      "name": "Posted General Journals",
+      "t": 292.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Mita",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 6.8,
+      "text": "we will show you one new feature related to sustainability and this is enablement of using sustainability accounts and values of posting sustainability entries",
+      "why_it_matters": "Clearly states the main feature of this release: enabling emissions posting in general journal",
+      "check": "exact"
+    },
+    {
+      "t": 64.3,
+      "text": "sustainability ledger entries will not uh be recorded only with these two types of documents but also by general journal",
+      "why_it_matters": "Explains the expansion of where sustainability entries can be created, introducing general journal as a new option",
+      "check": "exact"
+    },
+    {
+      "t": 129.1,
+      "text": "With purchase documents and general journal you cannot use formulas. So you can post only total emissions if you have this information",
+      "why_it_matters": "Defines a key limitation: formulas are only available in sustainability journal, not general journal",
+      "check": "exact"
+    },
+    {
+      "t": 164.1,
+      "text": "if you want to post sustainability values in general journals, you must use one of these document types, invoice or create memo and blank",
+      "why_it_matters": "Specifies the only document types that allow emissions posting in general journal",
+      "check": "exact"
+    },
+    {
+      "t": 207.8,
+      "text": "you can post carbon, you can post methan and nitrogen dioxide uh here as well. So you can post these three different emissions",
+      "why_it_matters": "Identifies the specific emission types supported in general journal",
+      "check": "exact"
+    },
+    {
+      "t": 224,
+      "text": "if you do not have amount for posting to uh general ledger entries, you cannot post only emissions. If you have only emissions without",
+      "why_it_matters": "Critical requirement: financial amount is mandatory for general journal emissions posting",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020383
+    }
+  ]
+}

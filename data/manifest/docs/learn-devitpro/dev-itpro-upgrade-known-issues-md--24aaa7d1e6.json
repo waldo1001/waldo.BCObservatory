@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/known-issues",
   "published_at": "2026-04-02T13:35:31.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "294bc246e4912951cbaa876d15e34caa23b01c8e",
       "words": 6318,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:32.571Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.01479
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:34.344Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:34.345Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:34.346Z",
+      "page": false
     }
   },
   "input_hash": "294bc246e4912951cbaa876d15e34caa23b01c8e",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "294bc246e4912951cbaa876d15e34caa23b01c8e"
+  "output_hash": "50d82d3477acdc8b05a68a9961f0f553a5cf56929a0ae6dff9a3115088e90c0f"
 }

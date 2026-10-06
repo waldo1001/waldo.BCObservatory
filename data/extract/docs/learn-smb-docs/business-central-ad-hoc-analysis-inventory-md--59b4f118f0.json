@@ -1,0 +1,62 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ad-hoc-analysis-inventory.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-inventory",
+  "title": "Ad-hoc analysis of inventory data",
+  "blob": "ab593add5d9e7c851a5644fa5852058fe29621f2",
+  "summary": "Ad-hoc analysis of inventory data using the Data Analysis feature to analyze item ledger entries directly from list pages without running reports, including scenarios for on-hand inventory, expiring stock, returned items, throughput, and movements.",
+  "systems": [
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "analysis",
+    "data analytics",
+    "inventory",
+    "ad-hoc analysis",
+    "item ledger entries",
+    "inventory analysis"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Sales Shipment Header"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Header"
+    },
+    {
+      "type": "table",
+      "name": "Purch. Recpt. Header"
+    },
+    {
+      "type": "table",
+      "name": "Purch. Inv. Header"
+    }
+  ],
+  "features": [
+    "Data Analysis",
+    "Analysis mode",
+    "Item Statistics",
+    "KPIs",
+    "Copilot summaries",
+    "Sales Growth Rate",
+    "Gross Margin",
+    "Return Rate"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01479,
+      "pages_in_call": 3
+    }
+  ]
+}

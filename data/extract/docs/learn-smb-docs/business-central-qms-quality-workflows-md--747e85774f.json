@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/qms-quality-workflows.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/qms-quality-workflows",
+  "title": "Quality management workflows",
+  "blob": "55420c3f2ea4bf76968faa1697a98a4e40c9de94",
+  "summary": "Quality management workflows automate responses to quality inspection events including lot blocking, inventory movement, and negative adjustments for nonconforming items with configurable conditions.",
+  "systems": [
+    "inventory",
+    "warehouse",
+    "manufacturing"
+  ],
+  "topics": [
+    "quality management",
+    "workflows",
+    "inspection",
+    "automation",
+    "inventory"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Lot No. Information Card"
+    },
+    {
+      "type": "table",
+      "name": "Quality Management Setup"
+    }
+  ],
+  "features": [
+    "Quality inspection workflows",
+    "Lot blocking and unblocking",
+    "Inventory movement actions",
+    "Negative adjustments",
+    "Reinspection creation",
+    "Result code conditions",
+    "Workflow response actions",
+    "Partial posting behavior"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003389,
+      "pages_in_call": 8
+    }
+  ]
+}

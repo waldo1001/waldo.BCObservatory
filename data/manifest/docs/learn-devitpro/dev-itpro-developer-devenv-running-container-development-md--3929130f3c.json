@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-running-container-development",
   "published_at": "2026-04-02T13:35:31.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9ecdaf5d18660fe7b778a84a5cb1cb12c4978b0b",
       "words": 890,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:32.570Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007865
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:34.341Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:34.342Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:34.343Z",
+      "page": false
     }
   },
   "input_hash": "9ecdaf5d18660fe7b778a84a5cb1cb12c4978b0b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9ecdaf5d18660fe7b778a84a5cb1cb12c4978b0b"
+  "output_hash": "11f8e729988817e227cbfa5279a68dacca0506e91d0b5b1c77a8bf094b1a9ec0"
 }

@@ -1,0 +1,67 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-work-general-journals.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-work-general-journals",
+  "title": "Working with general journals to post directly to G/L",
+  "blob": "91c51394bf717b708be869a26ea373ca24fbce2b",
+  "summary": "General journals reference for posting financial transactions directly to the general ledger, including templates, batches, recurring journals, allocations, standard journals, and document renumbering.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "journals",
+    "general ledger",
+    "posting",
+    "recurring entries",
+    "allocations",
+    "standard journals",
+    "financial transactions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journals"
+    },
+    {
+      "type": "page",
+      "name": "General Journal Batches"
+    },
+    {
+      "type": "page",
+      "name": "Recurring General Journals"
+    },
+    {
+      "type": "page",
+      "name": "Item Journals"
+    },
+    {
+      "type": "page",
+      "name": "Payment Journals"
+    },
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journals"
+    }
+  ],
+  "features": [
+    "general journal posting",
+    "recurring journals",
+    "journal allocation",
+    "balancing accounts",
+    "reversal entries",
+    "standard journals",
+    "recurring methods",
+    "background error check",
+    "allocation by dimension"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007865,
+      "pages_in_call": 5
+    }
+  ]
+}

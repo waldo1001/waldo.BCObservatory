@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/vat-return-periods.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-return-periods",
+  "title": "VAT Return Periods in the Czech version",
+  "blob": "7a2bca2102a9d8130678ae646194647f92280728",
+  "summary": "VAT Return Periods feature in the Czech version that consolidates Czech localization VAT Period functionality into the standard VAT Return Period table with data migration, synchronization, and updated reports.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat",
+    "czech",
+    "localization",
+    "vat return periods",
+    "compliance",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "VAT Period"
+    },
+    {
+      "type": "table",
+      "name": "VAT Return Period"
+    }
+  ],
+  "features": [
+    "VAT Return Periods",
+    "Data Migration",
+    "Bidirectional synchronization",
+    "Period generation",
+    "VAT Statement Preparation",
+    "VAT Settlement",
+    "Feature Management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01479,
+      "pages_in_call": 3
+    }
+  ]
+}

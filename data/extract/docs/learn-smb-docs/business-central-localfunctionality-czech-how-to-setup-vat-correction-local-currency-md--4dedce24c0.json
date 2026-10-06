@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency",
+  "title": "Czech Local Functionality VAT correction in Local Currency",
+  "blob": "e0dc059ad2cb187c9d93c69a8a06e91c223d5b37",
+  "summary": "VAT correction in local currency for Czech version allows adjusting VAT amounts in CZK on purchase and sales invoices issued in foreign currency, with posting to dedicated rounding accounts.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "czech",
+    "vat",
+    "localization",
+    "currency",
+    "correction"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "VAT Posting Setup"
+    }
+  ],
+  "features": [
+    "VAT amount adjustment in local currency",
+    "Rounding account for VAT correction",
+    "Foreign currency document handling",
+    "VAT correction posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003389,
+      "pages_in_call": 8
+    }
+  ]
+}

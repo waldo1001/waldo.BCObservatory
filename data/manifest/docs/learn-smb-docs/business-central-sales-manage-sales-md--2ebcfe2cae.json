@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-manage-sales",
   "published_at": "2026-04-07T13:01:43.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5e9a5c6e211f9ce1a0f461c0d789617d05976bac",
       "words": 1072,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:43:32.566Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007865
+    },
+    "summarized": {
+      "at": "2026-10-06T18:43:32.573Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:43:32.574Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:43:32.575Z",
+      "page": false
     }
   },
   "input_hash": "5e9a5c6e211f9ce1a0f461c0d789617d05976bac",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5e9a5c6e211f9ce1a0f461c0d789617d05976bac"
+  "output_hash": "db231e1b724c424a1a90c4af3812ebf4e2cdaa1624a747aa65e3cc10d40d6c54"
 }

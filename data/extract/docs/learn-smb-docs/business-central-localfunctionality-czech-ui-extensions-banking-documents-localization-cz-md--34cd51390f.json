@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz",
+  "title": "Banking Documents Localization for Czech (Extension)",
+  "blob": "bc3de8437b556262d87211f19dd182695b5affc2",
+  "summary": "Banking documents localization for Czech provides payment order and bank statement creation, import/export of bank files, and bank account management with description preservation across currencies.",
+  "systems": [
+    "finance",
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "czech",
+    "banking",
+    "localization",
+    "payment",
+    "import-export"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Bank Account Card"
+    }
+  ],
+  "features": [
+    "Payment order creation and export",
+    "Bank statement import and creation",
+    "Bank statement rollover to journals",
+    "Payment entry pairing",
+    "Bank file import/export",
+    "Keep Description field",
+    "Multi-currency support"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003389,
+      "pages_in_call": 8
+    }
+  ]
+}

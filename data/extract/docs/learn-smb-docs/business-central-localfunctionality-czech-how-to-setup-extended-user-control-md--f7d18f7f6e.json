@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-setup-extended-user-control.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-extended-user-control",
+  "title": "Set up extended user control [CZ]",
+  "blob": "77ed206ee0ae8d25ef2a6cf3eafedc0aa5c7cd46",
+  "summary": "Extended user control in Czech version allows assigning users to employees, setting cash desk filters, and controlling access to payment orders, bank statements, journals, dimensions, and locations through User Setup.",
+  "systems": [
+    "administration",
+    "localization"
+  ],
+  "topics": [
+    "czech",
+    "user control",
+    "access control",
+    "security",
+    "setup"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "User Setup Lines"
+    }
+  ],
+  "features": [
+    "Employee assignment",
+    "Cash desk filtering",
+    "Document date checking",
+    "Posting date checking",
+    "Payment order access control",
+    "Bank statement access control",
+    "Journal template access control",
+    "Dimension value control",
+    "Location code filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003389,
+      "pages_in_call": 8
+    }
+  ]
+}
