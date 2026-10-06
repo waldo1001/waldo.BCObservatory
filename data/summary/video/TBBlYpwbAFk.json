@@ -1,0 +1,27 @@
+{
+  "video_id": "TBBlYpwbAFk",
+  "item_id": "video/yt-microsoft/TBBlYpwbAFk",
+  "summary": "Business Central 2024 release wave 2 adds a per-environment partner access setting in the tenant admin center. Internal administrators can allow all partners, selected partners (up to 10 Entra tenants), or no partners. The video demos the setting and its limits.",
+  "overview": "The video covers a new environment-level control for partner access, introduced with Business Central 2024 release wave 2. On the environment details page in the tenant admin center, internal administrators can modify the partner access setting. The default is all partners, which has always applied.\n\nThe demo shows switching to selected partners by picking from a list of foreign tenants, then reverting and disabling partner access entirely. It explains that the setting affects authentication of delegated users and foreign multi-tenant applications. It sits on top of the tenant-level access that must already be configured.",
+  "key_points": [
+    "The partner access setting is on the environment details page in the tenant admin center and has three values: all partners (default), selected partners, and off.",
+    "All partners mode grants access to external tenants with GDAP relationships or application-level access.",
+    "Selected partners mode lets an internal administrator choose which foreign tenants can view and administer the environment.",
+    "Current limit: access can be restricted to a maximum of 10 Entra tenants per environment.",
+    "Turning partner access off limits environment access and administration to internal administrators.",
+    "The setting affects authentication of delegated users and foreign multi-tenant applications, including login and admin center visibility.",
+    "It does not replace tenant-level setup: GDAP relationships, app registrations and admin consent for external applications are still required."
+  ],
+  "audience": [
+    "administrator",
+    "partner",
+    "functional consultant"
+  ],
+  "extraction_hash": "4089dbd81c57aa14e59b1cadf7398e334c768e8ac1ac1da2bf8addd089a0a647",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0137244
+  }
+}

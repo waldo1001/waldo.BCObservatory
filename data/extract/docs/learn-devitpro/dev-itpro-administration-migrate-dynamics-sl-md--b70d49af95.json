@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-dynamics-sl.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-sl",
+  "title": "Dynamics SL Data Migrated to Business Central Online",
+  "blob": "d08f6525793f8d1c883faa819a39bd54c7c77b6c",
+  "summary": "Dynamics SL Data Migrated to Business Central Online describes data mapping for fiscal periods, chart of accounts, customers, vendors, inventory items, and projects during cloud migration using the SL Company Migration Configuration.",
+  "systems": [
+    "finance",
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "cloud migration",
+    "data migration",
+    "dynamics sl",
+    "dimensions",
+    "accounting periods"
+  ],
+  "objects": [],
+  "features": [
+    "Fiscal periods mapping",
+    "Chart of Accounts",
+    "Dimension setup",
+    "Customer master records",
+    "Vendor master records",
+    "Inventory items",
+    "Project master records"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005235,
+      "pages_in_call": 8
+    }
+  ]
+}

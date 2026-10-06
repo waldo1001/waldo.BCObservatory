@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-report-ext-example.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-ext-example",
+  "title": "Report Extension Example",
+  "blob": "14f449c98ba29bdeda95a56a5e39aec082313cde",
+  "summary": "Report Extension Example demonstrates how to extend existing tables and reports using Table Extension and Report Extension objects with code examples for adding fields and columns to a food inventory report.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "report extension",
+    "table extension",
+    "rdl layout",
+    "enums",
+    "dataitems"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "BaseFoodTable"
+    },
+    {
+      "type": "enum",
+      "name": "FoodColor"
+    },
+    {
+      "type": "report",
+      "name": "FoodReport"
+    },
+    {
+      "type": "table",
+      "name": "Producer"
+    },
+    {
+      "type": "report",
+      "name": "FoodExtension"
+    }
+  ],
+  "features": [
+    "Report Extension Object",
+    "Table Extension Object",
+    "RDL Layout",
+    "DataItemLink",
+    "Column Definition"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005235,
+      "pages_in_call": 8
+    }
+  ]
+}

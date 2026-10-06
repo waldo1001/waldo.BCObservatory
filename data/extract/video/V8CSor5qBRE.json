@@ -1,0 +1,452 @@
+{
+  "video_id": "V8CSor5qBRE",
+  "item_id": "video/yt-microsoft/V8CSor5qBRE",
+  "title": "What’s New: Enhanced Document Reporting Features (For Developers) (2024 release wave 2)",
+  "duration_s": 1504,
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "word layout engine",
+    "document reports",
+    "word add-in",
+    "layout controls",
+    "developer comments",
+    "conditional visibility",
+    "hide empty table",
+    "hide empty row",
+    "hide empty column",
+    "hide field if zero",
+    "word sections",
+    "merge data item"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Word Add-in Installation",
+      "t_start": 0,
+      "t_end": 120.5
+    },
+    {
+      "title": "Word Add-in Features and Layout Controls",
+      "t_start": 120.5,
+      "t_end": 247.9
+    },
+    {
+      "title": "Developer Comments in Layouts",
+      "t_start": 247.9,
+      "t_end": 361.9
+    },
+    {
+      "title": "Hide Empty Table Feature",
+      "t_start": 361.9,
+      "t_end": 463.8
+    },
+    {
+      "title": "Hide Empty Table Row Feature",
+      "t_start": 463.8,
+      "t_end": 596.2
+    },
+    {
+      "title": "Hide Empty Table Column Feature",
+      "t_start": 596.2,
+      "t_end": 682.8
+    },
+    {
+      "title": "Hide Field if Zero Feature",
+      "t_start": 682.8,
+      "t_end": 786.8
+    },
+    {
+      "title": "Hide zeros and word section support",
+      "t_start": 786.8,
+      "t_end": 852.4
+    },
+    {
+      "title": "Controlling layouts with word sections demo",
+      "t_start": 852.4,
+      "t_end": 1075.2
+    },
+    {
+      "title": "Developer documentation and section capabilities",
+      "t_start": 1075.2,
+      "t_end": 1137
+    },
+    {
+      "title": "Themeable reports and office themes demo",
+      "t_start": 1137,
+      "t_end": 1336
+    },
+    {
+      "title": "Theme documentation and small improvements",
+      "t_start": 1336,
+      "t_end": 1394.6
+    },
+    {
+      "title": "Font support and alignment fixes",
+      "t_start": 1394.6,
+      "t_end": 1504
+    }
+  ],
+  "features": [
+    {
+      "name": "Word Add-in for Document Reports",
+      "description": "A new Word add-in available in the 2024 release Wave 2 that enables using Word as the layout engine to produce documents. The add-in is installable from the Office App Store and provides new layout controls for document reporting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.7,
+      "t_end": 100.3,
+      "is_demoed": true,
+      "caveats": [
+        "The add-in is marked as preview in the current version but will be published as normal version when recording is watched"
+      ],
+      "tags": [
+        "word",
+        "add-in",
+        "document reporting",
+        "layout engine"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Developer Comments Layout Control",
+      "description": "Allows developers to add hidden comments in Word layouts for versioning and documentation purposes. These comments are hidden from end users when the document is generated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 27.4,
+      "t_end": 361.9,
+      "is_demoed": true,
+      "caveats": [
+        "Comments are encapsulated using the insert layout comment action"
+      ],
+      "tags": [
+        "comments",
+        "hidden content",
+        "developer",
+        "versioning"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Hide If Empty Table Layout Control",
+      "description": "A layout control that removes an entire table from a document if there is no data in the repeater. This solves the problem of displaying empty table headers when no data is available.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 361.9,
+      "t_end": 463.8,
+      "is_demoed": true,
+      "caveats": [
+        "Only works when the table has no data in the repeater; requires marking the full table and applying the hide if empty table layout control"
+      ],
+      "tags": [
+        "hide empty table",
+        "conditional visibility",
+        "table control"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Hide Empty Table Row Layout Control",
+      "description": "Allows hiding an entire row in a table based on whether a specific field in the repeater is empty. Useful for removing rows where certain data is not populated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 463.8,
+      "t_end": 596.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires selecting the specific field in the repeater that controls visibility; encapsulates the field with hide table row if empty layout control"
+      ],
+      "tags": [
+        "hide empty row",
+        "table row",
+        "conditional field"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Hide Empty Table Column Layout Control",
+      "description": "Removes an entire column from a table if there is no data in that column across all rows. Commonly used to remove discount columns when no discounts are applied.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 596.2,
+      "t_end": 682.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires marking the header cell in the table and applying the hide empty table column control"
+      ],
+      "tags": [
+        "hide empty column",
+        "table column",
+        "conditional visibility"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Hide Field If Zero Layout Control",
+      "description": "Removes a field from display if its value is zero. Useful for financial data where zero values should not be shown. Can be combined with hide column to remove entire columns with only zeros.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 682.8,
+      "t_end": 806.8,
+      "is_demoed": true,
+      "caveats": [
+        "Can be applied to any field in the layout, not just fields in repeaters; can be combined with hide column controls"
+      ],
+      "tags": [
+        "hide field if zero",
+        "conditional formatting",
+        "financial data",
+        "column visibility",
+        "zero values"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Word Sections Support for Merge Data Item",
+      "description": "Word layouts can now use Word sections when the merge data item property is used to iterate over multiple items, such as creating multiple invoices. Sections can control margins, orientation, columns, watermarks, headers, and footers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 786.8,
+      "t_end": 1075.2,
+      "is_demoed": true,
+      "caveats": [
+        "Previously sections could not be used in word layouts with merge data item property",
+        "Requires use of merge data item property",
+        "Only applicable to word layouts with iteration"
+      ],
+      "tags": [
+        "word sections",
+        "merge data item",
+        "multiple documents",
+        "section formatting",
+        "word layout",
+        "document control",
+        "formatting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Themeable reports with Office themes",
+      "description": "Ability to apply Office themes to word report layouts, allowing users to change fonts and colors by selecting different Office themes in Word and uploading the modified layout back to Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1137,
+      "t_end": 1336,
+      "is_demoed": true,
+      "caveats": [
+        "Only for layouts specifically marked as themeable"
+      ],
+      "tags": [
+        "themes",
+        "office integration",
+        "document customization",
+        "word layout"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Word alignment bug fix",
+      "description": "Fixed a bug in word layouts where alignment in repeaters would change when downloading a word layout. Now alignment works as expected in word.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1373.9,
+      "t_end": 1429,
+      "is_demoed": false,
+      "caveats": [
+        "Bug existed in previous versions"
+      ],
+      "tags": [
+        "alignment",
+        "word layout",
+        "bug fix",
+        "repeaters"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Planet PostNet and IMB font support",
+      "description": "Added Planet, PostNet and IMB fonts to Business Central service to support barcode generation, particularly for US postal barcodes that can encode addresses.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1429,
+      "t_end": 1463.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "barcode",
+        "fonts",
+        "postal",
+        "document layout"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Aptos font availability",
+      "description": "New Office default Aptos font will be available in Business Central service by October to use in document layouts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1463.7,
+      "t_end": 1484,
+      "is_demoed": false,
+      "caveats": [
+        "Availability target is October"
+      ],
+      "tags": [
+        "font",
+        "aptos",
+        "office integration",
+        "document layout"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "report layouts page",
+      "t": 193.4
+    },
+    {
+      "type": "report",
+      "name": "report 1303",
+      "t": 227.8
+    },
+    {
+      "type": "report",
+      "name": "invoice report",
+      "t": 872.2
+    },
+    {
+      "type": "page",
+      "name": "report layout page",
+      "t": 1177.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kenny pontop",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 6.7,
+      "text": "in this 2024 release Wave 2 session we're going to talk about words we're going to talk about how you can use word as",
+      "why_it_matters": "Establishes Word as a primary layout engine for document generation in the 2024 release wave 2.",
+      "check": "exact"
+    },
+    {
+      "t": 6.7,
+      "text": "a main new feature in the 2024 release Wave 2 is a new word add-in for document reports with this you can solve a",
+      "why_it_matters": "Defines the key capabilities of the new Word add-in, including developer comments and conditional visibility features.",
+      "check": "snapped"
+    },
+    {
+      "t": 120.5,
+      "text": "in my version it states preview in your version when you watch this recording there will be no preview it will just be the",
+      "why_it_matters": "Clarifies the preview status of the add-in and indicates it will be generally available by release.",
+      "check": "exact"
+    },
+    {
+      "t": 280.5,
+      "text": "this is not something we want our customers to see uh this is just a hidden comment you can see it's a hidden comment",
+      "why_it_matters": "Demonstrates how hidden comments work in layouts and their purpose in document design.",
+      "check": "exact"
+    },
+    {
+      "t": 423.5,
+      "text": "if I simply Mark the full table and go to business Central menu and choose hide if empty hide temp empty table this encapsulates",
+      "why_it_matters": "Explains the mechanism for hiding empty tables through the layout control system.",
+      "check": "exact"
+    },
+    {
+      "t": 786.8,
+      "text": "in business Central 2024 release Wave 2 if you have reports that use the word merge data item property to iterate over some things",
+      "why_it_matters": "Announces a significant capability enhancement allowing Word sections in merge data item scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 1116.2,
+      "text": "this version of the documentation has a warning about word word merge data item for from the past this is no longer the case",
+      "why_it_matters": "Clarifies that a previous limitation on using word sections with merge data items has been removed in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 1157.5,
+      "text": "with themeable reports in business Central 2024 release Wave 2 you can now do exactly that take any of these themeable layouts download them",
+      "why_it_matters": "Announces the new themeable reports feature allowing users to easily customize document appearance through Office themes without requiring development skills.",
+      "check": "exact"
+    },
+    {
+      "t": 1414.8,
+      "text": "this bug in word has been a pain for some time because whenever you downloaded a word layout word would change all the alignment",
+      "why_it_matters": "Documents a longstanding bug fix that resolves alignment issues when downloading word layouts, improving the stability of document layouts.",
+      "check": "exact"
+    },
+    {
+      "t": 1449.1,
+      "text": "we added Planet PostNet and IMB funds to the business Central service so that you can now use these in document layouts",
+      "why_it_matters": "Introduces barcode font support for postal applications, expanding document layout capabilities for compliance and logistics use cases.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 120.5,
+      "kind": "preview",
+      "text": "in my version it states preview in your version when you watch this recording there will be no preview it will just be the the the normal published version"
+    },
+    {
+      "t": 1463.7,
+      "kind": "coming-later",
+      "text": "we'll make sure that these fonts are also available in the business Central service by October"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 10,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 11
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025141999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021383
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023766000000000002
+    }
+  ]
+}

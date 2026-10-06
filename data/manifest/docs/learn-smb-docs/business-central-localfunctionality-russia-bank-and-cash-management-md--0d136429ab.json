@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/bank-and-cash-management",
   "published_at": "2025-07-22T16:06:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "22ad599fdb97eb54100ad8ec3ef5ebb6e6c7c56f",
       "words": 48,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:15:50.175Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005235
+    },
+    "summarized": {
+      "at": "2026-10-06T19:15:51.977Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:15:51.978Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:15:51.978Z",
+      "page": false
     }
   },
   "input_hash": "22ad599fdb97eb54100ad8ec3ef5ebb6e6c7c56f",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "22ad599fdb97eb54100ad8ec3ef5ebb6e6c7c56f"
+  "output_hash": "43450b4b46334fe7a0b85643801fa5a2d703a68559d935ddf372afeb4f05ac70"
 }

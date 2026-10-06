@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/appmanagement/app-management-api.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/appmanagement/app-management-api",
+  "title": "App Management API",
+  "blob": "9adefe11e5ceaa05e7b59e5d716a3d2567f01a54",
+  "summary": "App Management API provides REST endpoints for managing Business Central apps including entities for apps, countries, principals, versions, environments, and environment hotfixes with create, read, update, and delete operations.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "api",
+    "app management",
+    "rest endpoints",
+    "app publishing",
+    "environment management"
+  ],
+  "objects": [],
+  "features": [
+    "App entity",
+    "Country entity",
+    "Principal entity",
+    "Version entity",
+    "Environment entity",
+    "Environment Hotfix entity",
+    "Package upload",
+    "Availability management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005235,
+      "pages_in_call": 8
+    }
+  ]
+}

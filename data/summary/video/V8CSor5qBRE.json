@@ -1,0 +1,26 @@
+{
+  "video_id": "V8CSor5qBRE",
+  "item_id": "video/yt-microsoft/V8CSor5qBRE",
+  "summary": "Word layout enhancements for document reports in Business Central 2024 release wave 2, aimed at developers: a new Word add-in with layout controls (developer comments, hide empty table, row, column, hide field if zero), Word sections with merge data item, themeable layouts, and font and alignment fixes.",
+  "overview": "The video covers what is new for developers who build Word layouts for document reports in the 2024 release wave 2. It starts with installing the Word add-in from the Office App Store, then demonstrates the new layout controls: developer comments, hide empty table, hide empty table row, hide empty table column and hide field if zero.\n\nIt then shows Word sections working in layouts that use the merge data item property, and themeable reports where Office themes change fonts and colors. It closes with smaller changes: a fix for alignment in repeaters, Planet, PostNet and IMB barcode fonts in the service, and the Aptos font, which the presenter says will be available by October. The presenter notes the add-in is labeled preview in his version but will appear as the normal published version when the recording is watched.",
+  "key_points": [
+    "The Word add-in is installed from the Office App Store and adds layout controls for document reports.",
+    "Developer comments are added with the insert layout comment action and are hidden from end users in the generated document.",
+    "Hide if empty table removes the whole table when the repeater has no data; mark the full table and apply the control.",
+    "Hide table row if empty depends on a chosen field in the repeater; hide empty table column is applied to the header cell, for example for discount columns.",
+    "Hide field if zero works on any field in the layout, not only repeater fields, and can be combined with hide column to remove all-zero columns.",
+    "Word sections can now be used in layouts that use the merge data item property, to control margins, orientation, columns, watermarks, headers and footers. The documentation warning about this limit is described as no longer valid.",
+    "Themeable reports let users apply Office themes in Word and upload the layout again, only for layouts marked as themeable."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "fb59c7101543eb60d9ed70e7d2cd612c4d5e222ca19956daefe4cad70947aaad",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0191424
+  }
+}

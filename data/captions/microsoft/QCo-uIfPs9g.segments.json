@@ -1,0 +1,373 @@
+{
+  "video_id": "QCo-uIfPs9g",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.4,
+      "end": 26.9,
+      "text": "hello and welcome to this session on what's new in copilot de toolkit for business Central 2024 release Wave 2 my name is Peter boring and with me today I have Julia mulet and enrio jimyen time flies and especially in the context of AI and co-art it's already a year ago that we introduced a co-pilot developer toolkit"
+    },
+    {
+      "t": 26.9,
+      "end": 47.7,
+      "text": "allowing Al developers a quick and convenient way to tap into the Asher open AI service using Al code and bring generative co-pilot experiences to their extensions in a consistent way with the AA module in the system application The Prompt dialogue UI uh sample code as well as"
+    },
+    {
+      "t": 47.7,
+      "end": 68.2,
+      "text": "guidance and in this code Focus session you will learn more about the enhancements to the developer uh toolkit we'll present uh some new capabilities uh that we are shipping in this release and we will also revisit the sample app uh showing an endtoend uh flow of building a co-pilot feature"
+    },
+    {
+      "t": 68.2,
+      "end": 89.1,
+      "text": "using some of these new capabilities however while the session includes some recap of how to build co-pilot features in business Central it builds on previous releases and thus if this area is completely new to you then I highly recommend that you view some of those prior um sessions either before or after"
+    },
+    {
+      "t": 89.1,
+      "end": 109.3,
+      "text": "uh this session and for your convenience you can find the links to these other uh sessions in the description below so let's continue with the enhancements in this release uh the first addition to the co-pilot developer toolkit um is about co-pilot actions"
+    },
+    {
+      "t": 109.3,
+      "end": 130.1,
+      "text": "in 2024 release way 1 the developer tools introduced uh these co-pilot prompt actions a new way to drive attention to co-pilot capabilities in your extensions so a prompt action is a standard action which is rendered with greater prominence on the page such as in a floating bar"
+    },
+    {
+      "t": 130.1,
+      "end": 150.2,
+      "text": "uh and is connected to the co-pilot brand in the first iteration business Central supported copilot prompt actions on list list part worksheet and standard dialogue page types and to cater for more co-pilot experiences and address partner feedback we're now introducing support for co-pilot prompt actions"
+    },
+    {
+      "t": 150.2,
+      "end": 161.9,
+      "text": "on additional page types C document and list page uh page types um we ourselves are using this uh in the bank reconciliation uh"
+    },
+    {
+      "t": 161.9,
+      "end": 182,
+      "text": "co-pilot now the required Al code uh to to build this follows the same model as when adding c-pod prompt actions to list pages so as an example here we have added four co-art prompt actions um to the customer card via a page extension where two of the co-pilot prompt actions are listed"
+    },
+    {
+      "t": 182,
+      "end": 203,
+      "text": "in a group and we can see how the actions uh to to or to do this we see that we can add actions to the prompting group uh that represents the copil prompt actions and uh to group we can provide a nested group in the prompting area for the um for the nested prompt"
+    },
+    {
+      "t": 203,
+      "end": 223.6,
+      "text": "actions the second new feature in the co-pilot developer toolkit is the ability to display errors and warning and messages directly within the co-pilot prompt dialogues so users learning to work with co-pilot often needs simple and effective feedback loop to help them experiment experiment and make the"
+    },
+    {
+      "t": 223.6,
+      "end": 244.1,
+      "text": "uh most out of their AI powered assistant and so um co-pilot features that displays a prompt dialogue can now show errors and messages directly inside of the dialogue and while the prompt dialogues aren't intended for conversational EXP experiences the integrated feedback keeps users focused on the dialogue"
+    },
+    {
+      "t": 244.1,
+      "end": 264.1,
+      "text": "without distractions now um the the errors and messages thrown by the code in co-pilot prompt dialogues will now basically surface directly inside the dialogue rather than in a separate uh popup and so there's no additional work required uh by the developer to"
+    },
+    {
+      "t": 264.1,
+      "end": 284.1,
+      "text": "enable this functionality and we support both the classic uh the classic dialog error and a dialog message as well as the newer error info uh patterns there are some behavioral details uh though compared to sort of the the normal um pop-up dialogues that um f first"
+    },
+    {
+      "t": 284.1,
+      "end": 304.2,
+      "text": "of all if the code throws multiple messages only the last will be shown H we will indicate that more were thrown but only the last will be shown also uh we do not support line breaks in uh in the inline experience in cop pilot uh prompt dialoges and just like with the normal sort of"
+    },
+    {
+      "t": 304.2,
+      "end": 324.2,
+      "text": "flow for errors and messages if an error is thrown any sub subsequent messages will not uh be uh be rendered then a smaller but important user experience Improvement uh to The Prompt dialog is the support to resize columns this is provided as part of a general support uh across business"
+    },
+    {
+      "t": 324.2,
+      "end": 344.4,
+      "text": "Central so that um you can now change uh column sizes uh cross uh uh Pages cross list Pages um this applies per user and per page including the prompt dialogue and it does not require personalization uh permission so you can actually have users do"
+    },
+    {
+      "t": 344.4,
+      "end": 350,
+      "text": "that without being allowed to do any kind of"
+    },
+    {
+      "t": 350,
+      "end": 370.4,
+      "text": "personalization then we have some improvements to function calling so function calling is a way to extract and delegate AI tasks to specialized tools uh that could be for instance be providing a weather forecast for a certain location date and time and so if you have a prompt that asks for that you can extract that being sort of a"
+    },
+    {
+      "t": 370.4,
+      "end": 390.2,
+      "text": "something to fulfill and call A specialized function to return that and if you want to learn more about uh function calling we had a prior um launch event session on extending copilot using Al code um you will also find a link to this in the description uh for this session"
+    },
+    {
+      "t": 390.2,
+      "end": 410.9,
+      "text": "now in this release uh we have unblocked parallel function calling so that the model returns uh the tool calls in one response and that optimizes the round trips to the llm uh you can now also use a new Al interface uh for your functions um again I have provided a link here but we will also have that in the description"
+    },
+    {
+      "t": 410.9,
+      "end": 422.2,
+      "text": "uh below both of these we will talk more about later in this session in the in the code uh part"
+    },
+    {
+      "t": 422.4,
+      "end": 442.8,
+      "text": "then um we of course have Telemetry and uh for the last many many years uh we're giving you a lot of telemetry options because Telemetry is really good at getting insights about uh how your product is being used and now you can actually also get Telemetry events"
+    },
+    {
+      "t": 442.8,
+      "end": 462.8,
+      "text": "uh from the AI module uh optic sent to your application insights right so that allows isvs to track feature usage for their co-pilot features built with a co-pilot developer toolkit um so the AI module in system app and it will use the application insid connection string that is defined in"
+    },
+    {
+      "t": 462.8,
+      "end": 483,
+      "text": "the app. Json manifest uh of the calling app or extension right and so the way that you enable this is that you of course have to provide an app uh insights Connection in your extension uh as well as you also have to do a little bit of coding on uh setting up the Telemetry logger and for both of these things"
+    },
+    {
+      "t": 483,
+      "end": 503.1,
+      "text": "I added some links and you will find those in the description below now once you have this Telemetry enabled for your co-al features you of course want to um to react on them or see the insides and you can either monitor that yourself or you can take advantage of the powerbi app that we"
+    },
+    {
+      "t": 503.1,
+      "end": 516.6,
+      "text": "have available for isvs where you can for instance use that to track feature usage or a feature uptake or even uh issues or errors with your features from uh"
+    },
+    {
+      "t": 516.6,
+      "end": 537,
+      "text": "Telemetry then as we talked about uh Partners can build their thirdparty co-pilot features quickly uh in business Central using the co-pilot developer toolkit uh the current approach is then for the partner to bring their own self-managed and dedicated AI resources right so basically bring their own as open AI um account"
+    },
+    {
+      "t": 537,
+      "end": 557,
+      "text": "right and so we we are on track to enable managed AI resources so that you do not have to bring your own account uh or for that matter track usage or cost yourself manage the deployment scaling Etc so that would actually offload uh a lot of task"
+    },
+    {
+      "t": 557,
+      "end": 572.4,
+      "text": "from you so you can focus on just your co-pilot feature and uh these manag AI resources they are currently in private preview uh we expect a public preview to open in the end or Al of"
+    },
+    {
+      "t": 572.4,
+      "end": 592.6,
+      "text": "2024 and if you want to learn more about these managed AI resources Sandy had a as part of a session in the previous launch event he talked about this uh again I provided a link and you will find it in the descriptions uh below so these were the improvements uh to the co-pilot developer toolkit in this"
+    },
+    {
+      "t": 592.6,
+      "end": 612.8,
+      "text": "release so Julia can you show how we quickly can build a copil feature using some of these new capabilities of course we will build a eilot extension in business Central that will suggest as a project so what exactly will we build today we will build suggest project with co-pilot a copilot"
+    },
+    {
+      "t": 612.8,
+      "end": 633.2,
+      "text": "action on Project's page where the user inputs description of a needed project copell will generate that project proposal and some suggested tasks and we'll learn how to display error and messages within the prompt dialect something that Peter already mentioned the compiler's role in the extension will as I mentioned generate the project and tasks as well as use"
+    },
+    {
+      "t": 633.2,
+      "end": 653.3,
+      "text": "two functions and select which one needs to be used automatically before I go straight to uh Visual Studio code I'll first show you what will be the end product um of our coding today as you can see here I'm already on the project page and you can see our copile action that's"
+    },
+    {
+      "t": 653.3,
+      "end": 673.5,
+      "text": "is draft with copilot so let's see what it does a prompt dialog opens uh where we ask the user to describe the project they want to create if that extension looks somewhat familiar to you it is a more concise version of the sample app we already had uh in our BCT Tech uh repository"
+    },
+    {
+      "t": 673.5,
+      "end": 694.4,
+      "text": "but there's some new things first of all uh let's see the new display of error messages as now if the input is empty will not generate but display uh a message an error message to the user to describe uh the project they want to generated so let's see that in action I'll use one of our prompt guides"
+    },
+    {
+      "t": 694.4,
+      "end": 715.1,
+      "text": "to create a campaign for tray research and let's see what kopila can do as you can see it provides us with short project description the customer name that we have provided and some suggested tasks as part of the job"
+    },
+    {
+      "t": 715.1,
+      "end": 726.9,
+      "text": "structure and as part of the improvements of the prompt dialogue you can also now resize the column perfect so let's get to coding this"
+    },
+    {
+      "t": 726.9,
+      "end": 747.4,
+      "text": "extension I am now in visual studio and I have prepared for myself some code Snippets uh to expedite uh this demo uh you'll see that Cod the code snippet are not part of the sample app however you in the repository you'll find the whole sample app with all the C code provided so how do we start"
+    },
+    {
+      "t": 747.4,
+      "end": 767.4,
+      "text": "building EOP pilot extension in business Central well we are providing a new compilot capability of course so we will need to extend uh extend that uh inum copil capability having our own suggest a project then we need to register that capability"
+    },
+    {
+      "t": 767.4,
+      "end": 787.9,
+      "text": "uh on install or on update here I have on install so if the copilot capability is not yet registered I then register it here using the copilot capability code unit perfect so our capability is registered already"
+    },
+    {
+      "t": 787.9,
+      "end": 800.6,
+      "text": "then we go to extending the page where we want uh our copilot action to show so here we are extending job list or project"
+    },
+    {
+      "t": 800.6,
+      "end": 820.1,
+      "text": "list and in actions in area prompting uh we can add our own copilot action that you have already already seen in the demo great so we have registered capability created an extension Now we move on to creating a prompt dialogue"
+    },
+    {
+      "t": 820.1,
+      "end": 837.4,
+      "text": "page so here we have a prompt dialog page and in the layout we have two important areas The Prompt area and the content area in the prompt area this is where your user will Pro uh will provide input"
+    },
+    {
+      "t": 837.4,
+      "end": 857.6,
+      "text": "so we put a field that will allow just that then the content area as you know is where we present what copilot has generated so here we'll input Fields uh that we saw there like uh customer name project short description"
+    },
+    {
+      "t": 857.6,
+      "end": 877.7,
+      "text": "and the subport that is a repeater of the job tasks so we now have the frame on where where we will display both the input port and the output for your user to interact with in the dialogue then in the demo you saw me use one of our prompt guides uh I think I picked create a campaign"
+    },
+    {
+      "t": 877.7,
+      "end": 897.9,
+      "text": "and you can add your own prompt guides to your copilot extensions to guide your users into what they can do then you also saw some uh actions in the system actions area such as generate and then generate this is where we trigger uh the"
+    },
+    {
+      "t": 897.9,
+      "end": 911.3,
+      "text": "magic the compilot part of the behavior of our extension so we want to generate that project we have a suggested job generate proposal code unit and there uh we call"
+    },
+    {
+      "t": 911.3,
+      "end": 931.8,
+      "text": "copilot so here in running generation you can see that we open the progress dialogue with our custom text that's how you can customize the uh message that is displayed while the co-pilot is working set user prompt reset the previous output that we had and have three attempts"
+    },
+    {
+      "t": 931.8,
+      "end": 952,
+      "text": "uh to run the uh generate proposal code unit and get the results if there's an error we would display an error but we saw a different error when there was no uh input uh that's because here we can also provide any other messages and errors uh that we"
+    },
+    {
+      "t": 952,
+      "end": 972.7,
+      "text": "need simply as if you were generating a standard error or a standard message in business cental great so that's a uh that's a frame that we have to generate that proposal but now let's dive into the actual parts of interacting of running"
+    },
+    {
+      "t": 972.7,
+      "end": 992.8,
+      "text": "uh our co-pilot functions uh and generating our proposal enri could you take us through it yes of course thank you juliia so let's dig a bit deeper into how the actual calls to aure open AI work um on a lower level so here you see that I have the actual core of this extension where I am generating the"
+    },
+    {
+      "t": 992.8,
+      "end": 1012.9,
+      "text": "job proposal and as you can see it's just like some 20 lines of code but you need to have of course the right lines of code so let's go through them so the first thing you need to do is you need to set uh authorization to the asure open AI code unit so in my case I am using this manage resource authorization as Peter mentioned before we are now running"
+    },
+    {
+      "t": 1012.9,
+      "end": 1033,
+      "text": "this prr program uh with selected partners that is going to open up to every partner uh very soon to use U manage resources from Microsoft so that's what I'm using here um uh you also have the option of using your own aure open AI subscription in that case there is a slightly different syntax you need to use which is um shown here"
+    },
+    {
+      "t": 1033,
+      "end": 1053.2,
+      "text": "but in my case I will just keep this commented and use the manage resource instead you need some more setup on the uh asure open AI General level so for example here we need to specify which capability we are using Julia showed you earlier how to register a new capability in the system this is used for multiple Purp for example for tracking but also so that admins can choose on a more fine"
+    },
+    {
+      "t": 1053.2,
+      "end": 1073.5,
+      "text": "grain level which co-pilot capabilities they want active in their system or not you can also fine tune some more parameters for example the max tokens or the temperature you don't need to do that um in simple cases but if you want some more complicated scenario or if you want copilot to be more or less creative when it replies then uh you will need to customize"
+    },
+    {
+      "t": 1073.5,
+      "end": 1091.9,
+      "text": "those and then what we're using here is the copilot chat completion endpoint which which means you need to add some chat messages so here as you can see I have some system message which is basically telling asure open a what is the uh main task to fulfill and then we have a user message which is the actual user"
+    },
+    {
+      "t": 1091.9,
+      "end": 1112.6,
+      "text": "prompt as Julia mentioned this sample is similar to the one we had already in BC with the difference that instead of having some long and rather complicated XML parsing then we're instead using tools so tools are this very cool feature in asure open AI that we Al exposed in our toolkit which allows you basically to specify"
+    },
+    {
+      "t": 1112.6,
+      "end": 1132.8,
+      "text": "U uh like client side if you want or like um alite Plugin or function that you can make available for the llm um so in this case we have two functions or tools that we're adding they are called Suggest job create job and uh create job task so now copilot knows that they can call these two"
+    },
+    {
+      "t": 1132.8,
+      "end": 1153,
+      "text": "to basically create a new job or a new job task we uh are also exposing some new options for you to set the tool Behavior what does this mean with the tool invoke preference you can tell our Al toolkit that you want the uh tools to be automatically invoked when copilot tells the toolkit that he wants"
+    },
+    {
+      "t": 1153,
+      "end": 1173,
+      "text": "to invoke some Tool uh there are other options here for example you can set it to manual that means it's going to be on you as the developer to actually call your tool once copilot tells you that that's the tool he wants to call we also have this tool Choice which can limit which tools pilot can call so you can just tell copilot look there's multiple tools but I just want you"
+    },
+    {
+      "t": 1173,
+      "end": 1193.1,
+      "text": "to call one of them for example um it might make sense for actually you can also set it to none so you can just tell co- pilot look there are some tools but for this specific moment I don't want you to call them u in most of the cases auo is the option you want but um you might want to F tune this as well and then finally generate chat completion is where all"
+    },
+    {
+      "t": 1193.1,
+      "end": 1213.2,
+      "text": "of the co-pilot generation happens and then you will just get back a response as you can see at the endend here of my function I am getting back from the function code unit the result so um this is U interesting but let's actually see how like what does this mean to get back the result so let me"
+    },
+    {
+      "t": 1213.2,
+      "end": 1234,
+      "text": "switch back to um the actual function now as you can see on top here of the file I am implementing this new interface which Peter mentioned as well before which is this aoi function interface that is in the AL toolkit so this interface contains three functions which are get prompt execute and get name"
+    },
+    {
+      "t": 1234,
+      "end": 1254.2,
+      "text": "you need to implement all three of them for your function to be recognized by the AL toolkit and then you can of course have more functions as if uh as a normal code unit so in my case my suggest uh job or create job function wants uh get job um specific procedure to get back the result but the other one I have which is the job"
+    },
+    {
+      "t": 1254.2,
+      "end": 1274.6,
+      "text": "task will need for example to get out the job task and for your own specific implementation you you might need different functions and that's totally fine as long as you have the three that are mandated by the interface let's have a slightly deeper look on how those functions look like so the get name is very straightforward you just need to tell copilot what's the name of your function the execute"
+    },
+    {
+      "t": 1274.6,
+      "end": 1294.8,
+      "text": "will depend very much on your implementation in my case I'm just basically uh iterating through the temporary record and inserting whatever copilot tells me to insert but what I think what's more interesting is the get prompt function uh and you this is where basically you are defining the function as a Json object and you are giving that to copilot"
+    },
+    {
+      "t": 1294.8,
+      "end": 1313.2,
+      "text": "there is a specific um format you need to use here you can easily find it either in our samples or in the documentation but as you can see here I am basically giving copilot a tool and the function definition with its own parameters so copilot will know which properties needs to be defined when it tries to call this"
+    },
+    {
+      "t": 1313.2,
+      "end": 1333.4,
+      "text": "function so let's summarize what you just saw in this session so you saw some copilot actions available in the uh new page types for example in card Pages as well as in list Pages you also saw from Julia's demo how to display error messages directly inside prom dialogue as well as um normal messages informational for the user and that's just by using the built-in"
+    },
+    {
+      "t": 1333.4,
+      "end": 1353.7,
+      "text": "message and error functions Julia also showed how to resize columns in the prom dialog that's also a nice new feature in the client and also Peter showed you how you can get in application insights some more Telemetry about how your users use compiled features I showed you some fun function calling and how you can achieve um like some new cleaner and nicer code using"
+    },
+    {
+      "t": 1353.7,
+      "end": 1373.8,
+      "text": "functions and tools and and that's all so now you know how to build your extension from ground app so what do you need to do now well first of all make sure you go and watch the previous videos on the copil developer to Kit so all of these is still current we have of course new updates but you um you still want to make sure you watch the uh introductory videos we also have of course"
+    },
+    {
+      "t": 1373.8,
+      "end": 1394.1,
+      "text": "docs on the cilo toolkit so make sure you have a look at those as well as the samples we have on BCTC you can see the links on screen but also they will be in the description of this video so now you're ready to build some awesome copilot features for our customers also make sure as we mentioned before multiple times to keep an eye on the public preview for manage resources that's coming later"
+    },
+    {
+      "t": 1394.1,
+      "end": 1403.6,
+      "text": "this year and you really don't want to miss that that's all we have for you today thank you for your attention"
+    }
+  ],
+  "markers": [],
+  "word_count": 3830
+}

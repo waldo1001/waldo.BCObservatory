@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/how-to-set-up-bank-accounts-for-electronic-payments",
   "published_at": "2025-08-04T13:14:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "810382693c87a81f889071336a19d4c4dc4dca8b",
       "words": 405,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:15:50.170Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005235
+    },
+    "summarized": {
+      "at": "2026-10-06T19:15:50.179Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:15:51.962Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:15:51.963Z",
+      "page": false
     }
   },
   "input_hash": "810382693c87a81f889071336a19d4c4dc4dca8b",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "810382693c87a81f889071336a19d4c4dc4dca8b"
+  "output_hash": "6b49f192ed8140d70b64a65ba9d243d129e25941635f988fb0754e49c1ff7f0a"
 }

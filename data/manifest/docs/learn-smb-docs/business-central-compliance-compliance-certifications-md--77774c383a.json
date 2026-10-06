@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/compliance/compliance-certifications",
   "published_at": "2025-07-23T12:21:46.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "918c51d144c32075d97a1366a45cae1983fcabd8",
       "words": 213,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:15:50.173Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005235
+    },
+    "summarized": {
+      "at": "2026-10-06T19:15:51.969Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:15:51.970Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:15:51.971Z",
+      "page": false
     }
   },
   "input_hash": "918c51d144c32075d97a1366a45cae1983fcabd8",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "918c51d144c32075d97a1366a45cae1983fcabd8"
+  "output_hash": "de7df3e4949dbf1871f2b216c902eebb05a322914bfc0c8229a8be0b3399a1b1"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/account-schedules-overview",
   "published_at": "2025-07-22T16:06:50.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1c1bf5db5a2e27fcc71221c3e12cdad962261a05",
       "words": 152,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:15:50.174Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005235
+    },
+    "summarized": {
+      "at": "2026-10-06T19:15:51.971Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:15:51.972Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:15:51.973Z",
+      "page": false
     }
   },
   "input_hash": "1c1bf5db5a2e27fcc71221c3e12cdad962261a05",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1c1bf5db5a2e27fcc71221c3e12cdad962261a05"
+  "output_hash": "35f4ebef14474c4f89dc78122eef05e127f935108964eee2ff3c7018da1f0515"
 }

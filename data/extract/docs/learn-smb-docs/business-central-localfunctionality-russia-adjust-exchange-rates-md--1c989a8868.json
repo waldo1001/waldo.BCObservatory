@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Russia/Adjust-Exchange-Rates.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/Adjust-Exchange-Rates",
+  "title": "Adjust exchange rates in Russia",
+  "blob": "d83be43c54fdc0e9addf1738cfe9ddb839067e3d",
+  "summary": "Adjust exchange rates in Russia describes how to run the Adjust Exchange Rates batch job for the Russian version which creates adjustment entries for each vendor and customer entry.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "exchange rates",
+    "russia localization",
+    "currency adjustment"
+  ],
+  "objects": [],
+  "features": [
+    "Exchange rate adjustment",
+    "Posting description",
+    "Historical period support",
+    "G/L account adjustment",
+    "Bank account adjustment",
+    "Customer adjustment",
+    "Vendor adjustment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005235,
+      "pages_in_call": 8
+    }
+  ]
+}
