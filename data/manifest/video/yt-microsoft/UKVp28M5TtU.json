@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=UKVp28M5TtU",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,19 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:27:55.394Z",
+      "path": "data/extract/video/UKVp28M5TtU.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 4,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.014622
     }
   },
   "input_hash": null,
@@ -35,5 +48,6 @@
     "seed_file": "2025-10-01 - BCLE - What's New in Sustainability： Measure All Gasses as Carbon Equivalents (2025 release wave 2) [UKVp28M5TtU].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "d9df74a1829064d00859e2390790018623f1739b9d16107d5279b44386c61b57"
 }

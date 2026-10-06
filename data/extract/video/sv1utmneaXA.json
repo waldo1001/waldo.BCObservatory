@@ -1,0 +1,277 @@
+{
+  "video_id": "sv1utmneaXA",
+  "item_id": "video/yt-microsoft/sv1utmneaXA",
+  "title": "Introducing: Extending Copilot Chat with Your App's Documentation (2025 release wave 2)",
+  "duration_s": 481,
+  "systems": [
+    "copilot",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "copilot chat",
+    "app documentation",
+    "search integration",
+    "bing search",
+    "app.json configuration",
+    "help links",
+    "partner support",
+    "customer self-service"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview of Copilot app integration",
+      "t_start": 0,
+      "t_end": 69.4
+    },
+    {
+      "title": "Demo: Copilot answering questions about the Fabricam app",
+      "t_start": 69.4,
+      "t_end": 168.6
+    },
+    {
+      "title": "How Copilot finds and uses app documentation",
+      "t_start": 168.6,
+      "t_end": 237.8
+    },
+    {
+      "title": "Prerequisites: help property in app.json and public documentation",
+      "t_start": 237.8,
+      "t_end": 282.8
+    },
+    {
+      "title": "Documentation requirements: indexing, site structure, and redirects",
+      "t_start": 282.8,
+      "t_end": 356.4
+    },
+    {
+      "title": "Format and testing recommendations for documentation",
+      "t_start": 356.4,
+      "t_end": 412.3
+    },
+    {
+      "title": "Next steps and future evolution of the feature",
+      "t_start": 412.3,
+      "t_end": 455.5
+    },
+    {
+      "title": "Closing remarks",
+      "t_start": 455.5,
+      "t_end": 481
+    }
+  ],
+  "features": [
+    {
+      "name": "Copilot Chat with app documentation",
+      "description": "Copilot can answer questions about installed add-on apps by searching their online documentation. Users can ask about app functionality, configuration, and troubleshooting, with answers grounded in the app's help documentation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 43,
+      "t_end": 237.8,
+      "is_demoed": true,
+      "caveats": [
+        "Site must be publicly accessible and indexed by Bing",
+        "No authentication or password walls allowed",
+        "Copilot searches up to two levels deep from the help link URL",
+        "Can take a few days for new sites to be indexed by Bing"
+      ],
+      "tags": [
+        "copilot",
+        "ai",
+        "documentation",
+        "search"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Help property in app.json",
+      "description": "Partners must add a help property to their app.json file that points to their online documentation. This enables Copilot to discover and search the app's help documentation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 271.8,
+      "t_end": 282.8,
+      "is_demoed": false,
+      "caveats": [
+        "Partners are accountable for what is at the end of that link",
+        "Documentation link must point to a public, internet-accessible site"
+      ],
+      "tags": [
+        "app.json",
+        "configuration",
+        "development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Bing search integration with Copilot",
+      "description": "Copilot uses Microsoft Bing search to find answers within app documentation websites. It transforms user questions into search terms and searches only the specified documentation site.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 199,
+      "t_end": 225.4,
+      "is_demoed": false,
+      "caveats": [
+        "Site must be indexed by Bing",
+        "Site must be public with no authentication required",
+        "Indexing can take several days after site publication or updates"
+      ],
+      "tags": [
+        "bing",
+        "search",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Bing Webmaster Tools integration",
+      "description": "Partners can use Bing Webmaster Tools to ensure proper indexing of their documentation sites and to accelerate the discovery process for Copilot.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 307.5,
+      "t_end": 322.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "bing",
+        "indexing",
+        "tools"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Documentation site structure requirements",
+      "description": "Copilot searches content at the defined help URL and up to two levels down. Partners should avoid deep URL structures and should not use redirects or URL shorteners that point to different domains.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 334.1,
+      "t_end": 356.4,
+      "is_demoed": false,
+      "caveats": [
+        "URL redirects to different domains will not work",
+        "URL shorteners can confuse Copilot",
+        "Content may need restructuring to match Copilot's search depth"
+      ],
+      "tags": [
+        "documentation",
+        "site structure",
+        "search"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Documentation format support",
+      "description": "Copilot works primarily with text on web pages. It ignores illustrations and icons but can process text within Excel and PDF files hosted on the documentation website.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 356.4,
+      "t_end": 372.7,
+      "is_demoed": false,
+      "caveats": [
+        "Illustrations and icons are ignored",
+        "PDF and Excel files must be hosted on the website"
+      ],
+      "tags": [
+        "documentation",
+        "format",
+        "content"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "app.json",
+      "t": 271.8
+    },
+    {
+      "type": "other",
+      "name": "Fabricam project management app",
+      "t": 69.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Mike",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 43,
+      "text": "Copilot and Business Central can now answer questions based on the apps that are installed on that environment",
+      "why_it_matters": "Establishes that Copilot has the core capability to answer questions about installed add-ons, which is the main feature being introduced",
+      "check": "exact"
+    },
+    {
+      "t": 168.6,
+      "text": "every response that Copilot gave me here is grounded in the documentation that accompanies the Fabricam app that I have installed",
+      "why_it_matters": "Clarifies that Copilot answers are sourced from and verified against app documentation, ensuring accuracy and traceability",
+      "check": "exact"
+    },
+    {
+      "t": 271.8,
+      "text": "you need to make sure that your app.json file has a help property pointing to your online documentation",
+      "why_it_matters": "Specifies the technical requirement partners must implement to enable the feature for their apps",
+      "check": "exact"
+    },
+    {
+      "t": 282.8,
+      "text": "your site needs to be accessible uh with Microsoft Bing. It needs to be indexed by Bing. Um which means the site has to",
+      "why_it_matters": "Establishes critical accessibility requirements that partners must meet for Copilot to access their documentation",
+      "check": "exact"
+    },
+    {
+      "t": 334.1,
+      "text": "copilot will search what's at the URL you defined in that help property and up to two levels down",
+      "why_it_matters": "Specifies the search depth limit that partners must design their documentation structure around",
+      "check": "exact"
+    },
+    {
+      "t": 356.4,
+      "text": "Copilot works primarily with text and that means it's going to ignore any illustrations, any icons that you have on your help site. Um,",
+      "why_it_matters": "Clarifies format support and limitations that affect how partners should structure their documentation content",
+      "check": "exact"
+    },
+    {
+      "t": 455.5,
+      "text": "we're looking forward to evolving this concept even further to provide much better support for our customers in the future",
+      "why_it_matters": "Indicates the feature is planned for future enhancement beyond what is currently demonstrated",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 455.5,
+      "kind": "coming-later",
+      "text": "we're looking forward to evolving this concept even further to provide much better support for our customers in the future"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023433999999999996
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=Tl2B-85JQIw",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:27:39.015Z",
+      "path": "data/extract/video/Tl2B-85JQIw.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 6,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.013615
+    },
+    "summarized": {
+      "at": "2026-10-06T18:27:45.365Z",
+      "path": "data/summary/video/Tl2B-85JQIw.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.012110399999999999
+    },
+    "linked": {
+      "at": "2026-10-06T18:27:45.366Z",
+      "systems": [
+        "purchasing",
+        "finance",
+        "reporting"
+      ],
+      "topics": 8,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T18:27:45.377Z",
+      "path": "content/videos/Tl2B-85JQIw.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2025-10-01 - BCLE - What's New： Account Payable Role Center (2025 release wave 2) [Tl2B-85JQIw].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "a23e227c7002a10f636072eb21ba197af9d5374efd1c2ecde851348031fc7a79"
 }

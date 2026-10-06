@@ -1,0 +1,28 @@
+{
+  "video_id": "sv1utmneaXA",
+  "item_id": "video/yt-microsoft/sv1utmneaXA",
+  "summary": "Copilot Chat in Business Central can answer questions about installed add-on apps using the app's public online documentation, found through Bing search. The video covers the help property in app.json and the documentation requirements partners must meet: public access, Bing indexing, and a shallow site structure.",
+  "overview": "The video, from the 2025 release wave 2 series, shows Copilot answering questions about an installed project management app (Fabricam). Answers on functionality, configuration and troubleshooting are grounded in the app's help documentation.\n\nIt then explains how this works and what partners must do. The app.json file needs a help property pointing to online documentation. Copilot turns the user's question into search terms and uses Bing to search that site. The video also gives recommendations on site structure, content format and testing, and says the concept will evolve further to support customers better.",
+  "key_points": [
+    "Add a help property to app.json that points to the app's online documentation. Partners are accountable for what is at the end of that link.",
+    "The documentation site must be public, with no authentication or password wall, and must be indexed by Bing.",
+    "Copilot searches the help URL and up to two levels below it, so avoid deep URL structures.",
+    "Do not use redirects to different domains or URL shorteners, because they will not work or can confuse Copilot.",
+    "Copilot works mainly with page text. It ignores illustrations and icons, but can read text in Excel and PDF files hosted on the site.",
+    "New or updated sites can take a few days to be indexed by Bing. Bing Webmaster Tools can help with indexing and speed up discovery.",
+    "Test your documentation by asking Copilot questions about your app."
+  ],
+  "audience": [
+    "partner",
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "c824ff053e4019426f734e36255ffdc3812221ff433ea23e820da80afc07e863",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.014400399999999999
+  }
+}

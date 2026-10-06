@@ -1,0 +1,200 @@
+{
+  "video_id": "VEVo5LgCGfw",
+  "item_id": "video/yt-microsoft/VEVo5LgCGfw",
+  "title": "What's New: Open Sourcing Power BI Apps for Business Central (2025 release wave 2)",
+  "duration_s": 350,
+  "systems": [
+    "reporting",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "power bi apps",
+    "open source",
+    "semantic models",
+    "pbx file",
+    "dax expressions",
+    "business central analytics",
+    "release wave 2"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to open-sourced Power BI apps",
+      "t_start": 0,
+      "t_end": 44.8
+    },
+    {
+      "title": "Wave 1 and Wave 2 app releases",
+      "t_start": 44.8,
+      "t_end": 89.8
+    },
+    {
+      "title": "How to download and modify Power BI apps",
+      "t_start": 89.8,
+      "t_end": 141.4
+    },
+    {
+      "title": "Documentation resources and learning materials",
+      "t_start": 141.4,
+      "t_end": 218
+    },
+    {
+      "title": "Community engagement and follow channels",
+      "t_start": 218,
+      "t_end": 276
+    },
+    {
+      "title": "Partner resources and office hours",
+      "t_start": 276,
+      "t_end": 350
+    }
+  ],
+  "features": [
+    {
+      "name": "Open-sourced Power BI apps for Business Central",
+      "description": "Power BI applications for Business Central are now open-sourced, allowing users to download source code and modify semantic models and reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.1,
+      "t_end": 76.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "open source",
+        "semantic models",
+        "reports"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Wave 1 Power BI apps open sourcing",
+      "description": "Most Power BI apps were open-sourced in release wave 1, providing high quality semantic models and designed reports out of the box.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 44.8,
+      "t_end": 57.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "release wave 1",
+        "semantic models"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Wave 2 Power BI apps for sales, purchasing, and projects",
+      "description": "Three remaining Power BI apps for sales, purchasing, and projects are being released in wave 2, completing the open-source availability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 57.4,
+      "t_end": 76.8,
+      "is_demoed": false,
+      "caveats": [
+        "download option available in October versions"
+      ],
+      "tags": [
+        "sales",
+        "purchasing",
+        "projects",
+        "release wave 2"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Download Power BI app source code via PBX file",
+      "description": "Users can download the PBX file from Power BI service using File menu to access the source code for Power BI apps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 89.8,
+      "t_end": 141.4,
+      "is_demoed": true,
+      "caveats": [
+        "download option only available in new versions published in October for sales, purchasing, projects"
+      ],
+      "tags": [
+        "pbx file",
+        "download",
+        "power bi service"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI app documentation including DAX expressions",
+      "description": "Each Power BI app has documentation covering both reports and semantic models, including how measures are calculated and their DAX expressions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 141.4,
+      "t_end": 206.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "dax",
+        "semantic models",
+        "measures"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 44.8,
+      "text": "In release wave 1, we open sourced most of the apps.",
+      "why_it_matters": "Establishes the timeline and scope of the first wave of open-sourcing Power BI apps for Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 57.4,
+      "text": "Remaining three is coming now here in wave two, which is uh sales, the apps for sales, for purchasing and for projects.",
+      "why_it_matters": "Specifies which apps are being released in wave 2 and completes the open-source availability across all major modules.",
+      "check": "exact"
+    },
+    {
+      "t": 76.8,
+      "text": "Everything is now uh available by the time of this recording. Uh all the source code uh you can download.",
+      "why_it_matters": "Confirms general availability of all Power BI app source code for download at the time of the video.",
+      "check": "exact"
+    },
+    {
+      "t": 129.4,
+      "text": "For sales, purchasing and for projects, the download this file option only will only be present in the new versions we are publishing here",
+      "why_it_matters": "Indicates a specific timeline constraint - the download feature is only available in October versions for these three apps.",
+      "check": "exact"
+    },
+    {
+      "t": 192,
+      "text": "each of the PowerBI apps have their own part of the documentation where both the reports are documented as well as the semantic model.",
+      "why_it_matters": "Explains the comprehensive documentation available for understanding and modifying the Power BI apps.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.017523999999999998
+    }
+  ]
+}

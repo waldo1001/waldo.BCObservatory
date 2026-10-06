@@ -1,0 +1,235 @@
+{
+  "video_id": "UKVp28M5TtU",
+  "item_id": "video/yt-microsoft/UKVp28M5TtU",
+  "title": "What's New in Sustainability: Measure All Gasses as Carbon Equivalents (2025 release wave 2)",
+  "duration_s": 303,
+  "systems": [
+    "sustainability",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "carbon equivalents",
+    "emission factors",
+    "sustainability setup",
+    "greenhouse gases",
+    "environmental reporting",
+    "post-implementation configuration"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to carbon equivalents feature",
+      "t_start": 0,
+      "t_end": 21.4
+    },
+    {
+      "title": "Business value and emission factor challenges",
+      "t_start": 21.4,
+      "t_end": 47.5
+    },
+    {
+      "title": "Benefits and setup overview",
+      "t_start": 47.5,
+      "t_end": 74.2
+    },
+    {
+      "title": "Two configuration options explained",
+      "t_start": 74.2,
+      "t_end": 111.5
+    },
+    {
+      "title": "Enabling carbon equivalents and UI changes",
+      "t_start": 111.5,
+      "t_end": 156.2
+    },
+    {
+      "title": "Live demonstration of before and after",
+      "t_start": 156.2,
+      "t_end": 225.4
+    },
+    {
+      "title": "Automatic configuration and feature summary",
+      "t_start": 225.4,
+      "t_end": 254.8
+    },
+    {
+      "title": "Resources and conclusion",
+      "t_start": 254.8,
+      "t_end": 303
+    }
+  ],
+  "features": [
+    {
+      "name": "Measure all gases as carbon equivalents",
+      "description": "Feature allows users to configure the system to measure all greenhouse gas emissions as carbon dioxide equivalents rather than entering individual emission factors for each gas type. Simplifies data entry and enables standardized emissions reporting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.8,
+      "t_end": 156.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires enabling the setting in sustainability setup",
+        "Organization must choose between two models: detailed per-gas tracking or carbon equivalent approach",
+        "Pre-configured emission factors assume a value of 1 for carbon equivalent factors by default"
+      ],
+      "tags": [
+        "carbon equivalent",
+        "emissions",
+        "sustainability setup",
+        "greenhouse gases",
+        "configuration"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Automatic emission factor pre-setup",
+      "description": "When carbon equivalents feature is enabled, the system automatically pre-configures emission factors with carbon equivalent values set to 1.0 as the default base value.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 225.4,
+      "t_end": 254.8,
+      "is_demoed": true,
+      "caveats": [
+        "Default value of 1 may need customization based on specific carbon equivalent factors required"
+      ],
+      "tags": [
+        "emission factors",
+        "auto-configuration",
+        "defaults"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Dynamic caption changes based on setup",
+      "description": "UI captions throughout the system automatically update based on whether carbon equivalents mode is enabled. Captions change from specific gas names (e.g. 'Default Metan') to 'Default Carbon Equivalent for CH4'.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 111.5,
+      "t_end": 156.2,
+      "is_demoed": true,
+      "caveats": [
+        "Caption changes appear across all sustainability-related pages including item cards, purchase documents, and ledger entries"
+      ],
+      "tags": [
+        "ui",
+        "captions",
+        "localization",
+        "sustainability pages"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Use all emissions as carbon equivalent setup option",
+      "description": "New toggle field in Sustainability Setup page that enables the carbon equivalents functionality. When activated, it switches the system to use carbon equivalent values for all gas measurements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 198.1,
+      "t_end": 225.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "setup",
+        "configuration",
+        "sustainability",
+        "field"
+      ],
+      "system": "sustainability"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sustainability Setup",
+      "t": 111.5
+    },
+    {
+      "type": "page",
+      "name": "Item Card",
+      "t": 169.5
+    },
+    {
+      "type": "page",
+      "name": "Sustainability Journal",
+      "t": 97.9
+    },
+    {
+      "type": "page",
+      "name": "Purchase Document",
+      "t": 97.9
+    },
+    {
+      "type": "page",
+      "name": "Sustainability Ledger Entries",
+      "t": 156.2
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.8,
+      "text": "In this session I will show you new feature in sustainability and this is enable to measure all gases as a carbon equivalent",
+      "why_it_matters": "Establishes the core feature being presented in the session",
+      "check": "exact"
+    },
+    {
+      "t": 33.8,
+      "text": "Very often you cannot find emission factors for each of gases. For example, you can find for carbon but not for metan",
+      "why_it_matters": "Explains the problem the feature solves - emission factor data gaps for certain gases",
+      "check": "exact"
+    },
+    {
+      "t": 60.7,
+      "text": "So now we will simplify this access to emission factors because we are asking if you set up this way only for carbo equivalent",
+      "why_it_matters": "Clarifies the benefit of simplified configuration using carbon equivalent approach",
+      "check": "exact"
+    },
+    {
+      "t": 84.6,
+      "text": "if you want to use previous model where you wanted to use all emissions uh as accurate emissions fac emissions for each of gases",
+      "why_it_matters": "Confirms backward compatibility - existing per-gas tracking approach still available",
+      "check": "exact"
+    },
+    {
+      "t": 124.1,
+      "text": "we will have a changes in all your pages. So all your page will show different uh captions for emissions",
+      "why_it_matters": "Describes the pervasive UI changes when carbon equivalents mode is activated",
+      "check": "exact"
+    },
+    {
+      "t": 156.2,
+      "text": "everywhere you will see new caption and you need to enter only carbon equivalents for these gases",
+      "why_it_matters": "Summarizes the user experience change - simplified data entry across all pages",
+      "check": "exact"
+    },
+    {
+      "t": 240.5,
+      "text": "all of them will be set up as a one because this is default value",
+      "why_it_matters": "Explains the automatic pre-configuration behavior and default values",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014622
+    }
+  ]
+}
