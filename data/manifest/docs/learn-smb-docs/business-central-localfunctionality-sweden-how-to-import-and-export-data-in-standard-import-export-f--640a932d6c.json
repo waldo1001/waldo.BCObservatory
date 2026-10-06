@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "139ca1ff90a66b8a36c8de5570df74e7bac441f7",
       "words": 424,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:25.967Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002264
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:30.052Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:30.053Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:30.054Z",
+      "page": false
     }
   },
   "input_hash": "139ca1ff90a66b8a36c8de5570df74e7bac441f7",
@@ -47,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "139ca1ff90a66b8a36c8de5570df74e7bac441f7"
+  "output_hash": "98c9b8b5019ca0da4ea1884abe1a9320716b567e19d645f20d6c27a8444e57b1"
 }

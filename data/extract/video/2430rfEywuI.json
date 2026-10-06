@@ -1,0 +1,185 @@
+{
+  "video_id": "2430rfEywuI",
+  "item_id": "video/yt-microsoft/2430rfEywuI",
+  "title": "GP Assessment Tool - Optimize Your Migration to Dynamics 365 Business Central (2024)",
+  "duration_s": 164,
+  "systems": [
+    "integration",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "gp assessment",
+    "migration planning",
+    "cloud migration",
+    "gp to business central",
+    "assessment report",
+    "risk identification",
+    "isv solutions",
+    "data analysis"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to GP Assessment Tool",
+      "t_start": 0,
+      "t_end": 15.6
+    },
+    {
+      "title": "Assessment Tool Design Principles",
+      "t_start": 15.6,
+      "t_end": 36.5
+    },
+    {
+      "title": "Data Safety and Process Overview",
+      "t_start": 36.5,
+      "t_end": 54.6
+    },
+    {
+      "title": "Getting Started - Signup and Download",
+      "t_start": 54.6,
+      "t_end": 71.4
+    },
+    {
+      "title": "Running the Assessment",
+      "t_start": 71.4,
+      "t_end": 90.8
+    },
+    {
+      "title": "Reviewing and Sending Results",
+      "t_start": 90.8,
+      "t_end": 108.2
+    },
+    {
+      "title": "Assessment Report Analysis",
+      "t_start": 108.2,
+      "t_end": 128.2
+    },
+    {
+      "title": "Next Steps and Additional Resources",
+      "t_start": 128.2,
+      "t_end": 164
+    }
+  ],
+  "features": [
+    {
+      "name": "GP Assessment Tool",
+      "description": "A free online tool that analyzes GP SQL Server data to provide guidance and direction on migration to Business Central. The assessment tool reads data only and does not write or change anything in the GP system.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 0.8,
+      "t_end": 128.2,
+      "is_demoed": true,
+      "caveats": [
+        "Does not require BC license to be already purchased",
+        "Recommended to exclude test or sample companies from assessment"
+      ],
+      "tags": [
+        "migration",
+        "assessment",
+        "gp",
+        "free",
+        "cloud"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Assessment Report with Module Drill-Down",
+      "description": "The assessment report displays modules and features used in GP, allows drilling into ISV solutions installed, and identifies potential migration risks with detailed recommendations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 108.2,
+      "t_end": 128.2,
+      "is_demoed": true,
+      "caveats": [
+        "Each risk includes details and recommendations for remediation"
+      ],
+      "tags": [
+        "reporting",
+        "analysis",
+        "risk assessment",
+        "isv solutions"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Non-Intrusive Assessment Execution",
+      "description": "The assessment can be run during business hours while other users are working in GP without requiring downtime. It only reads data from the GP SQL Server and never writes or changes anything.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 15.6,
+      "t_end": 36.5,
+      "is_demoed": false,
+      "caveats": [
+        "Requires user with GP SQL Server access"
+      ],
+      "tags": [
+        "data safety",
+        "non-intrusive",
+        "availability"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.8,
+      "text": "are you a current GP user wondering what a move to the cloud and business Central might look like",
+      "why_it_matters": "Defines the target audience and primary use case for the GP Assessment Tool.",
+      "check": "exact"
+    },
+    {
+      "t": 15.6,
+      "text": "it needed to be super easy to use fast and non-intrusive and finally free and available to everyone",
+      "why_it_matters": "Explains the core design principles and value proposition of the assessment tool.",
+      "check": "exact"
+    },
+    {
+      "t": 15.6,
+      "text": "there's no need to wait for nights and weekends to run the assessment as it can be done during business business hours",
+      "why_it_matters": "Emphasizes minimal disruption and flexibility of when the assessment can be executed.",
+      "check": "exact"
+    },
+    {
+      "t": 36.5,
+      "text": "the assessment tool only reads data from the GP SQL Server nothing is ever written or changed to your GP system",
+      "why_it_matters": "Critical safety guarantee that the tool poses no risk to existing GP data.",
+      "check": "exact"
+    },
+    {
+      "t": 90.8,
+      "text": "after all tasks have been complete you can easily review the information captured by the tool before sending",
+      "why_it_matters": "Describes the workflow to validate results before submission.",
+      "check": "exact"
+    },
+    {
+      "t": 108.2,
+      "text": "you can review modules and features that are being used in GP drill into any isv solutions you have installed",
+      "why_it_matters": "Highlights key analytics capabilities in the assessment report.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011326999999999999
+    }
+  ]
+}

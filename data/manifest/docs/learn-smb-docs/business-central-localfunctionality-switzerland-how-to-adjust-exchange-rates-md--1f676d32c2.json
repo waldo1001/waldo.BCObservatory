@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-adjust-exchange-rates",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bc5088e2c2cdba2cabdeb82f768c1524b78e7a0a",
       "words": 364,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:30.038Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002054
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:30.072Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:30.073Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:30.074Z",
+      "page": false
     }
   },
   "input_hash": "bc5088e2c2cdba2cabdeb82f768c1524b78e7a0a",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bc5088e2c2cdba2cabdeb82f768c1524b78e7a0a"
+  "output_hash": "6b4b54eff7f1dd85ff130d14b969c775c4bafbc819e814d2c5bddc1646667b10"
 }

@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/balance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/balance",
+  "title": "G/L balance [CH]",
+  "blob": "eb5454aa5c4ac5abaca74969b3b62fae9739aa2a",
+  "summary": "View provisional general ledger balances in the Swiss version including posted entries and current journal postings. Check whether bank balances are correct after recording transactions.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "general ledger balance",
+    "swiss localization",
+    "provisional balance",
+    "journal balance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "G/L Accounts"
+    },
+    {
+      "type": "page",
+      "name": "G/L Acc. Provisional Balance"
+    }
+  ],
+  "features": [
+    "provisional balance calculation",
+    "journal balance",
+    "all journals balance",
+    "actual journal balance"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002264,
+      "pages_in_call": 8
+    }
+  ]
+}

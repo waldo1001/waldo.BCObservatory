@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/balance",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "eb5454aa5c4ac5abaca74969b3b62fae9739aa2a",
       "words": 139,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:25.972Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002264
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:30.068Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:30.069Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:30.070Z",
+      "page": false
     }
   },
   "input_hash": "eb5454aa5c4ac5abaca74969b3b62fae9739aa2a",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eb5454aa5c4ac5abaca74969b3b62fae9739aa2a"
+  "output_hash": "b716a7983488279bb5d2b2cfa3cf2e323299773bedeaae029097cc6e5237bb23"
 }

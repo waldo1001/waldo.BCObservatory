@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fbe56bb0db9a158aec855ac99342bfcbdc1ba54a",
       "words": 26,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:25.969Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002264
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:30.058Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:30.059Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:30.060Z",
+      "page": false
     }
   },
   "input_hash": "fbe56bb0db9a158aec855ac99342bfcbdc1ba54a",
@@ -55,5 +74,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fbe56bb0db9a158aec855ac99342bfcbdc1ba54a"
+  "output_hash": "5b16e023bbe5ea0da6a02ea3ceb95b1562db86d7289f30e74984a73019854b56"
 }

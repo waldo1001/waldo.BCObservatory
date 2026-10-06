@@ -5,12 +5,17 @@
   "tier": "official",
   "title": "#BCTalent Stories: SOCITAS",
   "url": "https://www.youtube.com/watch?v=1OiiA7SgqBY",
-  "published_at": null,
+  "published_at": "2024-08-09T13:53:55.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:27:28.785Z",
+      "captions": "auto:en-orig",
+      "duration_s": 110
     }
   },
   "input_hash": null,
@@ -20,6 +25,12 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 379,
     "duration_s": 110,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null
 }

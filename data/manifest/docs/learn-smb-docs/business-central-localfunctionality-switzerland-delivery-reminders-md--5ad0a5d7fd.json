@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/delivery-reminders",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7241b6f992db661a4d86b65dd0095623a3d1978a",
       "words": 45,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:30.037Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002054
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:30.046Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:30.047Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:30.048Z",
+      "page": false
     }
   },
   "input_hash": "7241b6f992db661a4d86b65dd0095623a3d1978a",
@@ -53,5 +72,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7241b6f992db661a4d86b65dd0095623a3d1978a"
+  "output_hash": "388852e7eab65e362581da01acabb353df30398c8e2e0cfb519cec74a4024848"
 }

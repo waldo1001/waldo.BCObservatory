@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "347b0dda3831b076723aa86a66cc7fa11ed36e42",
       "words": 264,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:25.970Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002264
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:30.061Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:30.062Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:30.064Z",
+      "page": false
     }
   },
   "input_hash": "347b0dda3831b076723aa86a66cc7fa11ed36e42",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "347b0dda3831b076723aa86a66cc7fa11ed36e42"
+  "output_hash": "da678f0263cfaddbddb09a30a41fe078e3582cff7d60535705374aff92914047"
 }

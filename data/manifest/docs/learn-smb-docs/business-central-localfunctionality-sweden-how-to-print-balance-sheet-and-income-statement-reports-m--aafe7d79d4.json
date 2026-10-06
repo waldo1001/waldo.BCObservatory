@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2323f1950c42ff7150aae687a9b4efc0d4a37313",
       "words": 204,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:25.968Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002264
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:30.055Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:30.056Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:30.057Z",
+      "page": false
     }
   },
   "input_hash": "2323f1950c42ff7150aae687a9b4efc0d4a37313",
@@ -50,5 +69,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2323f1950c42ff7150aae687a9b4efc0d4a37313"
+  "output_hash": "d8e92df3ec6ed1239df3cf668b2663c7a749c69fea5e5ba197a42ccf48de3a57"
 }

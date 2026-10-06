@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format",
+  "title": "Import and Export Data in SIE [SE]",
+  "blob": "139ca1ff90a66b8a36c8de5570df74e7bac441f7",
+  "summary": "Import and export general ledger data using the Standard Import Export (SIE) format in the Swedish version. Specify dimensions and file types to control detail level of transactions.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "sie format",
+    "swedish localization",
+    "data import",
+    "data export",
+    "general ledger"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "SIE Import"
+    },
+    {
+      "type": "page",
+      "name": "SIE Export"
+    }
+  ],
+  "features": [
+    "Standard Import Export format",
+    "SIE dimensions",
+    "file types",
+    "year-end balances",
+    "periodic balances",
+    "object balances",
+    "transactions export"
+  ],
+  "versions": [
+    "22.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002264,
+      "pages_in_call": 8
+    }
+  ]
+}

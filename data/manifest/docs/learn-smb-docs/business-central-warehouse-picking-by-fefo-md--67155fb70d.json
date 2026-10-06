@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-picking-by-fefo",
   "published_at": "2025-05-06T19:34:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "51303450503ef69dd62b2e66322cac4a3b7501cb",
       "words": 342,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:25.965Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.002264
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:25.973Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:25.974Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:25.975Z",
+      "page": false
     }
   },
   "input_hash": "51303450503ef69dd62b2e66322cac4a3b7501cb",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "51303450503ef69dd62b2e66322cac4a3b7501cb"
+  "output_hash": "1deaaf57cc208244c809e5b19b1e84f4de67382488f5221c485d7d9a53864511"
 }

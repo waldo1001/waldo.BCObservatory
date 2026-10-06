@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/warehouse-picking-by-fefo.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/warehouse-picking-by-fefo",
+  "title": "How to enable picking by FEFO",
+  "blob": "51303450503ef69dd62b2e66322cac4a3b7501cb",
+  "summary": "Enable First-Expired-First-Out (FEFO) picking to ensure items with earliest expiration dates are picked first. Use this for inventory and warehouse picks when items have serial/lot tracking and expiration dates.",
+  "systems": [
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "fefo",
+    "picking",
+    "item tracking",
+    "expiration dates",
+    "warehouse management"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Pick"
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Pick"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Movement"
+    },
+    {
+      "type": "page",
+      "name": "Movement Worksheet"
+    }
+  ],
+  "features": [
+    "Pick According to FEFO",
+    "item tracking codes",
+    "SN Warehouse Tracking",
+    "Lot Warehouse Tracking",
+    "Package Warehouse Tracking",
+    "Bin Mandatory",
+    "Strict Expiration Posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002264,
+      "pages_in_call": 8
+    }
+  ]
+}

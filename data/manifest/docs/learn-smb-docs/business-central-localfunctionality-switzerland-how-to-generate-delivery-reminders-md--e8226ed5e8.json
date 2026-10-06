@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-generate-delivery-reminders",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "18e82750ac31080013bd566db135363533fcadd9",
       "words": 31,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:30.045Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002054
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:31.830Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:31.831Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:31.832Z",
+      "page": false
     }
   },
   "input_hash": "18e82750ac31080013bd566db135363533fcadd9",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "18e82750ac31080013bd566db135363533fcadd9"
+  "output_hash": "15c1dc8fc4838c6035904742a9c9eafca195847ff590417a4e5ac2e2fbcd13a2"
 }

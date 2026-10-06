@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/sweden-local-functionality",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8968e2dc1bba6032b2a06f7fe74d553558517e0d",
       "words": 175,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:25.971Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002264
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:30.065Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:30.066Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:30.067Z",
+      "page": false
     }
   },
   "input_hash": "8968e2dc1bba6032b2a06f7fe74d553558517e0d",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8968e2dc1bba6032b2a06f7fe74d553558517e0d"
+  "output_hash": "633340ebeb2826868bbdb3f53dac44e1a7ecd4f306a07202347113ed0495cbc9"
 }

@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-close-an-lsv-collection",
+  "title": "Close an LSV Collection [CH]",
+  "blob": "a5bc5f94028a320ea6a45e218863cc5c1951556f",
+  "summary": "Close an LSV Collection in the Swiss version documents how to finalize Lastschrift Verfahren LSV+ payment collections and optionally reopen them before bank submission.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "lsv+",
+    "swiss electronic payments",
+    "payment collections",
+    "swiss"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "LSV Journal"
+    },
+    {
+      "type": "table",
+      "name": "Cust. Ledger Entry"
+    },
+    {
+      "type": "report",
+      "name": "LSV Close Collection"
+    }
+  ],
+  "features": [
+    "LSV Collection",
+    "LSV File Export",
+    "Payment Collection Status"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002054,
+      "pages_in_call": 8
+    }
+  ]
+}

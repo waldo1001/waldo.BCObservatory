@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement",
+  "title": "Create and print a Swiss VAT statement [CH]",
+  "blob": "16ade905100888c2e8acfeb7f722eb6811db14a7",
+  "summary": "Create and print a Swiss VAT statement in the Swiss version documents setting up VAT statement templates and printing VAT statements with various tax rates and reporting options.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "swiss vat",
+    "vat statement",
+    "tax reporting",
+    "swiss"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    },
+    {
+      "type": "report",
+      "name": "Update VAT Statement Template"
+    },
+    {
+      "type": "report",
+      "name": "Swiss VAT Statement"
+    }
+  ],
+  "features": [
+    "VAT Statement",
+    "VAT Statement Cipher",
+    "VAT Rates",
+    "Additional Reporting Currency"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002054,
+      "pages_in_call": 8
+    }
+  ]
+}

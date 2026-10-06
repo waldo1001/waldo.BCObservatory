@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-export-payments-using-lsv",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7a71642c2ac0ccd0142b228291d33c1a4cdbd5a5",
       "words": 188,
       "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:30.044Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002054
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:31.827Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:31.828Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:31.829Z",
+      "page": false
     }
   },
   "input_hash": "7a71642c2ac0ccd0142b228291d33c1a4cdbd5a5",
@@ -66,5 +85,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7a71642c2ac0ccd0142b228291d33c1a4cdbd5a5"
+  "output_hash": "7fb7e1e5500fdbee9ec6c9e6f141c6014412c4c9ff309d57978e410863df85c1"
 }

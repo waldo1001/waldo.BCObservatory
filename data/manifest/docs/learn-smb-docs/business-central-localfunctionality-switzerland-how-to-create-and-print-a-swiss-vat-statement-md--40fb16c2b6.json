@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "16ade905100888c2e8acfeb7f722eb6811db14a7",
       "words": 493,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:30.042Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002054
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:31.821Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:31.822Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:31.823Z",
+      "page": false
     }
   },
   "input_hash": "16ade905100888c2e8acfeb7f722eb6811db14a7",
@@ -50,5 +69,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "16ade905100888c2e8acfeb7f722eb6811db14a7"
+  "output_hash": "9482f0b4ceca91ff82d9fb1b7e7b9bf8512cd7a33493b66748c939e7f5bca02a"
 }

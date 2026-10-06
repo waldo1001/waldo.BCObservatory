@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Switzerland/how-to-adjust-exchange-rates.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-adjust-exchange-rates",
+  "title": "How to Adjust Exchange Rates [CH]",
+  "blob": "bc5088e2c2cdba2cabdeb82f768c1524b78e7a0a",
+  "summary": "How to Adjust Exchange Rates in the Swiss version documents VAT currency conversion using official Federal Tax Administration rates and adjusting currency rates for VAT statements.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "exchange rates",
+    "swiss vat",
+    "currency conversion",
+    "vat adjustment"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Currency Exchange Rates"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "report",
+      "name": "Adjust Exchange Rates"
+    }
+  ],
+  "features": [
+    "VAT Exchange Rate Adjustment",
+    "Currency Exchange Rates",
+    "VAT Rate Adjustment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002054,
+      "pages_in_call": 8
+    }
+  ]
+}

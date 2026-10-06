@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/automatic-account-codes",
   "published_at": "2025-05-06T19:34:05.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b5b6bb74e1362c764a3a2a7679dc39f1a6c4c756",
       "words": 80,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T19:27:25.966Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002264
+    },
+    "summarized": {
+      "at": "2026-10-06T19:27:30.049Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:27:30.050Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:27:30.051Z",
+      "page": false
     }
   },
   "input_hash": "b5b6bb74e1362c764a3a2a7679dc39f1a6c4c756",
@@ -50,5 +69,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b5b6bb74e1362c764a3a2a7679dc39f1a6c4c756"
+  "output_hash": "4a2cd2fb0f2c75c242f93dde353f26b527564ae98dca8ae18de9a94c0c6001f5"
 }
