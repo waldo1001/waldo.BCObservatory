@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-database-locks",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5d818e3bfc22f1ad433ee684d4623f0844ea3ffc",
       "words": 413,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:20.682Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003097
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:20.692Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:20.693Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:20.694Z",
+      "page": false
     }
   },
   "input_hash": "5d818e3bfc22f1ad433ee684d4623f0844ea3ffc",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5d818e3bfc22f1ad433ee684d4623f0844ea3ffc"
+  "output_hash": "6e6aa220fa231ba0fb5277934151e33b9b3b932ec260b1e98d42d87499d4d269"
 }

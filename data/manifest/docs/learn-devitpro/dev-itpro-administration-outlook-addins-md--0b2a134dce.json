@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/outlook-addins",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "adca8528f8db5e15dc6ceee5dc7ed114123f0aef",
       "words": 458,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:33.321Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003537
     }
   },
   "input_hash": "adca8528f8db5e15dc6ceee5dc7ed114123f0aef",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "adca8528f8db5e15dc6ceee5dc7ed114123f0aef"
+  "output_hash": "ee261d32e279c6364615b106322597ae92f6e774bb68b02069e333cfd56b18c9"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-dependency-cycle-trace",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "6ec27a94c1b464a5ebeb49354d2c626a864977af",
       "words": 327,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:33.327Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003537
     }
   },
   "input_hash": "6ec27a94c1b464a5ebeb49354d2c626a864977af",
@@ -40,5 +47,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6ec27a94c1b464a5ebeb49354d2c626a864977af"
+  "output_hash": "6073f05dc974da21dc0d641b2b938de03fb4d19d1143a1b54f1f83050eb3678a"
 }

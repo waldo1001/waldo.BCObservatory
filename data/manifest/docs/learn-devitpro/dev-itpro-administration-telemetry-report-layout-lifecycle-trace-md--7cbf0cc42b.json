@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-report-layout-lifecycle-trace",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "51f4ad9264dfe5b7f85fb5193c7690bfbbfa6490",
       "words": 642,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:33.328Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003537
     }
   },
   "input_hash": "51f4ad9264dfe5b7f85fb5193c7690bfbbfa6490",
@@ -42,5 +49,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "51f4ad9264dfe5b7f85fb5193c7690bfbbfa6490"
+  "output_hash": "98651e78b629e058d5651cd1b09abc97833ef998528767f12a3e4452c895afec"
 }

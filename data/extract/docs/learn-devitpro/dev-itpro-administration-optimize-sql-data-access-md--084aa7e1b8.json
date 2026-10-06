@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/optimize-sql-data-access.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-data-access",
+  "title": "Data Access",
+  "blob": "9448a60574066183bc6d546a52428abc17018987",
+  "summary": "Data access in Business Central flows through server data cache (shared across users) and SQL Server cache; configurable cache sizes, types (global and private), and methods like GET and FIND use the cache system.",
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "data access",
+    "caching",
+    "sql server",
+    "performance",
+    "ado.net"
+  ],
+  "objects": [],
+  "features": [
+    "server data cache",
+    "global cache",
+    "private cache",
+    "cache synchronization",
+    "MARS",
+    "SIFT indexes",
+    "FlowFields",
+    "default SQL constraints"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003097,
+      "pages_in_call": 8
+    }
+  ]
+}

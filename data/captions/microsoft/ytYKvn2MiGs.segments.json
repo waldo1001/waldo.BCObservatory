@@ -1,0 +1,586 @@
+{
+  "video_id": "ytYKvn2MiGs",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 16.4,
+      "end": 37.2,
+      "text": "hi everyone Welcome to our session on what's new extending co-pilot using Al code I'm Derek Jew with me uh Julia Sandy and enrio let's get started so on the agenda for today uh we'll do a very small recap on what's in our developer tools then uh Julia will talk about what's new in the prom dialogue"
+    },
+    {
+      "t": 37.2,
+      "end": 58.4,
+      "text": "I'll continue on talking about um token counting and function calling Julia will take over um talking to us about uh keeping the models current and sendy will come in talking about manage and shareed AI resources and then you go will end it off with top questions so let's get started so developer tools"
+    },
+    {
+      "t": 58.4,
+      "end": 78.6,
+      "text": "recap um so some of you may have worked with our AI module or our promp dialogue but for those who have not there is the session what's new designing and developing generative AI experiences for your extensions this is from a previous launch event so you can find the YouTube link there um and it's available for"
+    },
+    {
+      "t": 78.6,
+      "end": 98.8,
+      "text": "everyone so just to do a small recap um for those who have not seen this before this is the prompt dialogue um so this is for the marketing Tech suggestions um you can see this is the result uh when it has generated a marketing text uh in this prompt dialogue there is the keepy bit regenerate cancel"
+    },
+    {
+      "t": 98.8,
+      "end": 118.8,
+      "text": "options it also allows you to um change your parameters for example tone format and emphasis and these are things you can play with uh and configure in the prompt dialogue so another example that uh we have is with bang reconciliation so this one looks a little more simple the basis of it uh you have to keep it and"
+    },
+    {
+      "t": 118.8,
+      "end": 139.1,
+      "text": "you have discarded how but there's no changing of parameters at the bottom as per marketing Tech suggestions um additionally we have the AI module which is in the system application uh for working with Azure open AI specifically for large language models so you have uh calls to text completions getting the embeddings"
+    },
+    {
+      "t": 139.1,
+      "end": 151.1,
+      "text": "or uh chat completions I do want to highlight um it is not for image for example with e uh or transcribing Speech to Text uh with whisper"
+    },
+    {
+      "t": 151.1,
+      "end": 171.2,
+      "text": "um the modu also gives you ease of control and viewing of the co-pilot capabilities within your environment and it also gives you uh Telemetry uh allowing you to track like a capabilities registration usage and what errors you might find so now Julia will talk about uh what's new in the prom dialog Julia thank"
+    },
+    {
+      "t": 171.2,
+      "end": 191.6,
+      "text": "you Derek so let's talk about it Derek showed up the prom dialog to you and I'm going to tell you what's new in this release first of all now we can provide concise instructions to help users get started they will be displayed uh displayed as an instructional text if you update the instructional text property on fields in your prompt"
+    },
+    {
+      "t": 191.6,
+      "end": 212.2,
+      "text": "area in the prompt dialogue so to achieve the displayed instructional text if you update the instructional text uh on this input text field it will display this text it is worth mentioning that it is not meant to be used as example prompts this is the general instruction"
+    },
+    {
+      "t": 212.2,
+      "end": 232.9,
+      "text": "to help your your users understand what is the expectations of them to input into the prompt dialogue when it comes to providing understanding and prompt templates we have prompt guides coming to you in that uh this book icon is displayed uh on the on the prompt dialogue"
+    },
+    {
+      "t": 232.9,
+      "end": 253.4,
+      "text": "and after clicking you can input there a lot of templates to help your users understand the bread of the prompts that you uh created so for example you get one or more prompt guides that will act as prompt templates and to do that we have created a new area"
+    },
+    {
+      "t": 253.4,
+      "end": 266.2,
+      "text": "in the actions on a prompt dialog page type which is the prompt guide area and then you input actions that then can replace the text on your field inside as presented here on the"
+    },
+    {
+      "t": 266.2,
+      "end": 281.1,
+      "text": "screen what's more you can group those prom guides in case you have more than one to help your users for that simply create a group inside the prompt prompt guide area on the prompt"
+    },
+    {
+      "t": 281.1,
+      "end": 301.1,
+      "text": "dialogue outside of the prompt dialogue we have copilot actions that can be displayed uh on lists list Parts worksheets and standard dialogues in order to draw attention and launch your prompt dialoges as you can see on this screen they are then displayed on"
+    },
+    {
+      "t": 301.1,
+      "end": 321.2,
+      "text": "the bottom of the page all of your actions uh co-pilot actions on that page as well as in the menu how do you implement such a copilot action again there's a new area in actions on list list Parts worksheets and standard dialogs as I mentioned and it is called prompting where you can put your actions such as the"
+    },
+    {
+      "t": 321.2,
+      "end": 341.4,
+      "text": "previous one displayed draft with co-pilot I've talked about the AL side of the new prom dialogue features that we have but this session is part of a pair if you want more about generative a experiences how to design them when and where to use compiled actions you should check out what's new designing"
+    },
+    {
+      "t": 341.4,
+      "end": 361.5,
+      "text": "generative a experiences where yakob and Surin will talk about it and now I'll give it back to Derek for token counting thank you Julia um so token counting what is this for so token accounting allows you to count the number of tokens that will be used by your input before sending a request to Azure"
+    },
+    {
+      "t": 361.5,
+      "end": 381.6,
+      "text": "open AI so specifically it's the input and it does not count your output because the output requires that do have been generated already um and now what are tokens so tokens are specifically they are used by the model because the model does not take in words or it does also doesn't return"
+    },
+    {
+      "t": 381.6,
+      "end": 401.7,
+      "text": "words they work with tokens so for example with an input tell me about the solar system the tokenized version these numbers um the spaces are there only for our readability so for example with the first one 41551 that would represent tell um"
+    },
+    {
+      "t": 401.7,
+      "end": 416,
+      "text": "and this is not an exact representation uh however it's what the tokenized version is it's not always a one word to one token um and in this case we have seven tokens so why is it"
+    },
+    {
+      "t": 416,
+      "end": 436.2,
+      "text": "important um so why you should you token count um you would like to evaluate how many tokens are going to be used because then you can estimate what your potential cost is um because your cost and number of tokens you're going to use are related so for every thousand tokens there's Associated amount of cost depending on the model that you're"
+    },
+    {
+      "t": 436.2,
+      "end": 456.3,
+      "text": "using it's also important to know when you're use um or how much tokens you're going to use because a model has a limit to how many tokens there are uh that it can actually take in as input and now if you have a prompt when including the data that you're going to send in is greater than the number of tokens available for"
+    },
+    {
+      "t": 456.3,
+      "end": 476.8,
+      "text": "the model um you're going to have to split that request up into multiple requests so this is also very beneficial for you to know the exact number of tokens you're going to use so that you can determine all right how you're going to split up your requests uh for each uh request you're going to make now how do you use this um the methods can be found in the aoi"
+    },
+    {
+      "t": 476.8,
+      "end": 497,
+      "text": "token code unit and we have methods per model so for example um get GPT 35 token count get GPT 4 token count uh get other token count and DG token count uh one thing I wanted to highlight is that these more these methods are versin agnostic so whether you're using"
+    },
+    {
+      "t": 497,
+      "end": 517.1,
+      "text": "um GPT 4 uh January version or GPT 4 June version it does not matter because they're all GPT 4 um and also whether the difference between GPT 4 and gbd4 turbo there's also no difference in the tokenizer being used as such the same function will work across all of"
+    },
+    {
+      "t": 517.1,
+      "end": 537.7,
+      "text": "them uh as of right now the methods do not include our um provided system meta prompt um but that will be coming uh additionally I would like to point out so when you're using this um for example here where we call get GPT 35 token the input is of type secret text and why is that"
+    },
+    {
+      "t": 537.7,
+      "end": 553.9,
+      "text": "uh and that the reason for that is because your input we consider that to contain your intellectual property uh which is the system meta prompt that you would have used uh whether it's ours or your own uh When developing your co-pilot"
+    },
+    {
+      "t": 553.9,
+      "end": 574,
+      "text": "capability next up on function calling so firstly what are tools uh tools are like code interpretor knowledge retriever or when you're building your own uh with function calling um you may have played with the on GPT um and these are similar to how they'll work"
+    },
+    {
+      "t": 574,
+      "end": 594.4,
+      "text": "here um so what is function calling uh it allows you to describe functions to the assistant model uh and have it return uh the functions that should be called along with the arguments uh that should be put into those functions the function to be called and arguments depend on the user input uh given"
+    },
+    {
+      "t": 594.4,
+      "end": 614.7,
+      "text": "to the assistant what benefits does function calling bring so it's able to then extract key information from natural language and allow you as a developer you to use them as Arguments for your functions so let me give you a few kind of scenarios that this can be used for um determining and intent"
+    },
+    {
+      "t": 614.7,
+      "end": 630.2,
+      "text": "of the input the natural language um for example if you have functions to look up documents or items so uh example two examples of those would be if your uh user says I need items from the last"
+    },
+    {
+      "t": 630.2,
+      "end": 646.5,
+      "text": "um invoice now you know uh it's able to then determine hey I actually need to do a lookup for what documents uh this is uh or another example is I need to R uh bicycles and then that will be a lookup for"
+    },
+    {
+      "t": 646.5,
+      "end": 664.3,
+      "text": "items uh a larger example would be uh you receive an email and in this email they would like to purchase some uh items so firstly you need to determine okay what's the intent of this email um if it's is it just a regular email or would they like to purchase"
+    },
+    {
+      "t": 664.3,
+      "end": 684.5,
+      "text": "something from there then once you determine okay this is a purchase uh uh intent now have the model to extract the um the content for uh creating a customer and there you can then also extract the items that they would like to purchase and then create a sales invoice and send that"
+    },
+    {
+      "t": 684.5,
+      "end": 704.6,
+      "text": "along to them so how does all this kind of look like here I show you the um HTTP request I'll be showing you the AL code in a little while I want to point out what are the important parts that make up uh function calling so for the request part you have the name so in this case it's the get current weather"
+    },
+    {
+      "t": 704.6,
+      "end": 726.1,
+      "text": "and this is important for us developers it's not so important for the model the important bit is the description now the description tells the model what does this function actually do um it allows it to then understand like okay if the uh user is asking something about weather this may be the function I want to end up"
+    },
+    {
+      "t": 726.1,
+      "end": 738.2,
+      "text": "calling uh then you have parameters in this case my function um get current weather takes in two parameters um one is location and the other one is"
+    },
+    {
+      "t": 738.2,
+      "end": 758.7,
+      "text": "units and lastly you have a uh key uh uh required so required basically tells the uh model that hey these are requir per um arguments that I need return to me so in this case I'm only telling it hey I need the location um whereas the unit"
+    },
+    {
+      "t": 758.7,
+      "end": 773,
+      "text": "uh can either be blank or it can be filled in depending on what kind of context is gathered from the input and on the response of what the model returns to us um there's the two calls"
+    },
+    {
+      "t": 773,
+      "end": 793.2,
+      "text": "array and in that part uh it has the name of the function that uh is to be called so in this case get current weather and then there are the arguments uh with the values that should be called uh with that function so in this case it has location which says San Francisco CA um and the"
+    },
+    {
+      "t": 793.2,
+      "end": 813.2,
+      "text": "unit that says uh Celsius so how does all this look like in Al so this um setting up your capability and your authorization Etc are all part of the session I had mentioned earlier um so I will not go into details about that uh however we'll start with how you add your tool"
+    },
+    {
+      "t": 813.2,
+      "end": 833.2,
+      "text": "to the chat messages so here I'm adding my tool and it calls get weather uh co-pilot function and I have my get weather co-pilot function here where it actually just reads um text into my Json object and returns that I do know this is only for demonstration purposes this is you should not be"
+    },
+    {
+      "t": 833.2,
+      "end": 853.9,
+      "text": "putting your um function uh as text in your code like this you should always retrieve that from isolated storage or Azure key volt for example uh because your description as I had mentioned these we cons can be considered IP because they're describing what the model should do with um the"
+    },
+    {
+      "t": 853.9,
+      "end": 873.9,
+      "text": "function now we come back uh to the overall function um next up I'm going to set my tool choice so the twool choice basically tells the model hey I want you to always run this function uh and in this case it's called the get current weather I'll go into a bit more detail um after"
+    },
+    {
+      "t": 873.9,
+      "end": 894,
+      "text": "this example of uh the pros and cons of that um next up I'll add a user message to simulate a user uh actually typing in something of what is the weather like in San Francisco um from there I'll call get um generate chck completion for it to go call a open Ai and there I'll"
+    },
+    {
+      "t": 894,
+      "end": 914.1,
+      "text": "check whether it's been a success or not if it has not I'm going to throw my error so I know what it is uh however if it's a success now I need to actually interpret okay what is the uh response that came back so I read it into my Json object and then process the response so how does the processing look like so"
+    },
+    {
+      "t": 914.1,
+      "end": 934.4,
+      "text": "on the right you see the same response that I had shown earlier um and the AR code on the left so firstly I need to check okay hey are we calling some kind of tool and in this Cas I want to check if it's a function um so I take that out um from the array and determine what is the type and if the type is of type function I want to continue"
+    },
+    {
+      "t": 934.4,
+      "end": 954.6,
+      "text": "because that's the only um type that I'm going to be working with here uh I take out the name because I know I've only Built it with get camera weather I just need to validate this is the actual function that it is calling and from there I'm going to now extract my arguments which I'm going to put into my function that I'm going to call so from"
+    },
+    {
+      "t": 954.6,
+      "end": 974.8,
+      "text": "there I take out my location I know it is required so it should be there and I I I set the unit to be Celsius by default um because I do not know if it's actually going to be there as I did not specify that it should be required and from there I create a function that basically puts in uh calls"
+    },
+    {
+      "t": 974.8,
+      "end": 995.6,
+      "text": "get weather and it puts in the location and the option uh of the unit and from there I do some kind of call to a Weather Service and return some value um so the things I want to note um where with set two choice you can either put Auto which is the default um and you do not need to set that or you can put a specific function"
+    },
+    {
+      "t": 995.6,
+      "end": 1015.6,
+      "text": "so with Auto uh it is the default and if you use it with functions the response can either be a function or it can be a regular chat response so you do have to take note because if you expect a function and it doesn't give you a function um you want to uh handle that error properly and whatnot um"
+    },
+    {
+      "t": 1015.6,
+      "end": 1035.6,
+      "text": "and if you set a specific Tool uh specific function it will guarantee that response will always call that function however if your user inputs something that is unrelated to the function that's going to be called um you will want to validate if uh the arguments they giving is valid or not uh"
+    },
+    {
+      "t": 1035.6,
+      "end": 1056.1,
+      "text": "that's all for function calling I'll now hand it back to Julia to talk about keeping current thank you Derek let's talk about current models are updated with new features and improvements such as function calling that direct just described that means that each model GPT 3.5 turbo or GPT"
+    },
+    {
+      "t": 1056.1,
+      "end": 1076.3,
+      "text": "4 will have multiple versions such as for example a March version and the June version that means that the new version May perform differently to the one you tested on think about it over time the versions that are released will perform differently how can you make sure that you still deliver"
+    },
+    {
+      "t": 1076.3,
+      "end": 1096.4,
+      "text": "the exceptional quality of service I will talk about how we take care of this in our Microsoft build features so to inspire you to implement a similar or a different model that will enable you to keep up with the everchanging versions of the models so how do we take care of this we keep two"
+    },
+    {
+      "t": 1096.4,
+      "end": 1116.8,
+      "text": "versions of each model available latest and preview not that we don't really specify if the latest is the June model the latest is what we consider the latest stable released model and then the preview will be the new and upcoming model that we want to make available for testing before we update our production features"
+    },
+    {
+      "t": 1116.8,
+      "end": 1137.4,
+      "text": "to the to this new upcoming model and how do we implement this in our features first we choose the desired model and version for example my feature will be working on GPT 3.5 turbo the latest version that gives us a version agnostic string that just mentions that it's the turbo latest"
+    },
+    {
+      "t": 1137.4,
+      "end": 1154.9,
+      "text": "version and then then before calling Azure open AI I map it to the version AOA Azure open AI version that I consider latest for example the June model and then generate the"
+    },
+    {
+      "t": 1154.9,
+      "end": 1174.3,
+      "text": "response so let's talk about the process that we Implement when the new model version arrived let's say currently in production my feature uses the turbo latest uh and the Turbo preview function both of the strings map to the model version"
+    },
+    {
+      "t": 1174.3,
+      "end": 1194.4,
+      "text": "a and then a new version B is released so what do I do first I change the mapping of the preview uh function to map to version B the new released version and then I notified the teams using the latest uh version so then developers can test on the new and"
+    },
+    {
+      "t": 1194.4,
+      "end": 1214.6,
+      "text": "upcoming preview version adjust the feature if needed and then release that uh those changes those adjustments to production and change the mapping uh of the latest uh function to also map to version B this way model version B is released to production"
+    },
+    {
+      "t": 1214.6,
+      "end": 1234.7,
+      "text": "with all the adjustment it needs and we can wait for the version C to be released to do this process all over again that's it for keeping up with the new model versions and now I'm going to hand it over to Sandy to talk about managed insured AI resources all right uh thanks Julia um"
+    },
+    {
+      "t": 1234.7,
+      "end": 1254.7,
+      "text": "hello everyone I'm Sarco I'm a product manager for business Central and in this part of the presentation I will introduce you to manage and shared AI resources so as you heard from my colleagues we have enabled our partners on as isvs to build thirdparty copilot features"
+    },
+    {
+      "t": 1254.7,
+      "end": 1269.1,
+      "text": "quickly using developer tools for copilot in business Central the current approach that we use is to use a self-managed and dedicated AI Resources by bringing your own Azure open AI"
+    },
+    {
+      "t": 1269.1,
+      "end": 1289.5,
+      "text": "account this approach has jumpstarted and accelerated the exploration and journey to infuse AI into their business Central extension and solution in fact in our recent AI Partners hackathon alone hundreds of AI infused solution were built so that's pretty"
+    },
+    {
+      "t": 1289.5,
+      "end": 1309.6,
+      "text": "impressive but now when it's time to bring this AI infused solution into production at scale especially when they are combining multiple copilot features built by different partners or isv and targeting many customer these approach has a few challenges one of the challenges is it's still unclear"
+    },
+    {
+      "t": 1309.6,
+      "end": 1329.8,
+      "text": "how many Azure open AI accounts are needed and who should bring them whoever bring the a. account must satisfy the requirements for responsible AI for all features built on it it is also unclear how to separately track the usage and cost"
+    },
+    {
+      "t": 1329.8,
+      "end": 1349.8,
+      "text": "of multiple copilot features built by different partners or isv as well as features that used by many customer when they share the same as your open AI account and finally bringing your own Azure open AI account still requires manual efforts to manage those resources you need to to do um to"
+    },
+    {
+      "t": 1349.8,
+      "end": 1370.3,
+      "text": "deploy to load balance scale upgrade monitor or even troubleshoot the relevant Azure resources using the many different tools available in Azure so consequently it is time for us to improve and scale this approach by introducing managed and shared AI resources that eliminate"
+    },
+    {
+      "t": 1370.3,
+      "end": 1390.4,
+      "text": "that eliminate these challenges so you will not need to bring any Azure open AI account anymore partners and isv can simply focus on satisfying responsible AI requirement to access our shared resources building their calet features based on their intellectual property and promoting"
+    },
+    {
+      "t": 1390.4,
+      "end": 1410.6,
+      "text": "just the value added benefit of those features to all customer also there's no need to track the usage and cost of these resources to run their copat features we will track them all for all customer and we will govern price and Bill resource cons fion in a unified and simple"
+    },
+    {
+      "t": 1410.6,
+      "end": 1430.8,
+      "text": "way for all copilot features that covers first party and third party features right and finally there's no more um need to spend any efforts to manage those resources so you don't need to deploy uh load balance scale upgrade monitor troubleshoot these resources anymore we will manage them uh all uh in our"
+    },
+    {
+      "t": 1430.8,
+      "end": 1451.4,
+      "text": "um in our infrastructure with always latest model version for all customers so just like any other manage and share resources in Business centrer Online such as compute databases and web service requests we will track consumption and apply resource governance to control how fast"
+    },
+    {
+      "t": 1451.4,
+      "end": 1471.8,
+      "text": "and how much you can consume AI resources ensuring fair use and as well as unlocking um a value proposition so how do we uh apply resource governance to this managed and shared AI resources we will introduce a single AI resource consumption unit or currency let's just call it for now ai credit"
+    },
+    {
+      "t": 1471.8,
+      "end": 1491.9,
+      "text": "right and this AI um uh credit will be convertible to various consumption unit of supported AI resources so it it'll be converted to GPT 3.5 tokens or machine learning prediction row etc etc but all you need to know is just a simple single currency AI credit right and"
+    },
+    {
+      "t": 1491.9,
+      "end": 1512.1,
+      "text": "this will assist a customer to budget and control the AI resource consumption and standardize resource governance concept and measure such as operational limit so we will use operational limit ensure fair use among user environment and customer by controlling how fast they can consume AI credits"
+    },
+    {
+      "t": 1512.1,
+      "end": 1532.7,
+      "text": "so high enough uh this limit to satisfy the throughput requirement for most customer and we will introduce the concept of entitlement quota to unlock the value of copilot enabled Min Central uh for example we will introduce base capacity in AI credit as well as uh we can differentiate user licenses"
+    },
+    {
+      "t": 1532.7,
+      "end": 1553.5,
+      "text": "by introducing acud capacity in AI credit to make sure that most customer will find their aggregated quotas of this base and uh ACR capacity sufficient to cover their aggregated consumption in each billing period and finally there will be a concept of excess consumption"
+    },
+    {
+      "t": 1553.5,
+      "end": 1573.5,
+      "text": "so we want to be able to provide flexible option for only a few customer customer whose aggregated consumption might actually exceed their aggregated quota so this customer can actually buy or purchase additional um quotas or incremental capacity also in AI credits so this"
+    },
+    {
+      "t": 1573.5,
+      "end": 1593.8,
+      "text": "uh capacity based resource governance and pricing will be modeled and finalized through simulated limit and quota enforcement in private or public preview so you might ask when is private and public preview you're in luck because we already have our road map outline for this managed and shared AI resources private preview will happen"
+    },
+    {
+      "t": 1593.8,
+      "end": 1613.8,
+      "text": "pretty soon after the business centrer launch event a survey uh keep um keep your eye open for sur a survey that will be sent um maybe through a Yammer Channel and uh selected partner orp will be invited to participate in this priate preview we will simulate limit and quota enforcements against varying"
+    },
+    {
+      "t": 1613.8,
+      "end": 1634.2,
+      "text": "resource consumption patterns to actually model and finalize the proper limit and quotas so we want to finalize the proper base accruit and incremental capacity so the ETA for priate review is pretty soon so this 24x release so either 24.0 in April or 24.1 in May right"
+    },
+    {
+      "t": 1634.2,
+      "end": 1655,
+      "text": "next public preview we will introduce a new process to satisfy responsible AI requirement because you're not using a your open AI accounts anymore so you will have a new process uh to make sure that your feature comply to responsible AI right and then in public preview we will also make sure that the proper limit will be published and enforced"
+    },
+    {
+      "t": 1655,
+      "end": 1675.4,
+      "text": "while the proper quota might also be published but will not be enforced to uh to allow you some grace period to uh get used to this new Concepts so the ETF for public preview will be the next release around 25th uh 25x version and finally General availability is when the proper limits and qu"
+    },
+    {
+      "t": 1675.4,
+      "end": 1696.2,
+      "text": "will be both published and enforced the ETA still to be determined or TBD depending on the preview feedbacks and result um with that I'm concluding uh my part of this presentation and I'll pass the Boton to my um colleague enrio thank you Sandy that's very exciting so I'm enrio and I'm going to cover the last part of this presentation"
+    },
+    {
+      "t": 1696.2,
+      "end": 1717.1,
+      "text": "it's going to be about the top questions we got about the developer toolkit for copilot in business Central these questions are a collection of questions we got from you Partners as part of your normal communication channels for example through Yammer or through Direct Communications with us but also they come from the AI hackathon we had a few weeks ago that uh Sandy already mentioned"
+    },
+    {
+      "t": 1717.1,
+      "end": 1737.2,
+      "text": "um and we I just want to say that we are very um inspired by all the features you came up with doing the AI hackathon and it's really great for us to see how um you can help us extend copilot and make our product even better through AI let's start with the top questions so why does the toolkit not support the latest features of asure open AI um I will answer this"
+    },
+    {
+      "t": 1737.2,
+      "end": 1757.3,
+      "text": "in a second then Which business Central data does aure open AI have access to and then link to this how can I use my data with aure open Ai and then last question what model should I use for my scenario let's start with the first one why does the toolkit not support the latest features on Asia open AI some of you might have noticed some uh features and capabilities that asure"
+    },
+    {
+      "t": 1757.3,
+      "end": 1777.4,
+      "text": "open AI um offers such as the data sources capability which we don't really expose as part of our toolkit there are two reasons for that the first reason is that some of these cap abilities are considered previous specifications on Asia and AI side a couple of weeks ago we got a new GA specification so a generally available one but before that it"
+    },
+    {
+      "t": 1777.4,
+      "end": 1797.5,
+      "text": "has been like several months before we had another um GA specification and in the toolkit we will not support any preview specification um at all there is one more layer to that which is we don't necessarily want to support all the features from Asia open AI into our Al toolkit and the reason um is that"
+    },
+    {
+      "t": 1797.5,
+      "end": 1817.6,
+      "text": "there are a lot and we need your help to prioritize so uh engage with us talk to us on Yammer tell us what you need and then we'll prioritize the next feature that we will make available in the toolkit let's jump to the second question which business Central data does Asia open AI have access to the answer is none our commitment is that"
+    },
+    {
+      "t": 1817.6,
+      "end": 1829.2,
+      "text": "your data is your data you own your data the models will not learn from your data we will not feed all of your database to the AI model nothing like that you are in control"
+    },
+    {
+      "t": 1829.2,
+      "end": 1850,
+      "text": "but that also means brings kind of a follow-up question which is what if I need to give my data to the model how can I use my data with aure open Ai and the answer is you need to fit all the data that aure open AI needs into your prompt um so this has some limitations because prompts have a size limit which means for example"
+    },
+    {
+      "t": 1850,
+      "end": 1870.6,
+      "text": "um if you have a million items you cannot really fit information about all these items into the prompt you get you give to a open AI so you need to be a bit creative for example get uh the model to suggest you the item category or maybe you know already the item category so you can filter down your items just to the ones that belong to this category uh of course permissions always apply"
+    },
+    {
+      "t": 1870.6,
+      "end": 1890.7,
+      "text": "so the AI the copilot feature will work within a user session and the permissions of that user will be the ones that apply to data there are other options for you to bring your data into aure open AI such as the data sources capability I mentioned earlier um and just reach out to us tell us your scenario tell us what you think and"
+    },
+    {
+      "t": 1890.7,
+      "end": 1911.2,
+      "text": "help us prioritize for example help us decide whether we should implement the data source functionality in the AL toolkit or not and the last question is what model should I use for my scenario well our recommendation is to use GPT 3.5 turbo whenever it fits your needs because it's faster first of all it's also cheaper for you and"
+    },
+    {
+      "t": 1911.2,
+      "end": 1931.4,
+      "text": "we we have seen internally that it can cover well most of the scenarios there are cases such as if you have a lot of tokens and you run into the token limitation for your model or in case you need like some more complicated AI scenario so the generation quality with 3.5 turbo is not good enough then you should of course upgrade to gp4 or even GPT"
+    },
+    {
+      "t": 1931.4,
+      "end": 1951.4,
+      "text": "4 Turbo but uh the bottom line is just use the cheaper and faster model that fits your needs so with this one I'm done with the top questions but I have one more bonus slide for you we got a lot of questions that are more generic about Ai and the AI for example what are embeddings or how do I write a good prompt"
+    },
+    {
+      "t": 1951.4,
+      "end": 1971.5,
+      "text": "or which regions are available on aure open Ai and uh we won't give answers to these because these are more generic questions but what we suggest to you is go and explore the Asia open AI website um take trainings there are some good beginner trainings on AI and large language models in Microsoft Lear learn website uh so go take these"
+    },
+    {
+      "t": 1971.5,
+      "end": 1987.3,
+      "text": "trainings unfortunately we don't have a BC tailored training for you available at this time but we still suggest go there and learn and take some uh programming language independent trainings so that you can start learning and get started with ai ai is here to"
+    },
+    {
+      "t": 1987.3,
+      "end": 2007.3,
+      "text": "stay uh that concludes the my part and I will also quickly go through some other sessions that you might be interested in in this launch event so as Julia mentioned earlier there is a sibling session to hours um which is designing generative AI experiences go and have a look at this session as well um it's really important to design your experience"
+    },
+    {
+      "t": 2007.3,
+      "end": 2027.5,
+      "text": "right not only to know how to use the AL code behind the scenes we also have quite a few sessions that are about the end use of experience with AI for example say line suggestions with copilot or AI powered analysis with copilot or E invoice matching with copilot all these are end user features but you"
+    },
+    {
+      "t": 2027.5,
+      "end": 2047.6,
+      "text": "as a developer might be interested in seeing how we as Microsoft Implement compilot and think about compilot so go see these sessions as well now the AL part of our toolkit is actually open source is part of our aka.ms /bc apps Repro in GitHub and you can contribute to this reer you can"
+    },
+    {
+      "t": 2047.6,
+      "end": 2068.2,
+      "text": "have a look at the code behind the scenes and to learn more on how to do this and what are the implications of this and how we handle open source there is a great session which is go open source with the new GitHub repository for business Central go and attend this session as well some closing remarks I've said this already I'll say it again Microsoft cloud runs on trust AI"
+    },
+    {
+      "t": 2068.2,
+      "end": 2088.2,
+      "text": "is no exception your data is only yours it's your data the AI models are not trained on your data they don't learn out of your data we actually go through super restrictive um compliance reviews that are even more strict than what the law requires us to do because we want you to trust us and trust"
+    },
+    {
+      "t": 2088.2,
+      "end": 2092.6,
+      "text": "that your data is"
+    },
+    {
+      "t": 2092.6,
+      "end": 2112.8,
+      "text": "yours I'll close with some links for you you can learn more about our copilot Fe on aka.ms /bc I mentioned engaging with a team you can do that and engage with us in on Yammer you can see the forward link on screen it's available for partners only if you want to download some samples to see how"
+    },
+    {
+      "t": 2112.8,
+      "end": 2127.9,
+      "text": "um you can make use of the AL part of the toolkit and in general prom dialogue and other parts of the toolkit as well you can do that from aka.ms BCT find the aure open AI folder these are not production ready code but they just to show you how you can interact with the toolkit"
+    },
+    {
+      "t": 2127.9,
+      "end": 2137.9,
+      "text": "you can um apply for an Asia open AI service key this is while you wait for Sand's announcement to come into place for everyone you can do that"
+    },
+    {
+      "t": 2137.9,
+      "end": 2149.3,
+      "text": "aka.ms oi apply and finally um all we talked about and all the toolkit documentation is at aka.ms slbc start coding with AI"
+    },
+    {
+      "t": 2149.3,
+      "end": 2168.1,
+      "text": "learn then we have some generic Business Center resources you've seen this a billion times so I will just skip through them um if you have to remember one it's aka.ms /b all links are in there and with that I conclude the presentation and thank you all for your attention see you next"
+    },
+    {
+      "t": 2168.2,
+      "end": 2169,
+      "text": "time"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.43,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.44,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 5977
+}

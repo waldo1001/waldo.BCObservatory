@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/optimize-sql-bulk-inserts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-bulk-inserts",
+  "title": "Bulk Inserts",
+  "blob": "0366163433f5ca8f7cc97944d85a40261f60e395",
+  "summary": "Bulk inserts buffer multiple insert operations to reduce server calls and table locking time; constraints apply when using return values from INSERT, BLOB fields, or AutoIncrement properties.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "bulk inserts",
+    "performance",
+    "sql server",
+    "buffering",
+    "locks"
+  ],
+  "objects": [],
+  "features": [
+    "insert buffering",
+    "server call reduction",
+    "table locking",
+    "SIFT indexes",
+    "bulk insert constraints",
+    "BLOB fields",
+    "AutoIncrement property"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003097,
+      "pages_in_call": 8
+    }
+  ]
+}

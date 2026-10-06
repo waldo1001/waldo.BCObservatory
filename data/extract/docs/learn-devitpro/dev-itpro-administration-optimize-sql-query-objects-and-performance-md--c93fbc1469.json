@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/optimize-sql-query-objects-and-performance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-query-objects-and-performance",
+  "title": "Query Objects and Performance",
+  "blob": "e6a94e0d166956204945481c043bb17cf8db1a75",
+  "summary": "Query objects retrieve data from Business Central database with optional joins, aggregations, and totals; covering indexes and SIFT indexes optimize query performance when conditions on fields and DataItems are met.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "query objects",
+    "performance",
+    "covering indexes",
+    "sift indexes",
+    "sql optimization"
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "Query"
+    }
+  ],
+  "features": [
+    "FlowFields",
+    "covering indexes",
+    "SIFT indexes",
+    "aggregation",
+    "totaling methods",
+    "query hints",
+    "dynamic result sets"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003097,
+      "pages_in_call": 8
+    }
+  ]
+}

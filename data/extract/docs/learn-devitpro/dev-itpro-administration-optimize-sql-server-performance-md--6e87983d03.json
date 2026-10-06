@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/optimize-sql-server-performance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-server-performance",
+  "title": "Optimizing SQL Server Performance with Business Central",
+  "blob": "165440fb57eeb82c71fbb3573834d16663768667",
+  "summary": "Guide to optimizing SQL Server performance in Business Central through compatibility levels, data access strategies, table keys, bulk inserts, queries, and monitoring tools.",
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "sql server",
+    "performance optimization",
+    "database tuning",
+    "monitoring"
+  ],
+  "objects": [],
+  "features": [
+    "compatibility level",
+    "data access",
+    "table keys",
+    "bulk inserts",
+    "query hints",
+    "read scale-out",
+    "FlowFields",
+    "query store",
+    "event log"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003097,
+      "pages_in_call": 8
+    }
+  ]
+}

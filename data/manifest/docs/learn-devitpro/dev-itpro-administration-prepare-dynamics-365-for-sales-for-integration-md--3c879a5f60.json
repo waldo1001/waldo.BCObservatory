@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "20c5beed03e1af64fa7aced05760f30522d84901",
       "words": 627,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:33.323Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003537
     }
   },
   "input_hash": "20c5beed03e1af64fa7aced05760f30522d84901",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "20c5beed03e1af64fa7aced05760f30522d84901"
+  "output_hash": "a9b74a03289d4074f08f05610e672112a8e20a0407fdaf7d941fee34a787e152"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-align-table-definitions",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "705fbbcb2d5382945dd5b23d77c8c172c6bd550c",
       "words": 159,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:20.681Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003097
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:20.689Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:20.690Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:20.691Z",
+      "page": false
     }
   },
   "input_hash": "705fbbcb2d5382945dd5b23d77c8c172c6bd550c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "705fbbcb2d5382945dd5b23d77c8c172c6bd550c"
+  "output_hash": "84753096c0caab9f7a07071d6320a033a7756b6b7469f727ea1d721e209ca676"
 }

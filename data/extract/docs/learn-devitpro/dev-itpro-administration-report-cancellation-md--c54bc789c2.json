@@ -1,0 +1,34 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/report-cancellation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/report-cancellation",
+  "title": "Report cancellation",
+  "blob": "cde348ba7fbf072080908ed9d121d98f674d2434",
+  "summary": "Report Cancellation describes how report generation and cancellation flows work, including the server's five-second evaluation interval for processing cancellation requests.",
+  "systems": [
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "report generation",
+    "cancellation",
+    "server processing",
+    "telemetry"
+  ],
+  "objects": [],
+  "features": [
+    "cancellation evaluation",
+    "server processing",
+    "report rendering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003537,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/optimize-sql-table-keys-and-performance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-table-keys-and-performance",
+  "title": "Table Keys and Performance",
+  "blob": "4d9c996d096b568d08ee25b0c57affc81c5bf536",
+  "summary": "Table Keys and Performance explains how to define and specify database keys in AL code to optimize query performance when searching table records, particularly for SQL Server efficiency.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "database performance",
+    "table keys",
+    "sql server",
+    "query optimization",
+    "al development"
+  ],
+  "objects": [],
+  "features": [
+    "key definition",
+    "filter optimization",
+    "index selectivity",
+    "record subset retrieval"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003537,
+      "pages_in_call": 8
+    }
+  ]
+}

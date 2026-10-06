@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-query-objects-and-performance",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e6a94e0d166956204945481c043bb17cf8db1a75",
       "words": 775,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:20.684Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003097
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:20.702Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:20.703Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:20.704Z",
+      "page": false
     }
   },
   "input_hash": "e6a94e0d166956204945481c043bb17cf8db1a75",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e6a94e0d166956204945481c043bb17cf8db1a75"
+  "output_hash": "b0ea873e6607998bff1df70c24f50d876166a0c25a6255ee11750a2b6800073a"
 }

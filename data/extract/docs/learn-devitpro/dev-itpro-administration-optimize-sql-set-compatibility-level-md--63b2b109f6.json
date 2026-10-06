@@ -1,0 +1,33 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/optimize-sql-set-compatibility-level.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-set-compatibility-level",
+  "title": "Setting SQL Compatibility Level to Optimize Database Performance",
+  "blob": "2b637556fb5aaa8fb9e8f2a3dd5475ac4faf5795",
+  "summary": "Set SQL Server database compatibility level to match the server version (140 for SQL Server 2017, 130 for SQL Server 2016) to enable latest optimization features in Business Central.",
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "sql server",
+    "compatibility level",
+    "database optimization"
+  ],
+  "objects": [],
+  "features": [
+    "compatibility level",
+    "Azure SQL Database",
+    "database optimization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003097,
+      "pages_in_call": 8
+    }
+  ]
+}

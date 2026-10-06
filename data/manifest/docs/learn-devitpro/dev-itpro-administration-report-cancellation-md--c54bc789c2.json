@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/report-cancellation",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "cde348ba7fbf072080908ed9d121d98f674d2434",
       "words": 152,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:33.324Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003537
     }
   },
   "input_hash": "cde348ba7fbf072080908ed9d121d98f674d2434",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cde348ba7fbf072080908ed9d121d98f674d2434"
+  "output_hash": "339b1b30cf2eeb9d063bb320db179efa410d57c9ae5a38fa3f334e4907add4a9"
 }

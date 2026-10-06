@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-bulk-inserts",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "0366163433f5ca8f7cc97944d85a40261f60e395",
       "words": 302,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:20.682Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003097
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:20.696Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:20.697Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:20.698Z",
+      "page": false
     }
   },
   "input_hash": "0366163433f5ca8f7cc97944d85a40261f60e395",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0366163433f5ca8f7cc97944d85a40261f60e395"
+  "output_hash": "36786fd37f599036024a4fdec2f83a0a30352f73a84d6bf5270abd40b47e0327"
 }

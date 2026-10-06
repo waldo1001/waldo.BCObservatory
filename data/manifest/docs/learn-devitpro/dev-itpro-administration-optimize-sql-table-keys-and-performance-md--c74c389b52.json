@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-table-keys-and-performance",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4d9c996d096b568d08ee25b0c57affc81c5bf536",
       "words": 353,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:31.593Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003537
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:33.329Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:33.329Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:33.330Z",
+      "page": false
     }
   },
   "input_hash": "4d9c996d096b568d08ee25b0c57affc81c5bf536",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4d9c996d096b568d08ee25b0c57affc81c5bf536"
+  "output_hash": "703aaae364f4e2b0a622f272adf8b9497b8c55b8e844c2b7e9da7c958d42afe9"
 }

@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-permission-dependency-cycle-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-permission-dependency-cycle-trace",
+  "title": "Analyzing permission dependency cycle trace telemetry",
+  "blob": "6ec27a94c1b464a5ebeb49354d2c626a864977af",
+  "summary": "Analyzing Permission Dependency Cycle Trace Telemetry explains telemetry for detecting circular permission set dependencies that occur when permission sets reference each other.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "permissions",
+    "permission sets",
+    "telemetry",
+    "circular dependencies",
+    "security"
+  ],
+  "objects": [],
+  "features": [
+    "dependency cycle detection",
+    "permission analysis",
+    "error tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003537,
+      "pages_in_call": 8
+    }
+  ]
+}
