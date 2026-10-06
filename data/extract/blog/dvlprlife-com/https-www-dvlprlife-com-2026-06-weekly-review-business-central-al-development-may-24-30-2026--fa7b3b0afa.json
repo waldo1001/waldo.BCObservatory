@@ -1,0 +1,74 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-24-30-2026/",
+  "url": "https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-24-30-2026/",
+  "title": "Weekly Review: Business Central AL Development – May 24–30, 2026",
+  "source": "dvlprlife-com",
+  "published_at": "2026-06-02T13:35:41.000Z",
+  "words": 1007,
+  "summary": "This weekly review covers five major developments in Business Central AL tooling and performance from May 24 - 30, 2026: index management via new DMV queries and disable/enable capabilities in BC 28, running unit tests without the base app to reduce CI time, Microsoft's OptimAL performance partner program, report layout lifecycle states in BC 28.1, and Claude Code configuration for clearer technical writing.",
+  "key_points": [
+    "BC 28 Index Management page uses SQL DMV queries to help decide which indexes to disable, with a seven-step triage recipe based on table size, read/write patterns, and fragmentation.",
+    "AL unit tests can run independently of the base app by structuring logic as a sub-extension with its own app.json, cutting CI pipeline time from 8 - 12 minutes to under 2.",
+    "OptimAL is Microsoft's structured performance program for partners and ISVs, costing $12,900 USD, delivering telemetry training and hands-on optimization against real customer code.",
+    "BC 28.1 adds four layout status states (Draft, Pending Approval, Approved, Retired) to the Report Layouts page, allowing safe testing of new layouts before user exposure.",
+    "CLAUDE.md configuration rules can override Claude Code's tendency to use metaphorical language, replacing jargon like 'load-bearing' and 'ground truth' with direct technical alternatives."
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "reporting"
+  ],
+  "topics": [
+    "index management",
+    "performance tuning",
+    "unit testing",
+    "ci/cd",
+    "report lifecycle",
+    "al tooling",
+    "ai assistance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Index Management"
+    },
+    {
+      "type": "page",
+      "name": "Report Layouts"
+    }
+  ],
+  "features": [
+    "Index Management with per-company Enable/Disable capability",
+    "SQL DMV queries for index usage analysis",
+    "Unit test compilation without base app dependency",
+    "OptimAL partner performance initiative",
+    "Report Layout Status states (Draft, Pending Approval, Approved, Retired)",
+    "Layout visibility control on request page",
+    "CLAUDE.md configuration for AI code assistant"
+  ],
+  "versions": [
+    "BC 27",
+    "BC 28",
+    "BC 28.1",
+    "2026 Wave 1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.020906,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "BC 28's per-company Enable/Disable Index capability the single biggest performance win in this wave for SaaS.",
+      "why_it_matters": "Establishes index management as the highest-impact performance optimization available to SaaS customers in the current release."
+    },
+    {
+      "text": "full pipeline runs dropped from 8 - 12 minutes to under 2, and BC reaches healthy in 26 seconds instead of 4:19.",
+      "why_it_matters": "Quantifies the dramatic CI/CD speedup achieved by decoupling unit tests from base app dependencies, enabling faster development cycles."
+    }
+  ]
+}

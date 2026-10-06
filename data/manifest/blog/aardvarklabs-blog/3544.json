@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/05/29/new-features-for-report-lifecycle-management-in-business-central-28-1/",
   "published_at": "2026-05-29T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:58:02.398Z",
+      "path": "vault:posts/aardvarklabs-blog/3544.md",
+      "words": 402
+    },
+    "extracted": {
+      "at": "2026-10-06T21:58:11.239Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.005374
+    },
+    "summarized": {
+      "at": "2026-10-06T21:58:11.240Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:58:11.241Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:58:11.275Z",
+      "path": "content/posts/aardvarklabs-blog/3544.md"
     }
   },
   "input_hash": "2026-05-20T14:57:48.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4892dbf952cbdb0c9e2875b5415f66a29d5dff40ab541b122f58d3bd10dc2737"
 }

@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/thinkaboutit-be/7943",
+  "url": "https://thinkaboutit.be/2026/06/quick-tip-how-can-you-download-the-standard-business-central-power-bi-reports/",
+  "title": "Quick Tip: How Can You Download the Standard Business Central Power BI Reports?",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-06-02T11:04:33.000Z",
+  "words": 285,
+  "summary": "Business Central standard Power BI reports are now distributed through official Power BI template apps rather than the old GitHub repository. Users can install apps for Finance, Sales, Purchasing, Inventory, Manufacturing, Projects, Sustainability and others, then download PBIX files from Power BI workspaces, subject to permissions and licensing requirements.",
+  "key_points": [
+    "Standard Power BI reports for Business Central are available through official Microsoft Power BI template apps, not the old GitHub location",
+    "After installing an app in Power BI, users can download the report as a PBIX file from the workspace",
+    "A Power BI Pro license is required to install and use the template apps",
+    "The apps work per company, so separate installation and configuration is needed for multiple companies"
+  ],
+  "systems": [
+    "reporting",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "power bi",
+    "reporting",
+    "templates",
+    "downloads",
+    "licensing",
+    "configuration"
+  ],
+  "objects": [],
+  "features": [
+    "Power BI template apps",
+    "PBIX download",
+    "Finance reports",
+    "Sales reports",
+    "Purchasing reports",
+    "Inventory reports",
+    "Manufacturing reports",
+    "Projects reports"
+  ],
+  "versions": [
+    "2026 Release Wave 1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00494,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Microsoft provides standard Power BI reports for Business Central, but the download location is not as obvious as it used to be.",
+      "why_it_matters": "Clarifies that the distribution method has changed from the familiar GitHub location to a new approach"
+    },
+    {
+      "text": "The current route is through the official Business Central Power BI template apps.",
+      "why_it_matters": "Identifies the correct location where users should look for standard reports"
+    },
+    {
+      "text": "You also need a Power BI Pro license to install and use the template apps.",
+      "why_it_matters": "Critical licensing requirement that users must meet to access the reports"
+    }
+  ]
+}

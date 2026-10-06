@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/06/quick-tip-how-can-you-download-the-standard-business-central-power-bi-reports/",
   "published_at": "2026-06-02T11:04:33.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:57:46.400Z",
+      "path": "vault:posts/thinkaboutit-be/7943.md",
+      "words": 285
+    },
+    "extracted": {
+      "at": "2026-10-06T21:57:53.005Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.00494
+    },
+    "summarized": {
+      "at": "2026-10-06T21:57:53.006Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:57:53.007Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:57:53.011Z",
+      "path": "content/posts/thinkaboutit-be/7943.md"
     }
   },
   "input_hash": "2026-06-03T06:59:07.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "829f688bc81f41105b56d403c353396a925285f53dd563bf49bdbc497e7a9fd8"
 }

@@ -1,0 +1,27 @@
+{
+  "video_id": "y_8xralhVMM",
+  "item_id": "video/yt-microsoft/y_8xralhVMM",
+  "summary": "Cross-environment consolidation in Business Central (2023 release wave 2): how business units in different environments are consolidated through an API endpoint instead of file export/import, using the new consolidation wizard. Covers subsidiary toggle, endpoint setup, authentication, currency mapping and chart of accounts mapping.",
+  "overview": "The session explains what consolidation is, reviews setup and financial reporting for traditional consolidation, then shows the new cross-environment option. Until now consolidation worked for companies in the same environment. Business units can now be set up with an API type endpoint so companies in a different environment can be consolidated too.\n\nThe demo covers the new consolidate action with its wizard, setting up business units for cross-environment, copying the endpoint from the consolidation setup page in the subsidiary company, and authenticating. It closes with tips and implementation notes.",
+  "key_points": [
+    "Cross-environment consolidation uses API endpoints to reach business units in other environments, instead of file export/import.",
+    "In the subsidiary company, toggle the company as a subsidiary before consolidation setup. This enables data import and can be disabled at any time to stop extraction.",
+    "Copy the environment endpoint from the consolidation setup page in the subsidiary and use it when setting up the business unit with an API type endpoint.",
+    "You must authenticate with a user in the other company and select which company in the remote environment to set up.",
+    "The new consolidate action opens a wizard where you choose start date, end date and consolidation document number, then pick business units, with optional authentication.",
+    "The earlier report-based approach still exists and won't be deprecated. The procedures that run consolidation are internal and not exposed.",
+    "Consolidation supports currency mapping (subsidiary or holding company rates, optional additional reporting currency), chart of accounts mapping, minority interest percentages below 100, and a trial balance for consolidation."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer"
+  ],
+  "extraction_hash": "0ab69129b1f26a23961dae52592d4b8ba17e16c8b5e0667c2d91577dcc6352b9",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0162244
+  }
+}

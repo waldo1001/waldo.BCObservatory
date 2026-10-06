@@ -1,0 +1,60 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3544",
+  "url": "https://aardvarklabs.blog/2026/05/29/new-features-for-report-lifecycle-management-in-business-central-28-1/",
+  "title": "New Features for Report Lifecycle Management in Business Central 28.1",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-05-29T12:00:00.000Z",
+  "words": 402,
+  "summary": "Business Central 28.1 introduces report layout lifecycle management with status tracking. The Report Layouts page now supports Draft, Pending Approval, Approved, and Retired statuses, allowing developers to manage report layout versions without exposing incomplete versions to end users.",
+  "key_points": [
+    "Report layouts now have status states: Draft, Pending Approval, Approved, and Retired",
+    "Only Approved layouts are visible to end users; others remain hidden",
+    "Draft and Pending Approval statuses allow developers to test layouts from the Report Layouts screen",
+    "Layout status can be changed via the Actions menu without creating new sandboxes",
+    "Retired status hides old layouts while keeping new versions available"
+  ],
+  "systems": [
+    "reporting",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "report layouts",
+    "lifecycle management",
+    "status tracking",
+    "report development",
+    "approval workflow"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Report Layouts"
+    }
+  ],
+  "features": [
+    "Report layout status management",
+    "Draft status for reports",
+    "Pending Approval status for reports",
+    "Approved status for reports",
+    "Retired status for reports",
+    "Layout lifecycle control"
+  ],
+  "versions": [
+    "28.1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005374,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Business Central 28.1 adds a new feature to report management allowing for a lifecycle process around report layouts.",
+      "why_it_matters": "Establishes the core capability being introduced that solves the challenge of managing report layout versions across development and production environments."
+    }
+  ]
+}

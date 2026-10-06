@@ -1,0 +1,367 @@
+{
+  "video_id": "198d9piIoE0",
+  "item_id": "video/yt-microsoft/198d9piIoE0",
+  "title": "What's New: Reservation Worksheet and Fulfillment Suggestions (2023 release wave 2)",
+  "duration_s": 1033,
+  "systems": [
+    "inventory",
+    "warehouse",
+    "manufacturing"
+  ],
+  "topics": [
+    "reservation worksheet",
+    "reserved from stock",
+    "fulfillment suggestions",
+    "allocation policies",
+    "batch settings",
+    "demand planning",
+    "warehouse shipments",
+    "inventory picks",
+    "consumption journal"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview of Scenarios",
+      "t_start": 0,
+      "t_end": 90.8
+    },
+    {
+      "title": "Classical Sales Order Workflow and Limitations",
+      "t_start": 90.8,
+      "t_end": 181
+    },
+    {
+      "title": "Reserved from Stock Indicator and Automatic Reservation",
+      "t_start": 181,
+      "t_end": 302.6
+    },
+    {
+      "title": "Reservation Worksheet and Allocation Actions",
+      "t_start": 302.6,
+      "t_end": 455
+    },
+    {
+      "title": "Batch Settings and Automated Allocation",
+      "t_start": 455,
+      "t_end": 598.1
+    },
+    {
+      "title": "Reporting and Viewing Reservation Status",
+      "t_start": 598.1,
+      "t_end": 688.4
+    },
+    {
+      "title": "Warehouse Shipments and Inventory Picks",
+      "t_start": 688.4,
+      "t_end": 798
+    },
+    {
+      "title": "Consumption Journals and Statistics Pages",
+      "t_start": 798,
+      "t_end": 904
+    },
+    {
+      "title": "Automation and Background Processing",
+      "t_start": 904,
+      "t_end": 974.7
+    },
+    {
+      "title": "Resources and Community Engagement",
+      "t_start": 974.7,
+      "t_end": 1033
+    }
+  ],
+  "features": [
+    {
+      "name": "Reserved from Stock Indicator",
+      "description": "A new field added to sales order lines and other demand documents showing the reservation status from stock with three options: none, partial, or fully reserved.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 201.2,
+      "t_end": 242,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reservation",
+        "indicator",
+        "stock availability"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Reservation Worksheet",
+      "description": "A new page that allows users to efficiently manage reservations by gathering demand documents, applying allocation policies, and creating reservations with dramatically fewer clicks than manual processes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 302.6,
+      "t_end": 358.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reservation",
+        "worksheet",
+        "demand gathering"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Allocate Action",
+      "description": "An automated function in the Reservation Worksheet that recommends quantities to reserve by analyzing available stock and demand, making safe allocation decisions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 358.5,
+      "t_end": 399,
+      "is_demoed": true,
+      "caveats": [
+        "allocations may be skipped if quantity is insufficient"
+      ],
+      "tags": [
+        "allocation",
+        "automation",
+        "recommendations"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Allocation Policies",
+      "description": "Multiple allocation strategies available in the Reservation Worksheet including a default safe allocation and an equally distributed option, with ability to combine policies and add custom rules.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 419,
+      "t_end": 454.8,
+      "is_demoed": true,
+      "caveats": [
+        "currently only two policies available with plans to add more"
+      ],
+      "tags": [
+        "policies",
+        "allocation",
+        "customization"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Reservation Worksheet Batch Settings",
+      "description": "Advanced settings for Reservation Worksheet allowing filtering by demand type, date range, items, location, and allocation policies to focus on specific company processes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 474.8,
+      "t_end": 555.2,
+      "is_demoed": true,
+      "caveats": [
+        "batch configuration requires understanding of filters and allocation rules"
+      ],
+      "tags": [
+        "batch",
+        "settings",
+        "filters"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Automated Create Warehouse Shipments Report",
+      "description": "A report that creates warehouse shipments filtered by reservation status, allowing only fully reserved items to be included in the shipment creation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 688.4,
+      "t_end": 747.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "warehouse shipments",
+        "automation",
+        "filtering"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Automated Inventory Picks Creation",
+      "description": "A function that creates inventory picks based on reservation status filters, allowing the system to automatically prepare picks for reserved items across different document types.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 768.3,
+      "t_end": 798,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "inventory picks",
+        "automation",
+        "warehouse"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Statistics Page Reserved from Stock",
+      "description": "Reservation status information integrated into statistics pages of various demand documents including sales orders, production orders, jobs, and consumption journals.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 814.3,
+      "t_end": 883.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "statistics",
+        "reservation status"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Show Details Feature",
+      "description": "A feature that displays reservation details directly in production orders and other documents, allowing quick visibility of reserved quantities without navigating to separate pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 883.9,
+      "t_end": 904,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "details",
+        "visibility"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Background Job Queue Processing",
+      "description": "Ability to configure the system to run fulfillment tasks in the background via job queue, automatically creating warehouse shipments, inventory picks, or updating quantities to ship or consume.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 924.2,
+      "t_end": 941.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "automation",
+        "job queue",
+        "background processing"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Consumption Journal Filtering by Reservation",
+      "description": "Consumption journal now supports filtering by reservation status to focus on specific components that meet reservation criteria.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 843.7,
+      "t_end": 863.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "consumption",
+        "filtering",
+        "manufacturing"
+      ],
+      "system": "manufacturing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Reservation Worksheet",
+      "t": 302.6
+    },
+    {
+      "type": "page",
+      "name": "Job Card",
+      "t": 814.3
+    },
+    {
+      "type": "page",
+      "name": "Consumption Journal",
+      "t": 843.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Andre Pano",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 50.4,
+      "text": "how you as a user can find the answer what is the status of existing demand document where demand document can be",
+      "why_it_matters": "This defines the core problem the feature solves - determining status of various types of demand documents across the system.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 201.2,
+      "text": "if you have things already reserved then we added a new field which shows reserved from stock in a very simple way it has",
+      "why_it_matters": "Introduces the key new indicator that provides quick visibility of reservation status with three clear states.",
+      "check": "exact"
+    },
+    {
+      "t": 302.6,
+      "text": "with a new page which is called reservation worksheet you can do it in dramatically less number of clicks",
+      "why_it_matters": "Articulates the value proposition of the reservation worksheet feature - efficiency improvement through reduction of manual clicks.",
+      "check": "exact"
+    },
+    {
+      "t": 358.5,
+      "text": "we have probably couple of actions to automate this process let's me press allocate button and what happened magic",
+      "why_it_matters": "Demonstrates the automated allocation feature that makes reservation recommendations based on available stock and demand.",
+      "check": "exact"
+    },
+    {
+      "t": 419,
+      "text": "basically it's not only option like this is a basic one which is run by default and it executes the safest allocation you can",
+      "why_it_matters": "Shows that multiple allocation strategies are available, providing flexibility in how reservations are recommended.",
+      "check": "exact"
+    },
+    {
+      "t": 688.4,
+      "text": "we added a special report which has two purposes purpose number one it can use filters for example let's pick full option for Reserve",
+      "why_it_matters": "Introduces the automated warehouse shipment creation capability filtered by reservation status.",
+      "check": "exact"
+    },
+    {
+      "t": 904,
+      "text": "you can configure your system to run some task into background in the Via job queue and push documents to the next stage for",
+      "why_it_matters": "Describes the automation capability for fulfillment tasks, reducing manual intervention required.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 434.6,
+      "kind": "coming-later",
+      "text": "we plan to add more allocation policies beyond the two currently available"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 11
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02859
+    }
+  ]
+}

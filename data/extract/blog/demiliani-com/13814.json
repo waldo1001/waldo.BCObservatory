@@ -1,0 +1,70 @@
+{
+  "item_id": "blog/demiliani-com/13814",
+  "url": "https://demiliani.com/2026/06/01/dynamics-365-business-central-new-model-choice-in-agent-definition/",
+  "title": "Dynamics 365 Business Central: new model choice in Agent definition.",
+  "source": "demiliani-com",
+  "published_at": "2026-06-01T07:30:02.000Z",
+  "words": 438,
+  "summary": "Business Central 28.1 introduces GPT-5.3-chat as the default AI model for Agents and Managed AI service, with a new UI switcher and AL methods allowing administrators to select between available models or use Auto mode. The post discusses model selection guidance and suggests Microsoft consider supporting GPT-5.5-chat for improved accuracy and hallucination reduction.",
+  "key_points": [
+    "GPT-5.3-chat is now the default model for Agents and Managed AI service in version 28.1, with a new model switcher on the Agents page",
+    "Available AI models can be selected via UI or programmatically through new Agent codeunit methods: SetModelId, SetModelIdToAuto, GetModelId, and GetModelName",
+    "GPT-5.3-chat suits conversational and brainstorming tasks, while GPT-4.1-latest is better for complex data parsing and heavy workloads with large reference documentation",
+    "GPT-5.5-chat is recommended as a future option due to 52.5% fewer hallucinations and faster response times compared to GPT-5.3-chat"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "ai models",
+    "agents",
+    "gpt-5.3-chat",
+    "model selection",
+    "al development",
+    "managed ai service"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Agent"
+    }
+  ],
+  "features": [
+    "AI model switcher for Agents",
+    "SetModelId method",
+    "SetModelIdToAuto method",
+    "GetModelId method",
+    "GetModelName method",
+    "Auto model mode",
+    "GPT-5.3-chat default model",
+    "GPT-4.1-latest support"
+  ],
+  "versions": [
+    "28.1"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006271,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "GTP-5.3-chat is now the default AI model used by Microsoft on Agents and Managed AI service.",
+      "why_it_matters": "Establishes the key change in version 28.1 that affects how agents operate by default"
+    },
+    {
+      "text": "The new switcher permits you to choose the model that the agent will uses to complete tasks.",
+      "why_it_matters": "Describes the main feature allowing administrators to configure model selection for agents"
+    },
+    {
+      "text": "You should use GPT-5.3-chat for every task that requires conversation, brainstorming and tasks where you want a natural human-like interaction.",
+      "why_it_matters": "Provides practical guidance on when to use each model based on task requirements"
+    }
+  ]
+}

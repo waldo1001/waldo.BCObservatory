@@ -5,12 +5,60 @@
   "tier": "official",
   "title": "What's New: Cross-Environment Consolidations (2023 release wave 2)",
   "url": "https://www.youtube.com/watch?v=y_8xralhVMM",
-  "published_at": null,
+  "published_at": "2023-10-23T13:47:29.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:57:09.300Z",
+      "captions": "auto:en-orig",
+      "duration_s": 574
+    },
+    "captioned": {
+      "at": "2026-10-06T21:57:15.308Z",
+      "path": "data/captions/microsoft/y_8xralhVMM.vtt",
+      "vtt_sha256": "8aa485415bea02fa99f255c02ecc0a2e6c61051343afaeef776bd99e5cc1688c",
+      "segments": 33,
+      "words": 1427,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:57:39.679Z",
+      "path": "data/extract/video/y_8xralhVMM.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 10,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.025383
+    },
+    "summarized": {
+      "at": "2026-10-06T21:57:46.330Z",
+      "path": "data/summary/video/y_8xralhVMM.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0162244
+    },
+    "linked": {
+      "at": "2026-10-06T21:57:46.332Z",
+      "systems": [
+        "finance",
+        "reporting",
+        "integration"
+      ],
+      "topics": 7,
+      "objects_as_heard": 3
+    },
+    "published": {
+      "at": "2026-10-06T21:57:46.343Z",
+      "path": "content/videos/y_8xralhVMM.md"
     }
   },
   "input_hash": null,
@@ -19,7 +67,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 526,
-    "duration_s": 575,
-    "via": "reconcile"
-  }
+    "duration_s": 574,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c0ceb6d702edf70dc7bc7284e8e0941367bdbd7027a53abe7ca9bb820fae4c17"
 }

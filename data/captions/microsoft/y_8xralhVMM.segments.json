@@ -1,0 +1,178 @@
+{
+  "video_id": "y_8xralhVMM",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 20.6,
+      "end": 41,
+      "text": "hi and welcome to this session on Cross environment consulation my name is Brian Nelson I'm a program manager in the business Central team we're going to show a new feature that is expanding the uh consolidation feature or sub feature to the consolidation feature what we will do in this session is a brief recap of of consolidation"
+    },
+    {
+      "t": 41,
+      "end": 61,
+      "text": "I'll show you the how it's done um in a normal case uh then we will show you how it's done in with the new feature where you are doing cross environment consolidation looks the same but it is different and then Joshua will take you through how you set it up um there's a a bit of work and"
+    },
+    {
+      "t": 61,
+      "end": 81.1,
+      "text": "not much and lastly uh Joshua will give you some tips and tricks but let's uh look at what is consolidation consolidation is when you need to uh import or consolidate your financial statements from multiple uh business entities if you're group of businesses to"
+    },
+    {
+      "t": 81.1,
+      "end": 101.4,
+      "text": "get a complete overview of the group um we call them business units the subsidiary or sales offices or any other legal entity that you have we can support multicurrency so the subsidiaries don't have to have the same currency as the parent or holding company that you're consolidating into"
+    },
+    {
+      "t": 101.4,
+      "end": 113.6,
+      "text": "there is a feature so that you can map the chart of accounts they don't have to be the same you'll just do the mapping in the subsidiary to the consolidation company's chart of"
+    },
+    {
+      "t": 113.6,
+      "end": 133.7,
+      "text": "accounts and we also handle minority interest but let's just take a brief look at at how the feat feat looks like so in this company you can see that in my environment and this is the same environment I have two like I have actually a lot more companies I have my holding"
+    },
+    {
+      "t": 133.7,
+      "end": 145.8,
+      "text": "company and I have two other companies Brian's beans and Joshua's coffee these are my two subsidiaries to the holding company I've set them up as business"
+    },
+    {
+      "t": 145.8,
+      "end": 166.5,
+      "text": "units and for these I have done some specific applications I specify what the name is uh what currency rate I want to use it can be the subsidiaries or the holding companies and you can choose to use the currency exchange rate or the currency exchange rate for the additional reporing currency you can also Define"
+    },
+    {
+      "t": 166.5,
+      "end": 187.4,
+      "text": "how much you want to consolidate and if you don't consolidate 100% so you have minority interest we'll still do the consolidation but then um also post when you do the consolation will post the offsetting entries for the minority interest and then there are accounts to handle the gains and losses if you are doing uh a subsidiary in"
+    },
+    {
+      "t": 187.4,
+      "end": 207.4,
+      "text": "currencies the bottom part we'll get to that uh in a second so I've set up these companies uh I've done some uh importing and what you can do is uh you can run a trial balance for consolidation you can also set up because it's business units you can do financial reporting and I've created a"
+    },
+    {
+      "t": 207.4,
+      "end": 227.7,
+      "text": "report here called consolidation per business unit and you'll be able to see if I scroll down a bit that I have my Incorporated the holding company I have beans and coffee and then I have something extra uh and I have numbers for at least the beans because that's the one I've imported"
+    },
+    {
+      "t": 227.7,
+      "end": 240.6,
+      "text": "so far but you can uh you can import your businesses and then through financial reporting or an external bi tool you can get a a an overview of your combined business"
+    },
+    {
+      "t": 240.6,
+      "end": 261,
+      "text": "so up until now it worked with within environment companies so these two that are in the same environment I could just hit the consolidate button and it would import the data from these companies if the company recited somewhere else in the world different region different environment I would have to use files to Import"
+    },
+    {
+      "t": 261,
+      "end": 271.8,
+      "text": "and Export uh my consolidation information but we have changed it for this session as Joshua will show uh you set up a company that is in a different"
+    },
+    {
+      "t": 271.8,
+      "end": 291.9,
+      "text": "environment so let's have a look at how we can import data from a different environment so here I am in my holding company and here I have only a us uh subsidiary and I want to import data from the US subsidiary and also from a British subsidiary Kronos GBP"
+    },
+    {
+      "t": 291.9,
+      "end": 302.5,
+      "text": "bins so let's see in the holding company you can go to the business units page here I have them already set up and and I can click the action"
+    },
+    {
+      "t": 302.5,
+      "end": 321.6,
+      "text": "consolidate and I can set up the starting date the ending date for this consolidation document number with which you want to identify the entries that get posted in this company and yeah this gets prefilled with the currency that this uh company has in this case it's"
+    },
+    {
+      "t": 321.6,
+      "end": 341.8,
+      "text": "USD so when you want to run the consolidation you are presented with a list of the business units that you have in case you need to to authenticate because you haven't run consolidations recently you have to select this and it will prompt you to uh click this grant access action that will prompt the an authentication"
+    },
+    {
+      "t": 341.8,
+      "end": 352,
+      "text": "flow and see that you actually have access to that company in this case we have access so we can just go ahead and say"
+    },
+    {
+      "t": 354.5,
+      "end": 375.2,
+      "text": "finish now the consolidation is successful and we can see these entries in this company so now that we have uh performed the consolidation let's see and have a look at the datas that were exported from the other company so here in our holding company I can go to financial reports and here I have the same financial report Brian"
+    },
+    {
+      "t": 375.2,
+      "end": 386,
+      "text": "showed and here I have the different accounts and I have a total uh what's in each of the business"
+    },
+    {
+      "t": 386,
+      "end": 406.8,
+      "text": "units yeah for for the consolidation period that we selected so let's have a look at how we can set up some uh the business units for cross environment so we go to the business units page and just as before we can add a new business unit here we will add"
+    },
+    {
+      "t": 406.8,
+      "end": 420.3,
+      "text": "the British uh beans company that we have and the main difference on how you set up this uh is that now you can set up an API type"
+    },
+    {
+      "t": 420.3,
+      "end": 440.6,
+      "text": "here uh when you do this then you can consolidate across environment it doesn't necessarily need to be in this same environment so and it requ requires an API endpoint so how can you get this endpoint you can get this through the page consolidation setup in the other company so here it is my"
+    },
+    {
+      "t": 440.6,
+      "end": 448.1,
+      "text": "uh subsidiary company so if we go to the page consolidation"
+    },
+    {
+      "t": 448.1,
+      "end": 461,
+      "text": "setup we you will see an environment uh endpoint we can copy this and then we can paste it"
+    },
+    {
+      "t": 461,
+      "end": 481.2,
+      "text": "here after this you will be required to authenticate in that company so in this page you have to authenticate with the user in the other company and after this is done you are required to select which company in this environment you want to set up so it's this one"
+    },
+    {
+      "t": 481.2,
+      "end": 501.2,
+      "text": "and that's it uh you have now a new uh business unit that can communicate with it yeah something important to note also is that before doing this consolidation setup you have to enable this company a subsidiary so when you toggle this you can import data if you at any time don't want data to be extracted from this"
+    },
+    {
+      "t": 501.2,
+      "end": 522,
+      "text": "company you can disable this yes perfect so now you can consolidate uh companies that are either in the same environment or in a completely different environment um if you then do the mapping for currencies or for the chart of accounts uh it should be a smooth process from now on"
+    },
+    {
+      "t": 522,
+      "end": 542.8,
+      "text": "um Joshua you may have some tips and tricks yeah so just as a general uh overview of what happened this new consolidate action and that has this wizard you may have been familiar with the report that we had before the report still still exists and won't be deprecated so you can still use it"
+    },
+    {
+      "t": 542.8,
+      "end": 562.8,
+      "text": "uh and we use it for the database so the the procedures for running the consolidation are internal uh so we don't expose them right now but you can run this wizard from your Al code and yeah that's just it just a just a small thing nice"
+    },
+    {
+      "t": 562.8,
+      "end": 573,
+      "text": "to know yeah thank you uh we hope you like the feature and we'll start using it for your consolidation going forward thanks for joining this"
+    },
+    {
+      "t": 573,
+      "end": 574,
+      "text": "session"
+    }
+  ],
+  "markers": [
+    {
+      "t": 2.11,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1427
+}

@@ -1,0 +1,501 @@
+{
+  "video_id": "qmLVKyHRhNc",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 18.7,
+      "end": 30.9,
+      "text": "welcome to this business Central launch event session for 2023 release Wave 2 introducing analyze data on lists and queries"
+    },
+    {
+      "t": 30.9,
+      "end": 51.2,
+      "text": "we have a tightly packed agenda and the most important thing is the first the world is changing what's that let's see then we talk about analyzing data on list pages on queries um how you can share a data analysis"
+    },
+    {
+      "t": 51.2,
+      "end": 61.4,
+      "text": "definition with a coworker or friend how you can turn off the feature if you really want to do that and um and then some learning resources and"
+    },
+    {
+      "t": 61.4,
+      "end": 78.9,
+      "text": "Goos so what does this mean the world is changing well the world is changing in many many different ways for this session because we're talking about reporting and analytics this is of course the world of reporting and data analysis is"
+    },
+    {
+      "t": 78.9,
+      "end": 99.1,
+      "text": "changing now in this session it's very important that uh that we make this distinction distinction the word reporting in business Central means three different things analytical reports processing only reports and printable documents in"
+    },
+    {
+      "t": 99.1,
+      "end": 113,
+      "text": "this session we only cover analytical reports okay very important not the other two so it's the world that is changing for"
+    },
+    {
+      "t": 113,
+      "end": 124.4,
+      "text": "analytics in organizations there are different needs to analyze data depending on on what kind of role you have"
+    },
+    {
+      "t": 124.4,
+      "end": 138.1,
+      "text": "typically if you look at an organizational diagram here the further you go up towards leadership the further you probably need to have your data"
+    },
+    {
+      "t": 138.1,
+      "end": 158.6,
+      "text": "aggregated so that staff people working on operational uh sorry on processes probably need pretty detailed data whereas middle management typically want Trends and summaries and in the leadership"
+    },
+    {
+      "t": 158.6,
+      "end": 178.6,
+      "text": "team you probably mostly want performance data kpis and so on so that also means the typical ways to consume data is or the tools you use for your analytics needs change on the different role in your organization typical of course"
+    },
+    {
+      "t": 178.6,
+      "end": 198.6,
+      "text": "is that it's not that people working in leadership only deal with kpis and dashboards and financial reports but it's just the typical way to consume this data so we worked with this definition of different tools for different needs to"
+    },
+    {
+      "t": 198.6,
+      "end": 218.6,
+      "text": "build a vision for analytics and Reporting and the main thing in this vision for business Central is that analytics is build for online consumption not for print remember again this is not document reporting this is analytics"
+    },
+    {
+      "t": 218.6,
+      "end": 239.3,
+      "text": "or analytical reporting so online consumption is the way we want to move things forward and we have three different pillars to this Vision the first one is the way your customers cons or users consume data we want"
+    },
+    {
+      "t": 239.3,
+      "end": 259.8,
+      "text": "business Central to have outof thee boox reporting and and analytics solutions for the Core Business scenarios in the product number two we want to enable that most of the analytical needs that users have are simply covered with no code"
+    },
+    {
+      "t": 259.8,
+      "end": 270.9,
+      "text": "or low codes Solutions and three that customers have easy access to data for advanced bi and Analytics"
+    },
+    {
+      "t": 270.9,
+      "end": 291,
+      "text": "of course part of this Vision the partner Community is key so isvs should also be able to deliver analytics and remember this is not document reporting this presentation has nothing to do with the documents uh that you use for invoices and so"
+    },
+    {
+      "t": 291,
+      "end": 309.3,
+      "text": "on okay only for analytics so let me show you some features we built in this space the first is how to analyze data on list Pages you can think about analyze data on list Pages"
+    },
+    {
+      "t": 309.3,
+      "end": 329.6,
+      "text": "as before you run a report you get a PDF and if you need to do something else a different type of analysis you would need to run the report with different parameters get a new PDF and so on in this new world we want to enable self-service data analysis directly in"
+    },
+    {
+      "t": 329.6,
+      "end": 350.1,
+      "text": "the client and with analyzed data on lists you get just that you can quickly extract insights you can design data or analysis your way with different tabs on the data where the grouping uh filters and so on"
+    },
+    {
+      "t": 350.1,
+      "end": 363.7,
+      "text": "is is local to that analysis and then you can save your analysis for later it will just stay there so the next time you go go to the list it's there and you can pick up your"
+    },
+    {
+      "t": 363.7,
+      "end": 384.4,
+      "text": "analysis this was in public preview in 2023 release wave one and you needed to enable it under feature Management in this release wave this is generally available where Microsoft we abbreviate everything so generally available we call that GA"
+    },
+    {
+      "t": 384.4,
+      "end": 404.4,
+      "text": "it's the same thing so the feature is enabled for all users you don't need to use feat feature management anymore the feature can be turned off either by a developer who says this is not something you can analyze or with a permission I'll come back to the permission part"
+    },
+    {
+      "t": 404.4,
+      "end": 414.9,
+      "text": "and not only can users save reports for later they can actually share them with co-workers and friends I'll show you that later as"
+    },
+    {
+      "t": 414.9,
+      "end": 435.5,
+      "text": "well we also listen to feedback from the public preview so we did some a few small improvements to the user interface first of all to discover this better we open all make sure that the analysis menus are always open the first time you go to a page"
+    },
+    {
+      "t": 435.5,
+      "end": 451.6,
+      "text": "and then that persistence will also take place for each of your analysis menus so they open the men the analysis menus are open closed depending on how you want it for that analysis"
+    },
+    {
+      "t": 451.6,
+      "end": 472.3,
+      "text": "then in the public preview we were a bit cautious about the data size so we put a limit on 100,000 rows uh on a list where you could uh load that data and then that's it if you had more data you would need to do a pre-filtering on the list before you went into this new mode of analyzing data not anymore"
+    },
+    {
+      "t": 472.3,
+      "end": 493,
+      "text": "with the with 23 2023 release Wave 2 we removed completely this limitation and you can allow you can analyze as much data as you want of course if you have tons of data it might take a little longer to load the page and then also as a new thing in this release we"
+    },
+    {
+      "t": 493,
+      "end": 513.2,
+      "text": "added the ability to analyze data not only on lists but also on quy objects and I'll show you some examples of that in this presentation but let's maybe take a look at how analyzed data on lists look in the 2023 release Wave 2 all right so I'm on"
+    },
+    {
+      "t": 513.2,
+      "end": 533.2,
+      "text": "the RO Center and um let's try to first of all analyze one of our ledgers maybe I'm interested in the customer Ledger entry table or customer Ledger entries because I want to analyze my sales data so if I search for customer"
+    },
+    {
+      "t": 533.2,
+      "end": 553.8,
+      "text": "Ledger entries let's see if we find that page this is a list page and um this is the normal list you know but then if you tockle this analyze button here it takes the page into the analysis mode and this opens up a completely new UI"
+    },
+    {
+      "t": 553.8,
+      "end": 573.8,
+      "text": "that allows you to analyze slice and dice the data you notice that the first time you go into this on a page um the menus are here are enabled and there's an analysis one create it for you if I um just click"
+    },
+    {
+      "t": 573.8,
+      "end": 593.9,
+      "text": "here to remove things and maybe just add a customer number and a document number let's put a customer number here and a document number down here and let's say I I'm fine with this for now it's a silly analysis"
+    },
+    {
+      "t": 593.9,
+      "end": 614,
+      "text": "but uh but that's how it is I hide my choice and um and I go back to my um my role Center so let's uh let me go to back to the customer Ledger or sorry to the role Center then next time I go to the same list customer"
+    },
+    {
+      "t": 614,
+      "end": 634.1,
+      "text": "Ledger entries let's see if we can find it here first of all you notice that business Central remembers your choice of this toggle so if the Last Action you did was to analyze data on this list it actually persists that choice and the second choice business Central"
+    },
+    {
+      "t": 634.1,
+      "end": 654.4,
+      "text": "chose to persist was the that the menus are now no longer expanded so the the choice of analysis mode or not on a page as well as uh the initial opening of these is something we thought at least we we heard from the our"
+    },
+    {
+      "t": 654.4,
+      "end": 674.8,
+      "text": "um UI experiments and our UI testing that this would make the feature easier to discover but let me open up the menu again and let's let's just try a few things here so let me uh for instance I'm interested in in sales and maybe I want"
+    },
+    {
+      "t": 674.8,
+      "end": 695.2,
+      "text": "to look at sales amount in dollars uh Group by customer and document number now I can just easily see which customers uh bought uh what and the invoice number and if I then want to maybe pivot this and see the posting"
+    },
+    {
+      "t": 695.2,
+      "end": 715.2,
+      "text": "when was this posted um then I can I I can see the posting date has a date hierarchy of a year quarter month maybe I want to pull in the posting date year and maybe the quarter into my Pivot here and then I can uh let's just get rid"
+    },
+    {
+      "t": 715.2,
+      "end": 722.5,
+      "text": "of the few of these measures here I just want this some sum of"
+    },
+    {
+      "t": 722.5,
+      "end": 742.9,
+      "text": "amount here you go and now I have my sum of amount by quarter um last year and this year but very very easy for me to as a customer or a user to to write my own mini reports many users would actually see data analysis as"
+    },
+    {
+      "t": 742.9,
+      "end": 763.6,
+      "text": "reporting tool and they would call these my sales report okay so that's in a nutshell data analysis directly in the client it uh it's on live data no replicated data security model is preserved and uh totally"
+    },
+    {
+      "t": 763.6,
+      "end": 784,
+      "text": "no code analysis ad hoc analysis on your data the next thing we added in this wave was not only can you do data analysis on lists pages but you can also do it on query objects query objects in the past was"
+    },
+    {
+      "t": 784,
+      "end": 797.1,
+      "text": "something that was done by developers to speed up code but now you can use a query object as the data foundation for this new way of doing ad hoc analysis or"
+    },
+    {
+      "t": 797.1,
+      "end": 817.4,
+      "text": "reporting so it you had always in in business Central the ability to open a query with on the URL with Slash question mark query equals the query ID but the new thing is that this now comes with the same analysis chle and it opens the same UI"
+    },
+    {
+      "t": 817.4,
+      "end": 837.5,
+      "text": "now on queries let's try to just to see uh that it's going to be a boring demo because it looks exactly the same way as data analysis on lists all right so for this demo I I created um a query and I'm using this URL"
+    },
+    {
+      "t": 837.5,
+      "end": 850.9,
+      "text": "query equals and then the ID of this of course that's not the way users will interact with this but just for you to see the UI so I will open"
+    },
+    {
+      "t": 850.9,
+      "end": 871.2,
+      "text": "this right and now um you can see my query here is called analyze your invent inventory and I even added a teaching tip for it um show help actually shows the teaching tip and I can even add uh links to the doc"
+    },
+    {
+      "t": 871.2,
+      "end": 891.6,
+      "text": "specific links to a documentation for this query so that's a way to document a query so that users can find it even more useful in this particular example I took something on inventory on items and I joined that in the query with location details"
+    },
+    {
+      "t": 891.6,
+      "end": 911.8,
+      "text": "so you know you can notice here that I have item description and location let's find a Mexican chair and now instead of um the normal location codes these uppercase thingies you can actually use the location names from the location from the related table that's"
+    },
+    {
+      "t": 911.8,
+      "end": 926.5,
+      "text": "what I joined in in my query and I can see now that East Warehouse has remaining quantity of three main one and West Warehouse 6 which means the Outsource Logistics"
+    },
+    {
+      "t": 926.5,
+      "end": 946.9,
+      "text": "location uh there's nothing happening there and you can see these are the elements in my query I have location code from the item list or item table but I also have location name City and country that I joined in my query and enables me now to do"
+    },
+    {
+      "t": 946.9,
+      "end": 960.6,
+      "text": "analysis on in inventory based on location and anything else you might want to add in your query you can suddenly analyze on with the same user"
+    },
+    {
+      "t": 960.6,
+      "end": 971.1,
+      "text": "interface so a few features came in a bit late in our release so they are likely available in version"
+    },
+    {
+      "t": 971.1,
+      "end": 991.9,
+      "text": "23.1 um queries are just any other UI element that will now show up in report or role Explorer and they are also searchable in tell me just like you would search for a report or search for a page you can now search for a query and"
+    },
+    {
+      "t": 991.9,
+      "end": 1012,
+      "text": "and they will show up in the places where we want like to to make content discoverable so role Explorer what's that Beast what's that and what are these new links if you go to tell me or on the role Center main role Center so you have something called"
+    },
+    {
+      "t": 1012,
+      "end": 1032.1,
+      "text": "exploring reports or all reports these are the foundation for a new con concept where we want reporting content to be much more discoverable in business Central we got feedback from users who said business Central doesn't come with any reports okay well if you click"
+    },
+    {
+      "t": 1032.1,
+      "end": 1052.3,
+      "text": "on that report Explorer and if you also remember to expand all business Central will remember your choice so uh so it only need to do that once you actually see that there's a lot of analytical capabilities is in business Central build in so that's part of the vision you remember the vision"
+    },
+    {
+      "t": 1052.3,
+      "end": 1069.2,
+      "text": "build in analytical content for every use case or every main feature in business Central it's right here and we're adding to that uh going to going to add to that with queries uh and with reports and other reporting"
+    },
+    {
+      "t": 1069.2,
+      "end": 1081,
+      "text": "artifacts all right another thing we added in this release wave was ability to share an analysis definition with a coworker"
+    },
+    {
+      "t": 1081,
+      "end": 1101.5,
+      "text": "so on the analysis tab menu I'll show you in a minute you can share a link to the analysis you did as a user with a friend and a quick tip here is of course these links you can put them anywhere in teams or on a web page or in onee or whatever you like"
+    },
+    {
+      "t": 1101.5,
+      "end": 1121.9,
+      "text": "uh and they're basically quick uh click once installers for for analysis uh so let me uh let me just show you actually I'll just show you here it's the same demo so here I have an income statement by month analysis I did and uh you can see that I if I open"
+    },
+    {
+      "t": 1121.9,
+      "end": 1142.1,
+      "text": "this tab uh menu I can copy link and then I get a menu where I'm able either to say this link is for the specific company or this is a company agnostic link and you can copy then and you can share that so"
+    },
+    {
+      "t": 1142.1,
+      "end": 1153.8,
+      "text": "instead of showing you the the sharing I would actually like to demo The Click On's idea so let me go and show you that if you go to"
+    },
+    {
+      "t": 1153.8,
+      "end": 1172.8,
+      "text": "aka.ms slbc data analysis let's do that then you come to our reposit open source repository of all kinds of of sample code for this particular sample Le code we added some click ones"
+    },
+    {
+      "t": 1172.8,
+      "end": 1184.5,
+      "text": "scenarios where you can just try out this idea about click ones these only work in the in 2023 release Wave 2 uh but here are some different scenarios"
+    },
+    {
+      "t": 1184.5,
+      "end": 1205.2,
+      "text": "described um how to do it in Click Click and like an instruction of how to do it but also a click ones like tried and business Central so let's let's not go for finance let's go about Finance but let's take the sales report here sales sorry this one here"
+    },
+    {
+      "t": 1205.2,
+      "end": 1225.2,
+      "text": "uh the description says get an overview of the customers that purchase the most or that owe the most I'm interested in this and I would like to try it out so instead of redoing the analysis by hand I simply click here to create so it says control click let's open that in a new browser Tab"
+    },
+    {
+      "t": 1225.2,
+      "end": 1245.8,
+      "text": "and let's see what this brings to the table and look create an open uh analysis View and it proposed uh or it told me look this could be a good name for this analysis tab total sales and remaining amounts I'm happy with this I'll click okay"
+    },
+    {
+      "t": 1245.8,
+      "end": 1265.9,
+      "text": "and there you go now you have a data analysis from a friend the total sales and remaining amounts seems like we are doing something on customer name and document number the invoices and then uh sum of remaining amount sum of sales I'm happy with that um so it opened up with"
+    },
+    {
+      "t": 1265.9,
+      "end": 1286,
+      "text": "it this data analysis opened I don't want that but my sales report here I actually want this if I go out of data analysis and back to the customer Ledger and then let's say tomorrow or lunch next day I go back here you can see that business Central has persisted my"
+    },
+    {
+      "t": 1286,
+      "end": 1306.3,
+      "text": "menu choice of still analyzing on my sales report but the other one here has persisted that I actually don't want the menu item to be persisted or or opened it will just be like that so this is how you can share an analysis with a friend um using these click ones or"
+    },
+    {
+      "t": 1306.3,
+      "end": 1326.7,
+      "text": "create a URL and then once you click it it's available uh for that other person you're not sharing in the sense that if I share with you and I change my definition your definition will change once you take my link and copy it it will become your uh your own"
+    },
+    {
+      "t": 1326.7,
+      "end": 1347.2,
+      "text": "version of that and you can then change that if you want to rename if you want to whatever you want to do with that it's your analysis and it's disconnected from my it's just a copy the final feature we added is ability to turn off like why would you want to do that with such a wonderful feature well some customers"
+    },
+    {
+      "t": 1347.2,
+      "end": 1367.6,
+      "text": "don't want all their employees to have open an Excel feature similarly they don't want this just easy to analyze and copy all the data out so we added a new permission uh a new system permission called Data analysis exec or execute and with this uh new permission"
+    },
+    {
+      "t": 1367.6,
+      "end": 1387.9,
+      "text": "set you if you have this you're allowed to do data analysis on everything where you have uh permission on the object if you want to to revoke this from users you do it the normal way you create a new permission set including everything they should do and then you exclude"
+    },
+    {
+      "t": 1387.9,
+      "end": 1401.6,
+      "text": "this new permission and then suddenly they cannot do data analysis anymore okay resources first of all as I mentioned this aka.ms"
+    },
+    {
+      "t": 1401.6,
+      "end": 1422,
+      "text": "slbc data analysis it gives you some ideas uh to try out out with customers or or with with co-workers and maybe kind of give you some indication of how to get started um we I think we put in scenarios for 15 different ways of using this"
+    },
+    {
+      "t": 1422,
+      "end": 1444.4,
+      "text": "across Finance Sales Inventory even uh a little bit of compliance so take a look and see if there's a scenario that match what you like and uh and we'll see if I'll try to get some of these click one scenarios in there as well so so it's not only the description but actually just click and"
+    },
+    {
+      "t": 1444.4,
+      "end": 1454.6,
+      "text": "try and then just going back to the world is changing in reporting and specifically in analytical"
+    },
+    {
+      "t": 1454.6,
+      "end": 1475,
+      "text": "reporting let's stop this like if you're a customer or if you are a consultant and the customer asks can you build me a report let's stop asking sure what columns you have and where would you like to put them and let's open the RDL designer stop doing that"
+    },
+    {
+      "t": 1475,
+      "end": 1495.3,
+      "text": "instead start asking the customer what is it that you need to analyze and for what because once you know the analytical requirements and maybe know a little bit about where in the organization this user is uh is operating then choose a tool of choice"
+    },
+    {
+      "t": 1495.3,
+      "end": 1515.4,
+      "text": "that might be a report but maybe something complet completely else maybe for kbis powerbi and embedding powerbi is the thing or as we saw in this presentation the query lists ad hoc analysis might just be the reports that they want but it's not a traditional"
+    },
+    {
+      "t": 1515.4,
+      "end": 1535.7,
+      "text": "business Central a report because it's just a definition of things for queries it would be what are the kind of what is the data set I need to mesh up for you dear customer so that you're unblocked with your ad hoc analysis and if Excel is important and or if the customer is really"
+    },
+    {
+      "t": 1535.7,
+      "end": 1556.5,
+      "text": "skilled with Excel maybe build them an Al data set in a report and then tell them look do all the self-service you want for your layouts it might be this is probably a mix between low code and no code and probably some customers will be very Savvy with Excel"
+    },
+    {
+      "t": 1556.5,
+      "end": 1568.9,
+      "text": "and it will be very not even low code but very code but all of that do done uh in Excel by the customer or by the user so"
+    },
+    {
+      "t": 1568.9,
+      "end": 1579.7,
+      "text": "Goos most important thing take away from this understand analytics requirements stop developing reports and start supporting analytical"
+    },
+    {
+      "t": 1579.7,
+      "end": 1600.2,
+      "text": "needs as a consultant or developer maybe start learning a little bit about powerbi powerbi is here to stay business intelligence and er they go together ER is about processing supporting business processes business's intelligence"
+    },
+    {
+      "t": 1600.2,
+      "end": 1612.4,
+      "text": "about insights on business processes they go together and powerbi is a really good tool to do that kind of especially the on the top level of the organizational"
+    },
+    {
+      "t": 1612.4,
+      "end": 1632.9,
+      "text": "hierarchy start learning about Al queries if if you thought Al queries was just about performance tuning it's not anymore we're changing the game for this we're investing more in queries over the next years quaries as a powerful tomb to measure up data and that means instead of building me a report"
+    },
+    {
+      "t": 1632.9,
+      "end": 1653.2,
+      "text": "it might just be build me a query and I'm I'm unblocked thank you and finally start also learned about or design data sets especially for Excel layouts again that could be that instead of buil me a report it's it's going to be buil me a report data"
+    },
+    {
+      "t": 1653.2,
+      "end": 1673.6,
+      "text": "set and especially for these build me things the requirements there's a there's a an relevant launch session specifically for that which is called what's new in powerbi and reporting for developers so much more content of how you can help customers building"
+    },
+    {
+      "t": 1673.6,
+      "end": 1693.7,
+      "text": "content of these types you might also want to look into uh other productivity features in the web client if you like this kind of content and um and also the what's new on adding existing uh table fields to optimize PES is is also a way to do"
+    },
+    {
+      "t": 1693.7,
+      "end": 1714.2,
+      "text": "ad hog analysis uh just um doing it on list Pages for General resources Yammer is the place where we take this discussions we can do it on Twitter X as well all AKA links are covered on the BC all AKA so that's the one"
+    },
+    {
+      "t": 1714.2,
+      "end": 1734.4,
+      "text": "AKA URL to rule them all if you have ideas for new features or improvements BC ideas is your friend and finally everything we talk about in business Central launch events is also covered in the business central office hours they are also recorded and available there and with that"
+    },
+    {
+      "t": 1734.4,
+      "end": 1745.8,
+      "text": "thank you so much I hope you have a great business Central launch event with great sessions and hopefully parties around the world with partner thank"
+    },
+    {
+      "t": 1745.8,
+      "end": 1747,
+      "text": "you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.07,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.71,
+      "text": "[Music]"
+    },
+    {
+      "t": 18.72,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3949
+}

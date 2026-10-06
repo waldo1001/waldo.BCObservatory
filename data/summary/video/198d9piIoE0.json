@@ -1,0 +1,27 @@
+{
+  "video_id": "198d9piIoE0",
+  "item_id": "video/yt-microsoft/198d9piIoE0",
+  "summary": "Reservation Worksheet and the Reserved from Stock indicator in Business Central (2023 release wave 2): how to see reservation status on demand documents, allocate stock with allocation policies, and push fully reserved documents to warehouse shipments, inventory picks and consumption journals.",
+  "overview": "The video walks through reservation and fulfillment changes in 2023 release wave 2. It starts with the classic sales order workflow and its limits, then shows a new Reserved from Stock field (none, partial, or full) on sales order lines and other demand documents.",
+  "key_points": [
+    "Reserved from Stock is a new field on sales order lines and other demand documents with three values: none, partial, or fully reserved.",
+    "The Reservation Worksheet page gathers demand documents, applies allocation policies and creates reservations in far fewer clicks than the manual process.",
+    "The Allocate action recommends quantities to reserve from available stock and demand; allocations may be skipped if the quantity is insufficient.",
+    "Two allocation policies are available now: a default safe allocation and an equally distributed option. More are planned.",
+    "Batch settings filter by demand type, date range, items, location and allocation policies; configuring them requires understanding the filters and allocation rules.",
+    "A report creates warehouse shipments filtered by reservation status, so only fully reserved items can be included. Inventory picks can be created the same way.",
+    "Reservation status also shows on statistics pages, in Show Details on production orders, and as a filter in the consumption journal."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "80ca35444ea8ecb7d48f47e5bf727d4f30ac76080ad4af2fc332ef0f224783f5",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0159084
+  }
+}

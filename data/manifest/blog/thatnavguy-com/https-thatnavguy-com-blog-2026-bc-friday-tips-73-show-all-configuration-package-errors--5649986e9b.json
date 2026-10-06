@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-73-show-all-configuration-package-errors/",
   "published_at": "2026-05-29T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:58:02.629Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-73-show-all-configuration-package-errors--5649986e9b.md",
+      "words": 92
+    },
+    "extracted": {
+      "at": "2026-10-06T21:58:08.783Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.003991
+    },
+    "summarized": {
+      "at": "2026-10-06T21:58:08.785Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:58:11.199Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:58:11.204Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-73-show-all-configuration-package-errors--5649986e9b.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "66befb0c42bbf77a1ee92d5f478d47066cbaaffc1d92b5a5f7ec973c716893f4"
 }

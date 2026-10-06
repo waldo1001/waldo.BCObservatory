@@ -1,0 +1,1627 @@
+{
+  "video_id": "Gwgpj1U1wxI",
+  "item_id": "video/yt-microsoft/Gwgpj1U1wxI",
+  "title": "Introduction to Business Central Cloud Migration (2023)",
+  "duration_s": 3558,
+  "systems": [
+    "integration",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "cloud migration",
+    "azure data factory",
+    "sql to sql copy",
+    "integration runtime",
+    "data replication",
+    "data upgrade",
+    "on-premises to saas",
+    "upgrade paths",
+    "environment administration",
+    "go live",
+    "table mappings",
+    "custom fields"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 83.2
+    },
+    {
+      "title": "Why Use Cloud Migration Tooling",
+      "t_start": 83.2,
+      "t_end": 206.4
+    },
+    {
+      "title": "Community and Documentation",
+      "t_start": 206.4,
+      "t_end": 271.5
+    },
+    {
+      "title": "End-to-End Cloud Migration Demo - Setup and Company Creation",
+      "t_start": 271.5,
+      "t_end": 525.6
+    },
+    {
+      "title": "Data Replication and Data Upgrade",
+      "t_start": 525.6,
+      "t_end": 675.4
+    },
+    {
+      "title": "Completing Cloud Migration",
+      "t_start": 675.4,
+      "t_end": 717
+    },
+    {
+      "title": "Cloud Migration Paths and Upgrade Strategy",
+      "t_start": 717,
+      "t_end": 972.5
+    },
+    {
+      "title": "Preparation Step: Aligning SQL Definitions",
+      "t_start": 972.5,
+      "t_end": 1190
+    },
+    {
+      "title": "Data Cleanup and Compression",
+      "t_start": 1190,
+      "t_end": 1316.7
+    },
+    {
+      "title": "Cloud Migration Infrastructure and Setup Phase",
+      "t_start": 1316.7,
+      "t_end": 1603.8
+    },
+    {
+      "title": "Setup Considerations and Environment Recommendations",
+      "t_start": 1603.8,
+      "t_end": 1749.2
+    },
+    {
+      "title": "Table Mappings: Migrating Custom Fields to Extensions",
+      "t_start": 1749.2,
+      "t_end": 2040.1
+    },
+    {
+      "title": "Table Mappings UI, Export, Import, and Delegated Admin",
+      "t_start": 2040.1,
+      "t_end": 2266.7
+    },
+    {
+      "title": "Data Replication Mechanism and Azure SQL Improvements",
+      "t_start": 2266.7,
+      "t_end": 2520.8
+    },
+    {
+      "title": "Replication Status UI and Migration Completion Options",
+      "t_start": 2520.8,
+      "t_end": 2798.1
+    },
+    {
+      "title": "Cloud Migration Limitations and Upgrade Process",
+      "t_start": 2798.1,
+      "t_end": 2951.7
+    },
+    {
+      "title": "Upgrade Process and Performance Optimizations",
+      "t_start": 2951.7,
+      "t_end": 3144
+    },
+    {
+      "title": "Post-Upgrade Configuration and Multiple Company Migration",
+      "t_start": 3144,
+      "t_end": 3303.5
+    },
+    {
+      "title": "Troubleshooting and Telemetry Monitoring",
+      "t_start": 3303.5,
+      "t_end": 3479.2
+    },
+    {
+      "title": "Power BI Reporting and Testing Recommendations",
+      "t_start": 3479.2,
+      "t_end": 3558
+    }
+  ],
+  "features": [
+    {
+      "name": "Cloud Migration Tooling",
+      "description": "A tool for migrating on-premises Business Central databases to the cloud using SQL to SQL copy technology via Azure Data Factory. It provides automated company creation, data replication, data upgrade, and go-live capabilities with error detection and prevention.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 104.6,
+      "t_end": 717,
+      "is_demoed": true,
+      "caveats": [
+        "Only supports upgrading to version 14 or later",
+        "Direct upgrade path from version 14 will be discontinued in April 2025 with version 26"
+      ],
+      "tags": [
+        "migration",
+        "azure",
+        "sql",
+        "automation",
+        "data transfer"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Azure Data Factory Pipeline",
+      "description": "Technology used to move data from on-premises SQL Server database to SaaS database as part of the cloud migration process. The setup wizard automatically creates the pipeline after providing the SQL connection string.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 331.7,
+      "t_end": 1409.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires integration runtime installation for on-premises SQL Server"
+      ],
+      "tags": [
+        "data pipeline",
+        "azure",
+        "integration",
+        "on-premises"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Integration Runtime",
+      "description": "Software component that must be downloaded and installed on the on-premises infrastructure to expose the on-premises SQL database to Azure Data Factory. Can be reconfigured using PowerShell to connect to different pipelines without reinstallation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 351.8,
+      "t_end": 1450.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "on-premises",
+        "infrastructure",
+        "azure",
+        "powershell"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Self-hosted integration runtime",
+      "description": "A self-hosted integration runtime is required for on-premises cloud migration setups, installed within the private network where the SQL Server database lives to securely pull and move data to the cloud.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1389.8,
+      "t_end": 1450.3,
+      "is_demoed": false,
+      "caveats": [
+        "not required if migrating from cloud-based SQL database"
+      ],
+      "tags": [
+        "integration runtime",
+        "on-premises",
+        "security",
+        "private network"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Automatic Company Creation",
+      "description": "Feature that automatically creates companies in the cloud environment based on selections made in the setup wizard. Microsoft recommends doing this immediately after provisioning the tenant.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 485.4,
+      "t_end": 525.6,
+      "is_demoed": true,
+      "caveats": [
+        "Company creation can take several hours for large numbers of companies"
+      ],
+      "tags": [
+        "automation",
+        "tenant setup",
+        "configuration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Data Replication",
+      "description": "Process that copies selected tables from the on-premises database to the cloud. Progress can be tracked via refresh status, showing number of tables copied and successful transfers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 525.6,
+      "t_end": 2448.3,
+      "is_demoed": true,
+      "caveats": [
+        "Only replicates necessary data according to Microsoft tables",
+        "Tables with no data are not reported in the count"
+      ],
+      "tags": [
+        "data transfer",
+        "copy",
+        "progress tracking"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Data Upgrade",
+      "description": "Required step to upgrade the database schema after replication when migrating from older versions. Moves the tenant into maintenance mode, runs upgrade session exclusively, and includes automatic rollback capability if the upgrade fails.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 594.2,
+      "t_end": 3052,
+      "is_demoed": true,
+      "caveats": [
+        "Required as final step before completion",
+        "Tenant becomes inaccessible during upgrade",
+        "Automatic rollback available on failure"
+      ],
+      "tags": [
+        "upgrade",
+        "maintenance mode",
+        "data schema",
+        "rollback"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Cloud Migration Management Page",
+      "description": "User interface page in Business Central for managing the cloud migration process. Allows users to track status, manage companies, invoke data replication, run data upgrade, and complete migration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 291.6,
+      "t_end": 717,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "management",
+        "dashboard"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Direct upgrade path discontinuation from version 14",
+      "description": "The direct upgrade and cloud migration path from Dynamics Business Central 14 will stop in April 2025 together with version 26, requiring intermediate upgrade steps due to removal of obsolete fields and tables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 829.9,
+      "t_end": 890.9,
+      "is_demoed": false,
+      "caveats": [
+        "affects versions before 25",
+        "requires upgrade to version 25 as intermediate step"
+      ],
+      "tags": [
+        "upgrade strategy",
+        "version 14",
+        "version 26",
+        "april 2025"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Jump versions and five-version upgrade cycles",
+      "description": "Starting with version 26, jump versions will be introduced where breaking SQL changes are made, and intermediate upgrade steps will be necessary every five versions (next jump version would be 30).",
+      "status": "announced",
+      "status_evidence_t": 952.2,
+      "status_evidence_quote": "we are planning to introduce these jump versions or to delete the objects every five versions so the next jump version would be 30",
+      "status_evidence_verified": true,
+      "t_start": 911,
+      "t_end": 972.5,
+      "is_demoed": false,
+      "caveats": [
+        "plan subject to feedback"
+      ],
+      "tags": [
+        "jump versions",
+        "upgrade paths",
+        "version 26",
+        "version 30"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "SQL table definition alignment",
+      "description": "Cloud migration requires aligning SQL table definitions between source and destination, including matching primary keys and field names/types exactly. Optional items like custom fields and table mappings can be handled through the UI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 983,
+      "t_end": 1083.6,
+      "is_demoed": false,
+      "caveats": [
+        "different field lengths can be moved but names and types must match exactly"
+      ],
+      "tags": [
+        "table mappings",
+        "primary keys",
+        "field alignment",
+        "sql definitions"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Table extension support for customizations",
+      "description": "Cloud migration tooling can move customizations from main tables into table extensions through simple table mappings in the UI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1063.6,
+      "t_end": 1083.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "table extensions",
+        "customizations",
+        "table mappings"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Three-character prefix/suffix field naming",
+      "description": "Partners can introduce three-character prefixes or suffixes to field names through multiple options: C-side alignment with renames, SQL scripts, or data transfer objects for on-premises upgrades.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1104.7,
+      "t_end": 1190,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "field naming",
+        "customizations",
+        "three-character prefixes"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Invoke NV sanitized field commandlet",
+      "description": "A PowerShell commandlet to eliminate non-printing characters from code fields before cloud migration, recommended to run on production database backups to clean up data corruption from years of operation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1190,
+      "t_end": 1230.4,
+      "is_demoed": false,
+      "caveats": [
+        "should be run before cloud migration even if sanitization during migration is possible"
+      ],
+      "tags": [
+        "data cleanup",
+        "non-printing characters",
+        "powershell",
+        "code fields"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Data Administration page",
+      "description": "A page with ID 9035 containing data compression and archiving reports for data cleanup, available in all versions of BC and NAV to optimize the data set before upgrade and cloud migration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1262.1,
+      "t_end": 1316.7,
+      "is_demoed": false,
+      "caveats": [
+        "page may not be available in navigation, reports exist in all BC and NAV versions"
+      ],
+      "tags": [
+        "data cleanup",
+        "data compression",
+        "archiving",
+        "page 9035"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Cloud migration setup phase with preparation pipeline",
+      "description": "The setup phase includes registration of integration runtime with Azure Data Factory, creation of a preparation pipeline that performs checks on both databases, and creation of stored procedures. A replication pipeline is prepared but not yet run.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1482.5,
+      "t_end": 1603.8,
+      "is_demoed": false,
+      "caveats": [
+        "stored procedures apply changes to on-premises database; recommended to test on backup first"
+      ],
+      "tags": [
+        "setup phase",
+        "preparation pipeline",
+        "replication pipeline",
+        "stored procedures"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Replication pipeline preparation",
+      "description": "During setup, a replication pipeline is created with metadata about tables to be migrated and instructions for migration, ready to run but not yet executed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1583.7,
+      "t_end": 1603.8,
+      "is_demoed": false,
+      "caveats": [
+        "Pipeline is not run during setup phase"
+      ],
+      "tags": [
+        "data replication",
+        "setup",
+        "azure"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Backup recommendation for on-premises migration",
+      "description": "Cloud migration will apply changes to the on-premises database through stored procedures, so it is recommended to try cloud migration first on a backup of the production database.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1621.2,
+      "t_end": 1639.3,
+      "is_demoed": false,
+      "caveats": [
+        "Applies only to on-premises SQL migrations"
+      ],
+      "tags": [
+        "best practice",
+        "on-premises",
+        "data safety"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Azure SQL database migration preference",
+      "description": "Migrations from Azure SQL are more stable and faster than on-premises migrations, with improvements in replication of SQL variant fields and handling of large images, though Azure SQL incurs service charges.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1659.5,
+      "t_end": 1699.6,
+      "is_demoed": false,
+      "caveats": [
+        "Azure SQL requires service charges while database is online",
+        "Requires high compute and I/O tier"
+      ],
+      "tags": [
+        "azure sql",
+        "performance",
+        "stability"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Postpone environment updates during cloud migration",
+      "description": "Environment updates available in the admin center should be postponed to a later date to prevent interference with cloud migration, as running updates while cloud migration is enabled will forcefully stop the migration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1718.5,
+      "t_end": 1749.2,
+      "is_demoed": false,
+      "caveats": [
+        "Failure to postpone results in forced cloud migration stop"
+      ],
+      "tags": [
+        "best practice",
+        "admin",
+        "environment management"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Application Insights telemetry for cloud migration",
+      "description": "Setting up Application Insights telemetry on the environment enables tracking of all flows involved in cloud migration, available from the admin center.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1749.2,
+      "t_end": 1769.2,
+      "is_demoed": false,
+      "caveats": [
+        "Optional but recommended"
+      ],
+      "tags": [
+        "telemetry",
+        "monitoring",
+        "diagnostics"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Table mappings for custom fields migration",
+      "description": "Table mappings enable migration of custom fields from on-premises base tables to table extensions in SaaS, automatically handling data splitting across multiple extensions where field names and data types match.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1769.2,
+      "t_end": 2040.1,
+      "is_demoed": true,
+      "caveats": [
+        "Field names and data types must match exactly between on-premises and SaaS",
+        "On-premises fields must be renamed to match SaaS table extension prefixes",
+        "Only applicable to non-sensitive tables"
+      ],
+      "tags": [
+        "custom fields",
+        "table extensions",
+        "data migration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Managed custom tables page for table mappings",
+      "description": "A UI page called 'add table mappings' enables definition of migration table mappings with automatic parsing of table names from SQL, field filtering, and multi-select support for mapping to multiple table extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1908.9,
+      "t_end": 2040.1,
+      "is_demoed": true,
+      "caveats": [
+        "Earlier inline table definition approach was error-prone"
+      ],
+      "tags": [
+        "ui",
+        "table mappings",
+        "setup"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Table mappings export and import",
+      "description": "Table mapping definitions can be exported as JSON files for later import, eliminating the need to re-enter definitions multiple times.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2093.4,
+      "t_end": 2105.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "table mappings",
+        "json",
+        "import-export"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Programmatic table mappings via codeunit 401",
+      "description": "Large partners with customized ISV solutions can automatically generate table mappings by subscribing to the on insert default table mappings event from codeunit 401 hybrid cloud management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2105.8,
+      "t_end": 2126.1,
+      "is_demoed": false,
+      "caveats": [
+        "Primarily for large partners with customized ISV solutions"
+      ],
+      "tags": [
+        "al development",
+        "codeunit",
+        "programmatic"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Selective table inclusion/exclusion in cloud migration",
+      "description": "Ability to selectively include or exclude tables from cloud migration for non-sensitive tables that support page type extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2146.3,
+      "t_end": 2166.4,
+      "is_demoed": false,
+      "caveats": [
+        "Only applies to non-sensitive tables",
+        "Details elaborated in separate 'what's new in cloud migration' session"
+      ],
+      "tags": [
+        "table selection",
+        "cloud migration",
+        "setup"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Keep user permissions during cloud migration setup",
+      "description": "Ability to disable the default behavior of removing user permissions when cloud migration is set up, allowing permissions to be retained throughout the migration process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2187.3,
+      "t_end": 2207.6,
+      "is_demoed": false,
+      "caveats": [
+        "Optional; default behavior is still to remove permissions"
+      ],
+      "tags": [
+        "permissions",
+        "user management",
+        "setup"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Delegated admin consent for cloud migration",
+      "description": "Delegated admins can perform cloud migration setup and actions after obtaining consent from a licensed super user, managed through a delegated admin consent page in the environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2226.7,
+      "t_end": 2266.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires consent from licensed user with super permissions",
+        "Consent can be revoked and migration will stop if revoked"
+      ],
+      "tags": [
+        "delegated admin",
+        "permissions",
+        "security"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Azure Data Factory pipelines for replication",
+      "description": "Cloud migration uses Azure Data Factory pipelines to orchestrate data replication between on-premises and cloud environments, with Azure blob storage used as a staging area for data compression and optimization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2307,
+      "t_end": 2510.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "azure data factory",
+        "data replication",
+        "staging"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Large table vs bulk copy replication strategy",
+      "description": "Large tables (exceeding 250 MB or 100,000 rows) are replicated individually, while smaller tables are compressed, chunked into JSON, and migrated together to a single staging table before being distributed to original tables in the cloud.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2387.8,
+      "t_end": 2428,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "bulk copy",
+        "table replication",
+        "optimization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Incremental replication with SQL change tracking",
+      "description": "After the initial full replication, subsequent replication runs use SQL change tracking to identify and migrate only the delta changes on-premises, enabling incremental updates without full re-migration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2428,
+      "t_end": 2469.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sql change tracking",
+        "incremental replication",
+        "deltas"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Azure blob storage removal for Azure SQL",
+      "description": "When replicating from Azure SQL databases, the staging step in Azure blob storage is no longer required, improving performance and reducing error risk.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2469.7,
+      "t_end": 2510.8,
+      "is_demoed": false,
+      "caveats": [
+        "Only applies to Azure SQL sources, not on-premise SQL Server"
+      ],
+      "tags": [
+        "azure sql",
+        "performance improvement",
+        "blob storage"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Cloud migration UI with status dashboard",
+      "description": "New user interface displays overall replication status, successful and failed tables, company replication counts, and action history in a centralized dashboard.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2520.8,
+      "t_end": 2561.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "status dashboard",
+        "monitoring"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Replication action log with run history",
+      "description": "The UI displays a log of all replication actions performed, marking failed runs clearly for investigation and showing all replication attempts including successful retry runs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2540.8,
+      "t_end": 2602,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "action log",
+        "error tracking",
+        "run history"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Company replication filtering and selection",
+      "description": "Users can filter the list of companies to identify which ones have not yet been replicated and manually select them for inclusion in subsequent replication runs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2637.2,
+      "t_end": 2657.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "company filtering",
+        "selective replication",
+        "ui"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Per-database table data review",
+      "description": "A page allows filtering replicated data by company and database tables, with special handling for sensitive per-database tables that are delta-synced rather than replaced.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2657.3,
+      "t_end": 2697.5,
+      "is_demoed": true,
+      "caveats": [
+        "Cannot analyze internal or obsoleted tables",
+        "Tenant media table expected to show differences"
+      ],
+      "tags": [
+        "data review",
+        "per-database tables",
+        "delta sync"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Replication data filtering by table name",
+      "description": "Users can search for and filter specific tables to check replication status and view configuration details such as whether a table is marked to replicate data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2718,
+      "t_end": 2738.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "table filtering",
+        "search",
+        "configuration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Table inclusion-exclusion for replication",
+      "description": "Functionality to include or exclude specific tables from replication, such as the change log table which was previously excluded by default.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2738.3,
+      "t_end": 2757.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "table inclusion",
+        "exclusion configuration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Cloud migration completion and pause-abandon options",
+      "description": "Users can complete the cloud migration to go live, or pause and abandon the migration with full recoverability of both states.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2757.7,
+      "t_end": 2798.1,
+      "is_demoed": true,
+      "caveats": [
+        "Both states are fully recoverable"
+      ],
+      "tags": [
+        "completion",
+        "pause",
+        "abandon"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "300 company limit in SaaS",
+      "description": "SaaS environments enforce a hard limit of 300 companies for performance reasons, with a recommendation to stay around 250 to allow room for growth.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2798.1,
+      "t_end": 2818.4,
+      "is_demoed": false,
+      "caveats": [
+        "Recommended limit is 250 companies for growth headroom"
+      ],
+      "tags": [
+        "limits",
+        "company limit",
+        "saas"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Data storage capacity constraints",
+      "description": "While there is no enforced data size limit, exceeding the default storage capacity blocks administrative operations like environment creation and copying, and requires additional storage purchase at go-live.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2818.4,
+      "t_end": 2858.6,
+      "is_demoed": false,
+      "caveats": [
+        "Exceeding quota prevents admin operations",
+        "Additional storage must be purchased at go-live"
+      ],
+      "tags": [
+        "storage",
+        "capacity",
+        "limits"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Upgrade as final step in migration",
+      "description": "The upgrade step must be invoked as the absolute last step in cloud migration as it prevents additional replication or company additions afterward, otherwise requiring point-in-time restore or complete restart.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2889.8,
+      "t_end": 2910.4,
+      "is_demoed": false,
+      "caveats": [
+        "No additional replication or company moves allowed after upgrade"
+      ],
+      "tags": [
+        "upgrade sequencing",
+        "final step",
+        "constraint"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Per-database table upgrade constraints",
+      "description": "During upgrade, per-database tables are upgraded and cannot accept additional pulls, preventing data corruption and requiring careful tracking of upgrade state.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2910.4,
+      "t_end": 2951.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "per-database tables",
+        "upgrade constraints",
+        "data integrity"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Single-location data modification rule",
+      "description": "During replication, users must not modify data in the SaaS database as changes may be overwritten or confuse the replication engine, so all changes should occur only in the on-premise system.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2951.7,
+      "t_end": 2991.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "data integrity",
+        "modification rule",
+        "best practice"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Upgrade process with versioning ignored",
+      "description": "The upgrade invokes the regular upgrade flow while ignoring versioning, running all upgrade code units, placing the tenant in maintenance mode, and ensuring single-session access to prevent locks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2991.8,
+      "t_end": 3032,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "upgrade process",
+        "maintenance mode",
+        "session control"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AppSource and custom app upgrade handling",
+      "description": "Third-party and custom apps receive the same upgrade treatment as first-party apps with no special configuration needed, and their upgrade code is invoked automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3032,
+      "t_end": 3052,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "appsource",
+        "custom apps",
+        "upgrade"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Sandbox testing before upgrade",
+      "description": "Strong recommendation to test the upgrade in a separate sandbox environment after replication, allowing continued access to another instance if upgrade runs longer than expected.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3052,
+      "t_end": 3083.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "testing",
+        "sandbox",
+        "best practice"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Upgrade performance optimizations",
+      "description": "Over 30 long-running upgrade methods have been optimized in recent versions, making upgrades to versions 21 or 22 faster than upgrades to version 19.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3083.4,
+      "t_end": 3103.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance optimization",
+        "upgrade speed"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "API upgrade background jobs",
+      "description": "Functionality to run API upgrade as background jobs after cloud migration to pre-compute data and ensure fast APIs, can be safely run after migration instead of during it.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3123.7,
+      "t_end": 3144,
+      "is_demoed": false,
+      "caveats": [
+        "runs on large tables like customers items sales invoices",
+        "usually time consuming"
+      ],
+      "tags": [
+        "api",
+        "upgrade",
+        "background jobs",
+        "post-migration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "User mapping functionality",
+      "description": "Allows mapping of on-premises users to SaaS users through the defined user mappings page, updating username fields across tables used by business logic like items approvals and time sheets.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3200.8,
+      "t_end": 3235.7,
+      "is_demoed": true,
+      "caveats": [
+        "can only be run once per environment",
+        "must be done as last step"
+      ],
+      "tags": [
+        "user mapping",
+        "on-prem",
+        "saas",
+        "migration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "One-time user mapping execution",
+      "description": "The user mapping step can only be run once per environment and should be performed as the last step before go-live.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3220.9,
+      "t_end": 3235.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "user mapping",
+        "one-time execution",
+        "constraint"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Dataverse integration configuration",
+      "description": "Post-migration configuration step to set up Dataverse integration and verify that API and data mappings are correct.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3246.4,
+      "t_end": 3263,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "dataverse",
+        "integration",
+        "configuration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Multiple company migration in live tenants",
+      "description": "Capability to move additional companies to SaaS in live tenants after initial go-live, though not officially supported and done at customer's own risk.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3263,
+      "t_end": 3303.5,
+      "is_demoed": false,
+      "caveats": [
+        "not officially supported",
+        "at customer's own risk",
+        "requires manual data fixes if errors occur",
+        "no support from Microsoft for patching data"
+      ],
+      "tags": [
+        "migration",
+        "multiple companies",
+        "live tenant",
+        "unsupported"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Cloud migration troubleshooting documentation",
+      "description": "Online resources documenting common errors that occur during cloud migration setup and replication phases, providing solutions for known issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3323.6,
+      "t_end": 3363.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "troubleshooting",
+        "documentation",
+        "errors"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Cloud migration telemetry events",
+      "description": "Partner-facing telemetry events captured throughout the cloud migration process, including setup, replication, completion, and error events, available in documentation and telemetry tables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3363.8,
+      "t_end": 3405,
+      "is_demoed": true,
+      "caveats": [
+        "requires telemetry to be enabled"
+      ],
+      "tags": [
+        "telemetry",
+        "events",
+        "monitoring"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Power BI cloud migration app",
+      "description": "AppSource Power BI app with cloud migration tab that provides status overview of migrations across different environments, aggregated error views, KPIs, and log inspection without logging into the web client.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3405,
+      "t_end": 3445.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "reporting",
+        "monitoring",
+        "multi-environment"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Telemetry-based alerts and notifications",
+      "description": "Ability to set up alerts and email notifications or Teams notifications based on cloud migration telemetry events for proactive monitoring.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3459.2,
+      "t_end": 3479.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "alerts",
+        "notifications",
+        "teams"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management",
+      "t": 291.6
+    },
+    {
+      "type": "page",
+      "name": "Data Administration page",
+      "t": 1262.1
+    },
+    {
+      "type": "codeunit",
+      "name": "401 hybrid cloud management",
+      "t": 2105.8
+    },
+    {
+      "type": "page",
+      "name": "add table mappings",
+      "t": 1928.9
+    },
+    {
+      "type": "page",
+      "name": "managed custom tables",
+      "t": 1908.9
+    },
+    {
+      "type": "page",
+      "name": "delegated admin consent for cloud migration",
+      "t": 2266.7
+    },
+    {
+      "type": "table",
+      "name": "tenant media table",
+      "t": 2677.4
+    },
+    {
+      "type": "table",
+      "name": "upgrade tags",
+      "t": 2697.5
+    },
+    {
+      "type": "table",
+      "name": "change log",
+      "t": 2718
+    },
+    {
+      "type": "table",
+      "name": "change log entry",
+      "t": 2718
+    },
+    {
+      "type": "page",
+      "name": "cloud migration page",
+      "t": 3200.8
+    },
+    {
+      "type": "page",
+      "name": "defined user mappings page",
+      "t": 3200.8
+    },
+    {
+      "type": "page",
+      "name": "users list",
+      "t": 3180.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Nicola",
+      "confidence": "high"
+    },
+    {
+      "name": "Ricardo",
+      "confidence": "high"
+    },
+    {
+      "name": "Nicolas",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 104.6,
+      "text": "it is the fastest and safest way to migrate the on Prem data into sauce the reason why it is the fastest way is",
+      "why_it_matters": "Establishes the core value proposition of the cloud migration tooling - speed and safety through SQL to SQL copy technology.",
+      "check": "exact"
+    },
+    {
+      "t": 145.3,
+      "text": "it has been used by the thousands of Partners unfortunately I cannot tell you how many migrations exactly we had but it is counted",
+      "why_it_matters": "Demonstrates extensive real-world usage and maturity of the cloud migration solution across the partner ecosystem.",
+      "check": "exact"
+    },
+    {
+      "t": 186.3,
+      "text": "looked into which data should be replicated and which should be left on prem for all of the microsoft on tables so",
+      "why_it_matters": "Shows the tooling intelligently filters data replication, reducing migration time and complexity.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 614.5,
+      "text": "we will move the tenant into the maintenance mode and the only session that is going to be running on the tenant is is",
+      "why_it_matters": "Explains the safety mechanism during data upgrade that prevents data corruption and instability.",
+      "check": "exact"
+    },
+    {
+      "t": 733.6,
+      "text": "14 is the lowest version that we support for direct on prem upgrade or for the direct cloud migration",
+      "why_it_matters": "Establishes the minimum version requirement for cloud migration, critical for planning migration projects.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 829.9,
+      "text": "we are stopping the direct upgrade and Cloud migration path from Dynamics business Central 14 in approximately year and a half from now so",
+      "why_it_matters": "Critical announcement about a significant deadline and change in upgrade path support that affects migration planning.",
+      "check": "snapped"
+    },
+    {
+      "t": 850.7,
+      "text": "in April 2025 together with version 26 it will not be possible to Cloud migrate or directly upgrade from version 4 14",
+      "why_it_matters": "This is a critical deadline for customers still on BC version 14, signaling the end of direct upgrade paths and requiring planning for intermediate upgrade steps.",
+      "check": "exact"
+    },
+    {
+      "t": 870.6,
+      "text": "we need to remove obsolet fields and tables we have not been cleaning up objects in a very long time actually from version 12",
+      "why_it_matters": "This explains the business reason for breaking changes and jump versions, indicating significant technical debt cleanup needed across multiple product versions.",
+      "check": "exact"
+    },
+    {
+      "t": 952.2,
+      "text": "we are planning to introduce these jump versions or to delete the objects every five versions so the next jump version would be 30",
+      "why_it_matters": "This establishes a predictable upgrade cadence going forward, allowing customers to plan for necessary intermediate upgrade steps between version jumps.",
+      "check": "exact"
+    },
+    {
+      "t": 1001.8,
+      "text": "you only need to take care of two things the first thing that you must do is that you need to align the primary",
+      "why_it_matters": "This clarifies the critical requirements for cloud migration preparation, reducing perceived complexity of the process.",
+      "check": "exact"
+    },
+    {
+      "t": 1022.4,
+      "text": "if there is a difference in the name and type we are going to throw an error it's possible to move the data with",
+      "why_it_matters": "This defines exact constraints for table alignment during migration and clarifies what flexibility exists for field length differences.",
+      "check": "exact"
+    },
+    {
+      "t": 1190,
+      "text": "run invoke NV sanitized field commandlet to eliminate non-printing characters from code Fields",
+      "why_it_matters": "This is a recommended proactive maintenance step to clean up data corruption before migration, addressing a common issue from long-running systems.",
+      "check": "exact"
+    },
+    {
+      "t": 1357.8,
+      "text": "the main technology we rely on is the Azure data Factory which is an Azure cloudbased data integration uh service",
+      "why_it_matters": "This identifies the core infrastructure enabling cloud migration, helping customers understand the technical foundation of the process.",
+      "check": "exact"
+    },
+    {
+      "t": 1621.2,
+      "text": "since the stored procedures will actually apply some changes to the on Prem database uh we highly recommend to try the cloud migration for",
+      "why_it_matters": "This is a critical best practice that emphasizes data safety during initial migration testing.",
+      "check": "exact"
+    },
+    {
+      "t": 1659.5,
+      "text": "based on some very recent improvements that we have applied throughout the last year we can safly claim that the migrations from aure SQL",
+      "why_it_matters": "This provides assurance about Azure SQL migration maturity and represents a significant capability improvement over the last year.",
+      "check": "exact"
+    },
+    {
+      "t": 1718.5,
+      "text": "when we're working with Cloud migration is that if there's any available updates for the environment in the admin Center we strongly recommend to",
+      "why_it_matters": "Environment updates during migration can forcefully stop the migration process, requiring administrators to know this constraint.",
+      "check": "exact"
+    },
+    {
+      "t": 1769.2,
+      "text": "the aim of table mapping is to move custom fields to table extensions in SAS and this is specifically because on Prem you're allowed",
+      "why_it_matters": "This explains the fundamental architectural difference driving the need for table mappings in SaaS.",
+      "check": "exact"
+    },
+    {
+      "t": 2105.8,
+      "text": "you able to provide these table mappings programmatically if you subscribe to the on insert default table mappings event from code unit 401 hybrid",
+      "why_it_matters": "Large ISV partners can automate table mapping generation via AL code, reducing manual effort.",
+      "check": "exact"
+    },
+    {
+      "t": 2226.7,
+      "text": "it will always be a licensed super user that is able to perform the cloud migration setup and all the actions that follow but",
+      "why_it_matters": "Delegated admins can participate in cloud migration but governance requires licensed user consent.",
+      "check": "exact"
+    },
+    {
+      "t": 2387.8,
+      "text": "for the large tables for such tables that we identify as large meaning that the size exceeds 250 mbytes or there's more than 100,000",
+      "why_it_matters": "Understanding the 250 MB and 100,000 row thresholds is critical for predicting replication performance and strategy.",
+      "check": "exact"
+    },
+    {
+      "t": 2448.3,
+      "text": "we rely on SQL change tracking mechanism to keep track of the changes and then perform additional replication runs only on the Deltas",
+      "why_it_matters": "Explains how incremental replication works to minimize data transfer and enable repeated sync operations after initial full replication.",
+      "check": "exact"
+    },
+    {
+      "t": 2469.7,
+      "text": "the removal of of the need for the Azure blob storage uh staging step for Azure SQL",
+      "why_it_matters": "Describes a major optimization for Azure SQL sources that improves performance and reduces error risk by eliminating an intermediary processing stage.",
+      "check": "exact"
+    },
+    {
+      "t": 2798.1,
+      "text": "when you have an environment in SAS we enforce a strong limit of 300 companies",
+      "why_it_matters": "Establishes a hard technical limit on company count for SaaS deployments based on performance constraints.",
+      "check": "exact"
+    },
+    {
+      "t": 2889.8,
+      "text": "upgr step needs to be invoked as an absolutely last step in the cloud migration",
+      "why_it_matters": "States a critical sequencing rule that prevents data corruption by ensuring no additional replication occurs after upgrade initiation.",
+      "check": "exact"
+    },
+    {
+      "t": 2951.7,
+      "text": "do not change the data in SAS database because you're risking that your changes are going to be overwritten",
+      "why_it_matters": "Establishes best practice guidance for data integrity during replication to prevent loss of changes or confusion of the replication engine.",
+      "check": "exact"
+    },
+    {
+      "t": 3083.4,
+      "text": "in the last two versions we have optimized over 30 long running upgrade methods",
+      "why_it_matters": "Quantifies performance improvements made to upgrade process, demonstrating ongoing optimization efforts for migration efficiency.",
+      "check": "exact"
+    },
+    {
+      "t": 3123.7,
+      "text": "we have introduced the functionality so you can run it after the cloud migration",
+      "why_it_matters": "Explains that API upgrade can be safely delayed and run as background jobs after migration instead of during it, reducing upgrade time impact.",
+      "check": "exact"
+    },
+    {
+      "t": 3200.8,
+      "text": "we are going to go through all of the tables which are using username and it is important for business Logic for example my",
+      "why_it_matters": "Describes the scope and criticality of user mapping - it affects multiple business logic functions beyond just basic authentication.",
+      "check": "exact"
+    },
+    {
+      "t": 3235.7,
+      "text": "you can do it only once per environment so you should do it as the last step",
+      "why_it_matters": "Establishes the one-time nature of user mapping execution as a critical constraint for proper environment configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 3235.7,
+      "text": "you can do it only once per environment so you should do it as the last step because you will not be able to",
+      "why_it_matters": "Critical limitation that user mapping is a one-time operation and must be performed as the final step, with no ability to retry.",
+      "check": "exact"
+    },
+    {
+      "t": 3263,
+      "text": "are can we move additional companies in live tenants and the answer is we do not officially support it and we strongly advise against",
+      "why_it_matters": "Clarifies that moving additional companies after go-live is unsupported and risky, establishing clear guidance on migration scope.",
+      "check": "exact"
+    },
+    {
+      "t": 3283.2,
+      "text": "you're doing it on your own risk it is the same as running rapid start or using any kind of ptes to to fix",
+      "why_it_matters": "Establishes that additional company migration is treated like manual data fixing with no Microsoft support for resolution.",
+      "check": "exact"
+    },
+    {
+      "t": 3343.7,
+      "text": "we do collect some of the most common issues that can occur either during the setup or the replication phase",
+      "why_it_matters": "Indicates comprehensive telemetry coverage of cloud migration process phases for monitoring and troubleshooting.",
+      "check": "snapped"
+    },
+    {
+      "t": 3479.2,
+      "text": "there is no need to wait you can just take a database and test the cloud migration to a Sandbox",
+      "why_it_matters": "Recommends proactive testing approach before production migration to understand resource and time requirements.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 829.9,
+      "kind": "coming-later",
+      "text": "we are stopping the direct upgrade and Cloud migration path from Dynamics business Central 14 in approximately year and a half from now so in April 2025 together with version 26"
+    },
+    {
+      "t": 1621.2,
+      "kind": "other",
+      "text": "we highly recommend to try the cloud migration for the first time on a backup of the production database"
+    },
+    {
+      "t": 2166.4,
+      "kind": "not-in-this-release",
+      "text": "Details about selective table inclusion will be elaborated more into more specific details in what's new in Cloud migration session"
+    },
+    {
+      "t": 2738.3,
+      "kind": "coming-later",
+      "text": "we will cover about in what's new then the next thing that you can do is that you can complete the cloud migration"
+    },
+    {
+      "t": 3144,
+      "kind": "coming-later",
+      "text": "we are going to be talking about it more in the what's new session"
+    },
+    {
+      "t": 3144,
+      "kind": "other",
+      "text": "we are recommending to skip this step and we are going to be talking about it more in the what's new session"
+    },
+    {
+      "t": 3263,
+      "kind": "not-in-this-release",
+      "text": "we do not officially support it and we strongly advise against it"
+    },
+    {
+      "t": 3283.2,
+      "kind": "other",
+      "text": "you're doing it on your own risk"
+    },
+    {
+      "t": 3303.5,
+      "kind": "other",
+      "text": "we will write the dedicated documentation topic that it will explain to you how you can do this safely"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 34,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 56
+  },
+  "windows": 5,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025673
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0531692
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0364006
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.041151999999999994
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02413
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.073905
+    }
+  ]
+}

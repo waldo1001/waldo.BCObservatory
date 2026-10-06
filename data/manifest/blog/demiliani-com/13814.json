@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/06/01/dynamics-365-business-central-new-model-choice-in-agent-definition/",
   "published_at": "2026-06-01T07:30:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:57:54.355Z",
+      "path": "vault:posts/demiliani-com/13814.md",
+      "words": 438
+    },
+    "extracted": {
+      "at": "2026-10-06T21:58:01.850Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.006271
+    },
+    "summarized": {
+      "at": "2026-10-06T21:58:01.851Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:58:01.852Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:58:01.856Z",
+      "path": "content/posts/demiliani-com/13814.md"
     }
   },
   "input_hash": "2026-06-01T07:30:02.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "16fb861b0e9f91571804bf0000c1d5283a63e003760c3b308f3fa3e8c6c61750"
 }

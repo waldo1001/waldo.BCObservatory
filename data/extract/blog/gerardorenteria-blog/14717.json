@@ -1,0 +1,78 @@
+{
+  "item_id": "blog/gerardorenteria-blog/14717",
+  "url": "https://gerardorenteria.blog/2026/06/01/new-application-ideas-of-dynamics-365-business-central-2026-may/",
+  "title": "New Application Ideas of Dynamics 365 Business Central (2026 MAY)",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-06-01T19:51:49.000Z",
+  "words": 911,
+  "summary": "A curated list of feature ideas and improvement suggestions submitted by the Business Central community for May 2026, covering areas including agents and Copilot, data migrations, financial management, inventory, warehousing, sales, purchasing, and localization enhancements.",
+  "key_points": [
+    "Community members proposed configuration package defaults, timezone settings on Entra applications, and improved telemetry for database indexes",
+    "Financial management suggestions include VAT handling improvements, bank reconciliation enhancements, and new reporting capabilities for stock and aged receivables",
+    "Development-focused ideas cover page list visualization, SharePoint Graph functionality extensions, and AL debugging improvements",
+    "Multiple localization and regional requests including Belgium VAT corrections, Norwegian chart of accounts, and India TDS calculation threshold adjustments",
+    "Operational improvements suggested for inventory workflows, manufacturing unit of measure handling, and purchasing responsibility center tracking"
+  ],
+  "systems": [
+    "development",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "feature ideas",
+    "community feedback",
+    "improvement suggestions",
+    "copilot",
+    "data migration",
+    "vat handling",
+    "bank reconciliation",
+    "localization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Microsoft Entra Applications"
+    },
+    {
+      "type": "table",
+      "name": "Order Address"
+    },
+    {
+      "type": "table",
+      "name": "Vendor Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Report Inbox"
+    }
+  ],
+  "features": [
+    "configuration package defaults",
+    "timezone settings",
+    "telemetry for database indexes",
+    "VAT product posting group management",
+    "bank reconciliation",
+    "physical inventory workflows",
+    "unit of measure handling",
+    "responsibility center tracking"
+  ],
+  "versions": [
+    "2026 May",
+    "28.0"
+  ],
+  "language": "es",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006634,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Would any of these ideas improve Business Central? Here is a list of some of them.",
+      "why_it_matters": "Establishes the purpose of the post as presenting community-driven improvement suggestions for the platform"
+    }
+  ]
+}

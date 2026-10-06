@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Introducing: Analyze Data on Lists and Queries (2023 release wave 2)",
   "url": "https://www.youtube.com/watch?v=qmLVKyHRhNc",
-  "published_at": null,
+  "published_at": "2023-10-23T05:29:46.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:57:25.293Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1747
+    },
+    "captioned": {
+      "at": "2026-10-06T21:57:32.057Z",
+      "path": "data/captions/microsoft/qmLVKyHRhNc.vtt",
+      "vtt_sha256": "982903115e6cd9d7824b9aea32ab1f0fcd3e8227104980db03292720578562af",
+      "segments": 96,
+      "words": 3949,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 527,
     "duration_s": 1747,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "982903115e6cd9d7824b9aea32ab1f0fcd3e8227104980db03292720578562af"
 }
