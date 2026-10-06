@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-finish-gp.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-finish-gp",
+  "title": "Complete cloud migration for Dynamics GP",
+  "blob": "4f0ecc6f7cf68d04d5a290de8370a64aa5c8ebde",
+  "summary": "Complete Dynamics GP cloud migration by validating data, disabling cloud migration, and setting up users and permissions in Business Central online.",
+  "systems": [
+    "integration",
+    "administration",
+    "finance"
+  ],
+  "topics": [
+    "dynamics gp",
+    "cloud migration",
+    "data validation",
+    "user setup",
+    "permissions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Post Migration Checklist"
+    },
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    },
+    {
+      "type": "page",
+      "name": "Cloud Migration Setup"
+    },
+    {
+      "type": "page",
+      "name": "Cloud Ready Checklist"
+    }
+  ],
+  "features": [
+    "validation status",
+    "disable cloud migration",
+    "permission sets",
+    "user accounts"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004528,
+      "pages_in_call": 8
+    }
+  ]
+}

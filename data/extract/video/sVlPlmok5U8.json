@@ -1,0 +1,175 @@
+{
+  "video_id": "sVlPlmok5U8",
+  "item_id": "video/yt-microsoft/sVlPlmok5U8",
+  "title": "What's New: Project Management Receive Project Items with Receipts or Put-Aways(2025 release wave 1)",
+  "duration_s": 139,
+  "systems": [
+    "projects",
+    "warehouse",
+    "purchasing"
+  ],
+  "topics": [
+    "warehouse receipt",
+    "put-away",
+    "project purchases",
+    "directed putaway and pick",
+    "purchase order",
+    "project planning",
+    "inventory posting",
+    "warehouse settings"
+  ],
+  "chapters": [
+    {
+      "title": "Overview of warehouse processes for project purchases",
+      "t_start": 0,
+      "t_end": 34.4
+    },
+    {
+      "title": "Demo setup with different location warehouse requirements",
+      "t_start": 34.4,
+      "t_end": 64
+    },
+    {
+      "title": "Creating purchase order for project items",
+      "t_start": 64,
+      "t_end": 77.4
+    },
+    {
+      "title": "Generating inventory put-aways and warehouse receipts",
+      "t_start": 77.4,
+      "t_end": 102.7
+    },
+    {
+      "title": "Posting transactions and registering project consumption",
+      "t_start": 102.7,
+      "t_end": 139
+    }
+  ],
+  "features": [
+    {
+      "name": "Warehouse processes for project purchases",
+      "description": "Enables creation of purchase orders for project-related items at locations with directed putaway and pick, warehouse receipt, or put-away requirements. Allows standardized warehouse processes to be used with project purchases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4.8,
+      "t_end": 32,
+      "is_demoed": true,
+      "caveats": [
+        "When purchase order is linked to project, the putaway step will be skipped since items are consumed immediately"
+      ],
+      "tags": [
+        "warehouse receipt",
+        "put-away",
+        "project purchases",
+        "directed putaway and pick"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Inventory put-away generation",
+      "description": "Generates inventory put-away documents for locations that require put-away. Demonstrated with silver location requiring put-away processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 77.4,
+      "t_end": 88.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "put-away",
+        "inventory",
+        "warehouse document"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Warehouse receipt for project items",
+      "description": "Creates warehouse receipt documents for locations that require receipt processing. Separate receipts are created for different location types with varying warehouse settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 88.2,
+      "t_end": 102.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "warehouse receipt",
+        "project items",
+        "warehouse document"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Direct purchase order receipt without warehouse processing",
+      "description": "Allows receiving items directly from purchase order at main locations without requiring special warehouse handling of inbound transactions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 102.7,
+      "t_end": 115.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "purchase order",
+        "receipt",
+        "project items"
+      ],
+      "system": "purchasing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "project planning lines",
+      "t": 34.4
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 4.8,
+      "text": "Location may require putaway, warehouse receipt, or both when dealing with purchase processes.",
+      "why_it_matters": "Defines the three warehouse handling scenarios that the new functionality supports for project purchases.",
+      "check": "exact"
+    },
+    {
+      "t": 18,
+      "text": "It allows you to create purchase orders for locations where directed putaway and pick is enabled.",
+      "why_it_matters": "Key capability showing that directed putaway and pick locations are now supported with project purchases.",
+      "check": "exact"
+    },
+    {
+      "t": 46.2,
+      "text": "The white location has the directed putaway and pick setting enabled means this location requires both receipt and putaway steps.",
+      "why_it_matters": "Clarifies that directed putaway and pick is a location setting requiring both receipt and putaway processing steps.",
+      "check": "exact"
+    },
+    {
+      "t": 102.7,
+      "text": "When purchase order is linked to project, the putaway step will be skipped since items are consumed immediately.",
+      "why_it_matters": "Important caveat showing that project-linked purchases skip putaway because items are consumed directly by the project.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011141999999999999
+    }
+  ]
+}

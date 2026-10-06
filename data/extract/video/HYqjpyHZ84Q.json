@@ -1,0 +1,981 @@
+{
+  "video_id": "HYqjpyHZ84Q",
+  "item_id": "video/yt-microsoft/HYqjpyHZ84Q",
+  "title": "AL-Go for Github March Office Hour",
+  "duration_s": 3254,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al-go",
+    "github",
+    "ci-cd",
+    "nuget-feeds",
+    "incremental-builds",
+    "pull-requests",
+    "dependency-resolution",
+    "containers",
+    "versioning",
+    "multi-branch-updates",
+    "azure-devops",
+    "code-signing"
+  ],
+  "chapters": [
+    {
+      "title": "Welcome and introduction to AL-Go office hours",
+      "t_start": 0,
+      "t_end": 77.4
+    },
+    {
+      "title": "Overview of AL-Go version 6.4 and 7 releases",
+      "t_start": 77.4,
+      "t_end": 119
+    },
+    {
+      "title": "Update AL-Go system files on multiple branches",
+      "t_start": 119,
+      "t_end": 225.8
+    },
+    {
+      "title": "NuGet feed select mode and BC container settings",
+      "t_start": 225.8,
+      "t_end": 306.4
+    },
+    {
+      "title": "Publish apps from pull requests",
+      "t_start": 306.4,
+      "t_end": 417.1
+    },
+    {
+      "title": "Q&A - Publishing from PR to containers",
+      "t_start": 417.1,
+      "t_end": 578.2
+    },
+    {
+      "title": "Q&A - Dependency resolution and NuGet packages",
+      "t_start": 578.2,
+      "t_end": 705.5
+    },
+    {
+      "title": "Q&A - Azure DevOps and AppSource dependencies",
+      "t_start": 705.5,
+      "t_end": 816.6
+    },
+    {
+      "title": "Incremental builds and artifact handling",
+      "t_start": 816.6,
+      "t_end": 919.3
+    },
+    {
+      "title": "Migration from Azure DevOps to AL-Go",
+      "t_start": 919.3,
+      "t_end": 1068
+    },
+    {
+      "title": "Dependency resolution issues and GitHub NuGet",
+      "t_start": 1068,
+      "t_end": 1139.5
+    },
+    {
+      "title": "GitHub repository links and resources",
+      "t_start": 1139.5,
+      "t_end": 1263.4
+    },
+    {
+      "title": "Auto-uninstall capability for old apps",
+      "t_start": 1263.4,
+      "t_end": 1373.8
+    },
+    {
+      "title": "Multiple organizational variables support",
+      "t_start": 1373.8,
+      "t_end": 1451
+    },
+    {
+      "title": "Azure DevOps and GitHub integration",
+      "t_start": 1451,
+      "t_end": 1572.4
+    },
+    {
+      "title": "Incremental builds and code change detection",
+      "t_start": 1572.4,
+      "t_end": 1680.4
+    },
+    {
+      "title": "Scheduled vs manual incremental builds",
+      "t_start": 1680.4,
+      "t_end": 1761.4
+    },
+    {
+      "title": "Code analyzer warnings and error handling",
+      "t_start": 1761.4,
+      "t_end": 1913.5
+    },
+    {
+      "title": "Scheduled deployments and workflow timing",
+      "t_start": 1913.5,
+      "t_end": 2107.9
+    },
+    {
+      "title": "Build modes for testing multiple versions",
+      "t_start": 2107.9,
+      "t_end": 2189
+    },
+    {
+      "title": "Q&A and field length warnings",
+      "t_start": 2189,
+      "t_end": 2343.7
+    },
+    {
+      "title": "Field length changes and SQL considerations",
+      "t_start": 2343.7,
+      "t_end": 2528
+    },
+    {
+      "title": "Code signing mechanisms and certificate handling",
+      "t_start": 2528,
+      "t_end": 2773.2
+    },
+    {
+      "title": "Secret configuration for code signing",
+      "t_start": 2773.2,
+      "t_end": 2869.5
+    },
+    {
+      "title": "Create release action workflow issue",
+      "t_start": 2869.5,
+      "t_end": 3009.3
+    },
+    {
+      "title": "GitHub discussions and community engagement",
+      "t_start": 3009.3,
+      "t_end": 3254
+    }
+  ],
+  "features": [
+    {
+      "name": "Update AL-Go system files on multiple branches",
+      "description": "Ability to run update AL-Go system files on multiple branches simultaneously, with optional scheduling. Allows setting branches to include and automatically updates AL-Go system files on all active branches to a specified template URL.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 180.6,
+      "t_end": 246.1,
+      "is_demoed": false,
+      "caveats": [
+        "Recommended to run on a schedule"
+      ],
+      "tags": [
+        "al-go",
+        "multi-branch",
+        "automation",
+        "github"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "NuGet feed select mode",
+      "description": "New setting to control NuGet package selection strategy with options: earliest matching, earliest exact, latest, or latest matching. Earliest matching considers dependency compatibility with the Business Central version being targeted.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 246.1,
+      "t_end": 306.4,
+      "is_demoed": false,
+      "caveats": [
+        "Previously hardcoded to latest matching"
+      ],
+      "tags": [
+        "nuget",
+        "dependency-resolution",
+        "versioning"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "BC container settings from variables",
+      "description": "BC container helper settings can now be read from settings variables (org settings and repo settings), including global settings like memory limits, in addition to repository settings files.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 306.4,
+      "t_end": 326.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "containers",
+        "settings",
+        "configuration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Publish apps from pull requests",
+      "description": "Ability to publish artifacts from a pull request to an environment for manual testing and code review before approving. Uses PR_[number] syntax in publish to environment workflow, with default artifact retention of one day.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 342.7,
+      "t_end": 417.1,
+      "is_demoed": false,
+      "caveats": [
+        "Artifacts expire after one day",
+        "Must rerun build if deploying after artifact expiration"
+      ],
+      "tags": [
+        "pull-requests",
+        "testing",
+        "deployment"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "GitHub Packages for internal dependencies",
+      "description": "Recommended dependency resolution mechanism for internal dependencies using NuGet packages on GitHub, set up by creating GitHub packages context secret. Automatically enables internal dependency resolution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 601.6,
+      "t_end": 688.8,
+      "is_demoed": false,
+      "caveats": [
+        "Separate setup needed for external third-party dependencies",
+        "Not recommended to use exact versions"
+      ],
+      "tags": [
+        "nuget",
+        "github-packages",
+        "dependency-resolution"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Incremental builds",
+      "description": "Only builds and deploys apps that were actually modified in a push, skipping unchanged apps and using last known good builds from previous deployments. When you have an incremental build, it will copy artifacts from the last known good build.",
+      "status": "ga",
+      "status_evidence_t": 854.1,
+      "status_evidence_quote": "so I'm expecting that uh this is the feature that we we just released in version 6.4 which is incremental builds.",
+      "status_evidence_verified": true,
+      "t_start": 854.1,
+      "t_end": 909.3,
+      "is_demoed": true,
+      "caveats": [
+        "Full rebuild triggered by any settings file change",
+        "Settings variable changes do not trigger full rebuild"
+      ],
+      "tags": [
+        "incremental-builds",
+        "multi-app",
+        "optimization",
+        "ci-cd"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Runtime packages for AppSource apps",
+      "description": "Partners can publish AppSource apps as runtime packages and share them to other partners instead of auto-generated symbols, requiring online environments for publishing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 801.4,
+      "t_end": 816.6,
+      "is_demoed": false,
+      "caveats": [
+        "Missing a few features for full implementation",
+        "Dependent on partner adoption"
+      ],
+      "tags": [
+        "runtime-packages",
+        "appsource",
+        "dependencies"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL-Go workshop for migration",
+      "description": "Learning resource at aka.ms/algo workshop that guides users through switching from Azure DevOps to AL-Go for GitHub with documentation on different workflows and settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 919.3,
+      "t_end": 1040,
+      "is_demoed": false,
+      "caveats": [
+        "Requires learning curve",
+        "Migration approach is discard old pipelines and use AL-Go workflows"
+      ],
+      "tags": [
+        "migration",
+        "azure-devops",
+        "documentation",
+        "workshop"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go settings reference",
+      "description": "Complete reference documentation at aka.ms/go settings covering all available AL-Go configuration settings and their mechanisms.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1005.3,
+      "t_end": 1027.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "settings",
+        "reference",
+        "documentation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub NuGet package resolution",
+      "description": "Method to obtain partner apps individually via GitHub NuGet, addressing issues with dependency resolution for indirect dependencies that cause searches to abort.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1068,
+      "t_end": 1117.5,
+      "is_demoed": false,
+      "caveats": [
+        "Indirect dependency resolution issues",
+        "Performance problems with long search times"
+      ],
+      "tags": [
+        "dependencies",
+        "github",
+        "nuget",
+        "runtime-packages"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Auto-uninstall old app versions",
+      "description": "Automatically unpublish old app versions when deploying, preventing multiple versions of the same app from being published to the environment.",
+      "status": "ga",
+      "status_evidence_t": 1283.6,
+      "status_evidence_quote": "the ability to uninstall or unpublish actually an an old app um was not available. That is available now",
+      "status_evidence_verified": true,
+      "t_start": 1263.4,
+      "t_end": 1329,
+      "is_demoed": false,
+      "caveats": [
+        "Recently added to Business Central",
+        "Still needs implementation in AL-Go"
+      ],
+      "tags": [
+        "uninstall",
+        "deployment",
+        "app-versions"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Multiple organizational variables",
+      "description": "Support for multiple organizational variables to have different settings for internal and PTE apps, potentially using conditional settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1373.8,
+      "t_end": 1430,
+      "is_demoed": false,
+      "caveats": [
+        "Not currently possible",
+        "Requires understanding exact customer scenarios"
+      ],
+      "tags": [
+        "organizational-variables",
+        "settings",
+        "configuration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Azure Boards GitHub integration",
+      "description": "Native GitHub integration with Azure Boards allowing linking pull requests and GitHub issues to Azure DevOps work items using hashtags and work item IDs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1451,
+      "t_end": 1512.5,
+      "is_demoed": false,
+      "caveats": [
+        "Less integrated than 100% Azure DevOps workflow",
+        "Requires GitHub app installation"
+      ],
+      "tags": [
+        "azure-devops",
+        "github",
+        "integration",
+        "azure-boards"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Smart rebuild on settings changes",
+      "description": "Planned improvement to trigger full rebuild only on configuration changes that impact apps, rather than all settings file changes, to improve incremental build efficiency.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1617.1,
+      "t_end": 1667.3,
+      "is_demoed": false,
+      "caveats": [
+        "Current behavior is aggressive and triggers full rebuilds",
+        "Uncertain if impact detection is possible"
+      ],
+      "tags": [
+        "incremental-builds",
+        "settings",
+        "optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Scheduled incremental builds",
+      "description": "You can set up builds on a schedule and specify that incremental builds will run on a schedule as well. However, if you trigger builds with a workflow run on the CI/CD workflow, it will not do an incremental build.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1722.5,
+      "t_end": 1774.1,
+      "is_demoed": false,
+      "caveats": [
+        "Manual workflow runs trigger full builds instead",
+        "Incremental builds only apply to scheduled builds"
+      ],
+      "tags": [
+        "scheduled-builds",
+        "incremental",
+        "ci-cd"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Treat warnings as errors setting",
+      "description": "You can specify to fail on warnings, and there is a setting called treat warnings as errors which is a container helper setting. It accepts an array of AL warning codes that should be treated as errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1839.8,
+      "t_end": 1913.5,
+      "is_demoed": false,
+      "caveats": [
+        "Is a container helper setting",
+        "Requires specifying AL warning codes as an array"
+      ],
+      "tags": [
+        "code-analyzers",
+        "warnings",
+        "error-handling"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Fail on warnings workflow setting",
+      "description": "You can set fail on to warning which will fail your workflow if you have any warnings in the code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1898.2,
+      "t_end": 1913.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "code-analyzers",
+        "workflow",
+        "quality-gates"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Scheduled deployment to environment",
+      "description": "You can create a workflow that triggers a publish to an environment at a specific time using cron tab scheduling. A partner used this to deploy to the latest released version to the customer every Friday evening at 8:00.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1974.6,
+      "t_end": 2060.2,
+      "is_demoed": false,
+      "caveats": [
+        "Requires manual YAML file setup",
+        "Not a built-in feature"
+      ],
+      "tags": [
+        "scheduled-deployment",
+        "cron",
+        "workflow"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Build modes for version testing",
+      "description": "Each CI/CD build can be built in three different modes: one default, one for next major, and one for next minor. Your CI/CD will run all three builds and will only succeed if all three builds succeed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2123.4,
+      "t_end": 2189,
+      "is_demoed": false,
+      "caveats": [
+        "Not automatically chained to prod deployment",
+        "Requires manual configuration"
+      ],
+      "tags": [
+        "build-modes",
+        "testing",
+        "version-compatibility"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Trusted signing with Azure",
+      "description": "A built-in mechanism in AL-Go for GitHub that automates the process of signing applications using Azure trusted signing, as an alternative to PFX files which are no longer obtainable.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2634.9,
+      "t_end": 2762.9,
+      "is_demoed": false,
+      "caveats": [
+        "Requires setup of Azure trusted signing",
+        "Legacy PFX file mechanism still works if secrets are configured correctly"
+      ],
+      "tags": [
+        "code-signing",
+        "azure",
+        "certificate-management",
+        "automation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Code signing via Azure Key Vault and net sign",
+      "description": "A mechanism to sign applications using Azure Key Vault to host certificates and net sign to perform the signing, built into AL-Go for GitHub.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2634.9,
+      "t_end": 2762.9,
+      "is_demoed": false,
+      "caveats": [
+        "Requires Azure Key Vault setup",
+        "Alternative to legacy PFX mechanism"
+      ],
+      "tags": [
+        "code-signing",
+        "azure-key-vault",
+        "net-sign",
+        "certificate-management"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Create release action",
+      "description": "An action used to create releases in the CI/CD workflow that previously worked out of the box but now requires running the CI/CD workflow additional times before functioning properly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2982.5,
+      "t_end": 2999.5,
+      "is_demoed": false,
+      "caveats": [
+        "Recent behavior change requires running CI/CD workflow multiple times",
+        "Issue not yet investigated or confirmed"
+      ],
+      "tags": [
+        "create-release",
+        "ci-cd-workflow",
+        "artifact-handling"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub discussions for community Q&A",
+      "description": "A proposed feature to use GitHub discussions as an alternative channel for announcements and Q&A instead of requiring users to wait for monthly office hours.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3093.8,
+      "t_end": 3231.8,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet actively implemented",
+        "Requires removal of issue templates to point users to discussions instead"
+      ],
+      "tags": [
+        "github-discussions",
+        "community-engagement",
+        "q&a"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub discussions as alternative to issues",
+      "description": "Proposal to remove question template from issues and point users to discussions instead for better community engagement and faster response times.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3167.8,
+      "t_end": 3204.2,
+      "is_demoed": false,
+      "caveats": [
+        "Requires more active monitoring of discussions by maintainers"
+      ],
+      "tags": [
+        "github",
+        "community",
+        "issue-management"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Business Central",
+      "t": 1263.4
+    },
+    {
+      "type": "other",
+      "name": "code sign certificate URL",
+      "t": 2549.8
+    },
+    {
+      "type": "other",
+      "name": "code sign certificate password",
+      "t": 2549.8
+    },
+    {
+      "type": "other",
+      "name": "create release action",
+      "t": 2982.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    },
+    {
+      "name": "Ray",
+      "confidence": "high"
+    },
+    {
+      "name": "Christian",
+      "confidence": "high"
+    },
+    {
+      "name": "Tom",
+      "confidence": "high"
+    },
+    {
+      "name": "Oliver",
+      "confidence": "medium"
+    },
+    {
+      "name": "Cataline Maria",
+      "confidence": "medium"
+    },
+    {
+      "name": "Maria",
+      "confidence": "medium"
+    },
+    {
+      "name": "Sebastian",
+      "confidence": "medium"
+    },
+    {
+      "name": "Dominique",
+      "confidence": "medium"
+    },
+    {
+      "name": "Tony",
+      "confidence": "medium"
+    },
+    {
+      "name": "Unknown (primary speaker)",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 77.4,
+      "text": "by the way, we also just recorded the launch event video, so in a few days you will be able to see what's new",
+      "why_it_matters": "Signals that AL-Go version 7 is coming and launch event video will document new features",
+      "check": "exact"
+    },
+    {
+      "t": 93.1,
+      "text": "right now we we just launched um version 6.4 a week ago.",
+      "why_it_matters": "Establishes the current release timeline and version status",
+      "check": "exact"
+    },
+    {
+      "t": 225.8,
+      "text": "You can also run it on a schedule which is highly recommended. So you can you can set up this workflow schedule and say",
+      "why_it_matters": "Provides practical guidance on recommended usage pattern for multi-branch updates",
+      "check": "exact"
+    },
+    {
+      "t": 268.8,
+      "text": "The difference between earliest and earliest matching is that the earliest matching is also taking dependencies into consideration.",
+      "why_it_matters": "Clarifies the technical distinction between NuGet feed selection modes",
+      "check": "exact"
+    },
+    {
+      "t": 717.4,
+      "text": "We do not have resources to to create algo for GitHub to or ago for Azure DevOps. Um so algo go for GitHub is",
+      "why_it_matters": "Definitively states that AL-Go will not be ported to Azure DevOps, indicating strategic focus",
+      "check": "exact"
+    },
+    {
+      "t": 801.4,
+      "text": "What we hope is that more and more partners will start um publishing their appsource apps as runtime packages and sharing those with partners",
+      "why_it_matters": "Indicates future dependency on ecosystem adoption of runtime packages rather than auto-generated symbols",
+      "check": "exact"
+    },
+    {
+      "t": 854.1,
+      "text": "I'm expecting that uh this is the feature that we we just released in version 6.4 which is incremental builds",
+      "why_it_matters": "Confirms the exact version number (6.4) where incremental builds were released as a GA feature.",
+      "check": "exact"
+    },
+    {
+      "t": 868,
+      "text": "you can now set up incremental builds on on push. Um meaning that whenever you you push some modifications to the repo, it will",
+      "why_it_matters": "Describes key efficiency improvement for multi-app repositories",
+      "check": "exact"
+    },
+    {
+      "t": 880.9,
+      "text": "whenever you you push some modifications to the repo, it will only build the apps that you actually modified in that uh push",
+      "why_it_matters": "Describes the core behavior of incremental builds - selective compilation based on actual changes.",
+      "check": "exact"
+    },
+    {
+      "t": 892.1,
+      "text": "it will also then only deploy that app uh to your environment when it deploys. It'll it'll find the last known good built and",
+      "why_it_matters": "Explains the deployment optimization that reuses artifacts from previous builds for unchanged apps.",
+      "check": "exact"
+    },
+    {
+      "t": 990.8,
+      "text": "probably you'll find that the majority of things that you're already doing is is somehow available in in algo for GitHub as well. Um",
+      "why_it_matters": "Clarifies migration strategy - use existing AL-Go workflows rather than converting Azure DevOps pipelines.",
+      "check": "exact"
+    },
+    {
+      "t": 1283.6,
+      "text": "the ability to uninstall or unpublish actually an an old app um was not available. That is available now",
+      "why_it_matters": "Marks the availability of the uninstall capability in Business Central as a recent prerequisite for AL-Go implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 1389.5,
+      "text": "Well, it's it's currently not possible. I have thought about adding like a setting to allow you to point to a different variable",
+      "why_it_matters": "Establishes current limitations and future consideration for multiple organizational variables feature.",
+      "check": "exact"
+    },
+    {
+      "t": 1572.4,
+      "text": "when you have a an incremental build, then it will actually copy the artifacts from the last known good build",
+      "why_it_matters": "This explains the core mechanism of incremental builds in AL-Go - reusing unchanged artifacts from previous builds to optimize build time and resource usage.",
+      "check": "exact"
+    },
+    {
+      "t": 1617.1,
+      "text": "we right now we are selecting a full build whenever you make any changes to settings",
+      "why_it_matters": "Shows a current behavior that the speaker identifies as too aggressive and subject to potential optimization in the future.",
+      "check": "exact"
+    },
+    {
+      "t": 1629.2,
+      "text": "and update Elgo system files for example will will cause a full build afterwards uh which is probably too much",
+      "why_it_matters": "Identifies a known inefficiency in current behavior where system file updates unnecessarily trigger full rebuilds.",
+      "check": "exact"
+    },
+    {
+      "t": 1732.7,
+      "text": "If you set up the builds on a schedule, um you can specify that on schedule that you'll run incremental builds on a schedule",
+      "why_it_matters": "Clarifies that incremental builds work with scheduled builds but not with manual workflow triggers, an important distinction for users.",
+      "check": "exact"
+    },
+    {
+      "t": 2000,
+      "text": "right now what you set up is is is a chron tab and I guess that can be used for a specific time",
+      "why_it_matters": "Explains that scheduled deployments use cron tab syntax, providing a technical mechanism for time-based deployment automation.",
+      "check": "exact"
+    },
+    {
+      "t": 2149.8,
+      "text": "you can you can build those uh in three different modes one default one for next major and one for next minor",
+      "why_it_matters": "Describes the three-mode build approach for testing version compatibility, helping ensure apps work across different version scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 2558.6,
+      "text": "typically people will not be able to get a certificate and a password anymore, but I expect that you still have a pfx file",
+      "why_it_matters": "Explains the transition from PFX files to new certificate mechanisms in 2023, indicating a significant change in how code signing works",
+      "check": "exact"
+    },
+    {
+      "t": 2634.9,
+      "text": "The new mechanism to sign the apps is either using trusted signing on Azure or using um uh Azure key to um to host",
+      "why_it_matters": "Defines the two primary modern code signing mechanisms available in AL-Go for GitHub as alternatives to legacy PFX files",
+      "check": "exact"
+    },
+    {
+      "t": 2742.8,
+      "text": "we've switched all our signing to to trusted signing instead. So um which is something you need to do probably within the next I",
+      "why_it_matters": "Indicates Microsoft's internal migration to trusted signing and conveys urgency for users to migrate before PFX certificates expire",
+      "check": "exact"
+    },
+    {
+      "t": 2982.5,
+      "text": "Before we used the create release action and it worked out of the box. Now something has changed few weeks ago and we have",
+      "why_it_matters": "Reports a regression in the create release action behavior that requires workarounds",
+      "check": "exact"
+    },
+    {
+      "t": 3113.8,
+      "text": "we've been contemplating using the Q&A section in the descript discussions but haven't really done anything",
+      "why_it_matters": "Shows that GitHub discussions for Q&A is still in planning stages and not yet implemented for the AL-Go community",
+      "check": "exact"
+    },
+    {
+      "t": 3167.8,
+      "text": "And maybe we should remove the the question template from the issues and point to discussions instead.",
+      "why_it_matters": "Indicates a proposed process change for managing community questions in the AL-Go GitHub repository.",
+      "check": "exact"
+    },
+    {
+      "t": 3167.8,
+      "text": "I know that I have haven't been as active on answering discussions as I have on issues that might be a reason for for",
+      "why_it_matters": "Acknowledges that maintainer responsiveness affects where users ask questions.",
+      "check": "snapped"
+    },
+    {
+      "t": 3231.8,
+      "text": "I think majority of people have voted left and uh I don't think there are any more questions.",
+      "why_it_matters": "Indicates conclusion of voting or poll on a decision affecting the community.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 119,
+      "kind": "coming-later",
+      "text": "will also be included in version seven of Elgo for GitHub"
+    },
+    {
+      "t": 144.8,
+      "kind": "preview",
+      "text": "the ability to to to set BC container settings uh from settings variables and publish to environment from a pull request. So those things are in preview right now"
+    },
+    {
+      "t": 816.6,
+      "kind": "coming-later",
+      "text": "we are missing a few features uh for that and and that is on our schedule to finalize the new get uh features in in the upcoming release meaning over the next half year"
+    },
+    {
+      "t": 1039.4,
+      "kind": "coming-later",
+      "text": "We know that we still need to generate more documentation and I have promised to get started on that"
+    },
+    {
+      "t": 1302,
+      "kind": "coming-later",
+      "text": "we should look into getting that uh added to the publish to environment so that it it automatically unpublishes the old app"
+    },
+    {
+      "t": 1642.2,
+      "kind": "subject-to-change",
+      "text": "we might make a change to actually only do a full build on config changes or settings changes if some of these settings changes actually have any impact on the apps generated"
+    },
+    {
+      "t": 2060.2,
+      "kind": "not-in-this-release",
+      "text": "you want to be able to control it a little bit uh further and that would be something we had to yeah take as an as an idea if you can again create a GitHub issue with this one and and we can put into our backlog"
+    },
+    {
+      "t": 2135,
+      "kind": "not-in-this-release",
+      "text": "it is not something we will chain um automatically. It's something I mean the deployment to prod is is I guess something"
+    },
+    {
+      "t": 2658.9,
+      "kind": "other",
+      "text": "in 2023 you were not able to get pfx files anymore"
+    },
+    {
+      "t": 3113.8,
+      "kind": "other",
+      "text": "we've been contemplating using the Q&A section in the descript discussions but haven't really done anything"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 27,
+    "quotes_dropped": 1,
+    "evidence_verified": 2,
+    "evidence_unverified": 20
+  },
+  "windows": 5,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024794999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027631000000000003
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023912
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020631999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006467
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0662105
+    }
+  ]
+}

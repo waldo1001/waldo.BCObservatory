@@ -1,0 +1,27 @@
+{
+  "video_id": "px1MOyXfmnQ",
+  "item_id": "video/yt-microsoft/px1MOyXfmnQ",
+  "summary": "AL-Go for GitHub delivery and deployment changes in 2025 release wave 1: a dependency install mode setting, deployment of test apps to sandboxes, and deployment of pull request artifacts to an online environment. Covers the settings, the limits (manual trigger, one-day artifact expiry) and demos of each.",
+  "overview": "The video walks through three changes to delivery and deployment in AL-Go for GitHub. The first is a dependency install mode setting that controls how dependencies are handled at deploy time, including installing or upgrading dependencies from AppSource when they are not part of the app being deployed. The second is deployment of test apps to sandbox environments, with the option to exclude apps by ID.\n\nThe third is deploying artifacts from a pull request directly to an online environment for quick testing before merging. It is currently started manually through a workflow with a pull request ID. The video demos each feature, including how artifacts behave with incremental builds and when they expire.",
+  "key_points": [
+    "Dependency install mode is a setting that decides how dependencies are handled at deploy time; set to upgrade, apps already installed in the environment are upgraded.",
+    "It can install or upgrade dependencies from AppSource when they are not included in the app being deployed.",
+    "Test apps are deployed only to sandbox environments, and specific apps can be excluded by ID.",
+    "Test apps that depend on test libraries not available as AppSource apps, such as performance test apps, are excluded automatically.",
+    "Pull request artifacts can be deployed to an online environment for testing before merge. For now this is a manual run of the publish to environment workflow with a pull request ID.",
+    "Pull request artifacts expire after one day by default, and the presenter encourages keeping that setting.",
+    "With incremental builds, only apps built in that pull request are published as artifacts; the remaining apps come from the last known good build."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "22a4d4c03f092960dd60fea19ab63ee10f0fefc62795e58a9d777998476c9f5b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0141304
+  }
+}

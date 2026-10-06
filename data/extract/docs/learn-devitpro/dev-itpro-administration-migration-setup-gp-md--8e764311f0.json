@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-setup-gp.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-setup-gp",
+  "title": "Run cloud migration setup for Dynamics GP migration",
+  "blob": "3b3907dc52a1797465e2eab86497549e750d891e",
+  "summary": "Run cloud migration setup for Dynamics GP to configure components and connections for migrating data from Business Central on-premises to online, including delegated administrator approval.",
+  "systems": [
+    "integration",
+    "administration",
+    "finance"
+  ],
+  "topics": [
+    "dynamics gp",
+    "cloud migration",
+    "setup",
+    "sql database",
+    "integration runtime"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Setup"
+    },
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    },
+    {
+      "type": "page",
+      "name": "GP Company Migration Configuration"
+    }
+  ],
+  "features": [
+    "cloud migration setup",
+    "delegated administrator",
+    "sql database connection",
+    "integration runtime",
+    "data pipeline",
+    "tenant setup"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004528,
+      "pages_in_call": 8
+    }
+  ]
+}

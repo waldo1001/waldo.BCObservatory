@@ -1,0 +1,26 @@
+{
+  "video_id": "vnaySMIKnp8",
+  "item_id": "video/yt-microsoft/vnaySMIKnp8",
+  "summary": "Business Central 2025 release wave 1 manufacturing-to-warehouse changes: warehouse putaway for production output, new pick plus manual flushing method, and an item-level allow warehouse over-pick setting with a return action in the movement worksheet. Includes demos of both areas.",
+  "overview": "The video covers how production connects to warehouse processes in the 2025 release wave 1. Production output can now go through warehouse putaway, using the same processes as other receipts. This matters most for locations with directed putaway and pick. A demo shows posting output and the putaway documents that result.\n\nThe second half covers consumption. A new flushing method, pick plus manual, replaces the old manual method, and the manual method now works without picking. Items can be allowed to be over-picked, and extra quantities can be returned to the warehouse from the movement worksheet. A demo shows flushing and consumption control.",
+  "key_points": [
+    "Warehouse putaway can be used for production output. At directed putaway and pick locations the only options are no warehouse handling and warehouse putaway; other locations also allow inventory putaway.",
+    "When production order quantities are posted, putaway documents are generated automatically. The putaway worksheet toggle on the location card controls this behavior.",
+    "Putaway can be created from the putaway worksheet for partial quantities. Putaway for the remaining quantity can be triggered from a finished production order.",
+    "The new flushing method pick plus manual replaces the old manual method. The manual method stays but no longer requires picking. The capability must be activated in feature management.",
+    "The new allow warehouse over pick field on the item card must be enabled per item. When it is disabled, exact quantities are required.",
+    "Over-picked items can be returned to the warehouse with the return over pick quantity action on the movement worksheet."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "7adf602e3b487ed584cadca04df85c104dc704852b16ca12b64d5a7d317cd7ff",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0146364
+  }
+}

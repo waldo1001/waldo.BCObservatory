@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migrate-gp-configure-companies.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-configure-companies",
+  "title": "Configure Dynamics GP company migration",
+  "blob": "b5805f4981b9cfa66599910b14029e5260413cce",
+  "summary": "Configure Dynamics GP company migration settings globally and per-company to specify modules, master data, posting behavior, and historical data for migrating to Business Central.",
+  "systems": [
+    "integration",
+    "finance",
+    "manufacturing"
+  ],
+  "topics": [
+    "dynamics gp",
+    "cloud migration",
+    "configuration",
+    "modules",
+    "master data"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "GP Company Migration Configuration"
+    },
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    }
+  ],
+  "features": [
+    "dimensions",
+    "modules",
+    "master data only",
+    "auto posting",
+    "inactive records",
+    "recurring records",
+    "classes",
+    "historical snapshots",
+    "validation settings"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004528,
+      "pages_in_call": 8
+    }
+  ]
+}

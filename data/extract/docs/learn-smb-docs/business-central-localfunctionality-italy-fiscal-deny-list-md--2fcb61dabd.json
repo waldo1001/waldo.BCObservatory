@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Italy/fiscal-deny-list.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Italy/fiscal-deny-list",
+  "title": "Fiscal denial list",
+  "blob": "8d955b53eb46188693e7c99b1ab33aff258ababa",
+  "summary": "Set up and report on fiscally denied countries or regions and vendors in the Italian version of Business Central.",
+  "systems": [
+    "localization",
+    "purchasing"
+  ],
+  "topics": [
+    "italy",
+    "fiscal denial",
+    "denied vendors",
+    "countries regions",
+    "compliance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Countries/Regions"
+    },
+    {
+      "type": "report",
+      "name": "Denied Vendors List"
+    }
+  ],
+  "features": [
+    "deny list",
+    "fiscal denial",
+    "vendor reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004528,
+      "pages_in_call": 8
+    }
+  ]
+}

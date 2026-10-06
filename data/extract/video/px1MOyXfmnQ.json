@@ -1,0 +1,239 @@
+{
+  "video_id": "px1MOyXfmnQ",
+  "item_id": "video/yt-microsoft/px1MOyXfmnQ",
+  "title": "What's New: AL-Go for GitHub on Delivery and Deployment (2025 release wave 1)",
+  "duration_s": 512,
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "al-go",
+    "deployment",
+    "dependencies",
+    "test apps",
+    "pull request",
+    "github",
+    "appsource",
+    "artifacts",
+    "incremental builds",
+    "sandbox"
+  ],
+  "chapters": [
+    {
+      "title": "Dependency Install Mode Feature",
+      "t_start": 0,
+      "t_end": 80.8
+    },
+    {
+      "title": "Dependency Install Mode Demo and Configuration",
+      "t_start": 80.8,
+      "t_end": 155
+    },
+    {
+      "title": "Test Apps Deployment Feature",
+      "t_start": 155,
+      "t_end": 220
+    },
+    {
+      "title": "Test Apps Deployment Demo",
+      "t_start": 220,
+      "t_end": 305.2
+    },
+    {
+      "title": "Pull Request Artifact Deployment",
+      "t_start": 305.2,
+      "t_end": 365.9
+    },
+    {
+      "title": "Pull Request Deployment Demo and Artifact Expiration",
+      "t_start": 365.9,
+      "t_end": 512
+    }
+  ],
+  "features": [
+    {
+      "name": "Dependency Install Mode",
+      "description": "A setting that determines how dependencies are handled at deploy time. Allows automatic installation or upgrade of dependencies from AppSource if not included in the app being deployed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 25.7,
+      "t_end": 155,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dependencies",
+        "deployment",
+        "appsource",
+        "configuration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Test Apps Deployment",
+      "description": "Feature to deploy test apps to sandbox environments during deployment. Includes ability to exclude apps by ID. Automatically excludes test apps that depend on unavailable test libraries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 155,
+      "t_end": 305.2,
+      "is_demoed": true,
+      "caveats": [
+        "Test apps are only deployed to sandbox environments",
+        "Performance test apps with unavailable dependencies are automatically excluded"
+      ],
+      "tags": [
+        "test apps",
+        "deployment",
+        "sandbox",
+        "exclude apps"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Pull Request Artifact Deployment",
+      "description": "Allows deploying artifacts from a pull request directly to an online environment for quick testing before merging. Currently requires manual workflow trigger with PR ID. Future versions may automate this on each PR push.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 305.2,
+      "t_end": 486.6,
+      "is_demoed": true,
+      "caveats": [
+        "Currently requires manual workflow trigger",
+        "Pull request artifacts expire after one day by default",
+        "Only works with apps built in that specific PR - remaining apps come from last known good build"
+      ],
+      "tags": [
+        "pull request",
+        "deployment",
+        "manual process",
+        "artifact expiration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Incremental Builds with PR Artifacts",
+      "description": "When incremental builds are enabled, only apps built in a specific PR are published as artifacts, with remaining apps sourced from the last known good build to save storage costs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 426.4,
+      "t_end": 466.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "incremental builds",
+        "storage optimization",
+        "artifacts"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Automatic Test App Exclusion by Dependencies",
+      "description": "Test apps are automatically excluded from deployment if they depend on test libraries that are not available as AppSource apps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 285.2,
+      "t_end": 305.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "test apps",
+        "dependencies",
+        "automatic exclusion"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "GitHub Alo settings file",
+      "t": 155
+    },
+    {
+      "type": "other",
+      "name": "GitHub Alo settings.Json",
+      "t": 247
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Freddy Christensen",
+      "confidence": "high"
+    },
+    {
+      "name": "Sebastian",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 60.6,
+      "text": "if you were trying to deploy an app and the dependencies were not there",
+      "why_it_matters": "Explains the problem that dependency install mode solves - deployment failures when dependencies are missing.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 103.4,
+      "text": "dependencies to upgrade the upgrade here comes from the dependency install mode set to upgrade meaning that if these apps are installed in a",
+      "why_it_matters": "Clarifies how the dependency install mode upgrade setting works to automatically upgrade existing dependencies.",
+      "check": "exact"
+    },
+    {
+      "t": 175.5,
+      "text": "for this presentation we have implemented the first version um and all you have to do is prepare your online environment which should be",
+      "why_it_matters": "Indicates this is the first implementation of test apps deployment, currently supporting sandbox environments only.",
+      "check": "exact"
+    },
+    {
+      "t": 325.7,
+      "text": "we now have a new option for deploying pool request changes directly to an online environment this is useful for quick testing",
+      "why_it_matters": "Introduces the new pull request deployment feature for faster testing workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 345.9,
+      "text": "for now this is a manual process where you will use the published to environment workflow give it a pool request ID instead of",
+      "why_it_matters": "Indicates current manual nature of PR deployments with future automation planned.",
+      "check": "exact"
+    },
+    {
+      "t": 466.6,
+      "text": "artifacts will expire after one day using normal settings and we encourage you to keep settings this way",
+      "why_it_matters": "Specifies the default artifact retention period and recommendation for users.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 345.9,
+      "kind": "coming-later",
+      "text": "later on we want to investigate how we can do this automatically in such a way that every time you push a new change to a PR then those changes will automatically flow into your online environment"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019846
+    }
+  ]
+}

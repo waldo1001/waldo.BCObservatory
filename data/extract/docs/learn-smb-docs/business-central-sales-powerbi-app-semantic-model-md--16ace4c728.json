@@ -1,0 +1,134 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sales-powerbi-app-semantic-model.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-app-semantic-model",
+  "title": "Power BI Sales app semantic model",
+  "blob": "7d27af050dad34fe7026a9a4aa7daac8f885cc0d",
+  "summary": "Power BI Sales app semantic model uses star schema with fact tables for transactions and dimension tables for context from sales, projects, and opportunities in Business Central.",
+  "systems": [
+    "reporting",
+    "sales",
+    "projects"
+  ],
+  "topics": [
+    "power bi",
+    "semantic model",
+    "sales analytics",
+    "star schema",
+    "fact tables",
+    "dimension tables"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Opportunity Entries"
+    },
+    {
+      "type": "table",
+      "name": "Project Ledger Entries"
+    },
+    {
+      "type": "table",
+      "name": "Sales Cr. Memo Line"
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Line"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    },
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "table",
+      "name": "Value Entries"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entries"
+    },
+    {
+      "type": "table",
+      "name": "Item Budget Entries"
+    },
+    {
+      "type": "table",
+      "name": "Close Opportunity Code"
+    },
+    {
+      "type": "table",
+      "name": "Contact"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "G/L Account"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Item Category"
+    },
+    {
+      "type": "table",
+      "name": "Location"
+    },
+    {
+      "type": "table",
+      "name": "Opportunity"
+    },
+    {
+      "type": "table",
+      "name": "Job"
+    },
+    {
+      "type": "table",
+      "name": "Return Reason"
+    },
+    {
+      "type": "table",
+      "name": "Resource"
+    },
+    {
+      "type": "table",
+      "name": "Sales Cycle Stage"
+    },
+    {
+      "type": "table",
+      "name": "Salesperson/Purchaser"
+    }
+  ],
+  "features": [
+    "fact tables",
+    "dimension tables",
+    "opportunity entries",
+    "sales budget",
+    "project ledger",
+    "sales credit lines",
+    "sales invoice lines",
+    "sales lines",
+    "sales value entries"
+  ],
+  "versions": [
+    "2025 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004528,
+      "pages_in_call": 8
+    }
+  ]
+}

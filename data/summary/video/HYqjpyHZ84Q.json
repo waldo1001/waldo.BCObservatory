@@ -1,0 +1,27 @@
+{
+  "video_id": "HYqjpyHZ84Q",
+  "item_id": "video/yt-microsoft/HYqjpyHZ84Q",
+  "summary": "AL-Go for GitHub March office hour covering the 6.4 release and version 7 plans: incremental builds, NuGet feed select mode, multi-branch system file updates, publishing from pull requests, code signing options, and Q&A on migrating from Azure DevOps.",
+  "overview": "This AL-Go for GitHub office hour, published 2025-05-01, walks through what shipped in version 6.4 a week before recording and what is coming in version 7. Topics include running update AL-Go system files on multiple branches, a new NuGet feed select mode, reading BC container settings from variables, and publishing apps from pull requests to an environment for manual testing.\n\nThe second half is Q&A. It covers dependency resolution with GitHub Packages, migrating from Azure DevOps with the AL-Go workshop, how incremental builds behave on push versus scheduled and manual runs, treating warnings as errors, scheduled deployments, build modes for next major and next minor, and code signing with Azure trusted signing or Azure Key Vault. It ends with an open issue on the create release action and a discussion about using GitHub Discussions for community questions.",
+  "key_points": [
+    "Incremental builds (released in 6.4) build and deploy only apps modified in a push and copy artifacts from the last known good build. Any settings file change currently triggers a full build, including update AL-Go system files. Changes to settings variables do not.",
+    "Incremental builds apply to push and scheduled builds. A manual run of the CI/CD workflow does a full build.",
+    "NuGet feed select mode has four options: earliest matching, earliest exact, latest, latest matching. Earliest matching also takes dependencies into account. It was previously hardcoded to latest matching.",
+    "Reading BC container settings from settings variables and publishing from a pull request (PR_[number] in the publish to environment workflow) are described as in preview. PR artifacts expire after one day by default.",
+    "Update AL-Go system files can run on multiple branches with a template URL. Running it on a schedule is recommended.",
+    "For signing, the PFX certificate mechanism still works if secrets are configured. The newer options are Azure trusted signing or Azure Key Vault with net sign.",
+    "Multiple organizational variables, for example separate settings for internal and PTE apps, are not currently possible. Auto-uninstall of old app versions is not yet implemented in AL-Go publish to environment."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "290db15d35a0c0866198ba6cf6672e94fa29bd894ce50d402e3b4a0d6335a6aa",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0324324
+  }
+}

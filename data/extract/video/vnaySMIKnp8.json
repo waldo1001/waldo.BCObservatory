@@ -1,0 +1,277 @@
+{
+  "video_id": "vnaySMIKnp8",
+  "item_id": "video/yt-microsoft/vnaySMIKnp8",
+  "title": "What's New in Manufacturing: Integration to Warehouse (2025 release wave 1)",
+  "duration_s": 377,
+  "systems": [
+    "manufacturing",
+    "warehouse",
+    "inventory"
+  ],
+  "topics": [
+    "warehouse putaway",
+    "production output",
+    "directed putaway and pick",
+    "flushing methods",
+    "over-picking",
+    "consumption",
+    "material requirements",
+    "warehouse activities"
+  ],
+  "chapters": [
+    {
+      "title": "Warehouse Putaway for Production Output",
+      "t_start": 0,
+      "t_end": 46.8
+    },
+    {
+      "title": "Demo: Posting Production and Putaway Workflow",
+      "t_start": 46.8,
+      "t_end": 154.4
+    },
+    {
+      "title": "New Flushing Methods and Over-picking",
+      "t_start": 154.4,
+      "t_end": 210.7
+    },
+    {
+      "title": "Demo: Flushing and Consumption Management",
+      "t_start": 210.7,
+      "t_end": 377
+    }
+  ],
+  "features": [
+    {
+      "name": "Warehouse Putaway for Production Output",
+      "description": "Starting with this release you can use warehouse putaway for production output means you can use the same warehouse processes as in other receipts. It is especially important for locations where directed putaway and pick is enabled.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.3,
+      "t_end": 46.8,
+      "is_demoed": true,
+      "caveats": [
+        "For directed putaway and pick locations only two options are available: no warehouse handling and warehouse putaway",
+        "For other locations inventory putaway is also an option"
+      ],
+      "tags": [
+        "warehouse putaway",
+        "production output",
+        "directed putaway"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Automatic Putaway Document Generation",
+      "description": "When posting production order quantities, putaway documents are generated automatically. This behavior is controlled by the used putaway worksheet toggle in the location card page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 66.8,
+      "t_end": 105,
+      "is_demoed": true,
+      "caveats": [
+        "Behavior is controlled by putaway worksheet toggle setting"
+      ],
+      "tags": [
+        "automatic generation",
+        "putaway workflow",
+        "production posting"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Putaway Creation from Worksheet and Finished Orders",
+      "description": "You can create putaway for production order from the putaway worksheet for partial quantities, and can trigger creation of warehouse putaway for remaining quantity from finished production order.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 105,
+      "t_end": 154.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "putaway creation",
+        "production order",
+        "partial quantities"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Pick Plus Manual Flushing Method",
+      "description": "A new flushing method pick plus manual replaces the old manual method. The manual flushing method remains but now behaves differently and does not require picking anymore. This provides additional flexibility for manual operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 190.2,
+      "t_end": 210.7,
+      "is_demoed": true,
+      "caveats": [
+        "Capability must be activated in feature management",
+        "Consistent with existing backward and forward flushing methods"
+      ],
+      "tags": [
+        "flushing methods",
+        "manual flushing",
+        "material consumption"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Allow Warehouse Over-Pick",
+      "description": "New field allow warehouse over pick is visible in the item card. This enables picking more raw materials than originally requested for production order and deciding what to do with extra stock.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 210.7,
+      "t_end": 253,
+      "is_demoed": true,
+      "caveats": [
+        "Must be enabled per item",
+        "When disabled, exact quantities are required"
+      ],
+      "tags": [
+        "over-picking",
+        "item configuration",
+        "warehouse flexibility"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Return Over-picked Items to Warehouse",
+      "description": "New movement worksheet page action return over pick quantity enables returning over-picked items back to warehouse for items that were picked in excess of requirements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 346.3,
+      "t_end": 360.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "over-picking",
+        "warehouse management",
+        "returns"
+      ],
+      "system": "warehouse"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Location Card",
+      "t": 26.6
+    },
+    {
+      "type": "page",
+      "name": "Production Journal",
+      "t": 46.8
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Activity Lines",
+      "t": 66.8
+    },
+    {
+      "type": "page",
+      "name": "Putaway Worksheet",
+      "t": 105
+    },
+    {
+      "type": "page",
+      "name": "Production Order",
+      "t": 122
+    },
+    {
+      "type": "page",
+      "name": "Warehouse Putaway",
+      "t": 142.1
+    },
+    {
+      "type": "page",
+      "name": "Components Page",
+      "t": 190.2
+    },
+    {
+      "type": "page",
+      "name": "Item Card",
+      "t": 210.7
+    },
+    {
+      "type": "page",
+      "name": "Movement Worksheet",
+      "t": 346.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Unknown Presenter",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 6.3,
+      "text": "starting with this release you can use warehouse putaway for production output means you can use the same warehouse processes as in other receipts",
+      "why_it_matters": "Establishes that warehouse putaway for production output is a new capability in this release that standardizes processes",
+      "check": "exact"
+    },
+    {
+      "t": 66.8,
+      "text": "all six units will have been posted navigate to The Warehouse activity lines where you can see two put away documents generated automatically during",
+      "why_it_matters": "Demonstrates automatic putaway generation behavior on posting, key workflow behavior change",
+      "check": "exact"
+    },
+    {
+      "t": 190.2,
+      "text": "a new value pick plus manual replaces the old manual method the manual flushing method remains but it now behaves differently and does not",
+      "why_it_matters": "Introduces new flushing method option and documents backward compatibility change in manual flushing behavior",
+      "check": "exact"
+    },
+    {
+      "t": 210.7,
+      "text": "a new field allow Warehouse over pick is visible in the item card",
+      "why_it_matters": "Announces new item-level control for allowing excess material picking in warehouse operations",
+      "check": "exact"
+    },
+    {
+      "t": 263.8,
+      "text": "you can increase the quantity of coffee filter baskets since there are plenty in the open shop floor bin and you control consumption",
+      "why_it_matters": "Shows how over-picking flexibility is controlled by users at point of consumption",
+      "check": "exact"
+    },
+    {
+      "t": 346.3,
+      "text": "if you want to return overp picked item to Warehouse navigate to the movement worksheet page and choose the return overp pick quantity action",
+      "why_it_matters": "Identifies new action available for handling excess picked materials in warehouse operations",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 210.7,
+      "kind": "preview",
+      "text": "activate the capability in feature management"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023769
+    }
+  ]
+}

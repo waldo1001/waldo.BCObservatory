@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migrate-gp-configure-companies",
   "published_at": "2026-05-07T16:40:06.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b5805f4981b9cfa66599910b14029e5260413cce",
       "words": 1363,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:39:28.798Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004528
+    },
+    "summarized": {
+      "at": "2026-10-06T18:39:28.816Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:39:28.817Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:39:28.818Z",
+      "page": false
     }
   },
   "input_hash": "b5805f4981b9cfa66599910b14029e5260413cce",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b5805f4981b9cfa66599910b14029e5260413cce"
+  "output_hash": "0deae7d99afa8332515fd79e90bb3142addf883c3424cd87e391bbf583d9007a"
 }

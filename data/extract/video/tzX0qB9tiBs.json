@@ -1,0 +1,223 @@
+{
+  "video_id": "tzX0qB9tiBs",
+  "item_id": "video/yt-microsoft/tzX0qB9tiBs",
+  "title": "What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)",
+  "duration_s": 262,
+  "systems": [
+    "manufacturing",
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "reverse production order transactions",
+    "production order reopening",
+    "output reversal",
+    "consumption reversal",
+    "capacity ledger",
+    "work in progress writeoff",
+    "subcontracting reversal",
+    "item ledger entries",
+    "inventory cost adjustment"
+  ],
+  "chapters": [
+    {
+      "title": "Overview of reverse production order transactions",
+      "t_start": 0,
+      "t_end": 43.4
+    },
+    {
+      "title": "Demo setup: finished production order issues",
+      "t_start": 43.4,
+      "t_end": 73.3
+    },
+    {
+      "title": "Reversing output and consumption transactions",
+      "t_start": 73.3,
+      "t_end": 127.7
+    },
+    {
+      "title": "Reopening and correcting finished orders",
+      "t_start": 127.7,
+      "t_end": 162.6
+    },
+    {
+      "title": "Handling subcontracting reversal and work in progress",
+      "t_start": 162.6,
+      "t_end": 213.2
+    },
+    {
+      "title": "Finishing orders without output and ledger entries",
+      "t_start": 213.2,
+      "t_end": 262
+    }
+  ],
+  "features": [
+    {
+      "name": "Revert output or consumption transactions",
+      "description": "Capability to reverse output or consumption transactions in production orders, including returning unused raw materials back to warehouse and correcting mistakes in capacity ledger entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6,
+      "t_end": 40,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "output reversal",
+        "consumption reversal",
+        "raw materials",
+        "capacity ledger"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Reopen finished production orders",
+      "description": "Ability to reopen finished production orders to make necessary adjustments after discovering mistakes, then finish the order again.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 23.1,
+      "t_end": 40,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "production order status",
+        "order reopening",
+        "correction workflow"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Reverse production order transaction action",
+      "description": "Action that reverses production order transactions by generating a transaction with negative quantity and populating all relevant fields.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 73.3,
+      "t_end": 99.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "negative quantity",
+        "ledger reversal",
+        "transaction generation"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Undo receipt for subcontracting orders",
+      "description": "Ability to undo receipt of purchase orders linked to production orders with subcontracting operations to revert output.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 162.6,
+      "t_end": 193.2,
+      "is_demoed": true,
+      "caveats": [
+        "consumption remains unchanged and must be canceled manually"
+      ],
+      "tags": [
+        "subcontracting",
+        "purchase order reversal",
+        "receipt cancellation"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Finish production orders without output",
+      "description": "Ability to finish production orders that have capacity or component consumption but no output, with work in progress amounts written off.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 193.2,
+      "t_end": 240.7,
+      "is_demoed": true,
+      "caveats": [
+        "requires enabling in manufacturing setup"
+      ],
+      "tags": [
+        "production order finishing",
+        "work in progress",
+        "inventory adjustment"
+      ],
+      "system": "manufacturing"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Capacity Ledger Entry",
+      "t": 43.4
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry",
+      "t": 99.3
+    },
+    {
+      "type": "page",
+      "name": "Manufacturing Setup",
+      "t": 213.2
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 6,
+      "text": "in this release we are adding capability to revert output or consumption transactions return unused raw materials back to the warehouse",
+      "why_it_matters": "Announces the core new feature for handling production order errors and material returns",
+      "check": "exact"
+    },
+    {
+      "t": 23.1,
+      "text": "you can reopen finished production order and make necessary adjustment and then finish it again",
+      "why_it_matters": "Explains the workflow for correcting mistakes in finished production orders",
+      "check": "exact"
+    },
+    {
+      "t": 73.3,
+      "text": "choose the reverse production order transaction which will generate a transaction with a negative quantity and populate all other relevant Fields",
+      "why_it_matters": "Describes how the reversal mechanism works by creating negative transactions",
+      "check": "exact"
+    },
+    {
+      "t": 99.3,
+      "text": "we cancel consumption and we got raw materials back on the stock and there is an application between these two so cost is properly",
+      "why_it_matters": "Demonstrates how cost accuracy is maintained through ledger applications during reversals",
+      "check": "exact"
+    },
+    {
+      "t": 162.6,
+      "text": "navigate to the purchase order and open the receipt select both lines linked to the production order and choose undo",
+      "why_it_matters": "Explains the specific workflow for reverting subcontracting transactions",
+      "check": "fuzzy"
+    },
+    {
+      "t": 213.2,
+      "text": "enable the ability to finish production orders without output in the manufacturing setup page",
+      "why_it_matters": "Indicates this feature requires explicit setup configuration",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013112
+    }
+  ]
+}

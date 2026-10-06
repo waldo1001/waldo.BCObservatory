@@ -1,0 +1,343 @@
+{
+  "video_id": "jricCM_04H4",
+  "item_id": "video/yt-microsoft/jricCM_04H4",
+  "title": "What's New: Excel Reporting (2025 release wave 1)",
+  "duration_s": 831,
+  "systems": [
+    "reporting",
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "excel reports",
+    "pivot tables",
+    "power query",
+    "analytics",
+    "legacy reports",
+    "printable layouts",
+    "finance reports",
+    "sales order analysis",
+    "fixed assets analysis",
+    "sustainability reporting"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Excel Reports for Finance",
+      "t_start": 0,
+      "t_end": 30.1
+    },
+    {
+      "title": "Finance Excel Reports Overview and Access Methods",
+      "t_start": 30.1,
+      "t_end": 110.9
+    },
+    {
+      "title": "Aged Accounts Receivables Report Demo",
+      "t_start": 110.9,
+      "t_end": 192.5
+    },
+    {
+      "title": "Excel Report Features: Print and Analysis Worksheets",
+      "t_start": 192.5,
+      "t_end": 333.4
+    },
+    {
+      "title": "Finance Reports and Sales/Purchasing Excel Reports",
+      "t_start": 333.4,
+      "t_end": 415
+    },
+    {
+      "title": "Vendor Top 10 Report Demo",
+      "t_start": 415,
+      "t_end": 515.4
+    },
+    {
+      "title": "New Query-Based Analysis for Sales and Purchasing",
+      "t_start": 515.4,
+      "t_end": 618.8
+    },
+    {
+      "title": "Fixed Assets and Sustainability Reports",
+      "t_start": 618.8,
+      "t_end": 720.2
+    },
+    {
+      "title": "Legacy Report Deprecation and Manufacturing Analytics",
+      "t_start": 720.2,
+      "t_end": 831
+    }
+  ],
+  "features": [
+    {
+      "name": "Excel Reports for Finance (Generally Available)",
+      "description": "Seven Excel reports made generally available for finance including trial balance, consolidated trial balance, accounts receivable, accounts payable, collectibles, receivables and payables with new modernized designs and layouts.",
+      "status": "ga",
+      "status_evidence_t": 30.1,
+      "status_evidence_quote": "made the Excel reports that were in preview generally available",
+      "status_evidence_verified": true,
+      "t_start": 19.7,
+      "t_end": 90.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "finance",
+        "excel",
+        "generally available",
+        "layouts"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Aged Accounts Receivables Excel Report",
+      "description": "An Excel report with printable version and three analytical worksheets allowing analysis by local currency period, foreign currency, and currency codes with pivot tables and slicers.",
+      "status": "ga",
+      "status_evidence_t": 30.1,
+      "status_evidence_quote": "made the Excel reports that were in preview generally available",
+      "status_evidence_verified": true,
+      "t_start": 90.8,
+      "t_end": 333.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires enabling Power Query content in Excel for security reasons"
+      ],
+      "tags": [
+        "accounts receivable",
+        "pivot tables",
+        "slicers",
+        "analytics"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Customer Top 10 Excel Report",
+      "description": "New Excel report for sales showing top 10 customers with printable version and analysis worksheet featuring slicers for filtering on customer number or name.",
+      "status": "ga",
+      "status_evidence_t": 394.8,
+      "status_evidence_quote": "we also made gen generally available two new Excel reports or maybe four",
+      "status_evidence_verified": true,
+      "t_start": 394.8,
+      "t_end": 435,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sales",
+        "top 10",
+        "customer analysis",
+        "excel"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Vendor Top 10 Excel Report",
+      "description": "New Excel report for purchasing showing top 10 vendors with printable version, analysis worksheet with slicers, and visual element that updates when vendors are selected.",
+      "status": "ga",
+      "status_evidence_t": 394.8,
+      "status_evidence_quote": "we also made gen generally available two new Excel reports or maybe four",
+      "status_evidence_verified": true,
+      "t_start": 435,
+      "t_end": 515.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "purchasing",
+        "top 10",
+        "vendor analysis",
+        "excel",
+        "visual"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Sales Order Performance Analysis Query",
+      "description": "New query allowing flexible analysis of sales orders by joining sales header to sales line data, enabling grouping and analysis by customer and other dimensions.",
+      "status": "announced",
+      "status_evidence_t": 515.4,
+      "status_evidence_quote": "it will come in version 26",
+      "status_evidence_verified": true,
+      "t_start": 515.4,
+      "t_end": 598.7,
+      "is_demoed": true,
+      "caveats": [
+        "Coming in version 26.1"
+      ],
+      "tags": [
+        "sales order",
+        "query",
+        "analysis",
+        "pivot"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Purchase Order Performance Analysis Query",
+      "description": "New query for flexible analysis of purchase orders by joining purchase header to purchase line data, similar to sales order performance analysis.",
+      "status": "announced",
+      "status_evidence_t": 515.4,
+      "status_evidence_quote": "it will come in version 26",
+      "status_evidence_verified": true,
+      "t_start": 515.4,
+      "t_end": 598.7,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in version 26.1"
+      ],
+      "tags": [
+        "purchase order",
+        "query",
+        "analysis",
+        "pivot"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Fixed Assets Excel Reports (Generally Available)",
+      "description": "Three Excel reports for fixed assets made generally available: Fixed Assets Analysis, Fixed Asset Details, and Fixed Asset Projected Value with modernized layouts.",
+      "status": "ga",
+      "status_evidence_t": 618.8,
+      "status_evidence_quote": "we made three of the Excel reports or the three preview report reports in Excel generally available",
+      "status_evidence_verified": true,
+      "t_start": 618.8,
+      "t_end": 659.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "fixed assets",
+        "excel",
+        "generally available",
+        "layouts"
+      ],
+      "system": "fixed-assets"
+    },
+    {
+      "name": "Fixed Asset Ad Hoc Analysis Query",
+      "description": "Query joining fixed asset ledger entries to fixed asset class, subclass and other fixed asset card data allowing flexible analysis of fixed asset transactions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 638.9,
+      "t_end": 679.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "fixed assets",
+        "query",
+        "analysis",
+        "ledger entries"
+      ],
+      "system": "fixed-assets"
+    },
+    {
+      "name": "Sustainability Excel Reports with Updated Layouts",
+      "description": "Three Excel reports for sustainability with updated layouts to match the modern design and feel of finance reports, providing improved analytics capabilities.",
+      "status": "ga",
+      "status_evidence_t": 679.7,
+      "status_evidence_quote": "we added in the last release wave through three Excel reports so they have already generally available but in this release wave we also",
+      "status_evidence_verified": true,
+      "t_start": 679.7,
+      "t_end": 720.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sustainability",
+        "excel",
+        "layouts",
+        "analytics"
+      ],
+      "system": "sustainability"
+    },
+    {
+      "name": "Legacy Excel Reports Deprecation",
+      "description": "Legacy Excel reports are being phased out and moved to a Legacy group in the Excel Reports menu, to be removed in future release waves.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 720.2,
+      "t_end": 780.6,
+      "is_demoed": true,
+      "caveats": [
+        "Will be removed in a later release wave",
+        "Currently present in Business Central for a few release waves"
+      ],
+      "tags": [
+        "legacy",
+        "deprecation",
+        "removal"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "Sales Order Performance Analysis",
+      "t": 545.6
+    },
+    {
+      "type": "query",
+      "name": "Fixed Asset Ad Hoc Analysis",
+      "t": 659.5
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 30.1,
+      "text": "made the Excel reports that were in preview generally available it's not only that we made sure they worked but we also applied a",
+      "why_it_matters": "Confirms the status change from preview to GA for finance Excel reports and emphasizes the design improvements applied.",
+      "check": "exact"
+    },
+    {
+      "t": 152,
+      "text": "since this is an Excel report you just get the download you don't get a print option here so let's download uh and run",
+      "why_it_matters": "Explains a key difference in how Excel reports work compared to traditional reports - they are downloaded rather than printed directly.",
+      "check": "exact"
+    },
+    {
+      "t": 233.6,
+      "text": "these Excel reports are the the main reason we use Excel is to have interactivity with pivot tables and slices and so on",
+      "why_it_matters": "Articulates the core design decision and purpose of these Excel reports - to enable interactive analysis through pivot tables and slicers.",
+      "check": "exact"
+    },
+    {
+      "t": 618.8,
+      "text": "we made three of the Excel reports or the three preview report reports in Excel generally available fixed assets analysis fixed asset details and",
+      "why_it_matters": "Lists the three fixed assets reports promoted from preview to GA in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 760.4,
+      "text": "in business Central the Legacy Excel reports are the ones you find under the Excel reports menu and then they they now have a",
+      "why_it_matters": "Explains where legacy reports can be found and the organizational change made to separate them from modern reports.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 515.4,
+      "kind": "coming-later",
+      "text": "it will come in version 26.1"
+    },
+    {
+      "t": 780.6,
+      "kind": "coming-later",
+      "text": "they will be removed from the product"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 2,
+    "evidence_verified": 8,
+    "evidence_unverified": 2
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027219999999999998
+    }
+  ]
+}

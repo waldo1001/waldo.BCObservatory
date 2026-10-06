@@ -1,0 +1,26 @@
+{
+  "video_id": "tzX0qB9tiBs",
+  "item_id": "video/yt-microsoft/tzX0qB9tiBs",
+  "summary": "Reversing production order transactions in Business Central manufacturing (2025 release wave 1): reversing output and consumption, reopening finished orders, undoing subcontracting receipts, and finishing orders without output. Demonstrated in a 4-minute walkthrough.",
+  "overview": "The video covers new ways to correct mistakes in production orders. Output or consumption transactions can be reverted, unused raw materials can be returned to the warehouse, and errors in capacity ledger entries can be corrected. Finished production orders can be reopened, adjusted and finished again.\n\nThe demo shows the reverse production order transaction action, which creates a transaction with a negative quantity and fills in the other relevant fields. It then covers subcontracting, where the purchase receipt is undone to revert output, and finishing orders that have consumption or capacity but no output, with work in progress written off.",
+  "key_points": [
+    "The reverse production order transaction action generates a transaction with a negative quantity and populates the other relevant fields.",
+    "Reversed consumption puts raw materials back in stock and is applied against the original entry, so cost is handled correctly.",
+    "Finished production orders can be reopened to make adjustments, then finished again.",
+    "For subcontracting, open the purchase order receipt, select both lines linked to the production order and choose Undo to revert output.",
+    "After undoing a subcontracting receipt, consumption stays unchanged and must be canceled manually.",
+    "Finishing a production order without output requires enabling it in Manufacturing Setup; work in progress amounts are then written off."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "9f6685707210dc7c955661d1fbe3e168471f23f6dccc972a7d7f3a8574e3740f",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0123664
+  }
+}
