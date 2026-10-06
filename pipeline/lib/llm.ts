@@ -13,6 +13,10 @@
  *   kept only with LLM_CACHE_DEBUG=1, because community prompts contain full text.
  * - The child runs in a neutral temp directory so no project CLAUDE.md is pulled into pipeline calls.
  *
+ * - Metering (D17): every CLI call adds its envelope's total_cost_usd and per-model tokens to llmStats().
+ *   setSpendLimit() caps the dollars this process may spend; once reached, complete() throws
+ *   LlmBudgetExhausted before starting another call. Cache hits are free and never blocked.
+ *
  * Cache key = sha256(promptVersion, model, system, prompt, schema); retries are free.
  * LLM_CACHE_ONLY=1 turns a cache miss into an error (CI, golden tests).
  */
@@ -78,6 +82,14 @@ export class LlmInfraError extends Error {
   constructor(message: string) { super(message); this.name = "LlmInfraError"; }
 }
 
+/** The run's spend allowance is used up: start no more LLM work tonight. Not an item failure, not an infra error. */
+export class LlmBudgetExhausted extends Error {
+  constructor(public readonly spent_usd: number, public readonly limit_usd: number) {
+    super(`LLM spend allowance used up: $${spent_usd.toFixed(4)} of $${limit_usd.toFixed(4)}`);
+    this.name = "LlmBudgetExhausted";
+  }
+}
+
 const MAX_ATTEMPTS = 3;
 const FAMILIES = ["haiku", "sonnet", "opus", "fable", "mythos"] as const;
 const AUTH_RE = /not logged in|please run \/login|invalid api key|oauth token|authentication_error|unauthori[sz]ed|\b401\b|credit balance/i;
@@ -91,12 +103,43 @@ const ENV_ALLOW = [
 
 const ajv = new Ajv({ strict: false, allErrors: true, allowUnionTypes: true });
 const validators = new Map<string, any>();
-const stats = { calls: 0, cache_hits: 0, failures: 0, by_model: {} as Record<string, number>, cost_usd: 0 };
+export interface TokenTotals { calls: number; input: number; output: number; cache_read: number; cache_creation: number; cost_usd: number }
+const stats = {
+  calls: 0, cache_hits: 0, failures: 0, by_model: {} as Record<string, number>, cost_usd: 0,
+  tokens_by_model: {} as Record<string, TokenTotals>,
+};
+let spendLimitUsd: number | null = null;
 
 /** Counters for the run report and the re-guard every N calls. */
 export function llmStats() { return structuredClone(stats); }
 export function resetLlmStats() {
-  Object.assign(stats, { calls: 0, cache_hits: 0, failures: 0, by_model: {}, cost_usd: 0 });
+  Object.assign(stats, { calls: 0, cache_hits: 0, failures: 0, by_model: {}, cost_usd: 0, tokens_by_model: {} });
+  spendLimitUsd = null;
+}
+/** Dollars (API-equivalent, from total_cost_usd) this process may spend on CLI calls; null = unlimited. */
+export function setSpendLimit(usd: number | null) { spendLimitUsd = usd; }
+export function spendRemaining(): number | null {
+  return spendLimitUsd === null ? null : Math.max(0, spendLimitUsd - stats.cost_usd);
+}
+/** Add one envelope to the meter. Falls back to the per-model costUSD sum when total_cost_usd is missing. */
+export function meterEnvelope(modelUsage: Record<string, ModelUsageEntry> | undefined | null, totalCostUsd: unknown): number {
+  let sum = 0;
+  for (const [name, u] of Object.entries(modelUsage ?? {})) {
+    const t = (stats.tokens_by_model[name] ??= { calls: 0, input: 0, output: 0, cache_read: 0, cache_creation: 0, cost_usd: 0 });
+    t.calls++;
+    t.input += u?.inputTokens ?? 0;
+    t.output += u?.outputTokens ?? 0;
+    t.cache_read += u?.cacheReadInputTokens ?? 0;
+    t.cache_creation += u?.cacheCreationInputTokens ?? 0;
+    t.cost_usd += u?.costUSD ?? 0;
+    sum += u?.costUSD ?? 0;
+  }
+  const cost = typeof totalCostUsd === "number" && Number.isFinite(totalCostUsd) ? totalCostUsd : sum;
+  stats.cost_usd += cost;
+  return cost;
+}
+function assertAllowance(): void {
+  if (spendLimitUsd !== null && stats.cost_usd >= spendLimitUsd) throw new LlmBudgetExhausted(stats.cost_usd, spendLimitUsd);
 }
 
 export function resolveModel(role: Role, override?: string): string {
@@ -169,6 +212,7 @@ export async function complete<T = unknown>(req: LlmRequest): Promise<LlmResult<
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
     const prompt = attempt === 1 ? req.prompt
       : `${req.prompt}\n\nYour previous answer was rejected: ${lastErr.slice(0, 600)}\nReturn JSON that satisfies the schema exactly.`;
+    assertAllowance(); // also between retries: a retry is a new paid call
     let raw: RawResult;
     try {
       raw = await callCli(req.system, prompt, req.schema, model, budgetUsd, timeoutMs);
@@ -300,7 +344,7 @@ async function callCli(system: string, prompt: string, schema: Record<string, un
   }
   const realModel = attributeModel(result.modelUsage) ?? init?.model;
   if (realModel) stats.by_model[realModel] = (stats.by_model[realModel] ?? 0) + 1;
-  if (typeof result.total_cost_usd === "number") stats.cost_usd += result.total_cost_usd;
+  meterEnvelope(result.modelUsage, result.total_cost_usd);
   if (result.is_error) {
     const text = String(result.result ?? result.errors ?? result.subtype ?? "");
     if (AUTH_RE.test(text)) throw new LlmInfraError(`claude is not authenticated: ${text.slice(0, 300)}`);

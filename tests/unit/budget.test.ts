@@ -1,7 +1,12 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { budget } from "../../pipeline/lib/config.js";
-import { decideGuard, PLAN_USAGE_URL, readPlanUsage, scaleQuotas, type PlanUsage } from "../../pipeline/lib/budget.js";
+import { mkdtempSync, writeFileSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
+import {
+  decideGuard, PLAN_USAGE_URL, readPlanUsage, readSpendHistory, scaleQuotas, spendAllowance, type PlanUsage,
+} from "../../pipeline/lib/budget.js";
 
 const TOKEN = "sentinel-token-value-7f3a";
 const now = () => new Date("2026-10-07T01:00:00Z");
@@ -89,4 +94,29 @@ test("quota scaling: LLM quotas scale, deterministic ones do not, facts-only dro
   assert.equal(facts.opus_reviews, 0);
   assert.equal(facts.video_extract, 6);
   assert.equal(scaleQuotas(q, { factor: 0, facts_only: false }).docs, 0);
+});
+
+test("spend history: today and the six dates before it; day_cost_usd wins over cost_usd; junk counts 0", () => {
+  const dir = mkdtempSync(join(tmpdir(), "bcobs-runs-"));
+  const put = (d: string, llm: unknown) => writeFileSync(join(dir, `${d}.json`), JSON.stringify({ date: d, llm }));
+  put("2026-10-07", { cost_usd: 1, day_cost_usd: 3 });   // today, after an earlier run on the same date
+  put("2026-10-06", { cost_usd: 2 });                     // M0-style report without day_cost_usd
+  put("2026-10-01", { cost_usd: 4, day_cost_usd: 4 });    // sixth day back: inside the window
+  put("2026-09-30", { cost_usd: 100 });                   // seventh day back: outside
+  writeFileSync(join(dir, "2026-10-05.json"), "{not json");
+  assert.deepEqual(readSpendHistory(dir, "2026-10-07"), { today_usd: 3, week_before_usd: 6 });
+  assert.deepEqual(readSpendHistory(join(dir, "missing"), "2026-10-07"), { today_usd: 0, week_before_usd: 0 });
+});
+
+test("spend allowance: the tighter cap binds and never goes negative; the shipped caps are sane", () => {
+  const caps = { night_usd: 10, week_usd: 50 };
+  assert.deepEqual(
+    [spendAllowance(caps, { today_usd: 0, week_before_usd: 0 }).allowance_usd, spendAllowance(caps, { today_usd: 0, week_before_usd: 0 }).binding],
+    [10, "night"]);
+  const w = spendAllowance(caps, { today_usd: 2, week_before_usd: 45 });
+  assert.deepEqual([w.allowance_usd, w.binding], [3, "week"]);
+  assert.equal(spendAllowance(caps, { today_usd: 12, week_before_usd: 0 }).allowance_usd, 0);
+  assert.equal(spendAllowance(caps, { today_usd: 0, week_before_usd: 60 }).allowance_usd, 0);
+  const shipped = budget().spend_caps;
+  assert.ok(shipped.night_usd > 0 && shipped.week_usd >= shipped.night_usd);
 });

@@ -8,7 +8,8 @@ import { chmodSync, mkdtempSync, readFileSync, readdirSync, writeFileSync, exist
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import {
-  attributeModel, buildArgs, childEnv, complete, LlmInfraError, modelFamily, parseStream, type LlmCacheEntry,
+  attributeModel, buildArgs, childEnv, complete, LlmBudgetExhausted, LlmInfraError, llmStats, meterEnvelope, modelFamily,
+  parseStream, resetLlmStats, setSpendLimit, spendRemaining, type LlmCacheEntry,
 } from "../../pipeline/lib/llm.js";
 import { ROOT } from "../../pipeline/lib/paths.js";
 
@@ -62,6 +63,7 @@ beforeEach(() => {
   delete process.env.LLM_CACHE_ONLY;
   delete process.env.LLM_CACHE_DEBUG;
   delete process.env.LLM_MODEL_FACTS;
+  resetLlmStats();
 });
 
 test("arguments: subscription CLI flags, no tools, never --bare", () => {
@@ -170,4 +172,38 @@ test("LLM_CACHE_ONLY=1 turns a miss into an error without calling the CLI", asyn
   scenario([{ result: { structured_output: { topics: [] } } }]);
   await assert.rejects(complete(req()), /LLM_CACHE_ONLY/);
   assert.equal(calls().length, 0);
+});
+
+test("metering: envelope cost and per-model tokens add up; costUSD sum stands in for a missing total", () => {
+  meterEnvelope({ "claude-haiku-4-5": { inputTokens: 100, outputTokens: 40, cacheReadInputTokens: 7, costUSD: 0.01 } }, 0.012);
+  meterEnvelope({ "claude-haiku-4-5": { inputTokens: 50, outputTokens: 10, costUSD: 0.004 }, "claude-sonnet-5-5": { outputTokens: 5, costUSD: 0.02 } }, undefined);
+  const s = llmStats();
+  assert.equal(Math.round(s.cost_usd * 1e6), 36_000); // 0.012 + (0.004 + 0.02)
+  assert.deepEqual(s.tokens_by_model["claude-haiku-4-5"], { calls: 2, input: 150, output: 50, cache_read: 7, cache_creation: 0, cost_usd: 0.014 });
+  assert.equal(s.tokens_by_model["claude-sonnet-5-5"].calls, 1);
+});
+
+test("spend limit: the call that crosses it finishes, the next miss is refused, cache hits stay free", async () => {
+  scenario([
+    { result: { structured_output: { topics: ["a"] }, total_cost_usd: 0.03, modelUsage: usage("claude-haiku-4-5") } },
+    { result: { structured_output: { topics: ["b"] }, total_cost_usd: 0.03, modelUsage: usage("claude-haiku-4-5") } },
+  ]);
+  setSpendLimit(0.02);
+  await complete(req());
+  assert.equal(spendRemaining(), 0);
+  await assert.rejects(complete(req({ prompt: "another item" })), (e: unknown) => e instanceof LlmBudgetExhausted && !(e instanceof LlmInfraError));
+  assert.equal((await complete(req())).cached, true);
+  assert.equal(calls().length, 1);
+  assert.equal(llmStats().calls, 1);
+});
+
+test("spend limit: retries stop once the allowance is gone; 0 blocks the first call", async () => {
+  scenario([{ result: { is_error: true, subtype: "error_during_execution", result: "boom", total_cost_usd: 0.05 } }]);
+  setSpendLimit(0.05);
+  await assert.rejects(complete(req()), LlmBudgetExhausted);
+  assert.equal(calls().length, 1);
+  resetLlmStats();
+  setSpendLimit(0);
+  await assert.rejects(complete(req({ prompt: "x" })), LlmBudgetExhausted);
+  assert.equal(calls().length, 1);
 });

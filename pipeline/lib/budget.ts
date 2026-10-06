@@ -7,6 +7,8 @@
  * login-scoped token (BCOBS_USAGE_OAUTH_TOKEN). Unreadable usage never blocks a run: it runs reduced.
  * The token value never appears in any result, log line or error.
  */
+import { existsSync, readFileSync } from "node:fs";
+import { join } from "node:path";
 import type { Budget } from "./config.js";
 
 export const PLAN_USAGE_URL = "https://api.anthropic.com/api/oauth/usage";
@@ -119,3 +121,56 @@ export function scaleQuotas(quotas: Record<string, number>, g: Pick<GuardDecisio
 function redact(text: string, token: string): string {
   return token ? text.split(token).join("[redacted]") : text;
 }
+
+// ---------------------------------------------------------------------------------------------------------
+// Own metering (D17). The usage guard sees the whole plan but has no durable token yet; metering works today
+// from each `claude -p` envelope (total_cost_usd, API-equivalent dollars) but sees only our own calls.
+// Caps are soft by at most the calls in flight (each is bounded by models.json max_budget_usd_per_call).
+
+export interface SpendCaps { night_usd: number; week_usd: number }
+export interface SpendHistory {
+  /** Spent earlier on the same run date (a manual re-run overwrites that report, so its spend carries over). */
+  today_usd: number;
+  /** Spent on the six run dates before today: with today, a rolling seven-day window. */
+  week_before_usd: number;
+}
+export interface SpendAllowance extends SpendHistory {
+  night_cap_usd: number;
+  week_cap_usd: number;
+  /** Dollars this run may still spend; 0 means no LLM call may start. */
+  allowance_usd: number;
+  binding: "night" | "week";
+}
+
+/** Day total recorded in a run report: day_cost_usd when present, else the run's own cost (M0 reports). */
+export function reportSpend(report: any): number {
+  const v = report?.llm?.day_cost_usd ?? report?.llm?.cost_usd;
+  return typeof v === "number" && Number.isFinite(v) ? v : 0;
+}
+
+/** Sum spend from the committed run reports (data/manifest/_runs/<date>.json). Unreadable reports count as 0. */
+export function readSpendHistory(runsDir: string, date: string, days = 7): SpendHistory {
+  const read = (d: string) => {
+    const p = join(runsDir, `${d}.json`);
+    if (!existsSync(p)) return 0;
+    try { return reportSpend(JSON.parse(readFileSync(p, "utf8"))); } catch { return 0; }
+  };
+  let week = 0;
+  for (let i = 1; i < days; i++) week += read(shiftDate(date, -i));
+  return { today_usd: read(date), week_before_usd: week };
+}
+
+export function spendAllowance(caps: SpendCaps, h: SpendHistory): SpendAllowance {
+  const night = caps.night_usd - h.today_usd;
+  const week = caps.week_usd - h.week_before_usd - h.today_usd;
+  return {
+    ...h, night_cap_usd: caps.night_usd, week_cap_usd: caps.week_usd,
+    allowance_usd: round(Math.max(0, Math.min(night, week))), binding: week < night ? "week" : "night",
+  };
+}
+
+function shiftDate(date: string, days: number): string {
+  const t = Date.parse(`${date}T00:00:00Z`) + days * 86_400_000;
+  return new Date(t).toISOString().slice(0, 10);
+}
+const round = (n: number) => Math.round(n * 1e6) / 1e6;

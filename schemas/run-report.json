@@ -56,7 +56,34 @@
         "note": { "type": "string" }
       }
     },
-    "llm": { "type": "object", "properties": { "calls": { "type": "integer" }, "cache_hits": { "type": "integer" }, "failures": { "type": "integer" }, "by_model": { "type": "object" }, "cost_usd": { "type": "number" } } },
+    "llm": {
+      "type": "object",
+      "properties": {
+        "calls": { "type": "integer" }, "cache_hits": { "type": "integer" }, "failures": { "type": "integer" },
+        "by_model": { "type": "object" },
+        "cost_usd": { "type": "number", "description": "API-equivalent dollars spent by this run (claude -p total_cost_usd)" },
+        "day_cost_usd": { "type": "number", "description": "this run plus earlier runs on the same date; the weekly cap sums this" },
+        "tokens_by_model": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object", "required": ["calls", "input", "output", "cache_read", "cache_creation", "cost_usd"],
+            "properties": {
+              "calls": { "type": "integer" }, "input": { "type": "integer" }, "output": { "type": "integer" },
+              "cache_read": { "type": "integer" }, "cache_creation": { "type": "integer" }, "cost_usd": { "type": "number" }
+            }
+          }
+        }
+      }
+    },
+    "spend": {
+      "type": "object",
+      "required": ["night_cap_usd", "week_cap_usd", "today_usd", "week_before_usd", "allowance_usd", "binding", "exhausted"],
+      "properties": {
+        "night_cap_usd": { "type": "number" }, "week_cap_usd": { "type": "number" },
+        "today_usd": { "type": "number" }, "week_before_usd": { "type": "number" },
+        "allowance_usd": { "type": "number" }, "binding": { "enum": ["night", "week"] }, "exhausted": { "type": "boolean" }
+      }
+    },
     "items_changed": { "type": "integer" },
     "errors": { "type": "array", "items": { "type": "string" } }
   }

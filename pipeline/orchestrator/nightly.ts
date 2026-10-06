@@ -12,12 +12,15 @@ import { existsSync, readdirSync, statSync, unlinkSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
-import { decideGuard, readPlanUsage, scaleQuotas, type GuardDecision, type PlanUsage, type PlanUsageUnavailable } from "../lib/budget.js";
+import {
+  decideGuard, readPlanUsage, readSpendHistory, scaleQuotas, spendAllowance,
+  type GuardDecision, type PlanUsage, type PlanUsageUnavailable, type SpendAllowance,
+} from "../lib/budget.js";
 import { budget, loadConfig, loadSources, type SourceDef } from "../lib/config.js";
 import { writeJson } from "../lib/fsx.js";
 import { git } from "../lib/git.js";
 import { httpGet, type HttpGet } from "../lib/http.js";
-import { llmStats } from "../lib/llm.js";
+import { llmStats, setSpendLimit } from "../lib/llm.js";
 import { logger } from "../lib/log.js";
 import { Manifest, skip, type Pillar } from "../lib/manifest.js";
 import { CACHE_DIR, DATA_DIR, ROOT } from "../lib/paths.js";
@@ -56,7 +59,10 @@ export interface RunReport {
   pipeline: string; runner: Record<string, string>; guard: GuardReport;
   ingest: { sources: unknown[]; totals: Record<string, number> };
   plan: { quotas: Record<string, number>; work: number; executed: number; skips?: number; quota_use?: unknown; note?: string };
-  llm: ReturnType<typeof llmStats>; items_changed: number; errors: string[];
+  llm: ReturnType<typeof llmStats> & { day_cost_usd?: number };
+  /** Own metering (D17): caps, spend before this run, and what this run was allowed to spend. */
+  spend?: SpendAllowance & { exhausted: boolean };
+  items_changed: number; errors: string[];
 }
 
 /** Calendar date of the run in the budget window's timezone (the nightly starts after local midnight). */
@@ -79,6 +85,9 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
   const cfg = budget();
   const date = runDate(now, cfg.window.timezone);
   const errors: string[] = [];
+  const spend = spendAllowance(cfg.spend_caps, readSpendHistory(resolve(opts.dataDir, "manifest", "_runs"), date));
+  setSpendLimit(spend.allowance_usd);
+  log.info(`spend: $${spend.allowance_usd} allowed (${spend.binding} cap binds)`, { today: spend.today_usd, week_before: spend.week_before_usd });
   if (opts.commit && (await recoverPartialRun(opts.repoDir))) log.warn("committed leftovers of a killed run");
 
   const guard: GuardReport = opts.guard
@@ -90,7 +99,7 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
     date, started_at: started.toISOString(), finished_at: started.toISOString(), status: "ok", pipeline: PIPELINE_VERSION,
     runner: { node: process.version, ...(process.env.RUNNER_NAME ? { runner_name: process.env.RUNNER_NAME } : {}) },
     guard, ingest: { sources: [], totals: {} }, plan: { quotas: {}, work: 0, executed: 0 },
-    llm: llmStats(), items_changed: 0, errors,
+    llm: llmStats(), spend: { ...spend, exhausted: spend.allowance_usd <= 0 }, items_changed: 0, errors,
   };
   const manifest = new Manifest(resolve(opts.dataDir, "manifest"));
 
@@ -139,6 +148,8 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
 
 async function finish(report: RunReport, opts: NightlyOptions): Promise<RunReport> {
   report.finished_at = new Date().toISOString();
+  report.llm = { ...llmStats(), day_cost_usd: round6((report.spend?.today_usd ?? 0) + llmStats().cost_usd) };
+  if (report.spend) report.spend.exhausted ||= report.spend.allowance_usd - report.llm.cost_usd <= 0;
   validateOrThrow("run-report", report, `run report ${report.date}`);
   writeJson(resolve(opts.dataDir, "manifest", "_runs", `${report.date}.json`), report);
   log.info(`run report: ${report.status}, ${report.items_changed} items new or changed`);
@@ -149,6 +160,7 @@ async function finish(report: RunReport, opts: NightlyOptions): Promise<RunRepor
   return report;
 }
 
+const round6 = (n: number) => Math.round(n * 1e6) / 1e6;
 const TRACKED = ["data", "content"];
 
 /** A killed run leaves written-but-uncommitted files (all writes are temp-then-rename): drop temp files, commit the rest. */

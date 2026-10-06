@@ -5,7 +5,7 @@ import { existsSync, mkdirSync, mkdtempSync, readFileSync, writeFileSync } from 
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import type { PlanUsage } from "../../pipeline/lib/budget.js";
-import type { SourceDef } from "../../pipeline/lib/config.js";
+import { budget, type SourceDef } from "../../pipeline/lib/config.js";
 import { validate } from "../../pipeline/lib/schema.js";
 import { acquireLock } from "../../pipeline/orchestrator/lock.js";
 import { parseArgs, recoverPartialRun, runDate, runNightly, type NightlyOptions } from "../../pipeline/orchestrator/nightly.js";
@@ -98,4 +98,30 @@ test("--dry-run never commits and stays out of the repo's data dir", () => {
   assert.deepEqual([o.commit, o.push, o.pillars], [false, false, ["video", "docs"]]);
   assert.ok(o.dataDir.startsWith(tmpdir()));
   assert.throws(() => parseArgs(["--stages", "everything"]));
+});
+
+test("spend: every report carries caps and allowance; earlier spend on the date and the week shrinks it", async () => {
+  const dir = repo();
+  const runs = join(dir, "data/manifest/_runs");
+  mkdirSync(runs, { recursive: true });
+  writeFileSync(join(runs, "2026-10-07.json"), JSON.stringify({ date: "2026-10-07", llm: { cost_usd: 1.5, day_cost_usd: 1.5 } }));
+  writeFileSync(join(runs, "2026-10-04.json"), JSON.stringify({ date: "2026-10-04", llm: { cost_usd: 7 } }));
+  const r = await runNightly(opts(dir), { http, sources: [source], readUsage: usage(5, 10) });
+  const caps = budget().spend_caps;
+  assert.equal(r.spend?.today_usd, 1.5);
+  assert.equal(r.spend?.week_before_usd, 7);
+  assert.equal(r.spend?.allowance_usd, Math.min(caps.night_usd - 1.5, caps.week_usd - 8.5));
+  assert.equal(r.llm.day_cost_usd, 1.5, "a re-run on the same date keeps the earlier spend");
+  assert.ok(validate("run-report", report(dir)).ok);
+  const skipped = await runNightly(opts(dir), { http, sources: [source], readUsage: usage(61, 10) });
+  assert.equal(skipped.llm.day_cost_usd, 1.5, "a budget-skipped heartbeat must not reset the day total");
+});
+
+test("spend: a used-up week cap still ingests but marks the run exhausted", async () => {
+  const dir = repo();
+  const runs = join(dir, "data/manifest/_runs");
+  mkdirSync(runs, { recursive: true });
+  writeFileSync(join(runs, "2026-10-06.json"), JSON.stringify({ date: "2026-10-06", llm: { day_cost_usd: budget().spend_caps.week_usd } }));
+  const r = await runNightly(opts(dir), { http, sources: [source], readUsage: usage(5, 10) });
+  assert.deepEqual([r.spend?.allowance_usd, r.spend?.binding, r.spend?.exhausted, r.items_changed], [0, "week", true, 2]);
 });
