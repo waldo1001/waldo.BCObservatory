@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-machine-center-load.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-machine-center-load",
+  "title": "Machine Center Load",
+  "blob": "c0766693f58808e199c768ed9300bbb8def4ea94",
+  "summary": "The Machine Center Load Power BI report measures load and allocated capacity of each machine center, helping manufacturing managers and supervisors ensure centers are not overloaded.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "power bi reporting",
+    "machine center capacity",
+    "workload monitoring",
+    "production planning"
+  ],
+  "objects": [],
+  "features": [
+    "Machine Center Capacity (Effective)",
+    "Machine Center Allocated Time",
+    "Machine Center Availability After Orders",
+    "Machine Center Load",
+    "Machine Center Expected Efficiency %"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002727,
+      "pages_in_call": 8
+    }
+  ]
+}

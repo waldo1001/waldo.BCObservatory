@@ -1,0 +1,235 @@
+{
+  "video_id": "DHODFt_jVO4",
+  "item_id": "video/yt-microsoft/DHODFt_jVO4",
+  "title": "What's New in Manufacturing: Costing (2025 release wave 1)",
+  "duration_s": 228,
+  "systems": [
+    "manufacturing",
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "standard costing",
+    "stock keeping unit",
+    "production bill of material",
+    "routing variants",
+    "non-inventory costs",
+    "cost rollup",
+    "production order costing",
+    "subcontracting"
+  ],
+  "chapters": [
+    {
+      "title": "Stock Keeping Unit Production Routing and Costing",
+      "t_start": 0,
+      "t_end": 46.4
+    },
+    {
+      "title": "Demo: Activating SKU Costing and Production Orders",
+      "t_start": 46.4,
+      "t_end": 86.6
+    },
+    {
+      "title": "Output Posting and Cost Analysis",
+      "t_start": 86.6,
+      "t_end": 128.9
+    },
+    {
+      "title": "Non-Inventory Costs in Production",
+      "t_start": 128.9,
+      "t_end": 169.3
+    },
+    {
+      "title": "Non-Inventory Cost Posting and Review",
+      "t_start": 169.3,
+      "t_end": 228
+    }
+  ],
+  "features": [
+    {
+      "name": "Production bill of material and routing on stock keeping unit",
+      "description": "Ability to define production bill of material or routing on individual stock keeping units to handle product variants or location-specific production differences. This impacts the standard cost calculation for items produced for specific variants or locations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.9,
+      "t_end": 86.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires activation in manufacturing setup"
+      ],
+      "tags": [
+        "stock keeping unit",
+        "routing",
+        "variants",
+        "bill of material"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Standard cost per stock keeping unit",
+      "description": "Standard cost calculation that is carefully copied from the stock keeping unit rather than the item card, allowing different costs for the same item based on variant or location.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 26.1,
+      "t_end": 66.6,
+      "is_demoed": true,
+      "caveats": [
+        "Only applies when stock keeping unit has routing or bill of material defined"
+      ],
+      "tags": [
+        "standard cost",
+        "stock keeping unit",
+        "costing"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Calculate production standard cost function",
+      "description": "New function to calculate production standard cost at the stock keeping unit level, enabling accurate cost determination for variant and location-specific production.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 46.4,
+      "t_end": 66.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "cost calculation",
+        "production",
+        "new function"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Non-inventory cost inclusion in production cost calculation",
+      "description": "Capability to include non-inventory costs into the production cost calculation, with new columns for rolled up material non-inventory cost and single level material non-inventory cost visible on cost shares page and production order statistics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 128.9,
+      "t_end": 199.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires enabling in manufacturing setup"
+      ],
+      "tags": [
+        "non-inventory costs",
+        "cost calculation",
+        "production",
+        "cost rollup"
+      ],
+      "system": "manufacturing"
+    },
+    {
+      "name": "Cost shares page enhancements",
+      "description": "Cost shares page now displays total cost and components including new columns for rolled up material non-inventory cost and single level material non-inventory cost.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 149.2,
+      "t_end": 169.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "cost analysis",
+        "cost shares",
+        "reporting"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "stock keeping unit card",
+      "t": 46.4
+    },
+    {
+      "type": "page",
+      "name": "manufacturing setup Page",
+      "t": 149.2
+    },
+    {
+      "type": "page",
+      "name": "cost shares page",
+      "t": 149.2
+    },
+    {
+      "type": "page",
+      "name": "statistics page",
+      "t": 169.3
+    },
+    {
+      "type": "page",
+      "name": "production Journal",
+      "t": 86.6
+    },
+    {
+      "type": "page",
+      "name": "item Ledger entries page",
+      "t": 108.9
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.9,
+      "text": "you can Define production bill of material or routing on the stock keeping unit this can be useful if a stock keeping unit represents",
+      "why_it_matters": "Establishes the core capability of variant-specific production routing and bill of material at the SKU level, which is the foundation for the new costing features.",
+      "check": "exact"
+    },
+    {
+      "t": 26.1,
+      "text": "the standard cost for items produced for specific variant or specific location will be carefully copied from the stock keeping unit",
+      "why_it_matters": "Explains how standard costs are now derived from SKU-level definitions rather than just the item card, enabling location and variant-specific costing.",
+      "check": "exact"
+    },
+    {
+      "t": 66.6,
+      "text": "the location differs the cost also varies as it utilizes information from either the item card or stock keeping unit if available",
+      "why_it_matters": "Demonstrates that the system intelligently selects costs from SKU or item card based on what is configured, providing flexible and accurate costing.",
+      "check": "exact"
+    },
+    {
+      "t": 108.9,
+      "text": "the material cost is identical for both items since they share the same bill of material however for stock keeping units subcontracting costs replace",
+      "why_it_matters": "Shows how routing differences at the SKU level impact actual costs posted, illustrating the practical benefit of SKU-specific production definitions.",
+      "check": "exact"
+    },
+    {
+      "t": 128.9,
+      "text": "accurate and explainable costing is a key feature of business Central what can we do better in this release",
+      "why_it_matters": "Positions the new non-inventory cost capability as an enhancement to Business Central's core costing strength.",
+      "check": "exact"
+    },
+    {
+      "t": 128.9,
+      "text": "you can also include non-inventory cost into the produ C cost calculation",
+      "why_it_matters": "Announces the new capability to include non-inventory costs in production costing, expanding the types of costs that can be tracked.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014308
+    }
+  ]
+}

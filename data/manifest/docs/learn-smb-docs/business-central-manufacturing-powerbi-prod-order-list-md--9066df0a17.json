@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-prod-order-list",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d6ff10426f17d3e4b14ca71d360ec894b12a115f",
       "words": 674,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:45.724Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002727
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:47.668Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:47.669Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:47.670Z",
+      "page": false
     }
   },
   "input_hash": "d6ff10426f17d3e4b14ca71d360ec894b12a115f",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d6ff10426f17d3e4b14ca71d360ec894b12a115f"
+  "output_hash": "ad0a160f5575069b3f9224054c72acf1415d2446b9c36991d33d365242dce9de"
 }

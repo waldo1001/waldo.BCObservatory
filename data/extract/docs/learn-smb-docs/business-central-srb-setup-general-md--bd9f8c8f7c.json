@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/setup/general.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/setup/general",
+  "title": "General setup",
+  "blob": "2c0e3d0a6c804078d16e287f4c967c4e3ca947e9",
+  "summary": "General setup for subscription contract management including subscription contract setup page for defaults, number series, invoice details, dimensions, and posting groups. Controls subscription contract behavior and configuration.",
+  "systems": [
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "subscription contracts",
+    "setup",
+    "configuration",
+    "number series",
+    "invoice details",
+    "posting groups",
+    "dimensions"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Subscription Contract Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Posting Setup"
+    }
+  ],
+  "features": [
+    "Subscription Contract Setup",
+    "Service Start Date for Warehouse Picking",
+    "Overdue Date Formula",
+    "Default Period Calculation",
+    "Default Billing Base Period",
+    "Default Billing Rhythm",
+    "Create Contract Deferrals",
+    "Autom. Insert Cust. Contr. Dimension Value"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005629,
+      "pages_in_call": 8
+    }
+  ]
+}

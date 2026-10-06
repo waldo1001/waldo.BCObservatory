@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/security/Security-and-Protection.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/Security-and-Protection",
+  "title": "Security overview",
+  "blob": "985b701704eed82cd43e71830205d38ae6fa6331",
+  "summary": "Security overview in Business Central covers five key security areas: authentication and identity, access control and permissions, data protection, network security, and security operations.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "security",
+    "authentication",
+    "access control",
+    "permissions",
+    "data protection",
+    "network security",
+    "rbac"
+  ],
+  "objects": [],
+  "features": [
+    "Microsoft Entra ID integration",
+    "multifactor authentication",
+    "role-based access control",
+    "encryption at rest and in transit",
+    "Azure security service tags",
+    "audit logging"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005312,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-application",
   "published_at": "2025-12-01T07:41:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "34c1a0f1d929f3731386ba849cd849ab3566b31b",
       "words": 681,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:45.278Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005629
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:45.288Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:45.289Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:45.290Z",
+      "page": false
     }
   },
   "input_hash": "34c1a0f1d929f3731386ba849cd849ab3566b31b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "34c1a0f1d929f3731386ba849cd849ab3566b31b"
+  "output_hash": "1d3df780b75bb1ee08e6f45c2e53d905a42a009d150a22bc237be9814354146b"
 }

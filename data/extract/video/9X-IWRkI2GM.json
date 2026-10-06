@@ -1,0 +1,339 @@
+{
+  "video_id": "9X-IWRkI2GM",
+  "item_id": "video/yt-microsoft/9X-IWRkI2GM",
+  "title": "What's New: Manufacturing Analytics (New and Updated Reports) (2025 release wave 1)",
+  "duration_s": 886,
+  "systems": [
+    "manufacturing",
+    "reporting"
+  ],
+  "topics": [
+    "manufacturing reports",
+    "analytics modernization",
+    "excel layouts",
+    "word layouts",
+    "power bi",
+    "production cost analysis",
+    "work center load",
+    "capacity planning",
+    "bill of materials",
+    "legacy report deprecation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Overview",
+      "t_start": 0,
+      "t_end": 42.6
+    },
+    {
+      "title": "Vision and Strategy for Manufacturing Analytics",
+      "t_start": 42.6,
+      "t_end": 151.6
+    },
+    {
+      "title": "Methodology: Usage Analysis and Planning",
+      "t_start": 151.6,
+      "t_end": 230.8
+    },
+    {
+      "title": "Updated Reports: Examples and Layouts",
+      "t_start": 230.8,
+      "t_end": 373.1
+    },
+    {
+      "title": "Production Order VIP Demo and Updated Reports Summary",
+      "t_start": 373.1,
+      "t_end": 513.6
+    },
+    {
+      "title": "New Production Cost Shares Report",
+      "t_start": 513.6,
+      "t_end": 598
+    },
+    {
+      "title": "New Work/Machine Center Load Report",
+      "t_start": 598,
+      "t_end": 645.2
+    },
+    {
+      "title": "Deprecated Reports and Documentation",
+      "t_start": 645.2,
+      "t_end": 773.5
+    },
+    {
+      "title": "Manufacturing Analytics Landing Page",
+      "t_start": 773.5,
+      "t_end": 821.2
+    },
+    {
+      "title": "Closing and Data-Driven Manufacturing",
+      "t_start": 821.2,
+      "t_end": 886
+    }
+  ],
+  "features": [
+    {
+      "name": "Updated Manufacturing Reports",
+      "description": "Complete makeover of manufacturing reports in version 26.2 with modernized layouts. Reports now include Word layouts for printing and Excel layouts for analytical capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.1,
+      "t_end": 493.3,
+      "is_demoed": true,
+      "caveats": [
+        "Six updated reports available in 26.2",
+        "Legacy RDL layouts being deprecated"
+      ],
+      "tags": [
+        "reports",
+        "layouts",
+        "modernization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Production Order VIP Report",
+      "description": "Updated report with multiple layout options including obsoleted, Word, and Excel layouts. Supports both print and analysis modes with slicers for data filtering.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 384.6,
+      "t_end": 481.9,
+      "is_demoed": true,
+      "caveats": [
+        "Obsoleted layout still available for backward compatibility"
+      ],
+      "tags": [
+        "production order",
+        "layouts",
+        "analysis mode"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Production Cost Shares Report",
+      "description": "New Excel report replacing four legacy reports: bomb cost share distribution, rolled up cost shares, detail calculation, and quantity explosion. Includes multiple worksheets for different analysis types and personas.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 513.6,
+      "t_end": 576.9,
+      "is_demoed": true,
+      "caveats": [
+        "Replaces four legacy reports",
+        "Multiple worksheet types: single level, exploded, rolled up"
+      ],
+      "tags": [
+        "cost analysis",
+        "bill of materials",
+        "excel",
+        "worksheets"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Work/Machine Center Load Report",
+      "description": "New Excel report replacing legacy work center load and machine sender load reports. Includes printable and analysis worksheets for capacity planning.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 598,
+      "t_end": 633.8,
+      "is_demoed": true,
+      "caveats": [
+        "Replaces multiple legacy reports",
+        "Two printable and two analysis worksheets"
+      ],
+      "tags": [
+        "work center",
+        "capacity",
+        "excel",
+        "machine load"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Manufacturing Analytics Landing Page",
+      "description": "Central documentation hub for manufacturing analytics covering PowerBI app, reports, and other data viewing options organized by persona.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 760.7,
+      "t_end": 802.6,
+      "is_demoed": true,
+      "caveats": [
+        "Accessible via aka.ms/bc manufacturing analytics"
+      ],
+      "tags": [
+        "documentation",
+        "landing page",
+        "discovery"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Legacy Report Deprecation",
+      "description": "Seven legacy manufacturing reports are being deprecated and will be removed in a later version. Reports have been marked as obsolete in documentation.",
+      "status": "announced",
+      "status_evidence_t": 658.8,
+      "status_evidence_quote": "these 711 reports are going away in a and will will be removed in a later version",
+      "status_evidence_verified": true,
+      "t_start": 645.2,
+      "t_end": 760.7,
+      "is_demoed": false,
+      "caveats": [
+        "Removal date not specified",
+        "Documentation will be updated with removal timeline"
+      ],
+      "tags": [
+        "deprecation",
+        "legacy",
+        "removal"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel and Word Report Layouts",
+      "description": "New layout options for manufacturing reports. Word layouts designed for printing, Excel layouts for analytical capabilities with slicers and pivot features. Both include printable worksheets.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 83.3,
+      "t_end": 280.6,
+      "is_demoed": true,
+      "caveats": [
+        "Excel layouts include dedicated printable worksheets",
+        "RDL layouts being phased out"
+      ],
+      "tags": [
+        "layouts",
+        "excel",
+        "word",
+        "printing",
+        "analysis"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Production Order Statistics",
+      "t": 242.6
+    },
+    {
+      "type": "report",
+      "name": "Capacity Task List",
+      "t": 293.2
+    },
+    {
+      "type": "report",
+      "name": "Subcontractor Dispatch Lists",
+      "t": 310.6
+    },
+    {
+      "type": "report",
+      "name": "Bill of Material Make",
+      "t": 373.1
+    },
+    {
+      "type": "report",
+      "name": "Production Order VIP",
+      "t": 384.6
+    },
+    {
+      "type": "report",
+      "name": "Production Cost Shares",
+      "t": 541.8
+    },
+    {
+      "type": "report",
+      "name": "Work/Machine Center Load",
+      "t": 608.2
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 5.1,
+      "text": "In Business Central 2025 release wave 1, we did a almost complete makeover of the manufacturing reports.",
+      "why_it_matters": "Establishes the scope and scale of changes to manufacturing analytics in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 55.2,
+      "text": "completely sanitize the reporting and analytics for this area and have it done by 2025",
+      "why_it_matters": "Indicates the strategic goal was to modernize all manufacturing reporting capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 103.8,
+      "text": "with the other two layout options you as a customer or user can change things in Excel or Word. you don't need any developer",
+      "why_it_matters": "Shows the business rationale for moving away from RDL reports to Excel and Word layouts.",
+      "check": "exact"
+    },
+    {
+      "t": 230.8,
+      "text": "in hopefully version 26.2 two, you will be able to use updated reports for manufacturing",
+      "why_it_matters": "Confirms version number and general availability timeline for updated manufacturing reports.",
+      "check": "exact"
+    },
+    {
+      "t": 493.3,
+      "text": "these are the six updated reports you get in version 26.2, just a complete list",
+      "why_it_matters": "Provides definitive count of updated reports available in the release.",
+      "check": "exact"
+    },
+    {
+      "t": 658.8,
+      "text": "these 711 reports are going away in a and will will be removed in a later version",
+      "why_it_matters": "Seven legacy reports are deprecated and will be removed, though removal version is not specified.",
+      "check": "exact"
+    },
+    {
+      "t": 841.9,
+      "text": "We're almost done sanitizing everything. Now in this video you haven't looked at PowerBI",
+      "why_it_matters": "Indicates manufacturing analytics modernization is nearly complete, with PowerBI updates covered separately.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 230.8,
+      "kind": "preview",
+      "text": "hopefully version 26.2 two, you will be able to use updated reports for manufacturing"
+    },
+    {
+      "t": 658.8,
+      "kind": "coming-later",
+      "text": "these 711 reports are going away in a and will will be removed in a later version"
+    },
+    {
+      "t": 740.5,
+      "kind": "subject-to-change",
+      "text": "in an like an upcoming release wave will update this documentation page of what um when the report will actually be removed"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026605
+    }
+  ]
+}

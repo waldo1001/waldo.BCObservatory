@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ba796327c9c7e472ca48750d7cdc6f005d90e268",
       "words": 66,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:45.720Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.002727
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:47.648Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:47.649Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:47.657Z",
+      "page": false
     }
   },
   "input_hash": "ba796327c9c7e472ca48750d7cdc6f005d90e268",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ba796327c9c7e472ca48750d7cdc6f005d90e268"
+  "output_hash": "8afbb4de3fe74a486ada420659322a2caa0da8884f4454be5cc9c6c586c2ce4b"
 }

@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-powerbi-inventory-by-item.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-item",
+  "title": "Inventory by Item (Power BI report)",
+  "blob": "de75b0f3ee20c57338a9cfcb404b504ea325cbf2",
+  "summary": "The Inventory by Item Power BI report shows inventory levels per item category across different document types, helping inventory managers maintain consistent stock levels and track receipts, requirements, and production.",
+  "systems": [
+    "inventory",
+    "manufacturing",
+    "sales"
+  ],
+  "topics": [
+    "power bi reporting",
+    "inventory analytics",
+    "stock levels",
+    "item tracking",
+    "document inventory"
+  ],
+  "objects": [],
+  "features": [
+    "Inventory quantity KPI",
+    "Purchase order quantity tracking",
+    "Production order quantity",
+    "Sales order quantity",
+    "Service order quantity",
+    "Assembly order tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002727,
+      "pages_in_call": 8
+    }
+  ]
+}

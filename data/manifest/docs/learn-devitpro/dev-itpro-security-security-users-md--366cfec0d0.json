@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-users",
   "published_at": "2025-12-05T08:49:40.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1c7d5ea1346ae76b4e0ee93f79f3222d1ba59994",
       "words": 253,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:36.005Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005312
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:47.593Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:47.593Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:47.594Z",
+      "page": false
     }
   },
   "input_hash": "1c7d5ea1346ae76b4e0ee93f79f3222d1ba59994",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1c7d5ea1346ae76b4e0ee93f79f3222d1ba59994"
+  "output_hash": "fc1a6a62db13be9eba46a487aa2789b2ab9d0d2eaa73ad6b26627fc73b9f6877"
 }

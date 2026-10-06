@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-inventory-by-item",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "de75b0f3ee20c57338a9cfcb404b504ea325cbf2",
       "words": 255,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:45.719Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002727
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:47.634Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:47.640Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:47.641Z",
+      "page": false
     }
   },
   "input_hash": "de75b0f3ee20c57338a9cfcb404b504ea325cbf2",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "de75b0f3ee20c57338a9cfcb404b504ea325cbf2"
+  "output_hash": "c9aa6eebd2372f3b330b9d1e86b9304ab311cbda02e36828a122e433a62c57b0"
 }

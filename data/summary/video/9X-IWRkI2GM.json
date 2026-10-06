@@ -1,0 +1,27 @@
+{
+  "video_id": "9X-IWRkI2GM",
+  "item_id": "video/yt-microsoft/9X-IWRkI2GM",
+  "summary": "Manufacturing reports in Business Central 2025 release wave 1: six updated reports in version 26.2 with Word and Excel layouts, two new Excel reports (Production Cost Shares, Work/Machine Center Load), and the deprecation of seven legacy reports. Shows how the Production Order VIP report works with its layouts.",
+  "overview": "The video covers the makeover of manufacturing reports in Business Central 2025 release wave 1. Reports get Word layouts for printing and Excel layouts for analysis, so users can change them without a developer. Legacy RDL layouts are being phased out.\n\nIt demonstrates the updated Production Order VIP report and two new Excel reports. Production Cost Shares replaces four legacy reports and Work/Machine Center Load replaces the legacy work center and machine center load reports. It also covers the legacy reports marked for deprecation and the manufacturing analytics landing page, which is organized by persona.",
+  "key_points": [
+    "Six updated manufacturing reports are available in version 26.2, with Word layouts for printing and Excel layouts for analysis.",
+    "Users can change Excel and Word layouts themselves without a developer.",
+    "Production Order VIP offers an obsoleted layout (kept for backward compatibility), a Word layout and an Excel layout, with slicers for filtering in analysis mode.",
+    "The new Production Cost Shares Excel report replaces four legacy reports: cost share distribution, rolled up cost shares, detail calculation and quantity explosion. It has single level, exploded and rolled up worksheets.",
+    "The new Work/Machine Center Load Excel report replaces the legacy work center load and machine center load reports. It has two printable and two analysis worksheets for capacity planning.",
+    "Seven legacy manufacturing reports are marked obsolete and will be removed in a later version. No removal date was given, and the documentation will be updated with a timeline.",
+    "The manufacturing analytics landing page at aka.ms/bc manufacturing analytics covers the Power BI app, reports and other data viewing options by persona."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer"
+  ],
+  "extraction_hash": "33d9ccd13f60dd51a2f2b4919dc50c2be1f4a457a4f24502ca58b2980fcf5b20",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0170784
+  }
+}

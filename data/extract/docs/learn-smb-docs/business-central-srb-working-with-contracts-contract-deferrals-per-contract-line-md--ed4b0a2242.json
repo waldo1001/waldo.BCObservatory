@@ -1,0 +1,65 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/working-with-contracts/contract-deferrals-per-contract-line.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/contract-deferrals-per-contract-line",
+  "title": "Deferrals per contract line",
+  "blob": "d6fac8b50afdeeff4be0d1d4227a0c1580444b9d",
+  "summary": "Deferrals per contract line controls whether deferrals are created for individual subscription contract lines, supporting granular revenue recognition and diverse contract scenarios.",
+  "systems": [
+    "projects"
+  ],
+  "topics": [
+    "subscription billing",
+    "deferrals",
+    "revenue recognition",
+    "contract lines",
+    "accounting standards"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Subscription Contract Setup"
+    },
+    {
+      "type": "other",
+      "name": "Sub. Package Line Template"
+    },
+    {
+      "type": "other",
+      "name": "Subscription Package Line"
+    },
+    {
+      "type": "other",
+      "name": "Sales Subscription Line"
+    },
+    {
+      "type": "other",
+      "name": "Subscription Line"
+    },
+    {
+      "type": "other",
+      "name": "Subscription Contract Type"
+    },
+    {
+      "type": "other",
+      "name": "Customer/Vendor Subscription Contract Header"
+    }
+  ],
+  "features": [
+    "deferral creation control",
+    "contract-dependent deferrals",
+    "default deferral settings",
+    "credit memo deferral release",
+    "deferral validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005312,
+      "pages_in_call": 8
+    }
+  ]
+}

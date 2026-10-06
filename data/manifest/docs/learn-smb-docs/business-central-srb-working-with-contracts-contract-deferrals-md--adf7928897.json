@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/contract-deferrals",
   "published_at": "2025-11-26T18:23:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d2ca1db662098ae48158e83165ddb8066c806bbf",
       "words": 1544,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:45.283Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.005629
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:47.611Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:47.612Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:47.613Z",
+      "page": false
     }
   },
   "input_hash": "d2ca1db662098ae48158e83165ddb8066c806bbf",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d2ca1db662098ae48158e83165ddb8066c806bbf"
+  "output_hash": "088d56f2d9e933f352f0bfc8f47d16961f089e027809320a11fb9073e3fe2138"
 }

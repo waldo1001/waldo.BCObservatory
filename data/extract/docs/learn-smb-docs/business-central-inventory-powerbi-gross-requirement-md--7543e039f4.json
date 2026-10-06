@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/inventory-powerbi-gross-requirement.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-gross-requirement",
+  "title": "Gross Requirement (Power BI report)",
+  "blob": "837dd86cfd3628de3a016119d570c0bc2cb69e9d",
+  "summary": "The Gross Requirement Power BI report analyzes outbound transactions to determine item quantities needed, helping managers and procurement officers ensure stock levels meet production and sales demand.",
+  "systems": [
+    "inventory",
+    "manufacturing",
+    "sales"
+  ],
+  "topics": [
+    "power bi reporting",
+    "inventory planning",
+    "demand forecasting",
+    "gross requirement",
+    "available balance"
+  ],
+  "objects": [],
+  "features": [
+    "Gross Requirement KPI",
+    "Project Available Balance",
+    "Sales order quantity tracking",
+    "Production order component tracking",
+    "Service order tracking",
+    "Assembly component tracking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002727,
+      "pages_in_call": 8
+    }
+  ]
+}

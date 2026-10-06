@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/service-commitment-cancellation",
   "published_at": "2025-11-27T09:00:00.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "df1e7deead6f195e5c04daa995ac141cc0de78eb",
       "words": 629,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:45.279Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005629
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:47.604Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:47.604Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:47.605Z",
+      "page": false
     }
   },
   "input_hash": "df1e7deead6f195e5c04daa995ac141cc0de78eb",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "df1e7deead6f195e5c04daa995ac141cc0de78eb"
+  "output_hash": "e1714114e90ad99219ef907226eb28f322caf4f86cdbf8af5598d79ad3be2b24"
 }

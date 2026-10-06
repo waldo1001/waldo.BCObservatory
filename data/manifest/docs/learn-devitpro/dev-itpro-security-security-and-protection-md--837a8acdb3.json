@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/Security-and-Protection",
   "published_at": "2025-12-05T07:52:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "985b701704eed82cd43e71830205d38ae6fa6331",
       "words": 256,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:36.006Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005312
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:47.595Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:47.596Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:47.596Z",
+      "page": false
     }
   },
   "input_hash": "985b701704eed82cd43e71830205d38ae6fa6331",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "985b701704eed82cd43e71830205d38ae6fa6331"
+  "output_hash": "b8d0693e8d7eccb8a01bcc203c6177db4e4c664293e46ac5b1a83668bd73c3e3"
 }

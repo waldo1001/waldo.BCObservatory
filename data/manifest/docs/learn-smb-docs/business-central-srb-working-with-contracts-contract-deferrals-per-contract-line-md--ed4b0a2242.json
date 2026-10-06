@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/contract-deferrals-per-contract-line",
   "published_at": "2025-12-05T07:13:24.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d6fac8b50afdeeff4be0d1d4227a0c1580444b9d",
       "words": 580,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:36.007Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.005312
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:47.597Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:47.598Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:47.599Z",
+      "page": false
     }
   },
   "input_hash": "d6fac8b50afdeeff4be0d1d4227a0c1580444b9d",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d6fac8b50afdeeff4be0d1d4227a0c1580444b9d"
+  "output_hash": "88b3c92e03add3721474cf2fbb7b229afa0b44e05ae66d290411754eb8e430f6"
 }

@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/security/security-application.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-application",
+  "title": "Layered security model in Business Central",
+  "blob": "34c1a0f1d929f3731386ba849cd849ab3566b31b",
+  "summary": "Layered security model covering authentication, authorization, data encryption, auditing, and change logging to protect Business Central installations. Addresses user sign-in methods, permission administration, sensitive field monitoring, and secure development practices for both online and on-premises deployments.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "security",
+    "authentication",
+    "authorization",
+    "auditing",
+    "encryption",
+    "permissions",
+    "change log",
+    "sensitive fields"
+  ],
+  "objects": [],
+  "features": [
+    "multifactor authentication",
+    "user permissions",
+    "data encryption",
+    "change log",
+    "sensitive field monitoring",
+    "audit trails",
+    "OAuth"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005629,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-prod-order-routing-gantt",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "be477ba508f926ed4251b394b55edbf90cf7ddeb",
       "words": 584,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:45.725Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002727
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:47.671Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:47.672Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:47.672Z",
+      "page": false
     }
   },
   "input_hash": "be477ba508f926ed4251b394b55edbf90cf7ddeb",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "be477ba508f926ed4251b394b55edbf90cf7ddeb"
+  "output_hash": "6de75c5eee2e8fd4a66fc1ddb170b7651606dc83c822770de1585f477e724e86"
 }

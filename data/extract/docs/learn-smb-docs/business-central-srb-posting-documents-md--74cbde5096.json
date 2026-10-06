@@ -1,0 +1,71 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/posting-documents.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/posting-documents",
+  "title": "Posting documents",
+  "blob": "40b9d460afc43004bde2347fd8afa06a46d335d5",
+  "summary": "Posting documents for subscription billing including creation and posting of invoices and credit memos. Describes how recurring billing generates appropriate posting documents from customer and vendor subscription contracts.",
+  "systems": [
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "subscription billing",
+    "posting",
+    "invoices",
+    "credit memos",
+    "recurring billing",
+    "contracts"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Sales Credit Memos"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Posted Sales Credit Memos"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Credit Memos"
+    },
+    {
+      "type": "page",
+      "name": "Posted Purchase Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Posted Purchase Credit Memos"
+    }
+  ],
+  "features": [
+    "Recurring Billing filter",
+    "contract invoices",
+    "invoice details",
+    "archived billing lines",
+    "batch posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005629,
+      "pages_in_call": 8
+    }
+  ]
+}

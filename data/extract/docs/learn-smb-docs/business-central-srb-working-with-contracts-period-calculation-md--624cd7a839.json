@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/working-with-contracts/period-calculation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/period-calculation",
+  "title": "Period calculation",
+  "blob": "af1a20c1f9b3d1514e9aa2557604638f46b1cbe0",
+  "summary": "Period calculation for subscription billing determines invoice periods using either standard Business Central calculation or subscription billing method with end-of-month alignment.",
+  "systems": [
+    "projects"
+  ],
+  "topics": [
+    "subscription billing",
+    "period calculation",
+    "invoicing",
+    "billing rhythm",
+    "price calculation",
+    "calendar months"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Subscription Line"
+    },
+    {
+      "type": "other",
+      "name": "Subscription Contract Line"
+    }
+  ],
+  "features": [
+    "align to start of month",
+    "align to end of month",
+    "daily price calculation",
+    "leap year handling",
+    "billing base period",
+    "period length"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005312,
+      "pages_in_call": 8
+    }
+  ]
+}

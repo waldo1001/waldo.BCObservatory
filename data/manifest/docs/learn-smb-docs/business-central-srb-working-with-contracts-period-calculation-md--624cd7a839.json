@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/period-calculation",
   "published_at": "2025-12-04T12:48:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "af1a20c1f9b3d1514e9aa2557604638f46b1cbe0",
       "words": 1134,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:36.008Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.005312
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:47.600Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:47.600Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:47.601Z",
+      "page": false
     }
   },
   "input_hash": "af1a20c1f9b3d1514e9aa2557604638f46b1cbe0",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "af1a20c1f9b3d1514e9aa2557604638f46b1cbe0"
+  "output_hash": "bc570d9deae5f2089461938d86bea1d4d630688184f44da1034a010dc3d28f4b"
 }

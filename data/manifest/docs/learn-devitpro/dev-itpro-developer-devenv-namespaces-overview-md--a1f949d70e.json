@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-namespaces-overview",
   "published_at": "2025-12-08T12:35:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f54d0819c5a8bffaa4fe7781658629177d82bd45",
       "words": 803,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:36.002Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005312
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:36.010Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:36.011Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:36.012Z",
+      "page": false
     }
   },
   "input_hash": "f54d0819c5a8bffaa4fe7781658629177d82bd45",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f54d0819c5a8bffaa4fe7781658629177d82bd45"
+  "output_hash": "c4c418fd79b35bb85b1549b389c9cb902edcf1ecba8b0385dd13b81706680b8c"
 }

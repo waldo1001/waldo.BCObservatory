@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-testing-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-testing-reports",
+  "title": "Test reports",
+  "blob": "712387e48a9ce9430446e3f352979da33c87b394",
+  "summary": "Test reports describes methods for running and testing report output using Codeunit 131007 Library - Report Dataset, which provides APIs for verifying report data without file system access.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "testing",
+    "reports",
+    "test codeunits",
+    "report dataset",
+    "data verification",
+    "request page"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Library - Report Dataset"
+    }
+  ],
+  "features": [
+    "RunReportAndLoad method",
+    "AssertElementWithValueExists method",
+    "LoadDataFromInstream method",
+    "request page handler",
+    "XML parameter handling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005312,
+      "pages_in_call": 8
+    }
+  ]
+}

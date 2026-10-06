@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/inventory-powerbi-gross-requirement",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "837dd86cfd3628de3a016119d570c0bc2cb69e9d",
       "words": 293,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:45.718Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002727
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:45.726Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:47.588Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:47.589Z",
+      "page": false
     }
   },
   "input_hash": "837dd86cfd3628de3a016119d570c0bc2cb69e9d",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "837dd86cfd3628de3a016119d570c0bc2cb69e9d"
+  "output_hash": "70f1b7d6818a1cd15030aaacf88299caa815062978637c2e7fb100a21830d254"
 }

@@ -1,0 +1,81 @@
+{
+  "video_id": "669rJN75L2g",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.8,
+      "end": 21.8,
+      "text": "Hello everyone and welcome to this business central launch event session on a new API endpoint the tenant discovery endpoint. Um this is a small feature and a continuation to the uh S2S app authentication for the admin center API that we built some time ago."
+    },
+    {
+      "t": 21.8,
+      "end": 37.6,
+      "text": "Um, we've seen many partners use their their apps to automate administrative operations across their customer environments in different tenants. Uh, but one thing that was still missing was a discovery endpoint that would give you a list of tenants uh to which that app has access."
+    },
+    {
+      "t": 37.6,
+      "end": 51.4,
+      "text": "Um, so if your partner managing environments in many different customer tenants, you'd have to keep a list of those tenants somewhere that that app could refer to to run then to then run operations across all customer environments."
+    },
+    {
+      "t": 51.4,
+      "end": 62.2,
+      "text": "Um, in this release wave, we fixed it with an API endpoint that we call the tenant discovery endpoint. And it's probably better to just show you what it does rather than go through some more slides."
+    },
+    {
+      "t": 62.2,
+      "end": 73.2,
+      "text": "So, let me jump into a demo right away. So here I have a little sample logic app that uh every day gets the list of tenants that that the app that is authenticating us can use."
+    },
+    {
+      "t": 73.2,
+      "end": 84.6,
+      "text": "Gets the environments for those apps. Checks whether those environments have available app updates and if so installs those app updates. So just to have a look at the logic app itself. I'll go into edit here."
+    },
+    {
+      "t": 84.6,
+      "end": 104.6,
+      "text": "I can see here that I have a logic app that have has a recurrent run. So it triggers every X period and then it starts with a HTTP call to get the manageable tenants in the tenant admin center. So here opening this first action of this logic app I can see that it's indeed calling the manageable tenants API which would mean that this logic app would start with a list of"
+    },
+    {
+      "t": 104.6,
+      "end": 119.2,
+      "text": "tenants that can be managed by the app that this action is authenticated as. Then once it gets those apps, it parses the JSON response and then for each of the tenants that it receives, it will get the environments, parses that response, checks for updates,"
+    },
+    {
+      "t": 119.2,
+      "end": 136.3,
+      "text": "and then further on it would then install those updates. And of course, you can add additional conditions to say only install the app updates if if some condition is true. To have a look at at what this looks like in action, we're going back to the uh app overview page and we're looking at a recent run that succeeded."
+    },
+    {
+      "t": 136.3,
+      "end": 149.9,
+      "text": "So you can see here indeed it triggered and this API call here succeeded. It's the same endpoint the manageable tenants endpoint and you can see here it indeed simply returned a list of tenants that can be managed by this app."
+    },
+    {
+      "t": 149.9,
+      "end": 166.3,
+      "text": "This was just a simple scenario where this API endpoint is already saving time by listing the number of tenants that can be managed. Um, we have many partners for which this will be a more powerful enabler that have more advanced automation across their customer environments and we're excited to see what you do with it."
+    },
+    {
+      "t": 166.3,
+      "end": 170,
+      "text": "Thank you for watching."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.789,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.799,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 527
+}

@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/migration-data-upgrade.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade",
+  "title": "Run data upgrade",
+  "blob": "055584d51a462fc4c47d7af9ca3ff8f58fe8663f",
+  "summary": "Running data upgrade during cloud migration to upgrade platform-related data when migrating from earlier Business Central versions. Describes prerequisites, process, error handling, and monitoring of data upgrade operations.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "cloud migration",
+    "data upgrade",
+    "database",
+    "upgrade process",
+    "migration"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Cloud Migration Management"
+    }
+  ],
+  "features": [
+    "data upgrade",
+    "cloud migration",
+    "skip API upgrade",
+    "point-in-time restore",
+    "upgrade error handling",
+    "telemetry"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005629,
+      "pages_in_call": 8
+    }
+  ]
+}

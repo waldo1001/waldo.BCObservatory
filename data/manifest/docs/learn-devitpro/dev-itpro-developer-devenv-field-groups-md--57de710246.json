@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-field-groups",
   "published_at": "2025-11-25T12:30:34.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8243d47d4c7c4a74233fdedaa1236cafd88a5985",
       "words": 455,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:45.285Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005629
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:47.616Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:47.617Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:47.618Z",
+      "page": false
     }
   },
   "input_hash": "8243d47d4c7c4a74233fdedaa1236cafd88a5985",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8243d47d4c7c4a74233fdedaa1236cafd88a5985"
+  "output_hash": "da5785587ce158a3df4d5dded233074e608c1727c1616eb672a37f04f901cce1"
 }

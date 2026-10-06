@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-machine-center-load",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c0766693f58808e199c768ed9300bbb8def4ea94",
       "words": 269,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:51:45.722Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002727
+    },
+    "summarized": {
+      "at": "2026-10-06T18:51:47.662Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:51:47.663Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:51:47.664Z",
+      "page": false
     }
   },
   "input_hash": "c0766693f58808e199c768ed9300bbb8def4ea94",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c0766693f58808e199c768ed9300bbb8def4ea94"
+  "output_hash": "a11553eec4ae65ebdbe254dc02ac678344ec942bca6396933c3749f589cdf66f"
 }

@@ -1,0 +1,68 @@
+{
+  "video_id": "DHODFt_jVO4",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.9,
+      "end": 26.1,
+      "text": "you can Define production bill of material or routing on the stock keeping unit this can be useful if a stock keeping unit represents a different variant of product and it needs to use a different component or maybe it represents different location where some production equipment is not available or it is different"
+    },
+    {
+      "t": 26.1,
+      "end": 46.4,
+      "text": "so you need to use a different routing to produce uh this Goods this build definitely impact the cost so the standard cost for items produced for specific variant or specific location will be carefully copied from the stock keeping unit let's see the Demo First activate"
+    },
+    {
+      "t": 46.4,
+      "end": 66.6,
+      "text": "the standard cost per stock keeping unit in a manufacturing setup then navigate to stock keeping unit card for the reservoir assembly on the main location at this location we will use subcontracting routing in instead of internal capacity let's use new function to calculate production standard cost now stock"
+    },
+    {
+      "t": 66.6,
+      "end": 86.6,
+      "text": "keeping unit has a different cost than an item card and next steps we will examine the impact we have the release production order which contains two lines although the item Remains the Same the location differs the cost also varies as it utilizes information from either the item card or stock keeping unit"
+    },
+    {
+      "t": 86.6,
+      "end": 108.2,
+      "text": "if available we will post output via production Journal JN for these two lines we are currently not posting any other consumption or subcontracting because the item uses standard cost which will be applied when the item is added to the inventory change the order to finish and explore"
+    },
+    {
+      "t": 108.9,
+      "end": 128.9,
+      "text": "it navigate to the finished production order and then to the item Ledger entries page you'll see two output transactions with actual costs one from the item card and one from the stock keeping Unit Drilling down to Value entries shows the cost consists of variance material and capacity the material"
+    },
+    {
+      "t": 128.9,
+      "end": 149.2,
+      "text": "cost is identical for both items since they share the same bill of material however for stock keeping units subcontracting costs replace internal capacity costs accurate and explainable costing is a key feature of business Central what can we do better in this release you can also include non-inventory cost"
+    },
+    {
+      "t": 149.2,
+      "end": 169.3,
+      "text": "into the produ C cost calculation let's see the demo start by enabling the capability in the manufacturing setup Page open the cost shares page from the item card to view total cost and its components new columns for rolled up material non-inventory cost and single level material non-inventory cost are now"
+    },
+    {
+      "t": 169.3,
+      "end": 192.8,
+      "text": "included the non-inventory cost can be viewed on the statistics page of the production order next we will proceed with posting the consumption of non-inventory items to ensure Clarity other items and capacities will be excluded from this example Additionally the quantity will be increased for illustrative"
+    },
+    {
+      "t": 199.6,
+      "end": 206.2,
+      "text": "purposes change the order to finish and review"
+    },
+    {
+      "t": 206.3,
+      "end": 228,
+      "text": "it navigate to the item Ledger entries page where you can view consumption entries with non-inventory costs as well as the cost of finished items thank you for watching and you can find more details about these capabilities in the release noes also remember to check other videos about enhancements on Manufacturing"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 514
+}

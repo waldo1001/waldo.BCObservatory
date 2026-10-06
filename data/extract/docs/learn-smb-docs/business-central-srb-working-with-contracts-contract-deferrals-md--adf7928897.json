@@ -1,0 +1,62 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/SRB/working-with-contracts/contract-deferrals.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/contract-deferrals",
+  "title": "Subscription contract deferrals",
+  "blob": "d2ca1db662098ae48158e83165ddb8066c806bbf",
+  "summary": "Managing contract deferrals for subscription billing to defer customer revenues and vendor costs to future periods. Explains automatic deferral creation, release mechanisms, and monthly basis calculations for revenue and cost recognition.",
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "contract deferrals",
+    "subscription billing",
+    "revenue recognition",
+    "expense recognition",
+    "deferral release",
+    "accrual accounts"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Subscription Contract Deferrals"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Subscription Contract Deferrals"
+    },
+    {
+      "type": "page",
+      "name": "Customer Contract Deferrals Analysis"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Contract Deferrals Analysis"
+    },
+    {
+      "type": "report",
+      "name": "Subscription Contract Deferrals Release"
+    }
+  ],
+  "features": [
+    "deferral creation",
+    "deferral release",
+    "accrual accounts",
+    "posting groups",
+    "monthly release",
+    "dimension updates",
+    "proration calculations"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005629,
+      "pages_in_call": 8
+    }
+  ]
+}
