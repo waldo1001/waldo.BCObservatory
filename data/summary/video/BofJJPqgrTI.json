@@ -1,0 +1,27 @@
+{
+  "video_id": "BofJJPqgrTI",
+  "item_id": "video/yt-microsoft/BofJJPqgrTI",
+  "summary": "Excel layouts for Business Central developers in the 2024 release wave 1: translatable layouts with translation tags, the report metadata worksheet, refreshable reports using Power Query and APIs, seven new preview Excel reports in version 24, and Excel Copilot (in preview) for outlier detection.",
+  "overview": "The session shows how report authors build Excel layouts that translate at runtime. A hidden metadata worksheet holds report, tenant, environment, company and timestamp data. A caption data worksheet holds report captions and labels. Translation tags in worksheet names, chart headers, pivots and slicers are replaced with the user's language values when the report runs. An optional user-defined translation worksheet covers custom strings.\n\nIt then covers refreshable reports, where Power Query loads data from Business Central APIs using the environment name and company ID from the metadata worksheet. The seven new preview Excel reports in version 24, including Aged Accounts Receivables, are demoed as examples. The session also covers separate worksheets for each top-level data item (from version 23.0) and Excel Copilot, which is in preview and needs the workbook on OneDrive.",
+  "key_points": [
+    "A hidden metadata worksheet in Excel layouts holds report object info, request properties, tenant ID, environment name, company name and ID, and the run timestamp.",
+    "Translation tags (dollar-dollar) in worksheet names, chart headers, pivot elements and slicer headers are replaced with user-language values at runtime; captions come from the caption data worksheet.",
+    "An optional user-defined translation worksheet lets layout designers add custom strings and translations that are not captions in the report object.",
+    "Refreshable reports load data with Power Query from Business Central APIs, using environment name and company ID from the metadata worksheet; users must enable content in Excel.",
+    "Version 24 ships seven new Excel reports in preview in the base application, added to the Business Manager and Accountant role centers; some translation strings still need adjustment.",
+    "From version 23.0, each top-level data item in a report can appear in its own worksheet.",
+    "Excel Copilot is in preview, requires the workbook on OneDrive, and its suggestions need to be checked in Business Central."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "5486cbd7ef04a6dc97b06942052ba5bdc0cf93f640bd819e2c7d38773db85094",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.021514400000000003
+  }
+}

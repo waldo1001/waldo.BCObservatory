@@ -1,0 +1,411 @@
+{
+  "video_id": "BofJJPqgrTI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 16.2,
+      "end": 29,
+      "text": "welcome to this watch new in Excel layouts for developers session in the 2024 wave 1 in this session I'm going to talk to you about reporting"
+    },
+    {
+      "t": 29,
+      "end": 49,
+      "text": "capabilities in the new wave so we're going to talk about the way to develop translatable reports how to call business Central apis from Excel reports then I'm going to show you a preview of one of the new Excel reports that ship with business Central as an example of how all this"
+    },
+    {
+      "t": 49,
+      "end": 69.3,
+      "text": "works and then finally a bit of preview on Excel copilot on business Central data so let's get started translatable Excel reports is something that you will only need if you're an isv I assume and Microsoft we are an isv"
+    },
+    {
+      "t": 69.3,
+      "end": 85,
+      "text": "and for us to ship Excel reports we we needed these to be multilanguage so back in 23 23.3 we added the ability or we added um two Excel"
+    },
+    {
+      "t": 85,
+      "end": 105.6,
+      "text": "layouts that we always have a hidden worksheet with some extra static and runtime metadata so we now show you I can show you here uh this worksheet with um for static metadata uh things from the report object itself so things like what's"
+    },
+    {
+      "t": 105.6,
+      "end": 125.8,
+      "text": "what's extension does it come from blah blah blah most importantly for you as a report uh layout designer is the three things about this report title about this report text and uh the report help link because this gives you if the report designer or the report"
+    },
+    {
+      "t": 125.8,
+      "end": 146.4,
+      "text": "objects uh developer added this metadata uh for the teaching tip title and text and for the report uh context specific help link you can actually use this in the Excel report itself if you want to provide like context specific help uh maybe a worksheet"
+    },
+    {
+      "t": 146.4,
+      "end": 166.6,
+      "text": "stating about this report you can put that in there the second thing that that is you very useful from this worksheet is the request properties now not the request page but the actual report requests so this is where we now store the tenant ID environment name type and company name"
+    },
+    {
+      "t": 166.6,
+      "end": 186.7,
+      "text": "and Company ID and the date for when this report was run and you can use this either in the layout itself for instance when the report was uh was run the date time for that you can put it in in the layout so that when people run the report they can see when it was refreshed or when"
+    },
+    {
+      "t": 186.7,
+      "end": 206.7,
+      "text": "it was run uh but refresh is also a new thing here uh because if you and I'll show you some examples of that the company or the environment name and the company name or Company ID can be used in apis so that you can refresh the data or you can augment the report data set with additional"
+    },
+    {
+      "t": 206.7,
+      "end": 226.7,
+      "text": "data from business Central apis then in 23.3 we also added um a caption data worksheet both with include caption on columns in the in the in the data items in the report data set as well as any labels that you add in the"
+    },
+    {
+      "t": 226.7,
+      "end": 246.7,
+      "text": "label section of the report object is now uh transferred into this worksheet so that you have all the captions uh from uh from the the report object available in your when you lay out and of course these will then be uh populated the"
+    },
+    {
+      "t": 246.7,
+      "end": 262,
+      "text": "caption uh will be copulated with values uh when the user actually runs the report then the final part of this the most important part also in version"
+    },
+    {
+      "t": 262,
+      "end": 282.4,
+      "text": "23.3 is that we added the ability to translate all of this uh at runtime so as a report author you can now use translation tags or dollar dollar for worksheet names for chart headers for pivot elements slicer headers and so on um"
+    },
+    {
+      "t": 282.4,
+      "end": 302,
+      "text": "when you layout the Excel and when you then upload and when people run the report with with this Excel layout the server will then replace these tags with values so that the the report is translated to the language of the user when they ran the"
+    },
+    {
+      "t": 302,
+      "end": 322.6,
+      "text": "report as a final thing we also added what we called userdefined translation data worksheet which means that in case you have texts or strings that you would like to be in the layout but they are not present in the report object itself as captions there you can add them"
+    },
+    {
+      "t": 322.6,
+      "end": 342.7,
+      "text": "to the translation data worksheet in the layout with the different languages available so for instance my layout Title Here is available in four different languages Danish us English um German and French and then uh depending on if the user when they run the report have one of these four uh that"
+    },
+    {
+      "t": 342.7,
+      "end": 363.3,
+      "text": "would be then be translated so you can now Supply strings to the report layout that are not present as captions so let's see an example of how this works on the left I have uh added the layout with this dollar dollar syntax and you can see four different things there a cell"
+    },
+    {
+      "t": 363.3,
+      "end": 383.3,
+      "text": "that is going to be translated on the upper left there's the worksheet name there are the names on the slicers and then there is the title in the chart so when the user runs the report uh in this case in this example it's a user that used Danish language you can"
+    },
+    {
+      "t": 383.3,
+      "end": 403.4,
+      "text": "see that the the cill is translated you can see that the slicer titles are translated to to Danish you can see the um the chart title is translated and finally that the worksheet is translated as well to conclude this means that if"
+    },
+    {
+      "t": 403.4,
+      "end": 423.4,
+      "text": "you are a VAR just adding um an Excel report or a report with Excel layouts for German customers there's no need for this but if you are an icv or if you are if you if you work with customers that operate in multiple countries where it's important that they the users get the Excel"
+    },
+    {
+      "t": 423.4,
+      "end": 438,
+      "text": "reports in their own language then this is for you uh to to use it's already present in version 23.3 but now this is the first time we we we talk about it in the launch"
+    },
+    {
+      "t": 438,
+      "end": 450.9,
+      "text": "event all right I mentioned that um the new worksheet that was added in version 23.3 enables refreshable uh Excel"
+    },
+    {
+      "t": 450.9,
+      "end": 471.1,
+      "text": "reports if only you you uh you load the data in Excel not from the report data set but using apis and using power query so how how could that such a thing work remember that when you call business Central apis the"
+    },
+    {
+      "t": 471.1,
+      "end": 491.2,
+      "text": "the uis for these always have a structure that looks like this Su URL API blah blah blah D V2 Dash environment name- API and so on and then after this prefix of the URI comes the actual uh API that always starts with"
+    },
+    {
+      "t": 491.2,
+      "end": 511.2,
+      "text": "a company with an identifier and then the actual API you call this means that you need two two things you need the environment name and you need the company ident ID uh to be able to construct such a URI and the good thing is the these are now exactly"
+    },
+    {
+      "t": 511.2,
+      "end": 531.4,
+      "text": "these two uh pieces of information are available uh on the new report metadata worksheet the environment name and the company ID also the company name this means that if you open a new query in power quer in Excel uh of type O data and just uh maybe just put"
+    },
+    {
+      "t": 531.4,
+      "end": 551.6,
+      "text": "in a legal o data feed uh in there then after the fact you can open the advant editor and instead of the the URL that for instance this URL always works that you can see here you can start constructing the"
+    },
+    {
+      "t": 551.6,
+      "end": 571.6,
+      "text": "the the URI for the API you want to call by referring to the worksheet uh with these two and now suddenly you have a power query query that that reads from business Central API but using the environment name and the company when"
+    },
+    {
+      "t": 571.6,
+      "end": 591.9,
+      "text": "people run the report this means that you can actually in Cas if you think of it if you want to you can scale down the data set in the report object to something super simple like maybe nothing almost and then the all the data loading you can do that in power CR from apis if you do that"
+    },
+    {
+      "t": 591.9,
+      "end": 612.4,
+      "text": "then refreshing the data set from uh in Excel you will then just refresh the data from the apis with version uh 24 with this new version uh we also ship new Excel reports in the base application uh out of the box"
+    },
+    {
+      "t": 612.4,
+      "end": 632.6,
+      "text": "and uh these are added to the uh business manager role Center and accountant role Center on uh on here on Excel uh reports you can see them with uh with their names parenthesis preview um or you can also search for preview on the report or"
+    },
+    {
+      "t": 632.6,
+      "end": 652.6,
+      "text": "role Explorer um and then they would show up there they are in preview for because we still need to maybe tweak a few things it's not that they're not showing the right amount of data or the right data but it could be that we want to tweak the design a little bit uh learn from users how they use these but you"
+    },
+    {
+      "t": 652.6,
+      "end": 672.6,
+      "text": "as developer can also use these seven new reports to kind of get a look and feel of how to code this new way of doing translatable reports or maybe using power query or power power U model things in power query or power pivot in Excel so let's take a look at one of these and uh just to give"
+    },
+    {
+      "t": 672.6,
+      "end": 692.8,
+      "text": "you an idea and then you can explore at your own pace um with the the rests of these seven reports Let's uh let's have a look at one of these new Excel reports right so I here I'm I'm on the business manager Road Center and and you can see this menu Excel reports"
+    },
+    {
+      "t": 692.8,
+      "end": 713.5,
+      "text": "have the Legacy reports that will likely be deprecated in a later version and then these new preview reports that you should go take a look at and what's better than take a look at what people owe me right I want to make sure I improve my cash flow so I'll take the HED accounts receivables"
+    },
+    {
+      "t": 713.5,
+      "end": 731.3,
+      "text": "report and there's nothing new to this request page is just click download because that's the the way we deal with Excel of course if actually a pro tip here if you demo this with a customer make sure that you show this with Excel sorry with one drive integration"
+    },
+    {
+      "t": 731.3,
+      "end": 751.4,
+      "text": "enabled because then download will not be download but actually just open in a new browser tab but I was not as clever as you so this downloads the new report and let me open that and let's have a look so the first thing you notice is that you need to enable content this is just a warning from Excel because we"
+    },
+    {
+      "t": 751.4,
+      "end": 771.5,
+      "text": "have some power query in the report there's no way around it at least not in the security setting on my computer so I will click that uh this will enable things to load in power query inside Excel and now you can see the the report as seen from the user has three different"
+    },
+    {
+      "t": 771.5,
+      "end": 791.6,
+      "text": "worksheets by period uh you can see Dimensions it's actually it uh I can filter on that in these slices uh I can filter on uh the customer number and on the customer uh group I can do the same uh by period here there's now a new currency code uh I"
+    },
+    {
+      "t": 791.6,
+      "end": 811.6,
+      "text": "can see that I need to work on uh this s small bo here that's fine you can see the dollar dollar should of course have been translated and let me have a look at that after the recording um and then uh due by currencies again there's there slicers here and that's the way the Port looks as seen from the user but"
+    },
+    {
+      "t": 811.6,
+      "end": 831.8,
+      "text": "we are developers we want to dive into how things look under the hood so let me go here and unhide all the worksheets that have been hidden and now I get a little bit more so translation data this was the user defined one apparently the developer for this"
+    },
+    {
+      "t": 831.8,
+      "end": 852.1,
+      "text": "from this report didn't need that so this is empty but if for some reason maybe you add a layout to an exist in report and you don't have access to updating that report you can add your own strings here caption data this is where you get all the labels and captions me open make this a little bit bigger"
+    },
+    {
+      "t": 852.1,
+      "end": 872.3,
+      "text": "here in Excel so now uh this this is just populated the value column here is populated at runtime from the language I used when I ran the report and then these are the things you can you can use in your layout just point to any of these and uh and do a vook up or or similar"
+    },
+    {
+      "t": 872.3,
+      "end": 892.3,
+      "text": "and then there is a report parameters um there is the aggregated metadata here that we talked about with the with the report uh metadata request metadata you can see here these are the options when I ran the report from the request page and the filters that were added I'm not sure that's going to"
+    },
+    {
+      "t": 892.3,
+      "end": 906,
+      "text": "be at least I'm not expert enough to to have that useful but maybe you are and uh then I I have the actual data sets so starting in in version"
+    },
+    {
+      "t": 906,
+      "end": 926.2,
+      "text": "23.0 there's a new option in in in Excel uh layouts that can give you each of the data item the top level data items in the data set in its own worksheet so you can see the first worksheet here is customer aging data this sorry this one the second one is"
+    },
+    {
+      "t": 926.2,
+      "end": 946.3,
+      "text": "uh Dimension One and dimension two uh these are the three top level data items in that report um so go check out the the new layouts dissect them see how what the developer did and and learn from that uh there might be some additional data modeling in power pivot and"
+    },
+    {
+      "t": 946.3,
+      "end": 966.4,
+      "text": "power CR and some of them so uh go have fun with that the final part of this session I don't know if it's so much developed but I want to give you kind of a look and feel because and this is about Excel co-pilot it's is still in in preview in Excel uh but how you can think of"
+    },
+    {
+      "t": 966.4,
+      "end": 986.5,
+      "text": "this or maybe present this to customers as a different way to do reporting Excel co-pilot just needs the raw data set and the good thing about business Central and Excel is we have at least two ways for you to get that there's open in Excel from any list page will open the raw data"
+    },
+    {
+      "t": 986.5,
+      "end": 1006.6,
+      "text": "and the second part is um an ex a report with Excel layout will also give you the raw data set directly in Excel so so that's that's that's a good like business Central leans itself well into Excel co-pilot Excel co-pilot"
+    },
+    {
+      "t": 1006.6,
+      "end": 1027,
+      "text": "you you should think of this as a way to anal analyze understand and visualize your data with a copile experience um so for instance maybe explore your data using co-pilot natural language interface for it or maybe let co-pilot suggest"
+    },
+    {
+      "t": 1027,
+      "end": 1047,
+      "text": "things maybe look for outliers and other things and what's better than uh maybe let me show you an example of how this could look on some uh some data all right back in Excel I um I needed a little bit more data than in the previous example so I took the accounts payables report the"
+    },
+    {
+      "t": 1047,
+      "end": 1067.4,
+      "text": "new also one of the new reports I pumped up business business Central with some more data artificial data so that co-pilot has some food to chew on but apart from that I don't know what's going to happen here so let's uh let's have a look I enable co-pilot on my data worksheet here vendor aging"
+    },
+    {
+      "t": 1067.4,
+      "end": 1087.7,
+      "text": "data 100,000 rows let's have a look and for this to work by the way must uh be the Excel workbook must be on one drive so this is another uh benefit from enabling integration with business Central to one drive is that co-pilot Excel will just work out of the box"
+    },
+    {
+      "t": 1087.7,
+      "end": 1108.5,
+      "text": "when uh when you use Excel uh layouts okay so co-pilots gives me some options analyze highlight and I'm actually interested if co-pilot can help me analyze this large volume of data so click analy let's see what happens and um co-pilot comes with some"
+    },
+    {
+      "t": 1108.5,
+      "end": 1130.3,
+      "text": "um suggestions it could do some total of things over but I would actually like to ask it whether it could analyze something that I'm not good as as a person as a human and that is looking for outliers in the data so I will see uh find me out"
+    },
+    {
+      "t": 1130.3,
+      "end": 1150.4,
+      "text": "liar and see if uh if copilot can come up with some maybe fraud detection or dubious weird transactions that I might need to look into this is accounts uh payable so these are my vendors people I owe money maybe there's something going on one of them U might I don't know let's"
+    },
+    {
+      "t": 1150.4,
+      "end": 1161.1,
+      "text": "see if there's anything that that is weird in this data set so we're analyzing uh analyzing analyzing and let's see if we can find some outliers in that data"
+    },
+    {
+      "t": 1161.1,
+      "end": 1179.2,
+      "text": "set actually there is something going on here so you can see co-pilot here uh told me that for a particular vendor number here let me just add it to a new worksheet and uh see what's going on for this particular vendor"
+    },
+    {
+      "t": 1179.2,
+      "end": 1199.5,
+      "text": "here there are at least three outliers with these different different dates so the uh this date here in 2002 something going on uh here and here and here are four transactions that I need to look in further into it might be totally okay it might be something that that is"
+    },
+    {
+      "t": 1199.5,
+      "end": 1220.4,
+      "text": "uh that that is weird but at least from the data set these are outliers that look suspicious or not normal uh so that that could be one way for you to or for your customers to use Excel as a way to analyze for outliers this is just one example of co-pilot"
+    },
+    {
+      "t": 1220.4,
+      "end": 1240.4,
+      "text": "uh Excel co-pilot right so of course I mean co-pilot can only suggest things I will still need to go check it in business Central um and have a person in the loop that's the idea of all AI that it is something that can suggest thing for us but we still need to have that person to uh to be in the"
+    },
+    {
+      "t": 1240.4,
+      "end": 1260.8,
+      "text": "loop anyway we are at the end of the session just a few learning resources in case you want to learn more about reasoning over reporting and when Excel would be a good choice uh go to aka.ms BC developer that takes you to developer docs and under developer docs"
+    },
+    {
+      "t": 1260.8,
+      "end": 1281,
+      "text": "there's this new article called analyzing pivoting and sharing data in business Central that shows you all the different types of artifacts for reporting powerbi Excel data analysis on list and queries um Excel so on where like when should you use what and for whom so go check"
+    },
+    {
+      "t": 1281,
+      "end": 1301.1,
+      "text": "that out in the article there what we call the bi triangle which puts these different tools for different personas for different analytical purposes uh where the the the tools Shine the most so make sure that you look into and understand the scenarios for different personas and map"
+    },
+    {
+      "t": 1301.1,
+      "end": 1316,
+      "text": "these to Technologies so that you don't just do excel reporting for everyone for everything but think carefully where Excel makes sense for for end users for your customers aka."
+    },
+    {
+      "t": 1316,
+      "end": 1336,
+      "text": "msbc reporting is the documentation for for uh for for anything related to bi and Reporting in the product also here um how to use Excel uh how to use Excel reports so um so you can point your customers to this uh documentation"
+    },
+    {
+      "t": 1336,
+      "end": 1356.3,
+      "text": "page if you are the type of person who want to learn from through examples or through sample code aka.ms slbc Excel samples is your friend I will try to my very best to add new samples to this when I learn more so that there will be different reports with different um"
+    },
+    {
+      "t": 1356.3,
+      "end": 1371.3,
+      "text": "Excel layouts that you can what that you can open up and and play around with and and learn both uh techniques in Excel and techniques with um with reports in business"
+    },
+    {
+      "t": 1371.3,
+      "end": 1383.2,
+      "text": "Central and with that a few Goos start providing Excel reports for analytics know the bi triangle if you are an isv or work in mul have customers who work in multiple"
+    },
+    {
+      "t": 1383.2,
+      "end": 1403.2,
+      "text": "languages think about how you can deliver multi language Excel reports in your apps or in your Solutions and of course uh start exploring like with any co-pilot it's a new thing and you might want to explore ex Excel co-pilot uh on your own pce so that you can also learn it uh and"
+    },
+    {
+      "t": 1403.2,
+      "end": 1423.8,
+      "text": "maybe learn it with with users that's it for this session few relevant launch event sessions uh if you're interested in server architecture this is still kind of server is uh what's new in Al runtime and database might be of interest what's new in web services is also"
+    },
+    {
+      "t": 1423.8,
+      "end": 1439.1,
+      "text": "uh server architecture if you're more into things from a developer standpoint of course watch new and visual studio code and Al developer development is your session but also um there's a session called"
+    },
+    {
+      "t": 1439.1,
+      "end": 1459.5,
+      "text": "key updates in learning content for developers that might be of interest as well uh and also if you do systems Integrations uh integrating business Central with other uh systems through web services there's a new learning session on a lot of new content for that so go check that out then to conclude AKA links"
+    },
+    {
+      "t": 1459.5,
+      "end": 1479.8,
+      "text": "uh so take discussions to to Yammer BC ymer is where we talk about things that we don't want to have on social media BC all is the AKA link to rule them all so go there to find all the other AKA links that are available for you as a partner BC ideas is where you suggest feature improvements"
+    },
+    {
+      "t": 1479.8,
+      "end": 1499.9,
+      "text": "and product improvements um we on social media X and Linkedin so so join the conversation there and if you want to join office hours either live or recorded sessions BC office hours is the AKA link that you should have and with that say thank you than a lot for joining my"
+    },
+    {
+      "t": 1499.9,
+      "end": 1508,
+      "text": "session on Excel uh hope you have a great business Central launch event thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.15,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.16,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3761
+}

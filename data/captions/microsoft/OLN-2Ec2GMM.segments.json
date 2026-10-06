@@ -1,0 +1,296 @@
+{
+  "video_id": "OLN-2Ec2GMM",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 16.2,
+      "end": 37,
+      "text": "welcome to this business Central launch event for the 2024 release Wave 1 my name is Kenny pidan and I'm Yan M Peterson and together we work on the AL runtime and the database in this session we're going to talk about the data stack and the runtime and then we have a few other sessions on the web service stack and Reporting"
+    },
+    {
+      "t": 37,
+      "end": 57.4,
+      "text": "changes so let's talk data in this release wave we added some new capabilities to the number sequence object and we also tuned the existing methods so first of all next current exist methods are up to 32% faster and we also introduced these two new methods"
+    },
+    {
+      "t": 57.4,
+      "end": 77.7,
+      "text": "one the ability to restart a number sequence and two the the ability to get multiple numbers without having to call SQL every single time so the way they work is for restart before this you would have to like drop the sequence create a new one with a new restart method"
+    },
+    {
+      "t": 77.7,
+      "end": 88.2,
+      "text": "you can simply as the code example here States you can restart to a particular uh number and then you start picking numbers from"
+    },
+    {
+      "t": 88.2,
+      "end": 108.5,
+      "text": "there similarly range start is a way for you to get an interval of an interval of numbers you can of course achieve this with a number sequence if you if you increment by say 10 you would get 10 numbers each time but in this case you can also simply say I would like a range of something and that"
+    },
+    {
+      "t": 108.5,
+      "end": 125.2,
+      "text": "will then for the increment you have chosen give you that range without having to call the database yeah so you're basically saving a datab base call for every time you need a number so if if you have a range of 100 numbers it's not one call compared to 100"
+    },
+    {
+      "t": 125.2,
+      "end": 145.3,
+      "text": "yes so that's it for number sequences actually something a lot of people start noticing that this can speed up quite significant uh the insert performance of things compared to to Auto increments yeah particularly also compared to this where you lock the last"
+    },
+    {
+      "t": 145.3,
+      "end": 165.5,
+      "text": "record in order to pick the highest number Etc which can really hurt your performance with with locking scenarios y all right now let's talk about another problem we've had which is the time it takes to clean up the change log entes we have seen change log entry tables growing"
+    },
+    {
+      "t": 165.5,
+      "end": 185.7,
+      "text": "to very large sizes to the point where even setting up retention policies would time out and deleting elements from the change log entry would also time out so we basically had to make this faster to enable our customers to get out of this situation"
+    },
+    {
+      "t": 185.7,
+      "end": 205.7,
+      "text": "in order to do that we optimize some internal workings but we also needed to create a new method which for now is mar for on premises because it is a little bit of a double-edged sort but let's talk about this new alter key method that you might see if you're coding with the on premise um keyword"
+    },
+    {
+      "t": 205.7,
+      "end": 226.4,
+      "text": "so the alter key it disables Keys during the current transaction meaning that it is it's almost the same as if you've dropped the index and then you do all your deletes and then you reenable it and it is automatically reenable"
+    },
+    {
+      "t": 226.4,
+      "end": 247.2,
+      "text": "when the current transaction ends that can either be due to the transaction being canceled due to an error in which case the transaction is rolled back or unsuccessful completion or add an explicit Al commit so why aren't we just opening this up always well it's not always a good idea"
+    },
+    {
+      "t": 247.2,
+      "end": 264.3,
+      "text": "because the index needs to be rebuilt again afterwards when it is re-enabled so it is only viable when you need to delete a lot of data this has allowed us to speed up the deletion of change log entries"
+    },
+    {
+      "t": 264.3,
+      "end": 272.6,
+      "text": "significantly and hence allowing our customers to clean up those tables"
+    },
+    {
+      "t": 272.6,
+      "end": 287.4,
+      "text": "now small announcement we have previously said that we would remove the force order and loop join server settings they are now and it was announced in 23 it was a thing from the past now it is"
+    },
+    {
+      "t": 287.4,
+      "end": 307.7,
+      "text": "removed all right let's talk about the runtime one of the things that if you have been to any of our yens and I session from the past actually from directions a few years back we handed out these sheets where you could vote on features and this is on paper on paper for"
+    },
+    {
+      "t": 307.7,
+      "end": 328,
+      "text": "gdpr then we could burn them know yes and now uh now one of these ideas actually made it to the product tool tips on table Fields so with this release wave as developer you can now Define field tool tips once on the table and any page uh that that use"
+    },
+    {
+      "t": 328,
+      "end": 348.4,
+      "text": "these fields would just inherit the tool tips you don't have to Define them on multiple Pages can I add a comment there now of course if you don't want the tool tip that was defined on the table then you can still override it on the control just like you can with caption so think about the same pattern as for captions yes"
+    },
+    {
+      "t": 348.4,
+      "end": 368.4,
+      "text": "this gives some opportunities advantages this is actually why we build it in the first place now uh first of all we can use it in co-pilot features internally and later we might do this same for queries and maybe in report data set so you can Define things on the table level and inherit it up but for now that's"
+    },
+    {
+      "t": 368.4,
+      "end": 389,
+      "text": "science fiction not coming in this release wave so the way to define a tool tip on a table field is basically just do it um and then um it will inherit up we have also have our friendly compiler team at code um code actions in case you want to move"
+    },
+    {
+      "t": 389,
+      "end": 409,
+      "text": "tool chip down from the page to the table and I believe if if it's not there already it will also be possible not only on the actual page but on a project level or a folder level yeah I'm afraid it didn't make it for this release but um it will go out with a later um compiler update where for the individual"
+    },
+    {
+      "t": 409,
+      "end": 429.4,
+      "text": "file or potentially even for the whole project you'll do this got it yeah yeah and actually with this tool tips it gave us also a need to rethink how we actually store texts in the system because tool tips can be relatively large and we don't really want to store them together"
+    },
+    {
+      "t": 429.4,
+      "end": 449.6,
+      "text": "with the objects um just like we do for captions so behind the scenes so here you'll get a small glimpse of what's Happening behind the scenes we have added new system tables to store these translatable texts now you'll be providing those through xliff files or similar and"
+    },
+    {
+      "t": 449.6,
+      "end": 470.1,
+      "text": "um and then we will take them and store them in particular tables rather than in the normal metadata table and Tool tip is the first usage of this but we expect to expand this to also do captions Etc because it allows us to cach more efficiently and avoid duplication of a number of these texts"
+    },
+    {
+      "t": 470.1,
+      "end": 490.2,
+      "text": "so if you look inside the database in version 24 you might see some new um system tables both in the tenant database and in the app database I'm not going to go into details what they are but now at least if you look and you find these tables then these are the tables being"
+    },
+    {
+      "t": 490.2,
+      "end": 504.6,
+      "text": "used to store the text metadata in an efficient way and we expect uh that this will allow us to search more efficiently and generally have a lower memory footprint"
+    },
+    {
+      "t": 504.6,
+      "end": 524.6,
+      "text": "MH now another now let's switch gears to something more ux related now in previous releases you know you hopefully know that we added the ability to add navigation actions and fix it actions to error info but we also know that there"
+    },
+    {
+      "t": 524.6,
+      "end": 544.9,
+      "text": "are hundreds or thousands of usages of test field in the product where you check whether a value is blank or similar and of course the best thing is to actually go and code it completely right with error info Etc but we thought well how can we actually move this forward without"
+    },
+    {
+      "t": 544.9,
+      "end": 565.1,
+      "text": "putting a lot of burden on the application developers so we've added new capabilities to test field so that it can add link to add a navigation link to the failing data so the data that shouldn't be blank or the data that should be a given value"
+    },
+    {
+      "t": 565.1,
+      "end": 585.1,
+      "text": "it will add this navigation link if a number of consist conditions are present that it needs to be able to figure out what page to navigate to using drill down page ID and card page ID the user needs to have read permission and it needs to be to a different record and a different page than you're currently at"
+    },
+    {
+      "t": 585.1,
+      "end": 605.5,
+      "text": "because you don't want a second copy of what you have already opened so yens just for me to understand this this this means this is the just the a runtime that would do it for these four conditions we will add uh we will add to this new actionable era yes and if you take here in the general ledger setup"
+    },
+    {
+      "t": 605.5,
+      "end": 618.1,
+      "text": "if you set up an additional reporting currency then you might see this error dialogue with residual gains account is not being valid for this particular currency"
+    },
+    {
+      "t": 618.1,
+      "end": 638.2,
+      "text": "now the runtime will automatically in this case add the show currency card link which will take you to the currency card for the Australian dollars the AUD in this case and as you can see then the residual gains account is indeed blank for this value so instead of you"
+    },
+    {
+      "t": 638.2,
+      "end": 658.3,
+      "text": "having to know how to navigate using the normal navigation structure to currencies we're now offering that directly from the error dialogue if the conditions for showing it are fulfilled yeah and this requires no coding on the app developers at all so"
+    },
+    {
+      "t": 658.3,
+      "end": 678.5,
+      "text": "a certain percentage of the existing test Fields will now have improved usability very nice yens we also added in case you need to handle errors we haded and added a lot of new content to our documentation for Developers for error handling including failure model modeling and a way to reason"
+    },
+    {
+      "t": 678.5,
+      "end": 699.4,
+      "text": "over errors called robust coding practices so go check that out if you work in a uh so that you can create error messages that well that you can degrade gracefully in in certain cases so that users don't get error messages and if they do there's also guidance here of how to express"
+    },
+    {
+      "t": 699.4,
+      "end": 710.2,
+      "text": "error uh errors in a language that users understand and of course use the new actionable error framework that was introduced last"
+    },
+    {
+      "t": 710.2,
+      "end": 730.2,
+      "text": "year all right now we want to talk also or mention another thing which is transparent for Al developers which is that the server now runs on net 8 previous release we moved from Net Framework to net core so version 23 was running on net 6 but"
+    },
+    {
+      "t": 730.2,
+      "end": 750.3,
+      "text": "for this release we have switched to net 8 which is a faster and more efficient runtime and whenever there are there is evolution in the net stack then we benefit from it now this should be transparent for all Al developers you canot feel the difference however you"
+    },
+    {
+      "t": 750.3,
+      "end": 761.4,
+      "text": "may feel a difference on your automation scripts against the server because with doet 8 we're moving to Powers shell"
+    },
+    {
+      "t": 761.4,
+      "end": 781.4,
+      "text": "7 so we know that there are number of scripts out there and we know that you may or may not be able to move directly to pow shell 7 so we're also providing basically a bridge from Powershell 5 into Powers shell 7 so you'll now have two sets"
+    },
+    {
+      "t": 781.4,
+      "end": 802.2,
+      "text": "of dlls for the management operations you will have the old admin the sorry the old management folder where we've Consolidated the assemblers into one the nav management dlll if you call that that will then relay the calls to the new Powershell 7 dlls"
+    },
+    {
+      "t": 802.2,
+      "end": 822.3,
+      "text": "which are in the admin folder meaning that you can still run Powershell five Scripts against uh the server but we highly recommend to move to Powershell 7 and will deprecate Parell five within the next years yes exactly and"
+    },
+    {
+      "t": 822.3,
+      "end": 841.2,
+      "text": "so to summarize on the next slide there go ahead move to Powershell 7 we do have a backward compatibility bridge and which will call into the pow shell 7 command Leets it will be deprecated now if you import the nav admin"
+    },
+    {
+      "t": 841.2,
+      "end": 861.6,
+      "text": "tool um then it'll automatically pick the right version it'll check are you running Powershell 7 or are you running Powershell 5 so in general your scripts should still run if you have imported the old assemblies directly rather than through nav admin tool then you may have to make minor"
+    },
+    {
+      "t": 861.6,
+      "end": 881.9,
+      "text": "changes cool that leaves us to Goos for this session yeah and some of the things to take away from this is to go ahead and optimize your number sequences you can refactor it to use the new methods um when you have restart scenarios or where you need to draw ranges"
+    },
+    {
+      "t": 881.9,
+      "end": 902.2,
+      "text": "of numbers you can start using tool tips on table fields and get the benefit as we expand on that capability and as just mentioned refactor to Powershell 7 scripts and for error handling start really think about using robust code practicing and failure modeling start"
+    },
+    {
+      "t": 902.2,
+      "end": 915.8,
+      "text": "using actionable error where it makes sense and uh adopt these new error message guidelines so that users have a better experience should your code um make an"
+    },
+    {
+      "t": 915.8,
+      "end": 936.2,
+      "text": "error that's it other language sorry other uh launch event sessions that might be relevant if you are in this one um the first two here what's new in Excel layouts and what's new in web services uh the kind of the package on the a runtime there's also if you're interested in web services"
+    },
+    {
+      "t": 936.2,
+      "end": 956.3,
+      "text": "uh learning session on all integration scenarios where we improved documentation for that so if you're into web services you might be interest in into Integrations and therefore that session could be relevant and of course if you are into the a runtime you are likely also a developer Al developer so the watch new in Visual Studio"
+    },
+    {
+      "t": 956.3,
+      "end": 970.2,
+      "text": "code and Al development uh is a session for you and also there's a new what's new session on key improvements in developer docks that you might also want to check"
+    },
+    {
+      "t": 970.2,
+      "end": 990.4,
+      "text": "out finally a few AKA links as always BC Yammer is your Yammer is the place where we discuss things internally if it's not suitable for social media in in general BC all is the the AKA link to uh to rule them all uh BC ID is is where you"
+    },
+    {
+      "t": 990.4,
+      "end": 1010.6,
+      "text": "uh talk about new features that you might want to add us to add to the product and then for social media in X and Linkedin we are active in on these platforms um and finally office hours in case you want to to attend live conversations about things or if you want to to watch recordings of"
+    },
+    {
+      "t": 1010.6,
+      "end": 1023.8,
+      "text": "U office hours in the past the BC office hours AKA link is where you go and with that yens and I would like to say yeah thank you thank"
+    },
+    {
+      "t": 1023.8,
+      "end": 1025,
+      "text": "you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.15,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.16,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2545
+}

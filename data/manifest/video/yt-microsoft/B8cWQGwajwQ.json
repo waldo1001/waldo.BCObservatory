@@ -5,12 +5,39 @@
   "tier": "official",
   "title": "In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)",
   "url": "https://www.youtube.com/watch?v=B8cWQGwajwQ",
-  "published_at": null,
+  "published_at": "2024-04-04T13:30:07.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:50:06.331Z",
+      "captions": "auto:en-orig",
+      "duration_s": 2045
+    },
+    "captioned": {
+      "at": "2026-10-06T19:50:13.396Z",
+      "path": "data/captions/microsoft/B8cWQGwajwQ.vtt",
+      "vtt_sha256": "30823b7146a9d37a61f42b749eef134b7a30f154d59fef3b71858c90187b2e30",
+      "segments": 107,
+      "words": 5647,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:52:14.665Z",
+      "path": "data/extract/video/B8cWQGwajwQ.json",
+      "prompt": "extract-video@1",
+      "windows": 3,
+      "features": 19,
+      "quotes": 17,
+      "quotes_dropped": 3,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.10758
     }
   },
   "input_hash": null,
@@ -19,7 +46,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 446,
-    "duration_s": 2046,
-    "via": "reconcile"
-  }
+    "duration_s": 2045,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5abb545d4e0b6841b299c0b8425f9c9a7243c0226bdc1a0b1ebb84d1a2a5de9b"
 }

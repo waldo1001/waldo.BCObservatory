@@ -1,0 +1,380 @@
+{
+  "video_id": "N8Unj6WLB6U",
+  "item_id": "video/yt-microsoft/N8Unj6WLB6U",
+  "title": "What's New: Service Management (2024 release wave 1)",
+  "duration_s": 944,
+  "systems": [
+    "service",
+    "sales",
+    "projects"
+  ],
+  "topics": [
+    "service quote",
+    "service order",
+    "service contract",
+    "service items",
+    "attachments",
+    "blocking",
+    "invoicing policy",
+    "item selection",
+    "number series"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Service Management",
+      "t_start": 0,
+      "t_end": 137.6
+    },
+    {
+      "title": "Service Quote Setup and Number Series",
+      "t_start": 137.6,
+      "t_end": 211
+    },
+    {
+      "title": "Service Items, Blocking, and Attachments",
+      "t_start": 211,
+      "t_end": 408.8
+    },
+    {
+      "title": "Service Quote to Order Conversion",
+      "t_start": 408.8,
+      "t_end": 517.7
+    },
+    {
+      "title": "Posting and Invoicing Policy",
+      "t_start": 517.7,
+      "t_end": 632.3
+    },
+    {
+      "title": "Service Contracts and Invoice Management",
+      "t_start": 632.3,
+      "t_end": 807.2
+    },
+    {
+      "title": "Summary and Related Resources",
+      "t_start": 807.2,
+      "t_end": 944
+    }
+  ],
+  "features": [
+    {
+      "name": "Service Quote Number Series Configuration",
+      "description": "Service quote functionality with automatic number series assignment configured in setup window, preventing user modification of auto-generated numbers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 137.6,
+      "t_end": 195.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "number series",
+        "automatic assignment",
+        "setup"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Service Item Blocking",
+      "description": "New blocked field on service items allowing users to control whether items can be used in contracts or completely blocked from maintenance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 231,
+      "t_end": 298.9,
+      "is_demoed": true,
+      "caveats": [
+        "items can be blocked completely or from contracts only"
+      ],
+      "tags": [
+        "blocking",
+        "service items",
+        "contracts"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Attachments in Service Documents",
+      "description": "Attachments feature integrated across service quotes, orders, items and contracts, with ability to copy attachments from master data to service transactions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 211,
+      "t_end": 559.7,
+      "is_demoed": true,
+      "caveats": [
+        "attachments flow from master data through documents to posted transactions"
+      ],
+      "tags": [
+        "attachments",
+        "documents",
+        "master data"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Item Service Toggle at Variant Level",
+      "description": "Ability to block individual item variants from service, sales and purchase operations at the variant level.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 341.2,
+      "t_end": 373.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "variants",
+        "blocking",
+        "service"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Select Items in Service Documents",
+      "description": "Bulk item selection action in service documents similar to sales and purchase documents, allowing users to add multiple items at once.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 428.9,
+      "t_end": 449.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "bulk selection",
+        "item selection",
+        "documents"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Item References in Service",
+      "description": "Item references including barcodes now available in service area documents for scanning support.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 449.2,
+      "t_end": 469.2,
+      "is_demoed": true,
+      "caveats": [
+        "requires warehouse handheld device for scanning"
+      ],
+      "tags": [
+        "item references",
+        "barcodes",
+        "warehouse"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Service Quote to Order Conversion",
+      "description": "Ability to convert service quotes to service orders, carrying over attachments and service items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 489.3,
+      "t_end": 517.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "conversion",
+        "quote",
+        "order"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Service Invoice Posting Policy",
+      "description": "User-level setting controlling how service orders and invoices are processed, with options for shipment only, shipment with invoice, or separate processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 570.7,
+      "t_end": 632.3,
+      "is_demoed": true,
+      "caveats": [
+        "posting options vary based on user setup configuration"
+      ],
+      "tags": [
+        "posting policy",
+        "invoicing",
+        "user setup"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Service Invoice and Credit Memo",
+      "description": "Service invoice and credit memo documents now available with support for select items and attachments features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 632.3,
+      "t_end": 650.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "invoice",
+        "credit memo",
+        "documents"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Service Contract Template",
+      "description": "Service contracts with predefined templates supporting bulk service item selection and automatic invoice generation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 650.7,
+      "t_end": 702,
+      "is_demoed": true,
+      "caveats": [
+        "blocked items cannot be added to contracts"
+      ],
+      "tags": [
+        "contract",
+        "template",
+        "invoicing"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Service Contract Invoice Deletion",
+      "description": "Ability to delete service contract invoices with restrictions requiring deletion starting from the end due to ledger entry linkage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 734.4,
+      "t_end": 807.2,
+      "is_demoed": true,
+      "caveats": [
+        "invoices linked to service ledger entries must be deleted in order from end",
+        "some invoices for prepayment may not delete"
+      ],
+      "tags": [
+        "deletion",
+        "limitation",
+        "contract invoices"
+      ],
+      "system": "service"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Quote",
+      "t": 137.6
+    },
+    {
+      "type": "page",
+      "name": "Service Item",
+      "t": 231
+    },
+    {
+      "type": "page",
+      "name": "Service Items",
+      "t": 251
+    },
+    {
+      "type": "page",
+      "name": "Service Order",
+      "t": 497.7
+    },
+    {
+      "type": "page",
+      "name": "Service Item Worksheet",
+      "t": 517.7
+    },
+    {
+      "type": "page",
+      "name": "Service Lines",
+      "t": 528.5
+    },
+    {
+      "type": "page",
+      "name": "Service Invoice",
+      "t": 632.3
+    },
+    {
+      "type": "page",
+      "name": "Service Contract",
+      "t": 650.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Andre PCO",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 57.3,
+      "text": "business Central always give you choice you can do like the same things or achieve the same result in a very very different manners",
+      "why_it_matters": "Explains the philosophy of providing multiple approaches in Business Central, relevant to understanding why both Service Management and Field Service integration exist as options.",
+      "check": "snapped"
+    },
+    {
+      "t": 77.4,
+      "text": "we started in the previous release where we added demo data and setup data so you can now easily demonstrate functionality out of the",
+      "why_it_matters": "Indicates the maturity level of Service Management with pre-configured demo and setup data available in the current release.",
+      "check": "exact"
+    },
+    {
+      "t": 97.5,
+      "text": "we decided to align uh service management experience with other areas such as a sales or project areas",
+      "why_it_matters": "States the design decision to make Service Management consistent with other Business Central modules for better user experience.",
+      "check": "exact"
+    },
+    {
+      "t": 258.6,
+      "text": "we have a new tole uh field here which is called blocked which allows you to decide how do you want to block specific",
+      "why_it_matters": "Introduces new blocking functionality that provides granular control over service item usage in contracts versus ad hoc repairs.",
+      "check": "exact"
+    },
+    {
+      "t": 597.6,
+      "text": "we added service invoice posting policy uh similar to purchase and sales areas where you can decide on how you want to process uh",
+      "why_it_matters": "Explains a major new feature aligning service management with sales and purchase posting options for flexible invoice processing.",
+      "check": "exact"
+    },
+    {
+      "t": 754.5,
+      "text": "it's a it's a limitation uh we have a restrictions because it's linked to Service uh service Ledger entries",
+      "why_it_matters": "Clarifies existing limitations on invoice deletion due to ledger entry linkage, important for users managing contract invoices.",
+      "check": "exact"
+    },
+    {
+      "t": 823.7,
+      "text": "this uh this gives you some capability on to review documents and redo if something needs to be redone that is like one of",
+      "why_it_matters": "Indicates this release addresses a highly requested feature for invoice management and document review flexibility.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 11
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028205
+    }
+  ]
+}

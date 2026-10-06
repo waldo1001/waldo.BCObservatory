@@ -1,0 +1,27 @@
+{
+  "video_id": "W2yhU8eXT5w",
+  "item_id": "video/yt-microsoft/W2yhU8eXT5w",
+  "summary": "Business Central mobile app and barcode scanning changes in 2024 release wave 1: worksheet pages on phones, camera and laser scanning now on SaaS, a new control add-in based AL API for camera scanning, and warehouse pick UI and gestures. Covers three scanning scenarios with demos and code.",
+  "overview": "The session covers worksheet pages on mobile phones with a simplified layout, and native barcode scanning that was previously limited to on-premises and is now available on SaaS. It walks through three scenarios: a UI button on a field with extended data type barcode, a customizable camera scanning API based on a control add-in, and integration with dedicated laser scanners on Android.\n\nDemos show camera scanning in the item journal with serial and lot tracking, continuous scanning, and a warehouse pick with a laser scanner, including gestures and a redesigned pick document. The video also explains the control add-in API design and security limits, and says net-based barcode APIs remain supported while functionality is migrated to control add-ins.",
+  "key_points": [
+    "Worksheet pages are now on mobile phones with a shorter header, worksheet lines and a full summary section; desktop and tablet pages are unchanged. Check how they look and verify the UI you want.",
+    "Scenario 1: annotate a code or text field with extended data type equals barcode so the mobile client shows a barcode scanning button.",
+    "Scenario 2: a new AL API based on a control add-in replaces the .NET based API and works on SaaS. The add-in is in the BC apps GitHub repo and offers request barcode and request barcode async procedures plus barcode available, barcode failure and control add-in ready events.",
+    "Continuous scanning is done by calling request barcode async again after each barcode is processed.",
+    "Scenario 3: laser scanner integration works on Android devices only. It needs configuration on the device and in the app, plus AL code to register scanning events.",
+    "Control add-ins for this API are UI-less, with no JavaScript computation and no UI frame or styling properties; only Microsoft can provide them.",
+    "Net-based barcode APIs are still supported, but Microsoft plans to migrate them to control add-ins and encourages using the control add-in API for new work. The location provider is planned to follow."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "6794c128f8a8fd2d372e5833f13332d9ab6889a1fec35a9124687be153eca441",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0217924
+  }
+}

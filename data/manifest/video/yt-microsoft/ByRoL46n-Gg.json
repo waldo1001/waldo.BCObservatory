@@ -5,12 +5,60 @@
   "tier": "official",
   "title": "Introducing: Dynamics 365 Field Service Integration with Business Central (2024 release wave 1)",
   "url": "https://www.youtube.com/watch?v=ByRoL46n-Gg",
-  "published_at": null,
+  "published_at": "2024-04-04T13:30:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:50:37.022Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1607
+    },
+    "captioned": {
+      "at": "2026-10-06T19:50:46.381Z",
+      "path": "data/captions/microsoft/ByRoL46n-Gg.vtt",
+      "vtt_sha256": "d1bcb41eef76fb56a0dd15e02c22cfa69bc9ff0a262e2f7151418f1876f31a5b",
+      "segments": 83,
+      "words": 4015,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T19:52:11.472Z",
+      "path": "data/extract/video/ByRoL46n-Gg.json",
+      "prompt": "extract-video@1",
+      "windows": 2,
+      "features": 12,
+      "quotes": 7,
+      "quotes_dropped": 6,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.076522
+    },
+    "summarized": {
+      "at": "2026-10-06T19:52:19.135Z",
+      "path": "data/summary/video/ByRoL46n-Gg.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0195824
+    },
+    "linked": {
+      "at": "2026-10-06T19:52:19.136Z",
+      "systems": [
+        "service",
+        "projects",
+        "integration"
+      ],
+      "topics": 12,
+      "objects_as_heard": 14
+    },
+    "published": {
+      "at": "2026-10-06T19:52:19.154Z",
+      "path": "content/videos/ByRoL46n-Gg.md"
     }
   },
   "input_hash": null,
@@ -19,7 +67,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 448,
-    "duration_s": 1608,
-    "via": "reconcile"
-  }
+    "duration_s": 1607,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "76eeddd0c36c9f0671218e830194e77a73e12e097297946b13ebcdcb8d54f6d4"
 }

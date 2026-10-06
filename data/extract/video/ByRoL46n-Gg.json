@@ -1,0 +1,484 @@
+{
+  "video_id": "ByRoL46n-Gg",
+  "item_id": "video/yt-microsoft/ByRoL46n-Gg",
+  "title": "Introducing: Dynamics 365 Field Service Integration with Business Central (2024 release wave 1)",
+  "duration_s": 1607,
+  "systems": [
+    "service",
+    "projects",
+    "integration"
+  ],
+  "topics": [
+    "field service integration",
+    "work orders",
+    "master data synchronization",
+    "resources",
+    "project tasks",
+    "service items",
+    "invoicing",
+    "dataverse",
+    "offline capabilities",
+    "resource scheduling",
+    "bookable resources",
+    "work order products"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and agenda",
+      "t_start": 0,
+      "t_end": 76.4
+    },
+    {
+      "title": "Integration value and benefits",
+      "t_start": 76.4,
+      "t_end": 218.7
+    },
+    {
+      "title": "Enabling the integration",
+      "t_start": 218.7,
+      "t_end": 341.9
+    },
+    {
+      "title": "Field service settings and setup demo",
+      "t_start": 341.9,
+      "t_end": 452.8
+    },
+    {
+      "title": "Master data synchronization overview",
+      "t_start": 452.8,
+      "t_end": 534.3
+    },
+    {
+      "title": "Resource and product synchronization demo",
+      "t_start": 534.3,
+      "t_end": 702.4
+    },
+    {
+      "title": "Integration table mappings and work order creation",
+      "t_start": 702.4,
+      "t_end": 891.3
+    },
+    {
+      "title": "Resources, projects, and work order setup",
+      "t_start": 891.3,
+      "t_end": 931.4
+    },
+    {
+      "title": "Managing work orders and products",
+      "t_start": 931.4,
+      "t_end": 1090.6
+    },
+    {
+      "title": "Demo: Adding products, services, and booking resources",
+      "t_start": 1090.6,
+      "t_end": 1212.7
+    },
+    {
+      "title": "Demo: Consuming materials and posting to project journal",
+      "t_start": 1212.7,
+      "t_end": 1425.1
+    },
+    {
+      "title": "Demo: Invoicing work orders and field service sync",
+      "t_start": 1425.1,
+      "t_end": 1570
+    },
+    {
+      "title": "Related sessions and closing",
+      "t_start": 1570,
+      "t_end": 1607
+    }
+  ],
+  "features": [
+    {
+      "name": "Field Service Integration",
+      "description": "Integration between Dynamics 365 Field Service and Business Central enabling work order management, resource scheduling, and invoicing within Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 15.8,
+      "t_end": 218.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires dataverse connection with sales and field service installed",
+        "Existing resource-product synchronization must be uncoupled"
+      ],
+      "tags": [
+        "field service",
+        "integration",
+        "work orders"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Work Order Synchronization",
+      "description": "Synchronization of work order consumption data from field service to business Central project journals, with configurable timing for when work is marked as used and posting settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 279.9,
+      "t_end": 341.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires project journal templates and batches to be designated",
+        "Field service invoice creation must be disabled"
+      ],
+      "tags": [
+        "work orders",
+        "synchronization",
+        "posting"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Resource Synchronization to Bookable Resources",
+      "description": "Resources are synchronized from Business Central to bookable resources in field service to enable work order scheduling, replacing the previous product-based synchronization approach. Standard coupling actions are available including couple, delete coupling, match base coupling, and synchronize data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 492.8,
+      "t_end": 822.3,
+      "is_demoed": true,
+      "caveats": [
+        "Resources must have base unit of measure set to hours",
+        "Resources cannot be blocked",
+        "Resources must not use timesheets",
+        "Existing resource-product couplings may need to be uncoupled"
+      ],
+      "tags": [
+        "resources",
+        "bookable resources",
+        "scheduling",
+        "resource scheduling",
+        "synchronization"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Service Items Synchronization to Customer Assets",
+      "description": "Service items from Business Central are synchronized to customer assets in field service to track operations on customer assets.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 513.8,
+      "t_end": 534.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "service items",
+        "customer assets"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Project Task Integration with Work Orders",
+      "description": "Project tasks are synchronized to enable consumption tracking and link work orders to specific business Central projects for postings and invoice creation. Standard coupling actions are available on project task cards, and users can create new work orders directly from project tasks with synchronized Business Central data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 513.8,
+      "t_end": 911.3,
+      "is_demoed": true,
+      "caveats": [
+        "Only project tasks of type posting are synchronized"
+      ],
+      "tags": [
+        "project tasks",
+        "posting",
+        "work order creation",
+        "data synchronization"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Work Order Product and Service Mappings",
+      "description": "Integration table mappings for work order products and work order services that bring data from field service work orders to business Central for consumption posting. Items of type inventory and non-inventory are synchronized from Business Central and can be picked in work order product lines. Service type items are synchronized as work order service lines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 702.4,
+      "t_end": 1049,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "integration mappings",
+        "work orders",
+        "items",
+        "product lines",
+        "service lines",
+        "synchronization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Field Service Product Type Configuration",
+      "description": "Products from Business Central must be configured with a field service product type field to be usable in field service, mapping to Business Central item types.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 595.7,
+      "t_end": 656.4,
+      "is_demoed": true,
+      "caveats": [
+        "Field service product type must be manually configured by users",
+        "Not done automatically due to performance reasons and resource considerations"
+      ],
+      "tags": [
+        "product type",
+        "configuration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Assisted Setup Guide for Field Service Integration",
+      "description": "Guided setup process that walks through enabling field service integration, configuring project journal templates and batches, setting hours unit of measure, and synchronization settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 259.4,
+      "t_end": 440.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires dataverse connection with sales and field service to be pre-configured"
+      ],
+      "tags": [
+        "assisted setup",
+        "configuration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Resource Booking for Work Orders",
+      "description": "Users can book Business Central resources for specific work orders in Field Service. Resources are displayed in a resource scheduling interface and can be selected to perform work on scheduled work orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1049,
+      "t_end": 1172.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "resource scheduling",
+        "resource booking",
+        "work order management"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Work Order Consumption and Project Journal Integration",
+      "description": "When work order products and services are marked as used in Field Service, the information is sent back to Business Central project journal templates and batches, enabling posting of consumption and invoicing against linked project tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1249.4,
+      "t_end": 1384.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "consumption tracking",
+        "project journal",
+        "material tracking"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Work Order Invoicing from Project Journal",
+      "description": "Project journal lines generated from consumed work order products and services can be converted into sales invoices. Posted sales invoices are automatically transferred back to Field Service as completion information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1425.1,
+      "t_end": 1549.8,
+      "is_demoed": true,
+      "caveats": [
+        "recurring job transfers invoices asynchronously"
+      ],
+      "tags": [
+        "invoicing",
+        "sales invoice",
+        "synchronization"
+      ],
+      "system": "service"
+    },
+    {
+      "name": "Business Central Price List Transfer to Work Orders",
+      "description": "Price lists from Business Central are transferred to Field Service work orders and can be selected to drive pricing for specific work orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 971.7,
+      "t_end": 1008.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "pricing",
+        "price lists"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "field service settings",
+      "t": 341.9
+    },
+    {
+      "type": "table",
+      "name": "bookable resource",
+      "t": 492.8
+    },
+    {
+      "type": "table",
+      "name": "customer assets",
+      "t": 513.8
+    },
+    {
+      "type": "table",
+      "name": "project task",
+      "t": 513.8
+    },
+    {
+      "type": "other",
+      "name": "work order",
+      "t": 56.4
+    },
+    {
+      "type": "table",
+      "name": "project journal",
+      "t": 259.9
+    },
+    {
+      "type": "other",
+      "name": "Bookable Resource",
+      "t": 1008.3
+    },
+    {
+      "type": "other",
+      "name": "Project Task",
+      "t": 822.3
+    },
+    {
+      "type": "other",
+      "name": "Work Order Product",
+      "t": 992
+    },
+    {
+      "type": "other",
+      "name": "Work Order Service",
+      "t": 1028.9
+    },
+    {
+      "type": "other",
+      "name": "Project Journal Template",
+      "t": 1269.4
+    },
+    {
+      "type": "other",
+      "name": "Project Journal Batch",
+      "t": 1269.4
+    },
+    {
+      "type": "other",
+      "name": "Project Planning Lines",
+      "t": 1363.7
+    },
+    {
+      "type": "other",
+      "name": "Sales Invoice",
+      "t": 1465.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Ivan ktic",
+      "confidence": "medium"
+    },
+    {
+      "name": "Andre",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 595.7,
+      "text": "in order to use the products from business Central in field service we will need to make sure that the products have the field",
+      "why_it_matters": "Manual configuration requirement for products to work in field service, affects data preparation before integration.",
+      "check": "snapped"
+    },
+    {
+      "t": 782.1,
+      "text": "you have the standard set of uh actions that you are that users are used to from our uh Dynamics 365 or sales integration",
+      "why_it_matters": "Establishes that the Field Service integration uses familiar patterns from existing Dynamics 365 sales integration, reducing user learning curve.",
+      "check": "exact"
+    },
+    {
+      "t": 859.5,
+      "text": "we could just go ahead and uh create a new work order you can see the data from business Central has uh already been",
+      "why_it_matters": "Demonstrates that work orders can be created from project tasks with automatic data transfer from Business Central, streamlining the workflow.",
+      "check": "exact"
+    },
+    {
+      "t": 992,
+      "text": "in business Central we are uh synchronizing uh uh items of type inventory and uh non-inventory items and they can be picked in workorder",
+      "why_it_matters": "Clarifies the scope of item types synchronized and how they are used in Field Service, important for understanding data flow and inventory management.",
+      "check": "exact"
+    },
+    {
+      "t": 1008.3,
+      "text": "you can also uh you will also be able to see a quantity on hand for the selected uh for the selected uh product",
+      "why_it_matters": "Shows that inventory visibility is available at the work order line level, enabling technicians to see stock information in Field Service.",
+      "check": "exact"
+    },
+    {
+      "t": 1249.4,
+      "text": "once we uh once we set the the workorder product uh uh line uh workorder products and workorder services as in a state used",
+      "why_it_matters": "Explains the key integration point where Field Service consumption data flows back to Business Central for accounting and invoicing purposes.",
+      "check": "exact"
+    },
+    {
+      "t": 1425.1,
+      "text": "once you get the once you get the project planning lines you can simply create uh an invoice and uh that invoice that gets",
+      "why_it_matters": "Describes the complete end-to-end invoicing process, showing bidirectional synchronization of financial documents between systems.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 6,
+    "evidence_verified": 0,
+    "evidence_unverified": 12
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025772999999999997
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025762
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024987000000000002
+    }
+  ]
+}

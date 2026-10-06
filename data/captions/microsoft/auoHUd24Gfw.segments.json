@@ -1,0 +1,283 @@
+{
+  "video_id": "auoHUd24Gfw",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 14.1,
+      "end": 34.3,
+      "text": "hello everyone I'm Sarco a product manager for business Central in this presentation I will show you what's new in power pages on business Central virtual tables so if you remember uh Power pages on Virtual tables has been in public review since since last uh 23rd Wave 2"
+    },
+    {
+      "t": 34.3,
+      "end": 50.8,
+      "text": "uh release right so now in a 24 wave 1 release we are introducing a small feature that has been in high demand by many um partners and customer which is multi compan support through data verse shared execution"
+    },
+    {
+      "t": 50.8,
+      "end": 70.9,
+      "text": "variable so later in the demo I will show The Following I will first review the access to Business Center data enabled by power pages on Virtual tables Anonymous or authenticated access for external user as well as authenticated access for internal users and then I'll"
+    },
+    {
+      "t": 70.9,
+      "end": 91.2,
+      "text": "show you the standard global company setting used by virtual table plug-in for all users and apps uh and power Pages portals and then I will show you also the standard user specific company setting used by virtual table plug-in to overwrite the global one so in this case for each user"
+    },
+    {
+      "t": 91.2,
+      "end": 111.4,
+      "text": "you can have a targeting one company and then all apps and uh Power Pages portal will will use that company to show the data from uh business Central so the new feature is essentially allowing uh virtual table plugin to use a data vers shared execution"
+    },
+    {
+      "t": 111.4,
+      "end": 131.4,
+      "text": "variable that we call BC Company ID with this uh shared execution variable a virtual table plug-in can actually overwrite both the global and user specific company setting so in this case you can have multiple power Pages uh portals addressing different um uh company in business Central so"
+    },
+    {
+      "t": 131.4,
+      "end": 151.5,
+      "text": "this is the the feature that um uh was not supported before multic company support and finally I will show you how to build custom data verse mapping plugin and mapping table that can be created to set the BC Company ID shared variable for any combination of users power"
+    },
+    {
+      "t": 151.5,
+      "end": 172.4,
+      "text": "apps and power Pages portals all right so before I uh before I go to the demo let me uh give you a review of anonymous or authenticated access for external internal users that enabled with power pages on Virtual tables there are three scenarios that's enabled by this uh this feature"
+    },
+    {
+      "t": 172.4,
+      "end": 192.4,
+      "text": "first is anonymous read only access for external or unlicensed user without signing in so uh uh Power Pages allow you to create for example a B2B portal so customer does not have to sign into the portal and when they visit it they can see business Central data uh even though"
+    },
+    {
+      "t": 192.4,
+      "end": 212.6,
+      "text": "they are unlicensed right the second um type of access is authenticated authenticated access for external or unlicensed user after registration and signing in and finally uh the third type of access is authenticated access for internal"
+    },
+    {
+      "t": 212.6,
+      "end": 232.7,
+      "text": "or license user after they sign in so the third type of access is essentially the same like a business Central uh virtual tables so you actually have to be licensed to be able to access a business Central virtual tables in data verse the first two you don't need to be licensed so uh you might ask the question uh what's the"
+    },
+    {
+      "t": 232.7,
+      "end": 252.9,
+      "text": "difference betweenin external on internal user so I'll show you an excerpt from the Dynamics 365 licensing guide it essentially says that external user are those user who have a employee who are not in an employee like relationship so they are actually uh they're not in an employee like relationship"
+    },
+    {
+      "t": 252.9,
+      "end": 273,
+      "text": "most of most of the time they are user from the customer or vendor organizations who who need to access um uh business Central data but they don't have a license for example in the process of um customer onboarding or vendor um uh vendor biding process so this type of user can be"
+    },
+    {
+      "t": 273,
+      "end": 286.9,
+      "text": "allowed to access business Central data through Power pages okay and internal users are essentially uh those user or um uh those user who actually employee or those user who actually"
+    },
+    {
+      "t": 286.9,
+      "end": 307.2,
+      "text": "performing uh business processes on the behalf of the company with business with business Central license so this internal user have to have a license to access business Central data from anywhere all right so that's a little bit of um illustration and diagram the differentiating between external and internal user and now"
+    },
+    {
+      "t": 307.2,
+      "end": 327.6,
+      "text": "let me show you how actually the custom data verse mapping plugin and table will work to allow multi company support in the standard um um uh Power Pages portal access to business centeral virtual tables it will use um um a data verse cruit API"
+    },
+    {
+      "t": 327.6,
+      "end": 348.2,
+      "text": "that will be translated by the table plugin into business Central cruit API targeting the business Central company that's configured uh in the global or user specific company settings this is standard that's been around for a while right but now you can actually create a custom data versus mapping"
+    },
+    {
+      "t": 348.2,
+      "end": 366.6,
+      "text": "plugin T plugin and table where the plug plugin can be created to intercept any power apps or any power Pages portal trying to access a selected business Central virtual tables through the data ver grou API for example you can actually create a mapping"
+    },
+    {
+      "t": 366.6,
+      "end": 386.9,
+      "text": "plugin where whenever uh Power Pages portal try to access the sales invoice virtual table for business Central through the re retrieve or retrieve multiple which is the re API for the this plugin can be actually triggered and this plugin will actually work with the mapping table"
+    },
+    {
+      "t": 386.9,
+      "end": 407.9,
+      "text": "to find any combination of user and a portal that is assigned to their specific business Central comp company so in this example if Portal 2 has a mapping table record that targets company to the mapping plugin will set the shared BC Company ID variable to company to"
+    },
+    {
+      "t": 407.9,
+      "end": 428.2,
+      "text": "so then uh next when the uh virtual table plug-in actually pick up the operation it will then use the content of the BC Company ID uh variable the shared variable to translate data ver cruit API into business Central cruit API targeting company to and completely overriding the global and user specific"
+    },
+    {
+      "t": 428.2,
+      "end": 448.6,
+      "text": "company settings and how do we actually create and register this plugin and uh create the content for the mapping table so it's very simple and you can actually look at the the link in this presentation which is a um learn uh learning document from uh dataverse um uh sites"
+    },
+    {
+      "t": 448.6,
+      "end": 469.3,
+      "text": "there's a dataverse plug-in documentation and how to register right so um you will see in the screenshot there's a a plug-in registration tool where in this case I'm actually registering my um company mapping plugin to intercept retrieve and retrieve multiple access to sales invoice"
+    },
+    {
+      "t": 469.3,
+      "end": 489.5,
+      "text": "virtual table so whenever there's a site that trying to read a sales invoice table which is virtualized in data verse this plugin will be triggered when the uh the plug-in will triggered is very important because you want to actually make sure that you prepare the shared variable before the um before the virtual table"
+    },
+    {
+      "t": 489.5,
+      "end": 510,
+      "text": "plug-in can use it right so in this case um in the next picture you can see that uh I set it up to intercept at the prevalidation stage so now we have the uh mapping plug-in you can actually create a Content or a record in the mapping table to make sure that a certain site will be uh targeting"
+    },
+    {
+      "t": 510,
+      "end": 530.1,
+      "text": "a certain business Central company so for example um if you have a portal and in the URL of this uh power power Pages portal you put _ Services slab you can actually see the portal ID which is actually a good right and you can actually enter this good into your uh mapping table what I call"
+    },
+    {
+      "t": 530.1,
+      "end": 550.5,
+      "text": "in here uh app name company mappings right and you can see here uh the last the the last row for portal ID um the one that I show in the screen screen uh 1 e c 2 e Etc right it's actually mapping or targeting my company so whenever that portal is open it will always use my company as The"
+    },
+    {
+      "t": 550.5,
+      "end": 570.7,
+      "text": "Bu business Central um uh company to Target and it will override the global and user specific settings the code for the plugin looks very simple so this is a very um a short cat um um that will be published in the in our documentation after the business Central launch it will deal with"
+    },
+    {
+      "t": 570.7,
+      "end": 590.8,
+      "text": "two trigger so basically whenever you launch a power apps targeting um uh Business Center virtual table or whenever you launch a power page portal targeting the business center virtual table in the case of power Pages it will actually uh parse the user agent of the power pages and try to pick the"
+    },
+    {
+      "t": 590.8,
+      "end": 611,
+      "text": "portal ID from that user agent of the power Pages portal once it get the uh the portal ID it will look at the mapping table if there's a record with that portal ald if there is a record with that portal ald it will take the value of the company ID and put that value into um uh BC Company ID shared variable so"
+    },
+    {
+      "t": 611,
+      "end": 631.1,
+      "text": "then uh once the mapping plug-in uh set that shared variable value the virtual table plugin can pick up the value and use it to translate uh data vers cruit API into business Central cruit API so now let me show you in a demo so in this demo I will show you first uh the two company within business Central to show"
+    },
+    {
+      "t": 631.1,
+      "end": 651.2,
+      "text": "you different sales invoices that I will um I will show later in the power Pages portal addressing those two different company so for Kronos USA you can see the sales invoices looks um uh like this they have like about seven sales um invoices right and then if I switch to company to my company"
+    },
+    {
+      "t": 651.2,
+      "end": 671.8,
+      "text": "the settings you can see there's a uh fewer sales invoices so that way you can remember uh in the demo which company we be use you can see here for the my company uh there's only two sales invoices right so now I will show you a data verse contact table"
+    },
+    {
+      "t": 671.8,
+      "end": 692.5,
+      "text": "where um a user from the customer of Kronos USA for example that will be used to access a power Pages portal as um uh user from um uh from the customer organization so in this case uh will be using this one"
+    },
+    {
+      "t": 692.5,
+      "end": 712.8,
+      "text": "say Robert Townes so Robert town is is a he's a contact UM for ad datum corporation which is the customer for um uh Kronos USA so I will use his credential as a contact user to go into a B2B portal created with power Pages all right and you can see here uh in order to show"
+    },
+    {
+      "t": 712.8,
+      "end": 733.4,
+      "text": "only the sales invoices related to a datam I have to create a new column in the contacts table in data verse which is busy customer such that you can create a syntactic relations that will only show a datum sales invoices in the power Pages uh B2B portal all right next I want I want to show"
+    },
+    {
+      "t": 733.4,
+      "end": 753.6,
+      "text": "the BC business Central configuration app that com with the virtual table plug-in installation where you can actually set the global company settings so in here when you click on this configuration top you can see that by default the whole company is U the the setup for the global company setting is a kronis USA so that means any apps"
+    },
+    {
+      "t": 753.6,
+      "end": 773.8,
+      "text": "on any P PES portal we always show uh entities say s sales invoices sales order uh related to Kronos USA and then if you go to the user table in data verse and find the user that you want to use for example mod administrator you can actually assign a user specific company setting and"
+    },
+    {
+      "t": 773.8,
+      "end": 794.4,
+      "text": "here you can see here there's a company to default on forms you can actually assign kronus us or my company or whatever company you have in business Central and this setting will override the global settings okay so that is a user specific company setting and what I want to show you right now is the shared variable the the mapping table"
+    },
+    {
+      "t": 794.4,
+      "end": 814.4,
+      "text": "that will um be use to set the uh BC Company ID shared variable so in here I have um this uh mapping table and um the mapping table has Company ID application name that's is that's for power apps portal ID for power pages and then user right so in this"
+    },
+    {
+      "t": 814.4,
+      "end": 835.2,
+      "text": "uh the in the last two row I actually have two power Pages portal with portal ID 1 ec2 and 8818 they are all targeting different business Central company so one is targeting my company the other is targeting uh Kronos USA you might ask where I can get those um uh those portal ID I will show you"
+    },
+    {
+      "t": 835.2,
+      "end": 855.2,
+      "text": "so when you are actually in the P power Pages portal you can actually go to the URL and then add this uh terms uh undor service slab and then you can actually see here this is the portal ID for that website and this one you can do the same thing"
+    },
+    {
+      "t": 855.2,
+      "end": 875.3,
+      "text": "to see the portal ID and you can see it here right so like this one is one easy2 the other one is 8818 and if you look at the the table the 8818 is targeting Chronos USA the one easy to tring my company all right so now let me um let me just start it with um"
+    },
+    {
+      "t": 875.3,
+      "end": 895.6,
+      "text": "uh showing you a demo of the three different access uh by um different type of user to business Central data using power pages so the first access is a Anonymous access without signing in so in this case um in my power Pages uh B2B portal I'm allowing the business Central item"
+    },
+    {
+      "t": 895.6,
+      "end": 915.6,
+      "text": "table to be accessed without any license and without signing in so if I click on here and you can see here all the items for sale that's uh offered by kronis USA and I can show this data to any external user with any license because I allow them to do an anonymous Reon access now I'm"
+    },
+    {
+      "t": 915.6,
+      "end": 935.6,
+      "text": "going to sign in as Robert which is the contact for adum now Robert is signing in as an adum uh contact and you can see here it can only see the S uh well it's still looking at the item table but now I can see invoices and when I go to the invoices uh page of this"
+    },
+    {
+      "t": 935.6,
+      "end": 956.3,
+      "text": "portal Robert can only see invoices related to aatam you can see here all dis posted invoice related to uh aatam Corporation now I'm going to log out and um uh signing back in as an internal user of Kronos USA company so let me sign out"
+    },
+    {
+      "t": 956.3,
+      "end": 977.1,
+      "text": "and sign in using the Microsoft entra ID and you can see now the invoices that I show is actually showing all invoices for the customer for kronis USA so you can see the invoices from School of Fine Art Alpine Ski house as well as adum Corporation and these invoices"
+    },
+    {
+      "t": 977.1,
+      "end": 997.4,
+      "text": "are actually related to the global company setting that I said before which is the targeting kronis USA right now what I wanted to show you is actually uh using that um mapping table I will show you that this portal we use kronis USA and the other portal we use my my company ID so let's go back here"
+    },
+    {
+      "t": 997.4,
+      "end": 1017.4,
+      "text": "and if I sign in with the entra Microsoft entra ID it will check the portal ID and we will it will look at the Kronos USA um uh invoices for its customer but if I go to the other site and I do the same thing we only use the my company uh invoices so in this case"
+    },
+    {
+      "t": 1017.4,
+      "end": 1022.6,
+      "text": "let me log in with the same"
+    },
+    {
+      "t": 1023.8,
+      "end": 1044,
+      "text": "user there you go so you can see that we can have multiple multiple sites targeting different virtual table uh related to different business Central company um setting that we use uh the mapping table for and the mapping plugin so in this case uh uh we have concluded the demo"
+    },
+    {
+      "t": 1044,
+      "end": 1054.1,
+      "text": "of um of the of this section for power pages on Virtual tables hope to see you soon"
+    },
+    {
+      "t": 1054.1,
+      "end": 1055,
+      "text": "bye-bye"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2720
+}

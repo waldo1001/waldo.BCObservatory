@@ -1,0 +1,28 @@
+{
+  "video_id": "V_ZyGeF5JXE",
+  "item_id": "video/yt-microsoft/V_ZyGeF5JXE",
+  "summary": "Business Central and Power Platform integration updates from April 2024: approval workflow templates with a Get Approver action and GPT sales order summaries, the Find One Record connector action, V2 action deprecation in favor of V3, Dataverse environment linking in the Admin Center, and Copilot in Power Automate coming as preview.",
+  "overview": "The video walks through what is new in Business Central integration with Power Platform. It starts with Power Automate: a single default entry point for building flows, approval templates that pass environment and company information, and a Get Approver action that reads the approver from the approval user setup table. It then shows AI Builder and Azure OpenAI GPT actions in an approval template that summarizes a sales order for the approver.\n\nThe second half covers connector changes (Find One Record, API route defaulting, updated tooltips, triggers in the new designer), the plan to retire V2 actions and V1.0 APIs, and V3 actions with an API category field. It closes with a Power Apps mixed reality sample on GitHub, Dataverse environment linking in the Admin Center, Power Pages, and Copilot in Power Automate and Copilot Studio.",
+  "key_points": [
+    "From this wave, the Power Automate single entry point is the default view in Business Central and does not need feature management.",
+    "The Get Approver action fetches the requester's approver from the approval user setup table, so approver parameters need no manual entry.",
+    "An approval template uses an Azure OpenAI GPT action through AI Builder to summarize a sales order (order number, customer, address, lines) for approvers. More templates are planned later in the wave.",
+    "The Find One Record connector action returns a single record through a simple interface, with no OData query syntax and no collection result.",
+    "V2 actions in the connector are now hidden. Existing flows keep running, but full deprecation is planned within the next year, so migrate to V3 actions. This applies to V2 actions, not V2 APIs.",
+    "V3 actions have an API category field to choose Microsoft standard V2.0 APIs, partner custom APIs, or workflow endpoints. Microsoft also plans to deprecate V1.0 APIs.",
+    "The Admin Center can link a Dataverse environment to Business Central. It is the default Power Automate environment unless the user has already configured one."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "6c567972b1038fee60692b8315b7877a673f7e6bc672bdb3a92363231b93dd2a",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.020806400000000003
+  }
+}

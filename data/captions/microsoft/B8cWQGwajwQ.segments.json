@@ -1,0 +1,556 @@
+{
+  "video_id": "B8cWQGwajwQ",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 15.7,
+      "end": 32.2,
+      "text": "hello my name is H Peter boring and I greet you a warm welcome to this session on uh the exciting new page scription tool for user acceptance testing that we launch in preview in this release"
+    },
+    {
+      "t": 32.2,
+      "end": 42.4,
+      "text": "so are you struggling with user acceptance testing today is it challenging getting a good or even any test"
+    },
+    {
+      "t": 42.4,
+      "end": 53.1,
+      "text": "coverage do track user acceptance tests in documents are you waiting for tedious manual testing to complete go"
+    },
+    {
+      "t": 53.1,
+      "end": 73.5,
+      "text": "live are the frequent updates causing test headaches would you like to run acceptant tests as part of devops to capture regressions already during development or as part of rollout and are you dreaming of empowering Consultants or even customer personas"
+    },
+    {
+      "t": 73.5,
+      "end": 94.2,
+      "text": "to capture and execute user exceptions tests for better agility and reduce costs well then we have great news for you because in this release we are introducing a new tool allowing customers and consultant buttons to exactly do that easily record"
+    },
+    {
+      "t": 94.2,
+      "end": 104.4,
+      "text": "and play user acceptance tests directly in the business Central web client driving higher test coverage and Agility while reducing"
+    },
+    {
+      "t": 104.4,
+      "end": 116.6,
+      "text": "costs we released this tool as a preview in 2024 release way one um so how can you use start trying this tool out and give us"
+    },
+    {
+      "t": 116.6,
+      "end": 136.7,
+      "text": "feedback well you access the page scripting to from the settings menu and that doesn't matter whether it's online or on premise I have an example of both here now uh to use the two we have separate permissions for recording and for"
+    },
+    {
+      "t": 136.7,
+      "end": 156.8,
+      "text": "playing scripts and so um the permission to record is basically oped out by default however since replay can actually uh insert or change data in the environment the permission to play has to be granted to the"
+    },
+    {
+      "t": 156.8,
+      "end": 173,
+      "text": "user and uh we actually right now support uh playback both in production and in uh sandboxes but we will warn if you're trying to uh play scripts recorded scripts in a production"
+    },
+    {
+      "t": 173,
+      "end": 193.1,
+      "text": "environment so how do you you know go about this well when you open the page is description to it uh opens up as a uh pane to the uh right side of the web client just like the page inspector tool and uh in that tool you can initiate"
+    },
+    {
+      "t": 193.1,
+      "end": 208.8,
+      "text": "a new recording or you can open a previously saved recording you both have an option in the toolbar for doing this but you can also use the buttons in the welcome text that describes how to use uh or getting started with this"
+    },
+    {
+      "t": 208.8,
+      "end": 229.6,
+      "text": "tool so uh when you then start uh a new recording which is what I'm showing here then uh the tool immediately enters the recording State and the way you see that is by this uh sort of a red blinking Circle that you also see in the screenshot here and that indicates"
+    },
+    {
+      "t": 229.6,
+      "end": 250,
+      "text": "a recording basically the icons that we're using here should be familiar to you from sort of uh you know uh record and and play uh experiences on dev deves H you can also see that we haven't really um recorded any steps yet so the list of steps recorded is"
+    },
+    {
+      "t": 250,
+      "end": 270.2,
+      "text": "empty you can then go about and perform uh various steps so in this case we have uh during the recording navigated to the customer the customer's page was shown and we invoked um a row on uh that list and that will show up then in the recorded steps in in the list"
+    },
+    {
+      "t": 270.2,
+      "end": 290.4,
+      "text": "also the last step uh which is then showing the customer card will be highlighted and um is the active step and for the last active step you have some additional things you can do with regards to to editing uh that step and we'll talk about that during this session then when you completed with your"
+    },
+    {
+      "t": 290.4,
+      "end": 301.1,
+      "text": "recording you can hit stop uh and then save it and you know you can even restart a recording from the end to add addition"
+    },
+    {
+      "t": 301.1,
+      "end": 321.7,
+      "text": "steps now a core concept of user acceptance uh testing is to verify an expected outcome of performing a given set of steps so to support this uh we uh allow you to as part of the recording insert so-called validation steps to check that the outcome"
+    },
+    {
+      "t": 321.7,
+      "end": 342,
+      "text": "um to check the outcome when you replay the recording right and so to do this you can right click a control a field here we have right clicked the uh number uh in the general fast Tab and you can see that um you have a validate submenu and part of that uh has an option"
+    },
+    {
+      "t": 342,
+      "end": 358.6,
+      "text": "for uh validating whether the current value is 10,000 so by invoking this option it will actually insert a script uh sorry a step uh in the script as we seeing here to validate that the number indeed is"
+    },
+    {
+      "t": 358.6,
+      "end": 378.6,
+      "text": "10,000 now if maybe it's not 10,000 that you want right so but that was what was there during the recording but maybe you want to test it for another value uh or maybe you want to test it for being different than what it normally is so it it fails uh you know for some reason you can click the three dots to open"
+    },
+    {
+      "t": 378.6,
+      "end": 399.2,
+      "text": "up a context menu on the step and select properties and that will open up a properties pain in the page scripting uh pain and there you can set the value that is being used for the validation again you can see 10,000 here you even have the choice of using various um operators"
+    },
+    {
+      "t": 399.2,
+      "end": 417,
+      "text": "or choose between several operators so you can for instance compare so that the value is equal to or greater than or less than Etc then when you're done you can save this script so that you basically download it"
+    },
+    {
+      "t": 417,
+      "end": 437.2,
+      "text": "um scripts are saved in yaml format and we'll talk uh more about that at the end of of this session but once you have a saved script you can share it you can give it to someone else and they can rerun that script of course for it to work not just fail"
+    },
+    {
+      "t": 437.2,
+      "end": 453.9,
+      "text": "it needs to be run in an environment similar to where it was recorded right you have to have the pages and objects and functionality to be similar but that is also the intent normally that you want to verify over time that the beh behavior in a given setup remains uh"
+    },
+    {
+      "t": 453.9,
+      "end": 474.4,
+      "text": "correct so uh let's have a look at our first recording so let's jump to the web client so here I am inside of the business Central web client and as I mentioned you invoke the tool in the settings menu and we have pay scripting option and also as mentioned"
+    },
+    {
+      "t": 474.4,
+      "end": 494.6,
+      "text": "you need to have permissions to be able to use this and of course I have that in this session both for recording and for playing back as we saw in the slides when you open the page scripting tool you have a getting started greeting here and we would like to start a new recording okay so here we now have"
+    },
+    {
+      "t": 494.6,
+      "end": 511.4,
+      "text": "the P scripting tool um recording you see that by the sort of blinking flashing red dot here for recording that we saw in the slide so I can now perform or record my steps we see that no steps have been recorded so let's start by opening the sales"
+    },
+    {
+      "t": 511.4,
+      "end": 531.5,
+      "text": "orders and we see that the tool will capture that I I I navigated to sales orders and that the sales orders page actually showed up I can then go and select an entry in the sales order list and so now we have this sales order open and maybe I want to validate"
+    },
+    {
+      "t": 531.5,
+      "end": 551.9,
+      "text": "something here maybe I want to validate that the contact is actually Robert uh towns so I'm going to right click Robert towns and I'm I'm going to go to the validate menu and I'm going to say that you know let's validate that the current value is Robert towns and so that will insert a step here that I would want to validate Robert towns"
+    },
+    {
+      "t": 551.9,
+      "end": 572.5,
+      "text": "so this is our recording for now let's uh stop the recording and then go back to the slides so we saw how easy it was uh to record a number of steps and also insert validation but you know that's great but of course we want to be able to play those steps uh back again to verify"
+    },
+    {
+      "t": 572.5,
+      "end": 592.5,
+      "text": "if the capture test still runs for instance after an update and so when you are in uh in playback and this is an example this is basically the the the script that I just recorded um you have an action to play we saw the record before but of"
+    },
+    {
+      "t": 592.5,
+      "end": 612.6,
+      "text": "course when you want to play something you have to press play uh we support that uh instead of playing that you can single step so uh we can you can use the next or the previous to go back and forth and execute uh the steps right but it's important to understand that when you go back or the previous action there's"
+    },
+    {
+      "t": 612.6,
+      "end": 633.1,
+      "text": "no undo in that you're just basically redoing it you're going back to redo the steps right there's no undo in this you can also uh rewind to the beginning right so if you if you stopped the execution or if you if you uh uh said next next next next next but not all the way through and you want to restart"
+    },
+    {
+      "t": 633.1,
+      "end": 650.6,
+      "text": "you can rewind to start and basically uh you see in this view that the last line is is gray and active that is basically sort of the step indicator for the active uh uh line right and that is the one you're moving with previous and next and and"
+    },
+    {
+      "t": 650.6,
+      "end": 670.7,
+      "text": "Rewind um in this case the script is actually failing so you get a notification that it is H failing and you uh apart from the the steps that are passing I mean you get an indication with the green check mark here for the steps that passed but you also get a red exclamation point for the step that fail it will actually"
+    },
+    {
+      "t": 670.7,
+      "end": 690.7,
+      "text": "show you the error here right so in this case I and I will show you that later I changed the name a little bit H so it's not the correct name and of course that will fail in playback so let's see how that works we are back again in the web client and we have the page scripting that we recorded uh"
+    },
+    {
+      "t": 690.7,
+      "end": 710.9,
+      "text": "or the pay script that we recorded before and uh I would like uh to basically just reset to the beginning here because I I would like to to play it right and we kind of left in the last step here so I I used the rewind to start and then I also went back to sort of my starting point which was uh in the the rooll center"
+    },
+    {
+      "t": 710.9,
+      "end": 731,
+      "text": "here so I'm going to uh press uh play and that is then going to run the whole script I could have moved one step ahead only uh but here I just press play to record everything and in this case everything is running right because we haven't changed anything so one of the things I I might be interested in and that was what I"
+    },
+    {
+      "t": 731,
+      "end": 752.3,
+      "text": "showed in the in the slides is that maybe I want to validate to another value right and so in this case let's not validate to Rober but Rob towns right and that will likely fail or that is the expectation so uh let's just stop this and Rewind was already rewind and go back to home here so I'm at a starting point and I'm going to run"
+    },
+    {
+      "t": 752.3,
+      "end": 772.8,
+      "text": "again and so it's again going to perform the task and as you see now the last step of validation is failing and we're told that we were expecting Rob towns but we got Robert towns so this basically shows you know how easy it is to record a page script and replay it"
+    },
+    {
+      "t": 772.8,
+      "end": 793.4,
+      "text": "as a unit as a user acceptance test now these are simple scenarios uh but as I men mentioned in the beginning you can also open uh recordings and so uh let's have a look at some existing recording here this is a little longer recording that will navigate to sales orders"
+    },
+    {
+      "t": 793.4,
+      "end": 813.5,
+      "text": "uh it will then filter down to the ad datum customer and then it will open it up and you know look up on the cell to customer number and select something and close it down and we can run that again and we will see that that it run through each step and in this case everything"
+    },
+    {
+      "t": 813.5,
+      "end": 834.4,
+      "text": "completed right so this was a little more advanced scenario of validating a recorded user acceptance test so when you want to play back a script uh you can actually decide only to run to a certain step right so if you go to the context menu on the step you want to run to you can select run to here"
+    },
+    {
+      "t": 834.4,
+      "end": 854.8,
+      "text": "and then a playback will execute and run only to that step and you see that here that we have the green check marks down until that step now if you want to continue you can either press play to just continue playing everything or you can select uh to run to a later step in the same"
+    },
+    {
+      "t": 854.8,
+      "end": 875.2,
+      "text": "manner yeah so we saw how easy it was not just to record uh but also to play a user acceptance test that you recorded in the page scripting tool when you've done that maybe you want to share that record recording and its result uh we have something we call uh the basically the playback lock"
+    },
+    {
+      "t": 875.2,
+      "end": 895.6,
+      "text": "uh you can share that so there is in the toolbar for the uh page scripting uh tool there is an opportunity to to share copy a link um and that link is self-contained it basically includes um the full recording and if you ran it it will also include"
+    },
+    {
+      "t": 895.6,
+      "end": 915.6,
+      "text": "the state of that recording and all of that is is hash in a Bas 64 payload that might not mean anything to you but basically it means that the link that you're getting to your environment will include a lot of uh you know strange characters that um is a very efficient representation of this test case and the result and then you can"
+    },
+    {
+      "t": 915.6,
+      "end": 934.6,
+      "text": "take this link and then you can give it to someone else and they can you know if they have access to that environment of course they can invoke that and they can see the page script as well as the result maybe to uh further investigate why this is failing in the"
+    },
+    {
+      "t": 934.6,
+      "end": 955.1,
+      "text": "test so that was basically the you know the basics of this but there's a lot more so let's talk about uh all of the advanced features that you have as well so uh to begin with the page scripting tool has its own uh clipboard and uh this can be used to store"
+    },
+    {
+      "t": 955.1,
+      "end": 975.3,
+      "text": "results that you get back during recording uh steps and reuse those later in follow-up steps basically and the way this works is again with the context menu on fields uh whenever you have a value you can go uh right click during recording you will have the page scripting"
+    },
+    {
+      "t": 975.3,
+      "end": 995.6,
+      "text": "context menu you can then select a copy and that will copy it to the page scripting clipboard that means that at a later stage a separate step where you need that value you can again invoke the context menu but now you can go to paste and as we see here in this example we have"
+    },
+    {
+      "t": 995.6,
+      "end": 1015.7,
+      "text": "a an an option to put in the cell to customer name the datm corporation we can then paste that in in that next step right so that's a really convenient way to reuse this to reuse values across steps uh related to that uh during a recording that could also be certain session information for instance"
+    },
+    {
+      "t": 1015.7,
+      "end": 1037.8,
+      "text": "the user ID uh that you sometimes need in certain uh tests so um in that scenario similar to before you can go into the context menu for page scripting and you can now paste in on the session info the user ID in this case it was the admin right that might be relevant for certain uh"
+    },
+    {
+      "t": 1037.8,
+      "end": 1057.8,
+      "text": "scenarios then we have a number of uh of Step branches uh the first one is what we call conditional step branches so sometimes a set of Step s only apply on a given uh condition right so imagine that you open a list uh page uh maybe if the list"
+    },
+    {
+      "t": 1057.8,
+      "end": 1077.8,
+      "text": "page is empty you want to do something different than if it has content if it's empty maybe you want to you know create a line whereas if it has something maybe you just want to select a line and check something right and so um to to cater for that during a recording you can uh again use"
+    },
+    {
+      "t": 1077.8,
+      "end": 1098.3,
+      "text": "um the contact menu so here I'm on an empty um list and you can see I go into the pay script in context menu and I go to the add conditional steps when option and here it suggests that my possibility is that when the row count is zero I can do something I can insert a conditional"
+    },
+    {
+      "t": 1098.3,
+      "end": 1110,
+      "text": "uh step so um imagine that we've done that uh that will then insert in the list of steps in the page scripting paint"
+    },
+    {
+      "t": 1110,
+      "end": 1130.3,
+      "text": "this condition right so here it says when control one uh row count is zero and you can see that the steps below that says no step is kind of nested inside that's because now we created a a branch or nesting where everything that we record will happen only if that condition"
+    },
+    {
+      "t": 1130.3,
+      "end": 1150.6,
+      "text": "is met and so here we have scenarios that I show here that I ran a a step that then became nested under that conditional Branch right when you then want to stop executing steps in that Branch you select the end scope and that goes out of the conditional branch and that means"
+    },
+    {
+      "t": 1150.6,
+      "end": 1170.9,
+      "text": "that the subsequent steps that you record will no longer be nested under that condition but will happen afterwards right so your total flow will be something happens if a condition is met then only then do something and then when you're done with doing that go back and continue uh the script yeah and maybe I should mention"
+    },
+    {
+      "t": 1170.9,
+      "end": 1191,
+      "text": "that you can just as we saw before and I actually have that in the beginning here but I didn't talk to it when you have that conditional step in the properties pane that you can invoke with the three dots context menu on the step of course you can change that to have a different condition and with a different operator so you can say that"
+    },
+    {
+      "t": 1191,
+      "end": 1211,
+      "text": "if it's more than five rows you want to do something or similar to that let's jump to the related concept uh of of branching but for optional pages right so sometimes in a flow a page will appear uh but it's conditionally it's not always appearing"
+    },
+    {
+      "t": 1211,
+      "end": 1231,
+      "text": "it's because of something else right and here and again you can uh insert a branch H but now you make that page that appear an optional page so you see here in the screenshot that I select from the context menu on the step in the page scripting pane to make that an optional"
+    },
+    {
+      "t": 1231,
+      "end": 1251.1,
+      "text": "page and that basically means that all of the steps that I record from there on until I exit the branch will only happen if that page is shown so we can see that here I say that this page is optional um for this case there's no properties it's you know it's either showing or not um"
+    },
+    {
+      "t": 1251.1,
+      "end": 1272,
+      "text": "and right now there's no steps then on that page that appears when I record I will do some steps and then when to I'm done I'm going to say end scope and then I can continue the recording to record the steps if that page is not shown right so that gives you again control over um branchings"
+    },
+    {
+      "t": 1272,
+      "end": 1290.1,
+      "text": "in your recorded steps by the way in the UI here you know if you get very long scripts you can collapse these n structures right that's what I'm showing here you should be familiar with that uh concept and that just makes it a little bit easier to read the overall"
+    },
+    {
+      "t": 1290.1,
+      "end": 1310.4,
+      "text": "scripts then we talked a number of times uh that you had the properties pain and you could put in a value what I haven't shown yet uh is that you can actually also write an expression for very simple calculations and we're using power effect as the expression language and you might be familiar with power effects from"
+    },
+    {
+      "t": 1310.4,
+      "end": 1321.4,
+      "text": "from the Power Platform or or Excel and U in the uh properties pain there is a reference uh to the power FX uh you know"
+    },
+    {
+      "t": 1321.4,
+      "end": 1341.4,
+      "text": "syntax um and in addition to power F we also give you uh three top level objects that you can use the Expression you can call into the clipboard that we talked about before to pull out values there you can call into something that we call parameters which are really variables for the script"
+    },
+    {
+      "t": 1341.4,
+      "end": 1361.4,
+      "text": "and we'll talk about those later and you can also access the session info that I spoke about before so to show a couple of examples here that you see you could pick out the um you know maybe the customer card number the number on the customer card maybe you save that to the clipboard and in your flow you just want to see whether that's"
+    },
+    {
+      "t": 1361.4,
+      "end": 1382,
+      "text": "being incremented uh by one uh it could also be that you want to generate a random name as part of generating a new object to have some uniqueness maybe you want to have a a semi- random name so that could be concatenating the the the customer with today's date or or time or something like that then also um"
+    },
+    {
+      "t": 1382,
+      "end": 1402.1,
+      "text": "sometimes when you are executing uh uh steps or you know logic in in business Central maybe it takes some extra time maybe it calls to an external web service where there can be some time happening right and to not time out uh and fail during playback you can actually tell during"
+    },
+    {
+      "t": 1402.1,
+      "end": 1422.2,
+      "text": "recording that you expect things to take a little longer time so we have the option of setting in a step an extra step which is a weight step and um you can go to the pro it will default to 1 second or th000 milliseconds and you can go to the properties and you can change that to whatever 10 seconds or something like that in general you"
+    },
+    {
+      "t": 1422.2,
+      "end": 1442.4,
+      "text": "know you shouldn't really so so the the weight States here are more to cater for the scenarios where you want to avoid the time M but it's not something that you really want to use a lot that's that's you know if there's no need for it don't use it then we talked about that uh the scripts are really stored in the yaml format um and that's like um you know metad"
+    },
+    {
+      "t": 1442.4,
+      "end": 1462.4,
+      "text": "driven format for for clients here and um the the nice thing about having a yaml as the format is that it's kind of a standardized format right and that helps in editing scenarios and it helps in in devop scenarios as well uh I have an example here of a script and the high level"
+    },
+    {
+      "t": 1462.4,
+      "end": 1482.4,
+      "text": "structure of the script is that there's like a header with the name and the description of this then we capture the role that is being used uh to ex to record the script we do that because the you everything is ried on sort of the controls so so the script will point to controls in the UI and whether they show up or not"
+    },
+    {
+      "t": 1482.4,
+      "end": 1502.6,
+      "text": "will typically depend on the role because there can be a role customizations that can also be personalizations of course um and then we have each of the steps and some of the steps can be nested if we have these branches that I that I spoke about um and each step can have there can be different types of steps"
+    },
+    {
+      "t": 1502.6,
+      "end": 1522.6,
+      "text": "and they are covered in the metadata for the steps I won't go into detail on that but that will give you a high level understanding of of the content now there are a couple of scenarios powerful scenarios that we currently only support in yaml so you have to go to edit them in the yaml H they are supported when"
+    },
+    {
+      "t": 1522.6,
+      "end": 1542.9,
+      "text": "you then play them in the client but there isn't a uh page in uh s page is scripting user experience in the client for doing these things only in y and the first one is that you can as I mentioned a little earlier when we talked about the Expressions you can actually parameterize scripts"
+    },
+    {
+      "t": 1542.9,
+      "end": 1562.9,
+      "text": "so that's basically the equivalent of setting some variables that you can then use throughout the script to to to you know cater for um basically make it more robust and make it easier if you want to change that value to not have to change it in many places in the script but just in the parameter list and so in this"
+    },
+    {
+      "t": 1562.9,
+      "end": 1576.6,
+      "text": "scenario you you know in the example you see we have the parameters uh Noe in the um yaml file and we specify a parameter called customer list number where we set the value to uh"
+    },
+    {
+      "t": 1576.6,
+      "end": 1596.8,
+      "text": "10,000 uh and then in the steps you can use that so you can call up the parameters collection so here in the step shown we set the value by looking up in the parameters um collection and pick out the customer list number from there and they will then of course insert 10,000"
+    },
+    {
+      "t": 1596.8,
+      "end": 1616.8,
+      "text": "when we execute disc script and as I said you can use this uh in the expressions in the UI as well so you could do the same parameters. customer list number from within the UI then uh you cannot so a common scenario uh and we'll talk about that later is also that it can be beneficial to"
+    },
+    {
+      "t": 1616.8,
+      "end": 1637.1,
+      "text": "make small scripts that are more um specific and then tie them together in a suite basically where you execute the scripts in a sequence but there's no way to to really edit there's not a lot of editing um support yet inside of the web client experience of the page scripting tool H and we don't support"
+    },
+    {
+      "t": 1637.1,
+      "end": 1657.2,
+      "text": "any kind of sweet uh management from in there but you can actually do that in yaml and only in yam of course and so um you can bundle multiple scripts uh there and the way it works is that um you use a the include command in the script here and so in the example here you"
+    },
+    {
+      "t": 1657.2,
+      "end": 1677.3,
+      "text": "see that we have two includes and basically you point to the script file right so we're pointing to two different scripts right here and the sequence of course matters it's going to go top down when it when it executes and you can use the parameters I just talked to talked about to um to reuse variables"
+    },
+    {
+      "t": 1677.3,
+      "end": 1697.5,
+      "text": "across uh the scripts of course the scripts that you include inside of those they need to use those parameters as well for this to work right so basically the way this works is that you have separate scripts and then you create a new script which only caters for being sort of the the the the suite and then that's the one you execute"
+    },
+    {
+      "t": 1697.5,
+      "end": 1717.6,
+      "text": "and on on load time it will pull in uh the other um included scripts okay let's uh round off with a little bit of best practices and and um and known things so first off um I showed a couple of scenarios where we select in the list and"
+    },
+    {
+      "t": 1717.6,
+      "end": 1737.6,
+      "text": "you probably saw that we we we don't track you know the actual instance that we are selecting like a in invoice number 47 or something like that you you basically pick uh from the from the top right and so if you want to match a specific one it can be a good idea during recording to to try to set a"
+    },
+    {
+      "t": 1737.6,
+      "end": 1757.7,
+      "text": "filter in the list because we are capturing that filter um to make sure that the line that you're interested in is shown at the top and then it will be selected uh during the replay as well because it will apply the same filters also when you are relying on entities you know maybe you need to use a customer or something like that in a script for a"
+    },
+    {
+      "t": 1757.7,
+      "end": 1777.7,
+      "text": "sales order if you want to be in control it can be a good idea to uh create a separate script for creating that customer so that you're not allow you know relying on the fact of that being there in in an environment where the data changes and this is also a scenario where that site concept that I talked about before"
+    },
+    {
+      "t": 1777.7,
+      "end": 1790.1,
+      "text": "could come in handy where you make one recording for creating the customer and one recording for using um a customer in the um sales order and then you create a suite tying those together"
+    },
+    {
+      "t": 1790.1,
+      "end": 1810.4,
+      "text": "right uh and that's basically what I what I just said here that it's also good to break down the flow in smaller smaller pieces then a couple of things uh that are good to know uh the as I said the tool is in preview now um please give us feedback on yamama and uh on ideas on"
+    },
+    {
+      "t": 1810.4,
+      "end": 1830.9,
+      "text": "this probably the biggest shortcomings at this point it is the first version right and it is in preview so there will be uh things but um there aren't that many that there's not a lot of support for during recording to to change the steps right that hey I want to delete these two and rearrange that's also"
+    },
+    {
+      "t": 1830.9,
+      "end": 1851.4,
+      "text": "because and the the the the sequence is important right so you cannot just Omid a step in the middle but there are things that that would be nice to be able to do that you cannot yet do with with editing the steps uh also as I mentioned you can only build Suites in yaml not in the client and then"
+    },
+    {
+      "t": 1851.4,
+      "end": 1871.5,
+      "text": "I mentioned in the complete beginning that one of the nice things about this would be that you can uh run run the scripts play the scripts in pipelines so as part of development or as part of uh sort of roll out of cicd you can actually execute these to see if you have any regressions and that's something"
+    },
+    {
+      "t": 1871.5,
+      "end": 1891.8,
+      "text": "that we're working on but uh we and um it's not yet supported to run that you can only run them in the client at this point then there's a couple of uh sort of known issues we're not recording designer interactions uh you know if you open up the incline designer U report"
+    },
+    {
+      "t": 1891.8,
+      "end": 1912.3,
+      "text": "previews cannot be closed um we don't handle notifications or multiple not notifications that that well um we really need the next previous buttons on cards to be there if you have fields that are called so basically we're relying on references to controls in the UI"
+    },
+    {
+      "t": 1912.3,
+      "end": 1932.6,
+      "text": "with a name and if you put fields in different places with the same name we might not find the right uh place also sometimes you have uh messages or confirmation dialogues Etc that can H pop up in sort of you know different different flows before or after"
+    },
+    {
+      "t": 1932.6,
+      "end": 1952.7,
+      "text": "a page and that can create some race conditions that where you record it in one way and when you replay it it actually happens in a different sequence and and that could lead to the replay failing so that's something to be aware of as well and then it's super important to mention that um you know what is this tool not because you"
+    },
+    {
+      "t": 1952.7,
+      "end": 1973,
+      "text": "might be familiar with uh you know just general um test tools for web pages HTML automation tools and this is not an HTML automation tool right so we cannot automate uh control edings like charts or any embedded uh content like powerbi or power apps or something"
+    },
+    {
+      "t": 1973,
+      "end": 1993.1,
+      "text": "like that or anything outside of business Central where you want to orchestrate some kind of end to end flow that goes out outside it it is riing on knowing about the controls and knowing about BC but that is also what makes it stronger than an HTML automation tool for some of the scenarios that involve a"
+    },
+    {
+      "t": 1993.1,
+      "end": 2013.3,
+      "text": "business Central uh controls um it is I'm not covering it in this video but it is worth mentioning also that you can actually use this tool together with some of these sort of more generic tool to actually uh plug in this and execute uh in a bigger end to end scenario"
+    },
+    {
+      "t": 2013.3,
+      "end": 2033.7,
+      "text": "and by the way remember as usual there's lots of resources available you know you can ask us questions on yamama you can join office hours on various topics you can submit your ideas to the idea size Etc so use the resources to give us feedback anyway I hope you uh found the you know I think this is an awesome Tool"
+    },
+    {
+      "t": 2033.7,
+      "end": 2044,
+      "text": "uh I uh I really urge you to try it out and give us feedback uh really hope that you like it and I thank you for joining this session"
+    },
+    {
+      "t": 2044,
+      "end": 2045,
+      "text": "bye"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 15.669,
+      "text": "[Music]"
+    },
+    {
+      "t": 15.679,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 5647
+}

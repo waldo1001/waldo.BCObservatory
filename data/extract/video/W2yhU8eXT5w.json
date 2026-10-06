@@ -1,0 +1,532 @@
+{
+  "video_id": "W2yhU8eXT5w",
+  "item_id": "video/yt-microsoft/W2yhU8eXT5w",
+  "title": "What's new: Business Central Mobile App and Barcode Scanning (2024 release wave 1)",
+  "duration_s": 1659,
+  "systems": [
+    "warehouse",
+    "inventory",
+    "development"
+  ],
+  "topics": [
+    "barcode scanning",
+    "mobile app",
+    "worksheet pages",
+    "camera integration",
+    "laser scanner",
+    "control addin api",
+    "item tracking",
+    "camera barcode scanner provider",
+    "warehouse pick",
+    "continuous scanning",
+    "gestures",
+    "android"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and session overview",
+      "t_start": 0,
+      "t_end": 49.4
+    },
+    {
+      "title": "Worksheet pages on mobile devices",
+      "t_start": 49.4,
+      "t_end": 121.6
+    },
+    {
+      "title": "Barcode scanning overview and supported types",
+      "t_start": 121.6,
+      "t_end": 180.8
+    },
+    {
+      "title": "Three barcode scanning scenarios",
+      "t_start": 180.8,
+      "t_end": 282.5
+    },
+    {
+      "title": "Camera Barcode Scanner provider API details",
+      "t_start": 282.5,
+      "t_end": 363.5
+    },
+    {
+      "title": "Demo of scenario 2 - camera barcode scanning",
+      "t_start": 363.5,
+      "t_end": 619.9
+    },
+    {
+      "title": "Code examples for barcode scanning implementation",
+      "t_start": 619.9,
+      "t_end": 853.1
+    },
+    {
+      "title": "Scenario 3 - laser barcode scanner integration",
+      "t_start": 853.1,
+      "t_end": 1014.5
+    },
+    {
+      "title": "Warehouse pick demo with laser scanner",
+      "t_start": 1014.5,
+      "t_end": 1175.4
+    },
+    {
+      "title": "Scanning items in warehouse pick process",
+      "t_start": 1175.4,
+      "t_end": 1302.8
+    },
+    {
+      "title": "Code implementation: previous release approach",
+      "t_start": 1302.8,
+      "t_end": 1404
+    },
+    {
+      "title": "Code implementation: current release with control add-in",
+      "t_start": 1404,
+      "t_end": 1464.2
+    },
+    {
+      "title": "Control add-in API architecture and security",
+      "t_start": 1464.2,
+      "t_end": 1577.6
+    },
+    {
+      "title": "Resources, feedback, and conclusion",
+      "t_start": 1577.6,
+      "t_end": 1659
+    }
+  ],
+  "features": [
+    {
+      "name": "Worksheet pages on mobile phones",
+      "description": "Worksheet pages are now available on mobile phones with a simplified version featuring a shorter header section, worksheet lines, and a full summary section. Users can tap on desired areas to edit data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 49.4,
+      "t_end": 110.9,
+      "is_demoed": false,
+      "caveats": [
+        "No changes to desktop and tablet worksheet pages",
+        "Customers should check how they look and verify desired UI"
+      ],
+      "tags": [
+        "worksheet pages",
+        "mobile",
+        "ui"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Native barcode scanning on SaaS",
+      "description": "Native barcode scanning capability that was previously limited to on-premises is now available on SaaS in this release, including support for both camera and laser scanning devices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 121.6,
+      "t_end": 142,
+      "is_demoed": false,
+      "caveats": [
+        "Previously unavailable on SaaS due to technical limitations"
+      ],
+      "tags": [
+        "barcode scanning",
+        "saas",
+        "mobile"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Camera barcode scanning - UI button scenario",
+      "description": "Scenario 1 provides a simple UI button that triggers camera barcode scanning functionality. Developers annotate a field with extended data type equals barcode property to instruct the mobile client to show the barcode scanning button.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 200.8,
+      "t_end": 241.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "barcode scanning",
+        "camera",
+        "ui button",
+        "extended data type"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Camera barcode scanning - AL API with Control Addin",
+      "description": "Scenario 2 provides developers with a customizable camera barcode scanning experience through a new AL API based on control addin. Replaces the previous .NET based API and is now available on SaaS. Can be triggered from roll center queue, action, button, link or automated logic.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 241.5,
+      "t_end": 282.5,
+      "is_demoed": true,
+      "caveats": [
+        "Previously unavailable on SaaS due to technical limitations"
+      ],
+      "tags": [
+        "barcode scanning",
+        "camera",
+        "control addin",
+        "api",
+        "saas"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Camera Barcode Scanner provider control addin",
+      "description": "New control addin available in BC apps GitHub repo providing multiple procedures and events for camera barcode scanning. Includes request barcode, request barcode async procedures and barcode available, barcode failure, control addin ready events.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 282.5,
+      "t_end": 363.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "control addin",
+        "github",
+        "api",
+        "barcode scanning"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Item journal barcode scanning demo",
+      "description": "Demo showing camera barcode scanning capability used for positive adjustment of items with item tracking. Demonstrates scanning serial numbers and lot numbers for both serial-tracked and lot-tracked items using the item journal page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 363.5,
+      "t_end": 619.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "barcode scanning",
+        "camera",
+        "item journal",
+        "item tracking",
+        "demo"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "Continuous barcode scanning",
+      "description": "Ability to continuously scan barcodes by calling request barcode async after processing each barcode, allowing warehouse workers to scan multiple items in sequence.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 833.1,
+      "t_end": 873.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "camera scanning",
+        "mobile app",
+        "barcode"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Dedicated laser barcode scanner integration",
+      "description": "Scenario 3 focuses on integration with dedicated laser barcode scanners used primarily by warehouse workers. Requires configuration at device level and application level to integrate laser scanner with BC app. Available on Android devices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 853.1,
+      "t_end": 1014.5,
+      "is_demoed": true,
+      "caveats": [
+        "Android OS devices only",
+        "Requires device-level configuration of laser barcode scanner",
+        "Requires AL implementation to register scanning events"
+      ],
+      "tags": [
+        "barcode scanning",
+        "laser",
+        "warehouse",
+        "android",
+        "control add-in"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Warehouse pick gestures",
+      "description": "Gesture support added to warehouse-related list pages to allow warehouse workers to perform actions such as right-swiping to assign pick documents to themselves.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1034.5,
+      "t_end": 1075,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "gestures",
+        "warehouse pick",
+        "user interface"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Optimized warehouse pick UI",
+      "description": "Redesigned warehouse pick document interface showing only relevant information for warehouse workers, organized by action type with take and place lines, and automatic transfer of tracking information between take and place lines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1115.2,
+      "t_end": 1302.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "warehouse pick",
+        "ui",
+        "item tracking",
+        "mobile"
+      ],
+      "system": "warehouse"
+    },
+    {
+      "name": "Control add-in API for barcode scanning",
+      "description": "New AL-based control add-in API designed to replace net-based APIs for barcode scanning functionality. These are UI-less, security-focused control add-ins that only interact with client extensibility methods like barcode scanning.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1404,
+      "t_end": 1557.2,
+      "is_demoed": true,
+      "caveats": [
+        "No JavaScript computation support",
+        "No UI frame or styling properties",
+        "Only Microsoft can provide these control add-ins"
+      ],
+      "tags": [
+        "control add-in",
+        "api",
+        "security",
+        "al development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Net-based barcode APIs migration path",
+      "description": "Existing net-based APIs for barcode scanning remain supported with plans to migrate all functionality to control add-in APIs in upcoming releases. Partners are encouraged to use control add-in API for new functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1557.2,
+      "t_end": 1597.9,
+      "is_demoed": false,
+      "caveats": [
+        "Net-based APIs still supported for now"
+      ],
+      "tags": [
+        "migration",
+        "api",
+        "deprecation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Location provider via control add-in",
+      "description": "Location provider client extensibility method planned to be made available via control add-ins in upcoming releases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1577.6,
+      "t_end": 1618.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "location provider",
+        "control add-in",
+        "future"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "item journal",
+      "t": 383.6
+    },
+    {
+      "type": "page",
+      "name": "item tracking lines",
+      "t": 485.4
+    },
+    {
+      "type": "other",
+      "name": "camera Barcode Scanner provider addin",
+      "t": 302.5
+    },
+    {
+      "type": "other",
+      "name": "barcode scanner",
+      "t": 1322.8
+    },
+    {
+      "type": "other",
+      "name": "request Barcode Scanner async",
+      "t": 1343
+    },
+    {
+      "type": "other",
+      "name": "barcode received",
+      "t": 1383.8
+    },
+    {
+      "type": "other",
+      "name": "control adding",
+      "t": 1404
+    },
+    {
+      "type": "other",
+      "name": "request Barcode Scanner a sync",
+      "t": 1424
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Claudio",
+      "confidence": "high"
+    },
+    {
+      "name": "Chan",
+      "confidence": "medium"
+    },
+    {
+      "name": "Claudia",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 49.4,
+      "text": "in the previous release we have brought to you some new features on the business Central mobile app namely we brought to you the",
+      "why_it_matters": "Establishes that barcode scanning was introduced in the previous release, providing context for what is new in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 121.6,
+      "text": "unfortunately due to some uh technical limitations we were not able to make these available on SAS but we did listen to your feedback",
+      "why_it_matters": "Indicates that SaaS support for native barcode scanning is now available in this release, addressing a previous limitation.",
+      "check": "exact"
+    },
+    {
+      "t": 221.2,
+      "text": "all you have to do is to annotate a field of type code and text with the property extended data type equals barcode once",
+      "why_it_matters": "Provides the specific development approach for implementing the simplest barcode scanning scenario through field annotation.",
+      "check": "exact"
+    },
+    {
+      "t": 282.5,
+      "text": "in this release we are bringing you a new alapi based on controll D that is supposed to replace the donet based API and",
+      "why_it_matters": "Confirms a technology shift from .NET to control addin-based API and its key benefit of enabling SaaS support.",
+      "check": "snapped"
+    },
+    {
+      "t": 302.5,
+      "text": "we've added the new API to our open source GitHub repo namely BC apps and you can find it under the control addin name",
+      "why_it_matters": "Provides specific location and name of the new control addin implementation in the public BC apps repository.",
+      "check": "exact"
+    },
+    {
+      "t": 853.1,
+      "text": "this how you get uh The Continuous scanning kind of U experience",
+      "why_it_matters": "Explains the key feature that enables warehouse workers to scan multiple items rapidly without manual intervention between scans.",
+      "check": "exact"
+    },
+    {
+      "t": 873.6,
+      "text": "it's important to mention that in order to update this functionality it requires configurations at two levels first level would be a configuration at",
+      "why_it_matters": "Explains that laser scanner integration requires dual-level configuration, indicating implementation complexity.",
+      "check": "exact"
+    },
+    {
+      "t": 893.6,
+      "text": "it's really important to mention that this capability is available only on Android OS devices",
+      "why_it_matters": "Defines a critical limitation of dedicated laser barcode scanner integration.",
+      "check": "exact"
+    },
+    {
+      "t": 954.1,
+      "text": "similar as in the previous scenario we were not able to make the capability available in the last release on SAS but with the",
+      "why_it_matters": "Clarifies that laser barcode scanner support is newly available this release on SaaS through the new control add-in API.",
+      "check": "exact"
+    },
+    {
+      "t": 1075,
+      "text": "it is a document with a set of instruction for the warehouse worker uh to move items from uh one bin in a location",
+      "why_it_matters": "Explains the purpose and workflow of warehouse pick documents used in the demonstration.",
+      "check": "snapped"
+    },
+    {
+      "t": 1505.2,
+      "text": "they are a close system meaning that uh they can only interact with uh the barcode scanning functionality or any other client extensibility",
+      "why_it_matters": "Highlights the security model of the new control add-in API as a closed system.",
+      "check": "snapped"
+    },
+    {
+      "t": 1577.6,
+      "text": "we plan to migrate all the that net based apis to control Adin and therefore we strongly encourage to update any new barcode scanning",
+      "why_it_matters": "Sets expectations for migration from net-based to control add-in APIs.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 110.9,
+      "kind": "other",
+      "text": "we are um advising you to check how they look like and make sure that uh uh you have the desired user interface"
+    },
+    {
+      "t": 954.1,
+      "kind": "not-in-this-release",
+      "text": "we were not able to make the capability available in the last release on SAS"
+    },
+    {
+      "t": 1597.9,
+      "kind": "coming-later",
+      "text": "in the upcoming releases we are also going to be making other client and Sensibility methods such as the location provider to be available via the control addins"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 12,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 13
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026215999999999996
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026276
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022683
+    }
+  ]
+}

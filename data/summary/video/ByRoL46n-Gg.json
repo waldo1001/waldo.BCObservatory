@@ -1,0 +1,27 @@
+{
+  "video_id": "ByRoL46n-Gg",
+  "item_id": "video/yt-microsoft/ByRoL46n-Gg",
+  "summary": "Dynamics 365 Field Service integration with Business Central (2024 release wave 1): setup, master data sync of resources, project tasks, service items and items, and a demo of work orders flowing through project journals to sales invoices.",
+  "overview": "The session introduces the integration between Dynamics 365 Field Service and Business Central. It covers the value of the integration, enabling it through an assisted setup guide, and the prerequisites: a Dataverse connection with Sales and Field Service installed, and existing resource-product couplings uncoupled.\n\nThe demos follow the data flow. Resources sync to bookable resources, project tasks link work orders to Business Central projects, and items sync for use in work order product and service lines. Consumption marked as used in Field Service goes to project journals in Business Central. From the resulting project planning lines, a sales invoice is created, and the posted invoice goes back to Field Service.",
+  "key_points": [
+    "Prerequisite: a Dataverse connection with Sales and Field Service installed; the assisted setup guide covers enabling the integration, project journal template and batch, hours unit of measure and sync settings.",
+    "Resources sync to bookable resources, replacing the earlier product-based sync. Resources need base unit of measure hours, must not be blocked and must not use timesheets. Existing resource-product couplings may need to be uncoupled.",
+    "Only project tasks of type posting are synchronized. Work orders can be created from a project task, and the standard coupling actions are available on the project task card.",
+    "Items must have the field service product type set manually to be usable in Field Service. This is not automatic, for performance and resource reasons.",
+    "Inventory and non-inventory items sync as work order products, and service-type items sync as work order services. Quantity on hand is shown for the selected product.",
+    "Work order sync needs project journal templates and batches designated, and Field Service invoice creation disabled.",
+    "Setting work order products and services to used sends consumption to the project journal. Project planning lines can become a sales invoice, and a recurring job transfers posted invoices back to Field Service asynchronously."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "9b139fb8d88258f2672a62cd2bccd364977fb75f633481b11ed536da5a01546b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0195824
+  }
+}

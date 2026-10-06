@@ -1,0 +1,291 @@
+{
+  "video_id": "N8Unj6WLB6U",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 16.8,
+      "end": 37.2,
+      "text": "hello and thank you for watching what's new in the service Management Area service management you can ask it's a very are important area in uh in the business Central customers it was very popular on premises is is getting its direction in SAS and especially for manufacturing companies who are producing stuff they would like to"
+    },
+    {
+      "t": 37.2,
+      "end": 57.3,
+      "text": "control and monitor and repair the items but there are also multiple companies independent service providers you might also ask why service management when we uh or investment into this area together with field service integration which is also presented in this uh in this release it might"
+    },
+    {
+      "t": 57.3,
+      "end": 77.4,
+      "text": "be a little bit confusing but it's not because business Central always give you choice you can do like the same things or achieve the same result in a very very different manners which better fits to specific company needs and if some companies has a need for features available under field service"
+    },
+    {
+      "t": 77.4,
+      "end": 97.5,
+      "text": "product it's a it's great you can use it but also for number of scenarios integrated uh service management model is more than enough and we continue our investment into this area we started in the previous release where we added demo data and setup data so you can now easily"
+    },
+    {
+      "t": 97.5,
+      "end": 117.5,
+      "text": "demonstrate functionality out of the box but in this release we decided to align uh service management experience with other areas such as a sales or project areas and my name is Andre PCO and I will be doing demos for you I will demonstrate this functionality But first you can also uh watch the"
+    },
+    {
+      "t": 117.5,
+      "end": 137.6,
+      "text": "demo and the setup uh video from the previous Business Center launch event you can find it it on our YouTube channel together with other interesting videos and the current video will be also there available later all right it's a 10 minutes and you know what to do uh and how"
+    },
+    {
+      "t": 137.6,
+      "end": 157.9,
+      "text": "to demonstrate service management now back to the product this is service Management rooll Center and it is configured it has demo data everywhere except some places let's take a look for example at service quote service quote doesn't have number series defined but but now you have a nice"
+    },
+    {
+      "t": 157.9,
+      "end": 175.3,
+      "text": "window which actually notifies you that something is missing and help you to select and set up service service area let's go to the quote and we decide to use the same number seres as available for sales quote okay that's a good one good"
+    },
+    {
+      "t": 175.3,
+      "end": 195.3,
+      "text": "start okay service quote created uh number series you can see you don't see this demonstration will be mainly about what you don't see actually you don't see the number field here in the header because number series is configured to be automatic so like it doesn't allow user to modify it"
+    },
+    {
+      "t": 195.3,
+      "end": 211,
+      "text": "doesn't allow user to select a different one it just assigns the number so it makes sense to see it right here and not take place under as areas all right what next let's select some customer"
+    },
+    {
+      "t": 211,
+      "end": 231,
+      "text": "pick our favorite one and what you notice you can see attachment area and document attachment was initialized with a quantity one if you go to the list you can see that there is a some document based on its name as I call it it's copied from the customer card so okay so from customer to service we can get"
+    },
+    {
+      "t": 231,
+      "end": 251,
+      "text": "something let's uh scroll down and uh now we can we can select service item okay I see one service item and I see interesting description don't use in contract so it's actually giving us some hint again this presentation not about what not only what you see what you"
+    },
+    {
+      "t": 251,
+      "end": 257.8,
+      "text": "don't see let's go to the list of item uh service"
+    },
+    {
+      "t": 258.6,
+      "end": 278.8,
+      "text": "items service items and you can see there are two one is called don't use in contracts and another blocked completely hm interesting let's open it because we have a new tole uh field here which is called blocked which allows you to decide how do you want to block specific service item because"
+    },
+    {
+      "t": 278.8,
+      "end": 298.9,
+      "text": "for some reason you don't want to have long-term contract for maintenance contract for specific items but it's okay to do ad hoc repairments that's fine that's fair or you want to completely stop maintenance for for this one then you can block it fully all right so I have service item uh which I cannot use in"
+    },
+    {
+      "t": 298.9,
+      "end": 310.9,
+      "text": "contracts and I have another one which is blocked completely okay let's create another service item as we are here anyway and we select the"
+    },
+    {
+      "t": 310.9,
+      "end": 326.5,
+      "text": "item as 100 and again I see only one but let me go to the list of items let's go to list of the items and do the same search as"
+    },
+    {
+      "t": 326.5,
+      "end": 341,
+      "text": "100 and I have two items here which is starts with S1 100 but you do not see the second one why because it is again blocked let's open let's open the"
+    },
+    {
+      "t": 341.2,
+      "end": 353.8,
+      "text": "card scroll down scroll down scroll down and in the price and sales and service you can see the service toggle available which is actually blocking item also"
+    },
+    {
+      "t": 353.8,
+      "end": 373.9,
+      "text": "also you can see the similar toggles available per variant level so you can actually block individual variants from service and sales and purchase as it was added before but it is now all aligned all right service blocked as we are here let's also take a look at the item which we can see and you can see that this"
+    },
+    {
+      "t": 373.9,
+      "end": 394.2,
+      "text": "item has also attachment troubleshooting guide and we can instruct where this data should go it should go to the service Transaction what does it mean let's uh let's go back to our service item and select this item yes I want to copy skill code"
+    },
+    {
+      "t": 394.2,
+      "end": 408.8,
+      "text": "and and service details and also attachment attachment got initialized now it is copied from the item to service item all right let's select some"
+    },
+    {
+      "t": 408.8,
+      "end": 428.9,
+      "text": "customer and return back to the to the to the list of uh service items selected finally we back to the list of the service item uh selected for Sal service quote all right this is the new one which we just added let's use it all right I selected it what else can I do"
+    },
+    {
+      "t": 428.9,
+      "end": 449.2,
+      "text": "here because probably it's not all the changes let's go to the service item work and if I will scroll down you can see the select items action familiar to you by by sales and purchase documents and now also added to project planning lines you can do it"
+    },
+    {
+      "t": 449.2,
+      "end": 469.2,
+      "text": "uh bulk selection here as well in the service good I selected three lines all of them are inserted also item references are available in the in the service area as well let's pick some barcode which we can scan of course if we if using a warehouse"
+    },
+    {
+      "t": 469.2,
+      "end": 489.3,
+      "text": "handheld device there is a separate session about it as well all right so it was populated good uh what else we can do we can print and we can print as attachment as well so now we have lines all good now we have attachment added even more so service quote added as an"
+    },
+    {
+      "t": 489.3,
+      "end": 497.7,
+      "text": "attachment as well now let's try to uh convert service quote to service"
+    },
+    {
+      "t": 497.7,
+      "end": 517.7,
+      "text": "order right I have now service order available uh with two attachments probably it's interesting to add one more okay now we have a even more attachments service order as well so works here all good let's scroll down to the to the list"
+    },
+    {
+      "t": 517.7,
+      "end": 528.5,
+      "text": "of items and now we open a different view so instead of service uh service item worksheet we will open service lines"
+    },
+    {
+      "t": 528.5,
+      "end": 548.8,
+      "text": "right uh it also support select items it also supports uh item references and also I wanted to show you it has attachment details hm attachment we can see two troubleshooting guide which is flow from service item remember it was configured for per service item level"
+    },
+    {
+      "t": 548.8,
+      "end": 559.7,
+      "text": "but installation guide this one is configured for for this specific item so you can see that attachments are moving"
+    },
+    {
+      "t": 559.7,
+      "end": 570.7,
+      "text": "to from Master data to the documents and the posted transactions as well all right about posting let's try to do post post"
+    },
+    {
+      "t": 570.7,
+      "end": 591.6,
+      "text": "experienc that people already notice that something looks different you don't see something okay what we don't see let's go to the service order itself and try to do posting there as well you don't see invoicing options so you can see only shipment and shipment consumption"
+    },
+    {
+      "t": 591.6,
+      "end": 597.4,
+      "text": "why so because of the user"
+    },
+    {
+      "t": 597.6,
+      "end": 618.6,
+      "text": "setup user setup where we added service invoice posting policy uh similar to purchase and sales areas where you can decide on how you want to process uh orders like and invoices separately from a shipment or together or maybe it is per user"
+    },
+    {
+      "t": 618.6,
+      "end": 632.3,
+      "text": "all right now I'm switching to mandatory and if I will try to post now then I don't have much options now I I just can press yes and the shipment and in voice will be processed not"
+    },
+    {
+      "t": 632.3,
+      "end": 650.7,
+      "text": "consumption all right now we're talking about service invoices uh maybe a couple of notes worth uh mentioning so first of all we added service invoice and credit memo here so now that's uh that's available you can"
+    },
+    {
+      "t": 650.7,
+      "end": 667.2,
+      "text": "uh you can benefit from the from the select item and attachments here as well but uh I wanted to show a different aspect of service management service contracts let's create a new service"
+    },
+    {
+      "t": 667.2,
+      "end": 687.3,
+      "text": "contract okay I will use a template predefined in the demo data and I will select customer as well mm attachment again you know it we can do select service items again you can add multiple ones at once of course we have only one because two others are blocked"
+    },
+    {
+      "t": 687.3,
+      "end": 702,
+      "text": "one blocked completely and the second one is blocked for service contract so we need to deal with what is available all right we will pick one you can see attachments here as well now let's put some"
+    },
+    {
+      "t": 702,
+      "end": 716.8,
+      "text": "value and sign the contract all right we signing the contract and uh because of the dates system tries to create invoice for the remaining of the month yes we will do that okay invoice"
+    },
+    {
+      "t": 716.8,
+      "end": 734.4,
+      "text": "created it is here and and I also change my uh work date let's slightly move to to the next months okay next month and try to create service invoice for the next quarter"
+    },
+    {
+      "t": 734.4,
+      "end": 754.5,
+      "text": "right okay now I have two uh two invoices you can see that next invoice date is updated and the next invoice period is here uh what if I'm not happy with this service invoices for example I I maybe I don't like amount or maybe I don't like the"
+    },
+    {
+      "t": 754.5,
+      "end": 775.2,
+      "text": "fact that it's two of them I I cannot change them it's a it's a limitation uh we have a restrictions because it's linked to Service uh service Ledger entries all right let's uh reset my change can I delete it actually you can"
+    },
+    {
+      "t": 775.2,
+      "end": 792,
+      "text": "but but but there are some limitations you can only delete starting from the end because we already have invoice for this Delta and for the whole quarter we need to delete in the right in the right order starting from the end okay let's close this"
+    },
+    {
+      "t": 792,
+      "end": 807.2,
+      "text": "one find another invoice with the all amount amount for the quarter and delete it yeah dates will be restored that's good now we can also delete the first"
+    },
+    {
+      "t": 807.2,
+      "end": 823.7,
+      "text": "one all right these dates also should be restored except this specific uh invoice is for prepayment that's why uh it's not here all right so number is zero now I can create a new service"
+    },
+    {
+      "t": 823.7,
+      "end": 844,
+      "text": "invoices how many it will create a one one combined so now I will actually send one invoice to my to my customer for the whole uh details so this uh this gives you some capability on to review documents and redo if something"
+    },
+    {
+      "t": 844,
+      "end": 864.4,
+      "text": "needs to be redone that is like one of the most voted product suggestions so we implemented it uh for you to give you uh better experience so what we saw we saw that service management is now operates very closely to uh other areas like sales or projects you can use a"
+    },
+    {
+      "t": 864.4,
+      "end": 884.6,
+      "text": "blocking document attachment bulk processing like selections or item reference you can Define invoicing policy and you can also deal with service invoices linked to the contract which has some limitations in the past not anymore what I want to say say is of course thank you thank you for"
+    },
+    {
+      "t": 884.6,
+      "end": 904.8,
+      "text": "watching but also for uh contribution for registering ideas for voting for participating in the conversation via VIA engage and sharing valuable insights and also for testing in the early preview thank you very much also makes sense to explore other sessions"
+    },
+    {
+      "t": 904.8,
+      "end": 925,
+      "text": "related so if you interested in the field service integration watch this session also be aware that field service integration integrates two jobs that's very interesting or project so take a look at the project area as well if you decided to use service project inside business Central take a look at the new time shet experience"
+    },
+    {
+      "t": 925,
+      "end": 936.6,
+      "text": "or improved time shet experience and uh this is a list of also valuable resources where you can find the Microsoft representatives and uh all information"
+    },
+    {
+      "t": 936.6,
+      "end": 944,
+      "text": "available uh for you thank you again"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.93,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.75,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.76,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2208
+}

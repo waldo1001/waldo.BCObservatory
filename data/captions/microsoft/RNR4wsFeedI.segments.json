@@ -1,0 +1,246 @@
+{
+  "video_id": "RNR4wsFeedI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 16.7,
+      "end": 36.8,
+      "text": "okay hello and welcome to boosto productivity with business Central I'm Ivan ktic I'm a product manager in business Central and I will take you through uh this uh session uh the agenda today is uh sort of split in two parts first we'll talk very briefly about some of the user experience improvements we have in"
+    },
+    {
+      "t": 36.8,
+      "end": 57.1,
+      "text": "U our mobile client there's also a dedicated session for that later on I'll reference it in the in the deck and after that we'll talk about uh some of the improvements uh that were brought in 2024 release Wave 1 in the web client so let's start uh with uh"
+    },
+    {
+      "t": 57.1,
+      "end": 77.7,
+      "text": "quick improvements that we've added uh to a mobile client as you can see on the screen uh uh on on the right part of the screen we've uh allowed we've added access to worksheets from our uh mobile client so you can now access worksheet Pages uh you can see the header details you can see the line details"
+    },
+    {
+      "t": 77.7,
+      "end": 96.1,
+      "text": "and you can actually also see the the fact boxes and the footer details of uh uh of the worksheet uh pages so there's no more uh there's no limitation uh any more of uh looking at the worksheet pages from version uh"
+    },
+    {
+      "t": 96.1,
+      "end": 116.5,
+      "text": "24 uh another thing that we are making uh uh with 2024 release wave 1 is we are making modern action bar uh that we introduced three releases ago uh mandatory uh apart from making it mandatory U you will see there are some uh minor"
+    },
+    {
+      "t": 116.5,
+      "end": 136.9,
+      "text": "improvements that have been also added uh to the overall action bar to sort of lower the the impact and lower the impact of the change of uh making the action modern action bar uh experience mandatory uh all of our users when they upgrade uh to uh"
+    },
+    {
+      "t": 136.9,
+      "end": 150.3,
+      "text": "version 24 we'll get a call out uh that will explain and point to a video that uh runs through the changes that are being introduced with uh modern action bar"
+    },
+    {
+      "t": 150.3,
+      "end": 170.7,
+      "text": "apart from all the good all the goodness that the modern action bar brought like three releases ago like a very flexible personalization uh optimized layout of the action groups on the pages and introduction of the split button the 2024 release Wave 1 version of the action bar"
+    },
+    {
+      "t": 170.7,
+      "end": 190.7,
+      "text": "also has as you can see this a couple of these new icons so we've added the co-pilot icon we've also spared some of the captions to a accommodate for space in the action bar and if you belong to one to the category of people who still want to keep the the the the the things the way that"
+    },
+    {
+      "t": 190.7,
+      "end": 212.1,
+      "text": "they are each and every user in the my settings uh page will have an option to opt out of uh the modern action bar experience the other thing that is worth to note is that the admins also have a way of uh enabling or disabling that for uh all the user"
+    },
+    {
+      "t": 212.1,
+      "end": 232.7,
+      "text": "users another new thing that uh was added in 2024 release Wave 1 is a new date picker control we got a lot of feedback that uh with old date picker control sometimes it was very difficult to especially if you if you needed to explore and find the dates that were"
+    },
+    {
+      "t": 232.7,
+      "end": 253,
+      "text": "far in the past or far in the future and we know there are scenarios when when these things uh uh when these things are are needed so hence we've introduced a uh new dat picker control it U it sort of has a similar set of uh shortcuts that the old one"
+    },
+    {
+      "t": 253,
+      "end": 272.8,
+      "text": "had it is aligned with uh the DAT picker controls used in other Microsoft products which means if you know how to use the date picker control uh I don't know in uh Word Excel or or somewhere you'll be able to uh to use it uh in"
+    },
+    {
+      "t": 272.8,
+      "end": 292.9,
+      "text": "here um 2024 release Wave 1 uh also introduces um adds action to sort of a platform generated uh to platform generated errors uh once these errors occur and there is U no partner and Microsoft"
+    },
+    {
+      "t": 292.9,
+      "end": 312.9,
+      "text": "as well we have a ton of uh old Legacy code and uh a couple of releases back we start introducing actions to uh error dialogues and to inline validation dialogues and the problem with the Legacy code is that there is so many uh places where uh various validation"
+    },
+    {
+      "t": 312.9,
+      "end": 333.2,
+      "text": "errors are shown and so on so we thought how do we make how do we make that Legacy code base uh also actionable uh for the for the end users because we saw that these things are very useful in uh unblocking the users so we this release you actually do get actions"
+    },
+    {
+      "t": 333.2,
+      "end": 352.4,
+      "text": "for all of those Legacy platform generated errors by default with no uptake in your extensions or with no additional effort on the developer side uh to to to get those actions you will see them uh actually how how they look like uh in the"
+    },
+    {
+      "t": 352.4,
+      "end": 372.4,
+      "text": "demo and other thing that we've noticed is that uh there's a category of of Errors where um business Central can help either by navigating the user to a page where they can actually fix the error or by providing an an action that can fix the error but there are cases where the user"
+    },
+    {
+      "t": 372.4,
+      "end": 392.8,
+      "text": "simply doesn't have permissions or or needs help uh from another user uh to get unblocked and with this release we are providing an easy way to uh share details about the error messages be through teams or uh via email so let's say that you want to ask"
+    },
+    {
+      "t": 392.8,
+      "end": 412.8,
+      "text": "for for help from your colleague or from subject matter expert or an admin you would actually go and Click Share to teams to quickly explain where you encounter the errors and what the error was together with these details what this what this does it actually helps reduce the amount of uh the time"
+    },
+    {
+      "t": 412.8,
+      "end": 426,
+      "text": "that uh a person who is supporting you be your admin or your partner needs to spend in analyzing where that error occurs and what was the context of uh of that error where it"
+    },
+    {
+      "t": 426,
+      "end": 446.1,
+      "text": "occurred there are a few other things few minor things that I think is uh good to mention and good to know in the help and support page uh in many of these uh support scenarios uh What uh support person is usually going to ask the user is to provide like the three basic"
+    },
+    {
+      "t": 446.1,
+      "end": 466.3,
+      "text": "details in order to identify the tenant in order to identify the environment and the company uh that uh the issue has occurred so with this release in the help and support page you have a very easy way of copying that information and sharing that information with with with the support teams we've"
+    },
+    {
+      "t": 466.3,
+      "end": 486.6,
+      "text": "also uh couple of months back uh we have also updated uh our keyboard shortcuts PDFs I know these are very popular with users some of them actually have them laminated uh to to get a quick overview of uh of the shortcuts especially those productive users that want to do everything with a"
+    },
+    {
+      "t": 486.6,
+      "end": 506.8,
+      "text": "uh with a keyboard and one last thing that I wanted to mention in here is that is that there was also one feature uh that was planned for the April release which got a bit postponed and that is uh the the multiple um file uploads that is actually coming in one of the upcoming uh minor"
+    },
+    {
+      "t": 506.8,
+      "end": 519.6,
+      "text": "releases and with that uh let's switch to demo and see all of these things in action for the demo on action bar will start in my"
+    },
+    {
+      "t": 519.6,
+      "end": 540,
+      "text": "company this is to show you modern action bar callout that some users will receive when they upgrade to 20124 release Wave 1 the call out is informing existing users of changes in action bar the call out will be shown just once only if existing users have teaching tips enabled only an existing production environment perment"
+    },
+    {
+      "t": 540,
+      "end": 552.8,
+      "text": "and existing production companies this way existing users can review changes introduced by modern action bar as for all new users modern action bar is turned on by"
+    },
+    {
+      "t": 552.8,
+      "end": 569.9,
+      "text": "default back in demo company let's explore action bar improvements such as addition of the new co-pilot icon spared captions and reduce baste for search and Analysis mode so the co-pilot action search expands when you click on the icon"
+    },
+    {
+      "t": 569.9,
+      "end": 590,
+      "text": "and Analysis mode got the new icon which you can toggle to turn on analysis mode or turn off analysis mode admins can of course switch users back to Legacy action bar experience using the setting in user settings"
+    },
+    {
+      "t": 590.5,
+      "end": 605.8,
+      "text": "page this can of course then be done on per user basis in case the user wants to keep the things the way are and use Legacy action bar experience in my settings"
+    },
+    {
+      "t": 605.8,
+      "end": 628.3,
+      "text": "page the user can turn on Legacy action bar experience for himself clicking on work date reveals the date picker control that is now aligned with other Microsoft products and allows for easy exploration of dates dat are further in the future or"
+    },
+    {
+      "t": 628.3,
+      "end": 632.3,
+      "text": "past"
+    },
+    {
+      "t": 634.6,
+      "end": 654.7,
+      "text": "this comes in very handy in finance scenarios 2024 release Wave 1 introduces automatically generated navigate action in platform generated error messages for example adding an item with a missing product posting group to the sales order line will generate"
+    },
+    {
+      "t": 654.7,
+      "end": 669.6,
+      "text": "such errors users now now can click show item card to navigate to a place where the error can be"
+    },
+    {
+      "t": 670.4,
+      "end": 690.4,
+      "text": "fixed this is of course true if the user has permissions to do that in case user does not have the permission user can now get unblocked by sharing details over teams for example to ask a colleague or a subject matter expert in his company about the error"
+    },
+    {
+      "t": 690.4,
+      "end": 710.1,
+      "text": "sharing error details is not only available in inline error messages but also in the dialogues when you encounter an issue where admin or partner help is needed the user can get a blocked by sharing details over email as"
+    },
+    {
+      "t": 714.3,
+      "end": 728.8,
+      "text": "well when sharing error details via teams or via email error details are conveniently copied to cboard and available for users to pass them in draft email or teams"
+    },
+    {
+      "t": 729.4,
+      "end": 741.4,
+      "text": "message and one other thing help and support page now has the capability to easily copy tenants environment session and user"
+    },
+    {
+      "t": 748.2,
+      "end": 768.2,
+      "text": "details this is useful we're asking for help externally and help Partners managing multiple customers easily identify who is reporting the problem where exactly the problem occur and what the problem was and find the issue quickly in Telemetry in this demo what you saw was a u modern"
+    },
+    {
+      "t": 768.2,
+      "end": 788.6,
+      "text": "action bar uh experience um in action with all the new improvements you saw the new date picker control uh you saw how actionable platform generated errors help users uh get to a place where they can solve the error you saw how easy it is to share uh error details through teams"
+    },
+    {
+      "t": 788.6,
+      "end": 808.6,
+      "text": "and uh through Outlook together with all the environment uh information and that actually concludes uh our session uh today if you have the time I uh urge you to uh have a look at the these two sessions especially the the one uh about the mobile app and barcode scanning"
+    },
+    {
+      "t": 808.6,
+      "end": 823.8,
+      "text": "because they are going to they will take a deep dive into improvements that were made in business Central mobile app and the other one is uh more related to a uh General design guidelines uh for the AI"
+    },
+    {
+      "t": 823.8,
+      "end": 843,
+      "text": "experiences if you look if you want to learn more if you want to engage in the conversation talk to the product team and so on uh have a look at one of these resources and reach out to us and with that uh I want to thank you for your time and your attention mention in the"
+    },
+    {
+      "t": 843,
+      "end": 844,
+      "text": "session"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.84,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.71,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.72,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1970
+}

@@ -1,0 +1,1011 @@
+{
+  "video_id": "hcu7T3qLdDA",
+  "item_id": "video/yt-microsoft/hcu7T3qLdDA",
+  "title": "What's New: The Danish Bookkeeping Act (2024 release wave 1)",
+  "duration_s": 2444,
+  "systems": [
+    "finance",
+    "localization",
+    "reporting"
+  ],
+  "topics": [
+    "danish bookkeeping act",
+    "saf-t",
+    "certification",
+    "audit file export",
+    "chart of accounts",
+    "vat reporting",
+    "data compliance",
+    "regas basis",
+    "dba compliance",
+    "vat submission",
+    "tax api",
+    "nemhandle registration"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Danish Bookkeeping Act Overview",
+      "t_start": 0,
+      "t_end": 92.1
+    },
+    {
+      "title": "Certification Status and Standard Solution Requirements",
+      "t_start": 92.1,
+      "t_end": 230.8
+    },
+    {
+      "title": "Development Approach and Partner Communication",
+      "t_start": 230.8,
+      "t_end": 339.2
+    },
+    {
+      "title": "Timeline and Implementation Journey",
+      "t_start": 339.2,
+      "t_end": 510.9
+    },
+    {
+      "title": "Feature Overview and SAF-T Application Architecture",
+      "t_start": 510.9,
+      "t_end": 592.1
+    },
+    {
+      "title": "SAF-T Setup and Configuration Part 1",
+      "t_start": 592.1,
+      "t_end": 793.3
+    },
+    {
+      "title": "SAF-T Setup: Chart of Accounts and GL Mapping",
+      "t_start": 793.3,
+      "t_end": 960.2
+    },
+    {
+      "title": "SAF-T File Generation and Export Options",
+      "t_start": 960.2,
+      "t_end": 1083
+    },
+    {
+      "title": "VAT Submission and Tax API Integration",
+      "t_start": 1083,
+      "t_end": 1144.1
+    },
+    {
+      "title": "NemHandle Notification and Registration",
+      "t_start": 1144.1,
+      "t_end": 1239.4
+    },
+    {
+      "title": "E-Document Invoicing Framework",
+      "t_start": 1239.4,
+      "t_end": 1359.7
+    },
+    {
+      "title": "Mandatory Digital Vouchers Overview",
+      "t_start": 1359.7,
+      "t_end": 1574.1
+    },
+    {
+      "title": "Digital Voucher Attachment Demo",
+      "t_start": 1574.1,
+      "t_end": 1714.8
+    },
+    {
+      "title": "Attachment Management Rules and Storage Requirements",
+      "t_start": 1714.8,
+      "t_end": 1835.8
+    },
+    {
+      "title": "Automated Export and Retention Policy",
+      "t_start": 1835.8,
+      "t_end": 1909.6
+    },
+    {
+      "title": "CVR Number Requirement and Tables Exported",
+      "t_start": 1909.6,
+      "t_end": 2061.5
+    },
+    {
+      "title": "CVR Number Blocking Rules and Environment Settings",
+      "t_start": 2061.5,
+      "t_end": 2158.5
+    },
+    {
+      "title": "Name Handle Registration and Compliance Guidance",
+      "t_start": 2158.5,
+      "t_end": 2365.7
+    },
+    {
+      "title": "Community Engagement and Q&A Session",
+      "t_start": 2365.7,
+      "t_end": 2444
+    }
+  ],
+  "features": [
+    {
+      "name": "SAF-T (Standard Audit File - Tax) Export",
+      "description": "Export functionality for SAF-T format based on the audit file export standard. Available as a pre-installed feature in Danish environments with support for exporting bookkeeping data in DK format with additional fields including master data, general ledger entries, and source documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 551.6,
+      "t_end": 1062.9,
+      "is_demoed": true,
+      "caveats": [
+        "Cloud solution only for DBA certification; on-premises requires separate certification",
+        "SAF-T data must include mappings for chart of accounts and VAT posting setup",
+        "Parallel processing required for large exports with many entries"
+      ],
+      "tags": [
+        "saf-t",
+        "audit file",
+        "export",
+        "denmark",
+        "certified",
+        "parallel processing"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Public Standard Chart of Accounts",
+      "description": "Provides a standard chart of accounts for Denmark that users can map their own chart of accounts against. Includes automatic matching capability and manual mapping options for GL accounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 571.7,
+      "t_end": 848.4,
+      "is_demoed": true,
+      "caveats": [
+        "All accounts in chart of accounts must be mapped to standard accounts",
+        "Matching is not automatic for all accounts; 57 of 18600 accounts matched automatically in demo"
+      ],
+      "tags": [
+        "chart of accounts",
+        "standard",
+        "mapping",
+        "denmark"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Public Standard VAT Chart of Accounts",
+      "description": "Standard VAT chart of accounts for Denmark with mapping capability to sales VAT reporting or purchase VAT reporting codes for SAF-T export.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 571.7,
+      "t_end": 848.4,
+      "is_demoed": true,
+      "caveats": [
+        "VAT posting setup mapping is optional",
+        "Requires specification of VAT code for sales or purchase reporting"
+      ],
+      "tags": [
+        "vat",
+        "vat reporting",
+        "chart of accounts",
+        "denmark"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Regas Basis Export to CSV",
+      "description": "Export functionality to export bookkeeping data to Regas Basis as a CSV file. Designed for performance optimization with support for active session export or later export for large datasets.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 612.2,
+      "t_end": 632.4,
+      "is_demoed": false,
+      "caveats": [
+        "CSV format used for performance optimization",
+        "Can handle export of large datasets"
+      ],
+      "tags": [
+        "regas basis",
+        "csv export",
+        "performance",
+        "denmark"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "SAF-T File Import",
+      "description": "Capability to import SAF-T files to keep history of audit data using the same audit file export functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 592.1,
+      "t_end": 612.2,
+      "is_demoed": false,
+      "caveats": [
+        "Import functionality provided to maintain historical records"
+      ],
+      "tags": [
+        "saf-t",
+        "audit file",
+        "import",
+        "history"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Mandatory Digital Vouchers as Attachments",
+      "description": "Requirement to attach digital vouchers as part of the bookkeeping compliance for the Danish Bookkeeping Act. Sales invoices support automatic document generation at post time; purchase documents require manual attachment. Enforcement begins July 1st for sales and purchase documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 510.9,
+      "t_end": 1660.8,
+      "is_demoed": true,
+      "caveats": [
+        "Mandatory requirement per DBA regulations",
+        "Voluntary until July 1st, then enforced for sales and purchase documents",
+        "Manual attachment required for purchase documents",
+        "Automatic generation only for sales invoices",
+        "Setup controlled by source codes for journals"
+      ],
+      "tags": [
+        "digital vouchers",
+        "attachments",
+        "compliance",
+        "denmark",
+        "mandatory",
+        "enforcement"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "5-Year Data Retention Compliance",
+      "description": "Capability to keep bookkeeping data for 5 years as required by Danish Bookkeeping Act regulations. Transactions and digital vouchers are retained for a minimum of five years after the end of the financial year.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 510.9,
+      "t_end": 1909.6,
+      "is_demoed": false,
+      "caveats": [
+        "5-year retention is a legal requirement",
+        "Any customization affecting data retention impacts standard solution status",
+        "Data older than five years is automatically removed"
+      ],
+      "tags": [
+        "data retention",
+        "compliance",
+        "5-year",
+        "denmark"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Electronic VAT Registration Notification",
+      "description": "Electronic submission of VAT registration notification with name handle as required by Danish bookkeeping regulations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 510.9,
+      "t_end": 531.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires name handle registration",
+        "Part of electronic VAT submission requirements"
+      ],
+      "tags": [
+        "vat registration",
+        "electronic submission",
+        "notification",
+        "denmark"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "SAF-T Dimensions Export",
+      "description": "Capability to export dimensions to SAF-T with automatic assignment of specific analysis type code for each dimension. Users can configure which dimensions to include in export.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 848.4,
+      "t_end": 868.5,
+      "is_demoed": true,
+      "caveats": [
+        "Dimensions export is optional; can be disabled per dimension"
+      ],
+      "tags": [
+        "saf-t",
+        "dimensions",
+        "analysis type",
+        "export"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "SAF-T Setup Guide",
+      "description": "Feature management enabled setup guide for SAF-T configuration with step-by-step process for defining standard account type, reporting period, chart of accounts mapping, VAT posting setup, dimensions, and employee information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 632.4,
+      "t_end": 888.6,
+      "is_demoed": true,
+      "caveats": [
+        "Feature must be enabled in feature management",
+        "Enabling in one company enables for all companies"
+      ],
+      "tags": [
+        "saf-t",
+        "setup guide",
+        "configuration",
+        "wizard"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "RB Accounting File Generation",
+      "description": "Generation of accounting files in CSV format containing account names and balances. Supports net change or balance at date calculation methods for income statement and balance accounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1001.1,
+      "t_end": 1062.9,
+      "is_demoed": true,
+      "caveats": [
+        "Calculation method selection required"
+      ],
+      "tags": [
+        "accounting file",
+        "rb",
+        "csv export"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "VAT Submission via Tax API",
+      "description": "Electronic VAT submission to Danish tax authority through tax API to SKAT. Feature is pre-installed by default on cloud and on-premises, but uses different certificate approaches.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1083,
+      "t_end": 1144.1,
+      "is_demoed": false,
+      "caveats": [
+        "On-premises solutions require customer certificate from SKAT",
+        "Microsoft certificate pre-installed only for cloud solutions",
+        "Documentation still being updated"
+      ],
+      "tags": [
+        "vat submission",
+        "tax api",
+        "skat"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "NemHandle Notification and Registration",
+      "description": "Automatic notification requiring CVR number registration with NemHandle when creating a company. Notification appears in cloud and on-premises; can be disabled in sandbox but not production.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1144.1,
+      "t_end": 1239.4,
+      "is_demoed": false,
+      "caveats": [
+        "Not a technical blocker but mandatory for invoicing in future",
+        "Cannot be disabled in production environment",
+        "Registration instruction provided in notification"
+      ],
+      "tags": [
+        "nemhandle",
+        "registration",
+        "cvr number"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "E-Document Invoicing Framework",
+      "description": "E-document invoicing based on global e-document framework supporting UBL and Peppol formats. Enables both delivery and receipt of invoices with support for messaging, approval, rejection, and status logging.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1239.4,
+      "t_end": 1359.7,
+      "is_demoed": false,
+      "caveats": [
+        "Only one default service currently enabled",
+        "Requires certified access points for NemHandle connection",
+        "Additional services planned but not yet available",
+        "Direct connection with NemHandle not supported without certification"
+      ],
+      "tags": [
+        "e-invoicing",
+        "e-documents",
+        "ubl",
+        "peppol",
+        "nemhandle"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Digital Voucher Attachment for Purchase Invoices",
+      "description": "Users can attach digital vouchers to purchase invoices in an incoming document files box. Posting is blocked without an attached digital voucher and shows an error message.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1574.1,
+      "t_end": 1629.3,
+      "is_demoed": true,
+      "caveats": [
+        "Purchase invoices require digital voucher attachment to post"
+      ],
+      "tags": [
+        "digital vouchers",
+        "attachment",
+        "purchase invoice"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Digital Voucher Generation for Sales Invoices",
+      "description": "Sales invoices automatically generate and attach digital vouchers when posted, without requiring manual attachment like purchase invoices do. The generated invoice is attached as a digital voucher.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1660.8,
+      "t_end": 1694.7,
+      "is_demoed": true,
+      "caveats": [
+        "Sales invoices generate vouchers automatically unlike purchase invoices"
+      ],
+      "tags": [
+        "digital vouchers",
+        "auto-generation",
+        "sales invoice"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Incoming Document File Attachment to Ledger Entries",
+      "description": "Incoming document files attached to posted transactions are also associated with all related general ledger entries, maintaining a single attachment reference across all entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1629.3,
+      "t_end": 1649.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "incoming documents",
+        "ledger entries",
+        "attachment linking"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Attachment Immutability After Posting",
+      "description": "Once a document is posted with an attachment, the original attachment cannot be removed or updated, but additional attachments can be added to the posted document.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1714.8,
+      "t_end": 1735,
+      "is_demoed": false,
+      "caveats": [
+        "Only original attachment is immutable; additional attachments can be added"
+      ],
+      "tags": [
+        "attachment management",
+        "immutability"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Automated Transaction Export to Secure Storage",
+      "description": "Business Central automatically exports transaction data and digital vouchers on a daily basis to secure blob storage. The data cannot be changed, deleted, or accessed by users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1835.8,
+      "t_end": 1869.5,
+      "is_demoed": false,
+      "caveats": [
+        "Cloud only - does not exist in on-premises solution",
+        "Users have no access to exported data"
+      ],
+      "tags": [
+        "automated export",
+        "blob storage",
+        "transaction data",
+        "cloud-only"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "CVR Number Requirement for Transaction Posting",
+      "description": "Users must enter their CVR number (Danish company registration number) in company information to post general ledger transactions. The system blocks all GL transactions if CVR number is not entered.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1909.6,
+      "t_end": 1949.6,
+      "is_demoed": false,
+      "caveats": [
+        "Required only for companies with transactions",
+        "Not required for master data only companies",
+        "Applies only to production environment"
+      ],
+      "tags": [
+        "cvr number",
+        "transaction blocking",
+        "compliance requirement"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Minimal Required Fields Export for Compliance",
+      "description": "Only minimal sets of fields required by DBA regulations are exported from tables including GL entries, customer ledger entries, sales and purchase documents, and master data. Additional fields remain inaccessible.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1990,
+      "t_end": 2041.2,
+      "is_demoed": false,
+      "caveats": [
+        "Only DBA-authorized agencies can request this data with legal power"
+      ],
+      "tags": [
+        "data export",
+        "minimal fields",
+        "dba compliance"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Sandbox Environment Exemption from CVR Requirement",
+      "description": "Sandbox environments do not require CVR number entry and can be used freely for testing without any blocking or notification. CVR number restrictions apply only to production environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2098.4,
+      "t_end": 2118.4,
+      "is_demoed": false,
+      "caveats": [
+        "Restrictions apply only to production environment"
+      ],
+      "tags": [
+        "sandbox",
+        "testing",
+        "cvr exemption"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "CVR Number Persistence in Production Copies",
+      "description": "When copying a production company to a new company, the CVR number is not copied, allowing the new company to be deleted or modified without restrictions until a new CVR number is entered.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2118.4,
+      "t_end": 2138.4,
+      "is_demoed": false,
+      "caveats": [
+        "CVR number must be re-entered for new company to apply restrictions"
+      ],
+      "tags": [
+        "cvr number",
+        "company copy",
+        "production"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Production Company Immutability and CVR Blocking",
+      "description": "Production companies with a CVR number cannot be deleted. Once CVR number is entered, it cannot be removed from the production company.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2138.4,
+      "t_end": 2158.5,
+      "is_demoed": false,
+      "caveats": [
+        "Cannot delete production company once CVR number is entered"
+      ],
+      "tags": [
+        "production company",
+        "cvr blocking",
+        "deletion"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Name Handle Registration Notification and Posting Blocks",
+      "description": "Users not registered with name handle receive a notification (non-blocking). Users without CVR number are blocked from posting to general ledger. Entering CVR number unblocks posting but name handle notification persists until registration is complete.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2158.5,
+      "t_end": 2220,
+      "is_demoed": false,
+      "caveats": [
+        "Name handle notification is informational only; CVR number enforces posting block"
+      ],
+      "tags": [
+        "name handle",
+        "registration",
+        "notification"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "E-Documents and E-Invoicing Integration",
+      "description": "E-documents functionality is now required and integration with e-invoicing automation using Copilot for matching purchase orders with incoming electronic documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2304.9,
+      "t_end": 2325.1,
+      "is_demoed": false,
+      "caveats": [
+        "Separate training session recommended for e-documents details"
+      ],
+      "tags": [
+        "e-documents",
+        "e-invoicing",
+        "copilot automation"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "SAF-T Setup Guide",
+      "t": 652.4
+    },
+    {
+      "type": "table",
+      "name": "Accounting Period",
+      "t": 672.5
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts",
+      "t": 712.5
+    },
+    {
+      "type": "page",
+      "name": "VAT Posting Setup",
+      "t": 824.5
+    },
+    {
+      "type": "page",
+      "name": "Audit File Export Documents",
+      "t": 888.6
+    },
+    {
+      "type": "page",
+      "name": "Audit File Expert documents",
+      "t": 888.6
+    },
+    {
+      "type": "page",
+      "name": "digital voucher entry setup",
+      "t": 1471.3
+    },
+    {
+      "type": "table",
+      "name": "general ledger entry",
+      "t": 1649.3
+    },
+    {
+      "type": "page",
+      "name": "incoming document files",
+      "t": 1610.7
+    },
+    {
+      "type": "table",
+      "name": "GL Entry",
+      "t": 1629.3
+    },
+    {
+      "type": "table",
+      "name": "Customer Ledger Entry",
+      "t": 2000.8
+    },
+    {
+      "type": "table",
+      "name": "Vendor Ledger Entry",
+      "t": 2000.8
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Header",
+      "t": 2000.8
+    },
+    {
+      "type": "table",
+      "name": "Sales Invoice Line",
+      "t": 2000.8
+    },
+    {
+      "type": "table",
+      "name": "Credit Memo Header",
+      "t": 2000.8
+    },
+    {
+      "type": "table",
+      "name": "Purchase Invoice",
+      "t": 2000.8
+    },
+    {
+      "type": "table",
+      "name": "Purchase Credit Memo Header",
+      "t": 2021
+    },
+    {
+      "type": "table",
+      "name": "Reminders",
+      "t": 2021
+    },
+    {
+      "type": "table",
+      "name": "General Journal Lines",
+      "t": 2021
+    },
+    {
+      "type": "table",
+      "name": "Currency Exchange Rates",
+      "t": 2021
+    },
+    {
+      "type": "table",
+      "name": "General Ledger Account",
+      "t": 2021
+    },
+    {
+      "type": "table",
+      "name": "Customer",
+      "t": 2021
+    },
+    {
+      "type": "table",
+      "name": "Vendor",
+      "t": 2021
+    },
+    {
+      "type": "table",
+      "name": "Bank Account",
+      "t": 2021
+    },
+    {
+      "type": "table",
+      "name": "Fixed Asset",
+      "t": 2021
+    },
+    {
+      "type": "table",
+      "name": "Fixed Asset Depreciation Book",
+      "t": 2041.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Tomas (To)",
+      "confidence": "low"
+    },
+    {
+      "name": "Arthur",
+      "confidence": "high"
+    },
+    {
+      "name": "Alexander",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 92.1,
+      "text": "Business Central is certified in Denmark by DBA in first phase in the first set from January 1st 2024 so we are fully certified",
+      "why_it_matters": "Establishes the GA status and official certification date of Danish Bookkeeping Act compliance",
+      "check": "exact"
+    },
+    {
+      "t": 112.1,
+      "text": "Microsoft certify as a standard solution that means uh as is because we cannot predict what can be extended so by DBA this is",
+      "why_it_matters": "Clarifies that certification applies only to cloud solution and that on-premises requires separate certification by customers",
+      "check": "exact"
+    },
+    {
+      "t": 129.2,
+      "text": "everything what is related with bookkeeping with the keeping uh data for 5 years for example it will not be standard solution uh anymore",
+      "why_it_matters": "Defines the boundary of what constitutes the standard solution - customizations affecting bookkeeping compliance take it outside standard scope",
+      "check": "snapped"
+    },
+    {
+      "t": 458.6,
+      "text": "from February 1st uh we updated our terms of use for uh Denmark so now we have we are abolutely compliance we didn't activate",
+      "why_it_matters": "Shows the phased compliance approach - certification in January 2024 but terms of use updated February 1st for full legal compliance",
+      "check": "exact"
+    },
+    {
+      "t": 478.7,
+      "text": "after more more than 300 engineering days in Investments on building all these features now we are starting with a new phase Improvement based",
+      "why_it_matters": "Quantifies the engineering effort and signals shift to improvement phase after initial delivery",
+      "check": "exact"
+    },
+    {
+      "t": 732.7,
+      "text": "57 of 18600 accounts automatically matched and how I can check this I can click open the setup page",
+      "why_it_matters": "Demonstrates that automatic matching of standard accounts is limited and manual configuration is required for most accounts",
+      "check": "exact"
+    },
+    {
+      "t": 921,
+      "text": "the option is called parallel processing and that will help you to schedule the generation of thef file to this for example hours",
+      "why_it_matters": "Parallel processing is critical for large SAF-T exports with many GL entries to manage performance and timing.",
+      "check": "snapped"
+    },
+    {
+      "t": 1083,
+      "text": "busy Central now supports V submission through tax API to scut uh this app is already finished",
+      "why_it_matters": "Confirms VAT submission feature is released and available for Danish tax compliance.",
+      "check": "exact"
+    },
+    {
+      "t": 1103.3,
+      "text": "this app is already finished it does not require customer certificate this is important because Microsoft has built in uh inside",
+      "why_it_matters": "Clarifies that cloud solutions use Microsoft certificate, not customer certificate, simplifying deployment.",
+      "check": "exact"
+    },
+    {
+      "t": 1144.1,
+      "text": "certificate Microsoft certificate is preinstalled only the Cloud solution for on print solution you must use your own certificate",
+      "why_it_matters": "Key difference in certificate handling between cloud and on-premises VAT submission implementations.",
+      "check": "exact"
+    },
+    {
+      "t": 1219.2,
+      "text": "this u n hand registration is not only for this notification it will be necessary for your invoicing in the future",
+      "why_it_matters": "NemHandle registration is a prerequisite for future e-invoicing capabilities, not just a notification.",
+      "check": "exact"
+    },
+    {
+      "t": 1319,
+      "text": "we do not provide direct connection with n handle for direct connection with n handle Danish authorities required to have n handle certified service",
+      "why_it_matters": "Business Central requires certified access points for e-invoicing, not direct NemHandle connection.",
+      "check": "exact"
+    },
+    {
+      "t": 1400.2,
+      "text": "but in Denmark it will be by default currently this is still voluntary until July 1st from July 1st it will be enforced",
+      "why_it_matters": "Mandatory digital vouchers enforcement date is July 1st, a critical compliance deadline for Danish organizations.",
+      "check": "exact"
+    },
+    {
+      "t": 1420.4,
+      "text": "for sales we have automatically creation generation actually document when you post sales invoice syst will automatically create and attach",
+      "why_it_matters": "Sales invoices have automatic digital voucher generation, reducing manual effort compared to purchase documents.",
+      "check": "exact"
+    },
+    {
+      "t": 1590.7,
+      "text": "it's not possible to post without attaching the digital voucher",
+      "why_it_matters": "Establishes that purchase invoices have a hard requirement to attach digital vouchers before posting can succeed",
+      "check": "exact"
+    },
+    {
+      "t": 1714.8,
+      "text": "once when you post document with attachment you cannot remove this attachment after that you cannot update but you can add additional attachment",
+      "why_it_matters": "Defines the immutability rule for attachments after posting, which is critical for regulatory compliance and audit trails",
+      "check": "exact"
+    },
+    {
+      "t": 1755.2,
+      "text": "it is applicable only for cloud this does not exist in a on Prem solution",
+      "why_it_matters": "Clarifies that automated export and retention requirements apply only to cloud deployments, not on-premises",
+      "check": "snapped"
+    },
+    {
+      "t": 1775.5,
+      "text": "storage transactions uh must exist for all the cor transaction and receipts or vouchers for minimum for",
+      "why_it_matters": "States the legal requirement from Danish Bookkeeping Act for five-year retention of all transactions and vouchers",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1929.6,
+      "text": "transactions if you didn't enter your cvr number",
+      "why_it_matters": "Confirms that CVR number entry is enforced through a posting block for general ledger transactions",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1990,
+      "text": "we are exporting only minimal set of fields required by the law actually required by",
+      "why_it_matters": "Establishes data minimization principle - only required fields are exported for compliance, protecting customer privacy",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 190,
+      "kind": "not-in-this-release",
+      "text": "on print solution we didn't certify on print solution currently this is not possible because of some um physical limitation"
+    },
+    {
+      "t": 302.4,
+      "kind": "subject-to-change",
+      "text": "all your feedback um we first need to filter it because we are enforced by the law we must be compliant by the law and if there is some space we can make more um better options"
+    },
+    {
+      "t": 1123.5,
+      "kind": "subject-to-change",
+      "text": "documentation maybe is not um fully uh uh changed it will be updated in the next few days"
+    },
+    {
+      "t": 1400.2,
+      "kind": "coming-later",
+      "text": "currently this is still voluntary until July 1st from July 1st it will be enforced"
+    },
+    {
+      "t": 1775.5,
+      "kind": "not-in-this-release",
+      "text": "it is applicable only for cloud this does not exist in a on Prem solution"
+    },
+    {
+      "t": 2304.9,
+      "kind": "preview",
+      "text": "we have independent session about e documents and we have one really great automation great example of using co-pilot"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 20,
+    "quotes_dropped": 2,
+    "evidence_verified": 0,
+    "evidence_unverified": 26
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029067
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029073
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.034971
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.040440000000000004
+    }
+  ]
+}

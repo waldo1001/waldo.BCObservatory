@@ -1,0 +1,27 @@
+{
+  "video_id": "OLN-2Ec2GMM",
+  "item_id": "video/yt-microsoft/OLN-2Ec2GMM",
+  "summary": "AL runtime and database changes in Business Central 2024 release wave 1: new number sequence methods (restart, range start), change log cleanup and an on-premises alter key method, table-level field tooltips, test field navigation links, and the move to .NET 8 and PowerShell 7.",
+  "overview": "The session covers developer-facing runtime and database updates in 2024 release wave 1. Number sequences get faster next, current and exist methods (up to 32%), a restart method, and a range start method that fetches an interval in one call. Change log entry deletion is optimized for very large tables, and an on-premises alter key method disables keys for the current transaction to speed up bulk deletion.\n\nIt also covers field tooltips defined once on the table, new system tables for translatable texts, test field adding navigation links to failing data, expanded error handling documentation, and the server runtime move from .NET 6 to .NET 8 and from PowerShell 5 to PowerShell 7 with a backward compatibility bridge.",
+  "key_points": [
+    "Number sequence next, current and exist methods are up to 32% faster. A new restart method resets a sequence to a given number without dropping and recreating it.",
+    "The range start method gets an interval of numbers in one call, so a range of 100 needs 1 database call instead of 100.",
+    "The alter key method disables keys for the current transaction to speed up bulk deletion of change log entries. It is marked on-premises only, and keys are re-enabled when the transaction ends.",
+    "The force order and loop join server settings are removed in this release. They were deprecated in version 23.",
+    "Field tooltips can be defined on the table and are inherited by pages using the field. Page-level tooltips can still override them.",
+    "Test field adds a navigation link to failing data when conditions are met: read permission, available drill down page ID and card page ID, and a target that is a different page or record.",
+    "The runtime moves to .NET 8 and PowerShell 7. A bridge through the nav admin tool relays PowerShell 5 calls, but scripts that import assemblies directly may need minor changes."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant"
+  ],
+  "extraction_hash": "dd085c8d99ba68c006431640bb8301c4907123f29f22da56e9a729a10e93d169",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0178864
+  }
+}

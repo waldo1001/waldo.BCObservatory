@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Shopify Connector B2B Functionality (2024 release wave 1)",
   "url": "https://www.youtube.com/watch?v=3tmaVpPTQLw",
-  "published_at": null,
+  "published_at": "2024-04-04T13:30:02.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:50:54.072Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1834
+    },
+    "captioned": {
+      "at": "2026-10-06T19:51:00.994Z",
+      "path": "data/captions/microsoft/3tmaVpPTQLw.vtt",
+      "vtt_sha256": "2def9c8e76c6c76aae6164b2230dcb18b31232e5dc690a04c5411c80ef5d9d23",
+      "segments": 105,
+      "words": 4468,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 449,
-    "duration_s": 1835,
-    "via": "reconcile"
-  }
+    "duration_s": 1834,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "2def9c8e76c6c76aae6164b2230dcb18b31232e5dc690a04c5411c80ef5d9d23"
 }

@@ -1,0 +1,697 @@
+{
+  "video_id": "B8cWQGwajwQ",
+  "item_id": "video/yt-microsoft/B8cWQGwajwQ",
+  "title": "In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)",
+  "duration_s": 2045,
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "user acceptance testing",
+    "page scripting tool",
+    "script recording and playback",
+    "validation steps",
+    "test automation",
+    "permissions",
+    "devops integration",
+    "conditional logic",
+    "yaml format",
+    "parameters",
+    "script suites",
+    "pipeline support"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Problem Statement",
+      "t_start": 0,
+      "t_end": 116.6
+    },
+    {
+      "title": "Accessing and Permissions",
+      "t_start": 116.6,
+      "t_end": 173
+    },
+    {
+      "title": "Recording Basics and Interface",
+      "t_start": 173,
+      "t_end": 301.1
+    },
+    {
+      "title": "Validation Steps and Script Saving",
+      "t_start": 301.1,
+      "t_end": 453.9
+    },
+    {
+      "title": "Live Demo - Recording a Script",
+      "t_start": 453.9,
+      "t_end": 572.5
+    },
+    {
+      "title": "Playback Controls and Execution",
+      "t_start": 572.5,
+      "t_end": 690.7
+    },
+    {
+      "title": "Live Demo - Playing Back Scripts and Sharing",
+      "t_start": 690.7,
+      "t_end": 854.8
+    },
+    {
+      "title": "Sharing, Clipboard, and Session Information",
+      "t_start": 854.8,
+      "t_end": 1015.7
+    },
+    {
+      "title": "Conditional Step Branches",
+      "t_start": 1015.7,
+      "t_end": 1150.6
+    },
+    {
+      "title": "Optional Pages and Nested Structures",
+      "t_start": 1150.6,
+      "t_end": 1290.1
+    },
+    {
+      "title": "Expressions, Parameters, and Wait Steps",
+      "t_start": 1290.1,
+      "t_end": 1422.2
+    },
+    {
+      "title": "YAML Format and Script Composition",
+      "t_start": 1422.2,
+      "t_end": 1697.5
+    },
+    {
+      "title": "Best Practices and Preview Status",
+      "t_start": 1697.5,
+      "t_end": 1871.5
+    },
+    {
+      "title": "Known Issues, Limitations, and Resources",
+      "t_start": 1871.5,
+      "t_end": 2045
+    }
+  ],
+  "features": [
+    {
+      "name": "Page Scripting Tool",
+      "description": "A tool allowing customers and consultants to record and play user acceptance tests directly in the Business Central web client, driving higher test coverage and agility while reducing costs. Supports script composition, parameterization, and collaborative testing.",
+      "status": "preview",
+      "status_evidence_t": 104.4,
+      "status_evidence_quote": "we released this tool as a preview in 2024 release way one",
+      "status_evidence_verified": true,
+      "t_start": 15.7,
+      "t_end": 1851.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires separate permissions for recording and playback",
+        "Playback can insert or change data in environment",
+        "Must be run in similar environment where recorded",
+        "Limited editing support during recording",
+        "Suite management only in YAML",
+        "Pipeline execution not yet supported"
+      ],
+      "tags": [
+        "testing",
+        "automation",
+        "preview",
+        "web-client",
+        "uat",
+        "scripting"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Validation Steps",
+      "description": "Ability to insert validation steps during recording by right-clicking controls to verify expected outcomes. Users can configure validation values and operators such as equal to, greater than, or less than.",
+      "status": "preview",
+      "status_evidence_t": 104.4,
+      "status_evidence_quote": "we released this tool as a preview in 2024 release way one",
+      "status_evidence_verified": true,
+      "t_start": 301.1,
+      "t_end": 399.2,
+      "is_demoed": true,
+      "caveats": [
+        "Values shown during recording can be modified afterward"
+      ],
+      "tags": [
+        "validation",
+        "testing",
+        "assertions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Script Persistence in YAML Format",
+      "description": "Scripts are saved in YAML format as a metadata-driven format that can be downloaded, shared with others, edited, and rerun in similar environments to verify behavior over time. Supports DevOps integration scenarios.",
+      "status": "preview",
+      "status_evidence_t": 104.4,
+      "status_evidence_quote": "we released this tool as a preview in 2024 release way one",
+      "status_evidence_verified": true,
+      "t_start": 399.2,
+      "t_end": 1482.4,
+      "is_demoed": true,
+      "caveats": [
+        "Scripts must be run in environments with similar pages, objects, and functionality"
+      ],
+      "tags": [
+        "persistence",
+        "yaml",
+        "shareability",
+        "metadata"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Single-Step Playback Controls",
+      "description": "Users can navigate through recorded steps using next and previous buttons for single-step execution, rewind to restart, and see visual indicators for passing and failing steps with error details.",
+      "status": "preview",
+      "status_evidence_t": 104.4,
+      "status_evidence_quote": "we released this tool as a preview in 2024 release way one",
+      "status_evidence_verified": true,
+      "t_start": 572.5,
+      "t_end": 650.6,
+      "is_demoed": true,
+      "caveats": [
+        "No undo functionality when going backward",
+        "Previous action redoes steps rather than undoing"
+      ],
+      "tags": [
+        "playback",
+        "controls",
+        "debugging",
+        "step-execution"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Run To Step Feature",
+      "description": "Users can right-click on a step in the context menu and select run to execute playback only up to that specific step, allowing partial test execution and step-by-step validation during test execution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 813.5,
+      "t_end": 854.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "playback",
+        "partial-execution",
+        "controls",
+        "step execution",
+        "test control"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Playback Link Sharing",
+      "description": "Users can copy a self-contained link from the toolbar that includes the full recording and execution state encoded in a Base64 hash payload for efficient sharing. Other users can review and investigate test results through the link.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 854.8,
+      "t_end": 934.6,
+      "is_demoed": true,
+      "caveats": [
+        "Link includes full recording and state in Base64 encoded format",
+        "Requires access to the same environment"
+      ],
+      "tags": [
+        "sharing",
+        "collaboration",
+        "links",
+        "link sharing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Page Scripting Clipboard",
+      "description": "Dedicated clipboard for storing values captured during recording steps and reusing them in follow-up steps through copy and paste operations via context menu.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 934.6,
+      "t_end": 1015.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "clipboard",
+        "value reuse",
+        "context menu"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Session Information Pasting",
+      "description": "Ability to access and paste session information such as User ID into test steps using the page scripting context menu.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1015.7,
+      "t_end": 1037.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "session info",
+        "user id",
+        "context menu"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Conditional Step Branches",
+      "description": "Feature to create branches in test scripts that execute only when specified conditions are met, such as checking row count values, allowing for conditional test logic and scenario-based execution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1037.8,
+      "t_end": 1150.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "branching",
+        "conditional logic",
+        "row count"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Optional Pages",
+      "description": "Ability to mark pages as optional in test scripts so that steps recorded on those pages only execute if the page is actually displayed during playback, handling dynamic workflows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1191,
+      "t_end": 1272,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "optional logic",
+        "page handling",
+        "conditional pages"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Nested Structure Collapsing",
+      "description": "UI capability to collapse nested conditional and optional page structures in long scripts for improved readability and easier navigation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1272,
+      "t_end": 1290.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui collapsing",
+        "script readability"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Power FX Expressions",
+      "description": "Support for Power FX expression language in the properties pane for simple calculations, with access to clipboard, parameters, and session info objects during script recording and playback.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1290.1,
+      "t_end": 1341.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power fx",
+        "expressions",
+        "calculations"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Wait Steps",
+      "description": "Ability to insert wait steps with configurable delay duration to accommodate scenarios where operations take extra time or external web service calls need to complete during playback.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1382,
+      "t_end": 1422.2,
+      "is_demoed": true,
+      "caveats": [
+        "Defaults to 1 second or 1000 milliseconds",
+        "Should be used sparingly only when needed"
+      ],
+      "tags": [
+        "wait",
+        "timing",
+        "delay"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Script Parameters",
+      "description": "YAML-only feature allowing parameterization of scripts with variables that can be reused throughout the script and modified in one place rather than multiple locations, enabling reusable script definitions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1522.6,
+      "t_end": 1596.8,
+      "is_demoed": true,
+      "caveats": [
+        "Only editable in YAML format, not in web client UI",
+        "Scripts must use parameters for suite composition to work",
+        "Limited editing support in web client"
+      ],
+      "tags": [
+        "parameters",
+        "variables",
+        "yaml",
+        "reusability"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Script Suites with Include Command",
+      "description": "YAML-only feature to bundle multiple smaller scripts together and execute them in sequence using include commands, allowing parameter sharing across scripts and enabling complex test scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1616.8,
+      "t_end": 1697.5,
+      "is_demoed": true,
+      "caveats": [
+        "Only available in YAML, not in web client UI",
+        "Limited editing support in web client",
+        "Included scripts must use parameters",
+        "Order of scripts matters"
+      ],
+      "tags": [
+        "script suites",
+        "include",
+        "sequencing",
+        "yaml",
+        "script composition"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Filter-based List Selection",
+      "description": "When selecting items from lists, users can apply filters during recording to ensure the correct line is at the top and will be reliably selected during replay, improving script robustness.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1717.6,
+      "t_end": 1757.7,
+      "is_demoed": false,
+      "caveats": [
+        "Does not track specific instance identifiers like invoice numbers"
+      ],
+      "tags": [
+        "best practices",
+        "list handling",
+        "recording"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Pipeline Execution for Scripts",
+      "description": "Capability to run page scripting tool scripts as part of CI-CD pipelines and development workflows to detect regressions during rollout and automate testing in DevOps scenarios.",
+      "status": "announced",
+      "status_evidence_t": 1871.5,
+      "status_evidence_quote": "we're working on but uh we and um it's not yet supported to run",
+      "status_evidence_verified": true,
+      "t_start": 1851.4,
+      "t_end": 1871.5,
+      "is_demoed": false,
+      "caveats": [
+        "Currently only supported execution in client",
+        "Under development",
+        "First version with known limitations"
+      ],
+      "tags": [
+        "pipelines",
+        "ci-cd",
+        "automation",
+        "devops"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Designer and Embedded Content Limitations",
+      "description": "The tool does not record designer interactions, cannot close report previews, and cannot automate control types like charts, embedded Power BI, Power Apps, or content outside Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1871.5,
+      "t_end": 1932.6,
+      "is_demoed": false,
+      "caveats": [
+        "Not an HTML automation tool",
+        "Limited to Business Central controls"
+      ],
+      "tags": [
+        "limitations",
+        "known issues",
+        "designer"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Control Identification and Notifications",
+      "description": "The tool relies on named control references in the UI to function correctly. Issues can occur with notifications, confirmation dialogues, and race conditions when the same field names appear in different locations or in different execution sequences.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1891.8,
+      "t_end": 1932.6,
+      "is_demoed": false,
+      "caveats": [
+        "Race condition risks with messages and dialogues",
+        "Requires next/previous buttons on cards"
+      ],
+      "tags": [
+        "control naming",
+        "limitations",
+        "known issues"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Page Inspector",
+      "t": 173
+    },
+    {
+      "type": "page",
+      "name": "Sales Orders",
+      "t": 494.6
+    },
+    {
+      "type": "page",
+      "name": "Customer",
+      "t": 250
+    },
+    {
+      "type": "page",
+      "name": "Page Scripting pane",
+      "t": 1098.3
+    },
+    {
+      "type": "other",
+      "name": "properties pane",
+      "t": 1170.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "H Peter Boring",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 73.5,
+      "text": "we are introducing a new tool allowing customers and consultant buttons to exactly do that easily record and play user acceptance tests",
+      "why_it_matters": "Defines the core purpose of the Page Scripting Tool for empowering customers and consultants to automate UAT.",
+      "check": "exact"
+    },
+    {
+      "t": 104.4,
+      "text": "we released this tool as a preview in 2024 release way one",
+      "why_it_matters": "Establishes the release status and timing of the feature as preview in 2024 wave 1.",
+      "check": "exact"
+    },
+    {
+      "t": 301.1,
+      "text": "testing is to verify an expected outcome of performing a given set of steps",
+      "why_it_matters": "Articulates the fundamental UAT principle that the tool addresses through validation steps.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 592.5,
+      "text": "it's important to understand that when you go back or the previous action there's no undo in that you're just basically redoing it",
+      "why_it_matters": "Clarifies a key limitation in the playback control model when navigating backward through steps.",
+      "check": "snapped"
+    },
+    {
+      "t": 813.5,
+      "text": "you can actually decide only to run to a certain step right so if you go to the context menu on the step you",
+      "why_it_matters": "Demonstrates partial script execution capability for step-level validation and debugging during playback.",
+      "check": "exact"
+    },
+    {
+      "t": 875.2,
+      "text": "there is an opportunity to to share copy a link um and that link is self-contained it basically includes um the full recording",
+      "why_it_matters": "Shows how test recordings can be shared with others in a single link without requiring separate file management.",
+      "check": "exact"
+    },
+    {
+      "t": 934.6,
+      "text": "the page scripting tool has its own uh clipboard and uh this can be used to store results that you get back during recording",
+      "why_it_matters": "Enables value reuse across test steps, a core feature for reducing redundancy and improving test maintainability.",
+      "check": "exact"
+    },
+    {
+      "t": 1037.8,
+      "text": "sometimes a set of Step s only apply on a given uh condition right so imagine that you open a list uh page uh",
+      "why_it_matters": "Explains the conditional branching feature that allows tests to handle different scenarios based on data state.",
+      "check": "exact"
+    },
+    {
+      "t": 1290.1,
+      "text": "you can actually also write an expression for very simple calculations and we're using power effect as the expression language",
+      "why_it_matters": "Shows Power FX integration for dynamic value generation and calculations within test scripts.",
+      "check": "exact"
+    },
+    {
+      "t": 1422.2,
+      "text": "the scripts are really stored in the yaml format um and that's like um you know metad driven format for for clients here and",
+      "why_it_matters": "YAML format enables standard script representation that supports DevOps integration and advanced editing scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 1522.6,
+      "text": "you can actually parameterize scripts so that's basically the equivalent of setting some variables that you can then use throughout the script to to",
+      "why_it_matters": "Parameters enable script reusability and reduce maintenance burden by centralizing value changes.",
+      "check": "exact"
+    },
+    {
+      "t": 1596.8,
+      "text": "when we execute disc script and as I said you can use this uh in the expressions in the UI as well",
+      "why_it_matters": "Shows that parameters are usable throughout the script execution and UI expressions for flexible test automation.",
+      "check": "snapped"
+    },
+    {
+      "t": 1637.1,
+      "text": "you can bundle multiple scripts uh there and the way it works is that um you use a the include command in the script",
+      "why_it_matters": "Script suites allow composition of modular test scripts that can share parameters and execute in sequence.",
+      "check": "snapped"
+    },
+    {
+      "t": 1790.1,
+      "text": "the tool is in preview now um please give us feedback on yamama and uh on ideas on this",
+      "why_it_matters": "Explicitly states the preview status and solicits feedback on the tool.",
+      "check": "exact"
+    },
+    {
+      "t": 1810.4,
+      "text": "a lot of support for during recording to to change the steps right that hey i want to delete these two and",
+      "why_it_matters": "Identifies a key limitation of the current preview version regarding script editing capabilities.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1871.5,
+      "text": "it's not yet supported to run that you can only run them in the client at this point",
+      "why_it_matters": "Clarifies that pipeline execution, while planned, is not yet available in this version.",
+      "check": "snapped"
+    },
+    {
+      "t": 1952.7,
+      "text": "this is not an HTML automation tool right so we cannot automate uh control edings like charts or any embedded uh content like powerbi",
+      "why_it_matters": "Defines the tool's scope and distinguishes it from generic web automation, setting clear expectations for what it can and cannot do.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 104.4,
+      "kind": "preview",
+      "text": "we released this tool as a preview in 2024 release way one"
+    },
+    {
+      "t": 156.8,
+      "kind": "preview",
+      "text": "we will warn if you're trying to play scripts recorded scripts in a production environment"
+    },
+    {
+      "t": 1502.6,
+      "kind": "subject-to-change",
+      "text": "there are a couple of scenarios powerful scenarios that we currently only support in yaml so you have to go to edit them in the yaml H they are supported when you then play them in the client but there isn't a uh page in uh s page is scripting user experience in the client"
+    },
+    {
+      "t": 1790.1,
+      "kind": "preview",
+      "text": "the tool is in preview now um please give us feedback"
+    },
+    {
+      "t": 1810.4,
+      "kind": "not-in-this-release",
+      "text": "there isn't a lot of support for during recording to to change the steps"
+    },
+    {
+      "t": 1830.9,
+      "kind": "not-in-this-release",
+      "text": "you can only build Suites in yaml not in the client"
+    },
+    {
+      "t": 1851.4,
+      "kind": "coming-later",
+      "text": "we're working on but uh we and um it's not yet supported to run that you can only run them in the client at this point"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 17,
+    "quotes_dropped": 3,
+    "evidence_verified": 5,
+    "evidence_unverified": 14
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024137
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0317284
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021973
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029741999999999998
+    }
+  ]
+}

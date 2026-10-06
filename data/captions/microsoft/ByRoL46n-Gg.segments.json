@@ -1,0 +1,436 @@
+{
+  "video_id": "ByRoL46n-Gg",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 15.8,
+      "end": 36,
+      "text": "hello and welcome to Dynamics 365 uh field service integration session my name is Ivan ktic and I'm a product manager in business Central team at Microsoft so in this session I will take you through a sort of a new kit on the Block in terms of integration that's the integration with Dynamics 365"
+    },
+    {
+      "t": 36,
+      "end": 56.4,
+      "text": "uh field service between Dynamics 365 field service and business Central um this is our agenda for today we we'll talk a bit about uh the field service uh integration value what it brings uh to the table we'll talk about how do you uh enable this integration uh how to synchronize"
+    },
+    {
+      "t": 56.4,
+      "end": 76.4,
+      "text": "uh the basic Master data that is needed such as project task resources service items how to manage work orders and how to consume them and in the end uh how to uh invoice the work that has been done uh through the work orders in uh field service through business Central let's first talk a bit about"
+    },
+    {
+      "t": 76.4,
+      "end": 96.5,
+      "text": "um what is actually the value and why it is important that business Central has an integration to field service uh one of the things that we hear from uh a lot of companies and I assume there is no service company that doesn't want to streamline their uh service operations and improve efficiency uh one of the things that's"
+    },
+    {
+      "t": 96.5,
+      "end": 116.5,
+      "text": "particularly interested in here for our business Central customers and partners is the capability of uh providing visual scheduling of uh of the work increasing Automation and aligning uh the work order data to with financial uh transactions uh in business Central on the other"
+    },
+    {
+      "t": 116.5,
+      "end": 137.6,
+      "text": "hand what business Central actually brings in here is that visibility to the uh inventory of uh the products uh that you have but on the other hand uh one of the things uh where field service actually also brings a ton of value is uh a lot of uh is offline"
+    },
+    {
+      "t": 137.6,
+      "end": 157.6,
+      "text": "capabilities where you can find technicians and people usually working in places where they don't have uh uh internet connection so this is something that uh field service will nicely supplement uh to the value that business Central is uh providing on top of that U business"
+    },
+    {
+      "t": 157.6,
+      "end": 178.1,
+      "text": "Central uh brings in U accurate and compliant invoicing uh to the mix together with uh ensuring that you have uh consistent product and resource information be it prices be it costs and so on another very important thing to notice in terms of uh integration value is"
+    },
+    {
+      "t": 178.1,
+      "end": 198.5,
+      "text": "uh as you all know we do have uh integration to data ver and Dynamics 365 for sales and our integration Solutions are built in a way that they can be easily customized and extended by partners and some of the partners might have uh endeavored uh in in this way of uh creating a custom uh solutions that integrate"
+    },
+    {
+      "t": 198.5,
+      "end": 218.7,
+      "text": "uh field service but now that is no longer uh needed as you get uh you get these capabilities of the page which of course uh helps red reduce the burden uh on the partner Channel and given that this is now part of uh part of the product"
+    },
+    {
+      "t": 218.7,
+      "end": 239,
+      "text": "and of course it also will hopefully reduce the implementation time that is needed from what I've been hearing from months to maybe uh couple of weeks so let's dive in uh the first uh sort of section of the field service integration in order for you to use the field service integration of course you will need to"
+    },
+    {
+      "t": 239,
+      "end": 259.4,
+      "text": "uh enable it as I mentioned we have data worse and Dynamics 365 for sales uh integration already and the field service integration is something that builds on top this means that in order for you to enable field service integration you will first need to enable a connection to a data verse environment where you have sales"
+    },
+    {
+      "t": 259.4,
+      "end": 279.9,
+      "text": "and field service installed all of this is actually packaged up in a assisted setup uh guide which will guide you through uh through this uh through this process process in order to enable field service integration you will also need to uh designate some uh project Journal templates and batches where"
+    },
+    {
+      "t": 279.9,
+      "end": 300.1,
+      "text": "the data about the consumption uh of hours and consumption of products is going to land in business Central once the integration is uh enabled apart from that uh it's important that you also specify how and when you want uh the consumption that happens"
+    },
+    {
+      "t": 300.1,
+      "end": 320.6,
+      "text": "in field service uh to get transferred to to Business Center so you have two options of uh when to U when to synchronize uh work orders or products you can actually choose between when uh when those are actually marked as used in field service on on the product lines and you also have an option"
+    },
+    {
+      "t": 320.6,
+      "end": 341.9,
+      "text": "uh to uh to set uh when and how you want this data that gets transferred to the project journals to be posted whether it gets posted automatically or you want to have some more control and you just want that data to land in your project journals then you review it and post it uh"
+    },
+    {
+      "t": 341.9,
+      "end": 362,
+      "text": "manually which brings us to uh our first demo so one of the first things uh that you need to do is we need to look at the field service uh settings uh the reason why we need to uh change some of these settings is because they will conflict with the way that the integration is working working one of the first things that to do"
+    },
+    {
+      "t": 362,
+      "end": 382.4,
+      "text": "is to make sure that the inbuilt uh invoicing capabilities of field service are uh disabled so we disable uh work order invoice creation another thing that you will uh want to turn off is calculating prices and costs because business Central is going to be the product uh that when integrated"
+    },
+    {
+      "t": 382.4,
+      "end": 396.8,
+      "text": "is going to drive those things and on the purchase tab U since we'll be using inventory from business uh Central uh you should actually set use products out of stock to uh"
+    },
+    {
+      "t": 396.8,
+      "end": 417.6,
+      "text": "blank so now back in business Central when we start the field service integration setup as I said you need to pick uh project Journal templates you need to pick the project uh Journal batch you will also need to designate a uh hour unit of measure because all of the work in uh field service is expressed in duration"
+    },
+    {
+      "t": 417.6,
+      "end": 440.8,
+      "text": "so we need to know what is going to be the uh unit of measure for that and you will pick this uh work order product synchronization and posting uh posting settings uh in uh assisted setup after the assisted setup is uh completed you can actually go and run the full"
+    },
+    {
+      "t": 440.8,
+      "end": 452.8,
+      "text": "synchronization and that will actually uh get you uh transfer all the data uh that uh that is needed for uh for integration uh to"
+    },
+    {
+      "t": 452.8,
+      "end": 472.8,
+      "text": "work you simply go and select you synchronize everything and once that process is completed uh you'll be able to uh start working with uh field service integration so in this demo we briefly looked at uh what are the field service settings that are needed and how"
+    },
+    {
+      "t": 472.8,
+      "end": 492.8,
+      "text": "to actually enable uh the field service integration so let's move forward the the next section of U of the session talks about the master data that needs to be synchronized and you saw us run the uh run full synchronization which initiates uh some of the new uh Master data that"
+    },
+    {
+      "t": 492.8,
+      "end": 513.8,
+      "text": "gets uh transferred uh that gets synchronized between business Central and field service what you may have noticed uh briefly in here and in the picture uh that we have in here is that we are now synchronizing resources to a bookable resource uh to enable work order scheduling we also do synchronize"
+    },
+    {
+      "t": 513.8,
+      "end": 534.3,
+      "text": "uh service items to uh customer uh to customer assets uh to track operations on on uh on such uh assets and we also do synchronize uh project tasks uh to sort of enable consumption and to link the work order to a specific project that is then going to be where the postings are going to occur"
+    },
+    {
+      "t": 534.3,
+      "end": 554.7,
+      "text": "and from where the invoices are going to be created and now let's uh also switch to another demo to see all of that uh in action so we'll start this demo uh in field service and one of the things that you might have noticed is I've mentioned we are now synchronizing resources to bookable resources"
+    },
+    {
+      "t": 554.7,
+      "end": 574.8,
+      "text": "all of you who know our integration to Dynamics 365 or sales know that the resources have actually been synchronized uh to uh products in order to enable work order scheduling we need to now start synchronizing resour is not to the products but to the bookable resource one of the things that you will be warned uh"
+    },
+    {
+      "t": 574.8,
+      "end": 595.7,
+      "text": "in the during the connection setup uh to to field service is that if if the con if the if the assisted setup guide actually detects that you have resources synchronized with products it will actually propose that you un uncouple them in order to make sure that the resources can"
+    },
+    {
+      "t": 595.7,
+      "end": 615.9,
+      "text": "uh get um synchronized to bookable resource there's another uh there's another there's another caveat in using the products that you might have uh synchronized already with sales in order to use the products uh that in order to use the products from business Central in field service we will need"
+    },
+    {
+      "t": 615.9,
+      "end": 635.9,
+      "text": "to make sure that the products have the field service product type uh uh filled in the reason why integration is not doing that out of the box is uh on one hand performance reasons because you might have a large catalog of items for us to do it uh automatically uh"
+    },
+    {
+      "t": 635.9,
+      "end": 656.4,
+      "text": "and uh another thing is the the resource thing that I just mentioned the resources might be included in there so for that reason we actually said it's better to uh it's better to leave this uh up to the users because it's fairly easy to U it's fairly easy to do that especially with virtual tables and so on"
+    },
+    {
+      "t": 656.4,
+      "end": 676.7,
+      "text": "I have a small list of uh I have small list of business Central products which I know how I want to uh set this uh field service product type it actually does map to um business centrals uh uh business Central items uh type right so let's just"
+    },
+    {
+      "t": 676.7,
+      "end": 690.8,
+      "text": "set all of these products to be inventory and I have a couple of them that I want to set as uh service let's take the project fee as well"
+    },
+    {
+      "t": 690.8,
+      "end": 702.4,
+      "text": "and let's just save that all right so while that is being done let's switch back to business Central and look at the integration table"
+    },
+    {
+      "t": 702.4,
+      "end": 722.4,
+      "text": "mappings and in here we can go through some of these new mappings uh that have been introduced from what you can see in here so there are two mappings one for work order products and one for work order services that are going to bring bring in the data from um work orders that have"
+    },
+    {
+      "t": 722.4,
+      "end": 742.5,
+      "text": "uh some work executed that needs to be either consumed or posted in business Central there are project tasks if you look at the filters in here we are looking only at the project tasks of type posting these are going to be the ones uh to which you will be able to link the recorder too and then there is also uh"
+    },
+    {
+      "t": 742.5,
+      "end": 762.6,
+      "text": "resources uh these are the conditions for the resources that we are syncing as you can see uh the the resources that we will be syncing to bable Resource need to have base unit of measure set to our that thing that that setting that we've uh We've Set uh during assisted setup the resource shouldn't be blocked and the resources"
+    },
+    {
+      "t": 762.6,
+      "end": 773.7,
+      "text": "should not uh use uh time sheets in order to be eligible for uh in order to be eligible for syncing and"
+    },
+    {
+      "t": 773.7,
+      "end": 782.1,
+      "text": "uh and if we uh if we go and look at the resource list"
+    },
+    {
+      "t": 782.1,
+      "end": 802.1,
+      "text": "hopefully my resources have already synchronized let me see yes they are as you can see they are all coupled you have the standard set of uh actions that you are that users are used to from our uh Dynamics 365 or sales integration so you can uh go ahead and uh set up"
+    },
+    {
+      "t": 802.1,
+      "end": 822.3,
+      "text": "coupling delete coupling do match base coupling synchronize the data or simply open a u sort of a couple uh resource uh directly in in field service that will start the field service and you will see the data from uh from business Central uh being transferred uh in here"
+    },
+    {
+      "t": 822.3,
+      "end": 839.2,
+      "text": "okay so switching back to resources let's also have a look at uh uh projects and how they are uh how they are actually uh linked on Project tasks so I will have a look at uh the project task lines"
+    },
+    {
+      "t": 839.2,
+      "end": 859.5,
+      "text": "and in here if you look at the uh project task card again you will see that standard set of actions uh that are available uh also in our other uh Integrations to uh for for the coupled uh for the coupled records so let's open a project task uh in field service"
+    },
+    {
+      "t": 859.5,
+      "end": 878.1,
+      "text": "in here and what you can see what you can do uh directly from here we could just go ahead and uh create a new work order you can see the data from business Central has uh already been uh synchronized and let me"
+    },
+    {
+      "t": 878.1,
+      "end": 891.3,
+      "text": "just uh let me just pick workorder type is set and everything let's go ahead and save the"
+    },
+    {
+      "t": 891.3,
+      "end": 911.3,
+      "text": "recorder okay and here we have a uh work order that has been created using the business Central data it has been linked to a business Central um project task and now it's actually ready to uh add products and services and book the resources for"
+    },
+    {
+      "t": 911.3,
+      "end": 931.4,
+      "text": "it so in this demo U I've shown you how to uh how to prepare the products uh or items to work with u with with field service we've seen uh resources being synchronized to bookable Resource and I also shown you project tasks and uh how to link a how to link and create a new"
+    },
+    {
+      "t": 931.4,
+      "end": 951.4,
+      "text": "work order from a project task so next section of uh of this session talks about uh how do you manage uh work orders so as you saw we created a uh first uh work order uh we brought in a uh service and billing accounts uh to"
+    },
+    {
+      "t": 951.4,
+      "end": 971.7,
+      "text": "work order and it was fairly easy to uh to link the work order to a project task you can use the you can use the path that I've just shown you or you can simply just create a new work order and uh pick among the tasks that belong to a uh specific service and building accounts or sell"
+    },
+    {
+      "t": 971.7,
+      "end": 992,
+      "text": "to and build to uh customers and of course uh what we didn't see on that work order was uh the business Central price list also uh gets uh gets transferred in there and can be uh picked as something that will drive the pricing for for that particular workor order uh work orders"
+    },
+    {
+      "t": 992,
+      "end": 1008.3,
+      "text": "uh have uh work order products and services this is where you record uh what kind of uh uh items uh or products you will need uh to complete the work order um in business Central we are uh synchronizing"
+    },
+    {
+      "t": 1008.3,
+      "end": 1028.9,
+      "text": "uh uh items of type inventory and uh non-inventory items and they can be picked in workorder product lines you can also uh you will also be able to see a quantity on hand for the selected uh for the selected uh product on the work called the product line and also uh we are synchronizing"
+    },
+    {
+      "t": 1028.9,
+      "end": 1049,
+      "text": "items of type Service as uh work order uh service lines after you have Set uh after you have Set uh the the the material that you will use and you have estimated U you've added a service that is going to be performed another thing that you will need to"
+    },
+    {
+      "t": 1049,
+      "end": 1069,
+      "text": "do uh in order to proceed with executing the work order you will need to book uh some resources what you can see here on the screen there's a list of uh well-known uh business Central resources from which you can actually pick up uh which you can pick and uh schedule to perform the work on the work order and as"
+    },
+    {
+      "t": 1069,
+      "end": 1090.6,
+      "text": "always there's no better way than uh seeing that thing uh in action so let's switch over to a another demo so we'll start this demo uh back in field service we've already created a work order and now it's time to add some products and services uh to it so we'll add uh our"
+    },
+    {
+      "t": 1090.6,
+      "end": 1109.4,
+      "text": "airpod coffee maker we'll put in some estimated quantity we'll save this what you can see in here it also automatically picks up the information about the inventory from uh business Central we'll also add some services"
+    },
+    {
+      "t": 1109.4,
+      "end": 1129.4,
+      "text": "if you remember we put these two uh two items of type service let's call it just a repair and let's say that we need uh that will need three uh three hours that will need three hours for that now that we have uh now that we have the product and we have the service the last thing that remains in order"
+    },
+    {
+      "t": 1129.4,
+      "end": 1151.7,
+      "text": "for this work order to become scheduled is we need to book some resources and we will do that from the resource scheduling let just go ahead and say we need uh location agnostic resources and I'll just turn this"
+    },
+    {
+      "t": 1151.9,
+      "end": 1172.2,
+      "text": "off and here you can actually see the business Central resources that have been mapped to bookable Resource which you can now uh uh book uh for specific work orders all right so now that we have a uh booking cre created uh let's actually"
+    },
+    {
+      "t": 1172.2,
+      "end": 1192.4,
+      "text": "go ahead and relate it in here you can save and close this and we can now see that the work order has been moved uh to the state uh scheduled okay so in in this demo you've seen how you can actually add the products and services"
+    },
+    {
+      "t": 1192.4,
+      "end": 1212.7,
+      "text": "that you synchronized from business Central uh in field service work order uh you can create a booking for that and and uh how you can actually see the uh quantity coming from uh business Central uh directly in a work order product uh line next thing that you want to do now that we have scheduled"
+    },
+    {
+      "t": 1212.7,
+      "end": 1229.2,
+      "text": "the work order um to be uh workorder and the services to be executed our technicians go out they do consume the materials that have been added to the work order that you consume uh hours that have been uh put uh on the work order"
+    },
+    {
+      "t": 1229.2,
+      "end": 1249.4,
+      "text": "and after they are done they will uh report back after the service has been uh executed on uh what has what has happened in order for the accounting department and for the sales department to be able to on one hand account for the costs that have occurred during uh execution of that uh work order and to"
+    },
+    {
+      "t": 1249.4,
+      "end": 1269.4,
+      "text": "account for the uh inventory and actually invoice in the end invoice the the work order so once we uh once we set the the workorder product uh uh line uh workorder products and workorder services as in a state used we"
+    },
+    {
+      "t": 1269.4,
+      "end": 1289.5,
+      "text": "will get uh this information sent back to uh business Central in those project Journal template and the pro Journal batch uh that we've uh that we've specified and from there we can proceed with posting consumption and invoicing and recording uh recording these transactions against that"
+    },
+    {
+      "t": 1289.5,
+      "end": 1309.6,
+      "text": "uh uh linked project task that we put on the work order so let's see that in a demo so we'll start this demo back in the field service where we have a scheduled uh work order and now as the technician is executing the work order he will Mark the workorder product and the work order"
+    },
+    {
+      "t": 1309.6,
+      "end": 1328.3,
+      "text": "service lines as used let's just accept the defaults in here and for services we will also say yes we've actually used let's say we used actually an hour rather than 30 minutes to make things"
+    },
+    {
+      "t": 1328.3,
+      "end": 1349.4,
+      "text": "interesting and let's save and close that as well so back in business Central we'll look at the project journal to see that all of the uh used workorder products and services have been indeed carried uh through what you can see is uh three airpods and one hour"
+    },
+    {
+      "t": 1349.4,
+      "end": 1363.7,
+      "text": "one hour of uh repair that has been uh executed in here so let's go ahead and post this perfect and now if we look at"
+    },
+    {
+      "t": 1363.7,
+      "end": 1384.3,
+      "text": "the if you look at the project and the task that we have actually uh linked this work order to we can actually see that uh indeed these lines have been uh transferred uh to to that uh specific"
+    },
+    {
+      "t": 1384.3,
+      "end": 1405,
+      "text": "uh project planning lines so in this demo you you you've seen uh how we marked recorder product and recorder service lines as used that actually triggered uh the transfer of of those lines to project Journal lines which we then used for uh posting the consumption"
+    },
+    {
+      "t": 1405,
+      "end": 1425.1,
+      "text": "uh to the specific uh project task and we ended up showing uh showing the the the posted uh the the posted consumption and the lines uh in the project planning lines that got created during that uh posting process the last thing that we have uh in order to sort of"
+    },
+    {
+      "t": 1425.1,
+      "end": 1445.2,
+      "text": "uh wrap up this whole process is to uh invoice the workorders and of course uh this is something that is uh being done uh directly from business Central where once you get the once you get the project planning lines you can simply create uh an invoice and"
+    },
+    {
+      "t": 1445.2,
+      "end": 1465.2,
+      "text": "uh that invoice that gets created and posted will be transferred back to uh transferred back to uh to field service uh also as an information of um of completion of of that particular uh related to that work order and as an information of completion of the work"
+    },
+    {
+      "t": 1465.2,
+      "end": 1488.7,
+      "text": "order so let's quickly see that uh in a in a demo so back in business Central looking at the project Journal lines we can now go ahead and create a sales invoice can view that sales invoice that was created we can go ahead and post"
+    },
+    {
+      "t": 1488.7,
+      "end": 1509,
+      "text": "it after posting it we would actually go ahead and send it to our customer and of course uh we also have a sort of a recurring job that would pick up posted invoices and transfer them to u to field service or sales but for the uh for the"
+    },
+    {
+      "t": 1509,
+      "end": 1529.8,
+      "text": "sake of the demo I will just click here to have this created so I think we should actually have an invoice now done yes and if I click the invoice in here what you can see is that that information about the invoice uh actually goes and gets transferred"
+    },
+    {
+      "t": 1529.8,
+      "end": 1549.8,
+      "text": "together with the products and the information about the posting back to uh field service and in this last demo you've seen how easy it was to Simply convert the uh project Journal lines to the sales invoice post the sales invoice and transfer the posit sales invoice back to uh field service thus"
+    },
+    {
+      "t": 1549.8,
+      "end": 1570,
+      "text": "wrapping up the the the whole uh the whole uh process and that was it uh for this session I hope you've enjoyed it um if you have the time and if you are willing to learn more I strongly recommend you check out uh these two very related sessions"
+    },
+    {
+      "t": 1570,
+      "end": 1590,
+      "text": "on what's new in service management what's new in project management that that is being delivered by my colleague uh Andre and uh of course um if you do have any questions you want to uh engage in the conversation um have product suggest or something make sure to"
+    },
+    {
+      "t": 1590,
+      "end": 1606.4,
+      "text": "check out some of these links U and reach out to us uh with your feedback which is always welcome and with that I want to thank you for your time and attention during this"
+    },
+    {
+      "t": 1606.4,
+      "end": 1607,
+      "text": "session"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    },
+    {
+      "t": 15.789,
+      "text": "[Music]"
+    },
+    {
+      "t": 15.799,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 4015
+}

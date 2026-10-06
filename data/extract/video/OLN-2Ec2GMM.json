@@ -1,0 +1,422 @@
+{
+  "video_id": "OLN-2Ec2GMM",
+  "item_id": "video/yt-microsoft/OLN-2Ec2GMM",
+  "title": "What’s New: AL Runtime and Database (2024 release wave 1)",
+  "duration_s": 1025,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "number sequence",
+    "change log cleanup",
+    "alter key",
+    "field tooltips",
+    "translatable texts",
+    "actionable errors",
+    "test field",
+    "error handling",
+    ".net 8",
+    "powershell 7"
+  ],
+  "chapters": [
+    {
+      "title": "Number Sequence enhancements",
+      "t_start": 0,
+      "t_end": 145.3
+    },
+    {
+      "title": "Change log cleanup and alter key method",
+      "t_start": 145.3,
+      "t_end": 272.6
+    },
+    {
+      "title": "Field tooltips on table level",
+      "t_start": 272.6,
+      "t_end": 348.4
+    },
+    {
+      "title": "Translatable text storage system",
+      "t_start": 348.4,
+      "t_end": 470.1
+    },
+    {
+      "title": "Actionable error improvements and test field navigation",
+      "t_start": 470.1,
+      "t_end": 658.3
+    },
+    {
+      "title": "Error handling documentation",
+      "t_start": 658.3,
+      "t_end": 710.2
+    },
+    {
+      "title": "Runtime migration to .NET 8 and PowerShell 7",
+      "t_start": 710.2,
+      "t_end": 822.3
+    },
+    {
+      "title": "Summary and takeaways",
+      "t_start": 822.3,
+      "t_end": 902.2
+    },
+    {
+      "title": "Related sessions and resources",
+      "t_start": 902.2,
+      "t_end": 1025
+    }
+  ],
+  "features": [
+    {
+      "name": "Number sequence next/current/exist methods performance",
+      "description": "Next, current, and exist methods on number sequences are now up to 32% faster than previous versions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 37,
+      "t_end": 57.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "number sequence"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Number sequence restart method",
+      "description": "New method allowing you to restart a number sequence to a particular number without having to drop and recreate the sequence.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 57.4,
+      "t_end": 108.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "number sequence",
+        "new method"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Number sequence range start method",
+      "description": "New method to get an interval of numbers in a single call without querying the database multiple times, reducing database calls from N to 1 when fetching ranges.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 88.2,
+      "t_end": 125.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "number sequence",
+        "performance",
+        "new method"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Change log entry cleanup optimization",
+      "description": "Internal optimization of change log entry deletion to handle very large tables that previously would timeout during retention policy setup or bulk deletion.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 145.3,
+      "t_end": 165.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "change log",
+        "cleanup"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Alter key method for on-premises",
+      "description": "New method that disables keys during the current transaction to speed up bulk deletion of change log entries. Keys are automatically re-enabled when the transaction ends. Marked for on-premises only.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 185.7,
+      "t_end": 264.3,
+      "is_demoed": true,
+      "caveats": [
+        "on-premises only",
+        "only viable for bulk deletion scenarios to avoid index rebuild overhead"
+      ],
+      "tags": [
+        "change log",
+        "performance",
+        "on-premises"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Removal of force order and loop join server settings",
+      "description": "Force order and loop join server settings have been removed in this release after being deprecated in version 23.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 272.6,
+      "t_end": 287.4,
+      "is_demoed": false,
+      "caveats": [
+        "no longer available"
+      ],
+      "tags": [
+        "breaking change",
+        "server settings"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Field tooltips on table definition",
+      "description": "Developers can now define field tooltips once at the table level and any page using those fields will automatically inherit them, reducing duplication and enabling future copilot features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 307.7,
+      "t_end": 348.4,
+      "is_demoed": true,
+      "caveats": [
+        "page-level tooltips can still override table-level ones"
+      ],
+      "tags": [
+        "field metadata",
+        "tooltips",
+        "page inheritance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "System tables for translatable texts",
+      "description": "New system tables added to store translatable texts like tooltips and captions separately from object metadata, improving caching efficiency and reducing duplication.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 429.4,
+      "t_end": 490.2,
+      "is_demoed": false,
+      "caveats": [
+        "tables will be visible in both tenant and app databases"
+      ],
+      "tags": [
+        "metadata",
+        "translation",
+        "system tables",
+        "performance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Actionable errors with test field navigation",
+      "description": "Test field method now automatically adds navigation links to failing data when specific conditions are met, allowing users to navigate directly to the problematic record without developer coding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 544.9,
+      "t_end": 658.3,
+      "is_demoed": true,
+      "caveats": [
+        "requires read permission",
+        "drill down page ID and card page ID must be available",
+        "only navigates if target is different page/record"
+      ],
+      "tags": [
+        "error handling",
+        "ux",
+        "navigation",
+        "test field"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Error handling documentation expansion",
+      "description": "Expanded documentation for developers on error handling including failure modeling and robust coding practices for degrading gracefully and expressing errors in user-friendly language.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 658.3,
+      "t_end": 710.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "error handling",
+        "developer guidance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Runtime migration to .NET 8",
+      "description": "Server runtime upgraded from .NET 6 to .NET 8, providing faster and more efficient runtime. This change is transparent to AL developers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 710.2,
+      "t_end": 750.3,
+      "is_demoed": false,
+      "caveats": [
+        "may affect automation scripts"
+      ],
+      "tags": [
+        ".net 8",
+        "runtime",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "PowerShell 7 migration and backward compatibility bridge",
+      "description": "Migration from PowerShell 5 to PowerShell 7 with a backward compatibility bridge through nav admin tool that relays PowerShell 5 calls to PowerShell 7 cmdlets.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 750.3,
+      "t_end": 822.3,
+      "is_demoed": false,
+      "caveats": [
+        "PowerShell 5 will be deprecated within the next years",
+        "scripts that import assemblies directly may need minor changes"
+      ],
+      "tags": [
+        "powershell",
+        "migration",
+        "compatibility"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "number sequence",
+      "t": 37
+    },
+    {
+      "type": "other",
+      "name": "change log entry",
+      "t": 145.3
+    },
+    {
+      "type": "other",
+      "name": "test field",
+      "t": 524.6
+    },
+    {
+      "type": "table",
+      "name": "general ledger setup",
+      "t": 585.1
+    },
+    {
+      "type": "other",
+      "name": "currency card",
+      "t": 618.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kenny Pidan",
+      "confidence": "high"
+    },
+    {
+      "name": "Yan M Peterson",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 37,
+      "text": "next current exist methods are up to 32% faster",
+      "why_it_matters": "Shows measurable performance improvement for a commonly used API.",
+      "check": "exact"
+    },
+    {
+      "t": 108.5,
+      "text": "so you're basically saving a datab base call for every time you need a number so if if you have a range of 100",
+      "why_it_matters": "Demonstrates the dramatic reduction in database calls when using the new range start method.",
+      "check": "exact"
+    },
+    {
+      "t": 145.3,
+      "text": "change log entry tables growing to very large sizes to the point where even setting up retention policies would time out",
+      "why_it_matters": "Establishes the problem that the alter key optimization was designed to solve.",
+      "check": "snapped"
+    },
+    {
+      "t": 307.7,
+      "text": "with this release wave as developer you can now Define field tool tips once on the table and any page uh that that use",
+      "why_it_matters": "Describes a new capability to reduce code duplication and enable future copilot features.",
+      "check": "exact"
+    },
+    {
+      "t": 544.9,
+      "text": "we've added new capabilities to test field so that it can add link to add a navigation link to the failing data",
+      "why_it_matters": "Outlines a significant usability improvement for error handling without requiring developer coding.",
+      "check": "exact"
+    },
+    {
+      "t": 730.2,
+      "text": "for this release we have switched to net 8 which is a faster and more efficient runtime",
+      "why_it_matters": "Announces a major platform upgrade with performance benefits.",
+      "check": "exact"
+    },
+    {
+      "t": 750.3,
+      "text": "with doet 8 we're moving to Powers shell 7",
+      "why_it_matters": "Signals the platform shift affecting automation scripts and server management.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 185.7,
+      "kind": "preview",
+      "text": "new method which for now is mar for on premises"
+    },
+    {
+      "t": 348.4,
+      "kind": "not-in-this-release",
+      "text": "that's science fiction not coming in this release wave"
+    },
+    {
+      "t": 389,
+      "kind": "coming-later",
+      "text": "I'm afraid it didn't make it for this release but um it will go out with a later um compiler update"
+    },
+    {
+      "t": 802.2,
+      "kind": "coming-later",
+      "text": "will deprecate Parell five within the next years"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 12
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030424
+    }
+  ]
+}

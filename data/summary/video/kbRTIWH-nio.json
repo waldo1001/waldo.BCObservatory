@@ -1,0 +1,27 @@
+{
+  "video_id": "kbRTIWH-nio",
+  "item_id": "video/yt-microsoft/kbRTIWH-nio",
+  "summary": "Business Foundation, a new layer between the base application and the system application, and its first module, Number Series, from 2024 release wave 1. Covers module design, non-breaking table movement between apps, the redesigned Number Series API, and the planned removal of the legacy code in version 27.",
+  "overview": "The session explains why Business Central moved from customization to extensibility, the problems that model created, and how modules and the system application address them. It then introduces the Business Foundation as a horizontal layer for general ERP concepts such as number series, address, currency and dimension management. Number Series is the first module, developed as open source on GitHub.\n\nThe demos cover the updated Number Series page, actionable error messages, and the new codeunit-based API with batch processing. They also show the extension interface for custom number series implementations. The legacy code is obsoleted in version 24 and will be removed in version 27. Copilot support for the module is a community contribution still in progress.",
+  "key_points": [
+    "Business Foundation sits between the base application and the system application. It holds functionally coherent modules for general ERP concepts, and Number Series is the first one.",
+    "2024 wave 1 lets Microsoft move tables between apps without upgrade code and without breaking dependent apps. This was a prerequisite for the modularization.",
+    "The new Number Series API is split into two codeunits: Number Series for get next, peek next and get last number used, and Number Series Batch for batch operations.",
+    "Custom number series implementations are added through the Number Series Implementation enum and a simple interface (peek next number, get next number, get last number used, gaps indication).",
+    "The legacy number series code is obsoleted in version 24 and will be removed in version 27. It keeps working until then, and Microsoft has converted its own code to the new API.",
+    "The new batch processing removes the old limit of 100 number series in the cache and handles line changes and date changes.",
+    "No localizations are planned for Business Foundation modules; localizations will be built as extensions. Copilot support for the module is still being contributed by the community (GitHub issue 659)."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "55e892a07c079edebeae9871918a7e70159f20b45b271b578eef7aa6744f2ed6",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0237664
+  }
+}

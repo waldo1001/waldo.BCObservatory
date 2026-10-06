@@ -1,0 +1,333 @@
+{
+  "video_id": "RNR4wsFeedI",
+  "item_id": "video/yt-microsoft/RNR4wsFeedI",
+  "title": "What's New: Boost Your Productivity with Business Central (2024 release wave 1)",
+  "duration_s": 844,
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "user experience improvements",
+    "modern action bar",
+    "mobile client",
+    "date picker",
+    "error handling",
+    "platform-generated errors",
+    "actionable errors",
+    "error sharing",
+    "teams integration",
+    "help and support",
+    "keyboard shortcuts"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and agenda overview",
+      "t_start": 0,
+      "t_end": 57.1
+    },
+    {
+      "title": "Mobile client worksheet access improvements",
+      "t_start": 57.1,
+      "t_end": 96.1
+    },
+    {
+      "title": "Modern action bar made mandatory with enhancements",
+      "t_start": 96.1,
+      "t_end": 170.7
+    },
+    {
+      "title": "New copilot icon and opt-out options in action bar",
+      "t_start": 170.7,
+      "t_end": 212.1
+    },
+    {
+      "title": "New date picker control aligned with Microsoft products",
+      "t_start": 212.1,
+      "t_end": 272.8
+    },
+    {
+      "title": "Actions added to platform-generated errors",
+      "t_start": 272.8,
+      "t_end": 352.4
+    },
+    {
+      "title": "Error sharing via Teams and email support",
+      "t_start": 352.4,
+      "t_end": 426
+    },
+    {
+      "title": "Help and support improvements and keyboard shortcuts",
+      "t_start": 426,
+      "t_end": 506.8
+    },
+    {
+      "title": "Live demo of UX improvements",
+      "t_start": 506.8,
+      "t_end": 768.2
+    },
+    {
+      "title": "Conclusion and additional resources",
+      "t_start": 768.2,
+      "t_end": 844
+    }
+  ],
+  "features": [
+    {
+      "name": "Worksheet access on mobile client",
+      "description": "Access to worksheet pages from the mobile client with header details, line details, fact boxes and footer details visible. No more limitations on viewing worksheet pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 57.1,
+      "t_end": 96.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mobile",
+        "worksheets",
+        "accessibility"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Modern action bar made mandatory",
+      "description": "The modern action bar, introduced three releases ago, is now made mandatory in 2024 release wave 1. Users will receive a call out explaining the changes with a link to a video.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 96.1,
+      "t_end": 150.3,
+      "is_demoed": true,
+      "caveats": [
+        "Users can opt out individually via My Settings",
+        "Admins can disable for all users"
+      ],
+      "tags": [
+        "action bar",
+        "ui",
+        "mandatory"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Modern action bar enhancements",
+      "description": "Minor improvements to the modern action bar including new copilot icon, spared captions to accommodate space, and optimized layout with flexible personalization and split button.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 150.3,
+      "t_end": 212.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "action bar",
+        "copilot",
+        "ui improvements"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "New date picker control",
+      "description": "A new date picker control aligned with Microsoft products like Word and Excel, making it easier to explore and find dates far in the past or future.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 212.1,
+      "t_end": 272.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "date picker",
+        "ui control",
+        "finance scenarios"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Actions for platform-generated errors",
+      "description": "Automatically generated navigate actions in platform-generated error messages for legacy code. Errors now have actionable items helping users navigate to pages where errors can be fixed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 272.9,
+      "t_end": 352.4,
+      "is_demoed": true,
+      "caveats": [
+        "Applies to legacy platform-generated errors with no additional developer effort required",
+        "Actions appear when user has permissions"
+      ],
+      "tags": [
+        "error handling",
+        "actionable errors",
+        "platform"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Error sharing via Teams and email",
+      "description": "Easy way to share error details via Teams or email to ask for help from colleagues, subject matter experts, or admins. Error details are automatically copied to clipboard.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 352.4,
+      "t_end": 426,
+      "is_demoed": true,
+      "caveats": [
+        "For scenarios where user lacks permissions or needs help from another user"
+      ],
+      "tags": [
+        "error sharing",
+        "teams",
+        "collaboration",
+        "support"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Help and support page improvements",
+      "description": "Easy copying of tenant, environment, session and user details in the help and support page. Useful for users requesting external help and partners managing multiple customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 426,
+      "t_end": 506.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "help and support",
+        "tenant details",
+        "troubleshooting"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Updated keyboard shortcuts PDFs",
+      "description": "Updated keyboard shortcuts PDFs for productive users wanting to navigate with keyboard only.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 426,
+      "t_end": 506.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "keyboard shortcuts",
+        "productivity"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Multiple file uploads",
+      "description": "Feature planned for the April release that got postponed and is coming in one of the upcoming minor releases.",
+      "status": "announced",
+      "status_evidence_t": 486.6,
+      "status_evidence_quote": "there was also one feature uh that was planned for the April release which got a bit postponed and that is uh the the",
+      "status_evidence_verified": true,
+      "t_start": 486.3,
+      "t_end": 506.8,
+      "is_demoed": false,
+      "caveats": [
+        "Postponed from April release"
+      ],
+      "tags": [
+        "file uploads",
+        "upcoming"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "My Settings",
+      "t": 190.7
+    },
+    {
+      "type": "page",
+      "name": "Help and support page",
+      "t": 426
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Ivan Ktic",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 96.1,
+      "text": "we are making modern action bar uh that we introduced three releases ago uh mandatory",
+      "why_it_matters": "Clarifies that a previously optional UI feature is now required, which impacts how all users interact with the system when upgrading to this release.",
+      "check": "exact"
+    },
+    {
+      "t": 253,
+      "text": "it is aligned with uh the dat picker controls used in other microsoft products",
+      "why_it_matters": "Shows the design decision to standardize the date picker experience across Microsoft products, improving user familiarity.",
+      "check": "fuzzy-snapped"
+    },
+    {
+      "t": 272.8,
+      "text": "2024 release Wave 1 uh also introduces um adds action to sort of a platform generated uh to platform generated errors",
+      "why_it_matters": "Describes a key capability that makes legacy platform errors actionable without requiring developer extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 372.4,
+      "text": "we are providing an easy way to uh share details about the error messages be through teams or uh via email",
+      "why_it_matters": "Explains a new collaboration feature that helps users get faster support by sharing error context with colleagues and admins.",
+      "check": "exact"
+    },
+    {
+      "t": 486.6,
+      "text": "there was also one feature uh that was planned for the April release which got a bit postponed and that is uh the the",
+      "why_it_matters": "Indicates that multiple file uploads were delayed from the April release and will come in a future minor release.",
+      "check": "exact"
+    },
+    {
+      "t": 519.6,
+      "text": "this is to show you modern action bar callout that some users will receive when they upgrade to 20124 release Wave 1",
+      "why_it_matters": "Confirms that existing users will receive a one-time notification explaining the mandatory modern action bar changes.",
+      "check": "exact"
+    },
+    {
+      "t": 519.6,
+      "text": "the call out will be shown just once only if existing users have teaching tips enabled only an existing production environment perment",
+      "why_it_matters": "Specifies the conditions under which the action bar callout appears, limiting it to existing production users with teaching tips enabled.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 486.3,
+      "kind": "coming-later",
+      "text": "multiple um file uploads that is actually coming in one of the upcoming uh minor releases"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 8
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026145
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "video_id": "BofJJPqgrTI",
+  "item_id": "video/yt-microsoft/BofJJPqgrTI",
+  "title": "What's New: Excel Layouts For Developers (2024 release wave 1)",
+  "duration_s": 1508,
+  "systems": [
+    "reporting",
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "translatable reports",
+    "excel layouts",
+    "power query",
+    "api integration",
+    "metadata worksheet",
+    "runtime translation",
+    "refreshable reports",
+    "caption data",
+    "excel copilot",
+    "data visualization",
+    "multilingual reporting",
+    "outlier detection"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Session Overview",
+      "t_start": 0,
+      "t_end": 69.3
+    },
+    {
+      "title": "Translatable Excel Reports - Metadata Worksheet",
+      "t_start": 69.3,
+      "t_end": 186.7
+    },
+    {
+      "title": "Caption Data and Translation Capabilities",
+      "t_start": 186.7,
+      "t_end": 262
+    },
+    {
+      "title": "Runtime Translation Tags and User-Defined Translations",
+      "t_start": 262,
+      "t_end": 342.7
+    },
+    {
+      "title": "Translation Example Demo and Use Cases",
+      "t_start": 342.7,
+      "t_end": 423.4
+    },
+    {
+      "title": "Refreshable Reports Using APIs and Power Query",
+      "t_start": 423.4,
+      "t_end": 511.2
+    },
+    {
+      "title": "Constructing URIs with Environment and Company Metadata",
+      "t_start": 511.2,
+      "t_end": 591.9
+    },
+    {
+      "title": "New Excel Reports in Base Application",
+      "t_start": 591.9,
+      "t_end": 791.6
+    },
+    {
+      "title": "Demo - Aged Accounts Receivables Report and Excel Layout Structure",
+      "t_start": 791.6,
+      "t_end": 906
+    },
+    {
+      "title": "Multiple Data Items in Separate Worksheets and Excel Copilot Introduction",
+      "t_start": 906,
+      "t_end": 1006.6
+    },
+    {
+      "title": "Excel Copilot Setup and Outlier Detection Demo",
+      "t_start": 1006.6,
+      "t_end": 1199.5
+    },
+    {
+      "title": "Learning Resources, BI Triangle Framework, and Best Practices",
+      "t_start": 1199.5,
+      "t_end": 1403.2
+    },
+    {
+      "title": "Related Sessions and Community Resources",
+      "t_start": 1403.2,
+      "t_end": 1508
+    }
+  ],
+  "features": [
+    {
+      "name": "Translatable Excel Layouts",
+      "description": "Ability to create Excel report layouts that support multiple languages using translation tags and dynamic language substitution at runtime based on user language settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 69.3,
+      "t_end": 262,
+      "is_demoed": true,
+      "caveats": [
+        "Primarily designed for ISVs and multi-country operations"
+      ],
+      "tags": [
+        "translation",
+        "multilingual",
+        "localization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Report Metadata Worksheet",
+      "description": "A hidden worksheet automatically added to Excel layouts containing static and runtime metadata including report object information, request properties, tenant ID, environment name, company name and ID, and timestamp of when the report was run.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 85,
+      "t_end": 166.6,
+      "is_demoed": true,
+      "caveats": [
+        "Available as hidden worksheet in Excel reports"
+      ],
+      "tags": [
+        "metadata",
+        "runtime properties",
+        "report parameters"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Caption Data Worksheet",
+      "description": "Worksheet that stores all captions from report columns and labels from the report object label section, populated with values at runtime when users run the report.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 206.7,
+      "t_end": 246.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "captions",
+        "labels",
+        "data structure"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Runtime Translation Using Translation Tags",
+      "description": "Ability to use dollar-dollar translation tags in worksheet names, chart headers, pivot elements, and slicer headers that are replaced with user-language values at runtime when the report is executed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 262,
+      "t_end": 302,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "translation tags",
+        "dollar-dollar syntax",
+        "runtime translation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "User-Defined Translation Data Worksheet",
+      "description": "Worksheet that allows report layout designers to add custom text strings and translations in multiple languages directly to the layout when these strings are not available as captions in the report object.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 302,
+      "t_end": 322.6,
+      "is_demoed": true,
+      "caveats": [
+        "Optional, only needed if custom strings are required"
+      ],
+      "tags": [
+        "user-defined translations",
+        "custom strings",
+        "multilingual"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Refreshable Excel Reports via Power Query and APIs",
+      "description": "Ability to load data into Excel reports using Power Query connected to Business Central APIs instead of the report data set, enabling refreshable reports by retrieving environment name and company ID from the report metadata worksheet.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 438,
+      "t_end": 571.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires Power Query in Excel",
+        "Users must enable content in Excel due to Power Query security requirements"
+      ],
+      "tags": [
+        "power query",
+        "api integration",
+        "refreshable data",
+        "odata"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "New Excel Reports in Base Application",
+      "description": "Seven new Excel preview reports shipped in version 24 with the base application, added to Business Manager and Accountant role centers as examples of translatable reports and Power Query integration patterns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 591.9,
+      "t_end": 672.6,
+      "is_demoed": true,
+      "caveats": [
+        "Still in preview - design may be tweaked based on user feedback",
+        "Seven reports available"
+      ],
+      "tags": [
+        "preview",
+        "example reports",
+        "base application"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Aged Accounts Receivables Excel Report",
+      "description": "One of seven new preview Excel reports in version 24, demonstrating translatable layout techniques, Power Query integration, filtering by customer dimensions and periods, and multi-currency support.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 672.6,
+      "t_end": 892.3,
+      "is_demoed": true,
+      "caveats": [
+        "In preview status",
+        "Some translation strings still need adjustment"
+      ],
+      "tags": [
+        "preview",
+        "aged receivables",
+        "example",
+        "demo"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Multiple Data Items in Separate Worksheets",
+      "description": "Starting in version 23.0, Excel layouts can display each top-level data item from a report in its own worksheet, allowing developers to organize complex data sets more effectively.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 906,
+      "t_end": 946.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "data layout",
+        "worksheets",
+        "report design"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel Copilot for Data Analysis",
+      "description": "Excel Copilot enables users to analyze, understand and visualize data through natural language interface, including exploring data, finding outliers, and suggesting analytical insights.",
+      "status": "preview",
+      "status_evidence_t": 946.3,
+      "status_evidence_quote": "this is about Excel co-pilot it's is still in in preview in Excel",
+      "status_evidence_verified": true,
+      "t_start": 946.3,
+      "t_end": 1199.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires workbook to be on OneDrive",
+        "Requires person-in-the-loop validation"
+      ],
+      "tags": [
+        "copilot",
+        "data analysis",
+        "outlier detection",
+        "ai-assisted"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Open in Excel from List Pages",
+      "description": "Users can open raw data sets directly from any list page in Business Central into Excel for analysis and reporting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 966.4,
+      "t_end": 986.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "data export",
+        "excel integration"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel Layout Raw Data Export",
+      "description": "Reports with Excel layouts provide raw data sets directly in Excel, enabling seamless integration with Business Central for analysis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 966.4,
+      "t_end": 1006.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "data export",
+        "excel layout",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "OneDrive Integration for Copilot",
+      "description": "Excel workbooks must be stored on OneDrive for Excel Copilot functionality to work seamlessly with Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1067.4,
+      "t_end": 1087.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "onedrive",
+        "copilot",
+        "integration"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Aged Accounts Receivables",
+      "t": 692.8
+    },
+    {
+      "type": "report",
+      "name": "Customer Aging data",
+      "t": 906
+    },
+    {
+      "type": "report",
+      "name": "Accounts Payables report",
+      "t": 1047
+    },
+    {
+      "type": "report",
+      "name": "Vendor Aging data",
+      "t": 1047
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 69.3,
+      "text": "back in 23 23.3 we added the ability or we added um two Excel layouts that we always have a hidden worksheet with some",
+      "why_it_matters": "Establishes when metadata worksheet feature was introduced and confirms it is part of Excel layout capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 125.8,
+      "text": "you can actually use this in the Excel report itself if you want to provide like context specific help uh maybe a worksheet stating",
+      "why_it_matters": "Shows practical use of report metadata for providing help documentation in reports.",
+      "check": "snapped"
+    },
+    {
+      "t": 262,
+      "text": "we added the ability to translate all of this uh at runtime so as a report author you can now use translation tags or",
+      "why_it_matters": "Key feature statement on runtime translation capabilities using specific syntax.",
+      "check": "exact"
+    },
+    {
+      "t": 282.4,
+      "text": "when you layout the Excel and when you then upload and when people run the report with with this Excel layout the server will",
+      "why_it_matters": "Explains the mechanism of how translation tags are processed on the server side at report execution.",
+      "check": "exact"
+    },
+    {
+      "t": 438,
+      "text": "the new worksheet that was added in version 23.3 enables refreshable uh Excel reports if only you you uh you load the data in",
+      "why_it_matters": "Describes the new capability for creating refreshable reports using APIs instead of static datasets.",
+      "check": "exact"
+    },
+    {
+      "t": 591.9,
+      "text": "with version uh 24 with this new version uh we also ship new Excel reports in the base application",
+      "why_it_matters": "Announces new Excel reports in version 24 base application.",
+      "check": "snapped"
+    },
+    {
+      "t": 713.5,
+      "text": "if actually a pro tip here if you demo this with a customer make sure that you show this with Excel sorry with one",
+      "why_it_matters": "Provides guidance on user experience difference with OneDrive integration for Excel reports.",
+      "check": "exact"
+    },
+    {
+      "t": 731.3,
+      "text": "the first thing you notice is that you need to enable content this is just a warning from Excel because we have some power",
+      "why_it_matters": "Documents the requirement to enable content in Excel when Power Query is used in reports.",
+      "check": "snapped"
+    },
+    {
+      "t": 892.3,
+      "text": "starting in in version 23.0 there's a new option in in in Excel uh layouts that can give you each of the data item",
+      "why_it_matters": "Indicates a new feature capability introduced in version 23.0 for organizing report data in separate worksheets.",
+      "check": "exact"
+    },
+    {
+      "t": 946.3,
+      "text": "this is about Excel co-pilot it's is still in in preview in Excel uh but how you can think of this",
+      "why_it_matters": "Establishes Excel Copilot status as preview rather than generally available.",
+      "check": "exact"
+    },
+    {
+      "t": 986.5,
+      "text": "a report with Excel layout will also give you the raw data set directly in Excel so so that's that's that's a good like",
+      "why_it_matters": "Explains how Excel layouts support Copilot integration and the synergy between Business Central and Excel.",
+      "check": "exact"
+    },
+    {
+      "t": 1067.4,
+      "text": "the Excel workbook must be on one drive so this is another uh benefit from enabling integration with business Central to one drive is",
+      "why_it_matters": "Technical requirement for Copilot functionality and integration benefit.",
+      "check": "exact"
+    },
+    {
+      "t": 1220.4,
+      "text": "of course I mean co-pilot can only suggest things I will still need to go check it in business Central um and have a",
+      "why_it_matters": "Clarifies the human-in-the-loop design principle for AI-assisted features.",
+      "check": "exact"
+    },
+    {
+      "t": 1260.8,
+      "text": "analyzing pivoting and sharing data in business Central that shows you all the different types of artifacts for reporting powerbi Excel data analysis on",
+      "why_it_matters": "Points to documentation covering reporting artifact options and selection criteria.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 423.4,
+      "kind": "subject-to-change",
+      "text": "this is the first time we we we talk about it in the launch event"
+    },
+    {
+      "t": 612.4,
+      "kind": "preview",
+      "text": "they are in preview for because we still need to maybe tweak a few things"
+    },
+    {
+      "t": 946.3,
+      "kind": "preview",
+      "text": "Excel co-pilot it's is still in in preview in Excel"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 14,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 12
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030969700000000003
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021768
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025372
+    }
+  ]
+}

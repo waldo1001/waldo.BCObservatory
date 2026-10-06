@@ -1,0 +1,493 @@
+{
+  "video_id": "V_ZyGeF5JXE",
+  "item_id": "video/yt-microsoft/V_ZyGeF5JXE",
+  "title": "What's New: Business Central Integration with Power Platform",
+  "duration_s": 1185,
+  "systems": [
+    "integration",
+    "copilot",
+    "sales"
+  ],
+  "topics": [
+    "power automate",
+    "approval workflows",
+    "gpt",
+    "ai builder",
+    "power pages",
+    "dataverse",
+    "copilot studio",
+    "power apps",
+    "connector actions",
+    "power platform"
+  ],
+  "chapters": [
+    {
+      "title": "Power Platform Overview and Power Automate Integration",
+      "t_start": 0,
+      "t_end": 131.8
+    },
+    {
+      "title": "Approval Workflows and Template Improvements",
+      "t_start": 131.8,
+      "t_end": 211.2
+    },
+    {
+      "title": "Approval Template Demo and Dynamic Approver Fetching",
+      "t_start": 211.2,
+      "t_end": 348.5
+    },
+    {
+      "title": "AI Builder and GPT Integration in Approval Workflows",
+      "t_start": 348.5,
+      "t_end": 430
+    },
+    {
+      "title": "GPT-Powered Sales Order Summary Demo",
+      "t_start": 430,
+      "t_end": 550.7
+    },
+    {
+      "title": "Find One Record Action and Connector Improvements",
+      "t_start": 550.7,
+      "t_end": 691.3
+    },
+    {
+      "title": "Find One Record Demo and Usage",
+      "t_start": 691.3,
+      "t_end": 767.9
+    },
+    {
+      "title": "Connector Updates, V2 vs V3 Actions, and API Strategy",
+      "t_start": 767.9,
+      "t_end": 931.4
+    },
+    {
+      "title": "Power Apps, Dataverse Linking, and Power Pages",
+      "t_start": 931.4,
+      "t_end": 1053.9
+    },
+    {
+      "title": "Copilot Integration and Additional Resources",
+      "t_start": 1053.9,
+      "t_end": 1185
+    }
+  ],
+  "features": [
+    {
+      "name": "Single Entry Point for Power Automate Flows",
+      "description": "Default view in Business Central now provides a single entry point to start building approval flows, automated flows, and custom actions in Power Automate without requiring feature management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 70.8,
+      "t_end": 151,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power automate",
+        "workflows",
+        "ui",
+        "default behavior"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Improved Approval Workflows with Dynamic Data Access",
+      "description": "Approval workflow templates now allow Power Automate to access data from Business Central for approvers. Environment and company information are automatically sent from Business Central, and approver details are fetched from the approval user setup table.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 171.1,
+      "t_end": 328.4,
+      "is_demoed": true,
+      "caveats": [
+        "Approver information comes from approval user setup table"
+      ],
+      "tags": [
+        "approval workflows",
+        "data access",
+        "templates",
+        "dynamic parameters"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Get Approver Action",
+      "description": "New action in Power Automate that dynamically fetches the approver of the requester from the approval user setup table, eliminating the need for manual parameter entry.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 308.7,
+      "t_end": 328.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "connector actions",
+        "approval workflows",
+        "dynamic data"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "AI Builder GPT Integration in Approval Templates",
+      "description": "AI Builder actions with GPT logic have been integrated into approval templates. Azure OpenAI GPT action can summarize sales orders to help approvers make decisions, with more templates coming later in the wave.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 348.5,
+      "t_end": 530.5,
+      "is_demoed": true,
+      "caveats": [
+        "Additional templates coming later in the wave"
+      ],
+      "tags": [
+        "gpt",
+        "ai builder",
+        "approval workflows",
+        "sales orders"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "GPT-Powered Sales Order Summary",
+      "description": "A new approval template using GPT action that automatically generates a summary of sales order details including order number, customer information, address, and line items in natural language to assist approvers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 409.9,
+      "t_end": 550.7,
+      "is_demoed": true,
+      "caveats": [
+        "May be available at time of viewing but more templates coming later"
+      ],
+      "tags": [
+        "gpt",
+        "approval workflows",
+        "sales orders",
+        "summarization"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Find One Record Action",
+      "description": "New connector action that simplifies finding a single record from Business Central with a friendly user interface. Eliminates the need to understand OData query syntax and returns one record instead of a collection.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 590.8,
+      "t_end": 651,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "connector actions",
+        "power automate",
+        "data retrieval"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Connector Improvements: API Route Defaulting",
+      "description": "The Power Automate connector now defaults the API route in actions, making it easier to create flows without manual configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 767.9,
+      "t_end": 788.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "connector",
+        "improvements",
+        "power automate"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Updated Tooltips in Connector",
+      "description": "Tool tips in the Power Automate connector have been updated to improve user experience.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 788.1,
+      "t_end": 808.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "connector",
+        "ui",
+        "documentation"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Triggers Available in New Power Automate Designer",
+      "description": "Business Central triggers are now available in the new Power Automate designer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 788.1,
+      "t_end": 808.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "connector",
+        "triggers",
+        "power automate"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "V2 Actions Deprecation",
+      "description": "Old V2 actions in the connector are now hidden. Existing flows using V2 actions will continue to run, but Microsoft plans to fully deprecate them in the next year. Users should migrate to V3 actions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 788.1,
+      "t_end": 910.7,
+      "is_demoed": false,
+      "caveats": [
+        "Existing flows will continue to run",
+        "Applies only to V2 actions, not V2 APIs"
+      ],
+      "tags": [
+        "connector",
+        "deprecation",
+        "v2 actions"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "V3 Actions with Flexible API Categories",
+      "description": "Current V3 actions offer flexibility with an API category field allowing selection from Microsoft standard V2.0 APIs, custom APIs from partners, and workflow endpoints.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 849.5,
+      "t_end": 910.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "connector",
+        "v3 actions",
+        "api flexibility"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "V1.0 APIs Deprecation Plan",
+      "description": "Microsoft has plans to deprecate V1.0 APIs in favor of V2.0 APIs and the flexible V3 action approach.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 910.7,
+      "t_end": 931.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "api",
+        "deprecation",
+        "v1"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Power Apps Mixed Reality Sample",
+      "description": "A sample Power Apps application is now available on GitHub demonstrating a mixed reality scenario for selling coffee machines, with the ability to measure space.",
+      "status": "ga",
+      "status_evidence_t": 951.7,
+      "status_evidence_quote": "this sample is right now available for you to download",
+      "status_evidence_verified": true,
+      "t_start": 931.4,
+      "t_end": 973,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power apps",
+        "mixed reality",
+        "samples"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Dataverse Environment Linking to Business Central",
+      "description": "New feature in Business Central Admin Center allows linking a designated Dataverse environment to Business Central. This linked environment is used as the default for Power Automate setup if not already configured by the user.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 973,
+      "t_end": 1013.2,
+      "is_demoed": false,
+      "caveats": [
+        "User's Power Automate environment configuration takes precedence if already set"
+      ],
+      "tags": [
+        "dataverse",
+        "environment linking",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Copilot in Power Automate (Preview)",
+      "description": "Natural language interface for creating automations in Power Automate, making flow creation easier for non-technical users. Coming as preview later in this wave.",
+      "status": "preview",
+      "status_evidence_t": 1053.9,
+      "status_evidence_quote": "that feature is coming as preview later in this wave",
+      "status_evidence_verified": true,
+      "t_start": 1033.2,
+      "t_end": 1073.9,
+      "is_demoed": false,
+      "caveats": [
+        "Coming later in the wave"
+      ],
+      "tags": [
+        "copilot",
+        "power automate",
+        "natural language"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Studio Integration",
+      "description": "Copilot Studio tools are integrated with Business Central through the connector, Power Automate actions, and plugins, enabling the building of copilots and bots.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1073.9,
+      "t_end": 1094.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot studio",
+        "bots",
+        "integration"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "approval user setup table",
+      "t": 308.7
+    },
+    {
+      "type": "page",
+      "name": "sales order card page",
+      "t": 211.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "BU Koto",
+      "confidence": "medium"
+    },
+    {
+      "name": "Monica alja",
+      "confidence": "medium"
+    },
+    {
+      "name": "sand vinaro",
+      "confidence": "low"
+    },
+    {
+      "name": "keny",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 131.8,
+      "text": "from this wave onwards we don't need feature management this is the default view that we will get so the single entry point will",
+      "why_it_matters": "Indicates that Power Automate integration is now a default feature in Business Central without requiring manual feature management.",
+      "check": "exact"
+    },
+    {
+      "t": 268.6,
+      "text": "information from business central already so we are defaulting these parameters depending on where you",
+      "why_it_matters": "Shows how the improved approval workflow templates simplify setup by automatically passing environment, company, and approver context from Business Central.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 808.1,
+      "text": "a plan to deprecate v2 actions fully in",
+      "why_it_matters": "Communicates an important timeline for users to migrate their Power Automate flows from V2 to V3 actions.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 869.7,
+      "text": "you have this new field API category where you can choose the category and of course you have apis coming from Microsoft the standard",
+      "why_it_matters": "Explains the flexibility and extensibility of V3 actions, showing support for both standard and custom APIs.",
+      "check": "exact"
+    },
+    {
+      "t": 910.7,
+      "text": "we have plans of deprecating v1.0 apis",
+      "why_it_matters": "Signals the end-of-life for older V1.0 APIs, encouraging migration to newer API versions.",
+      "check": "exact"
+    },
+    {
+      "t": 973,
+      "text": "this new feature is already available in business Central admin Center",
+      "why_it_matters": "Confirms that Dataverse environment linking is a generally available feature as of this release.",
+      "check": "exact"
+    },
+    {
+      "t": 1053.9,
+      "text": "that feature is coming as preview later in this wave",
+      "why_it_matters": "Indicates that Copilot in Power Automate will be available as a preview feature during this release cycle.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 550.7,
+      "kind": "preview",
+      "text": "there will be more of those coming later in the wave"
+    },
+    {
+      "t": 828.5,
+      "kind": "coming-later",
+      "text": "we have a plan to deprecate V2 actions fully in the next year"
+    },
+    {
+      "t": 910.7,
+      "kind": "coming-later",
+      "text": "we have plans of deprecating v1.0 apis"
+    },
+    {
+      "t": 1053.9,
+      "kind": "preview",
+      "text": "that feature is coming as preview later in this wave"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 1,
+    "evidence_verified": 2,
+    "evidence_unverified": 14
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.037100999999999995
+    }
+  ]
+}

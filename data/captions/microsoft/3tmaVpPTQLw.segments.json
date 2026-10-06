@@ -1,0 +1,538 @@
+{
+  "video_id": "3tmaVpPTQLw",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 17.6,
+      "end": 37.6,
+      "text": "hello and welcome to what's new in Shopify connector especially B2B and Order editing functionality I'm Andre Pano and I will be doing demos for you together with my colleagues josa and onut so I will start introd introducing the changes we did to make Shopify connector even better and"
+    },
+    {
+      "t": 37.6,
+      "end": 58.4,
+      "text": "then we will talk about B2B from different perspective and then also one of the uh Hot Topics is about how to process order editing in both products in parallel because this is actually not trivial before now it's much easier all right uh"
+    },
+    {
+      "t": 58.4,
+      "end": 78.8,
+      "text": "let me start by demonst ating you how Shopify connector actually works all right let's go to the Shopify shops I already created shop up front because not not much magic here and now I need to insert URL so for people who were with using Shopify connector"
+    },
+    {
+      "t": 78.8,
+      "end": 98.9,
+      "text": "from the moment it was launched they know that it was dramatically easy in the past because you can just go copy the URL and insert it back uh it was not working for some time since Shopify switch to single Shopify admin URL but now we actually update it and now it is very easy so you can see that URL"
+    },
+    {
+      "t": 98.9,
+      "end": 112.7,
+      "text": "is automatically updated so no need to magically uh construct URL on the Fly connector will do it for you then I will activate connector"
+    },
+    {
+      "t": 113.5,
+      "end": 133.7,
+      "text": "good and we are connected what else I would like to show you right here let's go to the list of locations and get the list of locations we also noticed that even if we provide extensibility which allows you to have a multiple different ways to calculate inventory one was very popular it's a inventory minus"
+    },
+    {
+      "t": 133.7,
+      "end": 154.3,
+      "text": "reservation so like a lot of customers decided to build it themselves so we are also adding this functionality out of the box so for new Merchants they don't need to build a PT and for existing ones you can actually remove this functionality and switch to the standard behavior and it will should reduce the cost of maintenance for you"
+    },
+    {
+      "t": 154.3,
+      "end": 174.9,
+      "text": "all right now we have it configured very easily uh before I will push data to Shopify I also would like to go to the list of the products and notice notice a notification which actually helps you to understand about the next step of course if you're uh experienced user of Shopify connector you already know which buttons to press but for"
+    },
+    {
+      "t": 174.9,
+      "end": 193.5,
+      "text": "new people it's a good reminder what to use and this is a dynamic one so it can actually help you to to decide about next step if you need to push data to Shopify or imported from Shopify then actions will be different okay let me type in some"
+    },
+    {
+      "t": 193.5,
+      "end": 197.8,
+      "text": "uh some"
+    },
+    {
+      "t": 197.8,
+      "end": 204.5,
+      "text": "filters because I want to export everything in one"
+    },
+    {
+      "t": 207.8,
+      "end": 227.9,
+      "text": "goal all right nice and easy quick look at the Shopify list of products you can see all products with images with availability is here so simple as usual what we added here as well I would like to mention it uh before we move forward further to B2B"
+    },
+    {
+      "t": 227.9,
+      "end": 248,
+      "text": "part I would like to also show you the new uh setting which allows people to decide if they want to send shipment confirmation or not because some companies are using digital goods and they don't want to send extra fulfillment details once the product is uh shipped and fulfillment is registered in business Central"
+    },
+    {
+      "t": 248,
+      "end": 268.6,
+      "text": "so now up to you what you want to do next all right another one uh makes sense to to notify about the change that we are by default importing uh refunds and returns so this is a minor change which you also might want to be aware now let's go and talk about"
+    },
+    {
+      "t": 268.6,
+      "end": 288.6,
+      "text": "B2B and and who is the best to tell about Shopify B2B is of course experts from Shopify and now we will see presentation from Ben who will introduce a B2B on Shopify shopify's Premier H sale solution thanks Andre as mentioned my name is Ben rabi and I'm the senior product lead for"
+    },
+    {
+      "t": 288.6,
+      "end": 308.6,
+      "text": "B2B on Shopify I'm here to tell you a little bit more about our suite of powerful B2B features that you can now connect to business Central to set the stage I want to give you a quick overview of what B2B on Shopify is B2B on Shopify is a suite of powerful and flexible wholesale features built right into"
+    },
+    {
+      "t": 308.6,
+      "end": 328.6,
+      "text": "the core of our platform this means that Merchants can leverage the full power of Shopify for all sides of their business this also means that B2B and Shopify is not a separate platform it's not an app bolted onto the side of Shopify and it's not acquired software we built it right into the"
+    },
+    {
+      "t": 328.6,
+      "end": 348.6,
+      "text": "core now as the experts in Commerce we've set out to revolutionize B2B in Commerce just as we have for d2c with a brand forward approach and hyperfocus on ease of use and ability to grow to any scale so what makes B2B and Shopify different from other Solutions in the market well first"
+    },
+    {
+      "t": 348.6,
+      "end": 368.8,
+      "text": "and perhaps most importantly we offer a unified Commerce experience Merchants can run their entire business from a single platform or even a single store with access to all of shop of's most powerful features that includes themes apis discounts flow functions and more this means"
+    },
+    {
+      "t": 368.8,
+      "end": 384,
+      "text": "less technical debt and higher return on investment plus Merchants don't need to hire developers to create and manage their B2B store anyone on their team can use our admin and feature set no coding experience"
+    },
+    {
+      "t": 384,
+      "end": 404.2,
+      "text": "required second with B2B and Shopify Merchants have full control over the buying experience this includes two elements of customizations Merchants can easily customize all of the wholesale information available to their buyers this means they can tailor product availability price lits payment terms payment and"
+    },
+    {
+      "t": 404.2,
+      "end": 422.4,
+      "text": "shipping methods and so much more on a per customer basis all from the admin they can also personalize store content and information based on the type of customer they're selling to whether it's B2B or d2c or the market their customer is located"
+    },
+    {
+      "t": 422.4,
+      "end": 442.8,
+      "text": "in and lastly B2B and Shopify offer seamless integration to external systems to allow our Merchants to operate with maximum efficiency out of the box Integrations and are close ties to Leading Erp Partners like Microsoft demonstrates our determination to make it easy for merchants to run their business"
+    },
+    {
+      "t": 442.8,
+      "end": 462.8,
+      "text": "from one Central platform and with Microsoft business Central's updated Integrations merchants can easily send companies and cataloges data from Shopify to business Central and vice versa for better data accuracy and Order management since our initial launch of B2B on Shopify"
+    },
+    {
+      "t": 462.8,
+      "end": 483,
+      "text": "we've released over four dozen features just for wholesale the list that you're seeing on your screen is not an exhaustive list in fact no other platform has moved faster to meet the needs of B2B Merchants over the past year we're committed to driving the market forward by catering to the needs of wholesale merchants of any"
+    },
+    {
+      "t": 483,
+      "end": 503.3,
+      "text": "size while raising the bar for personalized B2B buying and selfs serve experience Shopify is all in on B2B thanks all right uh thank you Ben for showing with it's amazing let's see how actually it works together with a business Central"
+    },
+    {
+      "t": 503.3,
+      "end": 518.2,
+      "text": "and uh today uh here with me we have onut who will show how works on business Central side and I will be the merchant or Shopify admin who will be demonstrating how it looks on Shopify"
+    },
+    {
+      "t": 518.2,
+      "end": 539,
+      "text": "side thank you Andre um I want to start first with a u a little uh Improvement a slight change that we did on d2c customer synchronization um if you look at the settings we have removed to export customers to Shopify Boolean and instead we aligned this uh with uh the item sy so if you want to push a d2c"
+    },
+    {
+      "t": 539,
+      "end": 559.7,
+      "text": "customer then you can always go to customers but now you'll see um add customer button just like what Andre showed um for items um you can select one and then hit okay and then Helen Ray is now uh synchronized to Shopify let me check"
+    },
+    {
+      "t": 559.7,
+      "end": 580,
+      "text": "okay I open the list of customers on Shopify side and I can see the customer yeah exactly as it used to be but now is a more control so we can decide exactly which customers we want to export to Shopify as customers what about companies okay let's look at companies so um you can"
+    },
+    {
+      "t": 580,
+      "end": 600.3,
+      "text": "probably notice this B2B company synchronization settings on your shop cut if you have uh a plan that you can use uh busines to business in Shopify you'll see that uh Tab and it looks very similar to customer synchronization we wanted to keep it in sync um but two uh main settings here you can see the default contact"
+    },
+    {
+      "t": 600.3,
+      "end": 620.5,
+      "text": "permission this uh allows you to select the uh the default main contact uh is created uh with what permissions so it can be no permissions oring only or location admin and we have also set a setting for autoc creating catalog when you uh create uh customers as companies uh in Shopify"
+    },
+    {
+      "t": 620.5,
+      "end": 634.8,
+      "text": "let's see how that works uh I go to related and companies and just like d2c I can add a company and I can select for example um School of Fine Art hit"
+    },
+    {
+      "t": 634.8,
+      "end": 655.2,
+      "text": "okay and now let's check withit Shopify if that company is created all right let me refresh the list of customers and now I can see customer meant and if I will open the customer card I can notice the difference now I have additional"
+    },
+    {
+      "t": 655.2,
+      "end": 675.3,
+      "text": "fact box information which shows that this customer is actually linked to the company and you can see that business Central added this customer to School of Fine Art and also this customer has some permissions to specific locations all right let's go to the list of companies and I can see the"
+    },
+    {
+      "t": 675.3,
+      "end": 686.5,
+      "text": "company created here as well and this customer has a company has a location and it has default customer and if I will explore"
+    },
+    {
+      "t": 686.5,
+      "end": 706.6,
+      "text": "the contacts so I can see that the Megan is a main contact and I can also add extra ones all right I can also see the catalog so we created catalog by default what items this catalog has so I will go to the list of products and I go to the catalogs and I can see the catalog with the same"
+    },
+    {
+      "t": 706.6,
+      "end": 726.8,
+      "text": "name as a customer so does it mean that for each uh customer which we export to to Shopify we will create a separate catalog which we will need to maintain uh no you don't have to do that you can actually deselect also create catalog and just create a catalog yourself in Shopify and assign it to all companies ahuh"
+    },
+    {
+      "t": 726.8,
+      "end": 743.6,
+      "text": "okay let me try it so I will create a catalog and I will I would like to include only specific products because we exported both tables and chairs in this case I will call it"
+    },
+    {
+      "t": 743.6,
+      "end": 763.8,
+      "text": "B2B and I will save it because we exported both t tables and chairs I will repeat uh but for B2B customers I would like only to to include uh tables into the B2B catalog chairs are for d2c customers only all right include into"
+    },
+    {
+      "t": 763.8,
+      "end": 774.8,
+      "text": "the catalog and now let's actually explore how it looks I will go to the online"
+    },
+    {
+      "t": 774.8,
+      "end": 795,
+      "text": "store that's a default layout and I can see a of products okay it's because I'm a right now I am private customer who have not authorized yet so I can actually click on this aend desk and buy"
+    },
+    {
+      "t": 797.9,
+      "end": 817.9,
+      "text": "it cloudon who surprisingly works very close to Microsoft Office in lumo we will use a special test uh credit card information no tips right now and let's uh let's uh post it so you remember that system asked"
+    },
+    {
+      "t": 817.9,
+      "end": 838.4,
+      "text": "for address system asked for uh payment details and it used the standard prices and it show all catalog as well all right let's continue shopping what if what if this person is actually part of the company Let's uh let's log in and let's use"
+    },
+    {
+      "t": 838.4,
+      "end": 858.4,
+      "text": "uh this account so for B2B or for modern authorization engines Shopify doesn't require user to know like login and password so user needs to only specify email and then they will get uh six digit code to to to log in"
+    },
+    {
+      "t": 858.4,
+      "end": 871,
+      "text": "let me check Inbox and I can see this six digigit code which I will copy and insert"
+    },
+    {
+      "t": 871,
+      "end": 876.4,
+      "text": "okay what will be the"
+    },
+    {
+      "t": 877.4,
+      "end": 897.8,
+      "text": "difference surprisingly no difference why so because this specific user and this specific catalog are not yet attached to the company so let me go to the Shopify admin company and show you how to replace uh catalog and how to add extra user in the Shopify admin I will go to the customers"
+    },
+    {
+      "t": 897.8,
+      "end": 911,
+      "text": "group then I will go to the the companies and here I will first of all add add a customer so now we have a new one with"
+    },
+    {
+      "t": 911,
+      "end": 927.5,
+      "text": "a with the email we'll save it then we need to add a catalog we'll go to locations and then we will change the catalogs so I would like to remove the uh standard"
+    },
+    {
+      "t": 927.5,
+      "end": 947.8,
+      "text": "catalog this one and I would like to add B2B save of course if we will create customer without default catalog we can do it we can do it differently all right now I have a customer with uh attached to the to the company and also B2B catalog attach"
+    },
+    {
+      "t": 947.8,
+      "end": 968,
+      "text": "let's take a look at the user experience so go to home and back to catalog so first of all you can see that list of product has changed now have access to smaller number of products but prices prices are still the same what can we do with prices yeah um let's switch"
+    },
+    {
+      "t": 968,
+      "end": 988,
+      "text": "back to business Central and go to uh catalogs this is a new action and now I can use get catalogs uh select a shop and you can see that I already got the um the B2B catalog underr is created for School of Fine Art company the other one that we haven't got because we only"
+    },
+    {
+      "t": 988,
+      "end": 1008.1,
+      "text": "look through the um the cataloges for available companies already synchronized with business Central so now let me maximize the screen and uh edit some settings in order to sync prices first I'll enable the sync prices then I'll Define a um a discount group and then I allow line discounts uh for this"
+    },
+    {
+      "t": 1008.1,
+      "end": 1019.6,
+      "text": "catalog then I can use the um the sync prices action to synchronize prices depending on the settings I have set for each catalog"
+    },
+    {
+      "t": 1019.6,
+      "end": 1039.8,
+      "text": "now let's uh switch back to Shopify and see the prices if they're synced all right so I can definitely now see that prices with discount so you can see that original prices were reduced by some percentage so now if I will place the order I will add this table to the to the card and then view the"
+    },
+    {
+      "t": 1039.8,
+      "end": 1056.6,
+      "text": "card time to do check out and this is how checkout window looks for user who is linked to the company so he is a representative of the some company so you can see the user and company name also the list of available"
+    },
+    {
+      "t": 1056.6,
+      "end": 1076.8,
+      "text": "addresses company on Shopify site can have multiple addresses uh and the user might have access to one or many of those it's on the Shopify side there are permissions to to manage it then payments payments are actually not needed because we configured company to not require"
+    },
+    {
+      "t": 1076.8,
+      "end": 1098.7,
+      "text": "credit card but actually to to do payment outside of Shopify checkout and before I will submit order I can also enter the p number so this is also a special field for B2B checkout and this information will be transferred to business Central so let me submit this"
+    },
+    {
+      "t": 1098.7,
+      "end": 1118.8,
+      "text": "order all right order is submitted and now we will explore how it looks on uh business Central site okay okay now let's synchronize orders and see how they look if I go to related and orders use action syn orders from Shopify"
+    },
+    {
+      "t": 1118.8,
+      "end": 1121.9,
+      "text": "click"
+    },
+    {
+      "t": 1121.9,
+      "end": 1142.3,
+      "text": "okay okay uh now you can see I got two orders um but the main difference is although they were bought by the same person Claudia Lawson one was actually assigned to uh the person itself the other one is assigned to the company so one is a B2B uh the other one is a d2c uh order so now"
+    },
+    {
+      "t": 1142.3,
+      "end": 1162.6,
+      "text": "uh because Claudia L made a mistake and bought it herself instead of buy the company I just want to cancel the d2c order so I can open it and then with a new action uh cancel order I can cancel it uh notify the customer the reason is customer themselves uh refund and restock and click okay okay the order has been canceled"
+    },
+    {
+      "t": 1162.6,
+      "end": 1183.5,
+      "text": "successfully now I've handled the B2B order if I open that one because we uh Define a payment term and the uh the customer will pay later I received the payment uh in BC in that sense and then now I can actually mark it as paid and now the order has been Market paid now let's switch back to Shopify and see how that status looks"
+    },
+    {
+      "t": 1183.5,
+      "end": 1203.6,
+      "text": "all right what do we see in the Shopify two orders and one is Mark as canceled because we don't want to ship it to private person uh because this private person ask us to cancel order and refund instead this person placed an order on behalf the of the company and you can see that now this order is"
+    },
+    {
+      "t": 1203.6,
+      "end": 1223.7,
+      "text": "marked as paid that's very good all right the Fulfillment part will work as as usual uh no surprises here uh now let's uh let's talk about different aspect we saw that how order was edited in business Central which is new capability now let's"
+    },
+    {
+      "t": 1223.7,
+      "end": 1244,
+      "text": "explore a different pers perspective what if order is edited in the Shopify for different reasons for example exchanges or others and how it will be handled by business Central so what are we looking at so right now a buyer placing an order with two items a and desk and then mobile pedestal with"
+    },
+    {
+      "t": 1244,
+      "end": 1261.3,
+      "text": "a new special sign to remove this is a for us to better understand what is happening yeah so it will be very easy for us to see what's happening later all right now I need to do check out Lo on of every customer"
+    },
+    {
+      "t": 1261.3,
+      "end": 1271.9,
+      "text": "uh the same address as usual okay shipping method again standard ones no"
+    },
+    {
+      "t": 1271.9,
+      "end": 1292,
+      "text": "options test credit card and pay now but right now customer is not that important the most important part that this customer wanted pull things and paid for two things and later this customer actually realized they did mistake uh they didn't want to have a aens mobile"
+    },
+    {
+      "t": 1292,
+      "end": 1306.3,
+      "text": "pedestal it doesn't fit the the the apartment so they want to to remove it so they they called Merchant and ask to to change the order administrator will go to the Shopify"
+    },
+    {
+      "t": 1306.3,
+      "end": 1326.9,
+      "text": "admin find the order and you can see that this order is marked as paid uh now it's time to do edit there are two options how to do edits you can do refund and in this case I will be removed and money will be transferred back to the customer credit card but not that simple so right now we want to do a little bit more complicated"
+    },
+    {
+      "t": 1326.9,
+      "end": 1345.7,
+      "text": "scenario which is more common in the in the situation where Point of Sales is is involved like when people want to actually replace something so let's play with this scenario I'm in the edit mode I have two items and I would like to remove one guess which"
+    },
+    {
+      "t": 1345.7,
+      "end": 1352.1,
+      "text": "one and now I want to add another one"
+    },
+    {
+      "t": 1352.1,
+      "end": 1372.1,
+      "text": "mhm very obvious one so I want to replace table with chair that's how I how how I want uh prices are different let's not send any spam notifications right now and update the document here you can see that uh now because of the price difference between uh products we still need to do some refund it's"
+    },
+    {
+      "t": 1372.1,
+      "end": 1380.8,
+      "text": "a small amount so we will do this 280 so let's do refund as a separate transaction"
+    },
+    {
+      "t": 1380.8,
+      "end": 1401,
+      "text": "and this is exactly what we going to to refund 28 240 and 80 80 Crown let's not do any sense do you want to specify any reasons not today refund okay so what I did I"
+    },
+    {
+      "t": 1401,
+      "end": 1421.3,
+      "text": "removed one item added another and I actually refunded the Delta what will happen in business Central Joshua yeah welcome thank you so yeah let's see uh so as you saw Andre just created a very uh complicated order and let's see how we manage things"
+    },
+    {
+      "t": 1421.3,
+      "end": 1432,
+      "text": "after some edits so when we are in the Shopify orders and we decide to synchronize our orders you'll see this is the order that Android just created for"
+    },
+    {
+      "t": 1432,
+      "end": 1444.6,
+      "text": "us and if we open it we will see some things so it will just have the items that was originally here and the item"
+    },
+    {
+      "t": 1444.6,
+      "end": 1464.6,
+      "text": "to but it will also have two different refunds so this is because Shopify tracks edits as uh refunds but only the one that is that has an actual amount is the one that we want to track or to create a credit memo from so let's go ahead and well first"
+    },
+    {
+      "t": 1464.6,
+      "end": 1471.1,
+      "text": "let's map this to an item"
+    },
+    {
+      "t": 1471.1,
+      "end": 1475.1,
+      "text": "and"
+    },
+    {
+      "t": 1477.4,
+      "end": 1498,
+      "text": "yeah so the checks are that whenever we want to create credit memos before we just could create any uh credit memo from every refund and now we uh make sure that we have an actual amount and we can create link the appropriate credit memo that matches the refund that we created on Shopify site"
+    },
+    {
+      "t": 1498,
+      "end": 1518.4,
+      "text": "ahuh amazing so I actually added stuff removed stuff and in the order which you imported into the business Central we only have the items which has to be shipped and for and we also created credit memo only for for Delta amount which will need to return back to the customer"
+    },
+    {
+      "t": 1518.4,
+      "end": 1538.6,
+      "text": "that's good I saw that you actually created orders and credit memos already but now uh because you imported them into the business Central but what if I will continue editing order so like I'm again in the same order which was already slightly edited I will continue my uh my exercises"
+    },
+    {
+      "t": 1538.6,
+      "end": 1547.9,
+      "text": "here and I will remove another item for example I will remove this time a"
+    },
+    {
+      "t": 1548.5,
+      "end": 1568.9,
+      "text": "desk all right what will you say for this challenge okay so it is problematic now because now the s sell order is a document in business Central already so and we do not know the processes that each company may have so we cannot assume a lot but let's see let's just try to synchronize"
+    },
+    {
+      "t": 1568.9,
+      "end": 1588.9,
+      "text": "orders and see what happens okay so when it tries to it will now detect that it has some errors so this will show whenever uh an order has already been processed but now an addition is received on line S on something that impacts the amount so to resolve"
+    },
+    {
+      "t": 1588.9,
+      "end": 1608.9,
+      "text": "this that is uh up to the processes of the companies but we provide now two uh main actions in order to do this one is synchronized order from Shopify and the other one is onlink process documents in this case the edit that Android made was removing this aens desk so this happened after this order was paid so we probably"
+    },
+    {
+      "t": 1608.9,
+      "end": 1624.9,
+      "text": "want to have a credit memo for this also no so but we already had a sales order that had this Athens dis okay okay let's say for the sake of it that this time we will cancel the sales order create a new one"
+    },
+    {
+      "t": 1624.9,
+      "end": 1634.9,
+      "text": "and yeah we will deal with this as a new process okay so we delete the"
+    },
+    {
+      "t": 1634.9,
+      "end": 1643.7,
+      "text": "order and now this is like this now but we can also"
+    },
+    {
+      "t": 1644.6,
+      "end": 1654.8,
+      "text": "unlink okay so this is basically saying forget what I had before and I want to reprocess this"
+    },
+    {
+      "t": 1654.8,
+      "end": 1664.9,
+      "text": "again and it will be processed as new and it will just have the order line that we expect to have and it will have the"
+    },
+    {
+      "t": 1664.9,
+      "end": 1685,
+      "text": "refunds that we expect also to have or well in this case Android removed one so that's why here you say you see that there is just one with zero but it he didn't trigger the refund I believe so yeah that's why we cannot create a credit M for this one but for this one you can so we're basically providing some"
+    },
+    {
+      "t": 1685,
+      "end": 1705.4,
+      "text": "building blocks so that you can uh yeah get yourself out of these complex situations where there are edits on one side and then you process the order and so on so and now you can have things in sync and correct them as you need with these two little actions yeah I understand the challenge is is big one because Shopify"
+    },
+    {
+      "t": 1705.4,
+      "end": 1725.9,
+      "text": "doesn't have much information about the Warehouse handling of the created order so it might be on different stage even be already sh uh in the car so we cannot automatically modify the documents but we can give users notification that something is not exactly right and give tools to address the situation"
+    },
+    {
+      "t": 1725.9,
+      "end": 1745.9,
+      "text": "and then it might be uh Recreation of sales document or it might be asking for house employee to stop the processing and do some uh adjustment on on a later stage but also uh in cases where it's easy to deal with for example if document was not imported at all we just magically"
+    },
+    {
+      "t": 1745.9,
+      "end": 1766.1,
+      "text": "prepare document with only important information and then user should not do any extra extra actions I think this is a reasonable approach this slide actually summarize summarize what Shopify allow us to do so like for orders without payments we can do edits for orders which are already"
+    },
+    {
+      "t": 1766.1,
+      "end": 1786.3,
+      "text": "paid you can do either Ed it and refund separately or actually refund all together and uh in business Central be process it one way or another like either we will edit the imported document or we will uh create credit memo"
+    },
+    {
+      "t": 1786.3,
+      "end": 1799.6,
+      "text": "which also can be created automatically and if uh document in business Central like order or credit memo was already created then we will show the the warning and notification"
+    },
+    {
+      "t": 1799.6,
+      "end": 1817.3,
+      "text": "all right so thank you for watching and thank you for sharing feedback and for using the Shopify connector uh we hope that you will enjoy the new functionality and we will have like even more customers uh benefiting from from this"
+    },
+    {
+      "t": 1817.3,
+      "end": 1833,
+      "text": "integration you can always uh reach out to Microsoft via different channels and share your questions or feedback or product suggestions uh looking forward to hearing from you thank"
+    },
+    {
+      "t": 1833,
+      "end": 1834,
+      "text": "you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0.22,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 4468
+}
