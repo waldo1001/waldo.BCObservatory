@@ -1,0 +1,28 @@
+{
+  "video_id": "0qt0Zy9ZsRo",
+  "item_id": "video/yt-microsoft/0qt0Zy9ZsRo",
+  "summary": "Scheduled profiles in Business Central (2024 release wave 2) capture performance profiles automatically in the background based on rules, including for web service calls. The video demos setting up a profile schedule and analyzing the captured results, and contrasts this with the interactive in-client profiler.",
+  "overview": "The video recaps the in-client performance profiler introduced in 2022 release wave 1 and shows its limits: capture is interactive, needs the user to cooperate, and cannot cover web service calls or background sessions such as job queues. The presenter then introduces scheduled profiles, which capture profiles non-interactively in the background according to defined rules. The release is described as introducing scheduled profiles, with a preview disclaimer.\n\nThe demo covers opening the Profile Schedules page, creating a schedule, performing tasks, and reviewing the results on the Performance Profiles page. Results look the same as in the in-client profiler, with technical information and call tree analysis. The video says the feature mainly targets consultants and support, and mentions opening Visual Studio Code from the web client to inspect code.",
+  "key_points": [
+    "The in-client profiler is interactive only: it cannot profile web service calls or background sessions like job queues, and needs the user to help capture the profile.",
+    "Scheduled profiles capture performance profiles automatically in the background based on defined rules, and support both user actions and web service calls.",
+    "A profile schedule sets: enable/disable, start and end times, user selection, profile type (browser activity or background tasks), sampling frequency, activity duration threshold, and retention period.",
+    "Set the activity duration threshold appropriately, since it determines how slow an activity must be before profiling starts and a poor value can cause excessive profiling.",
+    "Captured profiles are kept for a configurable retention period before deletion.",
+    "The Performance Profiles page lists all captured profiles and can be filtered by schedule; the results view matches the in-client profiler, including call tree analysis.",
+    "The video says the feature mainly targets consultants and support."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator",
+    "partner"
+  ],
+  "extraction_hash": "eba763f366f7cabbebac057e532e2823423bd68c87bb26da0c1b0ba6aeeae4f7",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0159824
+  }
+}

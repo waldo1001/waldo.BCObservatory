@@ -1,0 +1,294 @@
+{
+  "video_id": "0qt0Zy9ZsRo",
+  "item_id": "video/yt-microsoft/0qt0Zy9ZsRo",
+  "title": "What's New: Analyze Performance Issues with Scheduled Profiles (2024 release wave 2)",
+  "duration_s": 700,
+  "systems": [
+    "platform",
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "performance profiling",
+    "scheduled profiles",
+    "in-client profiler",
+    "performance troubleshooting",
+    "background profiling",
+    "web service calls",
+    "job queues",
+    "call tree analysis",
+    "activity duration threshold"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Background on In-Client Performance Profiling",
+      "t_start": 0,
+      "t_end": 61.3
+    },
+    {
+      "title": "Demonstrating In-Client Performance Profiler",
+      "t_start": 61.3,
+      "t_end": 180.8
+    },
+    {
+      "title": "Challenges with Interactive Profiling",
+      "t_start": 180.8,
+      "t_end": 262.2
+    },
+    {
+      "title": "Introducing Scheduled Profiles",
+      "t_start": 262.2,
+      "t_end": 323.3
+    },
+    {
+      "title": "Accessing Scheduled Profiles Feature",
+      "t_start": 323.3,
+      "t_end": 363.6
+    },
+    {
+      "title": "Setting Up a Profile Schedule",
+      "t_start": 363.6,
+      "t_end": 484.5
+    },
+    {
+      "title": "Performing Tasks and Viewing Results",
+      "t_start": 484.5,
+      "t_end": 564.6
+    },
+    {
+      "title": "Analyzing Captured Profiles and Recommendations",
+      "t_start": 564.6,
+      "t_end": 643.2
+    },
+    {
+      "title": "Related Features and Resources",
+      "t_start": 643.2,
+      "t_end": 700
+    }
+  ],
+  "features": [
+    {
+      "name": "In-Client Performance Profiler",
+      "description": "Interactive tool for investigating performance issues across extensions directly inside the web client. Users can start recording, perform reproduction steps, stop, and inspect results to identify performance bottlenecks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 5.8,
+      "t_end": 180.8,
+      "is_demoed": true,
+      "caveats": [
+        "Only supports interactive user flows",
+        "Cannot profile web service calls or background sessions like job queues",
+        "Requires user collaboration to capture profile"
+      ],
+      "tags": [
+        "profiling",
+        "troubleshooting",
+        "performance",
+        "interactive"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Scheduled Profiles",
+      "description": "Automatic, non-interactive performance profile capture based on well-defined rules. Runs in the background allowing partners to analyze profiles after users perform their tasks, supporting both user actions and web service calls.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 262.2,
+      "t_end": 564.6,
+      "is_demoed": true,
+      "caveats": [
+        "Profiles are retained for a configurable period before deletion",
+        "Requires defining trigger rules before execution"
+      ],
+      "tags": [
+        "profiling",
+        "background",
+        "automated",
+        "troubleshooting",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Profile Schedule Configuration",
+      "description": "Interface for defining rules for automatic profile capture including enable/disable toggle, start and end times, user selection, profile type (browser activity or background tasks), sampling frequency, activity duration threshold, and retention period.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 363.6,
+      "t_end": 484.5,
+      "is_demoed": true,
+      "caveats": [
+        "Activity duration threshold needs to be set appropriately to avoid excessive profiling",
+        "Retention period requires configuration"
+      ],
+      "tags": [
+        "configuration",
+        "rules",
+        "scheduling",
+        "setup"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Performance Profiles Page",
+      "description": "Page that displays all captured performance profiles for viewing and analysis. Can be filtered by specific schedule or rule set to focus on particular scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 524,
+      "t_end": 585.2,
+      "is_demoed": true,
+      "caveats": [
+        "Without filtering shows all profiles regardless of schedule",
+        "Results view is identical to in-client profiler results"
+      ],
+      "tags": [
+        "viewing",
+        "analysis",
+        "profiles",
+        "filtering"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Technical Information and Call Tree Analysis",
+      "description": "Detailed analysis capability within profile results showing time spent by application objects, page extensions, and call trees to identify where time is consumed in code execution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 140.6,
+      "t_end": 605.9,
+      "is_demoed": true,
+      "caveats": [
+        "Requires interpretation of technical data to identify root causes"
+      ],
+      "tags": [
+        "analysis",
+        "debugging",
+        "call-tree",
+        "technical"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Opening Visual Studio Code from Web Client",
+      "description": "Feature allowing developers to navigate directly from the web client to Visual Studio Code to investigate code for the functionality being viewed, enabling quick code inspection from performance analysis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 663.4,
+      "t_end": 683.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "development",
+        "integration",
+        "code-inspection"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Performance Profiles",
+      "t": 524
+    },
+    {
+      "type": "page",
+      "name": "Profile Schedules",
+      "t": 323.3
+    },
+    {
+      "type": "page",
+      "name": "Profile Schedule",
+      "t": 363.6
+    },
+    {
+      "type": "other",
+      "name": "page extension",
+      "t": 140.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Peter Boring",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 5.8,
+      "text": "five releases ago in 2022 release way one we launched the in client performance profile a very powerful tool for investigating performance issues across",
+      "why_it_matters": "Establishes that in-client profiling is a mature, GA feature that has been foundational for performance troubleshooting for several releases.",
+      "check": "exact"
+    },
+    {
+      "t": 180.8,
+      "text": "one of the challenges with the incline performance profiler that we just saw is that capturing a performance profile is interactive",
+      "why_it_matters": "Articulates the core limitation of the existing profiler that motivated the development of scheduled profiles.",
+      "check": "exact"
+    },
+    {
+      "t": 262.2,
+      "text": "this release introduces schedule profiles so with these you can capture performance profiles automatically and non-interactively in the background based on well defined rules",
+      "why_it_matters": "Announces the key new feature in this release wave - scheduled, automatic profiling capability.",
+      "check": "exact"
+    },
+    {
+      "t": 303,
+      "text": "it also gives us the ability to support both user actions but also web service calls",
+      "why_it_matters": "Highlights that scheduled profiles overcome a major limitation of in-client profiler by supporting non-interactive scenarios.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 424,
+      "text": "you can select uh what type that you want to profile so it can be activity in the browser if I'm clicking around opening",
+      "why_it_matters": "Demonstrates the flexibility in profile type selection, covering both interactive and background scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 444.1,
+      "text": "you can set the activity duration threshold that's basically uh how small uh or how slow should things be H before we start profiling",
+      "why_it_matters": "Explains a key configuration parameter that allows users to filter which activities trigger profiling.",
+      "check": "exact"
+    },
+    {
+      "t": 626,
+      "text": "use the new capability of scheduling profile captures so that they can run in the background this is mainly targeting consultants and support",
+      "why_it_matters": "Clarifies the intended audience and use case for scheduled profiles - support and consulting professionals.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 262.2,
+      "kind": "preview",
+      "text": "this release introduces schedule profiles"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023773000000000002
+    }
+  ]
+}

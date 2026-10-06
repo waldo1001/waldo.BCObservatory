@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-22-4.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-22-4",
+  "title": "Update 22.4 for Microsoft Dynamics 365 Business Central 2023 Release Wave 1",
+  "blob": "39c8edfc96340b960f8925733e6db20daf67fcef",
+  "summary": "Update 22.4 for Business Central 2023 release wave 1 documents SAF-T export functionality made available to all regions, regulatory updates for Denmark, Spain, and Iceland, and general ledger entry localization features.",
+  "systems": [
+    "localization",
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "updates",
+    "2023 release wave 1",
+    "saf-t",
+    "audit",
+    "localization",
+    "regulatory"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "CBG Statement Line"
+    }
+  ],
+  "features": [
+    "SAF-T export",
+    "audit file export extension",
+    "G/L entry export",
+    "SII document acceptance",
+    "regulatory compliance"
+  ],
+  "versions": [
+    "2023 release wave 1",
+    "update 22.4"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004356,
+      "pages_in_call": 7
+    }
+  ]
+}

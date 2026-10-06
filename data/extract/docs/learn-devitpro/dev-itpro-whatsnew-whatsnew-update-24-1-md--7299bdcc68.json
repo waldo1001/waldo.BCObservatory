@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-24-1.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/whatsnew/whatsnew-update-24-1",
+  "title": "Update 24.1 for Microsoft Dynamics 365 Business Central 2024 Release Wave 1",
+  "blob": "fb11d3eb886e02c97c1b480359a36224a559ff13",
+  "summary": "Update 24.1 for Business Central 2024 release wave 1 documents multiple file uploads support, SII ignore option for Spain, and upcoming mandatory features for G/L entry aggregations and exchange rate adjustments.",
+  "systems": [
+    "sales",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "updates",
+    "2024 release wave 1",
+    "file uploads",
+    "sii",
+    "feature management",
+    "mandatory features"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "VAT Posting Setup"
+    },
+    {
+      "type": "table",
+      "name": "Invoice Post. Buffer"
+    },
+    {
+      "type": "interface",
+      "name": "Invoice Posting"
+    }
+  ],
+  "features": [
+    "multiple file uploads",
+    "ignore in SII option",
+    "G/L entry aggregations",
+    "exchange rate adjustments",
+    "extensibility"
+  ],
+  "versions": [
+    "2024 release wave 1",
+    "update 24.1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004356,
+      "pages_in_call": 7
+    }
+  ]
+}
