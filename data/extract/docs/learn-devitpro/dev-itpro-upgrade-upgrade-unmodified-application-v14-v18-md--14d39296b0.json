@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-unmodified-application-v14-v18.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-v14-v18",
+  "title": "Upgrading Unmodified C/AL Application to Version 18",
+  "blob": "e67061ab274fd436c522009c260cce714727ec85",
+  "summary": "Upgrade path for unmodified C/AL Business Central applications from version 14 to version 18 by replacing the base application with System and Base Application extensions. Use this procedure for deployments without custom C/AL code that include Microsoft or third-party extensions.",
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "upgrade",
+    "unmodified application",
+    "c/al",
+    "version 18",
+    "extensions",
+    "migration",
+    "permissions"
+  ],
+  "objects": [],
+  "features": [
+    "database conversion",
+    "extension publishing",
+    "data synchronization",
+    "data upgrade",
+    "permission sets as AL objects",
+    "license import",
+    "control add-in upgrade",
+    "encryption management",
+    "Dynamics 365 Sales integration"
+  ],
+  "versions": [
+    "version 14",
+    "version 18",
+    "2021 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019817,
+      "pages_in_call": 2
+    }
+  ]
+}

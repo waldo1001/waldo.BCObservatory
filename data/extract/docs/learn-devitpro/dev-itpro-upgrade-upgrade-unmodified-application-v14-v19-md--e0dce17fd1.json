@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-unmodified-application-v14-v19.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-v14-v19",
+  "title": "Upgrading unmodified C/AL application to version 19",
+  "blob": "893bebc0f62b4a85ef251a8e4596f66c9d286948",
+  "summary": "This article describes upgrading an unmodified C/AL application from version 14 or earlier to Business Central 2021 release wave 2 (version 19) by replacing the C/AL base application with Microsoft System and Base Application extensions.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "upgrade",
+    "c/al",
+    "application migration",
+    "extensions",
+    "permissions",
+    "database conversion"
+  ],
+  "objects": [],
+  "features": [
+    "DestinationAppsForMigration",
+    "permission sets as AL objects",
+    "data encryption",
+    "system symbols",
+    "multitenant deployment",
+    "extension publishing",
+    "data upgrade"
+  ],
+  "versions": [
+    "2021 release wave 2",
+    "version 19",
+    "version 14"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019029,
+      "pages_in_call": 2
+    }
+  ]
+}

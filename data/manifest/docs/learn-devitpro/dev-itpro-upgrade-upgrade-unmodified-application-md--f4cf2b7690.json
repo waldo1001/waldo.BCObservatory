@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e2691aef247b4025fa5c8f13da21bf2c437f39dc",
       "words": 2659,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:20:55.251Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.017222
+    },
+    "summarized": {
+      "at": "2026-10-06T19:20:55.270Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:20:55.271Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:20:55.272Z",
+      "page": false
     }
   },
   "input_hash": "e2691aef247b4025fa5c8f13da21bf2c437f39dc",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e2691aef247b4025fa5c8f13da21bf2c437f39dc"
+  "output_hash": "ccbd49bb4fc5f5467aa9831fd3a51d6ab5008c71d2a60805f6c89f8a19be86e5"
 }

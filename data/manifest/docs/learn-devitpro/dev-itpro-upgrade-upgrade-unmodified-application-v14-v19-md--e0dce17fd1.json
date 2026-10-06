@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-v14-v19",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "893bebc0f62b4a85ef251a8e4596f66c9d286948",
       "words": 3020,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:20:55.248Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.019029
+    },
+    "summarized": {
+      "at": "2026-10-06T19:20:55.263Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:20:55.264Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:20:55.265Z",
+      "page": false
     }
   },
   "input_hash": "893bebc0f62b4a85ef251a8e4596f66c9d286948",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "893bebc0f62b4a85ef251a8e4596f66c9d286948"
+  "output_hash": "9b0be2e4fc58b12b4bc54fae05a6cc974e476a9bb72e4cc608fc926b961226f9"
 }

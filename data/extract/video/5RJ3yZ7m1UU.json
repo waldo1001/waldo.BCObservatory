@@ -1,0 +1,289 @@
+{
+  "video_id": "5RJ3yZ7m1UU",
+  "item_id": "video/yt-microsoft/5RJ3yZ7m1UU",
+  "title": "What's New: Financial Analytics (2024 release wave 2)",
+  "duration_s": 855,
+  "systems": [
+    "reporting",
+    "finance",
+    "fixed-assets"
+  ],
+  "topics": [
+    "power bi reports",
+    "financial reporting templates",
+    "excel reports",
+    "fixed assets analysis",
+    "ad hoc analysis",
+    "demo data",
+    "column definitions",
+    "drill-through",
+    "kpis",
+    "financial analytics"
+  ],
+  "chapters": [
+    {
+      "title": "Overview of Financial Analytics Features",
+      "t_start": 0,
+      "t_end": 67.2
+    },
+    {
+      "title": "Power BI Reports and Financial Reporting Templates",
+      "t_start": 67.2,
+      "t_end": 149.5
+    },
+    {
+      "title": "Exploring Power BI Reports in Business Central",
+      "t_start": 149.5,
+      "t_end": 281.5
+    },
+    {
+      "title": "Financial Reporting Templates and Column Definitions",
+      "t_start": 281.5,
+      "t_end": 401.9
+    },
+    {
+      "title": "Excel Reports for Fixed Assets and Documentation",
+      "t_start": 401.9,
+      "t_end": 490.4
+    },
+    {
+      "title": "Fixed Assets Analysis and Ad Hoc Analysis",
+      "t_start": 490.4,
+      "t_end": 628.2
+    },
+    {
+      "title": "Learning Resources and Documentation",
+      "t_start": 628.2,
+      "t_end": 710.4
+    },
+    {
+      "title": "New Demo Data Sets for Financial Analytics",
+      "t_start": 710.4,
+      "t_end": 855
+    }
+  ],
+  "features": [
+    {
+      "name": "Power BI Finance App",
+      "description": "Six new Power BI apps with one for finance containing 14 reports, including overview pages, KPI pages with drill-through to ledger entries for validation and investigation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 16.6,
+      "t_end": 109.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "embedded reports",
+        "finance",
+        "dashboard",
+        "drill-through"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Financial Reporting Templates",
+      "description": "Five row definitions for balance sheet and income statement, plus 12 predefined column definitions allowing mix and match to create various financial reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 109.5,
+      "t_end": 381.8,
+      "is_demoed": true,
+      "caveats": [
+        "requires mapping configuration"
+      ],
+      "tags": [
+        "financial reporting",
+        "row definitions",
+        "column definitions",
+        "balance sheet",
+        "income statement"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel Reports for Fixed Assets",
+      "description": "Three new Excel reports for fixed assets covering analysis with book value, projected value showing appreciation projections, and details. One additional consolidation report for fixed assets.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 401.9,
+      "t_end": 490.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "excel reports",
+        "fixed assets",
+        "analysis",
+        "book value",
+        "projected value"
+      ],
+      "system": "fixed-assets"
+    },
+    {
+      "name": "Ad Hoc Analysis for Fixed Assets",
+      "description": "Query-based analysis view combining data from fixed asset tables with multiple dimensions and dates, allowing creation of custom reports and co-pilot assisted report generation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 550.9,
+      "t_end": 628.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ad hoc analysis",
+        "query",
+        "fixed assets",
+        "co-pilot",
+        "analysis view"
+      ],
+      "system": "fixed-assets"
+    },
+    {
+      "name": "Financial Analytics Documentation",
+      "description": "New documentation content covering financial reporting overview, how to perform analytics in Business Central, financial reporting module setup, and step-by-step guides for creating row and column definitions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 458.2,
+      "t_end": 710.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "learning resources",
+        "financial reporting",
+        "setup guide"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "New Demo Data Sets",
+      "description": "Three new demo data sets for financial reporting (3 years with budget and dimension breakdown), fixed assets (depreciation, acquisition, maintenance entries), and projects (extensive period with profitability analysis).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 710.4,
+      "t_end": 844,
+      "is_demoed": false,
+      "caveats": [
+        "Coming in second minor release",
+        "designed for reporting demonstration"
+      ],
+      "tags": [
+        "demo data",
+        "financial reporting",
+        "fixed assets",
+        "projects",
+        "sample data"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "analyze fixed assets",
+      "t": 550.9
+    },
+    {
+      "type": "table",
+      "name": "fixed assets Ledger entries",
+      "t": 418
+    },
+    {
+      "type": "table",
+      "name": "Ledger entries",
+      "t": 88.2
+    },
+    {
+      "type": "table",
+      "name": "customer Ledger entries",
+      "t": 281.5
+    },
+    {
+      "type": "table",
+      "name": "general ledger entries",
+      "t": 281.5
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Brian nson",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 16.6,
+      "text": "there are 14 new powerbi reports for the finance area through powerbi eded reports",
+      "why_it_matters": "Establishes the scale of new Power BI report additions for financial analytics.",
+      "check": "exact"
+    },
+    {
+      "t": 31.3,
+      "text": "there are 17 new templates five rows 12 columns in the financial reporting module",
+      "why_it_matters": "Quantifies the financial reporting template additions including specific row and column template counts.",
+      "check": "exact"
+    },
+    {
+      "t": 51.8,
+      "text": "hopefully soon in the second minor uh in this release we will have new data to better demonstrate some of these new reporting capabilities",
+      "why_it_matters": "Indicates demo data is coming in a future minor release, not immediately available in current release.",
+      "check": "exact"
+    },
+    {
+      "t": 109.5,
+      "text": "have templates for financial reporting uh five row definition which is basically the reports like balance sheet and income statement and we have",
+      "why_it_matters": "Details the specific templates available and how they can be combined for flexible reporting.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 341.5,
+      "text": "compare year to dat or prior Year year-to date or same period last year there's there's these different uh 12 different um column definition",
+      "why_it_matters": "Shows the variety of comparison options available through column definitions for financial analysis.",
+      "check": "snapped"
+    },
+    {
+      "t": 730.5,
+      "text": "for the second minor in this release we're going to provide three new demo datas sets one for financial reporting it will have three",
+      "why_it_matters": "Confirms demo data is a future feature tied to second minor release with specific details about financial reporting dataset.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 51.8,
+      "kind": "coming-later",
+      "text": "hopefully soon in the second minor uh in this release we will have new data to better demonstrate some of these new reporting capabilities"
+    },
+    {
+      "t": 730.5,
+      "kind": "coming-later",
+      "text": "for the second minor in this release we're going to provide three new demo datas sets"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024104999999999998
+    }
+  ]
+}
