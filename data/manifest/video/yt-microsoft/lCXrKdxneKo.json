@@ -5,12 +5,60 @@
   "tier": "official",
   "title": "Introduction to Business Central Cloud Migration Tooling (2022)",
   "url": "https://www.youtube.com/watch?v=lCXrKdxneKo",
-  "published_at": null,
+  "published_at": "2023-11-21T16:04:26.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:47:18.570Z",
+      "captions": "auto:en-orig",
+      "duration_s": 2763
+    },
+    "captioned": {
+      "at": "2026-10-06T21:47:26.108Z",
+      "path": "data/captions/microsoft/lCXrKdxneKo.vtt",
+      "vtt_sha256": "9796e7616b1435c77992748dac1553edc731606ea458970e0257b10542897ffc",
+      "segments": 147,
+      "words": 7160,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:51:11.801Z",
+      "path": "data/extract/video/lCXrKdxneKo.json",
+      "prompt": "extract-video@1",
+      "windows": 4,
+      "features": 42,
+      "quotes": 28,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.171741
+    },
+    "summarized": {
+      "at": "2026-10-06T21:51:21.498Z",
+      "path": "data/summary/video/lCXrKdxneKo.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0415484
+    },
+    "linked": {
+      "at": "2026-10-06T21:51:21.500Z",
+      "systems": [
+        "integration",
+        "administration",
+        "development"
+      ],
+      "topics": 12,
+      "objects_as_heard": 5
+    },
+    "published": {
+      "at": "2026-10-06T21:51:21.522Z",
+      "path": "content/videos/lCXrKdxneKo.md"
     }
   },
   "input_hash": null,
@@ -19,7 +67,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 512,
-    "duration_s": 2764,
-    "via": "reconcile"
-  }
+    "duration_s": 2763,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "676db58a49156558993f3ce22067e0139b4e7e7cb9c71b75b21e8a682f69e63c"
 }

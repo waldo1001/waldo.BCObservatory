@@ -1,0 +1,1193 @@
+{
+  "video_id": "O921cRqXdiw",
+  "item_id": "video/yt-microsoft/O921cRqXdiw",
+  "title": "What's New: Cloud Migration and Upgrade (2023)",
+  "duration_s": 2947,
+  "systems": [
+    "integration",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "cloud migration",
+    "data replication",
+    "performance optimization",
+    "azure data factory",
+    "bulk copy",
+    "delta sync",
+    "change tracking",
+    "azure sql",
+    "user interface",
+    "on-premise migration",
+    "table extensions",
+    "customized fields"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Session Overview",
+      "t_start": 0,
+      "t_end": 68.6
+    },
+    {
+      "title": "Cloud Migration Usage Growth and Technical Challenges",
+      "t_start": 68.6,
+      "t_end": 149.2
+    },
+    {
+      "title": "Replication Engine Architecture Overview",
+      "t_start": 149.2,
+      "t_end": 209.8
+    },
+    {
+      "title": "Backend Improvements: Replication Pipelines and Data Copy Optimizations",
+      "t_start": 209.8,
+      "t_end": 351.3
+    },
+    {
+      "title": "Metadata Handling and Pipeline Improvements",
+      "t_start": 351.3,
+      "t_end": 482.2
+    },
+    {
+      "title": "Table-to-Table Copy and Bulk Copy Optimizations",
+      "t_start": 482.2,
+      "t_end": 570.2
+    },
+    {
+      "title": "Diagnostic Runs and Delta Synchronization Improvements",
+      "t_start": 570.2,
+      "t_end": 668
+    },
+    {
+      "title": "Azure SQL Optimization and High-Volume Migration Recommendations",
+      "t_start": 668,
+      "t_end": 809.3
+    },
+    {
+      "title": "Cloud Migration Performance and UI Redesign",
+      "t_start": 809.3,
+      "t_end": 927.3
+    },
+    {
+      "title": "New UI Status Overview and Failure Tracking",
+      "t_start": 927.3,
+      "t_end": 1048
+    },
+    {
+      "title": "Unblock Table Action and Migration Workflows",
+      "t_start": 1048,
+      "t_end": 1128.4
+    },
+    {
+      "title": "Company and Table Status Filtering and Tenant Media Tables",
+      "t_start": 1128.4,
+      "t_end": 1277.2
+    },
+    {
+      "title": "Data Exploration, Completion Actions, and Table Sanitization",
+      "t_start": 1277.2,
+      "t_end": 1493.2
+    },
+    {
+      "title": "Customized Fields to Table Extensions Migration",
+      "t_start": 1493.2,
+      "t_end": 2947
+    }
+  ],
+  "features": [
+    {
+      "name": "Replication Pipeline Metadata Table Handling",
+      "description": "Changed how replication metadata is passed between source and destination by using a database table instead of Data Factory activities input and output parameters, bypassing the 4 megabyte Data Factory limitation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 362.5,
+      "t_end": 382.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "replication pipelines",
+        "metadata",
+        "performance"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Unlimited Tables and Companies in Single Migration Run",
+      "description": "Removed the limitation on the number of tables and companies that can be replicated in a single migration run by bypassing Data Factory parameter constraints, though Business Central still supports a maximum of 300 companies per environment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 382.6,
+      "t_end": 402.9,
+      "is_demoed": false,
+      "caveats": [
+        "Business Central still limited to 300 companies maximum per environment"
+      ],
+      "tags": [
+        "scalability",
+        "replication",
+        "companies"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Removed On-Premise Database Size Calculation from Replication Runs",
+      "description": "Eliminated repeated database size calculation during replication runs, saving 15 to 45 minutes for large source databases and reducing timeout probability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 402.9,
+      "t_end": 424.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "optimization",
+        "on-premise"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "AL Number Sequences Support in Cloud Migration",
+      "description": "Added support for AL number sequences data type in cloud migration, allowing numbering to continue in the Business Central tenant after migration instead of being reset.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 424.7,
+      "t_end": 461.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al sequences",
+        "number sequences",
+        "data types"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Reduced Table-to-Table Copy Threshold",
+      "description": "Lowered the threshold for large tables from 500 megabytes to 250 megabytes, meaning more tables now go through optimized table-to-table copy and replication status updates faster.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 461.7,
+      "t_end": 482.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "table copy",
+        "threshold",
+        "performance"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Index Optimization for Table Copy",
+      "description": "Indexes are now disabled in the target table before copying data and rebuilt after replication, providing 8 to 22 percent performance benefit compared to copying with all indexes enabled.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 499.7,
+      "t_end": 519.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "index optimization",
+        "performance",
+        "table copy"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Bulk Copy Size Reduction",
+      "description": "Reduced bulk size for smaller tables in bulk copy process, resulting in higher numbers of smaller bulks that are easier for SQL Server to serialize and compress, achieving 60 to 80 percent performance improvement overall.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 550.1,
+      "t_end": 570.2,
+      "is_demoed": false,
+      "caveats": [
+        "Timeouts may still occur on extremely weak or busy SQL servers"
+      ],
+      "tags": [
+        "bulk copy",
+        "performance",
+        "serialization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Diagnostic Runs Bulk Size Optimization",
+      "description": "Made diagnostic runs respect the smaller bulk size configuration to prevent timeouts and out of memory exceptions that occurred when processing all data in a single large bulk.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 585.3,
+      "t_end": 606.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "diagnostic runs",
+        "bulk copy",
+        "stability"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Extended Change Tracking Retention for Delta Sync",
+      "description": "Enforced longer change tracking retention period to keep change tracking versions valid longer, increasing the probability of fast delta synchronization for repeated replication runs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 627.8,
+      "t_end": 647.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "change tracking",
+        "delta sync",
+        "retention"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Extended Delta Sync Eligibility",
+      "description": "Expanded the conditions where delta synchronization is possible, including databases that first enable change tracking specifically for cloud migration, resulting in more frequent delta syncs and reduced overall migration time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 647.9,
+      "t_end": 668,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "delta sync",
+        "change tracking",
+        "optimization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Azure SQL Direct Database Linking",
+      "description": "When Azure SQL is used as source, the replication engine can now link source and destination Azure SQL databases directly without requiring serialized staging in Azure blob storage, eliminating serialization and deserialization steps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 668,
+      "t_end": 708.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "azure sql",
+        "direct linking",
+        "performance"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "SQL Variant Type Support for Azure SQL",
+      "description": "Cloud migration now supports replication of SQL variant type fields when migrating from Azure SQL as source, which was not possible when using blob storage staging.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 708.4,
+      "t_end": 728.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sql variant",
+        "azure sql",
+        "data types"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "New Cloud Migration User Interface",
+      "description": "A new user interface for cloud migration is being introduced to provide better overview of data migration status and problems, with the ability to switch between old and new UI for users who have customizations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 869,
+      "t_end": 927.3,
+      "is_demoed": true,
+      "caveats": [
+        "Both old and new UI are supported for backwards compatibility with existing customizations"
+      ],
+      "tags": [
+        "user interface",
+        "migration overview",
+        "status visibility"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Cloud migration failure drilling and visibility",
+      "description": "The new UI displays failed tables with drill-down capability to show exactly which tables require attention, distinguishing between tables with actual failures and those where data was later successfully copied.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 927.3,
+      "t_end": 1068.1,
+      "is_demoed": true,
+      "caveats": [
+        "No warning system for tenant media table deltas yet"
+      ],
+      "tags": [
+        "failure-tracking",
+        "visibility",
+        "cloud-migration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Unblock table action",
+      "description": "An action that marks a failed table as passed and allows data to be migrated through configuration packages or other means, enabling partners to work around small table failures more efficiently.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1068.2,
+      "t_end": 1128.4,
+      "is_demoed": true,
+      "caveats": [
+        "Users must note company and table details before unblocking as they are removed from the list"
+      ],
+      "tags": [
+        "cloud-migration",
+        "unblock",
+        "failure-recovery"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Company and table status filtering",
+      "description": "The new UI allows filtering to show which companies and tables have been moved, with a replicated filter to identify companies not yet migrated from on-premises.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1139.7,
+      "t_end": 1197.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "filtering",
+        "status-tracking",
+        "cloud-migration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Per-database table status verification",
+      "description": "Users can view the status of all tables across different runs, including per-database tables like custom report layout and report selections, which are tenant media tables that should have more records after successful migration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1197.2,
+      "t_end": 1277.2,
+      "is_demoed": true,
+      "caveats": [
+        "Warning system not yet in place for tenant media table issues",
+        "No accounting available for internal or obsolete marked tables"
+      ],
+      "tags": [
+        "verification",
+        "tenant-media",
+        "status-tracking"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Table detail search and exclusion explanation",
+      "description": "A page that provides details about specific tables, explaining why data was not moved, such as when a table is excluded due to replicate data property set to false or if the source table was empty.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1289.4,
+      "t_end": 1341.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "data-exploration",
+        "table-details",
+        "cloud-migration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Complete cloud migration action with sanity check",
+      "description": "An action that performs a sanity check before allowing migration completion, preventing completion if failed tables exist and requiring users to pull data first.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1341.9,
+      "t_end": 1382.5,
+      "is_demoed": true,
+      "caveats": [
+        "Cannot complete if failed tables exist"
+      ],
+      "tags": [
+        "completion",
+        "validation",
+        "cloud-migration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Pause and abandon cloud migration actions",
+      "description": "Two actions to manage ongoing migrations: pause for continuing later and abandon for deleting the environment entirely, with the only difference being telemetry sent to Microsoft.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1382.5,
+      "t_end": 1422.8,
+      "is_demoed": true,
+      "caveats": [
+        "Abandoned migrations can be reconfigured if regretted"
+      ],
+      "tags": [
+        "pause",
+        "abandon",
+        "cloud-migration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Sanitize tables action",
+      "description": "An expert-level action to run sanitization on specific tables in SaaS, which should have been done on-premises using invoke nav sanitize table, addressing data correctness before migration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1440.6,
+      "t_end": 1493.2,
+      "is_demoed": true,
+      "caveats": [
+        "Can affect tenant performance",
+        "Requires specific company and table selection",
+        "Should be run outside business hours",
+        "Running on-premises is strongly recommended"
+      ],
+      "tags": [
+        "sanitization",
+        "data-quality",
+        "expert-feature"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Move customized fields to table extensions",
+      "description": "A feature allowing automatic migration of customized fields from on-premises Microsoft tables to table extensions in SaaS, with automatic field mapping by name and type, and support for splitting data across multiple extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1493.2,
+      "t_end": 1659.7,
+      "is_demoed": true,
+      "caveats": [
+        "Fields must be renamed to match on-premises names via AL or SQL scripts",
+        "Requires table mappings to be specified",
+        "Future namespaces may eliminate need for prefixes"
+      ],
+      "tags": [
+        "customized-fields",
+        "table-extensions",
+        "al",
+        "migration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Simplified UI for table mapping configuration",
+      "description": "Dedicated UI page for adding table mappings that accepts table names in SQL format and automatically parses them, reducing errors compared to inline definition.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1749.6,
+      "t_end": 1854.5,
+      "is_demoed": true,
+      "caveats": [
+        "Must copy table definition from SQL with square brackets",
+        "Only works for AL tables",
+        "Table extensions must be uploaded before mapping"
+      ],
+      "tags": [
+        "ui",
+        "table mappings",
+        "configuration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Bulk table mapping selection",
+      "description": "Ability to select multiple table extensions at once when creating mappings, creating all required migration table mappings in a single operation instead of repeating the process individually.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1854.5,
+      "t_end": 1872.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "table mappings",
+        "bulk operations",
+        "configuration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Import and export of table mappings",
+      "description": "Ability to save table mapping configurations to a JSON file for reuse across environments and replications.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1922.3,
+      "t_end": 1937.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "table mappings",
+        "configuration",
+        "export",
+        "import"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Programmatic table mapping via event subscription",
+      "description": "Partners can programmatically provide migration table mappings by subscribing to on insert default table mappings event from codeunit 4001, with mappings inserted when completing the setup wizard or resetting migrations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1937.3,
+      "t_end": 1956.1,
+      "is_demoed": false,
+      "caveats": [
+        "Requires AL code development",
+        "Mappings are inserted during setup wizard or reset action"
+      ],
+      "tags": [
+        "table mappings",
+        "programmatic",
+        "events"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Cloud migration telemetry for partners",
+      "description": "Partner telemetry events added for tracking and analyzing replication runs, including start, completion, success status, recovery completion, and disabling events.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2036.2,
+      "t_end": 2097.8,
+      "is_demoed": false,
+      "caveats": [
+        "Some replication runs may throw errors",
+        "Full list of events available in documentation"
+      ],
+      "tags": [
+        "telemetry",
+        "monitoring",
+        "replication",
+        "partner"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Power BI dashboards for cloud migration monitoring",
+      "description": "Power BI dashboard template created by Microsoft PM showing cloud migration status across environments, with links to admin center and client, plus error and KPI tracking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2097.8,
+      "t_end": 2178.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Power BI",
+        "Queries available on BC Tech GitHub",
+        "Can access cloud migration log without accessing client"
+      ],
+      "tags": [
+        "power bi",
+        "dashboards",
+        "monitoring",
+        "telemetry"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Email notifications for cloud migration events",
+      "description": "Ability to subscribe to telemetry events for email notifications when replication run completes and when data operation completes or fails.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2194.8,
+      "t_end": 2214.9,
+      "is_demoed": false,
+      "caveats": [
+        "Requires prior setup configuration",
+        "Based on partner telemetry events"
+      ],
+      "tags": [
+        "alerts",
+        "notifications",
+        "telemetry"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Stopping direct upgrade path from version 14",
+      "description": "Microsoft is stopping the direct upgrade and cloud migration path from version 14 to latest versions after version 26, approximately two years from announcement. Currently version 14 can upgrade directly to latest on-premises or cloud migrate to version 26.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2265,
+      "t_end": 2285,
+      "is_demoed": false,
+      "caveats": [
+        "Timeline is approximately two years from announcement",
+        "Change affects both upgrade and cloud migration paths"
+      ],
+      "tags": [
+        "upgrade path",
+        "version 14",
+        "cloud migration",
+        "breaking change"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Obsolete object removal to clean up schema",
+      "description": "Plan to remove obsolete removed objects and tables accumulated over 7 years from version 12 through 14, which currently occupy approximately 10 percent of the database schema.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2301,
+      "t_end": 2319,
+      "is_demoed": false,
+      "caveats": [
+        "No objects have been deleted from version 12 to 14",
+        "Affects database size and schema complexity"
+      ],
+      "tags": [
+        "obsolete objects",
+        "schema cleanup",
+        "database maintenance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Early obsolete object removal feature",
+      "description": "Proposed feature to allow removal of obsolete removed objects and fields earlier than version 26 by deleting them from schema in version 25 and running upgrade, with the engine checking obsolete removed markers and dropping definitions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2380.7,
+      "t_end": 2441.6,
+      "is_demoed": false,
+      "caveats": [
+        "Implementation not yet started",
+        "Requires object to be marked obsolete removed in prior version",
+        "Developer must delete from schema and clean up upgrade code",
+        "Microsoft follows schedule; partners do not"
+      ],
+      "tags": [
+        "obsolete objects",
+        "upgrade",
+        "schema cleanup",
+        "breaking changes"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Version jump strategy (jump builds every 5 versions)",
+      "description": "New versioning strategy where jump builds occur every 5 versions (version 25, 30, 35, etc.). Breaking SQL changes introduced at jump builds; intermediate versions can be skipped for cloud migration but on-premise must upgrade sequentially.",
+      "status": "announced",
+      "status_evidence_t": 2544.6,
+      "status_evidence_quote": "we are planning to do these updates every five years so in every five versions We are planning to introduce a jumper build",
+      "status_evidence_verified": true,
+      "t_start": 2462.1,
+      "t_end": 2564.8,
+      "is_demoed": false,
+      "caveats": [
+        "Current thinking subject to feedback",
+        "Schedule may change"
+      ],
+      "tags": [
+        "versioning",
+        "upgrade path",
+        "breaking changes"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Company batch size specification for cloud migration",
+      "description": "Feature to allow specifying company batch size when replicating data during cloud migration, enabling moves of 30, 40, 50 or more companies at once depending on setup limitations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2672.5,
+      "t_end": 2692.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "cloud migration",
+        "batch processing",
+        "ui improvement"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Include/exclude tables from cloud migration",
+      "description": "New UI feature to override default Microsoft decisions about which tables are replicated. Users will be able to include or exclude tables without code, with the only requirement being the table is not marked as internal.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2692.8,
+      "t_end": 2754.2,
+      "is_demoed": false,
+      "caveats": [
+        "Tables marked as internal cannot be included/excluded"
+      ],
+      "tags": [
+        "cloud migration",
+        "table mapping",
+        "ui"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Delta sync for all-per database tables",
+      "description": "Improvement to handle all-per database tables using delta sync instead of replacing the entire table, similar to how tenant media is delta synced.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2754.2,
+      "t_end": 2774.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "cloud migration",
+        "performance",
+        "delta sync"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Optional intelligent Cloud permission set assignment",
+      "description": "Expert feature to disable automatic assignment of intelligent Cloud permission sets to all users when enabling cloud migration. Will be shipped as a small action to disable this default behavior.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2774.4,
+      "t_end": 2794.5,
+      "is_demoed": false,
+      "caveats": [
+        "Not disabled automatically at first, will be an expert action"
+      ],
+      "tags": [
+        "cloud migration",
+        "permissions",
+        "authentication"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Warning system for cloud migration",
+      "description": "New warnings functionality in cloud migration UI to alert users when tenant media table is completely replaced or when table mappings are defined but no data was moved. Can be extended with additional warnings based on common patterns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2794.5,
+      "t_end": 2814.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "cloud migration",
+        "ui",
+        "error handling"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Cancel ongoing replication action",
+      "description": "UI action to cancel ongoing cloud migration replication. Currently requires disabling the integration runtime on the machine, which does not always cancel the replication.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2831.6,
+      "t_end": 2851.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "cloud migration",
+        "ui",
+        "operations"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "SQL change tracking",
+      "t": 298.6
+    },
+    {
+      "type": "other",
+      "name": "AL number sequences",
+      "t": 444.7
+    },
+    {
+      "type": "table",
+      "name": "customer",
+      "t": 1529
+    },
+    {
+      "type": "table",
+      "name": "G entry",
+      "t": 1666.3
+    },
+    {
+      "type": "table",
+      "name": "change log entry",
+      "t": 1306.2
+    },
+    {
+      "type": "table",
+      "name": "custom report layout",
+      "t": 1216.1
+    },
+    {
+      "type": "table",
+      "name": "report selections",
+      "t": 1216.1
+    },
+    {
+      "type": "table",
+      "name": "upgrade TXS",
+      "t": 1257.1
+    },
+    {
+      "type": "codeunit",
+      "name": "4001",
+      "t": 1956.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Nicola",
+      "confidence": "high"
+    },
+    {
+      "name": "Julia",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 88.8,
+      "text": "the number of uh business Central tenants migrating their data from on premise has almost doubled last year comparing to the previous year and",
+      "why_it_matters": "Demonstrates the significant growth in adoption of cloud migration and high-volume data transfers, indicating the scale of technical challenges that needed to be addressed.",
+      "check": "exact"
+    },
+    {
+      "t": 108.9,
+      "text": "back then we removed the hard limitation on the amount of the UN premis data that can be replicated to the cloud and that",
+      "why_it_matters": "Explains the root cause of the performance optimization work - removing a hard limit exposed scalability issues that required significant backend improvements.",
+      "check": "snapped"
+    },
+    {
+      "t": 382.6,
+      "text": "it has become possible to replicate an unlimited number of tables in a single migration run and we remove the limitation on the number",
+      "why_it_matters": "Clarifies the new scalability capabilities while setting realistic expectations about the 300-company limit inherent to Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 444.7,
+      "text": "the AL number sequences data type is supported by Cloud migration and the numbering can continue in the BC tenant after migration instead of",
+      "why_it_matters": "Describes a specific data type now supported in cloud migration, improving data continuity for customers relying on number sequence behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 519.9,
+      "text": "our test measurement show 8 to 22% performance benefit for the new process comparing to the old way of inserting the data with all",
+      "why_it_matters": "Provides specific performance metrics for index optimization improvements achieved through the backend changes.",
+      "check": "exact"
+    },
+    {
+      "t": 570.2,
+      "text": "the whole process of B copy became 60 to 80% faster",
+      "why_it_matters": "Quantifies significant performance gains in bulk copy operations through reduced bulk size configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 668,
+      "text": "if uh Asia SQL is used a source it is possible to link the source and the destination Asia SQL databases directly without the",
+      "why_it_matters": "Highlights a major architectural improvement for Azure SQL migrations that eliminates blob storage bottlenecks and enables new capabilities.",
+      "check": "snapped"
+    },
+    {
+      "t": 789.1,
+      "text": "the more powerful service tier you get the faster and smoother your Cloud migrations will be",
+      "why_it_matters": "Directly advises on Azure SQL configuration strategy for cloud migration performance.",
+      "check": "exact"
+    },
+    {
+      "t": 827.7,
+      "text": "it is extremely hard to get an overview which data has been moved and if there has been any problems with the cloud migration",
+      "why_it_matters": "Identifies the usability problem that the new UI addresses regarding visibility into migration status and failures.",
+      "check": "exact"
+    },
+    {
+      "t": 887.1,
+      "text": "we have decided to support both for the time being because we believe that some of you have done the customizations to the old",
+      "why_it_matters": "Documents backward compatibility decision for existing UI customizations.",
+      "check": "exact"
+    },
+    {
+      "t": 1048,
+      "text": "now you're able to see which tables have failed the replication and which tables are requiring your attention immediately",
+      "why_it_matters": "Key improvement in visibility and actionability of the new UI.",
+      "check": "exact"
+    },
+    {
+      "t": 1088.2,
+      "text": "to enable you to be more efficient we have added this action which is called unblock the table",
+      "why_it_matters": "Introduces a new feature to work around small table failures in migration.",
+      "check": "exact"
+    },
+    {
+      "t": 1216.1,
+      "text": "tenant media if it was copied successfully it needs to have more records than there are in the on Prem database because we never",
+      "why_it_matters": "Explains tenant media table behavior and validation expectations during migration.",
+      "check": "exact"
+    },
+    {
+      "t": 1513.4,
+      "text": "we have shipped it with the version 21 actually because we backported the code to make it more efficient",
+      "why_it_matters": "Confirms GA status and indicates performance optimization through backporting.",
+      "check": "exact"
+    },
+    {
+      "t": 1566.6,
+      "text": "we are going to insert the default mapping by name and we are going to search for all of the fields that we can",
+      "why_it_matters": "Describes automatic field mapping strategy for customized fields migration.",
+      "check": "exact"
+    },
+    {
+      "t": 1581.4,
+      "text": "you are able to do the these simple migration table mappings and this will copy the custom fields to the Target table if the",
+      "why_it_matters": "Explains the core capability of mapping custom fields during cloud migration, which is essential for preserving business data when moving to extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 1601.4,
+      "text": "you need to rename the fields so you will need to prefix them so they are called the same as in on Prem",
+      "why_it_matters": "Identifies a critical requirement for field naming conventions during migration, which is necessary for automatic field matching.",
+      "check": "exact"
+    },
+    {
+      "t": 1769.6,
+      "text": "we have added a dedicated UI for that and you can access it through this section which is called add table mappings",
+      "why_it_matters": "Announces the availability of a simplified UI for the most error-prone task of defining table mappings.",
+      "check": "exact"
+    },
+    {
+      "t": 1956.1,
+      "text": "if you do this through code then table mappings are going to be inserted each time when you complete the setup wizard or if",
+      "why_it_matters": "Describes the programmatic approach for partners, enabling automated mapping configuration for large-scale migrations.",
+      "check": "exact"
+    },
+    {
+      "t": 2036.2,
+      "text": "approximately few weeks ago we have added support for the Telemetry and we have added a lot of events to the partner Telemetry",
+      "why_it_matters": "Announces new telemetry capability that enables partners to track and monitor cloud migration runs.",
+      "check": "exact"
+    },
+    {
+      "t": 2265,
+      "text": "we are stopping the direct upgrate and cloud migration po from version 14",
+      "why_it_matters": "Critical announcement about a breaking change to upgrade paths, requiring partners to plan multi-version upgrade strategies.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2319,
+      "text": "we have 7 years of obsolete removed objects and these objects are taking around 10% of the database",
+      "why_it_matters": "Quantifies the technical debt from obsolete objects and justifies why direct upgrade paths must be discontinued.",
+      "check": "exact"
+    },
+    {
+      "t": 2360.7,
+      "text": "we have received the request from the partners to ship the ability to remove the obsolete objects earlier before version 26 and we are",
+      "why_it_matters": "Shows Microsoft's response to partner feedback and indicates a preview capability to address the obsolete object cleanup challenge.",
+      "check": "exact"
+    },
+    {
+      "t": 2360.7,
+      "text": "we have received the request from the partners to ship the ability to remove the obsolete objects earlier before version 26",
+      "why_it_matters": "Shows demand from partners for earlier removal of obsolete objects in the upgrade path.",
+      "check": "exact"
+    },
+    {
+      "t": 2441.6,
+      "text": "the only thing that you need to do to remove the table and the field from schema is to have a version in which",
+      "why_it_matters": "Clarifies the simple mechanism for removing obsolete objects without requiring complex upgrade code.",
+      "check": "exact"
+    },
+    {
+      "t": 2523.2,
+      "text": "in order to get to 26 you need to go through 25 so all of these on Prem versions they will need to upgrade",
+      "why_it_matters": "Explains mandatory upgrade sequencing for on-premise customers due to breaking changes in jump builds.",
+      "check": "exact"
+    },
+    {
+      "t": 2544.6,
+      "text": "we are planning to do these updates every five years so in every five versions We are planning to introduce a jumper build",
+      "why_it_matters": "Defines the new version jump strategy that fundamentally changes upgrade paths and breaking change schedules.",
+      "check": "exact"
+    },
+    {
+      "t": 2622.1,
+      "text": "currently there are no plans of stopping the on Prem support and if there are any PLs they are going to be announced in",
+      "why_it_matters": "Addresses partner concerns about on-premise end-of-life and commits to advance notice if policy changes.",
+      "check": "exact"
+    },
+    {
+      "t": 2713.2,
+      "text": "if you would like to override this decision you need to do workarounds either to delete the content from the table or to use",
+      "why_it_matters": "Identifies pain point in current cloud migration that the include/exclude feature will address.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 382.6,
+      "kind": "other",
+      "text": "business Central supports not more than 300 companies in single environment"
+    },
+    {
+      "t": 570.2,
+      "kind": "other",
+      "text": "Timeouts may still happen for the extremely weak or busy SQL service"
+    },
+    {
+      "t": 869,
+      "kind": "other",
+      "text": "we have decided to support both for the time being because we believe that some of you have done the customizations to the old UI"
+    },
+    {
+      "t": 1216.1,
+      "kind": "not-in-this-release",
+      "text": "we do not have the warning system in place yet"
+    },
+    {
+      "t": 1641.9,
+      "kind": "coming-later",
+      "text": "we are planning to introduce name spaces and the goal of the development team is to eliminate prefixes and suffixes in all of the objects"
+    },
+    {
+      "t": 2265,
+      "kind": "coming-later",
+      "text": "we will need to stop this upgrade but this is in approximately two years"
+    },
+    {
+      "t": 2339.8,
+      "kind": "subject-to-change",
+      "text": "we are looking into this we have not started the implementation of this feature yet however the current thinking is"
+    },
+    {
+      "t": 2380.7,
+      "kind": "preview",
+      "text": "we have not started the implementation of this feature yet however the current thinking is that it is going to work like this"
+    },
+    {
+      "t": 2380.7,
+      "kind": "coming-later",
+      "text": "we have not started the implementation of this feature yet however the current thinking is that it is going to work like this"
+    },
+    {
+      "t": 2601.9,
+      "kind": "subject-to-change",
+      "text": "this thing that you have just seen is our current thinking and these are the things that we are planning to do with the current knowledge"
+    },
+    {
+      "t": 2642.2,
+      "kind": "subject-to-change",
+      "text": "this current schedule that you have seen it can change and in case of any changes we are also going to announce it to you"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 29,
+    "quotes_dropped": 2,
+    "evidence_verified": 1,
+    "evidence_unverified": 38
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.033704
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030567000000000004
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032274
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0438785
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.055422
+    }
+  ]
+}

@@ -5,12 +5,59 @@
   "tier": "official",
   "title": "Reskill: Program explainer",
   "url": "https://www.youtube.com/watch?v=w9c-j29nAFM",
-  "published_at": null,
+  "published_at": "2023-11-09T15:22:49.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:51:41.369Z",
+      "captions": "auto:en-orig",
+      "duration_s": 276
+    },
+    "captioned": {
+      "at": "2026-10-06T21:51:49.233Z",
+      "path": "data/captions/microsoft/w9c-j29nAFM.vtt",
+      "vtt_sha256": "27c8d9b154c4352ecf18775080734a1fcf164dce7bdbe2dd59dc76befbddab3d",
+      "segments": 14,
+      "words": 739,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:52:04.191Z",
+      "path": "data/extract/video/w9c-j29nAFM.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 3,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.011848
+    },
+    "summarized": {
+      "at": "2026-10-06T21:52:09.880Z",
+      "path": "data/summary/video/w9c-j29nAFM.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0102224
+    },
+    "linked": {
+      "at": "2026-10-06T21:52:09.881Z",
+      "systems": [
+        "development",
+        "administration"
+      ],
+      "topics": 9,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T21:52:09.893Z",
+      "path": "content/videos/w9c-j29nAFM.md"
     }
   },
   "input_hash": null,
@@ -20,6 +67,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 518,
     "duration_s": 276,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ca61263e2777fa79db74268c9a0a9f69cbd2b594d3548c7d2286fda7fa58e75c"
 }

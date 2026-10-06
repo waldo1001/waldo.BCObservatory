@@ -1,0 +1,371 @@
+{
+  "video_id": "jhfwx1K0I7Y",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 17,
+      "end": 37.5,
+      "text": "hello and welcome to this session where we talk about bringing AI to core financials in business Central my name is Mike porch cardana I'm a product manager on the business Central engineering team and I work on AI and other ways to make our users productive with business Central and joining me today are my colleagues my name is Brian Nelson I'm a program manager within the business Central team"
+    },
+    {
+      "t": 37.5,
+      "end": 58.2,
+      "text": "and my name is George chanic I'm a developer in the business Central team and together we're going to give you a quick demo of this new copilot capability uh we're going to show you how to get things set up so that you can get Hands-On try it out or even demo this easily to your customers and of course along the way we'll share some great tips on how to use this"
+    },
+    {
+      "t": 58.2,
+      "end": 78.2,
+      "text": "in March 2023 we introduced you to Dynamics 365 co-pilot the world's first AI powered assistant for both Erp and CRM and in business Central co-pilot had one skill marketing text suggestions uh the ability to draft compelling marketing text uh and give our customers that boost of productivity to help"
+    },
+    {
+      "t": 78.2,
+      "end": 98.6,
+      "text": "them craft that text and bring their products to Market quicker now our vision for copilot has always been to unlock productivity for workers across roles across Industries across lines of business uh so it was only natural that we' next turn our gaze towards core Erp processes to see where AI can help uh we found that some Financial"
+    },
+    {
+      "t": 98.6,
+      "end": 118.9,
+      "text": "activities are often repetitive they're tedious they can be timeconsuming uh reconciling your account statements is probably one of them and here's a good place for us to leverage large language models and their ability to uh interpret language language ambiguity uh understand intent compare texts U and do simple"
+    },
+    {
+      "t": 118.9,
+      "end": 139.2,
+      "text": "problem solving and really help our users get through this activity so we're excited to introduce business Central's second co-pilot capability bank account reconciliation assistance with co-pilot uh co-pilot is built on Microsoft's industry-leading uh security privacy compliance and responsible AI"
+    },
+    {
+      "t": 139.2,
+      "end": 158.8,
+      "text": "which means you can trust that your data especially the sensitive financial data that you work with every day uh is safe it's not leaking outside of your organization um it is not being used to train other AI models in fact our philosophy is that your data is your data and these are the principles on which we build bank account reconciliation"
+    },
+    {
+      "t": 158.8,
+      "end": 179.1,
+      "text": "assistance this is now available in public preview with 2023 release Wave 2 so Brian what exactly is bank account reconciliation bank reconciliation is a tedious task sometimes uh it's a repetitive task and it's also timec consuming it is the process of making"
+    },
+    {
+      "t": 179.1,
+      "end": 199.2,
+      "text": "sure that what your bank says has happened in your real bank account is reflected in your EIP system so During the period you will register customer receipts you will register vendor payments and at the end of the period you'll make sure you'll double check that it all that you have registered matches your bank statement and that is the"
+    },
+    {
+      "t": 199.2,
+      "end": 219.3,
+      "text": "process of bank reconciliation we've had this feature for many releases we've improved it over the past few releases with this release we will let coopar assist you in the process and you can gain some extra efficiency in doing Bank rck Georgia will show you some of the examples and scenarios that"
+    },
+    {
+      "t": 219.3,
+      "end": 237.4,
+      "text": "copilot can assist you with uh let me show you the capabilities of co-pilot blended into the bank account reconciliation process so with this release we have introduced a new action reconcile with co-pilot on the bank account reconciliations"
+    },
+    {
+      "t": 237.4,
+      "end": 258.3,
+      "text": "list when you choose that action you can see a new dialogue uh new type of dialogue in business Central um that is tailor made for interactions with co-pilot and on this uh dialogue you can see that a bank account has already been chosen that is because"
+    },
+    {
+      "t": 258.3,
+      "end": 278.4,
+      "text": "this is the only bank account that has a bank statement import set up on it so we already choose that one um and the next thing that the the user should do is to import their transaction data this can be either a file or a online bank feed in case that this bank account"
+    },
+    {
+      "t": 278.4,
+      "end": 289.7,
+      "text": "is linked to an online bank account um in this uh demo I will show it with a file so we import a file the file"
+    },
+    {
+      "t": 289.7,
+      "end": 301.3,
+      "text": "contains some uh deposits uh from your bank account and uh the the business Central reads the statement date uh from the"
+    },
+    {
+      "t": 301.3,
+      "end": 321.4,
+      "text": "file and now that you have a file imported you can choose generate uh choosing generate will will do two things it will first uh try to match the statement lines from the imported files uh from the imported file"
+    },
+    {
+      "t": 321.4,
+      "end": 339.6,
+      "text": "with the business Central buil-in algorithm for matching lines and then for all the lines that are not match by business Central built-in algorithm it will call co-pilot and ask it to match the remaining lines so let's try and click generate"
+    },
+    {
+      "t": 339.6,
+      "end": 349.8,
+      "text": "here and now it is it is trying to match first with a built-in algorithm uh and then calling"
+    },
+    {
+      "t": 349.8,
+      "end": 369.9,
+      "text": "co-pilot once co-pilot returns a response we parse the response and try to um to correlate it with your statement lines and bank account Ledger entries and yes in this case you can see that uh this demo is made so that our built-in"
+    },
+    {
+      "t": 369.9,
+      "end": 380.4,
+      "text": "algorithm did not match any of the lines from the file but co-pilot actually was able to match all of them and that is because they are"
+    },
+    {
+      "t": 380.4,
+      "end": 401.1,
+      "text": "deposits that are created for multiple bank account Ledger entries in your system um here you can see in this in the bottom section of the page you can see the co-pilot proposals for matching these statement lines from the file and you can see that each one of them was applied to multiple Ledger"
+    },
+    {
+      "t": 401.1,
+      "end": 421.2,
+      "text": "entries uh you can drill down on each one of them and you can see that this line was matched to these Ledger entries uh this other one to some other Ledger entries and you can see that the amounts sum up it is important to to state that"
+    },
+    {
+      "t": 421.2,
+      "end": 438.7,
+      "text": "none of the co-pilot proposals are saved in the in the in your database until you explicitly keep the proposals by choosing this button keep it you can also choose the button that discards"
+    },
+    {
+      "t": 438.7,
+      "end": 459.3,
+      "text": "everything uh it will then just revert to the list and it will not save anything um you can delete an individual proposal from this list if you don't like it you can choose the delete line but let's not do it for this demo um"
+    },
+    {
+      "t": 459.3,
+      "end": 479.4,
+      "text": "and uh a nice thing that you have on the page is the visual indicator of how much of the lines are actually matched uh in this case you can see that all the lines are matched uh that you should review proposals and you can do it by drilling down and in the"
+    },
+    {
+      "t": 479.4,
+      "end": 500.6,
+      "text": "case that all the lines are matched by our built-in algorithm and co-pilot together uh you can also choose to post this bank account reconciliation if it is fully applied so if you choose this checkbox and you keep all these"
+    },
+    {
+      "t": 500.6,
+      "end": 521.7,
+      "text": "proposals the bank account reconciliation is posted and you can you can see it as a bank account statement that it's posted and now let me show you an example of a of a bank account reconciliation in which you it is required to do a little bit more manual work assisted by"
+    },
+    {
+      "t": 521.7,
+      "end": 541.7,
+      "text": "co-pilot for this demo I will invoke the action reconcile with co-pilot and import another file that I have prepared it is practically it is a superet of the of the file from the previous demo it it just has a few more lines that"
+    },
+    {
+      "t": 541.7,
+      "end": 561.6,
+      "text": "are not uh possible to match with any bank account Ledger entry in the system so let's see how that works so if for this file if I choose generate and try to match the lines from the"
+    },
+    {
+      "t": 561.6,
+      "end": 577.5,
+      "text": "file yeah in this case we can see that co-pilot matched 10 lines but there are are three lines that remain that are not matched either by our built-in algorithm or"
+    },
+    {
+      "t": 577.5,
+      "end": 597.6,
+      "text": "co-pilot and um in this case let's say we review these uh matches made by co-pilot and we like them and we say keep notice that because not all the lines are matched we cannot choose the post if fully applied it's because there are the post would"
+    },
+    {
+      "t": 597.6,
+      "end": 615.6,
+      "text": "fail because there are still some lines that are not applied so let's let's uh choose keep it and it will ask you if you want to open the bank account reconciliation card and yes let's do that here on the"
+    },
+    {
+      "t": 615.6,
+      "end": 635.7,
+      "text": "card you can see that the number of lines are matched but but these three lines that are look like expenses they are not matched to any bank account Ledger entry and in fact there is no bank account letter entry that is open for this bank account typically before this"
+    },
+    {
+      "t": 635.7,
+      "end": 656,
+      "text": "feature you could you could transfer these lines to a general journal and and then post general journal but we have introduced uh an automation for this process that uses co-pilot and you can transfer to a g account and you can uh multi"
+    },
+    {
+      "t": 656,
+      "end": 676.6,
+      "text": "select these three lines here and choose transfer to GL account what this will do is it will try to find the best suitable GL account for each of these lines based on their description and based on the GL account"
+    },
+    {
+      "t": 676.6,
+      "end": 691.8,
+      "text": "name and it will it knows which reconciliation it is knows which bank account it is so there is no need to import any file it just just call scop Pilot right away and let's see what co-pilot has"
+    },
+    {
+      "t": 691.8,
+      "end": 711.9,
+      "text": "suggested uh it says that uh there are uh 10 matched lines up front but co-pilot matched three more of them and co-pilot is suggesting to for this line fuel to post a new payment to GL account passenger car costs you can see that"
+    },
+    {
+      "t": 711.9,
+      "end": 722.6,
+      "text": "fuel description is not a substring of passenger car costs but co-pilot was able to to to match this uh"
+    },
+    {
+      "t": 722.6,
+      "end": 740.6,
+      "text": "semantically um and uh we like this uh staff wages it suggests to post to salaries account let's keep that and uh theater it suggests to post to outdoor and transportation"
+    },
+    {
+      "t": 740.6,
+      "end": 759.5,
+      "text": "ads I don't like that one that suggestion so let me drill down and uh I can actually choose another g account to transfer this to and uh let's let's pick this one film TV radio and so"
+    },
+    {
+      "t": 759.5,
+      "end": 781,
+      "text": "on just to show that you can change and it changed it based on your manual uh choice you can even use the the save uh drill down here and uh what this will do it will it will add this"
+    },
+    {
+      "t": 781,
+      "end": 796.6,
+      "text": "description as text to account mapping it will save it in your database and for future uh future reconciliations it will map this text fuel with with g"
+    },
+    {
+      "t": 796.6,
+      "end": 812,
+      "text": "account um so let's say again because all the lines are now matched uh we like these proposals and uh let's say postive fully applied again and say keep"
+    },
+    {
+      "t": 812,
+      "end": 832.4,
+      "text": "it and it will apply these and it actually posted reconciliation and you can look at it so after that fantastic demo let's walk through a couple of additional details that will help you plan your approach first and foremost this feature is available uh in public preview while we assess"
+    },
+    {
+      "t": 832.4,
+      "end": 852.4,
+      "text": "feedback from our community uh when should you expect to see this well this will be delivered in a minor update for Wave 2 now keep in mind that minor updates span from November until March 2024 uh so if you're on update 23.0 you will not see this feature you need to wait for that minor update"
+    },
+    {
+      "t": 852.4,
+      "end": 872.6,
+      "text": "uh also like all of our co-pilot capabilities um bank account reconciliation assistance is only available for business Central online what we often refer to as SAS now the feature is not restricted by any country localizations which means that whichever country localized envir enironment you are using you will find the feature there um and also no"
+    },
+    {
+      "t": 872.6,
+      "end": 892.6,
+      "text": "matter which language user language you are using uh the feature will also be available however we do have a few limitations in preview that I want to call out um while in preview co-pilot performs better in English language uh with English Bank transactions and in fact uh suggestions might not perform as well in other languages uh we"
+    },
+    {
+      "t": 892.6,
+      "end": 912.6,
+      "text": "also know that co-pilot does not necessarily perform as well when you have a mixed language situation for example when you're uh Bank transactions have descriptions in in mixed language now speaking of transactions Georgia uh one of the challenges with experiencing bank account reconciliation is of course getting your demo data set up having those right transactions in place um could you share"
+    },
+    {
+      "t": 912.6,
+      "end": 931.3,
+      "text": "with us how we've improved that experience yes so in uh in business Central evaluation company for business Central online there is a demo bank account reconciliation um for for us version it is for the checking account and if you just open"
+    },
+    {
+      "t": 931.3,
+      "end": 944.6,
+      "text": "it uh you will see few lines uh and few bank account Ledger entries and on this demo bank account reconciliation you can just choose reconcile with"
+    },
+    {
+      "t": 944.6,
+      "end": 964.9,
+      "text": "co-pilot and it will enter it will call co-pilot straight away there's no need to import a file and you can see that our uh built-in algorithm matched one out of three lines based on description and amount and date and co-pilot matched two"
+    },
+    {
+      "t": 964.9,
+      "end": 984.9,
+      "text": "out of three lines uh it matched the deposit line because it is a one one statement line to multiple Ledger entries this is something that the business Central built-in algorithm is not good at but co-pilot is and it also matched this statement line"
+    },
+    {
+      "t": 984.9,
+      "end": 997.9,
+      "text": "despite the transaction date being off by 3 days or even more days co-pilot can handle that so in this demo bank account reconciliation you can you can"
+    },
+    {
+      "t": 997.9,
+      "end": 1018,
+      "text": "quickly see the capabilities of co-pilot with these few characteristic lines that are a bit tough for our bu built-in matching algorithm that's a lot easier to get started really but there's also a few more things you need to know few more prerequisites before you can actually try this out so first of all if you're upgrading from"
+    },
+    {
+      "t": 1018,
+      "end": 1038.2,
+      "text": "an ear earlier version of business Central uh such as version 22 you'll first need to visit the feature management page uh to enable this feature now this requires elevated permissions so you typically an admin who does this on the environment search for Bank uh and it should show up then you just enable it from all users and the next time you sign in or your co-workers"
+    },
+    {
+      "t": 1038.2,
+      "end": 1051.2,
+      "text": "sign in they will now get access to this co-pilot capability if you don't find the feature in this list named bank account reconciliation that probably means you're still waiting for that update to be delivered to your"
+    },
+    {
+      "t": 1051.2,
+      "end": 1071.9,
+      "text": "environment next thing to do is make sure co-pilot is actually up and running for that environment so admin should visit the new co-pilot and AI capabilities page this gives you an overview of all of the capabilities installed specifically to that environment uh again you'll find bank account reconciliation here in the preview section of course uh and it should be active by default"
+    },
+    {
+      "t": 1071.9,
+      "end": 1091.9,
+      "text": "now in many cases co-pilot will just work without any additional setup required uh here it says your environment is connected to Azure open AI service for your region if you see this you're good to go however if your environment localization is um in a country or region where Azure open AI service is not available um then the"
+    },
+    {
+      "t": 1091.9,
+      "end": 1112.2,
+      "text": "only way to work with co-pilot is to connect to Azure open ey service in a different region and for that um administrators must first give their consent that business Central will contact Azure open AI service in that different region you do that using the switch right here and you'll also find the list of measure Regional services in our documentation this"
+    },
+    {
+      "t": 1112.2,
+      "end": 1133,
+      "text": "single switch allowing data movement is really the last thing uh that remains for you to experience co-pilot in business Central now while you're trying it out we'd love to get your feedback uh we know that AI doesn't always get things right um in fact we provided a very simple way for you to signal and rate that feedback"
+    },
+    {
+      "t": 1133,
+      "end": 1152.4,
+      "text": "uh rate the quality of feedback that co-pilot comes up with um and you can do this every single time you you reconcile you can do this every time you suggest jail accounts uh do send us your likes do send us your dislikes uh whether you're an end user whether you're a partner trying this out or demoing this this feedback really helps us continue improving business"
+    },
+    {
+      "t": 1152.4,
+      "end": 1172.7,
+      "text": "Central all right so before we close let's summarize uh what we heard today um we're bringing co-pilot to core Erp processes uh with this new capability to assist in bank account reconciliation starting out in preview uh you'll find it in minor up date to 2023 release Wave 2 uh there's no restrictions on country"
+    },
+    {
+      "t": 1172.7,
+      "end": 1192.7,
+      "text": "or region uh in terms of environment that you can try this on um but some limitations do apply in terms of language and if you don't see the action to reconcile with co-pilot there's probably some one onetime setup that you need to go and do as an admin on that environment uh start by checking out the feature management page see if you've gotten the feature there"
+    },
+    {
+      "t": 1192.7,
+      "end": 1213.1,
+      "text": "uh and do remember to provide feedback of course now if you're a partner watching this you're probably wondering how how did they do that well we have some good news for you because bank reconciliation assistance has been built using our new developer tools for co-pilot in business Central and what that means is that you can now design and Implement your own"
+    },
+    {
+      "t": 1213.1,
+      "end": 1233.1,
+      "text": "similar uh generative AI capabilities for your extensions we've got an entire dedicated session where we go through this in great detail and if you're looking for more inspiration more use cases uh where co-pilot can be put to work um check out our other session on on marketing Tech suggestions as well and last but not least if you're looking for more in"
+    },
+    {
+      "t": 1233.1,
+      "end": 1253.2,
+      "text": "the area of Finance in 2023 release Wave 2 uh check out this one session on allocations that we also recommend so there's plenty more resources for you if you're looking to get started with business Central uh follow the buzz on social media or connect with the product engineering team um if you've got that great idea uh where you think we should put"
+    },
+    {
+      "t": 1253.2,
+      "end": 1271.1,
+      "text": "AI to work in the finance area or elsewhere in business Central do share your idea at a aka.ms BC ideas and for partners specifically we definitely recommend you join the discussion discussion group called co-pilot and AI uh here's a link that you can join uh on our Yammer"
+    },
+    {
+      "t": 1271.1,
+      "end": 1291.2,
+      "text": "Network so with that it's been a real pleasure to share with you how we're bringing AI to core Erp processes uh we're really looking forward to hearing your feedback um while you use this while you try it out and as you bring that to your customers as well and we hope this also inspires you to see a path toward building your own generative AI capabilities in your"
+    },
+    {
+      "t": 1291.2,
+      "end": 1298.6,
+      "text": "extensions as well so on behalf of the business Central engineering team thanks for"
+    },
+    {
+      "t": 1298.6,
+      "end": 1300,
+      "text": "watching"
+    }
+  ],
+  "markers": [
+    {
+      "t": 2.09,
+      "text": "[Music]"
+    },
+    {
+      "t": 16.99,
+      "text": "[Music]"
+    },
+    {
+      "t": 17,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3286
+}

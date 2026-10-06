@@ -1,0 +1,803 @@
+{
+  "video_id": "hSJW3LiOBxg",
+  "item_id": "video/yt-microsoft/hSJW3LiOBxg",
+  "title": "What's New: Power BI and Reporting for Developers (2023 release wave 2)",
+  "duration_s": 2106,
+  "systems": [
+    "reporting",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "power bi integration",
+    "analytical reports",
+    "al development",
+    "report embedding",
+    "report visuals",
+    "kpi tracking",
+    "scorecards",
+    "expanded mode",
+    "no-code analytics",
+    "visual hierarchy",
+    "query analysis",
+    "data exploration"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Session Overview",
+      "t_start": 0,
+      "t_end": 91.3
+    },
+    {
+      "title": "Three Types of Business Central Reports",
+      "t_start": 91.3,
+      "t_end": 165.4
+    },
+    {
+      "title": "Analytics Needs by Organizational Role",
+      "t_start": 165.4,
+      "t_end": 227
+    },
+    {
+      "title": "Vision for Analytical Reporting in Business Central",
+      "t_start": 227,
+      "t_end": 318.4
+    },
+    {
+      "title": "New Power BI Embed Capabilities for AL Developers",
+      "t_start": 318.4,
+      "t_end": 430.9
+    },
+    {
+      "title": "Power BI Scorecards and Code Implementation",
+      "t_start": 430.9,
+      "t_end": 551.2
+    },
+    {
+      "title": "Embedding Reports in Expanded Mode - Live Demo",
+      "t_start": 551.2,
+      "t_end": 680.1
+    },
+    {
+      "title": "Controlling Report Selection and Navigation",
+      "t_start": 680.1,
+      "t_end": 839.4
+    },
+    {
+      "title": "Report Visual Embedding and Visual Hierarchy",
+      "t_start": 839.4,
+      "t_end": 940
+    },
+    {
+      "title": "Embedding Scorecards in Business Central",
+      "t_start": 940,
+      "t_end": 1041.8
+    },
+    {
+      "title": "Query Analysis and Data Exploration",
+      "t_start": 1041.8,
+      "t_end": 1158.7
+    },
+    {
+      "title": "Query UI and Ad-Hoc Analysis",
+      "t_start": 1158.7,
+      "t_end": 1307.4
+    },
+    {
+      "title": "Excel Layouts with Multiple Data Sheets and Power Pivot Integration",
+      "t_start": 1307.4,
+      "t_end": 1521.3
+    },
+    {
+      "title": "Teaching Tips, Context-Sensitive Help, and Documentation",
+      "t_start": 1521.3,
+      "t_end": 1652.4
+    },
+    {
+      "title": "Learning Resources and BC Tech Repo",
+      "t_start": 1652.4,
+      "t_end": 1737.2
+    },
+    {
+      "title": "Excel Samples, Community Resources, and Technology Selection",
+      "t_start": 1737.2,
+      "t_end": 1887.7
+    },
+    {
+      "title": "Analytics Solutions - Power BI, Queries, and Excel Data Sets",
+      "t_start": 1887.7,
+      "t_end": 2050.2
+    },
+    {
+      "title": "Resources for Ongoing Engagement and Feedback",
+      "t_start": 2050.2,
+      "t_end": 2106
+    }
+  ],
+  "features": [
+    {
+      "name": "Open reports in expanded mode",
+      "description": "AL developers can open Power BI reports in expanded mode directly using an AL action, allowing users to view reports with full screen real estate.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 339.7,
+      "t_end": 359.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "report display",
+        "expanded mode",
+        "al action"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Prevent report change in context",
+      "description": "Developers can prevent users from changing which report is shown in a specific Business Central context by locking the selected element.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 339.7,
+      "t_end": 359.7,
+      "is_demoed": true,
+      "caveats": [
+        "Prevents user experimentation and navigation to different reports"
+      ],
+      "tags": [
+        "report control",
+        "user experience",
+        "lock element"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Control report page selection",
+      "description": "Developers can enable or prevent users from changing the report page when viewing multi-page reports through flag configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 339.7,
+      "t_end": 359.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "multi-page reports",
+        "report pages",
+        "user control",
+        "flags"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI Scorecards embedding",
+      "description": "Developers can now embed Power BI scorecards in Business Central, treating them like any other Power BI report or dashboard. Scorecards require a scorecard key and invite URL to display.",
+      "status": "ga",
+      "status_evidence_t": 359.7,
+      "status_evidence_quote": "we are taking advantage of the new powerbi scorecards which were uh released in the last few months and now you can also embed",
+      "status_evidence_verified": true,
+      "t_start": 359.7,
+      "t_end": 1041.8,
+      "is_demoed": true,
+      "caveats": [
+        "Scorecards were recently released by Power BI"
+      ],
+      "tags": [
+        "power bi scorecards",
+        "kpi tracking",
+        "metrics",
+        "scorecard embedding"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "No-code scorecard setup for end users",
+      "description": "End users can set up Power BI scorecards to track business KPIs without coding, pointing to KPIs defined in Power BI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 430.9,
+      "t_end": 470.9,
+      "is_demoed": false,
+      "caveats": [
+        "Requires KPIs to be pre-defined in Power BI",
+        "Metrics can come from Business Central or external systems"
+      ],
+      "tags": [
+        "no-code",
+        "scorecard",
+        "kpi",
+        "end-user"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI display element record type",
+      "description": "Developers use the PowerBI Display Element record type to configure which report to embed, setting element type, report ID, and embed URL from Power BI REST APIs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 470.9,
+      "t_end": 511.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Power BI REST API information"
+      ],
+      "tags": [
+        "record type",
+        "element configuration",
+        "api integration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Report visual embedding",
+      "description": "Developers can embed individual Power BI report visuals instead of entire reports, focusing on specific charts or visualizations. Developers can specify page ID and visual ID to display specific chart elements from a report.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 818.8,
+      "t_end": 879.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires page ID and visual ID from Power BI report"
+      ],
+      "tags": [
+        "report visual",
+        "visual hierarchy",
+        "single chart",
+        "focused display",
+        "power bi embedding"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Multi-page report support",
+      "description": "Developers can direct reports to specific report pages in multi-page reports and enable or disable page navigation for users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 731.7,
+      "t_end": 797.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "multi-page reports",
+        "page navigation",
+        "report control"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Visual Hierarchy Navigation",
+      "description": "Developers can traverse Power BI visual hierarchy including reports, pages, and individual visuals. Full flexibility available to point to specific visuals within a report structure.",
+      "status": "ga",
+      "status_evidence_t": 919.4,
+      "status_evidence_quote": "full flexibility into that hierarchy of visuals now available for for developers",
+      "status_evidence_verified": true,
+      "t_start": 899.4,
+      "t_end": 940,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "hierarchy",
+        "pages",
+        "visuals"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Query Analysis UI",
+      "description": "New analysis toggle button and UI added to query objects for data analysis. Queries can be embedded as actions on pages without users knowing they are queries, providing slice and dice data exploration capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1056.6,
+      "t_end": 1158.7,
+      "is_demoed": true,
+      "caveats": [
+        "previously queries were mainly used for performance tuning"
+      ],
+      "tags": [
+        "query",
+        "analysis",
+        "data exploration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Query Data Analysis with Pivot and Grouping",
+      "description": "Queries now support complete data analysis slice and dice experience including renaming, additional analysis tabs, grouping, and pivoting. Users can work with data from multiple joined tables with friendly display names.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1158.7,
+      "t_end": 1307.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "query",
+        "pivot",
+        "grouping",
+        "data analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel Layout Multiple Data Sheets",
+      "description": "New property for report objects enabling multiple worksheets in Excel layouts. Each data item gets its own worksheet, simplifying Power Query integration and enabling Power Pivot relationships without complex null areas.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1327.4,
+      "t_end": 1521.3,
+      "is_demoed": true,
+      "caveats": [
+        "previous Excel layouts did not handle parent child or overview detailed data types well"
+      ],
+      "tags": [
+        "excel",
+        "layout",
+        "multiple sheets",
+        "power query"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power Pivot Relationships in Excel",
+      "description": "Power Pivot can now model relationships between multiple data items from report objects when using multiple data sheets in Excel layouts. Enables creation of powerful interactive reports with related data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1429.8,
+      "t_end": 1510.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "power pivot",
+        "excel",
+        "relationships"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Teaching Tips on Queries and Reports",
+      "description": "Teaching tips now available on query objects and report request pages. Uses same AL code pattern as pages with about title, about text, and context-sensitive help page properties.",
+      "status": "ga",
+      "status_evidence_t": 1557.9,
+      "status_evidence_quote": "teaching tips is now available on queries and on reports",
+      "status_evidence_verified": true,
+      "t_start": 1537.6,
+      "t_end": 1618.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "teaching tips",
+        "help",
+        "documentation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Context-sensitive help for reports and queries",
+      "description": "Context-sensitive help now available on query objects and report request pages with teaching tips. Help will appear in help pane and Help Me feature when properly configured. Uses AboutTitle, AboutText, and ContextSensitiveHelpPage properties.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1577.8,
+      "t_end": 1652.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "context-sensitive help",
+        "queries",
+        "help pages",
+        "reports"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Usage Category for Queries",
+      "description": "New usage category block on queries. Setting it to Reports and Analysis will display queries in Tell Me help and Report Explorer in version 23.1 and later.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1618.5,
+      "t_end": 1638.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "usage category",
+        "queries",
+        "discoverability"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "BC Tech Repo code samples",
+      "description": "Code samples and documentation for Power BI integration with AL developers available on the BC Tech Repository at aka.ms/bc including parameter handling guidance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1652.4,
+      "t_end": 1685.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "code samples",
+        "documentation",
+        "al development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Power BI learning paths",
+      "description": "Free learning paths available on docs for AL developers to learn Power BI integration and get started with the Power BI tool.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1685.2,
+      "t_end": 1716.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "learning",
+        "training",
+        "al development"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Report layout resilience guidance",
+      "description": "Updated documentation including ways to make report layouts resilient to failures for both Excel and Power BI reporting experiences.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1716.8,
+      "t_end": 1737.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "power bi",
+        "report layouts",
+        "resilience"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel samples and guidance",
+      "description": "Guidance on defining data sets and layouts with various Excel techniques including table formulas, dynamic arrays, and Power Query at aka.ms/bc-excel-samples.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1737.2,
+      "t_end": 1777.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "data sets",
+        "layouts",
+        "samples"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI community resources",
+      "description": "Community-contributed resources including videos, PowerPoint decks, FAQ, and code samples for learning and presenting Power BI with Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1757.4,
+      "t_end": 1791.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "community",
+        "learning resources",
+        "documentation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Analytical requirements assessment approach",
+      "description": "Guidance for developers to shift from blindly building reports to understanding and supporting customer analytical requirements before choosing technology.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1812,
+      "t_end": 1887.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reporting strategy",
+        "customer needs",
+        "al development"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI for Business Central analytics",
+      "description": "Power BI positioned as the Microsoft tool of choice for business intelligence and analysis of Business Central data, enabling ad hoc analysis and self-service capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1887.7,
+      "t_end": 1948.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "business intelligence",
+        "analytics",
+        "self-service"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Queries as powerful analytical tool",
+      "description": "Queries positioned as powerful tools beyond performance analysis, enabling data mashup, ad hoc analysis, and self-service capabilities for end users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1928.1,
+      "t_end": 1968.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "queries",
+        "ad hoc analysis",
+        "self-service",
+        "data analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel data set approach",
+      "description": "Excel data sets positioned as alternative reporting approach where developers provide the data set and Excel-proficient users handle layout design.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1968.2,
+      "t_end": 2009.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "data sets",
+        "reporting strategy"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "PowerBI Display Element",
+      "t": 470.9
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts",
+      "t": 571.4
+    },
+    {
+      "type": "query",
+      "name": "item hero query",
+      "t": 1158.7
+    },
+    {
+      "type": "query",
+      "name": "analyze item Ledger",
+      "t": 1199.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kenny Ponan",
+      "confidence": "high"
+    },
+    {
+      "name": "Riku",
+      "confidence": "high"
+    },
+    {
+      "name": "Ken",
+      "confidence": "high"
+    },
+    {
+      "name": "Ero",
+      "confidence": "medium"
+    },
+    {
+      "name": "Enrio",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 91.3,
+      "text": "reporting in business Central means actually traditionally three things analytical reports processing only reports where you just use the request page as something to",
+      "why_it_matters": "Establishes the three foundational report types in Business Central, setting scope for the session on analytical reports.",
+      "check": "exact"
+    },
+    {
+      "t": 247.6,
+      "text": "we need or we want Core Business scenarios for business Central to have outof thee boox reporting analytics Simply Built in so no need",
+      "why_it_matters": "Defines the product vision to reduce dependency on external solutions by embedding analytics in the core product.",
+      "check": "exact"
+    },
+    {
+      "t": 267.7,
+      "text": "most analytics um users need can be covered with no code or low code Solutions",
+      "why_it_matters": "Indicates the strategy to make analytics accessible without requiring AL development.",
+      "check": "exact"
+    },
+    {
+      "t": 339.7,
+      "text": "you can open a report in expanded mode directly using an Al action for example so the user can use all the real estate",
+      "why_it_matters": "Highlights a new developer capability to provide full-screen report viewing for users.",
+      "check": "exact"
+    },
+    {
+      "t": 379.7,
+      "text": "prior to this power be beted was maybe more thought of as an end use experience where end users would embed their things but",
+      "why_it_matters": "Marks a shift from end-user-focused Power BI embedding to developer-controlled strategic content delivery.",
+      "check": "exact"
+    },
+    {
+      "t": 511.1,
+      "text": "you can have the show pains in expanded mode and show pains in normal mode Flags these are controlling whether the user can change",
+      "why_it_matters": "Explains developer control mechanisms for limiting user interactions with report filters and pages.",
+      "check": "exact"
+    },
+    {
+      "t": 680.1,
+      "text": "this enables you as a partner to prevent the user from Ming up with the powerbi setup",
+      "why_it_matters": "Demonstrates how developers can guard against accidental user misconfiguration of reports.",
+      "check": "exact"
+    },
+    {
+      "t": 839.4,
+      "text": "that is available from the current wave so instead you can have a report visual",
+      "why_it_matters": "Confirms report visual element is available in current release wave",
+      "check": "exact"
+    },
+    {
+      "t": 919.4,
+      "text": "full flexibility into that hierarchy of visuals now available for for developers",
+      "why_it_matters": "States that developers have complete flexibility to navigate and reference specific visuals in Power BI hierarchy",
+      "check": "exact"
+    },
+    {
+      "t": 1001.6,
+      "text": "powerbi recognizes scorecards as reports so you have to set it as report and then you need the scorecard key and the invite URL",
+      "why_it_matters": "Explains the technical requirement and minimal parameters needed to embed scorecards",
+      "check": "exact"
+    },
+    {
+      "t": 1118.5,
+      "text": "there's now a new this new analysis toggle uh button on uh on on a query and uh we also added support for run",
+      "why_it_matters": "Announces new analysis UI capability for queries with run object support",
+      "check": "exact"
+    },
+    {
+      "t": 1389,
+      "text": "on the report object as a developer you now have a new property called Excel layout multiple data sheets",
+      "why_it_matters": "Introduces new developer property for simplifying Excel layouts with multiple data items",
+      "check": "exact"
+    },
+    {
+      "t": 1557.9,
+      "text": "teaching tips is now available on queries and on reports",
+      "why_it_matters": "Announces parity with page help features for queries and reports",
+      "check": "exact"
+    },
+    {
+      "t": 1598.1,
+      "text": "if you click show help you would get the same information in the help pane and the context sensitive help page will now",
+      "why_it_matters": "Clarifies how context-sensitive help for reports and queries is delivered through the help pane and Tell Me interface.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1652.4,
+      "text": "the code that I showed you earlier is for the major part available on the BCT Tech Reaper which you can find at aka.",
+      "why_it_matters": "Provides resource location for developers to access code samples",
+      "check": "exact"
+    },
+    {
+      "t": 1887.7,
+      "text": "understand the customers analytical requirements stop just developing blindly reports start supporting their analytical needs",
+      "why_it_matters": "Presents a fundamental design philosophy shift for developers from building reports to understanding and supporting customer analytics needs.",
+      "check": "snapped"
+    },
+    {
+      "t": 1907.8,
+      "text": "powerbi is the Microsoft tool of choice for business analysis and in particular for business Central data",
+      "why_it_matters": "Establishes Power BI as the primary Microsoft tool recommended for analytics with Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 1928.1,
+      "text": "queries are not just for performance analysis anymore it's a powerful tool where you can mash up data give it to the customers they",
+      "why_it_matters": "Elevates queries beyond performance analysis to a primary solution for customer analytics and self-service reporting.",
+      "check": "exact"
+    },
+    {
+      "t": 1989,
+      "text": "instead of build me a report maybe the customer is just asking build me a report data set and when you do that",
+      "why_it_matters": "Proposes data set provision as an alternative to full report development, leveraging customer Excel expertise.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 60.2,
+      "kind": "preview",
+      "text": "a new feature that is even not yet in the release notes"
+    },
+    {
+      "t": 1618.5,
+      "kind": "subject-to-change",
+      "text": "in 23 um version 23.1 it will also show up in uh in help me in in sorry in tell me help and in report Explorer"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 19,
+    "quotes_dropped": 1,
+    "evidence_verified": 3,
+    "evidence_unverified": 22
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026446
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027449
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02539
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.035639000000000004
+    }
+  ]
+}

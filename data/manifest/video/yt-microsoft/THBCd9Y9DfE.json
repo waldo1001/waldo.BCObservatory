@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Reskill: Partner testimonials",
   "url": "https://www.youtube.com/watch?v=THBCd9Y9DfE",
-  "published_at": null,
+  "published_at": "2023-11-08T11:10:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:52:12.340Z",
+      "captions": "auto:en-orig",
+      "duration_s": 108
+    },
+    "captioned": {
+      "at": "2026-10-06T21:52:21.085Z",
+      "path": "data/captions/microsoft/THBCd9Y9DfE.vtt",
+      "vtt_sha256": "e0adaa6d18265a87c836c6c81496d78acbf862c3c7ee621f07fcb60b3ab69698",
+      "segments": 7,
+      "words": 296,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 519,
-    "duration_s": 109,
-    "via": "reconcile"
-  }
+    "duration_s": 108,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e0adaa6d18265a87c836c6c81496d78acbf862c3c7ee621f07fcb60b3ab69698"
 }

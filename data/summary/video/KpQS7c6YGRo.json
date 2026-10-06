@@ -1,0 +1,29 @@
+{
+  "video_id": "KpQS7c6YGRo",
+  "item_id": "video/yt-microsoft/KpQS7c6YGRo",
+  "summary": "Marketing text suggestions in Business Central is generally available as of the 2023 release wave 2 minor update. It is online (SaaS) only and supports eight languages. The video covers the GA UI changes, the feature toggles, the data movement consent and the new developer tools for copilot.",
+  "overview": "The video announces that marketing text suggestions, a copilot capability that drafts product descriptions from item attributes, has left preview and is generally available. It demos the item page fact box, prompt customization (attributes, tone, format, emphasis), regeneration with kept versions, likes and dislikes, and a redesigned edit dialog for manual editing.\n\nIt then covers rollout and setup: the update arrives in a wave 2 minor update, the feature expands from English to eight languages, and several toggles control availability. It ends by noting that the feature was rebuilt on new developer tools for copilot that partners can use for their own extensions.",
+  "key_points": [
+    "Marketing text suggestions is generally available, and the preview label is removed from the fact box.",
+    "It is available only in Business Central online (SaaS), not on-premises. All future copilot capabilities are also online only.",
+    "Supported languages are English, Spanish, Dutch, German, Italian, French, Danish and Japanese. Preview supported English only. More languages are to be announced later.",
+    "The feature key 'Create AI powered product descriptions with co-pilot' in Feature Management controls the fact box and UI. It is on by default for environments created in version 22 (2023 release wave 1) or later, and must be enabled manually for upgrades from earlier versions.",
+    "A toggle on the new 'Copilot and AI capabilities' page enables the generative capability. It is on by default and requires a supported user language.",
+    "Data movement consent is off by default and needed only if AI is not available in the user's region. An admin must give it.",
+    "Users can pick attributes, tone, format and emphasis before generating. They can keep, discard or regenerate suggestions, and the edit dialog allows manual editing."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "developer",
+    "partner",
+    "end user"
+  ],
+  "extraction_hash": "c42d17b526514d33b96cd8bde8e67ac81749401062ee938843429d21e09a5b07",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0194784
+  }
+}

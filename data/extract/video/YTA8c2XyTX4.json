@@ -1,0 +1,702 @@
+{
+  "video_id": "YTA8c2XyTX4",
+  "item_id": "video/yt-microsoft/YTA8c2XyTX4",
+  "title": "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2",
+  "duration_s": 1987,
+  "systems": [
+    "integration",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "dataverse integration",
+    "virtual tables",
+    "power pages",
+    "data synchronization",
+    "business events",
+    "external users",
+    "unlicensed users",
+    "power automate",
+    "dynamics 365 sales",
+    "microsoft entra",
+    "synthetic relations",
+    "permission sets"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Session Overview",
+      "t_start": 0,
+      "t_end": 99.4
+    },
+    {
+      "title": "Mission for Dataverse Integration",
+      "t_start": 99.4,
+      "t_end": 180.3
+    },
+    {
+      "title": "Dynamics 365 App Integration Mission",
+      "t_start": 180.3,
+      "t_end": 254.7
+    },
+    {
+      "title": "Complementary App Interactions: Data Sync, Virtual Tables, Data Change Events, Business Events",
+      "t_start": 254.7,
+      "t_end": 388.4
+    },
+    {
+      "title": "Improvements to Virtual Tables and Data Change Events",
+      "t_start": 388.4,
+      "t_end": 509
+    },
+    {
+      "title": "Business Events Enhancements and Telemetry",
+      "t_start": 509,
+      "t_end": 569.9
+    },
+    {
+      "title": "Power Pages Support via Virtual Tables: Scenarios and Licensing",
+      "t_start": 569.9,
+      "t_end": 731.4
+    },
+    {
+      "title": "Demo: Anonymous and Authenticated Access via Power Pages",
+      "t_start": 731.4,
+      "t_end": 909
+    },
+    {
+      "title": "Business Central Admin Processing and Order Fulfillment",
+      "t_start": 909,
+      "t_end": 1009.5
+    },
+    {
+      "title": "Multi-Scenario Access and Microsoft Entra App Users Setup",
+      "t_start": 1009.5,
+      "t_end": 1173.8
+    },
+    {
+      "title": "Permission Sets and Power Pages Table Permissions Configuration",
+      "t_start": 1173.8,
+      "t_end": 1372.6
+    },
+    {
+      "title": "Synthetic Relations and Power Automate Integration",
+      "t_start": 1372.6,
+      "t_end": 1579.1
+    },
+    {
+      "title": "Business Events Versioning, Troubleshooting, and Telemetry",
+      "t_start": 1579.1,
+      "t_end": 1987
+    }
+  ],
+  "features": [
+    {
+      "name": "Virtual Tables General Availability",
+      "description": "Virtual tables achieve general availability in November, enabling inbound interaction from Dataverse into Business Central using native API without replicating data.",
+      "status": "ga",
+      "status_evidence_t": 408.5,
+      "status_evidence_quote": "I'd like to announce the first uh time General availability or GA that's coming this November for our virtual tables",
+      "status_evidence_verified": true,
+      "t_start": 274.7,
+      "t_end": 314.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "virtual tables",
+        "dataverse",
+        "api",
+        "ga"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Power Pages Support via Virtual Tables",
+      "description": "Power Pages support for virtual tables enables access to Business Central data in three scenarios: anonymous access for external unlicensed users, authenticated access for external users after registration, and authenticated access for internal licensed users.",
+      "status": "preview",
+      "status_evidence_t": 408.5,
+      "status_evidence_quote": "a big feature that enabled our virtual tables which is the preview of Po Pages support that allow access to busy data from unlicensed",
+      "status_evidence_verified": true,
+      "t_start": 569.9,
+      "t_end": 650.4,
+      "is_demoed": true,
+      "caveats": [
+        "External users are those not in an employee relationship with the company",
+        "Internal users require Business Central licensing even when accessing via Power Pages"
+      ],
+      "tags": [
+        "power pages",
+        "external users",
+        "unlicensed users",
+        "virtual tables"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Data Change Events Performance Improvement",
+      "description": "Data change events processing capacity increased from 100 to 1000 events per 30 seconds delay, controlled by server settings API subscription max number of notification and API subscription delay time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 428.8,
+      "t_end": 468.9,
+      "is_demoed": false,
+      "caveats": [
+        "These numbers are controlled by server settings and can be customized via extension"
+      ],
+      "tags": [
+        "data change events",
+        "performance",
+        "server settings"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Business Events Filtering Support",
+      "description": "Business events now support filtering with version 1.0, enhanced troubleshooting with external event subscription and external event activity log system tables, and event telemetry sent to Application Insights.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 489,
+      "t_end": 549.9,
+      "is_demoed": false,
+      "caveats": [
+        "Troubleshooting UI pages coming in November 2023"
+      ],
+      "tags": [
+        "business events",
+        "filtering",
+        "troubleshooting",
+        "telemetry"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Data Synchronization",
+      "description": "Data sync replicates data changes whenever data is created, updated, or deleted between overlapping tables in Business Central and Dataverse, such as account table in Dataverse with vendor and customer tables in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 254.7,
+      "t_end": 274.7,
+      "is_demoed": false,
+      "caveats": [
+        "Improvements covered in part one of the session by Ivan"
+      ],
+      "tags": [
+        "data sync",
+        "replication",
+        "dataverse"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Business Events via Power Automate",
+      "description": "Business events enable outbound interaction from Business Central to trigger Power Automate flows using when an action is performed trigger on Dataverse, allowing notifications when business actions occur.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 347.2,
+      "t_end": 367.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "business events",
+        "power automate",
+        "outbound interaction"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Data Change Events via Power Automate",
+      "description": "Data change events enable outbound interaction from Business Central, triggering Power Automate flows when data is created, updated, or deleted using when a row is added modified or deleted trigger.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 327.1,
+      "t_end": 347.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "data change events",
+        "power automate",
+        "outbound interaction"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Anonymous external user access via Power Pages",
+      "description": "Enables unauthenticated users to register and browse products through Power Pages, creating native contact table entries in Dataverse without requiring a Business Central license.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 792.7,
+      "t_end": 909,
+      "is_demoed": true,
+      "caveats": [
+        "Limited read access to items and products only",
+        "No sales order creation capability in anonymous mode"
+      ],
+      "tags": [
+        "power pages",
+        "external users",
+        "dataverse",
+        "authentication"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Authenticated external user sales order creation",
+      "description": "Registered external users can authenticate and create sales orders through Power Pages, with orders immediately visible in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 877.4,
+      "t_end": 1009.5,
+      "is_demoed": true,
+      "caveats": [
+        "Requires prior registration",
+        "Sales orders created through Power Pages appear in BC for processing"
+      ],
+      "tags": [
+        "external users",
+        "power pages",
+        "sales orders",
+        "authentication"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Microsoft Entra app users for BC data access",
+      "description": "Three types of Entra app users enable different access patterns: virtual table impersonation, anonymous external access, and authenticated external access, each with configurable permission sets.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1079.7,
+      "t_end": 1173.8,
+      "is_demoed": true,
+      "caveats": [
+        "No permissions assigned by default",
+        "Admin must manually assign permission sets for activation",
+        "Wide permission scopes used in demo but narrow scope recommended for production"
+      ],
+      "tags": [
+        "microsoft entra",
+        "app users",
+        "permissions",
+        "external access"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Virtual table synthetic relations",
+      "description": "Allows native Dataverse tables (contacts) to be related to virtual tables (sales orders, invoices) using synthetic relations, enabling data filtering based on customer relationships.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1254.5,
+      "t_end": 1498.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires extending native contact table with new BC customer column",
+        "Synthetic relations need to be created separately for each virtual table",
+        "Dependent on Power Automate flow for data population"
+      ],
+      "tags": [
+        "virtual tables",
+        "synthetic relations",
+        "dataverse",
+        "data filtering"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Power Automate-driven customer record creation",
+      "description": "A Power Automate flow listens to contact table modifications and automatically creates corresponding customer records in Business Central under the specified company when new users register.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1372.6,
+      "t_end": 1498.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires data change events to be enabled on contact table",
+        "Flow must have access to default company setting for virtual tables"
+      ],
+      "tags": [
+        "power automate",
+        "business events",
+        "customer creation",
+        "dataverse"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Business Events Versioning Support",
+      "description": "Business events now support versioning which allows for different event payload versions. The demo shows version 1.0 which includes a new web client URL field compared to version 0.0 that only had an API URL.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1579.1,
+      "t_end": 1750,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "business events",
+        "versioning",
+        "event payloads",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "External Event Subscription System Table",
+      "description": "A system table called external event subscription that tracks all business event subscriptions created in the environment, showing subscription details and when they were created.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1750,
+      "t_end": 1830,
+      "is_demoed": true,
+      "caveats": [
+        "UI page for correlating subscriptions with activity log coming in November"
+      ],
+      "tags": [
+        "system tables",
+        "troubleshooting",
+        "event subscription"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Activity Lock System Table",
+      "description": "A system table that tracks all business events being sent, showing when events are triggered and providing historical data for troubleshooting event delivery.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1770.2,
+      "t_end": 1850,
+      "is_demoed": true,
+      "caveats": [
+        "UI page for better visualization coming in November"
+      ],
+      "tags": [
+        "system tables",
+        "troubleshooting",
+        "activity tracking"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Partner Telemetry for Business Events",
+      "description": "Business event subscription and notification data is sent to Application Insights where partners can query and correlate event data with other business data for monitoring and troubleshooting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1850.2,
+      "t_end": 1940,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "application insights",
+        "partner monitoring"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Role-based Power Pages table permissions",
+      "description": "Power Pages portal supports granular table permission configuration with different access levels (read, create, update) for various user types (anonymous, authenticated, administrator) at the table level.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1254.5,
+      "t_end": 1352.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires separate configuration for each table",
+        "Synthetic relations recommended to narrow data access further"
+      ],
+      "tags": [
+        "power pages",
+        "permissions",
+        "table access",
+        "security"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "account table",
+      "t": 274.7
+    },
+    {
+      "type": "table",
+      "name": "vendor",
+      "t": 274.7
+    },
+    {
+      "type": "table",
+      "name": "customer",
+      "t": 274.7
+    },
+    {
+      "type": "table",
+      "name": "items table",
+      "t": 752
+    },
+    {
+      "type": "table",
+      "name": "contact table",
+      "t": 815.5
+    },
+    {
+      "type": "table",
+      "name": "sales order table",
+      "t": 856.9
+    },
+    {
+      "type": "table",
+      "name": "external event subscription",
+      "t": 529.6
+    },
+    {
+      "type": "table",
+      "name": "external event activity loog",
+      "t": 529.6
+    },
+    {
+      "type": "table",
+      "name": "contact",
+      "t": 815.5
+    },
+    {
+      "type": "table",
+      "name": "sales order",
+      "t": 856.9
+    },
+    {
+      "type": "table",
+      "name": "sales invoice",
+      "t": 1039.1
+    },
+    {
+      "type": "table",
+      "name": "item",
+      "t": 1271.1
+    },
+    {
+      "type": "table",
+      "name": "D 365 BC item",
+      "t": 1271.1
+    },
+    {
+      "type": "table",
+      "name": "BC customer",
+      "t": 1412.9
+    },
+    {
+      "type": "table",
+      "name": "activity lock",
+      "t": 1789.9
+    },
+    {
+      "type": "table",
+      "name": "posted sales invoice",
+      "t": 1747.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Sandy vinaro",
+      "confidence": "high"
+    },
+    {
+      "name": "Ivan kage",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 79.4,
+      "text": "the mission for data verse integration is to offer extensive Fabric or tools to integrate Dynamics 3 city5 business Central online with other first",
+      "why_it_matters": "Defines the core mission of Dataverse integration - enabling integration with both first-party and third-party applications.",
+      "check": "exact"
+    },
+    {
+      "t": 120,
+      "text": "extensive means we want to cover all type of app or system instructions such as replication or synchronization or what we used to call",
+      "why_it_matters": "Clarifies the breadth of integration capabilities including data sync, virtual tables, and data change events.",
+      "check": "exact"
+    },
+    {
+      "t": 408.5,
+      "text": "I'd like to announce the first uh time General availability or GA that's coming this November for our virtual tables and a big feature",
+      "why_it_matters": "Announces virtual tables GA in November with Power Pages support in preview - a major capability for external user access.",
+      "check": "exact"
+    },
+    {
+      "t": 428.8,
+      "text": "we increase the amount of uh event can be processed within 30 seconds delay time it used to be 100 data change event now",
+      "why_it_matters": "Quantifies significant performance improvement in data change events processing - 10x increase.",
+      "check": "exact"
+    },
+    {
+      "t": 569.9,
+      "text": "power pag support of V fre tables is actually enable access to BC data in three main scenarios the first scenario is anonymous access",
+      "why_it_matters": "Highlights a major new capability allowing unlicensed external users to access Business Central data without authentication.",
+      "check": "exact"
+    },
+    {
+      "t": 670.7,
+      "text": "external user are those user that not in an employee like relationship with your company with your um with the company within business Central",
+      "why_it_matters": "Defines the licensing distinction between external and internal users - critical for understanding Power Pages access scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 815.5,
+      "text": "when I'm registering I essentially uh creating a new entry in the native contact table inside data verse so this is the registration page",
+      "why_it_matters": "Explains the foundational architecture of how external user registration integrates with Dataverse native tables",
+      "check": "exact"
+    },
+    {
+      "t": 1092.5,
+      "text": "there are three Microsoft entra app user created for this scenario the first one is uh already exist before to support uh uh Business",
+      "why_it_matters": "Clarifies that three distinct Entra app users enable different access patterns for virtual table impersonation and external access",
+      "check": "exact"
+    },
+    {
+      "t": 1153.8,
+      "text": "admin BC admin actually have to assign permission set for this Microsoft enter app user to make sure that only only relevant uh BC",
+      "why_it_matters": "Establishes that default state is no permissions assigned and admins must explicitly configure access for each user type",
+      "check": "exact"
+    },
+    {
+      "t": 1173.8,
+      "text": "anonymous uh user to read all tables in bc but in practicality when you actually use this uh feature you probably want",
+      "why_it_matters": "Indicates best practice guidance that production implementations should use narrower permission scopes than the demo setup",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1352.6,
+      "text": "this is actually um um the concept that we introduced with virtual table where you can actually relate native table with a virtual table",
+      "why_it_matters": "Describes the synthetic relations capability as a new feature enabling native-to-virtual table relationships for data filtering",
+      "check": "exact"
+    },
+    {
+      "t": 1458.1,
+      "text": "the trigger is essentially a data cut event it will listen to the contact table being modified remember when I register as an anonymous",
+      "why_it_matters": "Explains how Power Automate integrates with Dataverse events to automate customer record creation upon registration",
+      "check": "exact"
+    },
+    {
+      "t": 1579.1,
+      "text": "there's a three Improvement in business events right there is a versioning support uh there is uh terrible shooting using system table and UI",
+      "why_it_matters": "Highlights three key improvements to business events including versioning, troubleshooting capabilities, and telemetry support",
+      "check": "snapped"
+    },
+    {
+      "t": 1579.1,
+      "text": "there is a versioning support uh there is uh terrible shooting using system table and UI page and then uh partner Telemetry",
+      "why_it_matters": "Summarizes the three main improvements to business events being demonstrated",
+      "check": "exact"
+    },
+    {
+      "t": 1686.9,
+      "text": "the difference between version 1.0 and version 0.0 is uh the payot has uh this new web client URL where you can actually uh",
+      "why_it_matters": "Explains the specific improvement in the versioning system - new web client URL enables direct navigation to documents",
+      "check": "exact"
+    },
+    {
+      "t": 1770.2,
+      "text": "the system tables that support troubleshooting for business event the first um uh table is the external event subscription you can see there's a",
+      "why_it_matters": "Introduces system tables available for partners to troubleshoot business events",
+      "check": "exact"
+    },
+    {
+      "t": 1830.2,
+      "text": "this is currently still only a system table but uh in pretty soon we'll provide a UI page that you can actually correlate this",
+      "why_it_matters": "Announces upcoming UI page for better visualization scheduled for November",
+      "check": "exact"
+    },
+    {
+      "t": 1850.2,
+      "text": "the partner Telemetry so in here I'm going to show to I'm going to go to my environment I just want to show you",
+      "why_it_matters": "Demonstrates how partners can configure telemetry for business events in production environments",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 408.5,
+      "kind": "preview",
+      "text": "the preview of Po Pages support that allow access to busy data from unlicensed user"
+    },
+    {
+      "t": 489,
+      "kind": "preview",
+      "text": "business event is still in preview and we are targeting a g a in the um in the release after this one"
+    },
+    {
+      "t": 1173.8,
+      "kind": "subject-to-change",
+      "text": "this is just for a demo purposes in the real practicality you probably should provide a very very narrow uh written and right access"
+    },
+    {
+      "t": 1234.4,
+      "kind": "other",
+      "text": "by default none of this uh app user has any permission set so by default it's not enable"
+    },
+    {
+      "t": 1830.2,
+      "kind": "coming-later",
+      "text": "UI page that you can actually correlate this um uh external subscription with the activity lock in one U nice UI page uh that's coming in this November"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 18,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 13
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026615
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027719
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.018297
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028207000000000003
+    }
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "video_id": "YTA8c2XyTX4",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 19.1,
+      "end": 39.1,
+      "text": "hello everyone uh welcome to Dynamics 365 business Central launch event my name is Sandy vinaro I'm a principal product manager for a business Central and today I would like to show what's new in data verse and Dynamics 365 app integration part two uh as you probably"
+    },
+    {
+      "t": 39.1,
+      "end": 59.2,
+      "text": "noticed already part one has been presented by my colleague Ivan kage and this is actually a a buildup to that uh to that session so the agenda for today's session is like first I will tell you the different mission for uh data verse integration and for Dynamics City 5 app integration and then I will"
+    },
+    {
+      "t": 59.2,
+      "end": 79.4,
+      "text": "um I will talk about the complimentary app or system interaction that form the fabric of data verse integration and what are the key Improvement for this uh complimentary app interaction that we plan for this release and one of this Improvement is actually a major one that have been requested by many uh partners and customer which is power"
+    },
+    {
+      "t": 79.4,
+      "end": 99.4,
+      "text": "page support via virtual tables and at the end we I will show you the demo of all this Improvement all right let's start with the mission first the mission for data verse integration is to offer extensive Fabric or tools to integrate Dynamics 3 city5 business Central"
+    },
+    {
+      "t": 99.4,
+      "end": 120,
+      "text": "online with other first and thirdparty business app so not only for other Dynamics uh business app but also for other third-party Partners business app that's run on dataverse promoting Better Together scenarios through wider and deeper interaction with business Central and those apps what is extensive"
+    },
+    {
+      "t": 120,
+      "end": 140.2,
+      "text": "means extensive means we want to cover all type of app or system instructions such as replication or synchronization or what we used to call we still calling data sync virtualization or virtual tables uh change notification or what we call data cut events uh data created updated"
+    },
+    {
+      "t": 140.2,
+      "end": 160.2,
+      "text": "or deleted events action notification or what we call business events right better togethers means business Central and all those first and third party business apps should be integrated in such a way that they enhance each other fulfilling the proverbial 1 + 1 equal 3 when used together in complex"
+    },
+    {
+      "t": 160.2,
+      "end": 180.3,
+      "text": "business processes for example a business process that uh often um uh used with this integration are lead opportunity quot or order to cash and wider and deeper means the integration should increase the breadth and depth of the interaction respectively leveraging more and more types and degrees"
+    },
+    {
+      "t": 180.3,
+      "end": 200.5,
+      "text": "of interaction between B Central and those apps such that the fabric of inter integration are well intertwined together and increase the stickiness of those apps all right now the emission for Dynamics 35 app integration is actually build up on the data verse integration Mission essentially to implement the optimal approach"
+    },
+    {
+      "t": 200.5,
+      "end": 220.5,
+      "text": "to integrate Miss Center online with first party Dynamics 365 apps using the fabric and tools of data verse integration that I mentioned before the optimal means we want to achieve maximum business impact with minimal integration effort prioritizing in demand apps complementary to"
+    },
+    {
+      "t": 220.5,
+      "end": 240.8,
+      "text": "Business Center for example we have started integrating with the dynamic 365 sales and we are considering to integrate next the field service and customer service and marketing Etc so we we want to enable natural business process hand over such that like for example uh when you're dealing with code you should be doing doing um processing"
+    },
+    {
+      "t": 240.8,
+      "end": 254.7,
+      "text": "code using celles and then when you're dealing with invoice you hand over to business Central so you make sure that um uh this um natural Handover avoid functionality overlap whenever possible within those"
+    },
+    {
+      "t": 254.7,
+      "end": 274.7,
+      "text": "apps so let me talk about the complementary app interaction that form the fabric of data verse integration let me just uh give you a review first the data sync that actually replicate data changes whenever data is created updated deleted between overlapping tables in business Central and data verse for example in this"
+    },
+    {
+      "t": 274.7,
+      "end": 294.7,
+      "text": "picture the overlapping tables are account table native account table in datae with vendor and customer table in business Central so you can actually SN those uh those tables together using data sync right the second uh interaction is a virtual tables that actually enable inbound interaction from data"
+    },
+    {
+      "t": 294.7,
+      "end": 314.9,
+      "text": "ver into business Central using business Central cruit API without duplicating without replicating data so that's another um um interaction that's enabled um uh through this integration right so essentially you can actually um you can use data syn and virtual tables uh complementary to each other if you have a"
+    },
+    {
+      "t": 314.9,
+      "end": 327.1,
+      "text": "big r only table you don't really need to sync and copy all the data into dataverse you can actually just use Virtual table Sasha dataverse can actually read that data from business Central without duplicating"
+    },
+    {
+      "t": 327.1,
+      "end": 347.2,
+      "text": "it the third interaction top is uh what we call data cut events that enable outburn interaction so basically from business Central to to shout to data ver saying like hey there's something Chang in me so if there whenever there's a data changes that are being created updated or deleted business centrer can actually trigger a power automate"
+    },
+    {
+      "t": 347.2,
+      "end": 367.4,
+      "text": "flows using when a row is added modified or deleted trigger so that's actually um uh uh enabling the integration uh outbound integration from business Central into a um data ver and finally another outline interaction is when business Central can tell dat that has an action perform on their"
+    },
+    {
+      "t": 367.4,
+      "end": 388.4,
+      "text": "data or on anything anywhere on the on the app itself so in this case um it's called business event and um uh this business event can actually trigger a power automate flows that using a when an action is performed trigger on data vers site so the Improvement on those four complimentary app interaction that come with this release are for"
+    },
+    {
+      "t": 388.4,
+      "end": 408.5,
+      "text": "example on data SNS uh I will refer you to the the first part of the session that was presented by my uh colleagu Ivan colleage which is um the session is called the same same like this session what's new in data verse and Dynamics uh 365 app integration part one um my uh my colleague will talk about all"
+    },
+    {
+      "t": 408.5,
+      "end": 428.8,
+      "text": "the Improvement in the data synchronization area and on the virtual tables essentially I'd like to announce the first uh time General availability or GA that's coming this November for our virtual tables and a big feature that enabled our virtual tables which is the preview of Po Pages support"
+    },
+    {
+      "t": 428.8,
+      "end": 448.8,
+      "text": "that allow access to busy data from unlicensed user I will talk more about it and I will demo that uh that features right later and Improvement on the data cut events essentially we increase the amount of uh event can be processed within 30 seconds delay time it used to be 100 data change event now we can actually"
+    },
+    {
+      "t": 448.8,
+      "end": 468.9,
+      "text": "process one 1,000 and um to be sent a separate notification right these numbers the number of notification and delay time is actually controlled by server settings and the server setting in Business Center are called API subscription max number of notification and API subscription delay time the server settings can actually"
+    },
+    {
+      "t": 468.9,
+      "end": 489,
+      "text": "be changed using your own extension so if you want to increase the number of notification or reduce the time of delay you can actually use um uh use your extension tool subscribe or listen to the on get maximum number of notification and on get delay time events this event is triggered when the"
+    },
+    {
+      "t": 489,
+      "end": 509,
+      "text": "base app of business Central try to read that server settings when that happen your extension can actually intercept and um overwrite that value the Devol value of 130 seconds into any value you want all right and finally on business event we have three Improvement business event is still in preview and we are targeting a"
+    },
+    {
+      "t": 509,
+      "end": 529.6,
+      "text": "g a in the um in the release after this one right now uh we actually adding Fring Fring support when we released version 1.0 of events right now previously we released version zero now we have version 1.0 and we also um um introduced a troubleshooting"
+    },
+    {
+      "t": 529.6,
+      "end": 549.9,
+      "text": "support that U enabled by uh two system tables uh external event subscription and external event activity loog that also come with the uip page Pages uh that's coming in um this this November uh 20 2023 and finally we also send all those events um to partner Telemetry"
+    },
+    {
+      "t": 549.9,
+      "end": 569.9,
+      "text": "to to application Insight such that you can actually um query uh all your the events that generated that um um um uh from business Central okay and that's also uh targeted for November uh 23 so I'll show all those demo also at the end all right so let's talk about the big feature that"
+    },
+    {
+      "t": 569.9,
+      "end": 590.2,
+      "text": "we announced for this release which is power pag support via virtual tables right so power pag support of V fre tables is actually enable access to BC data in three main scenarios the first scenario is anonymous access for external external or unlicensed user without signing"
+    },
+    {
+      "t": 590.2,
+      "end": 610.3,
+      "text": "in so this is the first time that we are actually allowing um non-licensed BC user external user like for example a user from your C customer or your vendors to actually access BC data without signing in that's the first scenario the second scenario is like if when you allow those user those uh external unlicensed"
+    },
+    {
+      "t": 610.3,
+      "end": 630.4,
+      "text": "user to sign in so then then the scenario become authenticated access for those user after registration and signing in so that's also um um a way for us to show related relevant data to those authenticated user that's those those are the two new new scenarios that's"
+    },
+    {
+      "t": 630.4,
+      "end": 650.4,
+      "text": "introduced with the power Pages access the third scenario is essentially a scenario that you already have for example essentially a virtual table access this is authenticated access for internal or license user you already internal or licensed user can only can they can already access BC data using power apps like"
+    },
+    {
+      "t": 650.4,
+      "end": 670.7,
+      "text": "model driven app or using power automate right so now we just extending that functionality of Rao tables to allow internal or BC license user to access uh BC data through Power pages right so you might ask what is the difference uh the the how how do you differentiate for internal"
+    },
+    {
+      "t": 670.7,
+      "end": 691,
+      "text": "from external users right so this is what I'm I'm taking from the dynamic Strat 5 licensing guide essentially I'm just highlighting all the term that are important essentially external user are those user that not in an employee like relationship with your company with your um with the company within business Central right and those are external"
+    },
+    {
+      "t": 691,
+      "end": 711.3,
+      "text": "users so they they don't need to be a li licensed user and they can access busy data through Power Pages internal user are ently those users that actually employee or user are providing business processes on behalf of you or your AV avate those user are internal user and they actually require BC license"
+    },
+    {
+      "t": 711.3,
+      "end": 731.4,
+      "text": "even if they access it from Power pages right and there's a illustration for our licensing guide to differentiate what is external and internal for example in this case you can see that external users not supposed to perform business processes on behalf of your organization while um for internal users are all license"
+    },
+    {
+      "t": 731.4,
+      "end": 752,
+      "text": "users that actually performing business processes and that's it so I think it's time for demo so let's start with the demo of the power Pages support with the virtual tables right so we have created a demo site which is called um well it's called temp site right and I have open already I have opened this um uh this power Pages portal in here"
+    },
+    {
+      "t": 752,
+      "end": 772.5,
+      "text": "you can see this is for example the power pages and what I will show you is the first the anonymous access of of external user in this case the external user wants to see items for sale from chronis USA uh Incorporated right so what I allow in this uh Power pages is actually access to the items table for BC"
+    },
+    {
+      "t": 772.5,
+      "end": 792.7,
+      "text": "you can see here if I click on items without even uh signing in Anonymous user like myself can start seeing what are the item for sale from kronis USA right so that is a Anonymous access for of external user now I will show you authenticated access of external user so let's say"
+    },
+    {
+      "t": 792.7,
+      "end": 807.2,
+      "text": "I'm interested to buy one of these uh product so what I need to do is I need to register so I will do that and click on register I'll put let's say de demo user"
+    },
+    {
+      "t": 807.2,
+      "end": 815.5,
+      "text": "4 at life.com let me just confirm my"
+    },
+    {
+      "t": 815.5,
+      "end": 836.5,
+      "text": "password okay so when I'm registering I essentially uh creating a new entry in the native contact table inside data verse so this is the registration page so I need to put my um details as a new authenticated user external user user"
+    },
+    {
+      "t": 836.5,
+      "end": 856.9,
+      "text": "for and I have to put a organic ation name so this is essentially how I register the name of the customer for Kronos USA so in this case let's say the name of the customer is demo customer 4 okay so and then I'll just update now I'm actually logging in as a demo"
+    },
+    {
+      "t": 856.9,
+      "end": 877.4,
+      "text": "user 4 and actually register a new customer for Kronos US USA which is um uh demo customer 4 right now not only I can also see the uh the it table but I can now see the sales order table you can see that like right now I have no sales order because I just"
+    },
+    {
+      "t": 877.4,
+      "end": 893.4,
+      "text": "now register so I want to create a new order of one of those uh item right so I'm going to click on a new sales order and you can see I can actually create a new order let me pick one of the"
+    },
+    {
+      "t": 893.4,
+      "end": 905.6,
+      "text": "product let's see uh Paris guest chair select uh put quantity1 uh"
+    },
+    {
+      "t": 909,
+      "end": 930,
+      "text": "submit okay so now I'm submitting a sales order you can see in the power Pages now I have access the authenticated um external user which is demo user 4 have a sales order created uh through Power Pages now I'm going to log out and I'm going to sign in as a third scenario which is actually a BC"
+    },
+    {
+      "t": 930,
+      "end": 950.2,
+      "text": "business centrer admin user um that will process that sales order and uh ship an invoice it so I'm going to sign in as a asure um um Microsoft entra ID right I just click on it and I'm signing in as a licensed BC user now I can see all the sales order from many many customer and"
+    },
+    {
+      "t": 950.2,
+      "end": 970.2,
+      "text": "uh posted sales invoice for also for many customer so now I'm an authenticated internal users and you can see see here now I see I see there sales order from adatom from new customer 2 and also from the demo customer 4 which is the one that uh I newly created with um with the power pages right so what I"
+    },
+    {
+      "t": 970.2,
+      "end": 994,
+      "text": "want to do is now I'm going to ship an invoice this one okay you can see uh the the new the new external user actually submit an order for Paris guest chair so I'm going to ship an invoice it as a BC uh sales te or internal user"
+    },
+    {
+      "t": 997.8,
+      "end": 1009.5,
+      "text": "right and you can see if I um press F5 refresh this sales order will disappear because it's converted into a posted sales"
+    },
+    {
+      "t": 1009.5,
+      "end": 1031.2,
+      "text": "invoice you see so now all I need to do is like I need to log out and I will let the same external user demo user for to sign to sign in and see what happened to his sales older and what happened uh if they um uh if he actually receive uh receive a a posted sales invoice so let me sign"
+    },
+    {
+      "t": 1031.2,
+      "end": 1037.7,
+      "text": "out and I'm going to sign in as a demo user"
+    },
+    {
+      "t": 1039.1,
+      "end": 1059.4,
+      "text": "4 and you can see here it end up on the on the sales order page and the sales order that I submitted is gone already so all I need to do is I check on the sales invoice and I can see that there's a new posted sales invoice you see so that's uh that's essentially show you three different access scenario using power Pages Anonymous"
+    },
+    {
+      "t": 1059.4,
+      "end": 1079.7,
+      "text": "access of external user authenticated access of external user and authenticated access of internal user so let me show you how we actually did this demo and uh there'll be a more documentation in detail how to you can actually achieve this first I want to show you how we actually achieve anonymous uh and authenticated"
+    },
+    {
+      "t": 1079.7,
+      "end": 1092.5,
+      "text": "access for external user so I want to show you the uh business Central page which is the the one that has uh Microsoft entra app"
+    },
+    {
+      "t": 1092.5,
+      "end": 1112.7,
+      "text": "users and you can see here there are three Microsoft entra app user created for this scenario the first one is uh already exist before to support uh uh Business Center of virtual tables so this is actually uh it actually access BC data impersonating authenticated"
+    },
+    {
+      "t": 1112.7,
+      "end": 1133,
+      "text": "internal user with BC license from data verse so before when you access BC data using um uh model driven app or power automate this is the uh entra Microsoft entra app user use to impersonate right the the two new Microsoft entra app user that we created is actually to to"
+    },
+    {
+      "t": 1133,
+      "end": 1153.8,
+      "text": "enable uh Anonymous external user access and for authenticated um uh uh access for external user and you can see in here in this in this demo when I click on this uh user you can see it start um um with this user actually have an entitlement"
+    },
+    {
+      "t": 1153.8,
+      "end": 1173.8,
+      "text": "to access BC data but has no permission sets so admin BC admin actually have to assign permission set for this Microsoft enter app user to make sure that only only relevant uh BC data are accessible by Anonymous external user so in this case for this demo we give a um a"
+    },
+    {
+      "t": 1173.8,
+      "end": 1194.1,
+      "text": "wide scope of permission for example for this Anonymous access we provide d365 Automation and d365 read so essentially we allowing Anonymous uh user to read all tables in BC but in practicality when you actually use this uh feature you probably want to narrow the scope and create a custom"
+    },
+    {
+      "t": 1194.1,
+      "end": 1214.2,
+      "text": "permission set to make sure that the only read relevant relevant table right so that is the uh Microsoft entra app user for anonymous access and the second one is the Microsoft entra app user for authenticated access in this one you want to make sure that once the uh external user are signed in and uh they"
+    },
+    {
+      "t": 1214.2,
+      "end": 1234.4,
+      "text": "want to uh for example post a sales order or make some changes then you should probably provide a read and write access so in this case the permission is d335 Automation and d335 business full access obviously this is too wide scope uh this is just for a demo purposes in the real practicality you probably should provide a very"
+    },
+    {
+      "t": 1234.4,
+      "end": 1254.5,
+      "text": "very narrow uh written and right access to only a certain relevant table for this uh uh external user when they sign in all right so that those are the permission set that admin have to set up by default none of this uh app user has any permission set so by default it's not enable and then uh what you need"
+    },
+    {
+      "t": 1254.5,
+      "end": 1271.1,
+      "text": "to do also when you design the the power pages you actually need to provide uh for example in the pages um let me see the setup table permission so this is on the site uh the data ver site on the power Pages"
+    },
+    {
+      "t": 1271.1,
+      "end": 1292,
+      "text": "site and you can see the table permission for this uh uh portal right I will want to show you the one that for anonymous access for example here read all items you can see here for a real item is like actually it's enabling virtual table which is uh D 365 BC item"
+    },
+    {
+      "t": 1292,
+      "end": 1312.2,
+      "text": "which is a virtual table of item BC item table in data verse and a global access mean Anonymous user can actually access all the the rows in this uh table but only read and I'm actually uh assigning this um permission to all type all three type of user so basically Anonymous user"
+    },
+    {
+      "t": 1312.2,
+      "end": 1332.4,
+      "text": "authenticated external user Anonymous external user and also authenticated uh administrator or internal user itself so they only read only and what I want to show you is actually access for sales order table and the uh sales invoice table you can see here for example in here you can see this"
+    },
+    {
+      "t": 1332.4,
+      "end": 1352.6,
+      "text": "H see and create orders in here I want to actually uh provide access for um only for a certain contacts that actually register and only to show tables related to the customer created by the contact and in order to do that you you you achieve this through a synthetic relation so we actually set up a synthetic"
+    },
+    {
+      "t": 1352.6,
+      "end": 1372.6,
+      "text": "relation between contact native table with sales order virtual table I will show this is actually um um the concept that we introduced with virtual table where you can actually relate native table with a virtual table and show only relevant um uh records from the virtual table related to the uh rows in the native"
+    },
+    {
+      "t": 1372.6,
+      "end": 1392.7,
+      "text": "table okay so in here there's um a relationship contact to sales order and the same thing uh and this is apply to only authenticated user right and also the same thing for invoice table so so uh external user uh signing in they can see the invoices posted for them and also here we have to create"
+    },
+    {
+      "t": 1392.7,
+      "end": 1412.9,
+      "text": "a synthetic relation between contact native table with the saleson voice um virtual table and how do we actually create this um synthetic relation is first we actually need to make sure to extend the contact table because the native contact table has no idea of what is a BC customer is right so we actually what we"
+    },
+    {
+      "t": 1412.9,
+      "end": 1433,
+      "text": "do in here I'll show you so essentially on the contact table we add a new column that we call BC customer and this new column is populated when a new Anonymous user registered and sign sign up in a portal and remember when I uh when this Anonymous demo user for uh sign up and"
+    },
+    {
+      "t": 1433,
+      "end": 1449.2,
+      "text": "register it puts the organization name right and that organization name become a DC customer name and put into this uh column and the way we do that is we uh we use that using power automate so I will show you the power automate to do"
+    },
+    {
+      "t": 1449.2,
+      "end": 1457.9,
+      "text": "that let's see here you go add a new BC customer from Power page contact"
+    },
+    {
+      "t": 1458.1,
+      "end": 1478.2,
+      "text": "registration you can see here the trigger is essentially a data cut event it will listen to the contact table being modified remember when I register as an anonymous user I put the or organization name which is a demo customer 4 and that's actually what it listened to right when that is triggered what I did is like uh the first thing in"
+    },
+    {
+      "t": 1478.2,
+      "end": 1498.4,
+      "text": "that uh in this flow is to get what is the default company setting for virtual tables in this case uh kronis USA so we'll get kronis us USA in this uh in this step and then essentially add the new customer entered by this uh Anonymous user into under the kronis USA company"
+    },
+    {
+      "t": 1498.4,
+      "end": 1518.7,
+      "text": "which is adding a new busy customer right and then after you add a new customer you get the customer ID and you put the ID in the column uh the new column BC customer column of the contact field when you do that then you can actually build a synthetic relation within native contact table with uh sales order table"
+    },
+    {
+      "t": 1518.7,
+      "end": 1538.7,
+      "text": "virtual or a sales invoice table virtual in data verse so let's see uh uh let me just show you the synthetic relation for example here uh the synthatic relation is dynamic 365 BC contact to sales order when I click on it you can see this synthetic relation is connecting native"
+    },
+    {
+      "t": 1538.7,
+      "end": 1558.9,
+      "text": "contact table to the sales order uh BC table in data verse it using the customer key and then you can see the mapping is a this is basically the new column or field that I create in the contact table related map to the customer ID in the sales order um uh table right so that way you"
+    },
+    {
+      "t": 1558.9,
+      "end": 1579.1,
+      "text": "you only show say older related to that BC customer when whenever the anonymous uh external user sign in and the same thing uh we do the same thing for the sales info syntactic relation which is the same thing here you can see contact native to sales invoice and the mapping is the same from BC customer"
+    },
+    {
+      "t": 1579.1,
+      "end": 1599.4,
+      "text": "field to the customer ID in the sales invoice table and that is for the syntactic corelation now what I want to show you is essentially remember that uh there's a three Improvement in business events right there is a versioning support uh there is uh terrible shooting using"
+    },
+    {
+      "t": 1599.4,
+      "end": 1615.7,
+      "text": "system table and UI page and then uh partner Telemetry where we send data of business business event subscription not notification into into app Insight so what I I I did is I actually already um I already"
+    },
+    {
+      "t": 1615.7,
+      "end": 1636.4,
+      "text": "created flow that um will highlight this event and actually um remember in My Demo I created sales invoice right uh so there's um there's two flow that actually listen to sales invoice posted so there's one uh sales invoice posted notification old which is an old version"
+    },
+    {
+      "t": 1636.4,
+      "end": 1656.5,
+      "text": "in fact actually I can just I can show you it's actually being triggered just now you can see 11 minutes ago 11 minutes ago when um I um Turned that demo user for sales order into posted sales invoice this flow is triggered and you can see the in this one is still using the old"
+    },
+    {
+      "t": 1656.5,
+      "end": 1676.5,
+      "text": "version of the the old version of the of the event which has this payload uh there's only one URL which is the API URL but I also have another flow that's showing um a new payload that's showing um uh uh web client URL that you can actually go so I will I will go"
+    },
+    {
+      "t": 1676.5,
+      "end": 1686.9,
+      "text": "there let me go back and this is the new one in fact I will just show you what's the versioning look"
+    },
+    {
+      "t": 1686.9,
+      "end": 1707.1,
+      "text": "like so in here you can see that here uh I listened um to sales invoice Po and you can see this new version 1.0 right the difference between version 1.0 and version 0.0 is uh the payot has uh this new web client URL where you can actually uh open a page in the in the"
+    },
+    {
+      "t": 1707.1,
+      "end": 1727.5,
+      "text": "in the app okay so in this one uh you can see it's also um it's also triggered 11 minutes ago or 13 minutes ago right and if you click on it you can see the payload is different now the pilad not only has the uh API"
+    },
+    {
+      "t": 1727.5,
+      "end": 1747.6,
+      "text": "URL but it's also have the web client URL so if this web CLI URL you put it in the in the uh browser you can actually go straight into that invoice that invoice posted for demo user 4 for a demo"
+    },
+    {
+      "t": 1747.6,
+      "end": 1770.2,
+      "text": "customer 4 that um uh I did in with power Pages it's opening the posted sales invoice table you can see here uh PS posted sales invoice demo customer 4 so that's a versioning uh support for business event and then I want to show you the system table this is the let me just go back Let me"
+    },
+    {
+      "t": 1770.2,
+      "end": 1789.9,
+      "text": "refresh and this is also need to be refreshed so what I'm showing you right now is the system tables that support troubleshooting for business event the first um uh table is the external event subscription you can see there's a six different subscription that's been created and the latest"
+    },
+    {
+      "t": 1789.9,
+      "end": 1810.2,
+      "text": "one is let me see yeah just like yesterday it was for sales invoice post this is the one that I I created to listen to um sales invoice posted done by the my power Pages demo right and then in the activity lock you can see the several events being sent for example"
+    },
+    {
+      "t": 1810.2,
+      "end": 1830.2,
+      "text": "in fact today uh September 26 there are three events being sended so actually there's the first one is actually it's an event uh sales order release because when I actually um uh ship an invoice an open sales order it has to be released first before it got um invoice so this is the sales"
+    },
+    {
+      "t": 1830.2,
+      "end": 1850.2,
+      "text": "order release um notification and the two notification for sales for sales invoice posted is actually one the old version and the other one is the new version and this is currently still only a system table but uh in pretty soon we'll provide a UI page that you can actually correlate this um uh external subscription with"
+    },
+    {
+      "t": 1850.2,
+      "end": 1870.4,
+      "text": "the activity lock in one U nice UI page uh that's coming in this November and the final uh features on this business event that I want to show you is essentially the partner Telemetry so in here I'm going to show to I'm going to go to my environment I just want to show you here the my production environment I have put my um connection string for my app"
+    },
+    {
+      "t": 1870.4,
+      "end": 1886.2,
+      "text": "inside in the uh Tenon admin Center and now I'm going to the app insight and in here I'm going to run the uh what you call the"
+    },
+    {
+      "t": 1886.2,
+      "end": 1903.4,
+      "text": "query you can see yesterday I make uh business events uh subscription is created for sales invoice posted and today I want to show how many events are triggered successfully I'm going"
+    },
+    {
+      "t": 1903.4,
+      "end": 1915.2,
+      "text": "to uh even rt45 I'm going to run and there you go today 9:26 right when I click on"
+    },
+    {
+      "t": 1915.2,
+      "end": 1935.7,
+      "text": "this you can see here for example see there's a sales order release uh being um uh let me see and oh the the the the timing is a UTC timing I believe and if if I put here and you can actually see the sales invoice posted event also here you go"
+    },
+    {
+      "t": 1935.7,
+      "end": 1956.5,
+      "text": "the old one and potentially the new one yeah there you go so all the sales invoice posted and the sales order this event are um push into parenty where you can quy and correlate with other datas so that's conclude my um uh presentation"
+    },
+    {
+      "t": 1956.5,
+      "end": 1976.5,
+      "text": "for resources you can go to Yammer uh to provide feedback for us and you can also um uh join the conversation through Twitter or you can look at our documentation submit ideas and look for our busc office hour and that's it uh thank you very much um I look forward to seeing you in"
+    },
+    {
+      "t": 1976.5,
+      "end": 1987,
+      "text": "uh Q in session remotely uh pretty soon and also in in person at Direction conference thank you for your attention goodbye"
+    }
+  ],
+  "markers": [
+    {
+      "t": 2.08,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 5132
+}

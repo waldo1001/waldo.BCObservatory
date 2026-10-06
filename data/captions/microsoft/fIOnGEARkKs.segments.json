@@ -1,0 +1,345 @@
+{
+  "video_id": "fIOnGEARkKs",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 20.2,
+      "end": 38,
+      "text": "hello my name is Ian ktic and I'm a product manager in business Central product team and I want to welcome you to the business Central launch event I'm so super excited to tell you about what's new in data verse and damic 365 apps"
+    },
+    {
+      "t": 38,
+      "end": 58.2,
+      "text": "integration this session's agenda covers following five improvements that we are introducing in 2023 release Wave 2 and some that you might have missed as they have been introduced in July as part of the minor updates for 2023 release Wave 1 so we'll talk about how to connect and integrate business Central with data ver"
+    },
+    {
+      "t": 58.2,
+      "end": 78.5,
+      "text": "and Dynamics a65 applic apption in configurations involving multiple environments multiple companies and different base currencies we'll also walk through how users can synchronize even more data out of the box through additional Fields mapping uh without a need for a developer and how to better control your data synchronization"
+    },
+    {
+      "t": 78.5,
+      "end": 99,
+      "text": "and enable virtual tables so let's dig with 2023 release wave two you can now unlock scenarios where multiple companies from multiple business Central environments must access data in the same datae environments this enables Partners to build new experiences when working in more than one company environment"
+    },
+    {
+      "t": 99,
+      "end": 119,
+      "text": "or base currency when you enable multi company synchronization following things happen you get warned of the changes that will happen to integration filters and some recommendations for selected integration Table mappings after that the company filters get removed on user and team own tables such"
+    },
+    {
+      "t": 119,
+      "end": 139.2,
+      "text": "as account or cont contact tables sales quotes order sales quotes and Order synchronization becomes more restrictive with respect to company filters users now must pick company in Dynamics 365 uh sales to specify the business Central company that will process a particular document this is to avoid"
+    },
+    {
+      "t": 139.2,
+      "end": 151.9,
+      "text": "companies companies hijacking each other's documents and the last thing this setting has no effect uh on the tables that are organization owned in data such as currency"
+    },
+    {
+      "t": 151.9,
+      "end": 172,
+      "text": "table users can now pick and change uh the default business Central environment and company that will be used to open coupled records from Dynamics 365 for sales in business Central this information is preserved as a per user setting but this can be changed anytime by the user this is mainly to"
+    },
+    {
+      "t": 172,
+      "end": 192.1,
+      "text": "avoid users picking a business Central company every time they need to open a coupled record in Dynamics 365 or sales or data ver documents such as sales quotes or orders requires users to pick Target business Central invironment and company that will process a specific document"
+    },
+    {
+      "t": 192.1,
+      "end": 211.1,
+      "text": "as mentioned for documents company filters are now stricter on company filtering meaning sales quotes and orders without explicit company Define will no longer show up in the list of sales quotes and orders that you can synchronize with a particular business Central company"
+    },
+    {
+      "t": 211.1,
+      "end": 231.3,
+      "text": "more complex configurations of synchronizing data to a central data ver or Dynamics 365 sales uh environment are also supported it's good to know that multi environment and multi- compan synchronization Works across uh act Azure active directory tenants as long as you are synchronizing data to a central data"
+    },
+    {
+      "t": 231.3,
+      "end": 251.4,
+      "text": "verse or Dynamics a65 for sales deployment if you are dealing with many companies consider consolidating data you want to synchronize in one master data company in business Central and then you use Master data management capabilities of business Central to synchronize Master data between business Central companies and"
+    },
+    {
+      "t": 251.4,
+      "end": 271.4,
+      "text": "after that integrate such uh Master data company con that contains the Consolidated Master data from Business Center companies with a central data verse or dynamic 365 sales deployment the result of this approach will be more performance synchronization and less chance of hitting the service protection limits on"
+    },
+    {
+      "t": 271.4,
+      "end": 287.3,
+      "text": "this data ver side it is also very important to keep local data to keep local data privacy and data storage requirements in mind as you want to make sure that data remains within the priv Privacy boundaries when you're doing"
+    },
+    {
+      "t": 287.3,
+      "end": 308.2,
+      "text": "synchronization you could ask but doesn't synchronizing multiple environments and Company necessarily mean necessarily require dealing with multiple currencies well yes when integrating with Dynamics 365 or sales or just data ver in environments with there's Central deployment of those apps"
+    },
+    {
+      "t": 308.2,
+      "end": 328.4,
+      "text": "and where you are serving multiple markets it's important that the integration to business Central can accommodate for differences in local and based transaction currencies between those two systems integration now ensures seamless synchronization when multiple currencies are involved so when a data verse based currency and business Central local"
+    },
+    {
+      "t": 328.4,
+      "end": 349.2,
+      "text": "currencies are different the following things happen the only prerequisite that you uh that you have is having data ver based currency set up as a regular currency in business Central with at least one exchange rate in order to enable connection otherwise you won't be able to connect because the integration needs to know about this"
+    },
+    {
+      "t": 349.2,
+      "end": 369.5,
+      "text": "uh about this non-local uh base currency that exists in in datae then when you connect to datae business centrals local currencies is added to the list of currencies in data verse automatically integration converts monetary amounts on the Fly this means when converting amounts from business Central local"
+    },
+    {
+      "t": 369.5,
+      "end": 391.4,
+      "text": "currency the amounts synchronized with a business Central local currency in one of the additional or inserted on non- based currencies in data ver on the other way when converting amounts from uh data ver based transaction currency amounts are converted to business Central local currency based on the latest exchange rate synchronized from business"
+    },
+    {
+      "t": 391.4,
+      "end": 412,
+      "text": "Central companies often customize their integration between business Central and data verse to fit their specific business needs to make that easier to do without the help of a developer we made more Fields available for mapping in our standard integration table mappings so customer vendor"
+    },
+    {
+      "t": 412,
+      "end": 432.5,
+      "text": "contact salesperson and opportunity integration field mappings now have additional Fields available for you to map the these additional fields are disabled by default however in order to use them you simply open integration field mapping page choose the direction and enable them turning off event based synchronization"
+    },
+    {
+      "t": 432.5,
+      "end": 452.6,
+      "text": "for specific integration table mappings can give you a greater control over the flow of data between business Central and data uh for example you can reduce the risk of the data errors inconsistencies and improve the overall quality and reliability of the data additionally opting out of event based synchronization can speed up performance by reducing"
+    },
+    {
+      "t": 452.6,
+      "end": 466.9,
+      "text": "the number of synchronization events that business Central needs to process the default settings for the event-based synchronization stay unchanged to avoid disrupting uh existing"
+    },
+    {
+      "t": 466.9,
+      "end": 481.6,
+      "text": "Integrations for some time uh we we've been talking about virtual tables and data synchronization as complimentary integration Technologies and we'll continue to invest in both Technologies together to provide even more"
+    },
+    {
+      "t": 481.6,
+      "end": 497.4,
+      "text": "value uh avoiding duplicate data entry is one of the key value propositions for integrating business Central with datae and enabling virtual tables makes more data available between business Central and datae which enriches Integrations without additional"
+    },
+    {
+      "t": 497.4,
+      "end": 517.5,
+      "text": "customizations when there's overlapping data in data verse or Dynamics 365 application such as sales your choice should be data synchronization and when that's not the case the virtual table will offer integration customization with less effort so now when you enable and connect to data"
+    },
+    {
+      "t": 517.5,
+      "end": 530.1,
+      "text": "verse U using assisted setup you are now able to make specific virtual tables visible already during the setup this can be done for a single table or in bul for multiple"
+    },
+    {
+      "t": 530.1,
+      "end": 550.4,
+      "text": "tables to make additional virtual tables available uh you can later on access the list of the data ver available tables from the connection set setup page as well now that we are done with the technical improvements it's also good to know as many of you have asked us that the commercial blockers for integrating various Dynamic"
+    },
+    {
+      "t": 550.4,
+      "end": 570.4,
+      "text": "365 apps have been removed earlier this year we've announced a set of attached licenses for business Central premium license and for Enterprise versions of sales customer service and field service making you more competitive when pricing an integration project make sure to check out the details below"
+    },
+    {
+      "t": 570.4,
+      "end": 590.6,
+      "text": "on the partner portal on on the following links and now let's see all of the above in action in one short demo to prepare for this demo I've already connected Kronos us to the Kronos HQ data ver environment and I've installed"
+    },
+    {
+      "t": 590.6,
+      "end": 606.4,
+      "text": "virtual tables app uh to that environment as you can see that both sales and data ver connection setup are enabled in Kronos us let's go and uh switch to Kronos"
+    },
+    {
+      "t": 606.4,
+      "end": 626.3,
+      "text": "de I picked the environment and side in as an administrator and enable synchronization and virtual tables just so we don't have to go through those steps even though I want to connect without full sync as there's obviously already data in data ver environments let's continue let's click next to see the sync recommendations"
+    },
+    {
+      "t": 626.3,
+      "end": 646.7,
+      "text": "anyway so let's check the synchronization recommendation what you can see in here there are two types of recommendation one other thing to notice is that there is a sort of a new type of recommendation that is called review coupling criteria where for some simple tables like payment terms"
+    },
+    {
+      "t": 646.7,
+      "end": 666.8,
+      "text": "or currencies we can automatically recommend coupling criteria so users don't need to do and review them or set them up manually as you can see here for payment terms we only have one field so it's obvious which field we will use for for coupling criteria for master data such as contact customer or vendors business"
+    },
+    {
+      "t": 666.8,
+      "end": 687.6,
+      "text": "Central recommends full synchronization as current integration table filters don't catch data already synced from tronus us you will Al also notice there's a multic company sync enabled column that has been added so let's try to toggle multic company synchronization enabled"
+    },
+    {
+      "t": 687.6,
+      "end": 707.8,
+      "text": "so there's a new action that says uh toggle multic company synchronization you got a confirmation if you want to proceed and then you'll also get informed about filters uh being changed and another warning comes up which explain things in details and let's click okay and now with"
+    },
+    {
+      "t": 707.8,
+      "end": 719.9,
+      "text": "the with the filters uh removed after we enabled the multic company synchronization some data that is already synchronized for example let's click on contacts"
+    },
+    {
+      "t": 719.9,
+      "end": 740,
+      "text": "is actually available and the recommendation changes from Full synchronization to selecting coupling criteria and we if we would want to go and uh do that we could go there select the coupling criteria and repeat this for every integration table mapping that we want to do but we'll do that later uh in the demo so"
+    },
+    {
+      "t": 740,
+      "end": 758,
+      "text": "let's flip this back and just to just proceed with this yes I want to do that okay let's click okay here and let's go back and let's turn off uh synchronization click"
+    },
+    {
+      "t": 758,
+      "end": 778.2,
+      "text": "next now that we are not doing initial synchronization and as I said in the beginning the virtual table setup was enabled we can actually go and review and enable virtual tables right from The Wizard when I click review and enable virtual tables available virtual table Pages opens up so"
+    },
+    {
+      "t": 778.2,
+      "end": 800,
+      "text": "let's make sales shipment and lines virtual tables visible right from here uh let me find sales shipment and sales shipment line and let's uh enable while this is completed in the background we can simply go ahead and click finish in the"
+    },
+    {
+      "t": 800,
+      "end": 811,
+      "text": "Wizard okay and one other thing to do what we can do in here we can also go and enable"
+    },
+    {
+      "t": 811,
+      "end": 831.2,
+      "text": "a connection to dyamic 365 for sales let's just go ahead and enable that so what you can see is we've enabled data verse sales connection made virtual tables visible directly from business Central what you may notice also is there were no complaints about local currency being different from the"
+    },
+    {
+      "t": 831.2,
+      "end": 843.6,
+      "text": "data verse base currency we can actually go ahead and check that in general ledger uh setup for this company you can see there's a euro currency in"
+    },
+    {
+      "t": 843.6,
+      "end": 858.6,
+      "text": "here so let's go and actually integrate a few things in the multic company scenario to do that I will open integration table mappings and just go and couple my"
+    },
+    {
+      "t": 858.6,
+      "end": 878.6,
+      "text": "accounts as we saw in the warning the recommendation if I were to go and enable this and say yes but you can see from the warning the recommendation in here is to change the integration direction from B directional sync to from integration table mapping and to do this we need"
+    },
+    {
+      "t": 878.6,
+      "end": 889.1,
+      "text": "to have some field set set to pick the data from from data verse so let's go and do that let's turn this"
+    },
+    {
+      "t": 889.1,
+      "end": 909.9,
+      "text": "off and if we go to mapping Open Fields but you can see a lot of our fields are B directional let's go ahead and edit list what I want to do is I do want to map the number to the account number that we have in there so what you see in here this is one of these additional"
+    },
+    {
+      "t": 909.9,
+      "end": 929,
+      "text": "fields that are disabled that are part of the outof the Box field mappings that come disabled by default but you can of course go ahead and enable them the things that I don't want to integrate for the demo purposes just let me just go ahead and disable"
+    },
+    {
+      "t": 929,
+      "end": 942.2,
+      "text": "couple of these things and of course I don't want a currency code and what I'll do I will say I want the name to come from integration"
+    },
+    {
+      "t": 942.2,
+      "end": 961.6,
+      "text": "table and the website for example okay that sets us up right now we can actually go ahead and change the direction of the integration table to from integration table mapping and then go ahead and enable multic company"
+    },
+    {
+      "t": 961.6,
+      "end": 980.9,
+      "text": "synchronization okay and the last thing I need to do is I will want I would want to run my match best coupling let's say yes let's expand this and let's go and say I want to do this like"
+    },
+    {
+      "t": 980.9,
+      "end": 987.1,
+      "text": "this I'll just say let's do this"
+    },
+    {
+      "t": 987.1,
+      "end": 995.9,
+      "text": "cing so let's let's go to let's go to one of the"
+    },
+    {
+      "t": 996.4,
+      "end": 1016.9,
+      "text": "customers we should actually have them coupled already let's go and try to open that customer in say 65 for sales and the thing that you can hear see in here is this uh new button uh that allows each user to set up a default uh connection"
+    },
+    {
+      "t": 1016.9,
+      "end": 1029.6,
+      "text": "so I can go and click choose def default business Central connection and in here for example I will pick uh Cronus I will pick"
+    },
+    {
+      "t": 1029.6,
+      "end": 1052,
+      "text": "chromsde as the one that I want save and close and then uh when I want to open a uh coupled uh customer or coupled account when I click open in business Central it should actually go ahead and take me to uh this other environment that I have integrated this is uh"
+    },
+    {
+      "t": 1052,
+      "end": 1068.2,
+      "text": "D so let's also see the sales orders and let's designate one company that has been integrated to pick up this particular sales order let's say that this particular one is going to be picked up by cronis"
+    },
+    {
+      "t": 1068.2,
+      "end": 1088.6,
+      "text": "De uh save that oh I do need to pick the potential customer let's make this a customer and Save I've enabled virtual tables so let's have a look at the tables uh that I actually have available in here and I will just look for"
+    },
+    {
+      "t": 1088.6,
+      "end": 1108.9,
+      "text": "sale shipments so both of these virtual tables that we've decided to make visible uh through the wizard are now available in here so this concludes the demo uh in the demo you saw uh how integration Works in multic company and multi- environment setting conversion of Base uh transaction currency making virtual tables"
+    },
+    {
+      "t": 1108.9,
+      "end": 1130.1,
+      "text": "visible and enablement of additional field mappings this is of course not all that has been improved in business Central and data verse integration so if you want to learn more about the improvements in Virtual tables create update delete events external business events or or more make sure to watch the session delivered uh by"
+    },
+    {
+      "t": 1130.1,
+      "end": 1150.3,
+      "text": "Sandy as always if there are further questions or you just want to be kept up to date have a product suggestion or want to connect to a product team in in any way make sure to check the links on this slide and with that and on behalf of business Central product team and myself I want to thank you for your"
+    },
+    {
+      "t": 1150.3,
+      "end": 1163.8,
+      "text": "time and for joining this session make sure to try out the improvements presented and provide feedback to us looking forward to seeing you or meeting you in one of our next events thank"
+    },
+    {
+      "t": 1163.8,
+      "end": 1165,
+      "text": "you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 2.08,
+      "text": "[Music]"
+    },
+    {
+      "t": 1055.26,
+      "text": "[Music]"
+    },
+    {
+      "t": 1056.59,
+      "text": "[Music]"
+    },
+    {
+      "t": 1056.6,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2729
+}

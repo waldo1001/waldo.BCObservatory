@@ -1,0 +1,813 @@
+{
+  "video_id": "O921cRqXdiw",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 1.2,
+      "end": 18.4,
+      "text": "all right hello everyone and welcome to this session about the cloud migration my name is Nicola and I'm mostly working on the UI part of the cloud migration and together with me I have Julia hello I'm a developer responsible for the back end of the cloud migration"
+    },
+    {
+      "t": 18.4,
+      "end": 38.4,
+      "text": "tool yes so in this session we have prepared a lot of content for you so we are going to start with the some improvements that we did in the backend that Yul is going to talk about we will mostly talk about the performance optimization stability improvements and also some really nice improvements that we got under the"
+    },
+    {
+      "t": 38.4,
+      "end": 58.4,
+      "text": "hood that is going to help you to spend less time on the cloud migration then I'm going to demo to you some of the improvements that we did to the UI also the feature that is going to help you to move the customized fields to the table extensions and we are going to end with the Telemetry new upgrade strategy and we are going"
+    },
+    {
+      "t": 58.4,
+      "end": 68.6,
+      "text": "to briefly discuss what are we planning to add for the future for the cloud migration tooling okay thank you Nicola"
+    },
+    {
+      "t": 68.6,
+      "end": 88.8,
+      "text": "so before talking about the recent improvements in the cloud migration replication engine let's take a look at the usage of the tool between the years here there are two charts showing some very nice growth and we would like to thank you for using the tool we can only show the relative increase here"
+    },
+    {
+      "t": 88.8,
+      "end": 108.9,
+      "text": "but trust me the ACT ual numbers are also very impressive so thank you very much uh so on the left chart we can see that the number of uh business Central tenants migrating their data from on premise has almost doubled last year comparing to the previous year and on the right we see that the amount of data"
+    },
+    {
+      "t": 108.9,
+      "end": 129.2,
+      "text": "transferred to the cloud has almost tripled in 2022 comparing to the year before and this tendency still continues this year business Central tenants are getting more and more data migrated from on premise we take year 2021 as a base because back then we removed the hard"
+    },
+    {
+      "t": 129.2,
+      "end": 149.2,
+      "text": "limitation on the amount of the UN premis data that can be replicated to the cloud and that enabled Cloud migration for larger installations and in turn it revealed some technical limitations and Performance challenges that we had to address to better support high volume Cloud migration that is"
+    },
+    {
+      "t": 149.2,
+      "end": 169.2,
+      "text": "on premise setups with a lot of companies and tables and containing huge amounts of data and that was the project that we now completed so before presenting the results to you I would like to briefly describe how the replication engine works and highlight the parts of the"
+    },
+    {
+      "t": 169.2,
+      "end": 189.3,
+      "text": "replication process that have been improved and then we'll talk about each of the areas in more details as you probably know uh we use Asia data Factory pipelines to copy the data from a source database to the destination when a migration run is triggered the replication pipelines"
+    },
+    {
+      "t": 189.3,
+      "end": 209.8,
+      "text": "gets executed and it instructs special compute Services called integration run times to access the data in both the source and the destination databases The Source can be either an un Prem SQL server or an Asia SQL database and the destination is always an Asia SQL of a business"
+    },
+    {
+      "t": 209.8,
+      "end": 229.8,
+      "text": "Central tenant so first of all we made quite a lot of improvements uh to the replication pipelines so now they can support larger Cloud migrations and also can migrate wider range of data types during the execution the replication"
+    },
+    {
+      "t": 229.8,
+      "end": 245.1,
+      "text": "pipelines use Asia blob storage as a temporary staging unfortunately blob storage introduces its own limitations and and we applied some optimizations to minimize"
+    },
+    {
+      "t": 245.1,
+      "end": 258.3,
+      "text": "them the data replication itself is done by two distinct processes the large tables are copied table to table by dedicated copy activities this process has been"
+    },
+    {
+      "t": 258.3,
+      "end": 278.6,
+      "text": "optimized the smaller tables are going through the process called B copy during B copy the stored procedures in the on Prem SQL database collect buls of data from many smaller tables serialize and compress each bulk and then split it into records in a special table"
+    },
+    {
+      "t": 278.6,
+      "end": 298.6,
+      "text": "then only this table is copied to the cloud where the stored procedures in the tenant database apply the opposite data transformation combine the records together decompress deserialize and push the data into the corresponding tables this process can be repeated for many buls until all data is replicated"
+    },
+    {
+      "t": 298.6,
+      "end": 318.7,
+      "text": "and it is very efficient for copying thousands of tables faster but at the same time it's very demanding on the SQL Server compute and input output capabilities and here we made some improvements as well finally it was mentioning that we use SQL change tracking to identify the changes"
+    },
+    {
+      "t": 318.7,
+      "end": 338.2,
+      "text": "made to the UN premis data between the replication runs and copy only these incremental changes if it is possible this part has also been improved allowing us to recognize more situations where the Delta syn is possible and reducing the overall migration"
+    },
+    {
+      "t": 338.2,
+      "end": 351.3,
+      "text": "time most of these improvements affect migrations from both on premise SQL silver and Asia SQL but there are some that make a huge difference specifically for Asia SQL"
+    },
+    {
+      "t": 351.3,
+      "end": 362.5,
+      "text": "sources so let's look at this improvements in more details and see how you can benefit from them in your future"
+    },
+    {
+      "t": 362.5,
+      "end": 382.6,
+      "text": "migrations looking at the replication pipelines we changed the way the replication method data has been passed between the source and the destination instead of using the data Factory activities input and output parameters we now copy the metadata through a database table and this allowed"
+    },
+    {
+      "t": 382.6,
+      "end": 402.9,
+      "text": "us to bypass the 4 meab um data Factory limitation on the activities input and output so it has become possible to replicate an unlimited number of tables in a single migration run and we remove the limitation on the number of companies being replicated of course it's important to remember that business Central"
+    },
+    {
+      "t": 402.9,
+      "end": 424.5,
+      "text": "supports not more than 300 companies in single environment but now all these companies can be replicated in one single run if you have a powerful on premise SQL Server um apart from this we also removed the calculation on the on premise database size from the replication"
+    },
+    {
+      "t": 424.5,
+      "end": 444.7,
+      "text": "runs uh this calculation is done once during the cloud migration setup and not repeating it during replication can save between 15 and 45 minutes for large Source databases and reduce the probability of timeouts and finally we expanded the replication pipelines with"
+    },
+    {
+      "t": 444.7,
+      "end": 461.7,
+      "text": "the activity scoping SQL sequences specific for business Central so now the AL number sequences data type is supported by Cloud migration and the numbering can continue in the BC tenant after migration instead of being"
+    },
+    {
+      "t": 461.7,
+      "end": 482.2,
+      "text": "reset so for table totable copy let's look at the optimizations here table totable copy is used for large tables uh however we reduce the threshold now the replication engine picks uh would pick a table for table totable copy"
+    },
+    {
+      "t": 482.2,
+      "end": 499.7,
+      "text": "if the data size to be migrated exceeds 250 megabyte and it used to be 500 megabyte before so this means that more tables are going through table totable copy now and the replication status is updated faster for these"
+    },
+    {
+      "t": 499.7,
+      "end": 519.9,
+      "text": "tables uh also tables with a lot of data tend to have many indexes defined when the data is copied all these indexes have to to be updated on every insert now we disable the indexes in the Target table before copying its data and rebuild the indexes after the data is replicated"
+    },
+    {
+      "t": 519.9,
+      "end": 529.9,
+      "text": "and our test measurement show 8 to 22% performance benefit for the new process comparing to the old way of inserting the data with all indexes"
+    },
+    {
+      "t": 529.9,
+      "end": 550.1,
+      "text": "enabled because both the cleanup of the target table and the data copy are now happening with no active indexes uh the replication runs are much faster and this allowed to prevent the timeouts for the large tables replication for the bul copy of the smaller tables"
+    },
+    {
+      "t": 550.1,
+      "end": 570.2,
+      "text": "in addition to the reduced threshold we also reduce the bulk size so this resulted in higher numbers of smaller bulks and smaller bulks are easier for the SQL s to serialize and compress so the timeouts occurrences become rare also"
+    },
+    {
+      "t": 570.2,
+      "end": 585.3,
+      "text": "they may still happen for the extremely weak or busy SQL service in fact this gave a significant performance benefit on our not very powerful test servers the whole process of B copy became 60 to 80%"
+    },
+    {
+      "t": 585.3,
+      "end": 606.2,
+      "text": "faster the replication status is also updated more frequently if the buls are smaller we also made the diagnostic runs respect the bulk size before they tried to process all data in single huge bulk and that often led to timeouts and out of memory exceptions"
+    },
+    {
+      "t": 606.2,
+      "end": 617.3,
+      "text": "now diagnostic runs utilize the same smaller buls as the normal replication runs they don't time out and you can safely use them to quickly test the future"
+    },
+    {
+      "t": 617.3,
+      "end": 627.8,
+      "text": "replication finally optimizations for the Delta sync of the incremental changes which are related to our usage of SQL change"
+    },
+    {
+      "t": 627.8,
+      "end": 647.9,
+      "text": "tracking so if the changes between two change tracking versions can be reliably collected the replication engine performs a fast Delta sync otherwise the whole table has to be cleaned up and replicated again so we forced a longer change track and retention period that allowed the change tracking versions to"
+    },
+    {
+      "t": 647.9,
+      "end": 668,
+      "text": "stay valid longer and that increases the probability of the fast Delta sychronization for the repeated replication runs and we changed the code to use change tracking in wider range of the situations for example Delta sync is now possible also for the databases that first enable"
+    },
+    {
+      "t": 668,
+      "end": 688.4,
+      "text": "change tracking specifically for cloud migration and now Delta sinks are happening more often reducing the overall migration time so all the improvements mentioned earlier are applied to both SQL server and Asia SQL sources however if uh Asia SQL"
+    },
+    {
+      "t": 688.4,
+      "end": 708.4,
+      "text": "is used a source it is possible to link the source and the destination Asia SQL databases directly without the requirement of the serialized staging in a asure blob storage and removing staging allow it to make the replication faster so now we don't have to serialize"
+    },
+    {
+      "t": 708.4,
+      "end": 728.4,
+      "text": "and deserialize the data and it has become possible to replicate the fields of SQL variant type also the errors caused by The Blob infrastructure are going away for example trying to copy a record with large value in a single field like image sometimes fails in the staging blop with a message"
+    },
+    {
+      "t": 728.4,
+      "end": 748.6,
+      "text": "that the specified road delimit is incorrect so this won't happen for the migration from Asia SQL anymore so in general with all these changes Asia SQL becomes a more powerful and better performing alternative to the SQL Server as a source for cloud migration so if you have plans for some"
+    },
+    {
+      "t": 748.6,
+      "end": 768.9,
+      "text": "high volume migrations you might consider deploying on premise database to an Asia SQL first and if you want to migrate SQL variant fields or Fields with large images then Asia SQL as a source would be the only possibility so the process of deploying an Asia to Asia SQL"
+    },
+    {
+      "t": 768.9,
+      "end": 789.1,
+      "text": "is it can be quite fast if you have uh the right service tier in your as SQL database it is also well described in the the SQL online help how fast it can be depends on the service tier that you have to choose for your SQL for the for your Asia SQL database"
+    },
+    {
+      "t": 789.1,
+      "end": 809.3,
+      "text": "and our recommendation here is to prioritize its compute and input output capabilities of course Asia SQL is not for free and you would probably have to balance the cost and the benefit but the more powerful service tier you get the faster and smoother your Cloud migrations will be and with that"
+    },
+    {
+      "t": 809.3,
+      "end": 816.7,
+      "text": "I pass it over to Nicola to present the new UI and other uid driven"
+    },
+    {
+      "t": 816.7,
+      "end": 827.7,
+      "text": "improvements thank you Julia so we are going to proceed with the new UI and for the new UI we are going to go straight into the"
+    },
+    {
+      "t": 827.7,
+      "end": 847.8,
+      "text": "demo we are going to start in the old UI and the thing that you can see here is a rather large Cloud migration that I did in the old UI beforehand so you you can see how it is looking like and one of the things that you can notice here it is extremely hard to get an overview which data has been moved"
+    },
+    {
+      "t": 847.8,
+      "end": 869,
+      "text": "and if there has been any problems with the cloud migration because you needed to select the specific records and then to search for the tables failed if they exist so for example on this replication run you can see that the three tables have failed but you have no idea what is the current status of this data"
+    },
+    {
+      "t": 869,
+      "end": 887.1,
+      "text": "we have also seen that many partners were doing similar mistakes when going live and these mistakes were costly to fix so in order to address this we have introduced a new UI and for the first feature to demo today I'm going to show you how you can switch between the old and the new"
+    },
+    {
+      "t": 887.1,
+      "end": 907.3,
+      "text": "UI we have decided to support both for the time being because we believe that some of you have done the customizations to the old UI so in case you need to switch between the uis you can invoke this setion enable disable the new UI so if you select it here and you say that you would like to use the new Cloud"
+    },
+    {
+      "t": 907.3,
+      "end": 927.3,
+      "text": "migration UI the product will take you to the new Cloud migration UI the new Cloud migration UI is going to be shown to you by default each time when you set up BC Cloud migration GP Cloud migration and SL is still using the old"
+    },
+    {
+      "t": 927.3,
+      "end": 947.3,
+      "text": "UI the thing that you can see here is that now we have laid out the data in a different way so we have a overall status showing you what is the current status of the cloud migration like this and the reason why we did this is because you have a single Cloud migration so now the UI is actually"
+    },
+    {
+      "t": 947.3,
+      "end": 967.3,
+      "text": "representing the state much better and you also have a set of steps that you did to This Cloud migration so you can see the history as the migration log which which is below and we have also split it like this now you do not need to select a record if you want to start the upgrade"
+    },
+    {
+      "t": 967.3,
+      "end": 987.3,
+      "text": "or any other action we will check the overall status when performing the actions another thing that is very visible is that you have actually failures and there are six tables that have failed the replication if you invoke the drill down here it is going to be visible which tables"
+    },
+    {
+      "t": 987.3,
+      "end": 1007.5,
+      "text": "currently have the problem that you need to address and fix then if you go back now if we add up here the system is saying Six Tables but if we add up there is more failures in the log so you can see that here is nine tables that have failed the replication"
+    },
+    {
+      "t": 1007.5,
+      "end": 1027.6,
+      "text": "and the reason why is because if you select for example this one here the thing that you will see is that the text is not highlighted red and you will also see that the last replication status is successful and if you drill down on this section here you will be able to see that there"
+    },
+    {
+      "t": 1027.6,
+      "end": 1048,
+      "text": "is a later on which has copied the data that has failed which means that you do not have the problem on this table so there is no action that is required from you if you would like to analyze what has happened you can also invoke the show all replication actions and then we can show you all of the runs"
+    },
+    {
+      "t": 1048,
+      "end": 1068.1,
+      "text": "in which this table was involved and this is the same data as you have seen before so you see that there was one run that failed and then there was one run that was successful and one record was copied in toal so with the new UI now you're able to see which tables have failed the replication and which tables are requiring"
+    },
+    {
+      "t": 1068.1,
+      "end": 1088.2,
+      "text": "your attention immediately one of the flows that we wanted to improve is if a small table fails in many cases Partners would just like to migrate the data from this specific table and unfortunately this was not possible because we would block it and then you would not be able to move"
+    },
+    {
+      "t": 1088.2,
+      "end": 1108.4,
+      "text": "this data either through a customized solution or through a rapid start so to enable you to be more efficient we have added this action which is called unblock the table so if you invoke it we are going to Mark the table as pass and we will allow you to write the data to it so if you invoke this"
+    },
+    {
+      "t": 1108.4,
+      "end": 1128.4,
+      "text": "section here we will say to you that the table was successfully unblocked and now you can move the data through the configuration packages or the other means one thing that you should do before invoking the action is to note down in which company and which table failed because we remove it out of the list so when you invoke"
+    },
+    {
+      "t": 1128.4,
+      "end": 1139.7,
+      "text": "the action it is going to be a bit harder to find which table has failed so unfortunately we do not keep the track of the failed tables"
+    },
+    {
+      "t": 1139.7,
+      "end": 1160.5,
+      "text": "then in the new UI you can see the overall status of the companies so you can see that I have missed eight companies to be moved if you are wondering which companies are moved and which companies are not here you can go to the replicated filter and say"
+    },
+    {
+      "t": 1160.5,
+      "end": 1175.1,
+      "text": "no and here you're going to see which companies you have not moved from the on so so we're not going to include it for the purpose of this demo so just going to exit"
+    },
+    {
+      "t": 1175.1,
+      "end": 1188.8,
+      "text": "here then another thing that you can use this new ey for is that you can see the overall status of all of the tables that have been moved so if you invoke it"
+    },
+    {
+      "t": 1188.8,
+      "end": 1197.2,
+      "text": "here you will be able to see the status of all of the tables across the different"
+    },
+    {
+      "t": 1197.2,
+      "end": 1216.1,
+      "text": "runs so here you can see all of the tables that have been moved for the specific companies you can filter per company and one of the things I would strongly recommend you to do is to select per database tables and to check what is the status for the per database"
+    },
+    {
+      "t": 1216.1,
+      "end": 1236.2,
+      "text": "tables uh here you can see that the custom report layout and Report selections were completely replaced and you will see that these tables have the Delta and the reason why they have the delta is because they are tenant media tables so tenant media if it was copied successfully it needs to"
+    },
+    {
+      "t": 1236.2,
+      "end": 1257.1,
+      "text": "have more records than there are in the on Prem database because we never replace the data in case the data was replaced or in case we have copied less records than there is in the source database please open a support ticket and we are going to help you this should not happen but it is good to verify"
+    },
+    {
+      "t": 1257.1,
+      "end": 1277.2,
+      "text": "because unfortunately that we do not have the warning system in place yet and the last item that you can see here is the upgrade TXS and here we are not able to get the records because the table is marked as internal thus we will just put a small warning the tables that are internal or marked as obsolete"
+    },
+    {
+      "t": 1277.2,
+      "end": 1289.4,
+      "text": "removed we cannot do anything about them unfortunately we cannot provide the account so we just show a warning and keep an eye on the data that is being moved"
+    },
+    {
+      "t": 1289.4,
+      "end": 1304.9,
+      "text": "then the next functionality that you can use this page for is that if you're wondering what has happened to the specific type of data we would need to select all so we can go"
+    },
+    {
+      "t": 1306.2,
+      "end": 1321,
+      "text": "back and then if you go to the table name and here if I would like to know what has happened to the change log entry so I can type"
+    },
+    {
+      "t": 1321,
+      "end": 1341.8,
+      "text": "and when I invoke okay and I select the change look entry table we are going to tell you that the table is excluded from the cloud migration because it has replicate data property set to false we are also going to show you the message that it was empty on the onr table so this page can provide you additional details"
+    },
+    {
+      "t": 1341.8,
+      "end": 1361.9,
+      "text": "what has happened to the specific table and why the data is not moved all right so that was all regarding the overview of the data then the next thing that you can use the new page for is that now we have a complete Cloud migration status and if you try to"
+    },
+    {
+      "t": 1361.9,
+      "end": 1382.5,
+      "text": "invoke it we are going to do the sanity check and in this case I cannot complete the cloud migration because there are failed tables so I need to pull the data to make sure that all of the data is moved and then I can complete the cloud migration but if I would like to stop the cloud migration so I can do something"
+    },
+    {
+      "t": 1382.5,
+      "end": 1402.8,
+      "text": "I can use the pose and abandon actions and I have them here so I can use post Cloud migration and we recommend to use this action if you plan to continue it and the second one is the abandoned Cloud migration which you can use if you're planning to delete the environment and completely abandon the cloud migration"
+    },
+    {
+      "t": 1402.8,
+      "end": 1422.8,
+      "text": "there is no difference between these two actions except sending the Telemetry and telling to us what is the current status of this environment so if you regret abandoning the cloud migration you can simply reconfigure it again and everything is going to work I have done this in the"
+    },
+    {
+      "t": 1422.8,
+      "end": 1440.6,
+      "text": "log so you can see it here I have abandoned the cloud migration because I needed to reconnect the which is was the wrong step but I simply did it to show you that it is possible to enable it again and pull the DAT needed"
+    },
+    {
+      "t": 1440.6,
+      "end": 1460.9,
+      "text": "and for the last expert feature that we have we have added an action so you can sanitize the data so if you go to the actions and sanitize the tables so if you forgot to run invoke nav sanitize table on Prem which we strongly recommend that you do you can sanitize it in SAS but you need to select the"
+    },
+    {
+      "t": 1460.9,
+      "end": 1481,
+      "text": "company and you need to select the table that you want to sanitize so it has to be a specific comp and a specific table and then when you invoke the sanitized table we will run the code that should have been done on Prem by the invoke n sanitized build action this can affect the performance of the tenant so we"
+    },
+    {
+      "t": 1481,
+      "end": 1493.2,
+      "text": "recommend to run it outside of the business hours and again I will repeat please run this action on Prem to make sure that the data that you're copying to SAS is"
+    },
+    {
+      "t": 1493.2,
+      "end": 1513.4,
+      "text": "correct okay that was all for the new UI so moving to the next UI feature is moving customized fields to the table extensions on the previous Tech days we have announced that we are planning to do this and we have invited you to help us to test the feature and to provide us feedback and I would like to use this opportunity to thank 20"
+    },
+    {
+      "t": 1513.4,
+      "end": 1529,
+      "text": "partners that have participated in this effort and provided the feedback and tested the functionality which we have developed we have shipped it with the version 21 actually because we backported the code to make it more efficient"
+    },
+    {
+      "t": 1529,
+      "end": 1546.4,
+      "text": "to explain the feature if you have not used it before is if on Prem you have customized Microsoft on tables so let's say that to the table customer you have added three fields that you want to move to sauce and you have some fields that you want to leave"
+    },
+    {
+      "t": 1546.4,
+      "end": 1566.6,
+      "text": "behind so in SAS of course you cannot have customized fields in Microsoft on tables so it can only contain Microsoft on fields all of the data needs to be moved into table extensions and let's say that you want to split the data into two table extensions customer is going to"
+    },
+    {
+      "t": 1566.6,
+      "end": 1581.4,
+      "text": "be copied automatically because it has replicate data property set to true so we are going to insert the default mapping by name and we are going to search for all of the fields that we can map by name and type and we are going to automatically"
+    },
+    {
+      "t": 1581.4,
+      "end": 1601.4,
+      "text": "replicate if we do not do anything the other fields are going to be left behind but now you are able to do the these simple migration table mappings and this will copy the custom fields to the Target table if the fields match so if you specify two table mappings"
+    },
+    {
+      "t": 1601.4,
+      "end": 1621.9,
+      "text": "engine will be able to split the data between these two table extensions and automatically map the fields that it can by name and type one important thing to note here is that you need to rename the fields so you will need to prefix them so they are called the same as in on Prem and"
+    },
+    {
+      "t": 1621.9,
+      "end": 1641.9,
+      "text": "Inu you can do this in either C because C allows braking changes but you can also use SQL scripts because the only thing that the engine is looking at is the SQL definition so it is even possible to rename the fields in SQL on the keyn note you have seen that we are planning to"
+    },
+    {
+      "t": 1641.9,
+      "end": 1659.7,
+      "text": "introduce name spaces and the goal of the development team is to eliminate prefixes and suffixes in all of the objects including the table names and table Fields so hopefully this rename in the future is not going to be"
+    },
+    {
+      "t": 1659.7,
+      "end": 1666.3,
+      "text": "needed to show you this feature in the action we are going to move to the next"
+    },
+    {
+      "t": 1666.3,
+      "end": 1686.5,
+      "text": "them here in CLE I have two tables one is customer and the second one is G entry and as you can see they all have customized Fields I have already renamed them through the SQL script so this one is named pt1 and this one is pt2 and pt3 because I would like to split this"
+    },
+    {
+      "t": 1686.5,
+      "end": 1703.9,
+      "text": "customer table into three table extensions and it's the same for the GL entry table I want to do the same so I want to move two Fields into pt1 and the other two fields to the pt2 if I switch to the cloud migration UI"
+    },
+    {
+      "t": 1703.9,
+      "end": 1710.6,
+      "text": "and and if we go to the extensions management page"
+    },
+    {
+      "t": 1711.8,
+      "end": 1729.4,
+      "text": "and under the manage extensions installation status you can see that I have already uploaded three pts that I'm going to use as a target for the cloud migration and this is of course a necessary step that you need to do before you can Define the table"
+    },
+    {
+      "t": 1729.4,
+      "end": 1749.6,
+      "text": "mappings now if we go back to the cloud migration UI here is the action which is named manage custom tables and if we invoke it here when it opens you can use this page to define the table mappings you could Define it in line by selecting table extension and then filling out the other"
+    },
+    {
+      "t": 1749.6,
+      "end": 1769.6,
+      "text": "fields however we have seen that this is aror prom if you make a mistake when you define the migration table mappings no data is going to be moved across and these kind of issues are a little bit difficult to troubleshoot to help you to add migration table mappings in an easier way but also in a"
+    },
+    {
+      "t": 1769.6,
+      "end": 1780.4,
+      "text": "less apron way we have added a dedicated UI for that and you can access it through this section which is called add table mappings so if you invoke this section"
+    },
+    {
+      "t": 1780.4,
+      "end": 1800.5,
+      "text": "here on this page the only thing that you actually need to provide is the name and if you would like to add it so you are sure that there will be no mistakes we recommend that you copy the definition from the SQL including square brackets and you just"
+    },
+    {
+      "t": 1800.5,
+      "end": 1821.1,
+      "text": "paste it into this name field here so if I do this the system is automatically going to pass it and it is going to set the app ID but this is only applicable if the table is an Al table and it is also going to update this property is the data per company or not"
+    },
+    {
+      "t": 1821.1,
+      "end": 1833.5,
+      "text": "because we customer is the data per company is going to set it to true then you need to say that you want a table extension"
+    },
+    {
+      "t": 1833.5,
+      "end": 1854.5,
+      "text": "here and you need to select which extensions you want to map so we can filter down the list so we want these three table extensions that I have uploaded so now here I can see all of the table extensions that the extension is containing I could invoke okay"
+    },
+    {
+      "t": 1854.5,
+      "end": 1871.5,
+      "text": "however that would insert one migration table map in and then I would need to repeat this process three times this is not needed because if you select three rows then we are going to insert three migration"
+    },
+    {
+      "t": 1872.5,
+      "end": 1892.9,
+      "text": "mappings the next if we would like to add the GL table mapping I'm going to invoke this action again and back to the SQL management Studio I'm going to copy the table name and the thing that you can see here is that the value is already escaped so it has the underscore instead of the"
+    },
+    {
+      "t": 1892.9,
+      "end": 1907,
+      "text": "slash so I'm going to copy it like this and go here and paste it the system is going to pass the values again and then I just need to select these"
+    },
+    {
+      "t": 1907,
+      "end": 1922.3,
+      "text": "values and when I invoke okay it's going to insert three additional mappings so now we have seen how quickly you can Define six migration table mappings and split two tables onto the three table"
+    },
+    {
+      "t": 1922.3,
+      "end": 1937.3,
+      "text": "extensions if you would like to save this configuration that you done so you don't need to repeat it again you have the ability to import and to export this definition into adjacent file so you can use it across the environments and across"
+    },
+    {
+      "t": 1937.3,
+      "end": 1956.1,
+      "text": "replications however if you're a large provider like an IV and you're going to have many people using the migration mappings that you're defining it's possible to programmatically provide migration table mappings by subscribing to on insert default table mappings event from code unit"
+    },
+    {
+      "t": 1956.1,
+      "end": 1975.7,
+      "text": "4,01 so if you do this through code then table mappings are going to be inserted each time when you complete the setup wizard or if you invoke reset migration table mappings action on the migration table mappings page before we move on there is one important limitation that I would like to"
+    },
+    {
+      "t": 1975.7,
+      "end": 1996.1,
+      "text": "highlight so so we have seen that some of the partners have tried to do the following so let's say that on the customer table they have added a field to and they already have the table extension in the on Prem database and then during the cloud migration they would like to move this field"
+    },
+    {
+      "t": 1996.1,
+      "end": 2016.1,
+      "text": "from the customer into the table extension and they would try to do it like this by specifying a migration table mapping so if you do it like this it is not going to work because the table extension is now replicated from two sources and that is simply not"
+    },
+    {
+      "t": 2016.1,
+      "end": 2036.2,
+      "text": "supported by the engine engine is not able to merge the data coming in from two tables into a single Target table if you would like to unblock this one you can either move the field two to the table extension on Prem or you can introduce a new table extension"
+    },
+    {
+      "t": 2036.2,
+      "end": 2057,
+      "text": "and then Define the migration table mapping most of the partners select the solution two because it's easier for them but you also have the solution one in case you need to use it moving on to the next topic and that's Telemetry uh approximately few weeks ago we have added support for the Telemetry"
+    },
+    {
+      "t": 2057,
+      "end": 2077.5,
+      "text": "and we have added a lot of events to the partner Telemetry that you can use to track and analyze what happened to the replication runs so you you can see the full list here we have also linked in to the documentation Topic in the slides so you can get notified whenever the replication run is started most importantly"
+    },
+    {
+      "t": 2077.5,
+      "end": 2097.8,
+      "text": "when it completes and if it completed successfully then companion tables you can get the Telemetry if it was started and completed because in some cases it would throw errors then you can also get the status on the upgrade events and in case it failed if the recovery was completed successfully and for the completeness"
+    },
+    {
+      "t": 2097.8,
+      "end": 2117.8,
+      "text": "sake we are also tracking when you have disabled the cloud migration this part is quite interesting because you can use it to build the powerbi dashboards to track the progress of your Cloud migrations the example that I'm going to show to you you can access it by this link so it was done by our pm and you can download"
+    },
+    {
+      "t": 2117.8,
+      "end": 2137.8,
+      "text": "it so you can use it as a base to build your own dashboards to show you what is within this dashboard so if you zoom in the first thing is of course navigating to it so you navigate to the report by selecting the cloud migration part of it and then the first tab is going to show you what"
+    },
+    {
+      "t": 2137.8,
+      "end": 2158,
+      "text": "is the status across environments so if you're running the cloud migrations for multiple environments you can see what is happening there and you also have the link to the admin Center and also to the client so you can quickly access the environment itself you can use the data to build some dashboards with errors"
+    },
+    {
+      "t": 2158,
+      "end": 2178.2,
+      "text": "and the other kpis so you can get a quick overview what is happening and the thing that I like the best personally is the fact that you can access the cloud migration lock so you can see what is happening within the environments without actually accessing the client so if you're running many Cloud migrations I would invite you to try"
+    },
+    {
+      "t": 2178.2,
+      "end": 2194.8,
+      "text": "out our powerbi and to see if you can get a nice overview of what is happening across the envirment um if you want to access the queries they're also on the BCTC GitHub so you can use it to build your own"
+    },
+    {
+      "t": 2194.8,
+      "end": 2214.9,
+      "text": "reporting and these are the most important events that you can use to receive the email notifications so if you would like to get email notification whenever the replication run completes and when the data operate completes or fails you can subscribe to these events on the previous BCT Tech this event there was a"
+    },
+    {
+      "t": 2214.9,
+      "end": 2233.4,
+      "text": "dedicated session on how you can set up these alerts I would invite you to watch the recording of that one if you are interested and we have also put some documentation articles that are going to guide you how you can set up the email notifications based on the partner"
+    },
+    {
+      "t": 2233.4,
+      "end": 2253.7,
+      "text": "dmetry so that was all for the partner based Telemetry and now we are moving to the new upgrade strategy topic few months ago we made an important announcement and we have also talked about it on the directions and we have published it on Yammer and we are using this opportunity to repeat it"
+    },
+    {
+      "t": 2253.7,
+      "end": 2265,
+      "text": "because it can affect some of you if you would like to access the announcement you can use the link on the right to access it on the official documentation"
+    },
+    {
+      "t": 2265,
+      "end": 2285,
+      "text": "site in short the change is that we are stopping the direct upgrate and Cloud migration Po from version 14 we currently support the upgrade PA from 14 straight into the lat lest version on Prem and you can also connect the 14 database and directly Cloud migrated into SS"
+    },
+    {
+      "t": 2285,
+      "end": 2301,
+      "text": "with version 26 unfortunately we will need to stop this upgrade but this is in approximately two years so we are giving you an early heads up because we believe that to some of you this ability is rather"
+    },
+    {
+      "t": 2301,
+      "end": 2319,
+      "text": "important the reason why we need to do this is because we need to clean up obsolet fields and tables we have not deleted anything from the table schema actually from version 12 and across 14 versions no table objects have been"
+    },
+    {
+      "t": 2319,
+      "end": 2339.8,
+      "text": "deleted so far we have 7 years of obsolete removed objects and these objects are taking around 10% of the database we need to remove these objects so we can save in space and the second reason why we need to do this is because it is affecting our delocalization effort about moving all of the localized functionality"
+    },
+    {
+      "t": 2339.8,
+      "end": 2360.7,
+      "text": "into the extension and providing you a much better code we have also received this request from many of the partners to be able to finally delete the obsolete removed objects and to clean them up from the schema which is something that we as developers need to do and we all have around seven years of scheme objects to"
+    },
+    {
+      "t": 2360.7,
+      "end": 2380.7,
+      "text": "delete the second effort which is being affected by this is that we are looking into mov the tables between the extensions so you will be able to push the table up and down the dependency chain and both of these changes are actually quite breaking for both upgrade and Cloud migration we have received the request"
+    },
+    {
+      "t": 2380.7,
+      "end": 2401,
+      "text": "from the partners to ship the ability to remove the obsolete objects earlier before version 26 and we are looking into this we have not started the implementation of this feature yet however the current thinking is that it is going to work like this so we have a table in version 25 that has been marked"
+    },
+    {
+      "t": 2401,
+      "end": 2421.1,
+      "text": "with obsolete removed and also field that is marked with obsolete removed and we would like to get rid of them in version 26 the only thing that you would need to do is to delete the objects from the SE the second item is that you need to clean up the upate code because now the references are going to"
+    },
+    {
+      "t": 2421.1,
+      "end": 2441.6,
+      "text": "be broken and the upgrade is not going to compile and then the next step is to simp run the upgrade and the engine itself is going to check if the table and the field has been marked with obsolete removed and it is going to allow the change then it is going to drop the definition and remove the field and the table from the SQL"
+    },
+    {
+      "t": 2441.6,
+      "end": 2462.1,
+      "text": "definition so in short the only thing that you need to do to remove the table and the field from schema is to have a version in which it is obsolete removed and then in the next version you can delete it we do not enforce any kind of schedule to the part part regarding the breaking changes however we as Microsoft we need to follow the schedule"
+    },
+    {
+      "t": 2462.1,
+      "end": 2482.9,
+      "text": "otherwise we would be breaking it to understand better how this new schedule is going to work this is the visual representation of the changes that are going to happen in year and a half the active version is going to be 25 and here the things are going to be exactly the same as they are currently"
+    },
+    {
+      "t": 2482.9,
+      "end": 2503,
+      "text": "you would still need to go to 14 you can go from all all of these versions into version 25 and also all of the on Prem versions are able to go straight into SS as we are working on the version 26 we are going to start with deleting the objects so we will introduce the braking SQL changes"
+    },
+    {
+      "t": 2503,
+      "end": 2523.2,
+      "text": "immediately at the beginning you will be able to see what we have done through The Insider builds and you can prepare for the changes that we are doing and then when the version 26 is released then the version 25 becomes the jump build we will be forced to delete the upgrade code in version 26"
+    },
+    {
+      "t": 2523.2,
+      "end": 2544.6,
+      "text": "which means that in order to get to 26 you need to go through 25 so all of these on Prem versions they will need to upgrade to 25 and then from 25 to 26 as a separate upgrade step or both versions 25 and 26 will be able to Cloud migrate"
+    },
+    {
+      "t": 2544.6,
+      "end": 2564.8,
+      "text": "directly now if you look further in the future we are planning to do these updates every five years so in every five versions We are planning to introduce a jumper build when we start working on the version 30 you will need to operate from version 25 to 30 and all of these versions"
+    },
+    {
+      "t": 2564.8,
+      "end": 2581.8,
+      "text": "will be able to Cloud migrate however when we introduce the version 31 it's going to contain breaking SQL changes and then you will need to go to 30 and and then from 30 to 35 and all of these versions will be able to Cloud"
+    },
+    {
+      "t": 2581.8,
+      "end": 2601.9,
+      "text": "maret during the session we got one really interesting question that I would like to raise here as well one of the partners has asked us if this picture means that the on Prem is going to be supported at least until version 35 and the reason why I would like to highlight this question here is to tell you that this thing that"
+    },
+    {
+      "t": 2601.9,
+      "end": 2622.1,
+      "text": "you have just seen is our current thinking and these are are the things that we are planning to do with the current knowledge the reason why we are sharing it with you is because we would really like to get your feedback and to also give you an early heads up about the things that we are planning to do so you can adjust and regarding the topic if the on"
+    },
+    {
+      "t": 2622.1,
+      "end": 2642.2,
+      "text": "Prem is going to be supported until version 35 currently there are no plans of stopping the on Prem support and if there are any PLS they are going to be announced in advance also the second thing is that it's really hard to make any plans 7 years up in the future so"
+    },
+    {
+      "t": 2642.2,
+      "end": 2652.4,
+      "text": "this current schedule that you have seen it can change and in case of any changes we are also going to announce it to you so you can prepare in"
+    },
+    {
+      "t": 2652.4,
+      "end": 2672.5,
+      "text": "time all right so that was all about the new OP strategy and the next topic is plans for the future for the plans for the future I'm going to talk about our current road map and all of the items that you can see they currently on the backlog and I will present them probably in the order in which we will be delivering them to"
+    },
+    {
+      "t": 2672.5,
+      "end": 2692.8,
+      "text": "you the first item is that we want to allow you to specify the company badge size when you're replicating the date as you have seen during Julia's part of the presentation now you can move almost unlimited number of companies during your application so we want to allow you to be able to specify if you want to move 30 40 and 50"
+    },
+    {
+      "t": 2692.8,
+      "end": 2713.2,
+      "text": "in case you're limited by your setup we also also want to enable you to handle these batches in an easier way and for this we need to improve the UI then the next item is to give you the ability to include or exclude tables from the cloud migration currently we in Microsoft we decide what is being replicated"
+    },
+    {
+      "t": 2713.2,
+      "end": 2734,
+      "text": "and what is not for Microsoft owned tables and if you would like to override this decision you need to do workarounds either to delete the content from the table or to use some customized solutions to move the data to l XML ports apis or Json import expert so in order to enable you to be more efficient"
+    },
+    {
+      "t": 2734,
+      "end": 2754.2,
+      "text": "we are thinking about including a new UI so you can override the decision that we made so if you would like to move to change log entries and maybe record links or any other table you will be able to do this without the need to write any code straight in the product the only requirement will be that the table is not marked"
+    },
+    {
+      "t": 2754.2,
+      "end": 2774.4,
+      "text": "as internal and then you you will be able to override the decision that we did then the next topic is that we want to improve the handling of all per database tables so we do not replace the entire table but to Delta sync it in the same way as we are Delta syncing tenant"
+    },
+    {
+      "t": 2774.4,
+      "end": 2794.5,
+      "text": "media the next item is that we want to disable assigning intelligent Cloud permission sets to all users when you enable the cloud migration we have received feedback from many of you that this is quite dis disrupting and that you also are not able to use service to service authentication because of this Behavior we are going to ship this functionality"
+    },
+    {
+      "t": 2794.5,
+      "end": 2814.6,
+      "text": "as an expert feature that will be a small action so you can disable this default behavior for the beginning we will not disable it automatically we also want to add warnings to the new UI warnings functionality is one of the things that is missing so we are going to warn you if for example if the tenant"
+    },
+    {
+      "t": 2814.6,
+      "end": 2831.6,
+      "text": "media table got completely replaced and also if you have defined any table mappings and no data was moved if we see common patterns in the mistakes that are happening during the cloud migrations then we can extend the Warning Systems with additional"
+    },
+    {
+      "t": 2831.6,
+      "end": 2851.7,
+      "text": "warnings and last item that we want to add is to add the ability to cancel the ongoing replication currently you can do it by disabling the integration runtime in on the machine which is costing the integration runtime however this does not cancel it in all of the cases so we want to give you a simple action in the"
+    },
+    {
+      "t": 2851.7,
+      "end": 2872.6,
+      "text": "UI so you can cancel the outgoing replication so this is our current backlog based on your feedback and our thinking if you have more items or if you have any feedback to the things that I have just presented please reach out to us so that would be all for today for the summary we have following"
+    },
+    {
+      "t": 2872.6,
+      "end": 2885.4,
+      "text": "recommendations so please consider Migra from from Asia SQL if you have large databases to migrate or otherwise you have to have very strong on premise"
+    },
+    {
+      "t": 2885.4,
+      "end": 2901.1,
+      "text": "setup um also for the if you want to enjoy longer periods of uh Delta sync then set longer change track and retention period and consider diagnostic runs to quickly test your future"
+    },
+    {
+      "t": 2901.1,
+      "end": 2921.3,
+      "text": "replications yes also you have seen from Julia's part that the cloud migration link can now support really large tenants and we have shown you that you can now move customized Fields with migration table mapping and we would highly recommend to setup Telemetry if you want to be able to troubleshoot the cloud migrations get notifications"
+    },
+    {
+      "t": 2921.3,
+      "end": 2941.4,
+      "text": "through email or if you want to build a nice dashboard we would like to invite you to join us on ymer so if you have any feedback to the content that you have seen today or if you have any questions you can reach out to jul on me on Yammer we also have many other partners which are on this channel that are helping out so we would strongly"
+    },
+    {
+      "t": 2941.4,
+      "end": 2947,
+      "text": "recommend that you join us here thank you very much for your attention thank you"
+    }
+  ],
+  "markers": [],
+  "word_count": 7863
+}

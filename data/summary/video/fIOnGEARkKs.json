@@ -1,0 +1,28 @@
+{
+  "video_id": "fIOnGEARkKs",
+  "item_id": "video/yt-microsoft/fIOnGEARkKs",
+  "summary": "Business Central and Dataverse / Dynamics 365 Sales integration changes in 2023 release wave 2: multi-company and multi-environment synchronization, multi-currency conversion, extra field mappings, event-based sync control, virtual table visibility in assisted setup, and licensing changes.",
+  "overview": "This is part 1 of the 2023 release wave 2 session on Dataverse and Dynamics 365 app integration. It covers how multiple companies from multiple Business Central environments can access data in the same Dataverse environment, including company filter handling, stricter document filtering, and multi-tenant Azure AD support. It also recommends consolidating data in one master data company before integrating.\n\nThe session then covers multi-currency synchronization, additional field mappings, turning off event-based synchronization per mapping, virtual table visibility during assisted setup, and removed commercial blockers for integrating Dynamics 365 apps. A demo shows multi-company setup, base currency conversion, virtual tables, and the default environment and company selection.",
+  "key_points": [
+    "Multiple companies from multiple Business Central environments can access data in the same Dataverse environment. Company filters need careful configuration, and documents need explicit company selection to avoid conflicts.",
+    "Recommended approach: consolidate data in one master data company in Business Central, synchronize between companies with master data management, then integrate with central Dataverse or Dynamics 365 Sales. This improves performance and avoids service protection limits.",
+    "Multi-currency: Business Central local currencies are added to Dataverse automatically and amounts are converted on the fly. The Dataverse base currency must be set up as a regular currency in Business Central with exchange rates.",
+    "Customer, vendor, contact, salesperson and opportunity mappings have additional fields. They are disabled by default, and users can enable them without a developer.",
+    "Event-based synchronization can be turned off per integration table mapping to reduce errors and sync events. Default settings are unchanged to avoid disrupting existing integrations.",
+    "In assisted setup for Dataverse, specific virtual tables can be made visible, one at a time or in bulk. More can be added later from the connection setup page.",
+    "Each user can set and change a default Business Central environment and company for opening coupled records from Dynamics 365 Sales. The system also recommends coupling criteria for simple tables such as payment terms and currencies."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "6c5129c98d1258c2a98916b4aa1b8d02fdda22c9932e78819bc25787b7f5425b",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0195764
+  }
+}

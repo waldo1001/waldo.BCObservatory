@@ -1,0 +1,28 @@
+{
+  "video_id": "lNASlydCidI",
+  "item_id": "video/yt-microsoft/lNASlydCidI",
+  "summary": "Generative AI developer toolkit for Business Central Copilot (2023 release wave 2): the prompt dialogue page type, system actions, the AI module for Azure OpenAI, capability registration, and admin and responsible AI controls. The toolkit is in preview for Insider builds.",
+  "overview": "The session explains how partners can build non-conversational generative AI features into Business Central online extensions. It walks through a draft project plan example for Jobs, showing the prompt dialogue page type, the generate, regenerate and attach system actions, prompt options, generation history through a temporary source table, and keep/discard handling.\n\nIt then covers the AI module: registering a copilot capability, setting up Azure OpenAI authorization, text completion, chat completion and embeddings, meta prompts and optional parameters. It closes with the Copilot and AI capabilities administration page, regional Azure OpenAI handling, data governance, responsible AI, telemetry and user feedback.",
+  "key_points": [
+    "The toolkit is in preview and available now in Insider builds. A minor update during 2023 release wave 2 will include it for online deployment.",
+    "It targets Business Central online (SaaS) only and uses Azure OpenAI. It is for non-conversational features with human review, not chatbots.",
+    "The prompt dialogue is a new page type value. It is not extensible, and a preview badge is recommended for first releases.",
+    "Each extension must register its copilot capability through the copilot capability codeunit and by extending the capability enum. Otherwise an error is thrown.",
+    "The AI module supports text completion, chat completion and embeddings. It does not support DALL-E image generation or Whisper. Embeddings have no optional parameters, and the parameter n is not supported.",
+    "Do not hardcode Azure OpenAI keys in extensions. Use isolated storage or the AppSource key vault. Each deployment is a specific model type.",
+    "There is no master kill switch for Copilot, which is on by default. Admins can deactivate individual capabilities, and customers in regions without Azure OpenAI must opt in to out-of-region services."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "partner",
+    "functional consultant"
+  ],
+  "extraction_hash": "47f8f309ecab78cd5a19bbd900eeed18d52fb382489c18ca09ebd78141008deb",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0393864
+  }
+}

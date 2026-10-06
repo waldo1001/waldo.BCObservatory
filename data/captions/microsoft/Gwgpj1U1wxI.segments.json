@@ -1,0 +1,948 @@
+{
+  "video_id": "Gwgpj1U1wxI",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 2.1,
+      "end": 22.6,
+      "text": "hello everyone and welcome to the cloud migration for beginners my name is Nicola and I'm a software developer and one of the areas that I'm working on is cloud migration toing together with me I have Ricardo yeah thank you I am Ricardo indeed a software engineer from the Contra plane team in business Central uh our team also deals"
+    },
+    {
+      "t": 22.6,
+      "end": 42.8,
+      "text": "besides Cloud migration also with the environment Administration features so we have prepared a lot of content for you that we will try to fit within approximately 1 hour time frame we are going to start with the introduction where we are going to show to you all of the important Concepts around the cloud migration and you will be able to see"
+    },
+    {
+      "t": 42.8,
+      "end": 62.9,
+      "text": "how does the cloud migration looks end to endend and then for the next part we are going to go through the steps that are necessary to be done for the cloud migration so we will show you how you can prepare for the cloud migration how to set it up and replicate the data important things around the data upgrade and how do you complete the cloud migration"
+    },
+    {
+      "t": 62.9,
+      "end": 83.2,
+      "text": "go live and we are going to end with troubleshooting section one important thing that I would like to say before we begin is that some functionality we are going to explore in depth however some functionality we are going to only mention with a reference to the documentation so you can read it on your own and"
+    },
+    {
+      "t": 83.2,
+      "end": 104.6,
+      "text": "this is because it would not fit the time frame so for the introduction we are going to start with the why should you use the cloud migration tooling I'm going to show you some endtoend flow how does it look like and we are going to end up discussing which possible Cloud migration paths are"
+    },
+    {
+      "t": 104.6,
+      "end": 125.2,
+      "text": "available for why you should use the cloud migration tooling there are two main reasons and they are that it is the fastest and safest way to migrate the on Prem data into sauce the reason why it is the fastest way is because it is using SQL to SQL copy so it is going to take one SQL database and by using"
+    },
+    {
+      "t": 125.2,
+      "end": 145.3,
+      "text": "technology which is named Azure data Factory it is going to use it to move the data from the on Prem database into the SAS database if we compare this to some other tooling like rapid start or any other Al based solution SQL to SQL copy is much faster the second"
+    },
+    {
+      "t": 145.3,
+      "end": 165.6,
+      "text": "reason why we would recommend you to use the cloud migration tool link is because it is the safest way to run the cloud migration we have streamlined the process it has been used by the thousands of Partners unfortunately I cannot tell you how many migrations exactly we had but it is counted in tens of thousands of unique Cloud"
+    },
+    {
+      "t": 165.6,
+      "end": 186.3,
+      "text": "migrations for these reasons we have invested a lot in preventing you from making mistakes because discovering mistakes after goingo life can be quite costly to fix so the tooling is built to highlight all of the mistakes that you can do and to prevent you from actually making them and not realizing"
+    },
+    {
+      "t": 186.3,
+      "end": 206.4,
+      "text": "that you have done the mistake we have also looked into which data should be replicated and which should be left on Prem for all of the Microsoft on tables so you're going to be moving only the data that is necessary to the cloud and at the end the tooling is capable to detect data issues in"
+    },
+    {
+      "t": 206.4,
+      "end": 216.5,
+      "text": "some cases it can autocorrect them and in case that it cannot out correct the issues it's going to highlight them either as errors or as"
+    },
+    {
+      "t": 216.5,
+      "end": 236.6,
+      "text": "warnings as I have said we have a large community of partners that is using it which is also able to help you with some tips and tricks around the tooling so I would recommend to you to check out the documentation because we have listed a lot of information here also after you have read it for the first time I would recommend to come from time to time and to check for"
+    },
+    {
+      "t": 236.6,
+      "end": 256.6,
+      "text": "updates because we are constantly updating the documentation with useful information one of the things I would really like to ask you to do is to join us on ymer as you can see we have a large community here almost 1,200 partners that are active on this channel so if you have any problems"
+    },
+    {
+      "t": 256.6,
+      "end": 271.5,
+      "text": "you can ask the question here you can reach out to us with the feedback or any questions that you have and it's also an excellent way to interact with the other partners that are doing the Cloud migration and to share the experiences"
+    },
+    {
+      "t": 271.5,
+      "end": 291.6,
+      "text": "so this was all for why should you use the cloud migration tool that we have shipped and now I'm going to show you how does the process look like end to end so here I have a recording ready because this process would take approximately 40 minutes and we are going to speed it up so you will be able"
+    },
+    {
+      "t": 291.6,
+      "end": 311.6,
+      "text": "to see how does it look like to access the cloud migration toink you simply search for it on the cloud migration management and when you go to this page here you will see that we have raised the notification that can take you to the setup wizard on this step only thing that you need to do is to choose the product from which you are migrating"
+    },
+    {
+      "t": 311.6,
+      "end": 331.7,
+      "text": "for this demo we are going to choose the earlier version of the business Central because we want to migrate the database that is coming from 14 on the next step I need to provide the SQL connection string in the tool tip you can see how it is looking like so you can Define it in an easy way I'm going to quickly copy paste it for this"
+    },
+    {
+      "t": 331.7,
+      "end": 351.8,
+      "text": "demo because I have it ready so when I enter the SQL connection string here when I invoke the next action here then we are going to create the Azure data Factory Pipeline and we will give you the access key for it because we are using on Prem SQL Server"
+    },
+    {
+      "t": 351.8,
+      "end": 372,
+      "text": "here you will need to configure it if you were using Azure SQL database it would not be necessary Ricardo is going to talk about it a bit more so here we are waiting for it and on this step we are going to give you the instructions on how you can set up the integration runtime on your box to expose the on Prem"
+    },
+    {
+      "t": 372,
+      "end": 392.2,
+      "text": "database to the Azure data Factory the first step that you would need to do is to download and install the integration runtime because we're are using the on Prem SQL and then when it installs you can copy paste the authentication key there will be a small window where you can provide it and that is going to connect it to the Azure data Factory"
+    },
+    {
+      "t": 392.2,
+      "end": 412.7,
+      "text": "for the time reasons I have already done this and I have pre-installed integration runtime which also allows me to show you one cool thing many partners are actually reinstalling the integration runtime if they want to change the key that is not necessary because you can use Powershell to change the runtime"
+    },
+    {
+      "t": 412.7,
+      "end": 432.7,
+      "text": "to change the connection that the integration runtime is using so to do this you simply Define the r key like variable like here and then you can use a Powershell script that is coming with the integration runtime it's called like register integration runtime and you provide the Gateway key that you have just defined above"
+    },
+    {
+      "t": 432.7,
+      "end": 449.5,
+      "text": "and if you run it like this then it is going to reconfigure the integration runtime that is already installed to connect to the different Azure data Factory pipeline so this is going to save you significant amount of time if you're running multiple Cloud migrations"
+    },
+    {
+      "t": 449.5,
+      "end": 469.7,
+      "text": "so if you run this poell script you can see that the integration runtime is connecting to the service now it has connected so if I go back to the client and if I invoke next now the integration runtime is going to try to read the on Prem database and if we rewind the video a little bit because"
+    },
+    {
+      "t": 469.7,
+      "end": 474.3,
+      "text": "this takes like 10 to 15"
+    },
+    {
+      "t": 474.3,
+      "end": 485.4,
+      "text": "seconds and here you can see it's successfully connected we see the on Prem companies we we going to select all of them and now we can finish the"
+    },
+    {
+      "t": 485.4,
+      "end": 505.4,
+      "text": "wizard the migration has been set up it can take you directly to the UI so you can manage the cloud migration like here and the status that you can see here is that it is creating companies so we are going to automatically create all of the companies that you have selected on The Wizard and this step we recommend that you do immediately"
+    },
+    {
+      "t": 505.4,
+      "end": 525.6,
+      "text": "after your provision the tenant because it can save you time when you decide to do the go live migration there is no need to wait for the creation of the companies which can take few hours if you're moving 20 or 30 companies if you go for the companies page here you will see that the companies are created and the status is changed ready"
+    },
+    {
+      "t": 525.6,
+      "end": 545.7,
+      "text": "for application and now we can start moving the data to Sauce So when you say that you want to start the data replication now the replication process is going to start and you can track it on this page by invoking refresh status section that is here so if we invoke this refresh status section A few"
+    },
+    {
+      "t": 545.7,
+      "end": 565.5,
+      "text": "time after like 5 to 10 minutes is going to connect and you can see that we have 1,662 tables to copy so if we rewind the video a little bit this number is going to start going down and you can see that the number of table successful is going to start"
+    },
+    {
+      "t": 565.5,
+      "end": 572.2,
+      "text": "increasing so if we are rewinding it"
+    },
+    {
+      "t": 573,
+      "end": 594.2,
+      "text": "and here the thing that you can see is that we have successfully copied all of the tables the number is a little less than 1,600 and that's because we don't report the tables that had no date with in them then if I tried to complete the cloud migration go"
+    },
+    {
+      "t": 594.2,
+      "end": 614.5,
+      "text": "life the thing that I'm going to get is that I cannot do it because I did not run the upgrad and I'm migrating from 14 and to fix that I can invoke the Run data upgrade action and we are going to warn you that you need to do this as a last step we're going to be talking about it a bit more later then if you invoke"
+    },
+    {
+      "t": 614.5,
+      "end": 634.7,
+      "text": "the upgrade like this the thing that is going to happen is that you're going to lose the access to the environment because we will move the tenant into the maintenance mode and the only session that is going to be running on the tenant is is the upgrate session and this is great because you're not going to get any data locks"
+    },
+    {
+      "t": 634.7,
+      "end": 655.1,
+      "text": "there will not be any instabilities and the last thing that I would like to say you are also getting an automatic roll back in case the upgrade fails so you can patch the date while it is running you can track the status in the business Central admin Center you can see that the data upgrade is running here and in case it fails"
+    },
+    {
+      "t": 655.1,
+      "end": 675.4,
+      "text": "you'll also get an error here together with the stri so if we run it a little bit more as you can see here the upgrade has succeeded so if we go back to the tenant and if we refresh this window here we are going to get the access"
+    },
+    {
+      "t": 675.4,
+      "end": 696.8,
+      "text": "back so the tenant is loading and if we go to the cloud migration management page you can see that the upgrade has completed successfully so now we are able to invoke complete the cloud migration and do the actions that we need to do before going"
+    },
+    {
+      "t": 696.8,
+      "end": 717,
+      "text": "live so if I invoke this section then the cloud migration is going to stop we will deprovision all of the pipelines and we will Market as completed so as you have seen we have moved three companies in approximately 12 minutes so this is how long it took to copy so the tooling"
+    },
+    {
+      "t": 717,
+      "end": 733.6,
+      "text": "itself is actually quite quick okay so that was all for the demo of the endtoend cloud migration and the last topic for the introduction is what are possible migration parts that you can use for the cloud"
+    },
+    {
+      "t": 733.6,
+      "end": 753.6,
+      "text": "migration so if you're planning to do the s cloud migration and the customer is on version that is before 14 the first step is to upgrade to 14 14 is the lowest version that we support for Direct on Prem upgrade or for the direct Cloud migration"
+    },
+    {
+      "t": 753.6,
+      "end": 773.7,
+      "text": "from 14 and also from all of the versions that are before 23 you can do a single step upgrade to the latest version and then from the latest version you can simply replicate to sauce or from all of these versions that are from 14 to 22 you can do a direct Cloud migration and then run the missing"
+    },
+    {
+      "t": 773.7,
+      "end": 794,
+      "text": "upgrade in sauce to put it in words you need to upgrade to version 14 and then you can either replicate directly to sus and run the upgradeing sus or you can run the on Prem upgrade to the latest version and then replicate data to Sauce we are often getting questions which option is better option"
+    },
+    {
+      "t": 794,
+      "end": 814.4,
+      "text": "one is much simpler because you simply connect the SQL database as you have seen in the demo you replicate the data and then we will run the upgrade for you option two is more complex for you because you need to do more work but it's giving you more control over the upgrade process because you're running it on Prem usually"
+    },
+    {
+      "t": 814.4,
+      "end": 829.9,
+      "text": "the partners are using on Prem upgrade for large tenants because it is going to give them more control and optimizations over the upgrade process while the smaller tenants are simply copied to SAS and directly"
+    },
+    {
+      "t": 829.9,
+      "end": 850.7,
+      "text": "updated we are going to write a dedicated documentation topic around moving the large tenants with tips and tricks how you can optimize the speed because we are getting a lot of questions in this area and for the last thing for the cloud migration upgrade flows we have an important upgrade strategy announcement and this is that we are stopping"
+    },
+    {
+      "t": 850.7,
+      "end": 870.6,
+      "text": "the direct upgrade and Cloud migration path from Dynamics business Central 14 in approximately year and a half from now so in April 2025 together with version 26 it will not be possible to Cloud migrate or directly upgrade from version 4 14 to version"
+    },
+    {
+      "t": 870.6,
+      "end": 890.9,
+      "text": "26 the reason why we are doing this is because we need to remove obsolet fields and tables we have not been cleaning up objects in a very long time actually from version 12 so the amount of data that we need to clean up is quite large and the second reason why we need to do this is because of the delocalization"
+    },
+    {
+      "t": 890.9,
+      "end": 911,
+      "text": "effort that we are doing we are trying to move all of the localizations into separate extensions and for this we will need to move the tables up and down and for both of these efforts if we delete any SQL objects we cannot support a direct Cloud migration or upgrate pot to explain this one in a little bit"
+    },
+    {
+      "t": 911,
+      "end": 931.3,
+      "text": "more details so when we start working on version 26 we are going to start with introducing the breaking SQL changes and we will delete the upgrade methods that were there so you will see all of the changes that we did when we start working on version 26 and when version 26 is is released then version 25"
+    },
+    {
+      "t": 931.3,
+      "end": 952.2,
+      "text": "is going to become a jump build this means that from all of these versions before 25 you will need to upgrade to 25 then from 25 you will be able to upgrade to 26 on Prem and replicate the data or you will be able to replicate the data from 25 and run the upgrade insu"
+    },
+    {
+      "t": 952.2,
+      "end": 972.5,
+      "text": "directly from version 25 we are planning to introduce these jump versions or to delete the objects every five versions so the next jump version would be 30 so there will be a necessary upgrade step every five versions so this is the current plan that we are bringing to you because"
+    },
+    {
+      "t": 972.5,
+      "end": 983,
+      "text": "we would like you to be ready to plan and to adjust if you have any feedback for us please reach out and let us know how is this change affecting"
+    },
+    {
+      "t": 983,
+      "end": 1001.8,
+      "text": "you all right so this was all regarding the introduction and now we are going to move into the preparation step when you're preparing for the cloud migration essentially you need to do two steps one is to align the SQL table definitions and the second one is to clean up the"
+    },
+    {
+      "t": 1001.8,
+      "end": 1022.4,
+      "text": "date aligning the table definitions seems very complex in reality it's quite simple because you only need to take care of two things the first thing that you must do is that you need to align the primary keys so the primary keys in the source table and in the destination table"
+    },
+    {
+      "t": 1022.4,
+      "end": 1042.8,
+      "text": "must match exactly the second thing that you need to do is that you need to make sure that the field name and the field type is matching in the source and in the Target if there is a difference in the name and type we are going to throw an error it's possible to move the"
+    },
+    {
+      "t": 1042.8,
+      "end": 1063.6,
+      "text": "data with different lengths so we can move the shorter lengths into the longer fields that is not going to be seen as a breaking change everything else is optional so if we have customized Fields here we can skip them if you have different table names we can handle them through the table mappings"
+    },
+    {
+      "t": 1063.6,
+      "end": 1083.6,
+      "text": "so you will be able to map the tables in the UI and the engine will be able to move them also if you have customizations that you would like to move out of the main tables as many people on Prem have into the table extensions the cloud migration tooling is able to do this through simple table mappings and we are going to"
+    },
+    {
+      "t": 1083.6,
+      "end": 1104.7,
+      "text": "show you this how does this one work in few moments the tool is completely ignoring everything else so IDs if they are different the tool does not care about them because these properties are stored in the object metadata and we are going to ignore any other"
+    },
+    {
+      "t": 1104.7,
+      "end": 1117.4,
+      "text": "differences when you are aligning the fields one of the things that you will probably need to do is that you will need to introduce threel prefixes or suffixes to the field names and many partners have already done"
+    },
+    {
+      "t": 1117.4,
+      "end": 1137.6,
+      "text": "this so main questions that we are getting here is how can we introduce these threel prefixes in an easiest way essentially there are three options that you can do you can align the definitions in C because C is only looking at IDs when you're doing the renames so in case that you want to do"
+    },
+    {
+      "t": 1137.6,
+      "end": 1157.7,
+      "text": "this you can can import a fob with renames as a separate upgrade step and force sync the changes and then Cil is going to keep the data in this case if the IDS stay the same option number two is probably used by most of the partners you can use SQL scripts to alter the table definitions or"
+    },
+    {
+      "t": 1157.7,
+      "end": 1177.9,
+      "text": "you can also use them to copy the data from the old schema onto the new schema because as I have said the cloud migration tooling is simply just looking at the SQL definitions it's not looking at any other object properties and the last option is if you're a large partner that is running on Prem upgrade as well you can use the data"
+    },
+    {
+      "t": 1177.9,
+      "end": 1190,
+      "text": "transfer objects so you can move the data from the Old Fields into the new Fields data transfer object is essentially a SQL query so it's quite fast in moving the"
+    },
+    {
+      "t": 1190,
+      "end": 1210.2,
+      "text": "date so that was all for aligning the SQL definitions so for the next topic is cleaning up the data one big ask that we have for you and you can do this task even before starting the cloud migration is to run invoke NV sanitized field commandlet to eliminate non-printing characters from code"
+    },
+    {
+      "t": 1210.2,
+      "end": 1230.4,
+      "text": "Fields many customers that have been running on our product for decades they have nonprinting characters in Code Fields like new line characters and SQL server is not able to support these characters so if you Cloud migrate with this it's possible inside also to sanitize the data but"
+    },
+    {
+      "t": 1230.4,
+      "end": 1251.2,
+      "text": "I would strongly recommend that you do this step even before starting the cloud migration because you can clean up their production database and they will be happy to get rid of this data corruption that is coming from many many years ago the second thing to check is as code Fields can have non-printing characters so can company names"
+    },
+    {
+      "t": 1251.2,
+      "end": 1262.1,
+      "text": "so make sure that there are no special characters or trailing spaces if you leave them then you will see that the replication is failing for these specific"
+    },
+    {
+      "t": 1262.1,
+      "end": 1276.5,
+      "text": "companies second thing that you can use for cleaning up the data are the date compression And archiving reports that we have in the product we have a page which is called Data Administration page and it has ID of"
+    },
+    {
+      "t": 1276.5,
+      "end": 1296.7,
+      "text": "9,035 and here we have basically put all of the reports that you can use for data cleanup or data compression so it's good so you get an overview which reports are there most of these reports they exist in all of the versions of BC and nav so you can use them even in these"
+    },
+    {
+      "t": 1296.7,
+      "end": 1316.7,
+      "text": "products however you need to navigate to them because this data Administration page may not be available so this task you can also do before going live on the production database to clean up the data as much as possible and to shrink the data set so the upgrade and the cloud migration goes"
+    },
+    {
+      "t": 1316.7,
+      "end": 1337.4,
+      "text": "smoother all right so that was all about the introduction and preparation Ricardo can you show us the setup yes so that was great so far uh we want to give a closer look now into what are the uh building blocks of the cloud migration infrastructure so basically Let's uh jump into what's uh happening behind the hood of cloud migration"
+    },
+    {
+      "t": 1337.4,
+      "end": 1357.8,
+      "text": "so just to give a very high level introduction of course when we talk about Cloud migration uh there's the assumption that there's always a source environment that would be a business Central own param installation where you have your own SQL Server database and a destination uh business Central online environment that's uh basically"
+    },
+    {
+      "t": 1357.8,
+      "end": 1369.5,
+      "text": "uh with a aure SQL database so let's figure out what's happening in between when we run Cloud migration so the main technology we rely on is the Azure data Factory which is an Azure"
+    },
+    {
+      "t": 1369.5,
+      "end": 1389.8,
+      "text": "cloudbased data integration uh service that takes care of uh moving and transforming the data across different data sources and the main component uh that aure data Factory relies on is pipelines so-called pipelines and what are these pipelines they are basically just a chain"
+    },
+    {
+      "t": 1389.8,
+      "end": 1409.9,
+      "text": "grouping of activities and each of them can either take care of indeed moving transforming or controlling the flow of the data next uh the next component is the um integration runtime this makes up the compute layer of the cloud migration infrastructure and in this setup uh where we have indeed"
+    },
+    {
+      "t": 1409.9,
+      "end": 1430.2,
+      "text": "an on premise installation of uh uh our business Central um we require to install a self-hosted integration runtime which means this will actually be installed within the private Network where the SQL Server database lives and on the aure side we also have an Azure integration runtime and both of these will take care"
+    },
+    {
+      "t": 1430.2,
+      "end": 1450.3,
+      "text": "uh on one side to pull the data outside of the business Central environment on Prem and bring it into to the cloud on another hand it is also possible to perform Cloud migration from already uh a database that is already in the cloud for example an asure SQL database"
+    },
+    {
+      "t": 1450.3,
+      "end": 1470.3,
+      "text": "and in such case uh there will not be a self-hosted integration run time but an asure integration run time again so that the whole process will take place fully in the cloud also worth mentioning the self-hosted integration on time is also allowing a secure way to copy the data from a private within a private Network into to the cloud another important thing"
+    },
+    {
+      "t": 1470.3,
+      "end": 1482.5,
+      "text": "is that uh with this setup uh when you're running Cloud migration from on Prem database uh there's no need of a NST installation uh at this point all that is needed is only the"
+    },
+    {
+      "t": 1482.5,
+      "end": 1502.6,
+      "text": "database so let's move next uh let's figure out what's happening specifically when we are initiating the cloud migration setup uh phase uh when we are in this page in the product that Nicola has just shown us before so the very first thing is about registration uh registration of the integration runtime with the Azure data"
+    },
+    {
+      "t": 1502.6,
+      "end": 1522.6,
+      "text": "Factory uh in the back end we actually use load balancing mechanism so that uh we have a set of aure data factories available and we always try to find the best one that is the most suitable for running your own uh Cloud migration so when we find a proper aure data Factory to link your integration runtime with uh"
+    },
+    {
+      "t": 1522.6,
+      "end": 1542.9,
+      "text": "we reserve one and then that will exchange an authentication key that would be the one that is indeed inserted in the migration setup and at this point the H data Factory and your integration run time are linked so next step is the creation of a preparation pipeline that's what um we will proceed with and this"
+    },
+    {
+      "t": 1542.9,
+      "end": 1562.9,
+      "text": "uh is basically responsible or per of Performing some checks both on the on premise database and on the business Central online database so weely on the integration run times to perform these checks where are these specifically so we for example want to to check that the connectivity to the database works correctly uh we want to check that the versions of"
+    },
+    {
+      "t": 1562.9,
+      "end": 1583.7,
+      "text": "the databases are also compatible and the compatibility level for example so when these checks succeed uh we create a set of stored procedures and these also we will take care for example on one side on Prem to retrieve the list of tables to be copied and on SAS we want to for example retrieve the list of installed extensions"
+    },
+    {
+      "t": 1583.7,
+      "end": 1603.8,
+      "text": "Next Step uh we create a replication Pipeline and we provide as an input to this pipeline the information that we just collected so indeed the list of table tables that have to be migrated and instructions for how to migrate them so this information is provided as a metadata for this pipeline but we will not yet run this pipeline at this point we"
+    },
+    {
+      "t": 1603.8,
+      "end": 1621.2,
+      "text": "just leave it there uh sitting ready to be run so at this point if all the checks succeed and everything worked fine with the preparation pipeline we Mark the online environment as correctly set up so we conclude the setup step and uh we are ready to proceed to the next"
+    },
+    {
+      "t": 1621.2,
+      "end": 1638.9,
+      "text": "phase so there's one important thing to call out because since the stored procedures will actually apply some changes to the on Prem database uh we highly recommend to try the cloud migration for the first time on a backup of the production"
+    },
+    {
+      "t": 1639.3,
+      "end": 1659.5,
+      "text": "database so that was it for the introduction of the setup of cloud migration we move on to the next step uh that can answer some common questions and a further setup that needs to be done before actually starting to replicate our data so the very first thing is um a common question that could be what is the best choice"
+    },
+    {
+      "t": 1659.5,
+      "end": 1679.6,
+      "text": "between uh migrating from an onr database or an aure SQL database So based on some very recent improvements that we have applied throughout the last year we can safly claim that the migrations from aure SQL are a very stable and fast way to replicate your data they overcome some limitations uh"
+    },
+    {
+      "t": 1679.6,
+      "end": 1699.6,
+      "text": "that would be uh not very straightforward to accomplish with the on Prem setup for example replication of SQL field SQL variant fields and also because of uh memory and performance optimizations they can also handle replication of large images into single Fields however uh of course Ager SQL database is not"
+    },
+    {
+      "t": 1699.6,
+      "end": 1718.5,
+      "text": "a free service so it comes with a downside of having of being charged for this service as long as the database is online and act we do recommend because of the high volume of data being transferred to choose a service tier that can satisfy um High compute and input output"
+    },
+    {
+      "t": 1718.5,
+      "end": 1738.7,
+      "text": "requirements so next one important thing to remember as well uh when we're working with Cloud migration is that if there's any available updates for the environment in the admin Center we strongly recommend to postpone them to a later date so that they don't interfere with the cloud migration that we're working on because if that happens actually that the environment gets"
+    },
+    {
+      "t": 1738.7,
+      "end": 1749.2,
+      "text": "updated while Cloud migration is still enabled we would forcefully stop Cloud migration and then you would be forced to start over again deleting the environment and starting from"
+    },
+    {
+      "t": 1749.2,
+      "end": 1769.2,
+      "text": "scratch another important recommendation that we have uh hold although is optional um is to set up application insights Telemetry on your environment this can also be achieved from the admin Center and it is particularly important because if you do set it up then you have telemetry available for all the flows that"
+    },
+    {
+      "t": 1769.2,
+      "end": 1789.2,
+      "text": "involve Cloud migration so we will see towards the end of the presentation some specific use cases where Telemetry can actually be useful yeah so now we look into uh the next feature that is table mappings so let's figure out what exactly table mappings mean so essentially the aim of table mapping is to move custom fields"
+    },
+    {
+      "t": 1789.2,
+      "end": 1809.5,
+      "text": "to table extensions in SAS and this is specifically because on Prem you're allowed to customize uh base tables but in in SAS we are not so we want to be provide you the ability to migrate also these extra fields to SAS the replication engine will also take care of splitting the data if needed across"
+    },
+    {
+      "t": 1809.5,
+      "end": 1829.5,
+      "text": "multiple table extensions and the only very important requirement at this point is that the field names and data types must match always between on pram and SAS so to give also a better visual representation of how this works we have a scenario where indeed in SAS we are ex we are um customizing the customer"
+    },
+    {
+      "t": 1829.5,
+      "end": 1850.1,
+      "text": "table besides having the Microsoft fields we also have some additional Fields And while running Cloud migration we actually figure out that we would like to migrate some of the fields while some other fields we're not interested in them so we could leave them on Prem without migrating them but on SAS indeed we cannot customize the base customer table so we can only have the Microsoft Fields there"
+    },
+    {
+      "t": 1850.1,
+      "end": 1870.4,
+      "text": "so the goal here is to indeed migrate the additional Fields into table extensions that are owned by PTS and with regards to the Microsoft Fields uh the mapping of these fields between on Prem and sus uh happens automatically thanks to the replicate data property set to true and these will indeed take care of replicating"
+    },
+    {
+      "t": 1870.4,
+      "end": 1888.8,
+      "text": "the fields just because the field names and types exactly match so the migration table mapping feature instead will be the one taking care of copying the custom fields to the Target tables uh again if the field names and types match"
+    },
+    {
+      "t": 1888.8,
+      "end": 1908.9,
+      "text": "it is important to call out however as niola mentioned before that the fields in uh the on Prime table will have to be renamed so that they match exactly the fields in SAS so since in SAS the fields in the table extensions will have a prefix this change must also be reflected on Prem so now it's time to demonstrate it"
+    },
+    {
+      "t": 1908.9,
+      "end": 1928.9,
+      "text": "live and I will hand over back to Nicolas so he can give a live demonstration of this feature in the product thank you Ricardo so if you would like to use this feature it's also accessible from the cloud migration management page and it's called managed custom tables so if you open it from here you could Define the migration table mappings in this UI"
+    },
+    {
+      "t": 1928.9,
+      "end": 1949.4,
+      "text": "here by just inlining the table definition however we have seen that this process was error prone for many users that were trying to use this functionality so instead I would recommend to use a dedicated page that we have introduced which is called add table mappings so if if you invoke it here it's going to open"
+    },
+    {
+      "t": 1949.4,
+      "end": 1970.1,
+      "text": "so here on this page the only thing that you need to provide in the first part is the name and if you would like to provide it in a way so it is not error prone in SQL if you take the entire table name like this using the square brackets together and if you copy paste it"
+    },
+    {
+      "t": 1970.1,
+      "end": 1990.3,
+      "text": "here you will see that it is automatically going to parse the values and it will autocomplete the other two field fields which is is the data per company and the EP ID also if you do it like this you will see that it is escaped in SQL so it is not containing slash so the next thing that I would need to do here is to select that we are mapping"
+    },
+    {
+      "t": 1990.3,
+      "end": 2003.1,
+      "text": "to the table extensions you can filter the list here and the only thing that I need to do is to select to which table extension I want to move the date and in this case it would be the"
+    },
+    {
+      "t": 2003.1,
+      "end": 2023.3,
+      "text": "pt1 now I could do this three times one by one inserting one line by one however the UI is supporting multi select and as you have seen in ricard's example we do want to split it into three extensions so I'm going to select all three extensions and if I invoke okay"
+    },
+    {
+      "t": 2023.3,
+      "end": 2040.1,
+      "text": "is going to automatically insert three mappings so this is saving you a lot of clicks then let's do a customer so if I would go to a customer table I would simply select a customer here and if I go here and I do the add table"
+    },
+    {
+      "t": 2040.1,
+      "end": 2060.3,
+      "text": "mappings and here on the customer I can select it and if I invoke okay I got three custom records as well so by doing this simple definition in less than a minute I'm able to split two main tables into three table extensions without writing any code to show you"
+    },
+    {
+      "t": 2060.3,
+      "end": 2080.4,
+      "text": "one small thing here if we take a actual database that is not Cil database so CL tables databases they do not have the extension ID but in Al this extension is going to have a extension ID behind it and if you copy it with the"
+    },
+    {
+      "t": 2080.4,
+      "end": 2093.4,
+      "text": "square brackets and when you tab you can see it is able to parse out the app ID so it's just an example how it is going to prevent mistakes during the data"
+    },
+    {
+      "t": 2093.4,
+      "end": 2105.8,
+      "text": "entry one functionality that you have here is that you can export the definitions it's going to give you a Json file that you can import later so you don't need to type in the definition multiple"
+    },
+    {
+      "t": 2105.8,
+      "end": 2126.1,
+      "text": "times um also you able to provide these table mappings programmatically if you subscribe to the on insert default table mappings event from code unit 401 hybrid Cloud management so if you're are a large partner that have a customized isv solution and you would like to automatically split"
+    },
+    {
+      "t": 2126.1,
+      "end": 2146.3,
+      "text": "these table m mappings you can do it by code as well and then each time when we complete the wizard we are going to update the table mappings all right so that was all back to you Ricardo yep so now let's talk about some things that we want to call out uh still related to the setup step"
+    },
+    {
+      "t": 2146.3,
+      "end": 2166.4,
+      "text": "although we will not go into a lot of details here because uh there will also be the what's new in Cloud uh Cloud migration session that will elaborate more into details yeah so the first thing is that we want to call out the ability now to include selectively include or exclude tables from the cloud migration so the base rule"
+    },
+    {
+      "t": 2166.4,
+      "end": 2187.3,
+      "text": "here is that um you are allowed to change the setting for the tables that are not classified as sensitive and in principle any table that you can write a pte on based on uh then you will be able to change the setting for such table again we will uh have this session where we'll look into the more into more specific details"
+    },
+    {
+      "t": 2187.3,
+      "end": 2207.6,
+      "text": "the other feature is uh the ability to keep user permissions while the cloud migration is set up because until now the base uh the default Behavior was that uh when whenever Cloud migration is set up we remove user permissions from any existing user and you are able now to disable this this default behavior"
+    },
+    {
+      "t": 2207.6,
+      "end": 2226.7,
+      "text": "and always keep the permissions so this could be particularly useful for scenarios where for example service to service to service authentication is needed um or for the uh unsupported scenario so we don't really recommend doing this uh but moving additional companies after going"
+    },
+    {
+      "t": 2226.7,
+      "end": 2246.7,
+      "text": "live then so everything we've seen so far is also possible for delegated admins so in principle it will always be a licensed super user that is able to perform the cloud migration setup and all the actions that follow but if you are a delegated admin logged into the customers's environment for example you can perform such actions but"
+    },
+    {
+      "t": 2246.7,
+      "end": 2266.7,
+      "text": "we will ask you to get permission from a licensed user so specifically when you log in you will be prompted with this screenshot where you will be provided a link that the customer will have to go to uh to be able to Grant consent for you as a delegated admin to run Cloud migration or alter alternatively we also have a small demonstration of how this could"
+    },
+    {
+      "t": 2266.7,
+      "end": 2286.8,
+      "text": "happen if you're logged into an environment as a licensed user with super permissions then it is as easy as using paid search and going to the delegated admin consent for cloud migration here here you will be able to Grant consent for a delegated admin we log who has granted consent and similarly we can also revoke the consent and this is mainly uh needed for security"
+    },
+    {
+      "t": 2286.8,
+      "end": 2307,
+      "text": "reasons because um if you want to Grant consent to an admin at any point you want to revoke this consent you should be able to do that still from this page but if that's the case then the cloud migration that is currently uh running will stop so we jump to the next section now and we will talk about how exactly is the data replicated so let's again look"
+    },
+    {
+      "t": 2307,
+      "end": 2327.3,
+      "text": "into a more schematic way to figure out what exactly happens when we click on run data replication under the cloud migration management page so at this point we have this visualization that shows again all the parties involved we are using again aure data Factory pipelines and as we uh told"
+    },
+    {
+      "t": 2327.3,
+      "end": 2347.3,
+      "text": "told you about earlier at the end of the setup phase we had a replication pipeline that was ready to be run so this is the moment when clicking on run data replication we actually start start running this replication pipeline so the main thing to call out here is that there is an Azure blob storage component that uh is used for staging area"
+    },
+    {
+      "t": 2347.3,
+      "end": 2367.6,
+      "text": "uh and actually let's assume for now that this replication is occurring when there is an on premise SQL Server database as a source so the aure blob storage um staging area allows us uh to compress the data so that we have a lower volume of data to be transferred to the cloud and this actually brings some optim ations"
+    },
+    {
+      "t": 2367.6,
+      "end": 2387.8,
+      "text": "uh with regards to the speed that it takes so the integration runtime on premise uh will perform some checks on the tables on premise because the goal is to figure out the data structure of the tables and based on this figure out how to actually perform the copy of the tables to to to the cloud"
+    },
+    {
+      "t": 2387.8,
+      "end": 2407.8,
+      "text": "uh so for the large tables for such tables that we identify as large meaning that the size exceeds 250 mbytes or there's more than 100,000 rows we will perform table copy one by one exactly copying the table from the source to the destination for all the other tables that don't classify as large we will perform Bal copy and what does this"
+    },
+    {
+      "t": 2407.8,
+      "end": 2428,
+      "text": "mean we will actually uh gather all these tables together we will compress them we will chunk the records serialize everything into a huge Json and perform uh and actually copy all the content into a single table uh adoc table that is used for this purpose and then migrate only this table to the cloud and then the integration"
+    },
+    {
+      "t": 2428,
+      "end": 2448.3,
+      "text": "runtime in the cloud will take care of Performing the exact opposite so decompressing distalizing and feeling the records in the original tables so the very first replication run uh will take everything that is currently on the on premise database and migrate it fully to the cloud but this doesn't mean that you're uh you cannot perform"
+    },
+    {
+      "t": 2448.3,
+      "end": 2469.7,
+      "text": "any more replications because you can still add or edit data on premise and we rely on SQL change tracking mechanism to keep track of the changes and then perform additional replication runs only on the Deltas so this allows you to perform incremental changes and migrate only what's new every time to the"
+    },
+    {
+      "t": 2469.7,
+      "end": 2490.5,
+      "text": "cloud now everything that we've saw here is exactly possible uh also if you have an nature SQL database as a source but it's important to call out a very uh big Improvement that we've made throughout uh this last months which is um the removal of of the need for the Azure blob storage uh staging"
+    },
+    {
+      "t": 2490.5,
+      "end": 2510.8,
+      "text": "step for Azure SQL and why is that this is actually the reason why we bring some performance improvements that that I called out earlier during the presentation because we don't need anymore to compress or decompress the data and store it into this uh stage and uh the main benefits here are mainly performance improvements but also uh this process"
+    },
+    {
+      "t": 2510.8,
+      "end": 2520.2,
+      "text": "overall is less error prone because we reduce the risk of hitting errors related to the Azure blob storage"
+    },
+    {
+      "t": 2520.8,
+      "end": 2540.8,
+      "text": "infrastructure great so that was it when it comes to how is the data replicated now back to Nicola to show you what the new UI looks like so to understand how the new UI is looking like it is basically split into two parts on the top you can see the entire status for your entire replication so you can see"
+    },
+    {
+      "t": 2540.8,
+      "end": 2561.9,
+      "text": "that it is ready to pull additional data in you can see how many tables were successful you can see all of the tables that you currently have issues there are five tables that require your attention and you can also see how many companies you have replicated and how many companies are there in total in the on Prem"
+    },
+    {
+      "t": 2561.9,
+      "end": 2581.9,
+      "text": "database below the overall status you can see the list of all of the actions that you did to this environment and basically this is just a log of steps that you have done and for all of the replications that had a problem with them they are clearly marked as failed so you can investigate what happened now if you do"
+    },
+    {
+      "t": 2581.9,
+      "end": 2602,
+      "text": "a quick mats you will see that here we have around eight failed tables and here we are reporting five tables only so if you're wondering what is happening so for example if we drill down here you can see that this table has failed in this specific replication however the overall status is successful and the reason for this is"
+    },
+    {
+      "t": 2602,
+      "end": 2622.1,
+      "text": "because there is a later run that can successfully replicated the the date so if you ever encounter an issue with data replication the way to fix it is if you look into the arrow fix the error and you simply just invoke another data replication and then the data is going to be fixed if you would like"
+    },
+    {
+      "t": 2622.1,
+      "end": 2637.2,
+      "text": "to see what actually happened you can invoke this show all replication section and you will see that there is one failed run and 4 hours later there was a successful run that successfully copied the date"
+    },
+    {
+      "t": 2637.2,
+      "end": 2657.3,
+      "text": "so that was all regarding the error riew if you would like to look at the companies that were replicated and if you're looking which companies you're missing you can easily filter on the list here and say show me all of the companies that are not replicated and now we can show you all of the companies that you didn't"
+    },
+    {
+      "t": 2657.3,
+      "end": 2677.4,
+      "text": "move from on Prem you can simply select them from here and then they are going to be created and you can invoke another application we are not going to do that now so we just going to exit without making any changes you can also look at the data that was successfully replicated by using this page here you're able to filter per"
+    },
+    {
+      "t": 2677.4,
+      "end": 2697.5,
+      "text": "company and one of the things that is very useful to look at is per database tables because these tables are sensitive and the risk is that they can get overwritten and one of the main tables is the tenant media table so here it is actually expected to get a difference because we are going to always"
+    },
+    {
+      "t": 2697.5,
+      "end": 2718,
+      "text": "Delta sync the tables that are per database we are not going to replace them one of the tables that you cannot get the information about is the upgrade tags and the reason for this is because it is internal and unfortunately it's not possible to analyze the internal or obsoleted tables"
+    },
+    {
+      "t": 2718,
+      "end": 2738.3,
+      "text": "one of the things that you can also do is that you can filter on the table itself so one of the nice functionality that you can do here is is that if I would search for the change log to see what happened with the change log because I didn't get any data and if I select the change log entry here the system is going to tell me that the change log is not included"
+    },
+    {
+      "t": 2738.3,
+      "end": 2757.7,
+      "text": "in the replication because it is marked with replicate data false and this is one of the tables that we got a lot of requests to include in some of the cases for the cloud migration so you will be able to use this new functionality for including or excluding that we will cover about in what's"
+    },
+    {
+      "t": 2757.7,
+      "end": 2777.8,
+      "text": "new then the next thing that you can do is that you can complete the cloud migration and we also have the options of posing and abandoning the cloud migration the only difference between these two actions is that you are telling us in which state the tenant is if you're opposing it means that you want to continue it if you're abandoning it"
+    },
+    {
+      "t": 2777.8,
+      "end": 2798.1,
+      "text": "it means most likely that you want to delete the tenant both actions are fully recoverable so if you regret abandoning you can simply just configure the cloud migration again and continue using it there is not going to be any consequences of invoking a different AC okay so that was all about the new UI so"
+    },
+    {
+      "t": 2798.1,
+      "end": 2818.4,
+      "text": "back to you Ricardo regarding the limitations yes that was very cool so let's have a closer look into some of the limitations that currently exist for the cloud migration so in theory when you have an environment in SAS we enforce a strong limit of 300 companies that is mainly for"
+    },
+    {
+      "t": 2818.4,
+      "end": 2838.5,
+      "text": "performance reasons but we do recommend something like uh around 250 companies so that you have room to grow over time if you need to add more companies when it comes to the data instead in principle uh we don't really have a limit so you can potentially replicate as much data as you want even exceeding the default"
+    },
+    {
+      "t": 2838.5,
+      "end": 2858.6,
+      "text": "allowed storage capacity that exists in SAS but be aware however that if you do so any administ administr operations that um involve for example creation of new environments or copying of the existing environments that basically affect the storage capacity will be prevented so you will not be able to perform these"
+    },
+    {
+      "t": 2858.6,
+      "end": 2869.2,
+      "text": "operations and if you do exceed the quot then when you go live you are forced to uh purchase additional storage"
+    },
+    {
+      "t": 2869.5,
+      "end": 2889.8,
+      "text": "capacity great so let's look now into the next step uh of the data upgrade and how it works so back to Nicola for this thanks Ricardo uh so here we are going to cover the two topics the first topic is how the upgrade works and the second is the new functionality that we will cover in another video and that one is keeping API upgrade"
+    },
+    {
+      "t": 2889.8,
+      "end": 2910.4,
+      "text": "because this one is taking a long time so upgr step needs to be invoked as an absolutely last step in the cloud migration and the reason why is because once you invoke the upgrade you will not be able to do additional replication or to move additional companies into the suant"
+    },
+    {
+      "t": 2910.4,
+      "end": 2930.8,
+      "text": "and if this happens for you you will either need to point in time restore or start over simply delete the environment and replicate all of the companies together so the reason why we introduce this strong rule is because we are replicating and also upgrading the per database tables and once we upgrade the the per database table we simply cannot allow"
+    },
+    {
+      "t": 2930.8,
+      "end": 2951.7,
+      "text": "additional pulls into this table because we are risking that we are going to get he upgraded data in the per database table and we also cannot know which requests already were upgraded and which were not thus we are risking many data Corruptions if we allow running multiple upgrades and multiple"
+    },
+    {
+      "t": 2951.7,
+      "end": 2971.8,
+      "text": "replications also we have seen that many partners would pull the data from on Prem change it in sauce tweak it a little bit and then they would pull it from on Prem again and we would strongly advise not to do this while you are pulling the data from the on Prem system do not change the data in SAS database"
+    },
+    {
+      "t": 2971.8,
+      "end": 2991.8,
+      "text": "because you're risking that your changes are going to be overwritten or you are also risking that you will confuse the replication engine so it is not going to pick up some changes that it should that it should our strong recommendation is to change the data in a single place so while you're replicating from on Prem do not change"
+    },
+    {
+      "t": 2991.8,
+      "end": 3011.8,
+      "text": "it in sauce if you change it in SAU do not pull the data from on Prem again regarding how the upgrade works we simply invoke the regular upgrade flow and we ignore the versioning so we are going to run all of the upgrade code units this also means that we are going to put the tenant into"
+    },
+    {
+      "t": 3011.8,
+      "end": 3032,
+      "text": "the maintenance mode as you have seen in the demo cut the access make sure that there is a single session to prevent any database locks and to make sure that upgrade is going to run smoothly we are going to trigger the upgrade for all of the app that are installed on the tenant and in case of the failures we are going to roll back the data so"
+    },
+    {
+      "t": 3032,
+      "end": 3052,
+      "text": "you can Delta sync or fix the data and invoke the upgrade again if you have a custom pte or an appsource app there is nothing special that you need to do we will also invoke your upgrate code as we are invoking first party upgrate code one of the things that we strongly recommend is that once you're done with the replication"
+    },
+    {
+      "t": 3052,
+      "end": 3072.4,
+      "text": "is to test the upgrade in a separate sandbo envir envirment so if you're replicating to sandbox or to a production you can copy it to a different sandbox and then test the upgrade there of course if you're not over the data size limits and if you do it like this then in case the upgrade runs longer"
+    },
+    {
+      "t": 3072.4,
+      "end": 3083.4,
+      "text": "than expected you can still use the other instance to do the application to do the additional replications or invoke a different"
+    },
+    {
+      "t": 3083.4,
+      "end": 3103.4,
+      "text": "upgrade so in the last two versions we have optimized over 30 long running upgrade methods so it takes less time to get to the version 21 or 22 than it took to get to the version 19 so we are always recommending to upgrade to the latest version we are also monitoring how long the upgrade takes so we"
+    },
+    {
+      "t": 3103.4,
+      "end": 3123.7,
+      "text": "are going to be optimizing long running upgrade methods once we detect them in SAU one of the long running upgrade methods that is usually taking a lot of time for the large tenants is API related upgrade uh for the apis we needed to"
+    },
+    {
+      "t": 3123.7,
+      "end": 3144,
+      "text": "run the upgrade because we need to pre-compute the data so the apis can be fast and for this reason because we running it on large tables like customers items sales invoices it is usually time consuming for this reason we have introduced the functionality so you can run it after the cloud migration"
+    },
+    {
+      "t": 3144,
+      "end": 3160.1,
+      "text": "we have a dedicated page that you can use to invoke the background jobs to upgrade this data so it's safe to run after the cloud migration thus we are recommending to skip this step and we are going to be talking about it more in the what's new"
+    },
+    {
+      "t": 3160.1,
+      "end": 3180.2,
+      "text": "session so after you're done with the upgrade you're ready to complete the cloud migration and to go live and before going live we strongly recommend to do extensive testing in sandbox then you can complete the cloud migration there is a functionality that you can use to setup and map users and also as the"
+    },
+    {
+      "t": 3180.2,
+      "end": 3200.8,
+      "text": "last step you should configure the Integrations namely API and data ver sys so setup users uh is the standard functionality that you can use from the users list so you can invoke get users from all 365 there and configure permissions and"
+    },
+    {
+      "t": 3200.8,
+      "end": 3220.9,
+      "text": "and once you're done with this step you can go to the cloud migration page and open the defined user mappings page and here you have the ability to map the on-prem users to the SAS users and when you invoke okay then we are going to go through all of the tables which are using username"
+    },
+    {
+      "t": 3220.9,
+      "end": 3235.7,
+      "text": "and it is important for business Logic for example my items approvals functionality or time sheets and many other as well and we are going to go through this data and update the username so it is going to work in sus"
+    },
+    {
+      "t": 3235.7,
+      "end": 3246.4,
+      "text": "uh one important thing to note here is that you can do it only once per environment so you should do it as the last step because you will not be able to run it"
+    },
+    {
+      "t": 3246.4,
+      "end": 3263,
+      "text": "twice and as a post step you can configure the database and as a post step you can configure the data verse integration again and make sure that the mappings are correct and run the API upgrade as I have been talking during the upgrade"
+    },
+    {
+      "t": 3263,
+      "end": 3283.2,
+      "text": "part so one of the frequently asked questions that we often get is are can we move additional companies in live tenants and the answer is we do not officially support it and we strongly advise against it because our strong recommendation to you is to move all of the companies to S and to go"
+    },
+    {
+      "t": 3283.2,
+      "end": 3303.5,
+      "text": "live with all of the on Prem companies however we do understand that in some cases it's not possible or the customer changes their mind after going life so it is possible to move additional companies in life tenants however you're doing it on your own risk it is the same as running rapid start or using any kind of"
+    },
+    {
+      "t": 3303.5,
+      "end": 3323.6,
+      "text": "ptes to to fix the data in case any errors happen you will need to fix it yourself because we will not be able to help you to patch the customer date we will write the dedicated documentation topic that it will explain to you how you can do this safely so make sure that you check out the documentation in"
+    },
+    {
+      "t": 3323.6,
+      "end": 3343.7,
+      "text": "case you need to do this all right Ricardo can you show us the troubleshooting great so of course um assuming everything goes fine with your Cloud migration setup and replication runs you wouldn't need to probably check any troubleshooting documentation but we do have a lot of resources available online"
+    },
+    {
+      "t": 3343.7,
+      "end": 3363.8,
+      "text": "that collect actually some of the most common errors that you may hit throughout uh process of the process of cloud migration there's a more generic page about troubleshooting but also we do collect some of the most common issues that can occur either during the setup or the replication phase so very useful resources most likely the solution for the error"
+    },
+    {
+      "t": 3363.8,
+      "end": 3384.4,
+      "text": "you're looking for is already in these pages and then when it comes to Telemetry I already said earlier what are the requirements to enable Telemetry but assuming you do have Telemetry then we do collect some of the uh partner facing Telemetry events on this table uh just for convenience"
+    },
+    {
+      "t": 3384.4,
+      "end": 3405,
+      "text": "but they are also available in this documentation page and as we can see uh we C we actually capture pretty much all the important events that can happen throughout the cloud migration process uh both when you're setting up Cloud migration or starting the replications completing replications or when any arrows occur so very useful as well uh to surface"
+    },
+    {
+      "t": 3405,
+      "end": 3425.5,
+      "text": "Telemetry um on your side and a convenient use case uh if you have Telemetry enabled is of course to use the powerbi report app available on app Source if we drill down uh into this app specifically we can see that it has a cloud migration Tab and this one can become very convenient"
+    },
+    {
+      "t": 3425.5,
+      "end": 3445.6,
+      "text": "if you for example are also running Cloud migration across different environments and you want to inspect what is the status of the migrations throughout the environment it also provides an aggregated overview of any errors that occurred throughout uh Cloud migration uh for the different environments uh and some interesting kpis as well and more interestingly as well"
+    },
+    {
+      "t": 3445.6,
+      "end": 3459.2,
+      "text": "without the need for you to log to the environment and actually use the web client to inspect the logs for the cloud migration uh you can also inspect them from here directly in the powerbi app so that's also very convenient and"
+    },
+    {
+      "t": 3459.2,
+      "end": 3479.2,
+      "text": "useful last but not least it's also interesting that you can set up alerts and email notifications uh based on such dmetry events again these are some of the most common Cloud migration events but they are fully documented in the pages that we have linked uh and not only you can receive email notifications but also for example set up teams uh"
+    },
+    {
+      "t": 3479.2,
+      "end": 3499.4,
+      "text": "to receive such notifications very very simple and straightforward uh again fully documented in our documentation all right so that was all for today and before we end the presentation we would like to ask you to try out the cloud migration there is no need to wait you can just take a database and test"
+    },
+    {
+      "t": 3499.4,
+      "end": 3519.4,
+      "text": "the cloud migration to a Sandbox we are often getting questions from the partners how much space is the database going to take or how much time is it going to take to replicate and upgrade the database you can simply just take the database and try it out to a Sandbox and see for yourself because it's going to take less space And depending on"
+    },
+    {
+      "t": 3519.4,
+      "end": 3539.9,
+      "text": "the data structure it depends how long time is it going to take to replicate an upgrade so of course don't forget to set up the Telemetry as we've seen it is also a very useful uh source of information that can help you troubleshoot issues along the way and of course always rely on the documentation that's probably the most useful resource that you have available"
+    },
+    {
+      "t": 3539.9,
+      "end": 3557.2,
+      "text": "online yes and we will be updating it on the timely basis and as the last step you can join us on ymer where you can ask us additional questions or provide feedback so we will be there to support you thank you very much for your attention thank"
+    },
+    {
+      "t": 3557.2,
+      "end": 3558,
+      "text": "you"
+    }
+  ],
+  "markers": [],
+  "word_count": 10178
+}

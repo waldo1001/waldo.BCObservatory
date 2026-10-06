@@ -1,0 +1,1203 @@
+{
+  "video_id": "lNASlydCidI",
+  "item_id": "video/yt-microsoft/lNASlydCidI",
+  "title": "What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)",
+  "duration_s": 2957,
+  "systems": [
+    "copilot",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "generative ai",
+    "copilot",
+    "prompt dialogue",
+    "page type",
+    "azure openai",
+    "responsible ai",
+    "developer tools",
+    "al-go",
+    "preview badge",
+    "ai module",
+    "system actions",
+    "embeddings"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Generative AI and Co-pilot",
+      "t_start": 0,
+      "t_end": 151.7
+    },
+    {
+      "title": "Why Developer Tools Matter",
+      "t_start": 151.7,
+      "t_end": 252.8
+    },
+    {
+      "title": "Toolkit Scope and Availability",
+      "t_start": 252.8,
+      "t_end": 372.3
+    },
+    {
+      "title": "Project Plan Generation Demo",
+      "t_start": 372.3,
+      "t_end": 568
+    },
+    {
+      "title": "User Experience Design and Page Types",
+      "t_start": 568,
+      "t_end": 710.1
+    },
+    {
+      "title": "Prompt Dialogue Implementation and Preview Badge",
+      "t_start": 710.1,
+      "t_end": 901.3
+    },
+    {
+      "title": "Output Display and Keep/Discard Actions",
+      "t_start": 901.3,
+      "t_end": 1051.4
+    },
+    {
+      "title": "Advanced Features: Regenerate, Options, History, and File Attachment",
+      "t_start": 1051.4,
+      "t_end": 1279.8
+    },
+    {
+      "title": "AI Module Overview, Prerequisites, and Copilot Capability Registration",
+      "t_start": 1279.8,
+      "t_end": 1534.4
+    },
+    {
+      "title": "Azure OpenAI Objects and API Methods",
+      "t_start": 1534.4,
+      "t_end": 1859.9
+    },
+    {
+      "title": "Registering Copilot Capabilities and Authorization Setup",
+      "t_start": 1859.9,
+      "t_end": 2047.3
+    },
+    {
+      "title": "Generation Code and Meta Prompts",
+      "t_start": 2047.3,
+      "t_end": 2262
+    },
+    {
+      "title": "Optional Parameters and Copilot Administration Page",
+      "t_start": 2262,
+      "t_end": 2438.6
+    },
+    {
+      "title": "Data Governance, Responsible AI, and Safety Mechanisms",
+      "t_start": 2438.6,
+      "t_end": 2814.1
+    },
+    {
+      "title": "Summary and Built-in Capabilities",
+      "t_start": 2814.1,
+      "t_end": 2957
+    }
+  ],
+  "features": [
+    {
+      "name": "Co-pilot for Business Central",
+      "description": "AI-powered assistant across ERP and CRM that was introduced in March 2023 with initial marketing text suggestions capability, now expanded with a toolkit for developers to add new generative AI skills and capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 30.3,
+      "t_end": 91,
+      "is_demoed": true,
+      "caveats": [
+        "Designed for Business Central online (SaaS) only",
+        "Uses Azure OpenAI Service",
+        "Intended for non-conversational experiences with human review",
+        "Not for building chatbots"
+      ],
+      "tags": [
+        "copilot",
+        "generative ai",
+        "erp",
+        "crm"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Generative AI Developer Toolkit",
+      "description": "New toolkit enabling partners to build generative AI features and skills into Business Central extensions, including signature co-pilot user experience, AI module for Azure OpenAI interaction, guides, samples, and administration/telemetry functions.",
+      "status": "preview",
+      "status_evidence_t": 352.2,
+      "status_evidence_quote": "you can get Hands-On right now if you're an Insider using Insider builds you already have access to the toolkit today",
+      "status_evidence_verified": true,
+      "t_start": 70.5,
+      "t_end": 372.3,
+      "is_demoed": true,
+      "caveats": [
+        "Currently available to Insider builds",
+        "Will be included in Wave 2 minor update for online deployment"
+      ],
+      "tags": [
+        "toolkit",
+        "developer tools",
+        "ai module",
+        "azure openai"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Prompt Dialogue Page Type",
+      "description": "New page type added to AL development that provides a consistent co-pilot user experience for non-conversational generative AI features. Includes prompt area for user input and system action for generation orchestration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 628.6,
+      "t_end": 801.8,
+      "is_demoed": true,
+      "caveats": [
+        "Page type is not extensible to maintain trust and consistency",
+        "Preview badge recommended for initial feature releases"
+      ],
+      "tags": [
+        "page type",
+        "prompt dialogue",
+        "user experience",
+        "al-go"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Sparkle Image Property for Co-pilot Actions",
+      "description": "New image property option for actions in the command bar that signals to users this will be an intelligent co-pilot-powered experience, providing consistency across different co-pilot implementations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 588.6,
+      "t_end": 713,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "user interface",
+        "consistency",
+        "command bar",
+        "co-pilot"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "System Actions for Generate",
+      "description": "New AL construct that allows developers to provide specific actions controlled by the platform, enabling orchestration between UI parts and behaviors while giving developers control over generation logic.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 801.8,
+      "t_end": 842.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "system actions",
+        "al-go",
+        "orchestration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Progress Dialogue for Generation",
+      "description": "Built-in progress bar that appears during AI generation across all prompt dialogues with automatic start/stop and optional cancellation support, requiring no additional AL developer work by default.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 847.7,
+      "t_end": 888,
+      "is_demoed": true,
+      "caveats": [
+        "Text can be overridden using existing progress dialogue APIs"
+      ],
+      "tags": [
+        "progress bar",
+        "user experience",
+        "cancellation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Draft Project Plan Feature",
+      "description": "Example generative AI feature that allows users to generate a project plan with tasks and job details for the Jobs module by providing keywords and a natural language prompt, with ability to regenerate based on parameter adjustments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 392.3,
+      "t_end": 568,
+      "is_demoed": true,
+      "caveats": [
+        "Example only for demonstration purposes",
+        "Actual implementation requires further configuration"
+      ],
+      "tags": [
+        "project planning",
+        "jobs module",
+        "use case"
+      ],
+      "system": "projects"
+    },
+    {
+      "name": "Data Caption Expression for Prompt Display",
+      "description": "Feature that uses data caption expression in the page header to show the user's natural language prompt input instead of the static page caption, creating a visual connection between the user's request and the output.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 921.5,
+      "t_end": 961.6,
+      "is_demoed": true,
+      "caveats": [
+        "Recommended technique, not mandatory"
+      ],
+      "tags": [
+        "ui design",
+        "prompt display",
+        "natural language"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "OnQueryClosedPage Trigger for Keep/Discard",
+      "description": "Developers use the OnQueryClosedPage trigger from task dialogues to handle user actions when they click keep it, discard it, or cancel buttons to communicate the result back to the developer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 961.6,
+      "t_end": 1014.6,
+      "is_demoed": true,
+      "caveats": [
+        "Can also use value returned from page.Run model"
+      ],
+      "tags": [
+        "page triggers",
+        "user actions",
+        "task dialogue"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Override Keep/Discard Captions with System Actions",
+      "description": "System actions in the system action area allow developers to override the default okay cancel captions without requiring triggers, providing caption and tooltip only.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 994.4,
+      "t_end": 1035.8,
+      "is_demoed": true,
+      "caveats": [
+        "Purely provides caption and tooltip",
+        "Uses OnQueryClosedPage trigger as the way to choose keep or discard"
+      ],
+      "tags": [
+        "system actions",
+        "caption customization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Edit Prompt Before Keep/Discard",
+      "description": "Users can edit the prompt they provided before keeping or discarding the output by clicking in the corner of the page to edit it. The platform handles the transition and regeneration automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1035.8,
+      "t_end": 1071.6,
+      "is_demoed": true,
+      "caveats": [
+        "No developer work needed for orchestration and transitions"
+      ],
+      "tags": [
+        "prompt editing",
+        "user experience",
+        "regeneration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Regenerate System Action",
+      "description": "New system action called regenerate that appears as a button in the command bar, allowing users to get multiple versions or iterations of the generated output.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1084.3,
+      "t_end": 1124.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires adding to system action area to be available"
+      ],
+      "tags": [
+        "system actions",
+        "multiple iterations"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Prompt Options Area",
+      "description": "New area added to the prompt dialogue page for option fields that appear as drop-downs in the footer. These allow users to tweak the generation process by controlling tone, format, or other parameters that don't influence the facts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1124.4,
+      "t_end": 1165.3,
+      "is_demoed": true,
+      "caveats": [
+        "Should use option fields as drop-downs",
+        "Only affects tone or format, not core facts"
+      ],
+      "tags": [
+        "prompt options",
+        "customization",
+        "user control"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Source Table for Generation History",
+      "description": "Using a source table on the prompt dialogue page to show different versions of generated output, allowing users to traverse through multiple iterations. Source tables should be temporary to require user confirmation before accepting output.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1165.3,
+      "t_end": 1218.9,
+      "is_demoed": true,
+      "caveats": [
+        "Tables should be temporary",
+        "Prevents accidental commits"
+      ],
+      "tags": [
+        "source table",
+        "history",
+        "iterations"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Attach System Action for File Upload",
+      "description": "System action called attach that creates a paperclip icon in the footer, allowing developers to use file upload APIs to prompt users to upload files for use in copilot generation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1218.9,
+      "t_end": 1239,
+      "is_demoed": true,
+      "caveats": [
+        "Uses existing file upload APIs"
+      ],
+      "tags": [
+        "system actions",
+        "file upload",
+        "input methods"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Direct Generation with Prompt Mode",
+      "description": "Developers can control how the prompt dialogue page opens by setting the prompt mode to generate in the OnOpen page trigger, causing the page to immediately call the generate action and go directly to the loading state.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1239,
+      "t_end": 1279.8,
+      "is_demoed": true,
+      "caveats": [
+        "Used when developer already has needed information"
+      ],
+      "tags": [
+        "prompt mode",
+        "direct generation",
+        "page opening"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI Module for Copilot Generation",
+      "description": "Module in the system application that supports Azure OpenAI service including LLMs like text chat and embeddings. Provides control and viewing of copilot capabilities within the environment and telemetry for tracking usage, registration, and errors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1300,
+      "t_end": 1361.6,
+      "is_demoed": true,
+      "caveats": [
+        "Does not support image generation using DALL-E",
+        "Does not support transcribing text with Whisper",
+        "Does not support Speech to Text with Whisper"
+      ],
+      "tags": [
+        "ai module",
+        "azure openai",
+        "telemetry",
+        "llms"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot Capability Registration",
+      "description": "System that requires each extension to register its copilot capability using the copilot capability code unit and by extending the copilot capability enum. Failure to register results in an error that the capability enum is not used or not registered.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1396.9,
+      "t_end": 1934,
+      "is_demoed": true,
+      "caveats": [
+        "Each extension must register separately",
+        "Enum must be extended",
+        "Error thrown if capability not registered"
+      ],
+      "tags": [
+        "copilot capability",
+        "registration",
+        "enum extension"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Azure OpenAI Text Completion",
+      "description": "Object and methods for text completions using Azure OpenAI service. Includes optional text completion parameters for customization and returns the exact text output from generation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1554.5,
+      "t_end": 1725.5,
+      "is_demoed": true,
+      "caveats": [
+        "Returns text value directly",
+        "Optional parameters can be modified"
+      ],
+      "tags": [
+        "text completions",
+        "azure openai",
+        "parameters"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Azure OpenAI Chat Completions",
+      "description": "Support for chat completions using Azure OpenAI with chat messages and chat completion parameters. Similar to text completions but with different parameters and support for chat roles.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1574.7,
+      "t_end": 1859.9,
+      "is_demoed": true,
+      "caveats": [
+        "Different parameters than text completion"
+      ],
+      "tags": [
+        "chat completions",
+        "azure openai",
+        "chat roles"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Embeddings with Azure OpenAI",
+      "description": "Support for embeddings using Azure OpenAI service. No specific optional parameters object for embeddings, as embeddings do not have any optional parameters.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1595.5,
+      "t_end": 1656.2,
+      "is_demoed": false,
+      "caveats": [
+        "No optional parameters available",
+        "Get result returns a JSON list"
+      ],
+      "tags": [
+        "embeddings",
+        "azure openai",
+        "vector search"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Azure OpenAI Operation Response",
+      "description": "Object that allows developers to get the result of Azure OpenAI operations as a JsonToken of what was returned, providing alternative access to generation results compared to direct return values.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1636,
+      "t_end": 1676.4,
+      "is_demoed": true,
+      "caveats": [
+        "Result is JsonToken format",
+        "Minor difference from direct return values"
+      ],
+      "tags": [
+        "operation response",
+        "azure openai",
+        "api methods"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Azure OpenAI Authorization",
+      "description": "Setup of authorization credentials including resource URL, deployment name, and API key for Azure OpenAI service integration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1934,
+      "t_end": 2047.3,
+      "is_demoed": true,
+      "caveats": [
+        "Should not hardcode keys in extensions",
+        "Use isolated storage or AppSource key vault",
+        "Each deployment is a specific model type"
+      ],
+      "tags": [
+        "authorization",
+        "azure openai",
+        "security"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Meta Prompts for AI Generation",
+      "description": "Custom system prompts that define the model's profile, expected output format, examples, and behavioral guardrails for AI generation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2047.3,
+      "t_end": 2262,
+      "is_demoed": true,
+      "caveats": [
+        "Example provided does not encompass all limitations and safeguards",
+        "Developers should define behavioral safeguards and examples"
+      ],
+      "tags": [
+        "meta-prompts",
+        "ai-generation",
+        "system-message"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Optional Parameters for AI Generation",
+      "description": "Parameters like temperature, max tokens, and presence penalty that control model behavior; only supported for chat and text completions, not embeddings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2262,
+      "t_end": 2343.6,
+      "is_demoed": true,
+      "caveats": [
+        "Not all Azure OpenAI parameters are supported",
+        "Parameter 'n' for multiple generations is not supported",
+        "Embeddings have no optional parameters"
+      ],
+      "tags": [
+        "parameters",
+        "temperature",
+        "max-tokens",
+        "model-control"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot and AI Capabilities Administration Page",
+      "description": "Admin page for managing AI capabilities registered in Business Central, showing transparency of all features from Microsoft, partners, and customizations, with ability to deactivate capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2363.8,
+      "t_end": 2438.6,
+      "is_demoed": true,
+      "caveats": [
+        "Displays both preview and generally available capabilities",
+        "Administrators can deactivate features",
+        "Deactivation reasons are captured and shared with developers"
+      ],
+      "tags": [
+        "administration",
+        "copilot-capabilities",
+        "admin-page",
+        "data-governance"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Azure OpenAI Regional Deployment with Automatic Detection",
+      "description": "Customers in regions with Azure OpenAI service deployed require no additional setup. Admins in regions without local Azure OpenAI service must opt-in to allow Business Central to contact out-of-region services. Some customers are automatically opted in but can opt out.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2438.5,
+      "t_end": 2539.1,
+      "is_demoed": true,
+      "caveats": [
+        "Admins must review privacy and compliance before opting in to out-of-region services",
+        "Assumes models deployed to same regions as Azure OpenAI endpoints"
+      ],
+      "tags": [
+        "data governance",
+        "regional deployment",
+        "consent",
+        "compliance"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Copilot On by Default with No Master Kill Switch",
+      "description": "Copilot is now enabled by default and available as part of Business Central. There is no master kill switch for Copilot.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2558.8,
+      "t_end": 2571.4,
+      "is_demoed": false,
+      "caveats": [
+        "Individual features can still be deactivated by admins"
+      ],
+      "tags": [
+        "copilot",
+        "default behavior"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Responsible AI Principles and Guidelines",
+      "description": "Microsoft has established ethical AI principles including fairness, reliability, safety, privacy and security, inclusiveness, transparency, and accountability. Guidelines and materials are provided to help extensions assess features against these principles.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2571.4,
+      "t_end": 2611.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "responsible ai",
+        "ethics",
+        "guidelines"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AI-generated Content Disclaimer on Output Screens",
+      "description": "Every output screen and prompt dialogue automatically displays a disclaimer stating 'AI generated content may be incorrect' to help customers understand the limitations of AI-generated content.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2611.7,
+      "t_end": 2672,
+      "is_demoed": false,
+      "caveats": [
+        "Developers do not need to add this disclaimer themselves"
+      ],
+      "tags": [
+        "transparency",
+        "disclaimer",
+        "ai safety"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Sparkle Action Image for Copilot Prompts",
+      "description": "A new Sparkle action image indicator that developers can use on actions to signal that Copilot is at work when opening the dialogue. Recommended alongside terminology like 'draft', 'generate', 'suggest', or 'copilot'.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2692.7,
+      "t_end": 2713,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ui design",
+        "signal",
+        "transparency"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "User Feedback Through Prompt Dialogue",
+      "description": "Users can like or dislike outputs from Copilot and provide reasons for their feedback. This feedback is monitored through Application Insights and Power BI to track quality and adoption of AI features.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2733,
+      "t_end": 2793.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "user feedback",
+        "quality monitoring",
+        "telemetry"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Telemetry Signals for Usage and Adoption Tracking",
+      "description": "Developers can access telemetry signals to understand how their AI features are being used and adopted across different regions, enabling data-driven improvements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2753.2,
+      "t_end": 2773.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "telemetry",
+        "monitoring",
+        "analytics"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Prompt Engineering with Safety Mechanisms",
+      "description": "Developers are advised to engineer prompts with additional safety mechanisms including meta prompts and content filtering, particularly for creative use cases like job project breakdown generation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2773.2,
+      "t_end": 2814.1,
+      "is_demoed": false,
+      "caveats": [
+        "Developers need to proactively add safety mechanisms beyond toolkit defaults",
+        "Team is working on providing more safety assistance through the toolkit"
+      ],
+      "tags": [
+        "prompt engineering",
+        "safety",
+        "content filtering"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Marketing Text Suggestions Built-in Capability",
+      "description": "One of two built-in Copilot capabilities that come with Business Central. Generates marketing text suggestions using generative AI.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2877.4,
+      "t_end": 2899,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "built-in",
+        "marketing",
+        "text generation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Bank Account Reconciliation Assistance Built-in Capability",
+      "description": "One of two built-in Copilot capabilities that come with Business Central. Provides AI assistance for bank account reconciliation tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2877.4,
+      "t_end": 2950.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "built-in",
+        "bank reconciliation",
+        "finance"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "prompt dialogue",
+      "t": 628.6
+    },
+    {
+      "type": "other",
+      "name": "jobs",
+      "t": 412.3
+    },
+    {
+      "type": "other",
+      "name": "Azure OpenAI Service",
+      "t": 273
+    },
+    {
+      "type": "codeunit",
+      "name": "Copilot Capability",
+      "t": 1437
+    },
+    {
+      "type": "enum",
+      "name": "Copilot Capability Availability",
+      "t": 1462.3
+    },
+    {
+      "type": "enum",
+      "name": "Copilot Capability",
+      "t": 1474.1
+    },
+    {
+      "type": "other",
+      "name": "Azure OpenAI",
+      "t": 1554.5
+    },
+    {
+      "type": "other",
+      "name": "Azure OpenAI Operation Response",
+      "t": 1554.5
+    },
+    {
+      "type": "other",
+      "name": "Model Type",
+      "t": 1554.5
+    },
+    {
+      "type": "other",
+      "name": "Azure OpenAI Text Completion Parameters",
+      "t": 1574.7
+    },
+    {
+      "type": "other",
+      "name": "Azure OpenAI Chat Messages",
+      "t": 1574.7
+    },
+    {
+      "type": "other",
+      "name": "Azure OpenAI Chat Completion Parameters",
+      "t": 1574.7
+    },
+    {
+      "type": "other",
+      "name": "Azure OpenAI Chat Roles",
+      "t": 1595.5
+    },
+    {
+      "type": "enum",
+      "name": "AED Open AI Chat Roles",
+      "t": 1595.5
+    },
+    {
+      "type": "other",
+      "name": "AED Open AI Object",
+      "t": 1615.9
+    },
+    {
+      "type": "other",
+      "name": "AED Open AI Chat Messages Object",
+      "t": 1745.6
+    },
+    {
+      "type": "codeunit",
+      "name": "Install Code Unit",
+      "t": 1873.4
+    },
+    {
+      "type": "other",
+      "name": "Azure Open AI Set Authorization",
+      "t": 2006.5
+    },
+    {
+      "type": "page",
+      "name": "Copilot and AI Capabilities Page",
+      "t": 2363.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Mike",
+      "confidence": "high"
+    },
+    {
+      "name": "Cody",
+      "confidence": "high"
+    },
+    {
+      "name": "Derek",
+      "confidence": "high"
+    },
+    {
+      "name": "Dave",
+      "confidence": "medium"
+    },
+    {
+      "name": "Mike Bor Cardano",
+      "confidence": "medium"
+    },
+    {
+      "name": "Cody Hoover",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 30.3,
+      "text": "in March 2023 we introduced you to Dynamics 365 co-pilot the world's first AI powered assistant across Erp and CRM",
+      "why_it_matters": "Establishes the timeline and original scope of co-pilot introduction before the expanded toolkit.",
+      "check": "exact"
+    },
+    {
+      "t": 293.2,
+      "text": "assist to human so we're not building autopilots that automatically do a whole bunch of things outside of human control here we're putting humans",
+      "why_it_matters": "Defines a core design principle that the AI assists humans rather than automating decisions without review.",
+      "check": "exact"
+    },
+    {
+      "t": 313.6,
+      "text": "this is not a toolkit for you to build chat Bots and chat-like experiences",
+      "why_it_matters": "Establishes explicit limitations on the intended use cases for the toolkit.",
+      "check": "exact"
+    },
+    {
+      "t": 352.2,
+      "text": "you can get Hands-On right now if you're an Insider using Insider builds you already have access to the toolkit today which means you",
+      "why_it_matters": "Announces current availability for Insider builds with offline testing capability.",
+      "check": "exact"
+    },
+    {
+      "t": 372.3,
+      "text": "throughout the wave 2023 release Wave 2 we're going to publish a minor update that will include toolkit as well what this means concretely",
+      "why_it_matters": "Provides timeline for public release and online deployment capability during Wave 2.",
+      "check": "exact"
+    },
+    {
+      "t": 648.7,
+      "text": "the first is the page type property where we've added a new prompt dialogue value with this you get uh all of the responsible",
+      "why_it_matters": "Explains the core technical implementation and built-in responsible AI guardrails of the prompt dialogue page type.",
+      "check": "snapped"
+    },
+    {
+      "t": 710.1,
+      "text": "we're all still learning how to apply generative AI in a business context uh so we really want to empower you to start start",
+      "why_it_matters": "Justifies the preview status and rationale for incremental feature rollout with customer feedback.",
+      "check": "exact"
+    },
+    {
+      "t": 801.8,
+      "text": "this new uh system action called generate in a new area called system actions now this new Al construct allows the platform to provide",
+      "why_it_matters": "Introduces the core AL construct for system actions that enable generative AI in Business Central apps.",
+      "check": "exact"
+    },
+    {
+      "t": 847.7,
+      "text": "this doesn't require any work from you as an Al developer you don't need to choose when to start and stop your own progress",
+      "why_it_matters": "Shows that the platform provides automatic progress handling, reducing developer effort for common UI patterns.",
+      "check": "exact"
+    },
+    {
+      "t": 921.5,
+      "text": "we're using the data caption expression to show the user's natural language prompt input here the idea here being that we want this to",
+      "why_it_matters": "Describes a design recommendation for connecting user requests visually to generated output.",
+      "check": "exact"
+    },
+    {
+      "t": 1104.3,
+      "text": "there is a way to add a regenerate button down in the command bar this is again a new system action called regenerate that",
+      "why_it_matters": "Explains the regenerate system action that enables users to get multiple iterations of generated content.",
+      "check": "exact"
+    },
+    {
+      "t": 1320.3,
+      "text": "it supports the aure open AI service so specifically the llms like text chat and embeddings so it does not uh allow image generation",
+      "why_it_matters": "Clarifies the scope of AI module capabilities and what is not supported, which is important for developers planning implementations.",
+      "check": "exact"
+    },
+    {
+      "t": 1534.4,
+      "text": "each extension must register with the co-pilot capability code unit um for the enum uh otherwise an error will be thrown that the capability",
+      "why_it_matters": "Establishes a critical requirement for all extensions implementing copilot capabilities - they must register properly or errors occur.",
+      "check": "exact"
+    },
+    {
+      "t": 1574.7,
+      "text": "we have the a open AI text completion parameters these are optional parameters that can be modified for uh generation and and also chat",
+      "why_it_matters": "Establishes the two main completion APIs available for Azure OpenAI integration.",
+      "check": "exact"
+    },
+    {
+      "t": 1656.2,
+      "text": "text completion and embeddings do return values so in this case of text completion it return returns a text and this is the exact",
+      "why_it_matters": "Explains the different return types for various Azure OpenAI operations, which affects how developers access results.",
+      "check": "exact"
+    },
+    {
+      "t": 1715,
+      "text": "we support three embeddings Tech completions and chat completions",
+      "why_it_matters": "Identifies the three model types supported by the Azure OpenAI module in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 1787.4,
+      "text": "when you set a primary system message it will always be included in regardless of the length that you specify",
+      "why_it_matters": "Important design constraint for chat completion behavior and message history management.",
+      "check": "exact"
+    },
+    {
+      "t": 2026.8,
+      "text": "each deployment uh is a specific model so not all models would support say text and chat um M might uh support only text",
+      "why_it_matters": "Clarifies that different deployments support different model capabilities, affecting authorization setup.",
+      "check": "exact"
+    },
+    {
+      "t": 2120.4,
+      "text": "metap problem should Define the model's profile I mean should what it does and what it cannot do",
+      "why_it_matters": "Establishes best practices for meta prompt design in guiding AI model behavior.",
+      "check": "exact"
+    },
+    {
+      "t": 2303,
+      "text": "not all parameters are support for example n and n is basically the number of generations um that the model should return",
+      "why_it_matters": "Identifies a specific limitation of the Azure OpenAI integration.",
+      "check": "exact"
+    },
+    {
+      "t": 2363.8,
+      "text": "we believe that customers should remain in control of their data and of their AI experiences",
+      "why_it_matters": "Articulates the design philosophy behind the administration capabilities for AI features.",
+      "check": "exact"
+    },
+    {
+      "t": 2363.8,
+      "text": "customers should remain in control of their data and of their AI experiences",
+      "why_it_matters": "Establishes the core design principle behind the administration capabilities - customer control and data governance are fundamental to Copilot deployment.",
+      "check": "exact"
+    },
+    {
+      "t": 2404.3,
+      "text": "capabilities also always start off as active but we've given administrators control to actually deactivate a feature of their choosing",
+      "why_it_matters": "Describes administrator control over AI capabilities deployment and management.",
+      "check": "exact"
+    },
+    {
+      "t": 2478.8,
+      "text": "admins will need to do a one-time optin uh to basically consent to having business Central contact that Azure open AI service outside of",
+      "why_it_matters": "Defines the consent and compliance requirement for out-of-region deployments, addressing privacy concerns.",
+      "check": "exact"
+    },
+    {
+      "t": 2558.8,
+      "text": "there is no master kill switch for co-pilot co-pilot is now on by default it's available by default as part of business Central it's",
+      "why_it_matters": "Announces that Copilot is enabled by default with no global disable option, marking a significant shift in how AI is integrated into Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 2631.9,
+      "text": "AI generated content may be incorrect right that disclaimer will always show up there you don't need to add it yourselves",
+      "why_it_matters": "Explains the automatic disclaimer mechanism that provides user transparency without requiring developer implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 2773.2,
+      "text": "we also provide you with that Telemetry signal so you can understand how is your feature being used",
+      "why_it_matters": "Describes the monitoring and analytics capabilities available to developers for tracking adoption and quality of their AI features.",
+      "check": "exact"
+    },
+    {
+      "t": 2824.6,
+      "text": "new developer tools to build co-pilot capabilities in business Central they're available already right now with Insider bills",
+      "why_it_matters": "Confirms that generative AI developer tools are available in the current Insider builds, signaling the timeline for developer access.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 352.2,
+      "kind": "preview",
+      "text": "you can get Hands-On right now if you're an Insider using Insider builds you already have access to the toolkit today"
+    },
+    {
+      "t": 689.3,
+      "kind": "preview",
+      "text": "we're using this is preview equals true property that's new specific for this page type"
+    },
+    {
+      "t": 710.1,
+      "kind": "preview",
+      "text": "we really want to empower you to start start small and grow from there and use the uh preview badge on this dialogue to really communicate to your customers that you're still in that stage"
+    },
+    {
+      "t": 1462.3,
+      "kind": "preview",
+      "text": "two states uh whether your capability is in preview or it's generally available"
+    },
+    {
+      "t": 2181.1,
+      "kind": "other",
+      "text": "this is only an example it does not Encompass like limitations Behavioral safeguards or examples of intended Behavior which you should do"
+    },
+    {
+      "t": 2438.5,
+      "kind": "other",
+      "text": "if a customer is in a geography in a region where they have Azure openi service deployed um then there is no additional setup that they need to do to start using co-pilot"
+    },
+    {
+      "t": 2814.1,
+      "kind": "coming-later",
+      "text": "we're actively working right now on how can we provide um additional safeties ourselves through the toolkit you'll hear about that more later"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 28,
+    "quotes_dropped": 2,
+    "evidence_verified": 1,
+    "evidence_unverified": 35
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027756
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.037995999999999995
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028090999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028289
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.06295400000000001
+    }
+  ]
+}

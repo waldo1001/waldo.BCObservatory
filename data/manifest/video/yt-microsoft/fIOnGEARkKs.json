@@ -5,12 +5,60 @@
   "tier": "official",
   "title": "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1",
   "url": "https://www.youtube.com/watch?v=fIOnGEARkKs",
-  "published_at": null,
+  "published_at": "2023-11-20T08:08:01.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:50:49.975Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1165
+    },
+    "captioned": {
+      "at": "2026-10-06T21:50:57.815Z",
+      "path": "data/captions/microsoft/fIOnGEARkKs.vtt",
+      "vtt_sha256": "8d6352b429e2b8897a96e503e7cc6f86ae741bd92cb39d6ab5795b1982a020bb",
+      "segments": 64,
+      "words": 2729,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:51:32.080Z",
+      "path": "data/extract/video/fIOnGEARkKs.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 9,
+      "quotes": 8,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.031151
+    },
+    "summarized": {
+      "at": "2026-10-06T21:51:39.019Z",
+      "path": "data/summary/video/fIOnGEARkKs.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0195764
+    },
+    "linked": {
+      "at": "2026-10-06T21:51:39.021Z",
+      "systems": [
+        "integration",
+        "crm",
+        "platform"
+      ],
+      "topics": 10,
+      "objects_as_heard": 12
+    },
+    "published": {
+      "at": "2026-10-06T21:51:39.034Z",
+      "path": "content/videos/fIOnGEARkKs.md"
     }
   },
   "input_hash": null,
@@ -20,6 +68,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 515,
     "duration_s": 1165,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c283abf5d2f895dc67c9cbc427f5199387a127a09cf973951de2a847bb047f7c"
 }

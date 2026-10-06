@@ -1,0 +1,28 @@
+{
+  "video_id": "O921cRqXdiw",
+  "item_id": "video/yt-microsoft/O921cRqXdiw",
+  "summary": "Cloud migration and upgrade changes from a 2023 Business Central session: faster replication (bulk copy, table-to-table copy, delta sync, Azure SQL direct linking), a new migration UI, customized-field-to-table-extension mapping, partner telemetry, and plans for the version 14 upgrade path and obsolete object removal.",
+  "overview": "The session covers backend and UI changes to the cloud migration replication engine. Backend changes include storing replication metadata in a database table to bypass the 4 MB Data Factory limit, removing the limit on tables and companies per run, lowering the table-to-table copy threshold from 500 MB to 250 MB, disabling indexes during copy, smaller bulk sizes, longer change tracking retention, and direct linking of Azure SQL databases. Reported gains are 8 to 22 percent from index handling and 60 to 80 percent from bulk copy changes.\n\nIt then demos a new migration UI with failed-table drill-down, an unblock table action, company and table filtering, a complete-migration sanity check, and a sanitize tables action. It also shows moving customized fields to table extensions, telemetry and Power BI monitoring, and plans: stopping the direct upgrade path from version 14 after version 26, removing obsolete objects, and jump builds every 5 versions. Several items are described as not yet implemented and subject to change.",
+  "key_points": [
+    "Replication metadata now goes through a database table instead of Data Factory parameters, so the number of tables and companies per run is no longer limited. Business Central still supports at most 300 companies per environment.",
+    "The large-table threshold for optimized table-to-table copy dropped from 500 MB to 250 MB. Indexes are disabled during the copy and rebuilt afterward, which gave 8 to 22 percent in the speaker's tests.",
+    "Smaller bulk sizes made bulk copy 60 to 80 percent faster. Timeouts can still happen on very weak or busy SQL servers.",
+    "With Azure SQL as the source, the engine can link source and destination databases directly. This also allows SQL variant type fields to be replicated.",
+    "The new UI shows failed tables, has an unblock table action, and blocks completion while failed tables exist. The old UI is still supported for existing customizations.",
+    "Customized fields on Microsoft tables can be moved to table extensions through table mappings. Fields must be renamed to match the on-premises names. Partners can also supply mappings in code by subscribing to an event in codeunit 4001.",
+    "Microsoft plans to stop the direct upgrade and cloud migration path from version 14 after version 26, about two years out. A jump build every 5 versions is announced and may change."
+  ],
+  "audience": [
+    "partner",
+    "administrator",
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "fdf9ce9f8e0d73aef295e42d9f1f5d04dde45d7319ab4828066c0b43302dd4c8",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.040346400000000004
+  }
+}

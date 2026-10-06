@@ -1,0 +1,189 @@
+{
+  "video_id": "w9c-j29nAFM",
+  "item_id": "video/yt-microsoft/w9c-j29nAFM",
+  "title": "Reskill: Program explainer",
+  "duration_s": 276,
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "talent gap",
+    "reskilling program",
+    "recruitment",
+    "training",
+    "career development",
+    "business central consultants",
+    "professional skills",
+    "onboarding",
+    "partner enablement"
+  ],
+  "chapters": [
+    {
+      "title": "The talent gap and reskilling program overview",
+      "t_start": 0,
+      "t_end": 56.8
+    },
+    {
+      "title": "Three pillars of the program and partner benefits",
+      "t_start": 56.8,
+      "t_end": 97.4
+    },
+    {
+      "title": "Partner perspectives and successful hires",
+      "t_start": 97.4,
+      "t_end": 158.4
+    },
+    {
+      "title": "Participant experiences and career development",
+      "t_start": 158.4,
+      "t_end": 219.1
+    },
+    {
+      "title": "Five reasons to join and call to action",
+      "t_start": 219.1,
+      "t_end": 276
+    }
+  ],
+  "features": [
+    {
+      "name": "Reskilling Program",
+      "description": "Microsoft program to recruit individuals from industry and retrain them to become Business Central professionals, consultants, or developers through a structured three-pillar approach involving hiring, training, and 6-month coaching.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 18.2,
+      "t_end": 259.5,
+      "is_demoed": false,
+      "caveats": [
+        "Requires 6 months of coaching",
+        "Limited to partners experiencing talent gaps"
+      ],
+      "tags": [
+        "recruitment",
+        "training",
+        "talent",
+        "program",
+        "onboarding"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Microsoft Talent Program",
+      "description": "Training and onboarding program provided by Microsoft to ensure new hires are up and running quickly and have career perspective and job satisfaction.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 77.2,
+      "t_end": 97.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "talent",
+        "training",
+        "onboarding",
+        "career"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "New Hire Community",
+      "description": "Community for new hires with onboarding flexibility allowing them to be onboarded at any moment and time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 239.3,
+      "t_end": 259.5,
+      "is_demoed": false,
+      "caveats": [
+        "Part of the reskilling initiative"
+      ],
+      "tags": [
+        "community",
+        "onboarding",
+        "new hires"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Unknown speaker 1",
+      "confidence": "low"
+    },
+    {
+      "name": "Unknown speaker 2",
+      "confidence": "low"
+    },
+    {
+      "name": "Unknown speaker 3",
+      "confidence": "low"
+    },
+    {
+      "name": "Unknown speaker 4",
+      "confidence": "low"
+    },
+    {
+      "name": "Unknown speaker 5",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 18.2,
+      "text": "in the RP sector there is a massive gap of getting experienced Erp Consultants especially when we look in the Dynamics field",
+      "why_it_matters": "Establishes the market problem that the reskilling program addresses",
+      "check": "exact"
+    },
+    {
+      "t": 56.8,
+      "text": "The program exists out of three pillars which the very first one is we will hire people with industry experience",
+      "why_it_matters": "Defines the core structure and first pillar of the reskilling program",
+      "check": "exact"
+    },
+    {
+      "t": 56.8,
+      "text": "lastly we're going to follow up on the success of the individuals by coaching them for a period of 6 months",
+      "why_it_matters": "Specifies the 6-month coaching commitment as part of program structure",
+      "check": "exact"
+    },
+    {
+      "t": 77.2,
+      "text": "microsoft talent program offers us you know a training program an onboarding program to make sure that our people are",
+      "why_it_matters": "Shows Microsoft's commitment to rapid enablement and employee satisfaction",
+      "check": "fuzzy"
+    },
+    {
+      "t": 219.1,
+      "text": "we're going to be able to find the right Candidate For You Second from a prod and professional skills learning perspective we're using the",
+      "why_it_matters": "Lists key benefits including candidate matching and industry-best training",
+      "check": "exact"
+    },
+    {
+      "t": 239.3,
+      "text": "we can onboard them any moment at any time and then lastly it's low risk and very cost effective",
+      "why_it_matters": "Highlights flexibility and cost-effectiveness as program differentiators",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.011848000000000001
+    }
+  ]
+}

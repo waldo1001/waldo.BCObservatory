@@ -1,0 +1,28 @@
+{
+  "video_id": "YTA8c2XyTX4",
+  "item_id": "video/yt-microsoft/YTA8c2XyTX4",
+  "summary": "Dataverse integration in Business Central 2023 release wave 2, part 2: virtual tables reaching general availability in November, Power Pages access to BC data through virtual tables (in preview), data change event capacity, and business events versioning, troubleshooting and telemetry.",
+  "overview": "The session covers the mission for Dataverse and Dynamics 365 app integration and the four interaction types: data sync, virtual tables, data change events and business events. It then covers improvements to virtual tables, data change events and business events.\n\nA long demo shows Power Pages using virtual tables for anonymous external access, authenticated external access with sales order creation, and internal licensed users. It covers the Microsoft Entra app users, permission sets, Power Pages table permissions, synthetic relations and a Power Automate flow that creates BC customers. The session ends with business events versioning, system tables for troubleshooting and Application Insights telemetry.",
+  "key_points": [
+    "Virtual tables reach general availability in November. They let Dataverse reach Business Central through the native API without replicating data.",
+    "Power Pages support for virtual tables is in preview. It has three scenarios: anonymous external, authenticated external, and authenticated internal users. Internal users still need BC licensing.",
+    "Data change events capacity rises from 100 to 1000 events per 30 seconds delay. It is controlled by the server settings API subscription max number of notification and API subscription delay time.",
+    "Entra app users have no permission sets by default. An admin must assign them. The demo used wide scopes, but production should use narrow read and write access.",
+    "Synthetic relations link native contacts to virtual tables such as sales orders and invoices. They need a BC customer column on contact, a separate relation per virtual table, and a Power Automate flow that fills the data.",
+    "Business events now support versioning (1.0 adds a web client URL over 0.0) and filtering. Business events are still in preview, with GA targeted for the release after this one.",
+    "The system tables external event subscription and external event activity log help troubleshoot business events. UI pages are due in November 2023. Telemetry goes to Application Insights."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "975fac03bd3e97e2d22ce3500fb9c38c5f1013eb26d34dc9bdb0f5604bad0068",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.025420400000000003
+  }
+}

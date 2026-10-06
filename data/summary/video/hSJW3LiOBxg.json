@@ -1,0 +1,27 @@
+{
+  "video_id": "hSJW3LiOBxg",
+  "item_id": "video/yt-microsoft/hSJW3LiOBxg",
+  "summary": "Power BI and reporting changes for AL developers in the 2023 release wave 2: expanded-mode embedding, locking report selection, visual-level embedding, scorecards, query analysis UI, Excel layouts with multiple data sheets, and teaching tips on queries and reports.",
+  "overview": "The session covers how Business Central reporting splits into three kinds of reports and what analytics different roles need. It then walks through new options for AL developers to embed Power BI content, with a live demo of expanded mode, report page control and visual embedding.\n\nIt also shows the analysis UI on queries, Excel layouts with multiple data sheets for Power Pivot, and teaching tips and context-sensitive help on queries and reports. It closes with learning resources and advice to understand customers' analytical requirements before choosing a technology.",
+  "key_points": [
+    "An AL action can open a Power BI report in expanded mode so the user gets the full screen area.",
+    "Developers can lock the selected report in a context and control, with flags, whether users can change the report page or switch to another report.",
+    "The PowerBI Display Element record is used to configure what is embedded: element type, report ID and embed URL taken from the Power BI REST APIs.",
+    "Single report visuals can be embedded by giving the page ID and visual ID from the Power BI report, so a chart can be shown instead of the whole report.",
+    "Power BI scorecards can be embedded as reports, and need a scorecard key and an invite URL; end users can also set up scorecards without code if the KPIs are already defined in Power BI.",
+    "Queries get an analysis toggle button, so they can be used as actions on pages for slice-and-dice, grouping and pivoting, not only for performance tuning.",
+    "Report objects get a property for Excel layouts with multiple data sheets, giving each data item its own worksheet for Power Query and Power Pivot relationships."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "0af9cc36c8549d2f9fc9cdd1cf415b4c92c811adf072b1e09b4a4ebc0876e6fb",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0265904
+  }
+}

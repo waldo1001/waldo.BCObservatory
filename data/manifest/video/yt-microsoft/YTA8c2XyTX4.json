@@ -5,12 +5,60 @@
   "tier": "official",
   "title": "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2",
   "url": "https://www.youtube.com/watch?v=YTA8c2XyTX4",
-  "published_at": null,
+  "published_at": "2023-11-20T08:17:06.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:48:37.400Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1987
+    },
+    "captioned": {
+      "at": "2026-10-06T21:48:46.295Z",
+      "path": "data/captions/microsoft/YTA8c2XyTX4.vtt",
+      "vtt_sha256": "a6e110fb942b97390ccf594bc23a1967fad2c28cbbde03273544119b4d9c3e99",
+      "segments": 103,
+      "words": 5132,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:50:39.582Z",
+      "path": "data/extract/video/YTA8c2XyTX4.json",
+      "prompt": "extract-video@1",
+      "windows": 3,
+      "features": 17,
+      "quotes": 18,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.100838
+    },
+    "summarized": {
+      "at": "2026-10-06T21:50:47.574Z",
+      "path": "data/summary/video/YTA8c2XyTX4.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.025420400000000003
+    },
+    "linked": {
+      "at": "2026-10-06T21:50:47.575Z",
+      "systems": [
+        "integration",
+        "development",
+        "platform"
+      ],
+      "topics": 12,
+      "objects_as_heard": 16
+    },
+    "published": {
+      "at": "2026-10-06T21:50:47.590Z",
+      "path": "content/videos/YTA8c2XyTX4.md"
     }
   },
   "input_hash": null,
@@ -19,7 +67,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 514,
-    "duration_s": 1988,
-    "via": "reconcile"
-  }
+    "duration_s": 1987,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "50d004fb2970a6d89d00371993571dde93accdd7429acad085b41c0243dc20e6"
 }

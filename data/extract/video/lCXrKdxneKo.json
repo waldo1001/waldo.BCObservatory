@@ -1,0 +1,1248 @@
+{
+  "video_id": "lCXrKdxneKo",
+  "item_id": "video/yt-microsoft/lCXrKdxneKo",
+  "title": "Introduction to Business Central Cloud Migration Tooling (2022)",
+  "duration_s": 2759,
+  "systems": [
+    "integration",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "cloud migration",
+    "upgrade",
+    "data replication",
+    "table mapping",
+    "azure data factory",
+    "corrupted fields",
+    "data cleanup",
+    "self-hosted integration runtime",
+    "on-premises to cloud",
+    "sql server",
+    "connection strings",
+    "stored procedures"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Session Overview",
+      "t_start": 0,
+      "t_end": 116.4
+    },
+    {
+      "title": "Cloud Migration Journey and Version History",
+      "t_start": 116.4,
+      "t_end": 271
+    },
+    {
+      "title": "Support Timeline and Migration Statistics",
+      "t_start": 271,
+      "t_end": 401.3
+    },
+    {
+      "title": "Pre-Migration Preparation: Table Definitions and Alignment",
+      "t_start": 401.3,
+      "t_end": 553
+    },
+    {
+      "title": "Data Cleanup and Sanitization",
+      "t_start": 553,
+      "t_end": 694.7
+    },
+    {
+      "title": "Cloud Migration Architecture and Pipeline Creation",
+      "t_start": 694.7,
+      "t_end": 988
+    },
+    {
+      "title": "Common Setup Errors and Troubleshooting",
+      "t_start": 988,
+      "t_end": 1242.8
+    },
+    {
+      "title": "SQL Connection Issues and Migration Execution",
+      "t_start": 1242.8,
+      "t_end": 1457.4
+    },
+    {
+      "title": "Replication Optimizations and Troubleshooting",
+      "t_start": 1457.4,
+      "t_end": 1668.3
+    },
+    {
+      "title": "Metadata Limitations and Extension Management",
+      "t_start": 1668.3,
+      "t_end": 1862.1
+    },
+    {
+      "title": "Data Migration Errors and Performance Optimization",
+      "t_start": 1862.1,
+      "t_end": 2015.9
+    },
+    {
+      "title": "Data Mapping and Table Migration Strategies",
+      "t_start": 2015.9,
+      "t_end": 2157.2
+    },
+    {
+      "title": "Upgrade Process and Tenant Management",
+      "t_start": 2157.2,
+      "t_end": 2372
+    },
+    {
+      "title": "Upgrade Failure Recovery and Data Transfer",
+      "t_start": 2372,
+      "t_end": 2580
+    },
+    {
+      "title": "API Automation and Performance Improvements",
+      "t_start": 2580,
+      "t_end": 2759
+    }
+  ],
+  "features": [
+    {
+      "name": "Cloud Migration Tooling",
+      "description": "End-to-end cloud migration journey supporting data replication from on-premises Business Central to Business Central online using Azure Data Factory with self-hosted integration runtime.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 55.2,
+      "t_end": 828.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires table definition alignment",
+        "Custom fields on standard tables are ignored unless extension refactoring is completed",
+        "Data corruption in code fields must be sanitized before migration"
+      ],
+      "tags": [
+        "data migration",
+        "azure data factory",
+        "replication",
+        "saas"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "One-Step Upgrade to Version 21",
+      "description": "Capability to upgrade directly from version 14 to version 21, skipping intermediate versions, with option to either go live on-premises or replicate to SaaS.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 197.2,
+      "t_end": 237.2,
+      "is_demoed": false,
+      "caveats": [
+        "Requires on-premises upgrade scripts if not using cloud replication",
+        "Support duration dependent on technical feasibility"
+      ],
+      "tags": [
+        "upgrade",
+        "version 21",
+        "on-premises"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Direct Cloud Migration from Version 14",
+      "description": "Path to skip on-premises upgrade and replicate directly to latest cloud version, with cloud handling the version upgrade instead.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 237.2,
+      "t_end": 271,
+      "is_demoed": false,
+      "caveats": [
+        "More forgiving with breaking changes than on-premises upgrade",
+        "Still requires table definition alignment"
+      ],
+      "tags": [
+        "upgrade",
+        "cloud migration",
+        "version 14"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Table Extension Auto-Refactoring",
+      "description": "Prototype feature to automatically split custom fields from standard Microsoft tables into table extensions during cloud migration without requiring manual code.",
+      "status": "announced",
+      "status_evidence_t": 493.6,
+      "status_evidence_quote": "we have a prototype that we are currently testing so we believe that during the cloud migration we will be able to split the",
+      "status_evidence_verified": true,
+      "t_start": 493.6,
+      "t_end": 533.7,
+      "is_demoed": false,
+      "caveats": [
+        "Currently in prototype phase",
+        "Announcement pending in coming weeks",
+        "Not yet available for production use"
+      ],
+      "tags": [
+        "table extensions",
+        "custom fields",
+        "automation",
+        "preview"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Invoke-NavSanitizeField Commandlet",
+      "description": "PowerShell commandlet to detect and sanitize corrupted code fields containing non-printing characters that would fail during cloud migration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 564.2,
+      "t_end": 643.1,
+      "is_demoed": false,
+      "caveats": [
+        "Does not cover company name fields which are text fields, not code fields",
+        "Should be run before production cloud migration",
+        "Can be run with Dash table ID parameter to optimize specific tables"
+      ],
+      "tags": [
+        "data cleanup",
+        "corrupted fields",
+        "powershell",
+        "sanitization"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Table Mapping for Cloud Migration",
+      "description": "Feature allowing renaming and prefixing of tables during cloud migration, such as adding three-letter prefix or suffix to table names.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 453.4,
+      "t_end": 473.6,
+      "is_demoed": true,
+      "caveats": [
+        "Required when source and target table names differ",
+        "Part of manual preparation before migration"
+      ],
+      "tags": [
+        "table mapping",
+        "configuration",
+        "pre-migration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Azure Data Factory Integration for Migration",
+      "description": "Cloud-based data integration service used to copy, move and transform data from on-premises SQL Server to Azure SQL database, using pipelines, activities and integration runtimes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 713.1,
+      "t_end": 887,
+      "is_demoed": true,
+      "caveats": [
+        "Requires self-hosted integration runtime for on-premises data sources",
+        "Can use Azure integration runtime if source is already in Azure",
+        "Requires setup of connection strings and runtime configuration"
+      ],
+      "tags": [
+        "azure",
+        "data factory",
+        "integration runtime",
+        "architecture"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Self-Hosted Integration Runtime",
+      "description": "Compute infrastructure installed in customer's on-premises network that enables secure data copying from on-premises SQL Server to cloud, communicating only with Azure Data Factory.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 774.4,
+      "t_end": 848.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires minimum .NET 4.72",
+        "Machine must remain online during migration",
+        "No NST running needed"
+      ],
+      "tags": [
+        "integration runtime",
+        "security",
+        "on-premises",
+        "architecture"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Cloud Migration Wizard",
+      "description": "Setup wizard in destination environment that collects SQL Server connection information and integration runtime details for configuring cloud migration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 866.1,
+      "t_end": 901.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "setup",
+        "configuration",
+        "wizard"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Preparation Pipeline",
+      "description": "Automatic pipeline created during setup that performs compatibility checks between source and destination, verifies versions match, and creates stored procedures on both sides.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 917.6,
+      "t_end": 967.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "setup",
+        "validation",
+        "compatibility checks"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Replication Pipeline",
+      "description": "Pipeline created after preparation that knows about all tables, extensions, and is ready to execute the actual data copy operation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 967.9,
+      "t_end": 988,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "data replication",
+        "pipeline"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "User Permissions Validation",
+      "description": "Checks for required permissions including super role in BC, delegated admin consent, SQL server CIS admin role, and database owner role for migration setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1023.1,
+      "t_end": 1081.8,
+      "is_demoed": false,
+      "caveats": [
+        "Delegated admin requires customer consent",
+        "SQL user needs CIS admin and DB owner roles"
+      ],
+      "tags": [
+        "permissions",
+        "security",
+        "setup validation"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "SQL Connection String Validation",
+      "description": "Validates exact format of connection strings including keywords and parameters, with documentation and ability to copy from Azure portal.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1081.8,
+      "t_end": 1139.2,
+      "is_demoed": false,
+      "caveats": [
+        "Connection string must match exact format",
+        "Common errors from missing keywords"
+      ],
+      "tags": [
+        "connection",
+        "validation",
+        "sql server"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Database Query Performance Optimization",
+      "description": "Recommendations include updating statistics and reorganizing indexes to improve performance and avoid timeout situations during migration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1150.9,
+      "t_end": 1192.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "optimization",
+        "indexes",
+        "statistics"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Version Matching Validation",
+      "description": "Ensures major version between source and destination matches, and application version property in tenant database is manually updated after upgrade.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1192.8,
+      "t_end": 1242.8,
+      "is_demoed": false,
+      "caveats": [
+        "Application version property must be manually updated after upgrade"
+      ],
+      "tags": [
+        "version",
+        "compatibility",
+        "validation"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "SQL Connection Verification",
+      "description": "Pre-migration checks including user connectivity to on-premises database, integration runtime machine access to SQL Server, firewall rules, and remote access configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1242.8,
+      "t_end": 1313.3,
+      "is_demoed": false,
+      "caveats": [
+        "Firewall must allow client IP address",
+        "SQL Server must allow remote access"
+      ],
+      "tags": [
+        "connection",
+        "firewall",
+        "verification"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Migration Run Execution",
+      "description": "Initiated from Cloud migration management page with Run migration now action, calls Azure Data Factory to start replication pipeline and instructs self-hosted integration runtime to copy data to Azure blob storage then to tenant database.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1341.3,
+      "t_end": 1381.8,
+      "is_demoed": false,
+      "caveats": [
+        "Regional blob storage ensures data does not move outside region"
+      ],
+      "tags": [
+        "replication",
+        "data transfer",
+        "execution"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Data Compression and Two-Step Transfer",
+      "description": "Self-hosted integration runtime compresses data for faster on-premises to cloud transfer, decompresses in Azure. Two-step process through blob storage improves overall performance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1381.8,
+      "t_end": 1443.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "compression",
+        "performance",
+        "optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Large Table Replication",
+      "description": "Large tables are replicated individually through Azure blob storage path with visible progress tracking on Cloud migration management page statistics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1423.3,
+      "t_end": 1457.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "large tables",
+        "replication",
+        "progress tracking"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Small Table Optimization",
+      "description": "Small tables are collected, serialized into JSON, compressed, chunked into records of special table and replicated as one table to improve efficiency. Progress reported only when records reach tenant database.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1457.4,
+      "t_end": 1514.8,
+      "is_demoed": false,
+      "caveats": [
+        "Progress not immediately visible",
+        "Must wait for records to reach tenant database"
+      ],
+      "tags": [
+        "small tables",
+        "optimization",
+        "serialization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Full and Incremental Replication",
+      "description": "First replication run is full replication of all tables. Subsequent runs use SQL change tracking to replicate only delta changes for faster incremental runs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1514.8,
+      "t_end": 1555,
+      "is_demoed": false,
+      "caveats": [
+        "Do not replace or change on-premises database during replication or change tracking becomes invalid",
+        "Invalid change tracking requires full replication again"
+      ],
+      "tags": [
+        "replication",
+        "change tracking",
+        "delta",
+        "incremental"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Integration Runtime Offline Handling",
+      "description": "If integration runtime machine stays offline too long during migration, automated cleanup procedures may wipe Azure resources and prevent easy resumption requiring full setup again.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1595.4,
+      "t_end": 1635.6,
+      "is_demoed": false,
+      "caveats": [
+        "Machine must stay online during migration",
+        "Prolonged offline status triggers automated cleanup"
+      ],
+      "tags": [
+        "integration runtime",
+        "troubleshooting",
+        "availability"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Database Replacement Impact",
+      "description": "Replacing or restoring on-premises database before replication completes causes SQL errors for invalid object names and stored procedures, requiring full setup restart.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1635.6,
+      "t_end": 1668.3,
+      "is_demoed": false,
+      "caveats": [
+        "Most difficult errors to resolve",
+        "Occurs when database replaced during replication"
+      ],
+      "tags": [
+        "troubleshooting",
+        "errors",
+        "database backup"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Metadata size limitations",
+      "description": "Azure Data Factory has a 4 megabyte limitation on metadata, which is a JSON serialized description of all fields in all tables across extensions and companies being replicated.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1668.3,
+      "t_end": 1698.8,
+      "is_demoed": false,
+      "caveats": [
+        "Error messages from Azure are not easily understandable",
+        "Cannot intercept or modify Azure error warnings"
+      ],
+      "tags": [
+        "metadata",
+        "limitations",
+        "azure data factory"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Multi-company migration optimization",
+      "description": "Reduce the number of companies migrated at once through the cloud migration management page to avoid metadata size errors. Optimal size is approximately 10 to 15 companies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1720,
+      "t_end": 1760.1,
+      "is_demoed": true,
+      "caveats": [
+        "Actual optimal number depends on data volume and number of extensions"
+      ],
+      "tags": [
+        "migration strategy",
+        "performance",
+        "companies"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Extension cleanup for migration",
+      "description": "Uninstall unnecessary extensions from the cloud tenant prior to cloud migration to reduce metadata size, then reinstall them as needed after migration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1760.1,
+      "t_end": 1800.7,
+      "is_demoed": false,
+      "caveats": [
+        "Having extensions without data is not harmful but contributes to metadata size"
+      ],
+      "tags": [
+        "extensions",
+        "metadata reduction",
+        "optimization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Table-level replication exclusion",
+      "description": "Exclude specific tables from cloud migration by setting the AL table attribute ReplicateData to false.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1780.4,
+      "t_end": 1820.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "table attribute",
+        "replication control",
+        "extensions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Tenant media bulk copy handling",
+      "description": "Handle out of memory exceptions during bulk copy of tenant media table by using a stored procedure to redirect tenant media to one-to-one copying instead of bulk.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1820.8,
+      "t_end": 1882.3,
+      "is_demoed": false,
+      "caveats": [
+        "Workaround is a hack",
+        "Images are not compressible",
+        "Out of memory errors originate from Azure Data Factory infrastructure, not Business Central"
+      ],
+      "tags": [
+        "tenant media",
+        "bulk copy",
+        "workaround"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Table-to-table full copy error handling",
+      "description": "When row delimiter errors occur during table-to-table full copy, identify the failed table and redirect it into bulk copy if it is compressible.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1882.3,
+      "t_end": 1938.1,
+      "is_demoed": false,
+      "caveats": [
+        "Error messages are not easily understandable",
+        "Errors reported to Azure Data Factory for potential future fixes"
+      ],
+      "tags": [
+        "bulk copy",
+        "error handling",
+        "azure"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "On-premises infrastructure monitoring",
+      "description": "Monitor CPU and memory utilization on the integration runtime machine and Azure SQL source database during cloud migration. Upscale the database if high consumption is observed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1938.1,
+      "t_end": 1978.7,
+      "is_demoed": false,
+      "caveats": [
+        "Integration runtime has specified system requirements that must be honored"
+      ],
+      "tags": [
+        "monitoring",
+        "performance",
+        "infrastructure"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Database statistics and index optimization",
+      "description": "Update statistics and reorganize indexes on the source database before setting up cloud migration to improve performance. Use a dedicated SQL Server not busy with other production activities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1958.7,
+      "t_end": 1995.4,
+      "is_demoed": false,
+      "caveats": [
+        "Should be done once before setup",
+        "Dedicated server performs faster than shared production server"
+      ],
+      "tags": [
+        "sql optimization",
+        "indexes",
+        "statistics"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Default data mapping for table replication",
+      "description": "Data is copied between on-premises and cloud tables when SQL names match based on company name, table name, and extension ID. Extra fields in on-premises tables are silently ignored.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2015.9,
+      "t_end": 2076.5,
+      "is_demoed": false,
+      "caveats": [
+        "Extra fields in on-premises are silently ignored with no warnings",
+        "No errors are raised for field mismatches"
+      ],
+      "tags": [
+        "data mapping",
+        "table matching",
+        "replication"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Missing table warning during replication",
+      "description": "When a table exists in the cloud but not in the on-premises database, a warning is displayed that the table does not exist in the local installation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2056.4,
+      "t_end": 2096.5,
+      "is_demoed": false,
+      "caveats": [
+        "Warning is usually safe to ignore but should be verified to ensure no tables were accidentally missed"
+      ],
+      "tags": [
+        "warnings",
+        "table validation",
+        "replication"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Table mapping for different table names",
+      "description": "Use the table mapping action in the cloud migration management page to map tables with different names between on-premises and cloud, such as when extensions use different naming prefixes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2116.6,
+      "t_end": 2157.2,
+      "is_demoed": true,
+      "caveats": [
+        "Only fields with the same names in both tables are migrated"
+      ],
+      "tags": [
+        "table mapping",
+        "extension mapping",
+        "data migration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Improved upgrade logic for cloud migration",
+      "description": "Leverage existing upgrade logic for previous versions during cloud migration. Adapt upgrade code to be reusable for cloud migration without needing duplicate changes across multiple upgrade versions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2191.1,
+      "t_end": 2231.8,
+      "is_demoed": false,
+      "caveats": [
+        "Cannot invoke upgrade codeunits directly",
+        "Cannot access obsolete or removed fields from non-upgrade scope"
+      ],
+      "tags": [
+        "upgrade logic",
+        "cloud migration",
+        "version compatibility"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Single-session upgrade with full app inclusion",
+      "description": "Trigger the full upgrade code with all apps included in a single session to enable stable upgrades with automatic reporting, telemetry, and backup restore on failure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2231.8,
+      "t_end": 2272,
+      "is_demoed": false,
+      "caveats": [
+        "Hot fixes are not applied during upgrade",
+        "Prevents accidental locks and errors from concurrent user access"
+      ],
+      "tags": [
+        "upgrade",
+        "single session",
+        "stability"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Upgrade status tracking in Admin Center",
+      "description": "Track upgrade progress through the Admin Center where the environment status flips to updating. Operations tab shows upgrade history and status. Environment is inaccessible during upgrade.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2272,
+      "t_end": 2332.2,
+      "is_demoed": true,
+      "caveats": [
+        "Users cannot access environment during upgrade",
+        "Approximately 3 minutes for upgrade to complete before status flips to active"
+      ],
+      "tags": [
+        "upgrade tracking",
+        "admin center",
+        "status"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Automatic point-in-time restore on upgrade failure",
+      "description": "If upgrade fails, the system automatically restores the tenant to point-in-time before the upgrade was run. Full stack trace is provided for troubleshooting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2372,
+      "t_end": 2425.4,
+      "is_demoed": true,
+      "caveats": [
+        "Error messages are being improved for better clarity",
+        "Tenant remains operational after restore"
+      ],
+      "tags": [
+        "upgrade failure",
+        "restore",
+        "recovery"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Legacy upgrade flow support",
+      "description": "The old upgrade flow is still supported alongside the new improved upgrade process. Can be triggered programmatically if solutions have dependencies on the old behavior.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2412,
+      "t_end": 2446,
+      "is_demoed": false,
+      "caveats": [
+        "Legacy support is available but new flow is the default"
+      ],
+      "tags": [
+        "upgrade",
+        "backwards compatibility",
+        "migration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Data transfer feature",
+      "description": "Efficient SQL-based data migration feature that eliminates loopy entry-by-entry modifications when moving obsolete removed fields to new fields, reducing migration time from 2-24 hours to 2-5 minutes for 1 million entries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2446,
+      "t_end": 2580,
+      "is_demoed": false,
+      "caveats": [
+        "only usable in upgrade scope to initialize new fields",
+        "cannot be used for SaaS solutions",
+        "target on-prem only",
+        "breaking change if events are not raised"
+      ],
+      "tags": [
+        "data migration",
+        "upgrade performance",
+        "on-prem"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Long-running methods optimization",
+      "description": "Reduction of long-running methods during upgrade by 11 through optimization using the new data transfer feature, improving overall upgrade performance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2593.8,
+      "t_end": 2613.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "upgrade performance",
+        "optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Cloud migration APIs",
+      "description": "APIs for managing cloud migrations end-to-end, enabling automation of setup, company management, and cloud migration processes for bulk migrations of multiple companies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2654.8,
+      "t_end": 2674.8,
+      "is_demoed": false,
+      "caveats": [
+        "examples available on BC Tech GitHub"
+      ],
+      "tags": [
+        "api",
+        "automation",
+        "cloud migration"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Invoke-NavSanitizeField",
+      "t": 622.7
+    },
+    {
+      "type": "page",
+      "name": "data archive page",
+      "t": 674.6
+    },
+    {
+      "type": "table",
+      "name": "cloud migration management",
+      "t": 1740
+    },
+    {
+      "type": "table",
+      "name": "tenant media",
+      "t": 1841.7
+    },
+    {
+      "type": "other",
+      "name": "is full copy",
+      "t": 1882.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Nicola",
+      "confidence": "high"
+    },
+    {
+      "name": "Roman",
+      "confidence": "high"
+    },
+    {
+      "name": "Julia",
+      "confidence": "high"
+    },
+    {
+      "name": "Yia",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 136.5,
+      "text": "version 14 and this is a rather important version because this is the last version which is supporting CR",
+      "why_it_matters": "Establishes version 14 as the critical bridge for customers migrating from legacy C environments to cloud.",
+      "check": "exact"
+    },
+    {
+      "t": 197.2,
+      "text": "you can do a single step upgrad to the version 21 skipping all of the versions in between",
+      "why_it_matters": "Clarifies upgrade path efficiency, allowing customers to jump multiple versions in one operation.",
+      "check": "exact"
+    },
+    {
+      "t": 291,
+      "text": "we are going to support this part as long as we technically can because we want to make you as efficient when you're running",
+      "why_it_matters": "Demonstrates commitment to supporting version 14 migration path but with indefinite duration contingent on technical feasibility.",
+      "check": "exact"
+    },
+    {
+      "t": 368,
+      "text": "in the last 30 days we had 564 unique customers migrating",
+      "why_it_matters": "Provides concrete adoption metrics showing active cloud migration adoption at scale.",
+      "check": "exact"
+    },
+    {
+      "t": 433.2,
+      "text": "these properties are must for both Cloud migration and for operate so you must align primary keys",
+      "why_it_matters": "Establishes mandatory requirements for successful migration preparation.",
+      "check": "exact"
+    },
+    {
+      "t": 493.6,
+      "text": "the cloud migration is going to ignore these fields currently so we will replicate the Full Table ignoring the fields that you have added",
+      "why_it_matters": "Identifies critical limitation where custom fields on standard tables are not handled, requiring workarounds.",
+      "check": "exact"
+    },
+    {
+      "t": 493.6,
+      "text": "we have a prototype that we are currently testing so we believe that during the cloud migration we will be able to split the",
+      "why_it_matters": "Signals upcoming feature to address custom field handling, showing product roadmap commitment to known problem.",
+      "check": "exact"
+    },
+    {
+      "t": 794.7,
+      "text": "self hosted integration runtime and this is installed within the network of the customer on prem and then registered with our azure data",
+      "why_it_matters": "Explains the core architecture for secure data transfer from on-premises to cloud with network isolation.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 828.7,
+      "text": "there is no NST needed no NST running needed um we really connect directly to the database",
+      "why_it_matters": "Clarifies security architecture, emphasizing direct database connection without intermediary services.",
+      "check": "exact"
+    },
+    {
+      "t": 1040.2,
+      "text": "the user that is doing the setup in BC has to have the super role",
+      "why_it_matters": "States the permission requirement for migration setup, critical for troubleshooting common errors.",
+      "check": "exact"
+    },
+    {
+      "t": 1534.9,
+      "text": "we won't move all the data but only those that are Delta change so incremental uh that would make it faster",
+      "why_it_matters": "Describes the incremental replication optimization using change tracking for subsequent runs.",
+      "check": "exact"
+    },
+    {
+      "t": 1555,
+      "text": "the replication is done by Asia data Factory and it's mostly very stable we don't see so many errors",
+      "why_it_matters": "Indicates the replication process is stable with fewer errors compared to setup phase.",
+      "check": "exact"
+    },
+    {
+      "t": 1615.4,
+      "text": "you keep the machine that hosts your integration run time online all the time while you're doing Cloud migration",
+      "why_it_matters": "Critical operational requirement to prevent automated cleanup of Azure resources during migration.",
+      "check": "exact"
+    },
+    {
+      "t": 1648.3,
+      "text": "these are the most difficult errors that you face they're not very common there are like maybe 10 errors per months",
+      "why_it_matters": "Provides frequency metrics for database replacement errors, indicating relative rarity despite difficulty.",
+      "check": "exact"
+    },
+    {
+      "t": 1688.4,
+      "text": "Asia data Factory has a limitation for this text description to be less than four megabytes",
+      "why_it_matters": "Establishes the key technical limitation that causes metadata errors when migrating multiple companies with many extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 1740,
+      "text": "we suggest that you kind of uh reduce the number of companies for migration you can do it on cloud migration management page",
+      "why_it_matters": "Provides the primary recommendation to avoid metadata errors through incremental multi-company migration.",
+      "check": "exact"
+    },
+    {
+      "t": 2015.9,
+      "text": "an optimal size is about 10 15 companies it could be more it depends on your data",
+      "why_it_matters": "Establishes the recommended batch size for companies per migration run based on best practices.",
+      "check": "exact"
+    },
+    {
+      "t": 2035.9,
+      "text": "we just copy them but we copy them because the SQL names match so we look at the SQL names and that usually the",
+      "why_it_matters": "Explains the matching logic for automatic table mapping during replication.",
+      "check": "exact"
+    },
+    {
+      "t": 2191.1,
+      "text": "we are leveraging the upgrade Logic for the up if your Cloud migrating from previous versions",
+      "why_it_matters": "Introduces the first major improvement to the upgrade process for cloud migration.",
+      "check": "snapped"
+    },
+    {
+      "t": 2251.8,
+      "text": "we are triggering the full upgrade code all apps are going to be included and you will have a single upgrate Logic",
+      "why_it_matters": "Describes the key benefit of using full upgrade code instead of duplicating upgrade logic.",
+      "check": "exact"
+    },
+    {
+      "t": 2292,
+      "text": "you can track the status in the admin Center so if you say yes you will get the message that the upgrade was scheduled",
+      "why_it_matters": "Demonstrates the improved upgrade tracking and monitoring capabilities in Admin Center.",
+      "check": "exact"
+    },
+    {
+      "t": 2372,
+      "text": "you'll get a full stack Trace we are looking into providing you with a nice error message message as well so you can see",
+      "why_it_matters": "Indicates improved error reporting for upgrade failures to help diagnose issues",
+      "check": "exact"
+    },
+    {
+      "t": 2412,
+      "text": "so now you can fix the errors replicate additional data or try to run the upgrade again so with this new flow you're also",
+      "why_it_matters": "Automatic rollback capability enables iterative fixing of upgrade issues without data loss",
+      "check": "exact"
+    },
+    {
+      "t": 2425.4,
+      "text": "because we are just rolling this one out we are still supporting the old upgrade flow so if you took any dependencies to how",
+      "why_it_matters": "Confirms backwards compatibility support for existing solutions during the rollout of improved upgrade process.",
+      "check": "exact"
+    },
+    {
+      "t": 2487.1,
+      "text": "if you want to update 1 million entries it's going to take anywhere between 2 hours or 24 hours and more the reason why",
+      "why_it_matters": "Quantifies the performance problem with traditional upgrade approach that the data transfer feature solves",
+      "check": "exact"
+    },
+    {
+      "t": 2527.9,
+      "text": "with data transfer one to million entries is approximately taking two to 5 minutes so with this feature now we are able to update",
+      "why_it_matters": "Demonstrates 25-280 times performance improvement with data transfer feature compared to legacy approach",
+      "check": "snapped"
+    },
+    {
+      "t": 2580,
+      "text": "currently it's marked as Target on Prem which means that you will unfortunately not be able to use it for SAS solution but you",
+      "why_it_matters": "Clarifies platform limitations of data transfer feature and scope of availability",
+      "check": "exact"
+    },
+    {
+      "t": 2593.8,
+      "text": "for this release we have shrinked the number of long running methods by 11 because we use this new data transfer feature to optimize",
+      "why_it_matters": "Quantifies concrete improvement in upgrade performance through optimization work",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 271,
+      "kind": "subject-to-change",
+      "text": "we are going to support this part as long as we technically can"
+    },
+    {
+      "t": 513.6,
+      "kind": "preview",
+      "text": "we have a prototype that we are currently testing so we believe that during the cloud migration we will be able to split the main table with table extensions into main table and table extension without the need for you to write any code and if we are successful we are going to announce it so just keep your eyes open there might be an announcement coming in a few weeks"
+    },
+    {
+      "t": 2191.1,
+      "kind": "preview",
+      "text": "we are just rolling this one out we are still supporting the old upgrade flow"
+    },
+    {
+      "t": 2446,
+      "kind": "other",
+      "text": "I will not be able to talk about it much I will just briefly cover it"
+    },
+    {
+      "t": 2559.1,
+      "kind": "other",
+      "text": "it has some limitations because it's a very powerful feature"
+    },
+    {
+      "t": 2580,
+      "kind": "preview",
+      "text": "currently it's marked as Target on Prem"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 28,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 41
+  },
+  "windows": 4,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027805000000000003
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032035
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.036231
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019716
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.055954000000000004
+    }
+  ]
+}

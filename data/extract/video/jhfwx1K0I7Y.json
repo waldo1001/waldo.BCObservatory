@@ -1,0 +1,484 @@
+{
+  "video_id": "jhfwx1K0I7Y",
+  "item_id": "video/yt-microsoft/jhfwx1K0I7Y",
+  "title": "Introducing: Bank Account Reconciliation Assistance with Copilot (2023 release wave 2)",
+  "duration_s": 1300,
+  "systems": [
+    "finance",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "bank reconciliation",
+    "copilot",
+    "ai-assisted matching",
+    "statement import",
+    "bank transactions",
+    "ledger entries",
+    "general ledger",
+    "semantic matching",
+    "preview",
+    "azure openai",
+    "language limitations",
+    "demo data"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to AI in Business Central and Copilot Overview",
+      "t_start": 0,
+      "t_end": 139.2
+    },
+    {
+      "title": "Bank Account Reconciliation and the New Copilot Capability",
+      "t_start": 139.2,
+      "t_end": 219.3
+    },
+    {
+      "title": "Reconcile with Copilot Action and Matching Process",
+      "t_start": 219.3,
+      "t_end": 321.4
+    },
+    {
+      "title": "Demo: Full Automatic Matching with Copilot",
+      "t_start": 321.4,
+      "t_end": 459.3
+    },
+    {
+      "title": "Demo: Partial Matching and Manual Review",
+      "t_start": 459.3,
+      "t_end": 597.6
+    },
+    {
+      "title": "Transfer to GL Account and Semantic Matching",
+      "t_start": 597.6,
+      "t_end": 812
+    },
+    {
+      "title": "Availability, Localization and Language Limitations",
+      "t_start": 812,
+      "t_end": 912.6
+    },
+    {
+      "title": "Demo Data Setup and Capabilities",
+      "t_start": 912.6,
+      "t_end": 997.9
+    },
+    {
+      "title": "Prerequisites and Feature Management",
+      "t_start": 997.9,
+      "t_end": 1071.9
+    },
+    {
+      "title": "Azure OpenAI Configuration and Feedback",
+      "t_start": 1071.9,
+      "t_end": 1152.4
+    },
+    {
+      "title": "Summary and Developer Tools",
+      "t_start": 1152.4,
+      "t_end": 1233.1
+    },
+    {
+      "title": "Closing and Resources",
+      "t_start": 1233.1,
+      "t_end": 1300
+    }
+  ],
+  "features": [
+    {
+      "name": "Bank Account Reconciliation Assistance with Copilot",
+      "description": "A new copilot capability that assists users in reconciling bank account statements by matching imported bank transactions with business central ledger entries. Copilot uses large language models to interpret ambiguity, understand intent, and match lines that the built-in algorithm cannot automatically match. The feature learns from reconciliation mappings and improves future suggestions.",
+      "status": "preview",
+      "status_evidence_t": 158.8,
+      "status_evidence_quote": "this is now available in public preview with 2023 release Wave 2",
+      "status_evidence_verified": true,
+      "t_start": 118.9,
+      "t_end": 1172.7,
+      "is_demoed": true,
+      "caveats": [
+        "Only available for Business Central online (SaaS)",
+        "Copilot performs better with English language transactions",
+        "Performance may be reduced with mixed language transactions",
+        "Will be delivered in a minor update spanning November 2023 to March 2024",
+        "Not restricted by country localizations but may perform differently",
+        "Suggestions might not perform as well in other languages"
+      ],
+      "tags": [
+        "bank reconciliation",
+        "copilot",
+        "ai",
+        "matching",
+        "preview",
+        "saas"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Reconcile with Copilot Action",
+      "description": "A new action on the bank account reconciliations list that launches a copilot-tailored dialogue for the reconciliation process. The dialogue allows users to select a bank account, import transaction data from a file or online bank feed, and generate matching proposals.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 219.3,
+      "t_end": 301.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires bank statement import setup on the account",
+        "All proposals are provisional until explicitly saved"
+      ],
+      "tags": [
+        "reconciliation",
+        "ui",
+        "copilot",
+        "dialogue"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Hybrid Matching Algorithm",
+      "description": "The system first attempts to match statement lines using the built-in business central matching algorithm, then sends unmatched lines to copilot for additional matching. Copilot can match lines to multiple ledger entries when appropriate.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 301.3,
+      "t_end": 401.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "matching",
+        "algorithm",
+        "hybrid",
+        "copilot"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Transfer to GL Account with Semantic Matching",
+      "description": "Users can transfer unmatched bank statement lines to general ledger accounts. Copilot analyzes line descriptions and GL account names to suggest appropriate accounts, using semantic understanding rather than substring matching. Users can manually override suggestions and save description-to-account mappings for future use.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 635.7,
+      "t_end": 796.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires manual review and approval",
+        "Mappings saved are specific to the reconciliation context"
+      ],
+      "tags": [
+        "transfer",
+        "general ledger",
+        "semantic matching",
+        "automation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Visual Reconciliation Progress Indicator",
+      "description": "A visual indicator on the reconciliation page shows how many of the statement lines have been matched by copilot and the built-in algorithm, helping users quickly assess reconciliation completeness.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 459.3,
+      "t_end": 479.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ui",
+        "progress",
+        "visual"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Auto-Post If Fully Applied",
+      "description": "When all statement lines are matched, users can check a box to automatically post the bank account reconciliation without additional review, streamlining the process for complete reconciliations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 479.4,
+      "t_end": 500.6,
+      "is_demoed": true,
+      "caveats": [
+        "Only available when all lines are matched"
+      ],
+      "tags": [
+        "posting",
+        "automation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Description-to-Account Mapping",
+      "description": "Users can save mappings between bank statement line descriptions and general ledger accounts. These mappings persist in the database and are reused in future reconciliations to improve matching consistency.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 759.5,
+      "t_end": 796.6,
+      "is_demoed": true,
+      "caveats": [
+        "Savings are based on manual user selection"
+      ],
+      "tags": [
+        "mapping",
+        "machine learning",
+        "persistence"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Copilot and AI Capabilities Page",
+      "description": "Admin page that provides an overview of all copilot and AI capabilities installed in a specific environment. Shows which capabilities are active and indicates if the environment is connected to Azure OpenAI service.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1051.2,
+      "t_end": 1091.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "admin",
+        "setup"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Feature Management for Bank Account Reconciliation",
+      "description": "Administrators must enable the bank account reconciliation feature via the feature management page. Required when upgrading from earlier versions of Business Central. Requires elevated admin permissions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 997.9,
+      "t_end": 1038.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires elevated admin permissions",
+        "Only needed when upgrading from earlier versions"
+      ],
+      "tags": [
+        "feature management",
+        "admin",
+        "setup"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Azure OpenAI Regional Configuration",
+      "description": "Administrators can configure whether Business Central can connect to Azure OpenAI service in different regions. A switch allows administrators to give consent for data movement to connect to Azure OpenAI in regions where it is available.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1071.9,
+      "t_end": 1112.2,
+      "is_demoed": true,
+      "caveats": [
+        "Required only if environment localization is in a region where Azure OpenAI service is not available"
+      ],
+      "tags": [
+        "copilot",
+        "azure openai",
+        "admin",
+        "setup"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Copilot Feedback Rating",
+      "description": "Users can rate and signal feedback on the quality of copilot suggestions during bank account reconciliation. Feedback is collected to improve the feature.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1112.2,
+      "t_end": 1133,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "feedback",
+        "user experience"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Developer Tools for Copilot",
+      "description": "New developer tools available for building generative AI capabilities in Business Central extensions. Bank reconciliation assistance was built using these tools, enabling partners to design and implement similar AI capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1192.7,
+      "t_end": 1213.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "developer tools",
+        "ai",
+        "extensions"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "bank account reconciliations",
+      "t": 219.3
+    },
+    {
+      "type": "page",
+      "name": "bank account reconciliation card",
+      "t": 597.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Mike porch cardana",
+      "confidence": "medium"
+    },
+    {
+      "name": "Brian Nelson",
+      "confidence": "high"
+    },
+    {
+      "name": "George chanic",
+      "confidence": "medium"
+    },
+    {
+      "name": "Georgia",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 118.9,
+      "text": "we're excited to introduce business Central's second co-pilot capability bank account reconciliation assistance with co-pilot",
+      "why_it_matters": "This is the official announcement of the second copilot feature in Business Central, marking expansion beyond marketing text to core financial processes.",
+      "check": "exact"
+    },
+    {
+      "t": 118.9,
+      "text": "co-pilot is built on Microsoft's industry-leading uh security privacy compliance and responsible AI which means you can trust that your data especially the sensitive",
+      "why_it_matters": "Establishes the security and compliance foundation for using AI with sensitive financial data, addressing customer concerns about data safety.",
+      "check": "snapped"
+    },
+    {
+      "t": 158.8,
+      "text": "this is now available in public preview with 2023 release Wave 2",
+      "why_it_matters": "States the precise release timing and preview status of the new capability.",
+      "check": "exact"
+    },
+    {
+      "t": 301.3,
+      "text": "it will first uh try to match the statement lines from the imported files uh from the imported file with the business Central buil-in",
+      "why_it_matters": "Explains the hybrid matching approach that combines built-in algorithms with copilot to handle both simple and complex reconciliation scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 812,
+      "text": "this feature is available uh in public preview while we assess feedback from our community",
+      "why_it_matters": "Establishes that bank account reconciliation assistance is in public preview status, indicating it is not generally available yet.",
+      "check": "exact"
+    },
+    {
+      "t": 832.4,
+      "text": "this will be delivered in a minor update for Wave 2 now keep in mind that minor updates span from November until March 2024",
+      "why_it_matters": "Specifies the exact timeframe for feature delivery within Wave 2's minor updates, clarifying when it will be available beyond update 23.0.",
+      "check": "exact"
+    },
+    {
+      "t": 852.4,
+      "text": "bank account reconciliation assistance is only available for business Central online what we often refer to as SAS",
+      "why_it_matters": "States a critical limitation that the feature is restricted to SaaS deployments only, excluding on-premises installations.",
+      "check": "exact"
+    },
+    {
+      "t": 872.6,
+      "text": "while in preview co-pilot performs better in English language uh with English Bank transactions and in fact uh suggestions might not perform as well",
+      "why_it_matters": "Documents language limitations in the preview version, important for customers in non-English markets.",
+      "check": "exact"
+    },
+    {
+      "t": 944.6,
+      "text": "there's no need to import a file and you can see that our uh built-in algorithm matched one out of three lines based on",
+      "why_it_matters": "Demonstrates the relative performance improvement of copilot matching compared to the built-in algorithm.",
+      "check": "exact"
+    },
+    {
+      "t": 964.9,
+      "text": "it matched the deposit line because it is a one one statement line to multiple Ledger entries this is something that the business Central",
+      "why_it_matters": "Highlights a specific capability where copilot excels - matching one bank statement line to multiple ledger entries.",
+      "check": "exact"
+    },
+    {
+      "t": 1091.9,
+      "text": "this single switch allowing data movement is really the last thing uh that remains for you to experience co-pilot in business Central",
+      "why_it_matters": "Explains the final configuration step needed to enable copilot functionality in regions without direct Azure OpenAI service availability.",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 158.8,
+      "kind": "preview",
+      "text": "this is now available in public preview with 2023 release Wave 2"
+    },
+    {
+      "t": 812,
+      "kind": "preview",
+      "text": "this feature is available uh in public preview while we assess feedback from our community"
+    },
+    {
+      "t": 832.4,
+      "kind": "coming-later",
+      "text": "this will be delivered in a minor update for Wave 2 now keep in mind that minor updates span from November until March 2024"
+    },
+    {
+      "t": 852.4,
+      "kind": "subject-to-change",
+      "text": "bank account reconciliation assistance is only available for business Central online what we often refer to as SAS"
+    },
+    {
+      "t": 872.6,
+      "kind": "preview",
+      "text": "while in preview co-pilot performs better in English language uh with English Bank transactions and in fact uh suggestions might not perform as well in other languages"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 11,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 11
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027206
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022843999999999996
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.02251
+    }
+  ]
+}

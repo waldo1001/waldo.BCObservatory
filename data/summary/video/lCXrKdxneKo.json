@@ -1,0 +1,28 @@
+{
+  "video_id": "lCXrKdxneKo",
+  "item_id": "video/yt-microsoft/lCXrKdxneKo",
+  "summary": "Business Central cloud migration tooling from on-premises to Business Central online, using Azure Data Factory and a self-hosted integration runtime. It is evidence for preparation (table alignment, data cleanup), setup and permissions, troubleshooting, table mapping, the new upgrade flow and migration APIs.",
+  "overview": "The session covers the cloud migration journey from on-premises Business Central, including the one-step upgrade from version 14 to version 21 and the option to replicate directly to the cloud. It explains the architecture: a wizard in the destination environment, a preparation pipeline and a replication pipeline in Azure Data Factory, and a self-hosted integration runtime that copies data through regional blob storage to the tenant database.\n\nThe presenters also cover common errors and fixes. Topics include connection strings, permissions, the 4 MB metadata limit, out-of-memory and row delimiter errors, and database replacement during replication. The session then covers table mapping, the new upgrade flow with automatic point-in-time restore, the data transfer feature for upgrades, and cloud migration APIs for bulk automation.",
+  "key_points": [
+    "Table definitions must be aligned, including primary keys. Custom fields added to standard tables are ignored during migration unless they are refactored into extensions. Extra on-premises fields are silently ignored with no warnings.",
+    "Run the Invoke-NavSanitizeField commandlet before production migration to fix corrupted code fields. It does not cover company name fields, which are text fields.",
+    "The self-hosted integration runtime needs .NET 4.72 or higher and must stay online during migration. A long offline period can trigger automated cleanup of Azure resources and force a full setup again. No NST is needed.",
+    "Setup needs the super role in BC and delegated admin consent. The SQL user needs the CIS admin and database owner roles. Connection strings must match the exact documented format.",
+    "Metadata errors come from a 4 MB Azure Data Factory limit. Reduce the companies migrated at once (about 10 to 15 is suggested, depending on data and extensions) and uninstall unneeded extensions in the cloud tenant before migrating.",
+    "Do not replace or restore the on-premises database during replication. It causes invalid object name errors and breaks SQL change tracking, so a full setup restart and full replication are needed. The first run is full, and later runs are incremental.",
+    "Use the table mapping action on the Cloud migration management page when table names differ. Only fields with the same names are migrated. To exclude a table, set the AL attribute ReplicateData to false."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "713e530a6d152588caeee07579b9d3b0fb8bd5e6b208df1125876b9cbfa18f99",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0415484
+  }
+}

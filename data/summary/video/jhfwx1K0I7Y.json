@@ -1,0 +1,29 @@
+{
+  "video_id": "jhfwx1K0I7Y",
+  "item_id": "video/yt-microsoft/jhfwx1K0I7Y",
+  "summary": "Bank Account Reconciliation Assistance with Copilot, in public preview with 2023 release wave 2, matches imported bank statement lines to ledger entries using the built-in algorithm first and Copilot for the remainder. The video demos full and partial matching, transfer to GL accounts, and the admin setup.",
+  "overview": "The video introduces Business Central's second Copilot capability, bank account reconciliation assistance. A new \"Reconcile with Copilot\" action on the bank account reconciliations list opens a dialogue where the user picks a bank account, imports a statement file or online feed, and gets matching proposals. The built-in algorithm runs first, and Copilot handles the lines left unmatched, including matching one line to multiple ledger entries.\n\nThe demos cover full automatic matching, partial matching with manual review, and transferring unmatched lines to GL accounts using semantic matching. The video then covers availability limits, feature management, Azure OpenAI regional consent, feedback rating, and developer tools used to build the capability.",
+  "key_points": [
+    "The feature is in public preview with 2023 release wave 2. It is only available for Business Central online (SaaS) and will arrive in a minor update between November 2023 and March 2024.",
+    "Matching order: the built-in algorithm tries the statement lines first, then unmatched lines go to Copilot. Proposals are provisional until the user saves them.",
+    "Copilot works best with English transactions. Mixed-language data may perform worse. It is not restricted by country localization, but results may differ.",
+    "Unmatched lines can be transferred to GL accounts. Copilot suggests accounts from the line description and account name semantically. Users can override a suggestion and save description-to-account mappings for later use.",
+    "When all lines are matched, an option lets the reconciliation post automatically.",
+    "Admins may need to enable the feature in Feature Management when upgrading, which requires elevated permissions. The Copilot and AI Capabilities page shows active capabilities and the Azure OpenAI connection.",
+    "If the environment's region has no Azure OpenAI service, an admin must turn on the switch that allows data movement to a region where it is available."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user",
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "f84b2539e5e8b70a5c59337d73c58a81f40580654e60956c88db7ee87c650784",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.021966399999999997
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "video_id": "fIOnGEARkKs",
+  "item_id": "video/yt-microsoft/fIOnGEARkKs",
+  "title": "What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1",
+  "duration_s": 1165,
+  "systems": [
+    "integration",
+    "crm",
+    "platform"
+  ],
+  "topics": [
+    "multi-company synchronization",
+    "multi-environment integration",
+    "dataverse",
+    "dynamics 365 sales",
+    "virtual tables",
+    "currency conversion",
+    "field mappings",
+    "event-based synchronization",
+    "data privacy",
+    "coupling"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and session agenda",
+      "t_start": 0,
+      "t_end": 78.5
+    },
+    {
+      "title": "Multi-company and multi-environment synchronization",
+      "t_start": 78.5,
+      "t_end": 192.1
+    },
+    {
+      "title": "Document filtering and data consolidation strategies",
+      "t_start": 192.1,
+      "t_end": 287.3
+    },
+    {
+      "title": "Multi-currency synchronization and currency handling",
+      "t_start": 287.3,
+      "t_end": 391.4
+    },
+    {
+      "title": "Additional field mappings and event-based synchronization control",
+      "t_start": 391.4,
+      "t_end": 466.9
+    },
+    {
+      "title": "Virtual tables and commercial licensing changes",
+      "t_start": 466.9,
+      "t_end": 550.4
+    },
+    {
+      "title": "Demo setup and synchronization recommendations",
+      "t_start": 550.4,
+      "t_end": 666.8
+    },
+    {
+      "title": "Multi-company synchronization toggle and virtual table setup",
+      "t_start": 666.8,
+      "t_end": 843.6
+    },
+    {
+      "title": "Integration configuration and default connection setup",
+      "t_start": 843.6,
+      "t_end": 1088.6
+    },
+    {
+      "title": "Demo conclusion and next steps",
+      "t_start": 1088.6,
+      "t_end": 1165
+    }
+  ],
+  "features": [
+    {
+      "name": "Multi-company and multi-environment synchronization",
+      "description": "Enables multiple companies from multiple Business Central environments to access data in the same Dataverse environment. Includes company filter management, stricter document filtering, and multi-tenant Azure AD support.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 78.5,
+      "t_end": 211.1,
+      "is_demoed": true,
+      "caveats": [
+        "Requires careful company filter configuration",
+        "Needs explicit company selection for documents to avoid conflicts"
+      ],
+      "tags": [
+        "multi-company",
+        "multi-environment",
+        "dataverse",
+        "synchronization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Default Business Central environment and company selection",
+      "description": "Users can pick and change the default Business Central environment and company for opening coupled records from Dynamics 365 Sales. This setting is preserved per user and can be changed anytime.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 151.9,
+      "t_end": 172,
+      "is_demoed": true,
+      "caveats": [
+        "Per-user setting that can be changed anytime"
+      ],
+      "tags": [
+        "default-connection",
+        "multi-environment",
+        "user-setting"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Master data consolidation approach",
+      "description": "Recommends consolidating data in one master data company in Business Central, then using master data management capabilities to synchronize between companies before integrating with central Dataverse or Dynamics 365 Sales. This improves performance and avoids service protection limits.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 231.3,
+      "t_end": 271.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires manual setup of master data company",
+        "Adds complexity to integration architecture"
+      ],
+      "tags": [
+        "master-data",
+        "consolidation",
+        "performance"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Multi-currency synchronization",
+      "description": "Ensures seamless synchronization when multiple currencies are involved. Automatically adds Business Central local currencies to Dataverse and converts monetary amounts on the fly based on exchange rates.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 287.3,
+      "t_end": 391.4,
+      "is_demoed": true,
+      "caveats": [
+        "Requires Dataverse base currency to be set up as regular currency in Business Central with exchange rates"
+      ],
+      "tags": [
+        "multi-currency",
+        "exchange-rate",
+        "currency-conversion"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Additional field mappings for integration",
+      "description": "More fields are now available for mapping in standard integration table mappings for customer, vendor, contact, salesperson, and opportunity. These additional fields are disabled by default but can be enabled by users without developer assistance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 391.4,
+      "t_end": 432.5,
+      "is_demoed": true,
+      "caveats": [
+        "Additional fields are disabled by default",
+        "Requires manual enablement per integration mapping"
+      ],
+      "tags": [
+        "field-mappings",
+        "customization",
+        "no-code"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Control over event-based synchronization",
+      "description": "Ability to turn off event-based synchronization for specific integration table mappings to reduce data errors, improve reliability, and enhance performance by reducing synchronization events.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 432.5,
+      "t_end": 466.9,
+      "is_demoed": false,
+      "caveats": [
+        "Default settings remain unchanged to avoid disrupting existing integrations"
+      ],
+      "tags": [
+        "event-based-sync",
+        "control",
+        "performance"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Virtual tables visibility during assisted setup",
+      "description": "When enabling and connecting to Dataverse using assisted setup, users can make specific virtual tables visible during the setup process, either for a single table or in bulk for multiple tables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 497.4,
+      "t_end": 530.1,
+      "is_demoed": true,
+      "caveats": [
+        "Additional virtual tables can be accessed later from connection setup page"
+      ],
+      "tags": [
+        "virtual-tables",
+        "setup",
+        "visibility"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Commercial licensing for Dynamics 365 app integration",
+      "description": "Commercial blockers for integrating various Dynamics 365 apps have been removed. Attached licenses now available for Business Central premium and Enterprise versions of Sales, Customer Service, and Field Service.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 530.1,
+      "t_end": 570.4,
+      "is_demoed": false,
+      "caveats": [
+        "Check partner portal for specific licensing details"
+      ],
+      "tags": [
+        "licensing",
+        "commercial",
+        "dynamics-365"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Automatic coupling criteria recommendation",
+      "description": "System now automatically recommends coupling criteria for simple tables such as payment terms and currencies, reducing manual setup work for users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 626.3,
+      "t_end": 666.8,
+      "is_demoed": true,
+      "caveats": [
+        "Only applies to simple tables with obvious coupling fields"
+      ],
+      "tags": [
+        "coupling",
+        "auto-recommendation",
+        "setup"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "account",
+      "t": 99
+    },
+    {
+      "type": "table",
+      "name": "contact",
+      "t": 99
+    },
+    {
+      "type": "table",
+      "name": "sales quotes",
+      "t": 99
+    },
+    {
+      "type": "table",
+      "name": "currency",
+      "t": 139.2
+    },
+    {
+      "type": "table",
+      "name": "payment terms",
+      "t": 626.3
+    },
+    {
+      "type": "table",
+      "name": "customer",
+      "t": 646.7
+    },
+    {
+      "type": "table",
+      "name": "vendor",
+      "t": 646.7
+    },
+    {
+      "type": "page",
+      "name": "integration field mapping",
+      "t": 412
+    },
+    {
+      "type": "page",
+      "name": "integration table mappings",
+      "t": 843.6
+    },
+    {
+      "type": "page",
+      "name": "general ledger setup",
+      "t": 831.2
+    },
+    {
+      "type": "table",
+      "name": "sales shipment",
+      "t": 778.2
+    },
+    {
+      "type": "table",
+      "name": "sales shipment line",
+      "t": 778.2
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Ian ktic",
+      "confidence": "low"
+    },
+    {
+      "name": "Sandy",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 78.5,
+      "text": "2023 release wave two you can now unlock scenarios where multiple companies from multiple business central environments must access data in the same",
+      "why_it_matters": "Defines the core capability of multi-company and multi-environment integration introduced in this release",
+      "check": "fuzzy"
+    },
+    {
+      "t": 99,
+      "text": "company filters get removed on user and team own tables such as account or cont contact tables sales quotes order",
+      "why_it_matters": "Explains the technical change required to support multi-company scenarios and impact on data synchronization",
+      "check": "exact"
+    },
+    {
+      "t": 308.2,
+      "text": "integration now ensures seamless synchronization when multiple currencies are involved",
+      "why_it_matters": "States the capability to handle multi-currency scenarios which is critical for global integration",
+      "check": "exact"
+    },
+    {
+      "t": 328.4,
+      "text": "the only prerequisite that you uh that you have is having data ver based currency set up as a regular currency in business Central",
+      "why_it_matters": "Specifies the exact requirement for multi-currency integration to function properly",
+      "check": "exact"
+    },
+    {
+      "t": 391.4,
+      "text": "customer vendor contact salesperson and opportunity integration field mappings now have additional Fields available for you to map",
+      "why_it_matters": "Lists the specific entities that have expanded field mapping options without developer involvement",
+      "check": "exact"
+    },
+    {
+      "t": 530.1,
+      "text": "the commercial blockers for integrating various Dynamic 365 apps have been removed earlier this year",
+      "why_it_matters": "Indicates licensing changes that improve competitiveness for integration projects",
+      "check": "exact"
+    },
+    {
+      "t": 626.3,
+      "text": "for some simple tables like payment terms or currencies we can automatically recommend coupling criteria",
+      "why_it_matters": "Demonstrates automation reducing manual setup burden for users",
+      "check": "exact"
+    },
+    {
+      "t": 1088.6,
+      "text": "in the demo you saw uh how integration Works in multic company and multi- environment setting conversion of Base uh transaction currency making virtual",
+      "why_it_matters": "Summarizes the key capabilities demonstrated and their practical application",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 38,
+      "kind": "other",
+      "text": "some improvements have been introduced in July as part of the minor updates for 2023 release Wave 1"
+    },
+    {
+      "t": 452.6,
+      "kind": "other",
+      "text": "The default settings for the event-based synchronization stay unchanged to avoid disrupting uh existing Integrations"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.031150999999999998
+    }
+  ]
+}
