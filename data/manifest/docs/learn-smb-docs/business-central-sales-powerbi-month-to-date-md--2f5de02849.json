@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-month-to-date",
   "published_at": "2025-05-06T19:35:47.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d6a95aba0fd0682193a484a654650196d8b09de0",
       "words": 355,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:52.608Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.002583
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:52.632Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:52.634Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:52.635Z",
+      "page": false
     }
   },
   "input_hash": "d6a95aba0fd0682193a484a654650196d8b09de0",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d6a95aba0fd0682193a484a654650196d8b09de0"
+  "output_hash": "9e8f3a6df3c453ca7289b48f61eff08c479d4a675f8d3399a9b93317be140e63"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/compliance/compliance-application-compliance",
   "published_at": "2025-05-06T19:35:15.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6c2254753f5d727dfc3efcb755c29804fae12d53",
       "words": 1104,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:52.609Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002583
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:52.636Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:52.638Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:52.639Z",
+      "page": false
     }
   },
   "input_hash": "6c2254753f5d727dfc3efcb755c29804fae12d53",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6c2254753f5d727dfc3efcb755c29804fae12d53"
+  "output_hash": "ce76c7ab27516f7a2fbca92f1f023b5dec6b32fd6631de443d6af1a7df1bfe3e"
 }

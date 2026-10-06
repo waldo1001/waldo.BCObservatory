@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations",
   "published_at": "2025-05-06T19:35:15.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c16ac09e6cb3814449b8985f1229b2136c86c463",
       "words": 213,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:52.615Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002583
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:52.652Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:52.653Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:52.654Z",
+      "page": false
     }
   },
   "input_hash": "c16ac09e6cb3814449b8985f1229b2136c86c463",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c16ac09e6cb3814449b8985f1229b2136c86c463"
+  "output_hash": "b8507a361a527b36c36897c84ec617e3f82d0445bfed51122839e3c6ff2a1e5a"
 }

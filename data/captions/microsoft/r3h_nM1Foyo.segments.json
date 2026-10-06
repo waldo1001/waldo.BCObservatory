@@ -1,0 +1,68 @@
+{
+  "video_id": "r3h_nM1Foyo",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.5,
+      "end": 14.4,
+      "text": "In this video, we're going to look at creating a payables transaction in Dynamics GP and compare that to the experience of entering the same payables transaction in Dynamics 365 Business Central."
+    },
+    {
+      "t": 14.6,
+      "end": 30.8,
+      "text": "In my GP system, I have created an AP invoice for some office supplies that we have purchased from one of our vendors. I've entered in the vendor information, the vendor invoice number, as well as the purchase amount for the supplies."
+    },
+    {
+      "t": 30.8,
+      "end": 42,
+      "text": "Now, let's explore how we can enter that same transaction in Business Central. In Business Central, you can use the purchase journal or purchase invoices to register the cost of purchases and track accounts payable."
+    },
+    {
+      "t": 42,
+      "end": 52.6,
+      "text": "Purchase journals can be used to register expenses for things you may not track in inventory, while purchase invoices can be used to track purchases of items as well as non-inventoried items."
+    },
+    {
+      "t": 52.6,
+      "end": 69.5,
+      "text": "To create AP transactions, we'll search for purchase journals and choose the purchase journal link in the search results. I can enter in the vendor invoice number just as I did in GP and now select my same vendor."
+    },
+    {
+      "t": 72.1,
+      "end": 84.3,
+      "text": "Next, I can enter in my purchase amount and select my office supply GL account. Before posting my transaction, I can see a preview of the GL accounts the transaction will be posted to."
+    },
+    {
+      "t": 84.3,
+      "end": 91.3,
+      "text": "This would be similar to clicking on the distributions button in GP."
+    },
+    {
+      "t": 93.6,
+      "end": 108.4,
+      "text": "Now, let's look at entering in a purchase invoice. To create a purchase invoice, we will go ahead and search for purchase invoices and select the link in the search results."
+    },
+    {
+      "t": 112.6,
+      "end": 128,
+      "text": "Next, we can choose new to create the invoice. The first thing to do is choose the vendor that we are purchasing those supplies from. After selecting the vendor, you can see the vendor information has defaulted in from the vendor record."
+    },
+    {
+      "t": 128,
+      "end": 141.1,
+      "text": "Next, we will record the vendor invoice number. Now, we can add the lines to the purchase invoice. If we're wanting to register purchases for services or items not found in inventory, we can select the GL account."
+    },
+    {
+      "t": 141.1,
+      "end": 153.7,
+      "text": "And in this example, select our supplies account. Next, we can update the description if necessary, as well as enter in the purchase amount."
+    },
+    {
+      "t": 153.7,
+      "end": 173.4,
+      "text": "Because the purchase invoice is allowed for multiple types, we could also enter in lines for inventory items, fixed assets, or track any freight freight expenses we may have occurred. Through the use of purchase journals and purchase invoices, Business Central provides additional flexibility when capturing your business expenses."
+    }
+  ],
+  "markers": [],
+  "word_count": 410
+}

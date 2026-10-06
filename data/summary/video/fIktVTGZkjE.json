@@ -1,0 +1,26 @@
+{
+  "video_id": "fIktVTGZkjE",
+  "item_id": "video/yt-microsoft/fIktVTGZkjE",
+  "summary": "Comparison of correcting and reversing posted journal entries in Dynamics GP and Business Central. It shows GP's Correct button in the general journal window, then reversing an entry from the general ledger entries window in Business Central and using Correct Dimension to fix a dimension value.",
+  "overview": "A short 2024 video from the Business Central channel that walks through how a posted journal entry is corrected in Dynamics GP and how the same task is done in Business Central. It is aimed at people moving from GP to Business Central.\n\nIn GP, the Correct button in the general journal window offers two options: back out the journal entry, or back out and create a correcting entry. In Business Central, the entry is reversed from the general ledger entries window, which reverses the debits and credits of the original. For an incorrect dimension value, the Correct Dimension function fixes the value without reversing the whole transaction.",
+  "key_points": [
+    "In GP, the Correct button in the general journal window offers two options: back out the journal entry, or back out and create a correcting entry.",
+    "In Business Central, a posted journal entry is reversed by selecting the reverse option in the general ledger entries window.",
+    "Reversing in Business Central automatically reverses the debits and credits of the original entry.",
+    "A wrong dimension value can be fixed with Correct Dimension, without reversing the whole transaction.",
+    "With Correct Dimension you select the correct dimension option and enter the correct dimension value code.",
+    "The video says you can either reverse the transaction or use Correct Dimension to fix a dimension value."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "28338adebaa9130c3b174fc3b267b5ada66567342b671ef52d7ced21fd419c2a",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0110344
+  }
+}

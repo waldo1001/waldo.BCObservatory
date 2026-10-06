@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/payment-times-reporting",
   "published_at": "2025-05-06T19:35:15.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1ba7b766cd4ae8d66a696c7e53e3c62b7ce4a8cc",
       "words": 972,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:25:52.613Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002583
+    },
+    "summarized": {
+      "at": "2026-10-06T19:25:52.648Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:25:52.649Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:25:52.650Z",
+      "page": false
     }
   },
   "input_hash": "1ba7b766cd4ae8d66a696c7e53e3c62b7ce4a8cc",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1ba7b766cd4ae8d66a696c7e53e3c62b7ce4a8cc"
+  "output_hash": "4690935fb0ec11f42836c714864d1c789d0a90a5c0b05651a77e3bb58cd82a82"
 }
