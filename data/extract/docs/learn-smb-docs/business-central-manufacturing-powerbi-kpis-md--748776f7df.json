@@ -1,0 +1,95 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/manufacturing-powerbi-kpis.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/manufacturing-powerbi-kpis",
+  "title": "Manufacturing KPIs and measures (Power BI)",
+  "blob": "9cf01eb43f0148cd77686137da080a01347b099c",
+  "summary": "This page documents all key performance indicators (KPIs) and measures included in the Power BI Manufacturing semantic model, covering capacity, production orders, work centers, and costs to help analyze manufacturing operations.",
+  "systems": [
+    "manufacturing",
+    "reporting"
+  ],
+  "topics": [
+    "kpi",
+    "power bi",
+    "manufacturing",
+    "production",
+    "capacity",
+    "cost analysis",
+    "work center"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Calendar Entry"
+    },
+    {
+      "type": "table",
+      "name": "Capacity Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Prod Order Capacity Need"
+    },
+    {
+      "type": "table",
+      "name": "Prod Order Component"
+    },
+    {
+      "type": "table",
+      "name": "Prod Order Routing Line"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Line"
+    },
+    {
+      "type": "table",
+      "name": "Production Order"
+    },
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
+    {
+      "type": "table",
+      "name": "Manufacturing Setup"
+    },
+    {
+      "type": "table",
+      "name": "Inventory Adjmt. Entry (Order)"
+    },
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Work Center"
+    }
+  ],
+  "features": [
+    "capacity measures",
+    "production order cost analysis",
+    "work center efficiency",
+    "scrap tracking",
+    "machine center load",
+    "routing line measures",
+    "actual vs expected cost variance",
+    "standard cost variance"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014694,
+      "pages_in_call": 3
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/cside/cside-upload-license-file.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/cside/cside-upload-license-file",
+  "title": "Upload the License File",
+  "blob": "ed7a5dfb06b603a44483c4eec68d0f268c904efc",
+  "summary": "This page provides instructions for uploading Business Central on-premises license files to SQL Server using PowerShell or the development environment, with guidance on FLF and bclicense file formats.",
+  "systems": [
+    "administration"
+  ],
+  "topics": [
+    "licensing",
+    "license file",
+    "on-premises",
+    "sql server",
+    "powershell"
+  ],
+  "objects": [],
+  "features": [
+    "Import-NAVServerLicense cmdlet",
+    "license file upload",
+    "bclicense file format",
+    "FLF file format",
+    "database-specific license",
+    "server instance restart"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014694,
+      "pages_in_call": 3
+    }
+  ]
+}

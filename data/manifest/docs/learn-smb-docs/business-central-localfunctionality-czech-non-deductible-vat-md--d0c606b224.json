@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/non-deductible-VAT",
   "published_at": "2025-10-20T08:53:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a6bd2abadfaf7166e243a5a7da2de51894779ae3",
       "words": 3239,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:06.920Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.004759
+    },
+    "summarized": {
+      "at": "2026-10-06T19:00:06.987Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:00:06.989Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:00:06.990Z",
+      "page": false
     }
   },
   "input_hash": "a6bd2abadfaf7166e243a5a7da2de51894779ae3",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a6bd2abadfaf7166e243a5a7da2de51894779ae3"
+  "output_hash": "591247575f11b648d49cc607f9704d066ae4fe3d1b6178f08df88de0ee826c80"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting",
   "published_at": "2025-10-20T08:53:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f10d51a339aaf192d1043a52b93c8be845676127",
       "words": 83,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:06.910Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004759
+    },
+    "summarized": {
+      "at": "2026-10-06T19:00:06.945Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:00:06.948Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:00:06.949Z",
+      "page": false
     }
   },
   "input_hash": "f10d51a339aaf192d1043a52b93c8be845676127",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f10d51a339aaf192d1043a52b93c8be845676127"
+  "output_hash": "a0507b1bc520b741dfce1e28966212b41e025d47847034fce1cf590fc4f7325b"
 }

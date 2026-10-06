@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-how-to-create-prepayment-invoices.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-create-prepayment-invoices",
+  "title": "Create prepayment invoices",
+  "blob": "bd50e9e2e641f0cd745b1b003da9885d3aee4664",
+  "summary": "Create prepayment invoices for sales and purchase orders to require customers or vendors to pay a percentage or fixed amount before order fulfillment, with automatic calculation based on item and customer defaults.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "finance"
+  ],
+  "topics": [
+    "prepayment",
+    "prepayment invoices",
+    "payment terms",
+    "advance payments"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Order"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Order"
+    },
+    {
+      "type": "page",
+      "name": "Sales Order Statistics"
+    },
+    {
+      "type": "codeunit",
+      "name": "383 Upd. Pending Prepmt. Sales"
+    },
+    {
+      "type": "codeunit",
+      "name": "384 Upd. Pending Prepmt. Purchase"
+    }
+  ],
+  "features": [
+    "Prepayment %",
+    "Compress Prepayment",
+    "Prepayment Amount",
+    "Prepayment Amount Incl. VAT",
+    "Prepmt. Payment Terms Code",
+    "Prepayment Test Report",
+    "Post Prepayment Invoice action",
+    "Post and Print Prepmt. Invoice action"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004759,
+      "pages_in_call": 8
+    }
+  ]
+}

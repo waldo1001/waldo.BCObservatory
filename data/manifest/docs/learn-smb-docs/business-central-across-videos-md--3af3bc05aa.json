@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-videos",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "20f601a724e625638392c4421619721979a31baa",
       "words": 165,
       "forms": 15
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:02.151Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003628
+    },
+    "summarized": {
+      "at": "2026-10-06T19:00:06.958Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:00:06.960Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:00:06.964Z",
+      "page": false
     }
   },
   "input_hash": "20f601a724e625638392c4421619721979a31baa",
@@ -115,5 +134,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "20f601a724e625638392c4421619721979a31baa"
+  "output_hash": "b86eb23a9fe569d26ddb0f449e6c2d23ff2a4e570b43a7330c0f4eb8f821f05a"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/cside/cside-upload-license-file",
   "published_at": "2025-10-21T06:17:59.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ed7a5dfb06b603a44483c4eec68d0f268c904efc",
       "words": 586,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:02.156Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.014694
+    },
+    "summarized": {
+      "at": "2026-10-06T19:00:06.984Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:00:06.985Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:00:06.986Z",
+      "page": false
     }
   },
   "input_hash": "ed7a5dfb06b603a44483c4eec68d0f268c904efc",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ed7a5dfb06b603a44483c4eec68d0f268c904efc"
+  "output_hash": "488b982f1d238adce767944b36d5b2c58cc9b08d961192cd058feacebeb1603b"
 }

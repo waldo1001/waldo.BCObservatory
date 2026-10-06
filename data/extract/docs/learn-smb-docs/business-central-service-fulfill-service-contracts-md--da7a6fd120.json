@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-fulfill-service-contracts.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-fulfill-service-contracts",
+  "title": "Overview of tasks to fulfill service contracts",
+  "blob": "203b740857c89590dfcd07b04248c6edd870f62b",
+  "summary": "Fulfill service contracts describes creating and managing service contracts with standard agreements defining service levels, adjusting annual amounts, and handling items under multiple contracts.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "service contracts",
+    "contract management",
+    "service agreements"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Contract"
+    },
+    {
+      "type": "page",
+      "name": "Service Contract Quote"
+    }
+  ],
+  "features": [
+    "Service Contract templates",
+    "Service Contract Quotes",
+    "Service Contract discount",
+    "Annual amount adjustment",
+    "Multiple contracts per item"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004759,
+      "pages_in_call": 8
+    }
+  ]
+}

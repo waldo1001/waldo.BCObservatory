@@ -1,0 +1,59 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-compensations-localization-cz",
+  "title": "Compensation localization for the Czech version",
+  "blob": "41c6aed01c091f168d92b932d6f430fc29795a63",
+  "summary": "Compensation localization for Czech version enables offsetting receivables and payables when a customer is also a vendor, with compensation cards to manually enter or propose entries and an Agreement on Mutual Settlement printout.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "compensation",
+    "receivables payables",
+    "czech localization",
+    "mutual settlement"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Compensation Card"
+    },
+    {
+      "type": "page",
+      "name": "Compensations"
+    },
+    {
+      "type": "page",
+      "name": "Posted Compensation"
+    },
+    {
+      "type": "page",
+      "name": "Compensation Setup"
+    },
+    {
+      "type": "page",
+      "name": "Compensations Proposal"
+    }
+  ],
+  "features": [
+    "View Balance as Vendor/Balance as Customer",
+    "Suggest lines for compensation",
+    "Release compensation",
+    "Compensation posting",
+    "Agreement on Mutual Settlement of Receivables and Payables printout",
+    "Compensation Nos.",
+    "Compensation Bal. Account No."
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004759,
+      "pages_in_call": 8
+    }
+  ]
+}

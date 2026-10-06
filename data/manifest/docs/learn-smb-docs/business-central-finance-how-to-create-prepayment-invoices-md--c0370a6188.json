@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-create-prepayment-invoices",
   "published_at": "2025-10-20T08:49:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bd50e9e2e641f0cd745b1b003da9885d3aee4664",
       "words": 965,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:06.930Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.004759
+    },
+    "summarized": {
+      "at": "2026-10-06T19:00:06.995Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:00:06.996Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:00:06.996Z",
+      "page": false
     }
   },
   "input_hash": "bd50e9e2e641f0cd745b1b003da9885d3aee4664",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bd50e9e2e641f0cd745b1b003da9885d3aee4664"
+  "output_hash": "915475a49c19ffd025df9a743691afd1cdd082bafee331b065e0136d48fe5fc9"
 }

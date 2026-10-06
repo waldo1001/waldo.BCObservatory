@@ -1,0 +1,71 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-how-setup-service-items.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-how-setup-service-items",
+  "title": "Service items and service item components",
+  "blob": "c146446bffd1f890c58e229a4f101c6313219322",
+  "summary": "Set up service items and components to define item groups with default service parameters, configure components that can be replaced during servicing, and optionally set service shelves for storage identification.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "service items",
+    "service components",
+    "service item groups",
+    "service shelves"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Item Groups"
+    },
+    {
+      "type": "page",
+      "name": "Service Items"
+    },
+    {
+      "type": "page",
+      "name": "Service Item Component List"
+    },
+    {
+      "type": "page",
+      "name": "Service Shelves"
+    },
+    {
+      "type": "page",
+      "name": "Item"
+    },
+    {
+      "type": "page",
+      "name": "Service Item"
+    },
+    {
+      "type": "page",
+      "name": "Service Order"
+    },
+    {
+      "type": "page",
+      "name": "Service Item Worksheet"
+    }
+  ],
+  "features": [
+    "Service Item Groups",
+    "Default Contract Discount %",
+    "Default Serv. Price Group Code",
+    "Default Response Time",
+    "Create Service Item on sale",
+    "Service Item Components",
+    "Copy from BOM",
+    "Service Shelves"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004759,
+      "pages_in_call": 8
+    }
+  ]
+}

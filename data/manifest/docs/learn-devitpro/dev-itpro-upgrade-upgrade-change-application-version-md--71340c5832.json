@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-change-application-version",
   "published_at": "2025-10-21T15:21:44.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "97f68a8679c89a3f8d17ebb40bd18ed3f834631f",
       "words": 377,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:02.155Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.014694
+    },
+    "summarized": {
+      "at": "2026-10-06T19:00:06.980Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:00:06.981Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:00:06.982Z",
+      "page": false
     }
   },
   "input_hash": "97f68a8679c89a3f8d17ebb40bd18ed3f834631f",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "97f68a8679c89a3f8d17ebb40bd18ed3f834631f"
+  "output_hash": "45b91f217f4592c0601262a6e9ea5f32652b935270d294003a03ddce65eaec63"
 }

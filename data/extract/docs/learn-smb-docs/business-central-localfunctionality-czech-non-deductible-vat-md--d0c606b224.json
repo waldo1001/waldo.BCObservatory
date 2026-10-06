@@ -1,0 +1,76 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/non-deductible-VAT.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/non-deductible-VAT",
+  "title": "Non-deductible VAT",
+  "blob": "a6bd2abadfaf7166e243a5a7da2de51894779ae3",
+  "summary": "Non-deductible VAT in the Czech version enables partial or full reduction of input VAT through shortening coefficients, with setup on VAT Posting Setup and VAT Entries extended with fields for reporting original amounts separately from reduced amounts.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat",
+    "non-deductible vat",
+    "czech localization",
+    "vat reporting",
+    "vat entries",
+    "input vat reduction"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    },
+    {
+      "type": "table",
+      "name": "VAT Entries"
+    },
+    {
+      "type": "page",
+      "name": "Non-Deductible VAT Setup"
+    },
+    {
+      "type": "report",
+      "name": "VAT Coefficient Correction"
+    },
+    {
+      "type": "report",
+      "name": "VAT Control Report"
+    },
+    {
+      "type": "report",
+      "name": "Documentation for VAT"
+    },
+    {
+      "type": "report",
+      "name": "VAT Documents List"
+    }
+  ],
+  "features": [
+    "Enable Non-Deductible VAT toggle",
+    "Enable Non-Deductible VAT CZ toggle",
+    "Non-Deductible Purchase VAT account",
+    "VAT Coefficient Correction",
+    "shortening coefficient",
+    "settlement coefficient",
+    "advance coefficient",
+    "Original VAT Base field",
+    "Original VAT Amount field",
+    "Non-Deductible VAT % field"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004759,
+      "pages_in_call": 8
+    }
+  ]
+}

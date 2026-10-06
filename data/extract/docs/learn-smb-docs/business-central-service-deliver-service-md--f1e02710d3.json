@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/service-deliver-service.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/service-deliver-service",
+  "title": "Overview of tasks to deliver service | Microsoft Docs",
+  "blob": "7bf022bbc4f08cef8c608a8aa375adeb8ca3e508",
+  "summary": "Deliver service provides tasks for creating service quotes and orders, allocating resources via dispatch board, performing service tasks, posting orders, creating invoices, and managing loaner items.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "service delivery",
+    "service orders",
+    "service quotes",
+    "dispatch board",
+    "resource allocation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Tasks"
+    },
+    {
+      "type": "page",
+      "name": "Dispatch Board"
+    }
+  ],
+  "features": [
+    "Create Service Quotes",
+    "Create Service Orders",
+    "Allocate Resources",
+    "Work on Service Tasks",
+    "Post Service Orders",
+    "Create Service Invoices",
+    "Lend Loaner Items"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004759,
+      "pages_in_call": 8
+    }
+  ]
+}

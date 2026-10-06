@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-workflow",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "414c430cda26a958a5c81990d7bc351bff285e5f",
       "words": 489,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:02.152Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003628
+    },
+    "summarized": {
+      "at": "2026-10-06T19:00:06.966Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:00:06.967Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:00:06.968Z",
+      "page": false
     }
   },
   "input_hash": "414c430cda26a958a5c81990d7bc351bff285e5f",
@@ -40,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "414c430cda26a958a5c81990d7bc351bff285e5f"
+  "output_hash": "6d019297257097ad7879f6e71773f3e6bae19974d7924eae6fab855be394896c"
 }

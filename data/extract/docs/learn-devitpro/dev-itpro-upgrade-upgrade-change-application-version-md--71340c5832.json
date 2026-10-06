@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-change-application-version.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-change-application-version",
+  "title": "Changing Application Version Number After Upgrade",
+  "blob": "97f68a8679c89a3f8d17ebb40bd18ed3f834631f",
+  "summary": "This page explains how to change the application version number in the Business Central database after an upgrade and configure which extension version is displayed on the Help and Support page.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "upgrade",
+    "version number",
+    "application version",
+    "powershell"
+  ],
+  "objects": [],
+  "features": [
+    "Set-NAVApplication cmdlet",
+    "Sync-NAVTenant cmdlet",
+    "Start-NAVDataUpgrade cmdlet",
+    "Solution Version Extension setting",
+    "personalization after upgrade"
+  ],
+  "versions": [
+    "2025 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014694,
+      "pages_in_call": 3
+    }
+  ]
+}

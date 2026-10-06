@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-working-with-teams",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "136078344400e9b9a9bfb8fcb0b71be90bb7497a",
       "words": 1120,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:02.153Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003628
+    },
+    "summarized": {
+      "at": "2026-10-06T19:00:06.972Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:00:06.974Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:00:06.975Z",
+      "page": false
     }
   },
   "input_hash": "136078344400e9b9a9bfb8fcb0b71be90bb7497a",
@@ -46,5 +65,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "136078344400e9b9a9bfb8fcb0b71be90bb7497a"
+  "output_hash": "59621cd718e7ce2e8718ea94b9cafd5b401d2cc7981a80662cb129b50e52248e"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/across-video-under-construction",
   "published_at": "2025-10-29T13:40:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "86df2f964c85cb6d9efa033bfbf4e03587f3c303",
       "words": 90,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:02.150Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003628
+    },
+    "summarized": {
+      "at": "2026-10-06T19:00:02.157Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:00:02.158Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:00:02.159Z",
+      "page": false
     }
   },
   "input_hash": "86df2f964c85cb6d9efa033bfbf4e03587f3c303",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "86df2f964c85cb6d9efa033bfbf4e03587f3c303"
+  "output_hash": "38c9d12d47d6428550bb9eb27c6690e823606b6c309159f9b7fa03fbdfb41e0a"
 }

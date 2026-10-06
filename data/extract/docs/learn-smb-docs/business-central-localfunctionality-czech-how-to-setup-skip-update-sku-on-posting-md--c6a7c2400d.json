@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting",
+  "title": "Skip update SKU when posting",
+  "blob": "f10d51a339aaf192d1043a52b93c8be845676127",
+  "summary": "Skip update SKU on Posting allows disabling the automatic update of the Last Direct Cost field on Stockkeeping Unit Cards when postings occur in the Czech version.",
+  "systems": [
+    "inventory",
+    "localization"
+  ],
+  "topics": [
+    "stockkeeping units",
+    "inventory setup",
+    "posting",
+    "czech localization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Stockkeeping Unit Card"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    }
+  ],
+  "features": [
+    "Skip Update SKU on Posting toggle"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004759,
+      "pages_in_call": 8
+    }
+  ]
+}
