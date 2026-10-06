@@ -1,0 +1,410 @@
+{
+  "video_id": "07G7aC14Y_w",
+  "item_id": "video/yt-microsoft/07G7aC14Y_w",
+  "title": "What's new in E-Documents: Overview (2026 release wave 2)",
+  "duration_s": 618,
+  "systems": [
+    "integration",
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "edi",
+    "e-documents",
+    "purchase order",
+    "sales order",
+    "xml",
+    "ppple format",
+    "remittance advice",
+    "french regulatory",
+    "order response"
+  ],
+  "chapters": [
+    {
+      "title": "What is EDI and why it matters",
+      "t_start": 0,
+      "t_end": 48.7
+    },
+    {
+      "title": "EDI workflow: purchase order to remittance advice",
+      "t_start": 48.7,
+      "t_end": 119.4
+    },
+    {
+      "title": "Supported documents and technology foundation",
+      "t_start": 119.4,
+      "t_end": 178.2
+    },
+    {
+      "title": "Setup requirements and configuration",
+      "t_start": 178.2,
+      "t_end": 231.3
+    },
+    {
+      "title": "Demo setup and purchase order creation",
+      "t_start": 231.3,
+      "t_end": 278.9
+    },
+    {
+      "title": "Order release and XML export to seller",
+      "t_start": 278.9,
+      "t_end": 357
+    },
+    {
+      "title": "Sales order creation and response",
+      "t_start": 357,
+      "t_end": 438.9
+    },
+    {
+      "title": "Payment posting and remittance advice",
+      "t_start": 438.9,
+      "t_end": 508.2
+    },
+    {
+      "title": "EDI flow summary and French regulatory formats",
+      "t_start": 508.2,
+      "t_end": 561.8
+    },
+    {
+      "title": "French e-reporting lifecycle and future improvements",
+      "t_start": 561.8,
+      "t_end": 618
+    }
+  ],
+  "features": [
+    {
+      "name": "EDI functionality in Business Central",
+      "description": "New capability to exchange order information, order confirmations, and related documents between buyer and seller companies electronically using EDI standards and the existing e-documents framework.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.3,
+      "t_end": 119.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "edi",
+        "order exchange",
+        "buyer-seller",
+        "e-documents"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Purchase order EDI document type",
+      "description": "Support for sending purchase orders from buyer to seller company automatically as e-documents in XML format, replacing manual email communication.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 59.8,
+      "t_end": 91.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "purchase-order",
+        "edi",
+        "automatic-creation"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Sales order automatic creation from EDI",
+      "description": "When a buyer sends a purchase order via EDI, a sales order is automatically created on the seller side, which can then be accepted or rejected with an order response sent back.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 91.1,
+      "t_end": 104.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales-order",
+        "edi",
+        "automatic-creation",
+        "order-response"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Order response messaging",
+      "description": "Seller can send back an order response (accepted or rejected) to the buyer, who will receive status updates about what happened with the order on the seller side.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 91.1,
+      "t_end": 104.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "order-response",
+        "status-tracking",
+        "edi"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Remittance advice EDI document",
+      "description": "When posting a purchase invoice, the buyer can send a remittance advice file to the seller, enabling payment reporting through the e-documents framework.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 104.7,
+      "t_end": 119.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "remittance-advice",
+        "payment",
+        "edi"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Bidirectional EDI document direction control",
+      "description": "Ability to configure document directions as inbound only, outbound only, or both inbound and outbound for EDI exchanges.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 158.2,
+      "t_end": 178.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "edi",
+        "configuration",
+        "direction"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Electronic identifier support for EDI",
+      "description": "Support for electronic identifiers such as JIN or VT registration numbers on both buyer and seller sides to ensure proper vendor and customer matching.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 189.3,
+      "t_end": 215.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "electronic-identifier",
+        "vendor-customer",
+        "edi"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Item reference support for EDI matching",
+      "description": "Support for item reference or JIN codes on items to ensure correct item matching between buyer and seller in EDI exchanges.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 201.2,
+      "t_end": 215.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "item-reference",
+        "edi",
+        "item-matching"
+      ],
+      "system": "inventory"
+    },
+    {
+      "name": "EDI message logging and tracking",
+      "description": "Log functionality for each EDI exchange showing which files were created and how the exchange progressed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 231.3,
+      "t_end": 244.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "logging",
+        "tracking",
+        "edi"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "PPPLE format for EDI",
+      "description": "Use of PPPLE (people) format as the underlying technology for EDI exchanges, leveraging existing e-documents infrastructure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 143.4,
+      "t_end": 158.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ppple-format",
+        "edi",
+        "technology"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "French e-reporting formats",
+      "description": "Three new e-document formats introduced for France to support French regulatory requirements, set as other formats in e-document service.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 535.3,
+      "t_end": 561.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "french-regulatory",
+        "e-reporting",
+        "localization"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "French e-reporting lifecycle event tracking",
+      "description": "Regulatory lifecycle events for French e-reporting are stored as messages and linked to original invoice e-documents, supporting collected, submitted, accepted, refused, and technical rejected statuses.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 561.8,
+      "t_end": 602.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "french-regulatory",
+        "lifecycle-events",
+        "payment-reporting"
+      ],
+      "system": "localization"
+    },
+    {
+      "name": "EDI purchase order to sales order linkage",
+      "description": "New linkage functionality that allows easy navigation between purchase orders, e-documents, and automatically created sales orders using fact box navigation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 311.3,
+      "t_end": 338.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "linkage",
+        "navigation",
+        "edi"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "purchase order",
+      "t": 59.8
+    },
+    {
+      "type": "other",
+      "name": "sales order",
+      "t": 91.1
+    },
+    {
+      "type": "other",
+      "name": "payment journal",
+      "t": 104.7
+    },
+    {
+      "type": "other",
+      "name": "e-documents",
+      "t": 143.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Ken",
+      "confidence": "high"
+    },
+    {
+      "name": "Milita",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 19,
+      "text": "we have e documents functionality in our system but we didn't have EDI before. What is EDI itself? It is exchange of the order",
+      "why_it_matters": "Establishes that EDI is new functionality being added to an existing e-documents system, clarifying the scope of what is being announced.",
+      "check": "exact"
+    },
+    {
+      "t": 91.1,
+      "text": "On the seller side, sales order will be created automatically. Then seller can accept or reject the order and send a response back.",
+      "why_it_matters": "Describes the core automation of EDI workflow where sales orders are created without manual intervention and responses are sent automatically.",
+      "check": "exact"
+    },
+    {
+      "t": 130.8,
+      "text": "We have purchase order document, sales order, order confirmation, payment journal. E document type is a purchase order, sales order, order response and remittance",
+      "why_it_matters": "Enumerates all four supported EDI document types covering the complete buyer-seller transaction cycle.",
+      "check": "exact"
+    },
+    {
+      "t": 143.4,
+      "text": "we using our people uh format and uh the solution is based on the e documents themselves. So it's a known technology behind the",
+      "why_it_matters": "Confirms that EDI uses existing PPPLE format and e-documents infrastructure, reducing implementation complexity.",
+      "check": "exact"
+    },
+    {
+      "t": 201.2,
+      "text": "you will need to use electronic identifiers on both sides. Uh it is JN or VT registration number. Uh for items uh it's better",
+      "why_it_matters": "Specifies the identifiers required for successful EDI matching between buyer and seller systems.",
+      "check": "exact"
+    },
+    {
+      "t": 535.3,
+      "text": "So uh I'm going to show you we have it introduces uh three new formats for France.",
+      "why_it_matters": "Announces new French regulatory formats as part of the same EDI and e-documents wave, expanding localization support.",
+      "check": "exact"
+    },
+    {
+      "t": 588.2,
+      "text": "All of these things allows um document exchange, payment reporting, but also regulatory status um tracking through e documents.",
+      "why_it_matters": "Summarizes the business value of the combined EDI and French regulatory features for compliance and operational visibility.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 602.3,
+      "kind": "coming-later",
+      "text": "we are going to improve the mentioned functionality"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 13
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.038668999999999995
+    }
+  ]
+}

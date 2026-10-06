@@ -1,0 +1,183 @@
+{
+  "video_id": "Pt8LrNv_Lgc",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 1.3,
+      "end": 11.4,
+      "text": "Welcome back to the Manufacturing Foundation series. In this episode, you'll explore routings, the component that defines how your products are made."
+    },
+    {
+      "t": 11.4,
+      "end": 24.9,
+      "text": "Just like the BOM defines what you need, the routing describes the sequence of operations required to build the product. Let's go back to our demo data, the Airpod coffee maker."
+    },
+    {
+      "t": 24.9,
+      "end": 32.7,
+      "text": "If we open the item card again, we can see in the replenishment tab which routing number is assigned."
+    },
+    {
+      "t": 32.7,
+      "end": 47.2,
+      "text": "The Airpod has several routing options. Routings support both serial operations, where steps run one after another, and parallel operations, when two independent activities can run at the same time."
+    },
+    {
+      "t": 47.2,
+      "end": 61.5,
+      "text": "Choosing between them depends on your production strategy. Let's explore Airpod serial. Serial routing keeps processes simple. Here we can see the Airpod is produced through a series of operations."
+    },
+    {
+      "t": 61.5,
+      "end": 76.2,
+      "text": "Each operation runs after the previous one, and its line includes details such as where it's performed, and the operational times. Operational times include setup time, run time, wait time, and move time between operations."
+    },
+    {
+      "t": 76.2,
+      "end": 91.2,
+      "text": "These times directly influence scheduling and cost calculations by defining how long your equipment and teams are engaged. For the parallel routing, we can see the operations are designed a bit differently."
+    },
+    {
+      "t": 91.2,
+      "end": 104,
+      "text": "After the first operation, the workload is split into operation 10 and 20. Both run simultaneously and move the piece to operation 30. Two additional fields are worth noting."
+    },
+    {
+      "t": 104,
+      "end": 118,
+      "text": "Routing link code connects a component to a specific operation, so the material is consumed when that operation runs, giving you just-in-time material control. Send ahead quantity lets the next operation start before the current one finishes,"
+    },
+    {
+      "t": 118,
+      "end": 129.3,
+      "text": "overlapping steps to reduce total lead time. As with the production BOM, you can add or remove fields to match your needs."
+    },
+    {
+      "t": 129.5,
+      "end": 148,
+      "text": "Standard tasks can also be attached to operations to simplify recurring activities and maintain consistency in documentation. And just like BOMs, Business Central supports routing versions, allowing you to create a new version when your process changes without losing the original."
+    },
+    {
+      "t": 148,
+      "end": 155.1,
+      "text": "Let's explore how routings are used in production and how they affect lead times."
+    },
+    {
+      "t": 155.1,
+      "end": 165.8,
+      "text": "Let's say we are creating a production order for the Airpod coffee maker. We need 200 units for the 1st of January, 2027."
+    },
+    {
+      "t": 165.8,
+      "end": 176.6,
+      "text": "If we refresh our production order, Business Central will populate the item lines with the required BOM and routing. The production order will automatically compute the production times,"
+    },
+    {
+      "t": 176.6,
+      "end": 189.8,
+      "text": "showing both the starting date and the ending date. On this case, imagine we want to produce 100 using the parallel routing and another 100 units using the serial production."
+    },
+    {
+      "t": 189.8,
+      "end": 202.9,
+      "text": "Business Central allows you to modify your production order if you need. Once we have the two different routings, let's refresh the production order and exclude the lines. On our case, we already defined the lines we needed."
+    },
+    {
+      "t": 202.9,
+      "end": 215.3,
+      "text": "We observe that the starting date has been updated and now they don't match anymore. As we saw while exploring the two routings, the parallel routing had two operations running at the same time."
+    },
+    {
+      "t": 215.3,
+      "end": 228.2,
+      "text": "This made production faster for the parallel routing and allowed production to start at a later date, optimizing production and reducing lead times. But, how are those dates computed?"
+    },
+    {
+      "t": 228.2,
+      "end": 239.2,
+      "text": "Production times are defined by routing times and our capacities. Having more resources in our capacities, such as machines or workforce, will reduce lead times."
+    },
+    {
+      "t": 239.2,
+      "end": 251.3,
+      "text": "A well-defined routing ensures that your scheduling reflects real production capabilities, helps identify bottlenecks early, and provides the foundation for accurate lead time and cost calculations."
+    },
+    {
+      "t": 251.3,
+      "end": 266.4,
+      "text": "In the next episode, you'll explore the capacities, where you'll learn how work centers and machine centers define the actual resources behind your routing steps. Together, these elements bring your manufacturing operations to life."
+    },
+    {
+      "t": 266.4,
+      "end": 270.9,
+      "text": "See you next time."
+    }
+  ],
+  "markers": [
+    {
+      "t": 6.55,
+      "text": "[music]"
+    },
+    {
+      "t": 63.535,
+      "text": "[music]"
+    },
+    {
+      "t": 98.906,
+      "text": "[music]"
+    },
+    {
+      "t": 105.456,
+      "text": "[music]"
+    },
+    {
+      "t": 130.346,
+      "text": "[music]"
+    },
+    {
+      "t": 161.131,
+      "text": "[music]"
+    },
+    {
+      "t": 168.991,
+      "text": "[music]"
+    },
+    {
+      "t": 181.437,
+      "text": "[music]"
+    },
+    {
+      "t": 186.022,
+      "text": "[music]"
+    },
+    {
+      "t": 197.157,
+      "text": "[music]"
+    },
+    {
+      "t": 212.222,
+      "text": "[music]"
+    },
+    {
+      "t": 222.047,
+      "text": "[music]"
+    },
+    {
+      "t": 234.492,
+      "text": "[music]"
+    },
+    {
+      "t": 241.06,
+      "text": "[music]"
+    },
+    {
+      "t": 254.797,
+      "text": "[music]"
+    },
+    {
+      "t": 262.657,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 613
+}

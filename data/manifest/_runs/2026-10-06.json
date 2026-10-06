@@ -1,7 +1,7 @@
 {
   "date": "2026-10-06",
-  "started_at": "2026-10-06T12:09:19.888Z",
-  "finished_at": "2026-10-06T12:09:38.954Z",
+  "started_at": "2026-10-06T12:16:08.507Z",
+  "finished_at": "2026-10-06T12:18:10.923Z",
   "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
@@ -30,8 +30,8 @@
           "unchanged": 15,
           "removed": 0
         },
-        "note": "15 feed entries",
-        "duration_ms": 139
+        "note": "15 feed entries; reconcile added 444",
+        "duration_ms": 5588
       }
     ],
     "totals": {
@@ -57,44 +57,58 @@
       "opus_reviews": 2,
       "llm_calls_max": 450
     },
-    "work": 2,
-    "executed": 2,
+    "work": 4,
+    "executed": 4,
     "skips": 0,
     "quota_use": {
       "video_extract": {
         "selected": 2,
-        "available": 84,
+        "available": 82,
+        "limit": 2
+      },
+      "captions": {
+        "selected": 2,
+        "available": 444,
         "limit": 2
       }
     },
     "note": "stopped: done"
   },
   "llm": {
-    "calls": 2,
-    "cache_hits": 2,
+    "calls": 4,
+    "cache_hits": 0,
     "failures": 0,
     "by_model": {
+      "claude-haiku-4-5-20251001": 2,
       "claude-sonnet-5-5": 2
     },
-    "cost_usd": 0.0847704,
+    "cost_usd": 0.1696624,
     "tokens_by_model": {
+      "claude-haiku-4-5-20251001": {
+        "calls": 2,
+        "input": 6,
+        "output": 7274,
+        "cache_read": 0,
+        "cache_creation": 21113,
+        "cost_usd": 0.07860199999999999
+      },
       "claude-sonnet-5-5": {
         "calls": 2,
         "input": 4,
-        "output": 1540,
+        "output": 1625,
         "cache_read": 1812,
-        "cache_creation": 17250,
-        "cost_usd": 0.0847704
+        "cache_creation": 18610,
+        "cost_usd": 0.0910604
       }
     },
-    "day_cost_usd": 0.08477
+    "day_cost_usd": 0.254432
   },
   "spend": {
-    "today_usd": 0,
+    "today_usd": 0.08477,
     "week_before_usd": 0,
     "night_cap_usd": 10,
     "week_cap_usd": 50,
-    "allowance_usd": 10,
+    "allowance_usd": 9.91523,
     "binding": "night",
     "exhausted": false
   },
@@ -102,21 +116,25 @@
   "errors": [],
   "execution": {
     "stop_reason": "done",
-    "deadline": "2026-10-06T17:44:00.000Z",
-    "items_touched": 2,
+    "deadline": "2026-10-06T17:51:00.000Z",
+    "items_touched": 4,
     "stages_run": {
       "video:extracted": 2,
       "video:summarized": 2,
       "video:linked": 2,
-      "video:published": 2
+      "video:published": 2,
+      "video:fetched": 2,
+      "video:captioned": 2
     },
-    "advanced": 8,
+    "advanced": 12,
     "skipped": 0,
     "failed_attempts": 0,
     "failed_final": 0,
     "no_handler": 0,
+    "held": 0,
     "quota_charged": {
-      "video_extract": 2
+      "video_extract": 2,
+      "captions": 2
     },
     "regards": [],
     "errors": []

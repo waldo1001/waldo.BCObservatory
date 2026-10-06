@@ -1,0 +1,27 @@
+{
+  "video_id": "3Xus5tm2xKI",
+  "item_id": "video/yt-microsoft/3Xus5tm2xKI",
+  "summary": "Managing per-tenant extensions (PTEs) in the Business Central admin center in 2026 release wave 2: upload, install, update, scheduling, cancel, audit page, early hotfix install for Microsoft apps, and dev extension persistence on sandboxes. Covers deprecation of the old extension management pages and automation API as of version 30.0 (April 2027).",
+  "overview": "The video shows how the admin center now covers the full PTE lifecycle. It demos uploading and installing a PTE, updating an existing one, filtering installed apps by type, scheduling updates for a later minor or major version, canceling a schedule, and reviewing the environment operations audit page.\n\nIt then covers considerations: the old extension management pages and automation API are to be deprecated as of version 30.0 (scheduled April 2027), and mixing old and new experiences in one environment should be avoided. The last part covers installing hotfixes for Microsoft apps early from the app details page, with cautions about bypassing safe deployment, and the change that dev extensions stay installed on sandbox environments during lifecycle operations.",
+  "key_points": [
+    "The admin center now supports upload, install and update of PTEs, in addition to other app management tasks.",
+    "A new PTE can be installed immediately or during the update window. It cannot target the next minor or next major update; only already installed PTEs support those options.",
+    "Multiple schedules can exist for the same PTE at once, for example version 1.1 for the next minor and version 2.0 for the next major. A schedule can be canceled from the app details page.",
+    "PTE management in the extension management pages and the automation API will be deprecated as of version 30.0, scheduled for April 2027.",
+    "Do not use the old and new experiences at the same time in one environment. A PTE version scheduled through one experience is only visible in that experience.",
+    "Early hotfix install for Microsoft apps bypasses safe deployment. Use it only when a specific version fixes an issue you are affected by, and coordinate with users of the environment.",
+    "Dev extensions now stay installed on sandboxes during lifecycle operations, unless they are incompatible with the environment changes."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "099445e94a2898fe4d7dc9a07e10fd3b41ebc0c57d25e81999a3bb3de3742883",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0456492
+  }
+}

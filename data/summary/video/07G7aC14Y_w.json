@@ -1,0 +1,28 @@
+{
+  "video_id": "07G7aC14Y_w",
+  "item_id": "video/yt-microsoft/07G7aC14Y_w",
+  "summary": "Overview of EDI in Business Central's e-documents framework (2026 release wave 2): purchase order, sales order, order response and remittance advice exchange in XML, with a demo and three new French e-reporting formats. Feature status is not stated in the video.",
+  "overview": "The video explains that Business Central already had e-documents but no EDI. EDI here means exchanging orders and related documents between a buyer and a seller company electronically, instead of by email. It is built on the existing e-documents framework and uses the PEPPOL format, which the speaker calls a known technology.\n\nThe demo follows one flow. A buyer creates and releases a purchase order, and an XML file goes to the seller. The seller gets a sales order created automatically and accepts or rejects it, which sends an order response back. When the buyer posts the purchase invoice and payment, a remittance advice goes to the seller. The video then covers three new French e-reporting formats and how regulatory lifecycle events are tracked. The speaker says the functionality will be improved later.",
+  "key_points": [
+    "The EDI document types covered are purchase order, sales order, order response and remittance advice, all handled through the e-documents framework.",
+    "A purchase order sent by the buyer creates a sales order automatically on the seller side. The seller can accept or reject it and send an order response back.",
+    "Posting a purchase invoice lets the buyer send a remittance advice file to the seller, which supports payment reporting.",
+    "Setup needs electronic identifiers on both buyer and seller sides, such as a registration number, so vendors and customers match. Item references are recommended for matching items.",
+    "Document direction can be set to inbound only, outbound only, or both. The video does not demo this, the identifiers or the item references.",
+    "A log shows which files each EDI exchange created and how it progressed. Fact box links connect the purchase order, its e-document and the sales order created from it.",
+    "Three new e-document formats for France are added. French regulatory lifecycle events are stored as messages linked to the original invoice e-document, with statuses collected, submitted, accepted, refused and technical rejected."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker",
+    "partner"
+  ],
+  "extraction_hash": "a1d7f1f5a45035195aba5821e6b3a502991e18bd5b57f28f6a5b0d50d3f4999e",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0454112
+  }
+}

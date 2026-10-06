@@ -1,0 +1,201 @@
+{
+  "video_id": "GEuUFcgFZF0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.7,
+      "end": 13.6,
+      "text": "Welcome to the first episode of the Manufacturing Foundation series. Today, you'll explore the bill of materials, one of the core elements of manufacturing."
+    },
+    {
+      "t": 13.6,
+      "end": 27,
+      "text": "The bill of materials, also called BOM, is the list that defines the components required to produce an item. Let's explore an example."
+    },
+    {
+      "t": 27.8,
+      "end": 34.8,
+      "text": "Once we open an item card, >> [music] >> we can scroll to the replenishment tab."
+    },
+    {
+      "t": 34.8,
+      "end": 48.5,
+      "text": "You can see that the item can be replenished in three different ways, through purchase, a production order, or an assembly. Purchase is for items you buy and use or sell without processing."
+    },
+    {
+      "t": 48.5,
+      "end": 58.8,
+      "text": "For those that are processed in your facilities, you choose production order or assembly. Notice that both define a BOM field."
+    },
+    {
+      "t": 58.8,
+      "end": 72.8,
+      "text": "So, what's the difference? Assembly is used for straightforward processes, simple labor-only work. Choose production order when you need multi-step operations, machine centers,"
+    },
+    {
+      "t": 72.8,
+      "end": 85.2,
+      "text": "or capacity planning. Let's open the production BOM. The airpod is replenished using a production order, where all components required to build it are listed."
+    },
+    {
+      "t": 85.2,
+      "end": 100.3,
+      "text": "The quantity required is listed, but also allowing you to use formulas for standardized units of measure. BOM acts as the recipe and drives material planning, consumption, and costing."
+    },
+    {
+      "t": 100.3,
+      "end": 116,
+      "text": "You can add, remove, and reorganize the columns shown in the line section as you need. A well-structured BOM helps you plan materials accurately, reduce shortages, and keep production running smoothly."
+    },
+    {
+      "t": 116,
+      "end": 129.4,
+      "text": "For each of the items listed on the bill of materials, you can see where it is used using the where used action. Let's explore another product's BOM, the Air Pod Light."
+    },
+    {
+      "t": 129.4,
+      "end": 139.8,
+      "text": "This new product is created by copying the Air Pod's BOM and removing the warming plate. Few special fields worth mentioning."
+    },
+    {
+      "t": 139.8,
+      "end": 156.2,
+      "text": "The Air Pod Light contains two reservoir assembly items, an item and a production BOM. The item version of reservoir assembly has an ending date of 1st of June, when the production BOM version starts being used."
+    },
+    {
+      "t": 156.2,
+      "end": 171.2,
+      "text": "This allows us to change an item without major alterations. From the 1st of June, any Air Pod Light will be produced using the phantom BOM instead of picking the pre-produced item."
+    },
+    {
+      "t": 171.2,
+      "end": 186.3,
+      "text": "For more complex modifications, you can define new versions and their starting date, so that production will pick the correct production BOM. Each version has its own list of components."
+    },
+    {
+      "t": 186.3,
+      "end": 197.3,
+      "text": "If you want to see how they vary, you can use the production BOM version comparison, where the components are listed for each of the versions of a single production BOM."
+    },
+    {
+      "t": 197.3,
+      "end": 212.8,
+      "text": "For version two and three, we can see that we first kept the switch and removed the on-off light, but for version three, we also removed the switch. Let's explore how the bill of materials work from a production order by creating one."
+    },
+    {
+      "t": 212.8,
+      "end": 218.6,
+      "text": "This production order is for the Air Pod Light."
+    },
+    {
+      "t": 218.6,
+      "end": 225.7,
+      "text": "Let's say we need 50 units and that they are due for the 1st of June."
+    },
+    {
+      "t": 225.7,
+      "end": 242.4,
+      "text": "Selecting the due date allow us to have an accurate capacity and inventory planning. Once those fields are defined, we can refresh the production order to automatically populate the order lines with components and routings."
+    },
+    {
+      "t": 242.4,
+      "end": 256.4,
+      "text": "This order is picking the base version as no version code is shown. Let's explore what happens if we change our due date and refresh the order again."
+    },
+    {
+      "t": 256.4,
+      "end": 270.7,
+      "text": "Now we see the version two, which we can also manually change to another if we want to make an exception. The components action allow us to explore which are the items required for the production of each product line."
+    },
+    {
+      "t": 270.7,
+      "end": 280.7,
+      "text": "An accurate bill of material definition improves cost visibility and gives you better control over costs and product changes as your business evolves."
+    },
+    {
+      "t": 280.7,
+      "end": 294,
+      "text": "In the next episode, you'll explore routings, which define how the product is made. Together, your BOMs and the routings form the core of efficient and predictable manufacturing."
+    },
+    {
+      "t": 294,
+      "end": 298,
+      "text": "See you next time."
+    }
+  ],
+  "markers": [
+    {
+      "t": 17.7,
+      "text": "[music]"
+    },
+    {
+      "t": 35.37,
+      "text": "[music]"
+    },
+    {
+      "t": 93.666,
+      "text": "[music]"
+    },
+    {
+      "t": 116.591,
+      "text": "[music]"
+    },
+    {
+      "t": 125.106,
+      "text": "[music]"
+    },
+    {
+      "t": 151.961,
+      "text": "[music]"
+    },
+    {
+      "t": 158.511,
+      "text": "[music]"
+    },
+    {
+      "t": 164.406,
+      "text": "[music]"
+    },
+    {
+      "t": 171.611,
+      "text": "[music]"
+    },
+    {
+      "t": 194.537,
+      "text": "[music]"
+    },
+    {
+      "t": 200.432,
+      "text": "[music]"
+    },
+    {
+      "t": 226.632,
+      "text": "[music]"
+    },
+    {
+      "t": 237.112,
+      "text": "[music]"
+    },
+    {
+      "t": 250.212,
+      "text": "[music]"
+    },
+    {
+      "t": 260.037,
+      "text": "[music]"
+    },
+    {
+      "t": 264.623,
+      "text": "[music]"
+    },
+    {
+      "t": 272.483,
+      "text": "[music]"
+    },
+    {
+      "t": 277.74,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 634
+}

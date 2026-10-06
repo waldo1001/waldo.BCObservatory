@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=3Xus5tm2xKI",
   "published_at": "2026-10-01T13:04:21.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -25,6 +25,39 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T12:17:38.679Z",
+      "path": "data/extract/video/3Xus5tm2xKI.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 10,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.039933
+    },
+    "summarized": {
+      "at": "2026-10-06T12:17:47.671Z",
+      "path": "data/summary/video/3Xus5tm2xKI.json",
+      "prompt": "summarize-video@1",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0456492
+    },
+    "linked": {
+      "at": "2026-10-06T12:17:47.672Z",
+      "systems": [
+        "administration",
+        "development"
+      ],
+      "topics": 10,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T12:17:47.674Z",
+      "path": "content/videos/3Xus5tm2xKI.md"
     }
   },
   "input_hash": null,
@@ -35,5 +68,6 @@
     "seed_file": "2026-10-01 - BCLE - What's new： Manage PTEs in the Admin Center (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "b1f369e95ed00e9628302bc68ee0a066381f3a4ffaa6e94f4d7a612fdd8d6f79"
 }

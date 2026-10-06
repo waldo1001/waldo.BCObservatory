@@ -1,0 +1,46 @@
+{
+  "id": "video/yt-microsoft/GEuUFcgFZF0",
+  "pillar": "video",
+  "source": "yt-microsoft",
+  "tier": "official",
+  "title": "Manufacturing Foundations BOM (2026)",
+  "url": "https://www.youtube.com/watch?v=GEuUFcgFZF0",
+  "published_at": "2026-09-08T11:45:00.000Z",
+  "language": "en",
+  "state": "captioned",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T12:17:54.710Z",
+      "captions": "auto:en-orig",
+      "duration_s": 298
+    },
+    "captioned": {
+      "at": "2026-10-06T12:17:56.777Z",
+      "path": "data/captions/microsoft/GEuUFcgFZF0.vtt",
+      "vtt_sha256": "4abafebf9f25b2a86a2410a45c9c81c26e2729a14b4244ccd5afb7ab16b56982",
+      "segments": 24,
+      "words": 634,
+      "lang": "en-orig",
+      "kind": "auto"
+    }
+  },
+  "input_hash": null,
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
+    "channel_rank": 38,
+    "duration_s": 298,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4abafebf9f25b2a86a2410a45c9c81c26e2729a14b4244ccd5afb7ab16b56982"
+}
