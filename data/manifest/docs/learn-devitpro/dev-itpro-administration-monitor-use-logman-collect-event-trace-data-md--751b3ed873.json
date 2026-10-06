@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-use-logman-collect-event-trace-data",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "fa0731193485b756cb61a297f00da5a98780cbd6",
       "words": 331,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:33.014Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003101
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:33.072Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:33.074Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:33.075Z",
+      "page": false
     }
   },
   "input_hash": "fa0731193485b756cb61a297f00da5a98780cbd6",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fa0731193485b756cb61a297f00da5a98780cbd6"
+  "output_hash": "71963a5a2093d26d06785cebe042fd5654de2043723f53784a448d4976e987d6"
 }

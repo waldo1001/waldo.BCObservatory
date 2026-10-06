@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-206C-1H-Transactions",
   "published_at": "2025-07-11T07:35:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "bc773efd9887fde9871d664c8df9c40b3fda9f2e",
       "words": 901,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:35.293Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003682
     }
   },
   "input_hash": "bc773efd9887fde9871d664c8df9c40b3fda9f2e",
@@ -42,5 +49,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bc773efd9887fde9871d664c8df9c40b3fda9f2e"
+  "output_hash": "118173b63f2c137f0a54d56f2b637e5ab84fbf0713ce6bd585d3f2c74fe9526d"
 }

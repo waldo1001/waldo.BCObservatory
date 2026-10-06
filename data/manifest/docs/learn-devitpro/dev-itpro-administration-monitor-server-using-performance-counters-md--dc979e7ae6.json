@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/monitor-server-using-performance-counters",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "3032fb8408b3c4e4b454eb4e94111f0e1f8646c0",
       "words": 138,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:33.003Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003101
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:33.056Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:33.057Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:33.058Z",
+      "page": false
     }
   },
   "input_hash": "3032fb8408b3c4e4b454eb4e94111f0e1f8646c0",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3032fb8408b3c4e4b454eb4e94111f0e1f8646c0"
+  "output_hash": "f02f7a15f012a9c4f4df605f451ebaa7c4a8f3333dfaf48eef67573c9270cf46"
 }

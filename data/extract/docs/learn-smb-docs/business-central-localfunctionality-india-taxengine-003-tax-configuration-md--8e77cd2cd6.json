@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TaxEngine-003-Tax-Configuration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-003-Tax-Configuration",
+  "title": "Tax Engine - Tax Configuration 01",
+  "blob": "d4b1d508204ff08a95fed9aedbf182f3c0bfd0bb",
+  "summary": "Tax Engine Configuration explains how to set up tax types (GST, TDS, TCS, WHT), define tax attributes, components, rate parameters, and tax rates for calculation and posting to G/L accounts.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "tax engine",
+    "tax configuration",
+    "tax types",
+    "tax rates",
+    "gst",
+    "tds",
+    "tcs",
+    "wht"
+  ],
+  "objects": [],
+  "features": [
+    "tax type setup",
+    "tax entities",
+    "input parameters",
+    "tax components",
+    "rate setup",
+    "tax rates",
+    "attribute mapping",
+    "blank setup allowance"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003682,
+      "pages_in_call": 7
+    }
+  ]
+}

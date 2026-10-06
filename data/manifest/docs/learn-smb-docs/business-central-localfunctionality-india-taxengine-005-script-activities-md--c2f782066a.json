@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-005-Script-Activities",
   "published_at": "2025-07-11T07:35:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "3a2504e7020534f61b990e9894ac310a03eee8d3",
       "words": 1196,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:35.291Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003682
     }
   },
   "input_hash": "3a2504e7020534f61b990e9894ac310a03eee8d3",
@@ -42,5 +49,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3a2504e7020534f61b990e9894ac310a03eee8d3"
+  "output_hash": "581f71b1da76656d403526305ccf31f7ff9aa8c5fc4c3f0791ca9edb62864d95"
 }

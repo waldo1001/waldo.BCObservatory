@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TaxEngine-006-Design-Consideration.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-006-Design-Consideration",
+  "title": "Tax Engine - Design Consideration",
+  "blob": "baddaf9bdc7c0d09f70c0d4bf4210eb6fbdb0baf",
+  "summary": "Tax Engine Design Consideration provides best practices for configuring taxes, including when to create tax types, attributes, rate setups, handling metadata, use case execution sequencing, deployment of configuration files, and version management.",
+  "systems": [
+    "finance",
+    "localization",
+    "administration"
+  ],
+  "topics": [
+    "tax engine",
+    "design considerations",
+    "configuration deployment",
+    "version management"
+  ],
+  "objects": [],
+  "features": [
+    "tax type creation",
+    "generic attributes",
+    "generic tax rate setup",
+    "tax transaction values",
+    "tax rate configuration values",
+    "child use cases",
+    "use case sequencing",
+    "json configuration files",
+    "configuration import/export",
+    "configuration archiving",
+    "version management",
+    "enable/disable use cases"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003682,
+      "pages_in_call": 7
+    }
+  ]
+}

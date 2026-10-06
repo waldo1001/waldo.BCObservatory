@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-003.1-Tax-Configuration",
   "published_at": "2025-07-11T07:35:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "f6d23573d4e0a1338ea3516ea22726495787dbdf",
       "words": 506,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:35.289Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003682
     }
   },
   "input_hash": "f6d23573d4e0a1338ea3516ea22726495787dbdf",
@@ -44,5 +51,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f6d23573d4e0a1338ea3516ea22726495787dbdf"
+  "output_hash": "224ef2b672700d717cd8713e3c8cb8dcb4ee53bb6e2e96110b0795fd0c8e8013"
 }

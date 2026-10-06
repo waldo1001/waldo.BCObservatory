@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-Adjustment-Entries",
   "published_at": "2025-07-11T07:35:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "1ad2f71239f2b0f918cad09b96156f73084e8f7a",
       "words": 242,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:35.294Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003682
     }
   },
   "input_hash": "1ad2f71239f2b0f918cad09b96156f73084e8f7a",
@@ -42,5 +49,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1ad2f71239f2b0f918cad09b96156f73084e8f7a"
+  "output_hash": "c46b04d8aae063fc5d0a6fbf47e9ffe35b79238ef9fceb842f3c73cbfff660ab"
 }

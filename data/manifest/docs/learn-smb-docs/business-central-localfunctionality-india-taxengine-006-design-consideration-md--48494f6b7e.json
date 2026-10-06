@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TaxEngine-006-Design-Consideration",
   "published_at": "2025-07-11T07:35:16.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "baddaf9bdc7c0d09f70c0d4bf4210eb6fbdb0baf",
       "words": 814,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:35.292Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003682
     }
   },
   "input_hash": "baddaf9bdc7c0d09f70c0d4bf4210eb6fbdb0baf",
@@ -44,5 +51,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "baddaf9bdc7c0d09f70c0d4bf4210eb6fbdb0baf"
+  "output_hash": "778fa73f59b725e025d98a01fc6058a358c88ef10db26d5119a5541efc744dd3"
 }

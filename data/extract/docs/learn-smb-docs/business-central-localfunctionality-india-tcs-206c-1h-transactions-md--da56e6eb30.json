@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TCS-206C-1H-Transactions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TCS-206C-1H-Transactions",
+  "title": "TCS calculation and transactions as per Section 206C(1H)",
+  "blob": "bc773efd9887fde9871d664c8df9c40b3fda9f2e",
+  "summary": "TCS Calculation under Section 206C(1H) explains how Tax Collected at Source is calculated on customer payment receipts over INR 50 lakh threshold through journals, including calculation logic and GL posting.",
+  "systems": [
+    "finance",
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "tcs",
+    "tax collected at source",
+    "section 206c",
+    "payment receipts",
+    "customer payments"
+  ],
+  "objects": [],
+  "features": [
+    "tcs calculation on receipt",
+    "payment journal entry",
+    "get open posted lines for tcs payment",
+    "tcs base amount",
+    "tcs nature of collection",
+    "gst integration",
+    "tcs surcharge",
+    "gl posting",
+    "customer ledger posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003682,
+      "pages_in_call": 7
+    }
+  ]
+}

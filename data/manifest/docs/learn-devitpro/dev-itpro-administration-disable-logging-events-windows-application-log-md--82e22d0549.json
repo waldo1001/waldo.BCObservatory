@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/disable-logging-events-windows-application-log",
   "published_at": "2025-07-10T13:59:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "00e247e0daf48351272a78e12586b6a54dba30ed",
       "words": 314,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:18:32.989Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003101
+    },
+    "summarized": {
+      "at": "2026-10-06T19:18:33.049Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:18:33.050Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:18:33.051Z",
+      "page": false
     }
   },
   "input_hash": "00e247e0daf48351272a78e12586b6a54dba30ed",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "00e247e0daf48351272a78e12586b6a54dba30ed"
+  "output_hash": "0c999027df1b0dd6f72ee4d56c6ca267d348900e77a0d3a5aa9f9226c6d254a3"
 }
