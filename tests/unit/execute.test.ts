@@ -26,7 +26,7 @@ const allVideo = (over: Partial<Record<string, StageHandler>> = {}): StageHandle
 function run(manifest: Manifest, handlers: StageHandlers, over: Partial<ExecuteOptions> = {}) {
   const q = over.quotas ?? quotas;
   const plan = planQueue(manifest.list(), q, new Map(), started);
-  return executePlan({ work: plan.work, quotas: q, budget: budget(), manifest, dataDir: tmpdir(), handlers, started, clock: () => started, ...over });
+  return executePlan({ work: plan.work, quotas: q, budget: budget(), manifest, dataDir: tmpdir(), contentDir: tmpdir(), sources: new Map(), handlers, started, clock: () => started, ...over });
 }
 const get = (m: Manifest, k: string) => m.get(`video/yt-ms/${k}`) as ManifestItem;
 

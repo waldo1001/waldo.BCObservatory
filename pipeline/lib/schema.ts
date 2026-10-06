@@ -1,6 +1,7 @@
 /** One Ajv instance, schemas loaded from /schemas by name. */
 import AjvModule from "ajv/dist/2020.js";
 import addFormatsModule from "ajv-formats";
+import { readdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { readJson } from "./fsx.js";
 import { SCHEMAS_DIR } from "./paths.js";
@@ -15,12 +16,22 @@ const compiled = new Map<string, any>();
 export function loadSchema(name: string): Record<string, unknown> {
   return readJson(resolve(SCHEMAS_DIR, name.endsWith(".json") ? name : `${name}.json`));
 }
+let registered = false;
+/** Register every top-level schema once so cross-file $refs (frontmatter.video -> frontmatter.base) resolve. */
+function registerAll(): void {
+  if (registered) return;
+  for (const f of readdirSync(SCHEMAS_DIR).filter((n) => n.endsWith(".json"))) ajv.addSchema(loadSchema(f));
+  registered = true;
+}
 export function validator(name: string) {
-  // "sources" and "sources.json" are the same schema; Ajv rejects compiling one $id twice.
+  // "sources" and "sources.json" are the same schema
   const key = name.replace(/\.json$/, "");
   let v = compiled.get(key);
   if (!v) {
-    v = ajv.compile(loadSchema(key));
+    registerAll();
+    const id = loadSchema(key).$id as string | undefined;
+    v = id ? ajv.getSchema(id) : ajv.compile(loadSchema(key));
+    if (!v) throw new Error(`schema ${key} not registered`);
     compiled.set(key, v);
   }
   return v;

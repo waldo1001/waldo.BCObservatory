@@ -4,7 +4,9 @@
  * A budget skip still writes and commits the run report: that heartbeat keeps the schedule alive.
  *
  *   npm run nightly -- [--dry-run] [--commit] [--push] [--no-guard] [--stages ingest|all]
- *                      [--pillars docs,video] [--only source-id,...] [--data-dir path]
+ *                      [--pillars docs,video] [--only source-id,...] [--data-dir path] [--quota N]
+ *
+ * --quota N caps every item quota at N (verification runs, e.g. two videos end to end).
  *
  * --dry-run never commits, sets LLM_CACHE_ONLY=1 and writes into a temp data dir unless --data-dir is given.
  */
@@ -30,10 +32,12 @@ import { knownHosts, runIngest } from "../ingest/index.js";
 import type { IngestContext, VersionsConfig } from "../ingest/types.js";
 import { executePlan, type ExecutionReport, type StageHandlers } from "./execute.js";
 import { acquireLock } from "./lock.js";
+import { PIPELINE_VERSION } from "../version.js";
 import { STAGE_HANDLERS } from "./stages.js";
+import { renderVideoIndex } from "../render/video.js";
 
 const log = logger("nightly");
-export const PIPELINE_VERSION = "0.1.0";
+export { PIPELINE_VERSION };
 
 export interface NightlyOptions {
   dryRun: boolean;
@@ -43,7 +47,11 @@ export interface NightlyOptions {
   stages: "ingest" | "all";
   pillars?: Pillar[];
   only?: string[];
+  /** Caps every item quota (not llm_calls_max) at this number. */
+  quota?: number;
   dataDir: string;
+  /** Generated pages; defaults to <repoDir>/content (a sibling of the temp data dir for --dry-run). */
+  contentDir?: string;
   cacheDir: string;
   repoDir: string;
   now?: Date;
@@ -132,17 +140,19 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
   report.items_changed = (totals.new ?? 0) + (totals.changed ?? 0);
 
   if (opts.stages === "all") {
-    const quotas = scaleQuotas(cfg.quotas, guard);
-    const plan = planQueue(manifest.list(), quotas, new Map(deps.sources.map((s) => [s.id, s])), now);
+    const quotas = capQuotas(scaleQuotas(cfg.quotas, guard), opts.quota);
+    const plan = planQueue(manifest.list().filter((i) => (!opts.pillars || opts.pillars.includes(i.pillar)) && (!opts.only || opts.only.includes(i.source))), quotas, new Map(deps.sources.map((s) => [s.id, s])), now);
     for (const s of plan.skips) {
       const item = manifest.get(s.id);
       if (item) manifest.save(skip(item, s.reason));
     }
     const execution = await executePlan({
-      work: plan.work, quotas, budget: cfg, manifest, dataDir: opts.dataDir, handlers: deps.handlers ?? STAGE_HANDLERS,
+      work: plan.work, quotas, budget: cfg, manifest, dataDir: opts.dataDir, contentDir: contentDirOf(opts),
+      sources: new Map(deps.sources.map((s) => [s.id, s])), handlers: deps.handlers ?? STAGE_HANDLERS,
       started, clock: deps.clock ?? (() => new Date()), readUsage: opts.guard ? deps.readUsage : undefined,
     });
     report.execution = execution;
+    renderVideoIndex(contentDirOf(opts));
     errors.push(...execution.errors);
     report.plan = {
       quotas, work: plan.work.length, executed: execution.items_touched, skips: plan.skips.length, quota_use: plan.quota_use,
@@ -174,6 +184,15 @@ async function finish(report: RunReport, opts: NightlyOptions): Promise<RunRepor
   return report;
 }
 
+export function capQuotas(quotas: Record<string, number>, cap?: number): Record<string, number> {
+  if (cap === undefined) return quotas;
+  return Object.fromEntries(Object.entries(quotas).map(([k, v]) => [k, k === "llm_calls_max" ? v : Math.min(v, cap)]));
+}
+/** Where pages go: explicit, else next to a non-default data dir (dry runs, tests), else <repo>/content. */
+export function contentDirOf(opts: Pick<NightlyOptions, "contentDir" | "dataDir" | "repoDir">): string {
+  if (opts.contentDir) return opts.contentDir;
+  return resolve(opts.dataDir) === resolve(opts.repoDir, "data") ? resolve(opts.repoDir, "content") : resolve(opts.dataDir, "..", "content");
+}
 const round6 = (n: number) => Math.round(n * 1e6) / 1e6;
 const TRACKED = ["data", "content"];
 
@@ -227,6 +246,7 @@ export function parseArgs(argv: string[]): NightlyOptions {
   return {
     dryRun, commit: has("--commit") && !dryRun, push: has("--push") && !dryRun, guard: !has("--no-guard"), stages,
     pillars: list("--pillars") as Pillar[] | undefined, only: list("--only"),
+    ...(val("--quota") !== undefined ? { quota: Number(val("--quota")) } : {}),
     dataDir: resolve(val("--data-dir") ?? (dryRun ? join(tmpdir(), "bc-observatory-dry-run", "data") : DATA_DIR)),
     cacheDir: CACHE_DIR, repoDir: ROOT,
   };

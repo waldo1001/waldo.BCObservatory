@@ -9,7 +9,7 @@
  *   LlmBudgetExhausted leaves the item untouched), and a re-guard every N LLM calls that stops on `skip`.
  * - LlmInfraError (auth, API-key auth, usage limit) aborts the run; the next night resumes.
  */
-import type { Budget } from "../lib/config.js";
+import type { Budget, SourceDef } from "../lib/config.js";
 import { decideGuard, type GuardDecision, type PlanUsage, type PlanUsageUnavailable } from "../lib/budget.js";
 import { LlmBudgetExhausted, LlmInfraError, llmStats } from "../lib/llm.js";
 import { logger } from "../lib/log.js";
@@ -27,7 +27,10 @@ export interface StageResult {
   /** Ends the item as skipped (e.g. "no-captions") instead of advancing. */
   skip?: string;
 }
-export interface StageContext { now: () => Date; manifest: Manifest; dataDir: string }
+export interface StageContext {
+  now: () => Date; manifest: Manifest; dataDir: string; contentDir: string;
+  sources: Map<string, Pick<SourceDef, "id" | "name" | "tier" | "url">>;
+}
 export type StageHandler = (item: ManifestItem, ctx: StageContext) => Promise<StageResult>;
 export type StageHandlers = Partial<Record<Pillar, Partial<Record<Stage, StageHandler>>>>;
 
@@ -52,6 +55,8 @@ export interface ExecuteOptions {
   budget: Pick<Budget, "window" | "usage_guard" | "headroom_scale" | "reduced_factor" | "retry">;
   manifest: Manifest;
   dataDir: string;
+  contentDir: string;
+  sources: StageContext["sources"];
   handlers: StageHandlers;
   started: Date;
   clock: () => Date;
@@ -121,7 +126,7 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
       touched = true;
       const key = `${item.pillar}:${stage}`;
       try {
-        const res: StageResult = await handler(item, { now: o.clock, manifest: o.manifest, dataDir: o.dataDir });
+        const res: StageResult = await handler(item, { now: o.clock, manifest: o.manifest, dataDir: o.dataDir, contentDir: o.contentDir, sources: o.sources });
         r.stages_run[key] = (r.stages_run[key] ?? 0) + 1;
         if (res.skip) {
           item = skip(item, res.skip);

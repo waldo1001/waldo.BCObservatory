@@ -5,7 +5,7 @@
   "type": "object",
   "required": ["id", "type", "title", "summary", "tier", "language", "review", "generated", "evidence", "links"],
   "properties": {
-    "id": { "type": "string", "pattern": "^(topic|feature|object|localization|source|video|post|digest)/[a-z0-9][a-z0-9/_.-]*$" },
+    "id": { "type": "string", "pattern": "^(topic|feature|object|localization|source|video|post|digest)/[A-Za-z0-9_-][A-Za-z0-9/_.-]*$", "description": "<type>/<slug>; video ids keep the case-sensitive YouTube id" },
     "type": { "enum": ["topic", "feature", "object", "localization", "source", "video", "post", "digest"] },
     "title": { "type": "string", "minLength": 1 },
     "summary": { "type": "string", "minLength": 1, "maxLength": 600 },

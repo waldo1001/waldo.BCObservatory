@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/frontmatter.video.json",
+  "title": "Frontmatter of a video page (content/videos/<videoId>.md)",
+  "allOf": [
+    {
+      "$ref": "frontmatter.base.json"
+    }
+  ],
+  "type": "object",
+  "required": [
+    "video_id",
+    "channel",
+    "source_name",
+    "url",
+    "published_at",
+    "duration_s",
+    "captions",
+    "chapters",
+    "quotes",
+    "features"
+  ],
+  "properties": {
+    "type": {
+      "const": "video"
+    },
+    "video_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]{11}$"
+    },
+    "channel": {
+      "type": "string",
+      "description": "source id in sources.yaml"
+    },
+    "source_name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "published_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "duration_s": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "captions": {
+      "enum": [
+        "full",
+        "derived"
+      ]
+    },
+    "audience": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "t",
+          "title"
+        ],
+        "properties": {
+          "t": {
+            "type": "integer"
+          },
+          "title": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "status",
+          "t"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "preview",
+              "ga",
+              "announced",
+              "unclear"
+            ]
+          },
+          "t": {
+            "type": "integer"
+          },
+          "verified": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "objects_mentioned": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "quotes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "t",
+          "text",
+          "check"
+        ],
+        "properties": {
+          "t": {
+            "type": "integer"
+          },
+          "text": {
+            "type": "string",
+            "maxLength": 240
+          },
+          "check": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

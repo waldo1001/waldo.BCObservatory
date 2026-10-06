@@ -118,6 +118,16 @@ export function captionSegmentsPath(item: ManifestItem, dataDir: string, vaultDi
 }
 export const extractionPath = (dataDir: string, videoId: string) => resolve(dataDir, "extract", "video", `${videoId}.json`);
 
+/** A status claim stands only when its verbatim evidence says so; "we introduced X" is not "X is GA". */
+const STATUS_WORDS: Record<string, RegExp> = {
+  ga: /\b(generally available|general availability|\bGA\b|g\.a\.|released|available (now|today)|now available|out of preview|ships?|shipping|live (now|today))\b/i,
+  preview: /\b(preview|beta|early access|insider|experimental)\b/i,
+  announced: /\b(coming|later|future|roadmap|planned|planning|next (release|wave|version|major)|will (be|come|ship|arrive|add|bring)|not (yet|in this release)|working on)\b/i,
+};
+export function statusSupported(status: string, quote: string): boolean {
+  return STATUS_WORDS[status]?.test(quote) ?? false;
+}
+
 /** Placeholders the model emits when no name is heard; they are not presenters. */
 const GENERIC_PRESENTER = /^(presenter|speaker|host|narrator|unknown|unnamed)(\s*\d+)?$/i;
 const clamp = (n: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, n));
@@ -168,7 +178,8 @@ export async function extractVideo(item: ManifestItem, dataDir: string, llm: Llm
     let evT: number | null = f.status_evidence_t, evQ: string | null = f.status_evidence_quote, verified = false;
     if (evQ && typeof evT === "number") {
       const c = checkQuote(segs, evQ, evT, { minWords: 3 });
-      if (c.ok) { evT = c.t; evQ = c.text; verified = true; checks.evidence_verified++; } else { evT = null; evQ = null; checks.evidence_unverified++; }
+      if (c.ok && statusSupported(f.status, c.text)) { evT = c.t; evQ = c.text; verified = true; checks.evidence_verified++; }
+      else { evT = null; evQ = null; checks.evidence_unverified++; }
     }
     return {
       name: f.name.trim(), description: f.description.trim(),

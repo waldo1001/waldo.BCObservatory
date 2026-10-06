@@ -6,7 +6,7 @@ import { join } from "node:path";
 import { writeJson } from "../../pipeline/lib/fsx.js";
 import type { LlmRequest } from "../../pipeline/lib/llm.js";
 import type { ManifestItem } from "../../pipeline/lib/manifest.js";
-import { extractedHandler, extractionHash, extractVideo, makeWindows, type Llm } from "../../pipeline/extract/video.js";
+import { extractedHandler, extractionHash, extractVideo, makeWindows, statusSupported, type Llm } from "../../pipeline/extract/video.js";
 
 const item = (over: Partial<ManifestItem> = {}): ManifestItem => ({
   id: "video/yt-microsoft/AAAAAAAAAA1", pillar: "video", source: "yt-microsoft", tier: "official", title: "Posting groups deep dive",
@@ -106,4 +106,13 @@ test("handler writes the extraction, flags weak quote checks, hash ignores run m
   assert.equal(extractionHash({ ...saved, llm: [] }), r.output_hash);
   await assert.rejects(extractVideo(item({ id: "video/yt-microsoft/BBBBBBBBBB2" }), dir, fakeLlm([bad]).llm), /caption segments missing/);
   assert.equal(existsSync(join(dir, "extract/video/BBBBBBBBBB2.json")), false);
+});
+
+test("status words: the evidence quote must state the status it proves", () => {
+  assert.ok(statusSupported("ga", "this is generally available starting today"));
+  assert.ok(statusSupported("ga", "and it is GA in version 29"));
+  assert.ok(!statusSupported("ga", "we have introduced four new system tools"));
+  assert.ok(statusSupported("preview", "this is still in public preview"));
+  assert.ok(statusSupported("announced", "that will come in a later release"));
+  assert.ok(!statusSupported("unclear", "anything"));
 });
