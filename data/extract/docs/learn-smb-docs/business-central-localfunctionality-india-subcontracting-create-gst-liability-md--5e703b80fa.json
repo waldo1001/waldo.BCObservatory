@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/Subcontracting-Create-GST-Liability.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Create-GST-Liability",
+  "title": "Create GST Liability",
+  "blob": "378c6b343e4ad8818fb24c649f2474aaada0b062",
+  "summary": "Create GST liability for subcontracting delivery challans when materials are not returned within specified period, establishing tax liability on the delivered materials.",
+  "systems": [
+    "manufacturing",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "gst",
+    "subcontracting",
+    "liability",
+    "delivery challan",
+    "india"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Create GST Liability"
+    }
+  ],
+  "features": [
+    "GST liability creation",
+    "Delivery challan processing",
+    "Subcontracting management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003704,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Service-Management.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Management",
+  "title": "GST on Service Management",
+  "blob": "030671ba97b4bcc298305f9cc03d122e66066cf4",
+  "summary": "GST on service management in India covers GST calculation and configuration for service orders, service invoices, and service credit memos with required GST group codes and HSN/SAC codes.",
+  "systems": [
+    "service",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "gst",
+    "service management",
+    "service order",
+    "service invoice",
+    "india"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Service Order"
+    },
+    {
+      "type": "page",
+      "name": "Service Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Service Credit Memos"
+    }
+  ],
+  "features": [
+    "GST calculation",
+    "Service order GST",
+    "Service invoice GST",
+    "Service credit memo GST"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003704,
+      "pages_in_call": 8
+    }
+  ]
+}

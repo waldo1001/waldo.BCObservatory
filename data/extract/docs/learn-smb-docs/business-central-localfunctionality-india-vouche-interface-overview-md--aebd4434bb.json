@@ -1,0 +1,51 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/Vouche-Interface-Overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Vouche-Interface-Overview",
+  "title": "Overview on Voucher Interface",
+  "blob": "2df5dddb380bfa3d008647b924aee567f5d34db5",
+  "summary": "Voucher interface feature for India enables day-to-day transaction recording across journal, bank receipt, bank payment, cash receipt, cash payment, and contra vouchers with configurable journal templates and batches.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "voucher",
+    "journal",
+    "cash management",
+    "bank management",
+    "india"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journal Template"
+    },
+    {
+      "type": "page",
+      "name": "General Journal Batch"
+    },
+    {
+      "type": "page",
+      "name": "General Voucher Setup"
+    }
+  ],
+  "features": [
+    "Journal voucher",
+    "Bank receipt voucher",
+    "Bank payment voucher",
+    "Cash receipt voucher",
+    "Cash payment voucher",
+    "Contra voucher"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003704,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -5,12 +5,17 @@
   "tier": "official",
   "title": "What's New: Analysis Assist with Copilot  (2024 release wave 2)",
   "url": "https://www.youtube.com/watch?v=GbMjcJurkFE",
-  "published_at": null,
+  "published_at": "2024-10-08T15:00:25.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:17:07.795Z",
+      "captions": "auto:en-orig",
+      "duration_s": 528
     }
   },
   "input_hash": null,
@@ -19,7 +24,13 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 350,
-    "duration_s": 529,
-    "via": "reconcile"
-  }
+    "duration_s": 528,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Subcontracting-Create-GST-Liability",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "378c6b343e4ad8818fb24c649f2474aaada0b062",
       "words": 317,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:01.207Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003704
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:10.267Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:10.268Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:10.269Z",
+      "page": false
     }
   },
   "input_hash": "378c6b343e4ad8818fb24c649f2474aaada0b062",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "378c6b343e4ad8818fb24c649f2474aaada0b062"
+  "output_hash": "1756b692dc9ce8dd5175be81e966070403458a9186d56f0936bc5a93ec6b0e0a"
 }

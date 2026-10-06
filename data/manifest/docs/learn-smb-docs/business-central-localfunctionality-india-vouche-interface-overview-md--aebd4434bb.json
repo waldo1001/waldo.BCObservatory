@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/Vouche-Interface-Overview",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2df5dddb380bfa3d008647b924aee567f5d34db5",
       "words": 1042,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:01.201Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003704
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:08.495Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:08.496Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:08.497Z",
+      "page": false
     }
   },
   "input_hash": "2df5dddb380bfa3d008647b924aee567f5d34db5",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2df5dddb380bfa3d008647b924aee567f5d34db5"
+  "output_hash": "2c0550fbb61fc63201b160e8e98e04531e0390a1388b598df62657981416c2ed"
 }

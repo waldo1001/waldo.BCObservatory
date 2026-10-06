@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/TDS-Overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/TDS-Overview",
+  "title": "Setting up Tax Deducted at Source, as per the provisions of the Income Tax Act, 1961",
+  "blob": "b1c7e74871c44172276e1c099cb08be57a539973",
+  "summary": "Tax Deducted at Source (TDS) setup according to India's Income Tax Act, 1961 covers automatic and manual configuration of tax types, entities, components, rates, posting accounts, and vendor/location details.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "tds",
+    "tax deduction",
+    "income tax",
+    "india",
+    "vendor setup",
+    "tax rates",
+    "posting accounts"
+  ],
+  "objects": [],
+  "features": [
+    "TDS rate setup",
+    "Tax accounting period",
+    "TAN numbers",
+    "Assessee codes",
+    "TDS sections",
+    "Concessional codes",
+    "Nature of remittances",
+    "Act applicable",
+    "TDS posting setup",
+    "TDS rounding precision"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003704,
+      "pages_in_call": 8
+    }
+  ]
+}

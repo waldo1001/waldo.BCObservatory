@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TDS-TCS-Overview",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8ad6bbbf074d7bd5935fca21bef0ad1f5fdd2e5b",
       "words": 441,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:01.206Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003704
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:10.263Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:10.265Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:10.266Z",
+      "page": false
     }
   },
   "input_hash": "8ad6bbbf074d7bd5935fca21bef0ad1f5fdd2e5b",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8ad6bbbf074d7bd5935fca21bef0ad1f5fdd2e5b"
+  "output_hash": "38a1988dbe3c0f70ae28d8d962740ceabdfbe57653820be8331ea548eca57607"
 }

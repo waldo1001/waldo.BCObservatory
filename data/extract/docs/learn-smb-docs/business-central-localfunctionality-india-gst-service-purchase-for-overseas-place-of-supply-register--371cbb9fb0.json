@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor",
+  "title": "Purchase of Services for Overseas Place of Supply from Registered Vendor",
+  "blob": "10a2f33eb8ef15484d8d01fdc6a4bce49071c5c9",
+  "summary": "Purchase of services for overseas place of supply from registered vendors covers IGST calculation where supplier is in India but place of supply is outside India, with input tax credit availment or non-availment options.",
+  "systems": [
+    "purchasing",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "gst",
+    "igst",
+    "overseas supply",
+    "purchase",
+    "india",
+    "tax credit"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Invoice"
+    }
+  ],
+  "features": [
+    "IGST calculation",
+    "Input tax credit availment",
+    "Tax credit non-availment"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003704,
+      "pages_in_call": 8
+    }
+  ]
+}

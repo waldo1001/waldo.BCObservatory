@@ -1,0 +1,26 @@
+{
+  "video_id": "QhHgkCe3kkk",
+  "item_id": "video/yt-microsoft/QhHgkCe3kkk",
+  "summary": "Embedding resources in AL applications (2024 release wave 2): files such as CSV data and images go in a resources folder in the app and are read with a get resource function. The video says the feature could not be used yet at recording. It covers folder setup, the uniqueness rule and size limits.",
+  "overview": "The video introduces resources in applications, which lets a developer ship files with an extension. Files such as CSV data or images are placed in a resources folder, and the app returns the resource for that specific application and version. The presenter says up front that the feature cannot be used yet, but that code using it will appear fairly soon, possibly in BC apps.\n\nThe demo covers the resources folder structure, a get resource function that reads a resource by file name and relative path into a stream, and configuring several resource folders. It then explains the uniqueness constraint checked at compilation, and the size and count limits.",
+  "key_points": [
+    "Resources are shipped in a resources folder inside the app file, for example CSV data and images.",
+    "The get resource function takes a file name and relative path and puts the resource into a specified stream.",
+    "Several resource folders can be configured, such as one for images and one for data files.",
+    "The resource name including its path relative to the resource folder must be unique across all folders in the extension.",
+    "Limits: 1,024 KB per resource, 16 MB for all resources in an extension, and 256 resources per extension.",
+    "Embedded resources are read-only, because an app package cannot be changed after shipping, and only the owning extension can access them.",
+    "At the time of the video the feature was not yet available for use."
+  ],
+  "audience": [
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "a46acc1de98fca596fbc92902775a7a8d9ec03e5466889f49f78fb1da72ab986",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.012160399999999998
+  }
+}

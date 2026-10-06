@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "10a2f33eb8ef15484d8d01fdc6a4bce49071c5c9",
       "words": 303,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:01.203Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003704
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:08.502Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:08.503Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:08.503Z",
+      "page": false
     }
   },
   "input_hash": "10a2f33eb8ef15484d8d01fdc6a4bce49071c5c9",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "10a2f33eb8ef15484d8d01fdc6a4bce49071c5c9"
+  "output_hash": "a46a459acd181699677fda85a632f9e2489ea12142bffc0995e6011205aea7c7"
 }

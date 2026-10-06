@@ -1,0 +1,231 @@
+{
+  "video_id": "QhHgkCe3kkk",
+  "item_id": "video/yt-microsoft/QhHgkCe3kkk",
+  "title": "What's New in AL:  Embedding Resources in Applications (2024 release wave 2)",
+  "duration_s": 375,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "resources in applications",
+    "get resource function",
+    "al development",
+    "app deployment",
+    "resource folders",
+    "file embedding",
+    "size limitations",
+    "uniqueness constraint"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to resources in applications",
+      "t_start": 0,
+      "t_end": 47.5
+    },
+    {
+      "title": "Overview of the resources folder structure",
+      "t_start": 47.5,
+      "t_end": 88.9
+    },
+    {
+      "title": "Using the get resource function",
+      "t_start": 88.9,
+      "t_end": 166.4
+    },
+    {
+      "title": "Multiple resource folders configuration",
+      "t_start": 166.4,
+      "t_end": 207
+    },
+    {
+      "title": "Uniqueness constraint and compilation",
+      "t_start": 207,
+      "t_end": 282.8
+    },
+    {
+      "title": "Limitations and constraints",
+      "t_start": 282.8,
+      "t_end": 338.7
+    },
+    {
+      "title": "Summary and conclusion",
+      "t_start": 338.7,
+      "t_end": 375
+    }
+  ],
+  "features": [
+    {
+      "name": "Embedding resources in applications",
+      "description": "New capability to ship resources with your application by including them in a resources folder within the app file, allowing developers to embed CSV data, images, and other files.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.9,
+      "t_end": 47.5,
+      "is_demoed": true,
+      "caveats": [
+        "Not available for use at time of video",
+        "Coming fairly soon"
+      ],
+      "tags": [
+        "resources",
+        "embedding",
+        "applications",
+        "preview"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "get resource function",
+      "description": "New function in the NavAdType that retrieves a resource by file name and relative path from the resources folder, placing it into a specified stream.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 88.9,
+      "t_end": 146.2,
+      "is_demoed": true,
+      "caveats": [
+        "Not yet available"
+      ],
+      "tags": [
+        "get resource",
+        "function",
+        "stream",
+        "resource retrieval"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Multiple resource folders",
+      "description": "Ability to specify multiple resource folders within an extension, such as separate folders for images and data files.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 186.8,
+      "t_end": 270.8,
+      "is_demoed": true,
+      "caveats": [
+        "Resource names including paths must be unique across all folders in the extension"
+      ],
+      "tags": [
+        "multiple folders",
+        "resource organization",
+        "configuration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Resource size limitations",
+      "description": "Maximum resource size is 1,024 kilobytes, maximum total resources per extension is 16 megabytes, and maximum number of resources per extension is 256.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 282.8,
+      "t_end": 318.6,
+      "is_demoed": false,
+      "caveats": [
+        "Max single resource: 1,024 KB",
+        "Max all resources: 16 MB",
+        "Max count: 256 resources"
+      ],
+      "tags": [
+        "limitations",
+        "size constraints",
+        "quotas"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Read-only resources",
+      "description": "Resources embedded in an extension are read-only because app packages cannot be altered after being shipped.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 318.6,
+      "t_end": 338.7,
+      "is_demoed": false,
+      "caveats": [
+        "Resources cannot be modified after deployment",
+        "Resources only available from owning extension"
+      ],
+      "tags": [
+        "read-only",
+        "immutable",
+        "access control"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "NavAdType",
+      "t": 88.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Stepen B",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 6.9,
+      "text": "I have some code to show you and it's going to be really exciting but first I have to say you can't use it",
+      "why_it_matters": "Indicates the feature is in preview status and not yet available for use.",
+      "check": "exact"
+    },
+    {
+      "t": 27,
+      "text": "resources in applications meaning you can ship your resources with your application get the resource for that specific application for that specific version",
+      "why_it_matters": "Defines the core purpose and capability of embedding resources with app deployment.",
+      "check": "exact"
+    },
+    {
+      "t": 207,
+      "text": "the resource name including the path relative to the resource folder must be unique within the extension",
+      "why_it_matters": "Critical constraint for multi-folder configurations that developers must follow.",
+      "check": "exact"
+    },
+    {
+      "t": 338.7,
+      "text": "the server determines what is good and what is not good so if you don't have",
+      "why_it_matters": "Indicates server-side validation controls what resources can be deployed.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 6.9,
+      "kind": "preview",
+      "text": "you can't use it not right now at least so why do we even talk about it well you're going to see some uptake of this feature fairly soon"
+    },
+    {
+      "t": 27,
+      "kind": "coming-later",
+      "text": "you're going to see the code maybe in BC apps and other places so this is important that you know what it's all about"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 4,
+    "quotes_dropped": 2,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.018525
+    }
+  ]
+}

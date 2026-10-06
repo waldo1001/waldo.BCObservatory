@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Service-Management",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "030671ba97b4bcc298305f9cc03d122e66066cf4",
       "words": 368,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:01.202Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.003704
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:08.498Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:08.499Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:08.500Z",
+      "page": false
     }
   },
   "input_hash": "030671ba97b4bcc298305f9cc03d122e66066cf4",
@@ -44,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "030671ba97b4bcc298305f9cc03d122e66066cf4"
+  "output_hash": "a9a74839ea6c2814a7bdf4c1ad572e18d5d298ce6c29ad7bec92556f3dfc5bb9"
 }

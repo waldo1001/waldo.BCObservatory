@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Stock-Transfer",
   "published_at": "2025-07-18T14:16:13.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5283d81857746f5da59c3d8a70d844e26430cd7a",
       "words": 483,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:17:01.204Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003704
+    },
+    "summarized": {
+      "at": "2026-10-06T19:17:08.504Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:17:08.505Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:17:08.506Z",
+      "page": false
     }
   },
   "input_hash": "5283d81857746f5da59c3d8a70d844e26430cd7a",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5283d81857746f5da59c3d8a70d844e26430cd7a"
+  "output_hash": "0defe060733aabffc3cf15235a6b6c6c1b18d5cea845d450659bf6cee8ed31f6"
 }

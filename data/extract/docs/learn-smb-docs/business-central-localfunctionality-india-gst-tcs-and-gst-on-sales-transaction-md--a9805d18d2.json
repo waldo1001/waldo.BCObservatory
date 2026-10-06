@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction",
+  "title": "Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions",
+  "blob": "37202e792c399a6656c51437fb6270544214ddb0",
+  "summary": "TCS (Tax Collected at Source) and GST calculation on sales transactions in India where tax is collected at specified rates on e-commerce operator sales with both GST and TCS components.",
+  "systems": [
+    "sales",
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "gst",
+    "tcs",
+    "sales",
+    "cgst",
+    "sgst",
+    "igst",
+    "india"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales Invoice"
+    }
+  ],
+  "features": [
+    "TCS calculation",
+    "GST calculation on sales",
+    "CGST and SGST",
+    "IGST on inter-state sales"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003704,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "video_id": "QfOgUCXg94o",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 7.2,
+      "end": 28.2,
+      "text": "hello welcome to this session I'm B Knutsen I'm and I'm going to talk about what's new in Warehouse posting and entries we'll briefly touch upon how it works until now and then how it will work from now on and what you need to be care of you as a partner or developer"
+    },
+    {
+      "t": 28.2,
+      "end": 48.8,
+      "text": "so the way Warehouse working I'm other ledgers is that only one user can post at the time and you usually have a register like a warehouse register and then some entries and since only one user at the time can post these entries will come in consecutive to order and the warehouse"
+    },
+    {
+      "t": 48.8,
+      "end": 69,
+      "text": "register then knows that it owns from entry number A to B and a brief look at code doesn't look exactly like this but something like this is that when we create new entries we do a lock table and then we do a find last"
+    },
+    {
+      "t": 69,
+      "end": 89,
+      "text": "to find the last entry and then we increment that entry number and then we continue that to increment and assign that to the new entries and then we insert most of you should be familiar with this and similarly if we do a drill down from the register you can see that we do a simple set range on the entry number"
+    },
+    {
+      "t": 89,
+      "end": 109.1,
+      "text": "with the warehouse registers from and to in number so this is how it works today or until now in bc25 we will allow multiple users at the same time to post and we'll do that by using number sequences as you can see"
+    },
+    {
+      "t": 109.1,
+      "end": 122.9,
+      "text": "in the example here which is an elaboration from before that there's some mix between green and blue entries and the red and green entries and the way the code looks now"
+    },
+    {
+      "t": 122.9,
+      "end": 143.4,
+      "text": "conceptually is that we get the next entry number from a function which basically just calls to a number sequence and then gives you the next number we also need to inform the warehouse entry to which uh register it belongs to so there's also a new field for warehouse"
+    },
+    {
+      "t": 143.4,
+      "end": 162.4,
+      "text": "register that we we get from the register number and finally instead of just insert Ing we call a new function that we call insert record and that's because maybe someone else has posted old style with a lock"
+    },
+    {
+      "t": 162.4,
+      "end": 182.5,
+      "text": "table um find last and so on so what we do there is we try to insert and if that doesn't succeed we need to reset the number sequence but otherwise it's business as usual the last thing you notice here is that we also"
+    },
+    {
+      "t": 182.5,
+      "end": 202.8,
+      "text": "have a sift bucket number that we assign to a semi- random number between zero and four because what many people don't know is that if you have a combination of values in a sift index for instance item number and location and two users insert Warehouse"
+    },
+    {
+      "t": 202.8,
+      "end": 222.9,
+      "text": "entries to the same item and location at the same time they will lock each other due to the index so by adding this um extra sift bucket number we will avoid that or at least reduce the risk on the drill down just as before except that We"
+    },
+    {
+      "t": 222.9,
+      "end": 243,
+      "text": "additionally filter on the register number so either it's zero because it's from before 25 or it is the reg number we did this to avoid expensive upgrades and finally why do you care well you care if you work on Warehouse entries"
+    },
+    {
+      "t": 243,
+      "end": 263.2,
+      "text": "and you have an extension or an app that creates entries or relies on the way we assign numbers for instance we have an event that's called on in it something that we call after we have initiated the warehous entry but before we insert"
+    },
+    {
+      "t": 263.2,
+      "end": 279.6,
+      "text": "it and for instance you can see we pass on the current counter the entry number and we also pass on the warehouse regone so I suspect somebody uses it to insert extra Warehouse"
+    },
+    {
+      "t": 279.6,
+      "end": 299.9,
+      "text": "entries um and if you do then you might want to implement the same as we have done if for whatever reason it doesn't work for you you can go to the feature keys and disable this function so there is a feature key that we have enabled by default but you can turn it off and in the code"
+    },
+    {
+      "t": 299.9,
+      "end": 321,
+      "text": "there is a function in the warehouse setup that allows you to read it easily so you can you can see what we've done here and that's basically it um thank you so I I'll stop here with the new recipe or new pattern to implement thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.04,
+      "text": "[Music]"
+    },
+    {
+      "t": 7.23,
+      "text": "[Music]"
+    },
+    {
+      "t": 7.24,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 752
+}
