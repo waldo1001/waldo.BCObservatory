@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-rounding",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "c3c555764c12aeda57ebca1830a6e6b5d4c9f7c3",
       "words": 323,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:20.731Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007772
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:30.244Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:30.245Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:30.246Z",
+      "page": false
     }
   },
   "input_hash": "c3c555764c12aeda57ebca1830a6e6b5d4c9f7c3",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c3c555764c12aeda57ebca1830a6e6b5d4c9f7c3"
+  "output_hash": "adc41e28e513581f17964b196fb1a5f36ec3e79099f8f576ebc592001ca2b410"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-production-order-posting",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6d811ba4b2631dc9356647c96b2f5a9d247f7883",
       "words": 1109,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:20.728Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.007772
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:30.233Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:30.234Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:30.235Z",
+      "page": false
     }
   },
   "input_hash": "6d811ba4b2631dc9356647c96b2f5a9d247f7883",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6d811ba4b2631dc9356647c96b2f5a9d247f7883"
+  "output_hash": "da34056f173e1f6c689a2565479be92b536ad118d44e052c6931efb6647954c1"
 }

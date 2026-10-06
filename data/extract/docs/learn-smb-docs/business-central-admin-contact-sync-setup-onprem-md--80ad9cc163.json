@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-contact-sync-setup-onprem.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-contact-sync-setup-onprem",
+  "title": "Set up contact sync with Outlook for Business Central on-premises",
+  "blob": "d7539c43d5e73adc37f1c206e9831d1007a0c842",
+  "summary": "Set up contact sync with Outlook for Business Central on-premises describes OAuth 2.0 authentication setup for synchronizing contacts between Business Central and Exchange Online. This applies to version 27 and earlier; later versions use a different feature.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "contact sync",
+    "outlook",
+    "exchange online",
+    "oauth",
+    "on-premises",
+    "authentication"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Exchange Sync. Setup"
+    },
+    {
+      "type": "page",
+      "name": "Contact Sync. Setup"
+    }
+  ],
+  "features": [
+    "contact synchronization",
+    "oauth 2.0 authentication",
+    "exchange online integration",
+    "microsoft entra registration"
+  ],
+  "versions": [
+    "2025 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006308,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/walkthrough-setting-up-and-using-a-purchase-approval-workflow.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-setting-up-and-using-a-purchase-approval-workflow",
+  "title": "Set up and use a purchase approval workflow",
+  "blob": "4da13e1a05cadf3e1e9b053a84cb3669e17b5bf7",
+  "summary": "Purchase order approval workflows automate the process of approving purchase documents by setting up approvers, defining amount limits, and configuring notifications. This walkthrough demonstrates creating and testing a simple approval workflow with users and internal note notifications.",
+  "systems": [
+    "purchasing",
+    "administration"
+  ],
+  "topics": [
+    "workflows",
+    "approval",
+    "purchase orders",
+    "notifications",
+    "setup"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Approval User Setup"
+    },
+    {
+      "type": "page",
+      "name": "Notification Setup"
+    },
+    {
+      "type": "page",
+      "name": "Notification Schedule"
+    },
+    {
+      "type": "page",
+      "name": "Workflows"
+    },
+    {
+      "type": "page",
+      "name": "Workflow Templates"
+    },
+    {
+      "type": "page",
+      "name": "Workflow"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Orders"
+    },
+    {
+      "type": "page",
+      "name": "Requests to Approve"
+    }
+  ],
+  "features": [
+    "approval workflows",
+    "purchase order approvals",
+    "notification methods",
+    "approval users",
+    "workflow templates",
+    "internal notes"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006308,
+      "pages_in_call": 8
+    }
+  ]
+}

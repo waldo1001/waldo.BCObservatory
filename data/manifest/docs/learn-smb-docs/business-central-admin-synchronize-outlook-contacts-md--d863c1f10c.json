@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-synchronize-outlook-contacts",
   "published_at": "2026-03-16T07:40:31.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "234ed4031e46b54e55da5824606342db6e4275f0",
       "words": 645,
       "forms": 14
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:29.161Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.006308
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:30.268Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:30.268Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:30.282Z",
+      "page": false
     }
   },
   "input_hash": "234ed4031e46b54e55da5824606342db6e4275f0",
@@ -109,5 +128,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "234ed4031e46b54e55da5824606342db6e4275f0"
+  "output_hash": "eb0b8a023d0764ab85bc1e355204c80ed6efd5d3c16d06f3f7bf04dbb6f21950"
 }

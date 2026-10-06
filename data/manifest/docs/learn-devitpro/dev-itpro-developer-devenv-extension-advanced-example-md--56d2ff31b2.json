@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-advanced-example",
   "published_at": "2026-03-16T13:44:24.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5048c23322f1cc8ab26fe41d9ec98e99127d4306",
       "words": 1317,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:29.157Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 10,
+      "cost_usd": 0.006308
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:30.250Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:30.251Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:30.252Z",
+      "page": false
     }
   },
   "input_hash": "5048c23322f1cc8ab26fe41d9ec98e99127d4306",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5048c23322f1cc8ab26fe41d9ec98e99127d4306"
+  "output_hash": "7588a52b388e607acb0a62af2b6a9d88efad34b290fe946aed94f5a1c033be7c"
 }

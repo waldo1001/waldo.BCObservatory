@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/bi-account-categories.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/bi-account-categories",
+  "title": "Organize report data using account categories",
+  "blob": "c93aabeed0e01b104c1bb72ef4507081148379f9",
+  "summary": "Organize report data using account categories maps general ledger accounts to categories and subcategories for generating financial reports like balance sheets and income statements. This feature enables simplified financial reporting by categorizing accounts and generating reports with the M-prefix.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "account categories",
+    "financial reporting",
+    "chart of accounts",
+    "balance sheet",
+    "income statement",
+    "report generation"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "G/L Account Categories"
+    },
+    {
+      "type": "page",
+      "name": "G/L Account Card"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    }
+  ],
+  "features": [
+    "account categories",
+    "account subcategories",
+    "account mapping",
+    "financial report generation",
+    "change log auditing"
+  ],
+  "versions": [
+    "2024 release wave 1"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006308,
+      "pages_in_call": 8
+    }
+  ]
+}

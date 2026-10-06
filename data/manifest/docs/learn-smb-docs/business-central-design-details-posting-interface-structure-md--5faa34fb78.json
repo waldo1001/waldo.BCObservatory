@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-posting-interface-structure",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "7636fe5d41acb254bb8d3426a5e882b211199086",
       "words": 90,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:20.727Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.007772
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:30.230Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:30.231Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:30.232Z",
+      "page": false
     }
   },
   "input_hash": "7636fe5d41acb254bb8d3426a5e882b211199086",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7636fe5d41acb254bb8d3426a5e882b211199086"
+  "output_hash": "3fe2df7a69c54b0ab4f6ebaa783e63f57ba064882d544bd7fa068b8a69a1c0c7"
 }

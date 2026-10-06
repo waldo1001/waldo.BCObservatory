@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-revaluation",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "895e43050778843e08ae61adb8b9416d0980a7b3",
       "words": 1606,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:20.730Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.007772
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:30.242Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:30.243Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:30.243Z",
+      "page": false
     }
   },
   "input_hash": "895e43050778843e08ae61adb8b9416d0980a7b3",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "895e43050778843e08ae61adb8b9416d0980a7b3"
+  "output_hash": "d423829f54a7d4b69120f5458da51b58907c68123b5fc4ba4c9daf750d2f24ae"
 }

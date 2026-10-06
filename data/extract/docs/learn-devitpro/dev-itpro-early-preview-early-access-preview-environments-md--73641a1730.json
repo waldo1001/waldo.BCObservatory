@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/early-preview/early-access-preview-environments.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/early-preview/early-access-preview-environments",
+  "title": "Early access preview environments in Business Central",
+  "blob": "dd359b997bcc022162f20d59d150336087c8c1e4",
+  "summary": "Early access preview environments in Business Central allow testing new features before general availability. This article introduces Quality Management capabilities including automated quality inspections, test creation, and lot blocking for purchase receipts, production output, and warehouse operations.",
+  "systems": [
+    "manufacturing",
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "early access",
+    "preview",
+    "quality management",
+    "testing",
+    "sandbox",
+    "quality control"
+  ],
+  "objects": [],
+  "features": [
+    "quality management",
+    "automated test creation",
+    "manual test creation",
+    "scheduled test creation",
+    "template-based inspections",
+    "lot blocking",
+    "lot grading"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006308,
+      "pages_in_call": 8
+    }
+  ]
+}

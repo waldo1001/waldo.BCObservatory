@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-posting-interface-structure.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-posting-interface-structure",
+  "title": "Design details - Posting interface structure",
+  "blob": "7636fe5d41acb254bb8d3426a5e882b211199086",
+  "summary": "The posting interface structure defines global procedures for posting transactions through a generic interface for general journal lines and application processes.",
+  "systems": [
+    "finance",
+    "platform"
+  ],
+  "topics": [
+    "posting",
+    "interface",
+    "general ledger",
+    "application",
+    "codeunit"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "226"
+    },
+    {
+      "type": "codeunit",
+      "name": "227"
+    }
+  ],
+  "features": [
+    "posting interface",
+    "customer application posting",
+    "vendor application posting",
+    "unapply posting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007772,
+      "pages_in_call": 8
+    }
+  ]
+}

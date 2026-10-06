@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-revaluation.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-revaluation",
+  "title": "Design details - Revaluation",
+  "blob": "895e43050778843e08ae61adb8b9416d0980a7b3",
+  "summary": "Revaluation adjusts inventory values on any date to reflect accurate cost, including handling of expected costs, work in process inventory, and determination of affected inventory decreases.",
+  "systems": [
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "revaluation",
+    "costing",
+    "inventory value",
+    "expected cost",
+    "wip",
+    "cost adjustment"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Revaluation Journal"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    }
+  ],
+  "features": [
+    "revaluable quantity",
+    "standard costing",
+    "expected cost handling",
+    "wip inventory revaluation",
+    "average costing revaluation",
+    "revaluation variance",
+    "backdated revaluation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007772,
+      "pages_in_call": 8
+    }
+  ]
+}

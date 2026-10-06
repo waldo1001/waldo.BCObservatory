@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-production-order-posting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-production-order-posting",
+  "title": "Design details - Production order posting",
+  "blob": "6d811ba4b2631dc9356647c96b2f5a9d247f7883",
+  "summary": "Production order posting converts consumed components and machine time into produced items, tracking costs through raw materials, work in process, and finished goods accounts.",
+  "systems": [
+    "manufacturing",
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "production",
+    "posting",
+    "work in process",
+    "cost",
+    "manufacturing",
+    "inventory accounts"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "22"
+    }
+  ],
+  "features": [
+    "capacity posting",
+    "material consumption",
+    "standard costing",
+    "variance calculation",
+    "overhead allocation",
+    "work in process valuation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007772,
+      "pages_in_call": 8
+    }
+  ]
+}

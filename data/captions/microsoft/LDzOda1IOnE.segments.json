@@ -1,0 +1,198 @@
+{
+  "video_id": "LDzOda1IOnE",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 4.8,
+      "end": 25.7,
+      "text": "hello and welcome to this session on what's new in opening Visual Studio code from uh the web client it's a feature which is relevant both for developers as well as consultants and support teams for investigating and troubleshooting issues I'm Peter boring and with me today I have Blanca roblo and so"
+    },
+    {
+      "t": 25.7,
+      "end": 46.8,
+      "text": "tonas in this session we're going to talk about new abilities for creating launch configurations and opening extensions from the client as well as searching symbols uh once inside of visous Studio code for instance to investigate or to use it as a context for GitHub co-pilot but first let's have a small recap of the overall"
+    },
+    {
+      "t": 46.8,
+      "end": 61,
+      "text": "feature so some releases ago we introduced the powerful ability uh to invoke opening Vis Studio code from within the web client this removed manual work and lowered the barrier for connecting a visual studio code to an environment"
+    },
+    {
+      "t": 61,
+      "end": 78.6,
+      "text": "supporting increasing the developer productivity empowering tech servy consultants to investigate and do light troubleshooting uh with limited Visual Studio code knowledge and it also empowers support to troubleshoot faster and lower time to"
+    },
+    {
+      "t": 78.6,
+      "end": 99.1,
+      "text": "mitigate so what did we add to make it much easier to debug a specific environment we added an attach option in the help and support page back in 23 release Wave 2 this supports debugging in sandboxes as well as capturing snapshots and profile performance issues"
+    },
+    {
+      "t": 99.1,
+      "end": 119.3,
+      "text": "both in sandbox environments but also in production environments in that release we also added the ability to quickly go to source code uh if available for pages and table Fields directly from within the page inspector on a page then in the last release"
+    },
+    {
+      "t": 119.3,
+      "end": 139.9,
+      "text": "we added the the ability to open extension source code uh when it has a link to a git repo for instance as a result of building it in an algo for GitHub pipeline um and hopefully you're using this or another devop solution to automate and streamline your development and deployment life"
+    },
+    {
+      "t": 139.9,
+      "end": 159.9,
+      "text": "cycle if you want to know more about these features watch the launch event sessions that we did on uh this in uh 2023 relas Wave 2 and 2024 release Wave 2 um and we'll provide links uh at in the description for this video so what have"
+    },
+    {
+      "t": 159.9,
+      "end": 180,
+      "text": "we added in this release Blanca can you tell us more all right so thank you Peter now let's dive into the features that have been added in this release so we actually have three new capabilities to the open MBS code functionality and this come as a result from the feedback that we have received from J so please please"
+    },
+    {
+      "t": 180,
+      "end": 200,
+      "text": "keep that coming and we can make some new features um so these new three features are first of all we have added the ability to generate launch configurations that match your environment directly from H help and support and also extension management we have also added the ability to go to extension management"
+    },
+    {
+      "t": 200,
+      "end": 220.2,
+      "text": "select the extensions that you want and then formatted format them as dependencies so then you can use them across your projects or just share them and then along that same line we have H also add the ability to H download those selected dependencies directly on your vs code project so then you can have the symbols already"
+    },
+    {
+      "t": 220.2,
+      "end": 240.3,
+      "text": "on your vs Cod project with a single click so looking a bit closer into the generate launch configurations um action this is an action that again is in help and support and uh extension management and when you click on that then what it does is that on your vs code project it either creates or updates"
+    },
+    {
+      "t": 240.3,
+      "end": 260.5,
+      "text": "your launch configurations to match uh your environment so you don't have to edit any of the parameters and with this you can already if you have a sbox emance you have the configurations to publish and attach debugger since these are only available for sbox environments and then you can also have the configurations to download symbols and"
+    },
+    {
+      "t": 260.5,
+      "end": 280.5,
+      "text": "snapshot debug that's both for sandbox and production environments next up for the next capability if you go to extension management you can just select some extensions and you can just click on show and copy and what this will do is just create a um popup like this so you can have H"
+    },
+    {
+      "t": 280.5,
+      "end": 293.3,
+      "text": "your extensions and view them as dependences and you can just copy that use it on your project or just J share it with other developers and use it for example to travel shoot um your"
+    },
+    {
+      "t": 293.3,
+      "end": 313.6,
+      "text": "environment and then last of all we have also added the ability to uh once you select this extensions if you want them directly on your vs code project then you can just click on downloading vs code and this will download the extensions on your vco project so you can also get started to code against them and use them as references"
+    },
+    {
+      "t": 313.6,
+      "end": 333.8,
+      "text": "or you can just go ahead and explore what what are what is the code for those extensions like so that was it for the new capabilities now let's go ahead and see them in action yeah so this is my new preview envir M and I want to get started and develop an extension here on this new version"
+    },
+    {
+      "t": 333.8,
+      "end": 348.9,
+      "text": "or I just want to test my existing Solutions on the new environment so instead of having to go to vs code and updating my H configurations I can do that with a simple click if I go to help and"
+    },
+    {
+      "t": 348.9,
+      "end": 369,
+      "text": "support then I will find this new action generate launch configurations for this environment and I can just go ahead and click on that and this will open yes code and it will also generate in this case because I didn't have one already a new project from scratch and if I look into my launch configurations I"
+    },
+    {
+      "t": 369,
+      "end": 389.9,
+      "text": "see they're already already there they are autogenerated to match the parameters from my environment so I didn't have to do absolutely nothing here and I'm already I have a project already ready to for example publish or download symbols with these configurations so again that was super simple way to get started"
+    },
+    {
+      "t": 389.9,
+      "end": 402.2,
+      "text": "now let's say my project also depends on some other extensions and I want to code against them and I want to reference them so again in that in instead of going to my vs code project having to go to map."
+    },
+    {
+      "t": 402.2,
+      "end": 422.2,
+      "text": "Json and having to manually enter all this information about the extensions H I can just simply go to extension management I can just select the extensions that I want to use in my project so let's say for example this over here and then I can just go to"
+    },
+    {
+      "t": 422.2,
+      "end": 442.3,
+      "text": "developing this code get selected as dependencies let's say I want to show and copy in this case I already see this text um which I can just go ahead copy it and put it in my project or if I already want this in my project then I can just go ahead and click downloading vs code and again this will lead me back to my"
+    },
+    {
+      "t": 442.3,
+      "end": 462.4,
+      "text": "vs code project and then if I inspect my app. Json I see all of these dependencies have already been entered into my project and I also see that they are being downloaded um so if I look at my Al packages I already have the symbols for these extensions um so"
+    },
+    {
+      "t": 462.4,
+      "end": 482.4,
+      "text": "I can I can already get started and code against them or if I want I can also go ahead and explore what's in this extensions of course that's if the IP um of the partner permits that and luckily um we have also added the ability to explore the is in vs code and that's something"
+    },
+    {
+      "t": 482.4,
+      "end": 502.6,
+      "text": "that shis will show us next thank you very much blancco let's dive right into it uh I'm going to show you a feature we have added that lets you figure out exactly what is inside your dependencies in terms of um available tables um pages and so on so"
+    },
+    {
+      "t": 502.6,
+      "end": 522.6,
+      "text": "let's suppose I am developing a new uh extension and I want to use the number series functionality and I want to see what is available in terms of number series I can use the combination Control Plus T which is go to symbol in vs code and try to figure out uh what is available for"
+    },
+    {
+      "t": 522.6,
+      "end": 533.2,
+      "text": "number series what I just need to do here is to do number series and then you will see we get results from all of our dependencies"
+    },
+    {
+      "t": 533.2,
+      "end": 553.5,
+      "text": "on number series I can just navigate directly to the page for the number series and figure out exactly what is inside it through the symbols this works for symbols which are coming from your apps and Microsoft as well as long as the source code is available to"
+    },
+    {
+      "t": 553.5,
+      "end": 563.6,
+      "text": "debug now let's look at another very good use of this this can also be used in tandem with"
+    },
+    {
+      "t": 563.6,
+      "end": 578,
+      "text": "copilot let's try to use for example copilot to ask some questions about the customer table if I go to copilot and I ask it what is in the customer"
+    },
+    {
+      "t": 578.4,
+      "end": 599.9,
+      "text": "table then what I will see is copilot doesn't really know what is the customer table because it doesn't have it in context so symbols allows us to give this required context to answer this question what I can do is that uh I can go here and I can say what"
+    },
+    {
+      "t": 599.9,
+      "end": 612,
+      "text": "fields are in the and I can use this special keyword symbol and search for the customer"
+    },
+    {
+      "t": 612,
+      "end": 632,
+      "text": "table now by clicking here copilot gets access to the customer table and it is able to use it to inform the answer that is going to give us so now copilot has the available context to answer us exactly What fields are inside the customer"
+    },
+    {
+      "t": 632,
+      "end": 652.7,
+      "text": "table and it doesn't need access to the entire seource code in order to provide this even just having the symbols available will give it a much more informed answer rather than uh if you it didn't have the context at all so it is a very powerful tool to use to uh help you collaborate with copilot effectively"
+    },
+    {
+      "t": 652.7,
+      "end": 672.8,
+      "text": "thank you very much thank you sus so that's all thanks for joining this session and staying to the end uh I hope you enjoyed the improvements uh that we made to make it easier to open Vis Studio code from uh the web client whether to investigate troubleshoot or develop against one or more extensions uh in the environment so you can even"
+    },
+    {
+      "t": 672.8,
+      "end": 686,
+      "text": "access source code uh if the Publishers has granted you that via their um IP resource protection policy enjoy the rest of the launch sessions thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1797
+}

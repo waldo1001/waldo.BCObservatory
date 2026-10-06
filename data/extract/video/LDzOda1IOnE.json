@@ -1,0 +1,254 @@
+{
+  "video_id": "LDzOda1IOnE",
+  "item_id": "video/yt-microsoft/LDzOda1IOnE",
+  "title": "What's New: Opening Visual Studio Code from the Web Client (2025 release wave 1)",
+  "duration_s": 686,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "visual studio code",
+    "launch configurations",
+    "extension management",
+    "symbol search",
+    "copilot integration",
+    "debugging",
+    "development workflow",
+    "dependencies",
+    "source code access"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and session overview",
+      "t_start": 0,
+      "t_end": 46.8
+    },
+    {
+      "title": "Feature recap - opening Visual Studio Code from the web client",
+      "t_start": 46.8,
+      "t_end": 119.3
+    },
+    {
+      "title": "Extension source code and prior releases",
+      "t_start": 119.3,
+      "t_end": 159.9
+    },
+    {
+      "title": "Three new capabilities introduced",
+      "t_start": 159.9,
+      "t_end": 220.2
+    },
+    {
+      "title": "Detailed explanation of new features",
+      "t_start": 220.2,
+      "t_end": 313.6
+    },
+    {
+      "title": "Generating launch configurations demo",
+      "t_start": 313.6,
+      "t_end": 389.9
+    },
+    {
+      "title": "Extension dependencies and downloading symbols demo",
+      "t_start": 389.9,
+      "t_end": 482.4
+    },
+    {
+      "title": "Symbol search functionality demonstration",
+      "t_start": 482.4,
+      "t_end": 553.5
+    },
+    {
+      "title": "Symbol search with Copilot integration",
+      "t_start": 553.5,
+      "t_end": 652.7
+    },
+    {
+      "title": "Session conclusion",
+      "t_start": 652.7,
+      "t_end": 686
+    }
+  ],
+  "features": [
+    {
+      "name": "Generate launch configurations",
+      "description": "Ability to generate launch configurations that match the environment directly from Help and Support and Extension Management pages, automatically creating or updating configurations without manual parameter editing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 180,
+      "t_end": 260.5,
+      "is_demoed": true,
+      "caveats": [
+        "Sandbox-specific features (publish and attach debugger) are only available for sandbox environments",
+        "Download symbols and snapshot debug are available for both sandbox and production"
+      ],
+      "tags": [
+        "launch configurations",
+        "automation",
+        "environment setup",
+        "debugging"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Extension dependencies formatting",
+      "description": "Ability to select extensions in Extension Management and format them as dependencies that can be copied and shared across projects using Show and Copy functionality.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 260.5,
+      "t_end": 293.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dependencies",
+        "extension management",
+        "project sharing"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Download dependencies to VS Code",
+      "description": "Ability to download selected extension dependencies directly to a VS Code project with a single click, making symbols available immediately for coding against extensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 200,
+      "t_end": 313.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "symbols",
+        "dependencies",
+        "project setup",
+        "automation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Symbol search in VS Code",
+      "description": "Ability to search for and navigate to symbols from dependencies using Control+T (Go to Symbol) in VS Code, showing available tables, pages and other objects from apps and Microsoft dependencies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 482.4,
+      "t_end": 553.5,
+      "is_demoed": true,
+      "caveats": [
+        "Works only for symbols where source code is available"
+      ],
+      "tags": [
+        "symbol search",
+        "navigation",
+        "code exploration",
+        "dependencies"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Copilot integration with symbol search",
+      "description": "Ability to provide Copilot with symbol context by using special keyword to search for symbols, allowing Copilot to give more informed answers about table structures and fields without access to entire source code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 553.5,
+      "t_end": 652.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "symbol search",
+        "ai assistance",
+        "context"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "customer table",
+      "t": 563.6
+    },
+    {
+      "type": "page",
+      "name": "number series",
+      "t": 522.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Peter Boring",
+      "confidence": "high"
+    },
+    {
+      "name": "Blanca Roblo",
+      "confidence": "medium"
+    },
+    {
+      "name": "Jonas",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 46.8,
+      "text": "some releases ago we introduced the powerful ability uh to invoke opening Vis Studio code from within the web client this removed manual work",
+      "why_it_matters": "Establishes the foundational capability that prior releases introduced before this release's enhancements",
+      "check": "exact"
+    },
+    {
+      "t": 78.6,
+      "text": "we added an attach option in the help and support page back in 23 release Wave 2 this supports debugging in sandboxes as well",
+      "why_it_matters": "Documents specific prior capabilities and their scope of availability across environment types",
+      "check": "exact"
+    },
+    {
+      "t": 159.9,
+      "text": "we actually have three new capabilities to the open MBS code functionality and this come as a result from the feedback that we have",
+      "why_it_matters": "Clearly identifies this release's three new features and their customer-driven origin",
+      "check": "snapped"
+    },
+    {
+      "t": 220.2,
+      "text": "when you click on that then what it does is that on your vs code project it either creates or updates your launch configurations",
+      "why_it_matters": "Explains the key benefit of automatic configuration generation - eliminating manual parameter editing",
+      "check": "exact"
+    },
+    {
+      "t": 533.2,
+      "text": "this works for symbols which are coming from your apps and Microsoft as well as long as the source code is available to debug",
+      "why_it_matters": "Defines the scope and limitation of symbol search functionality across different symbol sources",
+      "check": "exact"
+    },
+    {
+      "t": 578.4,
+      "text": "copilot doesn't really know what is the customer table because it doesn't have it in context so symbols allows us to give this required",
+      "why_it_matters": "Demonstrates how symbol search improves Copilot effectiveness by providing necessary context",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021481
+    }
+  ]
+}

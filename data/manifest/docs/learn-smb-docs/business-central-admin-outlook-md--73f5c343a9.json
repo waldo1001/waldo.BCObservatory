@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-outlook",
   "published_at": "2026-03-16T11:16:38.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1492c3003f43b2e4bd3f89f7c55892dd6f1fe00a",
       "words": 1161,
       "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:29.158Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006308
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:30.254Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:30.254Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:30.255Z",
+      "page": false
     }
   },
   "input_hash": "1492c3003f43b2e4bd3f89f7c55892dd6f1fe00a",
@@ -51,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1492c3003f43b2e4bd3f89f7c55892dd6f1fe00a"
+  "output_hash": "216067efca26aa75362dba0ca0109b60c9bba63ec4d056ec5d484faeb934e2e4"
 }

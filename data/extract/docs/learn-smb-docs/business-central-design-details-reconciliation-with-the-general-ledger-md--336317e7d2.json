@@ -1,0 +1,44 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-reconciliation-with-the-general-ledger.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-reconciliation-with-the-general-ledger",
+  "title": "Design details - Reconciliation with the general ledger",
+  "blob": "91538c8dcc792ba7c45d80f504c8d5ccb8701e72",
+  "summary": "Reconciliation with the general ledger posts inventory values from item ledger entries to GL accounts, either manually through a batch job or automatically upon transaction posting.",
+  "systems": [
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "reconciliation",
+    "general ledger",
+    "inventory",
+    "posting",
+    "cost",
+    "accounts"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    }
+  ],
+  "features": [
+    "automatic cost posting",
+    "manual cost posting",
+    "general ledger entry creation",
+    "inventory account posting",
+    "dimension handling",
+    "cost allocation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007772,
+      "pages_in_call": 8
+    }
+  ]
+}

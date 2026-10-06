@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/finance-setup-finance.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-finance",
+  "title": "Set up financial processes",
+  "blob": "2fca05581790929c8a323dbf982619e5729b8309",
+  "summary": "Set up finance handles the core accounting configuration including chart of accounts, posting groups, payment terms, VAT, currencies, fiscal periods, and financial reporting. This page provides a comprehensive table of finance setup tasks and their related articles.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "setup",
+    "chart of accounts",
+    "posting groups",
+    "payment methods",
+    "financial reporting",
+    "accounting periods"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "G/L Account Card"
+    },
+    {
+      "type": "page",
+      "name": "G/L Account Categories"
+    }
+  ],
+  "features": [
+    "chart of accounts",
+    "posting groups",
+    "payment methods",
+    "payment terms",
+    "dimensions",
+    "VAT setup",
+    "currency configuration",
+    "invoice rounding",
+    "fiscal periods",
+    "financial reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006308,
+      "pages_in_call": 8
+    }
+  ]
+}

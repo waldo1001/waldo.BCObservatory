@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/walkthrough-setting-up-and-using-a-purchase-approval-workflow",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4da13e1a05cadf3e1e9b053a84cb3669e17b5bf7",
       "words": 1183,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:29.155Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 8,
+      "cost_usd": 0.006308
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:29.161Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:29.162Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:29.162Z",
+      "page": false
     }
   },
   "input_hash": "4da13e1a05cadf3e1e9b053a84cb3669e17b5bf7",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4da13e1a05cadf3e1e9b053a84cb3669e17b5bf7"
+  "output_hash": "2e57194c68d16aaec7349d99fb6401ad91078ca9c6881209a3742bdc4e955697"
 }

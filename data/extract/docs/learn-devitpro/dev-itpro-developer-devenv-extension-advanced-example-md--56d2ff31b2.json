@@ -1,0 +1,84 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-extension-advanced-example.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-advanced-example",
+  "title": "Building an Advanced Sample Extension",
+  "blob": "5048c23322f1cc8ab26fe41d9ec98e99127d4306",
+  "summary": "Building an advanced sample extension creates a Customer Rewards extension demonstrating tables, table extensions, pages, page extensions, codeunits, events, and testing. This walkthrough shows how to develop, test, and publish an extension that adds reward level tracking to customers.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "extensions",
+    "al",
+    "tables",
+    "pages",
+    "codeunits",
+    "events",
+    "testing",
+    "sample extension"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Reward Level"
+    },
+    {
+      "type": "table",
+      "name": "Activation Code Information"
+    },
+    {
+      "type": "table",
+      "name": "Customer Rewards Mgt. Setup"
+    },
+    {
+      "type": "table",
+      "name": "Customer (extension)"
+    },
+    {
+      "type": "page",
+      "name": "Customer Rewards Wizard"
+    },
+    {
+      "type": "page",
+      "name": "Rewards Level List"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card (extension)"
+    },
+    {
+      "type": "page",
+      "name": "Customer List (extension)"
+    },
+    {
+      "type": "codeunit",
+      "name": "Customer Rewards Install Logic"
+    },
+    {
+      "type": "codeunit",
+      "name": "Customer Rewards Ext. Mgt."
+    }
+  ],
+  "features": [
+    "table extensions",
+    "page extensions",
+    "events",
+    "assisted setup",
+    "activation codes",
+    "reward levels",
+    "context-sensitive help",
+    "testing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006308,
+      "pages_in_call": 8
+    }
+  ]
+}

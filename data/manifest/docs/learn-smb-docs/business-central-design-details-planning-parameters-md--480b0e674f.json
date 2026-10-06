@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-planning-parameters",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a08a93676fa43e5912017e83bec81bc40c11ef9c",
       "words": 1948,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:20.725Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 7,
+      "cost_usd": 0.007772
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:20.732Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:20.733Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:20.734Z",
+      "page": false
     }
   },
   "input_hash": "a08a93676fa43e5912017e83bec81bc40c11ef9c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a08a93676fa43e5912017e83bec81bc40c11ef9c"
+  "output_hash": "6923c17fb5cf19d784e8580d7a37b53f99bdca2bd1068ad4620a5296032bfdad"
 }

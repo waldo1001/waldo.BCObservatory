@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-rounding.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-rounding",
+  "title": "Design Details - Rounding",
+  "blob": "c3c555764c12aeda57ebca1830a6e6b5d4c9f7c3",
+  "summary": "Rounding details how rounding residuals from inventory valuation are calculated and recorded when cost is measured in different quantities than the inventory increase.",
+  "systems": [
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "rounding",
+    "costing",
+    "inventory",
+    "residual",
+    "cost adjustment"
+  ],
+  "objects": [],
+  "features": [
+    "rounding residual calculation",
+    "average costing rounding",
+    "inventory valuation rounding"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007772,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-planning-parameters.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-planning-parameters",
+  "title": "Design details - planning parameters",
+  "blob": "a08a93676fa43e5912017e83bec81bc40c11ef9c",
+  "summary": "Planning parameters control when and how much to reorder items, including reordering policies, safety stock, and optimization settings for managing inventory replenishment.",
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "planning",
+    "reordering",
+    "inventory",
+    "demand",
+    "supply",
+    "parameters",
+    "safety stock",
+    "bom"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Card"
+    },
+    {
+      "type": "page",
+      "name": "SKU"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    },
+    {
+      "type": "page",
+      "name": "Manufacturing Setup"
+    },
+    {
+      "type": "page",
+      "name": "Order Planning"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Location Card"
+    }
+  ],
+  "features": [
+    "reordering policies",
+    "reorder point",
+    "safety stock",
+    "time bucket",
+    "safety lead time",
+    "rescheduling period",
+    "lot accumulation period",
+    "dampener period",
+    "minimum order quantity",
+    "maximum order quantity",
+    "order multiple",
+    "manufacturing policy"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007772,
+      "pages_in_call": 8
+    }
+  ]
+}

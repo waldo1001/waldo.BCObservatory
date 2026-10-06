@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-reservation-order-tracking-and-action-messaging",
   "published_at": "2026-03-17T10:04:22.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4f394caa14781ab7f4de56ed11fd16c1c03191d9",
       "words": 3147,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:20.730Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.007772
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:30.239Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:30.240Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:30.241Z",
+      "page": false
     }
   },
   "input_hash": "4f394caa14781ab7f4de56ed11fd16c1c03191d9",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4f394caa14781ab7f4de56ed11fd16c1c03191d9"
+  "output_hash": "8e919a6edc28e975c9ed21818c18982d095ec695d6b8014a4b65150190943947"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/finance-setup-finance",
   "published_at": "2026-03-16T15:34:51.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2fca05581790929c8a323dbf982619e5729b8309",
       "words": 823,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T18:45:29.156Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.006308
+    },
+    "summarized": {
+      "at": "2026-10-06T18:45:30.247Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:45:30.248Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:45:30.249Z",
+      "page": false
     }
   },
   "input_hash": "2fca05581790929c8a323dbf982619e5729b8309",
@@ -45,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2fca05581790929c8a323dbf982619e5729b8309"
+  "output_hash": "890fa61c172e010a43f5f2b4c4f88406ae82fcf11bac0354f6ab6c628cbae1c1"
 }

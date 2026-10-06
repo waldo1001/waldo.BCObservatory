@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-posting-engine-structure.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-posting-engine-structure",
+  "title": "Design details - Posting engine structure",
+  "blob": "caf12f61310079a1b09ca194c56a3b3dcfb82ae4",
+  "summary": "The posting engine structure in codeunit 12 provides standard functions for preparing and inserting general ledger and VAT entries, and manages general ledger register creation.",
+  "systems": [
+    "finance",
+    "platform"
+  ],
+  "topics": [
+    "posting",
+    "general ledger",
+    "vat",
+    "engine",
+    "entries",
+    "codeunit"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "12"
+    },
+    {
+      "type": "table",
+      "name": "17"
+    },
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "VAT Entry"
+    }
+  ],
+  "features": [
+    "posting buffer",
+    "general ledger register creation",
+    "VAT entry handling",
+    "entry initialization",
+    "cost object linking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007772,
+      "pages_in_call": 8
+    }
+  ]
+}

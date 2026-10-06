@@ -1,0 +1,70 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/design-details-reservation-order-tracking-and-action-messaging.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-reservation-order-tracking-and-action-messaging",
+  "title": "Design details - reservation, order tracking, and action messaging | Microsoft Docs",
+  "blob": "4f394caa14781ab7f4de56ed11fd16c1c03191d9",
+  "summary": "Reservation, order tracking, and action messaging interrelated systems link demand and supply through user reservations or system-generated tracking to maintain order network balance.",
+  "systems": [
+    "manufacturing",
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "reservation",
+    "order tracking",
+    "action messaging",
+    "demand",
+    "supply",
+    "planning",
+    "item tracking"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Reservation Entry"
+    },
+    {
+      "type": "page",
+      "name": "Reservation"
+    },
+    {
+      "type": "page",
+      "name": "Reservation Entries"
+    },
+    {
+      "type": "table",
+      "name": "27"
+    },
+    {
+      "type": "page",
+      "name": "Untracked Planning Elements"
+    },
+    {
+      "type": "page",
+      "name": "Planning Worksheets"
+    }
+  ],
+  "features": [
+    "reservation system",
+    "order tracking",
+    "action messaging",
+    "order network",
+    "item availability",
+    "dynamic links",
+    "manual reservation",
+    "automatic reservation",
+    "surplus detection",
+    "late binding"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007772,
+      "pages_in_call": 8
+    }
+  ]
+}
