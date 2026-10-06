@@ -25,16 +25,30 @@ export { objectSystem };
 
 export const TOP_OBJECTS = 300;
 export const LAYOUT = "spiral+d3-force@seed:42";
-/** World units per design unit: the handoff's spiral (r = 85 + 30k) scaled so neighbouring systems keep ~200 apart. */
-const SPIRAL_SCALE = 4.5;
+/** World units per design unit: the handoff's spiral (r = 85 + 30k) scaled so the open clusters of the inner arms keep apart. */
+const SPIRAL_SCALE = 5.5;
 const TICKS = 300;
 
-export interface GNode extends SimulationNodeDatum { id: string; type: string; label: string; tier: string; group: string; weight: number; url: string; lit_at: string | null; x?: number; y?: number }
+export interface GNode extends SimulationNodeDatum {
+  id: string; type: string; label: string; tier: string; group: string; weight: number; url: string; lit_at: string | null; x?: number; y?: number;
+  /** Evidence items on a hub (Learn pages, videos, posts): the star's brightness. */
+  ev?: number;
+  /** Share of that evidence from community sources (0..1): community-heavy stars get a ring. */
+  cs?: number;
+  /** Objects: the BC majors they changed in (the galaxy's version lens). */
+  cv?: string[];
+}
 export interface GEdge { s: string; t: string; type: string; w?: number }
 
 const h32 = (s: string) => createHash("sha256").update(s).digest().readUInt32BE(0);
 
-export interface Graph { systems: { id: string; label: string; x: number; y: number; r: number }[]; nodes: GNode[]; edges: GEdge[] }
+export interface Graph {
+  systems: { id: string; label: string; x: number; y: number; r: number }[]; nodes: GNode[]; edges: GEdge[];
+  /** Per source (blog or channel): the hubs its videos and posts link to, i.e. where it touches the galaxy. */
+  touches: Record<string, string[]>;
+  /** Per source: how many of its items fall in each galaxy system. */
+  reach: Record<string, Record<string, number>>;
+}
 
 /** Read every content page and build nodes and edges (no layout yet). */
 export function buildGraph(contentDir: string, siteBase: string): Graph {
@@ -58,9 +72,19 @@ export function buildGraph(contentDir: string, siteBase: string): Graph {
     pages.push({ id: fm.id, fm, path: relative(contentDir, f).replace(/\.md$/, "") });
   }
   const sources = new Map(loadSources().map((s) => [s.id, s]));
+  // AL objects by exact type and name ("table Customer"): videos and posts name them that way. Exact only, and a name
+  // two objects of one type share (an object moved between apps) is left out rather than guessed.
+  const objectByName = new Map<string, string | null>();
+  for (const { id, fm } of pages) {
+    if (fm.type !== "object" || !fm.object_type || !fm.name) continue;
+    const k = `${fm.object_type} ${String(fm.name)}`.toLowerCase();
+    objectByName.set(k, objectByName.has(k) && objectByName.get(k) !== id ? null : id);
+  }
+  const mentioned = (fm: Record<string, any>) => [...new Set([...(fm.objects_mentioned ?? []), ...(fm.code_objects_mentioned ?? [])]
+    .map((m: unknown) => objectByName.get(String(m).toLowerCase().trim())).filter((x): x is string => !!x))];
   for (const { id, fm, path } of pages) {
     if (fm.type === "digest") continue;
-    const group = fm.type === "object" ? objectSystem(fm.namespace) : fm.type === "localization" ? "localization" : sys(fm.system);
+    const group = fm.type === "object" ? objectSystem(fm.namespace) : fm.type === "localization" ? "localization" : fm.type === "source" ? "sources" : sys(fm.system);
     const date = fm.published_at ?? fm.ga_date ?? null;
     // url relative to the site root (siteBase prefixes it in the browser): keeps the summary small
     add({ id, type: fm.type, label: String(fm.title ?? id), tier: fm.tier === "community" ? "community" : fm.tier === "mixed" ? "mixed" : "official", group, url: `${path}/`, lit_at: date ? String(date).slice(0, 10) : null });
@@ -72,6 +96,7 @@ export function buildGraph(contentDir: string, siteBase: string): Graph {
     // a localization's objects are the same pairs as the objects' localizations: one edge type for both directions
     for (const o of L.objects ?? []) edge(id, o, fm.type === "object" ? "extends" : fm.type === "localization" ? "localizes" : "mentions");
     for (const p of L.posts ?? []) edge(id, p, "discusses");
+    if (fm.type === "video" || fm.type === "post") for (const o of mentioned(fm)) edge(id, o, "mentions");
     const src = fm.type === "post" ? fm.source_id : fm.type === "video" ? fm.channel : null;
     if (src) {
       const s = sources.get(src);
@@ -83,10 +108,33 @@ export function buildGraph(contentDir: string, siteBase: string): Graph {
   const live = [...edges.values()].filter((e) => nodes.has(e.s) && nodes.has(e.t));
   for (const e of live) { nodes.get(e.s)!.weight += e.w ?? 1; nodes.get(e.t)!.weight += e.w ?? 1; }
   for (const { id, fm } of pages) { const n = nodes.get(id); if (n) n.weight += (fm.links?.learn?.length ?? 0) * 0.5; }
+  // evidence per hub (Learn pages + linked videos and posts) and its community share; object versions
+  const touches: Record<string, Set<string>> = {};
+  const reach: Record<string, Record<string, number>> = {};
+  for (const { id, fm } of pages) {
+    const n = nodes.get(id);
+    if (!n) continue;
+    const L = fm.links ?? {};
+    if (["topic", "feature", "object", "localization"].includes(fm.type)) {
+      const media = [...(L.videos ?? []), ...(L.posts ?? [])].map((x: string) => nodes.get(x)).filter(Boolean) as GNode[];
+      const ev = (L.learn?.length ?? 0) + media.length;
+      if (ev) { n.ev = ev; n.cs = Math.round((media.filter((m) => m.tier === "community").length / ev) * 100) / 100; }
+      if (fm.type === "object" && fm.changed_in?.length) n.cv = fm.changed_in.map(String);
+    }
+    const src = fm.type === "post" ? fm.source_id : fm.type === "video" ? fm.channel : null;
+    if (src) {
+      for (const h of [...(L.topics ?? []), ...(L.features ?? []), ...(L.objects ?? []), ...mentioned(fm)]) (touches[`source/${src}`] ??= new Set()).add(h);
+      for (const sy of new Set([fm.system, ...(fm.systems ?? [])].filter((x) => systemIds.has(x)))) { const r = (reach[`source/${src}`] ??= {}); r[sy] = (r[sy] ?? 0) + 1; }
+    }
+  }
   const systems = taxonomy().systems.map((s) => ({ id: s.id, label: s.label, x: 0, y: 0, r: 0 }));
   if (![...systems].some((s) => s.id === "localization")) systems.push({ id: "localization", label: "Localizations", x: 0, y: 0, r: 0 });
   systems.push({ id: "sources", label: "Sources", x: 0, y: 0, r: 0 });
-  return { systems, nodes: [...nodes.values()].sort((a, b) => a.id.localeCompare(b.id)), edges: live.sort((a, b) => `${a.s}|${a.t}|${a.type}`.localeCompare(`${b.s}|${b.t}|${b.type}`)) };
+  return {
+    systems, nodes: [...nodes.values()].sort((a, b) => a.id.localeCompare(b.id)), edges: live.sort((a, b) => `${a.s}|${a.t}|${a.type}`.localeCompare(`${b.s}|${b.t}|${b.type}`)),
+    touches: Object.fromEntries(Object.entries(touches).sort(([a], [b]) => a.localeCompare(b)).map(([k, v]) => [k, [...v].filter((h) => nodes.has(h)).sort()])),
+    reach: Object.fromEntries(Object.entries(reach).sort(([a], [b]) => a.localeCompare(b)).map(([k, v]) => [k, Object.fromEntries(Object.entries(v).sort(([a], [b]) => a.localeCompare(b)))])),
+  };
 }
 
 /** The summary: hubs and sources in full, the TOP_OBJECTS most connected objects; videos and posts stay out. */
@@ -162,7 +210,9 @@ export function renderGraph(contentDir: string, dataDir: string, siteBase = ""):
   const summaryNodesList = g.nodes.filter((n) => keep.has(n.id)).map(strip).map(slim);
   const summaryEdges = g.edges.filter((e) => keep.has(e.s) && keep.has(e.t)).map(({ w, ...e }) => (w && w > 1 ? { ...e, w } : e));
   // version 1 of schemas/graph.json; generated_at is fixed to the input so an unchanged graph is not rewritten
-  const summary = { version: 1, generated_at: createHash("sha256").update(JSON.stringify([summaryNodesList, summaryEdges])).digest("hex").slice(0, 16), layout: LAYOUT, systems: g.systems.filter((s) => s.r > 0), nodes: summaryNodesList, edges: summaryEdges };
+  // where each source touches the galaxy, limited to stars the summary draws
+  const touches = Object.fromEntries(Object.entries(g.touches).map(([k, v]) => [k, v.filter((h) => keep.has(h))]).filter(([, v]) => v.length));
+  const summary = { version: 1, generated_at: createHash("sha256").update(JSON.stringify([summaryNodesList, summaryEdges, touches, g.reach])).digest("hex").slice(0, 16), layout: LAYOUT, systems: g.systems.filter((s) => s.r > 0), nodes: summaryNodesList, edges: summaryEdges, touches, reach: g.reach };
   const summaryText = `${JSON.stringify(summary)}\n`;
   if (writeIfChanged(resolve(dir, "summary.json"), summaryText)) written++;
   if (writeIfChanged(resolve(dir, "full.jsonl"), g.edges.map((e) => JSON.stringify(e)).join("\n") + "\n")) written++;

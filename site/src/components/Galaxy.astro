@@ -1,23 +1,31 @@
 ---
 /**
- * The galaxy (HANDOFF 5). `compact`: the home band, where a click opens the full galaxy instead of zooming in place.
- * The canvas is drawn by scripts/galaxy.ts from graph/summary.json.
+ * The galaxy (HANDOFF 5, PLAN 4.7). The canvas and panel are driven by scripts/galaxy.ts from graph/summary.json.
+ * Toolbar: lens (type, tier, version, localization, source), zoom, list panel, full screen.
  */
-interface Props { compact?: boolean; height?: string; label?: string }
-const { compact = false, height = "min(78vh, 860px)", label = "Galaxy map of Business Central" } = Astro.props;
+interface Props { height?: string; label?: string }
+const { height = "min(80vh, 880px)", label = "Galaxy map of Business Central" } = Astro.props;
 const base = import.meta.env.BASE_URL;
 ---
-<section class:list={["galaxy", { compact }]} data-base={base} data-compact={String(compact)} style={`--g-h: ${height}`} aria-label={label} tabindex="-1">
+<section class="galaxy" data-base={base} style={`--g-h: ${height}`} aria-label={label} tabindex="-1">
   <canvas aria-hidden="true"></canvas>
   <div class="g-labels"></div>
-  <div class="g-tip" hidden></div>
   <nav class="g-crumbs" aria-label="Galaxy position"></nav>
+  <div class="g-tools">
+    <label class="skip" for="g-lens">Lens: light up where something touches the galaxy</label>
+    <select id="g-lens" data-g-lens><option value="">Lens: none</option></select>
+    <button type="button" class="icon-btn" data-g-out aria-label="Zoom out" title="Zoom out (-)">−</button>
+    <button type="button" class="icon-btn" data-g-in aria-label="Zoom in" title="Zoom in (+)">+</button>
+    <button type="button" class="g-btn" data-g-list aria-expanded="false" aria-controls="g-panel">Show list</button>
+    <button type="button" class="g-btn" data-g-full title="Full screen (F)">Full screen</button>
+  </div>
   <div class="g-nav">
     <button type="button" class="icon-btn" data-g-prev hidden aria-label="Previous system">←</button>
     <button type="button" class="icon-btn" data-g-next hidden aria-label="Next system">→</button>
   </div>
   <p class="g-level mono-meta" aria-live="polite"></p>
-  <aside class="g-panel" hidden aria-label="Galaxy details"></aside>
+  <aside class="g-panel" id="g-panel" hidden aria-label="Galaxy list"><div class="g-panel-body"></div></aside>
+  <div class="g-fade" hidden></div>
   <noscript><p class="g-noscript">The galaxy needs JavaScript. Browse by section instead: <a href={`${base}topics/`}>topics</a>, <a href={`${base}objects/`}>AL objects</a>, <a href={`${base}features/`}>roadmap</a>.</p></noscript>
 </section>
 <script>
@@ -25,30 +33,35 @@ const base = import.meta.env.BASE_URL;
   for (const el of document.querySelectorAll<HTMLElement>("section.galaxy")) mountGalaxy(el);
 </script>
 <style>
-  .galaxy { position: relative; height: var(--g-h); overflow: hidden; background: var(--g-bg); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); outline: none; }
-  .galaxy canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+  .galaxy { position: relative; height: var(--g-h); overflow: hidden; background: var(--g-bg); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); outline: none; touch-action: none; }
+  .galaxy:fullscreen, .galaxy.g-full { height: 100vh; border: 0; }
+  .galaxy.g-full { position: fixed; inset: 0; z-index: 50; }
+  .galaxy canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: grab; }
   .g-labels { position: absolute; inset: 0; pointer-events: none; }
   .galaxy :global(.g-sys) {
-    position: absolute; left: 0; top: 0; pointer-events: auto; cursor: pointer; white-space: nowrap;
-    display: inline-flex; align-items: center; gap: 6px; padding: 4px 8px; min-height: 28px;
-    font: 600 14px var(--font-ui); color: var(--dot); background: none;
-    border: 1px solid transparent; border-radius: var(--r-badge); transition: opacity 600ms;
+    position: absolute; left: 0; top: 0; pointer-events: auto; cursor: pointer; white-space: nowrap; min-height: 26px; padding: 3px 6px;
+    font: 600 14px var(--font-ui); color: var(--dot); background: none; border: 1px solid transparent; border-radius: var(--r-badge); transition: opacity 600ms;
   }
-  .galaxy :global(.g-sys:hover), .galaxy :global(.g-sys:focus-visible) { border-color: var(--line-strong); }
-  .galaxy :global(.g-sys.dim) { opacity: .4; }
-  .galaxy :global(.g-star-label), .g-tip {
-    position: absolute; left: 0; top: 0; pointer-events: none; white-space: nowrap; max-width: 260px; overflow: hidden; text-overflow: ellipsis;
-    font: 600 12px var(--font-ui); color: var(--text); background: color-mix(in srgb, var(--g-bg) 80%, transparent); padding: 2px 6px; border-radius: var(--r-badge);
-  }
-  .g-crumbs { position: absolute; left: 16px; top: 14px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 14px; color: var(--muted); max-width: calc(100% - 32px); }
+  .galaxy :global(.g-sys:hover), .galaxy :global(.g-sys:focus-visible) { border-color: var(--line-strong); background: color-mix(in srgb, var(--g-bg) 70%, transparent); }
+  .galaxy :global(.g-sys.dim) { opacity: .35; }
+  .g-crumbs { position: absolute; left: 16px; top: 14px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 14px; color: var(--muted); max-width: calc(100% - 32px); pointer-events: none; }
+  .g-crumbs :global(*) { pointer-events: auto; }
   .g-crumbs :global(button) { background: none; border: 0; padding: 4px 0; color: var(--link); font: inherit; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
   .g-crumbs :global([aria-current]) { color: var(--text); }
+  .g-tools { position: absolute; right: 16px; top: 10px; display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; max-width: calc(100% - 32px); z-index: 2; }
+  .galaxy:global(.g-panel-open) .g-tools { right: 396px; }
+  .g-tools select, .g-btn, .g-tools .icon-btn {
+    min-height: 36px; background: color-mix(in srgb, var(--surface) 92%, transparent); color: var(--text); border: 1px solid var(--line-strong);
+    border-radius: var(--r-card); font: 500 13px var(--font-ui); padding: 0 10px; cursor: pointer;
+  }
+  .g-tools select { max-width: 240px; }
+  .g-btn:hover, .g-tools .icon-btn:hover { border-color: var(--text-2); }
   .g-nav { position: absolute; left: 16px; bottom: 14px; display: flex; gap: 8px; }
   .g-nav .icon-btn { background: var(--surface); }
-  .g-level { position: absolute; left: 50%; bottom: 18px; transform: translateX(-50%); margin: 0; }
+  .g-level { position: absolute; left: 50%; bottom: 18px; transform: translateX(-50%); margin: 0; pointer-events: none; }
   .g-panel {
-    position: absolute; right: 0; top: 0; bottom: 0; width: 380px; max-width: 100%; overflow-y: auto; padding: 56px 20px 20px;
-    background: color-mix(in srgb, var(--surface) 94%, transparent); border-left: 1px solid var(--line);
+    position: absolute; right: 0; top: 0; bottom: 0; width: 380px; max-width: 100%; overflow-y: auto; padding: 20px;
+    background: color-mix(in srgb, var(--surface) 95%, transparent); border-left: 1px solid var(--line);
     animation: g-slide var(--t-panel) var(--ease-fly);
   }
   @keyframes g-slide { from { transform: translateX(40px); opacity: 0; } }
@@ -57,17 +70,21 @@ const base = import.meta.env.BASE_URL;
   .g-panel :global(.g-kicker) { font: 500 12px var(--font-mono); margin: 0; }
   .g-panel :global(.g-meta) { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
   .g-panel :global(.g-list) { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
-  .g-panel :global(.g-list button) {
-    width: 100%; display: grid; grid-template-columns: 10px 1fr auto; gap: 8px; align-items: center; text-align: left; min-height: 36px;
+  .g-panel :global(.g-list button), .g-panel :global(.g-list a) {
+    width: 100%; display: grid; grid-template-columns: 10px 1fr auto; gap: 8px; align-items: center; text-align: left; min-height: 36px; text-decoration: none;
     background: none; border: 0; border-radius: var(--r-card); padding: 6px 8px; color: var(--text); font: 400 14px var(--font-ui); cursor: pointer;
   }
-  .g-panel :global(.g-list button:hover) { background: var(--surface-raised); }
+  .g-panel :global(.g-list button:hover), .g-panel :global(.g-list button:focus-visible), .g-panel :global(.g-list a:hover) { background: var(--surface-raised); }
   .g-panel :global(.g-list small) { color: var(--muted); font: 400 11px var(--font-mono); }
   .g-panel :global(.g-dot) { width: 8px; height: 8px; border-radius: 50%; background: var(--dot); }
-  .compact .g-panel, .compact .g-nav, .compact .g-level, .compact .g-crumbs { display: none; }
+  .g-fade { position: absolute; inset: 0; background: var(--bg); opacity: 0; transition: opacity 700ms ease-in 300ms; pointer-events: none; }
+  .g-fade:global(.on) { opacity: 1; }
   .g-noscript { position: absolute; inset: auto 16px 16px; }
   @media (max-width: 720px) {
-    .g-panel { top: auto; height: 55%; width: 100%; border-left: 0; border-top: 1px solid var(--line); padding-top: 16px; }
+    .g-panel { top: auto; height: 55%; width: 100%; border-left: 0; border-top: 1px solid var(--line); }
+    .galaxy:global(.g-panel-open) .g-tools { right: 16px; }
+    .g-tools { top: 44px; }
+    .g-tools select { max-width: 150px; }
   }
-  @media (prefers-reduced-motion: reduce) { .g-panel { animation: none; } }
+  @media (prefers-reduced-motion: reduce) { .g-panel { animation: none; } .g-fade { transition: none; } }
 </style>

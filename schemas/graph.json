@@ -19,10 +19,15 @@
           "label": { "type": "string" }, "tier": { "enum": ["official", "community", "mixed"] },
           "group": { "type": "string", "description": "galaxy system id" }, "weight": { "type": "number" },
           "url": { "type": "string", "description": "absent in the summary when it is the page path of the id: <type>s/<rest>/" }, "x": { "type": "number" }, "y": { "type": "number" },
-          "lit_at": { "type": ["string", "null"], "description": "last content date; drives the newly-lit effect" }
+          "lit_at": { "type": ["string", "null"], "description": "last content date; drives the newly-lit effect" },
+          "ev": { "type": "number", "description": "evidence items on a hub (Learn pages, videos, posts): brightness" },
+          "cs": { "type": "number", "minimum": 0, "maximum": 1, "description": "community share of that evidence" },
+          "cv": { "type": "array", "items": { "type": "string" }, "description": "objects: BC majors they changed in" }
         }
       }
     },
+    "reach": { "type": "object", "additionalProperties": { "type": "object", "additionalProperties": { "type": "number" } }, "description": "per source node: items per galaxy system" },
+    "touches": { "type": "object", "additionalProperties": { "type": "array", "items": { "type": "string" } }, "description": "per source node: the summary hubs its videos and posts link to" },
     "edges": {
       "type": "array",
       "items": {
