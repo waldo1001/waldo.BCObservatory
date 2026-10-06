@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/eu-sales-list-in-germany.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/eu-sales-list-in-germany",
+  "title": "EU Sales List in Germany",
+  "blob": "d732ac61b274268ca511cce163d6849a880aa6ef",
+  "summary": "German companies submit EU sales lists through the BZSt Online Portal using ELMA5 interface with mandatory authentication by BZSt number and private key for VAT reporting compliance.",
+  "systems": [
+    "reporting",
+    "localization"
+  ],
+  "topics": [
+    "eu sales list",
+    "vat reporting",
+    "germany localization",
+    "tax compliance",
+    "elma5"
+  ],
+  "objects": [],
+  "features": [
+    "ELMA5 interface",
+    "BZSt authentication",
+    "VAT-VIES reports",
+    "interactive upload",
+    "automatic transfer"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002545,
+      "pages_in_call": 8
+    }
+  ]
+}

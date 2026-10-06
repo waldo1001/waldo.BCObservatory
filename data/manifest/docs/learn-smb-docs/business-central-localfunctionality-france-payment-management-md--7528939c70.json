@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/payment-management",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5104f61e2896871cc245fca1a96f34431ef97bbe",
       "words": 360,
       "forms": 18
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:17.747Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002545
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:17.762Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:17.763Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:17.764Z",
+      "page": false
     }
   },
   "input_hash": "5104f61e2896871cc245fca1a96f34431ef97bbe",
@@ -136,5 +155,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5104f61e2896871cc245fca1a96f34431ef97bbe"
+  "output_hash": "0ae9c4b079a63e779e4dc3224e9e6a5a4bce57586d03f6f33fac144fdcd212ae"
 }

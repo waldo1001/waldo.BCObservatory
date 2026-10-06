@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-specify-posting-periods",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d710f81289348d2e1d3c30a301316faeaf773391",
       "words": 187,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:17.745Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002545
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:17.754Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:17.755Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:17.756Z",
+      "page": false
     }
   },
   "input_hash": "d710f81289348d2e1d3c30a301316faeaf773391",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d710f81289348d2e1d3c30a301316faeaf773391"
+  "output_hash": "ef14c626e0cc3bab47b4e525c4a64759ba9f27e8c6a2af2a1de7d53e2fb7e026"
 }

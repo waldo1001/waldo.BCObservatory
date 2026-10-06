@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports",
+  "title": "Include Company Registration Numbers on Sales and Purchase Reports",
+  "blob": "262607c1d16d3994ebb2b264cc7277a03b08d021",
+  "summary": "Include company registration numbers on sales and purchase reports by entering registration numbers in Company Information for sales reports or in Vendor records for purchase reports.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "registration numbers",
+    "sales reports",
+    "purchase reports",
+    "germany",
+    "reporting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Vendors"
+    }
+  ],
+  "features": [
+    "company registration numbers",
+    "sales reports",
+    "purchase reports",
+    "vendor registration numbers"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002358,
+      "pages_in_call": 8
+    }
+  ]
+}

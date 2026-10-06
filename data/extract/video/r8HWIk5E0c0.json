@@ -1,0 +1,228 @@
+{
+  "video_id": "r8HWIk5E0c0",
+  "item_id": "video/yt-microsoft/r8HWIk5E0c0",
+  "title": "Comparing Correcting and Reversing Entries between Dynamics SL and Dynamics 365 Business Central",
+  "duration_s": 185,
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "correcting entries",
+    "reversing entries",
+    "journal transactions",
+    "general ledger",
+    "dimensions",
+    "posting"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and SL correcting entries options",
+      "t_start": 0,
+      "t_end": 26.8
+    },
+    {
+      "title": "Creating reversing entries in Dynamics SL",
+      "t_start": 26.8,
+      "t_end": 68
+    },
+    {
+      "title": "Posting the correcting entry in SL",
+      "t_start": 68,
+      "t_end": 74.6
+    },
+    {
+      "title": "Reversing entries in Business Central",
+      "t_start": 74.6,
+      "t_end": 115.5
+    },
+    {
+      "title": "Correcting dimensions in Business Central",
+      "t_start": 115.5,
+      "t_end": 150.7
+    },
+    {
+      "title": "Summary and resources",
+      "t_start": 150.7,
+      "t_end": 185
+    }
+  ],
+  "features": [
+    {
+      "name": "Reverse journal entry",
+      "description": "Capability to reverse a previously posted journal entry in Dynamics SL by selecting the reverse option which creates an unposted reversal batch that completely reverses the original posted batch with debits and credits swapped.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 26.8,
+      "t_end": 68,
+      "is_demoed": true,
+      "caveats": [
+        "Only available in Dynamics SL within the journal transactions workflow"
+      ],
+      "tags": [
+        "reversing",
+        "journal",
+        "posted entry"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Reverse and create correcting entry",
+      "description": "Option in Dynamics SL to reverse a journal entry and simultaneously create a correcting entry rather than just reversing or manually copying.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 26.8,
+      "t_end": 47.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "reversing",
+        "correcting entry",
+        "journal"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Copy entry for manual correction",
+      "description": "Option in Dynamics SL to copy a journal entry to make manual changes rather than reversing it.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 26.8,
+      "t_end": 47.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "journal",
+        "manual correction"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Reverse journal entry in Business Central",
+      "description": "Capability to reverse a posted journal entry in Business Central through the general ledger entry window, where the system defaults the journal entry information and reverses the amounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 74.6,
+      "t_end": 115.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reversing",
+        "general ledger",
+        "posted entry"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Correct dimension in Business Central",
+      "description": "Functionality to correct or add a dimension value to a posted journal entry without reversing the entire transaction, including the ability to specify the new dimension value and add missing dimensions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 115.5,
+      "t_end": 170.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dimension correction",
+        "general ledger",
+        "posted entry"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Change dimension process",
+      "description": "Process in Business Central that allows changing or adding dimension values to journal entries with the ability to enter a description for the change and refresh to see results.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 150.7,
+      "t_end": 170.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dimension",
+        "change process",
+        "journal entry"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Journal transactions",
+      "t": 0.6
+    },
+    {
+      "type": "page",
+      "name": "General ledger entry",
+      "t": 74.6
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 0.6,
+      "text": "we're going to look at creating correcting entries in Dynamics and compare that to the experience of creating reversing entries and correcting dimensions in",
+      "why_it_matters": "This establishes the main comparison being made between the two systems.",
+      "check": "exact"
+    },
+    {
+      "t": 26.8,
+      "text": "there are three options to select reverse the journal entry or reverse and create a correcting entry or to just copy the entry to",
+      "why_it_matters": "Documents the three distinct approaches available in Dynamics SL for correcting posted entries.",
+      "check": "exact"
+    },
+    {
+      "t": 47.9,
+      "text": "the system has pulled in the account and amounts and reversed the debits and credits",
+      "why_it_matters": "Explains how the reversal mechanism works automatically in SL.",
+      "check": "exact"
+    },
+    {
+      "t": 100.9,
+      "text": "it has reversed the amount posted in the original journal entry",
+      "why_it_matters": "Confirms the reversal result in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 135.5,
+      "text": "instead of choosing to reverse the transaction we'll select to correct the dimension",
+      "why_it_matters": "Highlights the key difference in Business Central - ability to correct without full reversal.",
+      "check": "exact"
+    },
+    {
+      "t": 170.7,
+      "text": "reversing and correcting Dimensions is a quick and simple process in Business Central",
+      "why_it_matters": "Summarizes the ease and efficiency of dimension correction in Business Central.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.013242999999999998
+    }
+  ]
+}

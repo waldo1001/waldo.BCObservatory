@@ -1,0 +1,68 @@
+{
+  "video_id": "r8HWIk5E0c0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0.6,
+      "end": 20.8,
+      "text": "in this video we're going to look at creating correcting entries in Dynamics and compare that to the experience of creating reversing entries and correcting dimensions in business Central to begin let's go into SL navigate to general ledger Journal transactions in journal transactions PV and pull"
+    },
+    {
+      "t": 20.8,
+      "end": 26.8,
+      "text": "in a previously posted transaction to"
+    },
+    {
+      "t": 26.8,
+      "end": 47.9,
+      "text": "correct select correct Journal transaction there are three options to select reverse the journal entry or reverse and create a correcting entry or to just copy the entry to make manual changes to that entry for our purposes we'll select the first option to only reverse the journal"
+    },
+    {
+      "t": 47.9,
+      "end": 68,
+      "text": "entry okay the warning message noting the new reversal batch created now there is an unposted reversal batch that completely reverses the original posted batch I can see that the system has pulled in the account and amounts and reversed the debits and"
+    },
+    {
+      "t": 68,
+      "end": 74.6,
+      "text": "credits now we can post the correcting entry by running post"
+    },
+    {
+      "t": 74.6,
+      "end": 94.7,
+      "text": "transactions let's look at how we can reverse a posted journal entry in business Central first I'll select the general ledger entry window that I have pinned to my dashboard for easy access once in the general ledger entry window I can search for the journal entry I want to reverse now that"
+    },
+    {
+      "t": 94.7,
+      "end": 100.9,
+      "text": "I have found the journal entry I will select to reverse the"
+    },
+    {
+      "t": 100.9,
+      "end": 115.5,
+      "text": "transaction you can see it's defaulted in the journal entry information and I will process the reversal once the reverse is complete you can see it has reversed the amount posted in the original journal"
+    },
+    {
+      "t": 115.5,
+      "end": 135.5,
+      "text": "entry finally let's say you notice a journal entry was posted using an incorrect Dimension and missing another dimension you can reverse the transaction or you can use the correct Dimension functionality to correct or add a dimension value I will search for the journal entry I want to correct here you"
+    },
+    {
+      "t": 135.5,
+      "end": 150.7,
+      "text": "can see that we have posted to the area Dimension with value 60 the entry is also missing the business group Dimension instead of choosing to reverse the transaction we'll select to correct the dimension"
+    },
+    {
+      "t": 150.7,
+      "end": 170.7,
+      "text": "in the new dimension value code I'll select the correct value for the journal entry I will also add the missing Dimension enter the description as to why the change is being made now we will run the change Dimension process once complete we can refresh the window and see that the correct Dimension value is"
+    },
+    {
+      "t": 170.7,
+      "end": 184.2,
+      "text": "on the journal entry reversing and correcting Dimensions is a quick and simple process in business Central to learn more about business Central see the following resources"
+    }
+  ],
+  "markers": [],
+  "word_count": 425
+}

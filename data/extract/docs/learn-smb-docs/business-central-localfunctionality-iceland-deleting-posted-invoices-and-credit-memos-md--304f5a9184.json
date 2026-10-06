@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos",
+  "title": "Deleting posted invoices and credit memos [IS]",
+  "blob": "fffe19702b8fd84ad0f5ebfd788b539e1bf09cb5",
+  "summary": "In Iceland, before v24.0 posted invoices and credit memos cannot be deleted per legislation; after v24.0 with new localization enabled, deletion is allowed only for documents older than seven years at fiscal year start.",
+  "systems": [
+    "sales",
+    "purchasing",
+    "localization"
+  ],
+  "topics": [
+    "iceland local functionality",
+    "posted invoices",
+    "credit memos",
+    "document retention"
+  ],
+  "objects": [],
+  "features": [
+    "document deletion",
+    "document retention period"
+  ],
+  "versions": [
+    "version 24.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003116,
+      "pages_in_call": 8
+    }
+  ]
+}

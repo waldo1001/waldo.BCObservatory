@@ -1,0 +1,35 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/vat-reporting.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/vat-reporting",
+  "title": "VAT Reporting in the German version",
+  "blob": "ac0065bf596389c29728511bfea01e7fa174d181",
+  "summary": "Report VAT to German tax authorities via ELSTER portal and print local VAT reports including VAT Statement Germany, Sales VAT Advance Notifications, and VAT Statement Schedule.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "vat reporting",
+    "germany local functionality",
+    "elster",
+    "tax authorities"
+  ],
+  "objects": [],
+  "features": [
+    "VAT Statement Germany report",
+    "Sales VAT Adv. Not. Acc. Proof report",
+    "VAT Statement Schedule report",
+    "ELSTER export"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003116,
+      "pages_in_call": 8
+    }
+  ]
+}

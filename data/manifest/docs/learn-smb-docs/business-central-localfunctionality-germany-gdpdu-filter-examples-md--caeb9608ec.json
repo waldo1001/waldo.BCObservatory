@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/gdpdu-filter-examples",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "395a611e54d2fc266e5ebdce216e930d25d369d3",
       "words": 433,
       "forms": 9
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:17.753Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.002545
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:17.784Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:17.786Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:17.787Z",
+      "page": false
     }
   },
   "input_hash": "395a611e54d2fc266e5ebdce216e930d25d369d3",
@@ -88,5 +107,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "395a611e54d2fc266e5ebdce216e930d25d369d3"
+  "output_hash": "0317451a4139d0814d98c725f8dbeaf9f49ce4d2a6220c3df36b87727362dfe5"
 }

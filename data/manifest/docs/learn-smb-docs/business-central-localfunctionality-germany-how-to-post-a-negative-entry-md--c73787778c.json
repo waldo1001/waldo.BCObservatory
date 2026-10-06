@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-post-a-negative-entry",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "bfd18552d7864d1b49f2dd2f85c61a8e7e74faf8",
       "words": 174,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:36.224Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.002358
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:36.362Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:36.363Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:36.364Z",
+      "page": false
     }
   },
   "input_hash": "bfd18552d7864d1b49f2dd2f85c61a8e7e74faf8",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bfd18552d7864d1b49f2dd2f85c61a8e7e74faf8"
+  "output_hash": "131833c1158ccd6c3ec5317da1368f0961e9e990f41d6418e7699a74f8fda7b3"
 }

@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-post-a-negative-entry.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-post-a-negative-entry",
+  "title": "How to post a negative entry [DE]",
+  "blob": "bfd18552d7864d1b49f2dd2f85c61a8e7e74faf8",
+  "summary": "Post negative entries in German version using the Correction field in General Journals to post negative debits instead of credits or negative credits instead of debits.",
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "topics": [
+    "negative entries",
+    "corrections",
+    "germany",
+    "general journals",
+    "posting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Journals"
+    }
+  ],
+  "features": [
+    "correction field",
+    "negative entries",
+    "debit amount",
+    "credit amount"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002358,
+      "pages_in_call": 8
+    }
+  ]
+}

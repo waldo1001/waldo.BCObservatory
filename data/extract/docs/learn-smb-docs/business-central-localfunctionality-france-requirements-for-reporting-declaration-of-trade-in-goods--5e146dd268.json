@@ -1,0 +1,62 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods",
+  "title": "Requirements for Reporting Declaration of Trade in Goods [FR]",
+  "blob": "3a4e482fa52a73e8b44b6d01d7e1db14ac8dbd07",
+  "summary": "Configure Business Central for French Declaration of Trade in Goods (DEB) reporting by ensuring required company information and Intrastat journal fields are populated, then export using the Export DEB DTI report with appropriate obligation level filters.",
+  "systems": [
+    "reporting",
+    "localization"
+  ],
+  "topics": [
+    "intrastat",
+    "deb reporting",
+    "declaration of trade",
+    "france localization",
+    "tax reporting"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Company Information"
+    },
+    {
+      "type": "table",
+      "name": "Intrastat Jnl. Line"
+    },
+    {
+      "type": "page",
+      "name": "Intrastat Journals"
+    },
+    {
+      "type": "page",
+      "name": "Intrastat Setup"
+    },
+    {
+      "type": "report",
+      "name": "Export DEB DTI"
+    },
+    {
+      "type": "report",
+      "name": "Advanced Intrastat Checklist"
+    }
+  ],
+  "features": [
+    "DEB reporting",
+    "Intrastat management",
+    "obligation levels",
+    "Transaction Specification Filter",
+    "Advanced Intrastat Checklist"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002545,
+      "pages_in_call": 8
+    }
+  ]
+}

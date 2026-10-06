@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-delivery-reminders",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d2123b5e3ccb7d6410b43ea5dc6ee860d39559b7",
       "words": 33,
       "forms": 3
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:36.269Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003116
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:36.351Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:36.353Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:36.354Z",
+      "page": false
     }
   },
   "input_hash": "d2123b5e3ccb7d6410b43ea5dc6ee860d39559b7",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d2123b5e3ccb7d6410b43ea5dc6ee860d39559b7"
+  "output_hash": "90ec755376d231d33d36488ec091e212c1f00e853d97c2be27ee6c4d2869d8a9"
 }

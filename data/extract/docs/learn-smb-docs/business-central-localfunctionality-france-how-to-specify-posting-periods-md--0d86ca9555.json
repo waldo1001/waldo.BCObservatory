@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-specify-posting-periods.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-specify-posting-periods",
+  "title": "How to Specify Posting Periods [FR]",
+  "blob": "d710f81289348d2e1d3c30a301316faeaf773391",
+  "summary": "Specify posting periods in French Business Central to control when users can post transactions by setting allowed posting date ranges in General Ledger Setup or per-user configuration.",
+  "systems": [
+    "finance",
+    "administration"
+  ],
+  "topics": [
+    "posting periods",
+    "fiscal years",
+    "general ledger setup",
+    "user setup",
+    "france localization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "User Setup"
+    }
+  ],
+  "features": [
+    "Allow Posting From",
+    "Allow Posting To",
+    "Get Allowed Posting Range",
+    "per-user posting periods"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002545,
+      "pages_in_call": 8
+    }
+  ]
+}

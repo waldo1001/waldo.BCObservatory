@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/payment-management.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/payment-management",
+  "title": "Payment Management [FR]",
+  "blob": "5104f61e2896871cc245fca1a96f34431ef97bbe",
+  "summary": "Payment management in French Business Central enables you to create, post, archive, and export payment slips for customers and vendors using configurable payment classes, statuses, steps, and addresses.",
+  "systems": [
+    "purchasing",
+    "sales"
+  ],
+  "topics": [
+    "payment management",
+    "payment slips",
+    "payment classes",
+    "france localization",
+    "vendor payments",
+    "customer payments"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Payment Step Ledger"
+    }
+  ],
+  "features": [
+    "payment classes",
+    "payment statuses",
+    "payment steps",
+    "payment addresses",
+    "payment slip creation",
+    "payment posting",
+    "payment archiving",
+    "payment file export"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002545,
+      "pages_in_call": 8
+    }
+  ]
+}

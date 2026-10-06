@@ -1,0 +1,54 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/gdpdu-filter-examples.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/gdpdu-filter-examples",
+  "title": "GoBD filter examples [DE]",
+  "blob": "395a611e54d2fc266e5ebdce216e930d25d369d3",
+  "summary": "GoBD filter examples demonstrate how to configure data export record sources in German Business Central using period fields, table filters, and date filter handling to optimize exports for digital audit compliance.",
+  "systems": [
+    "administration",
+    "localization"
+  ],
+  "topics": [
+    "gobd",
+    "digital audit",
+    "data export",
+    "germany localization",
+    "filter setup"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "Cust. Ledger Entry"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "page",
+      "name": "Data Export Record Source"
+    }
+  ],
+  "features": [
+    "Period Field No.",
+    "Table Filter",
+    "Date Filter Field No.",
+    "Date Filter Handling",
+    "Export Business Data"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002545,
+      "pages_in_call": 8
+    }
+  ]
+}

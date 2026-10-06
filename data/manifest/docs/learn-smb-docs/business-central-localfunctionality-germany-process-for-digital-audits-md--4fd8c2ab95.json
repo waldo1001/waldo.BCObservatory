@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/process-for-digital-audits",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "76ced4d4f10bf97e0ccc0d8bcd7d0152c79e8f45",
       "words": 981,
       "forms": 9
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:36.279Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003116
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:36.397Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:36.399Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:36.400Z",
+      "page": false
     }
   },
   "input_hash": "76ced4d4f10bf97e0ccc0d8bcd7d0152c79e8f45",
@@ -88,5 +107,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "76ced4d4f10bf97e0ccc0d8bcd7d0152c79e8f45"
+  "output_hash": "c74b999b03da87ecd5d51fc6fd32388e83326f6677213e5b889fed479e5d792b"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/delivery-reminders",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6ab389bddaa51994e685e8adbd487728428a0566",
       "words": 45,
       "forms": 7
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:17.750Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002545
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:17.776Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:17.778Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:17.779Z",
+      "page": false
     }
   },
   "input_hash": "6ab389bddaa51994e685e8adbd487728428a0566",
@@ -78,5 +97,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6ab389bddaa51994e685e8adbd487728428a0566"
+  "output_hash": "23c9de1f88b6174a7738a24d184c3c0f5b83ef30152e43d71dd834a207b86a67"
 }

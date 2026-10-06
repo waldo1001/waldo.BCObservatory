@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/currency-exchange-rates.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/currency-exchange-rates",
+  "title": "Currency Exchange Rates [DE]",
+  "blob": "e8aedaec1837208bad50eee138aff426fe7312c9",
+  "summary": "German Business Central requires adjusting currency exchange rates at fiscal year-end using the Adjust Exchange Rates batch job with BilMoG valuation method to meet legal requirements for payables and receivables valuation.",
+  "systems": [
+    "finance"
+  ],
+  "topics": [
+    "currency exchange rates",
+    "valuation methods",
+    "bilmog",
+    "germany localization",
+    "fiscal year-end"
+  ],
+  "objects": [],
+  "features": [
+    "Adjust Exchange Rates",
+    "BilMoG valuation",
+    "lowest value valuation",
+    "standard valuation",
+    "Valuation Reference Date",
+    "Short term liabilities until"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002545,
+      "pages_in_call": 8
+    }
+  ]
+}

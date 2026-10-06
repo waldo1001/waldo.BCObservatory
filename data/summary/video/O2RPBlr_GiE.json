@@ -1,0 +1,27 @@
+{
+  "video_id": "O2RPBlr_GiE",
+  "item_id": "video/yt-microsoft/O2RPBlr_GiE",
+  "summary": "Comparison of trial balance and aging reports in Dynamics SL and Business Central, for users moving from SL. It demos the detailed and summary trial balance, the aged accounts receivable report, filtering options, and export to Excel, PDF or Word.",
+  "overview": "The video shows where the trial balance reports that Dynamics SL users know can be found in Business Central. It starts with the SL trial balance reports, then opens the matching reports in Business Central and previews the detailed trial balance.\n\nIt then covers the summary trial balance with comparison to last year or to budgets, the aged accounts receivable report with its date and customer class options, and the ways to output a report, including export to Excel for further analysis.",
+  "key_points": [
+    "The detailed trial balance shows balances and the transactions posted to each GL account. You can filter to specific accounts or ranges, and print each account on a new page.",
+    "The Business Central trial balance is similar to the summary trial balance in SL.",
+    "The summary trial balance compares current year values to last year or to budgets. Budget comparison requires budgets to be configured in Business Central.",
+    "The summary trial balance can show variance as a percentage and supports rounding options.",
+    "The aged accounts receivable report lets you choose the date to age the report and age by transaction date or due date. You can filter to customer classes and view overdue balances.",
+    "An aged accounts payable report for vendors is available alongside the AR aging report.",
+    "Reports can be exported to Excel for further analysis and visuals, or sent to PDF or Word."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "33486588196b2ff067a0a9dea97e4ff15dc73b099699a146c040e09b9909b457",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0120924
+  }
+}

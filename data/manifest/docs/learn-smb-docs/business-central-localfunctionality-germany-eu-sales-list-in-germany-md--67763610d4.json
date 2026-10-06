@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/eu-sales-list-in-germany",
   "published_at": "2025-05-06T19:33:45.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d732ac61b274268ca511cce163d6849a880aa6ef",
       "words": 144,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:29:17.751Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002545
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:17.780Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:17.782Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:29:17.783Z",
+      "page": false
     }
   },
   "input_hash": "d732ac61b274268ca511cce163d6849a880aa6ef",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d732ac61b274268ca511cce163d6849a880aa6ef"
+  "output_hash": "9d262473c287783069d505c4d17bbdb5b7cae5ea400e44d1c8e15b37ad1529fc"
 }

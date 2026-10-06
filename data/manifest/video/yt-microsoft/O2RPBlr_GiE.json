@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=O2RPBlr_GiE",
   "published_at": "2024-07-26T13:24:52.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
@@ -38,6 +38,26 @@
         "claude-haiku-4-5-20251001"
       ],
       "cost_usd": 0.013498
+    },
+    "summarized": {
+      "at": "2026-10-06T19:29:16.288Z",
+      "path": "data/summary/video/O2RPBlr_GiE.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0120924
+    },
+    "linked": {
+      "at": "2026-10-06T19:29:16.290Z",
+      "systems": [
+        "finance",
+        "reporting"
+      ],
+      "topics": 10,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T19:29:16.303Z",
+      "path": "content/videos/O2RPBlr_GiE.md"
     }
   },
   "input_hash": null,
@@ -55,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "33486588196b2ff067a0a9dea97e4ff15dc73b099699a146c040e09b9909b457"
+  "output_hash": "77f2102168ca80ec7a84421c6e3e1b259c3fb869f5ecba0571252e291c45c49e"
 }

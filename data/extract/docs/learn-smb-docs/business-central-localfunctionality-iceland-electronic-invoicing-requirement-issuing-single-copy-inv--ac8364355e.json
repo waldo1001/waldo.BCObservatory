@@ -1,0 +1,34 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice",
+  "title": "Electronic invoicing requirement for issuing single-copy invoice",
+  "blob": "ab0f5fcaac439fc4b992254e355a9248214f080e",
+  "summary": "In Iceland, when printing invoices multiple times, send a government report confirming ERP compliance per legislation; use Sales & Receivables Setup to print the IRS Notification report with required legal statements.",
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "topics": [
+    "iceland local functionality",
+    "electronic invoicing",
+    "single-copy invoices",
+    "tax compliance"
+  ],
+  "objects": [],
+  "features": [
+    "electronic invoicing checkbox",
+    "IRS Notification report",
+    "legal statement on invoices"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003116,
+      "pages_in_call": 8
+    }
+  ]
+}

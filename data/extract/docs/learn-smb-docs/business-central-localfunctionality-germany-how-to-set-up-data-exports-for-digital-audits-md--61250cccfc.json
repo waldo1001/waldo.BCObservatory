@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-set-up-data-exports-for-digital-audits.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-data-exports-for-digital-audits",
+  "title": "Set Up Data Exports for a Digital Audit [DE]",
+  "blob": "c23d5ffc609fdd23733f7fdbae877540e02a5fb3",
+  "summary": "Set up data exports for digital audits (GDPdU/GoBD) by defining data export record sources, configuring tables, fields, and relationships to export financial and business data according to German regulatory requirements.",
+  "systems": [
+    "finance",
+    "localization",
+    "administration"
+  ],
+  "topics": [
+    "data export",
+    "digital audit",
+    "gdpdu",
+    "gobd",
+    "germany",
+    "compliance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Data Exports"
+    },
+    {
+      "type": "page",
+      "name": "Data Export Record Definitions"
+    },
+    {
+      "type": "page",
+      "name": "Data Export Record Source"
+    },
+    {
+      "type": "page",
+      "name": "Data Export Table Relation"
+    },
+    {
+      "type": "page",
+      "name": "Data Exp. Field List"
+    }
+  ],
+  "features": [
+    "data export",
+    "digital audit",
+    "GDPdU compliance",
+    "record definitions",
+    "table relations",
+    "date filtering"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002358,
+      "pages_in_call": 8
+    }
+  ]
+}
