@@ -5,6 +5,8 @@
 set -euo pipefail
 ENV_FILE="${BCOBS_ENV_FILE:-$HOME/.config/bcobservatory/env}"
 export PATH="$HOME/.local/bin:/opt/homebrew/opt/node@22/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+# the code pillar's post-pass reads ~1 GB of snapshots; Node's default heap (~4 GB) is not enough headroom
+export NODE_OPTIONS="--max-old-space-size=8192"
 cd "${GITHUB_WORKSPACE:-$(git rev-parse --show-toplevel)}"
 git config user.name "github-actions[bot]"
 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

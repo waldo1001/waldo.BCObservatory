@@ -204,8 +204,13 @@ function grammarVersion(): string {
 
 /** Read a snapshot back: every object of every shard. */
 export function readSnapshot(dataDir: string, major: string, country: string): AlObject[] {
-  const dir = snapshotDir(dataDir, major, country);
-  return listFiles(dir, ".jsonl").flatMap((f) => readFileSync(f, "utf8").split("\n").filter(Boolean).map((l) => JSON.parse(l) as AlObject));
+  return [...iterSnapshot(dataDir, major, country)];
+}
+/** One shard at a time, so callers that keep only a little per object never hold a whole snapshot. */
+export function* iterSnapshot(dataDir: string, major: string, country: string): Generator<AlObject> {
+  for (const f of listFiles(snapshotDir(dataDir, major, country), ".jsonl")) {
+    for (const l of readFileSync(f, "utf8").split("\n")) if (l) yield JSON.parse(l) as AlObject;
+  }
 }
 
 // ---------------------------------------------------------------------------------------------- stage handlers

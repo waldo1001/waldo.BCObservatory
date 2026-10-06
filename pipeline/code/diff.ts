@@ -18,7 +18,7 @@ import { resolve } from "node:path";
 import { exists, readJson, writeJson } from "../lib/fsx.js";
 import { logger } from "../lib/log.js";
 import { objectKey, type AlObject, type AlProcedure, type Obsolete } from "./extract.js";
-import { readSnapshot, snapshotDir, type SnapshotManifest } from "./job.js";
+import { iterSnapshot, readSnapshot, snapshotDir, type SnapshotManifest } from "./job.js";
 
 const log = logger("code-diff");
 
@@ -182,8 +182,12 @@ export function refreshCodeDerived(dataDir: string, majors: string[]): CodeDeriv
   const run: CodeDerivedRun = { version_diffs: 0, country_diffs: 0, timelines: 0, deprecations: 0, written: 0 };
   const present = majors.filter((m) => manifestOf(dataDir, m, "w1")).sort((a, b) => Number(a) - Number(b));
   if (!present.length) return run;
+  // memory: at most two W1 snapshots at a time (a version diff); everything else streams
   const cache = new Map<string, AlObject[]>();
-  const w1 = (m: string) => cache.get(m) ?? (cache.set(m, readSnapshot(dataDir, m, "w1")), cache.get(m)!);
+  const w1 = (m: string) => {
+    if (!cache.has(m)) { if (cache.size >= 2) cache.delete(cache.keys().next().value!); cache.set(m, readSnapshot(dataDir, m, "w1")); }
+    return cache.get(m)!;
+  };
   const root = resolve(dataDir, "code");
 
   for (let i = 1; i < present.length; i++) {
@@ -211,7 +215,10 @@ export function refreshCodeDerived(dataDir: string, majors: string[]): CodeDeriv
   const tlDir = resolve(root, "timelines");
   const stamp = resolve(tlDir, "_inputs.json");
   if (!exists(stamp) || !same(readJson(stamp), inputs)) {
-    const byType = timelines(present.map((m) => ({ version: m, objects: w1(m) })));
+    cache.clear();
+    // timelines need only key, name, hash and obsolete state per object
+    const slim = (m: string) => [...iterSnapshot(dataDir, m, "w1")].map((o) => ({ type: o.type, id: o.id, name: o.name, hash: o.hash, obsolete: o.obsolete }) as AlObject);
+    const byType = timelines(present.map((m) => ({ version: m, objects: slim(m) })));
     for (const [type, map] of byType) { writeJson(resolve(tlDir, `${type}.json`), { versions: present, objects: map }); run.written++; }
     writeJson(stamp, inputs);
     run.timelines = byType.size;

@@ -21,7 +21,7 @@ import { exists, listFiles, readJson, readText, removeIfExists, writeText } from
 import { validateOrThrow } from "../lib/schema.js";
 import { sha256 } from "../lib/text.js";
 import { objectKey, type AlObject, type AlProcedure } from "../code/extract.js";
-import { readSnapshot, snapshotDir, type SnapshotManifest } from "../code/job.js";
+import { iterSnapshot, snapshotDir, type SnapshotManifest } from "../code/job.js";
 import { APPS, deprecations, type AlDiff, type ObjectDiff } from "../code/diff.js";
 import type { DocsObjects } from "../code/docs-objects.js";
 import { PIPELINE_VERSION } from "../version.js";
@@ -62,12 +62,14 @@ export function loadObjectWorld(dataDir: string, contentDir: string): ObjectWorl
   const order = [...v.narrative_order.filter((m) => majors.includes(m)), ...majors.filter((m) => !v.narrative_order.includes(m))];
   const preferred: ObjectWorld["preferred"] = new Map();
   const life = new Map<string, Life & { hash: string }>();
-  const byMajor = new Map<string, Map<string, AlObject>>();
+  // memory: one pass keeps only a hash per object and major; full objects are kept for the page's own major only
+  const parts = (m: string) => ["w1", APPS].filter((p) => exists(resolve(snapshotDir(dataDir, m, p), "manifest.json")));
   for (const m of majors) {
-    const all = new Map<string, AlObject>();
-    for (const part of ["w1", APPS]) for (const o of readSnapshot(dataDir, m, part)) if (!all.has(objectKey(o))) all.set(objectKey(o), o);
-    byMajor.set(m, all);
-    for (const [k, o] of all) {
+    const seen = new Set<string>();
+    for (const part of parts(m)) for (const o of iterSnapshot(dataDir, m, part)) {
+      const k = objectKey(o);
+      if (seen.has(k)) continue;
+      seen.add(k);
       const l = life.get(k);
       if (!l) life.set(k, { versions: [m], changed: [], hash: o.hash });
       else { l.versions.push(m); if (l.hash !== o.hash) l.changed.push(m); l.hash = o.hash; }
@@ -77,14 +79,17 @@ export function loadObjectWorld(dataDir: string, contentDir: string): ObjectWorl
     const man = (part: string) => readJson<SnapshotManifest>(resolve(snapshotDir(dataDir, m, part), "manifest.json"));
     const w1m = man("w1");
     const appm = exists(resolve(snapshotDir(dataDir, m, APPS), "manifest.json")) ? man(APPS) : w1m;
-    for (const [k, o] of byMajor.get(m)!) if (!preferred.has(k)) preferred.set(k, { obj: o, major: m, manifest: w1m.apps.includes(o.app ?? "") ? w1m : appm });
+    for (const part of parts(m)) for (const o of iterSnapshot(dataDir, m, part)) {
+      const k = objectKey(o);
+      if (!preferred.has(k)) preferred.set(k, { obj: o, major: m, manifest: part === "w1" ? w1m : appm });
+    }
   }
   // countries that replace an object, in the newest major they have
   const replacedIn = new Map<string, string[]>();
   for (const cc of countriesOf(dataDir)) {
     const m = [...majors].reverse().find((x) => exists(resolve(snapshotDir(dataDir, x, cc), "manifest.json")));
     if (!m) continue;
-    for (const o of readSnapshot(dataDir, m, cc)) { const k = objectKey(o); if (life.has(k)) replacedIn.set(k, [...(replacedIn.get(k) ?? []), cc]); }
+    for (const o of iterSnapshot(dataDir, m, cc)) { const k = objectKey(o); if (life.has(k)) replacedIn.set(k, [...(replacedIn.get(k) ?? []), cc]); }
   }
   const docsPath = resolve(dataDir, "index", "docs-objects.json");
   const topicsByUrl = new Map<string, string[]>();

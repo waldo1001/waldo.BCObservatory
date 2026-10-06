@@ -7,7 +7,7 @@
   "engines": { "node": ">=20" },
   "workspaces": ["site", "packages/*"],
   "scripts": {
-    "nightly": "tsx pipeline/orchestrator/nightly.ts",
+    "nightly": "NODE_OPTIONS=--max-old-space-size=8192 tsx pipeline/orchestrator/nightly.ts",
     "ingest": "tsx pipeline/orchestrator/nightly.ts --stages ingest",
     "guard": "tsx infra/mini/usage-guard.ts",
     "validate:sources": "tsx pipeline/validate/sources-cli.ts",
