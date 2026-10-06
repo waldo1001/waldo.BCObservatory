@@ -1,0 +1,23 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/error-handling/log-writes-must-survive-rollback.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "log writes must survive rollback",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/error-handling/log-writes-must-survive-rollback.md",
+  "published_at": "2026-09-29T15:12:51.000Z",
+  "language": "en",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-06T11:15:53.411Z"
+    }
+  },
+  "input_hash": "eae17004a4ba98ce3ab2568a2981dde8c29c4aca",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/error-handling/log-writes-must-survive-rollback.md"
+  }
+}
