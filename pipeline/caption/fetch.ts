@@ -4,8 +4,8 @@
  * fetched: per-video metadata (yt-dlp --dump-json): real upload time, title, duration, which caption track exists.
  * captioned: that track as VTT → data/captions/microsoft/<id>.{vtt,segments.json} (D09). No track → skipped
  * `no-captions`; private or removed → skipped `unavailable`; upcoming or live → retried later.
- * Official tier only: community captions belong in the vault (D08) and their derived pages need the leak scanner
- * (`npm run check:leak`), which does not exist yet.
+ * Official tier only: community captions belong in the vault (D08). The leak scanner (`npm run check:leak`, D24)
+ * exists and gates every nightly commit; community captions wait for the vault checkout on the Mini.
  */
 import { resolve } from "node:path";
 import { exists, readText, writeText } from "../lib/fsx.js";

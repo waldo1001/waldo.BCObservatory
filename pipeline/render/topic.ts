@@ -22,6 +22,22 @@ export const topicRel = (id: string) => `${id.replace(/^topic\//, "")}.md`;
 export const topicLink = (fromId: string, toId: string) => posix.relative(posix.dirname(topicRel(fromId)), topicRel(toId));
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
 
+/** Learn's own include tokens; any other include shows its label. */
+const INCLUDES: Record<string, string> = { prod_short: "Business Central", prod_long: "Dynamics 365 Business Central" };
+/**
+ * A Learn description in our markdown: `[!INCLUDE[label](path)]` becomes its text, and a link relative to the Learn
+ * repo becomes the absolute Learn URL it points at (resolved against the page's own URL, .md dropped), so no page
+ * links to a file that only exists in the Learn repository.
+ */
+export function learnText(desc: string, pageUrl: string): string {
+  return desc
+    .replace(/\[!INCLUDE\[([^\]]*)\]\([^)]*\)\]/gi, (_, label: string) => INCLUDES[label] ?? label)
+    .replace(/\[([^\]]*)\]\(([^)\s]+)\)/g, (all, text: string, href: string) => {
+      if (/^[a-z][a-z0-9+.-]*:/i.test(href) || href.startsWith("#")) return all;
+      try { return `[${text}](${new URL(href.replace(/\.md(?=#|$)/, ""), pageUrl).href})`; } catch { return text; }
+    });
+}
+
 export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, items: Map<string, ManifestItem>, now: Date, stored?: ReviewedNarrative): string {
   const review = stored?.review && stored.review.input_hash === stored.input_hash ? stored.review : undefined;
   // a narrative Opus rejected is not shown; the page says it was flagged
@@ -59,7 +75,7 @@ export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, item
   }
   if (own.length) {
     lines.push(hub.children.length ? "## More Learn pages" : "## Learn pages", "");
-    for (const m of own) lines.push(`- [${cell(m.title)}](${m.url})${m.meta?.description ? `: ${cell(String(m.meta.description))}` : ""}`);
+    for (const m of own) lines.push(`- [${cell(m.title)}](${m.url})${m.meta?.description ? `: ${cell(learnText(String(m.meta.description), m.url))}` : ""}`);
     lines.push("");
   }
   if (forms.length) lines.push("## Business Central pages and reports", "", `Learn's ms.search.form names these object ids (not yet joined to the code pillar): ${forms.join(", ")}.`, "");

@@ -76,3 +76,12 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   wrong and D21 says reviews gate. Measured 2026-10-06: backfill of 66 features / 305 links for $4.74 (~$0.07 a
   feature); Opus dropped 22% of video links (mostly wave 1 videos showing the older capability) and 48% of Learn
   links. Quota `coverage_reviews` (Opus calls, zero under facts-only).
+- **D24 check:leak gates every nightly commit; validate:content reports.** `check:leak` (pipeline/validate/leak.ts)
+  fails on: vault or LLM-cache files in the tree git would commit; captions outside `data/captions/microsoft/` or of
+  a video no official source has; quotes of 25+ words on non-official pages of sources without `full_text`; and any
+  run of 25 consecutive words of community raw text from the vault (captions under `vault/captions/community/<source>/`,
+  post bodies under `vault/posts/<source>/`) in any committable file, VTTs read through the caption cleaner. The
+  vault is required once a community item has stored raw text. Findings block the nightly commit and the killed-run
+  recovery commit (status aborted). `validate:content` checks frontmatter schemas, id = path, unique ids, link ids
+  and relative links; its errors go to the run report without blocking. Both run in PR CI (leak: policy only, no
+  vault there). Why: 25 = the content notice's quote limit; a full repo scan takes about 2 s.

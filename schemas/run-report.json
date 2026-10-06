@@ -98,6 +98,14 @@
         "errors": { "type": "array", "items": { "type": "string" } }
       }
     },
+    "leak": {
+      "type": "object", "required": ["vault", "findings", "blocked"],
+      "properties": {
+        "vault": { "enum": ["scanned", "missing", "not-needed"] }, "raw_docs": { "type": "integer" }, "files_scanned": { "type": "integer" },
+        "findings": { "type": "integer" }, "blocked": { "type": "boolean" }
+      }
+    },
+    "content": { "type": "object", "required": ["pages", "errors"], "properties": { "pages": { "type": "integer" }, "errors": { "type": "integer" } } },
     "roadmap_links": {
       "type": "object", "required": ["units", "stale", "calls", "matched", "rejected", "failed", "stopped"],
       "properties": {

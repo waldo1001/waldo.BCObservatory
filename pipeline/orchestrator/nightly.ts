@@ -28,7 +28,9 @@ import { httpGet, type HttpGet } from "../lib/http.js";
 import { llmStats, setSpendLimit } from "../lib/llm.js";
 import { logger } from "../lib/log.js";
 import { Manifest, skip, type Pillar } from "../lib/manifest.js";
-import { CACHE_DIR, DATA_DIR, ROOT } from "../lib/paths.js";
+import { CACHE_DIR, DATA_DIR, ROOT, VAULT_DIR } from "../lib/paths.js";
+import { checkLeak, type LeakReport } from "../validate/leak.js";
+import { validateContent } from "../validate/content.js";
 import { planQueue, type PlannedWork } from "../lib/queue.js";
 import { mirrorFor, prefetchBlobs } from "../fetch/git-page.js";
 import { validateOrThrow } from "../lib/schema.js";
@@ -70,6 +72,8 @@ export interface NightlyOptions {
   contentDir?: string;
   cacheDir: string;
   repoDir: string;
+  /** Private vault checkout for the leak scan; defaults to VAULT_DIR. */
+  vaultDir?: string;
   now?: Date;
 }
 export interface NightlyDeps {
@@ -97,6 +101,10 @@ export interface RunReport {
   execution?: ExecutionReport;
   roadmap_links?: Omit<LinkRun, "errors"> & { pages: number; review?: Omit<CoverageReviewRun, "errors"> };
   hubs?: { topics: number; narrated: number; refreshed: number; failed: number; backlog: number; stopped: string; reviewed?: number; review_fixed?: number; review_rejected?: number; review_backlog?: number };
+  /** check:leak before the commit (D08); findings block the commit. */
+  leak?: { vault: LeakReport["vault"]; raw_docs: number; files_scanned: number; findings: number; blocked: boolean };
+  /** validate:content after rendering; reported, never blocks the commit (renderers schema-check as they write). */
+  content?: { pages: number; errors: number };
   items_changed: number; errors: string[];
 }
 
@@ -125,7 +133,7 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
   if (opts.capOverride) log.warn(`spend caps overridden for this run: night $${caps.night_usd}, week $${caps.week_usd}`);
   setSpendLimit(spend.allowance_usd);
   log.info(`spend: $${spend.allowance_usd} allowed (${spend.binding} cap binds)`, { today: spend.today_usd, week_before: spend.week_before_usd });
-  if (opts.commit && (await recoverPartialRun(opts.repoDir))) log.warn("committed leftovers of a killed run");
+  if (opts.commit && (await recoverPartialRun(opts.repoDir, () => leakGate(opts, deps.sources)))) log.warn("committed leftovers of a killed run");
 
   const guard: GuardReport = opts.guard
     ? decideGuard(await deps.readUsage(), cfg)
@@ -142,7 +150,7 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
 
   if (guard.decision === "skip") {
     report.status = "skipped-budget";
-    return finish(report, opts);
+    return finish(report, opts, deps.sources);
   }
 
   const ctx: IngestContext = {
@@ -206,17 +214,34 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
   else if (report.execution?.stop_reason === "aborted") report.status = "aborted";
   else if (results.length && totals.failed === results.length) report.status = "aborted";
   else if (totals.failed) report.status = "partial";
-  return finish(report, opts);
+  return finish(report, opts, deps.sources);
 }
 
-async function finish(report: RunReport, opts: NightlyOptions): Promise<RunReport> {
+async function finish(report: RunReport, opts: NightlyOptions, sources: SourceDef[] = []): Promise<RunReport> {
+  if (opts.stages === "all" && report.status !== "skipped-budget") {
+    const c = validateContent(contentDirOf(opts));
+    report.content = { pages: c.pages, errors: c.errors.length };
+    report.errors.push(...c.errors.slice(0, 20).map((e) => `content: ${e}`));
+    if (c.errors.length) log.warn(`validate:content: ${c.errors.length} errors (first: ${c.errors[0]})`);
+  }
+  let blocked = false;
+  if (opts.commit && !opts.dryRun) {
+    const leak = checkLeak({ repoDir: opts.repoDir, dataDir: opts.dataDir, contentDir: contentDirOf(opts), vaultDir: opts.vaultDir ?? VAULT_DIR, sources });
+    blocked = leak.findings.length > 0;
+    report.leak = { vault: leak.vault, raw_docs: leak.raw_docs, files_scanned: leak.files_scanned, findings: leak.findings.length, blocked };
+    if (blocked) {
+      report.status = "aborted";
+      report.errors.push(...leak.findings.slice(0, 20).map((f) => `leak: ${f.kind} ${f.path}: ${f.detail}`));
+      log.error(`check:leak found ${leak.findings.length} problems; nothing is committed`);
+    }
+  }
   report.finished_at = new Date().toISOString();
   report.llm = { ...llmStats(), day_cost_usd: round6((report.spend?.today_usd ?? 0) + llmStats().cost_usd) };
   if (report.spend) report.spend.exhausted ||= report.spend.allowance_usd - report.llm.cost_usd <= 0;
   validateOrThrow("run-report", report, `run report ${report.date}`);
   writeJson(resolve(opts.dataDir, "manifest", "_runs", `${report.date}.json`), report);
   log.info(`run report: ${report.status}, ${report.items_changed} items new or changed`);
-  if (opts.commit && !opts.dryRun) {
+  if (opts.commit && !opts.dryRun && !blocked) {
     const label = report.status === "skipped-budget" ? `0 items, skipped-budget` : `${report.items_changed} items`;
     await commitAndPush(opts.repoDir, `content: nightly ${report.date} (${label})`, opts.push, report);
   }
@@ -312,6 +337,12 @@ function capOverrideArg(night?: string, week?: string): Pick<NightlyOptions, "ca
   return { capOverride: Object.fromEntries(Object.entries(o).filter(([, v]) => v !== undefined)) };
 }
 
+/** Leak findings as lines, for the recovery commit. */
+function leakGate(opts: NightlyOptions, sources: SourceDef[]): string[] {
+  return checkLeak({ repoDir: opts.repoDir, dataDir: opts.dataDir, contentDir: contentDirOf(opts), vaultDir: opts.vaultDir ?? VAULT_DIR, sources })
+    .findings.map((f) => `${f.kind} ${f.path}: ${f.detail}`);
+}
+
 export function capQuotas(quotas: Record<string, number>, cap?: number): Record<string, number> {
   if (cap === undefined) return quotas;
   return Object.fromEntries(Object.entries(quotas).map(([k, v]) => [k, k === "llm_calls_max" ? v : Math.min(v, cap)]));
@@ -324,12 +355,17 @@ export function contentDirOf(opts: Pick<NightlyOptions, "contentDir" | "dataDir"
 const round6 = (n: number) => Math.round(n * 1e6) / 1e6;
 const TRACKED = ["data", "content"];
 
-/** A killed run leaves written-but-uncommitted files (all writes are temp-then-rename): drop temp files, commit the rest. */
-export async function recoverPartialRun(repoDir: string): Promise<boolean> {
+/**
+ * A killed run leaves written-but-uncommitted files (all writes are temp-then-rename): drop temp files, commit the rest.
+ * `gate` runs the leak check first; findings abort the run instead of committing what the killed run left behind.
+ */
+export async function recoverPartialRun(repoDir: string, gate?: () => string[]): Promise<boolean> {
   const dirs = TRACKED.filter((d) => existsSync(join(repoDir, d)));
   if (!dirs.length) return false;
   if (!(await git(["status", "--porcelain", "--", ...dirs], repoDir)).trim()) return false;
   for (const d of dirs) removeTempFiles(join(repoDir, d));
+  const problems = gate?.() ?? [];
+  if (problems.length) throw new Error(`check:leak blocks committing a killed run's leftovers:\n  ${problems.slice(0, 10).join("\n  ")}`);
   await git(["add", "-A", "--", ...dirs], repoDir);
   if (!(await git(["diff", "--cached", "--name-only"], repoDir)).trim()) return false;
   await git(["commit", "-q", "-m", "content: recover partial run"], repoDir);

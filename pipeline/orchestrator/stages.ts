@@ -2,7 +2,8 @@
  * Stage handlers per pillar, consumed by the executor (execute.ts). A pillar/stage without a handler is left
  * where it is. M1 adds them pillar by pillar: videos first (D18), then Learn docs, then roadmap stubs and hubs.
  *
- * Video: `fetched`/`captioned` take official (Microsoft) videos only until the leak scanner exists (D08).
+ * Video: `fetched`/`captioned` take official (Microsoft) videos only until the vault is checked out on the Mini (D08,
+ * D24: the leak scanner requires the vault as soon as community raw text exists).
  * Docs: `fetched` reads page metadata from the git mirror (no quota); `extracted` summarizes non-reference pages in
  * Haiku batches; the rest only move the item along (no per-page pages, D01; hubs read the summaries, D12).
  * `reviewed` runs only for flagged videos (Opus, D07); unflagged ones go from `linked` straight to `published`.

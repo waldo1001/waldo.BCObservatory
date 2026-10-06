@@ -29,7 +29,7 @@ function repo(): string {
   return dir;
 }
 function opts(dir: string, over: Partial<NightlyOptions> = {}): NightlyOptions {
-  return { dryRun: false, commit: false, push: false, guard: true, stages: "all", dataDir: join(dir, "data"), cacheDir: join(dir, ".cache"), repoDir: dir, now, ...over };
+  return { dryRun: false, commit: false, push: false, guard: true, stages: "all", dataDir: join(dir, "data"), cacheDir: join(dir, ".cache"), repoDir: dir, vaultDir: join(dir, "vault"), now, ...over };
 }
 const lastCommit = (dir: string) => execFileSync("git", ["log", "-1", "--format=%s"], { cwd: dir }).toString().trim();
 const report = (dir: string) => JSON.parse(readFileSync(join(dir, "data/manifest/_runs/2026-10-07.json"), "utf8"));
@@ -82,6 +82,32 @@ test("a killed run's leftovers are committed first, temp files dropped", async (
   assert.equal(lastCommit(dir), "content: recover partial run");
   assert.equal(existsSync(join(dir, "data/manifest/video/x/b.json.123.tmp")), false);
   assert.equal(await recoverPartialRun(dir), false);
+});
+
+test("check:leak blocks the commit: the run aborts, its report says why, nothing is committed", async () => {
+  const dir = repo();
+  mkdirSync(join(dir, "data/captions/community/x"), { recursive: true });
+  writeFileSync(join(dir, "data/captions/community/x/AAAAAAAAAA9.vtt"), "WEBVTT\n");
+  execFileSync("git", ["add", "-A"], { cwd: dir }); execFileSync("git", ["commit", "-q", "-m", "slipped in"], { cwd: dir });
+  const r = await runNightly(opts(dir, { commit: true }), { http, sources: [source], handlers: NOOP, flatPlaylist: async () => [], readUsage: usage(5, 10) });
+  assert.equal(r.status, "aborted");
+  assert.deepEqual([r.leak?.blocked, r.leak?.findings], [true, 1]);
+  assert.match(r.errors.join("\n"), /leak: captions-location data\/captions\/community/);
+  assert.equal(lastCommit(dir), "slipped in");
+  assert.ok(validate("run-report", report(dir)).ok);
+  // the next run's recovery refuses to commit the leftovers too
+  await assert.rejects(runNightly(opts(dir, { commit: true }), { http, sources: [source], handlers: NOOP, flatPlaylist: async () => [], readUsage: usage(5, 10) }), /check:leak blocks committing a killed run's leftovers/);
+  assert.equal(lastCommit(dir), "slipped in");
+});
+
+test("validate:content runs after rendering and reports without blocking", async () => {
+  const dir = repo();
+  mkdirSync(join(dir, "content/notes"), { recursive: true });
+  writeFileSync(join(dir, "content/notes/llms.txt"), "- [gone](gone.md)\n");
+  const r = await runNightly(opts(dir, { commit: true }), { http, sources: [source], handlers: NOOP, flatPlaylist: async () => [], readUsage: usage(5, 10) });
+  assert.deepEqual([r.status, r.content], ["ok", { pages: 0, errors: 1 }]);
+  assert.match(r.errors.join("\n"), /content: notes\/llms\.txt: broken link gone\.md/);
+  assert.equal(lastCommit(dir), "content: nightly 2026-10-07 (2 items)");
 });
 
 test("lock: a live holder blocks, a dead holder is taken over", () => {

@@ -51,7 +51,7 @@ Deliberate deviations from PLAN, all small:
    - Measured (claude -p, 2.1.287): Haiku extraction 9-min video $0.036 / 27 s, 35-min video $0.16 (4 calls);
      Sonnet summary ~$0.04. `npm run nightly -- --pillars video --only yt-microsoft --quota 2 --no-guard` is the
      local end-to-end check.
-   - Known gaps: `check:leak` and `validate:content` scripts point at files M0 never wrote.
+   - ~~Known gaps: `check:leak` and `validate:content` scripts point at files M0 never wrote.~~ Written (D24).
 4. ~~Learn docs~~ Done 2026-10-06 (narratives fill in nightly):
    - `fetched` (`pipeline/fetch/git-page.ts`): Learn metadata for all 8,050 pages from the blobless mirrors, quota-free,
      batch blob prefetch. 1,146 pages carry `ms.search.form` (2,152 ids) for the M2 docs↔objects join.
@@ -82,7 +82,9 @@ Deliberate deviations from PLAN, all small:
   `npm run link:roadmap -- --review N` prints every dropped link. Follow-ups: Learn "what's new" pages hit the
   3-per-ref cap and link nothing (they cover dozens of features legitimately); ~3,400 Learn pages still to extract
   will cost ~$9 of linking spread over nights.
-- `check:leak` + `validate:content` scripts (M0 placeholders), then community video captions into the vault (D08).
+- ~~`check:leak` + `validate:content` scripts~~ Done 2026-10-06 (D24): `pipeline/validate/{leak,content}.ts`, nightly
+  gate before every commit, PR CI steps. Next: community video captions into the vault (D08); needs the vault
+  checked out on the Mini (deploy key: owner-approved security step), then `captioned` may accept community tiers.
 - Weekly retry for `no-captions` skips; usage-guard token (D16) when a durable source exists.
 - M2 code pillar: tree-sitter-al extractor, 28/29 W1 + country overlays, docs↔objects via `ms.search.form`
   (1,146 pages, 2,152 ids already recorded), object hubs for the generated reference pages.
