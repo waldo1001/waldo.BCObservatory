@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-work-family",
   "published_at": "2026-07-17T14:25:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1bb141ffaf34a0fb370f1216fe311ac8c3f7539d",
       "words": 232,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T16:15:37.158Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.005757
+    },
+    "summarized": {
+      "at": "2026-10-06T16:15:47.287Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:15:47.288Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:15:47.289Z",
+      "page": false
     }
   },
   "input_hash": "1bb141ffaf34a0fb370f1216fe311ac8c3f7539d",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1bb141ffaf34a0fb370f1216fe311ac8c3f7539d"
+  "output_hash": "6ab79b019b05c793278b309c94867759186ebfe8d5b04ada0e054d7c9621967f"
 }

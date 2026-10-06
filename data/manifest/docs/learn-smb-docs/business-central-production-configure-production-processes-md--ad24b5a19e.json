@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-configure-production-processes",
   "published_at": "2026-07-17T13:46:14.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "1b0435b4c2231effd802ab0c6e5bcb23dedf5d3e",
       "words": 832,
       "forms": 4
+    },
+    "extracted": {
+      "at": "2026-10-06T16:15:37.161Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005757
+    },
+    "summarized": {
+      "at": "2026-10-06T16:15:47.297Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:15:47.298Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:15:47.299Z",
+      "page": false
     }
   },
   "input_hash": "1b0435b4c2231effd802ab0c6e5bcb23dedf5d3e",
@@ -56,5 +75,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1b0435b4c2231effd802ab0c6e5bcb23dedf5d3e"
+  "output_hash": "04a2719d3ec383b4ca0bd0124d8af20d76e8b63b719f456c1fb32dceac456a38"
 }

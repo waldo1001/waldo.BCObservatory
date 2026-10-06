@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-register-consumption-and-output",
   "published_at": "2026-07-17T14:25:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "ff0182efa9b7ae509d134eccbc349d91203505ee",
       "words": 812,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T16:15:37.154Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.005757
+    },
+    "summarized": {
+      "at": "2026-10-06T16:15:37.162Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:15:37.163Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:15:37.164Z",
+      "page": false
     }
   },
   "input_hash": "ff0182efa9b7ae509d134eccbc349d91203505ee",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ff0182efa9b7ae509d134eccbc349d91203505ee"
+  "output_hash": "ebf3135375153d4c69a8526e53e3fd584803b4ed68bbcb65b19e47371938749b"
 }

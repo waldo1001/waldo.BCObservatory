@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/sustainability-carbon-credit.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-carbon-credit",
+  "title": "Work with carbon credits",
+  "blob": "742ed7ea256258358726c815c40ccdc55615b87d",
+  "summary": "Work with carbon credits explains how to set up carbon credits as items and purchase them through purchase orders or sustainability journals to offset emissions and remain carbon neutral.",
+  "systems": [
+    "sustainability",
+    "finance",
+    "inventory"
+  ],
+  "topics": [
+    "carbon credits",
+    "emissions",
+    "sustainability accounting",
+    "environmental compliance"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sustainability Journal"
+    }
+  ],
+  "features": [
+    "GHG credit setup",
+    "carbon credit items",
+    "purchase carbon credits",
+    "sustainability journals",
+    "emission CO2 tracking",
+    "sustainability accounts"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006152,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/subcontract-components.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/subcontract-components",
+  "title": "Manage components in subcontracting",
+  "blob": "db0cda15663d135b19eb07623404a87ac6c0a691",
+  "summary": "Manage components in subcontracting explains how to handle component supply methods, assign locations, create transfer orders, and manage returns when subcontracting manufacturing operations to vendors.",
+  "systems": [
+    "manufacturing",
+    "inventory",
+    "purchasing"
+  ],
+  "topics": [
+    "subcontracting components",
+    "component supply methods",
+    "transfer orders",
+    "location management",
+    "production orders"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Released Production Orders"
+    },
+    {
+      "type": "page",
+      "name": "Routing"
+    },
+    {
+      "type": "page",
+      "name": "Production BOM"
+    },
+    {
+      "type": "page",
+      "name": "Stockkeeping Units"
+    }
+  ],
+  "features": [
+    "vendor-supplied components",
+    "consignment at vendor",
+    "transfer to vendor",
+    "transfer orders",
+    "location assignment",
+    "flushing methods",
+    "return transfers",
+    "component restrictions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006152,
+      "pages_in_call": 8
+    }
+  ]
+}

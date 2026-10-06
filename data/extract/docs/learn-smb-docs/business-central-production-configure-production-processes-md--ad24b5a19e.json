@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-configure-production-processes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-configure-production-processes",
+  "title": "Configure manufacturing processes",
+  "blob": "1b0435b4c2231effd802ab0c6e5bcb23dedf5d3e",
+  "summary": "Setting up manufacturing requires configuring production resources including work centers, routings, production BOMs, shop calendars, and manufacturing setup parameters to prepare for production planning and execution.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "manufacturing setup",
+    "production configuration",
+    "work center",
+    "machine center",
+    "routing",
+    "production bom",
+    "shop calendar",
+    "costing parameters"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Manufacturing Setup"
+    }
+  ],
+  "features": [
+    "manufacturing setup page",
+    "normal work hours",
+    "preset output quantity",
+    "consumption calculation",
+    "capacity unit of measure",
+    "cost calculation",
+    "dynamic low-level code",
+    "default flushing method",
+    "production order numbering",
+    "components at location"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005757,
+      "pages_in_call": 8
+    }
+  ]
+}

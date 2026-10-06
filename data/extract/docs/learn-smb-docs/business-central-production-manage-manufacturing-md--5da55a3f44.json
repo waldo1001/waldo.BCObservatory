@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-manage-manufacturing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-manage-manufacturing",
+  "title": "Manufacturing overview",
+  "blob": "aa24ca7556a8a274744e6ba03771a39872e0f849",
+  "summary": "Manufacturing in Business Central helps plan, schedule, execute, and analyze production using production BOMs, routings, work and machine centers to coordinate material consumption, operation time, output, and costing.",
+  "systems": [
+    "manufacturing",
+    "inventory",
+    "warehouse"
+  ],
+  "topics": [
+    "manufacturing overview",
+    "production order",
+    "production bom",
+    "routing",
+    "work center",
+    "machine center",
+    "costing",
+    "flushing"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Production Journal"
+    }
+  ],
+  "features": [
+    "manual consumption and output recording",
+    "batch posting",
+    "production order reversal",
+    "scrap posting",
+    "capacity posting",
+    "finished production order costing",
+    "subcontracting",
+    "power bi manufacturing app"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005757,
+      "pages_in_call": 8
+    }
+  ]
+}

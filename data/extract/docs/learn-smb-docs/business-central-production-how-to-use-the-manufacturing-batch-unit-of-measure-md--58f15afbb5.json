@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-to-use-the-manufacturing-batch-unit-of-measure.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-use-the-manufacturing-batch-unit-of-measure",
+  "title": "Use the manufacturing batch units of measure",
+  "blob": "da659bf885f4508c726717d26ff75c38f2345323",
+  "summary": "Manufacturing batch units of measure allow production of items in a different unit than inventory stock, such as producing tons while stocking pieces, with correct component calculation during production.",
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "topics": [
+    "batch unit of measure",
+    "manufacturing",
+    "production bom",
+    "component quantity",
+    "unit conversion"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Item Units of Measure"
+    }
+  ],
+  "features": [
+    "batch unit of measure setup",
+    "component quantity calculation",
+    "production order refresh",
+    "quantity per field"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005757,
+      "pages_in_call": 8
+    }
+  ]
+}

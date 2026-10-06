@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-to-view-the-load-on-work-centers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-view-the-load-on-work-centers",
+  "title": "View Load on Work and Machine Centers",
+  "blob": "5e90995aec2b660e31f183eaed907c4ca40777ea",
+  "summary": "Load shows work assigned to production resources from production orders, while capacity shows what resources can perform. This page explains how to view and compare load versus capacity, identify bottlenecks, and use finite capacity scheduling.",
+  "systems": [
+    "manufacturing"
+  ],
+  "topics": [
+    "load",
+    "capacity",
+    "work center",
+    "machine center",
+    "bottleneck",
+    "scheduling",
+    "finite capacity",
+    "utilization"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Work Centers"
+    },
+    {
+      "type": "page",
+      "name": "Work Center Task List"
+    },
+    {
+      "type": "page",
+      "name": "Work Center Calendar Matrix"
+    }
+  ],
+  "features": [
+    "view load by period",
+    "view as net change or balance at date",
+    "work center task list",
+    "scheduling conflicts",
+    "capacity constrained resources",
+    "finite capacity scheduling"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005757,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/ui-how-users-permissions.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-users-permissions",
+  "title": "Create users according to licenses",
+  "blob": "580140854b6b06494455974c61e0088ddbf54dda",
+  "summary": "Create users according to licenses describes how administrators create users, assign permission sets, manage licenses, and configure permissions based on license types for Business Central online and on-premises.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "user management",
+    "licensing",
+    "permissions",
+    "security groups",
+    "user profiles"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Users"
+    },
+    {
+      "type": "page",
+      "name": "License Configuration"
+    },
+    {
+      "type": "page",
+      "name": "User Card"
+    }
+  ],
+  "features": [
+    "user creation",
+    "permission sets",
+    "license assignment",
+    "security groups",
+    "user groups",
+    "delegated admin",
+    "license configuration",
+    "user synchronization"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006152,
+      "pages_in_call": 8
+    }
+  ]
+}

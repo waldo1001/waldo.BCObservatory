@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-subcontract-manufacturing",
   "published_at": "2026-07-09T07:35:43.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "8bdc10959a3ef589b3b3fdaf178e2c4471fd9ab3",
       "words": 570,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T16:15:27.487Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.006152
+    },
+    "summarized": {
+      "at": "2026-10-06T16:15:27.500Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:15:27.500Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:15:27.501Z",
+      "page": false
     }
   },
   "input_hash": "8bdc10959a3ef589b3b3fdaf178e2c4471fd9ab3",
@@ -47,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8bdc10959a3ef589b3b3fdaf178e2c4471fd9ab3"
+  "output_hash": "ffa583ddb1f84cd3450cfe92cfc496b7453ba2d2dbc145c3604f6fb27648e4e7"
 }

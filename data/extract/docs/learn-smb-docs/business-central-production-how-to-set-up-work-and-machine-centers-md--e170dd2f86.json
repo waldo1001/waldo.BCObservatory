@@ -1,0 +1,60 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-to-set-up-work-and-machine-centers.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-set-up-work-and-machine-centers",
+  "title": "Set up work centers and machine centers",
+  "blob": "c2e886a2eb9fb7e6fd2eaa40f785aa1662d13e25",
+  "summary": "Work centers and machine centers represent manufacturing resources and their capacity. This page explains setup, organization in groups, calendars, cost calculations, flushing methods, and capacity-constrained resource configuration for finite capacity scheduling.",
+  "systems": [
+    "manufacturing",
+    "finance"
+  ],
+  "topics": [
+    "work center",
+    "machine center",
+    "capacity",
+    "efficiency",
+    "cost calculation",
+    "flushing method",
+    "capacity constraint",
+    "consolidated calendar"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Work Centers"
+    },
+    {
+      "type": "page",
+      "name": "Capacity Constrained Resources"
+    },
+    {
+      "type": "page",
+      "name": "Work Center Load"
+    }
+  ],
+  "features": [
+    "work center groups",
+    "machine center assignment",
+    "shop calendar",
+    "direct unit cost",
+    "indirect cost",
+    "overhead rate",
+    "unit cost calculation",
+    "flushing method",
+    "queue time",
+    "bin codes",
+    "finite capacity scheduling",
+    "dampener percent"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005757,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/production-how-to-register-consumption-and-output.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-register-consumption-and-output",
+  "title": "Register consumption output for a production order",
+  "blob": "ff0182efa9b7ae509d134eccbc349d91203505ee",
+  "summary": "The Production Journal page registers consumption, output, scrap, and operation time for a released production order, combining these functions and updating inventory, capacity, costs, and progress when posted.",
+  "systems": [
+    "manufacturing",
+    "inventory",
+    "finance"
+  ],
+  "topics": [
+    "production journal",
+    "consumption",
+    "output",
+    "scrap",
+    "released production order",
+    "flushing method",
+    "posting"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Production Journal"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Component"
+    },
+    {
+      "type": "table",
+      "name": "Prod. Order Routing"
+    }
+  ],
+  "features": [
+    "register consumption quantities",
+    "register output quantities",
+    "register scrap",
+    "register operation time",
+    "post journal",
+    "flushing method filter",
+    "preset output quantity",
+    "inventory posting setup by location"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005757,
+      "pages_in_call": 8
+    }
+  ]
+}

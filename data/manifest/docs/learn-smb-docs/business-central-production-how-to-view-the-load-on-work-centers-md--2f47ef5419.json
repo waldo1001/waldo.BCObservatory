@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-view-the-load-on-work-centers",
   "published_at": "2026-07-17T14:25:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5e90995aec2b660e31f183eaed907c4ca40777ea",
       "words": 662,
       "forms": 8
+    },
+    "extracted": {
+      "at": "2026-10-06T16:15:37.157Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.005757
+    },
+    "summarized": {
+      "at": "2026-10-06T16:15:47.284Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:15:47.285Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:15:47.286Z",
+      "page": false
     }
   },
   "input_hash": "5e90995aec2b660e31f183eaed907c4ca40777ea",
@@ -76,5 +95,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5e90995aec2b660e31f183eaed907c4ca40777ea"
+  "output_hash": "a0f10f070df0d6aaf370a05cbc61781889fc6bff6d1b7f09119c24f554fa4561"
 }

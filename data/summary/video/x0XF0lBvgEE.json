@@ -1,0 +1,28 @@
+{
+  "video_id": "x0XF0lBvgEE",
+  "item_id": "video/yt-saurav/x0XF0lBvgEE",
+  "summary": "Business Central release plans were discontinued starting with version 2026 release wave 2, and new capabilities are now published on the AI at Work Roadmap. The video covers the roadmap's filters, CSV export, MCP server access, and the unchanged release cadence of two major releases a year plus monthly minor updates.",
+  "overview": "Microsoft stopped publishing Business Central release plans starting with version 2026 release wave 2. New capabilities are now listed on the AI at Work Roadmap, a single destination for release information across Microsoft products. Existing release plans stay available for historical reference until further notice.\n\nThe video walks through the roadmap's filters and its launched and in-development items, using examples such as the Copilot agent data queries with the MCP server and the Expense Agent withholding tax update. It also shows downloading roadmap data as CSV and querying the roadmap through an MCP server from AI clients. The presenter notes that roadmap items carry less detail than the old release plans.",
+  "key_points": [
+    "Starting with version 2026 release wave 2, Microsoft no longer publishes Business Central release plans; existing ones remain available for historical reference until further notice.",
+    "New Business Central capabilities are published on the AI at Work Roadmap, which covers all Microsoft products.",
+    "Business Central still delivers two major releases per year and monthly minor updates.",
+    "Update version numbers are expected to continue, but wave terminology will likely evolve; Microsoft says it will share more details once plans are finalized.",
+    "The Expense Agent withholding tax update is in preview from October 2026, typically with CU0 or CU1, with rollout starting in April 2027.",
+    "Roadmap data can be downloaded as CSV for use in Excel or import into a Business Central environment.",
+    "An MCP server lets IT admins and engineers query release and roadmap data from AI clients such as Visual Studio Code and GitHub Copilot, without using the website."
+  ],
+  "audience": [
+    "administrator",
+    "functional consultant",
+    "developer",
+    "partner"
+  ],
+  "extraction_hash": "26a7b523e60544c731f4b41321d51de35b718d3e4cfd74b446f37c341a9969f0",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": true,
+    "cost_usd": null
+  }
+}

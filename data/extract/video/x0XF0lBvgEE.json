@@ -1,0 +1,342 @@
+{
+  "video_id": "x0XF0lBvgEE",
+  "item_id": "video/yt-saurav/x0XF0lBvgEE",
+  "title": "Microsoft Ends Business Central Release Plans: What Changes?",
+  "duration_s": 821,
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "release plans",
+    "ai at work roadmap",
+    "versioning",
+    "release management",
+    "business central roadmap",
+    "feature announcements",
+    "mcp server",
+    "preview and ga status"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Historical Context",
+      "t_start": 0,
+      "t_end": 50.1
+    },
+    {
+      "title": "Release Plans and Version 28.0 Overview",
+      "t_start": 50.1,
+      "t_end": 128.4
+    },
+    {
+      "title": "Transition to AI at Work Roadmap",
+      "t_start": 128.4,
+      "t_end": 210.5
+    },
+    {
+      "title": "Release Schedule and Versioning Changes",
+      "t_start": 210.5,
+      "t_end": 289.6
+    },
+    {
+      "title": "AI at Work Roadmap Features and Filters",
+      "t_start": 289.6,
+      "t_end": 362.3
+    },
+    {
+      "title": "Launched and In-Development Features",
+      "t_start": 362.3,
+      "t_end": 484.7
+    },
+    {
+      "title": "Roadmap Details and Multi-Product Integration",
+      "t_start": 484.7,
+      "t_end": 610.1
+    },
+    {
+      "title": "Downloading Roadmap Data and MCP Integration",
+      "t_start": 610.1,
+      "t_end": 720.7
+    },
+    {
+      "title": "Summary and Conclusion",
+      "t_start": 720.7,
+      "t_end": 821
+    }
+  ],
+  "features": [
+    {
+      "name": "AI at Work Roadmap",
+      "description": "New unified destination for all Microsoft product release information replacing Business Central release plans. Provides centralized location for developers and partners to track upcoming features across all Microsoft products.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 128.4,
+      "t_end": 210.5,
+      "is_demoed": true,
+      "caveats": [
+        "Details available on roadmap items may be less comprehensive than previous release plans"
+      ],
+      "tags": [
+        "roadmap",
+        "release management",
+        "unified platform",
+        "announcement"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Release Plan Discontinuation",
+      "description": "Microsoft stopped publishing detailed Business Central release plans starting with version 2026 release wave 2. Existing release plans remain available for historical reference.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 114.7,
+      "t_end": 128.4,
+      "is_demoed": false,
+      "caveats": [
+        "Historical release plans will remain available",
+        "This impacts documentation and reference materials"
+      ],
+      "tags": [
+        "release plans",
+        "deprecation",
+        "documentation",
+        "transition"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Copilot Agent Capabilities - Run Data Queries with MCP Server",
+      "description": "Copilot agent feature announced with version 29 enabling running data queries with MCP server, rolled out in October 2026.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 380.9,
+      "t_end": 398.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "agents",
+        "mcp",
+        "data queries"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Dynamics 365 Business Central Expense Agent - Withholding Taxes",
+      "description": "Expense agent receiving update for calculating withholding taxes in expense reports. Preview available October 2026 with CU0 or CU1, rollout starting April 2027.",
+      "status": "preview",
+      "status_evidence_t": 468.4,
+      "status_evidence_quote": "the preview available will be on October 2026 typically with CU 0 or CU1 and the roll out start in the next wave which",
+      "status_evidence_verified": true,
+      "t_start": 457.5,
+      "t_end": 484.7,
+      "is_demoed": true,
+      "caveats": [
+        "Preview available before general rollout",
+        "Rollout scheduled for April 2027 wave"
+      ],
+      "tags": [
+        "expense agent",
+        "withholding taxes",
+        "preview",
+        "expense reports"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Roadmap CSV Export",
+      "description": "Ability to download roadmap data as CSV file for offline use in Excel or import into Business Central environment for sharing with team members.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 656.3,
+      "t_end": 688.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "roadmap",
+        "export",
+        "csv",
+        "data management"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "MCP Server Integration for Roadmap",
+      "description": "MCP server connection enabling IT admins, engineers and technical users to query release and roadmap information directly in AI clients like Visual Studio Code and GitHub Copilot without relying on website.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 704.4,
+      "t_end": 765.6,
+      "is_demoed": true,
+      "caveats": [
+        "Requires integration with AI clients"
+      ],
+      "tags": [
+        "mcp",
+        "integration",
+        "ai clients",
+        "roadmap access"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Business Central Release Schedule",
+      "description": "Business Central continues to deliver two major releases every year and monthly minor updates as before, maintaining established release cadence.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 210.5,
+      "t_end": 221.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "release schedule",
+        "versioning",
+        "release cadence"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Roadmap Version Numbering and Wave Terminology Evolution",
+      "description": "Microsoft expects to continue with update version numbers but wave terminology will likely evolve. More details will be shared as plans are finalized.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 231.7,
+      "t_end": 260.4,
+      "is_demoed": false,
+      "caveats": [
+        "Subject to change as plans finalize"
+      ],
+      "tags": [
+        "versioning",
+        "wave terminology",
+        "release naming"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "AI at Work Roadmap",
+      "t": 128.4
+    },
+    {
+      "type": "other",
+      "name": "Microsoft Learn article",
+      "t": 62.7
+    },
+    {
+      "type": "other",
+      "name": "MCP server",
+      "t": 380.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Jam",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 114.7,
+      "text": "Now starting version 2026 release wave 2, Microsoft stopped publishing release plan.",
+      "why_it_matters": "This announces the major change being discussed - the discontinuation of detailed release plans that developers and partners relied on.",
+      "check": "exact"
+    },
+    {
+      "t": 128.4,
+      "text": "New business center capabilities will now be published to a new get a new home for this which is AI at work road map.",
+      "why_it_matters": "Defines where developers and partners should look for Business Central feature announcements going forward.",
+      "check": "exact"
+    },
+    {
+      "t": 182.5,
+      "text": "Microsoft is now trying to get all these release nodes into a unified destination for all Microsoft product.",
+      "why_it_matters": "Explains the strategic reasoning behind consolidating release information across all Microsoft products in one platform.",
+      "check": "exact"
+    },
+    {
+      "t": 210.5,
+      "text": "The business center will continue to deliver two major releases every year and monthly minor update as it was earlier.",
+      "why_it_matters": "Clarifies that release cadence remains unchanged despite the transition to new roadmap platform.",
+      "check": "exact"
+    },
+    {
+      "t": 243.3,
+      "text": "Microsoft says that they expect to continue with the update numbers which is virgin but the wave terminology will likely evolve.",
+      "why_it_matters": "Indicates potential future changes to how releases are numbered and described.",
+      "check": "exact"
+    },
+    {
+      "t": 468.4,
+      "text": "the preview available will be on October 2026 typically with CU 0 or CU1 and the roll out start in the next wave which",
+      "why_it_matters": "Provides specific timing for the expense agent withholding taxes feature preview and general availability.",
+      "check": "exact"
+    },
+    {
+      "t": 747,
+      "text": "Enable IT admin, engineer and technical user to query release and road map directly into their AI client without relying on website.",
+      "why_it_matters": "Explains the value proposition of MCP integration for accessing roadmap data programmatically.",
+      "check": "exact"
+    },
+    {
+      "t": 780,
+      "text": "the only thing from my perspective what's missing is details around the change that the new uh environment is bringing which will not be",
+      "why_it_matters": "Identifies a limitation in the new roadmap platform compared to previous release plans.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 114.7,
+      "kind": "subject-to-change",
+      "text": "Microsoft stopped publishing release plan starting version 2026 release wave 2"
+    },
+    {
+      "t": 140.3,
+      "kind": "other",
+      "text": "existing release plans uh available for historical reference until further notice"
+    },
+    {
+      "t": 243.3,
+      "kind": "subject-to-change",
+      "text": "wave terminology will likely evolve and Microsoft will share more details as the plan gets finalized"
+    },
+    {
+      "t": 468.4,
+      "kind": "preview",
+      "text": "preview available will be on October 2026 typically with CU 0 or CU1"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

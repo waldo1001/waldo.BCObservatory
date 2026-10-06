@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-manage-manufacturing",
   "published_at": "2026-07-17T14:25:33.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "aa24ca7556a8a274744e6ba03771a39872e0f849",
       "words": 436,
       "forms": 28
+    },
+    "extracted": {
+      "at": "2026-10-06T16:15:37.159Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.005757
+    },
+    "summarized": {
+      "at": "2026-10-06T16:15:47.290Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T16:15:47.291Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T16:15:47.292Z",
+      "page": false
     }
   },
   "input_hash": "aa24ca7556a8a274744e6ba03771a39872e0f849",
@@ -176,5 +195,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "aa24ca7556a8a274744e6ba03771a39872e0f849"
+  "output_hash": "f8744eb6619c2e551d2b5706396404fe7b07875f36214fc6bf0bd7ec95383539"
 }
