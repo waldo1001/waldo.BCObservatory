@@ -45,3 +45,14 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   without a new credential. Consequence: it sees only our calls, not Jarvis's or the owner's.
 - **D18 Videos are the first M1 pillar.** Why: 84 seed VTTs exist and the extraction loop is proven on them, so it is
   the shortest path to real pages. Learn docs follow, then roadmap stubs and the first Opus-reviewed hubs.
+- **D19 A status claim needs a status word.** A feature's status (ga, preview, announced) stands only when its
+  verbatim evidence quote states it; "we introduced X" is not "X is generally available". Why: verbatim checks proved
+  quotes existed, not that they supported the label, and summaries repeated the overclaim. Consequence: launch-event
+  videos mostly read "status not stated"; real status comes from the Microsoft 365 roadmap feature pages.
+- **D20 Spend caps bind, not item counts; small items are batched.** Measured with `claude -p`: a call carries ~$0.012
+  of fixed CLI overhead; Haiku without thinking for facts; Learn pages go 8 per Haiku call (~$0.008 a page). Item
+  quotas were raised (docs 400, videos 40, hubs 60, captions 60) so the $10 night / $50 week caps (D17) are the
+  limit. Consequence: executor batch handlers; backlog in weeks instead of months.
+- **D21 Reviews gate, they do not just annotate.** Opus edits pass the same validators as the first pass; a rejected
+  video is skipped and a rejected hub narrative is withheld from its page. Reviews are tied to the input hash of
+  what they reviewed.

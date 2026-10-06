@@ -63,7 +63,20 @@ Deliberate deviations from PLAN, all small:
    - Hub narratives (`pipeline/summarize/hub.ts`): Sonnet from member summaries + child narratives, ready at 80%,
      input-hash refresh, `hub_refresh` quota; $0.045/hub.
    - Opus `reviewed` for flagged videos (`pipeline/review/video.ts`), $0.13-0.16/review. Hub reviews (D07) not yet.
-5. Roadmap feature stubs (deterministic) and first Opus-reviewed hubs; unreviewed pages ship with a badge.
+5. ~~Roadmap feature stubs and first Opus-reviewed hubs~~ Done 2026-10-06:
+   - `pipeline/render/feature.ts`: 80 feature pages from the Microsoft 365 roadmap snapshot (`content/features/`,
+     `schemas/frontmatter.feature.json`, site routes, `features/llms.txt`); status/wave/dates deterministic.
+   - `pipeline/review/hub.ts`: Opus reviews hub narratives within `opus_reviews` ($0.10/hub); reviewed pages drop
+     the machine-generated badge, rejected narratives are withheld (D21).
+
+## Next (proposed, M1 wrap-up then M2)
+
+- Link roadmap features to the videos and Learn pages that cover them (needs an LLM matcher over candidates in the
+  same system; no title matching, AGENTS.md), so launch-event video features inherit roadmap status.
+- `check:leak` + `validate:content` scripts (M0 placeholders), then community video captions into the vault (D08).
+- Weekly retry for `no-captions` skips; usage-guard token (D16) when a durable source exists.
+- M2 code pillar: tree-sitter-al extractor, 28/29 W1 + country overlays, docs↔objects via `ms.search.form`
+  (1,146 pages, 2,152 ids already recorded), object hubs for the generated reference pages.
 
 ## Facts you will need
 
