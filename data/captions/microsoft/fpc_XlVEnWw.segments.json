@@ -1,0 +1,88 @@
+{
+  "video_id": "fpc_XlVEnWw",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 1.5,
+      "end": 12.2,
+      "text": "In this video, we're going to look at how to pay vendors in Dynamics SL and compare that to the experience of paying vendors in Dynamics 365 Business Central."
+    },
+    {
+      "t": 12.2,
+      "end": 24.6,
+      "text": "In SL, navigate to accounts payable. Then, under processes, select payment selection. In payment selection, keep the default period, account, and payment criteria."
+    },
+    {
+      "t": 24.6,
+      "end": 35.5,
+      "text": "Click down in the grid and PV on the reference number field. Note the list of vouchers available for payment. Now, let's see how we can pay vendors in Business Central."
+    },
+    {
+      "t": 35.5,
+      "end": 48.6,
+      "text": "Business Central allows you to easily create payment journals and suggest the vendors to pay based on criteria you've defined. Like SL, let's take a closer look at creating vendor payments."
+    },
+    {
+      "t": 48.6,
+      "end": 61.9,
+      "text": "I'll click on the search icon and type in payment journals. Based on the search results, I can then select payment journal. Under prepare, I'll select suggest vendor payments."
+    },
+    {
+      "t": 61.9,
+      "end": 73.5,
+      "text": "The suggest vendor payments wizard opens. I can select previously saved defaults so that I don't need to re-enter information each time I create vendor payments."
+    },
+    {
+      "t": 73.5,
+      "end": 87.4,
+      "text": "The last payment date is how I can indicate that we want to pay invoices due on or before that date. And we've also indicated to include any available payment documents."
+    },
+    {
+      "t": 87.4,
+      "end": 98.5,
+      "text": "Now, let's click okay and have Business Central suggest the list of payments based on the criteria we've entered. In this list, you can see the system has created several payments for my vendors."
+    },
+    {
+      "t": 98.5,
+      "end": 111.6,
+      "text": "I currently have the system set to create one payment per invoice. However, in a moment, we'll look at how we can change that setting. Here, I can see the amounts of the payments and the invoices"
+    },
+    {
+      "t": 111.6,
+      "end": 127.2,
+      "text": "they're applied to. It looks like this payment run will come to a little over $30,000. By using the vendor priority functionality in Business Central, BC will suggest payments to ensure that we're paying our high priority vendors first."
+    },
+    {
+      "t": 127.2,
+      "end": 138.8,
+      "text": "To see the vendor priority, let's open the vendor card. In the vendor card, I can go under the payments area and see the priority. The lower the number, the higher the priority."
+    },
+    {
+      "t": 138.8,
+      "end": 149.8,
+      "text": "We see Worldwide Imports is set to priority one. Now, let's go back and run a payment again. Paying only our high priority vendors."
+    },
+    {
+      "t": 149.8,
+      "end": 162.1,
+      "text": "First, I'm going to select all my payments so I can delete them and then regenerate them. Back under the suggested vendor payments, I'm now going to select the option to use vendor priority."
+    },
+    {
+      "t": 162.1,
+      "end": 174,
+      "text": "I'm also going to type in that we want to pay $20,000 towards our vendor invoices for the month. We will then choose to summarize per vendor to create one payment per vendor."
+    },
+    {
+      "t": 174,
+      "end": 191.2,
+      "text": "Now, you can see the system has reduced the number of payments to only our priority one vendors. Through vendor priority and suggested payments, Business Central helps streamline paying your most strategic vendors and gives you better control of your cash flow."
+    },
+    {
+      "t": 191.2,
+      "end": 197.8,
+      "text": "To learn more about Business Central, see the following resources."
+    }
+  ],
+  "markers": [],
+  "word_count": 486
+}
