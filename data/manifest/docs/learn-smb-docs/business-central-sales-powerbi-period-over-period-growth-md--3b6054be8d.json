@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sales-powerbi-period-over-period-growth",
   "published_at": "2025-10-07T11:08:17.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "23d21177619be5cdc779d937d7aa96d5e76e3425",
       "words": 384,
       "forms": 1
+    },
+    "extracted": {
+      "at": "2026-10-06T19:02:13.741Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00335
+    },
+    "summarized": {
+      "at": "2026-10-06T19:02:15.513Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:02:15.514Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:02:15.515Z",
+      "page": false
     }
   },
   "input_hash": "23d21177619be5cdc779d937d7aa96d5e76e3425",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "23d21177619be5cdc779d937d7aa96d5e76e3425"
+  "output_hash": "7abd39ec09d511f5a2788ca6d491a572a7bcb1417cc726f030a478312c4b1555"
 }

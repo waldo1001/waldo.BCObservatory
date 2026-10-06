@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments-move.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments-move",
+  "title": "Transfer Environments",
+  "blob": "1026c4478d3f2390fb1fe202837328f41a738be2",
+  "summary": "Transfer environments between Microsoft Entra tenants for consolidation, acquisitions, or moving demo environments. Internal admins initiate transfers on source tenants and accept on destination tenants within 8 hours, with post-transfer setup required for users and integrations.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "environment transfer",
+    "entra tenant",
+    "multi-tenant",
+    "admin center",
+    "tenant migration",
+    "environment management"
+  ],
+  "objects": [],
+  "features": [
+    "environment transfer",
+    "tenant consolidation",
+    "pending transfer management",
+    "transfer auditing",
+    "post-transfer setup",
+    "downtime planning"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00335,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-reports",
   "published_at": "2025-10-10T07:35:03.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 0,
       "cost_usd": 0.004691
+    },
+    "summarized": {
+      "at": "2026-10-06T19:02:13.763Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:02:13.765Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:02:13.766Z",
+      "page": false
     }
   },
   "input_hash": "3f078b4f60b4ff7e7757213fc29925635167cf8e",

@@ -1,0 +1,1242 @@
+{
+  "video_id": "QT3RKx9rGJA",
+  "item_id": "video/yt-microsoft/QT3RKx9rGJA",
+  "title": "AL Go for GitHub January Office Hour",
+  "duration_s": 3721,
+  "systems": [
+    "platform",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "al-go",
+    "conditional settings",
+    "build modes",
+    "preprocessor symbols",
+    "versioning strategy",
+    "artifacts",
+    "performance",
+    "compiler",
+    "incremental builds",
+    "workflow",
+    "scheduling",
+    "dependencies"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Meeting Setup",
+      "t_start": 0,
+      "t_end": 109
+    },
+    {
+      "title": "Conditional Settings and Build Modes",
+      "t_start": 109,
+      "t_end": 241.5
+    },
+    {
+      "title": "Removal of This Build Artifacts",
+      "t_start": 241.5,
+      "t_end": 360.7
+    },
+    {
+      "title": "New Versioning Strategy (v3)",
+      "t_start": 360.7,
+      "t_end": 457.7
+    },
+    {
+      "title": "Opening Q&A Session",
+      "t_start": 457.7,
+      "t_end": 529
+    },
+    {
+      "title": "Performance and Compiler Optimization Questions",
+      "t_start": 529,
+      "t_end": 652.6
+    },
+    {
+      "title": "Workflow Branch Usage and Multi-Branch Updates",
+      "t_start": 652.6,
+      "t_end": 749.4
+    },
+    {
+      "title": "Environment Publishing and Scheduling",
+      "t_start": 749.4,
+      "t_end": 849.7
+    },
+    {
+      "title": "Incremental Builds Feature",
+      "t_start": 849.7,
+      "t_end": 947.8
+    },
+    {
+      "title": "Office Hours Format and Directions Sessions",
+      "t_start": 947.8,
+      "t_end": 1056.8
+    },
+    {
+      "title": "AL Go Sample Repositories and Documentation",
+      "t_start": 1056.8,
+      "t_end": 1149.6
+    },
+    {
+      "title": "Results Viewer and Page Scripting Tasks",
+      "t_start": 1149.6,
+      "t_end": 1264.3
+    },
+    {
+      "title": "External Dependencies and NuGet Feeds",
+      "t_start": 1264.3,
+      "t_end": 1370.6
+    },
+    {
+      "title": "Local Development Container Features",
+      "t_start": 1370.6,
+      "t_end": 1468.5
+    },
+    {
+      "title": "Scheduled Deployment and NuGet Publishing Model",
+      "t_start": 1468.5,
+      "t_end": 1583.2
+    },
+    {
+      "title": "Dependency Artifacts and Build Outputs",
+      "t_start": 1583.2,
+      "t_end": 1753
+    },
+    {
+      "title": "Office Hours Schedule and Audience Engagement",
+      "t_start": 1753,
+      "t_end": 1886.9
+    },
+    {
+      "title": "Self-hosted Runners and Workflow Configuration",
+      "t_start": 1886.9,
+      "t_end": 2020.6
+    },
+    {
+      "title": "Self-hosted Runner Setup and Hardware Recommendations",
+      "t_start": 2020.6,
+      "t_end": 2210.3
+    },
+    {
+      "title": "AL Go Adoption and Organizational Value",
+      "t_start": 2210.3,
+      "t_end": 2281.4
+    },
+    {
+      "title": "Test Data Deployment and Configuration Packages",
+      "t_start": 2281.4,
+      "t_end": 2364.8
+    },
+    {
+      "title": "Code Signing and Certificate Management",
+      "t_start": 2364.8,
+      "t_end": 2474.9
+    },
+    {
+      "title": "Configuration Packages and Demo Data Apps",
+      "t_start": 2474.9,
+      "t_end": 2572.7
+    },
+    {
+      "title": "AL-Go Telemetry and KQL Queries",
+      "t_start": 2572.7,
+      "t_end": 2652.9
+    },
+    {
+      "title": "Signing Tool Choices and Net Sign Commitment",
+      "t_start": 2652.9,
+      "t_end": 2762
+    },
+    {
+      "title": "Installation Ease and Extension Cleanup",
+      "t_start": 2762,
+      "t_end": 2885.2
+    },
+    {
+      "title": "Training and Workshops for AL-Go",
+      "t_start": 2885.2,
+      "t_end": 3035.7
+    },
+    {
+      "title": "Single Sign-On for GitHub Migration",
+      "t_start": 3035.7,
+      "t_end": 3108.3
+    },
+    {
+      "title": "Documentation Roadmap and Key Vault Credential Setup",
+      "t_start": 3108.3,
+      "t_end": 3249.7
+    },
+    {
+      "title": "AL-Go Repository and Project Architecture",
+      "t_start": 3249.7,
+      "t_end": 3380.4
+    },
+    {
+      "title": "Dependency Management and Repository Organization",
+      "t_start": 3380.4,
+      "t_end": 3462.2
+    },
+    {
+      "title": "Incremental Builds for Multi-Project Repositories",
+      "t_start": 3462.2,
+      "t_end": 3524.4
+    },
+    {
+      "title": "Local Development Environment with Multiple Projects",
+      "t_start": 3524.4,
+      "t_end": 3614.6
+    },
+    {
+      "title": "Licensing Requirements for AppSource Development",
+      "t_start": 3614.6,
+      "t_end": 3721
+    }
+  ],
+  "features": [
+    {
+      "name": "Conditional Settings on Build Mode",
+      "description": "Ability to define conditional settings in AL Go for GitHub based on build mode (e.g., default vs next major). Settings can be overridden based on which build mode is active.",
+      "status": "ga",
+      "status_evidence_t": 109,
+      "status_evidence_quote": "in the latest month we released version 6.3 there were like four uh things in that one besid some some fixes and stuff like",
+      "status_evidence_verified": true,
+      "t_start": 109,
+      "t_end": 204.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "conditional settings",
+        "build modes",
+        "configuration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Preprocessor Symbols",
+      "description": "Support for preprocessor symbols in AL Go for GitHub, allowing developers to define custom symbols and use them in AL code to conditionally compile based on build mode or other conditions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 127.4,
+      "t_end": 224.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "preprocessor symbols",
+        "conditional compilation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Removal of This Build Artifacts",
+      "description": "Elimination of temporary this build artifacts that were previously created for multi-project repository builds. Now always produce normal artifacts instead, which can be used for testing before pull request approval.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 241.5,
+      "t_end": 322.8,
+      "is_demoed": true,
+      "caveats": [
+        "Artifacts now have different naming conventions based on workflow type"
+      ],
+      "tags": [
+        "artifacts",
+        "build process",
+        "multiproject"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Versioning Strategy 3",
+      "description": "New versioning strategy where major, minor, and build numbers come from app.json, and only the revision number (fourth digit) is determined by the run number. Simplifies semantic versioning for releases.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 360.7,
+      "t_end": 437.5,
+      "is_demoed": true,
+      "caveats": [
+        "Only applies when using versioning strategy 3",
+        "Run attempts no longer increment version on rebuild"
+      ],
+      "tags": [
+        "versioning",
+        "semantic versioning",
+        "build number"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Compiler Folder for Container Builds",
+      "description": "Enhancement to AL Go pipeline allowing compilation using compiler folder before creating the container, resulting in faster compile times though slightly slower overall build times.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 541.7,
+      "t_end": 601.7,
+      "is_demoed": false,
+      "caveats": [
+        "Overall build may be slightly slower",
+        "Requires separate project setup for optimal performance"
+      ],
+      "tags": [
+        "performance",
+        "compiler",
+        "container",
+        "optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Use Workflow From Branch",
+      "description": "GitHub Actions feature that allows specifying which branch's workflow code to execute. Runs action in the context of the specified branch for source code and configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 652.6,
+      "t_end": 731.6,
+      "is_demoed": false,
+      "caveats": [
+        "Using old branches will run old version of AL Go which may not work",
+        "Maria working on PR to update AL Go system files across multiple branches"
+      ],
+      "tags": [
+        "workflow",
+        "branch context",
+        "github"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Scheduled Publish to Environment",
+      "description": "Capability to schedule deployment to production environments outside working hours using a YAML file that spawns the publish to environment action with a schedule.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 749.4,
+      "t_end": 849.7,
+      "is_demoed": false,
+      "caveats": [
+        "Requires manual YAML file creation",
+        "Documentation to be created within 1-2 weeks"
+      ],
+      "tags": [
+        "deployment",
+        "scheduling",
+        "production",
+        "workflow",
+        "automation",
+        "yaml"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Incremental Builds",
+      "description": "Pull request feature that only builds and deploys apps that have changed or depend on changed apps, rather than rebuilding all apps in the repository. Multiple apps in one repository or multi-project repositories can benefit from selective builds.",
+      "status": "preview",
+      "status_evidence_t": 926,
+      "status_evidence_quote": "we're expecting that one to get in uh preview within the next few uh weeks",
+      "status_evidence_verified": true,
+      "t_start": 849.7,
+      "t_end": 947.8,
+      "is_demoed": false,
+      "caveats": [
+        "Changes to low-level apps will still rebuild all dependent apps",
+        "Currently in PR/preview status",
+        "Deployment time is a limiting factor, not build time",
+        "Currently not available - requires enabling after PR merge"
+      ],
+      "tags": [
+        "incremental builds",
+        "performance",
+        "deployment",
+        "selective build",
+        "multi-project",
+        "optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Results Viewer for Page Scripting Tasks",
+      "description": "New tool being developed by Sebastian to view results from page scripting test execution in AL Go for GitHub.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1149.6,
+      "t_end": 1264.3,
+      "is_demoed": false,
+      "caveats": [
+        "May not be completed with version 7 release in April",
+        "Page scripting tasks in QA environment faces MFA authentication issues"
+      ],
+      "tags": [
+        "testing",
+        "page scripting",
+        "results viewer",
+        "qa"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Page Scripting Tasks in QA Deployment",
+      "description": "Feature to run page scripting tasks as part of deployment to QA environment to verify they complete with customer data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1149.6,
+      "t_end": 1264.3,
+      "is_demoed": false,
+      "caveats": [
+        "Page scripting runner does not work with MFA",
+        "Many users have or must enable MFA for authorization"
+      ],
+      "tags": [
+        "testing",
+        "page scripting",
+        "qa",
+        "mfa"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "NuGet Feed Support for External Dependencies",
+      "description": "AL Go for GitHub supports using NuGet feeds as a provider and consumer of NuGet packages for automatic dependency resolution.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1264.3,
+      "t_end": 1370.6,
+      "is_demoed": false,
+      "caveats": [
+        "AppSource symbols feed is automatically trusted but can only be used for compilation, not test running",
+        "NuGet configuration guidance for partners needs improvement"
+      ],
+      "tags": [
+        "dependencies",
+        "nuget",
+        "external",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Local Development Container with Private Repositories",
+      "description": "Local development creates containers that require GitHub user permissions to read and install all dependencies including from private repositories and NuGet feeds.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1370.6,
+      "t_end": 1468.5,
+      "is_demoed": false,
+      "caveats": [
+        "If user lacks permissions to dependencies, installation fails",
+        "No workaround currently available",
+        "GitHub packages are not supported in local dev"
+      ],
+      "tags": [
+        "local development",
+        "containers",
+        "dependencies",
+        "permissions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Publishing to NuGet Feed Model",
+      "description": "Proposed future model where apps are published to a NuGet feed and installations are pulled from the environment based on environment-defined schedules instead of pushing from GitHub.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1468.5,
+      "t_end": 1583.2,
+      "is_demoed": false,
+      "caveats": [
+        "Timeline is one to two years out",
+        "Currently only publish-to-environment model is available"
+      ],
+      "tags": [
+        "nuget",
+        "publishing",
+        "deployment",
+        "future"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Generate Dependency Artifacts",
+      "description": "A setting that creates build artifacts containing all dependencies used for builds, stored in an artifact called project branch dependencies with version numbers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1637.9,
+      "t_end": 1666.8,
+      "is_demoed": false,
+      "caveats": [
+        "not currently used by local development",
+        "Proposal to use this instead of rebuilding in local dev is under discussion"
+      ],
+      "tags": [
+        "artifacts",
+        "dependencies",
+        "configuration",
+        "dependency management",
+        "build artifacts"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Self-Hosted Runner Support for All Workflows",
+      "description": "Ability to run all workflows on self-hosted runners by configuring the runs-on setting without editing YAML files. Two settings determine runner selection: GitHub Runner for build jobs and runs-on for other workflows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1886.9,
+      "t_end": 1988.6,
+      "is_demoed": false,
+      "caveats": [
+        "update ELO system files workflow always uses GitHub hosted runner",
+        "runner groups must match the syntax specified in runs-on setting"
+      ],
+      "tags": [
+        "runners",
+        "workflow",
+        "configuration",
+        "automation",
+        "self-hosted"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Configuration Packages for Test Data",
+      "description": "Ability to define configuration packages that are applied during build and container pipeline runs. Different configuration packages can be specified per localization version.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2281.4,
+      "t_end": 2329.9,
+      "is_demoed": false,
+      "caveats": [
+        "custom configuration can also be done via import test data NPC container script"
+      ],
+      "tags": [
+        "testing",
+        "test data",
+        "configuration",
+        "localization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Import Test Data NPC Container Override",
+      "description": "A custom script option called import test data NPC container that allows custom configuration and demo data setup during container pipeline runs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2329.9,
+      "t_end": 2350,
+      "is_demoed": false,
+      "caveats": [
+        "requires writing custom scripts"
+      ],
+      "tags": [
+        "testing",
+        "customization",
+        "container",
+        "scripting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Dotnet Sign Integration for Code Signing",
+      "description": "AL Go utilizes dotnet sign for application code signing. Supports certificates from various sources and can potentially be extended to support additional certificate authorities or vaults.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2364.8,
+      "t_end": 2438.6,
+      "is_demoed": false,
+      "caveats": [
+        "limited to what dotnet sign supports",
+        "custom CA vaults may require PR contribution"
+      ],
+      "tags": [
+        "signing",
+        "certificate",
+        "security",
+        "integration"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Resources in Test Apps",
+      "description": "For AL 4.2, resources can be included in the app itself. For test apps, resources could be used in the initialization step to load configuration data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2474.9,
+      "t_end": 2494.1,
+      "is_demoed": false,
+      "caveats": [
+        "Different loading means for test vs regular apps"
+      ],
+      "tags": [
+        "resources",
+        "test apps",
+        "al42",
+        "configuration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Configuration Packages Deprecation",
+      "description": "Configuration packages are being phased out. Extended demo data will no longer be shipped as configuration packages but as demo data apps. The functionality is maintained but the artifact format is changing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2494.1,
+      "t_end": 2554.8,
+      "is_demoed": false,
+      "caveats": [
+        "Current versions still ship configuration packages",
+        "Deprecation timeline not specified"
+      ],
+      "tags": [
+        "configuration packages",
+        "deprecation",
+        "demo data",
+        "artifacts"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go Telemetry Module",
+      "description": "AL-Go has a telemetry module that records data. The team is considering creating KQL queries and dashboards to help analyze telemetry data, errors, and usage patterns.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2572.7,
+      "t_end": 2643.4,
+      "is_demoed": false,
+      "caveats": [
+        "KQL queries not yet available",
+        "Dashboard concept is proposed but not yet built",
+        "Module is relatively new"
+      ],
+      "tags": [
+        "telemetry",
+        "kql",
+        "dashboard",
+        "monitoring",
+        "analytics"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Commitment to Net Sign",
+      "description": "The team has decided to standardize on net sign for code signing. They recommend against using the old SDK sign tool and will not accept PRs proposing alternative signing approaches.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2652.9,
+      "t_end": 2713.1,
+      "is_demoed": false,
+      "caveats": [
+        "Old sign tool requires manual SDK library management",
+        "net sign is considered the right choice"
+      ],
+      "tags": [
+        "signing",
+        "net sign",
+        "sdk",
+        "decision"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Extension Cleanup on Deployment",
+      "description": "Old published but uninstalled extensions remain cluttered in the extensions list after deployments. The team is investigating whether unpublishing can be done as part of deployment.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2762,
+      "t_end": 2867.1,
+      "is_demoed": false,
+      "caveats": [
+        "No current unpublish mechanism in the API",
+        "Extensions are unpublished on major/minor updates"
+      ],
+      "tags": [
+        "extensions",
+        "deployment",
+        "cleanup",
+        "api"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL-Go Workshop",
+      "description": "The AL-Go Workshop is available as a training resource. The team recognizes it needs additional attention and is planning new workshop content on using AL-Go, not just setting it up.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2885.2,
+      "t_end": 2977.6,
+      "is_demoed": false,
+      "caveats": [
+        "Workshop needs more love and attention",
+        "Coverage focuses on setup rather than daily usage",
+        "Gap in documentation for consultants and users"
+      ],
+      "tags": [
+        "training",
+        "workshop",
+        "documentation",
+        "al-go"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Single Sign-On Enforcement",
+      "description": "Single sign-on can be set at the organizational level in GitHub. Users belonging to an organization can be forced to authenticate with Microsoft credentials and MFA.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3035.7,
+      "t_end": 3108.3,
+      "is_demoed": false,
+      "caveats": [
+        "Must be configured at organizational level",
+        "Requires Microsoft organization membership"
+      ],
+      "tags": [
+        "sso",
+        "github",
+        "authentication",
+        "migration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Key Vault Credential Configuration",
+      "description": "Key Vault connections can be set up using federated credentials or an Azure AD app with Key Vault access, rather than storing user credentials.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3181.4,
+      "t_end": 3249.7,
+      "is_demoed": false,
+      "caveats": [
+        "Multiple configuration approaches available"
+      ],
+      "tags": [
+        "key vault",
+        "credentials",
+        "azure ad",
+        "security",
+        "federated identities"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Federated Identities for Keyword Authentication",
+      "description": "Authentication method for connecting to keyword using federated credentials or AAD app credentials instead of user credentials, providing more secure access control.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3181.4,
+      "t_end": 3249.7,
+      "is_demoed": false,
+      "caveats": [
+        "Documentation for federated credentials is needed in the workshop"
+      ],
+      "tags": [
+        "authentication",
+        "security",
+        "federated identities",
+        "keyword"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Multi-Project Repository Support",
+      "description": "AL-Go allows multiple projects in a single repository, where each project can have multiple apps and can target different localizations of Business Central artifacts. Projects within a repository are typically released together.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3249.7,
+      "t_end": 3441.9,
+      "is_demoed": false,
+      "caveats": [
+        "Local development environment currently only works for one project at a time",
+        "Localized versions must compile with corresponding artifact versions"
+      ],
+      "tags": [
+        "al-go",
+        "repositories",
+        "projects",
+        "localization",
+        "multi-project"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub Packages for Dependency Resolution",
+      "description": "Recommended approach for resolving dependencies between apps in the same organization by using GitHub Packages instead of putting all apps in one repository.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3400.5,
+      "t_end": 3441.9,
+      "is_demoed": false,
+      "caveats": [
+        "Recommendation applies when repositories are in the same organization",
+        "Single repository approach is acceptable if there are not strict borders between apps"
+      ],
+      "tags": [
+        "dependencies",
+        "github packages",
+        "repositories"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Local Development Environment in AL-Go",
+      "description": "AL-Go supports creating local development environments through scripts that work with AL-Go folder structure in a project. Currently only one project can have an active local dev environment at a time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3524.4,
+      "t_end": 3627,
+      "is_demoed": false,
+      "caveats": [
+        "Local dev environment only works for one project at a time",
+        "Cannot work on all projects simultaneously",
+        "Container must be connected to one project due to artifact requirements"
+      ],
+      "tags": [
+        "local development",
+        "al-go",
+        "containers"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "app.json",
+      "t": 184
+    },
+    {
+      "type": "other",
+      "name": "settings file",
+      "t": 184
+    },
+    {
+      "type": "other",
+      "name": "GitHub business Central apps algo office hours 202",
+      "t": 1067.8
+    },
+    {
+      "type": "other",
+      "name": "project branch dependencies",
+      "t": 1650.1
+    },
+    {
+      "type": "other",
+      "name": "update ELO system files",
+      "t": 1948
+    },
+    {
+      "type": "other",
+      "name": "net sign",
+      "t": 2398.2
+    },
+    {
+      "type": "other",
+      "name": "AL 4.2",
+      "t": 2474.9
+    },
+    {
+      "type": "other",
+      "name": "configuration packages",
+      "t": 2494.1
+    },
+    {
+      "type": "other",
+      "name": "Key Vault",
+      "t": 3181.4
+    },
+    {
+      "type": "other",
+      "name": "Cronos license",
+      "t": 3636.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Maria",
+      "confidence": "high"
+    },
+    {
+      "name": "Alexander",
+      "confidence": "medium"
+    },
+    {
+      "name": "Todd",
+      "confidence": "high"
+    },
+    {
+      "name": "Thomas",
+      "confidence": "high"
+    },
+    {
+      "name": "Florian",
+      "confidence": "high"
+    },
+    {
+      "name": "Mik",
+      "confidence": "medium"
+    },
+    {
+      "name": "Sebastian",
+      "confidence": "medium"
+    },
+    {
+      "name": "Philip",
+      "confidence": "medium"
+    },
+    {
+      "name": "Ronan",
+      "confidence": "medium"
+    },
+    {
+      "name": "Emanuel",
+      "confidence": "high"
+    },
+    {
+      "name": "Floren",
+      "confidence": "low"
+    },
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 109,
+      "text": "in the latest month we released version 6.3 there were like four uh things in that one",
+      "why_it_matters": "Indicates release of version 6.3 with four major features, establishing the current release version and scope",
+      "check": "exact"
+    },
+    {
+      "t": 184,
+      "text": "if the build mode is next major then use these settings like override what's in the uh settings file normally",
+      "why_it_matters": "Explains conditional settings functionality that allows build-mode-specific configuration overrides",
+      "check": "exact"
+    },
+    {
+      "t": 381.6,
+      "text": "now it's actually major minor build if you use versioning strategy 3 that comes from uh your app Jason and then only the revision",
+      "why_it_matters": "Defines the new versioning strategy 3 where three version digits come from app.json and only revision is dynamic",
+      "check": "snapped"
+    },
+    {
+      "t": 561.1,
+      "text": "if you if you said that you want to use compiler folder um and you use a container you'll actually be compiling using the",
+      "why_it_matters": "Explains performance optimization for compiler folder usage with containers, changing build order for faster compilation",
+      "check": "exact"
+    },
+    {
+      "t": 849.7,
+      "text": "there is an PR called incremental builds that one will only build the the apps that are changed or uh depends on apps that",
+      "why_it_matters": "Introduces incremental builds feature currently in PR/preview that selectively builds only affected applications",
+      "check": "snapped"
+    },
+    {
+      "t": 926,
+      "text": "we're expecting that one to get in uh preview within the next few uh weeks",
+      "why_it_matters": "Sets timeline expectation for when incremental builds will reach preview status.",
+      "check": "exact"
+    },
+    {
+      "t": 1180.4,
+      "text": "we're also working on figuring out if we can run the P scripting tasks as part of deployment so when you're deploying to a",
+      "why_it_matters": "Indicates ongoing work to integrate page scripting validation into QA deployment workflows.",
+      "check": "exact"
+    },
+    {
+      "t": 1291.4,
+      "text": "Al go for GitHub does support nuget both like as a as a provider and as a consumer of nou packages",
+      "why_it_matters": "Clarifies that NuGet is the recommended approach for managing external dependencies in AL Go.",
+      "check": "exact"
+    },
+    {
+      "t": 1650.1,
+      "text": "if you use the setting called generate dependency artifacts uh then in the buildt artifacts there will be a a an artifact called um",
+      "why_it_matters": "Explains how to capture dependencies for builds, relevant to alternative local development approaches being considered.",
+      "check": "exact"
+    },
+    {
+      "t": 1650.1,
+      "text": "then in the buildt artifacts there will be a a an artifact called um project",
+      "why_it_matters": "Explains a specific setting for accessing build dependencies, relevant for teams managing complex dependency chains.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1753,
+      "text": "these office hours calls we're going to do them monthly uh this year except for July and December",
+      "why_it_matters": "Establishes the recurring schedule for community engagement and support, setting expectations for future office hours.",
+      "check": "exact"
+    },
+    {
+      "t": 1907.7,
+      "text": "there are two settings that determines uh which Runners you use there's the GitHub Runner which determines what uh what Runners are being used",
+      "why_it_matters": "Clarifies the configuration mechanism for runner selection, essential for teams implementing self-hosted runners.",
+      "check": "exact"
+    },
+    {
+      "t": 1948,
+      "text": "the update ELO system files will always use the GitHub hosted Runner and the reason for that is that if your self-hosted Runner is",
+      "why_it_matters": "Explains a critical design decision about runner resilience and recoverability in AL Go architecture.",
+      "check": "snapped"
+    },
+    {
+      "t": 2141.2,
+      "text": "some cases very large apps will in order to be published into a into a container actually use quite a bit of memory",
+      "why_it_matters": "Provides guidance on hardware resource requirements for container deployment, important for infrastructure planning.",
+      "check": "exact"
+    },
+    {
+      "t": 2210.3,
+      "text": "is that it often looked as a developer tool instead of a tool to maintain a well ro running bc implementation",
+      "why_it_matters": "Identifies a gap in organizational perception of AL Go, highlighting need for better management-level documentation.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2309.4,
+      "text": "you can have a different configuration package if you're running the tests for us version for Danish version and for Italy version",
+      "why_it_matters": "Shows flexibility of configuration packages for multi-localization testing scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 2398.2,
+      "text": "what we utilize for for this is net sign um for doing the signing and and if if doet sign can sign your app",
+      "why_it_matters": "Clarifies the specific tool the team uses for code signing in AL-Go",
+      "check": "exact"
+    },
+    {
+      "t": 2494.1,
+      "text": "reshipping them but we know they'll be going away so we be deprecating the conflict packages",
+      "why_it_matters": "Confirms that configuration packages are planned for deprecation, affecting how users should handle demo data",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2514.2,
+      "text": "we're not going to ship our extended demo data as contct packages we're going to ship that as absence",
+      "why_it_matters": "Reveals the plan to replace configuration packages with demo data apps as the distribution format",
+      "check": "exact"
+    },
+    {
+      "t": 2572.7,
+      "text": "Telemetry data from Alo quite a lot is recorded and we can already evaluate various things for ourselves especially PRS",
+      "why_it_matters": "Indicates the breadth of telemetry data available in AL-Go for analysis",
+      "check": "exact"
+    },
+    {
+      "t": 2672.9,
+      "text": "we've decided on net sign and we'll until until further proof prove that that's the wrong way we'll stick to that",
+      "why_it_matters": "Commits the team to net sign as the standard signing solution, establishing it as a foundational decision",
+      "check": "exact"
+    },
+    {
+      "t": 2819.7,
+      "text": "old pte are remaining published but uninstalled in extensions list after deployments gets a little cluttered",
+      "why_it_matters": "Identifies a user experience issue with extension management that the team is investigating",
+      "check": "exact"
+    },
+    {
+      "t": 3060.4,
+      "text": "that's I think an organizational level can be forced at least it's forced for Microsoft organization",
+      "why_it_matters": "Clarifies that SSO can be enforced at the organization level to encourage GitHub adoption",
+      "check": "exact"
+    },
+    {
+      "t": 3181.4,
+      "text": "you can use what's called Federated pretentions or you can use um an a app that has access to the keyword",
+      "why_it_matters": "Describes secure credential management options for Key Vault integration without user credentials",
+      "check": "exact"
+    },
+    {
+      "t": 3339.6,
+      "text": "a w1 version of your app and then you can have an italy and a danish version of the app",
+      "why_it_matters": "Explains the practical use case for multi-project repositories: supporting different localizations that compile against localized artifact versions.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 3482.4,
+      "text": "after we merge the incremental builds pr that comes in preview in the next few weeks",
+      "why_it_matters": "Announces an upcoming preview feature that will significantly improve build performance for multi-project repositories by avoiding redundant builds.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 3636.6,
+      "text": "license that is included in the artifacts is a perfectly good development license and you don't need to",
+      "why_it_matters": "Clarifies licensing requirements for AppSource development, stating that the included development license is sufficient.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 781.6,
+      "kind": "coming-later",
+      "text": "right now you cannot do a sketch on that... there is a mechanism to do that by creating a small yo file... I'll create document for how to do that as well"
+    },
+    {
+      "t": 869.8,
+      "kind": "preview",
+      "text": "there is an PR called incremental builds that one will only build the the apps that are changed"
+    },
+    {
+      "t": 926,
+      "kind": "preview",
+      "text": "incremental builds PR expected to get in preview within the next few weeks"
+    },
+    {
+      "t": 1159.8,
+      "kind": "preview",
+      "text": "results viewer for Alo for GitHub is being worked on"
+    },
+    {
+      "t": 1180.4,
+      "kind": "preview",
+      "text": "working on figuring out if we can run page scripting tasks as part of deployment"
+    },
+    {
+      "t": 1201.2,
+      "kind": "coming-later",
+      "text": "I'll expect the results viewer to be done before we ship version seven in April"
+    },
+    {
+      "t": 1222.8,
+      "kind": "preview",
+      "text": "page scripting test and QA requires investigation due to MFA compatibility issues"
+    },
+    {
+      "t": 1543,
+      "kind": "coming-later",
+      "text": "publishing to NuGet feed model being talked about maybe a year or two from now"
+    },
+    {
+      "t": 1583.2,
+      "kind": "subject-to-change",
+      "text": "documentation sample on how to do that and and add that and I think I promised do that within the next two weeks so expect that to be done"
+    },
+    {
+      "t": 1666.8,
+      "kind": "coming-later",
+      "text": "something we could do in the future instead of building actually just taking things from the repo"
+    },
+    {
+      "t": 2418.4,
+      "kind": "coming-later",
+      "text": "if you find that net sign can do what you need but you need like to add another um setting or whatever to to to support other CA vaults as well uh please work with us and we might be able to actually include that in Alo"
+    },
+    {
+      "t": 2494.1,
+      "kind": "coming-later",
+      "text": "we know they'll be going away so we be deprecating the conflict packages"
+    },
+    {
+      "t": 2572.7,
+      "kind": "preview",
+      "text": "it's a very like relatively new like module in Alo"
+    },
+    {
+      "t": 2903.6,
+      "kind": "subject-to-change",
+      "text": "that one probably needs some some love and attention as well"
+    },
+    {
+      "t": 3108.3,
+      "kind": "coming-later",
+      "text": "future topics is for the future and like we give rebates tomorrow is what it says in the shop wall"
+    },
+    {
+      "t": 3482.4,
+      "kind": "preview",
+      "text": "incremental builds PR that comes in preview in the next few weeks"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 27,
+    "quotes_dropped": 5,
+    "evidence_verified": 2,
+    "evidence_unverified": 24
+  },
+  "windows": 5,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027004
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.04676570000000001
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022768
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027583
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019769000000000002
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.048851000000000006
+    }
+  ]
+}

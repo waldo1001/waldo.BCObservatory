@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz",
+  "title": "Advanced Localization Pack for Czech (Extension) [CZ]",
+  "blob": "06f886a98e8a8c9452ff35b4f1070408714abed9",
+  "summary": "Czech localization extension adding features for general ledger entries application, dimension automation, transfer order posting groups, item ledger fields, SKU posting group setup, and manufacturing cost returns to meet Czech accounting and tax requirements.",
+  "systems": [
+    "finance",
+    "inventory",
+    "manufacturing"
+  ],
+  "topics": [
+    "czech localization",
+    "extension",
+    "general ledger",
+    "dimensions",
+    "transfer orders",
+    "sku posting"
+  ],
+  "objects": [],
+  "features": [
+    "general ledger entries application",
+    "automatic dimension creation",
+    "posting groups in transfer orders",
+    "additional item ledger fields",
+    "gen.prod.posting group from SKU",
+    "skip update SKU on posting",
+    "mandatory return exact costs"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00335,
+      "pages_in_call": 8
+    }
+  ]
+}

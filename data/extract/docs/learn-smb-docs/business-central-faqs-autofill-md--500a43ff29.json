@@ -1,0 +1,43 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/faqs-autofill.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/faqs-autofill",
+  "title": "Responsible AI FAQ for Autofill (preview)",
+  "blob": "db8d1b4709f4caab36d8f557bf9d00c40ef95ef5",
+  "summary": "Copilot Autofill preview feature uses AI to suggest and fill field values automatically for data entry, with users able to accept or discard suggestions. Feature respects user permissions and security controls, requires manual review, and supports web search in version 26.4 and above.",
+  "systems": [
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "autofill",
+    "copilot",
+    "ai",
+    "data entry",
+    "responsible ai",
+    "bing search",
+    "preview"
+  ],
+  "objects": [],
+  "features": [
+    "autofill with copilot",
+    "field suggestion",
+    "bing search",
+    "data residency",
+    "security filtering",
+    "user feedback",
+    "azure openai service"
+  ],
+  "versions": [
+    "version 26.4"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00335,
+      "pages_in_call": 8
+    }
+  ]
+}

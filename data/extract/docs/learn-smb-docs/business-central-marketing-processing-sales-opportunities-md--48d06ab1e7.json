@@ -1,0 +1,61 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/marketing-processing-sales-opportunities.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-processing-sales-opportunities",
+  "title": "Process sales opportunities in sales cycles",
+  "blob": "60fa6d05d8d22074dc9005b7a09fc90e176c630f",
+  "summary": "Manage sales opportunities through the Opportunities page by viewing, closing, creating quotes and orders, moving through sales cycle stages, and deleting closed opportunities using batch jobs.",
+  "systems": [
+    "sales",
+    "crm"
+  ],
+  "topics": [
+    "sales opportunities",
+    "sales cycle",
+    "quotes",
+    "orders",
+    "opportunity management",
+    "sales process"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Opportunities"
+    },
+    {
+      "type": "page",
+      "name": "Close Opportunity"
+    },
+    {
+      "type": "page",
+      "name": "Sales Quote"
+    },
+    {
+      "type": "page",
+      "name": "Opportunity List"
+    },
+    {
+      "type": "page",
+      "name": "Update Opportunity"
+    }
+  ],
+  "features": [
+    "close opportunities",
+    "opportunity codes",
+    "create sales quotes",
+    "create sales orders",
+    "delete opportunities",
+    "sales cycle stages",
+    "update opportunity"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00335,
+      "pages_in_call": 8
+    }
+  ]
+}

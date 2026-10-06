@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-user-defined-depreciation-method",
   "published_at": "2025-10-10T07:35:03.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 5,
       "cost_usd": 0.004691
+    },
+    "summarized": {
+      "at": "2026-10-06T19:02:13.759Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:02:13.761Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:02:13.762Z",
+      "page": false
     }
   },
   "input_hash": "11491f2819f4deaff88c5b3a6b52bd812d272c04",

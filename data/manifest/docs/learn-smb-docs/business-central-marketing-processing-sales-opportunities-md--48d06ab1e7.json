@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/marketing-processing-sales-opportunities",
   "published_at": "2025-10-08T08:47:49.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "60fa6d05d8d22074dc9005b7a09fc90e176c630f",
       "words": 742,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:02:13.739Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.00335
+    },
+    "summarized": {
+      "at": "2026-10-06T19:02:13.770Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:02:13.771Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:02:13.772Z",
+      "page": false
     }
   },
   "input_hash": "60fa6d05d8d22074dc9005b7a09fc90e176c630f",
@@ -38,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "60fa6d05d8d22074dc9005b7a09fc90e176c630f"
+  "output_hash": "26428678a2ecc281ecea67da0d02f788295bb1c66d34ad4587cad5e669fa1a83"
 }

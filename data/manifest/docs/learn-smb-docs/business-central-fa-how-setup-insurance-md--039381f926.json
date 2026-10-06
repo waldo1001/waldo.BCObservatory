@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-setup-insurance",
   "published_at": "2025-10-10T07:35:03.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 5,
       "cost_usd": 0.004691
+    },
+    "summarized": {
+      "at": "2026-10-06T19:02:13.755Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:02:13.756Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:02:13.758Z",
+      "page": false
     }
   },
   "input_hash": "234ee21d437192c7756993590163e6266391e631",
