@@ -1,0 +1,1657 @@
+{
+  "video_id": "TY82NR2hGEg",
+  "item_id": "video/yt-microsoft/TY82NR2hGEg",
+  "title": "What's New: Business Central Developer Tools (2023 release wave 2)",
+  "duration_s": 4112,
+  "systems": [
+    "development",
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "al language extension",
+    "pre-release versions",
+    "linux support",
+    "wsl",
+    "namespaces",
+    "devops syntax highlighting",
+    "code actions",
+    "using directives",
+    "fully qualified names",
+    "al doc",
+    "reference documentation",
+    "xml comments"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and agenda overview",
+      "t_start": 0,
+      "t_end": 87.7
+    },
+    {
+      "title": "AL language extension pre-release versions and Linux support",
+      "t_start": 87.7,
+      "t_end": 201.1
+    },
+    {
+      "title": "Live demo: AL development on Windows Subsystem for Linux",
+      "t_start": 201.1,
+      "t_end": 271.8
+    },
+    {
+      "title": "DevOps syntax highlighting and transition to namespaces",
+      "t_start": 271.8,
+      "t_end": 295.3
+    },
+    {
+      "title": "Namespaces in AL: concept, implementation, and code actions",
+      "t_start": 295.3,
+      "t_end": 627.8
+    },
+    {
+      "title": "Namespace syntax, restrictions, and adoption strategy",
+      "t_start": 627.8,
+      "t_end": 877.8
+    },
+    {
+      "title": "Namespace best practices and AL Explorer discovery",
+      "t_start": 877.8,
+      "t_end": 1002.8
+    },
+    {
+      "title": "AL Doc reference documentation tool and XML comments",
+      "t_start": 1002.8,
+      "t_end": 1313.5
+    },
+    {
+      "title": "AL Doc build command, DocFX integration, and live demonstration",
+      "t_start": 1313.5,
+      "t_end": 1675.9
+    },
+    {
+      "title": "Documentation generation and troubleshooting improvements overview",
+      "t_start": 1675.9,
+      "t_end": 1877.3
+    },
+    {
+      "title": "Page Inspector, field investigation, and AL Explorer",
+      "t_start": 1877.3,
+      "t_end": 2115.5
+    },
+    {
+      "title": "Debugging, profiling, and symbol management",
+      "t_start": 2115.5,
+      "t_end": 2456.5
+    },
+    {
+      "title": "Future ideas and error details with call stacks",
+      "t_start": 2456.5,
+      "t_end": 2678.5
+    },
+    {
+      "title": "AL language features: namespaces, variants, and secure text",
+      "t_start": 2678.5,
+      "t_end": 2908.9
+    },
+    {
+      "title": "Secure text data type protection and request security",
+      "t_start": 2908.9,
+      "t_end": 3050.6
+    },
+    {
+      "title": "Field customization and extended data types",
+      "t_start": 3050.6,
+      "t_end": 3229
+    },
+    {
+      "title": "Queries, Excel layouts, and AL inlay hints",
+      "t_start": 3229,
+      "t_end": 3460.1
+    },
+    {
+      "title": "IntelliSense improvements and find all references",
+      "t_start": 3460.1,
+      "t_end": 3629.8
+    },
+    {
+      "title": "AL Go configuration, GitHub Copilot Chat, and AI assistance",
+      "t_start": 3629.8,
+      "t_end": 3896.8
+    },
+    {
+      "title": "AppSource transactability and developer resources",
+      "t_start": 3896.8,
+      "t_end": 4112
+    }
+  ],
+  "features": [
+    {
+      "name": "AL language extension pre-release versions",
+      "description": "The AL language extension now offers pre-release version installation and switching, providing early access to bug fixes, previews, and future functionality alongside stable release versions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 87.7,
+      "t_end": 116,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al extension",
+        "preview",
+        "release management"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL language extension for Linux",
+      "description": "The AL language extension can now be installed and used on Linux systems, including Windows Subsystem for Linux, enabling AL developers to work from their favorite Linux environment.",
+      "status": "preview",
+      "status_evidence_t": 116,
+      "status_evidence_quote": "One thing we introduced with the preview functionality is the ability to install the AL language extension on Linux.",
+      "status_evidence_verified": true,
+      "t_start": 116,
+      "t_end": 257.8,
+      "is_demoed": true,
+      "caveats": [
+        "Still in preview"
+      ],
+      "tags": [
+        "linux",
+        "wsl",
+        "al extension"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "DevOps syntax highlighting",
+      "description": "A new extension allows color coding of AL code when displayed in Azure DevOps, providing syntax highlighting for AL language in DevOps environments.",
+      "status": "preview",
+      "status_evidence_t": 271.8,
+      "status_evidence_quote": "Another thing we added as a preview is syntax highlighting for DevOps.",
+      "status_evidence_verified": true,
+      "t_start": 271.8,
+      "t_end": 284.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "devops",
+        "syntax highlighting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Namespaces in AL language",
+      "description": "A major new feature introducing namespaces to organize AL objects and identifiers into logical groups, reducing name clashes and improving code organization. Namespaces are declared as the first statement in a source file and can be nested.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 295.3,
+      "t_end": 627.8,
+      "is_demoed": true,
+      "caveats": [
+        "Still has restrictions on object naming without fixes",
+        "Requires dependencies to be namespaced before namespacing own code"
+      ],
+      "tags": [
+        "namespaces",
+        "code organization",
+        "al language"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Using directives for namespace imports",
+      "description": "Using directives allow importing all objects from a specified namespace into the current source file scope, enabling easier access to namespaced objects without fully qualifying them.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 507,
+      "t_end": 627.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "namespaces",
+        "using directives",
+        "code organization"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Fully qualified object names",
+      "description": "Objects can be fully qualified with their complete namespace path to ensure unambiguous reference, useful when multiple objects with the same name exist in different namespaces.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 567.2,
+      "t_end": 627.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "namespaces",
+        "fully qualified names"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Namespace code actions",
+      "description": "IDE code actions automatically suggest adding using statements or fully qualifying object names when namespace-related errors are detected, helping developers quickly resolve namespace issues.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 507,
+      "t_end": 627.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "namespaces",
+        "code actions",
+        "developer experience"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Namespace object uniqueness",
+      "description": "Objects must have unique kind-name pairs within modules and namespaces. Each namespace ensures kind and fully qualified name uniqueness.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 785.6,
+      "t_end": 811.2,
+      "is_demoed": false,
+      "caveats": [
+        "current implementation still has naming restrictions with fixes",
+        "newer namespaced objects may not support names without fixes"
+      ],
+      "tags": [
+        "namespaces",
+        "object naming",
+        "constraints"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Namespace adoption guidelines",
+      "description": "Partners should wait until all dependencies are namespaced before namespacing their own code to avoid breaking references when dependencies are subsequently namespaced.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 848.5,
+      "t_end": 877.8,
+      "is_demoed": false,
+      "caveats": [
+        "breaking changes occur when dependencies are namespaced after dependent code"
+      ],
+      "tags": [
+        "namespaces",
+        "dependencies",
+        "adoption strategy"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Namespace naming conventions",
+      "description": "Namespace roots should be company-specific, stable, and non-version-specific. Best practice is to start with company name, product, area, feature. Avoid system names like Microsoft, utility, or common.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 888.1,
+      "t_end": 931.6,
+      "is_demoed": false,
+      "caveats": [
+        "renaming a namespace is a breaking change",
+        "root namespace should be definitely your own"
+      ],
+      "tags": [
+        "namespaces",
+        "naming conventions",
+        "best practices"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Explorer group by namespace",
+      "description": "AL Explorer now supports grouping objects by namespace, allowing developers to discover and navigate related objects within different namespaces and dependent apps.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 944.1,
+      "t_end": 1002.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "namespaces",
+        "al explorer",
+        "discoverability",
+        "navigation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Doc reference documentation tool",
+      "description": "New documentation tool that produces reference documentation from AL source code. Generates structured, consistent documentation with predictable layout, fields, keys, methods, and links for all documented objects.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1016.4,
+      "t_end": 1313.5,
+      "is_demoed": true,
+      "caveats": [
+        "starting slowly with first-party apps coverage",
+        "partner adoption requires their own effort"
+      ],
+      "tags": [
+        "al doc",
+        "reference documentation",
+        "documentation generation",
+        "discoverability"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "XML documentation comments in AL",
+      "description": "AL language supports XML documentation comments that can be used to generate reference documentation. Comments are currently surfaced in IntelliSense and code editor hover tooltips and signature help.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1180.1,
+      "t_end": 1214.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "xml comments",
+        "documentation",
+        "al language"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Doc init command",
+      "description": "One-time initialization command that sets up a folder with templates needed for AL reference documentation generation. Called once per documentation repository.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1326.9,
+      "t_end": 1350.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "al doc",
+        "initialization",
+        "documentation setup"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Doc build command",
+      "description": "Command that regenerates documentation from .app files whenever code changes. Produces YAML files for individual objects, modules, and supporting information containing both structure and XML documentation comments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1361.5,
+      "t_end": 1390.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "al doc",
+        "build",
+        "yaml generation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "DocFX integration for HTML generation",
+      "description": "AL Doc produces YAML files which are then processed by the open-source DocFX tool. DocFX combines templates, YAML, and markdown into static HTML websites for documentation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1390.1,
+      "t_end": 1415.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "al doc",
+        "docfx",
+        "html",
+        "static website"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub Pages integration for documentation hosting",
+      "description": "Documentation generated by AL Doc and DocFX can be hosted on GitHub Pages using a docs folder in the repository, enabling automatic documentation hosting alongside source code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1472.4,
+      "t_end": 1512.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "github pages",
+        "documentation hosting",
+        "al doc"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Explore page in Visual Studio Code",
+      "description": "New page inspector option that automatically provisions a Visual Studio Code workspace, creates app.json with required extension dependencies, generates launch configurations, authenticates, and downloads symbols to investigate a page's source code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1902,
+      "t_end": 2025,
+      "is_demoed": true,
+      "caveats": [
+        "requires troubleshooting tools permission",
+        "first authentication requires special signing process",
+        "requires AL Visual Studio Code extension"
+      ],
+      "tags": [
+        "page inspector",
+        "investigation",
+        "automation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Explorer",
+      "description": "Tool to discover and navigate AL objects, supporting grouping by namespace and drilling into namespaces to see what objects are available, with ability to jump to source code or run objects in the client.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2025,
+      "t_end": 2115.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "discovery",
+        "namespace grouping",
+        "navigation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Explore field in Visual Studio Code",
+      "description": "New field dropdown option that provisions VS Code, downloads symbols, and brings developer directly to the source code for a table field to inspect validation and other logic.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2258.6,
+      "t_end": 2297.4,
+      "is_demoed": true,
+      "caveats": [
+        "requires troubleshooting tools permission",
+        "requires source code access"
+      ],
+      "tags": [
+        "field investigation",
+        "table inspection"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Attach debugger from help and support",
+      "description": "New option in help and support troubleshooting section to attach debugger to current session, provisioning VS Code with base and system application extensions as dependencies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2297.4,
+      "t_end": 2342.4,
+      "is_demoed": true,
+      "caveats": [
+        "no page context so fewer dependencies available",
+        "accessible to all users"
+      ],
+      "tags": [
+        "debugging",
+        "help and support integration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Troubleshooting tools permission",
+      "description": "Permission required to use explore options in page inspector. Controls access to light investigation and troubleshooting capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2353.8,
+      "t_end": 2372.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "permissions",
+        "access control"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Shared symbols path",
+      "description": "Ability to reuse downloaded symbols across VS Code instances to avoid redundant downloading and save time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2434.6,
+      "t_end": 2456.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "symbols",
+        "performance",
+        "optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Future: CodeSpaces Integration",
+      "description": "Planned feature to open source code in cloud CodeSpaces instead of locally in VS Code, reducing content switching overhead.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2473.8,
+      "t_end": 2486.9,
+      "is_demoed": false,
+      "caveats": [
+        "No commits; future idea"
+      ],
+      "tags": [
+        "codespaces",
+        "cloud",
+        "future"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Future: GitHub Source Integration",
+      "description": "Planned feature to integrate with GitHub to pull source code from there, either for the specific version deployed on the server or the latest version for development.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2486.9,
+      "t_end": 2498.4,
+      "is_demoed": false,
+      "caveats": [
+        "Future idea"
+      ],
+      "tags": [
+        "github",
+        "integration",
+        "source"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Future: Bulk Symbol Download",
+      "description": "Planned feature to download symbols for all extensions at once or for a specific set of extensions, possibly from the extension management page.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2510.5,
+      "t_end": 2522.2,
+      "is_demoed": false,
+      "caveats": [
+        "Future idea"
+      ],
+      "tags": [
+        "symbols",
+        "extensions",
+        "future"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Error Details with Call Stack",
+      "description": "Error details now display the call stack, visible in purple, providing context about where problems occur in the code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2534.1,
+      "t_end": 2545.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "error details",
+        "call stack",
+        "debugging"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Debug Console IntelliSense",
+      "description": "The debug console now supports IntelliSense when evaluating expressions, providing autocomplete for fields, locals, globals, and member symbols to improve discoverability and productivity.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2545.4,
+      "t_end": 2571.9,
+      "is_demoed": true,
+      "caveats": [
+        "Does not support evaluation of methods"
+      ],
+      "tags": [
+        "intellisense",
+        "debugging",
+        "console"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Profiler Sampling Interval Options",
+      "description": "The AL profiler now provides configurable sampling intervals: 50 ms, 100 ms (default), or 150 ms. Lower intervals provide more granularity; higher intervals limit data and focus on large operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2664.3,
+      "t_end": 2701.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "profiler",
+        "sampling",
+        "performance"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Implicit Variant to Dictionary and List Conversion",
+      "description": "AL now supports implicit conversion of variants to dictionaries and lists. Two new methods added to the variant type: is dictionary and is list.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2745.3,
+      "t_end": 2762,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "variants",
+        "dictionaries",
+        "lists"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Secure Text Data Type",
+      "description": "New AL data type for variables and parameters that protects data from being debugged, including normal and snapshot debugging. Secures data when constructed in non-debuggable methods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2762,
+      "t_end": 2790.6,
+      "is_demoed": true,
+      "caveats": [
+        "Does not protect data shared outside Business Central",
+        "Must be constructed in non-debuggable methods"
+      ],
+      "tags": [
+        "secure text",
+        "debugging",
+        "data protection"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Secure Text API Key Protection Demo",
+      "description": "Demonstration of secure text protecting API keys and credentials in HTTP requests, showing hidden values in debugger for header values and request URIs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2803.9,
+      "t_end": 2908.9,
+      "is_demoed": true,
+      "caveats": [
+        "Objects containing secret data should not be returned publicly"
+      ],
+      "tags": [
+        "secure text",
+        "api keys",
+        "debugging"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Secure Request URI and Headers",
+      "description": "Support for setting secret request URIs and headers using secure text type, preventing access to sensitive data including API keys embedded in URLs during debugging.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2908.9,
+      "t_end": 2974.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "secure text",
+        "requests",
+        "headers"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "New Field Groups on Base Objects",
+      "description": "AL extensions can now add fields to field groups that do not exist in the base object, enabling new scenarios like adding brick field groups to GL entries for display customization.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3061.6,
+      "t_end": 3101.1,
+      "is_demoed": false,
+      "caveats": [
+        "Add last continues to exclude duplicates across extensions"
+      ],
+      "tags": [
+        "field groups",
+        "tables",
+        "extensions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Allow in customization property",
+      "description": "Table fields now have an allow in customization property to control whether fields can be used in profile customization, providing finer control than requiring fields to be added to pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3101.1,
+      "t_end": 3143.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "field customization",
+        "profiles",
+        "permissions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Analysis mode control on list pages",
+      "description": "List pages now support setting analysis mode enabled to false to disable detailed analysis capabilities where they are not suitable.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3143.8,
+      "t_end": 3156.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "analysis mode",
+        "list pages"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Barcode extended data type",
+      "description": "New extended data type for fields that automatically displays a scanner button on devices, making data entry via device camera much easier.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3156.2,
+      "t_end": 3171.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "barcode",
+        "extended data types",
+        "mobile"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Rich text extended data type",
+      "description": "New extended data type enabling rich content capabilities on fields with formatting, images, and links. Requires multi-line true and placement in its own group.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3156.2,
+      "t_end": 3229,
+      "is_demoed": false,
+      "caveats": [
+        "Requires multi-line set to true",
+        "Must be alone in its own group",
+        "Cannot be used in repeaters or groups with other fields",
+        "Cannot customize toolbar",
+        "Limited personalization",
+        "Requires backing by types without size like text",
+        "Value is HTML with inline images"
+      ],
+      "tags": [
+        "rich text",
+        "extended data types",
+        "editor"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Queries in run objects for actions",
+      "description": "Queries can now be used in run object for actions, and usage category can be set to display queries in Tell Me search results.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3244.2,
+      "t_end": 3256.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "queries",
+        "run object",
+        "actions",
+        "tell me"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Query about title and about text",
+      "description": "About title and about text properties enable building rich teaching tips for queries to help users understand the queries built.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3256.1,
+      "t_end": 3267,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "queries",
+        "teaching tips",
+        "documentation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Excel layout multiple data sheets",
+      "description": "Split each data item into its own data sheet in Excel reports, reducing complexity and improving size, rendering performance, and authoring ease.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3267,
+      "t_end": 3294.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "excel",
+        "reports",
+        "data sheets",
+        "layout"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "AL inlay hints for parameters and return types",
+      "description": "Inlay hints show parameter names and return types inline in source code. Can be toggled with keyboard shortcut or set to always on or off.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3315.8,
+      "t_end": 3460.1,
+      "is_demoed": true,
+      "caveats": [
+        "Must be enabled in Visual Studio Code settings and AL inlay hints collection"
+      ],
+      "tags": [
+        "inlay hints",
+        "intellisense",
+        "parameters",
+        "return types"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Label hover value display",
+      "description": "Hover over a label variable to see its value without navigating or using peak definition.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3467.8,
+      "t_end": 3497.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "labels",
+        "intellisense",
+        "hover",
+        "editor"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Improved IntelliSense for overloaded methods",
+      "description": "IntelliSense now smartly picks the recommended method signature by matching provided parameters and reordering suggestions accordingly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3497.5,
+      "t_end": 3537.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "intellisense",
+        "overloads",
+        "methods",
+        "suggestions"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "IntelliSense for key parameters",
+      "description": "IntelliSense now lists available keys when working with methods that accept keys, such as set current keys.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3547.3,
+      "t_end": 3577.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "intellisense",
+        "keys",
+        "methods"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Find all references for triggers and methods",
+      "description": "Improved find all references functionality now works on trigger and system methods, trigger events, page and table fields, page actions, and table methods and events.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3588.5,
+      "t_end": 3629.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "find references",
+        "triggers",
+        "methods",
+        "editor",
+        "productivity"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL Go default project folder setting",
+      "description": "User can now override and set the default folder for AL Go projects or the default root location.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3641.6,
+      "t_end": 3670.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al go",
+        "project setup",
+        "settings"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL compilation output folder",
+      "description": "In AL compilation options, specify an out folder for apps, allowing output to be located outside the project folder.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3670.5,
+      "t_end": 3705,
+      "is_demoed": false,
+      "caveats": [
+        "Project will still contain a node for the output file but it could physically be located outside the project"
+      ],
+      "tags": [
+        "al go",
+        "compilation",
+        "output",
+        "app sharing"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub Copilot Chat for AL",
+      "description": "Interactive chat experience inside Visual Studio Code for coding assistance. Can explain code, propose fixes, answer code questions, and generate unit tests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3717.2,
+      "t_end": 3896.8,
+      "is_demoed": true,
+      "caveats": [
+        "Training material based on open-source code which is fairly limited for AL",
+        "Results vary in quality",
+        "Is an assistant tool not a replacement for human programming",
+        "Review generated content especially for AL"
+      ],
+      "tags": [
+        "github copilot",
+        "ai",
+        "code assistant",
+        "intellisense"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AppSource per user pricing with direct sales",
+      "description": "First wave of AppSource transactability with per user pricing model supporting direct sales channel via credit card.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3925,
+      "t_end": 3947.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "appsource",
+        "pricing",
+        "transactability",
+        "direct sales"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "AppSource CSP support",
+      "description": "Cloud Solution Provider support for AppSource transactability is being developed and is currently in private preview with select partners.",
+      "status": "preview",
+      "status_evidence_t": 3947.8,
+      "status_evidence_quote": "in the in the middle of a private preview with select partners on this but that is",
+      "status_evidence_verified": true,
+      "t_start": 3947.8,
+      "t_end": 3965.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "appsource",
+        "csp",
+        "transactability",
+        "private preview"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "AppSource entitlements mapping",
+      "description": "Sample app demonstrates how to create entitlements that map licenses from Partner Center to Business Central app permissions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3965.7,
+      "t_end": 4015.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "appsource",
+        "entitlements",
+        "permissions",
+        "licensing"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Entitlements documentation for license mapping",
+      "description": "Updated documentation page on entitlements used to map licenses created in Partner Center for offers to permissions granted in Business Central apps.",
+      "status": "unclear",
+      "status_evidence_t": 4005.1,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3989.1,
+      "t_end": 4005.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "entitlements",
+        "partner center",
+        "licensing",
+        "documentation"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Enhanced developer resources and documentation",
+      "description": "Collaboration with partners has led to updating HTTP client, reporting, extensibility, and learn topics with more detail and examples.",
+      "status": "unclear",
+      "status_evidence_t": 4015.5,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4015.5,
+      "t_end": 4026.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "developer resources",
+        "http client",
+        "reporting",
+        "extensibility"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Performance tool kit",
+      "description": "Investment in performance tool kit for testing and ensuring app performance in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": 4026.6,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4026.6,
+      "t_end": 4055.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "testing",
+        "toolkit",
+        "developer tools"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "BC Icons overview",
+      "description": "Overview of icons available for use in AL development for Business Central.",
+      "status": "unclear",
+      "status_evidence_t": 4037.5,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 4037.5,
+      "t_end": 4042.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "icons",
+        "al",
+        "development"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "environment information",
+      "t": 444.2
+    },
+    {
+      "type": "table",
+      "name": "customer",
+      "t": 364.8
+    },
+    {
+      "type": "codeunit",
+      "name": "Bing Maps GeoCode",
+      "t": 1561.9
+    },
+    {
+      "type": "page",
+      "name": "customer card",
+      "t": 1976
+    },
+    {
+      "type": "page",
+      "name": "customer list",
+      "t": 2082.8
+    },
+    {
+      "type": "table",
+      "name": "GL entry",
+      "t": 3075.6
+    },
+    {
+      "type": "other",
+      "name": "variant",
+      "t": 2745.3
+    },
+    {
+      "type": "other",
+      "name": "secure text",
+      "t": 2762
+    },
+    {
+      "type": "other",
+      "name": "set current keys",
+      "t": 3547.3
+    },
+    {
+      "type": "codeunit",
+      "name": "code unit",
+      "t": 3831.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Peter Borring",
+      "confidence": "high"
+    },
+    {
+      "name": "Stephen Balslev",
+      "confidence": "high"
+    },
+    {
+      "name": "Espen Kristoffersen",
+      "confidence": "medium"
+    },
+    {
+      "name": "Freddy Christensen",
+      "confidence": "high"
+    },
+    {
+      "name": "Asbjørn",
+      "confidence": "high"
+    },
+    {
+      "name": "Peter",
+      "confidence": "high"
+    },
+    {
+      "name": "Stefan",
+      "confidence": "high"
+    },
+    {
+      "name": "Esben",
+      "confidence": "medium"
+    },
+    {
+      "name": "Kurt",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 87.7,
+      "text": "When you install the AL language extension you now have the option to install or switch to a pre-release version.",
+      "why_it_matters": "Establishes the availability of pre-release versions as a core feature of the extension.",
+      "check": "exact"
+    },
+    {
+      "t": 116,
+      "text": "One thing we introduced with the preview functionality is the ability to install the AL language extension on Linux.",
+      "why_it_matters": "Announces a significant expansion of platform support to Linux systems.",
+      "check": "exact"
+    },
+    {
+      "t": 295.3,
+      "text": "I'm going to talk to you about one of the major new features in the AL language, namespaces.",
+      "why_it_matters": "Identifies namespaces as a major new feature being introduced in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 467.2,
+      "text": "You declare a namespace as the first line in a in a source file or the first non-comment line.",
+      "why_it_matters": "Establishes the fundamental syntax rule for declaring namespaces in AL code.",
+      "check": "exact"
+    },
+    {
+      "t": 785.6,
+      "text": "you can only have one object of a kind with the same name in the module which means that kind name and",
+      "why_it_matters": "Describes the uniqueness constraint that preserves compatibility with existing code.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 785.6,
+      "text": "you can only have one object of a kind with the same name in the module. Which means that kind name and and module",
+      "why_it_matters": "Establishes the fundamental uniqueness constraint for namespaced objects within modules.",
+      "check": "exact"
+    },
+    {
+      "t": 848.5,
+      "text": "You should wait with name spacing your own code until all your dependencies are name spaced.",
+      "why_it_matters": "Provides critical guidance on adoption strategy to avoid breaking changes.",
+      "check": "exact"
+    },
+    {
+      "t": 848.5,
+      "text": "You should wait with name spacing your own code until all your dependencies are name spaced",
+      "why_it_matters": "Critical guidance for preventing breaking changes during gradual namespace adoption across dependent modules.",
+      "check": "exact"
+    },
+    {
+      "t": 888.1,
+      "text": "Choose a unique name for your name spaces. And the good practice is to choose something that start with your company name, product, area,",
+      "why_it_matters": "Establishes best practices for namespace naming conventions and organization.",
+      "check": "exact"
+    },
+    {
+      "t": 1030.4,
+      "text": "Reference documentation provides details about programming elements associated with technologies and languages, including class libraries, object model",
+      "why_it_matters": "Defines what reference documentation is and its purpose for AL Doc tool.",
+      "check": "exact"
+    },
+    {
+      "t": 1180.1,
+      "text": "For a couple of a couple of years ago, we added XML documentation comment to the AL language",
+      "why_it_matters": "Establishes that XML documentation comments in AL have existed for years and form the basis for AL Doc.",
+      "check": "exact"
+    },
+    {
+      "t": 1273.5,
+      "text": "This tool has two purposes. It's one tool called AL Doc, but it allows us to create reference documentation for all our first-party apps",
+      "why_it_matters": "Clarifies AL Doc's dual purpose for both Microsoft first-party apps and partner extensions.",
+      "check": "exact"
+    },
+    {
+      "t": 1326.9,
+      "text": "this new tool AL Doc. It resides in the V6 next to the ALC and it has two primary commands",
+      "why_it_matters": "Specifies AL Doc's location and primary commands for documentation generation workflow.",
+      "check": "exact"
+    },
+    {
+      "t": 1597.9,
+      "text": "it's fairly fast even on large projects because",
+      "why_it_matters": "Indicates AL Doc build performance characteristics for large codebases.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1763.2,
+      "text": "it's great to see that we finally have namespace support in AL. And AL Doc will really help with getting up-to-date documentation on apps.",
+      "why_it_matters": "Confirms two new capabilities available in this release: namespace support and AL Doc for documentation generation.",
+      "check": "exact"
+    },
+    {
+      "t": 1815.2,
+      "text": "you need to open VS Code, uh you need to create the project, figure out the details about the environment, the connection uh string,",
+      "why_it_matters": "Describes the manual steps that the new automation eliminates, showing the improvement in developer workflow.",
+      "check": "exact"
+    },
+    {
+      "t": 1902,
+      "text": "But we have a new option now called explore page in Visual Studio Code",
+      "why_it_matters": "Announces the new explore page feature that automates VS Code workspace provisioning.",
+      "check": "exact"
+    },
+    {
+      "t": 1913.1,
+      "text": "It will create a dummy project. It will create an app.json in that dummy project with references to the extensions that are required for",
+      "why_it_matters": "Explains the automation that handles dependency resolution automatically from the page inspector.",
+      "check": "exact"
+    },
+    {
+      "t": 2025,
+      "text": "We also added a new feature in the previous release which was the AL Explorer",
+      "why_it_matters": "Indicates AL Explorer is from the previous release, not this one.",
+      "check": "exact"
+    },
+    {
+      "t": 2353.8,
+      "text": "the options in the page inspector will only appear if you have the troubleshooting tools permission",
+      "why_it_matters": "Specifies permission requirement for page inspector exploration features, important for security and access control.",
+      "check": "exact"
+    },
+    {
+      "t": 2397.7,
+      "text": "Initially, you need to be patient. You know, downloading symbols can take time, so just wait until everything finishes up",
+      "why_it_matters": "Best practice advice indicating symbol download is a time-consuming operation users should expect.",
+      "check": "exact"
+    },
+    {
+      "t": 2444.9,
+      "text": "you can even now also have a shared uh symbols path where you can reuse uh symbols, so you don't have to spend time",
+      "why_it_matters": "Explains optimization for symbol handling across multiple VS Code instances.",
+      "check": "exact"
+    },
+    {
+      "t": 2678.5,
+      "text": "The default for now has been 100 ms. We're now giving you the option to go a little lower than that, 50 ms, or",
+      "why_it_matters": "Provides specific tuning options for the AL profiler sampling interval, a key performance analysis feature",
+      "check": "exact"
+    },
+    {
+      "t": 2735.1,
+      "text": "You can declare namespaces to encapsulate your objects, add using statements to get easy access to objects in that namespace",
+      "why_it_matters": "Describes the biggest noticeable language change: namespaces for better code organization",
+      "check": "exact"
+    },
+    {
+      "t": 2774.1,
+      "text": "This is a new variable and parameter data type type you can use to protect the data it holds from being debugged",
+      "why_it_matters": "Introduces secure text, a major security feature for protecting sensitive data during debugging",
+      "check": "exact"
+    },
+    {
+      "t": 3087.8,
+      "text": "Now, we made it possible for you to add fields to a field group that doesn't exist, thereby enabling the scenario where we want",
+      "why_it_matters": "Describes a significant extension capability that unlocks new field group customization scenarios",
+      "check": "snapped"
+    },
+    {
+      "t": 3171.2,
+      "text": "We also have the rich text extended data type that enables you to add rich content capabilities to your fields.",
+      "why_it_matters": "Announces new rich text extended data type for content creation capabilities, a major feature in this release.",
+      "check": "exact"
+    },
+    {
+      "t": 3185.4,
+      "text": "It gives you the capability that you would expect from a rich text editor, like formatting, adding images, links",
+      "why_it_matters": "Details the rich text editor capabilities, an important new content creation feature for fields",
+      "check": "exact"
+    },
+    {
+      "t": 3199.4,
+      "text": "it does have some restrictions, like the fact that it needs to be alone in its own group, so you cannot use it in",
+      "why_it_matters": "Defines important limitations of the rich text field type that developers must understand",
+      "check": "exact"
+    },
+    {
+      "t": 3199.4,
+      "text": "it needs to be alone in its own group, so you cannot use it in a repeater or in in an existing group with",
+      "why_it_matters": "Specifies important limitation of rich text fields that developers must understand for implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 3332.6,
+      "text": "in this release, we're adding the ability to get inlay hints for AL parameter names and for return types.",
+      "why_it_matters": "Announces inlay hints feature for AL code authoring, improving developer productivity.",
+      "check": "exact"
+    },
+    {
+      "t": 3588.5,
+      "text": "we have improved that to now also work on trigger and system methods and trigger events. That's a portal on page and table fields,",
+      "why_it_matters": "Describes expanded scope of find all references functionality for trigger and system methods.",
+      "check": "exact"
+    },
+    {
+      "t": 3731.2,
+      "text": "let's have a look at the more recent GitHub Copilot Chat, which is an interactive chat experience inside of uh Visual Studio Code.",
+      "why_it_matters": "Introduces GitHub Copilot Chat as a new AI-assisted development tool for AL developers.",
+      "check": "exact"
+    },
+    {
+      "t": 3925,
+      "text": "We have the first wave of functionality with a per user pricing model that support direct sales channel in Microsoft AppSource.",
+      "why_it_matters": "Announces first phase of AppSource transactability with specific pricing and sales channel model.",
+      "check": "exact"
+    },
+    {
+      "t": 3937.4,
+      "text": "That is as I'm talking now in public preview, but on October 9th, that will actually go into GA.",
+      "why_it_matters": "Specifies exact date when AppSource per user pricing transitions from public preview to general availability.",
+      "check": "exact"
+    },
+    {
+      "t": 3937.4,
+      "text": "on October 9th, that will actually go into GA",
+      "why_it_matters": "Provides specific date for general availability of AppSource transactability, moving from public preview.",
+      "check": "exact"
+    },
+    {
+      "t": 3947.8,
+      "text": "in the in the middle of a private preview with select partners",
+      "why_it_matters": "Clarifies that CSP support is ready but not yet generally available, still in testing phase.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 4015.5,
+      "text": "collaboration with partners that has led to updating much more detail with examples",
+      "why_it_matters": "Shows community-driven improvement of developer resources and documentation.",
+      "check": "exact"
+    },
+    {
+      "t": 4026.6,
+      "text": "have a big investment in the performance tool kit that you can go and read off",
+      "why_it_matters": "Highlights priority placed on performance tooling for developers in this release.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 4055.5,
+      "text": "there's one on performance tool kit that's super important for making you know, testing and making sure that your app performs well",
+      "why_it_matters": "Emphasizes the importance of performance testing as a key development concern.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 116,
+      "kind": "preview",
+      "text": "One thing we introduced with the preview functionality is the ability to install the AL language extension on Linux."
+    },
+    {
+      "t": 222.4,
+      "kind": "preview",
+      "text": "I need to change the the sandbox here to my preview sandbox, we're still in preview."
+    },
+    {
+      "t": 271.8,
+      "kind": "preview",
+      "text": "Another thing we added as a preview is syntax highlighting for DevOps."
+    },
+    {
+      "t": 811.2,
+      "kind": "subject-to-change",
+      "text": "We still have a fixes. Um we would like to lift some of the restrictions and for instance, one of those we are looking at is new name spaced object can have names without a fixes."
+    },
+    {
+      "t": 822.4,
+      "kind": "coming-later",
+      "text": "new name spaced object can have names without a fixes. Which will take a little bit longer is member of on objects"
+    },
+    {
+      "t": 844.2,
+      "kind": "coming-later",
+      "text": "But it may take a while"
+    },
+    {
+      "t": 1283.6,
+      "kind": "preview",
+      "text": "We're starting slowly, but we plan to do it for all our apps"
+    },
+    {
+      "t": 2025,
+      "kind": "subject-to-change",
+      "text": "AL Explorer was added in the previous release"
+    },
+    {
+      "t": 2473.8,
+      "kind": "other",
+      "text": "there's no commits right now, but, you know, it would be great if instead of opening up locally on VS Code and sort of that content switching that you can actually open it up in the cloud in CodeSpaces"
+    },
+    {
+      "t": 2522.2,
+      "kind": "preview",
+      "text": "it's available in the preview. When you watch this, it's available in uh you know, the launch"
+    },
+    {
+      "t": 3229,
+      "kind": "coming-later",
+      "text": "In the coming releases, we'll continue to work on the rich text editor and its capabilities"
+    },
+    {
+      "t": 3784.3,
+      "kind": "preview",
+      "text": "remember to uh review the generated content, especially for AL, because the training material is based on open-source uh code, and for AL, that's fairly limited."
+    },
+    {
+      "t": 3937.4,
+      "kind": "preview",
+      "text": "That is as I'm talking now in public preview, but on October 9th, that will actually go into GA."
+    },
+    {
+      "t": 3947.8,
+      "kind": "preview",
+      "text": "CSP support is actually built but we're in the in the middle of a private preview with select partners on this"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 40,
+    "quotes_dropped": 0,
+    "evidence_verified": 3,
+    "evidence_unverified": 49
+  },
+  "windows": 6,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026003
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.029235999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027315
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.074759
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.038701
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01337
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.072595
+    }
+  ]
+}

@@ -1,0 +1,773 @@
+{
+  "video_id": "lClKXB8xXIE",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 21.1,
+      "end": 31.8,
+      "text": "Hello and welcome. I'm Andrei Panko and I will be demonstrating to you how to create troubles and how to solve them when you're dealing with Shopify integrations."
+    },
+    {
+      "t": 31.8,
+      "end": 40.2,
+      "text": "It's an overview session. It includes also functionality which existed before, but now we have even more troubleshooting things"
+    },
+    {
+      "t": 40.2,
+      "end": 50.8,
+      "text": "which is actually very difficult to demonstrate because we also dramatically increased stability of the product. But I work hard to actually create some issues."
+    },
+    {
+      "t": 50.8,
+      "end": 55.7,
+      "text": "So we will take a look how troubleshoot things using logging functionality."
+    },
+    {
+      "t": 55.7,
+      "end": 67.6,
+      "text": "What is Shopify API versioning and what impact it has or actually do not have on us if you do all the things right. And how to troubleshoot most noisy areas from the past."
+    },
+    {
+      "t": 67.6,
+      "end": 71.4,
+      "text": "It's order synchronization and fulfillment synchronization."
+    },
+    {
+      "t": 71.4,
+      "end": 84.7,
+      "text": "Let's take a look. Now we are in Business Central and let's try to synchronize something and see how to deal with problems. We start with customers and I would like to push some customers to Shopify."
+    },
+    {
+      "t": 84.7,
+      "end": 97.6,
+      "text": "I will synchronize and oops nothing happens. I expected at least one customer to go there. What is wrong? Probably the best advice or standard advice is to explore logs."
+    },
+    {
+      "t": 97.6,
+      "end": 109,
+      "text": "I will go to Shopify logs. Log entries. So many, so many. It is so difficult to deal with them. Not anymore."
+    },
+    {
+      "t": 109,
+      "end": 114.9,
+      "text": "So first of all, this is like how it used to look in the previous version."
+    },
+    {
+      "t": 114.9,
+      "end": 125.6,
+      "text": "With the new upgrade, the default view looks a bit better. I will remove personalization, which I made to look at as the previous version."
+    },
+    {
+      "t": 126.1,
+      "end": 130.4,
+      "text": "And now you can see that I have additional columns."
+    },
+    {
+      "t": 130.4,
+      "end": 144.1,
+      "text": "First of all, I have columns which show some information about request and response. So at least now I can see that. Here I'm trying to create some customer data. It will help me to distinguish between, for example, location synchronization or"
+    },
+    {
+      "t": 144.1,
+      "end": 147.8,
+      "text": "order synchronization or product synchronization."
+    },
+    {
+      "t": 147.8,
+      "end": 163.8,
+      "text": "The second interesting nuance is the checkbox, which shows if this specific synchronization attempt had error or not. And of course, it's more interesting to look at the entries which mark as entries with errors."
+    },
+    {
+      "t": 164.1,
+      "end": 169.9,
+      "text": "All right. So we're logging additional information and some strange things can"
+    },
+    {
+      "t": 170,
+      "end": 179.6,
+      "text": "happen on either Shopify site or on Business Central site. And if we receive status code 500, something wrong was on Shopify site."
+    },
+    {
+      "t": 180.5,
+      "end": 192.4,
+      "text": "In this case, in this case, it's better to ask Shopify to support through troubleshoot. And to help you to talk to Shopify support, you need to use a request ID."
+    },
+    {
+      "t": 193.7,
+      "end": 198.7,
+      "text": "It will help them to identify specific request response dramatically faster and"
+    },
+    {
+      "t": 198.7,
+      "end": 206.6,
+      "text": "provide more detailed information to you. So this is information which you need to use when interacting with Shopify support."
+    },
+    {
+      "t": 206.6,
+      "end": 211.4,
+      "text": "But if error is 200, then you should be with something else."
+    },
+    {
+      "t": 211.4,
+      "end": 218.6,
+      "text": "Let's explore the response. Now many responses contain a section which is called user error."
+    },
+    {
+      "t": 218.6,
+      "end": 227,
+      "text": "It means that when we try to submit some data to Shopify as users, something didn't work very well."
+    },
+    {
+      "t": 227,
+      "end": 232.3,
+      "text": "So for example, field phone rejected content which we were sending."
+    },
+    {
+      "t": 232.3,
+      "end": 245.1,
+      "text": "And it says enter a valid phone number. So particularly Shopify checks the phones. And what phone do we send there? Yeah, it doesn't look as a very well formatted phone."
+    },
+    {
+      "t": 245.1,
+      "end": 257.2,
+      "text": "So troubleshooting is very simple. We will just go and edit the phone and try again. But before doing so, let's ask ourselves a question."
+    },
+    {
+      "t": 257.8,
+      "end": 269.6,
+      "text": "If we know which errors are bad and which records were succeeded and which failed, do we really need to lock all of them? And the answer is maybe."
+    },
+    {
+      "t": 269.6,
+      "end": 276.6,
+      "text": "Let's take a look at the Shopify shop card. And you can see that now logging mode transformed"
+    },
+    {
+      "t": 276.6,
+      "end": 286,
+      "text": "from the boolean on and off into the option field. Where you can of course have it completely disabled, fully enabled or special new"
+    },
+    {
+      "t": 286.1,
+      "end": 295.8,
+      "text": "mode which is now default one error only. So in this case, it will be sending dramatically less number of errors."
+    },
+    {
+      "t": 296.2,
+      "end": 302,
+      "text": "Let's go back to Shopify log entries."
+    },
+    {
+      "t": 302.4,
+      "end": 307.9,
+      "text": "Delete them all just for clarity."
+    },
+    {
+      "t": 308.1,
+      "end": 317.3,
+      "text": "And activate error only mode. Right? Now we will go to customers."
+    },
+    {
+      "t": 317.6,
+      "end": 326.1,
+      "text": "We will fix our customer. Very simply, I will just remove these values."
+    },
+    {
+      "t": 329.6,
+      "end": 335.7,
+      "text": "And let's go to Shopify, customers and try to do the synchronization now."
+    },
+    {
+      "t": 337.1,
+      "end": 342.9,
+      "text": "Okay, we can see that customer was created and what about logs?"
+    },
+    {
+      "t": 344,
+      "end": 359.1,
+      "text": "It is empty, so it's not polluted. It's like very good. If you're still getting errors, of course, they will be accumulated here. And it makes also sense to clean up them from time to time. Not manually as I did, but you can see that we are using retention policies now."
+    },
+    {
+      "t": 360.4,
+      "end": 373.7,
+      "text": "And we include the Shopify log entries by default, so they will be cleaned up every month. You don't need probably entries which are more than one month old. Also, we have the same one, but disabled by default for Shopify data capture."
+    },
+    {
+      "t": 373.7,
+      "end": 385.1,
+      "text": "We will talk about this feature a bit later. All right, log is clean. But some people who troubleshoot it for some time, they already know that customer"
+    },
+    {
+      "t": 385.9,
+      "end": 390.7,
+      "text": "synchronization already provided user errors part."
+    },
+    {
+      "t": 390.7,
+      "end": 399.1,
+      "text": "What about other areas? Yes, we modified queries. Now they also, in many cases, if not always,"
+    },
+    {
+      "t": 399.1,
+      "end": 410.9,
+      "text": "return user error part if user error happened. Let's take a look, for example, to products. And let's try to submit some product. Home, add items."
+    },
+    {
+      "t": 410.9,
+      "end": 422.8,
+      "text": "I will be synchronizing item 118. Let me pick the store and click OK. So, 11, 18, and it failed."
+    },
+    {
+      "t": 423.8,
+      "end": 429.3,
+      "text": "Why? Let's check our log entries."
+    },
+    {
+      "t": 430.8,
+      "end": 442.2,
+      "text": "Very nice. Only one entry. And it obviously has issue. So, let's take a look at the details. Shopify error? No. Something else? Yes. Do we have user error section?"
+    },
+    {
+      "t": 442.2,
+      "end": 455.6,
+      "text": "Yes. It complains about field SKU. SKU can't be blank. Let's go to the shops and take a look."
+    },
+    {
+      "t": 456.1,
+      "end": 471.2,
+      "text": "Yes, SKU mapping field is empty. Then, of course, the SKU field will be blank when we're exporting data to Shopify. But why? It is a problem right now. So, now we are not troubleshooting things for real, but we are introducing the new functionality."
+    },
+    {
+      "t": 471.2,
+      "end": 477.3,
+      "text": "Be aware that already before this release in one of the minor updates,"
+    },
+    {
+      "t": 477.4,
+      "end": 482.2,
+      "text": "we enabled full support for business central fulfillment service."
+    },
+    {
+      "t": 482.2,
+      "end": 488,
+      "text": "So, it's a separate mode how Shopify allows you to work with external systems."
+    },
+    {
+      "t": 488.4,
+      "end": 493.7,
+      "text": "So, you can configure Shopify to use on fulfillment and locations."
+    },
+    {
+      "t": 493.7,
+      "end": 506.4,
+      "text": "And in this case, it still works. You can have multiple of them and synchronize. Or in Shopify, you do not care about locations at all because fulfillment locations, etc. will be handled on your system."
+    },
+    {
+      "t": 506.4,
+      "end": 514,
+      "text": "And in this case, it will be business central. So, now, how does it look on Shopify side?"
+    },
+    {
+      "t": 514,
+      "end": 519,
+      "text": "Let's open the Shopify admin and explore."
+    },
+    {
+      "t": 519,
+      "end": 534.2,
+      "text": "I will open some product and scroll down. And you can see that in inventory tab, you can have different options. It allows you to choose either business central fulfillment service or multiple locations."
+    },
+    {
+      "t": 534.2,
+      "end": 541.4,
+      "text": "And if you choose business central fulfillment service, it actually requires you to have SKU defined."
+    },
+    {
+      "t": 542,
+      "end": 551,
+      "text": "So, SKU can't be blank. So, it says exactly here in the UI and the same"
+    },
+    {
+      "t": 551,
+      "end": 562,
+      "text": "information we received in the business central. Why? Because in the Shopify shop locations, we have a toggle which defines how do we create a new product."
+    },
+    {
+      "t": 562,
+      "end": 572.7,
+      "text": "If you activate the toggle on business central fulfillment, then new products created on Shopify will be assigned to business central fulfillment locations. And hence, they require a SKU field."
+    },
+    {
+      "t": 572.7,
+      "end": 585.2,
+      "text": "Now, back to troubleshooting area. What do we see also in the Shopify shop card? Something new. And this is a very scary field which is called end of support."
+    },
+    {
+      "t": 585.2,
+      "end": 597,
+      "text": "You should not be afraid of it because I will explain. Shopify also evolving pretty quickly. So, every quarter they release a new version of the API. So, four times per year, there is a new version."
+    },
+    {
+      "t": 597,
+      "end": 601.6,
+      "text": "And each version is supported for one year."
+    },
+    {
+      "t": 601.6,
+      "end": 613.8,
+      "text": "Okay? So, and we try to keep up. We always update the recent versions or current versions. So, it works in the latest business central releases."
+    },
+    {
+      "t": 613.8,
+      "end": 619,
+      "text": "Or we also update if necessary during minor updates."
+    },
+    {
+      "t": 619.3,
+      "end": 629.9,
+      "text": "So, if you upgrade in your business central regularly, you also receive the upgraded version of business central Shopify connector as well."
+    },
+    {
+      "t": 629.9,
+      "end": 641.6,
+      "text": "So, in this case, you're always good. So, end of support will be like a year ahead. But we figured it out that some people stuck with the old version of business central."
+    },
+    {
+      "t": 641.6,
+      "end": 650,
+      "text": "And they were using Shopify with unsupported API. And Shopify actually flagged our app as having troubles."
+    },
+    {
+      "t": 650,
+      "end": 654.4,
+      "text": "And this information was displayed to like everybody."
+    },
+    {
+      "t": 654.4,
+      "end": 659.2,
+      "text": "Not only to people who were using old API version."
+    },
+    {
+      "t": 659.2,
+      "end": 667.7,
+      "text": "That's confusing and unpleasant and creates wrong impression for all good upgraded customers."
+    },
+    {
+      "t": 668.2,
+      "end": 679,
+      "text": "So, now we have a better information about what will happen if you do not upgrade in business central. The old versions will stop working."
+    },
+    {
+      "t": 679,
+      "end": 688.4,
+      "text": "Just upgrade as normal. Also, it makes sense to remind you about when you're trying to do troubleshooting"
+    },
+    {
+      "t": 688.4,
+      "end": 699.2,
+      "text": "about background and foreground synchronizations. Let me demonstrate. If synchronization is running in the foreground, then you don't actually see any"
+    },
+    {
+      "t": 700.2,
+      "end": 704.4,
+      "text": "feedback when you execute synchronization."
+    },
+    {
+      "t": 704.4,
+      "end": 715.6,
+      "text": "Like customer sync, nothing happens. You go to system create job queue and it executes there. And if error happens, it is there. But if you experience some problems,"
+    },
+    {
+      "t": 715.6,
+      "end": 720.6,
+      "text": "sometimes it's easier to explore it in the foreground."
+    },
+    {
+      "t": 720.6,
+      "end": 731,
+      "text": "Let me imitate very basic problem. I will just disable integration. And now when I click on seeing customers, something bad happens."
+    },
+    {
+      "t": 731,
+      "end": 744.4,
+      "text": "It will be in the logging system, but I would like to catch error in detail right away. In this case, I will disable the ground sync, which is owned by default and try to do it again."
+    },
+    {
+      "t": 744.4,
+      "end": 755,
+      "text": "OK, in this case, I get the error and I can copy all details, including cold stack. Of course, in this case, it's very primitive, but in some scenarios, we know it was not that simple."
+    },
+    {
+      "t": 755,
+      "end": 764.4,
+      "text": "All right. Let's activate our synchronization back. Another advice about troubleshooting and connectivity, you might want to have"
+    },
+    {
+      "t": 764.4,
+      "end": 770,
+      "text": "Shopify admin already up and running in the same browser, probably in the same tab."
+    },
+    {
+      "t": 770,
+      "end": 779.6,
+      "text": "Then in this case, the authorization happens smoothly and you are not redirected to a separate browser tab, which is sometimes faster and easier."
+    },
+    {
+      "t": 779.6,
+      "end": 788.3,
+      "text": "All right. Now let's go and troubleshoot something business process related, sales orders and then fulfillments."
+    },
+    {
+      "t": 788.6,
+      "end": 802.2,
+      "text": "So how do you do order synchronization? Let's go to the list of orders. I have plenty of them. And you can usually do, I think, orders from Shopify, which is a standard pattern."
+    },
+    {
+      "t": 802.2,
+      "end": 812.3,
+      "text": "But what if something doesn't work as expected or you need more control on what is happening? Take a look at this filter."
+    },
+    {
+      "t": 812.3,
+      "end": 824.8,
+      "text": "Shopify orders to import. It's not just a filtering opportunity. It is in reality the buffer table. And I will show you how to use it."
+    },
+    {
+      "t": 824.8,
+      "end": 831.5,
+      "text": "Let's create some troubles. For example, let's remove this specific order because"
+    },
+    {
+      "t": 831.7,
+      "end": 837,
+      "text": "it is missing for some reason and it's not in the sink."
+    },
+    {
+      "t": 837,
+      "end": 847.5,
+      "text": "I am trying to troubleshoot this problem. I will go to the search and orders to import, like the same as this filter string,"
+    },
+    {
+      "t": 849.5,
+      "end": 863.4,
+      "text": "and it will open me another table, another list. And it has an action which says get orders to import. If I will press it, I will get orders which were modified after some specific date."
+    },
+    {
+      "t": 864,
+      "end": 869.5,
+      "text": "You can reset this date if necessary from the Shopify admin."
+    },
+    {
+      "t": 869.7,
+      "end": 878.4,
+      "text": "Or you can go to Shopify and modify slightly order. For example, you can change the tag or add node."
+    },
+    {
+      "t": 878.4,
+      "end": 888.4,
+      "text": "All right. Now I got my order here. Now I can select the shop. You know that it's possible to connect multiple business"
+    },
+    {
+      "t": 888.4,
+      "end": 893.3,
+      "text": "central Shopify shop cards to the single Shopify account."
+    },
+    {
+      "t": 893.3,
+      "end": 898,
+      "text": "For which reason? Probably because you are parsing the orders differently."
+    },
+    {
+      "t": 898,
+      "end": 908.9,
+      "text": "Bases, for example, by tags or something else. That's why I need to instruct into which shop I'm going to import this specific order. And then I will press import selected orders."
+    },
+    {
+      "t": 908.9,
+      "end": 916.4,
+      "text": "So here the import process was very fast and simple. It just gets the header with a couple of fields."
+    },
+    {
+      "t": 916.4,
+      "end": 927.8,
+      "text": "But once I will press get orders to import, system will start to download additional information in a moment. And if something bad happens, you will see has error field here."
+    },
+    {
+      "t": 928.3,
+      "end": 934.9,
+      "text": "And in the bottom system will show the error details. It also sometimes helpful to troubleshoot."
+    },
+    {
+      "t": 934.9,
+      "end": 946.2,
+      "text": "I didn't manage to reproduce it anymore. Probably because we solved this one issue already. But useful to know."
+    },
+    {
+      "t": 946.2,
+      "end": 957.8,
+      "text": "So import selected order. And now we start to import additional information. Header, fully payments, transactions, shipments, lines, returns, refunds, like a lot of stuff."
+    },
+    {
+      "t": 957.8,
+      "end": 962.8,
+      "text": "And then my order was added."
+    },
+    {
+      "t": 962.8,
+      "end": 974,
+      "text": "And now it's time to explore. And sometimes you can ask question like where this information is coming from. So now you can, it was also possible before to inspect the data."
+    },
+    {
+      "t": 974,
+      "end": 985.1,
+      "text": "For example, retrieve Shopify data. Now you can see like what exactly we received from Shopify. So now you can understand if it's problem about data which we received from Shopify"
+    },
+    {
+      "t": 985.1,
+      "end": 998.3,
+      "text": "or the way how it was parsed by connector. So this is for header. This is for lines. Also for shipping cost."
+    },
+    {
+      "t": 998.4,
+      "end": 1003.9,
+      "text": "You can see inspect or transactions."
+    },
+    {
+      "t": 1004.4,
+      "end": 1016.4,
+      "text": "Also inspect or even fulfillment. And fulfillment by the way receives the whole page card so you can get some additional details. Not something you would explore just out of curiosity."
+    },
+    {
+      "t": 1016.4,
+      "end": 1024,
+      "text": "But if doing some troubleshooting makes sense to have it available right away instead of exploring tables."
+    },
+    {
+      "t": 1024,
+      "end": 1030.1,
+      "text": "Another useful hint on what to do if you want to troubleshoot stuff and compare"
+    },
+    {
+      "t": 1030.3,
+      "end": 1036.1,
+      "text": "Shopify via Business Central data is to go to Shopify."
+    },
+    {
+      "t": 1036.4,
+      "end": 1043.9,
+      "text": "Let's go to orders. Let's find the order."
+    },
+    {
+      "t": 1043.9,
+      "end": 1050.3,
+      "text": "And then in the URL you just add JSON."
+    },
+    {
+      "t": 1051.7,
+      "end": 1062.7,
+      "text": "Now you can see like representation of Shopify. For example, how discounts are allocated. It also might be helpful to understand."
+    },
+    {
+      "t": 1062.7,
+      "end": 1074.2,
+      "text": "For example, if you are missing the item variant code, you might be curious like why it's all. Is it because we didn't receive it from Shopify or it does not exist in Shopify?"
+    },
+    {
+      "t": 1074.2,
+      "end": 1082,
+      "text": "That happened. And this trick helps to solve confusion and help you"
+    },
+    {
+      "t": 1082,
+      "end": 1088.9,
+      "text": "to understand whom to contact for additional support. Is it Shopify or your Microsoft partner and Microsoft?"
+    },
+    {
+      "t": 1088.9,
+      "end": 1095.3,
+      "text": "All right. So now let's do something bad to create problems with fulfillment."
+    },
+    {
+      "t": 1096.1,
+      "end": 1101.6,
+      "text": "Let's navigate to Shopify store and let's buy some chair."
+    },
+    {
+      "t": 1101.9,
+      "end": 1106.5,
+      "text": "Buy it now."
+    },
+    {
+      "t": 1108.6,
+      "end": 1113.3,
+      "text": "It will be Denmark."
+    },
+    {
+      "t": 1113.3,
+      "end": 1118,
+      "text": "It will be our favorite customer, Cloud J."
+    },
+    {
+      "t": 1118,
+      "end": 1123.2,
+      "text": "Lawson, who lives in Denmark and buying free chair with"
+    },
+    {
+      "t": 1123.2,
+      "end": 1128.7,
+      "text": "some shipping cost, but it doesn't matter right now in reality."
+    },
+    {
+      "t": 1131.6,
+      "end": 1137.4,
+      "text": "We just need to have some order which we will import and then break."
+    },
+    {
+      "t": 1137.4,
+      "end": 1152.4,
+      "text": "OK. Now we have order. Time to import it. So sync orders from Shopify. OK, good. I have multiple orders already waiting."
+    },
+    {
+      "t": 1155.4,
+      "end": 1166.1,
+      "text": "All right. OK. I have order ready. And it's created in Business Central, so it's ready to be shipped. Let's open it."
+    },
+    {
+      "t": 1168.4,
+      "end": 1173.6,
+      "text": "Post shipment should be enough."
+    },
+    {
+      "t": 1174.5,
+      "end": 1179,
+      "text": "But before we will send it to Shopify, something bad happens."
+    },
+    {
+      "t": 1179,
+      "end": 1183.9,
+      "text": "Somebody in Shopify admin, probably administrator or"
+    },
+    {
+      "t": 1187.8,
+      "end": 1192.8,
+      "text": "responsible person, for some reason, Mark is order as fulfilled."
+    },
+    {
+      "t": 1192.8,
+      "end": 1203.2,
+      "text": "OK. So it was also fulfilled here. Now if I will be trying to synchronize shipment from Business Central to Shopify, it will fail. For good reason."
+    },
+    {
+      "t": 1203.2,
+      "end": 1213.5,
+      "text": "Let's click sync shipments to Shopify. OK. And let's go and explore the Rolleit Center."
+    },
+    {
+      "t": 1215.2,
+      "end": 1227.4,
+      "text": "So in Rolleit Center, you can see Shopify activities, which was here before. Now you can see that we have two fields demonstrating the status of shipment synchronization."
+    },
+    {
+      "t": 1227.6,
+      "end": 1232.3,
+      "text": "If something pending shipment or something failed."
+    },
+    {
+      "t": 1232.3,
+      "end": 1242.8,
+      "text": "And now this is actually actionable one. So you can explore what is the problem. So let's imagine that we already explored our Shopify order, the data."
+    },
+    {
+      "t": 1243.8,
+      "end": 1255.7,
+      "text": "We see that fulfillment is for some reason Mark as closed. So we go back to Shopify admin. Orders."
+    },
+    {
+      "t": 1257.5,
+      "end": 1268.7,
+      "text": "And cancel fulfillment. OK. Because it was marked as fulfilled by mistake. Right? Because we are waiting shipment from Business Central. Back to Business Central."
+    },
+    {
+      "t": 1268.7,
+      "end": 1280.5,
+      "text": "And then we have update document. And now we have Shopify tab, which actually shows Shopify fulfillment ID. And it can be 0, -1 if it's some error, or the actual value."
+    },
+    {
+      "t": 1280.5,
+      "end": 1293.5,
+      "text": "If it has an actual value, then all good. Don't touch it. And it's actually non-editable. But you can change -1 to 0. It's documented. It's done confusing on purpose."
+    },
+    {
+      "t": 1293.5,
+      "end": 1299,
+      "text": "And now this document moves from shipment errors to unprocessed shipments."
+    },
+    {
+      "t": 1301.4,
+      "end": 1306,
+      "text": "Now we can try again."
+    },
+    {
+      "t": 1306,
+      "end": 1311,
+      "text": "I think shipments to Shopify."
+    },
+    {
+      "t": 1311,
+      "end": 1323.7,
+      "text": "And it was successfully passed to Shopify. So what we saw. Logs. Now more powerful because more details if necessary. And less details and space usage if not necessary."
+    },
+    {
+      "t": 1323.7,
+      "end": 1335,
+      "text": "So this is dramatically cleaner. Shopify API versioning. No need to worry. Just stay updated. And then we saw how to troubleshoot order synchronization"
+    },
+    {
+      "t": 1335,
+      "end": 1343.7,
+      "text": "and fulfillment synchronization. Using additional details like activities part on the wallet center."
+    },
+    {
+      "t": 1347.3,
+      "end": 1352.8,
+      "text": "And data captured during synchronization between Shopify and Business Central."
+    },
+    {
+      "t": 1353,
+      "end": 1367.6,
+      "text": "I hope it will make your work easier. But I hope you will not need all these tools because connector is again more and more stable. And less issues are happening with it."
+    },
+    {
+      "t": 1367.6,
+      "end": 1372.8,
+      "text": "You can find the list of valuable resources on this slide."
+    },
+    {
+      "t": 1372.8,
+      "end": 1379.2,
+      "text": "And if you partner, remember that you can join Yammer, the first link on here."
+    },
+    {
+      "t": 1380.1,
+      "end": 1385,
+      "text": "And here we have a group about Shopify connector only."
+    },
+    {
+      "t": 1385,
+      "end": 1393.2,
+      "text": "So if you have questions, proposals or something to discuss, register ID and join the Yammer to discuss it."
+    },
+    {
+      "t": 1393.2,
+      "end": 1399,
+      "text": "Thank you for watching. Let's stay connected."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[MUSIC]"
+    }
+  ],
+  "word_count": 2931
+}

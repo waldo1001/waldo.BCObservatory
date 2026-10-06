@@ -5,12 +5,60 @@
   "tier": "official",
   "title": "What's New: Cross Environment Intercompany Posting and Approval for IC General Journals (2023)",
   "url": "https://www.youtube.com/watch?v=QGG0dW6HqSg",
-  "published_at": null,
+  "published_at": "2023-12-21T13:56:23.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:35:08.358Z",
+      "captions": "auto:en-orig",
+      "duration_s": 874
+    },
+    "captioned": {
+      "at": "2026-10-06T21:35:13.813Z",
+      "path": "data/captions/microsoft/QGG0dW6HqSg.vtt",
+      "vtt_sha256": "1194d8c8fa493b4253f82b033356ec43ac21b1ce3d7ec91f48781fa4039fdd56",
+      "segments": 47,
+      "words": 2351,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-06T21:35:46.065Z",
+      "path": "data/extract/video/QGG0dW6HqSg.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 11,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.028745
+    },
+    "summarized": {
+      "at": "2026-10-06T21:35:52.316Z",
+      "path": "data/summary/video/QGG0dW6HqSg.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0169044
+    },
+    "linked": {
+      "at": "2026-10-06T21:35:52.317Z",
+      "systems": [
+        "finance",
+        "integration",
+        "administration"
+      ],
+      "topics": 10,
+      "objects_as_heard": 2
+    },
+    "published": {
+      "at": "2026-10-06T21:35:52.326Z",
+      "path": "content/videos/QGG0dW6HqSg.md"
     }
   },
   "input_hash": null,
@@ -20,6 +68,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 481,
     "duration_s": 874,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dda4a5010342f6de523908ced2db7da135eb5365103a9e3932951e82cfddc658"
 }

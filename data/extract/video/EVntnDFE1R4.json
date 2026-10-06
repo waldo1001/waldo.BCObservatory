@@ -1,0 +1,598 @@
+{
+  "video_id": "EVntnDFE1R4",
+  "item_id": "video/yt-microsoft/EVntnDFE1R4",
+  "title": "What's New: Business Central Integration with Power Platform (2023 release wave 2)",
+  "duration_s": 1413,
+  "systems": [
+    "integration",
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "power automate",
+    "power apps",
+    "dataverse",
+    "virtual tables",
+    "business events",
+    "approval workflows",
+    "flow templates",
+    "connectors",
+    "multi-company flows",
+    "environment variables",
+    "power pages",
+    "power bi"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Power Platform and Business Central Integration",
+      "t_start": 0,
+      "t_end": 162.4
+    },
+    {
+      "title": "Power Automate Enhancements and Flow Creation Options",
+      "t_start": 162.4,
+      "t_end": 302
+    },
+    {
+      "title": "New Templates and Approval Workflow Improvements",
+      "t_start": 302,
+      "t_end": 383
+    },
+    {
+      "title": "Simplified Approval Template Demo and Maker Experience",
+      "t_start": 383,
+      "t_end": 523.4
+    },
+    {
+      "title": "Multi-Company and Multi-Environment Flow Support",
+      "t_start": 523.4,
+      "t_end": 715.9
+    },
+    {
+      "title": "Business Events Trigger and Automated Notifications Demo",
+      "t_start": 715.9,
+      "t_end": 796.2
+    },
+    {
+      "title": "Power Automate: Template-based flows and webhook limits",
+      "t_start": 796.2,
+      "t_end": 986.9
+    },
+    {
+      "title": "Connector actions: V2 deprecation and migration timeline",
+      "t_start": 986.9,
+      "t_end": 1044.4
+    },
+    {
+      "title": "Power Apps: Canvas and model-driven apps with Business Central",
+      "t_start": 1044.4,
+      "t_end": 1104.6
+    },
+    {
+      "title": "Dataverse virtual tables: Setup and general availability",
+      "t_start": 1104.6,
+      "t_end": 1182.4
+    },
+    {
+      "title": "Power Pages: Preview integration with virtual tables",
+      "t_start": 1182.4,
+      "t_end": 1243
+    },
+    {
+      "title": "Power BI: Embed experience and scorecard support",
+      "t_start": 1243,
+      "t_end": 1314.7
+    },
+    {
+      "title": "Summary and support resources for Power Platform integration",
+      "t_start": 1314.7,
+      "t_end": 1413
+    }
+  ],
+  "features": [
+    {
+      "name": "Approval Workflow Templates in Power Automate",
+      "description": "New action in Business Central pages that support approvals to create approval workflows directly. Templates have been improved to support real requester details, approval requests via adaptive cards in Teams, and cancel scenario support.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 180.7,
+      "t_end": 463,
+      "is_demoed": true,
+      "caveats": [
+        "Must be enabled in feature management for upgraded environments",
+        "Enabled by default only for new BC 2023 wave 2 environments"
+      ],
+      "tags": [
+        "approval workflows",
+        "power automate",
+        "templates",
+        "feature-management"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Automated Flow Templates Based on Business Events",
+      "description": "17 new automated flow templates that trigger on external business events from Business Central, allowing notifications in Teams when events like customer blocking or purchase order release occur.",
+      "status": "preview",
+      "status_evidence_t": 715.9,
+      "status_evidence_quote": "the concept of business events is is new in business Central and it's still in preview",
+      "status_evidence_verified": true,
+      "t_start": 322.2,
+      "t_end": 756,
+      "is_demoed": true,
+      "caveats": [
+        "Business events feature is still in preview"
+      ],
+      "tags": [
+        "business events",
+        "automated templates",
+        "notifications",
+        "teams"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Instant Flow Templates",
+      "description": "New instant flow templates for scheduling visits, creating summary emails, and summarizing inventory across companies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 342.5,
+      "t_end": 362.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "instant templates",
+        "templates"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Dynamic Company and Environment Support in Power Automate",
+      "description": "Flow actions no longer require company specification to list API categories or tables. Uses standard variables and environment variables to make flows work across different companies and environments without hardcoding.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 503.3,
+      "t_end": 675.7,
+      "is_demoed": true,
+      "caveats": [
+        "Requires use of environment variables for environments which needs AL-Go support"
+      ],
+      "tags": [
+        "environment variables",
+        "multi-company",
+        "dynamic flows"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "List Companies Action in Connector",
+      "description": "New action in the Business Central connector that returns all Business Central companies for a given environment, enabling flows that operate across multiple companies.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 564.3,
+      "t_end": 654.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "connector",
+        "list companies",
+        "multi-company"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Business Events Trigger",
+      "description": "Power Automate trigger to react on business events that occur in Business Central code. Allows automation based on special events from Microsoft code or custom events created by partners using AL construct.",
+      "status": "preview",
+      "status_evidence_t": 715.9,
+      "status_evidence_quote": "the concept of business events is is new in business Central and it's still in preview",
+      "status_evidence_verified": true,
+      "t_start": 715.9,
+      "t_end": 946.3,
+      "is_demoed": true,
+      "caveats": [
+        "Business events feature is in preview",
+        "Can be triggered from any company or specific company in an environment",
+        "Partners can extend with custom business events"
+      ],
+      "tags": [
+        "business events",
+        "triggers",
+        "automation"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Updated Business Central Connector Icons",
+      "description": "Changed icon theme for Business Central connectors to make it easier to distinguish between online and on-premises versions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 142.2,
+      "t_end": 162.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "connector",
+        "ui"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Webhook notification row limit increase",
+      "description": "Webhook notifications from Business Central to Power Automate increased from 100 rows to 1,000 rows, enabling flows that react to bulk changes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 966.7,
+      "t_end": 986.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "webhooks",
+        "power automate",
+        "bulk changes"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Connector V2 actions deprecation",
+      "description": "V2 actions in the Business Central connector will be hidden from December this year. Existing production flows will continue to work, but editing flows requires updating to V3 actions.",
+      "status": "announced",
+      "status_evidence_t": 1007.1,
+      "status_evidence_quote": "from December this year all of those V2 actions will be hidden and you won't be able to see them again",
+      "status_evidence_verified": true,
+      "t_start": 986.9,
+      "t_end": 1027.8,
+      "is_demoed": false,
+      "caveats": [
+        "Production flows continue to work but must be updated to V3 when edited"
+      ],
+      "tags": [
+        "power automate",
+        "connector",
+        "deprecation",
+        "migration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Canvas apps for Business Central",
+      "description": "Power apps designed for mobile experience with full UI control. Work with Business Central through connector, dataverse virtual tables, and support phones or tablets.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1044.4,
+      "t_end": 1084.5,
+      "is_demoed": false,
+      "caveats": [
+        "Requires building custom UI",
+        "Dataverse virtual tables dependency"
+      ],
+      "tags": [
+        "power apps",
+        "canvas apps",
+        "mobile"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Sample apps and canvas app guidance",
+      "description": "New sample apps provided to help get started with canvas apps. Documentation and guidance included for making apps look good, easy to maintain, and properly engineered.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1084.5,
+      "t_end": 1104.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power apps",
+        "canvas apps",
+        "documentation",
+        "samples"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Dataverse virtual tables for Business Central",
+      "description": "Technology that virtualizes data from Business Central so it appears in Dataverse as native tables. Enables rich integrations with Dataverse apps and other Dynamics 365 apps.",
+      "status": "announced",
+      "status_evidence_t": 1165.5,
+      "status_evidence_quote": "this technology virtual tables for business Central uh is going to be generally available later this year",
+      "status_evidence_verified": true,
+      "t_start": 1104.6,
+      "t_end": 1182.4,
+      "is_demoed": false,
+      "caveats": [
+        "Currently in preview, GA later this year",
+        "Requires Dataverse setup"
+      ],
+      "tags": [
+        "dataverse",
+        "virtual tables",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Assisted setup for Dataverse virtual tables",
+      "description": "Simplified setup process in Business Central assisted setup to enable Dataverse virtual tables. Users can choose which tables to virtualize, enabling them one by one or in bulk.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1125.3,
+      "t_end": 1165.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "dataverse",
+        "virtual tables",
+        "setup",
+        "assisted setup"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Power Pages integration with Business Central",
+      "description": "New product from Power Platform with preview integration via Dataverse virtual tables, delivering later this year. Enables building portals and websites exposed externally with authenticated access for external users in B2B scenarios.",
+      "status": "preview",
+      "status_evidence_t": 1182.4,
+      "status_evidence_quote": "in later in this year we will um deliver a preview version of our integration",
+      "status_evidence_verified": true,
+      "t_start": 1182.4,
+      "t_end": 1243,
+      "is_demoed": false,
+      "caveats": [
+        "Preview opt-in experience at the beginning",
+        "More details available around November",
+        "Requires mapping external users to customers"
+      ],
+      "tags": [
+        "power pages",
+        "virtual tables",
+        "portals",
+        "b2b"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Power BI embed experience improvements",
+      "description": "Enhanced control over Power BI reports and dashboards in Business Central embed experience. Includes zoom level control, page control with memory, and support for Power BI scorecards.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1260.3,
+      "t_end": 1300.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "embed",
+        "reporting",
+        "scorecard"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Power BI scorecard support in Business Central",
+      "description": "Power BI scorecards are now viewable from within Business Central. AL code components added to allow control of scorecards from AL code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1280.4,
+      "t_end": 1314.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "scorecard",
+        "reporting",
+        "al"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Data sync technology for Dataverse",
+      "description": "Technology that allows syncing data to Dataverse, primarily for connecting to other Dynamics 365 products.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1334.8,
+      "t_end": 1355.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "dataverse",
+        "data sync",
+        "dynamics 365"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "automate group",
+      "t": 180.7
+    },
+    {
+      "type": "other",
+      "name": "Adaptive card",
+      "t": 885.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Buaji Koto",
+      "confidence": "medium"
+    },
+    {
+      "name": "Monica Alja",
+      "confidence": "medium"
+    },
+    {
+      "name": "BL",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 142.2,
+      "text": "we actually and changed the icon theme for the business Central connectors so now it is easier for you to distinguish the online version",
+      "why_it_matters": "Describes a UX improvement in how connectors are visually differentiated, indicating attention to developer experience.",
+      "check": "exact"
+    },
+    {
+      "t": 241.6,
+      "text": "all of those are features enabled in feature management so if you have a business Central tenant or environment that has been upgraded from",
+      "why_it_matters": "Indicates that Power Automate features must be explicitly enabled via feature management for upgraded environments, establishing deployment requirements.",
+      "check": "exact"
+    },
+    {
+      "t": 322.2,
+      "text": "we have added 17 new automated templates that are based on external business events uh so these templates allow to allow the notification on",
+      "why_it_matters": "Quantifies the new template additions and specifies their purpose for event-driven notifications, showing scope of new capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 523.4,
+      "text": "in this way you don't even need to specify company to list API categories or tables for any action or trigger of the connector",
+      "why_it_matters": "Describes a significant simplification in connector usage that removes the need to hardcode company information, enabling more flexible flows.",
+      "check": "exact"
+    },
+    {
+      "t": 564.3,
+      "text": "we have now added a new action in the connector called list companies it allows you to get all the business Central companies for",
+      "why_it_matters": "Introduces a new connector action that enables multi-company flow patterns, expanding supported use cases.",
+      "check": "exact"
+    },
+    {
+      "t": 715.9,
+      "text": "the concept of business events is is new in business Central and it's still in preview but that allows you to react on special",
+      "why_it_matters": "Establishes that business events is a preview feature and describes its core capability for event-driven automation.",
+      "check": "exact"
+    },
+    {
+      "t": 796.2,
+      "text": "this demo we will start with business Central client so we'll start with the single Consolidated place for creating approvals based on templates",
+      "why_it_matters": "Establishes the unified approval template creation experience as a key feature in Business Central for Power Automate integration.",
+      "check": "exact"
+    },
+    {
+      "t": 966.7,
+      "text": "before there was a limit of 100 rows only and right now it's uh 1,000 so we changed that 10f and that allows you",
+      "why_it_matters": "Quantifies a specific improvement in webhook capabilities that enables new scenarios for bulk data operations.",
+      "check": "exact"
+    },
+    {
+      "t": 1007.1,
+      "text": "from December this year all of those V2 actions will be hidden and you won't be able to see them again uh but for",
+      "why_it_matters": "Clarifies the deprecation timeline and migration requirements for connector actions, critical for customers managing production flows.",
+      "check": "exact"
+    },
+    {
+      "t": 1165.5,
+      "text": "this technology virtual tables for business Central uh is going to be generally available later this year",
+      "why_it_matters": "Provides timeline for Dataverse virtual tables GA, indicating a major milestone for virtual table adoption.",
+      "check": "exact"
+    },
+    {
+      "t": 1182.4,
+      "text": "in later in this year we will um deliver a preview version of our integration",
+      "why_it_matters": "Announces Power Pages integration status as preview, to be delivered later this year.",
+      "check": "exact"
+    },
+    {
+      "t": 1202.8,
+      "text": "you will be able to build uh portals or uh websites that are exposed externally that are available to your customer so think about",
+      "why_it_matters": "Describes the primary use case for Power Pages integration with Business Central in B2B scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 1260.3,
+      "text": "we have made some significant changes to make it easier for you to control what you see and how you see especially when you",
+      "why_it_matters": "Highlights enhancements to Power BI embed experience for improved user control and reporting capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 1314.7,
+      "text": "in business Central integration with Power Platform we offer multiple Technologies starting with powerbi and powerbi connector through our standard Core Power Platform connector",
+      "why_it_matters": "Summarizes the comprehensive range of Power Platform technologies integrated with Business Central.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 261.8,
+      "kind": "preview",
+      "text": "if you're creating a new uh environment in business Central or a Sandbox environment with preview version of business Central 2023 wave two this is enabled by default"
+    },
+    {
+      "t": 715.9,
+      "kind": "preview",
+      "text": "the concept of business events is is new in business Central and it's still in preview"
+    },
+    {
+      "t": 1007.1,
+      "kind": "coming-later",
+      "text": "from December this year all of those V2 actions will be hidden"
+    },
+    {
+      "t": 1165.5,
+      "kind": "coming-later",
+      "text": "this technology virtual tables for business Central uh is going to be generally available later this year"
+    },
+    {
+      "t": 1182.4,
+      "kind": "preview",
+      "text": "in later in this year we will um deliver a preview version of our integration"
+    },
+    {
+      "t": 1222.8,
+      "kind": "preview",
+      "text": "this will be a a preview optin experience at the beginning"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 14,
+    "quotes_dropped": 0,
+    "evidence_verified": 5,
+    "evidence_unverified": 12
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024745
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.077974
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026678999999999998
+    }
+  ]
+}

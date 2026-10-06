@@ -1,0 +1,95 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/bcdb-restore-write-a-cloud-export-into-a-container/",
+  "url": "https://stefanmaron.com/posts/bcdb-restore-write-a-cloud-export-into-a-container/",
+  "title": "bcdb restore: Write a Cloud Export Into a Container",
+  "source": "stefanmaron-com",
+  "published_at": "2026-09-10T05:33:46.000Z",
+  "words": 1305,
+  "summary": "The bcdb restore tool writes cloud exports directly into a running Docker container without requiring matching schemas, intelligently handling mismatches by skipping missing tables and columns. It restored a production environment in 10 seconds and supports flexible identity table handling, company mapping, and dry-run preview modes.",
+  "key_points": [
+    "Restore works against containers with different extension sets, skipping mismatches instead of failing",
+    "Excludes identity and platform tables by default to prevent login failures and service tier corruption",
+    "Auto-maps company data when one company exists on each side, with verbose logging for ambiguous cases",
+    "Streams and bulk-copies rows without loading full tables to memory, preserving identity values and SQL decimal amounts",
+    "Provides --dry-run flag to preview the entire plan before execution"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "bcdb",
+    "restore",
+    "docker",
+    "container",
+    "data migration",
+    "schema mismatch",
+    "cloud export",
+    "bacpac"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "User"
+    },
+    {
+      "type": "table",
+      "name": "Access Control"
+    },
+    {
+      "type": "table",
+      "name": "User Personalization"
+    },
+    {
+      "type": "table",
+      "name": "User Property"
+    },
+    {
+      "type": "table",
+      "name": "Company"
+    },
+    {
+      "type": "table",
+      "name": "Tenant Profile"
+    },
+    {
+      "type": "table",
+      "name": "NAV App"
+    }
+  ],
+  "features": [
+    "bcdb restore",
+    "schema flexibility",
+    "identity table exclusion",
+    "company mapping",
+    "dry-run mode",
+    "bulk copy",
+    "mismatch handling"
+  ],
+  "versions": [
+    "0.2.0",
+    "0.1.2",
+    "28.4",
+    "28.2"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007261,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "it writes a source's rows straight into a container that's already running, and it doesn't ask the container's schema to match the source first.",
+      "why_it_matters": "Explains the core innovation: schema flexibility eliminates the pre-alignment work normally required for restores"
+    },
+    {
+      "text": "bcdb restore sees the one company with data on each side, maps it, and logs the mapping so it's never a surprise.",
+      "why_it_matters": "Shows intelligent defaults that work without user specification while maintaining transparency"
+    }
+  ]
+}

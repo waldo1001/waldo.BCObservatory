@@ -1,0 +1,27 @@
+{
+  "video_id": "bvGdaxC3sq8",
+  "item_id": "video/yt-microsoft/bvGdaxC3sq8",
+  "summary": "Contoso Demo Tool is a tool announced for 2023 release wave 2 (available from version 23.0) that orchestrates modular demo data for Business Central. The video covers the limits of rapid start packages, the Contoso Coffee modules, and how developers build their own demo data modules with dependencies and helper code units.",
+  "overview": "The video explains why rapid start packages are a limited way to create demo data, and introduces the Contoso Demo Tool as an alternative. Demo data is split into scenario-based modules that can work together or separately. Contoso Coffee, a fictitious company that makes coffee and coffee machines, provides modules such as common, warehousing, manufacturing, and service.\n\nThe presenter then shows how to build your own demo data module. This covers implementing the module interface, declaring dependencies on other modules, creating data layer by layer, and using helper code units to populate tables. The video ends with future plans, including on-demand demo data creation and an enhanced company creation wizard, and notes that the code is open source.",
+  "key_points": [
+    "The Contoso Demo Tool is announced for wave 2 and is available from version 23.0.",
+    "Demo data modules are described as LEGO bricks that build on top of each other, and they can be used together or separately.",
+    "Contoso Coffee modules named in the video are common, warehousing, manufacturing, and service.",
+    "A custom module implements a standard interface with procedures for customization pages, dependency specification, and creating demo data layer by layer.",
+    "Modules can declare dependencies on other modules, such as common, so you can reuse their data, for example posting groups, instead of duplicating code.",
+    "Helper code units populate tables and specify fields, so a general posting setup line can be created in one line of code.",
+    "Planned: on-demand demo data creation that will eventually replace the evaluation and extended packages, and a company creation wizard that lets you select multiple modules. Both need more modules to be developed first."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "33e1719975243b4098ed82993e57360e59040a75f5dc134d0627ad2712ca28fd",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0154164
+  }
+}

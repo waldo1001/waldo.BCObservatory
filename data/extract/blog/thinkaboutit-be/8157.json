@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/thinkaboutit-be/8157",
+  "url": "https://thinkaboutit.be/2026/09/quick-tip-github-copilot-chat-modes-are-now-agents-and-edit-mode-is-gone/",
+  "title": "Quick Tip: GitHub Copilot Chat Modes Are Now Agents, and Edit Mode Is Gone",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-09-10T09:16:38.000Z",
+  "words": 277,
+  "summary": "GitHub Copilot Chat modes have been reorganized into agent roles in VS Code. The Edit mode has been replaced by diff-based editing within Agent, Plan is now a built-in role, and custom chat modes are now custom agents with a new file extension and configuration interface.",
+  "key_points": [
+    "Chat modes are now called agent roles: Agent, Ask, and Plan are the built-in set",
+    "Edit mode was discontinued; its diff-based editing capabilities moved into Agent",
+    "Plan is now a proper built-in role that creates implementation plans and hands off to Agent for coding",
+    "Custom chat modes became custom agents with .agent.md file extension instead of .chatmode.md",
+    "VS Code split the dropdown into Session Target (harness selection) and Agent picker (role selection)"
+  ],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "copilot chat",
+    "agent roles",
+    "vs code",
+    "custom agents",
+    "session target"
+  ],
+  "objects": [],
+  "features": [
+    "Copilot Chat modes",
+    "Agent role",
+    "Ask role",
+    "Plan role",
+    "Custom agents",
+    "Session Target",
+    "Diff-based editing"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005103,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Edit did not survive, its diff based editing now sits inside Agent.",
+      "why_it_matters": "Critical change for users relying on Edit mode; they need to know the functionality moved into Agent"
+    }
+  ]
+}

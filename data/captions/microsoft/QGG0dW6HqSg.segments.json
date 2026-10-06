@@ -1,0 +1,248 @@
+{
+  "video_id": "QGG0dW6HqSg",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 21.4,
+      "end": 41.6,
+      "text": "hi and welcome to this what's new session for cross environment interc company postings my name is Brian nilson and I'm a program manager with the business Central team and with me I have my colleague uh my name is Jos Antonio Garcia and I'm a developer in business Central what we will uh do in this session"
+    },
+    {
+      "t": 41.6,
+      "end": 61.8,
+      "text": "is take you through interc company postings just a brief recap of what it is and what we did in the last release where we did a a few uh new features then we'll see um a demo of the new capability for doing inter company across environments that will be Jose who will be who will do that"
+    },
+    {
+      "t": 61.8,
+      "end": 73.6,
+      "text": "and he will also take you through the setup that you need uh to get it working and then uh he also has a few tips and tricks so let's uh let's look into into"
+    },
+    {
+      "t": 73.6,
+      "end": 86.8,
+      "text": "company inter company is for when you're doing interactions transactions between group companies like you all belong to a group of uh uh a business"
+    },
+    {
+      "t": 86.8,
+      "end": 106.9,
+      "text": "and sometimes the subsidiary sell to other subsidiaries or you buy all from a a common production environment um and you can use inter company to do that um it sets up your partners as interc company Partners it has a feature where you uh do mapping of dimensions and chart of accounts"
+    },
+    {
+      "t": 106.9,
+      "end": 126.9,
+      "text": "it can support multicurrency they don't all have to be the same currency they don't all have to be the same dimensions and they don't all have to be the same chart of accounts so it's very flexible in in the setups that that it supports it works through sales and purchase documents and it also works through uh General journals but"
+    },
+    {
+      "t": 126.9,
+      "end": 147,
+      "text": "let's just take a brief look at what we did in the previous release we made a a One-Stop shop for the setup so it's easier to to see the different parts we added some cues on the fact box uh so you can see what's may be missing in in your setup uh we did"
+    },
+    {
+      "t": 147,
+      "end": 167,
+      "text": "some mapping side by side we did a synchronization so you don't have to handle files when you import uh an interc company chart of accounts or the dimensions uh we improve the navigations going to and from the different in andout boxes so it's easier at least in the setup phase"
+    },
+    {
+      "t": 167,
+      "end": 187.6,
+      "text": "and in the troubleshooting phase that helps a lot we added the ability to do bank-to-bank transactions in general journals you now also have the comments in in the journal transactions and in the document transactions and lastly we made it possible that even if you accepted an intercom transaction you can go to that document"
+    },
+    {
+      "t": 187.6,
+      "end": 207.7,
+      "text": "and still rejected um so we made inter company a lot easier to work with uh so let's just uh look at where are we in terms of uh features before we start with the new parts so I have an inter company setup in this business I have a"
+    },
+    {
+      "t": 207.7,
+      "end": 217.9,
+      "text": "holding company or my parent company and I have two subsidiaries and I've set I've set them up uh as IC Partners"
+    },
+    {
+      "t": 217.9,
+      "end": 237.9,
+      "text": "um and I have a few parameters for each of them I specify what they're called where they are um what if they're using a currency code and if I want to Auto accept transactions coming from them and I can also I just turn on the edit I can match them with a"
+    },
+    {
+      "t": 237.9,
+      "end": 258.2,
+      "text": "customer and I can also match them with with a vendor so I can use the customer and vendor uh capabilities we have in the product and um for the bank to bank I can also set up bank accounts for each of the companies you need to have a mapping to your chart of accounts so you can import"
+    },
+    {
+      "t": 258.2,
+      "end": 278.4,
+      "text": "a common chart of accounts and then you do mapping for that and that is what we built last time we we did it side by side for one is the incoming part like when you receive something where do you want to map it to and one if you send something out for like a a a set of accounts or one"
+    },
+    {
+      "t": 278.4,
+      "end": 298.5,
+      "text": "account which IC child of account account do you want to map it to um so that you can have different childart of accounts in in the companies that you uh do inter company with the same goes for Dimensions where we also set up a side by side um mapping so it's easier to"
+    },
+    {
+      "t": 298.5,
+      "end": 319,
+      "text": "to manage but that's basically it in this company I have only set up same environment they are in in the same us environment that I have so for this release we have also introduced the capability to allow IC partners that reside in a different environment and Jose will first show you an example"
+    },
+    {
+      "t": 319,
+      "end": 339.1,
+      "text": "of does it work um and after that he will show how it's set up yeah thank you Brian uh so here you can see basically side by side uh two different companies the one on the left is on let's say 10 and one and the one on the right is in 10 and two so they are"
+    },
+    {
+      "t": 339.1,
+      "end": 359.5,
+      "text": "completely different they belong to different business entities but in reality they are just one big uh company um so let's try it out uh before if you wanted to work with inter company uh across tenants or across environments you will need to download some documents and move those to avoid some manual"
+    },
+    {
+      "t": 359.5,
+      "end": 378.3,
+      "text": "errors that could occur during that time we decided to allow inter company to work across companies so in this scenario I have this customer uh link to this company B but for me internally in company in company a it's just another customer let's say that I want to"
+    },
+    {
+      "t": 378.3,
+      "end": 399.3,
+      "text": "assign some desks and I get H let's say 55 yep right now I if I post this we will be internally handling as a normal sales invoice and at the end of the process we will be sending this information to Company B"
+    },
+    {
+      "t": 399.3,
+      "end": 419.6,
+      "text": "uh this part has been done before uh through inter company however now across environments we allow it to work basically as an attraction for the user they don't know that the uh customer that they're interacting is in a completely different tenant so now if we go and refresh the company B we will be able to see"
+    },
+    {
+      "t": 419.6,
+      "end": 440,
+      "text": "that in the inter company inbox we will have a new entry yeah so if we go scroll down here we will have our cues and if we go into the details we will have a purchase document with a different information and the quantity and then we can"
+    },
+    {
+      "t": 440,
+      "end": 460.3,
+      "text": "accept as usual for anyone who is familiar with inte company there hasn't been that much of change the idea is that we wanted to make it seamless for anyone working with inter company to do these transactions across environments all the existing functionality for inter company is Now supported cross environment cross environment means that it could be"
+    },
+    {
+      "t": 460.3,
+      "end": 480.3,
+      "text": "handled with two different environments in one tenant or across tenants but you need to do some setup and we can jump into it right now I have here in tenant 2 I have a new company that I want to set up with my uh company a in tenant one so what we will need to do is go go into the inter"
+    },
+    {
+      "t": 480.3,
+      "end": 500.7,
+      "text": "compan setup in both companies and we just add a new IC partner there is a new action that will help us to establish this setup and we can basically do it both in parallel but this information will need to be share across uh businesses so if we"
+    },
+    {
+      "t": 500.7,
+      "end": 518.1,
+      "text": "uh well one thing since this is a new company you will need to give it a unique name I see new for example and then we need to create in a reference to this other company and then"
+    },
+    {
+      "t": 518.1,
+      "end": 530.9,
+      "text": "connect the connect will give us a wizard we will need to accept the conditions because uh our data might be switch across GEOS and there are some privacies that you will need to be aware before moving"
+    },
+    {
+      "t": 530.9,
+      "end": 553.8,
+      "text": "forward and the setup is analogously in both parts first we will need to know where do you want to reach out for that information to make it easy we provided your company information that you will need to share with any other intercompany partner that you want to interact so for example we will copy these four entries that we see up"
+    },
+    {
+      "t": 555.6,
+      "end": 567.1,
+      "text": "here so you can see the inter Company ID needs to be the same so I don't need to paste it again and we will do the same"
+    },
+    {
+      "t": 568.1,
+      "end": 588.3,
+      "text": "backwards once we know uh where do we want to reach out we will need to authenticate in order to uh generate this information you will need to have a Microsoft entryid uh registration application I will give more details later on uh but yeah so now you can see I have uh fill in"
+    },
+    {
+      "t": 588.3,
+      "end": 599.6,
+      "text": "all the different fields and then with the before we move forward we will do a test connection to verify that these details were correct"
+    },
+    {
+      "t": 599.6,
+      "end": 608.7,
+      "text": "if everything goes well you will see this message that allows you to move forward and save this as a new interc company"
+    },
+    {
+      "t": 608.7,
+      "end": 628.8,
+      "text": "partner from this point onward it will be what Brian mentioned uh you can basically establish the currency we will pick up the one that is used by default by the other company in this case they are using the same one so that's why you don't see a difference and you can attach it to a customer and vendor and have the function existing functionality for these two parts as a small test"
+    },
+    {
+      "t": 628.8,
+      "end": 641.2,
+      "text": "you can also for example copy the bank accounts that the interc company partner allowed for usage across intercompany and you will have them so up to"
+    },
+    {
+      "t": 641.2,
+      "end": 660.3,
+      "text": "you um that's basically all for the intercompany setup from this point onward you will not know that you're working with a intercompany partner in a different tenant however there are a couple of tips and tricks that I think that will be beneficial for you guys to know uh first of all is"
+    },
+    {
+      "t": 660.3,
+      "end": 680.5,
+      "text": "uh the authentication details these authentication details that you see at the very bottom need to be created in aure as a normal app registration there is more information on how to do this in our documentation uh however you can at the end of the process you will need to create a new Microsoft entra application"
+    },
+    {
+      "t": 680.5,
+      "end": 700.7,
+      "text": "where you will introduce the client ID uh descriptive name and you enable it and once you have enabled it you need to assign it this permission set that is cross environment API cross environment into company this will allow you to basically send and receive uh Communications and allow other companies to log into your system for working"
+    },
+    {
+      "t": 700.7,
+      "end": 721.2,
+      "text": "with inter company uh due to some security um requirements we had to remove the ability to insert this kind of new interc company partners because you will be able to reach out uh without uh limits so by the default only admins have that permission"
+    },
+    {
+      "t": 721.2,
+      "end": 741.9,
+      "text": "but if you want to assign it to any user you just need to go into the permission set and assign it this permission set create and modified interc company Partners another tip that we discovered during our testing is that in some situations companies that are across tenant and across environments might be in two different regions"
+    },
+    {
+      "t": 741.9,
+      "end": 762.2,
+      "text": "and they don't have the currencies uh enabled that will allow them to communicate with them so make sure that if you're talking with an intercompany partner that is using a different uh currency than you are make sure that you have it on the list of currencies locally also on a more technical details uh these cross environment Communications are handled"
+    },
+    {
+      "t": 762.2,
+      "end": 782.6,
+      "text": "by job as you can see in the in the partner for example on the left the one that sended the transactions you will be able to see in the logs that there was a send notification and a cleanup notification uh the sending information will be will be done in the name of the user that started the transaction"
+    },
+    {
+      "t": 782.6,
+      "end": 802.6,
+      "text": "while from that point onwards the intercompany partner that you created through the Microsoft entra registration will handle it and I think that that's basically uh everything to get started uh going back to you Brian yeah and maybe it's important to note because you say you need to create an app like the registration app yes but you don't need to be"
+    },
+    {
+      "t": 802.6,
+      "end": 822.6,
+      "text": "a developable for for that it's basically just a record in the aure portal and a few clicks following the manual and and you're done yeah and and just a small detail uh for those of you that don't need to work across tenants uh this uh registration app can be used for all environments within one tenant"
+    },
+    {
+      "t": 822.6,
+      "end": 842.8,
+      "text": "so it's true that in this scenario we had to use two registration apps but that's only because we are working in two different tenants if you're working in only one tenant one registration app will allow you to use inter so I set up one one app for my company yes and I can use it for all my Partners exactly but I still need to do the setup for each of the partners exactly to"
+    },
+    {
+      "t": 842.8,
+      "end": 863,
+      "text": "identify them but the good thing is that once you do the setup for Microsoft entra that will be enabled for all the companies on that environment you don't need to do it per company just it's once once per environment yeah super thank you Jose so uh with this we hope that you will use inter company postings more than you already are"
+    },
+    {
+      "t": 863,
+      "end": 872.4,
+      "text": "uh now that you have these new capabilities to do inter company cross environment thanks for joining this"
+    },
+    {
+      "t": 872.8,
+      "end": 874,
+      "text": "question"
+    }
+  ],
+  "markers": [
+    {
+      "t": 2.12,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2351
+}

@@ -1,0 +1,1329 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:09.919 line:85%
+[MUSIC]
+
+00:00:21.120 --> 00:00:22.239 line:85%
+Hello and welcome.
+
+00:00:22.559 --> 00:00:25.160 line:83%
+I'm Andrei Panko and
+I will be demonstrating to
+
+00:00:25.199 --> 00:00:27.519 line:83%
+you how to create
+troubles and how to solve them
+
+00:00:28.039 --> 00:00:30.280 line:83%
+when you're dealing
+with Shopify integrations.
+
+00:00:31.800 --> 00:00:33.240 line:85%
+It's an overview session.
+
+00:00:33.280 --> 00:00:35.200 line:83%
+It includes also
+functionality which existed
+
+00:00:35.240 --> 00:00:39.799 line:83%
+before, but now we have
+even more troubleshooting things
+
+00:00:40.159 --> 00:00:42.640 line:83%
+which is actually very
+difficult to demonstrate because
+
+00:00:42.679 --> 00:00:45.280 line:83%
+we also dramatically
+increased stability of the product.
+
+00:00:45.679 --> 00:00:50.079 line:83%
+But I work hard to
+actually create some issues.
+
+00:00:50.840 --> 00:00:54.880 position:75% line:83%
+So we will take a look how
+troubleshoot things using logging functionality.
+
+00:00:55.679 --> 00:01:00.320 position:56% line:83%
+What is Shopify API
+versioning and what impact it has or
+
+00:01:00.359 --> 00:01:03.520 line:83%
+actually do not have on us
+if you do all the things right.
+
+00:01:03.920 --> 00:01:07.359 line:83%
+And how to troubleshoot
+most noisy areas from the past.
+
+00:01:07.599 --> 00:01:10.439 line:83%
+It's order synchronization
+and fulfillment synchronization.
+
+00:01:11.400 --> 00:01:12.159 line:85%
+Let's take a look.
+
+00:01:13.439 --> 00:01:16.319 line:83%
+Now we are in
+Business Central and let's try to
+
+00:01:16.359 --> 00:01:19.680 line:83%
+synchronize something and
+see how to deal with problems.
+
+00:01:20.239 --> 00:01:24.400 position:70% line:83%
+We start with customers and I
+would like to push some customers to Shopify.
+
+00:01:24.680 --> 00:01:28.159 line:83%
+I will synchronize
+and oops nothing happens.
+
+00:01:28.200 --> 00:01:30.799 line:83%
+I expected at least
+one customer to go there.
+
+00:01:31.040 --> 00:01:31.680 line:85%
+What is wrong?
+
+00:01:32.200 --> 00:01:36.040 line:83%
+Probably the best advice or
+standard advice is to explore logs.
+
+00:01:37.640 --> 00:01:39.519 line:85%
+I will go to Shopify logs.
+
+00:01:41.359 --> 00:01:41.799 line:85%
+Log entries.
+
+00:01:44.000 --> 00:01:45.120 line:85%
+So many, so many.
+
+00:01:45.319 --> 00:01:47.159 position:58% line:85%
+It is so difficult to deal with them.
+
+00:01:47.519 --> 00:01:48.079 line:85%
+Not anymore.
+
+00:01:49.040 --> 00:01:54.560 position:63% line:83%
+So first of all, this is like how
+it used to look in the previous version.
+
+00:01:54.920 --> 00:01:58.879 line:83%
+With the new upgrade, the
+default view looks a bit better.
+
+00:01:59.239 --> 00:02:05.239 position:66% line:83%
+I will remove personalization, which
+I made to look at as the previous version.
+
+00:02:06.079 --> 00:02:09.439 line:83%
+And now you can see
+that I have additional columns.
+
+00:02:10.360 --> 00:02:12.520 position:61% line:85%
+First of all, I have columns which show
+
+00:02:12.560 --> 00:02:14.599 line:83%
+some information
+about request and response.
+
+00:02:14.960 --> 00:02:16.080 line:85%
+So at least now I can see that.
+
+00:02:16.120 --> 00:02:19.000 line:83%
+Here I'm trying to
+create some customer data.
+
+00:02:19.680 --> 00:02:24.080 position:77% line:83%
+It will help me to distinguish
+between, for example, location synchronization or
+
+00:02:24.120 --> 00:02:26.719 line:83%
+order synchronization
+or product synchronization.
+
+00:02:27.840 --> 00:02:32.240 position:66% line:83%
+The second interesting nuance is
+the checkbox, which shows if this specific
+
+00:02:32.280 --> 00:02:35.280 position:64% line:85%
+synchronization attempt had error or not.
+
+00:02:36.319 --> 00:02:38.560 line:83%
+And of course, it's
+more interesting to look at
+
+00:02:38.599 --> 00:02:43.159 line:83%
+the entries which
+mark as entries with errors.
+
+00:02:44.120 --> 00:02:49.960 position:78% line:83%
+All right. So we're logging
+additional information and some strange things can
+
+00:02:50.000 --> 00:02:53.280 line:83%
+happen on either Shopify
+site or on Business Central site.
+
+00:02:53.840 --> 00:02:59.960 position:64% line:83%
+And if we receive status code
+500, something wrong was on Shopify site.
+
+00:03:00.520 --> 00:03:02.719 line:83%
+In this case, in
+this case, it's better to
+
+00:03:02.759 --> 00:03:05.280 line:83%
+ask Shopify to
+support through troubleshoot.
+
+00:03:05.960 --> 00:03:13.639 position:72% line:83%
+And to help you to talk to
+Shopify support, you need to use a request ID.
+
+00:03:13.680 --> 00:03:18.639 position:77% line:83%
+It will help them to identify
+specific request response dramatically faster and
+
+00:03:18.680 --> 00:03:20.719 position:64% line:85%
+provide more detailed information to you.
+
+00:03:21.039 --> 00:03:25.879 position:70% line:83%
+So this is information which you need
+to use when interacting with Shopify support.
+
+00:03:26.639 --> 00:03:30.960 line:83%
+But if error is 200, then
+you should be with something else.
+
+00:03:31.360 --> 00:03:32.639 line:85%
+Let's explore the response.
+
+00:03:33.240 --> 00:03:38.000 line:83%
+Now many responses contain a
+section which is called user error.
+
+00:03:38.599 --> 00:03:42.080 line:83%
+It means that when we
+try to submit some data to
+
+00:03:42.120 --> 00:03:46.599 line:83%
+Shopify as users,
+something didn't work very well.
+
+00:03:46.960 --> 00:03:51.960 position:61% line:83%
+So for example, field phone
+rejected content which we were sending.
+
+00:03:52.319 --> 00:03:55.120 position:61% line:85%
+And it says enter a valid phone number.
+
+00:03:55.879 --> 00:03:58.240 line:83%
+So particularly
+Shopify checks the phones.
+
+00:03:59.000 --> 00:04:00.520 line:85%
+And what phone do we send there?
+
+00:04:01.280 --> 00:04:04.599 line:83%
+Yeah, it doesn't look
+as a very well formatted phone.
+
+00:04:05.080 --> 00:04:07.400 line:85%
+So troubleshooting is very simple.
+
+00:04:07.680 --> 00:04:11.080 line:83%
+We will just go and
+edit the phone and try again.
+
+00:04:11.960 --> 00:04:16.399 line:83%
+But before doing so,
+let's ask ourselves a question.
+
+00:04:17.839 --> 00:04:21.839 line:83%
+If we know which errors
+are bad and which records were
+
+00:04:21.879 --> 00:04:26.279 line:83%
+succeeded and which failed, do
+we really need to lock all of them?
+
+00:04:26.759 --> 00:04:28.600 line:85%
+And the answer is maybe.
+
+00:04:29.560 --> 00:04:31.439 line:83%
+Let's take a look
+at the Shopify shop card.
+
+00:04:32.120 --> 00:04:36.519 line:83%
+And you can see that
+now logging mode transformed
+
+00:04:36.560 --> 00:04:39.959 line:83%
+from the boolean on
+and off into the option field.
+
+00:04:40.240 --> 00:04:46.079 position:77% line:83%
+Where you can of course have it
+completely disabled, fully enabled or special new
+
+00:04:46.120 --> 00:04:49.560 position:64% line:85%
+mode which is now default one error only.
+
+00:04:49.959 --> 00:04:54.720 position:67% line:83%
+So in this case, it will be
+sending dramatically less number of errors.
+
+00:04:56.160 --> 00:04:58.800 position:58% line:85%
+Let's go back to Shopify log entries.
+
+00:05:02.360 --> 00:05:04.240 line:85%
+Delete them all just for clarity.
+
+00:05:08.120 --> 00:05:09.959 line:85%
+And activate error only mode.
+
+00:05:10.759 --> 00:05:10.959 line:85%
+Right?
+
+00:05:11.800 --> 00:05:14.680 line:85%
+Now we will go to customers.
+
+00:05:17.600 --> 00:05:18.959 line:85%
+We will fix our customer.
+
+00:05:21.240 --> 00:05:26.639 line:83%
+Very simply, I will
+just remove these values.
+
+00:05:29.560 --> 00:05:35.439 position:75% line:83%
+And let's go to Shopify,
+customers and try to do the synchronization now.
+
+00:05:37.079 --> 00:05:40.560 position:64% line:83%
+Okay, we can see that
+customer was created and what about logs?
+
+00:05:43.959 --> 00:05:45.519 line:85%
+It is empty, so it's not polluted.
+
+00:05:45.759 --> 00:05:46.839 line:85%
+It's like very good.
+
+00:05:47.959 --> 00:05:50.920 position:64% line:83%
+If you're still getting errors,
+of course, they will be accumulated here.
+
+00:05:50.959 --> 00:05:53.000 line:83%
+And it makes also sense to
+clean up them from time to time.
+
+00:05:53.040 --> 00:05:59.680 position:70% line:83%
+Not manually as I did, but you can
+see that we are using retention policies now.
+
+00:06:00.439 --> 00:06:02.680 position:64% line:85%
+And we include the Shopify log entries by
+
+00:06:02.720 --> 00:06:04.680 line:83%
+default, so they will
+be cleaned up every month.
+
+00:06:05.079 --> 00:06:08.160 position:66% line:83%
+You don't need probably
+entries which are more than one month old.
+
+00:06:09.519 --> 00:06:13.319 position:70% line:83%
+Also, we have the same one, but
+disabled by default for Shopify data capture.
+
+00:06:13.680 --> 00:06:16.920 line:83%
+We will talk about
+this feature a bit later.
+
+00:06:17.839 --> 00:06:19.000 line:85%
+All right, log is clean.
+
+00:06:19.040 --> 00:06:25.839 position:72% line:83%
+But some people who troubleshoot it
+for some time, they already know that customer
+
+00:06:25.879 --> 00:06:30.160 line:83%
+synchronization
+already provided user errors part.
+
+00:06:30.680 --> 00:06:31.839 line:85%
+What about other areas?
+
+00:06:32.439 --> 00:06:34.120 line:85%
+Yes, we modified queries.
+
+00:06:34.439 --> 00:06:38.680 line:83%
+Now they also, in
+many cases, if not always,
+
+00:06:39.120 --> 00:06:41.759 line:83%
+return user error
+part if user error happened.
+
+00:06:42.199 --> 00:06:44.480 line:83%
+Let's take a look,
+for example, to products.
+
+00:06:44.839 --> 00:06:47.000 position:58% line:85%
+And let's try to submit some product.
+
+00:06:48.040 --> 00:06:50.560 line:85%
+Home, add items.
+
+00:06:50.879 --> 00:06:53.439 line:85%
+I will be synchronizing item 118.
+
+00:06:53.920 --> 00:06:56.680 line:85%
+Let me pick the store and click OK.
+
+00:06:57.279 --> 00:07:02.160 line:85%
+So, 11, 18, and it failed.
+
+00:07:03.839 --> 00:07:06.079 line:85%
+Why? Let's check our log entries.
+
+00:07:10.759 --> 00:07:11.240 line:85%
+Very nice.
+
+00:07:11.480 --> 00:07:12.399 line:85%
+Only one entry.
+
+00:07:12.680 --> 00:07:14.000 line:85%
+And it obviously has issue.
+
+00:07:14.160 --> 00:07:17.000 position:58% line:85%
+So, let's take a look at the details.
+
+00:07:17.639 --> 00:07:18.720 line:85%
+Shopify error? No.
+
+00:07:19.240 --> 00:07:20.160 line:85%
+Something else? Yes.
+
+00:07:20.399 --> 00:07:22.120 line:85%
+Do we have user error section? Yes.
+
+00:07:22.240 --> 00:07:25.079 line:85%
+It complains about field SKU.
+
+00:07:25.680 --> 00:07:27.000 line:85%
+SKU can't be blank.
+
+00:07:29.199 --> 00:07:35.959 position:59% line:85%
+Let's go to the shops and take a look.
+
+00:07:36.120 --> 00:07:38.519 line:85%
+Yes, SKU mapping field is empty.
+
+00:07:38.560 --> 00:07:42.000 position:67% line:83%
+Then, of course, the SKU field will be
+blank when we're exporting data to Shopify.
+
+00:07:42.040 --> 00:07:45.120 line:85%
+But why? It is a problem right now.
+
+00:07:45.439 --> 00:07:47.120 line:83%
+So, now we are not
+troubleshooting things for
+
+00:07:47.160 --> 00:07:50.240 line:83%
+real, but we are
+introducing the new functionality.
+
+00:07:51.160 --> 00:07:56.959 position:64% line:83%
+Be aware that already before
+this release in one of the minor updates,
+
+00:07:57.439 --> 00:08:02.120 position:58% line:83%
+we enabled full support for
+business central fulfillment service.
+
+00:08:02.160 --> 00:08:07.680 position:64% line:83%
+So, it's a separate mode how Shopify
+allows you to work with external systems.
+
+00:08:08.360 --> 00:08:13.240 position:56% line:83%
+So, you can configure Shopify
+to use on fulfillment and locations.
+
+00:08:13.680 --> 00:08:15.240 line:85%
+And in this case, it still works.
+
+00:08:15.279 --> 00:08:17.360 line:83%
+You can have
+multiple of them and synchronize.
+
+00:08:17.920 --> 00:08:19.639 position:56% line:85%
+Or in Shopify, you do not care about
+
+00:08:19.680 --> 00:08:23.199 line:83%
+locations at all
+because fulfillment locations, etc.
+
+00:08:23.240 --> 00:08:26.000 line:85%
+will be handled on your system.
+
+00:08:26.399 --> 00:08:28.040 line:83%
+And in this case, it
+will be business central.
+
+00:08:28.959 --> 00:08:34.000 line:83%
+So, now, how does
+it look on Shopify side?
+
+00:08:34.039 --> 00:08:37.639 position:64% line:85%
+Let's open the Shopify admin and explore.
+
+00:08:38.960 --> 00:08:43.399 position:64% line:85%
+I will open some product and scroll down.
+
+00:08:43.600 --> 00:08:47.720 position:72% line:83%
+And you can see that in
+inventory tab, you can have different options.
+
+00:08:47.960 --> 00:08:50.159 position:61% line:85%
+It allows you to choose either business
+
+00:08:50.200 --> 00:08:53.200 line:83%
+central fulfillment
+service or multiple locations.
+
+00:08:54.200 --> 00:08:55.840 line:83%
+And if you choose
+business central fulfillment
+
+00:08:55.879 --> 00:09:01.000 line:83%
+service, it actually
+requires you to have SKU defined.
+
+00:09:02.039 --> 00:09:04.000 line:85%
+So, SKU can't be blank.
+
+00:09:05.600 --> 00:09:11.000 line:83%
+So, it says exactly
+here in the UI and the same
+
+00:09:11.039 --> 00:09:13.519 line:83%
+information we
+received in the business central.
+
+00:09:13.840 --> 00:09:14.039 line:85%
+Why?
+
+00:09:15.159 --> 00:09:17.480 line:83%
+Because in the
+Shopify shop locations, we have a
+
+00:09:17.519 --> 00:09:21.399 line:83%
+toggle which defines
+how do we create a new product.
+
+00:09:21.960 --> 00:09:24.200 line:83%
+If you activate the toggle
+on business central fulfillment,
+
+00:09:24.720 --> 00:09:27.519 line:83%
+then new products
+created on Shopify will be
+
+00:09:27.559 --> 00:09:29.000 line:83%
+assigned to business
+central fulfillment locations.
+
+00:09:29.039 --> 00:09:32.000 position:56% line:85%
+And hence, they require a SKU field.
+
+00:09:32.720 --> 00:09:35.600 line:85%
+Now, back to troubleshooting area.
+
+00:09:36.679 --> 00:09:39.480 line:83%
+What do we see also
+in the Shopify shop card?
+
+00:09:39.879 --> 00:09:40.519 line:85%
+Something new.
+
+00:09:41.080 --> 00:09:44.840 position:58% line:83%
+And this is a very scary
+field which is called end of support.
+
+00:09:45.240 --> 00:09:48.600 line:83%
+You should not be afraid
+of it because I will explain.
+
+00:09:49.159 --> 00:09:51.480 position:58% line:85%
+Shopify also evolving pretty quickly.
+
+00:09:51.519 --> 00:09:54.639 line:83%
+So, every quarter they
+release a new version of the API.
+
+00:09:54.840 --> 00:09:57.000 line:83%
+So, four times per
+year, there is a new version.
+
+00:09:57.039 --> 00:10:00.399 line:83%
+And each version
+is supported for one year.
+
+00:10:01.559 --> 00:10:01.759 line:85%
+Okay?
+
+00:10:02.440 --> 00:10:05.639 line:85%
+So, and we try to keep up.
+
+00:10:06.200 --> 00:10:09.600 position:56% line:83%
+We always update the
+recent versions or current versions.
+
+00:10:09.879 --> 00:10:13.320 line:83%
+So, it works in the
+latest business central releases.
+
+00:10:13.840 --> 00:10:17.399 line:83%
+Or we also update if
+necessary during minor updates.
+
+00:10:19.320 --> 00:10:22.000 line:83%
+So, if you upgrade in
+your business central regularly,
+
+00:10:22.039 --> 00:10:25.840 position:63% line:85%
+you also receive the upgraded version of
+
+00:10:25.879 --> 00:10:29.320 line:83%
+business central
+Shopify connector as well.
+
+00:10:29.879 --> 00:10:31.679 position:58% line:85%
+So, in this case, you're always good.
+
+00:10:32.360 --> 00:10:35.120 line:83%
+So, end of support
+will be like a year ahead.
+
+00:10:36.159 --> 00:10:38.919 position:59% line:85%
+But we figured it out that some people
+
+00:10:38.960 --> 00:10:41.159 line:83%
+stuck with the old
+version of business central.
+
+00:10:41.559 --> 00:10:44.639 line:83%
+And they were using
+Shopify with unsupported API.
+
+00:10:45.159 --> 00:10:50.000 line:83%
+And Shopify actually
+flagged our app as having troubles.
+
+00:10:50.039 --> 00:10:54.120 line:83%
+And this information
+was displayed to like everybody.
+
+00:10:54.440 --> 00:10:58.879 line:83%
+Not only to people who
+were using old API version.
+
+00:10:59.240 --> 00:11:02.759 line:83%
+That's confusing
+and unpleasant and creates
+
+00:11:02.799 --> 00:11:07.600 line:83%
+wrong impression for
+all good upgraded customers.
+
+00:11:08.159 --> 00:11:11.519 line:83%
+So, now we have a
+better information about what
+
+00:11:11.559 --> 00:11:14.559 line:83%
+will happen if you do
+not upgrade in business central.
+
+00:11:15.320 --> 00:11:17.960 line:85%
+The old versions will stop working.
+
+00:11:19.039 --> 00:11:21.799 line:85%
+Just upgrade as normal.
+
+00:11:22.840 --> 00:11:28.360 position:72% line:83%
+Also, it makes sense to remind you
+about when you're trying to do troubleshooting
+
+00:11:28.399 --> 00:11:31.080 line:83%
+about background and
+foreground synchronizations.
+
+00:11:31.840 --> 00:11:32.480 line:85%
+Let me demonstrate.
+
+00:11:33.360 --> 00:11:40.200 position:67% line:83%
+If synchronization is running in the
+foreground, then you don't actually see any
+
+00:11:40.240 --> 00:11:43.639 line:83%
+feedback when you
+execute synchronization.
+
+00:11:44.360 --> 00:11:46.519 position:56% line:85%
+Like customer sync, nothing happens.
+
+00:11:47.039 --> 00:11:49.200 line:83%
+You go to system create
+job queue and it executes there.
+
+00:11:49.600 --> 00:11:51.360 line:85%
+And if error happens, it is there.
+
+00:11:52.159 --> 00:11:55.080 position:56% line:85%
+But if you experience some problems,
+
+00:11:55.600 --> 00:12:00.080 line:83%
+sometimes it's easier to
+explore it in the foreground.
+
+00:12:00.600 --> 00:12:02.679 line:85%
+Let me imitate very basic problem.
+
+00:12:02.720 --> 00:12:05.919 line:85%
+I will just disable integration.
+
+00:12:06.600 --> 00:12:10.279 position:63% line:83%
+And now when I click on
+seeing customers, something bad happens.
+
+00:12:11.039 --> 00:12:14.519 position:61% line:85%
+It will be in the logging system, but I
+
+00:12:14.559 --> 00:12:16.919 line:83%
+would like to catch
+error in detail right away.
+
+00:12:17.440 --> 00:12:20.559 line:83%
+In this case, I
+will disable the ground sync,
+
+00:12:20.600 --> 00:12:23.200 line:83%
+which is owned by
+default and try to do it again.
+
+00:12:24.360 --> 00:12:28.279 position:70% line:83%
+OK, in this case, I get the error and
+I can copy all details, including cold stack.
+
+00:12:28.679 --> 00:12:30.480 line:83%
+Of course, in this
+case, it's very primitive, but
+
+00:12:30.519 --> 00:12:33.720 line:83%
+in some scenarios, we
+know it was not that simple.
+
+00:12:34.960 --> 00:12:35.240 line:85%
+All right.
+
+00:12:35.720 --> 00:12:38.000 position:63% line:85%
+Let's activate our synchronization back.
+
+00:12:38.360 --> 00:12:44.360 position:88% line:83%
+Another advice about
+troubleshooting and connectivity, you might want to have
+
+00:12:44.399 --> 00:12:49.559 position:72% line:83%
+Shopify admin already up and running
+in the same browser, probably in the same tab.
+
+00:12:49.960 --> 00:12:54.799 position:72% line:83%
+Then in this case, the authorization
+happens smoothly and you are not redirected to
+
+00:12:54.840 --> 00:12:58.559 position:58% line:83%
+a separate browser tab,
+which is sometimes faster and easier.
+
+00:12:59.600 --> 00:13:00.000 line:85%
+All right.
+
+00:13:00.360 --> 00:13:03.360 line:83%
+Now let's go and
+troubleshoot something business
+
+00:13:03.399 --> 00:13:07.840 line:83%
+process related, sales
+orders and then fulfillments.
+
+00:13:08.600 --> 00:13:10.840 position:61% line:85%
+So how do you do order synchronization?
+
+00:13:11.639 --> 00:13:13.080 line:85%
+Let's go to the list of orders.
+
+00:13:15.039 --> 00:13:16.759 line:85%
+I have plenty of them.
+
+00:13:17.480 --> 00:13:21.879 position:77% line:83%
+And you can usually do, I think,
+orders from Shopify, which is a standard pattern.
+
+00:13:22.159 --> 00:13:25.559 line:83%
+But what if
+something doesn't work as expected
+
+00:13:25.600 --> 00:13:28.000 line:83%
+or you need more
+control on what is happening?
+
+00:13:28.039 --> 00:13:31.440 line:85%
+Take a look at this filter.
+
+00:13:32.320 --> 00:13:33.799 line:85%
+Shopify orders to import.
+
+00:13:34.279 --> 00:13:37.480 position:59% line:85%
+It's not just a filtering opportunity.
+
+00:13:38.120 --> 00:13:41.159 line:85%
+It is in reality the buffer table.
+
+00:13:41.440 --> 00:13:43.200 line:85%
+And I will show you how to use it.
+
+00:13:44.799 --> 00:13:46.279 line:85%
+Let's create some troubles.
+
+00:13:46.320 --> 00:13:51.639 line:83%
+For example, let's
+remove this specific order because
+
+00:13:51.679 --> 00:13:57.000 line:83%
+it is missing for some
+reason and it's not in the sink.
+
+00:13:57.039 --> 00:14:00.440 position:64% line:85%
+I am trying to troubleshoot this problem.
+
+00:14:01.120 --> 00:14:09.080 position:69% line:83%
+I will go to the search and orders to
+import, like the same as this filter string,
+
+00:14:09.519 --> 00:14:13.159 line:83%
+and it will open me
+another table, another list.
+
+00:14:13.639 --> 00:14:16.679 line:83%
+And it has an action
+which says get orders to import.
+
+00:14:17.000 --> 00:14:24.000 position:70% line:83%
+If I will press it, I will get orders
+which were modified after some specific date.
+
+00:14:24.039 --> 00:14:28.879 line:83%
+You can reset this date if
+necessary from the Shopify admin.
+
+00:14:29.720 --> 00:14:32.679 line:83%
+Or you can go to
+Shopify and modify slightly order.
+
+00:14:32.919 --> 00:14:37.480 line:83%
+For example, you can
+change the tag or add node.
+
+00:14:38.399 --> 00:14:40.440 line:85%
+All right. Now I got my order here.
+
+00:14:41.120 --> 00:14:44.240 line:85%
+Now I can select the shop.
+
+00:14:44.759 --> 00:14:48.399 position:58% line:83%
+You know that it's
+possible to connect multiple business
+
+00:14:48.440 --> 00:14:52.639 position:56% line:83%
+central Shopify shop
+cards to the single Shopify account.
+
+00:14:53.320 --> 00:14:57.480 position:61% line:83%
+For which reason? Probably because
+you are parsing the orders differently.
+
+00:14:58.039 --> 00:15:00.639 line:83%
+Bases, for example,
+by tags or something else.
+
+00:15:01.279 --> 00:15:02.919 position:63% line:85%
+That's why I need to instruct into which
+
+00:15:02.960 --> 00:15:05.320 line:83%
+shop I'm going to
+import this specific order.
+
+00:15:05.879 --> 00:15:08.200 line:83%
+And then I will
+press import selected orders.
+
+00:15:08.919 --> 00:15:11.799 line:83%
+So here the import
+process was very fast and simple.
+
+00:15:11.840 --> 00:15:15.440 line:83%
+It just gets the
+header with a couple of fields.
+
+00:15:16.440 --> 00:15:19.120 line:83%
+But once I will press
+get orders to import, system
+
+00:15:19.159 --> 00:15:22.000 line:83%
+will start to download
+additional information in a moment.
+
+00:15:22.039 --> 00:15:27.919 line:83%
+And if something bad happens,
+you will see has error field here.
+
+00:15:28.320 --> 00:15:30.679 line:83%
+And in the bottom
+system will show the error details.
+
+00:15:31.159 --> 00:15:34.480 line:83%
+It also sometimes
+helpful to troubleshoot.
+
+00:15:34.919 --> 00:15:36.759 position:63% line:85%
+I didn't manage to reproduce it anymore.
+
+00:15:38.759 --> 00:15:42.279 line:83%
+Probably because we
+solved this one issue already.
+
+00:15:42.879 --> 00:15:45.600 line:85%
+But useful to know.
+
+00:15:46.240 --> 00:15:47.759 line:85%
+So import selected order.
+
+00:15:48.679 --> 00:15:50.399 line:83%
+And now we start to
+import additional information.
+
+00:15:50.759 --> 00:15:53.000 position:58% line:85%
+Header, fully payments, transactions,
+
+00:15:53.480 --> 00:15:56.840 position:59% line:83%
+shipments, lines,
+returns, refunds, like a lot of stuff.
+
+00:15:57.759 --> 00:16:02.279 line:85%
+And then my order was added.
+
+00:16:02.799 --> 00:16:04.200 line:85%
+And now it's time to explore.
+
+00:16:04.240 --> 00:16:07.840 position:67% line:83%
+And sometimes you can ask question
+like where this information is coming from.
+
+00:16:08.759 --> 00:16:14.000 position:56% line:83%
+So now you can, it was also
+possible before to inspect the data.
+
+00:16:14.039 --> 00:16:16.759 line:85%
+For example, retrieve Shopify data.
+
+00:16:17.240 --> 00:16:20.200 line:83%
+Now you can see like what
+exactly we received from Shopify.
+
+00:16:20.679 --> 00:16:25.039 position:77% line:83%
+So now you can understand if it's
+problem about data which we received from Shopify
+
+00:16:25.080 --> 00:16:27.320 line:83%
+or the way how it
+was parsed by connector.
+
+00:16:28.240 --> 00:16:29.200 line:85%
+So this is for header.
+
+00:16:30.799 --> 00:16:31.600 line:85%
+This is for lines.
+
+00:16:33.399 --> 00:16:36.519 line:85%
+Also for shipping cost.
+
+00:16:38.360 --> 00:16:41.559 position:56% line:85%
+You can see inspect or transactions.
+
+00:16:44.440 --> 00:16:47.279 line:85%
+Also inspect or even fulfillment.
+
+00:16:48.080 --> 00:16:50.399 line:83%
+And fulfillment by
+the way receives the whole
+
+00:16:50.440 --> 00:16:52.879 line:83%
+page card so you can
+get some additional details.
+
+00:16:53.399 --> 00:16:56.159 line:83%
+Not something you would
+explore just out of curiosity.
+
+00:16:56.440 --> 00:16:59.399 line:83%
+But if doing some
+troubleshooting makes sense to have
+
+00:16:59.440 --> 00:17:03.519 line:83%
+it available right away
+instead of exploring tables.
+
+00:17:04.039 --> 00:17:10.240 position:66% line:83%
+Another useful hint on what to do if
+you want to troubleshoot stuff and compare
+
+00:17:10.279 --> 00:17:15.279 line:83%
+Shopify via Business
+Central data is to go to Shopify.
+
+00:17:16.359 --> 00:17:17.319 line:85%
+Let's go to orders.
+
+00:17:19.640 --> 00:17:20.599 line:85%
+Let's find the order.
+
+00:17:23.920 --> 00:17:29.640 position:59% line:85%
+And then in the URL you just add JSON.
+
+00:17:31.720 --> 00:17:34.440 line:83%
+Now you can see like
+representation of Shopify.
+
+00:17:34.680 --> 00:17:36.680 position:64% line:85%
+For example, how discounts are allocated.
+
+00:17:37.039 --> 00:17:39.920 position:61% line:85%
+It also might be helpful to understand.
+
+00:17:42.720 --> 00:17:45.559 position:63% line:85%
+For example, if you are missing the item
+
+00:17:45.599 --> 00:17:48.640 line:83%
+variant code, you might
+be curious like why it's all.
+
+00:17:49.319 --> 00:17:54.000 position:70% line:83%
+Is it because we didn't receive it
+from Shopify or it does not exist in Shopify?
+
+00:17:54.240 --> 00:17:56.400 line:85%
+That happened.
+
+00:17:57.400 --> 00:18:01.960 line:83%
+And this trick helps to
+solve confusion and help you
+
+00:18:02.000 --> 00:18:04.200 line:83%
+to understand whom to
+contact for additional support.
+
+00:18:04.240 --> 00:18:07.559 line:83%
+Is it Shopify or your
+Microsoft partner and Microsoft?
+
+00:18:08.880 --> 00:18:09.160 line:85%
+All right.
+
+00:18:09.799 --> 00:18:13.799 position:56% line:83%
+So now let's do something bad
+to create problems with fulfillment.
+
+00:18:14.799 --> 00:18:15.000 line:85%
+All right.
+
+00:18:16.079 --> 00:18:21.039 line:83%
+Let's navigate to Shopify
+store and let's buy some chair.
+
+00:18:21.880 --> 00:18:25.799 line:85%
+Buy it now.
+
+00:18:28.559 --> 00:18:32.000 line:85%
+It will be Denmark.
+
+00:18:33.279 --> 00:18:36.799 line:83%
+It will be our
+favorite customer, Cloud J.
+
+00:18:37.960 --> 00:18:43.119 line:83%
+Lawson, who lives in
+Denmark and buying free chair with
+
+00:18:43.160 --> 00:18:48.079 position:56% line:83%
+some shipping cost, but it
+doesn't matter right now in reality.
+
+00:18:51.559 --> 00:18:56.160 position:56% line:83%
+We just need to have some order
+which we will import and then break.
+
+00:18:57.440 --> 00:18:58.640 line:85%
+OK. Now we have order.
+
+00:19:01.160 --> 00:19:02.079 line:85%
+Time to import it.
+
+00:19:02.519 --> 00:19:04.039 line:85%
+So sync orders from Shopify.
+
+00:19:04.519 --> 00:19:04.799 line:85%
+OK, good.
+
+00:19:06.880 --> 00:19:08.799 position:61% line:85%
+I have multiple orders already waiting.
+
+00:19:15.400 --> 00:19:15.599 line:85%
+All right.
+
+00:19:16.400 --> 00:19:17.000 line:85%
+OK. I have order ready.
+
+00:19:17.039 --> 00:19:21.160 position:58% line:83%
+And it's created in Business
+Central, so it's ready to be shipped.
+
+00:19:21.519 --> 00:19:25.799 line:85%
+Let's open it.
+
+00:19:28.400 --> 00:19:32.200 line:85%
+Post shipment should be enough.
+
+00:19:34.519 --> 00:19:38.039 line:83%
+But before we will send it
+to Shopify, something bad happens.
+
+00:19:39.039 --> 00:19:47.720 line:83%
+Somebody in Shopify
+admin, probably administrator or
+
+00:19:47.759 --> 00:19:51.519 line:83%
+responsible person, for some
+reason, Mark is order as fulfilled.
+
+00:19:52.759 --> 00:19:52.960 line:85%
+OK.
+
+00:19:53.960 --> 00:19:55.519 line:85%
+So it was also fulfilled here.
+
+00:19:56.319 --> 00:19:58.279 line:83%
+Now if I will be
+trying to synchronize shipment
+
+00:19:58.319 --> 00:20:00.599 line:83%
+from Business
+Central to Shopify, it will fail.
+
+00:20:02.160 --> 00:20:02.720 line:85%
+For good reason.
+
+00:20:03.240 --> 00:20:05.920 position:59% line:85%
+Let's click sync shipments to Shopify.
+
+00:20:06.440 --> 00:20:06.640 line:85%
+OK.
+
+00:20:08.559 --> 00:20:11.559 line:83%
+And let's go and
+explore the Rolleit Center.
+
+00:20:15.160 --> 00:20:18.720 position:66% line:83%
+So in Rolleit Center, you can see
+Shopify activities, which was here before.
+
+00:20:19.359 --> 00:20:22.480 position:61% line:85%
+Now you can see that we have two fields
+
+00:20:22.519 --> 00:20:27.000 line:83%
+demonstrating the
+status of shipment synchronization.
+
+00:20:27.640 --> 00:20:30.319 line:83%
+If something pending
+shipment or something failed.
+
+00:20:32.319 --> 00:20:34.440 position:63% line:85%
+And now this is actually actionable one.
+
+00:20:35.039 --> 00:20:36.480 position:61% line:85%
+So you can explore what is the problem.
+
+00:20:37.319 --> 00:20:43.799 position:58% line:83%
+So let's imagine that we already
+explored our Shopify order, the data.
+
+00:20:43.839 --> 00:20:46.519 line:83%
+We see that fulfillment is
+for some reason Mark as closed.
+
+00:20:47.039 --> 00:20:48.640 line:85%
+So we go back to Shopify admin.
+
+00:20:51.720 --> 00:20:51.920 line:85%
+Orders.
+
+00:20:57.519 --> 00:20:58.559 line:85%
+And cancel fulfillment.
+
+00:20:59.039 --> 00:20:59.279 line:85%
+OK.
+
+00:20:59.640 --> 00:21:01.400 line:83%
+Because it was
+marked as fulfilled by mistake.
+
+00:21:02.039 --> 00:21:02.240 line:85%
+Right?
+
+00:21:02.799 --> 00:21:05.200 line:83%
+Because we are waiting
+shipment from Business Central.
+
+00:21:05.799 --> 00:21:06.880 line:85%
+Back to Business Central.
+
+00:21:08.720 --> 00:21:11.279 line:85%
+And then we have update document.
+
+00:21:12.079 --> 00:21:15.880 position:69% line:83%
+And now we have Shopify tab,
+which actually shows Shopify fulfillment ID.
+
+00:21:16.160 --> 00:21:20.200 line:83%
+And it can be 0, -1 if it's
+some error, or the actual value.
+
+00:21:20.519 --> 00:21:23.279 position:64% line:85%
+If it has an actual value, then all good.
+
+00:21:23.519 --> 00:21:24.160 line:85%
+Don't touch it.
+
+00:21:24.200 --> 00:21:25.319 line:85%
+And it's actually non-editable.
+
+00:21:25.799 --> 00:21:27.720 line:85%
+But you can change -1 to 0.
+
+00:21:28.039 --> 00:21:29.039 line:85%
+It's documented.
+
+00:21:29.400 --> 00:21:31.680 line:85%
+It's done confusing on purpose.
+
+00:21:33.519 --> 00:21:40.799 position:64% line:83%
+And now this document moves from
+shipment errors to unprocessed shipments.
+
+00:21:41.440 --> 00:21:45.640 line:85%
+Now we can try again.
+
+00:21:46.039 --> 00:21:48.319 line:85%
+I think shipments to Shopify.
+
+00:21:51.039 --> 00:21:53.559 line:83%
+And it was
+successfully passed to Shopify.
+
+00:21:53.880 --> 00:21:55.039 line:85%
+So what we saw.
+
+00:21:55.400 --> 00:21:56.039 line:85%
+Logs.
+
+00:21:56.279 --> 00:21:59.039 line:83%
+Now more powerful
+because more details if necessary.
+
+00:21:59.599 --> 00:22:03.079 line:83%
+And less details and
+space usage if not necessary.
+
+00:22:03.720 --> 00:22:05.519 line:85%
+So this is dramatically cleaner.
+
+00:22:06.519 --> 00:22:07.960 line:85%
+Shopify API versioning.
+
+00:22:08.480 --> 00:22:09.200 line:85%
+No need to worry.
+
+00:22:09.480 --> 00:22:10.279 line:85%
+Just stay updated.
+
+00:22:11.680 --> 00:22:15.000 line:83%
+And then we saw how to
+troubleshoot order synchronization
+
+00:22:15.039 --> 00:22:16.640 line:85%
+and fulfillment synchronization.
+
+00:22:18.160 --> 00:22:26.559 position:58% line:83%
+Using additional details like
+activities part on the wallet center.
+
+00:22:27.279 --> 00:22:31.759 position:83% line:83%
+And data captured during
+synchronization between Shopify and Business Central.
+
+00:22:32.960 --> 00:22:35.640 position:58% line:85%
+I hope it will make your work easier.
+
+00:22:35.920 --> 00:22:38.680 line:83%
+But I hope you will not
+need all these tools because
+
+00:22:39.039 --> 00:22:41.640 position:63% line:85%
+connector is again more and more stable.
+
+00:22:42.039 --> 00:22:45.279 position:59% line:85%
+And less issues are happening with it.
+
+00:22:47.599 --> 00:22:51.440 line:83%
+You can find the list of
+valuable resources on this slide.
+
+00:22:52.839 --> 00:22:59.200 position:69% line:83%
+And if you partner, remember that
+you can join Yammer, the first link on here.
+
+00:23:00.079 --> 00:23:04.559 line:83%
+And here we have a group
+about Shopify connector only.
+
+00:23:05.000 --> 00:23:08.160 line:83%
+So if you have questions,
+proposals or something to discuss,
+
+00:23:08.640 --> 00:23:11.920 line:83%
+register ID and join
+the Yammer to discuss it.
+
+00:23:13.240 --> 00:23:13.960 line:85%
+Thank you for watching.
+
+00:23:14.359 --> 00:23:15.160 line:85%
+Let's stay connected.
+

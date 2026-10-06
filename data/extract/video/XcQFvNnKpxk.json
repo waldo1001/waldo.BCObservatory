@@ -1,0 +1,655 @@
+{
+  "video_id": "XcQFvNnKpxk",
+  "item_id": "video/yt-microsoft/XcQFvNnKpxk",
+  "title": "What's New: Performance Testing before Go-Live with Performance Toolkit (2023 release wave 2)",
+  "duration_s": 1463,
+  "systems": [
+    "platform",
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "performance testing",
+    "bcpt",
+    "devops automation",
+    "telemetry analysis",
+    "concurrency testing",
+    "deadlock detection",
+    "open source scenarios",
+    "al-go pipelines",
+    "power bi reports",
+    "regression detection",
+    "go-live readiness",
+    "performance culture"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Performance Testing and BCPT",
+      "t_start": 0,
+      "t_end": 72.5
+    },
+    {
+      "title": "The Aliens Story: Real-World Performance Scenarios",
+      "t_start": 72.5,
+      "t_end": 243.7
+    },
+    {
+      "title": "What is BCPT and When to Use It",
+      "t_start": 243.7,
+      "t_end": 360.4
+    },
+    {
+      "title": "Three-Step Approach: Plan, Run, Analyze",
+      "t_start": 360.4,
+      "t_end": 477.6
+    },
+    {
+      "title": "Running Tests and Automation Options",
+      "t_start": 477.6,
+      "t_end": 591.4
+    },
+    {
+      "title": "Version 23 Features and Baseline Comparison",
+      "t_start": 591.4,
+      "t_end": 666
+    },
+    {
+      "title": "Open Source Test Scenarios from GitHub",
+      "t_start": 666,
+      "t_end": 823.6
+    },
+    {
+      "title": "Analyzing Results with Power BI and Telemetry",
+      "t_start": 823.6,
+      "t_end": 896.2
+    },
+    {
+      "title": "Performance Insights: Deadlocks, Locking, and Stack Traces",
+      "t_start": 896.2,
+      "t_end": 959.3
+    },
+    {
+      "title": "Future Vision and Five Pillars of Success",
+      "t_start": 959.3,
+      "t_end": 1008.6
+    },
+    {
+      "title": "Remove Friction and Change Culture",
+      "t_start": 1008.6,
+      "t_end": 1092.6
+    },
+    {
+      "title": "Community Collaboration and Ambassador Program",
+      "t_start": 1092.6,
+      "t_end": 1145.9
+    },
+    {
+      "title": "Documentation and Resources",
+      "t_start": 1145.9,
+      "t_end": 1234.9
+    },
+    {
+      "title": "Action Items and Closing Remarks",
+      "t_start": 1234.9,
+      "t_end": 1463
+    }
+  ],
+  "features": [
+    {
+      "name": "Business Central Performance Toolkit (BCPT)",
+      "description": "A multi-user benchmarking tool that simulates multiple users running simultaneously to measure performance, detect locking issues, and test system load.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 243.7,
+      "t_end": 266.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance testing",
+        "multi-user",
+        "benchmarking"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "BCPT DevOps Pipeline Integration",
+      "description": "BCPT can be set up as DevOps pipelines to completely automate performance testing, running scenarios as part of CI/CD workflows.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 497,
+      "t_end": 508.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "devops",
+        "automation",
+        "al-go",
+        "ci-cd"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Version 23 BCPT Out-of-Box DevOps Support",
+      "description": "In version 23, BCPT is available out of the box in AL Go, allowing you to add a BCPT workload, run test scenarios, and compare results to a baseline run.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 591.4,
+      "t_end": 612.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "version 23",
+        "al-go",
+        "baseline comparison"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "GitHub-Based Test Scenario Sourcing",
+      "description": "BCPT can source test code directly from GitHub, eliminating the need to have test code built into the tool. Contributors can add scenarios to the open source project.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 677.9,
+      "t_end": 759.3,
+      "is_demoed": true,
+      "caveats": [
+        "Currently 22 scenarios available, more expected to be contributed"
+      ],
+      "tags": [
+        "open source",
+        "github",
+        "test scenarios"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Power BI Telemetry Reports for Performance Analysis",
+      "description": "Performance results can be analyzed using Power BI app on telemetry with specific reports including performance toolkit results, deadlock detection, and database lock timeout pages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 834.5,
+      "t_end": 896.2,
+      "is_demoed": false,
+      "caveats": [
+        "Requires telemetry to be enabled before test run"
+      ],
+      "tags": [
+        "power bi",
+        "telemetry",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Concurrency Testing and Deadlock Detection",
+      "description": "BCPT is particularly effective for concurrent testing, flushing out deadlocks and database lock timeout issues in code with dedicated pages in Power BI reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 851,
+      "t_end": 896.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "concurrency testing",
+        "deadlock detection",
+        "database locks"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "SQL Statement Regression Detection",
+      "description": "BCPT can track SQL statement counts in baseline comparisons, showing when code changes introduce new SQL constructs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 623.8,
+      "t_end": 658.5,
+      "is_demoed": false,
+      "caveats": [
+        "Duration differences can vary based on environment stability"
+      ],
+      "tags": [
+        "regression detection",
+        "sql statements",
+        "baseline comparison"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Performance Toolkit Test Scenario Expansion",
+      "description": "Encouragement for partners to contribute additional test scenarios to increase coverage from 22 scenarios to potentially 222 or 2,200, reducing friction in the testing process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 787.8,
+      "t_end": 812.8,
+      "is_demoed": false,
+      "caveats": [
+        "Depends on community contribution"
+      ],
+      "tags": [
+        "scenario coverage",
+        "community-driven",
+        "testing"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "KQL-based Test Results Analysis",
+      "description": "The ability to analyze test results using Kusto Query Language (KQL) for flexible performance data querying.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 823.6,
+      "t_end": 834.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "kql",
+        "analysis",
+        "test results"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "DevOps Integration with Performance Reports",
+      "description": "If running tests with DevOps, small performance reports are generated automatically as part of the pipeline.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 823.6,
+      "t_end": 834.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "devops",
+        "integration",
+        "reporting"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Database Lock Timeout Diagnostics",
+      "description": "Analysis shows which objects were affected by lock timeouts, distinguishing between background and UI sessions, helping identify problematic code areas.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 896.2,
+      "t_end": 915.5,
+      "is_demoed": false,
+      "caveats": [
+        "BCPT runs everything with background sessions only"
+      ],
+      "tags": [
+        "locking",
+        "diagnostics",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "AL Stack Trace Analysis",
+      "description": "Performance reports provide AL stack traces showing both the top and bottom of the call stack, revealing which code tried to take locks and which parts were hurt by lock timeouts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 927.1,
+      "t_end": 949,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "al code",
+        "stack trace",
+        "diagnostics"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "SQL Query Analysis for Performance",
+      "description": "In addition to AL stack traces, telemetry reports include SQL statement analysis and database view of performance issues, enabling deeper investigation into database-level problems.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 949,
+      "t_end": 959.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "sql",
+        "diagnostics",
+        "performance"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Five Pillars of BCPT Success Strategy",
+      "description": "Strategic vision for the toolkit with five key pillars: Remove friction, Change the culture, Collaborate with the community, Enroll ambassadors, and Have better readiness material.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 972.3,
+      "t_end": 1008.6,
+      "is_demoed": false,
+      "caveats": [
+        "Not a prioritized list"
+      ],
+      "tags": [
+        "strategy",
+        "roadmap",
+        "culture"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "BCPT Open Source Capabilities",
+      "description": "Business Central Performance Toolkit is available as open source, reducing friction for adoption and enabling partner contributions and automation integration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1008.6,
+      "t_end": 1031.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "open source",
+        "community",
+        "automation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Performance Testing Automation in Go-Live",
+      "description": "Vision for performance testing to become an automated, routine part of the go-live process, where setting up test runs and getting results becomes a normal practice rather than a special effort.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1031.6,
+      "t_end": 1054.6,
+      "is_demoed": false,
+      "caveats": [
+        "Depends on implementing proper automation"
+      ],
+      "tags": [
+        "go-live",
+        "automation",
+        "future vision"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Performance Testing Culture Change Initiative",
+      "description": "Effort to change organizational culture so performance testing is seen as a natural business practice for all roles, not just technical teams, including pre-sales customer load validation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1054.6,
+      "t_end": 1092.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "culture",
+        "business practice",
+        "strategy"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "BCPT Ambassador Program",
+      "description": "Program to enroll ambassadors globally, including MVPs and community members, to evangelize performance testing and drive adoption across partner organizations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1113.6,
+      "t_end": 1128.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "ambassadors",
+        "community",
+        "evangelization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "BCPT Documentation and Personas",
+      "description": "Improved documentation at aka.ms/bcpt defining personas and scenarios for different use cases including pre-sales load testing and Business Central data analysis.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1128.2,
+      "t_end": 1167.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "personas",
+        "resources"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "BCPT Pre-Sales Load Testing Guidance",
+      "description": "Documented guidance for answering the question \"Can Business Central handle a specific load for a prospect customer\" as part of pre-sales engagement.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1153.9,
+      "t_end": 1182.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "pre-sales",
+        "load testing",
+        "customer validation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "BCPT FAQ Documentation",
+      "description": "Comprehensive FAQ covering all topics people want to know about Business Central Performance Toolkit.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1198.3,
+      "t_end": 1209.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "faq",
+        "documentation",
+        "resources"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Business Central Performance Toolkit (BCPT)",
+      "t": 243.7
+    },
+    {
+      "type": "other",
+      "name": "AL Go",
+      "t": 497
+    },
+    {
+      "type": "other",
+      "name": "Power BI app on telemetry",
+      "t": 523.9
+    },
+    {
+      "type": "other",
+      "name": "BCPT",
+      "t": 851
+    },
+    {
+      "type": "other",
+      "name": "Business Central Performance Toolkit",
+      "t": 915.5
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 243.7,
+      "text": "It's called Business Central Performance Toolkit, or BCPT. With Microsoft, we abbreviate everything. It's a multi-user benchmarking tool.",
+      "why_it_matters": "Defines the core purpose of BCPT - a tool for simulating multiple concurrent users to test performance.",
+      "check": "exact"
+    },
+    {
+      "t": 254.8,
+      "text": "You can simulate multiple users running simultaneously. You can measure performance, detect locking issues, and test usage on a system under load.",
+      "why_it_matters": "Explains the key capabilities of BCPT for performance validation.",
+      "check": "exact"
+    },
+    {
+      "t": 360.4,
+      "text": "Testing performance before go live should be as simple as 1 2 3.",
+      "why_it_matters": "Establishes the design principle for making performance testing accessible to all projects.",
+      "check": "exact"
+    },
+    {
+      "t": 591.4,
+      "text": "But um but right now in version 23, it's just out of the box. You can run test uh at a test app of",
+      "why_it_matters": "Highlights version 23 improvements making BCPT integration simpler and baseline comparison available.",
+      "check": "exact"
+    },
+    {
+      "t": 677.9,
+      "text": "Well, in version 23, the toolkit itself can source the test codes from GitHub. So, no need necessarily to bake it in.",
+      "why_it_matters": "Key architectural change allowing dynamic test scenario sourcing instead of static bundled tests.",
+      "check": "exact"
+    },
+    {
+      "t": 772,
+      "text": "So, right now we have 22 scenarios available scenarios available on GitHub and hopefully many more to come.",
+      "why_it_matters": "Provides concrete current status of open source test scenario coverage.",
+      "check": "exact"
+    },
+    {
+      "t": 802.3,
+      "text": "with good coverage instead of 22, maybe 222 or 2,200 like the different scenarios that that really cover the application",
+      "why_it_matters": "Sets quantitative goals for test scenario expansion showing ambition to scale coverage significantly through community contribution.",
+      "check": "exact"
+    },
+    {
+      "t": 834.5,
+      "text": "But maybe the easiest is simply to use Power BI. So if you have enabled telemetry before the test run, you have data on",
+      "why_it_matters": "Recommends the primary analysis method for BCPT results and emphasizes telemetry pre-requisite.",
+      "check": "exact"
+    },
+    {
+      "t": 834.5,
+      "text": "use Power BI. So if you have enabled telemetry before the test run, you have data on a lot of things.",
+      "why_it_matters": "Defines the primary recommended method for analyzing performance test results and establishes a prerequisite for telemetry.",
+      "check": "exact"
+    },
+    {
+      "t": 851,
+      "text": "especially where this BCPT uh the toolkit tool where it really shines is concurrency testing that you have concurrent scenarios running. This is where",
+      "why_it_matters": "Identifies the primary strength of BCPT - finding concurrency-related issues through multi-user testing.",
+      "check": "exact"
+    },
+    {
+      "t": 851,
+      "text": "concurrency testing that you have concurrent scenarios running. This is where you where you kind of flesh out deadlocks and database lock timeout issues",
+      "why_it_matters": "Explains the core value proposition of BCPT for detecting critical concurrency issues that would impact production.",
+      "check": "exact"
+    },
+    {
+      "t": 915.5,
+      "text": "all be background because the Business Central uh performance toolkit uh runs everything with background sessions.",
+      "why_it_matters": "Important limitation: BCPT only simulates background sessions, not UI sessions, affecting test realism.",
+      "check": "exact"
+    },
+    {
+      "t": 983.2,
+      "text": "We we thought of different ingredients of success. It's not a prioritized list, but things we wanted to have to happen to this tool",
+      "why_it_matters": "Articulates Microsoft's strategic vision for BCPT evolution with five key pillars for broader adoption.",
+      "check": "exact"
+    },
+    {
+      "t": 1031.6,
+      "text": "over time think of this as just part of your normal go live or your normal practice.",
+      "why_it_matters": "Describes the future state vision where performance testing becomes a routine automated part of implementation methodology.",
+      "check": "exact"
+    },
+    {
+      "t": 1128.2,
+      "text": "We invested in getting better documentations uh and uh defining hopefully defining the personas and scenarios",
+      "why_it_matters": "Confirms investment in documentation quality and persona-based guidance to improve usability and adoption.",
+      "check": "exact"
+    },
+    {
+      "t": 1287.7,
+      "text": "So what if 3,000 partners out there contribute a little bit every day? I'm pretty sure that we together can build a pretty decent",
+      "why_it_matters": "Quantifies the partnership model for scaling BCPT coverage through distributed community contributions.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 772,
+      "kind": "subject-to-change",
+      "text": "right now we have 22 scenarios available scenarios available on GitHub and hopefully many more to come"
+    },
+    {
+      "t": 1031.6,
+      "kind": "coming-later",
+      "text": "especially once we have or you have proper automation"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 16,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 21
+  },
+  "windows": 2,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.027019
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.033338
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.030788999999999997
+    }
+  ]
+}

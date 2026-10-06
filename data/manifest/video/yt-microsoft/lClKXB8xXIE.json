@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Troubleshooting Shopify Integration (2023 release wave 2)",
   "url": "https://www.youtube.com/watch?v=lClKXB8xXIE",
-  "published_at": null,
+  "published_at": "2023-12-20T08:00:35.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:35:56.806Z",
+      "captions": "manual:en",
+      "duration_s": 1400
+    },
+    "captioned": {
+      "at": "2026-10-06T21:36:04.716Z",
+      "path": "data/captions/microsoft/lClKXB8xXIE.vtt",
+      "vtt_sha256": "4c53ee24cf3e76922f5d0a81f13d861e7061267e7d728f87ab359026420df989",
+      "segments": 152,
+      "words": 2931,
+      "lang": "en",
+      "kind": "manual"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 484,
-    "duration_s": 1401,
-    "via": "reconcile"
-  }
+    "duration_s": 1400,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "manual",
+      "lang": "en"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4c53ee24cf3e76922f5d0a81f13d861e7061267e7d728f87ab359026420df989"
 }

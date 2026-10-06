@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2026/09/09/bccontainerhelper-version/",
   "published_at": "2026-09-09T16:43:15.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:35:56.113Z",
+      "path": "vault:posts/gerardorenteria-blog/1940.md",
+      "words": 11416
+    },
+    "extracted": {
+      "at": "2026-10-06T21:36:07.875Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.02529
+    },
+    "summarized": {
+      "at": "2026-10-06T21:36:07.877Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:36:07.878Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:36:07.882Z",
+      "path": "content/posts/gerardorenteria-blog/1940.md"
     }
   },
   "input_hash": "2026-09-27T16:43:18.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8521b9bc870ab863e6e276c896441a6bae6c5167d4bc5919d61967057da8da04"
 }

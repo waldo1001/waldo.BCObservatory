@@ -1,0 +1,393 @@
+{
+  "video_id": "BZF4MrVfvfY",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 20.9,
+      "end": 41.8,
+      "text": "hi and welcome to this session on fixed and variable G allocations my name is Brian Nelson I'm a program manager with the business Central team and with me I have hello everyone my name is Nicola and I'm a software developer in the business Central Development team this session is about uh a new feature called GL allocations"
+    },
+    {
+      "t": 41.8,
+      "end": 62.4,
+      "text": "and what we will do today is talk a bit about what it is then we'll show you uh a demo of the feature and Nica will take you through how you set up the feature for the different types of allocations you can do and then lastly uh Nicolai will give you some tips and tricks or some back ground insights into how it's done"
+    },
+    {
+      "t": 62.4,
+      "end": 82.5,
+      "text": "and what it work with and what it doesn't work with so uh let's just jump into it so in last release we introduced a new feature called statistical accounts and that is a feature that can hold nonfinancial numerical data that you can then use for analysis or reporting or"
+    },
+    {
+      "t": 82.5,
+      "end": 102.6,
+      "text": "other purposes and built in it works with the financial reporting uh feature where you can create as is shown on the screen you can create reports that use the statistical accounts to create some kpis uh that are not based on only uh your accounting data in this case"
+    },
+    {
+      "t": 102.6,
+      "end": 116.8,
+      "text": "it's a number of employees for example uh let's just take a a brief look in the in the product and see where it is so in here under statistical"
+    },
+    {
+      "t": 116.8,
+      "end": 137.1,
+      "text": "accounts you can find or you can set up uh different statistical accounts and basically it's h we can open one of them number of employees it's a nice number to track um you can see it you can open the balance to see what have you entered so far and I know that it's up here we'll change"
+    },
+    {
+      "t": 137.1,
+      "end": 157.4,
+      "text": "the monthly change and then we'll skip up a bit and you can see that I typed in some uh changes uh to the statistical account and you basically type it them in like you do a journal except that it it can be one-sided there's no debit and credit you just type in a number and register it and you can use dimensions"
+    },
+    {
+      "t": 157.4,
+      "end": 178,
+      "text": "for it and when you've done that you can now start using it in for example the financial reporting module and you can run a report like employee per Revenue per employee and you can get some numbers that use this together with your accounting data to produce some"
+    },
+    {
+      "t": 178,
+      "end": 198,
+      "text": "kpis but with this uh release we have introduced uh a new feature that you can also use statistical accounts for the new feature is called allocation accounts and it's used for Distributing or allocating uh cost and revenue there's a fixed type where"
+    },
+    {
+      "t": 198,
+      "end": 218.4,
+      "text": "you can um Define how you share a a line item for example if you're splitting up the rent uh per department and you have already decided on What percentages goes to what dimension value you can do that in in the fix type um we just saw the statistical accounts"
+    },
+    {
+      "t": 218.4,
+      "end": 238.8,
+      "text": "with employee head count if you're having an event training for example you can split up the the line item per the statistical account per di menion for example if you filter so that you have a a more Dynamic uh allocation and to make it a little simpler um we have also"
+    },
+    {
+      "t": 238.8,
+      "end": 254.4,
+      "text": "included an inherit uh property or type where you basically take any account that you're using and then start allocating it instead of creating one for for each type we'll see that in a"
+    },
+    {
+      "t": 254.4,
+      "end": 274.5,
+      "text": "second the feature also works with deferrals uh and it works in um in recurring Journal also it works in general journals and as we will see it also works in documents so let's let's go and look at at some of the the things it can do for you one of the things you you sometimes want"
+    },
+    {
+      "t": 274.5,
+      "end": 285.2,
+      "text": "to do is you post your rent for example or you post training and you do it through a journal this is the simple"
+    },
+    {
+      "t": 285.2,
+      "end": 305.4,
+      "text": "example so we have some lines here where I can show you the different concepts we have one line here for end of May where you had an audit in the beginning of the year and now you want to allocate it and um when you do it you pick the allocation account the new type that you can select"
+    },
+    {
+      "t": 305.4,
+      "end": 323,
+      "text": "in the journal here at the bottom and then you pick one of the available um allocations account that you have set up in this case I've set up one specifically for auditing because we have decided when we did the budget for the year like which department gets which"
+    },
+    {
+      "t": 323,
+      "end": 337.8,
+      "text": "um audit expenses so if we zoom in on on this one we'll just zoom in the the report so now we only have this one and then we can take a preview instead of just posting"
+    },
+    {
+      "t": 337.8,
+      "end": 358.1,
+      "text": "it I have one line but in my business I have three companies uh three divisions uh departments Dimension and you can see when I post it it will get split into three individual lines and of course there's a debit and credit so we end up with six GL accounts and they will be posted to each"
+    },
+    {
+      "t": 358.1,
+      "end": 378.3,
+      "text": "individual dimensions that I have it's not obvious how I've done it we'll see that in a second but I've already decided what the allocation should be and uh the system will will then split it up for me another type uh could be if you're allocating the rent expense and you do it not just by"
+    },
+    {
+      "t": 378.3,
+      "end": 398.5,
+      "text": "a fixed um uh allocation because maybe you have office baces that change over the year and you keep track of that in the statistical account so you want to use a different allocation key uh and in this case you still pick the allocation key but you will pick another one and uh this"
+    },
+    {
+      "t": 398.5,
+      "end": 408.8,
+      "text": "one we'll see that in in a second it's actually using the employee number uh to distribute it so again if we"
+    },
+    {
+      "t": 408.8,
+      "end": 429,
+      "text": "filter and we take the preview same as before I have one line I have three departments I'll get six uh G lines because it's splits it in three and a debit credit uh you can see the numbers are different the amount was a bit different but if I do this over time I will also"
+    },
+    {
+      "t": 429,
+      "end": 449.1,
+      "text": "uh get different results because my office space Maybe I rent some extra space Maybe I reduce my production space office space and that will determine the allocation so it's it's a dynamic way of of doing it allocation is done uh because you want better uh data for uh a later analysis"
+    },
+    {
+      "t": 449.1,
+      "end": 469.2,
+      "text": "of of your your business and how it's it's progressing either as profit Center cost center or or or both um setting up allocation accounts obviously saves you a lot of time that you don't have to spend uh splitting up the uh the revenue or or cost lines"
+    },
+    {
+      "t": 469.2,
+      "end": 489.4,
+      "text": "to save a lot of time you can also uh use a third type called inherit from parent that is set up and you can see I have a an expense account for software licenses and I picked that but I picked the GL account not the allocation sorry not the allocation account this time because"
+    },
+    {
+      "t": 489.4,
+      "end": 511.4,
+      "text": "I don't want to set up an allocation account for each GL account where I have expense and revenue that I want to distribute maybe just some of them so it's easier to recognize them in this case I put in the uh account and here further to the right you can see I can now select"
+    },
+    {
+      "t": 511.4,
+      "end": 529.7,
+      "text": "uh to distribute per employee headcount in this case it makes sense to do it per employee that's the one that are using my software that I bought and the licenses so I'll split it up and now if we do a"
+    },
+    {
+      "t": 529.7,
+      "end": 550,
+      "text": "preview you can see it works like before you have six lines but this time I didn't set it up we'll see it in a second I didn't set it up in advance for for this particular account I selected the account and that will save you a lot of time um but maybe also be a less transparent way of of allocating as you can see"
+    },
+    {
+      "t": 550,
+      "end": 571.7,
+      "text": "uh if I pick deferrals I've set up a deferral that will split it in into three uh periods the next uh three periods um in this case it will be August uh September and October because I'm posting in July um if I do this just to see that it works"
+    },
+    {
+      "t": 571.7,
+      "end": 591.8,
+      "text": "I'll get a a ton of new lines uh because it will split up each line and then it will do the Furrs for for that and you can see if we scroll up a bit it has the admin here it has 10 lines for that the first is the I split it up so I post that I take it out again and put"
+    },
+    {
+      "t": 591.8,
+      "end": 606.3,
+      "text": "it into the um the acral account that I've using for for deferrals and then I I defer uh for three different periods so the new feature works with"
+    },
+    {
+      "t": 606.3,
+      "end": 626.9,
+      "text": "deferral and one last example so in a purchase invoice you can also use allocation accounts maybe you're getting a purchase invoice and um and it's something that you want to allocate so again you pick the allocation account you pick the allocation that you want to do let's say we got the uh"
+    },
+    {
+      "t": 626.9,
+      "end": 639.3,
+      "text": "the rent payment as a new invoice and we want to distribute it so we pick this one and then we can type in quantity one and an amount for"
+    },
+    {
+      "t": 639.3,
+      "end": 659.7,
+      "text": "example so this is all good I can now use it in U in documents sales and purchase and I can use it in general journals um sometimes you have an allocation that is predefined that you're okay with but sometimes you want to to make an adjustment before you post and in this case we have a line"
+    },
+    {
+      "t": 659.7,
+      "end": 676.4,
+      "text": "you can go in on the functions and redistribute allocation account and you have a distribution but if you're not happy um you can simply just change it and minus 1 we'll say"
+    },
+    {
+      "t": 676.4,
+      "end": 696.5,
+      "text": "300 and and we're good you can also say okay but actually I want to um to post something else to maybe a different account uh what do we have we have an account here for heating part of the uh the invoice was for heating so I'll take 200 here and then"
+    },
+    {
+      "t": 696.5,
+      "end": 716.5,
+      "text": "I'll reduce this one so I can add lines the lines will be posted as a journal line and of course when you are here you can go in and change the default Dimensions we had the the predefined one that has admin maybe you just want to dump all the expenses for sales in this one so you can go"
+    },
+    {
+      "t": 716.5,
+      "end": 729.8,
+      "text": "in and and override it you can also say this one let's take a look this is production but this um it's not the production facility so we'll just delete this"
+    },
+    {
+      "t": 729.8,
+      "end": 750.6,
+      "text": "line take it away then we are a bit short on um on the amount but we'll fix that here we go and so you can overwrite all the elements that that goes into uh defining a a cost allocation and this also works in uh General journals"
+    },
+    {
+      "t": 750.6,
+      "end": 770.9,
+      "text": "and then you commit the changes and that will be used when you posted the document so you've seen how it works you've seen instead of posting it we we looked at the previews so you got a glimpse of what is the end result now Nicola will take you through how you set up these individual uh types of allocation accounts"
+    },
+    {
+      "t": 770.9,
+      "end": 791,
+      "text": "all right over to you Nicola thank you br so if you would like to set up the allocation accounts and use the nice scenarios that Brian has just Dem mode the easiest way is just to go to the allocations account list like here they're also accessible through lookups or through the statistical account page as well"
+    },
+    {
+      "t": 791,
+      "end": 805.7,
+      "text": "and here you can see that we are having predefined accounts that Brian has used in his demo but I'm going to create one from the scratch to show you how does the process look like end to end so let's create the allocation account for the"
+    },
+    {
+      "t": 805.7,
+      "end": 823,
+      "text": "expenses and here I'm going to use the this account number so for leases I would also like to use the rent and I would also like to split all of the costs that are coming to let's say this"
+    },
+    {
+      "t": 823,
+      "end": 843,
+      "text": "account and this is electricity for rental so as you can see as I have typed it in it has equally split it into the percentages and now you can change this one by defining share and this is a UI pattern that we are using in the business Central which which helps you to change the percentages in an easy way and ensure that they are"
+    },
+    {
+      "t": 843,
+      "end": 863.2,
+      "text": "always adding up to 100 so let's say that this one goes to 50% and this one goes to 30% and this one goes to 20% so you have seen I have quickly edited and tweaked the percentages without the need to do anything and we ensured that all of the numbers are adding up to 100%"
+    },
+    {
+      "t": 863.2,
+      "end": 886.2,
+      "text": "also if I would like to change to 55 and this one to 25 I can now see that all of the numbers are actually matching and that it is adding to 100% additional nice way of using the share is if you are having whole numbers let's say that you're holding a bill in the hand so let's say that this one costed"
+    },
+    {
+      "t": 886.2,
+      "end": 906.3,
+      "text": "1,525 and this one costed 555 and this one costed 39 34 it's going to calculate the percentages automatically for you one thing that that I would like to point your attention to is if you select about this page the UI"
+    },
+    {
+      "t": 906.3,
+      "end": 926.7,
+      "text": "is going to show you the whole percent but in the background we are calculating it up to five decimals so these calculations are going to be very accurate and we are also going to be using amount rounding when we are allocating to the specific GN lines but percentage thems is rather"
+    },
+    {
+      "t": 926.7,
+      "end": 938.2,
+      "text": "accurate if you don't want this you can simply just change these numbers that the system has calculated for you and enter 76 23 and two so you're always going to get these"
+    },
+    {
+      "t": 938.2,
+      "end": 958.2,
+      "text": "percentages then next thing which is very useful is that you can Define the dimensions so let's say that we want to say that this one is coming with the business group office always so if you define it like this whenever we are creating G lines out of the main G line we will ensure that it has the business group that"
+    },
+    {
+      "t": 958.2,
+      "end": 970.9,
+      "text": "has the office Dimension assigned to it so this one is going to be added on the top and it is going to win so you can do that to all of the lines"
+    },
+    {
+      "t": 970.9,
+      "end": 990.9,
+      "text": "here and you can also change the dimensions so they are going to follow the line that they are assigned to so if you would like to add something here right like an area it's possible to be done as well and the last thing that you can do on this page is that you can test the allocations so if I"
+    },
+    {
+      "t": 990.9,
+      "end": 1006.5,
+      "text": "open this page and if you remember what I said about the decimals and if I had a higher number here you will see that the Precision is being used and you will see approximately what is the amount that is going to be post"
+    },
+    {
+      "t": 1006.5,
+      "end": 1026.5,
+      "text": "posted so this was all about the fixed allocation accounts so you can use these if you have fixed percentages that you want to split the amounts between the second one which is very useful in my opinion is the variable allocation account and let's say that we want to split the cost of"
+    },
+    {
+      "t": 1026.5,
+      "end": 1042.3,
+      "text": "employee per department and here I'm going to select that the account is variable and now I'm getting slightly different UI for the destination account let's pick one here and let's select something like"
+    },
+    {
+      "t": 1042.3,
+      "end": 1062.9,
+      "text": "transport cars and other transport let's say that we want to split this one and we can use the GL account as the input so it's going to take the balance of the GL account to calculate the percentage from but in this case let's use the statistical account and let's count on the number of employees here"
+    },
+    {
+      "t": 1062.9,
+      "end": 1083,
+      "text": "so here you can specify how you are calculating the balance it can either be a balance set date fiscal year week quarter previous year you can see that we have a lot of options and the reason for this is because we used the same options that we have on the cost allocations so we assume that it"
+    },
+    {
+      "t": 1083,
+      "end": 1103.3,
+      "text": "is going to be useful most likely some of them are not needed and we are probably missing few so if you have any feedback please let us know and the last thing that you can do here is that you can specify a filter we offer filtering on the global Dimensions so let's say that here I want to filter on all of the employees"
+    },
+    {
+      "t": 1103.3,
+      "end": 1122.5,
+      "text": "that are in the administration department so for the next line I would like to do the same setup right and it's going to be statistical accounts employees again and this time I'm filtering on the department which is"
+    },
+    {
+      "t": 1122.5,
+      "end": 1130,
+      "text": "production and as the last line I'm going to repeat the"
+    },
+    {
+      "t": 1132,
+      "end": 1147.3,
+      "text": "same and I'm going to specify the filter to be sales as I did in the previous example I would want to specify the department here to be"
+    },
+    {
+      "t": 1147.3,
+      "end": 1162.6,
+      "text": "aimed because then when you're posting it's going to create the dimensions and it will ensure that the totals that are created from the posting code unit are correct I made a mistake here so I'll go back and change it to"
+    },
+    {
+      "t": 1162.6,
+      "end": 1179.3,
+      "text": "prod and as the last one I'm going to set sales so now each time when I use this allocation account it's going to post to this distribution account number and it will split the values it's going to assign the dimensions"
+    },
+    {
+      "t": 1179.3,
+      "end": 1199.4,
+      "text": "automatically and you will get the accurate calculation based on the number of employees on the day that you have selected for posting here it is very useful to test the allocation because if you select this value you can see how it is Distributing the amounts so you can see that it is using filters it knows how many"
+    },
+    {
+      "t": 1199.4,
+      "end": 1219.8,
+      "text": "employees are per department and it's going to show you how the cost is going to be allocated so that was all for the variable account type if you would like to use inherit from parent then we cannot Define the destination account number so these needs to be blank don't enter them and the only thing that you need to do here is to select"
+    },
+    {
+      "t": 1219.8,
+      "end": 1240,
+      "text": "inherit from parent and then you can select this account on the line specify the g account as brand has shown you and we are going to use that account to automatically fill the destination account number so this is going to help you with defining less allocation accounts because then you can reuse"
+    },
+    {
+      "t": 1240,
+      "end": 1260.4,
+      "text": "it for anything that you want to split based on the number of employees all right so that was all for the setup and for the last part I'm going to show you the how the code works and explain some inner workings of the features so you can understand how you can use it better also if you're a developer and you would like to extended this is the part"
+    },
+    {
+      "t": 1260.4,
+      "end": 1280.4,
+      "text": "where we are going to explain how the inner workings work so here uh the allocation account is actually implemented in the base app and it is going to be under Financial Management's allocation account folder so we have grouped all of the objects that are related to the allocation accounts here and there are three code units which"
+    },
+    {
+      "t": 1280.4,
+      "end": 1300.5,
+      "text": "we are using to integrate with the rest of the product functionality the first one is general journal account management which is handling all of the logic with integration with General journals we have sales allocation account management which is allocating sales and the last one is allocating purchase so this is doing the integration with the purchase"
+    },
+    {
+      "t": 1300.5,
+      "end": 1320.5,
+      "text": "management the main point of integration is when you try to post a batch the thing that we are going to do is that first we are going to verify if the lines are correct that the user has entered and then we are going to create the lines from bch so the thing that we do is that we take a g line and then depending on how many"
+    },
+    {
+      "t": 1320.5,
+      "end": 1342,
+      "text": "allocation lines you have that's the number of the new general journal lines that we are going to create and here the thing that I would like to point your attention to is that if you go to the create lines so we just going to navigate deep in the code so you can see all of the parts that are doing"
+    },
+    {
+      "t": 1342,
+      "end": 1362.2,
+      "text": "here so under the create G line so here is the actual code which is doing the split we have added the integration events two of them one is on before create General joural line which you can use if you are having"
+    },
+    {
+      "t": 1362.2,
+      "end": 1379.1,
+      "text": "any other functionality which should be split so if you're having custom quantities or the custom amounts that we are not handling within this code this is the subscriber that you should subscribe to to split these values across the lines if you need to split them"
+    },
+    {
+      "t": 1379.1,
+      "end": 1394.1,
+      "text": "the second event that we recommend subscribing to is on before verify so if you have any kind of functionality that should not be compatible with allocation accounts this is the event that you can use to throw an error and to stop the"
+    },
+    {
+      "t": 1394.1,
+      "end": 1414.4,
+      "text": "posting okay so that was all on my side thank you Nichola so um hopefully a feature that will help you save a lot of uh data entry and a feature that will give you uh data to do more analysis of how business is going thank you for joining this session"
+    },
+    {
+      "t": 1414.4,
+      "end": 1419,
+      "text": "thank you on my side as well"
+    }
+  ],
+  "markers": [
+    {
+      "t": 2.12,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 3781
+}

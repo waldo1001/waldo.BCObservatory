@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: AL Go for GitHub (2023 release wave 2)",
   "url": "https://www.youtube.com/watch?v=WU2fLjIQSuU",
-  "published_at": null,
+  "published_at": "2023-12-20T08:03:42.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:35:41.425Z",
+      "captions": "auto:en-orig",
+      "duration_s": 2684
+    },
+    "captioned": {
+      "at": "2026-10-06T21:35:49.213Z",
+      "path": "data/captions/microsoft/WU2fLjIQSuU.vtt",
+      "vtt_sha256": "b5cc382f40fce13bad7ad6f219215a5edbbc1f57e624cb4d06192e29f5680324",
+      "segments": 204,
+      "words": 6951,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 483,
     "duration_s": 2684,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b5cc382f40fce13bad7ad6f219215a5edbbc1f57e624cb4d06192e29f5680324"
 }

@@ -1,0 +1,27 @@
+{
+  "video_id": "TY82NR2hGEg",
+  "item_id": "video/yt-microsoft/TY82NR2hGEg",
+  "summary": "Business Central developer tools in 2023 release wave 2: AL namespaces with using directives and code actions, the AL Doc reference documentation tool, the AL language extension on Linux (in preview), secure text, page inspector explore options, debugger and profiler changes, and IntelliSense updates.",
+  "overview": "The session covers developer tooling in 2023 release wave 2. It starts with AL extension pre-release versions, Linux and WSL support (in preview, demoed) and syntax highlighting for AL in Azure DevOps (in preview). Namespaces get the most time: declaration, using directives, fully qualified names, code actions, restrictions, adoption advice and naming conventions.\n\nIt then covers AL Doc, which turns XML documentation comments and app structure into YAML that DocFX renders as HTML, with a GitHub Pages demo. Later sections cover the page inspector explore options for Visual Studio Code, debugger and profiler changes, the secure text data type, field and query additions, inlay hints, IntelliSense and find all references, GitHub Copilot Chat for AL, and AppSource transactability.",
+  "key_points": [
+    "Namespaces are declared as the first statement in a source file and can be nested. Use using directives or fully qualified names to reference namespaced objects, and code actions can add either.",
+    "Wait to namespace your own code until all your dependencies are namespaced, otherwise later namespacing of those dependencies breaks your references. Renaming a namespace is a breaking change.",
+    "Namespace naming advice: start with company name, product, area, feature. Keep the root company-specific and stable, and avoid names like Microsoft, utility or common. Prefixes (fixes) on object names are still needed for now.",
+    "AL Doc has an init command (once per documentation repository) and a build command that produces YAML from .app files. DocFX turns the YAML into HTML, which can be hosted on GitHub Pages.",
+    "The explore page and explore field options in Visual Studio Code need the troubleshooting tools permission. The first symbol download can take time, and a shared symbols path lets you reuse symbols.",
+    "Secure text hides values from normal and snapshot debugging, but it must be constructed in non-debuggable methods. It does not protect data shared outside Business Central.",
+    "The AL profiler sampling interval can be 50, 100 (default) or 150 ms. The debug console supports IntelliSense but does not evaluate methods."
+  ],
+  "audience": [
+    "developer",
+    "partner",
+    "functional consultant"
+  ],
+  "extraction_hash": "414bb653db57e727598cbcfd490ee1d99388e4f09066cc623e66039e8d93268d",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.046576400000000004
+  }
+}

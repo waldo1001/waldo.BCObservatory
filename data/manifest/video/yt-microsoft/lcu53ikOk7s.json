@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "Safeguard G/L Accounts From Deletion",
   "url": "https://www.youtube.com/watch?v=lcu53ikOk7s",
-  "published_at": null,
+  "published_at": "2023-12-18T13:27:05.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:36:14.278Z",
+      "captions": "auto:en-orig",
+      "duration_s": 165
+    },
+    "captioned": {
+      "at": "2026-10-06T21:36:23.531Z",
+      "path": "data/captions/microsoft/lcu53ikOk7s.vtt",
+      "vtt_sha256": "87aff8da7ebbbc5a5ca48df1f696c7b7a3ee6b670349ad33dcdd0d40a05d0d61",
+      "segments": 12,
+      "words": 394,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 485,
     "duration_s": 165,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "87aff8da7ebbbc5a5ca48df1f696c7b7a3ee6b670349ad33dcdd0d40a05d0d61"
 }

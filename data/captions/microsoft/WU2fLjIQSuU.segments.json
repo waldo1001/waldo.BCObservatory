@@ -1,0 +1,1028 @@
+{
+  "video_id": "WU2fLjIQSuU",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 19.7,
+      "end": 34.5,
+      "text": "Welcome to this Business Central launch event presentation about what's new in AL Go for GitHub. So, what is AL Go for GitHub? Well, AL Go for GitHub is the plug-and-play DevOps solution for Business Central development on GitHub."
+    },
+    {
+      "t": 34.5,
+      "end": 46.8,
+      "text": "Um it offers you like a an easy-to-use DevOps solution where Business Central developers can do secure CI/CD and and and include like quality assurance uh"
+    },
+    {
+      "t": 46.8,
+      "end": 59.3,
+      "text": "change tracking, validation of of of code um and and all of the things that you would expect from a modern and and and uh and comprehensive DevOps solution."
+    },
+    {
+      "t": 59.3,
+      "end": 71.8,
+      "text": "The difference here is that you don't need any knowledge in Docker, PowerShell, or YAML, or anything like that. You don't need a dedicated DevOps engineer. It's a tool that you can use. It's not an investment area per se."
+    },
+    {
+      "t": 71.8,
+      "end": 85.1,
+      "text": "So, this presentation is not really about how easy it is to get started on all of these things because this presentation is all about if you are already using AL Go for GitHub, so what's new?"
+    },
+    {
+      "t": 85.1,
+      "end": 96.7,
+      "text": "Um I will touch upon what if you haven't seen AL Go for GitHub yet, uh then I will urge you to go to this URL, aka.ms/ALGoWorkshop."
+    },
+    {
+      "t": 96.7,
+      "end": 112.1,
+      "text": "Let's click on this one and see what it is. And just briefly uh show you what we have here. So, this is a workshop that takes you through like introduction, prerequisite, get started uh how to create your first AL Go repository,"
+    },
+    {
+      "t": 112.1,
+      "end": 129.8,
+      "text": "basically taking you through all the steps that you need in order to get set up with Algo for GitHub and then choose the next step like add an app and and and then do all of the different workflows that it takes in order to get started with Algo for GitHub."
+    },
+    {
+      "t": 129.8,
+      "end": 144,
+      "text": "But again, this presentation is very much about if you're already set up with Algo for GitHub, you've been using it and and now you kind of you want to know what's new, what can I take advantage of of new features and stuff like that."
+    },
+    {
+      "t": 144,
+      "end": 160.2,
+      "text": "Uh and that is what this session is all about. So, the topics for today is I'll talk about settings and updating. So, it's a question I've gotten a lot from partners like where are my settings and how do I upgrade to the latest version and stuff like that."
+    },
+    {
+      "t": 160.2,
+      "end": 170.4,
+      "text": "So, I'm going to cover that um even though nothing really changed in that. Code signing of apps uh a lot of things changed in the code signing segment."
+    },
+    {
+      "t": 170.4,
+      "end": 183.4,
+      "text": "Not really in Algo because it's like just automated, but the way you set it up is slightly changed. Uh there are some deployment enhancements and uh the possibility of doing custom deployment now."
+    },
+    {
+      "t": 183.4,
+      "end": 203.6,
+      "text": "pull request status check, compiler folder Linux and and something called the GH token workflow. I'm going to uh talk about those things as well and then at the end uh let's look about look into to the future and see what's coming um in the future or what might be coming in the future actually."
+    },
+    {
+      "t": 203.6,
+      "end": 218,
+      "text": "Let's talk about settings and upgrading. So, where are your settings? What version are you running and how do I upgrade to the latest version? So, settings. Algo for GitHub is as I said at the beginning a plug-and-play DevOps solution."
+    },
+    {
+      "t": 218,
+      "end": 228.8,
+      "text": "Now, you don't have to modify settings. Probably if you just set up Algo and add your app and add your source code, it might just work for you. You might not have to change any settings at all."
+    },
+    {
+      "t": 228.8,
+      "end": 241.3,
+      "text": "But if you are to modify anything in Algo for GitHub, you don't do it by writing code, you do it by changing settings. Um you can you can go"
+    },
+    {
+      "t": 241.3,
+      "end": 253.7,
+      "text": "and see all the settings that are there. Uh but but then where in your repository do you put the settings and and and which settings are are what? So, there are three types of settings in AL Go for GitHub really."
+    },
+    {
+      "t": 253.7,
+      "end": 268.4,
+      "text": "There's repository wide settings. These settings like uh uh like the template URL, there's schedules for workflows, there's what are your GitHub runners, there's the environments, they're not like app or project specific,"
+    },
+    {
+      "t": 268.4,
+      "end": 285.4,
+      "text": "anything like that. These things are settings that cover the entire repository. If your repository only contains one project, then whether you put things in repository settings or project settings doesn't really matter because there's only one project."
+    },
+    {
+      "t": 285.4,
+      "end": 297.6,
+      "text": "If, however, you have a setup where you have uh a repository with multiple projects, then you might have project wide settings, which are placed in the project folder."
+    },
+    {
+      "t": 297.6,
+      "end": 308.2,
+      "text": "Like the .al go folder specifies where the project is. And these project settings could be like app folders, it could be project name, it could be dependencies,"
+    },
+    {
+      "t": 308.2,
+      "end": 320.2,
+      "text": "uh the artifacts using, the country or your targeting this project for. Uh and then so so so the repository is the global settings, the project is the individual project."
+    },
+    {
+      "t": 320.2,
+      "end": 332.5,
+      "text": "have any settings per app per se. You have like the app.json where you can specify stuff, but that's not AL Go settings, that's app specific uh stuff. You do also have workflow specific settings."
+    },
+    {
+      "t": 332.5,
+      "end": 348.4,
+      "text": "The workflow specific settings are also on the repository level. It is stuff like when you're running the test next main major or test next minor, uh what what settings do you want to have um when you're running these things."
+    },
+    {
+      "t": 348.4,
+      "end": 359.3,
+      "text": "So, three levels, repository, project, and workflow. And what do you have in those? As I already said, the repository wide ones,"
+    },
+    {
+      "t": 359.3,
+      "end": 370,
+      "text": "and and then you actually also have another layer on top of that, and that's repository and organizational variables. The settings in those is repository settings."
+    },
+    {
+      "t": 370,
+      "end": 380.1,
+      "text": "So, you you you don't have variables per project per se, you you you only have variables for for for the repo or for the for the organization."
+    },
+    {
+      "t": 380.1,
+      "end": 392.5,
+      "text": "Let's just look into one of these areas. Let's click on this one to see the repository settings. So, this one is an AL Go repo settings with an artifact specification."
+    },
+    {
+      "t": 392.5,
+      "end": 403.9,
+      "text": "So, this is an example of the setting for that one, but if you go into the GitHub folder here, you'd find the AL Go settings file. This is the repository settings."
+    },
+    {
+      "t": 403.9,
+      "end": 415.8,
+      "text": "And then the dot AL Go, you will have the project settings. If we have multiple project, we have multiple folders with multiple dot AL Go folders underneath that. And that is where the project settings then would be."
+    },
+    {
+      "t": 415.8,
+      "end": 428.5,
+      "text": "So, this is where you find settings. This is how to get forward with that. What version of AL Go are you running?"
+    },
+    {
+      "t": 428.5,
+      "end": 438.7,
+      "text": "In the template URL in your repo settings, in the dot GitHub AL Go settings, is a URL that points to the template that you created the repository from."
+    },
+    {
+      "t": 438.7,
+      "end": 442.4,
+      "text": "It's probably github.com/microsoft/ALGoPTE"
+    },
+    {
+      "t": 442.4,
+      "end": 453.5,
+      "text": "or AppSource at main. The at main is the branch or the version that you're running. If you specify at main, means that you will just have the latest version."
+    },
+    {
+      "t": 453.5,
+      "end": 465,
+      "text": "But, what is the latest version? Well, if you look into the initialize workflow details in any of the workflows, you will see the version number specified there."
+    },
+    {
+      "t": 465,
+      "end": 475.9,
+      "text": "AL Go for GitHub version 3.2. Um if you are running the preview version, that would the template URL would be github.com"
+    },
+    {
+      "t": 475.9,
+      "end": 490.4,
+      "text": "microsoft AL Go PTE at preview, then the initialize would say preview. Uh so so this is the way that to find when like if you have an issue, you create an issue on GitHub,"
+    },
+    {
+      "t": 490.4,
+      "end": 501.7,
+      "text": "and and I'll ask you we'll ask you, so what version are you running? Well, go and look in in in the uh in in the in the output and and you'll find it there."
+    },
+    {
+      "t": 501.7,
+      "end": 514,
+      "text": "And we might say to you, please install the latest update of AL Go for GitHub. And the way you do that is by running an workflow called upgrade AL Go system files."
+    },
+    {
+      "t": 514,
+      "end": 530.7,
+      "text": "The way you know that you have updates available is that every time you have a CI CD or build running, there'll be a job called check for updates. The check for updates job will will be like checking whether there's any updates and it will give you a warning saying there are updates for your AL Go system."
+    },
+    {
+      "t": 530.7,
+      "end": 546.1,
+      "text": "Run uh update AL Go system files workflow to download the latest version. Um in order to do that, you need a secret called GH token workflow that contains a personal access token uh with permissions to modify workflows."
+    },
+    {
+      "t": 546.1,
+      "end": 562.9,
+      "text": "When you've done that, you can run that workflow called update AL Go system files and you will get the the latest version. The direct commit question here, if you say yes to that, uh you will it you the the latest version of AL Go for GitHub will be directly committed into your branch."
+    },
+    {
+      "t": 562.9,
+      "end": 577.4,
+      "text": "If you say no, it will create a pull request. If you have set up branch protection, you might need to create a pull request there. So that's it. Um settings, version, all of these things, we should have that in place."
+    },
+    {
+      "t": 577.4,
+      "end": 590.4,
+      "text": "Now, about the new things, like code signing. A lot of questions we've had lately is that does AL Go for GitHub support code signing with the private key in an HSM"
+    },
+    {
+      "t": 590.4,
+      "end": 600.2,
+      "text": "key storage? And yes, we do. So, looking at code signing anno 2023,"
+    },
+    {
+      "t": 600.2,
+      "end": 610.6,
+      "text": "earlier this year, there was a actually last year, there was an announcement that July 1st this year, all code signing certificate"
+    },
+    {
+      "t": 610.6,
+      "end": 620.6,
+      "text": "that are issued by code signing by the providers of code signing certificates, will have to deliver the"
+    },
+    {
+      "t": 620.6,
+      "end": 635.8,
+      "text": "private key in a hardware module or an HSM key storage. So, that might be a USB token or or a HSM key vault."
+    },
+    {
+      "t": 635.8,
+      "end": 652.1,
+      "text": "Um, what we did in AL Go for GitHub was to add support for HSM key storage in Azure Key Vault. That is a special skew of the key vault that you can purchase and then you will have the ability to get your"
+    },
+    {
+      "t": 652.1,
+      "end": 665.9,
+      "text": "code signing certificate delivered in in your key vault and then you just have to set up the connection from AL Go for GitHub to your key vault and then we'll perform the the the code signing of your app through that one."
+    },
+    {
+      "t": 665.9,
+      "end": 677.8,
+      "text": "I don't have a a demo of this because I don't have a code signing certificate, but we have multiple partners who already managed to set that up so that that it it works fine."
+    },
+    {
+      "t": 677.8,
+      "end": 688.8,
+      "text": "Deployment enhancements is one of the the bigger things in this release. So, deployment done the right way."
+    },
+    {
+      "t": 688.8,
+      "end": 700,
+      "text": "We in AL Go for GitHub support GitHub environments. So, in GitHub you can set up environments for for your repository that you want to deploy to to these environments."
+    },
+    {
+      "t": 700,
+      "end": 711,
+      "text": "These environments you can have branch policies, meaning that you you can only deliver to to this environment if you are in the main branch or whatever."
+    },
+    {
+      "t": 711,
+      "end": 721.2,
+      "text": "We have a new setting called exclude environments where you can exclude some of the environments from deploying if you have like system environments or GitHub pages and stuff like that. And lastly,"
+    },
+    {
+      "t": 721.2,
+      "end": 735.3,
+      "text": "if you have a free school, if you have like the the the free GitHub and you have private repositories in that one, environments is is is not available in private repository in the free GitHub school."
+    },
+    {
+      "t": 735.3,
+      "end": 745.8,
+      "text": "And then you can define the environments in settings. So, you have basically an environment setting called a setting called environments. Where you can list the environments that you have."
+    },
+    {
+      "t": 745.8,
+      "end": 760.2,
+      "text": "So, that is the definition of the environments that you want to deploy to, like the the list of GitHub environments plus the list of of environments in settings minus the environments you have in exclude environments."
+    },
+    {
+      "t": 760.2,
+      "end": 774.1,
+      "text": "Um after that, we need to now figure out what is the real name of these environments. Uh earlier we had secrets, like you could specify environment name {underscore} environment name."
+    },
+    {
+      "t": 774.1,
+      "end": 790.6,
+      "text": "Like if you had a QA environment, it would be QA {underscore} environment name. And then you'd create a secret with that environment. The problem was that Uh and and the the reason why we selected secrets here was that you could create those as secrets underneath the environment"
+    },
+    {
+      "t": 790.6,
+      "end": 805.1,
+      "text": "in GitHub. The problem with this is that if you have that as a secret, then GitHub will like mask any value and you cannot transfer the value from one job to the other. And a lot of things would fail if your environment name was something that was used in other locations."
+    },
+    {
+      "t": 805.1,
+      "end": 819.6,
+      "text": "So, we had to like revert back from that and the real way of of doing this going forward is to create a new setting called deploy to an environment name, meaning deploy to Q&A,"
+    },
+    {
+      "t": 819.6,
+      "end": 834.7,
+      "text": "and that setting would then include all the things that that would be like relevant to set up for that environment, including some of the things that were requested by some partners like sync mode, continuous deployment and stuff like that."
+    },
+    {
+      "t": 834.7,
+      "end": 846.1,
+      "text": "So the this is an example of the deploy to QA in version four of Elvanto GitHub. You have an environment type. Default is SAS."
+    },
+    {
+      "t": 846.1,
+      "end": 857.7,
+      "text": "Environment name, this yeah, the default is actually the same as the environment name that you have on on GitHub. So in this case it would be Q&A. Branches, default would be just main."
+    },
+    {
+      "t": 857.7,
+      "end": 867.7,
+      "text": "Projects, default would be star, meaning all projects that you um have in in your in your repository."
+    },
+    {
+      "t": 867.7,
+      "end": 879.4,
+      "text": "And then the sync mode can be force sync or I think clean or add. It's in in the settings in the documentation you can see that. And then there's a setting called continuous deployment."
+    },
+    {
+      "t": 879.4,
+      "end": 893,
+      "text": "Whether you want to use this environment for continuous deployment. In earlier versions we would deduct the continuous deployment from the name. So if your environment name was uh QA, we would automatically roll out continuous deployment to that one."
+    },
+    {
+      "t": 893,
+      "end": 911,
+      "text": "If it was QA {parentheses} prod, then we would say, \"Oh, that's a production environment, so we're not going to touch that.\" Uh now it's still the way to default deduct what is continuous deployment, but if you create a deploy to QA environment and set continuous deployment,"
+    },
+    {
+      "t": 911,
+      "end": 927.6,
+      "text": "you can set it to true or false, no matter whether it's a it's a production environment or a um or a sandbox environment. So you can actually set up continuous deployment to a production environment if you have like uh a final acceptance test that is a prod environment,"
+    },
+    {
+      "t": 927.6,
+      "end": 939.8,
+      "text": "then by all means go ahead and run continuous deployment to that one. Um runs on is what GitHub runner do you want to use for deploying to this environment?"
+    },
+    {
+      "t": 939.8,
+      "end": 950.9,
+      "text": "The default is probably Windows latest, but you can set it to Ubuntu latest or other things. Uh why is this? So why do we have an environment type when we only deploy to SaaS?"
+    },
+    {
+      "t": 950.9,
+      "end": 965.5,
+      "text": "Why do we have a runs on when it just like um installs the app on an online service? Well, the reason for that is really another newcomer in in this version, which is custom deployment."
+    },
+    {
+      "t": 965.5,
+      "end": 977.6,
+      "text": "Do it your way. So custom deployment If you specify environment type in your environment setting, then that determines the mechanism used for deploy."
+    },
+    {
+      "t": 977.6,
+      "end": 991.4,
+      "text": "So if you say the environment type is on prem or custom or whatever, then we'll say, \"Okay, it's no longer a SaaS environment, so our deployment mechanism will no longer be used.\""
+    },
+    {
+      "t": 991.4,
+      "end": 1002.9,
+      "text": "Um then you can write a custom script, and you just place that in the dot GitHub folder, deploy deploy to and then environment type.ps1. Uh and we will then"
+    },
+    {
+      "t": 1002.9,
+      "end": 1013.9,
+      "text": "uh create a structure of parameters that we'll transfer to you, and you can actually see the parameters on the right-hand side here uh with continuous deployment,"
+    },
+    {
+      "t": 1013.9,
+      "end": 1027.8,
+      "text": "auth context, environment type, runs on, and all of these things. So you'll get a structure and also the apps that you you need to actually install. And then you can in your script figure out a way to install this on that environment."
+    },
+    {
+      "t": 1027.8,
+      "end": 1049.3,
+      "text": "If that is a an Azure VM somewhere, if it's an on-premises environment, then figure out how to do that in your own script. We're not going to deliver these scripts for you, but maybe you can find some uh the ALOps external deployer PowerShell module can can probably help you if you want to"
+    },
+    {
+      "t": 1049.3,
+      "end": 1069.5,
+      "text": "to to deploy to a and and on-premises environment. You can also optionally use a custom GitHub runner. So, if you have a GitHub runner that actually is on the inner inside of a firewall at a customer site, then that GitHub runner could be set up for running deployment to that environment if you don't want to use the ALOps external deployer"
+    },
+    {
+      "t": 1069.5,
+      "end": 1081.1,
+      "text": "or other scripts for doing doing that. That's optionally something you can use as well. So, let's have a look at how to how these things are actually set up."
+    },
+    {
+      "t": 1081.1,
+      "end": 1097.4,
+      "text": "Let's just click on this one. And we can see the deploy to custom here, which is in one of my repos. And if we click actions here, go to the update version here,"
+    },
+    {
+      "t": 1097.4,
+      "end": 1108,
+      "text": "we'll see that this one deploys to two environments, custom and QA. And the custom one will run my script, which just outputs the parameters"
+    },
+    {
+      "t": 1108,
+      "end": 1118.9,
+      "text": "here. And and then I could have done whatever I wanted to do with that one. In settings, how this looks is really"
+    },
+    {
+      "t": 1118.9,
+      "end": 1133.4,
+      "text": "Let's go and look at ALOps settings. We have a deploy to Q&A here, which is continuous deployment true. And we have a deploy to custom here, which also have continuous deployment equals true."
+    },
+    {
+      "t": 1133.4,
+      "end": 1144.9,
+      "text": "The environment type is custom. The environment type is SaaS. One deploys to SaaS. One deploys to this script called deploy to custom and prints out those things."
+    },
+    {
+      "t": 1144.9,
+      "end": 1159.8,
+      "text": "So, that is the beauty of the newcomers in in deployments. So, the entire module was like revamped and and and"
+    },
+    {
+      "t": 1159.8,
+      "end": 1170.3,
+      "text": "we hope that this is something that's useful for you to to deploy to to the environments that you need to deploy to. So,"
+    },
+    {
+      "t": 1170.3,
+      "end": 1183,
+      "text": "next up, pull request status check. Whenever you're running a pull request, we've had a few different iterations of how the pull request handler should be."
+    },
+    {
+      "t": 1183,
+      "end": 1193.8,
+      "text": "In the beginning, we had the CI/CD um workflow to handle pull requests. And then later, we created a pull request handler itself."
+    },
+    {
+      "t": 1193.8,
+      "end": 1206.7,
+      "text": "And today, I think we we we still have the pull request handler. And and and that one, we now have a job called a pull request status check, which you can use"
+    },
+    {
+      "t": 1206.7,
+      "end": 1217.9,
+      "text": "in your GitHub uh settings. If you're If you're setting up um If you're setting up What are they called?"
+    },
+    {
+      "t": 1217.9,
+      "end": 1232.4,
+      "text": "They're called rule sets. Well, let's look at that because Yeah, let's just click this one and actually see the rule set. So, whenever you set up a repository, you want to set up um some some rules about who can actually check into this repository,"
+    },
+    {
+      "t": 1232.4,
+      "end": 1248,
+      "text": "who can who can run my scripts, and who can What security do you have? And and all of these things. So, um let's call them rule sets in in GitHub today. And and you'll you can activate them, and you can give them a name, and you can see who can actually bypass this and stuff like that."
+    },
+    {
+      "t": 1248,
+      "end": 1258.2,
+      "text": "But in the end, you have branch protection. And and as part of that, you could require a pull request before merging. Um in this one,"
+    },
+    {
+      "t": 1258.2,
+      "end": 1269.5,
+      "text": "uh you would say how many reviewers and stuff like that. And on require status check to pass before merging, you could create you could specify a job here."
+    },
+    {
+      "t": 1269.5,
+      "end": 1282.1,
+      "text": "The problem is that in the old days, you would have to like find a job and and and you couldn't really find a good job in the pull request handler because we're using matrixes to to do the build."
+    },
+    {
+      "t": 1282.1,
+      "end": 1298.2,
+      "text": "So, the the the the the job that we added was the pull request status check and you can just select that as your uh brand as your job to to wait for completion uh as your required status check."
+    },
+    {
+      "t": 1298.2,
+      "end": 1311.1,
+      "text": "So, with that, it's much easier to to set up these rule sets and require whether you like um yeah, require review from code owners and stuff like that."
+    },
+    {
+      "t": 1311.1,
+      "end": 1327.5,
+      "text": "I will create some documentation that describes all of these things from a Business Central perspective and also uh our recommended rule sets in in Business Central and and and why uh these things are uh as they are."
+    },
+    {
+      "t": 1327.5,
+      "end": 1338.2,
+      "text": "Let's go back to this one. Um yeah, that is the job that you need to determine whether or not the build was successful and the PR can be merged."
+    },
+    {
+      "t": 1338.2,
+      "end": 1348.3,
+      "text": "Let's have a look at compiler folder and Linux. We are on a mission to make things faster, easier, and cheaper for you."
+    },
+    {
+      "t": 1348.3,
+      "end": 1359.5,
+      "text": "Uh that is one of the mantras of AL Go for GitHub. We started out creating something that was easy to use, but we also want to make it faster, we want to make it easier, and we want want to make it cheaper."
+    },
+    {
+      "t": 1359.5,
+      "end": 1375.8,
+      "text": "Uh faster and cheaper is the same thing because you pay for the minutes that you use the runners. If it's faster, then it's also cheaper. Uh we also in the end want to be in a situation where people don't have to work with self-hosted runners and all of these things,"
+    },
+    {
+      "t": 1375.8,
+      "end": 1391.2,
+      "text": "but just run all the builds on uh GitHub hosted Linux runners, which are uh fairly cheap. Um It is like the the difference in price between uh Linux and Windows runners is is I mean,"
+    },
+    {
+      "t": 1391.2,
+      "end": 1406.6,
+      "text": "Windows runners cost the double, and Linux runners are also faster. Uh and with the compiler folder feature, we can actually we can actually do some some things that makes building goes go much faster than that."
+    },
+    {
+      "t": 1406.6,
+      "end": 1420.9,
+      "text": "Today, or yesterday, um the run pipeline job is really a do-it-all job. It builds, publishes, runs test, performance test, and and it creates a Docker container, and and like everything goes"
+    },
+    {
+      "t": 1420.9,
+      "end": 1436.6,
+      "text": "um in in in in one go. So, it's kind of a black box. Um we'll split that into a build job and a test job, where the build part can run on on faster and cheaper Linux runners using compiler folders feature."
+    },
+    {
+      "t": 1436.6,
+      "end": 1447.1,
+      "text": "Uh that's a new functionality that allows AL Go to build apps without containers, and allowed GitHub to cache artifacts. Um"
+    },
+    {
+      "t": 1447.1,
+      "end": 1457.6,
+      "text": "And yeah, GitHub hosted runner Linux runners are half the price, and uh they are 33 approximately percent faster than the Windows runners. So, there's a lot to gain."
+    },
+    {
+      "t": 1457.6,
+      "end": 1470.2,
+      "text": "Let's Let's have a look at where we are today. So, we we we we haven't split up like the building and testing. It's still like the run pipeline is one big black box."
+    },
+    {
+      "t": 1470.2,
+      "end": 1485,
+      "text": "But you can actually set some some some settings that makes you take advantage of the new functionality. At some point in time, in a future version of AL Go for GitHub, these things will be set behind the scenes, and we'll just use the new way of building,"
+    },
+    {
+      "t": 1485,
+      "end": 1497.8,
+      "text": "and then like testing will be done in separate jobs and stuff like that. But today, if you want to like try out how fast it goes when you're building on Linux, you can set these settings."
+    },
+    {
+      "t": 1497.8,
+      "end": 1508.9,
+      "text": "So, do not publish apps means exactly like the settings says, do not publish the apps. If you say that you don't want to publish the apps, then there's no need for a container."
+    },
+    {
+      "t": 1508.9,
+      "end": 1519.4,
+      "text": "If you If you want to actually try and publish the apps to a service tier, then we either need an online environment or a container or an online container or whatever."
+    },
+    {
+      "t": 1519.4,
+      "end": 1536.1,
+      "text": "So, so but for now, if you set do not publish apps true, we know internally that that we we don't need a container for anything. If you then also set use compiler folder to true, then we can deduct that that we'll be able to do everything without containers."
+    },
+    {
+      "t": 1536.1,
+      "end": 1547.5,
+      "text": "With these two settings, you can now set runs on and GitHub runner to Ubuntu latest, meaning that every single part of your CI/CD workflow will now be running Linux."
+    },
+    {
+      "t": 1547.5,
+      "end": 1559.3,
+      "text": "You will not be spinning up a single Windows machine in that one. Um note, of course, that do not publish apps will in effect disable running tests, which is the reason why we didn't like default these things."
+    },
+    {
+      "t": 1559.3,
+      "end": 1571,
+      "text": "We'll default these things when we have testing in place that can run in separate jobs and stuff like that. Let's actually have a look at how this looks and"
+    },
+    {
+      "t": 1571,
+      "end": 1587.1,
+      "text": "what the performance gain is. So, this is a repository under freddy.dk called Linux, where I did a few uh tests. Let's look at the actions here. I started out the repository creating a new app, and it immediately kicked off a build called new PTE."
+    },
+    {
+      "t": 1587.1,
+      "end": 1602.7,
+      "text": "The commit after adding this PTE, it took 16 minutes to to build. Looking at at this one, like looking into the actual build process here, which is 14 minutes and 34 minute seconds,"
+    },
+    {
+      "t": 1602.7,
+      "end": 1615.9,
+      "text": "uh the run pipeline piece is the one that takes the most time. And if we click this one and say view timestamps here, we'll see that um um"
+    },
+    {
+      "t": 1615.9,
+      "end": 1634.2,
+      "text": "going through here 49 40 50 50 and suddenly like 54 pulling generic image takes 4 minutes creating a container takes 7 minutes. So, 11 minutes of these 14 or 12 minutes actually goes for downloading a Docker image and creating a container"
+    },
+    {
+      "t": 1634.2,
+      "end": 1650.6,
+      "text": "on these on these runners. So, we would think that if we running those on Linux without containers, we'd be much faster. And this update algo setting, if we take a look at this chart to see what did we actually change?"
+    },
+    {
+      "t": 1650.6,
+      "end": 1664.6,
+      "text": "As we can see, we do not publish apps, use compiler folder, runs on Ubuntu and GitHub runner Ubuntu click actions and we'll see that this build actually took 4 minutes and 42 seconds."
+    },
+    {
+      "t": 1664.6,
+      "end": 1678.2,
+      "text": "So, it's quite a bit faster, 12 minutes faster than the other build. Let's have a look at what actually takes the time here. Um And 3 minutes and 4 seconds for the build and"
+    },
+    {
+      "t": 1678.2,
+      "end": 1689.4,
+      "text": "1 minute and 25 seconds for the run pipeline and the determine artifact URL takes 51 seconds. This is actually where it downloads"
+    },
+    {
+      "t": 1689.4,
+      "end": 1703.1,
+      "text": "the Business Central artifacts to the runner. Um and then there's a one step here called cache Business Central artifacts. Meaning that if I run this build once more and I of course did that, then it takes 3 minutes and 38 seconds."
+    },
+    {
+      "t": 1703.1,
+      "end": 1714.2,
+      "text": "So, it goes an entire minute faster. Looking at this, determining the artifact URL actually takes 48 seconds still."
+    },
+    {
+      "t": 1714.2,
+      "end": 1726.6,
+      "text": "But, uh the cache Business Central artifacts now take 5 seconds and the actual building takes 22 seconds because everything is already cached and we just need to to build that."
+    },
+    {
+      "t": 1726.6,
+      "end": 1740.2,
+      "text": "So, uh we can still speed up the determine artifact URL, I think, because I don't think it downloads anything here. Um that's probably querying for artifacts, and we need to make that faster."
+    },
+    {
+      "t": 1740.2,
+      "end": 1757.6,
+      "text": "Um but as you can see, there's a lot to gain by switching over and running uh building stuff without containers, building stuff where we are able to use the GitHub cache to actually cache our artifacts uh right here."
+    },
+    {
+      "t": 1757.6,
+      "end": 1772.9,
+      "text": "So, so that's what we're doing uh and and and we'll save a lot of time on that. And the difference now is that let's just say that that we have or that not just say, but but we actually have for a free skew of of GitHub,"
+    },
+    {
+      "t": 1772.9,
+      "end": 1785.8,
+      "text": "there's like 2,000 minutes included for free of of of runners. Uh that is that equals to 1,000 Windows minutes. If every build takes like 20 minutes, then that's 50 builds."
+    },
+    {
+      "t": 1785.8,
+      "end": 1799.1,
+      "text": "That's not a lot, right? But if every build takes three Linux minutes, and you had 2,000 uh minutes there, then that's quite a lot more, right?"
+    },
+    {
+      "t": 1799.1,
+      "end": 1816.2,
+      "text": "Um so it then the price of additional minutes is suddenly uh a little more digestible, and and maybe you can you can just use the Linux runners instead of of using time to set up your self-hosted runners and all of these things."
+    },
+    {
+      "t": 1816.2,
+      "end": 1829.8,
+      "text": "So, that's where we're going. At some point in time, these things will be default, and you'll be able to run using the compiler folder, and and you'd be able to also uh run on on Ubuntu and stuff like that."
+    },
+    {
+      "t": 1829.8,
+      "end": 1840,
+      "text": "Um the GitHub runner, you'll always be able to to use a self-hosted runner if you want to do that. Um but but we'll recommend the other one at some point in time."
+    },
+    {
+      "t": 1840,
+      "end": 1851.5,
+      "text": "Another feature that was added was the use GH token workflow. That's a strange name for a feature, but the This is about overcoming the limitations of the GitHub token."
+    },
+    {
+      "t": 1851.5,
+      "end": 1863.4,
+      "text": "Uh and what is that? Well, every single workflow that creates a pull request or a commit into your repository now will have a small checkbox saying use GH code token workflow for pull request {slash} commit."
+    },
+    {
+      "t": 1863.4,
+      "end": 1876.7,
+      "text": "The reason for this is that there's a um actually there's a link to that here if you click the see more. GitHub says that triggering a workflow from a workflow is not possible using the GitHub token."
+    },
+    {
+      "t": 1876.7,
+      "end": 1888.8,
+      "text": "Uh meaning that if we run a workflow to update the version number in your repository, it's not going to trigger a build after that, but you want to trigger a build. So, you have to do that in a manual step."
+    },
+    {
+      "t": 1888.8,
+      "end": 1900.2,
+      "text": "The problem with not triggering a build is that you you might end up um actually having changed a lot of things, and then you don't have a build with your new version number, and that's that's problematic."
+    },
+    {
+      "t": 1900.2,
+      "end": 1911,
+      "text": "So, with that checkbox, you'll now be able to say use the GH token workflow for these uh for these functionalities,"
+    },
+    {
+      "t": 1911,
+      "end": 1922.9,
+      "text": "and then it will be allowed to actually spin up another uh workflow from that. So, let's have a look at how that actually looks."
+    },
+    {
+      "t": 1922.9,
+      "end": 1935.2,
+      "text": "If we just create a new repository uh this GH token workflow repository here, and I run the create a new app, and I specify"
+    },
+    {
+      "t": 1935.2,
+      "end": 1947,
+      "text": "use GH token workflow true. Let me go here and say create a new app. Run that, and I I click this one, say use GH token workflow true."
+    },
+    {
+      "t": 1947,
+      "end": 1960.8,
+      "text": "Doing that will cause this one to run, add the app, and trigger a pull request build. If I do not check the use GH T work token workflow,"
+    },
+    {
+      "t": 1960.8,
+      "end": 1973.5,
+      "text": "then it will uh like this one, just run the workflow, but not trigger a pull request built. If I ask it oh actually this one creates a pull request."
+    },
+    {
+      "t": 1973.5,
+      "end": 1984,
+      "text": "This one was a direct commit, which is it is allowed to do with a GitHub token. This one is creating a pull request and that is not allowed due to some settings"
+    },
+    {
+      "t": 1984,
+      "end": 1999.2,
+      "text": "in actions general in the bottom here, allow GitHub actions to create and approve pull request. This This I can click this one and then I'll the GitHub token is allowed to create an approve pull request,"
+    },
+    {
+      "t": 1999.2,
+      "end": 2011.7,
+      "text": "but it's still not spawn a pull request built based on me running that. So, it'll it will still just create the pull request and then when I merge the pull request, it will of course run the build."
+    },
+    {
+      "t": 2011.7,
+      "end": 2024,
+      "text": "So, the option now is to click that one in order to have GitHub actually run either a commit build or a pull request built based on your"
+    },
+    {
+      "t": 2024,
+      "end": 2028.6,
+      "text": "changes to the repository."
+    },
+    {
+      "t": 2028.6,
+      "end": 2040.4,
+      "text": "That's actually all for the features that were included. Let's have a look into a few features that we're working on right now and and and what they are and and"
+    },
+    {
+      "t": 2040.4,
+      "end": 2053,
+      "text": "what's cooking. Um there's no promises, no dates. I know that it looks like everything is done, but we might still like pull the plug and say we're not going to ship this at all."
+    },
+    {
+      "t": 2053,
+      "end": 2063.8,
+      "text": "But let's have a look at two PRs that are out there today. The one of them is a BCPT test result viewer. Um and basically you can see there's a pull request here."
+    },
+    {
+      "t": 2063.8,
+      "end": 2079.1,
+      "text": "If we click this one, we'll actually be able to see the description of this feature and you're welcome to to actually have a look at what we're working on right now. There's a draft pull request called BCBT test report and you'll see this is the description of it."
+    },
+    {
+      "t": 2079.1,
+      "end": 2091.1,
+      "text": "This is how it looks and here some to-do's. They're all checked. Some partners actually said, \"Uh, that looks nice.\" A lot of of commits and then some tests running and stuff like that."
+    },
+    {
+      "t": 2091.1,
+      "end": 2101.7,
+      "text": "If you want to look at the source, then there are 10 files changed and you can actually go and um add your comments if you want to do that."
+    },
+    {
+      "t": 2101.7,
+      "end": 2121,
+      "text": "Um now let's look at what it actually is. It is a uh there's a template repository supporting that. So, if you take one of your test repository, don't do this with your production repository and say update Algo system files with this result,"
+    },
+    {
+      "t": 2121,
+      "end": 2135.3,
+      "text": "then you'll have that functionality right in your repository. Uh I have a repository called freddy.dk BCBT test. If we have a look at this one and click this and click into the CI/CD workflow,"
+    },
+    {
+      "t": 2135.3,
+      "end": 2153.2,
+      "text": "click in the build, click here. We'd be able to see in the summary section uh down here, this is my test results and this is my performance test results and we'll be able to see that it uses a baseline called BCBT baseline.json"
+    },
+    {
+      "t": 2153.2,
+      "end": 2166.2,
+      "text": "um to to see whether there's any regressions or anything like that in the performance or the number of SQL statements run. Um so, it's a feature that that we might add soon."
+    },
+    {
+      "t": 2166.2,
+      "end": 2176.5,
+      "text": "Um but yeah, let's give us some some feedback on on whether this would be a good addition. Uh you can define baseline and thresholds"
+    },
+    {
+      "t": 2176.5,
+      "end": 2190.4,
+      "text": "uh in files in your repository and then it automatically runs the performance tests and and gives you the results after either a CI/CD build or a next minor or next major, or test current build, or whatever."
+    },
+    {
+      "t": 2190.4,
+      "end": 2201.2,
+      "text": "And you can schedule those, of course. Um The last one, customize AL Go for GitHub. Well, uh it's something that I've I've talked to a few partners about."
+    },
+    {
+      "t": 2201.2,
+      "end": 2216.6,
+      "text": "The partners that are kind of I think 80% of partners would not need to, like, change anything. Uh they'd be able to use AL Go for GitHub as is, and and would not need to to modify anything."
+    },
+    {
+      "t": 2216.6,
+      "end": 2228.1,
+      "text": "But there's a certain number of partners then that would like to use AL Go for GitHub, and then customize a few things. And then there's partners who would say, \"Well, I my customizations are way too vast."
+    },
+    {
+      "t": 2228.1,
+      "end": 2248,
+      "text": "I can't use AL Go for GitHub for anything.\" And then we'll point to a either AL Ops or Alpaca, or other solutions out there. Um but but for the for those who want to, like, have like serious um usage and and and and add some stuff to AL Go for GitHub that we didn't ask ask for,"
+    },
+    {
+      "t": 2248,
+      "end": 2260,
+      "text": "but we didn't think of. Uh there actually is a PR open now, and whether we're going to merge it or or include this functionality, I don't know. Uh but the PR is here."
+    },
+    {
+      "t": 2260,
+      "end": 2271.2,
+      "text": "And again, you can see the description of what this is and and how to use it. Um it it allows you to have a repository with a with a template your own template repository"
+    },
+    {
+      "t": 2271.2,
+      "end": 2285.3,
+      "text": "which points to then the AL Go PTE or the AL Go AppSource. And it it describes here how files will be taken from one of the other area. And then there's a link to one of my repos that that contains this."
+    },
+    {
+      "t": 2285.3,
+      "end": 2299.3,
+      "text": "So, if you want to test this out, again, one of your test repository, do not use your production repository for that. Uh you can you can update AL Go system files with Freddy DK AL Go at custom."
+    },
+    {
+      "t": 2299.3,
+      "end": 2309.5,
+      "text": "Um I have created a small indirect template repository called my indirect PTE template. Uh and I've customized that."
+    },
+    {
+      "t": 2309.5,
+      "end": 2320.4,
+      "text": "And then I've created a test repository called FreddyDK customized. And I have um ran the AL Go for GitHub updates in that one."
+    },
+    {
+      "t": 2320.4,
+      "end": 2333.8,
+      "text": "Let's have a look at what this actually is. Uh skip verification on that. So, this is my my indirect PTE template."
+    },
+    {
+      "t": 2333.8,
+      "end": 2352.2,
+      "text": "If we look at the this one at customizations and settings, then this is the PR that added like I added some some settings to to specify in AL Go settings that I want to use the compiler folder and and not publish apps."
+    },
+    {
+      "t": 2352.2,
+      "end": 2367.1,
+      "text": "And I also added a job called custom job/my job. Uh I added a a needs that the build job needs that job. So, I've integrated this job into my CI/CD pipeline."
+    },
+    {
+      "t": 2367.1,
+      "end": 2378.4,
+      "text": "Uh I also added a custom step after the settings and one before the build and one after the build. Uh and and those are in my indirect template repository."
+    },
+    {
+      "t": 2378.4,
+      "end": 2389.7,
+      "text": "So, my indirect template repository now now contains some customization of of um of of folders and stuff like that. It also contains a"
+    },
+    {
+      "t": 2389.7,
+      "end": 2400.3,
+      "text": "a new BC container partial script. That is the script that creates the container when you are running like uh tests and stuff like that."
+    },
+    {
+      "t": 2400.3,
+      "end": 2413.4,
+      "text": "Uh which I also have as part of my indirect PTE template. Now, I also have a customized repository here. The customized repository, let's have a look at what that actually contains."
+    },
+    {
+      "t": 2413.4,
+      "end": 2426.9,
+      "text": "Uh we also had some customizations in that one. And let's have a look. I here created one called custom job {slash} prepare deploy, which was like in front of the deploy and and the deploy step would would require that to be done."
+    },
+    {
+      "t": 2426.9,
+      "end": 2440.2,
+      "text": "So, I could do stuff in that one. Uh and that was also a change to the CI/CD YAML file. I also have a custom step before build here from the repository and a custom step after the build from the repository."
+    },
+    {
+      "t": 2440.2,
+      "end": 2452.4,
+      "text": "And we've added those to my repo now. Now, this customized repository I now want to move on top of the or to use my"
+    },
+    {
+      "t": 2452.4,
+      "end": 2467.2,
+      "text": "my my PTE indirect um template repository. And this pull request is the effect of the update AL Go system files pointing out my indirect"
+    },
+    {
+      "t": 2467.2,
+      "end": 2479.6,
+      "text": "uh template and to use as that. Let's look at the files changed here. And it finds out that the settings in {dot} AL Go, we have actually added version strategy"
+    },
+    {
+      "t": 2479.6,
+      "end": 2492.2,
+      "text": "in the uh indirect template repository. So, added settings will also be transferred to the repo by update AL Go system files. If you already set the settings in this file, it will not."
+    },
+    {
+      "t": 2492.2,
+      "end": 2503.4,
+      "text": "In the {dot} AL in the AL Go settings here in the repository settings, um the settings that we had from the indirect template repository are also transferred."
+    },
+    {
+      "t": 2503.4,
+      "end": 2513.8,
+      "text": "Let's have Oh, the the new BC container was added because that was new. The CI/CD has changed. The prepare deploy is moved"
+    },
+    {
+      "t": 2513.8,
+      "end": 2526.2,
+      "text": "uh down to the bottom. The custom job my job from my indirect template repository is added here. Uh my prepared job will need the build."
+    },
+    {
+      "t": 2526.2,
+      "end": 2536.6,
+      "text": "And this one will need initialization and check for updates. If If a look at the built, uh then it adds the custom job my job here."
+    },
+    {
+      "t": 2536.6,
+      "end": 2554.6,
+      "text": "And if we look at the um at the deploy, we'll still have the custom job prepare deploy in here. So, we actually now managed to merge the two um the two custom jobs into this workflow."
+    },
+    {
+      "t": 2554.6,
+      "end": 2566.3,
+      "text": "Let's have a look at this one where we had some some steps. We had like a before built from the repository, and now we got a before built from the indirect"
+    },
+    {
+      "t": 2566.3,
+      "end": 2578,
+      "text": "template as well. Now, if there is already a a a job with the same name in the repository that it comes from the indirect repository, it will be overwritten."
+    },
+    {
+      "t": 2578,
+      "end": 2597.1,
+      "text": "It will assume that it comes from the indirect template repository and update that like everything else is updated from AL Go. But, if you have like new jobs that are not named the same as as as jobs that are that are from AL Go or from the template repository,"
+    },
+    {
+      "t": 2597.1,
+      "end": 2612.1,
+      "text": "then these will not be overwritten and actually stay where they are. And they'll be like run after the other. So, let's have a look at how it is. So, the uh before built from the indirect template repository is run,"
+    },
+    {
+      "t": 2612.1,
+      "end": 2623.6,
+      "text": "and then the before built from the repo. And after the built from the repo runs first, and then after the built from the indirect runs after. So, it reverses the order after and before."
+    },
+    {
+      "t": 2623.6,
+      "end": 2635.4,
+      "text": "So, looking at this, it gives you an an the opportunity to create your own your own template repository based on AL Go for GitHub."
+    },
+    {
+      "t": 2635.4,
+      "end": 2648.4,
+      "text": "So, you just you decide when you want to uptake new changes to that, and these changes can then be be transferred to uh to your repositories automatically, and you can add changes to that and stuff like that."
+    },
+    {
+      "t": 2648.4,
+      "end": 2663,
+      "text": "So, this is one way of doing it. Uh you could also have a fork of AL Go. Uh there are different ways of doing that and and we're not sure whether we are going to select one or the other. If you're seeing this listening to this video, uh have a look at the functionality."
+    },
+    {
+      "t": 2663,
+      "end": 2673.1,
+      "text": "Give us some some some feedback on whether you think this is a good idea or whether we should just go with forks and and and those things. Um with that,"
+    },
+    {
+      "t": 2673.1,
+      "end": 2682,
+      "text": "thanks for listening and have a good rest of your day."
+    }
+  ],
+  "markers": [],
+  "word_count": 6951
+}

@@ -7,13 +7,39 @@
   "url": "https://stefanmaron.com/posts/bcdb-restore-write-a-cloud-export-into-a-container/",
   "published_at": "2026-09-10T05:33:46.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:35:29.333Z",
+      "path": "vault:posts/stefanmaron-com/https-stefanmaron-com-posts-bcdb-restore-write-a-cloud-export-into-a-container--0d94b20d91.md",
+      "words": 1305
+    },
+    "extracted": {
+      "at": "2026-10-06T21:35:39.185Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.007261
+    },
+    "summarized": {
+      "at": "2026-10-06T21:35:39.186Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:35:39.187Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:35:39.191Z",
+      "path": "content/posts/stefanmaron-com/https-stefanmaron-com-posts-bcdb-restore-write-a-cloud-export-into-a-container--0d94b20d91.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ad8a6d17ea5c730dda224bf33515c75c8942db0aabf2083f15a915a18ae74407"
 }

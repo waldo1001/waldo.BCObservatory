@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/09/quick-tip-github-copilot-chat-modes-are-now-agents-and-edit-mode-is-gone/",
   "published_at": "2026-09-10T09:16:38.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:35:21.737Z",
+      "path": "vault:posts/thinkaboutit-be/8157.md",
+      "words": 277
+    },
+    "extracted": {
+      "at": "2026-10-06T21:35:28.896Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.005103
+    },
+    "summarized": {
+      "at": "2026-10-06T21:35:28.898Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:35:28.899Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:35:28.902Z",
+      "path": "content/posts/thinkaboutit-be/8157.md"
     }
   },
   "input_hash": "2026-09-10T09:16:38.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a0e6dcf213c7e228c1672f604736c301219fb8098678678d2c82a7797eeb8b88"
 }

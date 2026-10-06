@@ -1,0 +1,27 @@
+{
+  "video_id": "EVntnDFE1R4",
+  "item_id": "video/yt-microsoft/EVntnDFE1R4",
+  "summary": "Business Central 2023 release wave 2 integration with Power Platform: Power Automate approval and business-event templates, multi-company flow support, connector V2 deprecation, canvas apps, Dataverse virtual tables, Power Pages (preview) and Power BI embed and scorecards.",
+  "overview": "The video covers what changed in the Business Central integration with Power Platform in 2023 release wave 2. Most of it is Power Automate: a new action on approval-enabled pages to create approval workflows, improved approval templates, 17 new automated templates based on business events, new instant templates, and flows that work across companies and environments.\n\nIt also covers connector changes, including the V2 action deprecation and a higher webhook row limit. It then goes through Power Apps canvas apps, Dataverse virtual tables and their setup, Power Pages integration, and Power BI embed improvements with scorecard support.",
+  "key_points": [
+    "Approval workflow templates can be created from a new action on pages that support approvals. Templates now support real requester details, adaptive cards in Teams and cancel scenarios.",
+    "The approval feature must be enabled in feature management on upgraded environments. It is on by default only for new 2023 wave 2 environments.",
+    "17 new automated flow templates trigger on external business events, for example customer blocking or purchase order release. Business events are still in preview.",
+    "A new List Companies action in the connector returns all companies in an environment. Flows no longer need a company specified to list API categories or tables. Using environment variables across environments needs AL-Go support.",
+    "Webhook notifications to Power Automate rise from 100 rows to 1,000 rows.",
+    "V2 connector actions will be hidden from December. Existing production flows keep working, but editing them requires updating to V3 actions.",
+    "Dataverse virtual tables for Business Central were in preview, with general availability announced for later that year. Assisted setup lets you enable tables one by one or in bulk."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "d2df626e375aaa8fe5a4e85f4a56e23501ebe3e74a6e1712ae5cb4243315df77",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0228124
+  }
+}

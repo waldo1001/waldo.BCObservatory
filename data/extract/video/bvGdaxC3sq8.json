@@ -1,0 +1,301 @@
+{
+  "video_id": "bvGdaxC3sq8",
+  "item_id": "video/yt-microsoft/bvGdaxC3sq8",
+  "title": "Introducing: Contoso Demo Tool (2023 release wave 2)",
+  "duration_s": 721,
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "demo data",
+    "contoso",
+    "demo modules",
+    "rapid start package",
+    "module dependencies",
+    "data layers",
+    "on-demand creation",
+    "lego architecture",
+    "open source"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Current Demo Data Tools",
+      "t_start": 0,
+      "t_end": 54
+    },
+    {
+      "title": "Limitations of Rapid Start Packages",
+      "t_start": 54,
+      "t_end": 148
+    },
+    {
+      "title": "Introducing Contoso Coffee",
+      "t_start": 148,
+      "t_end": 210
+    },
+    {
+      "title": "Contoso Design Goals and Architecture",
+      "t_start": 210,
+      "t_end": 289
+    },
+    {
+      "title": "Contoso Tool Overview and Module Strategy",
+      "t_start": 289,
+      "t_end": 374
+    },
+    {
+      "title": "Building Your Own Demo Data Module",
+      "t_start": 374,
+      "t_end": 520
+    },
+    {
+      "title": "Helper Code Units and Module Implementation",
+      "t_start": 520,
+      "t_end": 625
+    },
+    {
+      "title": "Future Plans for Contoso Demo Tool",
+      "t_start": 625,
+      "t_end": 697
+    },
+    {
+      "title": "Open Source and Feedback",
+      "t_start": 697,
+      "t_end": 721
+    }
+  ],
+  "features": [
+    {
+      "name": "Contoso Coffee Demo Data",
+      "description": "A fictitious company that produces coffee and coffee machines used as an initiative across Dynamics 365 products to demonstrate different features and services. Available modules include common, warehousing, manufacturing, and service.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 161.4,
+      "t_end": 199.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "demo-data",
+        "contoso",
+        "modular-design"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Contoso Demo Tool",
+      "description": "A tool that will be released in wave 2 to orchestrate configuring and running different demo data modules. Simplifies creating demo data by allowing developers to build scenario-based modules that work together and separately.",
+      "status": "announced",
+      "status_evidence_t": 406,
+      "status_evidence_quote": "the new Contoso demo tool will be available from 23.0",
+      "status_evidence_verified": true,
+      "t_start": 325.6,
+      "t_end": 374.5,
+      "is_demoed": true,
+      "caveats": [
+        "Available from version 23.0 onwards"
+      ],
+      "tags": [
+        "demo-tool",
+        "orchestration",
+        "module-management"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Demo Data Module Interface",
+      "description": "A standardized interface that developers must implement when creating their own demo data modules. Includes procedures for customization pages, dependency specification, and creating demo data layer by layer.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 388.6,
+      "t_end": 430.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "interface",
+        "extensibility",
+        "module-development"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Helper Code Units for Demo Data",
+      "description": "Pre-built code units that help developers speed up the process of creating demo data by handling table population and field specification automatically. Allows reuse of existing posting groups and other master data from dependent modules.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 531.8,
+      "t_end": 565.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "helper-codeunits",
+        "productivity",
+        "code-reuse"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Module Dependency System",
+      "description": "Allows demo data modules to depend on other modules like common, warehousing, or manufacturing. Developers can reuse data created in dependent modules instead of duplicating code.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 232.7,
+      "t_end": 263,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "dependencies",
+        "module-composition",
+        "lego-architecture"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "On-Demand Demo Data Creation",
+      "description": "A future plan to move toward on-demand demo data creation instead of pre-built packages. Will eventually replace existing evaluation and extended packages.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 625.5,
+      "t_end": 650.8,
+      "is_demoed": false,
+      "caveats": [
+        "Requires more modules to be developed first"
+      ],
+      "tags": [
+        "future-plan",
+        "on-demand",
+        "flexibility"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Enhanced Company Creation Wizard",
+      "description": "Future enhancement to the company creation wizard that will allow selecting multiple demo data modules when creating a new company, supporting pipeline automation and API-based creation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 664,
+      "t_end": 687.2,
+      "is_demoed": true,
+      "caveats": [
+        "Future capability, not yet available"
+      ],
+      "tags": [
+        "company-creation",
+        "wizard",
+        "automation"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "enum",
+      "name": "Contoso demo data module",
+      "t": 417
+    },
+    {
+      "type": "codeunit",
+      "name": "helper code units",
+      "t": 531.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Wael Abu Sa'ada",
+      "confidence": "high"
+    },
+    {
+      "name": "Horan",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 85.6,
+      "text": "using rapid start package to create your demo data is a support tool, absolutely, but it has its own limitation",
+      "why_it_matters": "Establishes the problem that Contoso Demo Tool is designed to solve",
+      "check": "exact"
+    },
+    {
+      "t": 247,
+      "text": "from now on think of demo data module as LEGO and it's like bricks of LEGO that you build on top of each other",
+      "why_it_matters": "Explains the core architectural philosophy of modular, composable demo data",
+      "check": "exact"
+    },
+    {
+      "t": 406,
+      "text": "the new Contoso demo tool will be available from 23.0",
+      "why_it_matters": "Specifies the release version for the Contoso demo tool availability",
+      "check": "exact"
+    },
+    {
+      "t": 481.4,
+      "text": "we highly recommend you to go ahead and check out what data is created in each module",
+      "why_it_matters": "Provides guidance for developers using the dependency system",
+      "check": "exact"
+    },
+    {
+      "t": 542.2,
+      "text": "we are creating one line of general posting setup in one line of code",
+      "why_it_matters": "Demonstrates the productivity gains from helper code units",
+      "check": "exact"
+    },
+    {
+      "t": 635.6,
+      "text": "we want to move toward on-demand demo data creation",
+      "why_it_matters": "States the primary future direction for the Contoso Demo Tool initiative",
+      "check": "exact"
+    },
+    {
+      "t": 697.5,
+      "text": "all of this is open source. It has been open source for like a year now",
+      "why_it_matters": "Confirms open source status and community contribution opportunities",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 406,
+      "kind": "not-in-this-release",
+      "text": "the new Contoso demo tool will be available from 23.0"
+    },
+    {
+      "t": 635.6,
+      "kind": "coming-later",
+      "text": "we want to move toward on-demand demo data creation"
+    },
+    {
+      "t": 664,
+      "kind": "coming-later",
+      "text": "you can basically when you create a new company, you can choose a set of modules"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.040220900000000004
+    }
+  ]
+}

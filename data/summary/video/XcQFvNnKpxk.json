@@ -1,0 +1,28 @@
+{
+  "video_id": "XcQFvNnKpxk",
+  "item_id": "video/yt-microsoft/XcQFvNnKpxk",
+  "summary": "Business Central Performance Toolkit (BCPT) is a multi-user benchmarking tool for testing performance before go-live. The video covers a plan, run, analyze approach, version 23 AL Go support with baseline comparison, test scenarios sourced from GitHub, and analysis with Power BI telemetry reports.",
+  "overview": "The session introduces BCPT, which simulates multiple users running at the same time to measure performance, detect locking issues and test a system under load. It frames pre-go-live performance testing as three steps: plan, run, analyze.\n\nIt shows that in version 23 BCPT works out of the box in AL Go, with a BCPT workload, test scenarios and comparison to a baseline run. Test code can be sourced from GitHub, where 22 scenarios exist and partners are asked to contribute more. Results are analyzed with the Power BI app on telemetry, covering deadlocks, database lock timeouts, AL stack traces and SQL statements. The talk closes with five pillars (remove friction, change the culture, collaborate with the community, enroll ambassadors, better readiness material) and points to aka.ms/bcpt for documentation.",
+  "key_points": [
+    "BCPT is a multi-user benchmarking tool: it simulates concurrent users, measures performance, detects locking issues and tests load.",
+    "In version 23, BCPT is available out of the box in AL Go: add a BCPT workload, run scenarios and compare against a baseline run.",
+    "BCPT can source test code from GitHub instead of having it built in. 22 scenarios are currently available, and partners are encouraged to contribute more.",
+    "Enable telemetry before the test run. Otherwise the Power BI app on telemetry has no data for the performance toolkit results, deadlock and database lock timeout pages.",
+    "BCPT is strongest for concurrency testing, where it surfaces deadlocks and database lock timeouts. It runs everything in background sessions.",
+    "Baseline comparison can show SQL statement count changes after code changes. Duration differences can vary with environment stability.",
+    "Reports include AL stack traces (top and bottom of the call stack) and SQL statement analysis. Documentation, personas and an FAQ are at aka.ms/bcpt."
+  ],
+  "audience": [
+    "developer",
+    "administrator",
+    "partner",
+    "functional consultant"
+  ],
+  "extraction_hash": "acff288053c62f0f7d5eee7d3bd3183b551fc4fc6a447f13ed03ad818eb0d6ff",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0245144
+  }
+}

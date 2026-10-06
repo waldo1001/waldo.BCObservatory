@@ -7,13 +7,39 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/09/managing-apps-in-business-central-admin.html",
   "published_at": "2026-09-10T10:24:29.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:35:11.088Z",
+      "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md",
+      "words": 444
+    },
+    "extracted": {
+      "at": "2026-10-06T21:35:19.412Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.006008
+    },
+    "summarized": {
+      "at": "2026-10-06T21:35:19.413Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:35:19.415Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:35:19.417Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md"
     }
   },
   "input_hash": "2026-09-10T10:24:29.828Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "71265a8af8286b151a4ba42085a6dccb449038015881c4868256641f05145b1e"
 }

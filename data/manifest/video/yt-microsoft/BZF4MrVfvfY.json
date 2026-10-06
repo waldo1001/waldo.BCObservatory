@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: Fixed and Variable G/L Allocations (2023 release wave 2)",
   "url": "https://www.youtube.com/watch?v=BZF4MrVfvfY",
-  "published_at": null,
+  "published_at": "2023-12-20T08:08:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:35:21.950Z",
+      "captions": "auto:en-orig",
+      "duration_s": 1419
+    },
+    "captioned": {
+      "at": "2026-10-06T21:35:32.188Z",
+      "path": "data/captions/microsoft/BZF4MrVfvfY.vtt",
+      "vtt_sha256": "dd6398ef002493402232770a46b3fbc9c6ad1f180ca70d10b3ed1f52a6cdf03d",
+      "segments": 76,
+      "words": 3781,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 482,
     "duration_s": 1419,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dd6398ef002493402232770a46b3fbc9c6ad1f180ca70d10b3ed1f52a6cdf03d"
 }
