@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-query-links-joins.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-links-joins",
+  "title": "Data Item Links",
+  "blob": "a39b0adc39cb3f6dc42e10dac753f21a256b54af",
+  "summary": "Data item links and SQL join types in AL queries define how to combine records from multiple tables using DataItemLink and SqlJoinType properties, supporting inner, outer, cross, and full joins.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "queries",
+    "data linking",
+    "sql joins",
+    "al language"
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "Sample Query"
+    }
+  ],
+  "features": [
+    "DataItemLink Property",
+    "SqlJoinType Property",
+    "InnerJoin",
+    "LeftOuterJoin",
+    "RightOuterJoin",
+    "FullOuterJoin",
+    "CrossJoin"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006831,
+      "pages_in_call": 7
+    }
+  ]
+}

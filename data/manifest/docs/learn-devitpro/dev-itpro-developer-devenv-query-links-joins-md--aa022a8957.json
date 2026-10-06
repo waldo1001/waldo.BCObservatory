@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-links-joins",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a39b0adc39cb3f6dc42e10dac753f21a256b54af",
       "words": 3269,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:35.698Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.006831
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:35.707Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:35.708Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:35.709Z",
+      "page": false
     }
   },
   "input_hash": "a39b0adc39cb3f6dc42e10dac753f21a256b54af",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a39b0adc39cb3f6dc42e10dac753f21a256b54af"
+  "output_hash": "c8186af2397d432a8a79f3690b5d9d0dd62d0f157aaddef4679fd4f45d560856"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-totals-grouping",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "93a4f94106d78a4edf817176685c8776f0903731",
       "words": 1233,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:35.699Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.006831
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:42.035Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:42.036Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:42.036Z",
+      "page": false
     }
   },
   "input_hash": "93a4f94106d78a4edf817176685c8776f0903731",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "93a4f94106d78a4edf817176685c8776f0903731"
+  "output_hash": "9147d9e179e4d7cbad5c641d515ea3fcd4ef86ef3bd3116da77ef2d27da99100"
 }

@@ -1,0 +1,67 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-reports-create-printer-extension.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-create-printer-extension",
+  "title": "Creating a Printer Extension",
+  "blob": "a10db9b74f88ba30fe407798ca6e81763ce2f2a7",
+  "summary": "Creating a printer extension uses OnAfterSetupPrinters and OnAfterDocumentPrintReady events to set up custom printers and route reports to email, physical, or other printer endpoints.",
+  "systems": [
+    "development",
+    "reporting",
+    "integration"
+  ],
+  "topics": [
+    "printer extension",
+    "event subscribers",
+    "json payload",
+    "report routing",
+    "email printing",
+    "al development"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "SetupPrinter"
+    },
+    {
+      "type": "codeunit",
+      "name": "HandlePrintAction"
+    },
+    {
+      "type": "codeunit",
+      "name": "SendReportByEmail"
+    },
+    {
+      "type": "codeunit",
+      "name": "ReportManagement"
+    },
+    {
+      "type": "codeunit",
+      "name": "SMTP Mail"
+    },
+    {
+      "type": "codeunit",
+      "name": "Mail Management"
+    }
+  ],
+  "features": [
+    "OnAfterSetupPrinters event",
+    "OnAfterDocumentPrintReady event",
+    "Printer Selections page",
+    "JSON printer payload",
+    "Paper tray configuration",
+    "Report print routing",
+    "Email print delivery",
+    "OnAfterGetPaperTrayForReport event"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012875,
+      "pages_in_call": 1
+    }
+  ]
+}

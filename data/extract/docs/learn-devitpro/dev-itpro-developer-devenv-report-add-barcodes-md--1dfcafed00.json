@@ -1,0 +1,55 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-report-add-barcodes.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-add-barcodes",
+  "title": "Adding barcodes to reports",
+  "blob": "f04e5977299414d1c4b70df724d98131ad936ecd",
+  "summary": "Adding barcodes to reports in AL encodes data strings using barcode providers and fonts, then applies the encoded data to report layouts in Word or RDLC formats.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "barcodes",
+    "reports",
+    "barcode fonts",
+    "al language"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "ItemBarcodeReport1D"
+    },
+    {
+      "type": "report",
+      "name": "ItemBarcodeReport2D"
+    },
+    {
+      "type": "codeunit",
+      "name": "IDAutomation 1D Provider"
+    },
+    {
+      "type": "codeunit",
+      "name": "IDAutomation 2D Provider"
+    }
+  ],
+  "features": [
+    "Barcode Font Provider interface",
+    "Barcode Symbology enum",
+    "EncodeFont method",
+    "ValidateInput method",
+    "IDAutomation fonts",
+    "1D barcodes",
+    "2D barcodes"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006831,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-sift-performance",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "93f393ffc154e7d9d777e219f8adb4a42d89a242",
       "words": 422,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:42.008Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002967
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:43.850Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:43.851Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:43.852Z",
+      "page": false
     }
   },
   "input_hash": "93f393ffc154e7d9d777e219f8adb4a42d89a242",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "93f393ffc154e7d9d777e219f8adb4a42d89a242"
+  "output_hash": "ec610e6f70daee1a74c083c7c21debbce028c77a6b3883b9d4f30daf0ff7c609"
 }

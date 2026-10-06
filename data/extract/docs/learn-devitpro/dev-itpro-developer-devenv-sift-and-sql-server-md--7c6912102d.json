@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-sift-and-sql-server.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-sift-and-sql-server",
+  "title": "SIFT and SQL Server",
+  "blob": "88277a3f407d97510aa6c413ab5a5609d5c5ed9b",
+  "summary": "SIFT and SQL Server explains how SumIndexFields associated with database keys create indexed views to optimize aggregate calculations on numeric columns, using SQL Server's GROUP BY functionality for performance.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "sift",
+    "sumindexfield",
+    "indexed views",
+    "sql server",
+    "aggregate calculations",
+    "database performance"
+  ],
+  "objects": [],
+  "features": [
+    "SumIndexField",
+    "SIFT keys",
+    "indexed views",
+    "GROUP BY queries",
+    "numeric data aggregation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002967,
+      "pages_in_call": 8
+    }
+  ]
+}

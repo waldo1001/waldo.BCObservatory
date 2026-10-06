@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-sift-technology",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "45a813a091e20e4cef337e62f62103e7d7d27a75",
       "words": 92,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:42.009Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002967
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:43.853Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:43.853Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:43.854Z",
+      "page": false
     }
   },
   "input_hash": "45a813a091e20e4cef337e62f62103e7d7d27a75",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "45a813a091e20e4cef337e62f62103e7d7d27a75"
+  "output_hash": "cb2c759f0322066fbf59e632f54fecda0a957c8ee9806a5db4aec6ecfaa8aca5"
 }

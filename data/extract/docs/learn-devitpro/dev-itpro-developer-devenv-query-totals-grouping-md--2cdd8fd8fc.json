@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-query-totals-grouping.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-totals-grouping",
+  "title": "Aggregating data in query objects",
+  "blob": "93a4f94106d78a4edf817176685c8776f0903731",
+  "summary": "Aggregating data in AL queries uses the Method property on columns to calculate sum, average, min, max, or count values across grouped records for data analysis.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "queries",
+    "aggregation",
+    "grouping",
+    "al language"
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "Customer_Sales_Quantity"
+    },
+    {
+      "type": "query",
+      "name": "DistinctValuesQuery"
+    }
+  ],
+  "features": [
+    "Sum method",
+    "Average method",
+    "Min method",
+    "Max method",
+    "Count method",
+    "GROUP BY",
+    "DISTINCT values"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006831,
+      "pages_in_call": 7
+    }
+  ]
+}

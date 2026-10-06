@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-query-using-instead-record-variables.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-using-instead-record-variables",
+  "title": "Using Queries Instead of Record Variables",
+  "blob": "2b19a2c9c8cadf60dee05de4ade628b4178c7e23",
+  "summary": "Queries provide better performance and simpler code than record variables when retrieving and joining data from multiple tables in AL codeunits.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "queries",
+    "record variables",
+    "performance",
+    "al language"
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "Item Movements Query"
+    }
+  ],
+  "features": [
+    "FINDSET method",
+    "SETRANGE method",
+    "OPEN method",
+    "TopNumberOfRows method",
+    "Read method"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006831,
+      "pages_in_call": 7
+    }
+  ]
+}

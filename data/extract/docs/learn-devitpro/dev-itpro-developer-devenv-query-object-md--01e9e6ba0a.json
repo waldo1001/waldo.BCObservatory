@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-query-object.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object",
+  "title": "Query object",
+  "blob": "53e3291c57564466d9a7ace04a9135b9b46013e9",
+  "summary": "Query objects in AL retrieve and display data from one or more tables by defining dataitems and columns with links and joins to produce datasets for analysis and UI display.",
+  "systems": [
+    "development",
+    "reporting"
+  ],
+  "topics": [
+    "queries",
+    "data retrieval",
+    "al language",
+    "analysis mode"
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "Top Customer Overview"
+    }
+  ],
+  "features": [
+    "Query discoverability",
+    "UsageCategory property",
+    "AboutTitle",
+    "AboutText",
+    "ContextSensitiveHelpPage",
+    "Analysis mode",
+    "DataAccessIntent"
+  ],
+  "versions": [
+    "version 23"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006831,
+      "pages_in_call": 7
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-sift-tuning-and-tracing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-sift-tuning-and-tracing",
+  "title": "Tuning and Tracing",
+  "blob": "84811d19a774da3ee85e904825dea2e4492de272",
+  "summary": "SIFT Tuning and Tracing describes using SQL Server tools to assess SIFT performance overhead, manage index maintenance, combine SIFT keys, and balance costs against benefits of maintaining indexed views.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "sift tuning",
+    "sql server profiler",
+    "index maintenance",
+    "performance tracing",
+    "indexed views"
+  ],
+  "objects": [],
+  "features": [
+    "MaintainSIFTIndex property",
+    "SQL Server profiler",
+    "index combination",
+    "performance overhead",
+    "SIFT key management"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002967,
+      "pages_in_call": 8
+    }
+  ]
+}

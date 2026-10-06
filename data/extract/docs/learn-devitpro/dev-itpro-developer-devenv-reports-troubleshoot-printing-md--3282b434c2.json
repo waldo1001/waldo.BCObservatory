@@ -1,0 +1,48 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-reports-troubleshoot-printing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-troubleshoot-printing",
+  "title": "Troubleshooting Printing",
+  "blob": "893e7b218e8a7c6495a5d8fea2596bad109b9e63",
+  "summary": "Troubleshooting printing in Business Central provides guidance on resolving printer and report payload errors, accessing Windows Event Log for detailed diagnostics, and testing printer configurations using the Printers system table.",
+  "systems": [
+    "development",
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "printing troubleshooting",
+    "payload errors",
+    "event log",
+    "printer setup",
+    "debugging",
+    "report payload"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Printer Selections"
+    },
+    {
+      "type": "table",
+      "name": "Printer"
+    }
+  ],
+  "features": [
+    "printer payload validation",
+    "Windows Event Log",
+    "error messages",
+    "payload format checking",
+    "filter views unpacking"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002967,
+      "pages_in_call": 8
+    }
+  ]
+}

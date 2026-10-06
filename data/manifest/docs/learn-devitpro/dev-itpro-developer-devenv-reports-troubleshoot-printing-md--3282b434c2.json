@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-troubleshoot-printing",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "893e7b218e8a7c6495a5d8fea2596bad109b9e63",
       "words": 379,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:42.006Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.002967
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:43.844Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:43.845Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:43.846Z",
+      "page": false
     }
   },
   "input_hash": "893e7b218e8a7c6495a5d8fea2596bad109b9e63",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "893e7b218e8a7c6495a5d8fea2596bad109b9e63"
+  "output_hash": "838fb126f60df473677bbf0793fd3472b13cc14c96261737c78dc7bd1b6971d1"
 }

@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-simple-card-page-example.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-simple-card-page-example",
+  "title": "Simple card page example",
+  "blob": "02bd7186e02b6a1ea7fec4ca4b7fe72c619bd2f7",
+  "summary": "Simple card page example provides AL code for creating a basic card page displaying Customer table records with FastTabs, fields, and actions for navigation and task execution.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "card pages",
+    "page design",
+    "al code",
+    "user interface",
+    "customer records"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "SampleCustomerCard"
+    },
+    {
+      "type": "page",
+      "name": "Sales Quote"
+    },
+    {
+      "type": "page",
+      "name": "Customer Bank Account List"
+    },
+    {
+      "type": "codeunit",
+      "name": "Customer Layout - Statement"
+    }
+  ],
+  "features": [
+    "card page layout",
+    "FastTabs",
+    "promoted actions",
+    "action categories",
+    "field bindings"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002967,
+      "pages_in_call": 8
+    }
+  ]
+}

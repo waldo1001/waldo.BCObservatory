@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-repeater-controls.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-repeater-controls",
+  "title": "Work with repeater controls",
+  "blob": "e8d8819a62d154960ca54d46dd21cf34809e0d33",
+  "summary": "Repeater controls in AL pages display lists of records as rows and columns, with options to customize appearance through properties like width, freeze columns, and filters.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "pages",
+    "repeater control",
+    "list pages",
+    "al language"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "SampleCustomerList"
+    }
+  ],
+  "features": [
+    "repeater control",
+    "Width property",
+    "FreezeColumn property",
+    "IndentationColumn property",
+    "Designer tool",
+    "Personalize tool",
+    "Tile View"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.006831,
+      "pages_in_call": 7
+    }
+  ]
+}

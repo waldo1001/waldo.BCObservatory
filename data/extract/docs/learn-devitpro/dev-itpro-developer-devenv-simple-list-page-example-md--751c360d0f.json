@@ -1,0 +1,53 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-simple-list-page-example.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-simple-list-page-example",
+  "title": "Simple list page example",
+  "blob": "52fd9bd71be09e36b6ed84d0935f04b694d9226a",
+  "summary": "Simple list page example provides AL code for creating a basic list page displaying Customer table records with columns, filtering, and actions for processing and reporting.",
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "list pages",
+    "page design",
+    "al code",
+    "user interface",
+    "customer records"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "SampleCustomerList"
+    },
+    {
+      "type": "page",
+      "name": "Customer Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Sales Quote"
+    },
+    {
+      "type": "report",
+      "name": "Customer - Top 10 List"
+    }
+  ],
+  "features": [
+    "list page layout",
+    "repeater control",
+    "promoted actions",
+    "card page linking",
+    "Tell me integration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002967,
+      "pages_in_call": 8
+    }
+  ]
+}

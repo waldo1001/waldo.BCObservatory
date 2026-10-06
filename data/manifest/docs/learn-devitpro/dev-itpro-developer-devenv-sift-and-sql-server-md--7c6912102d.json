@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-sift-and-sql-server",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "88277a3f407d97510aa6c413ab5a5609d5c5ed9b",
       "words": 344,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:42.007Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.002967
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:43.847Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:43.848Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:43.849Z",
+      "page": false
     }
   },
   "input_hash": "88277a3f407d97510aa6c413ab5a5609d5c5ed9b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "88277a3f407d97510aa6c413ab5a5609d5c5ed9b"
+  "output_hash": "e764f8f7d824a307320986420baaa9b8f0cc1932bdeed5b1d59b7403880c74bc"
 }

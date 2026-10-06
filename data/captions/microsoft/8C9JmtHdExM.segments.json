@@ -1,0 +1,83 @@
+{
+  "video_id": "8C9JmtHdExM",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 0,
+      "end": 10.3,
+      "text": "Allow over receipt of products in Business Central. In Business Central, you can receive more products than you've ordered from your vendor or suppliers."
+    },
+    {
+      "t": 10.3,
+      "end": 21.9,
+      "text": "This is necessary because sometimes you actually receive more than you ordered, and you want to put these items on your inventory. To handle this, we have what we call over receipt codes."
+    },
+    {
+      "t": 21.9,
+      "end": 34.3,
+      "text": "Let's have a look. Bring up the tell me search with Alt Q, and we search for over receipt. And select over receipt codes from the list. Here, I have two over receipt codes."
+    },
+    {
+      "t": 34.3,
+      "end": 47.5,
+      "text": "One that allows for 10% over receipt tolerance, and one that allows for 20%. I can set these over receipt codes on my products, and I can set these over receipt codes on my vendors."
+    },
+    {
+      "t": 47.5,
+      "end": 60.8,
+      "text": "The most restrictive setting wins. So, if you have a setting that allows for 10% on the item and 20% over receipt on the vendor, the 10% will have effect if you try to receive that item."
+    },
+    {
+      "t": 60.8,
+      "end": 72.3,
+      "text": "Let's see how they work. Here, I'm on the item card of one of our products, and I want to be able to receive more than I ordered on this specific product. So, I set the over receipt code."
+    },
+    {
+      "t": 72.3,
+      "end": 85.4,
+      "text": "In this case, I want to allow for 20% over receipt of this product. I can now set a general over receipt code for any product from a specific vendor because I know that a specific vendor is always sending more than I ordered."
+    },
+    {
+      "t": 85.4,
+      "end": 90.1,
+      "text": "I can do this at the vendor card."
+    },
+    {
+      "t": 90.1,
+      "end": 101.5,
+      "text": "Let's go to the vendor card. Go to vendors, and we select the vendor. Here, I can also set the over receipt code."
+    },
+    {
+      "t": 101.5,
+      "end": 112,
+      "text": "It's done on the receiving fast tab in the bottom of the page. You toggle fold it if it's collapsed, and find the over receipt code field."
+    },
+    {
+      "t": 112,
+      "end": 124.4,
+      "text": "I want to select the over receipt 10 code here because I always want to allow for 10% over receipt from the specific vendor. Now, remember that I set an over receipt code of 20% on the product."
+    },
+    {
+      "t": 124.4,
+      "end": 137.2,
+      "text": "In this case, that will mean that I can only receive 10% because that's the most restrictive setting. One thing to keep in mind is that there's a default selection of over receipt codes."
+    },
+    {
+      "t": 137.2,
+      "end": 142.5,
+      "text": "Let's go to over receipt code once again."
+    },
+    {
+      "t": 143.9,
+      "end": 156,
+      "text": "Notice the default selection of the over receipt 10 code. This means that if you if you haven't set anything up on products or vendors, you will always be able to over receive 10%."
+    },
+    {
+      "t": 156,
+      "end": 165.8,
+      "text": "And this is a very neat way to set up how to allow for over receipt of products. Thank you for watching."
+    }
+  ],
+  "markers": [],
+  "word_count": 440
+}

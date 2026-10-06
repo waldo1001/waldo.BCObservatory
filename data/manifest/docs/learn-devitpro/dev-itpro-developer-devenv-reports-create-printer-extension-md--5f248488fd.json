@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-create-printer-extension",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a10db9b74f88ba30fe407798ca6e81763ce2f2a7",
       "words": 1255,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:35.704Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 6,
+      "cost_usd": 0.012875
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:43.841Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:43.842Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:43.843Z",
+      "page": false
     }
   },
   "input_hash": "a10db9b74f88ba30fe407798ca6e81763ce2f2a7",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a10db9b74f88ba30fe407798ca6e81763ce2f2a7"
+  "output_hash": "2c51bb2e9cf8e19c05eaff04ccb3517e6333a178d238fdb417a873d646501ecc"
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-add-barcodes",
   "published_at": "2025-05-06T19:26:23.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "f04e5977299414d1c4b70df724d98131ad936ecd",
       "words": 1212,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:38:35.702Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.006831
+    },
+    "summarized": {
+      "at": "2026-10-06T19:38:43.834Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:38:43.835Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:38:43.836Z",
+      "page": false
     }
   },
   "input_hash": "f04e5977299414d1c4b70df724d98131ad936ecd",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f04e5977299414d1c4b70df724d98131ad936ecd"
+  "output_hash": "18cd66d95503b06b29dd6313c84df941d184484229e2bea6541bfb4bb2914e75"
 }

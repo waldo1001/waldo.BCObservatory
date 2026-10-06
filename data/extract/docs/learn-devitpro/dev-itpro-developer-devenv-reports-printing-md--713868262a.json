@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-reports-printing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-printing",
+  "title": "Developing printer extensions in Business Central",
+  "blob": "eae5a4ed11072f1f8e7664fe7b56db9cb8f9d8f4",
+  "summary": "Developing printer extensions in Business Central allows sending reports directly to web-connected printers by subscribing to OnAfterSetupPrinters and OnAfterDocumentPrintReady events published by Report Managements codeunit.",
+  "systems": [
+    "development",
+    "reporting",
+    "platform"
+  ],
+  "topics": [
+    "printer extensions",
+    "integration events",
+    "report printing",
+    "json payloads",
+    "event subscribers"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Report Managements"
+    },
+    {
+      "type": "page",
+      "name": "Printer Selections"
+    },
+    {
+      "type": "page",
+      "name": "Printer"
+    }
+  ],
+  "features": [
+    "OnAfterSetupPrinters event",
+    "OnAfterDocumentPrintReady event",
+    "web-connected printers",
+    "printer payload",
+    "report payload",
+    "email printing"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002967,
+      "pages_in_call": 8
+    }
+  ]
+}
