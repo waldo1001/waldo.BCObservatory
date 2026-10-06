@@ -1,0 +1,322 @@
+{
+  "video_id": "q-udoJPGUKE",
+  "item_id": "video/yt-microsoft/q-udoJPGUKE",
+  "title": "Introducing: Web App for Expense Agent (2026 release wave 1)",
+  "duration_s": 613,
+  "systems": [
+    "copilot",
+    "finance",
+    "hr"
+  ],
+  "topics": [
+    "expense agent",
+    "web app",
+    "ai extraction",
+    "receipt processing",
+    "expense approval",
+    "currency conversion",
+    "ocr",
+    "handwritten receipts",
+    "non-business-central-users"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Web App for Expense Agent",
+      "t_start": 0,
+      "t_end": 32.8
+    },
+    {
+      "title": "Why a Web App for Expenses",
+      "t_start": 32.8,
+      "t_end": 70.7
+    },
+    {
+      "title": "Expense Workflow and Native Environment",
+      "t_start": 70.7,
+      "t_end": 103.7
+    },
+    {
+      "title": "Roles: Employees, Finance, and Approvers",
+      "t_start": 103.7,
+      "t_end": 126.5
+    },
+    {
+      "title": "Expense Submission Process Flow",
+      "t_start": 126.5,
+      "t_end": 181.2
+    },
+    {
+      "title": "Demo: Signing In and Uploading Receipts",
+      "t_start": 181.2,
+      "t_end": 252.9
+    },
+    {
+      "title": "Demo: AI Extraction and Expense Categorization",
+      "t_start": 252.9,
+      "t_end": 345.4
+    },
+    {
+      "title": "Demo: Managing Multiple Expenses and Currency Conversion",
+      "t_start": 345.4,
+      "t_end": 472.3
+    },
+    {
+      "title": "Demo: Manual Grouping and Submission for Approval",
+      "t_start": 472.3,
+      "t_end": 527.8
+    },
+    {
+      "title": "Future Roadmap and Related Sessions",
+      "t_start": 527.8,
+      "t_end": 613
+    }
+  ],
+  "features": [
+    {
+      "name": "Web App for Expense Agent",
+      "description": "A dedicated web application exclusive to the expense agent, allowing employees who are not Business Central users to create, review, and submit expenses and expense reports directly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 6.2,
+      "t_end": 527.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "web app",
+        "expense agent",
+        "non-bc-users",
+        "employee self-service"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AI Receipt Extraction",
+      "description": "The expense agent uses AI to automatically extract relevant information from uploaded receipts including numbers, dates, and itemizations, categorizing them appropriately.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 222.8,
+      "t_end": 321.4,
+      "is_demoed": true,
+      "caveats": [
+        "Works with handwritten receipts",
+        "OCR capabilities for various receipt types"
+      ],
+      "tags": [
+        "ai",
+        "ocr",
+        "extraction",
+        "categorization"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Automatic Expense Report Creation",
+      "description": "When an expense passes initial validation tests, it is automatically added to a default expense report without requiring manual report creation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 238.8,
+      "t_end": 252.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "automation",
+        "expense report",
+        "default grouping"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Manual Expense Correction",
+      "description": "Users can manually correct AI-detected issues, add notes such as marking meetings as customer meetings, and update expense details before submission.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 302.1,
+      "t_end": 334.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "manual correction",
+        "user control",
+        "notes"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Automatic Currency Conversion",
+      "description": "The web app automatically detects receipt currencies and converts amounts to the user's local currency for display and processing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 441.4,
+      "t_end": 460.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "currency",
+        "conversion",
+        "multi-currency"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Exception Handling and Details Display",
+      "description": "When AI extraction encounters issues or missing details, the system displays a summary for user review and correction before reprocessing the workflow.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 401.6,
+      "t_end": 441.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "exception handling",
+        "error recovery",
+        "user review"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Manual Expense Grouping",
+      "description": "Users can manually drag and drop receipts between expense reports or manually assign receipts to specific reports when automatic grouping is not desired.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 472.3,
+      "t_end": 499.2,
+      "is_demoed": true,
+      "caveats": [
+        "Automatic grouping described as somewhat simple"
+      ],
+      "tags": [
+        "grouping",
+        "drag-drop",
+        "manual assignment"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Expense Submission for Approval",
+      "description": "Once an expense report is complete and verified, users can submit it for approval, triggering notifications to approvers who review and process approvals in the same web app.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 499.2,
+      "t_end": 527.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "approval",
+        "workflow",
+        "notifications"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Approver Portal",
+      "description": "Finance and approvers can use the same web app to review submitted expense reports with full details and either approve or request corrections.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 103.7,
+      "t_end": 114.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "approvals",
+        "finance",
+        "oversight"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Alexander Totovic",
+      "confidence": "high"
+    },
+    {
+      "name": "Michael Swink",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 32.8,
+      "text": "now we have a web app exclusively for expense agents",
+      "why_it_matters": "Marks the first time Business Central is moving outside its core user experience into a dedicated external web app.",
+      "check": "exact"
+    },
+    {
+      "t": 44.4,
+      "text": "You are not Business Central user but still need to submit expenses. This is very often a scenario",
+      "why_it_matters": "Establishes the primary use case - employees without BC licenses who still need to submit expenses.",
+      "check": "exact"
+    },
+    {
+      "t": 238.8,
+      "text": "if it passes all the initial kind of test for actual getting into business central we will also create",
+      "why_it_matters": "Explains the automation boundary - expenses pass validation tests before automatic report creation.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 373,
+      "text": "It's a handwritten taxi receipt. Um which you know maybe traditional OCR technology would have a problem with but since this is all AI",
+      "why_it_matters": "Demonstrates AI capabilities beyond traditional OCR for challenging receipt types.",
+      "check": "exact"
+    },
+    {
+      "t": 441.4,
+      "text": "all the numbers we are showing is in the uk currency even though most of these receipts are foreign",
+      "why_it_matters": "Confirms automatic multi-currency handling is built-in.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 549.9,
+      "text": "expense agent is uh big investment from Microsoft side in this release",
+      "why_it_matters": "Signals the strategic importance and scope of the expense agent initiative in this release wave.",
+      "check": "exact"
+    },
+    {
+      "t": 562.6,
+      "text": "we have introduction expense agent this session web app to expense agent and D65 chat with expense agent approvals to expense agent and expense",
+      "why_it_matters": "Lists the related sessions, indicating this is part of a larger integrated suite of expense agent capabilities.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 472.3,
+      "kind": "subject-to-change",
+      "text": "the grouping um still something in progress. It's somewhat of a simple grouping"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 9
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.0382116
+    }
+  ]
+}

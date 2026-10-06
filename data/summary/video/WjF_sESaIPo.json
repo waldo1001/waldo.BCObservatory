@@ -1,0 +1,27 @@
+{
+  "video_id": "WjF_sESaIPo",
+  "item_id": "video/yt-microsoft/WjF_sESaIPo",
+  "summary": "Interfrucht GmbH customer story: a Manifest Agent for Business Central monitors a shared mailbox, reads manifest PDFs, extracts and validates data, and creates purchase orders. It runs through a job queue every 5 minutes and logs each step. Manual handling took about 20 minutes per manifest, up to 10 times a day.",
+  "overview": "Interfrucht GmbH received shipping manifests by email. Staff had to open the mail, download the attachment, read the document, check the data and create purchase orders in Business Central by hand. Each manifest took about 20 minutes, up to 10 times a day.\n\nThe video shows a Manifest Agent that replaces this work. It watches a shared mailbox, reads the manifest PDF, extracts the data, validates it, and creates purchase orders with the right vendor, items, quantities and locations. It runs via a job queue every 5 minutes and logs each step so actions can be traced. The video does not state a release status for these features.",
+  "key_points": [
+    "Before the agent: manual handling of each manifest took about 20 minutes, up to 10 times a day.",
+    "The agent monitors a shared mailbox and detects incoming manifest PDFs.",
+    "It extracts data from the manifest and validates it before creating purchase orders.",
+    "Purchase orders are created in Business Central with vendor, items, quantities and locations from the manifest.",
+    "Execution runs through a job queue every 5 minutes, which may not suit extremely time-sensitive work.",
+    "Each step is logged, so every action is traceable for compliance and troubleshooting.",
+    "A simple initial email confirmation is required."
+  ],
+  "audience": [
+    "decision maker",
+    "functional consultant",
+    "partner"
+  ],
+  "extraction_hash": "f1eeb72b23b950fdb1d6a25251c3053b1c92cb794487d244d249107f71fe0ae3",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0395564
+  }
+}

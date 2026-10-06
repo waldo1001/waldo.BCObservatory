@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-aad-auth-onprem.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-aad-auth-onprem",
+  "title": "Use Microsoft Entra authentication for Business Central on-premises installations",
+  "blob": "e0fe9c0bd3349a3a683fb60e25af72e99df3d7b7",
+  "summary": "Use Microsoft Entra authentication for Business Central on-premises installations and containers via Visual Studio Code. Configure Entra ID as the authentication mechanism on the server and specify tenant domain settings.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "authentication",
+    "entra id",
+    "on-premises",
+    "single sign-on",
+    "visual studio code"
+  ],
+  "objects": [],
+  "features": [
+    "Microsoft Entra authentication",
+    "primaryTenantDomain setting",
+    "extension target level validation",
+    "ForceExtensionAllowedTargetLevel setting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007462,
+      "pages_in_call": 6
+    }
+  ]
+}

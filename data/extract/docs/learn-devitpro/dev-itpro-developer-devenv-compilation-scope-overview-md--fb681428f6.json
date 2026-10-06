@@ -1,0 +1,39 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-compilation-scope-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-compilation-scope-overview",
+  "title": "Compilation scope overview",
+  "blob": "cc69c90a419a7523afe7ea840c05ab6af110f3c0",
+  "summary": "Manage compilation scope in Business Central extensions by configuring extension target levels (OnPrem or Cloud) at server and manifest levels. Control which platform APIs and .NET types are accessible within AL projects.",
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "compilation",
+    "scope",
+    "extensions",
+    "apis",
+    "configuration",
+    "al language"
+  ],
+  "objects": [],
+  "features": [
+    "ExtensionAllowedTargetLevel setting",
+    "target property",
+    "Scope attribute",
+    "OnPrem scope",
+    "Cloud scope",
+    "API accessibility"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007462,
+      "pages_in_call": 6
+    }
+  ]
+}

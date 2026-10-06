@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault-overview",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a7f3100d98063eeab0bb3938ec0ffef1bb8bea7b",
       "words": 430,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T15:15:27.328Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007462
+    },
+    "summarized": {
+      "at": "2026-10-06T15:15:27.332Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T15:15:27.332Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T15:15:27.332Z",
+      "page": false
     }
   },
   "input_hash": "a7f3100d98063eeab0bb3938ec0ffef1bb8bea7b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a7f3100d98063eeab0bb3938ec0ffef1bb8bea7b"
+  "output_hash": "d809838e6f9a331bf605c2f0e3299584ef1be2bf66e7ddcf637b896fec2746ee"
 }

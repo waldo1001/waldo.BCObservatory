@@ -1,0 +1,196 @@
+{
+  "video_id": "WjF_sESaIPo",
+  "item_id": "video/yt-microsoft/WjF_sESaIPo",
+  "title": "Interfrucht GmbH",
+  "duration_s": 135,
+  "systems": [
+    "purchasing",
+    "integration",
+    "copilot"
+  ],
+  "topics": [
+    "manifest processing",
+    "agent automation",
+    "purchase order creation",
+    "mailbox monitoring",
+    "document extraction",
+    "vendor management",
+    "job queue",
+    "audit trail"
+  ],
+  "chapters": [
+    {
+      "title": "The shipping manifest problem",
+      "t_start": 0,
+      "t_end": 26.1
+    },
+    {
+      "title": "Manual process at Interfrucht: 20 minutes per manifest",
+      "t_start": 26.1,
+      "t_end": 53
+    },
+    {
+      "title": "Manifest Agent capabilities and workflow",
+      "t_start": 53,
+      "t_end": 77.4
+    },
+    {
+      "title": "Technical execution and audit trail",
+      "t_start": 77.4,
+      "t_end": 103.4
+    },
+    {
+      "title": "Results and Agentyc automation",
+      "t_start": 103.4,
+      "t_end": 135
+    }
+  ],
+  "features": [
+    {
+      "name": "Manifest Agent for Business Central",
+      "description": "An agent that monitors a shared mailbox, automatically reads manifest PDFs, extracts data, validates it, and creates purchase orders in Business Central without manual intervention.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 63.1,
+      "t_end": 116.4,
+      "is_demoed": false,
+      "caveats": [
+        "Requires simple initial email confirmation",
+        "Runs every 5 minutes via job queue"
+      ],
+      "tags": [
+        "agent",
+        "automation",
+        "document-extraction",
+        "purchase-order",
+        "manifest"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Automated purchase order creation from manifests",
+      "description": "The agent automatically creates purchase orders in Business Central with correct vendor, items, quantities, and locations extracted from manifest documents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 77.4,
+      "t_end": 92.1,
+      "is_demoed": false,
+      "caveats": [
+        "Data validation required before purchase order creation"
+      ],
+      "tags": [
+        "purchase-order",
+        "automation",
+        "vendor-management",
+        "data-extraction"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Mailbox monitoring and document processing",
+      "description": "The agent continuously monitors a shared mailbox, detects incoming manifest PDFs, reads the documents, and automatically extracts relevant data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 63.1,
+      "t_end": 77.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "mailbox-monitoring",
+        "document-processing",
+        "automation",
+        "email-integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Job queue execution with audit logging",
+      "description": "The agent runs securely through a job queue every 5 minutes, logging each step and ensuring every action is traceable for compliance and troubleshooting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 92.1,
+      "t_end": 103.4,
+      "is_demoed": false,
+      "caveats": [
+        "5-minute execution interval may not be suitable for extremely time-sensitive operations"
+      ],
+      "tags": [
+        "job-queue",
+        "audit-trail",
+        "logging",
+        "security",
+        "automation"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Aptean",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 37.3,
+      "text": "Someone had to open the email, download the attachment, read the document, verify the information, and manually create purchase orders in Business Central.",
+      "why_it_matters": "Describes the manual workflow that existed before automation, establishing the pain point the agent solves.",
+      "check": "exact"
+    },
+    {
+      "t": 53,
+      "text": "Each manifest took 20 minutes to process, and this happened up to 10 times a day.",
+      "why_it_matters": "Quantifies the time cost and volume of the manual process, demonstrating significant operational impact.",
+      "check": "exact"
+    },
+    {
+      "t": 63.1,
+      "text": "The agent continuously monitors a shared mailbox. When a manifest arrives, it automatically reads the document, extracts the data",
+      "why_it_matters": "States the core capability of the Manifest Agent and how it operates without manual intervention.",
+      "check": "exact"
+    },
+    {
+      "t": 77.4,
+      "text": "creates the purchase orders in Business Central. The right vendor, the right items, the right quantities, and locations.",
+      "why_it_matters": "Specifies what data the agent correctly captures and populates when creating purchase orders.",
+      "check": "exact"
+    },
+    {
+      "t": 92.1,
+      "text": "The agent runs securely through a job queue every 5 minutes, ensuring manifests are processed quickly and consistently.",
+      "why_it_matters": "Defines the technical execution model and the 5-minute processing interval.",
+      "check": "exact"
+    },
+    {
+      "t": 103.4,
+      "text": "What once took up to 20 minutes now happens in minutes, accurately, reliably, and automatically.",
+      "why_it_matters": "Quantifies the time improvement achieved by the automation solution.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.025161999999999997
+    }
+  ]
+}

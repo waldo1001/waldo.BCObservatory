@@ -83,83 +83,93 @@
     "573255": {
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-approve-reports.md@43106f854db392e2": {
         "verdict": "keep",
-        "reason": "Describes approvers handling policy flags as advisory notices while keeping the final approve or send-back decision.",
-        "at": "2026-10-06T14:53:51.939Z"
+        "reason": "Describes approvers reviewing policy flags as advisory notices on submitted reports, which is the approver guidance this feature adds.",
+        "at": "2026-10-06T15:20:09.619Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-overview.md@b48bb29cd244b8c1": {
         "verdict": "drop",
-        "reason": "General Expense Agent overview that only lists policy compliance and approvals as topics.",
-        "at": "2026-10-06T14:53:51.939Z"
+        "reason": "General Expense Agent overview that only lists policy compliance checking and approval workflows as topics.",
+        "at": "2026-10-06T15:20:09.619Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-agent-policy-compliance.md@bd11d51815b556c3": {
         "verdict": "keep",
-        "reason": "Documents AI evaluation of natural-language policies that flags potential policy issues.",
-        "at": "2026-10-06T14:53:51.939Z"
+        "reason": "Explains AI checks of plain-language policies that flag expenses with potential policy issues, which is the core of this feature.",
+        "at": "2026-10-06T15:20:09.619Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-approve-reports.md@16d633d61a0413a1": {
         "verdict": "drop",
-        "reason": "Covers the general approval and VAT review process and rule violation detection, not AI natural-language policy evaluation.",
-        "at": "2026-10-06T14:53:51.939Z"
+        "reason": "Describes the general approval flow with fixed rule violation detection and VAT review, not AI checks against plain-language policies.",
+        "at": "2026-10-06T15:20:09.619Z"
       },
       "docs/learn-smb-docs/business-central/expense-management/expense-management-setup.md@e895847514061e02": {
         "verdict": "keep",
-        "reason": "Setup page lists the AI policy evaluation configuration, which is a setting of this feature.",
-        "at": "2026-10-06T14:53:51.939Z"
+        "reason": "Setup page that includes the AI policy evaluation setting, which is one of this feature's settings.",
+        "at": "2026-10-06T15:20:09.619Z"
       },
       "video/ARKckFygbWQ#6@d447601d098b639d": {
         "verdict": "drop",
-        "reason": "Release wave 1 compliance checking based on configured rules, an older capability.",
-        "at": "2026-10-06T14:53:51.939Z"
+        "reason": "Wave 1 web-app segment about general compliant or non-compliant status, too general to tie to AI checks of plain-language policies.",
+        "at": "2026-10-06T15:20:09.619Z"
+      },
+      "video/egE6UdOfar0#7@cf8ecc0d257ed94f": {
+        "verdict": "keep",
+        "reason": "Announces the planned policy-based approval process for complex conditions such as business class travel and hotel ratings, matching this feature.",
+        "at": "2026-10-06T15:20:09.619Z"
       },
       "video/M0IzeLSn7qU#0@53122e7aa25b4586": {
         "verdict": "keep",
-        "reason": "Shows admins enabling AI-driven approval policies per category and approvers seeing flags without being blocked.",
-        "at": "2026-10-06T14:53:51.939Z"
+        "reason": "Shows admins enabling AI-driven approval policies that flag expenses for approvers without blocking approval.",
+        "at": "2026-10-06T15:20:09.619Z"
       },
       "video/M0IzeLSn7qU#2@53122e7aa25b4586": {
         "verdict": "drop",
-        "reason": "Employee checks before submission are a different capability from validation after submission for approvers.",
-        "at": "2026-10-06T14:53:51.939Z"
+        "reason": "Describes employees running checks before submission, a different capability from the check after submission.",
+        "at": "2026-10-06T15:20:09.619Z"
       },
       "video/o94V_lF8oNM#0@2581f7e2b25e19dc": {
         "verdict": "keep",
-        "reason": "Shows the toggle that uses AI to analyze free-text policies and help approvers decide on submitted expenses.",
-        "at": "2026-10-06T14:53:51.939Z"
+        "reason": "Shows the setting that turns on AI analysis of free-text policies to help approvers decide on submitted expenses.",
+        "at": "2026-10-06T15:20:09.619Z"
       },
       "video/o94V_lF8oNM#1@2581f7e2b25e19dc": {
         "verdict": "drop",
-        "reason": "Submitter checks before submission are a separate capability from the approver-side validation after submission.",
-        "at": "2026-10-06T14:53:51.939Z"
+        "reason": "Describes the check submitters run before submitting, not the check after submission that supports approvers.",
+        "at": "2026-10-06T15:20:09.619Z"
       },
       "video/o94V_lF8oNM#2@2581f7e2b25e19dc": {
         "verdict": "keep",
-        "reason": "Shows the flagged-policy status indicator that marks reports needing approver attention.",
-        "at": "2026-10-06T14:53:51.939Z"
+        "reason": "Shows the status indicator that marks reports with possible policy breaches for approver attention.",
+        "at": "2026-10-06T15:20:09.619Z"
       },
       "video/o94V_lF8oNM#3@2581f7e2b25e19dc": {
         "verdict": "keep",
-        "reason": "Shows free-text policies by category that AI checks against submitted expenses.",
-        "at": "2026-10-06T14:53:51.939Z"
+        "reason": "Shows free-text policies grouped by category that AI checks against submitted expenses.",
+        "at": "2026-10-06T15:20:09.619Z"
       },
       "video/o94V_lF8oNM#4@2581f7e2b25e19dc": {
         "verdict": "drop",
-        "reason": "Submitter-run policy check button before submission, not the approval validation after submission.",
-        "at": "2026-10-06T14:53:51.939Z"
+        "reason": "Describes a button submitters use to run the AI check before submission, a different capability.",
+        "at": "2026-10-06T15:20:09.619Z"
+      },
+      "video/pjML7lXSsd0#2@cc32c31232309c12": {
+        "verdict": "keep",
+        "reason": "Describes the agent checking expense reports against plain-language company policies during approval.",
+        "at": "2026-10-06T15:20:09.619Z"
       },
       "video/rSGCNMIBcpc#10@acd7266c1a97c588": {
-        "verdict": "drop",
-        "reason": "Vague teaser of a future policy capability, too general to tie to this feature.",
-        "at": "2026-10-06T14:53:51.939Z"
+        "verdict": "keep",
+        "reason": "Announces the future capability to enforce company policies on expense reports during approvals, with an example policy.",
+        "at": "2026-10-06T15:20:09.619Z"
       },
       "video/tj1vvsmAMVs#5@abe0f75bd308e7b6": {
         "verdict": "keep",
         "reason": "Shows AI checking expenses against human-readable travel policies such as flight class rules.",
-        "at": "2026-10-06T14:53:51.939Z"
+        "at": "2026-10-06T15:20:09.619Z"
       },
       "video/tj1vvsmAMVs#6@abe0f75bd308e7b6": {
         "verdict": "keep",
-        "reason": "Shows non-compliant expenses being flagged to help approvers decide without hard blocking.",
-        "at": "2026-10-06T14:53:51.939Z"
+        "reason": "Shows flags on non-compliant expenses that help approvers decide without blocking them.",
+        "at": "2026-10-06T15:20:09.619Z"
       }
     },
     "573259": {
@@ -434,58 +444,63 @@
     "573312": {
       "docs/learn-devitpro/dev-itpro/ai/mcp-overview.md@6ad7e44dc99c3d81": {
         "verdict": "keep",
-        "reason": "The MCP Server overview lists Data Query Tools and querying data as features, which is this capability.",
-        "at": "2026-10-06T14:54:05.917Z"
+        "reason": "The MCP Server overview lists Data Query Tools for querying data, which is this feature.",
+        "at": "2026-10-06T15:20:02.115Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-mcp-server.md@26880425a8a6a893": {
         "verdict": "drop",
-        "reason": "The AL MCP Server is about development tools like build and publish, not running data queries.",
-        "at": "2026-10-06T14:54:05.917Z"
+        "reason": "The AL MCP Server is a development toolset, not a data query capability of the Business Central MCP Server.",
+        "at": "2026-10-06T15:20:02.115Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-api-querytype.md@b320d3d49eb252b4": {
         "verdict": "drop",
-        "reason": "It describes the general API query object type, not MCP tools for custom queries without APIs.",
-        "at": "2026-10-06T14:54:05.917Z"
+        "reason": "Covers the general API query object type, not MCP tools for custom queries.",
+        "at": "2026-10-06T15:20:02.115Z"
       },
       "video/4HE3BBCcV84#0@22b6c7ea4b6faa29": {
         "verdict": "drop",
-        "reason": "Exposing existing API queries in MCP is a different capability from custom data queries for data that has no APIs.",
-        "at": "2026-10-06T14:54:05.917Z"
+        "reason": "Exposes existing API queries through MCP, not custom queries for data that has no API.",
+        "at": "2026-10-06T15:20:02.115Z"
       },
       "video/4HE3BBCcV84#2@22b6c7ea4b6faa29": {
         "verdict": "drop",
-        "reason": "Choosing query as an object type for existing analytics API queries is not the custom data query tooling.",
-        "at": "2026-10-06T14:54:05.917Z"
+        "reason": "Covers configuring existing API query objects in MCP, a different capability.",
+        "at": "2026-10-06T15:20:02.115Z"
       },
       "video/AMVAiPTfSrU#1@fdf56a54062de31b": {
         "verdict": "drop",
-        "reason": "A general mention of the MCP server with no data query capability.",
-        "at": "2026-10-06T14:54:05.917Z"
+        "reason": "Only a general mention of the MCP server, with no data query capability described.",
+        "at": "2026-10-06T15:20:02.115Z"
+      },
+      "video/Hdp4KbbGpQA#1@30bf0f3bbe9f2b35": {
+        "verdict": "drop",
+        "reason": "Covers the AL development MCP server, not data queries.",
+        "at": "2026-10-06T15:20:02.115Z"
       },
       "video/qs1cg-GoDeQ#0@a3902918f9454621": {
         "verdict": "keep",
-        "reason": "The find tables tool is part of the new data tool set used to define custom queries.",
-        "at": "2026-10-06T14:54:05.917Z"
+        "reason": "The find tables tool is part of the MCP data tool set used to define custom queries.",
+        "at": "2026-10-06T15:20:02.115Z"
       },
       "video/qs1cg-GoDeQ#1@a3902918f9454621": {
         "verdict": "keep",
-        "reason": "The table relations tool helps users write join queries, which is part of defining custom data queries.",
-        "at": "2026-10-06T14:54:05.917Z"
+        "reason": "The table relations tool supports writing join queries in the MCP data query feature.",
+        "at": "2026-10-06T15:20:02.115Z"
       },
       "video/qs1cg-GoDeQ#2@a3902918f9454621": {
         "verdict": "keep",
-        "reason": "The table schema tool is part of the data tool set that lets agents build custom queries.",
-        "at": "2026-10-06T14:54:05.917Z"
+        "reason": "The table schema tool helps agents define custom data queries, as part of this feature.",
+        "at": "2026-10-06T15:20:02.115Z"
       },
       "video/qs1cg-GoDeQ#3@a3902918f9454621": {
         "verdict": "keep",
-        "reason": "It directly shows the data query tool, which builds and runs AL queries without needing APIs.",
-        "at": "2026-10-06T14:54:05.917Z"
+        "reason": "Directly shows the data query tool, which builds and runs AL queries without needing APIs.",
+        "at": "2026-10-06T15:20:02.115Z"
       },
       "video/zei-IszvYNU#0@124c9200aa0e6061": {
         "verdict": "drop",
-        "reason": "Making published APIs available is a different capability from querying data that has no API.",
-        "at": "2026-10-06T14:54:05.917Z"
+        "reason": "Covers exposing published APIs, not custom queries for data that has no API.",
+        "at": "2026-10-06T15:20:02.115Z"
       }
     },
     "573313": {
@@ -931,15 +946,20 @@
       }
     },
     "573334": {
+      "video/Hdp4KbbGpQA#1@30bf0f3bbe9f2b35": {
+        "verdict": "drop",
+        "reason": "Describes the AL MCP Server's test-running tool for agents, not ALTool command-line test execution, which this feature says removes the need for the MCP server.",
+        "at": "2026-10-06T15:20:00.919Z"
+      },
       "video/hNom9ZZuca0#3@33461f20914879af": {
         "verdict": "keep",
-        "reason": "It shows that tests can be run through the AL tool outside VS Code, which is part of the ALTool command-line test execution this feature adds.",
-        "at": "2026-10-06T14:56:14.011Z"
+        "reason": "Announces running (data-driven) tests through the AL tool, which is part of ALTool's command-line test execution.",
+        "at": "2026-10-06T15:20:00.919Z"
       },
       "video/V4zCPAsYi_Y#7@ffa25923d5d8e386": {
         "verdict": "drop",
-        "reason": "It describes a separate PowerShell test-runner module, not running tests through ALTool with JSON results.",
-        "at": "2026-10-06T14:56:14.011Z"
+        "reason": "Describes a separate PowerShell test-runner module for CI/CD, not ALTool's compile, deploy and run-tests command.",
+        "at": "2026-10-06T15:20:00.919Z"
       }
     },
     "573335": {

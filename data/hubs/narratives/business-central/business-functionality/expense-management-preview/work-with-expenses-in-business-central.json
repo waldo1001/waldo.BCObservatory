@@ -7,7 +7,7 @@
     "Expenses are created on an expense card with category, date, receipt attachment and preview, and itemizations with subcategories.",
     "Special expense types include business meals with participants, mileage with vehicle types, and per diem calculated by location.",
     "Expense reports are created, filled with expense lines, checked for rule violations, optionally linked to a travel request, and released for approval.",
-    "Travel requests record planned travel and costs for review before expenses are incurred, with policy acknowledgment, international travel and spending comparison; the summary cites version 29.",
+    "Travel requests record planned travel and costs for review and approval before expenses are incurred. They cover status tracking, travel policy acknowledgment, international travel, and linking to expense reports to compare spending. The travel requests page is tied to version 29.",
     "Reviewers handle approval and policy rule violations, plus a separate VAT reclaim review and VAT specification approval, with access to receipts and report statistics.",
     "Posting previews entries and verifies VAT reclaim status, then creates expense, employee, general ledger and project ledger entries.",
     "Reimbursement is made through the Payment Journal against employee accounts, with foreign currency, withholding tax, payment reconciliation and reimbursement notifications supported."
@@ -20,5 +20,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.040375
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-06T15:20:22.971Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 4 ends with 'the summary cites version 29', which leaks the source summaries into the narrative and reads as meta commentary. It now says the travel requests page is tied to version 29, without claiming a status.",
+      "Everything else checks out against the page summaries: the preview label (from the TOC path), the expense card features, the report workflow, the review and VAT reclaim steps, the posting entries, and reimbursement through the Payment Journal.",
+      "The overview and summary stay unchanged."
+    ],
+    "input_hash": "a0e57150338a859582b6c9756c6dd474fe92ff9153deb4e0697fc95af3592dc7",
+    "cost_usd": 0.09348320000000002
   }
 }

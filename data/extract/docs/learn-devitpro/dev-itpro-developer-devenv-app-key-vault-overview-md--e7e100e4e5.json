@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-app-key-vault-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault-overview",
+  "title": "Azure Key Vaults with Business Central",
+  "blob": "a7f3100d98063eeab0bb3938ec0ffef1bb8bea7b",
+  "summary": "Use Azure Key Vault to securely store and manage secrets for Business Central extensions that call external web services. Set up key vaults and configure the Business Central service to access them for online and on-premises deployments.",
+  "systems": [
+    "integration",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "key vault",
+    "secrets",
+    "security",
+    "azure",
+    "extensions",
+    "web services"
+  ],
+  "objects": [],
+  "features": [
+    "app key vault setup",
+    "multi-key vault support",
+    "secret storage",
+    "access control",
+    "telemetry monitoring",
+    "publisher validation"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007462,
+      "pages_in_call": 6
+    }
+  ]
+}

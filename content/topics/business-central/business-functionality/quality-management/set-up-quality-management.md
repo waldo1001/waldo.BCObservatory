@@ -6,12 +6,12 @@ summary: "Setting up quality management in Business Central: prerequisites, perm
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-06T15:20:40.673Z"
   flags: []
 generated:
-  at: "2026-10-06T14:24:07.451Z"
+  at: "2026-10-06T15:20:40.673Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,7 +94,7 @@ narrative: generated
 
 > Setting up quality management in Business Central: prerequisites, permission sets, assisted setup, inspection results, inspection templates, and generation rules. It answers questions about configuring the module before inspections are created and which settings control how inspections are generated.
 
-Path: [Business functionality](../../business-functionality.md) > [Quality management](../quality-management.md) > Set up quality management · tier official · system none · **unreviewed** (machine-generated narrative)
+Path: [Business functionality](../../business-functionality.md) > [Quality management](../quality-management.md) > Set up quality management · tier official · system none · narrative reviewed by Opus
 
 ## Overview
 

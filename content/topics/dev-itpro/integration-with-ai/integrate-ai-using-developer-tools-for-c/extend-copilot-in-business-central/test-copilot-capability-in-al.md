@@ -7,12 +7,12 @@ tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-06T15:20:37.921Z"
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-06T15:20:40.673Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,7 +99,7 @@ narrative: generated
 
 > Testing Copilot capabilities and agents in AL for Business Central: the Evaluation framework (formerly AI Test Toolkit), JSONL and YAML datasets, writing AI tests and agent tests, and best practices for non-determinism, safety, languages and model changes.
 
-Path: [Integration with AI](../../../integration-with-ai.md) > [Integrate AI using developer tools for Copilot](../../integrate-ai-using-developer-tools-for-c.md) > [Extend Copilot in Business Central](../extend-copilot-in-business-central.md) > Test Copilot capability in AL · tier official · system copilot · **unreviewed** (machine-generated narrative)
+Path: [Integration with AI](../../../integration-with-ai.md) > [Integrate AI using developer tools for Copilot](../../integrate-ai-using-developer-tools-for-c.md) > [Extend Copilot in Business Central](../extend-copilot-in-business-central.md) > Test Copilot capability in AL · tier official · system copilot · narrative reviewed by Opus
 
 ## Overview
 
@@ -112,13 +112,13 @@ Start with the overview, then read Evaluation and Datasets for the framework and
 ## Key points
 
 - Evaluation is the new name for AI Test Toolkit; it is a data-driven framework for validating Copilot features and agents.
-- Access requires the AI TEST TOOLKIT permission set.
-- Datasets use JSONL or YAML to hold test inputs and expected outputs; YAML supports suite-level setup, per-turn setup, intervention handling and date placeholders.
+- The overview page explains why to test (accuracy, consistency, safety) and references the AI TEST TOOLKIT permission set.
+- Datasets hold test inputs and expected outputs in JSONL or YAML, with support for suite-level setup, per-turn setup, intervention handling and date placeholders.
 - AI tests in AL run dataset scenarios and compare outputs to expected results, with internal or external evaluation and test output export.
-- Agent tests use the AI Test Suite and Library - Agent codeunit, with a turn loop, intervention declarations and manual task management.
+- Agent tests use the AI Test Suite and Library - Agent codeunit, with a turn loop, intervention declarations, suite-level setup and manual task management.
 - Evaluation tracks Copilot credit consumption and supports environment-level and company-level credit limits for evaluations.
 - Evaluation can be run across languages, and suites carry suite-level metadata.
-- Best practices cover non-determinism, scaling with Evaluation, safety, tone, bias and stereotype checks, cross-language compatibility and model version regression testing.
+- Best practices cover non-determinism, scaling with Evaluation, realistic test cases, safety, tone, bias and stereotype checks, cross-language compatibility and model version regression testing.
 
 ## Learn pages
 

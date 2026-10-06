@@ -6,12 +6,12 @@ summary: "Expense management (preview) in Business Central covers the full expen
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-06T15:20:22.971Z"
   flags: []
 generated:
-  at: "2026-10-06T14:24:07.451Z"
+  at: "2026-10-06T15:20:40.673Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -126,7 +126,7 @@ narrative: generated
 
 > Expense management (preview) in Business Central covers the full expense lifecycle: creating expenses, travel requests, expense reports, review and approval, posting, and employee reimbursement. It answers how-to questions about each step, from the expense card to the Payment Journal.
 
-Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Work with expenses in Business Central · tier official · system none · **unreviewed** (machine-generated narrative)
+Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Work with expenses in Business Central · tier official · system none · narrative reviewed by Opus
 
 ## Overview
 
@@ -141,7 +141,7 @@ Start with the page on creating and managing expenses if you are setting up the 
 - Expenses are created on an expense card with category, date, receipt attachment and preview, and itemizations with subcategories.
 - Special expense types include business meals with participants, mileage with vehicle types, and per diem calculated by location.
 - Expense reports are created, filled with expense lines, checked for rule violations, optionally linked to a travel request, and released for approval.
-- Travel requests record planned travel and costs for review before expenses are incurred, with policy acknowledgment, international travel and spending comparison; the summary cites version 29.
+- Travel requests record planned travel and costs for review and approval before expenses are incurred. They cover status tracking, travel policy acknowledgment, international travel, and linking to expense reports to compare spending. The travel requests page is tied to version 29.
 - Reviewers handle approval and policy rule violations, plus a separate VAT reclaim review and VAT specification approval, with access to receipts and report statistics.
 - Posting previews entries and verifies VAT reclaim status, then creates expense, employee, general ledger and project ledger entries.
 - Reimbursement is made through the Payment Journal against employee accounts, with foreign currency, withholding tax, payment reconciliation and reimbursement notifications supported.

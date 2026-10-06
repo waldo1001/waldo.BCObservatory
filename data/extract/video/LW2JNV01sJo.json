@@ -1,0 +1,176 @@
+{
+  "video_id": "LW2JNV01sJo",
+  "item_id": "video/yt-microsoft/LW2JNV01sJo",
+  "title": "Meet the OptimAL Performance Initiative",
+  "duration_s": 145,
+  "systems": [
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "performance optimization",
+    "continuous improvement",
+    "engineering discipline",
+    "agent capabilities",
+    "proactive management",
+    "code modernization",
+    "partnership",
+    "scalability"
+  ],
+  "chapters": [
+    {
+      "title": "Business Central growth and platform evolution",
+      "t_start": 0,
+      "t_end": 12.8
+    },
+    {
+      "title": "The problem: performance bottlenecks",
+      "t_start": 12.8,
+      "t_end": 25.1
+    },
+    {
+      "title": "Partners' role in ecosystem health",
+      "t_start": 25.1,
+      "t_end": 37.3
+    },
+    {
+      "title": "Performance as a continuous journey",
+      "t_start": 37.3,
+      "t_end": 65.2
+    },
+    {
+      "title": "OptimAL Performance Initiative introduction",
+      "t_start": 65.2,
+      "t_end": 88.3
+    },
+    {
+      "title": "Customer results and benefits",
+      "t_start": 88.3,
+      "t_end": 112.2
+    },
+    {
+      "title": "Modern platforms demand modern code",
+      "t_start": 112.2,
+      "t_end": 145
+    }
+  ],
+  "features": [
+    {
+      "name": "OptimAL Performance Initiative",
+      "description": "A program to help partners build skills, tools, and engineering discipline to manage performance proactively rather than reactively, including agent capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 65.2,
+      "t_end": 88.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "initiative",
+        "proactive management",
+        "agent capabilities"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Performance improvements through OptimAL",
+      "description": "Partners report significant performance gains: 20% improvement, over 40% improvement, 2.5 times faster than 95th percentile, and 93% overall improvement.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 88.3,
+      "t_end": 112.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "performance metrics",
+        "customer results",
+        "optimization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Agent capabilities for performance management",
+      "description": "Agent capabilities included as part of the OptimAL Performance Initiative toolkit for managing performance proactively.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 65.2,
+      "t_end": 75.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "agents",
+        "llm",
+        "ai",
+        "performance"
+      ],
+      "system": "copilot"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "OptimAL Performance Initiative team",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 25.1,
+      "text": "We continuously evolve every layer of our cloud platform and tooling based on the real-world signals from our ecosystem",
+      "why_it_matters": "Establishes that platform improvements are driven by customer feedback and ecosystem signals, not internal assumptions.",
+      "check": "exact"
+    },
+    {
+      "t": 37.3,
+      "text": "Unhandled performance bottlenecks can ripple across this otherwise magnificent system and impact the overall experience",
+      "why_it_matters": "Explains why partner code quality matters: performance issues in extensions affect the entire platform experience for end users.",
+      "check": "exact"
+    },
+    {
+      "t": 53.5,
+      "text": "High performance isn't a destination. It's a continuous journey.",
+      "why_it_matters": "Sets the philosophical approach that performance optimization is ongoing, not a one-time effort.",
+      "check": "exact"
+    },
+    {
+      "t": 65.2,
+      "text": "Those that take performance seriously can now leverage the optimal performance initiative",
+      "why_it_matters": "Marks the availability of OptimAL as a resource partners can access immediately.",
+      "check": "exact"
+    },
+    {
+      "t": 88.3,
+      "text": "We improved the performance by 20%. More than 40%. 2.5 times faster than 95%. A 93% improvement overall.",
+      "why_it_matters": "Provides concrete, quantified results from partners using the initiative, demonstrating measurable impact.",
+      "check": "exact"
+    },
+    {
+      "t": 112.2,
+      "text": "Optimal raises the bar. Faster, more predictable systems that scale, happier customers, lower support costs",
+      "why_it_matters": "Summarizes the business value proposition: performance improvements translate to customer satisfaction and cost reduction.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024259
+    }
+  ]
+}

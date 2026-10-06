@@ -1,0 +1,506 @@
+{
+  "video_id": "egE6UdOfar0",
+  "item_id": "video/yt-microsoft/egE6UdOfar0",
+  "title": "Introducing: Expense Agent in Business Central (2026 release wave 1)",
+  "duration_s": 973,
+  "systems": [
+    "finance",
+    "copilot",
+    "integration"
+  ],
+  "topics": [
+    "expense management",
+    "ai agent",
+    "receipt processing",
+    "approval workflow",
+    "expense reporting",
+    "compliance rules",
+    "licensing",
+    "public preview"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and product motivation",
+      "t_start": 0,
+      "t_end": 31.6
+    },
+    {
+      "title": "Expense agent goals and core concept",
+      "t_start": 31.6,
+      "t_end": 110
+    },
+    {
+      "title": "Core capabilities overview",
+      "t_start": 110,
+      "t_end": 177.1
+    },
+    {
+      "title": "Public preview features and roadmap",
+      "t_start": 177.1,
+      "t_end": 292
+    },
+    {
+      "title": "Architecture and system design",
+      "t_start": 292,
+      "t_end": 368.6
+    },
+    {
+      "title": "End-user demo - Outlook and web app flow",
+      "t_start": 368.6,
+      "t_end": 531.5
+    },
+    {
+      "title": "Business Central integration and setup",
+      "t_start": 531.5,
+      "t_end": 631
+    },
+    {
+      "title": "Rules vs. policies framework",
+      "t_start": 631,
+      "t_end": 767.8
+    },
+    {
+      "title": "Licensing model and user access",
+      "t_start": 767.8,
+      "t_end": 865.8
+    },
+    {
+      "title": "Summary and additional resources",
+      "t_start": 865.8,
+      "t_end": 973
+    }
+  ],
+  "features": [
+    {
+      "name": "Receipt scanning and attachment",
+      "description": "Users can scan and attach receipt images to email or web app. The expense agent processes these receipts automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 191.7,
+      "t_end": 206.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "receipt",
+        "email",
+        "web-app"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Automatic data extraction from receipts",
+      "description": "AI extracts merchant name, amount, date, and other details automatically from receipt images without manual entry.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 500.2,
+      "t_end": 513.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "extraction",
+        "ocr",
+        "automatic"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Automatic expense categorization",
+      "description": "The expense agent automatically assigns expense categories based on the receipt content and context.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 206.1,
+      "t_end": 219.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "categorization",
+        "automatic"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Expense report creation",
+      "description": "The agent automatically groups extracted expenses into reports based on specific periods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 230.1,
+      "t_end": 241.8,
+      "is_demoed": true,
+      "caveats": [
+        "currently limited, more automation planned"
+      ],
+      "tags": [
+        "report-creation",
+        "grouping"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Per diem calculation",
+      "description": "The system automatically calculates per diem amounts based on user location and trip details.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 219.4,
+      "t_end": 230.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "per-diem",
+        "automatic"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Itemization",
+      "description": "For certain receipt types like hotels, the agent itemizes line items and details from the receipt automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 206.1,
+      "t_end": 219.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "itemization",
+        "line-items"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Compliance rule checking",
+      "description": "The agent checks expenses against configured compliance rules such as maximum amounts, daily limits, and required justifications.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 665.5,
+      "t_end": 705.3,
+      "is_demoed": true,
+      "caveats": [
+        "rules are currently simple, based on amounts and limits",
+        "must have 100% accuracy"
+      ],
+      "tags": [
+        "compliance",
+        "rules",
+        "amounts"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Policy-based approval process",
+      "description": "A new approval mechanism that handles complex policy conditions such as business class travel allowances, hotel star ratings, and alcohol policies. Planned as future enhancement.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 718.8,
+      "t_end": 767.8,
+      "is_demoed": false,
+      "caveats": [
+        "policies are in process of implementation",
+        "will come at end before GA"
+      ],
+      "tags": [
+        "policy",
+        "approval",
+        "business-logic"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Shared mailbox expense submission",
+      "description": "Users can submit expenses by emailing receipts to a configured shared mailbox. The agent processes them automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 382.6,
+      "t_end": 430.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "email",
+        "shared-mailbox"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Web app for expense management",
+      "description": "A dedicated modern web app for expense management designed specifically for non-Business Central users to submit and review expense reports.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 336.5,
+      "t_end": 356.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "web-app",
+        "ui"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Microsoft 365 Copilot Chat integration",
+      "description": "Users can interact with the expense agent through Microsoft 365 Copilot Chat for expense management tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 336.5,
+      "t_end": 356.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "chat"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Business Central API integration",
+      "description": "Extracted and categorized expense data is automatically logged into the Business Central expense module via APIs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 575.5,
+      "t_end": 600.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "api",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Expense reports list in Business Central",
+      "description": "A list page showing all filed expense reports within Business Central for Business Central users to review and manage.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 550.2,
+      "t_end": 575.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "list-page",
+        "bc-ui"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Expense agent setup in Business Central",
+      "description": "Configuration to enable the expense agent within Business Central, including email configuration, categories, posting groups, and user access management.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 600.7,
+      "t_end": 631,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "setup",
+        "configuration"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Copilot credits licensing for expense users",
+      "description": "Non-Business Central users accessing the expense agent are charged based on copilot credits rather than requiring a Business Central license.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 814.3,
+      "t_end": 838.4,
+      "is_demoed": false,
+      "caveats": [
+        "only applicable when using the agent",
+        "Business Central users still need appropriate licenses"
+      ],
+      "tags": [
+        "licensing",
+        "copilot-credits"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Team member license for expense management",
+      "description": "Team member license enables Business Central users to manage expenses, submit reports, and approve expense reports through the web app or Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 824.6,
+      "t_end": 849.9,
+      "is_demoed": false,
+      "caveats": [
+        "required for active users who approve expenses",
+        "must have license even if approving via web app"
+      ],
+      "tags": [
+        "licensing",
+        "team-member"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Essential or Premium license for posting",
+      "description": "Business Central Essential or Premium license is required to post expense reports and payments to finish the complete expense process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 865.8,
+      "t_end": 878.3,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "licensing",
+        "posting"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Expense Agent",
+      "t": 110
+    },
+    {
+      "type": "other",
+      "name": "Expense Agent Service",
+      "t": 356.8
+    },
+    {
+      "type": "page",
+      "name": "Expense Reports",
+      "t": 550.2
+    },
+    {
+      "type": "other",
+      "name": "Expense Module",
+      "t": 368.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Alexander Totovic",
+      "confidence": "high"
+    },
+    {
+      "name": "Monica Ahuja",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 31.6,
+      "text": "Our first goal is to fill a long-standing product gap with AI-powered solution.",
+      "why_it_matters": "Establishes the core product motivation - expense management was missing from Business Central and needed AI automation.",
+      "check": "exact"
+    },
+    {
+      "t": 70.1,
+      "text": "basic concept is to automate receipts to get extraction, categorization, itemization, and approvals automatically",
+      "why_it_matters": "Defines the primary workflow the expense agent handles end-to-end.",
+      "check": "exact"
+    },
+    {
+      "t": 177.1,
+      "text": "we made some even maybe too optimistic ideas to build so much in public preview because this is just in few months, we created",
+      "why_it_matters": "Indicates the rapid timeline and ambitious scope of features delivered in public preview.",
+      "check": "exact"
+    },
+    {
+      "t": 253.6,
+      "text": "As I said, some of these features are in our agent, some of these features are in the Business Central.",
+      "why_it_matters": "Clarifies that the expense agent spans both external interfaces and Business Central itself.",
+      "check": "exact"
+    },
+    {
+      "t": 311.5,
+      "text": "expense users that will be interested in filing expenses do not have to be Business Central licensed users and they should not be disrupted",
+      "why_it_matters": "Key design principle - non-BC users can submit expenses without licensing requirements when using the agent.",
+      "check": "exact"
+    },
+    {
+      "t": 691.8,
+      "text": "It's required absolutely accuracy, so we cannot say this is enough to have 99% accuracy. They are strict rules and must be 100% accurate",
+      "why_it_matters": "Defines the strict compliance requirement for amount-based rules, setting expectations for accuracy.",
+      "check": "exact"
+    },
+    {
+      "t": 814.3,
+      "text": "if you are using agent, but this is only if you are using expense agent, you are not required to have Business Central license.",
+      "why_it_matters": "Clarifies the unique licensing model where agent users are charged via copilot credits instead of BC licenses.",
+      "check": "exact"
+    },
+    {
+      "t": 905.8,
+      "text": "This is a big, really big investment, and we do not want to cover everything in one session, no way.",
+      "why_it_matters": "Indicates this is a significant product investment with more capability to come beyond this session.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 177.1,
+      "kind": "preview",
+      "text": "this is something what we will have in our public preview"
+    },
+    {
+      "t": 230.1,
+      "kind": "subject-to-change",
+      "text": "we will continue to invest into this direction to make as more automation as possible. everything what we see this is possible to be done automatically with AI, this is subject of our investment"
+    },
+    {
+      "t": 253.6,
+      "kind": "coming-later",
+      "text": "for public preview and for 2026 wave release wave two, plus, so do not take a wrong my assumptions that this is not everything what will come very soon"
+    },
+    {
+      "t": 281.7,
+      "kind": "coming-later",
+      "text": "all these things should be delivered before GA. So, it was about functionalities we are covering"
+    },
+    {
+      "t": 767.8,
+      "kind": "coming-later",
+      "text": "policy in a process of implementation. And this is what will come on the end."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 8,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 17
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.046615000000000004
+    }
+  ]
+}

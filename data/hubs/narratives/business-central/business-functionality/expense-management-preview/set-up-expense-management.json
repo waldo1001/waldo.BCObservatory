@@ -1,17 +1,17 @@
 {
   "hub_id": "topic/business-central/business-functionality/expense-management-preview/set-up-expense-management",
   "input_hash": "3510cdbbf43f5f4aa8c485ab88405f521960c8d1bc6579eeb8cec114b22b0bfd",
-  "summary": "Setup of expense management (preview) in Business Central: Expense Agent, general settings, categories, rules and policies, expense users and teams, mileage rates, and per diem and mileage allowances. It answers questions on what to configure before employees submit and process expenses.",
-  "overview": "This section covers the configuration an administrator completes before employees can submit expenses. It starts with the general expense management setup and the Expense Agent setup, which handle submission channels, approval workflows, accounting defaults, policy evaluation and communication settings. Both are reached through assisted setup.\n\nThe remaining pages cover the master data the setup depends on. Expense categories, subcategories, groups, locations, rules and policies classify and validate expenses. Expense users link employees to the system with posting groups and optional teams and approvers. Mileage rates and per diem and mileage allowances define how travel reimbursements are calculated.\n\nA sensible order: run the general setup page first, then the Expense Agent setup, then create categories, rules and policies, then expense users and teams. Finish with mileage rates and per diem allowances if employees claim travel costs.",
+  "summary": "Expense management (preview) setup in Business Central covers the general settings, the Expense Agent, categories, rules and policies, expense users and teams, mileage rates, and per diem and mileage allowances. Use it to answer questions about what to configure before employees submit and process expenses.",
+  "overview": "This section covers the configuration an administrator completes before employees can submit expenses. It starts with the general expense management setup and the Expense Agent setup. Together they handle submission channels, approval workflows, accounting defaults, policy evaluation and communication settings. Both are available through assisted setup.\n\nThe remaining pages cover the master data the setup depends on. Expense categories, subcategories, groups, locations, rules and policies classify and validate expenses, with AI-assisted policy evaluation. Expense users link employees to the system with posting groups, and teams and approvers can be added if needed. Mileage rates and per diem and mileage allowances define how travel reimbursements are calculated.\n\nMileage rates and per diem allowances are only needed if employees claim travel costs. Per diem rates depend on the expense locations defined with the categories.",
   "key_points": [
     "General expense management setup covers approval workflow, posting groups, payment methods, VAT reclaim, number series and notification preferences, and is available through assisted setup.",
-    "Expense Agent setup configures the email and web app submission channels, approval workflows, accounting defaults, receipt handling and AI-assisted policy evaluation.",
+    "Expense Agent setup configures the email and web app submission channels, approval workflows, accounting defaults, receipt handling and policy compliance and evaluation.",
     "Expense categories carry posting groups; subcategories allow itemization, groups support reporting, and locations hold per diem rates.",
-    "Expense rules and policies can include merchant requirements and restrictions, and conditions and amounts.",
+    "Expense rules can set conditions and amounts, and policies can include merchant requirements and restrictions, with AI-assisted policy evaluation.",
     "Expense users are created by linking employees and assigning posting groups; teams, team managers and approvers are optional, and users can be imported from Microsoft Entra ID.",
     "Mileage rates are defined by vehicle type, currency and effective dates, with fallback to a standard rate and automatic rate selection by date and vehicle.",
     "Mileage calculation can double the distance for round trips.",
-    "Per diem calculation methods include full calendar day, 24-hour rolling period and overnight stay, with partial day rules and meal reduction percentages."
+    "Per diem uses location-based rates and calculation methods such as full calendar day, 24-hour rolling period and overnight stay, with partial day rules, meal reduction percentages and vehicle-specific mileage rates."
   ],
   "members_used": 6,
   "subtopics_used": 0,
@@ -21,5 +21,19 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.041195
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-06T15:20:30.221Z",
+    "verdict": "fix",
+    "issues": [
+      "The overview's third paragraph sets a setup order (general setup, then Expense Agent, then categories, then users, then mileage and per diem). No page summary gives an order, so I replaced it with a neutral note on which pages are optional and why.",
+      "Key point 2 calls policy evaluation 'AI-assisted' on the Expense Agent page. That page's summary only says 'policy evaluation' and 'policy compliance rules'. The AI wording comes from the general setup page and the categories page, so I changed it to 'policy compliance and evaluation'.",
+      "Key point 4 was awkwardly worded. I rewrote it so rules with conditions and amounts and merchant requirements and restrictions read as separate items.",
+      "Key point 8 left out the location-based and vehicle-specific rates named in the per diem page summary. I added them."
+    ],
+    "input_hash": "3510cdbbf43f5f4aa8c485ab88405f521960c8d1bc6579eeb8cec114b22b0bfd",
+    "cost_usd": 0.1087592
   }
 }

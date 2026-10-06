@@ -1,0 +1,665 @@
+{
+  "video_id": "Hdp4KbbGpQA",
+  "item_id": "video/yt-microsoft/Hdp4KbbGpQA",
+  "title": "Business Central Under the Hood episode 15: BC-Bench: How we evaluate AI on AL tasks",
+  "duration_s": 1918,
+  "systems": [
+    "development",
+    "copilot",
+    "platform"
+  ],
+  "topics": [
+    "bc bench",
+    "al benchmarking",
+    "coding agents",
+    "ai evaluation",
+    "mcp servers",
+    "bug fixing automation",
+    "developer experience",
+    "vs code extension",
+    "github copilot",
+    "al2 mcp server",
+    "tool evaluation",
+    "software engineering tasks"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to BC Bench and AI benchmarking",
+      "t_start": 0,
+      "t_end": 130.2
+    },
+    {
+      "title": "Sweep Bench methodology and open-source inspiration",
+      "t_start": 130.2,
+      "t_end": 248.7
+    },
+    {
+      "title": "How Sweep Bench works: GitHub pull requests and unit tests",
+      "t_start": 248.7,
+      "t_end": 328.2
+    },
+    {
+      "title": "Adapting Sweep Bench methodology for AL and Azure DevOps",
+      "t_start": 328.2,
+      "t_end": 424.2
+    },
+    {
+      "title": "BC Bench methodology: recreating bug scenarios from history",
+      "t_start": 424.2,
+      "t_end": 541.8
+    },
+    {
+      "title": "Dataset criteria: single bugs with full context",
+      "t_start": 541.8,
+      "t_end": 680
+    },
+    {
+      "title": "Test independence and fairness in benchmarking",
+      "t_start": 680,
+      "t_end": 796.3
+    },
+    {
+      "title": "Tools and MCP servers for measuring agent performance",
+      "t_start": 796.3,
+      "t_end": 943.1
+    },
+    {
+      "title": "Scientific validation, agent harness variations, and prioritization",
+      "t_start": 943.1,
+      "t_end": 1091.8
+    },
+    {
+      "title": "Custom instructions, skills, and future test generation",
+      "t_start": 1091.8,
+      "t_end": 1260.7
+    },
+    {
+      "title": "Agent feedback loops, test execution, and BC Bench roadmap categories",
+      "t_start": 1260.7,
+      "t_end": 1509.2
+    },
+    {
+      "title": "BC-Bench results, model ranking, and consistency with SWE Bench",
+      "t_start": 1509.2,
+      "t_end": 1748
+    },
+    {
+      "title": "AL versus Python parity, public release plans, and partner dataset roadmap",
+      "t_start": 1748,
+      "t_end": 1918
+    }
+  ],
+  "features": [
+    {
+      "name": "BC Bench",
+      "description": "An offline evaluation framework that measures how coding agents perform on real-world AL programming tasks in Business Central. It uses a methodology inspired by Sweep Bench, collecting bug reports from internal repositories, recreating the exact code state when the bug occurred, and having agents fix them while validating with original unit tests.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 11.2,
+      "t_end": 987.6,
+      "is_demoed": false,
+      "caveats": [
+        "Not a product feature but a developer tool for measuring AI capability",
+        "Currently 66 tasks in dataset but growing",
+        "Methodology requires bugs meeting specific criteria: single issue resolution, full context availability, test independence from fix",
+        "Currently focused on bug fixing scenarios only"
+      ],
+      "tags": [
+        "benchmarking",
+        "coding agents",
+        "al development",
+        "evaluation framework",
+        "ai metrics",
+        "measurement",
+        "statistical"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "AL2 MCP Server",
+      "description": "A toolset built by the developer experience team that brings AL language extension capabilities from VS Code to coding agents through MCP protocol. Provides tools like compile, symbol finding, and test running to improve agent performance on AL tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 796.3,
+      "t_end": 903.3,
+      "is_demoed": false,
+      "caveats": [
+        "Tool impact not yet conclusively proven",
+        "Confidence interval overlap prevents firm claims",
+        "Early stage of adding tools; ongoing work to expand tool set",
+        "Testing shows increase in average accuracy or resolution rate but results are still being rigorously analyzed"
+      ],
+      "tags": [
+        "mcp server",
+        "vs code extension",
+        "agent tooling",
+        "coding assistance",
+        "al language",
+        "mcp",
+        "tools",
+        "developer experience",
+        "vs code"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Mini BC Agent",
+      "description": "A minimal coding agent scaffold with 100 lines of Python base code, extended by another 100 lines for a mini BC agent with access only to PowerShell and Microsoft Foundry endpoints.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1025.4,
+      "t_end": 1062.9,
+      "is_demoed": false,
+      "caveats": [
+        "Minimal capability compared to full agents"
+      ],
+      "tags": [
+        "agent",
+        "minimal scaffold",
+        "python",
+        "powershell"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "GitHub Copilot Agent Terminal Variant",
+      "description": "A variant of GitHub Copilot agent designed for running in terminal and pipeline environments, used alongside the mini BC agent for comparative benchmarking.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1062.9,
+      "t_end": 1091.8,
+      "is_demoed": false,
+      "caveats": [
+        "Different from the VS Code variant",
+        "Specialized for pipeline execution"
+      ],
+      "tags": [
+        "github copilot",
+        "agent",
+        "terminal",
+        "pipeline"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Test Generation Category",
+      "description": "A planned BC Bench category where the coding agent is asked to generate tests that reproduce a given bug, extending beyond just fixing bugs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1214.4,
+      "t_end": 1226.1,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet implemented"
+      ],
+      "tags": [
+        "test generation",
+        "roadmap",
+        "bc bench",
+        "software engineering"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Code Review Category",
+      "description": "A planned BC Bench category for evaluating coding agents on pull request review, responding to the increase in pull requests generated by coding agents.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1226.1,
+      "t_end": 1240.8,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet implemented"
+      ],
+      "tags": [
+        "code review",
+        "roadmap",
+        "bc bench",
+        "pull requests"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Test Execution via MCP",
+      "description": "A planned capability for the MCP server to run tests, allowing coding agents to iterate on generated code by testing it and receiving feedback before final submission.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1260.7,
+      "t_end": 1286.2,
+      "is_demoed": false,
+      "caveats": [
+        "Currently agents work without test feedback",
+        "Experimental at design stage"
+      ],
+      "tags": [
+        "mcp",
+        "test execution",
+        "feedback loop",
+        "agent iteration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Code Refactoring Category",
+      "description": "A planned BC Bench category for evaluating agent performance on code refactoring tasks, extending beyond bug fixing and test generation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1509.2,
+      "t_end": 1520,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet implemented"
+      ],
+      "tags": [
+        "code refactoring",
+        "roadmap",
+        "bc bench",
+        "software engineering"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Feature Addition Category",
+      "description": "A speculative planned BC Bench category where agents would implement full features rather than fixing bugs, presenting significant evaluation challenges.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1509.2,
+      "t_end": 1545,
+      "is_demoed": false,
+      "caveats": [
+        "Challenge in defining success criteria",
+        "Evaluation of UI/visual correctness difficult",
+        "Future consideration only"
+      ],
+      "tags": [
+        "feature implementation",
+        "roadmap",
+        "bc bench",
+        "evaluation challenge"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Claude Opus 4.5 Performance",
+      "description": "Claude Opus 4.5 is the best-performing model on BC Bench, outperforming other models available through GitHub Copilot, with ranking aligned to SWE Bench Python task results.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1619.1,
+      "t_end": 1675.5,
+      "is_demoed": false,
+      "caveats": [
+        "Results based on available models only"
+      ],
+      "tags": [
+        "model performance",
+        "ranking",
+        "claude opus",
+        "benchmarking"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Agent runtime with page introspection",
+      "description": "Agents can look at pages and PC pages in a certain way as part of the agent runtime capability.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1593.9,
+      "t_end": 1607.2,
+      "is_demoed": false,
+      "caveats": [
+        "Speculative",
+        "More in the future"
+      ],
+      "tags": [
+        "agent",
+        "runtime",
+        "pages",
+        "future"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "BC-Bench model ranking",
+      "description": "Claude Opus 4.5 outperforms other models available through GitHub Copilot; ranking correlates closely with SWE Bench rankings for Python tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1619.1,
+      "t_end": 1686,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "model performance",
+        "claude opus",
+        "benchmarking"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "AL code parity with Python",
+      "description": "Models perform equivalently well on AL code as on Python code despite there being over 2 million Python repositories versus only 300 AL repositories publicly available.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1697.6,
+      "t_end": 1774.2,
+      "is_demoed": false,
+      "caveats": [
+        "Surprising result",
+        "Not guaranteed from dataset size"
+      ],
+      "tags": [
+        "al",
+        "python",
+        "code generation",
+        "model capability"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Public BC-Bench dataset",
+      "description": "Plan to make BC-Bench publicly available so partner community can reproduce results and verify their own MCP servers and tooling on AL coding tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1799.3,
+      "t_end": 1831.6,
+      "is_demoed": false,
+      "caveats": [
+        "Not yet public",
+        "Timeline not specified"
+      ],
+      "tags": [
+        "public",
+        "partners",
+        "mcp servers",
+        "verification"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Partner dataset for BC-Bench",
+      "description": "Planned capability to allow partners to plug their own codebases into BC-Bench to verify if agent coding performance on their code matches Microsoft results.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1873.4,
+      "t_end": 1893.5,
+      "is_demoed": false,
+      "caveats": [
+        "Future roadmap item",
+        "Timeline not specified"
+      ],
+      "tags": [
+        "partners",
+        "customization",
+        "benchmarking",
+        "roadmap"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "AL2 MCP Server",
+      "t": 813.2
+    },
+    {
+      "type": "other",
+      "name": "BC Bench",
+      "t": 841.3
+    },
+    {
+      "type": "other",
+      "name": "mini BC agent",
+      "t": 1025.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Håkon",
+      "confidence": "high"
+    },
+    {
+      "name": "Erhard",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 41.1,
+      "text": "BC Bench is a offline evaluation framework that measures how coding agents performs on real world engineering tasks in Business Central or AL programming",
+      "why_it_matters": "Defines the core purpose and scope of BC Bench as an evaluation tool for AI agents on real AL development tasks.",
+      "check": "exact"
+    },
+    {
+      "t": 70.6,
+      "text": "if a model perform better than others in AL tasks or if we can provide custom instructions or different tooling to improve the coding",
+      "why_it_matters": "Explains the key use cases: comparing models and measuring impact of tools and instructions on agent performance.",
+      "check": "exact"
+    },
+    {
+      "t": 109,
+      "text": "this is about measuring um how good the deep the energetic experience is when you do AL development",
+      "why_it_matters": "Clarifies that BC Bench is about measuring developer experience with AI assistance, not a product feature.",
+      "check": "exact"
+    },
+    {
+      "t": 264.9,
+      "text": "what they did is they go to GitHub and find some popular Python repositories. Uh they find previous pull requests done by human engineers",
+      "why_it_matters": "Explains the Sweep Bench methodology that inspired BC Bench: using real human-generated fixes as validation data.",
+      "check": "exact"
+    },
+    {
+      "t": 553.2,
+      "text": "last time I checked is 66 tasks in the data set. Well obviously the number is growing every day",
+      "why_it_matters": "Provides concrete current dataset size and indicates ongoing expansion of benchmark tasks.",
+      "check": "exact"
+    },
+    {
+      "t": 588.2,
+      "text": "one of the criteria is it's a pull request must be resolving exactly one bug. So so we know this PR is fixing this",
+      "why_it_matters": "Key quality criterion for benchmark tasks: single-issue PRs avoid confusing agents with multiple concurrent changes.",
+      "check": "exact"
+    },
+    {
+      "t": 796.3,
+      "text": "we are currently focusing on tool that built by our developer experience team that's called AL2 MCP server",
+      "why_it_matters": "Identifies the primary tool being benchmarked to improve agent performance on AL tasks.",
+      "check": "exact"
+    },
+    {
+      "t": 841.3,
+      "text": "having BC bench because we'll know that we we we are going to invest into adding more tools to to the Visual Studio code",
+      "why_it_matters": "Explains the core motivation for BC Bench - enabling data-driven decisions about tooling investments without scientific measurement.",
+      "check": "exact"
+    },
+    {
+      "t": 881.6,
+      "text": "the short answer is not conclusively. We we run them we actually did a rigorous analysis on on this AL2 MCP server. We run",
+      "why_it_matters": "Reports early results: MCP server shows promising but not conclusive improvement in agent resolution rate on AL tasks.",
+      "check": "exact"
+    },
+    {
+      "t": 892.8,
+      "text": "We did see an increase on the average accuracy or what we call resolution rate. But there is a overlap on the confidence interval.",
+      "why_it_matters": "Documents that initial AL2 MCP results show statistical ambiguity, demonstrating the rigor of the benchmark methodology.",
+      "check": "exact"
+    },
+    {
+      "t": 968.6,
+      "text": "If we figure out this tool doesn't make any difference then we don't need to support it anymore and then we can focus our",
+      "why_it_matters": "Shows how BC Bench enables prioritization and resource allocation by proving tool utility empirically.",
+      "check": "exact"
+    },
+    {
+      "t": 1076.4,
+      "text": "No, it is a well, it's similar to GitHub copilot in Visual Studio code but designed for to be running in terminal and in",
+      "why_it_matters": "Clarifies that the benchmarking agent variant differs from the IDE version, an important distinction for result interpretation.",
+      "check": "exact"
+    },
+    {
+      "t": 1260.7,
+      "text": "the next on the list is to run tests uh, through the MCP server to ask to allow coding agent to iterate on the",
+      "why_it_matters": "Identifies test execution as the next tooling priority, intended to close the feedback loop agents currently lack.",
+      "check": "exact"
+    },
+    {
+      "t": 1338,
+      "text": "with that the ability to run test we would get say resolution of say a 40% or something and and then so the agent",
+      "why_it_matters": "Provides expected performance improvement targets if test execution is added, showing how BC Bench enables hypothesis-driven feature development.",
+      "check": "exact"
+    },
+    {
+      "t": 1619.1,
+      "text": "Cloud Opus 45 is the best model we have access so far and it outperforms than any other models we have access to through",
+      "why_it_matters": "Establishes current model ranking on BC Bench, a key reference point for infrastructure investment decisions.",
+      "check": "exact"
+    },
+    {
+      "t": 1665.5,
+      "text": "the ranking we see for for PC bench is more or less the same, isn't it? Yes. Yes. And that's So that's that's comforting",
+      "why_it_matters": "Confirms that BC Bench model rankings align with SWE Bench Python results, validating the benchmark's relevance to broader AI evaluation.",
+      "check": "exact"
+    },
+    {
+      "t": 1665.5,
+      "text": "the the ranking we see for for PC bench is more or less the same, isn't it?",
+      "why_it_matters": "Confirms that BC-Bench model rankings correlate with established SWE Bench rankings for Python, validating the benchmarking methodology.",
+      "check": "exact"
+    },
+    {
+      "t": 1697.6,
+      "text": "there is more or less you know, equivalence between you know, handling writing code in Python and writing code in AL",
+      "why_it_matters": "Key finding that models are equally capable on AL code despite far fewer AL repositories in training data than Python.",
+      "check": "exact"
+    },
+    {
+      "t": 1799.3,
+      "text": "we aim to make BC Bench public. Um well, first of all a bench benchmark is not uh useful unless people can reproduce the",
+      "why_it_matters": "States the strategy to release BC-Bench publicly and the rationale that reproducibility is essential for benchmark validity.",
+      "check": "exact"
+    },
+    {
+      "t": 1831.6,
+      "text": "Um now with BC Bench they can verify if it helps in solving what bugs in AL.",
+      "why_it_matters": "Describes how partners can use public BC-Bench to validate their own MCP servers and tooling for AL coding improvements.",
+      "check": "exact"
+    },
+    {
+      "t": 1873.4,
+      "text": "where partners can simply plug in this own uh their own code base in in",
+      "why_it_matters": "Outlines roadmap to enable partners to benchmark agent performance against their own proprietary codebases.",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 411.4,
+      "kind": "coming-later",
+      "text": "So one day hopefully we'll make it public"
+    },
+    {
+      "t": 881.6,
+      "kind": "subject-to-change",
+      "text": "We did see an increase on the average accuracy or what we call resolution rate but not conclusively"
+    },
+    {
+      "t": 1214.4,
+      "kind": "coming-later",
+      "text": "hopefully we have much more work as a software engineer. We want to bring test generation"
+    },
+    {
+      "t": 1226.1,
+      "kind": "coming-later",
+      "text": "we also want to build a a category called code review"
+    },
+    {
+      "t": 1260.7,
+      "kind": "coming-later",
+      "text": "the next on the list is to run tests uh, through the MCP server"
+    },
+    {
+      "t": 1509.2,
+      "kind": "coming-later",
+      "text": "we also have code refactoring on the agenda and potentially feature addition"
+    },
+    {
+      "t": 1579.5,
+      "kind": "coming-later",
+      "text": "that's a bit uh, probably in the future. We haven't really thought about that yet"
+    },
+    {
+      "t": 1607.2,
+      "kind": "coming-later",
+      "text": "agents looking at pages is more in the future"
+    },
+    {
+      "t": 1799.3,
+      "kind": "coming-later",
+      "text": "we aim to make BC Bench public"
+    },
+    {
+      "t": 1873.4,
+      "kind": "coming-later",
+      "text": "create a partner data set for BC-Bench is part of the plan"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 21,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 15
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032552
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.041865
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.031087999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.041664
+    }
+  ]
+}

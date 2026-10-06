@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-compilation-scope-overview",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cc69c90a419a7523afe7ea840c05ab6af110f3c0",
       "words": 388,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T15:15:27.328Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007462
+    },
+    "summarized": {
+      "at": "2026-10-06T15:15:27.334Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T15:15:27.334Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T15:15:27.334Z",
+      "page": false
     }
   },
   "input_hash": "cc69c90a419a7523afe7ea840c05ab6af110f3c0",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cc69c90a419a7523afe7ea840c05ab6af110f3c0"
+  "output_hash": "a06f031b285f68e983a92c3c6aebc2024d4bd8df4afbcc5b6215b137188b35d8"
 }

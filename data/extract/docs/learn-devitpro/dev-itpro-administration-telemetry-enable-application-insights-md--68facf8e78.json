@@ -1,0 +1,45 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-enable-application-insights.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights",
+  "title": "Turn sending telemetry to application insights on or off",
+  "blob": "2e81baa1728b3b750d1b355bcf9a61e4dcb928be",
+  "summary": "Turn environment telemetry on or off by setting up Azure Application Insights to monitor Business Central online and on-premises deployments. Configure connection strings or instrumentation keys for the server, admin center, or individual tenants.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "telemetry",
+    "application insights",
+    "diagnostics",
+    "monitoring",
+    "configuration",
+    "azure"
+  ],
+  "objects": [],
+  "features": [
+    "Application Insights integration",
+    "telemetry configuration",
+    "connection strings",
+    "instrumentation keys",
+    "user telemetry IDs",
+    "on-premises setup",
+    "online setup"
+  ],
+  "versions": [
+    "version 15",
+    "version 16",
+    "version 17",
+    "2020 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007462,
+      "pages_in_call": 6
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "video_id": "hS8yWS3bxWE",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.5,
+      "end": 27.3,
+      "text": "welcome to watch new inry in the 2025 Rel release wave one of business Central in this release wave we added five new types of telemetry and then you think wait a minute the agenda says four that's because financial reporting got double up so we got uses and changes to that we've got"
+    },
+    {
+      "t": 27.3,
+      "end": 47.4,
+      "text": "troubleshooting client add-ins way to troubleshoot server side certificate validations in HP client and finally a way to discover if you're if you you you or your customers use a dep deprecated soap so let's get started with this um"
+    },
+    {
+      "t": 47.4,
+      "end": 68.3,
+      "text": "any of these already have Telemetry samples and of course documentation so the things I'm showing you here you can find all of that under aka.ms slbc telemetry examples and then you simply navigate to kql queries example queries and then you find all the kql"
+    },
+    {
+      "t": 68.3,
+      "end": 88.5,
+      "text": "um if you want to do this yourself so um the first type of telemetry is usage of fin financial reporting um there are two types of events both whether a user ran a report on screen and whether a user ran a report"
+    },
+    {
+      "t": 88.5,
+      "end": 109.3,
+      "text": "from the request page now why would you like to have or use what could you use this Telemetry for um it might be that you have auditing needs for your company so that you need to know who is actually running a financial report so so that uh that might be a use case here um"
+    },
+    {
+      "t": 109.3,
+      "end": 129.3,
+      "text": "the first financial report run on screen you can see the event here and um basically it gives you in which environments uh it happen and then uh the context like the report row and column definitions of that particular report and uh with everything in"
+    },
+    {
+      "t": 129.3,
+      "end": 149.6,
+      "text": "Telemetry we also know who ran the report if you have set up the user Telemetry ID related to this is uh whether the financial report was run from a request page and therefore a user achieved a report as a PDF and you might think why would you need a special"
+    },
+    {
+      "t": 149.6,
+      "end": 169.7,
+      "text": "event with a new ID like this one because you already have Telemetry for report rendering that's true but for financial reporting um it actually makes sense to also lock the report definitions used so this not not only um will give you that one"
+    },
+    {
+      "t": 169.7,
+      "end": 190.4,
+      "text": "financial report was run but which one it was the next class of signal is is about changes to definitions in financial reporting and there are three different types of Def definitions in place in financial reporting the first one is row definitions the second one is column definitions"
+    },
+    {
+      "t": 190.4,
+      "end": 210.5,
+      "text": "and these two together are combined in a report definition and for each of these types of definitions uh you get like the life cycle so whether this um definition was created modified deleted or copied there also even events"
+    },
+    {
+      "t": 210.5,
+      "end": 231.2,
+      "text": "for so copy could also be an import um or an export using a configuration package so I haven't showed that here but all of that is of course documented and in the sample so I'm just going to show you one example with a row definition all of these life cycle events follow the same"
+    },
+    {
+      "t": 231.2,
+      "end": 251.3,
+      "text": "uh style you can see again an event ID where it happened and then which definition was modified for Road definition you would get the row definition code for column definitions you would get the column def definition code and for report definitions you would get the report def definition code um so"
+    },
+    {
+      "t": 251.3,
+      "end": 272.2,
+      "text": "that's in that's it for for Telemetry for financial reporting now if I forgot to mention that of course the all the life cycle Telemetry for financial report changes could be useful if you have auditing requirements where you need to lock or maybe even get alerted on anyone changing a financial report definition"
+    },
+    {
+      "t": 272.2,
+      "end": 287.7,
+      "text": "if you then combine this with or with change lck on the actual definitions you you both have a way here to be alerted and you can go back to business Central and see what actually was changed from what to"
+    },
+    {
+      "t": 287.7,
+      "end": 307.8,
+      "text": "what all right next class of telemetry is troubleshooting client addins this is a blind spot or was a blind spot until now and uh but now you have Telemetry on this notice that this is locked to the exceptions table this is a new thing"
+    },
+    {
+      "t": 307.8,
+      "end": 328,
+      "text": "um so not traces not page views but exceptions um the the so client add-ins today can be hard to troubleshoot because as seen from the business Central platform or client a client addin is basically just an embedded iframe that's it and then"
+    },
+    {
+      "t": 328,
+      "end": 348.7,
+      "text": "whatever happens in that iframe until now um the client wouldn't really know about and you wouldn't know about any errors but now you do you can see um an exception happening again in which in where in in which environment it happened in which company also from which app in which object and which addin"
+    },
+    {
+      "t": 348.7,
+      "end": 369,
+      "text": "was uh was throwing the error and the actual errors are then in uh in more custom Dimensions here yeah first of all you can also see which client type something about the device but then a lot of information about the error that happened the assembly uh the outer message"
+    },
+    {
+      "t": 369,
+      "end": 389.3,
+      "text": "inner message from javascripts um and all of this is also packaged in a default sorry in a details Json structure uh where you even get things like stack traces um so so that hopefully that's a way for you to troubleshoot or even discover if there are problems with client addins"
+    },
+    {
+      "t": 389.3,
+      "end": 410.1,
+      "text": "in environment so uh server side certificate validation is a new thing the platform the AL runtime is performing whenever you call from HTP client in Al call to an endpoint uh where the endpoint has a CER a certificate"
+    },
+    {
+      "t": 410.1,
+      "end": 430.8,
+      "text": "we will actually validate that and if that cannot be validated will throw uh this error um and also to Telemetry with this new um event ID so again you can see um where it happened in which extension in which object and then some details about the certificate"
+    },
+    {
+      "t": 430.8,
+      "end": 451.2,
+      "text": "and also the endpoint that was called and whether it was a get or post um or whatever HTTP method was was called and a failure reason so hopefully this will allow you to uh to find these types of errors and then correct them before users call and say what's"
+    },
+    {
+      "t": 451.2,
+      "end": 471.7,
+      "text": "wrong the final um events that we added here in version 26 or in 2025 wave 1 is whether a customer or an environment is calling uh if someone is calling into the environment with with soap uh with soap protocol on UI pages"
+    },
+    {
+      "t": 471.7,
+      "end": 492,
+      "text": "that is exposed or UI Page by Microsoft this is because these soap web services on UI PES by Microsoft this has been deprecated and therefore this will be kind of stop working in a in a later release um so if you want to find out if your"
+    },
+    {
+      "t": 492,
+      "end": 502,
+      "text": "environment is vulnerable not vulnerable but will be affected by this when it it will actually be turned off you can go check uh the RT"
+    },
+    {
+      "t": 502,
+      "end": 522.5,
+      "text": "0053 uh event and if that's the case you need to work on whoever is calling um you actually don't know that here you only know which endpoint they call but you need to find out uh some integration is calling this with soap and that needs to stop that's it for"
+    },
+    {
+      "t": 522.5,
+      "end": 542.5,
+      "text": "what's new in Telemetry as always in anything related to Telemetry is documented here under aka.ms slbc Telemetry so um hopefully these new events will help you troubleshoot and uh examine your business Central environment even better than"
+    },
+    {
+      "t": 542.5,
+      "end": 547.7,
+      "text": "what was possible until now"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.47,
+      "text": "[Music]"
+    },
+    {
+      "t": 6.48,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1280
+}

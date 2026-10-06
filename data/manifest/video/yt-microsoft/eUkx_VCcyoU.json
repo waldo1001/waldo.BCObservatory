@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "What's New: AL Language (2025 release wave 1)",
   "url": "https://www.youtube.com/watch?v=eUkx_VCcyoU",
-  "published_at": null,
+  "published_at": "2025-04-01T15:00:55.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T15:17:41.630Z",
+      "captions": "auto:en-orig",
+      "duration_s": 886
+    },
+    "captioned": {
+      "at": "2026-10-06T15:17:50.164Z",
+      "path": "data/captions/microsoft/eUkx_VCcyoU.vtt",
+      "vtt_sha256": "a7b7e758dc8fa6aed5ecb111bb5bc7d11932d2088de546d0271dd371e845e98b",
+      "segments": 50,
+      "words": 2284,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -20,6 +34,13 @@
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 242,
     "duration_s": 886,
-    "via": "reconcile"
-  }
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a7b7e758dc8fa6aed5ecb111bb5bc7d11932d2088de546d0271dd371e845e98b"
 }

@@ -20,5 +20,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.040685
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-06T15:20:24.998Z",
+    "verdict": "approve",
+    "issues": [
+      "Mileage key point says currency conversion is applied. The upload page summary pairs it with mileage, but its feature list shows it as a general upload feature ('Automatic currency conversion'), so it may apply to receipts as well. A more neutral wording would be safer.",
+      "The last key point ('VAT reclaim identification is part of receipt processing') is supported but thin. It would read better merged into the receipt upload key point."
+    ],
+    "input_hash": "98da18666a198b89941a829941b144a2cf7f107bebc4f02785f9d26ebfed1ee6",
+    "cost_usd": 0.09478320000000001
   }
 }

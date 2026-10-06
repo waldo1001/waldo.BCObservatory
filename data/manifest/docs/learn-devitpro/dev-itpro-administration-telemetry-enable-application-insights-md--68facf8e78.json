@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights",
   "published_at": "2026-08-07T11:25:18.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2e81baa1728b3b750d1b355bcf9a61e4dcb928be",
       "words": 1285,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T15:15:27.302Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.007462
+    },
+    "summarized": {
+      "at": "2026-10-06T15:15:27.329Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T15:15:27.329Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T15:15:27.329Z",
+      "page": false
     }
   },
   "input_hash": "2e81baa1728b3b750d1b355bcf9a61e4dcb928be",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2e81baa1728b3b750d1b355bcf9a61e4dcb928be"
+  "output_hash": "30611de443c6bb6ed816cdef700129cd7cd6b7ccc49837c28cc6657de66330c2"
 }

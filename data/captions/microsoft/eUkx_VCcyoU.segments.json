@@ -1,0 +1,263 @@
+{
+  "video_id": "eUkx_VCcyoU",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.6,
+      "end": 26,
+      "text": "welcome to this session on what's new in Al for this release my name is stepen Belo and I'm going to take you through some of the changes to the language that's been made in business Central 2025 release Wave 1 let's start with something you might remember from the previous releases the move of fields and tables in your"
+    },
+    {
+      "t": 26,
+      "end": 46.1,
+      "text": "applications in this release we have opened up for the use of the move to and move from properties on tables and Fields with this you can move your fields and your tables between applications I recommend that you watch the session on what's new in appsource apps and isvs let's move on to something else that you might already know"
+    },
+    {
+      "t": 46.1,
+      "end": 66.6,
+      "text": "the resources resources in apps has been opened up for everyone to use now we did a few additions let's talk about it well let's start with the first things first you need to specify a resource root folder in order to start using resources so here in my app Json I have specified a resources route"
+    },
+    {
+      "t": 66.6,
+      "end": 77,
+      "text": "called my resources in my resources I've put some files some configuration files some text files and a picture that I can use in my"
+    },
+    {
+      "t": 77,
+      "end": 97,
+      "text": "application if I want to use the resource in my application I need to reference it by its full name in this case I would use the full name from the resource root folder config and then the actual config pick file and here the facts and then the actual file for this release we added a function that allows you to"
+    },
+    {
+      "t": 97,
+      "end": 107.5,
+      "text": "list resources like I'm doing here where I'm listing the resources in the SpaceX folder and only the resources that are of type"
+    },
+    {
+      "t": 107.5,
+      "end": 118.1,
+      "text": "txt the filtering here is a simple pattern matching but still very powerful to allow you to find a lot of resources in for example a"
+    },
+    {
+      "t": 118.1,
+      "end": 138.5,
+      "text": "folder for this release we also made it easier for you to get the content out of the resources in this case here I'm using the get Resource as text to get the text of the resource this way I do not need to handle the stream itself the default encoding for text in a resource is MS DOS"
+    },
+    {
+      "t": 138.5,
+      "end": 158.9,
+      "text": "so you need to make sure that you specify the encoding to get the right output we also made it easy for you to get a Json object from a resource with the get resource as Json function I can get the resource as a Json object again here I want to make sure that I understand the encoding"
+    },
+    {
+      "t": 158.9,
+      "end": 179,
+      "text": "and specify the one that I need for my resource of course you can still use the get resource and get the stream out of it again if you want to get text from the resource uh from that resource stream you should specify the encoding of that text in this release we also Revisited the"
+    },
+    {
+      "t": 179,
+      "end": 192.6,
+      "text": "limitations of the resources so let's take a look at that the new limits for a single resource is 16 mbes the maximum size of all the resources in the entire app is 250"
+    },
+    {
+      "t": 192.6,
+      "end": 204.3,
+      "text": "megabytes the maximum size of the resource name that is the name of the resource from the resource route until the end of the file name is 250"
+    },
+    {
+      "t": 204.3,
+      "end": 224.4,
+      "text": "characters and the maximum number of resources per an app is 250 six resources it's quite a lot of resources the compiler will hint you on some of the prohibited file extensions but in the end the server you're deploying the application to is the one determining what is allowed"
+    },
+    {
+      "t": 224.4,
+      "end": 244.7,
+      "text": "to be used on that server and of course when you upload an application to the cloud it will be scanned for malware okay let's get move on to something new for Pages or page extensions in this case we have added the ability to override the card page ID this can be especially helpful"
+    },
+    {
+      "t": 244.7,
+      "end": 264.8,
+      "text": "for the scenarios where there is no card page ID to begin with OR that you have a scenario where the card page ID needs to be updated in this release we also added a new page type it's called the user control host the user control host page type allows you to create a page that has a full"
+    },
+    {
+      "t": 264.8,
+      "end": 285,
+      "text": "user control inside the page and nothing else this this also means that you need to specify only one user control and you cannot have actions on that user control such a fulls screen user control could be used for powerbi reports could be used for a browser"
+    },
+    {
+      "t": 285,
+      "end": 301.2,
+      "text": "like I do here we show some health content or any other scenario where you want to have a full screen user control there are a few limitations that we are still working on but go ahead and try it out to see if it fits your needs and give us some feedback"
+    },
+    {
+      "t": 301.2,
+      "end": 321.3,
+      "text": "moving on to reports for reports we added tool tips the tool tips will give you insight into what this report is about and if you add an action on a page that points to a report using the Run object property then this tool tip will be inherited you can of course still override it in"
+    },
+    {
+      "t": 321.3,
+      "end": 341.5,
+      "text": "the page action but by default the tool tip will be inherited and you don't need to copy it to the page another property that was added here is the Excel layout multiple data sheets this new property will allow you to split your data set or split the data items in your data set into multiple sheets"
+    },
+    {
+      "t": 341.5,
+      "end": 361.5,
+      "text": "in Excel so instead of having one data table in a sheet that has all the values from all your data items you can now have each data item in a separate sheet this could be related data it could be Dimensions it could be a lot of things that will make it much easier to to search and find in Excel"
+    },
+    {
+      "t": 361.5,
+      "end": 381.6,
+      "text": "if they're split up in separate data tables I recommend watching the what's new in reporting for developers session in order for you to get a deep detail of this functionality the property itself can be overwritten in the report layouts so you can use the same data set both in multiple sheets and in"
+    },
+    {
+      "t": 381.6,
+      "end": 401.9,
+      "text": "one sheet depending on your needs for reports we also enable you to OB solete layouts here you can see we've obsoleted a layout that does not use the Excel layout multiple data sheets property so the new report we created will use separate sheets"
+    },
+    {
+      "t": 401.9,
+      "end": 416.4,
+      "text": "for each data item for the reports we also added a few new triggers the on pre-rendering and the on post report allowing you for even more control of the report"
+    },
+    {
+      "t": 416.4,
+      "end": 436.7,
+      "text": "generation and in the report you can now access the target format so what are we generating here in order for you to actually change the code based on the target format talking about reports maybe you want to preview a report in this release we added the ability"
+    },
+    {
+      "t": 436.7,
+      "end": 447.6,
+      "text": "to view from stream the view from stream will show a preview of the document in the client without the user having to download it and then open it"
+    },
+    {
+      "t": 447.6,
+      "end": 467.6,
+      "text": "afterwards if you're on premised you could also preview a specific path if needed if you want to send a URL to some other user you can now also include the layout in that URL the current supported layouts that we can generate with the"
+    },
+    {
+      "t": 467.6,
+      "end": 488.2,
+      "text": "get URL function is list tall tiles tiles and Analysis let's move on to something completely different you can now use negative numbers in in the increment string function sometimes you just need to go a little bit back and talking about going back sometimes you need to troubleshoot"
+    },
+    {
+      "t": 488.2,
+      "end": 499,
+      "text": "who called you and how did you get to where you are so we added the call stack function that allows you to get the current callstack without throwing an exception"
+    },
+    {
+      "t": 499,
+      "end": 519.1,
+      "text": "first we also improved readability by introducing the keyword continue this is actually a BC ideas that has now been implemented and can help you make the loops more readable by allowing you to skip the current iteration of the loop and go to the next one anywhere"
+    },
+    {
+      "t": 519.1,
+      "end": 529.4,
+      "text": "within the loop this can make the code more readable and make the easier to understand when and when you're not moving on in the"
+    },
+    {
+      "t": 529.4,
+      "end": 539.6,
+      "text": "loop we've worked a lot with strings in this release and Jason so here we've added the ability to create a multi-line string"
+    },
+    {
+      "t": 539.6,
+      "end": 559.9,
+      "text": "the only thing you need to do is put an at and then the start of the string and then everything that is inside that string until the end of the single quote will be the entirety of the string that includes all new lines and it makes things like this snippet much easier to"
+    },
+    {
+      "t": 559.9,
+      "end": 581,
+      "text": "read we've also added the ability to call two text on simple types the two text method without any parameters will give you the same value as the format if you specify the invariant then it will give you the same value as format"
+    },
+    {
+      "t": 581,
+      "end": 601.1,
+      "text": "09 for more advanced functionality on formatting and getting to that format that you need you still need to use the format function for the Json object we made it easier for you to get to the data in there everything in the Json object is text but sometimes it's nice to get the right"
+    },
+    {
+      "t": 601.1,
+      "end": 621.2,
+      "text": "data type out of that text right at the beginning so here you can see I've use the get text method to get the destination this is much simpler than having to go through a Json token and adjacent value in order to get that text however it does have some"
+    },
+    {
+      "t": 621.2,
+      "end": 641.4,
+      "text": "limitations I don't know if the property is there or not and that would cause an exception if it's not there to support that we've added an ability for you to return the default value of that type that you want in order for you to test if the property is there if you want"
+    },
+    {
+      "t": 641.4,
+      "end": 654.8,
+      "text": "more functionality on testing what's inside the Json document you still need to use the Json token and Json value let's try and experiment just a little bit to see what else is in"
+    },
+    {
+      "t": 654.8,
+      "end": 669.1,
+      "text": "there so here you can see we made it quite easy to get an array get an integer Boolean bite cha and so forth this makes working with Json objects much"
+    },
+    {
+      "t": 669.1,
+      "end": 684.4,
+      "text": "easier okay we also added the ability to write and read yaml in the Json object while yamon and Json is not the same it looks very similar it's just more"
+    },
+    {
+      "t": 684.4,
+      "end": 704.8,
+      "text": "readable and sometimes this is used for configuration files and other scenarios where user may need to go and edit the read from and write to yaml functionality has been backported to runtime version 143 so if you haven't started already then even the"
+    },
+    {
+      "t": 704.8,
+      "end": 725.1,
+      "text": "bc25 versions now support the read and write from yl let's look at a couple of properties that we actually scrolled through just a second ago if we go to the report and we look at our request page we can see a few properties here called"
+    },
+    {
+      "t": 725.1,
+      "end": 740.4,
+      "text": "about title and about text these were introduced some time ago to help uh users understand what this object is about and give some teaching tips to give the user the best possible start of using the"
+    },
+    {
+      "t": 740.4,
+      "end": 760.4,
+      "text": "page when we look at our Ro Explorer the only thing we have available in the role Explorer experience is the caption and the tool tip in this release we made it uh easy to inherit the about title and about text so now you can see the about title and about text in the role Explorer from"
+    },
+    {
+      "t": 760.4,
+      "end": 781.2,
+      "text": "the report without having to specify it on the action itself if we go back to our presentation here we can actually see an example of such so here I have my uh role Center and I've added some actions there as we saw I see the I icon"
+    },
+    {
+      "t": 781.2,
+      "end": 801.4,
+      "text": "and if I click that I will now see the about text and about title giving me great insights into how to use this report page and functionality there are many other examples in the product on how to use this and you can use of course the standard formatting"
+    },
+    {
+      "t": 801.4,
+      "end": 811.9,
+      "text": "for teaching tips finally let's look at tests in this release we added the ability for you to catch an outbound"
+    },
+    {
+      "t": 811.9,
+      "end": 824.6,
+      "text": "request we added the Handler HTTP client Handler for you to specify on your test functions and that will allow you to intercept the call to an outbound"
+    },
+    {
+      "t": 824.6,
+      "end": 844.6,
+      "text": "service you can use this to avoid having to call an external service and I recommend watching the mocking session on how to use this in more details finally we added the ability to specify that you do not want want to use the server certificate validation we do not recommend you using this in production"
+    },
+    {
+      "t": 844.6,
+      "end": 864.6,
+      "text": "but for test purposes with connecting to local Services self- signed certificates and so on this can be very useful it's super simple you take your HTP client and you set the use server certification validation to false and you're off that's it for me in this session there are many other changes to"
+    },
+    {
+      "t": 864.6,
+      "end": 886,
+      "text": "the a language extension you can always go to the change lock on the AL language extension page in your vs code to see all the details that have been added to this release and I encourage everyone to go try out the pre-release for any upcoming versions and all the changes that we will do there thank you very much"
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 2284
+}

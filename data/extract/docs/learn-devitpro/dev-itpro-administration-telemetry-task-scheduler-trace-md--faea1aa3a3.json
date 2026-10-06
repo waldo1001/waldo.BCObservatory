@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/telemetry-task-scheduler-trace.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-task-scheduler-trace",
+  "title": "Analyzing Task Scheduler Telemetry",
+  "blob": "70db5ee3ac5763b2d2bb19e21bc24500998df88a",
+  "summary": "Analyze task scheduler telemetry traces in Application Insights to monitor scheduled task execution, failures, retries, and performance. Monitor task lifecycle events including creation, readiness, completion, cancellation, and failure outcomes.",
+  "systems": [
+    "platform",
+    "reporting"
+  ],
+  "topics": [
+    "telemetry",
+    "task scheduler",
+    "diagnostics",
+    "monitoring",
+    "kql",
+    "performance"
+  ],
+  "objects": [],
+  "features": [
+    "task creation traces",
+    "task completion traces",
+    "task failure analysis",
+    "task cancellation handling",
+    "timeout management",
+    "retry tracking",
+    "KQL query samples"
+  ],
+  "versions": [
+    "version 22.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.007462,
+      "pages_in_call": 6
+    }
+  ]
+}

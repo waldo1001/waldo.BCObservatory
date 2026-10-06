@@ -7,12 +7,12 @@ tier: official
 language: en
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-06T15:20:35.934Z"
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-06T15:20:40.673Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,7 +100,7 @@ narrative: generated
 
 > Model Context Protocol (MCP) integration for Business Central: the Business Central MCP Server (overview, configuration, API tools, dynamic tool mode, data query tools), connecting it from VS Code, Copilot Studio and non-Microsoft hosts, and the AL MCP Server for AL development tools. Answers setup, connection and access-control questions.
 
-Path: [Integration with AI](../integration-with-ai.md) > Integrate with Model Context Protocol · tier official · system copilot · **unreviewed** (machine-generated narrative)
+Path: [Integration with AI](../integration-with-ai.md) > Integrate with Model Context Protocol · tier official · system copilot · narrative reviewed by Opus
 
 ## Overview
 

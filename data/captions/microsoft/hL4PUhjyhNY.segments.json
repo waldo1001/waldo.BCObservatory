@@ -1,0 +1,163 @@
+{
+  "video_id": "hL4PUhjyhNY",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 5.4,
+      "end": 18.8,
+      "text": "Welcome to Business Center launch event 2025 release wave 1. In this session, I will show you all localization related to electronic documents we deliver in this wave."
+    },
+    {
+      "t": 18.8,
+      "end": 38.9,
+      "text": "Before I start, I just want to remind you how we are working with localization at all. So what we have we have B app and on this B app we added new app electronic documents core and with this e document core we are planning we planned actually to cover 80 90 even more"
+    },
+    {
+      "t": 38.9,
+      "end": 59,
+      "text": "more% of all these features on the top of that we added different connectors because connectors can be different you can use one of them or you cannot maybe you do not want to use connectors at all so this is on you what you want to use do you want to use only core without connectors or you want to choose one of these connectors and then on the top of that we added"
+    },
+    {
+      "t": 59,
+      "end": 79.1,
+      "text": "PEL B3 format as a global format and this format is available in all countries so in all our localizations this is what we have by default everywhere but then we have different localization apps on top of that I will focus on three new we deliver this wave and this is first"
+    },
+    {
+      "t": 79.1,
+      "end": 99.5,
+      "text": "Fura in Spain in Germany and PayPal, Pint and Zed in Australia and New Zealand. What you can do more if we do not have Microsoft localization in some of your countries, you can build your own localization on top of this functionality the same way as Microsoft is doing because we do not do anything different"
+    },
+    {
+      "t": 99.5,
+      "end": 112.5,
+      "text": "from what we expect from other partners to deliver from their site. Okay, let's look what we delivered. So, I already show you now what you can find. You can find all these three apps on app source."
+    },
+    {
+      "t": 112.5,
+      "end": 128,
+      "text": "They are already there but by default they are pre-installed in your localization. So when you open for example Australia localization you will find already installed e document format for pint and zed the same in Germany for exec and factoria in Spain."
+    },
+    {
+      "t": 128,
+      "end": 139.5,
+      "text": "So they're there by default but if you accidentally remove or whatever you can find all of them on app source and you can install again. Okay, let's look deeper what is there."
+    },
+    {
+      "t": 139.5,
+      "end": 151.1,
+      "text": "First, electronic documents in Germany, we have supported two types of files, PayPal B3 and Excnong UBL. This is currently supported in Germany."
+    },
+    {
+      "t": 151.1,
+      "end": 163.9,
+      "text": "And what do you need to do when you open your electronic document service assuming that you already have this uh app installed, you will find in document format, you will have extra long or PayPal format."
+    },
+    {
+      "t": 163.9,
+      "end": 177,
+      "text": "So you just need to choose one of them and that's it. Related to format that's it. But related to localization there are some additional things there. We have by reference mandatory field in Germany."
+    },
+    {
+      "t": 177,
+      "end": 188.4,
+      "text": "This is in general required to have by reference mandatory. So we just wanted to support you to make this easier to keep this field mandatory because in some localization this is not required to have by default."
+    },
+    {
+      "t": 188.4,
+      "end": 206.2,
+      "text": "So you just need to turn on and you cannot post documents without bio reference panatory. But one step more because in general you need to fill in by reference on documents but as there is situation that in Germany especially you have uh specific references for customers."
+    },
+    {
+      "t": 206.2,
+      "end": 216.6,
+      "text": "We added new functionality. So now you can choose by reference as a first option your reference that means one from a document header or customer reference."
+    },
+    {
+      "t": 216.6,
+      "end": 231.5,
+      "text": "This is a reference configure on a customer card. So there is new field in German localization on customer card for reference. If you have reference there you just need to say okay from where I want to collect uh references when I create new document and that's it."
+    },
+    {
+      "t": 231.5,
+      "end": 241.7,
+      "text": "All other things are business as usual. So there is no differences. You can send you can receive documents without any problem. Now let's switch to Spanish functionality."
+    },
+    {
+      "t": 241.7,
+      "end": 257.2,
+      "text": "In Spain we have fat a uh supported format and again very similar. Yes, even I didn't mention Ple is there by default. So PEL is uh available in all localizations because this is by the default format in busy central."
+    },
+    {
+      "t": 257.2,
+      "end": 277.2,
+      "text": "But you can find fura a322 uh version. So this is there format is ready and there is not any additional spec uh specific uh configuration you need to make a service only one specific uh thing when you are working with Spanish voicing is related with uh credit memos when"
+    },
+    {
+      "t": 277.2,
+      "end": 290.9,
+      "text": "you are working sales credit memo you need to fill in facura e reason code you will find in credit memo details uh fast tab this field so you must choose this one you will find all these options."
+    },
+    {
+      "t": 290.9,
+      "end": 302.6,
+      "text": "So you must choose one of these option because they are required by the law in your sales create memos. So this is only one specific additional specific related uh to Spanish electronic voices."
+    },
+    {
+      "t": 302.6,
+      "end": 322.7,
+      "text": "or other things how we are preparing files and so on you can find on our official documentation and the last one it documents in Australia New Zealand as I said purple pint and zed because purple pint is a new format uh in Australia it will be mandatory from May you could uh use earlier but this is now"
+    },
+    {
+      "t": 322.7,
+      "end": 336.4,
+      "text": "new format and we wanted to be proactive to deliver the newest format glo uh in all countries where this is required and this type this is much easier to set up because there is no specific situation in Australia, New Zealand."
+    },
+    {
+      "t": 336.4,
+      "end": 347,
+      "text": "You just need to choose which format you want to use. Actually, you must use but uh in some situation maybe you want to deliver a payle b in some other to some other customers."
+    },
+    {
+      "t": 347,
+      "end": 357.8,
+      "text": "But in general, you need to set up uh to your service AZ and you can choose any of uh service integrations available in this moment. We have another session about new connectors."
+    },
+    {
+      "t": 357.8,
+      "end": 371.9,
+      "text": "So in this moment there are four new four connectors at all. You can choose one of them and you can use them without any problem. So now from this wave e documents are officially available in B central in Australia in New Zealand."
+    },
+    {
+      "t": 371.9,
+      "end": 385.8,
+      "text": "This is what we have about localizations. I just wanted to show one uh additional thing about localization. This is not directly related with localization because this is technical improvements but it will have repercussion on localizations."
+    },
+    {
+      "t": 385.8,
+      "end": 397.2,
+      "text": "So what is coming uh with this wave we deliver availability to handle the PDFA formats. So some of electronic document formats are in PDFA uh format."
+    },
+    {
+      "t": 397.2,
+      "end": 407.5,
+      "text": "So we couldn't handle it earlier but now with this wave we deliver plus support and we will continue to work in enabling PDFA formats in some other countries."
+    },
+    {
+      "t": 407.5,
+      "end": 423,
+      "text": "So that's it about localization. I'm inviting you to watch another sessions related to electronic documents because there are a lot of new features uh in this wave. Please watch some of them because we have six different sessions in this PC bus launch event."
+    },
+    {
+      "t": 423,
+      "end": 428,
+      "text": "And yes, on the end, thank you for watching this video."
+    }
+  ],
+  "markers": [
+    {
+      "t": 0,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 1195
+}

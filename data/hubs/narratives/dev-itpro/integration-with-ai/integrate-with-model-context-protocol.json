@@ -19,5 +19,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.042665
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-06T15:20:35.934Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point 2 says the Read/Create/Modify/Delete/Action permissions apply 'per API'. The source lists these permissions but does not say how fine-grained they are. Treat 'per API' as a small inference.",
+      "The overview says the configuration page lets you choose 'which data query tools are enabled'. The source only says the page configures data query tools. This is close enough but slightly more specific than the source.",
+      "The non-Microsoft hosts key point leaves out that this page also covers dynamic tool mode, headerless connections and tool discovery. This is an omission, not an error."
+    ],
+    "input_hash": "ea521f915c95ed559cdcf0d32ad5f7ce862b9ebcce6887c54771f37701b49c7f",
+    "cost_usd": 0.09145919999999999
   }
 }

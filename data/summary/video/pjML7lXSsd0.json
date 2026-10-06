@@ -1,0 +1,27 @@
+{
+  "video_id": "pjML7lXSsd0",
+  "item_id": "video/yt-microsoft/pjML7lXSsd0",
+  "summary": "Expense Management in Business Central (2026 release wave 1): expense reports, per diem, mileage, rules, payment methods, posting groups and refundable vs reimbursable logic, with and without the expense agent. Shows setup and a demo of creating expenses, building a report and posting. Feature status is not stated.",
+  "overview": "The session introduces Expense Management, described as a long-standing functional gap in Business Central. It was built as an AI-driven feature, and the recommendation is to use it with the expense agent, which adds auto-categorization, automated collection of expense information and checks against company policies written in natural language. The agent is not enabled in all regions currently, and the agent was not used in the demo.\n\nThe demo covers the non-agent path: setup of expense users, categories, subcategories, posting groups, locations, rules and per diem, then creating expenses and expense reports. It covers project linking, customer billing, mileage, multi-currency, itemization, participants, rule violations that block posting, and the ledger entries created on posting. The session also compares the workflow with and without the agent.",
+  "key_points": [
+    "Without the agent you must start with an expense report and add lines directly. With the agent you start with expenses and they convert to reports. Attachments and OCR extraction need the agent.",
+    "Per diem is configured by location (country, city, province) with calculation modes: none, full calendar day, overnight stay, or 24-hour rolling period. A minimum-hours threshold, partial per diem (flat percentage or eligible hours) and reductions per meal type are available.",
+    "Payment method decides reimbursement: only expenses the employee paid with their own money are reimbursable. Company card or company bank account expenses are expensed but not reimbursed.",
+    "There are two posting group types: expense posting groups for detail lines and employee posting groups for the report header. All system users must be set up as expense users linked to employees.",
+    "Refundable expenses post to the general ledger. Non-refundable ones are tracked but not posted. The default is set on category or subcategory and can be overridden per line with permissions.",
+    "Posting is blocked by rule violations and by itemization lines that do not total exactly the expense amount. Attachment enforcement can be optional, warning or error.",
+    "Expenses cannot be used when Business Central is used outside the agent. Modifying them in Business Central requires a Team Member license. Credit card provider integration is not in public preview yet."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "d4467d35c556463a2ed91df1b4d3970a28621daa0feb0a656b360457b75c1f2c",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.06112239999999999
+  }
+}

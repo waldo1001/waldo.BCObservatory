@@ -1,0 +1,28 @@
+{
+  "video_id": "egE6UdOfar0",
+  "item_id": "video/yt-microsoft/egE6UdOfar0",
+  "summary": "Expense Agent in Business Central (2026 release wave 1): AI agent that extracts, categorizes and itemizes receipts, checks compliance rules, and logs expenses into Business Central via APIs. Covers the public preview scope, the rules vs. policies split, and licensing (Copilot credits for non-BC users, Team Member and Essential or Premium for BC users).",
+  "overview": "The video introduces the Expense Agent, built to fill a long-standing expense management gap in Business Central. Receipts arrive by email (including a shared mailbox), through a dedicated web app, or through Microsoft 365 Copilot Chat. The agent extracts merchant, amount and date, assigns categories, itemizes some receipt types such as hotels, groups expenses into reports, and writes the data to the Business Central expense module through APIs. The demo covers the Outlook and web app flow, the Expense Reports list page in Business Central, and the agent setup.\n\nThe presenter separates compliance rules from policies. Rules are simple checks on amounts and limits and must be 100% accurate. Policy-based approval for complex conditions is still being implemented and is expected near the end, before GA. The video also explains licensing: people who only use the agent do not need a Business Central license, while Business Central users do. The presenter says more automation is planned.",
+  "key_points": [
+    "Receipts can be submitted by email, a shared mailbox, a web app built for non-Business Central users, or Microsoft 365 Copilot Chat.",
+    "The agent extracts merchant, amount and date, assigns categories, and itemizes some receipt types such as hotels.",
+    "Compliance rules cover amounts, daily limits and required justifications. They are simple and must be 100% accurate.",
+    "Policy-based approval (business class, hotel star rating, alcohol) is still being implemented and is expected near the end, before GA.",
+    "Expense report creation is currently limited, with more automation planned.",
+    "Setup in Business Central covers email configuration, categories, posting groups and user access. Reports appear on the Expense Reports page.",
+    "Licensing: non-Business Central users are charged by Copilot credits, only when using the agent. Business Central users who approve need a Team Member license, even when approving in the web app. Posting expense reports and payments needs Essential or Premium."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker",
+    "partner"
+  ],
+  "extraction_hash": "c26b43e62d19f7dcb98228c3c1fd3f83b4097673e93e48c75c993259a1eb6bec",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0478344
+  }
+}

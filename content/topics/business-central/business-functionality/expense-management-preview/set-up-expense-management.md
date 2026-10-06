@@ -2,16 +2,16 @@
 id: topic/business-central/business-functionality/expense-management-preview/set-up-expense-management
 type: topic
 title: Set up expense management
-summary: "Setup of expense management (preview) in Business Central: Expense Agent, general settings, categories, rules and policies, expense users and teams, mileage rates, and per diem and mileage allowances. It answers questions on what to configure before employees submit and process expenses."
+summary: Expense management (preview) setup in Business Central covers the general settings, the Expense Agent, categories, rules and policies, expense users and teams, mileage rates, and per diem and mileage allowances. Use it to answer questions about what to configure before employees submit and process expenses.
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-06T15:20:30.221Z"
   flags: []
 generated:
-  at: "2026-10-06T13:43:32.763Z"
+  at: "2026-10-06T15:20:40.673Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -115,28 +115,28 @@ narrative: generated
 
 # Set up expense management
 
-> Setup of expense management (preview) in Business Central: Expense Agent, general settings, categories, rules and policies, expense users and teams, mileage rates, and per diem and mileage allowances. It answers questions on what to configure before employees submit and process expenses.
+> Expense management (preview) setup in Business Central covers the general settings, the Expense Agent, categories, rules and policies, expense users and teams, mileage rates, and per diem and mileage allowances. Use it to answer questions about what to configure before employees submit and process expenses.
 
-Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Set up expense management · tier official · system none · **unreviewed** (machine-generated narrative)
+Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Set up expense management · tier official · system none · narrative reviewed by Opus
 
 ## Overview
 
-This section covers the configuration an administrator completes before employees can submit expenses. It starts with the general expense management setup and the Expense Agent setup, which handle submission channels, approval workflows, accounting defaults, policy evaluation and communication settings. Both are reached through assisted setup.
+This section covers the configuration an administrator completes before employees can submit expenses. It starts with the general expense management setup and the Expense Agent setup. Together they handle submission channels, approval workflows, accounting defaults, policy evaluation and communication settings. Both are available through assisted setup.
 
-The remaining pages cover the master data the setup depends on. Expense categories, subcategories, groups, locations, rules and policies classify and validate expenses. Expense users link employees to the system with posting groups and optional teams and approvers. Mileage rates and per diem and mileage allowances define how travel reimbursements are calculated.
+The remaining pages cover the master data the setup depends on. Expense categories, subcategories, groups, locations, rules and policies classify and validate expenses, with AI-assisted policy evaluation. Expense users link employees to the system with posting groups, and teams and approvers can be added if needed. Mileage rates and per diem and mileage allowances define how travel reimbursements are calculated.
 
-A sensible order: run the general setup page first, then the Expense Agent setup, then create categories, rules and policies, then expense users and teams. Finish with mileage rates and per diem allowances if employees claim travel costs.
+Mileage rates and per diem allowances are only needed if employees claim travel costs. Per diem rates depend on the expense locations defined with the categories.
 
 ## Key points
 
 - General expense management setup covers approval workflow, posting groups, payment methods, VAT reclaim, number series and notification preferences, and is available through assisted setup.
-- Expense Agent setup configures the email and web app submission channels, approval workflows, accounting defaults, receipt handling and AI-assisted policy evaluation.
+- Expense Agent setup configures the email and web app submission channels, approval workflows, accounting defaults, receipt handling and policy compliance and evaluation.
 - Expense categories carry posting groups; subcategories allow itemization, groups support reporting, and locations hold per diem rates.
-- Expense rules and policies can include merchant requirements and restrictions, and conditions and amounts.
+- Expense rules can set conditions and amounts, and policies can include merchant requirements and restrictions, with AI-assisted policy evaluation.
 - Expense users are created by linking employees and assigning posting groups; teams, team managers and approvers are optional, and users can be imported from Microsoft Entra ID.
 - Mileage rates are defined by vehicle type, currency and effective dates, with fallback to a standard rate and automatic rate selection by date and vehicle.
 - Mileage calculation can double the distance for round trips.
-- Per diem calculation methods include full calendar day, 24-hour rolling period and overnight stay, with partial day rules and meal reduction percentages.
+- Per diem uses location-based rates and calculation methods such as full calendar day, 24-hour rolling period and overnight stay, with partial day rules, meal reduction percentages and vehicle-specific mileage rates.
 
 ## Learn pages
 
