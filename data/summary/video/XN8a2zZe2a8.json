@@ -1,0 +1,27 @@
+{
+  "video_id": "XN8a2zZe2a8",
+  "item_id": "video/yt-microsoft/XN8a2zZe2a8",
+  "summary": "Background posting in Business Central: posting journals and documents through the job queue so users keep working. The video demos enabling post with job queue and post and print with job queue on the purchase and payables setup, then posting a purchase order and finding it in the report inbox.",
+  "overview": "The video shows how Business Central can post journals and documents in the background so users do not wait while posting runs. This is most useful for journals and documents with many lines. Setup options are available on the general ledger setup, sales and receivables setup, and purchases and payables setup pages.\n\nThe demo opens purchases and payables setup, enables post with job queue and post and print with job queue, and then posts a purchase order. The system reports that the order is scheduled for posting in the background. The posted and printed document then shows up in the report inbox on the role center, where it can be opened in OneDrive if cloud files are enabled.",
+  "key_points": [
+    "Background posting lets the system post journals and documents while the user continues other tasks.",
+    "It is most useful for journals and documents with a large number of lines.",
+    "Setup options appear on the general ledger setup, sales and receivables setup, and purchases and payables setup pages.",
+    "In the demo, post with job queue and post and print with job queue are both enabled on purchases and payables setup.",
+    "After posting a purchase order, a message says it has been scheduled for posting in the background.",
+    "Posted and printed documents appear in the report inbox on the role center.",
+    "Opening a document in OneDrive from the report inbox ellipsis menu requires cloud files to be enabled for Business Central."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "end user"
+  ],
+  "extraction_hash": "1f9d5e7c9ef5ffca5eac017e270d30bc7d1c6414bbc4909cea9783ca4bbee090",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0115564
+  }
+}

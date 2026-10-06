@@ -1,0 +1,24 @@
+{
+  "video_id": "O0UTg-e3t5k",
+  "item_id": "video/yt-microsoft/O0UTg-e3t5k",
+  "summary": "Keyboard shortcut for jumping to a master entity in Business Central: holding Control-Alt and pressing the Down arrow on a referenced field, such as an item on a sales order line, opens the related card. The demo uses a sales order and the item card.",
+  "overview": "This short video shows how to jump from a referenced field to its master entity with a keyboard shortcut. In the demo, a sales order is open and an item is selected on a line. Holding Control and Alt and pressing the Down arrow opens the item card for that product.\n\nThe video says the shortcut works for any referenced field, so the same approach applies to customers, items and other master entities.",
+  "key_points": [
+    "Hold Control and Alt, then press the Down arrow, to jump from a referenced field to its master entity.",
+    "In the demo, the shortcut on an item selected on a sales order line opens the item card for that product.",
+    "The video says it works for any referenced field, for example a customer or an item.",
+    "The shortcut avoids navigating to the master record by other means while working with data.",
+    "The feature was demonstrated in the video; its release status is not stated."
+  ],
+  "audience": [
+    "end user",
+    "functional consultant"
+  ],
+  "extraction_hash": "2b81f9d5c61f4203188e907e81f09c3aedbe4053ce3622e1daf468d4fe0aca77",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.008358399999999998
+  }
+}

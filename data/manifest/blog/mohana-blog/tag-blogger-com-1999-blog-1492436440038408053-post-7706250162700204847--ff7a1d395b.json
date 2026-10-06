@@ -7,13 +7,39 @@
   "url": "http://mohana-dynamicsnav.blogspot.com/2026/09/nav-to-business-central-what-actually.html",
   "published_at": "2026-09-16T09:58:16.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:28:26.331Z",
+      "path": "vault:posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7706250162700204847--ff7a1d395b.md",
+      "words": 1683
+    },
+    "extracted": {
+      "at": "2026-10-06T21:28:37.048Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.012567
+    },
+    "summarized": {
+      "at": "2026-10-06T21:28:37.049Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:28:37.051Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:28:37.055Z",
+      "path": "content/posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7706250162700204847--ff7a1d395b.md"
     }
   },
   "input_hash": "2026-09-16T09:58:16.924Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e07e47905c36db15d02c9bc0e5be9d2dade785bf9b9a08ba9a28ee235d4cc6d7"
 }

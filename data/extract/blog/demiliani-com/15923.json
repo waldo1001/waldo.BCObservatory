@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/demiliani-com/15923",
+  "url": "https://demiliani.com/2026/09/17/azure-functions-rolling-updates-are-now-generally-available-on-flex-consumption/",
+  "title": "Azure Functions: rolling updates are now generally available on Flex consumption.",
+  "source": "demiliani-com",
+  "published_at": "2026-09-17T08:38:44.000Z",
+  "words": 626,
+  "summary": "Azure Functions Flex Consumption plan now supports rolling updates for zero-downtime deployments. This feature gradually replaces instances instead of restarting all at once, allowing in-progress executions to complete and maintaining availability during deployment.",
+  "key_points": [
+    "Rolling updates drain instances in small batches and scale out new instances with updated code to maintain capacity",
+    "Feature is only available on Flex Consumption plan, not on Consumption or Premium plans",
+    "Requires backward-compatible changes since old and new instances run together briefly during deployment",
+    "Comparison shows deployment slots on other plans don't guarantee zero downtime like rolling updates do"
+  ],
+  "systems": [
+    "platform"
+  ],
+  "topics": [
+    "azure functions",
+    "deployment",
+    "zero downtime",
+    "flex consumption",
+    "rolling updates",
+    "infrastructure"
+  ],
+  "objects": [],
+  "features": [
+    "rolling updates",
+    "zero-downtime deployment",
+    "flex consumption plan",
+    "instance draining",
+    "deployment strategy"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005197,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Instead of restarting everything at once, with this feature active the platform now replaces instances gradually.",
+      "why_it_matters": "Explains the core mechanism of rolling updates that enables zero-downtime deployments"
+    },
+    {
+      "text": "Your changes need also to be backward compatible.",
+      "why_it_matters": "Critical constraint for using rolling updates since old and new versions run concurrently"
+    },
+    {
+      "text": "If you need true continuity for long-running or critical functions, rolling updates on Flex Consumption is the only option that delivers it today.",
+      "why_it_matters": "Clarifies when rolling updates are necessary versus when simpler strategies suffice"
+    }
+  ]
+}

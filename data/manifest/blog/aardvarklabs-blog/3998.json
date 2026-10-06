@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/09/18/mastering-business-central-api-for-app-management/",
   "published_at": "2026-09-18T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:28:16.196Z",
+      "path": "vault:posts/aardvarklabs-blog/3998.md",
+      "words": 1200
+    },
+    "extracted": {
+      "at": "2026-10-06T21:28:24.310Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.012751
+    },
+    "summarized": {
+      "at": "2026-10-06T21:28:24.311Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:28:24.312Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:28:24.316Z",
+      "path": "content/posts/aardvarklabs-blog/3998.md"
     }
   },
   "input_hash": "2026-09-09T03:19:31.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "195e028f7e2562fe58c7c327dd3814ec991ca9f22c1c902f2d3dbb484c6ae9f7"
 }

@@ -1,0 +1,103 @@
+{
+  "video_id": "9i6hVsw9x_U",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 3.3,
+      "end": 19.8,
+      "text": "Welcome to this video. We will explore today the capabilities of installing preview versions of AppSource apps in Business Central and see how you can leverage this to test new versions of your extension with your customers before going live to a broader audience in the AppSource marketplace."
+    },
+    {
+      "t": 19.8,
+      "end": 34.2,
+      "text": "We'll see in this video how app publishers can share preview versions of their app and we'll also see how administrator can install preview versions on sandbox environments along with some good to know about this."
+    },
+    {
+      "t": 34.2,
+      "end": 48.8,
+      "text": "As an AppSource publisher, when you're setting up your offer in Partner Center, you have the ability to specify a hide key, which is the preview key that your customers can use in order to access the preview listing of your offer in the marketplace, but also"
+    },
+    {
+      "t": 48.8,
+      "end": 60.7,
+      "text": "to use the preview versions of your extensions. So here the key for my offer is defined to be maps and I can introduce this into a well-defined"
+    },
+    {
+      "t": 60.7,
+      "end": 72.6,
+      "text": "URL and that contains also the tenant ID of the customer I want to deploy this extension for. Specify also the app ID and the preview key"
+    },
+    {
+      "t": 72.6,
+      "end": 90.6,
+      "text": "that I found in Partner Center. Okay, after providing this URL to my customers, they can use it on their environment. This will trigger the usual installation flow of extensions where they can select which environments they want the app to be installed and they can now install this preview version on their sandbox environment."
+    },
+    {
+      "t": 90.6,
+      "end": 101.2,
+      "text": "A few things that are good to know for AppSource publishers. We are currently only supporting to install preview versions which are the highest version of your extension."
+    },
+    {
+      "t": 101.2,
+      "end": 112.6,
+      "text": "If you have public version that is higher, even if you're giving a link with a preview key to your customers, this public version will be installed instead on their environment."
+    },
+    {
+      "t": 112.6,
+      "end": 122.8,
+      "text": "You're sending the preview key as part of the marketplace submission process as we've seen previously, but if you do not If you did not specify one, there is an automatically generated preview key for you."
+    },
+    {
+      "t": 122.8,
+      "end": 135.2,
+      "text": "So, you're already opting in into this feature without knowing it. You can run simultaneous preview versions for different offers with different preview keys, even if those different offers have the same apps."
+    },
+    {
+      "t": 135.2,
+      "end": 152.1,
+      "text": "Meaning, that you can have a very custom behavior. You will be allowed to perform breaking changes between preview versions of your extensions. If you're not satisfied with the testing results and the behavior of your app, you can do changes without worrying about breaking changes,"
+    },
+    {
+      "t": 152.1,
+      "end": 162.8,
+      "text": "as long as you are Do not introduce breaking changes with the latest public version. Uh and when you're submitting a preview version of your app, you should include all the required dependencies as needed."
+    },
+    {
+      "t": 162.8,
+      "end": 168.8,
+      "text": "Otherwise, your submission partner center might fail."
+    },
+    {
+      "t": 169.2,
+      "end": 185.8,
+      "text": "A few things that are good to know for administrators. Um previews can only be installed on sandbox environments. You cannot install them on production environments. This also means that sandbox environments with preview versions of an app installed cannot be copied or restored to a production."
+    },
+    {
+      "t": 185.8,
+      "end": 200.4,
+      "text": "Previews can be updated to higher preview versions or public versions. So, to install a newer preview version, you would have to use the install link including the preview key. And to install a newer public version, you can either use the link without including the preview key,"
+    },
+    {
+      "t": 200.4,
+      "end": 210.4,
+      "text": "but you can also update it directly from admin center. Installed preview versions are automatically updated to higher public version with app update guidance setting."
+    },
+    {
+      "t": 210.4,
+      "end": 225.1,
+      "text": "So, when your environment is updated, your preview versions will be updated to newer version based on your preferences. Uh whenever an operation is done on extensions, we're now logging into telemetry"
+    },
+    {
+      "t": 225.1,
+      "end": 238.1,
+      "text": "whether the preview the app application installed was in preview versions or publicly available. So, you can also trace uh which type of apps you have on your environment."
+    },
+    {
+      "t": 238.1,
+      "end": 251.8,
+      "text": "So, here are the links to some additional resources for Business Central. Thank you for watching this video and please read the documentation for additional details on this feature and Business Central."
+    }
+  ],
+  "markers": [],
+  "word_count": 670
+}

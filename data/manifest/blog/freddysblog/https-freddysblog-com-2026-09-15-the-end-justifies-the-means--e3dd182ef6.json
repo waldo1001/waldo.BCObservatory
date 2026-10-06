@@ -7,13 +7,39 @@
   "url": "https://freddysblog.com/2026/09/15/the-end-justifies-the-means/",
   "published_at": "2026-09-15T05:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:28:34.575Z",
+      "path": "vault:posts/freddysblog/https-freddysblog-com-2026-09-15-the-end-justifies-the-means--e3dd182ef6.md",
+      "words": 1814
+    },
+    "extracted": {
+      "at": "2026-10-06T21:28:43.564Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.007208
+    },
+    "summarized": {
+      "at": "2026-10-06T21:28:43.565Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:28:43.566Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:28:43.570Z",
+      "path": "content/posts/freddysblog/https-freddysblog-com-2026-09-15-the-end-justifies-the-means--e3dd182ef6.md"
     }
   },
   "input_hash": "2026-09-15T05:00:00.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ec18b970e8728695eceaa7edadc00fb202656a446df6b2a9a4ef8e861ba680ed"
 }

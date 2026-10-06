@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/09/17/azure-functions-rolling-updates-are-now-generally-available-on-flex-consumption/",
   "published_at": "2026-09-17T08:38:44.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:28:16.518Z",
+      "path": "vault:posts/demiliani-com/15923.md",
+      "words": 626
+    },
+    "extracted": {
+      "at": "2026-10-06T21:28:24.365Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.005197
+    },
+    "summarized": {
+      "at": "2026-10-06T21:28:24.366Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:28:24.367Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:28:24.371Z",
+      "path": "content/posts/demiliani-com/15923.md"
     }
   },
   "input_hash": "2026-09-17T08:38:44.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ae66a54a74bf2ee372b05d350f98ba3c584c26fda949ae4ee33461f82fea2531"
 }

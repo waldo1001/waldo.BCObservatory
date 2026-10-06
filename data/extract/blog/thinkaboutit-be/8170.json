@@ -1,0 +1,69 @@
+{
+  "item_id": "blog/thinkaboutit-be/8170",
+  "url": "https://thinkaboutit.be/2026/09/plan-custom-agents-and-session-target-what-actually-changed-in-copilot-chat/",
+  "title": "Plan, Custom Agents, and Session Target: What Actually Changed in Copilot Chat",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-09-17T07:53:10.000Z",
+  "words": 916,
+  "summary": "VS Code reorganised Copilot Chat by converting modes to agent roles, promoting Plan from preview to a built-in role alongside Agent and Ask. The new Session Target control lets you choose which harness runs your session (Local, Copilot, Claude, Codex, or Cloud), separate from model choice. Custom chat modes now use .agent.md files with configurable tool access and instructions per agent.",
+  "key_points": [
+    "Plan is now a proper role that reads workspace context, creates structured implementation plans without editing files, and offers handoff to Agent for execution.",
+    "Custom agents replace .chatmode.md files with .agent.md format, allowing per-agent tool access, instructions, and optional model selection.",
+    "Session Target separates harness choice from model choice, enabling handoffs between Local, Copilot, Claude, Codex, and Cloud without losing conversation history.",
+    "For AL work, Copilot or Local harnesses are recommended as they understand Business Central workspace context and AL language; Claude and Codex lack AL awareness.",
+    "Planning agents can be configured with read-only tools to review code against a quality bar without touching files, useful for paired reviewer personas."
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "copilot chat",
+    "custom agents",
+    "session target",
+    "al development",
+    "code review",
+    "plan mode",
+    "agent roles"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "BCQuality"
+    }
+  ],
+  "features": [
+    "Plan role",
+    "Custom agents",
+    "Session Target control",
+    "Agent roles",
+    "Tool access configuration",
+    "Agent handoffs",
+    "Read-only tool enforcement"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006844,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Plan reads your workspace, gathers context, and writes a structured implementation plan. It does not touch a single file while doing this.",
+      "why_it_matters": "Explains the core value of Plan mode: gathering context and creating structured plans before any code changes occur, reducing AL implementation errors from unclear scope."
+    },
+    {
+      "text": "Session Target picks which harness runs your session. That choice is separate from which role or model you pick.",
+      "why_it_matters": "Clarifies the architectural change that allows multiple agent harnesses (Microsoft, Anthropic, OpenAI) to coexist in the same chat panel with shared history."
+    },
+    {
+      "text": "For AL work, stay with Copilot or Local. Both understand Business Central workspace context, symbols, and the AL language extension.",
+      "why_it_matters": "Guides AL developers toward harnesses with Business Central awareness rather than general-purpose coding harnesses lacking AL-specific context."
+    }
+  ]
+}

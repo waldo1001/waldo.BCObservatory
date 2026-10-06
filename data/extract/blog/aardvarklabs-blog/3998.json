@@ -1,0 +1,55 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3998",
+  "url": "https://aardvarklabs.blog/2026/09/18/mastering-business-central-api-for-app-management/",
+  "title": "Mastering Business Central API for App Management",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-09-18T12:00:00.000Z",
+  "words": 1200,
+  "summary": "This post provides practical PowerShell examples for automating extension management in Business Central using the Administration API, including deploying .app files, monitoring installation progress, handling failures, and uninstalling extensions.",
+  "key_points": [
+    "Authenticate with the Business Central Administration API using client credentials to obtain an access token for multipart requests",
+    "Deploy extensions using the pteInstall endpoint with specific parameters like deploymentSchedule, syncMode, languageId, and EULA acceptance",
+    "Poll the operations endpoint after deployment to monitor installation status and detect succeeded, failed, or canceled operations",
+    "Uninstall extensions by checking dependencies first, then calling the uninstall endpoint with parameters for update window, dependents, and data deletion"
+  ],
+  "systems": [
+    "integration",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "api",
+    "extension management",
+    "app deployment",
+    "automation",
+    "powershell",
+    "administration api",
+    "app uninstall"
+  ],
+  "objects": [],
+  "features": [
+    "Extension installation",
+    "Extension uninstallation",
+    "App deployment scheduling",
+    "Dependency checking",
+    "Operation monitoring",
+    "Multipart file upload",
+    "Environment management"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012751,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "To uninstall an extension, we first check whether any dependencies must be removed.",
+      "why_it_matters": "Checking dependencies before uninstall prevents errors and ensures safe removal of extensions"
+    }
+  ]
+}

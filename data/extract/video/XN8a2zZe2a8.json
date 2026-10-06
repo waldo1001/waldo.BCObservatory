@@ -1,0 +1,213 @@
+{
+  "video_id": "XN8a2zZe2a8",
+  "item_id": "video/yt-microsoft/XN8a2zZe2a8",
+  "title": "Become More Efficient With Background Posting",
+  "duration_s": 140,
+  "systems": [
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "background posting",
+    "job queue",
+    "purchase orders",
+    "document posting",
+    "role center",
+    "report inbox"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to background posting",
+      "t_start": 0,
+      "t_end": 16.4
+    },
+    {
+      "title": "Use cases and setup locations",
+      "t_start": 16.4,
+      "t_end": 30
+    },
+    {
+      "title": "Navigating to purchase and payable setup",
+      "t_start": 30,
+      "t_end": 44
+    },
+    {
+      "title": "Enabling background posting options",
+      "t_start": 44,
+      "t_end": 59.8
+    },
+    {
+      "title": "Posting and printing a purchase order",
+      "t_start": 59.8,
+      "t_end": 86.4
+    },
+    {
+      "title": "Checking the report inbox for posted documents",
+      "t_start": 86.4,
+      "t_end": 110.3
+    },
+    {
+      "title": "Opening documents from OneDrive",
+      "t_start": 110.3,
+      "t_end": 123.1
+    },
+    {
+      "title": "Summary and conclusion",
+      "t_start": 123.1,
+      "t_end": 140
+    }
+  ],
+  "features": [
+    {
+      "name": "Background posting with job queue",
+      "description": "Allows users to post journals and documents in the background while continuing to work on other tasks, eliminating wait time during the posting process.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1.4,
+      "t_end": 15,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "background posting",
+        "job queue",
+        "efficiency"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Post and print with job queue",
+      "description": "Enables posting and printing of documents through the job queue with notifications delivered to the role center when documents have been posted and printed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 44,
+      "t_end": 59,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "post and print",
+        "job queue",
+        "notifications"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Report inbox for posted documents",
+      "description": "Documents posted and printed through background posting appear in the report inbox on the role center, allowing users to access and manage posted documents in one location.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 86.4,
+      "t_end": 110,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "report inbox",
+        "notifications",
+        "document management"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "OneDrive integration for posted documents",
+      "description": "Posted documents can be opened directly in OneDrive from the report inbox, providing cloud storage access to posted files.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 110.3,
+      "t_end": 123,
+      "is_demoed": true,
+      "caveats": [
+        "Requires cloud files to be enabled for Business Central"
+      ],
+      "tags": [
+        "onedrive",
+        "cloud files",
+        "document access"
+      ],
+      "system": "finance"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "general ledger setup",
+      "t": 16.4
+    },
+    {
+      "type": "page",
+      "name": "sales and receivable setup",
+      "t": 16.4
+    },
+    {
+      "type": "page",
+      "name": "purchase and payable setup",
+      "t": 16.4
+    },
+    {
+      "type": "page",
+      "name": "purchase orders",
+      "t": 59.8
+    }
+  ],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 1.4,
+      "text": "In Business Central, you can let the system post journals and documents in the background, so you can continue working on other tasks and",
+      "why_it_matters": "Defines the core value proposition of background posting as a productivity feature that eliminates waiting during document posting",
+      "check": "exact"
+    },
+    {
+      "t": 16.4,
+      "text": "This is especially useful when posting journals and documents with significant amount of lines",
+      "why_it_matters": "Identifies the primary use case where background posting provides the most benefit - large documents",
+      "check": "exact"
+    },
+    {
+      "t": 44,
+      "text": "I enable post with job queue. And in this case, I also enable post and print with job queue",
+      "why_it_matters": "Shows there are distinct background posting options that can be configured separately",
+      "check": "exact"
+    },
+    {
+      "t": 73,
+      "text": "Now it says that the purchase order has been scheduled for posting in the background",
+      "why_it_matters": "Demonstrates that the system confirms background posting has been triggered",
+      "check": "exact"
+    },
+    {
+      "t": 110.3,
+      "text": "I can open these documents in OneDrive by selecting the ellipsis menu, and select open in OneDrive. This will open the document in OneDrive",
+      "why_it_matters": "Shows OneDrive integration requirement and how to access posted documents from cloud storage",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 110.3,
+      "kind": "other",
+      "text": "This will open the document in OneDrive if you have cloud files enabled for your Business Central"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012556
+    }
+  ]
+}

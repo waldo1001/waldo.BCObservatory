@@ -7,13 +7,39 @@
   "url": "https://thinkaboutit.be/2026/09/plan-custom-agents-and-session-target-what-actually-changed-in-copilot-chat/",
   "published_at": "2026-09-17T07:53:10.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:28:24.487Z",
+      "path": "vault:posts/thinkaboutit-be/8170.md",
+      "words": 916
+    },
+    "extracted": {
+      "at": "2026-10-06T21:28:34.278Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.006844
+    },
+    "summarized": {
+      "at": "2026-10-06T21:28:34.279Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:28:34.280Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:28:34.284Z",
+      "path": "content/posts/thinkaboutit-be/8170.md"
     }
   },
   "input_hash": "2026-09-17T07:53:10.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "68aa521538ddd3c3a66d9ce6f1c87e254c25dbde7cd72a24845220777f31718f"
 }
