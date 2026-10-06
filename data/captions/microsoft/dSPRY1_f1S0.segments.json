@@ -1,0 +1,963 @@
+{
+  "video_id": "dSPRY1_f1S0",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 3.1,
+      "end": 20.5,
+      "text": "okay it's 5:00 somewhere in gold at least um and we will get started I assume that people can hear us uh from this room now and um my name is Freddy Christensen I"
+    },
+    {
+      "t": 20.5,
+      "end": 30,
+      "text": "am part of the AL gr forget organization and together with me in this room I have"
+    },
+    {
+      "t": 31.1,
+      "end": 51.1,
+      "text": "sorry uh I work with Fredy on AO for GitHub uh you can see me sometimes opening PS commending a CO requests and we try to make it um as best as we can for for you to use in the room with us we also have yes my name is Alexander"
+    },
+    {
+      "t": 51.1,
+      "end": 61.5,
+      "text": "I also work with Maran Freddy uh as part of the engineering system team at Microsoft uh yeah so if you're checking Theo repo maybe you'll see my name out there too"
+    },
+    {
+      "t": 61.5,
+      "end": 81.7,
+      "text": "very cool thanks so what we'll do in this call is we will very quickly go through what's new since last time so what what what's been checked into the algo repository what's new functionality in Alo for GitHub since our last call that was uh"
+    },
+    {
+      "t": 81.7,
+      "end": 100.1,
+      "text": "the last Tuesday in January um quite a few things are there but nothing is shipped in the final product yet everything that you'll see here is in preview um so we'll go through what's new and then open up for discussion after that"
+    },
+    {
+      "t": 100.1,
+      "end": 110.6,
+      "text": "um now so the way that you can see what's in preview and whatnot is actually this one is a link to"
+    },
+    {
+      "t": 110.6,
+      "end": 127.8,
+      "text": "aka.ms algo relase notes so I'll click this one and it's going to take me to the algo release notes and you can see everything that in preview at any given time in Alo for GitHub is everything that is on top"
+    },
+    {
+      "t": 127.8,
+      "end": 148.4,
+      "text": "of the first version shipped so version 6.3 is the latest version that has shipped and everything that is on top of that is right now in preview um or is going to become preview very soon so it's it's what's checked in right um"
+    },
+    {
+      "t": 148.4,
+      "end": 169.2,
+      "text": "now as soon as we ship version 6.4 there'll be a tag on top of this saying version 6.4 and you'll see that all of these functionalities and features are part of 6.4 and then there'll be other things coming in preview on top of that so that's really the way to see whether things have been um"
+    },
+    {
+      "t": 169.2,
+      "end": 189.8,
+      "text": "been deployed to preview or not or in in a verion or it's in preview going back to this one so what's right now been shipped in preview is uh GitHub app authentication the ability to embed secrets in install apps and install test apps um incremental builds"
+    },
+    {
+      "t": 189.8,
+      "end": 207.9,
+      "text": "uh control workfl concurrency and also optionally ability to push test apps to online environments and also some dication documentation I'll share that with you there's a demo repo here called AO office hours 20"
+    },
+    {
+      "t": 207.9,
+      "end": 219.2,
+      "text": "25-2 and if we go to that one this is containing the samples that I'm going to show in this uh walk through"
+    },
+    {
+      "t": 219.2,
+      "end": 239.4,
+      "text": "now GitHub app authentication uh is really all about hardening uh security for AO for GitHub u in the beginning we had like personal access tokens classic personal access token and and very frequently they were created for with no expiration date so you can imagine that you create a classic"
+    },
+    {
+      "t": 239.4,
+      "end": 256.8,
+      "text": "person access token God Access with no expiration it impersonates the user that creates the token has access to all the repository and organizations that the user have access to uh and it's used to authenticate API over over basic or or"
+    },
+    {
+      "t": 256.8,
+      "end": 276.9,
+      "text": "so the pro the reason why this is a problem because this probably has happened a lot people are creating these tokens is that if they ever are exposed if they ever like compromised rised uh and and you don't figure out that they're compromised then somebody else have access to act like"
+    },
+    {
+      "t": 276.9,
+      "end": 290.8,
+      "text": "you in everything you own on GitHub and then that's obviously not very safe uh then obviously you can create shorter expiration dates but but there are other means of doing that"
+    },
+    {
+      "t": 290.8,
+      "end": 311,
+      "text": "um GI up added find gr personal access tokens which gave us the ability to to limit uh which repositories worked on they still impersonate a user uh but they could be scoped to one organization or select repositories in that organization the resource owner would still be"
+    },
+    {
+      "t": 311,
+      "end": 331.2,
+      "text": "the person were like impersonated and you could still create those with no expiration date the U the the actual token that you put in here is the token that is going to be sent to apis um to to do request and stuff like that on"
+    },
+    {
+      "t": 331.2,
+      "end": 351.4,
+      "text": "GitHub now what we have now is GitHub app authentication and that's kind of like uh aad app authentication Service to service in business Central if you know what that is um where you you define an app where you have an app ID and a private key uh and based on on this set of"
+    },
+    {
+      "t": 351.4,
+      "end": 371.5,
+      "text": "of values you can now create or you can ask the app to give you an access token that you then use to authenticate to the API I over basic or um it's still possible to do no expiration date on this one because you actually don't send the private key over the wire to anything you only add you only"
+    },
+    {
+      "t": 371.5,
+      "end": 391.5,
+      "text": "use this to create the access token you're not using impersonation you're using or it's going to be like a bot uh when when you are when you are running like update ELO system files with GitHub app authentication and you can scope it to one organization only and you have to scope it to select repositories"
+    },
+    {
+      "t": 391.5,
+      "end": 411.6,
+      "text": "by installing that app in these repositories um there are some scenarios that doesn't really work yet GitHub packages is something that GitHub is missing so you still need to create a fine grain token for that but you can create a fine grain token that only has access to get up packages and use that"
+    },
+    {
+      "t": 411.6,
+      "end": 424.4,
+      "text": "uh for that purpose and then a b that was yeah opened this morning that create release doesn't work uh I do have a fix that I need to test whether"
+    },
+    {
+      "t": 424.4,
+      "end": 444.7,
+      "text": "that's that's a fix for that but right now it does not work in Fred so the recommendation is to use GitHub app authentication to to yeah minimize the number of of access tokens that you will be um sending over the wire and can be compromised for"
+    },
+    {
+      "t": 444.7,
+      "end": 464.8,
+      "text": "evil people other feature that is for security purposes is the ability to embed secrets in install apps or install test test apps so um I don't know how many people uses this but you have a setting called install apps and a setting called install test apps that is"
+    },
+    {
+      "t": 464.8,
+      "end": 485.4,
+      "text": "uh the ability to to uh to give a series of of URLs to apps that you'll download and then install the problem is that you might actually have a secret in settings here right and and and we really don't want that because uh this might pop up in your logs this might pop up in um"
+    },
+    {
+      "t": 485.4,
+      "end": 505.6,
+      "text": "when you create an issue on Alo if we ask you to provide the lock then then this lock might be there with with your install apps and everything direct is clear text and and so there's a lot of reasons why we should not have secrets in clear text in in in source code settings or anything anywhere"
+    },
+    {
+      "t": 505.6,
+      "end": 526.1,
+      "text": "else so what we've done in preview right now is the ability to add like a dollar sign and and some curly brackets and then secret name and and then we will when whenever we um use this URL we'll read the secret and put that into uh this one so"
+    },
+    {
+      "t": 526.1,
+      "end": 548.2,
+      "text": "there's an example here in the repositories on how to use that so click that and we'll see that here I have actually install apps as an array and it's just going to be like the secq install apps and that could be be a URL to a to a zip file with a number of of of apps that I want to install in this"
+    },
+    {
+      "t": 548.2,
+      "end": 569.5,
+      "text": "repositor um when we go into actual uh build you will see that the install apps is not the URL is not shown in the log it's going to be shown which apps actually are installed so the name of the apps will be there but not the the secret and the entire UR"
+    },
+    {
+      "t": 569.5,
+      "end": 585,
+      "text": "back to this one um incremental builds is something that we talked to a number of Partners during Direction s last year where we got a we had like a a private round table with 10 Partners"
+    },
+    {
+      "t": 585,
+      "end": 605.5,
+      "text": "discussing what what features they were using and what feature they were needing and one of the things was incremental builds not really because the build time takes a lot of time but mostly because the publishing time takes a lot of time so so so it's really a performance enhancement that you can now build what actually has been modified"
+    },
+    {
+      "t": 605.5,
+      "end": 615.9,
+      "text": "but the most important thing is probably that you don't publish apps that have just a new version number but but hasn't really been updated"
+    },
+    {
+      "t": 615.9,
+      "end": 636,
+      "text": "um there's a setting called incremental builds by default it is not enabled and the reason for that is obviously that the old version of algo did not have this so we'll start out by by not enabling this by default I don't know if we'll ever do that or it's going to be something that people can can do as"
+    },
+    {
+      "t": 636,
+      "end": 656.3,
+      "text": "an organizational setting themselves but right now uh you have to create a setting called incremental builds and then you can Define uh for three different triggers whether you want to run incremental bills or not it's on push on pull request or on schedule uh so if you're running a build every night on schedule"
+    },
+    {
+      "t": 656.3,
+      "end": 676.7,
+      "text": "or every week on a schedule then you'll have like a full build every week if you set on schedule to fals and then you can have incremental Builds on push meaning that it will take the artifacts from the last known good build which would then would be probably the schedule uh and and then only build the apps that you define in"
+    },
+    {
+      "t": 676.7,
+      "end": 696.5,
+      "text": "the mode uh parameter which might be modified apps or modified projects if you set it to modifi projects it's going to build all apps in that project if you set to modifi apps only going to build the apps that actually did change or the apps that have a dependency on the apps that have"
+    },
+    {
+      "t": 696.5,
+      "end": 706.6,
+      "text": "changed um by default it's only enabled on pull requests and that's because it was already enabled on pull requests earlier"
+    },
+    {
+      "t": 706.6,
+      "end": 727.5,
+      "text": "um and uh yeah what it's the way that it works is that all builds are actually still complete so you will have all artifacts but they'll have an old version number so it's going to be copied from from the last known good build whenever we we we uh we do the build so let's see an example of how that works"
+    },
+    {
+      "t": 727.5,
+      "end": 739.2,
+      "text": "uh in this one so this if we go back to actions here and have a look we'll see that this build um is going to"
+    },
+    {
+      "t": 739.2,
+      "end": 759.2,
+      "text": "have three uh jobs here and this was done in 40 seconds this one in 50 seconds this one in 16 minutes and this one and 12 minutes so these two apps the the DK and the it one here was actually rebuilt the other ones were not so if we scroll down and have"
+    },
+    {
+      "t": 759.2,
+      "end": 779.4,
+      "text": "a look we'll see that it finds out that the last known good build is this one let's click at that and have a look we'll see that this is a complete build where where all the projects have been have been built going back to the the incremental build we'll then see that the DK and the it1"
+    },
+    {
+      "t": 779.4,
+      "end": 793,
+      "text": "was rebuilt if we look at the artifacts down here we will see that all artifacts are there the W ones the common ones the it and the DK but if we look inside the W1"
+    },
+    {
+      "t": 793,
+      "end": 813.2,
+      "text": "apps and we download that one and click here we'll see that this is actually version 1.026 and if we download the DK main apps that was was rebuilt in this one we will see that that has version 1.0 to 28 uh the artifact the repo version"
+    },
+    {
+      "t": 813.2,
+      "end": 833.4,
+      "text": "number is is the same on them all but the actual apps have the version number of when they were built and as such when they try to publish those to an online environment it will find out that these apps have already been published and no need to publish that beside the incremental bills it's"
+    },
+    {
+      "t": 833.4,
+      "end": 853.8,
+      "text": "also recommended to set up um workflow concurrency if you're running with incremental builds and what we can see here is that uh this this build was the the full build the build that doesn't have like incremental builds that that's a full build"
+    },
+    {
+      "t": 853.8,
+      "end": 873.6,
+      "text": "and then I did a modification here if we click this one um this commit I did a modification to the Italian version let's go back and then shortly after a few seconds later I did a modification here to the to the DK one"
+    },
+    {
+      "t": 873.6,
+      "end": 893.6,
+      "text": "so then when I did the modification directly in the repo for the Danish version it stopped the Italian build at 40 seconds and then restart a new build for the Danish version and included the changes from the Italian version obviously and then rebuilt the apps that were that were changed"
+    },
+    {
+      "t": 893.6,
+      "end": 907.3,
+      "text": "since the last known good build so that's the new Behavior figuring out what is the last known good build build and changing uh whatever has changed since then and the ability to set up workflow"
+    },
+    {
+      "t": 907.3,
+      "end": 927.6,
+      "text": "concurrency um which I already talked about but what the worklow concurrency is is a workflow specific setting meaning it needs to be uh in for a specific set of workflows here in conditional settings or in a workflow specific settings file"
+    },
+    {
+      "t": 927.6,
+      "end": 948.4,
+      "text": "that also are there and the workflow concurrency is described very well uh in in settings or in GitHub where you'll have the the ability to differentiate whether you want to group on workflow or on workflow and ref and whether you want to cancel in progress or wait for it"
+    },
+    {
+      "t": 948.4,
+      "end": 968.6,
+      "text": "afterwards um this is the recommended if you're running incremental thingss another feature that was created since last time is option the ability to publish test apps to an online environment uh the reason for this is really the AI test toolkit and the the the other test toolkits that"
+    },
+    {
+      "t": 968.6,
+      "end": 989.2,
+      "text": "are um we are not at this point in time ready to like run AI tests uh on like cicd or automated so what we'll do instead is we're going to prepare the online environment for running these tests and then you can navigate to them and and start the tests"
+    },
+    {
+      "t": 989.2,
+      "end": 1010,
+      "text": "at whatever time you want uh the primary reason for not running AI tests uh on every single build is a matter of uh of cost because it's not cheap to run these tests if you're running uh them on every single build so what you have is a setting"
+    },
+    {
+      "t": 1010,
+      "end": 1030.9,
+      "text": "uh two settings in deploy two structure one called include test apps in sandbox environment and you set that to true it will automatically deploy all your test apps uh and their dependencies to the sandbox environment when you are deploying your apps uh you have the ability to exclude some app iids"
+    },
+    {
+      "t": 1030.9,
+      "end": 1043.3,
+      "text": "where you can just specify the goids of of those and then it will not include these apps if you have a dependency to test test libraries which not which isn't supported online"
+    },
+    {
+      "t": 1043.3,
+      "end": 1057.3,
+      "text": "um we will not we will not try to deploy that app uh I just talk to uh the team that is working on the new version of Testa libraries and and they do expect in"
+    },
+    {
+      "t": 1057.3,
+      "end": 1077.4,
+      "text": "um I don't know exactly it's probably not going to be uh before April 1st but it's probably going to be for October um that they have a new version of the test libraries which actually can be installed online it's going to be another app ID so you have to to change your reference from test test libraries to something else"
+    },
+    {
+      "t": 1077.4,
+      "end": 1092.3,
+      "text": "but then that app will be an app source and and it won't have the insecure functionality that were in test test libraries that that yeah blocks us from being able to to deploy that to to online"
+    },
+    {
+      "t": 1092.3,
+      "end": 1112.5,
+      "text": "environments last is a list of deprication so we started uh actually in January to deprecate some functionality or change some functionality that required some settings changes and what we have have done is we've created this Ms Al go deprecations you can click that and"
+    },
+    {
+      "t": 1112.5,
+      "end": 1133.2,
+      "text": "see what is expected to change over time uh changes to in effect after April 1st is the clean mode pre-processor symbols instead of of using that you will have to use conditional settings with build modes clean and then pre-processor symbols added here if you're using that"
+    },
+    {
+      "t": 1133.2,
+      "end": 1153.8,
+      "text": "um and two other that's going to be in effect uh after October 1st is the setting called Always build all projects uh instead of that you should just set the onpo request to false in incremental bills and the setting where like the schedule and the workflow name is is a like"
+    },
+    {
+      "t": 1153.8,
+      "end": 1170,
+      "text": "a dynamic setting key name uh will be changed to be workflow specific setting uh called workflow schedule um so some changes that will need to be be done when when you"
+    },
+    {
+      "t": 1170,
+      "end": 1184.7,
+      "text": "um it doesn't have to be ex as soon as you update to the next version of Alo uh but just before October 1st where will stop supporting the old setting um so you have"
+    },
+    {
+      "t": 1184.7,
+      "end": 1205.6,
+      "text": "time with that I think everything is there and we should uh yeah grab the questions so I don't know if I can actually open the questions here so we can see the Q they pain in the meeting as well can we do"
+    },
+    {
+      "t": 1209.5,
+      "end": 1227.1,
+      "text": "that uh Johannes asks does Alo support being used in private Vos yes definitely uh we work we create a fork of Alo into an orc that only supports private repos and"
+    },
+    {
+      "t": 1227.1,
+      "end": 1240.4,
+      "text": "deploys the template Repros from a fork into private Repros in the same private Fork of course we need to keep"
+    },
+    {
+      "t": 1242.4,
+      "end": 1245.8,
+      "text": "for"
+    },
+    {
+      "t": 1245.8,
+      "end": 1260.7,
+      "text": "I I'm not entirely sure what you're trying to do here so you created a fork of Alo and made that private um"
+    },
+    {
+      "t": 1268.6,
+      "end": 1289,
+      "text": "I actually I think it should work but um yeah maybe we should take that one offline johanis so what you probably are looking for is the functionality that is in the in one of the PRS that has been open for a while that we hope to get in"
+    },
+    {
+      "t": 1289,
+      "end": 1309.4,
+      "text": "is the customization capabilities where you can have an indirect template that is really um a template that uses Microsoft algo repository and then you can have that as a private repository and you can add customizations to that and and change it to that um but yeah create an issue or maybe we should"
+    },
+    {
+      "t": 1309.4,
+      "end": 1319.6,
+      "text": "like set up a set up a call where we can go through this in detail and and you can show us what you're trying to do and and and we can"
+    },
+    {
+      "t": 1319.6,
+      "end": 1324.7,
+      "text": "um we can figure out what that"
+    },
+    {
+      "t": 1324.7,
+      "end": 1335.8,
+      "text": "is um there are a couple of questions before that one that I tried to answer while Freddy was presenting"
+    },
+    {
+      "t": 1335.8,
+      "end": 1349.2,
+      "text": "um the first one is uh just I think an issue with the fact that GitHub abs are currently not supported in version 6.1 you would need to update to"
+    },
+    {
+      "t": 1349.2,
+      "end": 1360.6,
+      "text": "um is it 6.3 or preview preview preview right now it's in preview right now and will be available 6.4 6.4"
+    },
+    {
+      "t": 1361.6,
+      "end": 1365.6,
+      "text": "yes"
+    },
+    {
+      "t": 1367,
+      "end": 1387.1,
+      "text": "um the other question was about uh how we find the last build last good build and uh it is indeed Branch specific so we consider a build good build if it was successful meaning our build jobs were successful"
+    },
+    {
+      "t": 1387.1,
+      "end": 1392.6,
+      "text": "but and it run on the same"
+    },
+    {
+      "t": 1394.6,
+      "end": 1411,
+      "text": "branch and there's a question any chance to change the logic for release branches release star to look for releases uh to use a release as a baseline uh we haven't thought about this"
+    },
+    {
+      "t": 1411,
+      "end": 1421.7,
+      "text": "actually um so as a last no good build yeah to use a release as a as a baseline as a last long yes uh we could try but it's"
+    },
+    {
+      "t": 1421.7,
+      "end": 1436.8,
+      "text": "currently uh not we don't have any plans to do it yeah so so the what what it does right now is if you have a release BR it's going to use the"
+    },
+    {
+      "t": 1436.8,
+      "end": 1457.4,
+      "text": "release as the previous version of that and it's going to use like um even as a time sensitive hot fix that is not the release will be used as a as a breaking change checking for breaking changes but it wouldn't be used in an incremental build"
+    },
+    {
+      "t": 1457.4,
+      "end": 1480.4,
+      "text": "right yeah so um I mean could be a good idea I mean yeah great suggestion cre an issue on on GitHub and and might have a look to see how hard it is I don't know you haven't thought about that for in so if you create a an issue a suggestion we'll have a"
+    },
+    {
+      "t": 1480.4,
+      "end": 1484.4,
+      "text": "look"
+    },
+    {
+      "t": 1491.4,
+      "end": 1513.6,
+      "text": "um so there's a question on Telemetry here since version 6.2 or 6.3 considerably less data is emitted via Telemetry this the reason for this and plans to increase the amount of data again use this data internally for creating dashboards to see metrics such as build time monitoring"
+    },
+    {
+      "t": 1513.6,
+      "end": 1527,
+      "text": "inversions um to see the error messages from a go One S most of the above and more are unfortunately no longer possible because the pow in transcripts are no longer included in"
+    },
+    {
+      "t": 1527,
+      "end": 1541.9,
+      "text": "theage that's we haven't we haven't removed any Telemetry recently but I'm just reading this for the Powershell transcripts I'm not sure that was ever something we locked in Al goemetry sounds like something container"
+    },
+    {
+      "t": 1541.9,
+      "end": 1561.9,
+      "text": "helper yeah cry and that's probably then so you probably should be able to get that um I think before it was like yeah because the goemetry before went into EC container H then everything was mer together on that um but you might be able"
+    },
+    {
+      "t": 1561.9,
+      "end": 1572.4,
+      "text": "to set up container hel elry to get that still uh I don't"
+    },
+    {
+      "t": 1573.8,
+      "end": 1594.2,
+      "text": "know but I think you should get the Eros message and stuff like that right now or are they not yeah I believe container help with streaming quite a bit more yeah but uh yeah maybe we can take an on this and then we can we can see if that's something we can enable like having the old container helper Telemetry"
+    },
+    {
+      "t": 1594.2,
+      "end": 1604.8,
+      "text": "as well yeah if you create an issue on that uh floor and then we can we can take a look at that"
+    },
+    {
+      "t": 1605,
+      "end": 1615.4,
+      "text": "yeah Emanuel uh never understood why we have the actions like Alo actions run pipeline pipeline"
+    },
+    {
+      "t": 1615.4,
+      "end": 1626.6,
+      "text": "PS1 uh while CCD uses run pipelines on BC container which we can override like I struggle to do so for sign BC"
+    },
+    {
+      "t": 1626.6,
+      "end": 1637.1,
+      "text": "container and we have actions like this while CCD uses run Al pipeline from VC"
+    },
+    {
+      "t": 1637.1,
+      "end": 1657.6,
+      "text": "contain not sure about the question here but but I want to say that in the future the the as go algo will stop using container hel so over the next two to three years algo will will create"
+    },
+    {
+      "t": 1657.6,
+      "end": 1674.2,
+      "text": "a a different mechanism of building and we um while we today can build through container Helper and we can we can can yeah utilize the overrides that we have in container helper some of these things will change"
+    },
+    {
+      "t": 1674.2,
+      "end": 1689.7,
+      "text": "um and and yeah um but not sure can can you elaborate on whether this a question or it's a issue that you you're looking"
+    },
+    {
+      "t": 1689.7,
+      "end": 1693.7,
+      "text": "into"
+    },
+    {
+      "t": 1697.7,
+      "end": 1708.6,
+      "text": "um and you can maybe create another or yeah elaborate on on that question here"
+    },
+    {
+      "t": 1732.8,
+      "end": 1736.8,
+      "text": "okay"
+    },
+    {
+      "t": 1743.3,
+      "end": 1755.3,
+      "text": "you have any other questions so I saw some of the people online I know that lass already uses the incremental"
+    },
+    {
+      "t": 1755.3,
+      "end": 1765,
+      "text": "builds maybe you can share how things are working with that"
+    },
+    {
+      "t": 1786.4,
+      "end": 1806.4,
+      "text": "mostly related to not being so the issue was mostly related to not being able to override since it was since I thought was using run pipeline from actions Repro well right now you have override functions and the way that they work let me just share"
+    },
+    {
+      "t": 1806.4,
+      "end": 1814.1,
+      "text": "the documentation go aka.ms Alo"
+    },
+    {
+      "t": 1814.1,
+      "end": 1834.2,
+      "text": "settings and then scroll to the very end and there should be like container helper settings that you can set I saw that Florian also asked about partner Telemetry connection string can this one uh to to get your Telemetry sent from"
+    },
+    {
+      "t": 1834.2,
+      "end": 1848,
+      "text": "container you might be able to use that and these are the overrides that you can you can override for functionality for run a pipeline so if you place a file called SBC container app PS1"
+    },
+    {
+      "t": 1848,
+      "end": 1859.2,
+      "text": "in the algo folder uh then this this script will be run whenever you um"
+    },
+    {
+      "t": 1859.2,
+      "end": 1880,
+      "text": "whenever we get to the point of of signing note that we recommend using uh the new signing mechanisms where you have the certificate in a in a keyboard instead of uh the old mechanism trying to do it inside the container which is uh yeah"
+    },
+    {
+      "t": 1880,
+      "end": 1889.1,
+      "text": "somewhat harder trusted signing on on aser can also be done in Alo"
+    },
+    {
+      "t": 1902.4,
+      "end": 1906.4,
+      "text": "back"
+    },
+    {
+      "t": 1945.2,
+      "end": 1949.4,
+      "text": "so other questions"
+    },
+    {
+      "t": 1949.4,
+      "end": 1964.7,
+      "text": "yeah for people online please use this time to share feedback ask questions if you finding particular process too difficult to understand this is your time"
+    },
+    {
+      "t": 1986,
+      "end": 1999,
+      "text": "I can ask so of the people online here how many people are already using Alo if you raise your hand if you're already using"
+    },
+    {
+      "t": 2005.6,
+      "end": 2020.2,
+      "text": "AO okay then you can lower your hand again I'll expect that the remaining people then are people looking at whether or not to use go"
+    },
+    {
+      "t": 2022.4,
+      "end": 2039,
+      "text": "get there approximately 2,500 repositories can we can see in Telemetry that are using a gr for GitHub uh or that has been running workflows and the majority of those are on the latest vers"
+    },
+    {
+      "t": 2039,
+      "end": 2056.7,
+      "text": "so we kind of these are the things that we will be looking into from Telemetry that that we can kind of see if people are updating stuff like that we cannot see who are updating or who not but we can we can see statistics"
+    },
+    {
+      "t": 2071,
+      "end": 2092.9,
+      "text": "if you don't have any questions then let's know in the Q&A pain what is the most Wanted feature what are what are you really waiting for to like get into Al go for GitHub that you would really like us to focus on no promises given I just want to he"
+    },
+    {
+      "t": 2107.6,
+      "end": 2122.1,
+      "text": "using a custom built cicd solution in a devop this is somewhere to see a demo of full capability to motivate a change to get don't think you'll have like"
+    },
+    {
+      "t": 2122.1,
+      "end": 2142.3,
+      "text": "a somewhere I think the best solution is probably to go to so the workshop it's not like it doesn't cover everything but it it covers to get started and how to how to do things we've had quite a few Partners going through the same Journey"
+    },
+    {
+      "t": 2142.3,
+      "end": 2162.6,
+      "text": "H they're always surprised about how how easy it is to use they go for GitHub because they don't have to like maintain workflows and write the animal typically things that formally took maybe hours or a day could now be just a few settings here and there then and"
+    },
+    {
+      "t": 2162.6,
+      "end": 2173.8,
+      "text": "things will be working um but again you have unlimited flexibility if you're writing everything and code yourself I normally"
+    },
+    {
+      "t": 2173.8,
+      "end": 2194.3,
+      "text": "compare uh cicd and devops um in this area like how we were selling nav in the old days where everybody had their own version of nav basically with code customized B app and stuff like that and that now they're creating like they're using a standard"
+    },
+    {
+      "t": 2194.3,
+      "end": 2214.4,
+      "text": "product with some apps uh and and they are able to update and stay current and all of these things it's kind of the same thing here if everybody using custom buil cicd Solutions then everybody would have to like enable page scripting enable AI test toolkits and all of the things that we'll be adding to algo"
+    },
+    {
+      "t": 2214.4,
+      "end": 2229,
+      "text": "that people can can just adopt and use everybody would have to to to create those functionalities themselves with like a lot of time spent and wasted for"
+    },
+    {
+      "t": 2230.5,
+      "end": 2249.5,
+      "text": "that Florence say Most Wanted feature is creation of runtime packages yeah had that before I'm surprised f it just has been it just has be has to be easy to use"
+    },
+    {
+      "t": 2249.5,
+      "end": 2269.8,
+      "text": "um yeah we hope it is and obviously it's it's a different learning TR to use Alo now instead of instead of um writing code and and all of these things you have to learn about the settings but you'll"
+    },
+    {
+      "t": 2269.8,
+      "end": 2290.2,
+      "text": "have you'll have Al go on on GitHub where you can ask questions and there'll be us or other people who can answer these questions to to help you find the right settings typically if you're looking for some functionality that you think you need to code uh yeah go look and see if somebody else"
+    },
+    {
+      "t": 2290.2,
+      "end": 2308.8,
+      "text": "has been wanting that as well and maybe there is a setting for that um that you can utilize also look in the release notes that's just a a huge list of when things are coming online they go"
+    },
+    {
+      "t": 2321.8,
+      "end": 2341.8,
+      "text": "on the runtime packages let me talk about that for just a few seconds so um I was originally waiting for the modern Dev team to or the developer tools team to uh to create the fun functionality in the AL compiler to create onetime packages"
+    },
+    {
+      "t": 2341.8,
+      "end": 2355.6,
+      "text": "without the need to have all dependencies in full apps but could utilize symbols of dependencies it seems like they're not going to deliver that so it seems like we have to create the runtime"
+    },
+    {
+      "t": 2355.6,
+      "end": 2375.7,
+      "text": "packages um as we do now meaning that really what we need to do is to create some some workflows to automate this functionality but you still have to have full apps of your dependencies you cannot create a onetime package of something where you don't have the dependencies to be able to publish to"
+    },
+    {
+      "t": 2375.7,
+      "end": 2389.9,
+      "text": "a container and create the runtime packages for that is that going to be a problem for you Floren you can answer in your in your own um issue"
+    },
+    {
+      "t": 2392.2,
+      "end": 2403.9,
+      "text": "there with the growing of depositors using AO will there be more comfort feates to manage a lot of repositories"
+    },
+    {
+      "t": 2404.4,
+      "end": 2415.9,
+      "text": "um some of the things that we're looking into there is the customization capabilities or the the the indirect templates really where you can create a template"
+    },
+    {
+      "t": 2415.9,
+      "end": 2428.1,
+      "text": "like a template for your apps of certain kind where you can have the same uh a number of your repositories to to utilize that as your template and"
+    },
+    {
+      "t": 2428.1,
+      "end": 2448.6,
+      "text": "that is one of the things I know that there's been a few people who created or who working on creating like powerbi dashboards to to to look into these repos uh I'm I'm not sure if those are going to be utilizing Telemetry"
+    },
+    {
+      "t": 2448.6,
+      "end": 2465.8,
+      "text": "or they going to be utilizing um K have apis but um let's yeah if you can tell us about what comfort features you were thinking about here is it like um"
+    },
+    {
+      "t": 2465.8,
+      "end": 2473.2,
+      "text": "yeah and let's he about"
+    },
+    {
+      "t": 2485.2,
+      "end": 2504.6,
+      "text": "that yeah for Florence say for for the runtime packages simple workflow is a wrap off the convert BC apps to runtime packages would be fine even though it would take a lot of time um and yeah that that is the current thinking that's probably what we need to"
+    },
+    {
+      "t": 2504.6,
+      "end": 2514.2,
+      "text": "do so I think there was a question in the chat yep"
+    },
+    {
+      "t": 2536.5,
+      "end": 2548.2,
+      "text": "say after finally having a GitHub App instead of a pit can we also have a service connection to Ash subscription via Federated like in Ado we'd like to avoid having sequ as we do in Ash"
+    },
+    {
+      "t": 2548.2,
+      "end": 2558.7,
+      "text": "credentials I don't think we have that right now but that's definitely something we we have"
+    },
+    {
+      "t": 2559.2,
+      "end": 2579.3,
+      "text": "um we did create support for Federated credentials but that still requires you to have the ash credentials created right um but yeah it's a good good idea and it's definitely a security topic that we'll have to to look at to see if there's a better way"
+    },
+    {
+      "t": 2579.3,
+      "end": 2599.3,
+      "text": "right I don't know if I think there's something missing there from GitHub to Ado that that they would need to to make for us for for us to be able to do these things but but we we'll be investigating what functionality comes online there um and based"
+    },
+    {
+      "t": 2599.3,
+      "end": 2616.8,
+      "text": "on this I'll definitely have a look to see if there is anything that can can make it so that we can avoid having yes Cho both for the keyboard and for like in general have to se"
+    },
+    {
+      "t": 2617.8,
+      "end": 2629.9,
+      "text": "that L is asking if we're planning to somehow expose runtime packages for appsource apps uh we cannot do that um so runtime packages is not a"
+    },
+    {
+      "t": 2629.9,
+      "end": 2650.2,
+      "text": "guaranteed um it's not guaranteed you can you can unpack the runtime packages you can find find the the the code in there you cannot find the AL code but you can find the C code that's actually blog posts on how to do that so it is it is not it's upating the IP it's not really protecting the IP"
+    },
+    {
+      "t": 2650.2,
+      "end": 2671.1,
+      "text": "hence if we were to expose runtime packages for labsource apps we might get a lawsuit from Partners who didn't like that we've talked about two different uh mechanisms talked about the ability for partners to opt in for to allow us to do that that might be a solution"
+    },
+    {
+      "t": 2671.1,
+      "end": 2691.1,
+      "text": "so if you like in your resource exposure policy in app Json or wherever you would say it is allowed for Microsoft to share runtime packages for us uh not sure whether we're going to ever get to that but for algo users what we're thinking about is the ability to have a workflow"
+    },
+    {
+      "t": 2691.1,
+      "end": 2708,
+      "text": "that runs uh and then you can publish these runtime packages a n get and then you can share your Nate feed with Partners uh so that they can trust your feed and and utilize those that's kind of the best"
+    },
+    {
+      "t": 2708,
+      "end": 2721.2,
+      "text": "solution I did get a some feedback last week from a partner saying that they they were really sharing new get packages with um with Partners on"
+    },
+    {
+      "t": 2721.2,
+      "end": 2741.6,
+      "text": "a they they were not sharing the same runtime packages to all Partners so they had like a specific feed with like these five apps is shared with this partner and another feed for that so so they were asking for the ability to to Define multiple new get feeds for for for these things and right now it go on support"
+    },
+    {
+      "t": 2741.6,
+      "end": 2758.6,
+      "text": "to might be an easy fix to do I don't know um yeah it's up to the isvs to provide those feeds and we're trying to make it easy for you to do that"
+    },
+    {
+      "t": 2758.6,
+      "end": 2769.6,
+      "text": "Alberto says a great Improvement already in the backlog is the possibility to schedule the deployment to the environment outside of working time"
+    },
+    {
+      "t": 2769.6,
+      "end": 2788.4,
+      "text": "um yeah so we got this feedback at the last office hour as well and I shared a small uh small yaml file that you can add that you where you can do this you don't have a way to do this in settings right now but you can take that Dam file and and added to your."
+    },
+    {
+      "t": 2788.4,
+      "end": 2807.3,
+      "text": "GitHub workflows uh folder and then you can set up what time what branch and what um what version you want to deploy so we have partners that are deploying like every Friday evening at 8:00 uh will be"
+    },
+    {
+      "t": 2807.3,
+      "end": 2819.2,
+      "text": "deploying uh the current version meaning the latest released version to to the production environment and and and that that seems to"
+    },
+    {
+      "t": 2820.8,
+      "end": 2834.2,
+      "text": "P request BS I send one yes are there any entry points to implement own additional BLC build checks for example the check for checking the EX file is"
+    },
+    {
+      "t": 2834.2,
+      "end": 2854.4,
+      "text": "complete um I mean I don't think something Alo really has put than doing no I think you have to write your own workflow um we do that in the BC apps repository we also have some additional checks um I think something with the clean tax and obsolete tax um Let me let me share that workflow with you and then"
+    },
+    {
+      "t": 2854.4,
+      "end": 2873.6,
+      "text": "maybe you can take some inspiration for how we did that there but it's not something EO supports I believe you can create as many as you want just by adding another P request Handler right yeah workflow another workflow Target"
+    },
+    {
+      "t": 2873.9,
+      "end": 2887,
+      "text": "request yeah we don't really uh have have examples for that but it's um just a a GitHub work for this"
+    },
+    {
+      "t": 2914,
+      "end": 2924,
+      "text": "10 more minutes to post your questions comments or"
+    },
+    {
+      "t": 2932,
+      "end": 2942.2,
+      "text": "feedback I didn't quite get the question in the chat that was posted by if you could elaborate a little bit if you meant like the release"
+    },
+    {
+      "t": 2942.2,
+      "end": 2951.8,
+      "text": "workflow the create release workflow you have in G on Ino or something"
+    },
+    {
+      "t": 2954.2,
+      "end": 2966.3,
+      "text": "else is there way to improve running time of pipelines The Experience running time to be about 20 minutes is that way to doing caching"
+    },
+    {
+      "t": 2977.2,
+      "end": 2990.3,
+      "text": "yeah so Peter and CHR so a few things comes into mind here um a standard setup will use a container to build U"
+    },
+    {
+      "t": 2990.3,
+      "end": 3010.4,
+      "text": "and and that takes these like 15 20 minutes uh we are looking constantly on ways to to do that better and we're looking at I have a task of documenting different ways of of of creating your repository project structure to be able to"
+    },
+    {
+      "t": 3010.4,
+      "end": 3030.1,
+      "text": "to build fast and then only use a container when you actually have to uh to run tests so you can add a question in the Q&A to to tell us whether you're you're using tests or not if you're not using tests you can just set the"
+    },
+    {
+      "t": 3030.1,
+      "end": 3050.1,
+      "text": "um the setting called use compiler folder to true and then do not publish apps to true then you will cut your build time down to like three or four minutes U but then you're not able to run test the idea is that if you have multiple apps in a project or in a in a GitHub repo you could"
+    },
+    {
+      "t": 3050.1,
+      "end": 3070.5,
+      "text": "build them all using the Ed compiler folder and then you could test them all in a different project so you like very fast figure out whether you have build failures and then run the tests in other Cas we also have Partners who are just building um in their main repository and then running test scheduled"
+    },
+    {
+      "t": 3070.5,
+      "end": 3087.8,
+      "text": "uh later so that they're not like it it depends we all our repositories run full build and we're running full tests in every single check in um"
+    },
+    {
+      "t": 3087.8,
+      "end": 3105.5,
+      "text": "another way to optimize that might be to uh to to run the tests in online sandboxes which is not possible right now but it's something we are we've been working on as well"
+    },
+    {
+      "t": 3118,
+      "end": 3127.5,
+      "text": "how many apps do you have in your repo history like is it one app one repo"
+    },
+    {
+      "t": 3157.3,
+      "end": 3162.1,
+      "text": "one custom"
+    },
+    {
+      "t": 3169.7,
+      "end": 3190.2,
+      "text": "yeah probably nothing nothing you can do now so you could could get it to fail fast by by using compiler folder but it will have to deploy and run the test anyway so the total amount of time you use for for setting up this would be the same"
+    },
+    {
+      "t": 3190.2,
+      "end": 3203.8,
+      "text": "um but but we're we're aware of that and and definitely looking to see whether there are things we can do better on"
+    },
+    {
+      "t": 3205.4,
+      "end": 3209.4,
+      "text": "that"
+    },
+    {
+      "t": 3235.4,
+      "end": 3240.4,
+      "text": "e e"
+    },
+    {
+      "t": 3272.6,
+      "end": 3280.3,
+      "text": "five minutes left there any"
+    },
+    {
+      "t": 3280.9,
+      "end": 3288.8,
+      "text": "more topics we you'd like to make us aware of"
+    },
+    {
+      "t": 3308.1,
+      "end": 3313.4,
+      "text": "doesn't seem to be the"
+    },
+    {
+      "t": 3317.8,
+      "end": 3338.6,
+      "text": "case then I think we'll just stop a few minutes early and say thanks to everybody for joining us and we'll be back in a month from now last Tuesday of March that's going to be morning time at 800 a.m."
+    },
+    {
+      "t": 3338.6,
+      "end": 3357,
+      "text": "uh Central European Time so it's for the the people in Australia and New Zealand to have a chance to actually participate as well thanks a lot and have a good rest of your day"
+    },
+    {
+      "t": 3357,
+      "end": 3359,
+      "text": "thank you"
+    }
+  ],
+  "markers": [
+    {
+      "t": 835.99,
+      "text": "[Music]"
+    },
+    {
+      "t": 837.15,
+      "text": "[Music]"
+    },
+    {
+      "t": 837.16,
+      "text": "[Music]"
+    },
+    {
+      "t": 2631.02,
+      "text": "[Music]"
+    },
+    {
+      "t": 2632.51,
+      "text": "[Music]"
+    },
+    {
+      "t": 2632.52,
+      "text": "[Music]"
+    }
+  ],
+  "word_count": 6704
+}

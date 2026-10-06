@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-emissions-by-category-and-scope",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "45e212b210c96c458911c3f5379ed8e3a505db61",
       "words": 247,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:06.097Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003927
+    },
+    "summarized": {
+      "at": "2026-10-06T18:56:08.446Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:56:08.447Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:56:08.448Z",
+      "page": false
     }
   },
   "input_hash": "45e212b210c96c458911c3f5379ed8e3a505db61",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "45e212b210c96c458911c3f5379ed8e3a505db61"
+  "output_hash": "a013dbee05e27afd05d5ff6af8df4998e687b1477482cc95dc089d35fc44f821"
 }

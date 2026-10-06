@@ -1,0 +1,27 @@
+{
+  "video_id": "z7UTBiCNOo8",
+  "item_id": "video/yt-microsoft/z7UTBiCNOo8",
+  "summary": "Excel layouts for built-in Business Central reports moving to general availability, demoed with the Trial Balance report: opening it in Excel, customizing the layout, uploading it back, and finding the finance reports documentation.",
+  "overview": "The video explains that built-in reports, previously coded in AL, now have Excel layouts. These were marked as preview in earlier releases and are moving to general availability. The demo runs the Trial Balance report in Excel, where Power Query supplies the data and editing must be enabled.\n\nThe presenter then shows how a user can change the look of the report. Rows can be removed, tabs hidden, spacing adjusted and pivot table fields modified. Slicers filter by dimensions such as fixed asset categories. The changed layout is uploaded back to Business Central after clearing filters. The video ends with the finance analytics documentation, which covers worksheet descriptions with screenshots, use cases by persona, Copilot tips, and links to Power BI, legacy reports and financial reporting.",
+  "key_points": [
+    "Excel layouts for built-in reports replace reports that were coded in AL, and they move to general availability.",
+    "Excel layouts were marked as preview in earlier releases, per the presenter.",
+    "Opening the report in Excel requires enabling editing. The Power Query connection must be allowed to communicate externally.",
+    "After download, you can remove rows, hide tabs, adjust spacing and modify pivot table fields.",
+    "Clear filters before uploading a modified report back to Business Central.",
+    "Slicer placement may change in the generally available version. The presenter said they will likely go on the right.",
+    "The finance reports documentation has worksheet descriptions with screenshots, persona use cases, Copilot tips with pivot table data, and links to Power BI, legacy reports and financial reporting."
+  ],
+  "audience": [
+    "functional consultant",
+    "end user",
+    "administrator"
+  ],
+  "extraction_hash": "94d5f78dc2f1eb006bf19c217d97963f071a8933e5ee5b87e1eb7165b5d86f55",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0141964
+  }
+}

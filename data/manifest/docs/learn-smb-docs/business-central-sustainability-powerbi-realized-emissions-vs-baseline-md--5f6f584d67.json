@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-realized-emissions-vs-baseline",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "cf81d3717dbc93d39afb7cbef6cf5e07721da9c3",
       "words": 295,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:06.101Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003927
+    },
+    "summarized": {
+      "at": "2026-10-06T18:56:10.289Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:56:10.290Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:56:10.290Z",
+      "page": false
     }
   },
   "input_hash": "cf81d3717dbc93d39afb7cbef6cf5e07721da9c3",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cf81d3717dbc93d39afb7cbef6cf5e07721da9c3"
+  "output_hash": "25489fd13de9cc1681c8b86152527b1cec11e42fc250953b890a7f81a2982914"
 }

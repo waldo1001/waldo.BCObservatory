@@ -1,0 +1,279 @@
+{
+  "video_id": "z7UTBiCNOo8",
+  "item_id": "video/yt-microsoft/z7UTBiCNOo8",
+  "title": "What's Cooking in Business Central: Excel Reports that Become Generally Available",
+  "duration_s": 447,
+  "systems": [
+    "reporting",
+    "finance"
+  ],
+  "topics": [
+    "excel reports",
+    "excel layouts",
+    "trial balance",
+    "finance analytics",
+    "power query",
+    "pivot tables",
+    "report customization",
+    "general availability"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Excel Reports in Business Central",
+      "t_start": 0,
+      "t_end": 39.8
+    },
+    {
+      "title": "Excel Layouts Moving to General Availability",
+      "t_start": 39.8,
+      "t_end": 60
+    },
+    {
+      "title": "Demo: Running and Opening Trial Balance Report",
+      "t_start": 60,
+      "t_end": 130.3
+    },
+    {
+      "title": "Customizing Report Layout in Excel",
+      "t_start": 130.3,
+      "t_end": 172.8
+    },
+    {
+      "title": "Filtering and Modifying Report Structure",
+      "t_start": 172.8,
+      "t_end": 253.6
+    },
+    {
+      "title": "Uploading Changes and Finding Documentation",
+      "t_start": 253.6,
+      "t_end": 309.7
+    },
+    {
+      "title": "Exploring Finance Reports in Documentation",
+      "t_start": 309.7,
+      "t_end": 384.2
+    },
+    {
+      "title": "Alternative Analysis Tools and Resources",
+      "t_start": 384.2,
+      "t_end": 447
+    }
+  ],
+  "features": [
+    {
+      "name": "Excel Layouts for Built-in Reports",
+      "description": "New Excel layouts that replace AL-coded built-in reports, allowing users to generate reports in Excel format with Power Query for data connections.",
+      "status": "ga",
+      "status_evidence_t": 39.8,
+      "status_evidence_quote": "they will be generally available",
+      "status_evidence_verified": true,
+      "t_start": 19.6,
+      "t_end": 130.3,
+      "is_demoed": true,
+      "caveats": [
+        "Requires enabling editing in Excel",
+        "Uses Power Query which needs to be opened for external communication"
+      ],
+      "tags": [
+        "excel",
+        "reporting",
+        "layouts",
+        "finance"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report Customization in Excel",
+      "description": "Users can completely change the look and feel of Excel reports by removing rows, hiding tabs, adjusting spacing, and modifying pivot table fields after downloading.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 152.4,
+      "t_end": 253.6,
+      "is_demoed": true,
+      "caveats": [
+        "Users need to clear filters before uploading modified reports back",
+        "Slicer positioning may change in generally available version"
+      ],
+      "tags": [
+        "customization",
+        "excel",
+        "pivot tables",
+        "user-driven"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Slicer Controls for Report Filtering",
+      "description": "Excel reports include slicers that allow users to filter data by dimensions like fixed assets categories, with plans to position them on the right side in the GA version.",
+      "status": "ga",
+      "status_evidence_t": 193,
+      "status_evidence_quote": "generally available version we'll likely put these slices to the right",
+      "status_evidence_verified": true,
+      "t_start": 193,
+      "t_end": 233.5,
+      "is_demoed": true,
+      "caveats": [
+        "Slicer placement may be subject to change in final GA release"
+      ],
+      "tags": [
+        "filtering",
+        "slicers",
+        "excel",
+        "ui"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Finance Analytics Documentation",
+      "description": "Comprehensive documentation landing page for finance reports including descriptions, worksheets with screenshots, use cases by persona, and links to try reports directly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 270,
+      "t_end": 384.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "finance",
+        "analytics",
+        "reference"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Excel Reports with Copilot Integration",
+      "description": "Documentation includes tips on how to use raw data from pivot tables with Copilot for enhanced analysis capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 363.8,
+      "t_end": 384.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "copilot",
+        "excel",
+        "ai",
+        "analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Alternative Analysis Methods Documentation",
+      "description": "Documentation provides links to alternative ways to analyze financial data including Power BI, legacy reports, and the financial reporting feature.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 404.5,
+      "t_end": 425.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "powerbi",
+        "reporting",
+        "alternatives"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Trial Balance Over Previous Year",
+      "t": 60
+    },
+    {
+      "type": "report",
+      "name": "Detailed Trial Balance",
+      "t": 323.5
+    },
+    {
+      "type": "report",
+      "name": "Trial Balance in Excel",
+      "t": 323.5
+    },
+    {
+      "type": "report",
+      "name": "Trial Balance Previous Year or Budget Over Balance Over Budget in Excel",
+      "t": 343.7
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kim Teld",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 19.6,
+      "text": "to change because they were coded in the al language",
+      "why_it_matters": "Explains the problem that Excel layouts solve - old reports were inflexible and required code changes",
+      "check": "fuzzy"
+    },
+    {
+      "t": 39.8,
+      "text": "a couple of releases ago we added new Excel layouts and they are marked here with a preview the new thing for wave 1",
+      "why_it_matters": "Key status announcement: Excel layouts move from preview to generally available in Wave 1",
+      "check": "exact"
+    },
+    {
+      "t": 130.3,
+      "text": "because this report is using some power query inside Excel it's not communicating to the outside world I need to open for that",
+      "why_it_matters": "Important technical detail about security and Power Query usage in Excel reports",
+      "check": "exact"
+    },
+    {
+      "t": 152.4,
+      "text": "as a user I can completely change the look and feel for this um if I don't what I don't like",
+      "why_it_matters": "Highlights the core value proposition - users have full control to customize report appearance",
+      "check": "exact"
+    },
+    {
+      "t": 253.6,
+      "text": "I can upload this back to business Central make sure I clear my filters",
+      "why_it_matters": "Shows the workflow for saving customized reports back to the system with a requirement to clear filters",
+      "check": "exact"
+    },
+    {
+      "t": 343.7,
+      "text": "you can also get a description of the worksheets in the report with screenshots so you can kind of get an idea of what",
+      "why_it_matters": "Documentation provides visual guidance helping users understand report capabilities",
+      "check": "snapped"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 39.8,
+      "kind": "preview",
+      "text": "they are marked here with a preview"
+    },
+    {
+      "t": 193,
+      "kind": "subject-to-change",
+      "text": "for the generally available version we'll likely put these slices to the right"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020026000000000002
+    }
+  ]
+}

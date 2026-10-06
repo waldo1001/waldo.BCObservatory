@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-kpis",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "2de46527c88852c5813e24bc597237f3b9b65392",
       "words": 2877,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:06.100Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003927
+    },
+    "summarized": {
+      "at": "2026-10-06T18:56:10.286Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:56:10.287Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:56:10.288Z",
+      "page": false
     }
   },
   "input_hash": "2de46527c88852c5813e24bc597237f3b9b65392",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2de46527c88852c5813e24bc597237f3b9b65392"
+  "output_hash": "1e16066030da586a0efa2c3952b06e17079d1203927381e9f8412576fcb7ad29"
 }

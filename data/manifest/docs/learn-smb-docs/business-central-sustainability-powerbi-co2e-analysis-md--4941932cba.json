@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-analysis",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "a6c510ff15269af5c5afef95f126ada8fd1cd139",
       "words": 237,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:06.094Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003927
+    },
+    "summarized": {
+      "at": "2026-10-06T18:56:06.103Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:56:06.104Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:56:06.106Z",
+      "page": false
     }
   },
   "input_hash": "a6c510ff15269af5c5afef95f126ada8fd1cd139",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a6c510ff15269af5c5afef95f126ada8fd1cd139"
+  "output_hash": "e314cebedf5e4ce1d216ae3db93fadda5fc02aff0a9b6779e58f11110eda7c5c"
 }

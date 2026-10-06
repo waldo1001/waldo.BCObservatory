@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/sustainability-powerbi-co2e-decomposition-tree",
   "published_at": "2025-11-21T07:43:27.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "6ed2b5c50d43d8fc0e2d1902da61458ba7990f41",
       "words": 222,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T18:56:06.095Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.003927
+    },
+    "summarized": {
+      "at": "2026-10-06T18:56:08.440Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T18:56:08.441Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T18:56:08.442Z",
+      "page": false
     }
   },
   "input_hash": "6ed2b5c50d43d8fc0e2d1902da61458ba7990f41",
@@ -37,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6ed2b5c50d43d8fc0e2d1902da61458ba7990f41"
+  "output_hash": "f4e0c6ea585a19ae369f24c170609805e6888139913b72927efcad18183967bd"
 }
