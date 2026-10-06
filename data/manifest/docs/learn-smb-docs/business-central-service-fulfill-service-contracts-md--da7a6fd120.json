@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/service-fulfill-service-contracts",
   "published_at": "2025-10-19T17:26:21.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "203b740857c89590dfcd07b04248c6edd870f62b",
       "words": 213,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:00:06.941Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 2,
+      "cost_usd": 0.004759
+    },
+    "summarized": {
+      "at": "2026-10-06T19:00:07.006Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:00:07.006Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:00:07.007Z",
+      "page": false
     }
   },
   "input_hash": "203b740857c89590dfcd07b04248c6edd870f62b",
@@ -39,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "203b740857c89590dfcd07b04248c6edd870f62b"
+  "output_hash": "28a920cd3b90f9c81718b2718fad8c3f2e1c7163c99ed95543df937613f5ceee"
 }
