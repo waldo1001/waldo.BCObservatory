@@ -1,0 +1,36 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/deployment/Creating-Tenants-from-Companies.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/Creating-Tenants-from-Companies",
+  "title": "Creating Tenants from Companies",
+  "blob": "b074ad4e1221e5f399c371f15bd615d235991e59",
+  "summary": "Creating separate tenant databases from multiple companies in a Business Central database using PowerShell scripts to migrate companies into dedicated tenant databases in a multitenant deployment.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "multitenancy",
+    "tenant databases",
+    "companies",
+    "migration",
+    "powershell"
+  ],
+  "objects": [],
+  "features": [
+    "multitenant deployment",
+    "company migration",
+    "powershell scripting",
+    "tenant mounting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005524,
+      "pages_in_call": 8
+    }
+  ]
+}

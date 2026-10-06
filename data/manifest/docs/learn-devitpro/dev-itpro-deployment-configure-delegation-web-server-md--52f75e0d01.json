@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/configure-delegation-web-server",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "33e7b2f3ddf184ae9a95ac1c725e9d6031d771a4",
       "words": 1201,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:39.448Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005524
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:39.482Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:39.483Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:39.484Z",
+      "page": false
     }
   },
   "input_hash": "33e7b2f3ddf184ae9a95ac1c725e9d6031d771a4",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "33e7b2f3ddf184ae9a95ac1c725e9d6031d771a4"
+  "output_hash": "2b5002162c8b23fb7af35a0b16c5f8aba0df486593fbf20974439af920a3cd44"
 }

@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/administration/using-sql-partitioning-and-compression.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/using-sql-partitioning-and-compression",
+  "title": "Using Table Partitioning and Data Compression",
+  "blob": "82bbf38a299fba75c15fccb287365ef3427b0a66",
+  "summary": "SQL Server table partitioning and data compression are supported configurations for on-premises Business Central databases to improve manageability, query performance, and reduce storage requirements.",
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "partitioning",
+    "compression",
+    "database optimization",
+    "performance",
+    "storage"
+  ],
+  "objects": [],
+  "features": [
+    "table partitioning",
+    "data compression",
+    "CompressionType property",
+    "partition elimination",
+    "RAID configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005214,
+      "pages_in_call": 8
+    }
+  ]
+}

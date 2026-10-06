@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/create-application-package",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "5a9f499f2c1df696e02e25a6c0e9bfcc261a742c",
       "words": 1043,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:39.450Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005524
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:39.489Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:41.182Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:41.183Z",
+      "page": false
     }
   },
   "input_hash": "5a9f499f2c1df696e02e25a6c0e9bfcc261a742c",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5a9f499f2c1df696e02e25a6c0e9bfcc261a742c"
+  "output_hash": "4c140e7bddd2d0a3e13febed33924ca01b7362dfc248186bfbbc0efa143787f5"
 }

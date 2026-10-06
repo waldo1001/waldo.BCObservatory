@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-client-action-trace",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 0,
       "cost_usd": 0.003537
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:39.471Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:39.472Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:39.474Z",
+      "page": false
     }
   },
   "input_hash": "a14a5253e8af46e896c1fbed907a7ea38649cd67",

@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/cside/cside-lock-unlock-objects.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/cside/cside-lock-unlock-objects",
+  "title": "Locking and Unlocking Objects",
+  "blob": "f7dd0d8b7832ec76d1f527f4bb691437b9c20997",
+  "summary": "Lock and unlock objects in C/SIDE Object Designer to prevent other developers from saving design changes while still allowing the object to be opened read-only or run.",
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "object locking",
+    "c-side",
+    "concurrent development",
+    "object designer"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Object"
+    }
+  ],
+  "features": [
+    "object locking",
+    "auto-lock on design",
+    "force unlock",
+    "read-only mode"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005214,
+      "pages_in_call": 8
+    }
+  ]
+}

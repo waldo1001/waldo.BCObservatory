@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/deploy-three-computer-environment",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4117ec36216fe578bf1667c90a55cca90f43c568",
       "words": 1009,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:39.454Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005524
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:41.223Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:41.224Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:41.225Z",
+      "page": false
     }
   },
   "input_hash": "4117ec36216fe578bf1667c90a55cca90f43c568",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4117ec36216fe578bf1667c90a55cca90f43c568"
+  "output_hash": "46367025b5f77bf1207928ae17c148564b554f8a529066602ae2c1dd541b6262"
 }

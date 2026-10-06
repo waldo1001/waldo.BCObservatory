@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/deployment/configure-delegation-web-server.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/configure-delegation-web-server",
+  "title": "Configure Web Client Delegation",
+  "blob": "33e7b2f3ddf184ae9a95ac1c725e9d6031d771a4",
+  "summary": "Configuring delegation from Business Central web server to server instance across separate computers to enable impersonation through Kerberos authentication and service principal names.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "web server",
+    "delegation",
+    "kerberos",
+    "authentication",
+    "security",
+    "service principal names"
+  ],
+  "objects": [],
+  "features": [
+    "constrained delegation",
+    "kernel mode authentication",
+    "service principal names",
+    "active directory configuration"
+  ],
+  "versions": [
+    "version 20",
+    "version 21 and later"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005524,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/deployment/create-application-package.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/create-application-package",
+  "title": "Creating a deployable package for Business Central online",
+  "blob": "5a9f499f2c1df696e02e25a6c0e9bfcc261a742c",
+  "summary": "Moving on-premises Business Central solution to online by upgrading databases, separating application from tenant data, cleaning system tables, creating BACPAC files, and uploading to Dynamics Lifecycle Services.",
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "topics": [
+    "migration",
+    "cloud deployment",
+    "bacpac",
+    "database upgrade",
+    "dynamics lifecycle services"
+  ],
+  "objects": [],
+  "features": [
+    "database upgrade",
+    "application separation",
+    "system table cleanup",
+    "bacpac export",
+    "lcs upload"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005524,
+      "pages_in_call": 8
+    }
+  ]
+}

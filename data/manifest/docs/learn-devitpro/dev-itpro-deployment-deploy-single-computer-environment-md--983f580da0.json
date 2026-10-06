@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/deploy-single-computer-environment",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "4353b66aac789792ec672487cbc747398722c74b",
       "words": 746,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:39.453Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005524
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:41.219Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:41.220Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:41.222Z",
+      "page": false
     }
   },
   "input_hash": "4353b66aac789792ec672487cbc747398722c74b",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4353b66aac789792ec672487cbc747398722c74b"
+  "output_hash": "b540a9aa409fbdff3c7e8890b792f045a9809b4d7ee9256db86f9d52b12161a7"
 }

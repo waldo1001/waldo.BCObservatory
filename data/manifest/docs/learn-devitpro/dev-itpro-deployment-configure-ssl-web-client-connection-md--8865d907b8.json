@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b2e076be743bcc3010e9d3b7a3f5c602d39568a2",
       "words": 653,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:39.449Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005524
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:39.485Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:39.486Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:39.487Z",
+      "page": false
     }
   },
   "input_hash": "b2e076be743bcc3010e9d3b7a3f5c602d39568a2",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b2e076be743bcc3010e9d3b7a3f5c602d39568a2"
+  "output_hash": "3961252b632f7a277c8b5f5784c2a4a20d7c9ab241be6658b6f89f7f80dac6e7"
 }

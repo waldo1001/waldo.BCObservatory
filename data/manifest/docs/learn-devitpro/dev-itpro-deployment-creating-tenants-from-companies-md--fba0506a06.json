@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/Creating-Tenants-from-Companies",
   "published_at": "2025-05-06T19:26:01.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "b074ad4e1221e5f399c371f15bd615d235991e59",
       "words": 844,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:39:39.451Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005524
+    },
+    "summarized": {
+      "at": "2026-10-06T19:39:41.184Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:39:41.185Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:39:41.214Z",
+      "page": false
     }
   },
   "input_hash": "b074ad4e1221e5f399c371f15bd615d235991e59",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b074ad4e1221e5f399c371f15bd615d235991e59"
+  "output_hash": "ae14c9d83c026b1b2a9fa754eef68404d977539b27a1364869a5ddb8bc59c48b"
 }
