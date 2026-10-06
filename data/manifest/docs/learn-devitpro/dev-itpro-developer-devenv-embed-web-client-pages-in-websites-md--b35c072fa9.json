@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-embed-web-client-pages-in-websites",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "d3c9d4d6e7937d51b694cb5130b75dbd1823f805",
       "words": 1230,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:26.173Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004778
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:26.194Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:26.194Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:26.195Z",
+      "page": false
     }
   },
   "input_hash": "d3c9d4d6e7937d51b694cb5130b75dbd1823f805",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d3c9d4d6e7937d51b694cb5130b75dbd1823f805"
+  "output_hash": "3bb0ed6f2f919b29159330f916bcdd7e54d4189ab2fc8200cea2473b23f7fa74"
 }

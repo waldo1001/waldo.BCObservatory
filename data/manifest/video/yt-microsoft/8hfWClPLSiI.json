@@ -5,12 +5,26 @@
   "tier": "official",
   "title": "#BCTalent: Because talent is not bought - it's made",
   "url": "https://www.youtube.com/watch?v=8hfWClPLSiI",
-  "published_at": null,
+  "published_at": "2024-11-12T11:48:07.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T19:03:26.044Z",
+      "captions": "auto:en-orig",
+      "duration_s": 100
+    },
+    "captioned": {
+      "at": "2026-10-06T19:03:33.012Z",
+      "path": "data/captions/microsoft/8hfWClPLSiI.vtt",
+      "vtt_sha256": "20faac589a11045ef2c471d9faaa8a371c3534b995400895add5e09e3ff95fc5",
+      "segments": 8,
+      "words": 60,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -19,7 +33,14 @@
   "meta": {
     "channel_id": "UCLErzd6kpQ0DAJSGsGjtxbA",
     "channel_rank": 314,
-    "duration_s": 101,
-    "via": "reconcile"
-  }
+    "duration_s": 100,
+    "via": "reconcile",
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "20faac589a11045ef2c471d9faaa8a371c3534b995400895add5e09e3ff95fc5"
 }

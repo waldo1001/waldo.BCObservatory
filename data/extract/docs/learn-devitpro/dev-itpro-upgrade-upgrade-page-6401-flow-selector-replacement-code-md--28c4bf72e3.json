@@ -1,0 +1,58 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/upgrade-page-6401-flow-selector-replacement-code.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-page-6401-flow-selector-replacement-code",
+  "title": "Page 6401 Flow Selector Replacement Code for C/AL to AL conversion",
+  "blob": "beeb826f538c39c0ac4607c4f9ef3e6703ca0f41",
+  "summary": "Page 6401 Flow Selector replacement code for converting C/AL to AL in Business Central version 14 to 15, with complete AL code example including flow management and error handling.",
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "topics": [
+    "flow selector",
+    "power automate",
+    "upgrade",
+    "c/al to al",
+    "code conversion",
+    "workflow"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Flow Selector"
+    },
+    {
+      "type": "page",
+      "name": "Workflow Webhook Entries"
+    },
+    {
+      "type": "page",
+      "name": "Flow User Env. Selection"
+    },
+    {
+      "type": "page",
+      "name": "Content Pack Setup Wizard"
+    }
+  ],
+  "features": [
+    "flow management",
+    "power automate integration",
+    "flow environments",
+    "flow selection",
+    "error handling"
+  ],
+  "versions": [
+    "version 14",
+    "version 15"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00503,
+      "pages_in_call": 8
+    }
+  ]
+}

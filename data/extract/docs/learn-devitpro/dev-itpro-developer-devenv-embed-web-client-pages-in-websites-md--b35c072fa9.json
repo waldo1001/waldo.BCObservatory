@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-embed-web-client-pages-in-websites.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-embed-web-client-pages-in-websites",
+  "title": "Embed the Web Client Pages",
+  "blob": "d3c9d4d6e7937d51b694cb5130b75dbd1823f805",
+  "summary": "Embedding Business Central web client pages in other websites using iframe elements with URL parameters and security configuration for cross-origin scenarios.",
+  "systems": [
+    "development",
+    "platform",
+    "integration"
+  ],
+  "topics": [
+    "embedding",
+    "iframe",
+    "web client",
+    "url parameters",
+    "security",
+    "list pages"
+  ],
+  "objects": [],
+  "features": [
+    "iframe embedding",
+    "list pages",
+    "URL parameters",
+    "ShowRibbon parameter",
+    "ShowNavigation parameter",
+    "ShowUIParts parameter",
+    "IsEmbedded parameter",
+    "AllowedFrameAncestors configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004778,
+      "pages_in_call": 8
+    }
+  ]
+}

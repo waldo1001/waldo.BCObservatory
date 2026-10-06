@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/embedapps/embed-app-application-access-management",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "083b15b46d409e5df3edc08c544c10023eb92983",
       "words": 984,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:36.139Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00503
     }
   },
   "input_hash": "083b15b46d409e5df3edc08c544c10023eb92983",
@@ -41,5 +48,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "083b15b46d409e5df3edc08c544c10023eb92983"
+  "output_hash": "4fcb8c9d55ea41b077192d7f331bbe4f8bdbc2254618f1e8ed9a67819a67ecb6"
 }

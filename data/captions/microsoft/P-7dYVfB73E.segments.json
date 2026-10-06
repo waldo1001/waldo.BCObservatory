@@ -1,0 +1,708 @@
+{
+  "video_id": "P-7dYVfB73E",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 10.3,
+      "end": 30.6,
+      "text": "welcome to the sixth episode of under the hood so in in some of the previous episode you might have seen we talked about um we talked about different things we talked about AI we talked about the compiler we talked a lot about performance and how to write performance a code uh but today I have G with me hi g hi and we are to talk"
+    },
+    {
+      "t": 30.6,
+      "end": 51.1,
+      "text": "about our app our BAS app and uh also about events and caponization and all these things right um so welcome g g um please introduce yourself so you you've been working with uh you're primary on the appside for a while uh so what what what are you doing you know what is your what is your role in the in the engineering team"
+    },
+    {
+      "t": 51.1,
+      "end": 71.2,
+      "text": "so I'm an uh I'm an architect on the application team and uh currently mainly focused on extensibility and componentization of the application um as well as other architecture related things related to the application all right cool so so you know the app very well"
+    },
+    {
+      "t": 71.2,
+      "end": 91.2,
+      "text": "it's fair to say I hope so yeah yeah so so before we talk about compiz and event and all this let's go a little bit back in time uh we didn't always have uh events as a customization mechanism we'll talk a lot more about event later but um in in the earlier versions of bcn Na if you wanted to extend a the the approach"
+    },
+    {
+      "t": 91.2,
+      "end": 111.3,
+      "text": "was different yeah so before extensions we are we had a code customization model so our code is I guess semiopen Source um yes so mean we ship the code yeah we ship the code to to all our partners um it's not open source because it's not"
+    },
+    {
+      "t": 111.3,
+      "end": 131.4,
+      "text": "open to the public but it's open to our partners and um the way they extended the application was by changing the source code that we Shi to them so just just change the line of code and just just go in add code change code remove code uh up to them whatever"
+    },
+    {
+      "t": 131.4,
+      "end": 150,
+      "text": "they needed to to build their their features on top of ours that was the so so that's the code that's what we call refer to as code customization approach right yes and uh so we as as early I think as 20 2016"
+    },
+    {
+      "t": 150,
+      "end": 170.4,
+      "text": "yeah we stting introducing events as another as an alternative customization mechanism right so why why is cod why did want to get away uh from code customization why why not stick with it and just proceed right so code customization was a very successful model because it was very flexible"
+    },
+    {
+      "t": 170.4,
+      "end": 191.2,
+      "text": "but it had a a big downside in that whenever we changed the code and we shipped a new version or you wanted to you had to code customize across different localizations then you had to merge um the original code with the modified code so our partners"
+    },
+    {
+      "t": 191.2,
+      "end": 211.6,
+      "text": "uh spent a lot of time uh merging text basically in these text uh to merge their changes into our new code or to merge their changes into a different localization and that's that's an expensive uh part of the code customization process so in"
+    },
+    {
+      "t": 211.6,
+      "end": 232.3,
+      "text": "I think 2016 Version 9 we introduced um events uh we had two types of events so crud events um they're like platform raised events when you modify a record or when you open a page and integration events um so integration events were a way"
+    },
+    {
+      "t": 232.3,
+      "end": 252.4,
+      "text": "of taking the code customization out of the source code so you would subscribe to this event which was placed where you wanted to put your code and then when you know you didn't have this merge problem anymore so that that was the the goal so one of the motivation also was you at that time"
+    },
+    {
+      "t": 252.4,
+      "end": 272.5,
+      "text": "we were actually going to the cloud right yeah so I think this was early in our journey to the cloud um the merge model the the merging code and the old code customization is not really fitted for the cloud right yeah so it's the when we go to the cloud uh um upgrades become a"
+    },
+    {
+      "t": 272.5,
+      "end": 292.7,
+      "text": "very different Beast right so before all the upgrades were on Prem managed by a partner who went in and did code merges and then they had a two-step data upgrade whereas in the cloud upgrades are expected to be much more frequent but also kind of instant uh and automatic and also"
+    },
+    {
+      "t": 292.7,
+      "end": 313.1,
+      "text": "you know major difference is that in the past partners would take care of these upgrades yeah and I moved to the cloud that we had to take care of so in order to scale we had to find another way to uh to for extensibility right y y it's also a shift in uh going from a bespoke solution for a given customer"
+    },
+    {
+      "t": 313.1,
+      "end": 333.7,
+      "text": "to a much more repeatable solution where Partners can sell the same feature to many different customers without having to do all this merging work and and all this yeah so we move to so that's the extension model we move from a code based customization code sorry code customization uh to um"
+    },
+    {
+      "t": 333.7,
+      "end": 353.7,
+      "text": "to to extensions which are basically a piece of code which is on top of the the Bas app or the app we ship right so at the beginning in in our in our app in the code we ship for ma there was no event at all so we you know when we started with that so we had to introduce this event somehow yeah uh so what's what what's the process for"
+    },
+    {
+      "t": 353.7,
+      "end": 374.1,
+      "text": "that but how how did we go about that yeah so uh there's been different stages um so the very first events we we introduced um the very first usage of events was for the the workflow feature which we were building at the time so that we"
+    },
+    {
+      "t": 374.1,
+      "end": 394.1,
+      "text": "uh when we were developing the workflow feature we put events where we needed them for that feature at the same time we also introduced I think it was around 300 events with in the most commonly extended places so think sales post Journal L posting sales posting and those were very highly curated"
+    },
+    {
+      "t": 394.1,
+      "end": 414.2,
+      "text": "events like we knew that those places were heavily customized so that they they would get great usage um but they you know ultimately 300 is a drop in the bucket right so it's very little so in order to um get the events that that Partners needed um"
+    },
+    {
+      "t": 414.2,
+      "end": 434.4,
+      "text": "we ask them uh we you know which event where do you need an event which events do you need and we did that by um getting them to to request events on GitHub so GitHub issues um and so we got over the years thousands of of requests where Partners"
+    },
+    {
+      "t": 434.4,
+      "end": 454.8,
+      "text": "needed to inject their code into ours um so actually most events that are in the in in the code today are have been requested by by Partners right yeah as opposed to if if you should compare the ones that we introduced Microsoft introduced and the one that have been requested originally by Partners yeah I'd say over 90%"
+    },
+    {
+      "t": 454.8,
+      "end": 474.8,
+      "text": "is partner requested so we had this yeah so we had this basically Community Driven approach in terms of um how you know how we made this our app extensible right so how many how many events do we have today total right uh show you a slide that shows uh little bit about"
+    },
+    {
+      "t": 474.8,
+      "end": 494.8,
+      "text": "the the history of how these events uh came about out so we started in Version 9 we had no events we added a couple of for workflow and MH then uh there were like 10 events or remember it's hard I think in the first version we shipped like 300 events okay so so"
+    },
+    {
+      "t": 494.8,
+      "end": 515.1,
+      "text": "we we shipped a pretty large number of events in that was good so right now in version 25 I think we have 22,500 events mhm um and in the in the first few years the the uh growth was uh almost exponential but then it it flattened out so since version"
+    },
+    {
+      "t": 515.1,
+      "end": 535.1,
+      "text": "15 I think we have linear growth we had but we're still adding events we're still adding events and as far as I can tell we haven't slowed down yet okay so um yeah we Partners need a lot of events we add a lot of these events and uh do you think we have too many events personally yeah"
+    },
+    {
+      "t": 535.1,
+      "end": 546.5,
+      "text": "I think we have way too many events um so I have another slide that I can show that maybe explains a little bit about uh why"
+    },
+    {
+      "t": 546.5,
+      "end": 565.9,
+      "text": "so we have 22,500 events and for uh our Cloud platform we can we can check how many of these events are used by how many apps and how many environments so looking at our usage Telemetry yeah looking at our usage Telemetry so we have about"
+    },
+    {
+      "t": 565.9,
+      "end": 586,
+      "text": "3,400 events that are not used at all in the class nobody nobody we could remove them nobody would notice unless unless some on but in the cloud nobody would notice okay um then you look at events that are used uh by single environment so there's there's"
+    },
+    {
+      "t": 586,
+      "end": 606.1,
+      "text": "one customer out there that uses this event that's another 5600 events MH and then uh as you as you look at how many events are used more and more so uh 53% of events so that's 11,000 something events I think my math is right uh are used"
+    },
+    {
+      "t": 606.1,
+      "end": 626.2,
+      "text": "in less than 100 environments so 100 environments to our Cloud environment is is really almost nothing um and then if you look at under a thousand environments where you know it becomes a significant number we're at 85% okay so the large majority of events are used"
+    },
+    {
+      "t": 626.2,
+      "end": 646.3,
+      "text": "by very few people mhm um there's also another uh statistic which is interesting uh is that most of our code doesn't have integration events at all at all so I think the reason we're still seeing event requests is because we have room to grow m not in"
+    },
+    {
+      "t": 646.3,
+      "end": 663.6,
+      "text": "every object so so what you're saying is that a lot of the events are concentrated actually on few objects if you look at the number of of objects they are we have in total yeah uh which is do you remember how many object do we have yeah uh so we have so in total we have like 7,500"
+    },
+    {
+      "t": 663.6,
+      "end": 684.4,
+      "text": "objects uh I think roughly 15% of them don't contain code at all so they they also don't have events but that's normal and then uh our events are concentrated in about onethird of the remaining objects M and then there's 50% of the objects that could contain events don't have events at all okay"
+    },
+    {
+      "t": 684.4,
+      "end": 704.4,
+      "text": "so I I don't expect every object to get events but it shows their very highly concentrated um but that's to be expected that's these are the places where Partners need customization right and there some some which are just you know you don't want to customize I don't know some basic things around there are objects"
+    },
+    {
+      "t": 704.4,
+      "end": 724.6,
+      "text": "that don't need that don't need uh customization there are others that need a lot um I I get a little bit scared sometimes when you see these uh the the big objects sales posting purchase posting and do have a lot of events they have 600 plus events per object or something no in the one in sales most in code unit"
+    },
+    {
+      "t": 724.6,
+      "end": 744.6,
+      "text": "there's like 600 events so it becomes very difficult to know exactly which event you should use for your feature because you could pick 25 of them and it probably all work also looked a little bit at how densely populated an object is with uh with events and we have objects"
+    },
+    {
+      "t": 744.6,
+      "end": 764.8,
+      "text": "where there is an event for every five lines of code so why is that why why is this a problem have many events um because you you know seem to indicate that it is is not a good thing I don't think it's a it's a good thing in principle there's nothing wrong with having the events because if you don't subscribe to them the performance impact things like that should be minimal but"
+    },
+    {
+      "t": 764.8,
+      "end": 785,
+      "text": "when we want to make even something as simple as a bug fix right around where these events are or you want to refactor the code almost every change you make in these objects becomes breaking because you change either the context in which the event is raised you might change some of its parameters you"
+    },
+    {
+      "t": 785,
+      "end": 805.4,
+      "text": "might um you might stop calling the event you you know the event might move somewhere else and so so if you have an event every five line of cude let's say you want to fix some bugs in some procedure or something and if you have an event every F and course become very hard to it's kind of a mindfield you you don't know where where to change the code without you need to respect"
+    },
+    {
+      "t": 805.4,
+      "end": 825.7,
+      "text": "the event if you really truly want to be non-breaking you would need to respect the order of which the events are fired and all these things right so so a big uh issue there is we are a little bit blind to what uh our partners do in in the subscribers to these events M so we have a pretty good"
+    },
+    {
+      "t": 825.7,
+      "end": 846.3,
+      "text": "idea of what what we of what you could use those events for but we don't actually know what they're doing so uh even though we don't get we don't make compiler breaking changes I mean the the partner code will still compile and run but we introduce side effect the behavior changes"
+    },
+    {
+      "t": 846.3,
+      "end": 866.4,
+      "text": "the the expectation sometimes changes so maybe we'll be a little bit too generous with events but uh you but I think maybe a compromise to I mean what we wanted back back then what we wanted was to accelerate the move of our partners to the cloud so they they wanted to be able to extend BC and get to the class so we had to be a"
+    },
+    {
+      "t": 866.4,
+      "end": 886.5,
+      "text": "bit maybe a bit generous with how many events we we we uh we we implemented and give and gave our partners but maybe now it's time to to go back on this and and and do a little bit of cleanup right yeah so I mean it was absolutely necessary we would not be where we are today if we had not provided all the events that our partners need um I"
+    },
+    {
+      "t": 886.5,
+      "end": 906.8,
+      "text": "think you know yes it is time to take a more critical look at at these events um so for example these 3,000 plus events that are not used in the cloud um we we could choose to remove those um so we can tell Partners R we are going to remove some events you know it's coming um"
+    },
+    {
+      "t": 906.8,
+      "end": 926.9,
+      "text": "I I think there's other situations where if you look at um a little bit of code maybe 25 lines of code and there's three function calls you get kind of like duplicate events right so I might have an on before I call this function event but then inside that function I have another on before"
+    },
+    {
+      "t": 926.9,
+      "end": 947,
+      "text": "I do this thing event so why do we need both can we can we look at that and pick one and then have that one um of course get when I look at some of the names of the events we have they also a little bit telling you know how you like it's not you some of them are called something like on before this but after that yes which you know which is a little bit"
+    },
+    {
+      "t": 947,
+      "end": 967.9,
+      "text": "starts being a little bit suspicious because it means that you you want to do something you know basically you want to uh intervene with your code in between some other lines of code and it starts to resemble very much uh the go good old code customization model right yeah I think I think right now we have"
+    },
+    {
+      "t": 967.9,
+      "end": 988,
+      "text": "uh quite a lot of code where the events are just U glorified code customization right if you if you have you know one or two lines of code between two events we need to find better ways of of handling that I mean you say ultimately if we had an event you know before and after each line of code then we will be"
+    },
+    {
+      "t": 988,
+      "end": 1008.2,
+      "text": "back to code cation actually yeah I think so which we don't have that yet yet and we we hopefully we never will but uh I think the the the the real issue behind all of this is that we you know we we went away from the code merges because every time we changed our code and partners"
+    },
+    {
+      "t": 1008.2,
+      "end": 1028.2,
+      "text": "had to merge that was essentially a breaking change for them whereas now we have so many events every every time we make a change we're also breaking our partners so we are reintroducing this workload but in a slightly different way it's no more text merged but now it's you know they have to rewrite their subscribers in"
+    },
+    {
+      "t": 1028.2,
+      "end": 1039.4,
+      "text": "a different way and so that's that's also um very painful it's so one last thing that I wanted to mention about these events because you mentioned the on before on after"
+    },
+    {
+      "t": 1039.4,
+      "end": 1059.6,
+      "text": "so um we we tend to think of the the very beginning of a procedure or the very end of a procedure As Natural places to to extend or to put an event to extend code right so on before would be the beginning and on after would be after I did the thing so looking at where our events are placed in code"
+    },
+    {
+      "t": 1059.6,
+      "end": 1079.6,
+      "text": "we very much prefer the on after um so about onethird of all events are um on at the end of a function why is that why do you prefer the on after I don't know I think it's you mean when you mean we prefer that there there are more events which are on after after is"
+    },
+    {
+      "t": 1079.6,
+      "end": 1099.7,
+      "text": "that what you mean so all Partners actually prefer most that's what you want to say right so I I think it's also because you want to as a partner you extend a feature you kind of think okay after Microsoft has done this bit of logic I want to inject my logic so at the end of the function is is when when that happens yeah yeah nothing wrong with"
+    },
+    {
+      "t": 1099.7,
+      "end": 1119.9,
+      "text": "that um you also might want to do something before like before Microsoft processes this record I want to inject my logic so that's fine so with the beginning of the function it's a little bit more spread out but again it's about 1/3 and then the rest of events so that's 1/3 so that's 7,000 something events they are really everywhere in the code they're"
+    },
+    {
+      "t": 1119.9,
+      "end": 1139.9,
+      "text": "in the middle there are you know uh and those are the ones that are hardest to handle when you refactor code because an event at the end you can you can manage you can you can move it a little bit more easily but if it's in the middle of processing a particular bit of logic it's very tricky to to refactor"
+    },
+    {
+      "t": 1139.9,
+      "end": 1160.1,
+      "text": "and not break what the event does so events events is is one mechanism of extensibility it's not the only one we have others right and uh so what are the other um so let's you know just up what how can you so if you if you want to extend business Central when you start Co you can subscribe to to event"
+    },
+    {
+      "t": 1160.1,
+      "end": 1172.5,
+      "text": "that's one thing what else uh so the the the most basic ones are uh extensibility objects so page extension table extension now report extension they're kind of like the"
+    },
+    {
+      "t": 1172.5,
+      "end": 1192.6,
+      "text": "big existing object you can add extra fields to a table to a page um we have we can extend enums now which are useful in the code uh interfaces are a very nice way of doing extensibility where a partner can um either you know come with their own implementation if we if we allow"
+    },
+    {
+      "t": 1192.6,
+      "end": 1212.9,
+      "text": "them to to change the default implementation then they can bring their own that's I think that's very powerful um so would you say interface a better extensibility mechanism than as a as as events it's two events it depends on the situation I think um but"
+    },
+    {
+      "t": 1212.9,
+      "end": 1225.1,
+      "text": "yes I think in in in many cases having an extensible enum with an interface is a better way of having the partner"
+    },
+    {
+      "t": 1225.1,
+      "end": 1245.4,
+      "text": "provide their different implementation in instead of what what we tend to do in many places now is what we call a handled event MH which is uh you subscribe to it and you say I want to skip this code that Microsoft did and I'm going to put in my own implementation yeah um and that that's not a"
+    },
+    {
+      "t": 1245.4,
+      "end": 1259,
+      "text": "very friendly way of of extending um interface are maybe a little more clear of a contract it's a clear confront an interface is is a much more controlled way of doing things"
+    },
+    {
+      "t": 1259,
+      "end": 1279.4,
+      "text": "so do you see us moving toward in that direction having more and more interfaces and extensible enms and less and less events in the future I think as we as we refactor the the Legacy B app code that that's where we're going so when we look at the the newer features that are being written or"
+    },
+    {
+      "t": 1279.4,
+      "end": 1299.4,
+      "text": "the areas that we componentize we see uh a heavy use of interfaces in most old and new features introduce some kind of interfaces um and we see 10 times less events M so a factor 10 less is is quite important and it's not so much because we use interfaces or because we pick one method"
+    },
+    {
+      "t": 1299.4,
+      "end": 1320.1,
+      "text": "over another I think it's more the the the Legacy codebase was written for a code customization model that that was the purpose of it so it was written a certain way when we now refactor the code and we design it to be extensible and and we"
+    },
+    {
+      "t": 1320.1,
+      "end": 1340.4,
+      "text": "you know we we we do it on on purpose so to say we design the feature to be extended in a certain way through interfaces with or without events we see that we get far far fewer events um and and we don't get the events that are like code customization right you don't get an event"
+    },
+    {
+      "t": 1340.4,
+      "end": 1361.2,
+      "text": "like between line seven and eight you something you get much more purposeful events you know and those are much better and they don't change as frequently so I think that's that is a better model so talking about refactoring let's uh let's let's talk a little bit about the componentization you've been working on"
+    },
+    {
+      "t": 1361.2,
+      "end": 1381.3,
+      "text": "componentization for a while a long time now yeah for a long time now so so uh yeah just give up give us a little bit of a summary of what where we at with that uh and so why are we doing this you know what's what is what is the good thing and uh what's you know what what what have we done so far and where are we going with this our"
+    },
+    {
+      "t": 1381.3,
+      "end": 1401.4,
+      "text": "our Legacy base app is filled with um it's basically spaghetti code right it's got circular references everywhere it's mostly very old code everything relies on everything else and it's it's very difficult to if you're a new developer it's very difficult to understand why things are the way they are it's not"
+    },
+    {
+      "t": 1401.4,
+      "end": 1421.8,
+      "text": "documented because that was not required in the past um and you it's it's there you you can't really get an overview of it so we we've done several things to reduce the spaghetti"
+    },
+    {
+      "t": 1421.8,
+      "end": 1442.1,
+      "text": "code and turn it into more reusable building blocks um so uh we we are taking local features and turning those into apps so that uh we delocalize the base application mhm um so that's at the top of the stat that's at the top of the stack and that doesn't really"
+    },
+    {
+      "t": 1442.1,
+      "end": 1462.2,
+      "text": "reduce Bap a lot because it's it's mostly in the local versions but those are the ones our partners use so it's not without its Merit but it doesn't do much for W1 MH um another thing which which we we did a couple of years ago was uh we started pulling fat from the bottom mhm so that's very early on started"
+    },
+    {
+      "t": 1462.2,
+      "end": 1482.5,
+      "text": "with splitting uh our two-tier architecture into a three tier right we split um the the server out and we we took out that was a long time ago old Cod unit one went away very long time ago um but system application is the step that came after that which is why we don't have a code unit one today"
+    },
+    {
+      "t": 1482.5,
+      "end": 1502.7,
+      "text": "yes that is that is true um so the system application is all of these utility type functionalities that are um almost platform like but were built in the appli M um but they don't have so correct me if I'm wrong but everything"
+    },
+    {
+      "t": 1502.7,
+      "end": 1515.7,
+      "text": "in a system app has nothing to do withp actually no more AP for yeah it's very technical stuff HTTP requests Azure key Vols uh"
+    },
+    {
+      "t": 1515.7,
+      "end": 1536,
+      "text": "things file IO all this kind of thing which uh which don't really have anything to do uhp that's a requirement for being in the system application is that it's it's non business business domain stuff right it's it's stuff that everybody will need when writing almost any software program mhm"
+    },
+    {
+      "t": 1536,
+      "end": 1556.1,
+      "text": "um and it's it's very close to the platform so we we can seal it off a bit better MH uh and we've we've made the features extensible it's also open source truly open source now it's it's on GitHub and it's actually a different app like also physically it's a different extension right yeah Y and the way we the way"
+    },
+    {
+      "t": 1556.1,
+      "end": 1576.2,
+      "text": "it's built is also different so system application is one app but it's actually made up of over a hundred modules now which are each individually built as an app as well we that's just not the way we ship it but we build it and test all of them individually and then we repackage it"
+    },
+    {
+      "t": 1576.2,
+      "end": 1596.6,
+      "text": "as one app and that's the one that we ship so we actually what you're saying that internally we actually building each of these module as a separate extension a separate app as a it's only a build exercise right just a way to verify that we have good separation of concern and no circular dependen circular dependencies so we could potentially ship them"
+    },
+    {
+      "t": 1596.6,
+      "end": 1616.6,
+      "text": "yes uh but it's just a physical the system app is just a physical packaging all just more convenient right to ship them together and version it potentially we could uh ship all of these modules in individually right yeah I think the decision to to not ship them individually I think"
+    },
+    {
+      "t": 1616.6,
+      "end": 1637.2,
+      "text": "is more of a user friendliness kind of thing like who wants to manage 100 separate dependencies when it's not really needed to you have this this module in that version and also from versioning standpoint it's a little bit easier but so who knows maybe one day you know that will become a thing but so far"
+    },
+    {
+      "t": 1637.2,
+      "end": 1648.6,
+      "text": "you know we the system app we call that a layer um so it's a nice and easy way of working it and we have the build system to you know keep us honest so that we we don't"
+    },
+    {
+      "t": 1648.6,
+      "end": 1669,
+      "text": "we don't mess up with the dependency tree um so that that's very good recently we added the next layer so that that I think version 24 yeah Tre ship 6 months ago yeah um we added business Foundation MH so you've been working a lot on that part yeah as well"
+    },
+    {
+      "t": 1669,
+      "end": 1689.2,
+      "text": "so that is now the first time where we're getting into the business domain mhm so the the the rule so where system application is you know no business domain business Foundation is meant to be the the foundational layer so the rule there is it"
+    },
+    {
+      "t": 1689.2,
+      "end": 1709.6,
+      "text": "it there are features that apply to none of the none of really none of the domains but they're still businesslike or all of them so it's it's still so it has it is Erp related yeah uh but it's not it's not Finance specific Finance it's not inventory"
+    },
+    {
+      "t": 1709.6,
+      "end": 1730.6,
+      "text": "it's not service management but it is it is as opposed to system you wouldn't find that type of implementation in a in another in a nonp software okay what are examples of things in a business Foundation ler so right now we have uh number series um"
+    },
+    {
+      "t": 1730.6,
+      "end": 1740.9,
+      "text": "and audit codes kind of for auto Trail um other candidates would be things like like Dimensions"
+    },
+    {
+      "t": 1740.9,
+      "end": 1760.9,
+      "text": "which it is a finance feature but it's used everywhere basically everywhere um so the work there would be so that maybe if let's assume that's our next step right so what so you would be the work would be pulling everything that has to do with Dimensions which today is in in the B app right yeah and put it it in factor factoring it"
+    },
+    {
+      "t": 1760.9,
+      "end": 1781.2,
+      "text": "out into into the business foundation so there there's a there's a couple of steps into doing that so what would go in the business Foundation is the really the core of Dimensions right so think uh setups uh actually the tables holding the"
+    },
+    {
+      "t": 1781.2,
+      "end": 1801.3,
+      "text": "dimensions some of the basic logic around Dimensions which you can you know which combinations of Dimensions you can use uh those kind of things that because every other feature in in BC would use that module and they might add features to it or they might"
+    },
+    {
+      "t": 1801.3,
+      "end": 1821.4,
+      "text": "extend it or they might use it in a slightly different way but the core of it that would go into business foundation and then everything else is now becomes a user of that module so that's that's I think number series is a good a good way to to to see what what that means when we build these modules"
+    },
+    {
+      "t": 1821.4,
+      "end": 1842.3,
+      "text": "we actually we rewrite most of the code um so we we we don't just blindly take a feature copy paste it somewhat and then say all right now we made a module we actually we go in and we we we try and rewrite the code with modern tools um maybe fix some issues that were in the original"
+    },
+    {
+      "t": 1842.3,
+      "end": 1862.3,
+      "text": "design um improve the the feature if we see things that that don't really work the way we like um so yeah a lot of work goes in also very important we document everything that the public API uh gets split out to separate objects so they're they're easier to to handle and"
+    },
+    {
+      "t": 1862.3,
+      "end": 1882.4,
+      "text": "we document all of those and and this document get published also online right it's not only so we have code comments yeah it's it's in the code but it also get published on the ma of it's developer code and it gets extracted and put in the developer section on on I guess it's learning yeah we'll put some links"
+    },
+    {
+      "t": 1882.4,
+      "end": 1902.7,
+      "text": "in the in the description yeah yeah um so so so just to summarize so we have we have have a a bottom up approach where we take things like system app and and uh and and business Foundation uh and kind of you know put them at the bottom of the stack in like separate modules by the way is the business Foundation is that also a separate"
+    },
+    {
+      "t": 1902.7,
+      "end": 1922.9,
+      "text": "app yes it's also a layer app so we made up of different modules but it's built and shipped the same with the same process as system application okay so it's also a separate app it's a separate extension so when you look at your extension overiew in BC you'll see as a separate one and then then we have a a top"
+    },
+    {
+      "t": 1922.9,
+      "end": 1943,
+      "text": "top down you talk about localization we have also did we do we also have other first party apps at the at the top of the stack also that we kind of you know remove refactor factor out of B apps so we do a lot of different things at same um so we we build a lot of new new features as apps"
+    },
+    {
+      "t": 1943,
+      "end": 1959.4,
+      "text": "that go on top um in terms of componentized Base app we have uh pulling out from the bottom the localizations pulling out from the top and now we're also looking at taking um domains really so service management"
+    },
+    {
+      "t": 1959.4,
+      "end": 1979.5,
+      "text": "manufacturing um taking those features and putting putting those into a separate app MH so that that will have a big impact on on the base application because it's it's a lot of code that will get moved and we're still looking into how we can make that non-breaking and again this is all good because when we do that you you make sure"
+    },
+    {
+      "t": 1979.5,
+      "end": 1999.7,
+      "text": "that for example in in the in this module for service management you don't we don't have object which for examp are about Finance or you know HR or some some totally other you know area so that's making sure we have a good separation of concern and also when we create when we create new objects then if if we kind of um"
+    },
+    {
+      "t": 1999.7,
+      "end": 2019.7,
+      "text": "um have these modules which have a clear defined purpose and role then we know where to put them you know if we okay you create a has to do with Finance okay that goes there it goes with something with HR okay that's goes there right so in the future it's all good way it's good to have these structure in order to you know get more even more structure"
+    },
+    {
+      "t": 2019.7,
+      "end": 2038.3,
+      "text": "yeah we we in the past the whole application was one just put it on something new you just put it on top of the pile right it was very easy for the developer you didn't have to think about any of these things you just put it in and and and that was it"
+    },
+    {
+      "t": 2038.3,
+      "end": 2058.5,
+      "text": "the part was not easy maybe for new developers to understand the app because it was so unstructured it's still today it's it's a pretty complex app right and and what we hope also is with this effort that eventually for new developers or even even season developers it would be easier to navigate the app and"
+    },
+    {
+      "t": 2058.5,
+      "end": 2078.5,
+      "text": "understand where where they need to it needs to be extended uh and what it does and and all this right y so we we we've gone through several steps I think so the first one of the first things we did was we we uh organized our source code into uh separate folders I think that was one of the first things"
+    },
+    {
+      "t": 2078.5,
+      "end": 2098.6,
+      "text": "we did um we introduced Nam spaces yeah so we uh even though we still have the folder structure we added name spaces to the objects as a language a language feature absolutely so so now it's much easier in the code you can instantly see oh it belongs to this area or that area and"
+    },
+    {
+      "t": 2098.6,
+      "end": 2119,
+      "text": "this object while belonging to finance actually relies on these other name spaces and that's so now that we have completion and in sense in in in Visual Studio code it also help discoverability of object the name space because you can go and type uh you know Microsoft dot uh and then Finance for example"
+    },
+    {
+      "t": 2119,
+      "end": 2139.2,
+      "text": "uh and then Dot and then you will see a list of objects which is much smaller than before we had Nam space you would have we also had intell sense and completion and all that but you would have like a very big list of all the tables and all the you know which makes it a lot more difficult to to find your way around when you when you C absolutely we're"
+    },
+    {
+      "t": 2139.2,
+      "end": 2159.3,
+      "text": "doing a lot of things to help um reduce the amount of code you have to sift through to understand the functionality that you're working with there isn't a single you know Magic Bullet that will fix all of it but all of these together I think make it uh very useful also"
+    },
+    {
+      "t": 2159.3,
+      "end": 2179.5,
+      "text": "for componentization we use name spaces to to figure out where the limits of features are and we do internal refactoring even though we don't extract something as a component we're already refactoring to make the how do you say the namespace cloud you know uh less of a"
+    },
+    {
+      "t": 2179.5,
+      "end": 2200,
+      "text": "mess but make it more streamlined because that helps us later so we're doing a lot of things in that area so are this change are this Chang are breaking yes unfortunately many of them are all of them um I wouldn't say all of them but I think many of the changes that we make end up being breaking"
+    },
+    {
+      "t": 2200,
+      "end": 2220.1,
+      "text": "so uh again when we introduced the system application at same time we introduced an obso scheme MH so uh in the past a new version would come out and partners would discover like hey this this new stuff broke my my functionality and I have to rework everything and where I start um now that we have"
+    },
+    {
+      "t": 2220.1,
+      "end": 2240.2,
+      "text": "these obso properties we we obsolete code um we give Partners I think 12 to 18 months to to uptake so they get warnings so if they recompile their app they can see like oh this is going to be a problem the code is still there yeah and then and then after 18 months we actually remove the old"
+    },
+    {
+      "t": 2240.2,
+      "end": 2260.3,
+      "text": "code and at that point it does become breaking um we have very strict guidelines around this we we do try to avoid major breaking changes um we provide Absolution you know whenever we can MH but uh but yeah it's I mean eventually if we need"
+    },
+    {
+      "t": 2260.3,
+      "end": 2277.9,
+      "text": "to refactor we need to make some changes which are breaking right yeah so um what about pragmas and OBS and Absolution obsolete code so uh there's a couple of things let's talk a bit about that I know it's something that's close to your heart"
+    },
+    {
+      "t": 2277.9,
+      "end": 2298,
+      "text": "so uh it's so we when we started with these obols MH uh very quickly we realized that you know we were doing a lot of it and at some point we were going to have to clean this up and we were actually building a mountain of debt ahead of us that we could see"
+    },
+    {
+      "t": 2298,
+      "end": 2311.2,
+      "text": "growing and you know because we weren't actually removing it or no because we were obsoleting knowing that you know in two versions we're going to have to remove this"
+    },
+    {
+      "t": 2311.8,
+      "end": 2331.9,
+      "text": "had all these and remove that code so that's when we started uh using the pre-processor symbols MH um so we can it's it's very useful compiler tool right so we we add these uh symbols so we can we can at the time of absolution say you know this is the old"
+    },
+    {
+      "t": 2331.9,
+      "end": 2352.4,
+      "text": "code and when we clean it up this is what the new code is going to look like without actually removing it but compile and the compiler look at it as as if it was removed right and and so we compile our app in two ways so we compile with the old code that's currently being shipped and we also compile a version with you know the the pre-processor"
+    },
+    {
+      "t": 2352.4,
+      "end": 2372.4,
+      "text": "symbols enabled so that's the new code and we make sure that both work MH so that that removes a lot of the debt right because we do it at the moment of absolution we don't push it in front of it but then we also have an automated process that par the source code and removes the old code so that's done automatically so it's"
+    },
+    {
+      "t": 2372.4,
+      "end": 2392.4,
+      "text": "it's done automatically so we're we're no longer pushing this mountain of debt ahead of us we we I you know we operate on a zero debt principle so if you if you want to change some code today you have to make sure that when you check that in there is no extra work after"
+    },
+    {
+      "t": 2392.4,
+      "end": 2413,
+      "text": "two years from now that everybody will have forgotten about so um the the next step in that story which is uh so we obsoleted tables and Fields on uh on which relates to the SQL schema M and um we we couldn't change the SQL schema"
+    },
+    {
+      "t": 2413,
+      "end": 2428.2,
+      "text": "so that was fine right they would just live on forever but now a couple of years later we have way too many of them and it's starting to clutter the code so we've decided that every fifth release we're going to clean up the SQL schema mhm"
+    },
+    {
+      "t": 2428.2,
+      "end": 2448.2,
+      "text": "so that's good we can go do that but we don't want every every two years or something like that two and a half years two and yeah so if I if we removed the a field in in this release we don't want to delete it the next release right so we we need to know you know have these fields been removed"
+    },
+    {
+      "t": 2448.2,
+      "end": 2469.1,
+      "text": "long enough M and so now again we have the same situation where we have this debt because we have fields that were obsoleted in version 15 that are still there but we also have fields obsoleted in version 25 and we don't want to remove those yet so we we're now introducing uh a new pre-processor symbol which you call clean schema"
+    },
+    {
+      "t": 2469.1,
+      "end": 2489.2,
+      "text": "which um is so we add those symbols so that we can use the same automated process to clean this up and the Deb we have is we have to go add all these symbols to where we have these removed TBL we didn't do it from the beginning exactly yeah so uh you know we we learn as we go then we fix it so in version 26 now"
+    },
+    {
+      "t": 2489.2,
+      "end": 2509.7,
+      "text": "that we're working on right now we will do this cleanup MH and from then on it'll be an automated process and so Partners will know several releases ahead of time like hey you know this field that they stopped using it's actually going away in a couple of releases so what do you say the end goal is with this all compiz eort what you know when"
+    },
+    {
+      "t": 2509.7,
+      "end": 2519.8,
+      "text": "uh I don't want to ask when we'll be done because would be bit hard to say but what's what's the end goal um so uh um"
+    },
+    {
+      "t": 2519.8,
+      "end": 2540,
+      "text": "componentization it has many different aspects right so the the we want uh smaller apps that are that have one purpose because they're easier to understand they're easier to use we document them so that you know Partners don't have to know 6,000 objects they can they can look at the API of a module know"
+    },
+    {
+      "t": 2540,
+      "end": 2557,
+      "text": "what it does know what it's used for and know how to use it so we want to do that for all of our code also at some point you know once everything is componentized I think it would be very nice if we could have the components actually be"
+    },
+    {
+      "t": 2557,
+      "end": 2577.6,
+      "text": "replaceable so that Partners come in with their own version of a given component and just swap it out M we're not there yet so we could have their own HR module for example or you know that would be I don't think anybody is going to replace the finance module I don't know I I that seems ambitious but okay"
+    },
+    {
+      "t": 2577.6,
+      "end": 2595.6,
+      "text": "why not sorry um long long long very long term you know we are part of the the bigger Dynamics family right and we have you know Dynamics for sales we have finance app we have you know operations app"
+    },
+    {
+      "t": 2595.6,
+      "end": 2615.6,
+      "text": "so I I you know you might have companies that are very heavily Finance focused that might need a very heavy Finance operations kind of you know deal there but they they don't need very much of the others and maybe BC is a better fit M I think it's more common to be the other way around you use BC for finance and"
+    },
+    {
+      "t": 2615.6,
+      "end": 2635.8,
+      "text": "then have a you know dynamic sales right and that if it was truly modular and we could combine those in a distant future I think that would be truly powerful well maybe also we could maybe there's a future where we could um not install all these modules uh more lean apps"
+    },
+    {
+      "t": 2635.8,
+      "end": 2655.9,
+      "text": "so like if you specific installation at a specific customer if they don't need a Char module inventory module or Supply Chain management you know pick pick your combination you would only install the modules that that that you need and then you know all the events don't get fired you know probably I'm not I'm not saying we"
+    },
+    {
+      "t": 2655.9,
+      "end": 2676,
+      "text": "would get better performance but we will get certainly you know reduced footprint in terms of memory and and it would be very good on many levels um so users wouldn't see actions or pages that they don't need that they don't use the UI would be leaner as well yeah the UI would be leaner"
+    },
+    {
+      "t": 2676,
+      "end": 2696,
+      "text": "um there will be less code to run less code to manage so I I think it would be very good in in many different ways also uh um Partners wouldn't have to consider so many side effects if they knew like hey for this customer they're only going to have these features installed you no longer need to worry about"
+    },
+    {
+      "t": 2696,
+      "end": 2716.3,
+      "text": "the others whereas now now those features are there their code does interact so so you you know you do need to worry what the side effects is going to be on those features even though the customer is not going to use them so I I think that would be very nice yeah all right well that's a I think good conclusion well um"
+    },
+    {
+      "t": 2716.3,
+      "end": 2727,
+      "text": "that's what a little bit about our our our app and uh the architecture of it um and I hope you enjoy this episode thank you for watching"
+    }
+  ],
+  "markers": [],
+  "word_count": 7693
+}

@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/webservices/authenticate-web-services-using-oauth.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/authenticate-web-services-using-oauth",
+  "title": "Using OAuth to authenticate Business Central Web Services",
+  "blob": "7ab1495db6939eb12652225b51b04275ae87c909",
+  "summary": "OAuth authentication for Business Central web services (OData and SOAP) explains OAuth 2.0 concepts, user impersonation, service-to-service authentication, and token lifetime management.",
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "topics": [
+    "oauth",
+    "authentication",
+    "web services",
+    "odata",
+    "soap",
+    "tokens",
+    "microsoft entra"
+  ],
+  "objects": [],
+  "features": [
+    "oauth 2.0",
+    "user impersonation",
+    "service-to-service authentication",
+    "access tokens",
+    "refresh tokens",
+    "client credentials flow",
+    "bearer tokens"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00503,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/deployment-scenarios",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "82227fccdf8ff9fa265805f83b5625be7a18fcee",
       "words": 245,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:26.166Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.004778
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:26.176Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:26.177Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:26.178Z",
+      "page": false
     }
   },
   "input_hash": "82227fccdf8ff9fa265805f83b5625be7a18fcee",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "82227fccdf8ff9fa265805f83b5625be7a18fcee"
+  "output_hash": "cb14a334176ea9f63e813f7413c21c01bd8af7b4ae043854817605a05cf92454"
 }

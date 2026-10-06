@@ -1,0 +1,38 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/embedapps/embed-app-application-access-management-api.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/embedapps/embed-app-application-access-management-api",
+  "title": "Application Access Management API",
+  "blob": "82ff5827d3a9e3de5361ac42c907c9ca2dc2a4e0",
+  "summary": "Application Access Management API enables delegated administrators to manage access to Business Central and embed app application families by country code using REST endpoints.",
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "api",
+    "access control",
+    "embed app",
+    "administrator",
+    "application family",
+    "delegated admin"
+  ],
+  "objects": [],
+  "features": [
+    "get list of manageable applications",
+    "control access to applications",
+    "application family",
+    "country code",
+    "tenant access"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00503,
+      "pages_in_call": 8
+    }
+  ]
+}

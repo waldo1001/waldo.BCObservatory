@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/deployment/web-server-overview.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/web-server-overview",
+  "title": "Deploy the Web Server Components",
+  "blob": "133c9bffb8bcd6b968dfba7994fb9a93ab29cd00",
+  "summary": "Web server components overview for Business Central deployment covering ASP.NET Core on IIS, network topology, instance creation methods, and security configurations.",
+  "systems": [
+    "platform",
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "web server",
+    "iis",
+    "deployment",
+    "security",
+    "ssl",
+    "network topology"
+  ],
+  "objects": [],
+  "features": [
+    "ASP.NET Core on IIS",
+    "web server instances",
+    "multiple instance configuration",
+    "SSL configuration",
+    "service account configuration",
+    "PowerShell cmdlets"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004778,
+      "pages_in_call": 8
+    }
+  ]
+}

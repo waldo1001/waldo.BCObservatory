@@ -1,0 +1,28 @@
+{
+  "video_id": "ugHFHtSxTlw",
+  "item_id": "video/yt-microsoft/ugHFHtSxTlw",
+  "summary": "Business Central UI design process, from concept and Figma mockups to shipped code, in episode 7 of Under the Hood. It uses examples (company switcher, onboarding, analysis mode, prompt dialogue) to show how research changed designs, and why partners have limited UI control.",
+  "overview": "The Business Central design team explains how a feature moves from an initial idea to shipped UI. They cover adherence to the Fluent design language, Figma as the design tool, and how user research changes the first mockups.\n\nExamples include the company switcher, which grew into an environment and company switcher after feedback, and the onboarding project, where a full-screen modal was replaced by an optional banner checklist. Analysis mode tabs moved from the bottom to the top after testing. The video also covers red-line design specs, flexible components for localization, and why partners have limited UI control, with Power Apps as an alternative.",
+  "key_points": [
+    "Business Central follows the Fluent design language, with its own treatment and patterns. Not all Office paradigms apply to ERP tasks.",
+    "The design team uses Figma. Multi-user editing is a main strength, and CSS can be taken from Figma for developer handoff.",
+    "The company switcher began as a simple company dropdown. Feedback showed users needed to switch environments and companies across environments, so it became an environment and company switcher.",
+    "Onboarding took multiple releases. A full-screen modal that blocked exploration was rejected in favor of an optional banner-based checklist.",
+    "In analysis mode testing, more than half of participants did not notice the tabs at the bottom of the page, so the tabs moved to the top before shipping.",
+    "Design specs with red lines record font sizes, margins, spacing and component behavior. Components must scale for localized content length.",
+    "Partners cannot adjust pixels, button sizes or element placement. When needs go beyond the standard flexibility, Power Apps is an option but takes more development effort."
+  ],
+  "audience": [
+    "developer",
+    "functional consultant",
+    "partner",
+    "administrator"
+  ],
+  "extraction_hash": "96f2f5ea7fdc07b3252c888e7215c39c759806622b457a9332703906e8b27d30",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0206324
+  }
+}

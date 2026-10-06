@@ -1,0 +1,490 @@
+{
+  "video_id": "ugHFHtSxTlw",
+  "item_id": "video/yt-microsoft/ugHFHtSxTlw",
+  "title": "Business Central Under the Hood episode 7: Designing Business Central's UI, From Concept To Code",
+  "duration_s": 2426,
+  "systems": [
+    "development",
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "ui design",
+    "user experience",
+    "ux",
+    "design process",
+    "fluent design language",
+    "figma",
+    "design tools",
+    "microsoft standards",
+    "design language",
+    "user research",
+    "mockups",
+    "discoverability"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to UI and UX in Business Central",
+      "t_start": 0,
+      "t_end": 193.9
+    },
+    {
+      "title": "Feature Design Process and Timeline",
+      "t_start": 193.9,
+      "t_end": 354.3
+    },
+    {
+      "title": "Design Principles and User Understanding",
+      "t_start": 354.3,
+      "t_end": 496.4
+    },
+    {
+      "title": "Fluent Design Language and Microsoft Standards",
+      "t_start": 496.4,
+      "t_end": 638.8
+    },
+    {
+      "title": "Figma as a Design Tool",
+      "t_start": 638.8,
+      "t_end": 780.1
+    },
+    {
+      "title": "Design tools and the gap between mockups and implementation",
+      "t_start": 780.1,
+      "t_end": 861
+    },
+    {
+      "title": "User research and iteration in design process",
+      "t_start": 861,
+      "t_end": 1022.8
+    },
+    {
+      "title": "AI features and the prompt dialogue evolution",
+      "t_start": 1022.8,
+      "t_end": 1113.7
+    },
+    {
+      "title": "Generative and evaluative user research methods",
+      "t_start": 1113.7,
+      "t_end": 1234.7
+    },
+    {
+      "title": "Modern online research replacing physical lab settings",
+      "t_start": 1234.7,
+      "t_end": 1355.5
+    },
+    {
+      "title": "Discoverability testing and user recruitment strategies",
+      "t_start": 1355.5,
+      "t_end": 1456.6
+    },
+    {
+      "title": "Analysis mode mockup versus shipped implementation and company switcher evolution",
+      "t_start": 1456.6,
+      "t_end": 1698.4
+    },
+    {
+      "title": "Aligning with Microsoft Product Patterns",
+      "t_start": 1698.4,
+      "t_end": 1789.6
+    },
+    {
+      "title": "UI Design Complexity and Expert Decision-Making",
+      "t_start": 1789.6,
+      "t_end": 1910.6
+    },
+    {
+      "title": "Red Lines in Design and Design Specifications",
+      "t_start": 1910.6,
+      "t_end": 2426
+    }
+  ],
+  "features": [
+    {
+      "name": "Fluent Design Language",
+      "description": "Microsoft's official design language used for all Microsoft products. Provides comprehensive style guides, widgets, colors, icons and interaction paradigms to ensure consistency across Microsoft products including Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 496.4,
+      "t_end": 557,
+      "is_demoed": false,
+      "caveats": [
+        "Business Central applies its own treatment and patterns while adhering to Fluent standards",
+        "Not all Office paradigms directly apply to ERP tasks"
+      ],
+      "tags": [
+        "design language",
+        "microsoft standards",
+        "ui"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Figma for UI Design",
+      "description": "The design tool used by Business Central design team for creating UI mockups and designs. Recently acquired by Adobe. Provides multi-user editing capabilities allowing design teams to collaborate on the same document simultaneously. CSS can be taken directly from Figma for developer handoff.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 638.8,
+      "t_end": 820.6,
+      "is_demoed": false,
+      "caveats": [
+        "Recently acquired by Adobe",
+        "Initial mockups often differ significantly from final implementation",
+        "CSS handoff improves developer workflow"
+      ],
+      "tags": [
+        "design tool",
+        "figma",
+        "collaboration",
+        "ui mockups",
+        "design handoff",
+        "css"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Company Switcher",
+      "description": "A feature that allows users to switch between different companies in Business Central. Described as a smaller feature with a shorter development timeline from concept to release compared to larger investments. Evolved from a simple company switcher to a complex environment and company switcher. Initial design was a simple company dropdown, but user feedback revealed customers needed to switch between multiple environments and companies across environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 252,
+      "t_end": 1769,
+      "is_demoed": true,
+      "caveats": [
+        "Originally designed as simple company switcher, expanded scope significantly",
+        "Requires coordination between platform and client teams",
+        "Involved aligning with Microsoft product patterns from other platforms"
+      ],
+      "tags": [
+        "company switcher",
+        "ui feature",
+        "navigation",
+        "environment switching",
+        "environment management",
+        "user experience"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Onboarding Project",
+      "description": "A multi-release investment feature that was gradually built out over multiple releases. Required a lengthy period of research, design and implementation to understand what onboarding means for Business Central users. Includes optional banner-based onboarding checklist that users can engage with or dismiss. Replaced an earlier full-screen modal approach that was too invasive and required completion before users could explore Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 231.2,
+      "t_end": 1991.3,
+      "is_demoed": true,
+      "caveats": [
+        "Took multiple releases to research, design and implement",
+        "Replaced an earlier full-screen modal design that was rejected",
+        "Requires extreme discoverability for users with no Business Central knowledge"
+      ],
+      "tags": [
+        "onboarding",
+        "multi-release",
+        "user experience",
+        "user guidance",
+        "optional ui",
+        "new users"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Analysis mode",
+      "description": "A feature designed for experienced Business Central users to perform data analysis. Initially mocked with tabs at the bottom of the page, but user testing revealed users overlooked them, so tabs were moved to the top of the page before shipping.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1416.5,
+      "t_end": 1557.2,
+      "is_demoed": true,
+      "caveats": [
+        "Targeting experienced users only, not new users"
+      ],
+      "tags": [
+        "ui design",
+        "user research",
+        "mockups",
+        "experienced users"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Prompt dialogue for Copilot features",
+      "description": "An AI feature that started in V1 as very limited but has been continually built out. Now provides the foundation for delivering Copilot actions and features in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1043,
+      "t_end": 1073.5,
+      "is_demoed": false,
+      "caveats": [
+        "V1 was limited, has been iterated upon"
+      ],
+      "tags": [
+        "copilot",
+        "ai features",
+        "iteration",
+        "design evolution"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Design Specification with Red Lines",
+      "description": "A detailed design specification approach using Figma that documents precise details including font sizes, margin sizes, spacing, and component behavior. Features red line annotations showing the design intent that developers must implement. Includes testing for content expansion and localization impacts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1991.3,
+      "t_end": 2112.2,
+      "is_demoed": true,
+      "caveats": [
+        "Includes testing for content expansion and localization impacts",
+        "Requires flexibility for multi-language scaling"
+      ],
+      "tags": [
+        "design process",
+        "figma",
+        "css handoff",
+        "specification"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Component Flexibility for Localization",
+      "description": "Design components are built with flexibility to scale up or down based on localized content, ensuring that text flows and looks reasonable across multiple languages without redesign.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2072.1,
+      "t_end": 2112.2,
+      "is_demoed": false,
+      "caveats": [
+        "Design challenge due to unknown content length at design time"
+      ],
+      "tags": [
+        "localization",
+        "responsive design",
+        "component design"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Partner UI Limitations and Standardization",
+      "description": "Partners and developers building extensions for Business Central have limited UI control. They cannot adjust pixels, button sizes, or element placement. Microsoft makes centralized UI decisions to ensure consistency and provide built-in functionality like behavior, translations, and security.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2152.4,
+      "t_end": 2273.5,
+      "is_demoed": false,
+      "caveats": [
+        "Partners must stay within the standard flexibility spectrum",
+        "Building highly customized solutions outside Business Central standards becomes complicated"
+      ],
+      "tags": [
+        "partner development",
+        "ui control",
+        "standardization",
+        "extensibility"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Power Apps Integration for Customization",
+      "description": "Power Apps can be used as an alternative when Business Central customization needs exceed the flexibility spectrum. This allows building highly customized solutions while maintaining integration with Business Central data.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2328.4,
+      "t_end": 2409.7,
+      "is_demoed": false,
+      "caveats": [
+        "Power Apps requires more development effort than using Business Central standard pages",
+        "Requires evaluating tradeoff between flexibility and built-in functionality"
+      ],
+      "tags": [
+        "power apps",
+        "customization",
+        "integration",
+        "third-party tools"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "prompt dialogue",
+      "t": 1043
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Vincent",
+      "confidence": "high"
+    },
+    {
+      "name": "Yinda",
+      "confidence": "medium"
+    },
+    {
+      "name": "Yob",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 112.1,
+      "text": "serving up the data and allowing users to work with business central but to have a good user experience",
+      "why_it_matters": "Defines UX as broader than just visual UI, including documentation and product discovery.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 292.7,
+      "text": "with with sort of the key investments so we can do our sort of due",
+      "why_it_matters": "Describes the design team's involvement in early-stage feature planning before implementation.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 516.6,
+      "text": "we are adhering to what is known as the fluent design language which is microsoft sort of official",
+      "why_it_matters": "Confirms Business Central uses Fluent Design Language for consistency with other Microsoft products.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 577.6,
+      "text": "it's important our user when they see the product they recognize it at business Central as well right they don't look when they don't",
+      "why_it_matters": "Explains the importance of maintaining Business Central's distinctive visual and interaction identity.",
+      "check": "exact"
+    },
+    {
+      "t": 638.3,
+      "text": "office is a huge inspiration for us in terms of how things should work and act",
+      "why_it_matters": "Establishes that while Office provides design inspiration, Business Central must adapt patterns to ERP-specific tasks.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 739.6,
+      "text": "their killer feature if you will for why they got successful was that they handled multi-user editing very well from from day one",
+      "why_it_matters": "Explains why Figma became the preferred design tool for collaborative teams at Microsoft.",
+      "check": "snapped"
+    },
+    {
+      "t": 881.1,
+      "text": "the initial idea about what this should do and then where it ends up after working with Engineers PMs uh doing use research uh",
+      "why_it_matters": "Explains the fundamental design principle that mockups diverge from shipped features due to input from engineers, product managers, and user research insights.",
+      "check": "snapped"
+    },
+    {
+      "t": 982.6,
+      "text": "what we do for a living so to say we we are selling the vision of how great this could be and then um",
+      "why_it_matters": "Describes the core tension between design vision and implementation constraints - designers inspire with ambitious concepts but must compromise during development.",
+      "check": "snapped"
+    },
+    {
+      "t": 1043,
+      "text": "our initial version V1 was very sort of limited but then we have continued building it out so today it's the I would say",
+      "why_it_matters": "Shows how the prompt dialogue feature evolved from limited initial release to a mature foundation for Copilot capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 1194.3,
+      "text": "it's much cheaper to change a PowerPoint than it is to to change something that you have coded so the more discoveries you can",
+      "why_it_matters": "Explains the cost-benefit of early user research with mockups versus changes after implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 1557.2,
+      "text": "we can't go forward with a feature where more than half of the test participants were not noticing these tabs here so so they",
+      "why_it_matters": "Documents a specific usability decision (moving tabs from bottom to top of analysis mode) based on quantitative user testing results.",
+      "check": "exact"
+    },
+    {
+      "t": 1637.9,
+      "text": "this is not actually a company switcher what users want here is an environment and Company switcher",
+      "why_it_matters": "Shows how initial feature assumptions evolved based on customer needs, demonstrating the design iteration process",
+      "check": "exact"
+    },
+    {
+      "t": 1658,
+      "text": "this started as a relatively simple feature how difficult can it be to switch company to actually just a drop down of some kind",
+      "why_it_matters": "Illustrates scope expansion during development - company switcher evolved from simple dropdown to complex multi-environment feature requiring cross-team coordination.",
+      "check": "snapped"
+    },
+    {
+      "t": 1658,
+      "text": "before this feature it was super hard for them actually to discover the other environments",
+      "why_it_matters": "Establishes the business problem that drove the feature - customers had poor discoverability of available environments",
+      "check": "exact"
+    },
+    {
+      "t": 1930.6,
+      "text": "this experience where we were sort of pretty much taking over the whole screen right off the bat when users came into business Central",
+      "why_it_matters": "Explains why an early design concept was rejected, showing the importance of user exploration freedom in onboarding",
+      "check": "exact"
+    },
+    {
+      "t": 2011.4,
+      "text": "documenting uh at a at a very precise uh level of detail that is needed to actually go and implement this so it's all",
+      "why_it_matters": "Describes the granular specification level required for design handoff, establishing design rigor standards",
+      "check": "exact"
+    },
+    {
+      "t": 2092.1,
+      "text": "we need to make sure that all the components we design are flexible in their sizing",
+      "why_it_matters": "Highlights the critical design consideration for multi-language support where content length is variable",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2152.4,
+      "text": "as opposed maybe to other type of programming when when our partners develop their features they don't have that level",
+      "why_it_matters": "Establishes the fundamental constraint for partner developers - limited UI control to ensure consistency",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 18,
+    "quotes_dropped": 4,
+    "evidence_verified": 0,
+    "evidence_unverified": 10
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022517000000000002
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.024632
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.026164
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023211
+    }
+  ]
+}

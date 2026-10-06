@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-page-6401-flow-selector-replacement-code",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "beeb826f538c39c0ac4607c4f9ef3e6703ca0f41",
       "words": 56,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:36.143Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 4,
+      "cost_usd": 0.00503
     }
   },
   "input_hash": "beeb826f538c39c0ac4607c4f9ef3e6703ca0f41",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "beeb826f538c39c0ac4607c4f9ef3e6703ca0f41"
+  "output_hash": "48b0ff7403eda8d5f1840996ce58972774cf1c37b919d7871ddc13f8a7f1bdc3"
 }

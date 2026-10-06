@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/authenticate-web-services-using-oauth",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "7ab1495db6939eb12652225b51b04275ae87c909",
       "words": 977,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:36.145Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.00503
     }
   },
   "input_hash": "7ab1495db6939eb12652225b51b04275ae87c909",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7ab1495db6939eb12652225b51b04275ae87c909"
+  "output_hash": "75bad404233ef435d7e3ba7afeb76ee0ddd9eea7fbded19375b72ccab99a660d"
 }

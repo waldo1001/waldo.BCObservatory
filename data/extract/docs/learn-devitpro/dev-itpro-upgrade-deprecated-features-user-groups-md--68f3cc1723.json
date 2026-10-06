@@ -1,0 +1,144 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/upgrade/deprecated-features-user-groups.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-user-groups",
+  "title": "Migrate from User Groups to Permission Sets or Security Groups",
+  "blob": "73a00adc01b6cc092a7a268dff00219422af6100",
+  "summary": "User groups are deprecated in favor of permission sets and security groups for permission management in Business Central extensions, with migration guidance and code examples provided.",
+  "systems": [
+    "administration",
+    "development"
+  ],
+  "topics": [
+    "security",
+    "permissions",
+    "user groups",
+    "permission sets",
+    "security groups",
+    "deprecated",
+    "migration"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "User Group"
+    },
+    {
+      "type": "table",
+      "name": "User Group Member"
+    },
+    {
+      "type": "table",
+      "name": "User Group Access Control"
+    },
+    {
+      "type": "table",
+      "name": "User Group Permission Set"
+    },
+    {
+      "type": "table",
+      "name": "User Group Plan"
+    },
+    {
+      "type": "page",
+      "name": "Users in User Groups Chart"
+    },
+    {
+      "type": "page",
+      "name": "Default User Groups In Plan"
+    },
+    {
+      "type": "page",
+      "name": "Custom User Groups In Plan"
+    },
+    {
+      "type": "page",
+      "name": "User Group Plan FactBox"
+    },
+    {
+      "type": "page",
+      "name": "User Groups FactBox"
+    },
+    {
+      "type": "page",
+      "name": "User Groups"
+    },
+    {
+      "type": "page",
+      "name": "User Group Members"
+    },
+    {
+      "type": "page",
+      "name": "User Group Members FactBox"
+    },
+    {
+      "type": "page",
+      "name": "User Groups User SubPage"
+    },
+    {
+      "type": "page",
+      "name": "User Group Permission Sets"
+    },
+    {
+      "type": "page",
+      "name": "User Group Permissions FactBox"
+    },
+    {
+      "type": "page",
+      "name": "User Group Memberships FactBox"
+    },
+    {
+      "type": "page",
+      "name": "Permission Set by User Group"
+    },
+    {
+      "type": "page",
+      "name": "User by User Group"
+    },
+    {
+      "type": "page",
+      "name": "User Group by Plan"
+    },
+    {
+      "type": "query",
+      "name": "Users in User Groups"
+    },
+    {
+      "type": "report",
+      "name": "Copy User Group"
+    },
+    {
+      "type": "xmlport",
+      "name": "Export/Import User Groups"
+    },
+    {
+      "type": "xmlport",
+      "name": "Export/Import Plans"
+    },
+    {
+      "type": "codeunit",
+      "name": "Legacy User Groups"
+    },
+    {
+      "type": "page",
+      "name": "User Groups Migration Guide"
+    }
+  ],
+  "features": [
+    "permission sets",
+    "security groups",
+    "access control",
+    "user assignment",
+    "tenant permission sets"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00503,
+      "pages_in_call": 8
+    }
+  ]
+}

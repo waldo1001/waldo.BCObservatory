@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-user-groups",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,13 @@
       "blob": "73a00adc01b6cc092a7a268dff00219422af6100",
       "words": 684,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:36.142Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 26,
+      "cost_usd": 0.00503
     }
   },
   "input_hash": "73a00adc01b6cc092a7a268dff00219422af6100",
@@ -35,5 +42,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "73a00adc01b6cc092a7a268dff00219422af6100"
+  "output_hash": "82e92670b98b52576bd466bad4c1dbac90e8216b760bcb1e2eebabf01504435b"
 }

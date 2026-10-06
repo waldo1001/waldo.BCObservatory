@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/licensing",
   "published_at": "2025-10-02T13:38:52.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "acf5dc7baea4a70b780d140d2310ddd9a87c71b1",
       "words": 1427,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:03:26.169Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 5,
+      "cost_usd": 0.004778
+    },
+    "summarized": {
+      "at": "2026-10-06T19:03:26.183Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:03:26.184Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:03:26.185Z",
+      "page": false
     }
   },
   "input_hash": "acf5dc7baea4a70b780d140d2310ddd9a87c71b1",
@@ -35,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "acf5dc7baea4a70b780d140d2310ddd9a87c71b1"
+  "output_hash": "06a5c9452e175b1d290e5cc20924b41da00f2df41d6e2b798fb6efcf8b9c3341"
 }

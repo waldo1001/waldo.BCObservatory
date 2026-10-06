@@ -1,0 +1,66 @@
+{
+  "item_id": "docs/learn-devitpro/dev-itpro/deployment/licensing.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/licensing",
+  "title": "Licensing in Business Central",
+  "blob": "acf5dc7baea4a70b780d140d2310ddd9a87c71b1",
+  "summary": "Licensing structure for Business Central covering Essentials, Premium, Team Member, and External Accountant plans with entitlements, user groups, and device licenses.",
+  "systems": [
+    "administration",
+    "platform"
+  ],
+  "topics": [
+    "licensing",
+    "entitlements",
+    "user groups",
+    "permissions",
+    "service plans"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Entitlements"
+    },
+    {
+      "type": "table",
+      "name": "Entitlement Set"
+    },
+    {
+      "type": "table",
+      "name": "User Group Plan"
+    },
+    {
+      "type": "page",
+      "name": "User"
+    },
+    {
+      "type": "page",
+      "name": "Effective Permissions"
+    }
+  ],
+  "features": [
+    "Essentials license",
+    "Premium license",
+    "Team Member license",
+    "External Accountant license",
+    "device licenses",
+    "entitlements",
+    "user group mapping",
+    "Microsoft 365 licenses"
+  ],
+  "versions": [
+    "2020 release wave 2",
+    "2022 release wave 1",
+    "version 17.0",
+    "version 25.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004778,
+      "pages_in_call": 8
+    }
+  ]
+}
