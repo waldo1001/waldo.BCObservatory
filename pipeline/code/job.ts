@@ -128,7 +128,8 @@ export async function extractApps(root: string, apps: CodeApp[], ctx: { version:
     if (!existsSync(dir)) { log.warn(`${a.app}: ${a.path} missing in ${root}`); continue; }
     if (a.app === "Base Application") build = appVersion(dir);
     for (const f of listFiles(dir, ".al")) {
-      files++;
+      // parsing is synchronous: yield every 200 files so the nightly's other workers keep their LLM calls moving
+      if (++files % 200 === 0) await new Promise((r) => setImmediate(r));
       for (const o of extractSource(parser, readFileSync(f, "utf8"), { version: ctx.version, country: ctx.country, layer: ctx.layer, app: a.app, file: relative(root, f), docs: ctx.docs })) {
         if (o.parse_error) errors++;
         objects.set(objectKey(o), o);
@@ -258,7 +259,7 @@ export function codeExtracted(deps: CodeDeps): StageHandler {
           let files = 0, errors = 0;
           for (const [, f] of view.files) {
             if (f.layer === chain[0]) continue; // W1 files are W1 objects; only what the chain adds or overrides can differ
-            files++;
+            if (++files % 200 === 0) await new Promise((r) => setImmediate(r));
             for (const o of extractSource(parser, readFileSync(f.abs, "utf8"), { version: job.major, country: cc, layer: "overlay", app: job.cfg.country_app, file: relative(root, f.abs), docs: job.cfg.docs })) {
               if (o.parse_error) errors++;
               country.set(objectKey(o), o);

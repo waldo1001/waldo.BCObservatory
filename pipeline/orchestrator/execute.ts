@@ -222,6 +222,9 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
     return null;
   };
 
+  /** Wake one idle worker: something was handed back through `requeue` (set up with the workers below). */
+  let wakeWorker = () => {};
+
   /** Run one item through every stage it can take now; batch peers are handed back through `requeue`. */
   const runItem = async (id: string): Promise<void> => {
     visited.add(id);
@@ -234,7 +237,7 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
       if (!holding) return;
       laneBusy.delete(holding);
       const waiting = parked.get(holding);
-      if (waiting?.length) requeue.unshift(waiting.shift()!);
+      if (waiting?.length) { requeue.unshift(waiting.shift()!); wakeWorker(); }
       holding = null;
     };
     try {
@@ -284,7 +287,7 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
         for (const g of group) {
           const after = stop ? null : settle(g, stage, results.get(g.id) ?? new Error("batch returned no result for this item"));
           if (g.id === item.id) mine = after;
-          else { inBatch.delete(g.id); if (after && !stop) requeue.push(g.id); }
+          else { inBatch.delete(g.id); if (after && !stop) { requeue.push(g.id); wakeWorker(); } }
         }
         item = mine;
       }
@@ -295,8 +298,22 @@ export async function executePlan(o: ExecuteOptions): Promise<ExecutionReport> {
   };
 
   const workers = Math.max(1, Math.floor(o.concurrency ?? 1));
+  // A worker with nothing to take waits while other items are in flight: a lane release or a finished batch hands
+  // work back through `requeue`, and every worker should be there to take it. It leaves when nothing is running,
+  // parked or requeued. (Workers used to leave as soon as the cursor reached the end, so late in a run one worker
+  // served every parked caption item and its LLM stages alone.)
+  let wake: (() => void) | null = null;
+  const nudge = () => { const w = wake; wake = null; w?.(); };
+  wakeWorker = nudge;
+  const idle = () => new Promise<void>((r) => { const prev = wake; wake = () => { prev?.(); r(); }; setTimeout(nudge, 1000); });
+  const parkedCount = () => [...parked.values()].reduce((n, l) => n + l.length, 0);
   await Promise.all(Array.from({ length: workers }, async () => {
-    for (let id = nextId(); id && !stop; id = nextId()) await runItem(id);
+    while (!stop) {
+      const id = nextId();
+      if (id) { await runItem(id); nudge(); continue; }
+      if (!active.size && !parkedCount() && !requeue.length) break;
+      await idle();
+    }
   }));
   if (stop) r.stop_reason = stop;
   r.items_touched = touched.size;

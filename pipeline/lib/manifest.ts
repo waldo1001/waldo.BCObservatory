@@ -112,6 +112,17 @@ export function captionRetryDue(item: ManifestItem, now: Date): boolean {
   const since = Date.parse(item.skipped_at ?? (item.stages.fetched?.at as string | undefined) ?? "");
   return Number.isFinite(since) && now.getTime() - since >= CAPTION_RETRY_DAYS * 86_400_000;
 }
+/** D33: `leak` skips predate field trimming; they get two more chances from their last completed stage. */
+export const LEAK_RETRIES = 2;
+export function leakRetryDue(item: ManifestItem): boolean {
+  return item.state === "skipped" && item.skip === "leak" && Number(item.meta?.leak_retries ?? 0) < LEAK_RETRIES;
+}
+export function reviveFromLeak(item: ManifestItem): ManifestItem {
+  const flow = FLOWS[item.pillar];
+  const last = [...flow].reverse().find((s) => item.stages[s]) ?? "discovered";
+  return { ...item, state: last, skip: null, skipped_at: null, attempts: 0, last_error: null, retry_after: null, meta: { ...(item.meta ?? {}), leak_retries: Number(item.meta?.leak_retries ?? 0) + 1 } };
+}
+
 /** Back to `discovered`: the next run re-reads the video's metadata (which caption tracks exist) and tries again. */
 export function reviveForCaptions(item: ManifestItem): ManifestItem {
   return { ...item, state: "discovered", skip: null, skipped_at: null, attempts: 0, last_error: null, retry_after: null, meta: { ...(item.meta ?? {}), caption_retries: Number(item.meta?.caption_retries ?? 0) + 1 } };

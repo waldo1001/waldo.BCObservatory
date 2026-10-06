@@ -150,3 +150,10 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   and its operation pages (`.../api/dynamics_<entity>_<op>`, longest entity prefix) document the standard API page
   (PageType API, no APIPublisher) of that APIVersion whose EntityName is the entity: an identifier join, not title
   matching. 448 of 582 API reference pages linked; docs↔objects now 1,592 Learn pages, 5,336 links, each with `via`.
+- **D33 Workers stay until the plan is drained; community fields are trimmed, not skipped.** The executor's workers
+  used to leave once the cursor passed the last planned item, so items parked on the yt-dlp lane (and batch peers
+  handed back) were then served by one worker, stage by stage: with concurrency 6 the Mini ran 1-3 LLM calls. Idle
+  workers now wait while anything is in flight, parked or requeued, and are woken when a lane frees or a batch hands
+  items back; the code job yields to the event loop every 200 files. The per-item community guard (D25) trims each
+  field that repeats 25+ caption words to 20 words + "..." instead of skipping the video; the 31 earlier `leak`
+  skips get two more chances from their last completed stage (LLM calls are cached).

@@ -7,7 +7,7 @@ import matter from "gray-matter";
 import { captionable, captionedHandler } from "../../pipeline/caption/fetch.js";
 import { writeJson } from "../../pipeline/lib/fsx.js";
 import type { LlmRequest } from "../../pipeline/lib/llm.js";
-import { CAPTION_RETRIES, captionRetryDue, reviveForCaptions, skip, type ManifestItem } from "../../pipeline/lib/manifest.js";
+import { CAPTION_RETRIES, captionRetryDue, LEAK_RETRIES, leakRetryDue, reviveForCaptions, reviveFromLeak, skip, type ManifestItem } from "../../pipeline/lib/manifest.js";
 import { ROOT } from "../../pipeline/lib/paths.js";
 import { validate } from "../../pipeline/lib/schema.js";
 import type { StageFn } from "../../pipeline/orchestrator/execute.js";
@@ -48,7 +48,7 @@ test("community videos are captioned only into a vault that is a git checkout, n
   assert.equal(existsSync(join(dataDir, "captions")), false, "nothing community lands in the public data dir");
 });
 
-test("per-item leak guard: a summary repeating 25 caption words is not written; official items are not checked", async () => {
+test("per-item leak guard: a field repeating 25 caption words is trimmed to 20; official items are not checked", async () => {
   const v = vault();
   writeJson(join(v, `captions/community/yt-comm/${ID}.segments.json`), { segments: [{ t: 0, end: 60, text: SPOKEN }] });
   const dataDir = mkdtempSync(join(tmpdir(), "bcobs-data-"));
@@ -56,8 +56,10 @@ test("per-item leak guard: a summary repeating 25 caption words is not written; 
   const leaky = SPOKEN.split(" ").slice(3, 3 + SHINGLE).join(" ");
   const llm: Llm = async <T>(_r: LlmRequest) => ({ output: { summary: `It says ${leaky}.`, overview: "o", key_points: ["k"], audience: ["developer"] } as T, cached: false, meta: { model: "claude-sonnet-5-5" } as any });
   const r = await summarizedHandler(item({ state: "extracted" }), { dataDir }, llm);
-  assert.equal((r as any).skip, "leak");
-  assert.equal(existsSync(summaryPath(dataDir, ID)), false);
+  assert.equal((r as any).skip, undefined, "trimmed, not skipped");
+  const saved = JSON.parse(readFileSync(summaryPath(dataDir, ID), "utf8"));
+  assert.equal(saved.summary.split(" ").length, 21, "20 words + ...");
+  assert.ok(saved.summary.endsWith(" ...") && communityLeak(item(), dataDir, saved) === null);
   const short = SPOKEN.split(" ").slice(3, 3 + SHINGLE - 1).join(" ");
   assert.equal(communityLeak(item(), dataDir, { s: short }), null, "24 words is a quote, not a leak");
   assert.equal(communityLeak(item({ tier: "official" }), dataDir, { s: leaky }), null);
@@ -88,4 +90,12 @@ test("no-captions skips come back weekly, at most CAPTION_RETRIES times", () => 
   assert.deepEqual([back.state, back.skip, back.meta?.caption_retries], ["discovered", null, 1]);
   const spent = { ...skipped, meta: { caption_retries: CAPTION_RETRIES } };
   assert.equal(captionRetryDue(spent, new Date("2027-01-01")), false);
+});
+
+test("leak skips from before trimming come back from their last completed stage, twice at most", () => {
+  const skipped = skip(item({ state: "captioned", stages: { fetched: { at: "x" }, captioned: { at: "y" } } }), "leak");
+  assert.ok(leakRetryDue(skipped));
+  const back = reviveFromLeak(skipped);
+  assert.deepEqual([back.state, back.skip, back.meta?.leak_retries], ["captioned", null, 1]);
+  assert.equal(leakRetryDue({ ...skipped, meta: { leak_retries: LEAK_RETRIES } }), false);
 });

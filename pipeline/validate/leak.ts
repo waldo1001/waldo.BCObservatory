@@ -89,21 +89,46 @@ export function forEachShingle(words: string[], fn: (key: number, start: number)
  * instead of the commit-time scan blocking the whole night.
  */
 export function repeatsRun(raw: string, derived: string): string | null {
+  return repeatChecker(raw)(derived);
+}
+/** repeatsRun with the raw text indexed once, for checking many strings against the same source. */
+export function repeatChecker(raw: string): (derived: string) => string | null {
   const rw = leakWords(raw);
   const index = new Set<number>();
   forEachShingle(rw, (k) => { index.add(k); });
-  if (!index.size) return null;
   const hay = ` ${rw.join(" ")} `;
-  const dw = leakWords(derived);
-  let hit: string | null = null;
-  forEachShingle(dw, (k, start) => {
-    if (!index.has(k)) return;
-    const run = dw.slice(start, start + SHINGLE).join(" ");
-    if (!hay.includes(` ${run} `)) return;
-    hit = run;
-    return true;
-  });
-  return hit;
+  return (derived: string) => {
+    if (!index.size) return null;
+    const dw = leakWords(derived);
+    let hit: string | null = null;
+    forEachShingle(dw, (k, start) => {
+      if (!index.has(k)) return;
+      const run = dw.slice(start, start + SHINGLE).join(" ");
+      if (!hay.includes(` ${run} `)) return;
+      hit = run;
+      return true;
+    });
+    return hit;
+  };
+}
+/**
+ * Trim every string inside `value` that repeats a run of SHINGLE raw words to its first SCRUB_WORDS words + " ...",
+ * which stays under the quote limit. Returns the trimmed copy and how many strings were trimmed.
+ */
+export const SCRUB_WORDS = 20;
+export function scrubRepeats<T>(value: T, check: (s: string) => string | null): { value: T; trimmed: number } {
+  let trimmed = 0;
+  const walk = (v: unknown): unknown => {
+    if (typeof v === "string") {
+      if (!check(v)) return v;
+      trimmed++;
+      return `${v.split(/\s+/).slice(0, SCRUB_WORDS).join(" ")} ...`;
+    }
+    if (Array.isArray(v)) return v.map(walk);
+    if (v && typeof v === "object") return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, walk(x)]));
+    return v;
+  };
+  return { value: walk(value) as T, trimmed };
 }
 
 // ---------------------------------------------------------------------------------------------- vault raw text

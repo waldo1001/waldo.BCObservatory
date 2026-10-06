@@ -15,7 +15,7 @@ import { complete } from "../lib/llm.js";
 import type { ManifestItem } from "../lib/manifest.js";
 import { checkQuote, type Seg } from "../lib/quotes.js";
 import { canonicalJson, sha256 } from "../lib/text.js";
-import { captionSegmentsPath, communityLeak, extractionPath, statusSupported, type Llm, type VideoExtraction } from "../extract/video.js";
+import { captionSegmentsPath, communityLeak, guardCommunity, extractionPath, statusSupported, type Llm, type VideoExtraction } from "../extract/video.js";
 import { STATUSES } from "../extract/video-schema.js";
 import { clip, summaryPath, tidy, type VideoSummary } from "../summarize/video.js";
 
@@ -162,11 +162,12 @@ export async function reviewedHandler(item: ManifestItem, ctx: { dataDir: string
     const r = applyReview(x, s, out, segs);
     record.applied = r.applied;
     record.rejected_edits = r.rejected;
-    // Opus edits of a community video pass the same leak guard as the first pass (D21, D24)
-    const leak = communityLeak(item, ctx.dataDir, { x: r.x, s: r.s, issues: record.issues });
-    if (leak) return { skip: "leak", data: { stage: "reviewed", run: leak.split(" ").slice(0, 10).join(" ") } };
-    writeJson(xPath, r.x);
-    writeJson(sPath, r.s);
+    // Opus edits of a community video pass the same leak guard as the first pass (D21, D24, D33)
+    const g = guardCommunity(item, ctx.dataDir, { x: r.x, s: r.s, issues: record.issues });
+    if (!g) return { skip: "leak", data: { stage: "reviewed" } };
+    record.issues = g.value.issues;
+    writeJson(xPath, g.value.x);
+    writeJson(sPath, g.value.s);
   } else if (communityLeak(item, ctx.dataDir, record.issues)) {
     record.issues = []; // the review record is public; issues that repeat the captions are dropped
   }

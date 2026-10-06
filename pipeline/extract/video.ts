@@ -14,7 +14,7 @@ import { exists, readJson, writeJson } from "../lib/fsx.js";
 import { complete, type LlmRequest, type LlmResult } from "../lib/llm.js";
 import type { ManifestItem } from "../lib/manifest.js";
 import { vaultDir as currentVault } from "../lib/paths.js";
-import { repeatsRun } from "../validate/leak.js";
+import { repeatChecker, scrubRepeats } from "../validate/leak.js";
 import { checkQuote, type Seg } from "../lib/quotes.js";
 import { canonicalJson, sha256 } from "../lib/text.js";
 import { taxonomy } from "../lib/config.js";
@@ -122,11 +122,24 @@ export function captionSegmentsPath(item: ManifestItem, dataDir: string, vaultDi
  * Official (Microsoft) captions are full text, so their items are never checked.
  */
 export function communityLeak(item: ManifestItem, dataDir: string, derived: unknown): string | null {
+  const check = communityChecker(item, dataDir);
+  return check ? check(JSON.stringify(derived)) : null;
+}
+function communityChecker(item: ManifestItem, dataDir: string): ((s: string) => string | null) | null {
   if (item.tier === "official") return null;
   const p = captionSegmentsPath(item, dataDir);
   if (!exists(p)) return null;
-  const raw = readJson<{ segments: Seg[] }>(p).segments.map((s) => s.text).join(" ");
-  return repeatsRun(raw, JSON.stringify(derived));
+  return repeatChecker(readJson<{ segments: Seg[] }>(p).segments.map((s) => s.text).join(" "));
+}
+/**
+ * D25/D33: a community video's derived text with every field that repeats 25+ caption words trimmed to 20 words; null
+ * when even then the whole still repeats a run (the item is skipped). Official items pass through unchanged.
+ */
+export function guardCommunity<T>(item: ManifestItem, dataDir: string, derived: T): { value: T; trimmed: number } | null {
+  const check = communityChecker(item, dataDir);
+  if (!check) return { value: derived, trimmed: 0 };
+  const out = scrubRepeats(derived, check);
+  return check(JSON.stringify(out.value)) ? null : out;
 }
 export const extractionPath = (dataDir: string, videoId: string) => resolve(dataDir, "extract", "video", `${videoId}.json`);
 
@@ -247,16 +260,16 @@ export function extractionHash(x: VideoExtraction): string {
 
 /** Executor handler for the video `extracted` stage. */
 export async function extractedHandler(item: ManifestItem, ctx: { dataDir: string }, llm: Llm = complete) {
-  const x = await extractVideo(item, ctx.dataDir, llm);
-  const leak = communityLeak(item, ctx.dataDir, x);
-  if (leak) return { skip: "leak", data: { stage: "extracted", run: leak.split(" ").slice(0, 10).join(" ") } };
+  const guarded = guardCommunity(item, ctx.dataDir, await extractVideo(item, ctx.dataDir, llm));
+  if (!guarded) return { skip: "leak", data: { stage: "extracted" } };
+  const x = guarded.value;
   const path = extractionPath(ctx.dataDir, x.video_id);
   writeJson(path, x);
   return {
     output_hash: extractionHash(x),
     flags: extractionFlags(x),
     data: {
-      path: `data/extract/video/${x.video_id}.json`, prompt: `${STAGE}@${PROMPT_VERSION}`, windows: x.windows,
+      path: `data/extract/video/${x.video_id}.json`, prompt: `${STAGE}@${PROMPT_VERSION}`, windows: x.windows, ...(guarded.trimmed ? { trimmed_for_policy: guarded.trimmed } : {}),
       features: x.features.length, quotes: x.quotes.length, quotes_dropped: x.checks.quotes_dropped,
       models: [...new Set(x.llm.map((l) => l.model))], cost_usd: Number(x.llm.reduce((s, l) => s + (l.cost_usd ?? 0), 0).toFixed(6)),
     },

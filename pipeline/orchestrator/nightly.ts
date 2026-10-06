@@ -30,7 +30,7 @@ import { git } from "../lib/git.js";
 import { httpGet, type HttpGet } from "../lib/http.js";
 import { llmStats, setSpendLimit } from "../lib/llm.js";
 import { logger } from "../lib/log.js";
-import { captionRetryDue, Manifest, reviveForCaptions, skip, type Pillar } from "../lib/manifest.js";
+import { captionRetryDue, leakRetryDue, Manifest, reviveForCaptions, reviveFromLeak, skip, type Pillar } from "../lib/manifest.js";
 import { CACHE_DIR, DATA_DIR, ROOT, VAULT_DIR } from "../lib/paths.js";
 import { checkLeak, type LeakReport } from "../validate/leak.js";
 import { validateContent } from "../validate/content.js";
@@ -187,7 +187,10 @@ async function run(opts: NightlyOptions, deps: NightlyDeps): Promise<RunReport> 
 
   if (opts.stages === "all") {
     let revived = 0;
-    for (const item of manifest.list("video")) if (captionRetryDue(item, now)) { manifest.save(reviveForCaptions(item)); revived++; }
+    for (const item of manifest.list("video")) {
+      if (captionRetryDue(item, now)) { manifest.save(reviveForCaptions(item)); revived++; }
+      else if (leakRetryDue(item)) manifest.save(reviveFromLeak(item));
+    }
     if (revived) log.info(`captions: ${revived} no-captions videos retried`);
     report.captions_retried = revived;
     const quotas = capQuotas(scaleQuotas(opts.unlimited ? unlimitedQuotas(cfg.quotas) : cfg.quotas, guard), opts.quota);

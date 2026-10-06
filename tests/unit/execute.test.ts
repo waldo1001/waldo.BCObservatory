@@ -230,6 +230,18 @@ test("lanes: one item in the youtube lane at a time while LLM stages keep the ot
   assert.ok(r.parked >= 1);
 });
 
+test("lanes: idle workers stay for parked items, so items leaving the lane reach their LLM stages in parallel", async () => {
+  const m = setup(6);
+  const wait = (ms: number) => new Promise((r) => setTimeout(r, ms));
+  let llm = 0, llmPeak = 0;
+  const yt: StageFn = async () => { await wait(5); return {}; };
+  const slow: StageFn = async () => { llm++; llmPeak = Math.max(llmPeak, llm); await wait(60); llm--; return {}; };
+  const r = await run(m, allVideo({ fetched: { lane: "youtube", run: yt }, captioned: { lane: "youtube", run: yt }, extracted: slow }), { concurrency: 4 });
+  assert.equal(r.stop_reason, "done");
+  assert.equal(m.list().filter((i) => i.state === "published").length, 6, "every item finished");
+  assert.ok(llmPeak >= 3, `the LLM stage ran ${llmPeak} at a time; workers must not leave while parked items wait`);
+});
+
 test("lanes: concurrency 1 runs everything in plan order without parking", async () => {
   const m = setup(3);
   const order: string[] = [];
