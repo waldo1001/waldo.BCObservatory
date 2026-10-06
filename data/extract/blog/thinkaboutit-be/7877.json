@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/thinkaboutit-be/7877",
+  "url": "https://thinkaboutit.be/2026/05/quick-tip-github-copilot-billing-setting-the-record-straight/",
+  "title": "Quick Tip: GitHub Copilot Billing: Setting the Record Straight",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-05-06T08:08:31.000Z",
+  "words": 478,
+  "summary": "GitHub Copilot billing changes from request-based to usage-based pricing on June 1, 2026, affecting how sub-agent costs are calculated. Under the new model, each sub-agent's token consumption is billed individually rather than at the highest multiplier rate, making model selection for individual agents financially significant.",
+  "key_points": [
+    "Starting June 1, 2026, most Copilot subscribers switch to usage-based billing with per-token pricing and a monthly AI credits allowance",
+    "Request-based billing only continues for Copilot Pro and Pro+ subscribers on existing annual plans",
+    "Code completions remain unlimited and unaffected by billing changes",
+    "Under usage-based billing, each sub-agent's tokens are billed individually, unlike request-based billing where the highest-multiplier model determines the entire session price",
+    "Claude API rates in Copilot are comparable to direct API usage but differ from Claude.ai Pro flat subscription pricing"
+  ],
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "github copilot",
+    "billing",
+    "usage-based pricing",
+    "sub-agents",
+    "token consumption",
+    "cost optimization"
+  ],
+  "objects": [],
+  "features": [
+    "usage-based billing",
+    "request-based billing",
+    "monthly AI credits allowance",
+    "per-token pricing",
+    "code completions",
+    "Copilot Agent sessions",
+    "sub-agent model selection"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005798,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The price of an agentic session is determined by the highest-multiplier model used anywhere in the agent chain.",
+      "why_it_matters": "Clarifies how request-based billing works as contrast to usage-based billing, showing why the June 1 change matters for complex workflows"
+    },
+    {
+      "text": "On usage-based billing, the per-token rates for Claude models inside Copilot are close to Anthropic's standard API rates.",
+      "why_it_matters": "Helps users make cost comparisons between using Copilot and direct API access"
+    }
+  ]
+}

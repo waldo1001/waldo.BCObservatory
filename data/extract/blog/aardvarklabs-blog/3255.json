@@ -1,0 +1,65 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3255",
+  "url": "https://aardvarklabs.blog/2026/05/01/navigating-namespace-changes-in-business-central-28/",
+  "title": "Navigating Namespace Changes in Business Central 28",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-05-01T12:00:00.000Z",
+  "words": 462,
+  "summary": "Business Central 28 introduces fully qualified names for pages, codeunits, reports, and record references, allowing developers to reference objects directly without requiring using statements at the top of files. This improves code clarity by making object origins explicit at the point of use.",
+  "key_points": [
+    "Fully qualified names enable direct object reference without using statements",
+    "Reduces namespace declarations at the top of files, preserving code space",
+    "Applies to pages, codeunits, reports, and RecordRef objects",
+    "Makes code more readable by showing object origin at the line level"
+  ],
+  "systems": [
+    "development"
+  ],
+  "topics": [
+    "namespaces",
+    "al language",
+    "object references",
+    "code clarity"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "report",
+      "name": "Cash Applied"
+    },
+    {
+      "type": "codeunit",
+      "name": "Sales-Post (Yes/No)"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    }
+  ],
+  "features": [
+    "fully qualified names",
+    "namespace improvements",
+    "RecordRef support"
+  ],
+  "versions": [
+    "28"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005047,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "I don't need the namespace at the top of the file, and we are explicit as to where this page is coming from.",
+      "why_it_matters": "Highlights the key benefit of fully qualified names for code organization"
+    }
+  ]
+}

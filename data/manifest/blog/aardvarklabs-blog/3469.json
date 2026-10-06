@@ -7,13 +7,21 @@
   "url": "https://aardvarklabs.blog/2026/05/05/celebrating-55-years-of-the-555-timer/",
   "published_at": "2026-05-05T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:59:30.793Z",
+      "path": "vault:posts/aardvarklabs-blog/3469.md",
+      "words": 147
     }
   },
   "input_hash": "2026-04-30T19:31:50.000Z",
-  "attempts": 0,
-  "flags": []
+  "attempts": 1,
+  "flags": [],
+  "last_error": "model returned no entry for this post",
+  "retry_after": "2026-10-06T23:59:36.592Z",
+  "output_hash": "f4c084d12d72e120cec386aac91ee0cd3ea6f8aef07cde0ffc08cde7aaf339de"
 }

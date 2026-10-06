@@ -7,7 +7,7 @@
   "url": "https://thinkaboutit.be/2026/05/quick-tip-github-copilot-billing-setting-the-record-straight/",
   "published_at": "2026-05-06T08:08:31.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-06T21:59:24.723Z",
       "path": "vault:posts/thinkaboutit-be/7877.md",
       "words": 478
+    },
+    "extracted": {
+      "at": "2026-10-06T21:59:32.746Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.005798
+    },
+    "summarized": {
+      "at": "2026-10-06T21:59:32.747Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:59:32.748Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:59:32.750Z",
+      "path": "content/posts/thinkaboutit-be/7877.md"
     }
   },
   "input_hash": "2026-05-06T08:08:44.000Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "18e86789fe5700a4a888cddfbdecc96dfaaeb0e85ee3611117ec082f75edf30b"
+  "output_hash": "69261fae268e2f9582d2b751bf502c62b75bbee6647beefdc73be908ac5133d8"
 }

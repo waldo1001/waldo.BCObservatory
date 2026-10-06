@@ -7,13 +7,39 @@
   "url": "https://gerardorenteria.blog/2026/05/03/%f0%9f%aa%9d-vs-code-agent-hooks-give-copilot-context-before-the-first-message/",
   "published_at": "2026-05-03T16:10:32.000Z",
   "language": "es",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:59:39.069Z",
+      "path": "vault:posts/gerardorenteria-blog/14522.md",
+      "words": 1951
+    },
+    "extracted": {
+      "at": "2026-10-06T21:59:47.579Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.014804
+    },
+    "summarized": {
+      "at": "2026-10-06T21:59:47.581Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:59:47.582Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:59:47.587Z",
+      "path": "content/posts/gerardorenteria-blog/14522.md"
     }
   },
   "input_hash": "2026-05-03T16:10:44.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "045b3ed709046668e498c1834fbe45ca459a7cc5ce397d539b57714b30c03401"
 }

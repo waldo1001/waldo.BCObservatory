@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/demiliani-com/13695",
+  "url": "https://demiliani.com/2026/05/04/why-customers-ai-project-fail-the-gap-between-hype-and-reality/",
+  "title": "Why Customer’s AI project fail? The gap between hype and reality.",
+  "source": "demiliani-com",
+  "published_at": "2026-05-04T06:48:48.000Z",
+  "words": 3037,
+  "summary": "The post explains why most enterprise AI projects fail, arguing that the gap between rapid AI prototyping and production-grade AI systems is vastly underestimated. It examines how building reliable, integrated AI agents for Business Central requires proper architecture, orchestration, distributed systems knowledge, and organizational transformation rather than simply adding conversational interfaces to existing workflows.",
+  "key_points": [
+    "Enterprise AI systems fail not because of technology limitations but because organizations misunderstand the difference between vibe coding (rapid prototyping) and production AI requiring reliability, governance, and integration.",
+    "Successful AI agents need orchestration layers handling multiple integrations (Business Central OData, logistics APIs, SharePoint), error handling, state management, and asynchronous workflows, not just LLM API calls.",
+    "Real business transformation requires redesigning workflows fundamentally, not automating existing tasks; organizations must ask what work should be reimagined rather than where to add AI.",
+    "Partners and integrators need deep distributed systems knowledge (Azure Functions, Logic Apps, Service Bus), change management skills, and honest conversations about AI limitations, not just low-code platform familiarity.",
+    "Built-in AI features and Copilot Studio alone are insufficient for complex enterprise AI; they lack sophisticated error handling, long-running workflows, durable state persistence, and fine-grained governance."
+  ],
+  "systems": [
+    "copilot",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "ai agents",
+    "enterprise architecture",
+    "orchestration",
+    "business central integration",
+    "workflow redesign",
+    "distributed systems",
+    "governance",
+    "implementation risks"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Business Central"
+    }
+  ],
+  "features": [
+    "AI agents",
+    "Copilot integration",
+    "workflow orchestration",
+    "governance and audit trails",
+    "asynchronous processing",
+    "error handling and retry logic",
+    "state persistence",
+    "business rules enforcement"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.016006,
+    "posts_in_call": 1
+  },
+  "quotes": []
+}

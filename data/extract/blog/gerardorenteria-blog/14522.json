@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/gerardorenteria-blog/14522",
+  "url": "https://gerardorenteria.blog/2026/05/03/%f0%9f%aa%9d-vs-code-agent-hooks-give-copilot-context-before-the-first-message/",
+  "title": "🪝 VS Code Agent Hooks: Give Copilot Context Before the First Message",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-05-03T16:10:32.000Z",
+  "words": 1951,
+  "summary": "VS Code Agent Hooks allow developers to automatically run scripts at specific lifecycle events to provide dynamic context to AI agents before and during sessions. The post demonstrates how to use SessionStart and PreCompact hooks to ask onboarding questions, store answers, and reinject context when conversations are compacted, enabling agents to adapt their behavior based on project type, technology stack, and experience level.",
+  "key_points": [
+    "Agent hooks execute at 8 defined lifecycle points and receive/respond with JSON to influence agent behavior",
+    "SessionStart hook fires once when a session begins and can ask questions to establish context before any user input",
+    "PreCompact hook fires before conversation compaction to re-inject onboarded context so the agent doesn't lose session information",
+    "Hooks use JSONL files to persistently store session answers and profiles (junior, mid, senior) to tailor agent responses",
+    "Hooks provide dynamic runtime context complementary to instructions and custom prompts, not replacing them"
+  ],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "vs code",
+    "agent hooks",
+    "copilot context",
+    "onboarding",
+    "session management",
+    "dynamic prompts"
+  ],
+  "objects": [],
+  "features": [
+    "SessionStart hook",
+    "PreCompact hook",
+    "agent lifecycle events",
+    "dynamic context injection",
+    "profile-based behavior",
+    "JSONL logging",
+    "PowerShell script execution"
+  ],
+  "versions": [],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.014804,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Agent Hooks allow you to automatically run code at specific points in the agent lifecycle, before the user types anything.",
+      "why_it_matters": "This is the core capability that enables automation of context setup without manual intervention on every session."
+    },
+    {
+      "text": "Hooks don't replace instructions or custom prompts; instead, they provide dynamic runtime context.",
+      "why_it_matters": "Clarifies the complementary role of hooks within the broader system of agent customization."
+    }
+  ]
+}

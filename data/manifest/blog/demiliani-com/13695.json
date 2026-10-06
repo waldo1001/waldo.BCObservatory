@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/05/04/why-customers-ai-project-fail-the-gap-between-hype-and-reality/",
   "published_at": "2026-05-04T06:48:48.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:59:36.929Z",
+      "path": "vault:posts/demiliani-com/13695.md",
+      "words": 3037
+    },
+    "extracted": {
+      "at": "2026-10-06T21:59:47.842Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.016006
+    },
+    "summarized": {
+      "at": "2026-10-06T21:59:47.843Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:59:47.844Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:59:47.847Z",
+      "path": "content/posts/demiliani-com/13695.md"
     }
   },
   "input_hash": "2026-05-04T06:50:45.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "27ed95a411fe68bcd170c2407e4b96832b43f545073d5d63bb15ceaefa87b422"
 }

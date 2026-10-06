@@ -1,0 +1,71 @@
+{
+  "item_id": "blog/gerardorenteria-blog/14595",
+  "url": "https://gerardorenteria.blog/2026/05/01/new-application-ideas-of-dynamics-365-business-central-2026-apr/",
+  "title": "New Application Ideas of Dynamics 365 Business Central (2026 APR)",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-05-01T09:46:14.000Z",
+  "words": 825,
+  "summary": "This post collects application ideas and feature requests submitted by the community for Dynamics 365 Business Central as of April 2026, covering areas from finance and sales to warehousing and localization.",
+  "key_points": [
+    "Community-submitted feature ideas span multiple Business Central modules including finance, sales, purchasing, inventory, and warehousing",
+    "Ideas address both core functionality improvements and localization needs, such as e-document handling and country-specific requirements",
+    "Requests range from API enhancements and mobile improvements to process optimizations like FEFO picking and bank account assignment automation",
+    "Some ideas focus on fixing known issues like email attachment handling in SMTP connectors and prepayment invoice discrepancies"
+  ],
+  "systems": [
+    "copilot",
+    "finance",
+    "sales"
+  ],
+  "topics": [
+    "feature requests",
+    "community ideas",
+    "shopify connector",
+    "e-documents",
+    "mobile improvements",
+    "api access",
+    "financial reporting",
+    "localization"
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "1255"
+    },
+    {
+      "type": "codeunit",
+      "name": "90"
+    }
+  ],
+  "features": [
+    "Shopify Connector",
+    "E-Document handling",
+    "PDF processing with language support",
+    "Mobile device keyboards",
+    "SMTP attachments",
+    "Payment reconciliation",
+    "Bank deposit reporting",
+    "FEFO warehouse picking"
+  ],
+  "versions": [
+    "2026 APR",
+    "BC28",
+    "27.5",
+    "28.0"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00632,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "Would any of these ideas improve Business Central? Here is a list of some of them.",
+      "why_it_matters": "Frames the post as a compilation of community-driven improvement suggestions across the platform"
+    }
+  ]
+}

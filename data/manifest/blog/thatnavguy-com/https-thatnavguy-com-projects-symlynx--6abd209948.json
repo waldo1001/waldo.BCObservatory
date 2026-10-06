@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/projects/symlynx/",
   "published_at": "2026-05-06T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:59:30.342Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-projects-symlynx--6abd209948.md",
+      "words": 570
+    },
+    "extracted": {
+      "at": "2026-10-06T21:59:38.586Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.005639
+    },
+    "summarized": {
+      "at": "2026-10-06T21:59:38.587Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-06T21:59:38.588Z"
+    },
+    "published": {
+      "at": "2026-10-06T21:59:38.592Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-projects-symlynx--6abd209948.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "543f9fdd4c9e2ddf0d47686c4951013bb133a74f9c6a35a9b8b99bd0a4c047f8"
 }

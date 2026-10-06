@@ -7,13 +7,21 @@
   "url": "https://aardvarklabs.blog/2026/05/04/may-the-4th-craft-your-sci-fi-scene/",
   "published_at": "2026-05-04T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:59:33.060Z",
+      "path": "vault:posts/aardvarklabs-blog/3207.md",
+      "words": 95
     }
   },
   "input_hash": "2026-04-22T02:05:05.000Z",
-  "attempts": 0,
-  "flags": []
+  "attempts": 1,
+  "flags": [],
+  "last_error": "model returned no entry for this post",
+  "retry_after": "2026-10-06T23:59:38.986Z",
+  "output_hash": "7a0a37da70dc9177a84d87913246ad8bbfb9cb80f06289b16a258cd9ec700104"
 }

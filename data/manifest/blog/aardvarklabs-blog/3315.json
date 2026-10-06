@@ -7,13 +7,21 @@
   "url": "https://aardvarklabs.blog/2026/04/24/effective-steps-for-troubleshooting-business-central-agents/",
   "published_at": "2026-04-24T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
+    },
+    "fetched": {
+      "at": "2026-10-06T21:59:46.710Z",
+      "path": "vault:posts/aardvarklabs-blog/3315.md",
+      "words": 1181
     }
   },
   "input_hash": "2026-05-20T00:27:33.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e032ba638ccf3247d19540d5182a6bd2540f25960739d21179f9d7e992c83513"
 }

@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/thinkaboutit-be/7852",
+  "url": "https://thinkaboutit.be/2026/05/how-do-i-choose-the-right-ai-assistant-for-al-development/",
+  "title": "How Do I: Choose the Right AI Assistant for AL Development?",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-05-04T12:25:34.000Z",
+  "words": 980,
+  "summary": "When choosing an AI assistant for AL development, GitHub Copilot in VS Code excels for code generation with codebase context, while Claude.ai or Claude desktop offer better value for reasoning-heavy tasks like architecture and error analysis due to frontier model access without Copilot cost multipliers. The decision depends on the task type and the new usage-based billing model effective June 2026.",
+  "key_points": [
+    "GitHub Copilot has structural advantage in VS Code due to editor integration and access to workspace symbols and AL objects",
+    "Claude.ai and Claude desktop app provide frontier reasoning models without Copilot multipliers, making them cheaper for complex analysis and architecture work",
+    "Pricing multipliers vary significantly by model: Haiku at 0.33x, Sonnet at 1x, and Opus at 27x under Copilot's usage-based billing",
+    "Different AI tools suit different workflows: Copilot for inline completions, Claude for reasoning, and Copilot Agent for multi-file refactoring",
+    "The June 1 pricing change makes the cost of frontier models inside Copilot visible and may justify moving reasoning work to separate tools"
+  ],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "topics": [
+    "al development",
+    "ai assistants",
+    "copilot",
+    "code generation",
+    "architecture",
+    "pricing",
+    "vs code"
+  ],
+  "objects": [],
+  "features": [
+    "GitHub Copilot in VS Code",
+    "Claude.ai",
+    "Claude desktop app",
+    "Copilot Agent mode",
+    "editor integration",
+    "usage-based billing",
+    "model multipliers",
+    "agentic refactoring"
+  ],
+  "versions": [
+    "June 2026"
+  ],
+  "language": "en",
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00634,
+    "posts_in_call": 1
+  },
+  "quotes": [
+    {
+      "text": "The right tool depends on the task, not on loyalty to a single subscription.",
+      "why_it_matters": "Core principle for selecting the most economical and effective AI tool for different development activities"
+    }
+  ]
+}
