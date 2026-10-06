@@ -1,0 +1,245 @@
+{
+  "video_id": "_Bv3VX-kkpo",
+  "item_id": "video/yt-microsoft/_Bv3VX-kkpo",
+  "title": "What's New: User Experience Enhancements (2025 release wave 2)",
+  "duration_s": 313,
+  "systems": [
+    "platform",
+    "copilot",
+    "development"
+  ],
+  "topics": [
+    "screen state handling",
+    "factbox resizing",
+    "copilot pane",
+    "advanced tellme",
+    "semantic search",
+    "sales order agent",
+    "agent instructions",
+    "week numbers",
+    "data masking",
+    "sensitive fields"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to UX improvements",
+      "t_start": 0,
+      "t_end": 34.2
+    },
+    {
+      "title": "Screen state and workspace handling",
+      "t_start": 34.2,
+      "t_end": 67.7
+    },
+    {
+      "title": "Advanced Tellme search feature",
+      "t_start": 67.7,
+      "t_end": 142.8
+    },
+    {
+      "title": "Copilot and agent enhancements",
+      "t_start": 142.8,
+      "t_end": 207.8
+    },
+    {
+      "title": "Additional UI improvements",
+      "t_start": 207.8,
+      "t_end": 269.6
+    },
+    {
+      "title": "Conclusion and next steps",
+      "t_start": 269.6,
+      "t_end": 313
+    }
+  ],
+  "features": [
+    {
+      "name": "Factbox resize behavior",
+      "description": "The user interface now automatically adjusts when opening and closing the factbox by default. Users can also manually resize the factbox along with the copilot pane, help pane, and page scripting pane.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 45.7,
+      "t_end": 67.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "screen state",
+        "ui layout",
+        "responsive design"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Advanced Tellme",
+      "description": "A new semantic search feature that helps users find pages and reports faster by understanding the meaning of search terms rather than just matching keywords.",
+      "status": "preview",
+      "status_evidence_t": 88.2,
+      "status_evidence_quote": "This feature is in preview. So you need to enable that in feature management.",
+      "status_evidence_verified": true,
+      "t_start": 67.7,
+      "t_end": 142.8,
+      "is_demoed": true,
+      "caveats": [
+        "Must be enabled in feature management",
+        "Currently in preview phase"
+      ],
+      "tags": [
+        "search",
+        "semantic",
+        "navigation",
+        "tellme"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Agent assistant instructions",
+      "description": "Users can now provide additional instructions to agents like the sales order agent either by selecting predefined options or entering custom text instructions to help the agent complete tasks.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 157.8,
+      "t_end": 207.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "agent",
+        "interaction",
+        "user guidance"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Week numbers in date picker",
+      "description": "Date pickers now have an option to display week numbers on the side. Users can toggle this view by pressing Shift+Home, and the display follows regional settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 219.3,
+      "t_end": 239.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "date picker",
+        "calendar",
+        "regional settings"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Data masking for sensitive fields",
+      "description": "A new property allows hiding sensitive information like bank account numbers on screen until revealed by the user. AL developers can use this property to decorate fields that contain sensitive data.",
+      "status": "preview",
+      "status_evidence_t": 269.6,
+      "status_evidence_quote": "This feature is also in preview. So you have to enable that in feature management.",
+      "status_evidence_verified": true,
+      "t_start": 239.4,
+      "t_end": 269.6,
+      "is_demoed": true,
+      "caveats": [
+        "Must be enabled in feature management",
+        "Currently in preview",
+        "Will appear in different areas in coming releases"
+      ],
+      "tags": [
+        "security",
+        "privacy",
+        "sensitive data",
+        "masking"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Items",
+      "t": 98.9
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Unknown presenter",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 45.7,
+      "text": "You will notice in business central the user interface changes when you open and close the factbox. That's right now becomes a default behavior.",
+      "why_it_matters": "Establishes that factbox behavior is now enabled by default, changing how users interact with workspace layouts.",
+      "check": "exact"
+    },
+    {
+      "t": 88.2,
+      "text": "This feature is in preview. So you need to enable that in feature management.",
+      "why_it_matters": "Clarifies that Advanced Tellme requires manual enablement and is not yet generally available.",
+      "check": "exact"
+    },
+    {
+      "t": 127.3,
+      "text": "This uses semantic search to determine which pages or reports are closer to the search term that you entered in Teli.",
+      "why_it_matters": "Explains the technical approach behind Advanced Tellme's improved search capability.",
+      "check": "exact"
+    },
+    {
+      "t": 183,
+      "text": "In here we have now the ability to give additional instructions to the agent either by selecting a predefined option or providing uh text",
+      "why_it_matters": "Describes a key improvement for agent usability through flexible instruction methods.",
+      "check": "exact"
+    },
+    {
+      "t": 219.3,
+      "text": "We added an option to show weak numbers in date picker. You will see that in every date picker right now when you press",
+      "why_it_matters": "Announces a new date picker feature with a specific keyboard shortcut.",
+      "check": "exact"
+    },
+    {
+      "t": 254.4,
+      "text": "The bank account number for your company is currently hidden and I can reveal the data. If I press this little button here",
+      "why_it_matters": "Demonstrates the data masking feature for protecting sensitive information like bank account numbers.",
+      "check": "exact"
+    },
+    {
+      "t": 269.6,
+      "text": "This feature is also in preview. So you have to enable that in feature management.",
+      "why_it_matters": "Clarifies that data masking is in preview and requires enablement in feature management.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 88.2,
+      "kind": "preview",
+      "text": "This feature is in preview. So you need to enable that in feature management."
+    },
+    {
+      "t": 254.4,
+      "kind": "coming-later",
+      "text": "You will see this feature showing up in different areas of Business Central in the coming uh releases."
+    },
+    {
+      "t": 269.6,
+      "kind": "preview",
+      "text": "This feature is also in preview. So you have to enable that in feature management."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 2,
+    "evidence_unverified": 3
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.01467
+    }
+  ]
+}

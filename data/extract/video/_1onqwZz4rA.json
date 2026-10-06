@@ -1,0 +1,241 @@
+{
+  "video_id": "_1onqwZz4rA",
+  "item_id": "video/yt-microsoft/_1onqwZz4rA",
+  "title": "What's New: Demo Data for Analytics (2025 release wave 2)",
+  "duration_s": 408,
+  "systems": [
+    "reporting",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "demo data",
+    "analytics",
+    "contoso coffee",
+    "reporting",
+    "power bi",
+    "sales documents",
+    "purchase documents",
+    "open source",
+    "variation",
+    "documentation"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Enhanced Demo Data for Analytics",
+      "t_start": 0,
+      "t_end": 60.1
+    },
+    {
+      "title": "New Demo Data for Sales and Purchasing Documents",
+      "t_start": 60.1,
+      "t_end": 100.6
+    },
+    {
+      "title": "Demo Data Expansion Numbers and Continuous Investment",
+      "t_start": 100.6,
+      "t_end": 156.6
+    },
+    {
+      "title": "Design Principles and Open-Source Model",
+      "t_start": 156.6,
+      "t_end": 245.7
+    },
+    {
+      "title": "Analytics Data as Optional Component",
+      "t_start": 245.7,
+      "t_end": 275.4
+    },
+    {
+      "title": "Partner Resources and Community Engagement",
+      "t_start": 275.4,
+      "t_end": 408
+    }
+  ],
+  "features": [
+    {
+      "name": "Enhanced Demo Data Tool for Analytics",
+      "description": "New demo data package for the Contoso demo data tool designed specifically for analytics and reporting use cases. Includes new document types with meaningful variation across time, categories, and salespeople.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 19.4,
+      "t_end": 100.6,
+      "is_demoed": false,
+      "caveats": [
+        "Requires explicit selection when installing new company",
+        "Optional component separate from core setup"
+      ],
+      "tags": [
+        "demo data",
+        "analytics",
+        "contoso",
+        "reporting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Sales Documents Demo Data",
+      "description": "New demo data expanded for sales quotes (18 records, up from 2), blanket sales orders (4 new), posted sales invoices (increased from 80), and return orders (newly available).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 74.3,
+      "t_end": 125.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "demo data",
+        "sales",
+        "quotes",
+        "orders",
+        "invoices"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Purchasing Documents Demo Data",
+      "description": "New demo data for purchase orders and posted purchase orders, with counts doubled from 14 to 29 records.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 74.3,
+      "t_end": 87.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "demo data",
+        "purchasing",
+        "purchase orders"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Analytics Package Installation",
+      "description": "Demo data available through Contoso demo tool package called 'analytics' or automatically included when spinning up new company with all demo data selected.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 87.8,
+      "t_end": 100.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "demo data",
+        "installation",
+        "contoso"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Continued Demo Data Investment",
+      "description": "Plans to continue enhancing demo data in future release waves with both new entity types and greater variation in attributes and data distribution.",
+      "status": "announced",
+      "status_evidence_t": 136.6,
+      "status_evidence_quote": "Um and we will continue that investments in the next release wave both like more types of demo data and more types of entities",
+      "status_evidence_verified": true,
+      "t_start": 136.6,
+      "t_end": 168.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "demo data",
+        "roadmap",
+        "future releases"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Contoso Coffee Open-Source Project",
+      "description": "Demo data tool available as open-source project allowing community contributions and extensions for demo data and analytics.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 180.9,
+      "t_end": 231.6,
+      "is_demoed": false,
+      "caveats": [
+        "Community contributions welcome"
+      ],
+      "tags": [
+        "demo data",
+        "open source",
+        "contoso coffee",
+        "community"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [],
+  "presenters": [],
+  "quotes": [
+    {
+      "t": 32.6,
+      "text": "to make it easier to demo reporting and analytics so that means there are types of demo data that is needed for",
+      "why_it_matters": "Explains the core motivation for the demo data enhancement - to enable effective demonstration of reporting and analytics capabilities with realistic data.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 74.3,
+      "text": "So what we have done in this release wave is adding new or new demo data for sales and for purchasing. So quotes, blankets,",
+      "why_it_matters": "Announces the specific new document types available in this release wave for sales and purchasing modules.",
+      "check": "exact"
+    },
+    {
+      "t": 115.4,
+      "text": "Um so for sales quotes, before or without this package, you you had two sales quotes. Now you have 18 for blanket sales orders.",
+      "why_it_matters": "Provides concrete numbers showing the magnitude of demo data expansion for analytics use cases.",
+      "check": "exact"
+    },
+    {
+      "t": 217.6,
+      "text": "There's a one small difference between the demo data for analytics and the like the normal transactional demo data is that we can be",
+      "why_it_matters": "Clarifies the design philosophy that analytics demo data has different constraints than the transactional Contoso story.",
+      "check": "exact"
+    },
+    {
+      "t": 245.7,
+      "text": "Also um you don't have to install analytics and therefore it doesn't necessarily have to completely tie into the to the kind of the",
+      "why_it_matters": "Important limitation note that analytics demo data is optional and not part of the default installation.",
+      "check": "exact"
+    },
+    {
+      "t": 304.1,
+      "text": "Under the hood is a new initiative we started last year where we put in small snippets of things that are coming in the",
+      "why_it_matters": "Introduces a new information channel for partners to learn about upcoming features early.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 136.6,
+      "kind": "coming-later",
+      "text": "we will continue that investments in the next release wave both like more types of demo data and more types of entities"
+    },
+    {
+      "t": 304.1,
+      "kind": "other",
+      "text": "Under the hood is a new initiative we started last year where we put in small snippets of things that are coming in the upcoming release, sometimes way before they hit the release plan"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.020468
+    }
+  ]
+}

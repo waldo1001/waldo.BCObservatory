@@ -1,0 +1,27 @@
+{
+  "video_id": "_Bv3VX-kkpo",
+  "item_id": "video/yt-microsoft/_Bv3VX-kkpo",
+  "summary": "Business Central 2025 release wave 2 user experience changes: factbox resizing, Advanced Tellme semantic search (preview), extra instructions for the sales order agent, week numbers in date pickers, and a data masking property for sensitive fields (preview).",
+  "overview": "A five-minute What's New video covering user interface changes in Business Central 2025 release wave 2. It demonstrates how the page adjusts when the factbox opens and closes, and how side panes can be resized by hand.\n\nIt also shows Advanced Tellme, which uses semantic search to find pages and reports, and new options for giving the sales order agent extra instructions. Two smaller items follow: week numbers in date pickers, and a property that hides sensitive field values until the user reveals them. Advanced Tellme and data masking are both in preview and need to be enabled in feature management.",
+  "key_points": [
+    "The UI now adjusts automatically when the factbox is opened or closed, as the default behavior. Users can also resize the factbox, copilot pane, help pane and page scripting pane manually.",
+    "Advanced Tellme is in preview and must be enabled in feature management. It uses semantic search to match the meaning of the search term to pages and reports.",
+    "Agents such as the sales order agent accept additional instructions, either by choosing a predefined option or by entering free text.",
+    "Date pickers can show week numbers on the side. Shift+Home toggles the view, and the display follows regional settings.",
+    "A new data masking property hides sensitive values, for example a company bank account number, until the user reveals them. AL developers apply it to fields that hold sensitive data.",
+    "Data masking is in preview and must be enabled in feature management. It is expected to appear in more areas of Business Central in coming releases."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "developer",
+    "end user"
+  ],
+  "extraction_hash": "ee9d5d8bd6aef8b7d0009ed6025f39566901d92e5b9ab84b76fe105a9c562509",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0135284
+  }
+}

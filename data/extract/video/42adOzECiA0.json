@@ -1,0 +1,256 @@
+{
+  "video_id": "42adOzECiA0",
+  "item_id": "video/yt-microsoft/42adOzECiA0",
+  "title": "What's New: Upgrade to Preview (2025 release wave 2)",
+  "duration_s": 239,
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "preview upgrade",
+    "sandbox environment",
+    "admin center",
+    "version management",
+    "pre-release testing",
+    "data copying",
+    "risk reduction"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to Preview Upgrade Feature",
+      "t_start": 0,
+      "t_end": 62.7
+    },
+    {
+      "title": "Admin Center Demo - Selecting Preview Version",
+      "t_start": 62.7,
+      "t_end": 96.7
+    },
+    {
+      "title": "Scheduling and Configuring the Update",
+      "t_start": 96.7,
+      "t_end": 124
+    },
+    {
+      "title": "Preview Period Behavior and Auto-rescheduling",
+      "t_start": 124,
+      "t_end": 152.2
+    },
+    {
+      "title": "Best Practices and Important Tips",
+      "t_start": 152.2,
+      "t_end": 212.1
+    },
+    {
+      "title": "Resources and Closing",
+      "t_start": 212.1,
+      "t_end": 239
+    }
+  ],
+  "features": [
+    {
+      "name": "Copy Production Data to Sandbox and Upgrade to Preview",
+      "description": "Allows customers to take a copy of production data into a sandbox environment and upgrade that sandbox to a preview version of the next Business Central release.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 26.8,
+      "t_end": 52.4,
+      "is_demoed": true,
+      "caveats": [
+        "Functionality might be changing during preview period",
+        "Not suitable for live operations",
+        "Will be cleaned up after preview ends with normal grace period"
+      ],
+      "tags": [
+        "preview",
+        "sandbox",
+        "upgrade",
+        "testing",
+        "data copy"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Preview Version Selection in Admin Center",
+      "description": "Users can select preview version 27.0 from admin center by modifying target versions and selecting the available preview version.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 62.7,
+      "t_end": 96.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "admin center",
+        "version selection",
+        "preview"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Scheduled Update Dates",
+      "description": "Users can select and schedule the date for when the update to preview version should run.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 96.7,
+      "t_end": 110.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "scheduling",
+        "update",
+        "admin center"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Preview Terms and Learn More Links",
+      "description": "Admin center displays links to learn more page and preview terms under the target version selection.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 96.7,
+      "t_end": 110.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "documentation",
+        "terms",
+        "admin center"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Automatic Rescheduling of Failed Updates",
+      "description": "During the preview period, failed updates are automatically rescheduled every seven days.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 124,
+      "t_end": 136.2,
+      "is_demoed": false,
+      "caveats": [
+        "Only applies during preview period"
+      ],
+      "tags": [
+        "auto-rescheduling",
+        "preview period",
+        "failure recovery"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Automatic Update to Official Version After Preview",
+      "description": "Once the preview period ends, environments are automatically scheduled to update to the next official version and preview version is no longer visible in admin center.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 136.2,
+      "t_end": 152.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "auto-update",
+        "preview period",
+        "version transition"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Christina",
+      "confidence": "high"
+    },
+    {
+      "name": "Vessa",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 26.8,
+      "text": "With this feature, you can now take a copy of your production data into a sandbox environment and then upgrade that sandbox to a",
+      "why_it_matters": "Defines the core capability being introduced - copying production data and upgrading to preview versions for testing.",
+      "check": "exact"
+    },
+    {
+      "t": 39,
+      "text": "this will allow you to um pre prepare for the preview with confidence and reduce your risks and stay ahead of the curb.",
+      "why_it_matters": "Explains the main business benefit of the feature for risk reduction and preparation.",
+      "check": "exact"
+    },
+    {
+      "t": 62.7,
+      "text": "I have opened the business central admin center and uh I have my sandbox environment uh which is currently on version 26.4.",
+      "why_it_matters": "Establishes the current version context for the demonstration.",
+      "check": "exact"
+    },
+    {
+      "t": 124,
+      "text": "during the preview period we automatically reschedu the up the failed updates um every seven days.",
+      "why_it_matters": "Specifies a key operational behavior - automatic retry frequency for failed preview updates.",
+      "check": "exact"
+    },
+    {
+      "t": 136.2,
+      "text": "once we are outside of the preview period, your environment will be uh automatically scheduled to update to the very next official version",
+      "why_it_matters": "Clarifies the transition mechanism after preview ends - automatic upgrade to official release.",
+      "check": "exact"
+    },
+    {
+      "t": 165,
+      "text": "since this is a preview, um please um be aware that some functionality uh might be changing uh some a little bit.",
+      "why_it_matters": "Important caveat about preview instability and potential functional changes.",
+      "check": "exact"
+    },
+    {
+      "t": 196.6,
+      "text": "do not use it for live operations and, um, be informed that we are not sending email notifications out for preview updates.",
+      "why_it_matters": "Critical limitation - no email notifications and prohibits production use of preview environments.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 165,
+      "kind": "preview",
+      "text": "since this is a preview, um please um be aware that some functionality uh might be changing"
+    },
+    {
+      "t": 182.1,
+      "kind": "preview",
+      "text": "We will try and upgrade your preview uh sandbox if possible. Um, and be aware that after our preview ends, uh, your sandbox, uh, will be cleaned up, uh, with the normal grace period."
+    },
+    {
+      "t": 196.6,
+      "kind": "preview",
+      "text": "do not use it for live operations"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 6
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.015382
+    }
+  ]
+}

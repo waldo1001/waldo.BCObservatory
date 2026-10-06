@@ -1,0 +1,27 @@
+{
+  "video_id": "_1onqwZz4rA",
+  "item_id": "video/yt-microsoft/_1onqwZz4rA",
+  "summary": "Business Central 2025 release wave 2 adds an analytics demo data package to the Contoso demo data tool, with more sales and purchasing documents and more variation for reporting and Power BI demos. It is optional and must be selected when creating a company.",
+  "overview": "The video covers new demo data in the Contoso demo data tool, built to make reporting and analytics demos easier. It adds more sales and purchasing documents, with variation across time, categories and salespeople.\n\nIt also explains how to get the data: select the package called \"analytics\", or choose all demo data when creating a new company. The tool is an open-source project (Contoso Coffee) that accepts community contributions, and further demo data investment is planned for the next release wave.",
+  "key_points": [
+    "The analytics demo data is a package in the Contoso demo data tool, named 'analytics'.",
+    "It is also included automatically when a new company is created with all demo data selected.",
+    "It is optional and must be selected explicitly when installing a new company.",
+    "Sales quotes go from 2 to 18 records; 4 new blanket sales orders; return orders are newly available; posted sales invoices increase from 80.",
+    "Purchase orders and posted purchase orders double from 14 to 29 records.",
+    "The data varies across time, categories and salespeople, and does not have to tie completely into the core demo data.",
+    "The demo data tool is open source (Contoso Coffee), and the presenter says investment will continue next release wave with more entity types and more variation."
+  ],
+  "audience": [
+    "functional consultant",
+    "partner",
+    "developer"
+  ],
+  "extraction_hash": "2ed7f32bced3228d3dfc1ca7f905ca08b64e3c0c5e9af937e8484e7e0ed10ce2",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0126944
+  }
+}

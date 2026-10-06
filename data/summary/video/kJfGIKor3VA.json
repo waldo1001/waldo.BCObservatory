@@ -1,0 +1,27 @@
+{
+  "video_id": "kJfGIKor3VA",
+  "item_id": "video/yt-microsoft/kJfGIKor3VA",
+  "summary": "Drill-back and dynamic dimension names in the Power BI apps for Business Central, as demonstrated in a 2025 video. Drill-back opens Business Central from a Power BI number to show the underlying transactions. Dimension names now load from Business Central, including shortcut dimensions.",
+  "overview": "The video shows two changes in the Power BI apps for Business Central. Drill-back lets a user click a number in a Power BI report, such as a liability report matrix, and open Business Central in a new tab to see the transactions behind that number. The demo checks that the total in Business Central matches the number noted in the report.\n\nThe second part covers dynamic dimension naming. A new dimension sets table in Power BI loads dimension names and values from Business Central, so filters show real names such as customer group and department instead of codes. The presenter edits the report in Power BI Desktop, adds shortcut dimensions and refreshes the dimension sets table with a schema and data refresh. A short aside shows the version 27 analysis mode feature for scrolling to a column in a list.",
+  "key_points": [
+    "Drill-back: a link in a Power BI matrix opens Business Central in a new tab with the transactions behind the number.",
+    "Previous Power BI apps showed only dimension codes and could filter only on global dimensions 1 to 3.",
+    "A new dimension sets table loads dimension names and values from Business Central, so filters use names instead of codes.",
+    "Shortcut dimensions are now supported in addition to global dimensions.",
+    "Dynamic dimension names require manual editing of reports in Power BI Desktop.",
+    "After changing dimensions in Business Central, refresh the dimension sets table with a schema and data refresh to pick up the change.",
+    "Version 27 analysis mode lets you search for a column and right-click to scroll it into view in a list."
+  ],
+  "audience": [
+    "functional consultant",
+    "developer",
+    "administrator"
+  ],
+  "extraction_hash": "e8d14cd2531af0c339c92ae036fb7ff1c594cfdc4b024d63ca6aaca30ce8709c",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013298399999999998
+  }
+}

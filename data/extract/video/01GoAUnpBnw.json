@@ -1,0 +1,201 @@
+{
+  "video_id": "01GoAUnpBnw",
+  "item_id": "video/yt-microsoft/01GoAUnpBnw",
+  "title": "What's New: Migrate Record Links and Notes (2025 release wave 2)",
+  "duration_s": 171,
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "cloud migration",
+    "record links",
+    "notes migration",
+    "data replication",
+    "buffer table",
+    "on-premises to cloud",
+    "user mapping",
+    "cloud migration management"
+  ],
+  "chapters": [
+    {
+      "title": "What are record links and notes",
+      "t_start": 0,
+      "t_end": 29.9
+    },
+    {
+      "title": "The problem and solution",
+      "t_start": 29.9,
+      "t_end": 53.3
+    },
+    {
+      "title": "Cloud migration setup and buffer table",
+      "t_start": 53.3,
+      "t_end": 75.9
+    },
+    {
+      "title": "Demo: migrating record links and notes",
+      "t_start": 75.9,
+      "t_end": 126.3
+    },
+    {
+      "title": "Best practices and safety considerations",
+      "t_start": 126.3,
+      "t_end": 171
+    }
+  ],
+  "features": [
+    {
+      "name": "Record links and notes migration",
+      "description": "New capability to migrate record links and notes from on-premises database to cloud instance as part of the cloud migration process. Previously, these had to be manually brought over.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 40.7,
+      "t_end": 120.9,
+      "is_demoed": true,
+      "caveats": [
+        "Record links and notes are placed in a buffer table first to prevent overwriting existing records",
+        "Migration action must be run after data replication",
+        "Migration should be done before user mapping to preserve correct user references"
+      ],
+      "tags": [
+        "cloud migration",
+        "record links",
+        "notes",
+        "data migration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Cloud migration management page",
+      "description": "A page where users can check the status of cloud migration setup and data replication completion.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 53.3,
+      "t_end": 65.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "cloud migration",
+        "management",
+        "status"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Migrate record links and notes action",
+      "description": "Action button available on cloud migration management page that transfers record links and notes from the buffer table to the actual table after replication completes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 75.9,
+      "t_end": 120.9,
+      "is_demoed": true,
+      "caveats": [
+        "Must be run after data replication so records are moved to buffer table first"
+      ],
+      "tags": [
+        "cloud migration",
+        "action",
+        "migration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Warnings field for record link migration",
+      "description": "A new field on the cloud migration management page that alerts users when the record link table has not been migrated since the last replication, helping prevent forgotten migrations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 86.2,
+      "t_end": 98.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "cloud migration",
+        "warnings",
+        "notification"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "cloud migration management page",
+      "t": 53.3
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Onet",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 17,
+      "text": "record links and nodes are very critical. Uh they can contain customer insights, annotations or references and they are important for your day-to-day decisions",
+      "why_it_matters": "Establishes the business value and importance of preserving record links and notes during cloud migration",
+      "check": "exact"
+    },
+    {
+      "t": 29.9,
+      "text": "Previously record links and not notes were not migrated from on-rem database to cloud. Uh so partners would have to spend a lot of",
+      "why_it_matters": "Describes the previous pain point this feature solves",
+      "check": "exact"
+    },
+    {
+      "t": 40.7,
+      "text": "But now with new capabilities record links and nodes migration is part of the cloud migration process.",
+      "why_it_matters": "States the new capability status and that it is now integrated into standard cloud migration workflow",
+      "check": "exact"
+    },
+    {
+      "t": 65.5,
+      "text": "Replications will bring bring the uh record links and nodes to a buffer table so that we don't override your existing record links and",
+      "why_it_matters": "Explains the safety mechanism to prevent data loss during migration",
+      "check": "exact"
+    },
+    {
+      "t": 126.3,
+      "text": "Make sure you run the record links and notes migration after the replication so that records are moved to the buffer table beforehand.",
+      "why_it_matters": "Specifies the correct sequence of operations for successful migration",
+      "check": "exact"
+    },
+    {
+      "t": 141.8,
+      "text": "Also, make sure you do this uh before doing the uh user mapping because when you do the user mapping uh we'll change the",
+      "why_it_matters": "Identifies the timing requirement relative to user mapping to preserve correct user references",
+      "check": "exact"
+    },
+    {
+      "t": 154.8,
+      "text": "we do not overwrite your existing record links and notes. So it's very safe to use. You can run it the run the action",
+      "why_it_matters": "Confirms safety and idempotency of the migration action for user confidence",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 4
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.012766
+    }
+  ]
+}

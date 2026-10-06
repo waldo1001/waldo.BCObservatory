@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=01GoAUnpBnw",
   "published_at": "2025-10-01T00:00:00Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:51:47.857Z"
@@ -25,6 +25,39 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "filename"
+    },
+    "extracted": {
+      "at": "2026-10-06T18:22:51.506Z",
+      "path": "data/extract/video/01GoAUnpBnw.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 4,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.012766
+    },
+    "summarized": {
+      "at": "2026-10-06T18:22:57.168Z",
+      "path": "data/summary/video/01GoAUnpBnw.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.011824399999999999
+    },
+    "linked": {
+      "at": "2026-10-06T18:22:57.169Z",
+      "systems": [
+        "integration",
+        "administration"
+      ],
+      "topics": 8,
+      "objects_as_heard": 1
+    },
+    "published": {
+      "at": "2026-10-06T18:22:57.180Z",
+      "path": "content/videos/01GoAUnpBnw.md"
     }
   },
   "input_hash": null,
@@ -35,5 +68,6 @@
     "seed_file": "2025-10-01 - BCLE - What's New： Migrate Record Links and Notes (2025 release wave 2) [01GoAUnpBnw].vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "e5098edb68c09397267688a7a19d94ad17d1ae2e622b98fff80f557d963484e9"
 }
