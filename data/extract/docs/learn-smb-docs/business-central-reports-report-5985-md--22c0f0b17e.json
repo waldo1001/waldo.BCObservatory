@@ -1,0 +1,40 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5985.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5985",
+  "title": "Contract Price Update - Test (report)",
+  "blob": "e91a8359dd0292e1b9adac6c63c5b34487f9e137",
+  "summary": "Contract Price Update - Test report identifies service contracts needing price updates up to a specified date, showing contract numbers, amounts, price update percentages, and potential errors.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "contract pricing",
+    "price updates",
+    "testing"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Contract Price Update - Test"
+    }
+  ],
+  "features": [
+    "contract numbers",
+    "customer numbers",
+    "contract amounts",
+    "price update percentages",
+    "price update date",
+    "errors"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001248,
+      "pages_in_call": 8
+    }
+  ]
+}

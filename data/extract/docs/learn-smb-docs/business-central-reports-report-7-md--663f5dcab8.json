@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-7.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-7",
+  "title": "Trial Balance/Previous Year (report)",
+  "blob": "b4aff530501b0e3dce208c98f22beda1ce2c4c36",
+  "summary": "The Trial Balance/Previous Year report shows G/L accounts with debit and credit net changes and balances for a period with year-over-year percentage comparisons. Use it to identify trends, variances and financial performance over time.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "trial balance",
+    "year-over-year",
+    "variance analysis",
+    "financial trends",
+    "period comparison"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Trial Balance/Previous Year"
+    }
+  ],
+  "features": [
+    "year-over-year comparison",
+    "variance analysis",
+    "trend identification",
+    "dimension filtering",
+    "percentage comparison"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002022,
+      "pages_in_call": 8
+    }
+  ]
+}

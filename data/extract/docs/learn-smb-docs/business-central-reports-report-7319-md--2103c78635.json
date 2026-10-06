@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-7319.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-7319",
+  "title": "Warehouse Bin List (report)",
+  "blob": "24aef1a4cb5b52abafed1bec75c7d82eff80a40e",
+  "summary": "The Warehouse Bin List report provides an overview of warehouse bins, their setup, and item quantities for locations where bins are mandatory. Use it to monitor inventory levels and optimize bin configurations.",
+  "systems": [
+    "warehouse",
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "warehouse bins",
+    "inventory monitoring",
+    "bin management",
+    "quantity tracking"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Warehouse Bin List"
+    }
+  ],
+  "features": [
+    "bin overview",
+    "bin setup display",
+    "quantity monitoring",
+    "inventory optimization",
+    "bin configuration"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002022,
+      "pages_in_call": 8
+    }
+  ]
+}

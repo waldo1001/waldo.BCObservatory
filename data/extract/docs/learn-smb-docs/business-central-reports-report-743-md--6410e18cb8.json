@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-743.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-743",
+  "title": "VAT Reconciliation Report (report)",
+  "blob": "680bd710f3d8529b57898deaac20f7d6602a3d82",
+  "summary": "The VAT Reconciliation Report verifies that VAT entries align with general ledger accounts by comparing VAT calculated from documents with amounts posted to G/L. Use it during tax preparation to validate VAT accuracy and compliance.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "vat reconciliation",
+    "tax compliance",
+    "general ledger",
+    "vat verification"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "VAT Reconciliation Report"
+    }
+  ],
+  "features": [
+    "vat validation",
+    "ledger alignment",
+    "tax filing preparation",
+    "discrepancy identification",
+    "compliance verification"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002022,
+      "pages_in_call": 8
+    }
+  ]
+}

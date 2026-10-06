@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-6080.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6080",
+  "title": "Serv. Pricing Profitability (report)",
+  "blob": "bc142edce94b0589219defb4b535974aab20db7a",
+  "summary": "The Serv. Pricing Profitability report displays profit analysis for service pricing including usage, invoice, discount, cost amounts and profit metrics. Use it to analyze service pricing profitability and performance.",
+  "systems": [
+    "service",
+    "reporting"
+  ],
+  "topics": [
+    "service pricing",
+    "profitability analysis",
+    "profit margin",
+    "service management"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Serv. Pricing Profitability"
+    }
+  ],
+  "features": [
+    "usage amount",
+    "invoice amount",
+    "discount amount",
+    "cost amount",
+    "profit percentage",
+    "profit amount"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002022,
+      "pages_in_call": 8
+    }
+  ]
+}

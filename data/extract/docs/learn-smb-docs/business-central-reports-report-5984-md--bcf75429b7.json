@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5984.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5984",
+  "title": "Contract Invoicing - Test (report)",
+  "blob": "67a8164db09c9dfa75fa642d372014a5793933df",
+  "summary": "Contract Invoicing - Test report tests which service contracts are due for invoicing on a specified date, showing contract numbers, invoice periods, amounts, and next invoice dates.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "contract invoicing",
+    "service invoices",
+    "testing"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Contract Invoicing - Test"
+    }
+  ],
+  "features": [
+    "contract numbers",
+    "customer numbers",
+    "contract invoice periods",
+    "contract amounts",
+    "next invoice dates",
+    "number of service invoices",
+    "posting date",
+    "invoice date"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001248,
+      "pages_in_call": 8
+    }
+  ]
+}

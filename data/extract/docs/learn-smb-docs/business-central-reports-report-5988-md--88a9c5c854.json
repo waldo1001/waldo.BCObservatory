@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5988.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5988",
+  "title": "Contr. Serv. Orders - Test (report)",
+  "blob": "5e75d21fa2be8060b8cc3f1845b4c38e0ed82ff8",
+  "summary": "Contr. Serv. Orders - Test report identifies service contracts with items due for service in a specified period and shows service orders that would be created.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "service orders",
+    "contract management",
+    "service planning",
+    "testing"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Contr. Serv. Orders - Test"
+    }
+  ],
+  "features": [
+    "contract numbers",
+    "customer numbers",
+    "customer names",
+    "service items",
+    "planned service dates",
+    "starting date",
+    "ending date"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001248,
+      "pages_in_call": 8
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-6.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-6",
+  "title": "Trial Balance (report)",
+  "blob": "d83fd27834c38bec5b19d849a1485c7f6b0194f3",
+  "summary": "The Trial Balance report shows general ledger accounts with balances and net changes over a specified period, with dimension filtering and additional reporting currency support. Use it to verify debit/credit accuracy and prepare financial statements at period close.",
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "trial balance",
+    "general ledger",
+    "financial verification",
+    "accounting period",
+    "debit credit"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Trial Balance"
+    }
+  ],
+  "features": [
+    "balance verification",
+    "net change calculation",
+    "dimension filtering",
+    "additional reporting currency",
+    "period-specific reporting"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002022,
+      "pages_in_call": 8
+    }
+  ]
+}

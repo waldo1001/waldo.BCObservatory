@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-801.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-801",
+  "title": "Assembly BOMs (report)",
+  "blob": "8ba3574b7aaf67656adf6ecc3908c4c26f356678",
+  "summary": "The Assembly BOMs report lists assembly bills of materials with component details, including component names, BOM numbers, quantities and units of measure. Use it to review and analyze assembly product structures.",
+  "systems": [
+    "assembly",
+    "manufacturing",
+    "reporting"
+  ],
+  "topics": [
+    "assembly bom",
+    "bill of materials",
+    "component structure",
+    "product structure"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Assembly BOMs"
+    },
+    {
+      "type": "table",
+      "name": "BOM Component"
+    }
+  ],
+  "features": [
+    "bom listing",
+    "component details",
+    "unit of measure",
+    "component quantity",
+    "nested bom display"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002022,
+      "pages_in_call": 8
+    }
+  ]
+}

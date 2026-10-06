@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-7320.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-7320",
+  "title": "Warehouse Adjustment Bin (report)",
+  "blob": "379d2b732a8d1b476f9cc8e7035ae52dbc659f0d",
+  "summary": "The Warehouse Adjustment Bin report shows remaining quantities in the adjustment bin for advanced warehouses, typically due to physical counting or quantity adjustments. Use it to monitor and reconcile adjustment bin discrepancies.",
+  "systems": [
+    "warehouse",
+    "inventory",
+    "reporting"
+  ],
+  "topics": [
+    "adjustment bin",
+    "warehouse discrepancies",
+    "inventory reconciliation",
+    "physical counting"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Warehouse Adjustment Bin"
+    }
+  ],
+  "features": [
+    "adjustment bin monitoring",
+    "quantity tracking",
+    "discrepancy analysis",
+    "inventory accuracy",
+    "corrective action identification"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.002022,
+      "pages_in_call": 8
+    }
+  ]
+}

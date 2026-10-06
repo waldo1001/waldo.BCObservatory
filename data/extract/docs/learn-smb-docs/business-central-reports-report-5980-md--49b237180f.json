@@ -1,0 +1,41 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/reports/report-5980.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/reports/report-5980",
+  "title": "Maintenance Visit - Planning (report)",
+  "blob": "5ebe075a8538831a5641e2adfc7bcc400763add5",
+  "summary": "Maintenance Visit - Planning report displays service dates and details for maintenance visits scheduled across selected responsibility centers, showing service zones, contract numbers, and service periods.",
+  "systems": [
+    "service"
+  ],
+  "topics": [
+    "maintenance",
+    "planning",
+    "responsibility centers",
+    "service scheduling"
+  ],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Maintenance Visit - Planning"
+    }
+  ],
+  "features": [
+    "service zone code",
+    "group code",
+    "contract number",
+    "customer number",
+    "service period",
+    "service date"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.001248,
+      "pages_in_call": 8
+    }
+  ]
+}
