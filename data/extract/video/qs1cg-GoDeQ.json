@@ -1,0 +1,293 @@
+{
+  "video_id": "qs1cg-GoDeQ",
+  "item_id": "video/yt-microsoft/qs1cg-GoDeQ",
+  "title": "What's new: MCP Server (2026 release wave 2)",
+  "duration_s": 483,
+  "systems": [
+    "copilot",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "mcp server",
+    "data tools",
+    "query tool",
+    "agents",
+    "al queries",
+    "copilot studio",
+    "permissions",
+    "data analysis"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to MCP Server and agenda",
+      "t_start": 0,
+      "t_end": 36.5
+    },
+    {
+      "title": "Query tools and four new system tools overview",
+      "t_start": 36.5,
+      "t_end": 91.5
+    },
+    {
+      "title": "Demo setup and data analysis capabilities",
+      "t_start": 91.5,
+      "t_end": 152.2
+    },
+    {
+      "title": "Agent workflow demonstration with customer data",
+      "t_start": 152.2,
+      "t_end": 211.8
+    },
+    {
+      "title": "Query execution and compilation process",
+      "t_start": 211.8,
+      "t_end": 278
+    },
+    {
+      "title": "Limitations and use cases for data tools",
+      "t_start": 278,
+      "t_end": 364.5
+    },
+    {
+      "title": "New UX for MCP configurations and server features",
+      "t_start": 364.5,
+      "t_end": 434.4
+    },
+    {
+      "title": "Security toggle and closing remarks",
+      "t_start": 434.4,
+      "t_end": 483
+    }
+  ],
+  "features": [
+    {
+      "name": "Find tables tool",
+      "description": "A new system tool that enables searching for Business Central tables. Part of the data tool feature set for MCP server.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 76.3,
+      "t_end": 91.5,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to tables user has access to"
+      ],
+      "tags": [
+        "mcp",
+        "data tools",
+        "query",
+        "system tools"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Table relations tool",
+      "description": "A system tool for understanding how tables connect to other tables in Business Central, enabling the writing of better join queries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 76.3,
+      "t_end": 91.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "data tools",
+        "relationships",
+        "queries"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Table schema tool",
+      "description": "A system tool that shows fields available on Business Central tables, allowing agents to understand table structure.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 76.3,
+      "t_end": 91.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mcp",
+        "data tools",
+        "schema",
+        "tables"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Data query tool",
+      "description": "A system tool that enables agents to construct and run AL queries directly without needing APIs, accessing data based on user permissions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 76.3,
+      "t_end": 91.5,
+      "is_demoed": true,
+      "caveats": [
+        "Limited to supported AL query expressions",
+        "Subject to query runtime and data return limits"
+      ],
+      "tags": [
+        "mcp",
+        "data tools",
+        "queries",
+        "agents"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Generic data analysis for agents",
+      "description": "Capability enabling agents to perform ad hoc analysis on Business Central data by constructing and compiling AL queries, with permissions-based access control.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 104,
+      "t_end": 152.2,
+      "is_demoed": true,
+      "caveats": [
+        "Depends on user permissions and table access",
+        "Limited to what can be expressed in AL queries",
+        "Subject to query runtime and data size limits"
+      ],
+      "tags": [
+        "data analysis",
+        "agents",
+        "permissions",
+        "queries"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Server features configuration UI",
+      "description": "New user experience for MCP server configuration that distinguishes between server features such as the data tool and APIs, showing which tools each feature enables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 364.5,
+      "t_end": 434.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "ux",
+        "configuration",
+        "mcp",
+        "setup"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "MCP server security toggle",
+      "description": "A new toggle in the Copilot and Agent capabilities page to activate or deactivate the MCP server feature globally for security control.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 434.4,
+      "t_end": 452.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "security",
+        "mcp",
+        "configuration",
+        "admin"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "AL query",
+      "t": 137.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kenny Pontabidan",
+      "confidence": "medium"
+    },
+    {
+      "name": "Pushad Dvidi",
+      "confidence": "medium"
+    },
+    {
+      "name": "Porshad",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 50.8,
+      "text": "have your MCP host whatever that is copilot studio vs code or other have those LLMs construct your queries then we will compile and",
+      "why_it_matters": "Describes the core workflow of the MCP query tool - LLMs construct queries which are compiled and executed server-side without needing APIs.",
+      "check": "exact"
+    },
+    {
+      "t": 121,
+      "text": "with the data query tools uh it completely depends on the permissions that you already have the tables that you have access to in",
+      "why_it_matters": "Clarifies that data tool access is permission-based and limited by agent query capability, key constraint compared to APIs.",
+      "check": "exact"
+    },
+    {
+      "t": 166.9,
+      "text": "It takes 30 steps. It takes 2 minutes. It's a good example of a longunning agent and it comes up with a very good",
+      "why_it_matters": "Demonstrates actual performance characteristics - the demo took 30 steps and 2 minutes for complex multi-table analysis.",
+      "check": "exact"
+    },
+    {
+      "t": 257.5,
+      "text": "it also looked at table relations essentially understanding how is one table connected to other tables in business central because that's how you write",
+      "why_it_matters": "Explains the purpose of the table relations tool - essential for writing join queries that work correctly across Business Central tables.",
+      "check": "exact"
+    },
+    {
+      "t": 305.8,
+      "text": "since this data is based on queries that also means that this tool can basically has the power of queries and the limitations of",
+      "why_it_matters": "States a fundamental constraint - data tools inherit both capabilities and limitations of AL queries.",
+      "check": "exact"
+    },
+    {
+      "t": 348.8,
+      "text": "there are also limitations in queries in business central on how much data can be returned and for how long the query can run",
+      "why_it_matters": "Specifies specific limitations on query runtime and data size that affect what data tools can retrieve.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 336.2,
+      "kind": "subject-to-change",
+      "text": "If you have data questions that will kind of result in a query that is not supported in the query or even optimal then of course that will not work."
+    },
+    {
+      "t": 348.8,
+      "kind": "subject-to-change",
+      "text": "there are also limitations in queries in business central on how much data can be returned and for how long the query can run"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 6,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

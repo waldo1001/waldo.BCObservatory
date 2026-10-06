@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=2N2NhNH7dsk",
   "published_at": "2026-10-01T15:00:15.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -25,6 +25,39 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T12:09:20.448Z",
+      "path": "data/extract/video/2N2NhNH7dsk.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 6,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T12:09:29.468Z",
+      "path": "data/summary/video/2N2NhNH7dsk.json",
+      "prompt": "summarize-video@1",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0425412
+    },
+    "linked": {
+      "at": "2026-10-06T12:09:29.469Z",
+      "systems": [
+        "reporting",
+        "integration"
+      ],
+      "topics": 8,
+      "objects_as_heard": 0
+    },
+    "published": {
+      "at": "2026-10-06T12:09:29.487Z",
+      "path": "content/videos/2N2NhNH7dsk.md"
     }
   },
   "input_hash": null,
@@ -35,5 +68,6 @@
     "seed_file": "2026-10-01 - BCLE - What's new in reporting： Layout Management and Report Inbox API's (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "91260d2fdaf3bae40a39c319a41ae6f85ffe9a2e5c18c373d99c2414f447fe59"
 }

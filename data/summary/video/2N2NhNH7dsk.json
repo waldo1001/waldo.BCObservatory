@@ -1,0 +1,26 @@
+{
+  "video_id": "2N2NhNH7dsk",
+  "item_id": "video/yt-microsoft/2N2NhNH7dsk",
+  "summary": "Business Central 2026 release wave 2 reporting: administrators can set layout status (draft, pending approval, approved, retired) on report layouts, including app-supplied and Microsoft layouts, and new report inbox APIs let agents and automation work with scheduled reports and report packs.",
+  "overview": "The video covers two reporting changes. The first extends layout management. In wave 1 of 2026 an administrator could control the status of user-defined layouts. Now the same control applies to layouts shipped by apps, including ISV apps from AppSource and Microsoft layouts. A Layout Status menu on the report layout page moves a layout between draft, pending approval, approved and retired. Users only see approved layouts in the report layout control on the request page, while administrators can still run any layout from the report layout page. Administrators can also replace a developer's description of a layout with their own comment.\n\nThe second change is a set of report inbox APIs. The report inbox holds scheduled reports and report packs. The APIs let agents and automation tools reach it, for example through Power Platform, MCP servers or Microsoft Copilot Studio. A new API overview page in version 29 lists the API names and URLs so they are easier to find.",
+  "key_points": [
+    "Layout status values are draft, pending approval, approved and retired, set from the Layout Status menu on the report layout page.",
+    "Layout status now covers app-supplied layouts (AppSource ISV apps, Microsoft layouts), not only user-defined layouts. This was added to user-defined layouts in 2026 release wave 1.",
+    "Users only see approved layouts in the report layout control on the request page. Administrators can still run any layout from the report layout page.",
+    "Administrators can override a developer-supplied layout description with their own comment, shown on the report layout page and to users. This was not demoed.",
+    "Report inbox APIs let agents and automation work with scheduled reports and report packs, via Power Platform, MCP servers, Copilot Studio or any tool that calls APIs.",
+    "The new API overview page in version 29 lists the report inbox API names and URLs."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "daddc4245acc3acb659020bf77f4a6aeebcd8ca022bb2512a0816ecc400ee1fa",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0425412
+  }
+}

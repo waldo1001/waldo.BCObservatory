@@ -1,0 +1,244 @@
+{
+  "video_id": "2N2NhNH7dsk",
+  "item_id": "video/yt-microsoft/2N2NhNH7dsk",
+  "title": "What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)",
+  "duration_s": 299,
+  "systems": [
+    "reporting",
+    "integration"
+  ],
+  "topics": [
+    "layout management",
+    "layout status",
+    "report layouts",
+    "report inbox",
+    "apis",
+    "agent automation",
+    "lifecycle states",
+    "approval workflow"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction to layout management and report inbox APIs",
+      "t_start": 0,
+      "t_end": 31.3
+    },
+    {
+      "title": "Layout status feature for controlling layout lifecycle",
+      "t_start": 31.3,
+      "t_end": 67.6
+    },
+    {
+      "title": "Layout status menu and lifecycle states",
+      "t_start": 67.6,
+      "t_end": 100.1
+    },
+    {
+      "title": "Administrator control and user visibility of layouts",
+      "t_start": 100.1,
+      "t_end": 148.1
+    },
+    {
+      "title": "Developer comments and administrator overrides for layouts",
+      "t_start": 148.1,
+      "t_end": 183.7
+    },
+    {
+      "title": "Report inbox API capabilities for agents and automation",
+      "t_start": 183.7,
+      "t_end": 219.5
+    },
+    {
+      "title": "Discovering report inbox APIs via API overview page",
+      "t_start": 219.5,
+      "t_end": 249.2
+    },
+    {
+      "title": "Additional resources and conclusion",
+      "t_start": 249.2,
+      "t_end": 299
+    }
+  ],
+  "features": [
+    {
+      "name": "Layout status control",
+      "description": "Administrators can set a status on report layouts including draft, pending approval, approved, and retired. This extends previous functionality from user-defined layouts to app-supplied layouts including Microsoft-shipped layouts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 31.3,
+      "t_end": 82.6,
+      "is_demoed": true,
+      "caveats": [
+        "Only affects user visibility; administrators can still run any layout from the layouts page"
+      ],
+      "tags": [
+        "layout management",
+        "approval workflow",
+        "administrator control"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Layout lifecycle states",
+      "description": "Report layouts can be transitioned through states: draft, pending approval, approved, and retired. Administrators use the layout status menu on the report layout page to manage these states.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 67.6,
+      "t_end": 82.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "layout status",
+        "lifecycle management"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Layout administrator control of user visibility",
+      "description": "Users only see approved layouts in the report layout control on the request page, while administrators can still run any layout from the report layout page regardless of status.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 100.1,
+      "t_end": 119.2,
+      "is_demoed": true,
+      "caveats": [
+        "Applies only to layout selection by end users; administrators retain full access"
+      ],
+      "tags": [
+        "layout visibility",
+        "administrator control",
+        "approval workflow"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Developer comment override for layouts",
+      "description": "Administrators can override developer-supplied descriptions or summaries for layouts with their own comments, such as 'We don't like this layout' or 'This is not for us', which appear on the report layout page and to users.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 148.1,
+      "t_end": 173.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "layout metadata",
+        "administrator customization"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Report inbox APIs",
+      "description": "New APIs enable agents and automation tools to interact with the report inbox, which contains scheduled reports and report packs. Integrations can use Power Platform, MCP servers, Microsoft Copilot Studio, or any tool that speaks APIs.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 183.7,
+      "t_end": 238.5,
+      "is_demoed": false,
+      "caveats": [
+        "Requires integration via APIs; can be accessed via API overview page in version 29"
+      ],
+      "tags": [
+        "apis",
+        "agent automation",
+        "report inbox",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "API overview page for report inbox",
+      "description": "A new API overview page in version 29 provides API names and URLs for report inbox APIs, making them easier to discover and try out.",
+      "status": "ga",
+      "status_evidence_t": 219.5,
+      "status_evidence_quote": "The new APIs are easiest to find them is to go to the new API overview page that we are also shipping here in",
+      "status_evidence_verified": true,
+      "t_start": 219.5,
+      "t_end": 249.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "apis",
+        "discovery",
+        "documentation"
+      ],
+      "system": "integration"
+    }
+  ],
+  "objects": [],
+  "presenters": [
+    {
+      "name": "Unknown speaker",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 31.3,
+      "text": "back in the fall in the spring release in wave one of 2026, we added the ability for an layout administrator on the report",
+      "why_it_matters": "Establishes that layout status was previously limited to user-defined layouts and is now being extended to app-supplied layouts in Wave 2, showing the progression of the feature.",
+      "check": "exact"
+    },
+    {
+      "t": 67.6,
+      "text": "on the report layout page, you now have a new menu called layout status where you can set a layout um kind of a",
+      "why_it_matters": "Specifies the four lifecycle states available for managing report layout visibility and approval.",
+      "check": "exact"
+    },
+    {
+      "t": 100.1,
+      "text": "As an administrator, I can still run everything from that page, but whenever a user touches the report layouts control in the request page,",
+      "why_it_matters": "Clarifies that the layout status feature provides separate visibility controls for administrators versus regular users.",
+      "check": "exact"
+    },
+    {
+      "t": 148.1,
+      "text": "for any layout that is shipped from an app, whether it's a patent and extension and ISV app from AppSource or Microsoft, we have",
+      "why_it_matters": "Shows that developer-supplied layout descriptions apply to both Microsoft and third-party app layouts, enabling developer communication about layouts.",
+      "check": "exact"
+    },
+    {
+      "t": 183.7,
+      "text": "The second feature we are giving you as administrators is an ability to to interact or have agents or automation interact with the report",
+      "why_it_matters": "Introduces the second major feature of the video - report inbox APIs - and emphasizes the ability for agents and automation to work with scheduled reports and report packs.",
+      "check": "exact"
+    },
+    {
+      "t": 196.2,
+      "text": "report inbox is used for anything where things are scheduled, reports that are scheduled, reports in finance or reporting that are scheduled or report",
+      "why_it_matters": "Defines the scope of what lands in the report inbox and what the new APIs can operate on.",
+      "check": "exact"
+    },
+    {
+      "t": 219.5,
+      "text": "The new APIs are easiest to find them is to go to the new API overview page that we are also shipping here in",
+      "why_it_matters": "Indicates that version 29 includes a new API overview page, signaling the release version where these features are available.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": true,
+      "cost_usd": null
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=qs1cg-GoDeQ",
   "published_at": "2026-10-01T13:04:29.000Z",
   "language": "en",
-  "state": "captioned",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -25,6 +25,40 @@
       "lang": "en-orig",
       "seed": true,
       "id_via": "override"
+    },
+    "extracted": {
+      "at": "2026-10-06T12:09:29.492Z",
+      "path": "data/extract/video/qs1cg-GoDeQ.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "features": 7,
+      "quotes": 6,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0
+    },
+    "summarized": {
+      "at": "2026-10-06T12:09:38.944Z",
+      "path": "data/summary/video/qs1cg-GoDeQ.json",
+      "prompt": "summarize-video@1",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.0422292
+    },
+    "linked": {
+      "at": "2026-10-06T12:09:38.945Z",
+      "systems": [
+        "copilot",
+        "development",
+        "integration"
+      ],
+      "topics": 8,
+      "objects_as_heard": 1
+    },
+    "published": {
+      "at": "2026-10-06T12:09:38.948Z",
+      "path": "content/videos/qs1cg-GoDeQ.md"
     }
   },
   "input_hash": null,
@@ -35,5 +69,6 @@
     "seed_file": "2026-10-01 - BCLE - What's new： MCP Server (2026 release wave 2).vtt"
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "8a466e642163ffd031bd2ed8266b900ffaa4538d328d29ba264f09df2462533c"
 }
