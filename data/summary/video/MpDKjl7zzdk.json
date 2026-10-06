@@ -1,0 +1,26 @@
+{
+  "video_id": "MpDKjl7zzdk",
+  "item_id": "video/yt-microsoft/MpDKjl7zzdk",
+  "summary": "Suggest Number Series with Copilot in Business Central (2024 release wave 2) is demoed for generating number series for a record, a module, or a whole new company, and for preparing existing series for the next year. The demo covers prompt guides, year numbers in series, and automatic updates to setup pages.",
+  "overview": "The video, published 2024-10-08, shows how Copilot in Business Central can generate new number series, modify existing ones, or prepare them for the next year. This reduces the manual work needed during a new implementation, recurring maintenance, or rollout of a new module or company.\n\nThe demo starts with a service management module rollout and generates a series for the contract credit memo. It then prepares existing series for the next year and generates a complete set of series for a new company with the user experience set to premium. The presenter warns that AI generated content might be incorrect and that wrong suggestions may need to be deleted by hand.",
+  "key_points": [
+    "Copilot can generate number series for a specific record, a module, or an entire company, using a customizable prompt.",
+    "The number series dialog includes prompt guides for common tasks: new company, preparing for next year, and modifying existing series.",
+    "Year numbers, such as 24 for fiscal year 2024, appear in a series only if the prompt asks for them explicitly.",
+    "When a series is suggested, Copilot updates the related setup page automatically, for example service management setup.",
+    "In the year preparation demo, Copilot set a starting date of 1 January 2025. A prompt that is not specific enough can also produce suggestions for unrelated series.",
+    "For a new company, the scope of generated series follows the user experience setting. A premium company gets series for all modules.",
+    "AI generated content might be incorrect. In the demo a sales credit memo series was suggested that was not requested, and it had to be deleted manually."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator"
+  ],
+  "extraction_hash": "ed209c598dc5de138cee19a401e3bb7620013410178dedb9a082bf1209fb25a3",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0140044
+  }
+}

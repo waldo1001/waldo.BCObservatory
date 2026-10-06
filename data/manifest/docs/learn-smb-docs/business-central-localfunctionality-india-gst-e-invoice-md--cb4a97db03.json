@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-E-Invoice",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -24,6 +24,18 @@
       "parts": 1,
       "objects": 3,
       "cost_usd": 0.003459
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:24.813Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:24.815Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:24.816Z",
+      "page": false
     }
   },
   "input_hash": "d3cfb0e0423db85b9a373985b3a270a5491aeb2f",

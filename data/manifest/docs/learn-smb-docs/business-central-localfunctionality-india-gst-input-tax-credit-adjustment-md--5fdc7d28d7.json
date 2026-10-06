@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "36c4fe413e2801506991595a9804c2ab07fbd297",
       "words": 1205,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:24.804Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004773
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:24.843Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:24.843Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:24.844Z",
+      "page": false
     }
   },
   "input_hash": "36c4fe413e2801506991595a9804c2ab07fbd297",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "36c4fe413e2801506991595a9804c2ab07fbd297"
+  "output_hash": "9c7f11fe3e4454751b027efb061a74e0eb639eab9eb21e43a8216833509f7639"
 }

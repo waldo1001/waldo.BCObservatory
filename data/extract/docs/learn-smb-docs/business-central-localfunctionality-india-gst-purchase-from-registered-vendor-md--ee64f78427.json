@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Purchase-from-Registered-Vendor.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Registered-Vendor",
+  "title": "Purchase from Registered Vendors",
+  "blob": "e7deb5e2fe52eadc6b83f1bab7306952e6ce0bb2",
+  "summary": "Purchases from registered vendors with intra-state and inter-state transactions involve CGST/SGST or IGST with tax credit availment options and reverse charge for notified services.",
+  "systems": [
+    "finance",
+    "localization",
+    "purchasing"
+  ],
+  "topics": [
+    "gst",
+    "registered vendor",
+    "cgst",
+    "sgst",
+    "igst",
+    "india",
+    "reverse charge"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Invoice"
+    }
+  ],
+  "features": [
+    "Registered vendor",
+    "GST Credit",
+    "Intra-state transactions",
+    "Inter-state transactions",
+    "Reverse charge",
+    "Item charge",
+    "Fixed asset purchase"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004773,
+      "pages_in_call": 8
+    }
+  ]
+}

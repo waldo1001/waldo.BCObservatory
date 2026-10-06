@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-SEZ-Vendor",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "98ed7fea0d5c48f20e62b8f16884f4bebd9c5f83",
       "words": 546,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:24.807Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004773
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:24.854Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:24.855Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:24.856Z",
+      "page": false
     }
   },
   "input_hash": "98ed7fea0d5c48f20e62b8f16884f4bebd9c5f83",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "98ed7fea0d5c48f20e62b8f16884f4bebd9c5f83"
+  "output_hash": "996fa4de8b4aca66e44a0171d95ce82d55841d0532011e1bd8236c7362ea4ac9"
 }

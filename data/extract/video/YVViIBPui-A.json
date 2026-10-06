@@ -1,0 +1,284 @@
+{
+  "video_id": "YVViIBPui-A",
+  "item_id": "video/yt-microsoft/YVViIBPui-A",
+  "title": "What's New: Financial Management (2024 release wave 2)",
+  "duration_s": 282,
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "topics": [
+    "subscription billing",
+    "recurring invoicing",
+    "deferral module",
+    "power bi apps",
+    "financial reporting",
+    "fixed assets",
+    "star schema query",
+    "excel reports"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Subscription Billing Overview",
+      "t_start": 0,
+      "t_end": 30.6
+    },
+    {
+      "title": "Subscription Billing Features and Future Enhancements",
+      "t_start": 30.6,
+      "t_end": 106.4
+    },
+    {
+      "title": "Default Quantity for G/L Lines Feature",
+      "t_start": 106.4,
+      "t_end": 139.8
+    },
+    {
+      "title": "Power BI Apps and Financial Reporting",
+      "t_start": 139.8,
+      "t_end": 172.6
+    },
+    {
+      "title": "Fixed Assets Query and Star Schema",
+      "t_start": 172.6,
+      "t_end": 213
+    },
+    {
+      "title": "Financial Reporting Templates and Documentation",
+      "t_start": 213,
+      "t_end": 253.6
+    },
+    {
+      "title": "Summary and Closing",
+      "t_start": 253.6,
+      "t_end": 282
+    }
+  ],
+  "features": [
+    {
+      "name": "Subscription Billing Module",
+      "description": "A new module that allows you to do recurring invoicing for contracts and services provided to customers, with capabilities to set frequency, periods, renewal and expiry dates, control revenue recognition through deferral modules, and manage recurring billing periods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 30.6,
+      "t_end": 106.4,
+      "is_demoed": false,
+      "caveats": [
+        "automated billing coming later"
+      ],
+      "tags": [
+        "subscription billing",
+        "recurring invoicing",
+        "contracts",
+        "deferral",
+        "expenses"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Subscription Billing Excel Reports",
+      "description": "Excel reports for subscription billing that will be provided in version 25.2, in addition to standard reports that come with the module.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 86.4,
+      "t_end": 106.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "subscription billing",
+        "excel",
+        "reporting"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Subscription Billing Word Layout and Power BI App",
+      "description": "A new word layout and a Power BI app for subscription billing that will provide embedded Power BI reporting for the module.",
+      "status": "announced",
+      "status_evidence_t": 86.4,
+      "status_evidence_quote": "a new word layout and a powerbi app which means that you will have embedded powerbi reporting for subscription billing but that will be",
+      "status_evidence_verified": true,
+      "t_start": 86.4,
+      "t_end": 106.4,
+      "is_demoed": false,
+      "caveats": [
+        "coming in next minor version"
+      ],
+      "tags": [
+        "subscription billing",
+        "power bi",
+        "reporting"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Automated Subscription Billing",
+      "description": "Automated billing capability that allows you to set up subscription billing once and let it run automatically.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 106.4,
+      "t_end": 126.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "subscription billing",
+        "automation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Default Quantity for G/L Lines",
+      "description": "A small toggle feature in sales and receivables or purchase and payables setup that sets the default quantity for G/L lines to one, similar to the item default quantity feature.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 106.4,
+      "t_end": 126.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "gl lines",
+        "setup",
+        "default quantity"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Power BI Apps for Financial Areas",
+      "description": "Power BI apps that will be delivered for six areas including Finance, Sales and Purchase. The Finance Power BI app includes 14 reports that will be embedded in the product with overview, KPIs and ledger entry drill-down capabilities.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 139.8,
+      "t_end": 172.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "power bi",
+        "reporting",
+        "embedded reports",
+        "kpis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Fixed Assets Query with Star Schema",
+      "description": "A query based on a star schema for fixed assets that allows you to query fixed asset ledger entries and create your own views. It queries multiple tables simultaneously for fact-finding and data validation purposes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 172.6,
+      "t_end": 213,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "fixed assets",
+        "star schema",
+        "query",
+        "ledger entries"
+      ],
+      "system": "fixed-assets"
+    },
+    {
+      "name": "Financial Reporting Module Templates",
+      "description": "Additional templates added to the financial reporting module where you can combine row definitions with column definitions to create custom reports. Five predefined reports are included: balance sheet, income statement (detailed and summarized), and trial balance.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 213,
+      "t_end": 253.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "financial reporting",
+        "templates",
+        "balance sheet",
+        "income statement",
+        "trial balance"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "query",
+      "name": "Fixed Assets Query",
+      "t": 172.6
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Brian Nilson",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 30.6,
+      "text": "subscription billing which is a module that allows you to do recurring invoicing for contracts for services that you provide to your customer",
+      "why_it_matters": "Introduces the main new feature for financial management, defining its scope and purpose.",
+      "check": "exact"
+    },
+    {
+      "t": 70.9,
+      "text": "in 25.2 we will provide you with Excel reports uh a new word layout and a powerbi app",
+      "why_it_matters": "Indicates roadmap timing for additional reporting capabilities for subscription billing.",
+      "check": "exact"
+    },
+    {
+      "t": 139.8,
+      "text": "the finance powerbi app includes 14 reports and they will be found as embedded reports in the product",
+      "why_it_matters": "Specifies the number of reports and their embedding in the product interface.",
+      "check": "exact"
+    },
+    {
+      "t": 172.6,
+      "text": "we have created a query it's a query based on a star schema so that you can query the fixed asset uh Ledger entries",
+      "why_it_matters": "Explains the architecture approach for fixed assets analytics and its benefits for querying multiple tables.",
+      "check": "exact"
+    },
+    {
+      "t": 213,
+      "text": "there are five predefined reports balance and income statement detailed or summarized and there's a trial balance",
+      "why_it_matters": "Details the specific predefined reports available in the financial reporting module.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 86.4,
+      "kind": "coming-later",
+      "text": "that will be in the next minor and sometime soon"
+    },
+    {
+      "t": 106.4,
+      "kind": "coming-later",
+      "text": "we will also do automated billing"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 0,
+    "evidence_verified": 1,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.016445
+    }
+  ]
+}

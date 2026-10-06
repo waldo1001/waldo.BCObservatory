@@ -1,0 +1,42 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Process.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Process",
+  "title": "Input Service Distribution Process",
+  "blob": "2520ee393087e7d9c2ee183b1dbb10d0fe5070b4",
+  "summary": "GST Input Service Distribution functionality distributes CGST and SGST/IGST paid on input services to other locations, with separate inter-state and intra-state distribution processes.",
+  "systems": [
+    "finance",
+    "localization",
+    "purchasing"
+  ],
+  "topics": [
+    "gst",
+    "input service distribution",
+    "tax credit",
+    "india",
+    "cgst",
+    "sgst",
+    "igst"
+  ],
+  "objects": [],
+  "features": [
+    "GST Distribution List",
+    "ISD Document Type",
+    "From Location Code",
+    "Distribution Basis",
+    "Distribution Percentage",
+    "Inter-state distribution",
+    "Intra-state distribution"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004773,
+      "pages_in_call": 8
+    }
+  ]
+}

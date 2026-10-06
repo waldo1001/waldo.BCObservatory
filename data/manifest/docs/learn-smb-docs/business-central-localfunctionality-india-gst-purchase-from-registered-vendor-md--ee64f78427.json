@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Registered-Vendor",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "e7deb5e2fe52eadc6b83f1bab7306952e6ce0bb2",
       "words": 786,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:24.806Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004773
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:24.851Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:24.852Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:24.853Z",
+      "page": false
     }
   },
   "input_hash": "e7deb5e2fe52eadc6b83f1bab7306952e6ce0bb2",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e7deb5e2fe52eadc6b83f1bab7306952e6ce0bb2"
+  "output_hash": "e894fc545904d06d8df3ffb3cee361321c30ecad3607fa44d701d7aed6cbb7ed"
 }

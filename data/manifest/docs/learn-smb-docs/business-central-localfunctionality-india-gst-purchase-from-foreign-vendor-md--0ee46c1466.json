@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Foreign-Vendor",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "9076f2c66584036d1fe3d8d93487a39f8ac8119e",
       "words": 733,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:24.806Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004773
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:24.849Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:24.850Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:24.850Z",
+      "page": false
     }
   },
   "input_hash": "9076f2c66584036d1fe3d8d93487a39f8ac8119e",
@@ -41,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9076f2c66584036d1fe3d8d93487a39f8ac8119e"
+  "output_hash": "749f522865f794da7e3531e5c1a79ceadb855d725ff68bd0cd7d0492f34b4ffa"
 }

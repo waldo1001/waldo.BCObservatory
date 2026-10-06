@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "51bc210bf66f1cf1c4d84165b5b5d0500c03d7be",
       "words": 542,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:24.808Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004773
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:24.857Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:24.858Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:24.859Z",
+      "page": false
     }
   },
   "input_hash": "51bc210bf66f1cf1c4d84165b5b5d0500c03d7be",
@@ -43,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "51bc210bf66f1cf1c4d84165b5b5d0500c03d7be"
+  "output_hash": "708352aa63783154027024862b29e85e7afc2fd39fa0583f18934bbf0d8c4ef1"
 }

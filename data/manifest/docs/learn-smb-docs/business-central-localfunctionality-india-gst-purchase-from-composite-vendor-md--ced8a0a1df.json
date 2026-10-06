@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Composite-Vendor",
   "published_at": "2025-07-21T13:19:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -17,6 +17,25 @@
       "blob": "61149f1102e30586061d26056e1fa7cf744b288b",
       "words": 233,
       "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-06T19:16:24.805Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004773
+    },
+    "summarized": {
+      "at": "2026-10-06T19:16:24.845Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-06T19:16:24.846Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-06T19:16:24.848Z",
+      "page": false
     }
   },
   "input_hash": "61149f1102e30586061d26056e1fa7cf744b288b",
@@ -42,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "61149f1102e30586061d26056e1fa7cf744b288b"
+  "output_hash": "cd1897b7f1e1a171050649c8916c5f90b6076511fb997b991cf763ecdec28af8"
 }

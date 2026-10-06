@@ -1,0 +1,52 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Transaction.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Input-Service-Distribution-Transaction",
+  "title": "Transactions for Input Service Distributor",
+  "blob": "4b4997f23c42c69dc1032d0e4941181d98ec6b1b",
+  "summary": "Input service distributor transactions handle purchase invoices and purchase returns with GST calculations for intra-state and inter-state transactions with availability or non-availability of input tax credit.",
+  "systems": [
+    "finance",
+    "localization",
+    "purchasing"
+  ],
+  "topics": [
+    "gst",
+    "input service distribution",
+    "purchase invoice",
+    "tax credit",
+    "india"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Invoice"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Return Order"
+    },
+    {
+      "type": "page",
+      "name": "Purchase Credit Memo"
+    }
+  ],
+  "features": [
+    "Input Service Distribution",
+    "GST Credit",
+    "Vendor location code",
+    "Service transactions",
+    "Intra-state transactions",
+    "Inter-state transactions"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004773,
+      "pages_in_call": 8
+    }
+  ]
+}

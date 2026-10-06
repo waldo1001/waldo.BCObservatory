@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM",
+  "title": "Purchase of Goods from an Unregistered Vendor (Reverse Charge)",
+  "blob": "51bc210bf66f1cf1c4d84165b5b5d0500c03d7be",
+  "summary": "Purchases from unregistered vendors have no GST except for notified services under reverse charge mechanism, with tax credit availment options and reverse charge exempt transactions.",
+  "systems": [
+    "finance",
+    "localization",
+    "purchasing"
+  ],
+  "topics": [
+    "gst",
+    "unregistered vendor",
+    "reverse charge",
+    "rcm",
+    "india",
+    "tax credit"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Purchase Invoice"
+    }
+  ],
+  "features": [
+    "Unregistered vendor",
+    "Reverse charge",
+    "GST Credit",
+    "Notified services",
+    "Intra-state transactions",
+    "Inter-state transactions",
+    "Reverse charge exempt"
+  ],
+  "versions": [],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004773,
+      "pages_in_call": 8
+    }
+  ]
+}
